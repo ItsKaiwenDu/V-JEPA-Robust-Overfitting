@@ -18,10 +18,12 @@ a focused report by day 21, with days 22-27 reserved for review and repairs.
 - [ ] Confirm university GPU access and inspect actual VRAM.
 - [x] Pin upstream source and implement the adapter and local CPU correctness tests.
 - [x] Audit full ViT-L tensor names/shapes against official checkpoint metadata.
-- [ ] Pin and load the official V-JEPA 2 model and predictor with verified weights.
+- [x] Pin and load the official V-JEPA 2 model and predictor with verified weights on CPU.
+- [x] Prepare grouped manifests, eight deterministic training clips, and real-clip attack sanity checks.
 - [ ] Prepare group-separated UCF101 manifests and deterministic clips.
 - [ ] Verify clean loss, target freezing, masks, input gradients, and pixel projection.
-- [ ] Implement native-loss PGD and baseline attacks with meaningful diagnostics.
+- [x] Implement native-loss PGD/FGSM with meaningful diagnostics.
+- [ ] Add embedding-distance baselines and complete stronger-attack/convergence diagnostics.
 - [ ] Measure training, evaluation, and storage cost; apply the feasibility gate.
 - [ ] Resolve pilot decisions and freeze the confirmatory protocol.
 - [ ] Launch the first complete clean/adversarial training trajectories.

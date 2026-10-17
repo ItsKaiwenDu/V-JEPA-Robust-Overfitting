@@ -1,0 +1,478 @@
+{
+  "class_ids": "zero-based; official classInd.txt indices minus one",
+  "classes": {
+    "ApplyEyeMakeup": 0,
+    "ApplyLipstick": 1,
+    "Archery": 2,
+    "BabyCrawling": 3,
+    "BalanceBeam": 4,
+    "BandMarching": 5,
+    "BaseballPitch": 6,
+    "Basketball": 7,
+    "BasketballDunk": 8,
+    "BenchPress": 9,
+    "Biking": 10,
+    "Billiards": 11,
+    "BlowDryHair": 12,
+    "BlowingCandles": 13,
+    "BodyWeightSquats": 14,
+    "Bowling": 15,
+    "BoxingPunchingBag": 16,
+    "BoxingSpeedBag": 17,
+    "BreastStroke": 18,
+    "BrushingTeeth": 19,
+    "CleanAndJerk": 20,
+    "CliffDiving": 21,
+    "CricketBowling": 22,
+    "CricketShot": 23,
+    "CuttingInKitchen": 24,
+    "Diving": 25,
+    "Drumming": 26,
+    "Fencing": 27,
+    "FieldHockeyPenalty": 28,
+    "FloorGymnastics": 29,
+    "FrisbeeCatch": 30,
+    "FrontCrawl": 31,
+    "GolfSwing": 32,
+    "Haircut": 33,
+    "HammerThrow": 35,
+    "Hammering": 34,
+    "HandstandPushups": 36,
+    "HandstandWalking": 37,
+    "HeadMassage": 38,
+    "HighJump": 39,
+    "HorseRace": 40,
+    "HorseRiding": 41,
+    "HulaHoop": 42,
+    "IceDancing": 43,
+    "JavelinThrow": 44,
+    "JugglingBalls": 45,
+    "JumpRope": 47,
+    "JumpingJack": 46,
+    "Kayaking": 48,
+    "Knitting": 49,
+    "LongJump": 50,
+    "Lunges": 51,
+    "MilitaryParade": 52,
+    "Mixing": 53,
+    "MoppingFloor": 54,
+    "Nunchucks": 55,
+    "ParallelBars": 56,
+    "PizzaTossing": 57,
+    "PlayingCello": 58,
+    "PlayingDaf": 59,
+    "PlayingDhol": 60,
+    "PlayingFlute": 61,
+    "PlayingGuitar": 62,
+    "PlayingPiano": 63,
+    "PlayingSitar": 64,
+    "PlayingTabla": 65,
+    "PlayingViolin": 66,
+    "PoleVault": 67,
+    "PommelHorse": 68,
+    "PullUps": 69,
+    "Punch": 70,
+    "PushUps": 71,
+    "Rafting": 72,
+    "RockClimbingIndoor": 73,
+    "RopeClimbing": 74,
+    "Rowing": 75,
+    "SalsaSpin": 76,
+    "ShavingBeard": 77,
+    "Shotput": 78,
+    "SkateBoarding": 79,
+    "Skiing": 80,
+    "Skijet": 81,
+    "SkyDiving": 82,
+    "SoccerJuggling": 83,
+    "SoccerPenalty": 84,
+    "StillRings": 85,
+    "SumoWrestling": 86,
+    "Surfing": 87,
+    "Swing": 88,
+    "TableTennisShot": 89,
+    "TaiChi": 90,
+    "TennisSwing": 91,
+    "ThrowDiscus": 92,
+    "TrampolineJumping": 93,
+    "Typing": 94,
+    "UnevenBars": 95,
+    "VolleyballSpiking": 96,
+    "WalkingWithDog": 97,
+    "WallPushups": 98,
+    "WritingOnBoard": 99,
+    "YoYo": 100
+  },
+  "counts": {
+    "test": 505,
+    "train": 2020,
+    "validation": 505
+  },
+  "files_sha256": {
+    "test.csv": "6de73dbcff7c31dc27b8e447cbd5eb75afa4f876a059e25b59c645d384418028",
+    "train.csv": "3b1c271a114a880358e107adf4385a1367bb224901ee47a867dec0c5b68cc212",
+    "validation.csv": "5c38b15f3c3935a7cb00ff418a4a4544453307b5007c2c342499f9899a0bf65c"
+  },
+  "held_out_validation_groups": {
+    "ApplyEyeMakeup": [
+      "ApplyEyeMakeup_g17"
+    ],
+    "ApplyLipstick": [
+      "ApplyLipstick_g15",
+      "ApplyLipstick_g25"
+    ],
+    "Archery": [
+      "Archery_g25"
+    ],
+    "BabyCrawling": [
+      "BabyCrawling_g13"
+    ],
+    "BalanceBeam": [
+      "BalanceBeam_g17"
+    ],
+    "BandMarching": [
+      "BandMarching_g24"
+    ],
+    "BaseballPitch": [
+      "BaseballPitch_g18"
+    ],
+    "Basketball": [
+      "Basketball_g21"
+    ],
+    "BasketballDunk": [
+      "BasketballDunk_g20"
+    ],
+    "BenchPress": [
+      "BenchPress_g16"
+    ],
+    "Biking": [
+      "Biking_g22"
+    ],
+    "Billiards": [
+      "Billiards_g14"
+    ],
+    "BlowDryHair": [
+      "BlowDryHair_g17",
+      "BlowDryHair_g19"
+    ],
+    "BlowingCandles": [
+      "BlowingCandles_g18",
+      "BlowingCandles_g23"
+    ],
+    "BodyWeightSquats": [
+      "BodyWeightSquats_g20"
+    ],
+    "Bowling": [
+      "Bowling_g13"
+    ],
+    "BoxingPunchingBag": [
+      "BoxingPunchingBag_g10",
+      "BoxingPunchingBag_g18"
+    ],
+    "BoxingSpeedBag": [
+      "BoxingSpeedBag_g19"
+    ],
+    "BreastStroke": [
+      "BreastStroke_g20",
+      "BreastStroke_g22"
+    ],
+    "BrushingTeeth": [
+      "BrushingTeeth_g19"
+    ],
+    "CleanAndJerk": [
+      "CleanAndJerk_g12"
+    ],
+    "CliffDiving": [
+      "CliffDiving_g17"
+    ],
+    "CricketBowling": [
+      "CricketBowling_g25"
+    ],
+    "CricketShot": [
+      "CricketShot_g15"
+    ],
+    "CuttingInKitchen": [
+      "CuttingInKitchen_g10",
+      "CuttingInKitchen_g23"
+    ],
+    "Diving": [
+      "Diving_g08"
+    ],
+    "Drumming": [
+      "Drumming_g15"
+    ],
+    "Fencing": [
+      "Fencing_g09",
+      "Fencing_g17"
+    ],
+    "FieldHockeyPenalty": [
+      "FieldHockeyPenalty_g09",
+      "FieldHockeyPenalty_g22"
+    ],
+    "FloorGymnastics": [
+      "FloorGymnastics_g16",
+      "FloorGymnastics_g19"
+    ],
+    "FrisbeeCatch": [
+      "FrisbeeCatch_g17"
+    ],
+    "FrontCrawl": [
+      "FrontCrawl_g14"
+    ],
+    "GolfSwing": [
+      "GolfSwing_g14",
+      "GolfSwing_g15"
+    ],
+    "Haircut": [
+      "Haircut_g11",
+      "Haircut_g17"
+    ],
+    "HammerThrow": [
+      "HammerThrow_g17"
+    ],
+    "Hammering": [
+      "Hammering_g10"
+    ],
+    "HandstandPushups": [
+      "HandstandPushups_g20"
+    ],
+    "HandstandWalking": [
+      "HandstandWalking_g10",
+      "HandstandWalking_g14"
+    ],
+    "HeadMassage": [
+      "HeadMassage_g22"
+    ],
+    "HighJump": [
+      "HighJump_g18",
+      "HighJump_g20"
+    ],
+    "HorseRace": [
+      "HorseRace_g22",
+      "HorseRace_g24"
+    ],
+    "HorseRiding": [
+      "HorseRiding_g17"
+    ],
+    "HulaHoop": [
+      "HulaHoop_g15"
+    ],
+    "IceDancing": [
+      "IceDancing_g21"
+    ],
+    "JavelinThrow": [
+      "JavelinThrow_g19",
+      "JavelinThrow_g22"
+    ],
+    "JugglingBalls": [
+      "JugglingBalls_g22"
+    ],
+    "JumpRope": [
+      "JumpRope_g09"
+    ],
+    "JumpingJack": [
+      "JumpingJack_g10"
+    ],
+    "Kayaking": [
+      "Kayaking_g10"
+    ],
+    "Knitting": [
+      "Knitting_g15"
+    ],
+    "LongJump": [
+      "LongJump_g11"
+    ],
+    "Lunges": [
+      "Lunges_g17",
+      "Lunges_g25"
+    ],
+    "MilitaryParade": [
+      "MilitaryParade_g10"
+    ],
+    "Mixing": [
+      "Mixing_g16",
+      "Mixing_g19"
+    ],
+    "MoppingFloor": [
+      "MoppingFloor_g12",
+      "MoppingFloor_g22"
+    ],
+    "Nunchucks": [
+      "Nunchucks_g24"
+    ],
+    "ParallelBars": [
+      "ParallelBars_g18",
+      "ParallelBars_g24"
+    ],
+    "PizzaTossing": [
+      "PizzaTossing_g10",
+      "PizzaTossing_g13"
+    ],
+    "PlayingCello": [
+      "PlayingCello_g24"
+    ],
+    "PlayingDaf": [
+      "PlayingDaf_g09"
+    ],
+    "PlayingDhol": [
+      "PlayingDhol_g22"
+    ],
+    "PlayingFlute": [
+      "PlayingFlute_g12"
+    ],
+    "PlayingGuitar": [
+      "PlayingGuitar_g09",
+      "PlayingGuitar_g14"
+    ],
+    "PlayingPiano": [
+      "PlayingPiano_g16",
+      "PlayingPiano_g19"
+    ],
+    "PlayingSitar": [
+      "PlayingSitar_g09"
+    ],
+    "PlayingTabla": [
+      "PlayingTabla_g08",
+      "PlayingTabla_g18"
+    ],
+    "PlayingViolin": [
+      "PlayingViolin_g23",
+      "PlayingViolin_g25"
+    ],
+    "PoleVault": [
+      "PoleVault_g20"
+    ],
+    "PommelHorse": [
+      "PommelHorse_g22"
+    ],
+    "PullUps": [
+      "PullUps_g13",
+      "PullUps_g20"
+    ],
+    "Punch": [
+      "Punch_g12"
+    ],
+    "PushUps": [
+      "PushUps_g16",
+      "PushUps_g24"
+    ],
+    "Rafting": [
+      "Rafting_g20",
+      "Rafting_g25"
+    ],
+    "RockClimbingIndoor": [
+      "RockClimbingIndoor_g16"
+    ],
+    "RopeClimbing": [
+      "RopeClimbing_g17"
+    ],
+    "Rowing": [
+      "Rowing_g25"
+    ],
+    "SalsaSpin": [
+      "SalsaSpin_g11"
+    ],
+    "ShavingBeard": [
+      "ShavingBeard_g17"
+    ],
+    "Shotput": [
+      "Shotput_g25"
+    ],
+    "SkateBoarding": [
+      "SkateBoarding_g25"
+    ],
+    "Skiing": [
+      "Skiing_g12",
+      "Skiing_g15"
+    ],
+    "Skijet": [
+      "Skijet_g13",
+      "Skijet_g19"
+    ],
+    "SkyDiving": [
+      "SkyDiving_g11",
+      "SkyDiving_g22"
+    ],
+    "SoccerJuggling": [
+      "SoccerJuggling_g13"
+    ],
+    "SoccerPenalty": [
+      "SoccerPenalty_g24"
+    ],
+    "StillRings": [
+      "StillRings_g14",
+      "StillRings_g19"
+    ],
+    "SumoWrestling": [
+      "SumoWrestling_g13",
+      "SumoWrestling_g23"
+    ],
+    "Surfing": [
+      "Surfing_g16"
+    ],
+    "Swing": [
+      "Swing_g10",
+      "Swing_g19"
+    ],
+    "TableTennisShot": [
+      "TableTennisShot_g15"
+    ],
+    "TaiChi": [
+      "TaiChi_g23",
+      "TaiChi_g24"
+    ],
+    "TennisSwing": [
+      "TennisSwing_g18"
+    ],
+    "ThrowDiscus": [
+      "ThrowDiscus_g23"
+    ],
+    "TrampolineJumping": [
+      "TrampolineJumping_g16",
+      "TrampolineJumping_g18"
+    ],
+    "Typing": [
+      "Typing_g15",
+      "Typing_g18"
+    ],
+    "UnevenBars": [
+      "UnevenBars_g11",
+      "UnevenBars_g14"
+    ],
+    "VolleyballSpiking": [
+      "VolleyballSpiking_g17",
+      "VolleyballSpiking_g21"
+    ],
+    "WalkingWithDog": [
+      "WalkingWithDog_g10",
+      "WalkingWithDog_g21"
+    ],
+    "WallPushups": [
+      "WallPushups_g10",
+      "WallPushups_g24"
+    ],
+    "WritingOnBoard": [
+      "WritingOnBoard_g18"
+    ],
+    "YoYo": [
+      "YoYo_g22"
+    ]
+  },
+  "manifest_sha256": "bf773c186fcff9ca255896daf601d56f3e6dece3ac404e334afff784b6726ed7",
+  "official_split": 1,
+  "per_class": {
+    "test": 5,
+    "train": 20,
+    "validation": 5
+  },
+  "preprocessing_locked": false,
+  "recipe": "ucf101-split1-grouped-v1",
+  "seed": 20261016,
+  "source_files_sha256": {
+    "classInd.txt": "d7abbb76074d04e80c62ad8a61529bb8eec32ef978569601b2890edec3af0359",
+    "testlist01.txt": "81be4765084d72739dca4d11658f7ec369c441ad9e227f11d9468fe2a1c14890",
+    "trainlist01.txt": "f7a4d7abc05147b921c17fc227d731197c3583f29945d1f1d46bce830d1b9f12"
+  },
+  "source_url": "https://www.crcv.ucf.edu/data/UCF101/UCF101TrainTestSplits-RecognitionTask.zip",
+  "video_content_checked": false
+}

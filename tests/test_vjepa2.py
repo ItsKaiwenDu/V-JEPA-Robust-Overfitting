@@ -197,3 +197,34 @@ def test_raw_pixel_space_and_detached_targets_are_enforced(model, pixels, masks)
 def test_wrong_upstream_revision_is_rejected(upstream):
     with pytest.raises(ValueError, match="revision mismatch"):
         use_upstream(upstream, "0" * 40)
+
+
+def test_native_pgd_increases_loss_without_changing_model_or_targets(model, pixels, masks):
+    from attacks.pgd import native_objective, pgd_linf
+
+    targets = model.clean_targets(pixels)
+    reference_targets = targets.clone()
+    before = state_digest(model)
+    objective = native_objective(model, targets, [masks])
+    with torch.no_grad():
+        clean_loss = objective(pixels)
+    result = pgd_linf(objective, pixels, epsilon=4/255, step_size=1/255, steps=3)
+    assert (result.losses >= clean_loss).all() and (result.losses > clean_loss).any()
+    assert (result.adversarial - pixels).abs().max() <= 4/255 + 1e-7
+    assert state_digest(model) == before and torch.equal(targets, reference_targets)
+    assert all(p.grad is None for p in model.parameters())
+
+
+@pytest.mark.parametrize('adversarial', [False, True])
+def test_pilot_update_changes_only_trainable_components(model, pixels, masks, adversarial):
+    from models.pilot import effective_update, optimizer_for
+
+    before = state_digest(model.target_encoder)
+    context_before = state_digest(model.encoder)
+    targets = model.clean_targets(pixels)
+    optimizer = optimizer_for(model)
+    loss = effective_update(model, optimizer, lambda i: (pixels, targets), lambda i: masks,
+                            adversarial=adversarial, accumulation=2)
+    assert loss > 0 and state_digest(model.target_encoder) == before
+    assert state_digest(model.encoder) != context_before
+    assert all(p.grad is None for p in model.parameters())

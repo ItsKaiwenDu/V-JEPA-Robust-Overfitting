@@ -1,14 +1,16 @@
 # Scientific acceptance tests
 
-Twenty CPU tests in [test_vjepa2.py](test_vjepa2.py) exercise small instances
-of the pinned upstream architecture: native-loss agreement, finite
-differences, masking, frozen targets, parameter updates, checkpoint loading,
-and deterministic masks. Run them with `python -m pytest -q tests
+Forty-eight local tests exercise the pinned upstream architecture,
+pixel attacks, grouped dataset splits, video sampling/decoding, and the
+pilot's optimizer update. This includes an FFmpeg AVI regression test;
+it is explicitly skipped when FFmpeg/FFprobe are unavailable. Run with
+`python -m pytest -q tests
 --upstream external/vjepa2` after [local setup](../docs/smoke_test.md).
 
 The GitHub workflow still checks only the scaffold and Python syntax; the
-model tests have been run locally. Full pretrained, dataset, attack, and
-training tests remain upcoming. Add meaningful tests alongside the
+tests have been run locally, and separate full-pretrained/real-clip reports
+are in `report/checks/`. CUDA, complete dataset integrity, stronger attack
+convergence, and training-resume checks remain upcoming. Add tests alongside the
 corresponding implementation, including:
 
 - Pixel-space perturbation bounds, clipping, and zero-epsilon equivalence.

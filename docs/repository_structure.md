@@ -22,15 +22,17 @@ New locations:
 | Location | Why it is useful |
 | --- | --- |
 | `configs/` | One readable draft study specification; local paths separated |
+| `attacks/` | Raw-pixel FGSM/PGD and native-loss objectives with fixed mask banks |
+| `datasets/` | Grouped UCF101 manifests and deterministic video preprocessing |
 | `docs/` | Detailed protocol and reproducibility guidance without bloating the README |
 | `data/manifests/` | Reviewable, relative-path split definitions and group membership |
 | `external/` | A separately pinned Meta checkout with its own license |
-| `tests/` | A home for meaningful attack/training tests as implementation begins |
+| `tests/` | CPU checks for integration, attacks, data separation, decoding, and pilot updates |
 | `.github/` | Lightweight repository checks and experiment/review templates |
 
-Keep source code in `models/` and `scripts/` initially. Add an `attacks/` or
-`datasets/` package when actual reusable implementation warrants it. There
-is no parallel `src/` tree, copied ResNet code, or unused training stub.
+Reusable code lives in `models/`, `attacks/`, and `datasets/`; commands live
+in `scripts/`. The CUDA feasibility pilot is implemented, while the full
+training and checkpoint-evaluation runners remain upcoming work.
 
 ## Result organization
 

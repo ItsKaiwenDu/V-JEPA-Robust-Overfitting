@@ -2,7 +2,7 @@
 # Null provenance/runtime fields must be resolved before confirmatory runs.
 schema_version: 1
 status: draft
-protocol_version: "0.2"
+protocol_version: "0.3"
 project: vjepa-robust-overfitting
 
 model:
@@ -10,7 +10,7 @@ model:
   upstream_repository: https://github.com/facebookresearch/vjepa2
   upstream_commit: 204698b45b3712590f06245fbfba32d3be539812
   checkpoint_url: https://dl.fbaipublicfiles.com/vjepa2/vitl.pt
-  checkpoint_sha256: null
+  checkpoint_sha256: 5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012
   context_checkpoint_key: encoder
   target_checkpoint_key: target_encoder
   predictor_checkpoint_key: predictor
@@ -32,7 +32,8 @@ data:
   dataset: UCF101
   official_split: 1
   manifest_seed: 20261016
-  manifest_sha256: null
+  manifest_directory: data/manifests/ucf101-split1-v1
+  manifest_sha256: bf773c186fcff9ca255896daf601d56f3e6dece3ac404e334afff784b6726ed7
   group_disjoint: true
   videos_per_class:
     train: 20
@@ -43,7 +44,8 @@ data:
   crop_size: 256
   clips_per_video: 1
   deterministic_preprocessing: true
-  preprocessing_version: null
+  preprocessing_version: cfr-repair-center-4fps-16f-shortside256-centercrop-bilinear-aa-v1
+  preprocessing_status: pilot_validated_not_confirmatory_locked
   cache_clean_targets: true
 
 conditions:

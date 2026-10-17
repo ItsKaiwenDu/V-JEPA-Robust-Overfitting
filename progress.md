@@ -1,5 +1,67 @@
 # Research Progress Reports
 
+## 2026-10-17 — Pretrained checks, real clips, and CUDA pilot preparation
+
+Loaded the complete official ViT-L checkpoint with strict encoder, target,
+and predictor state checks. Its SHA-256 is now pinned in protocol 0.3 and
+`configs/study.yaml`. The full CPU smoke check passed native/upstream loss
+parity, replay, finite nonzero gradients, and target freezing. This used
+synthetic input and took no optimizer step; see the
+[pretrained report](report/checks/2026-10-17-pretrained-smoke.json).
+
+Implemented native-objective FGSM/PGD, fixed mask-bank EOT, grouped UCF101
+manifest generation, deterministic clip decoding, and a small CUDA timing
+pilot. The official split-1 annotations produced 2,020 training, 505
+validation, and 505 test entries, with no shared video IDs or source groups.
+The manifest aggregate SHA-256 is
+`bf773c186fcff9ca255896daf601d56f3e6dece3ac404e334afff784b6726ed7`.
+Video-content duplication and full dataset integrity remain unchecked.
+
+Downloaded the official dataset archive and extracted eight training clips.
+The initial AVI decode exposed missing final B-frame timestamps; FFmpeg's
+generated-timestamp option introduced duplicate timestamps. The final
+decoder preserves observed timestamps and repairs missing entries only
+when all observations match the declared constant frame rate. A regression
+test covers this case. All eight clips decoded successfully and reproduced
+identical pixel hashes on a second decode. No final-test video was decoded
+or evaluated. Sources, hashes, selected frames, and repairs are recorded in
+[the data preparation report](report/checks/2026-10-17-data-preparation.json).
+
+On one real training clip with the released full model, clean native loss
+was 0.580584; FGSM increased the attack-bank loss to 0.622708 and PGD-5 to
+0.693803. Both stayed within 4/255, and all model weights and parameter
+gradients remained unchanged. Independent scoring masks were also recorded.
+This is an implementation diagnostic, not a robustness benchmark or evidence
+of robust overfitting. See the
+[attack report](report/checks/2026-10-17-real-clip-attacks.json).
+
+**Verification:** 48 local CPU tests passed, including actual pinned upstream
+loss integration, attack behavior, grouped splits, FFmpeg AVI decoding,
+and clean/adversarial pilot optimizer updates on small fixtures. There were
+15 upstream deprecation warnings. CUDA execution has not been tested; the
+local Python runtime exposes neither CUDA nor MPS. GitHub CI checks scaffold
+and syntax only and does not run these scientific checks.
+
+**Provenance:** The pretrained smoke report records clean project commit
+`56e1417de2100b9e45f6e5fad1163a13f0763ada`; the real-clip attack report records
+hashes of the new source files used. All model checks use upstream revision
+`204698b45b3712590f06245fbfba32d3be539812`. Checkpoint, archives, extracted
+videos, processed clips, and the upstream checkout are stored locally in
+ignored directories; small diagnostic reports and split manifests are tracked
+research artifacts. The local checks used an isolated temporary Python 3.11
+environment, not a validated CUDA environment.
+
+**Compute:** No Lambda instance, rented GPU, or paid compute was used.
+The $200 total allowance remains unspent. Confirmatory training, full
+evaluation, stronger-attack convergence, and robust-overfitting measurements
+have not started.
+
+**Next human action:** Provide access to an allocated university CUDA GPU
+or run the environment commands in [the GPU pilot guide](docs/gpu_pilot.md).
+The pilot will measure memory, update time, and attack-evaluation time before
+choosing a feasible schedule or considering a rental. The full training
+runner, resume support, and total cost validation remain upcoming work.
+
 ## 2026-10-17 — Repository move and local model integration
 
 Verified the new root README at

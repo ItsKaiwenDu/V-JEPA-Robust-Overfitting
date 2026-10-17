@@ -1,6 +1,6 @@
 # Experimental protocol
 
-Version 0.2, updated October 17, 2026. **Proposed; not preregistered or validated.**
+Version 0.3, updated October 17, 2026. **Proposed; not preregistered or validated as a complete study.**
 Numerical defaults live in [configs/study.yaml](../configs/study.yaml).
 
 ## Question and scope
@@ -21,7 +21,8 @@ metadata. Both mask families use token index 0 for our single sequence-length
 group, following the upstream wrapper. Input normalization uses mean
 `[0.485, 0.456, 0.406]` and standard deviation `[0.229, 0.224, 0.225]` inside
 the differentiable pixel path. Small local fixtures test these operations;
-the full pretrained smoke test and checkpoint hash remain pending. See
+the full pretrained CPU smoke test now passes and its hash is recorded. CUDA
+feasibility remains pending. See
 [local model checks](smoke_test.md).
 
 The pretrained target encoder remains fixed for the entire study. Updating
@@ -40,11 +41,15 @@ to training. Use manifest seed 20261016 and share the resulting manifests
 across all training seeds.
 
 Create one deterministic 16-frame, 256 x 256 clip per video and cache its clean
-target features. Exact frame timestamps, short-video handling, resizing,
-normalization, decoder version, and any corruption exclusions must be
-specified and checked during the pilot. Freeze this preprocessing before
-confirmatory runs. The initial controlled experiment does not use stochastic
-image augmentation; masks remain stochastic.
+target features. The proposed [preprocessing recipe](data_and_attacks.md)
+uses a centered 4 FPS window, nearest-frame selection, repeat-last handling
+for short videos, short-side resize, and center crop. Missing AVI timestamps
+are repaired only when every observed timestamp matches the declared
+constant frame rate; every repaired entry is recorded. Eight training clips
+have been decoded and reproduced exactly. Full dataset corruption/duplicate
+checks and target caching remain pending. Freeze the complete preparation
+before confirmatory runs. There is no stochastic image augmentation; masks
+remain stochastic.
 
 Labels are used for balanced sampling and probes, never for the native
 fine-tuning objective. A held-out adaptation split is not a guarantee that

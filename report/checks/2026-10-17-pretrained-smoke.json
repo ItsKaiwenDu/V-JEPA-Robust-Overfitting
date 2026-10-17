@@ -1,0 +1,76 @@
+{
+  "kind": "synthetic_pretrained_smoke_test",
+  "research_result": false,
+  "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+  "checkpoint": {
+    "sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+    "bytes": 5127726842,
+    "epoch": 40,
+    "components": {
+      "encoder": {
+        "state_tensors": 292,
+        "elements": 303885312
+      },
+      "target_encoder": {
+        "state_tensors": 292,
+        "elements": 303885312
+      },
+      "predictor": {
+        "state_tensors": 160,
+        "elements": 22086016
+      }
+    }
+  },
+  "device": "cpu",
+  "seed": 0,
+  "python": "3.11.16",
+  "packages": {
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "timm": "1.0.30",
+    "einops": "0.8.2",
+    "numpy": "2.4.6",
+    "PyYAML": "6.0.3"
+  },
+  "project_commit": "56e1417de2100b9e45f6e5fad1163a13f0763ada",
+  "project_dirty": false,
+  "mask_shapes": [
+    {
+      "context": [
+        1,
+        512
+      ],
+      "target": [
+        1,
+        1536
+      ]
+    },
+    {
+      "context": [
+        1,
+        608
+      ],
+      "target": [
+        1,
+        1440
+      ]
+    }
+  ],
+  "checks": {
+    "passed": true,
+    "loss": 0.4819837212562561,
+    "upstream_loss": 0.4819837212562561,
+    "replay_loss": 0.4819837212562561,
+    "input_gradient_abs_max": 0.002743585966527462,
+    "parameter_gradient_l2": {
+      "encoder": 0.5393729083255938,
+      "predictor": 0.2536092680162192
+    },
+    "target_state_sha256": "706035d33251fb7e71aef53f3134ad1ce470399feeb53e08019eb82ed360c8de",
+    "elapsed_seconds": 14.803537083003903,
+    "limitations": [
+      "Synthetic input; no video decoding or dataset validation.",
+      "No attack, optimizer run, training curve, or cost estimate."
+    ]
+  }
+}

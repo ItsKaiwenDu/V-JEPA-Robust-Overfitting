@@ -3,7 +3,9 @@
 This is the first implementation step. It does not require Lambda, a dataset,
 or access to the university machine. The CPU tests use small randomly
 initialized instances of Meta's architecture. A separate command is ready
-for the full released checkpoint, but that command has not yet been run.
+for the full released checkpoint has now passed on CPU; its
+[report](../report/checks/2026-10-17-pretrained-smoke.json) records the exact
+hash and results. CUDA memory/runtime are still unverified.
 
 ## Create an isolated environment
 
@@ -61,7 +63,7 @@ heads, layers, and tokens. They do not measure pretrained robustness.
 Upstream emits deprecation warnings for timm imports and PyTorch's SDPA
 context manager; these are recorded rather than hidden or patched upstream.
 
-## Full pretrained smoke test — subsequent step
+## Full pretrained smoke test
 
 The official file is approximately 5.13 GB (4.78 GiB). Downloading and
 running this check is explicit; neither the unit tests nor the script will
@@ -93,8 +95,8 @@ always computes and records the actual hash, even when this option is
 omitted. It loads with `weights_only=True`, audits all three states, and
 uses `strict=True`; it never falls back to reinitializing trained layers.
 `--device cpu` and `--device mps` are explicit alternatives. Full ViT-L
-memory use and runtime on those devices remain unmeasured; the default is
-CPU, not automatic GPU selection.
+CPU correctness has been checked, while MPS and CUDA behavior remain
+unmeasured. The default is CPU, not automatic GPU selection.
 
 This command checks one synthetic 16-frame, 256-square FP32 clip. It checks
 native-loss parity, finite nonzero input and parameter gradients, target
@@ -104,11 +106,10 @@ and dirty state, mask dimensions, and check results. Existing report files
 are rejected. An exception or nonzero exit status is a failed check, not a
 partial pass. Save the console output when investigating failures.
 
-After a successful full-checkpoint run, record its hash in
-`configs/study.yaml` and promote the small reviewed report to `report/checks/`.
-The next stages are real-video preprocessing, attack correctness, and an
-end-to-end GPU cost pilot. Only that pilot can justify a training schedule
-or a Lambda rental.
+The successful CPU run and checkpoint hash are recorded in `report/checks/`
+and `configs/study.yaml`. Local real-video and attack checks are also
+available. The next external dependency is the [CUDA feasibility pilot](gpu_pilot.md).
+Only measured complete costs can justify a training schedule or a rental.
 
 ## Upstream implementation details
 

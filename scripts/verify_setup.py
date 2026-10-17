@@ -22,6 +22,10 @@ REQUIRED_FILES = (
     "docs/repository_structure.md", "docs/reproducibility.md", "docs/decisions.md",
     "models/__init__.py", "models/README.md", "models/vjepa2.py", "models/diagnostics.py",
     "scripts/README.md", "scripts/smoke_test.py", "tests/test_vjepa2.py", "docs/smoke_test.md",
+    "attacks/__init__.py", "attacks/pgd.py", "datasets/__init__.py", "datasets/ucf101.py",
+    "datasets/video.py", "models/pilot.py", "scripts/prepare_data.py", "scripts/prepare_clips.py",
+    "scripts/check_attacks.py", "scripts/pilot.py", "docs/data_and_attacks.md", "docs/gpu_pilot.md",
+    "tests/test_attacks.py", "tests/test_ucf101.py", "tests/test_video.py",
     "notes/README.md", "notes/2026-10-16_novelty-audit.md",
     "report/main.tex", "report/references.bib", "report/README.md",
     "data/manifests/README.md", "external/README.md", "tests/README.md",
@@ -102,7 +106,7 @@ def main() -> int:
     if errors:
         return 1
     print("PASS: Scaffold files and YAML syntax are valid.")
-    print("Training readiness is unverified: model, data, gradients, and cost need a pilot.")
+    print("This scaffold check does not certify GPU training readiness; run the CUDA feasibility pilot.")
     return 0
 
 

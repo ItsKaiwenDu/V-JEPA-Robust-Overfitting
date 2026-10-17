@@ -7,7 +7,11 @@
 | `features/` | Clean frozen-target feature cache | Ignored |
 | [manifests/](manifests/README.md) | Small split definitions, grouping, checksums, and provenance | Tracked when prepared |
 
-The directories are empty. No data preparation or downloader has run.
+Grouped manifests are prepared in `manifests/ucf101-split1-v1/`. Official
+archives and eight extracted training videos are stored locally under
+`raw/`, with eight deterministic pilot clips under `processed/pilot-train-v1/`.
+Large assets remain ignored. Only those eight training videos have been
+decoded; complete dataset integrity and clean-target feature caching remain pending.
 
 Use the [official UCF101 source](https://www.crcv.ucf.edu/research/data-sets/ucf101/)
 and record archive checksums and annotation versions. Follow the

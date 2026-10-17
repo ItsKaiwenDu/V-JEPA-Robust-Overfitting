@@ -44,14 +44,35 @@ are still unverified. See [the smoke-test guide](smoke_test.md).
 
 ## Decisions still requiring pilot evidence
 
-- Full checkpoint hash and successful strict loading/execution; the source
-  revision and checkpoint metadata keys/shapes have been inspected.
-- Deterministic temporal sampling, resizing, decoding, and short-clip policy.
+- CUDA execution and memory/runtime on the actual experiment hardware.
+- Full-dataset decoding, corruption/duplicate checks, and final preprocessing lock.
 - GPU microbatch, accumulation, precision, and optimizer implementation details.
 - Evaluation step sizes, fixed subsets, attack/scoring mask banks, and probes.
 - Measured end-to-end cost and whether 20 or 10 training videos per class fit.
 
 Resolve these before locking the protocol, without using final test outcomes.
+
+## 2026-10-17 — Pretrained/data/attack checks (protocol 0.3)
+
+The official checkpoint passed strict CPU loading, native-loss agreement,
+input/parameter gradients, target freezing, and replay. Its SHA-256 is now
+recorded. Official split-1 metadata yields 20/5/5 videos per class with
+source-group separation and manifest hash recorded in the study config.
+
+Choose the documented centered 4 FPS deterministic clip recipe for the
+pilot. Real AVI inspection revealed a missing final timestamp; blindly
+enabling FFmpeg's `genpts` also duplicated an existing timestamp. Preserve
+observed timestamps and fill only missing entries when all observations
+agree with the declared constant frame rate. Record repairs, decoder version,
+source bytes, and exact processed-pixel hashes. This is a pilot-tested
+proposal; complete dataset integrity and preprocessing lock remain pending.
+
+The PGD implementation keeps the strongest attack-bank candidate per example
+over clean input, starts, and all iterates. Independent masks are reserved
+for scoring. The feasibility pilot uses FP32, microbatch 1, accumulation 8,
+and explicit AdamW defaults; these do not silently fix the final precision
+or monitoring/evaluation configuration. No cloud spending is authorized by
+a pilot result alone; retain the existing measured cost gate.
 
 ## Change record template
 

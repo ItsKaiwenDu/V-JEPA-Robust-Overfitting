@@ -2,7 +2,7 @@
 
 **Research question:** During adversarial fine-tuning of V-JEPA 2's native masked prediction loss, does performance on unseen videos deteriorate after initially improving, even while adversarial training loss continues to decrease?
 
-**Status: local model integration and draft experimental protocol.** The V-JEPA adapter and synthetic smoke-test command are implemented, with 20 CPU tests passing on small upstream model fixtures. Full pretrained checkpoint execution, real-video processing, training, and robustness evaluation remain pending. No research results are available.
+**Status: local pretrained, data, and attack checks passed; CUDA pilot pending.** The released checkpoint passes the native-loss/gradient smoke test. Grouped manifests, eight real training clips, and bounded FGSM/PGD checks are prepared, with 48 local tests passing. These are correctness diagnostics; no robust-overfitting findings or confirmatory training results are available.
 
 This project extends our [previous robust-overfitting research](https://github.com/ItsKaiwenDu/Robust-Overfitting) to latent video prediction. It retains the familiar `models/`, `scripts/`, `notes/`, and `report/` organization, along with weekly goals, progress reports, and a Lambda Labs guide.
 
@@ -21,7 +21,9 @@ The intended contribution is a controlled study of training dynamics and their d
 | [Experimental protocol](docs/experimental_protocol.md) | Threat model, data split, training conditions, evaluation, and interpretation |
 | [Study configuration](configs/study.yaml) | Machine-readable draft settings and unresolved provenance fields |
 | [Setup guide](docs/setup.md) | Local development and university GPU preparation |
-| [Local model checks](docs/smoke_test.md) | CPU tests now; explicit full-checkpoint smoke test next |
+| [Local model checks](docs/smoke_test.md) | Pretrained checkpoint and native-loss correctness checks |
+| [Data and attacks](docs/data_and_attacks.md) | Grouped subsets, reproducible clips, and pixel-space attacks |
+| [CUDA pilot handoff](docs/gpu_pilot.md) | Next human action and an explicit GPU feasibility command |
 | [Lambda Labs guide](setup_lambda_labs.md) | Rental workflow and the $200 spending limit |
 | [Repository structure](docs/repository_structure.md) | How the familiar folders map to this project |
 | [Goals](goals.md) / [Progress](progress.md) | Planned milestones and completed work |
@@ -73,8 +75,11 @@ These commands inspect the environment without downloading models, preparing dat
 | Script | Status |
 | --- | --- |
 | [`scripts/verify_setup.py`](scripts/verify_setup.py) | Implemented: scaffold, YAML, and optional device checks |
-| [`scripts/smoke_test.py`](scripts/smoke_test.py) | Implemented: strict local checkpoint loading and synthetic loss/gradient checks; full pretrained run pending |
-| `scripts/prepare_data.py` | Planned: grouped manifests and deterministic clips |
+| [`scripts/smoke_test.py`](scripts/smoke_test.py) | Passed on the official pretrained checkpoint using CPU; CUDA run pending |
+| [`scripts/prepare_data.py`](scripts/prepare_data.py) | Implemented: source-group-separated manifests from official split lists |
+| [`scripts/prepare_clips.py`](scripts/prepare_clips.py) | Implemented: deterministic training/validation clips; eight pilot clips validated |
+| [`scripts/check_attacks.py`](scripts/check_attacks.py) | Implemented: real-clip FGSM/PGD sanity checks; one training clip checked |
+| [`scripts/pilot.py`](scripts/pilot.py) | Implemented: FP32 CUDA update/evaluation timing; requires GPU access |
 | `scripts/train.py` | Planned: clean and adversarial fine-tuning |
 | `scripts/evaluate.py` | Planned: checkpoint and downstream evaluation |
 | `scripts/run_report_checks.py` | Planned: attack and implementation diagnostics |
@@ -86,6 +91,7 @@ These commands inspect the environment without downloading models, preparing dat
 V-JEPA-Robust-Overfitting/
 ├── .github/                 # Repository checks and contribution templates
 ├── assets/                  # Small README and presentation assets
+├── attacks/                 # Bounded FGSM/PGD and fixed-mask/EOT objectives
 ├── configs/                 # Study settings and local path example
 ├── data/                    # Local videos/features; tracked split manifests
 │   ├── manifests/
@@ -93,6 +99,7 @@ V-JEPA-Robust-Overfitting/
 │   ├── processed/           # Ignored
 │   └── features/            # Ignored
 ├── docs/                    # Protocol, setup, decisions, reproducibility
+├── datasets/                # Official split parser and deterministic decoder
 ├── external/                # Ignored upstream checkout; instructions tracked
 ├── models/                  # V-JEPA adapter, frozen targets, loss, diagnostics
 ├── notes/                   # Literature notes and dated novelty audits
@@ -132,7 +139,7 @@ Use `seed-0`, `seed-1`, and `seed-2` for the first locked experiment. Repeated r
 
 ## Results
 
-No results yet. Planned outputs include clean/adversarial loss trajectories, best-versus-final gaps, attack-strength checks, and linear-probe accuracy. Report observed overfitting, no observed effect, and inconclusive experiments distinctly.
+No research results yet. [Correctness diagnostics](report/checks/2026-10-17-pretrained-smoke.json) and [one training-clip attack check](report/checks/2026-10-17-real-clip-attacks.json) are available. Planned research outputs include clean/adversarial loss trajectories, best-versus-final gaps, attack-strength checks, and linear-probe accuracy. Report observed overfitting, no observed effect, and inconclusive experiments distinctly.
 
 ## Weekly Goals & Progress
 

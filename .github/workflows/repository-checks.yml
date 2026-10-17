@@ -22,4 +22,4 @@ jobs:
       - name: Verify scaffold and configuration syntax
         run: python scripts/verify_setup.py
       - name: Check Python syntax
-        run: python -m compileall -q models scripts tests
+        run: python -m compileall -q models scripts tests attacks datasets

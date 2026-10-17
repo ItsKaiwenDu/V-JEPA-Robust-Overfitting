@@ -58,8 +58,9 @@ Then run:
 python scripts/verify_setup.py --require-cuda
 ```
 
-The full-checkpoint model/loss smoke test is ready to run but has not yet
-been executed. Small local CPU fixture checks have passed. A CUDA availability
+The full-checkpoint model/loss smoke test and small local CPU checks have
+passed. The [CUDA pilot guide](gpu_pilot.md) describes the next human action.
+A CUDA availability
 check alone does not test forward passes, backpropagation, masking, decoding,
 or checkpoint compatibility.
 

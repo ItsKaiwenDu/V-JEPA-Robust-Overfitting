@@ -1,7 +1,10 @@
 # Dataset manifests
 
-No manifests exist yet. The data-preparation implementation will write the
-small reviewable definitions here and keep the videos elsewhere.
+The first prepared manifests are in `ucf101-split1-v1/`: 2,020 training,
+505 validation, and 505 test videos with disjoint source groups. The
+metadata records source hashes, sampling recipe, and held-out groups.
+Full video-content integrity remains unchecked. See
+[the preparation guide](../../docs/data_and_attacks.md).
 
 Use `train.csv`, `validation.csv`, and `test.csv`, plus `metadata.json` for the
 split recipe and checksums. The minimum per-video fields are:

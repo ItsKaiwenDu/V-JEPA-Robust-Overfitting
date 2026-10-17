@@ -7,8 +7,9 @@ These files are specifications for the upcoming implementation. There is no
 training runner or configuration-override mechanism yet.
 
 Null fields represent genuinely unresolved choices or provenance, including
-the checkpoint hash, exact temporal preprocessing,
-microbatch/precision, and evaluation step sizes and mask seeds. Resolve them
+microbatch/precision and evaluation step sizes and mask seeds. Checkpoint and
+manifest hashes plus a pilot-tested preprocessing recipe are now recorded;
+the complete study remains a draft. Resolve remaining choices
 with the pilot, record the rationale in [the decision log](../docs/decisions.md),
 and freeze a versioned protocol before confirmatory runs. A syntactically
 valid YAML file is not evidence that an experiment is ready.
