@@ -1,0 +1,81 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[hidelinks]{hyperref}
+
+\title{Adversarial Fine-Tuning and Robust Overfitting in V-JEPA 2}
+\author{Kaiwen Du}
+\date{Draft research protocol --- October 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This document outlines a planned study of adversarial fine-tuning of
+V-JEPA 2 under its native masked latent prediction loss. The target encoder
+will remain fixed while the context encoder and predictor are updated.
+We will examine training and held-out robustness over time, validate the
+attacks, and measure downstream action-recognition consequences.
+No experiments or results are reported in this draft.
+\end{abstract}
+
+\section{Introduction}
+V-JEPA 2 learns video representations through latent prediction
+\cite{assran2025vjepa2}. Robust overfitting has been observed in
+adversarially trained classifiers \cite{rice2020overfitting}.
+This project asks whether a related pattern occurs during fixed-target
+adversarial adaptation of a pretrained latent video predictor.
+
+\section{Related Work}
+The dated literature audit in the repository records nearby work on
+representation attacks, adversarial self-supervised learning, and video
+robustness. Expand this section from verified primary sources before
+submission. No priority claim is made in this draft.
+
+\section{Proposed Method}
+Let $f_{\theta}$ be the context encoder, $g_{\phi}$ the predictor,
+and $f_{\bar{\theta}}$ the fixed target encoder. For a video $x$ and
+mask $M$, define the native masked prediction loss as
+\begin{equation}
+  \mathcal{L}(x,\delta,M) =
+  \operatorname{mean}\left|
+  g_{\phi}(f_{\theta}(x+\delta;M);M)
+  - \operatorname{sg}\!\left[T_M(f_{\bar{\theta}}(x))\right]
+  \right|,
+\end{equation}
+where $T_M$ applies upstream target normalization and target-token
+selection, and $\operatorname{sg}$ stops gradients. The adversary
+maximizes this loss subject to $\|\delta\|_{\infty}\leq\epsilon$
+and valid pixel bounds. The outer update minimizes the attacked loss
+over $\theta$ and $\phi$; $\bar{\theta}$ stays fixed.
+
+\section{Experimental Protocol}
+The authoritative draft settings are in \texttt{configs/study.yaml},
+with methodology in \texttt{docs/experimental\_protocol.md}.
+The study compares a pretrained reference, clean fine-tuning, and
+adversarial fine-tuning on group-separated UCF101 subsets. Three
+training seeds are planned for each fine-tuning condition.
+
+\section{Results}
+\textbf{No results available.} Insert only measurements from traceable
+runs after the implementation and attack checks pass. Report individual
+seeds, checkpoint selection, uncertainty, and negative findings.
+
+\section{Limitations}
+The target encoder is fixed, so this study does not establish the
+behavior of the original EMA pretraining procedure. A small adaptation
+dataset and three seeds limit generalization. Pretraining overlap cannot
+be ruled out. Masked video prediction is not itself a demonstration of
+causal future prediction or reliable robot planning.
+
+\section{Reproducibility}
+The final report will identify code and upstream revisions, model and
+manifest hashes, resolved configurations, seeds, attack settings,
+hardware, environment, and compute cost. No training-ready environment
+or experiment artifact release exists at this stage.
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

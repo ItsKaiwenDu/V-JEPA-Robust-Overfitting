@@ -1,0 +1,14 @@
+# Copy to configs/local.yaml when local paths are known. That file is ignored.
+# This is a path inventory for the future runner, not an implemented override system.
+paths:
+  raw_data: data/raw
+  processed_clips: data/processed
+  target_features: data/features
+  split_manifests: data/manifests
+  upstream_checkout: external/vjepa2
+  checkpoints: checkpoints
+  runs: runs
+  console_logs: run_logs
+  curated_results: report
+
+device: auto
