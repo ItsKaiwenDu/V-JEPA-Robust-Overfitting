@@ -16,6 +16,13 @@ The optional modes inspect an already installed PyTorch runtime. A missing
 dependency or a required unavailable CUDA device produces a nonzero exit
 code. These checks are read-only and do not establish model correctness.
 
+`smoke_test.py` implements strict local V-JEPA 2 checkpoint loading and a
+one-batch synthetic loss/gradient check. It requires an upstream checkout,
+model dependencies, and an explicitly downloaded checkpoint. It writes a
+new JSON report and refuses to overwrite an existing one. Full pretrained
+execution is still pending. Run `python scripts/smoke_test.py --help` and
+follow [the model-check guide](../docs/smoke_test.md).
+
 ## Upcoming entry points
 
 | Name | Responsibility |

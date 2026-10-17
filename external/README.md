@@ -3,10 +3,12 @@
 The intended upstream is [facebookresearch/vjepa2](https://github.com/facebookresearch/vjepa2).
 This repository does not currently contain a clone, vendor copy, or submodule.
 
-During the model-integration step, place a checkout at `external/vjepa2/`,
-record its exact commit in the study configuration, and inspect its setup
-instructions and license. Content beneath `external/` other than this file
-is ignored by our Git repository.
+The model integration pins commit `204698b45b3712590f06245fbfba32d3be539812`.
+Place a checkout at `external/vjepa2/` using the commands in
+[the smoke-test guide](../docs/smoke_test.md). The code checks the revision
+and rejects modified model/training files. Content beneath `external/`
+other than this file is ignored by our Git repository. Local tests so far
+used a separate temporary checkout, not a committed or vendored copy.
 
 Use the official V-JEPA 2 ViT-L checkpoint advertised by the upstream project.
 Store weights under `checkpoints/` and record their SHA-256. Verify the

@@ -1,0 +1,7 @@
+# Install the platform-appropriate torch/torchvision pair first; see docs/smoke_test.md.
+# These versions were exercised by the local Python 3.11 CPU integration checks.
+PyYAML==6.0.3
+numpy==2.4.6
+timm==1.0.30
+einops==0.8.2
+pytest==9.1.1

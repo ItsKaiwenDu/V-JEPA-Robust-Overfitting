@@ -2,7 +2,7 @@
 
 **Research question:** During adversarial fine-tuning of V-JEPA 2's native masked prediction loss, does performance on unseen videos deteriorate after initially improving, even while adversarial training loss continues to decrease?
 
-**Status: repository scaffold and draft experimental protocol.** No model has been loaded, no training or evaluation has run, and no experimental results are available. The setup checker is implemented; research entry points are planned.
+**Status: local model integration and draft experimental protocol.** The V-JEPA adapter and synthetic smoke-test command are implemented, with 20 CPU tests passing on small upstream model fixtures. Full pretrained checkpoint execution, real-video processing, training, and robustness evaluation remain pending. No research results are available.
 
 This project extends our [previous robust-overfitting research](https://github.com/ItsKaiwenDu/Robust-Overfitting) to latent video prediction. It retains the familiar `models/`, `scripts/`, `notes/`, and `report/` organization, along with weekly goals, progress reports, and a Lambda Labs guide.
 
@@ -21,6 +21,7 @@ The intended contribution is a controlled study of training dynamics and their d
 | [Experimental protocol](docs/experimental_protocol.md) | Threat model, data split, training conditions, evaluation, and interpretation |
 | [Study configuration](configs/study.yaml) | Machine-readable draft settings and unresolved provenance fields |
 | [Setup guide](docs/setup.md) | Local development and university GPU preparation |
+| [Local model checks](docs/smoke_test.md) | CPU tests now; explicit full-checkpoint smoke test next |
 | [Lambda Labs guide](setup_lambda_labs.md) | Rental workflow and the $200 spending limit |
 | [Repository structure](docs/repository_structure.md) | How the familiar folders map to this project |
 | [Goals](goals.md) / [Progress](progress.md) | Planned milestones and completed work |
@@ -56,7 +57,7 @@ python -m pip install -r requirements.txt
 python scripts/verify_setup.py
 ```
 
-The current dependency file installs only what the scaffold checker needs. PyTorch and Meta's training dependencies will be installed and locked during the hardware pilot. See [setup](docs/setup.md) for that boundary.
+The root dependency file installs only what the scaffold checker needs. For the implemented model integration and CPU tests, follow [local model checks](docs/smoke_test.md) and use `requirements-smoke.txt`. CUDA training dependencies remain to be validated during the hardware pilot.
 
 Optional checks after installing a suitable PyTorch environment:
 
@@ -72,6 +73,7 @@ These commands inspect the environment without downloading models, preparing dat
 | Script | Status |
 | --- | --- |
 | [`scripts/verify_setup.py`](scripts/verify_setup.py) | Implemented: scaffold, YAML, and optional device checks |
+| [`scripts/smoke_test.py`](scripts/smoke_test.py) | Implemented: strict local checkpoint loading and synthetic loss/gradient checks; full pretrained run pending |
 | `scripts/prepare_data.py` | Planned: grouped manifests and deterministic clips |
 | `scripts/train.py` | Planned: clean and adversarial fine-tuning |
 | `scripts/evaluate.py` | Planned: checkpoint and downstream evaluation |
@@ -81,7 +83,7 @@ These commands inspect the environment without downloading models, preparing dat
 ## Project Directory Structure
 
 ```text
-Research/
+V-JEPA-Robust-Overfitting/
 ├── .github/                 # Repository checks and contribution templates
 ├── assets/                  # Small README and presentation assets
 ├── configs/                 # Study settings and local path example
@@ -92,7 +94,7 @@ Research/
 │   └── features/            # Ignored
 ├── docs/                    # Protocol, setup, decisions, reproducibility
 ├── external/                # Ignored upstream checkout; instructions tracked
-├── models/                  # Future V-JEPA adapter and target/loss utilities
+├── models/                  # V-JEPA adapter, frozen targets, loss, diagnostics
 ├── notes/                   # Literature notes and dated novelty audits
 ├── report/                  # LaTeX source and curated results
 │   ├── main.tex
@@ -104,7 +106,7 @@ Research/
 │   ├── figures/
 │   └── tables/
 ├── scripts/                 # Familiar command-line entry points
-├── tests/                   # Planned scientific acceptance tests
+├── tests/                   # Small CPU model checks; more checks planned
 ├── checkpoints/             # Ignored model weights
 ├── runs/                    # Ignored raw metrics and run metadata
 ├── run_logs/                # Ignored console/job logs
@@ -113,6 +115,7 @@ Research/
 ├── progress.md
 ├── setup_lambda_labs.md
 ├── requirements.txt
+├── requirements-smoke.txt
 └── LICENSE
 ```
 

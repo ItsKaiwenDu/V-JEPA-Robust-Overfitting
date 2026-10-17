@@ -2,18 +2,20 @@
 # Null provenance/runtime fields must be resolved before confirmatory runs.
 schema_version: 1
 status: draft
-protocol_version: "0.1"
+protocol_version: "0.2"
 project: vjepa-robust-overfitting
 
 model:
   name: vjepa2_vit_large
   upstream_repository: https://github.com/facebookresearch/vjepa2
-  upstream_commit: null
+  upstream_commit: 204698b45b3712590f06245fbfba32d3be539812
   checkpoint_url: https://dl.fbaipublicfiles.com/vjepa2/vitl.pt
   checkpoint_sha256: null
   context_checkpoint_key: encoder
   target_checkpoint_key: target_encoder
   predictor_checkpoint_key: predictor
+  predictor_mask_tokens: 10
+  single_sequence_mask_token_index: 0
   strict_weight_loading: true
   target_update: fixed
   clean_target_input: true
@@ -22,6 +24,8 @@ model:
   train_predictor: true
   loss: native_masked_l1
   target_normalization: upstream_layer_norm
+  input_mean: [0.485, 0.456, 0.406]
+  input_std: [0.229, 0.224, 0.225]
   mask_distribution: upstream_vjepa2_vitl16_256px_16f
 
 data:

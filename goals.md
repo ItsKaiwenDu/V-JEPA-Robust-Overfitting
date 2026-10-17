@@ -9,13 +9,15 @@ a focused report by day 21, with days 22-27 reserved for review and repairs.
 - [x] Inspect the previous robust-overfitting repository and retain familiar conventions.
 - [x] Initialize the local `main` branch and create the research scaffold.
 - [x] Record the agreed scope, draft settings, literature map, and budget.
-- [ ] Connect a GitHub remote when the name and visibility are chosen.
+- [x] Connect the GitHub remote for `ItsKaiwenDu/V-JEPA-Robust-Overfitting`.
 
 ## Week 1 — Feasibility and first trajectory
 
 **Objective:** Establish a correct native-loss pipeline and start fine-tuning early.
 
 - [ ] Confirm university GPU access and inspect actual VRAM.
+- [x] Pin upstream source and implement the adapter and local CPU correctness tests.
+- [x] Audit full ViT-L tensor names/shapes against official checkpoint metadata.
 - [ ] Pin and load the official V-JEPA 2 model and predictor with verified weights.
 - [ ] Prepare group-separated UCF101 manifests and deterministic clips.
 - [ ] Verify clean loss, target freezing, masks, input gradients, and pixel projection.

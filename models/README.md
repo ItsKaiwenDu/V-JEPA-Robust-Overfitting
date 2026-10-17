@@ -1,17 +1,24 @@
 # Model integration
 
 This folder replaces the previous project's PreActResNet implementation with
-the upcoming V-JEPA integration. It currently contains no executable model
-adapter and no model weights.
+the V-JEPA integration. It contains no model weights.
 
-Planned responsibilities:
+Implemented in [vjepa2.py](vjepa2.py):
 
-- Load the official V-JEPA 2 ViT-L/16 context encoder, target encoder, and
-  predictor from a pinned upstream revision and verified checkpoint.
+- Construct the official V-JEPA 2 ViT-L/16 architecture from a pinned source
+  revision and strictly load context, target, and predictor states from a
+  local checkpoint. Full pretrained execution remains pending.
 - Expose visible-context prediction and clean-target feature extraction.
 - Preserve upstream target normalization, mask indexing, and loss averaging.
 - Freeze the target encoder and expose differentiable context inputs for attacks.
 - Support the same adapter in training, evaluation, and scientific checks.
+
+[diagnostics.py](diagnostics.py) checks native-loss parity against the pinned
+upstream training function, raw-pixel and parameter gradients, replay, and
+target freezing. Twenty CPU tests pass on small randomly initialized
+upstream model fixtures. The full ViT-L state names and shapes match the
+official checkpoint metadata; this does not establish that its weights
+have been loaded or executed. See [the guide](../docs/smoke_test.md).
 
 Keep the upstream source in [external/](../external/README.md) and weights in
 ignored `checkpoints/`. Wrap upstream code rather than copying a second model

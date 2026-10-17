@@ -1,5 +1,38 @@
 # Research Progress Reports
 
+## 2026-10-17 — Repository move and local model integration
+
+Verified the new root README at
+`/Users/kaiwendu/Documents/GitHub/V-JEPA-Robust-Overfitting`, branch `main`,
+and remote `ItsKaiwenDu/V-JEPA-Robust-Overfitting`. The move left `.gitignore`,
+`.github/`, `.editorconfig`, and `.gitattributes` in the old folder. Restored
+those six project files and removed four generated Python cache files from
+the working tree; no history rewrite, new commit, or push was performed.
+
+Implemented a pinned upstream adapter with raw-pixel normalization,
+fixed clean targets, native masked L1, strict three-component checkpoint
+loading, and reproducible smoke-test masks. Added a synthetic full-checkpoint
+smoke-test command, CPU tests, and [setup instructions](docs/smoke_test.md).
+The code was developed and tested in an isolated temporary environment.
+
+**Verification:** 20 CPU fixture tests passed, including comparison with the
+actual upstream loss function, finite differences, masking, target freezing,
+parameter updates, activation checkpointing, and rejected malformed
+checkpoints. The full constructed ViT-L state names/shapes matched official
+checkpoint metadata inspected through a small byte-range request. Details,
+environment versions, the initial fixture failure, and limitations are in
+[the local check record](report/checks/2026-10-17-local-model-checks.md).
+
+**Experiment status:** No pretrained tensor data loaded, no dataset prepared,
+no attack/training/robustness evaluation run, and no paid compute used. Small
+random-model fixture tests are not research results. Full pretrained
+execution, the complete checkpoint hash, CUDA feasibility, and cost are pending.
+
+**Next step:** Explicitly download the released checkpoint and execute the
+full native-loss smoke test on an available suitable device. Then implement
+real-video preprocessing and attacks before measuring the GPU pilot. Lambda
+comes only after a measured need and the existing budget gate.
+
 ## 2026-10-16 — Research planning and repository setup
 
 **Progress report:** Reviewed the prior ChatGPT discussion and current public

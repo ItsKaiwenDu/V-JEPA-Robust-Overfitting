@@ -2,10 +2,14 @@
 
 ## Current stage
 
-This repository starts as a scaffold. Read README.md, progress.md, and
+This repository has a scaffold and locally tested model integration. Read README.md, progress.md, and
 docs/experimental_protocol.md before adding research code. Do not describe
 planned entry points, unrun experiments, or proposed results as implemented
 or verified. Keep progress.md factual.
+
+Small CPU fixtures pass; full pretrained execution, video data, attacks,
+training, CUDA feasibility, and research results remain pending. See
+docs/smoke_test.md before running model checks. No cloud rental is automatic.
 
 ## Research scope
 

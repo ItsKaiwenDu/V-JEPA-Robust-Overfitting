@@ -1,6 +1,6 @@
 # Experimental protocol
 
-Version 0.1, drafted October 16, 2026. **Proposed; not preregistered or validated.**
+Version 0.2, updated October 17, 2026. **Proposed; not preregistered or validated.**
 Numerical defaults live in [configs/study.yaml](../configs/study.yaml).
 
 ## Question and scope
@@ -14,6 +14,15 @@ target, and predictor states from their actual checkpoint keys and audit all
 weight shapes. Missing or reinitialized trained layers are a failed loading
 check, not an acceptable silent fallback. Record the upstream commit and
 checkpoint SHA-256 before results are interpreted.
+
+The source revision is now pinned in the study configuration. The integration
+retains all ten predictor mask tokens found in the released checkpoint's
+metadata. Both mask families use token index 0 for our single sequence-length
+group, following the upstream wrapper. Input normalization uses mean
+`[0.485, 0.456, 0.406]` and standard deviation `[0.229, 0.224, 0.225]` inside
+the differentiable pixel path. Small local fixtures test these operations;
+the full pretrained smoke test and checkpoint hash remain pending. See
+[local model checks](smoke_test.md).
 
 The pretrained target encoder remains fixed for the entire study. Updating
 the context encoder and predictor while freezing targets is a deliberate

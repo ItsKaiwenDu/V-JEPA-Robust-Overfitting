@@ -15,12 +15,13 @@ import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED_FILES = (
-    "README.md", "LICENSE", ".gitignore", "AGENTS.md", "requirements.txt",
+    "README.md", "LICENSE", ".gitignore", "AGENTS.md", "requirements.txt", "requirements-smoke.txt",
     "goals.md", "progress.md", "setup_lambda_labs.md",
     "configs/study.yaml", "configs/local.example.yaml",
     "docs/experimental_protocol.md", "docs/setup.md",
     "docs/repository_structure.md", "docs/reproducibility.md", "docs/decisions.md",
-    "models/__init__.py", "models/README.md", "scripts/README.md",
+    "models/__init__.py", "models/README.md", "models/vjepa2.py", "models/diagnostics.py",
+    "scripts/README.md", "scripts/smoke_test.py", "tests/test_vjepa2.py", "docs/smoke_test.md",
     "notes/README.md", "notes/2026-10-16_novelty-audit.md",
     "report/main.tex", "report/references.bib", "report/README.md",
     "data/manifests/README.md", "external/README.md", "tests/README.md",

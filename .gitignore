@@ -1,0 +1,69 @@
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+.DS_Store
+.idea/
+.vscode/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+configs/local.yaml
+configs/*.local.yaml
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Raw data and feature caches; keep the directories in a fresh clone
+/data/raw/**
+!/data/raw/.gitkeep
+/data/processed/**
+!/data/processed/.gitkeep
+/data/features/**
+!/data/features/.gitkeep
+/data/manifests/*.local.*
+
+# Weights and high-volume run output
+/checkpoints/**
+!/checkpoints/.gitkeep
+/runs/**
+!/runs/.gitkeep
+/run_logs/**
+!/run_logs/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.log
+events.out.tfevents.*
+
+# Upstream source is fetched and pinned separately
+/external/**
+!/external/README.md
+
+# Generated LaTeX files; curated report figures remain trackable
+/report/main.pdf
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+
+# Local scratch and notebook checkpoints
+/tmp/
+.ipynb_checkpoints/

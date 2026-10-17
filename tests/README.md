@@ -1,9 +1,15 @@
 # Scientific acceptance tests
 
-There are no model or training tests yet because those components are not
-implemented. The GitHub workflow currently checks only the scaffold and
-Python syntax. Add meaningful tests alongside the corresponding research
-implementation, including:
+Twenty CPU tests in [test_vjepa2.py](test_vjepa2.py) exercise small instances
+of the pinned upstream architecture: native-loss agreement, finite
+differences, masking, frozen targets, parameter updates, checkpoint loading,
+and deterministic masks. Run them with `python -m pytest -q tests
+--upstream external/vjepa2` after [local setup](../docs/smoke_test.md).
+
+The GitHub workflow still checks only the scaffold and Python syntax; the
+model tests have been run locally. Full pretrained, dataset, attack, and
+training tests remain upcoming. Add meaningful tests alongside the
+corresponding implementation, including:
 
 - Pixel-space perturbation bounds, clipping, and zero-epsilon equivalence.
 - Finite, nonzero input gradients and a small FP32 finite-difference check.

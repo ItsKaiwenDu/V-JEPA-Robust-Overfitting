@@ -2,9 +2,11 @@
 
 ## What works now
 
-Only the repository verifier is implemented. It needs Python 3.11 or newer
-and PyYAML. Python 3.11 is the initial target for the research environment;
-actual CUDA and upstream compatibility must be checked during the pilot.
+The repository verifier needs Python 3.11 or newer and PyYAML. The V-JEPA
+adapter, CPU fixture tests, and full-checkpoint smoke-test command are also
+implemented; use the separate [model-check guide](smoke_test.md) for those
+dependencies. Python 3.11 is the initial target for the research environment;
+actual CUDA compatibility must be checked during the pilot.
 
 Run from the repository root:
 
@@ -56,7 +58,8 @@ Then run:
 python scripts/verify_setup.py --require-cuda
 ```
 
-The next implementation step is the model/loss smoke test. A CUDA availability
+The full-checkpoint model/loss smoke test is ready to run but has not yet
+been executed. Small local CPU fixture checks have passed. A CUDA availability
 check alone does not test forward passes, backpropagation, masking, decoding,
 or checkpoint compatibility.
 
@@ -73,16 +76,17 @@ not copy the old CIFAR-10 automatic-download behavior into the UCF101 setup.
 
 ## Git and GitHub
 
-The local repository uses branch `main`. Before the first commit, inspect:
+The local repository uses branch `main` and is connected to
+`https://github.com/ItsKaiwenDu/V-JEPA-Robust-Overfitting.git`. Before committing, inspect:
 
 ```bash
 git status --short
 git diff --check
 ```
 
-Create and connect a GitHub remote when the repository name and visibility
-are chosen. No remote URL is assumed in this scaffold. After committing
-and connecting the remote, publish with the normal Git push workflow.
+Review both new files and the diff before staging. Once staged, also run
+`git diff --cached --check`. Publish with the normal Git push workflow when
+ready; implementing a change does not automatically commit or push it.
 
 GitHub Actions checks scaffold integrity and Python syntax. It does not run
 scientific tests, use a GPU, fetch data, or claim the research is validated.
