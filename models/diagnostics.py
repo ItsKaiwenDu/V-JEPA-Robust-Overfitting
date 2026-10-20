@@ -82,7 +82,9 @@ def run_smoke_checks(model: FixedTargetVJEPA, clean: torch.Tensor,
         gradients = [p.grad for p in getattr(model, name).parameters() if p.grad is not None]
         if not gradients or any(not torch.isfinite(g).all() for g in gradients):
             raise RuntimeError(f"Missing or nonfinite {name} parameter gradients.")
-        norm = sum(g.double().square().sum().item() for g in gradients) ** 0.5
+        # MPS does not support float64. Diagnostic reduction happens on CPU;
+        # model forward/backward computation stays on the requested device.
+        norm = sum(g.detach().cpu().double().square().sum().item() for g in gradients) ** 0.5
         if norm == 0:
             raise RuntimeError(f"Zero {name} parameter gradient norm.")
         gradient_norms[name] = norm

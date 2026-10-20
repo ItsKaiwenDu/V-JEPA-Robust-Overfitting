@@ -9,25 +9,36 @@ attack logic should be importable and shared, not duplicated across scripts.
 python scripts/verify_setup.py
 python scripts/verify_setup.py --check-torch
 python scripts/verify_setup.py --require-cuda
+python scripts/verify_setup.py --require-mps
 ```
 
 The first command checks scaffold files, directories, and configuration YAML.
 The optional modes inspect an already installed PyTorch runtime. A missing
-dependency or a required unavailable CUDA device produces a nonzero exit
+dependency or a required unavailable device produces a nonzero exit
 code. These checks are read-only and do not establish model correctness.
 
 `smoke_test.py` implements strict local V-JEPA 2 checkpoint loading and a
 one-batch synthetic loss/gradient check. It requires an upstream checkout,
 model dependencies, and an explicitly downloaded checkpoint. It writes a
 new JSON report and refuses to overwrite an existing one. Full pretrained
-CPU execution has passed. Run `python scripts/smoke_test.py --help` and
+CPU and MPS execution have passed. Run `python scripts/smoke_test.py --help` and
 follow [the model-check guide](../docs/smoke_test.md).
 
 `prepare_data.py`, `prepare_clips.py`, and `check_attacks.py` implement
 grouped manifests, deterministic training/validation clips, and a one-clip
 pretrained attack sanity check. See [data and attacks](../docs/data_and_attacks.md).
-`pilot.py` is an explicit CUDA feasibility command; its unit-tested update
-helper has not yet been measured on CUDA. See [the handoff](../docs/gpu_pilot.md).
+`check_mps.py` compares CPU and Apple GPU losses, targets, input gradients,
+and selected parameter gradients on one real clip. `check_patch_embedding.py`
+isolates the original and equivalent linear projection on MPS. `pilot.py` supports
+explicit `--device cuda` (default) and `--device mps` timing. CUDA execution
+remains untested. See [the CUDA guide](../docs/gpu_pilot.md) and
+[Mac guide](../docs/mac_pilot.md).
+
+`estimate_compute.py` reads the separate compute proposal and existing Mac
+reports to reproduce workload counts and partial runtime estimates. It does
+not launch models or cloud jobs. Missing costs stay unknown, stronger-attack
+timing proxies stay labeled, and no estimate authorizes spending. See the
+[planning document](../docs/evaluation_compute_plan.md).
 
 ## Upcoming entry points
 

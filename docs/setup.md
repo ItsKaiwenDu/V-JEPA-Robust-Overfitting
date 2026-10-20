@@ -23,21 +23,24 @@ version supports the eventual GPU dependency stack.
 
 The checker resolves the repository from its own location, so it also works
 when invoked from another working directory. Optional `--check-torch`
-inspects an installed PyTorch runtime; `--require-cuda` additionally fails
-when CUDA is unavailable. Neither option installs packages or loads weights.
+inspects an installed PyTorch runtime; `--require-cuda` or `--require-mps`
+additionally requires the selected backend. These checks do not install
+packages or load weights.
 
 ## Local MacBook
 
-Use the MacBook for documentation, source development, metadata inspection,
-and analysis. MPS availability and unified RAM are not a validated substitute
-for the CUDA training environment. Test any future MPS model path separately.
+The M4 Max with 36 GiB unified memory can run the pretrained model on MPS.
+GPU access works outside the restricted execution environment. Follow the
+[Mac pilot guide](mac_pilot.md) for CPU/MPS correctness comparison and
+device-specific timing; shared memory is not equivalent to dedicated VRAM.
 
-## University RTX 3080
+## University RTX 3070
 
-Use the university's established SSH and scheduling instructions. Inspect
-the assigned GPU and its actual VRAM rather than assuming the 10 GB or 12 GB
-variant. Do not run training on a login node if the university provides a
-separate GPU scheduler.
+The user's output identifies an RTX 3070 on `linux10604`, with standard 8 GB
+GPU memory. `nvidia-smi` fails with a driver/library mismatch; university IT
+must resolve that before CUDA testing. Python 3.9.25 also needs a separate
+3.11-compatible environment. Use established SSH and scheduling instructions,
+including an allocated GPU node when a scheduler is provided.
 
 On the assigned GPU machine, inspect:
 
@@ -60,8 +63,7 @@ python scripts/verify_setup.py --require-cuda
 
 The full-checkpoint model/loss smoke test and small local CPU checks have
 passed. The [CUDA pilot guide](gpu_pilot.md) describes the next human action.
-A CUDA availability
-check alone does not test forward passes, backpropagation, masking, decoding,
+A CUDA availability check alone does not test forward passes, backpropagation, masking, decoding,
 or checkpoint compatibility.
 
 ## Upstream model and dataset

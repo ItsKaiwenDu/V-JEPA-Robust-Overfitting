@@ -18,7 +18,13 @@ latexmk -pdf main.tex
 - `checks/`: implementation and attack-strength evidence.
 - `figures/` and `tables/`: cross-condition, publication-ready assets.
 
-The directories are empty placeholders. Use the condition/seed structure
+The condition directories remain placeholders; `checks/` contains curated
+implementation checks and [Mac feasibility evidence](checks/2026-10-19-mac-feasibility.md).
+The [compute projection](checks/2026-10-19-compute-projection.json) is a
+partial planning calculation with explicitly unmeasured costs; it is not a
+cloud benchmark or research result. Its assumptions are in the
+[evaluation proposal](../docs/evaluation_compute_plan.md).
+There are no robust-overfitting findings yet. Use the condition/seed structure
 described in [reproducibility](../docs/reproducibility.md) when actual runs
 exist. Add small, verified CSVs, vector figures, and summaries here; keep raw
 logs, per-video caches, and weights in their ignored storage directories.

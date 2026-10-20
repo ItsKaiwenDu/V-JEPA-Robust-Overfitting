@@ -1,0 +1,137 @@
+{
+  "kind": "fp32_gpu_feasibility_pilot",
+  "research_result": false,
+  "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+  "checkpoint": {
+    "sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+    "bytes": 5127726842,
+    "epoch": 40,
+    "components": {
+      "encoder": {
+        "state_tensors": 292,
+        "elements": 303885312
+      },
+      "target_encoder": {
+        "state_tensors": 292,
+        "elements": 303885312
+      },
+      "predictor": {
+        "state_tensors": 160,
+        "elements": 22086016
+      }
+    }
+  },
+  "runtime": {
+    "device": "mps",
+    "macos": "15.7.9",
+    "architecture": "arm64",
+    "python": "3.11.16",
+    "gpu": "Apple M4 Max",
+    "system_memory_bytes": 38654705664,
+    "recommended_working_set_bytes": 28991029248,
+    "mps_cpu_fallback": "unset",
+    "mps_fast_math": "unset",
+    "mps_high_watermark_ratio": "default"
+  },
+  "packages": {
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "timm": "1.0.30",
+    "einops": "0.8.2",
+    "numpy": "2.4.6"
+  },
+  "source_files_sha256": {
+    "scripts/pilot.py": "1d7adef2c3f428b668f7b1f7e75c3d08b0501dbaf15e79e06ee62ab4145a6759",
+    "models/pilot.py": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82",
+    "models/vjepa2.py": "3bc285d50912b2787769855822cfb920d2260f1b44445ae30e803e8f6a1f2723",
+    "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+    "models/runtime.py": "3c7f22a5494ab16710d433084043f1968de6c864a7e4f6d180e2646153e3e17c",
+    "models/diagnostics.py": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0"
+  },
+  "clip_index_sha256": "fe0b7cab30551aaa10a73037c0e46c51febb4bda7177539c12b4f0c6bf3d7fbc",
+  "conditions": {
+    "clean-finetune": {
+      "update_seconds": [
+        2.767901624989463
+      ],
+      "mean_seconds": 2.767901624989463,
+      "memory": {
+        "mps_sampled_max_tensor_bytes": 8163993088,
+        "mps_sampled_max_driver_bytes": 9832300544,
+        "sample_interval_seconds": 0.1,
+        "samples": 57,
+        "is_exact_peak": false,
+        "sampling_errors": []
+      },
+      "optimizer_checks": {
+        "target_unchanged": true,
+        "encoder_updated": true,
+        "predictor_updated": true
+      }
+    },
+    "adversarial-finetune": {
+      "update_seconds": [
+        265.3087804999959
+      ],
+      "mean_seconds": 265.3087804999959,
+      "memory": {
+        "mps_sampled_max_tensor_bytes": 8178145280,
+        "mps_sampled_max_driver_bytes": 9832431616,
+        "sample_interval_seconds": 0.1,
+        "samples": 4857,
+        "is_exact_peak": false,
+        "sampling_errors": []
+      },
+      "optimizer_checks": {
+        "target_unchanged": true,
+        "encoder_updated": true,
+        "predictor_updated": true
+      }
+    }
+  },
+  "microbatch": 1,
+  "effective_batch": 2,
+  "precision": "float32",
+  "measured_updates_per_condition": 1,
+  "warmup_updates_per_condition": 1,
+  "training_projection": {
+    "videos": 2020,
+    "updates_per_epoch": 253,
+    "epochs": 30,
+    "seeds": 3,
+    "conditions": 2,
+    "planned_effective_batch": 8,
+    "measured_effective_batch": 2,
+    "method": "Linear scaling of measured update cost; scales optimizer overhead too."
+  },
+  "evaluation_attack": {
+    "steps": 2,
+    "restarts": 1,
+    "eot_masks": 4,
+    "scoring_masks": 4,
+    "epsilon": 0.01568627450980392,
+    "step_size": 0.00392156862745098
+  },
+  "primary_evaluation_measured": false,
+  "evaluation_seconds_per_clip": 213.10102016699966,
+  "evaluation_memory": {
+    "mps_sampled_max_tensor_bytes": 4166341120,
+    "mps_sampled_max_driver_bytes": 5475188736,
+    "sample_interval_seconds": 0.1,
+    "samples": 2044,
+    "is_exact_peak": false,
+    "sampling_errors": []
+  },
+  "pilot_scoring_loss": 0.6114036440849304,
+  "projected_training_only_hours": 6782.3400577621305,
+  "budget_approved": false,
+  "limitations": [
+    "Only 2 cached training clips used; small warm-cache throughput sample.",
+    "If accumulation is below eight, training projection extrapolates to the planned batch size and may misestimate optimizer overhead.",
+    "Reduced evaluation settings do not measure primary PGD-20/2-restart/EOT-4 runtime.",
+    "Training projection excludes evaluation, target-cache construction, checkpoints, and probe fitting.",
+    "FP32 pilot settings are not the locked training/evaluation protocol.",
+    "PGD-50/EOT-8 convergence, multiple shapes, checkpoint I/O, and end-to-end costs remain to be measured."
+  ]
+}

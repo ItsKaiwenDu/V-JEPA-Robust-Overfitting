@@ -1,0 +1,70 @@
+# Planning proposal only. Does not replace/freeze study.yaml or launch work.
+schema_version: 1
+status: proposed_not_admitted
+as_of: "2026-10-19"
+study: configs/study.yaml
+study_sha256: 4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1
+pilot: report/checks/2026-10-19-mps-linear-pilot.json
+attack_check: report/checks/2026-10-18-mps-linear-attacks.json
+
+evaluation:
+  classes: 101
+  monitoring_clips_per_class_per_split: 1
+  monitoring_splits: [train, validation]
+  monitoring_epochs: every_epoch_plus_shared_initialization
+  monitoring_attack: {steps: 5, restarts: 1, attack_masks: 1, scoring_masks: 1, epsilon_255: 4, step_size_255: 1}
+  primary_epochs: [1, 5, 10, 15, 16, 20, 23, 24, 30]
+  primary_include_shared_initialization: true
+  primary_splits: [train, validation]
+  primary_attack: {steps: 20, restarts: 2, attack_masks: 4, scoring_masks: 4, epsilon_255: 4, step_size_255: 1}
+  selection: minimum_primary_validation_loss_among_scheduled_epochs
+  selection_tie: earliest_epoch
+  diagnostic_clips_per_class: 1
+  convergence_attack: {steps: 50, restarts: 2, attack_masks: 8, scoring_masks: 4}
+  epsilon_sweep_255: [0, 1, 2, 4, 8]
+  diagnostic_checkpoints: [pretrained, validation_best, final]
+  final_test_clips_per_class: 5
+  probe_candidate_fits_per_checkpoint: 4
+  subset_seed: 20261019
+  subset_selection: sha256_of_seed_split_video_id_then_minimum_per_class
+  manifests_created: false
+  masks_and_random_starts: fixed_per_clip_mode_restart_reused_across_checkpoints
+  attack_scoring_seed_namespaces_disjoint: true
+  exact_mask_seeds_locked: false
+  step_size_status: proposed_requires_training_validation_calibration
+  calibration_step_sizes_255: [0.5, 1, 2]
+
+budget:
+  total_usd: 200
+  compute_usd: 160
+  noncompute_reserve_usd: 40
+  pilot_reserve_usd: 10
+  spent_compute_usd: 0
+  runtime_headroom_factor: 1.25
+  initial_pilot_max_billed_hours: 2
+  first_pilot_provider: Lambda
+  first_pilot_candidate: a6000_48gb
+  existing_account_confirmed: true
+  launch_authorized: false
+
+# Public single-GPU list prices, not live availability or an account quote.
+lambda:
+  checked_on: "2026-10-19"
+  pricing_source: https://lambda.ai/instances
+  billing_source: https://docs.lambda.ai/public-cloud/billing/
+  tax_included: false
+  filesystem_price_usd_per_gib_month: null
+  candidates:
+    - {id: a6000_48gb, name: NVIDIA RTX A6000, vram_gb: 48, hourly_usd: 1.09}
+    - {id: a100_pcie_40gb, name: NVIDIA A100 PCIe, vram_gb: 40, hourly_usd: 1.99}
+    - {id: h100_pcie_80gb, name: NVIDIA H100 PCIe, vram_gb: 80, hourly_usd: 3.29}
+
+alternative_quote_to_check:
+  provider: Runpod
+  pricing_source: https://www.runpod.io/pricing
+  checked_on: "2026-10-19"
+  name: NVIDIA RTX A6000
+  vram_gb: 48
+  advertised_pod_hourly_usd: 0.59
+  cloud_tier_and_live_quote_verified: false
+  storage_and_tax_included: false

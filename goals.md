@@ -15,13 +15,17 @@ a focused report by day 21, with days 22-27 reserved for review and repairs.
 
 **Objective:** Establish a correct native-loss pipeline and start fine-tuning early.
 
-- [ ] Confirm university GPU access and inspect actual VRAM.
+- [x] Identify the university allocation (RTX 3070, 8 GB); record its driver mismatch.
+- [x] Verify Mac GPU access, pretrained CPU/MPS agreement, and bounded attack checks.
+- [x] Measure Mac batch-eight update time, primary attack time, and sampled memory.
+- [x] Draft an evaluation schedule and reproducible partial workload/price calculation.
+- [ ] Choose a feasible monitoring schedule and experiment backend using the measurements.
 - [x] Pin upstream source and implement the adapter and local CPU correctness tests.
 - [x] Audit full ViT-L tensor names/shapes against official checkpoint metadata.
 - [x] Pin and load the official V-JEPA 2 model and predictor with verified weights on CPU.
 - [x] Prepare grouped manifests, eight deterministic training clips, and real-clip attack sanity checks.
 - [ ] Prepare group-separated UCF101 manifests and deterministic clips.
-- [ ] Verify clean loss, target freezing, masks, input gradients, and pixel projection.
+- [x] Verify clean loss, target freezing, masks, input gradients, and pixel projection on the prepared fixtures/clips.
 - [x] Implement native-loss PGD/FGSM with meaningful diagnostics.
 - [ ] Add embedding-distance baselines and complete stronger-attack/convergence diagnostics.
 - [ ] Measure training, evaluation, and storage cost; apply the feasibility gate.

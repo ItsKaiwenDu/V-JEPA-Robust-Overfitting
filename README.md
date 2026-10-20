@@ -2,7 +2,7 @@
 
 **Research question:** During adversarial fine-tuning of V-JEPA 2's native masked prediction loss, does performance on unseen videos deteriorate after initially improving, even while adversarial training loss continues to decrease?
 
-**Status: local pretrained, data, and attack checks passed; CUDA pilot pending.** The released checkpoint passes the native-loss/gradient smoke test. Grouped manifests, eight real training clips, and bounded FGSM/PGD checks are prepared, with 48 local tests passing. These are correctness diagnostics; no robust-overfitting findings or confirmatory training results are available.
+**Status: CPU, Apple GPU, and RTX 5090 correctness checks and timing pilots passed; the full study exceeds the current budget.** The university RTX 3070 passed model/attack checks but ran out of memory during the FP32 training pilot. The RTX 5090 completed clean/adversarial updates and strong evaluation, with 56 tests passing. Its measured timings project about $216 for the original training schedule alone and about $950 for the proposed evaluation-inclusive partial workload, with additional costs unmeasured. These are feasibility diagnostics and extrapolations, not robust-overfitting findings. The next step is a revised, budgeted study plan.
 
 This project extends our [previous robust-overfitting research](https://github.com/ItsKaiwenDu/Robust-Overfitting) to latent video prediction. It retains the familiar `models/`, `scripts/`, `notes/`, and `report/` organization, along with weekly goals, progress reports, and a Lambda Labs guide.
 
@@ -23,7 +23,11 @@ The intended contribution is a controlled study of training dynamics and their d
 | [Setup guide](docs/setup.md) | Local development and university GPU preparation |
 | [Local model checks](docs/smoke_test.md) | Pretrained checkpoint and native-loss correctness checks |
 | [Data and attacks](docs/data_and_attacks.md) | Grouped subsets, reproducible clips, and pixel-space attacks |
-| [CUDA pilot handoff](docs/gpu_pilot.md) | Next human action and an explicit GPU feasibility command |
+| [Mac GPU pilot](docs/mac_pilot.md) | MPS access, correctness checks, and explicit performance options |
+| [Measured Mac feasibility](report/checks/2026-10-19-mac-feasibility.md) | Update times, memory, evaluation cost, and limits of a four-week schedule |
+| [RTX 5090 feasibility results](report/checks/2026-10-19-runpod-5090-feasibility.md) | CUDA timings, university memory limit, verified export, and budget implications |
+| [Evaluation and compute proposal](docs/evaluation_compute_plan.md) | Proposed checkpoints, complete workload ledger, price checks, and unresolved timing costs |
+| [CUDA pilot handoff](docs/gpu_pilot.md) | University workstation status and CUDA feasibility commands |
 | [Lambda Labs guide](setup_lambda_labs.md) | Rental workflow and the $200 spending limit |
 | [Repository structure](docs/repository_structure.md) | How the familiar folders map to this project |
 | [Goals](goals.md) / [Progress](progress.md) | Planned milestones and completed work |
@@ -59,13 +63,14 @@ python -m pip install -r requirements.txt
 python scripts/verify_setup.py
 ```
 
-The root dependency file installs only what the scaffold checker needs. For the implemented model integration and CPU tests, follow [local model checks](docs/smoke_test.md) and use `requirements-smoke.txt`. CUDA training dependencies remain to be validated during the hardware pilot.
+The root dependency file installs only what the scaffold checker needs. For the implemented model integration and CPU tests, follow [local model checks](docs/smoke_test.md) and use `requirements-smoke.txt`. The RTX 5090 pilot passed with PyTorch 2.8.0+cu128 and torchvision 0.23.0+cu128; the feasibility report records the tested environment.
 
 Optional checks after installing a suitable PyTorch environment:
 
 ```bash
 python scripts/verify_setup.py --check-torch
 python scripts/verify_setup.py --require-cuda
+python scripts/verify_setup.py --require-mps
 ```
 
 These commands inspect the environment without downloading models, preparing data, launching jobs, or renting GPUs. A passing scaffold check does not establish training readiness.
@@ -75,11 +80,14 @@ These commands inspect the environment without downloading models, preparing dat
 | Script | Status |
 | --- | --- |
 | [`scripts/verify_setup.py`](scripts/verify_setup.py) | Implemented: scaffold, YAML, and optional device checks |
-| [`scripts/smoke_test.py`](scripts/smoke_test.py) | Passed on the official pretrained checkpoint using CPU; CUDA run pending |
+| [`scripts/smoke_test.py`](scripts/smoke_test.py) | Passed on the official pretrained checkpoint using CPU, MPS, and CUDA |
 | [`scripts/prepare_data.py`](scripts/prepare_data.py) | Implemented: source-group-separated manifests from official split lists |
 | [`scripts/prepare_clips.py`](scripts/prepare_clips.py) | Implemented: deterministic training/validation clips; eight pilot clips validated |
-| [`scripts/check_attacks.py`](scripts/check_attacks.py) | Implemented: real-clip FGSM/PGD sanity checks; one training clip checked |
-| [`scripts/pilot.py`](scripts/pilot.py) | Implemented: FP32 CUDA update/evaluation timing; requires GPU access |
+| [`scripts/check_attacks.py`](scripts/check_attacks.py) | Real-clip FGSM/PGD sanity checks passed on CPU, MPS, and CUDA |
+| [`scripts/check_mps.py`](scripts/check_mps.py) | CPU/MPS comparison of losses, targets, and gradients on one real clip |
+| [`scripts/check_patch_embedding.py`](scripts/check_patch_embedding.py) | Isolated correctness/timing comparison of equivalent patch projections |
+| [`scripts/pilot.py`](scripts/pilot.py) | FP32 batch-eight MPS and RTX 5090 updates and full attack timing passed; RTX 3070 training ran out of memory |
+| [`scripts/estimate_compute.py`](scripts/estimate_compute.py) | Reproduces partial planning projections; missing costs stay unknown and cannot approve a run |
 | `scripts/train.py` | Planned: clean and adversarial fine-tuning |
 | `scripts/evaluate.py` | Planned: checkpoint and downstream evaluation |
 | `scripts/run_report_checks.py` | Planned: attack and implementation diagnostics |
@@ -139,7 +147,7 @@ Use `seed-0`, `seed-1`, and `seed-2` for the first locked experiment. Repeated r
 
 ## Results
 
-No research results yet. [Correctness diagnostics](report/checks/2026-10-17-pretrained-smoke.json) and [one training-clip attack check](report/checks/2026-10-17-real-clip-attacks.json) are available. Planned research outputs include clean/adversarial loss trajectories, best-versus-final gaps, attack-strength checks, and linear-probe accuracy. Report observed overfitting, no observed effect, and inconclusive experiments distinctly.
+No research results yet. [Correctness diagnostics](report/checks/2026-10-17-pretrained-smoke.json), [one training-clip attack check](report/checks/2026-10-17-real-clip-attacks.json), and [Mac feasibility measurements](report/checks/2026-10-19-mac-feasibility.md) are available. Planned research outputs include clean/adversarial loss trajectories, best-versus-final gaps, attack-strength checks, and linear-probe accuracy. Report observed overfitting, no observed effect, and inconclusive experiments distinctly.
 
 ## Weekly Goals & Progress
 

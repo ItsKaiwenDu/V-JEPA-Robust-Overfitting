@@ -1,11 +1,11 @@
 # Local model checks
 
-This is the first implementation step. It does not require Lambda, a dataset,
-or access to the university machine. The CPU tests use small randomly
-initialized instances of Meta's architecture. A separate command is ready
-for the full released checkpoint has now passed on CPU; its
-[report](../report/checks/2026-10-17-pretrained-smoke.json) records the exact
-hash and results. CUDA memory/runtime are still unverified.
+These checks do not require Lambda or access to the university machine.
+The CPU tests use small randomly initialized instances of Meta's architecture.
+The full released checkpoint has passed separately on CPU and Apple MPS;
+the [CPU report](../report/checks/2026-10-17-pretrained-smoke.json) and
+[MPS report](../report/checks/2026-10-18-mps-linear-smoke.json) record the
+weights and results. CUDA execution and runtime are still unverified.
 
 ## Create an isolated environment
 
@@ -19,7 +19,7 @@ python -m pip install -r requirements-smoke.txt
 ```
 
 This pair was tested locally on macOS ARM64 with Python 3.11.16, using the
-CPU. These are not validated CUDA environment pins. For a later Linux CPU
+CPU and Apple MPS. These are not validated CUDA environment pins. For a later Linux CPU
 check, use PyTorch's CPU wheel index for the torch/torchvision installation;
 for a GPU pilot, select a compatible pair using the
 [official installation instructions](https://pytorch.org/get-started/locally/)
@@ -57,6 +57,8 @@ The tests check:
   of missing/extra/wrong-shaped tensors, and checkpoint hash verification.
 - Deterministic block-mask replay, disjoint mask indices, and input validation.
 - Input and parameter differentiation with activation checkpointing enabled.
+- Output, input-gradient, and parameter-gradient agreement between the
+  original Conv3d patch projection and the optional equivalent linear map.
 
 The fixtures preserve the released attention head dimensions but have fewer
 heads, layers, and tokens. They do not measure pretrained robustness.
@@ -95,8 +97,10 @@ always computes and records the actual hash, even when this option is
 omitted. It loads with `weights_only=True`, audits all three states, and
 uses `strict=True`; it never falls back to reinitializing trained layers.
 `--device cpu` and `--device mps` are explicit alternatives. Full ViT-L
-CPU correctness has been checked, while MPS and CUDA behavior remain
-unmeasured. The default is CPU, not automatic GPU selection.
+CPU and MPS correctness have been checked. CUDA remains unmeasured. The
+default is CPU, not automatic GPU selection. The [Mac guide](mac_pilot.md)
+uses the explicit `--patch-embedding linear` performance option and explains
+its comparison against the original projection.
 
 This command checks one synthetic 16-frame, 256-square FP32 clip. It checks
 native-loss parity, finite nonzero input and parameter gradients, target
@@ -108,8 +112,11 @@ partial pass. Save the console output when investigating failures.
 
 The successful CPU run and checkpoint hash are recorded in `report/checks/`
 and `configs/study.yaml`. Local real-video and attack checks are also
-available. The next external dependency is the [CUDA feasibility pilot](gpu_pilot.md).
-Only measured complete costs can justify a training schedule or a rental.
+available. The [Mac feasibility measurements](../report/checks/2026-10-19-mac-feasibility.md)
+cover actual optimizer updates and the primary attack workload. A separate
+[CUDA pilot](gpu_pilot.md) is available if CUDA hardware is chosen.
+Complete costs, including the validation schedule, must be considered before
+launching the study or choosing a rental.
 
 ## Upstream implementation details
 

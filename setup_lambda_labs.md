@@ -1,23 +1,27 @@
 # Lambda Labs Setup Guide
 
 This guide retains the role of the same-named file in the previous project.
-The current repository has no training entry point yet. Use the university
-GPU and [local setup guide](docs/setup.md) for initial development.
+The current repository has no full training entry point yet. The Mac pilot
+has passed; university CUDA access is blocked by the reported driver mismatch.
+Use the [evaluation/compute proposal](docs/evaluation_compute_plan.md) and
+[bounded pilot handoff](docs/cloud_pilot_handoff.md) before any rental.
 
 ## Budget and rental choice
 
 The project cap is **$200 total**: $160 planned compute plus $40 for taxes,
 storage, and contingency. Count idle time and evaluation as well as training.
 
-As checked on October 16, 2026, Lambda's [official instance page](https://lambda.ai/instances)
+As rechecked on October 19, 2026, Lambda's [official instance page](https://lambda.ai/instances)
 listed a single RTX A6000 (48 GB) at $1.09/hour and a single A100 (40 GB) at
 $1.99/hour, before applicable taxes. Recheck price and availability at launch.
 The $160 compute allowance would buy about 146.8 or 80.4 hours at those rates;
 these are arithmetic limits, not measured experiment runtimes.
 
-Start with the A6000 candidate if available and suitable. Select a different
-GPU only after estimating the whole experiment's cost from measured
-throughput. A lower hourly price alone does not establish lower total cost.
+The A6000 remains a candidate, but compare the actual quote with alternatives
+in the compute proposal before choosing a provider. Reserve up to $10 within
+the compute envelope for pilots. The proposed first pilot is at most two
+billed hours on one GPU, then review the measurements. No instance has been
+launched. A lower hourly price alone does not establish lower total cost.
 
 ## Prepare before renting
 
@@ -46,9 +50,10 @@ file transfer workflow. Configure a compatible CUDA environment following
 python scripts/verify_setup.py --require-cuda
 ```
 
-This only confirms the scaffold and visible device. The upcoming native-loss
-smoke test must confirm model loading, decoding, forward/backward passes,
-target freezing, and attack gradients.
+This only confirms the scaffold and visible device. The implemented
+native-loss smoke test must confirm model loading, forward/backward passes,
+and target freezing on CUDA. Use the separate prepared-clip attack check for
+input gradients and bounds. The synthetic smoke test does not decode videos.
 
 ## Pilot and admission
 

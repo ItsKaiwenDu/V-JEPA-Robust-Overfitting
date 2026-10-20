@@ -1,0 +1,517 @@
+{
+  "kind": "runpod_5090_partial_projection_not_a_benchmark",
+  "as_of": "2026-10-19",
+  "complete_cost_estimate": false,
+  "budget_approved": false,
+  "hourly_rate_basis": "User console screenshot: displayed running total $1.20/hour; actual invoice, launch time, tax and stopped storage charges not verified.",
+  "source_sha256": {
+    "report/checks/2026-10-19-runpod-5090-pilot.json": "f45778c76a69ab9f526799009d8018d450e0ec389480f8d0da5e055e79cae736",
+    "report/checks/2026-10-19-runpod-5090-attacks.json": "6c3f0e29b5bf68bb184142f00fea2f2e28c5f7997fc4632eaa2d1fcf738f830b",
+    "configs/compute_plan.yaml": "5e49ff9e7897b7d81e6a95aa9c142d1242fb5ac344244635865cb1fe3fed9214",
+    "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+    "scripts/estimate_compute.py": "a4071f0c2b8aed17664b96a120911f7dd4c824987bd7d3d6dbe5228195df50c8"
+  },
+  "variants": {
+    "proposed_anchors": {
+      "training_clips": 2020,
+      "training_runs": 6,
+      "selection_schedule": "primary_validation_at_declared_anchors",
+      "selected_checkpoint_count_upper_bound": 13,
+      "components": [
+        {
+          "component": "clean-finetune",
+          "count": 22770,
+          "unit": "batch-eight update",
+          "seconds_per_unit": 4.026209568599915,
+          "timing_basis": "measured_unit",
+          "projected_hours": 25.465775521394466,
+          "note": "Five cached-clip updates; aggregate is an extrapolation."
+        },
+        {
+          "component": "adversarial-finetune",
+          "count": 22770,
+          "unit": "batch-eight update",
+          "seconds_per_unit": 24.4248599630002,
+          "timing_basis": "measured_unit",
+          "projected_hours": 154.48723926597623,
+          "note": "Five cached-clip updates; aggregate is an extrapolation."
+        },
+        {
+          "component": "routine_pgd5",
+          "count": 36562,
+          "unit": "clip",
+          "seconds_per_unit": 3.013901858999816,
+          "timing_basis": "measured_unit",
+          "projected_hours": 30.60952215798646,
+          "note": "One-clip released-model timing; includes one independent scoring draw."
+        },
+        {
+          "component": "primary_train_validation",
+          "count": 11110,
+          "unit": "clip",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit",
+          "projected_hours": 226.6498959998451,
+          "note": ""
+        },
+        {
+          "component": "primary_final_test",
+          "count": 6565,
+          "unit": "clip",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit",
+          "projected_hours": 133.92948399990848,
+          "note": "Upper bound of 13 distinct checkpoints; reuse perturbations for native-attack transfer."
+        },
+        {
+          "component": "attack_step_calibration",
+          "count": 303,
+          "unit": "training clip",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "same_workload_proxy",
+          "projected_hours": 6.181360799995776,
+          "note": "Proposed three step sizes on pretrained training clips only."
+        },
+        {
+          "component": "pgd50_eot8_validation",
+          "count": 1313,
+          "unit": "clip",
+          "seconds_per_unit": 367.2095524749966,
+          "timing_basis": "operation_count_proxy",
+          "projected_hours": 133.92948399990848,
+          "note": "Ratio of gradient work only; must measure actual stronger-attack runtime."
+        },
+        {
+          "component": "epsilon_sweep_extra",
+          "count": 3939,
+          "unit": "clip",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "same_workload_proxy",
+          "projected_hours": 80.35769039994508,
+          "note": "Reuse epsilon 4 primary output and epsilon 0 clean score."
+        },
+        {
+          "component": "clean_monitor_scoring",
+          "count": 36562,
+          "unit": "one-mask clean clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": ""
+        },
+        {
+          "component": "clean_primary_scoring",
+          "count": 17675,
+          "unit": "four-mask clean clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": ""
+        },
+        {
+          "component": "random_noise",
+          "count": 1313,
+          "unit": "validation clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "Include four independent native scoring masks; baseline definitions need implementation."
+        },
+        {
+          "component": "fgsm_eot4",
+          "count": 1313,
+          "unit": "validation clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "Include four independent native scoring masks; baseline definitions need implementation."
+        },
+        {
+          "component": "embedding_pgd20",
+          "count": 1313,
+          "unit": "validation clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "Include four independent native scoring masks; baseline definitions need implementation."
+        },
+        {
+          "component": "decode_and_integrity",
+          "count": 3030,
+          "unit": "clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "Test preprocessing occurs only after choices are locked; source integrity also needs auditing."
+        },
+        {
+          "component": "fixed_target_cache",
+          "count": 3030,
+          "unit": "clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": ""
+        },
+        {
+          "component": "probe_clean_feature_extraction",
+          "count": 39390,
+          "unit": "clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": ""
+        },
+        {
+          "component": "probe_fit",
+          "count": 52,
+          "unit": "candidate fit",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "Train-only fitting, validation-only hyperparameter selection; four candidates are a planning reserve."
+        },
+        {
+          "component": "direct_classifier_pgd20",
+          "count": 6565,
+          "unit": "test clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "Two restarts at 4/255; require convergence checks before final use."
+        },
+        {
+          "component": "direct_classifier_convergence",
+          "count": 3939,
+          "unit": "validation clip and step-size candidate",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "PGD-50, two restarts, three step sizes; calibrate before opening the test set."
+        },
+        {
+          "component": "native_attack_transfer_scoring",
+          "count": 6565,
+          "unit": "test clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "Score the already-generated native adversary with the matched fitted probe."
+        },
+        {
+          "component": "epoch_checkpoint_bundle_write",
+          "count": 180,
+          "unit": "epoch weight and resume bundle",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": ""
+        },
+        {
+          "component": "checkpoint_loading",
+          "count": 20,
+          "unit": "load",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "Online anchor evaluation, then selected-checkpoint evaluation; interruptions need extra loads."
+        },
+        {
+          "component": "setup_transfer_export",
+          "count": 1,
+          "unit": "billed preparation/export session",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": ""
+        }
+      ],
+      "measured_component_projection_hours": 571.1419169451108,
+      "proxy_component_projection_hours": 220.46853519984936,
+      "partial_projection_hours": 791.6104521449602,
+      "unmeasured_components": [
+        "clean_monitor_scoring",
+        "clean_primary_scoring",
+        "random_noise",
+        "fgsm_eot4",
+        "embedding_pgd20",
+        "decode_and_integrity",
+        "fixed_target_cache",
+        "probe_clean_feature_extraction",
+        "probe_fit",
+        "direct_classifier_pgd20",
+        "direct_classifier_convergence",
+        "native_attack_transfer_scoring",
+        "epoch_checkpoint_bundle_write",
+        "checkpoint_loading",
+        "setup_transfer_export"
+      ],
+      "complete_cost_estimate": false,
+      "budget_approved": false,
+      "storage": {
+        "fp32_epoch_weights_gib": 218.58080863952637,
+        "two_rolling_resume_slots_gib": 7.286026954650879,
+        "processed_fp32_clips_gib": 35.5078125,
+        "fixed_target_cache_fp32_gib": 23.671875,
+        "basis": "Tensor-only estimates; excludes raw video, official checkpoint, framework overhead and temporary writes."
+      },
+      "quoted_running_rate_usd_per_hour": 1.2,
+      "timed_components_projected_usd": 685.3703003341329,
+      "partial_projection_usd_including_proxies": 949.9325425739521
+    },
+    "declared_training_fallback": {
+      "training_clips": 1010,
+      "training_runs": 6,
+      "selection_schedule": "primary_validation_at_declared_anchors",
+      "selected_checkpoint_count_upper_bound": 13,
+      "components": [
+        {
+          "component": "clean-finetune",
+          "count": 11430,
+          "unit": "batch-eight update",
+          "seconds_per_unit": 4.026209568599915,
+          "timing_basis": "measured_unit",
+          "projected_hours": 12.78321538030473,
+          "note": "Five cached-clip updates; aggregate is an extrapolation."
+        },
+        {
+          "component": "adversarial-finetune",
+          "count": 11430,
+          "unit": "batch-eight update",
+          "seconds_per_unit": 24.4248599630002,
+          "timing_basis": "measured_unit",
+          "projected_hours": 77.54893038252563,
+          "note": "Five cached-clip updates; aggregate is an extrapolation."
+        },
+        {
+          "component": "routine_pgd5",
+          "count": 36562,
+          "unit": "clip",
+          "seconds_per_unit": 3.013901858999816,
+          "timing_basis": "measured_unit",
+          "projected_hours": 30.60952215798646,
+          "note": "One-clip released-model timing; includes one independent scoring draw."
+        },
+        {
+          "component": "primary_train_validation",
+          "count": 11110,
+          "unit": "clip",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit",
+          "projected_hours": 226.6498959998451,
+          "note": ""
+        },
+        {
+          "component": "primary_final_test",
+          "count": 6565,
+          "unit": "clip",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit",
+          "projected_hours": 133.92948399990848,
+          "note": "Upper bound of 13 distinct checkpoints; reuse perturbations for native-attack transfer."
+        },
+        {
+          "component": "attack_step_calibration",
+          "count": 303,
+          "unit": "training clip",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "same_workload_proxy",
+          "projected_hours": 6.181360799995776,
+          "note": "Proposed three step sizes on pretrained training clips only."
+        },
+        {
+          "component": "pgd50_eot8_validation",
+          "count": 1313,
+          "unit": "clip",
+          "seconds_per_unit": 367.2095524749966,
+          "timing_basis": "operation_count_proxy",
+          "projected_hours": 133.92948399990848,
+          "note": "Ratio of gradient work only; must measure actual stronger-attack runtime."
+        },
+        {
+          "component": "epsilon_sweep_extra",
+          "count": 3939,
+          "unit": "clip",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "same_workload_proxy",
+          "projected_hours": 80.35769039994508,
+          "note": "Reuse epsilon 4 primary output and epsilon 0 clean score."
+        },
+        {
+          "component": "clean_monitor_scoring",
+          "count": 36562,
+          "unit": "one-mask clean clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": ""
+        },
+        {
+          "component": "clean_primary_scoring",
+          "count": 17675,
+          "unit": "four-mask clean clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": ""
+        },
+        {
+          "component": "random_noise",
+          "count": 1313,
+          "unit": "validation clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "Include four independent native scoring masks; baseline definitions need implementation."
+        },
+        {
+          "component": "fgsm_eot4",
+          "count": 1313,
+          "unit": "validation clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "Include four independent native scoring masks; baseline definitions need implementation."
+        },
+        {
+          "component": "embedding_pgd20",
+          "count": 1313,
+          "unit": "validation clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "Include four independent native scoring masks; baseline definitions need implementation."
+        },
+        {
+          "component": "decode_and_integrity",
+          "count": 2020,
+          "unit": "clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "Test preprocessing occurs only after choices are locked; source integrity also needs auditing."
+        },
+        {
+          "component": "fixed_target_cache",
+          "count": 2020,
+          "unit": "clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": ""
+        },
+        {
+          "component": "probe_clean_feature_extraction",
+          "count": 26260,
+          "unit": "clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": ""
+        },
+        {
+          "component": "probe_fit",
+          "count": 52,
+          "unit": "candidate fit",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "Train-only fitting, validation-only hyperparameter selection; four candidates are a planning reserve."
+        },
+        {
+          "component": "direct_classifier_pgd20",
+          "count": 6565,
+          "unit": "test clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "Two restarts at 4/255; require convergence checks before final use."
+        },
+        {
+          "component": "direct_classifier_convergence",
+          "count": 3939,
+          "unit": "validation clip and step-size candidate",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "PGD-50, two restarts, three step sizes; calibrate before opening the test set."
+        },
+        {
+          "component": "native_attack_transfer_scoring",
+          "count": 6565,
+          "unit": "test clip",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "Score the already-generated native adversary with the matched fitted probe."
+        },
+        {
+          "component": "epoch_checkpoint_bundle_write",
+          "count": 180,
+          "unit": "epoch weight and resume bundle",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": ""
+        },
+        {
+          "component": "checkpoint_loading",
+          "count": 20,
+          "unit": "load",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": "Online anchor evaluation, then selected-checkpoint evaluation; interruptions need extra loads."
+        },
+        {
+          "component": "setup_transfer_export",
+          "count": 1,
+          "unit": "billed preparation/export session",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null,
+          "note": ""
+        }
+      ],
+      "measured_component_projection_hours": 481.5210479205704,
+      "proxy_component_projection_hours": 220.46853519984936,
+      "partial_projection_hours": 701.9895831204198,
+      "unmeasured_components": [
+        "clean_monitor_scoring",
+        "clean_primary_scoring",
+        "random_noise",
+        "fgsm_eot4",
+        "embedding_pgd20",
+        "decode_and_integrity",
+        "fixed_target_cache",
+        "probe_clean_feature_extraction",
+        "probe_fit",
+        "direct_classifier_pgd20",
+        "direct_classifier_convergence",
+        "native_attack_transfer_scoring",
+        "epoch_checkpoint_bundle_write",
+        "checkpoint_loading",
+        "setup_transfer_export"
+      ],
+      "complete_cost_estimate": false,
+      "budget_approved": false,
+      "storage": {
+        "fp32_epoch_weights_gib": 218.58080863952637,
+        "two_rolling_resume_slots_gib": 7.286026954650879,
+        "processed_fp32_clips_gib": 23.671875,
+        "fixed_target_cache_fp32_gib": 15.78125,
+        "basis": "Tensor-only estimates; excludes raw video, official checkpoint, framework overhead and temporary writes."
+      },
+      "quoted_running_rate_usd_per_hour": 1.2,
+      "timed_components_projected_usd": 577.8252575046845,
+      "partial_projection_usd_including_proxies": 842.3874997445037
+    }
+  },
+  "limitations": [
+    "Aggregate extrapolations from five measured updates per condition and one evaluation clip, not full experiment timings.",
+    "Fifteen categories remain unmeasured; proxy attack costs require measurements.",
+    "Quoted-rate costs exclude setup/export, downtime, stopped storage and unknown charges; no invoice reconciliation.",
+    "Historical planning configuration still describes initial Lambda preference; the hardware used here is Runpod RTX 5090.",
+    "No mixed precision, reduced input shape, or modified scientific source was used."
+  ]
+}

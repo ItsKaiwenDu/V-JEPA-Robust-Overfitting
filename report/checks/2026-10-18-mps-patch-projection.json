@@ -1,0 +1,52 @@
+{
+  "kind": "mps_patch_projection_microbenchmark",
+  "passed": true,
+  "research_result": false,
+  "runtime": {
+    "device": "mps",
+    "macos": "15.7.9",
+    "architecture": "arm64",
+    "python": "3.11.16",
+    "gpu": "Apple M4 Max",
+    "system_memory_bytes": 38654705664,
+    "recommended_working_set_bytes": 28991029248,
+    "mps_cpu_fallback": "unset",
+    "mps_fast_math": "unset",
+    "mps_high_watermark_ratio": "default"
+  },
+  "torch": "2.14.1",
+  "shape": [
+    1,
+    3,
+    16,
+    256,
+    256
+  ],
+  "output_features": 1024,
+  "records": {
+    "conv3d": {
+      "seconds": [
+        12.567328750010347,
+        12.42459974999656
+      ],
+      "measured_seconds": 12.42459974999656
+    },
+    "linear": {
+      "seconds": [
+        0.005871834000572562,
+        0.0021177080052439123
+      ],
+      "measured_seconds": 0.0021177080052439123
+    }
+  },
+  "seed": 20261018,
+  "source_files_sha256": {
+    "scripts/check_patch_embedding.py": "bf07bec83ae9189ad86e9fcee2150ec8dd68e31adf82bb6ba18734a135290bcd",
+    "models/patch_embed.py": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec",
+    "models/runtime.py": "3c7f22a5494ab16710d433084043f1968de6c864a7e4f6d180e2646153e3e17c"
+  },
+  "limitations": [
+    "Random patch weights; isolated operation, not full model throughput.",
+    "One warmup and one measured pass per implementation."
+  ]
+}

@@ -1,5 +1,141 @@
 # Research Progress Reports
 
+## 2026-10-19 — University memory limit and completed Runpod RTX 5090 pilot
+
+The user reported successful CUDA smoke and one-clip attack checks on university
+linux10609 (RTX 3070 8 GB). The FP32 optimizer pilot then failed during the
+second clean update's backward pass after the first optimizer state allocation.
+No adversarial training timing was obtained on that host.
+
+Connected to the user's running Runpod RTX 5090 using a host key independently
+verified through its web terminal. Reconstructed the existing verified source
+snapshot and eight training clips. Recovered from GitHub/PyPI network timeouts
+using the same upstream Git revision and Linux wheels transferred from the Mac.
+All 56 tests, model smoke, attack checks, and the complete bounded pilot passed.
+Five measured updates averaged 4.026 s clean and 24.425 s adversarial; primary
+PGD-20/R2/EOT4 evaluation took 73.442 s/clip. Maximum measured training allocator
+peak was 7.551 GiB. Scientific source and study configuration were unchanged.
+
+[Results and provenance](report/checks/2026-10-19-runpod-5090-feasibility.md)
+and [updated partial cost projection](report/checks/2026-10-19-runpod-5090-projection.json)
+are saved locally. The original training schedule alone projects 179.95 hours
+(about $215.94 at the displayed $1.20/hour); the proposed evaluation-inclusive
+partial projection is 791.61 hours, about $949.93, with 15 categories still
+unmeasured. The full study is not admitted within the $200 budget.
+
+Exported reports, logs and environment metadata and verified the archive hash.
+The user confirmed termination after stopping the Pod and verifying local export.
+Termination is user-reported; exact launch time and billed cost remain unreconciled. No full study, held-out test evaluation,
+commit, or push was performed. Next: reassess workload/implementation costs
+before another long GPU run.
+
+## 2026-10-19 — Evaluation schedule, cost ledger, and initial cloud handoff
+
+Prepared a [reviewable evaluation/compute proposal](docs/evaluation_compute_plan.md)
+without changing protocol 0.3 or `configs/study.yaml`. It uses one fixed
+training/validation clip per class for routine monitoring, nine declared
+post-training epochs for primary attacks, and the full 505-video final test
+set. Best-checkpoint selection would be restricted to the strong-evaluation
+epochs; this limitation is explicit. Three seeds and both conditions remain.
+The proposal, subsets, probe details, and exact mask seeds are not locked.
+
+Implemented a read-only workload calculator and recorded its
+[partial projections](report/checks/2026-10-19-compute-projection.json).
+The proposed schedule totals 1,209.66 Mac hours using measured unit timings,
+plus 483.60 hours from rough attack proxies and 15 unmeasured categories.
+Unknown costs are represented as null and cannot approve a run. The declared
+10-video training fallback and denser primary validation alternative are
+calculated separately. These are planning extrapolations, not experiments.
+
+Rechecked official Lambda and Runpod price listings, preserving the
+distinction between advertised rates, live quotes, and measured throughput.
+Proposed a shared $10 pilot reserve inside the $160 compute envelope, 25%
+runtime headroom for full admission, and the existing $40 noncompute reserve.
+No cloud performance is inferred from GPU specifications. No account,
+instance, filesystem, paid job, or final-test evaluation was accessed.
+Kaiwen confirmed an existing Lambda account; one 48 GB A6000 is the first
+pilot candidate, pending a live availability and price check.
+
+Prepared the [initial two-hour pilot handoff](docs/cloud_pilot_handoff.md),
+including the current source snapshot, existing eight training clips, hashes,
+CUDA correctness/timing commands, and export instructions. The initial pilot
+uses implemented native checks; baseline/probe timing and resume support
+remain work for the full-admission stage. No source was pushed or committed.
+
+**Verification:** All 56 local tests passed, with 15 upstream warnings.
+Five planning tests cover missing costs, shared-reference
+counts, preserved validation/test work under the training fallback, rejection
+of reduced timing evidence, and the denser schedule. Existing scientific
+source and its report hashes are unchanged. Source/archive reconstruction
+and final repository validation are checked before handoff delivery.
+
+**Next human input:** Check Lambda's live single-A6000 availability and price
+for a bounded first pilot. Access is needed for a CUDA measurement;
+the $200 full-study budget is not yet demonstrated feasible. Complete
+remaining local timing interfaces and resume checks before admitting the
+full experiment.
+
+## 2026-10-19 — Mac GPU correctness, performance fix, and timing pilot
+
+Confirmed that the M4 Max's MPS backend is available with normal host GPU
+access. The restricted execution environment reported it unavailable with
+the same Python interpreter; this explains the earlier local access result.
+The machine has 32 GPU cores and 36 GiB unified memory. No driver, allocator,
+power, or sleep setting was changed.
+
+The full pretrained smoke check and one-real-clip CPU/MPS comparison passed.
+Input-gradient relative L2 error was 0.684%, with cosine similarity 0.999978;
+losses, targets, and two selected parameter-gradient tensors passed their
+recorded thresholds. The MPS float64 limitation was handled by performing
+diagnostic norm reductions on CPU, while model forward/backward remained on
+the selected GPU. No CPU fallback was enabled for model operations.
+
+The original MPS Conv3d context projection made input-gradient attacks slow:
+one-clip PGD-5 took 121.29 seconds. Added an explicit equivalent linear patch
+projection that reuses the original parameters and state keys. The target
+encoder and upstream source are unchanged; Conv3d remains the default.
+CPU projection tests and full pretrained MPS checks passed. On the same clip,
+optimized PGD-5 took 4.84 seconds with matching reported MPS attack losses and
+perturbation maxima. The original and optimized evidence is preserved.
+
+**Measured pilot:** FP32, microbatch one, effective batch eight, activation
+checkpointing, and cached clean targets. Both conditions restart from the
+released weights and have one warmup plus five measured updates. Clean
+updates averaged 9.09 seconds and adversarial updates 49.33 seconds. Both
+updated context/predictor weights while preserving the fixed target state.
+PGD-20 with two restarts, four attack-mask draws, and four independent scoring
+draws took 161.09 seconds on one training clip. The largest sampled MPS driver
+allocation was 10.20 GiB; live tensors reached about 8.00 GiB. These sampled
+maxima are not exact peaks or total system RAM measurements.
+
+**Feasibility:** Six planned 30-epoch runs project to 369.53 hours (15.40 days)
+of training alone. One primary evaluation pass over 505 clips projects to
+22.60 hours. Up to 13 distinct pretrained/best/final test checkpoints would
+add 12.24 days before monitoring, stronger attacks, probes, and other work.
+An under-four-week full-study commitment on this Mac is therefore not
+supported by these measurements. Keep the Mac for development and bounded
+pilots while choosing a measured backend and evaluation schedule. See
+[the feasibility record](report/checks/2026-10-19-mac-feasibility.md) and
+[raw pilot measurements](report/checks/2026-10-19-mps-linear-pilot.json).
+
+**Verification and provenance:** 51 local CPU tests passed, including
+equivalent projection output/input/parameter-gradient checks, with 15 upstream
+deprecation warnings. Separate pretrained GPU reports record source hashes,
+packages, checkpoint identity, and runtime metadata. The original-projection
+source is retained as a patch against base commit
+`03e87ddf8f78810ccece272b9ad548c1cf03486e`; replay reproduced the earlier report
+hashes. No final-test clips or full training trajectories were evaluated.
+No Lambda instance or paid compute was used; the $200 allowance is unspent.
+
+**Next step:** Budget and freeze routine monitoring plus final evaluation;
+implement the full training runner with resume checks before long runs.
+Compare a measured faster CUDA option or revise scope explicitly if the
+four-week target is retained. The university RTX 3070 remains blocked by its
+reported driver mismatch. During the local pilot the battery fell despite
+reported AC power, so sustained local work also needs a power connection
+that maintains charge. No new access or purchase is needed to review these
+results and prepare the next implementation step.
+
 ## 2026-10-17 — Pretrained checks, real clips, and CUDA pilot preparation
 
 Loaded the complete official ViT-L checkpoint with strict encoder, target,

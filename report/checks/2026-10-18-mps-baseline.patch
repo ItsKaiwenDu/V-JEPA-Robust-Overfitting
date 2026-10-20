@@ -1,0 +1,491 @@
+--- a/models/diagnostics.py
++++ b/models/diagnostics.py
+@@ -82,7 +82,9 @@
+         gradients = [p.grad for p in getattr(model, name).parameters() if p.grad is not None]
+         if not gradients or any(not torch.isfinite(g).all() for g in gradients):
+             raise RuntimeError(f"Missing or nonfinite {name} parameter gradients.")
+-        norm = sum(g.double().square().sum().item() for g in gradients) ** 0.5
++        # MPS does not support float64. Diagnostic reduction happens on CPU;
++        # model forward/backward computation stays on the requested device.
++        norm = sum(g.detach().cpu().double().square().sum().item() for g in gradients) ** 0.5
+         if norm == 0:
+             raise RuntimeError(f"Zero {name} parameter gradient norm.")
+         gradient_norms[name] = norm
+--- /dev/null
++++ b/models/runtime.py
+@@ -0,0 +1,105 @@
++"""Explicit GPU timing and memory observations for small feasibility checks."""
++
++import os
++import platform
++import subprocess
++import threading
++
++import torch
++
++
++def require_device(device):
++    if device == 'cuda':
++        if not torch.cuda.is_available():
++            raise ValueError('CUDA is unavailable in this runtime.')
++    elif device == 'mps':
++        if not torch.backends.mps.is_available():
++            raise ValueError('MPS is unavailable in this runtime. Check access from a normal macOS Terminal.')
++        if os.environ.get('PYTORCH_ENABLE_MPS_FALLBACK', '0') != '0':
++            raise ValueError('Disable PYTORCH_ENABLE_MPS_FALLBACK for an explicit GPU feasibility check.')
++    elif device != 'cpu':
++        raise ValueError(f'Unsupported device: {device}')
++
++
++def synchronize(device):
++    if device == 'cuda':
++        torch.cuda.synchronize()
++    elif device == 'mps':
++        torch.mps.synchronize()
++
++
++def empty_cache(device):
++    if device == 'cuda':
++        torch.cuda.empty_cache()
++    elif device == 'mps':
++        torch.mps.empty_cache()
++
++
++def device_metadata(device):
++    result = {'device': device, 'macos': platform.mac_ver()[0] or None,
++              'architecture': platform.machine(), 'python': platform.python_version()}
++    if device == 'cuda':
++        result.update(gpu=torch.cuda.get_device_name(),
++                      vram_bytes=torch.cuda.get_device_properties(0).total_memory)
++    elif device == 'mps':
++        result.update(gpu=subprocess.check_output(['sysctl', '-n', 'machdep.cpu.brand_string'], text=True).strip(),
++                      system_memory_bytes=int(subprocess.check_output(['sysctl', '-n', 'hw.memsize'], text=True)),
++                      recommended_working_set_bytes=torch.mps.recommended_max_memory(),
++                      mps_cpu_fallback=os.environ.get('PYTORCH_ENABLE_MPS_FALLBACK', 'unset'),
++                      mps_fast_math=os.environ.get('PYTORCH_MPS_FAST_MATH', 'unset'),
++                      mps_high_watermark_ratio=os.environ.get('PYTORCH_MPS_HIGH_WATERMARK_RATIO', 'default'))
++    return result
++
++
++class MemoryMonitor:
++    """CUDA allocator peak, or sampled MPS allocations (not an exact peak).
++
++    MPS driver allocation includes cache and other driver allocations, while
++    live tensor bytes do not. Samples can miss transients; neither reports
++    total system memory use. No memory limits or device settings are changed.
++    """
++
++    def __init__(self, device, interval=0.1):
++        self.device = device
++        self.interval = interval
++        self.stop = threading.Event()
++        self.allocated = self.driver = self.samples = 0
++        self.errors = []
++
++    def _sample(self):
++        self.allocated = max(self.allocated, torch.mps.current_allocated_memory())
++        self.driver = max(self.driver, torch.mps.driver_allocated_memory())
++        self.samples += 1
++
++    def _run(self):
++        try:
++            while not self.stop.wait(self.interval):
++                self._sample()
++        except Exception as exc:
++            self.errors.append(f'{type(exc).__name__}: {exc}')
++
++    def __enter__(self):
++        synchronize(self.device)
++        if self.device == 'cuda':
++            torch.cuda.reset_peak_memory_stats()
++        elif self.device == 'mps':
++            self._sample()
++            self.thread = threading.Thread(target=self._run, daemon=True)
++            self.thread.start()
++        return self
++
++    def __exit__(self, *exc):
++        if self.device == 'mps':
++            self.stop.set()
++            self.thread.join()
++            self._sample()
++
++    def report(self):
++        if self.device == 'cuda':
++            return {'cuda_peak_allocated_bytes': torch.cuda.max_memory_allocated()}
++        if self.device == 'mps':
++            return {'mps_sampled_max_tensor_bytes': self.allocated,
++                    'mps_sampled_max_driver_bytes': self.driver,
++                    'sample_interval_seconds': self.interval, 'samples': self.samples,
++                    'is_exact_peak': False, 'sampling_errors': self.errors}
++        return {}
+--- a/scripts/check_attacks.py
++++ b/scripts/check_attacks.py
+@@ -19,7 +19,7 @@
+     parser.add_argument('--checkpoint', type=Path, required=True)
+     parser.add_argument('--clip', type=Path, required=True)
+     parser.add_argument('--output', type=Path, required=True)
+-    parser.add_argument('--device', choices=['cpu', 'cuda'], default='cpu')
++    parser.add_argument('--device', choices=['cpu', 'cuda', 'mps'], default='cpu')
+     args = parser.parse_args()
+     if args.output.exists():
+         parser.error('Use a new output file.')
+@@ -28,9 +28,11 @@
+     import torch
+     from attacks.pgd import fgsm, native_objective, pgd_linf
+     from models.diagnostics import state_digest
++    from models.runtime import require_device, synchronize, device_metadata
+     from models.vjepa2 import UPSTREAM_COMMIT, build_vitl, load_checkpoint, sample_masks
+ 
+     torch.set_num_threads(4)
++    require_device(args.device)
+     model = build_vitl(args.upstream)
+     checkpoint = load_checkpoint(model, args.checkpoint)
+     model.to(args.device).eval()
+@@ -49,6 +51,7 @@
+         clean_scoring = scoring(clean).item()
+     measured = {}
+     for name in ('fgsm', 'pgd5'):
++        synchronize(args.device)
+         started = time.perf_counter()
+         attack = (fgsm(objective, clean, epsilon=4/255) if name == 'fgsm'
+                   else pgd_linf(objective, clean, epsilon=4/255, step_size=1/255, steps=5, seed=0))
+@@ -57,6 +60,7 @@
+             raise RuntimeError('Attack violates its pixel-space bounds.')
+         with torch.no_grad():
+             independent_loss = scoring(attack.adversarial).item()
++        synchronize(args.device)
+         measured[name] = {'attack_bank_loss': attack.losses.item(), 'independent_mask_loss': independent_loss,
+                           'max_pixel_delta': delta, 'seconds': time.perf_counter() - started}
+     if state_digest(model) != before or any(p.grad is not None for p in model.parameters()):
+@@ -67,7 +71,8 @@
+               'upstream_commit': UPSTREAM_COMMIT, 'checkpoint_sha256': checkpoint['sha256'],
+               'packages': {n: importlib.metadata.version(n) for n in ('torch', 'torchvision', 'numpy', 'timm', 'einops')},
+               'source_files_sha256': {n: hashlib.sha256((ROOT / n).read_bytes()).hexdigest()
+-                                      for n in ('attacks/pgd.py', 'models/vjepa2.py', 'datasets/video.py', 'scripts/check_attacks.py')},
++                                      for n in ('attacks/pgd.py', 'models/vjepa2.py', 'datasets/video.py', 'scripts/check_attacks.py', 'models/runtime.py')},
++              'runtime': device_metadata(args.device),
+               'device': args.device, 'clip': cache['metadata'], 'epsilon': 4/255,
+               'attack_mask_seed': 0, 'independent_scoring_mask_seed': 100000,
+               'clean_attack_bank_loss': clean_loss, 'clean_independent_mask_loss': clean_scoring,
+--- /dev/null
++++ b/scripts/check_mps.py
+@@ -0,0 +1,111 @@
++#!/usr/bin/env python3
++"""Compare pretrained CPU/MPS outputs and selected gradients on one real clip."""
++
++import argparse
++import hashlib
++import importlib.metadata
++import json
++from pathlib import Path
++import sys
++
++ROOT = Path(__file__).resolve().parents[1]
++sys.path.insert(0, str(ROOT))
++
++
++def comparison(reference, observed):
++    import torch
++    a, b = reference.flatten().double(), observed.flatten().double()
++    if not torch.isfinite(a).all() or not torch.isfinite(b).all():
++        raise RuntimeError('Nonfinite CPU/MPS comparison values.')
++    scale = a.norm()
++    if scale == 0 or b.norm() == 0:
++        raise RuntimeError('Expected nonzero reference and observed values.')
++    return {'relative_l2_error': ((a-b).norm()/scale).item(),
++            'cosine_similarity': torch.nn.functional.cosine_similarity(a, b, dim=0, eps=1e-30).item(),
++            'max_absolute_error': (a-b).abs().max().item()}
++
++
++def main():
++    parser = argparse.ArgumentParser(description=__doc__)
++    parser.add_argument('--upstream', type=Path, default=ROOT/'external/vjepa2')
++    parser.add_argument('--checkpoint', type=Path, required=True)
++    parser.add_argument('--clip', type=Path, required=True)
++    parser.add_argument('--output', type=Path, required=True)
++    args = parser.parse_args()
++    if args.output.exists() or not args.checkpoint.is_file() or not args.clip.is_file():
++        parser.error('Use existing checkpoint/clip files and a new output filename.')
++    import torch
++    import yaml
++    from models.runtime import device_metadata, require_device, synchronize
++    from models.diagnostics import state_digest
++    from models.vjepa2 import UPSTREAM_COMMIT, build_vitl, load_checkpoint, sample_masks
++    require_device('mps')
++    torch.set_num_threads(4)
++    torch.manual_seed(0)
++    clip = torch.load(args.clip, weights_only=True, map_location='cpu')
++    if hashlib.sha256(clip['pixels'].numpy().tobytes()).hexdigest() != clip['metadata']['pixel_sha256']:
++        raise ValueError('Cached pixels disagree with their provenance.')
++    expected = yaml.safe_load((ROOT/'configs/study.yaml').read_text())['model']['checkpoint_sha256']
++    model = build_vitl(args.upstream)
++    checkpoint = load_checkpoint(model, args.checkpoint, expected)
++    target_before = state_digest(model.target_encoder)
++    masks = sample_masks(args.upstream, batch_size=1, seed=0)
++    selected = ('encoder.patch_embed.proj.weight', 'predictor.predictor_embed.weight')
++
++    def snapshot(device):
++        print(f'Checking real-clip loss and gradients on {device}...', flush=True)
++        model.to(device).train()
++        clean = clip['pixels'].unsqueeze(0).to(device)
++        pixels = clean.detach().clone().requires_grad_(True)
++        targets = model.clean_targets(clean)
++        model.zero_grad(set_to_none=True)
++        loss = model(pixels, targets, [m.to(device) for m in masks])
++        loss.backward()
++        synchronize(device)
++        if any(p.grad is not None for p in model.target_encoder.parameters()):
++            raise RuntimeError('Target encoder acquired gradients.')
++        if any(p.grad is not None and not torch.isfinite(p.grad).all() for p in model.parameters()):
++            raise RuntimeError('Nonfinite model gradient.')
++        parameters = dict(model.named_parameters())
++        result = {'loss': loss.detach().cpu(), 'targets': targets.detach().cpu(),
++                  'input_gradient': pixels.grad.detach().cpu(),
++                  **{name: parameters[name].grad.detach().cpu().clone() for name in selected}}
++        model.zero_grad(set_to_none=True)
++        return result
++
++    cpu = snapshot('cpu')
++    mps = snapshot('mps')
++    thresholds = {'loss_rtol': 1e-4, 'loss_atol': 1e-5,
++                  'target_relative_l2': 1e-3, 'gradient_relative_l2': 1e-2,
++                  'gradient_cosine_minimum': 0.999}
++    # Thresholds are declared before inspecting the device comparison.
++    metrics = {name: comparison(cpu[name], mps[name]) for name in ('targets', 'input_gradient', *selected)}
++    loss_passed = bool(torch.isclose(cpu['loss'], mps['loss'], rtol=thresholds['loss_rtol'], atol=thresholds['loss_atol']))
++    target_passed = metrics['targets']['relative_l2_error'] <= thresholds['target_relative_l2']
++    gradients_passed = all(metrics[name]['relative_l2_error'] <= thresholds['gradient_relative_l2']
++                           and metrics[name]['cosine_similarity'] >= thresholds['gradient_cosine_minimum']
++                           for name in ('input_gradient', *selected))
++    target_unchanged = state_digest(model.target_encoder) == target_before
++    passed = loss_passed and target_passed and gradients_passed and target_unchanged
++    report = {'kind': 'one_training_clip_cpu_mps_parity', 'research_result': False, 'passed': passed,
++              'thresholds': thresholds, 'cpu_loss': cpu['loss'].item(), 'mps_loss': mps['loss'].item(),
++              'comparisons': metrics, 'frozen_target_unchanged': target_unchanged,
++              'runtime': device_metadata('mps'), 'checkpoint': checkpoint, 'upstream_commit': UPSTREAM_COMMIT,
++              'clip': clip['metadata'], 'mask_seed': 0,
++              'packages': {n: importlib.metadata.version(n) for n in ('torch','torchvision','timm','einops','numpy')},
++              'source_files_sha256': {n: hashlib.sha256((ROOT/n).read_bytes()).hexdigest()
++                                      for n in ('scripts/check_mps.py','models/runtime.py','models/vjepa2.py')},
++              'limitations': ['One training clip and mask draw, FP32.',
++                              'Full input gradients and two selected parameter tensors compared, not every parameter gradient.',
++                              'No optimizer step or cross-device training-trajectory equivalence.']}
++    args.output.parent.mkdir(parents=True, exist_ok=True)
++    with args.output.open('x') as handle:
++        json.dump(report, handle, indent=2)
++        handle.write('\n')
++    print(json.dumps({'passed': passed, 'cpu_loss': report['cpu_loss'], 'mps_loss': report['mps_loss'], 'comparisons': metrics}, indent=2))
++    if not passed:
++        raise RuntimeError('CPU/MPS correctness comparison failed; inspect the report before timing training.')
++
++
++if __name__ == '__main__':
++    main()
+--- a/scripts/pilot.py
++++ b/scripts/pilot.py
+@@ -1,5 +1,5 @@
+ #!/usr/bin/env python3
+-"""Measure a small FP32 CUDA pilot; no cloud rental and no confirmatory training.
++"""Measure a small FP32 CUDA/MPS pilot; no cloud rental or confirmatory training.
+ 
+ Requires a checkpoint and prepared training clips. Records update and full
+ PGD/EOT evaluation time. It does not authorize spending or choose a protocol.
+@@ -26,13 +26,26 @@
+     parser.add_argument('--clips', type=Path, required=True, help='Prepared training clip directory with index.json.')
+     parser.add_argument('--output', type=Path, required=True)
+     parser.add_argument('--steps', type=int, default=3, help='Measured updates per condition, after one warmup.')
++    parser.add_argument('--device', choices=['cuda', 'mps'], default='cuda')
++    parser.add_argument('--accumulation', type=int, default=8, help='1-8 clips per update; use 8 for the planned effective batch.')
++    parser.add_argument('--evaluation-steps', type=int, default=20)
++    parser.add_argument('--evaluation-restarts', type=int, default=2)
++    parser.add_argument('--evaluation-masks', type=int, default=4)
+     args = parser.parse_args()
+     if args.steps < 1 or args.output.exists():
+         parser.error('Use positive --steps and a fresh output filename.')
++    if not 1 <= args.accumulation <= 8 or min(args.evaluation_steps, args.evaluation_restarts, args.evaluation_masks) < 1:
++        parser.error('Use accumulation 1-8 and positive evaluation steps/restarts/masks.')
+     import torch
+-    if not torch.cuda.is_available():
+-        parser.error('This cost pilot requires CUDA. No GPU is available in this runtime.')
++    from models.runtime import MemoryMonitor, device_metadata, empty_cache, require_device, synchronize
++    try:
++        require_device(args.device)
++    except ValueError as exc:
++        parser.error(str(exc))
++    device = args.device
++    torch.set_num_threads(4)
+     from attacks.pgd import native_objective, pgd_linf
++    from models.diagnostics import state_digest
+     from models.pilot import effective_update, optimizer_for
+     from models.vjepa2 import UPSTREAM_COMMIT, build_vitl, load_checkpoint, sample_masks
+     import yaml
+@@ -66,65 +79,89 @@
+     torch.manual_seed(0)
+     model = build_vitl(args.upstream)
+     checkpoint = load_checkpoint(model, args.checkpoint, expected_hash)
+-    model.cuda()
+-    targets = [model.clean_targets(pixels_at(i).cuda()).cpu() for i in range(8)]
++    model.to(device)
++    targets = [model.clean_targets(pixels_at(i).to(device)).cpu() for i in range(args.accumulation)]
++    frozen_target_digest = state_digest(model.target_encoder)
+     conditions = {}
+     for condition in ('clean-finetune', 'adversarial-finetune'):
+         # Both conditions start from identical released states, not from the
+         # preceding pilot's updated weights. Loading is outside the timer.
+         load_checkpoint(model, args.checkpoint, checkpoint['sha256'])
++        encoder_before = model.encoder.patch_embed.proj.weight.detach().cpu().clone()
++        predictor_before = model.predictor.predictor_embed.weight.detach().cpu().clone()
+         optimizer = optimizer_for(model)
+         timings = []
+-        torch.cuda.reset_peak_memory_stats()
+-        for step in range(args.steps + 1):
+-            def load_example(i):
+-                return pixels_at(i).cuda(), targets[i].cuda()
+-            def masks_for(i):
+-                return [m.to('cuda') for m in sample_masks(args.upstream, batch_size=1, seed=step*8+i)]
+-            torch.cuda.synchronize()
+-            started = time.perf_counter()
+-            loss = effective_update(model, optimizer, load_example, masks_for,
+-                                    adversarial=condition == 'adversarial-finetune', seed=step*8)
+-            torch.cuda.synchronize()
+-            elapsed = time.perf_counter() - started
+-            print(f'{condition}: update {step}, {elapsed:.3f}s, loss={loss:.6f}', flush=True)
+-            if step:
+-                timings.append(elapsed)
++        with MemoryMonitor(device) as memory:
++            for step in range(args.steps + 1):
++                def load_example(i):
++                    return pixels_at(i).to(device), targets[i].to(device)
++                def masks_for(i):
++                    return [m.to(device) for m in sample_masks(args.upstream, batch_size=1, seed=step*8+i)]
++                synchronize(device)
++                started = time.perf_counter()
++                loss = effective_update(model, optimizer, load_example, masks_for,
++                                        adversarial=condition == 'adversarial-finetune',
++                                        accumulation=args.accumulation, seed=step*8)
++                synchronize(device)
++                elapsed = time.perf_counter() - started
++                print(f'{condition}: update {step}, {elapsed:.3f}s, loss={loss:.6f}', flush=True)
++                if step:
++                    timings.append(elapsed)
++        checks = {'target_unchanged': state_digest(model.target_encoder) == frozen_target_digest,
++                  'encoder_updated': not torch.equal(encoder_before, model.encoder.patch_embed.proj.weight.detach().cpu()),
++                  'predictor_updated': not torch.equal(predictor_before, model.predictor.predictor_embed.weight.detach().cpu())}
++        if not all(checks.values()):
++            raise RuntimeError(f'Pilot optimizer check failed: {checks}')
+         conditions[condition] = {'update_seconds': timings, 'mean_seconds': statistics.mean(timings),
+-                                 'cuda_peak_allocated_bytes': torch.cuda.max_memory_allocated()}
++                                 'memory': memory.report(), 'optimizer_checks': checks}
+         del optimizer
+-        torch.cuda.empty_cache()
++        empty_cache(device)
+ 
+     # Include the expensive primary evaluation attack, on a training pilot
+     # clip; this is a timing measurement, never final-test evaluation.
+     model.eval()
+-    pixels, target = pixels_at(0).cuda(), targets[0].cuda()
+-    bank = [[m.to('cuda') for m in sample_masks(args.upstream, batch_size=1, seed=1000+i)] for i in range(4)]
+-    scoring = [[m.to('cuda') for m in sample_masks(args.upstream, batch_size=1, seed=2000+i)] for i in range(4)]
+-    torch.cuda.reset_peak_memory_stats()
+-    torch.cuda.synchronize()
+-    started = time.perf_counter()
+-    result = pgd_linf(native_objective(model, target, bank), pixels, epsilon=4/255,
+-                      step_size=1/255, steps=20, restarts=2, seed=3000)
+-    with torch.no_grad():
+-        score = native_objective(model, target, scoring)(result.adversarial).item()
+-    torch.cuda.synchronize()
+-    evaluation_seconds = time.perf_counter() - started
+-    projected = math.ceil(2020 / 8) * 30 * 3 * sum(c['mean_seconds'] for c in conditions.values()) / 3600
+-    report = {'kind': 'fp32_cuda_feasibility_pilot', 'research_result': False,
++    pixels, target = pixels_at(0).to(device), targets[0].to(device)
++    bank = [[m.to(device) for m in sample_masks(args.upstream, batch_size=1, seed=1000+i)] for i in range(args.evaluation_masks)]
++    scoring = [[m.to(device) for m in sample_masks(args.upstream, batch_size=1, seed=2000+i)] for i in range(4)]
++    print(f'Timing PGD-{args.evaluation_steps}, {args.evaluation_restarts} restarts, '
++          f'{args.evaluation_masks} attack-mask draws and four scoring draws...', flush=True)
++    with MemoryMonitor(device) as evaluation_memory:
++        synchronize(device)
++        started = time.perf_counter()
++        result = pgd_linf(native_objective(model, target, bank), pixels, epsilon=4/255,
++                          step_size=1/255, steps=args.evaluation_steps,
++                          restarts=args.evaluation_restarts, seed=3000)
++        with torch.no_grad():
++            score = native_objective(model, target, scoring)(result.adversarial).item()
++        synchronize(device)
++        evaluation_seconds = time.perf_counter() - started
++    projected = math.ceil(2020 / 8) * 30 * 3 * (8/args.accumulation) * sum(c['mean_seconds'] for c in conditions.values()) / 3600
++    report = {'kind': 'fp32_gpu_feasibility_pilot', 'research_result': False,
+               'upstream_commit': UPSTREAM_COMMIT, 'checkpoint': checkpoint,
+-              'gpu': torch.cuda.get_device_name(), 'vram_bytes': torch.cuda.get_device_properties(0).total_memory,
++              'runtime': device_metadata(device),
+               'packages': {n: importlib.metadata.version(n) for n in ('torch', 'torchvision', 'timm', 'einops', 'numpy')},
+               'source_files_sha256': {name: hashlib.sha256((ROOT / name).read_bytes()).hexdigest()
+                                       for name in ('scripts/pilot.py', 'models/pilot.py', 'models/vjepa2.py',
+-                                                   'attacks/pgd.py', 'configs/study.yaml')},
++                                                   'attacks/pgd.py', 'configs/study.yaml', 'models/runtime.py',
++                                                   'models/diagnostics.py')},
+               'clip_index_sha256': hashlib.sha256(index_bytes).hexdigest(), 'conditions': conditions,
+-              'microbatch': 1, 'effective_batch': 8, 'precision': 'float32',
++              'microbatch': 1, 'effective_batch': args.accumulation, 'precision': 'float32',
++              'measured_updates_per_condition': args.steps, 'warmup_updates_per_condition': 1,
++              'training_projection': {'videos': 2020, 'updates_per_epoch': math.ceil(2020/8),
++                                      'epochs': 30, 'seeds': 3, 'conditions': 2, 'planned_effective_batch': 8,
++                                      'measured_effective_batch': args.accumulation,
++                                      'method': 'Linear scaling of measured update cost; scales optimizer overhead too.'},
++              'evaluation_attack': {'steps': args.evaluation_steps, 'restarts': args.evaluation_restarts,
++                                    'eot_masks': args.evaluation_masks, 'scoring_masks': 4,
++                                    'epsilon': 4/255, 'step_size': 1/255},
++              'primary_evaluation_measured': (args.evaluation_steps, args.evaluation_restarts, args.evaluation_masks) == (20,2,4),
+               'evaluation_seconds_per_clip': evaluation_seconds,
+-              'evaluation_cuda_peak_allocated_bytes': torch.cuda.max_memory_allocated(),
++              'evaluation_memory': evaluation_memory.report(),
+               'pilot_scoring_loss': score, 'projected_training_only_hours': projected,
+               'budget_approved': False,
+-              'limitations': ['Only eight cached training clips; small warm-cache throughput sample.',
++              'limitations': [f'Only {args.accumulation} cached training clips used; small warm-cache throughput sample.',
++                              'If accumulation is below eight, training projection extrapolates to the planned batch size and may misestimate optimizer overhead.',
++                              'Reduced evaluation settings do not measure primary PGD-20/2-restart/EOT-4 runtime.',
+                               'Training projection excludes evaluation, target-cache construction, checkpoints, and probe fitting.',
+                               'FP32 pilot settings are not the locked training/evaluation protocol.',
+                               'PGD-50/EOT-8 convergence, multiple shapes, checkpoint I/O, and end-to-end costs remain to be measured.']}
+--- a/scripts/smoke_test.py
++++ b/scripts/smoke_test.py
+@@ -7,6 +7,7 @@
+ from __future__ import annotations
+ 
+ import argparse
++import hashlib
+ import importlib.metadata
+ import json
+ from pathlib import Path
+@@ -52,6 +53,8 @@
+     print(f"Checking one synthetic FP32 batch on {args.device}...", flush=True)
+     if args.device == "cuda":
+         torch.cuda.reset_peak_memory_stats()
++    if args.device == "mps":
++        torch.mps.synchronize()
+     checks = run_smoke_checks(model, clean.to(args.device), masks, upstream)
+     report = {"kind": "synthetic_pretrained_smoke_test", "research_result": False,
+               "upstream_commit": UPSTREAM_COMMIT, "checkpoint": checkpoint,
+@@ -60,11 +63,21 @@
+                            for name in ("torch", "torchvision", "timm", "einops", "numpy", "PyYAML")},
+               "project_commit": subprocess.check_output(["git", "-C", str(ROOT), "rev-parse", "HEAD"], text=True).strip(),
+               "project_dirty": bool(subprocess.check_output(["git", "-C", str(ROOT), "status", "--porcelain"], text=True).strip()),
++              "source_files_sha256": {name: hashlib.sha256((ROOT / name).read_bytes()).hexdigest()
++                                      for name in ("models/vjepa2.py", "models/diagnostics.py", "scripts/smoke_test.py")},
+               "mask_shapes": [{"context": list(p.context.shape), "target": list(p.target.shape)} for p in masks],
+               "checks": checks}
+     if args.device == "cuda":
+         report["cuda_peak_allocated_bytes"] = torch.cuda.max_memory_allocated()
+         report["gpu"] = torch.cuda.get_device_name()
++    if args.device == "mps":
++        torch.mps.synchronize()
++        report["mps_memory_after_checks"] = {
++            "allocated_bytes": torch.mps.current_allocated_memory(),
++            "driver_allocated_bytes": torch.mps.driver_allocated_memory(),
++            "recommended_working_set_bytes": torch.mps.recommended_max_memory(),
++            "is_peak_measurement": False,
++        }
+     args.output.parent.mkdir(parents=True, exist_ok=True)
+     with args.output.open("x", encoding="utf-8") as handle:
+         json.dump(report, handle, indent=2)

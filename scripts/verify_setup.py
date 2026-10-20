@@ -25,6 +25,8 @@ REQUIRED_FILES = (
     "attacks/__init__.py", "attacks/pgd.py", "datasets/__init__.py", "datasets/ucf101.py",
     "datasets/video.py", "models/pilot.py", "scripts/prepare_data.py", "scripts/prepare_clips.py",
     "scripts/check_attacks.py", "scripts/pilot.py", "docs/data_and_attacks.md", "docs/gpu_pilot.md",
+    "models/runtime.py", "scripts/check_mps.py", "docs/mac_pilot.md",
+    "models/patch_embed.py", "scripts/check_patch_embedding.py", "tests/test_patch_embed.py",
     "tests/test_attacks.py", "tests/test_ucf101.py", "tests/test_video.py",
     "notes/README.md", "notes/2026-10-16_novelty-audit.md",
     "report/main.tex", "report/references.bib", "report/README.md",
@@ -64,7 +66,7 @@ def check_scaffold() -> list[str]:
     return errors
 
 
-def check_torch(require_cuda: bool) -> list[str]:
+def check_torch(require_cuda: bool, require_mps: bool = False) -> list[str]:
     try:
         torch = importlib.import_module("torch")
         print(f"PyTorch: {torch.__version__}")
@@ -80,6 +82,8 @@ def check_torch(require_cuda: bool) -> list[str]:
                 print(f"GPU {index}: {props.name}, {props.total_memory / 2**30:.1f} GiB")
         if require_cuda and not cuda_available:
             return ["CUDA is required for this check but is unavailable."]
+        if require_mps and not mps_available:
+            return ["MPS is required but unavailable in this runtime; compare access from a normal macOS Terminal."]
     except Exception as exc:
         return [f"PyTorch inspection failed: {type(exc).__name__}: {exc}"]
     return []
@@ -88,7 +92,9 @@ def check_torch(require_cuda: bool) -> list[str]:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check-torch", action="store_true", help="Inspect installed PyTorch.")
-    parser.add_argument("--require-cuda", action="store_true", help="Inspect PyTorch and require CUDA.")
+    device = parser.add_mutually_exclusive_group()
+    device.add_argument("--require-cuda", action="store_true", help="Inspect PyTorch and require CUDA.")
+    device.add_argument("--require-mps", action="store_true", help="Inspect PyTorch and require Apple GPU access.")
     args = parser.parse_args()
 
     print(f"Repository: {ROOT}")
@@ -97,16 +103,16 @@ def main() -> int:
         print("FAIL: Use Python 3.11 or newer for the scaffold checker.")
         return 1
     errors = check_scaffold()
-    if args.check_torch or args.require_cuda:
-        errors.extend(check_torch(args.require_cuda))
+    if args.check_torch or args.require_cuda or args.require_mps:
+        errors.extend(check_torch(args.require_cuda, args.require_mps))
     else:
-        print("PyTorch: not checked; use --check-torch or --require-cuda explicitly.")
+        print("PyTorch: not checked; use --check-torch, --require-cuda, or --require-mps explicitly.")
     for error in errors:
         print(f"FAIL: {error}")
     if errors:
         return 1
     print("PASS: Scaffold files and YAML syntax are valid.")
-    print("This scaffold check does not certify GPU training readiness; run the CUDA feasibility pilot.")
+    print("This scaffold check does not certify GPU training readiness; run the device correctness checks and feasibility pilot.")
     return 0
 
 

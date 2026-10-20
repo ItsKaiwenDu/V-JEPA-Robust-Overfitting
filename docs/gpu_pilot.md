@@ -1,9 +1,14 @@
-# Next human step: access to a CUDA GPU
+# CUDA feasibility and the university workstation
 
 The pretrained model and local correctness checks can run on CPU. Measuring
 training feasibility requires the actual GPU that will run the experiment.
 No Lambda instance is created by this project, and no paid compute has been
-used. Start with the university RTX 3080 if available.
+used. The reported allocation is `linux10604`, with an RTX 3070 (standard
+8 GB), i9-11900, and 62 GiB system RAM. Its `nvidia-smi` currently fails with
+a driver/library mismatch (NVML 580.178); system Python is 3.9.25. CUDA
+feasibility remains untested until access is repaired and a compatible
+Python environment is prepared. The [Apple GPU guide](mac_pilot.md) covers
+the separately available M4 Max.
 
 ## First, inspect the assigned machine
 
@@ -55,11 +60,11 @@ Then run the small, explicit feasibility job:
 python scripts/pilot.py \
   --checkpoint checkpoints/vitl.pt \
   --clips data/processed/pilot-train-v1 \
-  --steps 3 \
+  --device cuda --steps 3 \
   --output runs/pretrained/diagnostic/cuda-pilot-01/pilot.json
 ```
 
-This command requires CUDA and refuses to overwrite a report. It performs
+This invocation requires CUDA and refuses to overwrite a report. It performs
 one warmup plus three measured optimizer updates for each condition, starting
 both from the released weights. Each update accumulates eight single-clip
 microbatches. It uses FP32, activation checkpointing, clean cached targets,

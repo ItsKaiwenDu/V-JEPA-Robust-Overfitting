@@ -1,0 +1,117 @@
+{
+  "kind": "one_training_clip_attack_sanity",
+  "research_result": false,
+  "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+  "checkpoint_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+  "packages": {
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "numpy": "2.4.6",
+    "timm": "1.0.30",
+    "einops": "0.8.2"
+  },
+  "source_files_sha256": {
+    "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "models/vjepa2.py": "3bc285d50912b2787769855822cfb920d2260f1b44445ae30e803e8f6a1f2723",
+    "datasets/video.py": "04f337169dc3f29b51b25752f570a82bd21df1c8b07e0a3b0e28eb39282afa17",
+    "scripts/check_attacks.py": "e3b488dd27fb6aad35214d0739ca09313fbd29b402df3eb881ef466467b14f30",
+    "models/runtime.py": "3c7f22a5494ab16710d433084043f1968de6c864a7e4f6d180e2646153e3e17c"
+  },
+  "runtime": {
+    "device": "mps",
+    "macos": "15.7.9",
+    "architecture": "arm64",
+    "python": "3.11.16",
+    "gpu": "Apple M4 Max",
+    "system_memory_bytes": 38654705664,
+    "recommended_working_set_bytes": 28991029248,
+    "mps_cpu_fallback": "unset",
+    "mps_fast_math": "unset",
+    "mps_high_watermark_ratio": "default"
+  },
+  "device": "mps",
+  "clip": {
+    "recipe": "cfr-repair-center-4fps-16f-shortside256-centercrop-bilinear-aa-v1",
+    "source_sha256": "3a622650c948e30d197acfa207a64785e505582ce07d63ba72a47cefe1d0c7b0",
+    "decoded_frames": 224,
+    "source_size": [
+      240,
+      320
+    ],
+    "frame_indices": [
+      65,
+      71,
+      77,
+      83,
+      90,
+      96,
+      102,
+      108,
+      115,
+      121,
+      127,
+      133,
+      140,
+      146,
+      152,
+      158
+    ],
+    "selected_timestamps_seconds": [
+      2.64,
+      2.88,
+      3.12,
+      3.36,
+      3.64,
+      3.88,
+      4.12,
+      4.36,
+      4.64,
+      4.88,
+      5.12,
+      5.36,
+      5.64,
+      5.88,
+      6.12,
+      6.36
+    ],
+    "torch": "2.14.1",
+    "decoder": {
+      "ffmpeg": "ffmpeg version 9.0.1 Copyright (c) 2000-2026 the FFmpeg developers",
+      "ffprobe": "ffprobe version 9.0.1 Copyright (c) 2007-2026 the FFmpeg developers"
+    },
+    "timestamp_repairs": {
+      "223": 8.959999999999999
+    },
+    "pixel_sha256": "b1747eee83a18d62b04fc889427df988fb265d1c7f67a03accccf99fa9e4fe87",
+    "preprocessing_key": "e9b879c2945c368ee29025d0131133a596c2f4ed0fea957a711930bafee8c71d",
+    "video_id": "v_ApplyEyeMakeup_g08_c04",
+    "relative_path": "ApplyEyeMakeup/v_ApplyEyeMakeup_g08_c04.avi",
+    "class_id": "0",
+    "source_group_id": "ApplyEyeMakeup_g08"
+  },
+  "epsilon": 0.01568627450980392,
+  "attack_mask_seed": 0,
+  "independent_scoring_mask_seed": 100000,
+  "clean_attack_bank_loss": 0.580583930015564,
+  "clean_independent_mask_loss": 0.6034591794013977,
+  "attacks": {
+    "fgsm": {
+      "attack_bank_loss": 0.6229342222213745,
+      "independent_mask_loss": 0.6167964935302734,
+      "max_pixel_delta": 0.01568630337715149,
+      "seconds": 24.59569883401855
+    },
+    "pgd5": {
+      "attack_bank_loss": 0.686212420463562,
+      "independent_mask_loss": 0.6313225030899048,
+      "max_pixel_delta": 0.01568630337715149,
+      "seconds": 121.2875059999933
+    }
+  },
+  "weights_and_parameter_gradients_unchanged": true,
+  "limitations": [
+    "One selected training clip; no held-out robustness estimate.",
+    "One mask draw (two families) per bank; EOT/convergence sweeps remain pending.",
+    "No adversarial fine-tuning, downstream evaluation, or overfitting claim."
+  ]
+}

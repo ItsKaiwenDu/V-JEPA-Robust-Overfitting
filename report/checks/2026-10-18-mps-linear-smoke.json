@@ -1,0 +1,89 @@
+{
+  "kind": "synthetic_pretrained_smoke_test",
+  "research_result": false,
+  "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+  "checkpoint": {
+    "sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+    "bytes": 5127726842,
+    "epoch": 40,
+    "components": {
+      "encoder": {
+        "state_tensors": 292,
+        "elements": 303885312
+      },
+      "target_encoder": {
+        "state_tensors": 292,
+        "elements": 303885312
+      },
+      "predictor": {
+        "state_tensors": 160,
+        "elements": 22086016
+      }
+    }
+  },
+  "device": "mps",
+  "seed": 0,
+  "python": "3.11.16",
+  "packages": {
+    "torch": "2.14.1",
+    "torchvision": "0.29.1",
+    "timm": "1.0.30",
+    "einops": "0.8.2",
+    "numpy": "2.4.6",
+    "PyYAML": "6.0.3"
+  },
+  "project_commit": "03e87ddf8f78810ccece272b9ad548c1cf03486e",
+  "project_dirty": true,
+  "source_files_sha256": {
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+    "models/diagnostics.py": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0",
+    "scripts/smoke_test.py": "5089525985fed35fea954be672056517ec15654bc81baee87a04e71fc50f8917",
+    "models/patch_embed.py": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec"
+  },
+  "context_patch_embedding": "linear",
+  "mask_shapes": [
+    {
+      "context": [
+        1,
+        512
+      ],
+      "target": [
+        1,
+        1536
+      ]
+    },
+    {
+      "context": [
+        1,
+        608
+      ],
+      "target": [
+        1,
+        1440
+      ]
+    }
+  ],
+  "checks": {
+    "passed": true,
+    "loss": 0.4819837808609009,
+    "upstream_loss": 0.4819837808609009,
+    "replay_loss": 0.4819837808609009,
+    "input_gradient_abs_max": 0.0027431894559413195,
+    "parameter_gradient_l2": {
+      "encoder": 0.5393667194738457,
+      "predictor": 0.2536111301642877
+    },
+    "target_state_sha256": "706035d33251fb7e71aef53f3134ad1ce470399feeb53e08019eb82ed360c8de",
+    "elapsed_seconds": 4.262993209005799,
+    "limitations": [
+      "Synthetic input; no video decoding or dataset validation.",
+      "No attack, optimizer run, training curve, or cost estimate."
+    ]
+  },
+  "mps_memory_after_checks": {
+    "allocated_bytes": 2519984128,
+    "driver_allocated_bytes": 5511479296,
+    "recommended_working_set_bytes": 28991029248,
+    "is_peak_measurement": false
+  }
+}

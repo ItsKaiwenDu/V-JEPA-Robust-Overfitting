@@ -3,6 +3,11 @@
 Version 0.3, updated October 17, 2026. **Proposed; not preregistered or validated as a complete study.**
 Numerical defaults live in [configs/study.yaml](../configs/study.yaml).
 
+The October 19 [evaluation/compute proposal](evaluation_compute_plan.md)
+adds a reviewable schedule and cost ledger. It is not yet incorporated into
+this protocol or `study.yaml`; in particular, selecting only among scheduled
+strong-evaluation epochs would change the selection scope below.
+
 ## Question and scope
 
 Does adversarial fine-tuning of V-JEPA 2's masked latent prediction objective
@@ -21,9 +26,10 @@ metadata. Both mask families use token index 0 for our single sequence-length
 group, following the upstream wrapper. Input normalization uses mean
 `[0.485, 0.456, 0.406]` and standard deviation `[0.229, 0.224, 0.225]` inside
 the differentiable pixel path. Small local fixtures test these operations;
-the full pretrained CPU smoke test now passes and its hash is recorded. CUDA
-feasibility remains pending. See
-[local model checks](smoke_test.md).
+the full pretrained CPU and MPS smoke tests pass and the checkpoint hash is
+recorded. The [Mac pilot](../report/checks/2026-10-19-mac-feasibility.md) measures
+updates and primary attack time; complete schedule/cost validation and CUDA
+feasibility remain pending. See [local model checks](smoke_test.md).
 
 The pretrained target encoder remains fixed for the entire study. Updating
 the context encoder and predictor while freezing targets is a deliberate

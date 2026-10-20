@@ -152,7 +152,8 @@ class FixedTargetVJEPA(nn.Module):
         return self.loss_per_example(pixels, targets, masks).mean()
 
 
-def build_vitl(upstream: str | Path, *, activation_checkpointing: bool = True) -> FixedTargetVJEPA:
+def build_vitl(upstream: str | Path, *, activation_checkpointing: bool = True,
+               patch_embedding: str = 'conv3d') -> FixedTargetVJEPA:
     """Construct the released ViT-L architecture; no pretrained weights loaded yet."""
     use_upstream(upstream)
     vit = importlib.import_module("src.models.vision_transformer")
@@ -166,6 +167,11 @@ def build_vitl(upstream: str | Path, *, activation_checkpointing: bool = True) -
                                    num_mask_tokens=10, zero_init_mask_tokens=True, **common)
     target = copy.deepcopy(encoder)
     target.use_activation_checkpointing = False
+    if patch_embedding == 'linear':
+        from models.patch_embed import LinearPatchEmbed3D
+        encoder.patch_embed = LinearPatchEmbed3D(encoder.patch_embed)
+    elif patch_embedding != 'conv3d':
+        raise ValueError('Choose explicit conv3d or linear context patch embedding.')
     return FixedTargetVJEPA(encoder, predictor, target)
 
 

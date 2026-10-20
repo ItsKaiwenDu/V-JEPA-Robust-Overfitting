@@ -1,15 +1,23 @@
 # Scientific acceptance tests
 
-Forty-eight local tests exercise the pinned upstream architecture,
+Fifty-one local tests exercise the pinned upstream architecture,
 pixel attacks, grouped dataset splits, video sampling/decoding, and the
-pilot's optimizer update. This includes an FFmpeg AVI regression test;
+pilot's optimizer update. They also check the equivalent patch projection's
+outputs and input/parameter gradients. This includes an FFmpeg AVI regression test;
 it is explicitly skipped when FFmpeg/FFprobe are unavailable. Run with
 `python -m pytest -q tests
 --upstream external/vjepa2` after [local setup](../docs/smoke_test.md).
 
+Five additional planning tests check workload counts, missing-cost handling,
+the declared training fallback, and rejection of reduced pilot evidence.
+The combined local suite has 56 passing tests; the cost calculator does not
+establish CUDA correctness or approve a paid experiment.
+
 The GitHub workflow still checks only the scaffold and Python syntax; the
 tests have been run locally, and separate full-pretrained/real-clip reports
-are in `report/checks/`. CUDA, complete dataset integrity, stronger attack
+are in `report/checks/`. The explicit CPU/MPS comparison additionally passed
+on one full-model training clip; it is not part of the small CPU test suite.
+CUDA, complete dataset integrity, stronger attack
 convergence, and training-resume checks remain upcoming. Add tests alongside the
 corresponding implementation, including:
 

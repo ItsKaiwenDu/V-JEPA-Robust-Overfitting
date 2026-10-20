@@ -7,6 +7,7 @@ No network requests, dataset downloads, training jobs, or cloud actions.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import importlib.metadata
 import json
 from pathlib import Path
@@ -24,6 +25,7 @@ def main() -> int:
     parser.add_argument("--checkpoint", type=Path, required=True)
     parser.add_argument("--expected-sha256", help="Optional independently recorded checkpoint SHA-256.")
     parser.add_argument("--device", choices=("cpu", "cuda", "mps"), default="cpu")
+    parser.add_argument("--patch-embedding", choices=("conv3d", "linear"), default="conv3d")
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--output", type=Path, required=True, help="New JSON report; existing files are never overwritten.")
     args = parser.parse_args()
@@ -43,7 +45,7 @@ def main() -> int:
     torch.manual_seed(args.seed)
     upstream = use_upstream(args.upstream)
     print("Building the ViT-L/16 encoder, fixed target, and released predictor...", flush=True)
-    model = build_vitl(upstream)
+    model = build_vitl(upstream, patch_embedding=args.patch_embedding)
     print("Hashing and strictly auditing the local checkpoint...", flush=True)
     checkpoint = load_checkpoint(model, args.checkpoint, args.expected_sha256)
     model.to(args.device)
@@ -52,6 +54,8 @@ def main() -> int:
     print(f"Checking one synthetic FP32 batch on {args.device}...", flush=True)
     if args.device == "cuda":
         torch.cuda.reset_peak_memory_stats()
+    if args.device == "mps":
+        torch.mps.synchronize()
     checks = run_smoke_checks(model, clean.to(args.device), masks, upstream)
     report = {"kind": "synthetic_pretrained_smoke_test", "research_result": False,
               "upstream_commit": UPSTREAM_COMMIT, "checkpoint": checkpoint,
@@ -60,11 +64,22 @@ def main() -> int:
                            for name in ("torch", "torchvision", "timm", "einops", "numpy", "PyYAML")},
               "project_commit": subprocess.check_output(["git", "-C", str(ROOT), "rev-parse", "HEAD"], text=True).strip(),
               "project_dirty": bool(subprocess.check_output(["git", "-C", str(ROOT), "status", "--porcelain"], text=True).strip()),
+              "source_files_sha256": {name: hashlib.sha256((ROOT / name).read_bytes()).hexdigest()
+                                      for name in ("models/vjepa2.py", "models/diagnostics.py", "scripts/smoke_test.py", "models/patch_embed.py")},
+              "context_patch_embedding": args.patch_embedding,
               "mask_shapes": [{"context": list(p.context.shape), "target": list(p.target.shape)} for p in masks],
               "checks": checks}
     if args.device == "cuda":
         report["cuda_peak_allocated_bytes"] = torch.cuda.max_memory_allocated()
         report["gpu"] = torch.cuda.get_device_name()
+    if args.device == "mps":
+        torch.mps.synchronize()
+        report["mps_memory_after_checks"] = {
+            "allocated_bytes": torch.mps.current_allocated_memory(),
+            "driver_allocated_bytes": torch.mps.driver_allocated_memory(),
+            "recommended_working_set_bytes": torch.mps.recommended_max_memory(),
+            "is_peak_measurement": False,
+        }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("x", encoding="utf-8") as handle:
         json.dump(report, handle, indent=2)

@@ -1,6 +1,7 @@
 # Experiment configurations
 
 - [study.yaml](study.yaml) records the agreed research scope and draft numerical settings.
+- [compute_plan.yaml](compute_plan.yaml) is a separate evaluation/budget proposal consumed only by the planning calculator; it does not freeze or override the study.
 - [local.example.yaml](local.example.yaml) documents machine-specific paths. A local copy named `local.yaml` is ignored by Git.
 
 These files are specifications for the upcoming implementation. There is no
