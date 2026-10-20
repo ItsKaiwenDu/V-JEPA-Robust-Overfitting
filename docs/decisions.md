@@ -133,6 +133,51 @@ throughput was measured in this step.
 The draft study file remains unchanged so prior measurement hashes remain
 valid. Review scope and evidence before a new protocol version is locked.
 
+## 2026-10-20 — Proposed staged scope, separate from protocol 0.3
+
+The RTX 5090 measurements rule out the original larger schedule within $200.
+Prepare a separate [staged proposal](budget_study_plan.md) and
+[configuration](../configs/budget_study_plan.yaml), preserving the original
+study hash and prior evidence. Recommend 20 classes with five actual training
+videos each, one discovery pair, and three new confirmation pairs conditional
+on signal validity and measured budget. Preserve the model, loss, 16-frame
+256-pixel input, FP32 baseline, and primary PGD-20/R2/EOT4 attack. Narrow
+claims to native-loss dynamics; defer direct classifier adversaries, embedding
+attacks, and epsilon sweeps. Thirty small-subset epochs are not equivalent to
+the original update exposure.
+
+Use disjoint source groups for exploratory and confirmation validation.
+The existing validation pool contains only one or two groups per class;
+withhold one unused group per class from the parent training pool before
+selecting actual training videos. Select classes/groups by identifiers only.
+Keep source-group uncertainty and avoid treating three seeds on the same
+videos as independent data replicates. Sparse strong-evaluation checkpoints
+limit the selection claim to the declared anchors.
+
+Account for the user-reported $0.592 Runpod bill inside the existing $10 pilot
+reserve, not in addition to it. The $193.91 candidate envelope includes 25%
+headroom, eight untimed hours of allowance, and $40 noncompute reserve. Unknown
+costs and proxy attacks still block admission; no unmeasured speedup is assumed.
+The proposal does not launch work, lock protocol 0.4, or admit confirmation.
+
+## 2026-10-20 — Training recovery implementation, without study admission
+
+Implement a reusable FP32 native training core and bounded diagnostic CLI.
+Reuse the pilot update and preserve its attack settings. Define linear warmup
+by optimizer-update position, apply LR drops in the epoch after each declared
+boundary, and divide partial-batch loss by the actual number of examples.
+Cache the upstream mask sampler once while testing parity against the old
+sampler; use explicit epoch/video seeds shared by matched conditions.
+
+Persist AdamW/RNG state and source/config/data identity, with a checksummed
+atomic manifest and two rolling resume states. Keep fixed-target identity
+without duplicating its weights. Preserve prior attempts when resuming and
+require an explicit choice to recover an older generation. CPU tests verify
+exact trajectory recovery; GPU equivalence remains untested. See the
+[runner guide](training_runner.md). No protocol/configuration freeze or new
+cost evidence follows from these implementation checks. Primary research
+evaluation and total-cost admission must precede full trajectories.
+
 ## Change record template
 
 ```text

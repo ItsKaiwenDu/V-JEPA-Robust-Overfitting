@@ -2,7 +2,7 @@
 
 **Research question:** During adversarial fine-tuning of V-JEPA 2's native masked prediction loss, does performance on unseen videos deteriorate after initially improving, even while adversarial training loss continues to decrease?
 
-**Status: CPU, Apple GPU, and RTX 5090 correctness checks and timing pilots passed; the full study exceeds the current budget.** The university RTX 3070 passed model/attack checks but ran out of memory during the FP32 training pilot. The RTX 5090 completed clean/adversarial updates and strong evaluation, with 56 tests passing. Its measured timings project about $216 for the original training schedule alone and about $950 for the proposed evaluation-inclusive partial workload, with additional costs unmeasured. These are feasibility diagnostics and extrapolations, not robust-overfitting findings. The next step is a revised, budgeted study plan.
+**Status: hardware pilots passed; a smaller staged study is proposed, with full training still pending.** The original study exceeds the $200 cap. The [October 20 proposal](docs/budget_study_plan.md) starts with one exploratory clean/adversarial pair on 20 classes, followed conditionally by three new confirmation pairs. Its planning envelope is $193.91 including headroom and reserves, with some costs still unmeasured; it is not admitted for execution. Yesterday's Runpod session cost $0.592 according to the user. CPU, Apple GPU, and RTX 5090 diagnostics passed; university RTX 3070 FP32 training ran out of memory. The local training/resume core is now implemented with 95 tests passing; full research execution and new GPU resume validation remain pending. None of these checks establishes robust overfitting.
 
 This project extends our [previous robust-overfitting research](https://github.com/ItsKaiwenDu/Robust-Overfitting) to latent video prediction. It retains the familiar `models/`, `scripts/`, `notes/`, and `report/` organization, along with weekly goals, progress reports, and a Lambda Labs guide.
 
@@ -18,10 +18,12 @@ The intended contribution is a controlled study of training dynamics and their d
 
 | Document | Purpose |
 | --- | --- |
+| [Latest staged study proposal](docs/budget_study_plan.md) | Scoped research question, separate validation panels, staged costs, and decision gates |
 | [Experimental protocol](docs/experimental_protocol.md) | Threat model, data split, training conditions, evaluation, and interpretation |
 | [Study configuration](configs/study.yaml) | Machine-readable draft settings and unresolved provenance fields |
 | [Setup guide](docs/setup.md) | Local development and university GPU preparation |
 | [Local model checks](docs/smoke_test.md) | Pretrained checkpoint and native-loss correctness checks |
+| [Training and recovery](docs/training_runner.md) | Verified training inputs, optimizer/resume state, atomic checkpoints, and current limits |
 | [Data and attacks](docs/data_and_attacks.md) | Grouped subsets, reproducible clips, and pixel-space attacks |
 | [Mac GPU pilot](docs/mac_pilot.md) | MPS access, correctness checks, and explicit performance options |
 | [Measured Mac feasibility](report/checks/2026-10-19-mac-feasibility.md) | Update times, memory, evaluation cost, and limits of a four-week schedule |
@@ -36,7 +38,9 @@ The intended contribution is a controlled study of training dynamics and their d
 
 ## Experiment Design
 
-| Setting | Draft protocol |
+The table below preserves the **original larger draft**, which is not admitted within the budget. The [latest proposal](docs/budget_study_plan.md) explicitly changes the data, seeds, evaluation schedule, and claim scope; it has not replaced or frozen `configs/study.yaml`.
+
+| Setting | Original draft protocol |
 | --- | --- |
 | Model | Official V-JEPA 2 ViT-L/16 and released predictor |
 | Target encoder | Fixed, clean-input, gradient-stopped |
@@ -88,7 +92,8 @@ These commands inspect the environment without downloading models, preparing dat
 | [`scripts/check_patch_embedding.py`](scripts/check_patch_embedding.py) | Isolated correctness/timing comparison of equivalent patch projections |
 | [`scripts/pilot.py`](scripts/pilot.py) | FP32 batch-eight MPS and RTX 5090 updates and full attack timing passed; RTX 3070 training ran out of memory |
 | [`scripts/estimate_compute.py`](scripts/estimate_compute.py) | Reproduces partial planning projections; missing costs stay unknown and cannot approve a run |
-| `scripts/train.py` | Planned: clean and adversarial fine-tuning |
+| [`scripts/estimate_staged_study.py`](scripts/estimate_staged_study.py) | Implemented: staged cost comparison, source-hash checks, and metadata-only subset audit; never approves a run |
+| [`scripts/train.py`](scripts/train.py) | Implemented: bounded FP32 training/resume diagnostic; CPU recovery tests pass; research evaluation and admission pending |
 | `scripts/evaluate.py` | Planned: checkpoint and downstream evaluation |
 | `scripts/run_report_checks.py` | Planned: attack and implementation diagnostics |
 | `scripts/plot_results.py` | Planned: per-seed curves and aggregate summaries |
@@ -143,7 +148,7 @@ report/<condition>/[diagnostic/]<run-name>/
 report/<condition>/overall/
 ```
 
-Use `seed-0`, `seed-1`, and `seed-2` for the first locked experiment. Repeated runs need distinct names, such as `seed-0-retry-01`; never overwrite a previous run. The pretrained reference uses `pretrained/reference/` because it has no fine-tuning seed. See [artifact conventions](docs/reproducibility.md).
+Use the seeds from the eventual frozen protocol. The original draft uses `seed-0`, `seed-1`, and `seed-2`; the staged proposal uses exploratory seed 0 and separate confirmation seeds 11, 22, and 33. Repeated runs need distinct names, such as `seed-0-retry-01`; never overwrite a previous run. The pretrained reference uses `pretrained/reference/` because it has no fine-tuning seed. See [artifact conventions](docs/reproducibility.md).
 
 ## Results
 

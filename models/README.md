@@ -37,3 +37,8 @@ vendored later.
 The raw checkpoint's `encoder`, `target_encoder`, and `predictor` states must
 be audited. A convenience loader that returns only a downstream encoder is
 not a substitute for verifying the full prediction path.
+
+`training.py` provides the resumable FP32 native-loss engine and cached upstream
+mask sampler. `checkpointing.py` commits checksummed resume states atomically
+and retains two generations plus anchor weights. See the
+[runner guide](../docs/training_runner.md) for evidence and limits.

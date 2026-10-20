@@ -4,6 +4,14 @@ Track planned work here and completed work in [progress.md](progress.md).
 Day 1 begins with the first implementation/pilot work session. The target is
 a focused report by day 21, with days 22-27 reserved for review and repairs.
 
+## Current planning update — October 20
+
+The [staged proposal](docs/budget_study_plan.md) is the current candidate for
+the $200 limit. The original broad milestones below are retained as context;
+they are not all included in this smaller scope. The training/resume core now passes local CPU tests. Next: export and validate
+the staged subsets, integrate primary evaluation, and measure missing costs
+before an exploratory pair. Confirmation and broader extensions are conditional.
+
 ## Repository setup
 
 - [x] Inspect the previous robust-overfitting repository and retain familiar conventions.
@@ -19,7 +27,11 @@ a focused report by day 21, with days 22-27 reserved for review and repairs.
 - [x] Verify Mac GPU access, pretrained CPU/MPS agreement, and bounded attack checks.
 - [x] Measure Mac batch-eight update time, primary attack time, and sampled memory.
 - [x] Draft an evaluation schedule and reproducible partial workload/price calculation.
-- [ ] Choose a feasible monitoring schedule and experiment backend using the measurements.
+- [x] Complete university and RTX 5090 pilots and retain their limitations.
+- [x] Draft a staged budget proposal with separate exploration/confirmation panels.
+- [ ] Admit a measured monitoring schedule and backend within the budget.
+- [x] Implement the FP32 training/resume core and atomic checkpoint retention; verify interrupted CPU trajectories.
+- [ ] Validate full-model GPU resume and integrate primary evaluation before research execution.
 - [x] Pin upstream source and implement the adapter and local CPU correctness tests.
 - [x] Audit full ViT-L tensor names/shapes against official checkpoint metadata.
 - [x] Pin and load the official V-JEPA 2 model and predictor with verified weights on CPU.

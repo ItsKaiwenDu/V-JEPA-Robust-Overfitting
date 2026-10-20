@@ -1,0 +1,103 @@
+{
+  "kind": "local_cpu_training_resume_correctness",
+  "checked_on": "2026-10-20",
+  "research_result": false,
+  "full_pretrained_runner_executed": false,
+  "new_gpu_resume_validated": false,
+  "cloud_instance_started": false,
+  "budget_approved": false,
+  "base_commit": "70fe44461335cb91b8e1e4aea3b7ca0f2e22aa3f",
+  "tested_uncommitted_sources": true,
+  "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+  "runtime": {
+    "device": "cpu",
+    "python": "3.11.16",
+    "architecture": "arm64",
+    "packages": {
+      "torch": "2.14.1",
+      "numpy": "2.4.6",
+      "pytest": "9.1.1",
+      "timm": "1.0.30",
+      "PyYAML": "6.0.3"
+    }
+  },
+  "test_result": {
+    "command": "python -m pytest -q -p no:cacheprovider tests",
+    "passed": 95,
+    "failed": 0,
+    "skipped": 0,
+    "warnings": 35,
+    "elapsed_seconds": 7.55,
+    "new_training_and_input_tests": 29,
+    "warning_sources": [
+      "upstream timm.models.layers import deprecation",
+      "upstream torch.backends.cuda.sdp_kernel deprecation"
+    ]
+  },
+  "resume_comparisons": {
+    "conditions": [
+      "clean-finetune",
+      "adversarial-finetune"
+    ],
+    "interrupt_after_updates": [
+      1,
+      2,
+      5
+    ],
+    "updates_in_complete_fixture": 6,
+    "epoch_count": 3,
+    "training_examples": 3,
+    "effective_batch": 2,
+    "input_shape": [
+      3,
+      4,
+      16,
+      16
+    ],
+    "comparison": "torch.equal and exact scalar/container equality",
+    "matched": [
+      "context/predictor tensors",
+      "AdamW state",
+      "scientific update histories",
+      "Python/NumPy/PyTorch CPU RNG state",
+      "frozen target state"
+    ]
+  },
+  "other_passed_checks": [
+    "partial-batch normalization against independent single-example update",
+    "learning-rate boundaries and matched condition seeds",
+    "reject serialization after a partial update failure",
+    "reject changed condition/seed/settings/source provenance/target/tensor state",
+    "reject missing optimizer moments and changed optimizer settings",
+    "failed manifest commit leaves prior generations usable",
+    "low disk space leaves committed checkpoint intact",
+    "checksum failure has no silent fallback",
+    "cached sampler agrees with pinned upstream sampler",
+    "prepared clip identity, pixel hashes, and training membership",
+    "non-diagnostic CLI request is rejected before model loading"
+  ],
+  "source_sha256": {
+    "models/training.py": "63d673ea7ebeab98ff67df73ffacbc5e6911d3cdf9159beabae79ec154e32c7e",
+    "models/checkpointing.py": "e3c2d47b6770a62abea576eb65cecfe3564b8270c0823d064c47ecbaf9f9434f",
+    "datasets/prepared.py": "056835ffbe2fc414dd0e0c6cd86f1cbdaefe88fa66a54f41bee7d3b8c333c5c6",
+    "scripts/train.py": "1128eb3306628845d17943586eab8917c0859b465f0c00a3964d8dd5a802f6fd",
+    "tests/test_training.py": "7088b0bd0a7a50ca0028bce9bd29416f850a1563f1bf243b4b0e24c06749f07e",
+    "tests/test_prepared.py": "82345c02134dc98f018cae306aa6571ddbb86a1a39027abc4e377c132a73a438",
+    "tests/test_vjepa2.py": "fffe419ce795fda23633cdc9bf6162b05cd06b43037bed089acb568d9ebdd08b",
+    "tests/conftest.py": "c67f087884483b38dc117ffa8cff6206c225afbce9bb53c0bf2e3986cd8ed2b5",
+    "models/pilot.py": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+    "models/diagnostics.py": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0",
+    "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "configs/budget_study_plan.yaml": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+    "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1"
+  },
+  "prior_pilot_source_hashes_preserved": true,
+  "prior_staged_projection_hashes_preserved": true,
+  "limitations": [
+    "Small upstream CPU models only; no full pretrained runner trajectory or new GPU resume test.",
+    "Complete primary evaluation, checkpoint selection, staged data validation and cost admission remain pending.",
+    "No cross-device or cross-version numerical equivalence is claimed.",
+    "Checkpoint I/O, target-cache construction and full-model runner throughput remain unmeasured."
+  ]
+}

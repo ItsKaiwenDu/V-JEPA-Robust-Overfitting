@@ -29,3 +29,7 @@ Before freezing manifests:
 
 Any later change creates a new protocol/manifest version. Keep per-machine
 path maps in `*.local.*` files, which are ignored.
+
+The October 20 [staged proposal](../../docs/budget_study_plan.md) records
+metadata-only candidate rows in its linked projection JSON. The original CSVs
+remain unchanged. Candidate rows are not content-validated or frozen manifests.

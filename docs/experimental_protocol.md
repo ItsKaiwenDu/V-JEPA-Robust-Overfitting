@@ -3,6 +3,10 @@
 Version 0.3, updated October 17, 2026. **Proposed; not preregistered or validated as a complete study.**
 Numerical defaults live in [configs/study.yaml](../configs/study.yaml).
 
+The latest [October 20 staged proposal](budget_study_plan.md) explicitly narrows
+the scope after the RTX 5090 measurements. It has not replaced this larger
+draft or frozen a new protocol.
+
 The October 19 [evaluation/compute proposal](evaluation_compute_plan.md)
 adds a reviewable schedule and cost ledger. It is not yet incorporated into
 this protocol or `study.yaml`; in particular, selecting only among scheduled

@@ -22,3 +22,7 @@ it is not a general runner that consumes all settings in `study.yaml`.
 
 The future runner must save a fully resolved configuration with each run;
 the current root configuration must not silently change an existing run.
+
+The current budget candidate is [budget_study_plan.yaml](budget_study_plan.yaml),
+with its [rationale and gates](../docs/budget_study_plan.md). It is a separate
+proposal, not a runnable or frozen replacement for `study.yaml`.

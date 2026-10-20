@@ -1,5 +1,9 @@
 # Evaluation schedule and compute proposal
 
+**Historical October 19 proposal:** the [October 20 staged study](budget_study_plan.md)
+is the latest budget candidate. This earlier schedule and its cost evidence
+are retained unchanged below.
+
 October 19, 2026. **Draft for review; no experiment or rental is admitted.**
 The [machine-readable proposal](../configs/compute_plan.yaml) supplements
 protocol 0.3 without changing `study.yaml`. The

@@ -1,24 +1,25 @@
 # Scientific acceptance tests
 
-Fifty-one local tests exercise the pinned upstream architecture,
-pixel attacks, grouped dataset splits, video sampling/decoding, and the
-pilot's optimizer update. They also check the equivalent patch projection's
-outputs and input/parameter gradients. This includes an FFmpeg AVI regression test;
-it is explicitly skipped when FFmpeg/FFprobe are unavailable. Run with
-`python -m pytest -q tests
---upstream external/vjepa2` after [local setup](../docs/smoke_test.md).
+The full local suite now has **95 passing tests**, including 29 new
+training/resume and prepared-input checks. Six interrupted/uninterrupted
+comparisons cover clean and adversarial trajectories on small pinned upstream
+models. Weights, optimizer state, histories, and RNG match exactly on CPU.
+Failure tests cover partial updates, failed commits, low disk space,
+corruption, changed run contracts, and invalid input provenance. The cached
+mask sampler matches the existing upstream sampling path.
 
-Five additional planning tests check workload counts, missing-cost handling,
-the declared training fallback, and rejection of reduced pilot evidence.
-The combined local suite has 56 passing tests; the cost calculator does not
-establish CUDA correctness or approve a paid experiment.
+Existing checks cover native-loss/gradient agreement, pixel attacks, grouped
+splits, FFmpeg decoding, equivalent patch projection, pilots, and both cost
+proposals. No test failed or skipped in the October 20 run; 35 FutureWarnings
+come from upstream deprecated imports/SDPA APIs. Run
+`python -m pytest -q tests --upstream external/vjepa2` after
+[local setup](../docs/smoke_test.md).
 
-The GitHub workflow still checks only the scaffold and Python syntax; the
-tests have been run locally, and separate full-pretrained/real-clip reports
-are in `report/checks/`. The explicit CPU/MPS comparison additionally passed
-on one full-model training clip; it is not part of the small CPU test suite.
-CUDA, complete dataset integrity, stronger attack
-convergence, and training-resume checks remain upcoming. Add tests alongside the
+GitHub CI currently checks only scaffold and syntax. Separate pretrained
+CPU/MPS/CUDA diagnostic reports do not establish GPU resume equivalence for
+the new runner. See [training and recovery](../docs/training_runner.md).
+Full data integrity, stronger attack convergence, GPU resume, and research
+selection/evaluation remain pending. Add tests alongside the
 corresponding implementation, including:
 
 - Pixel-space perturbation bounds, clipping, and zero-epsilon equivalence.

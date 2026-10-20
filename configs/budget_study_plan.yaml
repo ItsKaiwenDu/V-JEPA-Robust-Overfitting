@@ -1,0 +1,115 @@
+# Planning only: no training runner consumes this proposal.
+schema_version: 1
+status: proposed_not_admitted
+as_of: "2026-10-20"
+parent_study: configs/study.yaml
+source_sha256:
+  configs/study.yaml: 4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1
+  report/checks/2026-10-19-runpod-5090-pilot.json: f45778c76a69ab9f526799009d8018d450e0ec389480f8d0da5e055e79cae736
+  report/checks/2026-10-19-runpod-5090-attacks.json: 6c3f0e29b5bf68bb184142f00fea2f2e28c5f7997fc4632eaa2d1fcf738f830b
+  data/manifests/ucf101-split1-v1/train.csv: 3b1c271a114a880358e107adf4385a1367bb224901ee47a867dec0c5b68cc212
+  data/manifests/ucf101-split1-v1/validation.csv: 5c38b15f3c3935a7cb00ff418a4a4544453307b5007c2c342499f9899a0bf65c
+  data/manifests/ucf101-split1-v1/test.csv: 6de73dbcff7c31dc27b8e447cbd5eb75afa4f876a059e25b59c645d384418028
+pilot: report/checks/2026-10-19-runpod-5090-pilot.json
+attack_check: report/checks/2026-10-19-runpod-5090-attacks.json
+
+data:
+  parent_manifests: data/manifests/ucf101-split1-v1
+  subset_seed: 20261020
+  selection: sha256_ranked_classes_and_groups_round_robin_videos
+  exclude_from_exploration_holdout_groups:
+    - ApplyEyeMakeup_g08
+    - BlowDryHair_g13
+    - Diving_g13
+    - HandstandWalking_g24
+    - LongJump_g15
+    - PlayingPiano_g08
+    - Rowing_g19
+    - Swing_g13
+  exploration_validation: one_group_withheld_from_parent_train_per_class
+  confirmation_validation: one_clip_from_parent_validation_per_class
+  train_monitor_per_class: 1
+  validation_per_class_per_phase: 1
+  test_per_class: 3
+  test_selection: maximize_available_group_diversity_before_extra_clips
+  proposed_manifest_status: metadata_only_not_frozen_or_content_validated
+  # Class lists are nested under the same seed. Alternatives are comparisons,
+  # never automatic changes after observing a trajectory.
+  recommended_variant: focused_20x5
+  variants:
+    focused_20x5: {classes: 20, train_per_class: 5}
+    more_training_20x10: {classes: 20, train_per_class: 10}
+    narrower_10x10: {classes: 10, train_per_class: 10}
+    broad_101x10: {classes: 101, train_per_class: 10}
+
+training:
+  conditions: [clean-finetune, adversarial-finetune]
+  exploration_seeds: [0]
+  confirmation_seeds: [11, 22, 33]
+  epochs: 30
+  effective_batch_size: 8
+  micro_batch_size: 1
+  precision: float32
+  context_patch_embedding: conv3d
+  activation_checkpointing: true
+  cache_fixed_clean_targets: true
+  final_partial_batch: retain_and_normalize_by_actual_example_count
+  optimizer: AdamW
+  encoder_lr: 0.00001
+  predictor_lr: 0.0001
+  betas: [0.9, 0.999]
+  eps: 0.00000001
+  weight_decay: 0.04
+  gradient_clipping: null
+  warmup_epochs: 1
+  lr_decay_after_epochs: [15, 23]
+  lr_decay_factor: 0.1
+  training_attack: {steps: 5, restarts: 1, attack_masks: 1, epsilon_255: 4, step_size_255: 1}
+
+evaluation:
+  routine_epochs: every_epoch_plus_initialization
+  routine_attack: {steps: 5, restarts: 1, attack_masks: 1, scoring_masks: 1, epsilon_255: 4, step_size_255: 1}
+  primary_epochs: [1, 15, 16, 23, 24, 30]
+  primary_attack: {steps: 20, restarts: 2, attack_masks: 4, scoring_masks: 4, epsilon_255: 4, step_size_255: 1}
+  convergence_attack: {steps: 50, restarts: 2, attack_masks: 8, scoring_masks: 4}
+  diagnostic_clips: 10
+  convergence_checkpoints_per_phase: initial_plus_adversarial_best_and_final_plus_clean_final_per_seed
+  calibration_step_sizes_255: [0.5, 1, 2]
+  step_size_status: provisional_select_on_training_calibration_before_trajectories
+  checkpoint_selection: minimum_primary_validation_loss_including_initialization_earliest_tie
+  final_test: pretrained_once_plus_adversarial_best_and_final_plus_clean_final_per_confirmation_seed
+  shared_train_initialization: true
+  separate_validation_initializations: true
+  mask_seed: 20261020
+  mask_seed_rule: sha256_first_8_bytes_big_endian_mod_2pow63
+  mask_seed_fields: [seed, namespace, video_id, restart, draw]
+  mask_namespaces: [routine_attack, routine_score, primary_attack, primary_score, convergence_attack]
+  reuse_primary_scoring_bank_for_convergence: true
+  fresh_adversaries_per_checkpoint: true
+  clean_probe: fixed_train_only_ridge_probe_at_selected_checkpoints_diagnostic_only
+  probe_ridge_lambda: 1.0
+  deferred_extensions: [embedding_attack, epsilon_sweep, direct_classifier_attack, all_101_classes]
+
+decision_gates:
+  discovery_only_seed: 0
+  # Planning thresholds, not literature standards; freeze before any trajectory.
+  minimum_relative_initial_improvement: 0.01
+  minimum_relative_late_deterioration: 0.01
+  late_anchors_required: 2
+  stage_2_requires: valid_attacks_and_candidate_trajectory_and_measured_remaining_budget
+  test_opening_requires: all_confirmation_checkpoint_choices_and_analysis_locked
+  stop_if_no_signal: report_exploration_and_preserve_unspent_budget
+
+budget:
+  total_usd: 200
+  compute_usd: 160
+  noncompute_reserve_usd: 40
+  pilot_reserve_total_usd: 10
+  spent_pilot_usd: 0.592
+  spend_evidence: user_reported_2026_10_20_includes_about_10_minutes_idle_not_invoice_verified
+  price_usd_per_hour: 1.20
+  price_basis: historical_Runpod_RTX5090_display_2026_10_19_requires_new_live_quote
+  runtime_headroom_factor: 1.25
+  # Placeholders for essential untimed work, NOT measurements or approval.
+  untimed_allowance_hours: {exploration: 2, confirmation: 6}
+  launch_authorized_by_this_file: false

@@ -1,5 +1,86 @@
 # Research Progress Reports
 
+## 2026-10-20 — Resumable FP32 training core and recovery tests
+
+Implemented the [training runner and recovery workflow](docs/training_runner.md).
+The reusable core supports clean/adversarial native updates, matched data/mask
+seeds, warmup and LR drops, and correct partial-batch normalization. The
+training-only input loader verifies manifest membership, metadata, shapes,
+raw-pixel bounds, and cached-pixel hashes. Fixed clean targets are recomputed
+and cached in CPU memory for each attempt.
+
+Checkpoints preserve context/predictor weights, AdamW moments, update position,
+scientific history, and Python/NumPy/PyTorch RNG states. Source/config/data,
+fixed target identity, and runtime fields are bound to the resume contract.
+Atomic manifest commits retain two resume generations and declared anchor
+weights. Failed writes preserve prior commits; corrupted latest files require
+explicit recovery. Partial updates cannot be serialized. Resumes use a fresh
+attempt directory linked to the parent checkpoint.
+
+**Verification:** All 95 local tests passed (29 new), with 35 upstream
+FutureWarnings and no skips. Six comparisons using small pinned-upstream
+models reproduced uninterrupted clean/adversarial trajectories exactly after
+resume, including optimizer states and RNG, across warmup, LR drops, and
+partial batches. Additional checks cover invalid optimizer/data/target state,
+low disk space, failed commits, checksum failures, and sampler parity.
+[Evidence record](report/checks/2026-10-20-training-resume-checks.json).
+
+The CLI currently requires diagnostic mode, limits each attempt to eight
+updates on at most eight prepared training clips, and rejects non-diagnostic
+research runs. No full pretrained runner execution, CUDA/MPS resume validation,
+new GPU rental, validation/test evaluation, commit, or push was performed.
+Existing scientific source, pilot reports, and protocol 0.3 hashes are intact.
+The new runner's end-to-end timing and I/O costs remain unmeasured.
+
+**Next work:** Export and validate the staged data, integrate primary
+attacks/checkpoint selection and diagnostics, then measure missing costs
+before admitting the exploratory pair. No new user action is required for
+those local implementation steps.
+
+## 2026-10-20 — Staged budget proposal and reported pilot charge
+
+Recorded Kaiwen's reported Runpod session charge of **$0.592**, including
+about ten minutes of idle time. This is user-reported, not invoice/API
+verification. It is inside the shared $10 pilot reserve, leaving $9.408
+reserved for further bounded measurements. The $200 total cap is unchanged.
+
+Prepared the [staged study proposal](docs/budget_study_plan.md), separate
+[configuration](configs/budget_study_plan.yaml), and reproducible
+[projection/metadata audit](report/checks/2026-10-20-staged-study-projection.json).
+The recommended candidate uses 20 classes, 100 training videos, 20 exploration
+validation videos, 20 fresh confirmation validation videos, and 60 final-test
+videos. One exploratory matched pair precedes three conditional confirmation
+pairs. Primary attack strength and model/input shape are preserved; the
+reduced update count, sparse anchors, and narrower claim are explicit.
+
+The original validation set has too few groups per class to divide casually
+into two independent panels. The proposal withholds exploration groups from
+the parent training pool before selecting actual training videos and retains
+the original validation partition for confirmation. Metadata audit passes
+video/group separation; 100 training videos span 100 groups and 60 proposed
+test videos span 59 groups. Exact proposed rows are recorded. No test pixels
+were opened; video content integrity and final manifests remain unvalidated.
+
+At the historical $1.20/hour, planning allocations are $33.64 exploration and
+$110.27 confirmation, including 25% headroom and respective two/six-hour
+allowances for untimed work. Including the $10 pilot and $40 noncompute
+reserves gives **$193.91**. This is a conditional envelope, not a complete
+measured cost or spending approval. The calculator leaves unknown timings
+null, labels proxies, compares alternatives, and always rejects automatic
+admission. Full training/resume, complete diagnostics, cost measurements, and
+protocol lock remain pending. Original study/configuration and pilot evidence
+were preserved.
+
+**Verification:** 15 focused staged-budget and existing compute-plan tests
+passed. They check phase/reference counts, no exploratory test evaluation,
+fresh confirmation seeds, source-group separation, timing compatibility,
+unknown costs, and pilot spending counted once. No GPU was rented, no full
+training was run, and no commit or push was made in preparing the proposal.
+
+**Next work:** Implement and test the resumable training runner locally,
+export and validate the proposed manifests, then measure the outstanding
+operations before admitting the exploratory pair.
+
 ## 2026-10-19 — University memory limit and completed Runpod RTX 5090 pilot
 
 The user reported successful CUDA smoke and one-clip attack checks on university

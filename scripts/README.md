@@ -53,3 +53,12 @@ The planned scripts are not created as nonfunctional placeholders. Add them
 with implementation and meaningful checks. Preserve familiar condition,
 seed, run-name, and diagnostic-mode concepts, with resolved configurations
 saved alongside every run. Document actual command syntax when implemented.
+
+`estimate_staged_study.py` reproduces the October 20 budget alternatives and
+metadata-only proposed subset audit without a GPU or network. See the
+[staged plan](../docs/budget_study_plan.md). It never admits a run.
+
+`train.py` implements a bounded diagnostic over the FP32 training/resume core.
+It requires verified training clips and a fresh output directory. See
+[training and recovery](../docs/training_runner.md); full research execution
+remains gated on evaluation, data validation, and measured cost.

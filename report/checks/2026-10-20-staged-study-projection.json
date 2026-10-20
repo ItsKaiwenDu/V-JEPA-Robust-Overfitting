@@ -1,0 +1,2619 @@
+{
+  "kind": "staged_planning_projection_not_a_benchmark",
+  "as_of": "2026-10-20",
+  "complete_cost_estimate": false,
+  "budget_approved": false,
+  "source_sha256": {
+    "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+    "report/checks/2026-10-19-runpod-5090-pilot.json": "f45778c76a69ab9f526799009d8018d450e0ec389480f8d0da5e055e79cae736",
+    "report/checks/2026-10-19-runpod-5090-attacks.json": "6c3f0e29b5bf68bb184142f00fea2f2e28c5f7997fc4632eaa2d1fcf738f830b",
+    "data/manifests/ucf101-split1-v1/train.csv": "3b1c271a114a880358e107adf4385a1367bb224901ee47a867dec0c5b68cc212",
+    "data/manifests/ucf101-split1-v1/validation.csv": "5c38b15f3c3935a7cb00ff418a4a4544453307b5007c2c342499f9899a0bf65c",
+    "data/manifests/ucf101-split1-v1/test.csv": "6de73dbcff7c31dc27b8e447cbd5eb75afa4f876a059e25b59c645d384418028",
+    "configs/budget_study_plan.yaml": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+    "scripts/estimate_staged_study.py": "e58bc7932baf943b90a7fc049d0a8a55ce1780f00720deda4f52eb57165c0057",
+    "datasets/staged_subset.py": "29803ffa6142922135a4ae45b85c5933fd199398b301f8ae4b502b6235d9ff8e"
+  },
+  "recommended_variant": "focused_20x5",
+  "variants": {
+    "focused_20x5": {
+      "classes": 20,
+      "training_clips": 100,
+      "updates_per_run": 390,
+      "training_runs_if_both_stages": 8,
+      "final_test_checkpoint_upper_bound": 10,
+      "convergence_checkpoint_panel_pairs": 14,
+      "stages": {
+        "exploration": {
+          "measured_unit_projection_hours": 15.73323086407868,
+          "proxy_projection_hours": 4.692122059402735,
+          "untimed_allowance_hours_not_measurement": 2,
+          "planning_compute_usd_with_headroom": 33.63802938522212,
+          "unmeasured_components": [
+            "clean_native_scoring",
+            "random_and_fgsm_baselines",
+            "independent_scoring_bank_audit",
+            "probe_and_feature_diagnostics",
+            "data_integrity_decode_targets",
+            "checkpoint_write_resume_load_export",
+            "setup_transfer_and_idle"
+          ]
+        },
+        "confirmation": {
+          "measured_unit_projection_hours": 57.316238442680394,
+          "proxy_projection_hours": 10.200265346527683,
+          "untimed_allowance_hours_not_measurement": 6,
+          "planning_compute_usd_with_headroom": 110.2747556838121,
+          "unmeasured_components": [
+            "clean_native_scoring",
+            "random_and_fgsm_baselines",
+            "independent_scoring_bank_audit",
+            "probe_and_feature_diagnostics",
+            "data_integrity_decode_targets",
+            "checkpoint_write_resume_load_export",
+            "setup_transfer_and_idle"
+          ]
+        }
+      },
+      "components": [
+        {
+          "phase": "exploration",
+          "component": "clean-finetune",
+          "count": 390,
+          "unit": "effective-batch update",
+          "seconds_per_unit": 4.026209568599915,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 0.4361727032649908
+        },
+        {
+          "phase": "exploration",
+          "component": "adversarial-finetune",
+          "count": 390,
+          "unit": "effective-batch update",
+          "seconds_per_unit": 24.4248599630002,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 2.646026495991688
+        },
+        {
+          "phase": "exploration",
+          "component": "routine_pgd5",
+          "count": 2440,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 3.013901858999816,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 2.0427557044332088
+        },
+        {
+          "phase": "exploration",
+          "component": "primary_train_validation",
+          "count": 520,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 10.608275960388792
+        },
+        {
+          "phase": "exploration",
+          "component": "convergence_pgd50",
+          "count": 40,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 367.2095524749966,
+          "timing_basis": "gradient_work_ratio_proxy",
+          "projected_hours": 4.0801061386110735
+        },
+        {
+          "phase": "exploration",
+          "component": "training_attack_step_calibration",
+          "count": 30,
+          "unit": "training clip and candidate",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "same_workload_proxy",
+          "projected_hours": 0.612015920791661
+        },
+        {
+          "phase": "exploration",
+          "component": "primary_final_test",
+          "count": 0,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 0.0
+        },
+        {
+          "phase": "exploration",
+          "component": "clean_native_scoring",
+          "count": 2960,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "random_and_fgsm_baselines",
+          "count": 80,
+          "unit": "validation clip-baseline",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "independent_scoring_bank_audit",
+          "count": 80,
+          "unit": "extra scoring bank",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "probe_and_feature_diagnostics",
+          "count": 4,
+          "unit": "checkpoint bundle",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "data_integrity_decode_targets",
+          "count": 1,
+          "unit": "phase preparation",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "checkpoint_write_resume_load_export",
+          "count": 2,
+          "unit": "full trajectory",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "setup_transfer_and_idle",
+          "count": 1,
+          "unit": "phase billed overhead",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "clean-finetune",
+          "count": 1170,
+          "unit": "effective-batch update",
+          "seconds_per_unit": 4.026209568599915,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 1.3085181097949725
+        },
+        {
+          "phase": "confirmation",
+          "component": "adversarial-finetune",
+          "count": 1170,
+          "unit": "effective-batch update",
+          "seconds_per_unit": 24.4248599630002,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 7.938079487975065
+        },
+        {
+          "phase": "confirmation",
+          "component": "routine_pgd5",
+          "count": 7220,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 3.013901858999816,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 6.044547617216297
+        },
+        {
+          "phase": "confirmation",
+          "component": "primary_train_validation",
+          "count": 1460,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 29.784774811860835
+        },
+        {
+          "phase": "confirmation",
+          "component": "convergence_pgd50",
+          "count": 100,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 367.2095524749966,
+          "timing_basis": "gradient_work_ratio_proxy",
+          "projected_hours": 10.200265346527683
+        },
+        {
+          "phase": "confirmation",
+          "component": "primary_final_test",
+          "count": 600,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 12.24031841583322
+        },
+        {
+          "phase": "confirmation",
+          "component": "clean_native_scoring",
+          "count": 9280,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "random_and_fgsm_baselines",
+          "count": 200,
+          "unit": "validation clip-baseline",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "independent_scoring_bank_audit",
+          "count": 200,
+          "unit": "extra scoring bank",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "probe_and_feature_diagnostics",
+          "count": 10,
+          "unit": "checkpoint bundle",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "data_integrity_decode_targets",
+          "count": 1,
+          "unit": "phase preparation",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "checkpoint_write_resume_load_export",
+          "count": 6,
+          "unit": "full trajectory",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "setup_transfer_and_idle",
+          "count": 1,
+          "unit": "phase billed overhead",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        }
+      ],
+      "ledger": {
+        "pilot_spent_user_reported_usd": 0.592,
+        "pilot_unspent_reserved_usd": 9.408,
+        "study_compute_planning_usd": 143.91278506903421,
+        "total_compute_including_pilot_reserve_usd": 153.91278506903421,
+        "noncompute_reserved_usd": 40,
+        "total_planning_envelope_usd": 193.91278506903421,
+        "nominal_margin_to_total_cap_usd": 6.087214930965786,
+        "arithmetic_within_cap": true
+      },
+      "complete_cost_estimate": false,
+      "budget_approved": false,
+      "metadata_counts_verified": {
+        "train": 100,
+        "exploration_validation": 20,
+        "confirmation_validation": 20,
+        "test": 60
+      }
+    },
+    "more_training_20x10": {
+      "classes": 20,
+      "training_clips": 200,
+      "updates_per_run": 750,
+      "training_runs_if_both_stages": 8,
+      "final_test_checkpoint_upper_bound": 10,
+      "convergence_checkpoint_panel_pairs": 14,
+      "stages": {
+        "exploration": {
+          "measured_unit_projection_hours": 18.57833781723869,
+          "proxy_projection_hours": 4.692122059402735,
+          "untimed_allowance_hours_not_measurement": 2,
+          "planning_compute_usd_with_headroom": 37.90568981496214,
+          "unmeasured_components": [
+            "clean_native_scoring",
+            "random_and_fgsm_baselines",
+            "independent_scoring_bank_audit",
+            "probe_and_feature_diagnostics",
+            "data_integrity_decode_targets",
+            "checkpoint_write_resume_load_export",
+            "setup_transfer_and_idle"
+          ]
+        },
+        "confirmation": {
+          "measured_unit_projection_hours": 65.85155930216042,
+          "proxy_projection_hours": 10.200265346527683,
+          "untimed_allowance_hours_not_measurement": 6,
+          "planning_compute_usd_with_headroom": 123.07773697303216,
+          "unmeasured_components": [
+            "clean_native_scoring",
+            "random_and_fgsm_baselines",
+            "independent_scoring_bank_audit",
+            "probe_and_feature_diagnostics",
+            "data_integrity_decode_targets",
+            "checkpoint_write_resume_load_export",
+            "setup_transfer_and_idle"
+          ]
+        }
+      },
+      "components": [
+        {
+          "phase": "exploration",
+          "component": "clean-finetune",
+          "count": 750,
+          "unit": "effective-batch update",
+          "seconds_per_unit": 4.026209568599915,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 0.8387936601249824
+        },
+        {
+          "phase": "exploration",
+          "component": "adversarial-finetune",
+          "count": 750,
+          "unit": "effective-batch update",
+          "seconds_per_unit": 24.4248599630002,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 5.088512492291708
+        },
+        {
+          "phase": "exploration",
+          "component": "routine_pgd5",
+          "count": 2440,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 3.013901858999816,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 2.0427557044332088
+        },
+        {
+          "phase": "exploration",
+          "component": "primary_train_validation",
+          "count": 520,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 10.608275960388792
+        },
+        {
+          "phase": "exploration",
+          "component": "convergence_pgd50",
+          "count": 40,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 367.2095524749966,
+          "timing_basis": "gradient_work_ratio_proxy",
+          "projected_hours": 4.0801061386110735
+        },
+        {
+          "phase": "exploration",
+          "component": "training_attack_step_calibration",
+          "count": 30,
+          "unit": "training clip and candidate",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "same_workload_proxy",
+          "projected_hours": 0.612015920791661
+        },
+        {
+          "phase": "exploration",
+          "component": "primary_final_test",
+          "count": 0,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 0.0
+        },
+        {
+          "phase": "exploration",
+          "component": "clean_native_scoring",
+          "count": 2960,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "random_and_fgsm_baselines",
+          "count": 80,
+          "unit": "validation clip-baseline",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "independent_scoring_bank_audit",
+          "count": 80,
+          "unit": "extra scoring bank",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "probe_and_feature_diagnostics",
+          "count": 4,
+          "unit": "checkpoint bundle",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "data_integrity_decode_targets",
+          "count": 1,
+          "unit": "phase preparation",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "checkpoint_write_resume_load_export",
+          "count": 2,
+          "unit": "full trajectory",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "setup_transfer_and_idle",
+          "count": 1,
+          "unit": "phase billed overhead",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "clean-finetune",
+          "count": 2250,
+          "unit": "effective-batch update",
+          "seconds_per_unit": 4.026209568599915,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 2.5163809803749473
+        },
+        {
+          "phase": "confirmation",
+          "component": "adversarial-finetune",
+          "count": 2250,
+          "unit": "effective-batch update",
+          "seconds_per_unit": 24.4248599630002,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 15.265537476875124
+        },
+        {
+          "phase": "confirmation",
+          "component": "routine_pgd5",
+          "count": 7220,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 3.013901858999816,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 6.044547617216297
+        },
+        {
+          "phase": "confirmation",
+          "component": "primary_train_validation",
+          "count": 1460,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 29.784774811860835
+        },
+        {
+          "phase": "confirmation",
+          "component": "convergence_pgd50",
+          "count": 100,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 367.2095524749966,
+          "timing_basis": "gradient_work_ratio_proxy",
+          "projected_hours": 10.200265346527683
+        },
+        {
+          "phase": "confirmation",
+          "component": "primary_final_test",
+          "count": 600,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 12.24031841583322
+        },
+        {
+          "phase": "confirmation",
+          "component": "clean_native_scoring",
+          "count": 9280,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "random_and_fgsm_baselines",
+          "count": 200,
+          "unit": "validation clip-baseline",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "independent_scoring_bank_audit",
+          "count": 200,
+          "unit": "extra scoring bank",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "probe_and_feature_diagnostics",
+          "count": 10,
+          "unit": "checkpoint bundle",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "data_integrity_decode_targets",
+          "count": 1,
+          "unit": "phase preparation",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "checkpoint_write_resume_load_export",
+          "count": 6,
+          "unit": "full trajectory",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "setup_transfer_and_idle",
+          "count": 1,
+          "unit": "phase billed overhead",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        }
+      ],
+      "ledger": {
+        "pilot_spent_user_reported_usd": 0.592,
+        "pilot_unspent_reserved_usd": 9.408,
+        "study_compute_planning_usd": 160.9834267879943,
+        "total_compute_including_pilot_reserve_usd": 170.9834267879943,
+        "noncompute_reserved_usd": 40,
+        "total_planning_envelope_usd": 210.9834267879943,
+        "nominal_margin_to_total_cap_usd": -10.98342678799429,
+        "arithmetic_within_cap": false
+      },
+      "complete_cost_estimate": false,
+      "budget_approved": false,
+      "metadata_counts_verified": {
+        "train": 200,
+        "exploration_validation": 20,
+        "confirmation_validation": 20,
+        "test": 60
+      }
+    },
+    "narrower_10x10": {
+      "classes": 10,
+      "training_clips": 100,
+      "updates_per_run": 390,
+      "training_runs_if_both_stages": 8,
+      "final_test_checkpoint_upper_bound": 10,
+      "convergence_checkpoint_panel_pairs": 14,
+      "stages": {
+        "exploration": {
+          "measured_unit_projection_hours": 9.407715031667678,
+          "proxy_projection_hours": 4.692122059402735,
+          "untimed_allowance_hours_not_measurement": 2,
+          "planning_compute_usd_with_headroom": 24.14975563660562,
+          "unmeasured_components": [
+            "clean_native_scoring",
+            "random_and_fgsm_baselines",
+            "independent_scoring_bank_audit",
+            "probe_and_feature_diagnostics",
+            "data_integrity_decode_targets",
+            "checkpoint_write_resume_load_export",
+            "setup_transfer_and_idle"
+          ]
+        },
+        "confirmation": {
+          "measured_unit_projection_hours": 33.28141802022521,
+          "proxy_projection_hours": 10.200265346527683,
+          "untimed_allowance_hours_not_measurement": 6,
+          "planning_compute_usd_with_headroom": 74.22252505012933,
+          "unmeasured_components": [
+            "clean_native_scoring",
+            "random_and_fgsm_baselines",
+            "independent_scoring_bank_audit",
+            "probe_and_feature_diagnostics",
+            "data_integrity_decode_targets",
+            "checkpoint_write_resume_load_export",
+            "setup_transfer_and_idle"
+          ]
+        }
+      },
+      "components": [
+        {
+          "phase": "exploration",
+          "component": "clean-finetune",
+          "count": 390,
+          "unit": "effective-batch update",
+          "seconds_per_unit": 4.026209568599915,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 0.4361727032649908
+        },
+        {
+          "phase": "exploration",
+          "component": "adversarial-finetune",
+          "count": 390,
+          "unit": "effective-batch update",
+          "seconds_per_unit": 24.4248599630002,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 2.646026495991688
+        },
+        {
+          "phase": "exploration",
+          "component": "routine_pgd5",
+          "count": 1220,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 3.013901858999816,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 1.0213778522166044
+        },
+        {
+          "phase": "exploration",
+          "component": "primary_train_validation",
+          "count": 260,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 5.304137980194396
+        },
+        {
+          "phase": "exploration",
+          "component": "convergence_pgd50",
+          "count": 40,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 367.2095524749966,
+          "timing_basis": "gradient_work_ratio_proxy",
+          "projected_hours": 4.0801061386110735
+        },
+        {
+          "phase": "exploration",
+          "component": "training_attack_step_calibration",
+          "count": 30,
+          "unit": "training clip and candidate",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "same_workload_proxy",
+          "projected_hours": 0.612015920791661
+        },
+        {
+          "phase": "exploration",
+          "component": "primary_final_test",
+          "count": 0,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 0.0
+        },
+        {
+          "phase": "exploration",
+          "component": "clean_native_scoring",
+          "count": 1480,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "random_and_fgsm_baselines",
+          "count": 80,
+          "unit": "validation clip-baseline",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "independent_scoring_bank_audit",
+          "count": 80,
+          "unit": "extra scoring bank",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "probe_and_feature_diagnostics",
+          "count": 4,
+          "unit": "checkpoint bundle",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "data_integrity_decode_targets",
+          "count": 1,
+          "unit": "phase preparation",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "checkpoint_write_resume_load_export",
+          "count": 2,
+          "unit": "full trajectory",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "setup_transfer_and_idle",
+          "count": 1,
+          "unit": "phase billed overhead",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "clean-finetune",
+          "count": 1170,
+          "unit": "effective-batch update",
+          "seconds_per_unit": 4.026209568599915,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 1.3085181097949725
+        },
+        {
+          "phase": "confirmation",
+          "component": "adversarial-finetune",
+          "count": 1170,
+          "unit": "effective-batch update",
+          "seconds_per_unit": 24.4248599630002,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 7.938079487975065
+        },
+        {
+          "phase": "confirmation",
+          "component": "routine_pgd5",
+          "count": 3610,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 3.013901858999816,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 3.0222738086081486
+        },
+        {
+          "phase": "confirmation",
+          "component": "primary_train_validation",
+          "count": 730,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 14.892387405930418
+        },
+        {
+          "phase": "confirmation",
+          "component": "convergence_pgd50",
+          "count": 100,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 367.2095524749966,
+          "timing_basis": "gradient_work_ratio_proxy",
+          "projected_hours": 10.200265346527683
+        },
+        {
+          "phase": "confirmation",
+          "component": "primary_final_test",
+          "count": 300,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 6.12015920791661
+        },
+        {
+          "phase": "confirmation",
+          "component": "clean_native_scoring",
+          "count": 4640,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "random_and_fgsm_baselines",
+          "count": 200,
+          "unit": "validation clip-baseline",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "independent_scoring_bank_audit",
+          "count": 200,
+          "unit": "extra scoring bank",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "probe_and_feature_diagnostics",
+          "count": 10,
+          "unit": "checkpoint bundle",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "data_integrity_decode_targets",
+          "count": 1,
+          "unit": "phase preparation",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "checkpoint_write_resume_load_export",
+          "count": 6,
+          "unit": "full trajectory",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "setup_transfer_and_idle",
+          "count": 1,
+          "unit": "phase billed overhead",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        }
+      ],
+      "ledger": {
+        "pilot_spent_user_reported_usd": 0.592,
+        "pilot_unspent_reserved_usd": 9.408,
+        "study_compute_planning_usd": 98.37228068673495,
+        "total_compute_including_pilot_reserve_usd": 108.37228068673495,
+        "noncompute_reserved_usd": 40,
+        "total_planning_envelope_usd": 148.37228068673494,
+        "nominal_margin_to_total_cap_usd": 51.62771931326506,
+        "arithmetic_within_cap": true
+      },
+      "complete_cost_estimate": false,
+      "budget_approved": false,
+      "metadata_counts_verified": {
+        "train": 100,
+        "exploration_validation": 10,
+        "confirmation_validation": 10,
+        "test": 30
+      }
+    },
+    "broad_101x10": {
+      "classes": 101,
+      "training_clips": 1010,
+      "updates_per_run": 3810,
+      "training_runs_if_both_stages": 8,
+      "final_test_checkpoint_upper_bound": 10,
+      "convergence_checkpoint_panel_pairs": 14,
+      "stages": {
+        "exploration": {
+          "measured_unit_projection_hours": 93.99842516162786,
+          "proxy_projection_hours": 4.692122059402735,
+          "untimed_allowance_hours_not_measurement": 2,
+          "planning_compute_usd_with_headroom": 151.0358208315459,
+          "unmeasured_components": [
+            "clean_native_scoring",
+            "random_and_fgsm_baselines",
+            "independent_scoring_bank_audit",
+            "probe_and_feature_diagnostics",
+            "data_integrity_decode_targets",
+            "checkpoint_write_resume_load_export",
+            "setup_transfer_and_idle"
+          ]
+        },
+        "confirmation": {
+          "measured_unit_projection_hours": 333.0838320296276,
+          "proxy_projection_hours": 10.200265346527683,
+          "untimed_allowance_hours_not_measurement": 6,
+          "planning_compute_usd_with_headroom": 523.926146064233,
+          "unmeasured_components": [
+            "clean_native_scoring",
+            "random_and_fgsm_baselines",
+            "independent_scoring_bank_audit",
+            "probe_and_feature_diagnostics",
+            "data_integrity_decode_targets",
+            "checkpoint_write_resume_load_export",
+            "setup_transfer_and_idle"
+          ]
+        }
+      },
+      "components": [
+        {
+          "phase": "exploration",
+          "component": "clean-finetune",
+          "count": 3810,
+          "unit": "effective-batch update",
+          "seconds_per_unit": 4.026209568599915,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 4.26107179343491
+        },
+        {
+          "phase": "exploration",
+          "component": "adversarial-finetune",
+          "count": 3810,
+          "unit": "effective-batch update",
+          "seconds_per_unit": 24.4248599630002,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 25.849643460841875
+        },
+        {
+          "phase": "exploration",
+          "component": "routine_pgd5",
+          "count": 12322,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 3.013901858999816,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 10.315916307387702
+        },
+        {
+          "phase": "exploration",
+          "component": "primary_train_validation",
+          "count": 2626,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 53.571793599963385
+        },
+        {
+          "phase": "exploration",
+          "component": "convergence_pgd50",
+          "count": 40,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 367.2095524749966,
+          "timing_basis": "gradient_work_ratio_proxy",
+          "projected_hours": 4.0801061386110735
+        },
+        {
+          "phase": "exploration",
+          "component": "training_attack_step_calibration",
+          "count": 30,
+          "unit": "training clip and candidate",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "same_workload_proxy",
+          "projected_hours": 0.612015920791661
+        },
+        {
+          "phase": "exploration",
+          "component": "primary_final_test",
+          "count": 0,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 0.0
+        },
+        {
+          "phase": "exploration",
+          "component": "clean_native_scoring",
+          "count": 14948,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "random_and_fgsm_baselines",
+          "count": 80,
+          "unit": "validation clip-baseline",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "independent_scoring_bank_audit",
+          "count": 80,
+          "unit": "extra scoring bank",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "probe_and_feature_diagnostics",
+          "count": 4,
+          "unit": "checkpoint bundle",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "data_integrity_decode_targets",
+          "count": 1,
+          "unit": "phase preparation",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "checkpoint_write_resume_load_export",
+          "count": 2,
+          "unit": "full trajectory",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "exploration",
+          "component": "setup_transfer_and_idle",
+          "count": 1,
+          "unit": "phase billed overhead",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "clean-finetune",
+          "count": 11430,
+          "unit": "effective-batch update",
+          "seconds_per_unit": 4.026209568599915,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 12.78321538030473
+        },
+        {
+          "phase": "confirmation",
+          "component": "adversarial-finetune",
+          "count": 11430,
+          "unit": "effective-batch update",
+          "seconds_per_unit": 24.4248599630002,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 77.54893038252563
+        },
+        {
+          "phase": "confirmation",
+          "component": "routine_pgd5",
+          "count": 36461,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 3.013901858999816,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 30.524965466942305
+        },
+        {
+          "phase": "confirmation",
+          "component": "primary_train_validation",
+          "count": 7373,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 150.41311279989722
+        },
+        {
+          "phase": "confirmation",
+          "component": "convergence_pgd50",
+          "count": 100,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 367.2095524749966,
+          "timing_basis": "gradient_work_ratio_proxy",
+          "projected_hours": 10.200265346527683
+        },
+        {
+          "phase": "confirmation",
+          "component": "primary_final_test",
+          "count": 3030,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": 73.44191049499932,
+          "timing_basis": "measured_unit_extrapolation",
+          "projected_hours": 61.81360799995777
+        },
+        {
+          "phase": "confirmation",
+          "component": "clean_native_scoring",
+          "count": 46864,
+          "unit": "clip-checkpoint",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "random_and_fgsm_baselines",
+          "count": 200,
+          "unit": "validation clip-baseline",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "independent_scoring_bank_audit",
+          "count": 200,
+          "unit": "extra scoring bank",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "probe_and_feature_diagnostics",
+          "count": 10,
+          "unit": "checkpoint bundle",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "data_integrity_decode_targets",
+          "count": 1,
+          "unit": "phase preparation",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "checkpoint_write_resume_load_export",
+          "count": 6,
+          "unit": "full trajectory",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        },
+        {
+          "phase": "confirmation",
+          "component": "setup_transfer_and_idle",
+          "count": 1,
+          "unit": "phase billed overhead",
+          "seconds_per_unit": null,
+          "timing_basis": "unmeasured",
+          "projected_hours": null
+        }
+      ],
+      "ledger": {
+        "pilot_spent_user_reported_usd": 0.592,
+        "pilot_unspent_reserved_usd": 9.408,
+        "study_compute_planning_usd": 674.9619668957789,
+        "total_compute_including_pilot_reserve_usd": 684.9619668957789,
+        "noncompute_reserved_usd": 40,
+        "total_planning_envelope_usd": 724.9619668957789,
+        "nominal_margin_to_total_cap_usd": -524.9619668957789,
+        "arithmetic_within_cap": false
+      },
+      "complete_cost_estimate": false,
+      "budget_approved": false,
+      "metadata_counts_verified": {
+        "train": 1010,
+        "exploration_validation": 101,
+        "confirmation_validation": 101,
+        "test": 303
+      }
+    }
+  },
+  "proposed_subset": {
+    "status": "proposed_metadata_only_not_frozen",
+    "classes": [
+      "BreastStroke",
+      "JumpRope",
+      "Swing",
+      "TennisSwing",
+      "FloorGymnastics",
+      "Biking",
+      "Archery",
+      "YoYo",
+      "Bowling",
+      "HandstandPushups",
+      "PommelHorse",
+      "IceDancing",
+      "BlowDryHair",
+      "HulaHoop",
+      "BoxingSpeedBag",
+      "HorseRace",
+      "Billiards",
+      "PlayingTabla",
+      "Shotput",
+      "Basketball"
+    ],
+    "counts": {
+      "train": 100,
+      "exploration_validation": 20,
+      "confirmation_validation": 20,
+      "test": 60
+    },
+    "source_groups_per_class": {
+      "train": {
+        "BreastStroke": 5,
+        "JumpRope": 5,
+        "Swing": 5,
+        "TennisSwing": 5,
+        "FloorGymnastics": 5,
+        "Biking": 5,
+        "Archery": 5,
+        "YoYo": 5,
+        "Bowling": 5,
+        "HandstandPushups": 5,
+        "PommelHorse": 5,
+        "IceDancing": 5,
+        "BlowDryHair": 5,
+        "HulaHoop": 5,
+        "BoxingSpeedBag": 5,
+        "HorseRace": 5,
+        "Billiards": 5,
+        "PlayingTabla": 5,
+        "Shotput": 5,
+        "Basketball": 5
+      },
+      "exploration_validation": {
+        "BreastStroke": 1,
+        "JumpRope": 1,
+        "Swing": 1,
+        "TennisSwing": 1,
+        "FloorGymnastics": 1,
+        "Biking": 1,
+        "Archery": 1,
+        "YoYo": 1,
+        "Bowling": 1,
+        "HandstandPushups": 1,
+        "PommelHorse": 1,
+        "IceDancing": 1,
+        "BlowDryHair": 1,
+        "HulaHoop": 1,
+        "BoxingSpeedBag": 1,
+        "HorseRace": 1,
+        "Billiards": 1,
+        "PlayingTabla": 1,
+        "Shotput": 1,
+        "Basketball": 1
+      },
+      "confirmation_validation": {
+        "BreastStroke": 1,
+        "JumpRope": 1,
+        "Swing": 1,
+        "TennisSwing": 1,
+        "FloorGymnastics": 1,
+        "Biking": 1,
+        "Archery": 1,
+        "YoYo": 1,
+        "Bowling": 1,
+        "HandstandPushups": 1,
+        "PommelHorse": 1,
+        "IceDancing": 1,
+        "BlowDryHair": 1,
+        "HulaHoop": 1,
+        "BoxingSpeedBag": 1,
+        "HorseRace": 1,
+        "Billiards": 1,
+        "PlayingTabla": 1,
+        "Shotput": 1,
+        "Basketball": 1
+      },
+      "test": {
+        "BreastStroke": 3,
+        "JumpRope": 3,
+        "Swing": 3,
+        "TennisSwing": 3,
+        "FloorGymnastics": 3,
+        "Biking": 3,
+        "Archery": 3,
+        "YoYo": 3,
+        "Bowling": 3,
+        "HandstandPushups": 3,
+        "PommelHorse": 3,
+        "IceDancing": 3,
+        "BlowDryHair": 3,
+        "HulaHoop": 3,
+        "BoxingSpeedBag": 3,
+        "HorseRace": 3,
+        "Billiards": 2,
+        "PlayingTabla": 3,
+        "Shotput": 3,
+        "Basketball": 3
+      }
+    },
+    "exploration_groups_excluded_entirely_from_actual_training": {
+      "BreastStroke": "BreastStroke_g14",
+      "JumpRope": "JumpRope_g21",
+      "Swing": "Swing_g09",
+      "TennisSwing": "TennisSwing_g17",
+      "FloorGymnastics": "FloorGymnastics_g25",
+      "Biking": "Biking_g13",
+      "Archery": "Archery_g20",
+      "YoYo": "YoYo_g17",
+      "Bowling": "Bowling_g20",
+      "HandstandPushups": "HandstandPushups_g22",
+      "PommelHorse": "PommelHorse_g14",
+      "IceDancing": "IceDancing_g20",
+      "BlowDryHair": "BlowDryHair_g16",
+      "HulaHoop": "HulaHoop_g17",
+      "BoxingSpeedBag": "BoxingSpeedBag_g08",
+      "HorseRace": "HorseRace_g20",
+      "Billiards": "Billiards_g23",
+      "PlayingTabla": "PlayingTabla_g11",
+      "Shotput": "Shotput_g17",
+      "Basketball": "Basketball_g09"
+    },
+    "partitions_video_and_source_group_disjoint": true,
+    "train_monitor_video_ids": [
+      "v_BreastStroke_g10_c02",
+      "v_JumpRope_g16_c02",
+      "v_Swing_g20_c03",
+      "v_TennisSwing_g14_c04",
+      "v_FloorGymnastics_g17_c01",
+      "v_Biking_g16_c04",
+      "v_Archery_g19_c04",
+      "v_YoYo_g14_c03",
+      "v_Bowling_g19_c04",
+      "v_HandStandPushups_g21_c01",
+      "v_PommelHorse_g09_c02",
+      "v_IceDancing_g16_c01",
+      "v_BlowDryHair_g18_c03",
+      "v_HulaHoop_g21_c03",
+      "v_BoxingSpeedBag_g10_c02",
+      "v_HorseRace_g15_c04",
+      "v_Billiards_g08_c04",
+      "v_PlayingTabla_g16_c04",
+      "v_Shotput_g10_c05",
+      "v_Basketball_g11_c01"
+    ],
+    "rows": {
+      "train": [
+        {
+          "video_id": "v_BreastStroke_g15_c01",
+          "relative_path": "BreastStroke/v_BreastStroke_g15_c01.avi",
+          "class_id": "18",
+          "source_group_id": "BreastStroke_g15"
+        },
+        {
+          "video_id": "v_BreastStroke_g10_c02",
+          "relative_path": "BreastStroke/v_BreastStroke_g10_c02.avi",
+          "class_id": "18",
+          "source_group_id": "BreastStroke_g10"
+        },
+        {
+          "video_id": "v_BreastStroke_g13_c01",
+          "relative_path": "BreastStroke/v_BreastStroke_g13_c01.avi",
+          "class_id": "18",
+          "source_group_id": "BreastStroke_g13"
+        },
+        {
+          "video_id": "v_BreastStroke_g17_c04",
+          "relative_path": "BreastStroke/v_BreastStroke_g17_c04.avi",
+          "class_id": "18",
+          "source_group_id": "BreastStroke_g17"
+        },
+        {
+          "video_id": "v_BreastStroke_g21_c01",
+          "relative_path": "BreastStroke/v_BreastStroke_g21_c01.avi",
+          "class_id": "18",
+          "source_group_id": "BreastStroke_g21"
+        },
+        {
+          "video_id": "v_JumpRope_g15_c01",
+          "relative_path": "JumpRope/v_JumpRope_g15_c01.avi",
+          "class_id": "47",
+          "source_group_id": "JumpRope_g15"
+        },
+        {
+          "video_id": "v_JumpRope_g16_c02",
+          "relative_path": "JumpRope/v_JumpRope_g16_c02.avi",
+          "class_id": "47",
+          "source_group_id": "JumpRope_g16"
+        },
+        {
+          "video_id": "v_JumpRope_g14_c03",
+          "relative_path": "JumpRope/v_JumpRope_g14_c03.avi",
+          "class_id": "47",
+          "source_group_id": "JumpRope_g14"
+        },
+        {
+          "video_id": "v_JumpRope_g19_c03",
+          "relative_path": "JumpRope/v_JumpRope_g19_c03.avi",
+          "class_id": "47",
+          "source_group_id": "JumpRope_g19"
+        },
+        {
+          "video_id": "v_JumpRope_g23_c02",
+          "relative_path": "JumpRope/v_JumpRope_g23_c02.avi",
+          "class_id": "47",
+          "source_group_id": "JumpRope_g23"
+        },
+        {
+          "video_id": "v_Swing_g16_c05",
+          "relative_path": "Swing/v_Swing_g16_c05.avi",
+          "class_id": "88",
+          "source_group_id": "Swing_g16"
+        },
+        {
+          "video_id": "v_Swing_g20_c03",
+          "relative_path": "Swing/v_Swing_g20_c03.avi",
+          "class_id": "88",
+          "source_group_id": "Swing_g20"
+        },
+        {
+          "video_id": "v_Swing_g25_c01",
+          "relative_path": "Swing/v_Swing_g25_c01.avi",
+          "class_id": "88",
+          "source_group_id": "Swing_g25"
+        },
+        {
+          "video_id": "v_Swing_g18_c03",
+          "relative_path": "Swing/v_Swing_g18_c03.avi",
+          "class_id": "88",
+          "source_group_id": "Swing_g18"
+        },
+        {
+          "video_id": "v_Swing_g22_c01",
+          "relative_path": "Swing/v_Swing_g22_c01.avi",
+          "class_id": "88",
+          "source_group_id": "Swing_g22"
+        },
+        {
+          "video_id": "v_TennisSwing_g09_c05",
+          "relative_path": "TennisSwing/v_TennisSwing_g09_c05.avi",
+          "class_id": "91",
+          "source_group_id": "TennisSwing_g09"
+        },
+        {
+          "video_id": "v_TennisSwing_g14_c04",
+          "relative_path": "TennisSwing/v_TennisSwing_g14_c04.avi",
+          "class_id": "91",
+          "source_group_id": "TennisSwing_g14"
+        },
+        {
+          "video_id": "v_TennisSwing_g16_c05",
+          "relative_path": "TennisSwing/v_TennisSwing_g16_c05.avi",
+          "class_id": "91",
+          "source_group_id": "TennisSwing_g16"
+        },
+        {
+          "video_id": "v_TennisSwing_g12_c05",
+          "relative_path": "TennisSwing/v_TennisSwing_g12_c05.avi",
+          "class_id": "91",
+          "source_group_id": "TennisSwing_g12"
+        },
+        {
+          "video_id": "v_TennisSwing_g24_c03",
+          "relative_path": "TennisSwing/v_TennisSwing_g24_c03.avi",
+          "class_id": "91",
+          "source_group_id": "TennisSwing_g24"
+        },
+        {
+          "video_id": "v_FloorGymnastics_g10_c01",
+          "relative_path": "FloorGymnastics/v_FloorGymnastics_g10_c01.avi",
+          "class_id": "29",
+          "source_group_id": "FloorGymnastics_g10"
+        },
+        {
+          "video_id": "v_FloorGymnastics_g12_c04",
+          "relative_path": "FloorGymnastics/v_FloorGymnastics_g12_c04.avi",
+          "class_id": "29",
+          "source_group_id": "FloorGymnastics_g12"
+        },
+        {
+          "video_id": "v_FloorGymnastics_g17_c01",
+          "relative_path": "FloorGymnastics/v_FloorGymnastics_g17_c01.avi",
+          "class_id": "29",
+          "source_group_id": "FloorGymnastics_g17"
+        },
+        {
+          "video_id": "v_FloorGymnastics_g23_c01",
+          "relative_path": "FloorGymnastics/v_FloorGymnastics_g23_c01.avi",
+          "class_id": "29",
+          "source_group_id": "FloorGymnastics_g23"
+        },
+        {
+          "video_id": "v_FloorGymnastics_g21_c02",
+          "relative_path": "FloorGymnastics/v_FloorGymnastics_g21_c02.avi",
+          "class_id": "29",
+          "source_group_id": "FloorGymnastics_g21"
+        },
+        {
+          "video_id": "v_Biking_g16_c04",
+          "relative_path": "Biking/v_Biking_g16_c04.avi",
+          "class_id": "10",
+          "source_group_id": "Biking_g16"
+        },
+        {
+          "video_id": "v_Biking_g19_c04",
+          "relative_path": "Biking/v_Biking_g19_c04.avi",
+          "class_id": "10",
+          "source_group_id": "Biking_g19"
+        },
+        {
+          "video_id": "v_Biking_g14_c03",
+          "relative_path": "Biking/v_Biking_g14_c03.avi",
+          "class_id": "10",
+          "source_group_id": "Biking_g14"
+        },
+        {
+          "video_id": "v_Biking_g17_c05",
+          "relative_path": "Biking/v_Biking_g17_c05.avi",
+          "class_id": "10",
+          "source_group_id": "Biking_g17"
+        },
+        {
+          "video_id": "v_Biking_g20_c06",
+          "relative_path": "Biking/v_Biking_g20_c06.avi",
+          "class_id": "10",
+          "source_group_id": "Biking_g20"
+        },
+        {
+          "video_id": "v_Archery_g19_c04",
+          "relative_path": "Archery/v_Archery_g19_c04.avi",
+          "class_id": "2",
+          "source_group_id": "Archery_g19"
+        },
+        {
+          "video_id": "v_Archery_g24_c01",
+          "relative_path": "Archery/v_Archery_g24_c01.avi",
+          "class_id": "2",
+          "source_group_id": "Archery_g24"
+        },
+        {
+          "video_id": "v_Archery_g22_c03",
+          "relative_path": "Archery/v_Archery_g22_c03.avi",
+          "class_id": "2",
+          "source_group_id": "Archery_g22"
+        },
+        {
+          "video_id": "v_Archery_g11_c06",
+          "relative_path": "Archery/v_Archery_g11_c06.avi",
+          "class_id": "2",
+          "source_group_id": "Archery_g11"
+        },
+        {
+          "video_id": "v_Archery_g18_c06",
+          "relative_path": "Archery/v_Archery_g18_c06.avi",
+          "class_id": "2",
+          "source_group_id": "Archery_g18"
+        },
+        {
+          "video_id": "v_YoYo_g13_c02",
+          "relative_path": "YoYo/v_YoYo_g13_c02.avi",
+          "class_id": "100",
+          "source_group_id": "YoYo_g13"
+        },
+        {
+          "video_id": "v_YoYo_g23_c01",
+          "relative_path": "YoYo/v_YoYo_g23_c01.avi",
+          "class_id": "100",
+          "source_group_id": "YoYo_g23"
+        },
+        {
+          "video_id": "v_YoYo_g20_c04",
+          "relative_path": "YoYo/v_YoYo_g20_c04.avi",
+          "class_id": "100",
+          "source_group_id": "YoYo_g20"
+        },
+        {
+          "video_id": "v_YoYo_g14_c03",
+          "relative_path": "YoYo/v_YoYo_g14_c03.avi",
+          "class_id": "100",
+          "source_group_id": "YoYo_g14"
+        },
+        {
+          "video_id": "v_YoYo_g24_c03",
+          "relative_path": "YoYo/v_YoYo_g24_c03.avi",
+          "class_id": "100",
+          "source_group_id": "YoYo_g24"
+        },
+        {
+          "video_id": "v_Bowling_g15_c06",
+          "relative_path": "Bowling/v_Bowling_g15_c06.avi",
+          "class_id": "15",
+          "source_group_id": "Bowling_g15"
+        },
+        {
+          "video_id": "v_Bowling_g25_c02",
+          "relative_path": "Bowling/v_Bowling_g25_c02.avi",
+          "class_id": "15",
+          "source_group_id": "Bowling_g25"
+        },
+        {
+          "video_id": "v_Bowling_g19_c04",
+          "relative_path": "Bowling/v_Bowling_g19_c04.avi",
+          "class_id": "15",
+          "source_group_id": "Bowling_g19"
+        },
+        {
+          "video_id": "v_Bowling_g14_c05",
+          "relative_path": "Bowling/v_Bowling_g14_c05.avi",
+          "class_id": "15",
+          "source_group_id": "Bowling_g14"
+        },
+        {
+          "video_id": "v_Bowling_g08_c02",
+          "relative_path": "Bowling/v_Bowling_g08_c02.avi",
+          "class_id": "15",
+          "source_group_id": "Bowling_g08"
+        },
+        {
+          "video_id": "v_HandStandPushups_g12_c04",
+          "relative_path": "HandstandPushups/v_HandStandPushups_g12_c04.avi",
+          "class_id": "36",
+          "source_group_id": "HandstandPushups_g12"
+        },
+        {
+          "video_id": "v_HandStandPushups_g11_c02",
+          "relative_path": "HandstandPushups/v_HandStandPushups_g11_c02.avi",
+          "class_id": "36",
+          "source_group_id": "HandstandPushups_g11"
+        },
+        {
+          "video_id": "v_HandStandPushups_g21_c01",
+          "relative_path": "HandstandPushups/v_HandStandPushups_g21_c01.avi",
+          "class_id": "36",
+          "source_group_id": "HandstandPushups_g21"
+        },
+        {
+          "video_id": "v_HandStandPushups_g13_c06",
+          "relative_path": "HandstandPushups/v_HandStandPushups_g13_c06.avi",
+          "class_id": "36",
+          "source_group_id": "HandstandPushups_g13"
+        },
+        {
+          "video_id": "v_HandStandPushups_g14_c03",
+          "relative_path": "HandstandPushups/v_HandStandPushups_g14_c03.avi",
+          "class_id": "36",
+          "source_group_id": "HandstandPushups_g14"
+        },
+        {
+          "video_id": "v_PommelHorse_g20_c04",
+          "relative_path": "PommelHorse/v_PommelHorse_g20_c04.avi",
+          "class_id": "68",
+          "source_group_id": "PommelHorse_g20"
+        },
+        {
+          "video_id": "v_PommelHorse_g15_c03",
+          "relative_path": "PommelHorse/v_PommelHorse_g15_c03.avi",
+          "class_id": "68",
+          "source_group_id": "PommelHorse_g15"
+        },
+        {
+          "video_id": "v_PommelHorse_g12_c07",
+          "relative_path": "PommelHorse/v_PommelHorse_g12_c07.avi",
+          "class_id": "68",
+          "source_group_id": "PommelHorse_g12"
+        },
+        {
+          "video_id": "v_PommelHorse_g09_c02",
+          "relative_path": "PommelHorse/v_PommelHorse_g09_c02.avi",
+          "class_id": "68",
+          "source_group_id": "PommelHorse_g09"
+        },
+        {
+          "video_id": "v_PommelHorse_g23_c02",
+          "relative_path": "PommelHorse/v_PommelHorse_g23_c02.avi",
+          "class_id": "68",
+          "source_group_id": "PommelHorse_g23"
+        },
+        {
+          "video_id": "v_IceDancing_g10_c06",
+          "relative_path": "IceDancing/v_IceDancing_g10_c06.avi",
+          "class_id": "43",
+          "source_group_id": "IceDancing_g10"
+        },
+        {
+          "video_id": "v_IceDancing_g24_c07",
+          "relative_path": "IceDancing/v_IceDancing_g24_c07.avi",
+          "class_id": "43",
+          "source_group_id": "IceDancing_g24"
+        },
+        {
+          "video_id": "v_IceDancing_g16_c01",
+          "relative_path": "IceDancing/v_IceDancing_g16_c01.avi",
+          "class_id": "43",
+          "source_group_id": "IceDancing_g16"
+        },
+        {
+          "video_id": "v_IceDancing_g14_c05",
+          "relative_path": "IceDancing/v_IceDancing_g14_c05.avi",
+          "class_id": "43",
+          "source_group_id": "IceDancing_g14"
+        },
+        {
+          "video_id": "v_IceDancing_g23_c05",
+          "relative_path": "IceDancing/v_IceDancing_g23_c05.avi",
+          "class_id": "43",
+          "source_group_id": "IceDancing_g23"
+        },
+        {
+          "video_id": "v_BlowDryHair_g14_c01",
+          "relative_path": "BlowDryHair/v_BlowDryHair_g14_c01.avi",
+          "class_id": "12",
+          "source_group_id": "BlowDryHair_g14"
+        },
+        {
+          "video_id": "v_BlowDryHair_g22_c02",
+          "relative_path": "BlowDryHair/v_BlowDryHair_g22_c02.avi",
+          "class_id": "12",
+          "source_group_id": "BlowDryHair_g22"
+        },
+        {
+          "video_id": "v_BlowDryHair_g09_c03",
+          "relative_path": "BlowDryHair/v_BlowDryHair_g09_c03.avi",
+          "class_id": "12",
+          "source_group_id": "BlowDryHair_g09"
+        },
+        {
+          "video_id": "v_BlowDryHair_g11_c03",
+          "relative_path": "BlowDryHair/v_BlowDryHair_g11_c03.avi",
+          "class_id": "12",
+          "source_group_id": "BlowDryHair_g11"
+        },
+        {
+          "video_id": "v_BlowDryHair_g18_c03",
+          "relative_path": "BlowDryHair/v_BlowDryHair_g18_c03.avi",
+          "class_id": "12",
+          "source_group_id": "BlowDryHair_g18"
+        },
+        {
+          "video_id": "v_HulaHoop_g18_c01",
+          "relative_path": "HulaHoop/v_HulaHoop_g18_c01.avi",
+          "class_id": "42",
+          "source_group_id": "HulaHoop_g18"
+        },
+        {
+          "video_id": "v_HulaHoop_g10_c03",
+          "relative_path": "HulaHoop/v_HulaHoop_g10_c03.avi",
+          "class_id": "42",
+          "source_group_id": "HulaHoop_g10"
+        },
+        {
+          "video_id": "v_HulaHoop_g21_c03",
+          "relative_path": "HulaHoop/v_HulaHoop_g21_c03.avi",
+          "class_id": "42",
+          "source_group_id": "HulaHoop_g21"
+        },
+        {
+          "video_id": "v_HulaHoop_g20_c05",
+          "relative_path": "HulaHoop/v_HulaHoop_g20_c05.avi",
+          "class_id": "42",
+          "source_group_id": "HulaHoop_g20"
+        },
+        {
+          "video_id": "v_HulaHoop_g14_c05",
+          "relative_path": "HulaHoop/v_HulaHoop_g14_c05.avi",
+          "class_id": "42",
+          "source_group_id": "HulaHoop_g14"
+        },
+        {
+          "video_id": "v_BoxingSpeedBag_g24_c01",
+          "relative_path": "BoxingSpeedBag/v_BoxingSpeedBag_g24_c01.avi",
+          "class_id": "17",
+          "source_group_id": "BoxingSpeedBag_g24"
+        },
+        {
+          "video_id": "v_BoxingSpeedBag_g10_c02",
+          "relative_path": "BoxingSpeedBag/v_BoxingSpeedBag_g10_c02.avi",
+          "class_id": "17",
+          "source_group_id": "BoxingSpeedBag_g10"
+        },
+        {
+          "video_id": "v_BoxingSpeedBag_g25_c03",
+          "relative_path": "BoxingSpeedBag/v_BoxingSpeedBag_g25_c03.avi",
+          "class_id": "17",
+          "source_group_id": "BoxingSpeedBag_g25"
+        },
+        {
+          "video_id": "v_BoxingSpeedBag_g22_c01",
+          "relative_path": "BoxingSpeedBag/v_BoxingSpeedBag_g22_c01.avi",
+          "class_id": "17",
+          "source_group_id": "BoxingSpeedBag_g22"
+        },
+        {
+          "video_id": "v_BoxingSpeedBag_g13_c05",
+          "relative_path": "BoxingSpeedBag/v_BoxingSpeedBag_g13_c05.avi",
+          "class_id": "17",
+          "source_group_id": "BoxingSpeedBag_g13"
+        },
+        {
+          "video_id": "v_HorseRace_g15_c04",
+          "relative_path": "HorseRace/v_HorseRace_g15_c04.avi",
+          "class_id": "40",
+          "source_group_id": "HorseRace_g15"
+        },
+        {
+          "video_id": "v_HorseRace_g19_c04",
+          "relative_path": "HorseRace/v_HorseRace_g19_c04.avi",
+          "class_id": "40",
+          "source_group_id": "HorseRace_g19"
+        },
+        {
+          "video_id": "v_HorseRace_g23_c03",
+          "relative_path": "HorseRace/v_HorseRace_g23_c03.avi",
+          "class_id": "40",
+          "source_group_id": "HorseRace_g23"
+        },
+        {
+          "video_id": "v_HorseRace_g16_c02",
+          "relative_path": "HorseRace/v_HorseRace_g16_c02.avi",
+          "class_id": "40",
+          "source_group_id": "HorseRace_g16"
+        },
+        {
+          "video_id": "v_HorseRace_g25_c03",
+          "relative_path": "HorseRace/v_HorseRace_g25_c03.avi",
+          "class_id": "40",
+          "source_group_id": "HorseRace_g25"
+        },
+        {
+          "video_id": "v_Billiards_g11_c04",
+          "relative_path": "Billiards/v_Billiards_g11_c04.avi",
+          "class_id": "11",
+          "source_group_id": "Billiards_g11"
+        },
+        {
+          "video_id": "v_Billiards_g22_c03",
+          "relative_path": "Billiards/v_Billiards_g22_c03.avi",
+          "class_id": "11",
+          "source_group_id": "Billiards_g22"
+        },
+        {
+          "video_id": "v_Billiards_g19_c01",
+          "relative_path": "Billiards/v_Billiards_g19_c01.avi",
+          "class_id": "11",
+          "source_group_id": "Billiards_g19"
+        },
+        {
+          "video_id": "v_Billiards_g17_c04",
+          "relative_path": "Billiards/v_Billiards_g17_c04.avi",
+          "class_id": "11",
+          "source_group_id": "Billiards_g17"
+        },
+        {
+          "video_id": "v_Billiards_g08_c04",
+          "relative_path": "Billiards/v_Billiards_g08_c04.avi",
+          "class_id": "11",
+          "source_group_id": "Billiards_g08"
+        },
+        {
+          "video_id": "v_PlayingTabla_g17_c04",
+          "relative_path": "PlayingTabla/v_PlayingTabla_g17_c04.avi",
+          "class_id": "65",
+          "source_group_id": "PlayingTabla_g17"
+        },
+        {
+          "video_id": "v_PlayingTabla_g14_c03",
+          "relative_path": "PlayingTabla/v_PlayingTabla_g14_c03.avi",
+          "class_id": "65",
+          "source_group_id": "PlayingTabla_g14"
+        },
+        {
+          "video_id": "v_PlayingTabla_g09_c05",
+          "relative_path": "PlayingTabla/v_PlayingTabla_g09_c05.avi",
+          "class_id": "65",
+          "source_group_id": "PlayingTabla_g09"
+        },
+        {
+          "video_id": "v_PlayingTabla_g16_c04",
+          "relative_path": "PlayingTabla/v_PlayingTabla_g16_c04.avi",
+          "class_id": "65",
+          "source_group_id": "PlayingTabla_g16"
+        },
+        {
+          "video_id": "v_PlayingTabla_g25_c01",
+          "relative_path": "PlayingTabla/v_PlayingTabla_g25_c01.avi",
+          "class_id": "65",
+          "source_group_id": "PlayingTabla_g25"
+        },
+        {
+          "video_id": "v_Shotput_g22_c04",
+          "relative_path": "Shotput/v_Shotput_g22_c04.avi",
+          "class_id": "78",
+          "source_group_id": "Shotput_g22"
+        },
+        {
+          "video_id": "v_Shotput_g08_c04",
+          "relative_path": "Shotput/v_Shotput_g08_c04.avi",
+          "class_id": "78",
+          "source_group_id": "Shotput_g08"
+        },
+        {
+          "video_id": "v_Shotput_g19_c01",
+          "relative_path": "Shotput/v_Shotput_g19_c01.avi",
+          "class_id": "78",
+          "source_group_id": "Shotput_g19"
+        },
+        {
+          "video_id": "v_Shotput_g12_c07",
+          "relative_path": "Shotput/v_Shotput_g12_c07.avi",
+          "class_id": "78",
+          "source_group_id": "Shotput_g12"
+        },
+        {
+          "video_id": "v_Shotput_g10_c05",
+          "relative_path": "Shotput/v_Shotput_g10_c05.avi",
+          "class_id": "78",
+          "source_group_id": "Shotput_g10"
+        },
+        {
+          "video_id": "v_Basketball_g10_c03",
+          "relative_path": "Basketball/v_Basketball_g10_c03.avi",
+          "class_id": "7",
+          "source_group_id": "Basketball_g10"
+        },
+        {
+          "video_id": "v_Basketball_g11_c01",
+          "relative_path": "Basketball/v_Basketball_g11_c01.avi",
+          "class_id": "7",
+          "source_group_id": "Basketball_g11"
+        },
+        {
+          "video_id": "v_Basketball_g20_c01",
+          "relative_path": "Basketball/v_Basketball_g20_c01.avi",
+          "class_id": "7",
+          "source_group_id": "Basketball_g20"
+        },
+        {
+          "video_id": "v_Basketball_g19_c05",
+          "relative_path": "Basketball/v_Basketball_g19_c05.avi",
+          "class_id": "7",
+          "source_group_id": "Basketball_g19"
+        },
+        {
+          "video_id": "v_Basketball_g24_c02",
+          "relative_path": "Basketball/v_Basketball_g24_c02.avi",
+          "class_id": "7",
+          "source_group_id": "Basketball_g24"
+        }
+      ],
+      "exploration_validation": [
+        {
+          "video_id": "v_BreastStroke_g14_c03",
+          "relative_path": "BreastStroke/v_BreastStroke_g14_c03.avi",
+          "class_id": "18",
+          "source_group_id": "BreastStroke_g14"
+        },
+        {
+          "video_id": "v_JumpRope_g21_c01",
+          "relative_path": "JumpRope/v_JumpRope_g21_c01.avi",
+          "class_id": "47",
+          "source_group_id": "JumpRope_g21"
+        },
+        {
+          "video_id": "v_Swing_g09_c04",
+          "relative_path": "Swing/v_Swing_g09_c04.avi",
+          "class_id": "88",
+          "source_group_id": "Swing_g09"
+        },
+        {
+          "video_id": "v_TennisSwing_g17_c02",
+          "relative_path": "TennisSwing/v_TennisSwing_g17_c02.avi",
+          "class_id": "91",
+          "source_group_id": "TennisSwing_g17"
+        },
+        {
+          "video_id": "v_FloorGymnastics_g25_c01",
+          "relative_path": "FloorGymnastics/v_FloorGymnastics_g25_c01.avi",
+          "class_id": "29",
+          "source_group_id": "FloorGymnastics_g25"
+        },
+        {
+          "video_id": "v_Biking_g13_c01",
+          "relative_path": "Biking/v_Biking_g13_c01.avi",
+          "class_id": "10",
+          "source_group_id": "Biking_g13"
+        },
+        {
+          "video_id": "v_Archery_g20_c02",
+          "relative_path": "Archery/v_Archery_g20_c02.avi",
+          "class_id": "2",
+          "source_group_id": "Archery_g20"
+        },
+        {
+          "video_id": "v_YoYo_g17_c06",
+          "relative_path": "YoYo/v_YoYo_g17_c06.avi",
+          "class_id": "100",
+          "source_group_id": "YoYo_g17"
+        },
+        {
+          "video_id": "v_Bowling_g20_c02",
+          "relative_path": "Bowling/v_Bowling_g20_c02.avi",
+          "class_id": "15",
+          "source_group_id": "Bowling_g20"
+        },
+        {
+          "video_id": "v_HandStandPushups_g22_c04",
+          "relative_path": "HandstandPushups/v_HandStandPushups_g22_c04.avi",
+          "class_id": "36",
+          "source_group_id": "HandstandPushups_g22"
+        },
+        {
+          "video_id": "v_PommelHorse_g14_c03",
+          "relative_path": "PommelHorse/v_PommelHorse_g14_c03.avi",
+          "class_id": "68",
+          "source_group_id": "PommelHorse_g14"
+        },
+        {
+          "video_id": "v_IceDancing_g20_c03",
+          "relative_path": "IceDancing/v_IceDancing_g20_c03.avi",
+          "class_id": "43",
+          "source_group_id": "IceDancing_g20"
+        },
+        {
+          "video_id": "v_BlowDryHair_g16_c04",
+          "relative_path": "BlowDryHair/v_BlowDryHair_g16_c04.avi",
+          "class_id": "12",
+          "source_group_id": "BlowDryHair_g16"
+        },
+        {
+          "video_id": "v_HulaHoop_g17_c05",
+          "relative_path": "HulaHoop/v_HulaHoop_g17_c05.avi",
+          "class_id": "42",
+          "source_group_id": "HulaHoop_g17"
+        },
+        {
+          "video_id": "v_BoxingSpeedBag_g08_c02",
+          "relative_path": "BoxingSpeedBag/v_BoxingSpeedBag_g08_c02.avi",
+          "class_id": "17",
+          "source_group_id": "BoxingSpeedBag_g08"
+        },
+        {
+          "video_id": "v_HorseRace_g20_c05",
+          "relative_path": "HorseRace/v_HorseRace_g20_c05.avi",
+          "class_id": "40",
+          "source_group_id": "HorseRace_g20"
+        },
+        {
+          "video_id": "v_Billiards_g23_c04",
+          "relative_path": "Billiards/v_Billiards_g23_c04.avi",
+          "class_id": "11",
+          "source_group_id": "Billiards_g23"
+        },
+        {
+          "video_id": "v_PlayingTabla_g11_c03",
+          "relative_path": "PlayingTabla/v_PlayingTabla_g11_c03.avi",
+          "class_id": "65",
+          "source_group_id": "PlayingTabla_g11"
+        },
+        {
+          "video_id": "v_Shotput_g17_c03",
+          "relative_path": "Shotput/v_Shotput_g17_c03.avi",
+          "class_id": "78",
+          "source_group_id": "Shotput_g17"
+        },
+        {
+          "video_id": "v_Basketball_g09_c05",
+          "relative_path": "Basketball/v_Basketball_g09_c05.avi",
+          "class_id": "7",
+          "source_group_id": "Basketball_g09"
+        }
+      ],
+      "confirmation_validation": [
+        {
+          "video_id": "v_BreastStroke_g20_c03",
+          "relative_path": "BreastStroke/v_BreastStroke_g20_c03.avi",
+          "class_id": "18",
+          "source_group_id": "BreastStroke_g20"
+        },
+        {
+          "video_id": "v_JumpRope_g09_c06",
+          "relative_path": "JumpRope/v_JumpRope_g09_c06.avi",
+          "class_id": "47",
+          "source_group_id": "JumpRope_g09"
+        },
+        {
+          "video_id": "v_Swing_g10_c03",
+          "relative_path": "Swing/v_Swing_g10_c03.avi",
+          "class_id": "88",
+          "source_group_id": "Swing_g10"
+        },
+        {
+          "video_id": "v_TennisSwing_g18_c01",
+          "relative_path": "TennisSwing/v_TennisSwing_g18_c01.avi",
+          "class_id": "91",
+          "source_group_id": "TennisSwing_g18"
+        },
+        {
+          "video_id": "v_FloorGymnastics_g19_c04",
+          "relative_path": "FloorGymnastics/v_FloorGymnastics_g19_c04.avi",
+          "class_id": "29",
+          "source_group_id": "FloorGymnastics_g19"
+        },
+        {
+          "video_id": "v_Biking_g22_c03",
+          "relative_path": "Biking/v_Biking_g22_c03.avi",
+          "class_id": "10",
+          "source_group_id": "Biking_g22"
+        },
+        {
+          "video_id": "v_Archery_g25_c03",
+          "relative_path": "Archery/v_Archery_g25_c03.avi",
+          "class_id": "2",
+          "source_group_id": "Archery_g25"
+        },
+        {
+          "video_id": "v_YoYo_g22_c03",
+          "relative_path": "YoYo/v_YoYo_g22_c03.avi",
+          "class_id": "100",
+          "source_group_id": "YoYo_g22"
+        },
+        {
+          "video_id": "v_Bowling_g13_c06",
+          "relative_path": "Bowling/v_Bowling_g13_c06.avi",
+          "class_id": "15",
+          "source_group_id": "Bowling_g13"
+        },
+        {
+          "video_id": "v_HandStandPushups_g20_c05",
+          "relative_path": "HandstandPushups/v_HandStandPushups_g20_c05.avi",
+          "class_id": "36",
+          "source_group_id": "HandstandPushups_g20"
+        },
+        {
+          "video_id": "v_PommelHorse_g22_c01",
+          "relative_path": "PommelHorse/v_PommelHorse_g22_c01.avi",
+          "class_id": "68",
+          "source_group_id": "PommelHorse_g22"
+        },
+        {
+          "video_id": "v_IceDancing_g21_c04",
+          "relative_path": "IceDancing/v_IceDancing_g21_c04.avi",
+          "class_id": "43",
+          "source_group_id": "IceDancing_g21"
+        },
+        {
+          "video_id": "v_BlowDryHair_g19_c01",
+          "relative_path": "BlowDryHair/v_BlowDryHair_g19_c01.avi",
+          "class_id": "12",
+          "source_group_id": "BlowDryHair_g19"
+        },
+        {
+          "video_id": "v_HulaHoop_g15_c05",
+          "relative_path": "HulaHoop/v_HulaHoop_g15_c05.avi",
+          "class_id": "42",
+          "source_group_id": "HulaHoop_g15"
+        },
+        {
+          "video_id": "v_BoxingSpeedBag_g19_c01",
+          "relative_path": "BoxingSpeedBag/v_BoxingSpeedBag_g19_c01.avi",
+          "class_id": "17",
+          "source_group_id": "BoxingSpeedBag_g19"
+        },
+        {
+          "video_id": "v_HorseRace_g24_c03",
+          "relative_path": "HorseRace/v_HorseRace_g24_c03.avi",
+          "class_id": "40",
+          "source_group_id": "HorseRace_g24"
+        },
+        {
+          "video_id": "v_Billiards_g14_c06",
+          "relative_path": "Billiards/v_Billiards_g14_c06.avi",
+          "class_id": "11",
+          "source_group_id": "Billiards_g14"
+        },
+        {
+          "video_id": "v_PlayingTabla_g08_c03",
+          "relative_path": "PlayingTabla/v_PlayingTabla_g08_c03.avi",
+          "class_id": "65",
+          "source_group_id": "PlayingTabla_g08"
+        },
+        {
+          "video_id": "v_Shotput_g25_c01",
+          "relative_path": "Shotput/v_Shotput_g25_c01.avi",
+          "class_id": "78",
+          "source_group_id": "Shotput_g25"
+        },
+        {
+          "video_id": "v_Basketball_g21_c03",
+          "relative_path": "Basketball/v_Basketball_g21_c03.avi",
+          "class_id": "7",
+          "source_group_id": "Basketball_g21"
+        }
+      ],
+      "test": [
+        {
+          "video_id": "v_BreastStroke_g03_c03",
+          "relative_path": "BreastStroke/v_BreastStroke_g03_c03.avi",
+          "class_id": "18",
+          "source_group_id": "BreastStroke_g03"
+        },
+        {
+          "video_id": "v_BreastStroke_g04_c03",
+          "relative_path": "BreastStroke/v_BreastStroke_g04_c03.avi",
+          "class_id": "18",
+          "source_group_id": "BreastStroke_g04"
+        },
+        {
+          "video_id": "v_BreastStroke_g07_c04",
+          "relative_path": "BreastStroke/v_BreastStroke_g07_c04.avi",
+          "class_id": "18",
+          "source_group_id": "BreastStroke_g07"
+        },
+        {
+          "video_id": "v_JumpRope_g06_c05",
+          "relative_path": "JumpRope/v_JumpRope_g06_c05.avi",
+          "class_id": "47",
+          "source_group_id": "JumpRope_g06"
+        },
+        {
+          "video_id": "v_JumpRope_g03_c02",
+          "relative_path": "JumpRope/v_JumpRope_g03_c02.avi",
+          "class_id": "47",
+          "source_group_id": "JumpRope_g03"
+        },
+        {
+          "video_id": "v_JumpRope_g02_c02",
+          "relative_path": "JumpRope/v_JumpRope_g02_c02.avi",
+          "class_id": "47",
+          "source_group_id": "JumpRope_g02"
+        },
+        {
+          "video_id": "v_Swing_g05_c04",
+          "relative_path": "Swing/v_Swing_g05_c04.avi",
+          "class_id": "88",
+          "source_group_id": "Swing_g05"
+        },
+        {
+          "video_id": "v_Swing_g01_c05",
+          "relative_path": "Swing/v_Swing_g01_c05.avi",
+          "class_id": "88",
+          "source_group_id": "Swing_g01"
+        },
+        {
+          "video_id": "v_Swing_g06_c01",
+          "relative_path": "Swing/v_Swing_g06_c01.avi",
+          "class_id": "88",
+          "source_group_id": "Swing_g06"
+        },
+        {
+          "video_id": "v_TennisSwing_g03_c04",
+          "relative_path": "TennisSwing/v_TennisSwing_g03_c04.avi",
+          "class_id": "91",
+          "source_group_id": "TennisSwing_g03"
+        },
+        {
+          "video_id": "v_TennisSwing_g04_c04",
+          "relative_path": "TennisSwing/v_TennisSwing_g04_c04.avi",
+          "class_id": "91",
+          "source_group_id": "TennisSwing_g04"
+        },
+        {
+          "video_id": "v_TennisSwing_g02_c03",
+          "relative_path": "TennisSwing/v_TennisSwing_g02_c03.avi",
+          "class_id": "91",
+          "source_group_id": "TennisSwing_g02"
+        },
+        {
+          "video_id": "v_FloorGymnastics_g05_c02",
+          "relative_path": "FloorGymnastics/v_FloorGymnastics_g05_c02.avi",
+          "class_id": "29",
+          "source_group_id": "FloorGymnastics_g05"
+        },
+        {
+          "video_id": "v_FloorGymnastics_g04_c01",
+          "relative_path": "FloorGymnastics/v_FloorGymnastics_g04_c01.avi",
+          "class_id": "29",
+          "source_group_id": "FloorGymnastics_g04"
+        },
+        {
+          "video_id": "v_FloorGymnastics_g06_c05",
+          "relative_path": "FloorGymnastics/v_FloorGymnastics_g06_c05.avi",
+          "class_id": "29",
+          "source_group_id": "FloorGymnastics_g06"
+        },
+        {
+          "video_id": "v_Biking_g07_c01",
+          "relative_path": "Biking/v_Biking_g07_c01.avi",
+          "class_id": "10",
+          "source_group_id": "Biking_g07"
+        },
+        {
+          "video_id": "v_Biking_g04_c01",
+          "relative_path": "Biking/v_Biking_g04_c01.avi",
+          "class_id": "10",
+          "source_group_id": "Biking_g04"
+        },
+        {
+          "video_id": "v_Biking_g05_c04",
+          "relative_path": "Biking/v_Biking_g05_c04.avi",
+          "class_id": "10",
+          "source_group_id": "Biking_g05"
+        },
+        {
+          "video_id": "v_Archery_g07_c01",
+          "relative_path": "Archery/v_Archery_g07_c01.avi",
+          "class_id": "2",
+          "source_group_id": "Archery_g07"
+        },
+        {
+          "video_id": "v_Archery_g05_c05",
+          "relative_path": "Archery/v_Archery_g05_c05.avi",
+          "class_id": "2",
+          "source_group_id": "Archery_g05"
+        },
+        {
+          "video_id": "v_Archery_g01_c01",
+          "relative_path": "Archery/v_Archery_g01_c01.avi",
+          "class_id": "2",
+          "source_group_id": "Archery_g01"
+        },
+        {
+          "video_id": "v_YoYo_g07_c04",
+          "relative_path": "YoYo/v_YoYo_g07_c04.avi",
+          "class_id": "100",
+          "source_group_id": "YoYo_g07"
+        },
+        {
+          "video_id": "v_YoYo_g03_c05",
+          "relative_path": "YoYo/v_YoYo_g03_c05.avi",
+          "class_id": "100",
+          "source_group_id": "YoYo_g03"
+        },
+        {
+          "video_id": "v_YoYo_g06_c04",
+          "relative_path": "YoYo/v_YoYo_g06_c04.avi",
+          "class_id": "100",
+          "source_group_id": "YoYo_g06"
+        },
+        {
+          "video_id": "v_Bowling_g03_c01",
+          "relative_path": "Bowling/v_Bowling_g03_c01.avi",
+          "class_id": "15",
+          "source_group_id": "Bowling_g03"
+        },
+        {
+          "video_id": "v_Bowling_g01_c03",
+          "relative_path": "Bowling/v_Bowling_g01_c03.avi",
+          "class_id": "15",
+          "source_group_id": "Bowling_g01"
+        },
+        {
+          "video_id": "v_Bowling_g06_c02",
+          "relative_path": "Bowling/v_Bowling_g06_c02.avi",
+          "class_id": "15",
+          "source_group_id": "Bowling_g06"
+        },
+        {
+          "video_id": "v_HandStandPushups_g04_c04",
+          "relative_path": "HandstandPushups/v_HandStandPushups_g04_c04.avi",
+          "class_id": "36",
+          "source_group_id": "HandstandPushups_g04"
+        },
+        {
+          "video_id": "v_HandStandPushups_g01_c01",
+          "relative_path": "HandstandPushups/v_HandStandPushups_g01_c01.avi",
+          "class_id": "36",
+          "source_group_id": "HandstandPushups_g01"
+        },
+        {
+          "video_id": "v_HandStandPushups_g06_c02",
+          "relative_path": "HandstandPushups/v_HandStandPushups_g06_c02.avi",
+          "class_id": "36",
+          "source_group_id": "HandstandPushups_g06"
+        },
+        {
+          "video_id": "v_PommelHorse_g02_c03",
+          "relative_path": "PommelHorse/v_PommelHorse_g02_c03.avi",
+          "class_id": "68",
+          "source_group_id": "PommelHorse_g02"
+        },
+        {
+          "video_id": "v_PommelHorse_g07_c06",
+          "relative_path": "PommelHorse/v_PommelHorse_g07_c06.avi",
+          "class_id": "68",
+          "source_group_id": "PommelHorse_g07"
+        },
+        {
+          "video_id": "v_PommelHorse_g06_c01",
+          "relative_path": "PommelHorse/v_PommelHorse_g06_c01.avi",
+          "class_id": "68",
+          "source_group_id": "PommelHorse_g06"
+        },
+        {
+          "video_id": "v_IceDancing_g03_c02",
+          "relative_path": "IceDancing/v_IceDancing_g03_c02.avi",
+          "class_id": "43",
+          "source_group_id": "IceDancing_g03"
+        },
+        {
+          "video_id": "v_IceDancing_g01_c06",
+          "relative_path": "IceDancing/v_IceDancing_g01_c06.avi",
+          "class_id": "43",
+          "source_group_id": "IceDancing_g01"
+        },
+        {
+          "video_id": "v_IceDancing_g06_c04",
+          "relative_path": "IceDancing/v_IceDancing_g06_c04.avi",
+          "class_id": "43",
+          "source_group_id": "IceDancing_g06"
+        },
+        {
+          "video_id": "v_BlowDryHair_g05_c03",
+          "relative_path": "BlowDryHair/v_BlowDryHair_g05_c03.avi",
+          "class_id": "12",
+          "source_group_id": "BlowDryHair_g05"
+        },
+        {
+          "video_id": "v_BlowDryHair_g07_c05",
+          "relative_path": "BlowDryHair/v_BlowDryHair_g07_c05.avi",
+          "class_id": "12",
+          "source_group_id": "BlowDryHair_g07"
+        },
+        {
+          "video_id": "v_BlowDryHair_g03_c01",
+          "relative_path": "BlowDryHair/v_BlowDryHair_g03_c01.avi",
+          "class_id": "12",
+          "source_group_id": "BlowDryHair_g03"
+        },
+        {
+          "video_id": "v_HulaHoop_g01_c02",
+          "relative_path": "HulaHoop/v_HulaHoop_g01_c02.avi",
+          "class_id": "42",
+          "source_group_id": "HulaHoop_g01"
+        },
+        {
+          "video_id": "v_HulaHoop_g03_c02",
+          "relative_path": "HulaHoop/v_HulaHoop_g03_c02.avi",
+          "class_id": "42",
+          "source_group_id": "HulaHoop_g03"
+        },
+        {
+          "video_id": "v_HulaHoop_g05_c03",
+          "relative_path": "HulaHoop/v_HulaHoop_g05_c03.avi",
+          "class_id": "42",
+          "source_group_id": "HulaHoop_g05"
+        },
+        {
+          "video_id": "v_BoxingSpeedBag_g01_c01",
+          "relative_path": "BoxingSpeedBag/v_BoxingSpeedBag_g01_c01.avi",
+          "class_id": "17",
+          "source_group_id": "BoxingSpeedBag_g01"
+        },
+        {
+          "video_id": "v_BoxingSpeedBag_g05_c05",
+          "relative_path": "BoxingSpeedBag/v_BoxingSpeedBag_g05_c05.avi",
+          "class_id": "17",
+          "source_group_id": "BoxingSpeedBag_g05"
+        },
+        {
+          "video_id": "v_BoxingSpeedBag_g04_c01",
+          "relative_path": "BoxingSpeedBag/v_BoxingSpeedBag_g04_c01.avi",
+          "class_id": "17",
+          "source_group_id": "BoxingSpeedBag_g04"
+        },
+        {
+          "video_id": "v_HorseRace_g05_c04",
+          "relative_path": "HorseRace/v_HorseRace_g05_c04.avi",
+          "class_id": "40",
+          "source_group_id": "HorseRace_g05"
+        },
+        {
+          "video_id": "v_HorseRace_g06_c04",
+          "relative_path": "HorseRace/v_HorseRace_g06_c04.avi",
+          "class_id": "40",
+          "source_group_id": "HorseRace_g06"
+        },
+        {
+          "video_id": "v_HorseRace_g04_c01",
+          "relative_path": "HorseRace/v_HorseRace_g04_c01.avi",
+          "class_id": "40",
+          "source_group_id": "HorseRace_g04"
+        },
+        {
+          "video_id": "v_Billiards_g05_c04",
+          "relative_path": "Billiards/v_Billiards_g05_c04.avi",
+          "class_id": "11",
+          "source_group_id": "Billiards_g05"
+        },
+        {
+          "video_id": "v_Billiards_g07_c04",
+          "relative_path": "Billiards/v_Billiards_g07_c04.avi",
+          "class_id": "11",
+          "source_group_id": "Billiards_g07"
+        },
+        {
+          "video_id": "v_Billiards_g05_c03",
+          "relative_path": "Billiards/v_Billiards_g05_c03.avi",
+          "class_id": "11",
+          "source_group_id": "Billiards_g05"
+        },
+        {
+          "video_id": "v_PlayingTabla_g07_c01",
+          "relative_path": "PlayingTabla/v_PlayingTabla_g07_c01.avi",
+          "class_id": "65",
+          "source_group_id": "PlayingTabla_g07"
+        },
+        {
+          "video_id": "v_PlayingTabla_g05_c03",
+          "relative_path": "PlayingTabla/v_PlayingTabla_g05_c03.avi",
+          "class_id": "65",
+          "source_group_id": "PlayingTabla_g05"
+        },
+        {
+          "video_id": "v_PlayingTabla_g03_c05",
+          "relative_path": "PlayingTabla/v_PlayingTabla_g03_c05.avi",
+          "class_id": "65",
+          "source_group_id": "PlayingTabla_g03"
+        },
+        {
+          "video_id": "v_Shotput_g02_c03",
+          "relative_path": "Shotput/v_Shotput_g02_c03.avi",
+          "class_id": "78",
+          "source_group_id": "Shotput_g02"
+        },
+        {
+          "video_id": "v_Shotput_g04_c05",
+          "relative_path": "Shotput/v_Shotput_g04_c05.avi",
+          "class_id": "78",
+          "source_group_id": "Shotput_g04"
+        },
+        {
+          "video_id": "v_Shotput_g05_c07",
+          "relative_path": "Shotput/v_Shotput_g05_c07.avi",
+          "class_id": "78",
+          "source_group_id": "Shotput_g05"
+        },
+        {
+          "video_id": "v_Basketball_g07_c03",
+          "relative_path": "Basketball/v_Basketball_g07_c03.avi",
+          "class_id": "7",
+          "source_group_id": "Basketball_g07"
+        },
+        {
+          "video_id": "v_Basketball_g04_c02",
+          "relative_path": "Basketball/v_Basketball_g04_c02.avi",
+          "class_id": "7",
+          "source_group_id": "Basketball_g04"
+        },
+        {
+          "video_id": "v_Basketball_g02_c03",
+          "relative_path": "Basketball/v_Basketball_g02_c03.avi",
+          "class_id": "7",
+          "source_group_id": "Basketball_g02"
+        }
+      ]
+    },
+    "video_content_checked": false,
+    "test_pixels_or_outcomes_accessed": false
+  },
+  "limitations": [
+    "Aggregate runtimes extrapolate five updates and one-clip attacks on RTX 5090.",
+    "PGD50 and calibration estimates are proxies; essential missing costs are null.",
+    "Eight untimed GPU hours are an allowance, not evidence those tasks fit.",
+    "Historical $1.20/hour is an assumption, not a live quote or tax-inclusive guarantee.",
+    "$0.592 is user-reported session cost; the full $10 pilot reserve includes it.",
+    "Proposal changes data scope, update count and evaluation; original study is preserved.",
+    "Metadata separation is verified; video corruption/content duplication remains unchecked."
+  ]
+}
