@@ -1,7 +1,8 @@
 # Scientific acceptance tests
 
-The full local suite now has **95 passing tests**, including 29 new
-training/resume and prepared-input checks. Six interrupted/uninterrupted
+The full local suite now has **144 passing tests**, including the earlier 29
+training/input checks and 49 new staged-data, native-evaluation, recovery,
+anchor-loading, and primary-selection checks. Six interrupted/uninterrupted
 comparisons cover clean and adversarial trajectories on small pinned upstream
 models. Weights, optimizer state, histories, and RNG match exactly on CPU.
 Failure tests cover partial updates, failed commits, low disk space,
@@ -10,7 +11,7 @@ mask sampler matches the existing upstream sampling path.
 
 Existing checks cover native-loss/gradient agreement, pixel attacks, grouped
 splits, FFmpeg decoding, equivalent patch projection, pilots, and both cost
-proposals. No test failed or skipped in the October 20 run; 35 FutureWarnings
+proposals. No test failed or skipped in the October 20 run; 54 FutureWarnings
 come from upstream deprecated imports/SDPA APIs. Run
 `python -m pytest -q tests --upstream external/vjepa2` after
 [local setup](../docs/smoke_test.md).
@@ -18,8 +19,10 @@ come from upstream deprecated imports/SDPA APIs. Run
 GitHub CI currently checks only scaffold and syntax. Separate pretrained
 CPU/MPS/CUDA diagnostic reports do not establish GPU resume equivalence for
 the new runner. See [training and recovery](../docs/training_runner.md).
-Full data integrity, stronger attack convergence, GPU resume, and research
-selection/evaluation remain pending. Add tests alongside the
+Exploration clips pass deterministic decoding and exact-duplicate checks; the
+primary-selection core is tested. Near-duplicate review, full-model convergence,
+GPU resume, probes/calibration, and research orchestration remain pending. See
+[the new evaluation evidence](../docs/staged_data_and_evaluation.md). Add tests alongside the
 corresponding implementation, including:
 
 - Pixel-space perturbation bounds, clipping, and zero-epsilon equivalence.

@@ -1,12 +1,12 @@
 # Training and checkpoint recovery
 
 October 20, 2026. The FP32 training core and a bounded diagnostic command are
-implemented. **Full research execution remains pending**: primary evaluation,
-checkpoint selection, validated staged manifests, and end-to-end budget
-admission are not implemented by this command.
+implemented. **Full research execution remains pending**: the staged evaluation/selection core and exploration data now have separate
+[implementation evidence](staged_data_and_evaluation.md), but epoch orchestration,
+full-model recovery validation, and end-to-end budget admission remain pending.
 
-The full local suite passes **95 tests**, including 29 new training/input
-checks. Small models built from the pinned upstream JEPA implementation
+The training-core verification recorded **95 passing tests**, including 29
+new training/input checks; the later data/evaluation suite now has 144. Small models built from the pinned upstream JEPA implementation
 produce exactly matching CPU model weights, optimizer moments, histories,
 and random states after interruption and resume. Both clean and adversarial
 conditions were checked at three interruption points, spanning warmup,
@@ -142,6 +142,7 @@ checkpoint writes can overrun that limit. Neither this limit nor a completed
 Python process stops a cloud Pod or its billing. The later launch workflow
 must handle instance shutdown and verified artifact export separately.
 
-Next: export and validate the staged data, implement the strong evaluation
-and selection pipeline, then measure the missing work before admitting an
-exploratory trajectory. No research protocol was frozen by adding this runner.
+The staged training/exploration clips and native evaluation/selection core are
+now checked separately. Next: fixed probes and calibration records, epoch
+evaluation orchestration, then full-model recovery and missing-cost measurement
+before an exploratory trajectory. No research protocol has been frozen.

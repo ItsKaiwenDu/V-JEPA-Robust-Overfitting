@@ -8,9 +8,10 @@ a focused report by day 21, with days 22-27 reserved for review and repairs.
 
 The [staged proposal](docs/budget_study_plan.md) is the current candidate for
 the $200 limit. The original broad milestones below are retained as context;
-they are not all included in this smaller scope. The training/resume core now passes local CPU tests. Next: export and validate
-the staged subsets, integrate primary evaluation, and measure missing costs
-before an exploratory pair. Confirmation and broader extensions are conditional.
+they are not all included in this smaller scope. The training, resume, native evaluation, and selection cores pass local tests;
+staged manifests and 120 training/exploration clips are prepared. Next: probes,
+calibration records, and epoch orchestration, then full-model GPU recovery and
+missing-cost measurements before an exploratory pair. Confirmation and broader extensions are conditional.
 
 ## Repository setup
 
@@ -31,7 +32,10 @@ before an exploratory pair. Confirmation and broader extensions are conditional.
 - [x] Draft a staged budget proposal with separate exploration/confirmation panels.
 - [ ] Admit a measured monitoring schedule and backend within the budget.
 - [x] Implement the FP32 training/resume core and atomic checkpoint retention; verify interrupted CPU trajectories.
-- [ ] Validate full-model GPU resume and integrate primary evaluation before research execution.
+- [x] Export staged identities and verify training/exploration preparation; leave confirmation/test pixels unopened.
+- [x] Implement and test native evaluation recovery, saved anchors, and provisional primary selection.
+- [ ] Add fixed probes, calibration records, and epoch orchestration.
+- [ ] Validate full-model GPU resume and integrated evaluation before research execution.
 - [x] Pin upstream source and implement the adapter and local CPU correctness tests.
 - [x] Audit full ViT-L tensor names/shapes against official checkpoint metadata.
 - [x] Pin and load the official V-JEPA 2 model and predictor with verified weights on CPU.

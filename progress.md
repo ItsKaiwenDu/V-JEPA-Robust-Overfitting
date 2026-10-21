@@ -1,5 +1,41 @@
 # Research Progress Reports
 
+## 2026-10-20 — Staged exploration data and native evaluation checks
+
+Verified user commit `a22c2b9` and began from a clean working tree. Exported the
+proposed subset to separate manifests without changing the parent data/config.
+Extracted only 100 training and 20 exploration-validation sources from the
+verified archive. All 120 clips produced exactly identical pixels and metadata
+on a second decode, and saved pixels passed identity/range/checksum verification.
+No duplicate source/pixel hashes were found; near-duplicate review remains
+pending. Confirmation/test pixels were not extracted, decoded, or evaluated.
+[Data evidence](report/checks/2026-10-20-staged-data-preparation.json).
+
+Implemented native routine/primary/convergence evaluation, random/FGSM controls,
+independent scoring-bank audits, atomic per-clip recovery, verified anchor
+loading, and provisional primary-validation selection. Model/RNG restoration
+and strict checkpoint/data/settings binding prevent evaluation from contaminating
+training or reusing stale checkpoint results. The diagnostic CLI is limited to
+one or two training-monitor clips; full epoch orchestration remains pending.
+
+**Verification:** 144 tests passed, with no failures/skips and 54 upstream
+FutureWarnings. The 49 new checks include real small upstream transformers,
+interruption recovery, scoring-bank separation, changed/corrupted inputs,
+anchor loading, and selection rejection cases. Full pretrained/GPU execution
+of the new evaluation command was not performed.
+[Evaluation evidence](report/checks/2026-10-20-evaluation-checks.json).
+
+Rebuilt the cleared temporary Python environment in the ignored local `.venv`
+with the same pinned scientific versions; the current complete package set is
+recorded. No new paid compute, cloud instance, research trajectory, commit, or
+push was performed. Prior pilot reports and scientific source hashes remain
+unchanged. The $0.592 user-reported spend and $200 cap are unchanged.
+
+**Next:** fixed clean probes/feature diagnostics, training-only calibration
+records, and epoch evaluation orchestration. Then validate full-model GPU
+recovery and time missing costs before admitting the exploratory pair. No
+user action is needed for the remaining local implementation.
+
 ## 2026-10-20 — Resumable FP32 training core and recovery tests
 
 Implemented the [training runner and recovery workflow](docs/training_runner.md).

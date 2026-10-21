@@ -20,7 +20,8 @@ data/attack code. The full released weights also passed the native-loss
 CPU and MPS checks. [pilot.py](pilot.py) contains the effective-batch update;
 [runtime.py](runtime.py) provides explicit device access, synchronized GPU
 timing, and clearly labeled CUDA peak/MPS sampled memory observations.
-CUDA execution remains untested.
+The October 19 RTX 5090 diagnostic pilot passed; new full-model recovery and
+evaluation validation remain pending.
 See [the guide](../docs/smoke_test.md).
 
 [patch_embed.py](patch_embed.py) provides an explicit equivalent linear
@@ -42,3 +43,9 @@ not a substitute for verifying the full prediction path.
 mask sampler. `checkpointing.py` commits checksummed resume states atomically
 and retains two generations plus anchor weights. See the
 [runner guide](../docs/training_runner.md) for evidence and limits.
+
+`evaluation.py` generates fresh native attacks with independent scoring masks.
+`evaluation_store.py` preserves per-clip progress and selects only from complete
+primary-validation anchors. `evaluation_checkpoint.py` verifies saved training
+anchors while preserving the fixed target. See
+[staged data and evaluation](../docs/staged_data_and_evaluation.md).

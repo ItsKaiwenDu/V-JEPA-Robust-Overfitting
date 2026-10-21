@@ -30,6 +30,10 @@ Before freezing manifests:
 Any later change creates a new protocol/manifest version. Keep per-machine
 path maps in `*.local.*` files, which are ignored.
 
-The October 20 [staged proposal](../../docs/budget_study_plan.md) records
-metadata-only candidate rows in its linked projection JSON. The original CSVs
-remain unchanged. Candidate rows are not content-validated or frozen manifests.
+The October 20 [staged proposal](../../docs/budget_study_plan.md) is exported
+in `ucf101-staged-20x5-v1/`, with seed 20261020 and exact replay against the
+proposal. Original CSVs remain unchanged. All 100 training and 20 exploration
+clips passed deterministic re-decoding and exact-hash duplicate checks; the
+20-clip monitor reuses training pixels. Confirmation/test metadata is present,
+but their pixels remain unopened. Near-duplicate review and protocol freezing
+are pending. See [staged preparation](../../docs/staged_data_and_evaluation.md).

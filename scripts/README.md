@@ -30,8 +30,8 @@ pretrained attack sanity check. See [data and attacks](../docs/data_and_attacks.
 `check_mps.py` compares CPU and Apple GPU losses, targets, input gradients,
 and selected parameter gradients on one real clip. `check_patch_embedding.py`
 isolates the original and equivalent linear projection on MPS. `pilot.py` supports
-explicit `--device cuda` (default) and `--device mps` timing. CUDA execution
-remains untested. See [the CUDA guide](../docs/gpu_pilot.md) and
+explicit `--device cuda` (default) and `--device mps` timing. The October 19 RTX 5090 pilot passed; the new recovery/evaluation commands
+still need full-model GPU validation. See [the CUDA guide](../docs/gpu_pilot.md) and
 [Mac guide](../docs/mac_pilot.md).
 
 `estimate_compute.py` reads the separate compute proposal and existing Mac
@@ -44,8 +44,6 @@ timing proxies stay labeled, and no estimate authorizes spending. See the
 
 | Name | Responsibility |
 | --- | --- |
-| `train.py` | Matched clean/adversarial native-loss fine-tuning |
-| `evaluate.py` | Native-loss, attack-transfer, and downstream evaluation |
 | `run_report_checks.py` | Gradient, projection, masking, and attack-strength diagnostics |
 | `plot_results.py` | Per-seed curves, aggregate figures, and gap summaries |
 
@@ -62,3 +60,9 @@ metadata-only proposed subset audit without a GPU or network. See the
 It requires verified training clips and a fresh output directory. See
 [training and recovery](../docs/training_runner.md); full research execution
 remains gated on evaluation, data validation, and measured cost.
+
+`export_staged_manifests.py` replays and exports the proposed identities.
+`prepare_staged_clips.py` extracts only training/exploration sources and verifies
+two decodes. `evaluate.py` supports bounded native-attack checks, saved anchors,
+and atomic per-clip recovery. Full research orchestration and downstream probes
+remain pending. See [staged data and evaluation](../docs/staged_data_and_evaluation.md).

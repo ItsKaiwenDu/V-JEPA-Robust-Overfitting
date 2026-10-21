@@ -188,3 +188,24 @@ Reason and evidence:
 Affected runs:
 Effect on comparison/claims:
 ```
+
+## 2026-10-20 — Staged exports and native evaluation contract
+
+Export the proposed 20-class identities separately, retaining the original
+protocol/config and parent manifests. Prepare only the 100 actual training and
+20 exploration clips now; confirmation/test pixels remain closed. Two decodes
+and saved-cache reloads passed for all 120 clips, without exact hash duplicates.
+Near-duplicate review and full protocol freezing remain pending.
+
+Fix evaluation seed serialization explicitly: compact JSON, SHA-256 first
+eight bytes modulo 2**63, then modulo 2**31-1 for the upstream signed counter.
+Use one fixed attack bank across restarts, independent scoring banks, and fresh
+perturbations at every checkpoint. Preserve training modes/RNG around evaluation.
+Primary selection requires all declared validation anchors including initialization,
+with earliest exact ties; routine PGD and test results cannot choose a checkpoint.
+
+These are implementation details of the staged proposal, not a new admitted
+study or changes to the historical pilot. The new CLI remains bounded and
+diagnostic. Record them in the eventual frozen configuration after calibration,
+full-model validation, and measured budget checks. See
+[staged data and evaluation](staged_data_and_evaluation.md).
