@@ -1,5 +1,79 @@
 # Research Progress Reports
 
+## 2026-10-21 — Bounded component profiler prepared
+
+Implemented a synthetic component diagnostic using pinned upstream patch
+embedding, masking, and rotary attention, plus isolated SDPA and predictor
+sorting cases. Twelve cases use representative dimensions and one declared
+primary-attack mask draw. Two fresh workers per default/strict policy compare
+identical operands and observed output/input-gradient replay. Optional parameter
+gradients do not construct an optimizer or alter the scientific implementation.
+
+The detached university launcher verifies a source-only handoff and uses the
+existing environment/upstream. Bounds are 20 seconds per worker, 480 seconds
+for the diagnostic, and a 540-second external supervisor. A 4 GiB CUDA allocator
+limit is explicit and does not guarantee physical-device usage. Atomic progress,
+forward/backward stages, worker hashes, and optional operator tables preserve
+partial/error/timeout evidence. Incomplete coverage returns nonzero and cannot
+pass replay. No CUDA fallback, dependency install, model weights, or data pixels
+are used by this handoff.
+
+**Verification:** the complete local suite passed **248 tests**, with one
+actual-CUDA skip and 85 upstream warnings in 84.47 seconds, on Python 3.11.16 /
+CPU PyTorch 2.14.1. The 24 new tests cover independent gradients, representative
+mask shapes, real process-group timeout cleanup, incompatible/tampered results,
+precision/source matching, fresh processes, and optional profiling. This is
+local fixture evidence; the new CUDA profile is not run or validated yet.
+
+**Next user action:** copy the small prepared archive to the existing university
+Desktop research directory and run its detached launcher. See the
+[component guide](docs/cuda_component_profile.md). Diagnose the actual slow
+operation before proposing an equivalent optimization or another rental.
+Full-model recovery, research calibration/admission, and results remain pending.
+Reported spending stays $1.195. No new paid compute, commit, or push. The final source-only archive is 19,275
+bytes; all eight source-member hashes, shared-home alias verification, and
+source-tamper rejection passed. Its restored CLI completed all 48 fresh CPU
+fixture workers with observed strict replay on all 12 cases in 60.11 seconds.
+[Preparation evidence](report/checks/2026-10-21-cuda-component-preparation.json).
+
+## 2026-10-21 — CUDA replay failure, runtime repair, and cost blocker
+
+Executed the bounded workflow diagnostic from milestone `4576aec` on the
+user-launched RTX 5090. Offline restoration, environment checks, the released
+checkpoint hash, and all 219 original tests passed. Calibration and initial
+features completed. The full-model clean split/resume and uninterrupted
+trajectories completed two updates each, but their exact comparison failed.
+Contracts, RNG, and target matched; learned weights, optimizer moments, and
+metrics differed. Starting-checkpoint attacks already differed before restore.
+
+Added explicit strict CUDA determinism before initialization in each process,
+binding warning mode and cuBLAS workspace to runtime provenance. Precision
+flags and exact comparison criteria were preserved. All **225 tests passed**
+on the Pod, including independent-process small CUDA gradient/update replay.
+Local targeted checks passed 28 with one CUDA-only skip. A fresh full-model
+retry completed one calibration candidate in 1,261.208 seconds versus 78.769
+seconds under the original runtime: 16.011x. Stopped it during the second
+candidate after 2,444.721 seconds to preserve the session budget. Full-model
+recovery, adversarial trajectories, trained features, and stronger controls
+remain unvalidated or unreached. The specific slow operation is not established.
+
+Both evidence archives and all 42/15 member hashes passed local verification.
+The user was asked to Stop the Pod; subsequent SSH returned connection refused.
+After the delayed console update, the user corrected today's session charge
+from $0.501 to **$0.603**, bringing reported spending to **$1.195**. This is a
+user-reported ledger update, not independent billing API/invoice verification.
+The session reservation is released against that corrected total; $8.805 remains
+in the $10 pilot reserve. The user confirmed Pod termination after evidence
+verification; its diagnostic checkpoints and volume were not retained. [Outcome and limits](report/checks/2026-10-21-cuda-workflow.md),
+[structured evidence](report/checks/2026-10-21-cuda-workflow.json).
+
+**Next:** isolate representative CUDA forward/backward costs and validate any
+equivalent optimization before another rental. The small replay test alone
+did not predict full-model cost. Near-duplicate review, novelty refresh,
+ten-clip calibration, protocol freeze, and full budget admission still precede
+research runs. No confirmation/test pixels opened; no robust-overfitting result,
+commit, or push was produced in this step.
+
 ## 2026-10-21 — Bounded CUDA workflow handoff
 
 Continued from committed milestone `2e04959` with a clean working tree.

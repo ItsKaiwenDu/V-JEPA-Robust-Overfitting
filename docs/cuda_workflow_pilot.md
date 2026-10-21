@@ -5,6 +5,40 @@ handoff, not permission to run the proposed research study. The earlier
 [October 19 handoff](cloud_pilot_handoff.md) measures a different workflow and
 must not be substituted for this one.
 
+## Execution outcome and next gate
+
+The [bounded component profiler](cuda_component_profile.md) is now prepared for
+the university GPU. Its local fixtures pass; new CUDA execution is pending.
+
+The [October 21 outcome report](../report/checks/2026-10-21-cuda-workflow.md)
+records both attempts and verified exports. The original run failed exact
+clean recovery. The strict retry completed one primary calibration candidate
+in 21.02 minutes, 16.011 times the original candidate, then was stopped during
+the second candidate to preserve the session budget. It never reached training.
+The specific slow operation remains unknown. The 225-test suite passes on the
+Pod, including small CUDA replay; full-model replay remains unvalidated.
+
+Do not repeat this entire handoff based on those small tests alone. First
+profile representative deterministic forward/backward operations, validate any
+proposed equivalent optimization, and use those measured bounds to size the
+next explicitly selected diagnostic. Existing archives remain historical.
+
+## October 21 runtime repair
+
+The first CUDA execution failed its exact clean recovery comparison. Starting
+model attacks also differed across fresh processes with identical weights and
+seeds. The recorded runtime had deterministic algorithms disabled. Preserve
+this failure; see the [decision record](decisions.md).
+
+The current runner explicitly configures deterministic CUDA kernels before
+initialization in parent and worker processes. Its cuBLAS workspace is
+`:4096:8`, cuDNN benchmarking is off, and nondeterministic operations raise
+errors. Precision flags are unchanged and remain recorded. Old checkpoint
+contracts are incompatible with the repaired runtime. The original prepared
+archive is historical; a retry must include the checksummed repair overlay
+and use a new output, calibration, and evidence archive. A passing replay is
+still required; enabling these flags alone is not evidence of recovery.
+
 ## Scope and acceptance
 
 The [runner](../scripts/run_workflow_pilot.py) uses eight existing training clips

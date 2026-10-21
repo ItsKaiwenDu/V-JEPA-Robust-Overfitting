@@ -1,8 +1,11 @@
 # Feature probes, calibration, and scheduled recovery
 
-The next step is the [bounded CUDA workflow handoff](cuda_workflow_pilot.md),
-which reuses these implementations and compares full-model recovery before
-research admission. Its preparation does not constitute a CUDA pass.
+The [October 21 CUDA workflow outcome](../report/checks/2026-10-21-cuda-workflow.md)
+records a failed exact full-model recovery comparison and a strict deterministic
+retry stopped for excessive runtime. Small CUDA replay passes; full-model
+recovery remains unvalidated. Profile representative deterministic operations
+before another rental. The [workflow guide](cuda_workflow_pilot.md) describes
+the preserved handoff and explicit runtime policy.
 
 October 20, 2026. These components implement the next local diagnostic milestone.
 They do not admit the proposed study or open confirmation/test data. The original

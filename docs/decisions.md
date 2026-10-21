@@ -236,3 +236,26 @@ feature check; full-model CUDA recovery/calibration remains pending. Record
 these conventions in the eventual frozen configuration after validation and
 cost admission. Preserve existing configuration hashes and prior evidence.
 See [workflow diagnostics](workflow_diagnostics.md).
+
+## 2026-10-21 — Strict CUDA replay after a failed recovery pilot
+
+The first full-model workflow pilot stopped at the clean recovery comparison.
+Its run contracts, RNG states, and fixed target matched, but learned weights,
+optimizer moments, and evaluation losses did not. Independent attacks already
+differed at the identical pretrained checkpoint, before any restoration.
+The recorded runtime had deterministic algorithms and cuDNN determinism disabled.
+This supports a kernel nondeterminism diagnosis; a repaired full-model replay
+must establish the outcome rather than relaxing comparison tolerances.
+
+The CUDA workflow runner now enables strict deterministic algorithms (errors,
+not warnings), disables cuDNN benchmarking, enables cuDNN determinism, and sets
+`CUBLAS_WORKSPACE_CONFIG=:4096:8` before CUDA initialization in every process.
+It rejects conflicting configuration or late initialization. Precision flags,
+model architecture, attacks, masks, and optimizer settings remain unchanged.
+The runtime contract also binds deterministic warning mode and cuBLAS workspace
+configuration. This follows [PyTorch's reproducibility guidance](https://docs.pytorch.org/docs/2.8/notes/randomness.html).
+
+Preserve the failed run and original handoff. Transfer repairs as a separate
+checksummed overlay, use a fresh output and calibration, and measure the new
+runtime separately. No previous calibration, checkpoint, or timing is silently
+promoted into this retry. Full-study configuration and admission remain pending.

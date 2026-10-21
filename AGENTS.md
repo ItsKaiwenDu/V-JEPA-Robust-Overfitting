@@ -7,12 +7,20 @@ docs/workflow_diagnostics.md before adding research code. Do not describe
 planned entry points, unrun experiments, or proposed results as implemented
 or verified. Keep progress.md factual.
 
-Pretrained hardware pilots and staged training/exploration data preparation
-have passed. The local suite has 219 passing tests. Clean pretrained features also passed on eight training clips.
-The bounded CUDA workflow handoff is prepared; read docs/cuda_workflow_pilot.md
-before using it. Full-model CUDA workflow recovery,
-research calibration, measured budget admission, and research results remain
-pending. Confirmation/test pixels remain closed. No cloud rental is automatic.
+Pretrained hardware feasibility and staged data preparation passed. The repaired
+suite passes 225 tests on the CUDA host, including small independent-process
+CUDA replay. The full-model workflow pilot failed exact clean recovery. Its
+strict deterministic retry was stopped after a primary attack took 16x longer;
+full-model recovery is still unvalidated. Read
+report/checks/2026-10-21-cuda-workflow.md and docs/cuda_workflow_pilot.md.
+Both evidence exports are verified locally; the user confirmed Pod termination.
+Reported spending is $1.195 after the corrected $0.603 session charge.
+The component profiler handoff is prepared; read docs/cuda_component_profile.md.
+Latest local suite: 248 passed, one actual-CUDA skip. University CUDA execution
+of the new profiler remains pending. Profile representative deterministic
+operations before another rental. Research calibration, measured budget admission, and research
+results remain pending. Confirmation/test pixels remain closed.
+No cloud rental is automatic.
 
 ## Research scope
 

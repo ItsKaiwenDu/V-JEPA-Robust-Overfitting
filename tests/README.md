@@ -1,7 +1,15 @@
 # Scientific acceptance tests
 
-The full local suite now has **219 passing tests**, with no failures/skips and
-81 upstream FutureWarnings. The preceding 53 additions check fixed ridge probes
+The latest local suite passes **248 tests with one actual-CUDA skip** and 85
+upstream warnings. This includes 24 component-profiler checks: independent
+gradients, representative masks, actual subprocess/descendant timeouts, rejected
+tampered evidence and changed precision/source, fresh-process fixture replay,
+and optional profiler tables. New university CUDA profiling remains pending.
+
+The repaired suite has **225 passing tests on the CUDA host**, with no
+failures/skips and 82 upstream FutureWarnings. The original local CPU suite had
+219 passing tests; the targeted local runtime/training recheck passed 28 with
+one actual-CUDA skip. The preceding 53 additions check fixed ridge probes
 against an independent primal solution, training-only standardization, raw
 feature diagnostics, calibration evidence/replay, and scheduled recovery.
 Small pinned-upstream clean/adversarial models exactly match uninterrupted
@@ -13,10 +21,16 @@ changed schedules, missing/corrupt receipts, and mixed-run records are rejected.
 The previous 144 checks retain their coverage of native losses/gradients,
 attacks, group splits, decoding, checkpoint state, primary selection, and costs.
 
-The latest 22 additions exercise the bounded pilot phases, exact recovery and
+The preceding 22 additions exercise the bounded pilot phases, exact recovery and
 optimizer-tampering rejection, incomplete/corrupt evidence, fresh-versus-reused
 evaluation timings, worker deadlines, and reproducible/archive-safe handoffs.
-These are CPU tests with small real upstream models; CUDA remains pending.
+These use small real upstream models. Six additional runtime checks cover
+strict configuration, conflict/late-init rejection, incompatible resume policy,
+and actual independent-process CUDA gradient/update replay (skipped without
+CUDA). The full-model pilot failed replay under the original runtime, and its
+strict retry was stopped for runtime cost. A passing small CUDA check does not
+establish full-model correctness or feasibility. See the
+[CUDA outcome](../report/checks/2026-10-21-cuda-workflow.md).
 
 Run `python -m pytest -q tests --upstream external/vjepa2` after
 [local setup](../docs/smoke_test.md). GitHub CI currently checks scaffold and

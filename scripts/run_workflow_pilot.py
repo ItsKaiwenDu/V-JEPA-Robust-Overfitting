@@ -75,11 +75,12 @@ def main():
 
     from models.checkpointing import file_sha256
     from models.pilot_measurement import compare_recovery
-    from models.runtime import device_metadata, require_device
+    from models.runtime import configure_cuda_reproducibility, device_metadata, require_device
     from models.study_artifacts import write_record
     from models.training import runtime_contract
     from models.workflow_pilot import run_phase
 
+    configure_cuda_reproducibility()
     require_device('cuda')
     if args.phase:
         print(json.dumps(run_phase(ROOT, args), indent=2))

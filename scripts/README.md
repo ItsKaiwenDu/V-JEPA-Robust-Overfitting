@@ -74,3 +74,11 @@ Use `python scripts/check_workflow.py --help` and the
 feature command passed with the released model on eight training clips on CPU.
 Calibration and scheduled recovery have small-model CPU integration tests;
 full-model GPU execution still needs a bounded pilot.
+
+`profile_cuda.py` measures 12 synthetic upstream component cases with fresh
+processes, default/strict policies, forward/backward timing, gradient signatures,
+and bounded optional operator profiling. `university_profile.sh` verifies the
+source-only handoff and starts it detached using the existing university Python
+and upstream checkout. See the [component guide](../docs/cuda_component_profile.md).
+No checkpoint, video, optimizer, installation, or cloud launch is involved.
+New CUDA execution remains pending; local CPU fixtures are separately marked.

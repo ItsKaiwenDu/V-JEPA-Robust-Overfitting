@@ -1,0 +1,83 @@
+{
+  "as_of": "2026-10-21",
+  "budget_approved": false,
+  "case_count": 12,
+  "diagnostic_only": true,
+  "files_sha256": {
+    "LICENSE": "5b789f6868ba21e8f32bb2fd05b0566282db82937488953bc91f3c50b4ffdeb3",
+    "docs/cuda_component_profile.md": "1bed5112e51a962e40b6c337a3e3d211b05932865624f281e4fce5c440c91d34",
+    "models/__init__.py": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5",
+    "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+    "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+    "scripts/profile_cuda.py": "f138cfd28abb3abacb3885bd5e692a0cf7373a77bfdde0bb4578986b7231fc7b",
+    "scripts/university_profile.sh": "3c49e6d2284de1d9d0dd27e00c7e0c84936da2d4a194789af1a200d5b5cf9c01",
+    "tests/test_cuda_profile.py": "7ac2835d1c77890e0f5cabfad4ee9fc502e367635be87f9bff3d5c0d8e85cd43"
+  },
+  "fresh_workers_per_complete_run": 48,
+  "full_model_cuda_recovery_validated": false,
+  "held_out_pixels_opened": false,
+  "kind": "bounded_cuda_component_profiler_preparation",
+  "limitations": [
+    "CPU fixtures do not validate CUDA execution, hardware performance, or full-model recovery.",
+    "GPU profiling needs the already installed PyTorch 2.8.0 environment; no installation or download is performed.",
+    "RTX 3070 measurements do not establish the same backend behavior or throughput on RTX 5090.",
+    "Allocator limit excludes driver allocations and is not proof of physical VRAM feasibility.",
+    "Two fresh-worker observations are not a universal deterministic replay guarantee."
+  ],
+  "limits": {
+    "cuda_allocator_limit_gib": 4,
+    "external_supervisor_seconds": 540,
+    "parent_seconds": 480,
+    "worker_seconds": 20
+  },
+  "local_roundtrip": {
+    "all_strict_observed_replay_exact": true,
+    "cases_complete": 12,
+    "final_archive_and_member_hashes_verified": true,
+    "fixture_scale": "tiny CPU only",
+    "session_sha256": "39120b0524472499feda5e89568f0f123638ebfacd318097b6d63b9672b8ae1d",
+    "shared_home_symlink_manifest_verifier_passed": true,
+    "tampered_source_rejected": true,
+    "wall_seconds": 60.11081487499905,
+    "workers_complete": 48
+  },
+  "local_suite": {
+    "device": "cpu",
+    "errors": 0,
+    "failed": 0,
+    "junit_sha256": "36d3ceb419fadc56ba58a74cc59f797d2a5b2eb03fb32412d04f5a93ef0e1f2e",
+    "passed": 248,
+    "python": "3.11.16",
+    "seconds": 84.47,
+    "skipped": 1,
+    "torch": "2.14.1",
+    "warnings": 85
+  },
+  "measured_gradients_default": "input only; isolated parameter gradients are a separate explicit option",
+  "new_cuda_execution_performed": false,
+  "new_paid_compute_usd": 0,
+  "operator_source": "Pinned upstream PatchEmbed3D/apply_masks/RoPEAttention; separate synthetic SDPA and predictor sorting expressions.",
+  "package": {
+    "bytes": 19275,
+    "checkpoint_or_dataset_included": false,
+    "filename": "vjepa-cuda-profiler.tar.gz",
+    "manifest_members": 1,
+    "path": "runs/pretrained/diagnostic/cuda-profiler-handoff-20261021",
+    "sha256": "f6e014b9a48ef041b82addd3c229338df095d8ee6e986c348a1b750720bf1fb4",
+    "source_members": 8,
+    "upstream_not_bundled": "Use the existing university checkout at the recorded pin."
+  },
+  "pending": [
+    "Run the prepared university CUDA diagnostic using the existing environment.",
+    "Identify actual slow operators, retaining errors/OOM/timeouts.",
+    "Validate any equivalent optimization before another representative/full-model GPU retry."
+  ],
+  "previous_runtime_repair_hashes_preserved": true,
+  "previous_scientific_hashes_preserved": 41,
+  "reported_project_spending_usd": 1.195,
+  "representative_mask_seed": 6221833,
+  "research_result": false,
+  "schema_version": 1,
+  "validation_correction": "An initial integration check incorrectly required CUDA PyTorch 2.8.0 for the CPU fixture path. The final guard applies only to CUDA, while CPU fixtures explicitly record their local version."
+}

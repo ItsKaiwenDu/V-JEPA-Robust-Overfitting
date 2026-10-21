@@ -5,6 +5,7 @@ import hashlib
 import importlib
 import json
 import math
+import os
 import platform
 import random
 
@@ -128,6 +129,7 @@ def runtime_contract(device):
     result = {'torch': str(torch.__version__), 'numpy': np.__version__, 'python': platform.python_version(),
               'device': device, 'architecture': platform.machine(), 'threads': torch.get_num_threads(),
               'deterministic_algorithms': torch.are_deterministic_algorithms_enabled(),
+              'deterministic_warn_only': torch.is_deterministic_algorithms_warn_only_enabled(),
               'matmul_precision': torch.get_float32_matmul_precision()}
     if device == 'cuda':
         result.update(cuda=torch.version.cuda, cudnn=torch.backends.cudnn.version(),
@@ -135,7 +137,8 @@ def runtime_contract(device):
                       cudnn_benchmark=torch.backends.cudnn.benchmark,
                       cudnn_deterministic=torch.backends.cudnn.deterministic,
                       matmul_tf32=torch.backends.cuda.matmul.allow_tf32,
-                      cudnn_tf32=torch.backends.cudnn.allow_tf32)
+                      cudnn_tf32=torch.backends.cudnn.allow_tf32,
+                      cublas_workspace_config=os.environ.get('CUBLAS_WORKSPACE_CONFIG'))
     return result
 
 

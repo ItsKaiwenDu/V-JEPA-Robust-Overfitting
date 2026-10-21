@@ -1,0 +1,558 @@
+{
+  "as_of": "2026-10-21",
+  "base_commit": "4576aec",
+  "budget_approved": false,
+  "checkpoint_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+  "compute": {
+    "billing_independently_verified": false,
+    "billing_note": "The initial $0.501 report was provisional and is superseded by $0.603. The user confirmed termination after verified local evidence export.",
+    "billing_reconciled": true,
+    "billing_reconciliation_basis": "Updated user-reported total; independent provider verification not performed.",
+    "billing_source": "User-corrected session total after the delayed console update and confirmation of Pod termination; no invoice or billing API checked.",
+    "overall_budget_remaining_based_on_reported_spend_usd": 198.805,
+    "overall_budget_usd": 200,
+    "planned_compute_budget_usd": 160,
+    "pod_terminated_user_reported": true,
+    "previous_user_reported_spend_usd": 0.592,
+    "provider_stop_state_independently_queried": false,
+    "quoted_running_total_usd_per_hour": 1.2,
+    "reported_pilot_reserve_remaining_usd": 8.805,
+    "session_limit_billed_hours": 2,
+    "session_limit_usd": 3,
+    "session_reserved_pending_reconciliation_usd": 0,
+    "ssh_after_stop": "Connection refused",
+    "today_user_reported_charge_usd": 0.603,
+    "total_user_reported_spend_usd": 1.195,
+    "unreserved_pilot_balance_with_reservation_usd": 8.805,
+    "volume_retained_for_now": false
+  },
+  "data": {
+    "actual_training_clips_used": 8,
+    "confirmation_test_pixels_opened": false,
+    "held_out_pixels_opened": false,
+    "packaged_training_clips": 100,
+    "study_calibration_completed": false,
+    "training_monitor_clips": 1
+  },
+  "default_runtime_successful_span_timings": {
+    "cache_fixed_targets_eight_training_clips": {
+      "count": 3,
+      "maximum_seconds": 0.8392012800031807,
+      "median_seconds": 0.8315429509966634,
+      "minimum_seconds": 0.8294532269937918
+    },
+    "calibration_three_primary_candidates": {
+      "count": 1,
+      "maximum_seconds": 254.69848765499773,
+      "median_seconds": 254.69848765499773,
+      "minimum_seconds": 254.69848765499773
+    },
+    "checkpoint.load": {
+      "count": 3,
+      "maximum_seconds": 5.36405330299749,
+      "median_seconds": 1.7924955540220253,
+      "minimum_seconds": 1.7908713680226356
+    },
+    "checkpoint.save": {
+      "count": 4,
+      "maximum_seconds": 8.367465768998954,
+      "median_seconds": 7.2556360104936175,
+      "minimum_seconds": 6.100409128004685
+    },
+    "construct_workflow": {
+      "count": 3,
+      "maximum_seconds": 6.76153470002464,
+      "median_seconds": 6.643300179974176,
+      "minimum_seconds": 2.508393027004786
+    },
+    "engine.restore": {
+      "count": 3,
+      "maximum_seconds": 3.2577593289897777,
+      "median_seconds": 2.347421983984532,
+      "minimum_seconds": 2.3151998699759133
+    },
+    "engine.state": {
+      "count": 6,
+      "maximum_seconds": 2.9667912839795463,
+      "median_seconds": 2.748519215019769,
+      "minimum_seconds": 1.9012789530097507
+    },
+    "engine.update": {
+      "count": 4,
+      "maximum_seconds": 4.180363815976307,
+      "median_seconds": 4.105805808008881,
+      "minimum_seconds": 4.066889536974486
+    },
+    "extract_features_eight_training_clips": {
+      "count": 1,
+      "maximum_seconds": 5.850925834994996,
+      "median_seconds": 5.850925834994996,
+      "minimum_seconds": 5.850925834994996
+    },
+    "fit_probe": {
+      "count": 1,
+      "maximum_seconds": 0.002545805007684976,
+      "median_seconds": 0.002545805007684976,
+      "minimum_seconds": 0.002545805007684976
+    },
+    "prepare_context": {
+      "count": 5,
+      "maximum_seconds": 10.773066822002875,
+      "median_seconds": 10.593562925991137,
+      "minimum_seconds": 10.583095324021997
+    },
+    "save_features_and_probe": {
+      "count": 1,
+      "maximum_seconds": 0.005312693014275283,
+      "median_seconds": 0.005312693014275283,
+      "minimum_seconds": 0.005312693014275283
+    },
+    "scheduled_evaluation": {
+      "count": 10,
+      "maximum_seconds": 82.90882557700388,
+      "median_seconds": 10.541141922498355,
+      "minimum_seconds": 8.655586673005018
+    },
+    "scheduled_training_attempt": {
+      "count": 2,
+      "maximum_seconds": 241.7610530819802,
+      "median_seconds": 187.06296019749425,
+      "minimum_seconds": 132.3648673130083
+    },
+    "score_training_resubstitution": {
+      "count": 1,
+      "maximum_seconds": 0.001071461010724306,
+      "median_seconds": 0.001071461010724306,
+      "minimum_seconds": 0.001071461010724306
+    }
+  },
+  "deterministic_attempt": {
+    "calibration_choice_available": false,
+    "candidate_records_completed": 1,
+    "complete": false,
+    "completed_candidate_step_size_255": 0.5,
+    "completed_phases": [],
+    "error": "Pilot parent received SIGTERM.",
+    "error_type": "InterruptedError",
+    "exit_status": 1,
+    "next_candidate_incomplete": true,
+    "run_id": "cuda-workflow-deterministic-20261021",
+    "runtime": {
+      "architecture": "x86_64",
+      "cublas_workspace_config": ":4096:8",
+      "cuda": "12.8",
+      "cudnn": 91002,
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": true,
+      "cudnn_tf32": true,
+      "deterministic_algorithms": true,
+      "deterministic_warn_only": false,
+      "device": "cuda",
+      "devices": 1,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "matmul_precision": "highest",
+      "matmul_tf32": false,
+      "numpy": "2.4.6",
+      "python": "3.12.3",
+      "threads": 4,
+      "torch": "2.8.0+cu128"
+    },
+    "termination_reason": "Controlled SIGTERM after unexpectedly slow calibration; preserve the existing session budget.",
+    "training_started": false,
+    "wall_seconds": 2444.720750315988
+  },
+  "diagnostic_only": true,
+  "exports": {
+    "deterministic": {
+      "archive_and_every_member_verified_locally": true,
+      "archive_bytes": 39545,
+      "archive_sha256": "88010a361bbfee4696dbafb4fe9704fc692f5613529f14823b50f2aa972b1437",
+      "members_verified": 15,
+      "tensor_checkpoints_included": false
+    },
+    "first": {
+      "archive_and_every_member_verified_locally": true,
+      "archive_bytes": 53467,
+      "archive_sha256": "a40905ed36cbb6b2ef1de82d79331fe7b4ebdc7576e4a5ae538b8d54ebeebadf",
+      "members_verified": 42,
+      "tensor_checkpoints_included": false
+    }
+  },
+  "first_attempt": {
+    "adversarial_condition_started": false,
+    "comparison": {
+      "budget_approved": false,
+      "compared_leaves": 4307,
+      "diagnostic_only": true,
+      "difference_list_limit": 20,
+      "exact_match": false,
+      "expected_step": 2,
+      "first_differences": [
+        {
+          "path": "/evaluations/0/records/0/attack_loss",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/0/records/0/adversarial_loss",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/1/records/0/attack_loss",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/1/records/0/adversarial_loss",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/2/contract/weights_sha256/encoder",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/2/contract/weights_sha256/predictor",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/2/records/0/attack_loss",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/2/records/0/attack_clean_loss",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/2/records/0/clean_loss",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/2/records/0/adversarial_loss",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/3/contract/weights_sha256/encoder",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/3/contract/weights_sha256/predictor",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/3/records/0/attack_loss",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/3/records/0/attack_clean_loss",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/3/records/0/clean_loss",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/3/records/0/adversarial_loss",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/4/contract/weights_sha256/encoder",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/4/contract/weights_sha256/predictor",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/4/records/0/attack_loss",
+          "reason": "value"
+        },
+        {
+          "path": "/evaluations/4/records/0/adversarial_loss",
+          "reason": "value"
+        }
+      ],
+      "kind": "exact_workflow_recovery_diagnostic",
+      "research_result": false
+    },
+    "complete": false,
+    "completed_phases": [
+      {
+        "phase": "calibrate",
+        "process_wall_seconds": 267.8761641049932,
+        "result_sha256": "51b68b6cae68c06b32603acac33fec11e471adec25d1e0f8eb3c007eb5bbe74e"
+      },
+      {
+        "phase": "features-initial",
+        "process_wall_seconds": 18.740013832983095,
+        "result_sha256": "613786012db01e416f196447f1d3a37a1feae32859643e54da21c4aec026b88e"
+      },
+      {
+        "phase": "clean-finetune/split-first",
+        "process_wall_seconds": 140.80692790899775,
+        "result_sha256": "dc0c02da2c4aee8e2dca6850a9d6923ca61cbc753734bf4fd7c4c0986e262386"
+      },
+      {
+        "phase": "clean-finetune/split-resume",
+        "process_wall_seconds": 152.32849955599522,
+        "result_sha256": "0d1332efd5ffdf5866d33c51c4aacf2f67983680dc25a007ebfc1000b0aeaceb"
+      },
+      {
+        "phase": "clean-finetune/reference",
+        "process_wall_seconds": 265.88929581298726,
+        "result_sha256": "3521cece07fa1e1bdb9ff78b0e6e8c83f65a95645d1d045df9a1061f05bd8e6e"
+      }
+    ],
+    "controls_started": false,
+    "error": "clean-finetune: exact recovery comparison failed; no tolerance was relaxed.",
+    "exit_status": 1,
+    "failure_analysis_file_sha256": "cb094d18f123be7dd74d6b2b88e9e75498fe5317cb808920eaff244b2969561b",
+    "initial_checkpoint_evaluation_differences": [
+      {
+        "comparison": {
+          "compared_leaves": 108,
+          "difference_list_limit": 20,
+          "exact_match": false,
+          "first_differences": [
+            {
+              "path": "/records/0/attack_loss",
+              "reason": "value"
+            },
+            {
+              "path": "/records/0/adversarial_loss",
+              "reason": "value"
+            }
+          ]
+        },
+        "reference_metrics": {
+          "adversarial_loss": 0.6059668064117432,
+          "attack_clean_loss": 0.5531842708587646,
+          "attack_loss": 0.6551247835159302,
+          "clean_loss": 0.5534248352050781,
+          "max_pixel_delta": 0.01568630337715149
+        },
+        "resumed_metrics": {
+          "adversarial_loss": 0.6055697202682495,
+          "attack_clean_loss": 0.5531842708587646,
+          "attack_loss": 0.6549772024154663,
+          "clean_loss": 0.5534248352050781,
+          "max_pixel_delta": 0.01568630337715149
+        },
+        "task": {
+          "epoch": 0,
+          "key": "epoch-000/train_monitor/routine",
+          "method": "routine",
+          "panel": "train_monitor"
+        }
+      },
+      {
+        "comparison": {
+          "compared_leaves": 114,
+          "difference_list_limit": 20,
+          "exact_match": false,
+          "first_differences": [
+            {
+              "path": "/records/0/attack_loss",
+              "reason": "value"
+            },
+            {
+              "path": "/records/0/adversarial_loss",
+              "reason": "value"
+            }
+          ]
+        },
+        "reference_metrics": {
+          "adversarial_loss": 0.6744728684425354,
+          "attack_clean_loss": 0.5582388639450073,
+          "attack_loss": 0.7333176136016846,
+          "clean_loss": 0.5689859390258789,
+          "max_pixel_delta": 0.01568630337715149
+        },
+        "resumed_metrics": {
+          "adversarial_loss": 0.6691417694091797,
+          "attack_clean_loss": 0.5582388639450073,
+          "attack_loss": 0.7218961715698242,
+          "clean_loss": 0.5689859390258789,
+          "max_pixel_delta": 0.01568630337715149
+        },
+        "task": {
+          "epoch": 0,
+          "key": "epoch-000/train_monitor/primary",
+          "method": "primary",
+          "panel": "train_monitor"
+        }
+      }
+    ],
+    "run_id": "cuda-workflow-20261021",
+    "runtime": {
+      "architecture": "x86_64",
+      "cuda": "12.8",
+      "cudnn": 91002,
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": false,
+      "cudnn_tf32": true,
+      "deterministic_algorithms": false,
+      "device": "cuda",
+      "devices": 1,
+      "gpu": "NVIDIA GeForce RTX 5090",
+      "matmul_precision": "highest",
+      "matmul_tf32": false,
+      "numpy": "2.4.6",
+      "python": "3.12.3",
+      "threads": 4,
+      "torch": "2.8.0+cu128"
+    },
+    "state_sections_exact": {
+      "contract": true,
+      "contract_sha256": true,
+      "encoder": false,
+      "history": false,
+      "kind": true,
+      "optimizer": false,
+      "precision": true,
+      "predictor": false,
+      "rng": true,
+      "scaler": true,
+      "schema_version": true,
+      "step": true,
+      "target_sha256": true
+    },
+    "wall_seconds": 862.6947240479931
+  },
+  "full_model_cuda_recovery_validated": false,
+  "initial_clean_features": {
+    "dimensions": 1024,
+    "examples": 8,
+    "held_out_accuracy_measured": false,
+    "raw_diagnostics": {
+      "computed_before_standardization": true,
+      "covariance_entropy_effective_rank": 4.0382398156132435,
+      "dimensions": 1024,
+      "dimensions_below_std_floor": 0,
+      "examples": 8,
+      "numerical_centered_rank": 7,
+      "population_variance_max": 22.094986341112293,
+      "population_variance_mean": 0.6617268289658369,
+      "population_variance_min": 0.003337177854794994,
+      "rank_upper_bound": 7
+    },
+    "training_resubstitution_accuracy": 1.0
+  },
+  "intentionally_revised_previous_scientific_files": [
+    "models/runtime.py",
+    "models/training.py"
+  ],
+  "kind": "bounded_cuda_workflow_outcome",
+  "matched_primary_attack_timing": {
+    "default_runtime": {
+      "adversarial_loss": 0.6471885442733765,
+      "attack_clean_loss": 0.5582388639450073,
+      "attack_loss": 0.7140595316886902,
+      "clean_loss": 0.5689859390258789,
+      "max_pixel_delta": 0.01568630337715149,
+      "method": "primary",
+      "seconds": 78.769388042012
+    },
+    "interpretation": "Strict full-model execution is too expensive under the current implementation. No change in robustness or convergence is inferred.",
+    "operations_profiled": false,
+    "same_checkpoint_clip_settings_and_seeds": true,
+    "settings": {
+      "attack_masks": 4,
+      "epsilon_255": 4.0,
+      "method": "primary",
+      "restarts": 2,
+      "scoring_masks": 4,
+      "step_size_255": 0.5,
+      "steps": 20
+    },
+    "specific_kernel_cause_established": false,
+    "strict_runtime": {
+      "adversarial_loss": 0.6474757194519043,
+      "attack_clean_loss": 0.5582388639450073,
+      "attack_loss": 0.7149748802185059,
+      "clean_loss": 0.5689859390258789,
+      "max_pixel_delta": 0.01568630337715149,
+      "method": "primary",
+      "seconds": 1261.2078879559995
+    },
+    "strict_to_default_seconds_ratio": 16.01139629627856
+  },
+  "next_steps": [
+    "Profile strict CUDA forward/backward operations separately at representative shapes, including Conv3d and mask selection; establish the cause rather than assume it.",
+    "Before another rental, prepare bounded representative gradient/replay timing checks and local correctness tests for any proposed optimization.",
+    "Repeat full-model clean/adversarial recovery only when representative deterministic timings fit the budget.",
+    "Complete trained features and convergence/FGSM/random controls, then measured budget admission.",
+    "Reconcile billing and stopped storage; review near duplicates, refresh novelty, complete ten-clip calibration, and freeze protocol before research runs."
+  ],
+  "peak_cuda_allocator_bytes_default_runtime": {
+    "calibrate": 3977935360,
+    "clean-finetune/reference": 8091180032,
+    "clean-finetune/split-first": 6500943872,
+    "clean-finetune/split-resume": 8072698880,
+    "features-initial": 2663213568
+  },
+  "preserved_previous_scientific_files": 41,
+  "repair": {
+    "exact_tolerance_relaxed": false,
+    "fresh_process_cuda_gradient_update_replay_passed": true,
+    "local_targeted_tests": {
+      "passed": 28,
+      "seconds": 9.31,
+      "skip_reason": "actual CUDA required",
+      "skipped": 1
+    },
+    "model_attack_and_precision_flags_changed": false,
+    "overlay_archive_sha256": "12cbce1e20d0ec0334f22ba277b34602272c55d89b1decf1b2c3bbaddc2946a6",
+    "policy": {
+      "cublas_workspace_config": ":4096:8",
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": true,
+      "deterministic_algorithms": true,
+      "precision_flags_changed": false,
+      "warn_only": false
+    },
+    "source_sha256": {
+      "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+      "models/training.py": "7397b7cc4de6d69ab5b4a888f02060e23efe0608c521fe9f235544c4a9886e0c",
+      "scripts/run_workflow_pilot.py": "9baa78392bb284ca7434f3214ac3dada3da4a599d8d344378f79839753e019fb",
+      "tests/test_cuda_reproducibility.py": "15821c09facb1593b3a9eb1ff223f20f1bd7f08cad3f2ed19b99d765fd86f4f7"
+    },
+    "tests_on_pod": {
+      "errors": 0,
+      "failed": 0,
+      "seconds": 208.817,
+      "skipped": 0,
+      "tests": 225,
+      "warnings": 82,
+      "xml_sha256": "9c614b136398b64cea39ed382c99de0f6a060aa3269d0e774f134722f37d5d76"
+    }
+  },
+  "research_admitted": false,
+  "research_result": false,
+  "schema_version": 1,
+  "setup": {
+    "driver": "595.91.07",
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "offline_dependencies_passed": true,
+    "original_tests": {
+      "errors": 0,
+      "failed": 0,
+      "seconds": 197.008,
+      "skipped": 0,
+      "tests": 219,
+      "warnings": 81,
+      "xml_sha256": "467fe47293f909abbae33db866d3869cdcb08e93ba0c495643af6c0959c93c23"
+    },
+    "python": "3.12.3",
+    "setup_wall_seconds": 338,
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "upstream_and_checkpoint_hashes_passed": true,
+    "vram_bytes": 33670758400
+  },
+  "timing_limits": [
+    "Nested spans overlap and must not be summed.",
+    "The four update samples are clean fine-tuning only, across two diagnostic trajectories.",
+    "All default-runtime timings remain conditional; exact full-model replay failed.",
+    "The strict runtime produced one completed primary candidate, not completed calibration or recovery.",
+    "Eight-clip probes and checkpoint I/O are small-panel observations, not full-study cost admission."
+  ],
+  "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812"
+}

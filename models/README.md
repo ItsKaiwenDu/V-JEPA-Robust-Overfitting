@@ -58,3 +58,9 @@ with ordered, resumable evaluations; [study_artifacts.py](study_artifacts.py)
 provides checksummed JSON records. The small diagnostic setup lives in
 [workflow_diagnostic.py](workflow_diagnostic.py). See
 [workflow diagnostics](../docs/workflow_diagnostics.md) for tested scope and limits.
+
+[cuda_profile.py](cuda_profile.py) implements the separate synthetic component
+profiler: actual pinned upstream operations, fixed operands/cotangents,
+finite gradient signatures, verified replay evidence, optional operator tables,
+and bounded worker groups. It does not replace model components. Read the
+[component profile guide](../docs/cuda_component_profile.md) before use.

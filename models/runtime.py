@@ -8,6 +8,24 @@ import threading
 import torch
 
 
+
+def configure_cuda_reproducibility():
+    """Select strict deterministic kernels before this process initializes CUDA.
+
+    Seeds alone do not make CUDA convolution/gradient execution repeatable.
+    Keep precision flags unchanged; record those separately in the contract.
+    """
+    if torch.cuda.is_initialized():
+        raise RuntimeError('Configure deterministic execution before CUDA initialization.')
+    configured = os.environ.get('CUBLAS_WORKSPACE_CONFIG')
+    if configured not in (None, ':4096:8'):
+        raise ValueError('This diagnostic requires CUBLAS_WORKSPACE_CONFIG=:4096:8.')
+    os.environ['CUBLAS_WORKSPACE_CONFIG'] = ':4096:8'
+    torch.use_deterministic_algorithms(True, warn_only=False)
+    torch.backends.cudnn.benchmark = False
+    torch.backends.cudnn.deterministic = True
+
+
 def require_device(device):
     if device == 'cuda':
         if not torch.cuda.is_available():
