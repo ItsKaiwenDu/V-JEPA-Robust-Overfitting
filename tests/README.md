@@ -1,7 +1,7 @@
 # Scientific acceptance tests
 
-The full local suite now has **197 passing tests**, with no failures/skips and
-73 upstream FutureWarnings. The latest 53 additions check fixed ridge probes
+The full local suite now has **219 passing tests**, with no failures/skips and
+81 upstream FutureWarnings. The preceding 53 additions check fixed ridge probes
 against an independent primal solution, training-only standardization, raw
 feature diagnostics, calibration evidence/replay, and scheduled recovery.
 Small pinned-upstream clean/adversarial models exactly match uninterrupted
@@ -12,6 +12,11 @@ and completed evaluation before its workflow-record commit. Stale source/runtime
 changed schedules, missing/corrupt receipts, and mixed-run records are rejected.
 The previous 144 checks retain their coverage of native losses/gradients,
 attacks, group splits, decoding, checkpoint state, primary selection, and costs.
+
+The latest 22 additions exercise the bounded pilot phases, exact recovery and
+optimizer-tampering rejection, incomplete/corrupt evidence, fresh-versus-reused
+evaluation timings, worker deadlines, and reproducible/archive-safe handoffs.
+These are CPU tests with small real upstream models; CUDA remains pending.
 
 Run `python -m pytest -q tests --upstream external/vjepa2` after
 [local setup](../docs/smoke_test.md). GitHub CI currently checks scaffold and

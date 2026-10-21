@@ -1,5 +1,8 @@
 # Initial cloud pilot handoff
 
+Historical October 19 preparation. The [October 21 CUDA workflow handoff](cuda_workflow_pilot.md)
+is the current next diagnostic; this earlier package does not contain the new workflow.
+
 This is a bounded hardware measurement, not the six-run experiment. Review
 the [compute proposal](evaluation_compute_plan.md) first. No cloud resource
 has been created. Proposed first session: one GPU, no more than two billed

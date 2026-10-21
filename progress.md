@@ -1,5 +1,43 @@
 # Research Progress Reports
 
+## 2026-10-21 — Bounded CUDA workflow handoff
+
+Continued from committed milestone `2e04959` with a clean working tree.
+Prepared the [CUDA workflow pilot](docs/cuda_workflow_pilot.md) using the
+existing scientific implementations. It compares a saved-boundary process
+exit/recovery with uninterrupted training for both conditions, checks exact
+state and evaluation equality, and measures setup, checkpoint I/O, native
+attacks, target caching, features, and fixed probe operations. Reused
+evaluation times are separated from fresh computation; nested timings are
+explicitly non-additive. Worker deadlines do not stop cloud billing.
+
+The offline handoff contains checksummed source, the pinned upstream Git
+bundle, 23 Linux Python 3.12 dependency wheels, and the complete 100-clip
+training cache required by the existing loader. Execution selects eight
+training clips and one training monitor. Held-out pixels and raw videos are
+excluded. The wheels match the previous successful handoff hashes; their
+27 active dependency requirements match the previous template plus these
+wheels. Current Pod runtime compatibility still requires a live check.
+
+**Verification:** 219 CPU tests passed, with 0 failures/skips and 81 upstream
+FutureWarnings. Verification and package identities are recorded in the
+[preparation evidence](report/checks/2026-10-21-cuda-handoff.json). The new
+small-model CPU checks cover the complete pilot phases, exact recovery,
+optimizer corruption, missing/corrupt evaluation evidence, cached timing,
+worker timeouts, and archive integrity. The prior 43 recorded scientific
+source/configuration/evidence hashes are preserved.
+
+**Limits:** No cloud instance, new paid compute, full-model CUDA recovery,
+study calibration, or research trajectory was run. Confirmation/test pixels
+remain closed. The $0.592 reported spend, $9.408 remaining pilot reserve,
+and $200 total/$160 compute caps are unchanged. No commit or push was made.
+
+**Next user action:** check a current Runpod RTX 5090 quote with 30 GB container
+disk and an 80 GB persistent volume at `/workspace`. The proposed diagnostic
+session is bounded to at most two billed hours/$3, with a shorter worker
+deadline if setup or the live all-in rate requires it. Start only when ready
+to connect, export, and stop the instance. The full study remains unadmitted.
+
 ## 2026-10-20 — Fixed probes, calibration records, and scheduled recovery
 
 Continued from committed milestone `7b2b7cd` with a clean working tree. Added

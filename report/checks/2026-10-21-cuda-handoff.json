@@ -1,0 +1,199 @@
+{
+  "as_of": "2026-10-21",
+  "base_commit": "2e0495980260559ffd4e87dd15bcf555b539d6db",
+  "budget_approved": false,
+  "cloud_instance_started": false,
+  "cuda_execution_performed": false,
+  "diagnostic_only": true,
+  "export_fixture": {
+    "archive_and_sidecar_sha256_match": true,
+    "contains_research_results": false,
+    "evidence_only_members_verified": true,
+    "tensor_and_private_key_suffixes_excluded": true
+  },
+  "full_model_cuda_recovery_validated": false,
+  "held_out_pixels_opened_by_this_step": false,
+  "kind": "cuda_workflow_handoff_preparation",
+  "local_round_trip": {
+    "archive_and_member_hashes_verified": true,
+    "diagnostic_pixel_checks_passed": 8,
+    "exploration_confirmation_test_cache_directories_absent": true,
+    "macos_upstream_note": "Unrelated V-JEPA 2.1 vitG/vitg config paths collide on case-insensitive macOS. Scientific trees are clean; the bundle uses exact committed objects and retains both names.",
+    "source_current_tree_match": true,
+    "upstream_scientific_tree_pin_and_clean_guard_passed": true
+  },
+  "new_paid_compute_usd": 0,
+  "offline_wheels": {
+    "active_dependency_requirements_checked": 27,
+    "actual_new_linux_install_validated": false,
+    "all_match_previous_handoff_sha256": true,
+    "count": 23,
+    "python": "CPython 3.12 Linux x86_64",
+    "unsatisfied_against_previous_template_plus_wheels": 0
+  },
+  "package": {
+    "archives": {
+      "source": {
+        "bytes": 339263,
+        "sha256": "3a279c458422796c3acadfdc1977c8241bb74c3de4c90f32ce482ba913e6f1ef"
+      },
+      "training": {
+        "bytes": 781576353,
+        "sha256": "0afaf2257094f5cee1cd464e3ea065dea3b90aeab91203e89a37ad514edd72e2"
+      },
+      "wheels": {
+        "bytes": 28225989,
+        "sha256": "a76b5acff4a709b63badca7b67966681069c85b0743492766f0368d615a4e766"
+      }
+    },
+    "bytes": 814818682,
+    "checkpoint_separate_and_not_packaged": {
+      "bytes": 5127726842,
+      "sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012"
+    },
+    "diagnostic_monitor_clips_selected": 1,
+    "diagnostic_training_clips_selected": 8,
+    "held_out_pixels_or_raw_videos_packaged": false,
+    "manifest_sha256": "e4db44c74d01460cc668d106e51d6b869d1186b535219322e2ee7212ab2e6e91",
+    "path": "runs/pretrained/diagnostic/workflow-handoff-20261021",
+    "post_build_report_excluded_from_source_archive": "This evidence record is created after package restoration; archive/manifest hashes are not self-referential.",
+    "source_files": 164,
+    "training_clips_packaged": 100,
+    "upstream_bundle_sha256": "be402e349761940e6cb0217cdbfdf83915e5ab5bd110ed61563bd0ca3e423c11",
+    "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+    "upstream_from_committed_objects_only": true
+  },
+  "pending": [
+    "live quote and explicitly selected GPU session",
+    "Linux setup and full-model CUDA recovery",
+    "missing-cost measurements and complete budget admission",
+    "ten-clip study calibration",
+    "near-duplicate content review",
+    "novelty refresh before study",
+    "protocol freeze before exploratory pair"
+  ],
+  "pilot_reserve_remaining_usd": 9.408,
+  "previous_pinned_files_preserved": 43,
+  "proposed_next_session": {
+    "automated_cloud_launch": false,
+    "container_gb": 30,
+    "free_space_required_after_setup_gib": 55,
+    "gpu": "one RTX 5090 32GB",
+    "live_quote_verified": false,
+    "maximum_billed_hours": 2,
+    "maximum_inclusive_session_usd": 3,
+    "maximum_worker_seconds": 5400,
+    "persistent_volume_gb": 80,
+    "quote_user_reported_2026_10_21": {
+      "comment": "Storage charges suggest a smaller persistent volume than the required 80 GB. Deployment is pending verification.",
+      "container_usd_per_hour": 0.007,
+      "displayed_total_usd_per_hour": 1.2,
+      "gpu_usd_per_hour": 1.19,
+      "source": "user message; storage capacities clarification pending",
+      "stopped_usd_per_hour": 0.008,
+      "storage_capacities_verified": false,
+      "volume_usd_per_hour": 0.004
+    },
+    "volume_mount": "/workspace",
+    "worker_timeout_stops_billing": false
+  },
+  "provider_documentation_checked": [
+    "https://docs.runpod.io/pods/storage/types",
+    "https://docs.runpod.io/pods/manage-pods"
+  ],
+  "research_admitted": false,
+  "research_result": false,
+  "schema_version": 1,
+  "setup_verifier_passed": true,
+  "shell_syntax_passed": true,
+  "source_sha256": {
+    "AGENTS.md": "9afbd7afa122fcd897b2bebc19bd02cdc062619059fb556fcd4c84471b221db0",
+    "README.md": "54260dc4eb53027b785f4828d1cfd60f4f1067b19d52ef6d2970c74f5555c9ce",
+    "docs/cloud_pilot_handoff.md": "cf417efe0baa4766ac55adecef76b85dab6486353238eb36f0f2f88380c5a3f5",
+    "docs/cuda_workflow_pilot.md": "84d34f3cf793d0f0d12cb537096a4fcf4bd2bcf4d57954bbbfd4e81894b7c2d1",
+    "docs/workflow_diagnostics.md": "7e5da5b3715080106aa5ef7be11db263e66dd9091b78096ceb8d5936b809a51a",
+    "models/pilot_bundle.py": "d25f0e1f085bb7addcfc855986c7bf984765990cb473be9d5315f5399696a9db",
+    "models/pilot_measurement.py": "3361cd01dc4b23f64e749df877988ecbfe4dfda18ee5d9305c5f25ea33322753",
+    "models/workflow_pilot.py": "99577ad7c93c42ef4ed9ae4d02749ffd3d559c0f6249a06129136949d7084bc5",
+    "progress.md": "575d12e110afa862b355d550f661d64dbaff6af8cfa387a2338b52f6554cc3ec",
+    "requirements-pilot-offline.txt": "92ff574a226b27485e6f224114d7826fda0c5c6f392234fa14b18fc68d373450",
+    "scripts/export_workflow_pilot.py": "c72ebe02ae5966bfab0c8c1ac33e8e73d17705288a190e44b808b1fa7e2c79e7",
+    "scripts/prepare_workflow_pilot.py": "5536d4e85f5a0f69275576c866e5634474705e18a3b6c0dd11de1fceeaefd8e2",
+    "scripts/run_workflow_pilot.py": "24de584dd9a0323137327ba15fafd23c9d5b06802bf5b447e1e64e46dd236b2f",
+    "scripts/setup_workflow_pilot.sh": "cdc20b977c87f5d24274d9e9fadc7ba5527b0872d893b821439eba289445a6a4",
+    "tests/README.md": "2007e1843094119b68a7eba97d445350990265c5734433c61ce21eaa7cf532dd",
+    "tests/test_pilot_bundle.py": "274e4b13f352086bc760bc42b8f9958494ea32fb238c0b9a4cafb6e1ffce7c8f",
+    "tests/test_workflow_pilot.py": "dd0818167ffa8702590bdff04b21b3977ba60b3704243f398bb5b9ad088d77f5"
+  },
+  "source_snapshot_includes_uncommitted_files": true,
+  "spent_pilot_usd_user_reported": 0.592,
+  "study_calibration_completed": false,
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python -m pytest -q -p no:cacheprovider tests --basetemp=/private/tmp/vjepa-cuda-handoff-full-20261021 --junitxml=/private/tmp/vjepa-cuda-handoff-full-20261021.xml",
+    "errors": 0,
+    "failed": 0,
+    "final_packaging_and_deadline_recheck": {
+      "passed": 9,
+      "seconds": 0.9
+    },
+    "junit_sha256": "b43773120a57f6b358da6a64c2679af5ba283110cc0b66d498b50bffdf1da061",
+    "model_scope": "Small actual pinned-upstream transformers on CPU; full-model CUDA pending.",
+    "new_tests": 22,
+    "passed": 219,
+    "seconds": 115.847,
+    "skipped": 0,
+    "warnings": 81,
+    "warnings_description": "Upstream timm import and deprecated CUDA SDPA context-manager FutureWarnings."
+  },
+  "unchanged_previous_source_sha256": {
+    "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "configs/budget_study_plan.yaml": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+    "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+    "data/manifests/ucf101-split1-v1/test.csv": "6de73dbcff7c31dc27b8e447cbd5eb75afa4f876a059e25b59c645d384418028",
+    "data/manifests/ucf101-split1-v1/train.csv": "3b1c271a114a880358e107adf4385a1367bb224901ee47a867dec0c5b68cc212",
+    "data/manifests/ucf101-split1-v1/validation.csv": "5c38b15f3c3935a7cb00ff418a4a4544453307b5007c2c342499f9899a0bf65c",
+    "datasets/prepared.py": "056835ffbe2fc414dd0e0c6cd86f1cbdaefe88fa66a54f41bee7d3b8c333c5c6",
+    "datasets/staged_files.py": "02771aaa232daaad287e74a96bc152b3d7c5c5c4ffff542c8574bd9faf36b2a8",
+    "datasets/staged_preparation.py": "45631fbfcea87ca44c9b18f0147c81f461468b6e929818377ac70f8e4204b5dc",
+    "datasets/staged_subset.py": "29803ffa6142922135a4ae45b85c5933fd199398b301f8ae4b502b6235d9ff8e",
+    "datasets/video.py": "04f337169dc3f29b51b25752f570a82bd21df1c8b07e0a3b0e28eb39282afa17",
+    "models/calibration.py": "599ab44c0a919da5570af8bb98236c32de154b7da6122ce6040548e238b90d83",
+    "models/checkpointing.py": "e3c2d47b6770a62abea576eb65cecfe3564b8270c0823d064c47ecbaf9f9434f",
+    "models/diagnostics.py": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0",
+    "models/evaluation.py": "1431951d158b57b615208006edb5365a6bad910b2a14e0aa782a1c6f82034089",
+    "models/evaluation_checkpoint.py": "98dfaa2c0773d1e47d59b143e2694d4661478b7f78c7f912904d5a624e365932",
+    "models/evaluation_store.py": "a51ec828233e2d63323ad95424a4d02b3cacfc9c82189b896aa2018558c2b33c",
+    "models/features.py": "552da0e1783e55b7a9c17d47597971e3ce493d8c8d09a3ea15cb21b1a7e05f05",
+    "models/pilot.py": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82",
+    "models/runtime.py": "3c7f22a5494ab16710d433084043f1968de6c864a7e4f6d180e2646153e3e17c",
+    "models/schedule.py": "d46be0eb89a82a62be392ae20320646590adba83bd6ec6bbb42c6e3849f9dfd8",
+    "models/study_artifacts.py": "c9ace85300c4efcc62e14bf60a89a4c22415497ea8a5ee5f8e3f12230ac8fcad",
+    "models/training.py": "63d673ea7ebeab98ff67df73ffacbc5e6911d3cdf9159beabae79ec154e32c7e",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+    "models/workflow_diagnostic.py": "281c00d8eaca11bf662e69a8204ed9771baede58df820e54f19f7e7aeef24fa0",
+    "report/checks/2026-10-19-runpod-5090-attacks.json": "6c3f0e29b5bf68bb184142f00fea2f2e28c5f7997fc4632eaa2d1fcf738f830b",
+    "report/checks/2026-10-19-runpod-5090-pilot.json": "f45778c76a69ab9f526799009d8018d450e0ec389480f8d0da5e055e79cae736",
+    "scripts/check_workflow.py": "e85f1c87712ef47d22930050db3d8ecbaebd9c42452cd115df2e437e720c307a",
+    "scripts/estimate_staged_study.py": "e58bc7932baf943b90a7fc049d0a8a55ce1780f00720deda4f52eb57165c0057",
+    "scripts/evaluate.py": "e20f0dd2513e3286a5332ff96179c51aca4fc35ac870896973c718db5f287d20",
+    "scripts/export_staged_manifests.py": "e3c36a1fef61a05394e4547a4c096b6a1bd48339bc634fd2cc48ff21315fb498",
+    "scripts/prepare_staged_clips.py": "266e3ff7f787fcc3bd20f2f0323792bc6ef0382985bf95dff12aa535e7737e31",
+    "scripts/train.py": "1128eb3306628845d17943586eab8917c0859b465f0c00a3964d8dd5a802f6fd",
+    "tests/conftest.py": "c67f087884483b38dc117ffa8cff6206c225afbce9bb53c0bf2e3986cd8ed2b5",
+    "tests/test_calibration.py": "70cdb0343d7012179b9c8725699114773c1a4d8363ac2ed737d0ea8b610a43f9",
+    "tests/test_evaluation.py": "62c6849e3af13e9581454c636f7d72aa295f936a5805eb4591d7afc547935892",
+    "tests/test_evaluation_checkpoint.py": "78e25df91b4547e130c3f4972b12bf31f62d936cb4f7ffbfdd84a6e397822033",
+    "tests/test_features.py": "00f33eb8ba5bececd57a1e7886128713d386303acbe49cbb57b7fb01a7a75ca0",
+    "tests/test_prepared.py": "82345c02134dc98f018cae306aa6571ddbb86a1a39027abc4e377c132a73a438",
+    "tests/test_schedule.py": "db66b9f9dfae76ce6f4eee8388ddb2f52ec2aa8323d78d07b87a14020b62066c",
+    "tests/test_staged_files.py": "ad57ce5dfffe392616bf5bbf8c3f0717a67300ef794bf01ae022d5c63390f8f6",
+    "tests/test_training.py": "7088b0bd0a7a50ca0028bce9bd29416f850a1563f1bf243b4b0e24c06749f07e",
+    "tests/test_vjepa2.py": "fffe419ce795fda23633cdc9bf6162b05cd06b43037bed089acb568d9ebdd08b"
+  },
+  "verification": {
+    "git_diff_check_passed": true,
+    "large_artifacts_ignored": true,
+    "local_markdown_links_checked": 230,
+    "python_files_parsed": 64
+  }
+}

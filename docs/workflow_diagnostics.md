@@ -1,5 +1,9 @@
 # Feature probes, calibration, and scheduled recovery
 
+The next step is the [bounded CUDA workflow handoff](cuda_workflow_pilot.md),
+which reuses these implementations and compares full-model recovery before
+research admission. Its preparation does not constitute a CUDA pass.
+
 October 20, 2026. These components implement the next local diagnostic milestone.
 They do not admit the proposed study or open confirmation/test data. The original
 study and proposal YAML hashes are unchanged; details below must be carried into

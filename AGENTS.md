@@ -8,8 +8,9 @@ planned entry points, unrun experiments, or proposed results as implemented
 or verified. Keep progress.md factual.
 
 Pretrained hardware pilots and staged training/exploration data preparation
-have passed. The local suite has 197 passing tests; clean pretrained features
-also passed on eight training clips. Full-model CUDA workflow recovery,
+have passed. The local suite has 219 passing tests. Clean pretrained features also passed on eight training clips.
+The bounded CUDA workflow handoff is prepared; read docs/cuda_workflow_pilot.md
+before using it. Full-model CUDA workflow recovery,
 research calibration, measured budget admission, and research results remain
 pending. Confirmation/test pixels remain closed. No cloud rental is automatic.
 
