@@ -15,11 +15,28 @@ full-model recovery is still unvalidated. Read
 report/checks/2026-10-21-cuda-workflow.md and docs/cuda_workflow_pilot.md.
 Both evidence exports are verified locally; the user confirmed Pod termination.
 Reported spending is $1.195 after the corrected $0.603 session charge.
-The component profiler handoff is prepared; read docs/cuda_component_profile.md.
-Latest local suite: 248 passed, one actual-CUDA skip. University CUDA execution
-of the new profiler remains pending. Profile representative deterministic
-operations before another rental. Research calibration, measured budget admission, and research
-results remain pending. Confirmation/test pixels remain closed.
+The university component profile is verified: all 48 workers completed; all 12
+strict cases replay exactly. Original Conv3d input backward rose from 1.102 ms
+to 3.400 s under strict policy; default attention gradients fail exact replay.
+Read report/checks/2026-10-21-university-cuda-components.md and
+docs/cuda_component_profile.md. This is isolated RTX 3070 evidence, not a
+full-model RTX 5090 recovery or performance result. The bounded same-Conv3d
+comparison completed on CUDA, but all 12 workers rejected before timing:
+even the original TF32-permitted cuDNN reference fails the FP64 accuracy gate.
+Native matches FP64 but differs from that reference. Read
+report/checks/2026-10-21-university-cuda-convolution.md for that failed attempt.
+The explicit TF32-off control now passes all 12 workers, numerical gates, and
+observed exact replay in both gradient modes. Original cuDNN forward/backward
+is 3.410 / 3.431 seconds; native is 5.897 / 7.043 milliseconds (input / parameter
+gradient modes). Channels-last provides no useful improvement. Read
+report/checks/2026-10-21-university-cuda-convolution-precision.md and
+docs/cuda_convolution_comparison.md. This resolves the isolated precision gate
+and qualifies native as a component candidate; it does not establish RTX 5090
+behavior or full-model correctness/speed. No study backend/precision is adopted.
+Next: prepare an opt-in integration with explicit cache/resume identities and
+full-model gradient/recovery checks before another measured pilot.
+Latest local suite: 283 passed, one actual-CUDA skip. Research calibration,
+measured budget admission, and research results remain pending. Confirmation/test pixels remain closed.
 No cloud rental is automatic.
 
 ## Research scope

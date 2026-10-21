@@ -1,0 +1,115 @@
+{
+  "as_of": "2026-10-21",
+  "budget_approved": false,
+  "candidates_adopted": [],
+  "diagnostic_only": true,
+  "fresh_workers": 12,
+  "full_model_cuda_recovery_validated": false,
+  "git_diff_whitespace_check_passed": true,
+  "gradient_modes": [
+    "input",
+    "parameters"
+  ],
+  "held_out_pixels_opened": false,
+  "kind": "strict_same_conv3d_comparison_preparation",
+  "limitations": [
+    "Local tiny CPU checks do not qualify an option on CUDA.",
+    "No candidate is selected automatically.",
+    "No research model/optimizer/precision setting is changed.",
+    "Two process replays do not guarantee universal reproducibility."
+  ],
+  "limits": {
+    "cuda_allocator_gib": 4,
+    "external_kill_grace_seconds": 5,
+    "external_supervisor_seconds": 540,
+    "overall_seconds": 480,
+    "worker_seconds": 45
+  },
+  "local_suite": {
+    "command": ".venv/bin/python -m pytest -q tests",
+    "device": "cpu",
+    "errors": 0,
+    "failed": 0,
+    "junit_sha256": "cbfaec2ab4f33b5e10fc8db9207b4ce234f92c30f863793c65b65663d90e5040",
+    "passed": 269,
+    "python": "3.11.16",
+    "seconds": 100.71,
+    "skipped_actual_cuda": 1,
+    "torch": "2.14.1",
+    "warnings": 85
+  },
+  "markdown_relative_links_verified": 167,
+  "model_weights_loaded": false,
+  "new_cuda_execution_performed": false,
+  "new_files_sha256": {
+    "docs/cuda_convolution_comparison.md": "4fb2c1fdc0c2d879458d176fb12e44e932c5b5f84a47059ffde1acc1ab31e039",
+    "models/cuda_convolution.py": "1a65e1949b2b43ca264e985570292450001597cf186130d723979882948831c0",
+    "scripts/compare_cuda_convolution.py": "712bb5ea78577e3dce427a6ebb4b903ebc64981df334f988f18bbfd3ad9e8b5a",
+    "scripts/university_convolution.sh": "88bcfdd0d28587643b7be430cd026bd70cb0bd914d2f46e970b304fbcf490b4b",
+    "tests/test_cuda_convolution.py": "1d2069beb0e49737766c89cf5fe9bd10ad84d0faff5c62bc4952c0ec8f7b282f"
+  },
+  "new_paid_compute_usd": 0,
+  "package": {
+    "bytes": 36765,
+    "files_sha256": {
+      "LICENSE": "5b789f6868ba21e8f32bb2fd05b0566282db82937488953bc91f3c50b4ffdeb3",
+      "docs/cuda_convolution_comparison.md": "4fb2c1fdc0c2d879458d176fb12e44e932c5b5f84a47059ffde1acc1ab31e039",
+      "models/__init__.py": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5",
+      "models/cuda_convolution.py": "1a65e1949b2b43ca264e985570292450001597cf186130d723979882948831c0",
+      "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+      "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+      "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+      "report/checks/2026-10-21-university-cuda-components.json": "8d2c5ca04dd3e8e30cb9ecb67b57b3f8dfa48378cb2fc2132db07ec90080a8a9",
+      "report/checks/2026-10-21-university-cuda-components.md": "5d46be0fb14f96e4eb69ed07427a3983af5d8a75e768c29fbd4df6294aadc436",
+      "scripts/compare_cuda_convolution.py": "712bb5ea78577e3dce427a6ebb4b903ebc64981df334f988f18bbfd3ad9e8b5a",
+      "scripts/university_convolution.sh": "88bcfdd0d28587643b7be430cd026bd70cb0bd914d2f46e970b304fbcf490b4b"
+    },
+    "manifest_files_verified": 11,
+    "path": "runs/pretrained/diagnostic/cuda-convolution-handoff-20261021/vjepa-cuda-convolution.tar.gz",
+    "regular_members_verified": 12,
+    "restored_directory": "/private/tmp/vjepa-convolution-restored-20261021/cuda-convolution-20261021",
+    "sha256": "d1b546513dd759eb9c109587246ad7e5fec1cddaebffff126517825c3a632ffc"
+  },
+  "pending": [
+    "Representative university CUDA correctness, replay, performance, and memory.",
+    "Inspect any numerical rejection, error, or timeout without relaxing tolerances.",
+    "Only then consider representative RTX 5090 and full-model replay within measured budget."
+  ],
+  "pilot_reserve_remaining_usd": 8.805,
+  "previous_profiled_source_hashes_preserved": {
+    "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+    "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+    "scripts/profile_cuda.py": "f138cfd28abb3abacb3885bd5e692a0cf7373a77bfdde0bb4578986b7231fc7b"
+  },
+  "previous_scientific_hashes_preserved": 41,
+  "reference": "CPU FP64 unfolded-patch forward with analytic input/weight/bias derivatives; original Conv3d cross-check.",
+  "reported_project_spending_usd": 1.195,
+  "research_result": false,
+  "restored_handoff_roundtrip": {
+    "all_checks_passed": true,
+    "complete": true,
+    "cuda_or_speed_evidence": false,
+    "device": "cpu",
+    "session_sha256": "26a75d8bbbf1346fb5f62ce63fb69a04abc4384e70711a63e7be6d7858118d3c",
+    "tiny_fixture": true,
+    "wall_seconds": 13.630781833002402,
+    "workers": 12
+  },
+  "schema_version": 1,
+  "scientific_model_changed": false,
+  "setup_verifier_passed": true,
+  "shared_home_alias_verification_passed": true,
+  "shell_syntax_passed": true,
+  "source_tamper_rejected": true,
+  "targeted_tests": {
+    "passed": 21,
+    "seconds": 8.12
+  },
+  "test_discovery_correction": "An initial unscoped pytest invocation also collected upstream dataset tests and stopped for absent psutil/cv2. The corrected repository tests/ suite passed; no dependencies were installed.",
+  "variants": [
+    "contiguous",
+    "channels-last-3d",
+    "native"
+  ]
+}

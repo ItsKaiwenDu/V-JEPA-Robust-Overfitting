@@ -1,10 +1,22 @@
 # Scientific acceptance tests
 
-The latest local suite passes **248 tests with one actual-CUDA skip** and 85
-upstream warnings. This includes 24 component-profiler checks: independent
-gradients, representative masks, actual subprocess/descendant timeouts, rejected
-tampered evidence and changed precision/source, fresh-process fixture replay,
-and optional profiler tables. New university CUDA profiling remains pending.
+The latest local suite passes **283 tests with one actual-CUDA skip**. The
+35 convolution-comparison tests check analytic
+FP64 derivatives against convolution/autograd, original Conv3d layouts and
+gradient modes, fixed elementwise error gates, fresh processes, optional
+profiling, deadlines, and rejection of corrupted source/runtime/tolerance/
+gradient/timing evidence. Both declared TF32 policies propagate to fresh
+workers; native execution preserves the precision flag, and mixed-policy
+evidence is rejected. All 12 workers pass the restored TF32-off tiny CPU
+roundtrip. The original TF32-on CUDA run rejected all options before timing;
+the separately tagged TF32-off CUDA control now passes all 12 workers and
+observed replay. These are component checks, without a full transformer,
+optimizer update, or full-model recovery acceptance.
+
+The 24 component-profiler checks retain independent gradients, representative
+masks, real subprocess/descendant timeouts, changed precision/source rejection,
+and fixture replay. Its separate university RTX 3070 export is verified with
+all 48 workers complete and strict replay on 12 cases; this is isolated evidence.
 
 The repaired suite has **225 passing tests on the CUDA host**, with no
 failures/skips and 82 upstream FutureWarnings. The original local CPU suite had

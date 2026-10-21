@@ -3,8 +3,11 @@
 The [October 21 CUDA workflow outcome](../report/checks/2026-10-21-cuda-workflow.md)
 records a failed exact full-model recovery comparison and a strict deterministic
 retry stopped for excessive runtime. Small CUDA replay passes; full-model
-recovery remains unvalidated. Profile representative deterministic operations
-before another rental. The [workflow guide](cuda_workflow_pilot.md) describes
+recovery remains unvalidated. The [university component profile](../report/checks/2026-10-21-university-cuda-components.md)
+now isolates a strict Conv3d input-backward bottleneck on RTX 3070 and default
+attention-gradient replay failures. The [TF32-off control](../report/checks/2026-10-21-university-cuda-convolution-precision.md)
+now qualifies native patch-convolution execution with numerical agreement and
+observed replay. Validate an opt-in full-model integration before another rental. The [workflow guide](cuda_workflow_pilot.md) describes
 the preserved handoff and explicit runtime policy.
 
 October 20, 2026. These components implement the next local diagnostic milestone.
@@ -154,7 +157,10 @@ bound, not a wall-time cap. Neither command stops a cloud instance or billing.
 Measure full-model GPU recovery, calibration, convergence attacks, feature
 extraction/probe work, target-cache creation, checkpoint I/O and storage, and
 transfer/idle costs. Keep the reported $0.592 inside the total $10 pilot reserve
-($9.408 still reserved), and the $200 total/$160 compute caps unchanged. The
+($9.408 remained reserved at the October 20 preparation checkpoint), and the
+$200 total/$160 compute caps unchanged. The latest user-corrected October 21
+ledger is $1.195 spent / $8.805 pilot reserve remaining; see the
+[workflow outcome](../report/checks/2026-10-21-cuda-workflow.md). The
 old $193.91 projection still contains unknown costs and is not admission.
 
 Near-duplicate content review, novelty refresh, full-model validation,

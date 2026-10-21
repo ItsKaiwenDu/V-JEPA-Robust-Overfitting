@@ -1,5 +1,135 @@
 # Research Progress Reports
 
+## 2026-10-21 — TF32-off CUDA component qualification verified
+
+Verified all 12 worker checksums and provenance, five local source files, six
+upstream files, the handoff identity, and recomputed timing medians/comparisons.
+The control completed in 221.718 seconds with launcher status 0. All numerical
+gates and observed exact replay passed in both gradient modes. All profiles
+include CUDA events. Matched operands/oracles and runtime show that cuDNN TF32
+off resolves the prior reference accuracy rejection at unchanged tolerances.
+The slow strict cuDNN input-gradient kernel remains.
+
+Original native Conv3d execution takes **5.897 ms** for forward plus input
+gradients, versus **3.410 s** for contiguous cuDNN (578x isolated speedup).
+Forward plus input/weight/bias gradients takes **7.043 ms**, versus **3.431 s**
+(487x). Channels-last does not improve useful component throughput. These are
+synthetic RTX 3070 observations, not full-model or RTX 5090 speedups.
+[Outcome](report/checks/2026-10-21-university-cuda-convolution-precision.md),
+[verified records](report/checks/2026-10-21-university-cuda-convolution-precision.json).
+
+**Next:** prepare an opt-in native patch-convolution integration with explicit
+precision/backend and cache/resume identities, then verify full-model gradients,
+attacks, frozen targets and exact recovery before measuring/admitting research.
+No backend is adopted in the study, no source/configuration/model is changed,
+and no optimizer or pretrained transformer was run in this analysis. Local
+suite remains 283 passed / one actual-CUDA skip; it was not rerun for this
+analysis/documentation change. No weights or video pixels were opened. No new
+paid compute, commit, or push; reported spending remains $1.195 and the pilot
+reserve remaining is $8.805. Full-model recovery/research admission are pending.
+
+## 2026-10-21 — Convolution numerical rejection and precision control
+
+Verified all 12 CUDA worker hashes, five v1 source files, six upstream files,
+and recomputed comparisons. All workers finished in 86.498 seconds, with no
+worker errors, timeouts, or OOM. Every option rejected before timing because
+the unchanged TF32-permitted cuDNN reference fails the FP64 output/weight
+accuracy gates. Native output and all gradients pass FP64 but fail agreement
+with that reference. No option qualified, and no speed or exact replay result
+is available. The [outcome](report/checks/2026-10-21-university-cuda-convolution.md)
+records the diagnostic's missing precision control and the limits of the TF32
+inference. The original failed session/archive remain unchanged.
+
+Added explicit `--cudnn-tf32 on|off` to the isolated comparison; the default
+remains on. The new source handoff launches **off** in a separately named
+folder. Parent/worker contracts bind declared and actual policy; native
+execution retains it, and mixed evidence is rejected. Fixed tolerances,
+strict determinism, scientific model, and study configuration remain unchanged.
+Validation signatures are now retained even on rejection. No option is adopted.
+
+**Verification:** all **283 repository tests passed**, with one actual-CUDA
+skip. All 35 targeted checks passed, including both declared policies and
+native-context preservation. The restored TF32-off tiny CPU handoff completed
+all 12 workers in 16.09 seconds with numerical agreement and observed replay;
+this does not establish CUDA accuracy, TF32 causation, or speed. All 14 archive
+members / 13 manifest hashes, directory-alias verification, and source-tamper
+rejection passed. The 44,059-byte archive preserves the prior package and
+reported spending ($1.195; $8.805 pilot reserve remaining).
+[Preparation evidence](report/checks/2026-10-21-cuda-convolution-precision-preparation.json).
+
+**Next human action:** launch the [explicit precision control](docs/cuda_convolution_comparison.md)
+on the existing university GPU, using the new archive/folder and the printed
+TF32-off flag. CUDA outcome, full-model recovery, research calibration, and
+budget admission remain pending. No paid compute, model weights, video pixels,
+commit, or push was used in this step.
+
+## 2026-10-21 — Strict convolution comparison prepared
+
+Prepared a separate synthetic comparison of the original upstream Conv3d:
+contiguous strict reference, channels-last-3D layout, and explicit native
+backend. Input-only and input/weight/bias gradient modes run in two fresh
+workers each (12 total). All retain strict determinism and the recorded
+precision flags. No scientific model/source/configuration or optimizer is
+changed and no candidate is selected automatically.
+
+A CPU FP64 patch matrix supplies independent predictions and analytic
+input/weight/bias derivatives. Fixed elementwise tolerances gate agreement
+with both this reference and contiguous Conv3d before timing. Numerical
+rejections are not timed; corrupted, incomplete, changed-runtime, or
+nonreplaying evidence cannot qualify or receive a speed ratio. Input layout
+conversion is included in candidate forward; setup and standalone conversion
+spans are separately labeled. Atomic progress and optional operator tables
+preserve failed/timeout evidence.
+
+**Verification:** all **269 repository tests passed**, with one actual-CUDA
+skip and 85 upstream warnings in 100.71 seconds. The 21 new checks passed
+independently. The restored handoff completed all 12 tiny CPU workers and
+both gradient modes in 13.63 seconds with numerical agreement and observed
+exact replay. All 12 archive members and 11 manifest file hashes verified.
+The package is 36,765 bytes. The 41 earlier scientific hashes and all four
+profiled source hashes remain unchanged. The first unscoped pytest discovery
+also collected upstream dataset tests with absent optional dependencies;
+the corrected `tests/` suite passed without installing anything.
+[Preparation evidence](report/checks/2026-10-21-cuda-convolution-preparation.json).
+
+**Next human action:** copy the handoff to the university Desktop project and
+launch it on `linux10609` using the [comparison guide](docs/cuda_convolution_comparison.md).
+Bounds are 45 seconds per worker, 480 seconds overall, a 540-second external
+supervisor, and 4 GiB allocator limit. CUDA support, numerical agreement,
+replay, performance, and memory of these candidates remain unverified.
+No model weights or video pixels were used; no new paid compute, commit,
+or push. Reported spending remains $1.195 / $8.805 pilot reserve remaining.
+Full-model recovery and research calibration/admission remain pending.
+
+## 2026-10-21 — University CUDA component evidence verified
+
+Retrieved the completed RTX 3070 export from `linux10609`. All 48 workers
+completed in 168.713 seconds; all worker checksums and provenance match the
+four current source and six upstream files. Recomputed all timing medians and
+comparisons from the saved results. Every worker has CUDA profiler events.
+Strict observed replay passes all 12 cases. All six default attention cases
+fail the combined input-gradient replay check; their between-worker forward
+signatures agree. This is a concrete nondeterminism lead, not proof of the
+cause of the earlier RTX 5090 full-model failure.
+
+The original patch Conv3d's input backward increased from **1.102 ms to
+3.400 seconds** under strict settings (3,085x backward, 1,471x total). Both
+strict traces identify cuDNN's `dgrad2d_grouped_direct_kernel`; forward remains
+about 1.1 ms. Other measured components remain in milliseconds. The RTX 3070
+result does not establish RTX 5090 behavior or remaining study runtime.
+[Outcome](report/checks/2026-10-21-university-cuda-components.md),
+[verified evidence](report/checks/2026-10-21-university-cuda-components.json).
+
+**Next:** compare explicit execution options for the same original Conv3d,
+retaining strict determinism and checking output, input, weight, and bias
+gradients before adoption. No candidate is implemented or benchmarked yet;
+scientific model/source/configuration settings are unchanged. No full-model
+recovery, research calibration, or study admission is claimed. No weights or
+video pixels were opened. Reported spending remains $1.195; no paid compute,
+commit, or push was performed in this analysis. The last complete local suite
+remains 248 passed with one actual-CUDA skip; it was not rerun for this
+analysis/documentation change.
+
 ## 2026-10-21 — Bounded component profiler prepared
 
 Implemented a synthetic component diagnostic using pinned upstream patch

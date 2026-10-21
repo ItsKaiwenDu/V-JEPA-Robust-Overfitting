@@ -64,3 +64,16 @@ profiler: actual pinned upstream operations, fixed operands/cotangents,
 finite gradient signatures, verified replay evidence, optional operator tables,
 and bounded worker groups. It does not replace model components. Read the
 [component profile guide](../docs/cuda_component_profile.md) before use.
+
+[cuda_convolution.py](cuda_convolution.py) compares strict execution choices
+for the original patch Conv3d using synthetic operands. An independent CPU FP64
+patch matrix supplies predictions and analytic input/weight/bias derivatives.
+Fixed numerical gates precede timed fresh-process replay; rejected/incomplete
+options cannot receive a speed ratio. No research component is replaced.
+The original TF32-permitted cuDNN reference failed the FP64 gate on CUDA, so
+no option qualified or was timed. The explicit precision control is separate
+from the study: `--cudnn-tf32 off` is recorded in each fresh worker and cannot
+be mixed with TF32-on evidence. See the
+[comparison guide](../docs/cuda_convolution_comparison.md). Its TF32-off CUDA
+control passes numerical gates and observed replay; native execution qualifies
+as an isolated component candidate, with full-model acceptance still pending.

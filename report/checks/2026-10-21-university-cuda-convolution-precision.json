@@ -1,0 +1,2679 @@
+{
+  "all_checks_passed": true,
+  "as_of": "2026-10-21",
+  "automatic_selection": false,
+  "budget_approved": false,
+  "comparison_to_failed_tf32_on_attempt": {
+    "declared_runtime_difference": "cuDNN allow_tf32 on -> off; other recorded runtime values match.",
+    "diagnostic_source_changes": "Schema-2 explicit precision control, mixed-policy rejection and validation signature retention; mathematical patch operation remains original Conv3d.",
+    "matching_pairs": [
+      {
+        "mode": "input",
+        "replay": 0,
+        "same_operands_oracle_and_shared_runtime": true,
+        "variant": "contiguous"
+      },
+      {
+        "mode": "input",
+        "replay": 1,
+        "same_operands_oracle_and_shared_runtime": true,
+        "variant": "contiguous"
+      },
+      {
+        "mode": "parameters",
+        "replay": 0,
+        "same_operands_oracle_and_shared_runtime": true,
+        "variant": "contiguous"
+      },
+      {
+        "mode": "parameters",
+        "replay": 1,
+        "same_operands_oracle_and_shared_runtime": true,
+        "variant": "contiguous"
+      },
+      {
+        "mode": "input",
+        "replay": 0,
+        "same_operands_oracle_and_shared_runtime": true,
+        "variant": "channels-last-3d"
+      },
+      {
+        "mode": "input",
+        "replay": 1,
+        "same_operands_oracle_and_shared_runtime": true,
+        "variant": "channels-last-3d"
+      },
+      {
+        "mode": "parameters",
+        "replay": 0,
+        "same_operands_oracle_and_shared_runtime": true,
+        "variant": "channels-last-3d"
+      },
+      {
+        "mode": "parameters",
+        "replay": 1,
+        "same_operands_oracle_and_shared_runtime": true,
+        "variant": "channels-last-3d"
+      },
+      {
+        "mode": "input",
+        "replay": 0,
+        "same_operands_oracle_and_shared_runtime": true,
+        "variant": "native"
+      },
+      {
+        "mode": "input",
+        "replay": 1,
+        "same_operands_oracle_and_shared_runtime": true,
+        "variant": "native"
+      },
+      {
+        "mode": "parameters",
+        "replay": 0,
+        "same_operands_oracle_and_shared_runtime": true,
+        "variant": "native"
+      },
+      {
+        "mode": "parameters",
+        "replay": 1,
+        "same_operands_oracle_and_shared_runtime": true,
+        "variant": "native"
+      }
+    ],
+    "observed_effect": "With identical operands and analytic oracle, disabling cuDNN TF32 resolves the reference output/weight accuracy rejection at unchanged tolerances.",
+    "scope": "This control resolves the observed isolated precision gate on this RTX 3070, not all numerical or full-model behavior.",
+    "session_sha256": "52a16013dfaebc38fd12de062db6923dfb01b5fe751c6469bde279b73eb77650"
+  },
+  "comparisons": {
+    "channels-last-3d": {
+      "input": {
+        "candidate_to_reference_total_ratio": 1.0073891541736741,
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 3.432392551214434,
+          "forward_seconds": 0.0025818527210503817,
+          "total_seconds": 3.4349744039354846
+        },
+        "numerical_validation_passed": true,
+        "observed_exact_replay": true,
+        "operands": {
+          "cotangent": {
+            "abs_max": 4.7723388671875,
+            "dtype": "torch.float32",
+            "sha256": "bc04aa9b5d1a3e8e4b0139e79fc694f705d79b27480169eccf18ade06ee1bfb7",
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "input": {
+            "abs_max": 5.3642730712890625,
+            "dtype": "torch.float32",
+            "sha256": "804794bfe08affc97e9716fe43b42d7869221a1a23ef7cafc93d25c6e5d74186",
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "parameters": {
+            "proj.bias": {
+              "abs_max": 0.02548132836818695,
+              "dtype": "torch.float32",
+              "sha256": "c9111a944c6a02bfcde8f4985b53bb07354e3f671f6698c22d212001f987327b",
+              "shape": [
+                1024
+              ]
+            },
+            "proj.weight": {
+              "abs_max": 0.025515494868159294,
+              "dtype": "torch.float32",
+              "sha256": "7ae8b49233dbc1b9bc0b680a172fddffa58cffb60d10f41db6637f9fc2784370",
+              "shape": [
+                1024,
+                3,
+                2,
+                16,
+                16
+              ]
+            }
+          }
+        },
+        "qualified": true,
+        "runtime": {
+          "cublas_workspace_config": ":4096:8",
+          "cuda": "12.8",
+          "cudnn": 91002,
+          "cudnn_benchmark": false,
+          "cudnn_deterministic": true,
+          "cudnn_enabled": true,
+          "cudnn_tf32": false,
+          "deterministic_algorithms": true,
+          "device": "cuda",
+          "hardware": {
+            "architecture": "x86_64",
+            "device": "cuda",
+            "gpu": "NVIDIA GeForce RTX 3070",
+            "macos": null,
+            "python": "3.11.17",
+            "vram_bytes": 8210939904
+          },
+          "matmul_precision": "highest",
+          "matmul_tf32": false,
+          "packages": {
+            "PyYAML": "6.0.3",
+            "einops": "0.8.2",
+            "timm": "1.0.30",
+            "torch": "2.8.0+cu128"
+          },
+          "policy": "strict",
+          "python": "3.11.17",
+          "threads": 4,
+          "torch": "2.8.0+cu128",
+          "warn_only": false
+        },
+        "same_operands_precision_and_shared_runtime": true,
+        "same_operands_runtime_and_oracle": true
+      },
+      "parameters": {
+        "candidate_to_reference_total_ratio": 1.0018435156985335,
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 3.4344758859369904,
+          "forward_seconds": 0.0025725224404595792,
+          "total_seconds": 3.43704840837745
+        },
+        "numerical_validation_passed": true,
+        "observed_exact_replay": true,
+        "operands": {
+          "cotangent": {
+            "abs_max": 4.7723388671875,
+            "dtype": "torch.float32",
+            "sha256": "bc04aa9b5d1a3e8e4b0139e79fc694f705d79b27480169eccf18ade06ee1bfb7",
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "input": {
+            "abs_max": 5.3642730712890625,
+            "dtype": "torch.float32",
+            "sha256": "804794bfe08affc97e9716fe43b42d7869221a1a23ef7cafc93d25c6e5d74186",
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "parameters": {
+            "proj.bias": {
+              "abs_max": 0.02548132836818695,
+              "dtype": "torch.float32",
+              "sha256": "c9111a944c6a02bfcde8f4985b53bb07354e3f671f6698c22d212001f987327b",
+              "shape": [
+                1024
+              ]
+            },
+            "proj.weight": {
+              "abs_max": 0.025515494868159294,
+              "dtype": "torch.float32",
+              "sha256": "7ae8b49233dbc1b9bc0b680a172fddffa58cffb60d10f41db6637f9fc2784370",
+              "shape": [
+                1024,
+                3,
+                2,
+                16,
+                16
+              ]
+            }
+          }
+        },
+        "qualified": true,
+        "runtime": {
+          "cublas_workspace_config": ":4096:8",
+          "cuda": "12.8",
+          "cudnn": 91002,
+          "cudnn_benchmark": false,
+          "cudnn_deterministic": true,
+          "cudnn_enabled": true,
+          "cudnn_tf32": false,
+          "deterministic_algorithms": true,
+          "device": "cuda",
+          "hardware": {
+            "architecture": "x86_64",
+            "device": "cuda",
+            "gpu": "NVIDIA GeForce RTX 3070",
+            "macos": null,
+            "python": "3.11.17",
+            "vram_bytes": 8210939904
+          },
+          "matmul_precision": "highest",
+          "matmul_tf32": false,
+          "packages": {
+            "PyYAML": "6.0.3",
+            "einops": "0.8.2",
+            "timm": "1.0.30",
+            "torch": "2.8.0+cu128"
+          },
+          "policy": "strict",
+          "python": "3.11.17",
+          "threads": 4,
+          "torch": "2.8.0+cu128",
+          "warn_only": false
+        },
+        "same_operands_precision_and_shared_runtime": true,
+        "same_operands_runtime_and_oracle": true
+      }
+    },
+    "contiguous": {
+      "input": {
+        "candidate_to_reference_total_ratio": 1.0,
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 3.4082588418386877,
+          "forward_seconds": 0.0015201792120933533,
+          "total_seconds": 3.409779021050781
+        },
+        "numerical_validation_passed": true,
+        "observed_exact_replay": true,
+        "operands": {
+          "cotangent": {
+            "abs_max": 4.7723388671875,
+            "dtype": "torch.float32",
+            "sha256": "bc04aa9b5d1a3e8e4b0139e79fc694f705d79b27480169eccf18ade06ee1bfb7",
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "input": {
+            "abs_max": 5.3642730712890625,
+            "dtype": "torch.float32",
+            "sha256": "804794bfe08affc97e9716fe43b42d7869221a1a23ef7cafc93d25c6e5d74186",
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "parameters": {
+            "proj.bias": {
+              "abs_max": 0.02548132836818695,
+              "dtype": "torch.float32",
+              "sha256": "c9111a944c6a02bfcde8f4985b53bb07354e3f671f6698c22d212001f987327b",
+              "shape": [
+                1024
+              ]
+            },
+            "proj.weight": {
+              "abs_max": 0.025515494868159294,
+              "dtype": "torch.float32",
+              "sha256": "7ae8b49233dbc1b9bc0b680a172fddffa58cffb60d10f41db6637f9fc2784370",
+              "shape": [
+                1024,
+                3,
+                2,
+                16,
+                16
+              ]
+            }
+          }
+        },
+        "qualified": true,
+        "runtime": {
+          "cublas_workspace_config": ":4096:8",
+          "cuda": "12.8",
+          "cudnn": 91002,
+          "cudnn_benchmark": false,
+          "cudnn_deterministic": true,
+          "cudnn_enabled": true,
+          "cudnn_tf32": false,
+          "deterministic_algorithms": true,
+          "device": "cuda",
+          "hardware": {
+            "architecture": "x86_64",
+            "device": "cuda",
+            "gpu": "NVIDIA GeForce RTX 3070",
+            "macos": null,
+            "python": "3.11.17",
+            "vram_bytes": 8210939904
+          },
+          "matmul_precision": "highest",
+          "matmul_tf32": false,
+          "packages": {
+            "PyYAML": "6.0.3",
+            "einops": "0.8.2",
+            "timm": "1.0.30",
+            "torch": "2.8.0+cu128"
+          },
+          "policy": "strict",
+          "python": "3.11.17",
+          "threads": 4,
+          "torch": "2.8.0+cu128",
+          "warn_only": false
+        },
+        "same_operands_precision_and_shared_runtime": true,
+        "same_operands_runtime_and_oracle": true
+      },
+      "parameters": {
+        "candidate_to_reference_total_ratio": 1.0,
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 3.4292115102289245,
+          "forward_seconds": 0.0015123049379326403,
+          "total_seconds": 3.430723815166857
+        },
+        "numerical_validation_passed": true,
+        "observed_exact_replay": true,
+        "operands": {
+          "cotangent": {
+            "abs_max": 4.7723388671875,
+            "dtype": "torch.float32",
+            "sha256": "bc04aa9b5d1a3e8e4b0139e79fc694f705d79b27480169eccf18ade06ee1bfb7",
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "input": {
+            "abs_max": 5.3642730712890625,
+            "dtype": "torch.float32",
+            "sha256": "804794bfe08affc97e9716fe43b42d7869221a1a23ef7cafc93d25c6e5d74186",
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "parameters": {
+            "proj.bias": {
+              "abs_max": 0.02548132836818695,
+              "dtype": "torch.float32",
+              "sha256": "c9111a944c6a02bfcde8f4985b53bb07354e3f671f6698c22d212001f987327b",
+              "shape": [
+                1024
+              ]
+            },
+            "proj.weight": {
+              "abs_max": 0.025515494868159294,
+              "dtype": "torch.float32",
+              "sha256": "7ae8b49233dbc1b9bc0b680a172fddffa58cffb60d10f41db6637f9fc2784370",
+              "shape": [
+                1024,
+                3,
+                2,
+                16,
+                16
+              ]
+            }
+          }
+        },
+        "qualified": true,
+        "runtime": {
+          "cublas_workspace_config": ":4096:8",
+          "cuda": "12.8",
+          "cudnn": 91002,
+          "cudnn_benchmark": false,
+          "cudnn_deterministic": true,
+          "cudnn_enabled": true,
+          "cudnn_tf32": false,
+          "deterministic_algorithms": true,
+          "device": "cuda",
+          "hardware": {
+            "architecture": "x86_64",
+            "device": "cuda",
+            "gpu": "NVIDIA GeForce RTX 3070",
+            "macos": null,
+            "python": "3.11.17",
+            "vram_bytes": 8210939904
+          },
+          "matmul_precision": "highest",
+          "matmul_tf32": false,
+          "packages": {
+            "PyYAML": "6.0.3",
+            "einops": "0.8.2",
+            "timm": "1.0.30",
+            "torch": "2.8.0+cu128"
+          },
+          "policy": "strict",
+          "python": "3.11.17",
+          "threads": 4,
+          "torch": "2.8.0+cu128",
+          "warn_only": false
+        },
+        "same_operands_precision_and_shared_runtime": true,
+        "same_operands_runtime_and_oracle": true
+      }
+    },
+    "native": {
+      "input": {
+        "candidate_to_reference_total_ratio": 0.0017295536237461762,
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.0010176574578508735,
+          "forward_seconds": 0.004879738204181194,
+          "total_seconds": 0.005897395662032068
+        },
+        "numerical_validation_passed": true,
+        "observed_exact_replay": true,
+        "operands": {
+          "cotangent": {
+            "abs_max": 4.7723388671875,
+            "dtype": "torch.float32",
+            "sha256": "bc04aa9b5d1a3e8e4b0139e79fc694f705d79b27480169eccf18ade06ee1bfb7",
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "input": {
+            "abs_max": 5.3642730712890625,
+            "dtype": "torch.float32",
+            "sha256": "804794bfe08affc97e9716fe43b42d7869221a1a23ef7cafc93d25c6e5d74186",
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "parameters": {
+            "proj.bias": {
+              "abs_max": 0.02548132836818695,
+              "dtype": "torch.float32",
+              "sha256": "c9111a944c6a02bfcde8f4985b53bb07354e3f671f6698c22d212001f987327b",
+              "shape": [
+                1024
+              ]
+            },
+            "proj.weight": {
+              "abs_max": 0.025515494868159294,
+              "dtype": "torch.float32",
+              "sha256": "7ae8b49233dbc1b9bc0b680a172fddffa58cffb60d10f41db6637f9fc2784370",
+              "shape": [
+                1024,
+                3,
+                2,
+                16,
+                16
+              ]
+            }
+          }
+        },
+        "qualified": true,
+        "runtime": {
+          "cublas_workspace_config": ":4096:8",
+          "cuda": "12.8",
+          "cudnn": 91002,
+          "cudnn_benchmark": false,
+          "cudnn_deterministic": true,
+          "cudnn_enabled": false,
+          "cudnn_tf32": false,
+          "deterministic_algorithms": true,
+          "device": "cuda",
+          "hardware": {
+            "architecture": "x86_64",
+            "device": "cuda",
+            "gpu": "NVIDIA GeForce RTX 3070",
+            "macos": null,
+            "python": "3.11.17",
+            "vram_bytes": 8210939904
+          },
+          "matmul_precision": "highest",
+          "matmul_tf32": false,
+          "packages": {
+            "PyYAML": "6.0.3",
+            "einops": "0.8.2",
+            "timm": "1.0.30",
+            "torch": "2.8.0+cu128"
+          },
+          "policy": "strict",
+          "python": "3.11.17",
+          "threads": 4,
+          "torch": "2.8.0+cu128",
+          "warn_only": false
+        },
+        "same_operands_precision_and_shared_runtime": true,
+        "same_operands_runtime_and_oracle": true
+      },
+      "parameters": {
+        "candidate_to_reference_total_ratio": 0.0020529332504315607,
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.0017104892176575959,
+          "forward_seconds": 0.005332557775545865,
+          "total_seconds": 0.007043046993203461
+        },
+        "numerical_validation_passed": true,
+        "observed_exact_replay": true,
+        "operands": {
+          "cotangent": {
+            "abs_max": 4.7723388671875,
+            "dtype": "torch.float32",
+            "sha256": "bc04aa9b5d1a3e8e4b0139e79fc694f705d79b27480169eccf18ade06ee1bfb7",
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "input": {
+            "abs_max": 5.3642730712890625,
+            "dtype": "torch.float32",
+            "sha256": "804794bfe08affc97e9716fe43b42d7869221a1a23ef7cafc93d25c6e5d74186",
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "parameters": {
+            "proj.bias": {
+              "abs_max": 0.02548132836818695,
+              "dtype": "torch.float32",
+              "sha256": "c9111a944c6a02bfcde8f4985b53bb07354e3f671f6698c22d212001f987327b",
+              "shape": [
+                1024
+              ]
+            },
+            "proj.weight": {
+              "abs_max": 0.025515494868159294,
+              "dtype": "torch.float32",
+              "sha256": "7ae8b49233dbc1b9bc0b680a172fddffa58cffb60d10f41db6637f9fc2784370",
+              "shape": [
+                1024,
+                3,
+                2,
+                16,
+                16
+              ]
+            }
+          }
+        },
+        "qualified": true,
+        "runtime": {
+          "cublas_workspace_config": ":4096:8",
+          "cuda": "12.8",
+          "cudnn": 91002,
+          "cudnn_benchmark": false,
+          "cudnn_deterministic": true,
+          "cudnn_enabled": false,
+          "cudnn_tf32": false,
+          "deterministic_algorithms": true,
+          "device": "cuda",
+          "hardware": {
+            "architecture": "x86_64",
+            "device": "cuda",
+            "gpu": "NVIDIA GeForce RTX 3070",
+            "macos": null,
+            "python": "3.11.17",
+            "vram_bytes": 8210939904
+          },
+          "matmul_precision": "highest",
+          "matmul_tf32": false,
+          "packages": {
+            "PyYAML": "6.0.3",
+            "einops": "0.8.2",
+            "timm": "1.0.30",
+            "torch": "2.8.0+cu128"
+          },
+          "policy": "strict",
+          "python": "3.11.17",
+          "threads": 4,
+          "torch": "2.8.0+cu128",
+          "warn_only": false
+        },
+        "same_operands_precision_and_shared_runtime": true,
+        "same_operands_runtime_and_oracle": true
+      }
+    }
+  },
+  "complete": true,
+  "compute": {
+    "new_paid_compute_usd": 0,
+    "overall_cap_usd": 200,
+    "pilot_reserve_remaining_usd": 8.805,
+    "planned_compute_cap_usd": 160,
+    "total_user_reported_spend_usd": 1.195
+  },
+  "cuda_build": "12.8",
+  "cudnn": 91002,
+  "data": {
+    "confirmation_test_pixels_opened": false,
+    "model_weights_loaded": false,
+    "video_pixels_loaded": false
+  },
+  "diagnostic_only": true,
+  "evidence": {
+    "handoff_archive_sha256": "db7fbc8c32872ad560c8e831cecd38f0bc577a80796865a98723fe055e84cf59",
+    "launcher_files_sha256": {
+      "exit_status.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "launcher.log": "080c46f7eaf4e6f2f29b1e249afeb6ad35cff87dec2526796938ef21c503f619",
+      "launcher.pid": "b1392060b357cf6755e26f5534388f0b38edc521116f3281e396043ad64a38bd"
+    },
+    "root": "runs/pretrained/diagnostic/university-convolution-precision-results-20261021",
+    "session_sha256": "a1ea143c5b945dece3322974375586615cc78451ca20ce15d50e7052574da19a",
+    "worker_results_sha256": {
+      "workers/channels-last-3d/input-0.json": "e9dfc3e7fa33362b08d044b3c4adc48f29eda7b856ed7535792ca0e11f34053a",
+      "workers/channels-last-3d/input-1.json": "7af1125e51dd587a833fc81b4fd197c96ecc633ab53689de403d055aa1f25912",
+      "workers/channels-last-3d/parameters-0.json": "e8600b1c5d6b36b3b807924e56a919d6a3fcfaed3b4f05c51d7dbc1ebe2c354c",
+      "workers/channels-last-3d/parameters-1.json": "0ff5dc15595bf8748971fffae8e0d26aa3ed448ed8265c763a0a5096a7eaaa4f",
+      "workers/contiguous/input-0.json": "20150cd2ef9c80dc09005acae233011bc6a401b711933fad363bc95d016e10fb",
+      "workers/contiguous/input-1.json": "0812848b5508e39a9f3aa1ba20d8ea9915d51cebf725b29e50d3a4974cfddad5",
+      "workers/contiguous/parameters-0.json": "dc68d5aec53aed68dafeeffa53bb24c10b13a65b1d0b3d0a0d734149c3e09609",
+      "workers/contiguous/parameters-1.json": "b61d264e3c750657749d870d1c5aa99d4841acc398a1532f97327aa2ccc2bd7e",
+      "workers/native/input-0.json": "0de375f98ff1c6d1c16091d78e0b5ac78cd7d3d07f3e655a0451236084f03028",
+      "workers/native/input-1.json": "70cf95a7c7d455e94b0986910949c863cb22325f886a082e82e3d5df7bf77161",
+      "workers/native/parameters-0.json": "595732a4d4b51651f0b7c58ad3f055df54f01414db6bc09b7bc601626b9f8130",
+      "workers/native/parameters-1.json": "5b1e3ac8dfb94527e299d6231a931abb06b02c9a91c68114f48f3e4c13040426"
+    }
+  },
+  "full_model_validated": false,
+  "gpu": "NVIDIA GeForce RTX 3070",
+  "host": "linux10609",
+  "kind": "university_explicit_tf32_off_convolution_outcome",
+  "launcher_exit_status": 0,
+  "limits": [
+    "Synthetic isolated patch projection with random weights; no pretrained transformer or optimizer was executed.",
+    "Two fresh workers per option/mode, two timed repetitions and one warmup provide bounded observations only.",
+    "Qualified numerical agreement across backends is within fixed tolerances, not identical outputs across different algorithms.",
+    "Native was exact within and between the tested workers; this is not full-model or universal reproducibility.",
+    "The 578x/487x component speedups cannot be interpreted as whole-model or study speedups.",
+    "Channels-last does not remove the slow cuDNN input-gradient kernel in this test.",
+    "The earlier RTX 5090 16x attack slowdown still lacks direct kernel confirmation on that GPU."
+  ],
+  "max_validation_tolerance_ratio": 0.7361618098963588,
+  "max_worker_peak_allocated_bytes": 165687808,
+  "memory_scope": "Whole-worker diagnostic peak includes candidate and reference validation/profiling; excludes driver allocations and is not pure candidate production memory.",
+  "native_isolated_total_speedups_vs_tf32_off_cudnn": {
+    "input": 578.183865634661,
+    "parameters": 487.1078978285258
+  },
+  "next_acceptance": [
+    "Prepare an opt-in integration of original Conv3d native execution with default training behavior preserved.",
+    "Bind backend scope and explicit precision to runtime, cached-target, anchor and resume identities; reject stale evidence.",
+    "Check full-model native loss/input and parameter gradients, finite attacks, clean frozen targets, and exact interrupted/uninterrupted training recovery.",
+    "Use fresh targets and outputs for the chosen diagnostic runtime; never compare or resume mixed precision/backend contracts.",
+    "Measure representative RTX 5090 full-model throughput/memory and complete missing costs before study admission."
+  ],
+  "operator_evidence": {
+    "channels-last-3d/input/0": {
+      "cuda_peak_allocated_bytes": 83894272,
+      "layout": {
+        "convolution_input_stride": [
+          3145728,
+          1,
+          196608,
+          768,
+          3
+        ],
+        "input_conversion_included_in_forward": true,
+        "input_leaf_stride": [
+          3145728,
+          1048576,
+          65536,
+          256,
+          1
+        ],
+        "standalone_input_conversion_seconds": 0.00018706894479691982,
+        "state_keys": [
+          "proj.weight",
+          "proj.bias"
+        ],
+        "weight_layout_setup_seconds": 0.002268632873892784,
+        "weight_stride": [
+          1536,
+          1,
+          768,
+          48,
+          3
+        ]
+      },
+      "median_seconds": {
+        "backward_seconds": 3.4328779723728076,
+        "forward_seconds": 0.0025832965038716793,
+        "total_seconds": 3.4354612688766792
+      },
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": true,
+        "cudnn_tf32": false,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "top_device": [
+        {
+          "count": 1,
+          "name": "aten::convolution_backward",
+          "self_cpu_us": 43.983999999999924,
+          "self_device_us": 3437020.339,
+          "total_device_us": 3437085.203
+        },
+        {
+          "count": 1,
+          "name": "void cudnn::cnn::dgrad2d_grouped_direct_kernel<float, int, float, float, true, true, 0, 0>(cudnn::cnn::DgradGroupedDirectParams, float const*, float const*, float*, float, float)",
+          "self_cpu_us": 0,
+          "self_device_us": 3437020.339,
+          "total_device_us": 3437020.339
+        },
+        {
+          "count": 1,
+          "name": "convolution.forward",
+          "self_cpu_us": 0,
+          "self_device_us": 2617.3179999999998,
+          "total_device_us": 2617.3179999999998
+        },
+        {
+          "count": 1,
+          "name": "aten::cudnn_convolution",
+          "self_cpu_us": 51.398000000000025,
+          "self_device_us": 2407.46,
+          "total_device_us": 2407.46
+        },
+        {
+          "count": 1,
+          "name": "void implicit_convolveNd_sgemm<float, 3, 1024, 5, 5, 3, 3, 3, 1, false, false, true>(int, int, int, float const*, int, float*, float const*, kernel_convNd_params, unsigned long long, int, float, float, int, float const*, float const*, bool, bool)",
+          "self_cpu_us": 0,
+          "self_device_us": 2336.516,
+          "total_device_us": 2336.516
+        },
+        {
+          "count": 2,
+          "name": "aten::copy_",
+          "self_cpu_us": 21.512000000000057,
+          "self_device_us": 107.26399999999995,
+          "total_device_us": 107.26399999999995
+        },
+        {
+          "count": 1,
+          "name": "void cudnn::engines_precompiled::nhwcToNchwKernel<float, float, float, true, false, (cudnnKernelDataType_t)0>(cudnn::engines_precompiled::nhwc2nchw_params_t<float>, float const*, float*)",
+          "self_cpu_us": 0,
+          "self_device_us": 70.94399999999996,
+          "total_device_us": 70.94399999999996
+        },
+        {
+          "count": 1,
+          "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1})",
+          "self_cpu_us": 0,
+          "self_device_us": 63.16799999999995,
+          "total_device_us": 63.16799999999995
+        },
+        {
+          "count": 2,
+          "name": "aten::fill_",
+          "self_cpu_us": 27.340000000000032,
+          "self_device_us": 49.66500000000002,
+          "total_device_us": 78.56200000000001
+        },
+        {
+          "count": 2,
+          "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+          "self_cpu_us": 0,
+          "self_device_us": 49.66500000000002,
+          "total_device_us": 49.66500000000002
+        },
+        {
+          "count": 1,
+          "name": "Memcpy DtoD (Device -> Device)",
+          "self_cpu_us": 0,
+          "self_device_us": 44.096000000000004,
+          "total_device_us": 44.096000000000004
+        },
+        {
+          "count": 1,
+          "name": "aten::add_",
+          "self_cpu_us": 12.184999999999945,
+          "self_device_us": 39.00899999999956,
+          "total_device_us": 39.00899999999956
+        },
+        {
+          "count": 1,
+          "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<float> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<float> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<float> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<float> const&)::{lambda(int)#1})",
+          "self_cpu_us": 0,
+          "self_device_us": 39.00899999999956,
+          "total_device_us": 39.00899999999956
+        },
+        {
+          "count": 1,
+          "name": "Activity Buffer Request",
+          "self_cpu_us": 114.678,
+          "self_device_us": 28.89699999999999,
+          "total_device_us": 28.89699999999999
+        },
+        {
+          "count": 1,
+          "name": "convolution.forward",
+          "self_cpu_us": 162.0830000000002,
+          "self_device_us": 0.0,
+          "total_device_us": 2567.4309999999996
+        }
+      ],
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516502e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 5.543440160682422e-06,
+            "max_tolerance_ratio": 0.11369250565779636,
+            "passed": true,
+            "relative_l2_error": 7.017073522212679e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 5.543440160682422e-06,
+            "max_tolerance_ratio": 0.11369250565779636,
+            "passed": true,
+            "relative_l2_error": 7.017073522212643e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        }
+      }
+    },
+    "channels-last-3d/parameters/0": {
+      "cuda_peak_allocated_bytes": 102777344,
+      "layout": {
+        "convolution_input_stride": [
+          3145728,
+          1,
+          196608,
+          768,
+          3
+        ],
+        "input_conversion_included_in_forward": true,
+        "input_leaf_stride": [
+          3145728,
+          1048576,
+          65536,
+          256,
+          1
+        ],
+        "standalone_input_conversion_seconds": 0.00018752994947135448,
+        "state_keys": [
+          "proj.weight",
+          "proj.bias"
+        ],
+        "weight_layout_setup_seconds": 0.0023285849019885063,
+        "weight_stride": [
+          1536,
+          1,
+          768,
+          48,
+          3
+        ]
+      },
+      "median_seconds": {
+        "backward_seconds": 3.4346481889951974,
+        "forward_seconds": 0.002575163380242884,
+        "total_seconds": 3.4372233523754403
+      },
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": true,
+        "cudnn_tf32": false,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "top_device": [
+        {
+          "count": 1,
+          "name": "aten::convolution_backward",
+          "self_cpu_us": 58.178999999999974,
+          "self_device_us": 3435130.8950000005,
+          "total_device_us": 3435239.375
+        },
+        {
+          "count": 1,
+          "name": "void cudnn::cnn::dgrad2d_grouped_direct_kernel<float, int, float, float, true, true, 0, 0>(cudnn::cnn::DgradGroupedDirectParams, float const*, float const*, float*, float, float)",
+          "self_cpu_us": 0,
+          "self_device_us": 3433993.966,
+          "total_device_us": 3433993.966
+        },
+        {
+          "count": 1,
+          "name": "convolution.forward",
+          "self_cpu_us": 0,
+          "self_device_us": 2650.818,
+          "total_device_us": 2650.818
+        },
+        {
+          "count": 1,
+          "name": "aten::cudnn_convolution",
+          "self_cpu_us": 52.057000000000016,
+          "self_device_us": 2426.754,
+          "total_device_us": 2426.754
+        },
+        {
+          "count": 1,
+          "name": "void implicit_convolveNd_sgemm<float, 3, 1024, 5, 5, 3, 3, 3, 1, false, false, true>(int, int, int, float const*, int, float*, float const*, kernel_convNd_params, unsigned long long, int, float, float, int, float const*, float const*, bool, bool)",
+          "self_cpu_us": 0,
+          "self_device_us": 2355.842,
+          "total_device_us": 2355.842
+        },
+        {
+          "count": 1,
+          "name": "void wgrad_alg1_nd_float_engine<float, float, 3, 0, 5, 7, 4, 3, 5, false, false>(int, int, int, float const*, int, float*, float const*, kernel_gradNd_params, unsigned long long, int, float, float, int, int, int*, int*)",
+          "self_cpu_us": 0,
+          "self_device_us": 890.4330000001937,
+          "total_device_us": 890.4330000001937
+        },
+        {
+          "count": 3,
+          "name": "void cudnn::engines_precompiled::nhwcToNchwKernel<float, float, float, true, false, (cudnnKernelDataType_t)0>(cudnn::engines_precompiled::nhwc2nchw_params_t<float>, float const*, float*)",
+          "self_cpu_us": 0,
+          "self_device_us": 249.85599999966837,
+          "total_device_us": 249.85599999966837
+        },
+        {
+          "count": 2,
+          "name": "aten::copy_",
+          "self_cpu_us": 21.287999999999954,
+          "self_device_us": 106.55999999999977,
+          "total_device_us": 106.55999999999977
+        },
+        {
+          "count": 1,
+          "name": "void cudnn::engines_precompiled::nchwToNhwcKernel<float, float, float, false, true, (cudnnKernelDataType_t)0>(cudnn::engines_precompiled::nchw2nhwc_params_t<float>, float const*, float*)",
+          "self_cpu_us": 0,
+          "self_device_us": 66.72000000020489,
+          "total_device_us": 66.72000000020489
+        },
+        {
+          "count": 1,
+          "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1})",
+          "self_cpu_us": 0,
+          "self_device_us": 63.26399999999995,
+          "total_device_us": 63.26399999999995
+        },
+        {
+          "count": 3,
+          "name": "aten::fill_",
+          "self_cpu_us": 31.46800000000013,
+          "self_device_us": 62.751999999627344,
+          "total_device_us": 91.16799999962734
+        },
+        {
+          "count": 3,
+          "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+          "self_cpu_us": 0,
+          "self_device_us": 62.751999999627344,
+          "total_device_us": 62.751999999627344
+        },
+        {
+          "count": 1,
+          "name": "Memcpy DtoD (Device -> Device)",
+          "self_cpu_us": 0,
+          "self_device_us": 43.29599999999982,
+          "total_device_us": 43.29599999999982
+        },
+        {
+          "count": 1,
+          "name": "aten::add_",
+          "self_cpu_us": 11.988999999999919,
+          "self_device_us": 38.94399999999996,
+          "total_device_us": 38.94399999999996
+        },
+        {
+          "count": 1,
+          "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<float> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<float> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<float> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<float> const&)::{lambda(int)#1})",
+          "self_cpu_us": 0,
+          "self_device_us": 38.94399999999996,
+          "total_device_us": 38.94399999999996
+        }
+      ],
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.557385257910937e-05,
+            "max_tolerance_ratio": 0.05067455108243257,
+            "passed": true,
+            "relative_l2_error": 9.734871782289891e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516502e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 5.543440160682422e-06,
+            "max_tolerance_ratio": 0.11369250565779636,
+            "passed": true,
+            "relative_l2_error": 7.017073522212679e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0004525589133663743,
+            "max_tolerance_ratio": 0.6346119846420775,
+            "passed": true,
+            "relative_l2_error": 8.090653889827743e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.557385257910937e-05,
+            "max_tolerance_ratio": 0.05067455108243257,
+            "passed": true,
+            "relative_l2_error": 9.734871782289891e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 5.543440160682422e-06,
+            "max_tolerance_ratio": 0.11369250565779636,
+            "passed": true,
+            "relative_l2_error": 7.017073522212643e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0004525589133663743,
+            "max_tolerance_ratio": 0.6346119846420775,
+            "passed": true,
+            "relative_l2_error": 8.090653889827734e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    },
+    "contiguous/input/0": {
+      "cuda_peak_allocated_bytes": 56627200,
+      "layout": {
+        "convolution_input_stride": [
+          3145728,
+          1048576,
+          65536,
+          256,
+          1
+        ],
+        "input_conversion_included_in_forward": false,
+        "input_leaf_stride": [
+          3145728,
+          1048576,
+          65536,
+          256,
+          1
+        ],
+        "standalone_input_conversion_seconds": 1.3311859220266342e-05,
+        "state_keys": [
+          "proj.weight",
+          "proj.bias"
+        ],
+        "weight_layout_setup_seconds": 1.0136980563402176e-05,
+        "weight_stride": [
+          1536,
+          512,
+          256,
+          16,
+          1
+        ]
+      },
+      "median_seconds": {
+        "backward_seconds": 3.396278413129039,
+        "forward_seconds": 0.0014987714821472764,
+        "total_seconds": 3.3977771846111864
+      },
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": true,
+        "cudnn_tf32": false,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "top_device": [
+        {
+          "count": 1,
+          "name": "aten::convolution_backward",
+          "self_cpu_us": 44.46100000000001,
+          "self_device_us": 3395876.509,
+          "total_device_us": 3395954.59
+        },
+        {
+          "count": 1,
+          "name": "void cudnn::cnn::dgrad2d_grouped_direct_kernel<float, int, float, float, true, true, 0, 0>(cudnn::cnn::DgradGroupedDirectParams, float const*, float const*, float*, float, float)",
+          "self_cpu_us": 0,
+          "self_device_us": 3395876.509,
+          "total_device_us": 3395876.509
+        },
+        {
+          "count": 1,
+          "name": "convolution.forward",
+          "self_cpu_us": 0,
+          "self_device_us": 1369.058,
+          "total_device_us": 1369.058
+        },
+        {
+          "count": 1,
+          "name": "aten::cudnn_convolution",
+          "self_cpu_us": 76.04200000000003,
+          "self_device_us": 1328.898,
+          "total_device_us": 2657.796
+        },
+        {
+          "count": 1,
+          "name": "Activity Buffer Request",
+          "self_cpu_us": 129.017,
+          "self_device_us": 1328.898,
+          "total_device_us": 1328.898
+        },
+        {
+          "count": 1,
+          "name": "void implicit_convolveNd_sgemm<float, 3, 1024, 5, 5, 3, 3, 3, 1, false, false, true>(int, int, int, float const*, int, float*, float const*, kernel_convNd_params, unsigned long long, int, float, float, int, float const*, float const*, bool, bool)",
+          "self_cpu_us": 0,
+          "self_device_us": 1328.898,
+          "total_device_us": 1328.898
+        },
+        {
+          "count": 1,
+          "name": "aten::copy_",
+          "self_cpu_us": 15.579999999999927,
+          "self_device_us": 57.21699999999987,
+          "total_device_us": 57.21699999999987
+        },
+        {
+          "count": 1,
+          "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1})",
+          "self_cpu_us": 0,
+          "self_device_us": 57.21699999999987,
+          "total_device_us": 57.21699999999987
+        },
+        {
+          "count": 1,
+          "name": "aten::add_",
+          "self_cpu_us": 21.87799999999993,
+          "self_device_us": 39.51999999999998,
+          "total_device_us": 39.51999999999998
+        },
+        {
+          "count": 1,
+          "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<float> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<float> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<float> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<float> const&)::{lambda(int)#1})",
+          "self_cpu_us": 0,
+          "self_device_us": 39.51999999999998,
+          "total_device_us": 39.51999999999998
+        },
+        {
+          "count": 1,
+          "name": "aten::fill_",
+          "self_cpu_us": 9.283999999999878,
+          "self_device_us": 20.864000000000033,
+          "total_device_us": 20.864000000000033
+        },
+        {
+          "count": 1,
+          "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+          "self_cpu_us": 0,
+          "self_device_us": 20.864000000000033,
+          "total_device_us": 20.864000000000033
+        },
+        {
+          "count": 1,
+          "name": "convolution.forward",
+          "self_cpu_us": 134.32600000000002,
+          "self_device_us": 0.0,
+          "total_device_us": 2697.316
+        },
+        {
+          "count": 1,
+          "name": "aten::conv3d",
+          "self_cpu_us": 6.407000000000039,
+          "self_device_us": 0.0,
+          "total_device_us": 2697.316
+        },
+        {
+          "count": 1,
+          "name": "aten::convolution",
+          "self_cpu_us": 22.81899999999996,
+          "self_device_us": 0.0,
+          "total_device_us": 2697.316
+        }
+      ],
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 5.543440160682422e-06,
+            "max_tolerance_ratio": 0.11369250565779636,
+            "passed": true,
+            "relative_l2_error": 7.017073522212643e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 5.543440160682422e-06,
+            "max_tolerance_ratio": 0.11369250565779636,
+            "passed": true,
+            "relative_l2_error": 7.017073522212643e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        }
+      }
+    },
+    "contiguous/parameters/0": {
+      "cuda_peak_allocated_bytes": 71311872,
+      "layout": {
+        "convolution_input_stride": [
+          3145728,
+          1048576,
+          65536,
+          256,
+          1
+        ],
+        "input_conversion_included_in_forward": false,
+        "input_leaf_stride": [
+          3145728,
+          1048576,
+          65536,
+          256,
+          1
+        ],
+        "standalone_input_conversion_seconds": 1.5284866094589233e-05,
+        "state_keys": [
+          "proj.weight",
+          "proj.bias"
+        ],
+        "weight_layout_setup_seconds": 9.786803275346756e-06,
+        "weight_stride": [
+          1536,
+          512,
+          256,
+          16,
+          1
+        ]
+      },
+      "median_seconds": {
+        "backward_seconds": 3.423265393008478,
+        "forward_seconds": 0.0015094464179128408,
+        "total_seconds": 3.424774839426391
+      },
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": true,
+        "cudnn_tf32": false,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "top_device": [
+        {
+          "count": 1,
+          "name": "aten::convolution_backward",
+          "self_cpu_us": 65.36299999999994,
+          "self_device_us": 3427694.79,
+          "total_device_us": 3427894.3419999992
+        },
+        {
+          "count": 1,
+          "name": "void cudnn::cnn::dgrad2d_grouped_direct_kernel<float, int, float, float, true, true, 0, 0>(cudnn::cnn::DgradGroupedDirectParams, float const*, float const*, float*, float, float)",
+          "self_cpu_us": 0,
+          "self_device_us": 3426807.491,
+          "total_device_us": 3426807.491
+        },
+        {
+          "count": 1,
+          "name": "convolution.forward",
+          "self_cpu_us": 0,
+          "self_device_us": 1377.6680000000001,
+          "total_device_us": 1377.6680000000001
+        },
+        {
+          "count": 1,
+          "name": "aten::cudnn_convolution",
+          "self_cpu_us": 72.78400000000005,
+          "self_device_us": 1336.644,
+          "total_device_us": 2673.288
+        },
+        {
+          "count": 1,
+          "name": "Activity Buffer Request",
+          "self_cpu_us": 116.012,
+          "self_device_us": 1336.644,
+          "total_device_us": 1336.644
+        },
+        {
+          "count": 1,
+          "name": "void implicit_convolveNd_sgemm<float, 3, 1024, 5, 5, 3, 3, 3, 1, false, false, true>(int, int, int, float const*, int, float*, float const*, kernel_convNd_params, unsigned long long, int, float, float, int, float const*, float const*, bool, bool)",
+          "self_cpu_us": 0,
+          "self_device_us": 1336.644,
+          "total_device_us": 1336.644
+        },
+        {
+          "count": 1,
+          "name": "void wgrad_alg1_nd_float_engine<float, float, 3, 0, 5, 7, 4, 3, 5, false, false>(int, int, int, float const*, int, float*, float const*, kernel_gradNd_params, unsigned long long, int, float, float, int, int, int*, int*)",
+          "self_cpu_us": 0,
+          "self_device_us": 886.4990000003017,
+          "total_device_us": 886.4990000003017
+        },
+        {
+          "count": 2,
+          "name": "aten::copy_",
+          "self_cpu_us": 14.186000000000263,
+          "self_device_us": 114.49600000004102,
+          "total_device_us": 114.49600000004102
+        },
+        {
+          "count": 2,
+          "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1})",
+          "self_cpu_us": 0,
+          "self_device_us": 114.49600000004102,
+          "total_device_us": 114.49600000004102
+        },
+        {
+          "count": 3,
+          "name": "aten::fill_",
+          "self_cpu_us": 14.507999999999697,
+          "self_device_us": 55.74399999944853,
+          "total_device_us": 55.74399999944853
+        },
+        {
+          "count": 3,
+          "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+          "self_cpu_us": 0,
+          "self_device_us": 55.74399999944853,
+          "total_device_us": 55.74399999944853
+        },
+        {
+          "count": 1,
+          "name": "aten::add_",
+          "self_cpu_us": 21.382000000000062,
+          "self_device_us": 40.320000000000164,
+          "total_device_us": 40.320000000000164
+        },
+        {
+          "count": 1,
+          "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<float> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<float> const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::CUDAFunctor_add<float> >(at::TensorIteratorBase&, at::native::CUDAFunctor_add<float> const&)::{lambda(int)#1})",
+          "self_cpu_us": 0,
+          "self_device_us": 40.320000000000164,
+          "total_device_us": 40.320000000000164
+        },
+        {
+          "count": 1,
+          "name": "aten::sum",
+          "self_cpu_us": 19.72699999999986,
+          "self_device_us": 29.311999999918044,
+          "total_device_us": 29.311999999918044
+        },
+        {
+          "count": 1,
+          "name": "void at::native::reduce_kernel<128, 4, at::native::ReduceOp<float, at::native::func_wrapper_t<float, at::native::sum_functor<float, float, float>::operator()(at::TensorIterator&)::{lambda(float, float)#1}>, unsigned int, float, 4, 4> >(at::native::ReduceOp<float, at::native::func_wrapper_t<float, at::native::sum_functor<float, float, float>::operator()(at::TensorIterator&)::{lambda(float, float)#1}>, unsigned int, float, 4, 4>)",
+          "self_cpu_us": 0,
+          "self_device_us": 28.959999999962747,
+          "total_device_us": 28.959999999962747
+        }
+      ],
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.557385257910937e-05,
+            "max_tolerance_ratio": 0.05067455108243257,
+            "passed": true,
+            "relative_l2_error": 9.734871782289891e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 5.543440160682422e-06,
+            "max_tolerance_ratio": 0.11369250565779636,
+            "passed": true,
+            "relative_l2_error": 7.017073522212643e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0004525589133663743,
+            "max_tolerance_ratio": 0.6346119846420775,
+            "passed": true,
+            "relative_l2_error": 8.090653889827734e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.557385257910937e-05,
+            "max_tolerance_ratio": 0.05067455108243257,
+            "passed": true,
+            "relative_l2_error": 9.734871782289891e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 5.543440160682422e-06,
+            "max_tolerance_ratio": 0.11369250565779636,
+            "passed": true,
+            "relative_l2_error": 7.017073522212643e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0004525589133663743,
+            "max_tolerance_ratio": 0.6346119846420775,
+            "passed": true,
+            "relative_l2_error": 8.090653889827734e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    },
+    "native/input/0": {
+      "cuda_peak_allocated_bytes": 151003136,
+      "layout": {
+        "convolution_input_stride": [
+          3145728,
+          1048576,
+          65536,
+          256,
+          1
+        ],
+        "input_conversion_included_in_forward": false,
+        "input_leaf_stride": [
+          3145728,
+          1048576,
+          65536,
+          256,
+          1
+        ],
+        "standalone_input_conversion_seconds": 1.3688113540410995e-05,
+        "state_keys": [
+          "proj.weight",
+          "proj.bias"
+        ],
+        "weight_layout_setup_seconds": 9.723007678985596e-06,
+        "weight_stride": [
+          1536,
+          512,
+          256,
+          16,
+          1
+        ]
+      },
+      "median_seconds": {
+        "backward_seconds": 0.0010220579570159316,
+        "forward_seconds": 0.004894705954939127,
+        "total_seconds": 0.005916763911955059
+      },
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": false,
+        "cudnn_tf32": false,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "top_device": [
+        {
+          "count": 1,
+          "name": "convolution.forward",
+          "self_cpu_us": 0,
+          "self_device_us": 11501.764,
+          "total_device_us": 11501.764
+        },
+        {
+          "count": 1025,
+          "name": "aten::copy_",
+          "self_cpu_us": 2787.7540000000404,
+          "self_device_us": 1438.4500000000114,
+          "total_device_us": 1438.4500000000114
+        },
+        {
+          "count": 1025,
+          "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1})",
+          "self_cpu_us": 0,
+          "self_device_us": 1438.4500000000114,
+          "total_device_us": 1438.4500000000114
+        },
+        {
+          "count": 1,
+          "name": "aten::convolution_backward",
+          "self_cpu_us": 86.53999999999905,
+          "self_device_us": 689.632999999998,
+          "total_device_us": 829.185999999996
+        },
+        {
+          "count": 1,
+          "name": "aten::slow_conv_dilated3d",
+          "self_cpu_us": 1735.4279999999708,
+          "self_device_us": 658.1449999999986,
+          "total_device_us": 2111.3140000000103
+        },
+        {
+          "count": 1,
+          "name": "ampere_sgemm_128x128_nn",
+          "self_cpu_us": 0,
+          "self_device_us": 499.2009999999991,
+          "total_device_us": 499.2009999999991
+        },
+        {
+          "count": 1,
+          "name": "ampere_sgemm_128x64_nt",
+          "self_cpu_us": 0,
+          "self_device_us": 472.3199999999997,
+          "total_device_us": 472.3199999999997
+        },
+        {
+          "count": 1,
+          "name": "void at::native::vol2im_kernel<float, float>(long, float const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, float*)",
+          "self_cpu_us": 0,
+          "self_device_us": 216.73599999999897,
+          "total_device_us": 216.73599999999897
+        },
+        {
+          "count": 1,
+          "name": "void at::native::vol2col_kernel<float>(long, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*)",
+          "self_cpu_us": 0,
+          "self_device_us": 158.52799999999843,
+          "total_device_us": 158.52799999999843
+        },
+        {
+          "count": 1033,
+          "name": "aten::fill_",
+          "self_cpu_us": 1407.2419999999904,
+          "self_device_us": 134.3049999999983,
+          "total_device_us": 1535.4100000000099
+        },
+        {
+          "count": 7,
+          "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+          "self_cpu_us": 0,
+          "self_device_us": 134.3049999999983,
+          "total_device_us": 134.3049999999983
+        },
+        {
+          "count": 1,
+          "name": "Activity Buffer Request",
+          "self_cpu_us": 107.14999999999998,
+          "self_device_us": 19.96700000000004,
+          "total_device_us": 19.96700000000004
+        },
+        {
+          "count": 2,
+          "name": "Memset (Device)",
+          "self_cpu_us": 0,
+          "self_device_us": 0.9930000000003929,
+          "total_device_us": 0.9930000000003929
+        },
+        {
+          "count": 1,
+          "name": "convolution.forward",
+          "self_cpu_us": 134.70500000000175,
+          "self_device_us": 0.0,
+          "total_device_us": 2111.3140000000103
+        },
+        {
+          "count": 1,
+          "name": "aten::conv3d",
+          "self_cpu_us": 6.973999999998341,
+          "self_device_us": 0.0,
+          "total_device_us": 2111.3140000000103
+        }
+      ],
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.2186508178710938e-06,
+            "max_tolerance_ratio": 0.05464045366541598,
+            "passed": true,
+            "relative_l2_error": 5.446121490598205e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 4.76837158203125e-06,
+            "max_tolerance_ratio": 0.09774136716593193,
+            "passed": true,
+            "relative_l2_error": 6.681873304617492e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 1.8469800397435954e-06,
+            "max_tolerance_ratio": 0.06852546419661182,
+            "passed": true,
+            "relative_l2_error": 4.0674083423845005e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 2.6778907136204566e-06,
+            "max_tolerance_ratio": 0.10476938657924083,
+            "passed": true,
+            "relative_l2_error": 4.965593007411331e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 5.543440160682422e-06,
+            "max_tolerance_ratio": 0.11369250565779636,
+            "passed": true,
+            "relative_l2_error": 7.017073522212643e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        }
+      }
+    },
+    "native/parameters/0": {
+      "cuda_peak_allocated_bytes": 165687808,
+      "layout": {
+        "convolution_input_stride": [
+          3145728,
+          1048576,
+          65536,
+          256,
+          1
+        ],
+        "input_conversion_included_in_forward": false,
+        "input_leaf_stride": [
+          3145728,
+          1048576,
+          65536,
+          256,
+          1
+        ],
+        "standalone_input_conversion_seconds": 1.3947021216154099e-05,
+        "state_keys": [
+          "proj.weight",
+          "proj.bias"
+        ],
+        "weight_layout_setup_seconds": 1.0111136361956596e-05,
+        "weight_stride": [
+          1536,
+          512,
+          256,
+          16,
+          1
+        ]
+      },
+      "median_seconds": {
+        "backward_seconds": 0.0017441045492887497,
+        "forward_seconds": 0.004995017545297742,
+        "total_seconds": 0.006739122094586492
+      },
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": false,
+        "cudnn_tf32": false,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "top_device": [
+        {
+          "count": 1,
+          "name": "convolution.forward",
+          "self_cpu_us": 0,
+          "self_device_us": 11444.621000000001,
+          "total_device_us": 11444.621000000001
+        },
+        {
+          "count": 1025,
+          "name": "aten::copy_",
+          "self_cpu_us": 2755.999000000005,
+          "self_device_us": 1435.4229999999952,
+          "total_device_us": 1435.4229999999952
+        },
+        {
+          "count": 1025,
+          "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1})",
+          "self_cpu_us": 0,
+          "self_device_us": 1435.4229999999952,
+          "total_device_us": 1435.4229999999952
+        },
+        {
+          "count": 1,
+          "name": "aten::convolution_backward",
+          "self_cpu_us": 142.645999999997,
+          "self_device_us": 1329.8910000000033,
+          "total_device_us": 1533.7310000000016
+        },
+        {
+          "count": 1,
+          "name": "aten::slow_conv_dilated3d",
+          "self_cpu_us": 1692.0769999999702,
+          "self_device_us": 656.8640000000014,
+          "total_device_us": 2102.143999999997
+        },
+        {
+          "count": 1,
+          "name": "ampere_sgemm_128x128_nn",
+          "self_cpu_us": 0,
+          "self_device_us": 498.3040000000001,
+          "total_device_us": 498.3040000000001
+        },
+        {
+          "count": 1,
+          "name": "ampere_sgemm_128x64_tn",
+          "self_cpu_us": 0,
+          "self_device_us": 487.26400000000103,
+          "total_device_us": 487.26400000000103
+        },
+        {
+          "count": 1,
+          "name": "ampere_sgemm_128x64_nt",
+          "self_cpu_us": 0,
+          "self_device_us": 468.5759999999991,
+          "total_device_us": 468.5759999999991
+        },
+        {
+          "count": 2,
+          "name": "void at::native::vol2col_kernel<float>(long, float const*, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, float*)",
+          "self_cpu_us": 0,
+          "self_device_us": 315.4250000000011,
+          "total_device_us": 315.4250000000011
+        },
+        {
+          "count": 1,
+          "name": "void at::native::vol2im_kernel<float, float>(long, float const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, float*)",
+          "self_cpu_us": 0,
+          "self_device_us": 215.7450000000008,
+          "total_device_us": 215.7450000000008
+        },
+        {
+          "count": 1037,
+          "name": "aten::fill_",
+          "self_cpu_us": 1426.437000000026,
+          "self_device_us": 166.24099999999873,
+          "total_device_us": 1561.7289999999944
+        },
+        {
+          "count": 11,
+          "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+          "self_cpu_us": 0,
+          "self_device_us": 166.24099999999873,
+          "total_device_us": 166.24099999999873
+        },
+        {
+          "count": 1,
+          "name": "aten::sum",
+          "self_cpu_us": 18.30999999999949,
+          "self_device_us": 28.255999999999403,
+          "total_device_us": 28.255999999999403
+        },
+        {
+          "count": 1,
+          "name": "void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::func_wrapper_t<float, at::native::sum_functor<float, float, float>::operator()(at::TensorIterator&)::{lambda(float, float)#1}>, unsigned int, float, 4, 4> >(at::native::ReduceOp<float, at::native::func_wrapper_t<float, at::native::sum_functor<float, float, float>::operator()(at::TensorIterator&)::{lambda(float, float)#1}>, unsigned int, float, 4, 4>)",
+          "self_cpu_us": 0,
+          "self_device_us": 28.255999999999403,
+          "total_device_us": 28.255999999999403
+        },
+        {
+          "count": 1,
+          "name": "Activity Buffer Request",
+          "self_cpu_us": 125.75799999999998,
+          "self_device_us": 17.536000000000058,
+          "total_device_us": 17.536000000000058
+        }
+      ],
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 2.288818359375e-05,
+            "max_tolerance_ratio": 0.08669703374768735,
+            "passed": true,
+            "relative_l2_error": 1.4530875606566476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.2186508178710938e-06,
+            "max_tolerance_ratio": 0.05464045366541598,
+            "passed": true,
+            "relative_l2_error": 5.446121490598205e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 4.76837158203125e-06,
+            "max_tolerance_ratio": 0.09774136716593193,
+            "passed": true,
+            "relative_l2_error": 6.681873304617492e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0004425048828125,
+            "max_tolerance_ratio": 0.7361618098963588,
+            "passed": true,
+            "relative_l2_error": 8.434042234014532e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.6760313883423805e-05,
+            "max_tolerance_ratio": 0.0578655390571473,
+            "passed": true,
+            "relative_l2_error": 1.0379110863521255e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 1.8469800397435954e-06,
+            "max_tolerance_ratio": 0.06852546419661182,
+            "passed": true,
+            "relative_l2_error": 4.0674083423845005e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 2.6778907136204566e-06,
+            "max_tolerance_ratio": 0.10476938657924083,
+            "passed": true,
+            "relative_l2_error": 4.965593007411331e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 0,
+            "max_absolute_error": 0.00013540272862755387,
+            "max_tolerance_ratio": 0.4685944835971736,
+            "passed": true,
+            "relative_l2_error": 4.0716480448960173e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.557385257910937e-05,
+            "max_tolerance_ratio": 0.05067455108243257,
+            "passed": true,
+            "relative_l2_error": 9.734871782289891e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 5.543440160682422e-06,
+            "max_tolerance_ratio": 0.11369250565779636,
+            "passed": true,
+            "relative_l2_error": 7.017073522212643e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0004525589133663743,
+            "max_tolerance_ratio": 0.6346119846420775,
+            "passed": true,
+            "relative_l2_error": 8.090653889827734e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    }
+  },
+  "provenance": {
+    "source_sha256": {
+      "models/cuda_convolution.py": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3",
+      "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+      "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+      "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+      "scripts/compare_cuda_convolution.py": "bee0a567ab1b80e8b4c1428bcd0da7b03e87af020b0c5fb189acae20c7d8b96b"
+    },
+    "upstream_sha256": {
+      "configs/train/vitl16/pretrain-256px-16f.yaml": "45d3528ae0e0b08a2da40a54958eff4ecd86321f58cde26d93d84faf9799b48b",
+      "src/masks/multiseq_multiblock3d.py": "7ef7cf95b0bee9940ac7654aeb3535278bbafdd6d93b643f4142fd19769456d9",
+      "src/masks/utils.py": "833f111a0fa5ffdbd3a6412e2dace2517c3c178f49c14f8bb631d9f6a070dfd0",
+      "src/models/predictor.py": "3d8481bf2544b85ed92b3feb418e3b6d85ca1f81034c931b8c860f2d3d9aac2b",
+      "src/models/utils/modules.py": "b93f6c7e0747deb216419c000c2878f11a9189024a9adeacfd437e172396dff0",
+      "src/models/utils/patch_embed.py": "1823c40b34410e70eb313360e21678e18a0ee5465b5d47de9f3d967c074f5a9d"
+    }
+  },
+  "python": "3.11.17",
+  "qualified_component_options": [
+    "contiguous",
+    "channels-last-3d",
+    "native"
+  ],
+  "recommended_next_full_model_candidate": "Explicit native execution of the original patch Conv3d under the declared TF32-off diagnostic policy.",
+  "research_result": false,
+  "schema_version": 1,
+  "started_local": "2026-10-21T16:43:09.047666-07:00",
+  "study_backend_selected": false,
+  "study_model_changed": false,
+  "tolerances": {
+    "bias": {
+      "atol": 0.0001,
+      "rtol": 0.0001
+    },
+    "input": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    },
+    "output": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    },
+    "weight": {
+      "atol": 0.0002,
+      "rtol": 0.0001
+    }
+  },
+  "torch": "2.8.0+cu128",
+  "verification": {
+    "all_comparisons_recomputed": true,
+    "all_fixed_numerical_gates_passed": true,
+    "all_profiler_records_have_cuda_events": true,
+    "all_timing_medians_recomputed": true,
+    "local_source_hashes_verified": 5,
+    "observed_exact_replay_option_mode_pairs": 6,
+    "original_tolerances_preserved": true,
+    "upstream_hashes_verified": 6,
+    "worker_hashes_and_provenance_verified": 12
+  },
+  "wall_seconds": 221.71750015183352
+}

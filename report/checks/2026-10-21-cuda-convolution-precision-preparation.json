@@ -1,0 +1,136 @@
+{
+  "as_of": "2026-10-21",
+  "budget_approved": false,
+  "candidates_adopted": [],
+  "diagnostic_only": true,
+  "documentation_sources": [
+    "https://docs.pytorch.org/docs/2.8/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices"
+  ],
+  "explicit_control": {
+    "cli_flag": "--cudnn-tf32 off",
+    "cudnn_tf32": false,
+    "default_remains": "on",
+    "matmul_tf32": false,
+    "strict_determinism": true,
+    "tolerances_unchanged": true,
+    "worker_schema": 2
+  },
+  "fresh_workers": 12,
+  "full_model_cuda_recovery_validated": false,
+  "git_diff_whitespace_check_passed": true,
+  "gradient_modes": [
+    "input",
+    "parameters"
+  ],
+  "held_out_pixels_opened": false,
+  "kind": "explicit_convolution_precision_control_preparation",
+  "limitations": [
+    "CPU tests do not establish TF32 causation or CUDA numerical/performance/replay outcomes.",
+    "Disabling TF32 is a diagnostic factor, not an adopted study change.",
+    "No speed ratio is inferred from the rejected original validation."
+  ],
+  "limits": {
+    "cuda_allocator_gib": 4,
+    "external_kill_grace_seconds": 5,
+    "external_supervisor_seconds": 540,
+    "overall_seconds": 480,
+    "worker_seconds": 45
+  },
+  "local_suite": {
+    "command": ".venv/bin/python -m pytest -q tests",
+    "device": "cpu",
+    "errors": 0,
+    "failures": 0,
+    "junit_sha256": "47265f9fb7b7149e4f7204307222de0e9703960895b0807c826e780b43d09162",
+    "passed": 283,
+    "python": "3.11.16",
+    "seconds": 108.89,
+    "skipped_actual_cuda": 1,
+    "torch": "2.14.1",
+    "warnings": 85
+  },
+  "markdown_relative_links_verified": 185,
+  "model_weights_loaded": false,
+  "motivation": "The original cuDNN TF32-on reference failed the fixed FP64 gate; all 12 original workers rejected before timing. TF32 causation remains an inference until this control executes.",
+  "new_files_sha256": {
+    "docs/cuda_convolution_comparison.md": "2fc3215a643a4c5cb4e1ee1f98edc73520461145ecb679f5b3caeee46231faf0",
+    "models/cuda_convolution.py": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3",
+    "scripts/compare_cuda_convolution.py": "bee0a567ab1b80e8b4c1428bcd0da7b03e87af020b0c5fb189acae20c7d8b96b",
+    "scripts/university_convolution.sh": "8e2355a364fd626e42cd4c07849b5403e78138b08ec519e11b70c6fd3aec0f50",
+    "tests/test_cuda_convolution.py": "c4b576e27a092d4dd1f96631f4513cde71368588af600d4f3bb4a9d0c38576dd"
+  },
+  "new_paid_compute_usd": 0,
+  "new_precision_control_cuda_execution_performed": false,
+  "original_schema1_comparisons_reproduced_with_archived_runner": true,
+  "original_tf32_on_handoff_sha256_preserved": "d1b546513dd759eb9c109587246ad7e5fec1cddaebffff126517825c3a632ffc",
+  "original_tf32_on_session_sha256_preserved": "52a16013dfaebc38fd12de062db6923dfb01b5fe751c6469bde279b73eb77650",
+  "package": {
+    "bytes": 44059,
+    "files_sha256": {
+      "LICENSE": "5b789f6868ba21e8f32bb2fd05b0566282db82937488953bc91f3c50b4ffdeb3",
+      "docs/cuda_convolution_comparison.md": "2fc3215a643a4c5cb4e1ee1f98edc73520461145ecb679f5b3caeee46231faf0",
+      "models/__init__.py": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5",
+      "models/cuda_convolution.py": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3",
+      "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+      "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+      "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+      "report/checks/2026-10-21-university-cuda-components.json": "8d2c5ca04dd3e8e30cb9ecb67b57b3f8dfa48378cb2fc2132db07ec90080a8a9",
+      "report/checks/2026-10-21-university-cuda-components.md": "5d46be0fb14f96e4eb69ed07427a3983af5d8a75e768c29fbd4df6294aadc436",
+      "report/checks/2026-10-21-university-cuda-convolution.json": "42194c378409811f7c1850b33904399c4bb41867c94d921cd036f0cffecbb44d",
+      "report/checks/2026-10-21-university-cuda-convolution.md": "4d22e3af7eee1ce1efc6ce66d9fbbf361b6a4a28c6c20ea643c1584fd0e24d95",
+      "scripts/compare_cuda_convolution.py": "bee0a567ab1b80e8b4c1428bcd0da7b03e87af020b0c5fb189acae20c7d8b96b",
+      "scripts/university_convolution.sh": "8e2355a364fd626e42cd4c07849b5403e78138b08ec519e11b70c6fd3aec0f50"
+    },
+    "manifest_files_verified": 13,
+    "path": "runs/pretrained/diagnostic/cuda-convolution-precision-handoff-20261021/vjepa-cuda-convolution-precision.tar.gz",
+    "regular_members_verified": 14,
+    "restored_directory": "/private/tmp/vjepa-convolution-precision-restored-20261021/cuda-convolution-precision-20261021",
+    "sha256": "db7fbc8c32872ad560c8e831cecd38f0bc577a80796865a98723fe055e84cf59"
+  },
+  "pending": [
+    "Execute and inspect this explicit precision control on the university GPU.",
+    "Retain numerical failures/timeouts rather than changing tolerances.",
+    "Select/adopt nothing before representative CUDA and full-model acceptance."
+  ],
+  "pilot_reserve_remaining_usd": 8.805,
+  "previous_profiled_source_hashes_preserved": {
+    "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+    "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+    "scripts/profile_cuda.py": "f138cfd28abb3abacb3885bd5e692a0cf7373a77bfdde0bb4578986b7231fc7b"
+  },
+  "previous_scientific_hashes_preserved": 41,
+  "reported_project_spending_usd": 1.195,
+  "research_result": false,
+  "restored_package_fixture": {
+    "all_checks_passed": true,
+    "complete": true,
+    "cuda_or_speed_evidence": false,
+    "cudnn_tf32_policy": "off",
+    "device": "cpu",
+    "seconds": 16.094398334003927,
+    "session_sha256": "dae2487b789f65578a96efacb2b2a91cb49ff6f1343eaab8bf9b0628e8b05bd1",
+    "tiny_fixture": true,
+    "workers": 12
+  },
+  "schema_version": 1,
+  "scientific_model_changed": false,
+  "setup_verifier_passed": true,
+  "shared_home_alias_manifest_passed": true,
+  "shell_syntax_passed": true,
+  "source_tamper_rejected": true,
+  "targeted_tests": {
+    "includes": [
+      "Both declared precision policies propagate to fresh workers.",
+      "Native context preserves on/off flag and restores backend.",
+      "Mixed policies, changed runtime/source/gradients, bad tolerances, timing, and incomplete results cannot qualify."
+    ],
+    "passed": 35,
+    "seconds": 13.92
+  },
+  "variants": [
+    "contiguous",
+    "channels-last-3d",
+    "native"
+  ]
+}

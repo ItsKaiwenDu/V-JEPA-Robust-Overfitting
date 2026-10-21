@@ -6,6 +6,17 @@ the responsible operation. This diagnostic measures synthetic components before
 another rental. It does not load a model checkpoint, videos, optimizer, or data
 splits. No study setting or scientific implementation is replaced.
 
+**Completed university outcome:** all 48 CUDA workers and all 12 strict replay
+cases passed. The original patch Conv3d input backward increased from 1.102 ms
+to 3.400 seconds under strict settings on RTX 3070; default attention gradients
+failed exact replay. See the [verified outcome](../report/checks/2026-10-21-university-cuda-components.md).
+The [first same-Conv3d comparison](../report/checks/2026-10-21-university-cuda-convolution.md)
+rejected all options before timing because the TF32-permitted cuDNN reference
+fails the fixed FP64 gate. The [completed TF32-off control](../report/checks/2026-10-21-university-cuda-convolution-precision.md)
+resolves that isolated rejection and qualifies native original-Conv3d execution
+with observed exact replay and much lower component cost. Opt-in integration
+and full-model RTX 5090 gradient/recovery/performance checks remain pending.
+
 ## What it measures
 
 The [runner](../scripts/profile_cuda.py) delegates to

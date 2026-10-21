@@ -1,0 +1,2326 @@
+{
+  "allocator_measurement_excludes_driver": true,
+  "as_of": "2026-10-21",
+  "attention_replay_details": {
+    "rope-encoder-0": {
+      "default_between_worker_gradients_equal": true,
+      "default_within_worker_exact": [
+        false,
+        false
+      ],
+      "output_equal_between_workers": true,
+      "strict_within_and_between_workers_exact": true
+    },
+    "rope-encoder-1": {
+      "default_between_worker_gradients_equal": false,
+      "default_within_worker_exact": [
+        true,
+        false
+      ],
+      "output_equal_between_workers": true,
+      "strict_within_and_between_workers_exact": true
+    },
+    "rope-predictor": {
+      "default_between_worker_gradients_equal": false,
+      "default_within_worker_exact": [
+        false,
+        false
+      ],
+      "output_equal_between_workers": true,
+      "strict_within_and_between_workers_exact": true
+    },
+    "sdpa-encoder-0": {
+      "default_between_worker_gradients_equal": false,
+      "default_within_worker_exact": [
+        true,
+        false
+      ],
+      "output_equal_between_workers": true,
+      "strict_within_and_between_workers_exact": true
+    },
+    "sdpa-encoder-1": {
+      "default_between_worker_gradients_equal": true,
+      "default_within_worker_exact": [
+        false,
+        true
+      ],
+      "output_equal_between_workers": true,
+      "strict_within_and_between_workers_exact": true
+    },
+    "sdpa-predictor": {
+      "default_between_worker_gradients_equal": false,
+      "default_within_worker_exact": [
+        false,
+        false
+      ],
+      "output_equal_between_workers": true,
+      "strict_within_and_between_workers_exact": true
+    }
+  },
+  "base_commit": "d00c7ffefab43909a3716116d33dcd14c2e7ae03",
+  "bounds": {
+    "allocator_gib": 4,
+    "external_supervisor_seconds": 540,
+    "parent_seconds": 480.0,
+    "worker_seconds": 20.0
+  },
+  "budget_approved": false,
+  "case_count": 12,
+  "comparisons": {
+    "encoder-mask-0": {
+      "default": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.0003456246922723949,
+          "forward_seconds": 0.00019005482317879796,
+          "total_seconds": 0.0005356795154511929
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "same_operands_between_policies": true,
+      "same_precision_between_policies": true,
+      "same_source_between_policies": true,
+      "strict": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.0023006232222542167,
+          "forward_seconds": 0.0002315784222446382,
+          "total_seconds": 0.002532201644498855
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "strict_to_default_total_ratio": 4.727083211994822
+    },
+    "encoder-mask-1": {
+      "default": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.00025445857318118215,
+          "forward_seconds": 0.00024649675469845533,
+          "total_seconds": 0.0005009553278796375
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "same_operands_between_policies": true,
+      "same_precision_between_policies": true,
+      "same_source_between_policies": true,
+      "strict": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.0012011561775580049,
+          "forward_seconds": 0.00020851875888183713,
+          "total_seconds": 0.001409674936439842
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "strict_to_default_total_ratio": 2.813973338514006
+    },
+    "patch-conv": {
+      "default": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.001101939007639885,
+          "forward_seconds": 0.0012096795253455639,
+          "total_seconds": 0.002311618532985449
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "same_operands_between_policies": true,
+      "same_precision_between_policies": true,
+      "same_source_between_policies": true,
+      "strict": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 3.3995438098791055,
+          "forward_seconds": 0.0011094685178250074,
+          "total_seconds": 3.4006532783969305
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "strict_to_default_total_ratio": 1471.1135206227111
+    },
+    "predictor-mask-0": {
+      "default": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.00024330971064046025,
+          "forward_seconds": 0.00019413704285398126,
+          "total_seconds": 0.0004374467534944415
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "same_operands_between_policies": true,
+      "same_precision_between_policies": true,
+      "same_source_between_policies": true,
+      "strict": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.0011618694406934083,
+          "forward_seconds": 0.00022940675262361765,
+          "total_seconds": 0.001391276193317026
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "strict_to_default_total_ratio": 3.1804469508646256
+    },
+    "predictor-mask-1": {
+      "default": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.00020178576232865453,
+          "forward_seconds": 0.0003253872855566442,
+          "total_seconds": 0.0005271730478852987
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "same_operands_between_policies": true,
+      "same_precision_between_policies": true,
+      "same_source_between_policies": true,
+      "strict": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.0017203094903379679,
+          "forward_seconds": 0.00020133727230131626,
+          "total_seconds": 0.0019216467626392841
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "strict_to_default_total_ratio": 3.645191593818719
+    },
+    "predictor-sort": {
+      "default": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.0004928712733089924,
+          "forward_seconds": 0.00019404554041102529,
+          "total_seconds": 0.0006869168137200177
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "same_operands_between_policies": true,
+      "same_precision_between_policies": true,
+      "same_source_between_policies": true,
+      "strict": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.0005397674394771457,
+          "forward_seconds": 0.00023244228214025497,
+          "total_seconds": 0.0007722097216174006
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "strict_to_default_total_ratio": 1.1241677393736758
+    },
+    "rope-encoder-0": {
+      "default": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.004642738960683346,
+          "forward_seconds": 0.002930687216576189,
+          "total_seconds": 0.007573426177259535
+        },
+        "observed_exact_replay": false,
+        "same_operands_and_runtime": true
+      },
+      "same_operands_between_policies": true,
+      "same_precision_between_policies": true,
+      "same_source_between_policies": true,
+      "strict": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.00836314249318093,
+          "forward_seconds": 0.0035307040088810027,
+          "total_seconds": 0.011893846502061933
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "strict_to_default_total_ratio": 1.5704710422576211
+    },
+    "rope-encoder-1": {
+      "default": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.0018974117701873183,
+          "forward_seconds": 0.002395463816355914,
+          "total_seconds": 0.004292875586543232
+        },
+        "observed_exact_replay": false,
+        "same_operands_and_runtime": true
+      },
+      "same_operands_between_policies": true,
+      "same_precision_between_policies": true,
+      "same_source_between_policies": true,
+      "strict": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.002886646252591163,
+          "forward_seconds": 0.0032312379917129874,
+          "total_seconds": 0.00611788424430415
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "strict_to_default_total_ratio": 1.4251249823036396
+    },
+    "rope-predictor": {
+      "default": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.008125120191834867,
+          "forward_seconds": 0.004088980262167752,
+          "total_seconds": 0.012214100454002619
+        },
+        "observed_exact_replay": false,
+        "same_operands_and_runtime": true
+      },
+      "same_operands_between_policies": true,
+      "same_precision_between_policies": true,
+      "same_source_between_policies": true,
+      "strict": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.024481495027430356,
+          "forward_seconds": 0.004233589337673038,
+          "total_seconds": 0.028715084365103394
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "strict_to_default_total_ratio": 2.350978238081653
+    },
+    "sdpa-encoder-0": {
+      "default": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.003206985245924443,
+          "forward_seconds": 0.0010367910144850612,
+          "total_seconds": 0.004243776260409504
+        },
+        "observed_exact_replay": false,
+        "same_operands_and_runtime": true
+      },
+      "same_operands_between_policies": true,
+      "same_precision_between_policies": true,
+      "same_source_between_policies": true,
+      "strict": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.006663546548224986,
+          "forward_seconds": 0.0010826520156115294,
+          "total_seconds": 0.007746198563836515
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "strict_to_default_total_ratio": 1.8253079541684047
+    },
+    "sdpa-encoder-1": {
+      "default": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.0010385392233729362,
+          "forward_seconds": 0.0003621562500484288,
+          "total_seconds": 0.001400695473421365
+        },
+        "observed_exact_replay": false,
+        "same_operands_and_runtime": true
+      },
+      "same_operands_between_policies": true,
+      "same_precision_between_policies": true,
+      "same_source_between_policies": true,
+      "strict": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.001721372187603265,
+          "forward_seconds": 0.00040725700091570616,
+          "total_seconds": 0.002128629188518971
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "strict_to_default_total_ratio": 1.5196944867106208
+    },
+    "sdpa-predictor": {
+      "default": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.007346618745941669,
+          "forward_seconds": 0.0022924914374016225,
+          "total_seconds": 0.009639110183343291
+        },
+        "observed_exact_replay": false,
+        "same_operands_and_runtime": true
+      },
+      "same_operands_between_policies": true,
+      "same_precision_between_policies": true,
+      "same_source_between_policies": true,
+      "strict": {
+        "complete": true,
+        "median_seconds": {
+          "backward_seconds": 0.023630255775060505,
+          "forward_seconds": 0.002320289087947458,
+          "total_seconds": 0.025950544863007963
+        },
+        "observed_exact_replay": true,
+        "same_operands_and_runtime": true
+      },
+      "strict_to_default_total_ratio": 2.692213738551447
+    }
+  },
+  "compute": {
+    "billing_independently_verified": false,
+    "compute_cap_usd": 160,
+    "new_paid_compute": false,
+    "overall_cap_usd": 200,
+    "pilot_reserve_remaining_usd": 8.805,
+    "total_user_reported_spend_usd": 1.195
+  },
+  "data": {
+    "confirmation_test_pixels_opened": false,
+    "model_weights_loaded": false,
+    "video_pixels_loaded": false
+  },
+  "default_replay_failed_cases": [
+    "rope-encoder-0",
+    "rope-encoder-1",
+    "rope-predictor",
+    "sdpa-encoder-0",
+    "sdpa-encoder-1",
+    "sdpa-predictor"
+  ],
+  "diagnostic_only": true,
+  "diagnostic_wall_seconds": 168.71278624795377,
+  "environment": {
+    "cublas_workspace_config": null,
+    "cuda": "12.8",
+    "cudnn": 91002,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": false,
+    "cudnn_tf32": true,
+    "deterministic_algorithms": false,
+    "device": "cuda",
+    "hardware": {
+      "architecture": "x86_64",
+      "device": "cuda",
+      "gpu": "NVIDIA GeForce RTX 3070",
+      "macos": null,
+      "python": "3.11.17",
+      "vram_bytes": 8210939904
+    },
+    "matmul_precision": "highest",
+    "matmul_tf32": false,
+    "packages": {
+      "PyYAML": "6.0.3",
+      "einops": "0.8.2",
+      "timm": "1.0.30",
+      "torch": "2.8.0+cu128"
+    },
+    "policy": "default",
+    "python": "3.11.17",
+    "threads": 4,
+    "torch": "2.8.0+cu128",
+    "warn_only": false
+  },
+  "evidence": {
+    "launcher_files_sha256": {
+      "exit_status.txt": "9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa",
+      "launcher.log": "0b45523a652625b5f165c99235a96f218a9b77ebd73161f40ccd18d58c2bb977",
+      "launcher.pid": "9b4ac39ca72bf0ac4070f0ea8ed3818ddb1f0f3496e940e67d9b2f03fa5b1f3c"
+    },
+    "root": "runs/pretrained/diagnostic/university-component-results-20261021",
+    "session_sha256": "e85c22dbba1f8495439e9d604f1d7db798955fad9197ef5dd5f2c8760ceafcdf",
+    "worker_results_sha256": {
+      "workers/encoder-mask-0/default-0.json": "8bfd35a3415ea9f2cca8bc52408fc50fdcf8637addb99c240434bc903b8ff349",
+      "workers/encoder-mask-0/default-1.json": "d74185a099aee8fb11023ddd0a29c48d2b11a99ab2b98c261ee8e4f322b27e08",
+      "workers/encoder-mask-0/strict-0.json": "ab8bf944f51efefdc191cc280feab5e167930b15e2b1e531958397f0b5b909db",
+      "workers/encoder-mask-0/strict-1.json": "f4bd13cb5773b70f6498165500e6fb99c8657c381d245cce22f923b6cd752eaf",
+      "workers/encoder-mask-1/default-0.json": "b269fc7d57629e7852e657cbe12db23920680d5682a48b96f6742b23d687b58f",
+      "workers/encoder-mask-1/default-1.json": "afb97284a0e785666fd768114e67662aa23dc04783608a39c81b35fd88cbd8c0",
+      "workers/encoder-mask-1/strict-0.json": "c0eb58a1245888519807a7048c6ee643eccf6d653d25c621a9f41101a00d817d",
+      "workers/encoder-mask-1/strict-1.json": "2ab65392f80ff445d95eeb967b0c64079373eb771d92adc8400e3b092922a4c5",
+      "workers/patch-conv/default-0.json": "86fd76cf5da7542901f67869c903f9a063b08fa4e75b0124113fca72601094ad",
+      "workers/patch-conv/default-1.json": "0d8cc9dcf640db3440c621d827b4e2e4ee7ea0fa3234da5cc79d7d75d6dd8f96",
+      "workers/patch-conv/strict-0.json": "5890989b3bd59a66fc62abd723630fcab9dda362c9136dbd947c81a885105288",
+      "workers/patch-conv/strict-1.json": "7514e9bedeea38c3bfab7b1d0db14cdd7979840aef5a6a02a9c5c444bd1dfb12",
+      "workers/predictor-mask-0/default-0.json": "e7f8fafeca3f356ff8dbefe51a0cf90ef96e606112a0ae1f1f743ed0da5ab298",
+      "workers/predictor-mask-0/default-1.json": "4caf4979f0929cd0186c83a81ff20df6ab3da2c514ebbdccc52d4feaeb2745dc",
+      "workers/predictor-mask-0/strict-0.json": "685b2986c92f6765f0c9c74f770de7e262bdf5bcf3a7e75639fdbcbd7ee47a4f",
+      "workers/predictor-mask-0/strict-1.json": "e2c0ed8831a01fd04ded89a2887e1b71f3a7f627000c8ca435f17db030aff5f3",
+      "workers/predictor-mask-1/default-0.json": "e2bd7097d8d904a2ebda994b615c4923c95639e246701beec8f9854e0fd3d123",
+      "workers/predictor-mask-1/default-1.json": "794f248afefd86b429d62b3c4990eaeb03d251167649476b4171f7414b1d546a",
+      "workers/predictor-mask-1/strict-0.json": "0272c61de8515116375c763b2fadf799d1d2a400cb25e9a59f04c8a530745119",
+      "workers/predictor-mask-1/strict-1.json": "5ffc9583361ba9f2ec264caf50700d260e2a75b858c0e6142f421b6832baf745",
+      "workers/predictor-sort/default-0.json": "755c9a2d9628c7f64aab4f901a6a6c10ce77a8bc581f3438b7e40365c1382db5",
+      "workers/predictor-sort/default-1.json": "82e60e58f915b469aa23b3fc4d0567d9bc3ec42ecebd29a1a43771222809e3c8",
+      "workers/predictor-sort/strict-0.json": "7b25f049ed51affaffba2fcf3c5a27ed64c23b28a89ac2f057da7e5c3b5472d8",
+      "workers/predictor-sort/strict-1.json": "dba0a391d15cc4c2b02ea458ef27f027accecf30c6cacc2bd4eca7b0cc4f8088",
+      "workers/rope-encoder-0/default-0.json": "aa190c43f360357d5c35e3bc29ed58863d17b40c77aaac748808a0fc49b25ee4",
+      "workers/rope-encoder-0/default-1.json": "73952c9f6adc4b881d380e1fcd14084d9ae8b0c19ba318cf46ab9ac35809cd67",
+      "workers/rope-encoder-0/strict-0.json": "b3346ce4647d79adb76da8ca4a956b05b25a7e0c0bc521124713d73a87b1789b",
+      "workers/rope-encoder-0/strict-1.json": "eacd38ce15e2f62e564e25ee392109dfa7373846060041e8436fd3668e4d20ac",
+      "workers/rope-encoder-1/default-0.json": "a474ac1caa531e3a508ea7fafd0e58075169c5f50cabb02b5811b8570c613721",
+      "workers/rope-encoder-1/default-1.json": "ce95367c10b6fd0b36b8d83ac9ebc83e509810a784d139a71c1e9c3f5a6dc3ad",
+      "workers/rope-encoder-1/strict-0.json": "ed6f6edf45a8d457fcd88d0bc8591c295016e2f1bb437aea201ad2d1561b4658",
+      "workers/rope-encoder-1/strict-1.json": "09c722b012929ceac82fdaa21af65aed3c7393b2eb0de79c81e42f3790b5f558",
+      "workers/rope-predictor/default-0.json": "c6a06b1ffd81aaf6df3adb5c1b69d03a6ac5deb22261bfa7289472886b95ce0c",
+      "workers/rope-predictor/default-1.json": "7f432810a6899e17a76433f14d85b6a1ec0b51cb7d079f0c43a6d0e213a40de6",
+      "workers/rope-predictor/strict-0.json": "ed7ef0aaaa9a58c0997b65d0ccf93a2fa3bdbec47b6053b97f693aefdbd80082",
+      "workers/rope-predictor/strict-1.json": "cfe79455415750946ccbd240b6a2b029a7f0d9abf70f6aac53fb470b0bfe5c9b",
+      "workers/sdpa-encoder-0/default-0.json": "479a39c63f934ba0754dc016b701aa11d738726a5ee2c7baccb172d3db51e4ec",
+      "workers/sdpa-encoder-0/default-1.json": "75101fdbd7914d96f02687fea2c4023dae17f9646cba94af889e28465bc296b7",
+      "workers/sdpa-encoder-0/strict-0.json": "48b664f9956f5bb646b273faa9f0b4f7d2f19e7c0ce1231d45605b8d27e1a827",
+      "workers/sdpa-encoder-0/strict-1.json": "d21e8236af5c668d341cd594742c1878c100d8cc4cadd461832eb202557661c5",
+      "workers/sdpa-encoder-1/default-0.json": "25bdef4c19ce62d23cf00c901dfee49f02eed495aada824f31173c30a20e7bb4",
+      "workers/sdpa-encoder-1/default-1.json": "281f122028c85a0cce36e2758a1f14cefb0688e380841adef4131312417a3b10",
+      "workers/sdpa-encoder-1/strict-0.json": "ad3b3e4cc6679d8559dd6eb7ee2362b2c4a4e154927c7e200559af7424a84fe3",
+      "workers/sdpa-encoder-1/strict-1.json": "e4c5d408c98fa2b4d4191bdb8440c3ced91e22008d9cadb02cea85d23a9e9a83",
+      "workers/sdpa-predictor/default-0.json": "18f1c27a6f458ea92f0de4ce8b6c67823bab159bda38fdb9c1637822d0150cb8",
+      "workers/sdpa-predictor/default-1.json": "0dfd0e94572cb00a265f6d86fd637f8dae91db4be8481776378a69df2b9f13e9",
+      "workers/sdpa-predictor/strict-0.json": "b895f3ff573a2ffd95c04fbf92c756eb68124900f3662cbdaf74445682dfaa0b",
+      "workers/sdpa-predictor/strict-1.json": "be91a72bc5fb368bc785e369e0e4067e1df5d95b64cf6993207ba758a42d00d5"
+    }
+  },
+  "findings": {
+    "attention_backend_observed": "aten::_efficient_attention_forward / aten::_efficient_attention_backward",
+    "attention_inference": "Default attention gradients lack exact replay in these tests; strict attention passes observed replay. This is a candidate source of the earlier full-model failure, not causal proof for RTX 5090.",
+    "full_model_5090_cause_established": false,
+    "largest_measured_component_slowdown": "Original PatchEmbed3D Conv3d input backward.",
+    "patch_input_backward_default_seconds": 0.001101939007639885,
+    "patch_input_backward_strict_seconds": 3.3995438098791055,
+    "patch_input_backward_strict_to_default_ratio": 3085.0562384212108,
+    "patch_total_strict_to_default_ratio": 1471.1135206227111,
+    "strict_kernel": "cudnn::cnn::dgrad2d_grouped_direct_kernel"
+  },
+  "full_model_validated": false,
+  "hardware_scope": "University RTX 3070; synthetic isolated components, input gradients only.",
+  "launcher_exit_status": 0,
+  "launcher_host": "linux10609",
+  "limits": [
+    "No pretrained weights, videos, optimizer, or full-model trajectory used.",
+    "Only two independent workers and two timed repetitions per policy; no statistical performance guarantee.",
+    "Strict/default policy changes are bundled; this does not isolate which flag chooses the cuDNN kernel.",
+    "3070 kernel timings do not establish the 5090 bottleneck or remaining study cost.",
+    "Default replay success for other isolated cases does not authorize disabling global determinism.",
+    "Profiler CPU/device attribution may overlap; operator rows are not additive wall time.",
+    "No operation or precision flag changed in the scientific implementation."
+  ],
+  "max_worker_peak_allocated_bytes": 162672128,
+  "next_diagnostic": {
+    "acceptance": [
+      "Use identical synthetic FP32 values and cotangents; record all source/runtime/layout settings.",
+      "Check outputs plus input, weight, and bias gradients against the pinned Conv3d and an independent patchwise reference; declare tolerances before CUDA execution.",
+      "Require observed exact independent-process replay for each accepted candidate; preserve errors/timeouts.",
+      "Measure layout conversion, forward, backward, and memory for input-only and parameter-gradient modes.",
+      "Confirm representative RTX 5090 behavior and full-model recovery before research admission."
+    ],
+    "bounds": "Retain fresh-process worker, overall wall-time, and allocator limits; no new paid rental for university comparison.",
+    "candidates": [
+      "Current contiguous strict reference.",
+      "Explicit channels-last-3D input/weight layout with strict settings retained.",
+      "Explicit native backend (cuDNN disabled for isolated operation), only if deterministic support and bounds permit."
+    ],
+    "scope": "Compare execution choices for the same original Conv3d before considering any equivalent replacement.",
+    "state": "planned; no follow-up candidate implemented, benchmarked, or adopted"
+  },
+  "operator_evidence": {
+    "encoder-mask-0": {
+      "default": [
+        {
+          "median_seconds": {
+            "backward_seconds": 0.0003222913946956396,
+            "forward_seconds": 0.0001866335514932871,
+            "total_seconds": 0.0005089249461889267
+          },
+          "operators": [
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  1024
+                ],
+                [],
+                [
+                  1,
+                  960,
+                  1024
+                ],
+                [
+                  1,
+                  960,
+                  1024
+                ]
+              ],
+              "name": "aten::scatter_add_",
+              "self_cpu_us": 20.376000000001113,
+              "self_device_us": 52.48000000000047,
+              "total_device_us": 52.48000000000047
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  1024
+                ],
+                [],
+                [
+                  1,
+                  960,
+                  1024
+                ],
+                []
+              ],
+              "name": "aten::gather",
+              "self_cpu_us": 35.16500000000087,
+              "self_device_us": 42.689000000000306,
+              "total_device_us": 42.689000000000306
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  1024
+                ],
+                []
+              ],
+              "name": "aten::fill_",
+              "self_cpu_us": 8.946999999999207,
+              "self_device_us": 20.32000000000062,
+              "total_device_us": 20.32000000000062
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  1,
+                  1024,
+                  1,
+                  960,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1024,
+                  1,
+                  960,
+                  1
+                ],
+                []
+              ],
+              "name": "aten::copy_",
+              "self_cpu_us": 23.42800000000034,
+              "self_device_us": 18.912000000000262,
+              "total_device_us": 37.824000000000524
+            }
+          ],
+          "replay": 0
+        },
+        {
+          "median_seconds": {
+            "backward_seconds": 0.0003689579898491502,
+            "forward_seconds": 0.00019347609486430883,
+            "total_seconds": 0.000562434084713459
+          },
+          "operators": [
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  1024
+                ],
+                [],
+                [
+                  1,
+                  960,
+                  1024
+                ],
+                [
+                  1,
+                  960,
+                  1024
+                ]
+              ],
+              "name": "aten::scatter_add_",
+              "self_cpu_us": 16.0,
+              "self_device_us": 52.319999999999936,
+              "total_device_us": 52.319999999999936
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  1024
+                ],
+                [],
+                [
+                  1,
+                  960,
+                  1024
+                ],
+                []
+              ],
+              "name": "aten::gather",
+              "self_cpu_us": 30.475000000000136,
+              "self_device_us": 43.13499999999999,
+              "total_device_us": 43.13499999999999
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  1024
+                ],
+                []
+              ],
+              "name": "aten::fill_",
+              "self_cpu_us": 8.802999999999884,
+              "self_device_us": 20.544000000000096,
+              "total_device_us": 20.544000000000096
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  1,
+                  1024,
+                  1,
+                  960,
+                  1
+                ],
+                [
+                  1,
+                  1,
+                  1024,
+                  1,
+                  960,
+                  1
+                ],
+                []
+              ],
+              "name": "aten::copy_",
+              "self_cpu_us": 25.22800000000001,
+              "self_device_us": 18.912000000000035,
+              "total_device_us": 37.82400000000007
+            }
+          ],
+          "replay": 1
+        }
+      ],
+      "strict": [
+        {
+          "median_seconds": {
+            "backward_seconds": 0.002286550938151777,
+            "forward_seconds": 0.00023011141456663609,
+            "total_seconds": 0.002516662352718413
+          },
+          "operators": [
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  2097152
+                ],
+                [],
+                [
+                  983040
+                ],
+                [],
+                []
+              ],
+              "name": "aten::_index_put_impl_",
+              "self_cpu_us": 52.00699999999233,
+              "self_device_us": 1363.0740000000005,
+              "total_device_us": 1625.795
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "void (anonymous namespace)::indexing_backward_kernel_stride_1<float>(long const*, long const*, float const*, float*, long, long, long, long, bool)",
+              "self_cpu_us": 0,
+              "self_device_us": 1063.2979999999989,
+              "total_device_us": 1063.2979999999989
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  983040,
+                  3
+                ],
+                [
+                  3
+                ]
+              ],
+              "name": "aten::mul",
+              "self_cpu_us": 10.798000000000684,
+              "self_device_us": 120.73599999999897,
+              "total_device_us": 120.73599999999897
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  960,
+                  1024,
+                  1
+                ],
+                [
+                  1,
+                  960,
+                  1024,
+                  1
+                ],
+                []
+              ],
+              "name": "aten::copy_",
+              "self_cpu_us": 3.646999999999025,
+              "self_device_us": 89.3119999999999,
+              "total_device_us": 89.3119999999999
+            }
+          ],
+          "replay": 0
+        },
+        {
+          "median_seconds": {
+            "backward_seconds": 0.0023146955063566566,
+            "forward_seconds": 0.00023304542992264032,
+            "total_seconds": 0.002547740936279297
+          },
+          "operators": [
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  2097152
+                ],
+                [],
+                [
+                  983040
+                ],
+                [],
+                []
+              ],
+              "name": "aten::_index_put_impl_",
+              "self_cpu_us": 56.87799999999993,
+              "self_device_us": 1365.5029999999995,
+              "total_device_us": 1626.811999999999
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "void (anonymous namespace)::indexing_backward_kernel_stride_1<float>(long const*, long const*, float const*, float*, long, long, long, long, bool)",
+              "self_cpu_us": 0,
+              "self_device_us": 1063.4229999999998,
+              "total_device_us": 1063.4229999999998
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  983040,
+                  3
+                ],
+                [
+                  3
+                ]
+              ],
+              "name": "aten::mul",
+              "self_cpu_us": 11.191000000000031,
+              "self_device_us": 120.86299999999983,
+              "total_device_us": 120.86299999999983
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  960,
+                  1024,
+                  1
+                ],
+                [
+                  1,
+                  960,
+                  1024,
+                  1
+                ],
+                []
+              ],
+              "name": "aten::copy_",
+              "self_cpu_us": 3.105000000000018,
+              "self_device_us": 89.82399999999984,
+              "total_device_us": 89.82399999999984
+            }
+          ],
+          "replay": 1
+        }
+      ]
+    },
+    "patch-conv": {
+      "default": [
+        {
+          "median_seconds": {
+            "backward_seconds": 0.001134442980401218,
+            "forward_seconds": 0.0012580426409840584,
+            "total_seconds": 0.0023924856213852763
+          },
+          "operators": [
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  3,
+                  16,
+                  256,
+                  256
+                ],
+                [
+                  1024,
+                  3,
+                  2,
+                  16,
+                  16
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::cudnn_convolution",
+              "self_cpu_us": 84.22700000000077,
+              "self_device_us": 905.3110000000015,
+              "total_device_us": 1810.622000000003
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  1024,
+                  8,
+                  16,
+                  16
+                ],
+                [
+                  1,
+                  3,
+                  16,
+                  256,
+                  256
+                ],
+                [
+                  1024,
+                  3,
+                  2,
+                  16,
+                  16
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::convolution_backward",
+              "self_cpu_us": 4010.340000000004,
+              "self_device_us": 826.9120000000075,
+              "total_device_us": 888.4480000000076
+            },
+            {
+              "count": 2,
+              "input_shapes": [],
+              "name": "void cudnn::engines_precompiled::nchwToNhwcKernel<float, float, float, false, true, (cudnnKernelDataType_t)2>(cudnn::engines_precompiled::nchw2nhwc_params_t<float>, float const*, float*)",
+              "self_cpu_us": 0,
+              "self_device_us": 225.95200000000114,
+              "total_device_us": 225.95200000000114
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "void cudnn::engines_precompiled::setTensor5d_kernel<float, float, 8, 8, 8>(cudnnTensorStruct, float*, float)",
+              "self_cpu_us": 0,
+              "self_device_us": 99.74400000000242,
+              "total_device_us": 99.74400000000242
+            }
+          ],
+          "replay": 0
+        },
+        {
+          "median_seconds": {
+            "backward_seconds": 0.001069435034878552,
+            "forward_seconds": 0.0011613164097070694,
+            "total_seconds": 0.0022307514445856214
+          },
+          "operators": [
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  3,
+                  16,
+                  256,
+                  256
+                ],
+                [
+                  1024,
+                  3,
+                  2,
+                  16,
+                  16
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::cudnn_convolution",
+              "self_cpu_us": 84.79200000000003,
+              "self_device_us": 902.6869999999999,
+              "total_device_us": 1805.3739999999998
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  1024,
+                  8,
+                  16,
+                  16
+                ],
+                [
+                  1,
+                  3,
+                  16,
+                  256,
+                  256
+                ],
+                [
+                  1024,
+                  3,
+                  2,
+                  16,
+                  16
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::convolution_backward",
+              "self_cpu_us": 41.254999999999995,
+              "self_device_us": 826.3010000000002,
+              "total_device_us": 887.4200000000003
+            },
+            {
+              "count": 2,
+              "input_shapes": [],
+              "name": "void cudnn::engines_precompiled::nchwToNhwcKernel<float, float, float, false, true, (cudnnKernelDataType_t)2>(cudnn::engines_precompiled::nchw2nhwc_params_t<float>, float const*, float*)",
+              "self_cpu_us": 0,
+              "self_device_us": 225.824,
+              "total_device_us": 225.824
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "void cudnn::engines_precompiled::setTensor5d_kernel<float, float, 8, 8, 8>(cudnnTensorStruct, float*, float)",
+              "self_cpu_us": 0,
+              "self_device_us": 99.99900000000002,
+              "total_device_us": 99.99900000000002
+            }
+          ],
+          "replay": 1
+        }
+      ],
+      "strict": [
+        {
+          "median_seconds": {
+            "backward_seconds": 3.395517620141618,
+            "forward_seconds": 0.001112603466026485,
+            "total_seconds": 3.3966302236076444
+          },
+          "operators": [
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  1024,
+                  8,
+                  16,
+                  16
+                ],
+                [
+                  1,
+                  3,
+                  16,
+                  256,
+                  256
+                ],
+                [
+                  1024,
+                  3,
+                  2,
+                  16,
+                  16
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::convolution_backward",
+              "self_cpu_us": 42.235000000000355,
+              "self_device_us": 3397259.59,
+              "total_device_us": 3397337.766
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "void cudnn::cnn::dgrad2d_grouped_direct_kernel<float, int, float, float, true, true, 0, 0>(cudnn::cnn::DgradGroupedDirectParams, float const*, float const*, float*, float, float)",
+              "self_cpu_us": 0,
+              "self_device_us": 3397259.59,
+              "total_device_us": 3397259.59
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  3,
+                  16,
+                  256,
+                  256
+                ],
+                [
+                  1024,
+                  3,
+                  2,
+                  16,
+                  16
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::cudnn_convolution",
+              "self_cpu_us": 103.00899999999979,
+              "self_device_us": 798.4010000000002,
+              "total_device_us": 1596.8020000000004
+            },
+            {
+              "count": 2,
+              "input_shapes": [],
+              "name": "void cudnn::engines_precompiled::nchwToNhwcKernel<float, float, float, false, true, (cudnnKernelDataType_t)2>(cudnn::engines_precompiled::nchw2nhwc_params_t<float>, float const*, float*)",
+              "self_cpu_us": 0,
+              "self_device_us": 201.6640000000001,
+              "total_device_us": 201.6640000000001
+            }
+          ],
+          "replay": 0
+        },
+        {
+          "median_seconds": {
+            "backward_seconds": 3.403569999616593,
+            "forward_seconds": 0.00110633356962353,
+            "total_seconds": 3.4046763331862167
+          },
+          "operators": [
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  1024,
+                  8,
+                  16,
+                  16
+                ],
+                [
+                  1,
+                  3,
+                  16,
+                  256,
+                  256
+                ],
+                [
+                  1024,
+                  3,
+                  2,
+                  16,
+                  16
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::convolution_backward",
+              "self_cpu_us": 64.3710000000001,
+              "self_device_us": 3403978.758,
+              "total_device_us": 3404057.606
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "void cudnn::cnn::dgrad2d_grouped_direct_kernel<float, int, float, float, true, true, 0, 0>(cudnn::cnn::DgradGroupedDirectParams, float const*, float const*, float*, float, float)",
+              "self_cpu_us": 0,
+              "self_device_us": 3403978.758,
+              "total_device_us": 3403978.758
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  3,
+                  16,
+                  256,
+                  256
+                ],
+                [
+                  1024,
+                  3,
+                  2,
+                  16,
+                  16
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::cudnn_convolution",
+              "self_cpu_us": 97.2279999999999,
+              "self_device_us": 803.137,
+              "total_device_us": 1606.274
+            },
+            {
+              "count": 2,
+              "input_shapes": [],
+              "name": "void cudnn::engines_precompiled::nchwToNhwcKernel<float, float, float, false, true, (cudnnKernelDataType_t)2>(cudnn::engines_precompiled::nchw2nhwc_params_t<float>, float const*, float*)",
+              "self_cpu_us": 0,
+              "self_device_us": 202.30400000000003,
+              "total_device_us": 202.30400000000003
+            }
+          ],
+          "replay": 1
+        }
+      ]
+    },
+    "rope-predictor": {
+      "default": [
+        {
+          "median_seconds": {
+            "backward_seconds": 0.008133992902003229,
+            "forward_seconds": 0.004123951541259885,
+            "total_seconds": 0.012257944443263113
+          },
+          "operators": [
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [],
+                [],
+                [],
+                [
+                  1,
+                  12,
+                  2048
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::_efficient_attention_backward",
+              "self_cpu_us": 30.566000000000713,
+              "self_device_us": 6601.052999999999,
+              "total_device_us": 6660.731999999999
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "fmha_cutlassB_f32_aligned_64x64_k32_sm80(PyTorchMemEffAttention::AttentionBackwardKernel<cutlass::arch::Sm80, float, true, false, false, 64, 64, 32, false>::Params)",
+              "self_cpu_us": 0,
+              "self_device_us": 6601.052999999999,
+              "total_device_us": 6601.052999999999
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::_efficient_attention_forward",
+              "self_cpu_us": 11.805999999999585,
+              "self_device_us": 2105.471,
+              "total_device_us": 2105.471
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "fmha_cutlassF_f32_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel<float, cutlass::arch::Sm80, true, 64, 64, 64, true, true>::Params)",
+              "self_cpu_us": 0,
+              "self_device_us": 2105.471,
+              "total_device_us": 2105.471
+            }
+          ],
+          "replay": 0
+        },
+        {
+          "median_seconds": {
+            "backward_seconds": 0.008116247481666505,
+            "forward_seconds": 0.004054008983075619,
+            "total_seconds": 0.012170256464742124
+          },
+          "operators": [
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [],
+                [],
+                [],
+                [
+                  1,
+                  12,
+                  2048
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::_efficient_attention_backward",
+              "self_cpu_us": 32.07600000000275,
+              "self_device_us": 6609.750999999999,
+              "total_device_us": 6668.918999999999
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "fmha_cutlassB_f32_aligned_64x64_k32_sm80(PyTorchMemEffAttention::AttentionBackwardKernel<cutlass::arch::Sm80, float, true, false, false, 64, 64, 32, false>::Params)",
+              "self_cpu_us": 0,
+              "self_device_us": 6609.750999999999,
+              "total_device_us": 6609.750999999999
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::_efficient_attention_forward",
+              "self_cpu_us": 12.366999999998825,
+              "self_device_us": 2109.693,
+              "total_device_us": 2109.693
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "fmha_cutlassF_f32_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel<float, cutlass::arch::Sm80, true, 64, 64, 64, true, true>::Params)",
+              "self_cpu_us": 0,
+              "self_device_us": 2109.693,
+              "total_device_us": 2109.693
+            }
+          ],
+          "replay": 1
+        }
+      ],
+      "strict": [
+        {
+          "median_seconds": {
+            "backward_seconds": 0.024486446985974908,
+            "forward_seconds": 0.004271337995305657,
+            "total_seconds": 0.028757784981280565
+          },
+          "operators": [
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [],
+                [],
+                [],
+                [
+                  1,
+                  12,
+                  2048
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::_efficient_attention_backward",
+              "self_cpu_us": 34.07499999999982,
+              "self_device_us": 23018.398,
+              "total_device_us": 23107.454
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "fmha_cutlassB_f32_aligned_64x64_k32_sm80(PyTorchMemEffAttention::AttentionBackwardKernel<cutlass::arch::Sm80, float, true, false, false, 64, 64, 32, false>::Params)",
+              "self_cpu_us": 0,
+              "self_device_us": 23018.398,
+              "total_device_us": 23018.398
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::_efficient_attention_forward",
+              "self_cpu_us": 12.248999999999796,
+              "self_device_us": 2118.8149999999996,
+              "total_device_us": 2124.958999999999
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "fmha_cutlassF_f32_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel<float, cutlass::arch::Sm80, true, 64, 64, 64, true, true>::Params)",
+              "self_cpu_us": 0,
+              "self_device_us": 2118.8149999999996,
+              "total_device_us": 2118.8149999999996
+            }
+          ],
+          "replay": 0
+        },
+        {
+          "median_seconds": {
+            "backward_seconds": 0.024476543068885803,
+            "forward_seconds": 0.004195840680040419,
+            "total_seconds": 0.028672383748926222
+          },
+          "operators": [
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [],
+                [],
+                [],
+                [
+                  1,
+                  12,
+                  2048
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::_efficient_attention_backward",
+              "self_cpu_us": 32.13500000000204,
+              "self_device_us": 22706.157,
+              "total_device_us": 22794.093
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "fmha_cutlassB_f32_aligned_64x64_k32_sm80(PyTorchMemEffAttention::AttentionBackwardKernel<cutlass::arch::Sm80, float, true, false, false, 64, 64, 32, false>::Params)",
+              "self_cpu_us": 0,
+              "self_device_us": 22706.157,
+              "total_device_us": 22706.157
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::_efficient_attention_forward",
+              "self_cpu_us": 12.150000000001455,
+              "self_device_us": 2112.318,
+              "total_device_us": 2118.718
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "fmha_cutlassF_f32_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel<float, cutlass::arch::Sm80, true, 64, 64, 64, true, true>::Params)",
+              "self_cpu_us": 0,
+              "self_device_us": 2112.318,
+              "total_device_us": 2112.318
+            }
+          ],
+          "replay": 1
+        }
+      ]
+    },
+    "sdpa-predictor": {
+      "default": [
+        {
+          "median_seconds": {
+            "backward_seconds": 0.007292693364433944,
+            "forward_seconds": 0.002296898979693651,
+            "total_seconds": 0.009589592344127595
+          },
+          "operators": [
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [],
+                [],
+                [],
+                [
+                  1,
+                  12,
+                  2048
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::_efficient_attention_backward",
+              "self_cpu_us": 57.497000000000526,
+              "self_device_us": 6627.691000000001,
+              "total_device_us": 6714.091
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "fmha_cutlassB_f32_aligned_64x64_k32_sm80(PyTorchMemEffAttention::AttentionBackwardKernel<cutlass::arch::Sm80, float, true, false, false, 64, 64, 32, false>::Params)",
+              "self_cpu_us": 0,
+              "self_device_us": 6627.691,
+              "total_device_us": 6627.691
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::_efficient_attention_forward",
+              "self_cpu_us": 37.763999999999896,
+              "self_device_us": 2146.5640000000003,
+              "total_device_us": 4293.128000000001
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "fmha_cutlassF_f32_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel<float, cutlass::arch::Sm80, true, 64, 64, 64, true, true>::Params)",
+              "self_cpu_us": 0,
+              "self_device_us": 2146.5640000000003,
+              "total_device_us": 2146.5640000000003
+            }
+          ],
+          "replay": 0
+        },
+        {
+          "median_seconds": {
+            "backward_seconds": 0.007400544127449393,
+            "forward_seconds": 0.002288083895109594,
+            "total_seconds": 0.009688628022558987
+          },
+          "operators": [
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [],
+                [],
+                [],
+                [
+                  1,
+                  12,
+                  2048
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::_efficient_attention_backward",
+              "self_cpu_us": 41.86299999999983,
+              "self_device_us": 6635.352999999999,
+              "total_device_us": 6713.112999999999
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "fmha_cutlassB_f32_aligned_64x64_k32_sm80(PyTorchMemEffAttention::AttentionBackwardKernel<cutlass::arch::Sm80, float, true, false, false, 64, 64, 32, false>::Params)",
+              "self_cpu_us": 0,
+              "self_device_us": 6635.352999999999,
+              "total_device_us": 6635.352999999999
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::_efficient_attention_forward",
+              "self_cpu_us": 27.470000000000255,
+              "self_device_us": 2153.0860000000002,
+              "total_device_us": 4306.1720000000005
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "fmha_cutlassF_f32_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel<float, cutlass::arch::Sm80, true, 64, 64, 64, true, true>::Params)",
+              "self_cpu_us": 0,
+              "self_device_us": 2153.0860000000002,
+              "total_device_us": 2153.0860000000002
+            }
+          ],
+          "replay": 1
+        }
+      ],
+      "strict": [
+        {
+          "median_seconds": {
+            "backward_seconds": 0.023755059577524662,
+            "forward_seconds": 0.0023159460397437215,
+            "total_seconds": 0.026071005617268384
+          },
+          "operators": [
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [],
+                [],
+                [],
+                [
+                  1,
+                  12,
+                  2048
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::_efficient_attention_backward",
+              "self_cpu_us": 56.988000000000056,
+              "self_device_us": 23040.417,
+              "total_device_us": 23154.337
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "fmha_cutlassB_f32_aligned_64x64_k32_sm80(PyTorchMemEffAttention::AttentionBackwardKernel<cutlass::arch::Sm80, float, true, false, false, 64, 64, 32, false>::Params)",
+              "self_cpu_us": 0,
+              "self_device_us": 23040.416999999998,
+              "total_device_us": 23040.416999999998
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::_efficient_attention_forward",
+              "self_cpu_us": 39.93599999999992,
+              "self_device_us": 2135.456,
+              "total_device_us": 4280.032
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "fmha_cutlassF_f32_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel<float, cutlass::arch::Sm80, true, 64, 64, 64, true, true>::Params)",
+              "self_cpu_us": 0,
+              "self_device_us": 2135.456,
+              "total_device_us": 2135.456
+            }
+          ],
+          "replay": 0
+        },
+        {
+          "median_seconds": {
+            "backward_seconds": 0.023505451972596347,
+            "forward_seconds": 0.0023246321361511946,
+            "total_seconds": 0.025830084108747542
+          },
+          "operators": [
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [],
+                [],
+                [],
+                [
+                  1,
+                  12,
+                  2048
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::_efficient_attention_backward",
+              "self_cpu_us": 29.899999999999864,
+              "self_device_us": 22974.626000000004,
+              "total_device_us": 23087.940000000002
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "fmha_cutlassB_f32_aligned_64x64_k32_sm80(PyTorchMemEffAttention::AttentionBackwardKernel<cutlass::arch::Sm80, float, true, false, false, 64, 64, 32, false>::Params)",
+              "self_cpu_us": 0,
+              "self_device_us": 22974.626,
+              "total_device_us": 22974.626
+            },
+            {
+              "count": 1,
+              "input_shapes": [],
+              "name": "fmha_cutlassF_f32_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel<float, cutlass::arch::Sm80, true, 64, 64, 64, true, true>::Params)",
+              "self_cpu_us": 0,
+              "self_device_us": 2131.8720000000003,
+              "total_device_us": 2131.8720000000003
+            },
+            {
+              "count": 1,
+              "input_shapes": [
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [
+                  1,
+                  2048,
+                  12,
+                  32
+                ],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ],
+              "name": "aten::_efficient_attention_forward",
+              "self_cpu_us": 23.592999999999904,
+              "self_device_us": 2131.872,
+              "total_device_us": 4272.482
+            }
+          ],
+          "replay": 1
+        }
+      ]
+    }
+  },
+  "profiler_coverage_workers": 48,
+  "provenance": {
+    "source_sha256": {
+      "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+      "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+      "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+      "scripts/profile_cuda.py": "f138cfd28abb3abacb3885bd5e692a0cf7373a77bfdde0bb4578986b7231fc7b"
+    },
+    "upstream_sha256": {
+      "configs/train/vitl16/pretrain-256px-16f.yaml": "45d3528ae0e0b08a2da40a54958eff4ecd86321f58cde26d93d84faf9799b48b",
+      "src/masks/multiseq_multiblock3d.py": "7ef7cf95b0bee9940ac7654aeb3535278bbafdd6d93b643f4142fd19769456d9",
+      "src/masks/utils.py": "833f111a0fa5ffdbd3a6412e2dace2517c3c178f49c14f8bb631d9f6a070dfd0",
+      "src/models/predictor.py": "3d8481bf2544b85ed92b3feb418e3b6d85ca1f81034c931b8c860f2d3d9aac2b",
+      "src/models/utils/modules.py": "b93f6c7e0747deb216419c000c2878f11a9189024a9adeacfd437e172396dff0",
+      "src/models/utils/patch_embed.py": "1823c40b34410e70eb313360e21678e18a0ee5465b5d47de9f3d967c074f5a9d"
+    }
+  },
+  "replays_per_policy": 2,
+  "research_result": false,
+  "schema_version": 1,
+  "started_local": "2026-10-21T15:52:04.356051-07:00",
+  "strict_replay_passed_all_12_cases": true,
+  "strict_runtime": {
+    "cublas_workspace_config": ":4096:8",
+    "cuda": "12.8",
+    "cudnn": 91002,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cudnn_tf32": true,
+    "deterministic_algorithms": true,
+    "device": "cuda",
+    "hardware": {
+      "architecture": "x86_64",
+      "device": "cuda",
+      "gpu": "NVIDIA GeForce RTX 3070",
+      "macos": null,
+      "python": "3.11.17",
+      "vram_bytes": 8210939904
+    },
+    "matmul_precision": "highest",
+    "matmul_tf32": false,
+    "packages": {
+      "PyYAML": "6.0.3",
+      "einops": "0.8.2",
+      "timm": "1.0.30",
+      "torch": "2.8.0+cu128"
+    },
+    "policy": "strict",
+    "python": "3.11.17",
+    "threads": 4,
+    "torch": "2.8.0+cu128",
+    "warn_only": false
+  },
+  "timed_repeats_per_worker": 2,
+  "verification": {
+    "all_comparisons_recomputed": true,
+    "all_cross_policy_operands_precision_and_sources_match": true,
+    "all_profiles_have_cuda_events": true,
+    "all_timing_medians_recomputed": true,
+    "all_worker_provenance_matches": true,
+    "current_local_source_hashes_verified": 4,
+    "current_local_upstream_hashes_verified": 6,
+    "worker_results_verified": 48
+  },
+  "warmups_per_worker": 1,
+  "worker_task_statuses": {
+    "ok": 48
+  }
+}

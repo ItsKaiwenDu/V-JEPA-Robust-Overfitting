@@ -81,4 +81,18 @@ and bounded optional operator profiling. `university_profile.sh` verifies the
 source-only handoff and starts it detached using the existing university Python
 and upstream checkout. See the [component guide](../docs/cuda_component_profile.md).
 No checkpoint, video, optimizer, installation, or cloud launch is involved.
-New CUDA execution remains pending; local CPU fixtures are separately marked.
+The university RTX 3070 component export is verified: all 48 workers completed
+and strict replay passes all 12 cases. This is isolated evidence, not full-model
+recovery. See the [outcome](../report/checks/2026-10-21-university-cuda-components.md).
+
+`compare_cuda_convolution.py` compares the same original Conv3d under contiguous,
+channels-last-3D, and explicit native-backend execution. A CPU FP64 analytic
+reference checks outputs and input/weight/bias gradients at fixed tolerances
+before timing. All modes retain strict determinism. `university_convolution.sh`
+launches the checksummed source handoff detached with worker/overall bounds.
+The original TF32-on CUDA run rejected all options at the accuracy gate; its
+cuDNN reference itself fails the fixed FP64 comparison. The separately tagged
+`--cudnn-tf32 off` control passed all 12 workers and observed replay on the
+university GPU. Native execution is a much faster isolated component candidate;
+full-model integration/recovery and study adoption remain pending. See the
+[comparison guide](../docs/cuda_convolution_comparison.md).

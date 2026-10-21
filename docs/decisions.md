@@ -259,3 +259,39 @@ Preserve the failed run and original handoff. Transfer repairs as a separate
 checksummed overlay, use a fresh output and calibration, and measure the new
 runtime separately. No previous calibration, checkpoint, or timing is silently
 promoted into this retry. Full-study configuration and admission remain pending.
+
+## 2026-10-21 — Explicit diagnostic precision control
+
+The first strict same-Conv3d comparison rejected its unchanged cuDNN reference
+against the fixed CPU FP64 accuracy gate. cuDNN TF32 was permitted; native
+output and gradients pass FP64 but fail compatibility with that reference.
+This supports a precision hypothesis, not a measured speed or replay result.
+See the [preserved outcome](../report/checks/2026-10-21-university-cuda-convolution.md).
+
+Prepare a separately tagged `--cudnn-tf32 off` diagnostic, retain strict
+execution and all tolerances, and bind the declared policy to actual worker
+runtime. Preserve the original TF32-on failure/archive. Validation signatures
+are saved even after rejection. This control changes only the isolated
+experiment factor; no study precision/backend, optimizer, model, or protocol
+configuration is adopted. CUDA causation, performance, and full-model recovery
+remain pending. Any eventual study precision change needs an explicit new
+contract and a fresh acceptance pilot.
+
+## 2026-10-21 — Native convolution qualifies as a component candidate
+
+The explicit TF32-off control completed all 12 university CUDA workers with
+fixed-tolerance accuracy and observed exact replay. Matching operands/oracles
+and shared runtime resolve the earlier cuDNN precision rejection. Native
+forward/backward takes 5.897 ms for input gradients and 7.043 ms for input plus
+parameter gradients, versus 3.410 / 3.431 seconds for strict contiguous cuDNN.
+Channels-last does not help. See the
+[verified outcome](../report/checks/2026-10-21-university-cuda-convolution-precision.md).
+
+Use native original-Conv3d execution as the next full-model diagnostic candidate.
+This is not adoption of a study backend/precision change. Prepare an opt-in
+integration that preserves default behavior, parameter identities/state keys,
+clean frozen targets, and explicitly scoped backend behavior through backward.
+Bind the chosen policy to runtime/target-cache/anchor/resume contracts and use
+fresh targets/output directories. Require full-model gradient/attack checks,
+exact recovery, representative GPU timing/memory and measured budget admission
+before research runs. Component speedups are not whole-model speedups.

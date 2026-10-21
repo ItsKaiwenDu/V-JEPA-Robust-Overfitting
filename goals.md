@@ -4,14 +4,21 @@ Track planned work here and completed work in [progress.md](progress.md).
 Day 1 begins with the first implementation/pilot work session. The target is
 a focused report by day 21, with days 22-27 reserved for review and repairs.
 
-## Current planning update — October 20
+## Current planning update — October 21
 
-The [staged proposal](docs/budget_study_plan.md) is the current candidate for
-the $200 limit. The original broad milestones below are retained as context;
-they are not all included in this smaller scope. The training, resume, native evaluation, and selection cores pass local tests;
-staged manifests and 120 training/exploration clips are prepared. Next: probes,
-calibration records, and epoch orchestration, then full-model GPU recovery and
-missing-cost measurements before an exploratory pair. Confirmation and broader extensions are conditional.
+The [staged proposal](docs/budget_study_plan.md) remains a candidate within the
+$200 limit; it is not admitted for study execution. The larger milestones
+below remain context and are not all included in the narrowed scope.
+Training/resume, native evaluation/selection, fixed probes, calibration records,
+and epoch orchestration are implemented with local tests. Staged manifests and
+120 training/exploration clips are prepared; confirmation/test pixels remain closed.
+
+Full-model CUDA recovery failed under the original runtime, and strict execution
+was too slow. The [TF32-off university component control](report/checks/2026-10-21-university-cuda-convolution-precision.md)
+now qualifies a numerically checked, reproducible native-Conv3d candidate.
+Next: opt-in integration with explicit runtime/cache/resume identities,
+full-model gradient/recovery validation, and measured remaining costs before
+an exploratory pair. No research trajectory is complete; confirmation is conditional.
 
 ## Repository setup
 
@@ -34,7 +41,9 @@ missing-cost measurements before an exploratory pair. Confirmation and broader e
 - [x] Implement the FP32 training/resume core and atomic checkpoint retention; verify interrupted CPU trajectories.
 - [x] Export staged identities and verify training/exploration preparation; leave confirmation/test pixels unopened.
 - [x] Implement and test native evaluation recovery, saved anchors, and provisional primary selection.
-- [ ] Add fixed probes, calibration records, and epoch orchestration.
+- [x] Add fixed probes, calibration records, and epoch orchestration; validate local fixtures.
+- [x] Isolate strict CUDA component costs and qualify a native Conv3d candidate on the university GPU.
+- [ ] Integrate the candidate as an explicit diagnostic option and verify full-model gradients/recovery.
 - [ ] Validate full-model GPU resume and integrated evaluation before research execution.
 - [x] Pin upstream source and implement the adapter and local CPU correctness tests.
 - [x] Audit full ViT-L tensor names/shapes against official checkpoint metadata.

@@ -4,7 +4,11 @@
 
 **Status: the CUDA workflow pilot found replay and performance blockers; full research training remains pending.** The original study exceeds the $200 cap. The [October 20 staged proposal](docs/budget_study_plan.md) has a conditional $193.91 planning envelope and is not admitted for execution. Hardware feasibility checks passed on CPU, Apple GPU, and RTX 5090; university RTX 3070 FP32 training ran out of memory. Staged manifests and deterministic preparation of 120 training/exploration clips are verified.
 
-The [October 21 CUDA workflow report](report/checks/2026-10-21-cuda-workflow.md) records the failed exact full-model recovery comparison and a strict deterministic retry stopped after an attack took 16× longer. The repaired suite passes 225 tests on the CUDA host, including a small independent-process GPU replay test; full-model recovery remains unvalidated. Both evidence exports are verified locally. The [component profiler](docs/cuda_component_profile.md) is prepared for the university GPU; its new CUDA execution is pending. The local suite passes 248 tests with one CUDA-only skip. The user confirmed Pod termination and corrected the session charge to $0.603, bringing reported spending to $1.195. Study calibration, measured budget admission, and research results remain pending.
+The [October 21 CUDA workflow report](report/checks/2026-10-21-cuda-workflow.md) records the failed exact full-model recovery comparison and a strict deterministic retry stopped after an attack took 16× longer. The repaired suite passes 225 tests on the CUDA host, including a small independent-process GPU replay test; full-model recovery remains unvalidated. Both evidence exports are verified locally.
+
+The [university component profile](report/checks/2026-10-21-university-cuda-components.md) completed all 48 workers: strict replay passes all 12 cases, while default attention gradients fail exact replay. Original Conv3d input backward increased from 1.102 ms to 3.400 s under strict settings on RTX 3070. This isolates a bottleneck on that host; the next gate is a validated execution option for the same Conv3d, followed by RTX 5090/full-model confirmation.
+
+The [first convolution comparison](report/checks/2026-10-21-university-cuda-convolution.md) rejected all 12 workers before timing: the TF32-permitted cuDNN reference fails the fixed FP64 gate. Native matches FP64 but differs from that reference; no option qualified. The subsequent [TF32-off control](report/checks/2026-10-21-university-cuda-convolution-precision.md) passes all 12 university workers and observed replay, with unchanged tolerances. Native execution reduces isolated forward/backward from 3.410 s to 5.897 ms for input gradients and 3.431 s to 7.043 ms for parameter gradients. This qualifies a component candidate; whole-model speed/recovery and study adoption remain pending. The local suite passes 283 tests with one CUDA-only skip. The user confirmed Pod termination and corrected the session charge to $0.603, bringing reported spending to $1.195. Study calibration, measured budget admission, and research results remain pending.
 
 This project extends our [previous robust-overfitting research](https://github.com/ItsKaiwenDu/Robust-Overfitting) to latent video prediction. It retains the familiar `models/`, `scripts/`, `notes/`, and `report/` organization, along with weekly goals, progress reports, and a Lambda Labs guide.
 
@@ -28,6 +32,10 @@ The intended contribution is a controlled study of training dynamics and their d
 | [Staged data and evaluation](docs/staged_data_and_evaluation.md) | Verified exploration clips, native attacks, evaluation recovery, and provisional primary selection |
 | [Feature probes and scheduled recovery](docs/workflow_diagnostics.md) | Train-only probe/calibration rules, epoch evaluation barriers, and bounded integration commands |
 | [CUDA workflow pilot outcome](report/checks/2026-10-21-cuda-workflow.md) | Replay failure, deterministic runtime cost, verified exports, and the next profiling gate |
+| [University CUDA component outcome](report/checks/2026-10-21-university-cuda-components.md) | Verified operator timings, strict Conv3d bottleneck, attention replay, and next check |
+| [Convolution comparison outcome](report/checks/2026-10-21-university-cuda-convolution.md) | Verified numerical rejection, TF32 precision hypothesis, and unavailable timing/replay |
+| [Verified TF32-off outcome](report/checks/2026-10-21-university-cuda-convolution-precision.md) | Native component accuracy/replay and timing; full-model acceptance remains pending |
+| [Strict convolution precision control](docs/cuda_convolution_comparison.md) | Explicit TF32-off follow-up, unchanged numerical gates, and detached launch |
 | [CUDA component profiler](docs/cuda_component_profile.md) | Bounded synthetic operator timing, exact gradient replay, and detached university launch |
 | [CUDA workflow guide](docs/cuda_workflow_pilot.md) | Offline handoff, explicit deterministic policy, and bounded execution instructions |
 | [Training and recovery](docs/training_runner.md) | Verified training inputs, optimizer/resume state, atomic checkpoints, and current limits |
@@ -105,8 +113,10 @@ These commands inspect the environment without downloading models, preparing dat
 | [`scripts/prepare_staged_clips.py`](scripts/prepare_staged_clips.py) | Passed: 100 training and 20 exploration clips decoded twice; confirmation/test pixels closed |
 | [`scripts/evaluate.py`](scripts/evaluate.py) | Implemented: bounded native evaluation diagnostic, atomic recovery, and saved-anchor loading; full-model validation pending |
 | [`scripts/check_workflow.py`](scripts/check_workflow.py) | Implemented: bounded feature/probe, calibration, and scheduled recovery checks; full pretrained CPU features passed; CUDA workflow validation pending |
-| [`scripts/profile_cuda.py`](scripts/profile_cuda.py) | Implemented: bounded upstream component timing and replay; CPU fixtures pass, university CUDA pending |
+| [`scripts/profile_cuda.py`](scripts/profile_cuda.py) | Passed: all 48 university CUDA workers; strict replay on 12 cases; isolated timing evidence |
 | [`scripts/university_profile.sh`](scripts/university_profile.sh) | Implemented: checksummed source handoff and detached, externally bounded university launcher |
+| [`scripts/compare_cuda_convolution.py`](scripts/compare_cuda_convolution.py) | Passed: 12 TF32-off university workers and component replay; native timing qualifies a full-model candidate |
+| [`scripts/university_convolution.sh`](scripts/university_convolution.sh) | Prepared: checksummed detached university comparison, no model/data downloads |
 | `scripts/run_report_checks.py` | Planned: attack and implementation diagnostics |
 | `scripts/plot_results.py` | Planned: per-seed curves and aggregate summaries |
 

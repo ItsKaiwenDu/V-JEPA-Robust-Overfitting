@@ -1,0 +1,2283 @@
+{
+  "all_checks_passed": false,
+  "allocator_measurement_excludes_driver": true,
+  "as_of": "2026-10-21",
+  "budget_approved": false,
+  "comparisons": {
+    "channels-last-3d": {
+      "input": {
+        "complete": true,
+        "numerical_validation_passed": false,
+        "observed_exact_replay": false,
+        "qualified": false,
+        "same_operands_runtime_and_oracle": true
+      },
+      "parameters": {
+        "complete": true,
+        "numerical_validation_passed": false,
+        "observed_exact_replay": false,
+        "qualified": false,
+        "same_operands_runtime_and_oracle": true
+      }
+    },
+    "contiguous": {
+      "input": {
+        "complete": true,
+        "numerical_validation_passed": false,
+        "observed_exact_replay": false,
+        "qualified": false,
+        "same_operands_runtime_and_oracle": true
+      },
+      "parameters": {
+        "complete": true,
+        "numerical_validation_passed": false,
+        "observed_exact_replay": false,
+        "qualified": false,
+        "same_operands_runtime_and_oracle": true
+      }
+    },
+    "native": {
+      "input": {
+        "complete": true,
+        "numerical_validation_passed": false,
+        "observed_exact_replay": false,
+        "qualified": false,
+        "same_operands_runtime_and_oracle": true
+      },
+      "parameters": {
+        "complete": true,
+        "numerical_validation_passed": false,
+        "observed_exact_replay": false,
+        "qualified": false,
+        "same_operands_runtime_and_oracle": true
+      }
+    }
+  },
+  "complete": true,
+  "compute": {
+    "new_paid_compute_usd": 0,
+    "overall_cap_usd": 200,
+    "pilot_reserve_remaining_usd": 8.805,
+    "planned_compute_cap_usd": 160,
+    "user_reported_total_spend_usd": 1.195
+  },
+  "cuda_build": "12.8",
+  "cudnn": 91002,
+  "data": {
+    "confirmation_test_pixels_opened": false,
+    "model_weights_loaded": false,
+    "video_pixels_loaded": false
+  },
+  "diagnostic_only": true,
+  "evidence": {
+    "launcher_files_sha256": {
+      "exit_status.txt": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "launcher.log": "82ec8ea79403e947d263ea80cc46bed694fbbec6673e14f7e9774170d6d8ead1",
+      "launcher.pid": "ed99a88a47fa536af7beed906b5dd092e312c262b62a363f1b0f73ce4ba08c54"
+    },
+    "original_handoff_archive_sha256": "d1b546513dd759eb9c109587246ad7e5fec1cddaebffff126517825c3a632ffc",
+    "root": "runs/pretrained/diagnostic/university-convolution-results-20261021",
+    "session_sha256": "52a16013dfaebc38fd12de062db6923dfb01b5fe751c6469bde279b73eb77650",
+    "worker_results_sha256": {
+      "workers/channels-last-3d/input-0.json": "57b0baae74eeff40ead28ac35ae8d796e0a6e79606df1474b487f852767b5f34",
+      "workers/channels-last-3d/input-1.json": "fd23f42ff7ada78d0a30f7e321b3997d97efafd13ea130747f058d66b5ad91d9",
+      "workers/channels-last-3d/parameters-0.json": "73af11bfd69d9b516c36e3e21b9c33ebe8284a0a54961e15d87e5f30ebf00758",
+      "workers/channels-last-3d/parameters-1.json": "2c2d8491f1a96cf0f80a5a25005ed93f57e51ebb3453d059e5c87a1d97ea16d2",
+      "workers/contiguous/input-0.json": "a45b47cb82541d686307183a6031621c32e4e13056c827c4228d1d3bc0cf8877",
+      "workers/contiguous/input-1.json": "aed737e10fd79c064dfb585a6e73f1e74f67d88c904c3ebf494718931fb70e90",
+      "workers/contiguous/parameters-0.json": "f75a753b33842905ea287def1fb69d7a009079fa0b4aa3352d430643bcae773f",
+      "workers/contiguous/parameters-1.json": "03338b69d32d49bf3bd7b9b54ad9bb794b798cde27b4b7e4e339ca2258a988f7",
+      "workers/native/input-0.json": "068633b41d7baa2c576e4e579c2093b7cb4a13c5a0aab45b4d7aee6a0f9d2530",
+      "workers/native/input-1.json": "012bcb8782823c60dbaa7f7166e26d04a0a6b7f6d11d23d65dba29250d9da489",
+      "workers/native/parameters-0.json": "42e985eca6b98e7c09b9cbf59a17d4bd2f9b05d79fd9860fd17d92ef5bf15666",
+      "workers/native/parameters-1.json": "539a9b6d65a89d252be361143b20dc4b68464978dd7a30162f72d3a4800ef48f"
+    }
+  },
+  "findings": [
+    "Input gradients and bias gradients pass the fixed FP64 checks for all three options.",
+    "Contiguous and channels-last outputs and weight gradients fail the FP64 gate.",
+    "Channels-last matches the contiguous reference with zero maximum absolute difference in checked outputs and gradients.",
+    "Native outputs and all three gradient types pass FP64 checks, but output/weight gradients fail agreement with the cuDNN reference.",
+    "No timing, speedup, or exact fresh-process replay result is available from this run."
+  ],
+  "full_model_validated": false,
+  "gpu": "NVIDIA GeForce RTX 3070",
+  "host": "linux10609",
+  "kind": "university_original_conv3d_comparison_outcome",
+  "launcher_exit_status": 1,
+  "limits": [
+    "No option qualified under the complete original gate. Native-vs-FP64 success alone is not compatibility with the original TF32-permitted baseline.",
+    "Error statistics repeat across workers, but output/gradient tensor hashes were not saved after rejection; this is not exact replay evidence.",
+    "No TF32-off control or actual cuDNN kernel trace was collected; TF32 causation is not established.",
+    "RTX 3070 isolated data do not establish RTX 5090 behavior or full-model correctness."
+  ],
+  "max_worker_peak_allocated_bytes": 199239168,
+  "model_changed": false,
+  "next_diagnostic": "Prepare an explicitly tagged TF32-off comparison, retaining the existing tolerances and strict determinism. Preserve this TF32-on failure as historical evidence and do not adopt a study precision/backend change from it.",
+  "precision_explanation": {
+    "cudnn_allow_tf32": true,
+    "documentation": "https://docs.pytorch.org/docs/2.8/notes/cuda.html#tensorfloat-32-tf32-on-ampere-and-later-devices",
+    "documentation_support": "TF32 may round convolution inputs while accumulating in FP32; matmul and cuDNN controls are separate.",
+    "interpretation": "The independent FP64 gate is too strict for this existing TF32-permitted cuDNN reference. FP32 tensor dtype and deterministic execution do not establish full FP32 arithmetic accuracy.",
+    "matmul_allow_tf32": false,
+    "ownership": "The diagnostic should have included an explicit precision control before using the original cuDNN reference as an FP32 accuracy gate.",
+    "status": "inference; causal precision control remains unexecuted"
+  },
+  "provenance": {
+    "source_sha256": {
+      "models/cuda_convolution.py": "1a65e1949b2b43ca264e985570292450001597cf186130d723979882948831c0",
+      "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+      "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+      "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+      "scripts/compare_cuda_convolution.py": "712bb5ea78577e3dce427a6ebb4b903ebc64981df334f988f18bbfd3ad9e8b5a"
+    },
+    "upstream_sha256": {
+      "configs/train/vitl16/pretrain-256px-16f.yaml": "45d3528ae0e0b08a2da40a54958eff4ecd86321f58cde26d93d84faf9799b48b",
+      "src/masks/multiseq_multiblock3d.py": "7ef7cf95b0bee9940ac7654aeb3535278bbafdd6d93b643f4142fd19769456d9",
+      "src/masks/utils.py": "833f111a0fa5ffdbd3a6412e2dace2517c3c178f49c14f8bb631d9f6a070dfd0",
+      "src/models/predictor.py": "3d8481bf2544b85ed92b3feb418e3b6d85ca1f81034c931b8c860f2d3d9aac2b",
+      "src/models/utils/modules.py": "b93f6c7e0747deb216419c000c2878f11a9189024a9adeacfd437e172396dff0",
+      "src/models/utils/patch_embed.py": "1823c40b34410e70eb313360e21678e18a0ee5465b5d47de9f3d967c074f5a9d"
+    }
+  },
+  "python": "3.11.17",
+  "qualified_options": [],
+  "rejection": "All workers stopped at the fixed numerical validation gate, including the unchanged contiguous Conv3d reference.",
+  "replay_checked": false,
+  "research_result": false,
+  "schema_version": 1,
+  "started_local": "2026-10-21T16:24:36.271135-07:00",
+  "tasks_complete": 12,
+  "tasks_profiled": 0,
+  "tasks_timed": 0,
+  "tolerances": {
+    "bias": {
+      "atol": 0.0001,
+      "rtol": 0.0001
+    },
+    "input": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    },
+    "output": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    },
+    "weight": {
+      "atol": 0.0002,
+      "rtol": 0.0001
+    }
+  },
+  "torch": "2.8.0+cu128",
+  "validation_evidence": {
+    "channels-last-3d/input/0": {
+      "peak_allocated_bytes": 90186240,
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": true,
+        "cudnn_tf32": true,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516502e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.0002927762079982679,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.00029277620799826766,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        }
+      }
+    },
+    "channels-last-3d/input/1": {
+      "peak_allocated_bytes": 90186240,
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": true,
+        "cudnn_tf32": true,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516502e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.0002927762079982679,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.00029277620799826766,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        }
+      }
+    },
+    "channels-last-3d/parameters/0": {
+      "peak_allocated_bytes": 132130304,
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": true,
+        "cudnn_tf32": true,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.557385257910937e-05,
+            "max_tolerance_ratio": 0.05067455108243257,
+            "passed": true,
+            "relative_l2_error": 9.734871782289891e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516502e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.0002927762079982679,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 1226398,
+            "max_absolute_error": 0.06794501581402557,
+            "max_tolerance_ratio": 263.0441202977582,
+            "passed": false,
+            "relative_l2_error": 0.00029351887076729523,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.557385257910937e-05,
+            "max_tolerance_ratio": 0.05067455108243257,
+            "passed": true,
+            "relative_l2_error": 9.734871782289891e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.00029277620799826766,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 1226398,
+            "max_absolute_error": 0.06794501581402557,
+            "max_tolerance_ratio": 263.0441202977582,
+            "passed": false,
+            "relative_l2_error": 0.00029351887076729523,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    },
+    "channels-last-3d/parameters/1": {
+      "peak_allocated_bytes": 132130304,
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": true,
+        "cudnn_tf32": true,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.557385257910937e-05,
+            "max_tolerance_ratio": 0.05067455108243257,
+            "passed": true,
+            "relative_l2_error": 9.734871782289891e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516502e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.0002927762079982679,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 1226398,
+            "max_absolute_error": 0.06794501581402557,
+            "max_tolerance_ratio": 263.0441202977582,
+            "passed": false,
+            "relative_l2_error": 0.00029351887076729523,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.557385257910937e-05,
+            "max_tolerance_ratio": 0.05067455108243257,
+            "passed": true,
+            "relative_l2_error": 9.734871782289891e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.00029277620799826766,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 1226398,
+            "max_absolute_error": 0.06794501581402557,
+            "max_tolerance_ratio": 263.0441202977582,
+            "passed": false,
+            "relative_l2_error": 0.00029351887076729523,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    },
+    "contiguous/input/0": {
+      "peak_allocated_bytes": 62919168,
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": true,
+        "cudnn_tf32": true,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.00029277620799826766,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.00029277620799826766,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        }
+      }
+    },
+    "contiguous/input/1": {
+      "peak_allocated_bytes": 62919168,
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": true,
+        "cudnn_tf32": true,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.00029277620799826766,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.00029277620799826766,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        }
+      }
+    },
+    "contiguous/parameters/0": {
+      "peak_allocated_bytes": 104863232,
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": true,
+        "cudnn_tf32": true,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.557385257910937e-05,
+            "max_tolerance_ratio": 0.05067455108243257,
+            "passed": true,
+            "relative_l2_error": 9.734871782289891e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.00029277620799826766,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 1226398,
+            "max_absolute_error": 0.06794501581402557,
+            "max_tolerance_ratio": 263.0441202977582,
+            "passed": false,
+            "relative_l2_error": 0.00029351887076729523,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.557385257910937e-05,
+            "max_tolerance_ratio": 0.05067455108243257,
+            "passed": true,
+            "relative_l2_error": 9.734871782289891e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.00029277620799826766,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 1226398,
+            "max_absolute_error": 0.06794501581402557,
+            "max_tolerance_ratio": 263.0441202977582,
+            "passed": false,
+            "relative_l2_error": 0.00029351887076729523,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    },
+    "contiguous/parameters/1": {
+      "peak_allocated_bytes": 104863232,
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": true,
+        "cudnn_tf32": true,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.557385257910937e-05,
+            "max_tolerance_ratio": 0.05067455108243257,
+            "passed": true,
+            "relative_l2_error": 9.734871782289891e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.00029277620799826766,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 1226398,
+            "max_absolute_error": 0.06794501581402557,
+            "max_tolerance_ratio": 263.0441202977582,
+            "passed": false,
+            "relative_l2_error": 0.00029351887076729523,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.557385257910937e-05,
+            "max_tolerance_ratio": 0.05067455108243257,
+            "passed": true,
+            "relative_l2_error": 9.734871782289891e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.00029277620799826766,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 1226398,
+            "max_absolute_error": 0.06794501581402557,
+            "max_tolerance_ratio": 263.0441202977582,
+            "passed": false,
+            "relative_l2_error": 0.00029351887076729523,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    },
+    "native/input/0": {
+      "peak_allocated_bytes": 157295104,
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": false,
+        "cudnn_tf32": true,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.2186508178710938e-06,
+            "max_tolerance_ratio": 0.05464045366541598,
+            "passed": true,
+            "relative_l2_error": 5.446121490598205e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472609,
+            "max_absolute_error": 0.0008589886128902435,
+            "max_tolerance_ratio": 39.205615803409785,
+            "passed": false,
+            "relative_l2_error": 0.0002927776556622418,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 1.8469800397435954e-06,
+            "max_tolerance_ratio": 0.06852546419661182,
+            "passed": true,
+            "relative_l2_error": 4.0674083423845005e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 2.6778907136204566e-06,
+            "max_tolerance_ratio": 0.10476938657924083,
+            "passed": true,
+            "relative_l2_error": 4.965593007411331e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.00029277620799826766,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        }
+      }
+    },
+    "native/input/1": {
+      "peak_allocated_bytes": 157295104,
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": false,
+        "cudnn_tf32": true,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.2186508178710938e-06,
+            "max_tolerance_ratio": 0.05464045366541598,
+            "passed": true,
+            "relative_l2_error": 5.446121490598205e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472609,
+            "max_absolute_error": 0.0008589886128902435,
+            "max_tolerance_ratio": 39.205615803409785,
+            "passed": false,
+            "relative_l2_error": 0.0002927776556622418,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 1.8469800397435954e-06,
+            "max_tolerance_ratio": 0.06852546419661182,
+            "passed": true,
+            "relative_l2_error": 4.0674083423845005e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 2.6778907136204566e-06,
+            "max_tolerance_ratio": 0.10476938657924083,
+            "passed": true,
+            "relative_l2_error": 4.965593007411331e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.00029277620799826766,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          }
+        }
+      }
+    },
+    "native/parameters/0": {
+      "peak_allocated_bytes": 199239168,
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": false,
+        "cudnn_tf32": true,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 2.288818359375e-05,
+            "max_tolerance_ratio": 0.08669703374768735,
+            "passed": true,
+            "relative_l2_error": 1.4530875606566476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.2186508178710938e-06,
+            "max_tolerance_ratio": 0.05464045366541598,
+            "passed": true,
+            "relative_l2_error": 5.446121490598205e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472609,
+            "max_absolute_error": 0.0008589886128902435,
+            "max_tolerance_ratio": 39.205615803409785,
+            "passed": false,
+            "relative_l2_error": 0.0002927776556622418,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 1226409,
+            "max_absolute_error": 0.06795883178710938,
+            "max_tolerance_ratio": 256.22452790223474,
+            "passed": false,
+            "relative_l2_error": 0.0002935201225032998,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.6760313883423805e-05,
+            "max_tolerance_ratio": 0.0578655390571473,
+            "passed": true,
+            "relative_l2_error": 1.0379110863521255e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 1.8469800397435954e-06,
+            "max_tolerance_ratio": 0.06852546419661182,
+            "passed": true,
+            "relative_l2_error": 4.0674083423845005e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 2.6778907136204566e-06,
+            "max_tolerance_ratio": 0.10476938657924083,
+            "passed": true,
+            "relative_l2_error": 4.965593007411331e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 0,
+            "max_absolute_error": 0.00013540272862755387,
+            "max_tolerance_ratio": 0.4685944835971736,
+            "passed": true,
+            "relative_l2_error": 4.0716480448960173e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.557385257910937e-05,
+            "max_tolerance_ratio": 0.05067455108243257,
+            "passed": true,
+            "relative_l2_error": 9.734871782289891e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.00029277620799826766,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 1226398,
+            "max_absolute_error": 0.06794501581402557,
+            "max_tolerance_ratio": 263.0441202977582,
+            "passed": false,
+            "relative_l2_error": 0.00029351887076729523,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    },
+    "native/parameters/1": {
+      "peak_allocated_bytes": 199239168,
+      "runtime": {
+        "cublas_workspace_config": ":4096:8",
+        "cuda": "12.8",
+        "cudnn": 91002,
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": false,
+        "cudnn_tf32": true,
+        "deterministic_algorithms": true,
+        "device": "cuda",
+        "hardware": {
+          "architecture": "x86_64",
+          "device": "cuda",
+          "gpu": "NVIDIA GeForce RTX 3070",
+          "macos": null,
+          "python": "3.11.17",
+          "vram_bytes": 8210939904
+        },
+        "matmul_precision": "highest",
+        "matmul_tf32": false,
+        "packages": {
+          "PyYAML": "6.0.3",
+          "einops": "0.8.2",
+          "timm": "1.0.30",
+          "torch": "2.8.0+cu128"
+        },
+        "policy": "strict",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128",
+        "warn_only": false
+      },
+      "validation": {
+        "candidate_vs_conv_reference": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 2.288818359375e-05,
+            "max_tolerance_ratio": 0.08669703374768735,
+            "passed": true,
+            "relative_l2_error": 1.4530875606566476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.2186508178710938e-06,
+            "max_tolerance_ratio": 0.05464045366541598,
+            "passed": true,
+            "relative_l2_error": 5.446121490598205e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472609,
+            "max_absolute_error": 0.0008589886128902435,
+            "max_tolerance_ratio": 39.205615803409785,
+            "passed": false,
+            "relative_l2_error": 0.0002927776556622418,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 1226409,
+            "max_absolute_error": 0.06795883178710938,
+            "max_tolerance_ratio": 256.22452790223474,
+            "passed": false,
+            "relative_l2_error": 0.0002935201225032998,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "candidate_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.6760313883423805e-05,
+            "max_tolerance_ratio": 0.0578655390571473,
+            "passed": true,
+            "relative_l2_error": 1.0379110863521255e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 1.8469800397435954e-06,
+            "max_tolerance_ratio": 0.06852546419661182,
+            "passed": true,
+            "relative_l2_error": 4.0674083423845005e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 2.6778907136204566e-06,
+            "max_tolerance_ratio": 0.10476938657924083,
+            "passed": true,
+            "relative_l2_error": 4.965593007411331e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 0,
+            "max_absolute_error": 0.00013540272862755387,
+            "max_tolerance_ratio": 0.4685944835971736,
+            "passed": true,
+            "relative_l2_error": 4.0716480448960173e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        },
+        "conv_reference_vs_oracle": {
+          "bias": {
+            "atol": 0.0001,
+            "failed_elements": 0,
+            "max_absolute_error": 1.557385257910937e-05,
+            "max_tolerance_ratio": 0.05067455108243257,
+            "passed": true,
+            "relative_l2_error": 9.734871782289891e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1024
+            ]
+          },
+          "input": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 3.810742627674557e-06,
+            "max_tolerance_ratio": 0.0645016667544112,
+            "passed": true,
+            "relative_l2_error": 5.724447244516476e-07,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 1472552,
+            "max_absolute_error": 0.0008589990159033611,
+            "max_tolerance_ratio": 39.05297914965976,
+            "passed": false,
+            "relative_l2_error": 0.00029277620799826766,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2048,
+              1024
+            ]
+          },
+          "weight": {
+            "atol": 0.0002,
+            "failed_elements": 1226398,
+            "max_absolute_error": 0.06794501581402557,
+            "max_tolerance_ratio": 263.0441202977582,
+            "passed": false,
+            "relative_l2_error": 0.00029351887076729523,
+            "rtol": 0.0001,
+            "shape": [
+              1024,
+              3,
+              2,
+              16,
+              16
+            ]
+          }
+        }
+      }
+    }
+  },
+  "verification": {
+    "comparisons_recomputed": true,
+    "current_v1_source_hashes_verified_before_precision_control_changes": 5,
+    "no_errors_or_timeouts": true,
+    "original_handoff_source_hashes_match": true,
+    "upstream_hashes_verified": 6,
+    "worker_hashes_and_provenance_verified": 12
+  },
+  "wall_seconds": 86.49848243198358
+}

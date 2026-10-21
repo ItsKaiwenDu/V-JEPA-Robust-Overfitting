@@ -7,20 +7,26 @@ must not be substituted for this one.
 
 ## Execution outcome and next gate
 
-The [bounded component profiler](cuda_component_profile.md) is now prepared for
-the university GPU. Its local fixtures pass; new CUDA execution is pending.
+The [university component outcome](../report/checks/2026-10-21-university-cuda-components.md)
+verifies all 48 workers and strict replay on 12 cases. Original Conv3d input
+backward rose from 1.102 ms to 3.400 seconds under strict settings on RTX 3070.
+Default attention gradients fail exact replay. These isolated measurements
+do not establish RTX 5090 behavior or full-model recovery.
 
 The [October 21 outcome report](../report/checks/2026-10-21-cuda-workflow.md)
 records both attempts and verified exports. The original run failed exact
 clean recovery. The strict retry completed one primary calibration candidate
 in 21.02 minutes, 16.011 times the original candidate, then was stopped during
 the second candidate to preserve the session budget. It never reached training.
-The specific slow operation remains unknown. The 225-test suite passes on the
-Pod, including small CUDA replay; full-model replay remains unvalidated.
+The university profile identifies a slow isolated cuDNN convolution kernel;
+its role in the earlier full-model RTX 5090 slowdown remains unconfirmed.
+The 225-test suite passes on the Pod, including small CUDA replay; full-model
+replay remains unvalidated.
 
 Do not repeat this entire handoff based on those small tests alone. First
-profile representative deterministic forward/backward operations, validate any
-proposed equivalent optimization, and use those measured bounds to size the
+integrate the [verified native convolution candidate](../report/checks/2026-10-21-university-cuda-convolution-precision.md)
+under an explicit opt-in backend/precision contract, validate full-model
+gradients/recovery, and use representative measured bounds to size the
 next explicitly selected diagnostic. Existing archives remain historical.
 
 ## October 21 runtime repair
