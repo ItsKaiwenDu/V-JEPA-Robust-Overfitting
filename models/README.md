@@ -49,3 +49,12 @@ and retains two generations plus anchor weights. See the
 primary-validation anchors. `evaluation_checkpoint.py` verifies saved training
 anchors while preserving the fixed target. See
 [staged data and evaluation](../docs/staged_data_and_evaluation.md).
+
+[features.py](features.py) extracts clean pooled context features, fits a fixed
+training-only ridge probe, and measures raw variance/effective rank.
+[calibration.py](calibration.py) selects a primary PGD step from complete
+training-monitor evidence. [schedule.py](schedule.py) couples epoch checkpoints
+with ordered, resumable evaluations; [study_artifacts.py](study_artifacts.py)
+provides checksummed JSON records. The small diagnostic setup lives in
+[workflow_diagnostic.py](workflow_diagnostic.py). See
+[workflow diagnostics](../docs/workflow_diagnostics.md) for tested scope and limits.

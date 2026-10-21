@@ -77,3 +77,13 @@ when those artifacts are eventually released.
 Export needed artifacts before terminating a rental instance. Count file
 transfer, checkpoint storage, and idle time in the budget. Neither result
 hosting nor a public artifact release has been configured yet.
+
+## Implemented diagnostic records (October 20)
+
+The table above remains a proposed report-export interface. Actual bounded
+workflows now write `workflow.json`, checksum-bound per-clip `evaluation.json`,
+`calibration.json`, checkpoint `manifest.json`, and feature/probe files plus
+`summary.json`. They preserve source/data/runtime identity. Explicit in-place
+recovery of the new workflow is distinct from a rerun; current receipt paths
+require the same absolute artifact locations. See
+[workflow diagnostics](workflow_diagnostics.md) for exact behavior and limits.

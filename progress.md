@@ -1,5 +1,48 @@
 # Research Progress Reports
 
+## 2026-10-20 — Fixed probes, calibration records, and scheduled recovery
+
+Continued from committed milestone `7b2b7cd` with a clean working tree. Added
+[clean probes and scheduled diagnostics](docs/workflow_diagnostics.md): unmasked
+mean-pooled context features, training-only standardization, fixed ridge lambda
+one under an explicit sum-loss convention, and raw variance/effective-rank
+measurements. Calibration compares three primary attack step sizes using only
+declared training-monitor clips and independent scoring masks. It records all
+candidate evidence and refuses changed weights, source/runtime, or data.
+
+The epoch workflow checkpoints before evaluation and refuses to advance past
+unfinished comparisons. It recovers from per-clip interruptions, an interruption
+after saving an epoch, and a failed workflow-record write after evaluation.
+Matched clean/adversarial runs can share identical pretrained evaluations.
+Explicit recovery continues one trajectory directory; reruns require new names.
+
+**Verification:** 197 CPU tests passed, 0 failed/skipped, with 73 upstream
+FutureWarnings. The 53 new tests include actual small upstream transformers,
+an independent primal ridge solution, split/provenance rejection, real primary
+attack calibration replay, and exact scheduled-versus-uninterrupted recovery
+for both training conditions (weights, optimizer, history, RNG).
+
+The released full ViT-L checkpoint also passed clean feature extraction and
+probe fitting on eight existing training clips from two classes: finite
+`8 x 1024` features, centered rank 7 (sample bound 7), and unchanged model and
+target weights. Extraction took 23.22 seconds on local CPU, excluding setup.
+The probe's training-set score is only a plumbing check; no held-out accuracy
+or collapse conclusion was drawn. Raw features/probe tensors remain ignored.
+[Evidence record](report/checks/2026-10-20-workflow-checks.json).
+
+**Limits:** No full-model attack calibration, scheduled training, CUDA recovery,
+research trajectory, or validation/test probe scoring was executed in this
+step. Confirmation/test pixels remain closed. The existing study/proposal,
+manifests, measured-pilot evidence, and earlier scientific source hashes are
+unchanged. No new cloud instance, paid compute, commit, or push was performed.
+The user-reported $0.592 spend remains inside the $10 pilot reserve; $9.408
+remains reserved, within the unchanged $200 total/$160 compute caps.
+
+**Next:** prepare the bounded full-model CUDA recovery/cost-measurement pilot,
+then measure its missing operations. Near-duplicate review, novelty refresh,
+measured budget admission, and protocol freezing still precede the exploratory
+pair. No instance is needed while preparing that handoff.
+
 ## 2026-10-20 — Staged exploration data and native evaluation checks
 
 Verified user commit `a22c2b9` and began from a clean working tree. Exported the

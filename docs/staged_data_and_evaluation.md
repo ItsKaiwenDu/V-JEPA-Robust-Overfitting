@@ -163,9 +163,10 @@ ignored `.venv`, using the same pinned scientific package versions. The report
 records the complete installed package set; unpinned transitive packages may
 differ from the earlier session. The original GPU measurements remain unchanged.
 
-**Next:** implement the fixed clean probe/feature diagnostics and the training-
-only calibration record, wire evaluation into the epoch/resume orchestration,
-then validate full-model CUDA recovery and measure missing costs in a bounded
-pilot. Near-duplicate review, the novelty refresh, protocol freeze, and current
+**Update:** fixed probes, calibration records, and bounded epoch recovery are
+now implemented and checked in [workflow diagnostics](workflow_diagnostics.md).
+The latest suite has 197 passing tests; the 144-test evidence above records
+the earlier milestone. Next, validate full-model CUDA recovery and measure
+missing costs in a bounded pilot. Near-duplicate review, the novelty refresh, protocol freeze, and current
 price/budget checks remain required before an exploratory research run. No
 new cloud instance or paid compute was used for this step.

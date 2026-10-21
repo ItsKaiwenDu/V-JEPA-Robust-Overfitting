@@ -64,5 +64,13 @@ remains gated on evaluation, data validation, and measured cost.
 `export_staged_manifests.py` replays and exports the proposed identities.
 `prepare_staged_clips.py` extracts only training/exploration sources and verifies
 two decodes. `evaluate.py` supports bounded native-attack checks, saved anchors,
-and atomic per-clip recovery. Full research orchestration and downstream probes
-remain pending. See [staged data and evaluation](../docs/staged_data_and_evaluation.md).
+and atomic per-clip recovery. `check_workflow.py` adds bounded clean feature/probe,
+training-only calibration, and scheduled training/recovery diagnostics. Research
+execution and full-model CUDA workflow validation remain pending. See
+[staged data and evaluation](../docs/staged_data_and_evaluation.md).
+
+Use `python scripts/check_workflow.py --help` and the
+[workflow guide](../docs/workflow_diagnostics.md) for exact commands. Its clean
+feature command passed with the released model on eight training clips on CPU.
+Calibration and scheduled recovery have small-model CPU integration tests;
+full-model GPU execution still needs a bounded pilot.

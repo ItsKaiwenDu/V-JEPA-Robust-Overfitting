@@ -1,28 +1,29 @@
 # Scientific acceptance tests
 
-The full local suite now has **144 passing tests**, including the earlier 29
-training/input checks and 49 new staged-data, native-evaluation, recovery,
-anchor-loading, and primary-selection checks. Six interrupted/uninterrupted
-comparisons cover clean and adversarial trajectories on small pinned upstream
-models. Weights, optimizer state, histories, and RNG match exactly on CPU.
-Failure tests cover partial updates, failed commits, low disk space,
-corruption, changed run contracts, and invalid input provenance. The cached
-mask sampler matches the existing upstream sampling path.
+The full local suite now has **197 passing tests**, with no failures/skips and
+73 upstream FutureWarnings. The latest 53 additions check fixed ridge probes
+against an independent primal solution, training-only standardization, raw
+feature diagnostics, calibration evidence/replay, and scheduled recovery.
+Small pinned-upstream clean/adversarial models exactly match uninterrupted
+training after recovery, including weights, optimizer, history, and RNG.
 
-Existing checks cover native-loss/gradient agreement, pixel attacks, grouped
-splits, FFmpeg decoding, equivalent patch projection, pilots, and both cost
-proposals. No test failed or skipped in the October 20 run; 54 FutureWarnings
-come from upstream deprecated imports/SDPA APIs. Run
-`python -m pytest -q tests --upstream external/vjepa2` after
-[local setup](../docs/smoke_test.md).
+Interruption tests cover per-clip evaluation, a saved epoch before evaluation,
+and completed evaluation before its workflow-record commit. Stale source/runtime,
+changed schedules, missing/corrupt receipts, and mixed-run records are rejected.
+The previous 144 checks retain their coverage of native losses/gradients,
+attacks, group splits, decoding, checkpoint state, primary selection, and costs.
 
-GitHub CI currently checks only scaffold and syntax. Separate pretrained
-CPU/MPS/CUDA diagnostic reports do not establish GPU resume equivalence for
-the new runner. See [training and recovery](../docs/training_runner.md).
-Exploration clips pass deterministic decoding and exact-duplicate checks; the
-primary-selection core is tested. Near-duplicate review, full-model convergence,
-GPU resume, probes/calibration, and research orchestration remain pending. See
-[the new evaluation evidence](../docs/staged_data_and_evaluation.md). Add tests alongside the
+Run `python -m pytest -q tests --upstream external/vjepa2` after
+[local setup](../docs/smoke_test.md). GitHub CI currently checks scaffold and
+syntax only. These tests do not require downloading weights or renting a GPU.
+
+The separate full pretrained CPU feature command passed on eight real training
+clips; its training-set probe score is not held-out performance. Full-model
+CUDA recovery/calibration, convergence validation, near-duplicate review, and
+research admission remain pending. See [workflow diagnostics](../docs/workflow_diagnostics.md)
+and the [latest evidence](../report/checks/2026-10-20-workflow-checks.json).
+
+Add tests alongside the
 corresponding implementation, including:
 
 - Pixel-space perturbation bounds, clipping, and zero-epsilon equivalence.

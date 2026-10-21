@@ -209,3 +209,30 @@ study or changes to the historical pilot. The new CLI remains bounded and
 diagnostic. Record them in the eventual frozen configuration after calibration,
 full-model validation, and measured budget checks. See
 [staged data and evaluation](staged_data_and_evaluation.md).
+
+## 2026-10-20 — Probe convention and epoch evaluation barriers
+
+Implement mean pooling of all clean context tokens and a separate ridge probe
+for each representation checkpoint. Fix training-only population normalization,
+FP64 solution, unpenalized intercept, and lambda one under **sum** squared error.
+Measure variance and covariance-spectrum effective rank before normalization;
+report their sample-size limit without declaring a collapse threshold.
+
+Declare the first ten training-monitor manifest rows for eventual research
+step calibration. Compare 0.5/1/2 per 255 using the common independent primary
+scoring bank, highest mean then smaller exact tie. Keep training PGD-5 step one.
+The current CLI's one/two-clip diagnostic is separately marked and cannot
+admit or replace ten-clip research calibration.
+
+Require evaluations to complete at saved epoch boundaries before further
+training. Checksum-bound in-place continuation is explicit for the new
+workflow command; reruns still require fresh directories, and the older
+training CLI preserves its fresh-attempt behavior. Reuse shared initialization
+only under identical evaluation contracts. Retain primary anchor weights and
+reject altered schedules, calibration, source/runtime, data, or mixed receipts.
+
+These details are implemented and locally tested, with a full pretrained CPU
+feature check; full-model CUDA recovery/calibration remains pending. Record
+these conventions in the eventual frozen configuration after validation and
+cost admission. Preserve existing configuration hashes and prior evidence.
+See [workflow diagnostics](workflow_diagnostics.md).

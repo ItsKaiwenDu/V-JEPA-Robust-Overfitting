@@ -2,14 +2,16 @@
 
 ## Current stage
 
-This repository has a scaffold and locally tested model integration. Read README.md, progress.md, and
-docs/experimental_protocol.md before adding research code. Do not describe
+Read README.md, progress.md, docs/experimental_protocol.md, and
+docs/workflow_diagnostics.md before adding research code. Do not describe
 planned entry points, unrun experiments, or proposed results as implemented
 or verified. Keep progress.md factual.
 
-Small CPU fixtures pass; full pretrained execution, video data, attacks,
-training, CUDA feasibility, and research results remain pending. See
-docs/smoke_test.md before running model checks. No cloud rental is automatic.
+Pretrained hardware pilots and staged training/exploration data preparation
+have passed. The local suite has 197 passing tests; clean pretrained features
+also passed on eight training clips. Full-model CUDA workflow recovery,
+research calibration, measured budget admission, and research results remain
+pending. Confirmation/test pixels remain closed. No cloud rental is automatic.
 
 ## Research scope
 

@@ -2,11 +2,13 @@
 
 October 20, 2026. The FP32 training core and a bounded diagnostic command are
 implemented. **Full research execution remains pending**: the staged evaluation/selection core and exploration data now have separate
-[implementation evidence](staged_data_and_evaluation.md), but epoch orchestration,
-full-model recovery validation, and end-to-end budget admission remain pending.
+[implementation evidence](staged_data_and_evaluation.md), and bounded epoch orchestration now has
+[workflow evidence](workflow_diagnostics.md). Full-model CUDA recovery validation
+and end-to-end budget admission remain pending.
 
 The training-core verification recorded **95 passing tests**, including 29
-new training/input checks; the later data/evaluation suite now has 144. Small models built from the pinned upstream JEPA implementation
+new training/input checks; the subsequent data/evaluation milestone had 144.
+The latest workflow suite has 197. Small models built from the pinned upstream JEPA implementation
 produce exactly matching CPU model weights, optimizer moments, histories,
 and random states after interruption and resume. Both clean and adversarial
 conditions were checked at three interruption points, spanning warmup,
@@ -49,7 +51,7 @@ big-endian, modulo `2**31 - 1` for compatibility with upstream mask sampling.
 Order uses the zero-based epoch; masks use epoch and video ID; attack starts
 use the zero-based update, with a per-microbatch offset inside the existing
 PGD routine. Condition is omitted so matched pairs share order/masks. This
-training seed rule is separate from the proposal's future evaluation-bank
+training seed rule is separate from the evaluation-bank
 seed rule. The cached upstream mask sampler reproduces the existing smoke
 sampler while avoiding repeated Git/config inspection inside every update.
 
@@ -76,12 +78,15 @@ If a transaction fails, previously committed files survive; an orphan from
 the failed write may remain and is not considered a checkpoint. A corrupted
 latest generation causes an error. Recovery from `previous` must be explicit.
 
-Every CLI attempt writes to a **new directory**, including resumes. The new
-run record links the parent checkpoint filename/hash and attempt directory.
+Every `train.py` CLI attempt writes to a **new directory**, including resumes.
+Its new run record links the parent checkpoint filename/hash and attempt directory.
 Earlier attempt logs and anchor files remain intact. Two rolling generations
 are retained per attempt; this does not implement automatic archival pruning
 across attempts. Checkpoint I/O, CPU target-cache construction, disk occupancy,
 and transfer costs still need measurement on the experiment machine.
+
+The newer `check_workflow.py` uses explicit in-place recovery of one trajectory;
+see [its directory contract](workflow_diagnostics.md).
 
 PyTorch documents optimizer state as part of resumable checkpoints in its
 [checkpoint recipe](https://docs.pytorch.org/tutorials/recipes/recipes/saving_and_loading_a_general_checkpoint.html).
@@ -143,6 +148,7 @@ Python process stops a cloud Pod or its billing. The later launch workflow
 must handle instance shutdown and verified artifact export separately.
 
 The staged training/exploration clips and native evaluation/selection core are
-now checked separately. Next: fixed probes and calibration records, epoch
-evaluation orchestration, then full-model recovery and missing-cost measurement
-before an exploratory trajectory. No research protocol has been frozen.
+now checked separately. Fixed probes, calibration records, and bounded epoch
+evaluation orchestration also have [local evidence](workflow_diagnostics.md).
+Next: full-model CUDA recovery and missing-cost measurement before an
+exploratory trajectory. No research protocol has been frozen.

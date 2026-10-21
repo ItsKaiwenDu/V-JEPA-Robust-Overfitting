@@ -2,7 +2,7 @@
 
 **Research question:** During adversarial fine-tuning of V-JEPA 2's native masked prediction loss, does performance on unseen videos deteriorate after initially improving, even while adversarial training loss continues to decrease?
 
-**Status: hardware pilots passed; a smaller staged study is proposed, with full training still pending.** The original study exceeds the $200 cap. The [October 20 proposal](docs/budget_study_plan.md) starts with one exploratory clean/adversarial pair on 20 classes, followed conditionally by three new confirmation pairs. Its planning envelope is $193.91 including headroom and reserves, with some costs still unmeasured; it is not admitted for execution. The October 19 Runpod session cost $0.592 according to the user. CPU, Apple GPU, and RTX 5090 diagnostics passed; university RTX 3070 FP32 training ran out of memory. The staged manifests are exported, 120 training/exploration clips pass deterministic preparation, and local training/recovery/evaluation checks now pass 144 tests. Full research orchestration and new GPU resume validation remain pending. None of these checks establishes robust overfitting.
+**Status: hardware pilots passed; a smaller staged study is proposed, with full training still pending.** The original study exceeds the $200 cap. The [October 20 proposal](docs/budget_study_plan.md) starts with one exploratory clean/adversarial pair on 20 classes, followed conditionally by three new confirmation pairs. Its planning envelope is $193.91 including headroom and reserves, with some costs still unmeasured; it is not admitted for execution. The October 19 Runpod session cost $0.592 according to the user. CPU, Apple GPU, and RTX 5090 diagnostics passed; university RTX 3070 FP32 training ran out of memory. The staged manifests are exported, 120 training/exploration clips pass deterministic preparation, and local checks now pass 197 tests. Fixed probes, training-only calibration, and epoch evaluation/recovery are implemented for bounded diagnostics. Clean feature extraction/probe fitting also passed on eight real training clips with the released checkpoint. Full-model CUDA recovery, study calibration, and measured budget admission remain pending. None of these checks establishes robust overfitting.
 
 This project extends our [previous robust-overfitting research](https://github.com/ItsKaiwenDu/Robust-Overfitting) to latent video prediction. It retains the familiar `models/`, `scripts/`, `notes/`, and `report/` organization, along with weekly goals, progress reports, and a Lambda Labs guide.
 
@@ -24,6 +24,7 @@ The intended contribution is a controlled study of training dynamics and their d
 | [Setup guide](docs/setup.md) | Local development and university GPU preparation |
 | [Local model checks](docs/smoke_test.md) | Pretrained checkpoint and native-loss correctness checks |
 | [Staged data and evaluation](docs/staged_data_and_evaluation.md) | Verified exploration clips, native attacks, evaluation recovery, and provisional primary selection |
+| [Feature probes and scheduled recovery](docs/workflow_diagnostics.md) | Train-only probe/calibration rules, epoch evaluation barriers, and bounded integration commands |
 | [Training and recovery](docs/training_runner.md) | Verified training inputs, optimizer/resume state, atomic checkpoints, and current limits |
 | [Data and attacks](docs/data_and_attacks.md) | Grouped subsets, reproducible clips, and pixel-space attacks |
 | [Mac GPU pilot](docs/mac_pilot.md) | MPS access, correctness checks, and explicit performance options |
@@ -98,6 +99,7 @@ These commands inspect the environment without downloading models, preparing dat
 | [`scripts/export_staged_manifests.py`](scripts/export_staged_manifests.py) | Implemented: exact replay and export of the proposed subset identities |
 | [`scripts/prepare_staged_clips.py`](scripts/prepare_staged_clips.py) | Passed: 100 training and 20 exploration clips decoded twice; confirmation/test pixels closed |
 | [`scripts/evaluate.py`](scripts/evaluate.py) | Implemented: bounded native evaluation diagnostic, atomic recovery, and saved-anchor loading; full-model validation pending |
+| [`scripts/check_workflow.py`](scripts/check_workflow.py) | Implemented: bounded feature/probe, calibration, and scheduled recovery checks; full pretrained CPU features passed; CUDA workflow validation pending |
 | `scripts/run_report_checks.py` | Planned: attack and implementation diagnostics |
 | `scripts/plot_results.py` | Planned: per-seed curves and aggregate summaries |
 
