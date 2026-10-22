@@ -32,7 +32,8 @@ def main():
     parser.add_argument('--max-seconds', type=float, default=600., help='Training/evaluation boundary limit; excludes setup and does not stop billing.')
     parser.add_argument('--anchor-store', type=Path, help='Features only: saved anchor checkpoint directory.')
     parser.add_argument('--anchor-epoch', type=int)
-    parser.add_argument('--execution-policy', choices=('original', 'cudnn-fp32', 'native-fp32'),
+    parser.add_argument('--execution-policy', choices=('original', 'cudnn-fp32', 'native-fp32',
+                                                     'shared-fp64-cudnn', 'shared-fp64-native'),
                         default='original', help='Explicit diagnostic backend/precision; does not adopt a study policy.')
     args = parser.parse_args()
     if not args.diagnostic or args.limit not in (1, 2):

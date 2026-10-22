@@ -6,9 +6,6 @@ import torch
 from torch import nn
 from torch.autograd.function import once_differentiable
 
-from models.execution import ExecutionGuard
-from models.training import runtime_contract
-
 BACKWARDS = ('cudnn', 'native')
 FORWARD_ID = 'nonoverlapping-unfold-fp64-mm-separate-bias-cast-fp32-transposed-v1'
 
@@ -79,12 +76,17 @@ class PrecisionPatchEmbed3D(nn.Module):
                 or p.weight.dtype != torch.float32 or (p.bias is not None and p.bias.dtype != torch.float32)
                 or x.ndim != 5 or x.shape[1] != p.in_channels
                 or any(n % k for n, k in zip(x.shape[2:], p.kernel_size))
-                or torch.is_autocast_enabled(x.device.type) or self.forward_id != FORWARD_ID):
+                or torch.is_autocast_enabled(x.device.type) or self.forward_id != FORWARD_ID
+                or self.backward_backend not in BACKWARDS
+                or p.kernel_size != tuple(p.weight.shape[2:]) or p.stride != p.kernel_size
+                or p.padding != (0, 0, 0) or p.dilation != (1, 1, 1)
+                or p.groups != 1 or p.padding_mode != 'zeros'):
             raise ValueError('Precision control needs FP32 CPU/CUDA operands, divisible geometry and no autocast.')
         return _PrecisionProjection.apply(x, p.weight, p.bias, self.backward_backend)
 
 
 def precision_identity(model, device):
+    from models.training import runtime_contract
     patch, target = model.encoder.patch_embed, model.target_encoder.patch_embed
     if (not isinstance(patch, PrecisionPatchEmbed3D) or isinstance(target, PrecisionPatchEmbed3D)
             or patch.backward_backend not in BACKWARDS or patch.forward_id != FORWARD_ID
@@ -127,6 +129,7 @@ class PrecisionGuard:
 @contextmanager
 def precision_scope(model, backend, device):
     """Separate diagnostic identity; legacy caches/training reject while active."""
+    from models.execution import ExecutionGuard
     base = ExecutionGuard(model, device, target_versions=True)
     original, policy = model.encoder.patch_embed, model._diagnostic_execution_policy
     if policy != 'cudnn-fp32' or type(original) is not type(model.target_encoder.patch_embed):

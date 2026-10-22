@@ -4,7 +4,7 @@ Track planned work here and completed work in [progress.md](progress.md).
 Day 1 begins with the first implementation/pilot work session. The target is
 a focused report by day 21, with days 22-27 reserved for review and repairs.
 
-## Current planning update — October 21
+## Current planning update — October 22
 
 The [staged proposal](docs/budget_study_plan.md) remains a candidate within the
 $200 limit; it is not admitted for study execution. The larger milestones
@@ -20,11 +20,10 @@ Opt-in integration now binds explicit runtime/cache/resume identities;
 small-model gradients/recovery and fresh CPU workers are checked. The verified
 university derivative control isolates failed forward-oracle gates; fixed-
 cotangent backwards pass and saved gradients reconstruct bitwise. The shared-forward precision control now passes verified university forward/
-gradient/replay gates with faster native input-only backward. Next is explicit
-opt-in integration and exact full optimizer recovery; no study backend adopted.
-Then full pretrained gradient/optimizer-recovery acceptance and measured costs
-before
-an exploratory pair. No research trajectory is complete; confirmation is conditional.
+gradient/replay gates with faster native input-only backward. Explicit integration now passes local clean/adversarial AdamW exact recovery,
+including fresh processes and scheduled evaluation. No study backend is adopted.
+Next is a fresh bounded sufficient-VRAM CUDA handoff, full pretrained recovery
+and representative checks, then measured costs before an exploratory pair. No research trajectory is complete; confirmation is conditional.
 
 ## Repository setup
 
@@ -54,7 +53,7 @@ an exploratory pair. No research trajectory is complete; confirmation is conditi
 - [x] Execute/verify pretrained derivative attribution without changing the prior numerical rejection.
 - [x] Implement a separately identified shared FP64 patch forward and verify trained-projection/CPU replay gates.
 - [x] Verify shared-forward pretrained CUDA accuracy/input gradients/attacks/replay on the bounded one-clip control.
-- [ ] Integrate the explicit precision identity into research/cache/checkpoint contracts and verify CPU optimizer recovery.
+- [x] Integrate the explicit precision identity into research/cache/checkpoint contracts and verify CPU optimizer recovery.
 - [ ] Accept full pretrained CUDA input gradients/attacks and optimizer recovery for the candidate.
 - [ ] Validate full-model GPU resume and integrated evaluation before research execution.
 - [x] Pin upstream source and implement the adapter and local CPU correctness tests.

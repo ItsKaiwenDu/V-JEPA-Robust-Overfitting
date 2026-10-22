@@ -87,12 +87,20 @@ clean loss/input backward 1.108s / 7.923s (7.15x). Peak allocator 2.838 GiB.
 This is one training clip/mask bank on RTX 3070, not study throughput or full
 AdamW/update/recovery evidence. Read
 report/checks/2026-10-21-university-shared-forward.md and its JSON.
-The temporary diagnostic policy still rejects existing research/cache APIs.
-Next is deliberate explicit opt-in runtime/cache/calibration/anchor/checkpoint
-integration and CPU clean/adversarial exact optimizer recovery, then a bounded
-sufficient-VRAM full-model CUDA pilot and representative checks. This integration
-is planned only; see docs/shared_forward_integration_plan.md. No new study
-policy adopted, source/YAML/tolerance change, paid launch or held-out pixels.
+October 22 explicit diagnostic integration now passes CPU checks. Named
+shared-fp64-cudnn/native policies bind schema-2 forward/precision/backward and
+actual model/normalization/geometry identities into existing caches, features,
+calibration, evaluation, anchors and resume. The old temporary scope remains
+unknown to training APIs; old policy defaults/schema-1 identities are unchanged.
+Forty-seven new small-upstream CPU cases cover full clean/adversarial AdamW
+updates/exact recovery at three cuts, twelve fresh CPU processes, scheduled
+evaluation recovery, failure boundaries, and rejection before weight/optimizer
+restoration. Target/parameter/state-key invariants remain. Read
+docs/shared_forward_training.md and report/checks/2026-10-22-shared-forward-integration.md.
+Next: prepare a fresh bounded offline sufficient-VRAM pretrained CUDA
+update/resume and representative-input handoff before any new quote/deployment.
+Full pretrained CUDA optimizer recovery is still unvalidated; original 8 GB
+AdamW OOM remains. No study/YAML/tolerance adoption, paid launch or held-out pixels.
 Preserve both historical FP32 failures; reported spend $1.195 / reserve $8.805.
 Do not widen thresholds or adopt the backend based on cosine similarity or
 speed alone. Full-model optimizer recovery, RTX 5090 behavior, research
@@ -103,7 +111,7 @@ hook/RNG restoration, and failed source/runtime/data identities. Read
 report/checks/2026-10-21-gradient-attribution.md before the manual university launch.
 Worker limit 300 seconds, outer limit 330 seconds + five-second kill grace,
 7 GiB allocator cap. No optimizer or paid launch.
-Latest local suite: 373 passed, two actual-CUDA skips. Research calibration,
+Latest local suite: 420 passed, two actual-CUDA skips. Research calibration,
 measured budget admission, and research results remain pending. Confirmation/test pixels remain closed.
 No cloud rental is automatic.
 

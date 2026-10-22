@@ -115,3 +115,8 @@ matched-FP64-forward control: explicit diagnostic scope, first training clip,
 original pinned assets, four fresh workers, numerical/replay gates, saved raw
 references and a detached bounded launcher. See
 [the guide](../docs/shared_forward_control.md) before university execution.
+
+`check_workflow.py` and `run_workflow_pilot.py` also accept explicit diagnostic
+`shared-fp64-cudnn` and `shared-fp64-native` policies. Defaults remain `original`.
+See [the training integration](../docs/shared_forward_training.md); accepting
+an option does not establish a new offline GPU handoff or deployment approval.

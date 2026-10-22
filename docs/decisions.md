@@ -402,3 +402,20 @@ and budget gates. Current scientific implementation and study/proposal YAML
 remain unchanged by this verification. See
 [verified outcome](../report/checks/2026-10-21-university-shared-forward.md) and
 [next plan](shared_forward_integration_plan.md).
+
+## 2026-10-22 — Explicit shared-forward diagnostic training identity
+
+Promote the verified shared-forward algorithm to separately named
+`shared-fp64-cudnn` / `shared-fp64-native` diagnostic options. FP64 context-patch
+accumulation is explicit; parameters, tokens, VJPs, normalization, original clean
+target and tail stay FP32. Schema-2 identity and unchanged equality checks bind
+all artifact consumers, including rejection before resume/anchor restoration.
+Keep the earlier temporary scope separate and retain old default/schema-1
+identities. CUDA candidates require the exercised PyTorch 2.8.0 boundary.
+
+Local small-upstream clean/adversarial AdamW recovery, including fresh processes
+and scheduled evaluations, now passes. This is implementation acceptance only;
+no research precision/protocol is adopted or study YAML changed. Full pretrained
+CUDA recovery, representative/convergence checks and measured budget admission
+remain pending. Preserve historical FP32 rejections and the university AdamW OOM.
+See [the integration record](../report/checks/2026-10-22-shared-forward-integration.md).

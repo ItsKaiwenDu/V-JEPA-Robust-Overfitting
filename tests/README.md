@@ -1,6 +1,8 @@
 # Scientific acceptance tests
 
-The latest local suite passes **283 tests with one actual-CUDA skip**. The
+The latest local suite passes **420 tests with two actual-CUDA skips**.
+See [October 22 integration evidence](../report/checks/2026-10-22-shared-forward-integration.md).
+The earlier 283-test milestone below records component coverage. The
 35 convolution-comparison tests check analytic
 FP64 derivatives against convolution/autograd, original Conv3d layouts and
 gradient modes, fixed elementwise error gates, fresh processes, optional
@@ -113,3 +115,13 @@ are separate recorded CUDA diagnostics; they do not turn the two locally
 skipped pytest regressions into pytest passes. Full-model optimizer recovery
 and study admission remain pending. See
 [the verified result](../report/checks/2026-10-21-university-shared-forward.md).
+
+`test_shared_execution.py` adds 47 integration cases for both named shared-
+forward policies: clean/adversarial full-small-model AdamW updates and exact
+recovery, twelve fresh CPU worker processes, scheduled evaluations and three
+failure boundaries, original parameter/state-key/target invariants, matching
+anchor loads and stale/absent precision rejected before restoration, cache/
+module/normalization/geometry/dtype/checkpointing drift and incompatible
+calibration/evaluation/features. The fresh process worker lives in
+`tests/fixtures/shared_recovery_worker.py`. Current suite: 420 passed,
+two actual-CUDA skips. Full pretrained CUDA recovery is still pending.

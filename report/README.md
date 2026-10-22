@@ -39,3 +39,8 @@ logs, per-video caches, and weights in their ignored storage directories.
 Show uncertainty and failed/inconclusive findings. Do not create illustrative
 curves that could be mistaken for measurements. The pretrained reference has
 no training trajectory.
+
+The [October 22 shared-forward integration check](checks/2026-10-22-shared-forward-integration.md)
+records exact small-upstream CPU optimizer/workflow recovery and artifact
+precision checks. It is implementation evidence, not pretrained CUDA recovery
+or a robust-overfitting result.

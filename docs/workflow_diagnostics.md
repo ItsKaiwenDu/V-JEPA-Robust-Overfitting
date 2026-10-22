@@ -200,3 +200,14 @@ Native PGD-5+score is 6.44x faster in two single attempts; full update/recovery
 and study throughput are unvalidated. Next is
 [explicit integration and optimizer recovery](shared_forward_integration_plan.md).
 No original failed gate is relabeled.
+
+## October 22 shared-forward training integration
+
+The separate temporary precision scope remains excluded from general APIs.
+Explicit `shared-fp64-cudnn` and `shared-fp64-native` policies now bind schema-2
+forward/precision/backward identities into the same guarded workflow. Local
+CPU clean/adversarial full-small-model AdamW and scheduled recovery, including
+fresh processes and failure boundaries, pass exact equality. Use the
+[training integration guide](shared_forward_training.md) for this implemented
+milestone. Full pretrained CUDA update/recovery and the fresh offline handoff
+remain pending; the earlier 8 GB AdamW OOM and failed FP32 evidence remain.

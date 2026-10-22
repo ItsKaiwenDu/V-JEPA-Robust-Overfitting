@@ -63,7 +63,8 @@ def main():
     parser.add_argument('--max-seconds', type=int, default=5400,
                         help='Worker wall deadline, at most 90 minutes; does not stop cloud billing.')
     parser.add_argument('--phase', choices=PHASES, help=argparse.SUPPRESS)
-    parser.add_argument('--execution-policy', choices=('original', 'cudnn-fp32', 'native-fp32'),
+    parser.add_argument('--execution-policy', choices=('original', 'cudnn-fp32', 'native-fp32',
+                                                     'shared-fp64-cudnn', 'shared-fp64-native'),
                         default='original', help='Explicit diagnostic backend/precision; does not adopt a study policy.')
     args = parser.parse_args()
     if not args.diagnostic or not 1 <= args.max_seconds <= 5400:

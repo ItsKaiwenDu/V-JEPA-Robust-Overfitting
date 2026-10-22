@@ -24,6 +24,7 @@ SOURCES = (
     'models/pilot.py', 'models/runtime.py', 'models/diagnostics.py', 'attacks/pgd.py',
     'datasets/staged_files.py', 'datasets/staged_subset.py', 'datasets/staged_preparation.py',
     'datasets/video.py', 'models/execution.py', 'models/native_patch.py', 'models/patch_embed.py',
+    'models/precision_patch.py',
 )
 
 

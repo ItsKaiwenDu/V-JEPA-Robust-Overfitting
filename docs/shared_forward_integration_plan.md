@@ -1,12 +1,15 @@
-# Shared-forward candidate integration — next milestone
+# Shared-forward integration and remaining CUDA gates
 
-**Status: plan only; not implemented or launched.** The university input-only
-control is now [verified](../report/checks/2026-10-21-university-shared-forward.md).
-It passes the original numerical limits and observed replay, with a faster
-native backward on one training clip. No full optimizer recovery or study
-admission follows automatically from that evidence.
+**October 22 status: local integration and CPU recovery implemented and verified.**
+See [the implementation guide](shared_forward_training.md) and
+[verification record](../report/checks/2026-10-22-shared-forward-integration.md).
+The original requirements below describe this milestone; execution/artifact
+contracts and local checks are complete for CPU fixtures. Pretrained CUDA
+optimizer recovery, representative checks and study admission remain pending.
+The earlier [university input-only control](../report/checks/2026-10-21-university-shared-forward.md)
+remains separate evidence. No new cloud handoff or instance has been launched.
 
-## Execution and artifact contracts
+## Execution and artifact contracts — implemented locally
 
 Promote the diagnostic implementation to a separately named explicit opt-in
 execution policy. Preserve the old default and historical policy/precision
@@ -16,16 +19,16 @@ normalization, activation checkpointing, actual modules and strict global
 flags in the runtime identity. Continue rejecting unsupported higher-order
 operations and autocast/precision drift.
 
-Existing research/cache APIs currently reject the temporary precision-scope
-policy. Update them deliberately with the full new identity, rather than
-removing their checks. A record lacking the new forward precision must not
+The temporary precision-scope policy stays rejected. Separately named
+shared-fp64-cudnn/native policies carry the full new identity through the
+existing artifact comparisons, rather than removing their checks. A record lacking the new forward precision must not
 match. Bind target caches, features, calibration, evaluations, anchors and
 saved training/resume state; reject incompatible artifacts before loading
 trainable weights or optimizer state. Preserve clean/frozen original targets,
 trained predictor and the native masked L1 objective. No EMA or classifier
 training objective is introduced.
 
-## Local full-update and interrupted recovery checks
+## Local full-update and interrupted recovery checks — passed on CPU fixtures
 
 Use small actual upstream CPU models for clean and adversarial trajectories.
 Compare uninterrupted with interrupted/resumed context and predictor updates,

@@ -95,6 +95,11 @@ It is a diagnostic intervention, never a training/backend acceptance path. See
 implement the separate FP64-context-patch-forward/FP32-token diagnostic. Only
 backward dispatch differs between arms; a distinct guarded scope is rejected
 by existing research/cache APIs. The bounded CUDA input-only control is now verified: oracle/replay gates pass
-with identical shared tokens and attacks on one clip. Full integration/update/
-optimizer recovery remain pending. See
+with identical shared tokens and attacks on one clip. Explicit integration and small-upstream CPU AdamW recovery now pass; full
+pretrained CUDA optimizer recovery remains pending. See
 [the declared precision/reference](../docs/shared_forward_control.md).
+
+The named `shared-fp64-cudnn/native` options in [execution.py](execution.py)
+carry a complete schema-2 precision identity into training and artifact
+consumers. See [shared-forward training](../docs/shared_forward_training.md)
+for exact CPU recovery evidence, supported precision and remaining CUDA gates.

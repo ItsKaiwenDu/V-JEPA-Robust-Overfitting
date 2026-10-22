@@ -1,5 +1,30 @@
 # Research Progress Reports
 
+## 2026-10-22 — Shared-forward training integration and exact CPU recovery
+
+Added explicit `shared-fp64-cudnn` and `shared-fp64-native` diagnostic options.
+Schema-2 identities bind actual forward/precision/backward, modules/geometry,
+normalization, activation checkpointing and strict runtime across target
+caches, features, calibration, evaluation, anchors and resume. Incompatible or
+precision-free artifacts reject before loading trainable weights/optimizer.
+Original default/schema-1 policies, parameter/state keys, frozen clean target,
+native L1, study/proposal YAML and all numerical/exact recovery limits remain.
+
+**Verification:** 420 passed, 2 actual-CUDA skips, 159 warnings in
+204.35s; 47 new integration cases. Both backwards/conditions pass full-small-
+model clean/adversarial AdamW recovery at three interruption cuts and in twelve
+fresh CPU workers. Scheduled evaluation recovery, three failure boundaries,
+nonzero allowed updates/moments, unchanged targets, valid anchor loads and
+cache/artifact/drift rejection pass. Two initial test setup failures are
+preserved and corrected without relaxing acceptance. [Evidence](report/checks/2026-10-22-shared-forward-integration.md),
+[integration guide](docs/shared_forward_training.md).
+
+**Next:** prepare the fresh offline bounded sufficient-VRAM pretrained CUDA
+update/recovery and representative-input handoff. This CPU milestone does not
+validate full pretrained CUDA recovery or resolve the earlier university 8 GB
+AdamW OOM. No new cloud handoff, CUDA job, paid compute, study admission,
+confirmation/test pixels, commit or push. Spend $1.195 / pilot reserve $8.805.
+
 ## 2026-10-21 — Shared-forward CUDA control independently verified and passed
 
 Verified `precision.RvqoMB`: complete source/archive/53 manifest entries,
