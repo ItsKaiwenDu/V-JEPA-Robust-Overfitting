@@ -1,0 +1,238 @@
+{
+  "archive": {
+    "base_git_head": "7c3ee216f7d4ba73b9544af087df861e96a232e9",
+    "bytes": 102777,
+    "manifest_files": 42,
+    "path": "runs/pretrained/diagnostic/cuda-native-model-handoff-20261021/vjepa-native-model.tar.gz",
+    "regular_members": 43,
+    "sha256": "ddac322987ffe8a1883f3fe6fa615dda2acad8ac77afb5831c73726f6e698fb5"
+  },
+  "base_git_head": "7c3ee216f7d4ba73b9544af087df861e96a232e9",
+  "budget_approved": false,
+  "confirmation_or_test_pixels_opened": false,
+  "date": "2026-10-21",
+  "diagnostic_only": true,
+  "extracted_handoff_cpu_fixture": {
+    "comparison": {
+      "attacks_compared_for_exact_replay_only_within_each_backend": true,
+      "cross_backend": {
+        "clean_loss": {
+          "atol": 2e-06,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "relative_l2_error": 0.0,
+          "rtol": 1e-05,
+          "shape": []
+        },
+        "input_gradient": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "relative_l2_error": 0.0,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            3,
+            4,
+            16,
+            16
+          ]
+        }
+      },
+      "full_model_optimizer_or_recovery_validated": false,
+      "passed": true,
+      "single_attempt_seconds": {
+        "cudnn-fp32": {
+          "clean_loss_and_input_backward": 0.02506016600091243,
+          "fgsm": 0.02995695899880957,
+          "pgd5": 0.09353662499779603
+        },
+        "native-fp32": {
+          "clean_loss_and_input_backward": 0.018053957996016834,
+          "fgsm": 0.031919499997457024,
+          "pgd5": 0.09502020800573518
+        }
+      },
+      "tiny_fixture": true,
+      "within_backend_exact_replay": {
+        "cudnn-fp32": true,
+        "native-fp32": true
+      }
+    },
+    "complete": true,
+    "passed": true,
+    "session_sha256": "f836f41bcac8533c884f1b42f837ee7bde7bcdd70b66a84e0d2ef9d2161b38eb",
+    "tiny_fixture": true,
+    "wall_seconds": 6.719533875002526,
+    "worker_result_sha256": {
+      "cudnn-fp32-0.json": "937de8b6da38f69bca0b54b54e3298dd4b14b038ebfaffc785c2e97887b47cd6",
+      "cudnn-fp32-1.json": "243978122bdcc099246ea8db9958f0b80e6761b6a641fd64a75ca8b6820b71bf",
+      "native-fp32-0.json": "2d62b7444680adc32819597c9a95729bb9cc273b3be6620418c22a5436a16434",
+      "native-fp32-1.json": "fd0ffd23abc0726f148d1b60eb339ac85824a9c55ec122e1568292a24ce5864b"
+    }
+  },
+  "handoff_manifest_sha256": "cd06d19a505181ea8c7bb71d0830be99d81b1fb1faa566396286fed33e50d9db",
+  "intentionally_changed_existing_python": [
+    "datasets/prepared.py",
+    "models/calibration.py",
+    "models/evaluation_checkpoint.py",
+    "models/evaluation_store.py",
+    "models/features.py",
+    "models/training.py",
+    "models/workflow_diagnostic.py",
+    "models/workflow_pilot.py",
+    "scripts/check_workflow.py",
+    "scripts/run_workflow_pilot.py",
+    "tests/test_calibration.py",
+    "tests/test_schedule.py"
+  ],
+  "kind": "native_conv3d_opt_in_integration_preparation",
+  "local_suite": {
+    "architecture": "arm64",
+    "passed": 312,
+    "python": "3.11.16",
+    "seconds": 111.31,
+    "skipped": 2,
+    "skips": "Two actual-CUDA checks; local fixture environment has no CUDA.",
+    "torch": "2.14.1",
+    "warnings": 95
+  },
+  "new_paid_compute_used": false,
+  "new_video_pixels_or_pretrained_weights_loaded_locally": false,
+  "pending": [
+    "university full pretrained CUDA input-gradient/attack and scoped backward check",
+    "full-model CUDA optimizer/recovery acceptance on sufficient VRAM",
+    "representative RTX 5090 timing/memory and measured budget admission",
+    "research ten-training-clip calibration, protocol freeze, duplicate review and novelty refresh"
+  ],
+  "raw_local_evidence": "runs/pretrained/diagnostic/native-integration-local-20261021",
+  "raw_local_files_sha256": {
+    "handoff-cpu-fixture/cudnn-fp32-0.json": "937de8b6da38f69bca0b54b54e3298dd4b14b038ebfaffc785c2e97887b47cd6",
+    "handoff-cpu-fixture/cudnn-fp32-0.log": "9f87662069c886d53e426ddd38ac47310e0f14c6aa2986e2b3141f63a41ca957",
+    "handoff-cpu-fixture/cudnn-fp32-0.pt": "e754e19b282a3a49b157b3ba726650c5bac678c5d67f0832678d018344f993b6",
+    "handoff-cpu-fixture/cudnn-fp32-1.json": "243978122bdcc099246ea8db9958f0b80e6761b6a641fd64a75ca8b6820b71bf",
+    "handoff-cpu-fixture/cudnn-fp32-1.log": "9f87662069c886d53e426ddd38ac47310e0f14c6aa2986e2b3141f63a41ca957",
+    "handoff-cpu-fixture/cudnn-fp32-1.pt": "e754e19b282a3a49b157b3ba726650c5bac678c5d67f0832678d018344f993b6",
+    "handoff-cpu-fixture/native-fp32-0.json": "2d62b7444680adc32819597c9a95729bb9cc273b3be6620418c22a5436a16434",
+    "handoff-cpu-fixture/native-fp32-0.log": "2fa9baad008f96c6c698201562684651cf4ccdb208532a4b65707a464f530f10",
+    "handoff-cpu-fixture/native-fp32-0.pt": "e754e19b282a3a49b157b3ba726650c5bac678c5d67f0832678d018344f993b6",
+    "handoff-cpu-fixture/native-fp32-1.json": "fd0ffd23abc0726f148d1b60eb339ac85824a9c55ec122e1568292a24ce5864b",
+    "handoff-cpu-fixture/native-fp32-1.log": "d4c2058cb60411141b52d8224327692538d570bc5c39d4c7a7d45183c4b3f275",
+    "handoff-cpu-fixture/native-fp32-1.pt": "e754e19b282a3a49b157b3ba726650c5bac678c5d67f0832678d018344f993b6",
+    "handoff-cpu-fixture/session.json": "f836f41bcac8533c884f1b42f837ee7bde7bcdd70b66a84e0d2ef9d2161b38eb",
+    "pytest-final.log": "35774559ad2e69522351a685b65e7edd94d9ec7e2da56364806507973380f430",
+    "pytest-initial-full.log": "0883f34524b55bd28c763701a2756abb2bd6386c6f82bb2c81602c76c1255b92",
+    "pytest-targeted.log": "698e38912ae5e9e9e6a654a44f0552be1f37fef3df6d548ac45c0105399f0e26"
+  },
+  "remaining_pilot_reserve_usd": 8.805,
+  "reported_project_spend_usd": 1.195,
+  "research_result": false,
+  "schema_version": 1,
+  "scope": {
+    "artifact_identity_includes": [
+      "patch module/geometry",
+      "explicit policy",
+      "backward version",
+      "activation checkpointing",
+      "precision/determinism/runtime"
+    ],
+    "autocast_supported": false,
+    "cache_target_version_and_parameter_identity_guards": true,
+    "default": "original",
+    "first_order_only": true,
+    "native_backward": "aten.convolution_backward with cudnn disabled",
+    "native_context_only": true,
+    "native_forward": "torch.nn.functional.conv3d with cudnn disabled",
+    "policies": [
+      "original",
+      "cudnn-fp32",
+      "native-fp32"
+    ],
+    "state_keys_and_parameter_objects_preserved": true,
+    "target_original_and_frozen": true
+  },
+  "source_sha256": {
+    "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "datasets/prepared.py": "531dcb4e4e69e3a59890e020940a6a8d0459d47100154730eabc6d267c5e2bb5",
+    "models/checkpointing.py": "e3c2d47b6770a62abea576eb65cecfe3564b8270c0823d064c47ecbaf9f9434f",
+    "models/cuda_convolution.py": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3",
+    "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+    "models/diagnostics.py": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0",
+    "models/execution.py": "1201f696ee6d7a48bb424bda489e75b93a74920c463d48e2a9c9a174bf8c979b",
+    "models/native_diagnostic.py": "1c97809f8b032cfea541755fbb49ec8f6ea513dc38dc7738c151d304518f0f7c",
+    "models/native_patch.py": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7",
+    "models/patch_embed.py": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec",
+    "models/pilot.py": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82",
+    "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+    "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+    "scripts/check_native_model.py": "c5b91fe232405002637a54bbf05d81656951d93d6a550b930ae3de12026b51ff",
+    "scripts/university_native.sh": "3af32850d8ce32c8019d53507e47b89963d1de2faf13651de54932548aed531e"
+  },
+  "unchanged_original_core_sha256": {
+    "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "configs/budget_study_plan.yaml": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+    "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+    "datasets/staged_files.py": "02771aaa232daaad287e74a96bc152b3d7c5c5c4ffff542c8574bd9faf36b2a8",
+    "datasets/staged_preparation.py": "45631fbfcea87ca44c9b18f0147c81f461468b6e929818377ac70f8e4204b5dc",
+    "datasets/staged_subset.py": "29803ffa6142922135a4ae45b85c5933fd199398b301f8ae4b502b6235d9ff8e",
+    "datasets/video.py": "04f337169dc3f29b51b25752f570a82bd21df1c8b07e0a3b0e28eb39282afa17",
+    "models/patch_embed.py": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec",
+    "models/pilot.py": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82",
+    "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf"
+  },
+  "university_check": {
+    "accepted": false,
+    "allocator_cap_excludes_driver_and_other_users": true,
+    "cuda_allocator_cap_gib": 7,
+    "full_model_optimizer_or_recovery_validated": false,
+    "full_model_optimizer_steps": 0,
+    "kill_grace_seconds": 5,
+    "launched": false,
+    "outer_limit_seconds": 900,
+    "parent_scheduling_limit_seconds": 840,
+    "policy_replays": 2,
+    "training_clips_per_worker": 1,
+    "worker_wall_limit_seconds": 180,
+    "workers": 4
+  },
+  "upstream_sha256": {
+    "src/datasets/data_manager.py": "6849784a95abaf4d18292460e695a559de514364078d6143c0fee9c4590a7172",
+    "src/datasets/imagenet1k.py": "d040f7a7740cfdb7625c2426688b3bf39260395b670d2ddfd29544b9c65cbd80",
+    "src/datasets/utils/dataloader.py": "c1740e7267378192525f212d56774e44cd58fe5df39dc1b86fadac046869358e",
+    "src/datasets/utils/utils.py": "8f41409489900d7dd9f2342f80d671a7f6f363295f02feaa21c66f06bfe2e0b2",
+    "src/datasets/utils/video/functional.py": "b7e7726cb784bc7e2a7614013258d9f90182259c9ba60945b5a3fead14781fad",
+    "src/datasets/utils/video/randaugment.py": "b0914ae5823aa6ced7b594a3156d2e2ee9a906ebf950b40d24c1a96f5da2acbd",
+    "src/datasets/utils/video/randerase.py": "81be3544ef18564e4c086daad9f596a1b6312bdd8eae15a0157e551eb08f3ab6",
+    "src/datasets/utils/video/transforms.py": "e175b52ce1a23a14b647208435e7524692dd87bbdb5334ee444fd6d1b9a50d64",
+    "src/datasets/utils/video/transforms_builder.py": "e73c2f33045ae502a85177819218cfbc1cabf037e15c6dfa5e70be5b9e12c4ba",
+    "src/datasets/utils/video/volume_transforms.py": "2ac8efe2e91ed1d46436e2b0de43e181d7662f0b0d8bf7eebb4d044bdfe5f8c8",
+    "src/datasets/utils/weighted_sampler.py": "8e528ed8f1fa431b37982f9d618c7f887592ad8129de98e745222c4c84713abd",
+    "src/datasets/utils/worker_init_fn.py": "73205faa33d0fa0b8b8e59ac7f1d79a234346ed13b3100ee0df0a550d4d780a2",
+    "src/datasets/video_dataset.py": "44cee1d4d7a643acb9f26402dcec961f3193240489bb1d2ee89e00515630af4b",
+    "src/hub/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/hub/backbones.py": "391cdde1e9a1da47cb8094bbea5fbbe8acac0135b27e82f1a6ab19c0b39cc692",
+    "src/masks/default.py": "5329acaf6eb8f72a0b2d285944824bc4d61c24598eb6c996cf3a5a62f3d243f9",
+    "src/masks/multiseq_multiblock3d.py": "7ef7cf95b0bee9940ac7654aeb3535278bbafdd6d93b643f4142fd19769456d9",
+    "src/masks/utils.py": "833f111a0fa5ffdbd3a6412e2dace2517c3c178f49c14f8bb631d9f6a070dfd0",
+    "src/models/ac_predictor.py": "5a520ad92b3f78b231aa153a5bbd9f800f880024974109a04d19aed6a0900643",
+    "src/models/attentive_pooler.py": "9be7047d6bfce50575956a57e36d87a37bf63ae84ec92a9ba8649bf1ab7d5feb",
+    "src/models/predictor.py": "3d8481bf2544b85ed92b3feb418e3b6d85ca1f81034c931b8c860f2d3d9aac2b",
+    "src/models/utils/modules.py": "b93f6c7e0747deb216419c000c2878f11a9189024a9adeacfd437e172396dff0",
+    "src/models/utils/patch_embed.py": "1823c40b34410e70eb313360e21678e18a0ee5465b5d47de9f3d967c074f5a9d",
+    "src/models/utils/pos_embs.py": "e6d3b3863ade47b3734a3b443f1bcc93eab02e39bf596ea199517f68ccab443e",
+    "src/models/vision_transformer.py": "9d4fd4e3603311803c105cc5114e2bc12ff28bc11870637dd3969511d9dead74",
+    "src/utils/checkpoint_loader.py": "8ae1c92e095dabed897694101e35393ed5b20da2b51c5bebae3dceda427472ce",
+    "src/utils/distributed.py": "52342428ee4eafaf685471afd91912462057bed59267faec42cf7640d8c08861",
+    "src/utils/logging.py": "0bf5298ecce7e59d90fcb3e4cc68eba988e3e8af4d4a08c91e94bdcd29f76b2e",
+    "src/utils/monitoring.py": "8fc1feb76396af17ed3753d3f9c4ad0b75d3908122a49b209537d6e3653427c5",
+    "src/utils/schedulers.py": "e35b2162c9df04f25ef4dbc51a1e9df41e362dee6d9d2b494321d81e44fe4659",
+    "src/utils/tensors.py": "782b58bd2af456e184750e5318ab773105108383f61b280fe4c7a90f46add2c8",
+    "src/utils/wrappers.py": "cdba99fcad17b1810bf26bb047046182fe0aad620a5786fbf405d8a71bb1f47a"
+  }
+}

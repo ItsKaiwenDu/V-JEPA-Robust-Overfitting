@@ -1,0 +1,170 @@
+{
+  "backend_adopted": false,
+  "cuda_execution_pending": false,
+  "cuda_execution_pending_at_preparation": true,
+  "date": "2026-10-21",
+  "diagnostic_only": true,
+  "environment": {
+    "architecture": "arm64",
+    "device": "cpu",
+    "python": "3.11.16",
+    "torch": "2.14.1"
+  },
+  "extracted_fixture": {
+    "artifacts": {
+      "oracle-cudnn-fp32": {
+        "file": "oracle-cudnn-fp32.pt",
+        "sha256": "224b828ec56a605986da6468fae61df9fc44e0bc02281461476a6bfe3590264d"
+      },
+      "oracle-native-fp32": {
+        "file": "oracle-native-fp32.pt",
+        "sha256": "224b828ec56a605986da6468fae61df9fc44e0bc02281461476a6bfe3590264d"
+      },
+      "tail-cudnn-fp32": {
+        "file": "tail-cudnn-fp32.pt",
+        "sha256": "48564392fd83cad96bb6d0cdbc80bcbd52419d64d0682ad80d7b9f51a1852588"
+      },
+      "tail-native-fp32": {
+        "file": "tail-native-fp32.pt",
+        "sha256": "48564392fd83cad96bb6d0cdbc80bcbd52419d64d0682ad80d7b9f51a1852588"
+      },
+      "tail-original-repeat": {
+        "file": "tail-original-repeat.pt",
+        "sha256": "3eb7b850a45b3167a124a0832618a98e0bbcf1a23adbb7705db882ef500da238"
+      },
+      "vjp-cudnn-fp32-via-cudnn-fp32": {
+        "file": "vjp-cudnn-fp32-via-cudnn-fp32.pt",
+        "sha256": "e92286b0accb429cd137032add77be17c0082dd012fc3ed58b3c71b880b03716"
+      },
+      "vjp-cudnn-fp32-via-native-fp32": {
+        "file": "vjp-cudnn-fp32-via-native-fp32.pt",
+        "sha256": "e92286b0accb429cd137032add77be17c0082dd012fc3ed58b3c71b880b03716"
+      },
+      "vjp-native-fp32-via-cudnn-fp32": {
+        "file": "vjp-native-fp32-via-cudnn-fp32.pt",
+        "sha256": "e92286b0accb429cd137032add77be17c0082dd012fc3ed58b3c71b880b03716"
+      },
+      "vjp-native-fp32-via-native-fp32": {
+        "file": "vjp-native-fp32-via-native-fp32.pt",
+        "sha256": "e92286b0accb429cd137032add77be17c0082dd012fc3ed58b3c71b880b03716"
+      }
+    },
+    "complete": true,
+    "control_checks_passed": true,
+    "control_sha256": "fcf5a4dec6cffc7aed03e74243acc575836e96fe20ef8fa0e05150749f7cc3ad",
+    "path": "runs/pretrained/diagnostic/gradient-attribution-local-20261021",
+    "session_sha256": "4e46cb096ab617cba157517cfcbabf728d6838201976cb72cf404dd9e9ca9f15",
+    "worker_wall_seconds": 0.7669945829984499
+  },
+  "handoff": {
+    "archive": "runs/pretrained/diagnostic/cuda-gradient-attribution-handoff-20261021/vjepa-gradient-attribution.tar.gz",
+    "bytes": 119896,
+    "files_sha256": {
+      "LICENSE": "5b789f6868ba21e8f32bb2fd05b0566282db82937488953bc91f3c50b4ffdeb3",
+      "OBSERVED.json": "9a2be0853baa340002720ff38ed3bda3b54cca66a45cbc6c86ed400341e4af16",
+      "attacks/__init__.py": "41a090d550527278b09bfb62fbed810805b379151b7a5ab7cb5469bc12ee01cb",
+      "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+      "configs/budget_study_plan.yaml": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+      "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+      "data/manifests/ucf101-split1-v1/metadata.json": "096f45a0476a25bdb0a2b424dfe4813a33e7784cbd1867ec4a22a3402e4115a9",
+      "data/manifests/ucf101-split1-v1/train.csv": "3b1c271a114a880358e107adf4385a1367bb224901ee47a867dec0c5b68cc212",
+      "datasets/__init__.py": "d81c61d6627e4e28075736950978c3cca23843d93fb213454458bd32f5357cf1",
+      "datasets/prepared.py": "531dcb4e4e69e3a59890e020940a6a8d0459d47100154730eabc6d267c5e2bb5",
+      "datasets/staged_files.py": "02771aaa232daaad287e74a96bc152b3d7c5c5c4ffff542c8574bd9faf36b2a8",
+      "datasets/staged_preparation.py": "45631fbfcea87ca44c9b18f0147c81f461468b6e929818377ac70f8e4204b5dc",
+      "datasets/staged_subset.py": "29803ffa6142922135a4ae45b85c5933fd199398b301f8ae4b502b6235d9ff8e",
+      "datasets/ucf101.py": "a99c02a11febc1328fe4a8b40277530e08c8d07148bf663f13e73da0200f87c2",
+      "datasets/video.py": "04f337169dc3f29b51b25752f570a82bd21df1c8b07e0a3b0e28eb39282afa17",
+      "docs/native_execution.md": "768b93d6fb4d1f2a78fa22f18ba48fece2f901adbb8f55ee1f930e5f18c4d151",
+      "docs/native_gradient_control.md": "8db7035a0e8bd4d3e17b7ec3cd71023cd6319626d04e3f1b58e83624f2b78cb1",
+      "docs/native_probe_fix.md": "b4b45c2667a28716b8d2e47a1797f3f64a75e2e2338be72bd74d610cf5695fa4",
+      "models/__init__.py": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5",
+      "models/calibration.py": "bd3ec55ca45f9788f08fb1f5342454adf86aedb20db3ba6169dfe02ecf6e92f6",
+      "models/checkpointing.py": "e3c2d47b6770a62abea576eb65cecfe3564b8270c0823d064c47ecbaf9f9434f",
+      "models/cuda_convolution.py": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3",
+      "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+      "models/diagnostics.py": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0",
+      "models/evaluation.py": "1431951d158b57b615208006edb5365a6bad910b2a14e0aa782a1c6f82034089",
+      "models/evaluation_checkpoint.py": "c07c5e401be62b76f4bf834b2828c11995302360ce46bdfbfe5146f7c7eb153a",
+      "models/evaluation_store.py": "9503834d106b788c1638b4a57d886259e2cf6f6be5069b18a1105e8beac48ee1",
+      "models/execution.py": "1201f696ee6d7a48bb424bda489e75b93a74920c463d48e2a9c9a174bf8c979b",
+      "models/features.py": "c87fb63f46f6b20b700c1b675de1095c6563cbca01f9141073b1122ef3f87c3a",
+      "models/gradient_attribution.py": "f8bd9d39dd41c61ffadd8ac882d08a36bb2513a948047632a789c8d0900414d3",
+      "models/native_diagnostic.py": "695834ba32aa9a87ae4a89bce182f526bc6d02363235e544ad85fbc96a75c1a6",
+      "models/native_patch.py": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7",
+      "models/native_probe.py": "10dd9afd62615106aa298c1970278dcd9f203979c8006bc150ecbdc0228db762",
+      "models/patch_embed.py": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec",
+      "models/pilot.py": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82",
+      "models/pilot_bundle.py": "d25f0e1f085bb7addcfc855986c7bf984765990cb473be9d5315f5399696a9db",
+      "models/pilot_measurement.py": "3361cd01dc4b23f64e749df877988ecbfe4dfda18ee5d9305c5f25ea33322753",
+      "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+      "models/schedule.py": "d46be0eb89a82a62be392ae20320646590adba83bd6ec6bbb42c6e3849f9dfd8",
+      "models/study_artifacts.py": "c9ace85300c4efcc62e14bf60a89a4c22415497ea8a5ee5f8e3f12230ac8fcad",
+      "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+      "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+      "models/workflow_diagnostic.py": "cc9730f28c20e6056e02d35c4073b155540aa2c86c259d2c5cedccd38722c799",
+      "models/workflow_pilot.py": "41a3f061d78f059da3d3cddb14e4db9e4a5c8c632e3f1b74bc4c34d2585ddd0f",
+      "requirements-smoke.txt": "4024c7aca318f8e0eff714041fac8e834b93009c5c86b7e90c2e7cd4fe9da77c",
+      "scripts/check_gradient_attribution.py": "f9b7c46761610260ab9e04c025e9aad1fdf20eea20344e4c58d1920b2d1587a9",
+      "scripts/check_native_model.py": "c5b91fe232405002637a54bbf05d81656951d93d6a550b930ae3de12026b51ff",
+      "scripts/university_gradient.sh": "98086708bf5e6587ea98f21c83e8848f02a5206a478dd48d54041c039992535e",
+      "scripts/university_native.sh": "3af32850d8ce32c8019d53507e47b89963d1de2faf13651de54932548aed531e",
+      "tests/conftest.py": "c67f087884483b38dc117ffa8cff6206c225afbce9bb53c0bf2e3986cd8ed2b5",
+      "tests/test_gradient_attribution.py": "50b115267703c56079b22e53cbd75105818f2265d913d4887e943c321a3023d6"
+    },
+    "manifest_files": 51,
+    "manifest_sha256": "b7f09621817c7835435cd259a8c20d2437b9afcc4df76d0e21322f21c3332fc9",
+    "observed_spec_sha256": "9a2be0853baa340002720ff38ed3bda3b54cca66a45cbc6c86ed400341e4af16",
+    "regular_members": 52,
+    "sha256": "1f932ba40b336f9101890b9fa82edb7b4bc8568bf87901ba9e3e21db6896bd51"
+  },
+  "inputs": "Existing original checkpoint/upstream, first already-open training clip, mask seed 0, prior native.5S6yHj read-only.",
+  "limits": {
+    "cuda_allocator_cap_gib": 7,
+    "kill_grace_seconds": 5,
+    "outer_seconds": 330,
+    "worker_seconds": 300
+  },
+  "not_validated": [
+    "Pretrained CUDA derivative attribution",
+    "Causal explanation of observed failure",
+    "Full-model optimizer/recovery",
+    "RTX 5090 policy",
+    "Research calibration/budget admission"
+  ],
+  "numerical_gates": {
+    "forward_tokens": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    },
+    "loss_reconstruction": {
+      "atol": 2e-06,
+      "rtol": 1e-05
+    },
+    "raw_pixel_vjp_and_reconstruction": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    }
+  },
+  "pilot_reserve_remaining_usd": 8.805,
+  "prior_native_model_comparison_passed": false,
+  "research_result": false,
+  "spending_usd": 1.195,
+  "subsequent_outcome": {
+    "accepted": false,
+    "report": "report/checks/2026-10-21-university-gradient-attribution.json",
+    "run_id": "derivative.aIsykm",
+    "sole_failed_final_gate": "forward_oracles_agree",
+    "verified": true
+  },
+  "tests": {
+    "command": ".venv/bin/python -m pytest -q tests",
+    "limits": "Actual-CUDA tests skip locally. No pretrained/CUDA derivative attribution has executed.",
+    "log_sha256": "889bf6a568520f206bf808f88485611b3d4c85109a7f7075309734d9c9d4e9ea",
+    "new_control_tests": 18,
+    "passed": 345,
+    "seconds": 119.55,
+    "skipped": 2,
+    "warnings": 107
+  }
+}

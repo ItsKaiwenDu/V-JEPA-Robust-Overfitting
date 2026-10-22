@@ -295,3 +295,110 @@ Bind the chosen policy to runtime/target-cache/anchor/resume contracts and use
 fresh targets/output directories. Require full-model gradient/attack checks,
 exact recovery, representative GPU timing/memory and measured budget admission
 before research runs. Component speedups are not whole-model speedups.
+
+## 2026-10-21 — First-order native dispatch remains opt-in
+
+Implement `native-fp32` as a separately named diagnostic policy, with a
+matched `cudnn-fp32` reference and the existing `original` default. Preserve
+the original Conv3d object, parameter identity, geometry and state keys;
+leave the target patch module original and frozen. This diagnostic sets
+cuDNN TF32 off explicitly and requires fresh targets, calibration and outputs.
+The study/proposal YAML remain unchanged and unadmitted.
+
+PyTorch 2.8 re-queries cuDNN flags in convolution backward. A forward-only
+context would not establish the selected backward backend. Scope PyTorch's
+own convolution calls in both directions through an explicitly first-order
+autograd delegator. Higher-order differentiation and concurrent Python model
+execution are not supported. See [implementation and limits](native_execution.md).
+
+Bind actual patch execution, activation checkpointing and precision to cached
+targets, features, evaluations, calibration loading, anchors and recovery.
+Reject old or incompatible identities before loading saved trainable weights;
+retain exact recovery equality. The next university check uses only an existing
+training clip and compares full-model input gradients/FGSM/PGD-5 in four fresh
+workers, with hard limits and no optimizer step. It cannot establish full-model
+AdamW recovery, RTX 5090 behavior, study feasibility, or robust overfitting.
+Those gates and the existing budget remain in force; no rental is automatic.
+
+## 2026-10-21 — Correct the observer and retain rejected evidence
+
+The first native integration attempt rejected the small backward probe before
+full pretrained native execution. Its name check expected `col2vol`; the
+already verified university export records `at::native::vol2im_kernel`.
+This expectation was incorrect; the failed attempt's profiler evidence was
+not saved before raising, so a new CUDA pass cannot be inferred from its logs.
+
+Use schema-2 device-typed raw events, require a positive-duration native CUDA
+reconstruction kernel plus convolution backward, reject cuDNN execution, and
+persist flags/events before validation raises. Recompute the observer gate
+on export. Preserve the original failure/source archive. Use a separate fresh
+retry with native workers first; repeat reference workers under the same new
+source identity. Mathematical code, numerical and exact-replay gates, resource
+bounds, and study configuration remain unchanged. No research backend adopted.
+See [the fix and handoff](native_probe_fix.md).
+
+## 2026-10-21 — Diagnose the numerical rejection at fixed incoming derivatives
+
+Preserve the verified full-model native/cuDNN failure and its original bounds.
+Use a separate bounded training-only diagnostic: retain each forward token
+source, intervene with distinct preserve-format patch leaves per mask family,
+compare both backwards with identical incoming derivatives and independent
+CPU FP64 raw-pixel VJPs, and reconstruct the saved failed-run gradients. Bind
+source/runtime/weights/data/targets/masks and rejected-evidence hashes. Record
+residual sign changes without automatically claiming L1 sensitivity as cause.
+No study, loss, original mathematical implementation, acceptance threshold,
+backend adoption or spending change. Pretrained CUDA is pending; local tests
+and the source-only handoff are ready. See [the control](native_gradient_control.md).
+
+## 2026-10-21 — Preserve the failed forward gate after verified attribution
+
+The complete exported control verifies fixed-cotangent backwards against FP64,
+exact identical-token tail replay and bitwise reconstruction of the saved
+failed gradients. Both FP32 forward paths fail the existing output gate
+(12 cuDNN / 35 native values); that rejection remains. Forward-token changes
+alter incoming derivatives, including eleven residual sign crossings, without
+proving those crossings alone explain the entire effect. Independent CPU FP64
+library convolutions reproduce the trained-weight analytical references.
+
+Specify a shared, more accurate forward before the next backward comparison;
+a candidate is explicit FP64 patch accumulation cast to FP32 tokens. This is
+not implemented/adopted. Declare precision/reference identity before execution,
+keep gates unchanged, and preserve historical FP32 failures. A hybrid retaining
+cuDNN forward cannot bypass its failed forward-oracle gate. No study/YAML,
+mathematical implementation, budget, or backend adoption change. See the
+[verified outcome](../report/checks/2026-10-21-university-gradient-attribution.md).
+
+## 2026-10-21 — Declare a separate shared-forward precision/reference control
+
+Implement FP64 accumulation only for the original learned context patch
+projection, with explicit FP32 output/layout and unchanged original FP32
+parameters, normalization, clean frozen target and transformer/predictor/L1.
+Compare cuDNN/native FP32 backward against a shared-FP64-forward reference;
+do not use the historical FP32 forward as an undeclared new reference. Keep
+all prior pointwise gates and rejected FP32 artifacts. FP32 convolution VJPs
+are a first-order affine derivative approximation checked against CPU FP64.
+
+Use a distinct temporary identity and guards; existing study/cache/training
+APIs reject it. Both arms run the same sanity probe before resetting model
+construction RNG. Save raw reference/actual tensors and recompute gates. Local
+trained-projection/CPU worker checks pass; pretrained CUDA and full optimizer
+recovery remain pending. No study policy/YAML adoption or budget change. See
+[the declared control](shared_forward_control.md).
+
+## 2026-10-21 — Qualify the bounded shared-forward candidate; preserve admission gates
+
+Accept the independently verified `precision.RvqoMB` result for its declared
+input-only precision control: all numerical gates, reconstructed gradients,
+actual native dispatch and exact within-backend replay pass. Shared tokens
+and both attacks match bit-for-bit across backwards on one clip; native
+PGD-5+score is 6.44x faster in medians of two single attempts. This qualifies
+an integration candidate, not research adoption or full optimizer recovery.
+
+Keep the separate shared-FP64-forward reference and both historical FP32
+failures. Plan deliberate opt-in runtime/cache/calibration/anchor/checkpoint
+integration and CPU exact optimizer recovery before a bounded sufficient-VRAM
+CUDA update/resume pilot. Preserve all original thresholds, target/data rules
+and budget gates. Current scientific implementation and study/proposal YAML
+remain unchanged by this verification. See
+[verified outcome](../report/checks/2026-10-21-university-shared-forward.md) and
+[next plan](shared_forward_integration_plan.md).

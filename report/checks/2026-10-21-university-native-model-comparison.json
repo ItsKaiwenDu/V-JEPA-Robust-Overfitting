@@ -1,0 +1,267 @@
+{
+  "accepted": false,
+  "all_worker_and_tensor_hashes_verified": true,
+  "analysis_source": {
+    "analysis_json_sha256": "59a5abaa2e536cca0d1cdef1598397eae480984bf7de5e393003c229728b4f4e",
+    "file": "runs/pretrained/diagnostic/native-model-analysis-20261021/analyze.py",
+    "run_from": "repository root with PYTHONPATH set to the repository root and .venv/bin/python",
+    "sha256": "de97707cf2cb696311cf22fb30f13bf13dc0e80068263eda3c42bb58a9c50616"
+  },
+  "attack_diagnostics": {
+    "fgsm": {
+      "cudnn-fp32": {
+        "attack_loss": 0.6227661371231079,
+        "independent_mask_loss": 0.6168769001960754,
+        "max_pixel_delta": 0.01568630337715149
+      },
+      "different_pixels": 464,
+      "independent_loss_native_minus_cudnn": -0.00010412931442260742,
+      "max_pixel_difference_between_backends": 0.03137257695198059,
+      "native-fp32": {
+        "attack_loss": 0.6227707862854004,
+        "independent_mask_loss": 0.6167727708816528,
+        "max_pixel_delta": 0.01568630337715149
+      }
+    },
+    "pgd5": {
+      "cudnn-fp32": {
+        "attack_loss": 0.6962413787841797,
+        "independent_mask_loss": 0.6333589553833008,
+        "max_pixel_delta": 0.01568630337715149
+      },
+      "different_pixels": 736998,
+      "independent_loss_native_minus_cudnn": -0.0048215389251708984,
+      "max_pixel_difference_between_backends": 0.03136971592903137,
+      "native-fp32": {
+        "attack_loss": 0.6906626224517822,
+        "independent_mask_loss": 0.6285374164581299,
+        "max_pixel_delta": 0.01568630337715149
+      }
+    }
+  },
+  "budget_approved": false,
+  "cause_established": false,
+  "confirmation_test_pixels_opened": false,
+  "date": "2026-10-21",
+  "diagnostic_only": true,
+  "gradient_diagnostics": {
+    "absolute_error_quantiles": {
+      "0.5": 0.0,
+      "0.9": 1.164386048913002e-06,
+      "0.99": 1.1609867215156555e-05,
+      "0.999": 7.61743271141328e-05,
+      "1.0": 0.0006819982081651688
+    },
+    "cosine_similarity": 0.9999937358457159,
+    "failed_elements": 242613,
+    "failed_fraction_active": 0.22958019167877908,
+    "failed_fraction_all": 0.07712459564208984,
+    "max_abs_error": 0.0006819982081651688,
+    "max_tolerance_ratio": 846.3155528371339,
+    "native_l2": 2.9675947901920883,
+    "native_max_abs": 0.09263502061367035,
+    "native_nonzero_elements": 1056768,
+    "reference_l2": 2.969257531897107,
+    "reference_max_abs": 0.09251013398170471,
+    "reference_nonzero_elements": 1056768,
+    "sign_disagreement_fraction_active": 0.0004390746124031008,
+    "sign_disagreements_active": 464,
+    "total_elements": 3145728,
+    "zero_support_disagreements": 0
+  },
+  "hypothesis": "Forward rounding through the transformer and L1 residual sign sensitivity; requires a controlled derivative test.",
+  "independent_raw_pixel_validation": {
+    "cudnn-fp32": {
+      "fgsm": {
+        "max_pixel": 1.0,
+        "max_pixel_delta": 0.01568630337715149,
+        "min_pixel": 0.0
+      },
+      "fgsm_equals_saved_gradient_sign_step_exactly": true,
+      "pgd5": {
+        "max_pixel": 1.0,
+        "max_pixel_delta": 0.01568630337715149,
+        "min_pixel": 0.0
+      }
+    },
+    "native-fp32": {
+      "fgsm": {
+        "max_pixel": 1.0,
+        "max_pixel_delta": 0.01568630337715149,
+        "min_pixel": 0.0
+      },
+      "fgsm_equals_saved_gradient_sign_step_exactly": true,
+      "pgd5": {
+        "max_pixel": 1.0,
+        "max_pixel_delta": 0.01568630337715149,
+        "min_pixel": 0.0
+      }
+    }
+  },
+  "kind": "verified_university_native_model_numerical_rejection",
+  "launcher_exit_status": 1,
+  "new_compute_launched": false,
+  "next_control": "Hold patch-output cotangent fixed across both backward implementations; compare with CPU FP64 analytical patch VJP, then examine prediction/residual signs and reproduce saved gradients.",
+  "optimizer_recovery_validated": false,
+  "raw_files_sha256": {
+    "exit_status.txt": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+    "launcher.log": "df6753c15459ff761e6463160c9849da7af88dc608c2cc505b98f54961102dfa",
+    "launcher.pid": "5ffd931cdfe5941fae99b307e034d9a2eac4339716e4e8dc6652cce492da1a60",
+    "results/cudnn-fp32-0.json": "302b3f6331e2eda6c06123d924eff45f198419bdc5da5802a700ac1204d6d7a0",
+    "results/cudnn-fp32-0.log": "36c2438f9d320b32a0e438a1f288408444fc325b23ebc04d01b72ed07ff2e426",
+    "results/cudnn-fp32-0.pt": "f7e12b2a79a566da4617acaeffc56263cc5c461b92711c16c28aeee07a1c8888",
+    "results/cudnn-fp32-1.json": "9f47fc5fd4c20cd8ebb614436396f3278b860c9b95c78cb117a3369f94c05afd",
+    "results/cudnn-fp32-1.log": "36c2438f9d320b32a0e438a1f288408444fc325b23ebc04d01b72ed07ff2e426",
+    "results/cudnn-fp32-1.pt": "f7e12b2a79a566da4617acaeffc56263cc5c461b92711c16c28aeee07a1c8888",
+    "results/native-fp32-0.json": "f7a6fec23641af07d40e1560239dbd1118308c1862c04c7f8ec26810498f109a",
+    "results/native-fp32-0.log": "36c2438f9d320b32a0e438a1f288408444fc325b23ebc04d01b72ed07ff2e426",
+    "results/native-fp32-0.pt": "ae28b9b3652f5d499cbe7a06b2c22d656cd640e1fdaa1f85e02df8e825128596",
+    "results/native-fp32-1.json": "676856e0c0745c9fd49a35a4b1276cd406169adb5019fff387e63f2e22ff9e64",
+    "results/native-fp32-1.log": "36c2438f9d320b32a0e438a1f288408444fc325b23ebc04d01b72ed07ff2e426",
+    "results/native-fp32-1.pt": "ae28b9b3652f5d499cbe7a06b2c22d656cd640e1fdaa1f85e02df8e825128596",
+    "results/session.json": "e941341260b0018a66826e3c8c6a3d87626aba0fb8d395314aadf1598c69c331"
+  },
+  "raw_path": "runs/pretrained/diagnostic/native-model-fix-results-20261021/native.5S6yHj",
+  "recomputed_comparison": {
+    "attacks_compared_for_exact_replay_only_within_each_backend": true,
+    "cross_backend": {
+      "clean_loss": {
+        "atol": 2e-06,
+        "failed_elements": 0,
+        "max_absolute_error": 1.1920928955078125e-07,
+        "max_tolerance_ratio": 0.015271804678016447,
+        "passed": true,
+        "relative_l2_error": 2.053264557183726e-07,
+        "rtol": 1e-05,
+        "shape": []
+      },
+      "input_gradient": {
+        "atol": 2e-07,
+        "failed_elements": 242613,
+        "max_absolute_error": 0.0006819982081651688,
+        "max_tolerance_ratio": 846.3155528371339,
+        "passed": false,
+        "relative_l2_error": 0.0035825796125758366,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          3,
+          16,
+          256,
+          256
+        ]
+      }
+    },
+    "full_model_optimizer_or_recovery_validated": false,
+    "passed": false,
+    "single_attempt_seconds": {
+      "cudnn-fp32": {
+        "clean_loss_and_input_backward": 7.943602684885263,
+        "fgsm": 8.453155047027394,
+        "pgd5": 40.27827886515297
+      },
+      "native-fp32": {
+        "clean_loss_and_input_backward": 1.200780333019793,
+        "fgsm": 1.707347377203405,
+        "pgd5": 6.087070941925049
+      }
+    },
+    "tiny_fixture": false,
+    "within_backend_exact_replay": {
+      "cudnn-fp32": true,
+      "native-fp32": true
+    }
+  },
+  "reported_spend_usd": 1.195,
+  "research_result": false,
+  "schema2_native_probe_recomputed": true,
+  "schema_version": 1,
+  "session_sha256": "e941341260b0018a66826e3c8c6a3d87626aba0fb8d395314aadf1598c69c331",
+  "source_sha256": {
+    "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "datasets/prepared.py": "531dcb4e4e69e3a59890e020940a6a8d0459d47100154730eabc6d267c5e2bb5",
+    "models/checkpointing.py": "e3c2d47b6770a62abea576eb65cecfe3564b8270c0823d064c47ecbaf9f9434f",
+    "models/cuda_convolution.py": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3",
+    "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+    "models/diagnostics.py": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0",
+    "models/execution.py": "1201f696ee6d7a48bb424bda489e75b93a74920c463d48e2a9c9a174bf8c979b",
+    "models/native_diagnostic.py": "695834ba32aa9a87ae4a89bce182f526bc6d02363235e544ad85fbc96a75c1a6",
+    "models/native_patch.py": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7",
+    "models/native_probe.py": "10dd9afd62615106aa298c1970278dcd9f203979c8006bc150ecbdc0228db762",
+    "models/patch_embed.py": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec",
+    "models/pilot.py": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82",
+    "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+    "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+    "scripts/check_native_model.py": "c5b91fe232405002637a54bbf05d81656951d93d6a550b930ae3de12026b51ff",
+    "scripts/university_native.sh": "3af32850d8ce32c8019d53507e47b89963d1de2faf13651de54932548aed531e"
+  },
+  "timing_limitations": [
+    "Two single attempts per backend; warm-up and profiling context may affect timings.",
+    "One selected training clip/mask bank; no study throughput, training or budget admission."
+  ],
+  "timings": {
+    "clean_loss_and_input_backward": {
+      "cudnn_over_native_ratio": 6.6249062188136225,
+      "median_of_two_single_attempt_seconds": {
+        "cudnn-fp32": 7.964412940433249,
+        "native-fp32": 1.2021925559965894
+      }
+    },
+    "fgsm": {
+      "cudnn_over_native_ratio": 4.968748275118863,
+      "median_of_two_single_attempt_seconds": {
+        "cudnn-fp32": 8.478794027469121,
+        "native-fp32": 1.706424547592178
+      }
+    },
+    "pgd5": {
+      "cudnn_over_native_ratio": 6.628268024792964,
+      "median_of_two_single_attempt_seconds": {
+        "cudnn-fp32": 40.338039237074554,
+        "native-fp32": 6.0857586154015735
+      }
+    }
+  },
+  "tolerances_changed": false,
+  "upstream_sha256": {
+    "src/datasets/data_manager.py": "6849784a95abaf4d18292460e695a559de514364078d6143c0fee9c4590a7172",
+    "src/datasets/imagenet1k.py": "d040f7a7740cfdb7625c2426688b3bf39260395b670d2ddfd29544b9c65cbd80",
+    "src/datasets/utils/dataloader.py": "c1740e7267378192525f212d56774e44cd58fe5df39dc1b86fadac046869358e",
+    "src/datasets/utils/utils.py": "8f41409489900d7dd9f2342f80d671a7f6f363295f02feaa21c66f06bfe2e0b2",
+    "src/datasets/utils/video/functional.py": "b7e7726cb784bc7e2a7614013258d9f90182259c9ba60945b5a3fead14781fad",
+    "src/datasets/utils/video/randaugment.py": "b0914ae5823aa6ced7b594a3156d2e2ee9a906ebf950b40d24c1a96f5da2acbd",
+    "src/datasets/utils/video/randerase.py": "81be3544ef18564e4c086daad9f596a1b6312bdd8eae15a0157e551eb08f3ab6",
+    "src/datasets/utils/video/transforms.py": "e175b52ce1a23a14b647208435e7524692dd87bbdb5334ee444fd6d1b9a50d64",
+    "src/datasets/utils/video/transforms_builder.py": "e73c2f33045ae502a85177819218cfbc1cabf037e15c6dfa5e70be5b9e12c4ba",
+    "src/datasets/utils/video/volume_transforms.py": "2ac8efe2e91ed1d46436e2b0de43e181d7662f0b0d8bf7eebb4d044bdfe5f8c8",
+    "src/datasets/utils/weighted_sampler.py": "8e528ed8f1fa431b37982f9d618c7f887592ad8129de98e745222c4c84713abd",
+    "src/datasets/utils/worker_init_fn.py": "73205faa33d0fa0b8b8e59ac7f1d79a234346ed13b3100ee0df0a550d4d780a2",
+    "src/datasets/video_dataset.py": "44cee1d4d7a643acb9f26402dcec961f3193240489bb1d2ee89e00515630af4b",
+    "src/hub/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/hub/backbones.py": "391cdde1e9a1da47cb8094bbea5fbbe8acac0135b27e82f1a6ab19c0b39cc692",
+    "src/masks/default.py": "5329acaf6eb8f72a0b2d285944824bc4d61c24598eb6c996cf3a5a62f3d243f9",
+    "src/masks/multiseq_multiblock3d.py": "7ef7cf95b0bee9940ac7654aeb3535278bbafdd6d93b643f4142fd19769456d9",
+    "src/masks/utils.py": "833f111a0fa5ffdbd3a6412e2dace2517c3c178f49c14f8bb631d9f6a070dfd0",
+    "src/models/ac_predictor.py": "5a520ad92b3f78b231aa153a5bbd9f800f880024974109a04d19aed6a0900643",
+    "src/models/attentive_pooler.py": "9be7047d6bfce50575956a57e36d87a37bf63ae84ec92a9ba8649bf1ab7d5feb",
+    "src/models/predictor.py": "3d8481bf2544b85ed92b3feb418e3b6d85ca1f81034c931b8c860f2d3d9aac2b",
+    "src/models/utils/modules.py": "b93f6c7e0747deb216419c000c2878f11a9189024a9adeacfd437e172396dff0",
+    "src/models/utils/patch_embed.py": "1823c40b34410e70eb313360e21678e18a0ee5465b5d47de9f3d967c074f5a9d",
+    "src/models/utils/pos_embs.py": "e6d3b3863ade47b3734a3b443f1bcc93eab02e39bf596ea199517f68ccab443e",
+    "src/models/vision_transformer.py": "9d4fd4e3603311803c105cc5114e2bc12ff28bc11870637dd3969511d9dead74",
+    "src/utils/checkpoint_loader.py": "8ae1c92e095dabed897694101e35393ed5b20da2b51c5bebae3dceda427472ce",
+    "src/utils/distributed.py": "52342428ee4eafaf685471afd91912462057bed59267faec42cf7640d8c08861",
+    "src/utils/logging.py": "0bf5298ecce7e59d90fcb3e4cc68eba988e3e8af4d4a08c91e94bdcd29f76b2e",
+    "src/utils/monitoring.py": "8fc1feb76396af17ed3753d3f9c4ad0b75d3908122a49b209537d6e3653427c5",
+    "src/utils/schedulers.py": "e35b2162c9df04f25ef4dbc51a1e9df41e362dee6d9d2b494321d81e44fe4659",
+    "src/utils/tensors.py": "782b58bd2af456e184750e5318ab773105108383f61b280fe4c7a90f46add2c8",
+    "src/utils/wrappers.py": "cdba99fcad17b1810bf26bb047046182fe0aad620a5786fbf405d8a71bb1f47a"
+  },
+  "whole_worker_peak_allocated_bytes": {
+    "cudnn-fp32-0": 3045736448,
+    "cudnn-fp32-1": 3045736448,
+    "native-fp32-0": 3045736448,
+    "native-fp32-1": 3045736448
+  }
+}

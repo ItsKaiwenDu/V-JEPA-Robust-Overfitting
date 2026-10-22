@@ -1,0 +1,21 @@
+{
+  "backend_adopted": false,
+  "complete_reported": true,
+  "control_checks_passed_reported": false,
+  "date": "2026-10-21",
+  "evidence_status": "Raw export now copied, hashes verified and comparisons independently recomputed; see verified outcome.",
+  "exit_status_reported": 1,
+  "host": "linux10609",
+  "interpretation": "All measurement stages reached the final numerical/repeatability checks. This was not a worker timeout. Which final checks failed remains unknown until control.json is inspected.",
+  "last_stage_reported": "repeat_identical_token_tail_control",
+  "local_receiving_directory": "runs/pretrained/diagnostic/gradient-attribution-results-20261021",
+  "next_action": "Copy the entire run directory, verify source/session/result/artifact hashes, and recompute the checks from retained tensors.",
+  "raw_export_verified": true,
+  "reported_failure": "Derivative control checks rejected; preserve all evidence; no tolerance changed.",
+  "reported_spending_usd": 1.195,
+  "research_result": false,
+  "run_id": "derivative.aIsykm",
+  "session_result_sha256_reported": "d5c6ad7a25a8ea67afede2daa28efe5abfa748d015ce20f6e6a516f8651e43a4",
+  "sole_failed_final_gate": "forward_oracles_agree",
+  "verified_outcome": "report/checks/2026-10-21-university-gradient-attribution.json"
+}

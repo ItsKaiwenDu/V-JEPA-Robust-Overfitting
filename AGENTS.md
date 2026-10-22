@@ -33,9 +33,77 @@ report/checks/2026-10-21-university-cuda-convolution-precision.md and
 docs/cuda_convolution_comparison.md. This resolves the isolated precision gate
 and qualifies native as a component candidate; it does not establish RTX 5090
 behavior or full-model correctness/speed. No study backend/precision is adopted.
-Next: prepare an opt-in integration with explicit cache/resume identities and
-full-model gradient/recovery checks before another measured pilot.
-Latest local suite: 283 passed, one actual-CUDA skip. Research calibration,
+Opt-in integration now preserves Conv3d parameters/state keys and scopes native
+forward/backward explicitly; it supports first-order diagnostics only. Read
+docs/native_execution.md and report/checks/2026-10-21-native-integration.md.
+Caches, features, evaluation, calibration, anchors and recovery bind actual
+backend/geometry/checkpointing/precision; incompatible old artifacts reject.
+The first university integration attempt stopped at the small native probe,
+before full pretrained native execution. Its observer incorrectly searched for
+col2vol; the earlier verified CUDA profile uses at::native::vol2im_kernel.
+Read docs/native_probe_fix.md and report/checks/2026-10-21-native-probe-fix.md.
+The corrected schema-2 observer retains device-typed events before rejecting,
+requires actual native CUDA launch/backward evidence, and recomputes the gate
+on export. A separate native-first retry handoff passes four fresh CPU workers
+after extraction. The first failed export is now copied/verified: 16 archived
+source files, 32 upstream files and worker/tensor hashes match; the two cuDNN
+full-model input-gradient/FGSM/PGD-5 workers replay exactly. The first native
+worker failed at the old observer before full pretrained execution.
+The corrected retry export native.5S6yHj is now fully verified: 17 source files,
+32 upstream files, all worker/tensor hashes, both native probes, and exact
+within-backend input-gradient/attack replay pass. Clean-loss absolute difference
+is 1.192e-7 and passes. Input gradients reject the unchanged pointwise gate:
+relative L2 0.3583%, max abs error 6.820e-4, 242,613 failed elements, 464 sign
+changes. Cosine is 0.9999937; PGD outputs/independent scores differ. The entire
+attempt remains rejected. Read
+report/checks/2026-10-21-university-native-model-comparison.md and its JSON.
+The derivative control in models/gradient_attribution.py now has a verified
+CUDA outcome: derivative.aIsykm completed in 66.915s and remains rejected.
+All archive/source/upstream/result/nine-artifact hashes, prior evidence and
+runtime/data/weight/target/mask identities match. Both reconstructed losses and
+input gradients are bitwise equal to native.5S6yHj; identical-token tail replay
+is exact. All four fixed-cotangent backwards match FP64; the sole failed final
+gate is FP64 forward accuracy (12 cuDNN / 35 native token values). Forward-token
+changes alter incoming derivatives; 4+7 residual signs cross, but those crossings
+alone are not proved to explain the whole discrepancy. Independent CPU FP64
+conv/transpose-conv using the rehashed original trained projection reproduce
+the saved oracle within 1.56e-13 forward / 1.25e-16 VJP. Read
+report/checks/2026-10-21-university-gradient-attribution.md and its JSON.
+The separate shared-forward precision control is now implemented in
+models/precision_patch.py and models/precision_diagnostic.py. Both arms use
+FP64 context patch accumulation cast to FP32 tokens, with original FP32
+parameters/normalization/targets/tail. Only backward dispatch differs. The
+reference is shared FP64 forward / FP32 tokens / cuDNN FP32 backward, not the
+historical FP32 reference. A distinct temporary policy is rejected by existing
+training/cache APIs; separate guards and failure restoration are tested.
+The CUDA shared-forward export precision.RvqoMB is now independently verified:
+source/archive/upstream/session/worker/twelve-tensor hashes, actual new native
+CUDA probe in all four workers, original identity pins, all oracle gates and
+reconstructions pass. Shared forward tokens and both FGSM/PGD-5 outputs are
+bitwise equal across backwards; fresh-process replay is exact within each.
+Full input-gradient max difference is 7.451e-8 (no failed elements/sign changes).
+Median two-single-attempt PGD-5+score is 6.324s native / 40.745s cuDNN (6.44x);
+clean loss/input backward 1.108s / 7.923s (7.15x). Peak allocator 2.838 GiB.
+This is one training clip/mask bank on RTX 3070, not study throughput or full
+AdamW/update/recovery evidence. Read
+report/checks/2026-10-21-university-shared-forward.md and its JSON.
+The temporary diagnostic policy still rejects existing research/cache APIs.
+Next is deliberate explicit opt-in runtime/cache/calibration/anchor/checkpoint
+integration and CPU clean/adversarial exact optimizer recovery, then a bounded
+sufficient-VRAM full-model CUDA pilot and representative checks. This integration
+is planned only; see docs/shared_forward_integration_plan.md. No new study
+policy adopted, source/YAML/tolerance change, paid launch or held-out pixels.
+Preserve both historical FP32 failures; reported spend $1.195 / reserve $8.805.
+Do not widen thresholds or adopt the backend based on cosine similarity or
+speed alone. Full-model optimizer recovery, RTX 5090 behavior, research
+calibration and budget admission remain pending.
+The source-only derivative handoff and extracted fresh-process CPU fixture are
+verified; 18 new checks cover chain-rule reconstruction, FP64 normalization,
+hook/RNG restoration, and failed source/runtime/data identities. Read
+report/checks/2026-10-21-gradient-attribution.md before the manual university launch.
+Worker limit 300 seconds, outer limit 330 seconds + five-second kill grace,
+7 GiB allocator cap. No optimizer or paid launch.
+Latest local suite: 373 passed, two actual-CUDA skips. Research calibration,
 measured budget admission, and research results remain pending. Confirmation/test pixels remain closed.
 No cloud rental is automatic.
 

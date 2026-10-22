@@ -10,6 +10,7 @@ import os
 from pathlib import Path
 import uuid
 
+from models.execution import ExecutionGuard
 from models.evaluation import EvaluationSettings, SEED_SCHEMA, evaluate_clip, model_identity
 from models.training import runtime_contract
 
@@ -94,6 +95,7 @@ def evaluate_panel(model, panel, masks_for, settings, store, *, checkpoint, prov
     if panel.panel not in ('train', 'train_monitor', 'exploration_validation'):
         raise ValueError('Confirmation and test evaluation is not open at this stage.')
     device = next(model.encoder.parameters()).device.type
+    guard = ExecutionGuard(model, device, target_versions=True)
     identity = model_identity(model)
     contract = {'schema_version': 1, 'kind': 'native_panel_evaluation',
                 'checkpoint': checkpoint, 'weights_sha256': identity,
@@ -102,7 +104,7 @@ def evaluate_panel(model, panel, masks_for, settings, store, *, checkpoint, prov
                 'source_group_ids': [r['source_group_id'] for r in panel.rows],
                 'settings': asdict(settings), 'seed_schema': SEED_SCHEMA,
                 'base_seed': base_seed, 'sensitivity_banks': sensitivity_banks,
-                'provenance': provenance, 'runtime': runtime_contract(device)}
+                'provenance': provenance, 'runtime': runtime_contract(device, model=model)}
     # Normalize tuples etc. to the JSON representation used on disk.
     contract = json.loads(json.dumps(contract, allow_nan=False))
     with store.lock():
@@ -110,13 +112,16 @@ def evaluate_panel(model, panel, masks_for, settings, store, *, checkpoint, prov
         if not (store.root / 'evaluation.json').exists():
             store.write(payload)
         for index in range(len(payload['records']), len(panel.rows)):
+            guard.check()
             record, _ = evaluate_clip(model, panel.pixels(index).to(device), masks_for, settings,
                                        video_id=contract['video_ids'][index], base_seed=base_seed,
                                        sensitivity_banks=sensitivity_banks)
+            guard.check()
             payload['records'].append(record)
             store.write(payload)
             if on_clip is not None:
                 on_clip(index, record)
+        guard.check()
         if model_identity(model) != identity:
             raise RuntimeError('Model or fixed target changed during evaluation.')
         payload['complete'] = True

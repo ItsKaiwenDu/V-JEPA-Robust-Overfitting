@@ -94,10 +94,10 @@ def test_real_calibration_reuses_complete_attacks_and_verifies_saved_evidence(mo
     assert run_calibration(model, panel, tiny_masks, tmp_path, **kwargs) == record
     assert not panel.loaded
     identity = model_identity(model)
-    assert load_calibration(tmp_path, panel.rows, original_identity=identity, diagnostic=True) == record
+    assert load_calibration(tmp_path, panel.rows, original_identity=identity, diagnostic=True, model=model) == record
     evidence = tmp_path / record['evaluation_files'][0]['file']
     payload = read_record(evidence)
     payload['records'][0]['adversarial_loss'] += .1
     write_record(evidence, payload, replace=True)  # Even internally checksummed replacement must fail the pinned reference.
     with pytest.raises(ValueError, match='checksum'):
-        load_calibration(tmp_path, panel.rows, original_identity=identity, diagnostic=True)
+        load_calibration(tmp_path, panel.rows, original_identity=identity, diagnostic=True, model=model)

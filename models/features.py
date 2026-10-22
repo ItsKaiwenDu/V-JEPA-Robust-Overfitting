@@ -6,6 +6,7 @@ import time
 
 import torch
 
+from models.execution import ExecutionGuard
 from models.evaluation import model_identity
 from models.evaluation_store import json_hash
 from models.runtime import synchronize
@@ -46,6 +47,7 @@ def extract_features(model, panel, *, provenance):
             or any(p.requires_grad for p in model.target_encoder.parameters())):
         raise ValueError('Extract features only at a gradient-free boundary with a frozen target.')
     device = next(model.encoder.parameters()).device.type
+    guard = ExecutionGuard(model, device, target_versions=True)
     identity, modes, rng = model_identity(model), [(m, m.training) for m in model.modules()], rng_state(device)
     synchronize(device)
     started = time.perf_counter()
@@ -61,6 +63,7 @@ def extract_features(model, panel, *, provenance):
                 tokens = model.encoder(model.normalize(pixels))
                 if tokens.ndim != 3 or tokens.shape[0] != 1 or not torch.isfinite(tokens).all():
                     raise ValueError('Invalid context token features.')
+                guard.check()
                 result.append(tokens.mean(dim=1).float().cpu())
         if model_identity(model) != identity:
             raise RuntimeError('Feature extraction changed model or target state.')
@@ -69,7 +72,7 @@ def extract_features(model, panel, *, provenance):
                   'contract': {'recipe': FEATURE_RECIPE, 'panel': panel.panel,
                                'panel_identity': copy.deepcopy(panel.identity),
                                'encoder_sha256': identity['encoder'], 'target_sha256': identity['target_encoder'],
-                               'runtime': runtime_contract(device), 'provenance': copy.deepcopy(provenance)},
+                               'runtime': runtime_contract(device, model=model), 'provenance': copy.deepcopy(provenance)},
                   'seconds': time.perf_counter() - started}
         validate_features(bundle)
         return bundle

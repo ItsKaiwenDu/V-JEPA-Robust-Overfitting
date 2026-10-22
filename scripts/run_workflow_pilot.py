@@ -63,6 +63,8 @@ def main():
     parser.add_argument('--max-seconds', type=int, default=5400,
                         help='Worker wall deadline, at most 90 minutes; does not stop cloud billing.')
     parser.add_argument('--phase', choices=PHASES, help=argparse.SUPPRESS)
+    parser.add_argument('--execution-policy', choices=('original', 'cudnn-fp32', 'native-fp32'),
+                        default='original', help='Explicit diagnostic backend/precision; does not adopt a study policy.')
     args = parser.parse_args()
     if not args.diagnostic or not 1 <= args.max_seconds <= 5400:
         parser.error('Only --diagnostic with a wall deadline up to 5400 seconds is enabled.')
@@ -75,12 +77,13 @@ def main():
 
     from models.checkpointing import file_sha256
     from models.pilot_measurement import compare_recovery
-    from models.runtime import configure_cuda_reproducibility, device_metadata, require_device
+    from models.runtime import device_metadata, require_device
     from models.study_artifacts import write_record
     from models.training import runtime_contract
     from models.workflow_pilot import run_phase
 
-    configure_cuda_reproducibility()
+    from models.execution import configure_execution
+    configure_execution(args.execution_policy, device='cuda', strict_original=True)
     require_device('cuda')
     if args.phase:
         print(json.dumps(run_phase(ROOT, args), indent=2))
@@ -102,7 +105,7 @@ def main():
     session = {'schema_version': 1, 'diagnostic_only': True, 'research_result': False,
                'budget_approved': False, 'cloud_billing_stopped_by_runner': False,
                'max_worker_wall_seconds': args.max_seconds, 'device': metadata,
-               'runtime': runtime_contract('cuda'), 'phases': [], 'complete': False,
+               'execution_policy': args.execution_policy, 'runtime': runtime_contract('cuda'), 'phases': [], 'complete': False,
                'started_unix_seconds': time.time()}
     session_path = args.output / 'session.json'
     write_record(session_path, session)
@@ -112,7 +115,7 @@ def main():
             command = [sys.executable, '-u', str(Path(__file__).resolve()), '--diagnostic', '--phase', phase,
                        '--output', str(args.output), '--checkpoint', str(args.checkpoint.resolve()),
                        '--manifests', str(args.manifests.resolve()), '--clips', str(args.clips.resolve()),
-                       '--upstream', str(args.upstream.resolve())]
+                       '--upstream', str(args.upstream.resolve()), '--execution-policy', args.execution_policy]
             before = time.monotonic()
             run_child(command, args.output / 'logs' / (phase.replace('/', '-') + '.log'),
                       args.max_seconds - (before - started))

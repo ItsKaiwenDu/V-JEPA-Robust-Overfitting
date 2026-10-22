@@ -32,6 +32,8 @@ def main():
     parser.add_argument('--max-seconds', type=float, default=600., help='Training/evaluation boundary limit; excludes setup and does not stop billing.')
     parser.add_argument('--anchor-store', type=Path, help='Features only: saved anchor checkpoint directory.')
     parser.add_argument('--anchor-epoch', type=int)
+    parser.add_argument('--execution-policy', choices=('original', 'cudnn-fp32', 'native-fp32'),
+                        default='original', help='Explicit diagnostic backend/precision; does not adopt a study policy.')
     args = parser.parse_args()
     if not args.diagnostic or args.limit not in (1, 2):
         parser.error('Only --diagnostic with one or two training-monitor clips is enabled.')
@@ -60,6 +62,8 @@ def main():
     from models.training import TrainingEngine
     from models.workflow_diagnostic import prepare_context, cached_training_loader
 
+    from models.execution import configure_execution
+    configure_execution(args.execution_policy, device=args.device)
     context = prepare_context(ROOT, args)
     if args.mode == 'features':
         checkpoint = context.checkpoint
@@ -86,7 +90,7 @@ def main():
         result = {key: result[key] for key in ('chosen_step_size_255', 'diagnostic_only', 'research_result', 'budget_approved')}
     else:
         calibration = load_calibration(args.calibration, context.monitor.rows,
-                                       original_identity=model_identity(context.model), diagnostic=True)
+                                       original_identity=model_identity(context.model), diagnostic=True, model=context.model)
         train_provenance = {**context.provenance, 'training_rows': context.training.rows,
                             'calibration_sha256': json_hash(calibration),
                             'evaluation_provenance_sha256': json_hash(context.provenance)}

@@ -15,6 +15,7 @@ import yaml
 
 from models.checkpointing import cpu_tree
 from models.diagnostics import state_digest
+from models.execution import ExecutionGuard, model_execution_contract, precision_contract
 from models.pilot import effective_update
 from models.vjepa2 import MaskPair, PRETRAIN_CONFIG, use_upstream
 
@@ -125,12 +126,15 @@ def restore_rng(state, device):
         torch.mps.set_rng_state(state['torch_mps'])
 
 
-def runtime_contract(device):
+def runtime_contract(device, *, model=None):
     result = {'torch': str(torch.__version__), 'numpy': np.__version__, 'python': platform.python_version(),
               'device': device, 'architecture': platform.machine(), 'threads': torch.get_num_threads(),
               'deterministic_algorithms': torch.are_deterministic_algorithms_enabled(),
               'deterministic_warn_only': torch.is_deterministic_algorithms_warn_only_enabled(),
               'matmul_precision': torch.get_float32_matmul_precision()}
+    result.update(precision_contract())
+    if model is not None:
+        result['model_execution'] = model_execution_contract(model)
     if device == 'cuda':
         result.update(cuda=torch.version.cuda, cudnn=torch.backends.cudnn.version(),
                       gpu=torch.cuda.get_device_name(), devices=torch.cuda.device_count(),
@@ -174,8 +178,9 @@ class TrainingEngine:
         ], betas=settings.betas, eps=settings.eps, weight_decay=settings.weight_decay, foreach=False)
         self.contract = json.loads(json.dumps({'settings': asdict(settings), 'ids': self.ids,
             'condition': condition, 'seed': seed, 'provenance': provenance,
-            'runtime': runtime_contract(device), 'target_sha256': self.target_sha256}, sort_keys=True))
+            'runtime': runtime_contract(device, model=model), 'target_sha256': self.target_sha256}, sort_keys=True))
         self.contract_sha256 = hashlib.sha256(json.dumps(self.contract, sort_keys=True).encode()).hexdigest()
+        self.execution_guard = ExecutionGuard(model, device, target_versions=True)
         self.step = 0
         self.history = []
         self.failed = False
@@ -201,6 +206,7 @@ class TrainingEngine:
         return [self.settings.encoder_lr * warmup * decay, self.settings.predictor_lr * warmup * decay]
 
     def update(self):
+        self.execution_guard.check()
         if self.failed or self.finished:
             raise RuntimeError('Cannot update a failed or completed engine.')
         epoch, batch = divmod(self.step, self.updates_per_epoch)
@@ -223,6 +229,7 @@ class TrainingEngine:
         loss = effective_update(self.model, self.optimizer, load,
             lambda i: [m.to(self.device) for m in self.masks_for(mask_seeds[i])],
             adversarial=self.condition == 'adversarial-finetune', accumulation=len(indices), seed=attack_seed)
+        self.execution_guard.check()
         event = {'step': self.step + 1, 'epoch': epoch + 1, 'batch_in_epoch': batch + 1,
                  'video_ids': [self.ids[i] for i in indices], 'mask_seeds': mask_seeds,
                  'attack_seed': attack_seed, 'learning_rates': rates, 'optimizer_loss': loss}
@@ -232,6 +239,7 @@ class TrainingEngine:
         return event
 
     def state(self):
+        self.execution_guard.check()
         if self.failed or any(p.grad is not None for p in self.model.parameters()):
             raise RuntimeError('Only a completed, gradient-free update boundary can be saved.')
         if (any(p.requires_grad for p in self.model.target_encoder.parameters())
@@ -245,6 +253,7 @@ class TrainingEngine:
             'precision': 'float32', 'scaler': None})
 
     def restore(self, state):
+        self.execution_guard.check()
         # Reject changed run inputs before touching model or optimizer state.
         if (state.get('schema_version') != 1 or state.get('kind') != 'native_training_resume'
                 or state['contract'] != self.contract or state['contract_sha256'] != self.contract_sha256

@@ -1,0 +1,220 @@
+{
+  "archive": {
+    "base_git_head": "7c3ee216f7d4ba73b9544af087df861e96a232e9",
+    "bytes": 106350,
+    "manifest_files": 44,
+    "path": "runs/pretrained/diagnostic/cuda-native-model-fix-handoff-20261021/vjepa-native-model-fix.tar.gz",
+    "regular_members": 45,
+    "sha256": "0943830e1f7cde5a261df3430b0b88dc5b3b3806f452f7759950c9d4dd1a4f13"
+  },
+  "budget_approved": false,
+  "confirmation_test_pixels_opened": false,
+  "cuda_allocator_cap_gib": 7,
+  "date": "2026-10-21",
+  "diagnosis_basis": {
+    "failed_run_export_downloaded": false,
+    "failure_site": "native_backward_probe, before full pretrained native model load",
+    "new_cuda_probe_executed": false,
+    "observed_cuda_kernel_stem": "at::native::vol2im_kernel",
+    "observed_positive_device_time_rows": [
+      {
+        "count": 1,
+        "name": "void at::native::vol2im_kernel<float, float>(long, float const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, float*)",
+        "self_cpu_us": 0,
+        "self_device_us": 216.73599999999897,
+        "total_device_us": 216.73599999999897
+      }
+    ],
+    "old_match": "col2vol",
+    "original_cuda_worker_sha256": "0de375f98ff1c6d1c16091d78e0b5ac78cd7d3d07f3e655a0451236084f03028",
+    "original_native_model_archive_sha256": "ddac322987ffe8a1883f3fe6fa615dda2acad8ac77afb5831c73726f6e698fb5",
+    "user_reported_error": "RuntimeError: Native backward CUDA kernel boundary was not observed.",
+    "user_reported_failed_run": "/home/kdu/Desktop/VJEPA-Robust-Overfitting/cuda-native-model-20261021/runs/native.kq8WhI"
+  },
+  "diagnostic_only": true,
+  "extracted_handoff_cpu_fixture": {
+    "comparison": {
+      "attacks_compared_for_exact_replay_only_within_each_backend": true,
+      "cross_backend": {
+        "clean_loss": {
+          "atol": 2e-06,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "relative_l2_error": 0.0,
+          "rtol": 1e-05,
+          "shape": []
+        },
+        "input_gradient": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "relative_l2_error": 0.0,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            3,
+            4,
+            16,
+            16
+          ]
+        }
+      },
+      "full_model_optimizer_or_recovery_validated": false,
+      "passed": true,
+      "single_attempt_seconds": {
+        "cudnn-fp32": {
+          "clean_loss_and_input_backward": 0.02191333399969153,
+          "fgsm": 0.02608837500156369,
+          "pgd5": 0.07750620799924945
+        },
+        "native-fp32": {
+          "clean_loss_and_input_backward": 0.015052249997097533,
+          "fgsm": 0.0261106660036603,
+          "pgd5": 0.07645520900405245
+        }
+      },
+      "tiny_fixture": true,
+      "within_backend_exact_replay": {
+        "cudnn-fp32": true,
+        "native-fp32": true
+      }
+    },
+    "complete": true,
+    "passed": true,
+    "session_sha256": "71ecab4b46711d5c5d90a1721cba8ecceb24cbb16eb367aac2ae97883310c107",
+    "tiny_fixture": true,
+    "wall_seconds": 5.7898162079945905
+  },
+  "failed_raw_export_received": false,
+  "full_model_optimizer_recovery_validated": false,
+  "full_pretrained_native_gradients_attacks_replay_validated": false,
+  "kernel_evidence_recomputed_on_export": true,
+  "kill_grace_seconds": 5,
+  "kind": "native_backward_observer_correction_preparation",
+  "local_suite": {
+    "actual_cuda_tests_skipped": 2,
+    "architecture": "arm64",
+    "passed": 327,
+    "python": "3.11.16",
+    "seconds": 115.15,
+    "skipped": 2,
+    "torch": "2.14.1",
+    "warnings": 95
+  },
+  "new_cuda_retry_accepted": false,
+  "new_cuda_retry_launched": false,
+  "no_new_paid_compute": true,
+  "outer_seconds": 900,
+  "parent_scheduling_seconds": 840,
+  "pilot_reserve_remaining_usd": 8.805,
+  "probe_schema": 2,
+  "raw_files_sha256": {
+    "diagnosis-basis.json": "69095621b948f5ad0bf08b584ea5d7bd52a54bc36c6771c9cefa8a1b64e807eb",
+    "handoff-cpu-fixture/cudnn-fp32-0.json": "31b3f6c9aa2be4487d76c3d2bdcb2033fa4b7cadc827ee96109083dbe370e78f",
+    "handoff-cpu-fixture/cudnn-fp32-0.log": "9f87662069c886d53e426ddd38ac47310e0f14c6aa2986e2b3141f63a41ca957",
+    "handoff-cpu-fixture/cudnn-fp32-0.pt": "e754e19b282a3a49b157b3ba726650c5bac678c5d67f0832678d018344f993b6",
+    "handoff-cpu-fixture/cudnn-fp32-1.json": "06489ae1e0ef1be9ac05d260f98f73fd3aebe6f84965fef00d902082e99c8675",
+    "handoff-cpu-fixture/cudnn-fp32-1.log": "9f87662069c886d53e426ddd38ac47310e0f14c6aa2986e2b3141f63a41ca957",
+    "handoff-cpu-fixture/cudnn-fp32-1.pt": "e754e19b282a3a49b157b3ba726650c5bac678c5d67f0832678d018344f993b6",
+    "handoff-cpu-fixture/native-fp32-0.json": "8d04b6f1213ceb396e25d10240ea8227bbbfd2201a726beda8e82bfc06a78bb2",
+    "handoff-cpu-fixture/native-fp32-0.log": "eb21f1dd70801e6a3e139559b7d39ee74dbaf81cb800506e2c07d94b41468e27",
+    "handoff-cpu-fixture/native-fp32-0.pt": "e754e19b282a3a49b157b3ba726650c5bac678c5d67f0832678d018344f993b6",
+    "handoff-cpu-fixture/native-fp32-1.json": "99cb8b5fbca0fdb163e77795d609a3ad31e5d744d87005482a990817eb908de9",
+    "handoff-cpu-fixture/native-fp32-1.log": "0cef1f7cb627b8ef75af9fa8d8c5bfd072c23cb56383164b0765e8f68baa927a",
+    "handoff-cpu-fixture/native-fp32-1.pt": "e754e19b282a3a49b157b3ba726650c5bac678c5d67f0832678d018344f993b6",
+    "handoff-cpu-fixture/session.json": "71ecab4b46711d5c5d90a1721cba8ecceb24cbb16eb367aac2ae97883310c107",
+    "pytest-final.log": "d49dbe84c843e44ee557f9e397b3a56e145abd4749c50913450619bd7da60e09",
+    "pytest-targeted.log": "b5d730f98bf919e4909023eec290aa1244b8ea5174967ed6d9a5e8a0b8975714"
+  },
+  "raw_local_evidence": "runs/pretrained/diagnostic/native-probe-fix-local-20261021",
+  "reported_spend_usd": 1.195,
+  "research_result": false,
+  "retained_device_typed_events_before_rejection": true,
+  "schema_version": 2,
+  "source_sha256": {
+    "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "datasets/prepared.py": "531dcb4e4e69e3a59890e020940a6a8d0459d47100154730eabc6d267c5e2bb5",
+    "models/checkpointing.py": "e3c2d47b6770a62abea576eb65cecfe3564b8270c0823d064c47ecbaf9f9434f",
+    "models/cuda_convolution.py": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3",
+    "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+    "models/diagnostics.py": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0",
+    "models/execution.py": "1201f696ee6d7a48bb424bda489e75b93a74920c463d48e2a9c9a174bf8c979b",
+    "models/native_diagnostic.py": "695834ba32aa9a87ae4a89bce182f526bc6d02363235e544ad85fbc96a75c1a6",
+    "models/native_patch.py": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7",
+    "models/native_probe.py": "10dd9afd62615106aa298c1970278dcd9f203979c8006bc150ecbdc0228db762",
+    "models/patch_embed.py": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec",
+    "models/pilot.py": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82",
+    "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+    "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+    "scripts/check_native_model.py": "c5b91fe232405002637a54bbf05d81656951d93d6a550b930ae3de12026b51ff",
+    "scripts/university_native.sh": "3af32850d8ce32c8019d53507e47b89963d1de2faf13651de54932548aed531e"
+  },
+  "unchanged_exact_replay_requirement": true,
+  "unchanged_model_optimizer_attack_runtime_and_protocol_sha256": {
+    "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "configs/budget_study_plan.yaml": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+    "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+    "datasets/prepared.py": "531dcb4e4e69e3a59890e020940a6a8d0459d47100154730eabc6d267c5e2bb5",
+    "models/execution.py": "1201f696ee6d7a48bb424bda489e75b93a74920c463d48e2a9c9a174bf8c979b",
+    "models/native_patch.py": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7",
+    "models/patch_embed.py": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec",
+    "models/pilot.py": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82",
+    "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+    "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf"
+  },
+  "unchanged_tolerances": {
+    "clean_loss": {
+      "atol": 2e-06,
+      "rtol": 1e-05
+    },
+    "input_gradient": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    }
+  },
+  "upstream_sha256": {
+    "src/datasets/data_manager.py": "6849784a95abaf4d18292460e695a559de514364078d6143c0fee9c4590a7172",
+    "src/datasets/imagenet1k.py": "d040f7a7740cfdb7625c2426688b3bf39260395b670d2ddfd29544b9c65cbd80",
+    "src/datasets/utils/dataloader.py": "c1740e7267378192525f212d56774e44cd58fe5df39dc1b86fadac046869358e",
+    "src/datasets/utils/utils.py": "8f41409489900d7dd9f2342f80d671a7f6f363295f02feaa21c66f06bfe2e0b2",
+    "src/datasets/utils/video/functional.py": "b7e7726cb784bc7e2a7614013258d9f90182259c9ba60945b5a3fead14781fad",
+    "src/datasets/utils/video/randaugment.py": "b0914ae5823aa6ced7b594a3156d2e2ee9a906ebf950b40d24c1a96f5da2acbd",
+    "src/datasets/utils/video/randerase.py": "81be3544ef18564e4c086daad9f596a1b6312bdd8eae15a0157e551eb08f3ab6",
+    "src/datasets/utils/video/transforms.py": "e175b52ce1a23a14b647208435e7524692dd87bbdb5334ee444fd6d1b9a50d64",
+    "src/datasets/utils/video/transforms_builder.py": "e73c2f33045ae502a85177819218cfbc1cabf037e15c6dfa5e70be5b9e12c4ba",
+    "src/datasets/utils/video/volume_transforms.py": "2ac8efe2e91ed1d46436e2b0de43e181d7662f0b0d8bf7eebb4d044bdfe5f8c8",
+    "src/datasets/utils/weighted_sampler.py": "8e528ed8f1fa431b37982f9d618c7f887592ad8129de98e745222c4c84713abd",
+    "src/datasets/utils/worker_init_fn.py": "73205faa33d0fa0b8b8e59ac7f1d79a234346ed13b3100ee0df0a550d4d780a2",
+    "src/datasets/video_dataset.py": "44cee1d4d7a643acb9f26402dcec961f3193240489bb1d2ee89e00515630af4b",
+    "src/hub/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/hub/backbones.py": "391cdde1e9a1da47cb8094bbea5fbbe8acac0135b27e82f1a6ab19c0b39cc692",
+    "src/masks/default.py": "5329acaf6eb8f72a0b2d285944824bc4d61c24598eb6c996cf3a5a62f3d243f9",
+    "src/masks/multiseq_multiblock3d.py": "7ef7cf95b0bee9940ac7654aeb3535278bbafdd6d93b643f4142fd19769456d9",
+    "src/masks/utils.py": "833f111a0fa5ffdbd3a6412e2dace2517c3c178f49c14f8bb631d9f6a070dfd0",
+    "src/models/ac_predictor.py": "5a520ad92b3f78b231aa153a5bbd9f800f880024974109a04d19aed6a0900643",
+    "src/models/attentive_pooler.py": "9be7047d6bfce50575956a57e36d87a37bf63ae84ec92a9ba8649bf1ab7d5feb",
+    "src/models/predictor.py": "3d8481bf2544b85ed92b3feb418e3b6d85ca1f81034c931b8c860f2d3d9aac2b",
+    "src/models/utils/modules.py": "b93f6c7e0747deb216419c000c2878f11a9189024a9adeacfd437e172396dff0",
+    "src/models/utils/patch_embed.py": "1823c40b34410e70eb313360e21678e18a0ee5465b5d47de9f3d967c074f5a9d",
+    "src/models/utils/pos_embs.py": "e6d3b3863ade47b3734a3b443f1bcc93eab02e39bf596ea199517f68ccab443e",
+    "src/models/vision_transformer.py": "9d4fd4e3603311803c105cc5114e2bc12ff28bc11870637dd3969511d9dead74",
+    "src/utils/checkpoint_loader.py": "8ae1c92e095dabed897694101e35393ed5b20da2b51c5bebae3dceda427472ce",
+    "src/utils/distributed.py": "52342428ee4eafaf685471afd91912462057bed59267faec42cf7640d8c08861",
+    "src/utils/logging.py": "0bf5298ecce7e59d90fcb3e4cc68eba988e3e8af4d4a08c91e94bdcd29f76b2e",
+    "src/utils/monitoring.py": "8fc1feb76396af17ed3753d3f9c4ad0b75d3908122a49b209537d6e3653427c5",
+    "src/utils/schedulers.py": "e35b2162c9df04f25ef4dbc51a1e9df41e362dee6d9d2b494321d81e44fe4659",
+    "src/utils/tensors.py": "782b58bd2af456e184750e5318ab773105108383f61b280fe4c7a90f46add2c8",
+    "src/utils/wrappers.py": "cdba99fcad17b1810bf26bb047046182fe0aad620a5786fbf405d8a71bb1f47a"
+  },
+  "worker_order": [
+    "native-fp32",
+    "cudnn-fp32"
+  ],
+  "worker_seconds": 180
+}

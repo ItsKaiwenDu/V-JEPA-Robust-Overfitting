@@ -67,10 +67,15 @@ class PreparedTrainingClips:
     def target_loader(self, model, device):
         # Cache only fixed clean target features, in CPU RAM. Never use an
         # unverified target cache from another model/preprocessing recipe.
+        from models.execution import ExecutionGuard
+        guard = ExecutionGuard(model, device, target_versions=True)
         targets = [model.clean_targets(self.pixels(i).to(device)).cpu()
                    for i in range(len(self.entries))]
 
+        guard.check()
+
         def load(index):
+            guard.check()
             return self.pixels(index), targets[index]
 
         return load

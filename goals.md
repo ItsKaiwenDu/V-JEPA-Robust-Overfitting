@@ -16,8 +16,14 @@ and epoch orchestration are implemented with local tests. Staged manifests and
 Full-model CUDA recovery failed under the original runtime, and strict execution
 was too slow. The [TF32-off university component control](report/checks/2026-10-21-university-cuda-convolution-precision.md)
 now qualifies a numerically checked, reproducible native-Conv3d candidate.
-Next: opt-in integration with explicit runtime/cache/resume identities,
-full-model gradient/recovery validation, and measured remaining costs before
+Opt-in integration now binds explicit runtime/cache/resume identities;
+small-model gradients/recovery and fresh CPU workers are checked. The verified
+university derivative control isolates failed forward-oracle gates; fixed-
+cotangent backwards pass and saved gradients reconstruct bitwise. The shared-forward precision control now passes verified university forward/
+gradient/replay gates with faster native input-only backward. Next is explicit
+opt-in integration and exact full optimizer recovery; no study backend adopted.
+Then full pretrained gradient/optimizer-recovery acceptance and measured costs
+before
 an exploratory pair. No research trajectory is complete; confirmation is conditional.
 
 ## Repository setup
@@ -43,7 +49,13 @@ an exploratory pair. No research trajectory is complete; confirmation is conditi
 - [x] Implement and test native evaluation recovery, saved anchors, and provisional primary selection.
 - [x] Add fixed probes, calibration records, and epoch orchestration; validate local fixtures.
 - [x] Isolate strict CUDA component costs and qualify a native Conv3d candidate on the university GPU.
-- [ ] Integrate the candidate as an explicit diagnostic option and verify full-model gradients/recovery.
+- [x] Integrate the candidate as an explicit diagnostic option; verify small-model gradients/recovery.
+- [x] Implement and locally test the derivative attribution control and prepare its bounded university handoff.
+- [x] Execute/verify pretrained derivative attribution without changing the prior numerical rejection.
+- [x] Implement a separately identified shared FP64 patch forward and verify trained-projection/CPU replay gates.
+- [x] Verify shared-forward pretrained CUDA accuracy/input gradients/attacks/replay on the bounded one-clip control.
+- [ ] Integrate the explicit precision identity into research/cache/checkpoint contracts and verify CPU optimizer recovery.
+- [ ] Accept full pretrained CUDA input gradients/attacks and optimizer recovery for the candidate.
 - [ ] Validate full-model GPU resume and integrated evaluation before research execution.
 - [x] Pin upstream source and implement the adapter and local CPU correctness tests.
 - [x] Audit full ViT-L tensor names/shapes against official checkpoint metadata.

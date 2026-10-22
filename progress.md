@@ -1,5 +1,278 @@
 # Research Progress Reports
 
+## 2026-10-21 — Shared-forward CUDA control independently verified and passed
+
+Verified `precision.RvqoMB`: complete source/archive/53 manifest entries,
+17 historical plus five precision/dependency source hashes, 32 upstream sources,
+session/four worker/twelve tensor-file hashes and signatures, prior identity
+pins, actual new native CUDA probe evidence in all four workers, every saved
+oracle/reconstruction gate and exact within-backend fresh-process replay.
+Session completed in 267.114s; this input-only control passes.
+
+Shared tokens and FGSM/PGD-5 tensors are bitwise equal across backwards on this
+one training clip/mask bank. Clean losses match exactly; full input-gradient
+max difference 7.451e-8 and relative L2 4.942e-7 pass unchanged pointwise bounds,
+with no sign changes or zero-support differences. Both same-backend full chain
+reconstructions are bitwise exact. All four projection output/input/weight/bias
+FP64 gates pass. New forward values equal the independently verified CPU FP64
+reference rounded to FP32 at every token.
+
+Median two-single-attempt clean loss/backward: native 1.108s vs cuDNN 7.923s;
+PGD-5+score 6.324s vs 40.745s (6.44x). Maximum allocator 3,047,505,920 bytes
+(2.838 GiB). These are selected input-only timings, not full update/optimizer
+or study throughput. [Verified outcome](report/checks/2026-10-21-university-shared-forward.md).
+
+**Next, plan only:** explicit opt-in integration with full execution/cache/
+calibration/anchor/checkpoint identities and CPU clean/adversarial exact
+optimizer recovery; then sufficient-VRAM CUDA update/resume and representative
+checks. The temporary diagnostic policy is still rejected by legacy research
+APIs. [Next milestone](docs/shared_forward_integration_plan.md).
+No implementation/YAML/threshold change, new GPU job, paid compute, commit or
+push. Both historical FP32 failures remain rejected; final/confirmation pixels
+closed. Prior suite remains 373 passed/two CUDA skips, not rerun for analysis/
+docs. Spending $1.195; pilot reserve $8.805.
+
+## 2026-10-21 — Shared-forward university run reports a pass; export pending
+
+User-pasted launcher output reports `precision.RvqoMB` completed all four
+fresh workers (`native-0/1`, `cudnn-0/1`), with `passed: True` and launcher
+exit 0 at October 22 05:45:41 UTC. The raw source/session/worker/tensor/probe
+evidence has not yet been copied or independently verified. Numerical error
+sizes, actual replay and CUDA dispatch, memory and timings await verification.
+This is not research backend adoption or full-model optimizer recovery.
+
+**Next/user action:** copy the entire run into the prepared local receiving
+folder, then recompute all gates and inspect measured performance. Preserve
+historical FP32 failures and original bounds. No implementation/YAML change,
+new GPU job, paid compute, commit or push. Reported spending remains $1.195.
+See [reported status](report/checks/2026-10-21-university-shared-forward-status.json).
+
+## 2026-10-21 — Shared higher-precision forward implemented; university handoff ready
+
+Implemented the separately declared FP64 patch accumulation / FP32 token
+control, preserving original learned FP32 parameter objects/state keys,
+normalization, clean frozen target, transformer/predictor and native L1. Both
+arms share the exact forward and differ only in strict FP32 backward dispatch.
+Existing cache/training APIs reject this temporary distinct policy; new guards
+bind runtime/algorithm/geometry/checkpointing/tensor identities and restore the
+original context/policy on failure. No original scientific source module,
+study/proposal YAML, acceptance gate or historical rejected outcome changed.
+
+**Verification:** 373 passed, 2 CUDA skips, 119 warnings in 125.73s;
+28 new tests. On the rehashed actual trained projection and first training
+clip, both retained incoming-derivative sources pass unchanged forward/input/
+weight/bias gates, with max forward error 1.906e-6 and zero failed values.
+Actual extracted handoff completes four fresh CPU workers in
+7.078s, with bitwise shared tokens and exact within-backend replay.
+[Local evidence](report/checks/2026-10-21-shared-forward.md),
+[precision/reference and launch guide](docs/shared_forward_control.md).
+
+**Next/user action:** transfer and launch the separate source-only university
+handoff. Four 180s workers; 840s scheduling budget, 900s outer + 5s cleanup;
+7 GiB CUDA allocator cap. Current pretrained CUDA precision accuracy, dispatch,
+full input gradients/attacks/replay and speed remain pending. No optimizer,
+held-out pixels, paid compute, commit or push. Historical FP32 forward and
+full-gradient failures remain rejected. Spend $1.195; pilot reserve $8.805.
+
+## 2026-10-21 — Derivative export verified: forward gate isolated
+
+Verified `derivative.aIsykm`: original archive/51 manifest entries, 17 historical
+project plus three control sources, 32 upstream sources, original session and
+worker/tensor pins, control hash, all nine artifact hashes, data/runtime/
+weights/targets/masks, and retained native CUDA observer evidence. The run
+completed in 66.915s, peak allocator 2,961,700,864 bytes, and remains rejected.
+
+**Sole failed final gate:** FP64 forward-oracle agreement; 12 cuDNN and 35 native
+values fail out of 2,097,152. All four fixed-cotangent backward/oracle checks
+pass (max errors 3.40e-8–7.78e-8), and cross-backward comparisons pass with zero
+sign differences. Both reconstructed losses/gradients are bitwise identical to
+`native.5S6yHj`; repeated identical-token tail values/derivatives replay exactly.
+Forward-token differences change incoming derivatives; 4+7 L1 residual signs
+cross. Incoming-derivative effect norm is about 7,245 times the backward-path
+effect here; this does not prove crossings alone explain the whole difference.
+
+Independently rehashed the original checkpoint and first training pixels,
+and recomputed FP64 references through CPU conv/transpose-conv using the actual
+learned projection: output reproduction error 1.56e-13, VJP errors at most
+1.25e-16. All saved metrics/gates were recomputed. See
+[verified outcome](report/checks/2026-10-21-university-gradient-attribution.md).
+
+**Next, specified only:** local checks for a shared more accurate patch forward
+(e.g. declared FP64 accumulation cast to FP32 tokens), then a bounded matched-
+forward backward comparison. Keep existing oracle gates and both old failures;
+no implementation/policy adoption yet. Full-model optimizer/recovery, RTX 5090
+and study admission remain pending. Scientific code/YAML unchanged; prior
+suite remains 345 passed/two CUDA skips, not rerun for analysis/docs. No new GPU
+job, paid compute, held-out pixels, commit or push. Spending $1.195, pilot
+reserve $8.805. Raw analysis scripts/evidence are retained under ignored runs/.
+
+## 2026-10-21 — University derivative control completed and rejected; export pending
+
+User-pasted worker log and session JSON report `derivative.aIsykm` completed
+all measurement stages, including the identical-token repeat, then rejected
+the final derivative-control checks (worker exit 1, `complete: true`,
+`control_checks_passed: false`). This is not a worker timeout. Execution reached
+those stages after source/runtime/data/weight/target/mask identity checks;
+the raw evidence has not yet been copied or independently verified. The
+specific failed numerical/repeatability checks and their sizes remain unknown.
+
+**Next/user action:** copy the entire run into the prepared local receiving
+directory, then verify source/session/result/artifact hashes and recompute
+measurements from retained tensors before attributing a cause. Preserve the
+original failed run and thresholds. No code change, rerun, backend adoption,
+commit, push or paid compute. Spending remains $1.195. See
+[reported status](report/checks/2026-10-21-university-gradient-attribution-status.json).
+
+## 2026-10-21 — Derivative attribution implemented; university action ready
+
+Prepared a separate controlled investigation of the rejected input gradients:
+original/native forward-token capture, distinct patch-output leaves per mask
+family, both backwards at each fixed incoming derivative, independent CPU FP64
+raw-pixel VJPs including normalization, prediction residual sign accounting,
+exact identical-token tail replay, and reconstruction of the saved failed run.
+Historical source/runtime/data/weight/target/mask and session/worker/tensor
+hashes must match. Save nine tensor artifacts progressively; retain atomic
+partial evidence on rejection. No original model/loss/attack or study YAML
+changed, no acceptance threshold relaxed, and no backend adopted.
+
+**Verification:** 345 passed, two actual-CUDA skips, 107 warnings in 119.55s;
+18 new checks. An extracted fresh-process CPU fixture completes all control
+checks and retains all nine artifacts. The original real failed-run hashes,
+tensor signatures and contracts also load/verify through the new reader.
+The 51-file source handoff is checksummed; pretrained CUDA execution has not
+started. See [the verification record](report/checks/2026-10-21-gradient-attribution.md)
+and [run guide](docs/native_gradient_control.md).
+
+**Next/user action:** transfer and launch the detached control on linux10609.
+One 300-second worker, 330-second outer timeout + five-second kill grace;
+7 GiB allocator cap, existing first training clip and existing rejected run
+only. Copy the complete fresh export for inspection. No optimizer, held-out
+pixels or paid cloud compute; reported spending remains $1.195 / pilot reserve
+$8.805. Full-model recovery, causal attribution and research admission remain
+pending. No commit or push performed.
+
+## 2026-10-21 — Verified numerical rejection and derivative investigation plan
+
+Verified corrected export `native.5S6yHj`: all 17 project and 32 upstream source
+hashes, four worker JSON/tensor hashes and signatures, both actual-CUDA native
+probes, and within-backend exact input-gradient/FGSM/PGD-5 replay pass. The
+complete comparison remains rejected. Clean-loss difference 1.192e-7 passes;
+input-gradient relative L2 difference is 0.3583%, maximum absolute error
+6.820e-4, and 242,613 derivatives fail the original pointwise bounds. Cosine
+similarity is 0.9999937; 464 nonzero signs differ, with identical zero support.
+
+Independently checked the saved adversaries against the original verified
+training pixels. Both obey bounds; FGSM exactly matches its own saved gradient
+sign step. FGSM outputs differ in 464 pixels; PGD-5 differs in 736,998 pixels.
+PGD independent losses are 0.633359 (cuDNN) and 0.628537 (native), on this one
+training clip/mask bank only. No backend/attack superiority is inferred.
+
+Median diagnostic clean-loss/backward takes 7.964 vs 1.202 seconds; PGD-5 plus
+score 40.338 vs 6.086 seconds (cuDNN/native). This is a roughly 6.6x performance
+signal from two single attempts, not steady-state study or optimizer evidence.
+All allocator peaks are 3,045,736,448 bytes, excluding driver/other users.
+[Verified outcome](report/checks/2026-10-21-university-native-model-comparison.md),
+[hashes and metrics](report/checks/2026-10-21-university-native-model-comparison.json).
+
+**Next:** the controlled derivative investigation is specified in
+[the proposed plan](docs/native_gradient_control.md), not implemented or run.
+Compare original/native backward at identical incoming cotangents with FP64
+analytical VJPs, inspect forward residual signs, and reconstruct saved gradients.
+Forward rounding/L1 sensitivity is a hypothesis; a backward issue has not been
+ruled out. No model/acceptance-code or tolerance change, GPU launch, paid
+compute, commit or push. Latest suite remains 327 passed/two CUDA skips; it was
+not rerun for analysis/documentation only. Existing training tensors were read;
+confirmation/test pixels remain closed. Spending stays $1.195 / pilot $8.805.
+
+## 2026-10-21 — Corrected CUDA attempt reaches numerical comparison
+
+The user reports the corrected native-first retry finished its workers and
+stopped at `Full-model FP32 numerical agreement gate rejected`. From the
+runner's control flow, this follows native probe validation and within-backend
+replay checks; the new raw export has not yet been copied or independently
+verified. The rejected loss/gradient metric and error size are still unknown.
+No tolerance change, rerun or corrected CUDA acceptance is inferred.
+
+The first failed export is now local and independently verified against its
+original archive: 16 source files, 32 upstream files, all worker/tensor hashes,
+and saved tensor signatures match. Both cuDNN full-model input-gradient,
+FGSM and PGD-5 workers replay exactly. Clean loss/input-backward takes
+7.954/8.010 seconds, FGSM 8.451/8.497 seconds, PGD-5 40.235/40.333 seconds;
+whole-worker CUDA allocator peaks are 3,045,736,448 bytes in both. These are
+single attempts, not a study throughput estimate. The original native worker
+fails at the old probe before full pretrained native loading, as reported.
+[Verified status](report/checks/2026-10-21-university-native-model-status.json).
+
+**Next/user action:** copy corrected run `native.5S6yHj` for hash verification,
+recomputation and numerical discrepancy analysis. Full-model optimizer recovery,
+RTX 5090 measurements, calibration and budget admission remain pending. No new
+compute launched, code/tolerance change, paid spending, commit or push.
+
+## 2026-10-21 — Native probe observer corrected; separate retry ready
+
+The user reported the first integration run stopped at the small native
+backward probe, before full pretrained native model loading. The check expected
+`col2vol`; the prior verified CUDA native export instead records
+`at::native::vol2im_kernel`. The failed probe did not retain its event names
+before raising. Both cuDNN worker logs show warnings only, but their complete
+results/exact replay remain unaccepted until the raw export is copied/verified.
+The original failure and source archive are preserved.
+
+Corrected the observer to retain device-typed raw events, require a positive
+native CUDA reconstruction kernel plus convolution backward, reject cuDNN
+execution, check finite gradients/restored flags, and save evidence before
+rejecting. Export verification recomputes the gate. The actual-CUDA regression
+shares the helper. The separate retry starts native workers first; all four
+workers remain fresh and source-matched. Model/optimizer/attack math, numerical
+and exact-replay requirements, resource limits, and study YAML are unchanged.
+
+**Verification:** 327 tests passed, two actual-CUDA skips, 95 warnings, 115.15
+seconds. The 106,350-byte retry archive (45 regular members / 44 manifest files)
+was checksum-verified and passed four fresh CPU workers after extraction in
+5.790 seconds. CPU fixtures/parser tests are not a CUDA acceptance result.
+[Fix record](report/checks/2026-10-21-native-probe-fix.md),
+[hashes](report/checks/2026-10-21-native-probe-fix.json),
+[copy/launch guide](docs/native_probe_fix.md).
+
+**Next/user action:** copy the failed raw run, then copy/launch the separate
+university retry. The corrected CUDA probe/full-model checks have not launched
+or passed. No new paid compute, full-model optimizer step, held-out pixel
+access, commit or push. Spending remains $1.195; pilot reserve $8.805. Full
+pretrained native gradients/attacks/replay, AdamW recovery, RTX 5090 timing,
+research calibration and measured budget admission remain pending.
+
+## 2026-10-21 — Opt-in native integration and bounded handoff ready
+
+Implemented explicit original/cuDNN-FP32/native-FP32 diagnostic policies. Native
+context dispatch preserves the original Conv3d object, parameters, geometry and
+state keys; both forward and first-order backward scope cuDNN off. The target
+patch module stays original and frozen. Actual backend, activation checkpointing,
+precision and determinism now bind targets, evaluation, features, calibration,
+anchors and recovery; drift and incompatible artifacts reject. Original study
+math, default construction, attacks, preprocessing and both study YAML remain
+unchanged. This is not study adoption.
+
+**Verification:** 312 tests passed, two actual-CUDA tests skipped, 95 warnings,
+111.31 seconds. Small-model gradients with activation checkpointing, PGD bounds,
+exact clean/adversarial recovery and artifact incompatibility checks passed.
+The verified 102,777-byte source-only handoff passed four fresh CPU workers
+from its extracted copy in 6.720 seconds; saved tensor comparisons were
+recomputed. Scaffold, shell syntax and whitespace checks passed. The initial
+feature guard failure was repaired before the final suite.
+[Record](report/checks/2026-10-21-native-integration.md),
+[hashes](report/checks/2026-10-21-native-integration.json),
+[launch guide](docs/native_execution.md).
+
+**Next/user action:** copy and launch the university handoff. It reads the
+existing checkpoint and first verified training clip, compares full-model input
+gradients/FGSM/PGD-5 across two strict FP32 backends with fresh-process replay,
+and profiles scoped native backward. No optimizer step; 180-second worker and
+900-second outer bounds. It has not launched or passed on CUDA. Full-model
+AdamW recovery/RTX 5090 validation, research calibration and measured budget
+admission remain pending. No new real video/pretrained weight read locally,
+no paid compute, and no confirmation/test pixels opened. Spending stays $1.195;
+pilot reserve $8.805. No commit or push performed.
+
 ## 2026-10-21 — TF32-off CUDA component qualification verified
 
 Verified all 12 worker checksums and provenance, five local source files, six

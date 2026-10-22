@@ -96,3 +96,22 @@ cuDNN reference itself fails the fixed FP64 comparison. The separately tagged
 university GPU. Native execution is a much faster isolated component candidate;
 full-model integration/recovery and study adoption remain pending. See the
 [comparison guide](../docs/cuda_convolution_comparison.md).
+
+`check_native_model.py` and the detached `university_native.sh` implement the
+next bounded native-Conv3d integration check, using the existing university
+checkpoint and training cache. `check_workflow.py` and `run_workflow_pilot.py`
+now accept an explicit `--execution-policy`; `original` remains the default.
+See [native execution](../docs/native_execution.md) for backend identity,
+first-order limits, the university handoff and pending full-model recovery.
+
+`check_gradient_attribution.py` runs the derivative control with explicit
+`--diagnostic`, a fresh output directory and a 300-second maximum worker.
+`university_gradient.sh` verifies the source handoff and starts a detached
+330-second supervisor using existing university assets and the saved failed
+run. See [the guide](../docs/native_gradient_control.md) for transfer/launch.
+
+`check_precision.py` and `university_precision.sh` implement the separate
+matched-FP64-forward control: explicit diagnostic scope, first training clip,
+original pinned assets, four fresh workers, numerical/replay gates, saved raw
+references and a detached bounded launcher. See
+[the guide](../docs/shared_forward_control.md) before university execution.

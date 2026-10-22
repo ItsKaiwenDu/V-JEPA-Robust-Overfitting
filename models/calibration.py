@@ -106,7 +106,7 @@ def verify_calibration(record, *, original_identity, expected_rows, diagnostic=F
         raise ValueError('Calibration choice disagrees with its recorded rule.')
 
 
-def load_calibration(directory, expected_rows, *, original_identity, diagnostic=False):
+def load_calibration(directory, expected_rows, *, original_identity, model, diagnostic=False):
     directory = Path(directory)
     record = read_record(directory / 'calibration.json')
     payloads = []
@@ -119,4 +119,8 @@ def load_calibration(directory, expected_rows, *, original_identity, diagnostic=
     if {k: v for k, v in record.items() if k != 'evaluation_files'} != rebuilt:
         raise ValueError('Calibration record disagrees with its evaluated candidates.')
     verify_calibration(record, original_identity=original_identity, expected_rows=expected_rows, diagnostic=diagnostic)
+    from models.training import runtime_contract
+    device = next(model.encoder.parameters()).device.type
+    if record['common_contract']['runtime'] != runtime_contract(device, model=model):
+        raise ValueError('Calibration execution runtime/backend differs.')
     return record

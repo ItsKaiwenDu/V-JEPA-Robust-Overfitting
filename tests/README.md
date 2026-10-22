@@ -71,3 +71,45 @@ Use small fixtures for correctness tests; do not require a full dataset or
 large checkpoint in ordinary CI. GPU integration checks should be explicit,
 with provenance and measured runtime. Do not label skipped scientific tests
 as evidence of a validated pipeline.
+
+`test_native_execution.py` covers the opt-in Conv3d parameter/state identities,
+FP64 numerical derivatives, scoped forward/backward flags, full small-model
+input/parameter gradients, PGD bounds, frozen targets, exact clean/adversarial
+recovery, and rejected cache/calibration/evaluation/anchor policy mismatches.
+Its actual CUDA kernel test skips without CUDA. `test_native_diagnostic.py`
+exercises four fresh CPU workers and verifies saved gradient/attack evidence,
+exact within-backend replay and numerical agreement; incomplete/mixed source,
+precision, geometry, checkpointing or scale cannot pass. These are fixtures;
+full pretrained CUDA execution and optimizer recovery remain pending.
+
+`test_native_probe.py` covers the corrected device-typed observer: the recorded
+`vol2im_kernel` name stem, rejected CPU-only/zero-duration/unrelated/cuDNN
+records, invalid timings, restored flags, recomputation of retained evidence,
+and persistence of rejected probe/worker JSON. These parser fixtures do not
+claim CUDA execution; the shared actual-CUDA regression still skips locally.
+See [the observer correction](../docs/native_probe_fix.md).
+
+`test_gradient_attribution.py` adds 18 checks for actual upstream chain-rule
+reconstruction, CPU FP64 normalization/family derivatives, reliable hook/RNG
+restoration on exceptions, fixed targets/parameter identities/modes, residual
+sign accounting, rejected reconstruction and source/session/worker/tensor hash
+or runtime/mask/weight mismatches. The extracted CPU CLI fixture also passes.
+The verified CUDA attribution rejects both forward-oracle gates; fixed-cotangent backwards and exact reconstruction pass. Latest project suite: 373 passed, two
+CUDA-only skips (`python -m pytest -q tests`; exclude vendored upstream tests).
+
+`test_precision_patch.py` adds 28 checks for the separate shared-forward
+precision: FP64 numeric derivatives, actual small-model full input/parameter
+derivatives against independent double-convolution autograd, original tensor
+identities and target freezing, exception restoration, strict scoped backwards,
+rejected old/mixed/runtime/false-gate identities, bias-free parameter gradients,
+rejected higher-order derivatives, explicit bounds and four fresh upstream CPU
+workers. Local trained-projection gates and the extracted CLI also pass; this
+is not new CUDA evidence. Project suite: 373 passed, two CUDA-only skips.
+
+The university `precision.RvqoMB` export now independently verifies four fresh
+CUDA workers, forward/input/weight/bias numerical gates, actual new native
+probe, exact within-backend replay and matched forward/attack outputs. These
+are separate recorded CUDA diagnostics; they do not turn the two locally
+skipped pytest regressions into pytest passes. Full-model optimizer recovery
+and study admission remain pending. See
+[the verified result](../report/checks/2026-10-21-university-shared-forward.md).

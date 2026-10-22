@@ -1,0 +1,566 @@
+{
+  "accepted": false,
+  "all_nine_artifact_hashes_verified": true,
+  "backend_adopted": false,
+  "control_sha256": "d5c6ad7a25a8ea67afede2daa28efe5abfa748d015ce20f6e6a516f8651e43a4",
+  "cuda_peak_allocated_bytes": 2961700864,
+  "date": "2026-10-21",
+  "diagnostic_only": true,
+  "extra_diagnostics": {
+    "backward_over_total_l2_ratio": 0.00013803074149017894,
+    "incoming_over_backward_effect_l2_ratio": 7244.768034008336,
+    "original_full_gradient_discrepancy_reproduced": {
+      "active_sign_disagreements": 464,
+      "atol": 2e-07,
+      "exact": false,
+      "failed_elements": 242613,
+      "max_absolute_error": 0.0006819982081651688,
+      "max_tolerance_ratio": 846.3155528371339,
+      "passed": false,
+      "relative_l2_error": 0.0035825796125758366,
+      "rtol": 0.002,
+      "shape": [
+        1,
+        3,
+        16,
+        256,
+        256
+      ],
+      "zero_support_disagreements": 0
+    },
+    "reconstruction_bitwise_exact": {
+      "cudnn-fp32": {
+        "gradient": true,
+        "loss": true
+      },
+      "native-fp32": {
+        "gradient": true,
+        "loss": true
+      }
+    },
+    "tail_repeat_exact_by_field": {
+      "cotangents": true,
+      "predictions": true,
+      "residuals": true
+    },
+    "vector_decomposition_exact_fp64": true
+  },
+  "forward_failure_details": {
+    "cudnn-fp32": {
+      "absolute_error_at_largest_ratio": 8.179084912640633e-05,
+      "actual_at_largest_ratio": -0.1636103391647339,
+      "allowed_at_largest_ratio": 3.636921300138603e-05,
+      "elements": 2097152,
+      "failed_elements": 12,
+      "failed_reference_abs_max": 0.21349179313073563,
+      "failed_reference_abs_min": 0.014058091631035552,
+      "fp64_at_largest_ratio": -0.1636921300138603,
+      "largest_ratio_coordinate": [
+        0,
+        603,
+        107
+      ],
+      "max_absolute_token_value": 54.689998626708984
+    },
+    "native-fp32": {
+      "absolute_error_at_largest_ratio": 5.271372189952217e-05,
+      "actual_at_largest_ratio": -0.022005081176757812,
+      "allowed_at_largest_ratio": 2.2195236745485832e-05,
+      "elements": 2097152,
+      "failed_elements": 35,
+      "failed_reference_abs_max": 0.34973180072274346,
+      "failed_reference_abs_min": 0.0013212167170273403,
+      "fp64_at_largest_ratio": -0.02195236745485829,
+      "largest_ratio_coordinate": [
+        0,
+        744,
+        615
+      ],
+      "max_absolute_token_value": 54.689998626708984
+    }
+  },
+  "handoff_archive_sha256": "1f932ba40b336f9101890b9fa82edb7b4bc8568bf87901ba9e3e21db6896bd51",
+  "heldout_pixels_opened": false,
+  "independent_fp64_reference_check": {
+    "checkpoint_sha256_verified": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+    "forward_cpu_normalization_note": "Saved GPU normalized inputs are not exported. This check recomputes FP32 normalization locally; agreement validates these operands within reported errors.",
+    "method": "CPU FP64 conv3d/conv_transpose3d with actual checkpoint weights; independent of the saved unfolded-matrix oracle",
+    "projection_bias": {
+      "abs_max": 9.229353904724121,
+      "dtype": "torch.float32",
+      "sha256": "3a9efdb352cab83c950413fa2b9c1d036ddc1d4b0235d35db876af89d22cf048",
+      "shape": [
+        1024
+      ]
+    },
+    "projection_weight": {
+      "abs_max": 0.5104584097862244,
+      "dtype": "torch.float32",
+      "sha256": "431fb4e625225e940ec20990770313ad18880c09e66c36b282ec5d196e683c7b",
+      "shape": [
+        1024,
+        3,
+        2,
+        16,
+        16
+      ]
+    },
+    "saved_l1_reconstruction": {
+      "cudnn-fp32": {
+        "absolute_difference": 0.0,
+        "computed_from_residuals": 0.5805841684341431,
+        "saved": 0.5805841684341431
+      },
+      "native-fp32": {
+        "absolute_difference": 5.960464477539063e-08,
+        "computed_from_residuals": 0.5805842280387878,
+        "saved": 0.5805842876434326
+      }
+    },
+    "sources": {
+      "cudnn-fp32": {
+        "forward_max_absolute_reproduction_error": 1.5631940186722204e-13,
+        "selected_trained_patch_reference_reproduced": true,
+        "vjp_max_absolute_reproduction_error": 1.1796119636642288e-16
+      },
+      "native-fp32": {
+        "forward_max_absolute_reproduction_error": 1.5631940186722204e-13,
+        "selected_trained_patch_reference_reproduced": true,
+        "vjp_max_absolute_reproduction_error": 1.249000902703301e-16
+      }
+    },
+    "training_pixels_signature_verified": true
+  },
+  "interpretation": {
+    "bounds": "One clip, two mask families, fixed checkpoint/runtime. Does not establish optimizer recovery, RTX 5090 behavior, study admission, or held-out robustness.",
+    "l1_sign_changes_exclusive_cause_proven": false,
+    "l1_sign_changes_observed": 11,
+    "observed_dominant_discrepancy_source": "Forward token differences change incoming tail derivatives; fixed-cotangent patch backward differences are much smaller on this selected training clip/mask bank.",
+    "sole_failed_final_control_gate": "forward_oracles_agree"
+  },
+  "latest_prior_pytest": {
+    "cuda_only_skips": 2,
+    "passed": 345
+  },
+  "native_cuda_probe_recomputed": true,
+  "new_control_sources": 3,
+  "new_cuda_execution": false,
+  "next_control": {
+    "candidate": "FP64 accumulation of the same learned patch projection, explicitly cast to FP32 tokens; normalization, learned parameters/geometry, original target and tail remain as declared.",
+    "description": "Establish a shared patch forward that passes the unchanged FP64 output gate, then compare native/cuDNN backward paths under identical tail inputs.",
+    "limits": "A prospective precision-policy change requiring distinct provenance and a declared reference. Must not retroactively accept either rejected FP32 run or bypass the current forward gate.",
+    "status": "specified only; not implemented or executed"
+  },
+  "original_full_model_failure_preserved": true,
+  "original_gates_preserved": true,
+  "project_sources": 17,
+  "provenance": {
+    "control_source_sha256": {
+      "models/gradient_attribution.py": "f8bd9d39dd41c61ffadd8ac882d08a36bb2513a948047632a789c8d0900414d3",
+      "scripts/check_gradient_attribution.py": "f9b7c46761610260ab9e04c025e9aad1fdf20eea20344e4c58d1920b2d1587a9",
+      "scripts/university_gradient.sh": "98086708bf5e6587ea98f21c83e8848f02a5206a478dd48d54041c039992535e"
+    },
+    "source_sha256": {
+      "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+      "datasets/prepared.py": "531dcb4e4e69e3a59890e020940a6a8d0459d47100154730eabc6d267c5e2bb5",
+      "models/checkpointing.py": "e3c2d47b6770a62abea576eb65cecfe3564b8270c0823d064c47ecbaf9f9434f",
+      "models/cuda_convolution.py": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3",
+      "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+      "models/diagnostics.py": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0",
+      "models/execution.py": "1201f696ee6d7a48bb424bda489e75b93a74920c463d48e2a9c9a174bf8c979b",
+      "models/native_diagnostic.py": "695834ba32aa9a87ae4a89bce182f526bc6d02363235e544ad85fbc96a75c1a6",
+      "models/native_patch.py": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7",
+      "models/native_probe.py": "10dd9afd62615106aa298c1970278dcd9f203979c8006bc150ecbdc0228db762",
+      "models/patch_embed.py": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec",
+      "models/pilot.py": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82",
+      "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+      "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+      "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+      "scripts/check_native_model.py": "c5b91fe232405002637a54bbf05d81656951d93d6a550b930ae3de12026b51ff",
+      "scripts/university_native.sh": "3af32850d8ce32c8019d53507e47b89963d1de2faf13651de54932548aed531e"
+    },
+    "upstream_sha256": {
+      "src/datasets/data_manager.py": "6849784a95abaf4d18292460e695a559de514364078d6143c0fee9c4590a7172",
+      "src/datasets/imagenet1k.py": "d040f7a7740cfdb7625c2426688b3bf39260395b670d2ddfd29544b9c65cbd80",
+      "src/datasets/utils/dataloader.py": "c1740e7267378192525f212d56774e44cd58fe5df39dc1b86fadac046869358e",
+      "src/datasets/utils/utils.py": "8f41409489900d7dd9f2342f80d671a7f6f363295f02feaa21c66f06bfe2e0b2",
+      "src/datasets/utils/video/functional.py": "b7e7726cb784bc7e2a7614013258d9f90182259c9ba60945b5a3fead14781fad",
+      "src/datasets/utils/video/randaugment.py": "b0914ae5823aa6ced7b594a3156d2e2ee9a906ebf950b40d24c1a96f5da2acbd",
+      "src/datasets/utils/video/randerase.py": "81be3544ef18564e4c086daad9f596a1b6312bdd8eae15a0157e551eb08f3ab6",
+      "src/datasets/utils/video/transforms.py": "e175b52ce1a23a14b647208435e7524692dd87bbdb5334ee444fd6d1b9a50d64",
+      "src/datasets/utils/video/transforms_builder.py": "e73c2f33045ae502a85177819218cfbc1cabf037e15c6dfa5e70be5b9e12c4ba",
+      "src/datasets/utils/video/volume_transforms.py": "2ac8efe2e91ed1d46436e2b0de43e181d7662f0b0d8bf7eebb4d044bdfe5f8c8",
+      "src/datasets/utils/weighted_sampler.py": "8e528ed8f1fa431b37982f9d618c7f887592ad8129de98e745222c4c84713abd",
+      "src/datasets/utils/worker_init_fn.py": "73205faa33d0fa0b8b8e59ac7f1d79a234346ed13b3100ee0df0a550d4d780a2",
+      "src/datasets/video_dataset.py": "44cee1d4d7a643acb9f26402dcec961f3193240489bb1d2ee89e00515630af4b",
+      "src/hub/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/hub/backbones.py": "391cdde1e9a1da47cb8094bbea5fbbe8acac0135b27e82f1a6ab19c0b39cc692",
+      "src/masks/default.py": "5329acaf6eb8f72a0b2d285944824bc4d61c24598eb6c996cf3a5a62f3d243f9",
+      "src/masks/multiseq_multiblock3d.py": "7ef7cf95b0bee9940ac7654aeb3535278bbafdd6d93b643f4142fd19769456d9",
+      "src/masks/utils.py": "833f111a0fa5ffdbd3a6412e2dace2517c3c178f49c14f8bb631d9f6a070dfd0",
+      "src/models/ac_predictor.py": "5a520ad92b3f78b231aa153a5bbd9f800f880024974109a04d19aed6a0900643",
+      "src/models/attentive_pooler.py": "9be7047d6bfce50575956a57e36d87a37bf63ae84ec92a9ba8649bf1ab7d5feb",
+      "src/models/predictor.py": "3d8481bf2544b85ed92b3feb418e3b6d85ca1f81034c931b8c860f2d3d9aac2b",
+      "src/models/utils/modules.py": "b93f6c7e0747deb216419c000c2878f11a9189024a9adeacfd437e172396dff0",
+      "src/models/utils/patch_embed.py": "1823c40b34410e70eb313360e21678e18a0ee5465b5d47de9f3d967c074f5a9d",
+      "src/models/utils/pos_embs.py": "e6d3b3863ade47b3734a3b443f1bcc93eab02e39bf596ea199517f68ccab443e",
+      "src/models/vision_transformer.py": "9d4fd4e3603311803c105cc5114e2bc12ff28bc11870637dd3969511d9dead74",
+      "src/utils/checkpoint_loader.py": "8ae1c92e095dabed897694101e35393ed5b20da2b51c5bebae3dceda427472ce",
+      "src/utils/distributed.py": "52342428ee4eafaf685471afd91912462057bed59267faec42cf7640d8c08861",
+      "src/utils/logging.py": "0bf5298ecce7e59d90fcb3e4cc68eba988e3e8af4d4a08c91e94bdcd29f76b2e",
+      "src/utils/monitoring.py": "8fc1feb76396af17ed3753d3f9c4ad0b75d3908122a49b209537d6e3653427c5",
+      "src/utils/schedulers.py": "e35b2162c9df04f25ef4dbc51a1e9df41e362dee6d9d2b494321d81e44fe4659",
+      "src/utils/tensors.py": "782b58bd2af456e184750e5318ab773105108383f61b280fe4c7a90f46add2c8",
+      "src/utils/wrappers.py": "cdba99fcad17b1810bf26bb047046182fe0aad620a5786fbf405d8a71bb1f47a"
+    }
+  },
+  "pytest_suite_rerun": false,
+  "raw_files_sha256": {
+    "exit_status.txt": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+    "launcher.log": "efb8c3a6c83064e1f569f3d2e928c74c5e7af910ee442ffdf8c86a694624fac4",
+    "launcher.pid": "948d71b4fbd1ef2eac89980ae44628d31d6c4fa8e1c7d479fe011a126ea57d66",
+    "results/control.json": "d5c6ad7a25a8ea67afede2daa28efe5abfa748d015ce20f6e6a516f8651e43a4",
+    "results/control.log": "b9a82ffa196e536dc5411fff2fbec5ac854eca490d7bace2a3147ddae7cfe2b3",
+    "results/oracle-cudnn-fp32.pt": "341f177d23cb2268a30a8fa5310a19f7b75b132217b1fb3395b2076f5771157f",
+    "results/oracle-native-fp32.pt": "cb122c20d914681ad8fdbac28f0ab12d283b41ef125685299b1c4a16c365001b",
+    "results/session.json": "772e97c9e88be135bfe8812cef9fe7b1e58d9cc8af8e91e504ca5e6e5370ab89",
+    "results/tail-cudnn-fp32.pt": "ea00086299f7c8f1ef05828a5c8a131eff1a46640c72a78578c23f8a8fbd80c8",
+    "results/tail-native-fp32.pt": "133c12dab0b706a6166f9d19dac1a0507b451a1b7976d2adbe2ba6c073529fca",
+    "results/tail-original-repeat.pt": "62a12394582c28529c3f1a0e58cbcae898d9e22794dec207bbab983c97345d99",
+    "results/vjp-cudnn-fp32-via-cudnn-fp32.pt": "d43ff0a869525d592b0c8ea17743ea82f9cdba59761d0ba579389a64091612ac",
+    "results/vjp-cudnn-fp32-via-native-fp32.pt": "334fc43d4edac358b246da29b8ed979c6b88391fe04bd15422297fa53728b48e",
+    "results/vjp-native-fp32-via-cudnn-fp32.pt": "a3c4b64a265e36aae045b1fbf1c002ee94800333ca7123ffefcdc4fac7566363",
+    "results/vjp-native-fp32-via-native-fp32.pt": "7dccd5a5856ac32303d4dadd1758363257af9e2036323d09e89b435aac45f0aa"
+  },
+  "raw_path": "runs/pretrained/diagnostic/gradient-attribution-results-20261021/derivative.aIsykm",
+  "recomputed_measurements": {
+    "comparisons": {
+      "cudnn-fp32": {
+        "fixed_cotangent_vjps": {
+          "cudnn-fp32": {
+            "active_sign_disagreements": 0,
+            "atol": 2e-07,
+            "exact": false,
+            "failed_elements": 0,
+            "max_absolute_error": 7.781287392205627e-08,
+            "max_tolerance_ratio": 0.0623543141099273,
+            "passed": true,
+            "relative_l2_error": 4.7492089070233406e-07,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ],
+            "zero_support_disagreements": 0
+          },
+          "native-fp32": {
+            "active_sign_disagreements": 0,
+            "atol": 2e-07,
+            "exact": false,
+            "failed_elements": 0,
+            "max_absolute_error": 3.404387750871596e-08,
+            "max_tolerance_ratio": 0.05638481612276359,
+            "passed": true,
+            "relative_l2_error": 2.594335432729426e-07,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ],
+            "zero_support_disagreements": 0
+          }
+        },
+        "same_cotangent_cross_backend": {
+          "active_sign_disagreements": 0,
+          "atol": 2e-07,
+          "exact": false,
+          "failed_elements": 0,
+          "max_absolute_error": 8.940696716308594e-08,
+          "max_tolerance_ratio": 0.08990503858366165,
+          "passed": true,
+          "relative_l2_error": 4.952325107826817e-07,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            3,
+            16,
+            256,
+            256
+          ],
+          "zero_support_disagreements": 0
+        },
+        "tokens_vs_fp64": {
+          "atol": 2e-05,
+          "failed_elements": 12,
+          "max_absolute_error": 9.676169186612071e-05,
+          "max_tolerance_ratio": 2.248903464677371,
+          "passed": false,
+          "relative_l2_error": 1.1935025468264708e-06,
+          "rtol": 0.0001,
+          "shape": [
+            1,
+            2048,
+            1024
+          ]
+        }
+      },
+      "native-fp32": {
+        "fixed_cotangent_vjps": {
+          "cudnn-fp32": {
+            "active_sign_disagreements": 0,
+            "atol": 2e-07,
+            "exact": false,
+            "failed_elements": 0,
+            "max_absolute_error": 7.179372625565339e-08,
+            "max_tolerance_ratio": 0.08828436091933523,
+            "passed": true,
+            "relative_l2_error": 4.730715158838017e-07,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ],
+            "zero_support_disagreements": 0
+          },
+          "native-fp32": {
+            "active_sign_disagreements": 0,
+            "atol": 2e-07,
+            "exact": false,
+            "failed_elements": 0,
+            "max_absolute_error": 4.4669187418411305e-08,
+            "max_tolerance_ratio": 0.03200597790234687,
+            "passed": true,
+            "relative_l2_error": 2.608848335199239e-07,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              3,
+              16,
+              256,
+              256
+            ],
+            "zero_support_disagreements": 0
+          }
+        },
+        "same_cotangent_cross_backend": {
+          "active_sign_disagreements": 0,
+          "atol": 2e-07,
+          "exact": false,
+          "failed_elements": 0,
+          "max_absolute_error": 7.450580596923828e-08,
+          "max_tolerance_ratio": 0.10142849947583145,
+          "passed": true,
+          "relative_l2_error": 4.94783190804209e-07,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            3,
+            16,
+            256,
+            256
+          ],
+          "zero_support_disagreements": 0
+        },
+        "tokens_vs_fp64": {
+          "atol": 2e-05,
+          "failed_elements": 35,
+          "max_absolute_error": 8.488786309257534e-05,
+          "max_tolerance_ratio": 2.3750015601993217,
+          "passed": false,
+          "relative_l2_error": 1.1982898547154776e-06,
+          "rtol": 0.0001,
+          "shape": [
+            1,
+            2048,
+            1024
+          ]
+        }
+      }
+    },
+    "control_checks_passed": false,
+    "decomposition_l2": {
+      "backward_effect_at_native_cotangent": 1.4683160224821177e-06,
+      "incoming_cotangent_effect_at_cudnn_backward": 0.010637608983500711,
+      "note": "Effects are vectors and their norms need not add. Descriptive attribution, not backend admission.",
+      "total": 0.010637601498261822
+    },
+    "faithful_reconstruction": true,
+    "fixed_cotangent_oracles_agree": true,
+    "forward_oracles_agree": false,
+    "forward_tokens": {
+      "active_sign_disagreements": 1,
+      "atol": 2e-07,
+      "exact": false,
+      "failed_elements": 706,
+      "max_absolute_error": 8.869171142578125e-05,
+      "max_tolerance_ratio": 33.182965435907256,
+      "passed": false,
+      "relative_l2_error": 1.3132033558228376e-06,
+      "rtol": 0.002,
+      "shape": [
+        1,
+        2048,
+        1024
+      ],
+      "zero_support_disagreements": 0
+    },
+    "identical_token_tail_exact": true,
+    "incoming_derivatives": [
+      {
+        "active_sign_disagreements": 217,
+        "atol": 2e-07,
+        "exact": false,
+        "failed_elements": 7864,
+        "max_absolute_error": 1.1782278306782246e-05,
+        "max_tolerance_ratio": 14.776466149089327,
+        "passed": false,
+        "relative_l2_error": 0.00197211405432339,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          2048,
+          1024
+        ],
+        "zero_support_disagreements": 0
+      },
+      {
+        "active_sign_disagreements": 246,
+        "atol": 2e-07,
+        "exact": false,
+        "failed_elements": 12313,
+        "max_absolute_error": 2.8082256903871894e-05,
+        "max_tolerance_ratio": 87.57181625963467,
+        "passed": false,
+        "relative_l2_error": 0.0047970427038569,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          2048,
+          1024
+        ],
+        "zero_support_disagreements": 0
+      }
+    ],
+    "order": {
+      "backwards_per_source": [
+        "cudnn-fp32",
+        "native-fp32"
+      ],
+      "token_sources": [
+        "cudnn-fp32",
+        "native-fp32"
+      ]
+    },
+    "preservation_checks": true,
+    "reconstruction": {
+      "cudnn-fp32": {
+        "input_gradient": {
+          "active_sign_disagreements": 0,
+          "atol": 2e-07,
+          "exact": true,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "relative_l2_error": 0.0,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            3,
+            16,
+            256,
+            256
+          ],
+          "zero_support_disagreements": 0
+        },
+        "loss": {
+          "atol": 2e-06,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "relative_l2_error": 0.0,
+          "rtol": 1e-05,
+          "shape": []
+        }
+      },
+      "native-fp32": {
+        "input_gradient": {
+          "active_sign_disagreements": 0,
+          "atol": 2e-07,
+          "exact": true,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "relative_l2_error": 0.0,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            3,
+            16,
+            256,
+            256
+          ],
+          "zero_support_disagreements": 0
+        },
+        "loss": {
+          "atol": 2e-06,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "relative_l2_error": 0.0,
+          "rtol": 1e-05,
+          "shape": []
+        }
+      }
+    },
+    "residual_changes": [
+      {
+        "elements": 1572864,
+        "largest_magnitude_at_changed_sign": 4.309415817260742e-05,
+        "left_zeros": 0,
+        "max_residual_difference": 0.0004990696907043457,
+        "nonzero_sign_crossings": 4,
+        "right_zeros": 0,
+        "sign_or_zero_changes": 4
+      },
+      {
+        "elements": 1474560,
+        "largest_magnitude_at_changed_sign": 2.86102294921875e-05,
+        "left_zeros": 0,
+        "max_residual_difference": 0.00033402442932128906,
+        "nonzero_sign_crossings": 7,
+        "right_zeros": 0,
+        "sign_or_zero_changes": 7
+      }
+    ],
+    "tail_intervention": "distinct preserve-format patch leaf per family; unchanged transformer/predictor/L1",
+    "training_or_backend_adoption": false
+  },
+  "reported_pilot_reserve_remaining_usd": 8.805,
+  "reported_spending_usd": 1.195,
+  "research_result": false,
+  "run_id": "derivative.aIsykm",
+  "runtime_data_weights_targets_masks_match_prior": true,
+  "schema_version": 1,
+  "scientific_implementation_changed": false,
+  "session_sha256": "772e97c9e88be135bfe8812cef9fe7b1e58d9cc8af8e91e504ca5e6e5370ab89",
+  "source_identity_verified": true,
+  "upstream_sources": 32,
+  "verification_scripts": {
+    "runs/pretrained/diagnostic/gradient-attribution-analysis-20261021/analyze.py": "00c24b866d1a547f27b2ebbab4c1fd5297cb81eae53b9d6ff3040a99d20cd8f8",
+    "runs/pretrained/diagnostic/gradient-attribution-analysis-20261021/check_fp64.py": "70bd4f79bd3ef80d23b6fff537805d865bb5c640e55ce2c552fc0b6fa6fc0ca2"
+  },
+  "wall_seconds": 66.91481353389099
+}

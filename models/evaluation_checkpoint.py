@@ -8,6 +8,7 @@ import torch
 
 from models.checkpointing import CheckpointStore, file_sha256
 from models.diagnostics import state_digest
+from models.training import runtime_contract
 
 
 def load_anchor(model, directory, epoch, *, initial_checkpoint_sha256):
@@ -30,6 +31,9 @@ def load_anchor(model, directory, epoch, *, initial_checkpoint_sha256):
             or payload['target_sha256'] != contract['target_sha256']
             or payload['target_sha256'] != state_digest(model.target_encoder)):
         raise ValueError('Anchor contract, original weights, or fixed target differs.')
+    device = next(model.encoder.parameters()).device.type
+    if contract['runtime'] != runtime_contract(device, model=model):
+        raise ValueError('Anchor execution runtime/backend differs; no weights loaded.')
     updates = math.ceil(len(contract['ids']) / contract['settings']['effective_batch'])
     if payload['step'] != epoch * updates or epoch > contract['settings']['epochs']:
         raise ValueError('Anchor epoch disagrees with completed updates.')

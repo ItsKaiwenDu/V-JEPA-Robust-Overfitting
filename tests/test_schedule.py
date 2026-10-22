@@ -27,7 +27,7 @@ def create(original, root, *, resume=False, condition='clean-finetune', evaluato
            artifacts=None, monitor_count=1, calibration_override=None, schedule=None):
     calibration_rows = ROWS[:monitor_count]
     calibration = calibration_record(candidates(model_identity(original), calibration_rows,
-                                     provenance=PROVENANCE), calibration_rows, diagnostic=True)
+                                     provenance=PROVENANCE, runtime=runtime_contract('cpu', model=original)), calibration_rows, diagnostic=True)
     if calibration_override:
         calibration_override(calibration)
     provenance = dict(checkpoint_sha256='original', training_rows=ROWS,

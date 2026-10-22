@@ -77,3 +77,24 @@ be mixed with TF32-on evidence. See the
 [comparison guide](../docs/cuda_convolution_comparison.md). Its TF32-off CUDA
 control passes numerical gates and observed replay; native execution qualifies
 as an isolated component candidate, with full-model acceptance still pending.
+
+[native_patch.py](native_patch.py) adds an explicitly first-order native Conv3d
+diagnostic; [execution.py](execution.py) binds actual backend, precision and
+cache/recovery identities. [native_diagnostic.py](native_diagnostic.py) compares
+full-model input gradients and attacks on one training clip without an optimizer
+step. See [the opt-in guide](../docs/native_execution.md); defaults and study
+admission are unchanged.
+
+[gradient_attribution.py](gradient_attribution.py) isolates patch backward from
+incoming tail derivatives using shared cotangents, an independent FP64 raw-pixel
+oracle, retained residuals and reconstruction of the saved rejected CUDA run.
+It is a diagnostic intervention, never a training/backend acceptance path. See
+[the control guide](../docs/native_gradient_control.md); the verified CUDA control rejects forward accuracy while fixed-cotangent backwards and exact reconstruction pass.
+
+[precision_patch.py](precision_patch.py) and [precision_diagnostic.py](precision_diagnostic.py)
+implement the separate FP64-context-patch-forward/FP32-token diagnostic. Only
+backward dispatch differs between arms; a distinct guarded scope is rejected
+by existing research/cache APIs. The bounded CUDA input-only control is now verified: oracle/replay gates pass
+with identical shared tokens and attacks on one clip. Full integration/update/
+optimizer recovery remain pending. See
+[the declared precision/reference](../docs/shared_forward_control.md).

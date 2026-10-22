@@ -79,7 +79,7 @@ def run_phase(root, args):
             result.update(feature_sha256=feature_digest(bundle), held_out_accuracy_measured=False)
         elif args.phase == 'controls':
             calibration = load_calibration(output / 'calibration', context.monitor.rows,
-                                          original_identity=model_identity(context.model), diagnostic=True)
+                                          original_identity=model_identity(context.model), diagnostic=True, model=context.model)
             for method in ('convergence', 'fgsm', 'random'):
                 with timings.span('control_evaluation', method=method):
                     destination = output / 'controls' / method
@@ -92,7 +92,7 @@ def run_phase(root, args):
             if condition not in CONDITIONS or segment not in ('split-first', 'split-resume', 'reference'):
                 raise ValueError('Unknown pilot phase.')
             calibration = load_calibration(output / 'calibration', context.monitor.rows,
-                                          original_identity=model_identity(context.model), diagnostic=True)
+                                          original_identity=model_identity(context.model), diagnostic=True, model=context.model)
             provenance = {**context.provenance, 'training_rows': context.training.rows,
                           'calibration_sha256': json_hash(calibration),
                           'evaluation_provenance_sha256': json_hash(context.provenance)}

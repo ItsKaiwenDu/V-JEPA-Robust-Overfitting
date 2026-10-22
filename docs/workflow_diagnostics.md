@@ -167,3 +167,36 @@ Near-duplicate content review, novelty refresh, full-model validation,
 protocol/configuration freezing, and a current quote with a measured remaining
 budget precede the exploratory research pair. Confirmation and final-test
 analysis remain closed. No new cloud instance or paid compute was used here.
+
+## Explicit backend diagnostics
+
+The [native execution guide](native_execution.md) adds named `original`,
+`cudnn-fp32` and `native-fp32` diagnostic policies. Default study construction
+is unchanged. Runtime contracts now bind actual context/target patch classes,
+geometry, activation checkpointing and precision. Calibration loading and
+anchor loading require a matching actual runtime; old records lacking this
+identity cannot be reused. Caches are freshly computed and guarded. Native
+execution supports first-order gradients only and still needs full pretrained
+CUDA input-gradient/attack and optimizer-recovery acceptance.
+
+The corrected pretrained comparison verifies native dispatch and exact
+within-backend replay but rejects cross-backend input gradients. The
+[controlled derivative handoff](native_gradient_control.md) now isolates fixed
+incoming patch derivatives against CPU FP64 oracles and reconstructs the saved
+rejected gradients. The verified CUDA control now rejects both FP32 forward-oracle gates while
+all fixed-cotangent backwards and bitwise saved-gradient reconstructions pass.
+Forward-token differences dominate the incoming-derivative change on this
+example. A shared more accurate forward precision control and full-model
+optimizer recovery remain pending; see the
+[verified outcome](../report/checks/2026-10-21-university-gradient-attribution.md).
+
+The separate [shared-forward precision control](shared_forward_control.md) is
+now implemented: temporary FP64 context-patch accumulation, FP32 tokens and
+parameters, and the original FP32 normalization/target/tail. Both arms share
+forward arithmetic and differ only in backward dispatch. It is rejected by
+existing research/cache APIs and uses a separate reference/guard. The university export is now independently verified: numerical/reconstruction
+gates, shared-token equality and exact within-backend replay pass on one clip.
+Native PGD-5+score is 6.44x faster in two single attempts; full update/recovery
+and study throughput are unvalidated. Next is
+[explicit integration and optimizer recovery](shared_forward_integration_plan.md).
+No original failed gate is relabeled.

@@ -12,6 +12,7 @@ from models.checkpointing import file_sha256
 from models.evaluation import EvaluationMaskSampler
 from models.evaluation_store import json_hash
 from models.runtime import require_device
+from models.execution import apply_model_policy, ExecutionGuard, model_execution_contract
 from models.training import TrainingSettings
 from models.vjepa2 import UPSTREAM_COMMIT, PRETRAIN_CONFIG, build_vitl, load_checkpoint
 
@@ -22,7 +23,7 @@ SOURCES = (
     'models/evaluation_store.py', 'models/evaluation_checkpoint.py', 'models/vjepa2.py',
     'models/pilot.py', 'models/runtime.py', 'models/diagnostics.py', 'attacks/pgd.py',
     'datasets/staged_files.py', 'datasets/staged_subset.py', 'datasets/staged_preparation.py',
-    'datasets/video.py',
+    'datasets/video.py', 'models/execution.py', 'models/native_patch.py', 'models/patch_embed.py',
 )
 
 
@@ -76,12 +77,14 @@ def prepare_context(root, args):
     training, monitor = diagnostic_panels(root, args.manifests, args.clips, monitor_limit=args.limit)
     model = build_vitl(args.upstream, activation_checkpointing=True)
     original = load_checkpoint(model, args.checkpoint, study['model']['checkpoint_sha256'])
+    apply_model_policy(model, getattr(args, 'execution_policy', 'original'))
     model.to(args.device)
     checkpoint = {'epoch': 0, 'condition': 'pretrained', 'seed': None,
                   'training_contract_sha256': None, 'file_sha256': original['sha256']}
     provenance = {'diagnostic_only': True, 'research_admitted': False,
                   'checkpoint_sha256': original['sha256'], 'upstream_commit': UPSTREAM_COMMIT,
                   'plan_sha256': file_sha256(plan_path), 'study_sha256': file_sha256(study_path),
+                  'model_execution': model_execution_contract(model),
                   'training_panel': training.identity, 'monitor_panel': monitor.identity,
                   'upstream_mask_config_sha256': file_sha256(args.upstream / PRETRAIN_CONFIG),
                   'source_sha256': {name: file_sha256(root / name) for name in SOURCES}}
@@ -92,5 +95,12 @@ def prepare_context(root, args):
 
 
 def cached_training_loader(model, panel, device):
+    guard = ExecutionGuard(model, device, target_versions=True)
     targets = [model.clean_targets(panel.pixels(i).to(device)).cpu() for i in range(len(panel.rows))]
-    return lambda i: (panel.pixels(i), targets[i])
+    guard.check()
+
+    def load(index):
+        guard.check()
+        return panel.pixels(index), targets[index]
+
+    return load

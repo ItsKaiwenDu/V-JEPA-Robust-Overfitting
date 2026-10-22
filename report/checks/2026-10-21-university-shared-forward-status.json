@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-21",
+  "evidence_status": "Complete raw export copied, hashes verified and scientific numerical/replay gates recomputed.",
+  "full_model_optimizer_or_recovery_validated": false,
+  "host": "linux10609",
+  "next_action": "Copy entire run; verify source/session/worker/tensor/probe hashes and recompute accuracy/replay/comparison gates before interpreting timings.",
+  "receiving_directory": "runs/pretrained/diagnostic/shared-forward-results-20261021",
+  "reported_exit_status": 0,
+  "reported_finished_utc": "2026-10-22 05:45:41 UTC",
+  "reported_passed": true,
+  "reported_spending_usd": 1.195,
+  "reported_workers": [
+    "native-0",
+    "native-1",
+    "cudnn-0",
+    "cudnn-1"
+  ],
+  "research_result": false,
+  "run_id": "precision.RvqoMB",
+  "study_adopted": false,
+  "timings_verified": true,
+  "verified": true,
+  "verified_outcome": "report/checks/2026-10-21-university-shared-forward.json"
+}

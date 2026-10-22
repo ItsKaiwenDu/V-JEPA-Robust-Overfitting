@@ -1,0 +1,61 @@
+{
+  "attempt1": {
+    "archived_source_files_verified": 16,
+    "cudnn_input_gradient_and_attack_exact_replay": true,
+    "cudnn_peak_allocated_bytes": [
+      3045736448,
+      3045736448
+    ],
+    "cudnn_seconds": [
+      {
+        "clean_loss_and_input_backward": 7.953873095102608,
+        "fgsm": 8.451230488019064,
+        "pgd5": 40.23502358188853
+      },
+      {
+        "clean_loss_and_input_backward": 8.009682906791568,
+        "fgsm": 8.496735859895125,
+        "pgd5": 40.33335495390929
+      }
+    ],
+    "native_worker_error": "Native backward CUDA kernel boundary was not observed.",
+    "native_worker_failure_stage": "native_backward_kernel_probe",
+    "raw_files_sha256": {
+      "exit_status.txt": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+      "launcher.log": "003f45f8c68afeb8dc48e0ce3071fb8310977a275ef70385fdef675291676b34",
+      "launcher.pid": "2f966cd46da2e4ea07d599b9072a49bf43a2affd82a405bb96f484c7ebf9a66e",
+      "results/cudnn-fp32-0.json": "e801826d2ad0406e6873641f3f435ce5d5d2ed41a67736a413ef43dd6026d56c",
+      "results/cudnn-fp32-0.log": "36c2438f9d320b32a0e438a1f288408444fc325b23ebc04d01b72ed07ff2e426",
+      "results/cudnn-fp32-0.pt": "f7e12b2a79a566da4617acaeffc56263cc5c461b92711c16c28aeee07a1c8888",
+      "results/cudnn-fp32-1.json": "b4734d11a13c6df7408794256586411add0621112bf0bdf7d5d0a3a1bb3f30c5",
+      "results/cudnn-fp32-1.log": "36c2438f9d320b32a0e438a1f288408444fc325b23ebc04d01b72ed07ff2e426",
+      "results/cudnn-fp32-1.pt": "f7e12b2a79a566da4617acaeffc56263cc5c461b92711c16c28aeee07a1c8888",
+      "results/native-fp32-0.json": "0a56cd5c3533ca867c4a46795df89ecb065aa0241616b0246f1fe1e2b6ce9d39",
+      "results/native-fp32-0.log": "0c72f0bb26150b0691d94a71966c0349ce884185378280004c5ff5dbe2ad6876",
+      "results/session.json": "a8b93733485413ef4373680a1172a5861e45636e1a7ea56711a56bb58b0a16fb"
+    },
+    "raw_path": "runs/pretrained/diagnostic/native-model-failure-20261021/native.kq8WhI",
+    "session_sha256": "a8b93733485413ef4373680a1172a5861e45636e1a7ea56711a56bb58b0a16fb",
+    "upstream_files_verified": 32,
+    "whole_attempt_passed": false,
+    "worker_and_tensor_hashes_verified": true
+  },
+  "attempt2": {
+    "accepted": false,
+    "control_flow_inference": "Runner reached the comparison after all four workers, within-backend exact replay, and schema-2 native probe validation; raw evidence still needs verification.",
+    "raw_received": false,
+    "saved_comparison_recomputed": false,
+    "user_reported_error": "Full-model FP32 numerical agreement gate rejected; no tolerance was relaxed.",
+    "user_reported_path": "/home/kdu/Desktop/VJEPA-Robust-Overfitting/cuda-native-model-fix-20261021/runs/native.5S6yHj"
+  },
+  "budget_approved": false,
+  "date": "2026-10-21",
+  "diagnostic_only": true,
+  "full_model_optimizer_recovery_validated": false,
+  "kind": "university_native_model_attempt_status",
+  "new_compute_launched": false,
+  "reported_spending_usd": 1.195,
+  "research_result": false,
+  "schema_version": 1,
+  "tolerances_or_model_changed": false
+}
