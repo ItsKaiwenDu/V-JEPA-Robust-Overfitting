@@ -120,3 +120,9 @@ references and a detached bounded launcher. See
 `shared-fp64-cudnn` and `shared-fp64-native` policies. Defaults remain `original`.
 See [the training integration](../docs/shared_forward_training.md); accepting
 an option does not establish a new offline GPU handoff or deployment approval.
+
+`start_shared_workflow.sh` verifies the restored source and launches bounded
+setup/preflight/recovery/export on an already selected Pod with a reviewed
+deployment-based deadline. It never stops GPU billing. `export_workflow_pilot.py`
+can opt into six bounded preflight tensor artifacts while excluding optimizer
+states. See [the prepared pilot](../docs/shared_forward_cuda_pilot.md).

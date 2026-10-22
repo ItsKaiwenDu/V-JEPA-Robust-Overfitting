@@ -22,8 +22,10 @@ university derivative control isolates failed forward-oracle gates; fixed-
 cotangent backwards pass and saved gradients reconstruct bitwise. The shared-forward precision control now passes verified university forward/
 gradient/replay gates with faster native input-only backward. Explicit integration now passes local clean/adversarial AdamW exact recovery,
 including fresh processes and scheduled evaluation. No study backend is adopted.
-Next is a fresh bounded sufficient-VRAM CUDA handoff, full pretrained recovery
-and representative checks, then measured costs before an exploratory pair. No research trajectory is complete; confirmation is conditional.
+The fresh bounded CUDA handoff is now built/restored and locally checked.
+The user reported a $1.21/hour quote and retained 30 GB container/80 GB
+persistent storage. Next is an explicit manual session when available, full pretrained recovery and
+representative CUDA checks, then measured costs before an exploratory pair. No research trajectory is complete; confirmation is conditional.
 
 ## Repository setup
 
@@ -54,6 +56,7 @@ and representative checks, then measured costs before an exploratory pair. No re
 - [x] Implement a separately identified shared FP64 patch forward and verify trained-projection/CPU replay gates.
 - [x] Verify shared-forward pretrained CUDA accuracy/input gradients/attacks/replay on the bounded one-clip control.
 - [x] Integrate the explicit precision identity into research/cache/checkpoint contracts and verify CPU optimizer recovery.
+- [x] Prepare/restore the fresh bounded shared-forward CUDA handoff and representative checks.
 - [ ] Accept full pretrained CUDA input gradients/attacks and optimizer recovery for the candidate.
 - [ ] Validate full-model GPU resume and integrated evaluation before research execution.
 - [x] Pin upstream source and implement the adapter and local CPU correctness tests.

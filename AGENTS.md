@@ -97,8 +97,21 @@ updates/exact recovery at three cuts, twelve fresh CPU processes, scheduled
 evaluation recovery, failure boundaries, and rejection before weight/optimizer
 restoration. Target/parameter/state-key invariants remain. Read
 docs/shared_forward_training.md and report/checks/2026-10-22-shared-forward-integration.md.
-Next: prepare a fresh bounded offline sufficient-VRAM pretrained CUDA
-update/resume and representative-input handoff before any new quote/deployment.
+The fresh shared-workflow-handoff-20261022 package is now built/restored and
+verified. Read docs/shared_forward_cuda_pilot.md and
+report/checks/2026-10-22-shared-workflow-handoff.md before any launch. A new
+preflight checks training indices 0/4/7 under both backwards against unchanged
+oracles/full-input gates, required nonzero gradients/ascent, frozen targets,
+and actual new native CUDA evidence before calibration. Existing exact recovery,
+evaluation, features and convergence phases follow. The detached launcher
+requires a deployment-based reviewed absolute deadline and preserves failure
+exports; Python exit does not stop billing. No GPU job launched. The user
+reported a $1.21/hour console quote on October 22 and confirmed keeping
+30 GB container plus 80 GB persistent storage at /workspace. Availability
+is not explicitly confirmed. Next user action is a manual deployment when
+available and ready, then current SSH endpoint/deployment time; bind the
+absolute deadline to deployment. Limit two billed hours/$3 inclusive
+($2.42 at the quote, $0.58 margin for unquoted charges). No automatic rental.
 Full pretrained CUDA optimizer recovery is still unvalidated; original 8 GB
 AdamW OOM remains. No study/YAML/tolerance adoption, paid launch or held-out pixels.
 Preserve both historical FP32 failures; reported spend $1.195 / reserve $8.805.
@@ -111,7 +124,7 @@ hook/RNG restoration, and failed source/runtime/data identities. Read
 report/checks/2026-10-21-gradient-attribution.md before the manual university launch.
 Worker limit 300 seconds, outer limit 330 seconds + five-second kill grace,
 7 GiB allocator cap. No optimizer or paid launch.
-Latest local suite: 420 passed, two actual-CUDA skips. Research calibration,
+Latest local suite: 434 passed, two actual-CUDA skips. Research calibration,
 measured budget admission, and research results remain pending. Confirmation/test pixels remain closed.
 No cloud rental is automatic.
 

@@ -103,3 +103,7 @@ The named `shared-fp64-cudnn/native` options in [execution.py](execution.py)
 carry a complete schema-2 precision identity into training and artifact
 consumers. See [shared-forward training](../docs/shared_forward_training.md)
 for exact CPU recovery evidence, supported precision and remaining CUDA gates.
+
+[workflow_preflight.py](workflow_preflight.py) gates shared-forward CUDA workflow
+calibration with three fixed training inputs, both backwards, independent
+oracles and retained scientific tensors. See [the fresh handoff](../docs/shared_forward_cuda_pilot.md).

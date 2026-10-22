@@ -125,3 +125,10 @@ module/normalization/geometry/dtype/checkpointing drift and incompatible
 calibration/evaluation/features. The fresh process worker lives in
 `tests/fixtures/shared_recovery_worker.py`. Current suite: 420 passed,
 two actual-CUDA skips. Full pretrained CUDA recovery is still pending.
+
+`test_workflow_preflight.py` adds 14 cases for three actual upstream input
+checks, rejected oracles/gradients/no-ascent/probe/data, state/RNG/mode restoration,
+complete shared-forward phases and exact recovery, bounded tensor exports and
+invalid deadline refusal. Current local suite: 434 passed, two actual-CUDA
+skips. The extracted handoff separately passes six selected cases. No new CUDA
+result is claimed. [Evidence](../report/checks/2026-10-22-shared-workflow-handoff.md).

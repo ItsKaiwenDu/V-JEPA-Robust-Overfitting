@@ -94,8 +94,8 @@ two CUDA-only pytest skips on this Mac are not CUDA passes.
 
 ## Next gate
 
-Prepare a fresh offline, bounded full pretrained CUDA update/resume pilot for
-sufficient VRAM, validating actual new dispatch, representative already-open
+The fresh [bounded CUDA handoff](shared_forward_cuda_pilot.md) is now prepared
+and locally verified. Its next execution must validate actual new dispatch, representative already-open
 training inputs, clean/adversarial updates, exact recovery and integrated
 evaluations. The earlier university 8 GB AdamW OOM is unresolved; the successful
 2.84 GiB input-only workload does not establish full training fits.
@@ -103,9 +103,10 @@ evaluations. The earlier university 8 GB AdamW OOM is unresolved; the successful
 Before deployment, prepare the concrete source/data/dependency artifact, check
 the current quote and remaining time/cost allowance, then request the required
 instance action. Measure checkpoint/cache/feature I/O as well as update and
-attack time; no input-only speed ratio is a full-study estimate. The existing
-workflow runner accepts the candidate but is not, by that fact alone, a newly
-prepared or approved cloud handoff.
+attack time; no input-only speed ratio is a full-study estimate. The prepared
+source package is frozen and locally restored. The user reported $1.21/hour
+for 30 GB container/80 GB persistent storage and confirmed retaining both.
+Availability, manual deployment and the actual new CUDA run remain pending.
 
 Full research calibration, representative convergence checks, novelty refresh,
 protocol/precision freezing and measured budget admission remain pending.

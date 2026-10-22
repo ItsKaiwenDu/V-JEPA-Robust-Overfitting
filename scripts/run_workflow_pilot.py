@@ -20,6 +20,10 @@ PHASES = ('calibrate', 'features-initial',
           'features-trained', 'controls')
 
 
+def phase_sequence(policy):
+    return ('preflight', *PHASES) if policy.startswith('shared-fp64-') else PHASES
+
+
 def run_child(command, log, seconds):
     """A wall deadline kills the whole worker process group, including on Ctrl-C."""
     if seconds <= 0:
@@ -62,7 +66,7 @@ def main():
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--max-seconds', type=int, default=5400,
                         help='Worker wall deadline, at most 90 minutes; does not stop cloud billing.')
-    parser.add_argument('--phase', choices=PHASES, help=argparse.SUPPRESS)
+    parser.add_argument('--phase', choices=('preflight', *PHASES), help=argparse.SUPPRESS)
     parser.add_argument('--execution-policy', choices=('original', 'cudnn-fp32', 'native-fp32',
                                                      'shared-fp64-cudnn', 'shared-fp64-native'),
                         default='original', help='Explicit diagnostic backend/precision; does not adopt a study policy.')
@@ -107,19 +111,21 @@ def main():
                'budget_approved': False, 'cloud_billing_stopped_by_runner': False,
                'max_worker_wall_seconds': args.max_seconds, 'device': metadata,
                'execution_policy': args.execution_policy, 'runtime': runtime_contract('cuda'), 'phases': [], 'complete': False,
+               'required_phases': list(phase_sequence(args.execution_policy)),
                'started_unix_seconds': time.time()}
     session_path = args.output / 'session.json'
     write_record(session_path, session)
     try:
-        for phase in PHASES:
+        for phase in phase_sequence(args.execution_policy):
             print(f'Pilot phase: {phase}', flush=True)
             command = [sys.executable, '-u', str(Path(__file__).resolve()), '--diagnostic', '--phase', phase,
                        '--output', str(args.output), '--checkpoint', str(args.checkpoint.resolve()),
                        '--manifests', str(args.manifests.resolve()), '--clips', str(args.clips.resolve()),
                        '--upstream', str(args.upstream.resolve()), '--execution-policy', args.execution_policy]
             before = time.monotonic()
+            remaining = args.max_seconds - (before - started)
             run_child(command, args.output / 'logs' / (phase.replace('/', '-') + '.log'),
-                      args.max_seconds - (before - started))
+                      min(1200, remaining) if phase == 'preflight' else remaining)
             result_path = args.output / 'phase-results' / (phase + '.json')
             session['phases'].append({'phase': phase, 'process_wall_seconds': time.monotonic() - before,
                                       'result_sha256': file_sha256(result_path)})

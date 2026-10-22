@@ -1,0 +1,225 @@
+{
+  "base_commit": "272101dac2acb0169cb2d6582ec039b09301af09",
+  "confirmation_or_test_pixels_opened": false,
+  "cuda_execution_performed": false,
+  "date": "2026-10-22",
+  "diagnostic_only": true,
+  "evidence_sha256": {
+    "runs/pretrained/diagnostic/shared-workflow-preparation-20261022/build_verify.py": "557bd36885ff1cc4423b9f4ba6853c272bf526cdf53e92e697049158b0af8c0f",
+    "runs/pretrained/diagnostic/shared-workflow-preparation-20261022/focused-tests.xml": "4d418eeb0c4abf56af8c4f2692dfbb04ce0538b4b4221ddc58dc41e7884ee3bc",
+    "runs/pretrained/diagnostic/shared-workflow-preparation-20261022/initial-full-pytest.txt": "d0d4f10d332e04696c4b96690a012802a81b85be2698e08b57c97f9329d0e7c3",
+    "runs/pretrained/diagnostic/shared-workflow-preparation-20261022/initial-full-tests.xml": "57babe1ef7b480a9249fb4a0e81f12049919f31a578b69a998d5dabbe4377b3b",
+    "runs/pretrained/diagnostic/shared-workflow-preparation-20261022/package-verification.json": "9db4e33b8aeb93fef25fedf5d5e0f133e7ebef2241ac1a78d9bd79a72ce9cc9d",
+    "runs/pretrained/diagnostic/shared-workflow-preparation-20261022/pytest.txt": "15c964ec968462ba065e1ea1eae485adc95390af54e3edcf39c57741c244f74f",
+    "runs/pretrained/diagnostic/shared-workflow-preparation-20261022/restored-scaffold.txt": "9ea6dc28fb77d2e3bff22a12e17d633b2646d9f1d341c83a4cb57a9883bfdf9d",
+    "runs/pretrained/diagnostic/shared-workflow-preparation-20261022/restored-tests.txt": "bd041a3b32a4eb20d62c6800e8e403bfd47626e205fb6f85207f5b126be15868",
+    "runs/pretrained/diagnostic/shared-workflow-preparation-20261022/restored-tests.xml": "2d523015e84966acc11f3825fb6b35019c31a595a927adf9b6d926d8199b1f5f",
+    "runs/pretrained/diagnostic/shared-workflow-preparation-20261022/tests.xml": "a6f3ae0e8428b4a3dd8c2bfef447ec97f6d5b02581fc0ae0f90461d9d256e5b4",
+    "runs/pretrained/diagnostic/shared-workflow-preparation-20261022/wheel-audit.json": "dffad73cd144e020e059a48d1a4f9ffb64e32f541656ce60c1ad09005fab9c19"
+  },
+  "full_pretrained_cuda_recovery_validated": false,
+  "kind": "bounded_shared_forward_cuda_handoff_preparation",
+  "ledger": {
+    "compute_plan_usd": 160,
+    "project_cap_usd": 200,
+    "reported_spent_usd": 1.195,
+    "shared_pilot_remaining_usd": 8.805
+  },
+  "literature_refresh": "notes/2026-10-22_novelty-refresh.md",
+  "next_user_action": "Manually deploy the reviewed RTX 5090 configuration when available and ready; provide the current SSH endpoint and deployment time so the absolute deadline is bound to deployment.",
+  "novelty_observation": "No exact public match found in bounded primary-page/arXiv-indexed search; not proof of priority.",
+  "offline_wheels": {
+    "active_requirements_checked": 27,
+    "actual_new_linux_install_performed": false,
+    "all_satisfied_against_previous_template": true,
+    "wheels": 23
+  },
+  "package": {
+    "all_source_members_match_working_tree_at_build": true,
+    "archives": {
+      "source": {
+        "bytes": 582715,
+        "sha256": "3f0e3d111119cfda3c6e4dc987c9a9a2b149b035786e6395836a93295ee79e8a"
+      },
+      "training": {
+        "bytes": 781576353,
+        "sha256": "0afaf2257094f5cee1cd464e3ea065dea3b90aeab91203e89a37ad514edd72e2"
+      },
+      "wheels": {
+        "bytes": 28225989,
+        "sha256": "a76b5acff4a709b63badca7b67966681069c85b0743492766f0368d615a4e766"
+      }
+    },
+    "checkpoint_bytes": 5127726842,
+    "checkpoint_rehashed_separately": true,
+    "checkpoint_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+    "cuda_execution_performed": false,
+    "diagnostic_training_clips_verified": [
+      {
+        "class_id": "18",
+        "pixel_sha256": "d497eb48187685856e993af2cc010468be3f63b2a1125958bcbd2f3991685a3c",
+        "video_id": "v_BreastStroke_g15_c01"
+      },
+      {
+        "class_id": "18",
+        "pixel_sha256": "174d7bd1df51dddb5fc752276c2daeeb761829f2998d43bad078a6f8ea50fc17",
+        "video_id": "v_BreastStroke_g10_c02"
+      },
+      {
+        "class_id": "18",
+        "pixel_sha256": "f980622bb8c01646ca368dc4e8550ab1ee88e8f187e3dc471874495faf492383",
+        "video_id": "v_BreastStroke_g13_c01"
+      },
+      {
+        "class_id": "18",
+        "pixel_sha256": "0efdeef498e9d2f4b61c5c8d691146eaa89f2143af93e8c31af9e81c11cfe84e",
+        "video_id": "v_BreastStroke_g17_c04"
+      },
+      {
+        "class_id": "18",
+        "pixel_sha256": "25a0fe191ecad987b0b778d3d6f36e5dc6b85b31aafcbb839374142d5fbe13b8",
+        "video_id": "v_BreastStroke_g21_c01"
+      },
+      {
+        "class_id": "47",
+        "pixel_sha256": "011974d0a757bd0a1f5ffeebbe361dac427ebe996490a5a183b3d122e781f1e1",
+        "video_id": "v_JumpRope_g15_c01"
+      },
+      {
+        "class_id": "47",
+        "pixel_sha256": "9687ccedd7ae042db7dc0df44a0c8ccf5d3df3a1ee3c6c85c087327c824336e0",
+        "video_id": "v_JumpRope_g16_c02"
+      },
+      {
+        "class_id": "47",
+        "pixel_sha256": "79ea118cdb54f14593c9d8b8ab0069aa69baf150a416fd73c41676c09e215f81",
+        "video_id": "v_JumpRope_g14_c03"
+      }
+    ],
+    "held_out_cache_directories_absent": true,
+    "linux_setup_performed": false,
+    "manifest_sha256": "99bbeba481d8dd4e7533e7aabc0122770096bbf096a352f2bb1204ba09e30c47",
+    "monitor_video_ids": [
+      "v_BreastStroke_g10_c02"
+    ],
+    "package": "runs/pretrained/diagnostic/shared-workflow-handoff-20261022",
+    "package_bytes": 815075082,
+    "paid_gpu_started": false,
+    "representative_indices": [
+      0,
+      4,
+      7
+    ],
+    "required_scientific_dependencies_present": true,
+    "schema_version": 1,
+    "source_files": 237,
+    "source_report_created_after_package": true,
+    "training_wheel_archives_bitwise_equal_previous": true,
+    "upstream_bundle_sha256": "be402e349761940e6cb0217cdbfdf83915e5ab5bd110ed61563bd0ca3e423c11",
+    "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+    "upstream_source_sha256": {
+      "src/datasets/data_manager.py": "6849784a95abaf4d18292460e695a559de514364078d6143c0fee9c4590a7172",
+      "src/datasets/imagenet1k.py": "d040f7a7740cfdb7625c2426688b3bf39260395b670d2ddfd29544b9c65cbd80",
+      "src/datasets/utils/dataloader.py": "c1740e7267378192525f212d56774e44cd58fe5df39dc1b86fadac046869358e",
+      "src/datasets/utils/utils.py": "8f41409489900d7dd9f2342f80d671a7f6f363295f02feaa21c66f06bfe2e0b2",
+      "src/datasets/utils/video/functional.py": "b7e7726cb784bc7e2a7614013258d9f90182259c9ba60945b5a3fead14781fad",
+      "src/datasets/utils/video/randaugment.py": "b0914ae5823aa6ced7b594a3156d2e2ee9a906ebf950b40d24c1a96f5da2acbd",
+      "src/datasets/utils/video/randerase.py": "81be3544ef18564e4c086daad9f596a1b6312bdd8eae15a0157e551eb08f3ab6",
+      "src/datasets/utils/video/transforms.py": "e175b52ce1a23a14b647208435e7524692dd87bbdb5334ee444fd6d1b9a50d64",
+      "src/datasets/utils/video/transforms_builder.py": "e73c2f33045ae502a85177819218cfbc1cabf037e15c6dfa5e70be5b9e12c4ba",
+      "src/datasets/utils/video/volume_transforms.py": "2ac8efe2e91ed1d46436e2b0de43e181d7662f0b0d8bf7eebb4d044bdfe5f8c8",
+      "src/datasets/utils/weighted_sampler.py": "8e528ed8f1fa431b37982f9d618c7f887592ad8129de98e745222c4c84713abd",
+      "src/datasets/utils/worker_init_fn.py": "73205faa33d0fa0b8b8e59ac7f1d79a234346ed13b3100ee0df0a550d4d780a2",
+      "src/datasets/video_dataset.py": "44cee1d4d7a643acb9f26402dcec961f3193240489bb1d2ee89e00515630af4b",
+      "src/hub/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/hub/backbones.py": "391cdde1e9a1da47cb8094bbea5fbbe8acac0135b27e82f1a6ab19c0b39cc692",
+      "src/masks/default.py": "5329acaf6eb8f72a0b2d285944824bc4d61c24598eb6c996cf3a5a62f3d243f9",
+      "src/masks/multiseq_multiblock3d.py": "7ef7cf95b0bee9940ac7654aeb3535278bbafdd6d93b643f4142fd19769456d9",
+      "src/masks/utils.py": "833f111a0fa5ffdbd3a6412e2dace2517c3c178f49c14f8bb631d9f6a070dfd0",
+      "src/models/ac_predictor.py": "5a520ad92b3f78b231aa153a5bbd9f800f880024974109a04d19aed6a0900643",
+      "src/models/attentive_pooler.py": "9be7047d6bfce50575956a57e36d87a37bf63ae84ec92a9ba8649bf1ab7d5feb",
+      "src/models/predictor.py": "3d8481bf2544b85ed92b3feb418e3b6d85ca1f81034c931b8c860f2d3d9aac2b",
+      "src/models/utils/modules.py": "b93f6c7e0747deb216419c000c2878f11a9189024a9adeacfd437e172396dff0",
+      "src/models/utils/patch_embed.py": "1823c40b34410e70eb313360e21678e18a0ee5465b5d47de9f3d967c074f5a9d",
+      "src/models/utils/pos_embs.py": "e6d3b3863ade47b3734a3b443f1bcc93eab02e39bf596ea199517f68ccab443e",
+      "src/models/vision_transformer.py": "9d4fd4e3603311803c105cc5114e2bc12ff28bc11870637dd3969511d9dead74",
+      "src/utils/checkpoint_loader.py": "8ae1c92e095dabed897694101e35393ed5b20da2b51c5bebae3dceda427472ce",
+      "src/utils/distributed.py": "52342428ee4eafaf685471afd91912462057bed59267faec42cf7640d8c08861",
+      "src/utils/logging.py": "0bf5298ecce7e59d90fcb3e4cc68eba988e3e8af4d4a08c91e94bdcd29f76b2e",
+      "src/utils/monitoring.py": "8fc1feb76396af17ed3753d3f9c4ad0b75d3908122a49b209537d6e3653427c5",
+      "src/utils/schedulers.py": "e35b2162c9df04f25ef4dbc51a1e9df41e362dee6d9d2b494321d81e44fe4659",
+      "src/utils/tensors.py": "782b58bd2af456e184750e5318ab773105108383f61b280fe4c7a90f46add2c8",
+      "src/utils/wrappers.py": "cdba99fcad17b1810bf26bb047046182fe0aad620a5786fbf405d8a71bb1f47a"
+    },
+    "verification_wall_seconds": 90.49181845900603,
+    "wheel_count": 23
+  },
+  "paid_gpu_started": false,
+  "pilot": {
+    "absolute_deployment_based_deadline_required": true,
+    "availability_status": "not_explicitly_confirmed",
+    "container_gb": 30,
+    "deployment_status": "not_started",
+    "execution_policy": "shared-fp64-native",
+    "export_reserve_seconds": 240,
+    "gpu": "one RTX 5090 32GB",
+    "image": "runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404",
+    "live_quote_verified": false,
+    "maximum_billed_hours": 2,
+    "maximum_inclusive_session_usd": 3,
+    "minimum_free_after_setup_gib": 55,
+    "persistent_volume_gb": 80,
+    "pilot_cap_seconds": 5400,
+    "preflight_cap_seconds": 1200,
+    "python": "3.12",
+    "quote_reviewed": true,
+    "quote_source": "user_reported_Runpod_console_2026-10-22",
+    "quoted_hourly_usd": 1.21,
+    "quoted_two_hour_running_usd": 2.42,
+    "representative_indices": [
+      0,
+      4,
+      7
+    ],
+    "session_margin_for_unquoted_charges_usd": 0.58,
+    "setup_cap_seconds": 1500,
+    "storage_capacities_confirmed_by_user": true,
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "volume_mount": "/workspace",
+    "worker_timeout_stops_cloud_billing": false
+  },
+  "research_admitted": false,
+  "schema_version": 1,
+  "source_sha256": {
+    "models/workflow_pilot.py": "00f11168eb184ed928ac49c99d034a8249e185cf2e328e820a80dbecc15d4ecf",
+    "models/workflow_preflight.py": "7d382d8e3b80c7ce0f667610bdb909518624c29958b9ab70595228a5adaa46db",
+    "scripts/export_workflow_pilot.py": "a14a68b54776db40baccb079cc73afb6a56dcfbc2268f8f22c01faa87b1b2e1b",
+    "scripts/run_workflow_pilot.py": "b8f05ffcd9ac738ad10a4088c949c4a80f8fa002bb082f354e657ed89c5e7761",
+    "scripts/start_shared_workflow.sh": "6db5c1e9f56a07f4e05d3cd0c6d0502629360d367abd9fabc60a37269503d954",
+    "tests/test_workflow_preflight.py": "f3b0505f3ef33398552e0c757700054ba69be755d04493b6d0d957dd159a24fb"
+  },
+  "tests": {
+    "new_cases": 14,
+    "passed": 434,
+    "restored_package_cases": 6,
+    "restored_package_failures": 0,
+    "restored_twelve_fresh_cpu_workers_passed": true,
+    "seconds": 247.61,
+    "skipped_actual_cuda": 2,
+    "warnings": 164
+  },
+  "unchanged_core_and_configuration_sha256": {
+    "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "configs/budget_study_plan.yaml": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+    "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+    "models/cuda_convolution.py": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3",
+    "models/execution.py": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba",
+    "models/native_diagnostic.py": "695834ba32aa9a87ae4a89bce182f526bc6d02363235e544ad85fbc96a75c1a6",
+    "models/pilot_measurement.py": "3361cd01dc4b23f64e749df877988ecbfe4dfda18ee5d9305c5f25ea33322753",
+    "models/precision_diagnostic.py": "59b7ed8a339ca1ed7586fe08c484b5791ab4ab1a5474f96e12fc925404b30470",
+    "models/precision_patch.py": "30e8a6b28b8f082fd771aaeab5a70a73cf200714ef2b24416a55938f61e9c550",
+    "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf"
+  }
+}

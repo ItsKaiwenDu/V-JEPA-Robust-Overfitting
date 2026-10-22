@@ -44,3 +44,7 @@ The [October 22 shared-forward integration check](checks/2026-10-22-shared-forwa
 records exact small-upstream CPU optimizer/workflow recovery and artifact
 precision checks. It is implementation evidence, not pretrained CUDA recovery
 or a robust-overfitting result.
+
+The [fresh shared-forward handoff](checks/2026-10-22-shared-workflow-handoff.md) records package/member/
+upstream/checkpoint/data/wheel verification and extracted CPU fixture results.
+Its current GPU quote and actual pretrained CUDA recovery remain pending.

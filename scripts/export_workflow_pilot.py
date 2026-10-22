@@ -13,6 +13,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--run', type=Path, required=True)
     parser.add_argument('--output', type=Path, required=True)
+    parser.add_argument('--include-preflight-tensors', action='store_true',
+                        help='Retain only bounded representative-check tensors; never optimizer states.')
     args = parser.parse_args()
     from models.pilot_bundle import make_archive
     roots = {'pilot': args.run.resolve(), 'setup': ROOT / 'runs/pretrained/diagnostic/workflow-setup'}
@@ -23,6 +25,14 @@ def main():
                 if path.is_symlink() or path.stat().st_size > 10 * 2**20:
                     raise ValueError('Unexpected evidence file; inspect before exporting.')
                 files[prefix + '/' + str(path.relative_to(directory))] = path
+    if args.include_preflight_tensors:
+        preflight = roots['pilot'] / 'preflight'
+        tensors = sorted(preflight.glob('clip-*.pt'))
+        if (len(tensors) > 6 or sum(p.stat().st_size for p in tensors) > 2 * 2**30
+                or any(p.is_symlink() or not p.is_file() or p.stat().st_size > 256 * 2**20 for p in tensors)):
+            raise ValueError('Unexpected preflight tensor export; inspect before copying.')
+        for path in tensors:
+            files['pilot/preflight/' + path.name] = path
     if 'pilot/session.json' not in files:
         raise ValueError('No pilot session record to export.')
     if (ROOT / 'handoff-manifest.json').exists():

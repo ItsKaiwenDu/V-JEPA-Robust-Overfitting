@@ -16,7 +16,10 @@ from models.training import TrainingEngine
 from models.workflow_diagnostic import prepare_context, cached_training_loader
 
 PILOT_SOURCES = ('models/workflow_pilot.py', 'models/pilot_measurement.py',
-                 'scripts/run_workflow_pilot.py')
+                 'scripts/run_workflow_pilot.py', 'models/workflow_preflight.py',
+                 'models/precision_diagnostic.py', 'models/gradient_attribution.py',
+                 'models/native_diagnostic.py', 'models/native_probe.py',
+                 'models/cuda_profile.py', 'models/cuda_convolution.py')
 CONDITIONS = ('clean-finetune', 'adversarial-finetune')
 
 
@@ -54,7 +57,10 @@ def run_phase(root, args):
     result = {'phase': args.phase, 'diagnostic_only': True, 'research_result': False,
               'budget_approved': False, 'provenance': context.provenance}
     with MemoryMonitor(args.device) as memory:
-        if args.phase == 'calibrate':
+        if args.phase == 'preflight':
+            from models.workflow_preflight import run_preflight
+            result['preflight'] = run_preflight(context, output / 'preflight', device=args.device, timings=timings)
+        elif args.phase == 'calibrate':
             with timings.span('calibration_three_primary_candidates'):
                 value = run_calibration(context.model, context.monitor, context.sampler, output / 'calibration',
                     checkpoint=context.checkpoint, provenance=context.provenance, diagnostic=True)

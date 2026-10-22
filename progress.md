@@ -1,5 +1,36 @@
 # Research Progress Reports
 
+## 2026-10-22 — Fresh shared-forward CUDA handoff built and locally restored
+
+Added a bounded representative preflight before shared-forward calibration:
+three previously opened training clips, both declared backwards, original
+FP64/whole-model numerical limits, nonzero gradient/native-loss ascent,
+actual CUDA observer evidence, FGSM/PGD-5 and independent scoring. Preserve
+raw tensors/partial failures. Existing exact optimizer/evaluation recovery and
+convergence phases follow; no scientific limit or study YAML changed.
+
+**Verification:** 434 passed, two actual-CUDA skips, 164 warnings in
+247.61s. Fourteen new cases cover preflight/rejection/restoration, complete
+small-model phases, bounded evidence export and deadline refusal. The fresh
+237-source package restores and passes six selected cases,
+including twelve fresh CPU recovery workers. Training/wheel archives match
+previous bytes; all selected training pixels and the separate checkpoint are
+rehashed. All source/member/upstream hashes verify. [Preparation record](report/checks/2026-10-22-shared-workflow-handoff.md),
+[run guide](docs/shared_forward_cuda_pilot.md).
+
+**Quote/storage update:** the user reports $1.21/hour for one RTX 5090
+with 30 GB container and 80 GB persistent storage at `/workspace`, and
+confirmed retaining both capacities. Two quoted running hours cost $2.42;
+any charges outside that rate must fit the remaining $0.58 session margin.
+Availability is not explicitly confirmed. No actual session charge added.
+
+**Next/user action:** manually deploy the reviewed configuration when
+available and ready, then share the current SSH endpoint and deployment
+time. No deployment yet. Planned session <=2 billed hours/$3 inclusive,
+with deployment-based deadline. The frozen package is unchanged. CUDA setup/full pretrained
+recovery, measured costs and research admission pending. No paid compute,
+confirmation/test pixels, commit or push. Spend $1.195 / pilot reserve $8.805.
+
 ## 2026-10-22 — Shared-forward training integration and exact CPU recovery
 
 Added explicit `shared-fp64-cudnn` and `shared-fp64-native` diagnostic options.

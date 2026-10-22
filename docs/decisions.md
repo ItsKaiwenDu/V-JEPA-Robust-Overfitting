@@ -419,3 +419,34 @@ no research precision/protocol is adopted or study YAML changed. Full pretrained
 CUDA recovery, representative/convergence checks and measured budget admission
 remain pending. Preserve historical FP32 rejections and the university AdamW OOM.
 See [the integration record](../report/checks/2026-10-22-shared-forward-integration.md).
+
+## 2026-10-22 — Bounded representative gate before another CUDA workflow
+
+Add the fixed first/middle/last training-input comparison before calibration
+for the explicitly named shared-forward policies. Retain the existing pointwise
+numerical and exact recovery limits, nonzero gradients/loss ascent and frozen
+targets. Export bounded oracle/gradient/attack tensors for independent inspection;
+keep full optimizer/model state out of the small evidence export. Old failure
+records and source archives are preserved.
+
+Use a new offline working-tree snapshot, existing verified training/wheel bytes,
+exact upstream bundle and checkpoint pin. A detached supervisor requires a
+reviewed deployment-based absolute deadline; it never stops cloud billing.
+Prepare/verify before asking for current quote/deployment action. Local source
+and CPU fixture success is not new Linux/CUDA acceptance or study admission.
+See [the prepared handoff](shared_forward_cuda_pilot.md).
+
+## 2026-10-22 — Retain pilot storage and review the current console quote
+
+The user reported $1.21/hour for one RTX 5090 with 30 GB container disk and
+80 GB persistent volume at `/workspace`, and explicitly retained both disk
+capacities. Keep the existing 55 GiB free-after-setup gate, checkpoint retention
+and atomic writes. The verified source package remains frozen; this update
+changes planning/status documentation only.
+
+At that rate two running hours cost $2.42. Keep the existing two-billed-hour/$3
+inclusive session limit and account for any unquoted charges in the $0.58
+margin. This is a user-reported quote, not a billed charge or independent
+availability verification. Manual deployment/current SSH details and the
+deployment-based absolute deadline remain next. No cloud lifecycle action,
+new research execution or change to study admission follows from this quote.
