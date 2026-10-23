@@ -2,6 +2,25 @@
 
 ## Current stage
 
+Latest October 22 outcome: the pretrained `shared-fp64-native` CUDA workflow
+completed all eleven phases. Read
+report/checks/2026-10-22-shared-forward-cuda-workflow.md and its JSON. CUDA
+suite: 436 passed, no skips; local suite remains 434 passed/two CUDA skips.
+Three representative inputs and six retained tensor files are independently
+verified. Both clean/adversarial two-update comparisons match all 5,351
+logical entries exactly. Diagnostic calibration, features and PGD-50/FGSM/
+random controls completed. All export members/records/receipts verify.
+The user confirmed full Pod termination. The $1.688 combined summary minus
+the prior $0.603 gives a provisional $1.085 increment / $2.280 cumulative.
+Prior confirmed reports total $1.195; retain the $3 reservation until
+Pod-specific billing settles ($5.805 unreserved shared pilot allowance).
+Next: reconcile billing, rebuild measured costs, review data and freeze
+precision/protocol before research admission. No study YAML or thresholds
+changed; held-out pixels stayed closed. Earlier FP32 failures remain rejected.
+
+**Historical milestone snapshots follow; their pending actions describe
+those earlier checkpoints. Use the latest verified outcome above.**
+
 Read README.md, progress.md, docs/experimental_protocol.md, and
 docs/workflow_diagnostics.md before adding research code. Do not describe
 planned entry points, unrun experiments, or proposed results as implemented

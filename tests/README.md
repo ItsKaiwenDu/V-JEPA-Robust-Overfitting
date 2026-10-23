@@ -1,7 +1,11 @@
 # Scientific acceptance tests
 
-The latest local suite passes **420 tests with two actual-CUDA skips**.
-See [October 22 integration evidence](../report/checks/2026-10-22-shared-forward-integration.md).
+The latest local suite passes **434 tests with two actual-CUDA skips**.
+The [October 22 CUDA workflow](../report/checks/2026-10-22-shared-forward-cuda-workflow.md)
+runs all **436 tests** with zero failures/errors/skips on the selected host.
+Both bounded pretrained clean/adversarial two-update recovery comparisons
+also pass. The [earlier integration milestone](../report/checks/2026-10-22-shared-forward-integration.md)
+records the previous 420-test local suite.
 The earlier 283-test milestone below records component coverage. The
 35 convolution-comparison tests check analytic
 FP64 derivatives against convolution/autograd, original Conv3d layouts and

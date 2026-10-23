@@ -80,3 +80,9 @@ See [the run guide](../../docs/shared_forward_cuda_pilot.md),
 [bounded novelty refresh](../../notes/2026-10-22_novelty-refresh.md), and
 [structured provenance](2026-10-22-shared-workflow-handoff.json). No study admission or robust-overfitting
 finding follows from this handoff.
+
+**Execution follow-up:** the prepared snapshot subsequently completed the
+[bounded CUDA workflow](2026-10-22-shared-forward-cuda-workflow.md). Both exact
+recovery comparisons and all eleven phases pass; the export is verified and
+the user confirmed Pod termination. The preparation facts above remain a
+historical snapshot; no frozen archive was replaced.

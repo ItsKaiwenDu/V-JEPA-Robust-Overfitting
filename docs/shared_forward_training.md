@@ -94,22 +94,15 @@ two CUDA-only pytest skips on this Mac are not CUDA passes.
 
 ## Next gate
 
-The fresh [bounded CUDA handoff](shared_forward_cuda_pilot.md) is now prepared
-and locally verified. Its next execution must validate actual new dispatch, representative already-open
-training inputs, clean/adversarial updates, exact recovery and integrated
-evaluations. The earlier university 8 GB AdamW OOM is unresolved; the successful
-2.84 GiB input-only workload does not establish full training fits.
+The [October 22 pretrained CUDA workflow](../report/checks/2026-10-22-shared-forward-cuda-workflow.md)
+now passes the bounded representative checks and clean/adversarial two-update
+exact recovery, including integrated evaluation. All eleven phases and final
+controls completed; copied evidence is independently verified. The earlier
+university 8 GB AdamW OOM remains unresolved. Peak allocator use on RTX 5090
+does not establish that another GPU fits.
 
-Before deployment, prepare the concrete source/data/dependency artifact, check
-the current quote and remaining time/cost allowance, then request the required
-instance action. Measure checkpoint/cache/feature I/O as well as update and
-attack time; no input-only speed ratio is a full-study estimate. The prepared
-source package is frozen and locally restored. The user reported $1.21/hour
-for 30 GB container/80 GB persistent storage and confirmed retaining both.
-Availability, manual deployment and the actual new CUDA run remain pending.
-
-Full research calibration, representative convergence checks, novelty refresh,
-protocol/precision freezing and measured budget admission remain pending.
-Study/proposal YAML is unchanged. Confirmation/test pixels stay closed.
-Reported spending remains $1.195, with $8.805 in the shared pilot reserve and
-the unchanged $200 total/$160 compute caps. No GPU job or rental starts here.
+Next, reconcile the provisional charge, rebuild measured costs and complete
+data review, research calibration and precision/protocol freezing before any
+research trajectory. No input-only speed ratio or old planning envelope admits
+the study. Study/proposal YAML and original numerical limits are unchanged;
+confirmation/test pixels remain closed. The user fully terminated the Pod.

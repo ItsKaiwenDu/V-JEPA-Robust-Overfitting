@@ -47,4 +47,6 @@ or a robust-overfitting result.
 
 The [fresh shared-forward handoff](checks/2026-10-22-shared-workflow-handoff.md) records package/member/
 upstream/checkpoint/data/wheel verification and extracted CPU fixture results.
-Its current GPU quote and actual pretrained CUDA recovery remain pending.
+Its execution is now recorded in the [verified CUDA outcome](checks/2026-10-22-shared-forward-cuda-workflow.md):
+436 host tests, representative numerical checks, exact bounded clean/adversarial
+recovery and final controls pass. Research findings and study admission remain pending.

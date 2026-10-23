@@ -20,8 +20,9 @@ data/attack code. The full released weights also passed the native-loss
 CPU and MPS checks. [pilot.py](pilot.py) contains the effective-batch update;
 [runtime.py](runtime.py) provides explicit device access, synchronized GPU
 timing, and clearly labeled CUDA peak/MPS sampled memory observations.
-The October 19 RTX 5090 diagnostic pilot passed; new full-model recovery and
-evaluation validation remain pending.
+The [October 22 shared-forward CUDA workflow](../report/checks/2026-10-22-shared-forward-cuda-workflow.md)
+passes bounded pretrained clean/adversarial two-update recovery and integrated
+evaluation. Research precision/protocol and budget admission remain separate.
 See [the guide](../docs/smoke_test.md).
 
 [patch_embed.py](patch_embed.py) provides an explicit equivalent linear

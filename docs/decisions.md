@@ -450,3 +450,20 @@ margin. This is a user-reported quote, not a billed charge or independent
 availability verification. Manual deployment/current SSH details and the
 deployment-based absolute deadline remain next. No cloud lifecycle action,
 new research execution or change to study admission follows from this quote.
+
+## 2026-10-22 — Accept bounded shared-forward CUDA recovery; retain study gates
+
+The verified RTX 5090 diagnostic completes all eleven phases. Both native-policy
+clean/adversarial two-update recovery comparisons are exact; three representative
+training inputs pass unchanged numerical limits and independently recomputed
+saved evidence. Cross-backward FGSM/PGD bitwise equality is descriptive and
+varies on two clip/method combinations. Keep historical FP32 rejections.
+
+One-clip diagnostic calibration, feature/probe work and pretrained-monitor
+PGD-50/FGSM/random controls are measured. These do not admit a research
+precision policy, replace ten-clip study calibration, or establish robust
+overfitting. Freeze/rebudget deliberately before an exploratory trajectory.
+Study/proposal YAML remains unchanged. The user terminated the Pod after
+verified export; the $1.085 billing increment is provisional and derived from
+the reported combined summary. See
+[the outcome](../report/checks/2026-10-22-shared-forward-cuda-workflow.md).

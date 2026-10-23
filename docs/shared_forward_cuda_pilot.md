@@ -1,5 +1,11 @@
 # Shared-forward pretrained CUDA recovery pilot
 
+**October 22 execution follow-up:** the [verified outcome](../report/checks/2026-10-22-shared-forward-cuda-workflow.md)
+passes all eleven phases, both clean/adversarial two-update exact recovery
+comparisons and final controls. The user terminated the Pod after local
+export verification. Research admission and settled billing remain pending.
+The procedure below records the executed diagnostic and its limits.
+
 October 22, 2026. This is a fresh diagnostic package for the named
 `shared-fp64-native` candidate, following the verified university input-only
 control and [local optimizer integration](shared_forward_training.md).
@@ -64,8 +70,9 @@ resolved by a passing input-only preflight. No GPU is launched by preparation.
 On October 22 the user reported a current **$1.21/hour** console quote for
 this exact configuration and explicitly retained both disk capacities.
 Two billed hours at that quote are $2.42, leaving $0.58 within the $3 cap
-for any charges outside the displayed rate. Availability is not yet
-explicitly confirmed; check it when ready to deploy. Use the fresh name
+for any charges outside the displayed rate. The user deployed this reviewed
+configuration on October 22; current availability must be checked again
+before any future session. The executed name was
 `vjepa-recovery-pilot-03`. The planned
 session allowance remains **at most two billed hours and $3 inclusive**, with
 reported cumulative spend $1.195 and $8.805 left in the shared $10 pilot reserve.
@@ -113,7 +120,9 @@ inheriting the template's CUDA packages, installs existing offline wheels,
 runs the scientific suite, and verifies/downloads the original checkpoint.
 The pilot starts only after setup succeeds. The deadline includes setup and
 worker execution; it does not recover time already billed before launch.
-The host's actual new setup/CUDA results remain pending until that run.
+The October 22 execution passed setup and all eleven CUDA phases; see the
+[verified outcome](../report/checks/2026-10-22-shared-forward-cuda-workflow.md).
+Any future execution requires its own setup, quote and bounded deadline.
 
 The launcher prints the run directory, log command and final export path.
 Use `tail -f` to watch; Ctrl-C exits the log viewer. SSH can be closed while
@@ -129,11 +138,12 @@ limited to 256 MiB each and 2 GiB total. Full optimizer/model checkpoint tensors
 are excluded; they remain on the volume for investigation until evidence is
 copied and verified.
 
-**Stopping Python does not stop GPU billing.** Stop the Pod in the console
-when work ends, copy the evidence archive and its manifest to the Mac, verify
-all hashes and recompute representative numerical/replay checks, then terminate
-only after the export is verified. If export failed, preserve the stopped
-volume and copy the raw run/setup evidence before termination.
+**Stopping Python does not stop GPU billing.** Copy the evidence archive
+and its manifest while the Pod remains accessible, then verify their hashes
+and representative numerical/replay checks locally. Stop/terminate the Pod
+after the required evidence is safely copied and verified. If export fails,
+preserve the volume and inspect raw run/setup evidence before termination;
+access to a stopped Pod requires a bounded restart.
 
 These diagnostics can establish candidate correctness and measured feasibility.
 They do not estimate robust overfitting, held-out accuracy or the study's final

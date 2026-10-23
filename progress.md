@@ -1,5 +1,35 @@
 # Research Progress Reports
 
+## 2026-10-22 — Bounded pretrained CUDA recovery and controls verified
+
+Completed `shared-workflow.To4tAh` on the user-deployed RTX 5090 Pod. All
+eleven phases pass; 436 CUDA-host tests pass with no failures/errors/skips.
+Both clean/adversarial two-update recovery comparisons match all 5,351
+logical entries exactly. Three training clips pass the unchanged numerical
+and attack gates, with six tensor files independently checked on the Mac and
+a separate CPU FP64 trained-projection forward reference. Cross-backward
+attack equality is descriptive and varies on two clip/method combinations.
+
+One-clip diagnostic calibration, initial/trained-anchor feature/probe checks,
+PGD-50/R2/EOT8, FGSM/random controls and extra scoring masks completed. Eight
+training clips and one training monitor were used; no held-out pixels opened.
+No study/proposal YAML, numerical limit or historical failed result changed.
+[Verified outcome](report/checks/2026-10-22-shared-forward-cuda-workflow.md).
+
+**Evidence/lifecycle:** all 85 export members, source/record/phase hashes,
+calibration and scheduled receipts verify locally. The user fully terminated
+the Pod after verification. Raw tensors, logs and verification code stay ignored.
+
+**Billing:** user-reported combined $1.688 minus the previous $0.603 gives a
+provisional $1.085 increment; provisional cumulative spend is $2.280 including
+the first $0.592 pilot. Keep the $3 session reservation until a settled
+Pod-specific charge is available; prior confirmed reports total $1.195.
+
+**Next:** reconcile billing, rebuild costs from measured update/evaluation/
+I/O timings, review data and freeze the explicit precision/protocol before
+admitting an exploratory pair. No complete research trajectory or robust-
+overfitting result yet. No new rental, commit or push.
+
 ## 2026-10-22 — Fresh shared-forward CUDA handoff built and locally restored
 
 Added a bounded representative preflight before shared-forward calibration:

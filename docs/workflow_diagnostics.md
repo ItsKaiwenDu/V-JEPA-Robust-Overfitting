@@ -1,5 +1,10 @@
 # Feature probes, calibration, and scheduled recovery
 
+**October 22 follow-up:** the [shared-forward CUDA outcome](../report/checks/2026-10-22-shared-forward-cuda-workflow.md)
+now verifies bounded pretrained clean/adversarial two-update recovery and all
+diagnostic controls. The descriptions below retain earlier development
+milestones. Research calibration and measured study admission remain pending.
+
 The [October 21 CUDA workflow outcome](../report/checks/2026-10-21-cuda-workflow.md)
 records a failed exact full-model recovery comparison and a strict deterministic
 retry stopped for excessive runtime. Small CUDA replay passes; full-model

@@ -6,8 +6,9 @@ a focused report by day 21, with days 22-27 reserved for review and repairs.
 
 ## Current planning update — October 22
 
-The [staged proposal](docs/budget_study_plan.md) remains a candidate within the
-$200 limit; it is not admitted for study execution. The larger milestones
+The [staged proposal](docs/budget_study_plan.md) remains an unadmitted planning
+candidate. Its historical cost projection must be rebuilt from the new
+measurements before it can be considered within the $200 limit. The larger milestones
 below remain context and are not all included in the narrowed scope.
 Training/resume, native evaluation/selection, fixed probes, calibration records,
 and epoch orchestration are implemented with local tests. Staged manifests and
@@ -22,10 +23,13 @@ university derivative control isolates failed forward-oracle gates; fixed-
 cotangent backwards pass and saved gradients reconstruct bitwise. The shared-forward precision control now passes verified university forward/
 gradient/replay gates with faster native input-only backward. Explicit integration now passes local clean/adversarial AdamW exact recovery,
 including fresh processes and scheduled evaluation. No study backend is adopted.
-The fresh bounded CUDA handoff is now built/restored and locally checked.
-The user reported a $1.21/hour quote and retained 30 GB container/80 GB
-persistent storage. Next is an explicit manual session when available, full pretrained recovery and
-representative CUDA checks, then measured costs before an exploratory pair. No research trajectory is complete; confirmation is conditional.
+The [bounded pretrained CUDA workflow](report/checks/2026-10-22-shared-forward-cuda-workflow.md)
+now passes all eleven phases, both two-update exact recovery comparisons,
+representative numerical/attack checks and final controls. The user fully
+terminated the Pod after verified export. Next: reconcile provisional
+billing, rebuild costs, review data and freeze the explicit precision/protocol
+before an exploratory pair. No research trajectory is complete; confirmation
+remains conditional.
 
 ## Repository setup
 
@@ -57,8 +61,8 @@ representative CUDA checks, then measured costs before an exploratory pair. No r
 - [x] Verify shared-forward pretrained CUDA accuracy/input gradients/attacks/replay on the bounded one-clip control.
 - [x] Integrate the explicit precision identity into research/cache/checkpoint contracts and verify CPU optimizer recovery.
 - [x] Prepare/restore the fresh bounded shared-forward CUDA handoff and representative checks.
-- [ ] Accept full pretrained CUDA input gradients/attacks and optimizer recovery for the candidate.
-- [ ] Validate full-model GPU resume and integrated evaluation before research execution.
+- [x] Accept the bounded three-input CUDA checks and clean/adversarial two-update optimizer recovery for the explicit candidate.
+- [x] Validate bounded full-model GPU resume and integrated evaluation; retain separate research admission gates.
 - [x] Pin upstream source and implement the adapter and local CPU correctness tests.
 - [x] Audit full ViT-L tensor names/shapes against official checkpoint metadata.
 - [x] Pin and load the official V-JEPA 2 model and predictor with verified weights on CPU.

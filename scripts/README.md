@@ -30,8 +30,9 @@ pretrained attack sanity check. See [data and attacks](../docs/data_and_attacks.
 `check_mps.py` compares CPU and Apple GPU losses, targets, input gradients,
 and selected parameter gradients on one real clip. `check_patch_embedding.py`
 isolates the original and equivalent linear projection on MPS. `pilot.py` supports
-explicit `--device cuda` (default) and `--device mps` timing. The October 19 RTX 5090 pilot passed; the new recovery/evaluation commands
-still need full-model GPU validation. See [the CUDA guide](../docs/gpu_pilot.md) and
+explicit `--device cuda` (default) and `--device mps` timing. The [October 22 shared-forward CUDA workflow](../report/checks/2026-10-22-shared-forward-cuda-workflow.md)
+passes bounded full-model recovery/evaluation under the explicit
+`shared-fp64-native` policy. Other policies retain their recorded limitations. See [the CUDA guide](../docs/gpu_pilot.md) and
 [Mac guide](../docs/mac_pilot.md).
 
 `estimate_compute.py` reads the separate compute proposal and existing Mac
@@ -66,14 +67,16 @@ remains gated on evaluation, data validation, and measured cost.
 two decodes. `evaluate.py` supports bounded native-attack checks, saved anchors,
 and atomic per-clip recovery. `check_workflow.py` adds bounded clean feature/probe,
 training-only calibration, and scheduled training/recovery diagnostics. Research
-execution and full-model CUDA workflow validation remain pending. See
+execution remains pending; the explicit shared-forward policy now passes
+bounded pretrained CUDA workflow validation. See
 [staged data and evaluation](../docs/staged_data_and_evaluation.md).
 
 Use `python scripts/check_workflow.py --help` and the
 [workflow guide](../docs/workflow_diagnostics.md) for exact commands. Its clean
 feature command passed with the released model on eight training clips on CPU.
-Calibration and scheduled recovery have small-model CPU integration tests;
-full-model GPU execution still needs a bounded pilot.
+Calibration and scheduled recovery also pass in the
+[bounded pretrained shared-forward CUDA pilot](../report/checks/2026-10-22-shared-forward-cuda-workflow.md).
+The original-runtime CUDA failure remains a separate rejected attempt.
 
 `profile_cuda.py` measures 12 synthetic upstream component cases with fresh
 processes, default/strict policies, forward/backward timing, gradient signatures,

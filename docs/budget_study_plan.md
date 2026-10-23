@@ -1,5 +1,10 @@
 # Proposed staged study within the $200 cap
 
+**October 22 measurement follow-up:** the [bounded CUDA workflow](../report/checks/2026-10-22-shared-forward-cuda-workflow.md)
+passed. Its measured update/evaluation costs must replace the proxies below
+before admission. The $193.91 figure is a historical planning estimate,
+not a current verified cost. The original YAML and design are unchanged.
+
 October 20, 2026. **Proposal, not an admitted experiment or a research result.**
 Machine-readable settings: [budget_study_plan.yaml](../configs/budget_study_plan.yaml).
 Reproducible costs and proposed video identities:

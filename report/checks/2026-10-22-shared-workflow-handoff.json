@@ -17,6 +17,7 @@
     "runs/pretrained/diagnostic/shared-workflow-preparation-20261022/tests.xml": "a6f3ae0e8428b4a3dd8c2bfef447ec97f6d5b02581fc0ae0f90461d9d256e5b4",
     "runs/pretrained/diagnostic/shared-workflow-preparation-20261022/wheel-audit.json": "dffad73cd144e020e059a48d1a4f9ffb64e32f541656ce60c1ad09005fab9c19"
   },
+  "execution_followup_report": "report/checks/2026-10-22-shared-forward-cuda-workflow.json",
   "full_pretrained_cuda_recovery_validated": false,
   "kind": "bounded_shared_forward_cuda_handoff_preparation",
   "ledger": {
