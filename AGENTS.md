@@ -2,6 +2,25 @@
 
 ## Current stage
 
+Latest October 23 outcome: the user-deployed A40 passed identity/runtime and
+immutable package checks at $0.61/hour all-in with 30/80 GB disks. Setup rejected:
+458 passed, one failed, 11 errors from one dependent CPU replay fixture, no skips.
+Read report/checks/2026-10-23-a40-setup-rejection.md and JSON. Seeded generated
+CPU workers have different initial weight/target hashes; shared-native CPU
+adversarial resume rejects a target-contract mismatch. Root cause is unproved.
+No pretrained checkpoint download or hardware-screen phase started. Both raw
+archives, sources, JUnit and saved fixture tensors verify locally. User confirmed
+Pod termination; final charge pending. Retain prior and current $3 holds,
+conservative $2.805 unreserved pilot balance. Next: reproduce/repair CPU fixture
+construction and validate locally before another rental; no gate relaxation,
+new A40 performance claim, changed study/YAML or research admission.
+
+Latest billing snapshot (October 23, 10:43 AM Pacific): three displayed
+aggregate rows sum to $3.930 ($3.878 GPU cloud, $0.052 storage). This is the
+latest displayed aggregate, not an extra A40 charge or a settled per-Pod bill.
+Do not add earlier partial totals; $2.280 is historical provisional arithmetic.
+Timezone/delay and A40 attribution are unconfirmed; keep both existing holds.
+
 Latest hardware preparation (October 22): the user explicitly chose to keep
 the 20-class design and prepare a cheaper-GPU screen. Read
 docs/lower_cost_gpu_benchmark.md and

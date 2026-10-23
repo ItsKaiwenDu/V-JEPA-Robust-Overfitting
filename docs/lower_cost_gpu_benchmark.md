@@ -1,5 +1,13 @@
 # Lower-cost GPU benchmark for the retained 20-class study
 
+**October 23 outcome:** the user-deployed A40 at $0.61/hour all-in passed
+hardware/transfer checks, then setup rejected generated CPU replay/recovery
+tests. The pretrained screen did not start. Both evidence archives verify
+locally and the user confirmed termination; final charge remains pending.
+Repair CPU fixture initialization before another rental. See the
+[verified rejection](../report/checks/2026-10-23-a40-setup-rejection.md).
+The preparation and proposed launch procedure below retain their original scope.
+
 October 22, 2026. Kaiwen chose to **keep the 20-class, 100-training-clip design**
 and prepare a lower-cost hardware benchmark. This is an offline-prepared
 performance screen, not a rental or an admitted research run.

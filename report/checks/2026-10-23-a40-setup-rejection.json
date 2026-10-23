@@ -1,0 +1,280 @@
+{
+  "archives": {
+    "evidence.tar.gz": {
+      "bytes": 46476,
+      "members": 10,
+      "sha256": "78618873312fd736aaaeb5d82fbf01e19c1e110dd0cbeba55ca3fac051304e49"
+    },
+    "setup-fixtures.tar.gz": {
+      "bytes": 11979409,
+      "members": 17,
+      "sha256": "453cb170cb21ea7b0cb0af86b087001ecb51b17a7cc5170a20189ae1fc6cd328"
+    }
+  },
+  "benchmark_completed": false,
+  "compute": {
+    "a5000_auto_deployment_cancellation_user_confirmed": true,
+    "actual_session_charge_usd": null,
+    "all_in_quote_usd_per_hour": 0.61,
+    "billing_explorer_snapshot": {
+      "a40_only_charge_identified": false,
+      "added_to_earlier_reported_spending": false,
+      "all_other_visible_categories_usd": 0,
+      "api_allows_per_pod_grouping": "https://docs.runpod.io/api-reference/billing/GET/billing/pods",
+      "billing_delay_confirmed": false,
+      "console_timestamp_conversion_reference": "https://blog.runpod.io/runpod-weekly-15-new-referral-program-community-changelog-blogs/",
+      "display_timezone_confirmed": false,
+      "earlier_derived_cumulative_is_historical_not_current_account_total": true,
+      "rows": [
+        {
+          "displayed_start_date": "2026-10-23",
+          "gpu_cloud_usd": 1.622,
+          "storage_usd": 0.022,
+          "total_usd": 1.644
+        },
+        {
+          "displayed_start_date": "2026-10-21",
+          "gpu_cloud_usd": 1.664,
+          "storage_usd": 0.024,
+          "total_usd": 1.688
+        },
+        {
+          "displayed_start_date": "2026-10-20",
+          "gpu_cloud_usd": 0.592,
+          "storage_usd": 0.006,
+          "total_usd": 0.598
+        }
+      ],
+      "scope": "The three visible aggregate rows; not independently queried or a per-Pod receipt",
+      "source": "User-provided screenshot, October 23 at 10:43:34 AM Pacific",
+      "visible_row_sum": {
+        "gpu_cloud_usd": 3.878,
+        "storage_usd": 0.052,
+        "total_usd": 3.93
+      }
+    },
+    "billing_reconciled": false,
+    "billing_reconciliation_note": "Visible rows sum to $3.930 ($3.878 GPU cloud plus $0.052 storage). Treat as an aggregate observation, not a new A40 charge and not an amount to add to earlier partial totals. Retain holds until per-Pod allocation/finalization is known; the old $2.280 is historical provisional arithmetic.",
+    "conservative_unreserved_shared_pilot_usd": 2.805,
+    "current_session_hold_pending_reconciliation_usd": 3,
+    "gpu_only_quote_usd_per_hour": 0.59,
+    "maximum_billed_hours": 2,
+    "maximum_inclusive_session_usd": 3,
+    "planned_compute_cap_usd": 160,
+    "pod_termination_user_confirmed": true,
+    "prior_confirmed_reports_usd": 1.195,
+    "prior_derived_provisional_cumulative_usd": 2.28,
+    "prior_unsettled_session_hold_usd": 3,
+    "project_budget_cap_usd": 200,
+    "provider_state_independently_queried": false,
+    "quote_source": "User-reported Runpod console, October 23",
+    "shutdown_confirmation_source": "User replied Done to the request to terminate the A40 after both archives were copied and verified."
+  },
+  "confirmation_or_test_pixels_opened": false,
+  "cpu_replay_control": {
+    "error": "Full input-gradient/attack fresh-process replay is not exact.",
+    "fresh_workers_completed": 4,
+    "rejection_independently_reproduced_from_saved_evidence": true,
+    "replays": {
+      "cudnn-fp32": {
+        "clean_targets_equal": false,
+        "contract_equal": false,
+        "initial_weights_equal": false,
+        "tensor_comparison": {
+          "clean_loss": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 1.7881393432617188e-07
+          },
+          "fgsm": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "input_gradient": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 4.1385646909475327e-08
+          },
+          "pgd5": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 0.00784313678741455
+          }
+        },
+        "weight_hashes": [
+          "1f196e8380326786e7a315774b4f45db2b2a22097d675f94584def3090c542c1",
+          "ff8ea97cf28e80a45f92c693c4349656a5b0e705a7843cacda95af0884aac465"
+        ]
+      },
+      "native-fp32": {
+        "clean_targets_equal": false,
+        "contract_equal": false,
+        "initial_weights_equal": false,
+        "tensor_comparison": {
+          "clean_loss": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "fgsm": {
+            "bitwise_equal": true,
+            "max_absolute_difference": 0.0
+          },
+          "input_gradient": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 4.586763679981232e-08
+          },
+          "pgd5": {
+            "bitwise_equal": false,
+            "max_absolute_difference": 0.0156862735748291
+          }
+        },
+        "weight_hashes": [
+          "3c2ed53531fab48fe14f959cdcd06440202413a7401da7a0032aa1af7bf06553",
+          "ff8ea97cf28e80a45f92c693c4349656a5b0e705a7843cacda95af0884aac465"
+        ]
+      }
+    },
+    "source_files_verified": 17,
+    "upstream_files_verified": 32
+  },
+  "cpu_shared_native_adversarial_recovery_rejection": {
+    "exact_recovery_comparison_completed": false,
+    "reference_and_split_contracts": {
+      "compared_leaves": 107,
+      "difference_list_limit": 20,
+      "exact_match": false,
+      "first_differences": [
+        {
+          "path": "/target_sha256",
+          "reason": "value"
+        }
+      ]
+    },
+    "resume_artifact_created": false,
+    "resume_rejected_by_contract_guard": true
+  },
+  "date": "2026-10-23",
+  "dependent_error_tests": 11,
+  "deployment": {
+    "a5000_auto_deployment_cancelled_user_confirmed": true,
+    "approximate_deployment_pacific": "2026-10-23T10:06:00-07:00",
+    "container_gb": 30,
+    "container_start_is_billing_start": false,
+    "container_started_utc": "2026-10-23T17:06:18.540000+00:00",
+    "deadline_basis": "Conservative cutoff before two hours from the predeployment screenshot, observed container start and user approximate deployment age; not reset at worker launch.",
+    "deadline_epoch": 1792781700,
+    "deadline_pacific": "2026-10-23T11:55:00-07:00",
+    "deployment_time_is_approximate": true,
+    "deployment_time_user_confirmed": true,
+    "diagnostic_only": true,
+    "effective_host_memory_limit_bytes": 49999998976,
+    "exact_optimizer_recovery_checked": false,
+    "execution_policy": "shared-fp64-native",
+    "expected_gpu": "NVIDIA A40",
+    "gpu_billing_stopped_by_launcher": false,
+    "gpu_only_hourly_usd": 0.59,
+    "host_fingerprint": "SHA256:yngRxplfjyPCkRGxv0bbzAQGW1OXhV1J9jrerrAKPkE",
+    "local_committed_preparation": "44ce4db",
+    "manifest_sha256": "5865a2dcc1a5eaae2c7989f5b56b4a00e41aeb850d86d64f50578c73547f6544",
+    "maximum_billed_hours": 2,
+    "maximum_inclusive_session_usd": 3,
+    "persistent_volume_gb": 80,
+    "pod_id": "wvbntksy1vdni7",
+    "pod_name": "vjepa-cost-benchmark-04 (planned; actual console name unconfirmed)",
+    "predeployment_selection_screenshot_pacific": "2026-10-23T10:03:30-07:00",
+    "quoted_hourly_usd": 0.61,
+    "run_directory": "/workspace/V-JEPA-Robust-Overfitting/runs/pretrained/diagnostic/hardware-screen.jI24DX",
+    "schema_version": 1,
+    "shared_filesystem_df_is_volume_quota": false,
+    "user_deployment_age_minutes_reported": 6,
+    "volume_capacity_user_confirmed": true,
+    "volume_mount": "/workspace"
+  },
+  "diagnostic_only": true,
+  "error_fixture": "tests/test_native_diagnostic.py::tiny_run",
+  "error_fixture_count": 1,
+  "error_tests": [
+    "tests.test_native_diagnostic::test_fresh_process_pipeline_compares_actual_saved_gradients_and_attacks",
+    "tests.test_native_diagnostic::test_incomplete_or_mixed_evidence_never_passes[partial]",
+    "tests.test_native_diagnostic::test_incomplete_or_mixed_evidence_never_passes[timeout]",
+    "tests.test_native_diagnostic::test_incomplete_or_mixed_evidence_never_passes[duplicate_replay]",
+    "tests.test_native_diagnostic::test_incomplete_or_mixed_evidence_never_passes[source]",
+    "tests.test_native_diagnostic::test_incomplete_or_mixed_evidence_never_passes[scale]",
+    "tests.test_native_diagnostic::test_incomplete_or_mixed_evidence_never_passes[hash]",
+    "tests.test_native_diagnostic::test_incomplete_or_mixed_evidence_never_passes[policy]",
+    "tests.test_native_diagnostic::test_comparison_retains_shared_geometry_checkpointing_and_actual_precision[geometry]",
+    "tests.test_native_diagnostic::test_comparison_retains_shared_geometry_checkpointing_and_actual_precision[checkpointing]",
+    "tests.test_native_diagnostic::test_comparison_retains_shared_geometry_checkpointing_and_actual_precision[precision]"
+  ],
+  "evidence_verified": true,
+  "failed_test": "tests.test_shared_execution::test_fresh_process_training_restore_matches_full_adamw_and_rng[adversarial-finetune-shared-fp64-native]",
+  "hardware": {
+    "container_gb_user_confirmed": 30,
+    "cpu": "Intel Xeon Gold 6342",
+    "driver": "595.91.07",
+    "effective_host_memory_limit_bytes": 49999998976,
+    "gpu": "NVIDIA A40",
+    "python": "3.12.3",
+    "shared_filesystem_free_bytes_do_not_measure_volume_quota": true,
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "visible_gpus": 1,
+    "visible_vram_bytes": 47699722240,
+    "volume_gb_user_confirmed": 80
+  },
+  "historical_fp32_failures_preserved": true,
+  "interpretation": "Fresh generated CPU fixture weights differ across processes despite the seeded construction; do not attribute this setup rejection to A40 pretrained numerical correctness or throughput. Root cause and repair remain pending.",
+  "kind": "verified_a40_setup_rejection_before_pretrained_benchmark",
+  "new_economic_projection_available": false,
+  "new_gpu_performance_or_memory_fit_measured": false,
+  "next_step": "Reproduce and repair generated CPU fixture initialization/replay before another GPU rental; keep exact gates and historical failures, require a fresh verified handoff and new deployment-based deadline before retrying.",
+  "non_markdown_source_files_verified": 189,
+  "passing_tests": 458,
+  "pretrained_checkpoint_download_started": false,
+  "pretrained_cuda_benchmark_started": false,
+  "provenance": {
+    "checkpoint_downloaded_on_this_host": false,
+    "checkpoint_sha256_pin": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+    "committed_preparation": "44ce4db",
+    "handoff_manifest_sha256": "5865a2dcc1a5eaae2c7989f5b56b4a00e41aeb850d86d64f50578c73547f6544",
+    "local_evidence_sha256": {
+      "downloaded/deployment-context.json": "b6945f110b61dc29217675888e21db24aa32dfdef166971ff2790ea7f9ca03b3",
+      "failure-verification.json": "e3961335f8fb340aa13e75a709589292b9657a4f2394338d9ab017667914fea3",
+      "transfer-receipt.json": "07f862ee2d2b3c1b3190f8980bb287dfd3a094b5936ea1c02ec31072593d2d27",
+      "verification-source/sha256.json": "9fc62524dc091f2500163ecc49f1f14e83e60e8074c370d0f2f92670f424881a"
+    },
+    "raw_directory": "runs/pretrained/diagnostic/a40-cost-screen-20261023",
+    "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812"
+  },
+  "research_admitted": false,
+  "run_id": "hardware-screen.jI24DX",
+  "session": {
+    "budget_approved": false,
+    "complete": false,
+    "diagnostic_only": true,
+    "error": "setup ended before a pilot session was created",
+    "execution_policy": "shared-fp64-native",
+    "phases": [],
+    "pre_session_stage": "setup",
+    "research_result": false,
+    "schema_version": 1,
+    "worker_exit_status": 1
+  },
+  "setup_passed": false,
+  "setup_wall_seconds": 1028,
+  "study_yaml_or_precision_policy_adopted": false,
+  "supervisor_finished_utc": "2026-10-23T17:34:31Z",
+  "tests": {
+    "errors": "11",
+    "failures": "1",
+    "skipped": "0",
+    "tests": "470",
+    "time": "969.341"
+  },
+  "thresholds_or_study_configuration_changed": false,
+  "timezone": "America/Los_Angeles",
+  "transport": {
+    "method": "authenticated_Jupyter_HTTPS",
+    "package_files_verified": 6,
+    "source_members_verified_before_launch": 254,
+    "token_persisted_or_logged": false,
+    "training_chunks_verified": 24
+  }
+}

@@ -2,6 +2,8 @@
 
 **Research question:** During adversarial fine-tuning of V-JEPA 2's native masked prediction loss, does performance on unseen videos deteriorate after initially improving, even while adversarial training loss continues to decrease?
 
+**Latest (October 23):** the [A40 attempt](report/checks/2026-10-23-a40-setup-rejection.md) stopped at generated CPU replay/recovery tests during setup (458 passed, one failed, 11 dependent errors). Its verified evidence is local and the user confirmed Pod termination. Pretrained A40 timing and affordability remain unmeasured; repair the CPU fixtures before another rental.
+
 **Status: bounded shared-forward CUDA recovery passes; the measured study projection exceeds the $200 cap.** The [new budget review](report/checks/2026-10-22-measured-budget-review.md) puts the existing 20-class staged design at about $304–$307 with the retained allowances and reserves. The ten-class alternative is about $219–$221. These are incomplete projections; neither is admitted. The [October 20 proposal](docs/budget_study_plan.md) and its old $193.91 envelope remain historical. Hardware feasibility checks passed on CPU, Apple GPU, and RTX 5090; university RTX 3070 FP32 training ran out of memory. Staged manifests and deterministic preparation of 120 training/exploration clips are verified.
 
 The [October 21 CUDA workflow report](report/checks/2026-10-21-cuda-workflow.md) records the failed exact full-model recovery comparison and a strict deterministic retry stopped after an attack took 16× longer. The repaired suite passes 225 tests on the CUDA host, including a small independent-process GPU replay test; that original-runtime attempt remains rejected. Both historical evidence exports are verified locally.
@@ -24,7 +26,7 @@ The intended contribution is a controlled study of training dynamics and their d
 
 | Document | Purpose |
 | --- | --- |
-| [Lower-cost GPU benchmark](docs/lower_cost_gpu_benchmark.md) | Retained 20-class design, verified offline screen and user-reported $0.29/hour A5000 quote; manual deployment pending |
+| [Lower-cost GPU benchmark](docs/lower_cost_gpu_benchmark.md) | Retained 20-class design and bounded hardware screen; the A40 setup rejection requires CPU fixture repair before retry |
 | [Measured budget review](report/checks/2026-10-22-measured-budget-review.md) | Current unit-cost projections, remaining unknowns and required price/speed improvements |
 | [Latest staged study proposal](docs/budget_study_plan.md) | Scoped research question, separate validation panels, staged costs, and decision gates |
 | [Experimental protocol](docs/experimental_protocol.md) | Threat model, data split, training conditions, evaluation, and interpretation |

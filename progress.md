@@ -1,5 +1,30 @@
 # Research Progress Reports
 
+## 2026-10-23 — A40 setup rejected; failure evidence verified
+
+The user deployed one A40 at a confirmed $0.61/hour including 30/80 GB disks;
+the A5000 auto-deployment was cancelled. Verified the new SSH fingerprint,
+six package files, 24 chunks, 254 restored sources and the pinned CUDA stack.
+The deployment-based 11:55 AM Pacific cutoff retained the two-hour/$3 cap.
+
+Setup stopped with 458 passing tests, one failure and 11 dependent fixture
+errors (zero skips). Fresh generated CPU workers start with different weight
+and target hashes; the CPU adversarial shared-native resume test rejects a
+target-contract mismatch. No pretrained checkpoint download or seven-phase
+A40 benchmark began, so there is no new GPU timing, memory-fit or cost result.
+[Verified rejection](report/checks/2026-10-23-a40-setup-rejection.md).
+
+Copied and independently verified both failure archives and saved CPU tensors.
+The user confirmed Pod termination. Final charge remains pending; retain both
+$3 holds and the conservative $2.805 unreserved pilot balance. No numerical
+gate, study YAML, data/seed schedule or historical result changed. Next:
+repair and validate generated CPU fixture replay locally before another rental.
+
+Billing screenshot follow-up: three visible rows total $3.930, including
+$0.052 storage. This supersedes the earlier provisional cumulative figure as
+the latest displayed aggregate observation; do not add the two. Per-Pod
+allocation/finalization remains unresolved, so both holds remain.
+
 ## 2026-10-22 — Lower-cost GPU benchmark prepared, quoted and restored
 
 The user chose to keep the 20-class design. Added an explicitly bounded
