@@ -129,3 +129,16 @@ setup/preflight/recovery/export on an already selected Pod with a reviewed
 deployment-based deadline. It never stops GPU billing. `export_workflow_pilot.py`
 can opt into six bounded preflight tensor artifacts while excluding optimizer
 states. See [the prepared pilot](../docs/shared_forward_cuda_pilot.md).
+
+`estimate_measured_study.py` reprices the unchanged staged workloads from the
+verified shared-forward CUDA pilot. It verifies input/source hashes, retains
+unknown full-study costs, and compares median/maximum-observed unit projections.
+It never edits YAML, opens pixels, contacts providers or admits a run. See the
+[measured budget review](../report/checks/2026-10-22-measured-budget-review.md).
+
+`run_hardware_benchmark.py` adds a distinct seven-phase cost screen on an
+explicitly reviewed GPU. `setup_hardware_benchmark.sh` and
+`start_hardware_benchmark.sh` preserve the pinned stack, source verification,
+deployment-based deadline and partial evidence export. The screen omits
+split/resume comparisons and cannot admit research. See the
+[hardware benchmark guide](../docs/lower_cost_gpu_benchmark.md).

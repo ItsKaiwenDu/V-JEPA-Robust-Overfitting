@@ -1,5 +1,51 @@
 # Research Progress Reports
 
+## 2026-10-22 — Lower-cost GPU benchmark prepared, quoted and restored
+
+The user chose to keep the 20-class design. Added an explicitly bounded
+seven-phase hardware cost screen reusing the validated numerical, attack,
+training and feature implementations. Exact expected GPU/VRAM, single-device,
+quote and deadline contracts reject mismatches before execution. The original
+pilot keeps its split-anchor default; this screen uses the verified reference
+anchor. Cost units stay fresh, finite and separate from enclosing spans.
+
+Seventy-two targeted CPU tests pass; a fresh restored snapshot passes three
+selected cases including the complete small-model screen. Source/archive/member
+hashes and 23 dependency wheels verify. The new 254-source-file package includes
+100 existing training clips/metadata, with eight selected for execution and no
+held-out pixel cache. Earlier archives, study YAML and attack thresholds remain.
+[Preparation evidence](report/checks/2026-10-22-lower-cost-benchmark-preparation.md).
+
+The user reports $0.29/hour for one A5000 with 30/80 GB disks. Two billed hours
+are $0.58 at that rate; retain the reviewed $3 inclusive session maximum and
+the conservative prior $5.805 unreserved pilot balance. No GPU has launched.
+Next: attended manual deployment when available, new public host fingerprint
+and absolute deadline, then the screen. It does not establish exact new-GPU
+optimizer recovery or admit research. The budget annotation now discloses
+pooled primary calibration step sizes; numerical cost projections are unchanged.
+
+## 2026-10-22 — Measured study budget rebuilt; existing variants exceed cap
+
+Added an offline calculator for the explicit shared-forward RTX 5090 candidate.
+It checks pinned sources and preserves the existing seed/epoch/attack/panel
+counts, shared initialization accounting, unknown costs and full pilot reserve.
+Clean scores and extra convergence scoring banks are already inside the timing
+units and are not duplicated. Disjoint state/save I/O is included; nested
+workflow spans are not added. The three-candidate calibration span is measured,
+but ten-clip research calibration and full-panel overhead remain pending.
+
+The 20-class/100-training-clip design projects $304.25 with median units or
+$307.39 with maximum-observed units, including 25% headroom, the unverified
+eight-hour allowance, $10 pilot and $40 noncompute reserves. The existing
+ten-class alternative projects $219.35–$221.12. All four listed variants
+exceed both caps. These are extrapolations, not completed-study costs/bounds.
+[Calculation and limitations](report/checks/2026-10-22-measured-budget-review.md).
+
+Twenty-four targeted new/legacy budget tests pass. No YAML, manifests,
+scientific code/thresholds, raw evidence, held-out pixels or cloud state changed.
+Next: choose a cheaper-hardware measurement or explicit smaller study, keeping
+the $200/$160 caps. No exploration starts from this review.
+
 ## 2026-10-22 — Bounded pretrained CUDA recovery and controls verified
 
 Completed `shared-workflow.To4tAh` on the user-deployed RTX 5090 Pod. All

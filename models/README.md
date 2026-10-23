@@ -108,3 +108,12 @@ for exact CPU recovery evidence, supported precision and remaining CUDA gates.
 [workflow_preflight.py](workflow_preflight.py) gates shared-forward CUDA workflow
 calibration with three fixed training inputs, both backwards, independent
 oracles and retained scientific tensors. See [the fresh handoff](../docs/shared_forward_cuda_pilot.md).
+
+`measured_budget.py` provides pure offline workload and cost accounting for
+the shared-forward candidate. It retains declared attacks, separate panels,
+conditional stages, unknown overhead and reserve accounting; it never adopts
+a study policy or launches compute.
+
+`hardware_benchmark.py` checks explicit GPU/VRAM, quote and deadline contracts
+and reprices unchanged workload counts from fresh screen observations. Unknown
+full-study costs and new-hardware exact recovery remain unaccepted.

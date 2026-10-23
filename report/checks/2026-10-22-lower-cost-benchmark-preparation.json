@@ -1,0 +1,104 @@
+{
+  "confirmation_or_test_pixels_opened": false,
+  "cuda_execution_performed": false,
+  "date": "2026-10-22",
+  "diagnostic_only": true,
+  "economic_requirement": {
+    "is_speed_prediction": false,
+    "maximum_uniform_slowdown_at_current_quote": 2.5021888375050905,
+    "missing_full_study_costs_still_unbounded": true,
+    "using_maximum_observed_baseline_units": true
+  },
+  "gpu_started": false,
+  "kind": "offline_lower_cost_gpu_benchmark_preparation",
+  "limitations": [
+    "This is CPU/offline preparation, not new CUDA timing or memory evidence.",
+    "The screen does not run split/resume recovery and cannot admit the study.",
+    "Host RAM/availability, actual CUDA behavior, full recovery, data review, calibration and costs remain gates.",
+    "Documentation may gain follow-up status after the frozen snapshot; deployed source must match its own manifest.",
+    "The measured-budget annotation was corrected to disclose pooled calibration steps; all cost projections are unchanged."
+  ],
+  "limits": {
+    "cloud_billing_stopped_by_launcher": false,
+    "export_reserve_seconds": 240,
+    "maximum_billed_hours": 2,
+    "maximum_inclusive_session_usd": 3,
+    "pilot_unreserved_after_proposed_new_hold_usd": 2.805,
+    "pilot_unreserved_before_proposed_new_hold_usd": 5.805,
+    "preflight_cap_seconds": 1200,
+    "prior_confirmed_spend_usd": 1.195,
+    "prior_session_hold_pending_reconciliation_usd": 3,
+    "proposed_new_hold_usd": 3,
+    "setup_cap_seconds": 1500,
+    "worker_cap_seconds": 6600
+  },
+  "next_user_action": "When ready and available, manually deploy the reviewed single A5000 configuration; provide fresh exposed-TCP SSH command, deployment time and public host fingerprint. No automatic deployment.",
+  "package": {
+    "base_commit": "0d3d5bc63ce4256a750e9aa5102f9627328f14ae",
+    "checkpoint_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+    "held_out_pixels_included": false,
+    "manifest_sha256": "5865a2dcc1a5eaae2c7989f5b56b4a00e41aeb850d86d64f50578c73547f6544",
+    "offline_wheels": 23,
+    "old_handoff_manifest_unchanged": true,
+    "packaged_training_clips": 100,
+    "path": "runs/pretrained/diagnostic/hardware-benchmark-handoff-20261022",
+    "restored_source_members_verified": true,
+    "selected_for_execution": 8,
+    "source_files": 254,
+    "total_bytes": 815135208,
+    "training_members": 102,
+    "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812"
+  },
+  "profile": {
+    "exact_optimizer_recovery_checked": false,
+    "existing_numerical_and_attack_thresholds_changed": false,
+    "features_load_epoch_one_adversarial_reference_anchor": true,
+    "name": "hardware-cost-screen-v1",
+    "new_gpu_memory_fit_verified": false,
+    "phases": [
+      "preflight",
+      "calibrate",
+      "features-initial",
+      "clean-finetune/reference",
+      "adversarial-finetune/reference",
+      "features-trained",
+      "controls"
+    ]
+  },
+  "quote": {
+    "all_in_running_usd_per_hour": 0.29,
+    "availability_explicitly_confirmed": false,
+    "container_gb": 30,
+    "count": 1,
+    "deployment_based_deadline_pending": true,
+    "deployment_pending": true,
+    "gpu": "NVIDIA RTX A5000",
+    "persistent_gb": 80,
+    "persistent_mount": "/workspace",
+    "source": "User-reported Runpod console, October 22",
+    "system_ram_user_reported_gb": null,
+    "two_billed_hours_at_displayed_rate_usd": 0.58
+  },
+  "research_admitted": false,
+  "source_sha256": {
+    "models/hardware_benchmark.py": "dc28921161ac5cfc4f81c827b74e3b4188877c7924d0b9f076e11a3edb2379fd",
+    "models/workflow_pilot.py": "40224083b112dac750ea4c93c523c7c9ec93a32dcb679ec2de03e1cc1891cd31",
+    "scripts/run_hardware_benchmark.py": "f57dc2c7cf78eeb30c4983734bf25e61c43797c00a086c16e41267c465fad195",
+    "scripts/setup_hardware_benchmark.sh": "8dbc73037bde23ac708822f5d79ed7c3032c455c16bea23fda2bc15f381d2ccd",
+    "scripts/start_hardware_benchmark.sh": "d9acd80643e41c7665ad0b7e34a9f4d40ec83bef6855be3cba6af2389407b1c3",
+    "tests/test_hardware_benchmark.py": "8bb7ce0ca5be9a6ad6aeef5f733a5d566c7f952d530ec0f1f3799b5b55f88775"
+  },
+  "tests": {
+    "extracted_cases_deselected": 17,
+    "extracted_fresh_cpu_cases_passed": 3,
+    "extracted_wall_seconds": 29.31,
+    "full_scientific_suite_rerun": false,
+    "new_hardware_cases": 20,
+    "restored_scientific_upstream_pin_verified": true,
+    "shell_syntax_passed": true,
+    "targeted_cpu_cases_passed": 72,
+    "targeted_wall_seconds": 101.33,
+    "targeted_warnings": 15
+  },
+  "user_choice": "Preserve the 20-class design and prepare a cheaper-GPU benchmark."
+}

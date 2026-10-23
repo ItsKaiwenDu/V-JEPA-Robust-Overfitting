@@ -2,6 +2,33 @@
 
 ## Current stage
 
+Latest hardware preparation (October 22): the user explicitly chose to keep
+the 20-class design and prepare a cheaper-GPU screen. Read
+docs/lower_cost_gpu_benchmark.md and
+report/checks/2026-10-22-lower-cost-benchmark-preparation.md. The user quotes
+one RTX A5000 at $0.29/hour with 30 GB container/80 GB persistent /workspace;
+availability/host RAM are not explicitly confirmed. Fresh offline package
+has 254 source files, 100 training clips and 23 wheels. Root targeted CPU
+checks: 72 passed; extracted seven-phase/CLI checks: three passed.
+The explicit screen uses the adversarial reference anchor, and does not check
+split/resume recovery. No new GPU timing/fit or research admission is claimed.
+Next is attended manual deployment when available, fresh host fingerprint and
+deployment-based deadline. Retain two billed hours/$3 inclusive, $5.805 prior
+unreserved pilot balance; no automatic rental or unattended auto-deploy queue.
+No class/attack/seed/epoch/YAML changes. The pooled primary calibration-step
+annotation was clarified without changing measured budget arithmetic.
+
+Latest budget follow-up (October 22): read
+report/checks/2026-10-22-measured-budget-review.md and its JSON. The unchanged
+20-class staged workload projects $304.25–$307.39; the listed ten-class
+alternative $219.35–$221.12. Both include the retained headroom/allowances/
+reserves and still have unknown costs. All four listed variants exceed caps.
+New offline calculator checks pinned inputs; 24 targeted new/legacy budget
+tests pass. No full research run is admitted. Next direction needs either
+a lower-cost GPU benchmark or an explicit smaller-study design; no automatic
+rental, changed attacks/seeds/manifests/YAML, or held-out access. Historical
+$193.91 and old faster-runtime projections cannot authorize the new policy.
+
 Latest October 22 outcome: the pretrained `shared-fp64-native` CUDA workflow
 completed all eleven phases. Read
 report/checks/2026-10-22-shared-forward-cuda-workflow.md and its JSON. CUDA

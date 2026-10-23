@@ -467,3 +467,26 @@ Study/proposal YAML remains unchanged. The user terminated the Pod after
 verified export; the $1.085 billing increment is provisional and derived from
 the reported combined summary. See
 [the outcome](../report/checks/2026-10-22-shared-forward-cuda-workflow.md).
+
+## 2026-10-22 — Reprice the explicit candidate; preserve budget and study gates
+
+The measured shared-forward candidate costs exceed the reviewed caps for all
+existing variants: the 20-class design is about $304–$307 and the ten-class
+alternative $219–$221 with retained allowances/reserves. Unknown full-study
+costs remain. Do not use the historical $193.91 envelope or cheaper default
+runtime to admit execution. No YAML, dataset, attack, epoch or seed change.
+
+Prefer screening a lower-cost hardware measurement before sacrificing class
+coverage or attack strength. Any narrower/discovery-only study is an explicit
+new scope decision made before trajectories. The $200 total/$160 compute caps
+remain. See [the review](../report/checks/2026-10-22-measured-budget-review.md).
+
+## 2026-10-22 — Preserve 20 classes and screen lower-cost hardware
+
+Kaiwen chose the cheaper-hardware route and reported an A5000 quote of
+$0.29/hour for the retained 30/80 GB disks. Prepare a seven-phase screen before
+any new rental. It uses original numerical limits and fresh unit timings,
+without split/resume trajectories; full candidate recovery remains a later
+gate if the economics are promising. Preserve the $200/$160 caps and existing
+two-hour/$3 pilot ceiling. No automatic rental or scope reduction.
+See [the preparation](../report/checks/2026-10-22-lower-cost-benchmark-preparation.md).

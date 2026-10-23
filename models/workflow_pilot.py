@@ -68,8 +68,11 @@ def run_phase(root, args):
         elif args.phase in ('features-initial', 'features-trained'):
             checkpoint = context.checkpoint
             if args.phase == 'features-trained':
+                variant = getattr(args, 'feature_anchor_variant', 'split')
+                if variant != 'split' and (variant != 'reference' or not getattr(args, 'hardware_screen_only', False)):
+                    raise ValueError('A reference anchor is allowed only in the explicit hardware screen.')
                 with timings.span('load_anchor'):
-                    checkpoint = load_anchor(context.model, output / CONDITIONS[1] / 'split' / 'checkpoints', 1,
+                    checkpoint = load_anchor(context.model, output / CONDITIONS[1] / variant / 'checkpoints', 1,
                                               initial_checkpoint_sha256=context.checkpoint['file_sha256'])
             with timings.span('extract_features_eight_training_clips'):
                 bundle = extract_features(context.model, context.training,

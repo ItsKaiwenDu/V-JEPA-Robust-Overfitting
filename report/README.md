@@ -50,3 +50,12 @@ upstream/checkpoint/data/wheel verification and extracted CPU fixture results.
 Its execution is now recorded in the [verified CUDA outcome](checks/2026-10-22-shared-forward-cuda-workflow.md):
 436 host tests, representative numerical checks, exact bounded clean/adversarial
 recovery and final controls pass. Research findings and study admission remain pending.
+
+The [October 22 measured budget review](checks/2026-10-22-measured-budget-review.md)
+replaces old timing proxies for the explicit shared-forward candidate. Existing
+20-class and ten-class projections exceed the cap; research remains unadmitted.
+The JSON, offline calculator and targeted tests make the cost counts reproducible.
+
+The [lower-cost benchmark preparation](checks/2026-10-22-lower-cost-benchmark-preparation.md)
+records the user's retained 20-class scope, $0.29/hour A5000 quote, verified
+offline package and CPU checks. GPU execution and new-hardware recovery are pending.

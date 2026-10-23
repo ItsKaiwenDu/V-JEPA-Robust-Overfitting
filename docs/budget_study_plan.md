@@ -1,5 +1,12 @@
 # Proposed staged study within the $200 cap
 
+**Measured budget outcome — October 22:** the
+[new review](../report/checks/2026-10-22-measured-budget-review.md) prices the
+existing 20-class design at $304–$307 and the existing ten-class alternative
+at $219–$221, with the historical overhead allowances/reserves and further
+unknowns. Both exceed the caps. The historical estimate below is superseded
+for the explicit shared-forward candidate; no scope or YAML was changed.
+
 **October 22 measurement follow-up:** the [bounded CUDA workflow](../report/checks/2026-10-22-shared-forward-cuda-workflow.md)
 passed. Its measured update/evaluation costs must replace the proxies below
 before admission. The $193.91 figure is a historical planning estimate,

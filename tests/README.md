@@ -1,6 +1,6 @@
 # Scientific acceptance tests
 
-The latest local suite passes **434 tests with two actual-CUDA skips**.
+The last full local suite run recorded **434 passes with two actual-CUDA skips**.
 The [October 22 CUDA workflow](../report/checks/2026-10-22-shared-forward-cuda-workflow.md)
 runs all **436 tests** with zero failures/errors/skips on the selected host.
 Both bounded pretrained clean/adversarial two-update recovery comparisons
@@ -136,3 +136,16 @@ complete shared-forward phases and exact recovery, bounded tensor exports and
 invalid deadline refusal. Current local suite: 434 passed, two actual-CUDA
 skips. The extracted handoff separately passes six selected cases. No new CUDA
 result is claimed. [Evidence](../report/checks/2026-10-22-shared-workflow-handoff.md).
+
+`test_measured_budget.py` adds 14 offline accounting cases. Together with the
+10 existing staged-budget cases, all 24 targeted tests pass. They check schedule
+counts, unknown costs, single charging of pilot/scoring work, input drift,
+invalid timing/policy evidence, economic thresholds and no automatic admission.
+This is additional local budget coverage, not another CUDA scientific run.
+
+`test_hardware_benchmark.py` adds 20 cases for GPU identity/VRAM/device count,
+quote/deadline rejection, budget accounting, missing/nonfinite observations,
+and the complete seven-phase path on actual small upstream CPU models. The
+20 new plus 52 related workflow/preflight/budget cases pass (72 total).
+Three selected cases also pass from the fresh restored package. These are
+local/extracted checks, not new CUDA performance or full recovery evidence.

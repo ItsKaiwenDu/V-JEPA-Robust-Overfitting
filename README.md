@@ -2,7 +2,7 @@
 
 **Research question:** During adversarial fine-tuning of V-JEPA 2's native masked prediction loss, does performance on unseen videos deteriorate after initially improving, even while adversarial training loss continues to decrease?
 
-**Status: the shared-forward CUDA pilot passes bounded exact recovery; research training awaits protocol and budget admission.** The original study exceeds the $200 cap. The [October 20 staged proposal](docs/budget_study_plan.md) has a historical conditional $193.91 envelope that must be rebuilt with the new measurements; it is not admitted for execution. Hardware feasibility checks passed on CPU, Apple GPU, and RTX 5090; university RTX 3070 FP32 training ran out of memory. Staged manifests and deterministic preparation of 120 training/exploration clips are verified.
+**Status: bounded shared-forward CUDA recovery passes; the measured study projection exceeds the $200 cap.** The [new budget review](report/checks/2026-10-22-measured-budget-review.md) puts the existing 20-class staged design at about $304–$307 with the retained allowances and reserves. The ten-class alternative is about $219–$221. These are incomplete projections; neither is admitted. The [October 20 proposal](docs/budget_study_plan.md) and its old $193.91 envelope remain historical. Hardware feasibility checks passed on CPU, Apple GPU, and RTX 5090; university RTX 3070 FP32 training ran out of memory. Staged manifests and deterministic preparation of 120 training/exploration clips are verified.
 
 The [October 21 CUDA workflow report](report/checks/2026-10-21-cuda-workflow.md) records the failed exact full-model recovery comparison and a strict deterministic retry stopped after an attack took 16× longer. The repaired suite passes 225 tests on the CUDA host, including a small independent-process GPU replay test; that original-runtime attempt remains rejected. Both historical evidence exports are verified locally.
 
@@ -24,6 +24,8 @@ The intended contribution is a controlled study of training dynamics and their d
 
 | Document | Purpose |
 | --- | --- |
+| [Lower-cost GPU benchmark](docs/lower_cost_gpu_benchmark.md) | Retained 20-class design, verified offline screen and user-reported $0.29/hour A5000 quote; manual deployment pending |
+| [Measured budget review](report/checks/2026-10-22-measured-budget-review.md) | Current unit-cost projections, remaining unknowns and required price/speed improvements |
 | [Latest staged study proposal](docs/budget_study_plan.md) | Scoped research question, separate validation panels, staged costs, and decision gates |
 | [Experimental protocol](docs/experimental_protocol.md) | Threat model, data split, training conditions, evaluation, and interpretation |
 | [Study configuration](configs/study.yaml) | Machine-readable draft settings and unresolved provenance fields |
@@ -109,6 +111,7 @@ These commands inspect the environment without downloading models, preparing dat
 | [`scripts/check_patch_embedding.py`](scripts/check_patch_embedding.py) | Isolated correctness/timing comparison of equivalent patch projections |
 | [`scripts/pilot.py`](scripts/pilot.py) | FP32 batch-eight MPS and RTX 5090 updates and full attack timing passed; RTX 3070 training ran out of memory |
 | [`scripts/estimate_compute.py`](scripts/estimate_compute.py) | Reproduces partial planning projections; missing costs stay unknown and cannot approve a run |
+| [`scripts/estimate_measured_study.py`](scripts/estimate_measured_study.py) | Offline shared-forward timing projection; rejects changed inputs, preserves unknowns and never admits a run |
 | [`scripts/estimate_staged_study.py`](scripts/estimate_staged_study.py) | Implemented: staged cost comparison, source-hash checks, and metadata-only subset audit; never approves a run |
 | [`scripts/train.py`](scripts/train.py) | Bounded training/resume; exact two-update CUDA recovery passes under the explicit shared-forward policy; research admission pending |
 | [`scripts/export_staged_manifests.py`](scripts/export_staged_manifests.py) | Implemented: exact replay and export of the proposed subset identities |

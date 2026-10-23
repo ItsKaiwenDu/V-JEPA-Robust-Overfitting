@@ -26,9 +26,13 @@ including fresh processes and scheduled evaluation. No study backend is adopted.
 The [bounded pretrained CUDA workflow](report/checks/2026-10-22-shared-forward-cuda-workflow.md)
 now passes all eleven phases, both two-update exact recovery comparisons,
 representative numerical/attack checks and final controls. The user fully
-terminated the Pod after verified export. Next: reconcile provisional
-billing, rebuild costs, review data and freeze the explicit precision/protocol
-before an exploratory pair. No research trajectory is complete; confirmation
+terminated the Pod after verified export. The [measured budget review](report/checks/2026-10-22-measured-budget-review.md)
+now puts the 20-class design at $304–$307 and the ten-class alternative at
+$219–$221, with allowances/reserves and remaining unknowns. Neither fits
+the caps. The user chose to keep 20 classes; the [lower-cost hardware screen](docs/lower_cost_gpu_benchmark.md)
+is prepared/restored, with a user-reported A5000 quote of $0.29/hour. Next is
+an attended manual deployment, fresh host identity/deadline and bounded screen,
+then review data and freeze precision/protocol before any exploration. No research trajectory is complete; confirmation
 remains conditional.
 
 ## Repository setup

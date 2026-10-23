@@ -1,0 +1,1746 @@
+{
+  "billing_snapshot": {
+    "actual_session_charge_usd": null,
+    "billing_basis": "User says the $1.688 summary includes yesterday's confirmed $0.603 run; $1.085 is the derived increment, not a separately verified Pod charge.",
+    "billing_note": "User confirmed full Pod termination. Keep the derived increment/cumulative sum provisional and retain the $3 reservation until a settled Pod-specific charge is available; no invoice/API was checked.",
+    "billing_reconciled": false,
+    "derived_cumulative_spending_usd": 2.28,
+    "derived_current_session_usd": 1.085,
+    "derived_shared_pilot_remaining_usd": 7.72,
+    "planned_compute_usd": 160,
+    "pod_shutdown_user_confirmed": true,
+    "pod_terminated_user_reported": true,
+    "previous_reported_spending_usd": 1.195,
+    "project_cap_usd": 200,
+    "provider_stop_state_independently_queried": false,
+    "quoted_hourly_usd": 1.21,
+    "quoted_source": "user-reported Runpod console",
+    "reported_combined_billing_usd": 1.688,
+    "session_maximum_billed_hours": 2,
+    "session_maximum_inclusive_usd": 3,
+    "session_reserved_pending_reconciliation_usd": 3,
+    "shared_pilot_balance_before_current_charge_usd": 8.805,
+    "subtracted_previous_session_usd": 0.603,
+    "unreserved_pilot_balance_usd": 5.805
+  },
+  "budget_approved": false,
+  "candidate_execution_policy": "shared-fp64-native",
+  "cloud_job_started": false,
+  "complete_cost_estimate": false,
+  "date": "2026-10-22",
+  "kind": "offline_measured_unit_budget_review",
+  "limitations": [
+    "Both median and maximum-observed summaries extrapolate a small training-only sample; neither is a full-study timing bound or confidence interval.",
+    "Primary timings pool seven 2/255 records plus one 0.5/255 and one 1/255 calibration record at identical attack strength. The full calibration span is separately timed; ten-clip research calibration has not frozen a step size.",
+    "Clean native scores are already in evaluate_clip timing. Two extra scoring banks are already in convergence timing. Neither is added again.",
+    "Checkpoint state and save spans are disjoint; nested workflow/scheduled/control totals are excluded to prevent double counting.",
+    "Full feature/probe, panel/I/O, export/storage, setup/idle and repair costs remain null. The historical eight-hour allowance is not a measurement or a bound.",
+    "A hypothetical price threshold assumes unchanged throughput and validated numerics. It does not predict another GPU performance or availability.",
+    "The provisional aggregate-derived $2.280 spend is not a reconciled Pod invoice. The full pilot reserve is retained.",
+    "Only existing class-count variants are compared. No manifests, attacks, seeds, epochs, precision settings or study limits are changed."
+  ],
+  "measurement_sample_sizes": {
+    "evaluation": {
+      "convergence": 1,
+      "fgsm": 1,
+      "primary": 9,
+      "random": 1,
+      "routine": 10
+    },
+    "updates": {
+      "adversarial-finetune": 4,
+      "clean-finetune": 4
+    }
+  },
+  "pixels_opened": false,
+  "precision_note": "FP64 context-patch accumulation with FP32 learned parameters/tokens/tail; this differs from the historical proposal and is not adopted for research.",
+  "protocol_or_yaml_changed": false,
+  "quote": {
+    "basis": "User-reported October 22 RTX 5090 quote including selected running disks; not a new availability or price check.",
+    "usd_per_hour": 1.21
+  },
+  "research_calibration_complete": false,
+  "reserve_accounting": "The entire $10 pilot envelope already includes prior charges and the pending $3 reservation. Add it once, plus $40 noncompute reserve; do not add $2.280 again.",
+  "source_sha256": {
+    "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "configs/budget_study_plan.yaml": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+    "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+    "data/manifests/ucf101-split1-v1/test.csv": "6de73dbcff7c31dc27b8e447cbd5eb75afa4f876a059e25b59c645d384418028",
+    "data/manifests/ucf101-split1-v1/train.csv": "3b1c271a114a880358e107adf4385a1367bb224901ee47a867dec0c5b68cc212",
+    "data/manifests/ucf101-split1-v1/validation.csv": "5c38b15f3c3935a7cb00ff418a4a4544453307b5007c2c342499f9899a0bf65c",
+    "models/checkpointing.py": "e3c2d47b6770a62abea576eb65cecfe3564b8270c0823d064c47ecbaf9f9434f",
+    "models/cuda_convolution.py": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3",
+    "models/evaluation.py": "1431951d158b57b615208006edb5365a6bad910b2a14e0aa782a1c6f82034089",
+    "models/execution.py": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba",
+    "models/measured_budget.py": "d1e683a37ab70a5a35631d4fb96f76ea764bdea49053b53abd00472d427e158f",
+    "models/native_diagnostic.py": "695834ba32aa9a87ae4a89bce182f526bc6d02363235e544ad85fbc96a75c1a6",
+    "models/pilot_measurement.py": "3361cd01dc4b23f64e749df877988ecbfe4dfda18ee5d9305c5f25ea33322753",
+    "models/precision_diagnostic.py": "59b7ed8a339ca1ed7586fe08c484b5791ab4ab1a5474f96e12fc925404b30470",
+    "models/precision_patch.py": "30e8a6b28b8f082fd771aaeab5a70a73cf200714ef2b24416a55938f61e9c550",
+    "models/schedule.py": "d46be0eb89a82a62be392ae20320646590adba83bd6ec6bbb42c6e3849f9dfd8",
+    "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+    "report/checks/2026-10-19-runpod-5090-attacks.json": "6c3f0e29b5bf68bb184142f00fea2f2e28c5f7997fc4632eaa2d1fcf738f830b",
+    "report/checks/2026-10-19-runpod-5090-pilot.json": "f45778c76a69ab9f526799009d8018d450e0ec389480f8d0da5e055e79cae736",
+    "report/checks/2026-10-22-shared-forward-cuda-workflow.json": "b8b7b9ad70b1d74abf8deecf4d1385f9ce1c5c23d9557afd016214b9bff4f027",
+    "scripts/estimate_measured_study.py": "98948e68770a9b21b67074b723f5263418a4b5ea6703591d23e657e43e803895"
+  },
+  "variants": {
+    "broad_101x10": {
+      "budget_approved": false,
+      "complete_cost_estimate": false,
+      "research_policy_adopted": false,
+      "scenarios": {
+        "maximum": {
+          "arithmetic_within_caps": false,
+          "break_even_all_in_hourly_price_at_same_throughput_usd": 0.14683724000583087,
+          "excess_over_total_cap_usd": 1086.0624593106809,
+          "phases": {
+            "confirmation": {
+              "components": {
+                "adversarial_updates": {
+                  "count": 11430,
+                  "projected_hours": 131.96510116313002,
+                  "seconds_per_unit": 41.56381138996221
+                },
+                "calibration_three_candidate_clip_bundles": {
+                  "count": 0,
+                  "projected_hours": 0.0,
+                  "seconds_per_unit": 435.34451593621634
+                },
+                "checkpoint_state_and_save_boundaries": {
+                  "count": 186,
+                  "projected_hours": 0.6299526671293036,
+                  "seconds_per_unit": 12.19263226701878
+                },
+                "clean_updates": {
+                  "count": 11430,
+                  "projected_hours": 22.644734285504093,
+                  "seconds_per_unit": 7.132199774961919
+                },
+                "convergence_clips_including_two_audits": {
+                  "count": 100,
+                  "projected_hours": 17.553613904527285,
+                  "seconds_per_unit": 631.9301005629823
+                },
+                "fgsm_clips": {
+                  "count": 100,
+                  "projected_hours": 0.17982414452773002,
+                  "seconds_per_unit": 6.4736692029982805
+                },
+                "primary_test_clips": {
+                  "count": 3030,
+                  "projected_hours": 117.04254862344241,
+                  "seconds_per_unit": 139.0604538100306
+                },
+                "primary_train_validation_clips": {
+                  "count": 7373,
+                  "projected_hours": 284.8035349837099,
+                  "seconds_per_unit": 139.0604538100306
+                },
+                "random_clips": {
+                  "count": 100,
+                  "projected_hours": 0.07669299250442742,
+                  "seconds_per_unit": 2.760947730159387
+                },
+                "routine_clips": {
+                  "count": 36461,
+                  "projected_hours": 54.41546999342636,
+                  "seconds_per_unit": 5.372746001929045
+                },
+                "trained_selected_anchor_loads": {
+                  "count": 9,
+                  "projected_hours": 0.010031570094870403,
+                  "seconds_per_unit": 4.012628037948161
+                }
+              },
+              "historical_untimed_allowance_hours_not_a_bound": 6,
+              "study_compute_with_headroom_and_allowance_usd": 960.9237752960943,
+              "study_compute_with_headroom_without_allowance_usd": 951.8487752960943,
+              "timed_unit_extrapolation_hours": 629.3215043279963,
+              "unknown_costs": [
+                {
+                  "component": "Full-panel data loading, integrity review, decoding and target caching",
+                  "hours": null
+                },
+                {
+                  "component": "Uninstrumented per-panel identity/hash/journal work and GPU transfers",
+                  "hours": null
+                },
+                {
+                  "component": "Full-training-set features, ridge fit and held-out probe scoring",
+                  "hours": null
+                },
+                {
+                  "component": "Checkpoint retention, temporary disk peaks, export and verified backup",
+                  "hours": null
+                },
+                {
+                  "component": "Fresh billed setup, transfers, idle time, restarts and failed work",
+                  "hours": null
+                }
+              ]
+            },
+            "exploration": {
+              "components": {
+                "adversarial_updates": {
+                  "count": 3810,
+                  "projected_hours": 43.988367054376674,
+                  "seconds_per_unit": 41.56381138996221
+                },
+                "calibration_three_candidate_clip_bundles": {
+                  "count": 10,
+                  "projected_hours": 1.2092903220450455,
+                  "seconds_per_unit": 435.34451593621634
+                },
+                "checkpoint_state_and_save_boundaries": {
+                  "count": 62,
+                  "projected_hours": 0.20998422237643455,
+                  "seconds_per_unit": 12.19263226701878
+                },
+                "clean_updates": {
+                  "count": 3810,
+                  "projected_hours": 7.548244761834697,
+                  "seconds_per_unit": 7.132199774961919
+                },
+                "convergence_clips_including_two_audits": {
+                  "count": 40,
+                  "projected_hours": 7.021445561810914,
+                  "seconds_per_unit": 631.9301005629823
+                },
+                "fgsm_clips": {
+                  "count": 40,
+                  "projected_hours": 0.07192965781109201,
+                  "seconds_per_unit": 6.4736692029982805
+                },
+                "primary_test_clips": {
+                  "count": 0,
+                  "projected_hours": 0.0,
+                  "seconds_per_unit": 139.0604538100306
+                },
+                "primary_train_validation_clips": {
+                  "count": 2626,
+                  "projected_hours": 101.43687547365009,
+                  "seconds_per_unit": 139.0604538100306
+                },
+                "random_clips": {
+                  "count": 40,
+                  "projected_hours": 0.030677197001770965,
+                  "seconds_per_unit": 2.760947730159387
+                },
+                "routine_clips": {
+                  "count": 12322,
+                  "projected_hours": 18.389715621047134,
+                  "seconds_per_unit": 5.372746001929045
+                },
+                "trained_selected_anchor_loads": {
+                  "count": 3,
+                  "projected_hours": 0.0033438566982901346,
+                  "seconds_per_unit": 4.012628037948161
+                }
+              },
+              "historical_untimed_allowance_hours_not_a_bound": 2,
+              "study_compute_with_headroom_and_allowance_usd": 275.1386840145864,
+              "study_compute_with_headroom_without_allowance_usd": 272.1136840145864,
+              "timed_unit_extrapolation_hours": 179.90987372865214,
+              "unknown_costs": [
+                {
+                  "component": "Full-panel data loading, integrity review, decoding and target caching",
+                  "hours": null
+                },
+                {
+                  "component": "Uninstrumented per-panel identity/hash/journal work and GPU transfers",
+                  "hours": null
+                },
+                {
+                  "component": "Full-training-set features, ridge fit and held-out probe scoring",
+                  "hours": null
+                },
+                {
+                  "component": "Checkpoint retention, temporary disk peaks, export and verified backup",
+                  "hours": null
+                },
+                {
+                  "component": "Fresh billed setup, transfers, idle time, restarts and failed work",
+                  "hours": null
+                }
+              ]
+            }
+          },
+          "primary_fraction_of_timed_work": 0.6219271431236706,
+          "required_primary_only_speedup_at_recorded_quote": null,
+          "required_uniform_timed_work_speedup_at_recorded_quote": 8.875724868097757,
+          "timed_unit_extrapolation_hours": 809.2313780566485,
+          "total_compute_including_full_pilot_reserve_usd": 1246.0624593106809,
+          "total_with_historical_untimed_allowance_usd": 1286.0624593106809,
+          "total_without_untimed_allowance_usd": 1273.9624593106807,
+          "with_headroom_and_allowance_hours": 1021.5392225708106
+        },
+        "median": {
+          "arithmetic_within_caps": false,
+          "break_even_all_in_hourly_price_at_same_throughput_usd": 0.1487543232075654,
+          "excess_over_total_cap_usd": 1070.13260580496,
+          "phases": {
+            "confirmation": {
+              "components": {
+                "adversarial_updates": {
+                  "count": 11430,
+                  "projected_hours": 131.30022840571763,
+                  "seconds_per_unit": 41.354402647470124
+                },
+                "calibration_three_candidate_clip_bundles": {
+                  "count": 0,
+                  "projected_hours": 0.0,
+                  "seconds_per_unit": 435.34451593621634
+                },
+                "checkpoint_state_and_save_boundaries": {
+                  "count": 186,
+                  "projected_hours": 0.5258841128903441,
+                  "seconds_per_unit": 10.178402184974402
+                },
+                "clean_updates": {
+                  "count": 11430,
+                  "projected_hours": 22.33790646181442,
+                  "seconds_per_unit": 7.03556109033525
+                },
+                "convergence_clips_including_two_audits": {
+                  "count": 100,
+                  "projected_hours": 17.553613904527285,
+                  "seconds_per_unit": 631.9301005629823
+                },
+                "fgsm_clips": {
+                  "count": 100,
+                  "projected_hours": 0.17982414452773002,
+                  "seconds_per_unit": 6.4736692029982805
+                },
+                "primary_test_clips": {
+                  "count": 3030,
+                  "projected_hours": 115.50398009315832,
+                  "seconds_per_unit": 137.23245159583166
+                },
+                "primary_train_validation_clips": {
+                  "count": 7373,
+                  "projected_hours": 281.0596848933519,
+                  "seconds_per_unit": 137.23245159583166
+                },
+                "random_clips": {
+                  "count": 100,
+                  "projected_hours": 0.07669299250442742,
+                  "seconds_per_unit": 2.760947730159387
+                },
+                "routine_clips": {
+                  "count": 36461,
+                  "projected_hours": 52.56044494393625,
+                  "seconds_per_unit": 5.189588925102726
+                },
+                "trained_selected_anchor_loads": {
+                  "count": 9,
+                  "projected_hours": 0.010031570094870403,
+                  "seconds_per_unit": 4.012628037948161
+                }
+              },
+              "historical_untimed_allowance_hours_not_a_bound": 6,
+              "study_compute_with_headroom_and_allowance_usd": 948.5012909278163,
+              "study_compute_with_headroom_without_allowance_usd": 939.4262909278162,
+              "timed_unit_extrapolation_hours": 621.1082915225231,
+              "unknown_costs": [
+                {
+                  "component": "Full-panel data loading, integrity review, decoding and target caching",
+                  "hours": null
+                },
+                {
+                  "component": "Uninstrumented per-panel identity/hash/journal work and GPU transfers",
+                  "hours": null
+                },
+                {
+                  "component": "Full-training-set features, ridge fit and held-out probe scoring",
+                  "hours": null
+                },
+                {
+                  "component": "Checkpoint retention, temporary disk peaks, export and verified backup",
+                  "hours": null
+                },
+                {
+                  "component": "Fresh billed setup, transfers, idle time, restarts and failed work",
+                  "hours": null
+                }
+              ]
+            },
+            "exploration": {
+              "components": {
+                "adversarial_updates": {
+                  "count": 3810,
+                  "projected_hours": 43.766742801905885,
+                  "seconds_per_unit": 41.354402647470124
+                },
+                "calibration_three_candidate_clip_bundles": {
+                  "count": 10,
+                  "projected_hours": 1.2092903220450455,
+                  "seconds_per_unit": 435.34451593621634
+                },
+                "checkpoint_state_and_save_boundaries": {
+                  "count": 62,
+                  "projected_hours": 0.17529470429678137,
+                  "seconds_per_unit": 10.178402184974402
+                },
+                "clean_updates": {
+                  "count": 3810,
+                  "projected_hours": 7.445968820604806,
+                  "seconds_per_unit": 7.03556109033525
+                },
+                "convergence_clips_including_two_audits": {
+                  "count": 40,
+                  "projected_hours": 7.021445561810914,
+                  "seconds_per_unit": 631.9301005629823
+                },
+                "fgsm_clips": {
+                  "count": 40,
+                  "projected_hours": 0.07192965781109201,
+                  "seconds_per_unit": 6.4736692029982805
+                },
+                "primary_test_clips": {
+                  "count": 0,
+                  "projected_hours": 0.0,
+                  "seconds_per_unit": 137.23245159583166
+                },
+                "primary_train_validation_clips": {
+                  "count": 2626,
+                  "projected_hours": 100.10344941407054,
+                  "seconds_per_unit": 137.23245159583166
+                },
+                "random_clips": {
+                  "count": 40,
+                  "projected_hours": 0.030677197001770965,
+                  "seconds_per_unit": 2.760947730159387
+                },
+                "routine_clips": {
+                  "count": 12322,
+                  "projected_hours": 17.762809648643273,
+                  "seconds_per_unit": 5.189588925102726
+                },
+                "trained_selected_anchor_loads": {
+                  "count": 3,
+                  "projected_hours": 0.0033438566982901346,
+                  "seconds_per_unit": 4.012628037948161
+                }
+              },
+              "historical_untimed_allowance_hours_not_a_bound": 2,
+              "study_compute_with_headroom_and_allowance_usd": 271.63131487714367,
+              "study_compute_with_headroom_without_allowance_usd": 268.6063148771437,
+              "timed_unit_extrapolation_hours": 177.5909519848884,
+              "unknown_costs": [
+                {
+                  "component": "Full-panel data loading, integrity review, decoding and target caching",
+                  "hours": null
+                },
+                {
+                  "component": "Uninstrumented per-panel identity/hash/journal work and GPU transfers",
+                  "hours": null
+                },
+                {
+                  "component": "Full-training-set features, ridge fit and held-out probe scoring",
+                  "hours": null
+                },
+                {
+                  "component": "Checkpoint retention, temporary disk peaks, export and verified backup",
+                  "hours": null
+                },
+                {
+                  "component": "Fresh billed setup, transfers, idle time, restarts and failed work",
+                  "hours": null
+                }
+              ]
+            }
+          },
+          "primary_fraction_of_timed_work": 0.6218449791181904,
+          "required_primary_only_speedup_at_recorded_quote": null,
+          "required_uniform_timed_work_speedup_at_recorded_quote": 8.76020743875968,
+          "timed_unit_extrapolation_hours": 798.6992435074116,
+          "total_compute_including_full_pilot_reserve_usd": 1230.13260580496,
+          "total_with_historical_untimed_allowance_usd": 1270.13260580496,
+          "total_without_untimed_allowance_usd": 1258.03260580496,
+          "with_headroom_and_allowance_hours": 1008.3740543842645
+        }
+      },
+      "workload": {
+        "classes": 101,
+        "final_test_checkpoint_upper_bound": 10,
+        "phases": {
+          "confirmation": {
+            "adversarial_updates": 11430,
+            "calibration_three_candidate_clip_bundles": 0,
+            "checkpoint_state_and_save_boundaries": 186,
+            "clean_updates": 11430,
+            "convergence_clips_including_two_audits": 100,
+            "fgsm_clips": 100,
+            "primary_test_clips": 3030,
+            "primary_train_validation_clips": 7373,
+            "random_clips": 100,
+            "routine_clips": 36461,
+            "trained_selected_anchor_loads": 9
+          },
+          "exploration": {
+            "adversarial_updates": 3810,
+            "calibration_three_candidate_clip_bundles": 10,
+            "checkpoint_state_and_save_boundaries": 62,
+            "clean_updates": 3810,
+            "convergence_clips_including_two_audits": 40,
+            "fgsm_clips": 40,
+            "primary_test_clips": 0,
+            "primary_train_validation_clips": 2626,
+            "random_clips": 40,
+            "routine_clips": 12322,
+            "trained_selected_anchor_loads": 3
+          }
+        },
+        "runs": 8,
+        "selected_checkpoint_validation_panel_pairs": 14,
+        "selected_representation_upper_bound": 13,
+        "training_clips": 1010,
+        "updates_per_run": 3810
+      }
+    },
+    "focused_20x5": {
+      "budget_approved": false,
+      "complete_cost_estimate": false,
+      "research_policy_adopted": false,
+      "scenarios": {
+        "maximum": {
+          "arithmetic_within_caps": false,
+          "break_even_all_in_hourly_price_at_same_throughput_usd": 0.7051554153979465,
+          "excess_over_total_cap_usd": 107.39006754641815,
+          "phases": {
+            "confirmation": {
+              "components": {
+                "adversarial_updates": {
+                  "count": 1170,
+                  "projected_hours": 13.508238701737719,
+                  "seconds_per_unit": 41.56381138996221
+                },
+                "calibration_three_candidate_clip_bundles": {
+                  "count": 0,
+                  "projected_hours": 0.0,
+                  "seconds_per_unit": 435.34451593621634
+                },
+                "checkpoint_state_and_save_boundaries": {
+                  "count": 186,
+                  "projected_hours": 0.6299526671293036,
+                  "seconds_per_unit": 12.19263226701878
+                },
+                "clean_updates": {
+                  "count": 1170,
+                  "projected_hours": 2.3179649268626235,
+                  "seconds_per_unit": 7.132199774961919
+                },
+                "convergence_clips_including_two_audits": {
+                  "count": 100,
+                  "projected_hours": 17.553613904527285,
+                  "seconds_per_unit": 631.9301005629823
+                },
+                "fgsm_clips": {
+                  "count": 100,
+                  "projected_hours": 0.17982414452773002,
+                  "seconds_per_unit": 6.4736692029982805
+                },
+                "primary_test_clips": {
+                  "count": 600,
+                  "projected_hours": 23.176742301671766,
+                  "seconds_per_unit": 139.0604538100306
+                },
+                "primary_train_validation_clips": {
+                  "count": 1460,
+                  "projected_hours": 56.39673960073463,
+                  "seconds_per_unit": 139.0604538100306
+                },
+                "random_clips": {
+                  "count": 100,
+                  "projected_hours": 0.07669299250442742,
+                  "seconds_per_unit": 2.760947730159387
+                },
+                "routine_clips": {
+                  "count": 7220,
+                  "projected_hours": 10.775340592757695,
+                  "seconds_per_unit": 5.372746001929045
+                },
+                "trained_selected_anchor_loads": {
+                  "count": 9,
+                  "projected_hours": 0.010031570094870403,
+                  "seconds_per_unit": 4.012628037948161
+                }
+              },
+              "historical_untimed_allowance_hours_not_a_bound": 6,
+              "study_compute_with_headroom_and_allowance_usd": 197.5705263713539,
+              "study_compute_with_headroom_without_allowance_usd": 188.49552637135392,
+              "timed_unit_extrapolation_hours": 124.62514140254805,
+              "unknown_costs": [
+                {
+                  "component": "Full-panel data loading, integrity review, decoding and target caching",
+                  "hours": null
+                },
+                {
+                  "component": "Uninstrumented per-panel identity/hash/journal work and GPU transfers",
+                  "hours": null
+                },
+                {
+                  "component": "Full-training-set features, ridge fit and held-out probe scoring",
+                  "hours": null
+                },
+                {
+                  "component": "Checkpoint retention, temporary disk peaks, export and verified backup",
+                  "hours": null
+                },
+                {
+                  "component": "Fresh billed setup, transfers, idle time, restarts and failed work",
+                  "hours": null
+                }
+              ]
+            },
+            "exploration": {
+              "components": {
+                "adversarial_updates": {
+                  "count": 390,
+                  "projected_hours": 4.502746233912573,
+                  "seconds_per_unit": 41.56381138996221
+                },
+                "calibration_three_candidate_clip_bundles": {
+                  "count": 10,
+                  "projected_hours": 1.2092903220450455,
+                  "seconds_per_unit": 435.34451593621634
+                },
+                "checkpoint_state_and_save_boundaries": {
+                  "count": 62,
+                  "projected_hours": 0.20998422237643455,
+                  "seconds_per_unit": 12.19263226701878
+                },
+                "clean_updates": {
+                  "count": 390,
+                  "projected_hours": 0.7726549756208745,
+                  "seconds_per_unit": 7.132199774961919
+                },
+                "convergence_clips_including_two_audits": {
+                  "count": 40,
+                  "projected_hours": 7.021445561810914,
+                  "seconds_per_unit": 631.9301005629823
+                },
+                "fgsm_clips": {
+                  "count": 40,
+                  "projected_hours": 0.07192965781109201,
+                  "seconds_per_unit": 6.4736692029982805
+                },
+                "primary_test_clips": {
+                  "count": 0,
+                  "projected_hours": 0.0,
+                  "seconds_per_unit": 139.0604538100306
+                },
+                "primary_train_validation_clips": {
+                  "count": 520,
+                  "projected_hours": 20.086509994782197,
+                  "seconds_per_unit": 139.0604538100306
+                },
+                "random_clips": {
+                  "count": 40,
+                  "projected_hours": 0.030677197001770965,
+                  "seconds_per_unit": 2.760947730159387
+                },
+                "routine_clips": {
+                  "count": 2440,
+                  "projected_hours": 3.641527845751908,
+                  "seconds_per_unit": 5.372746001929045
+                },
+                "trained_selected_anchor_loads": {
+                  "count": 3,
+                  "projected_hours": 0.0033438566982901346,
+                  "seconds_per_unit": 4.012628037948161
+                }
+              },
+              "historical_untimed_allowance_hours_not_a_bound": 2,
+              "study_compute_with_headroom_and_allowance_usd": 59.81954117506427,
+              "study_compute_with_headroom_without_allowance_usd": 56.794541175064275,
+              "timed_unit_extrapolation_hours": 37.55010986781109,
+              "unknown_costs": [
+                {
+                  "component": "Full-panel data loading, integrity review, decoding and target caching",
+                  "hours": null
+                },
+                {
+                  "component": "Uninstrumented per-panel identity/hash/journal work and GPU transfers",
+                  "hours": null
+                },
+                {
+                  "component": "Full-training-set features, ridge fit and held-out probe scoring",
+                  "hours": null
+                },
+                {
+                  "component": "Checkpoint retention, temporary disk peaks, export and verified backup",
+                  "hours": null
+                },
+                {
+                  "component": "Fresh billed setup, transfers, idle time, restarts and failed work",
+                  "hours": null
+                }
+              ]
+            }
+          },
+          "primary_fraction_of_timed_work": 0.6145203483054724,
+          "required_primary_only_speedup_at_recorded_quote": 3.477526983794936,
+          "required_uniform_timed_work_speedup_at_recorded_quote": 1.778753209183598,
+          "timed_unit_extrapolation_hours": 162.17525127035913,
+          "total_compute_including_full_pilot_reserve_usd": 267.39006754641815,
+          "total_with_historical_untimed_allowance_usd": 307.39006754641815,
+          "total_without_untimed_allowance_usd": 295.2900675464182,
+          "with_headroom_and_allowance_hours": 212.7190640879489
+        },
+        "median": {
+          "arithmetic_within_caps": false,
+          "break_even_all_in_hourly_price_at_same_throughput_usd": 0.7138508902730835,
+          "excess_over_total_cap_usd": 104.25477851623498,
+          "phases": {
+            "confirmation": {
+              "components": {
+                "adversarial_updates": {
+                  "count": 1170,
+                  "projected_hours": 13.440180860427791,
+                  "seconds_per_unit": 41.354402647470124
+                },
+                "calibration_three_candidate_clip_bundles": {
+                  "count": 0,
+                  "projected_hours": 0.0,
+                  "seconds_per_unit": 435.34451593621634
+                },
+                "checkpoint_state_and_save_boundaries": {
+                  "count": 186,
+                  "projected_hours": 0.5258841128903441,
+                  "seconds_per_unit": 10.178402184974402
+                },
+                "clean_updates": {
+                  "count": 1170,
+                  "projected_hours": 2.286557354358956,
+                  "seconds_per_unit": 7.03556109033525
+                },
+                "convergence_clips_including_two_audits": {
+                  "count": 100,
+                  "projected_hours": 17.553613904527285,
+                  "seconds_per_unit": 631.9301005629823
+                },
+                "fgsm_clips": {
+                  "count": 100,
+                  "projected_hours": 0.17982414452773002,
+                  "seconds_per_unit": 6.4736692029982805
+                },
+                "primary_test_clips": {
+                  "count": 600,
+                  "projected_hours": 22.872075265971944,
+                  "seconds_per_unit": 137.23245159583166
+                },
+                "primary_train_validation_clips": {
+                  "count": 1460,
+                  "projected_hours": 55.6553831471984,
+                  "seconds_per_unit": 137.23245159583166
+                },
+                "random_clips": {
+                  "count": 100,
+                  "projected_hours": 0.07669299250442742,
+                  "seconds_per_unit": 2.760947730159387
+                },
+                "routine_clips": {
+                  "count": 7220,
+                  "projected_hours": 10.408008899789355,
+                  "seconds_per_unit": 5.189588925102726
+                },
+                "trained_selected_anchor_loads": {
+                  "count": 9,
+                  "projected_hours": 0.010031570094870403,
+                  "seconds_per_unit": 4.012628037948161
+                }
+              },
+              "historical_untimed_allowance_hours_not_a_bound": 6,
+              "study_compute_with_headroom_and_allowance_usd": 195.12498153159024,
+              "study_compute_with_headroom_without_allowance_usd": 186.04998153159028,
+              "timed_unit_extrapolation_hours": 123.00825225229109,
+              "unknown_costs": [
+                {
+                  "component": "Full-panel data loading, integrity review, decoding and target caching",
+                  "hours": null
+                },
+                {
+                  "component": "Uninstrumented per-panel identity/hash/journal work and GPU transfers",
+                  "hours": null
+                },
+                {
+                  "component": "Full-training-set features, ridge fit and held-out probe scoring",
+                  "hours": null
+                },
+                {
+                  "component": "Checkpoint retention, temporary disk peaks, export and verified backup",
+                  "hours": null
+                },
+                {
+                  "component": "Fresh billed setup, transfers, idle time, restarts and failed work",
+                  "hours": null
+                }
+              ]
+            },
+            "exploration": {
+              "components": {
+                "adversarial_updates": {
+                  "count": 390,
+                  "projected_hours": 4.480060286809263,
+                  "seconds_per_unit": 41.354402647470124
+                },
+                "calibration_three_candidate_clip_bundles": {
+                  "count": 10,
+                  "projected_hours": 1.2092903220450455,
+                  "seconds_per_unit": 435.34451593621634
+                },
+                "checkpoint_state_and_save_boundaries": {
+                  "count": 62,
+                  "projected_hours": 0.17529470429678137,
+                  "seconds_per_unit": 10.178402184974402
+                },
+                "clean_updates": {
+                  "count": 390,
+                  "projected_hours": 0.7621857847863187,
+                  "seconds_per_unit": 7.03556109033525
+                },
+                "convergence_clips_including_two_audits": {
+                  "count": 40,
+                  "projected_hours": 7.021445561810914,
+                  "seconds_per_unit": 631.9301005629823
+                },
+                "fgsm_clips": {
+                  "count": 40,
+                  "projected_hours": 0.07192965781109201,
+                  "seconds_per_unit": 6.4736692029982805
+                },
+                "primary_test_clips": {
+                  "count": 0,
+                  "projected_hours": 0.0,
+                  "seconds_per_unit": 137.23245159583166
+                },
+                "primary_train_validation_clips": {
+                  "count": 520,
+                  "projected_hours": 19.822465230509017,
+                  "seconds_per_unit": 137.23245159583166
+                },
+                "random_clips": {
+                  "count": 40,
+                  "projected_hours": 0.030677197001770965,
+                  "seconds_per_unit": 2.760947730159387
+                },
+                "routine_clips": {
+                  "count": 2440,
+                  "projected_hours": 3.517388049236292,
+                  "seconds_per_unit": 5.189588925102726
+                },
+                "trained_selected_anchor_loads": {
+                  "count": 3,
+                  "projected_hours": 0.0033438566982901346,
+                  "seconds_per_unit": 4.012628037948161
+                }
+              },
+              "historical_untimed_allowance_hours_not_a_bound": 2,
+              "study_compute_with_headroom_and_allowance_usd": 59.129796984644734,
+              "study_compute_with_headroom_without_allowance_usd": 56.10479698464473,
+              "timed_unit_extrapolation_hours": 37.09408065100478,
+              "unknown_costs": [
+                {
+                  "component": "Full-panel data loading, integrity review, decoding and target caching",
+                  "hours": null
+                },
+                {
+                  "component": "Uninstrumented per-panel identity/hash/journal work and GPU transfers",
+                  "hours": null
+                },
+                {
+                  "component": "Full-training-set features, ridge fit and held-out probe scoring",
+                  "hours": null
+                },
+                {
+                  "component": "Checkpoint retention, temporary disk peaks, export and verified backup",
+                  "hours": null
+                },
+                {
+                  "component": "Fresh billed setup, transfers, idle time, restarts and failed work",
+                  "hours": null
+                }
+              ]
+            }
+          },
+          "primary_fraction_of_timed_work": 0.614294132135377,
+          "required_primary_only_speedup_at_recorded_quote": 3.3428313361305797,
+          "required_uniform_timed_work_speedup_at_recorded_quote": 1.7560172481235314,
+          "timed_unit_extrapolation_hours": 160.10233290329586,
+          "total_compute_including_full_pilot_reserve_usd": 264.254778516235,
+          "total_with_historical_untimed_allowance_usd": 304.254778516235,
+          "total_without_untimed_allowance_usd": 292.15477851623496,
+          "with_headroom_and_allowance_hours": 210.12791612911982
+        }
+      },
+      "workload": {
+        "classes": 20,
+        "final_test_checkpoint_upper_bound": 10,
+        "phases": {
+          "confirmation": {
+            "adversarial_updates": 1170,
+            "calibration_three_candidate_clip_bundles": 0,
+            "checkpoint_state_and_save_boundaries": 186,
+            "clean_updates": 1170,
+            "convergence_clips_including_two_audits": 100,
+            "fgsm_clips": 100,
+            "primary_test_clips": 600,
+            "primary_train_validation_clips": 1460,
+            "random_clips": 100,
+            "routine_clips": 7220,
+            "trained_selected_anchor_loads": 9
+          },
+          "exploration": {
+            "adversarial_updates": 390,
+            "calibration_three_candidate_clip_bundles": 10,
+            "checkpoint_state_and_save_boundaries": 62,
+            "clean_updates": 390,
+            "convergence_clips_including_two_audits": 40,
+            "fgsm_clips": 40,
+            "primary_test_clips": 0,
+            "primary_train_validation_clips": 520,
+            "random_clips": 40,
+            "routine_clips": 2440,
+            "trained_selected_anchor_loads": 3
+          }
+        },
+        "runs": 8,
+        "selected_checkpoint_validation_panel_pairs": 14,
+        "selected_representation_upper_bound": 13,
+        "training_clips": 100,
+        "updates_per_run": 390
+      }
+    },
+    "more_training_20x10": {
+      "budget_approved": false,
+      "complete_cost_estimate": false,
+      "research_policy_adopted": false,
+      "scenarios": {
+        "maximum": {
+          "arithmetic_within_caps": false,
+          "break_even_all_in_hourly_price_at_same_throughput_usd": 0.632732332704587,
+          "excess_over_total_cap_usd": 136.8511543011973,
+          "phases": {
+            "confirmation": {
+              "components": {
+                "adversarial_updates": {
+                  "count": 2250,
+                  "projected_hours": 25.977382118726382,
+                  "seconds_per_unit": 41.56381138996221
+                },
+                "calibration_three_candidate_clip_bundles": {
+                  "count": 0,
+                  "projected_hours": 0.0,
+                  "seconds_per_unit": 435.34451593621634
+                },
+                "checkpoint_state_and_save_boundaries": {
+                  "count": 186,
+                  "projected_hours": 0.6299526671293036,
+                  "seconds_per_unit": 12.19263226701878
+                },
+                "clean_updates": {
+                  "count": 2250,
+                  "projected_hours": 4.457624859351199,
+                  "seconds_per_unit": 7.132199774961919
+                },
+                "convergence_clips_including_two_audits": {
+                  "count": 100,
+                  "projected_hours": 17.553613904527285,
+                  "seconds_per_unit": 631.9301005629823
+                },
+                "fgsm_clips": {
+                  "count": 100,
+                  "projected_hours": 0.17982414452773002,
+                  "seconds_per_unit": 6.4736692029982805
+                },
+                "primary_test_clips": {
+                  "count": 600,
+                  "projected_hours": 23.176742301671766,
+                  "seconds_per_unit": 139.0604538100306
+                },
+                "primary_train_validation_clips": {
+                  "count": 1460,
+                  "projected_hours": 56.39673960073463,
+                  "seconds_per_unit": 139.0604538100306
+                },
+                "random_clips": {
+                  "count": 100,
+                  "projected_hours": 0.07669299250442742,
+                  "seconds_per_unit": 2.760947730159387
+                },
+                "routine_clips": {
+                  "count": 7220,
+                  "projected_hours": 10.775340592757695,
+                  "seconds_per_unit": 5.372746001929045
+                },
+                "trained_selected_anchor_loads": {
+                  "count": 9,
+                  "projected_hours": 0.010031570094870403,
+                  "seconds_per_unit": 4.012628037948161
+                }
+              },
+              "historical_untimed_allowance_hours_not_a_bound": 6,
+              "study_compute_with_headroom_and_allowance_usd": 219.66634143743826,
+              "study_compute_with_headroom_without_allowance_usd": 210.59134143743827,
+              "timed_unit_extrapolation_hours": 139.2339447520253,
+              "unknown_costs": [
+                {
+                  "component": "Full-panel data loading, integrity review, decoding and target caching",
+                  "hours": null
+                },
+                {
+                  "component": "Uninstrumented per-panel identity/hash/journal work and GPU transfers",
+                  "hours": null
+                },
+                {
+                  "component": "Full-training-set features, ridge fit and held-out probe scoring",
+                  "hours": null
+                },
+                {
+                  "component": "Checkpoint retention, temporary disk peaks, export and verified backup",
+                  "hours": null
+                },
+                {
+                  "component": "Fresh billed setup, transfers, idle time, restarts and failed work",
+                  "hours": null
+                }
+              ]
+            },
+            "exploration": {
+              "components": {
+                "adversarial_updates": {
+                  "count": 750,
+                  "projected_hours": 8.659127372908793,
+                  "seconds_per_unit": 41.56381138996221
+                },
+                "calibration_three_candidate_clip_bundles": {
+                  "count": 10,
+                  "projected_hours": 1.2092903220450455,
+                  "seconds_per_unit": 435.34451593621634
+                },
+                "checkpoint_state_and_save_boundaries": {
+                  "count": 62,
+                  "projected_hours": 0.20998422237643455,
+                  "seconds_per_unit": 12.19263226701878
+                },
+                "clean_updates": {
+                  "count": 750,
+                  "projected_hours": 1.4858749531170663,
+                  "seconds_per_unit": 7.132199774961919
+                },
+                "convergence_clips_including_two_audits": {
+                  "count": 40,
+                  "projected_hours": 7.021445561810914,
+                  "seconds_per_unit": 631.9301005629823
+                },
+                "fgsm_clips": {
+                  "count": 40,
+                  "projected_hours": 0.07192965781109201,
+                  "seconds_per_unit": 6.4736692029982805
+                },
+                "primary_test_clips": {
+                  "count": 0,
+                  "projected_hours": 0.0,
+                  "seconds_per_unit": 139.0604538100306
+                },
+                "primary_train_validation_clips": {
+                  "count": 520,
+                  "projected_hours": 20.086509994782197,
+                  "seconds_per_unit": 139.0604538100306
+                },
+                "random_clips": {
+                  "count": 40,
+                  "projected_hours": 0.030677197001770965,
+                  "seconds_per_unit": 2.760947730159387
+                },
+                "routine_clips": {
+                  "count": 2440,
+                  "projected_hours": 3.641527845751908,
+                  "seconds_per_unit": 5.372746001929045
+                },
+                "trained_selected_anchor_loads": {
+                  "count": 3,
+                  "projected_hours": 0.0033438566982901346,
+                  "seconds_per_unit": 4.012628037948161
+                }
+              },
+              "historical_untimed_allowance_hours_not_a_bound": 2,
+              "study_compute_with_headroom_and_allowance_usd": 67.18481286375905,
+              "study_compute_with_headroom_without_allowance_usd": 64.15981286375904,
+              "timed_unit_extrapolation_hours": 42.41971098430351,
+              "unknown_costs": [
+                {
+                  "component": "Full-panel data loading, integrity review, decoding and target caching",
+                  "hours": null
+                },
+                {
+                  "component": "Uninstrumented per-panel identity/hash/journal work and GPU transfers",
+                  "hours": null
+                },
+                {
+                  "component": "Full-training-set features, ridge fit and held-out probe scoring",
+                  "hours": null
+                },
+                {
+                  "component": "Checkpoint retention, temporary disk peaks, export and verified backup",
+                  "hours": null
+                },
+                {
+                  "component": "Fresh billed setup, transfers, idle time, restarts and failed work",
+                  "hours": null
+                }
+              ]
+            }
+          },
+          "primary_fraction_of_timed_work": 0.5486264038740051,
+          "required_primary_only_speedup_at_recorded_quote": 10.856338496581277,
+          "required_uniform_timed_work_speedup_at_recorded_quote": 1.9923941573690884,
+          "timed_unit_extrapolation_hours": 181.6536557363288,
+          "total_compute_including_full_pilot_reserve_usd": 296.8511543011973,
+          "total_with_historical_untimed_allowance_usd": 336.8511543011973,
+          "total_without_untimed_allowance_usd": 324.7511543011973,
+          "with_headroom_and_allowance_hours": 237.067069670411
+        },
+        "median": {
+          "arithmetic_within_caps": false,
+          "break_even_all_in_hourly_price_at_same_throughput_usd": 0.640142304834698,
+          "excess_over_total_cap_usd": 133.53070657760725,
+          "phases": {
+            "confirmation": {
+              "components": {
+                "adversarial_updates": {
+                  "count": 2250,
+                  "projected_hours": 25.846501654668828,
+                  "seconds_per_unit": 41.354402647470124
+                },
+                "calibration_three_candidate_clip_bundles": {
+                  "count": 0,
+                  "projected_hours": 0.0,
+                  "seconds_per_unit": 435.34451593621634
+                },
+                "checkpoint_state_and_save_boundaries": {
+                  "count": 186,
+                  "projected_hours": 0.5258841128903441,
+                  "seconds_per_unit": 10.178402184974402
+                },
+                "clean_updates": {
+                  "count": 2250,
+                  "projected_hours": 4.397225681459531,
+                  "seconds_per_unit": 7.03556109033525
+                },
+                "convergence_clips_including_two_audits": {
+                  "count": 100,
+                  "projected_hours": 17.553613904527285,
+                  "seconds_per_unit": 631.9301005629823
+                },
+                "fgsm_clips": {
+                  "count": 100,
+                  "projected_hours": 0.17982414452773002,
+                  "seconds_per_unit": 6.4736692029982805
+                },
+                "primary_test_clips": {
+                  "count": 600,
+                  "projected_hours": 22.872075265971944,
+                  "seconds_per_unit": 137.23245159583166
+                },
+                "primary_train_validation_clips": {
+                  "count": 1460,
+                  "projected_hours": 55.6553831471984,
+                  "seconds_per_unit": 137.23245159583166
+                },
+                "random_clips": {
+                  "count": 100,
+                  "projected_hours": 0.07669299250442742,
+                  "seconds_per_unit": 2.760947730159387
+                },
+                "routine_clips": {
+                  "count": 7220,
+                  "projected_hours": 10.408008899789355,
+                  "seconds_per_unit": 5.189588925102726
+                },
+                "trained_selected_anchor_loads": {
+                  "count": 9,
+                  "projected_hours": 0.010031570094870403,
+                  "seconds_per_unit": 4.012628037948161
+                }
+              },
+              "historical_untimed_allowance_hours_not_a_bound": 6,
+              "study_compute_with_headroom_and_allowance_usd": 217.0819275776195,
+              "study_compute_with_headroom_without_allowance_usd": 208.0069275776195,
+              "timed_unit_extrapolation_hours": 137.52524137363272,
+              "unknown_costs": [
+                {
+                  "component": "Full-panel data loading, integrity review, decoding and target caching",
+                  "hours": null
+                },
+                {
+                  "component": "Uninstrumented per-panel identity/hash/journal work and GPU transfers",
+                  "hours": null
+                },
+                {
+                  "component": "Full-training-set features, ridge fit and held-out probe scoring",
+                  "hours": null
+                },
+                {
+                  "component": "Checkpoint retention, temporary disk peaks, export and verified backup",
+                  "hours": null
+                },
+                {
+                  "component": "Fresh billed setup, transfers, idle time, restarts and failed work",
+                  "hours": null
+                }
+              ]
+            },
+            "exploration": {
+              "components": {
+                "adversarial_updates": {
+                  "count": 750,
+                  "projected_hours": 8.615500551556275,
+                  "seconds_per_unit": 41.354402647470124
+                },
+                "calibration_three_candidate_clip_bundles": {
+                  "count": 10,
+                  "projected_hours": 1.2092903220450455,
+                  "seconds_per_unit": 435.34451593621634
+                },
+                "checkpoint_state_and_save_boundaries": {
+                  "count": 62,
+                  "projected_hours": 0.17529470429678137,
+                  "seconds_per_unit": 10.178402184974402
+                },
+                "clean_updates": {
+                  "count": 750,
+                  "projected_hours": 1.4657418938198437,
+                  "seconds_per_unit": 7.03556109033525
+                },
+                "convergence_clips_including_two_audits": {
+                  "count": 40,
+                  "projected_hours": 7.021445561810914,
+                  "seconds_per_unit": 631.9301005629823
+                },
+                "fgsm_clips": {
+                  "count": 40,
+                  "projected_hours": 0.07192965781109201,
+                  "seconds_per_unit": 6.4736692029982805
+                },
+                "primary_test_clips": {
+                  "count": 0,
+                  "projected_hours": 0.0,
+                  "seconds_per_unit": 137.23245159583166
+                },
+                "primary_train_validation_clips": {
+                  "count": 520,
+                  "projected_hours": 19.822465230509017,
+                  "seconds_per_unit": 137.23245159583166
+                },
+                "random_clips": {
+                  "count": 40,
+                  "projected_hours": 0.030677197001770965,
+                  "seconds_per_unit": 2.760947730159387
+                },
+                "routine_clips": {
+                  "count": 2440,
+                  "projected_hours": 3.517388049236292,
+                  "seconds_per_unit": 5.189588925102726
+                },
+                "trained_selected_anchor_loads": {
+                  "count": 3,
+                  "projected_hours": 0.0033438566982901346,
+                  "seconds_per_unit": 4.012628037948161
+                }
+              },
+              "historical_untimed_allowance_hours_not_a_bound": 2,
+              "study_compute_with_headroom_and_allowance_usd": 66.4487789999878,
+              "study_compute_with_headroom_without_allowance_usd": 63.423778999987796,
+              "timed_unit_extrapolation_hours": 41.93307702478532,
+              "unknown_costs": [
+                {
+                  "component": "Full-panel data loading, integrity review, decoding and target caching",
+                  "hours": null
+                },
+                {
+                  "component": "Uninstrumented per-panel identity/hash/journal work and GPU transfers",
+                  "hours": null
+                },
+                {
+                  "component": "Full-training-set features, ridge fit and held-out probe scoring",
+                  "hours": null
+                },
+                {
+                  "component": "Checkpoint retention, temporary disk peaks, export and verified backup",
+                  "hours": null
+                },
+                {
+                  "component": "Fresh billed setup, transfers, idle time, restarts and failed work",
+                  "hours": null
+                }
+              ]
+            }
+          },
+          "primary_fraction_of_timed_work": 0.5480376976749065,
+          "required_primary_only_speedup_at_recorded_quote": 9.771323432924698,
+          "required_uniform_timed_work_speedup_at_recorded_quote": 1.9683154936737293,
+          "timed_unit_extrapolation_hours": 179.45831839841804,
+          "total_compute_including_full_pilot_reserve_usd": 293.53070657760725,
+          "total_with_historical_untimed_allowance_usd": 333.53070657760725,
+          "total_without_untimed_allowance_usd": 321.4307065776073,
+          "with_headroom_and_allowance_hours": 234.32289799802254
+        }
+      },
+      "workload": {
+        "classes": 20,
+        "final_test_checkpoint_upper_bound": 10,
+        "phases": {
+          "confirmation": {
+            "adversarial_updates": 2250,
+            "calibration_three_candidate_clip_bundles": 0,
+            "checkpoint_state_and_save_boundaries": 186,
+            "clean_updates": 2250,
+            "convergence_clips_including_two_audits": 100,
+            "fgsm_clips": 100,
+            "primary_test_clips": 600,
+            "primary_train_validation_clips": 1460,
+            "random_clips": 100,
+            "routine_clips": 7220,
+            "trained_selected_anchor_loads": 9
+          },
+          "exploration": {
+            "adversarial_updates": 750,
+            "calibration_three_candidate_clip_bundles": 10,
+            "checkpoint_state_and_save_boundaries": 62,
+            "clean_updates": 750,
+            "convergence_clips_including_two_audits": 40,
+            "fgsm_clips": 40,
+            "primary_test_clips": 0,
+            "primary_train_validation_clips": 520,
+            "random_clips": 40,
+            "routine_clips": 2440,
+            "trained_selected_anchor_loads": 3
+          }
+        },
+        "runs": 8,
+        "selected_checkpoint_validation_panel_pairs": 14,
+        "selected_representation_upper_bound": 13,
+        "training_clips": 200,
+        "updates_per_run": 750
+      }
+    },
+    "narrower_10x10": {
+      "budget_approved": false,
+      "complete_cost_estimate": false,
+      "research_policy_adopted": false,
+      "scenarios": {
+        "maximum": {
+          "arithmetic_within_caps": false,
+          "break_even_all_in_hourly_price_at_same_throughput_usd": 1.0606626457293813,
+          "excess_over_total_cap_usd": 21.119441917546425,
+          "phases": {
+            "confirmation": {
+              "components": {
+                "adversarial_updates": {
+                  "count": 1170,
+                  "projected_hours": 13.508238701737719,
+                  "seconds_per_unit": 41.56381138996221
+                },
+                "calibration_three_candidate_clip_bundles": {
+                  "count": 0,
+                  "projected_hours": 0.0,
+                  "seconds_per_unit": 435.34451593621634
+                },
+                "checkpoint_state_and_save_boundaries": {
+                  "count": 186,
+                  "projected_hours": 0.6299526671293036,
+                  "seconds_per_unit": 12.19263226701878
+                },
+                "clean_updates": {
+                  "count": 1170,
+                  "projected_hours": 2.3179649268626235,
+                  "seconds_per_unit": 7.132199774961919
+                },
+                "convergence_clips_including_two_audits": {
+                  "count": 100,
+                  "projected_hours": 17.553613904527285,
+                  "seconds_per_unit": 631.9301005629823
+                },
+                "fgsm_clips": {
+                  "count": 100,
+                  "projected_hours": 0.17982414452773002,
+                  "seconds_per_unit": 6.4736692029982805
+                },
+                "primary_test_clips": {
+                  "count": 300,
+                  "projected_hours": 11.588371150835883,
+                  "seconds_per_unit": 139.0604538100306
+                },
+                "primary_train_validation_clips": {
+                  "count": 730,
+                  "projected_hours": 28.198369800367313,
+                  "seconds_per_unit": 139.0604538100306
+                },
+                "random_clips": {
+                  "count": 100,
+                  "projected_hours": 0.07669299250442742,
+                  "seconds_per_unit": 2.760947730159387
+                },
+                "routine_clips": {
+                  "count": 3610,
+                  "projected_hours": 5.387670296378848,
+                  "seconds_per_unit": 5.372746001929045
+                },
+                "trained_selected_anchor_loads": {
+                  "count": 9,
+                  "projected_hours": 0.010031570094870403,
+                  "seconds_per_unit": 4.012628037948161
+                }
+              },
+              "historical_untimed_allowance_hours_not_a_bound": 6,
+              "study_compute_with_headroom_and_allowance_usd": 129.24422935938605,
+              "study_compute_with_headroom_without_allowance_usd": 120.16922935938607,
+              "timed_unit_extrapolation_hours": 79.450730154966,
+              "unknown_costs": [
+                {
+                  "component": "Full-panel data loading, integrity review, decoding and target caching",
+                  "hours": null
+                },
+                {
+                  "component": "Uninstrumented per-panel identity/hash/journal work and GPU transfers",
+                  "hours": null
+                },
+                {
+                  "component": "Full-training-set features, ridge fit and held-out probe scoring",
+                  "hours": null
+                },
+                {
+                  "component": "Checkpoint retention, temporary disk peaks, export and verified backup",
+                  "hours": null
+                },
+                {
+                  "component": "Fresh billed setup, transfers, idle time, restarts and failed work",
+                  "hours": null
+                }
+              ]
+            },
+            "exploration": {
+              "components": {
+                "adversarial_updates": {
+                  "count": 390,
+                  "projected_hours": 4.502746233912573,
+                  "seconds_per_unit": 41.56381138996221
+                },
+                "calibration_three_candidate_clip_bundles": {
+                  "count": 10,
+                  "projected_hours": 1.2092903220450455,
+                  "seconds_per_unit": 435.34451593621634
+                },
+                "checkpoint_state_and_save_boundaries": {
+                  "count": 62,
+                  "projected_hours": 0.20998422237643455,
+                  "seconds_per_unit": 12.19263226701878
+                },
+                "clean_updates": {
+                  "count": 390,
+                  "projected_hours": 0.7726549756208745,
+                  "seconds_per_unit": 7.132199774961919
+                },
+                "convergence_clips_including_two_audits": {
+                  "count": 40,
+                  "projected_hours": 7.021445561810914,
+                  "seconds_per_unit": 631.9301005629823
+                },
+                "fgsm_clips": {
+                  "count": 40,
+                  "projected_hours": 0.07192965781109201,
+                  "seconds_per_unit": 6.4736692029982805
+                },
+                "primary_test_clips": {
+                  "count": 0,
+                  "projected_hours": 0.0,
+                  "seconds_per_unit": 139.0604538100306
+                },
+                "primary_train_validation_clips": {
+                  "count": 260,
+                  "projected_hours": 10.043254997391099,
+                  "seconds_per_unit": 139.0604538100306
+                },
+                "random_clips": {
+                  "count": 40,
+                  "projected_hours": 0.030677197001770965,
+                  "seconds_per_unit": 2.760947730159387
+                },
+                "routine_clips": {
+                  "count": 1220,
+                  "projected_hours": 1.820763922875954,
+                  "seconds_per_unit": 5.372746001929045
+                },
+                "trained_selected_anchor_loads": {
+                  "count": 3,
+                  "projected_hours": 0.0033438566982901346,
+                  "seconds_per_unit": 4.012628037948161
+                }
+              },
+              "historical_untimed_allowance_hours_not_a_bound": 2,
+              "study_compute_with_headroom_and_allowance_usd": 41.87521255816038,
+              "study_compute_with_headroom_without_allowance_usd": 38.85021255816037,
+              "timed_unit_extrapolation_hours": 25.68609094754405,
+              "unknown_costs": [
+                {
+                  "component": "Full-panel data loading, integrity review, decoding and target caching",
+                  "hours": null
+                },
+                {
+                  "component": "Uninstrumented per-panel identity/hash/journal work and GPU transfers",
+                  "hours": null
+                },
+                {
+                  "component": "Full-training-set features, ridge fit and held-out probe scoring",
+                  "hours": null
+                },
+                {
+                  "component": "Checkpoint retention, temporary disk peaks, export and verified backup",
+                  "hours": null
+                },
+                {
+                  "component": "Fresh billed setup, transfers, idle time, restarts and failed work",
+                  "hours": null
+                }
+              ]
+            }
+          },
+          "primary_fraction_of_timed_work": 0.4739538006385915,
+          "required_primary_only_speedup_at_recorded_quote": 1.3893097570401665,
+          "required_uniform_timed_work_speedup_at_recorded_quote": 1.1531504127450793,
+          "timed_unit_extrapolation_hours": 105.13682110251004,
+          "total_compute_including_full_pilot_reserve_usd": 181.11944191754642,
+          "total_with_historical_untimed_allowance_usd": 221.11944191754642,
+          "total_without_untimed_allowance_usd": 209.01944191754643,
+          "with_headroom_and_allowance_hours": 141.42102637813755
+        },
+        "median": {
+          "arithmetic_within_caps": false,
+          "break_even_all_in_hourly_price_at_same_throughput_usd": 1.0717666314379803,
+          "excess_over_total_cap_usd": 19.34656731800186,
+          "phases": {
+            "confirmation": {
+              "components": {
+                "adversarial_updates": {
+                  "count": 1170,
+                  "projected_hours": 13.440180860427791,
+                  "seconds_per_unit": 41.354402647470124
+                },
+                "calibration_three_candidate_clip_bundles": {
+                  "count": 0,
+                  "projected_hours": 0.0,
+                  "seconds_per_unit": 435.34451593621634
+                },
+                "checkpoint_state_and_save_boundaries": {
+                  "count": 186,
+                  "projected_hours": 0.5258841128903441,
+                  "seconds_per_unit": 10.178402184974402
+                },
+                "clean_updates": {
+                  "count": 1170,
+                  "projected_hours": 2.286557354358956,
+                  "seconds_per_unit": 7.03556109033525
+                },
+                "convergence_clips_including_two_audits": {
+                  "count": 100,
+                  "projected_hours": 17.553613904527285,
+                  "seconds_per_unit": 631.9301005629823
+                },
+                "fgsm_clips": {
+                  "count": 100,
+                  "projected_hours": 0.17982414452773002,
+                  "seconds_per_unit": 6.4736692029982805
+                },
+                "primary_test_clips": {
+                  "count": 300,
+                  "projected_hours": 11.436037632985972,
+                  "seconds_per_unit": 137.23245159583166
+                },
+                "primary_train_validation_clips": {
+                  "count": 730,
+                  "projected_hours": 27.8276915735992,
+                  "seconds_per_unit": 137.23245159583166
+                },
+                "random_clips": {
+                  "count": 100,
+                  "projected_hours": 0.07669299250442742,
+                  "seconds_per_unit": 2.760947730159387
+                },
+                "routine_clips": {
+                  "count": 3610,
+                  "projected_hours": 5.204004449894677,
+                  "seconds_per_unit": 5.189588925102726
+                },
+                "trained_selected_anchor_loads": {
+                  "count": 9,
+                  "projected_hours": 0.010031570094870403,
+                  "seconds_per_unit": 4.012628037948161
+                }
+              },
+              "historical_untimed_allowance_hours_not_a_bound": 6,
+              "study_compute_with_headroom_and_allowance_usd": 127.86753437616451,
+              "study_compute_with_headroom_without_allowance_usd": 118.79253437616451,
+              "timed_unit_extrapolation_hours": 78.54051859581125,
+              "unknown_costs": [
+                {
+                  "component": "Full-panel data loading, integrity review, decoding and target caching",
+                  "hours": null
+                },
+                {
+                  "component": "Uninstrumented per-panel identity/hash/journal work and GPU transfers",
+                  "hours": null
+                },
+                {
+                  "component": "Full-training-set features, ridge fit and held-out probe scoring",
+                  "hours": null
+                },
+                {
+                  "component": "Checkpoint retention, temporary disk peaks, export and verified backup",
+                  "hours": null
+                },
+                {
+                  "component": "Fresh billed setup, transfers, idle time, restarts and failed work",
+                  "hours": null
+                }
+              ]
+            },
+            "exploration": {
+              "components": {
+                "adversarial_updates": {
+                  "count": 390,
+                  "projected_hours": 4.480060286809263,
+                  "seconds_per_unit": 41.354402647470124
+                },
+                "calibration_three_candidate_clip_bundles": {
+                  "count": 10,
+                  "projected_hours": 1.2092903220450455,
+                  "seconds_per_unit": 435.34451593621634
+                },
+                "checkpoint_state_and_save_boundaries": {
+                  "count": 62,
+                  "projected_hours": 0.17529470429678137,
+                  "seconds_per_unit": 10.178402184974402
+                },
+                "clean_updates": {
+                  "count": 390,
+                  "projected_hours": 0.7621857847863187,
+                  "seconds_per_unit": 7.03556109033525
+                },
+                "convergence_clips_including_two_audits": {
+                  "count": 40,
+                  "projected_hours": 7.021445561810914,
+                  "seconds_per_unit": 631.9301005629823
+                },
+                "fgsm_clips": {
+                  "count": 40,
+                  "projected_hours": 0.07192965781109201,
+                  "seconds_per_unit": 6.4736692029982805
+                },
+                "primary_test_clips": {
+                  "count": 0,
+                  "projected_hours": 0.0,
+                  "seconds_per_unit": 137.23245159583166
+                },
+                "primary_train_validation_clips": {
+                  "count": 260,
+                  "projected_hours": 9.911232615254509,
+                  "seconds_per_unit": 137.23245159583166
+                },
+                "random_clips": {
+                  "count": 40,
+                  "projected_hours": 0.030677197001770965,
+                  "seconds_per_unit": 2.760947730159387
+                },
+                "routine_clips": {
+                  "count": 1220,
+                  "projected_hours": 1.758694024618146,
+                  "seconds_per_unit": 5.189588925102726
+                },
+                "trained_selected_anchor_loads": {
+                  "count": 3,
+                  "projected_hours": 0.0033438566982901346,
+                  "seconds_per_unit": 4.012628037948161
+                }
+              },
+              "historical_untimed_allowance_hours_not_a_bound": 2,
+              "study_compute_with_headroom_and_allowance_usd": 41.47903294183735,
+              "study_compute_with_headroom_without_allowance_usd": 38.454032941837355,
+              "timed_unit_extrapolation_hours": 25.424154011132135,
+              "unknown_costs": [
+                {
+                  "component": "Full-panel data loading, integrity review, decoding and target caching",
+                  "hours": null
+                },
+                {
+                  "component": "Uninstrumented per-panel identity/hash/journal work and GPU transfers",
+                  "hours": null
+                },
+                {
+                  "component": "Full-training-set features, ridge fit and held-out probe scoring",
+                  "hours": null
+                },
+                {
+                  "component": "Checkpoint retention, temporary disk peaks, export and verified backup",
+                  "hours": null
+                },
+                {
+                  "component": "Fresh billed setup, transfers, idle time, restarts and failed work",
+                  "hours": null
+                }
+              ]
+            }
+          },
+          "primary_fraction_of_timed_work": 0.47299684199222375,
+          "required_primary_only_speedup_at_recorded_quote": 1.3515604140874193,
+          "required_uniform_timed_work_speedup_at_recorded_quote": 1.1402941792458439,
+          "timed_unit_extrapolation_hours": 103.96467260694338,
+          "total_compute_including_full_pilot_reserve_usd": 179.34656731800186,
+          "total_with_historical_untimed_allowance_usd": 219.34656731800186,
+          "total_without_untimed_allowance_usd": 207.24656731800184,
+          "with_headroom_and_allowance_hours": 139.95584075867922
+        }
+      },
+      "workload": {
+        "classes": 10,
+        "final_test_checkpoint_upper_bound": 10,
+        "phases": {
+          "confirmation": {
+            "adversarial_updates": 1170,
+            "calibration_three_candidate_clip_bundles": 0,
+            "checkpoint_state_and_save_boundaries": 186,
+            "clean_updates": 1170,
+            "convergence_clips_including_two_audits": 100,
+            "fgsm_clips": 100,
+            "primary_test_clips": 300,
+            "primary_train_validation_clips": 730,
+            "random_clips": 100,
+            "routine_clips": 3610,
+            "trained_selected_anchor_loads": 9
+          },
+          "exploration": {
+            "adversarial_updates": 390,
+            "calibration_three_candidate_clip_bundles": 10,
+            "checkpoint_state_and_save_boundaries": 62,
+            "clean_updates": 390,
+            "convergence_clips_including_two_audits": 40,
+            "fgsm_clips": 40,
+            "primary_test_clips": 0,
+            "primary_train_validation_clips": 260,
+            "random_clips": 40,
+            "routine_clips": 1220,
+            "trained_selected_anchor_loads": 3
+          }
+        },
+        "runs": 8,
+        "selected_checkpoint_validation_panel_pairs": 14,
+        "selected_representation_upper_bound": 13,
+        "training_clips": 100,
+        "updates_per_run": 390
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "all_four_variants_exceed_both_caps": true,
+  "changed_document_local_links_verified": 257,
+  "cloud_job_started": false,
+  "date": "2026-10-22",
+  "exact_independent_cli_replay": true,
+  "existing_budget_cases": 10,
+  "full_scientific_suite_rerun": false,
+  "git_commit_or_push_performed": false,
+  "git_diff_check_passed": true,
+  "kind": "offline_budget_validation",
+  "new_budget_cases": 14,
+  "observed_targeted_test_seconds": 0.29,
+  "observed_targeted_tests_passed": 24,
+  "pixels_opened": false,
+  "plan_study_and_pinned_scientific_sources_unchanged": true,
+  "scaffold_and_yaml_check_passed": true,
+  "source_sha256": {
+    "models/measured_budget.py": "d1e683a37ab70a5a35631d4fb96f76ea764bdea49053b53abd00472d427e158f",
+    "report/checks/2026-10-22-measured-budget-review.json": "427c0e9f4e05e1c3eb0f441d74f43630c6e627fadac1437843410aad471f7128",
+    "report/checks/2026-10-22-measured-budget-review.md": "e92c5de3f8e0ab5782a99692a2c8cf64573f89cd50fa2fa75c4fdbb37291ac10",
+    "scripts/estimate_measured_study.py": "98948e68770a9b21b67074b723f5263418a4b5ea6703591d23e657e43e803895",
+    "tests/test_measured_budget.py": "489fcf11379090edafe954d97b6863790ef20210dd48ee751f22dbee3d56e431"
+  },
+  "targeted_test_command": ".venv/bin/python -B -m pytest -q tests/test_measured_budget.py tests/test_staged_study.py",
+  "tests_rerun_on_cuda": false,
+  "timing_annotation_correction": "Clarified pooled primary calibration step sizes; numerical projections are unchanged.",
+  "unknown_costs_remain_null": true
+}

@@ -1,0 +1,31 @@
+{
+  "account_cloud_tier_verified": false,
+  "alternative_quotes": [
+    "A40",
+    "RTX A6000"
+  ],
+  "availability_verified": false,
+  "date": "2026-10-22",
+  "instance_deployed": false,
+  "kind": "public_gpu_catalog_not_account_quote",
+  "recommended_first_quote": "RTX A5000",
+  "runpod_public_gpu_only_usd_per_hour": {
+    "A40": 0.59,
+    "RTX 3090": 0.5,
+    "RTX A5000": 0.27,
+    "RTX A6000": 0.59
+  },
+  "source_is_provider_catalog_not_workload_benchmark": true,
+  "sources": [
+    {
+      "checked": "2026-10-22",
+      "page_updated": "2026-10-08",
+      "url": "https://www.runpod.io/pricing"
+    },
+    {
+      "checked": "2026-10-22",
+      "url": "https://github.com/vast-ai/docs/blob/main/guides/pricing.mdx"
+    }
+  ],
+  "storage_or_tax_included": false
+}
