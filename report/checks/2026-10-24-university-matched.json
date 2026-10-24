@@ -1,0 +1,631 @@
+{
+  "allocator_limit_bytes": 7389845913,
+  "archive": {
+    "bytes": 110384818,
+    "manifest_sha256": "c6447bac77fb9014680dfbf7d28edf7131654ef68468d21310f164a55ef33470",
+    "members_verified": 29,
+    "path": "runs/pretrained/diagnostic/university-matched-session-20261024/downloaded/evidence.tar.gz",
+    "sha256": "3e9d17e10c9cdd1fa814ad2ccdbceeef71921158c3b34634023a79e145352f2b"
+  },
+  "arms": {
+    "A": {
+      "adversarial_sha256": "eb3a31d9b70d9fbd8a45f37e5e4b189045e30b9cc6b18d2a715017cf34eabb32",
+      "arm": "A",
+      "attack_loss": 0.7498217821121216,
+      "attack_recomputed_exact": true,
+      "contract_sha256": "8ea6c699e105905aab6d3362c89de8d24c8bc2098f84cfde52a4d5f80d289a69",
+      "instrumented_attack_seconds": 200.4278390868567,
+      "max_pixel_delta": 0.01568630337715149,
+      "scores": {
+        "audit_0": {
+          "adversarial": 0.712585985660553,
+          "clean": 0.5537064075469971
+        },
+        "audit_1": {
+          "adversarial": 0.7047866582870483,
+          "clean": 0.5543162822723389
+        },
+        "main": {
+          "adversarial": 0.6991500854492188,
+          "clean": 0.5620446801185608
+        }
+      },
+      "settings": {
+        "attack_masks": 4,
+        "steps": 20
+      }
+    },
+    "B": {
+      "adversarial_sha256": "f9b3245b461e1d38ede8113c658b2e3b5ea7c306d5604033323639c26c868a8e",
+      "arm": "B",
+      "attack_loss": 0.7641342282295227,
+      "attack_recomputed_exact": true,
+      "contract_sha256": "8ea6c699e105905aab6d3362c89de8d24c8bc2098f84cfde52a4d5f80d289a69",
+      "instrumented_attack_seconds": 497.21721924003214,
+      "max_pixel_delta": 0.01568630337715149,
+      "scores": {
+        "audit_0": {
+          "adversarial": 0.7108849883079529,
+          "clean": 0.5537064075469971
+        },
+        "audit_1": {
+          "adversarial": 0.7064502239227295,
+          "clean": 0.5543162822723389
+        },
+        "main": {
+          "adversarial": 0.6992778778076172,
+          "clean": 0.5620446801185608
+        }
+      },
+      "settings": {
+        "attack_masks": 4,
+        "steps": 50
+      }
+    },
+    "C": {
+      "adversarial_sha256": "5f48a49cad6a820f30b4078d67b668e89383168fa256ec0ab32d30c892da39da",
+      "arm": "C",
+      "attack_loss": 0.7099754810333252,
+      "attack_recomputed_exact": true,
+      "contract_sha256": "8ea6c699e105905aab6d3362c89de8d24c8bc2098f84cfde52a4d5f80d289a69",
+      "instrumented_attack_seconds": 405.12369410600513,
+      "max_pixel_delta": 0.01568630337715149,
+      "scores": {
+        "audit_0": {
+          "adversarial": 0.6973166465759277,
+          "clean": 0.5537064075469971
+        },
+        "audit_1": {
+          "adversarial": 0.6959888339042664,
+          "clean": 0.5543162822723389
+        },
+        "main": {
+          "adversarial": 0.6805429458618164,
+          "clean": 0.5620446801185608
+        }
+      },
+      "settings": {
+        "attack_masks": 8,
+        "steps": 20
+      }
+    },
+    "D": {
+      "adversarial_sha256": "5d4f879012bf2e796fb3985e7850ad7a549d9a18508576e677a975afbcf4c07a",
+      "arm": "D",
+      "attack_loss": 0.7270693778991699,
+      "attack_recomputed_exact": true,
+      "contract_sha256": "8ea6c699e105905aab6d3362c89de8d24c8bc2098f84cfde52a4d5f80d289a69",
+      "instrumented_attack_seconds": 1003.5263263774104,
+      "max_pixel_delta": 0.01568630337715149,
+      "scores": {
+        "audit_0": {
+          "adversarial": 0.7090026140213013,
+          "clean": 0.5537064075469971
+        },
+        "audit_1": {
+          "adversarial": 0.7098501920700073,
+          "clean": 0.5543162822723389
+        },
+        "main": {
+          "adversarial": 0.6921564936637878,
+          "clean": 0.5620446801185608
+        }
+      },
+      "settings": {
+        "attack_masks": 8,
+        "steps": 50
+      }
+    }
+  },
+  "billing": {
+    "20_class_screen_usd": [
+      221.555432808,
+      224.010714143
+    ],
+    "budget_admitted": false,
+    "conservative_unreserved_diagnostic_usd": 2.53,
+    "inclusive_hold_usd": 2.0,
+    "new_paid_pod_started": false,
+    "reservations_changed": false,
+    "study_budget_usd": 200.0,
+    "unassigned_difference_usd": 0.0792
+  },
+  "checks": {
+    "full_project_suite_repeated": false,
+    "new_model_forward_during_offline_audit": false,
+    "previous_extracted_tests": 26,
+    "previous_focused_CPU_tests": 91,
+    "previous_new_tests": 26,
+    "scaffold_check": "passed_after_documentation_update"
+  },
+  "clean_losses": {
+    "audit_0": 0.5537064075469971,
+    "audit_1": 0.5543162822723389,
+    "main": 0.5620446801185608
+  },
+  "contract_record_sha256": "97605ccdb77147d35177367df8fff73819fee748684e1235b569b989dc703f14",
+  "date": "2026-10-24",
+  "diagnostic_only": true,
+  "interpretation": {
+    "EOT4_extra_steps_main_nearly_flat_audits_mixed": true,
+    "EOT8_extra_steps_raise_loss_on_all_three_banks": true,
+    "four_vs_eight_attack_objectives_directly_rankable": false,
+    "larger_mask_bank_not_uniformly_dominant": true,
+    "mask_overfitting_or_gradient_masking_diagnosed": false,
+    "primary_attack_selected_or_changed": false,
+    "study_wide_convergence_established": false
+  },
+  "kind": "verified_university_matched_attack_diagnostic",
+  "memory": {
+    "matrix": {
+      "cuda_peak_allocated_bytes": 5251581440,
+      "cuda_peak_allocated_gib": 4.890916347503662
+    },
+    "replay": {
+      "cuda_peak_allocated_bytes": 3959155200,
+      "cuda_peak_allocated_gib": 3.6872506141662598
+    }
+  },
+  "next_step": "Offline: predeclare a broader training-only multi-clip/mask-bank attack check before choosing evaluation settings or revising the budget. No new GPU job is launched by this result.",
+  "paired_contrasts": {
+    "50_minus_20_at_EOT4": {
+      "audit_0": {
+        "loss_difference": -0.0017009973526000977,
+        "relative_percent": -0.2387076629107865
+      },
+      "audit_1": {
+        "loss_difference": 0.0016635656356811523,
+        "relative_percent": 0.23603818490609552
+      },
+      "main": {
+        "loss_difference": 0.0001277923583984375,
+        "relative_percent": 0.018278243979086284
+      }
+    },
+    "50_minus_20_at_EOT8": {
+      "audit_0": {
+        "loss_difference": 0.011685967445373535,
+        "relative_percent": 1.675848053069684
+      },
+      "audit_1": {
+        "loss_difference": 0.013861358165740967,
+        "relative_percent": 1.9916064009221746
+      },
+      "main": {
+        "loss_difference": 0.011613547801971436,
+        "relative_percent": 1.7065121125110494
+      }
+    },
+    "EOT8_minus_EOT4_at_20": {
+      "audit_0": {
+        "loss_difference": -0.015269339084625244,
+        "relative_percent": -2.142806537301023
+      },
+      "audit_1": {
+        "loss_difference": -0.008797824382781982,
+        "relative_percent": -1.2482961019955607
+      },
+      "main": {
+        "loss_difference": -0.018607139587402344,
+        "relative_percent": -2.6613941662392615
+      }
+    },
+    "EOT8_minus_EOT4_at_50": {
+      "audit_0": {
+        "loss_difference": -0.0018823742866516113,
+        "relative_percent": -0.2647930843401314
+      },
+      "audit_1": {
+        "loss_difference": 0.003399968147277832,
+        "relative_percent": 0.48127497623240423
+      },
+      "main": {
+        "loss_difference": -0.007121384143829346,
+        "relative_percent": -1.018391167493582
+      }
+    }
+  },
+  "provenance": {
+    "allocator_limit_bytes": 7389845913,
+    "checkpoint_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+    "data": {
+      "file_sha256": "328fb410008e270dc1dc76d81672169887150f82f62442a3ce4a2cfd0badd336",
+      "index_sha256": "d986727b619c7b3af2e0c07b1f59596f42fb0747961920516280ec9094553ae6",
+      "manifest_sha256": "14041c196e9ba019bb70d9e7858dfa6138e3d6c67ddbfcf75ad88c714aef13d7",
+      "panel": "train_monitor",
+      "pixel_sha256": "174d7bd1df51dddb5fc752276c2daeeb761829f2998d43bad078a6f8ea50fc17",
+      "preparation_sha256": "ca130b87c8aac5c66e1f1522a7f13096724897596d671cb94cf1703aef1603f9",
+      "row": {
+        "class_id": "18",
+        "relative_path": "BreastStroke/v_BreastStroke_g10_c02.avi",
+        "source_group_id": "BreastStroke_g10",
+        "video_id": "v_BreastStroke_g10_c02"
+      },
+      "selection": "first-declared-monitor-only-v1"
+    },
+    "handoff_manifest_sha256": "07ba4fb4eead28b223652eca1979bddc0ee63c03f4a36ba53727f8186968c985",
+    "host": "linux10609",
+    "nvidia_smi_identity": "NVIDIA GeForce RTX 3070, GPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52, 8192, 580.178.04",
+    "plan_sha256": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+    "source_sha256": {
+      "attacks/__init__.py": "41a090d550527278b09bfb62fbed810805b379151b7a5ab7cb5469bc12ee01cb",
+      "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+      "datasets/__init__.py": "d81c61d6627e4e28075736950978c3cca23843d93fb213454458bd32f5357cf1",
+      "datasets/prepared.py": "531dcb4e4e69e3a59890e020940a6a8d0459d47100154730eabc6d267c5e2bb5",
+      "datasets/staged_files.py": "02771aaa232daaad287e74a96bc152b3d7c5c5c4ffff542c8574bd9faf36b2a8",
+      "datasets/staged_preparation.py": "45631fbfcea87ca44c9b18f0147c81f461468b6e929818377ac70f8e4204b5dc",
+      "datasets/staged_subset.py": "29803ffa6142922135a4ae45b85c5933fd199398b301f8ae4b502b6235d9ff8e",
+      "datasets/ucf101.py": "a99c02a11febc1328fe4a8b40277530e08c8d07148bf663f13e73da0200f87c2",
+      "datasets/video.py": "04f337169dc3f29b51b25752f570a82bd21df1c8b07e0a3b0e28eb39282afa17",
+      "models/__init__.py": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5",
+      "models/calibration.py": "bd3ec55ca45f9788f08fb1f5342454adf86aedb20db3ba6169dfe02ecf6e92f6",
+      "models/checkpointing.py": "edc5940bc73db42c89b3494be9b0f2098680762f4fa972305f51abe47c3d8373",
+      "models/cuda_convolution.py": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3",
+      "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+      "models/diagnostics.py": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0",
+      "models/evaluation.py": "1431951d158b57b615208006edb5365a6bad910b2a14e0aa782a1c6f82034089",
+      "models/evaluation_checkpoint.py": "c07c5e401be62b76f4bf834b2828c11995302360ce46bdfbfe5146f7c7eb153a",
+      "models/evaluation_store.py": "9503834d106b788c1638b4a57d886259e2cf6f6be5069b18a1105e8beac48ee1",
+      "models/execution.py": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba",
+      "models/feasibility_review.py": "ce046bee4a09030ae0e230128949ad34345ff84ac09602bcb1cf8fd991023c59",
+      "models/features.py": "c87fb63f46f6b20b700c1b675de1095c6563cbca01f9141073b1122ef3f87c3a",
+      "models/fixture_state.py": "4f1d891a26caf35a9c42f802e84f650e2e0c7dc0857369794bfef65e54c487d2",
+      "models/gradient_attribution.py": "f8bd9d39dd41c61ffadd8ac882d08a36bb2513a948047632a789c8d0900414d3",
+      "models/hardware_benchmark.py": "059f64d42559588dab64955caa235a3ac23fa3f18e7cb1c98f515f4cda05da3c",
+      "models/hardware_controls.py": "c3ba7e150cd8404a0e0640268972b07cc3b55fa6f2de217afbed353203b46830",
+      "models/matched_attack.py": "21a76e513d36f72bb46e537a6f99425da55d7a76f52a98291037dd4cf660d9c7",
+      "models/matched_diagnostic.py": "3d61b4cabd325c5ccb78fa4fb840fa3af75ebd750b616727cacea085fc8006cf",
+      "models/measured_budget.py": "d1e683a37ab70a5a35631d4fb96f76ea764bdea49053b53abd00472d427e158f",
+      "models/native_diagnostic.py": "c56b29496397d5516416a884ab591ec6de43e0fc4dca1bc05536234e10ea75d9",
+      "models/native_patch.py": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7",
+      "models/native_probe.py": "10dd9afd62615106aa298c1970278dcd9f203979c8006bc150ecbdc0228db762",
+      "models/patch_embed.py": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec",
+      "models/pilot.py": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82",
+      "models/pilot_bundle.py": "d25f0e1f085bb7addcfc855986c7bf984765990cb473be9d5315f5399696a9db",
+      "models/pilot_measurement.py": "3361cd01dc4b23f64e749df877988ecbfe4dfda18ee5d9305c5f25ea33322753",
+      "models/precision_diagnostic.py": "c096e38bf53c4cdc0273a74f3fd0e4be0c1fc197925a71cfa9d633d192bb7d00",
+      "models/precision_patch.py": "30e8a6b28b8f082fd771aaeab5a70a73cf200714ef2b24416a55938f61e9c550",
+      "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+      "models/schedule.py": "d46be0eb89a82a62be392ae20320646590adba83bd6ec6bbb42c6e3849f9dfd8",
+      "models/study_artifacts.py": "c9ace85300c4efcc62e14bf60a89a4c22415497ea8a5ee5f8e3f12230ac8fcad",
+      "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+      "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+      "models/workflow_diagnostic.py": "481978b59318c28975af4f609440a45cd815f681b4ddb6371d37394dc1e047b2",
+      "models/workflow_pilot.py": "40224083b112dac750ea4c93c523c7c9ec93a32dcb679ec2de03e1cc1891cd31",
+      "models/workflow_preflight.py": "7d382d8e3b80c7ce0f667610bdb909518624c29958b9ab70595228a5adaa46db",
+      "scripts/check_matched_attack.py": "5fb7acbb79e46d08f1a5fe1bc1153a79303ffef40ff0620aeddb1e9c07aca5ef",
+      "scripts/check_workflow.py": "d8f16fe58200fba9a34f1cb9892ddb48eecc836473b594ba6d2464b8c08c36c7",
+      "scripts/prepare_matched_attack_handoff.py": "ff75990e691a3ac700d508b3b106cec52960d8529313f37220d8606575ee0370",
+      "scripts/university_matched_attack.sh": "cc7f5953365307a911a62bc890374cf85a7990091fd2d4d21a8d8df162eaf6b3"
+    },
+    "study_sha256": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+    "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+    "upstream_sha256": {
+      "app/vjepa/train.py": "abd6431069d541c96b9b31ec05fce954664c56d2d4ca6d67bb4c9e2ddd775a5f",
+      "configs/train/vitl16/pretrain-256px-16f.yaml": "45d3528ae0e0b08a2da40a54958eff4ecd86321f58cde26d93d84faf9799b48b",
+      "src/datasets/data_manager.py": "6849784a95abaf4d18292460e695a559de514364078d6143c0fee9c4590a7172",
+      "src/datasets/imagenet1k.py": "d040f7a7740cfdb7625c2426688b3bf39260395b670d2ddfd29544b9c65cbd80",
+      "src/datasets/utils/dataloader.py": "c1740e7267378192525f212d56774e44cd58fe5df39dc1b86fadac046869358e",
+      "src/datasets/utils/utils.py": "8f41409489900d7dd9f2342f80d671a7f6f363295f02feaa21c66f06bfe2e0b2",
+      "src/datasets/utils/video/functional.py": "b7e7726cb784bc7e2a7614013258d9f90182259c9ba60945b5a3fead14781fad",
+      "src/datasets/utils/video/randaugment.py": "b0914ae5823aa6ced7b594a3156d2e2ee9a906ebf950b40d24c1a96f5da2acbd",
+      "src/datasets/utils/video/randerase.py": "81be3544ef18564e4c086daad9f596a1b6312bdd8eae15a0157e551eb08f3ab6",
+      "src/datasets/utils/video/transforms.py": "e175b52ce1a23a14b647208435e7524692dd87bbdb5334ee444fd6d1b9a50d64",
+      "src/datasets/utils/video/transforms_builder.py": "e73c2f33045ae502a85177819218cfbc1cabf037e15c6dfa5e70be5b9e12c4ba",
+      "src/datasets/utils/video/volume_transforms.py": "2ac8efe2e91ed1d46436e2b0de43e181d7662f0b0d8bf7eebb4d044bdfe5f8c8",
+      "src/datasets/utils/weighted_sampler.py": "8e528ed8f1fa431b37982f9d618c7f887592ad8129de98e745222c4c84713abd",
+      "src/datasets/utils/worker_init_fn.py": "73205faa33d0fa0b8b8e59ac7f1d79a234346ed13b3100ee0df0a550d4d780a2",
+      "src/datasets/video_dataset.py": "44cee1d4d7a643acb9f26402dcec961f3193240489bb1d2ee89e00515630af4b",
+      "src/hub/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/hub/backbones.py": "391cdde1e9a1da47cb8094bbea5fbbe8acac0135b27e82f1a6ab19c0b39cc692",
+      "src/masks/default.py": "5329acaf6eb8f72a0b2d285944824bc4d61c24598eb6c996cf3a5a62f3d243f9",
+      "src/masks/multiseq_multiblock3d.py": "7ef7cf95b0bee9940ac7654aeb3535278bbafdd6d93b643f4142fd19769456d9",
+      "src/masks/utils.py": "833f111a0fa5ffdbd3a6412e2dace2517c3c178f49c14f8bb631d9f6a070dfd0",
+      "src/models/ac_predictor.py": "5a520ad92b3f78b231aa153a5bbd9f800f880024974109a04d19aed6a0900643",
+      "src/models/attentive_pooler.py": "9be7047d6bfce50575956a57e36d87a37bf63ae84ec92a9ba8649bf1ab7d5feb",
+      "src/models/predictor.py": "3d8481bf2544b85ed92b3feb418e3b6d85ca1f81034c931b8c860f2d3d9aac2b",
+      "src/models/utils/modules.py": "b93f6c7e0747deb216419c000c2878f11a9189024a9adeacfd437e172396dff0",
+      "src/models/utils/patch_embed.py": "1823c40b34410e70eb313360e21678e18a0ee5465b5d47de9f3d967c074f5a9d",
+      "src/models/utils/pos_embs.py": "e6d3b3863ade47b3734a3b443f1bcc93eab02e39bf596ea199517f68ccab443e",
+      "src/models/vision_transformer.py": "9d4fd4e3603311803c105cc5114e2bc12ff28bc11870637dd3969511d9dead74",
+      "src/utils/checkpoint_loader.py": "8ae1c92e095dabed897694101e35393ed5b20da2b51c5bebae3dceda427472ce",
+      "src/utils/distributed.py": "52342428ee4eafaf685471afd91912462057bed59267faec42cf7640d8c08861",
+      "src/utils/logging.py": "0bf5298ecce7e59d90fcb3e4cc68eba988e3e8af4d4a08c91e94bdcd29f76b2e",
+      "src/utils/monitoring.py": "8fc1feb76396af17ed3753d3f9c4ad0b75d3908122a49b209537d6e3653427c5",
+      "src/utils/schedulers.py": "e35b2162c9df04f25ef4dbc51a1e9df41e362dee6d9d2b494321d81e44fe4659",
+      "src/utils/tensors.py": "782b58bd2af456e184750e5318ab773105108383f61b280fe4c7a90f46add2c8",
+      "src/utils/wrappers.py": "cdba99fcad17b1810bf26bb047046182fe0aad620a5786fbf405d8a71bb1f47a"
+    }
+  },
+  "research_admitted": false,
+  "research_result": false,
+  "runtime": {
+    "architecture": "x86_64",
+    "cublas_workspace_config": ":4096:8",
+    "cuda": "12.8",
+    "cudnn": 91002,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cudnn_enabled": true,
+    "cudnn_tf32": false,
+    "deterministic_algorithms": true,
+    "deterministic_warn_only": false,
+    "device": "cuda",
+    "devices": 1,
+    "gpu": "NVIDIA GeForce RTX 3070",
+    "matmul_precision": "highest",
+    "matmul_tf32": false,
+    "model_execution": {
+      "activation_checkpointing": {
+        "encoder": true,
+        "predictor": true,
+        "target_encoder": false
+      },
+      "context_patch": {
+        "bias": true,
+        "dilation": [
+          1,
+          1,
+          1
+        ],
+        "groups": 1,
+        "kernel": [
+          2,
+          16,
+          16
+        ],
+        "module": "models.precision_patch.PrecisionPatchEmbed3D",
+        "padding": [
+          0,
+          0,
+          0
+        ],
+        "padding_mode": "zeros",
+        "projection": "Conv3d",
+        "stride": [
+          2,
+          16,
+          16
+        ],
+        "weight_shape": [
+          1024,
+          3,
+          2,
+          16,
+          16
+        ]
+      },
+      "diagnostic_only": true,
+      "native_backward": null,
+      "policy": "shared-fp64-native",
+      "precision": {
+        "autocast": false,
+        "backward": "native",
+        "backward_accumulation": "torch.float32",
+        "backward_algorithm": "aten.convolution_backward-first-order-v1",
+        "forward": "nonoverlapping-unfold-fp64-mm-separate-bias-cast-fp32-transposed-v1",
+        "higher_order": false,
+        "model_modules": {
+          "encoder": "src.models.vision_transformer.VisionTransformer",
+          "predictor": "src.models.predictor.VisionTransformerPredictor",
+          "target_encoder": "src.models.vision_transformer.VisionTransformer"
+        },
+        "normalization": {
+          "algorithm": "(raw_rgb_fp32 - mean_fp32) / std_fp32",
+          "mean": [
+            0.48500001430511475,
+            0.4560000002384186,
+            0.4059999883174896
+          ],
+          "std": [
+            0.2290000021457672,
+            0.2240000069141388,
+            0.22499999403953552
+          ]
+        },
+        "parameters": "torch.float32",
+        "patch_accumulation": "torch.float64",
+        "patch_tokens": "torch.float32",
+        "tail": "original FP32 encoder/predictor and masked L1",
+        "target": "original frozen FP32 Conv3d and FP32 layer_norm"
+      },
+      "schema_version": 2,
+      "study_adopted": false,
+      "target_patch": {
+        "bias": true,
+        "dilation": [
+          1,
+          1,
+          1
+        ],
+        "groups": 1,
+        "kernel": [
+          2,
+          16,
+          16
+        ],
+        "module": "src.models.utils.patch_embed.PatchEmbed3D",
+        "padding": [
+          0,
+          0,
+          0
+        ],
+        "padding_mode": "zeros",
+        "projection": "Conv3d",
+        "stride": [
+          2,
+          16,
+          16
+        ],
+        "weight_shape": [
+          1024,
+          3,
+          2,
+          16,
+          16
+        ]
+      }
+    },
+    "numpy": "2.4.6",
+    "python": "3.11.17",
+    "threads": 4,
+    "torch": "2.8.0+cu128"
+  },
+  "scope": {
+    "all_four_arms_fresh_replayed": false,
+    "confirmation_or_test_pixels_opened": false,
+    "fine_tuning_run": false,
+    "historical_FP32_rejections_and_8GB_AdamW_OOM_preserved": true,
+    "optimizer_recovery_checked": false,
+    "pretrained_checkpoint_only": true,
+    "study_yaml_or_protocol_changed": false,
+    "training_monitor_count": 1,
+    "video_id": "v_BreastStroke_g10_c02"
+  },
+  "session_record_sha256": "03ee00ba33068ee9dcde92ec8cde00d0209e8a063cf7ed545ec795ae083f9390",
+  "settings": {
+    "base_seed": 20261023,
+    "epsilon": 0.01568627450980392,
+    "policy": "shared-fp64-native",
+    "restarts": 2,
+    "seeds": {
+      "attack": [
+        412247581017368067,
+        820172091401912524,
+        7505603625073228838,
+        6398491569017320464,
+        4686543023798087607,
+        3218799804935931647,
+        149646382506522846,
+        579938683653688703
+      ],
+      "audit_0": [
+        758864890062882942,
+        5658327222337681999,
+        1712561788762424933,
+        8989126379979826497
+      ],
+      "audit_1": [
+        9122005596897971836,
+        7870827866115280007,
+        6371377715623868708,
+        1135157109993121551
+      ],
+      "main": [
+        790007563763063216,
+        2437110823115231202,
+        1909620921887534065,
+        8465125591848670162
+      ],
+      "start": 3710880274789868928
+    },
+    "selection": "attack-loss-only-strict-greater-best-over-clean-starts-iterates",
+    "step_size": 0.00784313725490196
+  },
+  "source_sha256": {
+    "attacks/__init__.py": "41a090d550527278b09bfb62fbed810805b379151b7a5ab7cb5469bc12ee01cb",
+    "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "datasets/__init__.py": "d81c61d6627e4e28075736950978c3cca23843d93fb213454458bd32f5357cf1",
+    "datasets/prepared.py": "531dcb4e4e69e3a59890e020940a6a8d0459d47100154730eabc6d267c5e2bb5",
+    "datasets/staged_files.py": "02771aaa232daaad287e74a96bc152b3d7c5c5c4ffff542c8574bd9faf36b2a8",
+    "datasets/staged_preparation.py": "45631fbfcea87ca44c9b18f0147c81f461468b6e929818377ac70f8e4204b5dc",
+    "datasets/staged_subset.py": "29803ffa6142922135a4ae45b85c5933fd199398b301f8ae4b502b6235d9ff8e",
+    "datasets/ucf101.py": "a99c02a11febc1328fe4a8b40277530e08c8d07148bf663f13e73da0200f87c2",
+    "datasets/video.py": "04f337169dc3f29b51b25752f570a82bd21df1c8b07e0a3b0e28eb39282afa17",
+    "models/__init__.py": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5",
+    "models/calibration.py": "bd3ec55ca45f9788f08fb1f5342454adf86aedb20db3ba6169dfe02ecf6e92f6",
+    "models/checkpointing.py": "edc5940bc73db42c89b3494be9b0f2098680762f4fa972305f51abe47c3d8373",
+    "models/cuda_convolution.py": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3",
+    "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+    "models/diagnostics.py": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0",
+    "models/evaluation.py": "1431951d158b57b615208006edb5365a6bad910b2a14e0aa782a1c6f82034089",
+    "models/evaluation_checkpoint.py": "c07c5e401be62b76f4bf834b2828c11995302360ce46bdfbfe5146f7c7eb153a",
+    "models/evaluation_store.py": "9503834d106b788c1638b4a57d886259e2cf6f6be5069b18a1105e8beac48ee1",
+    "models/execution.py": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba",
+    "models/feasibility_review.py": "ce046bee4a09030ae0e230128949ad34345ff84ac09602bcb1cf8fd991023c59",
+    "models/features.py": "c87fb63f46f6b20b700c1b675de1095c6563cbca01f9141073b1122ef3f87c3a",
+    "models/fixture_state.py": "4f1d891a26caf35a9c42f802e84f650e2e0c7dc0857369794bfef65e54c487d2",
+    "models/gradient_attribution.py": "f8bd9d39dd41c61ffadd8ac882d08a36bb2513a948047632a789c8d0900414d3",
+    "models/hardware_benchmark.py": "059f64d42559588dab64955caa235a3ac23fa3f18e7cb1c98f515f4cda05da3c",
+    "models/hardware_controls.py": "c3ba7e150cd8404a0e0640268972b07cc3b55fa6f2de217afbed353203b46830",
+    "models/matched_attack.py": "21a76e513d36f72bb46e537a6f99425da55d7a76f52a98291037dd4cf660d9c7",
+    "models/matched_diagnostic.py": "3d61b4cabd325c5ccb78fa4fb840fa3af75ebd750b616727cacea085fc8006cf",
+    "models/measured_budget.py": "d1e683a37ab70a5a35631d4fb96f76ea764bdea49053b53abd00472d427e158f",
+    "models/native_diagnostic.py": "c56b29496397d5516416a884ab591ec6de43e0fc4dca1bc05536234e10ea75d9",
+    "models/native_patch.py": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7",
+    "models/native_probe.py": "10dd9afd62615106aa298c1970278dcd9f203979c8006bc150ecbdc0228db762",
+    "models/patch_embed.py": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec",
+    "models/pilot.py": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82",
+    "models/pilot_bundle.py": "d25f0e1f085bb7addcfc855986c7bf984765990cb473be9d5315f5399696a9db",
+    "models/pilot_measurement.py": "3361cd01dc4b23f64e749df877988ecbfe4dfda18ee5d9305c5f25ea33322753",
+    "models/precision_diagnostic.py": "c096e38bf53c4cdc0273a74f3fd0e4be0c1fc197925a71cfa9d633d192bb7d00",
+    "models/precision_patch.py": "30e8a6b28b8f082fd771aaeab5a70a73cf200714ef2b24416a55938f61e9c550",
+    "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+    "models/schedule.py": "d46be0eb89a82a62be392ae20320646590adba83bd6ec6bbb42c6e3849f9dfd8",
+    "models/study_artifacts.py": "c9ace85300c4efcc62e14bf60a89a4c22415497ea8a5ee5f8e3f12230ac8fcad",
+    "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+    "models/workflow_diagnostic.py": "481978b59318c28975af4f609440a45cd815f681b4ddb6371d37394dc1e047b2",
+    "models/workflow_pilot.py": "40224083b112dac750ea4c93c523c7c9ec93a32dcb679ec2de03e1cc1891cd31",
+    "models/workflow_preflight.py": "7d382d8e3b80c7ce0f667610bdb909518624c29958b9ab70595228a5adaa46db",
+    "scripts/check_matched_attack.py": "5fb7acbb79e46d08f1a5fe1bc1153a79303ffef40ff0620aeddb1e9c07aca5ef",
+    "scripts/check_workflow.py": "d8f16fe58200fba9a34f1cb9892ddb48eecc836473b594ba6d2464b8c08c36c7",
+    "scripts/prepare_matched_attack_handoff.py": "ff75990e691a3ac700d508b3b106cec52960d8529313f37220d8606575ee0370",
+    "scripts/university_matched_attack.sh": "cc7f5953365307a911a62bc890374cf85a7990091fd2d4d21a8d8df162eaf6b3"
+  },
+  "timings": {
+    "a40_cost_pool_eligible": false,
+    "cross_gpu_speedup_inferred": false,
+    "fresh_A_attack_seconds": 201.5523142577149,
+    "instrumentation_included": true,
+    "launcher_finish_pacific": "2026-10-24T12:34:10-07:00",
+    "launcher_start_pacific": "2026-10-24T11:53:04-07:00",
+    "launcher_wall_seconds": 2466,
+    "per_arm_attack_seconds": {
+      "A": 200.4278390868567,
+      "B": 497.21721924003214,
+      "C": 405.12369410600513,
+      "D": 1003.5263263774104
+    },
+    "session_including_worker_setup_seconds": 2457.3780396250077,
+    "session_minutes": 40.956300660416794
+  },
+  "verification": {
+    "bound_project_sources_verified": 49,
+    "bound_upstream_sources_verified": 34,
+    "exact_training_pixels_match": true,
+    "fixed_target_sha256": "706035d33251fb7e71aef53f3134ad1ce470399feeb53e08019eb82ed360c8de",
+    "input_gradient_observations_verified": 320,
+    "logical_tensors_verified": 173,
+    "native_probe_verified": {
+      "matrix": true,
+      "replay": true
+    },
+    "old_scientific_pins_verified": 198,
+    "pairing": {
+      "attack_bank_best_nondecreasing": true,
+      "independent_scores_required_monotone": false,
+      "starts_and_first_20_steps_exact": true
+    },
+    "regenerated_mask_tensors_verified": 80,
+    "released_checkpoint_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+    "released_component_weight_digests": {
+      "encoder": "6ed6252077b417383679d6594d3c8e1b179dd989fc2f111e2e0012013d9c5c9a",
+      "predictor": "22074aaf24f7e027ca85b5414f6b2651efaeaebe6a63413ed506f1b28046ef2c",
+      "target_encoder": "706035d33251fb7e71aef53f3134ad1ce470399feeb53e08019eb82ed360c8de"
+    },
+    "replay": {
+      "all_four_arms_fresh_replayed": false,
+      "passed": true,
+      "scope": "fresh-process-A-only-20-steps-EOT4"
+    },
+    "retained_new_sources_verified": 5,
+    "saved_clean_targets_sha256": "ae58ef5d85a7ec37c27a90df42bd754ac31923dc5bd915603ae0e48d40588304"
+  },
+  "verification_receipt": {
+    "audit_script_sha256": "e6759ef002567b14505e4b1c9efb0d107dde5ea9b85593c2f05d55118af0a008",
+    "path": "runs/pretrained/diagnostic/university-matched-session-20261024/independent-verification.json",
+    "sha256": "ae3ba6dcaf7afe7c4479c4462717ec6334b0953dcf4b7184ad3605705c32796a"
+  },
+  "verified": true
+}

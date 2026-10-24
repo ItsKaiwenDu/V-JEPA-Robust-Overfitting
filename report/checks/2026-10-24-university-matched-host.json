@@ -1,0 +1,23 @@
+{
+  "active_cuda_compute_processes_checked": false,
+  "archive_manifest_and_helper_rehashed": true,
+  "billing_or_reservations_changed": false,
+  "bounds": "One training monitor; min(7 GiB, 90% VRAM); 3600s matrix, 900s A-only replay, 4800s outer + 15s kill grace.",
+  "canonical_methods_or_study_yaml_changed": false,
+  "date": "2026-10-24",
+  "full_diagnostic_fit_verified": false,
+  "gpu": "NVIDIA GeForce RTX 3070",
+  "gpu_job_started": false,
+  "handoff_rebuilt": false,
+  "hostname": "linux10609",
+  "kind": "university_matched_attack_host_check",
+  "next_action": "User manually transfers the four verified handoff files to a fresh dated directory, extracts with checksums, then runs the guarded detached launcher on this host.",
+  "paid_compute_started": false,
+  "prepared_archive_sha256": "850b88652881180de80544545df7e519097e71eb996b807c4b2755bcca14339b",
+  "prepared_source_hashes_match": true,
+  "research_admitted": false,
+  "source": "user-pasted university terminal output",
+  "upload_performed": false,
+  "vram_total_mib": 8192,
+  "vram_used_mib": 74
+}

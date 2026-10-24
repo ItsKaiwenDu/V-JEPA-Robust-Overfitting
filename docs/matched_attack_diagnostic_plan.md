@@ -1,5 +1,11 @@
 # Matched attack diagnostic plan
 
+**October 24 outcome:** the one-clip university run and fresh A-only replay now
+[verify independently](../report/checks/2026-10-24-university-matched.md).
+The sections below retain the October 23 preparation/design context; they do
+not indicate an active job or admit research execution. No method is changed.
+
+
 October23. Status: implemented and tested on small upstream CPU models; the
 university GPU diagnostic has not run. See the [implementation and handoff guide](matched_attack_diagnostic.md).
 This is a bounded training-only diagnostic, not an amendment to the study protocol.

@@ -490,3 +490,20 @@ without split/resume trajectories; full candidate recovery remains a later
 gate if the economics are promising. Preserve the $200/$160 caps and existing
 two-hour/$3 pilot ceiling. No automatic rental or scope reduction.
 See [the preparation](../report/checks/2026-10-22-lower-cost-benchmark-preparation.md).
+
+
+## 2026-10-24 — Accept the one-clip matched control; retain study attack gates
+
+Exact start/prefix pairing, frozen-source/data/checkpoint identities, retained
+native CUDA kernels and fresh A-only replay pass on university RTX 3070. This
+accepts the diagnostic mechanism and observed 8 GB fit for input-gradient
+attacks; it does not accept full training or optimizer recovery.
+
+At four attack draws, 20-to-50 independent main loss is nearly flat and audits
+have mixed directions. At eight draws all three banks increase; eight draws
+are not uniformly higher than four. Keep the proposed canonical methods and
+study YAML unchanged. Predeclare a broader training-only clip/bank check and
+finish research calibration before choosing the primary attack or revising
+costs. Do not promote instrumented RTX 3070 times to A40 observations. No paid
+launch or held-out pixels follow from this diagnostic acceptance. See
+[the verified result](../report/checks/2026-10-24-university-matched.md).

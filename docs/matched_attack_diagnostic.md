@@ -1,5 +1,11 @@
 # Matched training-only attack diagnostic
 
+**October 24 outcome:** the one-clip university run and fresh A-only replay now
+[verify independently](../report/checks/2026-10-24-university-matched.md).
+The sections below retain the October 23 preparation/design context; they do
+not indicate an active job or admit research execution. No method is changed.
+
+
 October 23, 2026. The separate implementation has passed focused tests on actual
 small upstream CPU transformers. The university CUDA run is **not started**;
 current host/GPU availability and full-model 8 GB memory fit are unverified.

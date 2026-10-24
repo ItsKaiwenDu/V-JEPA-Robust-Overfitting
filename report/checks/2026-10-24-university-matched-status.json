@@ -1,0 +1,24 @@
+{
+  "archive_downloaded": false,
+  "billing_or_reservations_changed": false,
+  "date": "2026-10-24",
+  "expected_archive": {
+    "bytes": 110384818,
+    "members": 29,
+    "sha256": "3e9d17e10c9cdd1fa814ad2ccdbceeef71921158c3b34634023a79e145352f2b"
+  },
+  "hostname": "linux10609",
+  "independently_verified": false,
+  "kind": "university_matched_attack_reported_completion",
+  "losses_interpreted": false,
+  "new_paid_compute_started": false,
+  "next_action": "User SCPs evidence archive, member manifest, launcher.log and exit_status.txt into the prepared local downloaded directory; then audit exact pairing/replay and source/runtime/data/checkpoint/tensor identities.",
+  "remote_run_directory": "/home/kdu/Desktop/VJEPA-Robust-Overfitting/matched-transfer-20261024/unpacked/matched-attack-20261023/runs/matched.IPsSNE",
+  "reported_exit_status": 0,
+  "reported_finish_pacific": "2026-10-24T12:34:10-07:00",
+  "reported_finish_utc": "2026-10-24T19:34:10Z",
+  "reported_handoff_files_verified": 326,
+  "reported_passed": true,
+  "research_admitted": false,
+  "source": "user-pasted university launcher log"
+}

@@ -2,6 +2,60 @@
 
 ## Current stage
 
+LATEST October24 university matched run is COPIED AND INDEPENDENTLY VERIFIED.
+Read report/checks/2026-10-24-university-matched.md/JSON. Raw
+runs/pretrained/diagnostic/university-matched-session-20261024 has downloaded/,
+extracted/,audit.py and independent-verification.json. Archive110384818bytes,
+SHA3e9d17e10c9cdd1fa814ad2ccdbceeef71921158c3b34634023a79e145352f2b,
+29members. Verifyall198oldpins/5retainednew/49project/34upstream hashes,
+173logicaltensors/80regeneratedmasks/320gradientobservations. Original5GB
+checkpoint and all3releasedcomponent logical hashes independently reproduce.
+Exactstarts/first20prefixes/strictattackselection/bounds/nativeCUDAprobes/fresh
+A-only replay pass. No all4freshreplay claim. Session2457.378s; outer11:53:04
+through12:34:10Pacific=41m06s. Peakallocator4.890916GiB matrix/3.687251replay;
+actualcap6.882330GiB. This is pretrained attack fit, NOT optimizer recovery;
+old8GBAdamW OOM and FP32 failures preserved. No additional GPU work is needed.
+Main independent losses A20/EOT4=.6991500854,B50/EOT4=.6992778778,
+C20/EOT8=.6805429459,D50/EOT8=.6921564937. EOT4steps effect main+.0183%,
+auditsmixed; EOT8steps+1.68–1.99%all3banks. Eightdrawsnotuniformlydominant.
+Do NOT choose researchprimary/convergence or weaken attacks fromoneclip.
+Next OFFLINE: predeclare broader training-only clip/bank control using declared
+monitor panel and frozen seeds/criteria/bounds before another run. Research
+calibration/protocol/budget gates remain. No automatic rental/newGPU job.
+Runtimeobservationsinstrumented; no A40pooling/crossGPU performance inference.
+YAML/core198pins/heldoutclosure/20classes unchanged. Billing2hold/2.53unreserved/
+.0792unassigned gap unchanged; no new paid Pod. Previous91local/26new and26
+extracted CPU checks are historical; full pytest not repeated here.
+Older reported-pass/copy-pending and host-only notes below are historical.
+
+LATEST October24 university run matched.IPsSNE REPORTED COMPLETE/PASS by user
+launcher log: exit0, finished19:34:10UTC/12:34:10Pacific. Archive110384818bytes,
+SHA3e9d17e10c9cdd1fa814ad2ccdbceeef71921158c3b34634023a79e145352f2b,
+29members; final handoff verification326files. This is reported completion,
+NOT independent local verification or a loss/convergence conclusion yet.
+Read report/checks/2026-10-24-university-matched-status.json and ignored
+runs/pretrained/diagnostic/university-matched-session-20261024/reported-completion.json.
+Empty downloaded/ directory is prepared there. Next user manually copies
+evidence.tar.gz, evidence.tar.gz.manifest.json, launcher.log and exit_status.txt
+from the reported remote run; then independently hash/extract/verify all
+contracts/artifacts/pairing/native probe and A-only replay and interpret losses.
+Do not rerun/upload another diagnostic. User can close SSH; no paid Pod.
+The original source and diagnostic package remain unchanged. Billing/holds
+unchanged, research not admitted. Earlier host-only/no-job notes below are
+historical snapshots before this successful reported invocation.
+
+LATEST October24 user returned and supplied current host check: linux10609,
+NVIDIA GeForce RTX3070,8192MiB total/74MiB used. Overnight deferral has ended.
+Read report/checks/2026-10-24-university-matched-host.json. Existing archive/
+manifest/helper/prepared-source hashes recheck; package NOT rebuilt, no tests
+repeated. Git was clean after user commit. Next provide manual fresh dated
+transfer folder/SCP/verified extraction/detached launch commands. No upload/job
+yet; current CUDA compute-process status is not inferred from74MiB. Launcher
+refuses active CUDA compute jobs, changed host/GPU/checkpoint/source, and uses
+existing campus Python/checkpoint. 8GB fit remains unproved; keep all bounds.
+No paid Pod, billing change, study admission or changed science. Older
+TOMORROW/do-not-launch-tonight notes below refer to October23 deferral only.
+
 FINAL OFFLINE handoff verified: report/checks/2026-10-23-matched-attack-preparation.md/JSON.
 Archive327members/12,649,298bytes, SHA850b88652881180de80544545df7e519097e71eb996b807c4b2755bcca14339b.
 Raw runs/pretrained/diagnostic/matched-attack-handoff-20261023 contains

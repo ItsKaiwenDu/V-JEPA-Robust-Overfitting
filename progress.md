@@ -1,5 +1,24 @@
 # Research Progress Reports
 
+## 2026-10-24 — Matched university attack diagnostic independently verified
+
+The released-checkpoint, one-training-clip four-arm run completes in 40m57s
+(41m06s outer wall), with 4.89 GiB peak CUDA allocation on RTX 3070. All 29
+archive members, 198 old pins, 49 project/34 upstream source hashes, 173 logical
+tensors, 80 regenerated mask tensors and 320 input-gradient observations verify.
+All three weight digests reproduce from the original checkpoint. Exact matched
+prefixes, native kernel probes and fresh A-only replay pass.
+
+[Full result](report/checks/2026-10-24-university-matched.md): at four draws the
+20-to-50 main-loss change is +0.0183% and audits are mixed; at eight draws all
+three banks increase by 1.68–1.99%. Eight draws do not uniformly beat four.
+These are one-clip descriptions, not convergence acceptance or primary selection.
+
+No optimizer/update/recovery run, held-out pixels, altered canonical method,
+relaxed threshold, new paid Pod or economic pooling. Original AdamW OOM and
+FP32 rejections remain. Next is offline predeclaration of broader training-only
+clip/bank checks before calibration, protocol and full budget admission.
+
 ## 2026-10-23 — Separate matched attack implementation and handoff verified
 
 The final [offline handoff](report/checks/2026-10-23-matched-attack-preparation.md)
