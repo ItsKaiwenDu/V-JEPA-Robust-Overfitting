@@ -1,0 +1,627 @@
+{
+  "archive_members_verified": 95,
+  "attack_comparison": {
+    "cause_of_scoring_bank_variation_identified": false,
+    "changed_factors": {
+      "attack_mask_count": [
+        4,
+        8
+      ],
+      "attack_mask_prefix_shared": false,
+      "random_start_seed_shared": false,
+      "steps": [
+        20,
+        50
+      ]
+    },
+    "combined_configuration_loss_difference": 0.045223772525787354,
+    "combined_configuration_relative_loss_difference": 0.06847552344048602,
+    "convergence_adversarial_loss": 0.7056608200073242,
+    "held_out_result": false,
+    "iteration_effect_identified": false,
+    "kind": "saved_training_clip_attack_comparison",
+    "next_diagnostic": {
+      "arms": [
+        {
+          "attack_masks": 4,
+          "steps": 20
+        },
+        {
+          "attack_masks": 4,
+          "steps": 50
+        },
+        {
+          "attack_masks": 8,
+          "steps": 20
+        },
+        {
+          "attack_masks": 8,
+          "steps": 50
+        }
+      ],
+      "artifact_namespace": "Separate diagnostic contract; canonical study methods remain unchanged.",
+      "attack_masks": "One eight-draw bank; four-mask arms use its first four draws.",
+      "candidate_selection": "Attack-bank loss only; no selection using scoring/audit banks.",
+      "epsilon_255": 4.0,
+      "preferred_execution": "Prepare a bounded university GPU handoff if available; no rental authorized.",
+      "purpose": "Separate attack-step and EOT-mask effects with matched randomized inputs.",
+      "restarts": 2,
+      "scope": "Fixed pretrained checkpoint and training-only clips; no trajectory or held-out pixels.",
+      "scoring": "Same independent four-mask main bank and two fixed four-mask audit banks in every arm.",
+      "starts": "Identical pre-generated start for each restart across all four arms.",
+      "status": "designed_not_implemented_or_run",
+      "step_size_255": 2.0
+    },
+    "paired_loss_increase_range": 0.10933953523635864,
+    "primary_adversarial_loss": 0.6604370474815369,
+    "raw_adversarial_loss_range": 0.09447777271270752,
+    "research_admitted": false,
+    "same_clean_reference": true,
+    "same_main_scoring_bank": true,
+    "scoring_banks": [
+      {
+        "adversarial_loss": 0.7056608200073242,
+        "adversarial_minus_clean_loss": 0.1366749405860901,
+        "bank": "main",
+        "clean_loss": 0.5689858794212341
+      },
+      {
+        "adversarial_loss": 0.8001385927200317,
+        "adversarial_minus_clean_loss": 0.24601447582244873,
+        "bank": "audit_0",
+        "clean_loss": 0.554124116897583
+      },
+      {
+        "adversarial_loss": 0.7077980637550354,
+        "adversarial_minus_clean_loss": 0.15434736013412476,
+        "bank": "audit_1",
+        "clean_loss": 0.5534507036209106
+      }
+    ],
+    "study_attack_convergence_validated": false,
+    "video_id": "v_BreastStroke_g10_c02"
+  },
+  "budget_approved": false,
+  "complete_cost_estimate": false,
+  "current_hardware_availability_checked": false,
+  "date": "2026-10-23",
+  "economics": {
+    "allowance_hours": 8,
+    "budget_approved": false,
+    "complete_cost_estimate": false,
+    "kind": "offline_a40_cost_attribution",
+    "noncompute_reserve_usd": 40,
+    "pilot_charges_not_added_again": true,
+    "pilot_reserve_usd": 10,
+    "planned_compute_cap_usd": 160,
+    "price_grid_is_hypothetical": true,
+    "project_cap_usd": 200,
+    "quote_basis": "Historical user-reported0.61/hour for the completed A40; no new quote or availability check.",
+    "research_admitted": false,
+    "retained_design": {
+      "classes": 20,
+      "runs": 8,
+      "training_clips": 100,
+      "updates_per_run": 390
+    },
+    "runtime_headroom_factor": 1.25,
+    "scenarios": {
+      "maximum": {
+        "binding_hourly_rate": 0.5258296907204736,
+        "budget_approved": false,
+        "calibration_fraction": 0.007521600008215221,
+        "complete_cost_estimate": false,
+        "component_contributions": {
+          "adversarial_updates": {
+            "count": 1560,
+            "fraction_of_timed_work": 0.11443655194519922,
+            "hours": 25.20016152289948,
+            "unit_seconds": 58.154218898998806
+          },
+          "calibration_three_candidate_clip_bundles": {
+            "count": 10,
+            "fraction_of_timed_work": 0.007521600008215221,
+            "hours": 1.6563373493500069,
+            "unit_seconds": 596.2814457660024
+          },
+          "checkpoint_state_and_save_boundaries": {
+            "count": 248,
+            "fraction_of_timed_work": 0.010405713524049532,
+            "hours": 2.291450215073249,
+            "unit_seconds": 33.262986992998776
+          },
+          "clean_updates": {
+            "count": 1560,
+            "fraction_of_timed_work": 0.019343070081148637,
+            "hours": 4.259552407932885,
+            "unit_seconds": 9.829736325998965
+          },
+          "convergence_clips_including_two_audits": {
+            "count": 140,
+            "fraction_of_timed_work": 0.1393798232773284,
+            "hours": 30.692938575288927,
+            "unit_seconds": 789.246991936001
+          },
+          "fgsm_clips": {
+            "count": 140,
+            "fraction_of_timed_work": 0.0014002919963642638,
+            "hours": 0.30835938245064526,
+            "unit_seconds": 7.929241263016593
+          },
+          "primary_test_clips": {
+            "count": 600,
+            "fraction_of_timed_work": 0.14463598480293413,
+            "hours": 31.85040196599948,
+            "unit_seconds": 191.1024117959969
+          },
+          "primary_train_validation_clips": {
+            "count": 1980,
+            "fraction_of_timed_work": 0.4772987498496827,
+            "hours": 105.1063264877983,
+            "unit_seconds": 191.1024117959969
+          },
+          "random_clips": {
+            "count": 140,
+            "fraction_of_timed_work": 0.0005632565675210888,
+            "hours": 0.12403516393226002,
+            "unit_seconds": 3.1894756439724006
+          },
+          "routine_clips": {
+            "count": 9660,
+            "fraction_of_timed_work": 0.08491481320311525,
+            "hours": 18.699156624625235,
+            "unit_seconds": 6.968629797996982
+          },
+          "trained_selected_anchor_loads": {
+            "count": 12,
+            "fraction_of_timed_work": 0.00010014474444158074,
+            "hours": 0.022052951550006885,
+            "unit_seconds": 6.615885465002066
+          }
+        },
+        "maximum_native_hours_at_current_rate": 188.72131147540983,
+        "native_evaluation_fraction": 0.8481929196969459,
+        "phase_timed_hours": {
+          "confirmation": 169.39131458020026,
+          "exploration": 50.81945806670019
+        },
+        "planned_compute_cap_hourly_rate": 0.5608850034351719,
+        "price_sensitivity": [
+          {
+            "another_gpu_performance_predicted": false,
+            "hypothetical_hourly_usd": 0.29,
+            "maximum_uniform_native_time_multiplier": 1.842748647446733,
+            "partial_arithmetic_within_200": true,
+            "total_at_unchanged_a40_units_usd": 132.72640508450144
+          },
+          {
+            "another_gpu_performance_predicted": false,
+            "hypothetical_hourly_usd": 0.4,
+            "maximum_uniform_native_time_multiplier": 1.3260023408037844,
+            "partial_arithmetic_within_200": true,
+            "total_at_unchanged_a40_units_usd": 164.10538632345026
+          },
+          {
+            "another_gpu_performance_predicted": false,
+            "hypothetical_hourly_usd": 0.5,
+            "maximum_uniform_native_time_multiplier": 1.0535361063920479,
+            "partial_arithmetic_within_200": true,
+            "total_at_unchanged_a40_units_usd": 192.6317329043128
+          },
+          {
+            "another_gpu_performance_predicted": false,
+            "hypothetical_hourly_usd": 0.52,
+            "maximum_uniform_native_time_multiplier": 1.0116182241748577,
+            "partial_arithmetic_within_200": true,
+            "total_at_unchanged_a40_units_usd": 198.33700222048532
+          },
+          {
+            "another_gpu_performance_predicted": false,
+            "hypothetical_hourly_usd": 0.53,
+            "maximum_uniform_native_time_multiplier": 0.9918456382233527,
+            "partial_arithmetic_within_200": false,
+            "total_at_unchanged_a40_units_usd": 201.18963687857158
+          },
+          {
+            "another_gpu_performance_predicted": false,
+            "hypothetical_hourly_usd": 0.61,
+            "maximum_uniform_native_time_multiplier": 0.857003084849156,
+            "partial_arithmetic_within_200": false,
+            "total_at_unchanged_a40_units_usd": 224.01071414326162
+          }
+        ],
+        "project_cap_hourly_rate": 0.5258296907204736,
+        "research_admitted": false,
+        "timed_unit_hours": 220.21077264690047,
+        "timing_sensitivity": [
+          {
+            "total_usd": 224.01071414326162,
+            "uniform_native_time_multiplier": 1.0
+          },
+          {
+            "total_usd": 207.21964272893547,
+            "uniform_native_time_multiplier": 0.9
+          },
+          {
+            "total_usd": 198.82410702177236,
+            "uniform_native_time_multiplier": 0.85
+          }
+        ],
+        "total_usd": 224.01071414326162,
+        "uniform_native_throughput_speedup_needed": 1.1668569433166198,
+        "uniform_native_time_reduction_needed": 0.142996915150844
+      },
+      "median": {
+        "binding_hourly_rate": 0.5333553038937335,
+        "budget_approved": false,
+        "calibration_fraction": 0.00763321703883838,
+        "complete_cost_estimate": false,
+        "component_contributions": {
+          "adversarial_updates": {
+            "count": 1560,
+            "fraction_of_timed_work": 0.11037369313483149,
+            "hours": 23.95006841738365,
+            "unit_seconds": 55.269388655500734
+          },
+          "calibration_three_candidate_clip_bundles": {
+            "count": 10,
+            "fraction_of_timed_work": 0.00763321703883838,
+            "hours": 1.6563373493500069,
+            "unit_seconds": 596.2814457660024
+          },
+          "checkpoint_state_and_save_boundaries": {
+            "count": 248,
+            "fraction_of_timed_work": 0.007795313318090748,
+            "hours": 1.6915107395667777,
+            "unit_seconds": 24.55418815500161
+          },
+          "clean_updates": {
+            "count": 1560,
+            "fraction_of_timed_work": 0.01917625167457178,
+            "hours": 4.161068879283751,
+            "unit_seconds": 9.602466644500964
+          },
+          "convergence_clips_including_two_audits": {
+            "count": 140,
+            "fraction_of_timed_work": 0.14144815474749486,
+            "hours": 30.692938575288927,
+            "unit_seconds": 789.246991936001
+          },
+          "fgsm_clips": {
+            "count": 140,
+            "fraction_of_timed_work": 0.0014210716754842442,
+            "hours": 0.30835938245064526,
+            "unit_seconds": 7.929241263016593
+          },
+          "primary_test_clips": {
+            "count": 600,
+            "fraction_of_timed_work": 0.1455933098693885,
+            "hours": 31.59239881758367,
+            "unit_seconds": 189.55439290550203
+          },
+          "primary_train_validation_clips": {
+            "count": 1980,
+            "fraction_of_timed_work": 0.4804579225689821,
+            "hours": 104.25491609802611,
+            "unit_seconds": 189.55439290550203
+          },
+          "random_clips": {
+            "count": 140,
+            "fraction_of_timed_work": 0.000571615031874023,
+            "hours": 0.12403516393226002,
+            "unit_seconds": 3.1894756439724006
+          },
+          "routine_clips": {
+            "count": 9660,
+            "fraction_of_timed_work": 0.08542782009477445,
+            "hours": 18.537045177227263,
+            "unit_seconds": 6.908215593997738
+          },
+          "trained_selected_anchor_loads": {
+            "count": 12,
+            "fraction_of_timed_work": 0.00010163084566936148,
+            "hours": 0.022052951550006885,
+            "unit_seconds": 6.615885465002066
+          }
+        },
+        "maximum_native_hours_at_current_rate": 188.72131147540983,
+        "native_evaluation_fraction": 0.8549198939879982,
+        "phase_timed_hours": {
+          "confirmation": 166.9229526459206,
+          "exploration": 50.067778905722484
+        },
+        "planned_compute_cap_hourly_rate": 0.5689123241533157,
+        "price_sensitivity": [
+          {
+            "another_gpu_performance_predicted": false,
+            "hypothetical_hourly_usd": 0.29,
+            "maximum_uniform_native_time_multiplier": 1.8700941765878993,
+            "partial_arithmetic_within_200": true,
+            "total_at_unchanged_a40_units_usd": 131.5591401874706
+          },
+          {
+            "another_gpu_performance_predicted": false,
+            "hypothetical_hourly_usd": 0.4,
+            "maximum_uniform_native_time_multiplier": 1.3456795961375196,
+            "partial_arithmetic_within_200": true,
+            "total_at_unchanged_a40_units_usd": 162.49536577582154
+          },
+          {
+            "another_gpu_performance_predicted": false,
+            "hypothetical_hourly_usd": 0.5,
+            "maximum_uniform_native_time_multiplier": 1.0691700900818648,
+            "partial_arithmetic_within_200": true,
+            "total_at_unchanged_a40_units_usd": 190.6192072197769
+          },
+          {
+            "another_gpu_performance_predicted": false,
+            "hypothetical_hourly_usd": 0.52,
+            "maximum_uniform_native_time_multiplier": 1.0266301660733026,
+            "partial_arithmetic_within_200": true,
+            "total_at_unchanged_a40_units_usd": 196.24397550856798
+          },
+          {
+            "another_gpu_performance_predicted": false,
+            "hypothetical_hourly_usd": 0.53,
+            "maximum_uniform_native_time_multiplier": 1.0065641641824712,
+            "partial_arithmetic_within_200": true,
+            "total_at_unchanged_a40_units_usd": 199.05635965296352
+          },
+          {
+            "another_gpu_performance_predicted": false,
+            "hypothetical_hourly_usd": 0.61,
+            "maximum_uniform_native_time_multiplier": 0.8697206103040156,
+            "partial_arithmetic_within_200": false,
+            "total_at_unchanged_a40_units_usd": 221.55543280812782
+          }
+        ],
+        "project_cap_hourly_rate": 0.5333553038937335,
+        "research_admitted": false,
+        "timed_unit_hours": 216.99073155164308,
+        "timing_sensitivity": [
+          {
+            "total_usd": 221.55543280812782,
+            "uniform_native_time_multiplier": 1.0
+          },
+          {
+            "total_usd": 205.00988952731504,
+            "uniform_native_time_multiplier": 0.9
+          },
+          {
+            "total_usd": 196.73711788690866,
+            "uniform_native_time_multiplier": 0.85
+          }
+        ],
+        "total_usd": 221.55543280812782,
+        "uniform_native_throughput_speedup_needed": 1.1497945295908816,
+        "uniform_native_time_reduction_needed": 0.1302793896959844
+      }
+    },
+    "uniform_timing_scaling_is_hypothetical": true
+  },
+  "existing_non_markdown_source_pins_verified": 198,
+  "kind": "offline_a40_price_performance_protocol_review",
+  "limitations": [
+    "All measurements are bounded diagnostics, not full-study throughput bounds.",
+    "Hypothetical prices assume the measured A40 units; another GPU needs new measurements.",
+    "Uniform timing multipliers are affordability targets, not performance predictions.",
+    "The existing50reserve includes the10diagnostic envelope once; prior charges are not added again.",
+    "One training clip cannot identify a step effect or establish study-wide attack convergence.",
+    "No primary attack, data split, seed, epoch, precision choice or YAML was changed.",
+    "The matched diagnostic is specified here but has not been implemented or executed.",
+    "Final billing and the0.0792wallet/Details difference remain unresolved separately."
+  ],
+  "new_cloud_job_started": false,
+  "new_cuda_measurement": false,
+  "next_step": "Prepare the separate matched training-only convergence diagnostic before any further paid benchmark.",
+  "pixels_opened": false,
+  "quote_is_historical": true,
+  "research_admitted": false,
+  "scientific_thresholds_changed": false,
+  "source_sha256": {
+    ".editorconfig": "9807ba428350a2711c020cc208d83ec4d978758f5306891aeb3a32f75d3f02ce",
+    ".gitattributes": "c9588aaba63c86b2162ef2b31c3df5b9e9e90efea18544509d2226f09cd191d0",
+    ".github/workflows/repository-checks.yml": "4b8d7e90834dee5e0f4fbb7c9ca6646d01b217616d15b6ed1fbdd6936d86cc22",
+    ".gitignore": "d2fa77020221bf0677ccde26c3fa11b533373fdab5254191a9b9d97c04651885",
+    "LICENSE": "5b789f6868ba21e8f32bb2fd05b0566282db82937488953bc91f3c50b4ffdeb3",
+    "attacks/__init__.py": "41a090d550527278b09bfb62fbed810805b379151b7a5ab7cb5469bc12ee01cb",
+    "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "checkpoints/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "configs/budget_study_plan.yaml": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+    "configs/compute_plan.yaml": "5e49ff9e7897b7d81e6a95aa9c142d1242fb5ac344244635865cb1fe3fed9214",
+    "configs/local.example.yaml": "8d8ee39ffea58dd1c4b99281e1eb1a8796a99aaf72d04f1d274531b27720e30b",
+    "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+    "data/features/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "data/manifests/ucf101-split1-v1/metadata.json": "096f45a0476a25bdb0a2b424dfe4813a33e7784cbd1867ec4a22a3402e4115a9",
+    "data/manifests/ucf101-split1-v1/test.csv": "6de73dbcff7c31dc27b8e447cbd5eb75afa4f876a059e25b59c645d384418028",
+    "data/manifests/ucf101-split1-v1/train.csv": "3b1c271a114a880358e107adf4385a1367bb224901ee47a867dec0c5b68cc212",
+    "data/manifests/ucf101-split1-v1/validation.csv": "5c38b15f3c3935a7cb00ff418a4a4544453307b5007c2c342499f9899a0bf65c",
+    "data/manifests/ucf101-staged-20x5-v1/confirmation_validation.csv": "b01d1f3c12e782d5c2b96658af5f2e8c7f11a6222adb3a8d9ff116540c984f42",
+    "data/manifests/ucf101-staged-20x5-v1/exploration_validation.csv": "627b1ea5333155dee80c05d93d9fde2ea8b9fcbfd53d50b961f39173a0480893",
+    "data/manifests/ucf101-staged-20x5-v1/metadata.json": "0f27d2a7d498faa8cb4f22d0ac5c50c3058d26823c4f4977f9b26cbfc0adf61d",
+    "data/manifests/ucf101-staged-20x5-v1/test.csv": "af35f29cfaf398890dca2ae87199c2b5b61ae3a412ddc3a6c23873bf5f546a65",
+    "data/manifests/ucf101-staged-20x5-v1/train.csv": "7932d78759873053f39a0bf7ef3240c58e7f2498216a0d5343c1207d029dedcc",
+    "data/manifests/ucf101-staged-20x5-v1/train_monitor.csv": "d56275b86cc3b5d2866c9e9d5d53362c17dda36c69bccb6553c4d53b32d1559d",
+    "data/processed/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "data/raw/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "datasets/__init__.py": "d81c61d6627e4e28075736950978c3cca23843d93fb213454458bd32f5357cf1",
+    "datasets/prepared.py": "531dcb4e4e69e3a59890e020940a6a8d0459d47100154730eabc6d267c5e2bb5",
+    "datasets/staged_files.py": "02771aaa232daaad287e74a96bc152b3d7c5c5c4ffff542c8574bd9faf36b2a8",
+    "datasets/staged_preparation.py": "45631fbfcea87ca44c9b18f0147c81f461468b6e929818377ac70f8e4204b5dc",
+    "datasets/staged_subset.py": "29803ffa6142922135a4ae45b85c5933fd199398b301f8ae4b502b6235d9ff8e",
+    "datasets/ucf101.py": "a99c02a11febc1328fe4a8b40277530e08c8d07148bf663f13e73da0200f87c2",
+    "datasets/video.py": "04f337169dc3f29b51b25752f570a82bd21df1c8b07e0a3b0e28eb39282afa17",
+    "models/__init__.py": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5",
+    "models/calibration.py": "bd3ec55ca45f9788f08fb1f5342454adf86aedb20db3ba6169dfe02ecf6e92f6",
+    "models/checkpointing.py": "edc5940bc73db42c89b3494be9b0f2098680762f4fa972305f51abe47c3d8373",
+    "models/cuda_convolution.py": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3",
+    "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+    "models/diagnostics.py": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0",
+    "models/evaluation.py": "1431951d158b57b615208006edb5365a6bad910b2a14e0aa782a1c6f82034089",
+    "models/evaluation_checkpoint.py": "c07c5e401be62b76f4bf834b2828c11995302360ce46bdfbfe5146f7c7eb153a",
+    "models/evaluation_store.py": "9503834d106b788c1638b4a57d886259e2cf6f6be5069b18a1105e8beac48ee1",
+    "models/execution.py": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba",
+    "models/feasibility_review.py": "ce046bee4a09030ae0e230128949ad34345ff84ac09602bcb1cf8fd991023c59",
+    "models/features.py": "c87fb63f46f6b20b700c1b675de1095c6563cbca01f9141073b1122ef3f87c3a",
+    "models/fixture_state.py": "4f1d891a26caf35a9c42f802e84f650e2e0c7dc0857369794bfef65e54c487d2",
+    "models/gradient_attribution.py": "f8bd9d39dd41c61ffadd8ac882d08a36bb2513a948047632a789c8d0900414d3",
+    "models/hardware_benchmark.py": "059f64d42559588dab64955caa235a3ac23fa3f18e7cb1c98f515f4cda05da3c",
+    "models/hardware_controls.py": "c3ba7e150cd8404a0e0640268972b07cc3b55fa6f2de217afbed353203b46830",
+    "models/measured_budget.py": "d1e683a37ab70a5a35631d4fb96f76ea764bdea49053b53abd00472d427e158f",
+    "models/native_diagnostic.py": "c56b29496397d5516416a884ab591ec6de43e0fc4dca1bc05536234e10ea75d9",
+    "models/native_patch.py": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7",
+    "models/native_probe.py": "10dd9afd62615106aa298c1970278dcd9f203979c8006bc150ecbdc0228db762",
+    "models/patch_embed.py": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec",
+    "models/pilot.py": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82",
+    "models/pilot_bundle.py": "d25f0e1f085bb7addcfc855986c7bf984765990cb473be9d5315f5399696a9db",
+    "models/pilot_measurement.py": "3361cd01dc4b23f64e749df877988ecbfe4dfda18ee5d9305c5f25ea33322753",
+    "models/precision_diagnostic.py": "c096e38bf53c4cdc0273a74f3fd0e4be0c1fc197925a71cfa9d633d192bb7d00",
+    "models/precision_patch.py": "30e8a6b28b8f082fd771aaeab5a70a73cf200714ef2b24416a55938f61e9c550",
+    "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+    "models/schedule.py": "d46be0eb89a82a62be392ae20320646590adba83bd6ec6bbb42c6e3849f9dfd8",
+    "models/study_artifacts.py": "c9ace85300c4efcc62e14bf60a89a4c22415497ea8a5ee5f8e3f12230ac8fcad",
+    "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+    "models/workflow_diagnostic.py": "481978b59318c28975af4f609440a45cd815f681b4ddb6371d37394dc1e047b2",
+    "models/workflow_pilot.py": "40224083b112dac750ea4c93c523c7c9ec93a32dcb679ec2de03e1cc1891cd31",
+    "models/workflow_preflight.py": "7d382d8e3b80c7ce0f667610bdb909518624c29958b9ab70595228a5adaa46db",
+    "report/adversarial-finetune/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "report/checks/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "report/checks/2026-10-17-data-preparation.json": "aea5a063b3fbc276192d5f4377a5f610fd9201216d2f1e03c2ed5067754ddeb4",
+    "report/checks/2026-10-17-pretrained-smoke.json": "972320cc0e10334458ae52ddfce4f4d8d464a1bea095b46b56fa032287cada9f",
+    "report/checks/2026-10-17-real-clip-attacks.json": "3a709f9ac4dd709e8b7a238fbefc1c7433b449100b6328faa4f5a1c4e0869000",
+    "report/checks/2026-10-18-cpu-mps-linear-parity.json": "9ec2a46b3c8446fe970b398aa5cb226d824597fbd83dc1004ce1f33865530358",
+    "report/checks/2026-10-18-cpu-mps-parity.json": "55ea85a17a1943b006a7b20e524710290efe39ce39a46deff4c34d13b21a9c0d",
+    "report/checks/2026-10-18-mps-attacks.json": "d714839f6b873302636c9d612a2b3f2bf062e6a42ec1f3d517580549940067e0",
+    "report/checks/2026-10-18-mps-baseline.patch": "a32faa4dd5316db01e0d153aebbed9e78c7348d32e5a465df7b7b45363c6c4a2",
+    "report/checks/2026-10-18-mps-conv3d-short-pilot.json": "d342b8e48f81f64b6a9fa584f9db40a8ff96ddb9b4532e2af77332930c92fd0c",
+    "report/checks/2026-10-18-mps-linear-attacks.json": "dec62e79b2752fddec957b7ae34fd75c7fe37733001a45502e1ee793a60ceccb",
+    "report/checks/2026-10-18-mps-linear-smoke.json": "13a2f6cc07c65eb8b69ccd6d45cb4a91c51debbaf3b9c94e2d48eb1646108bdf",
+    "report/checks/2026-10-18-mps-patch-projection.json": "bd7d03cfdcf17001fbbd7b846c721e09128de7387d985f4130aa763181fdaaeb",
+    "report/checks/2026-10-18-mps-smoke.json": "df117a71c5d098f38ba9b2a742919ba739fbd0e69153dbdd50d84d24a00fd783",
+    "report/checks/2026-10-19-compute-projection.json": "4169b8302151c27ce16666e84f30b97f16d59a8890825d1ec37cc11ff63c4745",
+    "report/checks/2026-10-19-mps-linear-pilot.json": "36419563a06487edbab78a5b0f3d5f310509995dfda8c22bdb92a9a497cbaf82",
+    "report/checks/2026-10-19-runpod-5090-attacks.json": "6c3f0e29b5bf68bb184142f00fea2f2e28c5f7997fc4632eaa2d1fcf738f830b",
+    "report/checks/2026-10-19-runpod-5090-pilot.json": "f45778c76a69ab9f526799009d8018d450e0ec389480f8d0da5e055e79cae736",
+    "report/checks/2026-10-19-runpod-5090-projection.json": "09de6e9ed126f424a814ada5f9a89eb7f530f97e00ea8840a79090b2b7f19f0c",
+    "report/checks/2026-10-19-runpod-5090-smoke.json": "fb11f92513f0a64eb4eb96a6e324f9f6a701849803152553f55520c9dbdbc82e",
+    "report/checks/2026-10-20-evaluation-checks.json": "9ddf5670be7b1094f2fcd4d1c11bf737064a1d258f7ffbc9fe9d01908e63e4c2",
+    "report/checks/2026-10-20-staged-data-preparation.json": "d6016b5a122956704497230bd492ae41d05885698c3845ea465a5a6ab9c5223d",
+    "report/checks/2026-10-20-staged-study-projection.json": "5b627a338b74b5f7750f91682ce846ad4fbe73552061b6b40f0112b651d9de13",
+    "report/checks/2026-10-20-training-resume-checks.json": "d89551ba4dbd6147369a836866691c8b18cb6c2f4acac94f6cf1c16b4c36a6d2",
+    "report/checks/2026-10-20-workflow-checks.json": "cd1a14b6c84840f3752f46c2cacafe1311559fa0426eca469e33ae88fddbd150",
+    "report/checks/2026-10-21-cuda-component-preparation.json": "3fd9c3d1dfea5beae6f3def4c0f9b69c7028c5cd39161ad6519c0ed01eaa0f6f",
+    "report/checks/2026-10-21-cuda-convolution-precision-preparation.json": "1f1ae95d090a0531ab2c01ad5411061fa986f5c0f3c405c631fae27d3210ba85",
+    "report/checks/2026-10-21-cuda-convolution-preparation.json": "844e9218bd2777c0642418697481b8cee44064310d33450243d108a059d4684c",
+    "report/checks/2026-10-21-cuda-handoff.json": "72455c0c49dbb60ec65c349c067ff9a722e02d9e50e8a36887e3cde9393c88c9",
+    "report/checks/2026-10-21-cuda-workflow.json": "23c5ffd981f0bf4b37784f7b471f79b627927a57263ccd565db1671a289c34d8",
+    "report/checks/2026-10-21-gradient-attribution.json": "476b3084ef1ee076431e4a19de945a191b97c433b71d159440e26a227f543f7f",
+    "report/checks/2026-10-21-native-integration.json": "d223e8c246a25863ff62369ddd56b6270ebe5c7d9613ffacc1c2559ae1eaf453",
+    "report/checks/2026-10-21-native-probe-fix.json": "5fa3ff1e489a19b3037a1f9f3a5464113f8a331033a5e6f44065dfc10b9fc846",
+    "report/checks/2026-10-21-shared-forward.json": "a051a83bb27a53feb8323473af6c4ab6a98d03ce6d8c8eee25552ba0061441a3",
+    "report/checks/2026-10-21-university-cuda-components.json": "8d2c5ca04dd3e8e30cb9ecb67b57b3f8dfa48378cb2fc2132db07ec90080a8a9",
+    "report/checks/2026-10-21-university-cuda-convolution-precision.json": "a63061754b52c09a05a3b5178c55ae432c2b6f0b89e83e4d83e10712b0daf375",
+    "report/checks/2026-10-21-university-cuda-convolution.json": "42194c378409811f7c1850b33904399c4bb41867c94d921cd036f0cffecbb44d",
+    "report/checks/2026-10-21-university-gradient-attribution-status.json": "28d1b4a0dd3f391e9d4f8f0395b08e239d3bfcf44d370514ea030e42ae87ca6b",
+    "report/checks/2026-10-21-university-gradient-attribution.json": "659b8e69fddfdf6c1e262f31e63dbe5a54963a6c76076954f23ea3f4a8aed6c4",
+    "report/checks/2026-10-21-university-native-model-comparison.json": "3d446daa1c12a5023b8ede819901df105acbf8d2490041676dc409c3918cde15",
+    "report/checks/2026-10-21-university-native-model-status.json": "370b76c565c4d0153cb5a6de68a2795f12f3b8c5dd504943bf5d13f34cc387b1",
+    "report/checks/2026-10-21-university-shared-forward-status.json": "930e33f7bcc1c9115204526b5051ceb9fdb2b77024ddec14299744ed6761dd8e",
+    "report/checks/2026-10-21-university-shared-forward.json": "1f4c19a9eb4a4ad4c485fa6ee04278eb92f0955052c6d5fffe28d1542ef4987a",
+    "report/checks/2026-10-22-lower-cost-benchmark-preparation.json": "646bbd8564c07270c49232c10cffa0217af6c6d93032179c034be43f5813813d",
+    "report/checks/2026-10-22-lower-cost-gpu-catalog.json": "184e53e3bf46f80aa5869a41749b5a50a91b5ae4ec0d7df14df8a0c7249a4a7e",
+    "report/checks/2026-10-22-measured-budget-review.json": "427c0e9f4e05e1c3eb0f441d74f43630c6e627fadac1437843410aad471f7128",
+    "report/checks/2026-10-22-measured-budget-validation.json": "77a965f928ea91ff74cd33454c45eb174f4f3685289a0a77d2a5a9143b4be0d5",
+    "report/checks/2026-10-22-shared-forward-cuda-workflow.json": "b8b7b9ad70b1d74abf8deecf4d1385f9ce1c5c23d9557afd016214b9bff4f027",
+    "report/checks/2026-10-22-shared-forward-integration.json": "7d22ed8a42339d4b3568034ae77fcd5abe42b22168c61e2e876fa2c82a3628b7",
+    "report/checks/2026-10-22-shared-workflow-handoff.json": "cebf8b42c45645a46846d85bd3f336394823558ce63fa503406af564853fe354",
+    "report/checks/2026-10-23-a40-setup-rejection.json": "b9bddb4ec4961cb60c195a7157bb9c8e883e0f4aaca10d7dac0ad4a454b412ae",
+    "report/checks/2026-10-23-checkpoint-lock-repair.json": "0c244915419fdf079d9ce202aa2f3e60ff5f0c0ad0054c838245c14f5cf8ab8a",
+    "report/checks/2026-10-23-cpu-fixture-repair.json": "faab84b6e725df625ac5fc54323b5443389be1168a4c08782238fde60df28954",
+    "report/checks/2026-10-23-university-cpu-recovery.json": "07fcd9f5d19b9e7689ac6247b962752669c856722e3b56e2f7ba2ec571ac840b",
+    "report/clean-finetune/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "report/figures/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "report/main.tex": "5ba3515b776691c05da90e4196bd082db44eaa091ab5ffadc2ae575b35bbf4a0",
+    "report/pretrained/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "report/references.bib": "d858a53d9deb85890e70ef413a30dd99decc0a043f067c0f47598efa0052eaaf",
+    "report/tables/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "requirements-pilot-offline.txt": "92ff574a226b27485e6f224114d7826fda0c5c6f392234fa14b18fc68d373450",
+    "requirements-smoke.txt": "4024c7aca318f8e0eff714041fac8e834b93009c5c86b7e90c2e7cd4fe9da77c",
+    "requirements.txt": "b8c75f713aa47593934db1be408eeac22d4e5912440b651190e63a89aeea3923",
+    "run_logs/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "runs/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "runs/pretrained/diagnostic/a40-controls-session-20261023/downloaded/evidence.tar.gz": "0d7e6b1c81d266b2470da0b01c7fbe6157bced5455311f3ae70f3f6160305c38",
+    "runs/pretrained/diagnostic/a40-controls-session-20261023/final-verification.json": "7a3182a4a32fbe9d5aac7c2aa161330f5cd4e0fb799f322f8177b86c2d4a7d5e",
+    "scripts/check_attacks.py": "902abc674f3d2ca886e4f6af910b68788269db31604c39086f97bfa8c2a07652",
+    "scripts/check_gradient_attribution.py": "f9b7c46761610260ab9e04c025e9aad1fdf20eea20344e4c58d1920b2d1587a9",
+    "scripts/check_mps.py": "43d98405a6ea3bb5381935e7e1577b8805dec6702d44dc4e95454236b8f24b6d",
+    "scripts/check_native_model.py": "e096fa03f0691f0ba6a44eab9be5ef264b167f4b6384e52d8c30dcf81866b55e",
+    "scripts/check_patch_embedding.py": "bf07bec83ae9189ad86e9fcee2150ec8dd68e31adf82bb6ba18734a135290bcd",
+    "scripts/check_precision.py": "ab1c80d49fdf0efdbbb27c438e4d3374257f6f66596f68eea2d5c68b921fc719",
+    "scripts/check_workflow.py": "d8f16fe58200fba9a34f1cb9892ddb48eecc836473b594ba6d2464b8c08c36c7",
+    "scripts/compare_cuda_convolution.py": "bee0a567ab1b80e8b4c1428bcd0da7b03e87af020b0c5fb189acae20c7d8b96b",
+    "scripts/estimate_compute.py": "a4071f0c2b8aed17664b96a120911f7dd4c824987bd7d3d6dbe5228195df50c8",
+    "scripts/estimate_measured_study.py": "98948e68770a9b21b67074b723f5263418a4b5ea6703591d23e657e43e803895",
+    "scripts/estimate_staged_study.py": "e58bc7932baf943b90a7fc049d0a8a55ce1780f00720deda4f52eb57165c0057",
+    "scripts/evaluate.py": "e20f0dd2513e3286a5332ff96179c51aca4fc35ac870896973c718db5f287d20",
+    "scripts/export_staged_manifests.py": "e3c36a1fef61a05394e4547a4c096b6a1bd48339bc634fd2cc48ff21315fb498",
+    "scripts/export_workflow_pilot.py": "a14a68b54776db40baccb079cc73afb6a56dcfbc2268f8f22c01faa87b1b2e1b",
+    "scripts/pilot.py": "57cf1a026a590c19999d10cf6823912c705ce833c9b3758400240d72cf6afc37",
+    "scripts/prepare_clips.py": "71361e97baaf6b7323cc07e9a0797a23b1d708c41443aa48af6acf5337ad126b",
+    "scripts/prepare_data.py": "b43996c57645fb96252c0c477b10ee1f53d781b8f29d7d5bd5e871e5342ece0c",
+    "scripts/prepare_staged_clips.py": "266e3ff7f787fcc3bd20f2f0323792bc6ef0382985bf95dff12aa535e7737e31",
+    "scripts/prepare_workflow_pilot.py": "5536d4e85f5a0f69275576c866e5634474705e18a3b6c0dd11de1fceeaefd8e2",
+    "scripts/profile_cuda.py": "f138cfd28abb3abacb3885bd5e692a0cf7373a77bfdde0bb4578986b7231fc7b",
+    "scripts/review_a40_feasibility.py": "a79483e1f58cba7297410173a4997a118b57e64ea0b6da476ce697e03186feea",
+    "scripts/run_hardware_benchmark.py": "f57dc2c7cf78eeb30c4983734bf25e61c43797c00a086c16e41267c465fad195",
+    "scripts/run_workflow_pilot.py": "b8f05ffcd9ac738ad10a4088c949c4a80f8fa002bb082f354e657ed89c5e7761",
+    "scripts/setup_hardware_benchmark.sh": "8dbc73037bde23ac708822f5d79ed7c3032c455c16bea23fda2bc15f381d2ccd",
+    "scripts/setup_workflow_pilot.sh": "cdc20b977c87f5d24274d9e9fadc7ba5527b0872d893b821439eba289445a6a4",
+    "scripts/smoke_test.py": "5089525985fed35fea954be672056517ec15654bc81baee87a04e71fc50f8917",
+    "scripts/start_hardware_benchmark.sh": "6063051307b1acb00304247acf4a17db9f609729e72c34f84bccc0f66718f076",
+    "scripts/start_shared_workflow.sh": "6db5c1e9f56a07f4e05d3cd0c6d0502629360d367abd9fabc60a37269503d954",
+    "scripts/train.py": "1128eb3306628845d17943586eab8917c0859b465f0c00a3964d8dd5a802f6fd",
+    "scripts/university_check.sh": "b7d0cb70904def78eed4c7c065b2c8d13708f5a2d51b8d8c44d5ccee66cb46da",
+    "scripts/university_convolution.sh": "8e2355a364fd626e42cd4c07849b5403e78138b08ec519e11b70c6fd3aec0f50",
+    "scripts/university_cpu_fixtures.sh": "a641ac079e89113eef9cf11c67252c88858644be006e3e468f1e76a4686999d6",
+    "scripts/university_gradient.sh": "98086708bf5e6587ea98f21c83e8848f02a5206a478dd48d54041c039992535e",
+    "scripts/university_native.sh": "3af32850d8ce32c8019d53507e47b89963d1de2faf13651de54932548aed531e",
+    "scripts/university_precision.sh": "83e7de9331cb3289b600898c671c7b3d6aab1c1c64d53e535c56f1b5a477dc86",
+    "scripts/university_profile.sh": "3c49e6d2284de1d9d0dd27e00c7e0c84936da2d4a194789af1a200d5b5cf9c01",
+    "scripts/verify_setup.py": "62e637b55f867b113561bc1a327b9daa360d12d47089a49ba5b9d7ff757d6ef3",
+    "tests/conftest.py": "c67f087884483b38dc117ffa8cff6206c225afbce9bb53c0bf2e3986cd8ed2b5",
+    "tests/fixtures/shared_recovery_worker.py": "12444cb91f7a7ea75f16cb82bca8c9445890a1df7d396485d623bebdc0d352b3",
+    "tests/test_attacks.py": "95b50a743131069d343034091d98c6b971dc84483ba4ae12bb505394a0593606",
+    "tests/test_calibration.py": "b00384f41f7a76fe0bbffa2ab647ad246e294bbd319d2bdd178b54ba7761d92a",
+    "tests/test_checkpoint_locking.py": "6f4372d039de24184d488febd7c9d5dc6b6d6b65b66e438ebd6597fb09463fd1",
+    "tests/test_compute_plan.py": "071d5e015fa96c9be3657fd8431c61ce9802cff738cd65348d9789d6ef668701",
+    "tests/test_cuda_convolution.py": "c4b576e27a092d4dd1f96631f4513cde71368588af600d4f3bb4a9d0c38576dd",
+    "tests/test_cuda_profile.py": "f4d94b7727e3cf1596eebe2d95a1f16af2e8b4e9f84e349ded2ee8fe5fe35997",
+    "tests/test_cuda_reproducibility.py": "15821c09facb1593b3a9eb1ff223f20f1bd7f08cad3f2ed19b99d765fd86f4f7",
+    "tests/test_evaluation.py": "62c6849e3af13e9581454c636f7d72aa295f936a5805eb4591d7afc547935892",
+    "tests/test_evaluation_checkpoint.py": "78e25df91b4547e130c3f4972b12bf31f62d936cb4f7ffbfdd84a6e397822033",
+    "tests/test_features.py": "00f33eb8ba5bececd57a1e7886128713d386303acbe49cbb57b7fb01a7a75ca0",
+    "tests/test_fixture_state.py": "e0d3ef71d123667b417017b51ad589e0d2f22878ca6879d8a49614e4d721df65",
+    "tests/test_gradient_attribution.py": "50b115267703c56079b22e53cbd75105818f2265d913d4887e943c321a3023d6",
+    "tests/test_hardware_benchmark.py": "456230965bb7a8c2f002e0e6a0162c27fcfb62258ef46949e8d6d68cdc0a4707",
+    "tests/test_measured_budget.py": "a40b80fdfdc75a0bdab8716f855b8e2269a5f3fc635cdf41553ae50c2887df32",
+    "tests/test_native_diagnostic.py": "8267c4f27c83a7890754a032d75cd5fd6be97a58069b2fec5d5e843acfa103fb",
+    "tests/test_native_execution.py": "f31e14ecf3cab8de24642f3589085d737576cf567fdffcc87fbbfaca22e787ba",
+    "tests/test_native_probe.py": "0358067be0021d11d0d15e928fd1f30ebcb1d85ac99b2c493e56ed97f1c97db7",
+    "tests/test_patch_embed.py": "556f059fdc2193a376dba0e846cce0bdd56f4afd6dc627782077f8514f4165e3",
+    "tests/test_pilot_bundle.py": "274e4b13f352086bc760bc42b8f9958494ea32fb238c0b9a4cafb6e1ffce7c8f",
+    "tests/test_precision_patch.py": "8dbfffbe2c1ceccc0f7bd9d37b47b0d8c3860fc9006a63c68457f57ff8712cca",
+    "tests/test_prepared.py": "82345c02134dc98f018cae306aa6571ddbb86a1a39027abc4e377c132a73a438",
+    "tests/test_schedule.py": "e4c7441418f863efa25df5e9e774e0adf7dcffe8ec1db67ba454fca4588b93fd",
+    "tests/test_shared_execution.py": "a45a7d7498d0d9c77c9d17317b380effb94ac7bfb7911239db52154f6fbe7636",
+    "tests/test_staged_files.py": "ad57ce5dfffe392616bf5bbf8c3f0717a67300ef794bf01ae022d5c63390f8f6",
+    "tests/test_staged_study.py": "adc3376085cd9101d2c646b8a485a2861cf27d377dd894c0dbb499f84ec26534",
+    "tests/test_training.py": "7088b0bd0a7a50ca0028bce9bd29416f850a1563f1bf243b4b0e24c06749f07e",
+    "tests/test_ucf101.py": "10fdeda3d0dd6b836305394ae14f5cdd4f8eb3404702f28a2be256885cbdc78e",
+    "tests/test_video.py": "743b128d05bf50b9eae584cffd240dc5310e463a17587ac966f505812fa9baa4",
+    "tests/test_vjepa2.py": "fffe419ce795fda23633cdc9bf6162b05cd06b43037bed089acb568d9ebdd08b",
+    "tests/test_workflow_pilot.py": "dd0818167ffa8702590bdff04b21b3977ba60b3704243f398bb5b9ad088d77f5",
+    "tests/test_workflow_preflight.py": "f3b0505f3ef33398552e0c757700054ba69be755d04493b6d0d957dd159a24fb"
+  },
+  "study_yaml_or_protocol_changed": false
+}

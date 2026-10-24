@@ -1,0 +1,27 @@
+{
+  "archive_members_reverified": 95,
+  "date": "2026-10-23",
+  "exact_offline_replay_matches": true,
+  "existing_non_markdown_source_pins_verified": 198,
+  "full_project_suite_repeated": false,
+  "matched_attack_control_status": "designed_not_implemented_or_run",
+  "new_gpu_job": false,
+  "new_pixel_access": false,
+  "research_admitted": false,
+  "review_sha256": "9e3e1a5928bb33ccb39a1bad2d5ff64ce0cadc3ec48796c36f5108ceec5b2794",
+  "study_configuration_changed": false,
+  "test_receipt_sha256": "22dfa20ffcc5b6b82b1a1702f8ea64d11a91bc99174032c6c538d90430756ca7",
+  "test_source_sha256": "917bc50cb127ce6b44255f56e6ea29725627610531d847b6f744ff0ac9aa9acd",
+  "tests": {
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "49",
+    "time": "0.158"
+  },
+  "tests_by_module": {
+    "tests.test_feasibility_review": 26,
+    "tests.test_measured_budget": 15,
+    "tests.test_pilot_bundle": 8
+  }
+}

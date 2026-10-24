@@ -1,0 +1,95 @@
+{
+  "account_difference_cause": "unassigned",
+  "account_totals_fully_reconciled": false,
+  "actual_final_session_charge_pending": true,
+  "conservative_unreserved_diagnostic_allowance_usd": "2.53",
+  "date": "2026-10-23",
+  "difference_wallet_implied_usage_minus_displayed_subtotal_usd": "0.08",
+  "difference_wallet_implied_usage_minus_sum_of_rows_usd": "0.0792",
+  "displayed_total_debits_usd": "6.02",
+  "displayed_values_not_invoice_precision": true,
+  "earlier_reconciled_six_pod_total_usd": "5.4652",
+  "earlier_wallet_delta_0_60_not_a_final_session_charge": true,
+  "expected_wallet_from_shown_rows_usd": "8.9792",
+  "historical_ledger_and_frozen_source_pins_unchanged": true,
+  "inclusive_session_hold_usd": "2.00",
+  "initial_account_credit_usd": "15.00",
+  "internal_hold_released": false,
+  "latest_displayed_session_cost_rounded_usd": "0.56",
+  "latest_displayed_session_cost_usd": "0.5556",
+  "latest_pod_name": "vjepa-controls-06",
+  "latest_reported_wallet_usd": "8.90",
+  "latest_session_cost_final": false,
+  "new_paid_launch_authorized": false,
+  "next_work": "Offline price/performance and protocol review; no additional screenshots needed for that work.",
+  "pods": [
+    {
+      "gpu": "RTX 5090",
+      "name": "vjepa-recovery-pilot-03",
+      "shown_cost_usd": "1.6444"
+    },
+    {
+      "gpu": "A40",
+      "name": "vjepa-cost-benchmark-05",
+      "shown_cost_usd": "0.7499"
+    },
+    {
+      "gpu": "RTX 5090",
+      "name": "vjepa-pilot-01",
+      "shown_cost_usd": "0.5978"
+    },
+    {
+      "gpu": "A40",
+      "name": "vjepa-cost-benchmark-05-migration",
+      "shown_cost_usd": "0.4567"
+    },
+    {
+      "gpu": "RTX 5090",
+      "name": "vjepa-workflow-pilot-02",
+      "shown_cost_usd": "1.6882"
+    },
+    {
+      "gpu": "A40",
+      "name": "vjepa-cost-benchmark-04",
+      "shown_cost_usd": "0.3282"
+    },
+    {
+      "gpu": "A40",
+      "name": "vjepa-controls-06",
+      "shown_cost_usd": "0.5556"
+    }
+  ],
+  "previous_wallet_implied_usage_usd": "6.07",
+  "previous_wallet_snapshot_usd": "8.93",
+  "provisional_diagnostic_allowance_remaining_usd": "3.90",
+  "raw_pod_deleted_badge_absence_not_used_to_override_user_confirmation": true,
+  "recorded_utc": "2026-10-24T05:24:43.048898+00:00",
+  "reporting_lag_possible_not_verified": true,
+  "research_admitted": false,
+  "reservation_basis": "Prior reconciled5.47usage plus one inclusive2.00hold; wallet movements are not added again.",
+  "screenshot_provenance": [
+    {
+      "attachment_filename": "Screenshot 2026-10-23 at 10.20.12\u202fPM.png",
+      "relative_path": "runs/pretrained/diagnostic/a40-controls-session-20261023/billing-details-20261023-2220/resource-details.png",
+      "saved_locally": true,
+      "screenshot_local_label": "2026-10-23T22:20:12-07:00",
+      "sha256": "1d911900e9bfe33119fa44e132226910b7f49aceba34d4557bbb5cd8ea615bd7"
+    },
+    {
+      "attachment_filename": "Screenshot 2026-10-23 at 10.20.20\u202fPM.png",
+      "relative_path": "runs/pretrained/diagnostic/a40-controls-session-20261023/billing-details-20261023-2220/wallet.png",
+      "saved_locally": true,
+      "screenshot_local_label": "2026-10-23T22:20:20-07:00",
+      "sha256": "dab1e9fe10f0612b5134f50ec36959528a24744da84cd7807ccedca1138f13be"
+    }
+  ],
+  "shared_diagnostic_allowance_usd": "10.00",
+  "source": "User-provided Details and wallet screenshots at22:20Pacific",
+  "status": "latest_pod_cost_displayed_account_gap_unresolved",
+  "sum_matches_displayed_subtotal_after_rounding": true,
+  "sum_of_shown_pod_costs_usd": "6.0208",
+  "user_confirmed_terminated": true,
+  "user_reported_termination_time_pacific": "2026-10-23T21:26:00-07:00",
+  "wallet_implied_cumulative_credit_usage_usd": "6.10",
+  "wallet_implied_usage_is_provisional": true
+}

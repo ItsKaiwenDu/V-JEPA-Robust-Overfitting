@@ -1,5 +1,12 @@
 # Scientific acceptance tests
 
+The offline feasibility review adds26 checks for independent cost attribution,
+unchanged workload/unknown units, finite rates, hypothetical price/time targets,
+paired attack/source/runtime/scoring identities, confounded step/EOT/start
+interpretation and preserved admission limits. All49 selected review/budget/
+archive checks pass with zero skips. No CUDA tests or new attack implementation
+ran for this analysis. See the [review](../report/checks/2026-10-23-offline-a40-review.md).
+
 The controls-only operational handoff adds33 checks: fresh quote/ledger/deadline
 and509-case zero-skip guards, path/source pins, actual small upstream CPU controls
 and composition with six completed phases, changed seeds/audits/runtime/data/model

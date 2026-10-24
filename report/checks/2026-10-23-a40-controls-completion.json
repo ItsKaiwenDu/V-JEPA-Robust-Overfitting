@@ -6,6 +6,8 @@
     "members_verified": 95,
     "wrapped_records_verified": 33
   },
+  "billing_account_gap_unresolved_usd": "0.0792",
+  "billing_details": "report/checks/2026-10-23-a40-controls-billing-details.json",
   "billing_followup": "report/checks/2026-10-23-a40-controls-billing-followup.json",
   "budget_approved": false,
   "candidate_economic_screen": {
@@ -161,14 +163,15 @@
   "independent_derived_cost_scalar_relative_roundoff_check": 1e-14,
   "inherited_six_phase_measurements_repeated": false,
   "internal_inclusive_session_hold_usd": "2.00",
-  "latest_wallet_reported_usd": "8.93",
+  "latest_displayed_session_cost_usd": "0.5556",
+  "latest_wallet_reported_usd": "8.90",
   "next_step": "Offline price/performance and protocol review for the unchanged20-class design; no further rental authorized.",
   "original_workload_counts_and_allowances_preserved": true,
   "prepared_source_manifest_sha256": "e95ba382a95c6feefbddce17cf29a19bd75373a43a82c231fb15a8a2f4debb7f",
-  "provisional_cumulative_credit_usage_usd": "6.07",
+  "provisional_cumulative_credit_usage_usd": "6.10",
   "raw_evidence_directory": "runs/pretrained/diagnostic/a40-controls-session-20261023",
   "reconciled_previous_cumulative_usage_usd": "5.47",
-  "recorded_utc": "2026-10-24T04:30:43.306450+00:00",
+  "recorded_utc": "2026-10-24T05:24:43.048898+00:00",
   "research_admitted": false,
   "research_result": false,
   "runtime_gate": {

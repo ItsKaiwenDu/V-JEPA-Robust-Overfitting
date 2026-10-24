@@ -1,5 +1,12 @@
 # Lower-cost GPU benchmark for the retained 20-class study
 
+**Latest offline review (October23):** [the completed review](../report/checks/2026-10-23-offline-a40-review.md)
+attributes about85% of timed work to evaluation and preserves the20-class design.
+The saved strong-attack contrast does not isolate steps from EOT/start effects.
+Prepare the separate [matched diagnostic](matched_attack_diagnostic_plan.md)
+before a further paid benchmark. Its status is designed, not implemented/run.
+Hypothetical rates are affordability targets, not live offers or GPU forecasts.
+
 **Latest offline preparation (October23):** the [controls-only handoff](hardware_controls_completion.md)
 reuses the six verified A40 phases and saved diagnostic calibration. Local100
 targeted and33 extracted operational checks pass; no new CUDA timings or rental.

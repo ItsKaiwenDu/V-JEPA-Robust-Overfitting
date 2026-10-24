@@ -1,5 +1,34 @@
 # Research Progress Reports
 
+## 2026-10-23 — Offline cost and attack-comparison review completed
+
+The reproducible [review](report/checks/2026-10-23-offline-a40-review.md) verifies
+all95 export members and198 existing non-Markdown source pins.49 selected local
+tests pass, including26 new checks; no CUDA measurement, pixel access or rental.
+
+Evaluation accounts for about85% of timed work. At the historical0.61/hour quote,
+the partial20-class screen needs13.03–14.30% less unit runtime; hypothetical
+price/performance targets are documented without assigning A40 speed to other
+GPUs. The221.56–224.01 projection and study scope remain unchanged.
+
+The saved stronger attack changes steps, mask count/draws and starts together.
+Its6.85% larger loss does not isolate a step effect; one-clip scoring-bank
+variation also does not diagnose a mechanism. Next is the separate matched
+four-arm [training-only diagnostic](docs/matched_attack_diagnostic_plan.md),
+currently designed but not implemented/run. Study methods/configuration stay
+unchanged; no research admission. Final billing remains pending separately.
+
+## 2026-10-23 — Latest Pod cost displayed; small account gap remains
+
+The22:20 Details screenshot shows$0.5556 for controls06 (about$0.56). Seven
+Pod rows sum$6.0208, rounding to displayed$6.02. The$8.90 wallet implies$6.10
+cumulative credit use from$15; the$0.0792 difference is unassigned. Reporting
+lag is possible, not established. [Comparison](report/checks/2026-10-23-a40-controls-billing-details.md).
+
+Keep final billing pending and the existing inclusive$2 hold/$2.53 conservative
+unreserved allowance. Termination at9:26PM remains user-confirmed. No scientific
+result or cap changed. Offline price/performance and protocol review can proceed.
+
 ## 2026-10-23 — A40 terminated; wallet update recorded provisionally
 
 The user confirms termination at9:26PM Pacific, before the10:25PM cutoff.

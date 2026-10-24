@@ -66,8 +66,11 @@ User deployment was8:25PM Pacific; the fixed deadline was10:25PM. The worker
 finished at09:12:33 PM Pacific,
 with no extension. After evidence verification, user termination was requested.
 The user confirmed termination at9:26 PM Pacific, within the original cutoff.
-The latest$8.93 wallet implies$6.07 provisional cumulative usage; the final
-per-Pod charge is still pending. See the [billing follow-up](2026-10-23-a40-controls-billing-followup.md).
+The earlier$8.93 wallet implied$6.07 provisional cumulative usage. The later
+22:20 Details snapshot shows$0.5556 for this Pod and$6.0208 across all seven
+Pods, while the$8.90 wallet implies$6.10 used. The$0.0792 difference remains
+unassigned and the final session charge is pending. See the
+[latest account comparison](2026-10-23-a40-controls-billing-details.md).
 Final charge is pending. Retain the$2 internal hold against the$4.53 remaining
 diagnostic allowance, leaving$2.53 unreserved; the hold is not an extra provider
 charge. The existing$5.47 cumulative billing snapshot remains the prior basis.

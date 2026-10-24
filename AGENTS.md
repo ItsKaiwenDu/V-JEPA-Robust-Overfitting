@@ -2,6 +2,42 @@
 
 ## Current stage
 
+Latest OFFLINE review completed: read report/checks/2026-10-23-offline-a40-review.md/
+JSON and verificationJSON, plus docs/matched_attack_diagnostic_plan.md. New
+models/feasibility_review.py + scripts/review_a40_feasibility.py audit the pinned
+export,95members/198existingnonMDpins, recombine records and reproduce221.56–224.01.
+49selectedlocaltestsPASS/zero skips (26new); no GPU/pixel access or fullsuite rerun.
+Native evaluation85.49%median/84.82%max; primary62.61%median, convergence14.14%.
+At0.61/hour need13.03–14.30%lessunitruntime (14.98–16.69%throughput gain) under
+uniform assumption; pricescenarios are HYPOTHETICAL same-A40 targets, not another
+GPU prediction or current availability. Same-speed max-unit threshold0.52583/h.
+Saved primary/convergence main scorebank/clean reference match, BUT steps20→50,
+attackmasks4→8, actual attackdraws and startseeds all differ. Gap0.045224/6.85%
+is combinedsettingcontrast, not an isolated step effect or convergence pass.
+Auditbank clean baselines differ; paired loss increases0.136675/0.246014/0.154347
+are one-clip descriptions, not evidence of a specific failure mechanism.
+NEXT: implement/test/prepare separate matched four-arm training-only diagnostic
+(20/50steps×4/8nestedEOT, shared starts/main+2auditbanks). Prefer bounded free
+university check if available; no present GPU availability/memory fit is asserted.
+IMPORTANT plan is designed NOT implemented/run; no new scientificentrypointclaim.
+CanonicalEvaluationSettings/core/source/YAML unchanged; 20classes and closure held.
+Current2hold/2.53conservative unreserved, unresolved0.0792billinggap unchanged.
+No further rental/research admission; oldPod remainsuser-confirmedterminated.
+
+LATEST22:20Pacific billing Details: controls06 row currently$0.5556(~$0.56).
+All7shown Pod costs sum$6.0208→displayedTotaldebits$6.02. Wallet$8.90 fromunchanged
+$15credit implies$6.10provisionaluse; gap$0.0792(~$0.08) UNASSIGNED. Reportinglag
+possible but notproved; do not call rowfinal or invent attribution. Read
+report/checks/2026-10-23-a40-controls-billing-details.md/JSON; ignored raw copies
+in billing-details-20261023-2220. Creator email was not transcribed to reports.
+User-confirmed21:26termination stillstands despite missingDeletedbadge; do not
+reconnect or askterminationagain. Prior$8.93/$6.07 snapshot superseded, notadded.
+Nominaldiagnosticremaining$3.90provisional. Keepinclusive$2hold againstprior$5.47
+($2.53 conservativelyunreserved) untilsettlement; do notdoublecountwalletmovement.
+No newrental/researchadmission. Offline20-class price/performance/protocol review
+canproceed now; no extra screenshot is needed for offline work. Frozenledger,
+sourcepins, studyconfiguration and allscientificresults remainunchanged.
+
 LATEST controls06 is USER-CONFIRMED TERMINATED at21:26Pacific onOctober23.
 Do not reconnect to its endpoint or ask for termination again. User saw the
 termination message21:19; seven-minute delay is about$0.07atquoted$0.61/h.

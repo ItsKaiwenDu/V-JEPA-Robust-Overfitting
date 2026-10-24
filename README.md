@@ -1,5 +1,7 @@
 # V-JEPA Robust Overfitting
 
+**Latest offline review (October 23):** [cost attribution and attack comparison](report/checks/2026-10-23-offline-a40-review.md) reproduce the A40 screen with 49 selected checks passing. About85% of timed work is evaluation. The saved PGD20/PGD50 contrast changes masks and starts as well as steps, so a [matched training-only diagnostic](docs/matched_attack_diagnostic_plan.md) is specified as the next control; it has not been implemented or run. No new rental or study configuration change.
+
 **Latest completed diagnostic (October 23):** the [A40 controls and combined screen](report/checks/2026-10-23-a40-controls-completion.md) verify locally, with 509 fresh-host tests passing and no skips. The unchanged 20-class plan projects **$222–$224** at the quoted $0.61/hour, above the $200 cap. The old timeout remains failed; its six successful phases were reused. The user confirmed termination at 9:26 PM Pacific after verified export; final billing is pending. Next work is offline price/performance review.
 
 **Research question:** During adversarial fine-tuning of V-JEPA 2's native masked prediction loss, does performance on unseen videos deteriorate after initially improving, even while adversarial training loss continues to decrease?
