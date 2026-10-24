@@ -1,5 +1,14 @@
 # Scientific acceptance tests
 
+The controls-only operational handoff adds33 checks: fresh quote/ledger/deadline
+and509-case zero-skip guards, path/source pins, actual small upstream CPU controls
+and composition with six completed phases, changed seeds/audits/runtime/data/model
+rejection, duplicate/incomplete evidence, and stdlib-only partial failure export.
+All100 selected local checks pass; all33 new checks pass after extraction against
+the unchanged frozen scientific sources. These CPU fixtures do not add CUDA
+timing, optimizer-recovery evidence or research admission. See the
+[preparation report](../report/checks/2026-10-23-a40-controls-preparation.md).
+
 The [A40 portability controls](../report/checks/2026-10-23-a40-runtime-portability.md)
 retain the original 507-pass/two-failure result. A positive CPU profiler fixture
 now has finite shared-filesystem startup headroom; separate timeout/kill tests

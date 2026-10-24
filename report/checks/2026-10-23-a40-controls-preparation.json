@@ -1,0 +1,133 @@
+{
+  "a40_exact_optimizer_recovery_checked": false,
+  "actual_new_a40_controls_executed": false,
+  "compact_non_tensor_prior_members": 54,
+  "complete_a40_economic_projection_available": false,
+  "completed_a40_measurements_repeated": false,
+  "confirmation_or_test_pixels_opened": false,
+  "controls_manifest_sha256": "e95ba382a95c6feefbddce17cf29a19bd75373a43a82c231fb15a8a2f4debb7f",
+  "date": "2026-10-23",
+  "diagnostic_only": true,
+  "existing_non_markdown_source_files_unchanged": 198,
+  "extracted_tests": {
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "33",
+    "time": "29.709"
+  },
+  "full_project_suite_repeated": false,
+  "future_host_gate": {
+    "container_gb": 30,
+    "frozen_tests_required": 509,
+    "gpu": "NVIDIA A40",
+    "minimum_host_ram_bytes": 45000000000,
+    "mount": "/workspace",
+    "persistent_gb": 80,
+    "require_exact_prior_runtime_and_calibration": true,
+    "require_fresh_quote_manual_deployment_fingerprint_and_plan": true,
+    "skips_allowed": 0
+  },
+  "inherited_completed_phases": [
+    "preflight",
+    "calibrate",
+    "features-initial",
+    "clean-finetune/reference",
+    "adversarial-finetune/reference",
+    "features-trained"
+  ],
+  "missing_measurements": [
+    "convergence",
+    "fgsm",
+    "random"
+  ],
+  "new_cuda_test_execution": false,
+  "new_paid_job_started": false,
+  "notes": [
+    "CPU generated fixture timings are not A40 measurements.",
+    "The separate combined projection never marks the original failed session successful.",
+    "Provider billing is ended by user Stop/Terminate after verified export."
+  ],
+  "offline_verification": {
+    "chosen_step_size_255": 2.0,
+    "historical_timeout_preserved": true,
+    "inherited_phases": [
+      "preflight",
+      "calibrate",
+      "features-initial",
+      "clean-finetune/reference",
+      "adversarial-finetune/reference",
+      "features-trained"
+    ],
+    "observation_counts": {
+      "adversarial-finetune": 2,
+      "calibration_three_primary_candidates": 1,
+      "checkpoint.save": 4,
+      "clean-finetune": 2,
+      "convergence": 0,
+      "engine.state": 6,
+      "fgsm": 0,
+      "load_anchor": 1,
+      "primary": 6,
+      "random": 0,
+      "routine": 5
+    },
+    "offline_only": true,
+    "paid_job_started": false
+  },
+  "operation_source_sha256": {
+    "operations/docs/hardware_controls_completion.md": "0de99624f3c8ffc19c01da6aff1686ec829397c7009bb34d5d07d39b80855bc5",
+    "operations/models/hardware_controls.py": "c3ba7e150cd8404a0e0640268972b07cc3b55fa6f2de217afbed353203b46830",
+    "operations/scripts/prepare_hardware_controls.py": "75bb89359a3abd8e28d416ad98ad1392c562c0bf316cc570823ca38c45450762",
+    "operations/scripts/run_hardware_controls.py": "65ab87357f9640846b36c970856adf4da02dc81b750cf836677518c957129c3f",
+    "operations/tests/test_hardware_controls.py": "56366d80b5d7fde73090b6c78e608b0f63191cc6434fe37edad80c46a27d80ad"
+  },
+  "original_archive_members_rehashed": 60,
+  "original_evidence_archive_sha256": "a2c7de5655d3872d5ee625952fb11fb4ea5e31ee8f6be619feacedb0d35f39d0",
+  "original_session_complete": false,
+  "original_source_manifest_sha256": "e42164317e16fbf6e05f4143fd466f00105371284fc9e769d09d5c71ba82608a",
+  "original_timeout_preserved": true,
+  "overlay": {
+    "bytes": 182866,
+    "sha256": "669c8ac5eb77ceaa0d75c87012056f3d6521ccb72f53270532531987161fcf69"
+  },
+  "overlay_members": 67,
+  "packaged_held_out_pixels": false,
+  "packaged_training_clips": 100,
+  "paid_compute_authorized": false,
+  "proposed_budget": {
+    "allowance_left_unreserved_if_deployed_usd": "2.53",
+    "cumulative_usage_usd": "5.47",
+    "diagnostic_allowance_remaining_usd": "4.53",
+    "export_reserve_seconds": 300,
+    "ledger": "report/checks/2026-10-23-runpod-billing-reconciliation.json",
+    "ledger_sha256": "d52307023a7f75b3d0344bbb7016961df5bc1da5bf79e58cba954df2bc7a3013",
+    "maximum_deployment_based_running_seconds": 7200,
+    "outstanding_prior_holds_usd": "0.00",
+    "planned_compute_cap_usd": "160.00",
+    "project_cap_usd": "200.00",
+    "proposed_hold_applied": false,
+    "proposed_new_inclusive_hold_usd": "2.00",
+    "quote_ceiling_all_in_hourly_usd": ".70",
+    "setup_cap_seconds": 2400,
+    "wallet_usd": "9.53"
+  },
+  "research_admitted": false,
+  "restored_base_archive_members_verified": 395,
+  "restored_frozen_source_files_verified": 270,
+  "scientific_tolerances_changed": false,
+  "status": "offline_controls_only_handoff_verified",
+  "tests": {
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "100",
+    "time": "59.397"
+  },
+  "verification_receipts": {
+    "extracted-tests.xml": "d16e871eaab801218e46ff70388b8ab610fe3738d8ae2454e5ce17ff2f65c8fa",
+    "offline.stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "offline.stdout.txt": "36ecea6a4d8c555ab6bd8fc0b55590aafe77318099155217a297f67116f331cd",
+    "targeted-tests.xml": "667d116026c4878761a3df4c91590669649b53465a650641f7b4686b5b8f3c24"
+  }
+}

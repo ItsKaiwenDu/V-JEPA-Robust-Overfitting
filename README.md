@@ -1,8 +1,12 @@
 # V-JEPA Robust Overfitting
 
+**Latest completed diagnostic (October 23):** the [A40 controls and combined screen](report/checks/2026-10-23-a40-controls-completion.md) verify locally, with 509 fresh-host tests passing and no skips. The unchanged 20-class plan projects **$222–$224** at the quoted $0.61/hour, above the $200 cap. The old timeout remains failed; its six successful phases were reused. The user confirmed termination at 9:26 PM Pacific after verified export; final billing is pending. Next work is offline price/performance review.
+
 **Research question:** During adversarial fine-tuning of V-JEPA 2's native masked prediction loss, does performance on unseen videos deteriorate after initially improving, even while adversarial training loss continues to decrease?
 
-**Latest (October 23):** the frozen CUDA-host suite passes **509 tests with zero skips**. The [migrated A40 screen](report/checks/2026-10-23-a40-migrated-continuation.md) completed six of seven phases; its final control timed out at the reviewed limit. The export, numerical preflight, both short training checks and feature artifacts verify locally. Both Pods are user-confirmed terminated; billing reconciles to $5.47 cumulative credit used and $9.53 wallet credit. No complete A40 cost projection or research admission.
+**Latest preparation (October 23):** the [controls-only handoff](report/checks/2026-10-23-a40-controls-preparation.md) is verified offline: 100 targeted local and 33 extracted checks pass. It reuses six completed A40 phases and measures only the missing controls, with a separate guarded cost projection. Fresh quote and host validation come next; no new Pod or research run.
+
+**Latest CUDA outcome (October 23):** the frozen CUDA-host suite passes **509 tests with zero skips**. The [migrated A40 screen](report/checks/2026-10-23-a40-migrated-continuation.md) completed six of seven phases; its final control timed out at the reviewed limit. The export, numerical preflight, both short training checks and feature artifacts verify locally. Both Pods are user-confirmed terminated; billing reconciles to $5.47 cumulative credit used and $9.53 wallet credit. No complete A40 cost projection or research admission.
 
 **Status: bounded shared-forward CUDA recovery passes; the measured study projection exceeds the $200 cap.** The [new budget review](report/checks/2026-10-22-measured-budget-review.md) puts the existing 20-class staged design at about $304–$307 with the retained allowances and reserves. The ten-class alternative is about $219–$221. These are incomplete projections; neither is admitted. The [October 20 proposal](docs/budget_study_plan.md) and its old $193.91 envelope remain historical. Hardware feasibility checks passed on CPU, Apple GPU, and RTX 5090; university RTX 3070 FP32 training ran out of memory. Staged manifests and deterministic preparation of 120 training/exploration clips are verified.
 
@@ -28,7 +32,7 @@ The intended contribution is a controlled study of training dynamics and their d
 | --- | --- |
 | [Checkpoint locks and fresh CPU retry](docs/checkpoint_lock_repair.md) | Verified NFS lock fix and the completed free CPU check |
 | [CPU fixture repair and university check](docs/cpu_fixture_repair.md) | Verified initial checkpoints and a detached Linux CPU gate before another GPU rental |
-| [Lower-cost GPU benchmark](docs/lower_cost_gpu_benchmark.md) | Retained 20-class design and bounded hardware screen; Linux CPU recovery verified; A40 retry running with a fixed session deadline |
+| [Lower-cost GPU benchmark](docs/lower_cost_gpu_benchmark.md) | Retained 20-class design and bounded hardware screen; Partial A40 measurements verified; separate controls-only completion prepared |
 | [Measured budget review](report/checks/2026-10-22-measured-budget-review.md) | Current unit-cost projections, remaining unknowns and required price/speed improvements |
 | [Latest staged study proposal](docs/budget_study_plan.md) | Scoped research question, separate validation panels, staged costs, and decision gates |
 | [Experimental protocol](docs/experimental_protocol.md) | Threat model, data split, training conditions, evaluation, and interpretation |

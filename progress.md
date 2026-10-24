@@ -1,5 +1,86 @@
 # Research Progress Reports
 
+## 2026-10-23 — A40 terminated; wallet update recorded provisionally
+
+The user confirms termination at9:26PM Pacific, before the10:25PM cutoff.
+The seven-minute delay after seeing the termination message is about$0.07at the
+quoted rate. All evidence was already verified; no further GPU action is needed.
+
+Latest wallet$8.93 implies$6.07 provisional cumulative credit use from$15.
+The$0.60 change since the previous wallet is not a final session bill; billing
+center has not updated. Retain the inclusive$2 hold/$2.53 conservative unreserved
+allowance until reconciliation, without double counting the wallet movement.
+[Billing follow-up](report/checks/2026-10-23-a40-controls-billing-followup.md).
+
+The20-class economic screen remains$221.56–$224.01. Next work is offline
+price/performance and protocol review; no new rental or research run.
+
+## 2026-10-23 — A40 controls and combined economic screen verified
+
+All509 fresh-host tests pass with zero skips/errors/failures. The missing PGD50,
+FGSM and random controls complete; all95 export members and33 wrapped records
+verify locally. Exact runtime/source/data/weights/calibration, audit seeds,
+perturbation bounds, timing composition and independent arithmetic verify.
+[Outcome](report/checks/2026-10-23-a40-controls-completion.md).
+
+The unchanged20-class screen projects$221.56–$224.01 at$0.61/hour, above$200.
+The old timeout stays failed and six successful phases are reused. One-clip
+stronger-attack/bank sensitivity needs protocol review; no held-out or full
+A40 optimizer-recovery result. Next work is offline price/performance review.
+
+Worker finished9:12:33PM before the10:25PM cutoff. User termination requested
+after verified export; confirmation/final charge pending. Retain$2 internal
+hold/$2.53 unreserved diagnostic allowance until actual billing reconciles.
+
+## 2026-10-23 — Approved A40 upload verified; setup suite running
+
+The user explicitly approved the exact payload/destination after automatic
+approval review blocked transfer. Upload completed in119.306seconds; nine
+transferred files,270 frozen sources/395 base members and67 overlay members
+verify. The detached supervisor launched at8:38:36PM Pacific; its509-case suite
+is running, not yet passed. Frozen requirements installed NumPy2.4.6 in the
+isolated environment. Native controls have not started; runtime gate follows.
+
+Keep the10:25PM cutoff from8:25PM deployment and the applied$2.00 internal hold
+($2.53 diagnostic allowance remains unreserved). Local startup-command quoting
+was corrected before remote execution; frozen science and deadline unchanged.
+Evidence collection and final user termination remain pending; billing is active.
+
+## 2026-10-23 — New A40 verified; transfer approval pending
+
+User deployed at8:25PM Pacific. SSH/public fingerprint, one A40 and roughly50GB
+RAM verify. Preserve10:25PM absolute cutoff and apply the reviewed$2.00 internal
+session hold, leaving$2.53 unreserved diagnostic allowance. No payload transferred
+or worker started: automatic approval review requires explicit permission for
+this source/data upload to the new Runpod host. That permission was requested;
+no bypass. The isolated requirements already pin verified NumPy2.4.6, although
+the template's global environment has2.5.2. Research remains unadmitted.
+
+## 2026-10-23 — Fresh A40 quote fits the proposed controls allowance
+
+User reports A40 available at$0.61/hour with the requested30/80GB storage context.
+Two running hours cost$1.22 within the proposed$2.00 inclusive hold. RAM is not
+supplied; the offer must show at least45GB system RAM before manual deployment.
+Conditional Pod name is vjepa-controls-06. No Pod started, no reservation applied;
+fresh SSH/fingerprint/deployment time remain pending. Frozen package unchanged.
+
+## 2026-10-23 — Controls-only A40 completion prepared offline
+
+The [new handoff](report/checks/2026-10-23-a40-controls-preparation.md) restores
+and verifies270 frozen sources/395 base members plus67 overlay members. All198
+existing non-Markdown source pins are unchanged. Local100 targeted and33 extracted
+operational checks pass with zero skips; no new pretrained CUDA measurement.
+
+The launcher reuses the six completed phases and exact training-only diagnostic
+calibration, measures only PGD50/FGSM/random, and saves a separate combined cost
+screen if complete. Historical timeout remains failed; missing timings stay unknown.
+Fresh509-case host validation and matching runtime/data/weights/sources are required.
+
+Proposed new$2.00 inclusive hold fits$4.53 remaining diagnostic allowance; it is
+not applied. Both old Pods remain terminated. Next: fresh A40 quote/RAM review,
+then manual deployment/new fingerprint and a deployment-based two-hour deadline.
+Research admission, exact A40 optimizer recovery and held-out results remain pending.
+
 ## 2026-10-23 — Per-Pod billing reconciled
 
 Six shown Pod charges total $5.4652, rounding to $5.47 debit; adding the $9.53

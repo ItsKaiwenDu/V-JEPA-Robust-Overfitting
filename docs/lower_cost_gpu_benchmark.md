@@ -1,5 +1,13 @@
 # Lower-cost GPU benchmark for the retained 20-class study
 
+**Latest offline preparation (October23):** the [controls-only handoff](hardware_controls_completion.md)
+reuses the six verified A40 phases and saved diagnostic calibration. Local100
+targeted and33 extracted operational checks pass; no new CUDA timings or rental.
+Fresh quote/host review comes next. ProposedNEW$2.00 inclusive hold fits the
+reconciled$4.53 diagnostic allowance and is not applied; historical holds are
+settled. Both prior Pods stay terminated. The old timeout remains failed and
+the eventual combined cost screen is a separate record. Research is unadmitted.
+
 **Current outcome:** the [migrated A40 screen](../report/checks/2026-10-23-a40-migrated-continuation.md)
 completed six of seven phases; the control phase timed out. Both Pods are
 user-confirmed terminated and evidence is copied/verified. There is no complete

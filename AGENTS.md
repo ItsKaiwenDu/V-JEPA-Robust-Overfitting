@@ -2,6 +2,142 @@
 
 ## Current stage
 
+LATEST controls06 is USER-CONFIRMED TERMINATED at21:26Pacific onOctober23.
+Do not reconnect to its endpoint or ask for termination again. User saw the
+termination message21:19; seven-minute delay is about$0.07atquoted$0.61/h.
+Reported deployment20:25→termination21:26=61min, within22:25cutoff; timestamps
+are user minute estimates, not exact provider billing. Evidence already verifies.
+Read report/checks/2026-10-23-a40-controls-billing-followup.md/JSON and raw
+termination-confirmation.json. Latest wallet$8.93 implies$6.07 provisional
+cumulative usage fromunchanged$15credit; priorwallet$9.53→change$0.60. Billing
+center notupdated; do NOT call$0.60 the final per-Pod charge. Nominal remaining
+$10diagnostic allowance$3.93 provisional. RetaininclusiveNEW$2hold against old
+reconciled$5.47 ($2.53 conservatively unreserved) pendingfinalbilling; do not
+add provisionalwalletmovement and fullhold as separate expenses. No hold release,
+new rental or research admission. Originalreconciled ledger/pins unchanged.
+Next OFFLINE price/performance/protocol review;20classes/attacks/seeds/YAML intact.
+Termination/running-pending paragraphs below are historical snapshots.
+
+LATEST controls06 outcome: controls completed, exit0, copied/independently verified.
+Read report/checks/2026-10-23-a40-controls-completion.md/JSON. Fresh frozen509PASS,
+zero skips/errors/failures,897.628s. All95 export members/33 wrapped records verify;
+archive0d7e6b1c81d266b2470da0b01c7fbe6157bced5455311f3ae70f3f6160305c38,
+228893bytes. Exact old/new runtime/device/data/source/weights/calibration contract,
+PGD50/FGSM/random settings, seed independence/two audits and bounds pass.
+Native seconds789.247/7.929/3.189. Reuses old6phases; original timeout staysfailed.
+Worker finished21:12:33Pacific before22:25 cutoff. Evidence raw session folder
+now has downloaded/extracted/final-verification.json/completion-summary.json.
+No more remote compute needed. User termination requested AFTER local verification;
+check termination-confirmation.json/user reply before claiming Pod removed.
+Combined20-class screen$221.56median/$224.01maximum at$0.61/h; above$200 cap.
+Same counts/8h/25%/$50. Same-performance threshold roughly$0.526/h maximumunits;
+$0.52/h only clears incomplete screen, no bound/admission. Retain20classes and
+all attacks/thresholds/YAML; next work OFFLINE price/performance/protocol review.
+PGD50 one-clip independent loss0.705661 vs earlier selectedPGD20=0.660437;
+auditbanks0.800139/0.707798. Review stronger-attack/bank sensitivity before study;
+not a heldout result or study convergence gate pass. Exact A40 optimizer recovery
+and other data/calibration/protocol/throughput/budget gates remain pending.
+Final session charge pending; retainNEW$2hold/$2.53unreserved diagnostic allowance,
+prior$5.47 ledger unchanged until actual charge reconciles. No new rental authorized.
+Running-stage paragraphs below are historical snapshots of this same session.
+
+Latest06 execution: full509PASS/zero skips; released model hash and EXACT old/new
+A40 runtime/device gate PASS. Fresh PGD50 contract copied under raw controls-live;
+actual checkpoint/weights/source/data/precision contract matches prior calibration.
+Canonical50steps/2restarts/EOT8/score4/2auditbanks/epsilon4/255/step2/255 verified.
+PGD50 is RUNNING, GPU100%, not complete (zero completed clip records so far).
+FGSM/random follow; no combined projection yet. No six-phase rerun or optimizer
+recovery claim. Read controls-contract-verification.json plus last-status.json.
+Same10:25PM cutoff/$2hold; currentscientificsource and budget caps unchanged.
+
+Latest active06 stage: NEW host frozen suite509PASS, zero errors/failures/skips,
+897.628seconds. Full JUnit/packages/nvidia-smi copied to raw setup-live and verified;
+setup-verification.json pins JUnit. Released checkpoint download is running;
+checksum/exact runtime gate and PGD50/FGSM/random are still pending. No optimizer
+recovery or study admission. Same20:25deployment/22:25cutoff/$2hold and explicit
+user upload/run approval; previous setup-running notes below are earlier stages.
+
+RUNNING October23 controls06: explicit user approval to upload and run WAS
+RECEIVED after the automatic-review rejection. Do not ask again for that same
+payload/destination. Transfer completed119.306s;9 transferred files,270 frozen
+sources/395 base members and67 overlay members verify. Detached supervisorPID2577
+started20:38:36Pacific on new hostname51bce1ae193d. Run directory:
+/workspace/V-JEPA-Robust-Overfitting-controls06/runs/pretrained/diagnostic/hardware-controls.8ruzwyla
+Fixed deadline22:25Pacific/epoch1792819500, counted from20:25/1792812300, unchanged.
+One A40/49,999,998,976 host RAM/torch2.8.0cu128/vision0.23 verify. Global NumPy2.5.2;
+isolated frozen requirements successfully installed2.4.6. Full509-case suite is
+RUNNING (no pass claimed); scientific controls have not started. Early GPU0% is
+expected during CPU tests. Exact runtime/calibration gate follows setup.
+Read report/checks/2026-10-23-a40-controls-session.json and ignored raw counterpart
+plus launched-run.json,last-status.json,status-history.jsonl,explicit-transfer-approval.json.
+Scoped /private/tmp/vjepa_controls06_connection.py/status.py accesses ONLY the
+new verified peer; old endpoints must not be retried. Current helperknownhosts
+/private/tmp/vjepa-controls06-20261023.known_hosts. Public fingerprint verified.
+New$2 internal hold applied; remaining unreserved diagnostic allowance$2.53;
+actual session charge pending. No frozen science/config/threshold changed.
+Local restore-command quoting bug was corrected before any remote restoration
+or measurement; no deadline reset. Monitor through full suite/download/gate/
+PGD50-FGSM-random/combination/export, download and hash-verify evidence, then
+request user termination. The launcher does not stop provider billing.
+Pending/rejected-upload paragraphs below are earlier resolved snapshots.
+
+ACTIVE October23 controls session: user deployed new A40 at20:25Pacific.
+Conservative absolute deadline22:25Pacific (deployment+7200), not reset for idle
+or approval. Public fingerprint/SSH/A40/roughly50GB RAM/template CUDA stack verify.
+New hostname51bce1ae193d, scoped peer/helper /private/tmp/vjepa_controls06_connection.py.
+Read raw runs/pretrained/diagnostic/a40-controls-session-20261023/deployment-plan.json,
+initial-hardware.json, deployment-context.json and session-checkpoint.json.
+New$2.00 internal hold APPLIED on deployment; remaining unreserved diagnostic
+allowance$2.53. No old holds reused. Global NumPy2.5.2; frozen offline requirements
+pin isolated venv to2.4.6. No package uploaded or worker started yet.
+Automatic approval review REJECTED SCP because explicit permission for the
+prepared source/data payload and new external Runpod destination is required.
+An asynchronous user question requests approval for about815MB source,100training
+clips,wheels,upstream,diagnostic evidence and plan to this exact new Pod. Do not
+bypass rejection or transfer anything pending that explicit answer. Local
+preparation/bookkeeping may continue. Once approved, transfer only to verified
+new peer, preserve deadline, restore original frozen base/overlay, run launch
+with reviewed plan. If user declines or deadline cannot fit, arrange user Stop/
+Terminate; process exit alone does not stop billing. Both OLD Pods remain removed.
+Current checkpoint report: report/checks/2026-10-23-a40-controls-session.json.
+
+Latest controls quote follow-up: user reports one A40 AVAILABLE at$0.61/hour
+all-in in the requested30GB container/80GB /workspace context. Two running hours
+are$1.22 within the proposed$2.00 inclusive hold. RAM was not supplied; before
+manual deployment the offer must show at least45GB host RAM (normally about50GB),
+otherwise review it first. Conditional next manual Pod name vjepa-controls-06,
+same runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404 template, one on-demand GPU.
+No Pod started or hold applied. Await fresh SSH, public host fingerprint and
+actual deployment time; deadline must be exactly conservative deployment+7200.
+report/checks/2026-10-23-a40-controls-quote.json and the ignored reviewed-quote/
+deployment-plan.draft record this; immutable package/template/science unchanged.
+The draft cannot launch: deployment/fingerprint/epochs remain unreviewed.
+
+Latest October23 OFFLINE checkpoint: read docs/hardware_controls_completion.md
+and report/checks/2026-10-23-a40-controls-preparation.md/JSON. Separate controls
+handoff is built/restored/verified: frozen270 sources/395 base members and67
+overlay members. Existing198 non-Markdown scientific pins unchanged. Local100
+targeted checks and33 extracted operational checks PASS, zero skips. These use
+generated CPU fixtures, not new A40 timing. Original60-member export rehashed;
+six completed phases and diagnostic calibration reused, historical timeout kept.
+New launcher runs only PGD50/FGSM/random, requires a fresh frozen509-case CUDA-host
+suite and exact runtime/data/source/model/calibration contracts. Partial setup
+failure exports without scientific dependencies. New projection is separate;
+never change the old failed session to success or fill missing timing with zero.
+
+No new rental authorized, no active Pod and no hold applied. Fresh quote only is
+next: one A40, roughly50GB RAM, same30GB container/80GB /workspace. ProposedNEW
+inclusive hold$2.00 fits reconciled$4.53 diagnostic allowance, leaving$2.53 if
+deployed; historical holds are settled. Maximum two hours from actual deployment
+includes setup/idle,300-second export reserve; user Stop/Terminate ends billing.
+Template cannot launch until manual deployment/quote/fingerprint/time are reviewed.
+Research admission and exact A40 optimizer recovery remain pending. Keep20classes,
+all attacks/thresholds/seeds/YAML/pins and confirmation/test closure unchanged.
+Raw prepared package: runs/pretrained/diagnostic/a40-controls-handoff-20261023;
+offline-verification.json records all package/source/test hashes.
+
+The billing/partial-session details below remain the accounting/evidence basis.
+
 BILLING RECONCILED October23 18:25Pacific: read
 report/checks/2026-10-23-runpod-billing-reconciliation.md/JSON. Six named Pod
 costs sum$5.4652, rounding toDetails total debits$5.47; latestwallet$9.53 plus
