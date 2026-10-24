@@ -2,6 +2,38 @@
 
 ## Current stage
 
+FINAL OFFLINE handoff verified: report/checks/2026-10-23-matched-attack-preparation.md/JSON.
+Archive327members/12,649,298bytes, SHA850b88652881180de80544545df7e519097e71eb996b807c4b2755bcca14339b.
+Raw runs/pretrained/diagnostic/matched-attack-handoff-20261023 contains
+SHA256SUMS/helper/manifest/archive and validation XML/accepted CPU matrix/replay.
+91focusedlocal PASS +26 extracted PASS, zero skips; all198oldnonMDpins unchanged.
+One firstdeclaredtrainingmonitor tensor only; existing released campus weights
+not packaged.49project/34upstream sources bound by production contract.
+The archive is an explicit working-tree snapshot; later Markdown bookkeeping
+updates are outside that snapshot. No code/source-policy change after QA.
+No university job/upload or paidcompute; no currentGPUavailability/8GBfitclaim.
+Next TOMORROW: collect user hostname/nvidia-smi, review host before any launch.
+No need for the user to do anything or keep SSH open tonight. Do not rebuild
+this handoff or repeat tests merely because a new chat/turn starts.
+
+LATEST matched diagnostic implementation: models/matched_attack.py and
+models/matched_diagnostic.py plus thin check/prepare/university scripts now
+exist in a separate diagnostic namespace.26 new/91 focused CPU tests PASS,
+zero skips; actual upstream models, shared starts/nested banks/exact prefixes,
+score independence/state restoration, fresh A-only replay and failure exports.
+Existing198 nonMDpins unchanged. Read docs/matched_attack_diagnostic.md and
+docs/matched_attack_diagnostic_plan.md. No EvaluationSettings/core/YAML changes.
+The user will do their SSH check TOMORROW (late night); do not ask for work or
+launch a university GPU now. Current host/GPU availability is unverified.
+No rental or active Pod. Need current hostname/nvidia-smi output before launch.
+One declared training monitor only; released campus checkpoint reused; no new
+optimizer or held-out pixels. At most7GiB/90%CUDA allocator, matrix3600s+fresh
+A-only replay900s, parent4620s/outer4800s+15kill. Missing replay/OOM/timeout is
+not a pass; no precision fallback/tolerance changes. Timings instrumented and
+excluded from A40 economics.26/91 counts are local CPU evidence only.
+Latest billing2hold/2.53unreserved and0.0792unassignedgap remain; no new cost.
+Historical designed/notimplemented paragraphs below refer to the prior review.
+
 Latest OFFLINE review completed: read report/checks/2026-10-23-offline-a40-review.md/
 JSON and verificationJSON, plus docs/matched_attack_diagnostic_plan.md. New
 models/feasibility_review.py + scripts/review_a40_feasibility.py audit the pinned

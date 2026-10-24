@@ -1,8 +1,9 @@
 # Matched attack diagnostic plan
 
-October23. Status: designed, not implemented or run. This is a bounded
-training-only diagnostic proposal, not an amendment to the study protocol.
-No GPU availability, memory fit, runtime or recovery result is claimed.
+October23. Status: implemented and tested on small upstream CPU models; the
+university GPU diagnostic has not run. See the [implementation and handoff guide](matched_attack_diagnostic.md).
+This is a bounded training-only diagnostic, not an amendment to the study protocol.
+No current GPU availability, full-model memory fit, runtime or recovery result is claimed.
 
 ## Question and controlled factors
 
@@ -44,8 +45,8 @@ Do not promote these results to training or research calibration artifacts.
 
 ## Evidence and execution requirements
 
-Before a future handoff is executed, implement and test this separate entry
-point on actual small upstream CPU models. Verify exact seed/start/prefix
+Before a future GPU handoff is executed, verify this separate entry point on
+actual small upstream CPU models. Verify exact seed/start/prefix
 pairing, bounds, clean targets and model/RNG/mode/gradient preservation;
 reject incomplete, tampered or mixed contracts. Prove that altering scoring
 banks cannot alter the selected adversary. Keep candidate perturbations and
@@ -71,3 +72,12 @@ research evaluation requires protocol review, fresh calibration as needed and
 an updated full budget before trajectories begin. Preserve the 20-class design,
 held-out closure and all original failed evidence. A hypothetical cheap quote
 or successful one-clip diagnostic is not study admission.
+
+## Bounded implementation detail
+
+The implementation uses one four-arm worker and one fresh A-only replay
+(20 steps/EOT4) to bound repeated work. Exact first-20-step pairing is still
+required within each EOT count. This does not claim fresh-process replay of
+all four arms. Timings include trace instrumentation and are excluded from
+economic pooling. The user deferred host inspection until tomorrow; no
+university job or paid compute has started.

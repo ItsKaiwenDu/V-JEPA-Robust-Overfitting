@@ -1,5 +1,14 @@
 # Scientific acceptance tests
 
+`test_matched_attack.py` adds 26 actual small-upstream CPU cases for the separate
+four-arm diagnostic: exact shared starts/20-step prefixes, nested EOT banks,
+nonzero finite input VJPs, fixed clean targets, saved-score reconstruction,
+score independence, model/mode/RNG preservation, parent-pinned fresh A-only
+replay, tampered/mixed/incomplete records, timeouts and partial exports.
+Together with existing attack/evaluation/fixture/archive cases, 91 focused
+checks pass with zero skips. No university CUDA or 8 GB memory-fit claim.
+
+
 The offline feasibility review adds26 checks for independent cost attribution,
 unchanged workload/unknown units, finite rates, hypothetical price/time targets,
 paired attack/source/runtime/scoring identities, confounded step/EOT/start

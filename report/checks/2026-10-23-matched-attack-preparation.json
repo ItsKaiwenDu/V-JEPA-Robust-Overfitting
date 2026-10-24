@@ -1,0 +1,128 @@
+{
+  "a40_economic_pool_eligible": false,
+  "actual_full_model_cuda_executed": false,
+  "billing_unchanged": {
+    "conservative_unreserved_diagnostic_usd": 2.53,
+    "final_controls_charge_pending": true,
+    "inclusive_hold_usd": 2.0,
+    "unassigned_difference_usd": 0.0792
+  },
+  "canonical_evaluation_changed": false,
+  "confirmation_or_test_pixels_opened": false,
+  "current_university_host_and_gpu_verified": false,
+  "date": "2026-10-23",
+  "diagnostic_only": true,
+  "existing_non_markdown_source_pins_verified": 198,
+  "extracted_tests": {
+    "by_module": {
+      "tests.test_matched_attack": 26
+    },
+    "sha256": "7bdb87b3f498d3a857fa93aface411192b8285e9f79fa84204c8340b8e368e52",
+    "statistics": {
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "26",
+      "time": "31.796"
+    }
+  },
+  "fixture_contract_sha256": "16c2932b08dc71d6e6140e34fd618e1258558ac72b4864a6364f0766407074a5",
+  "fixture_initial_sha256": "a23cc7881c1925cee3955d1a5568a1405957a7ce85d28a46adf2e5bec0f3c7a0",
+  "fixture_replay": {
+    "all_four_arms_fresh_replayed": false,
+    "passed": true,
+    "scope": "fresh-process-A-only-20-steps-EOT4"
+  },
+  "full_model_8GB_fit_or_runtime_verified": false,
+  "full_project_suite_repeated": false,
+  "gpu_job_started": false,
+  "kind": "matched_attack_offline_preparation",
+  "launcher_bash_syntax_passed": true,
+  "limitations": [
+    "Generated CPU fixtures are not released-model CUDA evidence.",
+    "Only arm A gets a separate fresh-process replay; all four share exact within-worker paired prefixes.",
+    "A one-clip diagnostic cannot establish study-wide convergence or choose the primary research attack.",
+    "The unchanged 20-class economic screen still exceeds the $200 cap; no trajectories are admitted."
+  ],
+  "limits": {
+    "A_only_replay_seconds": 900,
+    "child_kill_grace_seconds": 10,
+    "cuda_allocator": "min(7GiB, 90% of device VRAM)",
+    "matrix_worker_seconds": 3600,
+    "outer_kill_grace_seconds": 15,
+    "outer_seconds": 4800,
+    "parent_seconds": 4620,
+    "uncompressed_export_limit_bytes": 268435456
+  },
+  "local_tests": {
+    "by_module": {
+      "tests.test_attacks": 9,
+      "tests.test_evaluation": 28,
+      "tests.test_fixture_state": 20,
+      "tests.test_matched_attack": 26,
+      "tests.test_pilot_bundle": 8
+    },
+    "sha256": "e0a0e9f6825cd05728c213784d7758c76ab27bfa7846c140b969536b1f8e00a8",
+    "statistics": {
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "91",
+      "time": "42.326"
+    }
+  },
+  "next_step": "Tomorrow: review current university hostname and nvidia-smi before any detached GPU launch.",
+  "package": {
+    "archive": "runs/pretrained/diagnostic/matched-attack-handoff-20261023/vjepa-matched-attack-20261023.tar.gz",
+    "archive_manifest_sha256": "77424557bbcbc402051b2ab8854cd955fa7184c85907325edbeb29f441631f64",
+    "bytes": 12649298,
+    "checkpoint_included": false,
+    "checksums_sha256": "cf2e018dcdcd1bb45e6094fb4250de8c674fde8eaf2b1f25ec2bf56559588b14",
+    "credential_files_included": false,
+    "extract_helper_sha256": "5d1fe75958c7e3c18470dcc61214f23c89dafdc35c2b0f221f96ca7b35be9ea6",
+    "extracts_to_fresh_directory": true,
+    "handoff_manifest_sha256": "07ba4fb4eead28b223652eca1979bddc0ee63c03f4a36ba53727f8186968c985",
+    "held_out_pixels_included": false,
+    "input_files_verified": 326,
+    "members_verified": 327,
+    "sha256": "850b88652881180de80544545df7e519097e71eb996b807c4b2755bcca14339b",
+    "training_pixel_tensors": 1,
+    "upstream_bundle_sha256": "be402e349761940e6cb0217cdbfdf83915e5ab5bd110ed61563bd0ca3e423c11"
+  },
+  "paid_compute_started": false,
+  "research_admitted": false,
+  "scaffold_check_passed": true,
+  "source_sha256": {
+    "docs/matched_attack_diagnostic.md": "69b527918f5952bf346992fa7cbe870e003ede6e3f6903cd903d97a1bba3096b",
+    "docs/matched_attack_diagnostic_plan.md": "34d5d6a0e4efac58c611024b0a9d056f44bd1c3741b71e89c4632c84d2820b3b",
+    "models/matched_attack.py": "21a76e513d36f72bb46e537a6f99425da55d7a76f52a98291037dd4cf660d9c7",
+    "models/matched_diagnostic.py": "3d61b4cabd325c5ccb78fa4fb840fa3af75ebd750b616727cacea085fc8006cf",
+    "scripts/check_matched_attack.py": "5fb7acbb79e46d08f1a5fe1bc1153a79303ffef40ff0620aeddb1e9c07aca5ef",
+    "scripts/prepare_matched_attack_handoff.py": "ff75990e691a3ac700d508b3b106cec52960d8529313f37220d8606575ee0370",
+    "scripts/university_matched_attack.sh": "cc7f5953365307a911a62bc890374cf85a7990091fd2d4d21a8d8df162eaf6b3",
+    "tests/fixtures/matched_attack_worker.py": "20b5707cab2668171adb73ab9bbff193f515f0b41c8dbd71477d093e2446bff1",
+    "tests/test_matched_attack.py": "d8deaea9220e455ef2a7f68f01bd8cba74160fc310def117c287b2bb76989c2f"
+  },
+  "status": "cpu_checked_handoff_verified_gpu_not_started",
+  "study_yaml_changed": false,
+  "thresholds_relaxed": false,
+  "timings_are_instrumented": true,
+  "training_input": {
+    "file_sha256": "328fb410008e270dc1dc76d81672169887150f82f62442a3ce4a2cfd0badd336",
+    "index_sha256": "d986727b619c7b3af2e0c07b1f59596f42fb0747961920516280ec9094553ae6",
+    "manifest_sha256": "14041c196e9ba019bb70d9e7858dfa6138e3d6c67ddbfcf75ad88c714aef13d7",
+    "panel": "train_monitor",
+    "pixel_sha256": "174d7bd1df51dddb5fc752276c2daeeb761829f2998d43bad078a6f8ea50fc17",
+    "preparation_sha256": "ca130b87c8aac5c66e1f1522a7f13096724897596d671cb94cf1703aef1603f9",
+    "row": {
+      "class_id": "18",
+      "relative_path": "BreastStroke/v_BreastStroke_g10_c02.avi",
+      "source_group_id": "BreastStroke_g10",
+      "video_id": "v_BreastStroke_g10_c02"
+    },
+    "selection": "first-declared-monitor-only-v1"
+  },
+  "university_launcher_runtime_verified": false,
+  "user_action_deferred_until_tomorrow": true,
+  "working_tree_snapshot": true
+}

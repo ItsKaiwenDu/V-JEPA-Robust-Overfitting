@@ -1,5 +1,30 @@
 # Research Progress Reports
 
+## 2026-10-23 — Separate matched attack implementation and handoff verified
+
+The final [offline handoff](report/checks/2026-10-23-matched-attack-preparation.md)
+has 327 verified archive members and one training pixel tensor (12.65 MB compressed).
+All 26 new checks also pass after fresh extraction, zero skips. Test receipts,
+parent-pinned CPU weights and accepted matrix/replay artifacts are retained.
+
+The new diagnostic calls the unchanged PGD core with 20/50 steps crossed with
+four/eight nested EOT draws, common starts and three independent scoring banks.
+All 26 new tests and 91 focused local checks pass, with zero skips. Actual small
+upstream CPU models verify exact step prefixes, input gradients, clean targets,
+state/RNG/mode preservation, independent scoring, retained tensor reconstruction,
+fresh A-only replay and rejected incomplete/tampered evidence.
+
+The [university handoff guide](docs/matched_attack_diagnostic.md) specifies one
+training-monitor tensor, the existing released checkpoint, a 7 GiB allocator
+cap and finite detached worker/outer deadlines. GPU fit, runtime and full-model
+replay remain unverified. The user deferred their host check until tomorrow;
+no university job starts tonight and all Runpod Pods remain terminated.
+
+All 198 existing non-Markdown source pins match. Canonical methods, study YAML,
+20 classes and held-out closure remain unchanged. Instrumented timings cannot
+enter A40 cost pooling. The $2 hold, $2.53 conservative unreserved diagnostic
+allowance and unresolved $0.0792 billing difference remain unchanged.
+
 ## 2026-10-23 — Offline cost and attack-comparison review completed
 
 The reproducible [review](report/checks/2026-10-23-offline-a40-review.md) verifies
