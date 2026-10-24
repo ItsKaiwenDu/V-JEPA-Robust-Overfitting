@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-23",
+  "existing_session_holds_retained_usd": [
+    "3.00",
+    "3.00",
+    "2.80"
+  ],
+  "explorer": {
+    "billed_time_toggle_enabled": true,
+    "billing_period_timezone": "UTC",
+    "difference_attribution": "unresolved; GPU-only view, reporting lag and UTC date filter may contribute",
+    "displayed_date_range_end": "2026-10-23",
+    "displayed_date_range_start": "2026-10-01",
+    "displayed_gpu_cloud_total_usd": "4.874",
+    "displayed_hours_are_rounded_not_used_to_infer_exact_session_duration": true,
+    "displayed_lag_hours": 1,
+    "displayed_storage_total_usd": null,
+    "rows": [
+      {
+        "a40_displayed_hours": "1.7",
+        "a40_usd": "0.996",
+        "displayed_gpu_hours": "3.1",
+        "gpu_cloud_usd": "2.618",
+        "rtx_5090_displayed_hours": "1.4",
+        "rtx_5090_usd": "1.622",
+        "utc_date": "2026-10-23"
+      },
+      {
+        "a40_displayed_hours": "0",
+        "a40_usd": "0",
+        "displayed_gpu_hours": "1.4",
+        "gpu_cloud_usd": "1.664",
+        "rtx_5090_displayed_hours": "1.4",
+        "rtx_5090_usd": "1.664",
+        "utc_date": "2026-10-21"
+      },
+      {
+        "a40_displayed_hours": "0",
+        "a40_usd": "0",
+        "displayed_gpu_hours": "0.5",
+        "gpu_cloud_usd": "0.592",
+        "rtx_5090_displayed_hours": "0.5",
+        "rtx_5090_usd": "0.592",
+        "utc_date": "2026-10-20"
+      }
+    ],
+    "tab": "Cloud GPU",
+    "wallet_depletion_minus_displayed_gpu_total_usd": "0.566"
+  },
+  "final_per_pod_charge_pending": true,
+  "new_paid_compute_authorized": false,
+  "old_and_migrated_pods_user_confirmed_terminated": true,
+  "planned_compute_cap_usd": "160.00",
+  "project_cap_usd": "200.00",
+  "provider_documentation": {
+    "account_balance": "prepaid credits deducted as resources are used",
+    "checked_local_date": "2026-10-23",
+    "documented_billing_processing_interval_minutes": 5,
+    "does_not_establish_exact_latency_of_this_user_balance_snapshot": true,
+    "url": "https://docs.runpod.io/accounts-billing/billing"
+  },
+  "recorded_utc": "2026-10-24T00:18:43.180936+00:00",
+  "research_admitted": false,
+  "reservations_released_by_this_snapshot": false,
+  "screenshot_local_label": "2026-10-23T17:15:03-07:00",
+  "screenshot_relative_path": "runs/pretrained/diagnostic/billing-snapshot-20261023-171503/billing-explorer.png",
+  "screenshot_sha256": "1131e0bac99c6c0d9d6cbd77b92db3566e3951451985fbe1a626a67dc7303f85",
+  "status": "provisional_aggregate_snapshot_not_settled_per_pod",
+  "timezone_check": {
+    "follow_up_range_should_include_utc_date": "2026-10-24",
+    "pacific": "2026-10-23T17:00:00-07:00",
+    "utc": "2026-10-24T00:00:00+00:00"
+  },
+  "wallet": {
+    "additional_funding_refunds_or_adjustments_assumed": "none since the stated initial credit",
+    "historical_bonus_credit_usd": "5.00",
+    "historical_top_up_usd": "10.00",
+    "implied_cumulative_credit_consumed_usd": "5.44",
+    "initial_credit_usd": "15.00",
+    "not_a_new_charge_to_add_to_old_aggregates": true,
+    "not_a_pod_specific_charge": true,
+    "status": "provisional_balance_based_cumulative_credit_usage",
+    "user_reported_available_credit_usd": "9.56"
+  }
+}

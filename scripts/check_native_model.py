@@ -22,6 +22,8 @@ def main():
     parser.add_argument('--max-seconds', type=int, default=840)
     parser.add_argument('--worker-seconds', type=int, default=180)
     parser.add_argument('--max-memory-gib', type=float, default=7)
+    parser.add_argument('--initial-fixture', type=Path, help=argparse.SUPPRESS)
+    parser.add_argument('--initial-fixture-sha256', help=argparse.SUPPRESS)
     parser.add_argument('--worker', action='store_true', help=argparse.SUPPRESS)
     parser.add_argument('--execution-policy', choices=('cudnn-fp32', 'native-fp32'), help=argparse.SUPPRESS)
     parser.add_argument('--result', type=Path, help=argparse.SUPPRESS)
@@ -32,6 +34,10 @@ def main():
         parser.error('Use CUDA for full-model checks or --tiny --device cpu; allocator cap is at most 7 GiB.')
     if not args.tiny and any(v is None or not v.exists() for v in (args.checkpoint, args.clips, args.manifest)):
         parser.error('The full-model diagnostic requires the existing checkpoint, clips and training manifest.')
+    if (not args.tiny or not args.worker) and (args.initial_fixture is not None or args.initial_fixture_sha256 is not None):
+        parser.error('Initial fixture pins belong only to generated CPU workers.')
+    if args.tiny and args.worker and (args.initial_fixture is None or args.initial_fixture_sha256 is None):
+        parser.error('Generated CPU worker requires its parent initial fixture and SHA-256.')
     if args.worker:
         if args.execution_policy is None or args.result is None or args.result.exists() or args.result.with_suffix('.pt').exists():
             parser.error('Worker requires explicit policy and fresh result/tensor paths.')

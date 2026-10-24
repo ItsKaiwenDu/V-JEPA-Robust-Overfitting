@@ -15,6 +15,11 @@ SCREEN_PHASES = ('preflight', 'calibrate', 'features-initial',
                  'clean-finetune/reference', 'adversarial-finetune/reference',
                  'features-trained', 'controls')
 
+# October 23 conservative ledger: both earlier $3 holds remain unresolved.
+# This is a proposed next-session hold, applied only on a reviewed deployment.
+UNRESERVED_PILOT_USD = 2.805
+SESSION_HOLD_USD = 2.80
+
 
 def validate_gpu(expected, actual, vram_bytes, visible_devices=1):
     if expected not in GPU_MIN_GIB:
@@ -30,10 +35,17 @@ def validate_launch(expected, rate, now, deadline):
         raise ValueError('This lower-cost screen requires a reviewed all-in running quote at or below $0.70/hour.')
     if type(now) is not int or type(deadline) is not int or not 1200 <= deadline - now <= 7200:
         raise ValueError('Use a deployment-based deadline with 20 minutes to two hours remaining.')
+    if (not all(isinstance(v, (int, float)) and not isinstance(v, bool) and math.isfinite(v) and v > 0
+                for v in (UNRESERVED_PILOT_USD, SESSION_HOLD_USD))
+            or SESSION_HOLD_USD > min(3, UNRESERVED_PILOT_USD)
+            or rate * 2 > SESSION_HOLD_USD):
+        raise ValueError('The proposed session hold exceeds the conservative pilot balance or cannot cover the running allowance.')
     return {'expected_gpu': expected, 'quoted_hourly_usd': rate,
             'deadline_epoch': deadline, 'maximum_billed_hours': 2,
-            'maximum_inclusive_session_usd': 3, 'new_reservation_exceeds_available_pilot_usd': False,
-            'prior_unreserved_pilot_usd': 5.805, 'proposed_session_hold_usd': 3,
+            'maximum_inclusive_session_usd': SESSION_HOLD_USD,
+            'new_reservation_exceeds_available_pilot_usd': SESSION_HOLD_USD > UNRESERVED_PILOT_USD,
+            'prior_unreserved_pilot_usd': UNRESERVED_PILOT_USD, 'proposed_session_hold_usd': SESSION_HOLD_USD,
+            'ledger_date': '2026-10-23', 'earlier_session_holds_pending_reconciliation_usd': [3, 3],
             'cloud_billing_stopped_by_runner': False, 'research_admitted': False}
 
 

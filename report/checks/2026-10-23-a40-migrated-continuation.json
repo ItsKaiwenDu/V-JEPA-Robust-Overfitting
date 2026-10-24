@@ -1,0 +1,375 @@
+{
+  "actual_session_charge_pending": false,
+  "archive": {
+    "bytes": 419182206,
+    "members": 60,
+    "sha256": "a2c7de5655d3872d5ee625952fb11fb4ea5e31ee8f6be619feacedb0d35f39d0",
+    "wrapped_records_verified": 23
+  },
+  "both_feature_phases_locally_verified": true,
+  "calibration_chosen_step_size_255": 2.0,
+  "complete_evaluation_counts": {
+    "primary": 6,
+    "routine": 5
+  },
+  "complete_native_seconds": {
+    "primary": {
+      "maximum": 191.1024117959969,
+      "median": 189.55439290550203,
+      "minimum": 185.91848212400146,
+      "samples": 6
+    },
+    "routine": {
+      "maximum": 6.968629797996982,
+      "median": 6.908215593997738,
+      "minimum": 6.770339408001746,
+      "samples": 5
+    }
+  },
+  "complete_screen_passed": false,
+  "completed_phase_evidence_verified": true,
+  "completed_phases": [
+    "preflight",
+    "calibrate",
+    "features-initial",
+    "clean-finetune/reference",
+    "adversarial-finetune/reference",
+    "features-trained"
+  ],
+  "confirmation_or_test_pixels_opened": false,
+  "date": "2026-10-23",
+  "deployment": {
+    "billing_stopped_automatically": false,
+    "cloud_billing_stopped_by_launcher": false,
+    "container_gb": 30,
+    "deadline_epoch": 1792800840,
+    "deadline_pacific": "2026-10-23T17:14:00-07:00",
+    "endpoint": "194.68.245.200:22004",
+    "existing_hold_usd": 2.8,
+    "fresh_quote_confirmed": true,
+    "host_fingerprint": "SHA256:cQYmk8ism8rwyazq2lfOvXUwNttBj548vZyVHBSM9yQ",
+    "manifest_sha256": "e42164317e16fbf6e05f4143fd466f00105371284fc9e769d09d5c71ba82608a",
+    "maximum_cumulative_running_seconds": 7200,
+    "migrated_pod_user_confirmed_terminated": true,
+    "new_hold_usd": 0,
+    "old_pod_id": "b4gbn80bppspvx",
+    "old_pod_storage_usd_per_hour": 0.022,
+    "old_pod_user_confirmed_stopped": true,
+    "old_pod_user_confirmed_terminated": true,
+    "operations_members_verified": 8,
+    "operations_package_sha256": "d564bbf1d65ddcf1294be9986e1c6858f277619b27776d0c61bc290e29fa4958",
+    "original_six_archives_reverified_after_migration": true,
+    "persistent_volume_gb": 80,
+    "pod_id": "ct8vbln7ufn5g9",
+    "prior_running_seconds": 4260,
+    "quoted_all_in_hourly_usd": 0.61,
+    "research_admitted": false,
+    "restart_basis": "Earlier than the age estimate and tied to the 4:25 PM migration screenshot; migration/setup counts.",
+    "restart_epoch": 1792797900,
+    "restart_time_is_conservative": true,
+    "run_directory": "/workspace/V-JEPA-Robust-Overfitting-retry05b/runs/pretrained/diagnostic/hardware-resume.pef7hxts",
+    "source_sha256": "4e395b713ab3dc304a941afc9af2a618a400e01b7ffacc1c3e24d0b86f3d161c",
+    "supervisor_pid": 907,
+    "user_reported_restart_age_seconds": 200
+  },
+  "diagnostic_only": true,
+  "economic_screen_complete": false,
+  "exact_optimizer_recovery_checked": false,
+  "feature_diagnostics": {
+    "features-initial": {
+      "computed_before_standardization": true,
+      "covariance_entropy_effective_rank": 4.038241035416538,
+      "dimensions": 1024,
+      "dimensions_below_std_floor": 0,
+      "examples": 8,
+      "numerical_centered_rank": 7,
+      "population_variance_max": 22.095041258867365,
+      "population_variance_mean": 0.6617276982799923,
+      "population_variance_min": 0.003337319923779452,
+      "rank_upper_bound": 7
+    },
+    "features-trained": {
+      "computed_before_standardization": true,
+      "covariance_entropy_effective_rank": 3.9937668025573814,
+      "dimensions": 1024,
+      "dimensions_below_std_floor": 0,
+      "examples": 8,
+      "numerical_centered_rank": 7,
+      "population_variance_max": 21.87519067614788,
+      "population_variance_mean": 0.6552115898427884,
+      "population_variance_min": 0.0029335505816930436,
+      "rank_upper_bound": 7
+    }
+  },
+  "final_raw_evidence": "runs/pretrained/diagnostic/a40-migrated-continuation-20261023",
+  "fresh_cuda_controls_passed": 2,
+  "historical_current_session_reservation_usd": 2.8,
+  "historical_earlier_session_reservations_usd": [
+    3,
+    3
+  ],
+  "historical_reservations_no_longer_outstanding": true,
+  "incomplete_evaluations": [
+    {
+      "completed_records": 0,
+      "method": "convergence",
+      "path": "controls/convergence/evaluation.json"
+    }
+  ],
+  "independent_preflight_verification": {
+    "confirmation_or_test_pixels_opened": false,
+    "cross_backward_tokens_and_attacks_bitwise_equal": true,
+    "exact_optimizer_recovery_checked": false,
+    "maximum_cross_backward_input_gradient_error": 2.8312206268310547e-07,
+    "passed": true,
+    "source_hash_checks": 34,
+    "tensor_files_verified": 6,
+    "training_clip_indices": [
+      0,
+      4,
+      7
+    ],
+    "verification_sha256": "8bbba99c5cc5417a3e1a697a5719cbfcdace6ea92410064185216573030e42db"
+  },
+  "last_status_before_user_confirmed_termination": {
+    "calibration_evaluations": [
+      {
+        "complete": true,
+        "path": "calibration/step-0p5/evaluation.json",
+        "records": 1,
+        "step_size_255": 0.5
+      },
+      {
+        "complete": true,
+        "path": "calibration/step-1p0/evaluation.json",
+        "records": 1,
+        "step_size_255": 1.0
+      },
+      {
+        "complete": true,
+        "path": "calibration/step-2p0/evaluation.json",
+        "records": 1,
+        "step_size_255": 2.0
+      }
+    ],
+    "current_phase": "controls",
+    "current_timing_tail": [
+      "{\"depth\": 0, \"name\": \"prepare_context\", \"seconds\": 17.655605109001044, \"status\": \"ok\"}"
+    ],
+    "deadline_seconds_remaining": 187,
+    "export_bytes": 419182206,
+    "export_manifest_exists": true,
+    "free_disk_gib": 286125.248,
+    "gpu": "0 %, 0 MiB, 36.99 W",
+    "input_gate_tail": [],
+    "latest_scheduled_evaluation": {
+      "checkpoint": {
+        "condition": "adversarial-finetune",
+        "epoch": 2,
+        "file_sha256": "8bb074cd1e3350882632bbdda4a09a693a4357a9b6f8fd8bdb7eed785d56c2ff",
+        "seed": 0,
+        "training_contract_sha256": "3ddcb0f602b38fc5017574b32526e56821301c78304511ae92d78ead0acf0c7c"
+      },
+      "complete": true,
+      "method": "routine",
+      "path": "evaluations-reference/599b352515375fe75e830ed68931fb4da87953a75c4e8423911cb67f1f063abd/evaluation.json",
+      "records": 1
+    },
+    "launcher_tail": [
+      "Stage: verify prepared inputs and fresh CUDA runtime",
+      "Stage: original seven-phase pretrained hardware screen",
+      "Continuation failed: {'type': 'RuntimeError', 'message': 'Pilot worker failed with exit status 1; see /workspace/V-JEPA-Robust-Overfitting-retry05b/runs/pretrained/diagnostic/hardware-resume.pef7hxts/pilot-worker.log.'}",
+      "Continuation exit status: 1 Provider billing requires user Stop/Terminate."
+    ],
+    "observed_utc": "2026-10-24T00:10:52.623486+00:00",
+    "pilot_worker_tail": [
+      "  File \"/usr/lib/python3.12/subprocess.py\", line 1264, in wait",
+      "    return self._wait(timeout=timeout)",
+      "           ^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+      "  File \"/usr/lib/python3.12/subprocess.py\", line 2045, in _wait",
+      "    raise TimeoutExpired(self.args, timeout)",
+      "subprocess.TimeoutExpired: Command '['/workspace/V-JEPA-Robust-Overfitting-retry05b/.venv/bin/python', '-u', '/workspace/V-JEPA-Robust-Overfitting-retry05b/scripts/run_hardware_benchmark.py', '--diagnostic', '--phase', 'controls', '--expected-gpu', 'NVIDIA A40', '--hourly-rate-usd', '0.61', '--deadline-epoch', '1792800840', '--checkpoint', '/workspace/V-JEPA-Robust-Overfitting-retry05b/checkpoints/vitl.pt', '--manifests', '/workspace/V-JEPA-Robust-Overfitting-retry05b/data/manifests/ucf101-staged-20x5-v1', '--clips', '/workspace/V-JEPA-Robust-Overfitting-retry05b/data/processed/staged-exploration-v1', '--upstream', '/workspace/V-JEPA-Robust-Overfitting-retry05b/external/vjepa2', '--output', '/workspace/V-JEPA-Robust-Overfitting-retry05b/runs/pretrained/diagnostic/hardware-resume.pef7hxts/pilot']' timed out after 256.3114342689514 seconds"
+    ],
+    "preflight": {
+      "complete": true,
+      "passed": true,
+      "passed_clip_indices": [
+        0,
+        4,
+        7
+      ]
+    },
+    "recent_phase_peak_allocated_gib": {
+      "adversarial-finetune/reference": 7.586,
+      "features-trained": 2.504
+    },
+    "recovery_comparisons": {},
+    "restart_cuda_tail": [
+      "..                                                                       [100%]",
+      "2 passed in 14.66s"
+    ],
+    "restart_cuda_tests": [
+      {
+        "errors": "0",
+        "failures": "0",
+        "skipped": "0",
+        "tests": "2",
+        "time": "14.659"
+      }
+    ],
+    "run": "/workspace/V-JEPA-Robust-Overfitting-retry05b/runs/pretrained/diagnostic/hardware-resume.pef7hxts",
+    "session": {
+      "complete": false,
+      "completed_phases": [
+        "preflight",
+        "calibrate",
+        "features-initial",
+        "clean-finetune/reference",
+        "adversarial-finetune/reference",
+        "features-trained"
+      ],
+      "error": "Command '['/workspace/V-JEPA-Robust-Overfitting-retry05b/.venv/bin/python', '-u', '/workspace/V-JEPA-Robust-Overfitting-retry05b/scripts/run_hardware_benchmark.py', '--diagnostic', '--phase', 'controls', '--expected-gpu', 'NVIDIA A40', '--hourly-rate-usd', '0.61', '--deadline-epoch', '1792800840', '--checkpoint', '/workspace/V-JEPA-Robust-Overfitting-retry05b/checkpoints/vitl.pt', '--manifests', '/workspace/V-JEPA-Robust-Overfitting-retry05b/data/manifests/ucf101-staged-20x5-v1', '--clips', '/workspace/V-JEPA-Robust-Overfitting-retry05b/data/processed/staged-exploration-v1', '--upstream', '/workspace/V-JEPA-Robust-Overfitting-retry05b/external/vjepa2', '--output', '/workspace/V-JEPA-Robust-Overfitting-retry05b/runs/pretrained/diagnostic/hardware-resume.pef7hxts/pilot']' timed out after 256.3114342689514 seconds",
+      "error_type": "TimeoutExpired",
+      "execution_policy": "shared-fp64-native",
+      "required_phase_count": 7,
+      "wall_seconds": 2191.076004527
+    },
+    "worker_exit_status": 1,
+    "worker_log_tail": [
+      "/workspace/V-JEPA-Robust-Overfitting-retry05b/.venv/lib/python3.12/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers",
+      "  warnings.warn(f\"Importing from {__name__} is deprecated, please import via timm.layers\", FutureWarning)",
+      "/usr/lib/python3.12/contextlib.py:105: FutureWarning: `torch.backends.cuda.sdp_kernel()` is deprecated. In the future, this context manager will be removed. Please see `torch.nn.attention.sdpa_kernel()` for the new context manager, with updated signature.",
+      "  self.gen = func(*args, **kwds)"
+    ]
+  },
+  "latest_provisional_billing_snapshot": {
+    "available_account_credit_usd": "9.53",
+    "daily_summary_selected_range_total_usd": "5.338",
+    "holds_released": false,
+    "implied_cumulative_credit_used_usd": "5.47",
+    "per_pod_charge_settled": false,
+    "report": "report/checks/2026-10-23-runpod-billing-followup.json"
+  },
+  "latest_reconciled_billing": {
+    "available_account_credit_usd": "9.53",
+    "combined_session_charge_usd": "1.2066",
+    "conservative_diagnostic_allowance_remaining_usd": "4.53",
+    "cumulative_credit_usage_rounded_usd": "5.47",
+    "migrated_pod_charge_usd": "0.4567",
+    "new_paid_launch_authorized": false,
+    "original_pod_charge_usd": "0.7499",
+    "prior_internal_reservations_settled": true,
+    "report": "report/checks/2026-10-23-runpod-billing-reconciliation.json"
+  },
+  "measured_unit_seconds": {
+    "adversarial-finetune/checkpoint.save": {
+      "maximum": 25.1886815580001,
+      "median": 22.312817054500556,
+      "samples": 2
+    },
+    "adversarial-finetune/engine.state": {
+      "maximum": 2.814425846998347,
+      "median": 2.350099367002258,
+      "samples": 3
+    },
+    "adversarial-finetune/engine.update": {
+      "maximum": 58.154218898998806,
+      "median": 55.269388655500734,
+      "samples": 2
+    },
+    "clean-finetune/checkpoint.save": {
+      "maximum": 30.44856114600043,
+      "median": 24.93683191150012,
+      "samples": 2
+    },
+    "clean-finetune/engine.state": {
+      "maximum": 2.5160688780015334,
+      "median": 2.132642833999853,
+      "samples": 3
+    },
+    "clean-finetune/engine.update": {
+      "maximum": 9.829736325998965,
+      "median": 9.602466644500964,
+      "samples": 2
+    }
+  },
+  "migrated_pod_termination_confirmed": true,
+  "migrated_pod_termination_time": null,
+  "missing_timings_filled_with_zero": false,
+  "new_gpu_timings_accepted": false,
+  "new_hold_usd": 0,
+  "non_markdown_source_files_verified": 198,
+  "old_pod_stopped_volume_storage_usd_per_hour": 0.022,
+  "old_pod_termination_confirmed": true,
+  "old_pod_termination_requested": true,
+  "old_pod_termination_time": null,
+  "outstanding_internal_session_reservations_usd": [],
+  "phase_memory": {
+    "adversarial-finetune/reference": {
+      "cuda_peak_allocated_bytes": 8145771520
+    },
+    "calibrate": {
+      "cuda_peak_allocated_bytes": 4035000832
+    },
+    "clean-finetune/reference": {
+      "cuda_peak_allocated_bytes": 8134532096
+    },
+    "features-initial": {
+      "cuda_peak_allocated_bytes": 2688248320
+    },
+    "features-trained": {
+      "cuda_peak_allocated_bytes": 2688248320
+    },
+    "preflight": {
+      "cuda_peak_allocated_bytes": 3090302464
+    }
+  },
+  "phase_wall_seconds": {
+    "adversarial-finetune/reference": 464.1666724250026,
+    "calibrate": 613.5938767789994,
+    "clean-finetune/reference": 568.9411964530009,
+    "features-initial": 42.03796183099985,
+    "features-trained": 41.67991169200104,
+    "preflight": 203.9450442439993
+  },
+  "prior_complete_suite_passes": 509,
+  "projected_total_usd": null,
+  "remaining_phases": [
+    "controls"
+  ],
+  "research_admitted": false,
+  "scheduled_evaluation_receipts_verified": {
+    "adversarial-finetune/reference": 5,
+    "clean-finetune/reference": 5
+  },
+  "status": "verified_partial_screen_both_pods_user_confirmed_terminated",
+  "termination_confirmation_observed_utc": "2026-10-24T00:15:00.075058+00:00",
+  "termination_confirmation_sha256": "89b3f64872e8a4234f4b76cdc6fb6d2827a0b99545a61a6bc27a63ed84126edb",
+  "user_reports_old_pod_terminated_well_before_final_confirmation": true,
+  "verification_helpers_sha256": {
+    "vjepa_a40_resume06_connect.py": "abd1a00de512a1b72e76f5e907dc70bdbbed542c7ca8e7a33eeef58aaa4bcf75",
+    "vjepa_a40_resume06_connection.py": "9c26596d1150541db0fd293bd04f2893ae59419b70fd006c1f3666f72ed25c37",
+    "vjepa_a40_resume06_download_evidence.py": "56606d12b2c52411e077689d309b1f2a7d5c9fceaef0e821479c05b92a641e93",
+    "vjepa_a40_resume06_download_features.py": "b48d2514be1514bb51cae010486828319e4420a00a1e5886e609dfcd75b0ef92",
+    "vjepa_a40_resume06_download_preflight.py": "e111312fd95e47cf46275d61a02ae695a6a0e13b0ea7d13524949d263d2fd0fc",
+    "vjepa_a40_resume06_https.py": "b318da44b6b0f0bb9332c0353902117933660cdc19456f6a14d85af9f13d1434",
+    "vjepa_a40_resume06_launch.py": "a25b6dd680a164be810a9b576081a4d22163ee68b15238c65a414e8c9da700be",
+    "vjepa_a40_resume06_prepare_helpers.py": "b6077bf8e6d9cb7d2e6b252ded281ff333031f6c420e6b074bb0e5cc74adc92f",
+    "vjepa_a40_resume06_record.py": "92a930fd4cafbcbbe4e8d31144c654e8290cdd49675ac78fe850758e88513aae",
+    "vjepa_a40_resume06_record_outcome.py": "2a8f7fe1ea4003ba067d96942dc0f8fa7045c2a90ac00d76376ca1e389e9ced2",
+    "vjepa_a40_resume06_record_preflight.py": "b0306523aeed23a073d9ab3620bfcb642bcc7162290dcbaf6a25094319849e47",
+    "vjepa_a40_resume06_status.py": "29df375dbb570e0f9c769e7debbe83850b8753cf6fae58dcaa1400b30fcc42f3",
+    "vjepa_a40_resume06_verify_archive.py": "db4f9d8f8325971267354f5294bad393f63a33a50bf67787072f0d3525d61f8d",
+    "vjepa_a40_resume06_verify_features.py": "29c61420000308cf894c944837b41b3f7528dca8d313928768b9d6cd126fc72e",
+    "vjepa_a40_resume06_verify_final.py": "b096787c7113a76716207fb7c01f0a098572ff1e1f6811cde7a89091fc279f73",
+    "vjepa_a40_resume06_verify_partial.py": "083f2a53b43240ac5af2a9ce30248274629691378593cbeb3384a7efec923637",
+    "vjepa_a40_resume06_verify_preflight.py": "302bb386c0d5c211672854020324cadbfc14ad5978e45e2678b0ded2a1f56384"
+  },
+  "verification_sha256": {
+    "archive-verification.json": "378ce1af2dd6d9ab1e3be02b0dea5495acce79328042a14ca188f0d27624c668",
+    "feature-verification.json": "d779c6e0de50388b0d21c42a3519d6fc5557ea411f67d0b26fff60eed8bcce12",
+    "partial-verification.json": "b69366502d6aa4284476f9f6e5e05611cdc3a8affdd2220861f7158da37bb325",
+    "preflight-verification.json": "8bbba99c5cc5417a3e1a697a5719cbfcdace6ea92410064185216573030e42db"
+  },
+  "worker_exit_status": 1
+}

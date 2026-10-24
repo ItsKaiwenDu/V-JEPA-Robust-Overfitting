@@ -145,7 +145,7 @@ def test_four_actual_upstream_workers_have_shared_tokens_and_exact_replay(tiny_r
     assert session['complete'] and session['passed'] and len(session['tasks']) == 4
     assert session['comparison']['shared_forward_tokens_bitwise_equal']
     assert not session['comparison']['full_model_optimizer_or_recovery_validated']
-    assert summarize(directory, session['tasks'], session['provenance'], tiny=True) == session['comparison']
+    assert summarize(directory, session['tasks'], session['provenance'], tiny=True, initial_fixture=session['initial_fixture']) == session['comparison']
 
 
 @pytest.mark.parametrize('defect', ['partial', 'timeout', 'source', 'forward', 'reference', 'hash', 'runtime', 'false_parameter_gate'])
@@ -166,7 +166,7 @@ def test_incomplete_mixed_or_altered_evidence_rejects(tiny_run, tmp_path, defect
         elif defect == 'false_parameter_gate':value['oracle_validation']['weight']['failed_elements']=1
         else:value['contract']['reference']='historical FP32'
         path.write_text(json.dumps(value));tasks[0]['result_sha256']=file_hash(path)
-    with pytest.raises(ValueError):summarize(copied,tasks,expected,tiny=True)
+    with pytest.raises(ValueError):summarize(copied,tasks,expected,tiny=True, initial_fixture=session['initial_fixture'])
 
 
 @pytest.mark.parametrize('flags', [[], ['--diagnostic','--tiny'], ['--diagnostic','--tiny','--device','cpu','--worker-seconds','181']])
@@ -201,3 +201,24 @@ def test_full_model_parameter_gradients_match_independent_double_conv_autograd(c
     for name, expected in ref_grads.items():
         if expected is None:assert grads[name] is None
         else:torch.testing.assert_close(grads[name],expected,rtol=2e-4,atol=2e-6)
+
+
+@pytest.mark.parametrize('defect', ['missing_pin', 'changed_checkpoint', 'changed_worker_pin'])
+def test_initial_fixture_evidence_cannot_be_dropped_or_replaced(tiny_run, tmp_path, defect):
+    import shutil
+    directory, session = tiny_run
+    copied = tmp_path/'fixture-evidence'
+    shutil.copytree(directory,copied)
+    tasks = copy.deepcopy(session['tasks'])
+    initial = copy.deepcopy(session['initial_fixture'])
+    if defect == 'missing_pin': initial = None
+    elif defect == 'changed_checkpoint':
+        with (copied/initial['file']).open('ab') as handle: handle.write(b'changed')
+    else:
+        path = copied/tasks[0]['result']
+        value = json.loads(path.read_text())
+        value['contract']['data']['initial_fixture']['sha256'] = '0'*64
+        path.write_text(json.dumps(value))
+        tasks[0]['result_sha256'] = file_hash(path)
+    with pytest.raises(ValueError,match='fixture|Fixture'):
+        summarize(copied,tasks,session['provenance'],tiny=True,initial_fixture=initial)

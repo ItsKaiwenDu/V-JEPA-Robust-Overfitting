@@ -1,5 +1,197 @@
 # Research Progress Reports
 
+## 2026-10-23 — Per-Pod billing reconciled
+
+Six shown Pod charges total $5.4652, rounding to $5.47 debit; adding the $9.53
+wallet reconciles the $15 starting credit. Latest A40 original plus migration
+costs $1.2066 (~$1.21). [Ledger](report/checks/2026-10-23-runpod-billing-reconciliation.md).
+
+Settle internal $3/$3/$2.80 reservations against the named charges; no provider
+refund is implied. Conservative remaining shared $10 diagnostic allowance is
+$4.53. Old partial totals are superseded, not added. Frozen launch constants
+and scientific pins remain historical; review fresh metadata before any rental.
+Both Pods remain terminated; the missing A40 control measurement is still pending.
+
+## 2026-10-23 — Current wallet and Summary follow-up recorded
+
+The latest wallet shows $9.53: $5.47 provisional cumulative credit use from
+the initial $15. Daily Summary totals $5.338 including storage; displayed hourly
+rows total $5.339, a $0.001 difference consistent with rounding. The remaining
+$0.132 wallet difference is unassigned. [Follow-up](report/checks/2026-10-23-runpod-billing-followup.md).
+
+October 24 is disabled in the date picker; the earlier selection instruction
+is withdrawn. No instant per-Pod billing view is established. No further
+screenshots are needed for offline planning now. Both Pods stay terminated;
+existing reservations and detailed-charge reconciliation remain pending.
+
+## 2026-10-23 — Provisional billing snapshot recorded
+
+The reported $9.56 wallet balance implies $5.44 cumulative credit used from
+the initial $15, assuming no later adjustments. The GPU-only Explorer totals
+$4.874 and explicitly lags one hour. Daily buckets use UTC; extend a later
+reconciliation through October 24 because 5 PM Pacific is UTC midnight.
+The $0.566 difference is unassigned, and this is not an extra charge to add
+to earlier summaries. [Snapshot](report/checks/2026-10-23-runpod-billing-snapshot.md).
+
+Both Pods remain terminated. Final per-Pod charges and release of existing
+$3/$3/$2.80 holds remain pending; no new rental or research admission.
+
+## 2026-10-23 — Migrated A40 partial screen verified; both Pods terminated
+
+Six of seven phases completed: numerical preflight, diagnostic calibration,
+initial features, two clean updates, two adversarial updates, and trained
+features. The final PGD-50 control timed out at the reviewed limit; FGSM/random
+controls were not reached. Exit 1; no complete economic screen or research
+admission. [Verified evidence](report/checks/2026-10-23-a40-migrated-continuation.md).
+
+All 60 export members, 23 wrapped records and 198 non-Markdown source pins
+verify. Three-input/six-tensor preflight verifies independently. Both workflows'
+five scheduled receipts, both copied feature/probe pairs and calibration
+recompute. Original 509 CUDA-host passes and two fresh restart CUDA controls
+remain distinct from the separate 20 operational guard checks.
+
+The user confirmed both Pods terminated; the old paused Pod was removed earlier.
+Final billing snapshot is pending. Keep existing $2.80 plus earlier $3/$3 holds,
+the $200/$160 project/compute caps and unchanged protocol. Missing timings are
+not zero; exact A40 optimizer recovery and held-out results remain unvalidated.
+
+## 2026-10-23 — Offline restart continuation ready
+
+User confirmed Stop at2:08PM. Conservatively count71prior running minutes and
+49remaining, keeping the same$2.80 hold. Stopped storage is$0.022/hour;
+updated session charge is pending. [Continuation preparation](report/checks/2026-10-23-a40-continuation-preparation.md).
+
+270frozen sources, full509-pass JUnit and released model reverify offline.
+20new operational guard tests pass; a local failed input gate preserves a
+seven-member verified partial export. No paid host restarted or pretrained
+phase run. Fresh quote/SSH/fingerprint/restart time and actual CUDA checks
+are required before the bounded seven-phase continuation. Research unadmitted.
+
+## 2026-10-23 — Checkpoint saved before the requested break
+
+All509 CUDA-host cases pass with zero skips/errors/failures. The25-minute
+preparation wrapper then expired just after download; exit124/export are
+preserved. Independent checkpoint/source/JUnit verification succeeds.
+No pretrained benchmark/continuation is running. [Resume checkpoint](report/checks/2026-10-23-a40-pause-checkpoint.md).
+
+User plans return about3:45PM Pacific. Pod is idle, awaiting user Stop and
+stopped time/charge. Persistent /workspace retains inputs. Original2:58PM
+cutoff, cumulative two-billed-hour/$2.80 limit and earlier holds are not reset;
+review remaining allowance before resuming. No new hold or research admission.
+
+## 2026-10-23 — A40 setup controls repaired; full retry running
+
+The replacement A40 setup is rejected with 507 passes/two failures and no
+skips/errors. Its export/all ten members verify. The positive CPU profiler
+fixture exceeded its ten-second startup cap; the budget golden comparison
+reflects Python 3.12 float summation. Explicit historical summation matches
+exactly. [Evidence and test-only repairs](report/checks/2026-10-23-a40-runtime-portability.md).
+
+39 relevant local and 39 extracted checks pass. Both repaired controls pass
+on the same A40. A separately pinned package changes only those two tests;
+the full 509-case CUDA-host suite now passes with zero skips/errors/failures
+in 1161.827s. The complete JUnit/runtime files are copied and verified; the
+released checkpoint is downloading. Same paid Pod, $0.61/hour quote,
+$2.80 existing hold and 2:58 PM Pacific absolute cutoff; no additional hold.
+Pretrained measurements and research admission remain pending. Billing is active.
+
+## 2026-10-23 — A40 benchmark retry deployed; transfer underway
+
+User deployed vjepa-cost-benchmark-05 at the reviewed $0.61/hour. New SSH
+fingerprint and one A40/CUDA stack verify; RAM limit is about50GB. The
+conservative deadline is **2:58PM Pacific**, including setup and transfer,
+within the two-hour/$2.80 ceiling. The new hold is applied; earlier holds
+remain. Verified offline inputs are transferring. No new GPU timings or
+research admission yet. Billing continues until user stops/terminates.
+
+## 2026-10-23 — GPU handoff refreshed; reservation guard corrected
+
+Prepared and restored the replacement GPU handoff with 270 source files and
+unchanged 100-clip training data, 23 wheels and original upstream objects.
+All 395 archive members verify. Six extracted checks pass, including the real
+seven-phase CPU screen and fresh adversarial shared-native recovery. Hardware
+module: 24 passes, with four strengthened reservation cases rechecked.
+[Preparation evidence](report/checks/2026-10-23-hardware-benchmark-refresh.md).
+
+The launch guard's old $5.805 balance is replaced by the conservative $2.805
+remaining allowance; a proposed $2.80 hold now fits it. Both earlier $3 holds
+remain. Two-hour deadline, $0.70/hour quote ceiling, study design, attacks,
+economic formula and historical pins are unchanged. No new reservation or
+paid deployment occurred. Current user action: check a fresh Runpod quote,
+availability and host RAM with the same 30/80 GB disks; do not deploy yet.
+A40 performance, full GPU suite/recovery and research admission remain pending.
+
+Quote follow-up: the user reports one A40 available at $0.61/hour all-in.
+Two running hours cost $1.22 at that quote. The next manual deployment is
+vjepa-cost-benchmark-05, matching the previous roughly 50 GB host RAM; review
+any substantially lower RAM figure first. Fresh SSH identity and deployment
+time remain pending. No hold is applied and no deadline is set before deployment.
+
+## 2026-10-23 — University CPU recovery passes and export verifies
+
+Independently verified the 92,848,738-byte archive, all 75 regular members and
+269 original source/bundle pins. All 165 selected CPU checks pass with zero
+failures/errors/skips in 352.306 seconds; saved exit status is 0. The actual
+NFS4 probe reproduces the old write-only shared-lock error and accepts the
+read/write fix. [Verified outcome](report/checks/2026-10-23-university-cpu-recovery.md).
+
+Recomputed both four-worker gradient/attack/precision comparisons. All four
+clean/adversarial shared-backward fresh-process recovery states match exactly
+at update 6 after a split at 2, including model, optimizer, RNG, history and
+continuation draws (247 tensor and 1,527 other leaves per case). These are
+small generated CPU fixtures, not pretrained A40 or research results.
+
+Next: refresh the offline GPU handoff with the verified fixes and current
+reservation accounting, then review a new console quote. The old package and
+failed attempts remain preserved. No paid GPU or study admission; the displayed
+$3.930 aggregate, both earlier $3 holds and conservative $2.805 unreserved
+pilot balance remain unchanged pending per-Pod billing reconciliation.
+
+## 2026-10-23 — University fixture replay verified; checkpoint lock repaired locally
+
+Verified the 70-member university export and original 263 source/bundle pins.
+The CPU check is rejected with 99 passes, 29 failures and zero skips. All
+native/precision gradient/attack replay workers and twelve pinned recovery
+initializations verify; every failure reports the shared checkpoint read-lock
+EBADF before completed recovery. [Follow-up evidence](report/checks/2026-10-23-checkpoint-lock-repair.md).
+
+Changed the checkpoint lock descriptor from write-only to read/write append,
+retaining the same inode, nonblocking shared/exclusive locks and transaction
+checks. A POSIX record-lock regression reproduces the old failure locally.
+All 165 affected checks now pass; full project suite: 503 passed, two actual-CUDA
+skips, zero failures/errors. Independent reader/writer contention, error
+propagation and release checks pass. Scientific code, thresholds, historical
+reports/YAML and budget pins remain unchanged apart from lock access.
+
+Prepared a separate source-only CPU retry with actual filesystem/access probes.
+The user must run it on university Linux and copy the new export for verification
+before another rental. Full Linux recovery, A40 throughput/memory and study
+admission remain pending. No new GPU or paid compute; displayed aggregate
+$3.930 and both conservative billing holds remain unchanged.
+
+## 2026-10-23 — CPU fixtures pinned; local suite and source handoff verified
+
+Removed the assumption that separately seeded generated CPU models always
+start with identical bytes. Native/precision CPU parents now capture one
+initial checkpoint; workers verify/load it and retain exact numerical/replay
+gates. Recovery tests deliberately construct three different initial states,
+then restore the common fixture and compare full AdamW/RNG state exactly.
+
+Final local suite: 495 passed, two actual-CUDA skips, zero failures/errors.
+An initial budget test correctly rejected changed source; its positive test
+now uses an isolated fixture while the real historical guard still rejects.
+Original scientific files, small factory, thresholds, pretrained loading
+branches, YAML and historical evidence remain unchanged. Twelve Mac controls
+do not reproduce the Intel initialization mismatch; its low-level cause is
+unproved. [Repair evidence](report/checks/2026-10-23-cpu-fixture-repair.md).
+
+Built/restored a 5.3 MB source-only university package: 264 members verify,
+and three actual extracted checks pass. CPU launcher guards/tampering/partial
+failure export verify locally. Next user action: run all 128 selected checks
+with zero skips in the existing university PyTorch 2.8 environment, then copy
+the export. No Linux result, new GPU job, paid rental or research admission.
+Billing attribution/holds remain unchanged; displayed aggregate is $3.930.
+
 ## 2026-10-23 — A40 setup rejected; failure evidence verified
 
 The user deployed one A40 at a confirmed $0.61/hour including 30/80 GB disks;

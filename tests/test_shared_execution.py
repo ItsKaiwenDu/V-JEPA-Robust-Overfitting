@@ -90,14 +90,20 @@ def test_full_adamw_checkpoint_recovery_is_exact_at_partial_batch_warmup_and_dec
 @pytest.mark.parametrize('policy', SHARED_POLICIES)
 @pytest.mark.parametrize('condition', ['clean-finetune', 'adversarial-finetune'])
 def test_fresh_process_training_restore_matches_full_adamw_and_rng(tmp_path, policy, condition):
+    from models.native_diagnostic import save_tiny_fixture
+    fixture_path = tmp_path / 'initial-fixture.pt'
+    initial = save_tiny_fixture(ROOT/'external/vjepa2', fixture_path, seed=20261022)
     worker = ROOT / 'tests/fixtures/shared_recovery_worker.py'
     for mode in ('reference', 'split', 'resume'):
-        result = subprocess.run([sys.executable, str(worker), str(ROOT), str(tmp_path), policy, condition, mode],
+        result = subprocess.run([sys.executable, str(worker), str(ROOT), str(tmp_path), policy, condition, mode, str(fixture_path), initial['sha256']],
                                 cwd=ROOT, capture_output=True, text=True, timeout=45)
         assert result.returncode == 0, result.stdout + result.stderr
     expected = torch.load(tmp_path / 'reference.pt', weights_only=True)
     actual = torch.load(tmp_path / 'resume.pt', weights_only=True)
     assert_tree_equal(expected, actual)
+    records = [json.loads((tmp_path/(mode+'-initialization.json')).read_text()) for mode in ('reference','split','resume')]
+    assert len({row['constructed_state_sha256'] for row in records}) == 3
+    assert all(row['initial_fixture'] == initial and row['loaded_state_sha256'] == initial['state_sha256'] for row in records)
 
 
 @pytest.mark.parametrize('policy', SHARED_POLICIES)

@@ -1,0 +1,70 @@
+{
+  "complete": false,
+  "date": "2026-10-23",
+  "deployment": {
+    "cloud_billing_stopped_by_launcher": false,
+    "conservative_deployment_basis_pacific": "2026-10-23T12:58:00-07:00",
+    "container_gb": 30,
+    "deadline_basis": "Earlier conservative bound than the user age estimate at around 13:01 Pacific; never reset at worker launch.",
+    "deadline_epoch": 1792792680,
+    "deadline_pacific": "2026-10-23T14:58:00-07:00",
+    "deployment_age_user_reported_seconds": 90,
+    "deployment_time_is_approximate": true,
+    "diagnostic_only": true,
+    "earlier_session_holds_retained_usd": [
+      3,
+      3
+    ],
+    "endpoint": "194.68.245.52:22147",
+    "exact_gpu_optimizer_recovery_checked": false,
+    "execution_policy": "shared-fp64-native",
+    "gpu_billing_stopped_by_launcher": false,
+    "host_fingerprint": "SHA256:GAJk3aKlS1FkuAf7gO7Fil5ac+vFUqpBlTC5itBGyVo",
+    "manifest_sha256": "02cbfe7b922351cce9a48acc7b17820e9c074e07d7e2210d136e86ea8f558d27",
+    "maximum_billed_hours": 2,
+    "maximum_inclusive_session_usd": 2.8,
+    "persistent_volume_gb": 80,
+    "pod_id": "b4gbn80bppspvx",
+    "pod_name": "vjepa-cost-benchmark-05",
+    "proposed_hold_now_applied_to_active_session_usd": 2.8,
+    "quoted_all_in_hourly_usd": 0.61,
+    "research_admitted": false,
+    "run_directory": "/workspace/V-JEPA-Robust-Overfitting-retry05/runs/pretrained/diagnostic/hardware-screen.foD6mq",
+    "runtime_check": {
+      "cgroup_memory": {
+        "/sys/fs/cgroup/memory/memory.limit_in_bytes": "49999998976"
+      },
+      "checked_utc_epoch": 1792785957.4047549,
+      "hostname": "1cf152ef35e3",
+      "pod_id": "b4gbn80bppspvx",
+      "runtime": {
+        "gpu": "NVIDIA A40",
+        "python": "3.12.3",
+        "torch": "2.8.0+cu128",
+        "torchvision": "0.23.0+cu128",
+        "vram_bytes": 47699722240
+      },
+      "workspace_disk_usage": {
+        "free": 308209987420160,
+        "total": 830295989747712,
+        "used": 522086002327552
+      }
+    },
+    "schema_version": 1,
+    "volume_mount": "/workspace"
+  },
+  "diagnostic_only": true,
+  "exact_gpu_optimizer_recovery_checked": false,
+  "kind": "active_a40_cost_screen_retry05",
+  "new_gpu_timings_available": false,
+  "raw_directory": "runs/pretrained/diagnostic/a40-cost-screen-20261023-retry05",
+  "research_admitted": false,
+  "status": "full_cuda_setup_validation_running",
+  "transfer": {
+    "receipt_sha256": "7282e94c4e9d9c2601c8ca473fccf54c867adec316447f2092fd7cab520fd971",
+    "restored_all_395_members": true,
+    "six_files_and_24_chunks_verified": true,
+    "source_files_verified": 270,
+    "upload_seconds": 56.54753537500801
+  }
+}

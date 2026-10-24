@@ -1,0 +1,123 @@
+{
+  "constraints": {
+    "checkpoint_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+    "conservative_first_deployment_pacific": "2026-10-23T12:58:00-07:00",
+    "conservative_stop_bound_pacific": "2026-10-23T14:09:00-07:00",
+    "continuation_source_sha256": "4e395b713ab3dc304a941afc9af2a618a400e01b7ffacc1c3e24d0b86f3d161c",
+    "date": "2026-10-23",
+    "diagnostic_only": true,
+    "estimate_not_a_settled_charge": true,
+    "existing_hold_usd": 2.8,
+    "fresh_endpoint_fingerprint_runtime_and_cuda_controls_required": true,
+    "fresh_running_quote_pending": true,
+    "frozen_manifest_sha256": "e42164317e16fbf6e05f4143fd466f00105371284fc9e769d09d5c71ba82608a",
+    "junit_sha256": "71a9a688cd743c5f11156a21d2a209d8e7cfc5a354dedfaa6c03f2584f769cec",
+    "maximum_allowlisted_running_quote_usd_per_hour": 0.7,
+    "maximum_cumulative_running_seconds": 7200,
+    "maximum_remaining_running_seconds": 2940,
+    "new_hold_usd": 0,
+    "no_paid_host_started": true,
+    "pod_id": "b4gbn80bppspvx",
+    "previous_running_quote_usd_per_hour": 0.61,
+    "prior_running_seconds": 4260,
+    "research_admitted": false,
+    "restart_epoch_and_new_deadline_not_assigned": true,
+    "stop_time_seconds_unknown": true,
+    "stopped_storage_usd_per_hour_user_quoted": 0.022,
+    "storage_estimate_through_user_return_at_15_45_usd": 0.03556666666666666,
+    "updated_session_bill_pending": true,
+    "user_confirmed_stopped_pacific": "2026-10-23T14:08:00-07:00"
+  },
+  "date": "2026-10-23",
+  "diagnostic_only": true,
+  "expanded_whole_project_suite_not_run": true,
+  "fresh_actual_cuda_controls_and_pretrained_screen_pending": true,
+  "frozen_cuda_suite_passes": 509,
+  "local_failure_export_integration": {
+    "archive_bytes": 29725,
+    "archive_sha256": "a7e5ce1ef157e6dc0cfef165575ebe330bdfbb813087757bf52c03d956ac2abc",
+    "exit_status": 1,
+    "failure_before_model_or_cuda": true,
+    "local_fixture_only": true,
+    "no_paid_compute_started": true,
+    "partial_archive_members_verified": 7,
+    "passed": true
+  },
+  "new_operational_guard_suite": {
+    "errors": "0",
+    "failures": "0",
+    "hostname": "Kaiwens-MacBook-Pro.local",
+    "name": "pytest",
+    "skipped": "0",
+    "tests": "20",
+    "time": "0.019",
+    "timestamp": "2026-10-23T15:55:25.808293-07:00"
+  },
+  "no_paid_compute_started": true,
+  "offline_frozen_input_verification": {
+    "checkpoint_bytes": 5127726842,
+    "checkpoint_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+    "cuda_restart_controls_run": false,
+    "full_suite": {
+      "errors": "0",
+      "failures": "0",
+      "hostname": "1cf152ef35e3",
+      "name": "pytest",
+      "skipped": "0",
+      "tests": "509",
+      "time": "1161.827",
+      "timestamp": "2026-10-23T20:37:14.851084+00:00"
+    },
+    "junit_sha256": "71a9a688cd743c5f11156a21d2a209d8e7cfc5a354dedfaa6c03f2584f769cec",
+    "manifest_sha256": "e42164317e16fbf6e05f4143fd466f00105371284fc9e769d09d5c71ba82608a",
+    "offline_only": true,
+    "original_preparation_exit_status": 124,
+    "paid_job_started": false,
+    "research_admitted": false,
+    "source_files_verified": 270
+  },
+  "operations_package": {
+    "bytes": 7786,
+    "files": {
+      "continue_prepared.py": {
+        "bytes": 12046,
+        "sha256": "4e395b713ab3dc304a941afc9af2a618a400e01b7ffacc1c3e24d0b86f3d161c"
+      },
+      "failure-export-check.json": {
+        "bytes": 301,
+        "sha256": "c2153f8358603a4a3776f1e88ab6975a066ef5afa55ebe39a6909d89dfe49862"
+      },
+      "guard-tests.log": {
+        "bytes": 99,
+        "sha256": "26ca6812d0ab770786368b6f0d55349a5cbf0c995e0041de3f37831f3f0f9cdb"
+      },
+      "guard-tests.xml": {
+        "bytes": 3437,
+        "sha256": "1da73b880dc6eddaf77499a22d78cb4b7f3b8fdc64d3682b2fa4a2f065cca1c4"
+      },
+      "offline-check.json": {
+        "bytes": 732,
+        "sha256": "27849d5f80c0a41debc85614570716fee15485f6e3deb1be755502cdba505130"
+      },
+      "prepared-inputs-receipt.json": {
+        "bytes": 1329,
+        "sha256": "add1d98dc9066797ceea4497a06dfbd1fa8394e2c7b15d8546070e27334a0969"
+      },
+      "resume-constraints.json": {
+        "bytes": 1413,
+        "sha256": "c7c3390095229a703cfdb3203756440e7bd8b7fd71f06a3b8273d86fe0c02dab"
+      },
+      "test_hardware_continuation.py": {
+        "bytes": 3873,
+        "sha256": "6cea63107b78fd0d24fa705745a7f4a5cedca1f60ea1fc8c874750b7d1d0c71f"
+      }
+    },
+    "sha256": "d564bbf1d65ddcf1294be9986e1c6858f277619b27776d0c61bc290e29fa4958"
+  },
+  "research_admitted": false,
+  "scientific_sources_thresholds_attacks_and_configuration_changed": false,
+  "source_sha256": {
+    "scripts/continue_hardware_benchmark.py": "4e395b713ab3dc304a941afc9af2a618a400e01b7ffacc1c3e24d0b86f3d161c",
+    "tests/test_hardware_continuation.py": "6cea63107b78fd0d24fa705745a7f4a5cedca1f60ea1fc8c874750b7d1d0c71f"
+  }
+}

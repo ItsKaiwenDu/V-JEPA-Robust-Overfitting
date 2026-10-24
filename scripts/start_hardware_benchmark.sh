@@ -98,9 +98,11 @@ mkdir -p "$base/runs/pretrained/diagnostic"
 run=$(mktemp -d "$base/runs/pretrained/diagnostic/hardware-screen.XXXXXX")
 python3 - "$run" "$now" "$deadline" "$expected_gpu" "$hourly_rate" <<'PY'
 import json,pathlib,sys
+from models.hardware_benchmark import validate_launch
 root=pathlib.Path(sys.argv[1])
+contract=validate_launch(sys.argv[4],float(sys.argv[5]),int(sys.argv[2]),int(sys.argv[3]))
 (root/'launcher-metadata.json').write_text(json.dumps({
-    'schema_version':1,'diagnostic_only':True,'execution_policy':'shared-fp64-native',
+    **contract,'schema_version':1,'diagnostic_only':True,'execution_policy':'shared-fp64-native',
     'launched_epoch':int(sys.argv[2]),'deadline_epoch':int(sys.argv[3]),
     'expected_gpu':sys.argv[4],'quoted_hourly_usd':float(sys.argv[5]),
     'profile':'hardware-cost-screen-v1','exact_optimizer_recovery_checked':False,

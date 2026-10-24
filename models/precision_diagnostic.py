@@ -19,7 +19,8 @@ from models.cuda_profile import file_hash, run_bounded, tensor_signature, write_
 from models.diagnostics import state_digest
 from models.execution import apply_model_policy, configure_execution, precision_contract
 from models.gradient_attribution import load_observed, tail_derivative, verify_identity
-from models.native_diagnostic import provenance as prior_provenance, tiny_fixture, TOLERANCES
+from models.native_diagnostic import provenance as prior_provenance, tiny_fixture, save_tiny_fixture, TOLERANCES
+from models.fixture_state import load_fixture_state, read_fixture_state
 from models.native_probe import profile_records, kernel_boundary_checks, validate_probe
 from models.precision_patch import BACKWARDS, FORWARD_ID, PrecisionPatchEmbed3D, precision_scope
 from models.runtime import synchronize
@@ -134,7 +135,8 @@ def worker(args, root):
         progress('load_original_model_and_first_training_clip')
         if args.tiny:
             model, clean, masks_for = tiny_fixture(args.upstream)
-            data = {'fixture': 'tiny-upstream-model-and-generated-training-pixels-v1'}
+            initial = load_fixture_state(model, args.initial_fixture, args.initial_fixture_sha256)
+            data = {'fixture': 'tiny-upstream-model-and-generated-training-pixels-v2', 'initial_fixture': initial}
         else:
             plan_path = Path(root) / 'configs/budget_study_plan.yaml'
             plan = yaml.safe_load(plan_path.read_text())
@@ -258,11 +260,20 @@ def validate_contract(contract, *, tiny):
         raise ValueError('Declared precision/device/runtime is not the specified control.')
 
 
-def summarize(directory, tasks, expected, *, tiny):
+def summarize(directory, tasks, expected, *, tiny, initial_fixture=None):
     directory = Path(directory).resolve()
     if (len(tasks) != 4 or {(t['backward'], t['replay']) for t in tasks} != {(b, i) for b in BACKWARDS for i in (0, 1)}
             or any(t['status'] != 'ok' for t in tasks)):
         raise ValueError('Four successful fresh workers required.')
+    fixture_identity = None
+    if tiny:
+        if not initial_fixture or initial_fixture.get('file') != 'initial-fixture.pt':
+            raise ValueError('Pinned initial CPU fixture is required.')
+        _, fixture_identity = read_fixture_state(directory / initial_fixture['file'], initial_fixture['sha256'])
+        if {k:v for k,v in initial_fixture.items() if k != 'file'} != fixture_identity:
+            raise ValueError('Parent initial fixture identity differs.')
+    elif initial_fixture is not None:
+        raise ValueError('Generated fixture is not valid for a pretrained diagnostic.')
     workers, saved = {}, {}
     for task in tasks:
         path = (directory / task['result']).resolve()
@@ -278,6 +289,9 @@ def summarize(directory, tasks, expected, *, tiny):
                 or not all(row['passed'] for row in v['oracle_validation'].values())
                 or not all(row['passed'] for row in v['reconstruction'].values())):
             raise ValueError('Rejected/mixed scientific identity or gate.')
+        if tiny and (v['contract']['data'].get('initial_fixture') != fixture_identity
+                     or v['contract']['weights_sha256'] != fixture_identity['state_sha256']):
+            raise ValueError('Worker did not use the pinned initial fixture.')
         validate_contract(v['contract'], tiny=tiny)
         probe = v['native_backward_probe']
         if probe['forward_id'] != FORWARD_ID or probe['delegator'] != 'models.precision_patch._PrecisionProjection':
@@ -348,6 +362,10 @@ def run(args, root):
     path = args.output / 'session.json'
     write_json(path, session)
     try:
+        if args.tiny:
+            identity = save_tiny_fixture(args.upstream, args.output / 'initial-fixture.pt')
+            session['initial_fixture'] = {'file': 'initial-fixture.pt', **identity}
+            write_json(path, session)
         for backend in reversed(BACKWARDS):
             for replay in (0, 1):
                 name = f'{backend}-{replay}'
@@ -357,7 +375,8 @@ def run(args, root):
                            '--worker', '--backward', backend, '--result', str(result),
                            '--device', args.device, '--upstream', str(args.upstream.resolve())]
                 if args.tiny:
-                    command.append('--tiny')
+                    command += ['--tiny', '--initial-fixture', str((args.output/'initial-fixture.pt').resolve()),
+                                '--initial-fixture-sha256', session['initial_fixture']['sha256']]
                 else:
                     for key in ('checkpoint', 'clips', 'manifest', 'observed', 'reference_run'):
                         command += ['--'+key.replace('_', '-'), str(getattr(args, key).resolve())]
@@ -370,7 +389,8 @@ def run(args, root):
                 write_json(path, session)
                 if task['status'] != 'ok':
                     raise RuntimeError('Shared-forward worker rejected/timed out; inspect its JSON/log.')
-        session['comparison'] = summarize(args.output, session['tasks'], expected, tiny=args.tiny)
+        session['comparison'] = summarize(args.output, session['tasks'], expected, tiny=args.tiny,
+                                          initial_fixture=session.get('initial_fixture'))
         session['complete'] = True
         session['passed'] = session['comparison']['passed']
         if not session['passed']:

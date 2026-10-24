@@ -1,0 +1,82 @@
+{
+  "additional_hold_usd": 0,
+  "all_in_running_quote_usd_per_hour": 0.61,
+  "billing_active_until_user_stops": false,
+  "cumulative_two_billed_hour_and_2_80_usd_ceiling_do_not_reset_on_pause": true,
+  "current_storage_quote_usd_per_hour": 0.022,
+  "date": "2026-10-23",
+  "diagnostic_running": false,
+  "existing_session_hold_usd": 2.8,
+  "full_tests": {
+    "errors": "0",
+    "failures": "0",
+    "hostname": "1cf152ef35e3",
+    "name": "pytest",
+    "skipped": "0",
+    "tests": "509",
+    "time": "1161.827",
+    "timestamp": "2026-10-23T20:37:14.851084+00:00"
+  },
+  "manifest_sha256": "e42164317e16fbf6e05f4143fd466f00105371284fc9e769d09d5c71ba82608a",
+  "maximum_remaining_running_seconds": 2940,
+  "no_automatic_restart_or_billing_stop_configured": true,
+  "official_storage_reference": "https://docs.runpod.io/pods/manage-pods#stop-a-pod",
+  "original_deadline_epoch": 1792792680,
+  "original_deadline_pacific": "2026-10-23T14:58:00-07:00",
+  "persistent_package": "/workspace/hardware-benchmark-handoff-20261023b",
+  "persistent_project": "/workspace/V-JEPA-Robust-Overfitting-retry05b",
+  "pod_id": "b4gbn80bppspvx",
+  "prepared_inputs": {
+    "checkpoint_checksum_wall_seconds": 12.15261949703563,
+    "checkpoint_promoted_after_independent_hash": true,
+    "checkpoint_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+    "checkpoint_stat": {
+      "mtime_ns": 1792789220000000000,
+      "size": 5127726842
+    },
+    "completed_checkpoint_bytes": 5127726842,
+    "diagnostic_only": true,
+    "full_suite": {
+      "errors": "0",
+      "failures": "0",
+      "hostname": "1cf152ef35e3",
+      "name": "pytest",
+      "skipped": "0",
+      "tests": "509",
+      "time": "1161.827",
+      "timestamp": "2026-10-23T20:37:14.851084+00:00"
+    },
+    "junit_sha256": "71a9a688cd743c5f11156a21d2a209d8e7cfc5a354dedfaa6c03f2584f769cec",
+    "manifest_sha256": "e42164317e16fbf6e05f4143fd466f00105371284fc9e769d09d5c71ba82608a",
+    "meaning": "All scientific setup inputs independently verified after the bounded preparation wrapper expired during final checksum; source and full test result unchanged.",
+    "new_hold_usd": 0,
+    "original_run": "/workspace/V-JEPA-Robust-Overfitting-retry05b/runs/pretrained/diagnostic/hardware-screen.6oW9B7",
+    "original_supervisor_exit_status": 124,
+    "research_admitted": false,
+    "same_existing_paid_pod": "b4gbn80bppspvx",
+    "schema_version": 1,
+    "setup_cap_seconds": 1500,
+    "source_files_verified": 270,
+    "unchanged_deadline_epoch": 1792792680
+  },
+  "pretrained_benchmark_started": false,
+  "research_admitted": false,
+  "resume_actions": [
+    "Prepare a separate bounded continuation offline before paid restart.",
+    "Get Stop confirmation/time and updated charge; reconcile remaining cumulative billed-time/dollar allowance including stopped storage.",
+    "Get fresh quote, availability, SSH and public host fingerprint after restart.",
+    "Revalidate runtime/GPU, frozen source/JUnit/checkpoint identities after container-root reset.",
+    "Review a new absolute deadline within the remaining allowance; never reset to a new two-hour session.",
+    "Run original seven pretrained science phases from the verified prepared inputs, preserving failed/timed-out runs."
+  ],
+  "setup_wrapper_exit_status": 124,
+  "status": "user_confirmed_stopped_offline_continuation_prepared",
+  "stop_time_and_updated_charge_pending": true,
+  "timeout_export_verified": {
+    "bytes": 50572,
+    "members": 10,
+    "sha256": "dac64f4d0ddbd555c0ca25eaca68bde2d9a8db9f47be03515af71cd2ab7b172a"
+  },
+  "user_confirmed_stop_pacific": "2026-10-23T14:08:00-07:00",
+  "user_requested_break_until": "approximately 3:45 PM Pacific"
+}

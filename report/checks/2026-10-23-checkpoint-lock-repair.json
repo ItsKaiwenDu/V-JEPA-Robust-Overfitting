@@ -1,0 +1,202 @@
+{
+  "compute": {
+    "conservative_unreserved_pilot_usd": 2.805,
+    "latest_displayed_aggregate_usd": 3.93,
+    "new_cloud_rental_or_gpu_job_started": false,
+    "per_pod_billing_reconciled": false,
+    "planned_compute_cap_usd": 160,
+    "project_cap_usd": 200,
+    "retained_holds_usd": [
+      3,
+      3
+    ]
+  },
+  "date": "2026-10-23",
+  "diagnostic_only": true,
+  "failure_analysis": {
+    "actual_nfs_mount_tested_on_mac": false,
+    "direct_checkpoint_lock_traces": 28,
+    "local_real_posix_record_lock_control_reproduced_same_error_before_fix": true,
+    "new_access_mode": "a+ (read/write append)",
+    "nfs_mechanism": "Linux NFS emulates flock with record locks; shared record locks require a readable descriptor.",
+    "nfs_mount_and_old_new_access_probe_on_retry_pending": true,
+    "observed_error": "OSError: [Errno 9] Bad file descriptor",
+    "old_access_mode": "a (write-only)",
+    "sources": [
+      "https://man7.org/linux/man-pages/man2/flock.2.html",
+      "https://man7.org/linux/man-pages/man2/fcntl_locking.2.html"
+    ],
+    "wrapped_interruption_expectation_failure": 1
+  },
+  "gpu_benchmark_performed": false,
+  "kind": "university_cpu_fixture_evidence_and_checkpoint_lock_access_repair",
+  "local_validation": {
+    "actual_cuda_skips": [
+      {
+        "case": "tests.test_cuda_reproducibility::test_cuda_gradients_and_updates_match_across_fresh_processes",
+        "reason": "Actual CUDA required for fresh-process kernel replay"
+      },
+      {
+        "case": "tests.test_native_execution::test_cuda_backward_outside_forward_context_uses_native_operator",
+        "reason": "Actual CUDA needed for native backward kernel evidence"
+      }
+    ],
+    "affected_checks": {
+      "errors": 0,
+      "failures": 0,
+      "seconds": 102.167,
+      "skipped": 0,
+      "tests": 165
+    },
+    "before_fix_lock_regression": {
+      "errors": 0,
+      "failures": 1,
+      "seconds": 0.608,
+      "skipped": 0,
+      "tests": 8
+    },
+    "full_passed": 503,
+    "full_project_suite": {
+      "errors": 0,
+      "failures": 0,
+      "seconds": 289.608,
+      "skipped": 2,
+      "tests": 505
+    },
+    "initial_unscoped_pytest_invocation": {
+      "collection_errors": 31,
+      "exit_status": 2,
+      "reason": "An unscoped invocation collected vendor and ignored archived test trees; the documented tests/ command then ran the complete project suite."
+    }
+  },
+  "next_action": "Run and independently verify the fresh university CPU handoff before considering another paid GPU benchmark.",
+  "provenance": {
+    "prior_initial_fixture_repair_source_unchanged": true,
+    "raw_validation_files_sha256": {
+      "vjepa-nfs-lock-before-20261023.xml": "25255128c121e951d43d48b4683230074fb208d16f58287d994e9be3d7903d2c",
+      "vjepa-nfs-lock-full-20261023.xml": "1861541a76c8f67e3defb26ec82e71446d0e6901e328beea062c57b7a4747c71",
+      "vjepa-nfs-lock-full-final-20261023.xml": "06f8cef9f3dd6fb54d53721dffe81ee75c8cc392ea638c3f029c3ae8375804b8",
+      "vjepa-nfs-lock-targeted-20261023.xml": "8914c31ebf8c196b13720ea141e285a5c046487aff4b3e50c02c8a473cacf761"
+    },
+    "source_sha256": {
+      "models/checkpointing.py": "edc5940bc73db42c89b3494be9b0f2098680762f4fa972305f51abe47c3d8373",
+      "scripts/university_cpu_fixtures.sh": "a641ac079e89113eef9cf11c67252c88858644be006e3e468f1e76a4686999d6",
+      "tests/test_checkpoint_locking.py": "6f4372d039de24184d488febd7c9d5dc6b6d6b65b66e438ebd6597fb09463fd1"
+    },
+    "unchanged_scientific_and_historical_files_sha256": {
+      "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+      "configs/budget_study_plan.yaml": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+      "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+      "models/evaluation.py": "1431951d158b57b615208006edb5365a6bad910b2a14e0aa782a1c6f82034089",
+      "models/execution.py": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba",
+      "models/native_patch.py": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7",
+      "models/precision_patch.py": "30e8a6b28b8f082fd771aaeab5a70a73cf200714ef2b24416a55938f61e9c550",
+      "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+      "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+      "models/workflow_preflight.py": "7d382d8e3b80c7ce0f667610bdb909518624c29958b9ab70595228a5adaa46db",
+      "report/checks/2026-10-22-measured-budget-review.json": "427c0e9f4e05e1c3eb0f441d74f43630c6e627fadac1437843410aad471f7128",
+      "report/checks/2026-10-22-shared-forward-cuda-workflow.json": "b8b7b9ad70b1d74abf8deecf4d1385f9ce1c5c23d9557afd016214b9bff4f027",
+      "report/checks/2026-10-23-a40-setup-rejection.json": "b9bddb4ec4961cb60c195a7157bb9c8e883e0f4aaca10d7dac0ad4a454b412ae"
+    }
+  },
+  "repair": {
+    "file_contents_and_inode_preserved": true,
+    "lock_failures_propagate": true,
+    "no_unlocked_fallback": true,
+    "nonblocking_shared_and_exclusive_flock_preserved": true,
+    "only_production_ast_change": "CheckpointStore._lock opens the same lock file with a+ instead of a.",
+    "scientific_thresholds_changed": false,
+    "study_yaml_or_historical_budget_pins_changed": false,
+    "transaction_generation_checksum_and_recovery_contract_code_unchanged": true
+  },
+  "research_admitted": false,
+  "retry_handoff": {
+    "actual_run_filesystem_lock_probe": true,
+    "archive": "vjepa-cpu-locks.tar.gz",
+    "cuda_visible_devices": "",
+    "directory": "runs/pretrained/diagnostic/cpu-lock-repair-20261023",
+    "existing_torch": "2.8.0+cu128",
+    "extraction_directory": "cpu-locks-20261023",
+    "final_status_report_follows_frozen_source_snapshot": true,
+    "independent_handoff_verification_sha256": "53fcc9c93948892fc5a6b5a085df660586c202205c49efcb91a42d36036190a2",
+    "launcher_guard_and_failure_export_checks_passed": true,
+    "outer_cap_seconds": 1680,
+    "preparation_record": "preparation.json",
+    "runtime_dependency_installs": false,
+    "selected_cpu_checks": 165,
+    "source_only": true,
+    "test_cap_seconds": 1500,
+    "university_retry_execution_performed": false,
+    "verification_source_manifest_sha256": "82733f82142a94902d4dedfffbf803fb4b0762382090d7693452f0a96ecfd0f9",
+    "verified_preparation": {
+      "archive": {
+        "bytes": 5313508,
+        "sha256": "41926b451a2727fd77609bb4c650761d882d27ccc1dec88a25136a52d3779e6b"
+      },
+      "archive_members": 270,
+      "expected_linux_tests": 165,
+      "extracted_source_tests": {
+        "errors": "0",
+        "failures": "0",
+        "hostname": "Kaiwens-MacBook-Pro.local",
+        "name": "pytest",
+        "skipped": "0",
+        "tests": "3",
+        "time": "14.266",
+        "timestamp": "2026-10-23T12:27:27.139869-07:00"
+      },
+      "linux_retry_execution_performed": false,
+      "manifest_sha256": "fcfab836e0cb3dac19606673e058bba2b4d3cff5f0915571b89446b88e26e627",
+      "no_cloud_rental_or_gpu_job_started": true,
+      "restored_member_hashes_verified": true,
+      "source_files": 268,
+      "source_manifest_files_verified": 269
+    },
+    "zero_skips_required": true
+  },
+  "verified_university_attempt": {
+    "all_failures_report_checkpoint_read_lock_ebadf": true,
+    "all_three_seeded_initializations_load_the_pinned_fixture_in_each_recovery_case": true,
+    "archive": {
+      "bytes": 69221414,
+      "sha256": "b6d7f0786bce72f3330e864187f2f064d34ccc576bdcc0ba903501963ff97d4b"
+    },
+    "archive_members": 70,
+    "directory": "runs/pretrained/diagnostic/cpu-fixture-repair-20261023/university-cpu.jXYphp",
+    "failed_tests": 29,
+    "four_resume_workers_failed_before_checkpoint_load": true,
+    "full_recovery_passed": false,
+    "independent_verification_sha256": "4215f3a2c16fb7510b8901e268699f56378e9d8e265ea38b1b5657049bc739bd",
+    "original_handoff_manifest_sha256": "bedcf6e4da90e696f7649d240f0f97b1307d7cc4864fc3a08e5b7fcc145e9ccf",
+    "passed_modules": {
+      "test_fixture_state": 20,
+      "test_measured_budget": 15,
+      "test_native_diagnostic": 15,
+      "test_precision_patch": 31
+    },
+    "passed_tests": 99,
+    "recomputed_native_and_precision_fresh_workers": 8,
+    "recovery_initializations_verified": 12,
+    "runtime": {
+      "architecture": "x86_64",
+      "cpu_only": true,
+      "cuda_visible_devices": "",
+      "numpy": "2.4.6",
+      "pytest": "9.1.1",
+      "python": "3.11.17",
+      "torch": "2.8.0+cu128",
+      "torch_build": "PyTorch built with:\n  - GCC 13.3\n  - C++ Version: 201703\n  - Intel(R) oneAPI Math Kernel Library Version 2024.2-Product Build 20240605 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.7.1 (Git Hash 8d263e693366ef8db40acc569cc7d8edf644556d)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: AVX512\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, COMMIT_SHA=a1cb3cc05d46d198467bebbb6e8fba50a325d4e7, CUDA_VERSION=12.8, CUDNN_VERSION=9.8.0, CXX_COMPILER=/opt/rh/gcc-toolset-13/root/usr/bin/c++, CXX_FLAGS= -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -DC10_NODEPRECATED -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -faligned-new -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-dangling-reference -Wno-error=dangling-reference -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.8.0, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=1, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n"
+    },
+    "shared_execution_failed": 29,
+    "shared_execution_passed": 18,
+    "skipped_tests": 0,
+    "source_manifest_files_verified": 263,
+    "tests": {
+      "errors": "0",
+      "failures": "29",
+      "skipped": "0",
+      "tests": "128",
+      "time": "169.167"
+    }
+  }
+}

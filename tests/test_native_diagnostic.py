@@ -29,7 +29,7 @@ def test_fresh_process_pipeline_compares_actual_saved_gradients_and_attacks(tiny
     assert session['complete'] and session['passed'] and len(session['tasks']) == 4
     assert session['tiny_fixture'] and not session['research_result'] and not session['budget_approved']
     assert not session['comparison']['full_model_optimizer_or_recovery_validated']
-    checked = summarize(directory, session['tasks'], session['provenance'], tiny=True)
+    checked = summarize(directory, session['tasks'], session['provenance'], tiny=True, initial_fixture=session['initial_fixture'])
     assert checked == session['comparison']
     assert all(checked['within_backend_exact_replay'].values())
 
@@ -54,7 +54,7 @@ def test_incomplete_or_mixed_evidence_never_passes(tiny_run, defect):
     else:
         tasks[0]['policy'] = 'original'
     with pytest.raises(ValueError):
-        summarize(directory, tasks, provenance, tiny=tiny)
+        summarize(directory, tasks, provenance, tiny=tiny, initial_fixture=session['initial_fixture'] if tiny else None)
 
 
 def test_cli_requires_explicit_diagnostic_and_cpu_fixture_bounds(tmp_path):
@@ -86,4 +86,25 @@ def test_comparison_retains_shared_geometry_checkpointing_and_actual_precision(t
         path.write_text(json.dumps(value))
         task['result_sha256'] = file_hash(path)
     with pytest.raises(ValueError):
-        summarize(copied, tasks, session['provenance'], tiny=True)
+        summarize(copied, tasks, session['provenance'], tiny=True, initial_fixture=session['initial_fixture'])
+
+
+@pytest.mark.parametrize('defect', ['missing_pin', 'changed_checkpoint', 'changed_worker_pin'])
+def test_initial_fixture_evidence_cannot_be_dropped_or_replaced(tiny_run, tmp_path, defect):
+    import shutil
+    directory, session = tiny_run
+    copied = tmp_path/'fixture-evidence'
+    shutil.copytree(directory,copied)
+    tasks = copy.deepcopy(session['tasks'])
+    initial = copy.deepcopy(session['initial_fixture'])
+    if defect == 'missing_pin': initial = None
+    elif defect == 'changed_checkpoint':
+        with (copied/initial['file']).open('ab') as handle: handle.write(b'changed')
+    else:
+        path = copied/tasks[0]['result']
+        value = json.loads(path.read_text())
+        value['contract']['data']['initial_fixture']['sha256'] = '0'*64
+        path.write_text(json.dumps(value))
+        tasks[0]['result_sha256'] = file_hash(path)
+    with pytest.raises(ValueError,match='fixture|Fixture'):
+        summarize(copied,tasks,session['provenance'],tiny=True,initial_fixture=initial)

@@ -112,8 +112,11 @@ def test_fresh_process_parent_and_optional_profiler_round_trip(upstream,tmp_path
     output=tmp_path/'result'
     command=[sys.executable,str(ROOT/'scripts/profile_cuda.py'),'--device','cpu','--tiny',
              '--upstream',str(upstream),'--output',str(output),'--cases','encoder-mask-0',
-             '--max-seconds','45','--worker-seconds','10','--warmup','1','--repeats','2']
-    result=subprocess.run(command,capture_output=True,text=True,timeout=55)
+             '--max-seconds','150','--worker-seconds','30','--warmup','1','--repeats','2']
+    # This positive fixture includes fresh interpreter/import/autograd startup.
+    # Keep a finite allowance for slow shared filesystems; timeout/kill behavior
+    # is exercised separately with deliberately tiny worker/deadline budgets.
+    result=subprocess.run(command,capture_output=True,text=True,timeout=180)
     assert result.returncode==0,result.stderr
     session=json.loads((output/'session.json').read_text())
     assert session['complete'] and session['strict_replay_passed']

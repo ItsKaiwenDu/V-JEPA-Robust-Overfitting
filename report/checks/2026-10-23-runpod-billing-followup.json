@@ -1,0 +1,182 @@
+{
+  "additional_wallet_depletion_since_prior_snapshot_usd": "0.03",
+  "assumption": "No additional funding, refunds or adjustments since initial $15 credit",
+  "available_account_credit_usd": "9.53",
+  "balance_based_usage_minus_displayed_daily_total_usd": "0.132",
+  "both_pods_user_confirmed_terminated": true,
+  "calendar_october_24_disabled_in_user_screenshot": true,
+  "current_wallet_screenshot_local_label": "2026-10-23T18:23:31-07:00",
+  "daily_bucket_timezone": "UTC",
+  "daily_rows": [
+    {
+      "gpu_cloud_usd": "2.939",
+      "start": "2026-10-23",
+      "storage_usd": ".113",
+      "total_usd": "3.052"
+    },
+    {
+      "gpu_cloud_usd": "1.664",
+      "start": "2026-10-21",
+      "storage_usd": ".024",
+      "total_usd": "1.688"
+    },
+    {
+      "gpu_cloud_usd": ".592",
+      "start": "2026-10-20",
+      "storage_usd": ".006",
+      "total_usd": ".598"
+    }
+  ],
+  "daily_totals": {
+    "gpu_cloud_usd": "5.195",
+    "storage_usd": "0.143",
+    "total_usd": "5.338"
+  },
+  "date": "2026-10-23",
+  "date_picker_suggestion_to_select_october_24_withdrawn": true,
+  "difference_attribution": "Unassigned; final usage outside displayed buckets and processing differences remain possible",
+  "exact_cause_of_missing_october_24_bucket_confirmed": false,
+  "explorer_disclosed_lag_hours": 1,
+  "hourly_labels_timezone": "PDT",
+  "hourly_minus_daily_total_usd": "0.001",
+  "hourly_rows": [
+    {
+      "gpu_cloud_usd": ".321",
+      "start": "2026-10-23T16:00:00-07:00",
+      "storage_usd": ".024",
+      "total_usd": ".345"
+    },
+    {
+      "gpu_cloud_usd": "0",
+      "start": "2026-10-23T15:00:00-07:00",
+      "storage_usd": ".022",
+      "total_usd": ".022"
+    },
+    {
+      "gpu_cloud_usd": ".086",
+      "start": "2026-10-23T14:00:00-07:00",
+      "storage_usd": ".022",
+      "total_usd": ".108"
+    },
+    {
+      "gpu_cloud_usd": ".590",
+      "start": "2026-10-23T13:00:00-07:00",
+      "storage_usd": ".015",
+      "total_usd": ".605"
+    },
+    {
+      "gpu_cloud_usd": ".320",
+      "start": "2026-10-23T10:00:00-07:00",
+      "storage_usd": ".008",
+      "total_usd": ".328"
+    },
+    {
+      "gpu_cloud_usd": ".016",
+      "start": "2026-10-22T21:00:00-07:00",
+      "storage_usd": ".002",
+      "total_usd": ".018"
+    },
+    {
+      "gpu_cloud_usd": "1.190",
+      "start": "2026-10-22T20:00:00-07:00",
+      "storage_usd": ".015",
+      "total_usd": "1.205"
+    },
+    {
+      "gpu_cloud_usd": ".416",
+      "start": "2026-10-22T19:00:00-07:00",
+      "storage_usd": ".005",
+      "total_usd": ".421"
+    },
+    {
+      "gpu_cloud_usd": ".178",
+      "start": "2026-10-21T15:00:00-07:00",
+      "storage_usd": ".005",
+      "total_usd": ".183"
+    },
+    {
+      "gpu_cloud_usd": "1.190",
+      "start": "2026-10-21T14:00:00-07:00",
+      "storage_usd": ".015",
+      "total_usd": "1.205"
+    },
+    {
+      "gpu_cloud_usd": ".297",
+      "start": "2026-10-21T13:00:00-07:00",
+      "storage_usd": ".004",
+      "total_usd": ".301"
+    },
+    {
+      "gpu_cloud_usd": ".592",
+      "start": "2026-10-19T19:00:00-07:00",
+      "storage_usd": ".006",
+      "total_usd": ".598"
+    }
+  ],
+  "hourly_rows_grouped_by_utc_day": {
+    "2026-10-20": {
+      "gpu_cloud_usd": "0.592",
+      "storage_usd": "0.006",
+      "total_usd": "0.598"
+    },
+    "2026-10-21": {
+      "gpu_cloud_usd": "1.665",
+      "storage_usd": "0.024",
+      "total_usd": "1.689"
+    },
+    "2026-10-23": {
+      "gpu_cloud_usd": "2.939",
+      "storage_usd": "0.113",
+      "total_usd": "3.052"
+    }
+  },
+  "implied_cumulative_credit_consumed_usd": "5.47",
+  "initial_account_credit_usd": "15.00",
+  "instant_per_pod_billing_view_verified": false,
+  "latest_visible_hour_start_pacific": "2026-10-23T16:00:00-07:00",
+  "new_paid_compute_authorized": false,
+  "no_more_screenshots_needed_for_offline_planning_now": true,
+  "one_millidollar_difference_consistent_with_separately_rounded_display_values": true,
+  "per_pod_final_charges_pending": true,
+  "post_1700_pacific_hour_visible": false,
+  "prior_balance_snapshot_usd": "9.56",
+  "provider_documentation": {
+    "api_does_not_document_a_zero_delay_billing_guarantee": true,
+    "balance_and_five_minute_processing": "https://docs.runpod.io/accounts-billing/billing",
+    "billing_history_api_with_explicit_rfc3339_range": "https://docs.runpod.io/api-reference-v2/billing/get-pod-billing-history",
+    "cli_current_balance_and_current_hourly_spend": "https://docs.runpod.io/runpodctl/reference/runpodctl-user"
+  },
+  "recorded_utc": "2026-10-24T01:25:54.056795+00:00",
+  "research_admitted": false,
+  "reservations_released": false,
+  "screenshots": {
+    "balance.png": {
+      "relative_path": "runs/pretrained/diagnostic/billing-followup-20261023-1820/balance.png",
+      "sha256": "aad19b0c05b4772ce320c4ff56f82eea41b3513135c1af3988b78a44d6f2fb82"
+    },
+    "calendar.png": {
+      "relative_path": "runs/pretrained/diagnostic/billing-followup-20261023-1820/calendar.png",
+      "sha256": "6823fc55bab616940db746ccdb70337502ee12963f6eff8062e2940500b3e6c0"
+    },
+    "daily.png": {
+      "relative_path": "runs/pretrained/diagnostic/billing-followup-20261023-1820/daily.png",
+      "sha256": "8a7d8fac42526eb08985a1a5f99f40eb3261af2e1625310a0328d700e7656016"
+    },
+    "hourly.png": {
+      "relative_path": "runs/pretrained/diagnostic/billing-followup-20261023-1820/hourly.png",
+      "sha256": "52be045f37a930d9f12bdbab0796f0a5347169e129d3424fa2d8bc3be43568a4"
+    }
+  },
+  "session_holds_retained_usd": [
+    "3.00",
+    "3.00",
+    "2.80"
+  ],
+  "status": "provisional_balance_and_partial_explorer_reconciliation",
+  "sum_of_displayed_hourly_rows": {
+    "gpu_cloud_usd": "5.196",
+    "storage_usd": "0.143",
+    "total_usd": "5.339"
+  },
+  "summary_date_filter_label": "Oct 1 -> 23"
+}

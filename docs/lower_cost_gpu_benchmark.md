@@ -1,10 +1,37 @@
 # Lower-cost GPU benchmark for the retained 20-class study
 
+**Current outcome:** the [migrated A40 screen](../report/checks/2026-10-23-a40-migrated-continuation.md)
+completed six of seven phases; the control phase timed out. Both Pods are
+user-confirmed terminated and evidence is copied/verified. There is no complete
+A40 cost projection or research admission. The [reconciled billing ledger](../report/checks/2026-10-23-runpod-billing-reconciliation.md)
+records $5.47 cumulative credit used and $9.53 wallet credit. Internal prior
+session reservations are settled; $4.53 conservatively remains in the shared
+$10 diagnostic allowance. Fresh budget metadata is required before a rental.
+The setup, active-host and launch-quote descriptions
+below are historical snapshots, not instructions to restart terminated hosts.
+
+Current October 23 A40 retry: the [portability controls](../report/checks/2026-10-23-a40-runtime-portability.md)
+record 507 passes/two rejected harness checks from the first setup. The separately
+pinned two-test repair passes both same-host controls; the complete 509-case suite
+now passes with zero skips on the same Pod. Same $0.61/hour quote, existing $2.80 hold
+and 2:58 PM Pacific absolute cutoff. No new hold or deadline reset. Billing
+remains active; pretrained economics and study admission remain pending.
+The preparation and earlier outcomes below are historical snapshots.
+
+Latest October 23 follow-up: the [university CPU retry](../report/checks/2026-10-23-university-cpu-recovery.md)
+is verified: 165 passed, zero skips, exit 0. Four saved CPU recoveries match
+exactly and the actual NFS4 probe confirms the checkpoint-lock repair.
+The [refreshed GPU package](../report/checks/2026-10-23-hardware-benchmark-refresh.md)
+is restored and verified, with six extracted CPU checks passing. Its proposed
+$2.80 hold fits the conservative $2.805 available balance. Check a fresh quote
+before deployment; do not reuse the October 22 source archive. A40 performance
+remains unmeasured.
+
 **October 23 outcome:** the user-deployed A40 at $0.61/hour all-in passed
 hardware/transfer checks, then setup rejected generated CPU replay/recovery
 tests. The pretrained screen did not start. Both evidence archives verify
 locally and the user confirmed termination; final charge remains pending.
-Repair CPU fixture initialization before another rental. See the
+The subsequent CPU repair is verified above. See the
 [verified rejection](../report/checks/2026-10-23-a40-setup-rejection.md).
 The preparation and proposed launch procedure below retain their original scope.
 
@@ -110,22 +137,35 @@ finishes or the GPU has a cheap hourly price.
 
 ## Offline handoff and launch boundary
 
+Current quote follow-up (October 23): the user reports an A40 available at
+$0.61/hour all-in with the requested 30/80 GB disks. Two running hours are
+$1.22 at that quote. Match the previous roughly 50 GB system RAM; report a
+substantially lower amount before deployment. No Pod has been deployed yet.
+Use `vjepa-cost-benchmark-05`, then provide its new SSH/public fingerprint and
+deployment time so the absolute deadline starts at actual deployment.
+
 Fresh local package:
-`runs/pretrained/diagnostic/hardware-benchmark-handoff-20261022/`.
+`runs/pretrained/diagnostic/hardware-benchmark-handoff-20261023/`.
+The October 22 package is historical and retains its original checksums.
 Its manifest pins source files, the original upstream Git objects, training
 cache files and existing non-torch Linux wheels. The checkpoint is downloaded
 only on the selected host and must match the original pinned SHA-256. Earlier
 handoff archives are not replaced. No private key, API token or model weights
 are included in source archives.
 
-The planned first session remains **at most two billed hours and $3 inclusive**.
-Prior confirmed pilot reports total $1.195; the previous $3 hold is retained
-until billing settles, leaving $5.805 unreserved. A proposed new $3 session
-fits that conservative balance; it is not a new charge or a reconciled bill.
-Refresh the ledger if any spending changes before deployment.
+The next retry is **at most two billed hours and $2.80 inclusive**. Both
+earlier $3 session holds remain unresolved, leaving a conservative $2.805
+unreserved pilot balance. A proposed $2.80 hold fits that balance; it becomes
+a reservation only if the next session is deployed. The launcher rejects a
+reservation larger than the available balance or smaller than two hours at
+the reviewed rate. It retains the existing $0.70/hour quote ceiling and
+manual deployment boundary. This lowers the old $3 maximum and does not add
+a charge or release an earlier hold. The displayed $3.930 aggregate remains
+unreconciled by Pod; do not add earlier partial summaries to it. Refresh this
+ledger if spending changes before deployment.
 
 Once the quote and availability are reviewed, use a fresh manual deployment
-named `vjepa-cost-benchmark-04`. Verify its new SSH public host fingerprint
+named `vjepa-cost-benchmark-05`. Verify its new SSH public host fingerprint
 before access, copy/verify the package and restore to a fresh `/workspace`
 directory. Never reuse a terminated Pod's endpoint or an earlier session's
 deadline. With the exact expected GPU name, current all-in rate and an absolute

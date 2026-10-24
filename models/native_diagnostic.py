@@ -18,6 +18,7 @@ from models.cuda_convolution import agreement
 from models.cuda_profile import file_hash, run_bounded, tensor_signature, write_json
 from models.diagnostics import state_digest
 from models.execution import ExecutionGuard, apply_model_policy, configure_execution
+from models.fixture_state import load_fixture_state, read_fixture_state, save_fixture_state
 from models.native_probe import native_backward_probe, validate_probe
 from models.runtime import synchronize
 from models.training import runtime_contract
@@ -26,7 +27,7 @@ from models.vjepa2 import FixedTargetVJEPA, MaskPair, build_vitl, load_checkpoin
 POLICIES = ('cudnn-fp32', 'native-fp32')
 TOLERANCES = {'clean_loss': {'rtol': 1e-5, 'atol': 2e-6},
               'input_gradient': {'rtol': 2e-3, 'atol': 2e-7}}
-SOURCES = ('models/native_diagnostic.py', 'models/native_probe.py', 'models/native_patch.py', 'models/execution.py',
+SOURCES = ('models/fixture_state.py', 'models/native_diagnostic.py', 'models/native_probe.py', 'models/native_patch.py', 'models/execution.py',
            'models/patch_embed.py', 'models/runtime.py', 'models/vjepa2.py', 'models/training.py',
            'models/diagnostics.py', 'models/pilot.py', 'models/checkpointing.py',
            'models/cuda_convolution.py', 'models/cuda_profile.py', 'attacks/pgd.py',
@@ -59,6 +60,19 @@ def tiny_fixture(upstream):
     return model, pixels, masks
 
 
+def save_tiny_fixture(upstream, path, *, seed=20261021):
+    """One initial checkpoint shared by fresh workers; preserve caller RNG/threads."""
+    threads = torch.get_num_threads()
+    try:
+        torch.set_num_threads(4)
+        with torch.random.fork_rng(devices=[]):
+            torch.random.default_generator.manual_seed(seed)
+            model, _, _ = tiny_fixture(upstream)
+            return save_fixture_state(model, path)
+    finally:
+        torch.set_num_threads(threads)
+
+
 def worker(args, root):
     started = time.monotonic()
     result = {'schema_version': 2, 'finished': False, 'passed': False, 'stage': 'configure',
@@ -85,7 +99,8 @@ def worker(args, root):
         write_json(args.result, result)
         if args.tiny:
             model, clean, masks_for = tiny_fixture(args.upstream)
-            data = {'fixture': 'tiny-upstream-model-and-generated-training-pixels-v1'}
+            initial = load_fixture_state(model, args.initial_fixture, args.initial_fixture_sha256)
+            data = {'fixture': 'tiny-upstream-model-and-generated-training-pixels-v2', 'initial_fixture': initial}
         else:
             plan = yaml.safe_load((Path(root) / 'configs/budget_study_plan.yaml').read_text())
             study_path = Path(root) / plan['parent_study']
@@ -174,12 +189,21 @@ def worker(args, root):
         write_json(args.result, result)
 
 
-def summarize(directory, tasks, expected_provenance, *, tiny):
+def summarize(directory, tasks, expected_provenance, *, tiny, initial_fixture=None):
     """Incomplete, mixed-runtime/source, or altered artifacts never pass."""
     directory = Path(directory).resolve()
     if (len(tasks) != 4 or {(t['policy'], t['replay']) for t in tasks} != {(p, i) for p in POLICIES for i in (0, 1)}
             or any(t['status'] != 'ok' for t in tasks)):
         raise ValueError('Four successful fresh-process workers are required.')
+    fixture_identity = None
+    if tiny:
+        if not initial_fixture or initial_fixture.get('file') != 'initial-fixture.pt':
+            raise ValueError('Pinned initial CPU fixture is required.')
+        _, fixture_identity = read_fixture_state(directory / initial_fixture['file'], initial_fixture['sha256'])
+        if {k:v for k,v in initial_fixture.items() if k != 'file'} != fixture_identity:
+            raise ValueError('Parent initial fixture identity differs.')
+    elif initial_fixture is not None:
+        raise ValueError('Generated fixture is not valid for a pretrained diagnostic.')
     workers, tensors = {}, {}
     for task in tasks:
         path = (directory / task['result']).resolve()
@@ -192,6 +216,9 @@ def summarize(directory, tasks, expected_provenance, *, tiny):
                 or contract['runtime']['model_execution']['policy'] != task['policy']
                 or contract['tolerances'] != TOLERANCES):
             raise ValueError('Worker evidence policy/source/scale differs or failed.')
+        if tiny and (contract['data'].get('initial_fixture') != fixture_identity
+                     or contract['weights_sha256'] != fixture_identity['state_sha256']):
+            raise ValueError('Worker did not use the pinned initial fixture.')
         tensor_path = (path.parent / value['tensors_file']).resolve()
         if not tensor_path.is_relative_to(directory) or file_hash(tensor_path) != value['tensors_sha256']:
             raise ValueError('Worker tensors path/hash changed.')
@@ -252,6 +279,10 @@ def run(args, root):
     write_json(session_path, session)
     started = time.monotonic()
     try:
+        if args.tiny:
+            identity = save_tiny_fixture(args.upstream, args.output / 'initial-fixture.pt')
+            session['initial_fixture'] = {'file': 'initial-fixture.pt', **identity}
+            write_json(session_path, session)
         # Fail a rejected native probe before repeating the expensive reference.
         for policy in reversed(POLICIES):
             for replay in (0, 1):
@@ -263,7 +294,8 @@ def run(args, root):
                     '--upstream', str(args.upstream.resolve()), '--device', args.device,
                     '--max-memory-gib', str(args.max_memory_gib)]
                 if args.tiny:
-                    command.append('--tiny')
+                    command += ['--tiny', '--initial-fixture', str((args.output/'initial-fixture.pt').resolve()),
+                                '--initial-fixture-sha256', session['initial_fixture']['sha256']]
                 else:
                     for key in ('checkpoint', 'clips', 'manifest'):
                         command += ['--' + key, str(getattr(args, key).resolve())]
@@ -276,7 +308,8 @@ def run(args, root):
                 write_json(session_path, session)
                 if task['status'] != 'ok':
                     raise RuntimeError('Worker failed/timed out; preserve evidence and inspect its log.')
-        session['comparison'] = summarize(args.output, session['tasks'], expected, tiny=args.tiny)
+        session['comparison'] = summarize(args.output, session['tasks'], expected, tiny=args.tiny,
+                                          initial_fixture=session.get('initial_fixture'))
         session['complete'] = True
         session['passed'] = session['comparison']['passed']
         if not session['passed']:

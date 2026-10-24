@@ -2,6 +2,155 @@
 
 ## Current stage
 
+BILLING RECONCILED October23 18:25Pacific: read
+report/checks/2026-10-23-runpod-billing-reconciliation.md/JSON. Six named Pod
+costs sum$5.4652, rounding toDetails total debits$5.47; latestwallet$9.53 plus
+debits=$15initialcredit. 01=$0.5978;02=$1.6882;03=$1.6444;04=$0.3282;
+05=$0.7499;migration=$0.4567. Latest05+ migrated=$1.2066(~$1.21).
+Three prior INTERNAL planning holds$3/$3/$2.80 are SETTLED against03/04/05
+family charges, all within reservations. Do not retain those holds as additional
+outstanding liabilities, and NEVER add historical overlapping totals. The old
+workflow02$0.603 was partial, not fullcost. Reconciled cumulative usage$5.47,
+shared$10diagnostic allowance remaining$4.53 conservatively. Wallet$9.53 is
+separate from diagnostic allowance. $200/$160 caps unchanged. Reconciliation
+is as of this Details screenshot; no immutable invoice precision/timestamps
+claimed. Both Pods user-confirmed terminated; do not infer active migration
+from a missing Deleted badge. No more billing screenshots needed now.
+Historical reports/pins and hardcoded frozen launch constants are unchanged:
+models/hardware_benchmark.py still has historicalUNRESERVED_PILOT_USD2.805.
+Before any future rental, refresh/review new budget metadata against this ledger;
+do not treat an old frozen launcher or this accounting update as authorization.
+Next work is OFFLINE preparation of missing-control measurement; no paid launch.
+
+October 23 migrated A40 session is FINISHED, PARTIAL, and BOTH PODS USER-CONFIRMED
+TERMINATED. Old b4gbn80bppspvx was removed earlier; migrated ct8vbln7ufn5g9 is
+now terminated. Exact stop times not supplied; named Pod charges are now reconciled
+against the Details and wallet snapshots above. Do not ask for termination again or restart any
+old endpoint. No running job or cloud rental is authorized by this snapshot.
+
+Read report/checks/2026-10-23-a40-migrated-continuation.md/JSON. Six of seven
+phases completed; controls timed out after 256.311 seconds at the fixed worker
+limit. PGD-50 has zero completed clips; FGSM/random not reached. Exit 1.
+Complete screen UNPASSED. No economic-screen.json, complete A40 projection,
+exact A40 optimizer recovery, research admission or held-out result. Never
+fill missing units with zero or combine another GPU's timing into an A40 pass.
+
+All 60 members of 419182206-byte export rehash, SHA
+a2c7de5655d3872d5ee625952fb11fb4ea5e31ee8f6be619feacedb0d35f39d0.
+23 wrapped records and 198 non-Markdown sources verify. All three preflight
+inputs0/4/7/six tensor files independently verify, including CPU FP64 original
+trained-projection oracles, unchanged pointwise gates and native CUDA evidence.
+Exact cross-backward tokens/FGSM/PGD5, maximum input-gradient error2.8313e-7,
+zero failed elements. Calibration recomputes. Both clean/adversarial two-update
+workflows have five verified scheduled receipts each; both feature/probe pairs
+are copied and locally recomputed. Target hash unchanged; no held-out accuracy.
+
+Median complete native primary/routine seconds189.554/6.908 (6/5 samples),
+clean/adversarial update seconds9.602/55.269 (2 each). Peak allocated clean/
+adversarial7.576/7.586GiB. These small diagnostic observations do not prove an
+8GiB university training fit or study throughput. Fresh actual-CUDA controls
+2PASS/zero skips,14.659s; frozen full CUDA-host suite509PASS/zero skips,
+1161.827s; separate operational guards20PASS. Expanded whole suite not rerun.
+
+Frozen science manifest e42164317e16fbf6e05f4143fd466f00105371284fc9e769d09d5c71ba82608a;
+released checkpoint5127726842bytes SHA
+5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012.
+Original setup exit124/failure evidence preserved; continuation did not rewrite
+scientific source. Ops source4e395b713ab3dc304a941afc9af2a618a400e01b7ffacc1c3e24d0b86f3d161c;
+package d564bbf1d65ddcf1294be9986e1c6858f277619b27776d0c61bc290e29fa4958.
+Actual runtime Python3.12.3/torch2.8.0+cu128/vision0.23.0+cu128, A40,50GB RAM.
+
+Raw runs/pretrained/diagnostic/a40-migrated-continuation-20261023 contains
+downloaded/extracted export, archive-verification.json, partial-verification.json,
+preflight-verification.json, feature-verification.json and features-live.
+Scoped /private/tmp/vjepa_a40_resume06_* helpers/proof sources are local only;
+do not reconnect to terminated hosts. Success-only verify_final.py was prepared
+but NOT run because the seventh phase did not complete; partial verifier passed.
+
+Prior running71minutes +remaining49 maximum, conservative migration start16:25,
+fixed cutoff17:14 Pacific/epoch1792800840 were NOT extended or reset. User quote
+$0.61/hour,30GB container/80GB /workspace. The historical$2.80 and both earlier$3 holds are now settled by the ledger
+above; no added hold. Historical$3.930 was an overlapping aggregate, not a new
+charge. Project cap$200/$160 compute unchanged. Next: use reconciled billing to
+review missing control measurement/affordable compute path offline, preserve
+20-class design and all gates. No paid launch from this partial result.
+
+**Earlier dated snapshots follow; pending actions below are historical.**
+
+Latest quote follow-up: the user reports one A40 available at $0.61/hour
+all-in for the same 30/80 GB disk request. Two running hours are $1.22 within
+the current $2.80 ceiling. The new offer's RAM is not supplied; match the
+previous roughly 50 GB or review a substantially lower offer before deployment.
+Offline handoff is verified and current launcher/repair code matches its
+manifest. Next user action: manually deploy vjepa-cost-benchmark-05, then send
+fresh exposed-TCP SSH, public host fingerprint and deployment time. No Pod has
+been launched, no proposed hold applied and no deployment-based deadline set.
+
+Latest October 23 preparation: read
+report/checks/2026-10-23-hardware-benchmark-refresh.md/JSON and
+docs/lower_cost_gpu_benchmark.md. Fresh hardware-benchmark-handoff-20261023
+has 270 sources, unchanged 100 training clips/23 wheels/upstream bundle; all
+395 archive members verify. Six extracted CPU checks pass, including the
+seven-phase screen, four current budget rejections and fresh adversarial
+shared-native recovery. Hardware module: 24 passes plus four final reservation
+rechecks. Full scientific suite was not repeated for this launch-accounting
+change (prior 503 local passes/two CUDA skips); future host needs full CUDA
+suite. Proposed new hold/max $2.80 fits conservative $2.805 unreserved; both
+earlier $3 holds remain. Nothing is newly reserved or billed until deployment.
+Use a fresh quote, system RAM, manual Pod name vjepa-cost-benchmark-05, new host
+fingerprint and deployment-based two-hour deadline. No paid instance started;
+A40 performance, GPU recovery and study admission remain pending. The subsequent quote/deployment boundary is recorded above. Keep old
+handoffs/rejected evidence and historical budget pins unchanged. Later status
+reports follow the immutable source snapshot; compare its own manifest.
+
+Latest October 23 verified outcome: read
+report/checks/2026-10-23-university-cpu-recovery.md/JSON. The university retry
+passes all 165 selected CPU checks with zero skips/errors/failures; exit 0.
+All 75 export members/269 source pins verify. Actual NFS4 probe reproduces
+write-only shared-lock EBADF; read/write shared and exclusive locks pass.
+Eight diagnostic workers reverify; all four clean/adversarial shared-backward
+fresh-process recoveries match exactly through update 6 after a split at 2
+(247 tensor + 1,527 other leaves each). This clears the selected Linux CPU
+fixture/locking gate only. Earlier rejected attempts and historical source
+pins remain. Next: refresh the cheap-GPU handoff and stale proposed launch
+reservation before requesting a fresh quote; no rental, A40 performance,
+full GPU recovery or study admission. Keep the conservative $2.805 balance,
+both earlier $3 holds and the unreconciled $3.930 displayed aggregate.
+
+Latest October 23 follow-up: read docs/checkpoint_lock_repair.md and
+report/checks/2026-10-23-checkpoint-lock-repair.md/JSON. The university CPU
+export verifies: 99 passed, 29 failed, zero skips. Eight replay workers and
+all twelve recovery initializations verify the pinned state. All failures
+report checkpoint shared-read EBADF; recovery is still rejected. Lock access
+changes from write-only a to read/write a+, preserving nonblocking flock,
+transactions and all scientific gates. Real POSIX record-lock regression
+reproduces the old failure; 165 affected checks pass and the full project
+suite has 503 passes/two actual-CUDA skips. New source-only cpu-locks-20261023
+handoff checks the actual filesystem/old-new lock access and all 165 cases
+with zero skips. University retry is pending; inspect its verified export
+before another rental. Preserve the rejected cpu-fixtures-20261023 run and
+historical pins. No new paid compute, GPU timing or admission; billing holds
+and caps remain. Later docs can follow the frozen source snapshot.
+
+Latest October 23 repair: read docs/cpu_fixture_repair.md and
+report/checks/2026-10-23-cpu-fixture-repair.md/JSON. Generated CPU parents freeze
+one initial checkpoint; native/precision workers and fresh recovery tests load
+its explicit SHA-256, with key/shape/dtype/finiteness audits before mutation.
+No random fallback, threshold relaxation or pretrained fixture override.
+Recovery workers deliberately start from different seeds before verified load.
+Local suite: 495 passed/two actual-CUDA skips. Three extracted checks pass;
+source/archive pins and local launcher guards/partial failure export verify.
+Twelve Mac controls do not reproduce the Intel/PyTorch 2.8 initialization
+discrepancy; low-level cause remains unproved. Frozen historical budget builder
+still rejects changed diagnostic source; positive tests use an isolated source
+fixture, and the historical reports/pins/YAML are unchanged. Next user action:
+copy the source-only cpu-fixture-repair-20261023 handoff plus checksum sidecar
+to the university Desktop folder and run scripts/university_cpu_fixtures.sh.
+128 selected CPU checks require zero skips; 25-minute test/28-minute outer caps,
+no visible GPUs or runtime installs. Linux execution remains pending. No cloud
+rental or new performance/admission claim. Later status docs may follow the
+frozen 262-source snapshot; compare its own manifest before execution.
+
 Latest October 23 outcome: the user-deployed A40 passed identity/runtime and
 immutable package checks at $0.61/hour all-in with 30/80 GB disks. Setup rejected:
 458 passed, one failed, 11 errors from one dependent CPU replay fixture, no skips.

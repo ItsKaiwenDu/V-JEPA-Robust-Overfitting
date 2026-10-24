@@ -1,0 +1,92 @@
+{
+  "account_arithmetic_matches": true,
+  "all_a40_pods_total_usd": "1.5348",
+  "both_original_and_migrated_pods_user_confirmed_terminated": true,
+  "conservative_cumulative_credit_usage_usd": "5.47",
+  "conservative_remaining_diagnostic_allowance_usd": "4.53",
+  "date": "2026-10-23",
+  "deletion_badge_absence_not_used_to_override_explicit_user_termination_confirmation": true,
+  "derived_wallet_from_shown_four_decimal_costs_usd": "9.5348",
+  "displayed_cost_subtotal_usd": "5.47",
+  "displayed_debits_plus_wallet_usd": "15.00",
+  "displayed_total_debits_usd": "5.47",
+  "earlier_assumed_workflow_02_charge_0_603_is_not_the_reconciled_full_pod_charge": true,
+  "earlier_rtx_5090_sessions_total_usd": "3.9304",
+  "exact_termination_times_still_unknown": true,
+  "future_paid_launch_requires_fresh_reviewed_budget_metadata": true,
+  "historical_reports_source_pins_and_frozen_launch_constants_unchanged": true,
+  "initial_account_credit_usd": "15.00",
+  "internal_planning_reservations_settled": [
+    {
+      "internal_reservation_usd": "3.00",
+      "scope": "vjepa-recovery-pilot-03",
+      "shown_charge_usd": "1.6444"
+    },
+    {
+      "internal_reservation_usd": "3.00",
+      "scope": "vjepa-cost-benchmark-04",
+      "shown_charge_usd": "0.3282"
+    },
+    {
+      "internal_reservation_usd": "2.80",
+      "scope": "vjepa-cost-benchmark-05 plus migration",
+      "shown_charge_usd": "1.2066"
+    }
+  ],
+  "last_wallet_screenshot_available_credit_usd": "9.53",
+  "latest_original_and_migrated_a40_combined_cost_usd": "1.2066",
+  "migration_row_deletion_badge_not_visible_in_details_view": true,
+  "new_paid_compute_authorized": false,
+  "older_partial_daily_summaries_superseded_not_added": true,
+  "planned_compute_cap_usd": "160.00",
+  "pod_values_are_display_precision_not_an_assertion_of_invoice_precision": true,
+  "pods": [
+    {
+      "creation_local_date": "2026-10-19",
+      "gpu": "RTX 5090",
+      "name": "vjepa-pilot-01",
+      "shown_cost_usd": "0.5978"
+    },
+    {
+      "creation_local_date": "2026-10-21",
+      "gpu": "RTX 5090",
+      "name": "vjepa-workflow-pilot-02",
+      "shown_cost_usd": "1.6882"
+    },
+    {
+      "creation_local_date": "2026-10-22",
+      "gpu": "RTX 5090",
+      "name": "vjepa-recovery-pilot-03",
+      "shown_cost_usd": "1.6444"
+    },
+    {
+      "creation_local_date": "2026-10-23",
+      "gpu": "A40",
+      "name": "vjepa-cost-benchmark-04",
+      "shown_cost_usd": "0.3282"
+    },
+    {
+      "creation_local_date": "2026-10-23",
+      "gpu": "A40",
+      "name": "vjepa-cost-benchmark-05",
+      "shown_cost_usd": "0.7499"
+    },
+    {
+      "creation_local_date": "2026-10-23",
+      "gpu": "A40",
+      "name": "vjepa-cost-benchmark-05-migration",
+      "shown_cost_usd": "0.4567"
+    }
+  ],
+  "project_cap_usd": "200.00",
+  "recorded_utc": "2026-10-24T01:28:45.669192+00:00",
+  "remaining_unsettled_internal_reservation_usd": "0.00",
+  "research_admitted": false,
+  "reservation_settlement_does_not_change_provider_wallet_or_issue_a_refund": true,
+  "screenshot_local_label": "2026-10-23T18:25:57-07:00",
+  "screenshot_relative_path": "runs/pretrained/diagnostic/billing-reconciliation-20261023-182557/resource-details.png",
+  "screenshot_sha256": "f33b310f93a31e1df0c60a9825de9d63887beec5d86b33b06ac6a424662a4d24",
+  "shared_diagnostic_allowance_usd": "10.00",
+  "status": "per_pod_amounts_and_account_balance_reconciled_as_of_snapshot",
+  "sum_of_shown_four_decimal_pod_costs_usd": "5.4652"
+}

@@ -1,0 +1,190 @@
+{
+  "current_user_quote_review": {
+    "all_in_running_usd_per_hour": 0.61,
+    "available": true,
+    "check_against_previous_about_50gb_before_deploying": true,
+    "container_gb": 30,
+    "count": 1,
+    "deployment_based_deadline_not_set": true,
+    "deployment_started": false,
+    "earlier_holds_retained_usd": [
+      3,
+      3
+    ],
+    "fresh_host_identity_not_available_yet": true,
+    "gpu": "NVIDIA A40",
+    "persistent_gb": 80,
+    "persistent_mount": "/workspace",
+    "pod_name": "vjepa-cost-benchmark-05",
+    "proposed_hold_applied": false,
+    "proposed_session_ceiling_usd": 2.8,
+    "reviewed_unix_seconds": 1792785239,
+    "running_cost_for_two_hours_usd": 1.22,
+    "source": "User-reported current Runpod console",
+    "system_ram_not_yet_reported_for_new_offer": true
+  },
+  "date": "2026-10-23",
+  "diagnostic_only": true,
+  "gpu_started": false,
+  "kind": "refreshed_offline_lower_cost_gpu_handoff_after_verified_linux_cpu_repair",
+  "linux_cpu_acceptance": {
+    "exit_status": 0,
+    "failures": 0,
+    "passed": 165,
+    "report": "report/checks/2026-10-23-university-cpu-recovery.json",
+    "scope": "Generated CPU fixtures and NFS4 checkpoint recovery; not a GPU benchmark.",
+    "sha256": "07fcd9f5d19b9e7689ac6247b962752669c856722e3b56e2f7ba2ec571ac840b",
+    "skips": 0
+  },
+  "next_user_action": "Match the current A40 quote/configuration and roughly 50 GB system RAM; manually deploy vjepa-cost-benchmark-05, then supply fresh exposed-TCP SSH, public host fingerprint and deployment time. If RAM is substantially lower, report it before deploying.",
+  "package": {
+    "archive_bytes": 815185799,
+    "current_proposed_contract_example_only_not_live_quote": {
+      "cloud_billing_stopped_by_runner": false,
+      "deadline_epoch": 107200,
+      "earlier_session_holds_pending_reconciliation_usd": [
+        3,
+        3
+      ],
+      "expected_gpu": "NVIDIA A40",
+      "ledger_date": "2026-10-23",
+      "maximum_billed_hours": 2,
+      "maximum_inclusive_session_usd": 2.8,
+      "new_reservation_exceeds_available_pilot_usd": false,
+      "prior_unreserved_pilot_usd": 2.805,
+      "proposed_session_hold_usd": 2.8,
+      "quoted_hourly_usd": 0.61,
+      "research_admitted": false
+    },
+    "date": "2026-10-23",
+    "diagnostic_only": true,
+    "exact_gpu_optimizer_recovery_checked": false,
+    "extracted_cpu_tests": {
+      "errors": "0",
+      "failures": "0",
+      "hostname": "Kaiwens-MacBook-Pro.local",
+      "name": "pytest",
+      "skipped": "0",
+      "tests": "6",
+      "time": "37.373",
+      "timestamp": "2026-10-23T12:48:04.840916-07:00"
+    },
+    "full_cuda_suite_and_fresh_host_checks_pending": true,
+    "gpu_benchmark_performed": false,
+    "handoff_files_sha256": {
+      "manifest.json": "02cbfe7b922351cce9a48acc7b17820e9c074e07d7e2210d136e86ea8f558d27",
+      "restore.py": "d25f0e1f085bb7addcfc855986c7bf984765990cb473be9d5315f5399696a9db",
+      "source.tar.gz": "c832dc0328db071229607eeb4b162fe9a630ce57728c7ac69ec02c4d2327d1f0",
+      "training.tar.gz": "0afaf2257094f5cee1cd464e3ea065dea3b90aeab91203e89a37ad514edd72e2",
+      "upstream.bundle": "be402e349761940e6cb0217cdbfdf83915e5ab5bd110ed61563bd0ca3e423c11",
+      "wheels.tar.gz": "a76b5acff4a709b63badca7b67966681069c85b0743492766f0368d615a4e766"
+    },
+    "hardware_screen_phases": [
+      "preflight",
+      "calibrate",
+      "features-initial",
+      "clean-finetune/reference",
+      "adversarial-finetune/reference",
+      "features-trained",
+      "controls"
+    ],
+    "held_out_pixels_included": false,
+    "launcher_metadata_matches_current_reservation_contract": true,
+    "manifest_sha256": "02cbfe7b922351cce9a48acc7b17820e9c074e07d7e2210d136e86ea8f558d27",
+    "new_paid_rental_started": false,
+    "offline_wheels": 23,
+    "old_manifest_unchanged": true,
+    "path": "runs/pretrained/diagnostic/hardware-benchmark-handoff-20261023",
+    "research_admitted": false,
+    "restored_source_training_wheel_members_verified": 395,
+    "source_bytes": 686827,
+    "source_files": 270,
+    "source_sha256": "c832dc0328db071229607eeb4b162fe9a630ce57728c7ac69ec02c4d2327d1f0",
+    "training_archive_and_102_member_pins_unchanged": true,
+    "training_clips": 100,
+    "verified_cpu_report_sha256": "07fcd9f5d19b9e7689ac6247b962752669c856722e3b56e2f7ba2ec571ac840b"
+  },
+  "remaining_gpu_gates": [
+    "Fresh quote, host RAM and current accounting review",
+    "Fresh manual deployment and verified host fingerprint",
+    "Deployment-based deadline, full CUDA suite and seven-phase cost screen",
+    "Separate new-GPU optimizer recovery if the economic screen is promising",
+    "Data/calibration/protocol/budget admission before research"
+  ],
+  "research_admitted": false,
+  "reservation_update": {
+    "cloud_billing_stopped_by_launcher": false,
+    "current_conservative_unreserved_usd": 2.805,
+    "earlier_holds_retained_usd": [
+      3,
+      3
+    ],
+    "hold_applied_now": false,
+    "latest_user_displayed_aggregate_usd": 3.93,
+    "new_proposed_hold_usd": 2.8,
+    "new_running_quote_is_pending": true,
+    "old_available_usd": 5.805,
+    "old_proposed_hold_usd": 3,
+    "per_pod_billing_reconciled": false,
+    "reviewed_all_in_rate_ceiling_usd": 0.7,
+    "running_allowance_at_rate_ceiling_usd": 1.4,
+    "session_hours_maximum": 2
+  },
+  "source_sha256": {
+    "models/checkpointing.py": "edc5940bc73db42c89b3494be9b0f2098680762f4fa972305f51abe47c3d8373",
+    "models/fixture_state.py": "4f1d891a26caf35a9c42f802e84f650e2e0c7dc0857369794bfef65e54c487d2",
+    "models/hardware_benchmark.py": "059f64d42559588dab64955caa235a3ac23fa3f18e7cb1c98f515f4cda05da3c",
+    "models/native_diagnostic.py": "c56b29496397d5516416a884ab591ec6de43e0fc4dca1bc05536234e10ea75d9",
+    "models/precision_diagnostic.py": "c096e38bf53c4cdc0273a74f3fd0e4be0c1fc197925a71cfa9d633d192bb7d00",
+    "scripts/start_hardware_benchmark.sh": "6063051307b1acb00304247acf4a17db9f609729e72c34f84bccc0f66718f076",
+    "tests/fixtures/shared_recovery_worker.py": "12444cb91f7a7ea75f16cb82bca8c9445890a1df7d396485d623bebdc0d352b3",
+    "tests/test_hardware_benchmark.py": "456230965bb7a8c2f002e0e6a0162c27fcfb62258ef46949e8d6d68cdc0a4707"
+  },
+  "unchanged": {
+    "economic_projection_formula_ast": true,
+    "held_out_pixels_opened": false,
+    "numerical_and_attack_thresholds": true,
+    "prior_failed_archives_and_reports": true,
+    "prior_handoff_manifest": true,
+    "seven_phase_profile_and_no_exact_gpu_recovery_claim": true,
+    "study_yaml_and_historical_budget_pins": true,
+    "training_pixels_and_metadata": true
+  },
+  "validation": {
+    "actual_launcher_metadata_contains_the_current_reservation": true,
+    "all_source_training_wheel_members_verified": true,
+    "bash_syntax_verified": true,
+    "extracted_checks": {
+      "errors": "0",
+      "failures": "0",
+      "hostname": "Kaiwens-MacBook-Pro.local",
+      "name": "pytest",
+      "skipped": "0",
+      "tests": "6",
+      "time": "37.373",
+      "timestamp": "2026-10-23T12:48:04.840916-07:00"
+    },
+    "extracted_checks_cover_all_four_current_reservation_rejections": true,
+    "extracted_checks_cover_fresh_adversarial_shared_native_cpu_recovery": true,
+    "extracted_checks_cover_real_seven_phase_cpu_screen": true,
+    "final_reservation_cases_rechecked": {
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "4",
+      "time": "1.231"
+    },
+    "full_project_suite_rerun_for_launch_accounting_change": false,
+    "hardware_module_checks": {
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "24",
+      "time": "30.357"
+    },
+    "previous_full_local_suite_before_launch_accounting_change": {
+      "actual_cuda_skips": 2,
+      "passed": 503
+    }
+  }
+}

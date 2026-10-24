@@ -36,9 +36,18 @@ def test_quote_deadline_contract_rejects_before_launch(rate,seconds):
 
 def test_quote_contract_keeps_budget_reservation_and_no_auto_billing_control():
     r=validate_launch('NVIDIA RTX A5000',.29,100000,107200)
-    assert r['maximum_billed_hours']==2 and r['maximum_inclusive_session_usd']==3
+    assert r['maximum_billed_hours']==2 and r['maximum_inclusive_session_usd']==2.80
+    assert r['prior_unreserved_pilot_usd']==2.805 and r['earlier_session_holds_pending_reconciliation_usd']==[3,3]
     assert r['proposed_session_hold_usd']<=r['prior_unreserved_pilot_usd']
     assert not r['cloud_billing_stopped_by_runner'] and not r['research_admitted']
+
+
+@pytest.mark.parametrize('available,hold', [(2.805,3),(2.805,1.0),(2.805,float('nan')),(float('inf'),2.80)])
+def test_unaffordable_or_invalid_pilot_reservation_rejects_before_launch(monkeypatch,available,hold):
+    monkeypatch.setattr('models.hardware_benchmark.UNRESERVED_PILOT_USD',available)
+    monkeypatch.setattr('models.hardware_benchmark.SESSION_HOLD_USD',hold)
+    with pytest.raises(ValueError,match='conservative pilot balance'):
+        validate_launch('NVIDIA A40',.61,100000,107200)
 
 
 def evidence_units():

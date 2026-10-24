@@ -55,7 +55,9 @@ class CheckpointStore:
 
     @contextmanager
     def _lock(self, exclusive):
-        with (self.root / '.writer.lock').open('a') as handle:
+        # NFS maps flock to record locks: shared reads require a readable fd.
+        # Read/write append preserves the lock inode and existing contents.
+        with (self.root / '.writer.lock').open('a+') as handle:
             mode = fcntl.LOCK_EX if exclusive else fcntl.LOCK_SH
             fcntl.flock(handle, mode | fcntl.LOCK_NB)
             try:

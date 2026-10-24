@@ -1,6 +1,28 @@
 # Scientific acceptance tests
 
-The last full local suite run recorded **434 passes with two actual-CUDA skips**.
+The [A40 portability controls](../report/checks/2026-10-23-a40-runtime-portability.md)
+retain the original 507-pass/two-failure result. A positive CPU profiler fixture
+now has finite shared-filesystem startup headroom; separate timeout/kill tests
+are unchanged. The budget fixture checks native-runtime repeatability and
+explicit historical summation with exact equality. All 39 relevant local and
+extracted checks, and both A40 positive controls, pass. The complete replacement CUDA-host suite now passes all 509 cases with
+zero skips/errors/failures in 1161.827s; JUnit/runtime copies verify.
+
+The latest [university CPU retry](../report/checks/2026-10-23-university-cpu-recovery.md)
+passes all 165 selected cases with zero skips and exit 0. Saved gradient/attack
+and fresh-process optimizer/RNG recovery tensors verify independently. This
+clears the selected CPU fixture/filesystem gate only; CUDA acceptance remains
+separate. The earlier 29 checkpoint-lock errors below remain historical.
+
+Latest October 23 local suite: **503 passed with two actual-CUDA skips**.
+The [university CPU follow-up](../report/checks/2026-10-23-checkpoint-lock-repair.md)
+records 99 passes/29 rejected checkpoint read-lock errors. Eight new locking
+checks cover POSIX record-lock access, independent reader/writer contention,
+release and propagated errors. The fresh university retry requires all 165
+selected cases with zero skips before another paid GPU setup. The historical
+CUDA results below retain their original suite sizes and source snapshots.
+
+The October 22 full local suite run recorded **434 passes with two actual-CUDA skips**.
 The [October 22 CUDA workflow](../report/checks/2026-10-22-shared-forward-cuda-workflow.md)
 runs all **436 tests** with zero failures/errors/skips on the selected host.
 Both bounded pretrained clean/adversarial two-update recovery comparisons

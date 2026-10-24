@@ -1,0 +1,195 @@
+{
+  "change": "Generated CPU fresh-process workers load the same explicitly pinned initial state; seeded construction is no longer assumed to establish identical inputs.",
+  "checkpoint_guards": {
+    "byte_cap": 16777216,
+    "capture_preserves_rng_and_threads": true,
+    "complete_key_shape_dtype_and_finiteness_audit_before_mutation": true,
+    "full_adamw_weights_rng_history_and_continuation_compared_exactly": true,
+    "generated_cpu_worker_scope_only": true,
+    "logical_state_sha256": true,
+    "mandatory_file_sha256": true,
+    "no_random_initialization_fallback": true,
+    "parent_and_worker_identity_binding": true,
+    "recovery_workers_use_deliberately_different_construction_seeds": true
+  },
+  "compute": {
+    "a40_termination_already_user_confirmed": true,
+    "aggregate_is_a_per_pod_receipt": false,
+    "conservative_unreserved_pilot_usd": 2.805,
+    "latest_user_displayed_aggregate_usd": 3.93,
+    "new_cloud_rental_or_gpu_job_started": false,
+    "per_pod_billing_reconciled": false,
+    "planned_compute_cap_usd": 160,
+    "prior_and_current_holds_usd": [
+      3,
+      3
+    ],
+    "project_cap_usd": 200
+  },
+  "construction_control": {
+    "native_probe": [
+      false,
+      true
+    ],
+    "processes": 12,
+    "same_initial_state_in_all_local_processes": true,
+    "scope": "Unmodified small factory on this Mac. The different Intel/PyTorch 2.8 host cause was not reproduced or attributed to a particular primitive.",
+    "threads": [
+      1,
+      2,
+      4
+    ],
+    "torch": "2.14.1"
+  },
+  "date": "2026-10-23",
+  "diagnostic_only": true,
+  "handoff": {
+    "archive": "vjepa-cpu-fixtures.tar.gz",
+    "archive_members": 264,
+    "checksum_sidecar": "vjepa-cpu-fixtures.tar.gz.sha256",
+    "cpu_visible_gpus": 0,
+    "expected_linux_tests": 128,
+    "linux_execution_performed": false,
+    "local_suite": {
+      "errors": "0",
+      "failures": "0",
+      "skipped": "2",
+      "tests": "497",
+      "time": "268.344"
+    },
+    "manifest_sha256": "bedcf6e4da90e696f7649d240f0f97b1307d7cc4864fc3a08e5b7fcc145e9ccf",
+    "newer_curated_status_reports_may_follow_the_frozen_source_snapshot": true,
+    "outer_cap_seconds": 1680,
+    "pretrained_weights_included": false,
+    "relative_path": "runs/pretrained/diagnostic/cpu-fixture-repair-20261023",
+    "restored_member_hashes_verified": true,
+    "runtime_dependency_installations": false,
+    "source_files": 262,
+    "source_manifest_files_verified": 263,
+    "source_only": true,
+    "test_cap_seconds": 1500,
+    "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+    "video_pixels_included": false
+  },
+  "historical_budget_builder": {
+    "current_scientific_source_requires_new_review_before_reusing_historical_builder": true,
+    "historical_files_repinned": false,
+    "historical_variant_arithmetic_reproduced": true,
+    "positive_unit_case_uses_isolated_declared_source_fixture": true,
+    "real_changed_tree_rejected": true,
+    "real_source_guard_preserved": true
+  },
+  "intel_initialization_root_cause_identified": false,
+  "kind": "cpu_fixture_initial_checkpoint_repair_and_verified_offline_handoff",
+  "launcher_checks": {
+    "changed_sources_rejected": true,
+    "embedded_python_compiles": true,
+    "partial_junit_timeout_export_verified": true,
+    "shell_syntax": true,
+    "unreviewed_torch_runtime_rejected": true,
+    "valid_sources_accepted": true
+  },
+  "linux_pytorch_28_execution_performed": false,
+  "linux_pytorch_28_validation_passed": false,
+  "local_validation_passed": true,
+  "new_gpu_timing_or_memory_fit_available": false,
+  "next_action": "User copies the archive and checksum sidecar to the existing university Desktop folder and starts the detached CPU precheck; inspect/verify its export before another paid deployment.",
+  "original_small_factory_changed": false,
+  "pretrained_loading_branches_changed": false,
+  "provenance": {
+    "raw_directory": "runs/pretrained/diagnostic/cpu-fixture-repair-20261023",
+    "source_sha256": {
+      "models/fixture_state.py": "4f1d891a26caf35a9c42f802e84f650e2e0c7dc0857369794bfef65e54c487d2",
+      "models/native_diagnostic.py": "c56b29496397d5516416a884ab591ec6de43e0fc4dca1bc05536234e10ea75d9",
+      "models/precision_diagnostic.py": "c096e38bf53c4cdc0273a74f3fd0e4be0c1fc197925a71cfa9d633d192bb7d00",
+      "scripts/check_native_model.py": "e096fa03f0691f0ba6a44eab9be5ef264b167f4b6384e52d8c30dcf81866b55e",
+      "scripts/check_precision.py": "ab1c80d49fdf0efdbbb27c438e4d3374257f6f66596f68eea2d5c68b921fc719",
+      "scripts/university_cpu_fixtures.sh": "4af362fe5771306651ed33df39e011eae86ed1f4f6154979e0475ca39368af63",
+      "tests/fixtures/shared_recovery_worker.py": "12444cb91f7a7ea75f16cb82bca8c9445890a1df7d396485d623bebdc0d352b3",
+      "tests/test_fixture_state.py": "e0d3ef71d123667b417017b51ad589e0d2f22878ca6879d8a49614e4d721df65",
+      "tests/test_measured_budget.py": "8d46f5cb15d28634c87b4019167790bafb3e5bfbcb354cb550ae6d4e13b309e1",
+      "tests/test_native_diagnostic.py": "8267c4f27c83a7890754a032d75cd5fd6be97a58069b2fec5d5e843acfa103fb",
+      "tests/test_precision_patch.py": "8dbfffbe2c1ceccc0f7bd9d37b47b0d8c3860fc9006a63c68457f57ff8712cca",
+      "tests/test_shared_execution.py": "a45a7d7498d0d9c77c9d17317b380effb94ac7bfb7911239db52154f6fbe7636"
+    },
+    "unchanged_ast_checks": [
+      "models/native_diagnostic.py:tiny_fixture",
+      "models/native_diagnostic.py:pretrained-loading-branch",
+      "models/precision_diagnostic.py:projection_check",
+      "models/precision_diagnostic.py:native_probe",
+      "models/precision_diagnostic.py:validate_contract",
+      "models/precision_diagnostic.py:same_report",
+      "models/precision_diagnostic.py:pretrained-loading-branch",
+      "models/native_diagnostic.py:TOLERANCES",
+      "models/native_diagnostic.py:POLICIES"
+    ],
+    "unchanged_files_sha256": {
+      "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+      "configs/budget_study_plan.yaml": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+      "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+      "models/evaluation.py": "1431951d158b57b615208006edb5365a6bad910b2a14e0aa782a1c6f82034089",
+      "models/execution.py": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba",
+      "models/native_patch.py": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7",
+      "models/precision_patch.py": "30e8a6b28b8f082fd771aaeab5a70a73cf200714ef2b24416a55938f61e9c550",
+      "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+      "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+      "models/workflow_preflight.py": "7d382d8e3b80c7ce0f667610bdb909518624c29958b9ab70595228a5adaa46db",
+      "report/checks/2026-10-22-measured-budget-review.json": "427c0e9f4e05e1c3eb0f441d74f43630c6e627fadac1437843410aad471f7128",
+      "report/checks/2026-10-22-shared-forward-cuda-workflow.json": "b8b7b9ad70b1d74abf8deecf4d1385f9ce1c5c23d9557afd016214b9bff4f027",
+      "report/checks/2026-10-23-a40-setup-rejection.json": "b9bddb4ec4961cb60c195a7157bb9c8e883e0f4aaca10d7dac0ad4a454b412ae"
+    },
+    "verification_files_sha256": {
+      "independent-verification.json": "33ee0f762d1a4ada70b4c61943918bdb05ef94725506e8fd4d7d61c2c08ab1f0",
+      "preparation.json": "821e6bddeb21b3680b8ac0deca4617166e379ce91e96b9c0d930e71aca3bed1e",
+      "restored-tests.xml": "57aa0c5a0c7b4b13c25f7e7d50b0338b152e23dcf73a8191eb0baefe262ea489",
+      "verification-source/sha256.json": "6c269252b32f10ea519ff51f89da323603336a8dd9b798799e9e15b4f5a11ff2",
+      "vjepa-fixture-full-final-20261023.xml": "c859a79502904f3bf935125cae99783ac14897e3643a0a26012284a8eec9fc78"
+    }
+  },
+  "research_admitted": false,
+  "scientific_thresholds_changed": false,
+  "testing": {
+    "actual_cuda_skips_only": true,
+    "affected_before_final_additions": {
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "87",
+      "time": "92.852"
+    },
+    "extracted_source_checks": {
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "3",
+      "time": "13.431"
+    },
+    "final_full_suite": {
+      "errors": "0",
+      "failures": "0",
+      "skipped": "2",
+      "tests": "497",
+      "time": "268.344"
+    },
+    "final_passed": 495,
+    "final_skipped": 2,
+    "initial_full_failure": "A legacy positive budget-builder test assumed current files still equal the frozen October 22 source hashes; production source guard correctly rejected changed diagnostic code.",
+    "initial_full_suite": {
+      "errors": "0",
+      "failures": "1",
+      "skipped": "2",
+      "tests": "496",
+      "time": "269.486"
+    },
+    "initial_loader_checks": {
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "16",
+      "time": "1.230"
+    },
+    "linux_precheck_requires_zero_skips": true,
+    "linux_precheck_targets": 128
+  },
+  "timezone": "America/Los_Angeles"
+}

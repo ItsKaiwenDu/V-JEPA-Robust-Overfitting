@@ -1,0 +1,307 @@
+{
+  "actual_university_lock_probe": {
+    "checks": {
+      "a exclusive": {
+        "acquired": true
+      },
+      "a shared": {
+        "acquired": false,
+        "errno": 9,
+        "error": "[Errno 9] Bad file descriptor"
+      },
+      "a+ exclusive": {
+        "acquired": true
+      },
+      "a+ shared": {
+        "acquired": true
+      }
+    },
+    "contents_unchanged": true,
+    "filesystem_path": "/DCNFS/users/student/kdu/Desktop/VJEPA-Robust-Overfitting/cpu-locks-20261023/runs/cpu-fixtures.q8YbFO",
+    "schema_version": 1
+  },
+  "all_165_checks_passed_with_zero_skips": true,
+  "archive": {
+    "bytes": 92848738,
+    "sha256": "a14319354225614ed1a794ee0052276b07aae69acd081bf191377bf40bb34820"
+  },
+  "archive_members": 75,
+  "compute": {
+    "conservative_unreserved_pilot_usd": 2.805,
+    "latest_displayed_aggregate_usd": 3.93,
+    "new_cloud_rental_or_gpu_job_started": false,
+    "per_pod_billing_reconciled": false,
+    "planned_compute_cap_usd": 160,
+    "project_cap_usd": 200,
+    "retained_earlier_session_holds_usd": [
+      3,
+      3
+    ]
+  },
+  "cpu_replay_comparisons": {
+    "native-workers0": {
+      "comparison": {
+        "attacks_compared_for_exact_replay_only_within_each_backend": true,
+        "cross_backend": {
+          "clean_loss": {
+            "atol": 2e-06,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 1e-05,
+            "shape": []
+          },
+          "input_gradient": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              3,
+              4,
+              16,
+              16
+            ]
+          }
+        },
+        "full_model_optimizer_or_recovery_validated": false,
+        "passed": true,
+        "single_attempt_seconds": {
+          "cudnn-fp32": {
+            "clean_loss_and_input_backward": 0.058625871781259775,
+            "fgsm": 0.059954233933240175,
+            "pgd5": 0.17819251492619514
+          },
+          "native-fp32": {
+            "clean_loss_and_input_backward": 0.034417315851897,
+            "fgsm": 0.06097945012152195,
+            "pgd5": 0.18219235492870212
+          }
+        },
+        "tiny_fixture": true,
+        "within_backend_exact_replay": {
+          "cudnn-fp32": true,
+          "native-fp32": true
+        }
+      },
+      "fresh_workers": 4,
+      "initial_fixture": {
+        "bytes": 3772611,
+        "file": "initial-fixture.pt",
+        "kind": "generated-cpu-fixture-initial-state-v1",
+        "sha256": "1f61f2606a691640a72d4109bb2a8b322eb1fa77ee311cc5b31281949c170837",
+        "state_sha256": "ff8ea97cf28e80a45f92c693c4349656a5b0e705a7843cacda95af0884aac465"
+      },
+      "passed": true
+    },
+    "precision-workers0": {
+      "comparison": {
+        "cross_backward": {
+          "clean_loss": {
+            "atol": 2e-06,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 1e-05,
+            "shape": []
+          },
+          "input_gradient": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 0.0,
+            "max_tolerance_ratio": 0.0,
+            "passed": true,
+            "relative_l2_error": 0.0,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              3,
+              4,
+              16,
+              16
+            ]
+          }
+        },
+        "full_model_optimizer_or_recovery_validated": false,
+        "historical_fp32_failures_preserved": true,
+        "passed": true,
+        "reference": "shared FP64 patch forward / FP32 tokens / cuDNN FP32 backward",
+        "shared_forward_tokens_bitwise_equal": true,
+        "single_attempt_seconds": {
+          "cudnn": {
+            "clean_loss_and_input_backward": 0.031472230795770884,
+            "fgsm": 0.06127246469259262,
+            "oracle_control": 0.03649734891951084,
+            "pgd5": 0.18758033122867346
+          },
+          "native": {
+            "clean_loss_and_input_backward": 0.031400322914123535,
+            "fgsm": 0.0613946788944304,
+            "oracle_control": 0.03650378994643688,
+            "pgd5": 0.18074876721948385
+          }
+        },
+        "study_adopted": false,
+        "within_backend_fresh_process_exact": {
+          "cudnn": true,
+          "native": true
+        }
+      },
+      "fresh_workers": 4,
+      "initial_fixture": {
+        "bytes": 3772611,
+        "file": "initial-fixture.pt",
+        "kind": "generated-cpu-fixture-initial-state-v1",
+        "sha256": "1f61f2606a691640a72d4109bb2a8b322eb1fa77ee311cc5b31281949c170837",
+        "state_sha256": "ff8ea97cf28e80a45f92c693c4349656a5b0e705a7843cacda95af0884aac465"
+      },
+      "passed": true
+    }
+  },
+  "date": "2026-10-23",
+  "diagnostic_only": true,
+  "exit_status": 0,
+  "filesystem": "nfs4",
+  "gpu_benchmark_performed": false,
+  "independent_verification_sha256": "b9821ff20d7556a1c6b45efe35052f9dfad25de7315e7268ec78f7d78123d4b1",
+  "kind": "verified_university_cpu_fixture_replay_and_checkpoint_recovery",
+  "new_cloud_rental_or_gpu_job_started": false,
+  "next_action": "Refresh the offline lower-cost GPU package with verified fixture/lock changes and current reservation accounting, then review a new console quote before deployment.",
+  "old_rejected_evidence_not_modified": true,
+  "passed": true,
+  "pretrained_gpu_timing_memory_fit_and_recovery_on_a40_verified": false,
+  "prior_rejected_cpu_and_gpu_attempts_preserved": true,
+  "recovery_comparisons": [
+    {
+      "case": "test_fresh_process_training_re0",
+      "condition": "clean-finetune",
+      "exact_comparison_counts": {
+        "other_leaves": 1527,
+        "tensor_elements": 1583550,
+        "tensor_leaves": 247
+      },
+      "execution_policy": "shared-fp64-cudnn",
+      "final_step": 6,
+      "full_model_optimizer_rng_history_and_continuation_equal": true,
+      "initial_fixture": {
+        "bytes": 3772611,
+        "kind": "generated-cpu-fixture-initial-state-v1",
+        "sha256": "f943af3c33092d87c85adb8867af3bab873d7d394facb9042da4a286e36b0aa4",
+        "state_sha256": "73fb4c2219ca1defb7409f8da76b4407c198b3fe1ee40400ad1a441df0234b6a"
+      },
+      "split_step": 2,
+      "three_different_constructions_load_identical_state": true
+    },
+    {
+      "case": "test_fresh_process_training_re1",
+      "condition": "clean-finetune",
+      "exact_comparison_counts": {
+        "other_leaves": 1527,
+        "tensor_elements": 1583550,
+        "tensor_leaves": 247
+      },
+      "execution_policy": "shared-fp64-native",
+      "final_step": 6,
+      "full_model_optimizer_rng_history_and_continuation_equal": true,
+      "initial_fixture": {
+        "bytes": 3772611,
+        "kind": "generated-cpu-fixture-initial-state-v1",
+        "sha256": "f943af3c33092d87c85adb8867af3bab873d7d394facb9042da4a286e36b0aa4",
+        "state_sha256": "73fb4c2219ca1defb7409f8da76b4407c198b3fe1ee40400ad1a441df0234b6a"
+      },
+      "split_step": 2,
+      "three_different_constructions_load_identical_state": true
+    },
+    {
+      "case": "test_fresh_process_training_re2",
+      "condition": "adversarial-finetune",
+      "exact_comparison_counts": {
+        "other_leaves": 1527,
+        "tensor_elements": 1583550,
+        "tensor_leaves": 247
+      },
+      "execution_policy": "shared-fp64-cudnn",
+      "final_step": 6,
+      "full_model_optimizer_rng_history_and_continuation_equal": true,
+      "initial_fixture": {
+        "bytes": 3772611,
+        "kind": "generated-cpu-fixture-initial-state-v1",
+        "sha256": "f943af3c33092d87c85adb8867af3bab873d7d394facb9042da4a286e36b0aa4",
+        "state_sha256": "73fb4c2219ca1defb7409f8da76b4407c198b3fe1ee40400ad1a441df0234b6a"
+      },
+      "split_step": 2,
+      "three_different_constructions_load_identical_state": true
+    },
+    {
+      "case": "test_fresh_process_training_re3",
+      "condition": "adversarial-finetune",
+      "exact_comparison_counts": {
+        "other_leaves": 1527,
+        "tensor_elements": 1583550,
+        "tensor_leaves": 247
+      },
+      "execution_policy": "shared-fp64-native",
+      "final_step": 6,
+      "full_model_optimizer_rng_history_and_continuation_equal": true,
+      "initial_fixture": {
+        "bytes": 3772611,
+        "kind": "generated-cpu-fixture-initial-state-v1",
+        "sha256": "f943af3c33092d87c85adb8867af3bab873d7d394facb9042da4a286e36b0aa4",
+        "state_sha256": "73fb4c2219ca1defb7409f8da76b4407c198b3fe1ee40400ad1a441df0234b6a"
+      },
+      "split_step": 2,
+      "three_different_constructions_load_identical_state": true
+    }
+  ],
+  "research_admitted": false,
+  "runtime": {
+    "architecture": "x86_64",
+    "cpu_only": true,
+    "cuda_visible_devices": "",
+    "numpy": "2.4.6",
+    "pytest": "9.1.1",
+    "python": "3.11.17",
+    "torch": "2.8.0+cu128",
+    "torch_build": "PyTorch built with:\n  - GCC 13.3\n  - C++ Version: 201703\n  - Intel(R) oneAPI Math Kernel Library Version 2024.2-Product Build 20240605 for Intel(R) 64 architecture applications\n  - Intel(R) MKL-DNN v3.7.1 (Git Hash 8d263e693366ef8db40acc569cc7d8edf644556d)\n  - OpenMP 201511 (a.k.a. OpenMP 4.5)\n  - LAPACK is enabled (usually provided by MKL)\n  - NNPACK is enabled\n  - CPU capability usage: AVX512\n  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, COMMIT_SHA=a1cb3cc05d46d198467bebbb6e8fba50a325d4e7, CUDA_VERSION=12.8, CUDNN_VERSION=9.8.0, CXX_COMPILER=/opt/rh/gcc-toolset-13/root/usr/bin/c++, CXX_FLAGS= -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_FBGEMM -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -DC10_NODEPRECATED -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -faligned-new -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-dangling-reference -Wno-error=dangling-reference -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, TORCH_VERSION=2.8.0, USE_CUDA=ON, USE_CUDNN=ON, USE_CUSPARSELT=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_GLOO=ON, USE_MKL=ON, USE_MKLDNN=ON, USE_MPI=OFF, USE_NCCL=1, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, USE_ROCM_KERNEL_ASSERT=OFF, USE_XCCL=OFF, USE_XPU=OFF, \n"
+  },
+  "scientific_thresholds_changed": false,
+  "scope": "Small generated upstream CPU fixtures on the shared university NFS4 filesystem; not full pretrained or GPU research execution.",
+  "session": {
+    "cpu_only": true,
+    "diagnostic_only": true,
+    "exit_status": 0,
+    "gpu_benchmark_performed": false,
+    "passed": true,
+    "research_admitted": false,
+    "schema_version": 1,
+    "tests": {
+      "errors": "0",
+      "failures": "0",
+      "skipped": "0",
+      "tests": "165",
+      "time": "352.306"
+    }
+  },
+  "source_manifest_files_verified": 269,
+  "source_manifest_sha256": "fcfab836e0cb3dac19606673e058bba2b4d3cff5f0915571b89446b88e26e627",
+  "test_modules": {
+    "tests.test_checkpoint_locking": 8,
+    "tests.test_evaluation_checkpoint": 6,
+    "tests.test_fixture_state": 20,
+    "tests.test_measured_budget": 15,
+    "tests.test_native_diagnostic": 15,
+    "tests.test_precision_patch": 31,
+    "tests.test_shared_execution": 47,
+    "tests.test_training": 23
+  },
+  "verification_source_manifest_sha256": "a73e407add253a567f2dcafb1a8d456b4aff8305bc5e210e857ef1aeb679da5c",
+  "verified_export_directory": "runs/pretrained/diagnostic/cpu-lock-repair-20261023/university-cpu.q8YbFO"
+}

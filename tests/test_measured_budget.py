@@ -98,12 +98,63 @@ def test_mismatched_or_incomplete_evidence_rejects(inputs, change):
         project(plan, evidence, classes=20, train_per_class=5)
 
 
-def test_report_is_reproducible_read_only_and_inputs_are_pinned():
-    a = build_report(ROOT)
-    assert a == build_report(ROOT)
+def test_report_is_reproducible_read_only_and_inputs_are_pinned(inputs, tmp_path, monkeypatch):
+    # A positive builder fixture has its own declared source tree. Never re-pin
+    # the historical on-disk plan/evidence just because working code changed.
+    import hashlib
+    plan, evidence = inputs
+    pins = {**plan['source_sha256'], **evidence['provenance']['unchanged_core_and_configuration_sha256']}
+    names = set(pins) | {'models/measured_budget.py', 'scripts/estimate_measured_study.py',
+                        'models/evaluation.py', 'models/schedule.py', 'models/checkpointing.py'}
+    original_hashes = {name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest() for name in names}
+    for name in names:
+        path = tmp_path/name
+        path.parent.mkdir(parents=True,exist_ok=True)
+        path.write_bytes((ROOT/name).read_bytes())
+    plan['source_sha256'] = {name:original_hashes[name] for name in plan['source_sha256']}
+    evidence['provenance']['unchanged_core_and_configuration_sha256'] = {
+        name:original_hashes[name] for name in evidence['provenance']['unchanged_core_and_configuration_sha256']}
+    for name,value,encoder in (
+            ('configs/budget_study_plan.yaml',plan,yaml.safe_dump),
+            ('report/checks/2026-10-22-shared-forward-cuda-workflow.json',evidence,json.dumps)):
+        path = tmp_path/name
+        path.parent.mkdir(parents=True,exist_ok=True)
+        if name.endswith('.json'):
+            # The evidence also pins the proposal YAML; bind the isolated
+            # rewritten YAML, not its historical original byte representation.
+            plan_name = 'configs/budget_study_plan.yaml'
+            evidence['provenance']['unchanged_core_and_configuration_sha256'][plan_name] = (
+                hashlib.sha256((tmp_path/plan_name).read_bytes()).hexdigest())
+        path.write_text(encoder(value))
+    a = build_report(tmp_path)
+    assert a == build_report(tmp_path)
     assert not a['budget_approved'] and not a['cloud_job_started'] and not a['pixels_opened']
     assert 'configs/study.yaml' in a['source_sha256']
     assert 'models/evaluation.py' in a['source_sha256']
+    historical = json.loads((ROOT/'report/checks/2026-10-22-measured-budget-review.json').read_text())
+    # Python 3.12 changed float sum(). Keep native-runtime repeatability exact,
+    # and replay the historical sequential-addition algorithm explicitly when
+    # comparing with the Python 3.11 report. No tolerance or source pin changes.
+    def historical_sum(values, start=0):
+        total = start
+        for value in values:
+            total += value
+        return total
+    with monkeypatch.context() as historical_runtime:
+        historical_runtime.setattr('models.measured_budget.sum', historical_sum, raising=False)
+        replay = build_report(tmp_path)
+    assert replay['variants'] == historical['variants']
+    assert a == build_report(tmp_path)  # Native summation restored unchanged.
+    for name, value in a['variants'].items():
+        assert value['workload'] == historical['variants'][name]['workload']
+        for stat, scenario in value['scenarios'].items():
+            assert scenario['arithmetic_within_caps'] == historical['variants'][name]['scenarios'][stat]['arithmetic_within_caps']
+    assert original_hashes == {name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest() for name in names}
+
+
+def test_historical_report_refuses_changed_fixture_sources_without_relaxing_pins():
+    with pytest.raises(ValueError,match='Pinned source changed: models/native_diagnostic.py'):
+        build_report(ROOT)
 
 
 def test_source_drift_rejects_before_projection(tmp_path):

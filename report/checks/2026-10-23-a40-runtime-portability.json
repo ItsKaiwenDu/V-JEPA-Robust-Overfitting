@@ -1,0 +1,299 @@
+{
+  "attribution": {
+    "budget": {
+      "all_non_float_fields_exact": true,
+      "examples": [
+        {
+          "absolute_difference": 1.1368683772161603e-13,
+          "current": 621.1082915225232,
+          "historical": 621.1082915225231,
+          "historical_ulps": 1.0,
+          "path": "/broad_101x10/scenarios/median/phases/confirmation/timed_unit_extrapolation_hours"
+        },
+        {
+          "absolute_difference": 2.2737367544323206e-13,
+          "current": 939.4262909278165,
+          "historical": 939.4262909278162,
+          "historical_ulps": 2.0,
+          "path": "/broad_101x10/scenarios/median/phases/confirmation/study_compute_with_headroom_without_allowance_usd"
+        },
+        {
+          "absolute_difference": 1.1368683772161603e-13,
+          "current": 948.5012909278164,
+          "historical": 948.5012909278163,
+          "historical_ulps": 1.0,
+          "path": "/broad_101x10/scenarios/median/phases/confirmation/study_compute_with_headroom_and_allowance_usd"
+        },
+        {
+          "absolute_difference": 1.1368683772161603e-13,
+          "current": 798.6992435074117,
+          "historical": 798.6992435074116,
+          "historical_ulps": 1.0,
+          "path": "/broad_101x10/scenarios/median/timed_unit_extrapolation_hours"
+        },
+        {
+          "absolute_difference": 1.1368683772161603e-13,
+          "current": 1008.3740543842646,
+          "historical": 1008.3740543842645,
+          "historical_ulps": 1.0,
+          "path": "/broad_101x10/scenarios/median/with_headroom_and_allowance_hours"
+        },
+        {
+          "absolute_difference": 2.2737367544323206e-13,
+          "current": 1258.0326058049602,
+          "historical": 1258.03260580496,
+          "historical_ulps": 1.0,
+          "path": "/broad_101x10/scenarios/median/total_without_untimed_allowance_usd"
+        },
+        {
+          "absolute_difference": 2.2737367544323206e-13,
+          "current": 1270.1326058049601,
+          "historical": 1270.13260580496,
+          "historical_ulps": 1.0,
+          "path": "/broad_101x10/scenarios/median/total_with_historical_untimed_allowance_usd"
+        },
+        {
+          "absolute_difference": 2.2737367544323206e-13,
+          "current": 1230.1326058049601,
+          "historical": 1230.13260580496,
+          "historical_ulps": 1.0,
+          "path": "/broad_101x10/scenarios/median/total_compute_including_full_pilot_reserve_usd"
+        }
+      ],
+      "float_differences": 59,
+      "max_absolute_difference": 3.410605131648481e-13,
+      "max_historical_ulps": 16.0,
+      "sequential_addition_reproduces_historical_report_exactly": true
+    },
+    "profiler": {
+      "device": "cpu",
+      "last_stages": [
+        "warmup_backward",
+        "warmup_backward",
+        "construct_component",
+        "construct_component"
+      ],
+      "low_level_startup_delay_cause_proved": false,
+      "tiny_fixture": true,
+      "worker_limit_seconds": 10,
+      "worker_statuses": [
+        "timeout",
+        "timeout",
+        "timeout",
+        "timeout"
+      ]
+    }
+  },
+  "budget": {
+    "absolute_deadline_epoch": 1792792680,
+    "absolute_deadline_pacific": "2026-10-23T14:58:00-07:00",
+    "billing_active": true,
+    "existing_session_hold_usd": 2.8,
+    "new_hold_for_software_retry_usd": 0,
+    "pod_stop_not_yet_confirmed": true,
+    "user_requested_break": true
+  },
+  "date": "2026-10-23",
+  "deployment": {
+    "changed_source_paths": [
+      "tests/test_cuda_profile.py",
+      "tests/test_measured_budget.py"
+    ],
+    "cloud_billing_stopped_by_launcher": false,
+    "conservative_deployment_basis_pacific": "2026-10-23T12:58:00-07:00",
+    "container_gb": 30,
+    "deadline_basis": "Earlier conservative bound than the user age estimate at around 13:01 Pacific; never reset at worker launch.",
+    "deadline_epoch": 1792792680,
+    "deadline_pacific": "2026-10-23T14:58:00-07:00",
+    "deployment_age_user_reported_seconds": 90,
+    "deployment_time_is_approximate": true,
+    "earlier_session_holds_retained_usd": [
+      3,
+      3
+    ],
+    "endpoint": "194.68.245.52:22147",
+    "exact_gpu_optimizer_recovery_checked": false,
+    "host_fingerprint": "SHA256:GAJk3aKlS1FkuAf7gO7Fil5ac+vFUqpBlTC5itBGyVo",
+    "manifest_sha256": "e42164317e16fbf6e05f4143fd466f00105371284fc9e769d09d5c71ba82608a",
+    "maximum_billed_hours": 2,
+    "maximum_inclusive_session_usd": 2.8,
+    "new_hold_added_for_software_retry_usd": 0,
+    "original_hold_remains_applied_usd": 2.8,
+    "persistent_volume_gb": 80,
+    "pod_id": "b4gbn80bppspvx",
+    "pod_name": "vjepa-cost-benchmark-05",
+    "predecessor_run_directory": "/workspace/V-JEPA-Robust-Overfitting-retry05/runs/pretrained/diagnostic/hardware-screen.foD6mq",
+    "proposed_hold_now_applied_to_active_session_usd": 2.8,
+    "quoted_all_in_hourly_usd": 0.61,
+    "research_admitted": false,
+    "run_directory": "/workspace/V-JEPA-Robust-Overfitting-retry05b/runs/pretrained/diagnostic/hardware-screen.6oW9B7",
+    "runtime_check": {
+      "cgroup_memory": {
+        "/sys/fs/cgroup/memory/memory.limit_in_bytes": "49999998976"
+      },
+      "checked_utc_epoch": 1792785957.4047549,
+      "hostname": "1cf152ef35e3",
+      "pod_id": "b4gbn80bppspvx",
+      "runtime": {
+        "gpu": "NVIDIA A40",
+        "python": "3.12.3",
+        "torch": "2.8.0+cu128",
+        "torchvision": "0.23.0+cu128",
+        "vram_bytes": 47699722240
+      },
+      "workspace_disk_usage": {
+        "free": 308209987420160,
+        "total": 830295989747712,
+        "used": 522086002327552
+      }
+    },
+    "software_retry_on_same_existing_session": true,
+    "volume_mount": "/workspace"
+  },
+  "diagnostic_only": true,
+  "evidence": {
+    "runs/pretrained/diagnostic/a40-cost-screen-20261023-retry05/budget-sum-attribution.json": "1417e1b219e5da82c91718e331ed15c3cac3ab5ef85e003787ff48e79e722198",
+    "runs/pretrained/diagnostic/a40-cost-screen-20261023-retry05/failed-profiler-live.json": "8ffe649bcdd967c27fbea9da4515d5e5dff18ab6b7a669acc204ff5814a75e68",
+    "runs/pretrained/diagnostic/a40-cost-screen-20261023-retry05/retry05b-remote-control.json": "4cc8b4c5f7ac394c9257e4a46a73ace16f4d43cb77ac398e18dd1d4e28b4cd01",
+    "runs/pretrained/diagnostic/a40-cost-screen-20261023-retry05/setup-rejection-verification.json": "326751ba1fba5285a591c27fb96d9d3f6019a4362b3f5cd7f2276f354c64812f",
+    "runs/pretrained/diagnostic/a40-cost-screen-20261023-retry05b/controls/independent-verification.json": "2db414d190445e744302e37588a8a208e267aa2282a6aa946d286a7b7cffbc71",
+    "runs/pretrained/diagnostic/hardware-benchmark-handoff-20261023b/preparation.json": "8a0c8936d45c87d7d28437fa27ec8929595e59fc20d8f2f24b6409f181cdf732"
+  },
+  "external_reference": "https://docs.python.org/3.12/library/functions.html#sum",
+  "original_attempt": {
+    "failures": [
+      {
+        "message": "AssertionError: \nassert 1 == 0\n +  where 1 = CompletedProcess(args=['/workspace/V-JEPA-Robust-Overfitting-retry05/.venv/bin/python', '/workspace/V-JEPA-Robust-Over...: 1\\nComponent diagnostic finished. Inspect session.json; timeouts and incomplete replay are not passes.\\n', stderr='').returncode",
+        "test": "tests.test_cuda_profile::test_fresh_process_parent_and_optional_profiler_round_trip"
+      },
+      {
+        "message": "AssertionError: assert {'broad_101x1...: False, ...}} == {'broad_101x1..., ...}}, ...}}\n  \n  Differing items:\n  {'more_training_20x10': {'workload': {'classes': 20, 'training_clips': 200, 'updates_per_run': 750, 'runs': 8, ...}, '...hout_untimed_allowance_usd': 324.7511543011973, ...}}, 'complete_cost_estimate': False, 'budget_approved': False, ...}} != {'more_training_20x10': {'budget_approved': False, 'complete_cost_estimate': False, 'research_policy_adopted': False, ...ce_usd': 66.4487789999878, 'study_compute_with_headroom_without_allowance_usd': 63.423778999987796, ...}}, ...}}, ...}}\n  {'focused_20x5': {'workload': {'classes': 20, 'training_clips': 100, 'update...\n  \n  ...Full output truncated (4 lines hidden), use '-vv' to show",
+        "test": "tests.test_measured_budget::test_report_is_reproducible_read_only_and_inputs_are_pinned"
+      }
+    ],
+    "manifest_sha256": "02cbfe7b922351cce9a48acc7b17820e9c074e07d7e2210d136e86ea8f558d27",
+    "passing_tests": 507,
+    "pretrained_benchmark_started": false,
+    "tests": {
+      "errors": "0",
+      "failures": "2",
+      "hostname": "1cf152ef35e3",
+      "name": "pytest",
+      "skipped": "0",
+      "tests": "509",
+      "time": "1244.861",
+      "timestamp": "2026-10-23T20:10:42.701865+00:00"
+    },
+    "verified_export": {
+      "bytes": 43563,
+      "sha256": "acd2f51f67929454840eb167115b8261a43161e6b283fd99d062b9a5609f7ee6"
+    },
+    "verified_export_members": 10
+  },
+  "repairs": {
+    "changed_source_paths": [
+      "tests/test_cuda_profile.py",
+      "tests/test_measured_budget.py"
+    ],
+    "historical_budget_comparison_remains_exact": true,
+    "historical_reports_and_pins_unchanged": true,
+    "native_runtime_repeatability_remains_exact": true,
+    "negative_timeout_and_descendant_kill_tests_unchanged": true,
+    "positive_profiler_overall_limit_seconds": 150,
+    "positive_profiler_worker_limit_seconds": 30,
+    "production_sources_unchanged": true,
+    "scientific_tolerances_and_study_unchanged": true,
+    "test_only": true,
+    "test_subprocess_limit_seconds": 180
+  },
+  "research_admitted": false,
+  "validation": {
+    "extracted_relevant_tests": {
+      "errors": "0",
+      "failures": "0",
+      "hostname": "Kaiwens-MacBook-Pro.local",
+      "name": "pytest",
+      "skipped": "0",
+      "tests": "39",
+      "time": "9.862",
+      "timestamp": "2026-10-23T13:32:05.025256-07:00"
+    },
+    "full_509_case_cuda_suite": {
+      "errors": "0",
+      "failures": "0",
+      "hostname": "1cf152ef35e3",
+      "name": "pytest",
+      "skipped": "0",
+      "tests": "509",
+      "time": "1161.827",
+      "timestamp": "2026-10-23T20:37:14.851084+00:00"
+    },
+    "full_suite_junit_sha256": "71a9a688cd743c5f11156a21d2a209d8e7cfc5a354dedfaa6c03f2584f769cec",
+    "independent_same_host_profiler_control": {
+      "bytes": 22460,
+      "complete": true,
+      "members": 18,
+      "passed": true,
+      "profiler_comparisons_recomputed": true,
+      "sha256": "3a8631002e0bcea2ee9b0ca0148ff3fb50a5db85642b4bd38193ac30e4a5c185",
+      "strict_replay_passed": true,
+      "worker_wall_seconds": [
+        11.299520225031301,
+        9.443340933998115,
+        11.602845960995182,
+        10.900590334029403
+      ]
+    },
+    "local_relevant_tests": {
+      "passed": 39,
+      "skipped": 0
+    },
+    "new_manifest_sha256": "e42164317e16fbf6e05f4143fd466f00105371284fc9e769d09d5c71ba82608a",
+    "pretrained_gate_not_yet_accepted": true,
+    "released_checkpoint_verified": {
+      "checkpoint_checksum_wall_seconds": 12.15261949703563,
+      "checkpoint_promoted_after_independent_hash": true,
+      "checkpoint_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+      "checkpoint_stat": {
+        "mtime_ns": 1792789220000000000,
+        "size": 5127726842
+      },
+      "completed_checkpoint_bytes": 5127726842,
+      "diagnostic_only": true,
+      "full_suite": {
+        "errors": "0",
+        "failures": "0",
+        "hostname": "1cf152ef35e3",
+        "name": "pytest",
+        "skipped": "0",
+        "tests": "509",
+        "time": "1161.827",
+        "timestamp": "2026-10-23T20:37:14.851084+00:00"
+      },
+      "junit_sha256": "71a9a688cd743c5f11156a21d2a209d8e7cfc5a354dedfaa6c03f2584f769cec",
+      "manifest_sha256": "e42164317e16fbf6e05f4143fd466f00105371284fc9e769d09d5c71ba82608a",
+      "meaning": "All scientific setup inputs independently verified after the bounded preparation wrapper expired during final checksum; source and full test result unchanged.",
+      "new_hold_usd": 0,
+      "original_run": "/workspace/V-JEPA-Robust-Overfitting-retry05b/runs/pretrained/diagnostic/hardware-screen.6oW9B7",
+      "original_supervisor_exit_status": 124,
+      "research_admitted": false,
+      "same_existing_paid_pod": "b4gbn80bppspvx",
+      "schema_version": 1,
+      "setup_cap_seconds": 1500,
+      "source_files_verified": 270,
+      "unchanged_deadline_epoch": 1792792680
+    },
+    "restored_members_verified": 395,
+    "same_a40_positive_controls": {
+      "errors": "0",
+      "failures": "0",
+      "hostname": "1cf152ef35e3",
+      "name": "pytest",
+      "skipped": "0",
+      "tests": "2",
+      "time": "54.459",
+      "timestamp": "2026-10-23T20:33:55.789230+00:00"
+    },
+    "subsequent_preparation_wrapper_exit_status": 124
+  }
+}

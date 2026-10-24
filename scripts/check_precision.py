@@ -22,6 +22,8 @@ def main():
     p.add_argument('--output', type=Path)
     p.add_argument('--max-seconds', type=int, default=840)
     p.add_argument('--worker-seconds', type=int, default=180)
+    p.add_argument('--initial-fixture', type=Path, help=argparse.SUPPRESS)
+    p.add_argument('--initial-fixture-sha256', help=argparse.SUPPRESS)
     p.add_argument('--worker', action='store_true', help=argparse.SUPPRESS)
     p.add_argument('--backward', choices=('cudnn', 'native'), help=argparse.SUPPRESS)
     p.add_argument('--result', type=Path, help=argparse.SUPPRESS)
@@ -31,6 +33,10 @@ def main():
         p.error('Use explicit --diagnostic; CUDA or --tiny --device cpu; at most 180s/worker and 840s total.')
     if not args.tiny and any(v is None or not v.exists() for v in (args.checkpoint, args.clips, args.manifest, args.observed, args.reference_run)):
         p.error('Reuse existing checkpoint, training data, original observed spec and failed reference run.')
+    if (not args.tiny or not args.worker) and (args.initial_fixture is not None or args.initial_fixture_sha256 is not None):
+        p.error('Initial fixture pins belong only to generated CPU workers.')
+    if args.tiny and args.worker and (args.initial_fixture is None or args.initial_fixture_sha256 is None):
+        p.error('Generated CPU worker requires its parent initial fixture and SHA-256.')
     if args.worker:
         if args.backward is None or args.result is None or args.result.exists():
             p.error('Worker needs explicit backward and fresh result path.')
