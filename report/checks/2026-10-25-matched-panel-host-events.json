@@ -1,0 +1,51 @@
+{
+  "billing_or_budget_changed": false,
+  "boot_time_reported_local": "2026-09-28 15:01:41",
+  "completed_cases_reported": 2,
+  "current_shell_CPU_time_limit": "unlimited",
+  "date": "2026-10-25",
+  "delayed_session_cleanup_or_OOM_or_other_termination_cause_not_established": true,
+  "download_helper": "runs/pretrained/diagnostic/matched-panel-overnight-session-20261025/download-overnight-evidence.sh",
+  "download_helper_sha256": "4418ba1b57fe2987b581acb0f109b43413a2421c32b1d7043097e8c699a0f88e",
+  "host_reboot_since_job_launch_ruled_out": true,
+  "immediate_normal_logout_hangup_not_supported_by_timeline": true,
+  "independently_verified_cases": 1,
+  "initial_elapsed_zero_does_not_reset_case_allowance": true,
+  "journal_visibility_restricted": true,
+  "kernel_OOM_or_systemwide_termination_logs_not_visible": true,
+  "kind": "university-matched-panel-host-events-check-v1",
+  "next": "User runs Mac download helper; independently verify second-case export and preserve/inspect third-case artifacts and original modification times before recovery.",
+  "no_matching_supervisor_or_worker_now": true,
+  "past_process_limits_independently_verified": false,
+  "remaining_launcher_start_local": "15:45:56",
+  "remote_download_or_command_executed_by_agent": false,
+  "required_cases": 20,
+  "research_admitted": false,
+  "restart_or_retry_performed": false,
+  "root_cause": null,
+  "scientific_aggregate": null,
+  "source": "user-pasted uptime, CPU limit, explicitly wide ps and accessible journal output",
+  "sources_or_plan_or_tolerances_changed": false,
+  "third_case_last_matrix_log_mtime_local": "16:44",
+  "unfinished_third_case": "clip-01-bank-0",
+  "untruncated_matching_process_listing": "header only",
+  "visible_events_local_20261024": [
+    {
+      "event": "SSH disconnected by user; user-manager boot-success unit starts",
+      "time": "15:45:36"
+    },
+    {
+      "event": "user-manager session exit/shutdown target",
+      "time": "15:45:47"
+    },
+    {
+      "event": "another user-manager boot-success unit starts",
+      "time": "15:45:50"
+    },
+    {
+      "event": "SSH disconnected by user",
+      "time": "15:46:20"
+    }
+  ],
+  "visible_shutdown_target_predates_remaining_launch": true
+}

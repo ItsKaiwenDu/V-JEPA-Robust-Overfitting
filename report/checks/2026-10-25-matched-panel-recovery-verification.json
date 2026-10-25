@@ -1,0 +1,186 @@
+{
+  "archive_bytes": 117319867,
+  "archive_members": 34,
+  "archive_sha256": "bb9252edb0ce436fe5c758c3219c0a092ba5f5c2171e0570938175fa354ea7a0",
+  "attempt": "attempt-02",
+  "audit_script": "runs/pretrained/diagnostic/matched-panel-recovery-ops-20261025/audit-recovered-panel-case.py",
+  "audit_script_sha256": "4b2abea78ae76d5a2e8878a4e64ff3d071cf385ebeaccecea97d8fe181d39e18",
+  "budget_or_billing_changed": false,
+  "case_id": "clip-01-bank-0",
+  "completed_cases": 3,
+  "exact_matched_prefixes_and_strict_attack_selection_verified": true,
+  "execution_sources_verified": 58,
+  "finite_nonzero_input_gradient_observations_verified": 320,
+  "fresh_A_only_replay_exact": true,
+  "frozen_training_pixels_verified": true,
+  "grant": {
+    "consumed": true,
+    "existing_authorization_verified": true,
+    "extra_seconds_authorized": 4800,
+    "grant_id": "a60abb0ffd3b46079ea055cc24bd57e7",
+    "new_grant_issued": false,
+    "old_unknown_allowance_still_charged_seconds": 4800,
+    "operator_state": "case_verified",
+    "partial_reuse_authorized": false
+  },
+  "held_out_pixels_opened": false,
+  "historical_interruption_and_copy_failure_causes_known": false,
+  "historical_partial": {
+    "descriptive_comparison": {
+      "arms": {
+        "A": {
+          "adversarial_sha256": true,
+          "attack_loss": true,
+          "max_pixel_delta": true,
+          "scores": true,
+          "timing_record_differs": true,
+          "trace": true
+        },
+        "B": {
+          "adversarial_sha256": true,
+          "attack_loss": true,
+          "max_pixel_delta": true,
+          "scores": true,
+          "timing_record_differs": true,
+          "trace": true
+        },
+        "C": {
+          "adversarial_sha256": true,
+          "attack_loss": true,
+          "max_pixel_delta": true,
+          "scores": true,
+          "timing_record_differs": true,
+          "trace": true
+        }
+      },
+      "same_logical_inputs": true,
+      "used_as_new_acceptance_gate": false
+    },
+    "full_case_rerun_under_new_authorization": true,
+    "included_in_completed_case_receipt": false,
+    "preserved_files_verified": 11
+  },
+  "journal_reconstructed_and_all_three_cases_reverified": true,
+  "kind": "matched-panel-recovery-independent-verification-v1",
+  "logical_tensors_verified": 173,
+  "memory": {
+    "matrix": {
+      "allocator_limit_bytes": 7389845913,
+      "peak_allocated_GiB": 4.839777946472168,
+      "peak_allocated_bytes": 5196672000
+    },
+    "replay": {
+      "allocator_limit_bytes": 7389845913,
+      "peak_allocated_GiB": 3.658865451812744,
+      "peak_allocated_bytes": 3928676864
+    }
+  },
+  "native_CUDA_probes_and_pixel_bounds_passed": true,
+  "new_model_or_GPU_job_during_audit": false,
+  "new_tests_or_full_project_suite_repeated": false,
+  "next": "Prepare a bounded logged attended continuation for clip-01-bank-1, then work through the remaining seventeen original cases. No new job has been launched and the one-use recovery grant is consumed.",
+  "original_scientific_pins_verified": 198,
+  "partial_panel_conclusions_or_final_attack_selection": false,
+  "previous_two_journal_pointers_and_first_acceptance_unchanged": true,
+  "qualified_verifier_CLI_exit_status": 0,
+  "raw_download_directory": "runs/pretrained/diagnostic/matched-panel-recovery-ops-20261025/recovery-download-20261025T210429Z.VBM8pj",
+  "recovery_review_acceptance": {
+    "file_sha256": "b04bac3739d56fcb979bf1637104889fde7fd04456a861dbf55b689669ab1c3a",
+    "path": "runs/pretrained/diagnostic/matched-panel-recovery-ops-20261025/recovery-download-20261025T210429Z.VBM8pj/recovery-review-acceptance.json",
+    "payload_sha256": "b5f3fd49711b0ecc3920f3f32fb348b93a03f51fb3736b48f0c287d1aa69205a"
+  },
+  "remaining_cases": 17,
+  "remaining_queue_started_by_recovery": false,
+  "required_cases": 20,
+  "research_admitted": false,
+  "reviewed_utc": "2026-10-25T21:11:14.798671+00:00",
+  "runtime": {
+    "matrix": {
+      "host_GPU_driver_and_frozen_runtime_verified": true,
+      "native_CUDA_probe_passed": true
+    },
+    "replay": {
+      "host_GPU_driver_and_frozen_runtime_verified": true,
+      "native_CUDA_probe_passed": true
+    }
+  },
+  "scientific_aggregate": null,
+  "scores_this_case_only": {
+    "A": {
+      "audit_0": {
+        "adversarial": 0.6639586687088013,
+        "clean": 0.5983291268348694
+      },
+      "audit_1": {
+        "adversarial": 0.6749616861343384,
+        "clean": 0.59821617603302
+      },
+      "main": {
+        "adversarial": 0.6905627250671387,
+        "clean": 0.6019014120101929
+      }
+    },
+    "B": {
+      "audit_0": {
+        "adversarial": 0.6627619862556458,
+        "clean": 0.5983291268348694
+      },
+      "audit_1": {
+        "adversarial": 0.6811703443527222,
+        "clean": 0.59821617603302
+      },
+      "main": {
+        "adversarial": 0.6950783133506775,
+        "clean": 0.6019014120101929
+      }
+    },
+    "C": {
+      "audit_0": {
+        "adversarial": 0.6793530583381653,
+        "clean": 0.5983291268348694
+      },
+      "audit_1": {
+        "adversarial": 0.6830052137374878,
+        "clean": 0.59821617603302
+      },
+      "main": {
+        "adversarial": 0.6998591423034668,
+        "clean": 0.6019014120101929
+      }
+    },
+    "D": {
+      "audit_0": {
+        "adversarial": 0.6923540830612183,
+        "clean": 0.5983291268348694
+      },
+      "audit_1": {
+        "adversarial": 0.6997686624526978,
+        "clean": 0.59821617603302
+      },
+      "main": {
+        "adversarial": 0.7189478874206543,
+        "clean": 0.6019014120101929
+      }
+    }
+  },
+  "timing": {
+    "A40_cost_pool_eligible": false,
+    "case_session_seconds": 2382.7035429626703,
+    "instrumented_attack_seconds": {
+      "A": 189.98909235326573,
+      "B": 472.73017076496035,
+      "C": 392.90912146121264,
+      "D": 972.6632165750489
+    },
+    "launcher_end_Pacific": "2026-10-25T13:43:41-07:00",
+    "launcher_end_utc": "2026-10-25T20:43:41+00:00",
+    "launcher_start_Pacific": "2026-10-25T13:03:00-07:00",
+    "launcher_start_utc": "2026-10-25T20:03:00+00:00",
+    "operator_supervised_process_seconds": 2418.6971193868667,
+    "outer_wall_seconds": 2441.0
+  },
+  "transport_sha256": "d8658d2c1f0a32979eee0bcf12734bbbe36910785589834315791f2f62f9e8de",
+  "upstream_sources_verified": 34,
+  "verified": true,
+  "video_id": "v_JumpRope_g16_c02"
+}

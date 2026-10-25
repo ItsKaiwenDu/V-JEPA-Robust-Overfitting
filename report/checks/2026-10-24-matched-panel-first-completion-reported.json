@@ -1,0 +1,20 @@
+{
+  "acceptance_marker_issued": false,
+  "billing_or_reservations_changed": false,
+  "case_export_downloaded": false,
+  "case_id": "clip-00-bank-0",
+  "date": "2026-10-24",
+  "download_helper": "runs/pretrained/diagnostic/matched-panel-first-session-20261024/download-first-case.sh",
+  "download_helper_sha256": "971adba05bbbaea0c71c39c5b1fc7544a3536f6a327c66d15a75320998de8687",
+  "independently_verified": false,
+  "kind": "university-matched-panel-first-completion-reported-v1",
+  "launcher_completed_successfully_reported": true,
+  "launcher_exit_status_reported": 0,
+  "mode": "first",
+  "next": "User runs the Mac download helper, then independent local archive/source/runtime/tensor/trace/replay/native-probe verification before first-case acceptance",
+  "paid_compute_launched": false,
+  "remaining_queue_started": false,
+  "remote_panel_directory": "/home/kdu/Desktop/VJEPA-Robust-Overfitting/matched-panel-transfer-20261024/unpacked/matched-panel-20261024/runs/panel.qIXeDn",
+  "research_admitted": false,
+  "source": "user-pasted exit_status.txt output"
+}

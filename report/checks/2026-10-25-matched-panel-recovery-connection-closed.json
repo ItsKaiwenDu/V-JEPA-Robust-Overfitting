@@ -1,0 +1,32 @@
+{
+  "CPU_test_summary_reported": false,
+  "GPU_case_start_confirmed": false,
+  "GPU_case_started": null,
+  "SSH_exit_code_reported": false,
+  "approved_grant_id": "a60abb0ffd3b46079ea055cc24bd57e7",
+  "billing_or_budget_changed": false,
+  "date": "2026-10-25",
+  "elapsed_time_until_close_reported": false,
+  "fresh_operator_status_or_log_path_reported": false,
+  "inspection_changes_remote_files": false,
+  "inspection_helper_sha256": {
+    "inspect-attended-recovery.py": "973bb377589592f0b725174b4c1870476dfbc117115b61196e5d83d64a9c2a0d",
+    "inspect-attended-recovery.sh": "ca3aca3411a2be3373447a69d70cf7387530158e8145d84ddfd9e5e80b80abe4"
+  },
+  "inspection_starts_tests_or_model_processes": false,
+  "kind": "matched-panel-recovery-connection-closed-observation-v1",
+  "local_helper_validation": "bash -n and Python AST parsing passed; no university inspection executed by agent",
+  "new_authorization_created": false,
+  "next_action": "User runs read-only SSH inspection helper; independently review CPU XML, grant/status, attempt-02, journal and current processes before any retry.",
+  "operator_grant_consumed": null,
+  "recorded_utc": "2026-10-25T19:38:44.783820+00:00",
+  "recovery_case_complete": null,
+  "repeat_launch_or_upload_permitted_without_state_review": false,
+  "reported_final_line": "Connection to linux10609.dc.engr.scu.edu closed.",
+  "reported_last_stage_line": "Keep this SSH connection open for the single attended recovery attempt.",
+  "research_admitted": false,
+  "root_cause": "unknown; connection closure alone does not identify stage or outcome",
+  "scientific_sources_plan_or_tolerances_changed": false,
+  "source": "user complete pasted attended recovery launch output",
+  "upload_and_extraction_reported_successful": true
+}

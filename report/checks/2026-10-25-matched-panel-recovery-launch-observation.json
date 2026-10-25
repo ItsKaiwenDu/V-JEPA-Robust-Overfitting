@@ -1,0 +1,22 @@
+{
+  "CPU_test_result_reported": false,
+  "GPU_case_start_confirmed": false,
+  "archive_manifest_authorization_and_extractor_checksums_reported_OK": true,
+  "attempt": "attempt-02",
+  "billing_or_budget_changed": false,
+  "case_id": "clip-01-bank-0",
+  "completion_confirmed": false,
+  "date": "2026-10-25",
+  "grant_id": "a60abb0ffd3b46079ea055cc24bd57e7",
+  "kind": "matched-panel-recovery-launch-observation-v1",
+  "last_reported_line": "Keep this SSH connection open for the single attended recovery attempt.",
+  "new_authorization_created": false,
+  "next": "Keep the current attended command running; record CPU summary and operator status/log paths when they appear.",
+  "next_expected_stage": "35 CPU operator tests, then production preflight and fresh operator status/log paths",
+  "operator_grant_consumption_confirmed": false,
+  "operator_kit_extraction_reported_successful": true,
+  "repeat_upload_or_launch_helper": false,
+  "research_admitted": false,
+  "source": "user-pasted Mac attended recovery helper output",
+  "upload_reported_successful": true
+}

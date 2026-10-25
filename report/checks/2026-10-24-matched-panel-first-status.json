@@ -1,0 +1,22 @@
+{
+  "billing_or_reservations_changed": false,
+  "case_id": "clip-00-bank-0",
+  "completion_confirmed": false,
+  "currently_running_independently_verified": false,
+  "date": "2026-10-24",
+  "export_downloaded": false,
+  "frozen_handoff_sha256": "7ff46ec3c3fcd4106adfe6514aeb77f33d4773957312beffc6a317b3b22de792",
+  "independent_evidence_verification_passed": false,
+  "kind": "university-matched-panel-first-status-v1",
+  "last_reported_line": "Starting panel case: clip-00-bank-0",
+  "launch_reported": true,
+  "mode": "first",
+  "next": "inspect matrix/replay logs, current GPU usage and exit_status.txt; do not launch another case or the remaining queue",
+  "paid_compute_launched": false,
+  "remote_attempt": "/home/kdu/Desktop/VJEPA-Robust-Overfitting/matched-panel-transfer-20261024/unpacked/matched-panel-20261024/runs/panel.qIXeDn/cases/clip-00-bank-0/attempt-01",
+  "remote_launcher_log": "/home/kdu/Desktop/VJEPA-Robust-Overfitting/matched-panel-transfer-20261024/unpacked/matched-panel-20261024/runs/panel.qIXeDn/launcher-20261024T213715Z.log",
+  "remote_panel_directory": "/home/kdu/Desktop/VJEPA-Robust-Overfitting/matched-panel-transfer-20261024/unpacked/matched-panel-20261024/runs/panel.qIXeDn",
+  "research_admitted": false,
+  "source": "user-pasted tail of launcher log",
+  "startup_GPU_process_table_is_not_live_status": true
+}

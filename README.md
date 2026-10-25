@@ -1,5 +1,11 @@
 # V-JEPA Robust Overfitting
 
+**Latest panel status (October 25):** [three of twenty cases are independently verified](report/checks/2026-10-25-matched-panel-recovery-verification.md) after the approved attended recovery. The recovered case passes archive/source/tensor, native CUDA and exact fresh A-only replay checks in a 40-minute-41-second window, with 4.84 GiB peak allocation. Both prior cases and the failed partial evidence are preserved. Seventeen cases remain; the next step is logged attended continuation. Full-panel analysis and research admission remain pending.
+
+**Latest implementation (October 24):** the [matched-panel runner and handoff](docs/matched_panel_handoff.md) implement the frozen ten-clip/two-bank plan with first-case review, atomic whole-case recovery, bounded serial execution and complete-panel analysis. All 110 focused local checks pass, including 40 new; all 40 new checks also pass after extraction. [Preparation report](report/checks/2026-10-24-matched-panel-runner.md). These implementation checks preceded the independently verified university cases reported above.
+
+**Frozen plan (October 24):** the [broader training-only plan](docs/matched_panel_diagnostic_plan.md) retains ten existing monitor clips and two paired attack banks (20 cases). Its67 predeclaration checks and280 local CPU mask draws passed before runner implementation. The14–17h repeated-reference scenario is scheduling context only, outside A40 economics.
+
 **Latest verified diagnostic (October 24):** the [university matched attack check](report/checks/2026-10-24-university-matched.md) passes exact prefixes, native CUDA probes and fresh A-only replay on one training clip. It takes about 41 minutes and peaks at 4.89 GiB allocator use on RTX 3070. Step/mask effects depend on the scoring bank; no final attack is selected. Next is offline planning for broader training-only checks. No study admission or new paid Pod.
 
 **Latest implementation (October 23):** the separate [matched attack diagnostic](docs/matched_attack_diagnostic.md) is implemented; 26 new and 91 focused CPU checks pass with zero skips, including exact paired prefixes and a fresh A-only replay. The subsequent university GPU outcome is recorded above. No new rental, primary-method change or study admission.
@@ -36,6 +42,7 @@ The intended contribution is a controlled study of training dynamics and their d
 
 | Document | Purpose |
 | --- | --- |
+| [Matched-panel university handoff](docs/matched_panel_handoff.md) | Frozen training-only panel, bounded first case, independent review, whole-case resume and separate scoring-bank analysis |
 | [Checkpoint locks and fresh CPU retry](docs/checkpoint_lock_repair.md) | Verified NFS lock fix and the completed free CPU check |
 | [CPU fixture repair and university check](docs/cpu_fixture_repair.md) | Verified initial checkpoints and a detached Linux CPU gate before another GPU rental |
 | [Lower-cost GPU benchmark](docs/lower_cost_gpu_benchmark.md) | Retained 20-class design and bounded hardware screen; Partial A40 measurements verified; separate controls-only completion prepared |
@@ -137,6 +144,7 @@ These commands inspect the environment without downloading models, preparing dat
 | [`scripts/university_profile.sh`](scripts/university_profile.sh) | Implemented: checksummed source handoff and detached, externally bounded university launcher |
 | [`scripts/compare_cuda_convolution.py`](scripts/compare_cuda_convolution.py) | Passed: 12 TF32-off university workers and component replay; native timing qualifies a full-model candidate |
 | [`scripts/university_convolution.sh`](scripts/university_convolution.sh) | Prepared: checksummed detached university comparison, no model/data downloads |
+| [`scripts/check_matched_panel.py`](scripts/check_matched_panel.py) | Implemented and CPU-tested: separate frozen panel, first-case review, serial journal/recovery and complete-only descriptive analysis; CUDA panel pending |
 | `scripts/run_report_checks.py` | Planned: attack and implementation diagnostics |
 | `scripts/plot_results.py` | Planned: per-seed curves and aggregate summaries |
 

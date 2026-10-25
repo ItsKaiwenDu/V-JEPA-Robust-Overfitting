@@ -1,0 +1,58 @@
+{
+  "GPU_job_started": false,
+  "additional_case_seconds_requested": 4800,
+  "attended_SSH_required": true,
+  "authorization_file_created": false,
+  "billing_or_study_budget_changed": false,
+  "both_verified_cases_reused": true,
+  "date": "2026-10-25",
+  "frozen_plan_or_worker_sources_changed": false,
+  "full_project_pytest_repeated": false,
+  "heartbeat_seconds": 15,
+  "historical_stop_cause_known": false,
+  "kind": "matched-panel-recovery-operator-preparation-v1",
+  "legacy_retry_initial_zero_is_not_authority_for_extra_time": true,
+  "local_and_extracted_CPU_tests": {
+    "extracted": {
+      "errors": 0,
+      "failures": 0,
+      "junit_sha256": "d3bf57e54d5ca1017010716fd324293a4d2de1c961d97785a114aaca764daf75",
+      "seconds": 2.313,
+      "skipped": 0,
+      "tests": 35
+    },
+    "local": {
+      "errors": 0,
+      "failures": 0,
+      "junit_sha256": "fe58a3861cbaac6fdc6b2bbac32d8daeb6aa2965283913315df19a14c8e764dd",
+      "seconds": 2.298,
+      "skipped": 0,
+      "tests": 35
+    }
+  },
+  "new_allowance_authorized": false,
+  "new_status_is_per_grant_not_stale_first_mode_exit": true,
+  "next": "Request explicit approval for the prepared one-case extra-time resource exception; alternatively obtain ECC system-log diagnosis first.",
+  "old_allowance_conservatively_charged_seconds": 4800,
+  "operator_layer_is_separately_identified": true,
+  "operator_package": {
+    "bytes": 9202,
+    "member_manifest_sha256": "4f300fae4fd95c2d427aed32b0d8290e97ca0b3feeeeeab3714b33bef6f42557",
+    "members": 5,
+    "path": "runs/pretrained/diagnostic/matched-panel-recovery-ops-20261025/vjepa-panel-recovery-ops-20261025.tar.gz",
+    "sha256": "d6e2eae963dd764d7a6960353cf0b2232089f43c81c723c94cfdbf04958a3997"
+  },
+  "original_scientific_pins_unchanged": 198,
+  "outer_kill_grace_seconds": 15,
+  "paid_compute_requested": false,
+  "partial_arms_reused": false,
+  "proposal_sha256": "f6de848d9a010e795e2ab28e6a4dc4d588b67c69c02ec96c64712409633f9225",
+  "qualified_execution_sources_unchanged": 58,
+  "raw_validation": "runs/pretrained/diagnostic/matched-panel-recovery-ops-20261025/validation",
+  "real_incident_metadata_preflight": "passed with host identity mocked and authorization fixture only; no grant consumed or model started",
+  "remaining_queue_automatically_started": false,
+  "requested_attempt": "attempt-02",
+  "requested_case": "clip-01-bank-0",
+  "research_admitted": false,
+  "verified_offline": true
+}

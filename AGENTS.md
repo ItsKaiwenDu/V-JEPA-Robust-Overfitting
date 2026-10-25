@@ -2,6 +2,263 @@
 
 ## Current stage
 
+LATEST October25 RECOVERED THIRD CASE COPIED AND INDEPENDENTLY VERIFIED.
+Read report/checks/2026-10-25-matched-panel-recovery-verification.md/JSON.
+Raw recovery-download-20261025T210429Z.VBM8pj in matched-panel-recovery-ops-20261025
+has downloaded/, case-reviewed/, verified-panel-mirror/, independent-verification.json,
+and recovery-review-acceptance.json. Archive117319867B/34members,
+SHAbb9252edb0ce436fe5c758c3219c0a092ba5f5c2171e0570938175fa354ea7a0.
+FrozenreviewCLI and separateaudit pass:198oldpins/58execution/34upstream,
+173logicaltensors/320finite nonzero gradientobservations, prefixes/strictselection/
+pixelbounds/nativeCUDA/freshA-onlyreplay. Currentjournal/mirror independently
+verifies3/20 (clip00banks0/1, clip01bank0 attempt02);17remain,no aggregate.
+Prior2pointers/firstacceptance unchanged; all11oldpartialfiles retained/unmodified
+and excludedfromnewreceipt. PartialABC matches descriptively, not a newgate.
+Actuallauncher13:03–13:43:41Pacific,2441s; session2382.704s; peak4.840/3.659GiB.
+Sameauthorization/proposal/operator and consumed granta60abb0ffd3b46079ea055cc24bd57e7
+verify. Originalunknown4800schargedfull; extra4800explicit, no reuse/newgrant.
+SCPfailurewaspost-run; SSHstream retrieval succeeded. Interrupt/copycauseUNKNOWN.
+Raw audit-recovered-panel-case.py retained. Localacceptance binds newarchive/
+receipt/journal/consumedgrant/report; it authorizes noqueue. No newmodel/GPU
+job/heldout pixels/testsuites/cost or researchadmission duringaudit.
+NEXT prepare bounded LOGGED ATTENDED continuation at clip-01-bank-1. Existing
+original limits apply to17unattempted cases; remainingqueue not started and
+not authorized by the consumed onecase recoverygrant. Review actual launch
+scope before execution; no automatic overnightqueue/logout-persistence promise.
+Do NOT rerun recoveredthirdcase/oldhelpers, consume grantagain, editscientific
+sources/plan/tolerances or publishpartialpanelmean. User can commit this checkpoint.
+Older status snapshots below are historical; latest verified outcome above.
+
+LATEST October25 USER APPROVED one additional attended80-minute recovery.
+Read report/checks/2026-10-25-matched-panel-recovery-authorization.json.
+Userexactresponse: Approve one attended attempt. Granta60abb0ffd3b46079ea055cc24bd57e7,
+proposalf6de848d9a010e795e2ab28e6a4dc4d588b67c69c02ec96c64712409633f9225. Real authorization saved as
+raw matched-panel-recovery-ops-20261025/panel-recovery-authorization-20261025.json,
+fileSHAfaf8864a3cca9cc2c27396a16674525552d063a827fb75a01ef136868e5e30ea. Do NOT generate another grant unless this one needs
+explicit review; it is singleuse. Extra4800s, originalunknown4800schargedfull;
+CASEclip-01-bank-0 attempt-02 only, fromscratch, first2verifiedcasesretained.
+No remainingqueue/paidcompute/serversetting change authorizedbythisgrant.
+NEXT userMac runs raw run-attended-recovery.sh: pins/uploads4smallfiles, then
+caffeinate-i SSH-t calls start-attended-recovery-20261025.sh; sameMacwindow
+staysoccupied, lid/Terminalopen, attended. RemoteCPU35checks mustpass first,
+then operator runs onecase withfresh15sstatus andfixedsourcepostflight.
+No upload/GPUlaunch observed yet. Record testsummary/operatorstatus+logpaths
+whenuserreports. Handoff/source/proposal notrebuilt; original58/198unchanged.
+Older notapproved paragraphs below are historical snapshots before this reply.
+
+LATEST October25 policyprobe READ and separate recovery operator PREPARED.
+Read report/checks/2026-10-25-matched-panel-host-policy.md/JSON and
+2026-10-25-matched-panel-recovery-preparation.md/JSON; docs/matched_panel_recovery.md.
+ActualKillUserProcessesfalse,UserStopDelay10s,LingerNo, currentCPU/memorycaps
+unlimited. Currentcgrouppeak35MB/zeroOOMcounters do NOT coverpreviousfullmodel.
+Systemjournalrestricted/no owncoredump; originalkillcause UNKNOWN.
+New scripts/guarded_panel_recovery.py is an EXTERNAL OPERATOR, not an edit to
+any58qualifiedexecution/198oldscientific sources.35local+35extracted CPUchecks
+pass zero skips; actualmetadata preflight mockedhostname/fixturegrant only.
+Raw matched-panel-recovery-ops-20261025 holds proposal,small5member9202B kit,
+validation and NOauthorization. PackageSHA
+d6e2eae963dd764d7a6960353cf0b2232089f43c81c723c94cfdbf04958a3997.
+ProposalSHAf6de848d9a010e795e2ab28e6a4dc4d588b67c69c02ec96c64712409633f9225.
+Originalunknownallowance conservativelycharged4800s. Newextra4800s forCASE
+clip-01-bank-0 attempt-02 REQUIRES EXPLICIT USER APPROVAL; none granted yet.
+This is a transparent resourceexception to originalcasebound, not elapsed0reuse.
+Operator pinsoriginalpackage/journal/completecases/partialinventory, consumes
+onegrant, writesfresh15sstatus, handlesnormalinterrupt, postverifies oldCLI
+receipt. Noautoqueue/retry/partialstitch. AttendedSSH/Macawake required.
+NEXT requestapproval for concrete onecase extra-time proposal (or waitECC logs).
+No grantfile/upload/GPUlaunch, original58unchanged, no study/cap/billingchange.
+ECCsupportdraft saved locally; notsent. Do notsend without userinstruction.
+
+LATEST October25 incident evidence COPIED: secondcase independentlyPASS;2/20valid.
+Read report/checks/2026-10-25-matched-panel-incident-verification.md/JSON; raw
+matched-panel-overnight-session-20261025/incident-verification.json +audit-incident.py.
+SecondSHA230a8d99862b0f051b69cd091138c4b2c2105762c70af0f75b5957656360801c,
+109913525bytes/34members,session2328.601s. Prefix/bounds/nativeprobe/freshA replay
+pass; both banks sharestarts/targets/scoring anddistinctattackseeds asplanned.
+Local verified-panel-mirror revalidates both originaljournal entries; no aggregate.
+Downloaded latestindex/progress/exit are STALEfromfirstmode, journal2 iscurrent.
+Thirdclip-01-bank-0 (v_JumpRope_g16_c02): savedABC/87logicaltensors/180inputgrads
+verify, Cwritten23:44:14UTC andDstartlog23:44:45. D/result/worker/observation/
+replay/receipt missing. Neverpromote/stitchthispartial or inferkilltimefrommtime.
+IMPORTANT confirmedlegacyexplicitretryACCOUNTING BUG: initialelapsed0 wouldgrant
+4440sparent despiteunknownrealend. Offline planning ONLY, no attempt2/GPUrun.
+Defaultremainingdoesrejectpartialcorrectly. No retry allowedfromthisinitial0;
+unknownoriginalcaseallowance mustnotreset. Qualifiedrunner/snapshot/198pins
+were NOT edited; recovery source/protocol compatibility stillrequiresreview.
+NEXT userMac runs raw check-host-policy.sh (new read-onlySSHcollector) and
+returnsDone. It saves host-policy-*.log +latest-host-policy-log.txt locally.
+Probe reads effectiveKillUserProcesses/UserStopDelayUSec, usercgroupresources,
+accessiblejournal andowncoredumpmetadata. NoGPU/model/changes. Causeunknown.
+No study/billing/budget/precision/heldout/researchadmission change.
+
+LATEST October25 WIDE process check confirms queue/workers gone (headeronly).
+Read report/checks/2026-10-25-matched-panel-host-events.json. HostbootSept28
+15:01:41 rulesouthostreboot; currentCPUtimeulimitunlimited (pastlimitsunverified).
+Journal restricted: no system/kernelOOM evidence available. Visible15:45:47
+usermanagerShutdown entry PRECEDES remaininglaunch15:45:56, cannotexplainlaterstop.
+ActualjobSSHdisconnect15:46:20; thirdmatrixlogstillupdated16:44. Immediate
+logoutHUPcause notsupported; delayedcleanup/OOM/othercause UNKNOWN. No blaming
+userorclaimingrootcause, no promiseordinarynohuphandlesallserverpolicies.
+NEXT userMac runs raw matched-panel-overnight-session-20261025/
+download-overnight-evidence.sh: copiessecondcase archive/sidecar,newlauncherlog,
+pid/staleexit/journal/staleindex/progress/acceptance and thirdattempt recursively,
+with scp-p toretainoriginalmtimes. No remotecommand/mutation/GPUwork byhelper.
+Then independently verifysecondcase and inspectpartialthird. Stillonlyfirst
+caseindependentlyaccepted;2reportedcomplete/20, noaggregate/researchadmission.
+DoNOT retryfrominitialelapsed0/resetoriginalbudget, deleteevidence, editsources,
+relaunchremainingblindly or silentlystitchpartialcase. All198pins/planheld.
+
+LATEST October25 third-case diagnostic report: session starts23:25:01UTC/16:25PDT
+October24, remainsinitial elapsed0/tasks{}, completefalse. matrix.log920B last
+modified16:44PDT, printsA/B/C/D (D50steps/EOT8) withonlydeprecationwarnings.
+exit_status.txt2B lastmodified15:17PDT: staleFIRSTMODE, notovernightresult.
+UserfilteredpsshowsheaderonlyBUTcommandlackedexplicit-ww, longargv couldtruncate;
+use untruncatedps/pgrep beforeassertingallprocessesgone. GPUwas0%/74MiB.
+Read report/checks/2026-10-25-matched-panel-runtime-check.json. Normalnohup/logout
+is supported; delayeduniversitycleanup/OOM/reboot/othercause NOTestablished.
+Correct earlier unconditional logout assurance; job didwork afterlaunch/logout.
+NEXT boot time/CPUlimit/wideprocess/systemevents, preservepartialcase and
+reportedsecond-caseexport. Do NOT retry fromelapsed0: itisinitialsnapshot,
+notzeroGPUruntime; lastlogprovesatleast~19minprogress, totalelapsed/killtime
+unknown. Preserveoriginalpercasebudget; no reset/skip/autoretry/sourceedits.
+No scientificaggregate/researchadmission/paidcompute/billingchange.
+
+LATEST October25 OVERNIGHT QUEUE has only2/20 cases reported committed, GPUidle.
+Read report/checks/2026-10-25-matched-panel-overnight-status.json and raw
+matched-panel-overnight-session-20261025/reported-status.json. Remaining launch
+was22:45:56UTC/15:45:56Pacific October24 in panel.qIXeDn, loglauncher-20261024T224556Z.log.
+clip-00-bank-1 export reportedpassed:109913525bytes/34members,
+SHA230a8d99862b0f051b69cd091138c4b2c2105762c70af0f75b5957656360801c;
+NOT downloaded/independentlyverified yet. Lastline dispatchesclip-01-bank-0
+attempt-01; freshGPUquery0%/74MiB, journalcounter2/20. Causeunknown: possible
+stopped/stalled supervisor/worker, not proven. No healthy-overnight/completion
+claim; oldexit_status0 maystillbefromfirstmode. NEXT inspectthirdcaselogs,
+session/filetimestamps and matchingps processstates. Do NOT restart/retry/delete,
+change sources/plan/tolerances, or claimallcasesfailed. Preservepartialproofs.
+Firstcase remainsindependentlyaccepted; no scientificaggregate/researchadmission,
+newpaidcompute/billingchange. Older remaining-notlaunched notes are historical.
+
+LATEST October24 first broader-panel case is COPIED AND INDEPENDENTLY VERIFIED.
+Read report/checks/2026-10-24-matched-panel-first-verification.md/JSON and raw
+matched-panel-first-session-20261024/independent-verification.json +audit.py.
+Casearchive110221011bytes,34members,SHA7aa64795e19e4b11208909435d03be140713ba7af8fee9ad232c24294597a2c8;
+index47c2f82f4f51f069454657b27c9686a7316b1ae6c85d6c93e5191f9771fa5ed6 agrees
+withall4downloaded index/journal/receipt/membermanifest files. Firstcaseonly1/20;
+scientificaggregate null as required. All198oldpins/58execution/34upstream,
+173logicaltensors/320inputgradientobservations pass; exact prefixes/selection/
+bounds/nativeCUDAprobes and freshA-onlyreplay pass. Local80masktensor/2start
+comparisons match onlythiscase; other260draws notCUDAverified, no newcrossruntimegate.
+Session2406.034s,outer40m26(14:37:16–15:17:42Pacific),peak4.860/3.713GiB under6.882cap.
+No fullcheckpoint reload/newforward/optimizer/tests/rebuild/economics change.
+Acceptance issued: first-case-acceptance.json fileSHA
+c335bf1f23bd0935dbe4c2f7a19025aa9c2d9be28a9ea7fc60f99dcc8d739968.
+NEXT user runs upload-acceptance.sh onMac, then remote continue-panel.sh on
+linux10609 in panel.qIXeDn; both helpers are retained with raw evidence.
+Remaining19 NOT launched yet. Record printed launcher path when user reports.
+Firstcase is reused; original percase80min+15,7GiB/90%,serial/failstop/noautoretry
+and completepanel-only interpretation remain. No researchadmission/paidPod or
+billing/2hold/2.53unreserved/.0792gap change. Older copy-pending notes historical.
+
+LATEST October24 FIRST PANEL CASE is REPORTED FINISHED: user reads0 from
+panel.qIXeDn/exit_status.txt. See report/checks/2026-10-24-matched-panel-first-completion-reported.json.
+This is successful launcher completion, NOT independent evidence acceptance.
+Next user runs runs/pretrained/diagnostic/matched-panel-first-session-20261024/
+download-first-case.sh on Mac to copy exports/*, launcher log, exit status,
+latest-index, journal and panel records. Downloaded/ was empty at preparation.
+Then independently verify external log archive SHA/member manifest, trusted
+frozenhandoff/source/runtime/data/weights, allcase tensors/prefixes/nativeprobe
+and freshA-only replay; only then issue first-case acceptance forremaining19.
+Do not launch/rerun or claim completepanel/primary/convergence result fromexit0.
+No new tests/source edits/handoff rebuild/paidcompute/billingchange/researchadmission.
+Older dispatch/currentstatus-unconfirmed notes below are historical.
+
+LATEST October24 university FIRST PANEL CASE launch is REPORTED by user.
+Read report/checks/2026-10-24-matched-panel-first-status.json. Remote panel.qIXeDn
+in matched-panel-transfer-20261024/unpacked/matched-panel-20261024/runs/;
+launcher-20261024T213715Z.log prints Starting panel case clip-00-bank-0 at
+cases/clip-00-bank-0/attempt-01. This proves dispatch was reached, NOT completion,
+current GPU utilization, numerical pass or independently verified export.
+NEXT inspect matrix.log/replay.log and exit_status.txt; do not relaunch/skip,
+retry or start remaining19. Startup GPU table is an earlier snapshot, notlive.
+Raw matched-panel-first-session-20261024 has reported-status.json and empty
+ downloaded/ for later evidence. No new tests/source edits/handoff rebuild,
+paidcompute/billingchange or researchadmission. First export still needs review.
+Older manual-transfer/no-launch notes below are historical before this report.
+
+LATEST October24 matched-panel CURRENT HOST CHECK received. Read
+report/checks/2026-10-24-matched-panel-host.json. User reports linux10609,
+RTX3070 UUIDGPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52,driver580.178.04,
+8192MiB total/74MiB used; CUDAcomputePID output empty. Exact frozen host/UUID/
+driver matches; shared filesystem2.2Tfree >12GiB, personalquota not verified.
+Existing final archive/sidecar/helper hashes rechecked; no rebuild/tests repeated.
+Next MANUAL fresh matched-panel-transfer-20261024 directory and fourfile SCP,
+externalhash verify/extract, then launcher FIRST mode only. No university upload
+or GPU job observed yet; do not claim running until user reports launcher output.
+Retain archive7ff46ec3c3fcd4106adfe6514aeb77f33d4773957312beffc6a317b3b22de792.
+Independent firstcase export review is still required before remaining19queue.
+No paidcompute/billingchange/researchadmission; software identity enforced byworker.
+
+LATEST October24 matched-panel RUNNER and OFFLINE HANDOFF are implemented/tested.
+Read docs/matched_panel_handoff.md and report/checks/2026-10-24-matched-panel-runner.md/JSON.
+The frozen plan/file hash and51project/34upstream identities are unchanged;
+all198old scientific pins still match. New case/journal/I/O/supervisor modules,
+thin CLI/builder and detached university launcher bind58execution sources.
+110focusedlocalchecks (40new) pass, zero skips; all40newchecks alsoPASS
+after fresh extraction. JUnit/rawCPUevidence are retained in the preparation. CPU evidence uses real tiny upstream models plus
+parent-pinned freshA-only workers; synthetic loss tables test analysis math
+only. CPU fixtures cannot qualify as CUDA cases. No twenty-case model run,
+new university upload/job, paidcompute or research admission has occurred.
+First mode runs ONLY clip-00-bank-0, exports and stops for independent local
+review; a matching acceptance marker is required before the remaining19.
+Atomic journal/recovery reverify whole cases and exports, preserve partials,
+refuse automatic retry/skip and never rerun numerically complete work to fix
+export I/O. Samehost/GPUUUID/driver/software,7GiB/90%,12GiBfree,256MiB exports
+and per-case80min+15s remain; per-case deadline covers verification/export too.
+Incomplete panels expose progress only, no scientific mean. Complete analysis
+keeps3scorebanks separate, averages2technicalbankswithinclip then10clips.
+No new tolerance, canonical method, YAML, optimizer or held-out pixel change.
+Mask seeds regenerate in the pinned campus runtime; local2.14.1 hash references
+are not new2.8.0CUDA gates. Timings stay outside A40 economics. Budget/billing
+2hold/2.53unreserved/.0792unassignedgap unchanged. Next collect CURRENT campus
+hostname/GPU UUID/driver/memory/free-space check, then manual firstcase handoff.
+Do not launch the19case queue before reviewed first-case export acceptance.
+Raw preparation: runs/pretrained/diagnostic/matched-panel-handoff-20261024.
+The older notimplemented predeclaration paragraphs below are historical.
+
+LATEST October24 broader matched-panel PREDECLARATION is frozen/tested OFFLINE.
+Read docs/matched_panel_diagnostic_plan.md and
+report/checks/2026-10-24-matched-panel-predeclaration.md/JSON.
+configs/matched_panel_diagnostic_v1.json SHA996717379099048f1ceb2691b2eaf62914710cead6aef92bf96d0af46408bb84;
+canonical plan hashf6b81dec841aeee703413dba23ea16afe3dbf14736edecadc0f7830f3ded34ae.
+New models/matched_panel_plan.py + thin scripts/prepare_matched_panel_plan.py
+freeze/verify metadata ONLY;36new/67focusedtestsPASS,zero skips.280CPU mask
+realizations/1120logical masktensors verified in seed-auditJSON. Local sampler
+PyTorch2.14.1 vs required campus2.8.0cu128; hashes are local references only,
+NOT new GPU gates or cross-runtime equality. No pixels/weights/CUDA/model
+forward in planner/seed audit; legacy CPU calibration tests use tiny fixtures.
+Panel: first10existing trainingmonitors,2distinctattack banks each,20cases,
+80matrixarms+20freshA-only replay. Sharedstarts/targets/main+2auditbanks within
+clip; fixedstep2/radius4,2restarts,A20/4 B50/4 C20/8 D50/8. Full20case integrity
+required; equalmean2technicalbankswithinclip thenequalmean10clips,scorebanks
+separate. No numericalstrengthmargin/automaticprimaryorconvergencepass, no
+historicalpilot aggregate or claimunseenclip0. Full researchcalibrationpending.
+Reference-repetition13.65h/25%margin17.07h are scenarios NOT bounds; prescribed
+casecap80m+grace15 each; serialuniversityonly,no paidcompute. Keep7GiB/90%cap,
+256MiBexports,12GiBfree beforepanel. Verifyfirstcase beforequeue; stoponfailure,
+noautomaticretry/skip, atomicverifiedwholecase receipts forresume. Those are
+REQUIREMENTS: GPUrunner/journal/aggregator/handoff NOT IMPLEMENTED OR LAUNCHED.
+NEXT implement andCPUtest explicitplan-bound runner/firstcaseacceptance/journal/
+complete-panelaggregator, thenbuildverifiedhandoff. OldsingleclipCLI cannot
+consume this plan; don't monkeypatchglobal seed or fakevideoIDs. Future execution
+sources bind separately to immutable plan. No SSH action is needed until ready.
+Newplan binds51project/34upstream sources. All198oldnonMDpins and49priorbound
+source files unchanged. Existingrawaudit.py expects its original49-module
+snapshot inventory; addedplanner is an unreferenced new module, not source
+content drift. Preserve original proof/archives; don't rewrite prior reports.
+No YAML/heldout/budget/billingchange,2hold/2.53unreserved/.0792gap unchanged.
+Raw preparation: runs/pretrained/diagnostic/matched-panel-predeclaration-20261024.
+Initialunexecuteddevelopmentdraft retained; strictJSONtype edits now reject.
+
 LATEST October24 university matched run is COPIED AND INDEPENDENTLY VERIFIED.
 Read report/checks/2026-10-24-university-matched.md/JSON. Raw
 runs/pretrained/diagnostic/university-matched-session-20261024 has downloaded/,

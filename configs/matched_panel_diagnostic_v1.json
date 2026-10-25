@@ -1,0 +1,1375 @@
+{
+  "analysis": {
+    "aggregate": "mean-two-attack-banks-within-clip-then-equal-mean-ten-clips",
+    "automatic_attack_convergence_pass": false,
+    "automatic_primary_or_arm_choice": false,
+    "bank_order": [
+      "main",
+      "audit_0",
+      "audit_1"
+    ],
+    "case_contrasts": [
+      "B-A",
+      "D-C",
+      "C-A",
+      "D-B"
+    ],
+    "historical_clip_is_unseen": false,
+    "historical_one_clip_result_included": false,
+    "numeric_strength_margin_invented": false,
+    "partial_panel_scientific_aggregate_allowed": false,
+    "positive_step_gaps": "report magnitude and bank consistency for review; no automatic setting change",
+    "relative_gap_if_denominator_zero": "undefined-report-absolute-difference",
+    "report_also": [
+      "all-case-paired-losses",
+      "per-clip-mean",
+      "median-min-max-across-clips",
+      "positive-zero-negative-clip-counts",
+      "relative-gap-to-lower-setting-adversarial-loss"
+    ],
+    "score_banks_pooled_or_selected": false,
+    "statistical_independence_unit": "clip; bank replicates are paired technical replicates"
+  },
+  "cases": [
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 0,
+      "attack_seeds": [
+        4978245004964002603,
+        2053749140664094328,
+        7688537577162168908,
+        3372307446747785755,
+        8839695015624350697,
+        9151111586599282362,
+        6689934960331201194,
+        7381274642247011065
+      ],
+      "case_id": "clip-00-bank-0",
+      "clip_index": 0,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          2485534733199394824,
+          3868926702265785244,
+          2038810232386867787,
+          8998721355868401762
+        ],
+        "audit_1": [
+          3359206781905186147,
+          3764504952447225726,
+          2584061919553454759,
+          5142525528510379370
+        ],
+        "main": [
+          7663668631312214948,
+          5170609761436462360,
+          1775788905551855894,
+          1722261158624976689
+        ]
+      },
+      "start_seed": 2666479234513055845,
+      "video_id": "v_BreastStroke_g10_c02"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 1,
+      "attack_seeds": [
+        6686128825461129393,
+        2313752975595035226,
+        5238987550302497333,
+        1798117420626975962,
+        8119242718461066558,
+        4705733613761683929,
+        9097347806589538383,
+        6972973279558782952
+      ],
+      "case_id": "clip-00-bank-1",
+      "clip_index": 0,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          2485534733199394824,
+          3868926702265785244,
+          2038810232386867787,
+          8998721355868401762
+        ],
+        "audit_1": [
+          3359206781905186147,
+          3764504952447225726,
+          2584061919553454759,
+          5142525528510379370
+        ],
+        "main": [
+          7663668631312214948,
+          5170609761436462360,
+          1775788905551855894,
+          1722261158624976689
+        ]
+      },
+      "start_seed": 2666479234513055845,
+      "video_id": "v_BreastStroke_g10_c02"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 0,
+      "attack_seeds": [
+        7325591768599490283,
+        2162457286995050257,
+        7576254019510008178,
+        7333216987403622330,
+        3637662013523520284,
+        6609849291514245847,
+        7645641512445858066,
+        2442476181528322468
+      ],
+      "case_id": "clip-01-bank-0",
+      "clip_index": 1,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          6865077130675589139,
+          2987104081146759987,
+          2407108010994533615,
+          3356863142229426554
+        ],
+        "audit_1": [
+          4469602337301567772,
+          8050620975595608793,
+          4128655886150471742,
+          6661235065232988459
+        ],
+        "main": [
+          2921217119174446419,
+          7794830953714318875,
+          1602389155357011505,
+          878279363011391104
+        ]
+      },
+      "start_seed": 8036684708347874517,
+      "video_id": "v_JumpRope_g16_c02"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 1,
+      "attack_seeds": [
+        9098283320828189659,
+        6351139281118201756,
+        3293529103594088035,
+        1939032769376155544,
+        5898991066409058502,
+        8137054877987655623,
+        3306678747488975659,
+        7183815754617802266
+      ],
+      "case_id": "clip-01-bank-1",
+      "clip_index": 1,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          6865077130675589139,
+          2987104081146759987,
+          2407108010994533615,
+          3356863142229426554
+        ],
+        "audit_1": [
+          4469602337301567772,
+          8050620975595608793,
+          4128655886150471742,
+          6661235065232988459
+        ],
+        "main": [
+          2921217119174446419,
+          7794830953714318875,
+          1602389155357011505,
+          878279363011391104
+        ]
+      },
+      "start_seed": 8036684708347874517,
+      "video_id": "v_JumpRope_g16_c02"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 0,
+      "attack_seeds": [
+        2954751191271188546,
+        6410736777774798328,
+        2986732766657835828,
+        7672370218630392541,
+        4288578115833758545,
+        1798418998620875983,
+        7396937293956009131,
+        83201991332504586
+      ],
+      "case_id": "clip-02-bank-0",
+      "clip_index": 2,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          2123494566845719935,
+          6978157230021080219,
+          661261706025518708,
+          7707836063465216959
+        ],
+        "audit_1": [
+          5538360902577601055,
+          637240258096579225,
+          8012090047560486554,
+          4122308946069249676
+        ],
+        "main": [
+          8116249139095343000,
+          1344190030450479658,
+          2390007203067420467,
+          7837653030855039116
+        ]
+      },
+      "start_seed": 2253031781031991413,
+      "video_id": "v_Swing_g20_c03"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 1,
+      "attack_seeds": [
+        3130429742079975418,
+        7718638112333801021,
+        3747579629142225490,
+        6404578988911876550,
+        4162046965876666991,
+        4251875310265479189,
+        5915136493797165740,
+        2090633391927321149
+      ],
+      "case_id": "clip-02-bank-1",
+      "clip_index": 2,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          2123494566845719935,
+          6978157230021080219,
+          661261706025518708,
+          7707836063465216959
+        ],
+        "audit_1": [
+          5538360902577601055,
+          637240258096579225,
+          8012090047560486554,
+          4122308946069249676
+        ],
+        "main": [
+          8116249139095343000,
+          1344190030450479658,
+          2390007203067420467,
+          7837653030855039116
+        ]
+      },
+      "start_seed": 2253031781031991413,
+      "video_id": "v_Swing_g20_c03"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 0,
+      "attack_seeds": [
+        4051914406489413749,
+        3253852290256889393,
+        5789569016841495390,
+        5469362942606826031,
+        8944376936510366758,
+        5867994880450583873,
+        275124379906739710,
+        6755735673242438250
+      ],
+      "case_id": "clip-03-bank-0",
+      "clip_index": 3,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          3439036183655166833,
+          8174962152196062290,
+          7104031298459459479,
+          3474946074177652680
+        ],
+        "audit_1": [
+          6251834607006903650,
+          2262124091330004103,
+          6929618863681618683,
+          2084755358432007415
+        ],
+        "main": [
+          7768953272542832715,
+          6018718039885994861,
+          3950165323878327811,
+          6605370643290262006
+        ]
+      },
+      "start_seed": 781972971550765365,
+      "video_id": "v_TennisSwing_g14_c04"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 1,
+      "attack_seeds": [
+        2421240010009905651,
+        7106038264315296997,
+        7613776470754177,
+        8282586619155159061,
+        7849312100090790312,
+        5503100516212067905,
+        5635725309715843759,
+        4683507030121228222
+      ],
+      "case_id": "clip-03-bank-1",
+      "clip_index": 3,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          3439036183655166833,
+          8174962152196062290,
+          7104031298459459479,
+          3474946074177652680
+        ],
+        "audit_1": [
+          6251834607006903650,
+          2262124091330004103,
+          6929618863681618683,
+          2084755358432007415
+        ],
+        "main": [
+          7768953272542832715,
+          6018718039885994861,
+          3950165323878327811,
+          6605370643290262006
+        ]
+      },
+      "start_seed": 781972971550765365,
+      "video_id": "v_TennisSwing_g14_c04"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 0,
+      "attack_seeds": [
+        4781968483147972793,
+        2640665831724162623,
+        1110847162513742276,
+        6386821660735275405,
+        3906136916319670928,
+        7328364865197648207,
+        3268767803368142423,
+        3402842777712574730
+      ],
+      "case_id": "clip-04-bank-0",
+      "clip_index": 4,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          1412556448000747193,
+          8612640111376175192,
+          3467653271041350362,
+          224219675934042273
+        ],
+        "audit_1": [
+          2724997372448992098,
+          8128383788553013640,
+          7041775178406657228,
+          6742442235556780874
+        ],
+        "main": [
+          4363325927211836383,
+          6309202243632025775,
+          1799771626332181138,
+          5347006685354124253
+        ]
+      },
+      "start_seed": 8269759542308493429,
+      "video_id": "v_FloorGymnastics_g17_c01"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 1,
+      "attack_seeds": [
+        7353877960741440203,
+        1399991964443527006,
+        3533422420792366015,
+        1409129445399630751,
+        3177200754341511745,
+        7349202161507984873,
+        7131696731999574985,
+        1777219111240614822
+      ],
+      "case_id": "clip-04-bank-1",
+      "clip_index": 4,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          1412556448000747193,
+          8612640111376175192,
+          3467653271041350362,
+          224219675934042273
+        ],
+        "audit_1": [
+          2724997372448992098,
+          8128383788553013640,
+          7041775178406657228,
+          6742442235556780874
+        ],
+        "main": [
+          4363325927211836383,
+          6309202243632025775,
+          1799771626332181138,
+          5347006685354124253
+        ]
+      },
+      "start_seed": 8269759542308493429,
+      "video_id": "v_FloorGymnastics_g17_c01"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 0,
+      "attack_seeds": [
+        6555637412793232583,
+        8055785747287841183,
+        6552045194160794666,
+        6663923661397622131,
+        3618852652490647480,
+        8989632076820386092,
+        6193215588586665864,
+        6558659376556081411
+      ],
+      "case_id": "clip-05-bank-0",
+      "clip_index": 5,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          2274057798749795445,
+          1245812157847484175,
+          7370912507136147025,
+          7620169358372530480
+        ],
+        "audit_1": [
+          6553332679509243023,
+          4864887396086378023,
+          8547705488100895298,
+          4157144781396657139
+        ],
+        "main": [
+          565322557269100001,
+          2316725319053968773,
+          4956731781096627430,
+          5211875317424624074
+        ]
+      },
+      "start_seed": 1631730737257924906,
+      "video_id": "v_Biking_g16_c04"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 1,
+      "attack_seeds": [
+        5128398056013559298,
+        1372409355747520613,
+        6747135346983034107,
+        2148736306059033382,
+        7031153561112046819,
+        4347636661332594308,
+        2089428577419371165,
+        5759633335896248779
+      ],
+      "case_id": "clip-05-bank-1",
+      "clip_index": 5,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          2274057798749795445,
+          1245812157847484175,
+          7370912507136147025,
+          7620169358372530480
+        ],
+        "audit_1": [
+          6553332679509243023,
+          4864887396086378023,
+          8547705488100895298,
+          4157144781396657139
+        ],
+        "main": [
+          565322557269100001,
+          2316725319053968773,
+          4956731781096627430,
+          5211875317424624074
+        ]
+      },
+      "start_seed": 1631730737257924906,
+      "video_id": "v_Biking_g16_c04"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 0,
+      "attack_seeds": [
+        1614453369959917990,
+        727440721214000782,
+        3062120557713095604,
+        5275921961036143038,
+        4236825431899103341,
+        5739954621770355806,
+        5067294924362186378,
+        4116176248142702801
+      ],
+      "case_id": "clip-06-bank-0",
+      "clip_index": 6,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          8883260107219210920,
+          3740578705731587917,
+          4598070863484205208,
+          6292991569627282724
+        ],
+        "audit_1": [
+          6457551993196915233,
+          700903860019740966,
+          6010506567349737043,
+          3519041020040356682
+        ],
+        "main": [
+          6980620542896841946,
+          3927230151882678334,
+          2090021650695850772,
+          7355677888086512913
+        ]
+      },
+      "start_seed": 4387335228884834574,
+      "video_id": "v_Archery_g19_c04"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 1,
+      "attack_seeds": [
+        5369130418571409682,
+        5099468852621757176,
+        2114593095495571974,
+        1974516762687774988,
+        7302645784284323081,
+        3501106154110143869,
+        6847514817625975967,
+        1550653913005817190
+      ],
+      "case_id": "clip-06-bank-1",
+      "clip_index": 6,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          8883260107219210920,
+          3740578705731587917,
+          4598070863484205208,
+          6292991569627282724
+        ],
+        "audit_1": [
+          6457551993196915233,
+          700903860019740966,
+          6010506567349737043,
+          3519041020040356682
+        ],
+        "main": [
+          6980620542896841946,
+          3927230151882678334,
+          2090021650695850772,
+          7355677888086512913
+        ]
+      },
+      "start_seed": 4387335228884834574,
+      "video_id": "v_Archery_g19_c04"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 0,
+      "attack_seeds": [
+        9136506908346944771,
+        1298908678059435795,
+        6722793613364541276,
+        7340957388604198530,
+        1873612031208796641,
+        9091434329581514678,
+        8984448161686373863,
+        3002835293559894947
+      ],
+      "case_id": "clip-07-bank-0",
+      "clip_index": 7,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          1309473897181155794,
+          5045625331583536420,
+          2647482928612847684,
+          4735952375122094325
+        ],
+        "audit_1": [
+          3717038267409354517,
+          4142079908256784558,
+          283752379590771772,
+          2700639206453298916
+        ],
+        "main": [
+          7071104293252088870,
+          3315235051887883984,
+          1531949585487945718,
+          8154851785243073958
+        ]
+      },
+      "start_seed": 7708948360380491318,
+      "video_id": "v_YoYo_g14_c03"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 1,
+      "attack_seeds": [
+        3533351233434324571,
+        5014018073161127022,
+        3719284458026631465,
+        8047069454371096505,
+        460721235774297730,
+        2893878970511863232,
+        823171843664455404,
+        1797753383078877148
+      ],
+      "case_id": "clip-07-bank-1",
+      "clip_index": 7,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          1309473897181155794,
+          5045625331583536420,
+          2647482928612847684,
+          4735952375122094325
+        ],
+        "audit_1": [
+          3717038267409354517,
+          4142079908256784558,
+          283752379590771772,
+          2700639206453298916
+        ],
+        "main": [
+          7071104293252088870,
+          3315235051887883984,
+          1531949585487945718,
+          8154851785243073958
+        ]
+      },
+      "start_seed": 7708948360380491318,
+      "video_id": "v_YoYo_g14_c03"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 0,
+      "attack_seeds": [
+        3657212544254289669,
+        6639371587479660606,
+        7035022563229969098,
+        8976569213053205718,
+        3921284066973726448,
+        7257425219020917613,
+        9176914653292398789,
+        2122773233386955223
+      ],
+      "case_id": "clip-08-bank-0",
+      "clip_index": 8,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          6024398405075233821,
+          751385599293961126,
+          1200693678944150001,
+          5737382630188671569
+        ],
+        "audit_1": [
+          6144099739508622670,
+          8342898138983265402,
+          8953454841365155472,
+          5420035146954176579
+        ],
+        "main": [
+          232574187328129937,
+          7104308727888912487,
+          4168649847318474756,
+          6132523553225716583
+        ]
+      },
+      "start_seed": 2725178599841308772,
+      "video_id": "v_Bowling_g19_c04"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 1,
+      "attack_seeds": [
+        3041142271295352637,
+        3938079372866227537,
+        2391657794092464336,
+        8173702624429664079,
+        4393281025630647160,
+        7924116738579742300,
+        5307575046118331465,
+        8881815753522873217
+      ],
+      "case_id": "clip-08-bank-1",
+      "clip_index": 8,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          6024398405075233821,
+          751385599293961126,
+          1200693678944150001,
+          5737382630188671569
+        ],
+        "audit_1": [
+          6144099739508622670,
+          8342898138983265402,
+          8953454841365155472,
+          5420035146954176579
+        ],
+        "main": [
+          232574187328129937,
+          7104308727888912487,
+          4168649847318474756,
+          6132523553225716583
+        ]
+      },
+      "start_seed": 2725178599841308772,
+      "video_id": "v_Bowling_g19_c04"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 0,
+      "attack_seeds": [
+        3760560399946970359,
+        2193576906658762319,
+        3797515984888839711,
+        8203730887915892896,
+        8619774474824888539,
+        4586362053471691505,
+        8340322784061091113,
+        6218576662140505963
+      ],
+      "case_id": "clip-09-bank-0",
+      "clip_index": 9,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          2525351441025198541,
+          34262157272906839,
+          5585121150790945515,
+          1730619352421151358
+        ],
+        "audit_1": [
+          5601842862647506959,
+          5273304118032632372,
+          7769917593254246927,
+          3335329007665717195
+        ],
+        "main": [
+          1268181623874548167,
+          8315468404306646789,
+          5869456866933260658,
+          5816083780618664598
+        ]
+      },
+      "start_seed": 2958409440378179524,
+      "video_id": "v_HandStandPushups_g21_c01"
+    },
+    {
+      "arm_order": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "attack_bank": 1,
+      "attack_seeds": [
+        1460022042820416398,
+        9004113236512655665,
+        6041829024165990262,
+        4515131250745568508,
+        1706687094895084491,
+        2416187759031361851,
+        5594421559034750726,
+        9065916134516268652
+      ],
+      "case_id": "clip-09-bank-1",
+      "clip_index": 9,
+      "fresh_replay_arm": "A",
+      "scoring_seeds": {
+        "audit_0": [
+          2525351441025198541,
+          34262157272906839,
+          5585121150790945515,
+          1730619352421151358
+        ],
+        "audit_1": [
+          5601842862647506959,
+          5273304118032632372,
+          7769917593254246927,
+          3335329007665717195
+        ],
+        "main": [
+          1268181623874548167,
+          8315468404306646789,
+          5869456866933260658,
+          5816083780618664598
+        ]
+      },
+      "start_seed": 2958409440378179524,
+      "video_id": "v_HandStandPushups_g21_c01"
+    }
+  ],
+  "counts": {
+    "PGD_objective_calls_excluding_posthoc_scoring": 6700,
+    "attack_banks_per_clip": 2,
+    "clips": 10,
+    "fresh_A_replays": 20,
+    "input_gradient_calls": 6400,
+    "matrix_arms": 80,
+    "matrix_cases": 20,
+    "total_PGD_arms": 100
+  },
+  "diagnostic_classes": 10,
+  "diagnostic_only": true,
+  "execution_requirements": {
+    "allocator_device_fraction_max": 0.9,
+    "allocator_max_bytes": 7516192768,
+    "case_journal": "atomic and bound to frozen plan and per-case identities",
+    "child_kill_grace_seconds": 10,
+    "export_limit_bytes_per_case": 268435456,
+    "failure_action": "stop queue, preserve partial evidence; no automatic retry or tolerance/backend fallback",
+    "first_case": "clip-00-bank-0",
+    "fresh_host_GPU_compute_process_and_free_space_check_required": true,
+    "matrix_worker_seconds": 3600,
+    "max_parallel_cases": 1,
+    "minimum_free_disk_bytes_before_panel": 12884901888,
+    "no_PGD_iteration_resume": true,
+    "outer_kill_grace_seconds": 15,
+    "outer_seconds": 4800,
+    "parent_seconds": 4620,
+    "replay_worker_seconds": 900,
+    "resume": "reuse only independently verified whole-case receipts with exact plan/runtime/source identity; new attempt for partial cases",
+    "same_host_GPU_UUID_driver_and_software_across_panel": true,
+    "site": "reviewed-university-host-only",
+    "verify_first_case_before_remaining_queue": true
+  },
+  "identity": {
+    "checkpoint_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+    "component_weights": {
+      "encoder": "6ed6252077b417383679d6594d3c8e1b179dd989fc2f111e2e0012013d9c5c9a",
+      "predictor": "22074aaf24f7e027ca85b5414f6b2651efaeaebe6a63413ed506f1b28046ef2c",
+      "target_encoder": "706035d33251fb7e71aef53f3134ad1ce470399feeb53e08019eb82ed360c8de"
+    },
+    "input_files_sha256": {
+      "configs/budget_study_plan.yaml": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+      "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+      "data/manifests/ucf101-staged-20x5-v1/metadata.json": "0f27d2a7d498faa8cb4f22d0ac5c50c3058d26823c4f4977f9b26cbfc0adf61d",
+      "data/manifests/ucf101-staged-20x5-v1/train.csv": "7932d78759873053f39a0bf7ef3240c58e7f2498216a0d5343c1207d029dedcc",
+      "data/manifests/ucf101-staged-20x5-v1/train_monitor.csv": "d56275b86cc3b5d2866c9e9d5d53362c17dda36c69bccb6553c4d53b32d1559d",
+      "data/processed/staged-exploration-v1/preparation.json": "ca130b87c8aac5c66e1f1522a7f13096724897596d671cb94cf1703aef1603f9",
+      "data/processed/staged-exploration-v1/train/index.json": "d986727b619c7b3af2e0c07b1f59596f42fb0747961920516280ec9094553ae6",
+      "report/checks/2026-10-24-university-matched.json": "a34565a9c08c635df8b7f8f560f6a8bb28e7ca4b70c7c5781631fabb2154decf"
+    },
+    "reference_GPU_identity": "NVIDIA GeForce RTX 3070, GPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52, 8192, 580.178.04",
+    "reference_archive_sha256": "3e9d17e10c9cdd1fa814ad2ccdbceeef71921158c3b34634023a79e145352f2b",
+    "reference_host": "linux10609",
+    "reference_runtime_for_future_match": {
+      "architecture": "x86_64",
+      "cublas_workspace_config": ":4096:8",
+      "cuda": "12.8",
+      "cudnn": 91002,
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": true,
+      "cudnn_enabled": true,
+      "cudnn_tf32": false,
+      "deterministic_algorithms": true,
+      "deterministic_warn_only": false,
+      "device": "cuda",
+      "devices": 1,
+      "gpu": "NVIDIA GeForce RTX 3070",
+      "matmul_precision": "highest",
+      "matmul_tf32": false,
+      "model_execution": {
+        "activation_checkpointing": {
+          "encoder": true,
+          "predictor": true,
+          "target_encoder": false
+        },
+        "context_patch": {
+          "bias": true,
+          "dilation": [
+            1,
+            1,
+            1
+          ],
+          "groups": 1,
+          "kernel": [
+            2,
+            16,
+            16
+          ],
+          "module": "models.precision_patch.PrecisionPatchEmbed3D",
+          "padding": [
+            0,
+            0,
+            0
+          ],
+          "padding_mode": "zeros",
+          "projection": "Conv3d",
+          "stride": [
+            2,
+            16,
+            16
+          ],
+          "weight_shape": [
+            1024,
+            3,
+            2,
+            16,
+            16
+          ]
+        },
+        "diagnostic_only": true,
+        "native_backward": null,
+        "policy": "shared-fp64-native",
+        "precision": {
+          "autocast": false,
+          "backward": "native",
+          "backward_accumulation": "torch.float32",
+          "backward_algorithm": "aten.convolution_backward-first-order-v1",
+          "forward": "nonoverlapping-unfold-fp64-mm-separate-bias-cast-fp32-transposed-v1",
+          "higher_order": false,
+          "model_modules": {
+            "encoder": "src.models.vision_transformer.VisionTransformer",
+            "predictor": "src.models.predictor.VisionTransformerPredictor",
+            "target_encoder": "src.models.vision_transformer.VisionTransformer"
+          },
+          "normalization": {
+            "algorithm": "(raw_rgb_fp32 - mean_fp32) / std_fp32",
+            "mean": [
+              0.48500001430511475,
+              0.4560000002384186,
+              0.4059999883174896
+            ],
+            "std": [
+              0.2290000021457672,
+              0.2240000069141388,
+              0.22499999403953552
+            ]
+          },
+          "parameters": "torch.float32",
+          "patch_accumulation": "torch.float64",
+          "patch_tokens": "torch.float32",
+          "tail": "original FP32 encoder/predictor and masked L1",
+          "target": "original frozen FP32 Conv3d and FP32 layer_norm"
+        },
+        "schema_version": 2,
+        "study_adopted": false,
+        "target_patch": {
+          "bias": true,
+          "dilation": [
+            1,
+            1,
+            1
+          ],
+          "groups": 1,
+          "kernel": [
+            2,
+            16,
+            16
+          ],
+          "module": "src.models.utils.patch_embed.PatchEmbed3D",
+          "padding": [
+            0,
+            0,
+            0
+          ],
+          "padding_mode": "zeros",
+          "projection": "Conv3d",
+          "stride": [
+            2,
+            16,
+            16
+          ],
+          "weight_shape": [
+            1024,
+            3,
+            2,
+            16,
+            16
+          ]
+        }
+      },
+      "numpy": "2.4.6",
+      "python": "3.11.17",
+      "threads": 4,
+      "torch": "2.8.0+cu128"
+    },
+    "source_sha256": {
+      "attacks/__init__.py": "41a090d550527278b09bfb62fbed810805b379151b7a5ab7cb5469bc12ee01cb",
+      "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+      "datasets/__init__.py": "d81c61d6627e4e28075736950978c3cca23843d93fb213454458bd32f5357cf1",
+      "datasets/prepared.py": "531dcb4e4e69e3a59890e020940a6a8d0459d47100154730eabc6d267c5e2bb5",
+      "datasets/staged_files.py": "02771aaa232daaad287e74a96bc152b3d7c5c5c4ffff542c8574bd9faf36b2a8",
+      "datasets/staged_preparation.py": "45631fbfcea87ca44c9b18f0147c81f461468b6e929818377ac70f8e4204b5dc",
+      "datasets/staged_subset.py": "29803ffa6142922135a4ae45b85c5933fd199398b301f8ae4b502b6235d9ff8e",
+      "datasets/ucf101.py": "a99c02a11febc1328fe4a8b40277530e08c8d07148bf663f13e73da0200f87c2",
+      "datasets/video.py": "04f337169dc3f29b51b25752f570a82bd21df1c8b07e0a3b0e28eb39282afa17",
+      "models/__init__.py": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5",
+      "models/calibration.py": "bd3ec55ca45f9788f08fb1f5342454adf86aedb20db3ba6169dfe02ecf6e92f6",
+      "models/checkpointing.py": "edc5940bc73db42c89b3494be9b0f2098680762f4fa972305f51abe47c3d8373",
+      "models/cuda_convolution.py": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3",
+      "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+      "models/diagnostics.py": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0",
+      "models/evaluation.py": "1431951d158b57b615208006edb5365a6bad910b2a14e0aa782a1c6f82034089",
+      "models/evaluation_checkpoint.py": "c07c5e401be62b76f4bf834b2828c11995302360ce46bdfbfe5146f7c7eb153a",
+      "models/evaluation_store.py": "9503834d106b788c1638b4a57d886259e2cf6f6be5069b18a1105e8beac48ee1",
+      "models/execution.py": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba",
+      "models/feasibility_review.py": "ce046bee4a09030ae0e230128949ad34345ff84ac09602bcb1cf8fd991023c59",
+      "models/features.py": "c87fb63f46f6b20b700c1b675de1095c6563cbca01f9141073b1122ef3f87c3a",
+      "models/fixture_state.py": "4f1d891a26caf35a9c42f802e84f650e2e0c7dc0857369794bfef65e54c487d2",
+      "models/gradient_attribution.py": "f8bd9d39dd41c61ffadd8ac882d08a36bb2513a948047632a789c8d0900414d3",
+      "models/hardware_benchmark.py": "059f64d42559588dab64955caa235a3ac23fa3f18e7cb1c98f515f4cda05da3c",
+      "models/hardware_controls.py": "c3ba7e150cd8404a0e0640268972b07cc3b55fa6f2de217afbed353203b46830",
+      "models/matched_attack.py": "21a76e513d36f72bb46e537a6f99425da55d7a76f52a98291037dd4cf660d9c7",
+      "models/matched_diagnostic.py": "3d61b4cabd325c5ccb78fa4fb840fa3af75ebd750b616727cacea085fc8006cf",
+      "models/matched_panel_plan.py": "2cb97be4c85cbf043336ec9f9e4727a5d94dd5ee5a4b72cbb37153ba20c31edb",
+      "models/measured_budget.py": "d1e683a37ab70a5a35631d4fb96f76ea764bdea49053b53abd00472d427e158f",
+      "models/native_diagnostic.py": "c56b29496397d5516416a884ab591ec6de43e0fc4dca1bc05536234e10ea75d9",
+      "models/native_patch.py": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7",
+      "models/native_probe.py": "10dd9afd62615106aa298c1970278dcd9f203979c8006bc150ecbdc0228db762",
+      "models/patch_embed.py": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec",
+      "models/pilot.py": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82",
+      "models/pilot_bundle.py": "d25f0e1f085bb7addcfc855986c7bf984765990cb473be9d5315f5399696a9db",
+      "models/pilot_measurement.py": "3361cd01dc4b23f64e749df877988ecbfe4dfda18ee5d9305c5f25ea33322753",
+      "models/precision_diagnostic.py": "c096e38bf53c4cdc0273a74f3fd0e4be0c1fc197925a71cfa9d633d192bb7d00",
+      "models/precision_patch.py": "30e8a6b28b8f082fd771aaeab5a70a73cf200714ef2b24416a55938f61e9c550",
+      "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+      "models/schedule.py": "d46be0eb89a82a62be392ae20320646590adba83bd6ec6bbb42c6e3849f9dfd8",
+      "models/study_artifacts.py": "c9ace85300c4efcc62e14bf60a89a4c22415497ea8a5ee5f8e3f12230ac8fcad",
+      "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+      "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+      "models/workflow_diagnostic.py": "481978b59318c28975af4f609440a45cd815f681b4ddb6371d37394dc1e047b2",
+      "models/workflow_pilot.py": "40224083b112dac750ea4c93c523c7c9ec93a32dcb679ec2de03e1cc1891cd31",
+      "models/workflow_preflight.py": "7d382d8e3b80c7ce0f667610bdb909518624c29958b9ab70595228a5adaa46db",
+      "scripts/check_matched_attack.py": "5fb7acbb79e46d08f1a5fe1bc1153a79303ffef40ff0620aeddb1e9c07aca5ef",
+      "scripts/check_workflow.py": "d8f16fe58200fba9a34f1cb9892ddb48eecc836473b594ba6d2464b8c08c36c7",
+      "scripts/prepare_matched_attack_handoff.py": "ff75990e691a3ac700d508b3b106cec52960d8529313f37220d8606575ee0370",
+      "scripts/prepare_matched_panel_plan.py": "1dc70d95d1aaa2618076fd35de34508cec1b886f5cd9c42da572628b961e4a9a",
+      "scripts/university_matched_attack.sh": "cc7f5953365307a911a62bc890374cf85a7990091fd2d4d21a8d8df162eaf6b3"
+    },
+    "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812",
+    "upstream_sha256": {
+      "app/vjepa/train.py": "abd6431069d541c96b9b31ec05fce954664c56d2d4ca6d67bb4c9e2ddd775a5f",
+      "configs/train/vitl16/pretrain-256px-16f.yaml": "45d3528ae0e0b08a2da40a54958eff4ecd86321f58cde26d93d84faf9799b48b",
+      "src/datasets/data_manager.py": "6849784a95abaf4d18292460e695a559de514364078d6143c0fee9c4590a7172",
+      "src/datasets/imagenet1k.py": "d040f7a7740cfdb7625c2426688b3bf39260395b670d2ddfd29544b9c65cbd80",
+      "src/datasets/utils/dataloader.py": "c1740e7267378192525f212d56774e44cd58fe5df39dc1b86fadac046869358e",
+      "src/datasets/utils/utils.py": "8f41409489900d7dd9f2342f80d671a7f6f363295f02feaa21c66f06bfe2e0b2",
+      "src/datasets/utils/video/functional.py": "b7e7726cb784bc7e2a7614013258d9f90182259c9ba60945b5a3fead14781fad",
+      "src/datasets/utils/video/randaugment.py": "b0914ae5823aa6ced7b594a3156d2e2ee9a906ebf950b40d24c1a96f5da2acbd",
+      "src/datasets/utils/video/randerase.py": "81be3544ef18564e4c086daad9f596a1b6312bdd8eae15a0157e551eb08f3ab6",
+      "src/datasets/utils/video/transforms.py": "e175b52ce1a23a14b647208435e7524692dd87bbdb5334ee444fd6d1b9a50d64",
+      "src/datasets/utils/video/transforms_builder.py": "e73c2f33045ae502a85177819218cfbc1cabf037e15c6dfa5e70be5b9e12c4ba",
+      "src/datasets/utils/video/volume_transforms.py": "2ac8efe2e91ed1d46436e2b0de43e181d7662f0b0d8bf7eebb4d044bdfe5f8c8",
+      "src/datasets/utils/weighted_sampler.py": "8e528ed8f1fa431b37982f9d618c7f887592ad8129de98e745222c4c84713abd",
+      "src/datasets/utils/worker_init_fn.py": "73205faa33d0fa0b8b8e59ac7f1d79a234346ed13b3100ee0df0a550d4d780a2",
+      "src/datasets/video_dataset.py": "44cee1d4d7a643acb9f26402dcec961f3193240489bb1d2ee89e00515630af4b",
+      "src/hub/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/hub/backbones.py": "391cdde1e9a1da47cb8094bbea5fbbe8acac0135b27e82f1a6ab19c0b39cc692",
+      "src/masks/default.py": "5329acaf6eb8f72a0b2d285944824bc4d61c24598eb6c996cf3a5a62f3d243f9",
+      "src/masks/multiseq_multiblock3d.py": "7ef7cf95b0bee9940ac7654aeb3535278bbafdd6d93b643f4142fd19769456d9",
+      "src/masks/utils.py": "833f111a0fa5ffdbd3a6412e2dace2517c3c178f49c14f8bb631d9f6a070dfd0",
+      "src/models/ac_predictor.py": "5a520ad92b3f78b231aa153a5bbd9f800f880024974109a04d19aed6a0900643",
+      "src/models/attentive_pooler.py": "9be7047d6bfce50575956a57e36d87a37bf63ae84ec92a9ba8649bf1ab7d5feb",
+      "src/models/predictor.py": "3d8481bf2544b85ed92b3feb418e3b6d85ca1f81034c931b8c860f2d3d9aac2b",
+      "src/models/utils/modules.py": "b93f6c7e0747deb216419c000c2878f11a9189024a9adeacfd437e172396dff0",
+      "src/models/utils/patch_embed.py": "1823c40b34410e70eb313360e21678e18a0ee5465b5d47de9f3d967c074f5a9d",
+      "src/models/utils/pos_embs.py": "e6d3b3863ade47b3734a3b443f1bcc93eab02e39bf596ea199517f68ccab443e",
+      "src/models/vision_transformer.py": "9d4fd4e3603311803c105cc5114e2bc12ff28bc11870637dd3969511d9dead74",
+      "src/utils/checkpoint_loader.py": "8ae1c92e095dabed897694101e35393ed5b20da2b51c5bebae3dceda427472ce",
+      "src/utils/distributed.py": "52342428ee4eafaf685471afd91912462057bed59267faec42cf7640d8c08861",
+      "src/utils/logging.py": "0bf5298ecce7e59d90fcb3e4cc68eba988e3e8af4d4a08c91e94bdcd29f76b2e",
+      "src/utils/monitoring.py": "8fc1feb76396af17ed3753d3f9c4ad0b75d3908122a49b209537d6e3653427c5",
+      "src/utils/schedulers.py": "e35b2162c9df04f25ef4dbc51a1e9df41e362dee6d9d2b494321d81e44fe4659",
+      "src/utils/tensors.py": "782b58bd2af456e184750e5318ab773105108383f61b280fe4c7a90f46add2c8",
+      "src/utils/wrappers.py": "cdba99fcad17b1810bf26bb047046182fe0aad620a5786fbf405d8a71bb1f47a"
+    }
+  },
+  "integrity_requirements": [
+    "all-20-cases-complete",
+    "all-four-arms-per-case",
+    "fresh-A-exact-replay-per-case",
+    "exact-shared-starts-and-first-20-step-prefixes",
+    "attack-bank-best-nondecreasing-with-steps",
+    "frozen-clean-target-weights-and-values",
+    "finite-nonzero-input-gradients",
+    "pixel-bounds",
+    "model-modes-RNG-and-parameter-grads-preserved",
+    "matching-frozen-plan-source-runtime-data-weights",
+    "new-native-CUDA-probe-in-each-fresh-worker",
+    "all-artifact-and-archive-hashes-verified"
+  ],
+  "kind": "training-only-matched-panel-plan-v1",
+  "launch_authorized_by_this_file": false,
+  "ordered_clips": [
+    {
+      "class_id": "18",
+      "clip_index": 0,
+      "pixel_sha256": "174d7bd1df51dddb5fc752276c2daeeb761829f2998d43bad078a6f8ea50fc17",
+      "prepared_file": "train/v_BreastStroke_g10_c02.pt",
+      "relative_path": "BreastStroke/v_BreastStroke_g10_c02.avi",
+      "source_group_id": "BreastStroke_g10",
+      "video_id": "v_BreastStroke_g10_c02"
+    },
+    {
+      "class_id": "47",
+      "clip_index": 1,
+      "pixel_sha256": "9687ccedd7ae042db7dc0df44a0c8ccf5d3df3a1ee3c6c85c087327c824336e0",
+      "prepared_file": "train/v_JumpRope_g16_c02.pt",
+      "relative_path": "JumpRope/v_JumpRope_g16_c02.avi",
+      "source_group_id": "JumpRope_g16",
+      "video_id": "v_JumpRope_g16_c02"
+    },
+    {
+      "class_id": "88",
+      "clip_index": 2,
+      "pixel_sha256": "29580a9bf9ff20d29146cec92a8eed8476eee857b55612929a3b1453811ef721",
+      "prepared_file": "train/v_Swing_g20_c03.pt",
+      "relative_path": "Swing/v_Swing_g20_c03.avi",
+      "source_group_id": "Swing_g20",
+      "video_id": "v_Swing_g20_c03"
+    },
+    {
+      "class_id": "91",
+      "clip_index": 3,
+      "pixel_sha256": "b381fb629bd5a440d6099a8c24ceda89e40f38a9194154c75d56114f7132e1c4",
+      "prepared_file": "train/v_TennisSwing_g14_c04.pt",
+      "relative_path": "TennisSwing/v_TennisSwing_g14_c04.avi",
+      "source_group_id": "TennisSwing_g14",
+      "video_id": "v_TennisSwing_g14_c04"
+    },
+    {
+      "class_id": "29",
+      "clip_index": 4,
+      "pixel_sha256": "e09471f804444bf50d7f6b713e46ac856d9658bc6650424cddb4811769b5363b",
+      "prepared_file": "train/v_FloorGymnastics_g17_c01.pt",
+      "relative_path": "FloorGymnastics/v_FloorGymnastics_g17_c01.avi",
+      "source_group_id": "FloorGymnastics_g17",
+      "video_id": "v_FloorGymnastics_g17_c01"
+    },
+    {
+      "class_id": "10",
+      "clip_index": 5,
+      "pixel_sha256": "82dacdf1f4e45598fd55f3f181012e4b860959b725516df4049c2ea81c9a9107",
+      "prepared_file": "train/v_Biking_g16_c04.pt",
+      "relative_path": "Biking/v_Biking_g16_c04.avi",
+      "source_group_id": "Biking_g16",
+      "video_id": "v_Biking_g16_c04"
+    },
+    {
+      "class_id": "2",
+      "clip_index": 6,
+      "pixel_sha256": "28ba5a1c5fd74d8bb5b36eb1e6c7afafc7aff5762cb64714049ee0e723da96a2",
+      "prepared_file": "train/v_Archery_g19_c04.pt",
+      "relative_path": "Archery/v_Archery_g19_c04.avi",
+      "source_group_id": "Archery_g19",
+      "video_id": "v_Archery_g19_c04"
+    },
+    {
+      "class_id": "100",
+      "clip_index": 7,
+      "pixel_sha256": "512076505ad79855746dfc35908b36f599f6bb6178b7557ce78e909996e3de27",
+      "prepared_file": "train/v_YoYo_g14_c03.pt",
+      "relative_path": "YoYo/v_YoYo_g14_c03.avi",
+      "source_group_id": "YoYo_g14",
+      "video_id": "v_YoYo_g14_c03"
+    },
+    {
+      "class_id": "15",
+      "clip_index": 8,
+      "pixel_sha256": "c4334731d197af5a80615bbf061c75243c36a9e808577749180acb0317b85bdd",
+      "prepared_file": "train/v_Bowling_g19_c04.pt",
+      "relative_path": "Bowling/v_Bowling_g19_c04.avi",
+      "source_group_id": "Bowling_g19",
+      "video_id": "v_Bowling_g19_c04"
+    },
+    {
+      "class_id": "36",
+      "clip_index": 9,
+      "pixel_sha256": "5d2c2a57ee924d7c181e8710831266bc42901793a3a825784cb7c2b94a6b3cdb",
+      "prepared_file": "train/v_HandStandPushups_g21_c01.pt",
+      "relative_path": "HandstandPushups/v_HandStandPushups_g21_c01.avi",
+      "source_group_id": "HandstandPushups_g21",
+      "video_id": "v_HandStandPushups_g21_c01"
+    }
+  ],
+  "paid_compute_allowed": false,
+  "panel": "train_monitor",
+  "preserved": {
+    "canonical_evaluation_unchanged": true,
+    "held_out_pixels_closed": true,
+    "new_training_pixels_or_weights_opened_during_planning": false,
+    "no_new_pixel_decode": true,
+    "no_optimizer_or_trajectory": true,
+    "research_step_calibration_still_required": true,
+    "scientific_or_replay_tolerances_relaxed": false,
+    "study_yaml_unchanged": true
+  },
+  "research_admitted": false,
+  "research_result": false,
+  "scheduling_scenarios": {
+    "A40_cost_pool_eligible": false,
+    "calendar_completion_bound": false,
+    "configured_case_limits_sum_hours": 26.666666666666668,
+    "including_all_outer_kill_graces_hours": 26.75,
+    "instrumented_diagnostic_reference_only": true,
+    "reference_is_one_clip_one_bank_only": true,
+    "reference_seconds": 2457.3780396250077,
+    "repeat_reference_for_20_cases_hours": 13.652100220138932,
+    "repeat_reference_with_25pct_scheduling_margin_hours": 17.065125275173664,
+    "runtime_or_memory_bound_inferred_for_other_clips": false,
+    "study_cost_revised": false,
+    "uncompressed_exports_ceiling_bytes": 5368709120
+  },
+  "schema_version": 1,
+  "seeds": {
+    "base": 20261024,
+    "distinct_panel_mask_draws": 280,
+    "globally_checked_for_collisions": true,
+    "historical_one_clip_draws_and_starts_reused": false,
+    "schema": "evaluation-v1-json-sha256-63bit-mask-mod31",
+    "upstream_modulus": 2147483647
+  },
+  "selection": "first-10-original-monitor-rows-in-order",
+  "settings": {
+    "arms": {
+      "A": {
+        "attack_masks": 4,
+        "steps": 20
+      },
+      "B": {
+        "attack_masks": 4,
+        "steps": 50
+      },
+      "C": {
+        "attack_masks": 8,
+        "steps": 20
+      },
+      "D": {
+        "attack_masks": 8,
+        "steps": 50
+      }
+    },
+    "attack_bank_fixed_across_steps_and_restarts": true,
+    "candidate_selection": "attack-bank-loss-only-strict-greater-best-over-clean-starts-iterates",
+    "checkpoint": "released-pretrained-only",
+    "epsilon_255": 4,
+    "execution_policy": "shared-fp64-native",
+    "four_draw_bank": "first-four-of-the-same-eight-draw-bank",
+    "restarts": 2,
+    "scoring_audit_banks": 2,
+    "scoring_draws_per_bank": 4,
+    "shared_across_attack_bank_replicates": [
+      "clean_targets",
+      "start_seed",
+      "scoring_seeds"
+    ],
+    "step_size_255": 2
+  },
+  "status_at_freeze": "specified_not_implemented_or_run",
+  "study_training_classes": 20
+}

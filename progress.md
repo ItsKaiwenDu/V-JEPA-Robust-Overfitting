@@ -1,5 +1,252 @@
 # Research Progress Reports
 
+## 2026-10-25 — Recovered third case independently accepted; 3 of 20 verified
+
+The completed recovery export is safely downloaded and independently verified
+against the frozen plan, 198 original pins, 58 execution sources and 34 upstream
+sources. All 173 retained tensors, 320 gradient observations, attack bounds,
+matched prefixes, native CUDA probes and exact fresh A-only replay pass.
+The complete attended window was 40 minutes 41 seconds; peak allocation was
+4.84 GiB. The failed SCP copy was repaired by downloading existing evidence,
+without repeating model work.
+
+A reconstructed three-case journal preserves both prior cases and first-case
+acceptance. The interrupted attempt's 11 files remain unchanged and excluded
+from completion. The explicitly approved recovery grant is consumed and its
+reviewer acceptance is saved. Seventeen cases remain; the next is
+`clip-01-bank-1` under a reviewed logged attended continuation. No new case or
+full-panel analysis has started. Historical failure causes, research gates
+and budget constraints remain. [Independent verification](report/checks/2026-10-25-matched-panel-recovery-verification.md).
+
+## 2026-10-25 — Recovery finishes remotely; copying results needs retry
+
+The attended transcript reports successful whole-case read-back and launcher
+exit zero for the approved recovery. The subsequent SCP connection closed,
+leaving the download directory empty. The grant is consumed and the model
+must not be rerun to repair this transfer. Three cases are reported complete;
+two are locally independently verified until the new archive is reviewed.
+
+A download-only helper now reads the existing evidence through one ordinary
+SSH stream, checks all transport/case bytes and retains it locally. It writes
+nothing remotely and starts no work. Eight byte fixtures and the actual
+streaming-writer fixture pass, with no neural tensors or model-pass fixtures.
+The remaining queue and scientific aggregate remain gated.
+[Recovery completion and copy status](report/checks/2026-10-25-matched-panel-recovery-download-pending.md).
+
+## 2026-10-25 — Campus operator tests pass; logged attended recovery ready
+
+All 35 unchanged CPU operator tests passed on linux10609 in 2.625 seconds,
+with no skips, failures or errors. Downloaded JUnit and all three exit records
+verify. The original grant remains unused and no GPU recovery started. The
+previous connection closure's cause remains unknown.
+
+A new logged starter uses the same already approved single-case grant and
+unchanged operator. It verifies the saved campus CPU proof and fresh host,
+then retains shell, gate, process and exit logs around the original 80-minute
+bound. Six ordinary CPU lifecycle checks and eight local metadata fixtures
+pass; these are not neural or CUDA evidence. The user has not yet run this
+starter. Independent export review follows completion; the remaining queue
+stays stopped. [Verified CPU results and launch](report/checks/2026-10-25-matched-panel-recovery-campus-CPU.md).
+
+## 2026-10-25 — Recovery did not reach the GPU; CPU startup probe prepared
+
+The saved read-only inspection confirms no recovery grant directory or new
+attempt, no matching processes and an idle GPU. The journal is byte-identical
+to the independently reviewed two-case boundary. The extra approved allowance
+remains unused. No CPU result or temp directory exists, so the reason for the
+SSH closure remains unknown.
+
+A separate CPU-only probe will retain startup phases, verbose logs, JUnit and
+exit codes for the unchanged 35 operator tests. It cannot start the real GPU
+operator or use the grant. Both shell programs and embedded Python blocks pass
+syntax checks; university execution is pending. Original sources and evidence
+are preserved. [Inspection review](report/checks/2026-10-25-matched-panel-recovery-startup-review.md).
+
+## 2026-10-25 — Attended connection ended before a reported CPU result
+
+The upload, hash checks and kit extraction were reported successful. The SSH
+connection then closed without a CPU test summary, traceback or fresh operator
+status/log paths. This does not establish whether tests failed, the connection
+was interrupted, or the authorized operator began. No additional grant is
+issued and the launch helper must not be repeated before state review.
+
+A read-only SSH collector is prepared to save existing CPU results, grant and
+attempt state, journal and current process/GPU status locally. It starts no
+tests or model work and changes no remote files. The approved single grant,
+qualified sources and two independently accepted cases remain preserved.
+[Closure observation](report/checks/2026-10-25-matched-panel-recovery-connection-closed.json).
+
+## 2026-10-25 — One attended recovery allowance explicitly approved
+
+The user approved one additional 80-minute university attempt for the interrupted
+third case. The original unknown allowance is conservatively charged in full;
+the new grant is a documented resource exception, not a zero-time reset. A
+single-use proposal-bound authorization and pinned upload/launch helpers are
+ready. No new GPU job has been observed yet. The one Mac command keeps an
+attended SSH connection and prevents idle sleep while that connection runs.
+The remaining queue, paid compute and server-setting changes are outside this
+grant. [Authorization](report/checks/2026-10-25-matched-panel-recovery-authorization.json).
+
+## 2026-10-25 — Host policy reviewed; guarded recovery proposal ready
+
+The probe reports logout killing disabled and current user CPU/memory caps
+unlimited. Its new small cgroup and restricted journals cannot establish the
+historical termination cause. Two completed cases remain independently valid.
+
+A [separate operator envelope](report/checks/2026-10-25-matched-panel-recovery-preparation.md)
+preserves every qualified scientific source and accepted case. It charges the
+unknown original allowance in full, requires a new explicit80-minute grant,
+runs only one fresh attended case and writes per-grant status every15 seconds.
+All35 local and35 extracted CPU operator tests pass, with no skips. No actual
+authorization, upload or GPU run has occurred. The pending request is a
+resource exception, not a change to the frozen mathematical experiment.
+
+## 2026-10-25 — Two valid cases preserved; third partial and retry issue isolated
+
+The [incident review](report/checks/2026-10-25-matched-panel-incident-verification.md)
+independently verifies the second export and reconstructs both completed journal
+entries. Both bank replicates retain shared targets/starts/scoring and distinct
+attack seeds. The third case has valid saved A/B/C records, but D and replay
+completion are absent. Its partial evidence remains excluded from completion.
+
+An offline check reproduces a retry-accounting bug: the unfinalized initial
+zero elapsed value would overstate remaining time. No retry is dispatched;
+the original allowance remains unresolved. Qualified sources and evidence stay
+unchanged. A bounded read-only host-policy/resource probe is prepared before
+recovery. No full-panel aggregate, new GPU execution or research admission.
+
+## 2026-10-25 — Process termination confirmed; cause remains inaccessible
+
+An explicitly wide process listing confirms no matching queue or worker is
+left. Uptime rules out a host reboot; the current shell's CPU-time limit is
+unlimited. Accessible journal entries show session activity but exclude system
+and kernel messages. The visible shutdown target at 15:45:47 precedes the
+15:45:56 queue launch; it does not explain the later interruption. Work reached
+the third case's arm D by 16:44 after the reported 15:46 SSH disconnect.
+
+A Mac download helper is prepared to preserve the second completed export and
+third partial attempt, retaining original file modification times. No retry,
+source edit, deletion or GPU work has been performed. The cause is still
+unknown, and the unfinished case's initial zero elapsed value cannot reset its
+allowance. [Host-event check](report/checks/2026-10-25-matched-panel-host-events.json).
+
+## 2026-10-25 — Third case remains unfinished; logout cause is unproved
+
+The matrix log reached arm D and was last modified at 16:44 Pacific on
+October 24. Its session record remains the initial snapshot from 16:25 with
+no completed worker task; elapsed_seconds:0 does not mean no work occurred.
+The exit file is still dated 15:17 from first mode and cannot establish the
+overnight outcome. A filtered process listing showed only its header; an
+explicitly wide listing and accessible host event logs are the next checks.
+
+The launcher uses nohup and redirected I/O for ordinary SSH logout. The work
+continued after launch and the reported logout; the cause of its later lack
+of progress is not established. No host cleanup/OOM/reboot diagnosis or safe
+retry allowance is inferred. Partial artifacts and per-case bounds remain.
+[Runtime check](report/checks/2026-10-25-matched-panel-runtime-check.json).
+
+## 2026-10-25 — Overnight queue requires investigation after two recorded cases
+
+The user reports two of twenty cases committed, followed by dispatch of
+clip-01-bank-0. The fresh GPU query is idle at 74 MiB, and the remaining-mode
+launcher tail has no final exit/index line. The second case reports a passing
+export but has not been downloaded or independently verified. The cause of
+this limited overnight progress is not yet known; worker logs, supervisor
+state and timestamps are needed before any resume or retry. Existing partial
+artifacts are preserved. The first-case exit file may be stale for this launch.
+[Reported status](report/checks/2026-10-25-matched-panel-overnight-status.json).
+
+## 2026-10-24 — First broader-panel case accepted after independent review
+
+The [first-case verification](report/checks/2026-10-24-matched-panel-first-verification.md)
+checks the 34-member case export and separate index, all 198 original pins,
+58 execution/34 upstream hashes, 173 logical tensors and 320 nonzero finite
+input-gradient observations. Exact matched prefixes, attack selection/bounds,
+both native CUDA probes and fresh A-only replay pass. The session takes about
+40 minutes with 4.86 GiB peak allocation. This is one clip/bank case, not the
+full panel or optimizer validation. Progress correctly exposes no aggregate.
+
+The first-case acceptance is issued; upload and detached serial continuation
+helpers are prepared. The remaining nineteen have not started yet. Their
+original limits and stop-on-failure behavior remain; full analysis waits for
+all twenty verified cases. No paid compute, changed study or budget admission.
+
+## 2026-10-24 — First panel launcher reports successful completion
+
+The user reads exit status 0 from panel.qIXeDn. The first-case launcher has
+finished successfully; independent evidence verification remains pending.
+A Mac download helper collects the case/index archives and sidecars, launcher
+log, exit status and journal/progress records. Next verify those files against
+the trusted handoff and issue first-case acceptance only after all gates pass.
+No remaining cases or scientific panel aggregate are inferred from exit 0.
+[Reported completion](report/checks/2026-10-24-matched-panel-first-completion-reported.json).
+
+## 2026-10-24 — First broader-panel case launch reported
+
+The user reports panel.qIXeDn reaching dispatch of clip-00-bank-0. The launcher
+log has no completion/export/exit result in the pasted output. Its GPU process
+table precedes worker dispatch and does not establish current utilization.
+[Reported status](report/checks/2026-10-24-matched-panel-first-status.json) retains
+the exact paths. Next inspect worker logs and exit status, then download and
+independently review evidence if completed. The remaining nineteen cases are
+still gated; no second launch or scientific result is inferred.
+
+## 2026-10-24 — Fresh university hardware check matches the panel reference
+
+The user reports linux10609 with the same RTX 3070 UUID and driver, 8,192 MiB
+VRAM with 74 MiB used, and no listed CUDA compute PID. Shared filesystem free
+space is 2.2 T; this does not establish a personal quota. The existing handoff
+hashes recheck without a rebuild or repeated tests. The
+[host record](report/checks/2026-10-24-matched-panel-host.json) prepares a manual
+transfer and first-case-only launch. No upload or new GPU job is observed yet.
+The first exported case still needs independent review before the remaining
+nineteen cases. Study, held-out and budget gates remain unchanged.
+
+## 2026-10-24 — Matched-panel runner and offline handoff implemented
+
+The [university handoff](docs/matched_panel_handoff.md) now implements explicit
+case seeds/identities, the four-arm matrix and fresh A-only replay, retained
+artifacts, independent first-case export review, atomic journal pointers,
+verified whole-case recovery and complete-panel-only descriptive analysis.
+Partial evidence, missing review, changed receipts or failed workers stop the
+queue. Retry is explicit and retains the original allowance. A separate
+whole-case deadline covers verification/export as well as worker execution.
+
+All 110 focused local tests pass, including 40 new, with zero skips. All 40 new
+checks also pass after fresh extraction. Actual tiny
+upstream CPU cases cover both technical banks and fresh-process A replay;
+pure aggregation tests use synthetic loss tables. Extracted package QA and
+exact archive identities are recorded in the
+[preparation report](report/checks/2026-10-24-matched-panel-runner.md).
+The source snapshot contains ten exact training tensors, not the released
+checkpoint or any held-out pixels. Original198 pins and the frozen plan remain
+unchanged. No university panel GPU job, optimizer run or paid compute started.
+Next obtain a fresh campus hardware/free-space check, then transfer and execute
+only the first case for independent review before the nineteen-case queue.
+Study calibration, protocol/precision and budget admission remain pending;
+existing $2 hold/$2.53 unreserved/$0.0792 unassigned billing gap stay unchanged.
+
+## 2026-10-24 — Broader matched diagnostic predeclared offline
+
+The [frozen specification](configs/matched_panel_diagnostic_v1.json) keeps the
+first ten existing training-monitor rows and two distinct attack banks per
+clip, with shared starts/targets/scoring banks. It defines20 cases,80 matrix
+arms and20 fresh A-only replays. All67 focused tests pass (36 new), zero skips.
+CPU dry sampling verifies280 distinct draws/1,120 mask tensors; no pixels,
+weights or CUDA are accessed by the planner/audit. Local-vs-university sampler
+versions are recorded; cross-runtime equality is not assumed.
+
+The13.65h/17.07h repeated-reference scenarios are not runtime or calendar bounds.
+Serial university limits, failure stop, receipt-based whole-case recovery and
+complete-panel-only descriptive analysis are specified. No new convergence
+margin/primary selection, executable panel runner, handoff or GPU launch.
+[Predeclaration report](report/checks/2026-10-24-matched-panel-predeclaration.md).
+
+All198 old scientific pins and49 prior bound sources remain unchanged. No
+study YAML, held-out pixels, research calibration or budget admission changes.
+Next implement/test the bounded runner and aggregate/receipt handling before
+preparing a handoff or asking for current university hardware status.
+
 ## 2026-10-24 — Matched university attack diagnostic independently verified
 
 The released-checkpoint, one-training-clip four-arm run completes in 40m57s

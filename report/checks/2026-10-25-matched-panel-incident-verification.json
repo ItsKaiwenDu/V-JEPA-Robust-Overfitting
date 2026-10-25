@@ -1,0 +1,211 @@
+{
+  "SSH_logout_causation_proved": false,
+  "audit_script_sha256": "7cd4d80c404ede71a3d47cd196af791ac40cc30203a37b13fe77f0234c49e61b",
+  "billing_or_budget_changed": false,
+  "completed_cases": 2,
+  "current_case_retry_allowed": false,
+  "date": "2026-10-25",
+  "frozen_plan_or_scientific_sources_changed": false,
+  "host_policy_probe_executed": false,
+  "host_policy_probe_prepared": true,
+  "host_policy_probe_scope": "read-only effective login/session/resource properties, current cgroup counters, accessible journal and own-user coredump metadata",
+  "host_policy_probe_sha256": "51042fd730c668937eb0dbf4a0d109311fbba1b7da6d8cf4bcb10bd2354c64a7",
+  "host_policy_probe_uses": [
+    "https://www.freedesktop.org/software/systemd/man/latest/org.freedesktop.login1.html"
+  ],
+  "journal_reconstructed_and_reverified": true,
+  "kind": "university-matched-panel-incident-verification-v1",
+  "new_GPU_or_model_forward_executed": false,
+  "next": "User runs the read-only Mac host-policy wrapper; review collected settings before proposing recovery. Preserve both accepted cases and the partial attempt.",
+  "original_scientific_pins_unchanged": 198,
+  "partial_case": {
+    "A_B_first20_prefix_exact": true,
+    "case_id": "clip-01-bank-0",
+    "file_inventory": {
+      "matrix.log": {
+        "bytes": 920,
+        "copied_mtime_Pacific": "2026-10-24T16:44:45-07:00",
+        "copied_mtime_UTC": "2026-10-24T23:44:45+00:00",
+        "sha256": "20d940a82e3c8b27210427c336c8707c0a78cae0478fd81271d76b9833cd6bf2"
+      },
+      "matrix/A.json": {
+        "bytes": 17431,
+        "copied_mtime_Pacific": "2026-10-24T16:29:05-07:00",
+        "copied_mtime_UTC": "2026-10-24T23:29:05+00:00",
+        "sha256": "a70e687fd09cc45f2ee36508fcafc1f95849beab8bb53e6d8f6e6c92ae66bb9b"
+      },
+      "matrix/A.pt": {
+        "bytes": 12584553,
+        "copied_mtime_Pacific": "2026-10-24T16:29:05-07:00",
+        "copied_mtime_UTC": "2026-10-24T23:29:05+00:00",
+        "sha256": "21a0d524c221a976e84171d3cac5d5470de399fde8bd97ed40d8bf57d40a5221"
+      },
+      "matrix/B.json": {
+        "bytes": 40877,
+        "copied_mtime_Pacific": "2026-10-24T16:37:19-07:00",
+        "copied_mtime_UTC": "2026-10-24T23:37:19+00:00",
+        "sha256": "bdb4824ae3d1b90ef5805124c5fcf4897d2f326157d1d9530a80bcf1330fafeb"
+      },
+      "matrix/B.pt": {
+        "bytes": 12584553,
+        "copied_mtime_Pacific": "2026-10-24T16:37:19-07:00",
+        "copied_mtime_UTC": "2026-10-24T23:37:19+00:00",
+        "sha256": "aaa209fdd382b3f3059165c364f55c3a87a20935aa95a37e62dcdb805bb5c41d"
+      },
+      "matrix/C.json": {
+        "bytes": 17444,
+        "copied_mtime_Pacific": "2026-10-24T16:44:14-07:00",
+        "copied_mtime_UTC": "2026-10-24T23:44:14+00:00",
+        "sha256": "088b33e9d876c771c644e3065d25b0af2a55b4348d4c34273385664a0eb15627"
+      },
+      "matrix/C.pt": {
+        "bytes": 12584553,
+        "copied_mtime_Pacific": "2026-10-24T16:44:14-07:00",
+        "copied_mtime_UTC": "2026-10-24T23:44:14+00:00",
+        "sha256": "1d0bbc034d91e691f371ba0e9353a50ed42aa950ed4a32b22636c36de77cc812"
+      },
+      "matrix/contract.json": {
+        "bytes": 14722,
+        "copied_mtime_Pacific": "2026-10-24T16:25:15-07:00",
+        "copied_mtime_UTC": "2026-10-24T23:25:15+00:00",
+        "sha256": "670758ab786401e72641dab9815c804b6186d639f8c7b06ca58a42037ee15637"
+      },
+      "matrix/inputs.json": {
+        "bytes": 8526,
+        "copied_mtime_Pacific": "2026-10-24T16:25:31-07:00",
+        "copied_mtime_UTC": "2026-10-24T23:25:31+00:00",
+        "sha256": "f416c81aafc152c111260fb1b91cabc2fafe1cab344f3d50c6e231d32d257092"
+      },
+      "matrix/inputs.pt": {
+        "bytes": 46817511,
+        "copied_mtime_Pacific": "2026-10-24T16:25:31-07:00",
+        "copied_mtime_UTC": "2026-10-24T23:25:31+00:00",
+        "sha256": "aeb3d7bc71872b5b5d8d1b42d3738a322f098818a0e2ddc01441274de110d5de"
+      },
+      "session.json": {
+        "bytes": 527,
+        "copied_mtime_Pacific": "2026-10-24T16:25:01-07:00",
+        "copied_mtime_UTC": "2026-10-24T23:25:01+00:00",
+        "sha256": "cb8d8b7955cc26dd53bd8a25590fc13e6044620ae7073ace29f6214ef0508ba4"
+      }
+    },
+    "fresh_replay_present": false,
+    "last_arm_started_only": "D",
+    "missing_completion_evidence": [
+      "matrix/D.json",
+      "matrix/D.pt",
+      "matrix/worker.json",
+      "matrix/observation.json",
+      "replay",
+      "receipt.json"
+    ],
+    "native_CUDA_probe_retained": false,
+    "retained_input_gradient_observations_checked": 180,
+    "retained_logical_tensors_verified": 87,
+    "saved_complete_arm_records": [
+      "A",
+      "B",
+      "C"
+    ],
+    "started_utc": "2026-10-24T23:25:01.009135+00:00",
+    "termination_time_verified": false,
+    "video_id": "v_JumpRope_g16_c02",
+    "whole_case_passed": false
+  },
+  "qualified_snapshot_and_runner_unchanged": true,
+  "raw_evidence": "runs/pretrained/diagnostic/matched-panel-overnight-session-20261025",
+  "required_cases": 20,
+  "research_admitted": false,
+  "retry_review": {
+    "computed_from_unfinalized_initial_zero": true,
+    "default_rejection": "Incomplete/failed attempt exists; preserve it and request an explicit retry after review.",
+    "default_resume_rejects_partial_case": true,
+    "executed": false,
+    "legacy_explicit_retry_parent_seconds": 4440.0,
+    "review_policy": "Unknown actual termination time cannot justify resetting the original per-case allowance.",
+    "unsafe_to_use_as_remaining_allowance": true
+  },
+  "root_cause_confirmed": null,
+  "scientific_aggregate": null,
+  "second_case": {
+    "archive_sha256": "230a8d99862b0f051b69cd091138c4b2c2105762c70af0f75b5957656360801c",
+    "attack_bank_seeds_different_as_declared": true,
+    "bytes": 109913525,
+    "fresh_A_only_replay_exact": true,
+    "members": 34,
+    "memory": {
+      "matrix": {
+        "cuda_peak_allocated_bytes": 5095421952
+      },
+      "replay": {
+        "cuda_peak_allocated_bytes": 3939015680
+      }
+    },
+    "native_CUDA_probes_passed": true,
+    "scores_case_only": {
+      "A": {
+        "audit_0": {
+          "adversarial": 0.6487210988998413,
+          "clean": 0.5599085092544556
+        },
+        "audit_1": {
+          "adversarial": 0.6468421220779419,
+          "clean": 0.5625711679458618
+        },
+        "main": {
+          "adversarial": 0.6596471667289734,
+          "clean": 0.5651817917823792
+        }
+      },
+      "B": {
+        "audit_0": {
+          "adversarial": 0.6749125123023987,
+          "clean": 0.5599085092544556
+        },
+        "audit_1": {
+          "adversarial": 0.6758776903152466,
+          "clean": 0.5625711679458618
+        },
+        "main": {
+          "adversarial": 0.6856611967086792,
+          "clean": 0.5651817917823792
+        }
+      },
+      "C": {
+        "audit_0": {
+          "adversarial": 0.6749476790428162,
+          "clean": 0.5599085092544556
+        },
+        "audit_1": {
+          "adversarial": 0.666413426399231,
+          "clean": 0.5625711679458618
+        },
+        "main": {
+          "adversarial": 0.6769360303878784,
+          "clean": 0.5651817917823792
+        }
+      },
+      "D": {
+        "audit_0": {
+          "adversarial": 0.6979709267616272,
+          "clean": 0.5599085092544556
+        },
+        "audit_1": {
+          "adversarial": 0.68412184715271,
+          "clean": 0.5625711679458618
+        },
+        "main": {
+          "adversarial": 0.7198736071586609,
+          "clean": 0.5651817917823792
+        }
+      }
+    },
+    "session_seconds": 2328.6008178540505,
+    "shared_starts_targets_and_scoring_with_first_bank_verified": true
+  },
+  "stale_index_and_exit_files_confirmed": true,
+  "verified_completed_case_ids": [
+    "clip-00-bank-0",
+    "clip-00-bank-1"
+  ]
+}

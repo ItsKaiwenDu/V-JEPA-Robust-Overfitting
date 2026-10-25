@@ -1,5 +1,34 @@
 # Scientific acceptance tests
 
+`test_guarded_panel_recovery.py` adds 35 CPU-only checks for the separate
+operator envelope: unfinalized elapsed-time refusal, strict additional-time
+authorization, single-use grants, evidence pins, finite deadlines, real child/
+descendant timeout cleanup and HUP/INT/TERM handling. All 35 local and 35 after
+extraction pass with zero skips. These tests do not qualify a neural or CUDA
+case. The original scientific runner and its 58 source identities are unchanged.
+
+`test_matched_panel.py` adds 40 CPU checks for explicit paired-bank cases,
+unchanged starts/targets/scoring, fresh-process A replay, score independence,
+state restoration, retained evidence and rejected mixed/tampered artifacts.
+It also covers atomic whole-case recovery, external first-case acceptance,
+supervisor failure stop/no automatic retry, process locks, retained retry
+allowances, missing-export refusal and complete-panel analysis arithmetic.
+Whole-case alarms cover verification/export, restore prior signal state and
+hard-stop stalled cleanup in a subprocess. Synthetic loss tables test math
+only; generated CPU evidence cannot be promoted to university CUDA evidence.
+All 110 focused local checks pass (40 new, 36 planner, 26 legacy matched, eight
+archive), with zero skips. All 40 new checks also pass after fresh extraction. The [handoff report](../report/checks/2026-10-24-matched-panel-runner.md)
+records extracted QA separately. The full project suite was not repeated.
+
+`test_matched_panel_plan.py` adds36 metadata-only checks for original training
+membership/order, paired attack-bank replicates,280 actual-seed-space draws,
+historical collisions, altered settings/limits/admission, strict JSON scalar
+identity, frozen-file immutability and scheduling scenarios. Together with
+existing calibration/manifest checks,67 pass with zero skips. The separate CPU
+mask audit realizes280 distinct draws without loading pixels/weights or CUDA;
+it does not qualify the later panel CUDA execution.
+
+
 `test_matched_attack.py` adds 26 actual small-upstream CPU cases for the separate
 four-arm diagnostic: exact shared starts/20-step prefixes, nested EOT banks,
 nonzero finite input VJPs, fixed clean targets, saved-score reconstruction,

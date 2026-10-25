@@ -1,0 +1,51 @@
+{
+  "CPU_basetemp_directories": 0,
+  "CPU_result_XML_files": 0,
+  "CPU_tests_passed_or_failed_established": false,
+  "GPU_compute_processes": [],
+  "GPU_memory_used_MiB": 74,
+  "GPU_utilization_percent": 0,
+  "approved_extra_case_allowance_consumed": false,
+  "attempt_02_exists": false,
+  "billing_or_budget_changed": false,
+  "completed_cases": [
+    "clip-00-bank-0",
+    "clip-00-bank-1"
+  ],
+  "date": "2026-10-25",
+  "full_panel_scientific_aggregate": null,
+  "host": "linux10609",
+  "inspection_file": "runs/pretrained/diagnostic/matched-panel-recovery-ops-20261025/read-only-inspection-20261025T194300Z.Wnj4SL",
+  "inspection_observed_utc": "2026-10-25T19:43:05.380779+00:00",
+  "inspection_sha256": "630f2d1ed8cdcf2b62e3e861598d578e472bf04b242793f9f58f6fcec34b8c84",
+  "journal_file_sha256": "c609b8c4f93eb2493b4c8eee6c1e16684c0c83a612751f2c88849a24f64fe31f",
+  "journal_identical_to_independently_reviewed_two_case_boundary": true,
+  "kind": "matched-panel-recovery-startup-inspection-review-v1",
+  "matching_operator_or_test_processes": 0,
+  "new_grant_created": false,
+  "new_probe": {
+    "CPU_test_kill_grace_seconds": 5,
+    "CPU_test_limit_seconds": 180,
+    "checks_unchanged_CPU_operator_tests": 35,
+    "files_sha256": {
+      "check-recovery-cpu-startup.sh": "3c76bcfb070f88b6b7da97db9eabaa4127f441d617e4fb87a20e9907626d6644",
+      "probe-recovery-cpu-startup-20261025.sh": "a1965b208051e1946b8c7759f2b3bac9af6583d0537de0fe4f8be76e1f3c7852"
+    },
+    "local_checks": "Both bash programs pass bash -n; both embedded Python programs parse; university CPU probe not yet executed.",
+    "model_or_GPU_case_launched": false,
+    "original_kit_and_scientific_sources_edited": false,
+    "python_pin_startup_limit_seconds": 30,
+    "real_grant_consumed": false,
+    "summary_limit_seconds": 15,
+    "test_stdin": "/dev/null",
+    "test_stdout_and_stderr": "new per-invocation pytest.log",
+    "timeout_semantics_reference": "https://www.gnu.org/software/coreutils/manual/html_node/timeout-invocation.html"
+  },
+  "next": "User runs the pinned CPU-only startup probe. Review its console, shell trace, per-phase logs, JUnit and exit status before the unused authorized GPU recovery.",
+  "original_connection_termination_cause": "unknown; there is no saved CPU outcome or grant/attempt evidence",
+  "real_grant_directory_exists": false,
+  "recovery_GPU_attempt_reached": false,
+  "remote_launch_script_proposal_authorization_bytes_match_local_pins": true,
+  "research_admitted": false,
+  "reviewed_utc": "2026-10-25T19:49:37.377443+00:00"
+}

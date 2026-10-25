@@ -1,0 +1,177 @@
+{
+  "GPU_job_started": false,
+  "analysis": {
+    "aggregate": "mean-two-attack-banks-within-clip-then-equal-mean-ten-clips",
+    "automatic_attack_convergence_pass": false,
+    "automatic_primary_or_arm_choice": false,
+    "bank_order": [
+      "main",
+      "audit_0",
+      "audit_1"
+    ],
+    "case_contrasts": [
+      "B-A",
+      "D-C",
+      "C-A",
+      "D-B"
+    ],
+    "historical_clip_is_unseen": false,
+    "historical_one_clip_result_included": false,
+    "numeric_strength_margin_invented": false,
+    "partial_panel_scientific_aggregate_allowed": false,
+    "positive_step_gaps": "report magnitude and bank consistency for review; no automatic setting change",
+    "relative_gap_if_denominator_zero": "undefined-report-absolute-difference",
+    "report_also": [
+      "all-case-paired-losses",
+      "per-clip-mean",
+      "median-min-max-across-clips",
+      "positive-zero-negative-clip-counts",
+      "relative-gap-to-lower-setting-adversarial-loss"
+    ],
+    "score_banks_pooled_or_selected": false,
+    "statistical_independence_unit": "clip; bank replicates are paired technical replicates"
+  },
+  "billing": {
+    "changed": false,
+    "conservative_unreserved_USD": 2.53,
+    "inclusive_hold_USD": 2,
+    "unassigned_account_gap_USD": 0.0792
+  },
+  "date": "2026-10-24",
+  "full_project_pytest_repeated": false,
+  "handoff": {
+    "archive": "runs/pretrained/diagnostic/matched-panel-handoff-20261024/vjepa-matched-panel-20261024.tar.gz",
+    "bytes": 83141083,
+    "checkpoint_included": false,
+    "execution_sha256": "1e59a735e2f0b6f5485cf0867851c638dcd027715d19270422f390f7745aa70e",
+    "execution_sources": 58,
+    "frozen_plan_sources": 51,
+    "handoff_manifest_sha256": "73f361fc072a053439bf71f35835bb91227932edd2db739adde2db5f96c6b0f4",
+    "handoff_verified_files": 359,
+    "held_out_pixels_included": false,
+    "later_documentation_bookkeeping_outside_snapshot": true,
+    "member_manifest_sha256": "fdd95276ff787122c02ebb7c9b624b66836b02d4d398ef7b81dd3b29469162ec",
+    "members": 360,
+    "sha256": "7ff46ec3c3fcd4106adfe6514aeb77f33d4773957312beffc6a317b3b22de792",
+    "snapshot_upstream_restored_for_review": true,
+    "source_is_working_tree_snapshot": true,
+    "training_pixel_tensors": 10,
+    "upstream_sources": 34
+  },
+  "kind": "matched-panel-runner-preparation-v1",
+  "next": "fresh university host/GPU UUID/driver/memory/process/free-space check, then manual first-case-only handoff; independently review export before remaining queue",
+  "paid_compute_launched": false,
+  "plan": {
+    "attack_banks_per_clip": 2,
+    "cases": 20,
+    "clips": 10,
+    "file_sha256": "996717379099048f1ceb2691b2eaf62914710cead6aef92bf96d0af46408bb84",
+    "fresh_A_only_replays": 20,
+    "matrix_arms": 80,
+    "path": "configs/matched_panel_diagnostic_v1.json",
+    "sha256": "f6b81dec841aeee703413dba23ea16afe3dbf14736edecadc0f7830f3ded34ae",
+    "unchanged": true
+  },
+  "raw_validation": "runs/pretrained/diagnostic/matched-panel-handoff-20261024/validation",
+  "raw_validation_files_manifest_sha256": "c3e63e8e7bdcab42460f99df5aba212bac78867c6129411fbb4c48405064d08f",
+  "research_admitted": false,
+  "resource_limits": {
+    "allocator_device_fraction_max": 0.9,
+    "allocator_max_bytes": 7516192768,
+    "case_journal": "atomic and bound to frozen plan and per-case identities",
+    "child_kill_grace_seconds": 10,
+    "export_limit_bytes_per_case": 268435456,
+    "failure_action": "stop queue, preserve partial evidence; no automatic retry or tolerance/backend fallback",
+    "first_case": "clip-00-bank-0",
+    "fresh_host_GPU_compute_process_and_free_space_check_required": true,
+    "matrix_worker_seconds": 3600,
+    "max_parallel_cases": 1,
+    "minimum_free_disk_bytes_before_panel": 12884901888,
+    "no_PGD_iteration_resume": true,
+    "outer_kill_grace_seconds": 15,
+    "outer_seconds": 4800,
+    "parent_seconds": 4620,
+    "replay_worker_seconds": 900,
+    "resume": "reuse only independently verified whole-case receipts with exact plan/runtime/source identity; new attempt for partial cases",
+    "same_host_GPU_UUID_driver_and_software_across_panel": true,
+    "site": "reviewed-university-host-only",
+    "verify_first_case_before_remaining_queue": true
+  },
+  "runtime_reference": {
+    "A40_cost_pool_eligible": false,
+    "case_allowance_sum_hours": 26.666666666666668,
+    "first_case_review_pause_excluded": true,
+    "reference_repetition_hours": 13.65,
+    "scenario_only_not_calendar_or_runtime_bound": true,
+    "with_25_percent_margin_hours": 17.07
+  },
+  "scope": "offline implementation, CPU fixtures and verified university handoff; no panel CUDA execution",
+  "source_integrity": {
+    "canonical_EvaluationSettings_and_PGD_unchanged": true,
+    "frozen_plan_bound_sources_unchanged": 51,
+    "frozen_plan_or_tolerances_changed": false,
+    "original_scientific_pins_verified": 198,
+    "prior_bound_project_sources_unchanged": 49,
+    "study_and_proposal_YAML_unchanged": true
+  },
+  "tests": {
+    "CPU_runtime": {
+      "device": "cpu",
+      "numpy": "2.4.6",
+      "python": "3.11.16",
+      "threads": 2,
+      "torch": "2.14.1"
+    },
+    "aggregation_inputs": "synthetic loss tables for arithmetic only; not model outcomes",
+    "extracted": {
+      "errors": 0,
+      "failures": 0,
+      "seconds": 60.391,
+      "sha256": "1b8df3cd6e774e55a5b75bfe01201ff179587cf4fe72c75441ac902e1cbafc8b",
+      "skipped": 0,
+      "tests": 40
+    },
+    "focused": {
+      "errors": 0,
+      "failures": 0,
+      "seconds": 91.654,
+      "sha256": "6114361bc11ce1c6b65fb6c9276994513941473456051f6c615bfbc22b7af86d",
+      "skipped": 0,
+      "tests": 110
+    },
+    "focused_breakdown": {
+      "archive": 8,
+      "frozen_planner": 36,
+      "legacy_matched": 26,
+      "new_panel_runner": 40
+    },
+    "fresh_A_only_subprocesses_per_fixture_set": 2,
+    "production_CUDA_fallback_to_fixture_allowed": false,
+    "scaffold_passed": true,
+    "tiny_upstream_matrix_cases_per_fixture_set": 2
+  },
+  "unexecuted": [
+    "university first case and remaining nineteen cases",
+    "broader CUDA fit/runtime/replay",
+    "full-panel numerical result",
+    "research step-size calibration",
+    "protocol/precision adoption",
+    "measured full-study budget admission",
+    "training trajectories and held-out evaluation"
+  ],
+  "university_upload_performed": false,
+  "verified": true,
+  "verified_controls": [
+    "explicit real video identities and per-case attack seeds",
+    "paired starts, clean targets and independent main/two-audit scoring banks",
+    "unchanged PGD core and exact within-EOT prefixes",
+    "fresh A-only subprocess replay, retained tensors and state/RNG restoration",
+    "external archive hash, captured source and handoff-manifest verification",
+    "first-case acceptance gate before remaining dispatch",
+    "atomic whole-case journal recovery without repeating completed numerical work",
+    "fail stop, exclusive supervisor lease, no automatic skip or retry",
+    "partial attempts preserve evidence and consume the original case allowance",
+    "whole-case deadline includes verification/export, with bounded cleanup",
+    "complete-panel-only clip-equal analysis with scoring banks separate"
+  ]
+}

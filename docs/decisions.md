@@ -507,3 +507,37 @@ finish research calibration before choosing the primary attack or revising
 costs. Do not promote instrumented RTX 3070 times to A40 observations. No paid
 launch or held-out pixels follow from this diagnostic acceptance. See
 [the verified result](../report/checks/2026-10-24-university-matched.md).
+
+
+## 2026-10-24 — Freeze a training-only panel before further attack comparisons
+
+Keep the original first ten training-monitor rows and two distinct attack-bank
+replicates per clip. Share starts, fixed clean targets and scoring banks within
+clip; retain all four20/50-step×4/8-draw diagnostic arms and fresh A-only replay
+per case. Analyze bank replicates within clip, then weight clips equally. No
+partial-panel aggregate, score-bank selection, new strength tolerance or automatic
+research attack choice. Prior one-clip data remain excluded from panel means.
+
+The specification is metadata-tested, with67 focused passes and a CPU mask dry
+run. It is not a runnable handoff, research calibration or study admission.
+Use only a reviewed university host under serial bounded cases after separate
+implementation/qualification; no paid rental or changed project caps. See
+[the predeclaration](matched_panel_diagnostic_plan.md).
+
+## 2026-10-25 — One documented attended recovery exception completes case three
+
+The user explicitly approved one additional 80-minute university attempt after
+the interrupted case left an unfinalized initial elapsed record. Charge the
+unknown original allowance in full; retain the separately identified single-use
+authorization rather than infer unused time from zero. Keep the qualified
+scientific execution and both previously accepted cases unchanged.
+
+That fresh whole-case recovery now independently verifies, including all four
+matched arms and a fresh A-only replay. Its 40-minute-41-second attended window
+fits the added allowance. Preserve the failed partial and operational failure
+history; a successful attended run does not establish the prior stopping cause
+or qualify unattended logout behavior. The consumed grant covers no further
+cases. Three of twenty cases are accepted; the next continuation is logged and
+attended, with original case limits. No study setting, tolerance, held-out data,
+precision adoption or budget admission changes. See the
+[verification](../report/checks/2026-10-25-matched-panel-recovery-verification.md).

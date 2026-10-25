@@ -1,0 +1,240 @@
+{
+  "GPU_handoff_prepared": false,
+  "GPU_job_started": false,
+  "GPU_runner_implemented": false,
+  "billing_or_reservations_changed": false,
+  "canonical_evaluation_or_study_yaml_changed": false,
+  "clips": [
+    {
+      "class_id": "18",
+      "clip_index": 0,
+      "pixel_sha256": "174d7bd1df51dddb5fc752276c2daeeb761829f2998d43bad078a6f8ea50fc17",
+      "prepared_file": "train/v_BreastStroke_g10_c02.pt",
+      "relative_path": "BreastStroke/v_BreastStroke_g10_c02.avi",
+      "source_group_id": "BreastStroke_g10",
+      "video_id": "v_BreastStroke_g10_c02"
+    },
+    {
+      "class_id": "47",
+      "clip_index": 1,
+      "pixel_sha256": "9687ccedd7ae042db7dc0df44a0c8ccf5d3df3a1ee3c6c85c087327c824336e0",
+      "prepared_file": "train/v_JumpRope_g16_c02.pt",
+      "relative_path": "JumpRope/v_JumpRope_g16_c02.avi",
+      "source_group_id": "JumpRope_g16",
+      "video_id": "v_JumpRope_g16_c02"
+    },
+    {
+      "class_id": "88",
+      "clip_index": 2,
+      "pixel_sha256": "29580a9bf9ff20d29146cec92a8eed8476eee857b55612929a3b1453811ef721",
+      "prepared_file": "train/v_Swing_g20_c03.pt",
+      "relative_path": "Swing/v_Swing_g20_c03.avi",
+      "source_group_id": "Swing_g20",
+      "video_id": "v_Swing_g20_c03"
+    },
+    {
+      "class_id": "91",
+      "clip_index": 3,
+      "pixel_sha256": "b381fb629bd5a440d6099a8c24ceda89e40f38a9194154c75d56114f7132e1c4",
+      "prepared_file": "train/v_TennisSwing_g14_c04.pt",
+      "relative_path": "TennisSwing/v_TennisSwing_g14_c04.avi",
+      "source_group_id": "TennisSwing_g14",
+      "video_id": "v_TennisSwing_g14_c04"
+    },
+    {
+      "class_id": "29",
+      "clip_index": 4,
+      "pixel_sha256": "e09471f804444bf50d7f6b713e46ac856d9658bc6650424cddb4811769b5363b",
+      "prepared_file": "train/v_FloorGymnastics_g17_c01.pt",
+      "relative_path": "FloorGymnastics/v_FloorGymnastics_g17_c01.avi",
+      "source_group_id": "FloorGymnastics_g17",
+      "video_id": "v_FloorGymnastics_g17_c01"
+    },
+    {
+      "class_id": "10",
+      "clip_index": 5,
+      "pixel_sha256": "82dacdf1f4e45598fd55f3f181012e4b860959b725516df4049c2ea81c9a9107",
+      "prepared_file": "train/v_Biking_g16_c04.pt",
+      "relative_path": "Biking/v_Biking_g16_c04.avi",
+      "source_group_id": "Biking_g16",
+      "video_id": "v_Biking_g16_c04"
+    },
+    {
+      "class_id": "2",
+      "clip_index": 6,
+      "pixel_sha256": "28ba5a1c5fd74d8bb5b36eb1e6c7afafc7aff5762cb64714049ee0e723da96a2",
+      "prepared_file": "train/v_Archery_g19_c04.pt",
+      "relative_path": "Archery/v_Archery_g19_c04.avi",
+      "source_group_id": "Archery_g19",
+      "video_id": "v_Archery_g19_c04"
+    },
+    {
+      "class_id": "100",
+      "clip_index": 7,
+      "pixel_sha256": "512076505ad79855746dfc35908b36f599f6bb6178b7557ce78e909996e3de27",
+      "prepared_file": "train/v_YoYo_g14_c03.pt",
+      "relative_path": "YoYo/v_YoYo_g14_c03.avi",
+      "source_group_id": "YoYo_g14",
+      "video_id": "v_YoYo_g14_c03"
+    },
+    {
+      "class_id": "15",
+      "clip_index": 8,
+      "pixel_sha256": "c4334731d197af5a80615bbf061c75243c36a9e808577749180acb0317b85bdd",
+      "prepared_file": "train/v_Bowling_g19_c04.pt",
+      "relative_path": "Bowling/v_Bowling_g19_c04.avi",
+      "source_group_id": "Bowling_g19",
+      "video_id": "v_Bowling_g19_c04"
+    },
+    {
+      "class_id": "36",
+      "clip_index": 9,
+      "pixel_sha256": "5d2c2a57ee924d7c181e8710831266bc42901793a3a825784cb7c2b94a6b3cdb",
+      "prepared_file": "train/v_HandStandPushups_g21_c01.pt",
+      "relative_path": "HandstandPushups/v_HandStandPushups_g21_c01.avi",
+      "source_group_id": "HandstandPushups_g21",
+      "video_id": "v_HandStandPushups_g21_c01"
+    }
+  ],
+  "counts": {
+    "PGD_objective_calls_excluding_posthoc_scoring": 6700,
+    "attack_banks_per_clip": 2,
+    "clips": 10,
+    "fresh_A_replays": 20,
+    "input_gradient_calls": 6400,
+    "matrix_arms": 80,
+    "matrix_cases": 20,
+    "total_PGD_arms": 100
+  },
+  "data_selection": "first ten rows of the existing training-monitor manifest; no outcome-based reordering",
+  "date": "2026-10-24",
+  "development_draft_executed": false,
+  "execution_requirements": {
+    "allocator_device_fraction_max": 0.9,
+    "allocator_max_bytes": 7516192768,
+    "case_journal": "atomic and bound to frozen plan and per-case identities",
+    "child_kill_grace_seconds": 10,
+    "export_limit_bytes_per_case": 268435456,
+    "failure_action": "stop queue, preserve partial evidence; no automatic retry or tolerance/backend fallback",
+    "first_case": "clip-00-bank-0",
+    "fresh_host_GPU_compute_process_and_free_space_check_required": true,
+    "matrix_worker_seconds": 3600,
+    "max_parallel_cases": 1,
+    "minimum_free_disk_bytes_before_panel": 12884901888,
+    "no_PGD_iteration_resume": true,
+    "outer_kill_grace_seconds": 15,
+    "outer_seconds": 4800,
+    "parent_seconds": 4620,
+    "replay_worker_seconds": 900,
+    "resume": "reuse only independently verified whole-case receipts with exact plan/runtime/source identity; new attempt for partial cases",
+    "same_host_GPU_UUID_driver_and_software_across_panel": true,
+    "site": "reviewed-university-host-only",
+    "verify_first_case_before_remaining_queue": true
+  },
+  "full_project_suite_repeated": false,
+  "held_out_pixels_opened": false,
+  "kind": "broader_matched_panel_offline_predeclaration",
+  "new_pixel_decode": false,
+  "new_released_model_forward": false,
+  "new_tests": 36,
+  "next_step": "Implement and test an explicit plan-bound case runner, first-case acceptance and complete-panel aggregation; then prepare a checksummed university handoff before any new GPU launch.",
+  "old_non_markdown_source_pins_verified": 198,
+  "paid_compute_started": false,
+  "plan_file": "configs/matched_panel_diagnostic_v1.json",
+  "plan_file_sha256": "996717379099048f1ceb2691b2eaf62914710cead6aef92bf96d0af46408bb84",
+  "plan_sha256": "f6b81dec841aeee703413dba23ea16afe3dbf14736edecadc0f7830f3ded34ae",
+  "planning_sources_bound": 51,
+  "prior_bound_project_sources_unchanged": 49,
+  "raw_development_draft_retained": true,
+  "research_admitted": false,
+  "research_calibration_completed": false,
+  "scaffold_check": "passed_after_documentation_update",
+  "scheduling_scenarios": {
+    "A40_cost_pool_eligible": false,
+    "calendar_completion_bound": false,
+    "configured_case_limits_sum_hours": 26.666666666666668,
+    "including_all_outer_kill_graces_hours": 26.75,
+    "instrumented_diagnostic_reference_only": true,
+    "reference_is_one_clip_one_bank_only": true,
+    "reference_seconds": 2457.3780396250077,
+    "repeat_reference_for_20_cases_hours": 13.652100220138932,
+    "repeat_reference_with_25pct_scheduling_margin_hours": 17.065125275173664,
+    "runtime_or_memory_bound_inferred_for_other_clips": false,
+    "study_cost_revised": false,
+    "uncompressed_exports_ceiling_bytes": 5368709120
+  },
+  "scientific_strength_decision": "descriptive paired gaps only; no automatic convergence/primary selection or new tolerance",
+  "seed_audit": {
+    "CUDA_initialized": false,
+    "audit_script_sha256": "5d8fcd947a012ea63f9358dbb43bf1cef4e465408346633d8fa4118b7ad57997",
+    "cross_runtime_equivalence_verified": false,
+    "distinct_realized_draws": true,
+    "draws": 280,
+    "file": "report/checks/2026-10-24-matched-panel-seed-audit.json",
+    "local_hashes_are_GPU_acceptance_gate": false,
+    "logical_mask_tensors": 1120,
+    "no_pixel_or_weight_tensor_deserialization": true,
+    "runtime": {
+      "architecture": "arm64",
+      "python": "3.11.16",
+      "threads": 10,
+      "torch": "2.14.1"
+    },
+    "sha256": "bcc43055cd628d88ef98be00b825d7c2823951e88aa93e4a14a7891f5d4d44fa"
+  },
+  "settings": {
+    "arms": {
+      "A": {
+        "attack_masks": 4,
+        "steps": 20
+      },
+      "B": {
+        "attack_masks": 4,
+        "steps": 50
+      },
+      "C": {
+        "attack_masks": 8,
+        "steps": 20
+      },
+      "D": {
+        "attack_masks": 8,
+        "steps": 50
+      }
+    },
+    "attack_bank_fixed_across_steps_and_restarts": true,
+    "candidate_selection": "attack-bank-loss-only-strict-greater-best-over-clean-starts-iterates",
+    "checkpoint": "released-pretrained-only",
+    "epsilon_255": 4,
+    "execution_policy": "shared-fp64-native",
+    "four_draw_bank": "first-four-of-the-same-eight-draw-bank",
+    "restarts": 2,
+    "scoring_audit_banks": 2,
+    "scoring_draws_per_bank": 4,
+    "shared_across_attack_bank_replicates": [
+      "clean_targets",
+      "start_seed",
+      "scoring_seeds"
+    ],
+    "step_size_255": 2
+  },
+  "source_sha256": {
+    "models/matched_panel_plan.py": "2cb97be4c85cbf043336ec9f9e4727a5d94dd5ee5a4b72cbb37153ba20c31edb",
+    "scripts/prepare_matched_panel_plan.py": "1dc70d95d1aaa2618076fd35de34508cec1b886f5cd9c42da572628b961e4a9a",
+    "tests/test_matched_panel_plan.py": "1991c6853ee4a83fb2711224b165b9bfbe5705ab70aa626544389f5f726adb4a"
+  },
+  "status": "specification_frozen_runner_not_implemented",
+  "tests": {
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "67",
+    "time": "5.550"
+  },
+  "tests_by_module": {
+    "tests.test_calibration": 16,
+    "tests.test_matched_panel_plan": 36,
+    "tests.test_staged_files": 15
+  },
+  "tests_receipt_sha256": "ced59b3b7fd94c27523be7d48b01e3bbd27bbf4c88e9061f7987f638d7b53d5f",
+  "upstream_sources_checked": 34
+}

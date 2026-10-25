@@ -1,0 +1,150 @@
+{
+  "acceptance_file_sha256": "c335bf1f23bd0935dbe4c2f7a19025aa9c2d9be28a9ea7fc60f99dcc8d739968",
+  "acceptance_payload_sha256": "a2a97ddbb7da925450d678f3749eb31894e3abc917280e8e1fa3c80ede386694",
+  "archive_bytes": 110221011,
+  "archive_members": 34,
+  "archive_sha256": "7aa64795e19e4b11208909435d03be140713ba7af8fee9ad232c24294597a2c8",
+  "audit_script_sha256": "c373701e2b7eae9fd663dee0840a6a7092b97c76f2a017df658f6a049120b274",
+  "budget_or_billing_changed": false,
+  "case_id": "clip-00-bank-0",
+  "checkpoint_file_reloaded_during_local_verification": false,
+  "completed_cases": 1,
+  "component_weight_identities_match_previously_verified_release": true,
+  "continuation_prepared": true,
+  "date": "2026-10-24",
+  "exact_matched_prefixes_verified": true,
+  "execution_sources_verified": 58,
+  "existing_first_case_reused": true,
+  "finite_nonzero_input_gradient_observations_verified": 320,
+  "first_case_acceptance_issued": true,
+  "fresh_A_only_replay_exact": true,
+  "full_panel_conclusion_or_automatic_method_selection": false,
+  "independent_verification_file_sha256": "1ca8f313a5c8ff22c6c28d69b5416fe116d00a6f489376cc3c4e5034f4a6a36f",
+  "index_members": 4,
+  "index_sha256": "47c2f82f4f51f069454657b27c9686a7316b1ae6c85d6c93e5191f9771fa5ed6",
+  "journal_and_index_agree": true,
+  "kind": "university-matched-panel-first-verification-v1",
+  "logical_tensors_verified": 173,
+  "mask_CPU_reference_observation": {
+    "comparisons": 80,
+    "execution_torch": "2.8.0+cu128",
+    "local_reference_is_new_execution_gate": false,
+    "local_torch": "2.14.1",
+    "matched": 80,
+    "other_260_draws_not_verified_on_CUDA": true
+  },
+  "memory": {
+    "matrix": {
+      "allocator_limit_bytes": 7389845913,
+      "peak_allocated_GiB": 4.860437870025635,
+      "peak_allocated_bytes": 5218855424
+    },
+    "replay": {
+      "allocator_limit_bytes": 7389845913,
+      "peak_allocated_GiB": 3.713019371032715,
+      "peak_allocated_bytes": 3986824192
+    }
+  },
+  "mode": "first",
+  "new_model_forward_or_CUDA_job_during_audit": false,
+  "new_tests_or_handoff_rebuild": false,
+  "next": "User uploads the acceptance/continuation helper from Mac and launches remaining mode on linux10609; report the printed launcher details.",
+  "original_scientific_pins_verified": 198,
+  "raw_evidence": "runs/pretrained/diagnostic/matched-panel-first-session-20261024",
+  "remaining_cases": 19,
+  "remaining_queue_started": false,
+  "required_cases": 20,
+  "research_admitted": false,
+  "runtime_observations": {
+    "matrix": {
+      "native_CUDA_probe_passed": true,
+      "runtime_matches_frozen_reference": true
+    },
+    "replay": {
+      "native_CUDA_probe_passed": true,
+      "runtime_matches_frozen_reference": true
+    }
+  },
+  "scientific_aggregate": null,
+  "scores_first_case_only": {
+    "A": {
+      "audit_0": {
+        "adversarial": 0.6439932584762573,
+        "clean": 0.5599085092544556
+      },
+      "audit_1": {
+        "adversarial": 0.6629985570907593,
+        "clean": 0.5625711679458618
+      },
+      "main": {
+        "adversarial": 0.6704768538475037,
+        "clean": 0.5651817917823792
+      }
+    },
+    "B": {
+      "audit_0": {
+        "adversarial": 0.6658729314804077,
+        "clean": 0.5599085092544556
+      },
+      "audit_1": {
+        "adversarial": 0.6981571912765503,
+        "clean": 0.5625711679458618
+      },
+      "main": {
+        "adversarial": 0.7013082504272461,
+        "clean": 0.5651817917823792
+      }
+    },
+    "C": {
+      "audit_0": {
+        "adversarial": 0.6733006238937378,
+        "clean": 0.5599085092544556
+      },
+      "audit_1": {
+        "adversarial": 0.6858435869216919,
+        "clean": 0.5625711679458618
+      },
+      "main": {
+        "adversarial": 0.7000129222869873,
+        "clean": 0.5651817917823792
+      }
+    },
+    "D": {
+      "audit_0": {
+        "adversarial": 0.6814043521881104,
+        "clean": 0.5599085092544556
+      },
+      "audit_1": {
+        "adversarial": 0.7015383243560791,
+        "clean": 0.5625711679458618
+      },
+      "main": {
+        "adversarial": 0.7157935500144958,
+        "clean": 0.5651817917823792
+      }
+    }
+  },
+  "starts_CPU_reference_observation": {
+    "comparisons": 2,
+    "matched": 2,
+    "new_gate": false
+  },
+  "strict_attack_bank_selection_verified": true,
+  "study_yaml_or_canonical_attacks_changed": false,
+  "timing": {
+    "A40_cost_pool_eligible": false,
+    "case_session_seconds": 2406.0336511568166,
+    "instrumented_diagnostic_only": true,
+    "launcher_finish_UTC": "2026-10-24T22:17:42+00:00",
+    "launcher_start_UTC": "2026-10-24T21:37:16+00:00",
+    "matrix_arm_attack_seconds": {
+      "A": 196.54919585725293,
+      "B": 487.9880996029824,
+      "C": 389.143281662371,
+      "D": 963.6512069669552
+    },
+    "outer_wall_seconds": 2426.0
+  },
+  "upstream_sources_verified": 34,
+  "verified": true
+}

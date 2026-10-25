@@ -1,0 +1,67 @@
+{
+  "attempt": "attempt-01",
+  "billing_or_budget_changed": false,
+  "case_id": "clip-01-bank-0",
+  "cause_confirmed": null,
+  "date": "2026-10-25",
+  "elapsed_seconds_zero_is_initial_snapshot_not_real_runtime": true,
+  "exit_status_file": {
+    "bytes_reported": 2,
+    "mtime_local_minute": "2026-10-24 15:17 PDT",
+    "not_a_remaining_run_completion_result": true,
+    "stale_from_first_mode": true
+  },
+  "filtered_ps_lacked_explicit_wide_option": true,
+  "filtered_ps_output": "header only",
+  "kind": "university-matched-panel-overnight-runtime-check-v1",
+  "matrix_log": {
+    "bytes_reported": 920,
+    "last_arm_setting": {
+      "attack_masks": 8,
+      "steps": 50
+    },
+    "last_arm_started": "D",
+    "mtime_local_minute": "2026-10-24 16:44 PDT",
+    "traceback_or_completion_in_pasted_tail": false
+  },
+  "new_GPU_run_or_retry_performed": false,
+  "next": "Check untruncated process listing, boot time, CPU limits and accessible system event logs; preserve second completed case and third partial evidence before recovery.",
+  "no_reported_final_cleanup_record": true,
+  "normal_SSH_logout_supported_by_launcher": true,
+  "remote_date_UTC_reported": "2026-10-25T18:15:46+00:00",
+  "research_admitted": false,
+  "retry_budget_must_not_be_reset_from_initial_zero": true,
+  "scientific_source_or_plan_changed": false,
+  "server_cleanup_policy_or_OOM_not_established": true,
+  "session_file": {
+    "bytes_reported": 527,
+    "mtime_local_minute": "2026-10-24 16:25 PDT"
+  },
+  "session_payload": {
+    "case_id": "clip-01-bank-0",
+    "complete": false,
+    "elapsed_seconds": 0.0,
+    "execution_sha256": "1e59a735e2f0b6f5485cf0867851c638dcd027715d19270422f390f7745aa70e",
+    "kind": "matched-panel-case-v1",
+    "passed": false,
+    "plan_sha256": "f6b81dec841aeee703413dba23ea16afe3dbf14736edecadc0f7830f3ded34ae",
+    "research_admitted": false,
+    "started_utc": "2026-10-24T23:25:01.009135+00:00",
+    "tasks": {}
+  },
+  "session_payload_sha256_verified_from_transcription": "da68aa58ec51e9e523f8a504a8c5d0987d1ed78e1182c8679314752089965493",
+  "source": "user-pasted file metadata, matrix.log tail, session.json and filtered ps output",
+  "sources": [
+    {
+      "supports": "nohup ignores hangup; no blanket protection from forced termination",
+      "url": "https://www.gnu.org/s/coreutils/manual/html_node/nohup-invocation.html"
+    },
+    {
+      "supports": "session-process cleanup is configurable; no evidence this host enables it",
+      "url": "https://www.freedesktop.org/software/systemd/man/latest/logind.conf.html"
+    }
+  ],
+  "unfinished_case_cannot_pass": true,
+  "untruncated_process_check_needed": true,
+  "work_continued_after_launch_and_reported_logout": true
+}
