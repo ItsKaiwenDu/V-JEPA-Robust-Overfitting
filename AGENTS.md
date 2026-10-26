@@ -2,6 +2,77 @@
 
 ## Current stage
 
+LATEST October25 FOURTH CASE COPIED AND INDEPENDENTLY VERIFIED:4/20,16remain.
+Read report/checks/2026-10-25-attended-panel-fourth-verification.md/JSON.
+Raw matched-panel-attended-clip-01-bank-1-20261025/case-download-20261025T225939Z.Oj7Jo5
+has downloaded/, case-reviewed/, verified-panel-mirror/, independent-verification.json
+and attended-review-acceptance.json. Archive118039804B/34members,
+SHAdf7bb4c5a7739ecebf95738309aca74568a0f26d2ec688c3d76b0312dd22def2.
+FrozenCLI+audit PASS:198oldpins/58execution/34upstream,173tensors/320finite
+nonzero gradientobservations, pixelbounds/prefix/strictselection/nativeCUDA/
+freshA-onlyreplay. CampusJUnit52pass/0skip0fail/0error,0.276s verified fromcopy.
+Pairedclip01banks share52 nonattacklogicaltensors/pixels/targets/starts/scoring
+exactly and distinctdeclaredattackseeds; cleanbaselines exact. Twotrainingclips
+nowfullypaired. Four-casejournal/mirror verifies all4; prior3pointers/firstreview
+unchanged, old11partialfiles retained; no partialpanelmean or methodselection.
+Launcher14:59:20–15:39:04Pacific=2384s; session2322.523s; peak4.779/3.654GiB.
+Original4800+15cap, extraallowance0, consumedrecoverygrant NOT reused.
+Request778ed889... andactualoperatorstatus/exit recordsverify. Raw audit script
+retained. Acceptance binds newarchive/receipt/journal/request/report; authorizes
+noqueue. First0bytefailedtransfer preserved; ordinarySSH retry succeeded; cause
+ofpriorinterrupt/SSHcloses UNKNOWN. No tests/model/GPU job rerun forreview.
+NEXT prepare next bounded LOGGED ATTENDED freshcase clip-02-bank-0. Sixteencases
+remain underoriginal limits. No further upload/launch occurred. Do notrerun
+acceptedcase4/launchhelper, reset allowance, change scientific sources/settings
+or publishpartialaggregate. User maycommit this checkpoint. Older completion-
+pending/preparation paragraphs below are historical, not current status.
+
+
+LATEST October25 FOURTH CASE COMPLETED REMOTELY; SSH DOWNLOAD FAILED.
+Read report/checks/2026-10-25-attended-panel-case-download-pending.json.
+Actual attended-session-20261025T215903Z.SdDIDM transcript reports campus52pass
+in0.28s/0skip, qualified four-caseprefix readback, case/operator/launcher0.
+JobSSHexit0; only subsequentdownloadSSHexit255, stderrConnectionclosedby
+10.16.8.23:22, transport.tar.part0bytes. CauseUNKNOWN, no Pythontraceback.
+Newclip-01-bank-1 attempt01 is used/completed perqualifiedconsole, so DO NOT
+rerun run-one-attended-case.sh or any model/launch command. No extra time or
+recoverygrant needed/created. Remainingqueue notstarted. Fourreportedcomplete,
+three locallyindependentlyverified until newarchive copied and reviewed.
+NEXT userMac runs raw matched-panel-attended-clip-01-bank-1-20261025/
+download-one-case.sh WITHOUT args. Existinghelper createsfreshlocalfolder,
+reads completedstatus/exports over ordinarySSH, no remote writes or jobstart.
+Preserve failed0bytetransport. UserDone then inspect latest-download.txt,
+transport.stderr, byte-verification, casearchive/operator/launcher/journal;
+independentlyreview fourthcase and paired-bank identity before accept.
+No source/packet/helper edits or tests repeated for this copy retry; no new
+job/model/aggregate/heldout/budget/researchadmission. Earlier prepared-only
+paragraph below is a historical checkpoint, not the current run status.
+
+
+LATEST October25 ONE FRESH ATTENDED CASE packet PREPARED, not executed.
+Read docs/attended_panel_cases.md and report/checks/2026-10-25-attended-panel-case-preparation.md/JSON.
+UserNiceletscontinuenextstep authorizes next single fresh clip-01-bank-1 attempt01.
+New scripts/attended_panel_case.py wraps unchanged qualifiedCLI/supervisor;
+52newmetadataCPUtests PASS locally+fresh extraction, zero skips. Actual3case
+metadata preflight PASS with hostname/home mocked, no model.6installer/6shell/
+8bytefixtures pass, no generatedneuralreceipts or GPUqualification.198oldpins/
+58execution unchanged. Packet14870B/9members SHAad0c898ab117bcecab17ea8957482f4da6b1d4ecfb160d3d2810b5d0818fe7f8.
+RequestSHA778ed889e13c5ea012ae41769ee376b63d6923e24127bef805c442c7b800fb22.
+Original4800+15s only, additionalallowance0, consumedrecoverygrant NOT reused.
+Guards pin3casejournal/review/source/hardware, reverifypreviouscases, reject ANY
+prior attempt/operation/orphan export. Single-caseCLI labelretry used only
+for freshcase; exclusive per-caseoperation prevents reset with changedrequest.
+Raw matched-panel-attended-clip-01-bank-1-20261025 has request,packet,source,
+validation, run-one-attended-case.sh and download-one-case.sh. SSH-onlyupload/
+download; noSFTP. Caffeinate/Terminal/lidopen, campus52tests mustpass first.
+Postflight verifiesfourcaseprefix andoldpointers. No campus upload/tests/GPU
+job observed yet; threecases remain accepted, no aggregate/researchadmission.
+NEXT userMac runs raw run-one-attended-case.sh ONCE; then inspect latest-session.txt
+and latest-download.txt after user reports. Failed copy uses download-only helper,
+never repeats model. If job exits unexpectedly preserveoperation/evidence and
+inspect before action; no automatic retry, queue or extraallowance.
+
+
 LATEST October25 RECOVERED THIRD CASE COPIED AND INDEPENDENTLY VERIFIED.
 Read report/checks/2026-10-25-matched-panel-recovery-verification.md/JSON.
 Raw recovery-download-20261025T210429Z.VBM8pj in matched-panel-recovery-ops-20261025

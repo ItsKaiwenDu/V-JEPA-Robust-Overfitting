@@ -1,0 +1,21 @@
+{
+  "payload": {
+    "archive_sha256": "bb9252edb0ce436fe5c758c3219c0a092ba5f5c2171e0570938175fa354ea7a0",
+    "attempt": "attempt-02",
+    "case_id": "clip-01-bank-0",
+    "case_receipt_file_sha256": "5ab369ae43c393547e621c5798dba60ceae55b985f47380363c585ad5cc86cb1",
+    "case_receipt_sha256": "4c3838d04050904edd766c7a408947a7c165bb4d1174d6dd1be5ae46a42d7fb0",
+    "completed_case_count": 3,
+    "execution_sha256": "1e59a735e2f0b6f5485cf0867851c638dcd027715d19270422f390f7745aa70e",
+    "grant_id": "a60abb0ffd3b46079ea055cc24bd57e7",
+    "independent_report_sha256": "8f9cb898188440a717fc05c57fbd56a9e66c0fa24bbc4bc3e23bc54479bf96e4",
+    "journal_file_sha256": "692e57220967490cc1186859e787059f67ffb8060e12740d4df69aff85af91d0",
+    "kind": "matched-panel-recovery-review-acceptance-v1",
+    "plan_sha256": "f6b81dec841aeee703413dba23ea16afe3dbf14736edecadc0f7830f3ded34ae",
+    "remaining_case_count": 17,
+    "remaining_queue_authorized_by_this_marker": false,
+    "research_admitted": false,
+    "reviewed_export": true
+  },
+  "sha256": "b5f3fd49711b0ecc3920f3f32fb348b93a03f51fb3736b48f0c287d1aa69205a"
+}

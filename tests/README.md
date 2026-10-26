@@ -225,3 +225,17 @@ and the complete seven-phase path on actual small upstream CPU models. The
 20 new plus 52 related workflow/preflight/budget cases pass (72 total).
 Three selected cases also pass from the fresh restored package. These are
 local/extracted checks, not new CUDA performance or full recovery evidence.
+
+## One fresh attended panel case
+
+`test_attended_panel_case.py` adds 52 CPU metadata/command guards around the
+unchanged scientific runner. Golden fixtures are genuine reviewed three-case
+journal/acceptance records. Checks refuse changed scopes, stale review/journal,
+existing attempts or operations, orphan exports, unsafe paths, changed process
+supervisor source and busy/wrong hardware. The command remains one fixed case;
+no generated neural/CUDA pass receipts or model execution is used. Local and
+extracted passes do not replace the required campus execution before launch.
+
+The October 25 campus JUnit now independently verifies all 52 attended-case
+guards with zero skips; see the [fourth-case report](../report/checks/2026-10-25-attended-panel-fourth-verification.md).
+The reviewed GPU case is separate from those CPU metadata tests.

@@ -1,0 +1,67 @@
+{
+  "payload": {
+    "case_order": [
+      "clip-00-bank-0",
+      "clip-00-bank-1",
+      "clip-01-bank-0",
+      "clip-01-bank-1",
+      "clip-02-bank-0",
+      "clip-02-bank-1",
+      "clip-03-bank-0",
+      "clip-03-bank-1",
+      "clip-04-bank-0",
+      "clip-04-bank-1",
+      "clip-05-bank-0",
+      "clip-05-bank-1",
+      "clip-06-bank-0",
+      "clip-06-bank-1",
+      "clip-07-bank-0",
+      "clip-07-bank-1",
+      "clip-08-bank-0",
+      "clip-08-bank-1",
+      "clip-09-bank-0",
+      "clip-09-bank-1"
+    ],
+    "completed": {
+      "clip-00-bank-0": {
+        "archive_manifest_path": "exports/clip-00-bank-0-attempt-01.tar.gz.manifest.json",
+        "archive_manifest_sha256": "23ba6e3b3894a68ac363ddd0fb0e76a75c84b35aabb6d48d3a68a72929bf2d68",
+        "archive_path": "exports/clip-00-bank-0-attempt-01.tar.gz",
+        "archive_sha256": "7aa64795e19e4b11208909435d03be140713ba7af8fee9ad232c24294597a2c8",
+        "directory": "cases/clip-00-bank-0/attempt-01",
+        "receipt_file_sha256": "6d834124eca25fe159a58de77bb2227891e831dcf7829905dac601c4d2cd0527"
+      },
+      "clip-00-bank-1": {
+        "archive_manifest_path": "exports/clip-00-bank-1-attempt-01.tar.gz.manifest.json",
+        "archive_manifest_sha256": "4b58c5f87ece31e21ac6e5ac79df75467222daaf6a8d9f4c63ae92808799382f",
+        "archive_path": "exports/clip-00-bank-1-attempt-01.tar.gz",
+        "archive_sha256": "230a8d99862b0f051b69cd091138c4b2c2105762c70af0f75b5957656360801c",
+        "directory": "cases/clip-00-bank-1/attempt-01",
+        "receipt_file_sha256": "ad0c8a48c21201ec8701b94425fb5f1b767d23f54e6a997ce20f946f484946d9"
+      },
+      "clip-01-bank-0": {
+        "archive_manifest_path": "exports/clip-01-bank-0-attempt-02.tar.gz.manifest.json",
+        "archive_manifest_sha256": "e261c5e458e720511a24411f2e044cb14c932748ab1f55310abe7658968086b2",
+        "archive_path": "exports/clip-01-bank-0-attempt-02.tar.gz",
+        "archive_sha256": "bb9252edb0ce436fe5c758c3219c0a092ba5f5c2171e0570938175fa354ea7a0",
+        "directory": "cases/clip-01-bank-0/attempt-02",
+        "receipt_file_sha256": "5ab369ae43c393547e621c5798dba60ceae55b985f47380363c585ad5cc86cb1"
+      }
+    },
+    "execution_sha256": "1e59a735e2f0b6f5485cf0867851c638dcd027715d19270422f390f7745aa70e",
+    "first_acceptance": {
+      "archive_sha256": "7aa64795e19e4b11208909435d03be140713ba7af8fee9ad232c24294597a2c8",
+      "case_id": "clip-00-bank-0",
+      "case_receipt_sha256": "1e121a53b5dd81569e32593deb5c5c997f5bdcacc56ba2c44e1ddcf7c8f6f3f9",
+      "execution_sha256": "1e59a735e2f0b6f5485cf0867851c638dcd027715d19270422f390f7745aa70e",
+      "kind": "matched-panel-first-case-acceptance-v1",
+      "plan_sha256": "f6b81dec841aeee703413dba23ea16afe3dbf14736edecadc0f7830f3ded34ae",
+      "research_admitted": false,
+      "reviewed_export": true
+    },
+    "kind": "matched-panel-journal-v1",
+    "plan_sha256": "f6b81dec841aeee703413dba23ea16afe3dbf14736edecadc0f7830f3ded34ae",
+    "research_admitted": false
+  },
+  "sha256": "5677dbdb792dddfce7b4c7c6fd8ffe626148feed6b9ab74f9c9dffa56d363a63"
+}

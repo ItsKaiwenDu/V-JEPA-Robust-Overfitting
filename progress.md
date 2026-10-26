@@ -1,5 +1,48 @@
 # Research Progress Reports
 
+## 2026-10-25 — Four cases independently verified; two clips fully paired
+
+The fourth export passes the frozen verifier and retained-evidence audit.
+All 173 logical tensors, 320 input-gradient observations, native CUDA evidence,
+attack bounds/prefixes and exact fresh A-only replay verify. Both attack banks
+for the JumpRope clip share all 52 required non-attack tensors and clean scoring
+baselines exactly, with distinct declared attack seeds. All 52 campus guard
+checks also verify without skips from the downloaded JUnit.
+
+The four-case journal preserves every prior pointer and first-case acceptance;
+the historical partial is unchanged. The complete launcher took 39 minutes
+44 seconds with 4.779 GiB peak allocation. Download retry copied existing
+results and repeated no model work. Sixteen cases remain; the next declared
+case is clip-02-bank-0. No further job, partial-panel aggregate or research
+admission has started. [Verification](report/checks/2026-10-25-attended-panel-fourth-verification.md).
+
+## 2026-10-25 — Fourth case finishes remotely; download connection needs retry
+
+The attended transcript reports 52 passing campus guard tests and successful
+qualified read-back of all four completed cases, followed by launcher/SSH
+exit zero. The next SSH connection, used only for copying, closed with exit
+255 before receiving transport bytes. Its cause remains unknown. Three cases
+remain locally independently verified until the fourth archive is retrieved.
+
+Retry only the existing download helper into a fresh local directory. Preserve
+the failed transfer and completed operation; do not rerun the model, issue an
+extra allowance or advance the remaining queue. No source or scientific
+setting changes are needed. [Observed completion and transfer status](report/checks/2026-10-25-attended-panel-case-download-pending.json).
+
+## 2026-10-25 — One fresh attended continuation prepared
+
+The next single case is clip-01-bank-1. A new operational guard pins the reviewed
+three-case boundary and refuses any prior attempt or operation. It keeps the
+original 80-minute limit and frozen scientific code; the consumed recovery
+grant is untouched. All 52 new metadata checks pass locally and after fresh
+extraction, with zero skips. The actual retained-evidence metadata preflight
+and installer/process/byte fixtures pass without model execution.
+
+A small SSH-only upload, logged attended launcher and download-only fallback
+are ready. The university will rerun the new guards and fresh hardware checks
+before one case. No upload or GPU launch has occurred; three cases remain
+independently accepted. [Preparation](report/checks/2026-10-25-attended-panel-case-preparation.md).
+
 ## 2026-10-25 — Recovered third case independently accepted; 3 of 20 verified
 
 The completed recovery export is safely downloaded and independently verified

@@ -1,0 +1,147 @@
+{
+  "additional_allowance_seconds": 0,
+  "archive_bytes": 118039804,
+  "archive_members": 34,
+  "archive_sha256": "df7bb4c5a7739ecebf95738309aca74568a0f26d2ec688c3d76b0312dd22def2",
+  "attack_bank": 1,
+  "attempt": "attempt-01",
+  "audit_script": "runs/pretrained/diagnostic/matched-panel-attended-clip-01-bank-1-20261025/audit-attended-fourth-case.py",
+  "audit_script_sha256": "24e04a42d7a210ad32ef63ac0f9ed279a7cac448845c04fa1d089a6929881e76",
+  "budget_or_billing_changed": false,
+  "campus_CPU_tests": {
+    "errors": 0,
+    "failures": 0,
+    "junit_sha256": "5ca4d7a79aec70d51e8624b044a381814544ec5946bdb4f1f42c08ffb22c6bd9",
+    "seconds": 0.276,
+    "skipped": 0,
+    "tests": 52
+  },
+  "case_id": "clip-01-bank-1",
+  "completed_cases": 4,
+  "exact_matched_prefixes_and_strict_selection_verified": true,
+  "execution_sources_verified": 58,
+  "finite_nonzero_input_gradient_observations_verified": 320,
+  "fresh_A_only_replay_exact": true,
+  "fully_paired_training_clips": 2,
+  "held_out_pixels_opened": false,
+  "historical_failed_partial_files_preserved": 11,
+  "journal_reconstructed_and_all_four_cases_reverified": true,
+  "kind": "attended-panel-fourth-case-independent-verification-v1",
+  "logical_tensors_verified": 173,
+  "memory": {
+    "matrix": {
+      "allocator_limit_bytes": 7389845913,
+      "peak_allocated_GiB": 4.779139041900635,
+      "peak_allocated_bytes": 5131561472
+    },
+    "replay": {
+      "allocator_limit_bytes": 7389845913,
+      "peak_allocated_GiB": 3.6541881561279297,
+      "peak_allocated_bytes": 3923654656
+    }
+  },
+  "native_CUDA_probes_and_pixel_bounds_passed": true,
+  "new_GPU_or_model_job_during_review": false,
+  "new_tests_or_full_suite_repeated": false,
+  "next": "Prepare the next bounded attended fresh case at clip-02-bank-0 while preserving all four verified cases. No further work has been launched.",
+  "next_case": "clip-02-bank-0",
+  "next_case_started": false,
+  "operator_status": "case_verified",
+  "original_allowance_seconds": 4800,
+  "original_scientific_pins_verified": 198,
+  "paired_bank_integrity": {
+    "attack_seeds_distinct_as_declared": true,
+    "main_and_audit_clean_baselines_exact": true,
+    "other_case_id": "clip-01-bank-0",
+    "partial_panel_scientific_mean_computed": false,
+    "shared_logical_tensor_count": 52,
+    "shared_pixel_target_start_and_scoring_tensors_exact": true
+  },
+  "prior_three_pointers_first_acceptance_and_before_journal_unchanged": true,
+  "qualified_verifier_CLI_exit_status": 0,
+  "raw_download_directory": "runs/pretrained/diagnostic/matched-panel-attended-clip-01-bank-1-20261025/case-download-20261025T225939Z.Oj7Jo5",
+  "recovery_grant_reused": false,
+  "remaining_cases": 16,
+  "remaining_queue_started": false,
+  "request_sha256": "778ed889e13c5ea012ae41769ee376b63d6923e24127bef805c442c7b800fb22",
+  "required_cases": 20,
+  "research_admitted": false,
+  "review_acceptance": {
+    "file_sha256": "b4be222fe749a2c6a5b654c59219d30d07d432dcda03c882f92c7e163d540805",
+    "path": "runs/pretrained/diagnostic/matched-panel-attended-clip-01-bank-1-20261025/case-download-20261025T225939Z.Oj7Jo5/attended-review-acceptance.json",
+    "payload_sha256": "45b88212941a8db2df6fe7159fa487498e5d9572e6590a3d099eac4627c480f0"
+  },
+  "reviewed_utc": "2026-10-25T23:06:14.952729+00:00",
+  "scientific_aggregate": null,
+  "scores_this_case_only": {
+    "A": {
+      "audit_0": {
+        "adversarial": 0.6649256944656372,
+        "clean": 0.5983291268348694
+      },
+      "audit_1": {
+        "adversarial": 0.6740862131118774,
+        "clean": 0.59821617603302
+      },
+      "main": {
+        "adversarial": 0.69093918800354,
+        "clean": 0.6019014120101929
+      }
+    },
+    "B": {
+      "audit_0": {
+        "adversarial": 0.6780931949615479,
+        "clean": 0.5983291268348694
+      },
+      "audit_1": {
+        "adversarial": 0.6886000037193298,
+        "clean": 0.59821617603302
+      },
+      "main": {
+        "adversarial": 0.7078948020935059,
+        "clean": 0.6019014120101929
+      }
+    },
+    "C": {
+      "audit_0": {
+        "adversarial": 0.6836649179458618,
+        "clean": 0.5983291268348694
+      },
+      "audit_1": {
+        "adversarial": 0.6942813396453857,
+        "clean": 0.59821617603302
+      },
+      "main": {
+        "adversarial": 0.7075019478797913,
+        "clean": 0.6019014120101929
+      }
+    },
+    "D": {
+      "audit_0": {
+        "adversarial": 0.6977041363716125,
+        "clean": 0.5983291268348694
+      },
+      "audit_1": {
+        "adversarial": 0.7145185470581055,
+        "clean": 0.59821617603302
+      },
+      "main": {
+        "adversarial": 0.721341609954834,
+        "clean": 0.6019014120101929
+      }
+    }
+  },
+  "timing": {
+    "A40_cost_pool_eligible": false,
+    "case_session_seconds": 2322.523288596887,
+    "launcher_end_Pacific": "2026-10-25T15:39:04-07:00",
+    "launcher_start_Pacific": "2026-10-25T14:59:20-07:00",
+    "operator_supervised_process_seconds": 2343.9562903037295,
+    "whole_launcher_wall_seconds": 2384.0
+  },
+  "transfer_or_historical_interrupt_root_causes_known": false,
+  "transport_sha256": "e01195bc62736f965d3e4f1514a85462558fc3f33fdba1d5ffc9c3e005d41952",
+  "upstream_sources_verified": 34,
+  "verified": true,
+  "video_id": "v_JumpRope_g16_c02"
+}

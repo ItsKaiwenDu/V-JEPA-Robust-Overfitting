@@ -1,0 +1,98 @@
+{
+  "CPU_tests": {
+    "extracted": {
+      "errors": 0,
+      "failures": 0,
+      "junit_sha256": "eea8246a41f6259c991a6d88bf0ac364dc2e726df5113ea4c4679b66f50ba5b8",
+      "seconds": 0.077,
+      "skipped": 0,
+      "tests": 52
+    },
+    "local": {
+      "errors": 0,
+      "failures": 0,
+      "junit_sha256": "5448864e3cce02433c414cd9ac8de3c7172bb1fa95a60df4d2899cf9fa6f2612",
+      "seconds": 0.067,
+      "skipped": 0,
+      "tests": 52
+    }
+  },
+  "GPU_case_started": false,
+  "SSH_only_upload_and_download": true,
+  "additional_CPU_only_validation": {
+    "byte_transport_and_safe_extraction": 8,
+    "local_fixtures_qualify_GNU_timeout_or_GPU": false,
+    "neural_or_CUDA_pass_receipts_generated": false,
+    "ordinary_shell_lifecycle": 6,
+    "small_packet_installer": 6
+  },
+  "additional_allowance_seconds": 0,
+  "attempt": "attempt-01",
+  "campus_CPU_checks_executed": false,
+  "case_id": "clip-01-bank-1",
+  "consumed_recovery_grant_reused": false,
+  "date": "2026-10-25",
+  "existing_independently_verified_cases": 3,
+  "expected_completed_cases_after_success": 4,
+  "full_project_suite_repeated": false,
+  "genuine_three_case_evidence_preflight": {
+    "GPU_or_model_or_new_case_launched": false,
+    "actual_frozen_handoff_and_three_completed_cases_used": true,
+    "additional_allowance_seconds": 0,
+    "case_id": "clip-01-bank-1",
+    "fixture_directory": "/private/tmp/vjepa-attended-real-boundary-b_rtziwe",
+    "hostname_and_home_mocked_for_local_metadata_validation": true,
+    "initial_fixture_setup_issue": "The first local fixture builder encountered an already existing runs parent before preflight; corrected exist_ok for the fixture parent only.",
+    "kind": "attended-preflight-real-retained-evidence-CPU-check",
+    "operation_directory_created": false,
+    "passed": true,
+    "request_sha256": "778ed889e13c5ea012ae41769ee376b63d6923e24127bef805c442c7b800fb22"
+  },
+  "kill_grace_seconds": 15,
+  "kind": "one-fresh-attended-panel-case-preparation-v1",
+  "new_recovery_grant_issued": false,
+  "next": "User Mac runs run-one-attended-case.sh once; keep Terminal and lid open through campus guards, one case and evidence copy. Then independently review the new export. Retry a failed download only with download-one-case.sh; never rerun the launcher blindly.",
+  "operator_packet": {
+    "bytes": 14870,
+    "contains_checkpoint_or_neural_tensors_or_closed_data": false,
+    "manifest_sha256": "5c7634203b720f19de749d61bb108daf44dab4c84762f1e4258cd1e7d8a39aaa",
+    "members": 9,
+    "sha256": "ad0c898ab117bcecab17ea8957482f4da6b1d4ecfb160d3d2810b5d0818fe7f8",
+    "upload_payload_bytes": 21396,
+    "upload_payload_sha256": "09a2ce0ef7c555fb088a2415ba7c5739a1bd267497b2d981e26a1fb7610df818"
+  },
+  "original_case_seconds": 4800,
+  "original_scientific_pins_unchanged": 198,
+  "prepared_utc": "2026-10-25T21:48:29.132907+00:00",
+  "prior_attempt_or_operation_refuses": true,
+  "qualified_execution_sources_unchanged": 58,
+  "raw_preparation": "runs/pretrained/diagnostic/matched-panel-attended-clip-01-bank-1-20261025",
+  "remaining_cases_before_launch": 17,
+  "remote_package_installed": false,
+  "request_sha256": "778ed889e13c5ea012ae41769ee376b63d6923e24127bef805c442c7b800fb22",
+  "research_admitted": false,
+  "runtime_rules": {
+    "file_backed_stdio_and_per_operation_status": true,
+    "fixed_three_case_journal_and_previous_export_review_required": true,
+    "fresh_exact_host_GPU_driver_and_no_compute_process_required": true,
+    "legacy_supervisor_status_schema_is_not_a_recovery_authorization": true,
+    "new_52_CPU_checks_must_pass_on_campus": true,
+    "one_case_operation_directory_exclusive": true,
+    "operator_requires_original_qualified_checkpoint": true,
+    "postflight_all_four_cases_and_preserved_pointers_reverified": true,
+    "prior_case_files_and_archives_reverified_before_start": true,
+    "scientific_CLI_single_case_mode": "retry, guarded by mandatory unattempted case and operation checks",
+    "supervisor_reuses_unchanged_previously_campus_tested_source": true
+  },
+  "scientific_aggregate": null,
+  "scope": "one fresh attended university case only; stop afterward",
+  "source_sha256": {
+    "scripts/attended_panel_case.py": "ed63dcc0009b668517d5a0cda9f50166a75c25d1edb5a43a1a3d79b6636dd1f9",
+    "scripts/guarded_panel_recovery.py": "231b7db4b10361d97f788eba09c80b349b3b18e2e6b1e4ed41698c288c885182",
+    "tests/fixtures/attended_recovery_review.json": "b04bac3739d56fcb979bf1637104889fde7fd04456a861dbf55b689669ab1c3a",
+    "tests/fixtures/attended_three_case_journal.json": "692e57220967490cc1186859e787059f67ffb8060e12740d4df69aff85af91d0",
+    "tests/test_attended_panel_case.py": "db7dae755888f09763cbbb30811b296270c0e64367003097ab56be8afbc23e6e"
+  },
+  "study_budget_paid_compute_or_precision_adoption_changed": false,
+  "user_instruction": "Nice; let's continue next step!"
+}
