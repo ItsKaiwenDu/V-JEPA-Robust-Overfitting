@@ -1,15 +1,14 @@
 # Logged attended panel cases
 
-**Verified outcome, October 25:** the sixth case, clip-02-bank-1, is
-[independently accepted](../report/checks/2026-10-25-attended-panel-sixth-verification.md).
-All 52 campus guard checks and the complete sixth-case export verify. Six of
-twenty cases are accepted, pairing both attack banks for three training clips.
-The Swing pair shares its required pixels, targets, starts and scoring masks
-exactly, with distinct declared attack seeds. The download-only fallback
-succeeded after a zero-byte first connection; no case rerun was needed.
-The request and operation are used; never rerun this launch helper. The next
-case is clip-03-bank-0; no further request or job has started. Full-panel
-analysis remains gated.
+**Verified outcome, October 25:** the seventh case, clip-03-bank-0, is
+[independently accepted](../report/checks/2026-10-25-attended-panel-seventh-verification.md).
+All 52 campus guard checks and the full export verify. Seven of twenty cases
+are accepted. Three training clips have both attack banks complete; TennisSwing
+has only its first bank complete. A download-only retry recovered the export
+without another GPU case. The request/operation is used; never rerun it.
+Next v1 case is clip-03-bank-1, unlaunched. The separate second-host shadow
+is running against its original case-6 reference and does not add panel cases.
+Full-panel analysis remains gated.
 
 Use this operational envelope for one wholly unattempted next case of the
 frozen ten-clip/two-bank diagnostic. Scientific workers, settings and source
@@ -56,3 +55,10 @@ The existing operator/launcher/copy logic is reused; only the declared case,
 request and protected checksums change. The actual five-case metadata preflight
 and existing-target refusal passed locally. That preparation preceded the
 completed sixth-case and Swing-pair verification now recorded above.
+
+The [seventh-case preparation](../report/checks/2026-10-25-attended-panel-seventh-preparation.md)
+targets only clip-03-bank-0 after six accepted cases. It reuses the tested
+operational logic and binds the accepted six-case journal and reviewer marker.
+The actual six-case metadata preflight and existing-target refusal passed
+locally. That preparation preceded the independently verified seventh case
+now recorded above. TennisSwing bank 1 remains separate and unlaunched.

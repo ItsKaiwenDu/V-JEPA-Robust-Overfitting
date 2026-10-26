@@ -541,3 +541,28 @@ cases. Three of twenty cases are accepted; the next continuation is logged and
 attended, with original case limits. No study setting, tolerance, held-out data,
 precision adoption or budget admission changes. See the
 [verification](../report/checks/2026-10-25-matched-panel-recovery-verification.md).
+
+## 2026-10-25 — Qualify a second host in an isolated shadow experiment
+
+After the user requested the next step, prepare one separately identified
+linux10603 reference replay with a twenty-minute total bound, two fresh
+arm-A workers and no automatic GPU retry. Fix the latest independently
+accepted reference before candidate execution, and require exact retained
+numerical/gradient/tensor agreement and observed native CUDA evidence.
+Record actual new hardware and source identity. No hostname/UUID spoofing,
+old-plan edits, old receipt relabeling, panel-journal writes or source-pin
+replacement. Original v1 single-host/serial requirements and all historical
+FP32 failures remain. A pass is scoped to this reference, not automatic
+multi-host panel admission, study precision adoption or research results.
+See [the separate replay guide](cross_host_replay.md).
+
+## 2026-10-25 — Accept the bounded reference bridge and stop for the night
+
+Both independently verified candidate arm-A replays match the fixed reference
+bitwise, with actual native CUDA evidence and unchanged source/runtime/weight
+contracts. Accept only this one-clip/one-arm shadow result, retaining the
+original v1 single-host plan and all old artifact identities. A two-host panel
+needs an explicit execution revision and tested coordination; no automatic
+dispatch or research adoption follows. Both jobs ended. At the user's request,
+stop after verification and resume further work only when they return.
+See [the verification](../report/checks/2026-10-25-cross-host-shadow-verification.md).

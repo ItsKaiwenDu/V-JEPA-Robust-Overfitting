@@ -2,6 +2,154 @@
 
 ## Current stage
 
+LATEST October25 SHADOW INDEPENDENTLY PASS; USER STOPPING UNTIL RETURN.
+User: "Done. Also I'm going to sleep after you verify this one. We're gonna
+do rest tomorrow." Verification is complete. Start no further GPU work,
+plan implementation or automatic queue tonight; await user return/resume.
+Read report/checks/2026-10-25-cross-host-shadow-verification.md/JSON.
+Both our project jobs and downloads ended/verify locally; safe to close SSH
+and let Mac sleep. No paid Pods are active in our recorded project state.
+Raw cross-host-replay-10603-20261025 latest-download:
+case-download-20261026T061851Z.ZycTiC. It has downloaded/, shadow-reviewed/,
+independent-verification.json and shadow-review-acceptance.json. Raw audit
+audit-shadow-completion.py. CLI review + retained-evidence audit PASS.
+Archive142338272B/33members SHA6543557a2a75cc9284698d58b666e19a5bdbab31e8d96c3a3d58bab1a65c5162.
+ShadowPlan66f8595088397e1ca0b56fd69c5bc9b82842feec9c3fe39c6f83a369ec40d1c4.
+Both fresh10603 A20/EOT4 workers exactly match fixed accepted clip-02-bank-1
+Swing reference from10609:85tensors+40finite nonzero gradient observations
+each;170/80total; targets/starts/masks/adversaries/traces/scores/nativeCUDA.
+Actual new GPU UUID e54fae90-feeb-8106-d8c0-1974fe48555f, truthful candidate
+executionSHA731a1d6e2cb6d42e75fd12aaa10a07dd49404d0a840ed6f8957d71db5a5904cf.
+198oldpins/58qualified/34upstream/4shadow sources verified. Actual campus67
+pass/0fail/0error/0skip,2.733s. Wholelauncher22:55:57–23:04:29Pacific512s;
+parent497.309s; attacks197.203/197.294s; peaks3.674/3.673GiB.1200+15limit
+respected, one attempt/no GPU retry. Firstcopy255/0bytes preserved; retry0.
+AcceptanceSHA 2a7a52034d30a9740c9ebd5f190bd214ed124307307afabb92c5f918cd12d846.
+NO v1 case admission, all-clips/EOT8/new-oracle claim, parallel dispatcher,
+scientific plan/source/precision adoption, heldout access, budget/research
+change. Original v1 remains7/20accepted,13remaining, three complete clip pairs.
+Seventh marker b08361f743f71b2066cb3ac63f4179891c4b1f3b06f293e5199760f346a8acff
+and journalcf851847721b40a24b45563ee4b06f589024269c94d4cbf73ce96af79a3e6814
+remain intact. Next v1 case clip-03-bank-1 NOT started or prepared.
+NEXT WHEN USER RETURNS: explicit two-host execution revision + tested
+coordination, one worker/GPU, isolated roots, whole clip pairs co-located;
+keep Tennis bank1 on10609. Preserve original v1 plan/receipts/source pins,
+do not relabel old evidence or bypass UUID gates. Scope bridge onlyoneclip/A.
+Do NOT rerun used run-shadow-replay.sh or case7 launch helper. No new tests
+or models rerun during final audit. Working tree is saved but uncommitted;
+user commits themselves and asks us for commit messages. Historical snapshots
+below do not supersede this stopped/verified checkpoint.
+
+LATEST October25 SEVENTH PANEL CASE ACCEPTED; separate10603 shadow RUNNING.
+Read report/checks/2026-10-25-attended-panel-seventh-verification.md/JSON.
+7/20 verified,13remain; three complete clip pairs; Tennis clip03bank0 only.
+Raw matched-panel-attended-clip-03-bank-0-20261025 latest-download points to
+case-download-20261026T055507Z.4WxZ3I, with case-reviewed/,
+verified-panel-mirror/, independent-verification.json and attended-review-acceptance.json.
+Archive104719507B/34members SHA98c355f78984062cf9563f3ee024a59acc8fcbb4d88ab1d31abaf6b3ed87c16d.
+Frozen CLI + raw audit-attended-seventh-case.py PASS:198oldpins/58sources/34upstream,
+173tensors/320finite nonzero gradient observations, nativeCUDA/bounds/prefix/
+strictselection/exactfreshA replay. Actualcampus52pass/0fail/0error/0skip,0.284s.
+All7entries and three prior pairs reverify; old6pointers/firstreview/11partial
+files preserved. No partialpanelmean. Launcher21:41:41–22:23:14Pacific=2493s,
+session2426.146s; peak4.815/3.674GiB. Original4800+15s, extra0/grantreuseFalse.
+Firstcopy255/0bytes retained; later SSH download succeeded; noGPUrestart.
+AcceptanceSHA b08361f743f71b2066cb3ac63f4179891c4b1f3b06f293e5199760f346a8acff.
+JournalSHA cf851847721b40a24b45563ee4b06f589024269c94d4cbf73ce96af79a3e6814.
+Next v1 case clip-03-bank-1 NOT prepared or launched by this review.
+User reports shadow started; local cross-host-replay-10603-20261025/latest-session
+points to attended-session-20261026T055548Z.TKZmX2, showing actual67CPU passes
+and Fresh candidate shadow worker:0. No completion/qualification claimed yet.
+Keep shadow fixedref clip-02-bank-1, plan66f8595088397e1ca0b56fd69c5bc9b82842feec9c3fe39c6f83a369ec40d1c4;
+do NOT replace it with newly accepted case7 or edit live sources/helpers.
+One1200s+15 attempt,2fresh A-only workers, each510s; no automaticGPUretry.
+NEXT inspect shadow completion/download after userDone; use extracted pinned
+CLI review with trusted original snapshot and external archiveSHA, then audit
+launcher/JUnit/time/source/actualGPU/tensor/trace records. Failedcopy uses
+download-shadow-evidence.sh only, never run-shadow-replay.sh again.
+No shadow v1-case admission, parallel dispatcher, plan/source/precision/
+budget/heldout/paidcompute/research adoption change. Older snapshots historical.
+
+LATEST October25 ISOLATED CROSS-HOST SHADOW PREPARED; no new GPU work.
+Read docs/cross_host_replay.md and report/checks/2026-10-25-cross-host-shadow-preparation.md/JSON.
+User "Okay let's do next step! I'm so excited!" authorizes next bounded
+reference qualification. Candidate linux10603 UUID e54fae90-feeb-8106-d8c0-1974fe48555f,
+same3.11.17/2.8.0cu128/2.4.6/580.178.04 stack. Supplied host key ARgVRWOz...
+matches public known_hosts key; new Mac helper uses strict task-scoped pin.
+New models/cross_host_replay.py + scripts/check_cross_host_replay.py reuse
+unchanged numerical worker with distinct truthful shadow execution identity.
+tests/test_cross_host_replay.py + genuine JSON metadata fixture:67CPUchecks
+pass local and extracted, zero skips/failures/errors;8byte/4shell checks pass.
+All198 original pins/58 qualified sources unchanged. No full-suite repeat.
+Raw cross-host-replay-10603-20261025 has packet, shadow-plan.json, validation,
+known_hosts, run-shadow-replay.sh and download-shadow-evidence.sh.
+PlanSHA 66f8595088397e1ca0b56fd69c5bc9b82842feec9c3fe39c6f83a369ec40d1c4.
+Archive40062B/9members SHA15e4caffa9e3d33cf523b94657522c5aded352f1c4cddcf648a848af84c4198e.
+Reference fixed to latest accepted clip-02-bank-1 Swing, old6case review;
+two fresh PGD20/EOT4 A-only workers on10603, serial there. Wholepipeline1200s
++15grace; worker510s; allocator7GiB/90%; one attempt, zero GPU retry. Fixed
+candidate operation root and atomic worker claims reject resets/duplicates.
+Actual candidates must exactly match ref84input tensors+adversary/40gradient
+traces each/scores, native CUDA and runtime/model/source/checkpoint contracts.
+No v1 session/receipt/journal write or panel admission. Scope one clip/arm;
+no all-clips/EOT8/oracle/parallel-runner or study adoption claim.
+NEXT user Mac runs raw run-shadow-replay.sh ONCE in separate Terminal, lid open.
+After userDone inspect latest-session/latest-download; independently review
+shadow export via extracted CLI review (trusted original snapshot+external
+archiveSHA+prepared plan pin). Verify launcher/JUnit/time records separately.
+Failed copy uses download-only retry; never repeat used GPU operation.
+Existing seventh case on10609 now launcher/jobSSHexit0; local download not yet
+recorded complete. Keep its Mac window open if waiting for password; do not
+rerun. Review its export separately after copying. Six cases accepted so far.
+No v1 plan/source/settings/precision/budget/paidcompute/research admission
+change. Earlier candidate-screen and case7-prepared snapshots are historical.
+
+LATEST October25 SECOND HOST METADATA SCREEN; seventh case reported RUNNING.
+Read report/checks/2026-10-25-university-second-host-screen.md/JSON.
+User-pasted linux10603 RTX3070 GPU-e54fae90-feeb-8106-d8c0-1974fe48555f,
+8192MiB/94used, driver580.178.04, Python3.11.17/torch2.8.0+cu128/numpy2.4.6/
+CUDA-build12.8. Distinct from linux10609 UUID; versions match. Metadata only:
+no CUDA tensor/model/replay qualification or second-host case/allowance.
+Frozen v1 still maxparallel1/same physical GPU; no guard bypass or changing
+old source/plan/receipts. Six accepted; user reports clip-03-bank-0 running
+on linux10609. Review seventh export only after actual completion/download.
+Candidate report outlines separate bounded shadow qualification, explicit
+execution revision and tested multi-host coordination; none implemented or
+launched. Shared home must not imply separate journal roots automatically.
+Current198/58 pins unchanged. Preserve original single-case operation and
+copy-only retry. No partial aggregate, paid compute, source/settings/budget
+or research admission change. No automatic extra GPU work is authorized by
+this metadata screen. Earlier seventh-prepared snapshot is historical.
+
+LATEST October 25: SEVENTH CASE clip-03-bank-0 PREPARED; not launched.
+Read report/checks/2026-10-25-attended-panel-seventh-preparation.md/JSON.
+User "Nice; continue next step!" authorizes one fresh attended next case.
+Raw matched-panel-attended-clip-03-bank-0-20261025 has request/previous-review,
+packet, helpers, validation, preparation.json, exact prepare-one-case-local.py
+and run-one-attended-case.sh / download-one-case.sh. Next video is
+v_TennisSwing_g14_c04, bank0. Six accepted cases; fourteen remain before launch.
+Operator/supervisor/52 tests/fixtures unchanged. Actual sixth-campus JUnit
+52pass/0fail/0error/0skip reused; no unchanged local test suite rerun.
+Actual six-case metadata preflight with mocked home/host PASS; existing target
+case directory rejects. All198 original pins /58 scientific sources unchanged.
+Packet 15187B/9members, SHA
+c20359a4e858a1114955dfcc463453461e6877802779d3f7266d754291153f0e.
+RequestSHA a13aed8f0204f5bb2e0ca76d5a688ea50868f9fa4b5a380dd6ffe95b075ae021.
+Pins six-case journal 4561d3b236b4d2c7b0892d8541de8540055eb74f753aab399590a4bf0bdfb87a
+and prior review c5c2d62c519f8725725a8c792e2768df57007a6cbc043351ca06edd7a6ecd329.
+Original4800+15s, extra allowance0; no consumed-grant reuse or GPU retry.
+Fresh packet extraction/member/source/helper/syntax/quoting checks pass.
+Installer/launcher/copy logic unchanged after declared identity/checksum updates.
+NEXT user Mac runs new raw run-one-attended-case.sh ONCE; keep Terminal/lid open.
+No remote upload, campus checks or seventh GPU case observed yet. Mandatory
+fresh campus52/hardware and prior-six-evidence guards precede one case only.
+After userDone inspect latest-session.txt and latest-download.txt in this new
+raw directory, independently review seventh export and all seven journal
+entries. Tennis bank1 is still unrun; three fully paired clips remain until
+later completion. Failed transfer uses download-only; never relaunch used case.
+No queue/partial mean/held-out pixels/scientific settings or precision adoption/
+budget/paid compute/research admission change. Older snapshots are historical.
+
 LATEST October 25: SIXTH CASE independently accepted; 6/20 verified, 14 remain.
 Read report/checks/2026-10-25-attended-panel-sixth-verification.md/JSON.
 Raw matched-panel-attended-clip-02-bank-1-20261025/latest-download.txt points to

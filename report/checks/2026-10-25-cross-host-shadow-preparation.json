@@ -1,0 +1,95 @@
+{
+  "automatic_GPU_retries": 0,
+  "automatic_download_retries_maximum": 1,
+  "candidate_GPU_identity": "NVIDIA GeForce RTX 3070, GPU-e54fae90-feeb-8106-d8c0-1974fe48555f, 8192, 580.178.04",
+  "candidate_execution_sha256": "731a1d6e2cb6d42e75fd12aaa10a07dd49404d0a840ed6f8957d71db5a5904cf",
+  "candidate_host": "linux10603",
+  "candidate_is_separate_execution_identity": true,
+  "candidate_runtime_replay_qualified": false,
+  "extracted_CPU_tests": {
+    "errors": 0,
+    "failures": 0,
+    "seconds": 0.482,
+    "skipped": 0,
+    "tests": 67
+  },
+  "final_verified_extraction": "runs/pretrained/diagnostic/cross-host-replay-10603-20261025/extracted/cross-host-replay-10603-20261025",
+  "fresh_workers": 2,
+  "frozen_panel_or_sources_modified": false,
+  "genuine_reference_metadata_preflight_passed": true,
+  "helpers_sha256": {
+    "download-shadow-evidence.sh": "f83684dc999c3f76599626dceef622efa500bbda65ce5bb22c65912fb1f7891a",
+    "install-command.txt": "099280ccfaa3a938311bce642ef572c03935fde6096944295b69fc38021308d6",
+    "known_hosts": "d8f4cdc475ab261496ec3e8009a85bb1e5b824b2694b6b73ebbce673edcdf542",
+    "launch-command.txt": "ea13e8326c5d8fd02eb4d3a7363dd88ec8a17d41921ea5a4174d2194fbb9262f",
+    "receive-shadow-evidence.py": "3511fbd519ff25eee65c075f7962ce1f09c1da96de651ed92fcf48d7fc2b4ae2",
+    "run-shadow-replay.sh": "8077bc3a37637bb69ef9bcf1d6a0342216c9e864835c1fda6d926449f86f4cfd",
+    "stream-shadow-evidence.py": "d899fc9a7bfb05b0d2bc7d161c01f1018b597307bd949b466083360416501a75",
+    "upload-payload.json": "b1631514afff36a1756ed2d3b4de671d6a5ba6590589116e0d9b67104eafd1ce"
+  },
+  "host_key_fingerprint": "SHA256:ARgVRWOzRLA1LmAANxD6Ya17EIIo2sa4ZbHvkeqzgKQ",
+  "host_key_verified": true,
+  "kill_grace_seconds": 15,
+  "kind": "cross-host-shadow-replay-preparation-v1",
+  "local_CPU_tests": {
+    "errors": 0,
+    "failures": 0,
+    "seconds": 0.485,
+    "skipped": 0,
+    "tests": 67
+  },
+  "max_attempts": 1,
+  "new_GPU_work_started": false,
+  "new_source_sha256": {
+    "models/cross_host_replay.py": "d028acc0e1b8b77e140c7b7266d31b898a4802f6ae91a24328824b0a8f8c6cd0",
+    "scripts/check_cross_host_replay.py": "bb881510b059da8b770d6f04c0e72f1cfc5d5fef8b6a39698156116accaffdbe",
+    "tests/fixtures/cross_host_reference_records.json": "370cf9820840ae61651f1a5e4b0f4a755792a438e845440f6227577f9973bdc5",
+    "tests/test_cross_host_replay.py": "a2b0fdddf35ecbcb1cb8f54d7c8db3802e65a6fe75e9cfdb1023225e5227ac78"
+  },
+  "next": "User Mac runs run-shadow-replay.sh once; keep Terminal/lid open; independently review saved shadow export afterward.",
+  "ordinary_byte_transport_checks": 8,
+  "original_scientific_pins_verified": 198,
+  "paid_compute": false,
+  "panel_cases_admitted": 0,
+  "parallel_runner_implemented": false,
+  "prepared_utc": "2026-10-26T05:28:40.362035+00:00",
+  "qualified_execution_sources_verified": 58,
+  "raw_preparation": "runs/pretrained/diagnostic/cross-host-replay-10603-20261025",
+  "reference_case_id": "clip-02-bank-1",
+  "reference_execution_sha256": "1e59a735e2f0b6f5485cf0867851c638dcd027715d19270422f390f7745aa70e",
+  "reference_relabel_as_candidate_rejected": true,
+  "reference_selection": "Latest independently accepted case at the start of this shadow proposal, fixed before candidate GPU execution; no score-based selection.",
+  "reference_video_id": "v_Swing_g20_c03",
+  "research_admitted": false,
+  "shadow_plan_sha256": "66f8595088397e1ca0b56fd69c5bc9b82842feec9c3fe39c6f83a369ec40d1c4",
+  "shell_formats_verified_from_actual_bytes_and_execution": true,
+  "shell_wrapper_CPU_checks": [
+    {
+      "check": "success",
+      "exit_status": 0,
+      "passed": true
+    },
+    {
+      "check": "duplicate-launch-preserves-first-status",
+      "passed": true
+    },
+    {
+      "check": "failure",
+      "exit_status": 7,
+      "passed": true
+    },
+    {
+      "check": "signal",
+      "exit_status": 143,
+      "passed": true
+    }
+  ],
+  "source_packet": {
+    "bytes": 40062,
+    "members": 9,
+    "payload_bytes": 54957,
+    "sha256": "15e4caffa9e3d33cf523b94657522c5aded352f1c4cddcf648a848af84c4198e"
+  },
+  "whole_attempt_seconds": 1200,
+  "worker_seconds": 510
+}

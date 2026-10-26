@@ -1,5 +1,80 @@
 # Research Progress Reports
 
+## 2026-10-25 — Second-host replay verified; stopped checkpoint for tomorrow
+
+Both fresh linux10603 arm-A replays match the fixed accepted linux10609
+reference exactly: 170 candidate logical tensors, 80 finite nonzero input-
+gradient observations, targets/starts/masks/adversaries, scores and native
+CUDA evidence verify. All 67 campus CPU checks pass without failures, errors
+or skips. The whole launcher took 8 minutes 32 seconds; peak allocation was
+3.674 GiB. Download-only retry repaired copying without repeating GPU work.
+
+The result is scoped to one training clip and PGD20/EOT4 arm A. No v1 panel
+case or parallel dispatcher is admitted; the panel remains seven of twenty,
+with thirteen cases pending. Both project jobs and downloads have finished.
+The user requested stopping here to sleep. On return, prepare an explicit
+two-host execution revision and tested coordination before more panel work.
+[Verification](report/checks/2026-10-25-cross-host-shadow-verification.md).
+
+## 2026-10-25 — Seventh panel case accepted while the separate host replay runs
+
+The TennisSwing first-bank export passes the frozen reviewer and retained-
+evidence audit: 173 tensors, 320 input gradients, native CUDA, attack bounds/
+prefixes and exact fresh A-only replay verify. All 52 campus guard tests pass
+without failures, errors or skips. The launcher took 41 minutes 33 seconds
+and peaked at 4.815 GiB allocator use. Download-only retry repaired copying.
+
+All seven cases reverify; six prior pointers, first acceptance and historical
+partial files are preserved. Three clips remain fully paired; TennisSwing's
+bank 1 is pending. Thirteen cases remain, with no partial-panel aggregate.
+The separate linux10603 replay is running under its unchanged fixed case-6
+reference and twenty-minute scope. No shadow outcome or v1 admission is
+claimed here, and the next v1 case has not launched.
+[Verification](report/checks/2026-10-25-attended-panel-seventh-verification.md).
+
+## 2026-10-25 — Separate candidate-host reference replay prepared
+
+A bounded linux10603 shadow replay reuses the fixed latest accepted Swing
+bank-1 reference, with two fresh PGD20/EOT4 arm-A workers and a separate
+execution identity. All 67 focused CPU checks pass locally and after fresh
+extraction; eight byte fixtures and four shell-wrapper checks also pass.
+All original 198/58 scientific source pins remain unchanged. Host-key and
+real-reference metadata checks verify without new GPU work.
+
+The full pipeline has a twenty-minute limit and no automatic GPU retry.
+It writes no panel case or journal and does not enable parallel scheduling.
+The packet and attended Mac helper are ready; no upload/model job has started.
+Case 7 reported successful remote completion; its download/review remains
+pending, so six cases remain accepted.
+[Preparation](report/checks/2026-10-25-cross-host-shadow-preparation.md).
+
+## 2026-10-25 — Second university GPU passes metadata screen only
+
+User-reported linux10603 exposes a distinct RTX 3070 UUID with the same
+8 GiB capacity, driver and checked Python/PyTorch/NumPy/CUDA-build versions.
+This is a possible additional worker, not numerical or panel qualification.
+The frozen plan still requires one case at a time on linux10609's physical
+GPU. A separate qualification and explicit execution revision would precede
+any multi-host cases; no new GPU work or source/plan change was made here.
+Six cases remain accepted; case 7 is running per user report.
+[Candidate screen and extension requirements](report/checks/2026-10-25-university-second-host-screen.md).
+
+## 2026-10-25 — Seventh attended case prepared against the six-case review
+
+The next request targets only clip-03-bank-0, the first TennisSwing attack
+bank, with the original 80-minute case limit. It pins the accepted six-case
+journal and independent review. Actual retained-evidence metadata checks
+accept that boundary and reject an existing target directory, with home/host
+mocked and no model execution. The packet and helper identities verify;
+scientific sources and settings remain unchanged.
+
+The tested operational code and latest campus 52-pass evidence are reused,
+without repeating unchanged local suites. Fresh campus tests and hardware
+checks precede one attended case; export review follows. Six cases remain
+accepted and the seventh has not started. No extra allowance, recovery reuse,
+remaining queue, partial-panel aggregate or paid compute is introduced.
+[Preparation](report/checks/2026-10-25-attended-panel-seventh-preparation.md).
+
 ## 2026-10-25 — Sixth case independently verified; three clips fully paired
 
 Swing's second attack bank passes the frozen reviewer and retained-evidence
