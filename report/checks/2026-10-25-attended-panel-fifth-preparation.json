@@ -1,0 +1,110 @@
+{
+  "additional_allowance_seconds": 0,
+  "attempt": "attempt-01",
+  "automatic_GPU_retries": 0,
+  "automatic_download_retries_maximum": 1,
+  "base_commit": "5b1409c",
+  "campus_52_checks_retained_in_launcher": true,
+  "case_id": "clip-02-bank-0",
+  "case_started": false,
+  "completed_cases_before_launch": 4,
+  "date": "2026-10-25",
+  "download_retry_checks": {
+    "GPU_or_model_commands_executed": false,
+    "checks": [
+      {
+        "check": "success",
+        "download_invocations": 1,
+        "last_exit_status": 0,
+        "passed": true
+      },
+      {
+        "check": "fail-once",
+        "download_invocations": 2,
+        "last_exit_status": 0,
+        "passed": true
+      },
+      {
+        "check": "always-fail",
+        "download_invocations": 2,
+        "last_exit_status": 255,
+        "passed": true
+      }
+    ],
+    "fixture_directory": "/private/tmp/vjepa-copy-retry-only-yz3iqsvl",
+    "kind": "download-only-single-retry-CPU-fixtures",
+    "maximum_automatic_download_retries": 1,
+    "retry_has_no_output_argument_to_force_fresh_directory": true
+  },
+  "download_retry_scope": "Copy existing completed evidence only, once into a new local directory after the first failed copy. Preserve both attempts; stop after a second failure.",
+  "execution_sources_verified": 58,
+  "expected_completed_after_success": 5,
+  "fresh_remote_host_GPU_driver_and_idle_checks_required": true,
+  "full_project_suite_repeated": false,
+  "helpers_sha256": {
+    "download-one-case.sh": "89e91c72aec3b19535581ffd07c2b6071f653168b082ee9130393785420da99f",
+    "install-command.txt": "0dddca4b963b01b920d14c0bf97827f0ad9746b44c134fd109b5c08f28058cc6",
+    "launch-command.txt": "70979f49108b28cd815e773eb2891e2b5be29432a4761ccc257c25f1104ad68a",
+    "receive-case-evidence.py": "e6a499197b229fe19eb341b87af13d83e9ed5a0ce9190dbb7209a63a08613cff",
+    "run-one-attended-case.sh": "a7fd7e8176527a9a7be0eb7aeac135984afdba16eb094c3760bf1b9b03d8d5cc",
+    "stream-case-evidence.py": "df8f314ac2271710bed94ffd0bf6fee86e00a2544a84b461c839174e4110bf89"
+  },
+  "kill_grace_seconds": 15,
+  "kind": "attended-panel-fifth-case-preparation-v1",
+  "new_campus_tests_executed": false,
+  "new_case_download_identity_checks": 8,
+  "new_case_metadata_validation": {
+    "existing_case_directory_rejected": true,
+    "fixture_directory": "/private/tmp/vjepa-fifth-case-metadata-cotqea5o",
+    "genuine_four_case_evidence_used": true,
+    "hostname_and_home_mocked_for_local_metadata_only": true,
+    "kind": "fifth-case-request-real-evidence-metadata-check",
+    "operation_or_model_or_GPU_job_started": false,
+    "operator_sources_unchanged": true,
+    "positive_preflight_passed": true
+  },
+  "next": "User Mac runs run-one-attended-case.sh once. Keep Terminal and Mac lid open until one case and evidence copying finish. Then independently review the fifth export.",
+  "old_recovery_grant_reused": false,
+  "operator_packet": {
+    "bytes": 15205,
+    "manifest_sha256": "1256cebe5d68e8a169c9d32092924a96f4ce8b58177c5caa1fc21af2ff52b94c",
+    "members": 9,
+    "payload_bytes": 21844,
+    "sha256": "c6ccb36103d9b1ff4eac89dd0c61f4e097ce996667142fa0432afc5f68d4f690"
+  },
+  "operator_source_unchanged": true,
+  "original_case_seconds": 4800,
+  "original_scientific_pins_verified": 198,
+  "paid_compute_or_budget_changed": false,
+  "prepared_utc": "2026-10-26T00:54:26.892434+00:00",
+  "raw_preparation": "runs/pretrained/diagnostic/matched-panel-attended-clip-02-bank-0-20261025",
+  "remaining_cases_before_launch": 16,
+  "remote_packet_installed": false,
+  "request_sha256": "5d445e32efc76a01a3402a95be6e03c4ba300b40495534fb8b2ca4e4a0e8d5fd",
+  "research_admitted": false,
+  "scientific_aggregate": null,
+  "scientific_sources_plan_or_settings_changed": false,
+  "source_validation_reused": {
+    "current_case_identity": "clip-02-bank-0",
+    "new_upload_or_case_executed": false,
+    "previous_campus_JUnit_sha256": "5ca4d7a79aec70d51e8624b044a381814544ec5946bdb4f1f42c08ffb22c6bd9",
+    "previous_campus_tests": {
+      "errors": 0,
+      "failures": 0,
+      "junit_sha256": "5ca4d7a79aec70d51e8624b044a381814544ec5946bdb4f1f42c08ffb22c6bd9",
+      "seconds": 0.276,
+      "skipped": 0,
+      "tests": 52
+    },
+    "unchanged_52_test_suite_not_repeated_locally": true,
+    "unchanged_sources_sha256": {
+      "scripts/attended_panel_case.py": "ed63dcc0009b668517d5a0cda9f50166a75c25d1edb5a43a1a3d79b6636dd1f9",
+      "scripts/guarded_panel_recovery.py": "231b7db4b10361d97f788eba09c80b349b3b18e2e6b1e4ed41698c288c885182",
+      "tests/fixtures/attended_recovery_review.json": "b04bac3739d56fcb979bf1637104889fde7fd04456a861dbf55b689669ab1c3a",
+      "tests/fixtures/attended_three_case_journal.json": "692e57220967490cc1186859e787059f67ffb8060e12740d4df69aff85af91d0",
+      "tests/test_attended_panel_case.py": "db7dae755888f09763cbbb30811b296270c0e64367003097ab56be8afbc23e6e"
+    }
+  },
+  "unchanged_unit_suite_repeated_locally": false,
+  "video_id": "v_Swing_g20_c03"
+}

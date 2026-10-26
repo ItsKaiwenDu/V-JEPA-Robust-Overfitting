@@ -1,5 +1,36 @@
 # Research Progress Reports
 
+## 2026-10-25 — Fifth case independently verified; 5 of 20 accepted
+
+The Swing clip's first attack bank passes the frozen reviewer and retained-
+evidence audit: 173 saved tensors, 320 input-gradient observations, native
+CUDA evidence, attack bounds/prefixes and exact fresh A-only replay verify.
+All 52 campus guard checks pass with no failures, errors or skips. The
+launcher took 42 minutes 30 seconds and peaked at 4.919 GiB allocator use.
+
+The five-case mirror preserves all four prior pointers and first acceptance;
+the eleven historical partial files are unchanged. Both earlier clips remain
+fully paired, while Swing's second bank is pending. A later download-only
+connection recovered the evidence after a zero-byte failure, without another
+model run. The acceptance marker binds the completed evidence and authorizes
+no queue. Fifteen cases remain; next is clip-02-bank-1. No further request or
+job, partial-panel aggregate or research admission has started.
+[Verification](report/checks/2026-10-25-attended-panel-fifth-verification.md).
+
+## 2026-10-25 — Fifth case ready with a bounded download retry
+
+The next single attended case is clip-02-bank-0. Its new request pins the
+accepted four-case journal and reviewer marker. The previously verified
+operator, supervisor and 52-test suite are unchanged; no local suite rerun
+was needed. Actual four-case metadata checks and new download-identity byte
+checks pass, without model execution or remote upload.
+
+Evidence copying may now retry once into a new local directory after a failed
+copy, preserving the first failure and never repeating GPU work. Three ordinary
+CPU scenarios verify the retry limit and success/failure handling. The original
+80-minute case allowance remains; no recovery extension or grant reuse.
+Four cases remain accepted and the fifth has not started. [Preparation](report/checks/2026-10-25-attended-panel-fifth-preparation.md).
+
 ## 2026-10-25 — Four cases independently verified; two clips fully paired
 
 The fourth export passes the frozen verifier and retained-evidence audit.

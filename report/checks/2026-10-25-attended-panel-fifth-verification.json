@@ -1,0 +1,181 @@
+{
+  "additional_allowance_seconds": 0,
+  "archive_bytes": 123617898,
+  "archive_members": 34,
+  "archive_sha256": "8df90c34d0937c2c956affeef67e16f4675697d957a32d47025abff428405f07",
+  "attack_bank": 0,
+  "attempt": "attempt-01",
+  "audit_script": "runs/pretrained/diagnostic/matched-panel-attended-clip-02-bank-0-20261025/audit-attended-fifth-case.py",
+  "audit_script_sha256": "7f18c8dd7c933b8502f91af5e8088722f3cbd1d892871d5bc5a2b78cbbe43197",
+  "budget_or_billing_changed": false,
+  "campus_CPU_tests": {
+    "errors": 0,
+    "failures": 0,
+    "junit_sha256": "88f1d5d9818b0800fad0b8a74a3609987da139745490fa7d4b2dab7e4207542a",
+    "seconds": 0.309,
+    "skipped": 0,
+    "tests": 52
+  },
+  "case_id": "clip-02-bank-0",
+  "completed_case_ids": [
+    "clip-00-bank-0",
+    "clip-00-bank-1",
+    "clip-01-bank-0",
+    "clip-01-bank-1",
+    "clip-02-bank-0"
+  ],
+  "completed_cases": 5,
+  "completed_pair_integrity": [
+    {
+      "attack_seeds_distinct_as_declared": true,
+      "case_ids": [
+        "clip-00-bank-0",
+        "clip-00-bank-1"
+      ],
+      "clean_baselines_exact": true,
+      "shared_non_attack_logical_tensors_exact": 52
+    },
+    {
+      "attack_seeds_distinct_as_declared": true,
+      "case_ids": [
+        "clip-01-bank-0",
+        "clip-01-bank-1"
+      ],
+      "clean_baselines_exact": true,
+      "shared_non_attack_logical_tensors_exact": 52
+    }
+  ],
+  "date_Pacific": "2026-10-25",
+  "evidence_copy": {
+    "connection_close_cause_known": false,
+    "first_connection_exit_status": 255,
+    "first_failure_preserved": true,
+    "first_partial_bytes": 0,
+    "later_download_connection_exit_status": 0,
+    "model_rerun_to_repair_transfer": false
+  },
+  "exact_matched_prefixes_and_strict_selection_verified": true,
+  "execution_sources_verified": 58,
+  "finite_nonzero_input_gradient_observations_verified": 320,
+  "fresh_A_only_replay_exact": true,
+  "fully_paired_training_clips": 2,
+  "held_out_pixels_opened": false,
+  "historical_failed_partial_files_preserved": 11,
+  "independent_report_sha256": "7f5d1f15fe85741e6cedd40e1b8f27949f90317c48ab0e853c57a015dbc317e8",
+  "journal_reconstructed_and_all_five_cases_reverified": true,
+  "kind": "attended-panel-fifth-case-independent-verification-v1",
+  "logical_tensors_verified": 173,
+  "memory": {
+    "matrix": {
+      "allocator_limit_bytes": 7389845913,
+      "peak_allocated_GiB": 4.919276237487793,
+      "peak_allocated_bytes": 5282032640
+    },
+    "replay": {
+      "allocator_limit_bytes": 7389845913,
+      "peak_allocated_GiB": 3.6758155822753906,
+      "peak_allocated_bytes": 3946876928
+    }
+  },
+  "native_CUDA_probes_and_pixel_bounds_passed": true,
+  "new_GPU_or_model_job_during_review": false,
+  "new_clip_bank_1_pending": "clip-02-bank-1",
+  "new_clip_pairing_claimed_complete": false,
+  "new_tests_or_full_suite_repeated": false,
+  "next": "Prepare the next bounded attended fresh case at clip-02-bank-1, preserving all five accepted cases. No further case is launched.",
+  "next_case": "clip-02-bank-1",
+  "next_case_started": false,
+  "next_request_created_during_review": false,
+  "operator_status": "case_verified",
+  "original_allowance_seconds": 4800,
+  "original_scientific_pins_verified": 198,
+  "prior_four_pointers_first_acceptance_and_before_journal_unchanged": true,
+  "qualified_verifier_CLI_exit_status": 0,
+  "raw_download_directory": "runs/pretrained/diagnostic/matched-panel-attended-clip-02-bank-0-20261025/case-download-20261026T021038Z.s1gXO9",
+  "recovery_grant_reused": false,
+  "remaining_cases": 15,
+  "remaining_queue_started": false,
+  "request_sha256": "5d445e32efc76a01a3402a95be6e03c4ba300b40495534fb8b2ca4e4a0e8d5fd",
+  "required_cases": 20,
+  "research_admitted": false,
+  "review_acceptance": {
+    "file_sha256": "baea8c45ab9f34bad4485d6c849ff7e43965343520a096379a54b414cb6c3cca",
+    "path": "runs/pretrained/diagnostic/matched-panel-attended-clip-02-bank-0-20261025/case-download-20261026T021038Z.s1gXO9/attended-review-acceptance.json",
+    "payload_sha256": "f5f45a7285c8168377e044193258ce36598a34c93ef9117d857679169b2732b1"
+  },
+  "review_marker_next_boundary_metadata_valid": true,
+  "reviewed_utc": "2026-10-26T02:39:46.921152+00:00",
+  "scientific_aggregate": null,
+  "scores_this_case_only": {
+    "A": {
+      "audit_0": {
+        "adversarial": 0.6511810421943665,
+        "clean": 0.5898321866989136
+      },
+      "audit_1": {
+        "adversarial": 0.6616382002830505,
+        "clean": 0.5919954776763916
+      },
+      "main": {
+        "adversarial": 0.6621758937835693,
+        "clean": 0.5891165733337402
+      }
+    },
+    "B": {
+      "audit_0": {
+        "adversarial": 0.6435083150863647,
+        "clean": 0.5898321866989136
+      },
+      "audit_1": {
+        "adversarial": 0.6681035757064819,
+        "clean": 0.5919954776763916
+      },
+      "main": {
+        "adversarial": 0.6747888326644897,
+        "clean": 0.5891165733337402
+      }
+    },
+    "C": {
+      "audit_0": {
+        "adversarial": 0.6961867809295654,
+        "clean": 0.5898321866989136
+      },
+      "audit_1": {
+        "adversarial": 0.7051371335983276,
+        "clean": 0.5919954776763916
+      },
+      "main": {
+        "adversarial": 0.7123944759368896,
+        "clean": 0.5891165733337402
+      }
+    },
+    "D": {
+      "audit_0": {
+        "adversarial": 0.7220993041992188,
+        "clean": 0.5898321866989136
+      },
+      "audit_1": {
+        "adversarial": 0.7338889241218567,
+        "clean": 0.5919954776763916
+      },
+      "main": {
+        "adversarial": 0.7297400236129761,
+        "clean": 0.5891165733337402
+      }
+    }
+  },
+  "timing": {
+    "A40_cost_pool_eligible": false,
+    "case_session_seconds": 2481.181778887287,
+    "launcher_end_Pacific": "2026-10-25T18:53:11-07:00",
+    "launcher_start_Pacific": "2026-10-25T18:10:41-07:00",
+    "operator_supervised_process_seconds": 2505.14629244199,
+    "whole_launcher_wall_seconds": 2550.0
+  },
+  "transfer_or_historical_interrupt_root_causes_known": false,
+  "transport_bytes": 123873280,
+  "transport_sha256": "6d7950945ae4306189c1fa8be46a8b5535b6595313af689d671619323a567c4c",
+  "upstream_sources_verified": 34,
+  "verified": true,
+  "video_id": "v_Swing_g20_c03"
+}

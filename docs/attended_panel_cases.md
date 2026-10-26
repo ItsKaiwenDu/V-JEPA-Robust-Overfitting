@@ -1,12 +1,13 @@
 # Logged attended panel cases
 
-**Verified outcome, October 25:** the first fresh attended continuation is
-[independently accepted](../report/checks/2026-10-25-attended-panel-fourth-verification.md).
-All 52 campus guard checks and the complete fourth-case export verify. Four of
-twenty cases are accepted, pairing both banks for two clips. The request and
-operation are used; do not rerun this case. A failed download was repaired
-without new model work. The next case is clip-02-bank-0; no further job has
-started, and the full-panel aggregate remains gated.
+**Verified outcome, October 25:** the fifth case, clip-02-bank-0, is
+[independently accepted](../report/checks/2026-10-25-attended-panel-fifth-verification.md).
+All 52 campus guard checks and the complete fifth-case export verify. Five of
+twenty cases are accepted: two clips have both banks complete, and Swing has
+its first bank complete. The request and operation are used; do not rerun this
+case. A later download-only connection recovered evidence after a zero-byte
+failure, without new model work. The next case is clip-02-bank-1; no further
+request or job has started, and the full-panel aggregate remains gated.
 
 Use this operational envelope for one wholly unattempted next case of the
 frozen ten-clip/two-bank diagnostic. Scientific workers, settings and source
@@ -40,3 +41,9 @@ cases. See the [preparation report](../report/checks/2026-10-25-attended-panel-c
 Local/extracted CPU tests and ordinary process/byte fixtures are operational
 checks, not neural or CUDA outcomes. Independent export review is required
 after this case; no further case or research admission follows automatically.
+
+The [fifth-case preparation](../report/checks/2026-10-25-attended-panel-fifth-preparation.md)
+reuses the same tested operator for clip-02-bank-0 with a request bound to all
+four accepted cases. Its Mac helper may retry only a failed evidence download
+once into a fresh local folder. Both failed copies are retained if the retry
+also fails; the launcher and model are never repeated by this copy fallback.

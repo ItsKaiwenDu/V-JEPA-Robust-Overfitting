@@ -2,6 +2,58 @@
 
 ## Current stage
 
+LATEST October 25: FIFTH CASE independently accepted; 5/20 verified, 15 remain.
+Read report/checks/2026-10-25-attended-panel-fifth-verification.md/JSON.
+Raw matched-panel-attended-clip-02-bank-0-20261025/latest-download.txt points to
+case-download-20261026T021038Z.s1gXO9 (UTC October 26, Pacific October 25).
+It contains downloaded/, case-reviewed/, verified-panel-mirror/,
+independent-verification.json and attended-review-acceptance.json. Raw audit:
+audit-attended-fifth-case.py. Archive 123617898 bytes / 34 regular members,
+SHA 8df90c34d0937c2c956affeef67e16f4675697d957a32d47025abff428405f07.
+Frozen CLI and audit PASS: 198 original pins / 58 execution / 34 upstream;
+173 tensors / 320 finite nonzero gradient observations, native CUDA, bounds,
+prefixes, strict selection and exact fresh A-only replay. Actual campus JUnit
+52 pass, zero failures/errors/skips, 0.309s. No local tests/model rerun.
+All five entries reverify; four previous pointers/first acceptance unchanged.
+Both earlier clip pairs retain exact 52 shared non-attack tensors and clean
+baselines with distinct attack seeds. New clip v_Swing_g20_c03 has bank 0 only;
+bank 1 pending. Two fully paired clips; no partial-panel mean/method selection.
+Launcher 18:10:41–18:53:11 Pacific = 2550s; case 2481.182s; peaks 4.919/3.676GiB.
+Original 4800+15s, additional allowance 0; consumed recovery grant NOT reused.
+First transfer exit255/0bytes preserved, later SSH copy succeeded. No GPU
+restart for copy repair. Connection-close and old interruption causes UNKNOWN.
+All eleven historical partial files retained and excluded. Acceptance binds
+new receipt/archive/journal/request/report and authorizes no remaining queue.
+NEXT prepare one bounded logged ATTENDED fresh case clip-02-bank-1 after user
+continues. No next request/upload/job was created during review. Do not rerun
+the accepted fifth case/launch helper or reset any allowance. No paid compute,
+held-out pixels, scientific source/settings/precision adoption, budget or
+research admission change. Earlier status snapshots below are historical.
+
+LATEST October25 FIFTH CASE clip-02-bank-0 packet PREPARED; not launched.
+Read report/checks/2026-10-25-attended-panel-fifth-preparation.md/JSON.
+UserOkaynowletscontinuenextstep authorizes one fresh attendednextcase only.
+Raw matched-panel-attended-clip-02-bank-0-20261025 contains request,archive,
+helpers, validation and run-one-attended-case.sh / download-one-case.sh.
+Nextvideo v_Swing_g20_c03. Fouracceptedcases preserved;16remainbeforelaunch.
+Unchangedoperator/supervisor/52tests/goldenfixtures reused from verifiedcampus
+case4. No local52/full-suite repeat. Actualfourcase metadata preflight+existing-
+target refusal PASS with home/host mocked;8byteidentity checks/3copyretrychecks
+PASS, no model/remote execution.198oldpins/58scientificexecution unchanged.
+Packet15205B/9members SHAc6ccb36103d9b1ff4eac89dd0c61f4e097ce996667142fa0432afc5f68d4f690.
+RequestSHA5d445e32efc76a01a3402a95be6e03c4ba300b40495534fb8b2ca4e4a0e8d5fd.
+Original4800+15s, extraallowance0, no oldgrantreuse or automaticGPUretry.
+NewMacwrapper retries ONLY a failed completed-evidence download once, fresh
+localdirectory/nooutputarg, after3s; neverrepeats job/install/model. Failed
+outputs retained; secondcopyfailure stops. SSH-onlyupload/run/download; keep
+Terminal/lidopen. Campus52/freshhardware/originalfourcaseguards still required.
+NEXT userMac runs this new run-one-attended-case.sh ONCE. No campusupload/tests/
+GPUcase observed yet. On userDone inspect latest-session.txt and latest-download.txt;
+independentlyreview fifthcase before further work. Failedcopy uses downloadonly;
+jobfailure requires state/evidence review, never resets allowance.
+No researchaggregate/heldout/scientificsettings/budget/precision change.
+
+
 LATEST October25 FOURTH CASE COPIED AND INDEPENDENTLY VERIFIED:4/20,16remain.
 Read report/checks/2026-10-25-attended-panel-fourth-verification.md/JSON.
 Raw matched-panel-attended-clip-01-bank-1-20261025/case-download-20261025T225939Z.Oj7Jo5
