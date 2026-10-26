@@ -2,6 +2,64 @@
 
 ## Current stage
 
+LATEST October 25: SIXTH CASE independently accepted; 6/20 verified, 14 remain.
+Read report/checks/2026-10-25-attended-panel-sixth-verification.md/JSON.
+Raw matched-panel-attended-clip-02-bank-1-20261025/latest-download.txt points to
+case-download-20261026T040521Z.dHjjzO (UTC October 26, Pacific October 25).
+It has downloaded/, case-reviewed/, verified-panel-mirror/,
+independent-verification.json and attended-review-acceptance.json. Raw audit:
+audit-attended-sixth-case.py. Archive 123729208B / 34 regular members,
+SHA 2697b71bed7c34ae799e55cbfe1680c2db95022bce9a09b50d5fffc5c13becc7.
+Frozen CLI + audit PASS: 198 original pins / 58 execution / 34 upstream;
+173 tensors / 320 finite nonzero gradients, native CUDA, pixel bounds,
+matched prefixes, strict selection and exact fresh A-only replay. Actual
+campus JUnit52pass/0fail/0error/0skip,0.292s. No local test/model rerun.
+All six cases reverify; five prior pointers/first acceptance unchanged.
+All three completed clip pairs retain 52 exact non-attack logical tensors,
+exact clean scoring baselines and distinct declared attack seeds. Swing now
+fully paired; no partial-panel mean/final attack choice or research admission.
+Launcher20:17:45–20:59:25Pacific=2500s; session2425.206s; peaks4.860/3.673GiB.
+Original4800+15s, extra allowance0, consumed recovery grant NOT reused.
+First copy255/0bytes preserved; user reported one download-only fallback,
+later ordinary SSH copy verifies. No case rerun for transfer repair; close
+and historical interruption causes UNKNOWN. All eleven old partial files
+preserved and excluded. Acceptance binds receipt/archive/journal/request/report:
+fileSHA c5c2d62c519f8725725a8c792e2768df57007a6cbc043351ca06edd7a6ecd329.
+JournalSHA 4561d3b236b4d2c7b0892d8541de8540055eb74f753aab399590a4bf0bdfb87a.
+NEXT prepare one bounded logged ATTENDED fresh case clip-03-bank-0 after user
+continues. No next request/upload/job created in this review. Do not rerun
+the accepted sixth case/launch helper or reset allowances. No queue,
+scientific source/settings/precision adoption, held-out data, paid compute,
+budget or research admission change. Older snapshots below are historical.
+
+LATEST October 25: SIXTH CASE clip-02-bank-1 PREPARED; not launched.
+Read report/checks/2026-10-25-attended-panel-sixth-preparation.md/JSON.
+User "Done; now continue next step!" authorizes one fresh attended next case.
+Raw matched-panel-attended-clip-02-bank-1-20261025 has request, previous-review,
+packet, helpers, validation, preparation.json and run-one-attended-case.sh.
+Same Swing clip v_Swing_g20_c03, bank 1. Five accepted cases; fifteen remain.
+Operator/supervisor/52 tests/golden fixtures unchanged. Latest campus case-5
+JUnit52pass/0fail/0error/0skip is reused; no unchanged local suite rerun.
+Actual five-case metadata preflight with home/host mocked passes; existing
+target directory rejects. All 198 old pins / 58 scientific sources unchanged.
+Nine-member packet 15184B, SHA
+82b810d976795a7c13c836162d63caa1af74616f381037249e8cc45223075667.
+RequestSHA 7c7c2921038122d5cf84050e4b8c3473a078da1c1aaf4a3055fb189a54fd74f9.
+Pins prior five-case journal 93c02880e97602f123ba582dcbb015f61462474c75c1e148471db070af47bb26
+and review baea8c45ab9f34bad4485d6c849ff7e43965343520a096379a54b414cb6c3cca.
+Original4800+15s, extra allowance0, no consumed-grant reuse or GPU retry.
+Installer/launcher/copy-retry logic reused; only declared identity/checksum
+substitutions in helpers. Fresh extraction/member/pin/syntax/quoting checks pass.
+NEXT user Mac runs raw run-one-attended-case.sh ONCE with Terminal/lid open.
+No remote upload, new campus tests or GPU case observed yet. Campus52/fresh
+hardware/complete prior five-case checks remain mandatory before model work.
+After userDone inspect new latest-session.txt and latest-download.txt; frozen
+review new sixth export, all six pointers and Swing bank-pair identity before
+acceptance. Failed copy uses download-only helper; never rerun completed case.
+No remaining queue, partial-panel mean, scientific settings/precision adoption,
+held-out pixels, research admission, paid compute or budget change. Historical
+snapshots below do not supersede this current prepared-only status.
+
 LATEST October 25: FIFTH CASE independently accepted; 5/20 verified, 15 remain.
 Read report/checks/2026-10-25-attended-panel-fifth-verification.md/JSON.
 Raw matched-panel-attended-clip-02-bank-0-20261025/latest-download.txt points to

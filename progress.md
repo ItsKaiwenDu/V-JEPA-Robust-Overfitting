@@ -1,5 +1,38 @@
 # Research Progress Reports
 
+## 2026-10-25 — Sixth case independently verified; three clips fully paired
+
+Swing's second attack bank passes the frozen reviewer and retained-evidence
+audit. All 173 saved logical tensors, 320 input-gradient observations, native
+CUDA evidence, attack bounds/prefixes and exact fresh A-only replay verify.
+All 52 campus guard checks pass with zero failures, errors or skips. The
+launcher took 41 minutes 40 seconds and peaked at 4.860 GiB allocator use.
+
+Swing's two banks share the required 52 non-attack tensors and clean scoring
+baselines exactly, with distinct declared attack seeds. All three completed
+clip pairs and all six journal entries reverify; five prior pointers, first
+acceptance and eleven historical partial files are preserved. The download-
+only fallback succeeded after a zero-byte first connection, without another
+case run. Fourteen cases remain; next is clip-03-bank-0. No partial-panel mean,
+next request/job or research admission has started.
+[Verification](report/checks/2026-10-25-attended-panel-sixth-verification.md).
+
+## 2026-10-25 — Sixth attended case prepared against the five-case review
+
+The next request targets only clip-02-bank-1, the Swing clip's second attack
+bank. Its original 80-minute limit applies. It pins the accepted five-case
+journal and independent review, with no extra allowance or recovery reuse.
+The actual five-case metadata preflight and existing-target refusal pass
+locally, with home/host mocked and no model execution. Packet extraction,
+identities and command syntax/quoting verify; all scientific pins are unchanged.
+
+The tested operational code and prior campus 52-pass evidence are reused,
+without repeating unchanged local suites. The attended helper retains one
+bounded download-only retry. Fresh campus tests and hardware checks still
+precede one case, followed by independent export and paired-bank review.
+Five cases remain accepted; the sixth has not started.
+[Preparation](report/checks/2026-10-25-attended-panel-sixth-preparation.md).
+
 ## 2026-10-25 — Fifth case independently verified; 5 of 20 accepted
 
 The Swing clip's first attack bank passes the frozen reviewer and retained-

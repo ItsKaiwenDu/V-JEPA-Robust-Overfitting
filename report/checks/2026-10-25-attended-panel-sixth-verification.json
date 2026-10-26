@@ -1,0 +1,195 @@
+{
+  "additional_allowance_seconds": 0,
+  "archive_bytes": 123729208,
+  "archive_members": 34,
+  "archive_sha256": "2697b71bed7c34ae799e55cbfe1680c2db95022bce9a09b50d5fffc5c13becc7",
+  "attack_bank": 1,
+  "attempt": "attempt-01",
+  "audit_script": "runs/pretrained/diagnostic/matched-panel-attended-clip-02-bank-1-20261025/audit-attended-sixth-case.py",
+  "audit_script_sha256": "6094704c9c89337f169ff7c832f59caa6d7f8b362e890fd7ee221dfcd2e18b35",
+  "budget_or_billing_changed": false,
+  "campus_CPU_tests": {
+    "errors": 0,
+    "failures": 0,
+    "junit_sha256": "679c4f7c9cf81cb095234925834b0e475a7ce90dd164c30641083f2682007a13",
+    "seconds": 0.292,
+    "skipped": 0,
+    "tests": 52
+  },
+  "case_id": "clip-02-bank-1",
+  "completed_case_ids": [
+    "clip-00-bank-0",
+    "clip-00-bank-1",
+    "clip-01-bank-0",
+    "clip-01-bank-1",
+    "clip-02-bank-0",
+    "clip-02-bank-1"
+  ],
+  "completed_cases": 6,
+  "completed_pair_integrity": [
+    {
+      "attack_seeds_distinct_as_declared": true,
+      "case_ids": [
+        "clip-00-bank-0",
+        "clip-00-bank-1"
+      ],
+      "clean_baselines_exact": true,
+      "shared_non_attack_logical_tensors_exact": 52
+    },
+    {
+      "attack_seeds_distinct_as_declared": true,
+      "case_ids": [
+        "clip-01-bank-0",
+        "clip-01-bank-1"
+      ],
+      "clean_baselines_exact": true,
+      "shared_non_attack_logical_tensors_exact": 52
+    },
+    {
+      "attack_seeds_distinct_as_declared": true,
+      "case_ids": [
+        "clip-02-bank-0",
+        "clip-02-bank-1"
+      ],
+      "clean_baselines_exact": true,
+      "shared_non_attack_logical_tensors_exact": 52
+    }
+  ],
+  "date_Pacific": "2026-10-25",
+  "evidence_copy": {
+    "automatic_download_only_retry_reported_by_user": true,
+    "connection_close_cause_known": false,
+    "first_connection_exit_status": 255,
+    "first_failure_preserved": true,
+    "first_partial_bytes": 0,
+    "later_download_connection_exit_status": 0,
+    "model_rerun_to_repair_transfer": false
+  },
+  "exact_matched_prefixes_and_strict_selection_verified": true,
+  "execution_sources_verified": 58,
+  "finite_nonzero_input_gradient_observations_verified": 320,
+  "fresh_A_only_replay_exact": true,
+  "fully_paired_training_clips": 3,
+  "held_out_pixels_opened": false,
+  "historical_failed_partial_files_preserved": 11,
+  "independent_report_sha256": "c28d6c2d16223cdd3dfb0b1bf49cbd037a471847d7cdc16d15ce50aad112aa74",
+  "journal_reconstructed_and_all_six_cases_reverified": true,
+  "kind": "attended-panel-sixth-case-independent-verification-v1",
+  "logical_tensors_verified": 173,
+  "memory": {
+    "matrix": {
+      "allocator_limit_bytes": 7389845913,
+      "peak_allocated_GiB": 4.860107421875,
+      "peak_allocated_bytes": 5218500608
+    },
+    "replay": {
+      "allocator_limit_bytes": 7389845913,
+      "peak_allocated_GiB": 3.6731343269348145,
+      "peak_allocated_bytes": 3943997952
+    }
+  },
+  "native_CUDA_probes_and_pixel_bounds_passed": true,
+  "new_GPU_or_model_job_during_review": false,
+  "new_clip_pairing_complete": true,
+  "new_tests_or_full_suite_repeated": false,
+  "newly_completed_pair": [
+    "clip-02-bank-0",
+    "clip-02-bank-1"
+  ],
+  "next": "Prepare one bounded attended fresh case at clip-03-bank-0 after user continuation. Preserve all six accepted cases; no further case has started.",
+  "next_case": "clip-03-bank-0",
+  "next_case_started": false,
+  "next_request_created_during_review": false,
+  "operator_status": "case_verified",
+  "original_allowance_seconds": 4800,
+  "original_scientific_pins_verified": 198,
+  "prior_five_pointers_first_acceptance_and_before_journal_unchanged": true,
+  "qualified_verifier_CLI_exit_status": 0,
+  "raw_download_directory": "runs/pretrained/diagnostic/matched-panel-attended-clip-02-bank-1-20261025/case-download-20261026T040521Z.dHjjzO",
+  "recovery_grant_reused": false,
+  "remaining_cases": 14,
+  "remaining_queue_started": false,
+  "request_sha256": "7c7c2921038122d5cf84050e4b8c3473a078da1c1aaf4a3055fb189a54fd74f9",
+  "required_cases": 20,
+  "research_admitted": false,
+  "review_acceptance": {
+    "file_sha256": "c5c2d62c519f8725725a8c792e2768df57007a6cbc043351ca06edd7a6ecd329",
+    "path": "runs/pretrained/diagnostic/matched-panel-attended-clip-02-bank-1-20261025/case-download-20261026T040521Z.dHjjzO/attended-review-acceptance.json",
+    "payload_sha256": "6951721e8e8740fe375888af894e37253be484c06c2a5effdb434ccbf663a686"
+  },
+  "review_marker_next_boundary_metadata_valid": true,
+  "reviewed_utc": "2026-10-26T04:08:12.615521+00:00",
+  "scientific_aggregate": null,
+  "scores_this_case_only": {
+    "A": {
+      "audit_0": {
+        "adversarial": 0.6606559753417969,
+        "clean": 0.5898321866989136
+      },
+      "audit_1": {
+        "adversarial": 0.6623932123184204,
+        "clean": 0.5919954776763916
+      },
+      "main": {
+        "adversarial": 0.6687268018722534,
+        "clean": 0.5891165733337402
+      }
+    },
+    "B": {
+      "audit_0": {
+        "adversarial": 0.6774849891662598,
+        "clean": 0.5898321866989136
+      },
+      "audit_1": {
+        "adversarial": 0.6803354024887085,
+        "clean": 0.5919954776763916
+      },
+      "main": {
+        "adversarial": 0.6932528614997864,
+        "clean": 0.5891165733337402
+      }
+    },
+    "C": {
+      "audit_0": {
+        "adversarial": 0.6987030506134033,
+        "clean": 0.5898321866989136
+      },
+      "audit_1": {
+        "adversarial": 0.6907645463943481,
+        "clean": 0.5919954776763916
+      },
+      "main": {
+        "adversarial": 0.7048943638801575,
+        "clean": 0.5891165733337402
+      }
+    },
+    "D": {
+      "audit_0": {
+        "adversarial": 0.7268517017364502,
+        "clean": 0.5898321866989136
+      },
+      "audit_1": {
+        "adversarial": 0.7142937183380127,
+        "clean": 0.5919954776763916
+      },
+      "main": {
+        "adversarial": 0.734675407409668,
+        "clean": 0.5891165733337402
+      }
+    }
+  },
+  "timing": {
+    "A40_cost_pool_eligible": false,
+    "case_session_seconds": 2425.2057011662982,
+    "launcher_end_Pacific": "2026-10-25T20:59:25-07:00",
+    "launcher_start_Pacific": "2026-10-25T20:17:45-07:00",
+    "operator_supervised_process_seconds": 2451.3235622942448,
+    "whole_launcher_wall_seconds": 2500.0
+  },
+  "transfer_or_historical_interrupt_root_causes_known": false,
+  "transport_bytes": 123975680,
+  "transport_sha256": "866e771e1733c1773e5d5904245462391f6220e8e0ddbcae474cd5987bbd3d18",
+  "upstream_sources_verified": 34,
+  "verified": true,
+  "video_id": "v_Swing_g20_c03"
+}
