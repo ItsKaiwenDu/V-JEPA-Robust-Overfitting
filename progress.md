@@ -1,5 +1,61 @@
 # Research Progress Reports
 
+## 2026-10-26 — Two-host batch verified; nine panel cases and four clip pairs
+
+Both saved computations independently pass the original pinned reviewer and
+retained-evidence audit: 346 logical tensors, 640 finite nonzero gradients,
+all four attacks, exact fresh A replay, native CUDA and resource caps verify.
+Both real campus JUnit records contain 76 passes with zero failures/errors/
+skips. The launchers took 41m48s and 41m04s on distinct host/GPU UUIDs.
+
+All original seven cases/source pins/journal pointers and historical partials
+remain intact. The Tennis pair and three prior pairs have exact shared inputs
+and scoring baselines. Nine of twenty cases are independently verified,
+eleven remain, and four clips are fully paired. No partial mean is calculated.
+
+The export alias failure is preserved as a bookkeeping failure. A local
+coordinator mirror validates the two missing export events and two independent
+review markers while keeping STOP/claims/outcomes/failures intact. A pinned
+metadata-only repair plan is prepared; the remote ledger is not yet synced.
+Both GPU jobs are finished and require no retry. Sync bookkeeping and prepare
+alias-safe operations before later requests. No new GPU/test work ran during
+this review. [Verification](report/checks/2026-10-26-two-host-first-pair-verification.md).
+
+## 2026-10-26 — Both computations reached export; shared-home alias bug blocks bookkeeping
+
+Both campus runs passed 76 CPU guards and reached the export stage after
+A/B/C/D and fresh A replay. A path-alias error then prevented the export-event
+record: canonical /DCNFS case paths were compared with a /home ledger path.
+The original control flow indicates completed numerical receipts and saved
+archives, but independent evidence review remains pending; seven of twenty
+cases are accepted. Neither GPU computation should be repeated.
+
+The error is reproduced with a real symlink fixture. A local canonical-root
+fix and read-only recovery checks pass 93 CPU tests. The deployed seven-source
+packet remains preserved unchanged; the fix is not deployed. A copy-only Mac
+helper reads both existing case archives and incident logs through the shared
+home. After downloading, review the original retained evidence and repair
+only missing bookkeeping, preserving claims/STOP/failures during review.
+[Incident and recovery](report/checks/2026-10-26-two-host-export-alias-incident.md).
+
+## 2026-10-26 — Two-host execution revision and first parallel batch prepared
+
+User resumed with both expected RTX 3070 GPUs idle. A separate execution
+revision preserves all seven accepted cases and frozen numerical settings.
+A shared append-only coordinator enforces one case per GPU, permanent case
+claims, fixed clip-pair assignments and independent review barriers. Both
+first exports must pass review before further dispatch. The first batch is
+TennisSwing bank 1 on linux10609 and FloorGymnastics bank 0 on linux10603.
+
+All 76 focused CPU checks pass after fresh extraction. Concurrent installation,
+read-only transport/corruption guards and shell/Python syntax verify. All seven
+retained cases, 198 original pins, 58 qualified and 34 upstream sources,
+359 handoff files and four shadow sources reverify unchanged. No upload or
+new GPU work started; seven of twenty remain accepted, thirteen pending.
+Original 80-minute limits and project budgets remain unchanged. The second
+host's first full case still needs A/B/C/D and fresh-replay export review.
+[Preparation](report/checks/2026-10-26-two-host-panel-preparation.md).
+
 ## 2026-10-25 — Second-host replay verified; stopped checkpoint for tomorrow
 
 Both fresh linux10603 arm-A replays match the fixed accepted linux10609

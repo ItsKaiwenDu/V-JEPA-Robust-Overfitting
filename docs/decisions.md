@@ -566,3 +566,18 @@ needs an explicit execution revision and tested coordination; no automatic
 dispatch or research adoption follows. Both jobs ended. At the user's request,
 stop after verification and resume further work only when they return.
 See [the verification](../report/checks/2026-10-25-cross-host-shadow-verification.md).
+
+## 2026-10-26 — Explicit two-host execution revision
+
+User resumed and requested using both university workstation GPUs after the
+scoped linux10603 reference replay passed. Preserve the frozen numerical plan
+and original seven v1 receipts. New cases use truthful per-host identities in
+a separate execution namespace and shared append-only coordinator. This
+replaces serial-only execution for the separately identified revision; it
+does not relabel v1 evidence or generalize the one-clip/A-only bridge.
+
+Keep clip pairs co-located, including pending Tennis bank1 on10609. First
+run only Tennis bank1 and Floor bank0, one case/GPU, under their original
+80-minute limits. Review both exports independently before later dispatch.
+Preserve all historical failures, budgets and scientific settings. See
+[two-host operator guide](two_host_panel.md).

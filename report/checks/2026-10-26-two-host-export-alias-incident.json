@@ -1,0 +1,57 @@
+{
+  "CPU_validation_after_local_fix": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 93
+  },
+  "accepted_case_count": 7,
+  "both_launcher_exit_statuses": 1,
+  "campus_CPU_tests_from_transcripts": {
+    "linux10603": {
+      "errors": 0,
+      "failures": 0,
+      "seconds": 3.72,
+      "skipped": 0,
+      "tests": 76
+    },
+    "linux10609": {
+      "errors": 0,
+      "failures": 0,
+      "seconds": 3.54,
+      "skipped": 0,
+      "tests": 76
+    }
+  },
+  "case_ids": [
+    "clip-03-bank-1",
+    "clip-04-bank-0"
+  ],
+  "cause": "Registry root retained /home/kdu alias while bound case/export path resolved to /DCNFS/users/student/kdu; lexical relative_to failed after archive creation.",
+  "date_Pacific": "2026-10-26",
+  "deployed_implementation_sha256": "da5aeb93bd6d3e46040b158cc14f0d6feb1284a83b2b2778a3639b420db0acf9",
+  "deployed_packet_source_files_preserved_and_verified": 7,
+  "download_helper": "runs/pretrained/diagnostic/two-host-export-incident-20261026/retrieve-existing-evidence.sh",
+  "download_helper_sha256": "e0a316a022e2553f43f914332c1f3261b243e957c538ddeb4bd8120b5ebed2bf",
+  "exports_downloaded_by_this_turn": false,
+  "failure_stage": "Publish export event after numerical receipt, complete outcome and revision archive were produced.",
+  "independent_numerical_verification_of_new_cases": false,
+  "kind": "two-host-export-alias-incident-v1",
+  "launch_transcript_sha256": {
+    "linux10603": "bdf3022658515dad48e6728463517a4144dd1f24dc258000a4673668742ac39a",
+    "linux10609": "1bfeb9371d626e82b7de63b458ca4d89581112d76b234fc3f3e37dfa758d17c6"
+  },
+  "local_alias_bug_reproduced_before_fix": true,
+  "local_fix": "Resolve Registry.root once before computing relative artifact paths.",
+  "local_patch_deployed": false,
+  "new_cases_accepted": 0,
+  "next": "User runs read-only combined evidence download once from Mac. Review both saved archives using the original preserved operator; then repair ledger bookkeeping without model retries. Keep STOP and claims unchanged until review.",
+  "paid_compute": false,
+  "producer_numerical_completion_inferred_from_pinned_control_flow": true,
+  "recovery_source_sha256": "12f98bfac512a3c60e3c2439b3b4b6abac128f9d6306e689a4724d0900b2a64e",
+  "remote_GPU_jobs_repeated": false,
+  "remote_files_changed_by_recovery": false,
+  "research_admitted": false,
+  "scientific_settings_changed": false,
+  "validation_is_CUDA_qualification": false
+}

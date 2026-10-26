@@ -1,0 +1,351 @@
+{
+  "audit_script": "runs/pretrained/diagnostic/two-host-export-incident-20261026/audit-first-pair.py",
+  "audit_script_sha256": "0540a0f497a852e53708234080cfde5504e16b5fb7c74a33c48493070f0d5cb1",
+  "both_actual_distinct_GPUs_used_concurrently": true,
+  "budget_changed": false,
+  "cases": {
+    "clip-03-bank-1": {
+      "GPU_identity": "NVIDIA GeForce RTX 3070, GPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52, 8192, 580.178.04",
+      "archive_bytes": 103712173,
+      "archive_members": 21,
+      "archive_sha256": "a4ff6ef36d28bd3eff7fb62ddce476f3d8cda958225ac150f928863a9f991756",
+      "attack_bank": 1,
+      "campus_CPU_tests": {
+        "errors": 0,
+        "failures": 0,
+        "seconds": 3.536,
+        "skipped": 0,
+        "tests": 76
+      },
+      "case_review_marker_sha256": "85612771a43bbfca733c735499c9b6fc6582e0113a02c2b2cb9d8655738a977a",
+      "execution_sha256": "cda679ef293c36204d69d71c0aba21be2a6758668c418abb90cb08c2a40a5e23",
+      "export_alias_failure_preserved": true,
+      "finite_nonzero_gradients_verified": 320,
+      "fresh_A_replay_exact": true,
+      "host": "linux10609",
+      "inner_archive_members": 34,
+      "inner_archive_sha256": "d85e1ac919c772c1aba527cbcf474499dbf4ff27eea314a632adf831a3d089da",
+      "launcher_exit_status": 1,
+      "logical_tensors_verified": 173,
+      "memory": {
+        "matrix": {
+          "peak_allocated_GiB": 4.850099086761475,
+          "peak_allocated_bytes": 5207754240
+        },
+        "replay": {
+          "peak_allocated_GiB": 3.7334461212158203,
+          "peak_allocated_bytes": 4008757248
+        }
+      },
+      "numeric_receipt_file_sha256": "49f65c4203f6177240a4129ec0a701e4da599ff770bd1f660662b5aa76a89911",
+      "numerical_children_exit_statuses": [
+        0,
+        0
+      ],
+      "prefixes_strict_selection_bounds_targets_and_native_CUDA_verified": true,
+      "research_admitted": false,
+      "scores_this_case_only": {
+        "A": {
+          "audit_0": {
+            "adversarial": 0.7546118497848511,
+            "clean": 0.5674102306365967
+          },
+          "audit_1": {
+            "adversarial": 0.7471858859062195,
+            "clean": 0.5718889236450195
+          },
+          "main": {
+            "adversarial": 0.7053203582763672,
+            "clean": 0.5656397342681885
+          }
+        },
+        "B": {
+          "audit_0": {
+            "adversarial": 0.7713063955307007,
+            "clean": 0.5674102306365967
+          },
+          "audit_1": {
+            "adversarial": 0.7786310911178589,
+            "clean": 0.5718889236450195
+          },
+          "main": {
+            "adversarial": 0.7352873086929321,
+            "clean": 0.5656397342681885
+          }
+        },
+        "C": {
+          "audit_0": {
+            "adversarial": 0.749014139175415,
+            "clean": 0.5674102306365967
+          },
+          "audit_1": {
+            "adversarial": 0.7791221141815186,
+            "clean": 0.5718889236450195
+          },
+          "main": {
+            "adversarial": 0.7310909032821655,
+            "clean": 0.5656397342681885
+          }
+        },
+        "D": {
+          "audit_0": {
+            "adversarial": 0.7542586922645569,
+            "clean": 0.5674102306365967
+          },
+          "audit_1": {
+            "adversarial": 0.7794811725616455,
+            "clean": 0.5718889236450195
+          },
+          "main": {
+            "adversarial": 0.7397872805595398,
+            "clean": 0.5656397342681885
+          }
+        }
+      },
+      "timing": {
+        "A40_cost_pool_eligible": false,
+        "failure_handler_elapsed_seconds": 2484.633639067877,
+        "launcher_end_Pacific": "2026-10-26T11:18:19-07:00",
+        "launcher_start_Pacific": "2026-10-26T10:36:31-07:00",
+        "numerical_envelope_seconds": 2481.694072355982,
+        "numerical_session_seconds": 2443.9782566688955,
+        "whole_launcher_seconds": 2508.0
+      },
+      "verified": true,
+      "video_id": "v_TennisSwing_g14_c04"
+    },
+    "clip-04-bank-0": {
+      "GPU_identity": "NVIDIA GeForce RTX 3070, GPU-e54fae90-feeb-8106-d8c0-1974fe48555f, 8192, 580.178.04",
+      "archive_bytes": 107463168,
+      "archive_members": 21,
+      "archive_sha256": "a44aeb79fdfa6dbdab07aa454ac224fe31c0d9166526debda864fc0db3a25b0e",
+      "attack_bank": 0,
+      "campus_CPU_tests": {
+        "errors": 0,
+        "failures": 0,
+        "seconds": 3.717,
+        "skipped": 0,
+        "tests": 76
+      },
+      "case_review_marker_sha256": "c6a10c378eecf1a437cc4a147ba8ae8d049ad442964f7ddedc3d4ea167dd8c99",
+      "execution_sha256": "69cf7234833a9769713611fb7a0d433ffe62d7a4644bd8114c31c79b079d8960",
+      "export_alias_failure_preserved": true,
+      "finite_nonzero_gradients_verified": 320,
+      "fresh_A_replay_exact": true,
+      "host": "linux10603",
+      "inner_archive_members": 34,
+      "inner_archive_sha256": "74251d335a3b4e7723c7acf4abf54fa6a4790d210aeb94d0cdc3aea8f8aefc0d",
+      "launcher_exit_status": 1,
+      "logical_tensors_verified": 173,
+      "memory": {
+        "matrix": {
+          "peak_allocated_GiB": 4.976512432098389,
+          "peak_allocated_bytes": 5343489536
+        },
+        "replay": {
+          "peak_allocated_GiB": 3.7209081649780273,
+          "peak_allocated_bytes": 3995294720
+        }
+      },
+      "numeric_receipt_file_sha256": "b7317385356652ccf158f7fc911f0495e379a99f5ed7154079d0983e15e28844",
+      "numerical_children_exit_statuses": [
+        0,
+        0
+      ],
+      "prefixes_strict_selection_bounds_targets_and_native_CUDA_verified": true,
+      "research_admitted": false,
+      "scores_this_case_only": {
+        "A": {
+          "audit_0": {
+            "adversarial": 0.6175445318222046,
+            "clean": 0.5519601702690125
+          },
+          "audit_1": {
+            "adversarial": 0.6188162565231323,
+            "clean": 0.5448346734046936
+          },
+          "main": {
+            "adversarial": 0.6234780550003052,
+            "clean": 0.5461784601211548
+          }
+        },
+        "B": {
+          "audit_0": {
+            "adversarial": 0.6057752370834351,
+            "clean": 0.5519601702690125
+          },
+          "audit_1": {
+            "adversarial": 0.6164777278900146,
+            "clean": 0.5448346734046936
+          },
+          "main": {
+            "adversarial": 0.617734432220459,
+            "clean": 0.5461784601211548
+          }
+        },
+        "C": {
+          "audit_0": {
+            "adversarial": 0.6284453868865967,
+            "clean": 0.5519601702690125
+          },
+          "audit_1": {
+            "adversarial": 0.6469511985778809,
+            "clean": 0.5448346734046936
+          },
+          "main": {
+            "adversarial": 0.6538240909576416,
+            "clean": 0.5461784601211548
+          }
+        },
+        "D": {
+          "audit_0": {
+            "adversarial": 0.645327091217041,
+            "clean": 0.5519601702690125
+          },
+          "audit_1": {
+            "adversarial": 0.6561357378959656,
+            "clean": 0.5448346734046936
+          },
+          "main": {
+            "adversarial": 0.6607470512390137,
+            "clean": 0.5461784601211548
+          }
+        }
+      },
+      "timing": {
+        "A40_cost_pool_eligible": false,
+        "failure_handler_elapsed_seconds": 2455.1594226041343,
+        "launcher_end_Pacific": "2026-10-26T11:20:12-07:00",
+        "launcher_start_Pacific": "2026-10-26T10:39:08-07:00",
+        "numerical_envelope_seconds": 2452.0890817530453,
+        "numerical_session_seconds": 2413.747497586999,
+        "whole_launcher_seconds": 2464.0
+      },
+      "verified": true,
+      "video_id": "v_FloorGymnastics_g17_c01"
+    }
+  },
+  "complete_clip_pair_checks": [
+    {
+      "attack_seeds_distinct": true,
+      "case_ids": [
+        "clip-00-bank-0",
+        "clip-00-bank-1"
+      ],
+      "clean_baselines_exact": true,
+      "same_physical_host_for_pair": "linux10609",
+      "shared_non_attack_tensors_exact": 52
+    },
+    {
+      "attack_seeds_distinct": true,
+      "case_ids": [
+        "clip-01-bank-0",
+        "clip-01-bank-1"
+      ],
+      "clean_baselines_exact": true,
+      "same_physical_host_for_pair": "linux10609",
+      "shared_non_attack_tensors_exact": 52
+    },
+    {
+      "attack_seeds_distinct": true,
+      "case_ids": [
+        "clip-02-bank-0",
+        "clip-02-bank-1"
+      ],
+      "clean_baselines_exact": true,
+      "same_physical_host_for_pair": "linux10609",
+      "shared_non_attack_tensors_exact": 52
+    },
+    {
+      "attack_seeds_distinct": true,
+      "case_ids": [
+        "clip-03-bank-0",
+        "clip-03-bank-1"
+      ],
+      "clean_baselines_exact": true,
+      "same_physical_host_for_pair": "linux10609",
+      "shared_non_attack_tensors_exact": 52
+    }
+  ],
+  "download_directory": "runs/pretrained/diagnostic/two-host-export-incident-20261026/evidence-download-20261026T185802Z.H23uD0",
+  "first_batch_independent_review_barrier_satisfied_locally": true,
+  "first_full_linux10603_case_verified": true,
+  "fully_paired_training_clips": 4,
+  "git_commit_created": false,
+  "held_out_pixels_opened": false,
+  "historical_failed_partial_files_preserved": 11,
+  "implementation_sha256": "da5aeb93bd6d3e46040b158cc14f0d6feb1284a83b2b2778a3639b420db0acf9",
+  "independently_verified_case_count": 9,
+  "kind": "two-host-first-pair-independent-verification-v1",
+  "ledger_repair_plan": {
+    "GPU_work": false,
+    "file_sha256": "9755c213846be5cc6a97fa374eff0c80728d3c1f376f79324d3a1a53df6c005a",
+    "keep_STOP": true,
+    "new_records": 4,
+    "path": "runs/pretrained/diagnostic/two-host-export-incident-20261026/evidence-download-20261026T185802Z.H23uD0/ledger-repair-plan.json"
+  },
+  "local_coordinator_reconstruction": {
+    "STOP_and_failures_preserved": true,
+    "metadata_only": true,
+    "path": "runs/pretrained/diagnostic/two-host-export-incident-20261026/evidence-download-20261026T185802Z.H23uD0/verified-coordinator-mirror",
+    "status": {
+      "accepted_case_ids": [
+        "clip-00-bank-0",
+        "clip-00-bank-1",
+        "clip-01-bank-0",
+        "clip-01-bank-1",
+        "clip-02-bank-0",
+        "clip-02-bank-1",
+        "clip-03-bank-0",
+        "clip-03-bank-1",
+        "clip-04-bank-0"
+      ],
+      "claimed_case_ids": [
+        "clip-03-bank-1",
+        "clip-04-bank-0"
+      ],
+      "complete": false,
+      "computed_new_case_ids": [
+        "clip-03-bank-1",
+        "clip-04-bank-0"
+      ],
+      "failed_case_ids": [],
+      "kind": "matched-panel-two-host-revision-v1-progress",
+      "research_admitted": false,
+      "scientific_aggregate": null,
+      "stop_dispatch": true
+    }
+  },
+  "local_path_fix_used_to_relabel_old_results": false,
+  "new_GPU_or_model_work_during_review": false,
+  "new_scientific_or_precision_adoption": false,
+  "next": "Sync the four verified bookkeeping records while preserving STOP/failures/claims, then separately prepare the next bounded pair with explicit alias-safe operations. No GPU case retry.",
+  "original_handoff_files_verified": 359,
+  "original_scientific_pins_verified": 198,
+  "original_v1_journal_changed": false,
+  "original_v1_journal_sha256": "cf851847721b40a24b45563ee4b06f589024269c94d4cbf73ce96af79a3e6814",
+  "paid_compute": false,
+  "qualified_execution_sources_verified": 58,
+  "remaining_cases": 11,
+  "remote_STOP_unchanged": true,
+  "remote_bookkeeping_synchronized": false,
+  "remote_changes_performed": false,
+  "required_cases": 20,
+  "research_admitted": false,
+  "retained_old_cases_reverified": 7,
+  "reviewed_utc": "2026-10-26T19:04:53.220790+00:00",
+  "revision_sha256": "5ca7596fe95ecb8f6b6c6752426e56bb354b1f019d3576c6618f7ede98ae4116",
+  "scientific_aggregate": null,
+  "separate_deployed_execution_sources_verified": 7,
+  "test_suite_rerun_during_review": false,
+  "total_new_finite_nonzero_gradient_observations": 640,
+  "total_new_logical_tensors_verified": 346,
+  "transport": {
+    "bytes": 211353600,
+    "sha256": "c64314366d057b1ed60aca56ac5b8aeb2ea47c2671c27ea718ddbc07f24f079e"
+  },
+  "transport_files_verified": 46,
+  "upstream_sources_verified": 34,
+  "verified": true,
+  "whole_launcher_overlap_seconds": 2351.0
+}

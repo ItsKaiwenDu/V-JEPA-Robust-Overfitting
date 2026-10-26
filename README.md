@@ -1,5 +1,9 @@
 # V-JEPA Robust Overfitting
 
+The [October 26 two-host batch independently verifies](report/checks/2026-10-26-two-host-first-pair-verification.md):
+nine of twenty diagnostic cases and four complete clip pairs. The export
+bookkeeping repair remains pending; both GPU computations are finished.
+
 **Latest panel status (October 25):** [seven of twenty diagnostic cases are independently verified](report/checks/2026-10-25-attended-panel-seventh-verification.md), including the first bank for TennisSwing. Three training clips have both attack banks complete. The latest case passes native CUDA, attack-bound/prefix and exact fresh A-only replay checks in 41 minutes 33 seconds; peak allocation is 4.815 GiB. All prior cases and partial evidence are preserved. Thirteen cases remain; next is clip-03-bank-1. A separate second-host reference replay matches exactly on one training clip/arm; multi-host panel execution, full-panel analysis and research admission remain pending.
 
 **Latest implementation (October 24):** the [matched-panel runner and handoff](docs/matched_panel_handoff.md) implement the frozen ten-clip/two-bank plan with first-case review, atomic whole-case recovery, bounded serial execution and complete-panel analysis. All 110 focused local checks pass, including 40 new; all 40 new checks also pass after extraction. [Preparation report](report/checks/2026-10-24-matched-panel-runner.md). These implementation checks preceded the independently verified university cases reported above.

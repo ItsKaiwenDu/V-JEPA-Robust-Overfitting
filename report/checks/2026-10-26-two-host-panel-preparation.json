@@ -1,0 +1,137 @@
+{
+  "CPU_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 76
+  },
+  "CPU_tests_after_fresh_extraction": true,
+  "CPU_tests_qualify_CUDA": false,
+  "date_Pacific": "2026-10-26",
+  "first_batch": {
+    "linux10603": "clip-04-bank-0",
+    "linux10609": "clip-03-bank-1"
+  },
+  "git_commit_created": false,
+  "held_out_pixels_opened": false,
+  "host_key_fingerprint": "SHA256:ARgVRWOzRLA1LmAANxD6Ya17EIIo2sa4ZbHvkeqzgKQ",
+  "host_queues": {
+    "linux10603": [
+      "clip-04-bank-0",
+      "clip-04-bank-1",
+      "clip-06-bank-0",
+      "clip-06-bank-1",
+      "clip-08-bank-0",
+      "clip-08-bank-1"
+    ],
+    "linux10609": [
+      "clip-03-bank-1",
+      "clip-05-bank-0",
+      "clip-05-bank-1",
+      "clip-07-bank-0",
+      "clip-07-bank-1",
+      "clip-09-bank-0",
+      "clip-09-bank-1"
+    ]
+  },
+  "implementation_sha256": "da5aeb93bd6d3e46040b158cc14f0d6feb1284a83b2b2778a3639b420db0acf9",
+  "independent_first_batch_review_pending": true,
+  "kind": "two-host-panel-preparation-and-validation-v1",
+  "limits": {
+    "automatic_GPU_retries": 0,
+    "case_seconds": 4800,
+    "grace_seconds": 15,
+    "matrix_seconds": 3600,
+    "parent_seconds": 4620,
+    "replay_seconds": 900
+  },
+  "new_GPU_jobs_started": 0,
+  "new_source_sha256": {
+    "configs/matched_panel_two_host_v1.json": "d052c7014b9c246a8d820f1045cdd890470a54c8752b3839fb9568da2866e618",
+    "models/two_host_panel.py": "d41b35bb4a94a55cb080cdaf5acccac5ab77e83d7bfda1b124110237c334c291",
+    "scripts/check_two_host_panel.py": "b0d2b82fdee7ba750bf9adb3126344af5648c0c70526551e7f61691707156749",
+    "scripts/install_two_host_packet.py": "2bdc6c3e3b9a38d9a6987b631bd4f69493c677cfe715ddf2bf73c77a8b7558c3",
+    "scripts/prepare_two_host_panel.py": "a286dbaa2c8e8a15516f39a39016d98e8d4a435bbaace66c8a641fca8db0b0ad",
+    "tests/fixtures/two_host_bootstrap_metadata.json": "0cfe66e28af859a2448662835638b0dd0c418015ed4b6b835e0d37660211f028",
+    "tests/test_two_host_panel.py": "d3049f824d78983aafb25db127b8d257d4565edfca03d81f6d1f2d636288ad43"
+  },
+  "next": "User runs the two Mac Terminal helpers once, keeps connections and Mac awake; independently review both exports before any further dispatch.",
+  "operations": {
+    "CUDA_qualification": false,
+    "GPU_jobs_started": 0,
+    "changed_archive_rejected": true,
+    "concurrent_shared_installs": 2,
+    "corrupt_copies_rejected_and_preserved": 2,
+    "idempotent_reinstall_preserves_runtime": true,
+    "kind": "CPU-only-two-host-operations-validation-v1",
+    "remote_network_connections": 0,
+    "temporary_directory": "/private/tmp/two-host-ops-vj2z4pbm",
+    "transport_fixtures": [
+      {
+        "host": "linux10609",
+        "independent_case_review_complete": false,
+        "received_fixture_only": true,
+        "transport_bytes": 30720
+      },
+      {
+        "host": "linux10603",
+        "independent_case_review_complete": false,
+        "received_fixture_only": true,
+        "transport_bytes": 30720
+      }
+    ]
+  },
+  "original_numeric_plan_sha256": "f6b81dec841aeee703413dba23ea16afe3dbf14736edecadc0f7830f3ded34ae",
+  "paid_compute": false,
+  "prepared": true,
+  "project_budgets_changed": false,
+  "provenance": {
+    "GPU_jobs_started": 0,
+    "accepted_imports_independently_reverified": 7,
+    "case_requests_verified": 2,
+    "date_Pacific": "2026-10-26",
+    "implementation_sha256": "da5aeb93bd6d3e46040b158cc14f0d6feb1284a83b2b2778a3639b420db0acf9",
+    "import_pointer_hashes_preserved": true,
+    "kind": "two-host-offline-provenance-audit-v1",
+    "original_handoff_files_verified": 359,
+    "original_journal_before_and_after_sha256": "cf851847721b40a24b45563ee4b06f589024269c94d4cbf73ce96af79a3e6814",
+    "original_scientific_pins_verified": 198,
+    "qualified_execution_sources_verified": 58,
+    "research_admitted": false,
+    "revision_sha256": "5ca7596fe95ecb8f6b6c6752426e56bb354b1f019d3576c6618f7ede98ae4116",
+    "seconds": 8.545745957999316,
+    "separate_new_execution_source_files": 7,
+    "shadow_sources_unchanged": 4,
+    "uploads_performed": 0,
+    "upstream_sources_verified": 34
+  },
+  "raw_directory": "runs/pretrained/diagnostic/two-host-panel-20261026",
+  "reference_execution_sha256": "1e59a735e2f0b6f5485cf0867851c638dcd027715d19270422f390f7745aa70e",
+  "research_admitted": false,
+  "revision_sha256": "5ca7596fe95ecb8f6b6c6752426e56bb354b1f019d3576c6618f7ede98ae4116",
+  "scientific_aggregate": null,
+  "shared_home_free_space_reported": "2.1T",
+  "source_archive": {
+    "bytes": 44820,
+    "members": 17,
+    "sha256": "4985c17fee208064fe019078c27b48e9cb158840a2172a5f1b977d2c5e2659ae"
+  },
+  "syntax": {
+    "Bash_syntax": 12,
+    "Python_AST": 15
+  },
+  "uploads_performed": 0,
+  "user_fresh_hardware_checks": {
+    "linux10603": {
+      "GPU_identity": "NVIDIA GeForce RTX 3070, GPU-e54fae90-feeb-8106-d8c0-1974fe48555f, 8192, 580.178.04",
+      "compute_processes": [],
+      "memory_used_MiB": 94
+    },
+    "linux10609": {
+      "GPU_identity": "NVIDIA GeForce RTX 3070, GPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52, 8192, 580.178.04",
+      "compute_processes": [],
+      "memory_used_MiB": 74
+    }
+  },
+  "v1_panel_plan_receipts_and_journal_changed": false
+}

@@ -2,6 +2,113 @@
 
 ## Current stage
 
+LATEST October26 BOTH FIRST-BATCH SAVED CASES INDEPENDENTLY PASS;9/20VERIFIED.
+Read report/checks/2026-10-26-two-host-first-pair-verification.md/JSON.
+Both original pinned CLI reviews plus audit-first-pair.py PASS. Raw incident
+latest-download=evidence-download-20261026T185802Z.H23uD0; downloadexit0,
+211353600B transport SHAc64314366d057b1ed60aca56ac5b8aeb2ea47c2671c27ea718ddbc07f24f079e;46filesverify.
+Two cases clip03bank1 on10609 and clip04bank0 on10603:346savedtensors and
+640finite nonzero inputgradients; allA/B/C/D, exactfreshA, prefix/selection/
+bounds/targets/masks/weights/runtime/nativeCUDA pass. Bothcampus76CPUchecks
+pass0fail/error/skip. Wholelaunchers41m48s/41m04s withinoriginal80min+15;
+overlap39m11. Peaksmatrix4.850/4.976GiB. Bothprojectjobs ended; no newGPU/test
+work during review. No retries needed or permitted for these computations.
+Allold7reverify;198pins/58qualified/34upstream/359handoff/7deployed sources
+remain intact. Oldv1journalcf851847721b40a24b45563ee4b06f589024269c94d4cbf73ce96af79a3e6814
+unchanged;11historicalpartialfiles preserved. Fourcompleteclip pairs exact
+shared52nonattacktensors andcleanbaselines; Tennis banks remainon10609.
+9casesindependentlyverified,11remain. No partialscientificaggregate/heldouts/
+study precision/attack/research orbudgetadoption. Firstfull10603case verifies
+Floor AB/CD/EOT4/8+freshA only; no allclips/oracleclaim.
+Exit1 remains authentic EXPORTBOOKKEEPING error. Archivedenvelopescomplete,
+currentenvelopesfailed afterarchivecreation; completeoutcomes andfailure/STOP
+records agree. Never relabel numericalresults with locallypatched source.
+Preserved deployedimplementation da5aeb93bd6d3e46040b158cc14f0d6feb1284a83b2b2778a3639b420db0acf9.
+Rawdownload independently-reviewed/cid has original CLI independent-review.json
+and numeric-reviewed/; independent-verification.json fullaudit. Acceptancefile
+SHAdfe57c2ea0d7c910e3755aafde62705a9559d2fedb442d59892b2cd15e034b64.
+LOCAL verified-coordinator-mirror reconstructs ONLY missing2exports+2reviews;
+status9accepted,STOPtrue;claims/outcomes/failures/STOP preserved. Remoteledger
+stillnot synchronized; no universityfile changed byreview. DoNOT claimremote
+repair applied or clearSTOP. Sourcealiasfix localonly,93CPU checks lastpassed.
+Concrete ledger-repair-plan.json pins46unchangedinputfiles and4newrecord
+payloads/fileSHAs, leavesSTOPactive, no model/test/GPU retry. PlanfileSHA
+9755c213846be5cc6a97fa374eff0c80728d3c1f376f79324d3a1a53df6c005a.
+NEXT boundedtask: prepare tested metadata-only sync of those four records,
+recheck retained evidence and preserve oldrecords/STOP; user password ismanual.
+After sync, separatelyprepare alias-safe operations and explicitSTOPresolution
+before any followingcase requests (09clip05bank0,03clip04bank1). No automatic
+queue or launch. Old run-case/downloadhelpers have beenused/unsuitable. User
+commits themselves; providecommitmessage whenasked. Earlier states historical.
+
+LATEST October26 BOTH FIRST-BATCH LAUNCHERS EXIT1 AFTER NUMERICAL WORK;
+EXPORT-PATH INCIDENT IDENTIFIED; COPY/INDEPENDENT REVIEW PENDING.
+Read report/checks/2026-10-26-two-host-export-alias-incident.md/JSON.
+Both transcripts show campus76pass/0fail/error/skip, A/B/C/D and freshA,
+then ValueError archive.relative_to(registry.root) at export event creation.
+Cause: Registry root /home alias versus bound() resolved /DCNFS path.
+Pinned control flow indicates receipts + complete outcomes + revisionarchives
+were created before this export bookkeeping error; independently unverified.
+Seven accepted cases remain; no new case accepted, no GPU rerun authorized.
+A real symlink CPU regression reproduced failure. Local Registry.root now
+resolves canonical path;93CPU tests pass,0fail/error/skip. Fix NOT deployed.
+Preserved original extracted/staged sources7 still match implementation
+ da5aeb93bd6d3e46040b158cc14f0d6feb1284a83b2b2778a3639b420db0acf9.
+Use that preserved operator for independent review, NOT patched repository
+as an assumed replacement identity. Do not regenerate/install activepacket.
+Raw two-host-export-incident-20261026 saves transcripts, reproduction/fixed
+JUnit and recover-existing-exports.py + retrieve-existing-evidence.sh.
+User Mac runs retrieve-existing-evidence.sh once. It reads both saved case
+archives+receipts/envelopes/launcher+ledger through10609(sharedhome), tolerates
+missing export event records, writes nothing remotely, no model/test imports,
+and retries only copying once if needed. User supplies password manually.
+NEXT after userDone read raw latest-download; verify bytes then original
+CLI review of each nested saved result, audit producer/timers/hosts/native
+CUDA and old imports. Current envelope was markedfailed by export handler;
+archived envelope should reflect numerical completion before error. Preserve
+STOP/claims/failures/complete outcomes; repair only bookkeeping AFTER review.
+Old run-case.sh and normal download-evidence.sh are unsuitable here: no GPU
+retry, no extra allowance, no newscientific aggregate or budget change.
+Earlier preparation and passed shadow checkpoints below are historical.
+
+LATEST October26 USER RESUMED; TWO-HOST FIRST BATCH PREPARED, NOT STARTED.
+Read docs/two_host_panel.md and report/checks/2026-10-26-two-host-panel-preparation.md/JSON.
+Current user supplied fresh expected GPU UUIDs, no CUDA compute processes,
+74/94MiB used, shared-home free2.1T. The prior overnight stop is revoked by
+user return and "continue next step" with both university GPUs.
+New explicit execution revision SHA 5ca7596fe95ecb8f6b6c6752426e56bb354b1f019d3576c6618f7ede98ae4116.
+Implementation SHA da5aeb93bd6d3e46040b158cc14f0d6feb1284a83b2b2778a3639b420db0acf9.
+Seven new separately pinned execution/config/test/build/install sources;
+76CPU tests pass fresh extraction, 0fail/error/skip.15Python/12Bash syntax.
+Concurrent shared installs/idempotence/transport/corrupt-copy fixtures pass;
+these fixtures qualify no CUDA. Original198pins/58qualified/34upstream/
+359handoff/fourshadow source identities unchanged; all7oldcases reverify.
+Original journal SHA cf851847721b40a24b45563ee4b06f589024269c94d4cbf73ce96af79a3e6814.
+No old receipt/journal/plan relabeling. New append-only ledger preserves
+seven original pointers/origin; one permanent claim/case, one lease/GPU,
+short NFS registry flocka+, immutable per-case outcomes/exports/reviews.
+Fixed new coordinator: $HOME/Desktop/VJEPA-Robust-Overfitting/matched-panel-transfer-20261024/two-host-panel-20261026.
+Fixed packet: $HOME/Desktop/VJEPA-Robust-Overfitting/matched-panel-transfer-20261024/two-host-execution-20261026/unpacked/two-host-execution-20261026.
+First batch ONLY: clip-03-bank-1 Tennis on10609; clip-04-bank-0 Floor on10603.
+Both stop for independent retained-export review before any later claim.
+Full first10603 A/B/C/D+freshA still must verify; old bridge onlyoneclip/A.
+80min+15 original percase; matrix3600,replay900,parent4620; extra0,retry0,
+no automatic queue. Keep SSH attended/Mac awake. Unknown claims neverreset.
+Any failure stops new dispatch; already-running peer may save within limit.
+All clip pairs co-located; remaining09=03b1,05b0/b1,07b0/b1,09b0/b1;
+03=04b0/b1,06b0/b1,08b0/b1. Only first2 requests prepared.
+Raw two-host-panel-20261026 has staged/extracted/payload/known_hosts/validation;
+sourcepacket44820B/17members SHA4985c17fee208064fe019078c27b48e9cb158840a2172a5f1b977d2c5e2659ae.
+Mac helpers raw/linux10609/run-case.sh and raw/linux10603/run-case.sh ONCE
+in two Mac Terminal windows. No upload/GPU job started by preparation.
+After userDone inspect each latest-session/latest-download, audit launcher
+JUnit/times/retained source and independently review nested case export with
+extracted new CLI plus original trusted snapshot and external SHA/pins.
+Failed copy uses that host's download-evidence.sh only, never rerun model.
+No partial mean; all20 +paired contracts before frozen equal-clip aggregate.
+No paid compute, heldout access, optimizer, precision/study/budget/research
+adoption. User commits themselves. Older snapshots below are historical.
+
 LATEST October25 SHADOW INDEPENDENTLY PASS; USER STOPPING UNTIL RETURN.
 User: "Done. Also I'm going to sleep after you verify this one. We're gonna
 do rest tomorrow." Verification is complete. Start no further GPU work,
