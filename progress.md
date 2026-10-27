@@ -1,5 +1,44 @@
 # Research Progress Reports
 
+## 2026-10-27 — YoYo review registration verified; fourteen accepted remotely
+
+The actual university metadata sync returned0. Independent audit verifies
+one byte-identical original YoYo review,382 unchanged file hashes and the
+correct gapped13→14 acceptance. Independent and university progress now agree:
+14/20 cases, six complete clip pairs and six remaining.
+
+Archery remains unclaimed. Its before/after accounting retains43seconds used
+and4757seconds (79m17s) within the original ceiling. Historical failures,
+STOP records, grants, source and time records remain intact. The university
+operator rechecked one saved case on CPU; the local receipt audit performed
+no model/test rerun, extra connection or metadata repeat.
+
+Next prepare a separately identified Archery continuation with that remaining
+ceiling, fresh idle-GPU checks and the original strict guard. No new GPU helper
+or additional allowance is prepared. No partial aggregate, held-out access,
+paid compute or research adoption occurs.
+[Actual registration audit](report/checks/2026-10-27-yoyo-review-sync-verification.md).
+
+## 2026-10-27 — Single YoYo review-registration handoff prepared
+
+The new metadata-only operator reverifies the saved YoYo case on CPU and
+appends its one original review. It preserves382 existing file hashes,
+Archery's unused claim and its43-second startup charge/4757-second remaining
+ceiling. Acceptance must be gapped14, with Archery bank1 still pending.
+
+All71 focused local and71 extracted checks pass. The full actual-installer/
+CLI/Registry/file-lock rehearsal uses genuine saved evidence, rechecks382
+hashes, advances13→14, preserves Archery's state/time and safely repeats14→14.
+No verifier or Registry is mocked; only local home/metadata host are replaced.
+The actual university handoff remains unrun. Its9-file152487-byte source/
+metadata payload has a300+15second bound and starts no model or test suite.
+
+Next run sync-reviews.sh once from Mac Terminal and independently inspect
+its actual receipt. No further model helper or extra allowance is prepared.
+Independent progress remains14/20 cases and six complete clip pairs; no partial
+aggregate, held-out access, paid compute or research admission occurs.
+[Prepared registration](report/checks/2026-10-27-yoyo-review-sync-preparation.md).
+
 ## 2026-10-27 — YoYo bank0 verified; fourteen cases complete
 
 The completed linux10609 export passes the pinned reviewer and separate

@@ -1,5 +1,17 @@
 # V-JEPA Robust Overfitting
 
+**YoYo registration verified (October27):** [the actual university receipt](report/checks/2026-10-27-yoyo-review-sync-verification.md)
+confirms14/20 accepted diagnostic cases, six complete clip pairs and382 unchanged
+file hashes. Archery remains unclaimed with79m17s left under its original
+allowance. Next prepare its separate guarded continuation; no new GPU helper
+or research admission is added. Earlier snapshots follow.
+
+**Next metadata step prepared (October27):** [register YoYo's original review](docs/yoyo_review_sync.md)
+with one CPU-only append,382 preservation hashes and unchanged Archery startup
+accounting. All71 local/extracted checks and the real-evidence/lock rehearsal
+pass. The university sync has not run; independent progress stays14/20 cases.
+No new GPU execution is authorized. Earlier snapshots follow.
+
 **YoYo bank0 verified (October27):** [the completed export passes independent review](report/checks/2026-10-27-yoyo-bank0-verification.md),
 bringing the diagnostic panel to14/20 cases and six complete clip pairs.
 Archery bank1 remains unclaimed after its guard refusal;43seconds of setup
@@ -91,7 +103,8 @@ The intended contribution is a controlled study of training dynamics and their d
 | --- | --- |
 | [Verified thirteen-case sync](docs/reviewed_pair_sync.md) | Two original reviews registered;275 preserved hashes match and thirteen cases accepted |
 | [Verified Biking/Archery pair](docs/reviewed_panel_continuation.md) | Thirteen accepted cases and six clip pairs; both original review markers registered |
-| [Next attended pair](docs/reviewed_panel_batch.md) | Archery bank1/YoYo bank0; activation verified and two attended helpers ready |
+| [YoYo review registration](docs/yoyo_review_sync.md) | Completed one-review registration; fourteen accepted and Archery time preserved |
+| [Archery/YoYo outcomes](docs/reviewed_panel_batch.md) | YoYo verified; Archery startup refused before claim and remains pending |
 | [Eleven-case metadata reconciliation](docs/reviewed_panel_reconciliation.md) | CPU recheck and append-only paused progress; legacy failures and STOP preserved |
 | [Matched-panel university handoff](docs/matched_panel_handoff.md) | Frozen training-only panel, bounded first case, independent review, whole-case resume and separate scoring-bank analysis |
 | [Checkpoint locks and fresh CPU retry](docs/checkpoint_lock_repair.md) | Verified NFS lock fix and the completed free CPU check |

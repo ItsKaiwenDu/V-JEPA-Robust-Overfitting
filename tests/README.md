@@ -1,5 +1,14 @@
 # Scientific acceptance tests
 
+`test_yoyo_review_sync.py` adds71 metadata-only checks for the one original
+YoYo review, gapped14-case acceptance, atomic/lost-acknowledgment repetition,
+preserved/conflicting history and Archery's unused case/43-second charge.
+Real record-lock access rules exercise the metadata helper's read/write
+exclusive locks. All71 local and71 extracted cases pass without skips. A full
+actual-CLI/Registry/lock rehearsal rechecks genuine saved tensors and382 file
+hashes; it starts no model or GPU worker. Actual university sync remains pending.
+[Preparation](../report/checks/2026-10-27-yoyo-review-sync-preparation.md).
+
 `test_reviewed_batch.py` has79 CPU checks for the separately pinned next pair:
 thirteen original imports and actual sync identity, single-use fixed requests,
 shared leases, preserved preceding namespace, no time/retry reset, strict

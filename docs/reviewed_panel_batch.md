@@ -1,5 +1,14 @@
 # Next attended pair: Archery bank1 and YoYo bank0
 
+**YoYo's university review registration is complete and verified.** Both
+independent and registered progress are14/20 cases with six complete clip
+pairs. All382 protected hashes match. Archery bank1 is still unclaimed, with
+its43-second startup charge and79m17s remaining ceiling unchanged.
+Next prepare a separately identified Archery continuation and fresh GPU check;
+no new model helper is ready. Do not repeat old launch, copy or sync helpers.
+[Actual registration](../report/checks/2026-10-27-yoyo-review-sync-verification.md).
+Earlier pending-registration instructions below are historical.
+
 **YoYo bank0 is complete and independently verified.** Its155 actual CPU
 checks, four attacks, exact fresh A replay, six GPU boundaries and286 historical
 hashes pass. The copy-only retry succeeded; the model ran once. The panel now
