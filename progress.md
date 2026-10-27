@@ -1,5 +1,62 @@
 # Research Progress Reports
 
+## 2026-10-27 — Biking/Archery exports verified; thirteen cases complete
+
+Both attended cases independently pass the pinned reviewer and separate audit.
+Each has143 actual campus CPU passes,173 tensors,320 finite nonzero gradient
+observations, all four fixed attacks, six strict GPU boundary checks and exact
+fresh A replay. Biking completed in40m25s and Archery in39m49s, within the
+original80-minute allowance including setup. Copy-only retries succeeded after
+both first copies returned255/zero bytes; no model restarted.
+
+Biking's52 nonattack tensors and clean baselines exactly match its accepted
+bank0, completing the sixth clip pair. The panel now has13/20 independently
+verified cases and seven remaining. Both before/after148-file preservation
+observations match. All original execution identities, failed outcome,
+consumed recovery grant and historical STOP records remain intact.
+
+The two new markers await a separate remote metadata sync; no further GPU
+request/helper is prepared. No test suite, model or GPU rerun occurred during
+review, and no partial scientific mean, held-out access, budget change or
+research adoption is made. [Verification](report/checks/2026-10-27-biking-archery-pair-verification.md).
+
+## 2026-10-27 — Next-pair activation verified; two attended helpers ready
+
+Actual metadata activation returned SSH exit0. Independent audit verifies five
+exact new records,148 preserved hashes and all eleven original case origins.
+Both historical STOP records, failed Floor outcome and consumed grant remain.
+The local review marker is saved; Biking bank1 on10609 and Archery bank0 on10603
+can now be handed off in two Mac Terminal windows.
+
+No model or test suite started during activation/review. Each future helper
+requires143 actual campus CPU passes, current strict GPU checks and its original
+80-minute allowance including setup. Both actual exports still need independent
+review. The panel remains11/20 with5 complete pairs; no scientific aggregate,
+held-out access, paid compute or research adoption is added.
+[Verified activation](report/checks/2026-10-27-reviewed-continuation-activation-verification.md).
+
+## 2026-10-26 — Next two attended cases and separate coordinator prepared
+
+A new coordinator preserves the eleven reviewed origins and both historical
+STOP records while enabling only fresh Biking bank1 on10609 and Archery bank0
+on10603. No old outcome, consumed grant or time allowance is rewritten. The
+five-record activation is metadata-only;148 historical hashes must match.
+
+All67 new CPU checks pass locally and after extraction;143 combined original
+and new checks pass with zero failures, errors or skips. A full actual-CLI/
+real-lock rehearsal exercises activation and concurrent CPU case orchestration,
+exports,36-file transports, interruption/repetition and conflict guards. GPU
+queries/neural bodies are explicitly mocked; the generated CPU archives reject
+as CUDA and leave acceptance at11. GNU timeout itself is unavailable locally;
+its existing Linux wrapper is retained with checked remaining-time arithmetic.
+
+Both attended launch/download helpers are prepared, each retaining4800seconds
+including setup, original worker caps and strict compute-PID checks. First
+apply and independently verify the new activation receipt; the GPU scripts
+remain locally blocked until that review. Actual campus143 checks, uploads
+and numerical cases have not run. No held-outs, scientific aggregate, budget
+change or research adoption occurs. [Preparation](report/checks/2026-10-26-reviewed-continuation-preparation.md).
+
 ## 2026-10-26 — Eleven-case university progress view verified
 
 The metadata handoff completed with SSH exit0. Independent review verifies

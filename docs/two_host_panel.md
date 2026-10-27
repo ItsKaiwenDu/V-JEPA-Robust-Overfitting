@@ -1,16 +1,17 @@
 # Two university GPUs for the matched panel
 
-Current October26 status: eleven independently reviewed cases now appear in a
-separate verified university progress view, with five complete clip pairs and
-nine pending cases. Its actual receipt verifies six exact records and142
-preserved file hashes. The original nine-case coordinator, failed Floor outcome,
-consumed recovery grant and STOP remain intact. Both namespaces remain paused.
-[Verified reconciliation](../report/checks/2026-10-26-reviewed-panel-reconciliation-verification.md).
+Current October27 status: thirteen cases independently verify, with six
+complete clip pairs and seven remaining. Biking bank1 and Archery bank0 each
+pass143 campus tests, all four attacks, actual native-CUDA evidence and exact
+fresh A replay in about40minutes. Biking's52 nonattack tensors and clean
+baselines exactly match bank0. Both consumed model helpers must not repeat.
+[Verified pair](../report/checks/2026-10-27-biking-archery-pair-verification.md).
 
-Next prepare a separately identified continuation importing all eleven original
-case identities before new dispatch. The next fixed assignments are clip05
-bank1 on10609 and clip06 bank0 on10603; new helpers and fresh hardware checks
-are not yet prepared. First-batch instructions below are historical.
+Both new independent markers await a separate remote metadata sync. The
+original failures, consumed recovery grant and both historical STOP records
+remain intact. Next reconcile thirteen-case progress before preparing further
+fixed-host requests. No following GPU helper is prepared. Earlier instructions
+below are historical.
 
 The October 26 execution revision keeps the frozen numerical plan and
 seven reviewed v1 receipts. It adds a separate shared coordinator for the

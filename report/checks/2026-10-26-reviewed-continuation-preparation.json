@@ -1,0 +1,214 @@
+{
+  "GPU_jobs_started": 0,
+  "abandoned_peer_claim_blocks_dispatch": true,
+  "activation_cleanup_seconds": 15,
+  "activation_expected_new_records": 5,
+  "activation_expected_records_sha256": {
+    "genesis.json": "1bbb2be1510a344a374eb47f3b18b9968e9187a3fb3485b32fe606d8618ec407",
+    "imports.json": "c5f2b9cfba5a3c4c064ef1bcb60027080eb29af2ac1e3f7293e956cb5e267f20",
+    "requests/clip-05-bank-1.json": "b75c6828fa05418c6d5ca7b32b5e09f6a8299145bc7f137d3a29d00ecb5d6013",
+    "requests/clip-06-bank-0.json": "1bfbc59b84615148bc69db88b76b8acb10e7639bec3d7b3f0cd0bed7ae72736c",
+    "resolution.json": "d7405aca0a4190a56bf455b0d937bbfe527a2a2022581cda310ac0cd8b8a0204"
+  },
+  "activation_helper_sha256": "264eec0d17f382ac28480855e500cc440828b66261ee50d47757cd90838debb9",
+  "activation_max_seconds": 300,
+  "activation_metadata_only": true,
+  "actual_campus_CPU_guards_observed_for_this_packet": false,
+  "actual_remote_upload_or_activation": false,
+  "additional_allowance_seconds": 0,
+  "additional_attempts": 0,
+  "archive_sha256": "87eeef7495cdeec66941d8f80eeaec594d900a9938525c1e32040432efdc3359",
+  "automatic_GPU_retries": 0,
+  "automatic_queue": false,
+  "both_historical_STOP_records_preserved": true,
+  "case_helpers": [
+    {
+      "activation_independent_review_required": true,
+      "bootstrap_sha256": "8dc7962d212d1642d879d0396881c63a08c53eb340c0606a6e76d0cbfcd3a2a7",
+      "case_id": "clip-05-bank-1",
+      "download_expected_files": 36,
+      "host": "linux10609",
+      "launch_helper_sha256": "5a116fcd2eec7183ded5a80d20633011c9ed21a1cf6109bf307234041c728711",
+      "pipeline_sha256": "a72a2df10460f3fe67df0a77225cf2ff4b1ac093efeb3bcf55bb14b6e6099034",
+      "source_launcher_sha256": "c05f39e2eacfef4c1799462813bc7b839a3c77a89d628cad73707620e15496e1"
+    },
+    {
+      "activation_independent_review_required": true,
+      "bootstrap_sha256": "bc43b2fa44b01c5cf79c3eeeeab37a887fab3513c29bf4cd9de700d169d976b5",
+      "case_id": "clip-06-bank-0",
+      "download_expected_files": 36,
+      "host": "linux10603",
+      "launch_helper_sha256": "5adbc7851e6b9dd46e65de40fe41688b1d7b071a534ebb306dce1e20349495c8",
+      "pipeline_sha256": "292a7b368f04fd96bfd02e4431bbfa9c519f284a7d16a05474ce485c0a2448e4",
+      "source_launcher_sha256": "32230424c6b8ac1584d5900041d5d31dbf47095ad14aaca240e71020fdd275de"
+    }
+  ],
+  "case_seconds_including_bootstrap_and_CPU_setup": 4800,
+  "cleanup_seconds": 15,
+  "complete_clip_pairs": 5,
+  "date": "2026-10-26",
+  "held_out_pixels_opened": false,
+  "historical_files_preserved": 148,
+  "host_readiness_file_sha256": "22623cdb9d6c242aed3a62dc41c8a5e48305f99e4e98fee9453a5c8a394da785",
+  "imported_original_case_count": 11,
+  "kind": "reviewed-panel-continuation-preparation-v1",
+  "legacy_and_reconciled_ledgers_mutated": false,
+  "legacy_state_checked_before_hash_transactions": true,
+  "local_full_path_rehearsal": {
+    "GNU_timeout_available_locally": false,
+    "activation_repeated_idempotently_before_claims": true,
+    "actual_activation_receipt_verifier": true,
+    "actual_collectors_and_receivers_passed": [
+      {
+        "host": "linux10609",
+        "regular_files": 37,
+        "regular_files_in_original_log": 37,
+        "rejected_at_inner_numerical_plan": true,
+        "transport_bytes": 563200,
+        "transport_sha256": "88b858616caf8c270c7c4089bc18f15566c4e74b5f2fa92c606b170e7edd4b8e"
+      },
+      {
+        "host": "linux10603",
+        "regular_files": 37,
+        "regular_files_in_original_log": 37,
+        "rejected_at_inner_numerical_plan": true,
+        "transport_bytes": 563200,
+        "transport_sha256": "a63a055533f5fb0d3596b09229bd699ababc29ad4871692f0487be0b5f3f5aa5"
+      }
+    ],
+    "actual_deadline_arithmetic_checked": [
+      {
+        "accepted": true,
+        "host": "linux10609",
+        "setup_seconds": 250
+      },
+      {
+        "accepted": false,
+        "host": "linux10609",
+        "setup_seconds": 4801
+      },
+      {
+        "accepted": true,
+        "host": "linux10603",
+        "setup_seconds": 250
+      },
+      {
+        "accepted": false,
+        "host": "linux10603",
+        "setup_seconds": 4801
+      }
+    ],
+    "actual_installer_extractor_CLI_activation": true,
+    "all_148_ancestor_hashes_unchanged": true,
+    "both_historical_STOP_records_unchanged": true,
+    "computed_CPU_fixtures_do_not_advance_acceptance": true,
+    "concurrent_real_main_run_Registry_leases_claims_outcomes_exports": true,
+    "corrupt_transport_rejected_before_extraction": true,
+    "independent_review_rejects_both_CPU_archives": true,
+    "kind": "reviewed-continuation-full-path-CPU-rehearsal-v1",
+    "launch_helpers_block_without_independent_activation_review": [
+      "linux10609",
+      "linux10603"
+    ],
+    "new_CUDA_cases_qualified": 0,
+    "only_neural_body_and_GPU_query_mocked_for_runs": true,
+    "operation_sha256": "0714e035422d4e21ba41c37734997138aa3249abb0966cf8b8324b6c96ac7300",
+    "original_148_preserved_hashes_rechecked_after_QA": 148,
+    "original_case_origins_preserved": true,
+    "partial_activation_safely_completed": [
+      {
+        "genesis_published_last": true,
+        "interrupted_after_records": 1,
+        "safe_completion": true
+      },
+      {
+        "genesis_published_last": true,
+        "interrupted_after_records": 4,
+        "safe_completion": true
+      }
+    ],
+    "passed": true,
+    "remote_connections": 0,
+    "shell_timeout_validation_scope": "Final shell syntax and remaining-time expression verified. GNU timeout itself is Linux-only here; unchanged TERM/KILL cleanup loop and original child deadline primitive retained.",
+    "two_actual_bootstraps_and_repeat_rejection": true,
+    "wrong_host_bootstraps_rejected": true
+  },
+  "local_shell_validation_limit": "Final shell syntax and remaining-time expression verified. GNU timeout itself is Linux-only here; unchanged TERM/KILL cleanup loop and original child deadline primitive retained.",
+  "matrix_seconds": 3600,
+  "new_CUDA_cases_qualified": 0,
+  "new_coordinator_namespace": "reviewed-execution-20261026",
+  "new_numeric_execution_binds_actual_new_sources_and_prior_receipt": true,
+  "new_operator_namespace": "reviewed-continuation-20261026",
+  "next": "Run only activate-continuation.sh once from Mac Terminal. Independently review its actual receipt, then write the local activation-reviewed.json from that verified receipt and hand off the already prepared two launch helpers.",
+  "next_cases": {
+    "linux10603": {
+      "case_id": "clip-06-bank-0",
+      "video_id": "v_Archery_g19_c04"
+    },
+    "linux10609": {
+      "case_id": "clip-05-bank-1",
+      "video_id": "v_Biking_g16_c04"
+    }
+  },
+  "numeric_plan_or_study_settings_changed": false,
+  "operation_sha256": "0714e035422d4e21ba41c37734997138aa3249abb0966cf8b8324b6c96ac7300",
+  "parent_seconds_at_most": 4620,
+  "payload_bytes": 101725,
+  "payload_sha256": "68eb6cf400580855a225e0929f61d841337765ef4416cebdd864b0c7aca17ec6",
+  "prior_actual_reconciliation_receipt_sha256": "aaecab1ee4784ccf4fe98bbdb06ac5932810dadd1daf2ebecd7e3f6d7cf01762",
+  "prior_numeric_execution_identities_relabelled": false,
+  "raw_preparation": "runs/pretrained/diagnostic/reviewed-continuation-20261026",
+  "remaining_case_count": 9,
+  "replay_seconds": 900,
+  "research_admitted": false,
+  "runtime_CPU_guards_per_host_required": 143,
+  "schema_version": 1,
+  "scientific_aggregate": null,
+  "source_sha256": {
+    "models/reviewed_panel_continuation.py": "51f78c2b4ff4904f4492e4ff055d58eb7f219a4a3b1f440dd502c43725c71b96",
+    "scripts/continue_reviewed_panel.py": "2e745b4d2010328767f04d880fa241906adca77ee4a4eb5a37cb9a14102140a5",
+    "scripts/prepare_reviewed_continuation.py": "2d6af13261bdc1f35593252635ad55d0846c4925ec59b7f0b48abbbafc853aba",
+    "support/reviewed_panel.py": "e654928424efd688a7f2d2077150ecf13502711f31fedd22a038e581fb7cb59f",
+    "tests/fixtures/reviewed_continuation_metadata.json": "cccf72508fb9717dd9772687252cd72642e0f397d1bdee6b6b8c65a73f08ae1c",
+    "tests/test_reviewed_continuation.py": "558e39fa9fa05fea7e2512767759ed0c99f1559677da7f612388e7eaac0981ea"
+  },
+  "status": "prepared-locally-awaiting-metadata-activation",
+  "strict_GPU_PID_guard_unchanged": true,
+  "tests": {
+    "combined-cpu.xml": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 143
+    },
+    "extracted-focused-cpu.xml": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 67
+    },
+    "focused-cpu.xml": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 67
+    }
+  },
+  "user_commit": "96a4bdc",
+  "validation_files_sha256": {
+    "validation/CPU-fixture-activation-receipt.json": "32acded6836409b294caf3d57f562e1b1d7055c27574d4ad99d9ba612cce0dce",
+    "validation/CPU-fixture-activation-verification.json": "43a67364213a661057203d71409a957785182bc8d01830ea2f5e23344c594377",
+    "validation/check-helpers-and-interruptions.py": "ab0a2d17868ad05ab6b3789485813ae05f40e4344731d2545f2467a9e02dfd6f",
+    "validation/combined-cpu.xml": "245b2db67477b6d014ad6eacda293dcf8097988223c8cc2a0f49469f36734b6f",
+    "validation/extracted-focused-cpu.xml": "34186e411ceaaa5e394c65315cc43cc181bcbf5892703b07720364aec8f61c4b",
+    "validation/focused-cpu.xml": "95b8c5ed63e73001e757ba25a850ad798f548d74e886506f8e6d16bb0f015d36",
+    "validation/full-path-rehearsal.json": "45a3ffa53a5ca090a44c8d4d093e09afee9b804e24d9080bc6bc0fbd293872d6",
+    "validation/full-path-rehearsal.log": "0fc22a3021a750082936f6adf0bcc51cebb3956ebbb3893a39d5816275824165",
+    "validation/helper-QA.log": "45a3ffa53a5ca090a44c8d4d093e09afee9b804e24d9080bc6bc0fbd293872d6",
+    "validation/linux10603-CPU-rejection.txt": "3ab92cf72087592cc26f6c19819652fa0268b7e0b562e41bf51bb47dadd8ffa4",
+    "validation/linux10603-CPU-run.log": "3c6103bc943ee92594509c5c10bd5f331ab5910164f9535913ffe83e1bbc5566",
+    "validation/linux10609-CPU-rejection.txt": "d60a78e027bf951f95e462f7d5e3093bf4c18300c1615d28fde419235d526c2d",
+    "validation/linux10609-CPU-run.log": "cf8ee95e8ade4a185c45bdafc2f99bd1e41bf09d782f632e9f30ba768ca20b0f",
+    "validation/rehearse-complete-path.py": "f1541ea076a6f9cbc43f3723668f5c3b5c9ae08fffdd2bf5c4afdcea32930cd0"
+  }
+}

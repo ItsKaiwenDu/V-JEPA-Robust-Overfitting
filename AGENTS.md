@@ -2,6 +2,154 @@
 
 ## Current stage
 
+LATEST October27: BIKING BANK1 + ARCHERY BANK0 VERIFIED;13/20,6PAIRS.
+Read report/checks/2026-10-27-biking-archery-pair-verification.md/JSON.
+BothpinnedCLIreviewandseparateraw/audit-completed-pair-20261027.py pass.
+Raw reviewed-continuation-20261026/pair-independent-verification-20261027.json
+hasfull audits. No model/test/remoteconnection rerun duringreview.
+09latest-session attended-session-20261027T161244Z.Ga3zYm job0/copy255zero;
+latest-download case-download-20261027T170236Z.tQmbwN copy0,127129600B
+transportSHAeaee6123bb717297e475c40c6905d5f0d7abfcd73897a455e6365244013942c8.
+09archive126654232B/40members57dcb92bab3cf2e701c17aa79692d841046104162080764589b177a485b27693.
+03latest-session attended-session-20261027T161257Z.00ZmmZ job0/copy255zero;
+latest-download case-download-20261027T170240Z.gf7jpt copy0,116787200B
+transportSHAb575001077a993b27a3c565fba7f703b647517f7822788f85000fa96422901a9.
+03archive116302913B/40membersd4372de313717ba0d65cc0790e605eda0b2f15c6073df6278e6726d4b1a86295.
+Bothdownload/independently-reviewed contains40capturedouterfiles and
+numeric-reviewed plusindependent-review.json; download/independent-verification.json
+supplements actual143JUnit/timings/source/transport/148preservation audit.
+Bothactualcampus143 pass0fail/error/skip;173tensors/320finite nonzerogradients
+percase,all4arms+exactfreshA+nativeCUDA/bounds/prefix/bestselection pass.
+All6strictGPUboundarychecks pass,actualhostUUID/driver unchanged. 09clockspan
+2425s(40m25),conservativewholeupper2426;03span2389s(39m49),upper2390. Includes
+setup/CPUbootstrap under4800; numericparentsunder4620,worker3600/900 retained.
+Firstcopiesfailed0bytes;onlycopyretried,neitherGPUmodelrestarted.
+Actualbefore/after148hashobservationsmatch,includingoldfailure/recoverygrant/
+STOPs. Bikingbank1(v_Biking_g16_c04)matchesacceptedbank0 on52nonattacktensors,
+allcleanscoringbaselines/weights/runtime/pixels/targets/starts/settings exactly.
+TruthfuldistinctwrapperexecutionIDs oldcda6.../new76b79e50c33e160b6587cc1095d357ee63e5af2b723aae643de898c828846b61 preserved.
+Archerybank0(v_Archery_g19_c04)exec4841ebbea9c41017808cc8f157f43cab11bbf5ec5cd1f85049c13034e9e07323 unpairedyet.
+09markerfilebda8ce30a7e6d44801ead63cb0f95402a4f9632a59cb0480ef1f4785e66fa351;
+03markerfile6b5ef5fef2fd26797831928b35dfe59b040d1e4826da81e02a947c73fad87517.
+AcceptedlocalNOW originalORDER[:13],13/20,6pairsclips00-05,7remaining.
+Remote reviewsNOTsyncedbythisaudit:newcoordreviewed-execution-20261026
+has11imports+2computed,needs2originalmarkerregistrations. Do NOT callold
+legacyregister_review orpretendnewnumericexecutionold. Bothnewmarkers match
+currentnewmoduleRegistry kind/outcomes/exports and maybefutureappend-onlysync.
+Rawpending-review-sync-20261027.json pins2markers/actualexecs/expected13IDs,
+metadataonly, no GPU authority. No new syncoperatororGPUhelperspreparedyet.
+NEXT prepareseparatelypinned CPU-onlytwo-review sync, liveverifyactualsaved
+newcases,source/plan/148ancestorhashes andclaim/outcome/export pins,append
+exactoriginalreviewsundernewregistrylock andreadback13. Preserveeveryfailure/
+STOP/grant/source/timehistory. Reconcileindependentlybeforefuturedispatch.
+CurrentnewcoreTARGETS restricts05b1/06b0; do NOT mutatefrozenpacketorreuse
+consumedhelpers forlatercases. Needseparatelyidentifiedcontinuation/requests
+after13-sync. Nextfixedhosts03clip06bank1(Archery),09clip07bank0. No class/
+seed/attack/scoring/timing/hostpolicychange;no heldouts/partialscientificmean/
+study/precision/attack/budget/researchadoption orpaidPod. Usercommitsself.
+Earlierready/launchinstructionsbelowhistorical; bothmodeljobsfinished.
+
+LATEST October27: ACTUAL NEXT-PAIR ACTIVATION VERIFIED; TWO HELPERS READY.
+Read report/checks/2026-10-27-reviewed-continuation-activation-verification.md/JSON.
+Actualraw reviewed-continuation-20261026/latest-activation.txt points
+activation-session-20261027T160623Z.LzWclU,SSH0,receipt40054B SHA
+32acded6836409b294caf3d57f562e1b1d7055c27574d4ad99d9ba612cce0dce.
+Op0714e035422d4e21ba41c37734997138aa3249abb0966cf8b8324b6c96ac7300.
+All5 exactrecords and148 returnedpreservedhashesverify,11originalids;
+createdimports,requests05bank1/06bank0,resolution,genesislast. BotholdSTOPs776e,
+failedFlooroutcome/consumedgrant intact. SourceenforcesexactoldRegistry state;
+separatestatussnapshotnotdownloaded. Deterministicreceiptmatchesrehearsal,
+actualSSHsessionreviewed. Newrootreviewed-execution-20261026 ACTIVEfor2fresh
+requests only; ancestorledgersunchanged. No model/test/remoteconnection/repeat
+duringindependentlocalreview. Current11/20,5pairs,9pending unchanged.
+Saved actualsession/independent-verification.json; raw/activation-reviewed.json
+verified=true,op0714...,accepted_cases11,actualreceiptSHA32ac... enableslocalgate.
+Bothhelperpayload/sourcepins verified. No newCPU suite orCUDAcasequalified
+oncampus yet; no actualGPUhelper/latest-session exists atthishandoff.
+NEXT userMac runs raw/linux10609/run-case.sh(Bikingclip05bank1) and
+raw/linux10603/run-case.sh(Archeryclip06bank0) ONCE inTWO MacTerminalwindows,
+notuniversityprompts. KeepMac/lid/Terminalawake andattended tillbothfinish
+andcopy. Do NOT repeatcompletedactivate-continuation oroldGPUhelpers.
+EachstartBEFOREbootstrap;whole4800+15 includesCPU143(old76/new67), remaining
+budget reducesparent<=4620,worker3600/900. Originallegacyhostleases shared;
+unknownoldclaims/abandonednewclaims reject. Actualhost/UUID/driver/strictPID
+gatebeforecase and6workerboundaries. No foreignprocesskill orserverchanges.
+Successfuljobcopies36requiredfiles plusmanifest. Firstcopyfailure autoCOPYONLY
+once; failedmodel/launchstopsforreview. Separatecopy-only download-evidence.sh
+availableperhost. Newlatest-session/latest-download pointersmarkrealresults.
+On Done inspectbothactualcampus143JUnit/times/byteSHA/inventory andcore/source
+pins; no tests rerun justtoreview. Newoutercontinuation-evidence.tar.gz40members,
+newreviewer trusted(extractedpacket+originalreference+frozen scientificsnapshot)
+mustverifynewop/execution/6hardwareobs/tensors/freshA and148preservationbefore
+export plusafterexporttransport. Rawsidecar/actualenvelope/claim/outcome/export,
+pipeline andlauncherbytes,clockbudget,strictGPUguards mustmatch. PairBiking
+bank1 withacceptedbank0 nonattacktensors/cleanbaselines despitehonestdifferent
+wrapperexecutionIDs. Archerybank0 hasno pairedbank1 yet. Do not countcomputed
+asaccepted orregisterreviewsuntilindependentcompleteexportsverify. If only
+copyfailed repaircopyonly; onmodelerror preserveall andinspectbeforeretry.
+Earlierhostsnapshots10/26 werenotreservations; runtimeguardrequired10/27.
+No partialscientificaggregate/heldouts/study/precision/attack/budget/research
+adoption orpaidPod. Usercommitsself. Earlierawait-activationstagehistorical.
+
+LATEST October26: SEPARATE REVIEWED CONTINUATION + TWO GPU HELPERS PREPARED.
+Usercommitted96a4bdc (Reconcile Eleven Verified Panel Cases). Read
+report/checks/2026-10-26-reviewed-continuation-preparation.md/JSON and
+docs/reviewed_panel_continuation.md. Newmodels/reviewed_panel_continuation.py,
+scripts/continue_reviewed_panel.py/prepare_reviewed_continuation.py +tests/
+fixture implementnewroot reviewed-execution-20261026 andoperator
+reviewed-continuation-20261026, bothunder BASE. Scopefixed fresh05bank1 Biking
+on09 /06bank0 Archery on03. Imports11 originalids,5pairs;9remain. No GPU retry,
+oldallowance reuse or automaticqueue. BothancestorSTOPs776e... retained;
+resolutioninnewnamespace onlyreferencesactualverifiedrecovery/receiptaaec... .
+Operation0714e035422d4e21ba41c37734997138aa3249abb0966cf8b8324b6c96ac7300;
+payload101725B/68eb6cf400580855a225e0929f61d841337765ef4416cebdd864b0c7aca17ec6;
+activationhelper264eec0d17f382ac28480855e500cc440828b66261ee50d47757cd90838debb9.
+Sourcepins/preparedhelpers inraw/preparation.json. Sixnewsourcefiles include
+exactpriorreviewed_panel.py support e654...; no originalscientificsourceedit.
+Newnumericexecutionhonestlybindsnewwrappersources/op/prioractualreceipt,
+retainsoriginalreferenceexecutionSHA and allweights/runtime/plan/hostpins.
+67 focusedCPUtests local/extracted;143combined(old76+new67),0skip/fail/error.
+Actualcampus143 NOT runyet. Finalchecksrejectunknownoldclaims and abandonednewpeerclaims withoutalivehostlease; unusedrawdraft01retained. Fullactualinstaller/extractor/CLIactivation real
+148 historicalfilehashes, fiveimmutable newrecords/genesislast, botholdleases.
+Two concurrentactualmain/run/Registry/leases/outcome/export paths exercised
+with ONLYhome/host/GPUqueries/neuralbody replaced by generatedCPUfixture.
+Both36filecollectors/receivers pass, corruptionrejects, CPUarchivesrejectat
+missinginnerplan (notCUDA), acceptance stays11; newCUDAqualifications0.
+ExtraQApartialpublicationafter1/4records,repetitionbeforeclaims,wronghost/
+repeatbootstrap,sourcepins,remainingtime250/4801s and launchblock pass. GNU
+timeoutnotinstalledonMac: finalshellsyntax/timeexpressionchecked; retained
+previousLinuxcleanup/childdeadlineprimitive, no actualnewLinuxwrapperrunclaim.
+Rawvalidation retainsallJUnit/rehearsals/CPUreceipts/logs/QA. No remoteupload,
+activation/model/GPUworkduringpreparation. Userfreshbothhostchecks matchUUIDs,
+driver580.178.04,total8192MiB,09used74/03used94,no computeprocessrows;NFS2.1T.
+raw/host-readiness.json observationonly, notGPUreservation/individualquota.
+NEXT userMacruns raw/activate-continuation.sh ONCE;300+15metadataonly.
+Itcreates5records(newgenesis/imports/resolution+2requests),verifies148pins,
+neverdeletesancestorSTOP. KeepTerminal/lidopen. OnDone inspectraw/latest-
+activation.txt/SSHstatus/stderr/receipt/readback; source/op/input pins and
+verify_activation usingpriorOP/input. Expectedinitial5created/genesislast,
+148preserved,11accepted,2correctrequests,noGPU. Compareactualreceipt tolocal
+fixturebutdo NOT labelCPUreceiptactual. Independentlysavereport/updateAGENTS.
+Onlyafteractualactivationverifies write raw/activation-reviewed.json with
+verified=true,operation_sha256=above,accepted_cases=11,actualreceiptSHA. Then
+handoffraw/linux10609/run-case.sh andlinux10603/run-case.sh inTWO MacTerminal
+windows (notuniversityshell). Bothalreadyexistbutstrictlocalgateblocksuntil
+independentreviewfile. No more sourcegenerationneededbeforethosecommands.
+Eachbootstrapexclusive;startrecord BEFOREwritinglauncher,whole4800+15
+includingCPU143,worker3600/900,parent<=4620 withremainingbudgetreduction.
+Usesoriginallegacyhostleases acrossallnamespaces, strictactualhardwaregate
+and6worker-boundaryPIDchecks; noforeignprocesskill/guardrelax/serverchanges.
+Successfuljobcopies36existingfiles;firstfailedcopy retriesCOPYONLYonce into
+freshfolder. Failedjobmustreviewbeforeanyrepeat. Preservation148 snapshot
+beforeexportinarchive andafterexportintransport,source/timing/JUnit retained.
+Newoutercontinuation-evidence.tar.gz expected40members; originalfrozen
+numericverifier+newtrustedreview checksallcapturedsources/ancestorrecords/
+6GPUobservations/newexecution andfreshA, noCUDAfixturepromotion. Allnewcases
+needindependentaudit inclactual143,wholelauncher<=4800,pairnonattackchecks.
+No partialscientificaggregate,heldout/study/precision/attack/budget/research
+adoption orpaidPod. Usercommitsself. Priorverified11stage remainsvalid;
+earlierawait-runinstructions historical. CurrentnewactivationNOTperformed.
+
 LATEST October26: ACTUAL ELEVEN-CASE METADATA RECONCILIATION VERIFIED.
 Read report/checks/2026-10-26-reviewed-panel-reconciliation-verification.md/JSON.
 Actualraw reviewed-panel-reconciliation-20261026/latest-session.txt points

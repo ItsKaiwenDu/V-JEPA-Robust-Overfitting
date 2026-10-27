@@ -1,11 +1,12 @@
 # V-JEPA Robust Overfitting
 
-**Latest October 26 update:** the [university metadata receipt verifies](report/checks/2026-10-26-reviewed-panel-reconciliation-verification.md).
-The new paused progress view records **11/20 cases and 5 complete clip pairs**;
-all six records and142 preserved hashes match. The original nine-case ledger,
-failed Floor outcome, consumed grant and STOP remain intact. Next prepare a
-separate continuation for the remaining nine cases; no next GPU job or partial
-scientific aggregate is started. Older snapshots follow.
+**Latest October27 update:** [Biking bank1 and Archery bank0 independently verify](report/checks/2026-10-27-biking-archery-pair-verification.md).
+The panel now has **13/20 cases, six complete clip pairs and seven remaining**.
+Each host passed143 campus checks and the saved numerical/native-CUDA/fresh-A
+replay audit. Biking's52 nonattack tensors and clean baselines match bank0
+exactly. Both runs took about40minutes. Next register both new review markers
+before further dispatch; no partial scientific mean or research adoption is
+made. Older snapshots follow.
 
 **Current panel status (October 26):** ten of twenty diagnostic cases independently
 verify, including Biking bank0. Floor bank1 stopped at the strict GPU-process
@@ -62,6 +63,8 @@ The intended contribution is a controlled study of training dynamics and their d
 
 | Document | Purpose |
 | --- | --- |
+| [Verified Biking/Archery pair](docs/reviewed_panel_continuation.md) | Thirteen independent cases and six clip pairs; the two new review markers await metadata sync |
+| [Next attended pair](docs/reviewed_panel_continuation.md) | Separate eleven-case coordinator and two bounded helpers; metadata activation pending |
 | [Eleven-case metadata reconciliation](docs/reviewed_panel_reconciliation.md) | CPU recheck and append-only paused progress; legacy failures and STOP preserved |
 | [Matched-panel university handoff](docs/matched_panel_handoff.md) | Frozen training-only panel, bounded first case, independent review, whole-case resume and separate scoring-bank analysis |
 | [Checkpoint locks and fresh CPU retry](docs/checkpoint_lock_repair.md) | Verified NFS lock fix and the completed free CPU check |
