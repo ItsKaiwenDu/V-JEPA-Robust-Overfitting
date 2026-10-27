@@ -1,5 +1,14 @@
 # Scientific acceptance tests
 
+`test_reviewed_batch.py` has79 CPU checks for the separately pinned next pair:
+thirteen original imports and actual sync identity, single-use fixed requests,
+shared leases, preserved preceding namespace, no time/retry reset, strict
+compute-PID guard, truthful new execution identities and an unchanged neural
+worker AST. All155 original/new checks pass after extraction, with zero skips.
+The full CLI/file-lock/copy rehearsal uses generated CPU bodies and rejects
+their archives as CUDA. Actual university tests and GPU cases remain pending.
+See [preparation](../report/checks/2026-10-27-archery-yoyo-preparation.md).
+
 `test_guarded_panel_recovery.py` adds 35 CPU-only checks for the separate
 operator envelope: unfinalized elapsed-time refusal, strict additional-time
 authorization, single-use grants, evidence pins, finite deadlines, real child/

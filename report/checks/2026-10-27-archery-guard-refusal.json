@@ -1,0 +1,94 @@
+{
+  "GPU_restart_or_recovery_prepared": false,
+  "accepted_case_count": 13,
+  "actual_CPU_JUnit_independent_verification": "Pending read-only capture; transcript currently shows76+79passes.",
+  "actual_local_session": "runs/pretrained/diagnostic/archery-yoyo-pair-20261027/linux10603/attended-session-20261027T202906Z.ygO7di",
+  "additional_allowance_authorized": false,
+  "automatic_queue": false,
+  "bootstrap_elapsed_charge_seconds": "Pending authoritative started-epoch/ended-UTC readback; no original time allowance reset.",
+  "case_id": "clip-06-bank-1",
+  "complete_clip_pairs": 6,
+  "current_user_supplied_host_snapshot": {
+    "GPU": "NVIDIA GeForce RTX 3070",
+    "GPU_UUID": "GPU-e54fae90-feeb-8106-d8c0-1974fe48555f",
+    "compute_processes": [
+      {
+        "pid": 2069918,
+        "process_name": "/usr/NX/bin/nxnode.bin",
+        "used_memory_MiB": 174
+      }
+    ],
+    "driver": "580.178.04",
+    "memory_total_MiB": 8192,
+    "memory_used_MiB": 277,
+    "observation_time": "After the refusal; exact earlier guard PID was not captured."
+  },
+  "date_Pacific": "2026-10-27",
+  "exception": "ValueError: Another CUDA compute process is active on this host.",
+  "foreign_process_stopped_or_whitelisted": false,
+  "host": "linux10603",
+  "kind": "archery-preclaim-GPU-guard-refusal-v1",
+  "local_session_files_sha256": {
+    "job-connection-exit-status.txt": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+    "terminal.log": "ba7c31b116edb8da9f7682847c881660d4337b368e7f31b681ef072ad4d7351c"
+  },
+  "next_step": "Copy existing startup evidence once from a separate Mac Terminal; independently verify42files/155JUnit/start-end/286pins and claim/attempt absence before preparing any separately identified continuation.",
+  "numerical_model_started_by_this_invocation": false,
+  "observed_CPU_counts_from_terminal": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 155
+  },
+  "observed_attended_connection_exit_status": 1,
+  "operation_sha256": "4e5993581a76b1c62d809c9d038e8428694a41e8d78304a7fe0247583f347d70",
+  "peer": {
+    "actual_local_session": "runs/pretrained/diagnostic/archery-yoyo-pair-20261027/linux10609/attended-session-20261027T202920Z.2IdGOg",
+    "case_id": "clip-07-bank-0",
+    "host": "linux10609",
+    "last_observed_stage": "155CPU passes, matrix worker, armB; running per user. Leave its existing window open.",
+    "run_interrupted_by_this_review": false
+  },
+  "read_only_capture": {
+    "QA": {
+      "actual_installed_source_and_metadata_files_used": true,
+      "both_present_and_absent_claim_attempt_locations_reported": true,
+      "capture_source_sha256": "edbbbe5003cc531ad1808c18a8a35c6a58104713de0227a54b8d232d6e740d73",
+      "captured_regular_files": 42,
+      "corrupt_transport_rejected_before_extraction": true,
+      "current_nvidia_smi_mocked_only": true,
+      "genuine_286_ancestor_hashes_rechecked": true,
+      "kind": "read-only-archery-guard-refusal-v1-CPU-fixture-QA",
+      "model_or_test_job_started_on_university": false,
+      "original_file_bytes_unchanged": true,
+      "passed": true,
+      "peer_10609_lease_held_without_blocking_capture": true,
+      "transport_members_including_manifest": 43,
+      "university_connections": 0,
+      "wrong_host_and_changed_operation_rejected": true
+    },
+    "cleanup_seconds": 15,
+    "deadline_seconds": 180,
+    "executed_on_university": false,
+    "existing_host_lease_opened_read_only": "linux10603 only; linux10609 lease untouched.",
+    "files_changed_on_university": false,
+    "helper": "runs/pretrained/diagnostic/archery-guard-refusal-20261027/copy-existing-startup.sh",
+    "helper_sha256": "66e3c39d0c4521724c223c4ee127e4413841b3c232fb312736b887ffe549251f",
+    "historical_file_hashes_observed": 286,
+    "known_hosts_sha256": "fe8681953fda73e81fe8442f0c5bd6fa8bfd2e333445fd4db51fde098b18d838",
+    "model_or_test_job_started": false,
+    "prepared": true,
+    "registry_snapshot": "shared read lock on existing .registry.lock, no lock files created.",
+    "regular_files": 42,
+    "source_sha256": "edbbbe5003cc531ad1808c18a8a35c6a58104713de0227a54b8d232d6e740d73",
+    "transport_members_including_manifest": 43
+  },
+  "remote_claim_attempt_absence_independently_observed": false,
+  "research_admitted": false,
+  "schema_version": 1,
+  "scientific_aggregate": null,
+  "source_or_ledger_modified": false,
+  "stage_from_pinned_control_flow": "run(): ops.hardware_gate(host), before registry.claim, case directory and numerical_case.",
+  "status": "Stopped startup transcript reviewed; remote source/timing/claim-absence capture prepared, not yet run.",
+  "strict_guard_retained": true
+}

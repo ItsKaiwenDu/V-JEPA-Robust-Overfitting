@@ -1,5 +1,31 @@
 # V-JEPA Robust Overfitting
 
+**YoYo bank0 verified (October27):** [the completed export passes independent review](report/checks/2026-10-27-yoyo-bank0-verification.md),
+bringing the diagnostic panel to14/20 cases and six complete clip pairs.
+Archery bank1 remains unclaimed after its guard refusal;43seconds of setup
+are preserved. Next register the one original YoYo review through a separate
+metadata-only operation. Both current launchers have ended. Earlier snapshots
+follow; full-panel analysis and research admission remain pending.
+
+**Current university status (October27):** [Archery's stopped startup is verified](report/checks/2026-10-27-archery-startup-verification.md).
+Its155 CPU tests passed, but GPU exclusivity blocked numerical dispatch;
+no case was claimed. The corrected evidence copy verifies all286 historical
+hashes, and43seconds of startup are preserved. Archery stays paused while
+YoYo runs on10609. Acceptance remains13/20 cases and six complete clip pairs.
+Earlier snapshots follow.
+
+**Archery/YoYo activation verified (October27):** [all five records and286 preserved hashes match](report/checks/2026-10-27-archery-yoyo-activation-verification.md).
+The two attended helpers are ready for Archery bank1 on10603 and YoYo bank0
+on10609. Actual campus tests and numerical exports remain pending; progress
+stays13/20 accepted cases and six complete clip pairs. Earlier snapshots follow.
+
+**Next pair prepared (October27):** [Archery bank1 and YoYo bank0](docs/reviewed_panel_batch.md)
+have a separate source-only activation and two bounded attended helpers.
+All79 new and155 combined extracted CPU checks pass. First activate and
+independently verify the thirteen-case metadata boundary; GPU helpers stay
+blocked until that review. No new university case has started. Current
+progress remains13/20 accepted cases and six complete clip pairs.
+
 **Latest October27 update:** the [university review sync independently verifies](report/checks/2026-10-27-reviewed-pair-sync-verification.md).
 Exactly two original markers were added and275 preserved file hashes match.
 The coordinator now agrees with independent progress: **13/20 accepted cases,
@@ -64,8 +90,8 @@ The intended contribution is a controlled study of training dynamics and their d
 | Document | Purpose |
 | --- | --- |
 | [Verified thirteen-case sync](docs/reviewed_pair_sync.md) | Two original reviews registered;275 preserved hashes match and thirteen cases accepted |
-| [Verified Biking/Archery pair](docs/reviewed_panel_continuation.md) | Thirteen independent cases and six clip pairs; the two new review markers await metadata sync |
-| [Next attended pair](docs/reviewed_panel_continuation.md) | Separate eleven-case coordinator and two bounded helpers; metadata activation pending |
+| [Verified Biking/Archery pair](docs/reviewed_panel_continuation.md) | Thirteen accepted cases and six clip pairs; both original review markers registered |
+| [Next attended pair](docs/reviewed_panel_batch.md) | Archery bank1/YoYo bank0; activation verified and two attended helpers ready |
 | [Eleven-case metadata reconciliation](docs/reviewed_panel_reconciliation.md) | CPU recheck and append-only paused progress; legacy failures and STOP preserved |
 | [Matched-panel university handoff](docs/matched_panel_handoff.md) | Frozen training-only panel, bounded first case, independent review, whole-case resume and separate scoring-bank analysis |
 | [Checkpoint locks and fresh CPU retry](docs/checkpoint_lock_repair.md) | Verified NFS lock fix and the completed free CPU check |

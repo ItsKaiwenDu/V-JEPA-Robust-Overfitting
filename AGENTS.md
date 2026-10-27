@@ -2,6 +2,228 @@
 
 ## Current stage
 
+LATEST October27: YOYO BANK0 VERIFIED;14/20 INDEPENDENT,6PAIRS,6PENDING.
+Read report/checks/2026-10-27-yoyo-bank0-verification.md/JSON. Qualifiednew
+batchCLIreview andseparate raw/audit-yoyo-bank0-20261027.py bothpass. Actual
+09sessionattended-session-20261027T202920Z.2IdGOg job0,firstcopy255/0bytes;
+latest-download case-download-20261027T211734Z.s92ICE copy0. Transport
+132874240B SHA1998be2b6874b05f4dcabea33ffc010e16606c35bd3924ecb4aee3dc974ef682;
+outer131757668B/45members SHA c7ac387cd1a87e9ca31be5460726ccc3b565a1c9e0a87c22b09eb3ab744871c3.
+Actual155JUnit0fail/error/skip,173tensors/320finite-nonzerogradobservations,
+all4arms/nativeCUDA/bounds/prefix/bestselection/exactfreshA/6strictGPUchecks
+pass. Matrix/replay84inputtensors+savedAadversaryexact. Before+after286hashes
+matchincludingallhistoricalfailures/STOPs/grants/source/clockrecords.
+Launcher13:29:24–14:10:42PDT=41m18s,conservativeupper2479s,wholeinclCPU
+under4800. Numericparent2407.459s;peakmatrix4.857GiB/replay3.679GiB.
+Actualnewexec71b000ed2e55e2169b715c1f2fdf9f27ba5748438072f889ea918367caf5f763.
+Numericreceipt5cdfea7317d855934acbdf92ad2004b9d3e63e02b961caa17e19b5e2420c498a.
+Originalreviewmarkerfile35281514c0c2ce991b0d6ce1390dd1ba1853886af6529e1e24aab868f2452f99.
+Savedlatestdownload/independently-reviewed/independent-review.json and
+independent-verification.json,raw/yoyo-independent-verification-20261027.json.
+Count14isGAPPED originalORDER[:13]+clip07bank0;clip06bank1NOTaccepted.
+6completepairsclips00-05;Archery0/YoYo0unpaired. Remaining06b1,07b1,08b0/b1,
+09b0/b1. No partialscientificaggregate/attackselection/heldouts/research.
+Bothlaunchersended,allourmodel/copyjobsdone;SSHcanexit. No newmodel/testsuite/
+remoteconnection duringaudit. DoNOTrepeatcompletedmodel/copyhelpers.
+Archery03actualverifiedunclaimed/startup43s/remaining4757=79m17s fromprior
+startup-accounting.json unchanged. Latest03snapshotNX2069918/174MiB at13:55;
+no foreignkill/whitelist/guardchange/time reset/newextraattempt prepared.
+NewYoYoreviewNOTregisteredremotely; archery-yoyo-execution-20261027 has13
+imports+09computed/claim,03requestunclaimed. Olderreviewed-execution-20261026
+stays13frozen. Newrootlastsynced13;independent14. DoNOTuseoldtwo-marker
+syncsource/opb0f... ormutatequalifiedbatchmodule798.../op4e599... .
+Rawpending-yoyo-review-sync-20261027.json pinsONEexactoriginalYoYomarker,
+actualexec/receiptandArcheryaccounting;metadataonlyNOexecutionoperator.
+NEXT prepareseparatelypinnedCPU-onlyone-reviewappend, verifyactualcurrent
+rootstate13/only09claimedcomputed/03absent andpreservelogs/source/286ancestor
+hashes+newactivation21packet/56YoYoevidence/14Archerylauncherfiles. Expected
+382pinsifnoextraentries. Reverifyoneoutersavedarchive+livenumericreceiptCPU,
+appendONLYreviews/clip07bank0.json,readback14GAPPED and43scharge preserved.
+NoGPUhelper/automaticqueue. Afteractualsyncverified prepare separately
+identifiedtime-carry03continuationunder4757ceiling,freshidleGPUchecks and
+singleunusednumericclaim; no80minreset/sourcepatch. Usercommits self.
+
+LATEST October27: ACTUAL CORRECTED ARCHERY STARTUP COPY VERIFIED; WAIT YOYO.
+Read report/checks/2026-10-27-archery-startup-verification.md/JSON. Actual
+archery-guard-copyfix-20261027/latest-download points
+startup-download-20261027T205522Z.W9TEif,SSH0,1146880B transportSHA
+5b2a2ca2dbf922b169f37582a9dad47a0ffc9e62a06bbc574943016352d84088.
+Independentauditall42files/43members,21packetfiles/guardreference/two
+launchers/fiveledgerreadbacks/286preservedhashes pass. Actual76+79=155JUnit
+pass0fail/error/skip, testcasecounts/summary/logsagree. SourceSHA3729...copyv2.
+Actualclaim/case/attempt01/outcome/export/review/currentSTOP allABSENT for
+03Archeryclip06bank1. Refusedstartupbeforeclaim/model;no numericattempt.
+Startedepoch1793132950.7128603,UTC20:29:10,ended20:29:52(one-secondprecision).
+Elapsed[41.2871397,42.2871397), charge43s conservatively. Remainingoriginal
+4800ceiling4757s=79m17s. No time reset/additionalallowance/newGPUauthority.
+Saved actualsession/independent-startup-review.json,startup-accounting.json,
+independent-audit.py andcuratedreport. Oldedbb...source/failed0bytecopy kept.
+Snapshot2026-10-27T20:55:31.871208UTC/13:55:31PDT stillNXprocessPID2069918
+174MiB on03; doNOTkill/whitelist/changeguard/server. CorrectedreadSHlocks
+workedactualuniversitycopy. No test/model/extraSSH rerun duringlocalaudit.
+09latest localtranscript continuesYoYoclip07bank0matrixarmD, completionnot
+observedatthischeckpoint. LeaveexistingMacTerminal/SSHawakeattended until
+finish/download. NEXT inspect09actualending/latest-download whenuserreports
+finished; usequalifiednewcasecontrolreview+independentaudit. Ifcopyfails,
+ONLYexisting09download-evidence.sh canrepaircopywithoutmodelrerun. No
+new03GPUhelper/continuationprepared. DoNOTrepeatcompletedcapture orconsumed
+modelhelpers. Source/claim/timehistory intact. Current13/20,6pairs. YoYo
+maycount14onlyafteractualindependentexportreview. Archerybank1stillpending,
+willneedseparatelyidentifiedtime-carrycontinuation under4757ceiling+fresh
+idleGPUchecks andsingleunusednumericalclaim; doNOTreset80minorpatchold
+frozenpacket. No extraattempt/grantrequested/admitted. Do not askstatusagain
+now; snapshotknownblocked. No partialscientificaggregate/research/heldout/
+paidcompute. Usercommits self. Earliercopy-pendingentrieshistorical.
+
+LATEST October27: EVIDENCE COPY FAILED EBADF; CORRECTED COPY-ONLY HELPER READY.
+Read report/checks/2026-10-27-archery-guard-copyfix.md/JSON. Actualoldraw
+archery-guard-refusal-20261027/startup-download-20261027T204807Z.Oj4cFW
+exit1,0bytearchive,tracecollectorline73 flockEXonrb. ThisisMYcollectorbug;
+NFSemulatesflockwithfcntlrecordlocks andEXneedswriteaccess. NativeMac
+flockoriginalQAdidnotexercisethatrule. ExactrealPOSIXlockfregressionnow
+reproducesoldEBADF. Originaledbb...source/failedcopyuntouched. No modelstarted.
+Newraw archery-guard-copyfix-20261027 source3729c61162d215ed22e3287c6e3fbbf27e55d267244df2ce895d691b255c2792,
+kindread-only-archery-guard-refusal-v2. Same42files+manifest43,286pins,180+15.
+ONLYlockingbehaviorchange03oldhostleaseusesSH|NB onrb,whichstillblocks
+originalworkersEXlease;registrySHunchanged;no09lease/no serverfileswrite.
+Completefixedcollect/stream/receivepasseswithrealPOSIXrecordlocks; original
+failsEBADF throughsameprimitive. Separateprocessnativeflock+POSIXlockf
+readercompatibility/exclusiveworkerrejection/release pass. Lockbytes/inodes
+andallsource/historyunchanged. Wronghost/source/presentabsent/corruptcopy
+checks pass. nvidiaquerymocked;notactualNFSvalidated. Proofraw/validation.
+NEXT userMac runsNEWraw/copy-existing-startup.sh ONCE inseparateMacTerminal,
+leave09runningwindowopen. Do NOT repeatoldcopyhelper/modelhelper. Corrected
+copyNOTRUNyet. OnDone readnewraw/latest-download/exit/stderr/43members;
+verifyactual42regularfiles/155JUnit/source/timing/all286pins and03claim/
+case/attempt/outcome/exportabsence/currentSTOP. Recordspentsetupbefore
+anynumericalcontinuation;no allowance/GPUretry prepared. Original03GPUguard
+refusalbeforeclaim remains, currentNXsnapshotPID2069918/174MiBunchanged
+lastobservation. No PIDkill/whitelist/guardchange/sourcepatch. 09logreached
+YoYomatrixarmDafter155CPU;stillrunningperuser. No new09statusquestionneeded.
+Current13/20,6pairs;actualYoYoexportpendingreview. No research/heldout/paid/
+partialscientificaggregate. Usercommitsself. Earliercopyreadyentryhistorical.
+
+LATEST October27: ARCHERY STARTUP GUARD REFUSED; YOYO STILL RUNNING.
+Read report/checks/2026-10-27-archery-guard-refusal.md/JSON. Actual03
+archery-yoyo-pair-20261027/linux10603/attended-session-20261027T202906Z.ygO7di
+has jobconnection1,76+79=155CPUpasses,then ops.hardware_gate atnewmodule589
+refusedanotherCUDAcomputePID. Thiscallprecedesregistry.claim/case/model;
+no numericalmodelstartedbythisinvocation. ActualJUnit/clock/remoteclaim
+absence stillpendingreadback. Do NOT rerun either consumedmodelhelper.
+Userread-onlysnapshot03UUIDexpected,e54f...,8192/277MiB,580.178.04; PID
+2069918 /usr/NX/bin/nxnode.bin174MiB. SnapshotAFTERrefusal; exactPIDatguard
+notcaptured. StrictPIDguardunchanged,noforeignkill/whitelist/serverchanges.
+09latest-session attended-session-20261027T202920Z.2IdGOg passed155CPU,
+startedYoYoclip07bank0matrixworker,armB;userstillrunning. Leaveitswindow
+open. Itsworkmayfinish. No need requeststatusagain; asyncquestionanswered.
+Newread-onlyincidenthelper raw archery-guard-refusal-20261027/
+copy-existing-startup.sh prepared/tested,NOTRUN; finaluserinstructionnext.
+Sourceedbbbe5003cc531ad1808c18a8a35c6a58104713de0227a54b8d232d6e740d73.
+Collector42existingregularfiles/43transportmembers,all21packetfiles+
+14launcher+5activatedledger+2reference. Observe286historicalhashes and03
+claim/case/attempt/outcome/export/review/currentSTOPpresence,currentnvidia.
+No modelimports/tests/serverwrites;existing03hostleaseopenedrb/exclusive
+NB;existingnewregistrylockrb/sharedNB;09leaseneveracquired. Bound180+15.
+ByteQA usesgenuineinstalledsource/286history,onlynvidiamocked. Actualstream/
+receiver42files works;presence/absence,held09lease,wronghost/source/corrupt
+copyreject;allbytesunchanged. Proofraw/validation;notactualincidentexport.
+NEXT userMac runsnewcopy-existing-startup.sh once inSEPARATE MacTerminal,
+keep09runningwindowopen. OnDone inspectnewraw/latest-download/SSHexit/
+transport+42files+manifest; independentlyverifyactual155JUnit,newsourcepins,
+start-epoch/endUTC/exit1,286preservation,currentGPU,03claim/caseabsence.
+Countelapsedsetupconservativelybeforeanylaternewsource/continuation; no
+allowancereset/automaticretry. No GPUrecovery/helperprepared. Guardrefusal
+ispreclaim,notcompletedcaseornumericalfailure. Preserveoriginalstartup
+anddon'trewritequalifiedpacket. Current13/20,6pairs. IndependentYoYoexport
+reviewmayadvance14whenitfinishes;no partialscientificaggregate. Usercommits
+self. Earlierbothhelpersreadyentrieshistorical;cannotrepeat03oldbootstrap.
+
+LATEST October27: ACTUAL ARCHERY/YOYO ACTIVATION VERIFIED; TWO HELPERS READY.
+Read report/checks/2026-10-27-archery-yoyo-activation-verification.md/JSON.
+Raw archery-yoyo-pair-20261027/latest-activation.txt points actual
+activation-session-20261027T191843Z.567RUf,SSH0,receipt64756B SHA
+7d5c519983419ddb455e509f94d534743c82478957791e4e386680f48ae8ca6d.
+Op4e5993581a76b1c62d809c9d038e8428694a41e8d78304a7fe0247583f347d70;
+module7989283aca4be98e53929d0761110d0896e8d8a3324e1751fa4141641e067651.
+Qualified m.trusted +m.verify_activation and separate explicitchecks pass:
+5exactrecords/genesislast,286returnedpreservedhashes,13originalcaseorigins,
+actualsyncdf880.../botholdSTOPs776e.../originalfailure/grant/source/timeintact.
+7frozen-v1originsretaincommonreviewembeddedinpinnedoldINPUT;later6retain
+originalmarkerpaths/pins. No relabelledexecutionids. Pinnedsource enforces
+previouscoordinator'sexact13state; no separatestatussnapshotdownloaded.
+ActualreturnedSSHsession/exit/stderrindependentlychecked; deterministic
+receiptmatcheslocalrehearsal7d5c butACTUALsession separatelyaudited.
+Savedactualsession/independent-verification.json,independent-audit.py and
+raw/activation-reviewed.json verified=true/op4e599.../accepted_cases13/
+actualreceiptsha7d5c. BothactualhelperPIN_CHECKPythonblocks passaftermarker;
+no shell/GPU/test/extraSSH/activationrepeat ran duringaudit.
+NEXT userMac runs raw/linux10603/run-case.sh(Archeryclip06bank1) and
+raw/linux10609/run-case.sh(YoYoclip07bank0) ONCE inTWO MacTerminalwindows,
+notSSHprompts. KeepTerminal/Maclidawakeattendedthroughbothdownloads.
+No GPUhelper/latest-session existsyet. Do NOT repeatcompletedactivation.
+Each4800+15includesbootstrap/CPU155,originalmatrix3600/replay900,parent
+<=4620 reducedbyspent. Existingoriginalsharedhostleases+strict6PIDboundary
+checks unchanged. Unknown/abandoned/duplicateclaimreject; no retry/queue.
+FirstfailedcopyautoCOPYONLYonce;model/launcherrorstopforreview. Separate
+perhost download-evidence.sh copiesexistingfilesonly whenneeded.
+OnDone inspectlatest-session/latest-download,actual155JUnit/elapsed/source/
+transport47files+manifest48 and outer45members/numericalfreshA/tensors/
+6strictGPUchecks/beforeafter286preservation. Usequalifiednewreviewer;
+newidentity09:71b000.../03:92ec... truthfullydiffersfrompriorbank/source.
+CompareArcherybank1withacceptedbank0 onall52nonattacktensors/cleanbaselines;
+YoYobank0newunpaired. Count15onlyafterbothindependentexportsverify and
+preservealloriginalidentities. No automaticnextcaseorpartialaggregate.
+Current13/20,6pairs,7remaining unchanged. No newcampus155orCUDAqualification
+observedforpacket. No paid/heldout/study/precision/attack/budget/research
+adoption. Usercommits self. Earlierhandoff/activation-pendingentrieshistorical.
+
+LATEST October27: ARCHERY/YOYO NEXT-PAIR HANDOFF READY, NOT RUN REMOTELY.
+Read report/checks/2026-10-27-archery-yoyo-preparation.md/JSON and
+ docs/reviewed_panel_batch.md. Tracked new models/reviewed_panel_batch.py,
+scripts/continue_reviewed_batch.py/prepare_reviewed_batch.py and79-check
+suite/fixture. Raw archery-yoyo-pair-20261027 has staged/extracted21-file
+packet,309891B payload and metadata activation plus two gated case helpers.
+Operation4e5993581a76b1c62d809c9d038e8428694a41e8d78304a7fe0247583f347d70;
+module7989283aca4be98e53929d0761110d0896e8d8a3324e1751fa4141641e067651;
+helper2d04ef6ed87753634634780f18e190f94cb8aba5177584fabe0ce85282e1c773.
+Imports all13 original origins, actualsyncdf880... and originalmarkerbytes.
+Protect286files=275old+2reviews+9syncpacket. Newseparatecoordinator
+archery-yoyo-execution-20261027, only03clip06bank1 and09clip07bank0.
+No frozenpacket/claim/outcome/export/failure/grant/STOP/time mutation.
+Worker AST identical; parentonlychildCLI pathchange; honestnewexecutionIDs
+09:71b000ed2e55e2169b715c1f2fdf9f27ba5748438072f889ea918367caf5f763,
+03:92ecdba6e943abbb36bcf005945b3b9d4c247017276dfb4d81b2414701e74cbd.
+79focusedlocal/155combinedextractedtests pass0fail/error/skip. Fullactual
+installer/extractor/CLI activation realRegistry/flock withgenuineprior13
+passes; concurrentCPUgeneratedcases/copy-only47files+manifest48 verify.
+Onlyneuralbody/GPUqueries mockedforcases; generatedarchivesrejectatinner
+numericplan andacceptancestays13. Wronghost/repeatedbootstrap/corruption/
+partialactivation1and4/genesislast/abandonedclaim/unknownandexhaustedtime/
+missingactualreviewgate reject. Preserved286rechecked. GNUtimeoutnotonMac;
+shellsyntax/remainingtimearithmeticvalidated,originalLinuxcleanup retained.
+Rawvalidation storesfullproof/155JUnit/sourceQA/localrehearsalreceipt. LOCAL
+rehearsalreceipt7d5c... is NOT actualuniversityactivation. No newCUDA qualified.
+User supplied freshmatchingidleUUIDs10609(74MiB),10603(94MiB),580.178.04,
+8192MiB,no computePIDs;sharedhome2.1Tglobalfree(notpersonalquota). NoGPU
+reservationclaimed;actualguardsmandatory. No furtherstatusquestionneeded now.
+NEXT userMac runs raw/activate-continuation.sh ONCE, Terminal/lidopen,
+ordinarypassword. Metadataonly300+15; no GPUstarts. OnDone inspectactual
+latest-activation.txt/SSHexit/stderr/receipt/verification. Usequalifiednew
+m.trusted(packet,op,scientificsnapshot,originalreference) and
+m.verify_activation(actualreceipt,c.op,c.data,c.prior). Checkall16sources,
+actual5recordreadbacks/286freshhashes/13origins/nextfixedrequests. DoNOT
+labelrehearsalactual. Onlyafteractualindependentreview save raw/
+activation-reviewed.json verified=true,operation_sha256,accepted_cases13,
+actualreceiptfilesha. Thenhand off raw/linux10609/run-case.sh(YoYo0) and
+raw/linux10603/run-case.sh(Archery1) inTWO MacTerminalwindows; notSSHprompts.
+Each4800+15inclbootstrap/CPU155, matrix3600/replay900,parent<=4620 reduced
+byspent. Sharedoldhostleases,6strictPIDchecks,onlyoneclaim/noGPUretry/queue.
+FirstfailedcopyretriesCOPYONLYonce. Bothactualcampus155/outcome/tensors/
+freshA/preservation/transport receipts needindependentreview beforecount15.
+Current13/20,6pairs,7pending unchanged. No model/remote/paid/heldout/partial
+scientificaggregate/study/precision/attack/budget/researchadoption. Usercommits
+self. Earlier completedpair/synchelperinstructions remainhistorical; doNOTreuse.
+
 LATEST October27: ACTUAL TWO-REVIEW SYNC VERIFIED;13REGISTERED/13INDEPENDENT.
 Read report/checks/2026-10-27-reviewed-pair-sync-verification.md/JSON.
 Actualraw reviewed-pair-sync-20261027/latest-session.txt points

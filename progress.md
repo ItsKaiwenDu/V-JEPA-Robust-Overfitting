@@ -1,5 +1,114 @@
 # Research Progress Reports
 
+## 2026-10-27 — YoYo bank0 verified; fourteen cases complete
+
+The completed linux10609 export passes the pinned reviewer and separate
+independent audit:155 actual CPU tests,173 tensors,320 finite nonzero gradient
+observations, all four attacks, six strict GPU boundary checks and exact fresh
+A replay. The launcher takes41m18s and peaks at4.857GiB allocation. A failed
+first copy was repaired by downloading only; the model ran once.
+
+All286 before/after preservation hashes match. The panel now has14/20
+independently verified cases, six complete clip pairs and six remaining.
+Archery bank1 remains unclaimed with its43-second startup charge preserved
+(4757seconds remain). Its original failure and both evidence-copy outcomes
+remain intact; no restart or extra allowance is prepared.
+
+The new YoYo review is local and awaits a separately pinned metadata-only
+registration. The last synchronized university acceptance is13; retain the
+gapped case list, original marker and truthful execution identity. Both
+launchers have ended; no model/test/remote work reran during review. No partial
+scientific aggregate, held-out access, paid compute or research adoption.
+[Verified YoYo case](report/checks/2026-10-27-yoyo-bank0-verification.md).
+
+## 2026-10-27 — Corrected Archery startup copy verified
+
+The actual corrected copy returned0. Independent audit verifies42 files,
+155 real JUnit passes, the original source/launcher/activation records and286
+unchanged history hashes. The readback confirms Archery has no claim, case,
+attempt, outcome or export; its startup stopped before numerical dispatch.
+
+Charge43seconds conservatively from the actual bootstrap/end timestamps,
+leaving4757seconds (79m17s) under the original allowance. This creates no new
+execution authority or time reset. The captured13:55PDT GPU snapshot still
+shows nxnode.bin with174MiB; keep Archery paused and leave foreign processes
+and guard settings unchanged. YoYo reached armD on10609; its completion/export
+remains pending. No model or tests reran during the audit. Progress stays13/20
+accepted cases and six complete clip pairs.
+[Verified startup evidence](report/checks/2026-10-27-archery-startup-verification.md).
+
+## 2026-10-27 — Corrected copy helper after NFS descriptor rejection
+
+The Archery incident copy returned1 with zero archive bytes: my collector
+requested an exclusive lock on a read-only descriptor. Native Mac flock had
+accepted it during local QA; the university shared filesystem rejected it.
+The original failed copy/source remain preserved.
+
+A separate corrected helper uses a shared read lock, still excluding the
+original exclusive workers. Real POSIX record locks reproduce the original
+EBADF and pass the fixed full copy. Independent-process reader/writer and
+release checks pass for both lock primitives; no lock contents/inodes change.
+The same42-file/286-hash capture remains bounded and read-only. Actual corrected
+university copying is pending. No model restart, remote test, worker/guard
+change or allowance reset occurs. YoYo continues on10609 and reached armD.
+[Copy repair](report/checks/2026-10-27-archery-guard-copyfix.md).
+
+## 2026-10-27 — Archery startup refused before numerical dispatch
+
+linux10603 passed155 CPU checks in its transcript, then the original GPU
+exclusivity gate detected another compute process before claim/model dispatch.
+The later user snapshot shows `/usr/NX/bin/nxnode.bin` (PID2069918,174MiB).
+The exact earlier PID was not recorded. No foreign process or guard is changed.
+linux10609 passed155 checks and is running YoYo; leave that window open.
+
+A tested read-only42-file incident capture is ready, including286 historical
+hashes, startup timings, JUnit, current GPU status and case-claim absence or
+presence. It writes no university files and starts no model/tests. Actual
+capture remains pending. Preserve the stopped helper and elapsed setup time;
+no numerical retry or additional allowance is prepared. Progress stays13/20
+accepted cases and six complete clip pairs.
+[Incident review](report/checks/2026-10-27-archery-guard-refusal.md).
+
+## 2026-10-27 — Archery/YoYo activation verified; two helpers ready
+
+Actual university activation returned SSH exit0. Independent local audit
+verifies five exact record readbacks,286 preserved file hashes and all13
+original case origins. Historical failures, STOP records, grants and elapsed
+time remain intact. Both prepared per-host helpers pass their local pin checks
+with the independent review marker saved.
+
+Next run Archery bank1 on10603 and YoYo bank0 on10609 in two Mac Terminal
+windows. Each retains80minutes including setup and requires155 actual campus
+CPU passes and strict live GPU checks. Actual numerical work and export review
+remain pending. Current progress stays13/20 cases and six complete clip pairs.
+No model, test suite or extra remote connection ran during this local audit;
+no held-out access, partial aggregate, paid compute or research adoption occurs.
+[Actual receipt verification](report/checks/2026-10-27-archery-yoyo-activation-verification.md).
+
+## 2026-10-27 — Archery/YoYo next-pair handoff prepared
+
+A separate source packet imports all13 original reviewed cases and prepares
+only Archery bank1 on10603 and YoYo bank0 on10609. Metadata activation must
+verify the actual thirteen-case sync receipt, old coordinator state and286
+historical file hashes before five new records are created. All original
+sources, failures, STOP records, grants, claims, exports and time history
+remain intact.
+
+All79 focused local and155 combined extracted CPU checks pass without skips.
+The actual installer/CLI/real-lock rehearsal passes activation, partial-safe
+publication, concurrent claims/exports and both47-file transports. GPU queries
+and neural bodies are explicitly mocked for generated CPU cases; independent
+review rejects those archives and acceptance remains13. Both launch helpers
+reject without the actual independent activation-review marker. No remote
+connection, activation or model job has run for this packet.
+
+Next run the metadata-only activation once from Mac Terminal, then inspect
+its actual receipt before handing off the two attended80-minute cases.
+Actual campus155 tests and numerical evidence remain pending. Current panel:
+13/20 cases, six complete clip pairs and seven remaining. No partial aggregate,
+held-out access, paid compute or research admission.
+[Preparation](report/checks/2026-10-27-archery-yoyo-preparation.md).
+
 ## 2026-10-27 — Thirteen-case university review sync verified
 
 Actual SSH exit0 and independent receipt audit confirm exactly two original
