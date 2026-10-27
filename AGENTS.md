@@ -2,6 +2,89 @@
 
 ## Current stage
 
+LATEST October27: ACTUAL TWO-REVIEW SYNC VERIFIED;13REGISTERED/13INDEPENDENT.
+Read report/checks/2026-10-27-reviewed-pair-sync-verification.md/JSON.
+Actualraw reviewed-pair-sync-20261027/latest-session.txt points
+sync-session-20261027T174945Z.5Ek4Py,SSH0,receipt47270B SHA
+df880b3e603c6baa4c42860b918cc0ef4c152e29c046fe78f77304119f2c7281.
+Opb0f128e5931dc08e788c424e1be61d411eb0dd3d05c7518331d66910fd89f6ac.
+Independentlocalauditofactualreceipt verifies exact2originalmarkerbytes,
+275returnedfreshfilehashes unchanged, before11accepted+2claimed/computed and
+after13accepted+same2claimed/computed,failed[]/currentSTOPfalse/aggregateNone.
+HistoricaltwoSTOPs776e.../failedFlooroutcome/consumedgrant/allsource/claims/
+outcomes/exports/timehistory intact. OriginalmarkerSHA bda8.../6b5e...,new
+actualexecutionIDs76b7.../4841... preserved. No case relabel/no source rewrite.
+ActualuniversityCPUrecheckedbothouterarchives/livesavedcases beforeappend;
+no model or tests. Auditno extra remoteconnection/syncrepeat/model/testsuite.
+Deterministicreceiptmatchesrehearsal butactualsession/exit separatelychecked.
+Savedactualsession/independent-verification.json andcuratedreport. No more
+reviewregistrationpending forBiking1/Archery0. Do NOT repeatsync-reviews.sh,
+oldactivation oroldconsumedGPUhelpers. Current13/20registered+independent,
+6completepairsclips00-05,7remaining. No newGPUrequest/helper prepared yet.
+NEXT prepareseparatelyidentifiedcontinuation importing all13 original case
+origins andactualsync receipt+marker/filepins. Fixednextpair03clip06bank1
+Archery and09clip07bank0 YoYo. ExistingcoreCONTINUATIONop0714.../source51f...
+onlypermits05b1/06b0, bothclaimed/completed/reviewed; doNOT mutatefrozenpacket,
+reusehelper/claim/remainingtime orfakeoldexecutionidentity. Newsource/spec/
+namespace needhonestnewidentity; numericalplan/weights/runtime/target/masks/
+starts/loss/GPU-PIDguard/caps/hostassignments unchanged. Preserveallhistory.
+Runfreshread-onlyhostcheckswhilenewpacketprepared; actualruntimeguardstill
+mandatory. Two attendedMacTerminalwindows aftervalidatedhandoff; no automatic
+queue/GPUretry. Usercommitsself. No paidPod,partialscientificaggregate/heldout/
+study/precision/attack/budget/researchadoption. Earlierawait-syncentrieshistory.
+
+LATEST October27: TWO-REVIEW SYNC HANDOFF READY, NOT RUN REMOTELY.
+Usercommitted3a5b5e0(Verify Biking & Archery Panel Cases). Read
+report/checks/2026-10-27-reviewed-pair-sync-preparation.md/JSON and
+docs/reviewed_pair_sync.md. Newmodels/reviewed_panel_sync.py,
+scripts/sync_reviewed_panel.py/prepare_reviewed_panel_sync.py,tests/fixture
+implementCPU-onlytwo-markerappend. Rawreviewed-pair-sync-20261027 has staged/
+extracted9filepacket,INPUT/SYNC/activationreceipt,payload,sourcepinnedhelper,
+knownhosts,validation. Source-onlyupload97444B, no pixels/weights/keys.
+Opb0f128e5931dc08e788c424e1be61d411eb0dd3d05c7518331d66910fd89f6ac;
+inputc65a86c097053d92f3f0f9bf7e1471311c9c4255bf6ded448266f78a3f5833ed;
+payloadd9973b2b595880ce82490fc12e6f8ad093d90c776370bd8874c70a297341f3f4;
+helper5d4e07cbe0c4f309e51b7cc384afb7d9757f18561654a77da29a5b85e9823b06.
+Newmodulefb736bef98c982bb23b44e30a4da5d8dae572107277b325ef74202eac28f0f98.
+QualifiedcoreCONTINUATIONop0714.../module51f78.../actualactivationreceipt32ac...
+remainfrozen. No scientific/numericalsource,study,YAML oroldmarkerchange.
+Targets ONLYreviews/clip-05-bank-1.json andclip-06-bank-0.json underexisting
+BASE/reviewed-execution-20261026. Incomingexactoriginalmarkersbda8.../6b5e...
+includeactualnew76b7.../4841... executionids;neverrouteintolegacyreviewAPI.
+275protectedfiles=148ancestors+5currentgenesis/imports/resolution/requests+
+10corepacketsource/metadata+112actualcompletedcase/launcher/claim/outcome/
+exportfiles. Includesactualtensors/logs/archives andtiming/JUnit. Allreadbacks
+matchbefore/afterappend. BotholdSTOPs/originalfailure/consumedgrant unchanged.
+46focusedCPUtests local/extracted,0fail/error/skip. Fullactualinstaller/
+extractor/CLI+m.apply usesgenuineBiking/Archeryexportsrestoredinlocalmirror,
+realexistingRegistry/filelocks,unchangedouterandlivesaved-caseverifiers.
+OnlyPath.home/metadatahostname substituted; NO case/Registry/verifiermocks.
+Rechecks275actualfiles/bothcases onCPU;11before→13after;secondfullinvocation
+13→13 with0created/2existing. Actualreceiptverifierpasses. No model/CUDA/
+remoteconnection. RehearsalreceiptSHA df880b3e603c6baa4c42860b918cc0ef4c152e29c046fe78f77304119f2c7281
+isLOCALMIRROR,notuniversity. Allvalidationfiles/pins inreport.
+Lockorderbothoriginallegacyhostleases,constructcoreRegistryoutsidecurrent
+registrytransaction,thencurrentroot/.registry.lock. core.load/checkAncestors
+oldRegistryconstructoroutsideitsownoldlock unchanged. verify_saved reads2
+existingarchives+live.pt/JSON onCPUonly. No remoteCPUtests/GPU/retry/queue.
+Finite300+15externaldeadline. No GPUauthority/newrequestfromsync.
+NEXT userMac runs raw/sync-reviews.sh ONCE atMacprompt,Terminal/lidopen.
+HelperNOTinvokedyet, no raw/latest-session pointer atpreparation. OnDone inspect
+latest-session/SSHexit/stderr/receipt/verification andindependentlyverifyactual
+op/source/input pins,exact2markerreadbacks,275freshhashes andstate13. Expected
+initialbefore11/2computed/2claimed,failed[]/STOPfalse/aggregateNone; exactpartial
+markerpublication isidempotent. After13,6pairs,7pending; sourcecounts arereal
+Registryacceptance,notfabricatedprogress. Do not label localrehearsalactual.
+Onsyncfailureinspectbeforeanyrepeat;no modelretryever. Report/source must
+preservealloldclaims/outcomes/export/clockrecords. No sourcegenerationneeded
+forhelper;onlyactualreceiptverificationnext. No remotechangesperformedhere.
+Afteractualsyncverifiedprepareseparatelyidentifiednextcontinuation/requests:
+03clip06bank1 Archery,09clip07bank0 YoYo. ExistingcoreTARGETS only05b1/06b0,
+bothconsumed;doNOT mutatefrozenpacket/reusehelper/resettime. No furtherGPU
+helpersprepared. Currentindependent13/20,6pairs;remote2reviewsNOTsyncedyet.
+No partialscientificaggregate/heldouts/study/precision/attack/budget/research
+adoptionorpaidPod. Usercommitsself. Earliernext-sync-unpreparedstagehistorical.
+
 LATEST October27: BIKING BANK1 + ARCHERY BANK0 VERIFIED;13/20,6PAIRS.
 Read report/checks/2026-10-27-biking-archery-pair-verification.md/JSON.
 BothpinnedCLIreviewandseparateraw/audit-completed-pair-20261027.py pass.

@@ -1,10 +1,14 @@
 # Continue after the eleven reviewed cases
 
+The [metadata-only two-review sync](reviewed_pair_sync.md) is complete and
+independently verified: thirteen cases accepted and275 preserved hashes match.
+No further GPU job has started.
+
 **Current October27 outcome:** both attended cases completed and independently
 verify. The panel now has13/20 cases, six complete clip pairs and seven pending.
 The Biking pair matches52 nonattack tensors and all clean baselines exactly.
-Both model helpers are consumed and must not repeat. The two original review
-markers await a separate metadata sync; no further GPU requests are prepared.
+Both model helpers are consumed and must not repeat. Both original review
+markers are now registered; no further GPU requests are prepared.
 See the [verified pair](../report/checks/2026-10-27-biking-archery-pair-verification.md).
 Earlier activation and launch instructions below are historical.
 

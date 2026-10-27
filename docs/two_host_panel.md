@@ -1,5 +1,9 @@
 # Two university GPUs for the matched panel
 
+The [metadata-only two-review sync](reviewed_pair_sync.md) is complete and
+independently verified: thirteen cases accepted and275 preserved hashes match.
+No further GPU job has started.
+
 Current October27 status: thirteen cases independently verify, with six
 complete clip pairs and seven remaining. Biking bank1 and Archery bank0 each
 pass143 campus tests, all four attacks, actual native-CUDA evidence and exact
@@ -7,10 +11,10 @@ fresh A replay in about40minutes. Biking's52 nonattack tensors and clean
 baselines exactly match bank0. Both consumed model helpers must not repeat.
 [Verified pair](../report/checks/2026-10-27-biking-archery-pair-verification.md).
 
-Both new independent markers await a separate remote metadata sync. The
-original failures, consumed recovery grant and both historical STOP records
-remain intact. Next reconcile thirteen-case progress before preparing further
-fixed-host requests. No following GPU helper is prepared. Earlier instructions
+Both new independent markers are now registered, and university progress
+agrees with thirteen independently verified cases. The original failures,
+consumed recovery grant and both historical STOP records remain intact. Next
+prepare the separately identified continuation for the following fixed-host pair. No following GPU helper is prepared. Earlier instructions
 below are historical.
 
 The October 26 execution revision keeps the frozen numerical plan and

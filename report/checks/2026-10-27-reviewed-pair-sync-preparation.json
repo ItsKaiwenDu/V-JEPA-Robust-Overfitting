@@ -1,0 +1,149 @@
+{
+  "GPU_dispatch_authorized": false,
+  "accepted_cases_after_successful_sync": 13,
+  "actual_remote_sync_performed": false,
+  "archive_sha256": "6a5fbff1926b18f219afe1a1191592ba30546a5d3e8b5370423a04f67e99ede8",
+  "complete_clip_pairs": 6,
+  "coordinator": "reviewed-execution-20261026",
+  "current_independently_verified_cases": 13,
+  "date": "2026-10-27",
+  "full_local_rehearsal": {
+    "GPU_worker_or_model_started": false,
+    "accepted_after": 13,
+    "accepted_before": 11,
+    "actual_installer_extractor_and_CLI_main": true,
+    "actual_receipt_verifier_passed": true,
+    "both_genuine_saved_cases_and_live_receipts_reverified_on_CPU": true,
+    "both_historical_STOP_records_and_original_failure_preserved": true,
+    "case_verifier_or_registry_mocks_used": false,
+    "complete_clip_pairs": 6,
+    "full_installer_and_apply_repeat_idempotent": true,
+    "home_and_metadata_host_substituted_only": true,
+    "kind": "reviewed-pair-sync-full-CLI-local-rehearsal-v1",
+    "only_two_original_markers_appended": true,
+    "operation_sha256": "b0f128e5931dc08e788c424e1be61d411eb0dd3d05c7518331d66910fd89f6ac",
+    "original_coordinator_and_source_files_preserved": 275,
+    "passed": true,
+    "real_existing_Registry_and_file_locks": true,
+    "remote_connections": 0
+  },
+  "held_out_pixels_opened": false,
+  "helper_sha256": "5d4e07cbe0c4f309e51b7cc384afb7d9757f18561654a77da29a5b85e9823b06",
+  "historical_STOP_records_original_failure_grant_claims_outcomes_and_time_history_preserved": true,
+  "inputs_file_sha256": "c65a86c097053d92f3f0f9bf7e1471311c9c4255bf6ded448266f78a3f5833ed",
+  "kill_grace_seconds": 15,
+  "kind": "reviewed-pair-review-sync-preparation-v1",
+  "latest_known_registered_cases_before_sync": 11,
+  "local_mirror_state_after": {
+    "accepted_case_ids": [
+      "clip-00-bank-0",
+      "clip-00-bank-1",
+      "clip-01-bank-0",
+      "clip-01-bank-1",
+      "clip-02-bank-0",
+      "clip-02-bank-1",
+      "clip-03-bank-0",
+      "clip-03-bank-1",
+      "clip-04-bank-0",
+      "clip-04-bank-1",
+      "clip-05-bank-0",
+      "clip-05-bank-1",
+      "clip-06-bank-0"
+    ],
+    "claimed_case_ids": [
+      "clip-05-bank-1",
+      "clip-06-bank-0"
+    ],
+    "complete": false,
+    "computed_case_ids": [
+      "clip-05-bank-1",
+      "clip-06-bank-0"
+    ],
+    "failed_case_ids": [],
+    "kind": "matched-panel-reviewed-continuation-v1-progress",
+    "research_admitted": false,
+    "scientific_aggregate": null,
+    "stop_dispatch": false
+  },
+  "local_mirror_state_before": {
+    "accepted_case_ids": [
+      "clip-00-bank-0",
+      "clip-00-bank-1",
+      "clip-01-bank-0",
+      "clip-01-bank-1",
+      "clip-02-bank-0",
+      "clip-02-bank-1",
+      "clip-03-bank-0",
+      "clip-03-bank-1",
+      "clip-04-bank-0",
+      "clip-04-bank-1",
+      "clip-05-bank-0"
+    ],
+    "claimed_case_ids": [
+      "clip-05-bank-1",
+      "clip-06-bank-0"
+    ],
+    "complete": false,
+    "computed_case_ids": [
+      "clip-05-bank-1",
+      "clip-06-bank-0"
+    ],
+    "failed_case_ids": [],
+    "kind": "matched-panel-reviewed-continuation-v1-progress",
+    "research_admitted": false,
+    "scientific_aggregate": null,
+    "stop_dispatch": false
+  },
+  "max_seconds": 300,
+  "metadata_host": "linux10609",
+  "models_or_test_suite_started": false,
+  "new_CUDA_cases_qualified": 0,
+  "next": "Run sync-reviews.sh once from Mac Terminal. Independently verify its actual receipt for exactly two original markers, 275 preserved hashes and thirteen accepted cases before preparing any further fixed-host requests.",
+  "only_appended_records": [
+    "reviews/clip-05-bank-1.json",
+    "reviews/clip-06-bank-0.json"
+  ],
+  "operation_sha256": "b0f128e5931dc08e788c424e1be61d411eb0dd3d05c7518331d66910fd89f6ac",
+  "preserved_file_count": 275,
+  "raw_preparation": "runs/pretrained/diagnostic/reviewed-pair-sync-20261027",
+  "remaining_cases": 7,
+  "research_admitted": false,
+  "schema_version": 1,
+  "scientific_aggregate": null,
+  "source_sha256": {
+    "models/reviewed_panel_sync.py": "fb736bef98c982bb23b44e30a4da5d8dae572107277b325ef74202eac28f0f98",
+    "scripts/prepare_reviewed_panel_sync.py": "b2220f9f115e7e87462bf96a6e141da04e253510dd91dbf84bc3ac10b9e59c2f",
+    "scripts/sync_reviewed_panel.py": "353ef51da3e9b96b98d82be43061782865375be53ccf29bd83a2d6675e667314",
+    "support/reviewed_panel_continuation.py": "51f78c2b4ff4904f4492e4ff055d58eb7f219a4a3b1f440dd502c43725c71b96",
+    "tests/fixtures/reviewed_panel_sync_metadata.json": "f7c31aed04ba299a2f3f4107b268373406d68799c4041b8634c2cbe192913748",
+    "tests/test_reviewed_panel_sync.py": "45125bc536f1f0bb09969e34051af499df1093daa473622ef1278458b61a65d4"
+  },
+  "status": "prepared-locally-awaiting-user-metadata-sync",
+  "tests": {
+    "extracted-focused-cpu.xml": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 46
+    },
+    "focused-cpu.xml": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 46
+    }
+  },
+  "upload_payload_bytes": 97444,
+  "upload_payload_sha256": "d9973b2b595880ce82490fc12e6f8ad093d90c776370bd8874c70a297341f3f4",
+  "user_commit": "3a5b5e0",
+  "validation_artifacts_sha256": {
+    "validation/extracted-focused-cpu.xml": "6e28f82be9d86b202be4fca112271f29c93b97a5485d7d6cff1e91945f6a4e65",
+    "validation/focused-cpu.xml": "9f13f63789ef82e1804676232a10e211995788f8750758236e886bdfb3242a2f",
+    "validation/full-sync-rehearsal.json": "177fa896c4d870fd7aedf43b1315247645e7e2af5b0fc82749fcb6304c1c6abc",
+    "validation/full-sync-rehearsal.log": "c2cae8e338605b2690efe5846d87601b340219e3c9d64d31e3721184caf1da6c",
+    "validation/local-mirror-receipt-verification.json": "7f0930c7e3fba6a704d6b97e41bf26287d4deab840902d5260e94f92b5428abd",
+    "validation/local-mirror-receipt.json": "df880b3e603c6baa4c42860b918cc0ef4c152e29c046fe78f77304119f2c7281",
+    "validation/local-repeat-receipt.json": "c6e6c900571299b141101caa73e3e1cd0e7de3cd393f6c68faa22e0eb8b2e206",
+    "validation/rehearse-complete-sync.py": "2f3238c4dbfb6f1f0de0b401b4578a10a6e08a0dcf984435ab1f6a15ca005dc5"
+  }
+}

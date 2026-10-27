@@ -1,5 +1,41 @@
 # Research Progress Reports
 
+## 2026-10-27 — Thirteen-case university review sync verified
+
+Actual SSH exit0 and independent receipt audit confirm exactly two original
+review records appended,275 preserved file hashes unchanged and acceptance
+advancing from11 to13. University and independent progress now agree:13/20
+cases, six complete clip pairs and seven remaining.
+
+Both saved cases were reverified on CPU. Original execution identities, both
+historical STOP records, failed Floor outcome, consumed recovery grant and all
+case/time history remain intact. The sync and its local audit started no model
+or test suite and authorize no next GPU dispatch. No scientific aggregate or
+research adoption occurs.
+
+Next prepare the separate continuation for Archery bank1 on10603 and YoYo
+bank0 on10609. Neither helper is prepared; both previous model helpers remain
+consumed. [Verified sync](report/checks/2026-10-27-reviewed-pair-sync-verification.md).
+
+## 2026-10-27 — Metadata-only review sync prepared for thirteen-case progress
+
+The two original Biking/Archery review markers have a source-only handoff that
+reverifies both saved cases on CPU and appends exactly two records. It protects
+275 existing file hashes, both historical STOP records, the failed outcome,
+consumed grant and all completed case/time history. No GPU request is added.
+
+All46 focused checks pass locally and after extraction. A full actual-CLI/
+real-Registry/lock rehearsal uses genuine saved evidence in a local mirror,
+rechecks275 files and advances acceptance from11 to13. A second full invocation
+is idempotent. Only local home/host are substituted; no verifier, case evidence
+or numerical body is mocked and no model or remote job starts.
+
+The97,444-byte handoff is ready with a300+15second bound. Actual university
+sync remains pending; thirteen cases/six pairs are independently verified,
+while the two latest review registrations must be confirmed before new fixed-
+host requests. No scientific aggregate, held-out access or research adoption
+occurs. [Preparation](report/checks/2026-10-27-reviewed-pair-sync-preparation.md).
+
 ## 2026-10-27 — Biking/Archery exports verified; thirteen cases complete
 
 Both attended cases independently pass the pinned reviewer and separate audit.
