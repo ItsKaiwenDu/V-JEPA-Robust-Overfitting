@@ -1,5 +1,58 @@
 # Research Progress Reports
 
+## 2026-10-26 — Eleven-case university progress view verified
+
+The metadata handoff completed with SSH exit0. Independent review verifies
+six exact new records and all142 returned preservation hashes. The new paused
+view now records11/20 accepted cases, five complete clip pairs and nine pending.
+The legacy ledger remains9, with its original failed outcome, consumed recovery
+grant, sources and STOP preserved. Both namespaces retain STOP.
+
+No model or remote test suite starts; independent review performed no remote
+rerun. Next prepare a separate continuation importing all eleven original
+identities, then fresh host checks for the next assigned university pair.
+No GPU helper, partial scientific aggregate, held-out access or research
+adoption is added. [Verified receipt](report/checks/2026-10-26-reviewed-panel-reconciliation-verification.md).
+
+## 2026-10-26 — Paused eleven-case metadata reconciliation prepared
+
+A separate append-only coordinator view now supports the two pending Biking
+and Floor recovery reviews while preserving every original execution identity,
+the failed Floor outcome, consumed grant and active STOP. It rechecks eleven
+saved cases on CPU, verifies 142 retained file hashes, and publishes six exact
+records with genesis last. Both namespaces remain paused; no GPU work starts.
+
+All 68 focused tests pass locally and after extraction. A full actual-CLI
+rehearsal uses real Registry/file locks and the eleven existing case proofs;
+it verifies preservation, readbacks, safe repetition and conflict rejection.
+Only local home/host are substituted; no model or network work occurs.
+
+The source-only Mac handoff is ready, with a 300-second cap plus15 cleanup.
+It has not run at the university: independent count remains11, legacy remote9,
+with5 complete pairs and9 pending cases. Its returned receipt must verify
+before preparing a new continuation or GPU requests. No scientific aggregate,
+held-out access, study/budget change or research adoption occurs.
+[Preparation](report/checks/2026-10-26-reviewed-panel-reconciliation-preparation.md).
+
+## 2026-10-26 — Floor recovery independently verified; eleven cases complete
+
+Floor bank1 completed in 39 minutes on10603 and passes the preserved reviewer
+and separate audit: all 161 campus tests, 173 saved tensors, 320 finite nonzero
+gradient observations, native CUDA, all four attacks and exact fresh A replay.
+Its 52 nonattack tensors and clean baselines match Floor bank0 exactly, making
+five complete clip pairs. Eleven of twenty cases independently verify; nine
+remain. The first copy failed with zero bytes; copy-only retry completed.
+
+The same original grant was consumed without resetting time: previousstartup
+charge 36 plus 2341 rounded launchseconds uses 2377 of 4800. Captured failures,
+STOP and source identities remain intact. No model or test rerun occurred
+during review and no new scientific aggregate or research adoption is made.
+
+The legacy remote coordinator still records nine; Biking bank0 and the new
+recovery review require recovery-aware append-only reconciliation before
+new dispatch. Its original failed outcome must stay immutable. No following
+GPU case is prepared. [Verification](report/checks/2026-10-26-floor-recovery-verification.md).
+
 ## 2026-10-26 — Startup evidence verified; corrected same-grant handoff ready
 
 The copied 31-file startup evidence confirms 139 campus passes, unchanged

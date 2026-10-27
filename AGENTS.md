@@ -2,6 +2,126 @@
 
 ## Current stage
 
+LATEST October26: ACTUAL ELEVEN-CASE METADATA RECONCILIATION VERIFIED.
+Read report/checks/2026-10-26-reviewed-panel-reconciliation-verification.md/JSON.
+Actualraw reviewed-panel-reconciliation-20261026/latest-session.txt points
+reconcile-session-20261027T040652Z.UIZ3rU, SSH0, receipt45584B SHA
+aaecab1ee4784ccf4fe98bbdb06ac5932810dadd1daf2ebecd7e3f6d7cf01762.
+Actualsource/op/input andall6fullrecords/hashes match; all142 returnedfresh
+preservedhashes match(98legacy/22startup/22v1), legacy9 before/afterunchanged.
+Independent local audit savedactualsession/independent-verification.json.
+Receipt deterministic byte-identical tolocalrehearsal; realSSHsession/exit
+reviewed. No model/testsuite/metadatarepeat/remoteconnection during audit.
+Target BASE/reviewed-panel-20261026 APPLIED: elevenaccepted,9pending,5pairs.
+CreatedSTOP/imports/progress/2originalreviewmarkers then genesislast. Original
+Floorfailedoutcome andSTOP776e... unchanged; recoverygrant8149consumed; all
+caseoriginalexecutionidentities preserved. Bothnamespaces STOPactive and
+new_GPU_dispatch_authorized=false. Legacytwo-host-panel remains9 bydesign.
+Do NOT repeat completedreconcilehelper oroldGPUhelpers. Preparation tests68
+local/extracted/fullCLI retainpriorresults, no suite rerun foractualreview.
+NEXT prepare separatelyidentified continuation/dispatch namespace importing
+all11 origins and honest original source/executionids. NarrowSTOPresolution
+mustrefer tothisactualreceipt/recoveredreview, neveroverwriteoldSTOP/failure.
+Oldregister_review cannotingestrecovery; do not fakeoriginaloutcome. Fixed
+nextpair09clip05bank1 /03clip06bank0. Newhelpers/continuation/hardwarechecks
+notpreparedyet; noGPUdispatch frommetadataoperation. Originalnumericalplan/
+sources/tolerances/workercaps/GPU-PIDguard/hostassignments remain. Preserve
+allgrants/claims/outcomes/timehistory. No scientificpartialaggregate/heldout/
+study/precision/attack/budget/researchadoption orpaidPod. Usercommitsself.
+Earlierready/await-run entriesbelow historical; metadataoperationcompleted.
+
+LATEST October26: ELEVEN-CASE METADATA HANDOFF READY, NOT APPLIED REMOTELY.
+Read report/checks/2026-10-26-reviewed-panel-reconciliation-preparation.md/JSON
+and docs/reviewed_panel_reconciliation.md. New models/reviewed_panel.py,
+scripts/reconcile_reviewed_panel.py and prepare_reviewed_panel.py implement
+metadata-only append-only publication. No CUDA/model/testsuite/queue path.
+68 focused tests pass local/extracted0fail/error/skip; full exact installer/
+extractor/CLI uses real originalRegistry/flock and all11 saved case proofs.
+Only localhome/host substituted; no neural mocks, model or network work.
+Fixture original7 symlink materialized in localcopy; production pathguard strict.
+Full rehearsal verifies142 fresh preserved hashes, legacy9 unchanged,6exact
+records andgenesislast, install/metadataidempotence andconflict rejection.
+Raw reviewed-panel-reconciliation-20261026/validation retains fullproof/receipt/
+JUnit/source/log. Draft01 unused. Report andraw/preparation.json pin allbytes.
+Operation8824ac836880c2c14839805a2ec19ecdd6c2f85f0a94fefd9e0c137736145d14;
+input4e0ea9e51c0c2e53c85d17f94a5979b1be75aa3db471134ad155939a13dc7096;
+payload52501B/1e24b12ee3e0e3778102c7babcaccd923b0e4ba13ea45a529e29d63e88db2c43;
+Mac helpera2316c3631d9449d625262b4eb8737ce8fe6aa2b552bbcfb371be1fef831bb38.
+Target BASE/reviewed-panel-20261026 separate from oldtwo-host-panel-20261026.
+Sixrecords:imports/progress/originalSTOP/genesis+Floor/Bikingoriginalmarkers.
+Newvieweffective11/pending9/pairs5, legacy9 retainedtruthfully; bothSTOPactive.
+No rewriting oldcase/outcome/STOP/auth/grant/source or scientificidentity.
+Original recoverygrant consumed; unusedtime grants no retry. Fresh142 pins
+include old56/startup22/failed/recovery/source/archives. Newmetadata receipt
+contains actual142 readbacks, original9 before/after,6fullrecordbytes/hashes.
+Old Registry constructor outside ownregistrylock; bothhostleases retained.
+Remote cap300s+15; CPU savedartifactrechecks only. Newhostlinux10609.
+NEXT userMac runs raw/reconcile-reviewed.sh ONCE atMacprompt. KeepTerminal/
+lidopen. It sourcechecks, uploads source/metadata andcapturesreceiptonly.
+No helper invocation/remoteoperation has occurred inpreparation. OnDone read
+raw/latest-session.txt,connection-exit-status,stderr,receipt andverification.
+Independently verify actual receipt using extractednew module/op/input/
+expected6bytes+142pins andlegacy9/sameSTOP/effective11. No repeat onunknown
+failure untilinspection; partialmetadata is idempotent but noGPUauthority.
+After actualreceipt verifies prepare separatelyidentified continuation using
+all11 originals andnarrowSTOPresolution, preservingoldSTOP/failures. Old
+register_review cannotingestrecovery. Nextfixedpair09clip05bank1/03clip06bank0
+notprepared. No scientificpartialaggregate/heldout/study/precision/attack/
+budget/researchadoption; no paidPod. User commits themselves. Priorstages
+below historical; effective11 presently means independentlocal, notremoteapplied.
+
+LATEST October26: FLOOR RECOVERY PASS;11/20 INDEPENDENT,5PAIRS,REMOTE9.
+Read report/checks/2026-10-26-floor-recovery-verification.md/JSON.
+User committed prior work as7a62b70; user continues to commit themselves.
+Actual corrected raw latest-session attended-session-20261027T022701Z.G0g7aQ:
+job0, original copy255/0bytes preserved. Copy-only retry latest-download
+case-download-20261027T031113Z.FBJsoM exit0,59files,108656640B transport
+SHAb9bd2a05bea309b84e851dd29e22ed8cd6c8c24b8657d2a9259d801019708c66.
+Archive108168344B/59members SHA4c5af7a00d74ba1f2282d0527769d4c1d7b50c9ac2aae51b571138d9264c1097.
+Raw corrected handoff contains review-successful-recovery.py and
+audit-successful-recovery.py; downloaded independently-reviewed/ has captured
+source/proof + numeric-reviewed/ +independent-review.json. Full independent
+audit at download/independent-verification.json. No GPU/testsuite rerun.
+All161 actual campus guards pass0fail/error/skip; matrix+freshA once and
+all6 strict GPU boundary checks pass.173tensors/320 nonzero finite gradients;
+nativeCUDA/pixelbounds/prefix/bestselection/runtime/source/plan/weights pass.
+Floor pair shares52 nonattack tensors and allclean scoring baselines/weights/
+runtime exactly, both on10603. Peaks matrix4.763589GiB/replay3.667108GiB.
+Case v_FloorGymnastics_g17_c01 clip04bank1 attempt02 qualifies independently.
+New execution1a58235cca7d4f2b6c7b5f7edb6b54782c145680b7f74beb91fccc03d4c36fad;
+new numeric receipt9b2e02796e1b2a54f6e55ab84a1cc136a1973a4316d14193ad7889d09c8f3c07;
+marker file fadc158372c2abc7574f7d33ded5d5930c3b8230d297d6605f20e192c71e179c.
+Original auth721b... +grant814965108dd544eba53ebc5e34496d27 unchanged and NOW
+CONSUMED; no repeat or extra numerical attempt authorized by unused time.
+Whole launcher2340s=39m from02:27:11-03:06:11UTC (19:27:11-20:06:11Pacific),
+under4764 cap. Previousstartup charge36 +newconservative2341=2377/4800s.
+Numericalsession2297.693/envelope2336.171 within4620/4764. No allowance reset.
+Old prior139/startup35+1/source22 andcaptured STOP/failed outcome/session
+verify. Producer source enforces56coordinator+22startup pins before/after;
+full56 fresh postrun hash snapshot not independently downloaded. Do not
+relabel the earlier hash observation as postrun. No scientific source or old
+failed artifact/outcome/STOP rewritten. Literal __NEW_GUARDS__ banner harmless;
+actual enforced JUnit161 verifies. No change to frozen packet just for banner.
+LOCAL independent acceptedset NOW old CASE_ORDER[:11],11cases/9remaining,
+5pairedclips00-04. No scientific partial aggregate/heldout/study/precision/
+attack/budget/research adoption. Actual project GPU job ended; no new job.
+REMOTE legacy Registry STILL9 accepted andSTOP776e... active. Pending
+review registration: Biking clip05bank0 normal originaltwohost marker and
+Floor clip04bank1 recovery marker. New raw pending-coordinator-handoff.json
+pins both markers, valid IDs and original STOP, with no GPU authority.
+NEXT on continue: recovery-aware append-only coordinator reconciliation,
+including both pending reviews and preserving original failed outcome.
+Legacy register_review CANNOT ingest new recovery kind; do not force new
+marker into old outcome, replace that failed outcome or silently change old
+source/config identity. Need separate truthful progress/dispatch layer or
+explicit new execution namespace. Retain all11 original execution identities.
+After reconciliation independently verifies effective11 before future dispatch,
+next fixed host cases09clip05bank1 and03clip06bank0. No such requests/helpers
+prepared yet; do not reuse consumed case helpers. Keep oldSTOP until narrow
+resolution can be justified by reconciled recovery. All existing failures
+and old grants remain immutable. User commits themselves; give message when
+asked. Earlier ready/await-run stages below are historical.
+
 LATEST October26: STARTUP READBACK PASS; CORRECTED SAME-GRANT HANDOFF READY.
 Read report/checks/2026-10-26-recovery-lock-startup-readback.md/JSON and
 2026-10-26-same-grant-lockfix-preparation.md/JSON, docs/contended_panel_recovery.md.

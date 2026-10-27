@@ -1,13 +1,16 @@
 # Two university GPUs for the matched panel
 
-Current October 26 status: ten cases independently verify, including Biking
-bank0. Floor bank1 remains incomplete. Its recovery startup hit a nested
-registry lock before grant consumption; readback confirms the grant unused,
-attempt02 absent and 56 retained hashes intact. A 36-second charge leaves
-79m24s under the same grant. The [separate corrected handoff](contended_panel_recovery.md)
-is prepared and passes 85 focused checks. It has not started. The university
-ledger still records nine with STOP active. The first-batch instructions
-below are historical; their old GPU helpers must not be repeated.
+Current October26 status: eleven independently reviewed cases now appear in a
+separate verified university progress view, with five complete clip pairs and
+nine pending cases. Its actual receipt verifies six exact records and142
+preserved file hashes. The original nine-case coordinator, failed Floor outcome,
+consumed recovery grant and STOP remain intact. Both namespaces remain paused.
+[Verified reconciliation](../report/checks/2026-10-26-reviewed-panel-reconciliation-verification.md).
+
+Next prepare a separately identified continuation importing all eleven original
+case identities before new dispatch. The next fixed assignments are clip05
+bank1 on10609 and clip06 bank0 on10603; new helpers and fresh hardware checks
+are not yet prepared. First-batch instructions below are historical.
 
 The October 26 execution revision keeps the frozen numerical plan and
 seven reviewed v1 receipts. It adds a separate shared coordinator for the

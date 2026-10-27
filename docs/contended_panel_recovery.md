@@ -1,5 +1,13 @@
 # Attended Floor recovery with the original grant
 
+**Current outcome:** the recovery has completed and independently verifies.
+Its grant and model helper are consumed and must not be repeated. Eleven
+panel cases are independently verified, with five clip pairs. The legacy
+coordinator still records nine. The [verified metadata reconciliation](reviewed_panel_reconciliation.md) now records eleven in a separate paused view while preserving the original failure and STOP.
+See the [verified outcome](../report/checks/2026-10-26-floor-recovery-verification.md).
+The instructions below describe the preserved historical handoff.
+
+
 The failed preflight is independently reviewed. Its 35-second wall time is
 charged as 36 seconds, leaving **79 minutes 24 seconds** in the same approved
 80-minute recovery allowance. The grant was unused and attempt02 absent.

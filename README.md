@@ -1,12 +1,11 @@
 # V-JEPA Robust Overfitting
 
-**Latest October 26 update:** the failed recovery startup is independently
-audited. Its 36-second conservative charge leaves **79m24s** under the same
-unused grant. The [separate corrected handoff](docs/contended_panel_recovery.md)
-fixes nested locking and passes 85 focused CPU checks, including the combined
-main/preflight path with real file locks. It is prepared, not launched; the
-old packet, failed evidence and STOP remain intact. Ten panel cases are
-independently verified, nine recorded remotely. Older snapshots follow.
+**Latest October 26 update:** the [university metadata receipt verifies](report/checks/2026-10-26-reviewed-panel-reconciliation-verification.md).
+The new paused progress view records **11/20 cases and 5 complete clip pairs**;
+all six records and142 preserved hashes match. The original nine-case ledger,
+failed Floor outcome, consumed grant and STOP remain intact. Next prepare a
+separate continuation for the remaining nine cases; no next GPU job or partial
+scientific aggregate is started. Older snapshots follow.
 
 **Current panel status (October 26):** ten of twenty diagnostic cases independently
 verify, including Biking bank0. Floor bank1 stopped at the strict GPU-process
@@ -63,6 +62,7 @@ The intended contribution is a controlled study of training dynamics and their d
 
 | Document | Purpose |
 | --- | --- |
+| [Eleven-case metadata reconciliation](docs/reviewed_panel_reconciliation.md) | CPU recheck and append-only paused progress; legacy failures and STOP preserved |
 | [Matched-panel university handoff](docs/matched_panel_handoff.md) | Frozen training-only panel, bounded first case, independent review, whole-case resume and separate scoring-bank analysis |
 | [Checkpoint locks and fresh CPU retry](docs/checkpoint_lock_repair.md) | Verified NFS lock fix and the completed free CPU check |
 | [CPU fixture repair and university check](docs/cpu_fixture_repair.md) | Verified initial checkpoints and a detached Linux CPU gate before another GPU rental |
