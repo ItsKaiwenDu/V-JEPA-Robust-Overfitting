@@ -1,8 +1,25 @@
 # V-JEPA Robust Overfitting
 
+**Latest October 26 update:** the failed recovery startup is independently
+audited. Its 36-second conservative charge leaves **79m24s** under the same
+unused grant. The [separate corrected handoff](docs/contended_panel_recovery.md)
+fixes nested locking and passes 85 focused CPU checks, including the combined
+main/preflight path with real file locks. It is prepared, not launched; the
+old packet, failed evidence and STOP remain intact. Ten panel cases are
+independently verified, nine recorded remotely. Older snapshots follow.
+
+**Current panel status (October 26):** ten of twenty diagnostic cases independently
+verify, including Biking bank0. Floor bank1 stopped at the strict GPU-process
+guard; its partial evidence is audited and remains incomplete. One explicitly
+authorized additional 80-minute [attended recovery is prepared](docs/contended_panel_recovery.md),
+with 63 passing CPU guards and the original failure/STOP retained. No recovery
+GPU work has started. The remote ledger still records nine pending review sync;
+full-panel analysis and research admission remain pending. Older snapshots follow.
+
 The [October 26 two-host batch independently verifies](report/checks/2026-10-26-two-host-first-pair-verification.md):
-nine of twenty diagnostic cases and four complete clip pairs. The export
-bookkeeping repair remains pending; both GPU computations are finished.
+nine of twenty diagnostic cases and four complete clip pairs. The university
+bookkeeping is [synchronized](report/checks/2026-10-26-two-host-bookkeeping-sync-verification.md);
+the stop flag remains active before the next bounded pair.
 
 **Latest panel status (October 25):** [seven of twenty diagnostic cases are independently verified](report/checks/2026-10-25-attended-panel-seventh-verification.md), including the first bank for TennisSwing. Three training clips have both attack banks complete. The latest case passes native CUDA, attack-bound/prefix and exact fresh A-only replay checks in 41 minutes 33 seconds; peak allocation is 4.815 GiB. All prior cases and partial evidence are preserved. Thirteen cases remain; next is clip-03-bank-1. A separate second-host reference replay matches exactly on one training clip/arm; multi-host panel execution, full-panel analysis and research admission remain pending.
 

@@ -1,0 +1,79 @@
+{
+  "automatic_GPU_queue": false,
+  "complete_clip_pair_count": 4,
+  "date_Pacific": "2026-10-26",
+  "focused_CPU_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 49
+  },
+  "full_local_rehearsal": {
+    "STOP_stays_active": true,
+    "accepted_after": 9,
+    "first_accepted_before": 7,
+    "first_created_records": 4,
+    "first_seconds": 9.665108667002642,
+    "home_alias_exercised": true,
+    "host_and_home_mocked_locally": true,
+    "kind": "two-host-bookkeeping-local-retained-evidence-rehearsal-v1",
+    "new_model_or_GPU_work": false,
+    "passed": true,
+    "preserved_existing_file_hashes_per_run": 46,
+    "real_saved_new_cases_reverified_each_run": 2,
+    "real_saved_original_cases_reverified_each_run": 7,
+    "remote_changes_performed": false,
+    "repeat_created_records": 0,
+    "repeat_seconds": 8.686903875001008
+  },
+  "helper": "runs/pretrained/diagnostic/two-host-bookkeeping-sync-20261026/sync-bookkeeping.sh",
+  "independently_verified_case_count": 9,
+  "kind": "two-host-bookkeeping-sync-preparation-and-validation-v1",
+  "new_GPU_or_model_job_started": false,
+  "new_records": [
+    "exports/clip-03-bank-1.json",
+    "exports/clip-04-bank-0.json",
+    "reviews/clip-03-bank-1.json",
+    "reviews/clip-04-bank-0.json"
+  ],
+  "next": "User runs the pinned metadata-only Mac helper once. Inspect its saved receipt and independent readback verification before claiming remote bookkeeping synchronized. STOP stays active; later GPU requests require a separate operational step.",
+  "paid_compute": false,
+  "prepared": true,
+  "prepared_artifacts": {
+    "STOP_remains_active": true,
+    "date_Pacific": "2026-10-26",
+    "helper_sha256": "274a9e94d24fea6be17efa48c8182483e25a7dfb1a25a5a65b204a8774f42108",
+    "kill_grace_seconds": 15,
+    "kind": "two-host-bookkeeping-sync-preparation-v1",
+    "maximum_seconds": 300,
+    "new_GPU_or_model_job": false,
+    "new_record_count": 4,
+    "payload_bytes": 24845,
+    "payload_sha256": "aefe6fb4b6882bce5ab5102441ce9b2adb64ceb6503d1f1486a785af56214be3",
+    "pinned_files_sha256": {
+      "known_hosts": "fe8681953fda73e81fe8442f0c5bd6fa8bfd2e333445fd4db51fde098b18d838",
+      "sync-command.txt": "7a8f3359f35c830859671914da071b15f40152816b3447fe91506cc64be23a07",
+      "sync-reviewed-records.py": "0ba6950f342c6e9a4801e9fcb7e2575c6e9b5b88134da41ac3b4d9b6c49d1d12",
+      "upload-payload.json": "aefe6fb4b6882bce5ab5102441ce9b2adb64ceb6503d1f1486a785af56214be3",
+      "verify-sync-result.py": "767fc7c01ee1b1786d80a1d4969e647641d2f93104c5fb72d494f9921db0c266"
+    },
+    "preserved_input_file_count": 46,
+    "remote_changes_performed": false,
+    "source_sha256": "0ba6950f342c6e9a4801e9fcb7e2575c6e9b5b88134da41ac3b4d9b6c49d1d12"
+  },
+  "preserve_STOP_claims_failures_outcomes_and_scientific_evidence": true,
+  "preserve_original_deployed_implementation": true,
+  "raw_directory": "runs/pretrained/diagnostic/two-host-bookkeeping-sync-20261026",
+  "remaining_case_count": 11,
+  "remote_changes_performed": false,
+  "remote_sync_confirmed": false,
+  "research_admitted": false,
+  "source_file_sha256": "0ba6950f342c6e9a4801e9fcb7e2575c6e9b5b88134da41ac3b4d9b6c49d1d12",
+  "staged_receipt_verifier_passed_on_first_and_repeat": true,
+  "syntax_verified": {
+    "Bash": 1,
+    "Python": 3
+  },
+  "test_file_sha256": "6786b8fe24eb80ce158fc087b2eae1e7355176ed942cbdc16a290872f6922278",
+  "tests_create_CUDA_evidence": false
+}

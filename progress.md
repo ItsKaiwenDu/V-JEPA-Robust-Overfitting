@@ -1,5 +1,144 @@
 # Research Progress Reports
 
+## 2026-10-26 — Startup evidence verified; corrected same-grant handoff ready
+
+The copied 31-file startup evidence confirms 139 campus passes, unchanged
+deployed sources, all 56 retained hashes and no grant or attempt02. The
+35-second failure is charged as 36 seconds, leaving 79m24s under the same
+original authorization and grant; no allowance is added.
+
+The separate corrected packet preserves that startup and the original failed
+case. All 85 focused CPU checks pass normally and after extraction. A full
+combined run/preflight uses real Registry/locks and rechecks ten real saved
+cases, preserves 56+22 file hashes and exercises claim/outcome/export. Only
+the neural worker body and hardware are mocked. The actual bootstrap,
+161-result merge and 59-file copy/corruption paths pass, and the independent
+reviewer rejects the fake CPU archive. No new CUDA qualification occurs.
+
+The helper is prepared for one attended invocation on10603, with a 4764-second
+pipeline cap plus15 cleanup and the original worker/parent caps. No remote
+upload or model work has started; STOP and all failures remain. Ten panel
+cases are independently verified, nine recorded remotely, with four paired
+clips. [Preparation](report/checks/2026-10-26-same-grant-lockfix-preparation.md).
+
+## 2026-10-26 — Recovery startup lock bug reproduced and fixed locally
+
+The university passed 139 CPU checks, then preflight hit a nested registry
+lock in our wrapper before grant consumption or GPU dispatch. A real-flock
+regression reproduces it; the corrected combined path and 67 focused tests
+pass locally. A full rehearsal rechecks ten saved cases and preserves 56
+hashes, with only the neural body/export and hardware mocked. No new CUDA
+case is qualified and the deployed source remains intact.
+
+A tested read-only startup capture is ready. Actual grant/attempt absence,
+139 JUnit evidence and start/end times must be reviewed before a corrected
+handoff using the same grant and remaining 80-minute budget. The failed
+startup time will be charged; no additional allowance or GPU retry has been
+launched. Ten cases remain independently verified, nine recorded remotely,
+with STOP retained. [Incident](report/checks/2026-10-26-recovery-nested-lock-incident.md).
+
+## 2026-10-26 — Failed Floor evidence audited; one attended recovery prepared
+
+The copied partial archive verifies: 88 saved tensors and 280 finite,
+nonzero gradient observations pass their numerical checks. The unchanged
+verifier still rejects the missing final GPU observation, and no fresh A
+replay or case receipt exists. The 35m13s launcher leaves 42m34s under
+conservative original-limit accounting; no failed evidence is accepted.
+
+The user explicitly approved one additional 80-minute attended attempt on
+the same host. A separate pinned operator, new single-use grant and isolated
+attempt02 retain the original claim/outcome/STOP and 21 failed-attempt files.
+Strict GPU checks stay unchanged. All 63 new CPU guards pass normally and
+after extraction. A full local rehearsal rechecks ten real successful cases,
+preserves 56 coordinator hashes, tests the actual bootstrap/139-result merge/
+27-file copy path and rejects byte-only fixtures as CUDA evidence. No remote
+upload or new GPU work has started. Fresh10603 status precedes handoff.
+Ten cases remain independently verified, ten pending and four clips paired;
+remote acceptance stays nine until later reviewed metadata synchronization.
+[Recovery preparation](report/checks/2026-10-26-floor-recovery-preparation.md).
+
+## 2026-10-26 — Biking bank0 verified; Floor bank1 stopped by an additional GPU process
+
+The already-running Biking case completed and independently verifies:
+173tensors,320finite nonzero gradients, all4attacks+freshreplay and122campus
+CPU guards pass. Its41-minute launcher exited0; a copy-only retry recovered
+transport. Ten diagnostic cases are independently verified, ten remain,
+four clips are fully paired; the new Biking marker is not yet synced remotely.
+
+Floor bank1 failed the final matrix-worker GPU-exclusivity check after an
+additional compute process was detected. Fresh replay was not started; the
+case remains incomplete and a new global stop is preserved. The user's later
+snapshot lists `/usr/NX/bin/nxnode.bin` asC175MiB, without establishing the
+original competing PID or owner. No process is killed or guard relaxed.
+A tested read-only partial-evidence copy helper is prepared; review actual
+elapsed time and missing observations before any recovery decision. No GPU
+work was repeated. [Incident](report/checks/2026-10-26-panel-GPU-contention-incident.md).
+
+## 2026-10-26 — Activation verified and next attended GPU pair prepared
+
+Actual activation exited zero; original stop bytes are archived and the
+narrow resolution/two requests verify. Nine accepted cases and old evidence
+remain unchanged. The canonical coordinator path will reach the original
+pinned runner without replacing numerical sources.
+
+Biking bank0 on10609 and Floor bank1 on10603 now have separate one-use Mac
+helpers, original 80-minute wall caps, actual hardware gates and 122 required
+CPU guards per host before one A/B/C/D plus fresh-A case. Their read-only
+28-file downloads include operational history and exact launcher sources.
+Local bootstrap/byte-copy/corruption checks and JUnit merge pass; fixtures
+qualify no CUDA. No new model work has started. Nine cases remain accepted
+until independent review; eleven remain. [Launch handoff](report/checks/2026-10-26-panel-continuation-launch-preparation.md).
+
+## 2026-10-26 — Tested canonical-path activation prepared for the next pair
+
+The next fixed requests are Biking bank0 on10609 and Floor bank1 on10603.
+A separate operational wrapper passes a canonical coordinator path to the
+unchanged pinned numerical runner. Metadata-only activation will archive
+and resolve the exact reviewed export-error stop after rechecking all nine
+saved cases, then register only those two requests. Different/new failure
+stops remain blocking; original receipts, sources, budgets and limits stay
+unchanged. Each GPU case remains a separate future manual launch.
+
+All 46 focused CPU checks pass after fresh extraction. Full local installer/
+activation rehearsal verifies the nine actual saved cases, home aliases,
+byte-identical stop history, idempotence and rejection of a new failure.
+Both staged receipt checks pass. Fresh user checks show both expected GPUs
+idle. No university activation, new model/GPU work or test-suite repeat has
+occurred. Nine cases remain verified and eleven pending. [Preparation](report/checks/2026-10-26-panel-continuation-preparation.md).
+
+## 2026-10-26 — University ledger synchronized; nine accepted cases retained
+
+The actual SSH metadata sync exited 0 and created exactly the two missing
+export events and two independent case reviews. Independent receipt checking
+matches all four readback texts to the pinned plan and local verified ledger.
+The university rechecked seven original and two new saved cases on CPU;
+all 46 existing file hashes and STOP bytes remain unchanged.
+
+The remote coordinator now records nine of twenty accepted cases, eleven
+pending and four complete clip pairs. STOP stays active, with claims,
+outcomes, export-failure history and all numerical evidence preserved. No
+GPU/model/test job, retry or allowance reset occurred. The original numerical
+implementation remains unchanged. Next prepare alias-safe continuation and
+separate stop resolution before the next bounded pair; no further GPU work
+has been prepared or launched. [Confirmation](report/checks/2026-10-26-two-host-bookkeeping-sync-verification.md).
+
+## 2026-10-26 — Tested bookkeeping-only sync prepared for the nine-case checkpoint
+
+A pinned helper will append the two missing export events and two independent
+review markers, retaining STOP and all original scientific/incident records.
+It rechecks saved evidence on CPU and never starts a model or GPU retry. All
+49 focused tests pass. A full local rehearsal of the original seven and two
+new saved cases reaches nine recorded cases; repetition adds no records.
+All 46 preserved input hashes and STOP remain unchanged, and both staged
+receipt-verification paths pass. Unchanged test suites were not rerun.
+
+The university ledger is still unchanged. Next, the user runs the Mac sync
+helper once and its receipt is independently checked. Subsequent GPU work
+needs separate path-safe operations and resolution of the retained stop.
+Nine of twenty cases remain verified, eleven pending, with four complete
+clip pairs and no partial aggregate or scientific/budget adoption change.
+[Preparation](report/checks/2026-10-26-two-host-bookkeeping-sync-preparation.md).
+
 ## 2026-10-26 — Two-host batch verified; nine panel cases and four clip pairs
 
 Both saved computations independently pass the original pinned reviewer and

@@ -1,13 +1,13 @@
 # Two university GPUs for the matched panel
 
-Current October 26 status: both first-batch saved computations independently
-pass the original reviewer and retained-evidence audit. Nine cases are verified,
-eleven remain and four training clips are fully paired. **Do not repeat the
-launch commands below; they have been used.** The bookkeeping alias failure
-and STOP remain preserved. A local ledger mirror and four-record metadata-only
-repair plan verify; university bookkeeping has not yet been synchronized.
-See [first-batch verification](../report/checks/2026-10-26-two-host-first-pair-verification.md).
-The preparation instructions below are historical.
+Current October 26 status: ten cases independently verify, including Biking
+bank0. Floor bank1 remains incomplete. Its recovery startup hit a nested
+registry lock before grant consumption; readback confirms the grant unused,
+attempt02 absent and 56 retained hashes intact. A 36-second charge leaves
+79m24s under the same grant. The [separate corrected handoff](contended_panel_recovery.md)
+is prepared and passes 85 focused checks. It has not started. The university
+ledger still records nine with STOP active. The first-batch instructions
+below are historical; their old GPU helpers must not be repeated.
 
 The October 26 execution revision keeps the frozen numerical plan and
 seven reviewed v1 receipts. It adds a separate shared coordinator for the

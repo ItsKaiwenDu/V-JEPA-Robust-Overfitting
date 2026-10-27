@@ -1,0 +1,79 @@
+{
+  "CPU_JUnit_merge_verified": 122,
+  "CPU_guards_per_host": 122,
+  "GPU_jobs_started": 0,
+  "activation_receipt_sha256": "452ffdbf81b1bb80a06144ee6c894d87aa27c6333190ba54299201987ad2924a",
+  "automatic_GPU_retry": false,
+  "case_helpers": [
+    {
+      "bootstrap_sha256": "59691b50032e6e2b78d985c907ce781b4c03c9575295fa9113b39e03f1f29ba9",
+      "case_id": "clip-04-bank-1",
+      "download_expected_regular_files": 28,
+      "host": "linux10603",
+      "launch_helper_sha256": "f0285912bc1ed510f55a3ccc072f58ba4dd9862c5f3585961b99a4984c0d5bfb",
+      "pipeline_sha256": "c5a2935fb23fca57c3adcb1bfafdc2dc7f7cc7cc73405102e547e916d61d4c59",
+      "source_launcher_sha256": "5b3bf2aadbb6ed057e6e7bcf7b42ba2429a53669bac08c7ea19ab2322e93f7b6"
+    },
+    {
+      "bootstrap_sha256": "20b93d977d22d4a0538e3e5e92627836ad18e5e160bc746f4eca8b9dc5b8ade5",
+      "case_id": "clip-05-bank-0",
+      "download_expected_regular_files": 28,
+      "host": "linux10609",
+      "launch_helper_sha256": "e9927fbdff48646c546edcdee140d921b3d22b26f00e270932a20a6be0355630",
+      "pipeline_sha256": "c5a2935fb23fca57c3adcb1bfafdc2dc7f7cc7cc73405102e547e916d61d4c59",
+      "source_launcher_sha256": "8bce198b717ed1a3fc42c3208550a2c1f65716d5446f1aa0bc8c6718651694db"
+    }
+  ],
+  "case_wall_seconds": 4800,
+  "cleanup_seconds": 15,
+  "continuation_guards": 46,
+  "copy_only_retry_count": 1,
+  "date_Pacific": "2026-10-26",
+  "held_out_pixels_opened": false,
+  "kind": "canonical-continuation-bounded-launch-preparation-v1",
+  "local_helper_validation": {
+    "cases": [
+      {
+        "bootstrap_once_verified": true,
+        "case_id": "clip-05-bank-0",
+        "corrupt_copy_preserved_and_rejected": true,
+        "host": "linux10609",
+        "repeat_bootstrap_rejected": true,
+        "source_bytes_match": true,
+        "transport_fixture_only": true,
+        "transport_roundtrip_verified": true,
+        "wrong_host_rejected": true
+      },
+      {
+        "bootstrap_once_verified": true,
+        "case_id": "clip-04-bank-1",
+        "corrupt_copy_preserved_and_rejected": true,
+        "host": "linux10603",
+        "repeat_bootstrap_rejected": true,
+        "source_bytes_match": true,
+        "transport_fixture_only": true,
+        "transport_roundtrip_verified": true,
+        "wrong_host_rejected": true
+      }
+    ],
+    "fixture_host_home_exec_mocked": true,
+    "grace_seconds": 15,
+    "kind": "canonical-continuation-launch-helper-local-validation-v1",
+    "new_model_or_GPU_jobs_started": false,
+    "passed": true,
+    "remote_connections": 0,
+    "runtime_timeout_cleanup_logic_reused_from_prior_exercised_launcher": true,
+    "wall_limit_seconds": 4800
+  },
+  "next": "User runs each host run-case.sh once from separate Mac Terminal windows. Fresh hardware gates and both CPU suites precede one case per host. Keep connections/Mac awake, then review saved exports independently.",
+  "old_guards": 76,
+  "old_stop_resolution_confirmed": true,
+  "operation_sha256": "b5501e3fbc4c76b2d66d49ddc063fe64dd70f22885ef3d506ce51c4bcf391a05",
+  "operation_sources_or_original_numerical_sources_changed": false,
+  "paid_compute": false,
+  "prepared": true,
+  "raw_directory": "runs/pretrained/diagnostic/panel-continuation-20261026",
+  "research_admitted": false,
+  "science_or_budget_changed": false,
+  "staged_source_pin_check_exercised": true
+}

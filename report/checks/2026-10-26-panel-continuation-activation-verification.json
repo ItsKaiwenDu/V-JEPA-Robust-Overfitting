@@ -1,0 +1,64 @@
+{
+  "GPU_or_model_jobs_started": false,
+  "accepted_cases": 9,
+  "archived_STOP_sha256": "b42a023f4b7e3bf0c9183f7af384d4abe3cccecaf05d727495b9782107c0f892",
+  "authentication_retry_seen": true,
+  "automatic_queue": false,
+  "canonical_root": "/DCNFS/users/student/kdu/Desktop/VJEPA-Robust-Overfitting/matched-panel-transfer-20261024/two-host-panel-20261026",
+  "complete_clip_pairs": 4,
+  "connection_exit_status": 0,
+  "date_Pacific": "2026-10-26",
+  "kind": "canonical-continuation-activation-independent-confirmation-v1",
+  "new_request_file_sha256": {
+    "linux10603": "3e2ae76ae8da733b7e809dea87928ad316276f5d843de4600288f5b1505f6044",
+    "linux10609": "831f9aa121bcf539ee106480f7fdfc82308afe56eba1ad88cd50c8d53f6bd191"
+  },
+  "new_request_payload_sha256": {
+    "linux10603": "998e3f1c38387b6d6f8a776679fea934f2184f849ce6e71f10aeda2c2146e287",
+    "linux10609": "7c2b90d28866003d1f01b5169d0ebc916c600f6ab05c9daf4cd9ae9bf7e1c09c"
+  },
+  "next": "Prepare attended one-case helpers for the two registered requests, with fresh hardware gates and 80-minute wall limits.",
+  "next_cases": {
+    "linux10603": "clip-04-bank-1",
+    "linux10609": "clip-05-bank-0"
+  },
+  "old_STOP_archived_and_resolved": true,
+  "operation_sha256": "b5501e3fbc4c76b2d66d49ddc063fe64dd70f22885ef3d506ce51c4bcf391a05",
+  "paid_compute": false,
+  "preserved_prior_file_hashes": 46,
+  "receipt_sha256": "452ffdbf81b1bb80a06144ee6c894d87aa27c6333190ba54299201987ad2924a",
+  "remaining_cases": 11,
+  "research_admitted": false,
+  "resolution_record_sha256": "f9d5f1f0076a59fc4b26d70ee2553a4dd3b8b6294019b9b75bb361054e8a1c4a",
+  "session": "runs/pretrained/diagnostic/panel-continuation-20261026/activation-session-20261026T202254Z.jsudlF",
+  "source_pins_verified": 4,
+  "status_after": {
+    "accepted_case_ids": [
+      "clip-00-bank-0",
+      "clip-00-bank-1",
+      "clip-01-bank-0",
+      "clip-01-bank-1",
+      "clip-02-bank-0",
+      "clip-02-bank-1",
+      "clip-03-bank-0",
+      "clip-03-bank-1",
+      "clip-04-bank-0"
+    ],
+    "claimed_case_ids": [
+      "clip-03-bank-1",
+      "clip-04-bank-0"
+    ],
+    "complete": false,
+    "computed_new_case_ids": [
+      "clip-03-bank-1",
+      "clip-04-bank-0"
+    ],
+    "failed_case_ids": [],
+    "kind": "matched-panel-two-host-revision-v1-progress",
+    "research_admitted": false,
+    "scientific_aggregate": null,
+    "stop_dispatch": false
+  },
+  "unchanged_numeric_implementation": "da5aeb93bd6d3e46040b158cc14f0d6feb1284a83b2b2778a3639b420db0acf9",
+  "verified": true
+}

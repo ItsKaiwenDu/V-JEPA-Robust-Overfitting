@@ -2,6 +2,324 @@
 
 ## Current stage
 
+LATEST October26: STARTUP READBACK PASS; CORRECTED SAME-GRANT HANDOFF READY.
+Read report/checks/2026-10-26-recovery-lock-startup-readback.md/JSON and
+2026-10-26-same-grant-lockfix-preparation.md/JSON, docs/contended_panel_recovery.md.
+Actual copy latest recovery-lock-incident-20261026/
+startup-download-20261027T015409Z.AooDjJ: SSH0;31files,256000B transport SHA
+ceb8d98eb7e0fe09c1aece046c794702fe77628c7d8990496bd987d5882cf746.
+139 actual campus JUnit/host/source pins verified,56 hashes unchanged,
+grant and attempt02 absent. Failed startup01:35:18-01:35:53UTC=35s;
+charge36 (1s timestamp margin). Remaining CASE_LIMIT4764s=79m24s, cleanup15.
+Original authorization file721bbf9e77804b7acc7bdf542c63e2d29cda3f56b148dec7b24fea810c0f9d2d
+and grant814965108dd544eba53ebc5e34496d27 are byte-identical/unchanged.
+NO new grant or budget reset. Prior originalcase remainder2554s not added.
+New raw runs/pretrained/diagnostic/contended-panel-recovery-lockfix-20261026
+has staged/extracted 41file packet, original auth, copied prior-startup32files,
+run-recovery.sh, read-only59file copy helpers, validation/full-path-rehearsal.
+Proposal 4e496e51f93545301d6335aa33f1b03ac062de667717617e7d0056a7c4c374d8;
+helperSHA af23b454d628589a43600c69172090354f0f2954127ae27012b005f8a6d69a9b;
+new moduleSHA 0f9b8a4a09c54088b660741476abca3d51787e7e4ae643834f332509dc2d513c.
+KIND matched-panel-contended-recovery-lockfix-v1. New execution binds original
+auth +new proposal/sources +36s charge. Both old twohost/OP and scientific
+359/58/34 source/runtime/weights/data pins unchanged. Old recovery packet and
+22 failed-startup files preserved, original failed case21files/claim/outcome/
+STOP776e... preserved. Recovery caseclip04bank1 stays on linux10603.
+85 focused CPU checks pass normal/extracted0fail/error/skip; future campus161
+(old76+new85) NOT observed yet. Full exact final-packet rehearsal executes
+UNMOCKED combined run+preflight/Registry/flock/claim/outcome/outer export,
+rechecks10 actual saved cases; only neural body and hardware mocked. Retains
+56coordinator+22startup+21failedcase files. Actual installer/extractor twice,
+bootstrap duplicate/wronghost,161JUnit merge,59file copy/corruption and
+independent CUDA rejection of CPU fake pass. No new CUDA case qualified.
+Correct lock order: retain host lease; preflight/construct Registry outside
+claimlock, then under registrylock recheck status and preserved files before
+hardware gate +exclusive SAME grant. No lock deletion or server changes.
+Whole corrected pipeline4764+15; matrix3600/replay900/parent<=4620 unchanged.
+Old startup record35+1 plus new elapsed bounded by original4800 grant.
+No remote upload/GPU job during preparation. Copied GPU snapshot18:54:13
+Pacific94MiB/no computePID is observation only; actual runtime guard mandatory.
+NEXT manual user handoff: run raw/run-recovery.sh ONCE from Mac Terminal.
+Keep Mac lid/SSH open; no logout guarantee. Old helpers must not repeat.
+On Done inspect newraw/latest-session/latest-download; actual161 campus guards,
+UTC times<=4764, captured sources,grant8149+auth721b, old56+22 preservation,
+outer archive SHA/inventory and no conflicting CUDA PID. Independently review
+using EXTRACTED NEW recover_contended_panel_case.py.review_case with actual
+newproposal pin,originalauth pin,trusted original scientific snapshot and
+preserved original two-host reference. Reviewer checks prior-startup139/
+35+1s original source/file proof, new tensors/native CUDA/exactfreshA and
+newcase cap. Do not use old reviewer/identity as a substitute.
+If model/job fails inspect evidence first; no autoretry/queue. If only copy
+fails, use copy-only helper; never restart model. STOP remains active even
+after successful computation. No automatic acceptance/reconciliation; later
+adapter must preserve old failed outcome and count independent recovery.
+CURRENT10/20 independent =oldfirst9+clip05bank0,4pairs,remote9/STOPtrue.
+If recovery later independently passes then11cases/5pairs; NOT achieved yet.
+No partial aggregate/heldouts/study/precision/attack/budget/research adoption.
+User commits themselves. All earlier startup/capture/ready instructions historical.
+
+LATEST October 26: RECOVERY STARTUP SELF-LOCK BUG; READ-ONLY COPY NEXT.
+Read report/checks/2026-10-26-recovery-nested-lock-incident.md/JSON.
+Actual Mac latest-session contended-panel-recovery-20261026/
+attended-session-20261027T013510Z.eMnh5X: SSH1, campus139 CPU passes0fail/error/skip,
+then BlockingIOError at preflight Registry constructor. Our parent already
+held .registry.lock; constructor acquired a separate descriptor and failed.
+This invocation did not reach hardware gate/consume/model dispatch. Actual
+remote grant/attempt absence + start/end + preserved hashes still need copy.
+Old run-recovery.sh MUST NOT repeat. Old deployed4 sources/proposal/auth
+unchanged; no in-place patch. No new grant, no 80-minute reset authorized.
+Local recover_contended_panel_case.py fix moves preflight/constructor outside
+registry claim lock (host lease retained), then rechecks same status + preserved
+files under short lock. Real flock regression reproduces old BlockingIOError;
+67 focused checks pass after fix. Full combined run/preflight + real Registry
+and locks rechecks actual10 saved cases, preserves56 hashes; only model/export,
+host/GPU mocked. No new CUDA/model work. Old rehearsal missed combined lock.
+Fixed local source SHA ab216fce14f1004d80de8884f19fdd4f8b478f93e3114070a6cbe252165222a4.
+Deployed old source SHA 2df05caeb0f12c4549b6e2637b7e7fb73b07dbd780b524056c8eab1ee60d744f.
+New scripts/copy_recovery_preflight.py is stdlib read-only; raw
+runs/pretrained/diagnostic/recovery-lock-incident-20261026 has
+copy-existing-startup.sh, stream-existing-startup.py, known_hosts, failed
+transcript/status and validation. Actual collector/receiver31file byte fixture,
+wronghost/source, present/absent grant and corrupt rejection pass; generated
+fixture lacks full data and qualifies no actual preservation/CUDA result.
+NEXT user runs raw/copy-existing-startup.sh once in Mac Terminal. It copies
+only existing startup sources/JUnit/logs/ledger +56file hash observations and
+grant/attempt presence; no remote writes/tests/model. On Done inspect
+latest-download for transport integrity, oldproposal2d84/auth721b/grant8149,
+139 actual JUnit, exactsource pins, UTC start/end/exit1, 56file hash equality,
+no grant or attempt02. Retain all original failures and STOP776e... .
+Only then prepare separately identified corrected packet using SAME grant
+814965108dd544eba53ebc5e34496d27 and remaining80min allowance, charging
+this failed startup wall time. No corrected launch is prepared yet. Do not
+reuse original builder to mint another grant or reset elapsed time; old raw
+preparation is historical. Future source/operation identities must be honest.
+10 verified =oldfirst9+clip05bank0, 4 pairs, remote9/STOPtrue. No heldouts,
+partial mean, protocol/budget/research adoption. User commits themselves.
+Earlier ready/handoff instructions below are superseded.
+
+LATEST October 26: FLOOR FAILURE AUDITED; ONE EXTRA 80-MINUTE RECOVERY PREPARED.
+Read report/checks/2026-10-26-floor-partial-audit.md/JSON and
+2026-10-26-floor-recovery-preparation.md/JSON, docs/contended_panel_recovery.md.
+User approved "Prepare one additional 80-minute attempt (recommended)" for
+linux10603 clip-04-bank-1; see floor-recovery-authorization.json. This is an
+explicit exception to the frozen one-attempt limit, not a frozen-plan edit.
+New proposal 2d841e90f4378507b80e4805e1096e17ed2231c1257c9b57d405b802f32164f4;
+authorization file 721bbf9e77804b7acc7bdf542c63e2d29cda3f56b148dec7b24fea810c0f9d2d;
+new grant 814965108dd544eba53ebc5e34496d27. Do not reuse historical grants or draft-01.
+Raw runs/pretrained/diagnostic/contended-panel-recovery-20261026 has staged/
+extracted packet, preparation.json, run-recovery.sh, copy-only helper and
+validation. FINAL helperSHA e8e60c4736029cc3335cbc16764070b0bcf1788dce2553877545c3767a785738.
+63 focused CPU tests pass normally and after extraction; actual campus139
+(old76+new63) NOT run yet. Full local installer/extractor/alias rehearsal
+rechecks 10 real saved cases, 56 coordinator file hashes and 21 failed files;
+single-use/unknown STOP/bootstrap/139JUnit/27file transport/corruption and
+rejection of fake transport as CUDA pass. Fixtures qualify no new CUDA.
+No remote upload or GPU launch occurred. Original scientific359/58 sources,
+old two-host MP da5a..., oldOP b550... remain pinned; new execution adds
+truthful recovery source/grant identity. Same host/UUID/driver/PID guard
+unchanged. Attempt02 plus separate recovery-grants/clip-04-bank-1 is exclusive;
+never reset old claim/outcome/STOP, never alter/fabricate old observation.
+Whole new pipeline4800+15 including setup/CPU; matrix3600/replay900/parent4620;
+old remainder NOT added. Original launcher2113s, numeric2065.408s, envelope
+2086.522s; charge2246s, originalremaining2554s/parent2374s. Full fresh matrix
+AND A-only replay required. No GPU autoretry/queue, no heldouts/aggregate or
+study/precision/attack/budget/research adoption. Single-use grant remains
+consumed if recovery fails. STOP stays active even after successful recovery;
+independent new reviewer + separate future reconciliation needed for adoption.
+Partial copy latest evidence-download-20261026T215314Z.VU0T1Q audit PASS:
+31 copied files, 24 archive members, 88 tensors and280 nonzero gradients;
+original verifier stops precisely at missing matrix/observation.json. No
+fresh replay/receipt. Actual failed21file inventory pinned. STOP SHA
+776e80c041599c1c1a35ee31348312b4f696eec03f0e1e8787cc27dd231b11f5.
+21:53:19UTC/14:53:19Pacific copied GPU snapshot has no compute PIDs. Later
+idle status cannot repair prior observation/reserve GPU. Exact competing
+PID/owner at failure unknown. nxnode was a later snapshot, not proof of owner.
+User asked whether SSH cut them off for two sessions: NO, guard is our
+application's per-GPU CUDA PID check; distinct two-host GPUs are supported.
+Fresh user10603 check received: expected RTX3070 UUID e54fae90-feeb-8106-
+d8c0-1974fe48555f, driver580.178.04, 8192MiBtotal/94used, no compute rows.
+See floor-recovery-host-readiness.json. Actual runtime guard remains required.
+Final helper pins/unused latest-session boundary verified without remote work.
+NEXT manual handoff ready: raw/run-recovery.sh for ONE Mac Terminal invocation.
+The helper has not been run by the agent; do not infer a launch from handoff. Keep Mac/SSH awake and attended; no logout guarantee. If failed,
+inspect transcript/partial first; do not repeat model launch. Only a data-copy
+retry may repeat, never the model. On Done inspect latest-session/latest-download,
+CPU139/host/source/timing then review new recovery with its pinned reviewer
+and original trusted handoff. Do not relabel it with old execution identity.
+10/20 independently verified = oldfirst9 plus clip05bank0, four paired clips,
+remote9 and STOP true. Biking review remains unsynced. Floor not accepted.
+User commits themselves. All earlier stage entries below are historical.
+
+LATEST October26 FLOOR10603 FAILED GPU-EXCLUSIVITY GUARD;BIKING10609 VERIFIED.
+Read report/checks/2026-10-26-panel-GPU-contention-incident.md/JSON and
+2026-10-26-biking-first-bank-verification.md/JSON. BothprojectGPUjobs ended.
+10603clip04bank1 transcriptattended-session-20261026T204452Z.vZ8x5c:122CPU
+passes0fail/error/skip; allA/B/C/D labels then finalhardware_gate afterworker
+returned detects non-self computePID. Freshreplay notstarted, observation
+missing expected; no caseadmission. Partialarchive/session/time notcopiedyet.
+Userlatersnapshot14:31:10 showsPID1162024 /usr/NX/bin/nxnode.bin C175MiB,
+GPUtotal277MiB/util0. CompetingPIDatfailure/owner NOTestablished. Killnothing,
+change no serverconfig, donot relaxguard/fabricateobservation/clearnewSTOP.
+10609clip05bank0 finished0, originalCLIreview+savedproofauditPASS:173tensors/
+320finite nonzero gradients, all4attacks+exactfreshA/nativeCUDA/bounds/prefix/
+selection/source/runtime. Campus122passes;41min original80cap. Archive
+126656168B/21members SHA7efcb06752c40ce31a7788dc4032f0106d71660f30442483323d733b6cca33fa.
+Raw continuation/linux10609 latest-download=case-download-20261026T213021Z.VLCxs2,
+with independently-reviewed/ andindependent-verification.json. Firstcopy255/
+0bytes preserved; copy-onlyretry0. Tenindependentlyverifiedcases,10remaining,
+fourcompletepairs; remoteledgerstill9 untilnew05reviewmetadata synced.
+Acceptedset=originalfirst9 PLUSclip05bank0, NOT thefirst10case-orderprefix.
+Bikingexportprogress showsFloorfailed andnewstopactive; peerfinishpermitted
+becausealreadyrunning. No newmodel/testjob or retrystartedduringreview.
+Raw panel-gpu-contention-20261026 has copy-existing-partial.py/.sh,
+failed03transcript/status,validationbytefixtures. Newtrackedscript
+scripts/copy_partial_panel_case.py STDlibraryreadonly streaming; no model
+imports/remotechanges. 30required+11optional files (numericpartial,session,
+envelope,matrixlog,claim/outcome/newSTOP,opsmeta+122JUnit/logs) andcurrent
+readonlyGPU snapshot. Missingobservations/replay/export/review recorded.
+NEXT userMac runs raw/copy-existing-partial.sh ONCE, theninspectlatest-download
+byteproof+actualsession/worker/observationabsence/spenttime/newSTOP. Do not
+repeat eitherGPUhelper. No allowanceassumption: exactspentbudgetpending.
+Onlyafterpartialreviewproposeboundedrecovery/hostavailabilitydecision. Preserve
+claims/failures/STOP andallolderids. Existing successful09doesnotresolvepeer
+failure; no partialmean/heldout/study/budget/researchadoption. Usercommits self.
+Earlierlaunch-prepared/activation snapshots historical; do not reuse them.
+
+LATEST October26 ACTIVATION CONFIRMED;NEXT TWO GPU HELPERS PREPARED,NOT RUN.
+Read report/checks/2026-10-26-panel-continuation-activation-verification.md/JSON
+and2026-10-26-panel-continuation-launch-preparation.md/JSON.
+Actualactivation rawlatest=activation-session-20261026T202254Z.jsudlF,SSH0;
+receiptSHA452ffdbf81b1bb80a06144ee6c894d87aa27c6333190ba54299201987ad2924a.
+OldSTOP b42a archivedexact, separate resolutionand2requestreadbacks verify;
+9accepted,stopfalse,no newmodelsstarted. Passwordretry thenauthsuccess is
+benign; preserve stderr. OriginalnumericalMP/sources7 andOPsources4 unchanged.
+OP b5501e3fbc4c76b2d66d49ddc063fe64dd70f22885ef3d506ce51c4bcf391a05.
+Canonicalroot /DCNFS/users/student/kdu/Desktop/VJEPA-Robust-Overfitting/
+matched-panel-transfer-20261024/two-host-panel-20261026 passedtooldrunner.
+Raw panel-continuation-20261026/linux10609 and/linux10603 nowhave run-case.sh,
+launch-command.txt/bootstrap.py,remote-launch.sh/remote-pipeline.sh,
+stream-evidence.py,receive-evidence.py,download-evidence.sh. Newtracked
+scripts/prepare_continuation_launches.py reproduceshelpers afteractivation.
+Targets09clip05bank0 Biking,03clip04bank1 Floor. Eachpipeline4800+15;
+matrix3600/replay900/parent4620;extra0,retry0,noautomaticqueue. PinnedOP
+sourcecheck+old76andnew46CPUguards(122total,0skips/errors/failsrequired)
+precedeactualidleGPU/UUID/driverchecksandoneA/B/C/D+freshAcase. KeepMac/SSH
+attendedandawake. Bootstrapcasefolderexclusive rejectswronghost/repeat.
+Localfixturevalidations bothbootstrap/sourcebytepaths and28filedownload
+roundtrips/corruption pass; exactsourceprecheck and122JUnitmerge pass. No
+localtestsuitemodelrerun;Linuxqualifiedtimeout/cleanuplogic reused. Fixtures
+areCPUtransportonlyandqualify noCUDA. Newnumericalcases NOT startedhere.
+Macuser runs eachhost/run-case.sh ONCE inseparateMacTerminalwindows, never
+inuniversityshell. Successfuljobcopiesexistingarchiveandops/ledger/JUnit/
+time/sourceproof; firstfailedcopyretriedCOPYONLYoncefreshfolder. Jobfailure
+mustbeinspectedbeforeanyrepeat. Modelhelpers NEVER rerunforcopyrepairs.
+NEXT onuserDone inspecteachhost latest-session/latest-download. Independent
+originalfrozenCLI review pernewcase (numericalMPunchanged) +auditoperation
+requestsha/rootcanonical/sourcebytes/hosts/caps/122campusguardsandbounds/
+exactreplay. ExtraOPmetadata is inrequest and downloadedoperationalproof.
+9/20accepted,11pending,fourcompletepairs untilnewexportsverify. No partial
+aggregate,heldout,study/precision/budget/research changes. FreshuserGPUs
+74/94MiBidle previouslysupplied; actualruntimegate mandatory. Usercommits
+self; givecommitmessage whenasked. Earlier checkpoints historical.
+
+LATEST October26 CANONICAL-PATH CONTINUATION ACTIVATION PREPARED;NOT APPLIED.
+Read report/checks/2026-10-26-panel-continuation-preparation.md/JSON.
+User requestedcontinue and supplied fresh expected3070UUIDs/driver580.178.04,
+74/94MiBused,no computePIDs,bothhosts,2.1Tfree sharedhome. NoGPU work started.
+New scripts/continue_two_host_panel.py +prepare_panel_continuation.py,
+tests/test_panel_continuation.py and genuine metadatafixture. 46focusedCPU
+checks pass fresh extraction0fail/error/skip; fullinstaller/originalextractor
+rehearsal verifies allreal9savedcases through homealias. First/repeated
+activationreceipts exact; unrelatedinjectedfailure rejected+preserved.
+Both exactstagedMac receiptchecks pass. Localhost/home/exec mocked;no new
+CUDA qualification/modelwork orremoteactivation. Oldsuites notrerun.
+OperationalSHA b5501e3fbc4c76b2d66d49ddc063fe64dd70f22885ef3d506ce51c4bcf391a05.
+Raw panel-continuation-20261026 has staged/extracted packet,OPERATION.json,
+install-and-activate.py,upload-payload.json,activation-command.txt,
+verify-activation.py,known_hosts,activate-continuation.sh,validationproofs.
+Packet24826B/7members SHAbabae7035ab6ff267d363f2facfb3e5c0434fc0f62722b0a98f97a833bea1cb0.
+PayloadSHAb2d2f9d2fac2c1146bbe5d11a3c2f288279f83a47a71c77d15f2c8622941efa4;34509B.
+Scope: CPUrecheck9, archive exactreviewed STOP b42a023f4b7e3bf0c9183f7af384d4abe3cccecaf05d727495b9782107c0f892
+undercoordinator archived-stops/SHA.json, add separate stop-resolutions/
+export-alias-20261026.json and only2original-format requests (extraOPsha).
+Original MP da5aeb93bd6d3e46040b158cc14f0d6feb1284a83b2b2778a3639b420db0acf9
+andoriginalsources7 unchanged. Wrapperpasses canonical root tooldrunner;
+no numericalsourceinstall, sourceidentityreset, retry/extraallowance/queue.
+Nexttargets09clip05b0 Biking,03clip04b1 Floor. Original80min+15 each;matrix
+3600/replay900/parent4620. Claimed/oldpendingevidence alwaysrejectsreset.
+Activationarchives/resolvesONLY oldreviewedstop after allmetadatareadback;
+newfailure STOPs neverclearedautomatically. Models stillnot started.
+Macuser runs raw/activate-continuation.sh ONCE; timeout300+15, manualpassword.
+NEXT after userDone inspect raw/latest-activation: SSH0 +actualreceipt
++receipt-verification, externalOP pin, oldSTOParchivebytes b42a, resolution,
+2fixedrequestreadbacks,9accepted/activeSTOPfalse, no model starts. Onlythen
+markactivationdone. Ifpartial inspect metadata; no blindGPUrestart.
+Afteractualactivationconfirmation, prepare2separateboundedGPU Mac helpers
+and evidence-only downloads. ThoseGPUhelpers NOT prepared yet. Freshactual
+runtimehardwaregate immediatelybeforeeachlaunch remainsmandatory. No paid
+compute/study/budget/research/heldout changes, no partialmean. Usercommits
+self,providecommitmessage whenasked. Earlier snapshots historical.
+
+LATEST October26 REMOTE FOUR-RECORD SYNC INDEPENDENTLY CONFIRMED;9ACCEPTED.
+Read report/checks/2026-10-26-two-host-bookkeeping-sync-verification.md/JSON.
+Actual raw sync latest-session=sync-session-20261026T193250Z.GFph71; SSHexit0.
+receipt.json +receipt-verification.json +independent-confirmation.json verify.
+ReceiptSHA62a0b5a7222d50d670dc1c90cc5e23682aa02fe8d10f8a479c0bd81d2bf38fc0.
+All4actualreadbackrecordtexts match pinnedrepairplan and local9casemirror;
+created2exports+2reviews,nonepreexisting. Acceptedbefore7,after9. Original7
+and savednew2 were rechecked onhostCPU;46existingfilehashes/STOPbytes intact.
+STOPfileSHAb42a023f4b7e3bf0c9183f7af384d4abe3cccecaf05d727495b9782107c0f892.
+Remoteledger NOW synchronized.9/20accepted,11pending,fourcompleteclippairs.
+STOPstillactive;claims/failures/outcomes/envelopes/scientificsources and
+originalnumericalimplementation remain unchanged. No model/GPU/testjob,
+retry/allowancereset, partialaggregate, heldout, study/budget/research change.
+Localaliasfix NOT deployed as numericalreplacement. No tests rerun during
+confirmation; previous49focusedchecks +fullreal9case localrehearsal retained.
+Actual4recordSHAs andsource/payloadpins are in newverificationJSON. Do not
+repeat sync justto recheck; operation complete. OriginalGPU helpers mustnot
+be reused. Currentstop is intentional; no nextGPU launch prepared orstarted.
+NEXT boundedtask on usercontinue: explicit alias-safe operational continuation
+plus separate retained-stopresolution and next2freshrequests (09clip05b0,
+03clip04b1); preserveall completedcases/originalexecutionidentities and
+historicalSTOP/failures. Requirefreshactualhardwarestatus before nextGPUwork,
+keep1worker/host,case80min+15, no automaticqueue/retry. Original13remaining
+now11. Usercommits self; providecommitmessage whenasked. Olderstateshistorical.
+
+LATEST October26 METADATA-ONLY FOUR-RECORD SYNC PREPARED;NOT APPLIED REMOTELY.
+Read report/checks/2026-10-26-two-host-bookkeeping-sync-preparation.md/JSON.
+User committed prior checkpoint as5d0aa7e and requested continue nextstep.
+New scripts/sync_two_host_bookkeeping.py + tests/test_two_host_bookkeeping_sync.py.
+49focusedCPUtests pass,0fail/error/skip; no CUDA evidence generated. Full local
+rehearsal using realold7+new2cases passes under canonical/home-alias namespace:
+firstappends4records,9accepted; repeatappends0. All46pinnedoldfilesunchanged;
+STOPretained. Exactstagedreceiptverification passes first/repeat. Old93suite
+was notrerun. Original deployed sources7 and numerical identities unchanged.
+Raw two-host-bookkeeping-sync-20261026 has sync-reviewed-records.py,
+upload-payload.json,sync-command.txt,verify-sync-result.py,known_hosts,
+sync-bookkeeping.sh,preparation.json,validation/rehearsal.json +49testJUnit.
+SourceSHA0ba6950f342c6e9a4801e9fcb7e2575c6e9b5b88134da41ac3b4d9b6c49d1d12.
+Payload24845B SHAaefe6fb4b6882bce5ab5102441ce9b2adb64ceb6503d1f1486a785af56214be3.
+HelperSHA274a9e94d24fea6be17efa48c8182483e25a7dfb1a25a5a65b204a8774f42108.
+Planfilepin9755c213846be5cc6a97fa374eff0c80728d3c1f376f79324d3a1a53df6c005a;
+auditacceptancepin dfe57c2ea0d7c910e3755aafde62705a9559d2fedb442d59892b2cd15e034b64.
+Scope ONLY2missingexports+2independentreviews for clip03b1/clip04b0. CPU
+readback rechecks original7 andnew2 numerical artifacts/archives plus46hashes;
+leasesbothhosts +sharedregistrylock. No model/CUDA/testjob/retry/queue/STOP
+clear, oldfileoverwrite or numericalsourceinstall. 300s+15cleanup bound.
+Mac user runs raw/sync-bookkeeping.sh ONCE atMacprompt; passwordmanualSSH09.
+The command is data/metadata-only; no new GPU hardware quote/check needed.
+NEXT after userDone inspect raw/latest-session.txt, connection-exit-status0,
+receipt.json +receipt-verification.json; revalidate actual4readback texts,
+46preservedhashmap/STOPbytes, acceptedafter9 andstopactive. Only then mark
+remote_sync_confirmed. Do not claim syncapplied based on localrehearsal.
+If connection interrupted, inspect partialreceipt; fixedsync idempotence can
+fill exactmissingmetadata on inspectedrepeat, never rerun model helpers.
+After confirmed sync, separatelyprepare alias-safe future operations and
+explicitSTOPresolution before nextGPUrequests (09clip05b0,03clip04b1).
+No automaticlaunch.9casesindependentlyverified/11pending/fourcompletepairs;
+no partialmean/heldout/precision/study/budget/research adoption. Usercommits
+self; providecommitmessage whenasked. Earlier checkpoints historical.
+
 LATEST October26 BOTH FIRST-BATCH SAVED CASES INDEPENDENTLY PASS;9/20VERIFIED.
 Read report/checks/2026-10-26-two-host-first-pair-verification.md/JSON.
 Both original pinned CLI reviews plus audit-first-pair.py PASS. Raw incident

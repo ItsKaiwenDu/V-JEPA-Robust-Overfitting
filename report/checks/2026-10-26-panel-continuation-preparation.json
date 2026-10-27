@@ -1,0 +1,82 @@
+{
+  "GPU_helpers_prepared": false,
+  "GPU_jobs_started": 0,
+  "activation_is_metadata_only": true,
+  "additional_allowance_seconds": 0,
+  "archive_bytes": 24826,
+  "archive_members": 7,
+  "archive_sha256": "babae7035ab6ff267d363f2facfb3e5c0434fc0f62722b0a98f97a833bea1cb0",
+  "archives_only_reviewed_old_STOP": true,
+  "automatic_queue": false,
+  "current_independently_verified_cases": 9,
+  "date_Pacific": "2026-10-26",
+  "exact_staged_receipt_checks_passed": 2,
+  "focused_CPU_tests_after_extraction": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 46
+  },
+  "fresh_user_hardware_checks": {
+    "linux10603": {
+      "GPU_UUID": "GPU-e54fae90-feeb-8106-d8c0-1974fe48555f",
+      "compute_processes": [],
+      "driver": "580.178.04",
+      "memory_total_MiB": 8192,
+      "memory_used_MiB": 94,
+      "name": "NVIDIA GeForce RTX 3070"
+    },
+    "linux10609": {
+      "GPU_UUID": "GPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52",
+      "compute_processes": [],
+      "driver": "580.178.04",
+      "memory_total_MiB": 8192,
+      "memory_used_MiB": 74,
+      "name": "NVIDIA GeForce RTX 3070"
+    }
+  },
+  "held_out_pixels_opened": false,
+  "helper_sha256": "60142b079e446d64a16b72b4d5a870d7c75696537b625472d60b82d72681f31f",
+  "kind": "canonical-continuation-preparation-and-validation-v1",
+  "local_full_rehearsal": {
+    "archived_old_STOP_bytes_exact": true,
+    "first_and_idempotent_activation_receipts_exact": true,
+    "fixed_new_requests_verified": 2,
+    "host_home_and_exec_mocked_locally": true,
+    "installer_and_original_extractor_used": true,
+    "kind": "canonical-continuation-local-full-rehearsal-v1",
+    "new_GPU_or_model_job_started": false,
+    "old_numerical_implementation_preserved": true,
+    "passed": true,
+    "real_saved_cases_reverified_per_activation": 9,
+    "remote_changes_performed": false,
+    "unrelated_new_failure_rejected_and_preserved": true
+  },
+  "next": "User runs activate-continuation.sh once from Mac. Verify its actual receipt before preparing/launching the two GPU helpers.",
+  "next_case_allowance_seconds": 4800,
+  "operation_sha256": "b5501e3fbc4c76b2d66d49ddc063fe64dd70f22885ef3d506ce51c4bcf391a05",
+  "original_deployed_sources_unchanged": 7,
+  "paid_compute": false,
+  "payload_bytes": 34509,
+  "payload_sha256": "b2d2f9d2fac2c1146bbe5d11a3c2f288279f83a47a71c77d15f2c8622941efa4",
+  "prepared": true,
+  "raw_directory": "runs/pretrained/diagnostic/panel-continuation-20261026",
+  "registered_after_activation": {
+    "linux10603": "clip-04-bank-1",
+    "linux10609": "clip-05-bank-0"
+  },
+  "remaining_cases": 11,
+  "remote_activation_performed": false,
+  "research_admitted": false,
+  "scientific_plan_or_budget_changed": false,
+  "shared_home_free_reported": "2.1T",
+  "source_of_alias_fix": "Canonical root passed to unchanged runner; old numerical source files are not replaced.",
+  "source_sha256": {
+    "scripts/continue_two_host_panel.py": "692b54177659a8f5247e605aef8587253faa360708bcd1516ee03edb4e8b0ce4",
+    "support/sync_bookkeeping.py": "0ba6950f342c6e9a4801e9fcb7e2575c6e9b5b88134da41ac3b4d9b6c49d1d12",
+    "tests/fixtures/panel_continuation_metadata.json": "5edc5f71098e1de57c4de441bb9fbe8442f1b45e572a9b2ea9fe07aa371136c9",
+    "tests/test_panel_continuation.py": "38a6f7ee6ce33f0d08cce58c0548f3b5645bcfd51ba59f4f85d4d1ada2a40243"
+  },
+  "unchanged_numerical_implementation_sha256": "da5aeb93bd6d3e46040b158cc14f0d6feb1284a83b2b2778a3639b420db0acf9",
+  "unrelated_new_STOP_will_block": true
+}

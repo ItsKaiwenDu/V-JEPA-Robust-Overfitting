@@ -1,0 +1,97 @@
+{
+  "actual_host": "linux10609",
+  "all_four_attacks_and_exact_fresh_A_replay_verified": true,
+  "archive_bytes": 126656168,
+  "archive_sha256": "7efcb06752c40ce31a7788dc4032f0106d71660f30442483323d733b6cca33fa",
+  "campus_CPU_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 122
+  },
+  "case_id": "clip-05-bank-0",
+  "copy_only_retry": {
+    "GPU_job_restarted": false,
+    "first_exit": 255,
+    "first_partial_bytes": 0,
+    "retry_exit": 0
+  },
+  "date_Pacific": "2026-10-26",
+  "download_directory": "runs/pretrained/diagnostic/panel-continuation-20261026/linux10609/case-download-20261026T213021Z.VLCxs2",
+  "end_Pacific": "2026-10-26T14:25:50-07:00",
+  "execution_sha256": "cda679ef293c36204d69d71c0aba21be2a6758668c418abb90cb08c2a40a5e23",
+  "failed_case_pending_review": "clip-04-bank-1",
+  "failure_status_in_saved_coordinator_snapshot": {
+    "accepted_case_ids": [
+      "clip-00-bank-0",
+      "clip-00-bank-1",
+      "clip-01-bank-0",
+      "clip-01-bank-1",
+      "clip-02-bank-0",
+      "clip-02-bank-1",
+      "clip-03-bank-0",
+      "clip-03-bank-1",
+      "clip-04-bank-0"
+    ],
+    "claimed_case_ids": [
+      "clip-03-bank-1",
+      "clip-04-bank-0",
+      "clip-04-bank-1",
+      "clip-05-bank-0"
+    ],
+    "complete": false,
+    "computed_new_case_ids": [
+      "clip-03-bank-1",
+      "clip-04-bank-0",
+      "clip-05-bank-0"
+    ],
+    "failed_case_ids": [
+      "clip-04-bank-1"
+    ],
+    "kind": "matched-panel-two-host-revision-v1-progress",
+    "research_admitted": false,
+    "scientific_aggregate": null,
+    "stop_dispatch": true
+  },
+  "finite_nonzero_gradient_observations": 320,
+  "fully_paired_clips": 4,
+  "independently_verified_case_count": 10,
+  "independently_verified_case_ids": [
+    "clip-00-bank-0",
+    "clip-00-bank-1",
+    "clip-01-bank-0",
+    "clip-01-bank-1",
+    "clip-02-bank-0",
+    "clip-02-bank-1",
+    "clip-03-bank-0",
+    "clip-03-bank-1",
+    "clip-04-bank-0",
+    "clip-05-bank-0"
+  ],
+  "kind": "biking-first-bank-independent-verification-v1",
+  "logical_tensors_verified": 173,
+  "new_GPU_or_model_work_during_review": false,
+  "new_global_STOP_observed": true,
+  "operation_sha256": "b5501e3fbc4c76b2d66d49ddc063fe64dd70f22885ef3d506ce51c4bcf391a05",
+  "outer_archive_members": 21,
+  "paid_compute": false,
+  "peak_allocated_GiB": {
+    "matrix": 4.871216297149658,
+    "replay": 3.7157249450683594
+  },
+  "remaining_cases": 10,
+  "remote_review_marker_for_this_case_synced": false,
+  "research_admitted": false,
+  "review_marker_file_sha256": "653856812c19671e25c68dcb666b18707c3b2a7dcbd012d83957397ba9342ed0",
+  "scientific_aggregate": null,
+  "source_native_CUDA_pixel_bounds_prefixes_strict_selection_verified": true,
+  "start_Pacific": "2026-10-26T13:44:50-07:00",
+  "test_suite_repeated": false,
+  "transport": {
+    "bytes": 126812160,
+    "sha256": "95376f711869fe451eabe889302ac4a426540721560cce17eba26afe82c2128d"
+  },
+  "verified": true,
+  "video_id": "v_Biking_g16_c04",
+  "whole_launcher_seconds": 2460
+}

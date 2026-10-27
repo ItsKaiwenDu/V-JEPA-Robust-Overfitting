@@ -1,0 +1,190 @@
+{
+  "CPU_metadata_only": true,
+  "CUDA_qualification_generated": false,
+  "STOP_text": "{\n  \"payload\": {\n    \"case_id\": \"clip-03-bank-1\",\n    \"complete\": false,\n    \"elapsed_seconds\": 2484.633639067877,\n    \"error\": \"ValueError: '/DCNFS/users/student/kdu/Desktop/VJEPA-Robust-Overfitting/matched-panel-transfer-20261024/two-host-panel-20261026/cases/clip-03-bank-1/attempt-01/revision-evidence.tar.gz' is not in the subpath of '/home/kdu/Desktop/VJEPA-Robust-Overfitting/matched-panel-transfer-20261024/two-host-panel-20261026' OR one path is relative and the other is absolute.\",\n    \"host\": \"linux10609\",\n    \"kind\": \"matched-panel-two-host-revision-v1-outcome\",\n    \"research_admitted\": false,\n    \"revision_sha256\": \"5ca7596fe95ecb8f6b6c6752426e56bb354b1f019d3576c6618f7ede98ae4116\"\n  },\n  \"sha256\": \"140b2d4655577edc0b6c6e555a475ffaf1e0ded290d2cef8cb31e90241b1558f\"\n}\n",
+  "kind": "genuine-continuation-checkpoint-metadata-v1",
+  "prior_receipt": {
+    "GPU_or_model_job_started": false,
+    "STOP_readback": "{\n  \"payload\": {\n    \"case_id\": \"clip-03-bank-1\",\n    \"complete\": false,\n    \"elapsed_seconds\": 2484.633639067877,\n    \"error\": \"ValueError: '/DCNFS/users/student/kdu/Desktop/VJEPA-Robust-Overfitting/matched-panel-transfer-20261024/two-host-panel-20261026/cases/clip-03-bank-1/attempt-01/revision-evidence.tar.gz' is not in the subpath of '/home/kdu/Desktop/VJEPA-Robust-Overfitting/matched-panel-transfer-20261024/two-host-panel-20261026' OR one path is relative and the other is absolute.\",\n    \"host\": \"linux10609\",\n    \"kind\": \"matched-panel-two-host-revision-v1-outcome\",\n    \"research_admitted\": false,\n    \"revision_sha256\": \"5ca7596fe95ecb8f6b6c6752426e56bb354b1f019d3576c6618f7ede98ae4116\"\n  },\n  \"sha256\": \"140b2d4655577edc0b6c6e555a475ffaf1e0ded290d2cef8cb31e90241b1558f\"\n}\n",
+    "STOP_sha256": "b42a023f4b7e3bf0c9183f7af384d4abe3cccecaf05d727495b9782107c0f892",
+    "accepted_after": 9,
+    "accepted_before": 7,
+    "audit_acceptance_file_sha256": "dfe57c2ea0d7c910e3755aafde62705a9559d2fedb442d59892b2cd15e034b64",
+    "created": [
+      "exports/clip-03-bank-1.json",
+      "exports/clip-04-bank-0.json",
+      "reviews/clip-03-bank-1.json",
+      "reviews/clip-04-bank-0.json"
+    ],
+    "host": "linux10609",
+    "implementation_sha256": "da5aeb93bd6d3e46040b158cc14f0d6feb1284a83b2b2778a3639b420db0acf9",
+    "kind": "two-host-reviewed-ledger-sync-receipt-v1",
+    "old_records_changed": false,
+    "original_imports_reverified": 7,
+    "plan_file_sha256": "9755c213846be5cc6a97fa374eff0c80728d3c1f376f79324d3a1a53df6c005a",
+    "preexisting_identical": [],
+    "preserved_files_map_sha256": "0010c7c99ce369747af82ea165126949746a279c18835e6bc7a4b019289db21e",
+    "preserved_files_verified": 46,
+    "records_file_sha256": {
+      "exports/clip-03-bank-1.json": "a07b25f685da618dcfe05a00fab4628ab6e4cd36337ece1cb2828c533b9dec23",
+      "exports/clip-04-bank-0.json": "07955363e966efb5032a8100ffd983a87468496f66765f3a42bebd4089238dfd",
+      "reviews/clip-03-bank-1.json": "85612771a43bbfca733c735499c9b6fc6582e0113a02c2b2cb9d8655738a977a",
+      "reviews/clip-04-bank-0.json": "c6a10c378eecf1a437cc4a147ba8ae8d049ad442964f7ddedc3d4ea167dd8c99"
+    },
+    "records_readback": {
+      "exports/clip-03-bank-1.json": "{\n  \"payload\": {\n    \"archive_manifest_path\": \"cases/clip-03-bank-1/attempt-01/revision-evidence.tar.gz.manifest.json\",\n    \"archive_manifest_sha256\": \"6d91190761c6bae048b0003d196bd982a19b61c12a2643f2b8c639dad70ebdb7\",\n    \"archive_path\": \"cases/clip-03-bank-1/attempt-01/revision-evidence.tar.gz\",\n    \"archive_sha256\": \"a4ff6ef36d28bd3eff7fb62ddce476f3d8cda958225ac150f928863a9f991756\",\n    \"bytes\": 103712173,\n    \"case_id\": \"clip-03-bank-1\",\n    \"kind\": \"matched-panel-two-host-revision-v1-export\",\n    \"members\": 21,\n    \"revision_sha256\": \"5ca7596fe95ecb8f6b6c6752426e56bb354b1f019d3576c6618f7ede98ae4116\"\n  },\n  \"sha256\": \"69593dc9a7891ce9062b2d9be6fc1fbe4af8ad3bbc794ba6f669b012abaeb6ee\"\n}\n",
+      "exports/clip-04-bank-0.json": "{\n  \"payload\": {\n    \"archive_manifest_path\": \"cases/clip-04-bank-0/attempt-01/revision-evidence.tar.gz.manifest.json\",\n    \"archive_manifest_sha256\": \"397be306ba4e72bb5f0cfdc51a611b661106c23599d86a3930de7599d6541a3c\",\n    \"archive_path\": \"cases/clip-04-bank-0/attempt-01/revision-evidence.tar.gz\",\n    \"archive_sha256\": \"a44aeb79fdfa6dbdab07aa454ac224fe31c0d9166526debda864fc0db3a25b0e\",\n    \"bytes\": 107463168,\n    \"case_id\": \"clip-04-bank-0\",\n    \"kind\": \"matched-panel-two-host-revision-v1-export\",\n    \"members\": 21,\n    \"revision_sha256\": \"5ca7596fe95ecb8f6b6c6752426e56bb354b1f019d3576c6618f7ede98ae4116\"\n  },\n  \"sha256\": \"f18847823a066d8eb93534d1fd754f1e77d89f80f7d62acd0437f96299c421b1\"\n}\n",
+      "reviews/clip-03-bank-1.json": "{\n  \"payload\": {\n    \"archive_sha256\": \"a4ff6ef36d28bd3eff7fb62ddce476f3d8cda958225ac150f928863a9f991756\",\n    \"automatic_queue_authorized\": false,\n    \"case_id\": \"clip-03-bank-1\",\n    \"execution_sha256\": \"cda679ef293c36204d69d71c0aba21be2a6758668c418abb90cb08c2a40a5e23\",\n    \"host\": \"linux10609\",\n    \"implementation_sha256\": \"da5aeb93bd6d3e46040b158cc14f0d6feb1284a83b2b2778a3639b420db0acf9\",\n    \"kind\": \"matched-panel-two-host-case-review-v1\",\n    \"numeric_receipt_sha256\": \"52d21c5472544d5874a1d7714e16578e19ddc914fa87135cd71751b32df7c68b\",\n    \"outcome_file_sha256\": \"fae3f254e64828e6e1647161f6456ee799f21998e3d006085983aa8539b03715\",\n    \"research_admitted\": false,\n    \"reviewed_export\": true,\n    \"revision_sha256\": \"5ca7596fe95ecb8f6b6c6752426e56bb354b1f019d3576c6618f7ede98ae4116\"\n  },\n  \"sha256\": \"360e9079206fe37113d2d8c10e0a1737bc23b0eb12851e275d74fb425847a812\"\n}\n",
+      "reviews/clip-04-bank-0.json": "{\n  \"payload\": {\n    \"archive_sha256\": \"a44aeb79fdfa6dbdab07aa454ac224fe31c0d9166526debda864fc0db3a25b0e\",\n    \"automatic_queue_authorized\": false,\n    \"case_id\": \"clip-04-bank-0\",\n    \"execution_sha256\": \"69cf7234833a9769713611fb7a0d433ffe62d7a4644bd8114c31c79b079d8960\",\n    \"host\": \"linux10603\",\n    \"implementation_sha256\": \"da5aeb93bd6d3e46040b158cc14f0d6feb1284a83b2b2778a3639b420db0acf9\",\n    \"kind\": \"matched-panel-two-host-case-review-v1\",\n    \"numeric_receipt_sha256\": \"19302e4d883f6229a7774468423a836c069b1177bd020cd5a2d88b2d67bb5a71\",\n    \"outcome_file_sha256\": \"c40695e01758bd2433e1de088f5d1e71b28ce3b5232fe10005e80dfffb794afb\",\n    \"research_admitted\": false,\n    \"reviewed_export\": true,\n    \"revision_sha256\": \"5ca7596fe95ecb8f6b6c6752426e56bb354b1f019d3576c6618f7ede98ae4116\"\n  },\n  \"sha256\": \"24ac2e9aaf8e07d3b0f335adf7e963cd54f6ff8492ddb00e685d1fcaddbc0969\"\n}\n"
+    },
+    "research_admitted": false,
+    "revision_sha256": "5ca7596fe95ecb8f6b6c6752426e56bb354b1f019d3576c6618f7ede98ae4116",
+    "saved_new_cases_reverified": 2,
+    "status_after": {
+      "accepted_case_ids": [
+        "clip-00-bank-0",
+        "clip-00-bank-1",
+        "clip-01-bank-0",
+        "clip-01-bank-1",
+        "clip-02-bank-0",
+        "clip-02-bank-1",
+        "clip-03-bank-0",
+        "clip-03-bank-1",
+        "clip-04-bank-0"
+      ],
+      "claimed_case_ids": [
+        "clip-03-bank-1",
+        "clip-04-bank-0"
+      ],
+      "complete": false,
+      "computed_new_case_ids": [
+        "clip-03-bank-1",
+        "clip-04-bank-0"
+      ],
+      "failed_case_ids": [],
+      "kind": "matched-panel-two-host-revision-v1-progress",
+      "research_admitted": false,
+      "scientific_aggregate": null,
+      "stop_dispatch": true
+    },
+    "test_job_started": false
+  },
+  "prior_status": {
+    "accepted_case_ids": [
+      "clip-00-bank-0",
+      "clip-00-bank-1",
+      "clip-01-bank-0",
+      "clip-01-bank-1",
+      "clip-02-bank-0",
+      "clip-02-bank-1",
+      "clip-03-bank-0",
+      "clip-03-bank-1",
+      "clip-04-bank-0"
+    ],
+    "claimed_case_ids": [
+      "clip-03-bank-1",
+      "clip-04-bank-0"
+    ],
+    "complete": false,
+    "computed_new_case_ids": [
+      "clip-03-bank-1",
+      "clip-04-bank-0"
+    ],
+    "failed_case_ids": [],
+    "kind": "matched-panel-two-host-revision-v1-progress",
+    "research_admitted": false,
+    "scientific_aggregate": null,
+    "stop_dispatch": true
+  },
+  "reference_revision": {
+    "analysis_policy": "All 20 accepted and reverified before fixed bank-within-clip then equal ten-clip means; scoring banks separate.",
+    "attended": "Keep both Mac Terminal connections and Mac awake; no logout survival claim.",
+    "automatic_GPU_retries": 0,
+    "automatic_queue": false,
+    "bridge_review_sha256": "2a7a52034d30a9740c9ebd5f190bd214ed124307307afabb92c5f918cd12d846",
+    "case_hosts": {
+      "clip-00-bank-0": "linux10609",
+      "clip-00-bank-1": "linux10609",
+      "clip-01-bank-0": "linux10609",
+      "clip-01-bank-1": "linux10609",
+      "clip-02-bank-0": "linux10609",
+      "clip-02-bank-1": "linux10609",
+      "clip-03-bank-0": "linux10609",
+      "clip-03-bank-1": "linux10609",
+      "clip-04-bank-0": "linux10603",
+      "clip-04-bank-1": "linux10603",
+      "clip-05-bank-0": "linux10609",
+      "clip-05-bank-1": "linux10609",
+      "clip-06-bank-0": "linux10603",
+      "clip-06-bank-1": "linux10603",
+      "clip-07-bank-0": "linux10609",
+      "clip-07-bank-1": "linux10609",
+      "clip-08-bank-0": "linux10603",
+      "clip-08-bank-1": "linux10603",
+      "clip-09-bank-0": "linux10609",
+      "clip-09-bank-1": "linux10609"
+    },
+    "case_order": [
+      "clip-00-bank-0",
+      "clip-00-bank-1",
+      "clip-01-bank-0",
+      "clip-01-bank-1",
+      "clip-02-bank-0",
+      "clip-02-bank-1",
+      "clip-03-bank-0",
+      "clip-03-bank-1",
+      "clip-04-bank-0",
+      "clip-04-bank-1",
+      "clip-05-bank-0",
+      "clip-05-bank-1",
+      "clip-06-bank-0",
+      "clip-06-bank-1",
+      "clip-07-bank-0",
+      "clip-07-bank-1",
+      "clip-08-bank-0",
+      "clip-08-bank-1",
+      "clip-09-bank-0",
+      "clip-09-bank-1"
+    ],
+    "case_seconds": 4800,
+    "date_Pacific": "2026-10-26",
+    "execution_change": "Separate explicit two-host namespace; frozen v1 journal and numerical plan remain unchanged.",
+    "failure_policy": "No new claims after any case failure; already running peer may save evidence within its original limit.",
+    "first_batch": {
+      "linux10603": "clip-04-bank-0",
+      "linux10609": "clip-03-bank-1"
+    },
+    "hosts": {
+      "linux10603": "NVIDIA GeForce RTX 3070, GPU-e54fae90-feeb-8106-d8c0-1974fe48555f, 8192, 580.178.04",
+      "linux10609": "NVIDIA GeForce RTX 3070, GPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52, 8192, 580.178.04"
+    },
+    "imported_case_ids": [
+      "clip-00-bank-0",
+      "clip-00-bank-1",
+      "clip-01-bank-0",
+      "clip-01-bank-1",
+      "clip-02-bank-0",
+      "clip-02-bank-1",
+      "clip-03-bank-0"
+    ],
+    "imported_journal_sha256": "cf851847721b40a24b45563ee4b06f589024269c94d4cbf73ce96af79a3e6814",
+    "imported_review_sha256": "b08361f743f71b2066cb3ac63f4179891c4b1f3b06f293e5199760f346a8acff",
+    "kill_grace_seconds": 15,
+    "kind": "matched-panel-two-host-revision-v1",
+    "matrix_seconds": 3600,
+    "max_attempts_per_case": 1,
+    "max_cases_per_host": 1,
+    "max_parallel_cases": 2,
+    "numeric_plan_sha256": "f6b81dec841aeee703413dba23ea16afe3dbf14736edecadc0f7830f3ded34ae",
+    "numeric_settings_changed": false,
+    "one_case_per_invocation": true,
+    "paid_compute": false,
+    "parent_seconds": 4620,
+    "reference_handoff_sha256": "73f361fc072a053439bf71f35835bb91227932edd2db739adde2db5f96c6b0f4",
+    "replay_seconds": 900,
+    "research_admitted": false,
+    "review_barrier": "Both first-batch exports independently reviewed before further dispatch; subsequent case-specific review per host.",
+    "scientific_scope": "Original ten training clips, two attack banks, four arms and fresh A replay; seven old receipts retain v1 origin.",
+    "second_host_bridge_scope": "One reference clip and PGD20/EOT4 A only; first full candidate case stops for independent review."
+  }
+}

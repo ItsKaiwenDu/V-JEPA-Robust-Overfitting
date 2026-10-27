@@ -1,0 +1,18 @@
+{
+  "additional_attempts": 1,
+  "approved": true,
+  "attempt": "attempt-02",
+  "case_id": "clip-04-bank-1",
+  "date_Pacific": "2026-10-26",
+  "extra_case_seconds": 4800,
+  "fresh_matrix_and_replay": true,
+  "grant_id": "814965108dd544eba53ebc5e34496d27",
+  "host": "linux10603",
+  "kind": "matched-panel-contended-recovery-v1-authorization",
+  "paid_compute": false,
+  "preparation_only_no_GPU_work_started": true,
+  "proposal_sha256": "2d841e90f4378507b80e4805e1096e17ed2231c1257c9b57d405b802f32164f4",
+  "question_call_id": "call_3fcf8ff516ed404eb4620682c4fcfbb5",
+  "research_admitted": false,
+  "user_answer": "Prepare one additional 80-minute attempt (recommended)"
+}
