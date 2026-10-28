@@ -1,5 +1,46 @@
 # V-JEPA Robust Overfitting
 
+**Archery recovery verified (October 27):** [the actual completed export passes independent review](report/checks/2026-10-27-archery-recovery-verification.md).
+All172 campus checks, four attack arms, exact fresh replay, six GPU guards and
+470 preserved hashes pass. The panel now has **15/20 verified diagnostic cases
+and seven complete clip pairs**; five cases remain. The one-use grant is
+consumed. Next register the original review through a separate metadata-only
+step; the university coordinator last registered14 cases. Earlier snapshots follow.
+
+**Archery recovery activation verified (October27):** [all five records and470 protected hashes match](report/checks/2026-10-27-archery-recovery-activation-verification.md).
+The approved single80-minute attended helper is ready, and the new GPU check
+is clear. The failed claim/STOP and39m08s charged are preserved. Actual GPU
+recovery is pending; progress stays14/20 cases and six pairs. Earlier snapshots follow.
+
+**Approved Archery recovery prepared (October27):** [one extra80-minute attempt has a verified handoff](docs/archery_recovery.md).
+All96 focused/172 extracted checks and the full local rehearsal pass. The
+failed claim/STOP and39m08s charged are preserved, with470 protected hashes.
+The fresh GPU check is idle; first activate and independently review the
+metadata. Actual recovery is unrun; progress stays14/20 cases and six pairs.
+Earlier snapshots follow.
+
+**Archery partial evidence verified (October27):** [the saved incident passes integrity review](report/checks/2026-10-27-archery-timecarry-partial-verification.md),
+including161 JUnit checks and392 unchanged historical hashes. The incomplete
+case remains rejected; progress stays14/20 accepted cases and six pairs.
+A separate80-minute recovery exception is proposed for review. Earlier snapshots follow.
+
+**Archery guard rejection (October27):** [the matrix-after check found another CUDA process](report/checks/2026-10-27-archery-timecarry-guard-failure.md).
+The case remains incomplete after161 transcript CPU passes; its numerical claim
+is consumed and the fresh replay did not start. A tested read-only evidence
+copy is ready. Progress stays14/20 cases and six clip pairs. Earlier snapshots follow.
+
+**Archery activation verified (October27):** [all five records and392 protected hashes match](report/checks/2026-10-27-archery-timecarry-activation-verification.md).
+The single attended linux10603 helper is ready, with43 seconds carried and
+79m17s remaining including setup. Its actual GPU run is pending; progress stays
+14/20 accepted cases and six complete clip pairs. Earlier snapshots follow.
+
+**Archery continuation prepared (October27):** [the verified source-only handoff](docs/archery_continuation.md)
+carries43 seconds already used, leaving79m17s within the original allowance.
+All85 focused/161 extracted CPU checks and the local full-path rehearsal pass.
+First activate and independently review five metadata records; the GPU helper
+stays gated. No new university case has run. Progress remains14/20 cases and
+six complete clip pairs. Earlier snapshots follow.
+
 **YoYo registration verified (October27):** [the actual university receipt](report/checks/2026-10-27-yoyo-review-sync-verification.md)
 confirms14/20 accepted diagnostic cases, six complete clip pairs and382 unchanged
 file hashes. Archery remains unclaimed with79m17s left under its original

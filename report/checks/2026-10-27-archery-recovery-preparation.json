@@ -1,0 +1,220 @@
+{
+  "accepted_case_ids": [
+    "clip-00-bank-0",
+    "clip-00-bank-1",
+    "clip-01-bank-0",
+    "clip-01-bank-1",
+    "clip-02-bank-0",
+    "clip-02-bank-1",
+    "clip-03-bank-0",
+    "clip-03-bank-1",
+    "clip-04-bank-0",
+    "clip-04-bank-1",
+    "clip-05-bank-0",
+    "clip-05-bank-1",
+    "clip-06-bank-0",
+    "clip-07-bank-0"
+  ],
+  "accepted_cases": 14,
+  "activation": {
+    "LOCAL_receipt_is_not_actual_university_evidence": true,
+    "LOCAL_rehearsal_receipt_file_sha256": "5417f0b5db0cff2306a646a8c40e4d3e8642134abca315ec8aba7da856ec1a52",
+    "actual_university_performed": false,
+    "independent_actual_activation_review_required": true,
+    "kill_grace_seconds": 15,
+    "metadata_only": true,
+    "records": 5,
+    "seconds": 300
+  },
+  "activation_helper_sha256": "f7585711ec002203f7a565d8e106b46b5372ff2ac49e10fb5b4a2025e9d9c2dc",
+  "actual_new_GPU_job_started": false,
+  "attempt": "recovery-01",
+  "authorization_file_sha256": "41141726758e31b4babf76feadfe48618b4399a5147ace7dcea614ea14feabc3",
+  "authorization_response": "Approve one extra 80-minute attempt (Recommended)",
+  "automatic_GPU_retries": 0,
+  "automatic_queue": false,
+  "case_helpers": [
+    {
+      "activation_independent_review_required": true,
+      "bootstrap_sha256": "feb54c69471e0b59162d21cf4601a7b61cdbc7d2ed0095e2c2d3ed01e902c348",
+      "case_id": "clip-06-bank-1",
+      "download_expected_files": 74,
+      "host": "linux10603",
+      "launch_helper_sha256": "53b72473e3f0161abfd484e2b45844f37d9d9cc98ee39bbebd46f2850cca1f08",
+      "pipeline_sha256": "1bff8b58cab377d1db05bde94cc9bb1dc6485af6223d608847a17e01f394dd1e",
+      "source_launcher_sha256": "3dfa66f4dd9779c7ca9e88bc26782de2552953a8726e252be7918aeef2edfb57"
+    }
+  ],
+  "complete_clip_pairs": 6,
+  "date_Pacific": "2026-10-27",
+  "explicit_user_authorization_received": true,
+  "extra_failure_diagnostics": "Read-only nvidia-smi and compute-process snapshots retained if the existing guard rejects; the original exception is re-raised.",
+  "fresh_user_GPU_status": {
+    "GPU": "NVIDIA GeForce RTX3070",
+    "GPU_UUID": "GPU-e54fae90-feeb-8106-d8c0-1974fe48555f",
+    "GPU_job_started": false,
+    "compute_processes": [],
+    "driver_version": "580.178.04",
+    "host": "linux10603",
+    "memory_total_MiB": 8192,
+    "memory_used_MiB": 94,
+    "provided_by_user": true,
+    "snapshot_is_not_a_reservation": true
+  },
+  "full_local_rehearsal": {
+    "CPU_archive_rejected_at_numerical_plan": true,
+    "GNU_timeout_available_locally": false,
+    "activation_repeat_idempotent_before_claim": true,
+    "actual_collector_receiver_pass": true,
+    "actual_deadline_arithmetic_checked": [
+      {
+        "accepted": true,
+        "host": "linux10603",
+        "setup_seconds": 250
+      },
+      {
+        "accepted": false,
+        "host": "linux10603",
+        "setup_seconds": 4801
+      }
+    ],
+    "actual_installer_extractor_CLI_activation_and_verifier": true,
+    "actual_main_run_Registry_host_lease_and_exports": true,
+    "bootstrap_repeat_rejected": true,
+    "collector_members": 75,
+    "collector_regular_files": 74,
+    "computed_CPU_fixture_does_not_advance_acceptance": true,
+    "corrupt_transport_rejected": true,
+    "failed_original_STOP_retained": true,
+    "fresh_attempt_seconds": 4800,
+    "genuine_470_preserved_files_unchanged": true,
+    "kind": "archery-recovery-real-path-CPU-rehearsal-v1",
+    "launch_helpers_block_without_independent_activation_review": [
+      "linux10603"
+    ],
+    "new_CUDA_cases_qualified": 0,
+    "old_Archery_claim_and_STOP_preserved": true,
+    "only_GPU_queries_and_neural_body_mocked_for_case": true,
+    "operation_sha256": "1757892c83921e0cee8391b2468989680bcb44c57b6fa686f3528de9142eb4b5",
+    "original_470_preserved_hashes_rechecked_after_QA": 470,
+    "outer_members": 72,
+    "partial_activation_safely_completed": [
+      {
+        "genesis_published_last": true,
+        "interrupted_after_records": 1,
+        "safe_completion": true
+      },
+      {
+        "genesis_published_last": true,
+        "interrupted_after_records": 4,
+        "safe_completion": true
+      }
+    ],
+    "passed": true,
+    "previous_charged_seconds": 2348,
+    "real_new_clock_not_backdated": true,
+    "remote_connections": 0,
+    "scratch_directory": "/private/tmp/archery-recovery-rehearsal-ue9lhka_",
+    "shell_timeout_validation_scope": "Final shell syntax and remaining-time expression verified. GNU timeout itself is Linux-only here; unchanged TERM/KILL cleanup loop and original child deadline primitive retained.",
+    "wrong_host_bootstraps_rejected": true
+  },
+  "grant_id": "fd4b4cb8d42e442f8d9ee8ac7130945e",
+  "held_out_pixels_opened": false,
+  "inputs_file_sha256": "c1dc80b466263872afbcbff5450f7efedbacf7264e69d5da62dec1f94994411c",
+  "kind": "archery-approved-recovery-preparation-v1",
+  "new_attempt": {
+    "additional_attempts": 1,
+    "fresh_matrix_and_replay": true,
+    "grant_consumed": false,
+    "kill_grace_seconds": 15,
+    "matrix_seconds": 3600,
+    "old_tensors_reused_for_acceptance": false,
+    "parent_seconds_at_most": 4620,
+    "replay_seconds": 900,
+    "seconds_including_bootstrap_CPU_preflight_export": 4800
+  },
+  "operation_sha256": "1757892c83921e0cee8391b2468989680bcb44c57b6fa686f3528de9142eb4b5",
+  "original_model_worker_change": "Only the operational recovery directory expression changes; numerical parent changes only the CLI path.",
+  "paid_compute": false,
+  "payload_bytes": 902082,
+  "payload_sha256": "d3a2ddb459ba6b6d4007664ce0b0d6686ff32908714879269c94051285b0b632",
+  "preservation": {
+    "additional_raw_failed_matrix_tensor_files": 5,
+    "all_three_existing_STOPs_preserved": true,
+    "old_failed_claim_and_outcome_preserved": true,
+    "original_fourteen_case_identities_preserved": true,
+    "proposal_pins": 465,
+    "total_files": 470
+  },
+  "previous_time_accounting": {
+    "charged_seconds": 2348,
+    "charged_time_erased": false,
+    "old_remaining_added_to_fresh_limit": false,
+    "original_remaining_seconds": 2452
+  },
+  "proposal_sha256": "9e8f177667c3ecc9e8d8c5c38b8bdb25b4ef1dfdad0ee16fa266aad490493126",
+  "remaining_cases": 6,
+  "research_admitted": false,
+  "scientific_aggregate": null,
+  "scientific_method_changed": false,
+  "source_packet_regular_files": 47,
+  "sources_sha256": {
+    "models/archery_recovery.py": "8e29c1931c1ecb9734fa31a969be0524efe2545f08df15127bc7eb73f7db4215",
+    "scripts/prepare_archery_recovery.py": "b6d2da12728d6e065595f4ce9fbf2180b0ee10c9a3389945abd8f50b9a32db17",
+    "scripts/recover_archery.py": "54fae905891d0ac2681024f616aabb6c66de315515c53ac74ca2ac6fa650441b",
+    "support/core-packet/CONTINUATION.json": "2f692b5caefee4dcc51964d122cf38c00cbc5c427ead473c771456c9daa2a2dd",
+    "support/core-packet/INPUT.json": "18c60840a02daea6b21ddfbf6974195674ab53a02b876153c4eb5f827115e14b",
+    "support/core-packet/models/archery_continuation.py": "c27906c5bd383516d3259b8edc34ca798206776b6db7e89719a248850728a61c",
+    "support/core-packet/prior-INPUT.json": "29ca7d6e51c0f48fcbabfe07166c6a3509553a86fb22e730e01d202aa9e81074",
+    "support/core-packet/prior-OPERATION.json": "f87bc15e374445416ff636b40f6cf4cf5acbd76e18de1d228008567b82c391c6",
+    "support/core-packet/prior-receipt.json": "3e81a122302aad09d176f42bb9ba90c974e92fe1731b682a4839a9e6f67f0025",
+    "support/core-packet/scripts/continue_archery.py": "7b46ad55c61fc8f0ebc19566c5d4980e3164c365c42f2ade54889e6071b4537d",
+    "support/core-packet/scripts/prepare_archery_continuation.py": "050b1e96bb82e0a8eeeda3b457d4cced1a9acff63c9d8d5e3998c2fdbcfab5eb",
+    "support/core-packet/support/core-packet/CONTINUATION.json": "765dee9fa579d7e225b49bc992e89bb8b58e4924a26bae7e4f42407af6f0169d",
+    "support/core-packet/support/core-packet/INPUT.json": "4fafd4b2445075e33b3558bf26d22f6cfe4349903df2ad702afca2d9195b1485",
+    "support/core-packet/support/core-packet/models/reviewed_panel_batch.py": "7989283aca4be98e53929d0761110d0896e8d8a3324e1751fa4141641e067651",
+    "support/core-packet/support/core-packet/prior-INPUT.json": "c65a86c097053d92f3f0f9bf7e1471311c9c4255bf6ded448266f78a3f5833ed",
+    "support/core-packet/support/core-packet/prior-OPERATION.json": "5ce24d51cb95fe6a087c52efb4941b2b63469c5a556a75c4b9efb41814e71206",
+    "support/core-packet/support/core-packet/prior-receipt.json": "df880b3e603c6baa4c42860b918cc0ef4c152e29c046fe78f77304119f2c7281",
+    "support/core-packet/support/core-packet/scripts/continue_reviewed_batch.py": "68f6a0c7df34453e881ea11c668bbe4fe2994418ee5b42bfc744b684d20065c2",
+    "support/core-packet/support/core-packet/scripts/prepare_reviewed_batch.py": "720a2130c6e33952b0ccf9e378258590f587c8864ae1271a0a17038a879574f9",
+    "support/core-packet/support/core-packet/support/core-packet/CONTINUATION.json": "46920eb57261f136f24dc8a3d9ae2d1ea181fdb781c398101fc7e939f14a89ca",
+    "support/core-packet/support/core-packet/support/core-packet/models/reviewed_panel_continuation.py": "51f78c2b4ff4904f4492e4ff055d58eb7f219a4a3b1f440dd502c43725c71b96",
+    "support/core-packet/support/core-packet/support/core-packet/prior-INPUT.json": "4e0ea9e51c0c2e53c85d17f94a5979b1be75aa3db471134ad155939a13dc7096",
+    "support/core-packet/support/core-packet/support/core-packet/prior-OPERATION.json": "6289c007883743c001f4ab04ac6aff71c0bedbc0300f3ede1dc0dacbb08ad27f",
+    "support/core-packet/support/core-packet/support/core-packet/prior-receipt.json": "aaecab1ee4784ccf4fe98bbdb06ac5932810dadd1daf2ebecd7e3f6d7cf01762",
+    "support/core-packet/support/core-packet/support/core-packet/scripts/continue_reviewed_panel.py": "2e745b4d2010328767f04d880fa241906adca77ee4a4eb5a37cb9a14102140a5",
+    "support/core-packet/support/core-packet/support/core-packet/scripts/prepare_reviewed_continuation.py": "2d6af13261bdc1f35593252635ad55d0846c4925ec59b7f0b48abbbafc853aba",
+    "support/core-packet/support/core-packet/support/core-packet/support/reviewed_panel.py": "e654928424efd688a7f2d2077150ecf13502711f31fedd22a038e581fb7cb59f",
+    "support/core-packet/support/core-packet/support/core-packet/tests/fixtures/reviewed_continuation_metadata.json": "cccf72508fb9717dd9772687252cd72642e0f397d1bdee6b6b8c65a73f08ae1c",
+    "support/core-packet/support/core-packet/support/core-packet/tests/test_reviewed_continuation.py": "558e39fa9fa05fea7e2512767759ed0c99f1559677da7f612388e7eaac0981ea",
+    "support/core-packet/support/core-packet/support/reviewed_panel_sync.py": "fb736bef98c982bb23b44e30a4da5d8dae572107277b325ef74202eac28f0f98",
+    "support/core-packet/support/core-packet/tests/fixtures/reviewed_batch_metadata.json": "d7f354bc5164f248a6b070d68a26b42ac7e7dde7b44690fd696cbb4d4c085cba",
+    "support/core-packet/support/core-packet/tests/test_reviewed_batch.py": "c8bf00c9ccb41106ca097c6dc0ff145d0b70a965b1c02a1f1af67b96c6beb261",
+    "support/core-packet/support/yoyo_review_sync.py": "c7e55cec862c58938783045fa4accc7c0fbcfe2009d6a2f79b644b619a1fdf87",
+    "support/core-packet/tests/fixtures/archery_continuation_metadata.json": "ec6016855b29384b2f808476e17b7050d3d1e8404a00a0edf5e5b3af2686a05c",
+    "support/core-packet/tests/test_archery_continuation.py": "6b33dc7c5d66710a66a4cb271dbe2ef3a049ff1baa073dfa5746560e897a6958",
+    "tests/fixtures/archery_recovery_metadata.json": "382730898f3bc7afd5c5b436ddaa8d306086ce101fb81a9d47fa49317594625e",
+    "tests/test_archery_recovery.py": "f3dd19c4972d48d5a7bf5761c21b57732eb9a02661e1253bbf2b373472710f3c"
+  },
+  "strict_GPU_guard_changed": false,
+  "target_case": "clip-06-bank-1",
+  "target_host": "linux10603",
+  "tests": {
+    "campus_required_before_model": 172,
+    "combined_extracted": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 172
+    },
+    "local_focused": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 96
+    },
+    "new_packet_campus_tests_performed": false
+  },
+  "validation_index_sha256": "11ad1fa2ba3c5ae5223e7a980b43be0f987880b1aacee2571e35cd72c2c50637"
+}

@@ -1,5 +1,154 @@
 # Research Progress Reports
 
+## 2026-10-27 — Archery recovery passes; fifteen diagnostic cases verified
+
+The approved single recovery on linux10603 completed with job0 and first
+copy0. Its pinned reviewer and separate saved-evidence audit pass172 actual
+campus tests,173 tensors,320 finite nonzero gradient observations, all four
+attacks, exact fresh A replay and six strict GPU boundaries. The launcher took
+43m18s, conservatively charged43m19s within its extra80-minute window. The
+prior39m08s remain charged and the old remainder was not stacked. The grant
+is consumed; unused time cannot start another attempt.
+
+Archery's two banks agree on52 nonattack tensors, clean baselines, weights,
+runtime, clip, targets and starts. All470 before/after historical hashes,
+three old STOPs and the failed claim/outcome remain intact. The panel now has
+15/20 independently verified diagnostic cases, seven complete clip pairs and
+five cases remaining. The original new execution and review marker are saved;
+the inherited transport attempt-label defect is documented without rewriting
+raw evidence.
+
+Next prepare one separate metadata-only append of that original review and
+independently inspect the actual receipt. University registration remains14
+until then; no new operator or GPU launch is prepared. Both attended job and
+download have ended, so SSH can be closed. No model/test/remote work reran
+during review, and no partial scientific aggregate, held-out access, paid work
+or research adoption occurs. User commits separately.
+[Actual recovery audit](report/checks/2026-10-27-archery-recovery-verification.md).
+
+## 2026-10-27 — Actual approved recovery activation verified
+
+The actual university metadata command returned0. Independent review verifies
+five exact records,470 preserved hashes, fourteen original identities and the
+user-approved one-use grant. All three old STOPs, consumed claim/outcome and
+39m08s charged remain intact; the old40m52s remainder is not added to the new
+80-minute window. No grant is consumed yet.
+
+A fresh user GPU check, requested because the earlier snapshot was hours old,
+matches linux10603's UUID/driver and shows no compute process. Runtime checks
+remain mandatory. The reviewed marker releases the single attended helper;
+actual campus172 CPU checks and GPU recovery have not started. The local
+receipt audit starts no model, tests, extra connection or repeat activation.
+Progress stays14/20 accepted cases and six complete clip pairs.
+
+Next run the new linux10603 helper once from Mac Terminal, keeping the
+connection and Mac awake through evidence download. No paid work, held-out
+access, partial aggregate or research admission occurs. User commits separately.
+[Actual activation audit](report/checks/2026-10-27-archery-recovery-activation-verification.md).
+
+## 2026-10-27 — Explicitly approved Archery recovery handoff prepared
+
+The user approved one additional attended80-minute attempt on the same host,
+after its GPU is clear. A separate grant/source/execution namespace preserves
+all470 files, three old STOPs, the failed claim/outcome and39m08s charged.
+The old40m52s remainder is not added to the new window. Matrix and fresh replay
+must rerun; no old partial tensor can substitute for new acceptance.
+
+All96 focused and172 extracted combined checks pass with zero failures,
+errors or skips. Full local installer/activation/Registry/locks/claim/
+accounting/export/copy rehearsal passes against actual saved failure history.
+Its GPU/neural body is mocked for a synthetic case; acceptance stays14 and the
+reviewer rejects that CPU archive. Timers, single-use behavior, corruption,
+review gating and partial publication are checked. The original GPU guard
+is unchanged; extra read-only process snapshots now accompany its rejection.
+The fresh user GPU snapshot matches and has no compute process.
+
+Next run the source-only metadata activation once and independently verify
+its actual receipt before the attended GPU helper. No university activation,
+new campus tests, grant consumption or GPU execution has occurred. Progress
+stays14/20 cases and six pairs. No held-out access, paid work, partial aggregate
+or research adoption occurs. User commits separately.
+[Prepared recovery](report/checks/2026-10-27-archery-recovery-preparation.md).
+
+## 2026-10-27 — Archery failure audit complete; separate exception proposed
+
+The actual copy returned0. All73 files,24 partial-archive members,161 JUnit
+checks and392 historical hashes verify. The unmodified qualified verifier
+checks88 matrix tensors and280 gradient observations, then rejects the missing
+required CUDA observation. No fresh replay is present. The original claim and
+STOP/outcome remain intact; Archery stays unaccepted. Progress remains14/20
+cases and six complete clip pairs.
+
+Conservative whole-launcher time is38m25s; including the earlier43seconds,
+total charged time is39m08s, with40m52s left under the original allowance.
+The numerical claim is consumed, so that remainder is not a retry grant.
+The copy snapshot shows nxnode.bin183MiB; the exact PID at failure is unproven.
+A one-additional80-minute attended attempt on the same host is proposed, only
+once its GPU is clear, with the same guards and a full fresh matrix/replay.
+It preserves465 files and all prior time/failed records; no operator or new
+GPU helper is created and user authorization remains pending. No paid work,
+held-out access, partial aggregate or research adoption occurs.
+[Actual audit](report/checks/2026-10-27-archery-timecarry-partial-verification.md)
+· [Concrete proposal](report/checks/2026-10-27-archery-recovery-proposal.md).
+
+## 2026-10-27 — Archery matrix-after guard rejection; evidence copy prepared
+
+The actual attended command returned1. Its transcript reports161 CPU passes,
+reaches all four matrix arms and then rejects another CUDA process at the
+original matrix-after hardware check. No fresh replay starts. The numerical
+claim is consumed; this case is incomplete and panel acceptance stays14/20
+with six complete clip pairs. A later user snapshot shows nxnode.bin PID2260645
+using183MiB; its presence at the exact failure instant is not established.
+
+A separate copy-only helper is prepared. Twelve local checks pass with real
+record-lock access rules and a full synthetic failure transport using392
+genuine historical pins. Actual copying and independent review of the partial
+archive, JUnit, claim/STOP and new elapsed charge remain pending. No model
+retry or extra allowance is authorized. The old43-second charge remains.
+Next collect evidence without changing university files or foreign processes.
+No paid work, held-out access, partial aggregate or research adoption occurs.
+[Incident and copy checks](report/checks/2026-10-27-archery-timecarry-guard-failure.md).
+
+## 2026-10-27 — Actual Archery metadata activation verified
+
+The actual university receipt returned0. Independent review checks all five
+records,392 preserved hashes, fourteen original identities and the original
+startup clock. Archery retains43 seconds used and4757 seconds remaining, with
+one unused numerical claim and no extra attempt or allowance. Both historical
+STOPs, failed outcomes, grants, sources, unused old request and clocks remain.
+
+The actual review marker releases the one attended linux10603 helper. No new
+GPU job has started;161 required campus CPU checks and the numerical case are
+pending. The local receipt audit starts no model, test suite, extra connection
+or repeat activation. Acceptance stays14/20 cases and six complete clip pairs.
+Next run the single case from Mac Terminal with the connection and Mac awake,
+then independently review its export. No partial aggregate, held-out access,
+paid work or research admission occurs.
+[Actual activation audit](report/checks/2026-10-27-archery-timecarry-activation-verification.md).
+
+## 2026-10-27 — Archery continuation carries the original startup charge
+
+A separate source/metadata packet preserves all fourteen original case identities
+and392 file hashes. The unused Archery bank1 claim retains43 seconds spent and
+4757 seconds remaining, including new bootstrap, CPU checks and preflight.
+There is no extra numerical attempt or allowance. The new source/execution
+identity preserves the qualified worker body and strict GPU guards.
+
+All85 focused and161 extracted combined checks pass, with zero failures,
+errors or skips. The local full-path rehearsal uses genuine historical evidence
+and real locks for activation and accounting; only GPU/neural work is mocked
+for its synthetic case. Export/download checks pass, and the reviewer rejects
+the CPU fixture as CUDA evidence. Timers, one-use bootstrap, corruption checks,
+activation gating and interrupted metadata publication are checked. The user's
+fresh linux10603 GPU snapshot is clear; runtime guards remain mandatory.
+
+Next run the bounded metadata activation once from Mac Terminal and inspect
+its actual receipt before the attended GPU launch. The actual new activation
+and model have not run; progress stays14/20 accepted cases and six complete
+clip pairs. No held-out access, paid work, partial scientific aggregate or
+research admission occurs. User commits separately.
+[Prepared handoff](report/checks/2026-10-27-archery-timecarry-preparation.md).
+
 ## 2026-10-27 — YoYo review registration verified; fourteen accepted remotely
 
 The actual university metadata sync returned0. Independent audit verifies

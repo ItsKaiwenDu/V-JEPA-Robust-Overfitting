@@ -2,6 +2,323 @@
 
 ## Current stage
 
+LATEST October27: ACTUAL ARCHERY RECOVERY VERIFIED; 15/20 LOCAL, REGISTRATION PENDING.
+Read docs/archery_recovery.md and report/checks/2026-10-27-archery-recovery-verification.md/JSON.
+Actual raw archery-recovery-20261027/linux10603 latest-session and latest-download both
+attended-session-20261028T034925Z.Jhlqnk, job0/download0, no copy retry/model restart.
+Pinned recover_archery.py review passed0 in /private/tmp, reviewed output moved to
+actual session/independently-reviewed; marker SHA
+ba9adb7e31588dd85a697436c637a3c602997fb4f6c701957ee775af0c9f401a.
+Independent saved-evidence audit passed; script/verification/accounting/review-command
+saved in actual session. Actual172JUnit0fail/error/skip;173tensors/320finite-nonzero
+grad observations, four arms/rawpixels/prefix/best selection/source/runtime/weights/
+native CUDA, all84 matrix/replay inputs and freshA adversarial exact, six strict GPU
+boundaries pass. GPU boundaries are not continuous reservation. Matrix4.911GiB,
+replay3.754GiB within7GiB. Archery bank0 matches52nonattack tensors/clean baselines/
+runtime/weights/settings/clip/targets/starts; different attack banks/identities retained.
+All470 before/after hashes match incl465proposalpins+5failedrawpt, all3oldSTOPs,
+oldconsumedclaim/outcome/partial/source/grants/clocks/original14origins preserved.
+New honest execution87bd519d87e4aae442d4837dac6f165d9459f4fcb2903328b928488c69db4760;
+numeric receipt a923a1838d11215c2a33f59de59e155806fdf8e3eda2698d94db5a63e6d3dfc1.
+Transport119582720B/75members(74files+manifest) SHA
+beab12d380e7a81cec020a323232908c6d24a2bcdb30f3cc6fb315c2bf0f7d88;
+outer116709330B/72members SHA2589bf4fc97cd14c262280b6bc65eecd9bd5de6bf13f02c57db0cd3385ca7ccb.
+Actual20:49:29–21:32:47PacificOct27, whole43m18, conservative bootstrap upper2599s
+(43m19), numericalparent2511.599s, withinnew4800 inclsetup/172CPU/export+15cleanup.
+Old2348charged retained; total4947=82m27 across original+approvedextra; old2452 NOT
+stacked. Grantfd4b4cb8d42e442f8d9ee8ac7130945e NOWCONSUMED. No retry/queue/reuse.
+Frozen collector has legacy transportattempt label attempt-01; actual uniqueop/path/
+claim/grant/numericexecution all verify recovery-01. Audit explicitly discloses;
+rawsource/evidence unchanged. Future helpergeneration must use actualattemptlabel;
+do not patch frozen sources or invent mismatchfix for this completed result.
+Independent accepted NOW ORDER[:15] (Archerybank1 gap filled, YoYobank0 retained),
+15/20,7completepairs(00–06),5remaining:07b1,08b0/b1,09b0/b1. This is diagnostic
+panel progress, NOT overall research completion/admission. No partialmean.
+University lastregistered14; newlocal markerNOTsynced. Raw pending-archery-review-
+sync-20261027.json pins exact originalmarkertext/SHA, actualarchive/execution/outcome/
+grant/accounting. Only pendingregistration spec exists; no syncoperator/newGPUhelper.
+NEXT prepare separatelypinned metadata-only append of EXACT original marker to
+archery-recovery-execution-20261027/reviews/clip-06-bank-1.json. Preserve ancestors,
+all failed/newsuccessfulclaims/outcomes/exports/sources/times/3oldSTOPs; do not relabel
+producerrecords or oldexecution. Independently inspect actual receipt15 accepted
+BEFORE further dispatch. Subsequent fixedhost nextpair may be09YoYo bank1 and03
+Bowling bank0; NOT prepared/started now. Both current attended job/copy ended;
+user may closeSSH. No newGPU/model/test/remoteconnection duringreview, no paid/
+heldout/guard/tolerance/study/budget/researchadoption. User commits themselves.
+Earlier activation-ready/unrun snapshots below historical; never repeatGPUhelper.
+
+LATEST October27: ACTUAL APPROVED RECOVERY ACTIVATION VERIFIED; ONE ATTENDED HELPER READY.
+Read docs/archery_recovery.md and report/checks/2026-10-27-archery-recovery-activation-verification.md/JSON.
+Raw archery-recovery-20261027/latest-activation points
+activation-session-20261028T034037Z.23bdUE,SSH0;20:40:37PacificOct27.
+Receipt98346B SHA5417f0b5db0cff2306a646a8c40e4d3e8642134abca315ec8aba7da856ec1a52.
+Same deterministic bytes as LOCALrehearsal, actualsession/exit/stderr/readbacks
+separatelyverified. m.boundary+verify_activation and independentexplicitchecks
+pass5records imports/grant/request03/resolution/genesislast, preexisting[].
+470returned hashesmatch incl465proposalpins+5rawfailedmatrixpt,3oldSTOPs,
+consumedclaim/outcome/partialarchive/source/clocks,all14originalgappedorigins.
+Operation1757892c83921e0cee8391b2468989680bcb44c57b6fa686f3528de9142eb4b5
+module8e29c193...;actualauthorization411417...boundproposal9e8f...;
+grantfd4b4cb8d42e442f8d9ee8ac7130945e approvedoneextra80min,old2348chargedkept,
+old2452remainingNOTstacked,new4800 inclnewsetup/172CPU/preflight/export+15cleanup.
+No oldmatrixreuse; newcaseclip06bank1/03/recovery-01,oneunusednewgrant. No need
+askagainresourceapproval; explicitlyreceivedearlier. Actualgrant/modelnotstarted.
+OldGPUstatussaved17:14wasstaleat20:43; newreadonlystatus wasaskedandRECEIVED
+via call_b144ea66a5bb47faa8a86c6101f21dbc duringTHISreview:linux10603,
+NVIDIAGeForceRTX3070,UUIDGPU-e54fae90-feeb-8106-d8c0-1974fe48555f,
+8192total94used,driver580.178.04,compute[]. Do NOT ask sameGPUstatus againnow;
+snapshotnotreservation. Runtimeunchangedstrictguard beforegrant+6boundaries
+stillrequired; diagnosticfailureobservercapturesread-onlyprocesssnapshots,
+no foreignkill/whitelist/settings/tolerancechange. EarlierNX snapshots historical.
+Actualsessionindependent-verification.json+independent-audit.py saved;
+raw/activation-reviewed.json verified/op/accepted14/previous2348/fresh4800/
+grantid plusfreshstatus; fresh-user-GPU-status-for-launch.json saved. No new
+model/test/extraSSH/activationrepeatduringreview. No linux10603/latest-session
+or latest-download existedatthischeckpoint; do not claim GPUrunbegan.
+NEXT userMac (separatetab,MACprompt) runsNEWraw/linux10603/run-case.sh ONCE;
+keepTerminal/lidawakeuntildownloadsfinish. Originallegacy03lease,7GiBcap,
+172campusCPUguards beforemodel, same3600/900/<=4620caps/new4800wholeclock.
+No autoretry/queue. Onlythisoneextraattempt approved. Otherhost09staysidlefor
+thissingle-scopedhandoff. OnDone inspect actualjobconnectionstatus/terminal,
+latest-download/copyexit/transport74files+manifest75/outer72members. Ifcopy
+fails repaironlycopy afterreview, neverrerunmodel. Reviewactualcompleteexport
+with pinnednewCLI trustedpackage/reference/op/archiveSHA and independent
+rawartifactaudit:172JUnit0fail/error/skip,4arms,freshAexact/nativeCUDA/strict6
+GPUchecks/inputs/targets/starts/bounds/prefix/bestselection/newhonestruntime
+identityandgrant/old2348retained/no stack,470before+afterpins. Allold3STOPs
+mustremain. Count15onlyafteractualfullexportreview; current14/20independent+
+registered,6pairs,6pending. Newrecoveryunrun; no paid/heldout/partialaggregate/
+training/study/researchadmission. Usercommits self. Earlierunrun/pendingnotes
+belowarehistorical.
+
+LATEST October27: ONE EXTRA ARCHERY ATTEMPT APPROVED; VERIFIED HANDOFF READY, NOT RUN.
+Read docs/archery_recovery.md and report/checks/2026-10-27-archery-recovery-preparation.md/JSON.
+User explicitly answered "Approve one extra80-minuteattempt (Recommended)" to
+call_3f4cf3f1f9674ca4874c94224370881c. Do NOT ask again for that same resource
+exception. Original inert proposal SHA9e8f177667c3ecc9e8d8c5c38b8bdb25b4ef1dfdad0ee16fa266aad490493126
+staysapprovedfalse; separateactualauthorization in rawproposal/authorization.json
+fileSHA41141726758e31b4babf76feadfe48618b4399a5147ace7dcea614ea14feabc3,
+payload830464d0b2df7ca18e87ff108c5ecfde4575cfe70967a86143f12946207c6c48,
+grantfd4b4cb8d42e442f8d9ee8ac7130945e. Only03/clip06bank1/recovery-01,one extra
+4800s incl newbootstrap/CPU/preflight/export,15cleanup,3600/900/<=4620caps;
+previous2348charged retained; old2452remaining NOTadded, no reset/stacking.
+Freshmatrix+freshA fromscratch; no oldpartialreuse. Sameparams/host/strictguard.
+New models/archery_recovery.py,CLI recover_archery.py,builderprepare_archery_recovery.py,
+96tests/fixture. Raw archery-recovery-20261027 has47filepacket,37sources,
+902082B source/JSON-only payload(no tensorpayload/weights/keys). Op
+1757892c83921e0cee8391b2468989680bcb44c57b6fa686f3528de9142eb4b5;
+module8e29c1931c1ecb9734fa31a969be0524efe2545f08df15127bc7eb73f7db4215;
+inputc1dc80b466263872afbcbff5450f7efedbacf7264e69d5da62dec1f94994411c;helperf7585711ec002203f7a565d8e106b46b5372ff2ac49e10fb5b4a2025e9d9c2dc.
+Targetarchery-recovery-execution-20261027; oldsource17a/c279/currentfailedSTOP
+b74da201.../oldactualactivationreceipt1bb... remain. Protect470=465proposalpins+
+5rawfailedmatrix .pt files derived actualpartialsidecar. ThreeoldSTOPs/claims/
+outcomes/grants/faileddata/source/clocks/all14originalorigins immutable.
+Newscoped5records imports/recoverygrant/request/resolution/genesislast. Grant
+consumed only after preclaim hardwaregate under original legacy03lease. No
+copied-root reset. Honest newexecution; neuralworker onlydirectory expression
+changes, numericparent onlyCLIpath. Newfailureobserver captures read-only
+nvidia_smi+compute_processes on rejected originalhardware_gate, re-raises same
+exception; no PIDwhitelist/kill/serverchange/tolerance/methodchange.
+Freshuser03status received THISturn via call_055142c4180643da9a26bf85c26c1673:
+UUIDGPU-e54fae90-feeb-8106-d8c0-1974fe48555f,8192total94used,580.178.04,compute[].
+Do NOT ask identical status again now; snapshot not reservation, runtimeguard
+stillmustpass. Earlier NX snapshots are historical. No GPU work launched.
+96local/172combinedextracted0fail/error/skip. Fullactualinstaller/extractor/CLI/
+activation/verifier/Registry/leases/claim/accounting/export/collector/receiver
+LOCALrehearsal passes reconstructed genuine actualfailedcheckpoint/470hashes.
+Only home/host substituted for metadata; GPU/neuralbody mocked for synthetic
+case. OldfailedSTOP/claim/timeintact, acceptance14; CPUarchive rejects atplan.
+72outermembers/74files+manifest75transport. Corruptcopy/wronghost/expiredtimer/
+bootstraprepeat/prematurehelper reject; partialpublication completesgenesislast.
+NFSdescriptoraccess rule checked usingrealPOSIXlocks; no newactualNFS/GPU.
+GNUtimeout notavailableMac; retainedshell/sourcerealremainingexprchecked.
+RawvalidationINDEX pinsXML/proof/scripts/LOCALreceipt5417f0b5db0cff2306a646a8c40e4d3e8642134abca315ec8aba7da856ec1a52;
+LOCALreceipt is NOTactualuniversity. No raw/latest-activation or reviewedmarker
+or linux10603/latest-session exists yet. Do not claim actual activation/run.
+NEXT userMac runs NEWraw/activate-continuation.sh ONCE,300+15,on09metadataonly;
+normalpasswordTerminal. No model/tests/grantconsumed. OnDone independently
+inspect raw/latest-activation SSH0/stderr/receipt/expectedsourcepins and
+m.boundary+verify_activation, exact5records/470hashes/14gapped/original2348+
+fresh4800/grantid, all3STOPs preserved. Saveactualaudit +activation-reviewed.json
+verified/op/accepted14/previous_charged_seconds2348/fresh_attempt_seconds4800/
+grant_id. Onlyafteractualreceiptpass handoff03/run-case.sh ONCE attended,
+Terminal/lidawake,172requiredCPU inclsetup. NewCPU/grant/modelunrun currently.
+No automaticGPUretry/queue/paid/heldout/partialaggregate/researchadoption.
+Usercommits self. Earlier pendingapproval/inertproposal notes are historical.
+
+LATEST October27: ACTUAL ARCHERY PARTIAL AUDIT VERIFIED; RESOURCE EXCEPTION PENDING.
+Read report/checks/2026-10-27-archery-timecarry-partial-verification.md/JSON
+and archery-recovery-proposal.md/JSON. Raw archery-timecarry-partial-20261027/
+latest-download points partial-download-20261027T231436Z.7bNq1g,SSH0,
+73164800B transportSHAa85c97e87f7fd123b4befe0b9e41aba77f3659d4323cd84170d253aac05777c4.
+All73files+manifest74,27opsources/guardpins/392oldhashes verify. Inner71010848B/
+24members SHA2655a997207cd74053745fd90e9a62386e8e17de9c597ffebf1a3a497e483a5c.
+Actual161JUnit0fail/error/skip. Newexecutiond3ba72570b30f358dfe597f1e1bea809aa258f10bd8f92febfe406622da3afd2
+matches honest timecarry source17a122. Unmodified qualified verify_case runs
+all saved matrix tensor/trace/bounds/prefix checks then FAILS exactly missing
+matrix/observation.json; no synthesizedobservation/domainchange/tolerancerelax.
+88tensors/280finite-nonzerograd observations saved; no acceptedmatrix/fullcase.
+MissingfreshAreplay/finalobservation/receipt/outerexport. Sessionmatrixtask
+exit1/notimeout,failedGPUmatrixafter23:03:57.932UTC. Singleclaim consumed,
+STOP/outcome exact fileSHAb74da2014b8842c580a6161f740e075a47efffdef966649a9963bd90ba83a762.
+SourcepreservesoldSTOPs/grants/failures/clocks/all14origins. Copy snapshot
+23:14:43.291UTC stillnxnode2260645/183MiB; exactfailuretimePIDunproven. Do not
+kill/whitelistforeignprocess/changeserver/guard. No need asksameGPUstatusnow.
+Wholeclockbootstrap1793139952.9201736, shellUTCstart22:25:53 loggedAFTER earlier
+epoch (one-secondrollover valid); end23:04:16. Interval[2303.0798264,2304.0798264),
+ceiluppercharge2305=38m25 includes finalcleanup, notearlieroutcome2290.466s.
+Carryold43 => total2348=39m08, originalremaining2452=40m52. NumericclaimCONSUMED,
+remainingtimeisNOTsecondattemptgrant. Partialverification+attempt-accounting+
+independent-audit.py savedactualsession; numericinspection in /private/tmp path
+recordedreport. No model/test/extraSSH/copyrepeat duringaudit. Do not repeat
+completedcopy/model. Current14/20independent+registered,6pairs,6pending.
+Concrete INERT proposal saved raw archery-recovery-proposal-20261027/proposal.json;
+payloadSHA9e8f177667c3ecc9e8d8c5c38b8bdb25b4ef1dfdad0ee16fa266aad490493126. It pins465files=392old+73new incident/source/
+activation/launcher files (referencefilesarealsopinned). One EXTRA attended80min
+attempt on03 onlyAFTERGPUclear, onefreshmatrix+freshAreplay, nooldtensorreuse;
+original2348chargedretained, oldremaining2452NOTadded to fresh4800;15cleanup,
+original3600/900/4620caps, exactsame scientificparams/host/strictguards, honest
+newnamespace/identity/singlegrant, all STOPs and originals preserved. Approvedfalse,
+no executionoperator/helper/newgrant created. User explicitexceptionrequired
+because frozen config line77/requestmax_attempts1 isconsumed. Proposed packet
+archery-recovery-20261027/rootarchery-recovery-execution-20261027/recovery-01.
+NEXT ask explicit oneadditional80-minuteattempt exception (preparation only,
+noGPUstartsnow), or leavecasepending. Complete proposal is reviewable; no
+blanketapproval/repeatedoldFloorgrant. Onuserapproval saveexactauthorization
+boundproposalSHA and onlythenprepare/check source+helper; futurefreshidleGPU
+beforelaunch. Neverresetclock/deletestop/autoqueue/reusepartialmatrix. No paid/
+heldout/partialaggregate/study/researchadoption. User commits themselves.
+Earlier copy-pending/activation-ready notes below are historical.
+
+LATEST October27: ACTUAL ARCHERY MATRIX-AFTER GUARD REJECTED; COPY-ONLY HANDOFF READY.
+Read report/checks/2026-10-27-archery-timecarry-guard-failure.md/JSON and current
+lead in docs/archery_continuation.md. Actual raw archery-timecarry-20261027/
+linux10603/latest-session is attended-session-20261027T222547Z.YqYnNM;
+jobconnection1,161CPU passes in transcript (76in5.18s+85in18.01s),matrix A/B/C/D
+then original strict GPU guard fails at worker matrix-after. No replay starts.
+Claim CONSUMED, new STOP/outcome expected by source; partial artifacts/clock
+not copied yet. NOT same earlier preclaim refusal; no unused claim remains.
+Do NOT repeat run-case.sh,reset time/delete claim/STOP,whitelist/kill processes,
+change frozen source or invent any additional attempt/allowance. Guard source
+unchanged; errors are not evidence of SSH-session-count restriction.
+User read-only snapshot TueOct27 16:09:03 on03 shows nxnode.bin PID2260645 CUDA
+183MiB,total285MiB,driver580.178.04,3070/8192. Consistent with guard; specific
+PID at failure time is unproven. No need ask hostname/nvidia again now.
+New tracked scripts/copy_archery_partial.py sourceSHA059a49ed63f3eb09c3a58216f6be941b2573993ef6b0a0cab85b715132ac8ef8;
+raw archery-timecarry-partial-20261027 has copy-existing-failure.sh,source,
+known_hosts,pinnedCONTINUATION andvalidation12check proof. Sourceop17a122 unchanged.
+HelperSHA36c5d5befc10d8ae2d11990246301c8c49ee8e10ace80fd82807be96328d5bdc. Captures fixed62required files
+plus boundedoptional partialarchive/matrixmetadata/replay/preservation/outer
+files; syntheticfixture actual73files+manifest74. No required successful outer
+archive/receipt/replay. Captures claim/STOP/outcome,14launcherfiles,32packetfiles,
+3matrixGPU checks and current read-only nvidia. Rehash392 baseline; records
+changes without hiding evidence. SH on existing rb hostlease+currentmutex held
+THROUGHstream, no peerlease, no remote writes/projectimports/model/tests.
+Bound300+15,350MiB. Receive byte-verification is NOT numerical acceptance.
+12local checks pass real POSIXrecordlocks/NFSdescriptor semantics and independent
+process exclusion nativeflock+lockf, all392genuinepins, stream/receive/corruption/
+source/symlink/STOP/sidecar/tarlink/unchangedbytes+inodes. GPU/failedcase mocked
+CPU-only; no actualNFS/remotequalifications. All previous packets/history kept.
+NEXT user Mac runs NEWraw/copy-existing-failure.sh ONCE and repliesDone.
+No actual copy yet; no latest-download in NEWraw at prep. OnDone inspect actual
+latest-download/SSH0/stderr, transportmanifest optionalinventory/member hashes,
+originalop/source/guardpins,161JUnit,failedmatrix event/session/outcome/STOP,
+partial innerarchive and missingobservation/replay. Verify392preservation and
+actual launcher clock including prior43 before deciding any next action.
+Any numeric retry/newattempt requires separate reviewed exception; NO recovery
+prepared or authorized. Keep current14/20independent+registered,6pairs,6pending;
+no partial scientific aggregate/heldout/paid/study/researchadmission. User commits.
+Earlier activation-ready and unrun snapshots below are historical.
+
+LATEST October27: ACTUAL ARCHERY TIME-CARRY ACTIVATION VERIFIED; ONE GPU HELPER READY.
+Read report/checks/2026-10-27-archery-timecarry-activation-verification.md/JSON
+and docs/archery_continuation.md. Raw archery-timecarry-20261027/latest-activation
+points activation-session-20261027T222211Z.8o9vO1, SSH0. ReceiptSHA
+1bb93c739f3664bb4337b8d4333d5be01a59d5b54550e00a94c7be054bdb0f5e;
+same deterministic bytes as LOCAL rehearsal, but actual session/exit/stderr/
+readbacks separately audited. Qualified m.boundary+verify_activation and an
+independent explicit audit pass. Exact5records imports/request03/resolution/
+timecarry/genesislast, preexisting[],392returned hashes unchanged. Gapped14
+original origins unchanged; STOPs/failures/grants/source/oldrequest/clocks kept.
+Recomputed original conservative clock43, remaining4757 including new setup,
+one unused numeric claim, prior attempts0/additionalallowance0. No metadata
+repeat, extraSSH/model/test suite ran during local review. Saved actualsession
+independent-verification.json,independent-audit.py and raw/activation-reviewed.json
+with verified/op17a122/accepted14/carried43/remaining4757. GPU helper pins verified.
+Actual new GPU run NOT STARTED; no linux10603/latest-session or latest-download
+at this checkpoint. Do NOT repeat activation or any consumed old helper.
+NEXT user Mac runs raw/linux10603/run-case.sh ONCE, attended, Terminal/lidawake,
+normal password. Its real new whole4757timer includes161 required campusCPU
+checks/preflight; original43carry stays separate, no backdating/reset. Strict
+original hardware guard before numeric claim and at6 boundaries; 7GiBcap;
+no foreignkill/whitelist/serverchange/automaticretry/queue. Last user03snapshot
+expectedUUID/8192total94used/driver580.178.04 compute[] known; no need ask again
+now, snapshot not reservation. Metadata activation uses09 only, GPU target03.
+OnDone inspect raw/linux10603/latest-session jobconnection/terminal ending,
+latest-download copyexit/transportbytes59files+manifest60/outer57members.
+Ifcopyfailure, use copy-only recovery after inspection; NEVER repeat model.
+Use qualified extracted models/archery_continuation.py+CLI review with trusted
+scientific package/reference and actual archive pin, plus independent saved
+artifact audit. Require161JUnit0failure/error/skip, fixed numeric inputs/plan/
+new honest executionID/timecarry, four arms, exact freshA replay/nativeCUDA/
+bounds/bestselection/prefix and all6GPU checks. Rehash392before/after and old
+original identities/STOPs/timehistory. Whole actual new bootstrap clock plus43
+must fit original4800; 15cleanup remains. Do NOT count computed-only/CPUfixture
+as accepted. Current14/20independent+registered,6pairs,6pending; Archery bank1
+may count15 only after actual full export review. No partialaggregate/heldout/
+paid/training/study/precision/attack/budget/researchadoption. Usercommits self.
+Earlier activation-pending and handoff snapshots below are historical.
+
+LATEST October27: ARCHERY TIME-CARRY HANDOFF PREPARED; ACTUAL ACTIVATION NOT RUN.
+Read docs/archery_continuation.md and report/checks/2026-10-27-archery-timecarry-preparation.md/JSON.
+New models/archery_continuation.py, CLI continue_archery.py, builder
+prepare_archery_continuation.py,85 tests/fixture; raw archery-timecarry-20261027
+has32-file packet and573922-byte source-only payload. Op17a122f0c6d3c35c00b7a6dcf2037583466bf9498c996941a4f449cd50e470d4;
+modulec27906c5bd383516d3259b8edc34ca798206776b6db7e89719a248850728a61c;
+input18c60840a02daea6b21ddfbf6974195674ab53a02b876153c4eb5f827115e14b; helper0aa9c492f163e535ed50ad92b4e2234718d87e6b9d9107d5e9d56f722e60ba93.
+New coordinator archery-timecarry-execution-20261027; only03 clip06bank1.
+Actual prior YoYo sync8e44/receipt3e81/currentoldbatch798/op4e599 stay immutable.
+Gapped14=ORDER[:13]+clip07bank0,6pairs,6remaining. Protect392=382+original
+YoYo marker+9 latest sync files. Preserve old03 requestSHA83ef5f962e7ad1ad2dd0549686114a8567f6131b515faeda383d501572b6e84c,
+all14 refused startup files/clocks/accountSHAab600,STOPs/failures/grants.
+Old03 numeric claim unused, original bootstrap consumed. New scoped request
+supersedes ONLY that exact unused request, never deletes/mutates it. One unused
+numeric claim,0 prior attempts,0 extra allowance. Original4800 carries43,
+newremaining4757(79m17s) INCLUDING new bootstrap/CPU/preflight. Real new start,
+not backdated. Original matrix3600/replay900/parent<=4620 reduce with remaining.
+New source/kind/execution honest; worker AST identical, numerical parent only
+new CLI path. Same plan/data/checkpoint/target/precision/masks/restarts/loss,
+7GiB cap and strict6GPU guards. Runtime guard before numeric claim preserved.
+Fresh user03 snapshot UUID GPU-e54fae90-feeb-8106-d8c0-1974fe48555f,
+8192/94MiB driver580.178.04 compute[] received this turn. Do NOT ask again now;
+no reservation implied; never kill/whitelist foreign processes or change server.
+85local/161combinedextracted0fail/error/skip. Actualinstaller/extractor/CLI/
+activation/verifier+real locks/Registry/claim/accounting/export/collector pass
+LOCAL genuine392-file mirror. Only local home/host changed for metadata;
+GPU/neural body mocked for syntheticcase; no real CUDA qualification. Accept14
+unchanged and CPU archive rejected at numerical plan.57outer/59files+manifest60
+transport; corrupt copy/repeated bootstrap/wronghost/expired timer/premature
+launch reject; partialactivation safely completes genesislast. POSIX record
+locks check NFSa+ EXdescriptor rule; no EXonrb. Constructors outside own mutex.
+First local fixture's overly tight preflight-duration assertion corrected to
+actual-clock formula; failed temp fixture preserved, no production/tolerance/
+allowance change. GNU timeout not run locally; shell/arithmetic checked.
+Rawvalidation/INDEX pins XML/proof/scripts/LOCALactivationreceipt; LOCALreceipt
+1bb93c739f3664bb4337b8d4333d5be01a59d5b54550e00a94c7be054bdb0f5e
+is NOT actual university. No raw/latest-activation, no model latest-session,
+no activation-reviewed marker exists yet. Do NOT invent actual success.
+NEXT user Mac runs raw/activate-continuation.sh ONCE,300+15 metadata only on09,
+password normal Terminal. Model helper03/run-case.sh BLOCKED until independent
+actual receipt review. OnDone inspect latest-activation/SSH0/stderr/receipt
+and m.boundary+verify_activation: exact5records incl time-carry,14gapped,
+392unchanged,43carried/4757remaining,oldhistory intact. Save actual independent
+audit and activation-reviewed.json with verified/op/accepted14/carried43/
+remaining4757 only after actual receipt passes. Then hand off03/run-case.sh
+attended; whole timer includes161required CPU tests. No automaticGPUretry/queue.
+Do NOT reuse consumed old bootstrap, old sync or old copies. No partialaggregate,
+heldout/paid/training/study/precision/attack/budget/research adoption. User commits.
+Earlier handoff-pending/current-stage snapshots are historical.
+
 LATEST October27: ACTUAL YOYO ONE-REVIEW SYNC VERIFIED;14REGISTERED/14INDEPENDENT.
 Read report/checks/2026-10-27-yoyo-review-sync-verification.md/JSON. Actualraw
  yoyo-review-sync-20261027/latest-session points
