@@ -6,8 +6,9 @@ cases. University and independent progress agree:17/20 diagnostic cases, eight
 complete clip pairs and three remaining. All previous attempts, STOP records,
 source identities and charged time are preserved.
 
-Do not repeat this completed helper. Next prepare the remaining GPU cases with
-fresh host identity/process checks. No next-case helper is ready at this checkpoint.
+Do not repeat this completed helper. The separately pinned [Bowling bank1 /
+HandStandPushups bank0 handoff is prepared](reviewed_final_pair.md). First activate
+its metadata and independently review the returned receipt before either launch.
 [Actual registration audit](../report/checks/2026-10-28-yoyo-bowling-review-sync-verification.md).
 The preparation instructions below are historical.
 

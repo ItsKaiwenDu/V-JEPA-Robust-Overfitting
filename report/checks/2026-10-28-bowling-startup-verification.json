@@ -1,0 +1,135 @@
+{
+  "accepted_case_count": 17,
+  "accounting": {
+    "additional_allowance_seconds": 0,
+    "basis": "Original whole-bootstrap epoch; ended UTC has one-second resolution, so round its upper bound upward. No allowance reset.",
+    "case_id": "clip-08-bank-1",
+    "claim_and_case_absent_at_snapshot": true,
+    "conservative_startup_charge_seconds": 206,
+    "elapsed_lower_bound_seconds": "204.6155326",
+    "elapsed_upper_exclusive_seconds": "205.6155326",
+    "ended_utc_floor": "2026-10-28T19:13:37+00:00",
+    "host": "linux10603",
+    "kind": "bowling-unclaimed-startup-accounting-v1",
+    "new_GPU_execution_authorized": false,
+    "numeric_attempts_started": 0,
+    "operation_sha256": "b899e6d9b2e6824804a035807ff61ea3517182fbbaabf7910d2dada5a34c82e1",
+    "original_case_allowance_seconds": 4800,
+    "remaining_original_allowance_seconds": 4594,
+    "research_admitted": false,
+    "started_epoch_decimal": "1793214612.3844674",
+    "started_utc_display": "2026-10-28T19:10:12+00:00",
+    "verified_transport_sha256": "b8011463210c3764a960e6fbaf0130d58b8f707316c43774c94122140d60aaa0"
+  },
+  "actual_failed_job_session": "runs/pretrained/diagnostic/bowling-handstand-pair-20261028/linux10603/attended-session-20261028T191004Z.YlPUlV",
+  "actual_session": "runs/pretrained/diagnostic/bowling-guard-refusal-20261028/startup-download-20261028T192925Z.coOrBL",
+  "additional_remote_connections_during_review": 0,
+  "audit_script_sha256": "fc5c37dde10fdd77f57584fb7496f65413f0acafe26709f3e69b3d9276c837e6",
+  "campus_CPU_tests": {
+    "new": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 101
+    },
+    "old": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 76
+    },
+    "results": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 177
+    }
+  },
+  "captured_case_exit_status": 1,
+  "captured_failure": "GPU exclusivity guard before case claim or numerical dispatch",
+  "case_locations": {
+    "attempt_01": {
+      "exists": false,
+      "is_symlink": false,
+      "relative_path": "cases/clip-08-bank-1/attempt-01"
+    },
+    "case_directory": {
+      "exists": false,
+      "is_symlink": false,
+      "relative_path": "cases/clip-08-bank-1"
+    },
+    "claim_directory": {
+      "exists": false,
+      "is_symlink": false,
+      "relative_path": "claims/clip-08-bank-1"
+    },
+    "claim_file": {
+      "exists": false,
+      "is_symlink": false,
+      "relative_path": "claims/clip-08-bank-1/claim.json"
+    },
+    "current_STOP": {
+      "exists": false,
+      "is_symlink": false,
+      "relative_path": "STOP.json"
+    },
+    "export": {
+      "exists": false,
+      "is_symlink": false,
+      "relative_path": "exports/clip-08-bank-1.json"
+    },
+    "independent_review": {
+      "exists": false,
+      "is_symlink": false,
+      "relative_path": "reviews/clip-08-bank-1.json"
+    },
+    "outcome": {
+      "exists": false,
+      "is_symlink": false,
+      "relative_path": "outcomes/clip-08-bank-1.json"
+    }
+  },
+  "case_origins_canonical_sha256": "1b3fde9a6bf35b886d03e35bd0b31a45c2d2b314f88ef2c99de6dfae06aa7072",
+  "claim_case_outcome_export_and_review_absent": true,
+  "complete_clip_pairs": 8,
+  "compute_process_at_snapshot": {
+    "name": "/usr/NX/bin/nxnode.bin",
+    "pid": 3060553,
+    "used_memory_MiB": 175
+  },
+  "conservative_startup_charge_seconds": 206,
+  "copy_only_no_model_or_remote_test_started": true,
+  "current_STOP_absent_at_snapshot": true,
+  "historical_STOP_sha256": {
+    "archery-timecarry-execution-20261027/STOP.json": "b74da2014b8842c580a6161f740e075a47efffdef966649a9963bd90ba83a762",
+    "reviewed-panel-20261026/STOP.json": "776e80c041599c1c1a35ee31348312b4f696eec03f0e1e8787cc27dd231b11f5",
+    "two-host-panel-20261026/STOP.json": "776e80c041599c1c1a35ee31348312b4f696eec03f0e1e8787cc27dd231b11f5"
+  },
+  "historical_STOPs_failure_grant_and_time_records_preserved": true,
+  "historical_file_hashes_verified": 774,
+  "historical_preservation_map_canonical_sha256": "0618da7c6bc65943e4cbbdb496773ce997255e4e740d3598c75325a96de49b10",
+  "independent_proof": "runs/pretrained/diagnostic/bowling-guard-refusal-20261028/startup-download-20261028T192925Z.coOrBL/independent-startup-proof.json",
+  "independent_proof_sha256": "4481e994072448f84d768d8680311a3ee3ce3376869bf1afbd55a1ac675bda12",
+  "kind": "bowling-guard-refusal-actual-startup-review-v1",
+  "new_GPU_execution_authorized": false,
+  "next_step": "Wait for linux10609 completion and independently review its actual export. Before any Bowling continuation, carry206 startup seconds and require a fresh clear GPU guard; no numerical continuation is prepared here.",
+  "operation_sha256": "b899e6d9b2e6824804a035807ff61ea3517182fbbaabf7910d2dada5a34c82e1",
+  "original_accepted_case_origins_verified": 17,
+  "original_activation_receipt_sha256": "c78105922962b3e4aff228bf135ef7c5df1514a6c35d38572eaa0fb20ad43d83",
+  "original_model_launcher_repeat_allowed": false,
+  "peer_note": "Only local transcript inspected: linux10609 has passed177 CPU checks and reached HandStandPushups armC, with no completion status observed. Its remote run is untouched.",
+  "process_at_earlier_guard_boundary_identified": false,
+  "regular_files_verified": 90,
+  "remaining_original_allowance_seconds": 4594,
+  "research_admitted": false,
+  "snapshot_Pacific": "2026-10-28T12:29:35.058542-07:00",
+  "snapshot_UTC": "2026-10-28T19:29:35.058542+00:00",
+  "source_and_launcher_pins_match": true,
+  "source_inventory_canonical_sha256": "49ff5ea2ec3886b6b15f511647036e84ca97cd31b746c5a388dbbabba17352e8",
+  "transport": {
+    "bytes": 5007360,
+    "sha256": "b8011463210c3764a960e6fbaf0130d58b8f707316c43774c94122140d60aaa0"
+  },
+  "transport_members": 91,
+  "verified": true
+}

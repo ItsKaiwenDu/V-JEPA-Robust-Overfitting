@@ -1,5 +1,42 @@
 # V-JEPA Robust Overfitting
 
+**HandStandPushups bank0 verified (October 28):**
+[The completed export passes independent review](report/checks/2026-10-28-handstand-bank0-verification.md).
+Progress is **18/20 diagnostic cases and eight complete clip pairs**; university
+registration remains17. Both jobs have ended, so SSH sessions may close.
+Next register this original review, then prepare Bowling bank1 with76m34s
+remaining and the final HandStandPushups bank1 case. Earlier entries are historical.
+
+**Bowling startup evidence verified (October 28):**
+[The actual capture](report/checks/2026-10-28-bowling-startup-verification.md)
+confirms 177 CPU passes, unchanged 774-file history and no Bowling case claim
+or model attempt. Charge 206 seconds to its original allowance; 76m34s remain.
+HandStandPushups on 10609 has reached matrix arm C and still has no completion
+status. Keep its existing Terminal and the Mac awake. Progress stays **17/20
+diagnostic cases and eight complete clip pairs**. Earlier entries are historical.
+
+**Bowling startup guard refusal (October 28):**
++[linux10603 stopped before model dispatch](report/checks/2026-10-28-bowling-guard-refusal.md)
+after 177 transcript CPU passes. A later snapshot shows an NX CUDA process.
+Leave 10609's running HandStandPushups case open. A tested read-only startup
+capture is ready; do not repeat either original model launcher. Progress stays
+17/20 diagnostic cases and eight complete clip pairs. Earlier snapshots follow.
+
+**Bowling / HandStandPushups activation verified (October 28):**
++[five exact records and 774 preserved hashes match](report/checks/2026-10-28-bowling-handstand-activation-verification.md).
+Both attended helpers are ready for Bowling bank1 on 10603 and HandStandPushups
+bank0 on 10609. Actual 177-check campus results and numerical exports remain
+pending; progress stays 17/20 diagnostic cases and eight complete clip pairs.
+Earlier snapshots follow.
+
+**Bowling / HandStandPushups pair prepared (October 28):**
++[the new handoff](docs/reviewed_final_pair.md) preserves17 original reviews,
+774 file hashes and consumed attempt history. All101 focused and177 combined
+extracted checks pass; the full local activation/concurrent execution/copy
+rehearsal rejects generated CPU outputs as CUDA evidence. First activate and
+review the metadata before either attended GPU launch. Current progress stays
+17/20 diagnostic cases and eight complete clip pairs. Earlier snapshots follow.
+
 **YoYo/Bowling review registration verified (October 28):**
 +[the actual university receipt](report/checks/2026-10-28-yoyo-bowling-review-sync-verification.md)
 confirms both original reviews appended and763 unchanged hashes. Registered

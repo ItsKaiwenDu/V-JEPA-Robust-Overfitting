@@ -1,5 +1,126 @@
 # Research Progress Reports
 
+## 2026-10-28 — HandStandPushups bank0 verified; eighteen cases accepted locally
+
+The actual10609 job and copy returned0. The pinned reviewer and independent
+saved-evidence audit pass all95 downloaded files/96 transport members,
+93 archive members,64 source pins,177 actual campus JUnit passes and both774
+historical hash observations. All four arms,173 logical tensors,320 finite
+nonzero gradient observations,84 exact replay inputs, exact fresh A adversary,
+six strict GPU boundaries and actual native CUDA probes pass. Original runtime,
+weights, targets, masks, starts, prefixes, selection and pixel bounds match.
+
+Original bootstrap12:10:11–12:59:21Pacific incurs2951seconds conservatively,
+including setup/checks/export, within4800. Peak matrix/replay4.833/3.735GiB
+satisfy7GiB. Original review marker50aee20... and execution2c5408... are saved
+with the complete reviewed tree, scripts and evidence/provenance hashes.
+A raw pending-registration record retains the exact original marker; no sync
+or new model is executed. The first local auditor's metadata lookup was
+corrected to the existing Bowling accounting.case_id field; captured evidence
+and all acceptance rules remain unchanged. The final audit also passes on the
+newly saved copy.
+
+Local acceptance is18/20, eight complete pairs; university remains17. This is
+a gapped set, not ORDER[:18]: Bowling08bank1 and HandStand09bank1 remain.
+Bowling's verified preclaim refusal keeps206seconds charged and4594remaining;
+no clock reset or extra grant. All failed evidence and prior recovery history
+remain. Both university jobs are done; SSH and Mac awake sessions may close.
+Next register this exact review through a separate metadata-only handoff and
+inspect its actual receipt, then prepare the last two cases with carried time.
+No scientific aggregate, paid launch, held-out pixels or research admission.
+User commits separately. [Actual case verification](report/checks/2026-10-28-handstand-bank0-verification.md).
+
+## 2026-10-28 — Bowling startup copy independently verified
+
+The actual 5,007,360-byte capture passes all90-file/91-member checks, deployed
+source and launcher pins, five activation records and774 historical hashes.
+The campus JUnit confirms76+101=177 passes with zero failures/errors/skips.
+At12:29:35Pacific, Bowling bank1 has no claim, case/attempt, outcome, export or
+review; the current STOP is absent. The old three STOPs and consumed recovery
+history remain unchanged. The guard refused before numerical dispatch.
+
+Original epoch1793214612.3844674 and endedUTC19:13:37 bound elapsed below
+205.6155326seconds; charge206 conservatively, leaving4594seconds (76m34s)
+from the original4800. Save that charge before any later continuation. The
+original helper must not repeat; no extra time or numerical retry is prepared.
+The captured NX process is a later observation, not proof of the earlier PID.
+No process, guard, source or university record was changed.
+
+linux10609's local log has177CPU passes and HandStandPushups matrix armC,
+with no completion status yet; its running connection remains untouched.
+Next inspect its completed export independently. Accepted progress stays17/20
+and eight pairs; final09bank1 remains unprepared. User commits separately.
+[Actual startup verification](report/checks/2026-10-28-bowling-startup-verification.md).
+
+## 2026-10-28 — Bowling startup refused before numerical dispatch
+
+linux10603 passed 177 checks in its actual transcript, then the strict GPU
+guard detected another compute process before claim or model work. The later
+user snapshot shows PID 3060553 `/usr/NX/bin/nxnode.bin` using 175 MiB; its
+presence at the exact earlier boundary is not proved. The guard and foreign
+processes remain unchanged. linux10609 passed 177 checks and is running the
+HandStandPushups matrix; keep its existing Terminal open and the Mac awake.
+
+A tested read-only 90-file startup capture is ready. It observes 774 historical
+hashes, startup clocks, JUnit, current GPU state and case claim/attempt state,
+using nonblocking shared read locks on existing files. The peer's worker lease
+is untouched. Actual capture is pending; no university source/model/test work
+or new numerical continuation starts. Account for original startup time before
+any later execution. Acceptance remains 17/20 cases and eight complete pairs.
+[Incident review](report/checks/2026-10-28-bowling-guard-refusal.md).
+
+## 2026-10-28 — Bowling / HandStandPushups activation verified
+
+The actual university activation returned 0. Independent audit verifies five
+exact records with genesis last, 774 preserved hashes, seventeen original case
+origins and two fixed requests. All fifteen preceding origin rows are unchanged;
+both registered YoYo/Bowling rows retain their true previous wrapper, execution
+and review identities. Historical failures, three STOPs, consumed grants and
+2794/2634/4947-second time records remain intact.
+
+Both helpers pass their frozen local Python pin checks with the saved actual
+review marker. No shell/model launcher, test suite, extra connection or repeat
+activation ran during the review. The matching user GPU checks are snapshots;
+runtime strict identity/process checks still apply.
+
+Next run the two new helpers once in separate Mac Terminal tabs, keeping both
+connections and the Mac awake through model work and downloads. Original
+80-minute windows include setup and 177 campus CPU checks, plus 15 seconds
+cleanup. Those actual campus checks and both numerical cases have not started
+at this handoff. Progress stays 17/20 and eight complete clip pairs until full
+independent export reviews. The final HandStandPushups bank1 case is excluded.
+No partial aggregate, held-out access, paid work or research admission occurs.
+User commits separately. [Actual activation audit](report/checks/2026-10-28-bowling-handstand-activation-verification.md).
+
+## 2026-10-28 — Bowling bank1 / HandStandPushups bank0 handoff prepared
+
+The separate source-only packet retains all seventeen actual registered case
+origins, the completed sync receipt,774 file hashes and three old STOPs. The
+new requests are Bowling bank1 on10603 and HandStandPushups bank0 on10609,
+each under its original one80-minute allowance. The neural worker is unchanged;
+parent differences are limited to the honest new CLI path. Strict GPU guards,
+rejection snapshots and7GiB allocator cap remain. The matching user GPU status
+checks show both compute lists empty; runtime checks still apply.
+
+All101 focused local and177 combined extracted tests pass with zero failures,
+errors or skips. The full installer/extractor/activation/CLI/bootstrap/concurrent
+Registry/run/export/copy rehearsal passes in an isolated mirror with774 genuine
+hashes. Only hardware queries and numerical bodies are substituted; the CPU
+archives are rejected at the numerical boundary and acceptance stays17. Helpers
+block before independent activation review, preserve failed metadata copies,
+reject corrupt payloads/transports and account for elapsed setup. Scaffold and
+YAML checks pass. Initial inherited test case labels/order were corrected;
+scientific source, limits and tolerances were not changed.
+
+Next run the five-minute metadata activation once from Mac Terminal, then
+inspect the actual receipt before releasing either attended case helper.
+University activation,177 campus checks per host and new numerical cases have
+not run. Current progress remains17/20 diagnostic cases and eight complete
+clip pairs. The final HandStandPushups bank1 case is excluded; no automatic
+queue or retry is enabled. No held-out access, partial scientific aggregate,
+paid work, budget change or research admission occurs. User commits separately.
+[Preparation audit](report/checks/2026-10-28-bowling-handstand-preparation.md).
+
 ## 2026-10-28 — Both original reviews registered; seventeen accepted at university
 
 The actual metadata command returned0. Independent audit verifies both exact

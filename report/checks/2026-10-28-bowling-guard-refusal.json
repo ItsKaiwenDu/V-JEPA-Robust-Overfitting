@@ -1,0 +1,101 @@
+{
+  "GPU_restart_or_recovery_prepared": false,
+  "accepted_case_count": 17,
+  "actual_CPU_JUnit_independent_verification": "Pending read-only capture; transcript shows76+101passes.",
+  "actual_local_session": "runs/pretrained/diagnostic/bowling-handstand-pair-20261028/linux10603/attended-session-20261028T191004Z.YlPUlV",
+  "additional_allowance_authorized": false,
+  "automatic_queue": false,
+  "bootstrap_elapsed_charge_seconds": "Pending authoritative started-epoch/ended-UTC readback; no original allowance reset.",
+  "case_id": "clip-08-bank-1",
+  "complete_clip_pairs": 8,
+  "current_user_supplied_host_snapshot": {
+    "GPU_name": "NVIDIA GeForce RTX 3070",
+    "GPU_utilization_percent": 0,
+    "compute_processes": [
+      {
+        "pid": 3060553,
+        "process_name": "/usr/NX/bin/nxnode.bin",
+        "used_memory_MiB": 175
+      }
+    ],
+    "driver": "580.178.04",
+    "exact_process_at_earlier_guard_boundary_proved": false,
+    "memory_total_MiB": 8192,
+    "memory_used_MiB": 277,
+    "observation_local_host_time": "2026-10-28 12:25:27",
+    "source_question": "call_9d22bb1325a94644b806a0ee63a3490d",
+    "timezone": "America/Los_Angeles"
+  },
+  "date_Pacific": "2026-10-28",
+  "exception": "ValueError: Another CUDA compute process is active on this host.",
+  "foreign_process_stopped_or_whitelisted": false,
+  "frozen_source_or_ledger_modified": false,
+  "host": "linux10603",
+  "kind": "Bowling-preclaim-GPU-guard-refusal-v1",
+  "local_session_files_sha256": {
+    "job-connection-exit-status.txt": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+    "terminal.log": "441617e37c6d86865372a0e1ec08d8fffebff9b0a8ac28aa335de25e3529421c"
+  },
+  "next_step": "Copy existing startup evidence once from a separate Mac Terminal. Independently verify90files/177JUnit/clocks/774hashes and claim absence before preparing any clock-carrying continuation; keep10609 running.",
+  "numerical_model_started_by_this_invocation": false,
+  "observed_CPU_counts_from_terminal": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 177
+  },
+  "observed_attended_connection_exit_status": 1,
+  "operation_sha256": "b899e6d9b2e6824804a035807ff61ea3517182fbbaabf7910d2dada5a34c82e1",
+  "peer": {
+    "actual_local_session": "runs/pretrained/diagnostic/bowling-handstand-pair-20261028/linux10609/attended-session-20261028T191000Z.Uz6srz",
+    "case_id": "clip-09-bank-0",
+    "host": "linux10609",
+    "last_observed_stage": "177CPU passes; HandStandPushups matrix worker armA. Running per user.",
+    "peer_run_interrupted_by_this_review": false
+  },
+  "read_only_capture": {
+    "QA": {
+      "GPU_snapshot_mocked_in_local_QA": true,
+      "NFS_access_semantics_exercised_with_real_fcntl_lockf": true,
+      "actual_NFS_mount_tested_locally": false,
+      "all_fixed_file_bytes_unchanged": true,
+      "capture_source_sha256": "2d69ed18c379a9c89af493c16679ddcce6d71fe449b560068bd0b2e8c9c86555",
+      "captured_regular_files": 90,
+      "corrupt_transport_rejected_before_extraction": true,
+      "existing_lock_contents_and_inodes_unchanged": true,
+      "full_stream_and_receiver_passed_with_real_record_locks": true,
+      "genuine_774_history_hashes_rechecked": true,
+      "kind": "read-only-bowling-guard-refusal-v1-local-copy-QA",
+      "model_or_test_job_started_on_university": false,
+      "own_exclusive_worker_lease_blocks_capture": true,
+      "passed": true,
+      "peer_10609_exclusive_lease_held_without_blocking_capture": true,
+      "present_and_absent_case_locations_reported": true,
+      "transport_members_including_manifest": 91,
+      "university_connections": 0,
+      "wrong_host_and_changed_operation_rejected": true
+    },
+    "cleanup_seconds": 15,
+    "deadline_seconds": 180,
+    "executed_on_university": false,
+    "existing_host_lease_opened_read_only": "linux10603 only; shared read lock; linux10609 lease untouched.",
+    "files_changed_on_university": false,
+    "helper": "runs/pretrained/diagnostic/bowling-guard-refusal-20261028/copy-existing-startup.sh",
+    "helper_sha256": "2680d25f02c3fc5de7e5c623339782e393415d77887f91700ff99cf0ee918a7c",
+    "historical_file_hashes_observed": 774,
+    "known_hosts_sha256": "fe8681953fda73e81fe8442f0c5bd6fa8bfd2e333445fd4db51fde098b18d838",
+    "model_or_test_job_started": false,
+    "prepared": true,
+    "registry_snapshot": "Nonblocking shared read lock on existing registry file; no university lock files created.",
+    "regular_files": 90,
+    "source_sha256": "2d69ed18c379a9c89af493c16679ddcce6d71fe449b560068bd0b2e8c9c86555",
+    "transport_members_including_manifest": 91
+  },
+  "remote_claim_attempt_absence_independently_observed": false,
+  "research_admitted": false,
+  "schema_version": 1,
+  "scientific_aggregate": null,
+  "stage_from_pinned_control_flow": "run(): ops.hardware_gate(host), before registry.claim, case directory and numerical_case.",
+  "status": "Startup transcript reviewed; read-only source/timing/claim-state capture prepared, not yet run.",
+  "strict_guard_retained": true
+}

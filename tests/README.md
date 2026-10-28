@@ -1,5 +1,27 @@
 # Scientific acceptance tests
 
+HandStandPushups bank0's actual177 campus checks and completed CUDA export are
+[independently verified](../report/checks/2026-10-28-handstand-bank0-verification.md):
+all four arms, exact fresh replay,173 logical tensors,320 finite gradient
+observations and six strict GPU boundaries pass. Saved-evidence review starts
+no model or test suite. Earlier startup snapshots follow.
+
+The actual linux10603 startup JUnit now independently verifies all177 campus
+checks, with zero failures/errors/skips. The subsequent GPU guard refusal
+preceded its model claim; this is startup evidence, not a numerical pass.
+[Actual startup audit](../report/checks/2026-10-28-bowling-startup-verification.md).
+
+`test_reviewed_final_pair.py` adds101 checks for the Bowling bank1 /
+HandStandPushups bank0 continuation: genuine seventeen-case imports, both
+original YoYo/Bowling identities,774-file preservation before legacy loaders,
+source/receipt drift, fixed assignments and original limits, consumed/abandoned
+claims, all seven older namespace conflicts, shared/NFS locks and partial atomic
+activation. All177 original/new checks pass after extraction with zero skips.
+The full local concurrent run/export/copy rehearsal uses generated numerical
+bodies and rejects both archives as CUDA evidence. Actual university activation
+is now independently verified; campus checks and cases remain pending.
+[Preparation](../report/checks/2026-10-28-bowling-handstand-preparation.md).
+
 `test_yoyo_bowling_review_sync.py` adds64 metadata checks for the two original
 YoYo/Bowling reviews,763-file preservation before legacy constructors, exact
 source/authority/marker identities, both original clocks and consumed history,
