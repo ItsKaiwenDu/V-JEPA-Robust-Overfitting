@@ -1,5 +1,54 @@
 # Research Progress Reports
 
+## 2026-10-28 — Actual20-case university registration verified
+
+The actual sync-session-20261028T222641Z.rie1xN returned0 and saved215687-byte
+receiptdd1644fa.... Both qualified verification and independent actual-session/
+stderr/readback/source/payload/deadline audit pass. The receipt equals LOCAL
+rehearsal bytes, but actual capture/exit/stderr/readbacks are verified separately.
+
+Exactly the two original bank1 markers append, preserving their archive,
+execution and numerical receipt identities. The gapped18-case import advances
+to all20 cases, ten complete clip pairs, complete:true and no remaining case.
+All1126 returned hashes match independent reconstruction; all18 prior origins,
+three old STOPs, failures, successful evidence and consumed grants remain.
+Both saved cases were CPU-reverified by the pinned university operator; no
+model/attack/test suite/GPU worker starts. Current Bowling time remains
+206+2998=3204of4800and HandStand3007of4800; prior2951/2794/2634 and consumed
+Archery4947 remain exact. No clock reset, additional allowance or retry.
+
+Actual proof, audit/output and provenance are saved beside the receipt and
+actual-sync-verified.json records20 registered cases. Both local independent
+review and university registration now agree at20/20and10pairs. The command
+has ended; SSH/Macawake mayclose. Next perform the predeclared complete-panel
+analysis and assess attack/precision/research gates. No scientific aggregate,
+new numerical run, paid compute or held-out access occurs during this audit.
+User commits separately. [Actual registration audit](report/checks/2026-10-28-final-review-sync-verification.md).
+
+## 2026-10-28 — Final two original review registrations prepared offline
+
+The new metadata-only wrapper/builder/CLI preserves1126 existing source,
+failure, success, export and clock hashes before older constructors. Both
+original markers retain their true execution/receipt/archive/outcome identities.
+Both leases and the registry mutex protect CPU rechecks of the saved exports
+and live receipts; only the two exact markers may append. Partial append/lost
+acknowledgment and identical repetition preserve existing bytes.
+
+All72 local and72 extracted checks pass without skips. The full real installer/
+extractor/CLI/Registry/CPU-evidence rehearsal verifies18→20 and an identical
+repeat with all1126 unchanged hashes. LOCAL receipts are labeled and pinned;
+they are not university evidence. Helper failures and corrupt uploads reject
+without network/model work. Bowling keeps206+2998=3204of4800seconds; HandStand
+keeps3007of4800, and older recovery time remains consumed. No allowance reset.
+
+Local progress is20/20cases/10pairs; actual university registration remains18.
+Next user runs ONLY the new final-review-sync-20261028/sync-reviews.sh, then
+independently review its actual receipt before complete-panel analysis/admission.
+No fresh GPU check, numerical rerun, held-out access, paid compute, scientific
+aggregate or research admission occurs here. User commits separately.
+[Prepared command](docs/final_panel_review_sync.md) ·
+[Offline audit](report/checks/2026-10-28-final-review-sync-preparation.md).
+
 ## 2026-10-28 — All20 diagnostic cases and ten clip pairs independently verified
 
 Bowling08bank1 on10603 and HandStandPushups09bank1 on10609 both completed and

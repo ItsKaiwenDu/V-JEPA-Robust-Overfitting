@@ -1,0 +1,110 @@
+{
+  "LOCAL_rehearsal_is_not_university_evidence": true,
+  "actual_university_registration_verified": false,
+  "archive_bytes": 258369,
+  "archive_regular_files": 9,
+  "archive_sha256": "7645f9ce359405c8219a02972a52e25afa8c4cb7817014e0965caeeedc11543f",
+  "bowling_prior_startup_charge_seconds": 206,
+  "bowling_total_original_charge_seconds": 3204,
+  "complete_clip_pairs": 10,
+  "exact_reviews_to_append": [
+    "reviews/clip-08-bank-1.json",
+    "reviews/clip-09-bank-1.json"
+  ],
+  "extracted_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 72
+  },
+  "full_installer_saved_evidence_and_receipt_rehearsal": {
+    "Bowling_startup_charge_seconds": 206,
+    "Bowling_total_original_charge_seconds": 3204,
+    "accepted_after": 20,
+    "accepted_before": 18,
+    "actual_installer_extractor_CLI_and_receipt_verifier": true,
+    "all_original_imported_identities_and_three_STOPs_preserved": true,
+    "case_verifier_or_Registry_mocks_used": false,
+    "complete_clip_pairs_after": 10,
+    "exact_original_markers_appended": [
+      "reviews/clip-08-bank-1.json",
+      "reviews/clip-09-bank-1.json"
+    ],
+    "fresh_isolated_home_not_modification_of_prior_rehearsal": true,
+    "full_installer_apply_repeat_idempotent": true,
+    "genuine_completed_outer_exports_and_live_receipts_reverified_on_CPU": 2,
+    "home_and_metadata_host_substituted_only": true,
+    "kind": "final-review-full-CLI-local-CPU-rehearsal-v1",
+    "model_or_GPU_worker_or_test_suite_started_by_sync": false,
+    "operation_sha256": "e3f12b9d5f88816e22bed8aeaefb20eded97904692e1a1cbf65b3e37a8d571c5",
+    "original_charge_seconds": {
+      "clip-08-bank-1": 2998,
+      "clip-09-bank-1": 3007
+    },
+    "passed": true,
+    "preserved_files_verified": 1126,
+    "previous_consumed_history_seconds": 4947,
+    "real_Registry_and_file_locks": true,
+    "remaining_cases_after": 0,
+    "remote_connections": 0,
+    "saved_case_reviews_seconds_local": [
+      109.64090554098948,
+      104.941028790985
+    ],
+    "scratch_directory": "/private/tmp/final-review-sync-rehearsal-wzcajyrg"
+  },
+  "handstand_total_original_charge_seconds": 3007,
+  "held_out_pixels_opened": false,
+  "helper_sha256": "0bcfcadeb75f9adf66feffbeff1571ffa27583cb932ea69b408c5bffa1be8b48",
+  "independently_reviewed_case_count": 20,
+  "inputs_file_sha256": "f305f97ab7190346fc57eb4f514f228b5cf41a9819578bd78ac9d3ef2cc29110",
+  "kind": "final-panel-review-registration-preparation-verification-v1",
+  "local_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 72
+  },
+  "metadata_command_seconds": 300,
+  "models_or_GPU_workers_started": false,
+  "next_step": "Run the new sync-reviews.sh once from the Mac Terminal, then independently audit the actual eighteen-to-twenty receipt before complete-panel analysis. Do not repeat GPU launchers.",
+  "operation_sha256": "e3f12b9d5f88816e22bed8aeaefb20eded97904692e1a1cbf65b3e37a8d571c5",
+  "original_attempt_charge_upper_seconds": {
+    "clip-08-bank-1": 2998,
+    "clip-09-bank-1": 3007
+  },
+  "paid_compute": false,
+  "payload_bytes": 346483,
+  "payload_sha256": "ad01fcbe9e90ddf0b82856bdd74ce6062a18f388754667d21a16df8287e2647b",
+  "preserved_existing_files": 1126,
+  "previous_consumed_archery_seconds": 4947,
+  "proposed_registration_after": 20,
+  "proposed_registration_before": 18,
+  "raw_directory": "runs/pretrained/diagnostic/final-review-sync-20261028",
+  "remote_connections": 0,
+  "research_admitted": false,
+  "scientific_aggregate": null,
+  "source_sha256": {
+    "models/final_panel_review_sync.py": "df4f760b3abe8a12e69367eef7fb28b15dda6b5b4a2d2f8f4e1c04701baaf718",
+    "scripts/prepare_final_panel_review_sync.py": "7adbf6c209d0d4d355fe407622c60fc81c65d171b70f14bff25f10621353112f",
+    "scripts/sync_final_panel_reviews.py": "242da9bf8df9d84487865b25989d685de2abfd4c2287252544b07fdaafcc0fad",
+    "support/reviewed_panel_last_two.py": "d77184e0c33d5aa9c4da79c67489bc82c8c6d3efbe3860bb405bcd14782e39a2",
+    "tests/fixtures/final_panel_review_sync_metadata.json": "dfd995a58e4876887cdaa2f33f8c971a067d8d05163b25805e3ba08bcfbbb656",
+    "tests/test_final_panel_review_sync.py": "83cbe7e82c7b12906056fdac6f4c25e3994e73c12409f390b2cb7c46a8b08b44"
+  },
+  "termination_grace_seconds": 15,
+  "university_last_verified_registration_count": 18,
+  "validation_files_sha256": {
+    "LOCAL-first-registration-receipt.json": "dd1644fad315867fa9a990047c59163dfc28716995aa299d96a2c4f93935a980",
+    "LOCAL-receipt-verification.json": "9934f73f470693574534ec31638d8ed77ffb774b0749382d42896ddba2f2133a",
+    "LOCAL-repeat-registration-receipt.json": "b23066920c1fe902afb725f0f236cc0ae1e681cecadbad909b447d64bc087bed",
+    "extracted-unit.xml": "b61aa2ab3171c2c42cbf05d2d48f628c1dfef9f7501b0fa93820164ccc05b328",
+    "full-local-rehearsal.json": "cd72e53b8efdf765ca9f8599d481632f55a42a09f9f5a8afd7fd98b1f9dfbbba",
+    "helper-failure-QA.json": "72022e24d0d698d3f9d1f01c548e6fbf4933f152e5e6099c68c8fda15b9b1fad",
+    "helper-failure-QA.py": "6f793bd3aad551457fa2d35267ab95512efba71ca7503da73fabb6d1e0e7fc9c",
+    "local-unit.xml": "2662bb0a39807ca2227bc6f46bc0d0f16e0336994dec4bff3775d7bc429be235",
+    "rehearsal.log": "89b455eb24f2dcef13c7696e7d65ad787102a1ce6ed34707ac6897e61a2e2beb",
+    "rehearsal.py": "9003b462d86b6b3d634fa876bab6b77e042d78953dbb18ca5dcacc69149dcee0"
+  },
+  "verified": true
+}

@@ -2,6 +2,65 @@
 
 ## Current stage
 
+LATEST October28: ACTUAL20/20 REGISTRATION VERIFIED; NEXT COMPLETE-PANEL ANALYSIS.
+Read report/checks/2026-10-28-final-review-sync-verification.md/JSON and
+docs/final_panel_review_sync.md. Rawfinal-review-sync-20261028 latest-session
+sync-session-20261028T222641Z.rie1xN,SSH0,215687Breceiptdd1644fad315867fa9a990047c59163dfc28716995aa299d96a2c4f93935a980.
+Capture15:26:41PacificOct28. Qualifiedverify_receipt ANDindependentactualpath/
+exit/exactstderr/marker2readbacks/source/payload/deadline pass. EqualLOCALbytes
+not substitutedforactual. Exacttwooriginalreviewmarkers append; all20 accepted,
+10pairs,none remaining,complete:true,currentstopfalse/scientificaggregateNULL/
+researchfalse. All18importedtrueorigins remain. Sourceop e3f12b9d.../module
+df4f760b.../INPUTf305f97a... frozen. Actualsessionindependent-audit.py/stdout/
+stderr/exit0/independent-verification.json/fullindependent-proof.json/provenance
+saved; rawactual-sync-verified.json verified20/10. No newmodel/tests/connection
+duringlocalreceipt audit. ActualoperatorCPUreverified2savedcases; noGPUworker.
+1126returnedhashes independentlyreconstructed=928historical+6actualactivation+
+80packet+bothgenuinecompletedcases/exports/launchers. All3oldSTOPs,failed+
+successfulclaims/exports/source/recovery4947 preserved. Bowling206startup+2998
+success=3204of4800;oldwindow4594unchanged;09b1success3007of4800; older2951/
+2794/2634 exact. Originalmarker885c.../ac4f...,numericalop c57a..., true
+execution51bb.../30118...andreceipts preserved,neverrelabeledtosyncwrapper.
+LOCALandUNIVERSITYnow20/20diagnosticcases,10pairs. Alljobs/copies/metadata
+operationDONE; SSH/Macawake mayclose. Neverrepeat sync/activation/GPUlaunchers.
+NEXT onusercontinue read original predeclared matched-panel analysis protocol,
+assemble all20 original savedcase paths/receipts with actual20registration as
+authority, implement/verify complete-panel analysis ifneeded, then assess
+attack/precision/research-admission gates. No partialaggregate/newpaidlaunch/
+heldout/researchadmission bythischeckpoint. Diagnosticpanelcomplete is not
+researchprojectcomplete. Budget200total/160plannedcompute unchanged. User
+commits self; noGitcommit/push. Earlier pending/ready entries HISTORICAL.
+
+
+LATEST October28: FINAL TWO ORIGINAL REVIEW SYNC PREPARED; ACTUAL18->20PENDING.
+Read docs/final_panel_review_sync.md and report/checks/2026-10-28-final-review-sync-
+preparation.md/JSON. CurrentLOCAL20/20diagnosticcases,10pairs; UNIVERSITYlast18.
+New final_panel_review_sync.py/sync_final_panel_reviews.py/builder/72tests+fixture.
+Rawfinal-review-sync-20261028 ninefileSOURCE/metadataonly packet,1126preserved
+pins=928old+currentpacket/6activationrecords/bothactualcases/exports/launchers.
+All18 trueorigins/threeSTOPs/oldfailed+successclaims/consumedArchery4947 remain.
+Originaltwo markerbytes885c.../ac4f... and originalexecution51bb.../30118.../
+receipts/archives/outcomes preserved. Bowlingprior206/current2998/total3204of4800,
+oldremaining4594;09bank1charge3007of4800; older2794/2634/2951 unchanged.
+All1126checkedBEFOREolderconstructors. Bothleases+mutex; Registryconstructor
+outsideownlock. Genuineouterreview+liveverify_case onCPU bothcases, NOmodel/
+attack/testsuite. AppendONLY2originalreviews; conflictrefuse/partialatomic
+resume/identicalrepeat. Actualreceipt fresh1126readbacks/status18->20/timeunchanged.
+72local+72extracted zeroerror/failure/skip. Fullrealinstaller/extractor/CLI/
+Registry+CPUgenuinesavedevidence rehearsal18->20/repeat passes; nocaseverifier
+mock. LOCALreceipt+script/log/validationINDEX pinned, NOTuniversityevidence.
+HelperlocalSSHfailurestub/corruptpayloadbeforeconnect checks pass. No network.
+NEXT userMacrun ONLY raw/sync-reviews.sh ONCE, normalpassword/Terminal+Macawake,
+300+15cap. No GPUstatusneeded. OnDone FIRSTinspect ACTUALlatest-session/exit0/
+sync.stderr/receipt/byteverification. Qualifiedvalidate_operation/input/verify-
+receipt ANDindependentactualpath/createdtwo(oridenticalpartial)/statesexact20/
+original2markertexts/preservation1126/sourcepins/clockcarry/threeSTOPs needed.
+EqualLOCALbytesdonotsubstituteactual. Saveactualaudit/report beforecomplete-
+panelanalysis/admission. NeverrepeatGPUhelpers/activation. Researchprojectnot
+complete; no scientificaggregate/heldout/paid/newallowance/researchadmission.
+Usercommits self. Earlier registration-not-prepared entries HISTORICAL.
+
+
 LATEST October28: ALL20 DIAGNOSTIC CASES /10PAIRS INDEPENDENTLY VERIFIED.
 Read report/checks/2026-10-28-last-two-verification.md/JSON and docs/last_two_panel_cases.md.
 Actual09 final09b1 session211459Z.YWOfAl and03 final08b1 session211515Z.unBGOT

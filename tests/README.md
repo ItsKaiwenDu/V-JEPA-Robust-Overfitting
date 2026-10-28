@@ -1,5 +1,20 @@
 # Scientific acceptance tests
 
+The actual final registration receipt is [independently verified](../report/checks/2026-10-28-final-review-sync-verification.md):
+two exact original marker readbacks,1126 reconstructed protected hashes,
+18→20 coordinator states and unchanged carried clocks pass. The university
+operator rechecks two saved cases on CPU; registration starts no model, GPU
+worker or test suite. All20 diagnostic cases are now reviewed and registered;
+complete-panel analysis and research admission remain pending.
+
+`test_final_panel_review_sync.py` adds72 metadata regression checks for the
+two original bank1 reviews, complete18-to20 coordinator states,1126-file history,
+carried clocks, interrupted atomic appends, conflicting second markers, real
+host/mutex and NFS record locks, and rejection before older constructors.
+All72 local and72 extracted checks pass with zero skips. Full genuine saved-
+evidence CPU rehearsal and helper-failure checks pass; LOCAL receipts qualify
+no actual university registration. [Preparation](../report/checks/2026-10-28-final-review-sync-preparation.md).
+
 Both final bank1 CUDA exports and their actual195 campus checks per host
 are [independently verified](../report/checks/2026-10-28-last-two-verification.md),
 with zero failures/errors/skips. Each passes173 saved tensors,320 finite

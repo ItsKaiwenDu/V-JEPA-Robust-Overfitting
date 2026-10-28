@@ -1,5 +1,20 @@
 # V-JEPA Robust Overfitting
 
+**All20 diagnostic reviews registered (October28):**
+[The actual university receipt passes independent review](report/checks/2026-10-28-final-review-sync-verification.md).
+University registration and local review now agree at **20/20 cases and ten
+complete clip pairs**. All1126 protected hashes, original review identities and
+time allowances match. The command is finished; SSH may close. Next analyze
+the complete diagnostic panel and assess research admission. Earlier launch
+and registration instructions below are historical.
+
+**Final review registration prepared (October28):**
+[Run the new metadata-only command](docs/final_panel_review_sync.md) once, then
+verify the actual18-to20 university receipt. All72 local and72 extracted checks
+pass, and the full saved-evidence rehearsal preserves1126 files and both exact
+markers. Local progress stays20/20 diagnostic cases and ten pairs; university
+registration remains18 until verified. This command starts no GPU work.
+
 **Diagnostic panel complete (October28):**
 [Both final bank1 cases pass independent review](report/checks/2026-10-28-last-two-verification.md),
 including checks against their original bank0 partners. Progress is **20/20
