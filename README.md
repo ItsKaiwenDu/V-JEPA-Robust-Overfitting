@@ -1,5 +1,18 @@
 # V-JEPA Robust Overfitting
 
+**Archery review registration verified (October 27):** [the actual university receipt](report/checks/2026-10-27-archery-review-sync-verification.md)
+confirms one original review appended and578 unchanged file hashes. University
+and independent progress now agree at **15/20 diagnostic cases, seven complete
+clip pairs and five remaining**. Next prepare YoYo bank1 and Bowling bank0;
+no new GPU job is started. Earlier snapshots follow.
+
+**Archery review registration prepared (October 27):** [the metadata-only handoff](docs/archery_review_sync.md)
+rechecks saved evidence on CPU and appends its original review while preserving
+578 file hashes and consumed attempt history. All76 focused tests pass locally
+and after extraction; the full local rehearsal passes. Actual university
+registration is pending:15 independently verified cases,14 last registered,
+and seven complete clip pairs. Earlier snapshots follow.
+
 **Archery recovery verified (October 27):** [the actual completed export passes independent review](report/checks/2026-10-27-archery-recovery-verification.md).
 All172 campus checks, four attack arms, exact fresh replay, six GPU guards and
 470 preserved hashes pass. The panel now has **15/20 verified diagnostic cases

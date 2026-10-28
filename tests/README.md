@@ -1,5 +1,15 @@
 # Scientific acceptance tests
 
+`test_archery_review_sync.py` adds76 CPU checks for registration of the exact
+original Archery recovery review. They cover immutable history before legacy
+initialization, failure/consumed-grant preservation, charged time, atomic append,
+lost acknowledgment, mixed identities, symlinks, foreign-process lease/mutex
+contention and read/write exclusive record locks. All76 pass locally and after
+extraction. A full local installer/CLI/Registry rehearsal rechecks genuine saved
+case evidence and578 hashes, adding one review and safely acknowledging a repeat.
+No model or GPU worker starts. Actual university registration remains pending.
+[Preparation](../report/checks/2026-10-27-archery-review-sync-preparation.md).
+
 `test_yoyo_review_sync.py` adds71 metadata-only checks for the one original
 YoYo review, gapped14-case acceptance, atomic/lost-acknowledgment repetition,
 preserved/conflicting history and Archery's unused case/43-second charge.

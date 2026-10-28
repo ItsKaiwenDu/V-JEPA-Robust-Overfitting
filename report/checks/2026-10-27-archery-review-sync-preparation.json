@@ -1,0 +1,167 @@
+{
+  "LOCAL_first_receipt_file_sha256": "0499b6d4cbafbd06c2906a15373d61915d3969ba2eac7a8b90538352b8493f1a",
+  "LOCAL_receipt_is_not_actual_university_evidence": true,
+  "accepted_after_sync": 15,
+  "account_file_sha256": "31f1ee6803722e70121cc6d7bd020c11b6c6a7546a207b76e308715b68bb271a",
+  "actual_installer_CLI_and_real_lock_CPU_rehearsal": {
+    "accepted_after": 15,
+    "accepted_before": 14,
+    "actual_installer_extractor_and_CLI_main": true,
+    "actual_receipt_verifier": true,
+    "case_verifier_or_Registry_mocks_used": false,
+    "consumed_grant_and_original_time_unchanged": true,
+    "full_installer_apply_repeat_idempotent": true,
+    "genuine_completed_recovery_outer_and_live_numerical_receipt_reverified_on_CPU": true,
+    "historical_failures_three_STOP_records_partial_tensors_sources_and_time_history_preserved": true,
+    "home_and_metadata_host_substituted_only": true,
+    "kind": "archery-recovery-review-full-CLI-local-CPU-rehearsal-v1",
+    "model_or_GPU_worker_or_test_suite_started_by_sync": false,
+    "only_original_Archery_recovery_marker_appended": true,
+    "operation_sha256": "b37fa3a7fa9f11afdbfe0ead8c7ad813706db9e052460e2e2d0f60d52318b3d9",
+    "original_fifteen_identities_preserved": true,
+    "passed": true,
+    "preserved_files_verified": 578,
+    "previous_charged_seconds": 2348,
+    "real_Registry_and_file_locks": true,
+    "recovery_charged_seconds": 2599,
+    "remote_connections": 0,
+    "saved_case_reviews_seconds_local": [
+      22.246583416999783,
+      22.4208263749897
+    ],
+    "scratch_directory": "/private/tmp/archery-review-sync-rehearsal-_6lgqh9m",
+    "total_charged_seconds": 4947
+  },
+  "actual_recovery_activation_receipt_file_sha256": "5417f0b5db0cff2306a646a8c40e4d3e8642134abca315ec8aba7da856ec1a52",
+  "actual_university_sync_performed": false,
+  "additional_attempt_authorized": false,
+  "all_three_historical_STOPs_and_old_failure_and_new_success_preserved": true,
+  "archive": {
+    "bytes": 146932,
+    "files": {
+      "archery-review-sync-20261027/INPUT.json": {
+        "bytes": 97860,
+        "sha256": "06038cd06c106506afa60db8e6df393063ff31f097c5f9a1e3d8884596957c8b"
+      },
+      "archery-review-sync-20261027/SYNC.json": {
+        "bytes": 2441,
+        "sha256": "d440e5ee5113a522b99d61ad73fd1d89c0b1caae6ba788eabeeabc1d1e6fd618"
+      },
+      "archery-review-sync-20261027/activation-receipt.json": {
+        "bytes": 98346,
+        "sha256": "5417f0b5db0cff2306a646a8c40e4d3e8642134abca315ec8aba7da856ec1a52"
+      },
+      "archery-review-sync-20261027/models/archery_review_sync.py": {
+        "bytes": 18328,
+        "sha256": "8c6fa00c59e874982c9b984c0d803dbfad93772e2571a7bfd9a9dacfae20e673"
+      },
+      "archery-review-sync-20261027/scripts/prepare_archery_review_sync.py": {
+        "bytes": 11875,
+        "sha256": "5fb1fcd9e7fc1a544725fa1821e914a1f8afcb4c5dd2946cd707f43282f92c0c"
+      },
+      "archery-review-sync-20261027/scripts/sync_archery_review.py": {
+        "bytes": 1008,
+        "sha256": "37a19c45ae0ee72766b3833a92eaa1f0b86676a344b84a69ea6ec56ce100d9cf"
+      },
+      "archery-review-sync-20261027/support/archery_recovery.py": {
+        "bytes": 50207,
+        "sha256": "8e29c1931c1ecb9734fa31a969be0524efe2545f08df15127bc7eb73f7db4215"
+      },
+      "archery-review-sync-20261027/tests/fixtures/archery_review_sync_metadata.json": {
+        "bytes": 310108,
+        "sha256": "378aa95cb2c412666fc5d72cc98ff6a7af7d63c8d78e016b5834db3b863537c7"
+      },
+      "archery-review-sync-20261027/tests/test_archery_review_sync.py": {
+        "bytes": 16432,
+        "sha256": "bf4641e7d5c7c59098730a556bf63d957a74c16c3e3f0fee9e3943aa0b636be0"
+      }
+    },
+    "sha256": "0bed007220a0fd33dcc601fa44698002b658dcd61419effd104bc86cda8025ab"
+  },
+  "complete_clip_pairs": 7,
+  "consumed_grant_id": "fd4b4cb8d42e442f8d9ee8ac7130945e",
+  "current_independently_verified_case_count": 15,
+  "current_registered_university_case_count": 14,
+  "date_Pacific": "2026-10-27",
+  "expected_registered_case_count_after_actual_verified_sync": 15,
+  "extracted_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 76
+  },
+  "fully_paired_clips": 7,
+  "grant_consumed": true,
+  "held_out_pixels_opened": false,
+  "helper_sha256": "bf0bcd602665ca541cda65e4ca9f0109419873b89a6eace70e26facd2c00860f",
+  "host": "linux10609",
+  "immutable_history_verified_before_any_older_registry_initialization": true,
+  "inputs_file_sha256": "06038cd06c106506afa60db8e6df393063ff31f097c5f9a1e3d8884596957c8b",
+  "kill_grace_seconds": 15,
+  "kind": "matched-panel-archery-recovery-review-sync-v1-preparation",
+  "local_helper_failure_QA": {
+    "actual_raw_latest_session_absent": true,
+    "kind": "archery-review-sync-local-helper-failure-QA-v1",
+    "model_or_GPU_or_university_operation_started": false,
+    "network_connections": 0,
+    "passed": true,
+    "scratch": "/private/tmp/archery-sync-helper-QA-j48zje7v",
+    "ssh_replaced_by_failing_local_stub": true,
+    "tests": [
+      {
+        "exit_status": 255,
+        "passed": true,
+        "test": "failed-copy"
+      },
+      {
+        "exit_status": 1,
+        "passed": true,
+        "test": "corrupt-payload"
+      }
+    ]
+  },
+  "local_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 76
+  },
+  "max_seconds": 300,
+  "metadata_only": true,
+  "new_GPU_dispatch_authorized": false,
+  "new_GPU_jobs_started": 0,
+  "next_step": "User runs the new metadata-only sync-reviews.sh once from Mac Terminal. Independently inspect the actual university receipt before any further GPU dispatch.",
+  "old_remainder_added": false,
+  "operation_sha256": "b37fa3a7fa9f11afdbfe0ead8c7ad813706db9e052460e2e2d0f60d52318b3d9",
+  "original_recovery_execution_sha256": "87bd519d87e4aae442d4837dac6f165d9459f4fcb2903328b928488c69db4760",
+  "original_recovery_operation_sha256": "1757892c83921e0cee8391b2468989680bcb44c57b6fa686f3528de9142eb4b5",
+  "original_review_marker_file_sha256": "ba9adb7e31588dd85a697436c637a3c602997fb4f6c701957ee775af0c9f401a",
+  "original_transport_legacy_attempt_label_preserved_and_scientific_recovery_identity_unchanged": true,
+  "paid_compute": false,
+  "payload_bytes": 197902,
+  "payload_contains_tensor_files_or_weights_or_keys": false,
+  "payload_sha256": "0594743ea32fc4030d60c0985a4f075ff5c6f06b76dd0478e1d9b9982427a5b4",
+  "preserved_files": 578,
+  "previous_charged_seconds": 2348,
+  "records_to_append": [
+    "reviews/clip-06-bank-1.json"
+  ],
+  "recovery_charged_seconds": 2599,
+  "remaining_panel_cases": 5,
+  "remote_operation_performed": false,
+  "research_admitted": false,
+  "scaffold_and_YAML_check_passed": true,
+  "scientific_aggregate": null,
+  "source_payload_files": 9,
+  "source_sha256": {
+    "models/archery_review_sync.py": "8c6fa00c59e874982c9b984c0d803dbfad93772e2571a7bfd9a9dacfae20e673",
+    "scripts/prepare_archery_review_sync.py": "5fb1fcd9e7fc1a544725fa1821e914a1f8afcb4c5dd2946cd707f43282f92c0c",
+    "scripts/sync_archery_review.py": "37a19c45ae0ee72766b3833a92eaa1f0b86676a344b84a69ea6ec56ce100d9cf",
+    "support/archery_recovery.py": "8e29c1931c1ecb9734fa31a969be0524efe2545f08df15127bc7eb73f7db4215",
+    "tests/fixtures/archery_review_sync_metadata.json": "378aa95cb2c412666fc5d72cc98ff6a7af7d63c8d78e016b5834db3b863537c7",
+    "tests/test_archery_review_sync.py": "bf4641e7d5c7c59098730a556bf63d957a74c16c3e3f0fee9e3943aa0b636be0"
+  },
+  "total_charged_seconds": 4947,
+  "validation_index_file_sha256": "932b472795db1233ef39e7310ebc59302617b1f96fe70556a70873f0750b1517",
+  "verified_preparation": true
+}

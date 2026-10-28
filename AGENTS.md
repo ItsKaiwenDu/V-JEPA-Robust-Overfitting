@@ -2,6 +2,97 @@
 
 ## Current stage
 
+LATEST October27: ACTUAL ARCHERY ORIGINAL REVIEW SYNC VERIFIED;15REGISTERED/15INDEPENDENT.
+Read report/checks/2026-10-27-archery-review-sync-verification.md/JSON and current
+lead in docs/archery_review_sync.md. Raw archery-review-sync-20261027/latest-session
+points sync-session-20261028T050824Z.ahmBEa,SSH0,22:08:24PacificOct27 capturestart.
+Actualreceipt99953B SHA0499b6d4cbafbd06c2906a15373d61915d3969ba2eac7a8b90538352b8493f1a.
+Same deterministic bytes as LOCALrehearsal but actualsession/exit/stderr/readbacks
+separately checked. Final syncopb37fa3a7fa9f11afdbfe0ead8c7ad813706db9e052460e2e2d0f60d52318b3d9;
+module8c6fa00c... . Qualified verify_receipt plus independent audit verify exactly
+one originalmarker append reviews/clip-06-bank-1.json,preexisting[],accepted14->15,
+ORDER[:15] (all00-06paired plus07bank0). Only currentrecoveryclaimed/computed,
+failed[]/currentSTOPfalse/completefalse/aggregateNone. All3OLDSTOPs preserved.
+OriginalmarkerbyteSHAba9adb7e31588dd85a697436c637a3c602997fb4f6c701957ee775af0c9f401a;
+newhonestnumericexecution87bd519d... andreceipt a923a183... unchanged, no relabel.
+All578freshhashes independently reconstructed from original470+5actualactivation+
+103genuinecompletedcase/packet/launcherfiles; allmatch. Failureclaim/outcome/partial5,
+successclaim/outcome/export/observations/source/clocks/original14origins intact.
+Beforeafter consumedgrantfd4b4cb8d42e442f8d9ee8ac7130945e/account31f1ee68...match,
+recompute exact uppercharge2599s; prior2348+2599=4947(82m27)kept, old2452 NOTstacked.
+No unusedtime secondgrant. Actualpinneduniversityoperator reverified1savedcaseCPU;
+localreceipt audit no model/test/extraSSH/metadatarepeat. Source/helper/payload/
+command/input/actualreceipt all pinned. Actualsession independent-verification.json,
+independent-audit.py and raw actual-sync-verified.json saved. No more registration
+pending; DO NOT repeat completed sync or consumed GPU/copy/recovery helpers.
+Current15/20diagnosticcases registered+independent,7pairs,5remaining:07b1,08b0/b1,
+09b0/b1. This is NOT overallresearchcompletion/admission. No partialmean.
+NEXT onusercontinue prepare separate nextpair:09YoYobank1,03Bowlingbank0 under
+originalfixedassignments/oneunused80mincaseeach. Requirefresh readonlyGPUidentity/
+process checks before anylaunch; latestmetadata receipt does NOT certifyGPUidle.
+No needaskGPUstatus atthisreceiptcheckpoint; no newpair/request/helper prepared.
+New continuation must preserve actual15origins including recovered06b1's ownkind/
+source/grant/execution, actualsyncboundary/receipt0499... and oldfailedSTOP/time.
+Expectednextbaseline578+1originalArcherymarker+9newsyncpacketfiles=588 ifnoextra
+entries. Keep originalmarkers/claim/outcome/source/readbackbytes; never patch or
+relabel oldpacket. Priorrecovery175.../module8e29... andalllegacyoperators remain
+immutable. Newsource needs truthful executionIDs; NFS-safe EXa+ descriptors and
+constructor-outside-ownmutex; bothhostleases serialmetadata/currentregistryguard.
+No autoretry/queue, foreignkill/whitelist, scientificmethodchange, heldoutpixels,
+paidcompute, budgetincrease or researchadmission. User commits self.
+Earlier prepared/unrun instructions below are historical.
+
+LATEST October27: ARCHERY ORIGINAL REVIEW REGISTRATION PREPARED; ACTUAL SYNC NOT RUN.
+User committed e77002b (Verify Archery Recovery & Preserve Attempt History).
+Read docs/archery_review_sync.md and report/checks/2026-10-27-archery-review-sync-preparation.md/JSON.
+New models/archery_review_sync.py, scripts/sync_archery_review.py and
+prepare_archery_review_sync.py,76tests and metadatafixture. Raw
+archery-review-sync-20261027 contains9-file Python/JSON-only packet,197902Bpayload.
+Final opb37fa3a7fa9f11afdbfe0ead8c7ad813706db9e052460e2e2d0f60d52318b3d9;
+module8c6fa00c59e874982c9b984c0d803dbfad93772e2571a7bfd9a9dacfae20e673;
+input06038cd06c106506afa60db8e6df393063ff31f097c5f9a1e3d8884596957c8b;
+helperbf0bcd602665ca541cda65e4ca9f0109419873b89a6eace70e26facd2c00860f;
+payload0594743ea32fc4030d60c0985a4f075ff5c6f06b76dd0478e1d9b9982427a5b4.
+Only exact original ba9adb7e31588dd85a697436c637a3c602997fb4f6c701957ee775af0c9f401a
+marker appends to archery-recovery-execution-20261027/reviews/clip-06-bank-1.json.
+Original core1757892c... /source8e29... /actualactivation5417... unchanged.
+578pins=470historical+108actualsuccessfulrecoverypacket/metadata/rawnumeric/
+observation/source/export/launcher records. Before any legacy loader may initialize,
+core.boundary+check_preserved578 fail closed. Then actual core.load and all ancestors
+verify. Both original legacyhost leases (09and03), then currentregistrymutex; no
+nested constructor deadlock, EX uses a+ FD. Registry constructors outside ownmutex.
+Reverify full existing outer export and live numeric receipt on CPU, exact original
+marker; no model/attack/test suite. Single atomic append with existing-identical
+readback safe after lost acknowledgment. No producer relabel or failed-state reset.
+Consumed grantfd4b4cb8d42e442f8d9ee8ac7130945e preserved, prior2348+new2599=4947
+charged, old2452remainder NOTstacked; no anotherattempt from unused2201seconds.
+AccountfileSHA31f1ee6803722e70121cc6d7bd020c11b6c6a7546a207b76e308715b68bb271a.
+All3oldSTOPs/failedclaim/outcome/raw5/partial/source/clocks/original14origins and
+newsuccessfulhonestexecution87bd519d... retained. Inherited oldtransportattempt-01
+label documented, actualrecovery-01 verified; frozen old source untouched.
+76local/76extracted0fail/error/skip. Full FINAL actualinstaller/extractor/CLI/Registry/
+real-lock/receipt-verifier rehearsal uses genuine completed case+578hashes; only
+home/metadatahost substituted, no numeric/Registry mocks. One append14->15 and
+repeat15->15. Local saved-evidence reviews~22s each, NOT campusestimate. LOCAL
+receipt0499b6d4cbafbd06c2906a15373d61915d3969ba2eac7a8b90538352b8493f1a is
+NOT actual university receipt. validation/INDEX pins XML/proofs/scripts/source map.
+Helper failure QA uses failing local SSHstub, keeps empty .part/255 and rejects
+corruptpayload beforeSSH; no realnetwork. Scaffold/YAMLpass. Initial unrun draft
+retained as archery-review-sync-20261027-draft-01-unrun; do not use it. Finalraw
+has NOlatest-session atthischeckpoint; no actualuniversitysync/model/test/GPU.
+NEXT userMac runs finalraw/sync-reviews.sh ONCE, ordinarypasswordinTerminal.
+Metadatahost09,300s+15cleanup,caffeinate/lidopen. No GPUstatuscheck needed for
+CPUmetadata. ReplyDone -> inspect raw/latest-session SSH0/sync.stderr/receipt,
+actual source/input/helper/payloadpins, verify_receipt+independentexplicit audit:
+exact originalmarker/readback,578freshhashes, statuses14->15(or15idempotent),
+all3STOPs/newclaim/outcome/export/history intact,timebefore/afterunchanged/consumed
+samegrant. Save actualaudit/receiptverification before claiming university15.
+If error inspect first; do not repeat any consumed modelhelper. Currentindependent
+15/20,7pairs,5remaining; lastuniversityregistered14. No newGPUdispatch now. After
+actualsync verified nextfixedpair may be09YoYobank1/03Bowlingbank0 withfreshGPU
+status and separatelypinned handoff. No partialmean/paid/heldout/researchadmission.
+User commits self. Earlier sync-unprepared/recovery-ready entries historical.
+
 LATEST October27: ACTUAL ARCHERY RECOVERY VERIFIED; 15/20 LOCAL, REGISTRATION PENDING.
 Read docs/archery_recovery.md and report/checks/2026-10-27-archery-recovery-verification.md/JSON.
 Actual raw archery-recovery-20261027/linux10603 latest-session and latest-download both

@@ -13,10 +13,10 @@ charged were retained and the old remainder was not added. No helper in this
 packet may be used to repeat the model. All evidence is saved locally; the
 attended session has ended and SSH can be closed.
 
-Next prepare a separately pinned metadata-only registration of the exact
-original recovery review. The university coordinator last registered14 cases;
-the local verified total is15 until the actual registration receipt passes
-review. No new GPU helper or next-case queue is prepared here. Remaining cases
+The [metadata-only registration is complete and independently verified](../report/checks/2026-10-27-archery-review-sync-verification.md).
+The university coordinator and local reviews now agree at15/20 diagnostic cases.
+Next prepare the separately pinned YoYo bank1 / Bowling bank0 pair with fresh
+GPU checks. No new GPU helper or next-case queue is prepared here. Remaining cases
 are YoYo bank1, both Bowling banks and both HandStandPushups banks.
 
 The raw transport's inherited `attempt-01` display label is preserved and

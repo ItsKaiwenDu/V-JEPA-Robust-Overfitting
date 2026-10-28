@@ -1,5 +1,51 @@
 # Research Progress Reports
 
+## 2026-10-27 — Archery review registered; fifteen accepted at university
+
+The actual metadata command returned0. Independent audit verifies the exact
+original recovery review, all578 fresh preservation hashes and university
+acceptance advancing14→15. Registered and independently verified progress
+now agree:15/20 diagnostic cases, seven complete clip pairs and five remaining.
+
+The original recovery execution, numeric receipt and review identity remain
+unchanged. All three historical STOPs, the rejected partial attempt, the
+successful recovery and consumed grant remain intact. The old2348seconds
+plus recovery2599seconds remain charged (4947seconds total); the old remainder
+is not stacked and unused time grants no further attempt. The actual university
+operator rechecked one saved case on CPU. The local receipt audit ran no
+model or test suite and made no extra connection or repeat registration.
+
+Next prepare a separately pinned pair: YoYo bank1 on10609 and Bowling bank0
+on10603, with fresh GPU status before launch. No new request or GPU helper is
+prepared by this verification. No partial scientific aggregate, held-out access,
+paid work or research admission occurs. User commits separately.
+[Actual registration audit](report/checks/2026-10-27-archery-review-sync-verification.md).
+
+## 2026-10-27 — Archery recovery review registration prepared
+
+The separate metadata-only packet is ready. It pins the exact original recovery
+review,578 historical and successful-run file hashes, consumed grant and4947
+seconds of charged history. The operator verifies immutable history before
+older registry initialization, rechecks the saved case on CPU, and appends one
+review under both host leases and the current registry mutex. It starts no
+model, test suite, GPU request or next-case queue.
+
+All76 focused checks pass locally and after extraction with zero skips,
+failures or errors. The final actual installer/CLI/real-lock rehearsal uses
+genuine saved tensors, advances14 to15, preserves578 hashes and safely
+acknowledges a repeat. No numerical verifier or Registry is mocked. Separate
+helper checks preserve a generated failed SSH transfer and reject corrupt
+payloads before connection. The scaffold check passes. All rehearsal activity
+is local; university registration has not run.
+
+Next run the five-minute metadata helper once from Mac Terminal and independently
+review the actual receipt. Progress remains15/20 independently verified diagnostic
+cases,14 last registered, seven complete clip pairs and five cases remaining.
+After registration verifies, prepare YoYo bank1 on10609 and Bowling bank0 on10603
+with fresh GPU checks. No held-out access, scientific aggregate, paid work or
+research admission occurs. User commits separately.
+[Prepared registration](report/checks/2026-10-27-archery-review-sync-preparation.md).
+
 ## 2026-10-27 — Archery recovery passes; fifteen diagnostic cases verified
 
 The approved single recovery on linux10603 completed with job0 and first
