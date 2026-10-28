@@ -1,5 +1,126 @@
 # Research Progress Reports
 
+## 2026-10-28 — All20 diagnostic cases and ten clip pairs independently verified
+
+Bowling08bank1 on10603 and HandStandPushups09bank1 on10609 both completed and
+copied with exit0. Frozen qualified reviewers and independent saved-evidence
+audits pass. Each verifies107 downloaded files/108 transport members,105 archive
+members,75 source pins,195 actual campus CPU passes,173 logical tensors,
+320 finite nonzero gradients,84 exact replay inputs, the exact fresh A adversary,
+six GPU boundaries/native probes/7GiB cap and both928-file history observations.
+Each matches its own original bank0 on52 non-attack tensors, clean baselines,
+runtime/weights/clip/settings/targets/starts while preserving distinct attack
+banks/seeds and original execution identities. All18 previous origins and
+three historical STOPs remain unchanged.
+
+Current conservative whole-launcher charges are2998seconds for Bowling and
+3007seconds for HandStand. Bowling's prior206seconds remain charged, giving
+3204of4800; its current job fits4594remaining. HandStand uses3007of4800.
+No clock reset or additional allowance. Both140-file reviewed trees and exact
+original review markers are saved with scripts, output and provenance; the
+saved copies pass the independent audit again. Combined local acceptance is
+20/20and10pairs, not a scientific aggregate or research admission. University
+registration remains18 until the last two exact reviews are synced.
+
+Both jobs/copies ended; SSH and Mac awake sessions may close. Next prepare
+metadata-only registration, review the actual18-to20 receipt, then carry out
+the predeclared complete-panel analysis and assess research gates. Do not
+repeat used launchers/activation. No new model/test/remote/paid/held-out work
+during this review. User commits separately.
+[Complete diagnostic checkpoint](report/checks/2026-10-28-last-two-verification.md).
+
+## 2026-10-28 — Actual final-two activation verified; both attended launchers ready
+
+The university command returned0. Independent audit verifies the actual
+activation-session-20261028T210439Z.lJLToN path,187668-byte receipt7d2b2c...,
+installer stderr, six exact records with genesis last,928 fresh hashes and18
+original origins. Equal LOCAL bytes were separately distinguished from the
+actual receipt. The imported17 rows and added HandStand bank0's truthful
+original wrapper/execution/review remain unchanged.
+
+Carry ledger and requests retain206startup seconds plus4594remaining on03,
+and0plus4800on09, with15cleanup and no new allowance. The old unused request,
+startup accounting, prior successful charges, three historical STOPs and
+consumed Archery4947-second history match. All75 sources, payload, helpers and
+copy inventories pass. Actual review marker saved; both local Python PIN_CHECK
+blocks pass. No shell/SSH/model/test suite was run by this local audit.
+
+Next run both new attended helpers once in separate Mac Terminal tabs, keep
+connections/Mac awake through copying, then independently review each actual
+export and pair its bank1 with the correct original bank0. Current18/20 and
+eight pairs remain until those reviews pass. Actual195campus checks and final
+numerical results are not observed yet. No paid launch, held-out pixels,
+scientific aggregate or research admission. User commits self.
+[Launch instructions](docs/last_two_panel_cases.md) ·
+[Actual activation audit](report/checks/2026-10-28-last-two-activation-verification.md).
+
+## 2026-10-28 — Actual eighteen-case registration verified; final two handoff prepared
+
+Actual HandStand registration returned0; independent audit confirms its original
+marker,918 fresh hashes and17→18 progression, with unchanged clocks and three
+STOPs. Exact actual receiptfa1c061... and original HandStand execution2c5408.../
+review50aee20... are retained. All17 preceding case origins remain unchanged.
+
+Added a distinct final-two coordinator and source identity. Only08bank1 on03
+and09bank1 on09 are requested. The input protects928 hashes:918 previous plus
+the original HandStand marker and nine sync packet files. Six activation records
+include time carry. Bowling carries206 charged seconds into4594remaining;
+HandStand bank1 retains its unused4800seconds. Both windows include all setup,
+195CPU checks, preflight, model/replay/export, plus15cleanup. The old unused
+Bowling request is retained by exact hash; other artifacts and duplicate claims
+reject. No extra attempt, queue or allowance is added.
+
+119focused and195combined extracted checks pass without skips. An initial
+CPU-only prototype exposed duplicate recursive loading; its packet, partial
+mirror and stopped log are kept. Direct installed metadata/source/receipt/time
+checks replace only that duplicate load, retaining928 prechecks and older
+boundary verification; six new checks pass. Full final installer/extractor/
+CLI activation/verifier and concurrent actual run/Registry/leases/claims/
+outcomes/exports/collectors/receivers rehearsal passes. GPU queries/neural bodies
+alone are mocked for the CPU cases, which independent review rejects. No CPU
+fixture increases acceptance. All928 hashes remain unchanged. Actual helper
+activation gates/deadline arithmetic, corruption/failure checks and scaffold/
+YAML pass. LOCAL receipt is labeled and is not university evidence.
+
+Fresh user snapshots match both fixed GPU UUIDs and idle compute lists, with
+2.1T shared free space. They are not reservations; runtime strict checks remain.
+Next user runs new activate-continuation.sh once; inspect actual six records/
+928 readbacks/time ledger before releasing two Mac attended helpers. Actual
+activation and final GPU cases remain unrun. Progress18/20, eight pairs; only
+complete actual reviews and proper bank0 pairing may advance20/20 and ten pairs.
+No paid launch, held-out pixels or research admission. User commits self.
+[Final-two instructions](docs/last_two_panel_cases.md) ·
+[Preparation audit](report/checks/2026-10-28-last-two-preparation.md).
+
+## 2026-10-28 — HandStandPushups review registration prepared for the final two cases
+
+Added a source-identified metadata-only registration of the exact original
+HandStandPushups bank0 marker. It preserves918 existing hashes, both original
+host leases, original clocks, all three historical STOPs and consumed recovery
+history. It verifies Bowling's preclaim clock and requires both pending final
+cases to remain unclaimed before appending the single review. No model,
+attack, test suite or additional attempt is authorized by registration.
+
+All86 focused local and86 extracted checks pass with zero skips. Full actual
+installer/extractor/CLI/Registry/real-locks/saved-tensor CPU rehearsal passes
+in a fresh isolated mirror, advances17-to18 and preserves exact readback on
+repeat. The actual receipt verifier and local helper failure/corruption checks
+pass. Only local home/metadata host/CLI dispatch are substituted; the saved
+case verifier and numerical evidence are genuine. Initial negative-test exit
+mutation corrected to0 because the preserved refusal is1; initialXML kept.
+Scaffold/YAML pass. LOCAL receipt is clearly labeled and not university evidence.
+
+The nine-file source/metadata payload is290253bytes. Actual campus registration
+has not run; local acceptance remains18/20 with eight pairs and university17.
+No final-two GPU launcher is prepared before that actual receipt verifies.
+A preparation plan fixes03Bowling08bank1 at4594seconds after206charged, and
+09HandStand09bank1 at4800seconds, both plus15cleanup with no extra allowance.
+Next run the source-only sync once from Mac Terminal, independently inspect
+its actual receipt, then bind the final-two handoff to it and obtain fresh GPU
+checks. No paid launch, held-out pixels or research admission. User commits self.
+[Registration instructions](docs/handstand_review_sync.md) ·
+[Preparation audit](report/checks/2026-10-28-handstand-review-sync-preparation.md).
+
 ## 2026-10-28 — HandStandPushups bank0 verified; eighteen cases accepted locally
 
 The actual10609 job and copy returned0. The pinned reviewer and independent

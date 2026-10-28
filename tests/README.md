@@ -1,5 +1,30 @@
 # Scientific acceptance tests
 
+Both final bank1 CUDA exports and their actual195 campus checks per host
+are [independently verified](../report/checks/2026-10-28-last-two-verification.md),
+with zero failures/errors/skips. Each passes173 saved tensors,320 finite
+gradient observations,84 exact replay inputs, fresh A equality, six strict GPU
+boundaries/native probes and both928-file history checks. Original-bank0 pairing
+matches52 non-attack tensors and all clean scoring baselines. Local progress is
+20/20diagnostic cases and ten pairs; university registration is18. Review ran
+no model or test suite. Earlier preparation/test-status entries are historical.
+
+`test_last_two.py` adds119 focused checks for the final two cases, per-host
+206-second carry/4594-second remainder versus4800seconds,928-file preservation,
+original18 identities, the exact retained unused request and direct installed
+registration verification. All119 focused and195 combined extracted checks
+pass with zero skips. Full CPU installer/activation/concurrent-run/copy rehearsal
+passes; generated CPU archives are rejected and qualify no CUDA case.
+[Preparation](../report/checks/2026-10-28-last-two-preparation.md).
+
+`test_handstand_review_sync.py` adds86 metadata-only regression checks for
+original-marker registration, gapped17-to18 progress,918-file history,
+original completed and refused clocks, pending final-case artifact refusal,
+atomic append recovery, real locks and rejection before older constructors.
+All86 local and86 extracted checks pass. Full installer/saved-evidence CPU
+rehearsal and helper failure checks also pass. The LOCAL receipt is not campus
+evidence. [Preparation](../report/checks/2026-10-28-handstand-review-sync-preparation.md).
+
 HandStandPushups bank0's actual177 campus checks and completed CUDA export are
 [independently verified](../report/checks/2026-10-28-handstand-bank0-verification.md):
 all four arms, exact fresh replay,173 logical tensors,320 finite gradient

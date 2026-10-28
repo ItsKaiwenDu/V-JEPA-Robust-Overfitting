@@ -1,0 +1,308 @@
+{
+  "CPU_checks": {
+    "combined-extracted": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 195
+    },
+    "focused": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 119
+    }
+  },
+  "GPU_cases_started": 0,
+  "LOCAL_activation_receipt_sha256": "7d2b2cda92b739c9aa23f16bf6c27e907946380c522495bc43577b6b64629d51",
+  "LOCAL_receipt_is_not_university_evidence": true,
+  "activation_helper_failure_QA": {
+    "actual_raw_latest_session_absent": true,
+    "kind": "last-two-activation-local-helper-failure-QA-v1",
+    "model_or_GPU_or_university_operation_started": false,
+    "network_connections": 0,
+    "passed": true,
+    "ssh_replaced_by_failing_local_stub": true,
+    "tests": [
+      {
+        "exit_status": 255,
+        "passed": true,
+        "test": "failed-copy"
+      },
+      {
+        "exit_status": 1,
+        "passed": true,
+        "test": "corrupt-payload"
+      }
+    ]
+  },
+  "activation_helper_sha256": "b1694f8446747c9a7d3075fdeaf008732955d7c44d35ed85686d7d7add98865a",
+  "actual_activation_run": false,
+  "actual_prior_registration_receipt_sha256": "fa1c061caa27bc78136f166b1b5a5e54eaeb6f42e94be93798e2aab63697c6bc",
+  "additional_allowance_seconds": 0,
+  "ancestor_files_preserved": 928,
+  "archive_bytes": 1545802,
+  "archive_sha256": "584b0c47ea0beba05261501af6d34d70639a466aedaddeb926150526b935551f",
+  "automatic_GPU_retry": false,
+  "automatic_queue": false,
+  "carried_startup_seconds_by_host": {
+    "linux10603": 206,
+    "linux10609": 0
+  },
+  "case_helpers": [
+    {
+      "activation_independent_review_required": true,
+      "bootstrap_sha256": "bbd3e743f15bde59f57da2e0063bc41298c167a3fbd4502ee86cff54d1a06a77",
+      "carried_startup_seconds": 0,
+      "case_id": "clip-09-bank-1",
+      "case_seconds": 4800,
+      "download_expected_files": 107,
+      "host": "linux10609",
+      "launch_helper_sha256": "885ec288ab6ca6ec20a6aff63ae5b223e3a5e851083300539a92b690c8ad3a79",
+      "pipeline_sha256": "4dfdc128715cd10f9eec3234b264a96b966b5be307726b326f62ce1233beeb7a",
+      "source_launcher_sha256": "b60c67c4380ac878f500748b8f07f4fbfd718457b59343d8f0b48e72058ea744"
+    },
+    {
+      "activation_independent_review_required": true,
+      "bootstrap_sha256": "5d4006c13c18c26a28f8788d661f853f2dbe33a42bc979e5d214ea82d9eb403b",
+      "carried_startup_seconds": 206,
+      "case_id": "clip-08-bank-1",
+      "case_seconds": 4594,
+      "download_expected_files": 107,
+      "host": "linux10603",
+      "launch_helper_sha256": "48cd465bae27e7dec3590cf6f67ff01af243726078946380cba78ac806f6bddf",
+      "pipeline_sha256": "b64cd0d770c9ea638e067d9fe464e100949026aeb6aec8ca37ff291d3f8c8ed0",
+      "source_launcher_sha256": "dee5e5759dd52215693da01e5c3b88ae45be58c4160ff26fccaac655f5d4b224"
+    }
+  ],
+  "cleanup_seconds": 15,
+  "complete_clip_pairs": 8,
+  "date_Pacific": "2026-10-28",
+  "fresh_user_GPU_status": {
+    "date_Pacific": "2026-10-28",
+    "filesystem_total_is_not_a_user_quota_measurement": true,
+    "hosts": {
+      "linux10603": {
+        "GPU_name": "NVIDIA GeForce RTX 3070",
+        "GPU_uuid": "GPU-e54fae90-feeb-8106-d8c0-1974fe48555f",
+        "compute_processes": [],
+        "driver": "580.178.04",
+        "memory_total_MiB": 8192,
+        "memory_used_MiB": 94
+      },
+      "linux10609": {
+        "GPU_name": "NVIDIA GeForce RTX 3070",
+        "GPU_uuid": "GPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52",
+        "compute_processes": [],
+        "driver": "580.178.04",
+        "memory_total_MiB": 8192,
+        "memory_used_MiB": 74
+      }
+    },
+    "kind": "user-supplied-final-two-GPU-snapshots-v1",
+    "not_a_GPU_reservation": true,
+    "recorded_after_receipt_verification": true,
+    "shared_home_reported_free": "2.1T",
+    "shared_home_used_percent": 86,
+    "source_question": "call_f11ef1a87f3747e9b0faf39e8892de8a"
+  },
+  "full_CPU_rehearsal": {
+    "activation_repeated_idempotently_before_claims": true,
+    "actual_activation_receipt_verifier": true,
+    "actual_collectors_and_receivers_passed": [
+      {
+        "host": "linux10609",
+        "regular_files": 108,
+        "transport_bytes": 8079360,
+        "transport_sha256": "c9791d251b768d430c588500667850d56a6977a2fd8071c634133428ac78e3e2"
+      },
+      {
+        "host": "linux10603",
+        "regular_files": 108,
+        "transport_bytes": 8079360,
+        "transport_sha256": "726e31950fb957917344c76a487029e8c6285f3f0ffa4d52d6ad7a1816ee82a6"
+      }
+    ],
+    "actual_installer_extractor_CLI_activation": true,
+    "all_928_ancestor_hashes_unchanged": true,
+    "all_three_historical_STOP_records_unchanged": true,
+    "computed_CPU_fixtures_do_not_advance_acceptance": true,
+    "concurrent_real_main_run_Registry_leases_claims_outcomes_exports": true,
+    "corrupt_transport_rejected_before_extraction": true,
+    "fresh_isolated_rehearsal_home_previous_mirror_unchanged": true,
+    "independent_review_rejects_both_CPU_archives": true,
+    "kind": "last-two-full-path-CPU-rehearsal-v1",
+    "metadata_CLI_seconds": [
+      102.82296370799304,
+      102.5695779589878
+    ],
+    "new_CUDA_cases_qualified": 0,
+    "only_neural_body_and_GPU_query_mocked_for_runs": true,
+    "operation_sha256": "c57a2c47ad3d36d338a1658dc61b8f894853f85ae007bb008f38b0ece94efa1e",
+    "original_case_origins_preserved": true,
+    "passed": true,
+    "per_host_carried_startup": {
+      "linux10603": 206,
+      "linux10609": 0
+    },
+    "per_host_remaining_windows": {
+      "linux10603": 4594,
+      "linux10609": 4800
+    },
+    "remote_connections": 0,
+    "two_actual_bootstraps_and_repeat_rejection": true
+  },
+  "held_out_pixels_opened": false,
+  "helper_gate_and_deadline_QA": {
+    "GNU_timeout_available_locally": false,
+    "actual_raw_latest_sessions_absent": true,
+    "actual_shell_remaining_time_arithmetic_checked": [
+      {
+        "accepted": true,
+        "host": "linux10609",
+        "setup_seconds": 250
+      },
+      {
+        "accepted": false,
+        "host": "linux10609",
+        "setup_seconds": 4801
+      },
+      {
+        "accepted": true,
+        "host": "linux10603",
+        "setup_seconds": 250
+      },
+      {
+        "accepted": false,
+        "host": "linux10603",
+        "setup_seconds": 4595
+      }
+    ],
+    "kind": "last-two-local-helper-gate-and-deadline-QA-v1",
+    "launch_helpers_block_without_independent_activation_review": [
+      "linux10609",
+      "linux10603"
+    ],
+    "model_or_GPU_jobs_started": 0,
+    "network_connections": 0,
+    "passed": true,
+    "shell_timeout_scope": "Final shell syntax and actual remaining-time expression checked; Linux GNU timeout and unchanged TERM/KILL cleanup retained."
+  },
+  "historical_STOP_records_preserved": 3,
+  "initial_local_fixes": "Initial fixture needed the public source PYTHONPATH and exist_ok for the retained request directory. A CPU-only prototype was preserved and stopped while removing one duplicate recursive context load; all928 prechecks and direct installed source/input/receipt/time checks remain. No numerical worker or tolerance changed.",
+  "input_file_sha256": "311972c1a822d6046e38c3c26108d4d75620969da593c8ad4117362f6049a761",
+  "kind": "last-two-panel-time-carry-preparation-v1",
+  "metadata_activation_seconds": 300,
+  "next_step": "Run activate-continuation.sh once from Mac Terminal, independently verify its actual six-record receipt, then release both attended per-host run-case.sh helpers. Both remain blocked until actual review.",
+  "only_numerical_parent_change_is_the_new_CLI_path": true,
+  "operation_sha256": "c57a2c47ad3d36d338a1658dc61b8f894853f85ae007bb008f38b0ece94efa1e",
+  "original_Bowling_request_file_sha256": "eeb0d78eb5ffab94a5d32d4f6edddb7d23b1fbbf5385a778f40629719f599adb",
+  "original_HandStand_execution_sha256": "2c5408b45416be7151da07f5c6ddf9c69ddfb0a4347499d6afacc680cc87d0a7",
+  "original_HandStand_origin": "reviewed-seventeen-case-pair",
+  "original_HandStand_review_file_sha256": "50aee20e6386d958f293c414fb076fcef4bf09c545a5449cffc4b86378325765",
+  "original_case_seconds": 4800,
+  "original_eighteen_case_origins_preserved": true,
+  "packet_files": 80,
+  "paid_compute": false,
+  "payload_bytes": 2080505,
+  "payload_sha256": "d91e86f025241bcbb3a5bbc67674b0c171e2a2228ea126058577cc0220b0f659",
+  "previous_success_charges_seconds": {
+    "Bowling_bank0": 2634,
+    "HandStand_bank0": 2951,
+    "YoYo_bank1": 2794
+  },
+  "prior_Archery_consumed_seconds": 4947,
+  "registered_and_independent_case_count": 18,
+  "remaining_case_ids": [
+    "clip-08-bank-1",
+    "clip-09-bank-1"
+  ],
+  "remaining_case_seconds_by_host": {
+    "linux10603": 4594,
+    "linux10609": 4800
+  },
+  "research_admitted": false,
+  "scientific_aggregate": null,
+  "scientific_worker_AST_matches_qualified_predecessor": true,
+  "source_inventory_count": 75,
+  "source_sha256": {
+    "models/reviewed_panel_last_two.py": "d77184e0c33d5aa9c4da79c67489bc82c8c6d3efbe3860bb405bcd14782e39a2",
+    "scripts/continue_last_two.py": "efbdfd99fdb5949d1aa222ded56e07fa5182f23c8de642551c221a89fc27b45d",
+    "scripts/prepare_last_two.py": "45b57899ba284dacee269be1838dafbc07551fa73cb2af3697e0d556cde1d9f5",
+    "support/core-packet/CONTINUATION.json": "f12b52c25e52b83bbd115fbdd21231b5f2dc462cfc9d735e17c9439bfd5bd3d7",
+    "support/core-packet/INPUT.json": "aa97ea61a5f6b1b197ba393967ec6d8fd789c8f8b13fbfd5496ec95b147baad0",
+    "support/core-packet/models/reviewed_panel_final_pair.py": "6d435b42a87c51c3992ea022ebdb4e366cb3cb7c021e1213c2b15cfa2b8372ad",
+    "support/core-packet/prior-INPUT.json": "483644490e4dc64e3cdb04af29d83c1a04d9dfc076f5dfe9ab7ed1c9730eaaac",
+    "support/core-packet/prior-OPERATION.json": "eacbb8929e0855a0c2ac95d16e9908059c8509d91c227e7e5eb351909924dbc8",
+    "support/core-packet/prior-receipt.json": "8e6316d47b0d2f8f40aa9af3c21bd39c5078aa0c9f6fbc675ec135ffeb941d0d",
+    "support/core-packet/scripts/continue_reviewed_final_pair.py": "ae4f18fc09f54c83e92927eeaba083e6b26e8d36b5864460a74165ac4a0fe72f",
+    "support/core-packet/scripts/prepare_reviewed_final_pair.py": "a2fe9625f2d32094add73824c3a19d0285a3ecfa1ad8a9cd48b060b1fcff9ce6",
+    "support/core-packet/support/core-packet/CONTINUATION.json": "564e9d114533b91b614736046d35e7c256ffd5fd5f6cc9ae5c7c405c50bcc332",
+    "support/core-packet/support/core-packet/INPUT.json": "370f44dbd361b3362b572ace5b759ca9aa297aeb7901154c237ad24abfc41369",
+    "support/core-packet/support/core-packet/models/reviewed_panel_next_pair.py": "0ef79a7959585f947d428d74e6d6b0b430b4a55192357ad4e64613b94cba3602",
+    "support/core-packet/support/core-packet/prior-INPUT.json": "06038cd06c106506afa60db8e6df393063ff31f097c5f9a1e3d8884596957c8b",
+    "support/core-packet/support/core-packet/prior-OPERATION.json": "d440e5ee5113a522b99d61ad73fd1d89c0b1caae6ba788eabeeabc1d1e6fd618",
+    "support/core-packet/support/core-packet/prior-receipt.json": "0499b6d4cbafbd06c2906a15373d61915d3969ba2eac7a8b90538352b8493f1a",
+    "support/core-packet/support/core-packet/scripts/continue_reviewed_next_pair.py": "290eaa6e013b15a0526409d6395d9ab241248dc612464565d900e357133b03ab",
+    "support/core-packet/support/core-packet/scripts/prepare_reviewed_next_pair.py": "46b6a5e191f86806084b89f20d3eca0ec2f22f0fa872e4a9f7abc0f5d245453d",
+    "support/core-packet/support/core-packet/support/archery_review_sync.py": "8c6fa00c59e874982c9b984c0d803dbfad93772e2571a7bfd9a9dacfae20e673",
+    "support/core-packet/support/core-packet/support/core-packet/CONTINUATION.json": "0f03ea41e6517ad1b0b9423f4188d4525f3052618f201a004428de68289ad80b",
+    "support/core-packet/support/core-packet/support/core-packet/INPUT.json": "c1dc80b466263872afbcbff5450f7efedbacf7264e69d5da62dec1f94994411c",
+    "support/core-packet/support/core-packet/support/core-packet/PROPOSAL.json": "41e4aec0c76c5290cd69f24e501ec35fd8f11f859a96fdb0db22bba3c1e01e43",
+    "support/core-packet/support/core-packet/support/core-packet/authorization.json": "41141726758e31b4babf76feadfe48618b4399a5147ace7dcea614ea14feabc3",
+    "support/core-packet/support/core-packet/support/core-packet/failed-numeric.manifest.json": "d6b14821064f149034385ba7447d6e2cceb46ae117e48741ad9d3db53a3f1492",
+    "support/core-packet/support/core-packet/support/core-packet/incident-accounting.json": "7e5c24277588c4cb251f805d97238046cb885e43639fa409f9cc067dbbab63f8",
+    "support/core-packet/support/core-packet/support/core-packet/incident-verification.json": "2a21957f3d4803f48beb92fa88c8371f9a6164482470d6f897bbbb8387bff2f6",
+    "support/core-packet/support/core-packet/support/core-packet/models/archery_recovery.py": "8e29c1931c1ecb9734fa31a969be0524efe2545f08df15127bc7eb73f7db4215",
+    "support/core-packet/support/core-packet/support/core-packet/prior-INPUT.json": "18c60840a02daea6b21ddfbf6974195674ab53a02b876153c4eb5f827115e14b",
+    "support/core-packet/support/core-packet/support/core-packet/prior-OPERATION.json": "2f692b5caefee4dcc51964d122cf38c00cbc5c427ead473c771456c9daa2a2dd",
+    "support/core-packet/support/core-packet/support/core-packet/prior-receipt.json": "1bb93c739f3664bb4337b8d4333d5be01a59d5b54550e00a94c7be054bdb0f5e",
+    "support/core-packet/support/core-packet/support/core-packet/scripts/prepare_archery_recovery.py": "b6d2da12728d6e065595f4ce9fbf2180b0ee10c9a3389945abd8f50b9a32db17",
+    "support/core-packet/support/core-packet/support/core-packet/scripts/recover_archery.py": "54fae905891d0ac2681024f616aabb6c66de315515c53ac74ca2ac6fa650441b",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/CONTINUATION.json": "2f692b5caefee4dcc51964d122cf38c00cbc5c427ead473c771456c9daa2a2dd",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/INPUT.json": "18c60840a02daea6b21ddfbf6974195674ab53a02b876153c4eb5f827115e14b",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/models/archery_continuation.py": "c27906c5bd383516d3259b8edc34ca798206776b6db7e89719a248850728a61c",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/prior-INPUT.json": "29ca7d6e51c0f48fcbabfe07166c6a3509553a86fb22e730e01d202aa9e81074",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/prior-OPERATION.json": "f87bc15e374445416ff636b40f6cf4cf5acbd76e18de1d228008567b82c391c6",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/prior-receipt.json": "3e81a122302aad09d176f42bb9ba90c974e92fe1731b682a4839a9e6f67f0025",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/scripts/continue_archery.py": "7b46ad55c61fc8f0ebc19566c5d4980e3164c365c42f2ade54889e6071b4537d",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/scripts/prepare_archery_continuation.py": "050b1e96bb82e0a8eeeda3b457d4cced1a9acff63c9d8d5e3998c2fdbcfab5eb",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/CONTINUATION.json": "765dee9fa579d7e225b49bc992e89bb8b58e4924a26bae7e4f42407af6f0169d",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/INPUT.json": "4fafd4b2445075e33b3558bf26d22f6cfe4349903df2ad702afca2d9195b1485",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/models/reviewed_panel_batch.py": "7989283aca4be98e53929d0761110d0896e8d8a3324e1751fa4141641e067651",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/prior-INPUT.json": "c65a86c097053d92f3f0f9bf7e1471311c9c4255bf6ded448266f78a3f5833ed",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/prior-OPERATION.json": "5ce24d51cb95fe6a087c52efb4941b2b63469c5a556a75c4b9efb41814e71206",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/prior-receipt.json": "df880b3e603c6baa4c42860b918cc0ef4c152e29c046fe78f77304119f2c7281",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/scripts/continue_reviewed_batch.py": "68f6a0c7df34453e881ea11c668bbe4fe2994418ee5b42bfc744b684d20065c2",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/scripts/prepare_reviewed_batch.py": "720a2130c6e33952b0ccf9e378258590f587c8864ae1271a0a17038a879574f9",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/CONTINUATION.json": "46920eb57261f136f24dc8a3d9ae2d1ea181fdb781c398101fc7e939f14a89ca",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/models/reviewed_panel_continuation.py": "51f78c2b4ff4904f4492e4ff055d58eb7f219a4a3b1f440dd502c43725c71b96",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/prior-INPUT.json": "4e0ea9e51c0c2e53c85d17f94a5979b1be75aa3db471134ad155939a13dc7096",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/prior-OPERATION.json": "6289c007883743c001f4ab04ac6aff71c0bedbc0300f3ede1dc0dacbb08ad27f",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/prior-receipt.json": "aaecab1ee4784ccf4fe98bbdb06ac5932810dadd1daf2ebecd7e3f6d7cf01762",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/scripts/continue_reviewed_panel.py": "2e745b4d2010328767f04d880fa241906adca77ee4a4eb5a37cb9a14102140a5",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/scripts/prepare_reviewed_continuation.py": "2d6af13261bdc1f35593252635ad55d0846c4925ec59b7f0b48abbbafc853aba",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/reviewed_panel.py": "e654928424efd688a7f2d2077150ecf13502711f31fedd22a038e581fb7cb59f",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/tests/fixtures/reviewed_continuation_metadata.json": "cccf72508fb9717dd9772687252cd72642e0f397d1bdee6b6b8c65a73f08ae1c",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/tests/test_reviewed_continuation.py": "558e39fa9fa05fea7e2512767759ed0c99f1559677da7f612388e7eaac0981ea",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/reviewed_panel_sync.py": "fb736bef98c982bb23b44e30a4da5d8dae572107277b325ef74202eac28f0f98",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/tests/fixtures/reviewed_batch_metadata.json": "d7f354bc5164f248a6b070d68a26b42ac7e7dde7b44690fd696cbb4d4c085cba",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/core-packet/tests/test_reviewed_batch.py": "c8bf00c9ccb41106ca097c6dc0ff145d0b70a965b1c02a1f1af67b96c6beb261",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/yoyo_review_sync.py": "c7e55cec862c58938783045fa4accc7c0fbcfe2009d6a2f79b644b619a1fdf87",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/tests/fixtures/archery_continuation_metadata.json": "ec6016855b29384b2f808476e17b7050d3d1e8404a00a0edf5e5b3af2686a05c",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/tests/test_archery_continuation.py": "6b33dc7c5d66710a66a4cb271dbe2ef3a049ff1baa073dfa5746560e897a6958",
+    "support/core-packet/support/core-packet/support/core-packet/tests/fixtures/archery_recovery_metadata.json": "382730898f3bc7afd5c5b436ddaa8d306086ce101fb81a9d47fa49317594625e",
+    "support/core-packet/support/core-packet/support/core-packet/tests/test_archery_recovery.py": "f3dd19c4972d48d5a7bf5761c21b57732eb9a02661e1253bbf2b373472710f3c",
+    "support/core-packet/support/core-packet/tests/fixtures/reviewed_next_pair_metadata.json": "f9d71f6ee4585986fd3601e53260522c494029c6c0a05aa2421eb16747b08cdb",
+    "support/core-packet/support/core-packet/tests/test_reviewed_next_pair.py": "00dc00bb6eac6dfc091298a1fee04b8262bad47555ff77da6ef97ce70f839397",
+    "support/core-packet/support/yoyo_bowling_review_sync.py": "a1fc245906f44ddf66008828a2ba87ede35b85919891bd15bcfca7327e3ca538",
+    "support/core-packet/tests/fixtures/reviewed_final_pair_metadata.json": "5718af3dc4f2a566fa6d1d4c308df1b722a676be4a0554ab216560b108a28133",
+    "support/core-packet/tests/test_reviewed_final_pair.py": "0a7f1029bd0254a54bb9b52f47c4b5946b25b28b2d2f4175dfec226f2c63dc68",
+    "support/handstand_review_sync.py": "6e804bd55004b8de0723c63cca0b8e970d772aaa577992c3208dc255312ccbc1",
+    "tests/fixtures/last_two_metadata.json": "123bb45dff54bef451f449f1f1597c8ebd4cfbd9babd3820b339d0279562afd1",
+    "tests/test_last_two.py": "9f707638c8583765a90f95ac5629b1c0e4baedaa6c9dfe46f37312a4840b9338"
+  },
+  "status": "Prepared and locally verified; actual university activation and both final GPU cases remain unrun.",
+  "unused_old_request_retained_without_numeric_attempt_reset": true,
+  "validation_index_sha256": "63bab69e69f1fb5ef7294177fe59ac857148e16edde0affa65c629b12a50de91"
+}

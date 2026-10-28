@@ -1,0 +1,123 @@
+{
+  "CPU_tests": {
+    "extracted": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 86
+    },
+    "local": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 86
+    }
+  },
+  "LOCAL_receipt_is_not_university_evidence": true,
+  "LOCAL_rehearsal_receipt_sha256": "fa1c061caa27bc78136f166b1b5a5e54eaeb6f42e94be93798e2aab63697c6bc",
+  "accepted_after_verified_actual_sync": 18,
+  "accepted_before": 17,
+  "archive_bytes": 216173,
+  "archive_regular_members": 9,
+  "archive_sha256": "fabadadd531f3820d7cdbf6d91219ab7a46d87af1c82c3ea5c2ed009c4b2ff40",
+  "bounded_metadata_seconds": 300,
+  "campus_registration_has_run": false,
+  "cleanup_seconds": 15,
+  "complete_clip_pairs": 8,
+  "date_Pacific": "2026-10-28",
+  "helper": "runs/pretrained/diagnostic/handstand-review-sync-20261028/sync-reviews.sh",
+  "helper_failure_QA": {
+    "actual_raw_latest_session_absent": true,
+    "kind": "handstand-review-sync-local-helper-failure-QA-v1",
+    "model_or_GPU_or_university_operation_started": false,
+    "network_connections": 0,
+    "passed": true,
+    "ssh_replaced_by_failing_local_stub": true,
+    "tests": [
+      {
+        "exit_status": 255,
+        "passed": true,
+        "test": "failed-copy"
+      },
+      {
+        "exit_status": 1,
+        "passed": true,
+        "test": "corrupt-payload"
+      }
+    ]
+  },
+  "helper_sha256": "99acb2c0ea327753c632d322595c973a47c529ff438923a815a7c89a329e4698",
+  "independently_verified_case_count": 18,
+  "initial_test_fixture_correction": "One inherited test wrote the already-correct Bowling exit1 and expected rejection. Corrected mutation to exit0; production logic and scientific thresholds unchanged.",
+  "input_file_sha256": "7e9e612209aa3302f3a7abed408bab2b920ecb4b420e76f195002358c51a45a7",
+  "kind": "HandStand-original-review-registration-preparation-v1",
+  "known_hosts_sha256": "fe8681953fda73e81fe8442f0c5bd6fa8bfd2e333445fd4db51fde098b18d838",
+  "local_rehearsal": {
+    "Bowling_remaining_original_allowance_seconds": 4594,
+    "Bowling_startup_charge_seconds": 206,
+    "accepted_after": 18,
+    "accepted_before": 17,
+    "actual_installer_extractor_and_CLI_main": true,
+    "actual_receipt_verifier": true,
+    "all_original_imported_identities_preserved": true,
+    "all_three_STOP_records_and_consumed_history_preserved": true,
+    "case_verifier_or_Registry_mocks_used": false,
+    "complete_clip_pairs_after": 8,
+    "fresh_isolated_home_not_modification_of_prior_rehearsal": true,
+    "full_installer_apply_repeat_idempotent": true,
+    "genuine_completed_outer_exports_and_live_numerical_receipts_reverified_on_CPU": 1,
+    "home_and_metadata_host_substituted_only": true,
+    "kind": "HandStand-review-full-CLI-local-CPU-rehearsal-v1",
+    "model_or_GPU_worker_or_test_suite_started_by_sync": false,
+    "only_the_original_HandStand_review_marker_appended": true,
+    "operation_sha256": "44d89a8e95dd17dbf07bb3913367a43555d0dea187bd938fca5338193d6561fd",
+    "original_attempt_charge_upper_seconds": {
+      "clip-09-bank-0": 2951
+    },
+    "passed": true,
+    "preserved_files_verified": 918,
+    "previous_consumed_history_seconds": 4947,
+    "real_Registry_and_file_locks": true,
+    "remaining_cases_after": 2,
+    "remote_connections": 0,
+    "saved_case_reviews_seconds_local": [
+      90.5153507500072,
+      89.03597066699876
+    ]
+  },
+  "models_started": false,
+  "network_connections_during_preparation": 0,
+  "next_step": "User runs the source-only registration helper once from Mac Terminal. Verify its actual receipt before preparing or releasing final-two GPU launchers.",
+  "operation_sha256": "44d89a8e95dd17dbf07bb3913367a43555d0dea187bd938fca5338193d6561fd",
+  "original_execution_sha256": "2c5408b45416be7151da07f5c6ddf9c69ddfb0a4347499d6afacc680cc87d0a7",
+  "original_marker_file_sha256": "50aee20e6386d958f293c414fb076fcef4bf09c545a5449cffc4b86378325765",
+  "paid_compute": false,
+  "payload_bytes": 290253,
+  "payload_sha256": "70ae031605a50175bb50f0850b2eb4bf236cffe1569a40b9b7af980859ec392b",
+  "preserved_files": 918,
+  "preserved_time": {
+    "Archery_consumed_total_seconds": 4947,
+    "Bowling_bank0_charge_seconds": 2634,
+    "Bowling_remaining_original_seconds": 4594,
+    "Bowling_startup_charge_seconds": 206,
+    "HandStand_bank0_charge_seconds": 2951,
+    "YoYo_bank1_charge_seconds": 2794,
+    "additional_attempt_authorized": false,
+    "elapsed_time_reset": false
+  },
+  "records_to_append": [
+    "reviews/clip-09-bank-0.json"
+  ],
+  "research_admitted": false,
+  "source_sha256": {
+    "models/handstand_review_sync.py": "6e804bd55004b8de0723c63cca0b8e970d772aaa577992c3208dc255312ccbc1",
+    "scripts/prepare_handstand_review_sync.py": "6fabf77f18690d1beddcd070a14109a98b5df5e3a5696183334fb40bab53bc92",
+    "scripts/sync_handstand_review.py": "1a1ea0449fdcbc863b7c8d455fd0ce95989704b1ed3dd199548c5d05868099e8",
+    "support/reviewed_panel_final_pair.py": "6d435b42a87c51c3992ea022ebdb4e366cb3cb7c021e1213c2b15cfa2b8372ad",
+    "tests/fixtures/handstand_review_sync_metadata.json": "d081206bc38b24c1c93b7a792f2c714ba46fb8a090e03ecbe40256c94737a6f2",
+    "tests/test_handstand_review_sync.py": "db6f646000fc28d99e0d88be7a1f24985bd6f9d0d3e1d8761f011c4fb1b7ede3"
+  },
+  "status": "Prepared and locally verified; actual university registration has not run.",
+  "university_registered_case_count": 17,
+  "validation_index_sha256": "d3f47975d94f3fbda92bf572595fa9a502a0c8309b163a1414b94c6b0f764750"
+}

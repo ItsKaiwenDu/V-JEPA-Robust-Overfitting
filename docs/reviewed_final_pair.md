@@ -1,5 +1,16 @@
 # Bowling bank1 and HandStandPushups bank0
 
+**Superseded checkpoint:** [the final two handoff is now prepared](last_two_panel_cases.md)
+and the [actual HandStand review registration is verified](../report/checks/2026-10-28-handstand-review-sync-verification.md).
+The old pair's launchers and registration are already used; do not repeat them.
+Earlier instructions below are historical. Current progress is18/20 and eight
+complete pairs; actual final-two activation comes next.
+
+**Next step:** [register the original HandStandPushups bank0 review](handstand_review_sync.md)
+through the prepared source-only helper. It preserves918 files and Bowling's
+206-second startup charge. Verify the actual17-to18 receipt before preparing
+the last two GPU launchers. [Remaining-case plan](../report/checks/2026-10-28-remaining-panel-cases-plan.json).
+
 **Current checkpoint:** [HandStandPushups bank0 is independently verified](../report/checks/2026-10-28-handstand-bank0-verification.md).
 The four arms, exact fresh A replay,177 campus checks and both774-file history
 observations pass. Local progress is18/20 diagnostic cases and eight complete

@@ -1,0 +1,49 @@
+{
+  "automatic_GPU_retry": false,
+  "automatic_queue": false,
+  "cases": {
+    "linux10603": {
+      "GPU_uuid": "GPU-e54fae90-feeb-8106-d8c0-1974fe48555f",
+      "additional_allowance_seconds": 0,
+      "case_id": "clip-08-bank-1",
+      "cleanup_seconds": 15,
+      "max_new_numeric_attempts": 1,
+      "original_allowance_seconds": 4800,
+      "remaining_original_allowance_seconds": 4594,
+      "startup_already_charged_seconds": 206,
+      "video_id": "v_Bowling_g19_c04"
+    },
+    "linux10609": {
+      "GPU_uuid": "GPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52",
+      "additional_allowance_seconds": 0,
+      "case_id": "clip-09-bank-1",
+      "cleanup_seconds": 15,
+      "max_new_numeric_attempts": 1,
+      "original_allowance_seconds": 4800,
+      "remaining_original_allowance_seconds": 4800,
+      "startup_already_charged_seconds": 0,
+      "video_id": "v_HandStandPushups_g21_c01"
+    }
+  },
+  "current_independently_verified_case_count": 18,
+  "current_university_registered_case_count": 18,
+  "date_Pacific": "2026-10-28",
+  "execution_handoff_prepared": true,
+  "execution_operation_sha256": "c57a2c47ad3d36d338a1658dc61b8f894853f85ae007bb008f38b0ece94efa1e",
+  "held_out_pixels_opened": false,
+  "kind": "remaining-two-panel-cases-preparation-plan-v1",
+  "next_steps": [
+    "Verify the actual registration receipt and unchanged918-file history.",
+    "Bind a distinct final-two source packet to that actual receipt and both truthful original bank0 origins.",
+    "Retain numerical policy, strict GPU guards, original shared leases and7GiB cap; test clock carry and export review.",
+    "Obtain fresh GPU identity/process checks before releasing attended launchers.",
+    "Review both actual exports independently and pair each with its own original bank0 before complete-panel analysis."
+  ],
+  "original_launchers_must_not_repeat": true,
+  "paid_compute": false,
+  "phase": "Final-two handoff prepared; actual six-record activation awaits independent review.",
+  "registration_operation_sha256": "44d89a8e95dd17dbf07bb3913367a43555d0dea187bd938fca5338193d6561fd",
+  "required_actual_registration_receipt_sha256": "fa1c061caa27bc78136f166b1b5a5e54eaeb6f42e94be93798e2aab63697c6bc",
+  "research_admitted": false,
+  "windows_include_bootstrap_CPU_checks_preflight_matrix_replay_export": true
+}

@@ -1,5 +1,36 @@
 # V-JEPA Robust Overfitting
 
+**Diagnostic panel complete (October28):**
+[Both final bank1 cases pass independent review](report/checks/2026-10-28-last-two-verification.md),
+including checks against their original bank0 partners. Progress is **20/20
+diagnostic cases and ten complete clip pairs**. Both jobs and copies have ended;
+SSH sessions may close. Next register the final two exact review markers
+(university last verified at18), then analyze the complete panel and assess
+research admission. Earlier launch instructions below are historical.
+
+**Final-two activation verified (October28):**
+[Both attended launchers are ready](docs/last_two_panel_cases.md).
+The actual receipt verifies six exact records,928 unchanged hashes and all18
+original case identities. Bowling has76m34s remaining; HandStandPushups bank1
+has80minutes. Run each helper once from separate Mac Terminal tabs and keep
+both connections/Mac awake through copies. No final numerical case has started.
+[Actual audit](report/checks/2026-10-28-last-two-activation-verification.md).
+
+**Final two cases prepared (October28):**
+[Activate the new final-two handoff](docs/last_two_panel_cases.md), then verify
+its actual receipt before either attended launch. All119 focused and195
+combined extracted checks pass; full CPU path rehearsal preserves928 files.
+Bowling carries206seconds and retains76m34s; HandStandPushups bank1 has80minutes.
+Registered and independently reviewed progress is18/20 with eight clip pairs.
+No final GPU case has started. Earlier instructions are historical.
+
+**Preparing the last two cases (October28):**
+[The HandStandPushups review-registration handoff is ready](docs/handstand_review_sync.md).
+Its86 local and86 extracted checks pass; the complete CPU rehearsal preserves
+918 files and the original marker. Run this metadata step once and verify its
+actual17-to18 receipt before the final GPU handoff. Bowling retains76m34s;
+HandStandPushups bank1 has its unused80-minute slot. No new GPU job is launched.
+
 **HandStandPushups bank0 verified (October 28):**
 [The completed export passes independent review](report/checks/2026-10-28-handstand-bank0-verification.md).
 Progress is **18/20 diagnostic cases and eight complete clip pairs**; university
