@@ -1,5 +1,101 @@
 # Research Progress Reports
 
+## 2026-10-28 — Both YoYo / Bowling cases verified; stopping checkpoint
+
+Bowling's copy-only retry succeeded and matches the export from its original
+completed job. The pinned reviewer and independent audit verify all173 actual
+campus checks, all four arms,173 tensors,320 finite nonzero gradient
+observations, exact fresh A replay, six strict GPU boundaries, source/runtime
+identity and both588-file preservation observations. Its conservative2634
+seconds remains within the original80-minute cap; no model rerun occurred.
+Both failed copies and the extra empty local session remain preserved.
+
+Together with the verified YoYo bank1 case, independent diagnostic progress
+is17/20 cases and eight complete clip pairs. Bowling bank1 and both
+HandStandPushups banks remain unrun. University registration remains15.
+The exact two original review texts and identities are pinned in a raw
+pending-registration record. No registration operator or new GPU helper is
+prepared here. All old origins, three historical STOPs and consumed grant/time
+history remain intact. The user is stopping for the night; next prepare and
+review metadata-only registration before any further case dispatch.
+
+This local review launched no model, test suite, remote connection or paid
+compute, and produced no partial scientific aggregate or held-out access.
+User commits separately. [Combined audit](report/checks/2026-10-28-yoyo-bowling-verification.md).
+
+## 2026-10-27 — YoYo bank1 verified; Bowling download pending
+
+The actual linux10609 export passes the pinned reviewer and independent
+transport/source/tensor/clock/GPU/preservation audit. All173 campus checks,
+four arms and exact fresh A replay pass. Both588-file observations retain
+all historical failures, STOPs and original identities. YoYo's two banks
+match52 nonattack tensors and clean scoring baselines, completing the eighth
+clip pair. Conservative2794 seconds stays within its original80-minute cap.
+Independent diagnostic progress is16/20; university registration remains15.
+
+Bowling's original actual transcript records matrix/replay/export and exit0.
+Its first copy and automatic copy-only retry both returned255 with zero
+bytes; the latter reset during SSH key exchange. The extra empty local
+session directory and its latest-session pointer are preserved with unknown
+remote status; review uses the original completed job, not that pointer.
+The frozen download helper and pins are verified for one manual copy retry.
+It starts no model. Bowling acceptance and JUnit XML review remain pending
+the actual archive. No registration, next case, test suite, remote connection,
+paid work, held-out access or scientific aggregate ran during local review.
+
+[YoYo audit](report/checks/2026-10-27-yoyo-bank1-verification.md) ·
+[Bowling copy incident and command](report/checks/2026-10-27-bowling-bank0-copy-failure.md).
+
+## 2026-10-27 — YoYo / Bowling activation verified; two launchers ready
+
+Actual university activation returned0. Independent audit verifies five exact
+records with genesis last,588 preserved hashes, fifteen original origins and
+two fresh fixed requests. The14 earlier origin rows are unchanged; Archery's
+separate recovery/grant/execution identity and4947 seconds of charged history
+remain intact. All three historical STOPs and prior attempts are preserved.
+
+Both prepared helpers pass their local Python pin checks with the saved actual
+review marker. No shell launcher, model, test suite, extra connection or repeat
+activation ran during review. The earlier matching user GPU checks remain
+snapshots; runtime identity/process guards are mandatory.
+
+Next run YoYo bank1 on10609 and Bowling bank0 on10603 once in two Mac Terminal
+tabs, keeping both connections and the Mac awake through downloads. Each
+retains80 minutes including setup and173 campus CPU checks, plus15seconds
+cleanup. Actual campus tests and numerical cases have not started here.
+Progress stays15/20 diagnostic cases and seven complete clip pairs until
+independent export review. No partial aggregate, held-out access, paid work,
+protocol/budget change or research admission occurs. User commits separately.
+[Actual activation audit](report/checks/2026-10-27-yoyo-bowling-activation-verification.md).
+
+## 2026-10-27 — YoYo bank1 / Bowling bank0 handoff prepared
+
+A separate packet preserves all fifteen original review identities, the actual
+completed registration,588 file hashes, three old STOPs and the consumed Archery
+recovery grant/time. Two new unused requests retain the original one80-minute
+attempt each. The neural worker is unchanged; numerical-parent differences
+are limited to the honest new CLI path. Strict GPU guards, read-only failure
+snapshots and the7GiB cap remain. The user supplied matching idle GPU status
+for both hosts; runtime checks still apply.
+
+All97 focused local and173 combined extracted checks pass, with zero failures,
+errors or skips. The actual-path local rehearsal covers installer/activation,
+real locks and concurrent main/run/claim/outcome/export/copy paths while
+substituting only GPU queries and numerical bodies. Generated CPU archives
+are rejected as CUDA evidence and acceptance stays15. The local fixture's
+budget assertion now accounts for actual setup time; its earlier failed CPU
+state is retained. Helper review gates, corruption refusal and actual shell
+remaining-time arithmetic pass. The scaffold check passes.
+
+Next run the five-minute metadata activation once from Mac Terminal and review
+its actual receipt before releasing either attended GPU helper. University
+activation and173 campus checks on each new host have not run. Current progress
+stays15/20 diagnostic cases and seven complete clip pairs; both later exports
+must independently verify before counting17 cases. No held-out access, partial
+scientific aggregate, paid work, budget change or research admission occurs.
+User commits separately.
+[Prepared next pair](report/checks/2026-10-27-yoyo-bowling-preparation.md).
+
 ## 2026-10-27 — Archery review registered; fifteen accepted at university
 
 The actual metadata command returned0. Independent audit verifies the exact

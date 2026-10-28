@@ -1,5 +1,16 @@
 # Scientific acceptance tests
 
+`test_reviewed_next_pair.py` adds97 CPU checks for the separately pinned
+YoYo bank1 / Bowling bank0 pair: genuine fifteen-case imports and recovered
+Archery origin,588-file preservation, pre-initialization history refusal,
+source/receipt drift, fixed original limits, consumed/abandoned claims, shared
+leases, record-lock access rules, old-namespace conflicts and partial atomic
+activation. All173 original/new checks pass after extraction with zero skips.
+The full local concurrent execution/export/copy rehearsal uses generated
+numerical bodies; both archives are rejected as CUDA evidence. Actual campus
+activation and case tests remain pending.
+[Preparation](../report/checks/2026-10-27-yoyo-bowling-preparation.md).
+
 `test_archery_review_sync.py` adds76 CPU checks for registration of the exact
 original Archery recovery review. They cover immutable history before legacy
 initialization, failure/consumed-grant preservation, charged time, atomic append,

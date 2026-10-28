@@ -1,5 +1,32 @@
 # V-JEPA Robust Overfitting
 
+**YoYo and Bowling verified (October 28):**
+[both actual exports pass independent review](report/checks/2026-10-28-yoyo-bowling-verification.md).
+The diagnostic panel now has **17/20 verified cases, eight complete clip pairs
+and three cases remaining**. Bowling's copy retry succeeded without restarting
+the model. Next register the two original reviews; university registration
+remains15. No further GPU work is launched at this checkpoint. Earlier snapshots follow.
+
+**YoYo bank1 verified; Bowling copy pending (October 27):**
+[YoYo's actual export passes independent review](report/checks/2026-10-27-yoyo-bank1-verification.md),
+bringing the diagnostic panel to **16/20 verified cases and eight complete
+clip pairs**. Bowling bank0 also finished with exit0; both copies received
+zero bytes. [Retry its existing download helper only](report/checks/2026-10-27-bowling-bank0-copy-failure.md).
+The university coordinator last registered15 cases. Earlier snapshots follow.
+
+**YoYo/Bowling activation verified (October 27):** [five records and588 preserved hashes match](report/checks/2026-10-27-yoyo-bowling-activation-verification.md).
+The two attended helpers are ready for YoYo bank1 on10609 and Bowling bank0
+on10603. Actual173-check campus results and numerical exports remain pending;
+progress stays15/20 diagnostic cases and seven complete clip pairs. Earlier snapshots follow.
+
+**Next pair prepared (October 27):** [YoYo bank1 and Bowling bank0](docs/reviewed_next_pair.md)
+have a separate source-only activation and two bounded attended helpers.
+All97 focused and173 combined extracted checks pass; the full local rehearsal
+preserves588 hashes and rejects generated CPU cases as CUDA evidence. First
+activate and independently review the fifteen-case boundary. No new university
+job has started; progress stays15/20 cases and seven complete clip pairs.
+Earlier snapshots follow.
+
 **Archery review registration verified (October 27):** [the actual university receipt](report/checks/2026-10-27-archery-review-sync-verification.md)
 confirms one original review appended and578 unchanged file hashes. University
 and independent progress now agree at **15/20 diagnostic cases, seven complete

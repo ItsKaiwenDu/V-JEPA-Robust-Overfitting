@@ -1,0 +1,503 @@
+{
+  "GPU_jobs_started": 0,
+  "accepted_panel_cases": 15,
+  "activation": {
+    "LOCAL_receipt_is_not_actual_university_evidence": true,
+    "LOCAL_rehearsal_receipt_file_sha256": "cfa47658ae57cac0f590dd60841cc7415e7ad37bc54ac80ebe086f2f8ce8b67c",
+    "actual_university_performed": false,
+    "host": "linux10609",
+    "independent_actual_receipt_review_required": true,
+    "kill_grace_seconds": 15,
+    "max_seconds": 300,
+    "metadata_only": true,
+    "records": 5
+  },
+  "activation_helper_sha256": "ef8d0afbed5edbac9b8d8944241ba158a6a3b0c8631895bc9d3efdc6ba3d840a",
+  "activation_is_metadata_only": true,
+  "actual_new_GPU_job_started": false,
+  "actual_prior_sync_receipt_sha256": "0499b6d4cbafbd06c2906a15373d61915d3969ba2eac7a8b90538352b8493f1a",
+  "all_three_historical_STOP_records_preserved": true,
+  "ancestor_files_preserved": 588,
+  "archive": {
+    "bytes": 899362,
+    "files": {
+      "yoyo-bowling-pair-20261027/CONTINUATION.json": {
+        "bytes": 9379,
+        "sha256": "564e9d114533b91b614736046d35e7c256ffd5fd5f6cc9ae5c7c405c50bcc332"
+      },
+      "yoyo-bowling-pair-20261027/INPUT.json": {
+        "bytes": 113760,
+        "sha256": "370f44dbd361b3362b572ace5b759ca9aa297aeb7901154c237ad24abfc41369"
+      },
+      "yoyo-bowling-pair-20261027/models/reviewed_panel_next_pair.py": {
+        "bytes": 47278,
+        "sha256": "0ef79a7959585f947d428d74e6d6b0b430b4a55192357ad4e64613b94cba3602"
+      },
+      "yoyo-bowling-pair-20261027/prior-INPUT.json": {
+        "bytes": 97860,
+        "sha256": "06038cd06c106506afa60db8e6df393063ff31f097c5f9a1e3d8884596957c8b"
+      },
+      "yoyo-bowling-pair-20261027/prior-OPERATION.json": {
+        "bytes": 2441,
+        "sha256": "d440e5ee5113a522b99d61ad73fd1d89c0b1caae6ba788eabeeabc1d1e6fd618"
+      },
+      "yoyo-bowling-pair-20261027/prior-receipt.json": {
+        "bytes": 99953,
+        "sha256": "0499b6d4cbafbd06c2906a15373d61915d3969ba2eac7a8b90538352b8493f1a"
+      },
+      "yoyo-bowling-pair-20261027/scripts/continue_reviewed_next_pair.py": {
+        "bytes": 2347,
+        "sha256": "290eaa6e013b15a0526409d6395d9ab241248dc612464565d900e357133b03ab"
+      },
+      "yoyo-bowling-pair-20261027/scripts/prepare_reviewed_next_pair.py": {
+        "bytes": 21011,
+        "sha256": "46b6a5e191f86806084b89f20d3eca0ec2f22f0fa872e4a9f7abc0f5d245453d"
+      },
+      "yoyo-bowling-pair-20261027/support/archery_review_sync.py": {
+        "bytes": 18328,
+        "sha256": "8c6fa00c59e874982c9b984c0d803dbfad93772e2571a7bfd9a9dacfae20e673"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/CONTINUATION.json": {
+        "bytes": 7349,
+        "sha256": "0f03ea41e6517ad1b0b9423f4188d4525f3052618f201a004428de68289ad80b"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/INPUT.json": {
+        "bytes": 93169,
+        "sha256": "c1dc80b466263872afbcbff5450f7efedbacf7264e69d5da62dec1f94994411c"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/PROPOSAL.json": {
+        "bytes": 80483,
+        "sha256": "41e4aec0c76c5290cd69f24e501ec35fd8f11f859a96fdb0db22bba3c1e01e43"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/authorization.json": {
+        "bytes": 884,
+        "sha256": "41141726758e31b4babf76feadfe48618b4399a5147ace7dcea614ea14feabc3"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/failed-numeric.manifest.json": {
+        "bytes": 3546,
+        "sha256": "d6b14821064f149034385ba7447d6e2cceb46ae117e48741ad9d3db53a3f1492"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/incident-accounting.json": {
+        "bytes": 1335,
+        "sha256": "7e5c24277588c4cb251f805d97238046cb885e43639fa409f9cc067dbbab63f8"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/incident-verification.json": {
+        "bytes": 3671,
+        "sha256": "2a21957f3d4803f48beb92fa88c8371f9a6164482470d6f897bbbb8387bff2f6"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/models/archery_recovery.py": {
+        "bytes": 50207,
+        "sha256": "8e29c1931c1ecb9734fa31a969be0524efe2545f08df15127bc7eb73f7db4215"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/prior-INPUT.json": {
+        "bytes": 79457,
+        "sha256": "18c60840a02daea6b21ddfbf6974195674ab53a02b876153c4eb5f827115e14b"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/prior-OPERATION.json": {
+        "bytes": 5414,
+        "sha256": "2f692b5caefee4dcc51964d122cf38c00cbc5c427ead473c771456c9daa2a2dd"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/prior-receipt.json": {
+        "bytes": 84347,
+        "sha256": "1bb93c739f3664bb4337b8d4333d5be01a59d5b54550e00a94c7be054bdb0f5e"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/scripts/prepare_archery_recovery.py": {
+        "bytes": 21879,
+        "sha256": "b6d2da12728d6e065595f4ce9fbf2180b0ee10c9a3389945abd8f50b9a32db17"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/scripts/recover_archery.py": {
+        "bytes": 2352,
+        "sha256": "54fae905891d0ac2681024f616aabb6c66de315515c53ac74ca2ac6fa650441b"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/CONTINUATION.json": {
+        "bytes": 5414,
+        "sha256": "2f692b5caefee4dcc51964d122cf38c00cbc5c427ead473c771456c9daa2a2dd"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/INPUT.json": {
+        "bytes": 79457,
+        "sha256": "18c60840a02daea6b21ddfbf6974195674ab53a02b876153c4eb5f827115e14b"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/models/archery_continuation.py": {
+        "bytes": 47186,
+        "sha256": "c27906c5bd383516d3259b8edc34ca798206776b6db7e89719a248850728a61c"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/prior-INPUT.json": {
+        "bytes": 63963,
+        "sha256": "29ca7d6e51c0f48fcbabfe07166c6a3509553a86fb22e730e01d202aa9e81074"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/prior-OPERATION.json": {
+        "bytes": 2158,
+        "sha256": "f87bc15e374445416ff636b40f6cf4cf5acbd76e18de1d228008567b82c391c6"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/prior-receipt.json": {
+        "bytes": 65473,
+        "sha256": "3e81a122302aad09d176f42bb9ba90c974e92fe1731b682a4839a9e6f67f0025"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/scripts/continue_archery.py": {
+        "bytes": 2349,
+        "sha256": "7b46ad55c61fc8f0ebc19566c5d4980e3164c365c42f2ade54889e6071b4537d"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/scripts/prepare_archery_continuation.py": {
+        "bytes": 21336,
+        "sha256": "050b1e96bb82e0a8eeeda3b457d4cced1a9acff63c9d8d5e3998c2fdbcfab5eb"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/CONTINUATION.json": {
+        "bytes": 3573,
+        "sha256": "765dee9fa579d7e225b49bc992e89bb8b58e4924a26bae7e4f42407af6f0169d"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/INPUT.json": {
+        "bytes": 59397,
+        "sha256": "4fafd4b2445075e33b3558bf26d22f6cfe4349903df2ad702afca2d9195b1485"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/models/reviewed_panel_batch.py": {
+        "bytes": 43967,
+        "sha256": "7989283aca4be98e53929d0761110d0896e8d8a3324e1751fa4141641e067651"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/prior-INPUT.json": {
+        "bytes": 45769,
+        "sha256": "c65a86c097053d92f3f0f9bf7e1471311c9c4255bf6ded448266f78a3f5833ed"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/prior-OPERATION.json": {
+        "bytes": 1942,
+        "sha256": "5ce24d51cb95fe6a087c52efb4941b2b63469c5a556a75c4b9efb41814e71206"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/prior-receipt.json": {
+        "bytes": 47270,
+        "sha256": "df880b3e603c6baa4c42860b918cc0ef4c152e29c046fe78f77304119f2c7281"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/scripts/continue_reviewed_batch.py": {
+        "bytes": 2343,
+        "sha256": "68f6a0c7df34453e881ea11c668bbe4fe2994418ee5b42bfc744b684d20065c2"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/scripts/prepare_reviewed_batch.py": {
+        "bytes": 20674,
+        "sha256": "720a2130c6e33952b0ccf9e378258590f587c8864ae1271a0a17038a879574f9"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/support/core-packet/CONTINUATION.json": {
+        "bytes": 2200,
+        "sha256": "46920eb57261f136f24dc8a3d9ae2d1ea181fdb781c398101fc7e939f14a89ca"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/support/core-packet/models/reviewed_panel_continuation.py": {
+        "bytes": 41509,
+        "sha256": "51f78c2b4ff4904f4492e4ff055d58eb7f219a4a3b1f440dd502c43725c71b96"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/support/core-packet/prior-INPUT.json": {
+        "bytes": 46665,
+        "sha256": "4e0ea9e51c0c2e53c85d17f94a5979b1be75aa3db471134ad155939a13dc7096"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/support/core-packet/prior-OPERATION.json": {
+        "bytes": 1993,
+        "sha256": "6289c007883743c001f4ab04ac6aff71c0bedbc0300f3ede1dc0dacbb08ad27f"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/support/core-packet/prior-receipt.json": {
+        "bytes": 45584,
+        "sha256": "aaecab1ee4784ccf4fe98bbdb06ac5932810dadd1daf2ebecd7e3f6d7cf01762"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/support/core-packet/scripts/continue_reviewed_panel.py": {
+        "bytes": 2350,
+        "sha256": "2e745b4d2010328767f04d880fa241906adca77ee4a4eb5a37cb9a14102140a5"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/support/core-packet/scripts/prepare_reviewed_continuation.py": {
+        "bytes": 20573,
+        "sha256": "2d6af13261bdc1f35593252635ad55d0846c4925ec59b7f0b48abbbafc853aba"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/reviewed_panel.py": {
+        "bytes": 22570,
+        "sha256": "e654928424efd688a7f2d2077150ecf13502711f31fedd22a038e581fb7cb59f"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/support/core-packet/tests/fixtures/reviewed_continuation_metadata.json": {
+        "bytes": 114959,
+        "sha256": "cccf72508fb9717dd9772687252cd72642e0f397d1bdee6b6b8c65a73f08ae1c"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/support/core-packet/tests/test_reviewed_continuation.py": {
+        "bytes": 16534,
+        "sha256": "558e39fa9fa05fea7e2512767759ed0c99f1559677da7f612388e7eaac0981ea"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/support/reviewed_panel_sync.py": {
+        "bytes": 13612,
+        "sha256": "fb736bef98c982bb23b44e30a4da5d8dae572107277b325ef74202eac28f0f98"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/tests/fixtures/reviewed_batch_metadata.json": {
+        "bytes": 321204,
+        "sha256": "d7f354bc5164f248a6b070d68a26b42ac7e7dde7b44690fd696cbb4d4c085cba"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/core-packet/tests/test_reviewed_batch.py": {
+        "bytes": 19345,
+        "sha256": "c8bf00c9ccb41106ca097c6dc0ff145d0b70a965b1c02a1f1af67b96c6beb261"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/support/yoyo_review_sync.py": {
+        "bytes": 18472,
+        "sha256": "c7e55cec862c58938783045fa4accc7c0fbcfe2009d6a2f79b644b619a1fdf87"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/tests/fixtures/archery_continuation_metadata.json": {
+        "bytes": 391621,
+        "sha256": "ec6016855b29384b2f808476e17b7050d3d1e8404a00a0edf5e5b3af2686a05c"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/support/core-packet/tests/test_archery_continuation.py": {
+        "bytes": 21274,
+        "sha256": "6b33dc7c5d66710a66a4cb271dbe2ef3a049ff1baa073dfa5746560e897a6958"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/tests/fixtures/archery_recovery_metadata.json": {
+        "bytes": 469498,
+        "sha256": "382730898f3bc7afd5c5b436ddaa8d306086ce101fb81a9d47fa49317594625e"
+      },
+      "yoyo-bowling-pair-20261027/support/core-packet/tests/test_archery_recovery.py": {
+        "bytes": 23208,
+        "sha256": "f3dd19c4972d48d5a7bf5761c21b57732eb9a02661e1253bbf2b373472710f3c"
+      },
+      "yoyo-bowling-pair-20261027/tests/fixtures/reviewed_next_pair_metadata.json": {
+        "bytes": 433015,
+        "sha256": "f9d71f6ee4585986fd3601e53260522c494029c6c0a05aa2421eb16747b08cdb"
+      },
+      "yoyo-bowling-pair-20261027/tests/test_reviewed_next_pair.py": {
+        "bytes": 25664,
+        "sha256": "00dc00bb6eac6dfc091298a1fee04b8262bad47555ff77da6ef97ce70f839397"
+      }
+    },
+    "sha256": "53ca968521962a4c62f55487ec3558f77a416b64fc8ad86e6261ec03db9ab7c4"
+  },
+  "campus_CPU_guards": 173,
+  "case_helper_QA": {
+    "GNU_timeout_available_locally": false,
+    "actual_raw_latest_sessions_absent": true,
+    "actual_shell_remaining_time_arithmetic_checked": [
+      {
+        "accepted": true,
+        "host": "linux10609",
+        "setup_seconds": 250
+      },
+      {
+        "accepted": false,
+        "host": "linux10609",
+        "setup_seconds": 4801
+      },
+      {
+        "accepted": true,
+        "host": "linux10603",
+        "setup_seconds": 250
+      },
+      {
+        "accepted": false,
+        "host": "linux10603",
+        "setup_seconds": 4801
+      }
+    ],
+    "kind": "yoyo-bowling-local-helper-gate-and-deadline-QA-v1",
+    "launch_helpers_block_without_independent_activation_review": [
+      "linux10609",
+      "linux10603"
+    ],
+    "model_or_GPU_jobs_started": 0,
+    "network_connections": 0,
+    "passed": true,
+    "shell_timeout_scope": "Final shell syntax and actual remaining-time expression checked; Linux GNU timeout and unchanged TERM/KILL cleanup retained."
+  },
+  "case_helpers": [
+    {
+      "activation_independent_review_required": true,
+      "bootstrap_sha256": "5f12b0d42ddddae86d2ec3644249e701f6801c660475d3c78a41222fd454a03f",
+      "case_id": "clip-07-bank-1",
+      "download_expected_files": 84,
+      "host": "linux10609",
+      "launch_helper_sha256": "48117602a81cf6af08ba942a4fba7cfd3bdebaaf688fd41fc0cbde1b5bcb1202",
+      "pipeline_sha256": "eaf04d28ac60cd65c340b4397d791f075348cc915423870c4024624aa256085a",
+      "source_launcher_sha256": "bbb87e0f506c1462d48657c0dffec82c6b82579d60320a61984baad2ceb38fe1"
+    },
+    {
+      "activation_independent_review_required": true,
+      "bootstrap_sha256": "386e8462b9e58c80ac0dba92e2da8f0e010c042991e658231ccc4ba3dcf53e7d",
+      "case_id": "clip-08-bank-0",
+      "download_expected_files": 84,
+      "host": "linux10603",
+      "launch_helper_sha256": "4e5c2ded2e273d1e860d9db456fac83d0a07c429a3404eea7ce3c83001b75562",
+      "pipeline_sha256": "eee3bb7a463083c70c36b04f211c086c997c72603c6d82b40843d5b66b2809f4",
+      "source_launcher_sha256": "b79e136d8f9e7fdbd27ede6986ed3ca869f7e1d4b65cb66763ff50f8aa877271"
+    }
+  ],
+  "complete_clip_pairs": 7,
+  "date_Pacific": "2026-10-27",
+  "execution": {
+    "GPU_jobs_started": 0,
+    "additional_allowance_seconds": 0,
+    "allocator_cap_GiB": 7,
+    "automatic_GPU_retries": 0,
+    "cases": {
+      "linux10603": "clip-08-bank-0",
+      "linux10609": "clip-07-bank-1"
+    },
+    "fresh_original_case_seconds": 4800,
+    "kill_grace_seconds": 15,
+    "matrix_seconds": 3600,
+    "max_attempts": 1,
+    "max_parallel_cases": 2,
+    "neural_worker_AST_identical_to_qualified_batch": true,
+    "numerical_parent_only_changes_new_CLI_path": true,
+    "one_case_per_host": true,
+    "parent_seconds": 4620,
+    "rejection_observer_read_only_snapshots_retained": true,
+    "replay_seconds": 900,
+    "strict_GPU_guard_unchanged": true,
+    "whole_clock_includes_bootstrap_CPU_tests_preflight_workers_and_export": true
+  },
+  "expected_complete_clip_pairs_if_both_verify": 8,
+  "expected_independent_case_count_only_if_both_future_exports_verify": 17,
+  "focused_CPU_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 97
+  },
+  "fresh_user_GPU_status": {
+    "diagnostic_started_by_check": false,
+    "hosts": {
+      "linux10603": {
+        "GPU": "NVIDIA GeForce RTX 3070",
+        "UUID": "GPU-e54fae90-feeb-8106-d8c0-1974fe48555f",
+        "compute_processes": [],
+        "driver": "580.178.04",
+        "memory_total_MiB": 8192,
+        "memory_used_MiB": 94
+      },
+      "linux10609": {
+        "GPU": "NVIDIA GeForce RTX 3070",
+        "UUID": "GPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52",
+        "compute_processes": [],
+        "driver": "580.178.04",
+        "memory_total_MiB": 8192,
+        "memory_used_MiB": 74
+      }
+    },
+    "kind": "user-read-only-two-host-status-v1",
+    "question_id": "call_13a0e0eec36d46b3819fdd01d7107f26",
+    "received_during_this_preparation": true,
+    "runtime_strict_identity_and_compute_process_guards_still_required": true,
+    "shared_home_filesystem_percent_used": "86%",
+    "shared_home_filesystem_reported_available": "2.1T",
+    "snapshot_is_not_GPU_reservation": true
+  },
+  "full_local_CPU_rehearsal": {
+    "activation_repeated_idempotently_before_claims": true,
+    "actual_activation_receipt_verifier": true,
+    "actual_collector_receiver_inventories_verified": true,
+    "actual_collectors_and_receivers_passed": [
+      {
+        "CPU_archive_rejected_at_numerical_plan": true,
+        "host": "linux10609",
+        "outer_members_verified": 82,
+        "regular_files": 85,
+        "required_files_verified": 84,
+        "transport_bytes": 4730880,
+        "transport_members_verified": 85,
+        "transport_sha256": "f22e2056a7152e0facf984566516282765385f06f4c10a0a07d6c9e02382d8b7"
+      },
+      {
+        "CPU_archive_rejected_at_numerical_plan": true,
+        "host": "linux10603",
+        "outer_members_verified": 82,
+        "regular_files": 85,
+        "required_files_verified": 84,
+        "transport_bytes": 4730880,
+        "transport_members_verified": 85,
+        "transport_sha256": "97ceb7b9873654119ae5bca736255aa5ddcd60123cbcda6cf0d9f8f8559f67da"
+      }
+    ],
+    "actual_installer_extractor_CLI_activation": true,
+    "all_588_ancestor_hashes_unchanged": true,
+    "all_three_historical_STOP_records_unchanged": true,
+    "computed_CPU_fixtures_do_not_advance_acceptance": true,
+    "concurrent_real_main_run_Registry_leases_claims_outcomes_exports": true,
+    "corrupt_transport_rejected_before_extraction": true,
+    "first_failed_CPU_fixture_state_preserved": true,
+    "generated_CPU_fixtures_are_not_university_execution_evidence": true,
+    "independent_review_rejects_both_CPU_archives": true,
+    "kind": "yoyo-bowling-full-path-CPU-rehearsal-v1",
+    "local_fixture_timing_correction_did_not_change_operator_or_frozen_scientific_source": true,
+    "new_CUDA_cases_qualified": 0,
+    "only_neural_body_and_GPU_query_mocked_for_runs": true,
+    "operation_sha256": "92aec5b90f42181338da92081a74e659f3a31be98d163308f333e2d9f58d4444",
+    "original_case_origins_preserved": true,
+    "passed": true,
+    "remote_connections": 0,
+    "scratch_directory": "/private/tmp/yoyo-bowling-rehearsal-8t9zy1i7",
+    "two_actual_bootstraps_and_repeat_rejection": true
+  },
+  "held_out_pixels_opened": false,
+  "inputs_file_sha256": "370f44dbd361b3362b572ace5b759ca9aa297aeb7901154c237ad24abfc41369",
+  "kind": "matched-panel-reviewed-fifteen-pair-v1-preparation",
+  "next_step": "User runs the metadata-only activate-continuation.sh once from Mac Terminal. Independently inspect actual five-record/588-hash receipt before releasing either attended case helper.",
+  "old_CPU_guards": 76,
+  "old_fifteen_original_origins_and_recovered_Archery_grant_and_time_preserved": true,
+  "operation_sha256": "92aec5b90f42181338da92081a74e659f3a31be98d163308f333e2d9f58d4444",
+  "original_Archery_grant_still_consumed": true,
+  "paid_compute": false,
+  "payload_bytes": 1212259,
+  "payload_sha256": "dc490d41fa1c1def7da980c0c37a0bfced5a62ea72ba3d6d98d14af4b515da88",
+  "previous_attempt_time_not_reset": true,
+  "prior_sync_operation_sha256": "b37fa3a7fa9f11afdbfe0ead8c7ad813706db9e052460e2e2d0f60d52318b3d9",
+  "remaining_panel_cases": 5,
+  "remote_activation_performed": false,
+  "research_admitted": false,
+  "scaffold_and_YAML_check_passed": true,
+  "scientific_aggregate": null,
+  "source_files": 53,
+  "source_payload_files": 58,
+  "source_sha256": {
+    "models/reviewed_panel_next_pair.py": "0ef79a7959585f947d428d74e6d6b0b430b4a55192357ad4e64613b94cba3602",
+    "scripts/continue_reviewed_next_pair.py": "290eaa6e013b15a0526409d6395d9ab241248dc612464565d900e357133b03ab",
+    "scripts/prepare_reviewed_next_pair.py": "46b6a5e191f86806084b89f20d3eca0ec2f22f0fa872e4a9f7abc0f5d245453d",
+    "support/archery_review_sync.py": "8c6fa00c59e874982c9b984c0d803dbfad93772e2571a7bfd9a9dacfae20e673",
+    "support/core-packet/CONTINUATION.json": "0f03ea41e6517ad1b0b9423f4188d4525f3052618f201a004428de68289ad80b",
+    "support/core-packet/INPUT.json": "c1dc80b466263872afbcbff5450f7efedbacf7264e69d5da62dec1f94994411c",
+    "support/core-packet/PROPOSAL.json": "41e4aec0c76c5290cd69f24e501ec35fd8f11f859a96fdb0db22bba3c1e01e43",
+    "support/core-packet/authorization.json": "41141726758e31b4babf76feadfe48618b4399a5147ace7dcea614ea14feabc3",
+    "support/core-packet/failed-numeric.manifest.json": "d6b14821064f149034385ba7447d6e2cceb46ae117e48741ad9d3db53a3f1492",
+    "support/core-packet/incident-accounting.json": "7e5c24277588c4cb251f805d97238046cb885e43639fa409f9cc067dbbab63f8",
+    "support/core-packet/incident-verification.json": "2a21957f3d4803f48beb92fa88c8371f9a6164482470d6f897bbbb8387bff2f6",
+    "support/core-packet/models/archery_recovery.py": "8e29c1931c1ecb9734fa31a969be0524efe2545f08df15127bc7eb73f7db4215",
+    "support/core-packet/prior-INPUT.json": "18c60840a02daea6b21ddfbf6974195674ab53a02b876153c4eb5f827115e14b",
+    "support/core-packet/prior-OPERATION.json": "2f692b5caefee4dcc51964d122cf38c00cbc5c427ead473c771456c9daa2a2dd",
+    "support/core-packet/prior-receipt.json": "1bb93c739f3664bb4337b8d4333d5be01a59d5b54550e00a94c7be054bdb0f5e",
+    "support/core-packet/scripts/prepare_archery_recovery.py": "b6d2da12728d6e065595f4ce9fbf2180b0ee10c9a3389945abd8f50b9a32db17",
+    "support/core-packet/scripts/recover_archery.py": "54fae905891d0ac2681024f616aabb6c66de315515c53ac74ca2ac6fa650441b",
+    "support/core-packet/support/core-packet/CONTINUATION.json": "2f692b5caefee4dcc51964d122cf38c00cbc5c427ead473c771456c9daa2a2dd",
+    "support/core-packet/support/core-packet/INPUT.json": "18c60840a02daea6b21ddfbf6974195674ab53a02b876153c4eb5f827115e14b",
+    "support/core-packet/support/core-packet/models/archery_continuation.py": "c27906c5bd383516d3259b8edc34ca798206776b6db7e89719a248850728a61c",
+    "support/core-packet/support/core-packet/prior-INPUT.json": "29ca7d6e51c0f48fcbabfe07166c6a3509553a86fb22e730e01d202aa9e81074",
+    "support/core-packet/support/core-packet/prior-OPERATION.json": "f87bc15e374445416ff636b40f6cf4cf5acbd76e18de1d228008567b82c391c6",
+    "support/core-packet/support/core-packet/prior-receipt.json": "3e81a122302aad09d176f42bb9ba90c974e92fe1731b682a4839a9e6f67f0025",
+    "support/core-packet/support/core-packet/scripts/continue_archery.py": "7b46ad55c61fc8f0ebc19566c5d4980e3164c365c42f2ade54889e6071b4537d",
+    "support/core-packet/support/core-packet/scripts/prepare_archery_continuation.py": "050b1e96bb82e0a8eeeda3b457d4cced1a9acff63c9d8d5e3998c2fdbcfab5eb",
+    "support/core-packet/support/core-packet/support/core-packet/CONTINUATION.json": "765dee9fa579d7e225b49bc992e89bb8b58e4924a26bae7e4f42407af6f0169d",
+    "support/core-packet/support/core-packet/support/core-packet/INPUT.json": "4fafd4b2445075e33b3558bf26d22f6cfe4349903df2ad702afca2d9195b1485",
+    "support/core-packet/support/core-packet/support/core-packet/models/reviewed_panel_batch.py": "7989283aca4be98e53929d0761110d0896e8d8a3324e1751fa4141641e067651",
+    "support/core-packet/support/core-packet/support/core-packet/prior-INPUT.json": "c65a86c097053d92f3f0f9bf7e1471311c9c4255bf6ded448266f78a3f5833ed",
+    "support/core-packet/support/core-packet/support/core-packet/prior-OPERATION.json": "5ce24d51cb95fe6a087c52efb4941b2b63469c5a556a75c4b9efb41814e71206",
+    "support/core-packet/support/core-packet/support/core-packet/prior-receipt.json": "df880b3e603c6baa4c42860b918cc0ef4c152e29c046fe78f77304119f2c7281",
+    "support/core-packet/support/core-packet/support/core-packet/scripts/continue_reviewed_batch.py": "68f6a0c7df34453e881ea11c668bbe4fe2994418ee5b42bfc744b684d20065c2",
+    "support/core-packet/support/core-packet/support/core-packet/scripts/prepare_reviewed_batch.py": "720a2130c6e33952b0ccf9e378258590f587c8864ae1271a0a17038a879574f9",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/CONTINUATION.json": "46920eb57261f136f24dc8a3d9ae2d1ea181fdb781c398101fc7e939f14a89ca",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/models/reviewed_panel_continuation.py": "51f78c2b4ff4904f4492e4ff055d58eb7f219a4a3b1f440dd502c43725c71b96",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/prior-INPUT.json": "4e0ea9e51c0c2e53c85d17f94a5979b1be75aa3db471134ad155939a13dc7096",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/prior-OPERATION.json": "6289c007883743c001f4ab04ac6aff71c0bedbc0300f3ede1dc0dacbb08ad27f",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/prior-receipt.json": "aaecab1ee4784ccf4fe98bbdb06ac5932810dadd1daf2ebecd7e3f6d7cf01762",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/scripts/continue_reviewed_panel.py": "2e745b4d2010328767f04d880fa241906adca77ee4a4eb5a37cb9a14102140a5",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/scripts/prepare_reviewed_continuation.py": "2d6af13261bdc1f35593252635ad55d0846c4925ec59b7f0b48abbbafc853aba",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/support/reviewed_panel.py": "e654928424efd688a7f2d2077150ecf13502711f31fedd22a038e581fb7cb59f",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/tests/fixtures/reviewed_continuation_metadata.json": "cccf72508fb9717dd9772687252cd72642e0f397d1bdee6b6b8c65a73f08ae1c",
+    "support/core-packet/support/core-packet/support/core-packet/support/core-packet/tests/test_reviewed_continuation.py": "558e39fa9fa05fea7e2512767759ed0c99f1559677da7f612388e7eaac0981ea",
+    "support/core-packet/support/core-packet/support/core-packet/support/reviewed_panel_sync.py": "fb736bef98c982bb23b44e30a4da5d8dae572107277b325ef74202eac28f0f98",
+    "support/core-packet/support/core-packet/support/core-packet/tests/fixtures/reviewed_batch_metadata.json": "d7f354bc5164f248a6b070d68a26b42ac7e7dde7b44690fd696cbb4d4c085cba",
+    "support/core-packet/support/core-packet/support/core-packet/tests/test_reviewed_batch.py": "c8bf00c9ccb41106ca097c6dc0ff145d0b70a965b1c02a1f1af67b96c6beb261",
+    "support/core-packet/support/core-packet/support/yoyo_review_sync.py": "c7e55cec862c58938783045fa4accc7c0fbcfe2009d6a2f79b644b619a1fdf87",
+    "support/core-packet/support/core-packet/tests/fixtures/archery_continuation_metadata.json": "ec6016855b29384b2f808476e17b7050d3d1e8404a00a0edf5e5b3af2686a05c",
+    "support/core-packet/support/core-packet/tests/test_archery_continuation.py": "6b33dc7c5d66710a66a4cb271dbe2ef3a049ff1baa073dfa5746560e897a6958",
+    "support/core-packet/tests/fixtures/archery_recovery_metadata.json": "382730898f3bc7afd5c5b436ddaa8d306086ce101fb81a9d47fa49317594625e",
+    "support/core-packet/tests/test_archery_recovery.py": "f3dd19c4972d48d5a7bf5761c21b57732eb9a02661e1253bbf2b373472710f3c",
+    "tests/fixtures/reviewed_next_pair_metadata.json": "f9d71f6ee4585986fd3601e53260522c494029c6c0a05aa2421eb16747b08cdb",
+    "tests/test_reviewed_next_pair.py": "00dc00bb6eac6dfc091298a1fee04b8262bad47555ff77da6ef97ce70f839397"
+  },
+  "upload_bound_bytes": 2097152,
+  "upload_contains_tensor_files_or_weights_or_keys": false,
+  "validation_index_file_sha256": "0eda280cfaebf237c96bcfbf02726821e241dfff72b9cb9623a6f8743745a8c5",
+  "verified_preparation": true
+}

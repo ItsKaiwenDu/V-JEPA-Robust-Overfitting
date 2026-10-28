@@ -6,8 +6,9 @@ cases. University registration and independent progress agree:15/20 diagnostic
 cases, seven complete clip pairs and five remaining. The consumed grant,
 failed attempt and complete charged-time history remain intact.
 
-Do not repeat this completed helper. Next prepare the separate YoYo bank1 /
-Bowling bank0 pair with fresh GPU checks; no new GPU helper is ready here.
+Do not repeat this completed helper. The separate [YoYo bank1 / Bowling bank0
+handoff is prepared](reviewed_next_pair.md); first activate its metadata and
+independently review the returned receipt before either GPU launch.
 [Actual registration audit](../report/checks/2026-10-27-archery-review-sync-verification.md).
 The handoff instructions below are historical.
 

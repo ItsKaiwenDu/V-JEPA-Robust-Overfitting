@@ -2,6 +2,203 @@
 
 ## Current stage
 
+LATEST October28: BOTH ACTUAL YOYO/BOWLING CASES VERIFIED; USER SLEEP CHECKPOINT.
+Read report/checks/2026-10-28-yoyo-bowling-verification.md/JSON and current
+docs/reviewed_next_pair.md. User requested verification and a commit MESSAGE,
+will commit self; do NOT git add/commit/push or launch another job overnight.
+NOW independent ORDER[:17],17/20 diagnostic cases,8 complete pairs(00–07),
+3UNRUN:08bank1 and09bank0/bank1. University lastregistered15;2markers pending.
+Both original80min numerical slots consumed successfully. No GPUretry allowed.
+03 successful copy-only retry case-download-20261028T065831Z.fHB58E copy0,
+transport132126720B SHA9a1080583360dace9399ebd6627850b83c33036ad84fff43a88a3e7c8f11feb7;
+outer128318353B/82members SHA13b579f6401278da552feb8f06dc3eaaaef75624cc600ae6e69d5d0c07b37246.
+Matches ORIGINAL03 authoritative attended-session-20261028T060130Z.PdTsMO,
+job0/173campusCPU/matrix/replay/export. Both originalfailedcopies255/0B stay.
+IMPORTANT03 latest-session STILL points attended-session-20261028T060145Z.u42zWS,
+onlyemptyterminal.log,remote statusUNKNOWN. Pointer/emptydir preserved;audit
+selects actualPdTsMOjob explicitly, neverinfers duplicate numericalexecution.
+Pinned continue_reviewed_next_pair.py review EXIT0 plus independent actual
+transport/source/JUnit/time/GPU/tensor/preservation audit EXIT0. Saved audit.py,
+verification.json,pinned-review.log and originalmarker in successfuldownload.
+Marker a0c9140d091f078fd5f0054235eeb6c053f03d7f444357985aca000e6eee3eb9;
+honest newexecution2379ef0bb933a7e22ea28252d32f64be1e0478ae847d35cc13782aa74460edb9;
+numericreceiptbfd9a776f6aa93e2f60a7a897b3630cbb3ae7e842deb6755e969148d7538deba.
+All173actualJUnit0fail/error/skip,84files+manifest85,outer82,53sourcepins,
+588before AND after-export hashes,3oldSTOPs,all15originalimports/grant/time.
+Fourarms/173tensors/320gradobs/84exactreplayinputs/freshAadv/6strictGPUguards/
+nativeprobe/rawpixel/prefix/bestselection pass; peaks4.821/3.683GiB<=7GiB.
+03originalbootstrapconservativecharge2634s,23:01:37–23:45:29PacificOct27;
+numericparent2477.188s. No resetstackedtime, paidcompute or researchadmission.
+09 priorcompleteactual session VB3oTc staysreviewed; marker50c4134f...,
+executiond5e5c2b0...,numericreceipta062c82f...,charge2794s,173JUnit/173tensors/
+320grad/588beforeafter/6GPU; YoYo bankpair52nonattack exact as originalaudit.
+Bowlingbank0 has no bank1 yet, no falsepair or partialscientificaggregate.
+Raw pair-independent-verification-20261028.json and
+pending-pair-review-sync-20261028.json saved. Pendingrecord pins EXACT original
+markertexts/path/fileSHA/outcomes/archives/executions/charges, does NOTregister,
+authorize anotherattempt or prepare operator. Allprevious packets remainfrozen.
+NextTOMORROW/usercontinue prepare separatelypinned metadata-only registration
+of BOTH exactoriginalmarkers into yoyo-bowling-execution-20261027/reviews/.
+Keepall15importorigins,oldSTOPs/failures/raws/source/successclaims/outcomes/
+archive/currenttimingobservations,consumedArchery4947s history intact. Verify
+actualsync receipt17 accepted BEFORE any final3dispatch. No freshGPUstatus
+needed for CPUmetadata; obtain matching statuses later before GPUlaunch.
+Do NOT repeat completed activation, run-case.sh or any older consumedhelper.
+No nextGPUhelper/queue/registrationoperator prepared now. User may close
+completed project Terminaltabs; this turn starts no newmodel/test/SSH work.
+Commitmessage should cover new reviewedtwohostcontinuation/builder/97focused+
+173extractedchecks and173actualcampuschecks perhost,verified17/20/8pairs,
+copyfailure recovery/preservation, docs/provenance, registrationstillpending.
+Earlier activation-ready/copy-pending entries below are historical.
+
+LATEST October27: ACTUAL YOYO BANK1 VERIFIED; BOWLING GPU COMPLETE, COPY PENDING.
+Read report/checks/2026-10-27-yoyo-bank1-verification.md/JSON and
+2026-10-27-bowling-bank0-copy-failure.md/JSON; docs/reviewed_next_pair.md.
+09 actual session attended-session-20261028T060205Z.VB3oTc job0/copy0;
+qualified new92ae reviewer plus independent audit pass. Original marker
+50c4134f8fac28af6442bc65f4a10b7867643b96f534d21df25857eed913a5b4 saved
+session/independently-reviewed. Audit/script saved session; no model/tests/SSH.
+All173 actual campus JUnit0fail/error/skip;84files+manifest85,outer82members,
+53sources,588 before AND after-export pins,3historicalSTOPs,all15oldorigins.
+Fourarms/173tensors/320finite nonzero gradients/84exact replayinputs/freshAadv/
+6strict GPUboundaries/nativeprobe/pixelbound/prefix/bestselection pass.
+Matrix4.880GiB/replay3.729 within7GiB. YoYo original bank0 marker352815...,
+52nonattacktensors/cleanbaselines/runtime/weights/settings/clip/targets/starts
+match; differentattackbanks/honestexecution IDs kept. Original epoch upper
+charge2794s,23:02:11–23:48:44PacificOct27 within4800 inclbootstrap/173checks/export.
+NOW independent ORDER[:16],16/20 diagnosticcases,8completepairs(00–07).
+University lastregistered15; no newreview synced. Bowling NOT accepted yet.
+03 AUTHORITATIVE job attended-session-20261028T060130Z.PdTsMO job0; transcript
+173CPU passes/matrix/replay/export82members128318353B SHA13b579f6401278da552feb8f06dc3eaaaef75624cc600ae6e69d5d0c07b37246,
+sidecar7024b405... . Actual numerical contents/JUnitXML still notdownloaded.
+Firstcopy255/0B and case-download-20261028T064839Z.KHjOmc255/0B; latter SSH
+keyexchange reset10.16.8.17:22. Do NOT rerun case. Bothpartialfiles preserved.
+IMPORTANT03 latest-session points attended-session-20261028T060145Z.u42zWS,
+only emptyterminal.log,remote status UNKNOWN. Do NOT silentlyrewritepointer
+or infer duplicate model; use original PdTsMO job explicitly for nextaudit.
+Existing03 download-evidence.sh SHA3bb1364c...,collector cfc15d28...,
+receiver55646f6c...,knownhostsfe868... and all original launcher localpins
+checked; no frozenhelper edits. NEXT user Mac Terminal runs ONLY existing
+raw/linux10603/download-evidence.sh. Freshlocaldirectory, readexistingcompleted
+case, no model/test/remotemutation. If failsinspect, neverrun run-case.sh again.
+OnDone inspect newlatest-download/copyexit/transport84+manifest85/outer82,
+verify actual archive against original PdTsMO export; pinned newreviewer plus
+independent all53source/173JUnit/tensor/clock/GPU/588beforeafter audit required.
+Only then count17/20/8pairs and prepare metadata-only two-original-review sync.
+No registration or nextpair prepared now. Retain consumedcaseclaims,3oldSTOPs,
+Archerygrant/time4947/history; no oldallowance reset or GPUretry. No partial
+aggregate/heldout/paid/study/budget/researchadmission. User commits self.
+Earlier activation-ready/unrun entries below are historical.
+
+LATEST October27: ACTUAL YOYO/BOWLING ACTIVATION VERIFIED; TWO ATTENDED HELPERS READY.
+Read report/checks/2026-10-27-yoyo-bowling-activation-verification.md/JSON and
+current docs/reviewed_next_pair.md. Raw yoyo-bowling-pair-20261027/latest-activation
+points activation-session-20261028T055532Z.CbkCTA,SSH0,receipt119407B SHA
+cfa47658ae57cac0f590dd60841cc7415e7ad37bc54ac80ebe086f2f8ce8b67c.
+Capture22:55:32PacificOct27; same deterministic bytes as LOCALrehearsal but actual
+session/exit/stderr/readbacks independently checked. Op92aec5b90f42181338da92081a74e659f3a31be98d163308f333e2d9f58d4444;
+module0ef79a7959585f947d428d74e6d6b0b430b4a55192357ad4e64613b94cba3602.
+Qualified trusted+verify_activation and independent audit pass5exactrecords:
+imports,requests07b1/08b0,resolution,genesislast,preexisting[]. All588returnedhashes
+match (578prior+originalregisteredArcheryreview1+9syncpacketfiles), all15origins.
+14oldrows unchanged;7frozen-v1 commonreview b083... matches embeddedpinnedINPUT/
+bootstrapreview. RecoveredArchery06b1 retains explicitorigin/recovery-01/
+execution87bd.../reviewba9.../grantfd4.../auth411...; no relabelledoldresult.
+All3oldSTOPs/failedclaim/outcome/partialraw5/success/source/clocks preserved.
+Old4947s charge kept (2348+2599), nooldremainder stacked or recoverygrant reused.
+Pinned source enforces exact previousregistered15state; separatepreviousstatus
+snapshot notdownloaded. Savedactualsession independent-verification.json,
+independent-audit.py andraw activation-reviewed.json verified/op92ae.../
+accepted_cases15/actualreceiptcfa476... . Both helperlocal PIN_CHECKPythonblocks
+pass with marker; NOshell/GPU/test/extraSSH/activationrepeat ran duringaudit.
+No perhostlatest-session/latest-download exists atthischeckpoint. Do NOT repeat
+completed activate-continuation.sh or anyolder consumedmodel/recoveryhelpers.
+NEXT userMac runs NEWraw/linux10609/run-case.sh (YoYo07b1) and NEWraw/linux10603/
+run-case.sh (Bowling08b0) ONCE in TWO MacTerminaltabs atMacprompts. Mayrunconcurrently.
+Keepbothconnections/Maclidawakeattendedthroughbothdownloads. Eachwhole4800+15
+includesbootstrap/173CPU/preflight/numeric/export, matrix3600/replay900/parent
+<=4620reducewithsetup. Fixedhostleases/NFSa+EXmutexes/strictpreclaim+6GPUguards/
+7GiBcap/nativeprobe unchanged. No logout guarantee, autoretry or nextcasequeue.
+LatestuserGPUstatusquestion13a0e0ee... THISpreparation bothcorrectUUID/driver580.178.04,
+8192VRAM,09used74/03used94MiB,compute[]; no needasksamecheckagainnow. Snapshotnot
+reservation; actualactivationreviewclock05:58UTC/22:58Pacific, no hours-oldstatus
+issue atthishandoff. Newactualcampus173/modelcases unobserved untiluserlaunch.
+OnDone inspect BOTHactual latest-session/jobexit/terminal andlatest-download/
+copyexit, required84files+manifest85/outer82members; qualified newreviewer+
+independenttensor/clock/source/GPU/173JUnit/preservation audits. Ifcopyfails
+repairONLYcopy afterinspection, neverrerunmodel. Model/launcherror preserve
+claim/STOP/partial andspenttime; alreadyrunningpeer mayfinish. Newrejection
+observer records readonlyprocesssnapshots; neverkill/whitelistforeignprocess.
+Newtrueexecution identities bind wrapper/source and differfrompreviousbanks;
+never useoldrevieweridentity. Requireall4arms/exactfreshA/173tensors/320gradobs/
+6strictGPUboundaries/nativeprobe/<=7GiB/588beforeafterpins/correctoriginalclock.
+YoYobank1 mustpairwith accepted07bank0 on52nonattacktensors/baselines/runtime/
+weights/targets/starts. Bowling08bank0newunpaired. Count17/20and8pairs ONLYafter
+bothactualexports independentlyverify; current15/20registered+independent,
+7pairs,5pending. No partialmean/heldout/paid/protocol/budget/researchadmission.
+User commits self. Earlier activation-ready/unrun entries historical.
+
+LATEST October27: YOYO BANK1/BOWLING BANK0 HANDOFF READY; ACTUAL ACTIVATION NOT RUN.
+User committed3996faa (Register Archery Recovery Review & Synchronize Panel Progress).
+Read docs/reviewed_next_pair.md and report/checks/2026-10-27-yoyo-bowling-preparation.md/JSON.
+New models/reviewed_panel_next_pair.py, CLIcontinue_reviewed_next_pair.py,
+builderprepare_reviewed_next_pair.py,97tests+fixture. Raw yoyo-bowling-pair-20261027
+has58-file source/JSON-only packet,53sources (5new+sync8c6+47originalrecoveryfiles),
+1212259Bpayload<=2MiB,no tensorpayload/weights/keys. New target
+yoyo-bowling-execution-20261027, only09clip07bank1 and03clip08bank0. Fresh original
+unused80min slot each, maxattempt1/additional0, matrix3600/replay900/parent<=4620,
+whole4800 includesbootstrap/173campusCPU/preflight/workers/export,15cleanup.
+Op92aec5b90f42181338da92081a74e659f3a31be98d163308f333e2d9f58d4444;
+module0ef79a7959585f947d428d74e6d6b0b430b4a55192357ad4e64613b94cba3602;
+helper ef8d0afbed5edbac9b8d8944241ba158a6a3b0c8631895bc9d3efdc6ba3d840a;
+payloaddc490d41fa1c1def7da980c0c37a0bfced5a62ea72ba3d6d98d14af4b515da88.
+Actualpriorregistration0499.../syncb37.../module8c6... and originalrecovery175.../
+source8e29... immutable. All14oldoriginrows unchanged; new15th Archery row keeps
+explicit-Archery-additional-attempt/recovery-01/execution87bd.../markerba9.../
+consumedgrantfd4.../auth411..., not relabelled as ordinarycase. Preserve588=
+578old+originalArcherymarker1+registrationpacket9. All3oldSTOPs/failedclaim/outcome/
+raw5/partial/source/grants/clocks and successfulrecovery stay intact. 4947s old
+charged history is kept; no oldtime stacked or recoverygrant reused.
+load checks588 BEFORE olderloaders/constructors, then actualoldregistered15
+Registry/status and nestedancestors; constructor outside ownmutex. Both original
+hostleases for metadataactivation; perhostlease for one case, sharednewregistry
+mutex. EX usesa+ descriptors. Any targetartifact in ALL6 historicalcoordinators/
+v1 blocks a newattempt. Abandonedclaims stopdispatch; runningpeer may finishafter
+newfailure withinoriginaltime. No autoqueue/retry, foreignkill/whitelist.
+Neuralworker AST matches qualifiedoldbatch; numericalparent onlynewCLIpath changes.
+Honest newnumericexecutionkind/sourcepins; strictguard unchanged, read-only process
+snapshot observer retained from qualifiedArchery source; nativeprobe/7GiBcap.
+Freshuser BOTHhoststatus received via call_13a0e0eec36d46b3819fdd01d7107f26
+THISturn:03UUIDe54fae90...,8192total94used;09UUID4e2a7c77...,8192total74used;
+580.178.04,compute[]both,sharedhome2.1Tfree86%. Do NOT ask identicalstatusagain
+now; snapshotnotreservation, runtimepreclaim+6GPUboundaries stillmustpass.
+97local/173combinedextracted0fail/error/skip. Full FINAL installer/extractor/CLI/
+activation/verifier/2bootstraps/concurrentmain-run-Registry-realLocks-claims-
+outcomes-exports/collectors/receivers rehearsal passes with588genuinehashes.
+OnlyGPUqueries/neuralbodymocked; generatedCPUcases doNOTadvance15 and qualified
+review rejects both atmissingnumericplan. FirstlocalCPUfixture had outdated
+4400budgetlowerbound; correctedfixtureaccountsforactualpreflight, nooperator/
+scientificsourcechange, failedCPUstate retained atprivate siblingnamespaces.
+These are NOTuniversityattempts. Collect84files+manifest85 and82outermembers;
+corrupttransportsrefusebeforeextract. Casehelpers refusebeforeactualactivation-
+review; realremainingclockcharges250s setup/rejects4801s. Shellsyntaxvalid,
+GNUtimeoutnotrunonMac; originalLinuxTERM/KILLandchilddeadline retained.
+validation/INDEX pins XML/proofs/scripts/LOCALactivationreceipt; LOCALreceipt is
+NOTactualuniversity. Scaffold/YAMLpass. Raw hasNOlatest-activation/activation-
+reviewed/newhostlatest-session. Neitheractualactivation norcampusmodel/tests run.
+NEXT userMac runsraw/activate-continuation.sh ONCE;metadata09,300+15. Ordinary
+passwordTerminal/lidopen. OnDone inspect ACTUALraw/latest-activation SSH0/stderr/
+receipt andsource/helper/input/payloadpins. Qualified boundary+verify_activation
+and independentexact5records(genesislast)/588hashes/15originalorigins/nexttwo
+requestscaps/all3oldSTOPs/source/time mustpass. Saveactualaudit andraw
+activation-reviewed.json verified/op92ae.../accepted_cases15. OnlyTHEN handoff
+newhostrun-case.sh ONCE each in2MacTerminaltabs; currenthelpersgated. Keepboth
+connectionsandMacawake through downloads. No logout guarantee. OncaseDone
+inspectactualsession/copyexit andtrueexport; copyrepairONLYneverrerunmodel.
+Current15/20registered+independent,7pairs,5remaining. Bothactualexports maycount
+17/20and8pairs ONLYafterfullreview. No partialmean/heldout/paid/protocol/budget/
+researchadoption. User commits self. Earlier unpreparedentries historical.
+
 LATEST October27: ACTUAL ARCHERY ORIGINAL REVIEW SYNC VERIFIED;15REGISTERED/15INDEPENDENT.
 Read report/checks/2026-10-27-archery-review-sync-verification.md/JSON and current
 lead in docs/archery_review_sync.md. Raw archery-review-sync-20261027/latest-session
