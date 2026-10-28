@@ -1,5 +1,19 @@
 # Scientific acceptance tests
 
+`test_yoyo_bowling_review_sync.py` adds64 metadata checks for the two original
+YoYo/Bowling reviews,763-file preservation before legacy constructors, exact
+source/authority/marker identities, both original clocks and consumed history,
+interruption between two atomic appends, conflicting second-marker refusal,
+real lease/mutex contention, record-lock access and detached clock readbacks.
+All64 pass locally and after extraction, without skips. The full local
+installer/CLI/Registry rehearsal rechecks genuine saved tensors, registers
+15→17 and safely acknowledges a repeat while preserving all763 hashes.
+No model or GPU worker starts. Actual university registration is now
+[independently verified](../report/checks/2026-10-28-yoyo-bowling-review-sync-verification.md),
+with both original reviews appended and17 accepted cases.
+[Preparation](../report/checks/2026-10-28-yoyo-bowling-review-sync-preparation.md).
+Earlier preparation entries below are historical snapshots.
+
 `test_reviewed_next_pair.py` adds97 CPU checks for the separately pinned
 YoYo bank1 / Bowling bank0 pair: genuine fifteen-case imports and recovered
 Archery origin,588-file preservation, pre-initialization history refusal,

@@ -2,6 +2,90 @@
 
 ## Current stage
 
+LATEST October28: ACTUAL YOYO/BOWLING ORIGINAL REVIEW SYNC VERIFIED;17 REGISTERED/INDEPENDENT.
+Read report/checks/2026-10-28-yoyo-bowling-review-sync-verification.md/JSON and
+current docs/yoyo_bowling_review_sync.md. Raw latest-session is
+sync-session-20261028T164937Z.wem11A,SSH0,09:49:37PacificOct28 capture start.
+Actual receipt135990B SHA8e6316d47b0d2f8f40aa9af3c21bd39c5078aa0c9f6fbc675ec135ffeb941d0d.
+Deterministic bytes match LOCAL rehearsal, but actual path/exit/stderr/readbacks
+were separately checked. Sync opf12026860922860a66d8ea4eb4692eba60ca34b132fca95c707448acd24312e3;
+modulea1fc245906f44ddf66008828a2ba87ede35b85919891bd15bcfca7327e3ca538.
+Qualified verify_receipt + independent audit pass: exactly reviews/clip07bank1
+and clip08bank0 original files appended, preexisting[], accepted15->17,
+ORDER[:17]. Only07b1/08b0 claimed/computed; failed[], currentSTOPfalse,
+completefalse, aggregateNone. Both saved cases reverified on CPU by pinned
+university source. Local receipt audit no model/tests/extraSSH/repeat sync.
+Original marker fileSHAs50c4134f...(07b1) and a0c9140d...(08b0) byte-identical;
+original executiond5e5.../2379... and numericreceipta062.../bfd9... kept honest.
+All763 fresh hashes independently reconstructed as588 old+5 actual activated
+records+170 genuine source/case/launcher files. All15 original import identities,
+recovered Archery grant/execution,3 oldSTOPs, failed/success claims/outcomes/
+exports/saved tensors/source/clocks remain intact. Before/after time matches;
+recompute exact original charges2794/2634. Prior2348+2599=4947 retains same
+consumed grantfd4.../auth411..., old2452 remainder NOT stacked; no retry from
+unused time. Source/helper/payload/encodedcommand/input pins all checked.
+Saved actualsession independent-verification.json and independent-audit.py,
+raw actual-sync-verified.json. No pending registration; never repeat completed
+sync, activation or consumed model helpers. User commits self.
+NOW university+independent17/20 diagnosticcases,8 completepairs,3 UNRUN:
+08b1 and09b0/b1. This is diagnostic progress, not fullresearch completion.
+NEXT on usercontinue prepare separately pinned twohost pair:03Bowling08bank1,
+09HandStandPushups09bank0 under original fixed assignments/unused80min each.
+Then last09bank1 after those are reviewed/registered. Fresh readonly GPUstatus
+needed before any GPU launch; do NOT ask it at this receipt-only checkpoint.
+No newpair/request/helper/queue prepared now. Expected next baseline is
+763+2 exactoriginalregisteredmarkers+9 syncpacketfiles=774 if inventories same.
+Keep old originalmarkers/imports/claims/outcomes/source/history; never relabel
+execution or patch frozen packets. Preserve actual syncboundary/receipt8e631...
+and all previous consumed grants/time/3oldSTOPs. Keep EXa+ lock descriptors,
+constructors outside ownmutex, shared hostleases and registry guard.
+No autoretry/foreignkill/whitelist, methodchange/heldout/paid/budgetincrease/
+partial aggregate or researchadmission. Earlier prepared/unrun entries historical.
+
+LATEST October28: YOYO/BOWLING ORIGINAL REVIEW REGISTRATION PREPARED; ACTUAL SYNC UNRUN.
+User committed18376ab. Read docs/yoyo_bowling_review_sync.md and
+report/checks/2026-10-28-yoyo-bowling-review-sync-preparation.md/JSON.
+New models/yoyo_bowling_review_sync.py, CLI sync_yoyo_bowling_reviews.py,
+builder prepare_yoyo_bowling_review_sync.py,64 tests plus fixture. Raw
+yoyo-bowling-review-sync-20261028 has9-file source/JSON-only packet,242679B upload,
+no tensors/weights/privatekeys. Opf12026860922860a66d8ea4eb4692eba60ca34b132fca95c707448acd24312e3;
+modulea1fc245906f44ddf66008828a2ba87ede35b85919891bd15bcfca7327e3ca538;
+helper185f547078edec509c9e0cf8ed4098680daa0d08770ebc99e3e30c29e31751b8;input483644490e4dc64e3cdb04af29d83c1a04d9dfc076f5dfe9ab7ed1c9730eaaac.
+Current core92ae/module0ef... and actual activationcfa... stay immutable.
+Only EXACT original marker50c4134f...(07b1) and a0c9140d...(08b0) may append
+in yoyo-bowling-execution-20261027/reviews/. No relabelled execution/source.
+763 hashes=588 old+175 current activated records/source/cases/launchers;
+all checked BEFORE older Registry constructors. Both original hostleases,
+then current registry mutex; constructors outside ownmutex; EXa+ descriptors.
+All15 imported origins,3 oldSTOPs,failed/success claims/outcomes/exports/live
+numeric tensors/source/clocks/grants preserved. New charges2794/2634, prior
+Archery consumed4947 retained. No reset/stackedtime or unusedtime retrygrant.
+CPU reverify BOTH existing outer exports and live receipts, no model/attack/
+test suite. Append only exact two original marker bytes. Partial atomic append
+safe on a reviewed repeat; conflicting second marker rejects before either write.
+64 local/64 extracted0fail/error/skip. Initial mutable clock-readback alias was
+fixed with detached copies and regression before package; initialXML retained.
+Full FINAL actual installer/extractor/CLI/Registry/locks/saved-tensor/receipt
+verifier rehearsal passes15->17 and repeat17->17 with763 genuine hashes.
+Only home/metadata host substituted; no reviewer/Registry/model mocks.
+Initial local fixture external hardlink refusal fixed to readonly sourcecopy
+before installer; separate failedscratch/log retained. No remote operation.
+Helper failure QA uses local SSHstub, preserves .part/255 and rejects corrupt
+payload beforeSSH. Scaffold/YAML pass. validation/INDEX pins64XML,proofs,
+scripts and LOCAL receipts. LOCAL rehearsal receipt NOT actual university.
+Raw has NOlatest-session at preparation. No real universitysync/GPU/newtests.
+NEXT userMac runs raw/sync-reviews.sh ONCE, metadatahost09,300+15 cap,
+ordinary password/caffeinate/Terminal+lidopen. No freshGPUcheck needed here.
+OnDone inspect ACTUAL raw/latest-session SSH0/stderr/receipt, source/input/
+helper/payloadpins. Qualified verify_receipt plus independent exact original
+2recordreadbacks/763freshhashes/15->17 (or idempotentpartial)/time unchanged/
+all3STOPs/imports/failed/successhistory mustpass. Save actualaudit andreceipt
+before claiming university17 or preparing final3dispatch. Neverrepeatcompleted
+model/activation helpers. Current independent17/20,university15,8pairs,3UNRUN
+08b1/09b0/b1. No finalGPUhelper/queue prepared. No paidcompute/heldout/partial
+aggregate/protocol/budget/researchadmission. User commits self.
+Earlier completed-pair sleep checkpoint entries below are historical.
+
 LATEST October28: BOTH ACTUAL YOYO/BOWLING CASES VERIFIED; USER SLEEP CHECKPOINT.
 Read report/checks/2026-10-28-yoyo-bowling-verification.md/JSON and current
 docs/reviewed_next_pair.md. User requested verification and a commit MESSAGE,

@@ -1,5 +1,50 @@
 # Research Progress Reports
 
+## 2026-10-28 — Both original reviews registered; seventeen accepted at university
+
+The actual metadata command returned0. Independent audit verifies both exact
+original review files, all763 fresh preservation hashes and registered progress
+advancing15→17. University and local reviews now agree at17/20 diagnostic cases,
+eight complete clip pairs and three remaining.
+
+The original executions, numerical receipts, outcomes and archives remain
+unchanged. All fifteen imported origins, three historical STOPs, failed and
+successful claims/exports, saved tensors and sources are preserved. Original
+YoYo/Bowling charges2794/2634seconds and the previous consumed Archery4947-second
+history stay intact. The university operator rechecked both saved cases on CPU;
+this local receipt audit starts no model or test suite, repeats no registration
+and makes no additional remote connection.
+
+Next prepare Bowling bank1 on10603 and HandStandPushups bank0 on10609, with fresh
+GPU identity/process checks before launch, then the last HandStandPushups bank1
+case. No request or GPU helper is prepared by this audit. No partial scientific
+aggregate, held-out access, paid work or research admission occurs. User commits
+separately. [Actual registration audit](report/checks/2026-10-28-yoyo-bowling-review-sync-verification.md).
+
+## 2026-10-28 — Original YoYo / Bowling registration prepared
+
+The separate source-only operator appends the two exact original review
+markers after CPU verification of both saved exports and live receipts.
+It checks763 hashes before legacy constructors, holds both original host
+leases and the current mutex, preserves all imported origins and three STOPs,
+and keeps2794/2634 seconds plus Archery's4947-second consumed history intact.
+Partial append recovery and identical repeats authorize no new numerical work.
+
+All64 local and64 extracted checks pass with zero failures, errors or skips.
+The full actual-installer/CLI/Registry/lock rehearsal uses genuine saved tensors
+in an isolated local mirror, registers15→17 and safely acknowledges17→17 while
+preserving all763 hashes. Helper failure/corruption QA and scaffold/YAML checks
+pass. A shared clock-readback alias found by tests was fixed before packaging.
+Local rehearsal receipts are explicitly separate from real university evidence.
+
+Next run the five-minute metadata helper once from Mac Terminal, then review
+its actual receipt before further GPU preparation. Actual registration has not
+run; independent progress remains17/20 cases and eight pairs, last registered15.
+No fresh GPU check is needed for this metadata step. No model, test suite,
+remote connection, paid work, held-out access or partial scientific aggregate
+was launched by this preparation. User commits separately.
+[Prepared registration](report/checks/2026-10-28-yoyo-bowling-review-sync-preparation.md).
+
 ## 2026-10-28 — Both YoYo / Bowling cases verified; stopping checkpoint
 
 Bowling's copy-only retry succeeded and matches the export from its original

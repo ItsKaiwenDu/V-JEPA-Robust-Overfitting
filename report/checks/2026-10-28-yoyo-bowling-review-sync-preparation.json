@@ -1,0 +1,171 @@
+{
+  "accepted_after_sync": 17,
+  "actual_university_sync_performed": false,
+  "additional_attempt_authorized": false,
+  "all_previous_failed_and_successful_attempts_preserved": true,
+  "archive": {
+    "bytes": 180458,
+    "files": {
+      "yoyo-bowling-review-sync-20261028/INPUT.json": {
+        "bytes": 132138,
+        "sha256": "483644490e4dc64e3cdb04af29d83c1a04d9dfc076f5dfe9ab7ed1c9730eaaac"
+      },
+      "yoyo-bowling-review-sync-20261028/SYNC.json": {
+        "bytes": 2509,
+        "sha256": "eacbb8929e0855a0c2ac95d16e9908059c8509d91c227e7e5eb351909924dbc8"
+      },
+      "yoyo-bowling-review-sync-20261028/activation-receipt.json": {
+        "bytes": 119407,
+        "sha256": "cfa47658ae57cac0f590dd60841cc7415e7ad37bc54ac80ebe086f2f8ce8b67c"
+      },
+      "yoyo-bowling-review-sync-20261028/models/yoyo_bowling_review_sync.py": {
+        "bytes": 20500,
+        "sha256": "a1fc245906f44ddf66008828a2ba87ede35b85919891bd15bcfca7327e3ca538"
+      },
+      "yoyo-bowling-review-sync-20261028/scripts/prepare_yoyo_bowling_review_sync.py": {
+        "bytes": 16140,
+        "sha256": "963e4bed0d425c6f616c27dbf50aa240c2ca51f78f2b42423cbfbc3c9abd1bbe"
+      },
+      "yoyo-bowling-review-sync-20261028/scripts/sync_yoyo_bowling_reviews.py": {
+        "bytes": 1007,
+        "sha256": "81231897618be897cb9b83462ed2407f9bb60f4d44559aff47de75bd7190e61d"
+      },
+      "yoyo-bowling-review-sync-20261028/support/reviewed_panel_next_pair.py": {
+        "bytes": 47278,
+        "sha256": "0ef79a7959585f947d428d74e6d6b0b430b4a55192357ad4e64613b94cba3602"
+      },
+      "yoyo-bowling-review-sync-20261028/tests/fixtures/yoyo_bowling_review_sync_metadata.json": {
+        "bytes": 433179,
+        "sha256": "f1a3bcd67e1739177de526eca6718e60a4af1f8a48c805c72dd5f61200571e08"
+      },
+      "yoyo-bowling-review-sync-20261028/tests/test_yoyo_bowling_review_sync.py": {
+        "bytes": 17465,
+        "sha256": "04cae2dab1db3a486e36c59d50a8d772638998afb2ab09c337a1cf33a1b4951e"
+      }
+    },
+    "sha256": "0c1e16c70e2ef593bcb443fe0cc8a06a9b9bb88d4149e68858db59af7b3a507e"
+  },
+  "both_original_host_leases_then_registry_mutex": true,
+  "complete_clip_pairs": 8,
+  "current_complete_clip_pairs": 8,
+  "current_independent_cases": 17,
+  "date_Pacific": "2026-10-28",
+  "exclusive_locks_use_read_write_descriptors": true,
+  "focused_checks": {
+    "extracted": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 64
+    },
+    "local": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 64
+    }
+  },
+  "full_local_CPU_rehearsal": {
+    "accepted_after": 17,
+    "accepted_before": 15,
+    "actual_installer_extractor_and_CLI_main": true,
+    "actual_receipt_verifier": true,
+    "all_original_imported_identities_preserved": true,
+    "all_three_STOP_records_and_consumed_history_preserved": true,
+    "case_verifier_or_Registry_mocks_used": false,
+    "complete_clip_pairs_after": 8,
+    "fresh_isolated_home_not_modification_of_prior_rehearsal": true,
+    "full_installer_apply_repeat_idempotent": true,
+    "genuine_completed_outer_exports_and_live_numerical_receipts_reverified_on_CPU": 2,
+    "home_and_metadata_host_substituted_only": true,
+    "kind": "YoYo-Bowling-review-full-CLI-local-CPU-rehearsal-v1",
+    "model_or_GPU_worker_or_test_suite_started_by_sync": false,
+    "only_two_original_review_markers_appended": true,
+    "operation_sha256": "f12026860922860a66d8ea4eb4692eba60ca34b132fca95c707448acd24312e3",
+    "original_attempt_charge_upper_seconds": {
+      "clip-07-bank-1": 2794,
+      "clip-08-bank-0": 2634
+    },
+    "passed": true,
+    "preserved_files_verified": 763,
+    "previous_consumed_history_seconds": 4947,
+    "real_Registry_and_file_locks": true,
+    "remaining_cases_after": 3,
+    "remote_connections": 0,
+    "saved_case_reviews_seconds_local": [
+      50.63449183298508,
+      46.46292395799537
+    ],
+    "scratch_directory": "/private/tmp/yoyo-bowling-review-sync-rehearsal-a0i22182"
+  },
+  "held_out_pixels_opened": false,
+  "helper_QA": {
+    "actual_raw_latest_session_absent": true,
+    "kind": "yoyo-bowling-review-sync-local-helper-failure-QA-v1",
+    "model_or_GPU_or_university_operation_started": false,
+    "network_connections": 0,
+    "passed": true,
+    "scratch": "/private/tmp/yoyo-bowling-sync-helper-QA-sgx1zp_w",
+    "ssh_replaced_by_failing_local_stub": true,
+    "tests": [
+      {
+        "exit_status": 255,
+        "passed": true,
+        "test": "failed-copy"
+      },
+      {
+        "exit_status": 1,
+        "passed": true,
+        "test": "corrupt-payload"
+      }
+    ]
+  },
+  "helper_sha256": "185f547078edec509c9e0cf8ed4098680daa0d08770ebc99e3e30c29e31751b8",
+  "immutable_history_verified_before_legacy_constructors": true,
+  "independent_marker_file_sha256": {
+    "clip-07-bank-1": "50c4134f8fac28af6442bc65f4a10b7867643b96f534d21df25857eed913a5b4",
+    "clip-08-bank-0": "a0c9140d091f078fd5f0054235eeb6c053f03d7f444357985aca000e6eee3eb9"
+  },
+  "initial_local_fixture_hardlink_replaced_by_read_only_source_copy": true,
+  "initial_shared_mutable_clock_readback_corrected_before_packaging": true,
+  "inputs_file_sha256": "483644490e4dc64e3cdb04af29d83c1a04d9dfc076f5dfe9ab7ed1c9730eaaac",
+  "kind": "matched-panel-yoyo-bowling-review-sync-v1-preparation",
+  "new_GPU_dispatch_authorized": false,
+  "new_GPU_jobs_started": 0,
+  "next_step": "Run the prepared metadata-only sync once from Mac Terminal, then independently inspect its actual receipt before preparing final-three GPU dispatch.",
+  "only_exact_original_review_files_may_be_appended": true,
+  "operation_sha256": "f12026860922860a66d8ea4eb4692eba60ca34b132fca95c707448acd24312e3",
+  "original_attempt_charge_upper_seconds": {
+    "clip-07-bank-1": 2794,
+    "clip-08-bank-0": 2634
+  },
+  "original_imported_case_origins_and_all_three_STOP_records_preserved": true,
+  "paid_compute": false,
+  "partial_two_file_append_and_lost_acknowledgment_supported": true,
+  "payload_bytes": 242679,
+  "payload_sha256": "3eeaf26c8aa598d096c12c4b904367f8df79c5662a82af7364fb01e02ae6aa25",
+  "preserved_files": 763,
+  "previous_consumed_history_seconds": 4947,
+  "records_to_append": [
+    "reviews/clip-07-bank-1.json",
+    "reviews/clip-08-bank-0.json"
+  ],
+  "remote_operation_performed": false,
+  "research_admitted": false,
+  "scaffold_and_YAML_check_passed": true,
+  "scientific_aggregate": null,
+  "source_only_regular_file_count": 9,
+  "source_sha256": {
+    "models/yoyo_bowling_review_sync.py": "a1fc245906f44ddf66008828a2ba87ede35b85919891bd15bcfca7327e3ca538",
+    "scripts/prepare_yoyo_bowling_review_sync.py": "963e4bed0d425c6f616c27dbf50aa240c2ca51f78f2b42423cbfbc3c9abd1bbe",
+    "scripts/sync_yoyo_bowling_reviews.py": "81231897618be897cb9b83462ed2407f9bb60f4d44559aff47de75bd7190e61d",
+    "support/reviewed_panel_next_pair.py": "0ef79a7959585f947d428d74e6d6b0b430b4a55192357ad4e64613b94cba3602",
+    "tests/fixtures/yoyo_bowling_review_sync_metadata.json": "f1a3bcd67e1739177de526eca6718e60a4af1f8a48c805c72dd5f61200571e08",
+    "tests/test_yoyo_bowling_review_sync.py": "04cae2dab1db3a486e36c59d50a8d772638998afb2ab09c337a1cf33a1b4951e"
+  },
+  "university_last_registered_cases": 15,
+  "upload_contains_tensors_weights_or_private_keys": false,
+  "user_committed_previous_checkpoint": "18376ab",
+  "validation_index_file_sha256": "fda249fd2844e6701c79cc584ebaabf4ad613361d3b3ebc2f1945d0d298b20a5",
+  "verified_preparation": true
+}

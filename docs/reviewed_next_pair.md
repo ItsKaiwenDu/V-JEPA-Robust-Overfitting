@@ -1,5 +1,12 @@
 # YoYo / Bowling pair checkpoint
 
+**Registration completed and independently verified:** [both original reviews
+are now registered at the university](../report/checks/2026-10-28-yoyo-bowling-review-sync-verification.md).
+University and independent progress agree at17/20 diagnostic cases and eight
+complete clip pairs. Next prepare the remaining cases with fresh GPU checks.
+Do not repeat the completed registration or either consumed model launcher.
+The earlier case-completion snapshot below is historical.
+
 **Both completed cases are independently verified.** The diagnostic panel
 now has **17/20 verified cases and eight complete clip pairs**. Three cases
 remain unrun: Bowling bank1 and both HandStandPushups banks. University

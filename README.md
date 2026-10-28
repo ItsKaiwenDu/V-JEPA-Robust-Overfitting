@@ -1,5 +1,20 @@
 # V-JEPA Robust Overfitting
 
+**YoYo/Bowling review registration verified (October 28):**
++[the actual university receipt](report/checks/2026-10-28-yoyo-bowling-review-sync-verification.md)
+confirms both original reviews appended and763 unchanged hashes. Registered
+and independent progress now agree at **17/20 diagnostic cases, eight complete
+clip pairs and three remaining**. Next prepare the final cases with fresh GPU
+checks. Earlier snapshots follow.
+
+**YoYo/Bowling review registration prepared (October 28):**
++[the metadata-only handoff](docs/yoyo_bowling_review_sync.md) rechecks both saved
+cases and appends their exact original reviews while preserving763 file hashes
+and charged-time history. All64 local and64 extracted checks pass; the full
+local rehearsal verifies15→17 and safe repetition. Actual university registration
+is pending:17 independently verified cases,15 last registered and eight complete
+clip pairs. Earlier snapshots follow.
+
 **YoYo and Bowling verified (October 28):**
 [both actual exports pass independent review](report/checks/2026-10-28-yoyo-bowling-verification.md).
 The diagnostic panel now has **17/20 verified cases, eight complete clip pairs
