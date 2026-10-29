@@ -1,5 +1,14 @@
 # Scientific acceptance tests
 
+`test_registered_panel_analysis.py` adds41 focused checks for the read-only
+20-case loader and frozen descriptive analysis: exact-rational contrast oracle,
+separate scoring banks, undefined zero-denominator relative gaps, incomplete
+collections, mixed original execution identities, paired shared-data drift,
+registration authority, path redirection and declared split source layout.
+All41pass with zero skips. The real20-case CPU evidence check and independent
+480case-value/240clip-value/12summary-row arithmetic audit also pass; all739
+input hashes remain unchanged. [Analysis](../report/checks/2026-10-28-complete-panel-analysis.md).
+
 The actual final registration receipt is [independently verified](../report/checks/2026-10-28-final-review-sync-verification.md):
 two exact original marker readbacks,1126 reconstructed protected hashes,
 18→20 coordinator states and unchanged carried clocks pass. The university

@@ -1,5 +1,37 @@
 # Research Progress Reports
 
+## 2026-10-28 — Complete-panel descriptive analysis verified
+
+The new read-only loader combines the20original registered case identities and
+their approved execution wrappers, without changing the old journal. All saved
+receipts/archives/native CUDA evidence/fresh A replays and all10shared-target/
+start/runtime/weight/scoring-bank pairs reverify. All739 input fingerprints match
+after collection and during an independent exact-rational arithmetic audit.
+Frozen B-A/D-C/C-A/D-B contrasts keep main/audit_0/audit_1 separate, average two
+technical banks within each clip and ten clips equally. No n=20 claim or bank pooling.
+
+Four→eight attack draws improves relative native loss3.54–3.95%at20steps and
+3.84–4.15%at50steps, positive on all10clips in each bank.20→50steps improves
+it1.53–2.03%at4draws; at8draws1.94–2.49%, with10positive main clips and9in each
+audit. TennisSwing's D-C is near-zero positive on main and negative on both
+audits; this exception remains. These are separate bank means and descriptive
+training-only pretrained results. No convergence margin, primary-arm choice,
+research calibration/admission or robust-overfitting trajectory is established.
+
+All41focused checks pass. Initial40unit checks passed; the first integration
+pass refused the new loader's assumption that full scientific source was copied
+per case. The explicit seven-runner/shared-snapshot mapping and regression check
+correct it, without changing evidence, frozen code or acceptance tolerances.
+The independent oracle checks480case contrast values,240clip values and12summary
+rows directly from original arm JSON, importing no production aggregator.
+
+Raw and curated analyses retain all scores/contrasts/origins/hashes plus tests,
+the oracle and correction evidence. Readiness review keeps research attack/mask/
+step calibration, numerical/selected-GPU optimizer qualification and measured
+budget admission pending; old A40 cost screens are historical, not new quotes.
+Study/budget/configuration files unchanged; no new model/GPU/remote/decode/heldout/
+paid work. User commits separately. [Complete analysis](report/checks/2026-10-28-complete-panel-analysis.md).
+
 ## 2026-10-28 — Actual20-case university registration verified
 
 The actual sync-session-20261028T222641Z.rie1xN returned0 and saved215687-byte

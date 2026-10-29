@@ -2,6 +2,45 @@
 
 ## Current stage
 
+LATEST October28: COMPLETE20-CASE DIAGNOSTIC ANALYSIS VERIFIED; RESEARCH NOTADMITTED.
+Read report/checks/2026-10-28-complete-panel-analysis.md/JSON and docs/registered_panel_analysis.md.
+User committed priorregistrationwork; actual20registered receiptdd1644...,
+authorityreportSHA06e5d8ec... unchanged. Inputmanifest2026-10-28-complete-panel-
+inputs.json SHA4a32d77c46bed1b28cc2ba00e10e5400fadf2a6f4c531a6f96da1f6a5afdb578.
+Newregistered_panel_analysis.py+thinCLI+41focusedtests. All20originalnumerical
+receipts/executions/markers/archives/source/nativeCUDA/replay verify; all10pairs
+targets/starts/runtime/weights/settings/scoringhashes/cleanbaselines exact.
+739inputs rehashedafteranalysis+independentaudit. Initial40unittests passed;
+firstintegrationrefusedwrongnewloaderfull-source-per-case assumption, noaggregate.
+Correctdeclared7RUNNER_SOURCES percase +sharedfrozensnapshot dependencies,
+no existencefallback;41finaltests0error/failure/skip. Frozen old numerical/
+aggregator code unchanged. Final realCLI exit0 createsrawcomplete-panel-analysis-
+20261028/analysis.json+md. OracleFractionfromoriginalarmJSONchecks480casevalues/
+240clipvalues/12summaryrows withoutproductionaggregator import;validationINDEX
+and fullsource/tests/log/correction/proof saved. Arithmetic1e-12 roundingcheck
+isNOTscientificconvergence/replaytolerance. No model/GPU/remote/heldout/paidwork.
+Frozen B-A/D-C/C-A/D-B preserve3scorebanks;2technicalreplicates/clipthen10equal
+clips, NO n20/scorebankpooling/automaticchoice/newnumericstrengthmargin.
+C-A(relativegap4->8masksat20steps)=3.54-3.95% across3separatebankmeans,positive
+10clips/all3banks. D-B(at50steps)=3.84-4.15%,10/all3. B-A20->50at4masks1.53-
+2.03%,10/all3. D-Cat8masks1.94-2.49%,main10/audits9;TennisSwingmain+0.00009251,
+audit0-0.01326537/audit1-0.00596023 retained. Moresteps/drawsbothhelp;convergence
+notestablished,strongesttestedarmuntestedagainststronger. Releasedcheckpoint/
+training10clips only,historicalfirstclipnotunseen,oldoneclipresultnotpooled.
+No trainingtrajectory/robustoverfitting/heldoutresult/significanceclaim.
+Studysettings/budget$200/$160unchanged. Currentresearchreadinessgates inJSON:
+explicitprimaryattack/maskpolicy+training-onlystep-sizecalibration stillneeded,
+numerical-policy+chosenresearchGPUoptimizerqualification review, measuredcost/
+data/protocol/noveltyreview beforeadmission. HistoricalA40screen221.56-224.01at
+then0.61/h isnotcurrentquote/fullbound;freeRTX3070timingnotA40costcredit.
+NEXT usercontinue: prepare explicit research attack/mask/calibration decision
+and reconcile remaining numerical/optimizer/budget qualification evidence; do
+not silentlyadoptPGD50/EOT8 orclaimcalibrationdone fromstep2 diagnostic. No
+automaticnewGPUjob/paidlaunch/recoverytimegrant/heldoutaccess. Oldjournals/
+source/failedclaims/STOPs/chargedclocks remainimmutable. SSHjobsfinished. User
+commits self; noGitcommit/push. Earlier analysis-pending entries HISTORICAL.
+
+
 LATEST October28: ACTUAL20/20 REGISTRATION VERIFIED; NEXT COMPLETE-PANEL ANALYSIS.
 Read report/checks/2026-10-28-final-review-sync-verification.md/JSON and
 docs/final_panel_review_sync.md. Rawfinal-review-sync-20261028 latest-session

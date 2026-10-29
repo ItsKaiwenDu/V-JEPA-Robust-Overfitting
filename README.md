@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Complete diagnostic panel analyzed (October28):**
+[The frozen comparisons and independent arithmetic audit pass](report/checks/2026-10-28-complete-panel-analysis.md).
+All20 registered cases and ten technical pairs reverify, with739 unchanged input
+fingerprints. Both more steps and more attack-mask draws increase mean independent
+loss; convergence and research admission remain unestablished. All41 focused
+checks pass. Next review the research attack/calibration policy, numerical
+qualification and measured budget. No new GPU work ran. Earlier entries are historical.
+
 **All20 diagnostic reviews registered (October28):**
 [The actual university receipt passes independent review](report/checks/2026-10-28-final-review-sync-verification.md).
 University registration and local review now agree at **20/20 cases and ten
