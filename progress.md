@@ -1,5 +1,24 @@
 # Research Progress Reports
 
+## 2026-10-28 — New EOT8 measurements still exceed the full-study cap
+
+The retained 20-class/100-clip/eight-run schedule screens at **$243.71–249.62**
+using the recorded SE $0.74/hour total quote, the full $10 pilot reserve once,
+$40 noncompute reserve, 25% headroom and the historical eight-hour placeholder.
+Even removing that placeholder yields $236.31–242.22. These are incomplete
+short-sample extrapolations, not full-study bounds; missing costs remain null.
+Primary evaluation contributes about 75% of timed work. Same-throughput price
+ceilings of $0.5730/$0.5561 per hour are conditional, not other-GPU predictions.
+
+A new offline calculator preserves all original counts and adds disjoint wrapper
+residuals for 634 panels without duplicating native scores, audits or calibration.
+All 32 focused provenance/accounting tests, independent rational arithmetic and
+scaffold checks pass; 242 fingerprints and all scientific pins reverify. No GPU,
+SSH, new tensor loading, scope change or budget admission occurs. Final billing
+and all existing holds remain pending. Next reconcile the invoice and prepare
+lower-cost sufficient-memory hardware qualification before full calibration.
+[Measured screen and limits](report/checks/2026-10-28-candidate-measured-budget-review.md).
+
 ## 2026-10-28 — Bounded EOT8 hardware benchmark completed and verified
 
 All 13 phases completed on RTX PRO 4500 SE / PyTorch 2.8.0+cu128. Both clean and

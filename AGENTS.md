@@ -2,6 +2,32 @@
 
 ## Current stage
 
+LATEST Oct28: OFFLINE EOT8 COST SCREEN VERIFIED; FULL STUDY STILL ABOVE CAP.
+Read report/checks/2026-10-28-candidate-measured-budget-review.json/md and its
+validation JSON. New separate models/candidate_budget.py and thin estimator;
+all242inputs/169archive members/61candidate sciencepins reverified.32focusedtests
+PASS(0fail/error/skip), independent Fraction count/cost oracle bothscenarios and
+scaffoldPASS; rawcandidate-measured-budget-20261028 source/tests retained.
+20classes/100clips/eightconditionalruns/390updatesperrun unchanged.9660routine,
+2580primary(1980train-val+600test),140eachPGD50/audits+FGSM+random,10three-step
+bundles,248state/save,12anchorloads. Added disjointwall-minus-nativewrapper
+residualfor634panels;don'taddnativeclean/audits/calibration twice.8primarysample
+records atzeroaudits incl3diagnosticsteps; auditedprimaryextra excluded/unassigned
+futurecost,notfree. Feature8clipfits NOTscaledlinearly tofull100.
+RecordedPRO4500SE .74/h screenMED243.710080/MAX249.617381;includesfullpilot10ONCE+
+noncompute40,25%headroom,historical8hplaceholderNOTbound. Evenzero8h236.31–242.22
+above200. Actualcomputeinclpilot203.71–209.62>160. Primary74.6–75.0%timedwork.
+Same-sample-throughput rateceiling.573021/.556064 onlyconditionalnecessaryscreen;
+NOotherGPUthroughput/availabilityprediction. Unknownfullcostsnull,fullcostboundnull,
+researchstepnull,budget/researchadmissionFALSE. Do notlaunchcalibration/trajectory.
+NoGPU/SSH/model/pixel tensor loads/newpaidwork thisstage. Existingcodes/oldreports/
+YAML/sciencepins untouched. LatestPodterminated22:05userconfirmed;finalinvoice
+PENDING;keep1.75reserve+oldhold/gap,encumbrance9.22/unreserved.78withinpilot10.
+No newhold/release/capchange. Nextreconcileinvoice,thenpreparelower-costsufficient-
+RAM hardwarequalification ifdiagnosticallowancepermits;freshquotes+usableRAM+actual
+newhardwaretimingsrequired. Keep20classdesign;noautorescope. Usercommits self.
+Earlier benchmark/wakeupnotes historical.
+
 LATEST Oct28 22:05PDT: EOT8 BENCHMARK COMPLETE; POD TERMINATED BY USER.
 Read report/checks/2026-10-28-candidate-benchmark-verification.json/md. All13/13
 phases complete, exit0, scientificend22:00:21PDT. Download rawcandidate-eot8-

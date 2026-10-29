@@ -1,0 +1,46 @@
+{
+  "all_242_input_fingerprints_reverified": true,
+  "all_existing_scientific_source_and_configuration_inputs_unchanged": true,
+  "budget_approved": false,
+  "financial_reconciliation_pending": true,
+  "focused_tests": {
+    "actual_result": "runs/pretrained/diagnostic/candidate-measured-budget-20261028/pytest-result.json",
+    "errors": 0,
+    "exit_status": 0,
+    "failed": 0,
+    "passed": 32,
+    "skipped": 0,
+    "source_sha256": {
+      "models/candidate_budget.py": "1d1926e18c23f1f238d2ca519864c2a4cd935e302a3d2b8de66b17b5c3cd0d66",
+      "scripts/estimate_candidate_study.py": "2253fca410b12873f05c3b0f1651f06a475cf96d58588396fc02f358af3e8dae",
+      "tests/test_candidate_budget.py": "ba3efb48d2d3708928f9c29d406cb5a9827a1aa1306bcfd8a3792235190eb056"
+    }
+  },
+  "held_out_pixel_tensors_deserialized": false,
+  "independent_fraction_oracle": {
+    "arithmetic_comparison_absolute_tolerance_usd": 1e-10,
+    "calls_production_workload_or_projection": false,
+    "checks": [
+      "all_eight_runs_and_2580_primary_units",
+      "634_disjoint_panel_wrappers",
+      "pilot_reserve_counted_once",
+      "25_percent_headroom_and_200_160_caps",
+      "same_throughput_break_even_rate"
+    ],
+    "passed": true,
+    "scenarios": [
+      "median",
+      "maximum"
+    ],
+    "uses_explicit_counts_and_exact_rational_arithmetic": true
+  },
+  "kind": "candidate-measured-budget-validation-v1",
+  "no_historical_pins_relaxed": true,
+  "paid_work_started": false,
+  "raw_evidence_directory": "runs/pretrained/diagnostic/candidate-measured-budget-20261028",
+  "read_only_builder_reproducible": true,
+  "report_sha256": "5fec7ee76194f543229b16a008e37a0d0d4978ddcedd81750eb677235bdeb7cf",
+  "research_admitted": false,
+  "scaffold_exit_status": 0,
+  "scaffold_sha256": "d29e3f6a46533c0b65a921dd0b92d0efa2644bac3b80e7d644f321e70f95859f"
+}

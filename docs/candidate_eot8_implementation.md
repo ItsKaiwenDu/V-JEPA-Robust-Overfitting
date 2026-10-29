@@ -74,8 +74,10 @@ verify. Evidence is copied and the Pod was terminated at 10:05 PM PDT. The two
 setup failures, corrected workspace fixtures and explicitly approved unchanged
 provenance-file addition remain documented. See the [completed benchmark review](../report/checks/2026-10-28-candidate-benchmark-verification.md).
 
-Next reconcile the final invoice and rebuild full-study economics using these
-measured EOT8 units, original schedule and budget headroom. The one-clip bundle's
+The [new measured-unit screen](../report/checks/2026-10-28-candidate-measured-budget-review.md)
+preserves the original schedule and headroom but reaches $243.71–249.62 at the
+recorded SE rate, above both caps. Final billing is pending. Next prepare lower-
+cost hardware qualification after reconciling the existing diagnostic allowance. The one-clip bundle's
 2/255 diagnostic choice is not a research calibration. Full ten-clip calibration,
 protocol freeze, policy adoption and research admission remain pending. University
 3070 input-gradient results do not resolve its prior full AdamW memory failure;

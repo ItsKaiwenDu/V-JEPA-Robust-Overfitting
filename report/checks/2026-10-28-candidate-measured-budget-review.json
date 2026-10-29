@@ -1,0 +1,1078 @@
+{
+  "accounting_note": "Native times include clean/main scoring; convergence includes both audits. Wrapper residuals subtract those native times. Ten three-step bundles already contain thirty calibration evaluations and wrappers. State and save spans are disjoint. Nested phase totals and diagnostic recovery comparisons are not charged again.",
+  "budget_approved": false,
+  "cloud_job_started": false,
+  "date_Pacific": "2026-10-28",
+  "economics": {
+    "budget_approved": false,
+    "complete_cost_estimate": false,
+    "full_study_cost_bound_usd": null,
+    "quote_usd_per_hour": 0.74,
+    "research_admitted": false,
+    "research_step_size_255": null,
+    "scenarios": {
+      "maximum": {
+        "arithmetic_within_caps": false,
+        "break_even_all_in_rate_at_same_sample_throughput_usd": 0.55606380345971,
+        "compute_including_full_pilot_reserve_usd": 209.61738079224318,
+        "excess_over_total_cap_usd": 49.61738079224319,
+        "observed_panel_wrapper_extrapolation_hours": 0.9204513689995252,
+        "phases": {
+          "confirmation": {
+            "components": {
+              "adversarial_updates": {
+                "count": 1170,
+                "projected_hours": 10.893214552677819,
+                "seconds_per_unit": 33.51758323900867
+              },
+              "calibration_three_candidate_clip_bundles": {
+                "count": 0,
+                "projected_hours": 0.0,
+                "seconds_per_unit": 645.9092761209467
+              },
+              "checkpoint_state_and_save_boundaries": {
+                "count": 186,
+                "projected_hours": 0.8966020225382333,
+                "seconds_per_unit": 17.353587532998063
+              },
+              "clean_updates": {
+                "count": 1170,
+                "projected_hours": 2.0004524783667876,
+                "seconds_per_unit": 6.155238394974731
+              },
+              "convergence_clips_including_two_audits": {
+                "count": 100,
+                "projected_hours": 14.41250920283427,
+                "seconds_per_unit": 518.8503313020337
+              },
+              "convergence_panel_overhead": {
+                "count": 10,
+                "projected_hours": 0.015234821705315779,
+                "seconds_per_unit": 5.484535813913681
+              },
+              "fgsm_clips": {
+                "count": 100,
+                "projected_hours": 0.12832224708270384,
+                "seconds_per_unit": 4.619600894977339
+              },
+              "fgsm_panel_overhead": {
+                "count": 10,
+                "projected_hours": 0.01389745730557479,
+                "seconds_per_unit": 5.003084630006924
+              },
+              "primary_test_clips": {
+                "count": 600,
+                "projected_hours": 36.24890807183692,
+                "seconds_per_unit": 217.49344843102153
+              },
+              "primary_test_panel_overhead": {
+                "count": 10,
+                "projected_hours": 0.016247860710912696,
+                "seconds_per_unit": 5.84922985592857
+              },
+              "primary_train_validation_clips": {
+                "count": 1460,
+                "projected_hours": 88.20567630813652,
+                "seconds_per_unit": 217.49344843102153
+              },
+              "primary_train_validation_panel_overhead": {
+                "count": 73,
+                "projected_hours": 0.11860938318966267,
+                "seconds_per_unit": 5.84922985592857
+              },
+              "random_clips": {
+                "count": 100,
+                "projected_hours": 0.05166214750109551,
+                "seconds_per_unit": 1.8598373100394383
+              },
+              "random_panel_overhead": {
+                "count": 10,
+                "projected_hours": 0.013502091733324858,
+                "seconds_per_unit": 4.860753023996949
+              },
+              "routine_clips": {
+                "count": 7220,
+                "projected_hours": 7.762663661602549,
+                "seconds_per_unit": 3.870580219081603
+              },
+              "routine_panel_overhead": {
+                "count": 361,
+                "projected_hours": 0.5109768656797758,
+                "seconds_per_unit": 5.095614172983915
+              },
+              "trained_selected_anchor_loads": {
+                "count": 9,
+                "projected_hours": 0.01128896663984051,
+                "seconds_per_unit": 4.515586655936204
+              }
+            },
+            "compute_with_headroom_and_historical_allowance_usd": 154.7522855290757,
+            "historical_untimed_allowance_hours_not_a_bound": 6.0,
+            "timed_unit_extrapolation_hours": 161.2997681395413
+          },
+          "exploration": {
+            "components": {
+              "adversarial_updates": {
+                "count": 390,
+                "projected_hours": 3.6310715175592727,
+                "seconds_per_unit": 33.51758323900867
+              },
+              "calibration_three_candidate_clip_bundles": {
+                "count": 10,
+                "projected_hours": 1.7941924336692965,
+                "seconds_per_unit": 645.9092761209467
+              },
+              "checkpoint_state_and_save_boundaries": {
+                "count": 62,
+                "projected_hours": 0.29886734084607774,
+                "seconds_per_unit": 17.353587532998063
+              },
+              "clean_updates": {
+                "count": 390,
+                "projected_hours": 0.6668174927889292,
+                "seconds_per_unit": 6.155238394974731
+              },
+              "convergence_clips_including_two_audits": {
+                "count": 40,
+                "projected_hours": 5.765003681133708,
+                "seconds_per_unit": 518.8503313020337
+              },
+              "convergence_panel_overhead": {
+                "count": 4,
+                "projected_hours": 0.006093928682126312,
+                "seconds_per_unit": 5.484535813913681
+              },
+              "fgsm_clips": {
+                "count": 40,
+                "projected_hours": 0.05132889883308154,
+                "seconds_per_unit": 4.619600894977339
+              },
+              "fgsm_panel_overhead": {
+                "count": 4,
+                "projected_hours": 0.005558982922229916,
+                "seconds_per_unit": 5.003084630006924
+              },
+              "primary_test_clips": {
+                "count": 0,
+                "projected_hours": 0.0,
+                "seconds_per_unit": 217.49344843102153
+              },
+              "primary_test_panel_overhead": {
+                "count": 0,
+                "projected_hours": 0.0,
+                "seconds_per_unit": 5.84922985592857
+              },
+              "primary_train_validation_clips": {
+                "count": 520,
+                "projected_hours": 31.41572032892533,
+                "seconds_per_unit": 217.49344843102153
+              },
+              "primary_train_validation_panel_overhead": {
+                "count": 26,
+                "projected_hours": 0.042244437848373007,
+                "seconds_per_unit": 5.84922985592857
+              },
+              "random_clips": {
+                "count": 40,
+                "projected_hours": 0.020664859000438202,
+                "seconds_per_unit": 1.8598373100394383
+              },
+              "random_panel_overhead": {
+                "count": 4,
+                "projected_hours": 0.005400836693329944,
+                "seconds_per_unit": 4.860753023996949
+              },
+              "routine_clips": {
+                "count": 2440,
+                "projected_hours": 2.6233932595997533,
+                "seconds_per_unit": 3.870580219081603
+              },
+              "routine_panel_overhead": {
+                "count": 122,
+                "projected_hours": 0.17268470252889934,
+                "seconds_per_unit": 5.095614172983915
+              },
+              "trained_selected_anchor_loads": {
+                "count": 3,
+                "projected_hours": 0.0037629888799468364,
+                "seconds_per_unit": 4.515586655936204
+              }
+            },
+            "compute_with_headroom_and_historical_allowance_usd": 44.86509526316748,
+            "historical_untimed_allowance_hours_not_a_bound": 2.0,
+            "timed_unit_extrapolation_hours": 46.502805689910794
+          }
+        },
+        "primary_native_fraction_of_timed_work": 0.7500884220848235,
+        "primary_only_speedup_needed_at_recorded_rate": 1.5247037835152348,
+        "timed_unit_extrapolation_hours": 207.8025738294521,
+        "total_with_historical_allowance_usd": 249.61738079224318,
+        "total_without_historical_allowance_usd": 242.21738079224318,
+        "uniform_timed_work_speedup_needed_at_recorded_rate": 1.3479479718951135,
+        "with_headroom_and_historical_allowance_hours": 269.75321728681513
+      },
+      "median": {
+        "arithmetic_within_caps": false,
+        "break_even_all_in_rate_at_same_sample_throughput_usd": 0.5730212895631366,
+        "compute_including_full_pilot_reserve_usd": 203.7100802740241,
+        "excess_over_total_cap_usd": 43.71008027402411,
+        "observed_panel_wrapper_extrapolation_hours": 0.8995263945691274,
+        "phases": {
+          "confirmation": {
+            "components": {
+              "adversarial_updates": {
+                "count": 1170,
+                "projected_hours": 10.616974824144563,
+                "seconds_per_unit": 32.66761484352173
+              },
+              "calibration_three_candidate_clip_bundles": {
+                "count": 0,
+                "projected_hours": 0.0,
+                "seconds_per_unit": 645.9092761209467
+              },
+              "checkpoint_state_and_save_boundaries": {
+                "count": 186,
+                "projected_hours": 0.7627492155255944,
+                "seconds_per_unit": 14.762888042430859
+              },
+              "clean_updates": {
+                "count": 1170,
+                "projected_hours": 1.9179159630890354,
+                "seconds_per_unit": 5.901279886427801
+              },
+              "convergence_clips_including_two_audits": {
+                "count": 100,
+                "projected_hours": 14.41250920283427,
+                "seconds_per_unit": 518.8503313020337
+              },
+              "convergence_panel_overhead": {
+                "count": 10,
+                "projected_hours": 0.015234821705315779,
+                "seconds_per_unit": 5.484535813913681
+              },
+              "fgsm_clips": {
+                "count": 100,
+                "projected_hours": 0.12832224708270384,
+                "seconds_per_unit": 4.619600894977339
+              },
+              "fgsm_panel_overhead": {
+                "count": 10,
+                "projected_hours": 0.01389745730557479,
+                "seconds_per_unit": 5.003084630006924
+              },
+              "primary_test_clips": {
+                "count": 600,
+                "projected_hours": 34.92253967616125,
+                "seconds_per_unit": 209.5352380569675
+              },
+              "primary_test_panel_overhead": {
+                "count": 10,
+                "projected_hours": 0.014328138286105564,
+                "seconds_per_unit": 5.158129782998003
+              },
+              "primary_train_validation_clips": {
+                "count": 1460,
+                "projected_hours": 84.97817987865905,
+                "seconds_per_unit": 209.5352380569675
+              },
+              "primary_train_validation_panel_overhead": {
+                "count": 73,
+                "projected_hours": 0.10459540948857061,
+                "seconds_per_unit": 5.158129782998003
+              },
+              "random_clips": {
+                "count": 100,
+                "projected_hours": 0.05166214750109551,
+                "seconds_per_unit": 1.8598373100394383
+              },
+              "random_panel_overhead": {
+                "count": 10,
+                "projected_hours": 0.013502091733324858,
+                "seconds_per_unit": 4.860753023996949
+              },
+              "routine_clips": {
+                "count": 7220,
+                "projected_hours": 7.762663661602549,
+                "seconds_per_unit": 3.870580219081603
+              },
+              "routine_panel_overhead": {
+                "count": 361,
+                "projected_hours": 0.5109768656797758,
+                "seconds_per_unit": 5.095614172983915
+              },
+              "trained_selected_anchor_loads": {
+                "count": 9,
+                "projected_hours": 0.007446701459994074,
+                "seconds_per_unit": 2.9786805839976296
+              }
+            },
+            "compute_with_headroom_and_historical_allowance_usd": 150.06598592958935,
+            "historical_untimed_allowance_hours_not_a_bound": 6.0,
+            "timed_unit_extrapolation_hours": 156.23349830225877
+          },
+          "exploration": {
+            "components": {
+              "adversarial_updates": {
+                "count": 390,
+                "projected_hours": 3.5389916080481876,
+                "seconds_per_unit": 32.66761484352173
+              },
+              "calibration_three_candidate_clip_bundles": {
+                "count": 10,
+                "projected_hours": 1.7941924336692965,
+                "seconds_per_unit": 645.9092761209467
+              },
+              "checkpoint_state_and_save_boundaries": {
+                "count": 62,
+                "projected_hours": 0.25424973850853144,
+                "seconds_per_unit": 14.762888042430859
+              },
+              "clean_updates": {
+                "count": 390,
+                "projected_hours": 0.6393053210296784,
+                "seconds_per_unit": 5.901279886427801
+              },
+              "convergence_clips_including_two_audits": {
+                "count": 40,
+                "projected_hours": 5.765003681133708,
+                "seconds_per_unit": 518.8503313020337
+              },
+              "convergence_panel_overhead": {
+                "count": 4,
+                "projected_hours": 0.006093928682126312,
+                "seconds_per_unit": 5.484535813913681
+              },
+              "fgsm_clips": {
+                "count": 40,
+                "projected_hours": 0.05132889883308154,
+                "seconds_per_unit": 4.619600894977339
+              },
+              "fgsm_panel_overhead": {
+                "count": 4,
+                "projected_hours": 0.005558982922229916,
+                "seconds_per_unit": 5.003084630006924
+              },
+              "primary_test_clips": {
+                "count": 0,
+                "projected_hours": 0.0,
+                "seconds_per_unit": 209.5352380569675
+              },
+              "primary_test_panel_overhead": {
+                "count": 0,
+                "projected_hours": 0.0,
+                "seconds_per_unit": 5.158129782998003
+              },
+              "primary_train_validation_clips": {
+                "count": 520,
+                "projected_hours": 30.266201052673082,
+                "seconds_per_unit": 209.5352380569675
+              },
+              "primary_train_validation_panel_overhead": {
+                "count": 26,
+                "projected_hours": 0.03725315954387447,
+                "seconds_per_unit": 5.158129782998003
+              },
+              "random_clips": {
+                "count": 40,
+                "projected_hours": 0.020664859000438202,
+                "seconds_per_unit": 1.8598373100394383
+              },
+              "random_panel_overhead": {
+                "count": 4,
+                "projected_hours": 0.005400836693329944,
+                "seconds_per_unit": 4.860753023996949
+              },
+              "routine_clips": {
+                "count": 2440,
+                "projected_hours": 2.6233932595997533,
+                "seconds_per_unit": 3.870580219081603
+              },
+              "routine_panel_overhead": {
+                "count": 122,
+                "projected_hours": 0.17268470252889934,
+                "seconds_per_unit": 5.095614172983915
+              },
+              "trained_selected_anchor_loads": {
+                "count": 3,
+                "projected_hours": 0.0024822338199980247,
+                "seconds_per_unit": 2.9786805839976296
+              }
+            },
+            "compute_with_headroom_and_historical_allowance_usd": 43.64409434443475,
+            "historical_untimed_allowance_hours_not_a_bound": 2.0,
+            "timed_unit_extrapolation_hours": 45.18280469668622
+          }
+        },
+        "primary_native_fraction_of_timed_work": 0.745554944518468,
+        "primary_only_speedup_needed_at_recorded_rate": 1.4591668881363902,
+        "timed_unit_extrapolation_hours": 201.41630299894499,
+        "total_with_historical_allowance_usd": 243.7100802740241,
+        "total_without_historical_allowance_usd": 236.3100802740241,
+        "uniform_timed_work_speedup_needed_at_recorded_rate": 1.3065223020618801,
+        "with_headroom_and_historical_allowance_hours": 261.77037874868125
+      }
+    },
+    "unknown_costs": [
+      {
+        "component": "Full-panel loading, source/pixel integrity, decoding and fixed-target caching",
+        "hours": null,
+        "usd": null
+      },
+      {
+        "component": "Full-size panel identity/journal/transfer overhead beyond the measured small-panel wrapper samples",
+        "hours": null,
+        "usd": null
+      },
+      {
+        "component": "Full 100-training-clip features, ridge fit and held-out feature/probe scoring",
+        "hours": null,
+        "usd": null
+      },
+      {
+        "component": "Full-run checkpoint retention, temporary disk peaks, export and verified backup",
+        "hours": null,
+        "usd": null
+      },
+      {
+        "component": "Future billed setup, transfers, idle time, restarts and failed work",
+        "hours": null,
+        "usd": null
+      },
+      {
+        "component": "Stopped storage, taxes and other charges outside the recorded running quote",
+        "hours": null,
+        "usd": null
+      },
+      {
+        "component": "Any additional primary-with-audit control replays required by the eventual frozen research protocol",
+        "hours": null,
+        "usd": null
+      }
+    ],
+    "workload": {
+      "classes": 20,
+      "final_test_checkpoint_upper_bound": 10,
+      "phases": {
+        "confirmation": {
+          "adversarial_updates": 1170,
+          "calibration_three_candidate_clip_bundles": 0,
+          "checkpoint_state_and_save_boundaries": 186,
+          "clean_updates": 1170,
+          "convergence_clips_including_two_audits": 100,
+          "fgsm_clips": 100,
+          "primary_test_clips": 600,
+          "primary_train_validation_clips": 1460,
+          "random_clips": 100,
+          "routine_clips": 7220,
+          "trained_selected_anchor_loads": 9
+        },
+        "exploration": {
+          "adversarial_updates": 390,
+          "calibration_three_candidate_clip_bundles": 10,
+          "checkpoint_state_and_save_boundaries": 62,
+          "clean_updates": 390,
+          "convergence_clips_including_two_audits": 40,
+          "fgsm_clips": 40,
+          "primary_test_clips": 0,
+          "primary_train_validation_clips": 520,
+          "random_clips": 40,
+          "routine_clips": 2440,
+          "trained_selected_anchor_loads": 3
+        }
+      },
+      "runs": 8,
+      "selected_checkpoint_validation_panel_pairs": 14,
+      "selected_representation_upper_bound": 13,
+      "training_clips": 100,
+      "updates_per_run": 390
+    }
+  },
+  "excluded_observation": {
+    "reason": "Not relabeled as an ordinary zero-audit primary clip or assigned an invented additional study count.",
+    "seconds": 211.53942979604471,
+    "unit": "primary with two scoring audits"
+  },
+  "feature_scope": "Two eight-training-clip feature/probe phases passed; full 100-clip/held-out feature/probe costs remain unknown and are not scaled linearly from eight examples.",
+  "financial_status": {
+    "billing_reconciliation_pending": true,
+    "estimate_is_final_invoice": false,
+    "existing_conservative_pilot_encumbrance_usd": 9.22,
+    "existing_hold_released": false,
+    "existing_reservation_released": false,
+    "final_session_charge_usd": null,
+    "inclusive_allowance_usd": "1.75",
+    "kind": "user-confirmed-candidate-benchmark-termination-v1",
+    "new_hold_created": false,
+    "no_new_paid_work": true,
+    "original_deadline_Pacific": "2026-10-28T22:26:00-07:00",
+    "original_deployment_Pacific": "2026-10-28T20:26:00-07:00",
+    "pilot_reserve_added_to_study_once_usd": 10,
+    "pod_name": "vjepa-eot8-benchmark-07",
+    "quoted_running_cost_estimate_usd": "1.221",
+    "quoted_total_hourly_usd": "0.74",
+    "terminated_Pacific": "2026-10-28T22:05:00-07:00",
+    "termination_time_precision": "minute, user reported",
+    "unreserved_diagnostic_envelope_usd": 0.78,
+    "user_confirmation": "Done at 10:05 PM current time."
+  },
+  "kind": "candidate-eot8-measured-unit-budget-screen-v1",
+  "limitations": [
+    "Median and maximum-observed samples are short-run extrapolations, not bounds or confidence intervals.",
+    "The historical two-plus-six-hour allowance and 25% headroom do not measure or bound missing work.",
+    "The one-clip diagnostic step is not ten-clip research calibration; research step remains null.",
+    "Break-even rate/speed conditions hold sample throughput fixed; they are not predictions for other GPUs or current offers.",
+    "Full-panel hashing/journaling can grow with panel size; measured one/three-clip wrapper residuals do not establish full-panel cost.",
+    "No confirmation/test pixel tensors are opened. Their retained evaluation counts are planning metadata only."
+  ],
+  "measurement_units": {
+    "adversarial_updates": [
+      {
+        "field": "/lines/2/seconds",
+        "path": "run/timings/adversarial-finetune-first.jsonl",
+        "seconds": 31.74741512106266
+      },
+      {
+        "field": "/lines/2/seconds",
+        "path": "run/timings/adversarial-finetune-reference.jsonl",
+        "seconds": 31.924102219054475
+      },
+      {
+        "field": "/lines/5/seconds",
+        "path": "run/timings/adversarial-finetune-reference.jsonl",
+        "seconds": 33.41112746798899
+      },
+      {
+        "field": "/lines/4/seconds",
+        "path": "run/timings/adversarial-finetune-resume.jsonl",
+        "seconds": 33.51758323900867
+      }
+    ],
+    "calibration_three_candidate_clip_bundles": [
+      {
+        "field": "/lines/1/seconds",
+        "path": "run/timings/calibration-bundle.jsonl",
+        "seconds": 645.9092761209467
+      }
+    ],
+    "checkpoint.save": [
+      {
+        "field": "/lines/4/seconds",
+        "path": "run/timings/adversarial-finetune-first.jsonl",
+        "seconds": 12.638854729942977
+      },
+      {
+        "field": "/lines/4/seconds",
+        "path": "run/timings/adversarial-finetune-reference.jsonl",
+        "seconds": 13.508949176990427
+      },
+      {
+        "field": "/lines/7/seconds",
+        "path": "run/timings/adversarial-finetune-reference.jsonl",
+        "seconds": 13.148205522913486
+      },
+      {
+        "field": "/lines/6/seconds",
+        "path": "run/timings/adversarial-finetune-resume.jsonl",
+        "seconds": 12.80051868292503
+      },
+      {
+        "field": "/lines/4/seconds",
+        "path": "run/timings/clean-finetune-first.jsonl",
+        "seconds": 15.714425032958388
+      },
+      {
+        "field": "/lines/4/seconds",
+        "path": "run/timings/clean-finetune-reference.jsonl",
+        "seconds": 13.90468844899442
+      },
+      {
+        "field": "/lines/7/seconds",
+        "path": "run/timings/clean-finetune-reference.jsonl",
+        "seconds": 14.48218661500141
+      },
+      {
+        "field": "/lines/6/seconds",
+        "path": "run/timings/clean-finetune-resume.jsonl",
+        "seconds": 13.076471887063235
+      }
+    ],
+    "clean_updates": [
+      {
+        "field": "/lines/2/seconds",
+        "path": "run/timings/clean-finetune-first.jsonl",
+        "seconds": 5.763040059944615
+      },
+      {
+        "field": "/lines/2/seconds",
+        "path": "run/timings/clean-finetune-reference.jsonl",
+        "seconds": 5.743308776058257
+      },
+      {
+        "field": "/lines/5/seconds",
+        "path": "run/timings/clean-finetune-reference.jsonl",
+        "seconds": 6.039519712910987
+      },
+      {
+        "field": "/lines/4/seconds",
+        "path": "run/timings/clean-finetune-resume.jsonl",
+        "seconds": 6.155238394974731
+      }
+    ],
+    "convergence": [
+      {
+        "field": "/payload/records/0/seconds",
+        "path": "run/evaluations/controls-convergence/evaluation.json",
+        "seconds": 518.8503313020337,
+        "step_size_255": 2.0
+      }
+    ],
+    "convergence_panel_overhead": [
+      {
+        "field": "/lines/2/seconds minus native records",
+        "native_evaluation_path": "run/evaluations/controls-convergence/evaluation.json",
+        "path": "run/timings/controls.jsonl",
+        "sample_panel_clips": 1,
+        "seconds": 5.484535813913681
+      }
+    ],
+    "engine.state": [
+      {
+        "field": "/lines/3/seconds",
+        "path": "run/timings/adversarial-finetune-first.jsonl",
+        "seconds": 1.4644444779260084
+      },
+      {
+        "field": "/lines/3/seconds",
+        "path": "run/timings/adversarial-finetune-reference.jsonl",
+        "seconds": 1.5718785719946027
+      },
+      {
+        "field": "/lines/6/seconds",
+        "path": "run/timings/adversarial-finetune-reference.jsonl",
+        "seconds": 0.9760165190091357
+      },
+      {
+        "field": "/lines/5/seconds",
+        "path": "run/timings/adversarial-finetune-resume.jsonl",
+        "seconds": 1.4902956780279055
+      },
+      {
+        "field": "/lines/3/seconds",
+        "path": "run/timings/clean-finetune-first.jsonl",
+        "seconds": 1.3454053540481254
+      },
+      {
+        "field": "/lines/3/seconds",
+        "path": "run/timings/clean-finetune-reference.jsonl",
+        "seconds": 1.6391625000396743
+      },
+      {
+        "field": "/lines/6/seconds",
+        "path": "run/timings/clean-finetune-reference.jsonl",
+        "seconds": 1.0360661689192057
+      },
+      {
+        "field": "/lines/5/seconds",
+        "path": "run/timings/clean-finetune-resume.jsonl",
+        "seconds": 1.4041769070317969
+      }
+    ],
+    "fgsm": [
+      {
+        "field": "/payload/records/0/seconds",
+        "path": "run/evaluations/controls-fgsm/evaluation.json",
+        "seconds": 4.619600894977339,
+        "step_size_255": 2.0
+      }
+    ],
+    "fgsm_panel_overhead": [
+      {
+        "field": "/lines/3/seconds minus native records",
+        "native_evaluation_path": "run/evaluations/controls-fgsm/evaluation.json",
+        "path": "run/timings/controls.jsonl",
+        "sample_panel_clips": 1,
+        "seconds": 5.003084630006924
+      }
+    ],
+    "primary": [
+      {
+        "field": "/payload/records/0/seconds",
+        "path": "run/evaluations/primary-pretrained/evaluation.json",
+        "seconds": 217.49344843102153,
+        "step_size_255": 2.0
+      },
+      {
+        "field": "/payload/records/1/seconds",
+        "path": "run/evaluations/primary-pretrained/evaluation.json",
+        "seconds": 203.59020446508657,
+        "step_size_255": 2.0
+      },
+      {
+        "field": "/payload/records/2/seconds",
+        "path": "run/evaluations/primary-pretrained/evaluation.json",
+        "seconds": 205.0703719719313,
+        "step_size_255": 2.0
+      },
+      {
+        "field": "/payload/records/0/seconds",
+        "path": "run/evaluations/trained-adversarial-finetune/evaluation.json",
+        "seconds": 209.02759106003214,
+        "step_size_255": 2.0
+      },
+      {
+        "field": "/payload/records/0/seconds",
+        "path": "run/evaluations/trained-clean-finetune/evaluation.json",
+        "seconds": 210.30138899292797,
+        "step_size_255": 2.0
+      },
+      {
+        "field": "/payload/records/0/seconds",
+        "path": "run/calibration-diagnostic/step-0p5/evaluation.json",
+        "seconds": 209.75305017794017,
+        "step_size_255": 0.5
+      },
+      {
+        "field": "/payload/records/0/seconds",
+        "path": "run/calibration-diagnostic/step-1p0/evaluation.json",
+        "seconds": 209.74668429302983,
+        "step_size_255": 1.0
+      },
+      {
+        "field": "/payload/records/0/seconds",
+        "path": "run/calibration-diagnostic/step-2p0/evaluation.json",
+        "seconds": 209.32379182090517,
+        "step_size_255": 2.0
+      }
+    ],
+    "primary_panel_overhead": [
+      {
+        "field": "/lines/1/seconds minus native records",
+        "native_evaluation_path": "run/evaluations/primary-pretrained/evaluation.json",
+        "path": "run/timings/primary-pretrained.jsonl",
+        "sample_panel_clips": 3,
+        "seconds": 5.84922985592857
+      },
+      {
+        "field": "/lines/2/seconds minus native records",
+        "native_evaluation_path": "run/evaluations/trained-clean-finetune/evaluation.json",
+        "path": "run/timings/primary-trained.jsonl",
+        "sample_panel_clips": 1,
+        "seconds": 5.158129782998003
+      },
+      {
+        "field": "/lines/4/seconds minus native records",
+        "native_evaluation_path": "run/evaluations/trained-adversarial-finetune/evaluation.json",
+        "path": "run/timings/primary-trained.jsonl",
+        "sample_panel_clips": 1,
+        "seconds": 4.583552866941318
+      }
+    ],
+    "random": [
+      {
+        "field": "/payload/records/0/seconds",
+        "path": "run/evaluations/controls-random/evaluation.json",
+        "seconds": 1.8598373100394383,
+        "step_size_255": 2.0
+      }
+    ],
+    "random_panel_overhead": [
+      {
+        "field": "/lines/4/seconds minus native records",
+        "native_evaluation_path": "run/evaluations/controls-random/evaluation.json",
+        "path": "run/timings/controls.jsonl",
+        "sample_panel_clips": 1,
+        "seconds": 4.860753023996949
+      }
+    ],
+    "routine": [
+      {
+        "field": "/payload/records/0/seconds",
+        "path": "run/evaluations/routine-pretrained/evaluation.json",
+        "seconds": 3.870580219081603,
+        "step_size_255": 1.0
+      }
+    ],
+    "routine_panel_overhead": [
+      {
+        "field": "/lines/2/seconds minus native records",
+        "native_evaluation_path": "run/evaluations/routine-pretrained/evaluation.json",
+        "path": "run/timings/primary-pretrained.jsonl",
+        "sample_panel_clips": 1,
+        "seconds": 5.095614172983915
+      }
+    ],
+    "trained_selected_anchor_loads": [
+      {
+        "field": "/lines/1/seconds",
+        "path": "run/timings/features-trained.jsonl",
+        "seconds": 4.515586655936204
+      },
+      {
+        "field": "/lines/1/seconds",
+        "path": "run/timings/primary-trained.jsonl",
+        "seconds": 2.9786805839976296
+      },
+      {
+        "field": "/lines/3/seconds",
+        "path": "run/timings/primary-trained.jsonl",
+        "seconds": 2.9589565669884905
+      }
+    ]
+  },
+  "native_sample_note": "Eight primary records: three pretrained, two two-update trained anchors and three one-clip calibration candidates. Repeated clips/steps are technical samples, not eight independent videos.",
+  "new_paid_compute_authorized": false,
+  "protocol_or_YAML_changed": false,
+  "quote": {
+    "as_of": "user-approved October 28 session",
+    "gpu": "NVIDIA RTX PRO 4500 Blackwell Server Edition",
+    "new_live_quote_checked": false,
+    "running_disks_included": true,
+    "usd_per_hour": "0.74"
+  },
+  "research_admitted": false,
+  "source_sha256": {
+    "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "configs/budget_study_plan.yaml": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+    "configs/research_attack_candidate_v1.json": "1d4901b2893b6cbf35e11e3ca12b59927c8b15a1662b85abedca439520009051",
+    "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+    "data/manifests/ucf101-split1-v1/test.csv": "6de73dbcff7c31dc27b8e447cbd5eb75afa4f876a059e25b59c645d384418028",
+    "data/manifests/ucf101-split1-v1/train.csv": "3b1c271a114a880358e107adf4385a1367bb224901ee47a867dec0c5b68cc212",
+    "data/manifests/ucf101-split1-v1/validation.csv": "5c38b15f3c3935a7cb00ff418a4a4544453307b5007c2c342499f9899a0bf65c",
+    "data/manifests/ucf101-staged-20x5-v1/confirmation_validation.csv": "b01d1f3c12e782d5c2b96658af5f2e8c7f11a6222adb3a8d9ff116540c984f42",
+    "data/manifests/ucf101-staged-20x5-v1/exploration_validation.csv": "627b1ea5333155dee80c05d93d9fde2ea8b9fcbfd53d50b961f39173a0480893",
+    "data/manifests/ucf101-staged-20x5-v1/metadata.json": "0f27d2a7d498faa8cb4f22d0ac5c50c3058d26823c4f4977f9b26cbfc0adf61d",
+    "data/manifests/ucf101-staged-20x5-v1/test.csv": "af35f29cfaf398890dca2ae87199c2b5b61ae3a412ddc3a6c23873bf5f546a65",
+    "data/manifests/ucf101-staged-20x5-v1/train.csv": "7932d78759873053f39a0bf7ef3240c58e7f2498216a0d5343c1207d029dedcc",
+    "data/manifests/ucf101-staged-20x5-v1/train_monitor.csv": "d56275b86cc3b5d2866c9e9d5d53362c17dda36c69bccb6553c4d53b32d1559d",
+    "datasets/prepared.py": "531dcb4e4e69e3a59890e020940a6a8d0459d47100154730eabc6d267c5e2bb5",
+    "datasets/staged_files.py": "02771aaa232daaad287e74a96bc152b3d7c5c5c4ffff542c8574bd9faf36b2a8",
+    "datasets/staged_preparation.py": "45631fbfcea87ca44c9b18f0147c81f461468b6e929818377ac70f8e4204b5dc",
+    "datasets/staged_subset.py": "29803ffa6142922135a4ae45b85c5933fd199398b301f8ae4b502b6235d9ff8e",
+    "datasets/video.py": "04f337169dc3f29b51b25752f570a82bd21df1c8b07e0a3b0e28eb39282afa17",
+    "models/calibration.py": "bd3ec55ca45f9788f08fb1f5342454adf86aedb20db3ba6169dfe02ecf6e92f6",
+    "models/candidate_benchmark.py": "51b9f386db7e3d03d800d5d95fcc5446b40522a0173bc4128d8410d7ea8bb4fc",
+    "models/candidate_budget.py": "1d1926e18c23f1f238d2ca519864c2a4cd935e302a3d2b8de66b17b5c3cd0d66",
+    "models/candidate_calibration.py": "3ba87a8654a7519ce0c5e456c57ddbd67260e65dde4c6f9aaf6b6e8c632b77b4",
+    "models/candidate_contract.py": "13f664f7146eb4816cbaf9fde15d1b6e572db0949e22c319eb2420d23c1e4572",
+    "models/candidate_evaluation.py": "26510d6bd5557421fc10bcdc28dd4b5c553b69c3a9914a3cd80457d5bc746a30",
+    "models/candidate_evaluation_checkpoint.py": "8eae4da49de6e227b62ce2448a063a91890e14216c9839f17e2df391bc608ec0",
+    "models/candidate_evaluation_store.py": "0e26b399c6cc7bb2ff5400842185f284ae31275632e5a54dab6e2ae095b85179",
+    "models/candidate_features.py": "e52195fa0f39962767c47c727117e4d4988d63a4426c5e86a7909012fc13e619",
+    "models/candidate_schedule.py": "5e7b4cd10531fffaa81d091f04d205edf0010528c0458688ef6e640a3f984bf3",
+    "models/checkpointing.py": "edc5940bc73db42c89b3494be9b0f2098680762f4fa972305f51abe47c3d8373",
+    "models/cuda_convolution.py": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3",
+    "models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+    "models/diagnostics.py": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0",
+    "models/evaluation.py": "1431951d158b57b615208006edb5365a6bad910b2a14e0aa782a1c6f82034089",
+    "models/evaluation_checkpoint.py": "c07c5e401be62b76f4bf834b2828c11995302360ce46bdfbfe5146f7c7eb153a",
+    "models/evaluation_store.py": "9503834d106b788c1638b4a57d886259e2cf6f6be5069b18a1105e8beac48ee1",
+    "models/execution.py": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba",
+    "models/features.py": "c87fb63f46f6b20b700c1b675de1095c6563cbca01f9141073b1122ef3f87c3a",
+    "models/fixture_state.py": "4f1d891a26caf35a9c42f802e84f650e2e0c7dc0857369794bfef65e54c487d2",
+    "models/gradient_attribution.py": "f8bd9d39dd41c61ffadd8ac882d08a36bb2513a948047632a789c8d0900414d3",
+    "models/measured_budget.py": "d1e683a37ab70a5a35631d4fb96f76ea764bdea49053b53abd00472d427e158f",
+    "models/native_diagnostic.py": "c56b29496397d5516416a884ab591ec6de43e0fc4dca1bc05536234e10ea75d9",
+    "models/native_patch.py": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7",
+    "models/native_probe.py": "10dd9afd62615106aa298c1970278dcd9f203979c8006bc150ecbdc0228db762",
+    "models/patch_embed.py": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec",
+    "models/pilot.py": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82",
+    "models/pilot_bundle.py": "d25f0e1f085bb7addcfc855986c7bf984765990cb473be9d5315f5399696a9db",
+    "models/pilot_measurement.py": "3361cd01dc4b23f64e749df877988ecbfe4dfda18ee5d9305c5f25ea33322753",
+    "models/precision_diagnostic.py": "c096e38bf53c4cdc0273a74f3fd0e4be0c1fc197925a71cfa9d633d192bb7d00",
+    "models/precision_patch.py": "30e8a6b28b8f082fd771aaeab5a70a73cf200714ef2b24416a55938f61e9c550",
+    "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+    "models/schedule.py": "d46be0eb89a82a62be392ae20320646590adba83bd6ec6bbb42c6e3849f9dfd8",
+    "models/study_artifacts.py": "c9ace85300c4efcc62e14bf60a89a4c22415497ea8a5ee5f8e3f12230ac8fcad",
+    "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+    "models/workflow_diagnostic.py": "481978b59318c28975af4f609440a45cd815f681b4ddb6371d37394dc1e047b2",
+    "models/workflow_pilot.py": "40224083b112dac750ea4c93c523c7c9ec93a32dcb679ec2de03e1cc1891cd31",
+    "models/workflow_preflight.py": "7d382d8e3b80c7ce0f667610bdb909518624c29958b9ab70595228a5adaa46db",
+    "report/checks/2026-10-19-runpod-5090-attacks.json": "6c3f0e29b5bf68bb184142f00fea2f2e28c5f7997fc4632eaa2d1fcf738f830b",
+    "report/checks/2026-10-19-runpod-5090-pilot.json": "f45778c76a69ab9f526799009d8018d450e0ec389480f8d0da5e055e79cae736",
+    "report/checks/2026-10-20-staged-study-projection.json": "5b627a338b74b5f7750f91682ce846ad4fbe73552061b6b40f0112b651d9de13",
+    "report/checks/2026-10-28-candidate-benchmark-verification.json": "cf4494c16578832a009782b51bae3fd4b4a257ec3bfd995d6e7ffb6b106db604",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/evidence-source-overlay.tar.gz": "b8e0becc17b69678fd673c08e976580fb440425f0ae69d2fd4cf4e9ee7a27e0b",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/evidence-source-overlay.tar.gz.manifest.json": "559d35f66baf574ba8392868093182e8eceac771faff11746f05c9bc881248b6",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/package-manifest.json": "788574998d9741e5e0fd8d5d77279bf4ee7509b952322e30f601dad472550cf4",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run-incomplete/logs/preflight.log": "7c4ac0738925c8812a0e16c435596653e260799f4c1fa47aeaca86b15d140a6c",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run-incomplete/session.json": "d07efadee46330c8bbda8cd1588ebbcfadf13c4b40e29178d1d9618111624774",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run-incomplete/timings/preflight.jsonl": "bd98e3e0e4a92c99d8e92941f0c41d0e764f8128de38005539799013d8395362",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/adversarial-finetune/reference/manifest.json": "c4efd68e491b554ff26a920dfa17dbe31f5e7145e2065b3750091deae8a33328",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/adversarial-finetune/split/manifest.json": "b73690acb2cc9e58577a83fa19665ea9e2892892ac593d114a09b7b870a778f3",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/calibration-diagnostic/calibration.json": "9791d20be24ba63d99626aff6c73d20de32cbc9bb7e416a9bf41cf9ac6df6715",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/calibration-diagnostic/step-0p5/evaluation.json": "ceb79583b62f17b593d1a4c87903e953161cadcde78e1ecf7a9b5a745e060e1e",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/calibration-diagnostic/step-1p0/evaluation.json": "663fe6d6c14799f4e7b879ab133d8b48046fb24d1dff5619c90e1d4d1b88bca5",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/calibration-diagnostic/step-2p0/evaluation.json": "c2226683301626a798b54721e75972dfd0176d419ee42dcf6f8323a23bb0a7b4",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/clean-finetune/reference/manifest.json": "7cc28d84924e8a09d51ae6cdd163e179a6c050412ee0dffa28154e0425beac97",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/clean-finetune/split/manifest.json": "2034e34796beb0b3fd3ab780081cd9a0683e1294fa4d6b1337344f2e8ab6e04b",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/evaluations/controls-convergence/evaluation.json": "d33f4c0b41b032fc82fd764f960c467efa465f146cf2351c661fdb826c20e8e7",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/evaluations/controls-fgsm/evaluation.json": "5a5e4e99bdbe76e2c00549b0c2d4a0390460479b48aabd86643d6aa510c6e7ae",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/evaluations/controls-primary/evaluation.json": "cabdb2f94f9c66f95e30a2577c5303c42bae21c3930f0a945f930df0e252d965",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/evaluations/controls-random/evaluation.json": "c1273be938ebfd546fd6426538af01471bba35a807cac43c0b54528cad264863",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/evaluations/primary-pretrained/evaluation.json": "746225929c37efc0cb246980ed40ee1c1cbf159115738454252a69973b22e878",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/evaluations/routine-pretrained/evaluation.json": "c5be789270c8e1cef0a60118bb5531bb64423d96ead4fa68da3630e02c3a6787",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/evaluations/trained-adversarial-finetune/evaluation.json": "504496ab0403d074620757cf5000a68a593cac4b00c93daabb67c724147a7c3c",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/evaluations/trained-clean-finetune/evaluation.json": "d1510178b5d27305a132cd1855b432b23cc6c5e52f2741484db13ef645e5f86a",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/logs/adversarial-finetune-first.log": "2116fe4faf90ac600602f9e2ac6344e49187febd2a12f42c478c4a9175a2d8cf",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/logs/adversarial-finetune-reference.log": "2116fe4faf90ac600602f9e2ac6344e49187febd2a12f42c478c4a9175a2d8cf",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/logs/adversarial-finetune-resume.log": "2116fe4faf90ac600602f9e2ac6344e49187febd2a12f42c478c4a9175a2d8cf",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/logs/calibration-bundle.log": "3706da47ece6e0cd5ed7dca058a4bda8aa548d26252150572967eee6ee5ea2ab",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/logs/clean-finetune-first.log": "2116fe4faf90ac600602f9e2ac6344e49187febd2a12f42c478c4a9175a2d8cf",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/logs/clean-finetune-reference.log": "2116fe4faf90ac600602f9e2ac6344e49187febd2a12f42c478c4a9175a2d8cf",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/logs/clean-finetune-resume.log": "2116fe4faf90ac600602f9e2ac6344e49187febd2a12f42c478c4a9175a2d8cf",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/logs/controls.log": "775c71c37c99010961a36c2afb6e9657cb74e70051a39d66b6961f3c9ec3259a",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/logs/features-initial.log": "2116fe4faf90ac600602f9e2ac6344e49187febd2a12f42c478c4a9175a2d8cf",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/logs/features-trained.log": "2116fe4faf90ac600602f9e2ac6344e49187febd2a12f42c478c4a9175a2d8cf",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/logs/preflight.log": "2116fe4faf90ac600602f9e2ac6344e49187febd2a12f42c478c4a9175a2d8cf",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/logs/primary-pretrained.log": "775c71c37c99010961a36c2afb6e9657cb74e70051a39d66b6961f3c9ec3259a",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/logs/primary-trained.log": "ce85d51b229a8cfa451e87d58cc6112f1176a294560a106d91061ed95242696f",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/phase-results/adversarial-finetune-first.json": "e5ff7456cde54a575e167949313b0403ce21133df1db71d4301dcd80ffeb4d12",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/phase-results/adversarial-finetune-reference.json": "d54ae5db487b156946640f632ff8cedbd0d02dcfa3f42ed09104a57e035a5077",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/phase-results/adversarial-finetune-resume.json": "6a4c355e1985baa8194f43ff94987a78150c231843e53e8f9e6fb7d619587d50",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/phase-results/calibration-bundle.json": "762d1c59328999cd0543b84341e374a8d8d949e0d29a9430e5ba3fd28baf5ff8",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/phase-results/clean-finetune-first.json": "b2a9b728ebccfdbe05356efb526cf21af20a899e647f66eafeaf220a6f79d1e8",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/phase-results/clean-finetune-reference.json": "4b2e226a64f914502cab05005ab4d81ed8f54a43b0f9f59d161645d6015a349d",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/phase-results/clean-finetune-resume.json": "a6e31cd4edf035a17ed27543a4a1d4aa626672c8e29a106d2edb898c3c36ac98",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/phase-results/controls.json": "efd10e241ee4f20d4124ce1be8eb69ed02696f52726a2ebfa17c1f15a23334c1",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/phase-results/features-initial.json": "37983c2163a1c0ddba75e3d9c3e5913794e3c7968070b4aeaa5945e4201bb422",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/phase-results/features-trained.json": "0e8e6ecd866805291691b341b2087ed51f4e071963c8ab2f37782882fdfbaf0b",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/phase-results/preflight.json": "d8659bc4158945533a60a3d112636a5353e3461cf8cf86e64c2ab3c2b208eb38",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/phase-results/primary-pretrained.json": "e56f30da28073ff3c6fedb6f38d73e89d0b62cbf9ea4958269c812d6901cdd7c",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/phase-results/primary-trained.json": "a3dca27c931498c69fa1e96e02302514f7d23fe62e78ca427602b3ccfe68826a",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/preflight/clip-0-cudnn.pt": "3708124ed64bc223754d0315984d640ba32b78f51da37d4ace42673f9499c99f",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/preflight/clip-0-native.pt": "2a50547dd546f9e538505224ac135731a11e66113d2b7ee04efeb7df1892e283",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/preflight/clip-4-cudnn.pt": "4bd1f92b65539406ae5fad2123fe88afd346a0d43d26c5a0547e8efc11adc27b",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/preflight/clip-4-native.pt": "8ae7250c3fc46fd96f46ef17667ea182d3494f160213689beb9b10514a4a0e20",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/preflight/clip-7-cudnn.pt": "3cf611fabb1e4b9a8e09169fb19294df7eebb48dbb30401f9dff20a5bc203e08",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/preflight/clip-7-native.pt": "ef153b2281187b1545ec032020aacb87804d3fba60aa4942f920bc3325297df5",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/preflight/preflight.json": "ead245412a8cb4bd7ae174813c0bf70d8c433b567a9f663b45d1c83375817609",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/recovery-adversarial-finetune.json": "3cca193ad7d4e23ae1fff225899e11ba65921b1da1d9d69c17fc8c3b0a1b0db0",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/recovery-clean-finetune.json": "0d5d7271e18fa2cde7cf81fb577fef13bc88d99e6ce81f249d51a1feab7839c8",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/session.json": "cf4d4b56ca6c4a7e6e0f9d9656e43bdbdc044d029d1bd7242dff5b85be3292a9",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/timings/adversarial-finetune-first.jsonl": "6c3ff1db296ef585d508c1297c90e7c3f95dae01904f00dd0e69f0a76cb9fade",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/timings/adversarial-finetune-reference.jsonl": "0ff537b32ae175f4559018bc2162fabdac6724b8d56ae8368f4d8c34ffa7ea7b",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/timings/adversarial-finetune-resume.jsonl": "0aa7596be082c9603dc8e8d0e609256a9f4099fb03a5afff9b1767ab0a85a035",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/timings/calibration-bundle.jsonl": "974435f38fb99a62c4ae3a605d117b203192729caf8c928e64c198e2878ab413",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/timings/clean-finetune-first.jsonl": "ad48cf18478d4ee9730ff5589bb24416f0b46e28e8fff97134b759cbe3321b4e",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/timings/clean-finetune-reference.jsonl": "53b52085a5a895edc2cf34414ebbbf7f1f3e44706431a7d0e10416ec711f8e2b",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/timings/clean-finetune-resume.jsonl": "a4ab9526caf90d246b1c20bbff0ca972b16b1d20d26cbae308067cd0bea52d2e",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/timings/controls.jsonl": "2940799fdc63b123b5b3c1d22f97f1e1465d69add9cf5a2192711e22165f425d",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/timings/features-initial.jsonl": "900a40269e29ca5799eb508a867a39eb7b34f53b06a56e91715225b0eaad84ec",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/timings/features-trained.jsonl": "1fb191dea7a2d00641fc44210b87ef4086d50ed7b37fbcfd99cab5792f2977f4",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/timings/preflight.jsonl": "d8e90a168c1ea13829631d5507275a17a0a745e95d82fe58bd3cb82826a0fc79",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/timings/primary-pretrained.jsonl": "8300a7d5a7f996c21e776c7ffc17f4854f611f1e1feca10c99965f1f45d7a349",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/run/timings/primary-trained.jsonl": "c8c3ef1d00ccbf321b925b1a85075818cef8dd3500446b7f1aa19701a2d430c5",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/CPU-combined-coverage.json": "888f228240458917671fd7328334a7a410f596644e79f164ac1175b15604a1fc",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/benchmark-after-CPU-workspace-fix.log": "c5015c483ac6edd5066ba63f9b68f297f264b18cdbebcf74b92ef4f63e7b7354",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/benchmark-source-overlay.log": "501886f7f74afc46e1a726a4c307b23d8cdf9be515cdf81b086b3a4e35fa39b9",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/budget-envelope.json": "4d6a475ac178ecc8ec786041ecf8cf325b01f47112da9dc076adc85502789ec7",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/checkpoint-download.log": "089e22e0728bebab3dd0a6bfea82428b9fb3e318ba30e9100508dbeafd4cdc59",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/checkpoint-verification.json": "6e30420dd84879658c5f7b2060fb3be1187fa1d93807262dc7f14605a1db5472",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/continuation-claim.json": "7fa055dd7037ed358bb0964eec07eb2b7dba33b62dba3151b5b63f588ffd58ec",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/continuation-state.json": "f78c3356f1110cd62b6112f5918f47b00b9864a16b9bc2262ac0913746f5fc13",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/cpu-fixtures.log": "d4698aeead5868c3da6a65b033a215fe55d0f0447c1b9228d83084beab753150",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/cpu-fixtures.xml": "d8bf69451fbb6e0166e3f5b9bcda5ebf59ff374e20dd3e1ab3b54146f95f4e6c",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/cpu-parent-fixtures-workspace.log": "462ba6bb08297798251f4e7de46789cf093abdbe77a98160418cc7bb37bacef2",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/cpu-parent-fixtures-workspace.xml": "cb42a2acaecbd976440409add7a3b334af1888bd24bfd6c6a5ed5091a6af0cfb",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/dependencies.log": "bd6bfe8f766af62454a5e86dbaec84af45677e4e1c0b1a9f1c320797edd3b1cc",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/launch-claim.json": "c4fee55ffd7651367a48cc51ea8da49b4ce3de87d40bf4574ae9605b88682434",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/launch.json": "32da6e4fe86a52b4015fef22704144a85bc69b9c5f276f2c75bc52bea7960b83",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/launcher-state.json": "ec61b669fd2752e9864ce4a0d6f1b0b63c8a67064a30fc14bf4b9999436dc371",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/restore.log": "dc8036e3a1504a8f834ee8cace9fb9887508be9a6513ea7fb9e40dc7379aac2a",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/source-overlay-claim.json": "6e96b545ee5ccc4881b19c175dc66c48f1b15ec2dfe32e0c02309e6ce9fcfb21",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/source-overlay-state.json": "a7d9b4f009f54625b082ed8fde1bd51be722b620188e375e0571e66ecb8bd7cb",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/source-overlay.json": "031a7fbd15a67ec4603cc4e43b326b6bed261e86544915419e89375db0173480",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/venv.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/vjepa-eot8-07-continue.py": "809f8a531a1e29244248bd78763e862355c6d5df897f6c8c3823b4b51800985c",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/vjepa-eot8-07-driver.py": "63fb651ec28a6dd961e2a92deef314143c557b1a13bb62b21e04d5a404687ded",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/setup/vjepa-eot8-07-source-overlay.py": "f2d0cf06a48db58e3bfb014e46a84109cbcb953945c93259f177e9d9fd3daefc",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/attacks/__init__.py": "41a090d550527278b09bfb62fbed810805b379151b7a5ab7cb5469bc12ee01cb",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/configs/budget_study_plan.yaml": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/configs/research_attack_candidate_v1.json": "1d4901b2893b6cbf35e11e3ca12b59927c8b15a1662b85abedca439520009051",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/data/manifests/ucf101-split1-v1/metadata.json": "096f45a0476a25bdb0a2b424dfe4813a33e7784cbd1867ec4a22a3402e4115a9",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/data/manifests/ucf101-split1-v1/test.csv": "6de73dbcff7c31dc27b8e447cbd5eb75afa4f876a059e25b59c645d384418028",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/data/manifests/ucf101-split1-v1/train.csv": "3b1c271a114a880358e107adf4385a1367bb224901ee47a867dec0c5b68cc212",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/data/manifests/ucf101-split1-v1/validation.csv": "5c38b15f3c3935a7cb00ff418a4a4544453307b5007c2c342499f9899a0bf65c",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/data/manifests/ucf101-staged-20x5-v1/confirmation_validation.csv": "b01d1f3c12e782d5c2b96658af5f2e8c7f11a6222adb3a8d9ff116540c984f42",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/data/manifests/ucf101-staged-20x5-v1/exploration_validation.csv": "627b1ea5333155dee80c05d93d9fde2ea8b9fcbfd53d50b961f39173a0480893",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/data/manifests/ucf101-staged-20x5-v1/metadata.json": "0f27d2a7d498faa8cb4f22d0ac5c50c3058d26823c4f4977f9b26cbfc0adf61d",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/data/manifests/ucf101-staged-20x5-v1/test.csv": "af35f29cfaf398890dca2ae87199c2b5b61ae3a412ddc3a6c23873bf5f546a65",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/data/manifests/ucf101-staged-20x5-v1/train.csv": "7932d78759873053f39a0bf7ef3240c58e7f2498216a0d5343c1207d029dedcc",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/data/manifests/ucf101-staged-20x5-v1/train_monitor.csv": "d56275b86cc3b5d2866c9e9d5d53362c17dda36c69bccb6553c4d53b32d1559d",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/datasets/__init__.py": "d81c61d6627e4e28075736950978c3cca23843d93fb213454458bd32f5357cf1",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/datasets/prepared.py": "531dcb4e4e69e3a59890e020940a6a8d0459d47100154730eabc6d267c5e2bb5",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/datasets/staged_files.py": "02771aaa232daaad287e74a96bc152b3d7c5c5c4ffff542c8574bd9faf36b2a8",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/datasets/staged_preparation.py": "45631fbfcea87ca44c9b18f0147c81f461468b6e929818377ac70f8e4204b5dc",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/datasets/staged_subset.py": "29803ffa6142922135a4ae45b85c5933fd199398b301f8ae4b502b6235d9ff8e",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/datasets/video.py": "04f337169dc3f29b51b25752f570a82bd21df1c8b07e0a3b0e28eb39282afa17",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/__init__.py": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/calibration.py": "bd3ec55ca45f9788f08fb1f5342454adf86aedb20db3ba6169dfe02ecf6e92f6",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/candidate_benchmark.py": "51b9f386db7e3d03d800d5d95fcc5446b40522a0173bc4128d8410d7ea8bb4fc",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/candidate_calibration.py": "3ba87a8654a7519ce0c5e456c57ddbd67260e65dde4c6f9aaf6b6e8c632b77b4",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/candidate_contract.py": "13f664f7146eb4816cbaf9fde15d1b6e572db0949e22c319eb2420d23c1e4572",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/candidate_evaluation.py": "26510d6bd5557421fc10bcdc28dd4b5c553b69c3a9914a3cd80457d5bc746a30",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/candidate_evaluation_checkpoint.py": "8eae4da49de6e227b62ce2448a063a91890e14216c9839f17e2df391bc608ec0",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/candidate_evaluation_store.py": "0e26b399c6cc7bb2ff5400842185f284ae31275632e5a54dab6e2ae095b85179",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/candidate_features.py": "e52195fa0f39962767c47c727117e4d4988d63a4426c5e86a7909012fc13e619",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/candidate_schedule.py": "5e7b4cd10531fffaa81d091f04d205edf0010528c0458688ef6e640a3f984bf3",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/checkpointing.py": "edc5940bc73db42c89b3494be9b0f2098680762f4fa972305f51abe47c3d8373",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/cuda_convolution.py": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/cuda_profile.py": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/diagnostics.py": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/evaluation.py": "1431951d158b57b615208006edb5365a6bad910b2a14e0aa782a1c6f82034089",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/evaluation_checkpoint.py": "c07c5e401be62b76f4bf834b2828c11995302360ce46bdfbfe5146f7c7eb153a",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/evaluation_store.py": "9503834d106b788c1638b4a57d886259e2cf6f6be5069b18a1105e8beac48ee1",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/execution.py": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/features.py": "c87fb63f46f6b20b700c1b675de1095c6563cbca01f9141073b1122ef3f87c3a",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/fixture_state.py": "4f1d891a26caf35a9c42f802e84f650e2e0c7dc0857369794bfef65e54c487d2",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/gradient_attribution.py": "f8bd9d39dd41c61ffadd8ac882d08a36bb2513a948047632a789c8d0900414d3",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/native_diagnostic.py": "c56b29496397d5516416a884ab591ec6de43e0fc4dca1bc05536234e10ea75d9",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/native_patch.py": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/native_probe.py": "10dd9afd62615106aa298c1970278dcd9f203979c8006bc150ecbdc0228db762",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/patch_embed.py": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/pilot.py": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/pilot_bundle.py": "d25f0e1f085bb7addcfc855986c7bf984765990cb473be9d5315f5399696a9db",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/pilot_measurement.py": "3361cd01dc4b23f64e749df877988ecbfe4dfda18ee5d9305c5f25ea33322753",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/precision_diagnostic.py": "c096e38bf53c4cdc0273a74f3fd0e4be0c1fc197925a71cfa9d633d192bb7d00",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/precision_patch.py": "30e8a6b28b8f082fd771aaeab5a70a73cf200714ef2b24416a55938f61e9c550",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/schedule.py": "d46be0eb89a82a62be392ae20320646590adba83bd6ec6bbb42c6e3849f9dfd8",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/study_artifacts.py": "c9ace85300c4efcc62e14bf60a89a4c22415497ea8a5ee5f8e3f12230ac8fcad",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/workflow_diagnostic.py": "481978b59318c28975af4f609440a45cd815f681b4ddb6371d37394dc1e047b2",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/workflow_pilot.py": "40224083b112dac750ea4c93c523c7c9ec93a32dcb679ec2de03e1cc1891cd31",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/models/workflow_preflight.py": "7d382d8e3b80c7ce0f667610bdb909518624c29958b9ab70595228a5adaa46db",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/report/checks/2026-10-19-runpod-5090-attacks.json": "6c3f0e29b5bf68bb184142f00fea2f2e28c5f7997fc4632eaa2d1fcf738f830b",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/report/checks/2026-10-19-runpod-5090-pilot.json": "f45778c76a69ab9f526799009d8018d450e0ec389480f8d0da5e055e79cae736",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/report/checks/2026-10-20-staged-study-projection.json": "5b627a338b74b5f7750f91682ce846ad4fbe73552061b6b40f0112b651d9de13",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/scripts/check_workflow.py": "d8f16fe58200fba9a34f1cb9892ddb48eecc836473b594ba6d2464b8c08c36c7",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/scripts/estimate_staged_study.py": "e58bc7932baf943b90a7fc049d0a8a55ce1780f00720deda4f52eb57165c0057",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/scripts/prepare_candidate_benchmark.py": "2960d957caa658527e670947812d29969a136526f6c22305a5181265a749eceb",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/scripts/run_candidate_benchmark.py": "125e4fbc440594c1a3286363450b226cf444c610b8df1b7464cac31ccc522572",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/scripts/run_workflow_pilot.py": "b8f05ffcd9ac738ad10a4088c949c4a80f8fa002bb082f354e657ed89c5e7761",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/tests/conftest.py": "c67f087884483b38dc117ffa8cff6206c225afbce9bb53c0bf2e3986cd8ed2b5",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/tests/test_calibration.py": "b00384f41f7a76fe0bbffa2ab647ad246e294bbd319d2bdd178b54ba7761d92a",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/tests/test_candidate_benchmark.py": "53a8bbfac1e3a66dd80cb6dc3339ec2d8a02a1c5553affb92cc171e4268be28c",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/tests/test_candidate_evaluation.py": "ab6cd2658b6d55fa705e3de39ec31ed19ef0bac424a4fd83d610e17e4f41c53c",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/tests/test_candidate_schedule.py": "75d16122f2e6d5c2e259fdfed5e11eac1e37e997b7b25dcedbcea79f0793f60e",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/tests/test_evaluation.py": "62c6849e3af13e9581454c636f7d72aa295f936a5805eb4591d7afc547935892",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/tests/test_schedule.py": "e4c7441418f863efa25df5e9e774e0adf7dcffe8ec1db67ba454fca4588b93fd",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/tests/test_training.py": "7088b0bd0a7a50ca0028bce9bd29416f850a1563f1bf243b4b0e24c06749f07e",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/extracted/source/tests/test_vjepa2.py": "fffe419ce795fda23633cdc9bf6162b05cd06b43037bed089acb568d9ebdd08b",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/independent-copy-verification.json": "6cf8d270c7a9d01e916b8bae7727c5a74554da8fda91e1b3da7674843cc6709b",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/independent-review.py": "1dc9ec328d06791d7592893ba2c54634513329597bea7ce158b0f5fb34dd43d1",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/completed-download-20261028-ka6hqnu0/independent-scientific-review.json": "133e744636551bf711f7159e97f960bab55d6ba21c8e2b924630c240b3b76e60",
+    "runs/pretrained/diagnostic/candidate-eot8-session-20261028/termination-confirmation.json": "676ff23653cc42337ee88944f233411f86f0d3939ec5ddf224cf92dc8d06b5f4",
+    "scripts/estimate_candidate_study.py": "2253fca410b12873f05c3b0f1651f06a475cf96d58588396fc02f358af3e8dae",
+    "scripts/estimate_staged_study.py": "e58bc7932baf943b90a7fc049d0a8a55ce1780f00720deda4f52eb57165c0057",
+    "scripts/prepare_candidate_benchmark.py": "2960d957caa658527e670947812d29969a136526f6c22305a5181265a749eceb",
+    "scripts/run_candidate_benchmark.py": "125e4fbc440594c1a3286363450b226cf444c610b8df1b7464cac31ccc522572",
+    "scripts/run_workflow_pilot.py": "b8f05ffcd9ac738ad10a4088c949c4a80f8fa002bb082f354e657ed89c5e7761",
+    "tests/test_candidate_budget.py": "ba3efb48d2d3708928f9c29d406cb5a9827a1aa1306bcfd8a3792235190eb056"
+  },
+  "tensor_deserialization_performed": false
+}

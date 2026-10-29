@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Measured EOT8 cost screen reviewed (October 28):**
+[The retained full design screens at $243.71–249.62](report/checks/2026-10-28-candidate-measured-budget-review.md)
+at the recorded SE rate, above the $200/$160 project/compute caps. All 32 focused
+accounting/provenance tests and independent arithmetic pass. Missing costs remain
+unknown; no research calibration or trajectory is admitted. Next reconcile billing
+and prepare lower-cost hardware qualification while keeping the 20-class design.
+Earlier benchmark and preparation entries below describe their historical stage.
+
 **EOT8 hardware benchmark verified (October 28):**
 [All 13 diagnostic phases completed](report/checks/2026-10-28-candidate-benchmark-verification.md)
 on RTX PRO 4500 SE, including exact clean/adversarial two-update recovery.
