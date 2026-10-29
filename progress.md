@@ -1,5 +1,91 @@
 # Research Progress Reports
 
+## 2026-10-28 — One bounded RTX PRO 4500 SE session approved
+
+The user accepts one SE benchmark at the confirmed $0.74/hour quote, with 30 GB
+container and 80 GB workspace volume. Record a two-hour/$1.75 inclusive limit
+from actual deployment and reserve $1.75 inside the existing pilot envelope.
+Conservative encumbrance becomes $9.22, preserving the old hold and invoice gap;
+$0.78 remains unreserved. Deployment, host fingerprint and actual hardware
+identity are pending, so the operational plan stays false-authorized/null-clock.
+The existing public key is present but not loaded in the SSH agent; load locally
+before deployment. No remote/GPU work ran. Full calibration/training stay gated.
+[Authorization and budget](report/checks/2026-10-28-candidate-benchmark-authorization.md).
+
+## 2026-10-28 — Current hardware quotes and conservative pilot envelope reviewed
+
+A5000 availability expired. Prefer a bounded RTX PRO4500 SE benchmark from the
+current list: user-confirmed total $0.74/hour, 30 GB container/80 GB volume,
+advertised 32 GB VRAM/94 GB RAM. A40 total is $0.61/hour, but its old four-draw
+projection already exceeded $200. SE speed/recovery/full-study economics remain
+unknown; its higher rate requires about 21% greater throughput to break even.
+Two hours cost $1.48 versus $1.22. A proposed inclusive two-hour/$1.75 envelope
+fits the unchanged pilot reserve while preserving the historical old hold and
+invoice gap; no new hold or launch is created. Balance remains $8.90, so no
+recharge is needed for this proposal. Actual authorization, clocks and hardware
+identity are pending; the draft remains false-authorized. [Quote review](report/checks/2026-10-28-candidate-hardware-quote-review.md).
+
+## 2026-10-28 — Opt-in EOT8 path and portable benchmark prepared
+
+Added separate candidate evaluation, journal, calibration, scheduled-training,
+anchor and feature consumers. The canonical four-draw evaluator, study YAML,
+training PGD5, complete diagnostic panel and old rejection evidence are unchanged.
+Matched PGD20/PGD50 uses eight fixed attack draws and common starts, with independent
+main scoring and separate audits. All 200 declared calibration mask seeds match.
+Artifacts bind 61 source/metadata inputs and exact runtime; CUDA additionally binds
+physical GPU UUID/driver. Old artifacts and changed contracts are rejected.
+
+The final training-only offline packet has 75 source files and the verified
+original 100-clip archive/wheels/upstream bundle. A first metadata dependency
+omission was found before any model/GPU work and corrected. The final worker
+also has an independent fatal deadline; loss of SSH/parent cannot reset its time.
+The parent stays CPU-only. Setup/idle count from deployment, and the $10 pilot
+reserve remains inside the $160 compute/$200 total caps. The runner cannot stop
+cloud billing. No old allowance or recovery grant is reused.
+
+All 77 extracted candidate checks pass, including real tiny CPU attacks, scheduled
+barriers, both fresh-process exact optimizer recoveries and legacy artifact refusal.
+Scaffold and independent byte/seed/source audits pass. Mocked parent dispatch is
+only a control-flow fixture, not GPU evidence. Original training-cache bytes were
+packaged and metadata checked; no pretrained weights or real pixel tensors loaded.
+No cloud connection, GPU work, payment, held-out access or research launch occurred.
+
+Next get current sufficient-memory lower-cost hardware quotes and reconcile a
+fresh deployment-inclusive budget before launch. The one-clip bundle is diagnostic;
+full 30-evaluation research calibration and research trajectories remain gated
+until chosen-runtime and economic qualification. Step choice and full new cost
+remain null. [Implementation and limits](docs/candidate_eot8_implementation.md).
+
+## 2026-10-28 — Explicit EOT8 research candidate and feasibility packet prepared
+
+Propose20steps/R2/EOT8/score4 primary with matched50steps/R2/EOT8stronger control
+and two audits, following complete-panel draw sensitivity. No automatic arm
+choice/convergence pass or adopted study setting. Oldprimary4guard unchanged.
+The candidate fixes the original ten calibration rows,200new actual-modulus
+mask draws and all30candidate0.5/1/2 evaluations, main-independent mean/smaller
+exact-tie rule, no audit selection, shared masks/starts and fresh adversaries.
+Step choice remainsnull and exact chosen-runtime calibration is required.
+
+RTX5090 bounded clean/adversarial two-update exact recovery remains accepted;
+A40 exact resume was not tested, and university8GBfull AdamW qualification is
+unresolved. Do not transfer recovery or calibration evidence between devices.
+Keep20classes/100clips/eight runs/schedule/training PGD5 and bothbudgetcaps.
+
+The historicalA40screen221.56–224.01is reproduced. Missing EOT8 primary and
+three-step bundle units/currentquote/candidatetotal staynull. Conditional
+all-other-A40-units ceilings at historical0.61are149–152s/primaryclipevenwith
+freecalibration, belowold4draw190s. These are optimistic necessary conditions,
+not forecasts/quotes/zero-costcalibration/admission. No speedup or RTX3070unit
+transfer credited. All23focusedtests0fail/error/skip, scaffold and independent
+8-rowFraction budget audit pass.13sourcepins protected. Rawproof+seeds saved.
+
+Next implement/test opt-in versioned EOT8 evaluation/calibration/artifact identity
+and a bounded whole-workload hardware benchmark before asking for quotes or
+deployment. Only after hardware/economic qualification run full30-evaluation
+calibration on the chosen runtime, freeze protocol and review admission. No
+new GPU job, grant/hold, pixel/checkpoint read, heldout access or research run.
+User commits separately. [Decision packet](report/checks/2026-10-28-research-candidate-review.md).
+
 ## 2026-10-28 — Complete-panel descriptive analysis verified
 
 The new read-only loader combines the20original registered case identities and

@@ -1,0 +1,146 @@
+{
+  "CPU_fixture_environment": {
+    "architecture": "arm64",
+    "numpy": "2.4.6",
+    "python": "3.11.16",
+    "torch": "2.14.1"
+  },
+  "GPU_template_runtime_boundary": "PyTorch 2.8.0 shared-fp64-native, not qualified by local CPU fixtures",
+  "benchmark_required_phases": [
+    "preflight",
+    "calibration-bundle",
+    "primary-pretrained",
+    "clean-finetune/first",
+    "clean-finetune/resume",
+    "clean-finetune/reference",
+    "adversarial-finetune/first",
+    "adversarial-finetune/resume",
+    "adversarial-finetune/reference",
+    "primary-trained",
+    "controls",
+    "features-initial",
+    "features-trained"
+  ],
+  "calibration_mask_draws_verified": 200,
+  "candidate_binding_sha256": "f418050bb82c2423b45403c2bf12b17fd888200473f2d0d0a02313bdd3f85d72",
+  "candidate_implementation": "separate opt-in bounded diagnostic path; legacy evaluator/calibration/study unchanged",
+  "candidate_proposal_sha256": "dc0dba86c92f027296678918b3b8fe1ed6795bace094acde0f0a22c027bf9304",
+  "candidate_source_pins": 61,
+  "caps": {
+    "noncompute_reserve_USD": 40,
+    "pilot_USD_counted_once_within_compute": 10,
+    "planned_compute_USD": 160,
+    "runtime_headroom_factor": 1.25,
+    "total_USD": 200
+  },
+  "container_GB": 30,
+  "date_Pacific": "2026-10-28",
+  "earlier_packets": [
+    {
+      "approved": false,
+      "directory": "runs/pretrained/diagnostic/candidate-eot8-handoff-20261028",
+      "reason": "Metadata audit found missing staged-proposal dependency chain before any model work."
+    },
+    {
+      "approved": false,
+      "directory": "runs/pretrained/diagnostic/candidate-eot8-handoff-v2-20261028",
+      "reason": "Corrected metadata packet passed 76 extracted tests, then superseded by final independent worker alarm."
+    }
+  ],
+  "final_packet": {
+    "SSH_keys_included": false,
+    "archives": {
+      "source": {
+        "bytes": 214198,
+        "sha256": "da79b25b0b64f3988545c698b4728aee9f12b240945d5240953aa98cdeb9a756"
+      },
+      "training": {
+        "bytes": 781576353,
+        "sha256": "0afaf2257094f5cee1cd464e3ea065dea3b90aeab91203e89a37ad514edd72e2"
+      },
+      "wheels": {
+        "bytes": 28225989,
+        "sha256": "a76b5acff4a709b63badca7b67966681069c85b0743492766f0368d615a4e766"
+      }
+    },
+    "checkpoint_embedded": false,
+    "checkpoint_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+    "confirmation_or_test_pixel_files": 0,
+    "dependency_wheels_reused_from_verified_frozen_handoff": true,
+    "directory": "runs/pretrained/diagnostic/candidate-eot8-handoff-v3-20261028",
+    "manifest_sha256": "788574998d9741e5e0fd8d5d77279bf4ee7509b952322e30f601dad472550cf4",
+    "restoration_and_metadata_constructor_checks_passed": true,
+    "training_pixel_files": 100,
+    "upstream_bundle_sha256": "be402e349761940e6cb0217cdbfdf83915e5ab5bd110ed61563bd0ca3e423c11",
+    "upstream_commit": "204698b45b3712590f06245fbfba32d3be539812"
+  },
+  "full_calibration_executor_enabled": false,
+  "full_ten_clip_research_calibration_executed": false,
+  "held_out_pixels_opened": false,
+  "implemented": [
+    "explicit EOT8 settings with matched primary/stronger-control seeds and starts",
+    "independent main scoring and separate audits; attack-bank-only perturbation selection",
+    "atomic per-clip journal and strict artifact/profile/source/runtime validation",
+    "training-only diagnostic calibration with exact smaller-step ties and pinned candidate files",
+    "scheduled barriers, complete primary anchor selection, initialization and earliest ties",
+    "candidate anchor/features/optimizer refusal before learned tensor loading",
+    "CUDA artifacts bound to GPU model, UUID and driver",
+    "portable training-only benchmark handoff and reviewed-launch/ledger gates",
+    "CPU-only parent, deployment-inclusive group timeout and independent fatal worker alarm"
+  ],
+  "independent_packet_seed_and_immutable_source_audit_passed": true,
+  "kind": "candidate-eot8-offline-implementation-validation-v1",
+  "launch_deadline_includes_setup_and_idle": true,
+  "minimum_free_after_inputs_GiB": 55,
+  "minimum_usable_system_RAM_GiB": 40,
+  "new_GPU_execution": false,
+  "new_MPS_execution": false,
+  "new_budget_hold_created": false,
+  "new_paid_launch_authorized": false,
+  "new_pretrained_weights_loaded": false,
+  "new_real_pixel_tensors_loaded": false,
+  "new_remote_connection": false,
+  "next_step": "Get current lower-cost sufficient-memory hardware quotes and current reconciled ledger; review a new deployment-inclusive allowance before any deployment. Qualify matching numerical/recovery/runtime/economics before full thirty-evaluation research calibration.",
+  "old_case_windows_or_recovery_grants_reused": false,
+  "parent_can_stop_cloud_billing": false,
+  "project_complete": false,
+  "proposed_max_billed_hours": 2,
+  "raw_evidence": "runs/pretrained/diagnostic/candidate-eot8-validation-20261028",
+  "research_admitted": false,
+  "research_policy_adopted": false,
+  "research_trajectories_enabled": false,
+  "scaffold_certifies_GPU_training": false,
+  "scaffold_passed": true,
+  "source_files_in_final_packet": 75,
+  "synthetic_CPU_model_execution": true,
+  "unchanged_HEAD_inputs_verified": 51,
+  "unknowns": {
+    "complete_study_cost_usd": null,
+    "current_total_hourly_usd": null,
+    "deployment_unix": null,
+    "gpu": null,
+    "inclusive_session_budget_usd": null,
+    "new_hardware_exact_recovery_pass": null,
+    "primary_seconds": null,
+    "research_primary_step_255": null,
+    "three_candidate_bundle_seconds": null
+  },
+  "validation": {
+    "final-extracted": {
+      "errors": 0,
+      "failures": 0,
+      "seconds": 116.747,
+      "skipped": 0,
+      "tests": 77
+    },
+    "proposal-regression": {
+      "errors": 0,
+      "failures": 0,
+      "seconds": 0.523,
+      "skipped": 0,
+      "tests": 23
+    }
+  },
+  "volume_GB": 80,
+  "volume_mount": "/workspace"
+}

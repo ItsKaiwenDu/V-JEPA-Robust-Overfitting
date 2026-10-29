@@ -1,0 +1,21 @@
+{
+  "budget_approved": false,
+  "candidate_config_sha256": "1d4901b2893b6cbf35e11e3ca12b59927c8b15a1662b85abedca439520009051",
+  "candidate_sha256": "dc0dba86c92f027296678918b3b8fe1ed6795bace094acde0f0a22c027bf9304",
+  "existing_research_settings_unchanged": true,
+  "implementation_or_GPU_handoff_prepared": false,
+  "independent_conditional_budget_rows_verified": 8,
+  "raw_validation_index_path": "runs/pretrained/diagnostic/research-candidate-review-20261028/validation-index.json",
+  "raw_validation_index_sha256": "f630799067504d521e3037305d1cd03843fe5277b03ff3de726f44dac013f173",
+  "report_sha256": "00b0be262d6a4d77a54b0864133d081ae26c501be0ff7566bc8dbc923c5495ed",
+  "research_admitted": false,
+  "research_policy_adopted": false,
+  "scaffold_passed": true,
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 23
+  },
+  "verified": true
+}

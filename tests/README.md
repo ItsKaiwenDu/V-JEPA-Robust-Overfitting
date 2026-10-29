@@ -1,5 +1,24 @@
 # Scientific acceptance tests
 
+The three `test_candidate_*` files add 77 focused EOT8 checks. The full final
+extracted packet passes with zero failures, errors or skips: explicit eight-draw
+strength and legacy rejection; exact proposal seeds; real CPU attack replay and
+scoring independence; calibration integrity and tie rules; atomic resume and
+scheduled barriers; legacy anchor/features/optimizer refusal; hardware-runtime
+binding; fresh-process clean/adversarial recovery; budget/deadline gates; and an
+actual fatal worker-alarm subprocess check. Parent dispatch mocks are explicit
+fixtures and qualify no GPU. Scaffold and an independent byte/seed/source audit
+also pass. [Current implementation](../docs/candidate_eot8_implementation.md).
+Earlier test-status entries below describe their original checkpoints.
+
+`test_research_attack_candidate.py` adds23 metadata/planning checks: preserved
+20-class study and no-launch scope, exact seed serialization and200new masks,
+collision rejection, full30-evaluation calibration, no audit selection or runtime
+portability, retained old primary guard, null new timings/cost, and conditional
+budget ceilings independently checked with fractions. All23pass with zero skips;
+scaffold and separate eight-row arithmetic audit pass. No candidate numerical
+evaluator or GPU qualification is claimed. [Proposal](../docs/research_attack_candidate.md).
+
 `test_registered_panel_analysis.py` adds41 focused checks for the read-only
 20-case loader and frozen descriptive analysis: exact-rational contrast oracle,
 separate scoring banks, undefined zero-denominator relative gaps, incomplete

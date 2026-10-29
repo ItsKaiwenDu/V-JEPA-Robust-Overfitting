@@ -1,0 +1,94 @@
+{
+  "GPU_deployed_by_assistant": false,
+  "alternative_quote": {
+    "VRAM_GB": 48,
+    "console_label": "A40",
+    "displayed_available_CUDA_versions": "13.2",
+    "snapshot_system_RAM_GB": 43,
+    "total_hourly_usd": "0.61",
+    "vCPU": 9
+  },
+  "budget": {
+    "balance_sufficient_for_this_proposed_benchmark": true,
+    "conservative_prior_encumbrance_usd": "7.47",
+    "invoice_gap_not_declared_resolved": true,
+    "new_hold_created": false,
+    "old_hold_preserved": true,
+    "pilot_reserve_remaining_if_proposal_accepted_usd": "0.78",
+    "pilot_reserve_total_usd": "10.00",
+    "planned_compute_cap_usd": 160,
+    "project_cap_usd": 200,
+    "proposed_new_session_maximum_usd": "1.75",
+    "proposed_total_encumbrance_usd": "9.22",
+    "topup_needed_for_this_proposal": false,
+    "two_hour_deployment_inclusive_maximum": true,
+    "unchanged_by_recharge_statement": true,
+    "wallet_implied_past_usage_provisional_usd": "6.10",
+    "wallet_usd": "8.90"
+  },
+  "budget_ledger_draft": "runs/pretrained/diagnostic/candidate-hardware-review-20261028/budget-envelope.review.json",
+  "confirmed_quote": {
+    "console_label": "RTX PRO 4500 SE",
+    "container_GB": 30,
+    "snapshot_VRAM_GB": 32,
+    "snapshot_system_RAM_GB": 94,
+    "source": "User reply to quote-only question",
+    "system_RAM_usable_on_host_not_yet_verified": true,
+    "total_hourly_usd": "0.74",
+    "volume_GB": 80,
+    "volume_mount": "/workspace"
+  },
+  "date_Pacific": "2026-10-28",
+  "economics": {
+    "A40_budget_suitability_not_established": true,
+    "SE_break_even_throughput_relative_to_A40": "74/61",
+    "SE_break_even_wall_time_relative_to_A40": "61/74",
+    "historical_A40_four_draw_screen_usd": [
+      "221.55543280812782",
+      "224.01071414326162"
+    ],
+    "historical_screen_source": "report/checks/2026-10-23-offline-a40-review.json",
+    "new_EOT8_runtime_and_full_study_cost_unknown": true,
+    "speedup_measured": false,
+    "two_hour_A40_quote_cost_usd": "1.22",
+    "two_hour_SE_quote_cost_usd": "1.48",
+    "two_hour_difference_usd": "0.26"
+  },
+  "kind": "candidate-hardware-quote-and-budget-review-v1",
+  "launch_draft": "runs/pretrained/diagnostic/candidate-hardware-review-20261028/launch.review-draft.json",
+  "new_GPU_launch_authorized": false,
+  "new_calibration_step_chosen": false,
+  "new_remote_connection": false,
+  "next_step": "Recommend the RTX PRO4500 SE bounded benchmark under a new two-hour/$1.75 envelope. Actual deployment authorization, deployment time, host fingerprint, GPU identity and startup resource checks remain pending; never run this false-authorized draft.",
+  "offline_financial_gate_simulation_passed": true,
+  "physical_gpu_reasoning": {
+    "A40_RAM_margin_is_small_and_needs_actual_host_check": true,
+    "A40_advertised_system_RAM_GiB_if_decimal_GB": "40.046870708465576171875",
+    "SE_is_new_unmeasured_candidate_not_qualified_faster": true,
+    "SE_meets_advertised_capacity_gate": true,
+    "official_SE_specification": "https://www.nvidia.com/en-us/data-center/rtx-pro-4500-blackwell-server-edition/"
+  },
+  "previous_quotes": {
+    "RTX_3090_usd_per_hour": "0.52",
+    "RTX_A5000_usd_per_hour": "0.29",
+    "availability_not_reused": "A5000 no longer available per user; 3090 absent from later available-list screenshots."
+  },
+  "recommendation_conditional_on_still_available_and_exact_host_preflight": true,
+  "recommended_next_benchmark_candidate": "RTX PRO 4500 SE",
+  "research_admitted": false,
+  "screenshot_evidence": [
+    {
+      "attachment_name": "Screenshot 2026-10-28 at 8.09.53\u202fPM.png",
+      "relative_path": "runs/pretrained/diagnostic/candidate-hardware-review-20261028/available-1.png",
+      "saved_locally": true,
+      "sha256": "20ccdd771407fd3985a21976f98a8f852246cf658053a3c63d75e1fdb431cfb2"
+    },
+    {
+      "attachment_name": "Screenshot 2026-10-28 at 8.10.01\u202fPM.png",
+      "relative_path": "runs/pretrained/diagnostic/candidate-hardware-review-20261028/available-2.png",
+      "saved_locally": true,
+      "sha256": "e12eb53805074f7b253f97f0c677fd8a3c2687d34676a5a346c29f445a3178b1"
+    }
+  ],
+  "synthetic_clock_used_only_in_memory": true
+}

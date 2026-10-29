@@ -1,5 +1,22 @@
 # V-JEPA Robust Overfitting
 
+**Opt-in EOT8 diagnostic path and offline benchmark prepared (October 28):**
+[The separate candidate implementation](docs/candidate_eot8_implementation.md)
+passes 77 focused checks from a fresh handoff extraction. Legacy four-draw code
+and study settings remain unchanged. The packet includes strict artifact checks,
+fresh-process recovery tests and deployment-inclusive worker deadlines. GPU
+qualification, the research step size and complete cost remain unknown. Next
+check lower-cost hardware quotes and reconcile the launch allowance; no Pod is
+authorized or launched by this work. Earlier preparation entries below are historical.
+
+**Research attack candidate prepared (October28):**
+[The offline proposal](docs/research_attack_candidate.md) recommends qualifying
+PGD20/R2/EOT8 primary evaluation with a matched PGD50/R2/EOT8 stronger control.
+All23 focused checks, scaffold and independent budget arithmetic pass. The30-
+evaluation training-only calibration is specified but unrun. New timing units
+and total cost remain unknown; existing study settings and caps are unchanged.
+Next implement/test the opt-in path and prepare a bounded hardware benchmark.
+
 **Complete diagnostic panel analyzed (October28):**
 [The frozen comparisons and independent arithmetic audit pass](report/checks/2026-10-28-complete-panel-analysis.md).
 All20 registered cases and ten technical pairs reverify, with739 unchanged input

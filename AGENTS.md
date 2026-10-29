@@ -2,6 +2,125 @@
 
 ## Current stage
 
+LATEST October 28: USER APPROVES ONE PRO4500 SE BENCHMARK; DEPLOYMENT PENDING.
+Read report/checks/2026-10-28-candidate-benchmark-authorization.json/md.
+Use vjepa-eot8-benchmark-07,1xRTX PRO4500 SE,confirmed.74 TOTAL/hour,30GBcontainer,
+80GB/workspace volume,originalPyTorch2.8.0/CUDA12.8 template. User deploys.
+Authorization persists for this single benchmark under TWO HOURS/$1.75 inclusive
+from actual deployment (setup/uploads/downloads/idle count). Do not ask same
+resource permission again. New internal1.75hold created; oldinclusivehold/gap
+remain. Priorencumbrance7.47 excludes THISsession;totalincludingit9.22,remaining
+unreservedpilot.78. Do not doublecountsession orpilot10; caps200/160 unchanged.
+Rawcandidate-benchmark-authorization-20261028 has ledger+predeploymentplan.
+Plan remains authorizedFALSE until actual clock/host/GPU/resource binding.
+No deployment time/SSH endpoint/host fingerprint/GPUuuid known yet; no connection
+or GPU work started. Existing Runpodpublickeyn8zBRUB... verified; SSH agentempty.
+User must ssh-add existing id_ed25519_runpod locally before deploy (passphrase
+stayslocal). Receive exposedTCPSSH+Pacificdeploymenttime+webterminalED25519
+publichostfingerprint; verify beforeconnect/upload. No privatekeycontents.
+Final v3packet/manifest78857499... unchanged,77extracted+23proposal checks PASS.
+Actualhost must meet40GiB RAM/55GiBfree/one fullGPU>=22GiB beforeboundedrunner.
+Manualtermination needed toendbilling. No fullresearchcalibration/training/
+admission approved. User requested commitMESSAGE only; no gitstage/commit/push.
+Earlier no-deployment-authorization notes are historical as of this message.
+
+LATEST October 28: HARDWARE QUOTES REVIEWED; NO DEPLOYMENT AUTHORIZED.
+Read report/checks/2026-10-28-candidate-hardware-quote-review.json/md.
+A5000 .29 and3090 .52 earlier quotes no longer current availability. Screenshot
+shows PRO4500 SE32GB VRAM/94GB RAM, user confirms .74 TOTAL/hour30GBcontainer+
+80GBworkspace volume. A40 .61 TOTAL/hour48GB VRAM/43GB RAM/9vCPU also quoted.
+Prefer one bounded SE benchmark to obtain new performance/recovery evidence;
+A40 old4draw screen221.56–224.01already above200. No newGPU speedup assumed.
+SE must deliver74/61throughput ofA40 tobreak even.2billedh SE1.48 vsA401.22.
+Proposed session envelope2h/$1.75, not a created hold or launch permission.
+Wallet8.90 implies provisional6.10 from15credit (no actual topup reported).
+Conservative prior encumbrance remains5.47+oldinclusive2=7.47; DO NOT add6.10
+again orrelease oldhold/gap. Proposed new1.75 would leave.78withinpilot10,
+not countpilotagain outsidecompute160/project200. No recharge needed forthis
+proposal; recharge ability doesnot increasecaps. Budget envelope conservatively
+reconciled; invoice fullyreconciled FALSE. Draft budget+launch underrawcandidate-
+hardware-review-20261028, actual plan authorizedFALSE/nullclocks/nullGPUuuid.
+Financial gate only simulated in memory; no remote/GPU/deployment/admission.
+Next recommend SE with reviewed2h/$1.75 bounds, then establish actual deployment
+permission/time/fingerprint/GPUidentity and >=40GiB usableRAM/>=55GiB free/
+Torch2.8.0 before source-bound benchmark. Never run draft or recycleoldclock.
+The final scientific packet v3 remains unchanged. User commits self.
+
+LATEST October 28: OPT-IN EOT8 DIAGNOSTIC PATH AND BENCHMARK PACKET VERIFIED.
+Read docs/candidate_eot8_implementation.md and report/checks/2026-10-28-candidate-
+eot8-implementation.json/md. Separate candidate_* modules preserve all historical
+code and study YAML. Explicit primary20/R2/EOT8/score4 and matched50/R2/EOT8
+banks/starts; 200 proposal mask seeds match. Atomic evaluation, calibration,
+scheduled barriers, anchors/features/state provenance reject legacy artifacts.
+61 source/metadata pins; CUDA artifacts bind GPU UUID and driver in addition to
+runtime. Full research calibration executor and trajectories remain gated.
+77 final-extracted CPU checks, scaffold and independent byte/seed/source audit
+pass. Tiny synthetic CPU recovery is not GPU qualification. No real pixel tensor,
+pretrained weights, GPU, remote or paid work ran. First packet metadata omission
+was caught and corrected before model work; preserve all earlier packet evidence.
+FINAL packet: runs/pretrained/diagnostic/candidate-eot8-handoff-v3-20261028.
+75 source files, original training-only100 archive/wheels/upstream, no keys or
+held-out pixels. Checkpoint is a pinned setup input, not embedded. Runner requires
+new reviewed quote/launch/ledger, 30GB container/80GB workspace volume, >=40GiB
+usable system RAM and >=55GiB free after inputs. Deployment/setup/idle count
+inside the proposed two-hour limit; deployment deadline and dollar allowance
+remain unset.
+Parent CPU-only; process-group and independent fatal worker deadlines; manual
+termination still required for billing. No reused old80-minute/recovery grants.
+Next get lower-cost sufficient-memory quotes and current ledger, prepare reviewed
+inclusive launch allowance before deployment; no GPU launch authorized yet.
+Only after hardware/economics qualify run the original30 research calibration
+units on chosen runtime. Step size/current quote/new timing/full cost stay null;
+$10pilot once inside $160compute/$200total caps, $40noncompute/headroom retained.
+Do not transfer 3070 input-only or old5090/A40 recovery scope to this path.
+User commits self; no git add/commit/push. Earlier implementation-pending notes
+are historical. No scientific protocol adoption or research admission occurred.
+
+LATEST October28: RESEARCH EOT8 CANDIDATE PROPOSAL VERIFIED; NO ADOPTION/LAUNCH.
+Read docs/research_attack_candidate.md and report/checks/2026-10-28-research-candidate-
+review.md/JSON+validationJSON. Usercommittedcompletepanelanalysis, cleanstart.
+Newresearch_attack_candidate.py+builder+23tests;candidateconfigresearch_attack_
+candidate_v1.json canonicaldc0dba86c92f027296678918b3b8fe1ed6795bace094acde0f0a22c027bf9304.
+ProposedPGD20/R2/EOT8/score4epsilon4,stepnull;matched50/R2/EOT8control+2audits.
+Notautomaticlargestarmchoice/notconvergence/notadopted/notrunnable. Current
+EvaluationSettings primary4guard rejects8; models/evaluation.py+calibration.py
+andstudy/budgetYAML unchanged. Newexplicitversionedopt-inpath REQUIRED next,
+reject old4drawcalibration/caches/anchors/evaluations bynewcontractstrength/
+source/runtime. Preserve20classes/100training/eight30epochruns/390updates and
+originaltrainingPGD5step1, originalseed0thenconditional11/22/33 schedules/splits.
+Candidatecalibrationoriginalfirst10monitorrows/30evaluations0.5/1/2,200unique
+actualmod31maskseeds newresearch_candidate_eot8_v1namespace, paneloverlap0,
+commonweights/runtime/masks/bothstarts acrosscandidates,mainindependentmean/
+smallerexacttie,auditsneverselect. Chosenstepnull; panelstep2notcalibration.
+Same8attackbank/startsfixedprimary/control, freshadversariespercheckpoint.
+CalibrateonCHOSENRESEARCHRUNTIMEonly afterhardware/economicqualification;
+doNOTtransfer3070calibrationtoA40/newGPU orrunexpensive30calibrationfirst.
+ReconciledRTX5090oldboundednative2updateexactclean/adv5351entries PASS; A40
+updates/preflight/timingsPASSbutexactresumenotchecked;3070inputpanelPASSbut
+old8GBAdamWOOMnotresolved. No blanket recoveryfailure norhardwaretransfer.
+HistoricalA40fourdraw221.56–224.01reproduced. Proposedp(EOT8primaryseconds)
+andc(three-stepbundleperclip)UNKNOWNnull; candidateTotal/currentquotenull.
+ConditionalT=F+(2580p+10c)/3600,F79.487median/81.598maxhistoricalotherA40hours,
+partialtotal50+1.25rate*(8+T). Bothcaps200total/160compute preservepilot10once,
+noncompute40/headroom25%/8hourNOTBOUND. Hypotheticalpricegrid29/40/50/61cents,
+all-otherA40unitsheldONLYalgebra,noGPUperformanceprediction. c=0optimistic
+necessarypceil atold0.61=149.47–152.42s,old4draw189.55–191.10s;positivecalib/
+unknowncoststighten. No ratio-scaling/doubledunits/3070timing/PGD50-as20credit.
+23tests0failure/error/skip+scaffoldPASS+independent8-rowFractionauditPASS,
+13sourcepins;rawresearch-candidate-review-20261028 validation-index/source/proof.
+docs/decisions appendexplicitPROPOSALonly. No GPU/remote/model/pixels/weights/
+newhold/grant/paidlaunch. Proposed2billedhourbenchmarklimit is NOTauthorization;
+dollarallowance/deploymentdeadlinequote/budget mustfixaftertestedpacket.
+NEXT implement/test explicit opt-in candidateEOT8settings and matchedseeds/
+calibration+artifactconsumers/oldartifact rejection, keepcanonical4andoldfailure
+evidenceimmutable. Then preparetestedbounded hardware benchmark with unchanged
+numericalpreflight,both2updateexactrecoveries,newEOT8primary pretrained/trained
+units,one3stepbundle,matchingstrongercontrols,stateIO/memory/disk. No deploy/
+quoterequestuntilpacketreviewable. Nofullcalibration untilchosenhardware and
+economics qualify. No old80min/recoverygrantreuse. Usercommits self,noGitcommit.
+Earlier no-candidate/analysis-next entries HISTORICAL.
+
+
 LATEST October28: COMPLETE20-CASE DIAGNOSTIC ANALYSIS VERIFIED; RESEARCH NOTADMITTED.
 Read report/checks/2026-10-28-complete-panel-analysis.md/JSON and docs/registered_panel_analysis.md.
 User committed priorregistrationwork; actual20registered receiptdd1644...,

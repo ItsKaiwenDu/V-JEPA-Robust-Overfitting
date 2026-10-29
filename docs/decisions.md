@@ -581,3 +581,46 @@ run only Tennis bank1 and Floor bank0, one case/GPU, under their original
 80-minute limits. Review both exports independently before later dispatch.
 Preserve all historical failures, budgets and scientific settings. See
 [two-host operator guide](two_host_panel.md).
+
+## 2026-10-28 — Propose eight-draw primary evaluation; measure feasibility before calibration
+
+The complete20-case/10-clip matched panel shows positive independent-scoring
+gains from four to eight attack draws on every clip in all three scoring banks.
+Propose PGD20/R2/EOT8/score4 as the next primary candidate, retaining a matched
+PGD50/R2/EOT8 stronger control and audit banks. This is a reviewed proposal,
+not protocol adoption; current evaluator/calibration guards and study/proposal
+YAML remain unchanged. No strength threshold or convergence pass is introduced.
+
+Preserve the staged20-class/100-clip/eight-run design and original training
+PGD5/step1/255. Specify all30training-only0.5/1/2step calibration evaluations
+on the original first ten monitor rows, shared candidates and new pinned masks;
+main independent mean chooses the step with smaller exact ties. Audit/validation/
+test scores do not choose it, and no step or other-GPU calibration is adopted.
+
+Reconcile accepted RTX5090 bounded exact recovery, untested A40 exact resume,
+and the unresolved8GB full-optimizer qualification separately. New EOT8 primary
+and calibration timing units remain null. Keep both$200/$160caps and the full
+workload; do not invent a mask-ratio speedup, transfer university timings, or
+price a new profile with old four-draw units. Conditional ceilings are necessary
+conditions with explicit optimistic calibration-free algebra, never approval.
+
+Next implement/test an opt-in versioned path and prepare the bounded research-
+hardware benchmark before quote/deployment or full calibration. No new paid
+allocation, old recovery-time reuse, held-out access or research run follows.
+See [the candidate](research_attack_candidate.md) and its full decision packet.
+
+
+## October 28: implement EOT8 only through a separate diagnostic contract
+
+The proposed PGD20/R2/EOT8 primary now has a tested opt-in evaluator, calibration
+journal and artifact consumers. The original evaluator/calibrator and study YAML
+stay frozen. PGD20/PGD50 share attack banks and starts; independent scoring does
+not select perturbations. New artifacts bind settings, 61 source/metadata inputs,
+data, weights and runtime, including CUDA UUID/driver. No old artifact is relabeled.
+
+The portable benchmark measures bounded recovery and representative EOT8 units.
+Its independent worker deadline survives loss of the parent; it does not stop
+billing. No quote, launch allowance or full research calibration is approved by
+this implementation. Require selected-hardware numerical/recovery and economic
+qualification before the declared thirty research calibration evaluations and
+any protocol adoption. [Implementation](candidate_eot8_implementation.md).

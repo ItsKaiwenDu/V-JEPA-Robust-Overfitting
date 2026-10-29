@@ -1,0 +1,733 @@
+{
+  "budget_approved": false,
+  "candidate": {
+    "attack_convergence_pass": false,
+    "automatic_attack_choice": false,
+    "benchmark_proposal": {
+      "deadline_must_include_deployment_setup_and_idle": true,
+      "earlier_eighty_minute_case_windows_or_recovery_grants_reused": false,
+      "implemented": false,
+      "inclusive_session_budget_usd": null,
+      "launch_authorized": false,
+      "proposed_maximum_billed_hours": 2,
+      "proposed_required_phases": [
+        "unchanged numerical preflight",
+        "clean-and-adversarial-two-update-fresh-process-exact-recovery",
+        "three-pretrained-representative-EOT8-primary-units",
+        "one-clean-and-one-adversarial-trained-anchor-EOT8-primary-unit",
+        "one-complete-three-candidate-training-clip-bundle",
+        "retained-full-stronger-controls-or-new-matching-timing-evidence",
+        "checkpoint-state-save-load-and-space-boundaries"
+      ],
+      "small_bundle_cannot_replace_ten_clip_calibration": true
+    },
+    "budget": {
+      "budget_approved": false,
+      "complete_candidate_cost_usd": null,
+      "complete_cost_estimate": false,
+      "compute_cap_usd": 160,
+      "current_live_quote_usd_per_hour": null,
+      "historical_untimed_allowance_hours_not_a_bound": 8,
+      "noncompute_reserve_usd": 40,
+      "pilot_reserve_usd": 10,
+      "primary_eot8_native_seconds": null,
+      "primary_evaluation_count": 2580,
+      "runtime_headroom_factor": 1.25,
+      "three_candidate_calibration_bundle_count": 10,
+      "three_candidate_eot8_bundle_seconds": null,
+      "total_cap_usd": 200
+    },
+    "calibration": {
+      "another_GPU_diagnostic_calibration_portable_to_research": false,
+      "attack": {
+        "attack_masks": 8,
+        "epsilon_255": 4,
+        "restarts": 2,
+        "scoring_masks": 4,
+        "steps": 20
+      },
+      "audit_banks_used_for_selection": false,
+      "both_restart_starts_shared_across_step_candidates": true,
+      "candidate_main_audit_masks_globally_distinct": 200,
+      "candidate_step_sizes_255": [
+        0.5,
+        1.0,
+        2.0
+      ],
+      "candidate_weights_runtime_sources_rows_and_seeds_identical": true,
+      "checkpoint": "released-pretrained-only",
+      "completed_panel_step_two_is_not_calibration": true,
+      "convergence_uses_identical_starts_and_eight_draw_bank_for_step_only_control": true,
+      "evaluations_required": 30,
+      "exact_chosen_research_runtime_required": true,
+      "fresh_adversaries_required_at_every_checkpoint": true,
+      "full_research_panel_seed_manifest_still_required": true,
+      "mask_modulus": 2147483647,
+      "masks_fixed_across_steps_and_restarts": true,
+      "no_overlap_with_completed_panel_mask_draws": true,
+      "original_four_draw_calibration_reusable": false,
+      "panel": "train_monitor",
+      "rows": [
+        {
+          "attack_seeds": [
+            5544363101446534837,
+            7814951271030776011,
+            2730612220500427012,
+            6030391417338982701,
+            8213210198929042390,
+            3327178139605198760,
+            7783252416603400047,
+            3730427917914534879
+          ],
+          "scoring_seeds": {
+            "audit_0": [
+              464437430604658794,
+              1699339599319251444,
+              1010787897882206159,
+              6297714132175157155
+            ],
+            "audit_1": [
+              8236968578894321317,
+              439298257305889105,
+              3132524236255496209,
+              3535835766974592590
+            ],
+            "main": [
+              4976048679773240574,
+              4021155482471970298,
+              8034441195329103681,
+              903920030919963519
+            ]
+          },
+          "source_group_id": "BreastStroke_g10",
+          "start_seed": 4732094742759335955,
+          "video_id": "v_BreastStroke_g10_c02"
+        },
+        {
+          "attack_seeds": [
+            9129056533899650644,
+            7960098038761010631,
+            7838126729177192552,
+            2538621745631053183,
+            6124560054345578789,
+            5921502745533364168,
+            6736138729390558455,
+            214472021065110207
+          ],
+          "scoring_seeds": {
+            "audit_0": [
+              8244591254256903771,
+              7184003455939610021,
+              1347337392043395606,
+              386711292608304594
+            ],
+            "audit_1": [
+              9220453695402513644,
+              4948716761674330059,
+              7479853771381731565,
+              9053054253021714362
+            ],
+            "main": [
+              478947001500764575,
+              4210868247826978595,
+              2990712106111725483,
+              903008302400328768
+            ]
+          },
+          "source_group_id": "JumpRope_g16",
+          "start_seed": 2957016411043420566,
+          "video_id": "v_JumpRope_g16_c02"
+        },
+        {
+          "attack_seeds": [
+            8801381082453322258,
+            3020519200662597138,
+            2613167289121137054,
+            51032973145497808,
+            2768406640115797854,
+            694731201053146309,
+            1367955328561071230,
+            7789342290858055389
+          ],
+          "scoring_seeds": {
+            "audit_0": [
+              6280136618680810369,
+              2165300472624886907,
+              8705765305496001739,
+              2612265421266897430
+            ],
+            "audit_1": [
+              5604070024569511572,
+              1781599737728214369,
+              8872265352628459519,
+              8727351566234278124
+            ],
+            "main": [
+              7589753280786759406,
+              7093439471844441168,
+              5621829579080077391,
+              3219131242674635931
+            ]
+          },
+          "source_group_id": "Swing_g20",
+          "start_seed": 4487933267775051646,
+          "video_id": "v_Swing_g20_c03"
+        },
+        {
+          "attack_seeds": [
+            6202174828091868928,
+            4791587114403257290,
+            5327757938167456998,
+            4004704589069518716,
+            3365105925026373394,
+            293865958108802484,
+            1110794557558436864,
+            124629061212167024
+          ],
+          "scoring_seeds": {
+            "audit_0": [
+              3051532834610726478,
+              4850794950615094767,
+              2522860006475881707,
+              8102769577150293375
+            ],
+            "audit_1": [
+              1449771536837283985,
+              2555151620867031273,
+              7788238360701084735,
+              9131688424091426398
+            ],
+            "main": [
+              1575259705922621239,
+              6545755126528425729,
+              1272375067927415078,
+              6300691457305824942
+            ]
+          },
+          "source_group_id": "TennisSwing_g14",
+          "start_seed": 8688217569217878688,
+          "video_id": "v_TennisSwing_g14_c04"
+        },
+        {
+          "attack_seeds": [
+            1242296232105684007,
+            6394162284474626295,
+            5549132645872816036,
+            2470649861518910804,
+            2670907905067361018,
+            3245863281514909106,
+            2156280987950362713,
+            3276507261675541812
+          ],
+          "scoring_seeds": {
+            "audit_0": [
+              8103207516031103754,
+              8714983662198418215,
+              2841094379007995194,
+              2304411521947406259
+            ],
+            "audit_1": [
+              6364104543170519232,
+              4223247132629130187,
+              360031886244566329,
+              5143445371373672149
+            ],
+            "main": [
+              8299694077344709213,
+              1739649743041556247,
+              6993938830613472638,
+              4593811388476065684
+            ]
+          },
+          "source_group_id": "FloorGymnastics_g17",
+          "start_seed": 468298493486835621,
+          "video_id": "v_FloorGymnastics_g17_c01"
+        },
+        {
+          "attack_seeds": [
+            7140456516410239965,
+            67620780190401133,
+            1835202572233209210,
+            1825033881942333519,
+            3986644418862445046,
+            8622048626426390335,
+            2926837145619293087,
+            2121409858747727458
+          ],
+          "scoring_seeds": {
+            "audit_0": [
+              5107269979911987470,
+              6445318416636197255,
+              1651108643664455159,
+              6873068431841664769
+            ],
+            "audit_1": [
+              9146441759266753025,
+              5206681470553961423,
+              4997432838952036876,
+              1139582105925394153
+            ],
+            "main": [
+              2079054959065732972,
+              5591250674398835474,
+              2837117720151862731,
+              1485872452526253375
+            ]
+          },
+          "source_group_id": "Biking_g16",
+          "start_seed": 7849522434262242461,
+          "video_id": "v_Biking_g16_c04"
+        },
+        {
+          "attack_seeds": [
+            4355068853987780076,
+            8093875124922527027,
+            5538992811224559199,
+            8346165540624013331,
+            6393747870252273264,
+            3623935394965431894,
+            1703570470430019292,
+            2740386633904686645
+          ],
+          "scoring_seeds": {
+            "audit_0": [
+              2899625238902991667,
+              7792333919152857484,
+              6497874537344783488,
+              1302745040876045838
+            ],
+            "audit_1": [
+              2535240837294256446,
+              8953887047133630464,
+              3871934376890553492,
+              4298241404116777257
+            ],
+            "main": [
+              7719247196627393071,
+              5331838395271742088,
+              99154605456135643,
+              3654941436202334312
+            ]
+          },
+          "source_group_id": "Archery_g19",
+          "start_seed": 5278579581626055351,
+          "video_id": "v_Archery_g19_c04"
+        },
+        {
+          "attack_seeds": [
+            3954306513959311117,
+            459018314728617871,
+            2446464109891044028,
+            4505232330824183277,
+            237971464187395417,
+            7954332123144188537,
+            2510271188893511896,
+            5096990394852555491
+          ],
+          "scoring_seeds": {
+            "audit_0": [
+              7847903330320225473,
+              1496534567463300847,
+              1215498372413749990,
+              2926284461393685271
+            ],
+            "audit_1": [
+              8284539762627547474,
+              2169888913050180799,
+              7650387774392552691,
+              5626972973792818696
+            ],
+            "main": [
+              1186669942561133470,
+              29509913252967590,
+              3823590196375415220,
+              1817241408321077812
+            ]
+          },
+          "source_group_id": "YoYo_g14",
+          "start_seed": 2396931903231885903,
+          "video_id": "v_YoYo_g14_c03"
+        },
+        {
+          "attack_seeds": [
+            5376132772113339077,
+            7667015883584334828,
+            310638556263452711,
+            8278031514890924615,
+            2394843963284907773,
+            846097177154785154,
+            1594199456221149665,
+            6656307005164923449
+          ],
+          "scoring_seeds": {
+            "audit_0": [
+              6856809966942268489,
+              3309056764616014437,
+              4909729990642372486,
+              6535839716998821855
+            ],
+            "audit_1": [
+              6983763621952380357,
+              347684021141895549,
+              1483994874887300045,
+              1526837497133684342
+            ],
+            "main": [
+              2954653459578496245,
+              3478838683144945687,
+              98775476425061637,
+              162236176230840509
+            ]
+          },
+          "source_group_id": "Bowling_g19",
+          "start_seed": 5979826521033551319,
+          "video_id": "v_Bowling_g19_c04"
+        },
+        {
+          "attack_seeds": [
+            1470750167681283758,
+            2880082404633186934,
+            3563387049470090274,
+            4291827407412549805,
+            8197890965087210358,
+            3824947276328946327,
+            7081319687302995254,
+            3711195266454881279
+          ],
+          "scoring_seeds": {
+            "audit_0": [
+              6246626823810892188,
+              6233168832821256154,
+              3572880626031656344,
+              326136431635327865
+            ],
+            "audit_1": [
+              7163227705631980681,
+              3767370834325898268,
+              1306940513545027538,
+              4292701501781370503
+            ],
+            "main": [
+              2849816451404193526,
+              3495679630815546402,
+              6644903429233618277,
+              2891249754822994053
+            ]
+          },
+          "source_group_id": "HandstandPushups_g21",
+          "start_seed": 7036671163788300332,
+          "video_id": "v_HandStandPushups_g21_c01"
+        }
+      ],
+      "selected_step_size_255": null,
+      "selection_bank": "main",
+      "selection_rule": "highest_mean_independent_loss_then_smaller_step_on_exact_tie",
+      "status": "specified_not_executed",
+      "training_PGD5_step_size_255": 1,
+      "validation_or_test_used": false
+    },
+    "implementation": {
+      "candidate_execution_policy": "shared-fp64-native",
+      "canonical_study_or_budget_YAML_changed": false,
+      "current_EvaluationSettings_supports_candidate": false,
+      "current_canonical_primary_attack_masks": 4,
+      "new_versioned_evaluation_calibration_and_artifact_contract_required": true,
+      "old_artifacts_and_numerical_rejections_preserved": true,
+      "research_precision_adopted": false
+    },
+    "kind": "research-primary-eot8-candidate-v1",
+    "launch_authorized": false,
+    "new_GPU_job_started": false,
+    "next_compute_purpose": "Qualify sufficient-memory research hardware and measure the proposed EOT8 workload before full ten-clip research calibration or any trajectory.",
+    "not_selected": {
+      "legacy_primary_20x4": "Retained for historical comparability; not silently relabeled as the new candidate.",
+      "primary_50x8": "Keep as stronger control; not a required primary replacement chosen by largest observed loss."
+    },
+    "paid_compute_authorized": false,
+    "preserved_study": {
+      "checkpoint_selection": "minimum_complete_primary_validation_anchor_including_initialization_earliest_tie",
+      "classes": 20,
+      "conditions": [
+        "clean-finetune",
+        "adversarial-finetune"
+      ],
+      "confirmation_and_test_pixels_closed": true,
+      "confirmation_seeds": [
+        11,
+        22,
+        33
+      ],
+      "crop_size": 256,
+      "effective_batch_size": 8,
+      "epochs": 30,
+      "exploration_seeds": [
+        0
+      ],
+      "fixed_clean_target": true,
+      "frames": 16,
+      "initialization_required": true,
+      "micro_batch_size": 1,
+      "native_masked_L1": true,
+      "original_group_separated_splits_preserved": true,
+      "primary_epochs": [
+        1,
+        15,
+        16,
+        23,
+        24,
+        30
+      ],
+      "runs": 8,
+      "training_attack": {
+        "attack_masks": 1,
+        "epsilon_255": 4,
+        "restarts": 1,
+        "step_size_255": 1,
+        "steps": 5
+      },
+      "training_clips": 100,
+      "updates_per_run": 390
+    },
+    "primary_candidate": {
+      "attack_masks": 8,
+      "epsilon_255": 4,
+      "restarts": 2,
+      "scoring_masks": 4,
+      "step_size_255": null,
+      "steps": 20
+    },
+    "rationale": "The complete fixed panel shows positive independent-scoring gains from four to eight draws on all ten clips in all three scoring banks. Preserve the stronger fifty-step control; twenty steps is not declared converged.",
+    "research_admitted": false,
+    "schema_version": 1,
+    "status": "proposed_not_adopted_not_runnable",
+    "stronger_control": {
+      "attack_masks": 8,
+      "restarts": 2,
+      "scoring_audits": 2,
+      "scoring_masks": 4,
+      "selection_uses_attack_bank_only": true,
+      "step_size": "same_training_calibrated_step_as_primary",
+      "steps": 50
+    }
+  },
+  "candidate_sha256": "dc0dba86c92f027296678918b3b8fe1ed6795bace094acde0f0a22c027bf9304",
+  "code_implementation_required": [
+    "opt-in-versioned-EOT8-evaluation-settings-and-matched-primary-control-seeds",
+    "calibration-and-all-artifact-consumers-bind-proposed-strength-source-runtime-and-selected-step",
+    "reject-all-old-four-draw-calibrations-and-mismatched-caches-anchors-receipts",
+    "tested-bounded-hardware-benchmark-before-quote-deploy-and-full-calibration"
+  ],
+  "conditional_affordability": {
+    "budget_approved": false,
+    "complete_candidate_cost_usd": null,
+    "complete_cost_estimate": false,
+    "current_quote_checked": false,
+    "four_draw_or_PGD50_timings_not_relabeled_as_EOT8_primary": true,
+    "historical_allowance_not_a_bound": true,
+    "kind": "research-primary-eot8-candidate-v1-conditional-affordability",
+    "no_mask_ratio_or_unmeasured_speedup_used": true,
+    "prior_pilot_charges_counted_inside_reserve_once": true,
+    "research_admitted": false,
+    "scenarios": {
+      "maximum": {
+        "budget_approved": false,
+        "candidate_screen_total_expression": "50 + 1.25*rate*(8 + historical_other_hours + (2580*p+10*c)/3600)",
+        "candidate_timed_hours_expression": "81.597706843753 + (2580*p + 10*c)/3600",
+        "candidate_total_usd": null,
+        "complete_cost_estimate": false,
+        "conditional_price_scenarios": [
+          {
+            "all_other_units_assumed_equal_to_historical_A40_only": true,
+            "another_GPU_speed_assumed_or_predicted": false,
+            "budget_approved": false,
+            "current_quote": false,
+            "hypothetical_all_in_hourly_usd": 0.29,
+            "no_primary_time_can_fit_even_with_zero_calibration": false,
+            "optimistic_primary_clip_seconds_ceiling_if_calibration_free": 452.36566968073,
+            "variable_primary_plus_calibration_seconds_room": 1167103.4277762834,
+            "zero_calibration_is_only_a_necessary_condition_relaxation": true
+          },
+          {
+            "all_other_units_assumed_equal_to_historical_A40_only": true,
+            "another_GPU_speed_assumed_or_predicted": false,
+            "budget_approved": false,
+            "current_quote": false,
+            "hypothetical_all_in_hourly_usd": 0.4,
+            "no_primary_time_can_fit_even_with_zero_calibration": false,
+            "optimistic_primary_clip_seconds_ceiling_if_calibration_free": 293.58459510174043,
+            "variable_primary_plus_calibration_seconds_room": 757448.2553624903,
+            "zero_calibration_is_only_a_necessary_condition_relaxation": true
+          },
+          {
+            "all_other_units_assumed_equal_to_historical_A40_only": true,
+            "another_GPU_speed_assumed_or_predicted": false,
+            "budget_approved": false,
+            "current_quote": false,
+            "hypothetical_all_in_hourly_usd": 0.5,
+            "no_primary_time_can_fit_even_with_zero_calibration": false,
+            "optimistic_primary_clip_seconds_ceiling_if_calibration_free": 209.8636648691823,
+            "variable_primary_plus_calibration_seconds_room": 541448.2553624903,
+            "zero_calibration_is_only_a_necessary_condition_relaxation": true
+          },
+          {
+            "all_other_units_assumed_equal_to_historical_A40_only": true,
+            "another_GPU_speed_assumed_or_predicted": false,
+            "budget_approved": false,
+            "current_quote": false,
+            "hypothetical_all_in_hourly_usd": 0.61,
+            "no_primary_time_can_fit_even_with_zero_calibration": false,
+            "optimistic_primary_clip_seconds_ceiling_if_calibration_free": 149.47479716045183,
+            "variable_primary_plus_calibration_seconds_room": 385644.9766739657,
+            "zero_calibration_is_only_a_necessary_condition_relaxation": true
+          }
+        ],
+        "historical_four_draw_total_usd": 224.01071414326162,
+        "historical_other_component_hours": 81.59770684375269,
+        "missing_required_units": [
+          "full_eot8_primary_clip_seconds",
+          "complete_eot8_three_candidate_bundle_seconds"
+        ]
+      },
+      "median": {
+        "budget_approved": false,
+        "candidate_screen_total_expression": "50 + 1.25*rate*(8 + historical_other_hours + (2580*p+10*c)/3600)",
+        "candidate_timed_hours_expression": "79.487079286683 + (2580*p + 10*c)/3600",
+        "candidate_total_usd": null,
+        "complete_cost_estimate": false,
+        "conditional_price_scenarios": [
+          {
+            "all_other_units_assumed_equal_to_historical_A40_only": true,
+            "another_GPU_speed_assumed_or_predicted": false,
+            "budget_approved": false,
+            "current_quote": false,
+            "hypothetical_all_in_hourly_usd": 0.29,
+            "no_primary_time_can_fit_even_with_zero_calibration": false,
+            "optimistic_primary_clip_seconds_ceiling_if_calibration_free": 455.31073138826866,
+            "variable_primary_plus_calibration_seconds_room": 1174701.6869817332,
+            "zero_calibration_is_only_a_necessary_condition_relaxation": true
+          },
+          {
+            "all_other_units_assumed_equal_to_historical_A40_only": true,
+            "another_GPU_speed_assumed_or_predicted": false,
+            "budget_approved": false,
+            "current_quote": false,
+            "hypothetical_all_in_hourly_usd": 0.4,
+            "no_primary_time_can_fit_even_with_zero_calibration": false,
+            "optimistic_primary_clip_seconds_ceiling_if_calibration_free": 296.5296568092791,
+            "variable_primary_plus_calibration_seconds_room": 765046.5145679401,
+            "zero_calibration_is_only_a_necessary_condition_relaxation": true
+          },
+          {
+            "all_other_units_assumed_equal_to_historical_A40_only": true,
+            "another_GPU_speed_assumed_or_predicted": false,
+            "budget_approved": false,
+            "current_quote": false,
+            "hypothetical_all_in_hourly_usd": 0.5,
+            "no_primary_time_can_fit_even_with_zero_calibration": false,
+            "optimistic_primary_clip_seconds_ceiling_if_calibration_free": 212.808726576721,
+            "variable_primary_plus_calibration_seconds_room": 549046.5145679401,
+            "zero_calibration_is_only_a_necessary_condition_relaxation": true
+          },
+          {
+            "all_other_units_assumed_equal_to_historical_A40_only": true,
+            "another_GPU_speed_assumed_or_predicted": false,
+            "budget_approved": false,
+            "current_quote": false,
+            "hypothetical_all_in_hourly_usd": 0.61,
+            "no_primary_time_can_fit_even_with_zero_calibration": false,
+            "optimistic_primary_clip_seconds_ceiling_if_calibration_free": 152.41985886799054,
+            "variable_primary_plus_calibration_seconds_room": 393243.2358794156,
+            "zero_calibration_is_only_a_necessary_condition_relaxation": true
+          }
+        ],
+        "historical_four_draw_total_usd": 221.55543280812782,
+        "historical_other_component_hours": 79.48707928668328,
+        "missing_required_units": [
+          "full_eot8_primary_clip_seconds",
+          "complete_eot8_three_candidate_bundle_seconds"
+        ]
+      }
+    },
+    "units_not_transferred_from_university_RTX3070": true,
+    "unknown_cost_categories": [
+      "full-data-loading-integrity-cache",
+      "full-panel-hashing-transfers",
+      "full-features-probes",
+      "checkpoint-retention-export-disk-peaks",
+      "billed-setup-idle-failure-repair"
+    ]
+  },
+  "current_quote_checked": false,
+  "date_Pacific": "2026-10-28",
+  "existing_evaluation_or_calibration_code_changed": false,
+  "held_out_pixels_opened": false,
+  "kind": "research-eot8-candidate-offline-review-v1",
+  "new_model_or_GPU_execution": false,
+  "new_paid_compute_authorized": false,
+  "new_pixel_or_checkpoint_read": false,
+  "next_step": "Implement and test the opt-in candidate evaluation/artifact path and prepare a bounded whole-workload hardware benchmark. Only after actual hardware/economics qualification, run the declared thirty calibration evaluations on the chosen research runtime. No launch is authorized by this proposal.",
+  "original_study_YAML_changed": false,
+  "recovery_qualification": {
+    "A40": {
+      "exact_optimizer_recovery_qualified": false,
+      "source_report": "report/checks/2026-10-23-a40-controls-completion.json",
+      "status": "bounded-updates-and-input-checks-passed-exact-resume-not-tested"
+    },
+    "RTX5090": {
+      "conditions": [
+        "clean-finetune",
+        "adversarial-finetune"
+      ],
+      "exact_comparisons": {
+        "adversarial-finetune": {
+          "budget_approved": false,
+          "compared_leaves": 5351,
+          "diagnostic_only": true,
+          "difference_list_limit": 20,
+          "exact_match": true,
+          "expected_step": 2,
+          "first_differences": [],
+          "kind": "exact_workflow_recovery_diagnostic",
+          "research_result": false
+        },
+        "clean-finetune": {
+          "budget_approved": false,
+          "compared_leaves": 5351,
+          "diagnostic_only": true,
+          "difference_list_limit": 20,
+          "exact_match": true,
+          "expected_step": 2,
+          "first_differences": [],
+          "kind": "exact_workflow_recovery_diagnostic",
+          "research_result": false
+        }
+      },
+      "full_trajectory_qualified": false,
+      "source_report": "report/checks/2026-10-22-shared-forward-cuda-workflow.json",
+      "status": "passed-bounded-native-two-update-recovery"
+    },
+    "university_RTX3070": {
+      "full_optimizer_training_qualified": false,
+      "input_gradient_panel_qualified": true,
+      "status": "twenty-input-attack-cases-qualified-prior-eight-GB-optimizer-OOM-unresolved",
+      "timing_credited_to_A40_or_new_GPU": false
+    }
+  },
+  "research_admitted": false,
+  "research_policy_adopted": false,
+  "source_sha256": {
+    "configs/budget_study_plan.yaml": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+    "configs/matched_panel_diagnostic_v1.json": "996717379099048f1ceb2691b2eaf62914710cead6aef92bf96d0af46408bb84",
+    "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+    "data/manifests/ucf101-staged-20x5-v1/train_monitor.csv": "d56275b86cc3b5d2866c9e9d5d53362c17dda36c69bccb6553c4d53b32d1559d",
+    "models/calibration.py": "bd3ec55ca45f9788f08fb1f5342454adf86aedb20db3ba6169dfe02ecf6e92f6",
+    "models/evaluation.py": "1431951d158b57b615208006edb5365a6bad910b2a14e0aa782a1c6f82034089",
+    "models/research_attack_candidate.py": "ec421419af4139efb88199cfc885b2c816e49534f7e4ac7859f93ce6d487f926",
+    "report/checks/2026-10-22-shared-forward-cuda-workflow.json": "b8b7b9ad70b1d74abf8deecf4d1385f9ce1c5c23d9557afd016214b9bff4f027",
+    "report/checks/2026-10-23-a40-controls-completion.json": "7d29a35a6f4d3bcda67f87a27642ebbe6cc2e6c2d29ac31b348e94441f391897",
+    "report/checks/2026-10-23-offline-a40-review.json": "9e3e1a5928bb33ccb39a1bad2d5ff64ce0cadc3ec48796c36f5108ceec5b2794",
+    "report/checks/2026-10-28-complete-panel-analysis.json": "420c414bcbb7eb6392ea83f6cd1bbeb3ea0c3569a738db64d380f3a4a2a2d130",
+    "scripts/prepare_research_attack_candidate.py": "86fd35914dd3b4fb7c49c08effacf25f0555db97dc554186e332a43bd2b41e56",
+    "tests/test_research_attack_candidate.py": "580e84bfd7845a6056965bbbbd2aa29012a0986dcda84f61c1b8d5892c0ea710"
+  }
+}

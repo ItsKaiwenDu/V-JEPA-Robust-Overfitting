@@ -1,0 +1,510 @@
+{
+  "attack_convergence_pass": false,
+  "automatic_attack_choice": false,
+  "benchmark_proposal": {
+    "deadline_must_include_deployment_setup_and_idle": true,
+    "earlier_eighty_minute_case_windows_or_recovery_grants_reused": false,
+    "implemented": false,
+    "inclusive_session_budget_usd": null,
+    "launch_authorized": false,
+    "proposed_maximum_billed_hours": 2,
+    "proposed_required_phases": [
+      "unchanged numerical preflight",
+      "clean-and-adversarial-two-update-fresh-process-exact-recovery",
+      "three-pretrained-representative-EOT8-primary-units",
+      "one-clean-and-one-adversarial-trained-anchor-EOT8-primary-unit",
+      "one-complete-three-candidate-training-clip-bundle",
+      "retained-full-stronger-controls-or-new-matching-timing-evidence",
+      "checkpoint-state-save-load-and-space-boundaries"
+    ],
+    "small_bundle_cannot_replace_ten_clip_calibration": true
+  },
+  "budget": {
+    "budget_approved": false,
+    "complete_candidate_cost_usd": null,
+    "complete_cost_estimate": false,
+    "compute_cap_usd": 160,
+    "current_live_quote_usd_per_hour": null,
+    "historical_untimed_allowance_hours_not_a_bound": 8,
+    "noncompute_reserve_usd": 40,
+    "pilot_reserve_usd": 10,
+    "primary_eot8_native_seconds": null,
+    "primary_evaluation_count": 2580,
+    "runtime_headroom_factor": 1.25,
+    "three_candidate_calibration_bundle_count": 10,
+    "three_candidate_eot8_bundle_seconds": null,
+    "total_cap_usd": 200
+  },
+  "calibration": {
+    "another_GPU_diagnostic_calibration_portable_to_research": false,
+    "attack": {
+      "attack_masks": 8,
+      "epsilon_255": 4,
+      "restarts": 2,
+      "scoring_masks": 4,
+      "steps": 20
+    },
+    "audit_banks_used_for_selection": false,
+    "both_restart_starts_shared_across_step_candidates": true,
+    "candidate_main_audit_masks_globally_distinct": 200,
+    "candidate_step_sizes_255": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "candidate_weights_runtime_sources_rows_and_seeds_identical": true,
+    "checkpoint": "released-pretrained-only",
+    "completed_panel_step_two_is_not_calibration": true,
+    "convergence_uses_identical_starts_and_eight_draw_bank_for_step_only_control": true,
+    "evaluations_required": 30,
+    "exact_chosen_research_runtime_required": true,
+    "fresh_adversaries_required_at_every_checkpoint": true,
+    "full_research_panel_seed_manifest_still_required": true,
+    "mask_modulus": 2147483647,
+    "masks_fixed_across_steps_and_restarts": true,
+    "no_overlap_with_completed_panel_mask_draws": true,
+    "original_four_draw_calibration_reusable": false,
+    "panel": "train_monitor",
+    "rows": [
+      {
+        "attack_seeds": [
+          5544363101446534837,
+          7814951271030776011,
+          2730612220500427012,
+          6030391417338982701,
+          8213210198929042390,
+          3327178139605198760,
+          7783252416603400047,
+          3730427917914534879
+        ],
+        "scoring_seeds": {
+          "audit_0": [
+            464437430604658794,
+            1699339599319251444,
+            1010787897882206159,
+            6297714132175157155
+          ],
+          "audit_1": [
+            8236968578894321317,
+            439298257305889105,
+            3132524236255496209,
+            3535835766974592590
+          ],
+          "main": [
+            4976048679773240574,
+            4021155482471970298,
+            8034441195329103681,
+            903920030919963519
+          ]
+        },
+        "source_group_id": "BreastStroke_g10",
+        "start_seed": 4732094742759335955,
+        "video_id": "v_BreastStroke_g10_c02"
+      },
+      {
+        "attack_seeds": [
+          9129056533899650644,
+          7960098038761010631,
+          7838126729177192552,
+          2538621745631053183,
+          6124560054345578789,
+          5921502745533364168,
+          6736138729390558455,
+          214472021065110207
+        ],
+        "scoring_seeds": {
+          "audit_0": [
+            8244591254256903771,
+            7184003455939610021,
+            1347337392043395606,
+            386711292608304594
+          ],
+          "audit_1": [
+            9220453695402513644,
+            4948716761674330059,
+            7479853771381731565,
+            9053054253021714362
+          ],
+          "main": [
+            478947001500764575,
+            4210868247826978595,
+            2990712106111725483,
+            903008302400328768
+          ]
+        },
+        "source_group_id": "JumpRope_g16",
+        "start_seed": 2957016411043420566,
+        "video_id": "v_JumpRope_g16_c02"
+      },
+      {
+        "attack_seeds": [
+          8801381082453322258,
+          3020519200662597138,
+          2613167289121137054,
+          51032973145497808,
+          2768406640115797854,
+          694731201053146309,
+          1367955328561071230,
+          7789342290858055389
+        ],
+        "scoring_seeds": {
+          "audit_0": [
+            6280136618680810369,
+            2165300472624886907,
+            8705765305496001739,
+            2612265421266897430
+          ],
+          "audit_1": [
+            5604070024569511572,
+            1781599737728214369,
+            8872265352628459519,
+            8727351566234278124
+          ],
+          "main": [
+            7589753280786759406,
+            7093439471844441168,
+            5621829579080077391,
+            3219131242674635931
+          ]
+        },
+        "source_group_id": "Swing_g20",
+        "start_seed": 4487933267775051646,
+        "video_id": "v_Swing_g20_c03"
+      },
+      {
+        "attack_seeds": [
+          6202174828091868928,
+          4791587114403257290,
+          5327757938167456998,
+          4004704589069518716,
+          3365105925026373394,
+          293865958108802484,
+          1110794557558436864,
+          124629061212167024
+        ],
+        "scoring_seeds": {
+          "audit_0": [
+            3051532834610726478,
+            4850794950615094767,
+            2522860006475881707,
+            8102769577150293375
+          ],
+          "audit_1": [
+            1449771536837283985,
+            2555151620867031273,
+            7788238360701084735,
+            9131688424091426398
+          ],
+          "main": [
+            1575259705922621239,
+            6545755126528425729,
+            1272375067927415078,
+            6300691457305824942
+          ]
+        },
+        "source_group_id": "TennisSwing_g14",
+        "start_seed": 8688217569217878688,
+        "video_id": "v_TennisSwing_g14_c04"
+      },
+      {
+        "attack_seeds": [
+          1242296232105684007,
+          6394162284474626295,
+          5549132645872816036,
+          2470649861518910804,
+          2670907905067361018,
+          3245863281514909106,
+          2156280987950362713,
+          3276507261675541812
+        ],
+        "scoring_seeds": {
+          "audit_0": [
+            8103207516031103754,
+            8714983662198418215,
+            2841094379007995194,
+            2304411521947406259
+          ],
+          "audit_1": [
+            6364104543170519232,
+            4223247132629130187,
+            360031886244566329,
+            5143445371373672149
+          ],
+          "main": [
+            8299694077344709213,
+            1739649743041556247,
+            6993938830613472638,
+            4593811388476065684
+          ]
+        },
+        "source_group_id": "FloorGymnastics_g17",
+        "start_seed": 468298493486835621,
+        "video_id": "v_FloorGymnastics_g17_c01"
+      },
+      {
+        "attack_seeds": [
+          7140456516410239965,
+          67620780190401133,
+          1835202572233209210,
+          1825033881942333519,
+          3986644418862445046,
+          8622048626426390335,
+          2926837145619293087,
+          2121409858747727458
+        ],
+        "scoring_seeds": {
+          "audit_0": [
+            5107269979911987470,
+            6445318416636197255,
+            1651108643664455159,
+            6873068431841664769
+          ],
+          "audit_1": [
+            9146441759266753025,
+            5206681470553961423,
+            4997432838952036876,
+            1139582105925394153
+          ],
+          "main": [
+            2079054959065732972,
+            5591250674398835474,
+            2837117720151862731,
+            1485872452526253375
+          ]
+        },
+        "source_group_id": "Biking_g16",
+        "start_seed": 7849522434262242461,
+        "video_id": "v_Biking_g16_c04"
+      },
+      {
+        "attack_seeds": [
+          4355068853987780076,
+          8093875124922527027,
+          5538992811224559199,
+          8346165540624013331,
+          6393747870252273264,
+          3623935394965431894,
+          1703570470430019292,
+          2740386633904686645
+        ],
+        "scoring_seeds": {
+          "audit_0": [
+            2899625238902991667,
+            7792333919152857484,
+            6497874537344783488,
+            1302745040876045838
+          ],
+          "audit_1": [
+            2535240837294256446,
+            8953887047133630464,
+            3871934376890553492,
+            4298241404116777257
+          ],
+          "main": [
+            7719247196627393071,
+            5331838395271742088,
+            99154605456135643,
+            3654941436202334312
+          ]
+        },
+        "source_group_id": "Archery_g19",
+        "start_seed": 5278579581626055351,
+        "video_id": "v_Archery_g19_c04"
+      },
+      {
+        "attack_seeds": [
+          3954306513959311117,
+          459018314728617871,
+          2446464109891044028,
+          4505232330824183277,
+          237971464187395417,
+          7954332123144188537,
+          2510271188893511896,
+          5096990394852555491
+        ],
+        "scoring_seeds": {
+          "audit_0": [
+            7847903330320225473,
+            1496534567463300847,
+            1215498372413749990,
+            2926284461393685271
+          ],
+          "audit_1": [
+            8284539762627547474,
+            2169888913050180799,
+            7650387774392552691,
+            5626972973792818696
+          ],
+          "main": [
+            1186669942561133470,
+            29509913252967590,
+            3823590196375415220,
+            1817241408321077812
+          ]
+        },
+        "source_group_id": "YoYo_g14",
+        "start_seed": 2396931903231885903,
+        "video_id": "v_YoYo_g14_c03"
+      },
+      {
+        "attack_seeds": [
+          5376132772113339077,
+          7667015883584334828,
+          310638556263452711,
+          8278031514890924615,
+          2394843963284907773,
+          846097177154785154,
+          1594199456221149665,
+          6656307005164923449
+        ],
+        "scoring_seeds": {
+          "audit_0": [
+            6856809966942268489,
+            3309056764616014437,
+            4909729990642372486,
+            6535839716998821855
+          ],
+          "audit_1": [
+            6983763621952380357,
+            347684021141895549,
+            1483994874887300045,
+            1526837497133684342
+          ],
+          "main": [
+            2954653459578496245,
+            3478838683144945687,
+            98775476425061637,
+            162236176230840509
+          ]
+        },
+        "source_group_id": "Bowling_g19",
+        "start_seed": 5979826521033551319,
+        "video_id": "v_Bowling_g19_c04"
+      },
+      {
+        "attack_seeds": [
+          1470750167681283758,
+          2880082404633186934,
+          3563387049470090274,
+          4291827407412549805,
+          8197890965087210358,
+          3824947276328946327,
+          7081319687302995254,
+          3711195266454881279
+        ],
+        "scoring_seeds": {
+          "audit_0": [
+            6246626823810892188,
+            6233168832821256154,
+            3572880626031656344,
+            326136431635327865
+          ],
+          "audit_1": [
+            7163227705631980681,
+            3767370834325898268,
+            1306940513545027538,
+            4292701501781370503
+          ],
+          "main": [
+            2849816451404193526,
+            3495679630815546402,
+            6644903429233618277,
+            2891249754822994053
+          ]
+        },
+        "source_group_id": "HandstandPushups_g21",
+        "start_seed": 7036671163788300332,
+        "video_id": "v_HandStandPushups_g21_c01"
+      }
+    ],
+    "selected_step_size_255": null,
+    "selection_bank": "main",
+    "selection_rule": "highest_mean_independent_loss_then_smaller_step_on_exact_tie",
+    "status": "specified_not_executed",
+    "training_PGD5_step_size_255": 1,
+    "validation_or_test_used": false
+  },
+  "implementation": {
+    "candidate_execution_policy": "shared-fp64-native",
+    "canonical_study_or_budget_YAML_changed": false,
+    "current_EvaluationSettings_supports_candidate": false,
+    "current_canonical_primary_attack_masks": 4,
+    "new_versioned_evaluation_calibration_and_artifact_contract_required": true,
+    "old_artifacts_and_numerical_rejections_preserved": true,
+    "research_precision_adopted": false
+  },
+  "kind": "research-primary-eot8-candidate-v1",
+  "launch_authorized": false,
+  "new_GPU_job_started": false,
+  "next_compute_purpose": "Qualify sufficient-memory research hardware and measure the proposed EOT8 workload before full ten-clip research calibration or any trajectory.",
+  "not_selected": {
+    "legacy_primary_20x4": "Retained for historical comparability; not silently relabeled as the new candidate.",
+    "primary_50x8": "Keep as stronger control; not a required primary replacement chosen by largest observed loss."
+  },
+  "paid_compute_authorized": false,
+  "preserved_study": {
+    "checkpoint_selection": "minimum_complete_primary_validation_anchor_including_initialization_earliest_tie",
+    "classes": 20,
+    "conditions": [
+      "clean-finetune",
+      "adversarial-finetune"
+    ],
+    "confirmation_and_test_pixels_closed": true,
+    "confirmation_seeds": [
+      11,
+      22,
+      33
+    ],
+    "crop_size": 256,
+    "effective_batch_size": 8,
+    "epochs": 30,
+    "exploration_seeds": [
+      0
+    ],
+    "fixed_clean_target": true,
+    "frames": 16,
+    "initialization_required": true,
+    "micro_batch_size": 1,
+    "native_masked_L1": true,
+    "original_group_separated_splits_preserved": true,
+    "primary_epochs": [
+      1,
+      15,
+      16,
+      23,
+      24,
+      30
+    ],
+    "runs": 8,
+    "training_attack": {
+      "attack_masks": 1,
+      "epsilon_255": 4,
+      "restarts": 1,
+      "step_size_255": 1,
+      "steps": 5
+    },
+    "training_clips": 100,
+    "updates_per_run": 390
+  },
+  "primary_candidate": {
+    "attack_masks": 8,
+    "epsilon_255": 4,
+    "restarts": 2,
+    "scoring_masks": 4,
+    "step_size_255": null,
+    "steps": 20
+  },
+  "rationale": "The complete fixed panel shows positive independent-scoring gains from four to eight draws on all ten clips in all three scoring banks. Preserve the stronger fifty-step control; twenty steps is not declared converged.",
+  "research_admitted": false,
+  "schema_version": 1,
+  "status": "proposed_not_adopted_not_runnable",
+  "stronger_control": {
+    "attack_masks": 8,
+    "restarts": 2,
+    "scoring_audits": 2,
+    "scoring_masks": 4,
+    "selection_uses_attack_bank_only": true,
+    "step_size": "same_training_calibrated_step_as_primary",
+    "steps": 50
+  }
+}
