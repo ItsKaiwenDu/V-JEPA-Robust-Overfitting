@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**EOT8 hardware benchmark verified (October 28):**
+[All 13 diagnostic phases completed](report/checks/2026-10-28-candidate-benchmark-verification.md)
+on RTX PRO 4500 SE, including exact clean/adversarial two-update recovery.
+Evidence is copied and independently checked; the Pod was terminated at 10:05 PM.
+Next rebuild the full-study cost projection and reconcile billing before full
+research calibration. The research step and research admission remain pending.
+Earlier preparation and launch statements below describe historical stages.
+
 **Opt-in EOT8 diagnostic path and offline benchmark prepared (October 28):**
 [The separate candidate implementation](docs/candidate_eot8_implementation.md)
 passes 77 focused checks from a fresh handoff extraction. Legacy four-draw code

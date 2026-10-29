@@ -2,6 +2,137 @@
 
 ## Current stage
 
+LATEST Oct28 22:05PDT: EOT8 BENCHMARK COMPLETE; POD TERMINATED BY USER.
+Read report/checks/2026-10-28-candidate-benchmark-verification.json/md. All13/13
+phases complete, exit0, scientificend22:00:21PDT. Download rawcandidate-eot8-
+session-20261028/completed-download-20261028-ka6hqnu0; archive b8e0becc...,
+419870132bytes/169safe regularfiles/allmemberhashes PASS. Independent local
+CPU audit78tensor signatures/36original-tolerance comparisons PASS,13evalrecords
+across11files exactsettings/seeds/mod31/target checks PASS. Threecleaninputs+
+12attackimages pixelboundPASS. Each clean/adv2update freshprocess recovery exact
+3899leaves; fulltypedlogical signatures/counts verify; fulloptimizerPTnotexported.
+Source75+approvedunchanged1file/61scientificpins unchanged. ActualPy3.12.3/
+Torch2.8cu128/driver595.91.07/PRO4500SE UUIDd44050...; study/budgetunchanged.
+CPUcombined77PASS=original75PASS+2parenttempfixturescorrectedworkspacePASS;
+bothhistoricalsetupfailuresretained, no source/tolerance/clock/budgetreset.
+UserconfirmedPodterminated22:05PDT AFTERverifiedcopy. NO Pod/GPUrunningfromthis
+session, no wakeupneeded. FinalinvoicePENDING;99min*.74=1.221ESTIMATE ONLY.
+Keep1.75sessionreserve andoldhold/gap;no release/newspend. Encumbrance9.22/.78
+unreserved remains untilreconciliation. Total200/compute160 unchanged.
+Next OFFLINE measuredfull20class/eightrun EOT8 cost projection incl evalschedule,
+headroom/checkpoints/features/calibration and finalbillreconciliation. No further
+paidlaunch orfullresearchcalibration approved. Full30evalcalibration,researchstep,
+protocol/admission/trajectories pending. Diagnostic2/255 NOTresearchselection.
+Medianupdateclean5.90/adv32.67s; primarypretrained217.49/203.59/205.07s;
+bundle645.91s; peak7.587GiB NOT3070qualification. No robustoverfitting/heldout
+claim. Localreviewdidnotrerunmodel/gradient/oracle;comparedsavedFP64references.
+Usercommits self; no gitstage/commit/push. Earlier running/wakeupnotes historical.
+
+LATEST Oct28 21:35PDT: BENCHMARK HEALTHY,7/13PHASES DONE; NOT COMPLETE.
+Read report/checks/2026-10-28-candidate-benchmark-progress-2135.json. Actual
+preflight3clips/bothbackends PASS; diagnostic3candidatebundlecomplete; primary
+pretrained3units217.49/203.59/205.07native seconds (NOTfullstudycalibration).
+Cleanfirst/resume/reference complete; freshprocess exactcleanrecovery reports
+TRUE/3899leaves. Adversarialfirstcomplete; nowadversarialresume, thenreference,
+trainedprimary,controls,initial/trainedfeatures. Noerror/exitstatus yet.
+Remainingestimate20–30minfrom21:35,notguaranteed. Useraskedwake time; return
+21:55PDT. KeepPodrunning. Original22:26PDT HARDDEADLINE/$1.75 unchanged; stop
+GPUbydeadlineifassistantunavailable,preservevolumeuntilverifiedcopy.
+Current remote/workspace/vjepa-eot8-07/run-after-source-overlay; active6016;
+source-overlay-state.json/log/status/evidence names in previouscurrententry.
+Metadata snapshotraw/progress-2133 pluslatestactualprogress-2135.json. Allcounts
+areunreviewedlivephaseobservations,notcompletedindependentscienceadmission.
+Do notrerunoldfailurehelpers orresetclock/hold. No newbench/test/sourcechanges.
+Usercommits self; no gitstage/commit/push. Olderpreflight-onlynotes historical.
+
+LATEST Oct28 ~21:04PDT: ACTUAL GPU PREFLIGHT RUNNING; QUOTA BREAK CHECKPOINT.
+Read report/checks/2026-10-28-candidate-benchmark-live-start.json and rawcandidate-
+eot8-session-20261028/source-overlay-live-start. USERAPPROVED extra8187Bfile;
+SCPoriginalscripts/check_workflow.py d8f16fe5...PASS. All75original sourcebytes+
+1unchanged historicalscript/all24workflowSOURCES verified. Corecandidate61pins
+unchanged; no mathematicalcode/tolerance edits. Active detachedGNUtimeoutPID6016,
+remote/workspace/vjepa-eot8-07/source-overlay.log and outputrun-after-source-overlay.
+DO NOT restart earlierlauncher1861/continuation3439; bothFAILED/retained.
+ActualGPU100%/~3395MiB, nativebackwardCUDAkernelprobePASS(actualevents/finite/
+strictprecisionflags). Fullpreflight/benchmark NOTYETcomplete atlatestpoll;
+readcurrentsession beforeclaims. Original75CPUtestsPASS+2parentfixturesrerunon
+workspacePASS(all77covered); original2failuresincontainer/tmpdisk55GiBguard
+preservedlocalarchive51507e... . FirstGPUpreparationrefusedmissingprovenancefile,
+no numericalworkthen; oldrun/phases[]/metadatafailurepreserved. Newfreshoutput
+onlyafterreview/explicituserapproval, originalclock/budgetnotreset.
+Harddeadline22:26PDT Oct28 from20:26PDT deployment; budget1.75,.74/h. Worker
+alarms+outertimeout includeinitial31minsetup/debug. Noautomaticcloudstop.
+User mayrest/chatquota break; REQUESTreturn21:20PDT. Thischatdoesnotmonitorwhen
+turnended. Ifassistantunavailableby22:26 usermustSTOPPod(preserves80GBvolume),
+notterminatebeforeverifiedevidencecopy. Thenremovestorageaftercopy/billingreview.
+Onreturn readsource-overlay-state.json/setup/benchmark-source-overlay.log,
+run-after-source-overlay/session.json andlogs; checkpointfailuremaystopjob;
+neverassumeidle/completedmeansPASS. Autoexportatfinish/failure =evidence-source-
+overlay.tar.gz+manifest, source-overlay-exit-status.txt. Exportincludesbothold
+failures, all76actualsources andoverlaymanifest, allpreflighttensors/signatures.
+Copy+verifybeforetermination. Older evidence.tar.gz/continuation-exit1 areOLD.
+Privatekeysneversent;SSHknownhostsraw/known-hosts,fingerprintZMKHyr... verified,
+identityid_ed25519_runpod, endpoint216.81.151.25:12171. Sourceoverlayops hash
+f2d0cf06...;plan32da6e4f.../packet78857499... unchanged. Approvalrecordsandboth
+autoreviewrejections preserved. No fullcalibration/researchtrajectory/admission.
+Budgethold9.22includingthissession;priorotherholds7.47,unreserved.78/10.
+Usercommits self; do notgitstage/commit/push. Olderpending-approval/CPUonlynotes
+are historical. Pausing chat doesnotpause workload or billing.
+
+LATEST Oct28 ~20:55PDT: NO WORKER RUNNING; ONE EXTRA-FILE APPROVAL PENDING.
+Actual rawcandidate-eot8-session-20261028. Original75CPUcasesPASS,2mockparent
+fixturesfailedbecausepytest/tmpis30GBbutguard55GiB. Preserveactualfirstarchive
+51507e... verifiedlocal/source75exact. Only2rerunwith--basetemp/workspacePASS;
+CPUcombinedall77covered. No scientific code/toleranceschanged. ContinuationPID
+3439thenstartedunchangedbenchmark, preflightREFUSEDinprepare_context SOURCEHASH
+becauseoriginalscripts/check_workflow.pywasomittedfrompacketallowlist. Model
+loadedbutNO numericalpreflight/attack/recoveryunitexecuted. run/session.json
+incomplete/phases[];raw run/preflight absent. cont-exit1/evidence-continuation
+2ae904a3...248884bytes98members (notyetlocallydownloaded). All oldfailuresretained.
+Correction = addoriginal8187B scripts/check_workflow.py SHA d8f16fe5... verified
+againsthistoricalfrozenhandoff ANDHEAD; noexistingfilechanges. source-overlay.json
+localraw, source-overlay helper f2d0cf06...uploadedsetupbutNOTSTARTED.
+AUTO-REVIEW REJECTED extra scriptoutsideoriginal75filepayload; USERAPPROVAL
+QUESTIONPENDING for that exactonefile/destination216.81.151.25:12171/code/scripts.
+DO NOT bypass/retryuploaduntiluserapproves. NoGPUcurrentlyworking. Original
+22:26PDT/$1.75 deadlineunchanged; paidPodstillrunning/idle. Onapproval upload
+onlythatfile, verifyall75original+1extra/all24workflowSOURCES, thenfreshoutput
+run-after-source-overlay using helper/outertimeoutremaining. No rerunoldhelpers.
+Actualscientificpacketv3plusEXPLICITsingleunmodifiedsourceoverlay; source61
+bindingunchanged, workflowown24sourcepinsincludeextra. Evidence exportmustinclude
+extra viaoverlaymanifest. Core75/2failures/preservedoldrun neveroverwrite.
+Usertelemetry20:54idleGPUmatchesstoppedworker; explainedpackagingerrorplainly.
+Needfirstgetbenchmarkrunningorfail-export+stopbeforequota rest handoff. Noextra
+permissionneededforbudget/timegrant(otherthanmissingfile upload). Clock2hfrom
+20:26PDT; do not reset. Usercommits self. Earlier running-state notes historical.
+
+LATEST October28: ACTUAL PRO4500 SE POD DEPLOYED; DETACHED SETUP/CPU CHECKS RUNNING.
+Read report/checks/2026-10-28-candidate-benchmark-launch.json and rawcandidate-eot8-
+session-20261028. DEPLOYED20:26PDT Oct28; HARDDEADLINE22:26PDT Oct28, inclusive
+$1.75 with.74/h quote. Do not reset this clock orcreate anotherhold. GPU name
+NVIDIA RTX PRO4500 Blackwell Server Edition,UUIDGPU-d44050e1-f90b-fe89-b91c-
+39e3a214c40e;actual32623MiB VRAM,94e9cgroupRAM,Python3.12.3,Torch2.8.0+cu128,
+driver595.91.07. Initial GPUempty/workspaceempty. Userprovided+scan fingerprint
+exactZMKHyrWAL8Yojfr+NOElvRwYd5cyaKb8vyE146dO8H0 verified. ExposedSSH root@
+216.81.151.25 port12171, identityid_ed25519_runpod, knownhostraw/known-hosts.
+Initial uploadsof research+financialledger AUTO-REVIEW REJECTED, preservedraw
+reviewrecord; then USER EXPLICITLY APPROVED EXACT PAYLOAD+DESTINATION, uploads
+passed. No repeat permission needed. Allsixpacketfiles verified server-side;
+finalv3manifest78857499.../launch32da6e4f.../driver63fb651e... unchanged.
+Remote/workspace/vjepa-eot8-07 holds package/setup/code/env/assets/run. Detached
+GNUtimeoutPID1861 launched20:38:59PDT; no repeat launch. Setup restore19.8s,
+venv17.9s,deps50.9s,checkpointdownload36.4s+SHA PASS. Latest20:42:29PDT stage
+CPUfixtures,27dotsnotfinal; full77CPUchecks required beforeGPUpreflight.
+No actual scientific result yet. Driver ownoutertimeout+benchmarkworker alarms
+bounded byoriginaldeadline; exportonfinish/failure. Readlauncher.log,setup/
+launcher-state.json,setup/cpu-fixtures.log or run/logs; do notrerun. Needmonitor
+untilGPUstarted orfailure; then humancheck-inandmanualterminationby22:26 needed.
+Evidenceexpected evidence.tar.gz+manifest+exit-status.txt; verifycopies BEFORE
+termination. Do not assume runningmeanspassed. No autosystem can stopbilling.
+No tests/sciencecode mutated. Userquota42%; mayhandoff atverifiedsafe running
+checkpoint with clearreturntime, butthischatdoesnotmonitorafterfinalmessage.
+Earlier approval/deployment-pending entries are historical. Usercommits self.
+
 LATEST October 28: USER APPROVES ONE PRO4500 SE BENCHMARK; DEPLOYMENT PENDING.
 Read report/checks/2026-10-28-candidate-benchmark-authorization.json/md.
 Use vjepa-eot8-benchmark-07,1xRTX PRO4500 SE,confirmed.74 TOTAL/hour,30GBcontainer,

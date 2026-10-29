@@ -1,0 +1,41 @@
+{
+  "active_phase": "adversarial-finetune/resume",
+  "clean_recovery_compared_leaves": 3899,
+  "clean_recovery_exact_match_reported": true,
+  "clock_or_budget_reset": false,
+  "complete": false,
+  "completed_phase_count": 7,
+  "completed_phases": [
+    "preflight",
+    "calibration-bundle",
+    "primary-pretrained",
+    "clean-finetune/first",
+    "clean-finetune/resume",
+    "clean-finetune/reference",
+    "adversarial-finetune/first"
+  ],
+  "diagnostic_three_step_bundle_wall_seconds": 645.91,
+  "error": null,
+  "estimate_is_not_a_completion_guarantee": true,
+  "estimated_remaining_minutes": [
+    20,
+    30
+  ],
+  "full_independent_completed_evidence_review_pending": true,
+  "hard_deadline_Pacific": "2026-10-28T22:26:00-07:00",
+  "if_unavailable_at_deadline": "Stop GPU by22:26; preservevolume until evidence copied and verified.",
+  "inclusive_session_allowance_usd": "1.75",
+  "keep_Pod_running_for_next_checkin": true,
+  "kind": "candidate-eot8-progress-observation-v1",
+  "next_user_checkin_Pacific": "2026-10-28T21:55:00-07:00",
+  "observed_Pacific": "2026-10-28T21:35:42-07:00",
+  "pretrained_primary_native_seconds": [
+    217.49,
+    203.59,
+    205.07
+  ],
+  "raw_metadata_snapshot": "runs/pretrained/diagnostic/candidate-eot8-session-20261028/progress-2133",
+  "required_phase_count": 13,
+  "research_admitted": false,
+  "three_clip_numerical_preflight_passed": true
+}

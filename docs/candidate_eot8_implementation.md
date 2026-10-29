@@ -64,13 +64,19 @@ tiny-transformer CPU attacks and both fresh-process optimizer recoveries. The
 parent-dispatch tests explicitly mock hardware/results and qualify no GPU.
 The existing scaffold check and an independent standard-library packet/seed/
 immutable-source audit also pass. See the [validation record](../report/checks/2026-10-28-candidate-eot8-implementation.json).
-No new pretrained model, real pixel tensor, GPU, SSH session or paid job ran.
+At that offline-preparation checkpoint, no new pretrained model, real pixel
+tensor, GPU, SSH session or paid job had run.
 
-Next obtain availability, system RAM and all-in quotes for a lower-cost
-sufficient-memory GPU. Review the current ledger and a concrete deployment-
-inclusive allowance before any deployment. Matching on-GPU numerical/recovery
-results and measured EOT8 economics must qualify before full calibration,
-research policy adoption, protocol freeze or research admission. All such
-results, current prices, full calibration and complete candidate cost remain
-unknown. University 3070 input-gradient results do not resolve its prior full
-AdamW memory failure, and A40 exact recovery remains untested for this path.
+The subsequently approved RTX PRO 4500 SE session completed all 13 phases on
+October 28. Clean and adversarial two-update fresh-process recoveries are exact;
+original numerical comparisons and saved evaluation contracts independently
+verify. Evidence is copied and the Pod was terminated at 10:05 PM PDT. The two
+setup failures, corrected workspace fixtures and explicitly approved unchanged
+provenance-file addition remain documented. See the [completed benchmark review](../report/checks/2026-10-28-candidate-benchmark-verification.md).
+
+Next reconcile the final invoice and rebuild full-study economics using these
+measured EOT8 units, original schedule and budget headroom. The one-clip bundle's
+2/255 diagnostic choice is not a research calibration. Full ten-clip calibration,
+protocol freeze, policy adoption and research admission remain pending. University
+3070 input-gradient results do not resolve its prior full AdamW memory failure;
+other hardware must establish its own candidate recovery and numerical evidence.

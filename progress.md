@@ -1,5 +1,29 @@
 # Research Progress Reports
 
+## 2026-10-28 — Bounded EOT8 hardware benchmark completed and verified
+
+All 13 phases completed on RTX PRO 4500 SE / PyTorch 2.8.0+cu128. Both clean and
+adversarial fresh-process two-update recoveries match exactly across 3,899 logical
+leaves. Independent local review verifies 169 archived files, 78 tensor signatures,
+36 original-tolerance comparisons and 13 evaluation records with matched control
+seeds and fixed targets. Source pins and all scientific tolerances remain unchanged;
+CPU coverage is 75 original passes plus the two corrected workspace fixtures.
+Both setup refusals and their evidence remain. The user terminated the Pod at
+10:05 PM after verified copying, before the original 10:26 PM deadline.
+
+Primary pretrained EOT8 units measured 217.49/203.59/205.07 seconds; median clean
+and adversarial updates measured 5.90/32.67 seconds. The one-clip three-step bundle
+took 645.91 seconds and chose 2/255 for the diagnostic only. The research step,
+full-study cost, full calibration and research admission remain pending. Eight-clip
+training probes provide no held-out accuracy. No full training trajectory ran.
+
+Final billing is pending; quoted running cost for the reported 99-minute interval
+is an estimate of $1.221. Preserve the existing reservation and old invoice gap.
+Next rebuild the complete 20-class/eight-run cost projection from these units and
+the original schedule/headroom before preparing full 30-evaluation calibration.
+[Completed benchmark and limits](report/checks/2026-10-28-candidate-benchmark-verification.md).
+Earlier preparation and launch entries below describe their historical stage.
+
 ## 2026-10-28 — One bounded RTX PRO 4500 SE session approved
 
 The user accepts one SE benchmark at the confirmed $0.74/hour quote, with 30 GB
