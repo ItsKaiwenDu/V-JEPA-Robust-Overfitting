@@ -1,5 +1,44 @@
 # V-JEPA Robust Overfitting
 
+**Approved storage cleanup verified (October 30):**
+[Exactly 24 duplicate archive copies were removed, totaling 3.19 GB](report/checks/2026-10-30-duplicate-archive-cleanup-review.md).
+Mac backups remain verified; research usage reports 19G to 16G and a temporary
+8 MiB write/fsync passes. Full-capture quota headroom remains unknown. Next
+prepare a storage-aware CPU recovery plan; consumed probes are not restarted.
+
+**Exact archive cleanup approved; execution pending (October 30):**
+The user approved the [24-file duplicate-archive proposal](report/checks/2026-10-30-duplicate-archive-cleanup-proposal.md).
+Its hash-bound authorization is recorded. The guarded launcher is ready for one
+password-authenticated university connection; no remote file has been removed
+and no experiment is authorized by this approval.
+
+**Interrupted captures backed up; cleanup proposed (October 30):**
+[All 145 files verify; available saved portions pass unchanged numerical checks](report/checks/2026-10-30-cpu-oracle-salvage-review.md).
+Both full probes remain incomplete and the earlier discrepancy stays unresolved.
+A separate exact 24-archive cleanup proposal could free about 3.19 GB; all Mac
+backups and 1,583 members reverify. Removal remains unapproved and unrun.
+
+**CPU capture interrupted; storage quota identified (October 30):**
+[Both status downloads verify, but both reference captures are incomplete](report/checks/2026-10-30-cpu-oracle-status-review.md).
+10603 explicitly reports disk quota exceeded; 10609 also stops while saving,
+without a preserved traceback. Shared research storage uses 19G, plus a 6.6G
+environment. A tested copy-only helper preserves about 299 MB before cleanup;
+no deletion, probe retry, numerical result or financial change starts.
+
+**CPU probes invoked; retrieval pending (October 30):**
+[Both launch claims are consumed, but result archives are missing locally](report/checks/2026-10-30-cpu-oracle-retrieval-pending.md).
+A tested read-only helper retrieves the saved status and error logs without
+restarting either probe. Numerical outcomes and the cause remain unknown;
+original failures, evidence and financial caps stay unchanged.
+
+**CPU reference probe prepared (October 30):**
+[33 focused checks and a full 400-token CPU rehearsal pass](report/checks/2026-10-30-cpu-oracle-preparation.md).
+New unarmed ten-minute plans compare the original FP64 reference on linux10603
+and control host linux10609, saving three calls and actual intermediates before
+gates. Neither uses a GPU. Observation and CPU-only context limit interpretation;
+the old failure remains unresolved. No university work, paid compute, financial
+change, optimization adoption or research admission starts in preparation.
+
 **Fixed-input encoder review (October 30):**
 [The 656-token encoder comparison passes; the 400-token comparison stops](report/checks/2026-10-30-fixed-attention-review.md).
 Both runs load identical fixture bytes. Math attention takes 2.51 versus 4.02 ms

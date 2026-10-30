@@ -1,0 +1,274 @@
+{
+  "GPU_or_paid_work_started": false,
+  "all_available_saved_values_within_original_bounds": true,
+  "all_bitwise_comparisons_passed": true,
+  "archive_members_verified": 145,
+  "backup_integrity_verified": true,
+  "bitwise_comparisons": 476,
+  "both_original_full_probe_gates_still_reject": true,
+  "bounds": {
+    "atol": 1e-14,
+    "rtol": 1e-12
+  },
+  "cleanup_started": false,
+  "date": "2026-10-30",
+  "final_vs_fixed_reference_comparisons": 12,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "hosts": {
+    "linux10603": {
+      "archive_bytes": 133181440,
+      "archive_sha256": "c698ed7e4615192535b3e168752a1677959b66e1683c675b0827ad53346eeee7",
+      "capture_complete": false,
+      "complete_probe_pass": false,
+      "files_verified": 69,
+      "final_checks": {
+        "before": {
+          "dk": {
+            "atol": 1e-14,
+            "failed_elements": 0,
+            "max_absolute_error": 4.163336342344337e-17,
+            "max_tolerance_ratio": 0.0017685268458454777,
+            "passed": true,
+            "relative_l2_error": 2.6448822275540546e-16,
+            "rtol": 1e-12,
+            "shape": [
+              1,
+              16,
+              400,
+              64
+            ]
+          },
+          "dq": {
+            "atol": 1e-14,
+            "failed_elements": 0,
+            "max_absolute_error": 1.5265566588595902e-16,
+            "max_tolerance_ratio": 0.005640095599250297,
+            "passed": true,
+            "relative_l2_error": 6.540796151493177e-16,
+            "rtol": 1e-12,
+            "shape": [
+              1,
+              16,
+              400,
+              64
+            ]
+          },
+          "dv": {
+            "atol": 1e-14,
+            "failed_elements": 0,
+            "max_absolute_error": 1.1102230246251565e-16,
+            "max_tolerance_ratio": 0.005797306343110305,
+            "passed": true,
+            "relative_l2_error": 2.6825331333916693e-16,
+            "rtol": 1e-12,
+            "shape": [
+              1,
+              16,
+              400,
+              64
+            ]
+          },
+          "output": {
+            "atol": 1e-14,
+            "failed_elements": 0,
+            "max_absolute_error": 2.498001805406602e-16,
+            "max_tolerance_ratio": 0.007506069824549864,
+            "passed": true,
+            "relative_l2_error": 6.464108030754371e-16,
+            "rtol": 1e-12,
+            "shape": [
+              1,
+              16,
+              400,
+              64
+            ]
+          }
+        }
+      },
+      "folder": "runs/pretrained/diagnostic/cpu-oracle-salvage-20261030/linux10603/partial-copy-najlql_j",
+      "max_saved_value_error": 2.498001805406602e-16,
+      "max_tolerance_ratio": 0.007506069824549864,
+      "original_complete_trace_gate_accepts": false,
+      "partial_prefix_review_waives_complete_capture": false,
+      "prior_bound_files": 67,
+      "stage_checks_passed": true,
+      "trace_chunks_reviewed": 58,
+      "unbound_fragments_not_parsed": [
+        "results/evidence.tar.gz",
+        "results/workers/0/trace/chunk-058.npz.partial"
+      ]
+    },
+    "linux10609": {
+      "archive_bytes": 165427200,
+      "archive_sha256": "618bdf745fdf6f9175e5f63102a8ab8c4139d8003c979bfd745f6b309a87cd43",
+      "capture_complete": false,
+      "complete_probe_pass": false,
+      "files_verified": 76,
+      "final_checks": {
+        "before": {
+          "dk": {
+            "atol": 1e-14,
+            "failed_elements": 0,
+            "max_absolute_error": 4.163336342344337e-17,
+            "max_tolerance_ratio": 0.0017685268458454777,
+            "passed": true,
+            "relative_l2_error": 2.6448822275540546e-16,
+            "rtol": 1e-12,
+            "shape": [
+              1,
+              16,
+              400,
+              64
+            ]
+          },
+          "dq": {
+            "atol": 1e-14,
+            "failed_elements": 0,
+            "max_absolute_error": 1.5265566588595902e-16,
+            "max_tolerance_ratio": 0.005640095599250297,
+            "passed": true,
+            "relative_l2_error": 6.540796151493177e-16,
+            "rtol": 1e-12,
+            "shape": [
+              1,
+              16,
+              400,
+              64
+            ]
+          },
+          "dv": {
+            "atol": 1e-14,
+            "failed_elements": 0,
+            "max_absolute_error": 1.1102230246251565e-16,
+            "max_tolerance_ratio": 0.005797306343110305,
+            "passed": true,
+            "relative_l2_error": 2.6825331333916693e-16,
+            "rtol": 1e-12,
+            "shape": [
+              1,
+              16,
+              400,
+              64
+            ]
+          },
+          "output": {
+            "atol": 1e-14,
+            "failed_elements": 0,
+            "max_absolute_error": 2.498001805406602e-16,
+            "max_tolerance_ratio": 0.007506069824549864,
+            "passed": true,
+            "relative_l2_error": 6.464108030754371e-16,
+            "rtol": 1e-12,
+            "shape": [
+              1,
+              16,
+              400,
+              64
+            ]
+          }
+        },
+        "observed": {
+          "dk": {
+            "atol": 1e-14,
+            "failed_elements": 0,
+            "max_absolute_error": 4.163336342344337e-17,
+            "max_tolerance_ratio": 0.0017685268458454777,
+            "passed": true,
+            "relative_l2_error": 2.6448822275540546e-16,
+            "rtol": 1e-12,
+            "shape": [
+              1,
+              16,
+              400,
+              64
+            ]
+          },
+          "dq": {
+            "atol": 1e-14,
+            "failed_elements": 0,
+            "max_absolute_error": 1.5265566588595902e-16,
+            "max_tolerance_ratio": 0.005640095599250297,
+            "passed": true,
+            "relative_l2_error": 6.540796151493177e-16,
+            "rtol": 1e-12,
+            "shape": [
+              1,
+              16,
+              400,
+              64
+            ]
+          },
+          "dv": {
+            "atol": 1e-14,
+            "failed_elements": 0,
+            "max_absolute_error": 1.1102230246251565e-16,
+            "max_tolerance_ratio": 0.005797306343110305,
+            "passed": true,
+            "relative_l2_error": 2.6825331333916693e-16,
+            "rtol": 1e-12,
+            "shape": [
+              1,
+              16,
+              400,
+              64
+            ]
+          },
+          "output": {
+            "atol": 1e-14,
+            "failed_elements": 0,
+            "max_absolute_error": 2.498001805406602e-16,
+            "max_tolerance_ratio": 0.007506069824549864,
+            "passed": true,
+            "relative_l2_error": 6.464108030754371e-16,
+            "rtol": 1e-12,
+            "shape": [
+              1,
+              16,
+              400,
+              64
+            ]
+          }
+        }
+      },
+      "folder": "runs/pretrained/diagnostic/cpu-oracle-salvage-20261030/linux10609/partial-copy-f174zn9m",
+      "max_saved_value_error": 2.498001805406602e-16,
+      "max_tolerance_ratio": 0.007506069824549864,
+      "original_complete_trace_gate_accepts": true,
+      "partial_prefix_review_waives_complete_capture": false,
+      "prior_bound_files": 74,
+      "stage_checks_passed": true,
+      "trace_chunks_reviewed": 64,
+      "unbound_fragments_not_parsed": [
+        "results/evidence.tar.gz",
+        "results/workers/0/after.npz.partial"
+      ]
+    }
+  },
+  "independent_stage_comparisons": 976,
+  "kind": "cpu-oracle-interrupted-saved-values-review-v1",
+  "linux10603_original_partial_trace_refusal": "Incomplete or unrestored oracle observation.",
+  "logical_tensor_signatures_verified": 996,
+  "old_discrepancy_resolved": false,
+  "optimization_adopted": false,
+  "remote_connection_opened_during_review": false,
+  "research_admitted": false,
+  "retry_started": false,
+  "root_cause_claimed": false,
+  "unbound_fragment_bytes_never_used_as_numerical_evidence": true,
+  "unchanged_original_full_probe_refusals": {
+    "linux10603": "Incomplete or relabelled CPU probe coverage.",
+    "linux10609": "Incomplete or relabelled CPU probe coverage."
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "CPU_results_independently_reviewed": false,
+  "SSH_access_checks": {
+    "attempts": 2,
+    "authentication_succeeded": false,
+    "batch_mode": true,
+    "remote_command_executed": false
+  },
+  "both_local_launch_claims_consumed": true,
+  "cause_of_incomplete_downloads": "unknown",
+  "current_consumed_claims_and_plans": {
+    "runs/pretrained/diagnostic/cpu-oracle-university-20261030/linux10603/ATTENDED-LAUNCH-CLAIM.json": "3b93242a9f3c54cfac4a1dc0d9da7d91c3d11d28a857d36db8e30dc04e7c7974",
+    "runs/pretrained/diagnostic/cpu-oracle-university-20261030/linux10603/actual-launch.json": "61aad6e7e5836789a89e7351ecf136e1c643a49af0a1dc248cec788ed6a64c87",
+    "runs/pretrained/diagnostic/cpu-oracle-university-20261030/linux10609/ATTENDED-LAUNCH-CLAIM.json": "edb6b31aea1969f837a1bec1ff00e88fa8ea0ced48a76aa2b4a2822402fe18fa",
+    "runs/pretrained/diagnostic/cpu-oracle-university-20261030/linux10609/actual-launch.json": "3c2dd60b5624f068bbdeb685f6eeded0f2c4ba01d1475da9fa62555cf113c1c0"
+  },
+  "date": "2026-10-30",
+  "earlier_discrepancy_reproduced": "unknown",
+  "facts": {
+    "linux10603": {
+      "partial_downloads": {
+        "runs/pretrained/diagnostic/cpu-oracle-university-20261030/linux10603/case-download-sqantp1g/evidence.tar.gz.manifest.json": {
+          "bytes": 0,
+          "mtime_ns": 1793390158078105767,
+          "nonzero_bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "runs/pretrained/diagnostic/cpu-oracle-university-20261030/linux10603/case-download-sqantp1g/exit_status.txt": {
+          "bytes": 2,
+          "mtime_ns": 1793390156464848284,
+          "nonzero_bytes": 2,
+          "sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+        },
+        "runs/pretrained/diagnostic/cpu-oracle-university-20261030/linux10603/case-download-sqantp1g/launcher.log": {
+          "bytes": 1984,
+          "mtime_ns": 1793390158013653008,
+          "nonzero_bytes": 0,
+          "sha256": "5b4a97decc57a48382234b6f23e27a26357ea1855d3c052ff4db94e6f91e37ee"
+        }
+      },
+      "verified_archive_present": false
+    },
+    "linux10609": {
+      "partial_downloads": {
+        "runs/pretrained/diagnostic/cpu-oracle-university-20261030/linux10609/case-download-rhc0yi65/evidence.tar.gz.manifest.json": {
+          "bytes": 0,
+          "mtime_ns": 1793390172391547675,
+          "nonzero_bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "runs/pretrained/diagnostic/cpu-oracle-university-20261030/linux10609/case-download-rhc0yi65/exit_status.txt": {
+          "bytes": 2,
+          "mtime_ns": 1793390170776127790,
+          "nonzero_bytes": 0,
+          "sha256": "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7"
+        },
+        "runs/pretrained/diagnostic/cpu-oracle-university-20261030/linux10609/case-download-rhc0yi65/launcher.log": {
+          "bytes": 0,
+          "mtime_ns": 1793390170830511182,
+          "nonzero_bytes": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      },
+      "verified_archive_present": false
+    }
+  },
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "kind": "cpu-oracle-retrieval-pending-v1",
+  "linux10603_saved_exit_status": 1,
+  "linux10609_saved_exit_status_valid": false,
+  "new_reference_attempt_started": false,
+  "optimization_adopted": false,
+  "original_scientific_sources_packets_and_history_unchanged": true,
+  "partial_copies_preserved_with_modification_times": true,
+  "read_only_helper": {
+    "control_sha256": "66895bbb1773bbfde7bd49f728701daf7c60b2e61db9ec918c6752cdfdd9a632",
+    "max_response_bytes": 67108864,
+    "max_seconds_per_host": 600,
+    "new_GPU_or_paid_work": false,
+    "password_prompts": "one connection per host; user enters locally",
+    "path": "runs/pretrained/diagnostic/cpu-oracle-retrieval-20261030/download-status.sh",
+    "probe_restart_allowed": false,
+    "remote_writes": false,
+    "scope": "existing metadata/logs and bounded file inventory from both exact hosts",
+    "status": "prepared, not invoked by user"
+  },
+  "research_admitted": false,
+  "retrieval_checks": {
+    "check_groups": 9,
+    "checks": [
+      "existing metadata copied without writes or tensor reads",
+      "missing archive and incomplete worker preserved as errors",
+      "symlink metadata refused",
+      "invalid locator retained without following outside path",
+      "changed manifest never drives source-file reads",
+      "base64 transport members and original modification times verified",
+      "empty zero-filled and truncated responses refuse",
+      "wrong host payload checksum and member tampering refuse",
+      "single read-only SSH stub round trip; zero network connections or probe starts"
+    ],
+    "kind": "cpu-oracle-read-only-retrieval-checks-v1",
+    "network_connections": 0,
+    "passed": true,
+    "probe_started": false,
+    "temporary_evidence": "/private/tmp/cpu-status-read-only-ylgl9fhu"
+  },
+  "terminal_output_available": false,
+  "user_closing_terminal_established_as_cause": false,
+  "user_reports_launches_finished": true
+}

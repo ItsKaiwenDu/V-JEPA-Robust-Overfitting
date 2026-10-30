@@ -1,0 +1,200 @@
+{
+  "CPU_checks": {
+    "errors": 0,
+    "failures": 0,
+    "fresh_tiny_workers": 4,
+    "injected_refusal_preserves_three_calls": true,
+    "refusal_capture_integrity_verified": true,
+    "refusal_numerical_checks_passed": false,
+    "skipped": 0,
+    "tests": 33,
+    "xml_sha256": "b081d87e62bb1f27d36d94498760c3dc5817e2b2e0c3332dd5a7cebff0c256c0"
+  },
+  "CPU_probe_started_on_university": false,
+  "GPU_work_started": false,
+  "archive_bytes": 19042363,
+  "archive_sha256": "d6b02dc362be2a3a5244174bc2d1175f763d1f661d5cc89ab2e18afa17e63f53",
+  "date": "2026-10-30",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "full_fixture_files_reused_byte_for_byte": 9,
+  "handoff_sha256": "952ee2e1a9e45914b36557d0d3e5700ca2c1c0efb10ded675a2e443723ddb4b5",
+  "hosts": {
+    "linux10603": {
+      "actual_claim_exists": false,
+      "control_sha256": "712aac3ee8d3331aaa6613d0acd00bf1db53b5dc263bdcb9030be6fe9ca481fb",
+      "mock_scenarios": [
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "normal",
+          "simulated_launches": 1,
+          "simulated_uploads": 1
+        },
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "upload_retry",
+          "simulated_launches": 1,
+          "simulated_uploads": 2
+        },
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "download_retry",
+          "simulated_launches": 1,
+          "simulated_uploads": 1
+        },
+        {
+          "first_exit": 1,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "existing_directory",
+          "simulated_launches": 0,
+          "simulated_uploads": 0
+        }
+      ],
+      "proposal_sha256": "afb63fae08b94d68e706a5cf02c0faf510d3155ee1ebda028cbf0f4b46f2a285",
+      "remote_directory": "Desktop/VJEPA-Robust-Overfitting/cpu-oracle-transfer-20261030/linux10603",
+      "role": "target",
+      "unarmed": true
+    },
+    "linux10609": {
+      "actual_claim_exists": false,
+      "control_sha256": "1a052664f797f25f03305cb19ecde44c9a764d41165c7543c692b24e6295fc5f",
+      "mock_scenarios": [
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "normal",
+          "simulated_launches": 1,
+          "simulated_uploads": 1
+        },
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "upload_retry",
+          "simulated_launches": 1,
+          "simulated_uploads": 2
+        },
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "download_retry",
+          "simulated_launches": 1,
+          "simulated_uploads": 1
+        },
+        {
+          "first_exit": 1,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "existing_directory",
+          "simulated_launches": 0,
+          "simulated_uploads": 0
+        }
+      ],
+      "proposal_sha256": "17627cc52d953155b1f96e46de03be8071240438697137e11ef02fc3e88296a8",
+      "remote_directory": "Desktop/VJEPA-Robust-Overfitting/cpu-oracle-transfer-20261030/linux10609",
+      "role": "control",
+      "unarmed": true
+    }
+  },
+  "kind": "cpu-oracle-preparation-review-v1",
+  "limitations": [
+    "No CUDA context is initialized, unlike the earlier failed GPU worker; nonreproduction is inconclusive.",
+    "Python observation and file writes can perturb execution; before/observed/after equality is recorded, not assumed.",
+    "A numerical mismatch completes and saves the three planned calls, then stops before the next worker.",
+    "First captured mismatch is not a proven root cause; NumPy is an independent calculation, not a hardware oracle.",
+    "A finite clean sample does not establish host reliability or waive original failures."
+  ],
+  "limits_per_host": {
+    "automatic_retries": 0,
+    "calls_per_worker": 3,
+    "max_export_bytes": 1073741824,
+    "max_seconds": 600,
+    "stop_after_rejected_worker": true,
+    "worker_seconds": 90
+  },
+  "local_full_rehearsal": {
+    "CPU_only": true,
+    "CUDA_initialization": false,
+    "all_phase_outputs_bitwise_equal_within_worker": true,
+    "archive_bytes": 639754844,
+    "archive_members": 423,
+    "archive_sha256": "f197f21286d79f8c7639fc40ad46589f97a59725b0eede0f9912685976bf0f7b",
+    "numerical_checks_passed": true,
+    "phase_vs_fixed_reference_comparisons": 48,
+    "reference_calls": 12,
+    "stage_chunks": 256,
+    "stage_comparisons": 2048,
+    "uncompressed_evidence_bytes": 691768022,
+    "university_host_qualification": false,
+    "wall_seconds_before_archive_export": 9.463839292526245,
+    "workers": 4
+  },
+  "mock_transport_scenarios_passed": 8,
+  "new_sources_match_tested_and_full_packet": true,
+  "optimization_adopted": false,
+  "original_scientific_source_pins": 61,
+  "paid_compute_started": false,
+  "preparation_verified": true,
+  "prior_consumed_claims_unchanged": {
+    "runs/pretrained/diagnostic/attention-components-university-20261030/linux10603/ATTENDED-LAUNCH-CLAIM.json": "466ef6ae3b77ae0dff5048e99ec592445e0fb936f7690f3629eaa92c08f45419",
+    "runs/pretrained/diagnostic/attention-components-university-20261030/linux10603/actual-launch.json": "0d32663aaf333ad4d2416cc10ca30c945a66acf23d4362e17c2bae6ab5cd1680",
+    "runs/pretrained/diagnostic/attention-components-university-20261030/linux10609/ATTENDED-LAUNCH-CLAIM.json": "4c02bc5f40cad3dab79d27a158a15af0a056766b6f672ab3f7ea496464c406d9",
+    "runs/pretrained/diagnostic/attention-components-university-20261030/linux10609/actual-launch.json": "f5d590fc32702596be19c9366421629ece96bf25b4362a7f37929abc67a146e4",
+    "runs/pretrained/diagnostic/fixed-attention-university-20261030/linux10603/ATTENDED-LAUNCH-CLAIM.json": "4077b9bfb231198b35c97fa8387554fefc14e7e262db2cfa6e734a12e1581127",
+    "runs/pretrained/diagnostic/fixed-attention-university-20261030/linux10603/actual-launch.json": "2738e3b71187b251bc621ae54bbc011ce9d38088b315fa69796934221f0a0ecd",
+    "runs/pretrained/diagnostic/fixed-attention-university-20261030/linux10609/ATTENDED-LAUNCH-CLAIM.json": "98489bbd4c11599ee54eef14e82626abf773f5a92e1a63c4abc87949a9e54f76",
+    "runs/pretrained/diagnostic/fixed-attention-university-20261030/linux10609/actual-launch.json": "f6615ff3bf40c4d744f3abe7def5837d2dfbf229641cf2023b5c5d1921b2a01e"
+  },
+  "remote_connections_opened": false,
+  "research_admitted": false,
+  "restored_packet_members": 129,
+  "source_metadata_fixture_files": 128,
+  "tasks_in_order": [
+    [
+      4,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "upload_started": false,
+  "upstream_source_bindings": 33
+}

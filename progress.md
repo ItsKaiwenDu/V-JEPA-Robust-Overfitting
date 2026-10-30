@@ -1,5 +1,113 @@
 # Research Progress Reports
 
+## 2026-10-30 — Approved archive cleanup completed; small writes work again
+
+The authorized cleanup removes exactly 24 compressed exports, 3,186,014,424
+logical bytes. Independent review verifies 50 ordered events, all-before-removal
+preflight, the exact scope and final count. All 24 Mac backups/sidecars, the 145
+interrupted-capture backup files, scientific sources and consumed claims remain
+verified. Captured receipts are preserved; no experiment starts.
+
+The user's linux10603 check reports research usage decreasing from 19G to 16G,
+with a successful temporary 8 MiB write/flush/fsync and file closure. Quota output
+still gives no exact limit, so larger-capture headroom is not established.
+Legacy remote archive audits require restoration from the Mac when needed.
+The cleanup claim is consumed. Next prepare a separate storage-aware CPU recovery
+plan; both incomplete reference claims remain consumed and the earlier numerical
+discrepancy stays unresolved. All financial caps/holds stay unchanged.
+[Completion review](report/checks/2026-10-30-duplicate-archive-cleanup-review.md).
+
+## 2026-10-30 — Exact 24-archive cleanup approved, not yet executed
+
+The user explicitly approved the 3,186,014,424-byte duplicate-archive proposal.
+Authorization binds its exact SHA256 and 24-file scope. All prior local/remote
+hash, size, path and regular-file guards remain; no experiment is authorized.
+The launcher is armed but requires a local password-authenticated connection.
+No cleanup attempt, remote removal or financial change has occurred yet.
+[Approved scope](report/checks/2026-10-30-duplicate-archive-cleanup-proposal.md).
+
+## 2026-10-30 — Interrupted captures verified; duplicate-archive cleanup prepared
+
+Both backup archives reverify: 145 files, 996 logical tensor signatures,
+976 independently recalculated intermediate arrays, 12 final-reference checks
+and 476 exact-byte comparisons. All available complete saved values meet the
+original bounds; maximum error is 2.4981e-16. Two unfinished fragments and two
+empty export files remain unqualified. The unchanged complete-trace reader
+rejects 10603's prefix, and the unchanged full-probe reader rejects both incomplete
+sessions. The earlier discrepancy remains unresolved; no research result follows.
+
+An exact proposal names 24 older compressed university exports whose Mac backups
+and 1,583 members were freshly verified. Nominal size is 3,186,014,424 bytes.
+It retains unpacked results, source, environments, claims and new failed captures.
+Legacy remote archive audits would need their exact archive restored from Mac.
+Eleven local guard checks pass; the actual launcher refuses without a separate
+approval record. User approval is pending; no cleanup or new probe has started.
+Financial caps, holds and reservations remain unchanged.
+[Saved-value review](report/checks/2026-10-30-cpu-oracle-salvage-review.md) ·
+[Exact cleanup proposal](report/checks/2026-10-30-duplicate-archive-cleanup-proposal.md).
+
+## 2026-10-30 — CPU capture interrupted; quota error and partial evidence reviewed
+
+The two read-only downloads verify: 18 metadata files, eight checksummed records
+and 256 source hash visits. All original sources, packets and consumed claims
+remain unchanged. 10603 explicitly fails with disk quota exceeded while saving
+an observed chunk; 58 chunk receipts and its before output remain. 10609 saves
+before/observed outputs and all 64 observed chunks, then stops during the after
+phase; its empty logs leave the exact exception unknown. Both are incomplete,
+no subsequent workers start, and no numerical result or SSH-exit cause is claimed.
+
+The user reports 19G in shared research storage plus a 6.6G environment. Empty
+quota-command output does not reveal the allowance; 2.1T global filesystem space
+does not establish personal quota. A separate copy-only Mac helper is prepared
+for 145 existing files totaling 298,518,026 bytes. It requires no remote scratch
+space and verifies 141 prior hashes while keeping four unbound empty/partial
+files explicitly unqualified. Local copy checks and six refusal variants pass.
+Next copy and inspect existing fragments before proposing exact redundant-file
+cleanup. No deletion, retry, reference/GPU/paid work or financial change starts.
+The earlier numerical discrepancy remains unresolved.
+[Status review](report/checks/2026-10-30-cpu-oracle-status-review.md).
+
+## 2026-10-30 — CPU probe claims consumed; saved status retrieval pending
+
+The user reports both helpers finished and Terminals closed. Neither local
+download has a verified archive. Linux10603's copied exit status is 1, but its
+copied log is zero-filled and export manifest empty. Linux10609's copied status
+is invalid zero-filled data, with empty log/manifest. No numerical result,
+remote failure cause or connection to closing Terminal is established.
+
+Partial files and modification times are preserved. Both current launch claims
+and all earlier claims/packets remain unchanged and consumed. A separate
+read-only helper is prepared to copy existing logs/status and bounded inventories
+through one password prompt per host. Nine local retrieval-check groups pass,
+including malformed responses, path guards and a network-free transport stub.
+Two BatchMode SSH authentication checks failed without running remote commands.
+Next use only the new download-status helper; never repeat a CPU/GPU launch.
+No new reference attempt, paid resource, financial change or research admission.
+[Pending retrieval review](report/checks/2026-10-30-cpu-oracle-retrieval-pending.md).
+
+## 2026-10-30 — CPU reference forensics prepared for target and control hosts
+
+All 33 focused CPU checks pass with zero skips. A separate full 400-token local
+rehearsal completes four fresh CPU workers: 12 calls, 256 captured chunks,
+2,048 independently recalculated stages and 48 final fixed-reference checks.
+Its restored 639,754,844-byte export verifies. The 19,042,363-byte handoff restores
+129 members, preserving the original fixture bytes, 61 scientific pins,
+33 upstream bindings and eight prior consumed claim/plan files. Eight mock
+transport scenarios pass; no actual university connection or upload starts.
+
+New unarmed attended helpers target linux10603 and control linux10609. Each
+allows ten minutes, four predetermined fresh CPU workers at one/four threads,
+three before/observed/after calls per worker, 90 seconds per worker and a 1 GiB
+uncompressed evidence cap. Saved intermediate values precede numerical gates;
+a rejected worker completes those three calls then stops further workers.
+No CUDA context, SDPA/model/optimizer or paid work runs. Original reference math
+and tolerances stay unchanged. Tracing may perturb execution, and omitting prior
+CUDA context makes a clean isolated sample inconclusive; no root cause, host
+reliability, GPU qualification or research result is claimed. Finance unchanged.
+Next manually invoke both new CPU-only Mac helpers once, keep the sessions
+attended through download, then independently review the saved evidence.
+[Preparation review](report/checks/2026-10-30-cpu-oracle-preparation.md).
+
 ## 2026-10-30 — Fixed-input encoder-0 passes; encoder-1 CPU reference refuses
 
 Both exports verify: 317 regular archive members, 104 worker tensor signatures,

@@ -2,6 +2,201 @@
 
 ## Current stage
 
+LATEST Oct30: APPROVED24-ARCHIVE CLEANUP COMPLETE/VERIFIED; WRITES WORK.
+Read report/checks/2026-10-30-duplicate-archive-cleanup-review.json/md FIRST.
+Actual rawduplicate-archive-cleanup-20261030/cleanup-session-nbqgd8ei receipt
+and50events independentverified. All24preflights BEFOREfirstremove; exact24
+orderedpaths/hashes/bytes match approvedproposal;total3186014424bytes3.19GB.
+EventSHA60a7b19e73a25e4c4b200cde2b1e79a7daf49e00cec3a033dd1010ed575e974f.
+OriginalproposalSHA5dde205601c6d755d24a42450ba5e11a85dbd913e1eb70ed18e5ac081daa2118
+andapprovalSHA26c6d1ac9ecffaac67ddfabb070f85227c01334ff0941906d364b09e551fefa6
+unchanged. CLEANUP-ATTEMPT.json EXISTS/CONSUMED; NEVERrepeatcleanuphelper.
+Mac24backuparchives+24sidecars rehashed;prior1583memberverification bound by
+unchangedSHA. All145currentCPUbackupfiles reverified. Sources/packets/claims
+unchanged; no experiment/paidresource/financialchange. Onlyapprovedcompressed
+exportsremoved;unpackeddata/env/weights/logs/sidecars/source/currentCPUfiles
+notindeletionscope. LegacyremotearchiveauditrequiresrestorefromMacfirst.
+Userpostcheck linux10603:researchdu19G->16G,quota-sEMPTY,temporary8MiBwrite+
+flush+fsyncPASS/filecontextclosed. ThisisUSERprovidedreadout,notnewagentSSH;
+smallwritabilityconfirmed,EXACTpersonalquota/fullcaptureheadroom UNKNOWN.
+No freshremoteabsence-scan;verifiedoperationlog+userdu/write supportcompletion.
+DO NOTcall3.19GBremovedareservationorprovefullcaptureretrysafe. NEXT PREPARE
+separatelyidentified storage-awareCPUrecoveryplan,boundedI/Oandheadroomchecks;
+noautomaticrerun. ExistingCPUattempts600s/4workersconsumed;newattemptneeds
+separate reviewedbound/authorization,noreset. BothfullCPUprobesINCOMPLETE;
+savedportions976stage/12final/476bitwisePASS,oldnumericdiscrepancyUNRESOLVED.
+No rootcause/hostreliability/research/adoption claimed. Currentcapturedreceipts
+unchanged;independent-completion-review holds audit/report/userpostcheck.
+Financeunchanged9.8116/.1884/old2hold/.0792gap/10diagnostic/160compute/200project/
+40reserve,lastwallet6.56/fullreconciliationfalse.AllknownRunpodterminated.
+Usercommitsself;NEVERstage/commit/push. OlderLATESTparagraphshistorical.
+
+LATEST Oct30: EXACT24-ARCHIVE CLEANUP EXPLICITLY APPROVED, NOT RUN.
+User answered APPROVE these24archive removals. Existing unmodifiedproposal SHA
+5dde205601c6d755d24a42450ba5e11a85dbd913e1eb70ed18e5ac081daa2118,
+3186014424bytes. NEW rawduplicate-archive-cleanup-20261030/CLEANUP-AUTHORIZATION.json
+approvedtrue/exactproposal/files24/userbasis recorded. AuthorizationSHA
+26c6d1ac9ecffaac67ddfabb070f85227c01334ff0941906d364b09e551fefa6.
+Launcherremove-approved-duplicates.sh ARMED, but NO CLEANUP-ATTEMPT.json or
+cleanup-session exists. User must run ONCE in LOCAL MacTerminal to enterSSH
+password. No furtherpermissionquestionneeded for exactapprovedlist. Before
+removalMac24backupsrehash;ALL24remotehash/size/type/nlink/pathcomponentsverify
+BEFOREanyunlink. Keepallguards;scopeONLY24tar.gzfiles,notdirectories/globs/
+sidecars/unpackeddata/env/weights/source/claims/currentCPUfailures. Legacyremote
+archiveauditrequiresrestorefromMac;userinformed. Noautomaticretry afterSSH
+failure/interruption;inspectMacsavedprogress/read-onlyremotestatefirst. Capture
+receipt then independentlyverifydeletion/headroom;noautomaticCPU/GPU/research
+restart. OriginalreferenceattemptsCONSUMED;cleanupapprovalisNOTnewresourcegrant.
+145currentpartialbackupfiles/996tensors/976stagechecks/12finalchecks/476bitwise
+verified;bothfullprobesstillincomplete/oldnumericfailureunresolved. Source/
+claims/thresholds/budgets unchanged. Finance9.8116/.1884/old2hold/.0792gap/
+10diagnostic/160compute/200project/40reserve,lastwallet6.56/reconciliationfalse.
+Usercommitsself;NEVERstage/commit/push. OlderLATESTparagraphshistorical.
+
+LATEST Oct30: PARTIAL CAPTURES BACKED UP/REVIEWED; CLEANUP APPROVAL PENDING.
+Read report/checks/2026-10-30-cpu-oracle-salvage-review.json/md AND
+2026-10-30-duplicate-archive-cleanup-proposal.json/md FIRST. Actualsavedcopies
+rawcpu-oracle-salvage-20261030/linux10603/partial-copy-najlql_j archive133181440
+sha c698ed7e4615192535b3e168752a1677959b66e1683c675b0827ad53346eeee7;
+linux10609/partial-copy-f174zn9m archive165427200
+sha618bdf745fdf6f9175e5f63102a8ab8c4139d8003c979bfd745f6b309a87cd43.
+145members/141priorSHA+4unbound(twoemptyexports/twopartials) verified;unbound
+fragmentsNOTparsedasnumericalproof. 996logicaltensorchecks/976NumPystagechecks/
+12fixedfinalchecks/476bitwisechecksPASS availableportions,maxerror2.4981e-16,
+maxratio.007507. 10603only58chunks+before;10609all64observed+before/observed.
+Originalcomplete-tracereaderREJECTS10603prefix;originalfullsummarizerREJECTS
+BOTHincompleteprobes. No laterworkers/completeaftercall invented. OldCPU
+numericaldiscrepancyUNRESOLVED;nodeclarationhostreliable/rootcause/GPUpass.
+Allold/currentclaims/source/packets/thresholds remainfrozen;NEVERrerunlaunch.
+NEWraw duplicate-archive-cleanup-20261030/proposal.json namesEXACT24compressed
+exportarchives,3186014424bytes(3.19GB/2.97GiB):20matchedpanel+4olderattention.
+FreshMacSHA+1583membervisits verifyeverybackup. FulltableintrackedMDandJSON.
+ProposalSHA5dde205601c6d755d24a42450ba5e11a85dbd913e1eb70ed18e5ac081daa2118.
+Unpackedresults/sidecars/env/weights/source/claims/newfailedCPUfilesOUTOFSCOPE.
+Legacyremotearchive-reverification NEEDSrestoreofdeletedarchivesfromMac.
+Actualremoteexistence/nlink/quotaheadroomNOTyetchecked. Needexplicituser
+approvalforthese24remotecopyremovals;backup/reviewinstructiondidNOTauthorize
+deletion. CLEANUP-AUTHORIZATION.json and CLEANUP-ATTEMPT.json ABSENT. Launcher
+remove-approved-duplicates.sh UNARMED;noactualremoteconnection/removal. Only
+afterapproval recordkindduplicate-export-archive-cleanup-authorization-v1,
+approvedtrue/proposal_sha256exact/files24 plususerbasis;nonewresourcegrant.
+RehashlocalbackupsbeforeSSH;remotechecksALL24hash/size/regular/nlink1/path
+components BEFOREanyunlink,thenidentityrecheckwithheldfd/dirfd. Missing/changed
+targetSTOPzero-removals;partialinterruptionNEVERretry,read-onlyinspectfirst.
+11localcheckgroupsPASS inclhash/missing/link/traversal/duplicate/mutation and
+actualunarmedlauncherrefusalbeforeSSH;onlyTMPfixturesdeleted. Exactcleanup
+createsnoremotefiles;receiptMac. No automaticprobeaftercleanup. Needverified
+quotaheadroom/separatenewboundedplanbeforeanyreferenceattempt.
+Financialstateunchanged9.8116/.1884/old2hold/.0792gap/single10diagnostic/
+160compute/200project/40reserve,lastwallet6.56/reconciliationfalse.
+AllknownRunpodterminated. Usercommitsself;NEVERstage/commit/push. OlderLATEST
+paragraphshistorical. Raw independent-saved-values-review hasaudscripts/proof.
+
+LATEST Oct30: CPU STATUS VERIFIED; QUOTA ERROR; PARTIAL-TENSOR COPY NEXT.
+Read report/checks/2026-10-30-cpu-oracle-status-review.json/md FIRST. Newreadonly
+status downloads:10603 status-download-e2bmvz5g /10609 status-download-svwzvw7g
+under cpu-oracle-retrieval-20261030/HOST. BothSHA/base64/member/mtimeverified;
+18metadatafiles/8JSONrecords/256sourcehashvisits. 61sciencepins/33bindings and
+old/currentpackets+claims unchanged. Neitherprobe running atstatuscheck.
+10603 runcpu-oracle.UE1YgN parent~9.596s/worker0stageobserved/onlybeforepass,
+58/64tracechunkreceipts,chunk-058.npz.partial. SAVEDworker.log EXPLICIT
+OSError122Diskquotaexceeded atfsync;finalindex/workerpersistencealsorejected.
+Savedindexhookfalse isSTALEbeforefailedfinalwrite,notproofhookleftinstalled.
+10609 runcpu-oracle.2iN2BH parent~10.614s/stageafter/before+observedpassrecords,
+64completeobservedchunks/hookrestoredtrue/after.npz.partial. Emptyworker+parent
+logs; noexplicitquotatraceback on10609;sharedquotacause CONSISTENT,notPROVEN.
+BothparenttasksEMPTY/capturefalse,NOlater1thread/replayworker,NOvalidexport.
+BothrecordedbeforeNPZsha c7da1f108881a005432443180ffe10f814bf67aa541abae109add84276a8a7f8;
+10609observedsamehash. MetadataONLY: actualNPZ notdownloaded/numericallychecked.
+976arraydescriptors/122chunks,NOT976verifiedcomparisons. Originalnumericfailure
+UNRESOLVED;DO NOTclaimmathfailure/reproduction/harmlessrounding/SSHexitcause.
+Userdu:research19G,matchedpanel7.7G,checkout4.9G,env6.6G,uvPython109M;quotas/v
+printnothing/exactlimitUNKNOWN.2.1TglobalfreeNOTpersonalquota/availability.
+NEW cpu-oracle-salvage-20261030/copy-existing-files.sh PREPARED,UNRUN. OneMac
+commandreads145EXISTINGfiles298518026bytes viaSSH-Tstreamingtar/onepassword
+perhost/600sconnection. NOremote archive/write/delete/model/probe/CUDA/paidwork.
+141filesboundtoreportedpriorSHA;2partialfragments+2emptyarchivesUNBOUNDand
+UNQUALIFIED;notvalidcalculations. Localfreshfolder/size/exactnames/priorSHA/
+regularfilegatesbeforeextract. Rejectchanged/duplicate/traversal/symlink/missing;
+preservepartialcopies. Localcopychecks+6refusalvariants+networkfreeSSHstubPASS.
+Useonlycopyhelper next;reviewactualpartialNPZ beforeexactduplicatecleanupplan.
+NEVERrerunconsumedrun-attended/removeclaim/altercapturedsource/threshold.
+No cleanup started/authorized;leaveenv+uniqueevidence. Needverifiedquotaheadroom
+andseparateboundedplanbeforeanynewreferenceattempt. Existing1attemptsconsumed.
+Financeunchanged9.8116/.1884/old2hold/.0792gap/10diagnostic/160compute/200project/
+40reserve,lastwallet6.56/fullreconciliationfalse.AllknownRunpodterminated.
+Usercommitsself;NEVERstage/commit/push. OlderLATESTparagraphshistorical.
+
+LATEST Oct30: CPU PROBES INVOKED; STATUS/ERROR RETRIEVAL PENDING.
+Read report/checks/2026-10-30-cpu-oracle-retrieval-pending.json/md FIRST.
+UserreportsDone/closedMacTerminals; nooutputhistoryavailable. BOTH current
+cpu-oracle-university-20261030/HOST ATTENDED-LAUNCH-CLAIM.json+actual-launch.json
+exist,CONSUMED. NEVERrerun run-attended.sh/removeclaim/alterpacket to retrieve.
+No verified resultarchivein eitherhostfolder. 10603 case-download-sqantp1g:
+exit_status1;launcher.log1984bytesALLZERO;exportmanifest0bytes. 10609
+case-download-rhc0yi65:status2bytesALLZERO/INVALID;log+manifest0bytes.
+DO NOT claim numericalpass/fail,reproduceddiscrepancy,remoteerrorcause or that
+closingTerminalcausedit. Partial snapshotsCOPY2 preserveoriginalmtime under
+NEW rawcpu-oracle-retrieval-20261030/original-partial-snapshots. Alloriginal
+source/packet/science/history/currentclaims preserved. TwoBatchModeSSHaccess
+checks authenticationdenied,NOremotecommandexecuted. Passwordonlyuserlocal.
+NEW cpu-oracle-retrieval-20261030/download-status.sh PREPARED,UNRUN. OneMac
+commandcopies existingmetadata/logs/status/inventory BOTHexacthosts,oneSSH-T
+passwordpromptperhost,600sperconnection/64MiBresponse/32MiBmetadatabound.
+Remote stdlibONLY/read-only/noTorch/noexperiment/noCUDA/no remote writes;
+sourcehashreadsonlyafter exactoldmanifest. No tensors copied, onlyfilemetadata.
+Base64+SHAresponse+perfilehash+mtime retained;missing/unstable/zero data remain
+evidence,transportverified isNOTscientificpass. 9localretrievalcheckgroupsPASS
+withnetwork-freeSSHstub;noactualmetadataretrievalyet. Saved program/control
+SHA checks protecthelper;doNOTeditcapturedoldoperators. Newstatushelper may
+beusedforreadonlycopy,NEVERasresource/retryauthorization. Reviewretrieved
+session/workererrorsbeforefullarchivefetchoranynewproposal. NoCPU/GPUretry,
+thresholdrelaxation,adoption/researchadmission. Financeunchanged9.8116encumbered/
+.1884unreserved/old2hold/.0792gap/10diagnostic/160compute/200project/40reserve,
+lastwallet6.56/fullreconciliationfalse. AllknownRunpodterminated. Usercommits
+self;NEVERstage/commit/push. OlderLATESTparagraphsarehistoricalsnapshots.
+
+LATEST Oct30: CPU-ONLY REFERENCE PROBE PREPARED, UNRUN.
+Read docs/cpu_oracle_reference_probe.md and report/checks/2026-10-30-cpu-oracle-
+preparation.json/md FIRST. NEW models/oracle_trace.py,cpu_oracle_{packet,probe}.py,
+check/prepare/university_cpu_oracle scripts,2testfiles. Originalfp64_oracle math
+UNCHANGED; same400-tokenencoder1 fixture9files byteidentical. 33focusedCPUtests
+zero skips;4freshtinyworkers + injectednumericalrefusal keeps all3calls/trace.
+FullLOCAL400-tokenCPUrehearsal4freshworkers/12calls/256chunks/2048stagechecks/
+48finalreferencechecks PASS;423member639754844bytearchive restored/reaggregated,
+sha f197f21286d79f8c7639fc40ad46589f97a59725b0eede0f9912685976bf0f7b.
+Capture/checking9.46s PRE-export, nottotalhandoff. NoCUDAinitialized,NOTuniversity
+qualification. Upload19042363bytes,d6b02dc362be2a3a5244174bc2d1175f763d1f661d5cc89ab2e18afa17e63f53,
+manifest952ee2e1a9e45914b36557d0d3e5700ca2c1c0efb10ded675a2e443723ddb4b5,
+128source/meta/fixturefiles+manifest129members. New8sources matchCPUtestedtiny
+packet. 61sciencepins/33upstream/eightoldconsumedclaim-planfiles unchanged.
+Raw cpu-oracle-university-20261030/linux10603 target,linux10609 control have
+NEWunarmed run-attended.sh proposals,NOactualplan/claim. BothmayrunparallelCPU.
+Manual explicit invocation activates ONEnewCPU-only attendedplanperhost; no
+GPUresource/statusneeded. Keep LOCAL MacTerminals/SSH/lidopen/awake untildownload;
+caffeinate+knownhostverification. Remote CPU_ORACLE_LAUNCH_STARTED incl extraction,
+600s total/worker90s/killgrace5s/1GiBuncompressedexport/noautomaticdiagnosticretry.
+Predeterminedfreshworkers (4threads,0),(1,0),(4,1),(1,1). Eachruns originalCPU
+oracle before/observed/after; ALL3 savedbeforegates. Numericalrefusal finishes
+3plannedcalls then stopsbefore nextworker. All64actualfunctionchunkintermediates
+captured via Pythonlinetrace,priorhookrestored. NumPy independently audits8stages.
+Inputs remainfixed; no runtimegeneration/fallback. CPU/library/thread/rounding/
+location/context recorded; CUDAhidden/uninitialized; no nvidia-smi/SDPA/model/
+optimizer/install. Runtime MUST match oldPython3.11.17,torch2.8.0+cu128,np2.4.6.
+Observer/filewrites mayperturb; before/observed/after exactequality recorded,
+notassumed. CPU-only omits priorGPUworkerCUDAinitialization. Clean finite sample
+DOESNOTestablishrootcause/hostreliability/waivefailure. Firstcapturedmismatch
+isnotkernel/rootcausediagnosis. Numericalrefusal/coverage/integrity distinct.
+8MOCKtransportscenariosPASS,no network. Sameuploadrecoverybeforelaunchonly;
+copyrecoverydownloadonly,freshfolders. Ifcopyfails preservepartial,useONLYnew
+host download-only.sh afterreview. Downloads~640MB/fullhost;promptpasswords.
+NEVER rerunold/newconsumedhelper,removeclaim,altercapturedsources/thresholds.
+Prepopens NOrealSSH/upload/universityCPU/GPU/paidwork. Allpreviousfailuresfrozen;
+nofullmodel/cost/adoption/researchqualified. Financeunchanged9.8116encumbered/
+.1884unreserved/old2hold/.0792gap/10diagnostic/160compute/200project/40reserve,
+lastwallet6.56/fullreconciliationfalse. AllknownRunpodterminated. Usercommitsself;
+NEVERstage/commit/push. OlderLATESTparagraphsarehistoricalsnapshots.
+
 LATEST Oct30: FIXED-INPUT ENCODER0 PASS; ENCODER1 CPU ORACLE REFUSES.
 Read report/checks/2026-10-30-fixed-attention-review.json/md FIRST. User ran
 both NEW fixed-attention helpers; claims/actualplans now CONSUMED. NEVER rerun
