@@ -1,0 +1,255 @@
+{
+  "archive_bytes": 108589500,
+  "archive_sha256": "dbf458e501d0c1b00250068fda75680f49bee263a905b88dff48e0b6ff81fc44",
+  "backward_fraction_of_unprofiled_EOT8_wall": [
+    0.7826778484858524,
+    0.7854039813523752,
+    0.7863068518685281
+  ],
+  "boundary_guard_seconds": [
+    0.013051505200564861,
+    0.013341927900910378,
+    0.012816233094781637,
+    0.013545561581850052,
+    0.01329004392027855,
+    0.013176583219319582
+  ],
+  "captured_aggregate_is_a_corrected_kernel_partition": false,
+  "corrected_device_summary": [
+    {
+      "CPU_linked_activity_duration_us": 1085708.083,
+      "CPU_linked_minus_direct_duration_us": 2234.5999999996275,
+      "CPU_linked_to_direct_ratio": 1.0020624408765522,
+      "direct_device_activity_duration_us": 1083473.4830000005,
+      "direct_device_activity_events": 32255,
+      "direct_device_activity_union_us_by_device": {
+        "0": 1083473.4830000002
+      },
+      "excluded_CUDA_annotation_events": 157,
+      "excluded_CUDA_annotation_inclusive_duration_us": 654174.9590000003,
+      "groups_by_explicit_kernel_name": {
+        "attention_backward": {
+          "count": 72,
+          "duration_us": 581996.0620000004,
+          "share_of_direct_device_duration": 0.5371576426480944
+        },
+        "attention_forward": {
+          "count": 144,
+          "duration_us": 119410.91099999979,
+          "share_of_direct_device_duration": 0.11021119840364357
+        },
+        "other_device_activity": {
+          "count": 32039,
+          "duration_us": 382066.5100000002,
+          "share_of_direct_device_duration": 0.35263115894826197
+        }
+      },
+      "replay": 0,
+      "trace_sha256": "b355330ab7852419a001e8cbdc4d34ee5ac10453dbc82c87e82807f58b85994b"
+    },
+    {
+      "CPU_linked_activity_duration_us": 1085868.5049999966,
+      "CPU_linked_minus_direct_duration_us": 2252.0049999998882,
+      "CPU_linked_to_direct_ratio": 1.0020782306286402,
+      "direct_device_activity_duration_us": 1083616.4999999967,
+      "direct_device_activity_events": 32255,
+      "direct_device_activity_union_us_by_device": {
+        "0": 1083616.4999999967
+      },
+      "excluded_CUDA_annotation_events": 157,
+      "excluded_CUDA_annotation_inclusive_duration_us": 651170.634,
+      "groups_by_explicit_kernel_name": {
+        "attention_backward": {
+          "count": 72,
+          "duration_us": 582335.6339999995,
+          "share_of_direct_device_duration": 0.5374001171078525
+        },
+        "attention_forward": {
+          "count": 144,
+          "duration_us": 119405.07000000034,
+          "share_of_direct_device_duration": 0.1101912623146664
+        },
+        "other_device_activity": {
+          "count": 32039,
+          "duration_us": 381875.79599999706,
+          "share_of_direct_device_duration": 0.35240862057748124
+        }
+      },
+      "replay": 1,
+      "trace_sha256": "4a50f0f93e65449e450a68ed0b6263f7ef34a6df3cc06b4b2fed352fb8e1fc68"
+    }
+  ],
+  "correctness_and_replay_verified": true,
+  "date": "2026-10-30",
+  "detailed_scope": "Original attack draw0 with both mask families on one training clip. Device-duration shares, not full-EOT8/PGD wall fractions.",
+  "device_accounting_corrected_offline": true,
+  "device_accounting_correction_sha256": "c3ba7998baf445dcfcd67f664020f779e9070e05c1054e96f507eb407caacadd",
+  "device_attention_backward_shares": [
+    0.5371576426480944,
+    0.5374001171078525
+  ],
+  "device_attention_forward_shares": [
+    0.11021119840364357,
+    0.1101912623146664
+  ],
+  "download_directory": "runs/pretrained/diagnostic/eot-work-profile-university-20261029/case-download-j10olicf",
+  "draw_observer_time_ratios": [
+    1.0474591698478601,
+    1.036326413319438
+  ],
+  "exact_tensor_comparisons": 32,
+  "exit_status": 0,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "foreign_compute_process_observed": false,
+  "full_EOT8_control_seconds": {
+    "forward_seconds": [
+      2.145961848087609,
+      2.145944584161043,
+      2.203138749115169,
+      2.1663570310920477,
+      2.157445785589516,
+      2.193060261197388
+    ],
+    "input_backward_seconds": [
+      7.887134039308876,
+      7.8946178099140525,
+      7.93452431820333,
+      7.895507585722953,
+      7.938553100917488,
+      7.932133994996548
+    ],
+    "objective_seconds": [
+      10.033095887396485,
+      10.040562394075096,
+      10.137663067318499,
+      10.061864616815,
+      10.095998886507004,
+      10.125194256193936
+    ]
+  },
+  "full_study_cost_approved": false,
+  "handoff_sha256": "c95c0b21ee018dfd6c897756baf453dc7d69eb1d52b5c64d99e1ac4b4b945dbd",
+  "independent_scientific_review_complete": true,
+  "kind": "university-EOT-work-profile-independent-review-v1",
+  "median_boundary_guard_seconds": 0.013233313569799066,
+  "median_unprofiled_seconds": {
+    "forward_seconds": 2.161901408340782,
+    "input_backward_seconds": 7.91382079035975,
+    "objective_seconds": 10.078931751661003
+  },
+  "new_GPU_model_or_SSH_work": false,
+  "next": "Prepare a separately identified FP32 attention-backward/backend diagnostic with strict numerical and memory gates; keep existing execution policy unchanged.",
+  "offline_reader_source_sha256": {
+    "models/eot_trace_accounting.py": "6b529af2dbae1f1a9e7ac4d1526d6ce1e78d0851eb0c6425547822dccec36942",
+    "tests/test_eot_trace_accounting.py": "7e033802d5d00839590ad592aa16fc5dc6ca041110321387906b09d4c2a6d52d"
+  },
+  "offline_reader_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 9
+  },
+  "optimization_adopted": false,
+  "original_attack_mask_tensor_signatures_reconstructed": 32,
+  "original_preparation": "report/checks/2026-10-29-eot-work-profile-preparation.json",
+  "original_scientific_pins_preserved": 61,
+  "original_upstream_sources_verified": 33,
+  "paid_compute": false,
+  "passed": true,
+  "peak_EOT8_allocated_bytes": 5130884096,
+  "peak_first_draw_allocated_bytes": 2959316480,
+  "prior_tolerance_comparisons": {
+    "0": {
+      "input": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true,
+        "relative_l2_error": 0.0,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          3,
+          16,
+          256,
+          256
+        ]
+      },
+      "loss": {
+        "atol": 2e-06,
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true,
+        "relative_l2_error": 0.0,
+        "rtol": 1e-05,
+        "shape": []
+      }
+    },
+    "1": {
+      "input": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true,
+        "relative_l2_error": 0.0,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          3,
+          16,
+          256,
+          256
+        ]
+      },
+      "loss": {
+        "atol": 2e-06,
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true,
+        "relative_l2_error": 0.0,
+        "rtol": 1e-05,
+        "shape": []
+      }
+    }
+  },
+  "profiler_observer_and_fresh_process_replay_exact": true,
+  "regular_archive_members_verified": 100,
+  "remote_run": "/home/kdu/Desktop/VJEPA-Robust-Overfitting/eot-profile-transfer-20261029/unpacked/profile-runs/eot-profile.ZWwKds",
+  "research_admitted": false,
+  "review_artifacts": {
+    "runs/pretrained/diagnostic/eot-work-profile-university-20261029/ATTENDED-LAUNCH-CLAIM.json": "75fd43b64610ca0a727e2316fffc5bbdeefe4f85cd54d3b8c665fe2c5a01c895",
+    "runs/pretrained/diagnostic/eot-work-profile-university-20261029/actual-launch.json": "eb6491bedf58dc12db73ab10160e9f1e97c1f0b0ab6feb1c5e6f81bb1b37792f",
+    "runs/pretrained/diagnostic/eot-work-profile-university-20261029/case-download-j10olicf/download-verification.json": "c2c90a97c0200648ccc10825274c3dfef664027817b3d62c8296bf7ab2671097",
+    "runs/pretrained/diagnostic/eot-work-profile-university-20261029/device-accounting-tests-20261030.xml": "729a0f8af0c2a6a1284682e5f90f04ed0c68e3bc58418faed6c5cbab104ec252",
+    "runs/pretrained/diagnostic/eot-work-profile-university-20261029/independent-device-accounting-20261030.json": "c3ba7998baf445dcfcd67f664020f779e9070e05c1054e96f507eb407caacadd",
+    "runs/pretrained/diagnostic/eot-work-profile-university-20261029/independent-profile-review-20261030.json": "15c8f5178bfbe87c13c1c578888bddc498fb13974b101f2a173a9d34e26b0096",
+    "runs/pretrained/diagnostic/eot-work-profile-university-20261029/review_profile_evidence.py": "5cfa67861c1f489ac4fa4d221acbbd8d678145f78f0d6121aee6bde5d2fd7089"
+  },
+  "sampled_GPU_process_observations": 49,
+  "sampling_proves_continuous_exclusivity": false,
+  "source_and_original_summaries_unchanged": true,
+  "source_and_reference_metadata_members_verified": 86,
+  "status": "correctness_and_replay_verified_device_accounting_corrected_attention_backward_target_identified",
+  "tensor_signatures_verified": 24,
+  "total_seconds": 240.48835945129395,
+  "worker_seconds": [
+    101.23209129972383,
+    95.37208160990849
+  ]
+}

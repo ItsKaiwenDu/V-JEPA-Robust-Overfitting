@@ -1,5 +1,46 @@
 # Research Progress Reports
 
+## 2026-10-30 — Evaluation profile verified; attention backward identified
+
+The attended run exits zero in 240.49s. All 100 archived members, 86 source/
+reference-metadata members, 24 tensor signatures and 32 byte comparisons verify.
+Both fresh workers preserve EOT8 controls and first-draw observer values exactly,
+including zero-error agreement with the prior reference and 32 regenerated mask
+signatures. Existing source policies and all 61 scientific pins remain unchanged.
+
+Six unprofiled EOT8 controls have median 10.079s, with about 78.54% in backward.
+A separate offline reader excludes 157 nested CUDA annotation ranges from each
+trace; attention backward is 53.72–53.74% of corrected first-draw device duration.
+Nine new accounting regressions pass. Original summaries remain unchanged;
+CPU-linkage discrepancies are retained and module buckets are not a GPU partition.
+
+Next prepare a separate FP32 attention/backward diagnostic with strict numerical,
+memory and observed-backend gates. The traced draw is not a full-PGD cost unit.
+No new model/SSH/paid run or financial change occurs; research admission remains
+pending. This completed SSH run may close.
+[Independent review](report/checks/2026-10-30-eot-work-profile-review.md).
+
+## 2026-10-29 — Bounded evaluation work profiler prepared
+
+A separate diagnostic now retains full clean EOT8 timing/gradient controls
+and captures detailed events for original draw0 with both mask families. It
+labels validation, projection, encoder/predictor blocks and backward, with
+exclusive-time accounting and unchanged numerical gates. The first-draw
+profile cannot stand for the full attack or replace study cost inputs.
+
+All 52 focused CPU checks pass; two actual fresh tiny upstream workers preserve
+EOT controls, observer-equivalence and replay exactly. The final 17.2 MB packet
+equals the tested packet, restores all 99 members and passes mock transport
+recovery checks. Initial unlaunched versions remain preserved after scalar
+reference alignment and trace-volume bounding; no study setting changed.
+
+Next user action is one attended Mac command for linux10609: 20 minutes total,
+two fresh workers, 7 GiB allocator cap, no optimizer/PGD/paid resources. The
+proposal remains unarmed; no SSH/GPU work occurred. 10603 remains usable for
+independent parallel work after a fresh status check. Financial state and
+research admission remain unchanged.
+[Preparation review](report/checks/2026-10-29-eot-work-profile-preparation.md).
+
 ## 2026-10-29 — University projection reuse passes correctness; speed gain is small
 
 The completed attended run exits zero in 33m02s. All 102 archived members,

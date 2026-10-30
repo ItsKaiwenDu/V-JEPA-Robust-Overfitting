@@ -1,5 +1,21 @@
 # V-JEPA Robust Overfitting
 
+**Evaluation work profile verified (October 30):**
+[Exact observer/replay checks pass](report/checks/2026-10-30-eot-work-profile-review.md).
+Full EOT8 controls take about 10.08 seconds, with 79% in backward. Attention
+backward is about 54% of direct device duration in the traced first draw. A
+separate offline reader corrects GPU-annotation double-counting; original
+evidence remains frozen. Next prepare a strict FP32 attention component
+diagnostic. No optimization, paid work or research admission follows.
+
+**Evaluation work profiler prepared (October 29):**
+[The bounded attribution diagnostic](docs/eot_evaluation_work_profile.md)
+passes 52 focused CPU checks and fresh-worker replay. Full EOT8 controls retain
+all original draws; detailed tracing covers one original draw with both mask
+families. The 17.2 MB handoff and attended 20-minute Mac helper are verified
+and unarmed. Real CUDA attribution remains pending; no further GPU work or
+financial change has started. Earlier outcome entries below are historical.
+
 **University projection-reuse result verified (October 29):**
 [Four fresh CUDA workers pass correctness and exact replay](report/checks/2026-10-29-university-projection-reuse-review.md).
 The one-clip median falls from 425.0 to 416.2 seconds, only a 1.021× speedup;

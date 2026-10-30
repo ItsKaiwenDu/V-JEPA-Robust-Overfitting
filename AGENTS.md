@@ -2,6 +2,73 @@
 
 ## Current stage
 
+LATEST Oct30: EOT WORK PROFILE VERIFIED; BACKWARD/ATTENTION TARGET IDENTIFIED.
+Read report/checks/2026-10-30-eot-work-profile-review.json/md. Actual10609 run
+eot-profile.ZWwKds exits0 in240.49s;2freshworkers101.23/95.37s within20min/8min
+limits. Downloadcase-j10olicf holds108589500byte archive
+dbf458e501d0c1b00250068fda75680f49bee263a905b88dff48e0b6ff81fc44.
+All100regularmembers/86source-reference metadata/24tensors/32bytecomparisons
+verify.4prior-tolerance checks zeroerror,32 regenerated attackmask signatures
+match. Exact EOT8+firstdraw observer/fresh replay.61scientificpins/33upstream
+sources unchanged.49GPUmonitor samples/no foreigncompute observed (notcontinuous
+exclusivityproof). PeakEOT4.7785GiB/draw2.7561GiB, notoptimizerqualification.
+Six unprofiled EOT8 controls median10.07893s; forward2.16190/backward7.91382s,
+medianbackwardfraction78.5404%. Boundaryguardpair13.23ms separatelytimed.
+DetailedtraceONLYoriginaldraw0/bothfamilies:217117events each. IMPORTANT found
+oldaggregate includes CUDA-side record_function labels as kernels. DO NOT
+modify captured module/packet/summaries or quote old1.7376/1.7348s kernel sums.
+New separate models/eot_trace_accounting.py +9CPUregressions PASS excludes157
+eot-profile/* CUDAannotationranges each.32255directevents each,1.08347/1.08362s.
+Attentionbackward53.716/53.740% directduration; forward11.021/11.019%. Device
+duration shares NOT wall fractions and NOT allEOTdraws/PGD/otherGPU. CPUlinked
+totals still2.235/2.252ms high (~.21%), causeUNPROVED; modulebuckets notGPU
+partition. Preserve discrepancies. CPUselftime includes waits/notCPUutilization.
+LargestB_k32 family24calls~44.85% directduration consistentwithpredictor
+head32/depth12/twofamilies; MODULE mapping is inference, notconservedprofiling.
+Next PREPARE separatelyidentified FP32 attention/backward/backend diagnostic
+with numerical/memory/actualbackend gates. No change oldscientificpolicy/
+precision/tols/attack settings. No backend assumed equivalent/faster/adopted.
+No newGPU/model/SSH work duringreview. Previouslaunchclaim/actualplan exist;
+NEVER rerun eot-profile run-attended.sh/removeclaims. CompletedSSH mayclose.
+10603 canhost independentlyprepared parallelchecks afterfreshstatus; compare
+speedsonsameGPU. No paidhold/cap/researchadmissionchange:9.8116encumbered/
+.1884unreserved/single10pilot/200project/160compute/40reserve,old2hold/.0792gap.
+AllknownRunpodPods terminated. Usercommits self; never stage/commit/push.
+
+LATEST Oct29: BOUNDED EOT WORK PROFILE PREPARED, UNRUN.
+Read docs/eot_evaluation_work_profile.md and report/checks/2026-10-29-
+eot-work-profile-preparation.json/md. New standalone observer/packet/CLI/shell
+and tests preserve all61 scientific pins and previous policies. 52 focused CPU
+checks pass/0skip (43 new+9 adapter). Two actual fresh tiny workers exactly
+replay full EOT8 controls and observer-controlled first-draw loss/input gradients.
+Detailed trace is original ATTACK DRAW0 with BOTH families; EOT8 full before/
+after timing/gradient controls still include ALL8draws. Not fullPGD/scoring/
+optimizer or cost unit. Never claim first-draw activity mix for whole EOT8/PGD.
+Raw CPU nesting/self times/device-linked activity retained; independent
+exclusive aggregation rejects doublecounted CPU claims/cycles/tampered traces,
+gradients/runtime/fixture/domain/clock/memory. Shape/stack/memory profiling OFF.
+Initial unlaunched preflight-version1/version2 retained: scalar loss shape
+aligned with prior reference, then 200832-event fullCPUcapture bounded to one
+draw (about25k CPUevents). No tolerance/study-count change. Finalpacket equals
+tested packet;99regular members restored,4mock transport scenarios PASS.
+Raw eot-work-profile-university-20261029 contains unarmed proposal/helpers,
+98source/input/reference files, one TRAIN clip and prior scalar/input derivative.
+No checkpoint/wheels/privatekeys/ledger/heldout pixels. Existing university
+environment/checkpoint/upstream rehashed at runtime, no install/fallback.
+User may explicitly invoke raw run-attended.sh ONCE from local MAC Terminal.
+Target10609/GPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52/driver580.178.04, current
+usercheck8192total/94used/no compute. Live guard rechecks every5s. Total1200s
+including remote extraction/verification,2workers<=480s,allocator7GiB,outer5s
+kill grace. ATTENDED keep Mac lid/Terminal/SSH open; helper caffeinated. No
+model retries. Claims exclusive; never rerun launcher/remove claim. Newdownload
+initial password lookup600s; later download-only.sh reads existing files only.
+Prior projection-reuse claims/evidence unchanged. 10603 remains distinct GPU
+for independent jobs after fresh check; no second-host job prepared.
+NO real SSH/upload/GPU work started. No paid hold/cap/research change. Finance
+9.8116encumbered/.1884unreserved/single10pilot/200project/160compute/40reserve,
+old2hold/.0792gap remain; all known RunpodPods terminated. Real CUDA attribution
+and observer overhead remain pending. User commits self; NEVER stage/commit/push.
+
 LATEST Oct29: UNIVERSITY PROJECTION-REUSE CUDA CORRECTNESS PASS, ONLY1.021x SPEED.
 Read report/checks/2026-10-29-university-projection-reuse-review.json/md. Actual
 10609 run projection-reuse.5tpRAS exits0 in1981.99s (33m02), all4freshworkers
