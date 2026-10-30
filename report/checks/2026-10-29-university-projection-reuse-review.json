@@ -1,0 +1,579 @@
+{
+  "EOT8_input_projection_weight_bias_and_loss_between_modes_bitwise_equal": true,
+  "SSH_connections_during_review": 0,
+  "actual_new_native_delegator_probes": {
+    "recompute-0": {
+      "events": 269,
+      "native_cuda_kernels": [
+        "void at::native::vol2im_kernel<float, float>(long, float const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, float*)"
+      ],
+      "passed": true
+    },
+    "recompute-1": {
+      "events": 269,
+      "native_cuda_kernels": [
+        "void at::native::vol2im_kernel<float, float>(long, float const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, float*)"
+      ],
+      "passed": true
+    },
+    "reuse-0": {
+      "events": 269,
+      "native_cuda_kernels": [
+        "void at::native::vol2im_kernel<float, float>(long, float const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, float*)"
+      ],
+      "passed": true
+    },
+    "reuse-1": {
+      "events": 269,
+      "native_cuda_kernels": [
+        "void at::native::vol2im_kernel<float, float>(long, float const*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, float*)"
+      ],
+      "passed": true
+    }
+  },
+  "all_original_numerical_tolerances_preserved": true,
+  "archive_bytes": 464590468,
+  "archive_sha256": "c62df1a3f4c7f653a4afac3d3afeeee82cd42ba0af465f4f9fa6b780dd0d9a1a",
+  "archived_source_and_index_members_verified": 70,
+  "automatic_model_retry_performed": false,
+  "checkpoint_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+  "date": "2026-10-29",
+  "derivative_byte_equality_review": {
+    "input_audit_sha256": "f5a42ac67aa53d7cc2640eb3e8fdc48fd1908148cd427197554e1bcbe7855ac5",
+    "kind": "projection-reuse-full-EOT-gradient-byte-equality-v1",
+    "model_or_GPU_work": false,
+    "passed": true,
+    "separate_byte_comparisons": 16,
+    "workers": {
+      "recompute-0": {
+        "bias": {
+          "bytes_equal": true,
+          "dtype": "torch.float32",
+          "sha256": "e6f849a18803396bfa517664e965417e0ff7bd0f15ce1ca1c9776ef45a646e8b",
+          "shape": [
+            1024
+          ]
+        },
+        "input": {
+          "bytes_equal": true,
+          "dtype": "torch.float32",
+          "sha256": "68c82f9e88337dcd2afc1d6d33dd86025d6bc33086d8ae59b05f5d7446c5af4b",
+          "shape": [
+            1,
+            3,
+            16,
+            256,
+            256
+          ]
+        },
+        "loss": {
+          "bytes_equal": true,
+          "dtype": "torch.float32",
+          "sha256": "e0936ec1b34b140bc92404d108cfabb17b861feca87c207e702f818997f34a62",
+          "shape": []
+        },
+        "weight": {
+          "bytes_equal": true,
+          "dtype": "torch.float32",
+          "sha256": "81f7186b841e1f8b57398397946b66981265274d4ff0f9f99364f171cb4adb80",
+          "shape": [
+            1024,
+            3,
+            2,
+            16,
+            16
+          ]
+        }
+      },
+      "recompute-1": {
+        "bias": {
+          "bytes_equal": true,
+          "dtype": "torch.float32",
+          "sha256": "e6f849a18803396bfa517664e965417e0ff7bd0f15ce1ca1c9776ef45a646e8b",
+          "shape": [
+            1024
+          ]
+        },
+        "input": {
+          "bytes_equal": true,
+          "dtype": "torch.float32",
+          "sha256": "68c82f9e88337dcd2afc1d6d33dd86025d6bc33086d8ae59b05f5d7446c5af4b",
+          "shape": [
+            1,
+            3,
+            16,
+            256,
+            256
+          ]
+        },
+        "loss": {
+          "bytes_equal": true,
+          "dtype": "torch.float32",
+          "sha256": "e0936ec1b34b140bc92404d108cfabb17b861feca87c207e702f818997f34a62",
+          "shape": []
+        },
+        "weight": {
+          "bytes_equal": true,
+          "dtype": "torch.float32",
+          "sha256": "81f7186b841e1f8b57398397946b66981265274d4ff0f9f99364f171cb4adb80",
+          "shape": [
+            1024,
+            3,
+            2,
+            16,
+            16
+          ]
+        }
+      },
+      "reuse-0": {
+        "bias": {
+          "bytes_equal": true,
+          "dtype": "torch.float32",
+          "sha256": "e6f849a18803396bfa517664e965417e0ff7bd0f15ce1ca1c9776ef45a646e8b",
+          "shape": [
+            1024
+          ]
+        },
+        "input": {
+          "bytes_equal": true,
+          "dtype": "torch.float32",
+          "sha256": "68c82f9e88337dcd2afc1d6d33dd86025d6bc33086d8ae59b05f5d7446c5af4b",
+          "shape": [
+            1,
+            3,
+            16,
+            256,
+            256
+          ]
+        },
+        "loss": {
+          "bytes_equal": true,
+          "dtype": "torch.float32",
+          "sha256": "e0936ec1b34b140bc92404d108cfabb17b861feca87c207e702f818997f34a62",
+          "shape": []
+        },
+        "weight": {
+          "bytes_equal": true,
+          "dtype": "torch.float32",
+          "sha256": "81f7186b841e1f8b57398397946b66981265274d4ff0f9f99364f171cb4adb80",
+          "shape": [
+            1024,
+            3,
+            2,
+            16,
+            16
+          ]
+        }
+      },
+      "reuse-1": {
+        "bias": {
+          "bytes_equal": true,
+          "dtype": "torch.float32",
+          "sha256": "e6f849a18803396bfa517664e965417e0ff7bd0f15ce1ca1c9776ef45a646e8b",
+          "shape": [
+            1024
+          ]
+        },
+        "input": {
+          "bytes_equal": true,
+          "dtype": "torch.float32",
+          "sha256": "68c82f9e88337dcd2afc1d6d33dd86025d6bc33086d8ae59b05f5d7446c5af4b",
+          "shape": [
+            1,
+            3,
+            16,
+            256,
+            256
+          ]
+        },
+        "loss": {
+          "bytes_equal": true,
+          "dtype": "torch.float32",
+          "sha256": "e0936ec1b34b140bc92404d108cfabb17b861feca87c207e702f818997f34a62",
+          "shape": []
+        },
+        "weight": {
+          "bytes_equal": true,
+          "dtype": "torch.float32",
+          "sha256": "81f7186b841e1f8b57398397946b66981265274d4ff0f9f99364f171cb4adb80",
+          "shape": [
+            1024,
+            3,
+            2,
+            16,
+            16
+          ]
+        }
+      }
+    }
+  },
+  "economic_interpretation": "About 2% improvement in this broader diagnostic unit supplies no evidence of the roughly 46-53% ordinary-primary speedup sought by the previous cost screen. No full cost recomputation or paid integration follows.",
+  "exit_status": 0,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "four_worker_authorizations_verified": {
+    "recompute-0": 1793338153.8783102,
+    "recompute-1": 1793339140.7597904,
+    "reuse-0": 1793338650.7662427,
+    "reuse-1": 1793339624.678424
+  },
+  "fresh_process_all_saved_tensor_and_science_replay_exact": true,
+  "full_model_all_parameter_optimizer_recovery_qualified": false,
+  "full_optimizer_or_recovery_qualification": false,
+  "full_study_cost_approved": false,
+  "handoff_sha256": "851c77b353bd572e15ad6d31293253226c9915567b05b8f7b3772da0cbe5a490",
+  "held_out_pixels_opened": false,
+  "implementation_adopted_for_study": false,
+  "independent_numerical_comparisons": {
+    "recompute-0": {
+      "EOT8_bias": {
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true
+      },
+      "EOT8_input": {
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true
+      },
+      "EOT8_loss": {
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true
+      },
+      "EOT8_weight": {
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true
+      },
+      "oracle_bias": {
+        "failed_elements": 0,
+        "max_absolute_error": 1.3867555992419511e-09,
+        "max_tolerance_ratio": 1.3867445114006742e-05,
+        "passed": true
+      },
+      "oracle_input": {
+        "failed_elements": 0,
+        "max_absolute_error": 6.183455891761724e-08,
+        "max_tolerance_ratio": 0.025255814519475974,
+        "passed": true
+      },
+      "oracle_output": {
+        "failed_elements": 0,
+        "max_absolute_error": 1.9010087157766975e-06,
+        "max_tolerance_ratio": 0.0005853967203170092,
+        "passed": true
+      },
+      "oracle_weight": {
+        "failed_elements": 0,
+        "max_absolute_error": 7.453619409181211e-09,
+        "max_tolerance_ratio": 3.7265914153361234e-05,
+        "passed": true
+      }
+    },
+    "recompute-1": {
+      "EOT8_bias": {
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true
+      },
+      "EOT8_input": {
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true
+      },
+      "EOT8_loss": {
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true
+      },
+      "EOT8_weight": {
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true
+      },
+      "oracle_bias": {
+        "failed_elements": 0,
+        "max_absolute_error": 1.3867555992419511e-09,
+        "max_tolerance_ratio": 1.3867445114006742e-05,
+        "passed": true
+      },
+      "oracle_input": {
+        "failed_elements": 0,
+        "max_absolute_error": 6.183455891761724e-08,
+        "max_tolerance_ratio": 0.025255814519475974,
+        "passed": true
+      },
+      "oracle_output": {
+        "failed_elements": 0,
+        "max_absolute_error": 1.9010087157766975e-06,
+        "max_tolerance_ratio": 0.0005853967203170092,
+        "passed": true
+      },
+      "oracle_weight": {
+        "failed_elements": 0,
+        "max_absolute_error": 7.453619409181211e-09,
+        "max_tolerance_ratio": 3.7265914153361234e-05,
+        "passed": true
+      }
+    },
+    "reuse-0": {
+      "EOT8_bias": {
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true
+      },
+      "EOT8_input": {
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true
+      },
+      "EOT8_loss": {
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true
+      },
+      "EOT8_weight": {
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true
+      },
+      "oracle_bias": {
+        "failed_elements": 0,
+        "max_absolute_error": 1.3867555992419511e-09,
+        "max_tolerance_ratio": 1.3867445114006742e-05,
+        "passed": true
+      },
+      "oracle_input": {
+        "failed_elements": 0,
+        "max_absolute_error": 6.183455891761724e-08,
+        "max_tolerance_ratio": 0.025255814519475974,
+        "passed": true
+      },
+      "oracle_output": {
+        "failed_elements": 0,
+        "max_absolute_error": 1.9010087157766975e-06,
+        "max_tolerance_ratio": 0.0005853967203170092,
+        "passed": true
+      },
+      "oracle_weight": {
+        "failed_elements": 0,
+        "max_absolute_error": 7.453619409181211e-09,
+        "max_tolerance_ratio": 3.7265914153361234e-05,
+        "passed": true
+      }
+    },
+    "reuse-1": {
+      "EOT8_bias": {
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true
+      },
+      "EOT8_input": {
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true
+      },
+      "EOT8_loss": {
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true
+      },
+      "EOT8_weight": {
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true
+      },
+      "oracle_bias": {
+        "failed_elements": 0,
+        "max_absolute_error": 1.3867555992419511e-09,
+        "max_tolerance_ratio": 1.3867445114006742e-05,
+        "passed": true
+      },
+      "oracle_input": {
+        "failed_elements": 0,
+        "max_absolute_error": 6.183455891761724e-08,
+        "max_tolerance_ratio": 0.025255814519475974,
+        "passed": true
+      },
+      "oracle_output": {
+        "failed_elements": 0,
+        "max_absolute_error": 1.9010087157766975e-06,
+        "max_tolerance_ratio": 0.0005853967203170092,
+        "passed": true
+      },
+      "oracle_weight": {
+        "failed_elements": 0,
+        "max_absolute_error": 7.453619409181211e-09,
+        "max_tolerance_ratio": 3.7265914153361234e-05,
+        "passed": true
+      }
+    }
+  },
+  "independent_scientific_review_complete": true,
+  "kind": "university-projection-reuse-reviewed-outcome-v1",
+  "local_launch_claim_preserved": true,
+  "mask_signature_regeneration_matches": true,
+  "memory": {
+    "allocator_cap_gib": 7,
+    "optimizer_peak_qualified": false,
+    "peak_primary_allocated_bytes": {
+      "recompute": [
+        5306664960,
+        5306664960
+      ],
+      "reuse": [
+        5337491456,
+        5337491456
+      ]
+    },
+    "peak_primary_allocated_gib": {
+      "recompute": [
+        4.942216873168945,
+        4.942216873168945
+      ],
+      "reuse": [
+        4.970926284790039,
+        4.970926284790039
+      ]
+    }
+  },
+  "model_launched_during_review": false,
+  "new_execution_or_network_work_during_review": false,
+  "next_step": "Prepare an offline profile of remaining evaluation work and guard overhead before choosing another optimization; no new GPU run starts from this review.",
+  "original_preparation_review": "report/checks/2026-10-29-projection-reuse-university-preparation.json",
+  "original_scientific_pins_preserved": 61,
+  "overall_limit_seconds": 4800,
+  "paid_compute": false,
+  "passed": true,
+  "prepared_source_or_limits_changed": false,
+  "prior_retrieval_checkpoint": "report/checks/2026-10-29-projection-reuse-retrieval-pending.json",
+  "process_monitor": {
+    "continuous_exclusivity_proven": false,
+    "foreign_CUDA_process_observed": false,
+    "four_expected_worker_pids": [
+      504644,
+      508066,
+      510956,
+      514379
+    ],
+    "observations": 399,
+    "observed_GPU_memory_mib_max": 5541.0,
+    "sampling_seconds": 5
+  },
+  "regenerated_mask_tensor_signatures": 80,
+  "regular_members_verified": 102,
+  "research_admitted": false,
+  "review_artifacts": {
+    "runs/pretrained/diagnostic/projection-reuse-university-20261029/ATTENDED-LAUNCH-CLAIM.json": "cc7aea079804ded5797b7448bf8cc616b926661493344bb27e79675829d87691",
+    "runs/pretrained/diagnostic/projection-reuse-university-20261029/actual-launch.json": "867a1ba726be6d43b2fc1c407249dc3e9a46b895cdfdf486996fba26e42fd4e1",
+    "runs/pretrained/diagnostic/projection-reuse-university-20261029/case-download-lj8i88ut/download-verification.json": "91b02613de3f744371937fcc94742d9c65cb9d64ed0c11c8764b1721284daef3",
+    "runs/pretrained/diagnostic/projection-reuse-university-20261029/independent-CUDA-review-20261029.json": "f5a42ac67aa53d7cc2640eb3e8fdc48fd1908148cd427197554e1bcbe7855ac5",
+    "runs/pretrained/diagnostic/projection-reuse-university-20261029/independent-derivative-byte-equality.json": "2b4f7e2de4e9f942a10cda91f48d7961130a48a940c31d2edeb5f4749b785d3c",
+    "runs/pretrained/diagnostic/projection-reuse-university-20261029/review_CUDA_evidence.py": "80851f91faa719554fd175d13148e1565ed66a16f8a9072912c466c10512fde1"
+  },
+  "same_source_summarizer_recomputed_matches": true,
+  "science": {
+    "attack_loss": 0.7241065502166748,
+    "clean_attack_bank_loss": 0.5617199540138245,
+    "max_pixel_delta": 0.01568630337715149,
+    "scores": {
+      "audit_0": {
+        "adversarial": 0.6914006471633911,
+        "clean": 0.5648447275161743
+      },
+      "audit_1": {
+        "adversarial": 0.6931540966033936,
+        "clean": 0.565467119216919
+      },
+      "main": {
+        "adversarial": 0.6974544525146484,
+        "clean": 0.5619226098060608
+      }
+    }
+  },
+  "selected_adversaries_and_all_three_score_banks_between_modes_bitwise_equal": true,
+  "session_wall_seconds": 1981.9898209571838,
+  "source_copy": "runs/pretrained/diagnostic/projection-reuse-university-20261029/case-download-lj8i88ut",
+  "source_manifest_equal_to_original_handoff": true,
+  "status": "correctness_and_replay_pass_observed_speed_benefit_insufficient_for_cost_goal",
+  "tensor_signatures_verified": 92,
+  "timings": {
+    "GPU_performance_generalization": false,
+    "component_16_request_bank_samples_seconds": {
+      "recompute": [
+        0.36187203088775277,
+        0.36409494280815125,
+        0.36679341411218047,
+        0.3637995286844671
+      ],
+      "reuse": [
+        0.043756766710430384,
+        0.04398759314790368,
+        0.04411764536052942,
+        0.04397288104519248
+      ]
+    },
+    "component_observed_median_speedup": 8.275244968492329,
+    "medians_seconds": {
+      "recompute": 425.00725362612866,
+      "reuse": 416.23727859021164
+    },
+    "observed_elapsed_time_reduction_fraction": 0.02063488319573903,
+    "observed_median_speedup": 1.0210696530248822,
+    "ordinary_primary_evaluation_budget_unit": false,
+    "paired_speedups": [
+      1.019869892396179,
+      1.0222695599974931
+    ],
+    "population_bound_or_CI": false,
+    "samples_seconds": {
+      "recompute": [
+        424.53375717112795,
+        425.4807500811294
+      ],
+      "reuse": [
+        416.2626628517173,
+        416.21189432870597
+      ]
+    },
+    "unit": "one training clip PGD20/R2/EOT8 plus main and two audit scoring banks; guard overhead included",
+    "university_one_clip_observation_only": true
+  },
+  "training_pixel_sha256": "d497eb48187685856e993af2cc010468be3f63b2a1125958bcbd2f3991685a3c",
+  "upstream_local_source_identities_verified": 33,
+  "video_id": "v_BreastStroke_g15_c01",
+  "worker_wall_seconds": {
+    "recompute-0": 495.1978913261555,
+    "recompute-1": 480.48089691391215,
+    "reuse-0": 486.58247331529856,
+    "reuse-1": 500.93723819125444
+  }
+}

@@ -1,5 +1,53 @@
 # Research Progress Reports
 
+## 2026-10-29 — University projection reuse passes correctness; speed gain is small
+
+The completed attended run exits zero in 33m02s. All 102 archived members,
+70 source/index members, 92 tensor signatures and 32 original-tolerance
+comparisons independently verify. Four new native CUDA probes and 80 regenerated
+mask signatures match; fresh-process tensor/attack/scoring replay is exact.
+Sixteen extra byte comparisons confirm exact original/reused EOT8 derivatives.
+
+Median PGD20/R2/EOT8 plus three scoring banks is 425.007s original versus
+416.237s reused: 1.021× speedup, 2.06% less time, with 4.942/4.971 GiB peak
+primary allocations. The isolated component improves 8.28× but total evaluation
+barely changes. One clip/two samples are no population bound or ordinary-primary
+budget replacement. Full optimizer/recovery and research admission remain pending.
+
+Keep correctness evidence; do not adopt or pay for integration from this result.
+Next prepare an offline profile of remaining work/guard overhead. 10603 can run
+a separately prepared independent diagnostic after a fresh status check. No new
+run, financial hold or cap change occurs. This completed SSH run may close.
+[Independent review](report/checks/2026-10-29-university-projection-reuse-review.md).
+
+## 2026-10-29 — University invocation complete locally; retrieval pending
+
+The user invoked the single attended diagnostic command. Both download
+connections timed out at password prompts, and the user may not have entered
+the password within the initial60-second window. Both partial folders are
+empty and preserved. The remote outcome remains unknown: no exit status,
+worker evidence, numerical result, memory or timing has been reviewed.
+Next use only the unchanged download-only helper; never repeat the model
+launch. No network/model work or financial changes occurred in this review.
+[Retrieval checkpoint](report/checks/2026-10-29-projection-reuse-retrieval-pending.md).
+
+## 2026-10-29 — Separate university projection-reuse diagnostic prepared
+
+The one-training-clip handoff and single-attempt attended Mac helper pass local
+verification: 75 focused CPU cases, exact four-fresh-process tiny upstream
+replay, independent packet restore and four simulated transport scenarios.
+Production bytes match the final tested packet. Tiny CPU timing shows no
+observed benefit; real full-model CUDA correctness and performance are pending.
+
+The next user-invoked diagnostic compares original/reuse twice, sequentially on
+linux10609, under an 80-minute/7-GiB bound. It checks the actual new backward
+delegator, original numerical gates, EOT8 input/projection-parameter gradients,
+PGD20/R2/EOT8 and independent scoring. No optimizer or study trajectory runs.
+linux10603 remains usable for separately prepared independent work in parallel.
+Keep Mac/SSH open during the attended run. No network/GPU work started in
+preparation, no paid allowance changed, and all 61 scientific pins remain.
+[Preparation review](report/checks/2026-10-29-projection-reuse-university-preparation.md).
+
 ## 2026-10-29 — Session billing settled; CPU-only projection-reuse proof verified
 
 The updated deleted-Pod row is $1.1328, wallet $6.56. Settling only this $1.30

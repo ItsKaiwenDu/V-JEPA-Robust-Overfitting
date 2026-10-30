@@ -2,6 +2,87 @@
 
 ## Current stage
 
+LATEST Oct29: UNIVERSITY PROJECTION-REUSE CUDA CORRECTNESS PASS, ONLY1.021x SPEED.
+Read report/checks/2026-10-29-university-projection-reuse-review.json/md. Actual
+10609 run projection-reuse.5tpRAS exits0 in1981.99s (33m02), all4freshworkers
+within18min/80min inclusive. Userdownload-only succeeded; local case-download-
+lj8i88ut has464590468byte archive c62df1a3f4c7f653a4afac3d3afeeee82cd42ba0af465f4f9fa6b780dd0d9a1a,
+102regularmembers allhashed; prior2emptytimedoutfolders preserved. Independent
+rawreview and NumPy audit verify70source/index members,61sciencepins,33upstream
+sources,92tensor signatures,32 original-tol comparisons. 16additionalbyte
+comparisons prove exact EOT8 loss/input/projectionweight/bias. Four actual new
+native CUDA vol2im probes PASS, no cuDNNkernel;80regenerated mask signatures
+match. All saved tensors/science freshreplay exact; selectedadversaries+3score
+banks bitwiseequal across modes. Same original trainingclip/checkpoint/precision.
+399monitor observations,4expectedworkers/noforeignPID observed, notcontinuous
+exclusivityproof. Originalworkers424.534/425.481s; reuse416.263/416.212s; median
+425.007->416.237s =1.02106965x/2.0635%time saved. Component16requestbank8.275x;
+peakprimaryallocated4.9422->4.9709GiB,7GiBcap; sampleddevice5541MiBmax. NOT
+fulloptimizerpeak. One clip/two samples/noCI/nootherGPUgeneralization. Unit is
+PGD20-R2-EOT8 PLUS3scorebanks, NOT ordinaryprimarybudgetunit. Do NOTreplace
+oldcostinputs, inferaffordability orpayforintegration basedon2%gain. Rough
+46-53%ordinaryprimaryspeedtarget remains unsupported; no numerical admission
+failure, only modest observedbenefit. No studyintegration/optimizerqualification/
+researchstep/calibration/trajectories. Step2/255 DIAGNOSTIC only. Original
+policies/CPUclass/61pins/sourcepacket remain unchanged. NextOFFLINE profile
+remainingevaluationwork/guardoverhead beforechoosingnewoptimization. 10603may
+hostindependentparallelwork afterfreshGPUcheck; keepcomparativetimingssameGPU.
+No newGPU/SSH/modelwork executedinreview. Existinglocal/remoteclaims remain;
+NEVER rerun run-attended.sh/removeclaim. This completed attendedSSH mayclose.
+AllknownRunpodPods terminated,9.8116encumbered/.1884unreserved/single10pilot/
+200project/160compute/40reserve,old2hold/.0792gap unchanged. Usercommits self.
+
+LATEST Oct29: USER INVOKED UNIVERSITY REUSE ATTEMPT; DOWNLOAD AUTH TIMED OUT.
+Read report/checks/2026-10-29-projection-reuse-retrieval-pending.json/md. Local
+ATTENDED-LAUNCH-CLAIM and actual-launch.json now exist: NEVER regenerate or
+repeat run-attended.sh/remove claims. Both case-download-nusow0qd and
+case-download-y7edb8ds are EMPTY; initial SSH run-path lookup timed out60s at
+password. User may not have entered before timeout. Likely authentication delay,
+NOT established model failure/pass. No exit/worker/archive/CUDA outcome copied.
+Use unchanged download-only.sh from local Mac; enter each password within60s.
+It starts no model. Preserve failed folders. No SSH/GPU work during this review.
+All source/helper hashes, prior75CPUchecks and finance9.8116/.1884 unchanged;
+full GPU science/timing/replay/memory and research admission remain unverified.
+
+LATEST Oct29: SEPARATE UNIVERSITY PROJECTION-REUSE DIAGNOSTIC PREPARED, UNRUN.
+Read docs/projection_reuse_university_diagnostic.md and report/checks/
+2026-10-29-projection-reuse-university-preparation.json/md. 75 focused CPU cases
+pass/0skip (32 original proof +9 execution +34 diagnostic); actual four fresh
+tiny workers replay tensors/PGD20-R2-EOT8/scoring exactly. Tiny CPU speed ratio
+0.993 is no observed benefit, NOT a GPU prediction. All 61 scientific pins and
+existing policies/CPU-only class unchanged. Separate diagnostic CUDA subclass
+and temporary adapter identity; existing scientific provenance rejects it.
+Production handoff7,117,980bytes/SHA7e07156ce604f64310eae35f4db79582f3ffa4aacf3c7441db46c89e28ceddbf;
+88 declared source/input +manifest=89regular members, exactly one TRAIN clip;
+no checkpoint/wheels/privatekeys/heldout pixels. Existing university env/weights/
+upstream rehashed at runtime. Handoff SHA851c77b353bd572e15ad6d31293253226c9915567b05b8f7b3772da0cbe5a490.
+Raw projection-reuse-university-20261029 contains final XML/CPU archive/restore/
+mock transport evidence. Final packet equals tested packet. Four mock scenarios
+and duplicate-launch/download-only checks PASS, no real network connection.
+Prepared launch-proposal authorized FALSE; NO actual plan/claim exists yet.
+User may explicitly invoke raw run-attended.sh ONCE from LOCAL MAC Terminal;
+that activates one free university diagnostic. No separate paid resource grant.
+Target linux10609/GPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52/driver580.178.04,
+existing Python3.11/Torch2.8cu128; strict foreign CUDA-process guard every5sec.
+Four workers original0/reuse0/original1/reuse1 run SERIAL on SAME GPU. 10603 is
+a distinct GPU usable for later independent parallel work after fresh check;
+no second job prepared. Remember its intermittent NoMachine CUDA contention.
+ATTENDED: keep Mac lid/Terminal/SSH open; whole Mac helper caffeinated. Total
+80min including remote extraction/verification, worker18min, allocator7GiB,
+outer5sec kill grace. No auto model retry; kills only own active child group.
+Upload retry only before launch; download retry only existing exited evidence.
+If connection fails preserve partials; never repeat run-attended.sh. Separate
+download-only.sh starts no model. Both local and remote exclusive claims.
+No SSH/upload/CUDA/paid work executed this preparation. Real full pretrained
+probe/oracle/input+projection-param derivatives/PGD20-R2-EOT8/main+2audit scores/
+exact replay/memory/timing still PENDING. Step2/255 DIAGNOSTIC only; original
+tolerances unchanged. NO all-parameter optimizer recovery/full study cost/
+research calibration or trajectory admission. Three-score timing unit differs
+from ordinary primary; never plug it silently into prior economic screen.
+Financials unchanged9.8116encumbered/.1884unreserved/single10pilot/200project/
+160compute/40reserve, old2hold/.0792gap retained. AllknownPods terminated.
+User commits self; NEVER git stage/commit/push.
+
 LATEST Oct29: BILLING SETTLED + ISOLATED CPU PROJECTION-REUSE PROOF PASS.
 Read report/checks/2026-10-29-rtx3090-billing-settlement.json/md and
 2026-10-29-projection-reuse-CPU-proof.json/md; docs/projection_reuse_cpu_prototype.md.

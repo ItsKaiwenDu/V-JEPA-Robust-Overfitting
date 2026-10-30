@@ -1,0 +1,45 @@
+{
+  "action": "User should invoke the unchanged download-only.sh and enter each university password within one minute; never rerun run-attended.sh.",
+  "actual_launch_plan_sha256": "867a1ba726be6d43b2fc1c407249dc3e9a46b895cdfdf486996fba26e42fd4e1",
+  "date": "2026-10-29",
+  "download_helper_unchanged": true,
+  "evidence_state": {
+    "GPU_memory": null,
+    "GPU_timings": null,
+    "archive_copied": false,
+    "fresh_CUDA_replay": null,
+    "full_CUDA_numerics": null,
+    "independent_scientific_review_complete": false,
+    "remote_diagnostic_exit_status": null,
+    "worker_completion": null
+  },
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "handoff_sha256": "851c77b353bd572e15ad6d31293253226c9915567b05b8f7b3772da0cbe5a490",
+  "kind": "projection-reuse-retrieval-pending-v1",
+  "local_claim_sha256": "cc7aea079804ded5797b7448bf8cc616b926661493344bb27e79675829d87691",
+  "local_invoked_unix": 1793337022.795787,
+  "model_retry_authorized": false,
+  "new_model_or_SSH_work_in_review": false,
+  "observations": {
+    "authentication_delay_explanation": "likely, not a model diagnosis",
+    "failure_during_initial_run_path_lookup": true,
+    "first_download_lookup_timeout_seconds": 60,
+    "preserved_local_folder_files": {
+      "case-download-nusow0qd": [],
+      "case-download-y7edb8ds": []
+    },
+    "user_clarification": "I may not have entered it before the timeout.",
+    "user_report": "Both initial download SSH connections timed out at password prompts."
+  },
+  "paid_compute": false,
+  "research_admitted": false,
+  "status": "user_invoked_attended_command_download_authentication_timed_out_results_unverified"
+}

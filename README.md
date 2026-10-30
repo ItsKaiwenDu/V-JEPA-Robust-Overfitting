@@ -1,5 +1,28 @@
 # V-JEPA Robust Overfitting
 
+**University projection-reuse result verified (October 29):**
+[Four fresh CUDA workers pass correctness and exact replay](report/checks/2026-10-29-university-projection-reuse-review.md).
+The one-clip median falls from 425.0 to 416.2 seconds, only a 1.021× speedup;
+peak measured allocation stays below 5 GiB. This does not establish an affordable
+study or qualify optimizer integration. The result archive is copied and
+independently verified. Next profile the remaining evaluation work offline.
+No further GPU work starts; earlier preparation/retrieval entries are historical.
+
+**University diagnostic invoked; download pending (October 29):**
+[Both download attempts timed out at login](report/checks/2026-10-29-projection-reuse-retrieval-pending.md).
+The local launch claim exists; use only the download helper and enter the
+university password promptly. No GPU result has been copied or reviewed yet.
+Never repeat the model launch to recover files. Earlier preparation entries
+below describe the state before this user invocation.
+
+**University projection-reuse diagnostic prepared (October 29):**
+[The separately identified one-clip comparison](docs/projection_reuse_university_diagnostic.md)
+passes 75 focused CPU checks, four fresh tiny-worker replays and simulated
+transfer/recovery checks. The 7.1 MB packet is verified; its attended 80-minute
+university run has not started. Full pretrained correctness, memory and GPU
+speed remain unknown. Existing scientific sources/policies and all financial
+caps remain unchanged. Earlier entries below are historical.
+
 **CPU-only cost-reduction proof verified (October 29):**
 [Projection reuse passes 32 new CPU checks](report/checks/2026-10-29-projection-reuse-CPU-proof.md)
 and all 140 focused checks in their documented process groups. It retains every
