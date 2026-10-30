@@ -1,0 +1,152 @@
+{
+  "candidate_settings_and_original_13_phases_unchanged": true,
+  "candidate_source_inputs_unchanged": 61,
+  "date_Pacific": "2026-10-28",
+  "execution_readiness": {
+    "actual_host_and_GPU_identity": null,
+    "deployment_time_and_deadline": null,
+    "full_research_calibration_authorized": false,
+    "launch_template_authorized": false,
+    "quote_usd_per_hour": null,
+    "ready_to_deploy_or_upload": false,
+    "reviewed_operational_launcher_ready": false,
+    "session_allowance_usd": null
+  },
+  "financial_status": {
+    "compute_cap_usd": 160,
+    "current_conservative_encumbrance_usd": "9.22",
+    "existing_session_hold_usd": "1.75",
+    "historical_gap_usd": "0.0792",
+    "historical_inclusive_hold_usd": "2.00",
+    "latest_final_charge_usd": null,
+    "new_balance_or_debits_supplied": false,
+    "new_hold_created": false,
+    "old_holds_released": false,
+    "single_pilot_envelope_usd": 10,
+    "total_cap_usd": 200,
+    "unreserved_pilot_allowance_usd": "0.78",
+    "user_defers_billing_and_quotes_until_tomorrow": true,
+    "user_says_billing_still_updating": true
+  },
+  "frozen_training_wheels_upstream_and_restorer_identical": true,
+  "independent_archive_and_source_audit": {
+    "candidate_binding_unchanged": true,
+    "candidate_source_inputs": 61,
+    "future_CPU_tests_use_workspace_temp": true,
+    "kind": "candidate-v4-independent-packet-audit-v1",
+    "launch_template_unarmed": true,
+    "manifest_sha256": "bf2b124b9fff819cc9f1b3acbc095c208c8a4df1293cda24267b802edd5d0b8a",
+    "new_remote_connection_or_GPU_work": false,
+    "no_private_key_or_held_out_pixels_added": true,
+    "old_deadlines_or_financial_allowances_transferred": false,
+    "old_packets_unchanged": true,
+    "only_addition": "scripts/check_workflow.py",
+    "original_required_phase_count": 13,
+    "original_scientific_code_and_settings_unchanged": true,
+    "original_source_members_unchanged": 75,
+    "source_members_independently_read_and_hashed": 76,
+    "training_tensor_deserialization_performed": false,
+    "training_tensor_files_packaged": 100,
+    "training_wheels_bundle_and_restorer_byte_identical": true,
+    "workflow_source_dependencies_present": 24
+  },
+  "input_sha256": {
+    "models/candidate_packet.py": "9444182a073346bbafb2cd0c12295a5713ebaf8598415bab8eaa379ef1e6cb90",
+    "report/checks/2026-10-28-candidate-measured-budget-review.json": "5fec7ee76194f543229b16a008e37a0d0d4978ddcedd81750eb677235bdeb7cf",
+    "runs/pretrained/diagnostic/candidate-lower-cost-packet-validation-20261028/independent-packet-audit.json": "87fcb02e7e4b8d4815a06f8a98fa59997df1b9ca3be80fe8227b3efa7469fc26",
+    "runs/pretrained/diagnostic/candidate-lower-cost-packet-validation-20261028/packet-tests-result.json": "94b6cb4b9c34049acb7574b6937ebdcf2d09273ef5a7adc452b51ba5f11d922c",
+    "runs/pretrained/diagnostic/candidate-lower-cost-packet-validation-20261028/prepare-and-restore-result.json": "1fcd6f26c0478dfeae70f0bd81d61259b8e5cde8356550b1c03fb3f4bc06e80f",
+    "runs/pretrained/diagnostic/candidate-lower-cost-packet-validation-20261028/scaffold.log": "d29e3f6a46533c0b65a921dd0b92d0efa2644bac3b80e7d644f321e70f95859f",
+    "scripts/prepare_candidate_packet.py": "b3ffc7ebfbaad2d6dd56dc80004fae6f0b14796f4911d0fd0e292d3d103056b0",
+    "tests/test_candidate_packet.py": "845da8c489a4b179081eb9d38aa72522ec49c86491e6b1232391857379c3dfab"
+  },
+  "kind": "candidate-eot8-lower-cost-packet-preparation-v1",
+  "known_setup_corrections": [
+    "Include the unchanged original scripts/check_workflow.py in the source archive from the start.",
+    "Require future CPU fixture basetemp on the actual /workspace session volume; original 55 GiB free-space guard remains."
+  ],
+  "new_paid_compute_authorized": false,
+  "new_pretrained_checkpoint_loaded": false,
+  "new_remote_connection_or_GPU_job": false,
+  "next_steps": [
+    "Wait for updated final billing and fresh A5000/3090 availability, total rate and usable system RAM.",
+    "Reconcile only supported charges and reservations; retain unresolved holds until justified.",
+    "If an eligible candidate fits the remaining diagnostic envelope, prepare and test its concrete bounded operational launcher and allowance before asking for deployment.",
+    "After authorization and real host/deployment binding, qualify all affected GPU units before any full research calibration."
+  ],
+  "original_source_files_unchanged": 75,
+  "original_workflow_provenance_dependencies_present": 24,
+  "packaged_training_clips": 100,
+  "packet_directory": "runs/pretrained/diagnostic/candidate-eot8-handoff-v4-20261028",
+  "packet_files": {
+    "launch.template.json": {
+      "bytes": 7631,
+      "sha256": "f972789d5f2b63d9ac809ee6fb4941ae6ca966a7c082526e123b07a98ed62816"
+    },
+    "manifest.json": {
+      "bytes": 44605,
+      "sha256": "bf2b124b9fff819cc9f1b3acbc095c208c8a4df1293cda24267b802edd5d0b8a"
+    },
+    "restore.py": {
+      "bytes": 9169,
+      "sha256": "d25f0e1f085bb7addcfc855986c7bf984765990cb473be9d5315f5399696a9db"
+    },
+    "setup.requirements.json": {
+      "bytes": 1597,
+      "sha256": "afd44e0fdfc491b963534dd323b71e54edd649c71d2e452b47d5e6fee47bb9b2"
+    },
+    "source.tar.gz": {
+      "bytes": 216502,
+      "sha256": "7b5e18709f8e67abd0af2ebe21f1022815dcf2a3a95b957bf7b9b31458569240"
+    },
+    "training.tar.gz": {
+      "bytes": 781576353,
+      "sha256": "0afaf2257094f5cee1cd464e3ea065dea3b90aeab91203e89a37ad514edd72e2"
+    },
+    "upstream.bundle": {
+      "bytes": 4618227,
+      "sha256": "be402e349761940e6cb0217cdbfdf83915e5ab5bd110ed61563bd0ca3e423c11"
+    },
+    "wheels.tar.gz": {
+      "bytes": 28225989,
+      "sha256": "a76b5acff4a709b63badca7b67966681069c85b0743492766f0368d615a4e766"
+    }
+  },
+  "packet_manifest_sha256": "bf2b124b9fff819cc9f1b3acbc095c208c8a4df1293cda24267b802edd5d0b8a",
+  "packet_tests": {
+    "errors": 0,
+    "failures": 0,
+    "passed": 10,
+    "result": "runs/pretrained/diagnostic/candidate-lower-cost-packet-validation-20261028/packet-tests.xml",
+    "sha256": "a4e51e71b768bec4e94d5ff657b72ac42e529650fe716c08d25fc028270dbf71",
+    "skipped": 0
+  },
+  "packet_total_bytes": 814700073,
+  "real_prepared_or_held_out_pixel_tensors_deserialized": false,
+  "reminder": {
+    "automation_id": "check-runpod-billing-and-gpu-quotes",
+    "kind": "heartbeat",
+    "one_occurrence": true,
+    "scheduled_local_time": "2026-10-29T10:00:00-07:00",
+    "scope": "Remind for final billing, account arithmetic and fresh quotes/RAM only. No SSH/upload/deploy/queue/paid work or automatic hold release.",
+    "status": "ACTIVE",
+    "timezone": "America/Los_Angeles"
+  },
+  "research_admitted": false,
+  "restored_original_CPU_checks": {
+    "errors": 0,
+    "failures": 0,
+    "passed": 77,
+    "result": "runs/pretrained/diagnostic/candidate-lower-cost-packet-validation-20261028/restored-cpu-tests.xml",
+    "sha256": "79a1ab659624e1399a5eafb111a30421af4630b570db1138dbc63ffbd6db975a",
+    "skipped": 0
+  },
+  "scaffold_exit_status": 0,
+  "source_allowlist_explicit_not_new_test_glob": true,
+  "source_files": 76,
+  "upstream_restore": {
+    "HEAD": "204698b45b3712590f06245fbfba32d3be539812",
+    "local_macOS_checkout_warning": "Unrelated upstream V-JEPA2.1 vitG/vitg configuration names collide on the case-insensitive Mac filesystem; original required src/app/vjepa/configs/train/vitl16 tree is clean and all 77 CPU checks pass.",
+    "required_scientific_tree_clean": true
+  }
+}

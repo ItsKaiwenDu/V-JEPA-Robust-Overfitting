@@ -1,0 +1,102 @@
+{
+  "A5000_and_RTX3090_available": false,
+  "availability_source": "User screenshot at11:40Pacific; availability may change",
+  "billing": {
+    "account_invoice_fully_reconciled": false,
+    "account_total_debits_usd": null,
+    "assumption": "No intervening actual recharge/refund/adjustment was reported. Displayed wallet has cent precision.",
+    "attachments": [
+      {
+        "original_filename": "Screenshot 2026-10-29 at 11.39.27\u202fAM.png",
+        "path": "runs/pretrained/diagnostic/candidate-billing-availability-20261029/billing.png",
+        "sha256": "06c3273adf6829b33a313b265640f4b016ec515d284bb25dc20aab5070b5cde2"
+      },
+      {
+        "original_filename": "Screenshot 2026-10-29 at 11.40.42\u202fAM.png",
+        "path": "runs/pretrained/diagnostic/candidate-billing-availability-20261029/availability.png",
+        "sha256": "fffd4a83b29f1cc1920bebdd956dc89bc712b0bb49d009a5a3e6a3f9b4597202"
+      }
+    ],
+    "compute_cap_usd": 160,
+    "conservative_total_encumbrance_usd": "8.6788",
+    "date_Pacific": "2026-10-29",
+    "final_session_charge_usd": "1.2088",
+    "finalized_session": "vjepa-eot8-benchmark-07",
+    "full_pilot_reserve_stays_inside_study_compute_cap_once_usd": 10,
+    "historical_inclusive_hold_released": false,
+    "historical_inclusive_hold_usd": "2.00",
+    "historical_unassigned_gap_usd": "0.0792",
+    "initial_credit_usd": "15.00",
+    "kind": "candidate-eot8-conservative-envelope-update-v1",
+    "latest_reported_wallet_usd": "7.70",
+    "new_hold_created": false,
+    "new_paid_compute_authorized": false,
+    "noncompute_reserve_usd": 40,
+    "previous_session_reservation_usd": "1.75",
+    "prior_encumbrance_excluding_finalized_session_usd": "7.47",
+    "prior_reconciled_rounded_usage_usd": "5.47",
+    "project_cap_usd": 200,
+    "provider_row_deleted_badge": true,
+    "release_is_provider_refund": false,
+    "session_reservation_settled_to_actual_cost": true,
+    "source": "User final per-Pod charge and deletion screenshot plus user-reported wallet balance",
+    "source_sha256": {
+      "runs/pretrained/diagnostic/candidate-eot8-session-20261028/budget-envelope.json": "4d6a475ac178ecc8ec786041ecf8cf325b01f47112da9dc076adc85502789ec7"
+    },
+    "unreserved_diagnostic_allowance_usd": "1.3212",
+    "unused_internal_reservation_released_usd": "0.5412",
+    "user_confirmed_terminated_Pacific": "2026-10-28T22:05:00-07:00",
+    "wallet_implied_cumulative_usage_usd": "7.30",
+    "wallet_usage_added_again_on_top_of_existing_holds": false
+  },
+  "candidate_to_quote": {
+    "GPU": "RTX A6000",
+    "GPU_only_usd_per_hour": "0.59",
+    "VRAM_GB": 48,
+    "actual_usable_RAM_and_GPU_identity_verified": false,
+    "advertised_system_RAM_GB": 50,
+    "all_in_total_hourly_usd": null,
+    "container_GB": 30,
+    "launch_authorized": false,
+    "mount": "/workspace",
+    "persistent_GB": 80,
+    "vCPU": 9
+  },
+  "date_Pacific": "2026-10-29",
+  "kind": "candidate-billing-and-available-hardware-review-v1",
+  "new_operator_preparation_pending_quote": true,
+  "new_remote_or_GPU_work": false,
+  "new_spending_authorized": false,
+  "other_visible_candidates": {
+    "A40": {
+      "GPU_only_usd_per_hour": "0.59",
+      "VRAM_GB": 48,
+      "advertised_system_RAM_GB": 43,
+      "note": "Advertised RAM is near the 40GiB usable threshold; previous four-draw economics already exceeded cap."
+    },
+    "L4": {
+      "GPU_only_usd_per_hour": "0.59",
+      "advertised_system_RAM_GB": 31,
+      "meets_advertised_RAM_gate": false
+    },
+    "RTX4090": {
+      "GPU_only_usd_per_hour": "0.89",
+      "advertised_system_RAM_GB": 35,
+      "meets_advertised_RAM_gate": false
+    },
+    "RTX_PRO4000": {
+      "GPU_only_usd_per_hour": "0.57",
+      "advertised_system_RAM_GB": 31,
+      "meets_advertised_RAM_gate": false
+    }
+  },
+  "packet_manifest_sha256": "bf2b124b9fff819cc9f1b3acbc095c208c8a4df1293cda24267b802edd5d0b8a",
+  "performance_or_full_study_cost_predicted_for_A6000": false,
+  "previous_SE_full_study_screen_usd": [
+    243.7100802740241,
+    249.61738079224318
+  ],
+  "reminder_status": "One-time October29 reminder delivered and deleted; user has now replied.",
+  "research_admitted": false,
+  "selection_reason": "Among the displayed low-price candidates, A6000 offers more advertised system-RAM margin than A40 at the same shown GPU rate. This selects a quote check, not a deployment or assumed throughput improvement."
+}

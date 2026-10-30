@@ -1,5 +1,36 @@
 # V-JEPA Robust Overfitting
 
+**RTX 3090 partial benchmark reviewed; Pod terminated (October 29):**
+[Ten of thirteen phases completed before the original cutoff](report/checks/2026-10-29-rtx3090-partial-benchmark-review.md).
+Saved numerical checks and clean/adversarial recovery signatures pass; controls
+and both feature phases remain incomplete. Evidence is copied and verified; the
+Pod was terminated at **7:06 PM Pacific** after CPU-only retrieval. The observed
+primary-only cost screen exceeds the project cap. Final billing remains pending;
+no full hardware/research qualification or new paid work is authorized. Earlier
+live and stopped-retrieval entries below are historical.
+
+**RTX 3090 stopped; final evidence pending (October 29):**
+The user reports stopping the Pod at **4:00 PM Pacific**, before its original cutoff.
+[The retrieval checkpoint](report/checks/2026-10-29-rtx3090-stopped-retrieval.md)
+preserves the 77 CPU/preflight checks and completed calibration bundle observed at
+2:56 PM. Final benchmark completion is unknown. Keep the volume; review billing
+and a separate download-only restart before retrieving evidence. Earlier live-run
+entries below are historical; no model rerun or research launch is authorized.
+
+**RTX 3090 diagnostic benchmark started (October 29):**
+[The verified bounded setup is running](report/checks/2026-10-29-rtx3090-benchmark-launch.md)
+on the user-deployed $0.52/hour RTX 3090. Its original deadline is **4:01 PM Pacific**
+with a $1.30 session limit. CPU checks and numerical preflight precede benchmark
+qualification; research calibration/trajectories remain pending. Earlier entries
+below describe historical preparation stages.
+
+**Lower-cost benchmark packet verified (October 28):**
+[The corrected v4 handoff](report/checks/2026-10-28-lower-cost-candidate-packet.md)
+passes 10 packaging and 77 restored CPU checks with unchanged scientific sources.
+Billing and fresh sufficient-memory A5000/3090 quotes are deferred until tomorrow.
+The packet is unarmed; resource allowance and an actual bounded operator remain
+pending. Earlier benchmark and preparation entries below are historical.
+
 **Measured EOT8 cost screen reviewed (October 28):**
 [The retained full design screens at $243.71–249.62](report/checks/2026-10-28-candidate-measured-budget-review.md)
 at the recorded SE rate, above the $200/$160 project/compute caps. All 32 focused

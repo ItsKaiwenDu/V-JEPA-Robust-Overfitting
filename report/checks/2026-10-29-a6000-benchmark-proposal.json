@@ -1,0 +1,71 @@
+{
+  "SSH_endpoint": null,
+  "actual_GPU_UUID": null,
+  "actual_deadline": null,
+  "actual_deployment_time": null,
+  "all_setup_upload_download_and_idle_included": true,
+  "conditional_economics": {
+    "maximum": {
+      "hypothetical_same_SE_sample_throughput_total_usd": 214.54946254495724,
+      "not_a_prediction_of_A6000_performance": true,
+      "uniform_timed_work_speedup_required_vs_SE_samples": 1.1011081483318779
+    },
+    "median": {
+      "hypothetical_same_SE_sample_throughput_total_usd": 209.67993103669556,
+      "not_a_prediction_of_A6000_performance": true,
+      "uniform_timed_work_speedup_required_vs_SE_samples": 1.0672684575169948
+    }
+  },
+  "current_unreserved_diagnostic_allowance_usd": "1.3212",
+  "date_Pacific": "2026-10-29",
+  "draft_launch_authorized": false,
+  "full_study_budget_approved": false,
+  "historical_holds_and_gap_preserved": true,
+  "hypothetical_encumbrance_if_approved_usd": "9.9788",
+  "hypothetical_unreserved_diagnostic_if_approved_usd": "0.0212",
+  "kind": "a6000-bounded-benchmark-proposal-v1",
+  "manual_Stop_or_termination_required_to_end_billing": true,
+  "new_cloud_connection_upload_or_GPU_work": false,
+  "new_reservation_created": false,
+  "next_step": "Ask user whether to allocate this new bounded A6000 session or wait for A5000/3090. On approval create only this hold, load existing SSH identity locally, then user deploys and provides actual time/endpoint/public host fingerprint. Bind and verify actual resources before uploads.",
+  "operator_functions": [
+    "Validate fresh explicit authorization, packet/plan/ledger checksums and A6000 identity before setup",
+    "Keep original two-hour deployment-based deadline with independent alarm and monotonic remainder",
+    "Run all original77CPU fixtures using workspace temporary directory",
+    "Keep all original13benchmark phases and actual-worker CUDA deadlines",
+    "Kill only the owned stage process group on failure/timeout",
+    "Export metadata, all76sources and numerical preflight tensors; preserve workspace if export fails"
+  ],
+  "operator_sha256": "d861445db4c461a7353e81cbb4cb60051050df34802fabade0f24454fb05cf5f",
+  "operator_tests_passed": 17,
+  "packet_manifest_sha256": "bf2b124b9fff819cc9f1b3acbc095c208c8a4df1293cda24267b802edd5d0b8a",
+  "paid_session_authorized": false,
+  "prior_conservative_encumbrance_usd": "8.6788",
+  "proposed_inclusive_session_allowance_usd": "1.30",
+  "proposed_max_billed_hours": 2,
+  "proposed_pod_name": "vjepa-eot8-a6000-08",
+  "research_calibration_or_trajectories_authorized": false,
+  "scaffold_exit": 0,
+  "source_sha256": {
+    "models/candidate_operator.py": "d861445db4c461a7353e81cbb4cb60051050df34802fabade0f24454fb05cf5f",
+    "report/checks/2026-10-28-candidate-measured-budget-review.json": "5fec7ee76194f543229b16a008e37a0d0d4978ddcedd81750eb677235bdeb7cf",
+    "report/checks/2026-10-29-candidate-billing-availability.json": "e401af87f0ec39fb054bab6761be82e49687de87c9513eafef83b4aa7d568b4d",
+    "runs/pretrained/diagnostic/a6000-operator-preparation-20261029/budget.predeployment.json": "d7e01ed9bedd342df167074d2f544edcae6285f6cad079d44f23d046093c4854",
+    "runs/pretrained/diagnostic/a6000-operator-preparation-20261029/final-tests-result.json": "9f8a6eb58d26bfc56921befc4dc4fb9fdec95a53d9a3361b3a18f58d89df2b9c",
+    "runs/pretrained/diagnostic/a6000-operator-preparation-20261029/launch.predeployment.json": "fb2189e764734541d0051034027b1092d473a779cb81ef15027ee39eab23b143",
+    "runs/pretrained/diagnostic/a6000-operator-preparation-20261029/tests.xml": "9ed4b4925764e0137f7deb9e04e26f1baaed1bf34465401d35bb972c07a5b15e",
+    "tests/test_candidate_operator.py": "db123e5ebc2a8110277cc0a2a1d9e1249231ae50985157189652f42e377cb459"
+  },
+  "tests_are_CPU_operational_checks_not_GPU_qualification": true,
+  "two_hours_at_quote_usd": "1.22",
+  "user_confirmed_quote": {
+    "GPU": "RTX A6000",
+    "VRAM_GB": 48,
+    "container_GB": 30,
+    "mount": "/workspace",
+    "system_RAM_GB": 50,
+    "total_hourly_usd": "0.61",
+    "vCPU": 9,
+    "volume_GB": 80
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "active_phase_at_last_check": "primary-pretrained",
+  "caps_usd": {
+    "compute": 160,
+    "project": 200,
+    "single_diagnostic_envelope": 10
+  },
+  "completed_phases_at_last_check": [
+    "preflight",
+    "calibration-bundle"
+  ],
+  "conservative_running_minutes_from_1401": 119,
+  "cpu_checks_passed": 77,
+  "current_session_hold_usd": "1.30",
+  "diagnostic_encumbrance_including_hold_usd": "9.9788",
+  "download_helper_sha256": "db24fe5d508cc7ce96e7c6687356a861664ee0cee6df8ef1b39cbf58004b9401",
+  "estimate_is_not_invoice_and_excludes_stopped_storage_and_other_charges": true,
+  "final_export_copied_and_verified": false,
+  "final_remote_exit_status": null,
+  "full_13_phase_GPU_qualification_complete": false,
+  "input_sha256": {
+    "runs/pretrained/diagnostic/rtx3090-session-20261029/budget-envelope-final.json": "42463c4e2a5e6b266700951136edae86108e44898bb2116362628ce622e65d85",
+    "runs/pretrained/diagnostic/rtx3090-session-20261029/launch-final.json": "e88569ca760b71b00da01d43db27666a4d53511eaa6411f18db470dd5c23df9e",
+    "runs/pretrained/diagnostic/rtx3090-session-20261029/status-1793311005.json": "eef5bf1aab17ebf7affe7700ade2b991cfbca7a020dee7240edd308b4dd8f331"
+  },
+  "kind": "rtx3090-user-reported-stop-and-retrieval-checkpoint-v1",
+  "last_local_live_status": "runs/pretrained/diagnostic/rtx3090-session-20261029/status-1793311005.json",
+  "model_retry_or_relaunch_authorized": false,
+  "next_step": "Reconcile final billed cost and quote a brief CPU-only data-retrieval restart; obtain a separate resource decision before restart. Verify current endpoint/fingerprint, download existing evidence, review, then terminate only after safe copy.",
+  "original_deadline_Pacific": "2026-10-29T16:01:00-07:00",
+  "prior_financial_reservations_released": false,
+  "remote_base": "/workspace/vjepa-eot8-rtx3090-08",
+  "research_admitted": false,
+  "retrieval_restart_authorized": false,
+  "running_only_quote_estimate_usd": "1.031333333333333333333333333",
+  "stop_time_is_user_report_not_provider_api_verification": true,
+  "stopped_at_Pacific": "2026-10-29T16:00:00-07:00",
+  "stopped_at_unix": 1793314800.0,
+  "stopped_before_original_deadline": true,
+  "unreserved_diagnostic_usd": "0.0212",
+  "user_report": "I'm back! Right now it is 6:47 PM, I paused it at 4:00 PM."
+}

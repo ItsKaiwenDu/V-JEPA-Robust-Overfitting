@@ -1,0 +1,31 @@
+{
+  "A6000_proposal_approved": false,
+  "A6000_session_reservation_created": false,
+  "automatic_monitor_or_reminder_created": false,
+  "completed_SE_final_charge_usd": "1.2088",
+  "compute_cap_usd": 160,
+  "conservative_diagnostic_encumbrance_usd": "8.6788",
+  "date_Pacific": "2026-10-29",
+  "existing_historical_hold_and_gap_preserved": true,
+  "full_account_reconciliation_pending": true,
+  "future_quote_check_requires": [
+    "current availability",
+    "total hourly price including 30 GB container and 80 GB /workspace volume",
+    "system RAM sufficient for at least 40 GiB usable",
+    "at least 22 GiB visible VRAM"
+  ],
+  "kind": "lower-cost-GPU-wait-decision-v1",
+  "next_action": "Wait for a fresh cheaper sufficient-memory quote. Reassess concrete session allowance and authorization before deployment; do not queue A6000.",
+  "no_throughput_or_affordability_assumed_from_low_price": true,
+  "operator_and_corrected_v4_packet_retained_for_later_review": true,
+  "paid_deployment_or_queue_authorized": false,
+  "preferred_candidates_to_recheck": [
+    "RTX A5000",
+    "RTX 3090"
+  ],
+  "project_cap_usd": 200,
+  "proposal_sha256": "40256cf3b877d1dd69afa5010f8c29e78e5ae6de5c0e8a92ee39e7cf125683c4",
+  "single_pilot_envelope_usd": 10,
+  "unreserved_diagnostic_allowance_usd": "1.3212",
+  "user_decision": "Wait for a cheaper GPU (recommended)"
+}

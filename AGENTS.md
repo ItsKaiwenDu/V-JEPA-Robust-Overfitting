@@ -2,6 +2,194 @@
 
 ## Current stage
 
+LATEST Oct29 19:06PDT TERMINATED: RTX3090 PARTIAL BENCHMARK INDEPENDENTLY VERIFIED.
+Read report/checks/2026-10-29-rtx3090-partial-benchmark-review.json/md. Original
+operator time limit fired15:58 (deadline16:01minus180s),10/13phases; user16:00Stop
+didNOTcausefailure. Controlsconvergenceincomplete0records; BOTHfeaturesUNRUN.
+10completedphaseidentities,76sources/61pins/77CPUchecks,78tensors/36original-
+tolerancecomparisons andBOTHclean/adv3899-leaflogicaltreesPASS. No13phase/research
+qualification; missing controls/features neverpass. No tolerance/settingschanges.
+UserCPUrestart18:56,.27total/hr,newport40132/keyk7/Ke8... verified; downloadedexisting
+archive419872805bytes/SHA b0b205459c5f155aac1d36979ef95341d531b7aede824b71946646b685d2d8d8,
+150regularfilesallverified inrawrtx3090-session-20261029/evidence-download-v6vx6w2f.
+Separatepartialindependentaudit savedbesidereviewJSON; originalsSEauditsUNCHANGED.
+No upload/model/retry/migration duringCPUretrieval. UserconfirmedCPUstop then
+TERMINATION19:06PDT ofq68vzgxfb6lm09/vjepa-eot8-rtx3090-08. NOactivePod/SSHneeded.
+Primaryonlyscreen:8ordinaryPGD20/R2/EOT8samplesmedian400.89s;2580unchangedclips,
+1.25headroom+single10pilot+40reserve =>236.75–244.35alreadyovercaps BEFOREallotherwork.
+PartialobservedsampleextrapolationNOTfullcost/populationbound/CI; originalfull
+estimatorstillrejectsmissingunits. Donotspendmorejusttocompleteremainingphases.
+Latestcharge1.1074PROVISIONAL/wallet6.57; CPU10minutequote<=.045. KEEP1.30hold,
+old2hold/gap;encumbrance9.9788/.0212unreservedwithinSINGLE10pilot/200total/160compute.
+FinalcombinedGPU/CPU/storageinvoicepending; noholdrelease/newgrant/capraise.
+Nextbillingreconcile+OFFLINEcostoptions; no automaticdeployment/benchmarkretry/
+calibration/trajectory/admission. Usercommits self;nevergitstage/commit/push.
+
+LATEST Oct29 stopped-retrieval follow-up: user cost1.1074 PROVISIONAL/stillupdating,
+wallet6.57/stoppedstorage.022perhour. Menu offersCPU-only, migration, wait; CPUquote
+UNKNOWN. KeepSTOPPED, no migration/start yet. Originaldeadline expired, separate
+shortretrievalresource decision needed. Rawprovisional-billing-and-CPU-options.json;
+all1.30/olderholds/gap unchanged. Downloadhelperlocalfixture+tamper+syntaxPASS,
+scaffoldPASS; mockSSHonly/no realconnection/GPU. Finalexport/statusstillUNKNOWN.
+
+LATEST Oct29 18:47PDT USER REPORT: RTX3090 STOPPED AT16:00PDT, before16:01 cutoff.
+Read report/checks/2026-10-29-rtx3090-stopped-retrieval.json/md. No SSH attempted
+against stopped Pod. Last actual local status14:56 shows77CPUchecks, numerical
+preflight and calibration-bundle complete; primary-pretrained active. Finalexit/
+13phasecompletion/archive UNKNOWN. Keep /workspace volume; do NOTterminate yet.
+No restart/modelretry authorized. Original2h run expired; never resetlaunchclock
+or rerunoperator. Rawretrieve_evidence_only.py prepared, downloads EXISTINGarchive/
+manifest/exit only; 7min/1GiB limit, strictknownhosts, pinnedarchiveverifier, no
+retry/upload/remotecompute/deployment. Byteverification not scientificreview.
+Awaitactual3090sessioncost/currentbalance; old1.30hold andolderhold/gappreserved,
+encumbrance9.9788/.0212unreserved underSINGLE10diagnostic/200project/160compute.
+119runningminutes at.52 =>1.03133 quoteonly EXCLUDES stoppedstorage/otherfees.
+Next prepare separate short CPU-only retrievalquote/resource decision, obtain
+explicit restart authorization beforepaidaccess; verifynewendpoint/fingerprint/
+agent if needed, download+review, then terminate. No paidwork ornewholdnow.
+No researchadmission/calibration/trajectories. Usercommits self.
+
+LATEST Oct29 14:27PDT: RTX3090 CPU+NUMERICAL PREFLIGHT PASS; BUNDLE RUNNING.
+Read report/checks/2026-10-29-rtx3090-preflight-checkpoint.json; rawrtx3090-session-
+20261029/preflight-passed-checkpoint copiedCPUXML/preflight/phase/session/timing
+metadata; checksumwrappers and77CPUcases allPASS. ActualnativeCUDAprobePASS and
+all3clips/BOTHcudnn+native arms PASSunderoriginaltolerances. Thisispartiallivegate,
+notcomplete13phase/two-updateoptimizer/budgetqualification. Firstphasepref complete;
+activecalibration-bundle. Noerror/exitstatus. NextUSERCHECK14:50PDT;keepPodrunning.
+Benchmark isdetached; no local user SSHwindow required. ThischatdoesNOTmonitor
+whileidle. Ifassistantunavailableat16:01PDT usermustSTOPRTX3090PodtoendGPUbilling;
+preservevolumeuntilfullcopiedverifiedevidence,thenterminate. Harddeadline16:01
+from14:01deployment/$1.30 unchanged. Allupload/CPU/setup/idlecount; noreset.
+Remote/workspace/vjepa-eot8-rtx3090-08,outerPID1030. Readraw/read_status.py using
+SSH213.192.2.124:40054/id_ed25519_runpod/rawknown-hosts(M89...verified). Neverrerun
+operator/restore/claim onreturn. Currentoperatorstatebooleanbenchmark_startedlags;
+actualrun/session.json andsetup/benchmark.log authoritative. Expectedfinalarchive
+ evidence.tar.gz+manifest/exit-status.txt. Copyfullarchive+verifybeforetermination.
+Activatedplan e88569ca... fromrawlaunch-final.json;ledgerfinal fromrawbudget-
+envelope-final.json; originaldraftsretained. Internalhold9.9788total/.0212remaining,
+oldhold/gappreserved. No researchstep/fullcalibration/trajectory/admission.
+
+LATEST Oct29 ~14:11PDT: APPROVED RTX3090 OPERATOR DETACHED; SETUP RUNNING.
+Read report/checks/2026-10-29-rtx3090-benchmark-launch.json; rawrtx3090-session-
+20261029. Actualfinalplan e88569ca... (launch-final.json), ledgerfinalclarified
+labels(priorSEsettlementseparate), sameamounts/deadline asinitialdraft; bothoriginal
+uploadedplan/ledger preservedserveras*-upload-initial.json. Allserverpacket/plan/
+ledger/operatorhashes VERIFIED, actualUUID/RAM/process/freeworkspacegatePASS.
+OuterGNUtimeoutPID1030 started14:11:04PDT; remote/workspace/vjepa-eot8-rtx3090-08.
+DO NOTrepeatlaunch. Harddeadline16:01PDT original14:01deployment,2h/$1.30inclusive,
+.52/hr, newhold9.9788total/.0212unreserved; allolderholds/capsunchanged.
+19newRTX3090operatorCPUtests+scaffoldPASS. Core61sources/v4bf2b124b... unchanged.
+Readsetup/operator-state.json,operator.log,setup/cpu-fixtures.log,setup/benchmark.log,
+run/session.json. Statebenchmark_startedbooleaniswrittenbeforeitupdatesduring
+benchmark stage; relyoncurrent_stage=benchmark andactualrun/session.json/childGPU
+activityforliveprogress, notthatlaggingboolean. No running-codechangesneeded.
+Expectedexit-status.txt,evidence.tar.gz+manifest; COPY+VERIFYBEFORETERMINATE.
+NOautomaticcloudbillingstop; ifassistantunavailableat16:01 usermustSTOPpreservevolume.
+SetupbeforeGPU includesrestore/venv/deps/checkpointSHA/all77CPUfixturesatworkspace
+basetemp. Numericpreflight andfull13phases mustpassbeforeclaimingqualification.
+InitialuploadrejectionresolvedbyEXPLICITuserapprovalexact76source/100train/wheels/
+Git/operator/plan/financialledger+newdestination;doNOTasksamepermissionagain.
+No privatekey/confirmation/testpixels uploaded. Fullresearchcalib/trajectoryNOT
+approved; oneclipbundle diagnostic only. Usercommits self;nevergitstage/commit/push.
+
+LATEST Oct29 ~14:10PDT: USER DEPLOYED RTX3090; EXPLICIT UPLOAD/RUN APPROVED.
+Read rawrtx3090-session-20261029 actual-launch-binding.json,launch.json,budget-
+envelope.json,explicit-upload-approval.json. Endpointroot@213.192.2.124:40054;
+webterminal+keyscanED25519M89LvUOik0WK0QlvMZHr+wUl6gAWJW+JiuwvCAYsKYc VERIFIED.
+Identityid_ed25519_runpod loadedbyuser; actualSSHauthenticated. GPU NVIDIA GeForce
+RTX3090 UUIDGPU-c12fc3de-3502-9bc8-6c58-6bd6242dbbf7,24576MiB,driver595.91.07;
+RAM124999999488bytes,emptyworkspace/compute,basePy3.12.3/Torch2.8cu128/CUDA12.8.
+UserUI125GBRAM,32vCPU,30container+80volume,.52TOTAL/hour confirmed.
+ConservativeDEPLOYED14:01PDTfrom14:01:50screenshot39suptime =>HARDDEADLINE16:01PDT
+Oct29 (epoch1793314860);2h/$1.30inclusive. DO NOTresetforupload/CPU/debug/idle.
+New1.30holdwithin8.6788prior=>9.9788encumbrance/.0212remainingpilot10; old2hold/gap
+remain. PriorA6000unapproved andwaitchoice supersededonlybyactualcheaper3090session.
+Separate models/rtx3090_operator.py +tests19PASS; originalA6000operatorunchanged.
+Packetv4bf2b124b.../61sciencepins identical. planSHA6c2c40ce...ledger01badeb5...
+operator83e56d2b.... InitialnewpayloaduploadAUTO-REVIEWREJECTED (newdestination
+private research+financialmetadata); userthenEXPLICITLYAPPROVED76source+100train+
+wheels/Git/operator/plan/ledger~815MB EXACTdestination/workspace/vjepa-eot8-rtx3090-08
+andboundedrun. Do notaskagain. No privatekey/heldoutfiles sent. Uploadnowinprogress
+rawupload-state/log; doNOTrepeatmkdir/scpblindly orlaunchuntiluploadverified.
+Nextverifyallserverarchive+setuphashes/resources,detachtestedoperatorwithouter
+GNUtimeoutuntiloriginaldeadline-30s,recordPID. setup/operator-state.json and
+operator.log reflectprogress; expectedarchiveevidence.tar.gz+manifest/exit-status.
+ManualStop/terminate needed forbilling. Copy+verifybeforetermination;ifassistant
+unavailableat16:01 usermustSTOP(preservevolume). No fullresearchcalibration or
+trajectories authorized. Usercommits self;no gitstage/commit/push.
+
+LATEST Oct29: USER CHOOSES WAIT FOR CHEAPER GPU; A6000 PROPOSAL NOT APPROVED.
+Read report/checks/2026-10-29-lower-cost-GPU-wait-decision.json. Explicituserchoice
+WaitforcheaperGPU. Do NOT deploy/queue/upload/startA6000 orcreateits1.30hold.
+ActualencumbranceSTAYS8.6788/unreserved1.3212withinpilot10; .0212wasONLYhypothetical.
+Historical2hold/gapremain;SE07actual1.2088settled;fullaccountreconciliationpending.
+Retainv4packetbf2b124b... and17-checkoperatorforlaterreview,butexistingA6000operator
+requiresA6000/.61quote:doNOTrunitunchangedonA5000/3090. Newcandidatequotesandoperator
+review/revalidationneeded. SeekfreshTotal/hour+systemRAMforA5000/3090with30+80disks,
+>=40GiBusableRAM/>=22GiBVRAM;lowerpricealoneisnotqualifiedthroughput/economics.
+No paidgrant/newhold/autoqueue/monitor/remindercreated. Earlierone-shotreminder
+alreadydelivered+deleted. No researchcalibration/trajectory admitted. Usercommits
+self;allscientificsource/oldreports/settingsremainunchanged.
+
+LATEST Oct29: A6000 .61 TOTAL QUOTE CONFIRMED; NEW PAID SESSION APPROVAL PENDING.
+Read report/checks/2026-10-29-a6000-benchmark-proposal.json/md. User48VRAM/50RAM/
+9vCPU/30container+80workspace/.61allin. Proposed namevjepa-eot8-a6000-08,2h/$1.30
+inclusivefromACTUALdeployment;2hquote1.22. Existing8.6788encumbrance;ONLYIFapproved
+new1.30hold=>9.9788/.0212remainingpilot10. NOnewhold/deployment/paidpermissionyet.
+Standalone models/candidate_operator.py validated17CPUoperationalchecks+scaffold;
+finalclaim-locationrevisionretested. Raw a6000-operator-preparation-20261029 retains
+old/finalsource. DraftlaunchauthorizedFALSE/time/UUIDNULL; do notrun/deployyet.
+V4packetbf2b124b... and61sciencepins remain unchanged. Monotonic+wall guard,
+independentsetupalarm,ownedprocessgroupkill,workspaceCPUtmp/all77checks,all13phases,
+source+preflighttensor export;manualcloudstoprequired. GPUactualqualificationunknown.
+SameSEthroughput .61screen~209.68–214.55;requires~7–10%timedworkspeedupjusttopass
+partialscreen. NOGPUperformanceprediction/admission. AlternativewaitA5000/3090.
+NextuserchoiceapproveboundedA6000vswait,thenhold+localkeyload/userdeployment/time/
+endpoint/publicfingerprintverification andexplicitpayload/newdestinationapproval.
+Old2hold/gapremain;caps200/160,20classdesign unchanged. Usercommits self.
+
+LATEST Oct29 11:40PDT: FINAL SE COST RECORDED; A6000 ALL-IN QUOTE PENDING.
+Read report/checks/2026-10-29-candidate-billing-availability.json/md. UserfinalSE07
+charge1.2088 matchesdeletedrow screenshot; userwallet7.70 impliesusage7.30 from15
+assumingnoactualcredits. SETTLEonlySE1.75holdtoactual1.2088;free.5412internal(not
+providerrefund). Old5.47usage+2inclusiveholdremain7.47; newconservativeencumbrance
+8.6788/unreserved1.3212withinpilot10. Do NOT addwalletusageagain. Oldgapunassigned,
+totaldebitsnotprovided/accountnotfullyreconciled;old2holdNOTreleased. Caps200/160.
+Rawcandidate-billing-availability-20261029 savesbothscreenshots+newledger; never
+mutatefrozenoldledger/sourcepinnedreports. A5000/3090unavailable. ScreenshotA6000
+48VRAM/50RAM/9vCPU/.59GPUonly; A4048VRAM/43RAM/.59GPUonly. PreferA6000QUOTEcheck
+forRAMmargin,NOthroughputclaim. All-inpriceNULL; askeduser30container+80/workspace
+Total/hour+RAM,quotesONLY/no deploymentorqueue. 31–35GBRAMoptionsfail40GiBgate.
+Nextprepare/testconcreteboundedoperatorafterquote,thennewresourceauthorization.
+Correctedv4bf2b124b... unarmed/source61unchanged. NoGPU/SSH/upload/newhold/research
+launch now. Reminderdelivered+DELETED byheartbeatOct29, do not recreate. Usercommits
+self; do notgitstage/commit/push. PriorpendingSEcharge/.78encumbrance noteshistorical.
+
+LATEST Oct28: CORRECTED LOWER-COST PACKET VERIFIED; USER DEFERS CHECKS TO TOMORROW.
+Read report/checks/2026-10-28-lower-cost-candidate-packet.json/md. New stdlib-only
+models/candidate_packet.py +thinprepareCLI retain original75sourcebytes and61
+sciencepins; addonlyoriginal check_workflow.py d8f16... . v4manifestbf2b124b...,
+packetrawcandidate-eot8-handoff-v4-20261028. All24workflowdeclaredsourcespresent;
+explicitpriorallowlist avoidsaccidentallypackagingnewbudget/packet tests. Original
+100trainarchive/wheels/upstream/restorer identical. Newpacket10testsPASS, restored
+original77CPUchecksPASS(0fail/error/skip), independent76member/sourceaudit+scaffold
+PASS. LocalupstreamHEAD204698... requiredscientifictreeclean; knownunrelated2.1
+case-collisionMacwarningsretained. NoGPU/pretrainedcheckpoint/heldouttensor load.
+FutureCPUbasetempMUSTactual/workspace session; original55GiBguardunchanged.
+Same13phases,settings,numericaltolerances,bindingf418...; alloldfailurehistoryretained.
+TemplateauthorizedFALSE,rate/allowance/GPU/ledger/deployment/deadlineNULL.
+SetuprequirementsJSONonly, no testednewoperationalrunner yet. NOremoteupload/
+SSH/paidlaunch/queue;no newhold/releases. Do NOT deploythisunarmedpacket.
+USERsaysbillingstillupdating; willcheckA5000/3090quotes+RAMtomorrow. Keep1.75SEhold
+andold2/gap. Encumbrance9.22/unreserved.78withinpilot10;caps200/160unchanged.
+ONE-TIMEheartbeatreminder CREATED+VIEWEDinapp idcheck-runpod-billing-and-gpu-quotes,
+Oct29 10:00AMPacific, COUNT1;reminderonly/noautossh/paidwork/holdrelease. Tool's
+firstinvalidargs didnotcreateanything, correctedcreate succeeded. No duplicate.
+NextawaitfinalSEcharge,currentbalance/debits andfreshA5000/3090availability/all-in
+quote/systemRAM>=40GiBusable (about43GB),30+80storage. Thenreviewconcreteallowance
+andprepare/testboundedoperatorBEFOREdeploymentapproval. Fullresearchcalibration,
+protocol/admissionpending;SEscreen243.71–249.62unchanged. Usercommits self.
+
 LATEST Oct28: OFFLINE EOT8 COST SCREEN VERIFIED; FULL STUDY STILL ABOVE CAP.
 Read report/checks/2026-10-28-candidate-measured-budget-review.json/md and its
 validation JSON. New separate models/candidate_budget.py and thin estimator;

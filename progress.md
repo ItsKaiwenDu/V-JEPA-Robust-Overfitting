@@ -1,5 +1,104 @@
 # Research Progress Reports
 
+## 2026-10-29 — RTX 3090 partial result verified; recovery and shutdown complete
+
+The benchmark reached 10/13 phases and timed out at 3:58 PM, before the user's
+4:00 PM stop. CPU-only recovery copied and verified the complete saved export:
+150 files, 76 source identities, 61 candidate pins, 78 tensor signatures and 36
+original-tolerance comparisons. Both two-update recovery signature trees agree
+over 3,899 leaves. Incomplete convergence and unrun features remain unqualified.
+The user confirmed termination at 7:06 PM; final combined billing is pending.
+
+Observed primary evaluation alone, extrapolated over the unchanged full schedule
+with existing headroom and reserves, screens at
+$236.75–$244.35 before training/other work.
+This partial sample extrapolation is not a full-study cost or statistical bound.
+Keep all financial holds and caps. Next reconcile billing and review lower-cost
+execution options offline; no model retry, protocol change or new launch follows.
+[Independent partial review](report/checks/2026-10-29-rtx3090-partial-benchmark-review.md).
+
+## 2026-10-29 — RTX 3090 stopped on time; final evidence remains on volume
+
+The user reports stopping at 4:00 PM Pacific, before the 4:01 PM deadline.
+The last local check at 2:56 PM showed 77 CPU checks passed, numerical preflight
+and calibration-bundle complete, and primary-pretrained active. Final completion
+and exit status are unknown until files are retrieved. A download-only helper is
+prepared; no resource restart or model retry is authorized. Retain the $1.30 hold
+and older reservations until actual billing reconciles. The running-only quote
+estimate is $1.03133, excluding stopped storage and other charges. Keep the volume.
+[Retrieval checkpoint](report/checks/2026-10-29-rtx3090-stopped-retrieval.md).
+
+## 2026-10-29 — User-deployed RTX 3090 benchmark setup started
+
+The newly available RTX 3090 is confirmed at $0.52/hour total, 125 GB RAM and
+30/80 GB storage. Public fingerprint and actual GPU/UUID/runtime/resources verify.
+A separate 19-check operator preserves the scientific packet and rejects the
+old A6000 binding. The user explicitly approved the new destination/payload after
+automatic upload review refused its earlier implicit authorization. Uploads verify.
+The bounded operator started detached at 2:11:04 PM. Setup/CPU checks precede
+numerical preflight; CUDA qualification and full-study costs are not yet known.
+
+The deployment clock conservatively starts 2:01 PM; the hard deadline is
+**4:01 PM Pacific**, with $1.30 inclusive. Total encumbrance is $9.9788, with
+$0.0212 unreserved; older holds remain. Copy/verify evidence before termination;
+manual Stop is required by the deadline if the assistant is unavailable. No full
+research calibration or trajectory starts. [Actual launch](report/checks/2026-10-29-rtx3090-benchmark-launch.md).
+
+## 2026-10-29 — User chooses to wait for cheaper hardware
+
+The A6000 proposal is not approved. No $1.30 reservation, deployment or automatic
+queue is created. Conservative diagnostic encumbrance remains $8.6788, with
+$1.3212 unreserved; historical holds and the account-reconciliation gap remain.
+The corrected packet and tested operator are saved. Recheck fresh A5000/3090
+Total/hour and RAM with the original storage before another session review.
+A different GPU requires its own operator binding and measured qualification.
+[Recorded decision](report/checks/2026-10-29-lower-cost-GPU-wait-decision.json).
+
+## 2026-10-29 — Bounded A6000 operator prepared; paid choice pending
+
+The user confirms $0.61/hour total and 50 GB RAM with the original 30/80 GB disks.
+The new setup/export operator passes 17 operational checks and the scaffold check.
+A proposed two-hour/$1.30 deployment-inclusive session fits the $1.3212 available
+allowance, but no hold or deployment authorization has been created. Draft clocks
+and actual GPU identity remain unset. All scientific source and v4 packet pins match.
+
+At identical SE throughput, the lower quote still screens at $209.68–214.55;
+A6000 performance is unknown and would need roughly 7–10% faster timed work to
+clear even the incomplete screen. The user can choose a bounded measurement or
+wait for a lower-priced candidate. Full calibration/training remain unapproved.
+[Concrete proposal](report/checks/2026-10-29-a6000-benchmark-proposal.md).
+
+## 2026-10-29 — SE charge settled; A6000 quote requested
+
+Final SE benchmark cost is $1.2088, supported by the deleted resource row.
+Settling its $1.75 internal reservation frees $0.5412; the historical hold stays.
+Conservative encumbrance is $8.6788, leaving $1.3212 within the diagnostic cap.
+The $7.70 reported wallet is recorded without double-counting its movement;
+full account reconciliation remains pending. No project cap or new grant changes.
+
+A5000/3090 are unavailable. Request the A6000 all-in quote with 30/80 GB storage:
+it shows 50 GB RAM at the same $0.59 GPU-only rate as the tighter-RAM A40. Actual
+usable RAM, throughput and complete cost remain unknown. The packet stays
+unarmed while the quote and concrete operator review are pending; no Pod starts.
+[Billing and candidate review](report/checks/2026-10-29-candidate-billing-availability.md).
+
+## 2026-10-28 — Corrected lower-cost benchmark packet verified offline
+
+The v4 handoff includes the original provenance script from the start and uses
+an explicit source allowlist. All 75 previous source files and 61 scientific
+pins match the completed benchmark. Future CPU temporary files must use the
+actual workspace volume; the original free-space guard remains. All 10 packaging
+and 77 original restored CPU checks, independent archive audit and scaffold pass.
+The original 100 training clips/wheels/upstream/restorer are byte-identical;
+no cloud/GPU work or research settings change occurs.
+
+Billing is still updating; the user will check billing and A5000/3090 quotes/RAM
+tomorrow. Existing holds remain, with $0.78 unreserved in the diagnostic envelope.
+A one-time quotes/billing reminder is saved for October 29 at 10:00 AM Pacific.
+The packet remains unarmed: no quote, grant, actual host/deployment binding or
+reviewed new operator exists. Prepare those only after the pending checks.
+[Verified packet and tomorrow's checklist](report/checks/2026-10-28-lower-cost-candidate-packet.md).
+
 ## 2026-10-28 — New EOT8 measurements still exceed the full-study cap
 
 The retained 20-class/100-clip/eight-run schedule screens at **$243.71–249.62**

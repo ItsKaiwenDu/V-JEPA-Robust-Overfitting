@@ -1,0 +1,28 @@
+{
+  "active_phase": "calibration-bundle",
+  "benchmark_complete": false,
+  "both_backward_arms_each_clip_passed": true,
+  "clips": 3,
+  "completed_phase_count_at_observation": 1,
+  "full_independent_tensor_review_pending": true,
+  "full_optimizer_recovery_qualified": false,
+  "if_assistant_unavailable_at_deadline": "User must Stop the RTX3090 Pod by16:01 toendGPUbilling andpreservevolume for evidence recovery.",
+  "input_sha256": {
+    "runs/pretrained/diagnostic/rtx3090-session-20261029/preflight-passed-checkpoint/run/phase-results/preflight.json": "880be524f7a6058ce4742e340b72dcdc53a83039f5fec751326b218b99fa9e98",
+    "runs/pretrained/diagnostic/rtx3090-session-20261029/preflight-passed-checkpoint/run/preflight/preflight.json": "57bb14ade5cf431ee9f42b905c61a7a5a5babc25210fef01f0f33ee233330279",
+    "runs/pretrained/diagnostic/rtx3090-session-20261029/preflight-passed-checkpoint/run/session.json": "2e1cfba7cf82602e8d6acaa501dfa22c44d7942f71ad8f49c988592c895c8624",
+    "runs/pretrained/diagnostic/rtx3090-session-20261029/preflight-passed-checkpoint/run/timings/preflight.jsonl": "cc817d3052a509e9b0e1d3e534835985d2b3fe74eccc036fcc45bfa36b5cb963",
+    "runs/pretrained/diagnostic/rtx3090-session-20261029/preflight-passed-checkpoint/setup/cpu-fixtures.xml": "fdaddf0ec23dc8262bbcf57a2ec036fe7e37b2c65fbc58e112af1e8c44747ddf",
+    "runs/pretrained/diagnostic/rtx3090-session-20261029/preflight-passed-checkpoint/setup/operator-state.json": "1bf3821324c54d910de92ec6d0901c969bf9e5b17782e275c2cc5f58d4f508b6"
+  },
+  "kind": "actual-rtx3090-CPU-and-preflight-checkpoint-v1",
+  "native_CUDA_kernel_evidence_passed": true,
+  "next_human_check_Pacific": "2026-10-29T14:50:00-07:00",
+  "observed_Pacific": "2026-10-29T14:27:12-07:00",
+  "original_hard_deadline_Pacific": "2026-10-29T16:01:00-07:00",
+  "representative_numerical_preflight_passed": true,
+  "research_admitted": false,
+  "research_calibration_complete": false,
+  "runtime_CPU_failures_errors_skips": 0,
+  "runtime_CPU_tests_passed": 77
+}
