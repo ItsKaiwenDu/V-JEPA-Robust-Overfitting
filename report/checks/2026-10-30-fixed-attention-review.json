@@ -1,0 +1,657 @@
+{
+  "bookkeeping_bounds_unchanged": {
+    "atol": 1e-14,
+    "rtol": 1e-12
+  },
+  "both_runs_passed": false,
+  "captured_sources_packets_summaries_unchanged": true,
+  "component_bounds_unchanged": {
+    "dk": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dq": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dv": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "output": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    }
+  },
+  "counts": {
+    "fixed_input_tensor_comparisons": 44,
+    "fresh_cross_arm_byte_comparisons": 64,
+    "numpy_actual_comparisons": 20,
+    "regular_members": 317,
+    "same_input_backend_comparisons": 8,
+    "source_metadata_fixture_members": 278,
+    "worker_tensor_signatures": 104
+  },
+  "date": "2026-10-30",
+  "encoder0_independent_reviewer_passed": true,
+  "encoder1_independent_reviewer_passed": false,
+  "failed_CPU_oracle_cause_established": false,
+  "failed_derived_CPU_oracle_tensors_saved": false,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "fixed_input_bytes_verified_in_both_runs": true,
+  "full_model_correctness_or_speed_qualified": false,
+  "full_study_cost_approved": false,
+  "generator_replay_qualified": false,
+  "hosts": {
+    "linux10603": {
+      "GPU_monitor_observations": 5,
+      "archive_bytes": 128824276,
+      "archive_sha256": "1a71e16529ce258bec54cadccb8e50f2890ed150529f4a651ee9d179e418ffbc",
+      "download": "runs/pretrained/diagnostic/fixed-attention-university-20261030/linux10603/case-download-vjuddm3_",
+      "exit_status": 1,
+      "foreign_compute_observed_in_samples": false,
+      "original_reviewer": {
+        "error": "Incomplete or relabelled immutable-input session.",
+        "error_type": "ValueError",
+        "passed": false
+      },
+      "regular_members_verified": 151,
+      "remote_run": "/home/kdu/Desktop/VJEPA-Robust-Overfitting/fixed-attention-transfer-20261030/linux10603/unpacked/fixed-attention-runs/fixed-attention.yVnT8b",
+      "reported_wall_seconds_before_export": 13.076729774475098,
+      "role": "encoder-1",
+      "sampling_proves_continuous_exclusivity": false,
+      "session_complete": false,
+      "session_passed": false,
+      "started_Pacific": "2026-10-30T12:17:55-07:00",
+      "workers": [
+        {
+          "actual_backend_observed": true,
+          "arm": "efficient",
+          "case": "encoder-1",
+          "complete": true,
+          "evidence_groups": [
+            "device_inputs",
+            "inputs"
+          ],
+          "independent_numpy_checks": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 8.796438642766358e-08,
+              "max_tolerance_ratio": 0.11436188696273994,
+              "passed": true,
+              "relative_l2_error": 7.44960732593311e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                16,
+                400,
+                64
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 1.1739325972426329e-07,
+              "max_tolerance_ratio": 0.09463779968170352,
+              "passed": true,
+              "relative_l2_error": 7.210292248003271e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                16,
+                400,
+                64
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 1.5071963273272093e-07,
+              "max_tolerance_ratio": 0.29008613263985766,
+              "passed": true,
+              "relative_l2_error": 4.772263140562684e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                16,
+                400,
+                64
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 9.63705179685137e-08,
+              "max_tolerance_ratio": 0.003260190026880989,
+              "passed": true,
+              "relative_l2_error": 4.20963007132618e-07,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                16,
+                400,
+                64
+              ]
+            }
+          },
+          "median_seconds": {
+            "backward_seconds": 0.0016419671010226011,
+            "forward_seconds": 0.0002907689195126295,
+            "total_seconds": 0.0019333839882165194
+          },
+          "passed": true,
+          "peak_cuda_allocated_bytes": 39564288,
+          "replay": 0,
+          "stage": "complete",
+          "values_sha256": "eb00d790616b70d9b0871b9010e9f58a8a140158893b8b7040164f2a266a3749",
+          "wall_seconds": 3.5714403910096735,
+          "worker_sha256": "a2219b7422ef6e0087d1d591ce10e5fc17473a046d7a2860d2ebbc91502561e3"
+        },
+        {
+          "GPU_math_attention_started": false,
+          "arm": "math",
+          "case": "encoder-1",
+          "cause_established": false,
+          "complete": false,
+          "error": "Fixed oracle bookkeeping failed; preserve input snapshot.",
+          "evidence_groups": [
+            "inputs"
+          ],
+          "failed_derived_oracle_tensors_saved": false,
+          "failed_host_bookkeeping": {
+            "dk": {
+              "atol": 1e-14,
+              "max_absolute_error": 3.773852150917856e-11,
+              "passed": false,
+              "rtol": 1e-12
+            },
+            "dq": {
+              "atol": 1e-14,
+              "max_absolute_error": 8.982595223194778e-11,
+              "passed": false,
+              "rtol": 1e-12
+            },
+            "dv": {
+              "atol": 1e-14,
+              "max_absolute_error": 9.284677193743818e-11,
+              "passed": false,
+              "rtol": 1e-12
+            },
+            "output": {
+              "atol": 1e-14,
+              "max_absolute_error": 1.2845956590123997e-10,
+              "passed": false,
+              "rtol": 1e-12
+            }
+          },
+          "input_snapshot_identical_to_passed_worker": true,
+          "local_Mac_reconstruction": {
+            "dk": {
+              "max_absolute_error": 2.7755575615628914e-17,
+              "passed": true
+            },
+            "dq": {
+              "max_absolute_error": 7.632783294297951e-17,
+              "passed": true
+            },
+            "dv": {
+              "max_absolute_error": 8.326672684688674e-17,
+              "passed": true
+            },
+            "output": {
+              "max_absolute_error": 1.249000902703301e-16,
+              "passed": true
+            }
+          },
+          "passed": false,
+          "replay": 0,
+          "stage": "independent_CPU_FP64_forward_and_analytical_QKV_oracle",
+          "wall_seconds": 0.6561261860188097,
+          "worker_sha256": "de61f42a0468aa8278d866e0c8f2ba17ed6042971f378ee9d78a33e0ec6d3b7c"
+        }
+      ]
+    },
+    "linux10609": {
+      "GPU_monitor_observations": 13,
+      "archive_bytes": 328707234,
+      "archive_sha256": "4d4d577c40957d67eb010e18235e21c03307ea5359e5086867e26515a679ffad",
+      "download": "runs/pretrained/diagnostic/fixed-attention-university-20261030/linux10609/case-download-ybne6qld",
+      "exit_status": 0,
+      "foreign_compute_observed_in_samples": false,
+      "original_reviewer": {
+        "passed": true,
+        "summary": {
+          "CUDA_backend_comparison_qualified": true,
+          "cases": {
+            "encoder-0": {
+              "efficient_time_divided_by_math_time": {
+                "backward_seconds": 2.2415239583102724,
+                "forward_seconds": 0.5541525416790478,
+                "total_seconds": 1.6010376810874576
+              },
+              "fresh_process_tensor_replay_exact": true,
+              "median_seconds": {
+                "efficient": {
+                  "backward_seconds": 0.003488973481580615,
+                  "forward_seconds": 0.0005358103662729263,
+                  "total_seconds": 0.004023927031084895
+                },
+                "math": {
+                  "backward_seconds": 0.0015565184876322746,
+                  "forward_seconds": 0.0009669004939496517,
+                  "total_seconds": 0.002513324376195669
+                }
+              }
+            }
+          },
+          "domain": "fixed-input-CUDA-components",
+          "fixed_input_bytes_and_replay_verified": true,
+          "full_model_correctness_or_speed_qualified": false,
+          "full_study_cost_approved": false,
+          "generator_replay_qualified": false,
+          "kind": "fixed-input-fp32-attention-diagnostic-v1",
+          "old_refusals_waived": false,
+          "optimization_adopted": false,
+          "passed": true,
+          "research_admitted": false,
+          "role": "encoder-0",
+          "tiny_fixture": false
+        }
+      },
+      "regular_members_verified": 166,
+      "remote_run": "/home/kdu/Desktop/VJEPA-Robust-Overfitting/fixed-attention-transfer-20261030/linux10609/unpacked/fixed-attention-runs/fixed-attention.y4cv6d",
+      "reported_wall_seconds_before_export": 43.47145462036133,
+      "role": "encoder-0",
+      "sampling_proves_continuous_exclusivity": false,
+      "session_complete": true,
+      "session_passed": true,
+      "started_Pacific": "2026-10-30T12:17:54-07:00",
+      "workers": [
+        {
+          "actual_backend_observed": true,
+          "arm": "efficient",
+          "case": "encoder-0",
+          "complete": true,
+          "evidence_groups": [
+            "device_inputs",
+            "inputs"
+          ],
+          "independent_numpy_checks": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 5.821119514193285e-08,
+              "max_tolerance_ratio": 0.10282955532282964,
+              "passed": true,
+              "relative_l2_error": 7.369442721422309e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                16,
+                656,
+                64
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 8.760848448086112e-08,
+              "max_tolerance_ratio": 0.07460148112436968,
+              "passed": true,
+              "relative_l2_error": 7.008516696232105e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                16,
+                656,
+                64
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 1.0934189317857168e-07,
+              "max_tolerance_ratio": 0.23093518854837503,
+              "passed": true,
+              "relative_l2_error": 4.827722659838428e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                16,
+                656,
+                64
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 9.50992880138779e-08,
+              "max_tolerance_ratio": 0.0031888395740077642,
+              "passed": true,
+              "relative_l2_error": 4.128720416309123e-07,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                16,
+                656,
+                64
+              ]
+            }
+          },
+          "median_seconds": {
+            "backward_seconds": 0.0034936717711389065,
+            "forward_seconds": 0.000539126805961132,
+            "total_seconds": 0.004025463946163654
+          },
+          "passed": true,
+          "peak_cuda_allocated_bytes": 64763904,
+          "replay": 0,
+          "stage": "complete",
+          "values_sha256": "067a8146563eeb71b1fdceb5d67ad02fc2b15b702d465f25bbf1a1b19c2dd464",
+          "wall_seconds": 4.380978765897453,
+          "worker_sha256": "cf5dfd9b8826470c11bd5aebb575e5c5fc50e22c5a7e17083594b093fc25ad28"
+        },
+        {
+          "actual_backend_observed": true,
+          "arm": "efficient",
+          "case": "encoder-0",
+          "complete": true,
+          "evidence_groups": [
+            "device_inputs",
+            "inputs"
+          ],
+          "independent_numpy_checks": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 5.821119514193285e-08,
+              "max_tolerance_ratio": 0.10282955532282964,
+              "passed": true,
+              "relative_l2_error": 7.369442721422309e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                16,
+                656,
+                64
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 8.760848448086112e-08,
+              "max_tolerance_ratio": 0.07460148112436968,
+              "passed": true,
+              "relative_l2_error": 7.008516696232105e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                16,
+                656,
+                64
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 1.0934189317857168e-07,
+              "max_tolerance_ratio": 0.23093518854837503,
+              "passed": true,
+              "relative_l2_error": 4.827722659838428e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                16,
+                656,
+                64
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 9.50992880138779e-08,
+              "max_tolerance_ratio": 0.0031888395740077642,
+              "passed": true,
+              "relative_l2_error": 4.128720416309123e-07,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                16,
+                656,
+                64
+              ]
+            }
+          },
+          "median_seconds": {
+            "backward_seconds": 0.0034842751920223236,
+            "forward_seconds": 0.0005349717102944851,
+            "total_seconds": 0.004020924214273691
+          },
+          "passed": true,
+          "peak_cuda_allocated_bytes": 64763904,
+          "replay": 1,
+          "stage": "complete",
+          "values_sha256": "067a8146563eeb71b1fdceb5d67ad02fc2b15b702d465f25bbf1a1b19c2dd464",
+          "wall_seconds": 3.069956589024514,
+          "worker_sha256": "dbea6a3154f9346e3c19197b3f5b563e06dc2166dc513a3583e4bf5742f85253"
+        },
+        {
+          "actual_backend_observed": true,
+          "arm": "math",
+          "case": "encoder-0",
+          "complete": true,
+          "evidence_groups": [
+            "device_inputs",
+            "inputs"
+          ],
+          "independent_numpy_checks": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 6.538650367676757e-08,
+              "max_tolerance_ratio": 0.10472669951022405,
+              "passed": true,
+              "relative_l2_error": 4.937237539509739e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                16,
+                656,
+                64
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 8.568722896507008e-08,
+              "max_tolerance_ratio": 0.08520376108080031,
+              "passed": true,
+              "relative_l2_error": 4.5986907974126e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                16,
+                656,
+                64
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.3722605005382924e-07,
+              "max_tolerance_ratio": 0.17726449999263377,
+              "passed": true,
+              "relative_l2_error": 4.6664672657044063e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                16,
+                656,
+                64
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 1.4318382744737956e-07,
+              "max_tolerance_ratio": 0.005450420247308146,
+              "passed": true,
+              "relative_l2_error": 4.3896245153401494e-07,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                16,
+                656,
+                64
+              ]
+            }
+          },
+          "median_seconds": {
+            "backward_seconds": 0.0015016761608421803,
+            "forward_seconds": 0.0009721750393509865,
+            "total_seconds": 0.0024772328324615955
+          },
+          "passed": true,
+          "peak_cuda_allocated_bytes": 236380160,
+          "replay": 0,
+          "stage": "complete",
+          "values_sha256": "3c4d78d367a40d7b4332d7d51dc013b30a084c78445a2e01284cd6a4b44637e0",
+          "wall_seconds": 18.95469701010734,
+          "worker_sha256": "4c95c5f723e6294cc154e424370390ed5d51164625f064c99fc1dc8e486da6f0"
+        },
+        {
+          "actual_backend_observed": true,
+          "arm": "math",
+          "case": "encoder-0",
+          "complete": true,
+          "evidence_groups": [
+            "device_inputs",
+            "inputs"
+          ],
+          "independent_numpy_checks": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 6.538650367676757e-08,
+              "max_tolerance_ratio": 0.10472669951022405,
+              "passed": true,
+              "relative_l2_error": 4.937237539509739e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                16,
+                656,
+                64
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 8.568722896507008e-08,
+              "max_tolerance_ratio": 0.08520376108080031,
+              "passed": true,
+              "relative_l2_error": 4.5986907974126e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                16,
+                656,
+                64
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.3722605005382924e-07,
+              "max_tolerance_ratio": 0.17726449999263377,
+              "passed": true,
+              "relative_l2_error": 4.6664672657044063e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                16,
+                656,
+                64
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 1.4318382744737956e-07,
+              "max_tolerance_ratio": 0.005450420247308146,
+              "passed": true,
+              "relative_l2_error": 4.3896245153401494e-07,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                16,
+                656,
+                64
+              ]
+            }
+          },
+          "median_seconds": {
+            "backward_seconds": 0.0015585250221192837,
+            "forward_seconds": 0.000965604092925787,
+            "total_seconds": 0.0025267219170928
+          },
+          "passed": true,
+          "peak_cuda_allocated_bytes": 236380160,
+          "replay": 1,
+          "stage": "complete",
+          "values_sha256": "3c4d78d367a40d7b4332d7d51dc013b30a084c78445a2e01284cd6a4b44637e0",
+          "wall_seconds": 2.8927341899834573,
+          "worker_sha256": "4dd2a717c226e1ca94aff2f89137f8ee59e546f2c2a84393507ce9181b891aab"
+        }
+      ]
+    }
+  },
+  "independent_review_complete": true,
+  "kind": "fixed-attention-evidence-review-v1",
+  "new_SSH_upload_GPU_or_paid_work": false,
+  "new_consumed_claims_unchanged": {
+    "runs/pretrained/diagnostic/fixed-attention-university-20261030/linux10603/ATTENDED-LAUNCH-CLAIM.json": "4077b9bfb231198b35c97fa8387554fefc14e7e262db2cfa6e734a12e1581127",
+    "runs/pretrained/diagnostic/fixed-attention-university-20261030/linux10603/actual-launch.json": "2738e3b71187b251bc621ae54bbc011ce9d38088b315fa69796934221f0a0ecd",
+    "runs/pretrained/diagnostic/fixed-attention-university-20261030/linux10609/ATTENDED-LAUNCH-CLAIM.json": "98489bbd4c11599ee54eef14e82626abf773f5a92e1a63c4abc87949a9e54f76",
+    "runs/pretrained/diagnostic/fixed-attention-university-20261030/linux10609/actual-launch.json": "f6615ff3bf40c4d744f3abe7def5837d2dfbf229641cf2023b5c5d1921b2a01e"
+  },
+  "next": "Prepare a bounded CPU-only reference-reproducibility probe with saved FP64 intermediates on linux10603 and a control host; no GPU retry or threshold change.",
+  "old_refusals_waived": false,
+  "optimization_adopted": false,
+  "original_preparation": "report/checks/2026-10-30-fixed-attention-preparation.json",
+  "prior_consumed_claims_unchanged": {
+    "runs/pretrained/diagnostic/attention-components-university-20261030/linux10603/ATTENDED-LAUNCH-CLAIM.json": "466ef6ae3b77ae0dff5048e99ec592445e0fb936f7690f3629eaa92c08f45419",
+    "runs/pretrained/diagnostic/attention-components-university-20261030/linux10603/actual-launch.json": "0d32663aaf333ad4d2416cc10ca30c945a66acf23d4362e17c2bae6ab5cd1680",
+    "runs/pretrained/diagnostic/attention-components-university-20261030/linux10609/ATTENDED-LAUNCH-CLAIM.json": "4c02bc5f40cad3dab79d27a158a15af0a056766b6f672ab3f7ea496464c406d9",
+    "runs/pretrained/diagnostic/attention-components-university-20261030/linux10609/actual-launch.json": "f5d590fc32702596be19c9366421629ece96bf25b4362a7f37929abc67a146e4"
+  },
+  "raw_review_directory": "runs/pretrained/diagnostic/fixed-attention-university-20261030/independent-review-20261030",
+  "research_admitted": false,
+  "retry_started": false,
+  "review_artifacts": {
+    "review.json": {
+      "bytes": 22445,
+      "sha256": "3ef720fd4bef2a2f360587a37eca9a876d7575227033fa91178583c02329e9e7"
+    },
+    "review_saved_exports.py": {
+      "bytes": 13232,
+      "sha256": "23e620445e1cb1a17eda7fe4e9a6adf1c4316a18978abc5cdbf2ac759a07e313"
+    }
+  },
+  "source_scientific_pins_preserved": 61,
+  "status": "encoder0-pass-encoder1-cpu-oracle-refusal",
+  "upstream_sources_verified": 33
+}

@@ -1,5 +1,54 @@
 # Research Progress Reports
 
+## 2026-10-30 — Fixed-input encoder-0 passes; encoder-1 CPU reference refuses
+
+Both exports verify: 317 regular archive members, 104 worker tensor signatures,
+44 fixed-input snapshot checks, 20 independent NumPy comparisons, eight same-input
+backend comparisons and 64 fresh/cross-arm byte comparisons. Fixed loading and
+input snapshots match on both hosts. All 61 science pins, 33 upstream bindings,
+captured sources, packets, summaries and old/new claims remain unchanged.
+
+Linux10609 completes four workers and passes the unchanged Mac reviewer. The
+656-token component takes median 4.024 ms efficient versus 2.513 ms math (1.601×
+total, 2.242× backward), with allocation rising 61.8 to 225.4 MiB. This remains
+an isolated synthetic SDPA result, not a full-model or cost qualification.
+
+Linux10603 completes efficient replay 0, then math replay 0 refuses CPU FP64
+bookkeeping before device transfer or GPU math attention. Its input file is
+identical to the passed worker's; reported FP64 errors reach 1.285e-10 versus
+unchanged 1e-12/1e-14 bounds. Local reconstruction from the failed inputs passes,
+but failed derived oracle tensors were not saved, so cause and originating
+operation remain unknown. No complete 400-token comparison is admitted.
+
+Next prepare a bounded CPU-only reference probe with saved intermediates and
+a control host. Both launch claims are consumed; completed SSH sessions may
+close. No retry, new SSH/GPU/paid work, financial change, adoption or research
+admission occurs in review.
+[Independent review](report/checks/2026-10-30-fixed-attention-review.md).
+
+## 2026-10-30 — Fixed-input encoder handoff prepared
+
+A separate immutable-input diagnostic now loads fixed synthetic operands and
+FP64 references without runtime generation. It saves inputs, device inputs and
+untimed values before acceptance gates. All 46 focused CPU checks pass, including
+six fresh tiny math workers and two injected refusals with retained evidence.
+Two more fresh CPU-only processes verify all full-size fixtures with generation
+forbidden: 24 exact logical comparisons, eight prior-input matches and FP64
+oracle differences below 1.39e-16. These loader checks run no SDPA/model/CUDA.
+Eight simulated transport scenarios pass. The 85,622,679-byte packet restores
+139 regular members and its nine new/current sources match the CPU-tested packet.
+All 61 scientific pins and 33 upstream source bindings remain unchanged.
+
+New unarmed single-use plans assign encoder-0 to linux10609 and encoder-1 to
+linux10603, independently in parallel. Each allows at most 20 minutes, four fresh
+workers capped at 120 seconds and a 4 GiB allocator bound. Both prior claims,
+old results and generation/reconstruction refusals remain unchanged. Fresh user
+checks show both expected GPUs idle. No new real SSH/upload/GPU/paid work, retry,
+optimization adoption, financial change or research admission starts in preparation.
+Next explicitly invoke the two new attended Mac helpers once, then independently
+review their exports before any model integration.
+[Preparation review](report/checks/2026-10-30-fixed-attention-preparation.md).
+
 ## 2026-10-30 — Attention exports reviewed; predictor promising, encoder incomplete
 
 Both attended exports verify: 242 regular members, 84 tensor signatures,

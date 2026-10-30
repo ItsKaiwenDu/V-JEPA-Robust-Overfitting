@@ -1,0 +1,491 @@
+{
+  "CPU_checks": {
+    "actual_fresh_tiny_math_workers": 6,
+    "errors": 0,
+    "failures": 0,
+    "fixture_evidence_bytes": 531223,
+    "fixture_evidence_sha256": "4285bee563f15acae39284810f077eb8598c189a21571f7e6a34b6d6d1e18683",
+    "injected_CPU_refusals": [
+      {
+        "CUDA": false,
+        "error": "Predeclared component FP64 oracle rejected; no tolerance widened.",
+        "inputs_and_values_preserved": true,
+        "kind": "numerical",
+        "passed": false,
+        "worker_sha256": "32b2ec5dfb2007ceb838e9d33365461d9f4c56a24dea81bae6fa94daddc440c4"
+      },
+      {
+        "CUDA": false,
+        "error": "Reference worker is invalid or incomparable.",
+        "inputs_and_values_preserved": true,
+        "kind": "reference",
+        "passed": false,
+        "worker_sha256": "1e5643fa113dda637ad2b1667a6526b15c76685b2f2977a902b329067c5515ad"
+      }
+    ],
+    "skipped": 0,
+    "tests": 46,
+    "xml_sha256": "ae96f3b8a12a63059b39f7c03f91cdc2413f406ad14995ea78879bd9068edfed"
+  },
+  "GPU_work_started": false,
+  "archive_bytes": 85622679,
+  "archive_sha256": "51c4e4b71ec292afc65ee3bd53c5556c6b538056d607244aef4945ed5fcded9a",
+  "both_new_plans_unarmed": true,
+  "date": "2026-10-30",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "fixture_origins": {
+    "encoder-0": {
+      "fixture_sha256": "b03aa36d9f4d5c6c1cfa01554c9f2fed4af48ee01ea7654a1202152965b6ac52",
+      "input_signatures": {
+        "cotangent": {
+          "abs_max": 4.905788898468018,
+          "dtype": "torch.float32",
+          "sha256": "5f1d4afa9841596ce32e81648bb7680124496515843ae3baea3a9a20c8baf6b0",
+          "shape": [
+            1,
+            16,
+            656,
+            64
+          ]
+        },
+        "k": {
+          "abs_max": 2.7633402347564697,
+          "dtype": "torch.float32",
+          "sha256": "eec07e3db005f277e2bda6e9add74c85d91cac2f1c844958b6c5445705bc45e8",
+          "shape": [
+            1,
+            16,
+            656,
+            64
+          ]
+        },
+        "q": {
+          "abs_max": 2.7704687118530273,
+          "dtype": "torch.float32",
+          "sha256": "b7139f2ab8c27b104500b3af439af233dae36e14e27664f1572b1dc6a80bf82a",
+          "shape": [
+            1,
+            16,
+            656,
+            64
+          ]
+        },
+        "v": {
+          "abs_max": 2.794689178466797,
+          "dtype": "torch.float32",
+          "sha256": "6c7ba245f5285f75c6c88ae5b73c5bbbf5e8c1eeced49407f4b2d6fced39e57f",
+          "shape": [
+            1,
+            16,
+            656,
+            64
+          ]
+        }
+      },
+      "origin": {
+        "archive_sha256": "d27d74f1d83bd9bab8255ce54537de889b6451d2441e8a62e065b519a8200366",
+        "host": "linux10603",
+        "kind": "reviewed-saved-synthetic-operands",
+        "prior_review_sha256": "882849f4c578448483d7ac4cafcece3c12ccfe80d5e1eefb635e09c1ee3cf15e",
+        "values_sha256": "062cd2fc8fa8c83a49118b5cb16db3ff155b4ae8077d5847ecc45b2d9d698f8a",
+        "worker_sha256": "fe5fbc2081ed6ace512651b50e73bc20c9fc2fa527cb1ec485d7b01f9e024e20"
+      },
+      "shape": [
+        1,
+        16,
+        656,
+        64
+      ]
+    },
+    "encoder-1": {
+      "fixture_sha256": "f4c5ae801b5867a2e23066580d6e6b98a6cb160bfeb850f9c4a9175f31e875d7",
+      "input_signatures": {
+        "cotangent": {
+          "abs_max": 5.479488849639893,
+          "dtype": "torch.float32",
+          "sha256": "96d6a5585c51ab0f583b20d8c283a300833042543b68107c18b99bc4562e2b6d",
+          "shape": [
+            1,
+            16,
+            400,
+            64
+          ]
+        },
+        "k": {
+          "abs_max": 2.867205858230591,
+          "dtype": "torch.float32",
+          "sha256": "f128081caa482057a7d50c1cea88276cc29aa9766040344e38e305d44ea9beeb",
+          "shape": [
+            1,
+            16,
+            400,
+            64
+          ]
+        },
+        "q": {
+          "abs_max": 2.797140121459961,
+          "dtype": "torch.float32",
+          "sha256": "4b711702ae3bc45e938231db39e13d31c8058050f93310621be1ecd6dc433ccc",
+          "shape": [
+            1,
+            16,
+            400,
+            64
+          ]
+        },
+        "v": {
+          "abs_max": 2.8354406356811523,
+          "dtype": "torch.float32",
+          "sha256": "d47e67abd311d1aefa648b3640a27715a86a3a76130cd5fc777e57c1204c9092",
+          "shape": [
+            1,
+            16,
+            400,
+            64
+          ]
+        }
+      },
+      "origin": {
+        "generator_replay_qualified": false,
+        "kind": "single-cpu-upstream-synthetic-capture",
+        "numpy": "2.4.6",
+        "platform": "arm64",
+        "prior_review_sha256": "882849f4c578448483d7ac4cafcece3c12ccfe80d5e1eefb635e09c1ee3cf15e",
+        "torch": "2.14.1"
+      },
+      "shape": [
+        1,
+        16,
+        400,
+        64
+      ]
+    },
+    "predictor": {
+      "fixture_sha256": "fda9ede48d85e351e678f762837be2e73069d19d757ae859cd1a0b7a1cbe0c47",
+      "input_signatures": {
+        "cotangent": {
+          "abs_max": 4.718541622161865,
+          "dtype": "torch.float32",
+          "sha256": "efc5e8af65cb010c3a71a8cdddc8da3efab2141d6d8d01f125938807f15759bf",
+          "shape": [
+            1,
+            12,
+            2048,
+            32
+          ]
+        },
+        "k": {
+          "abs_max": 3.029435157775879,
+          "dtype": "torch.float32",
+          "sha256": "55f9df6863cb210b694e4c64b1a0a888bc8046da1086bcef5ca0aaa5fce255c4",
+          "shape": [
+            1,
+            12,
+            2048,
+            32
+          ]
+        },
+        "q": {
+          "abs_max": 2.798095226287842,
+          "dtype": "torch.float32",
+          "sha256": "8573d93d07443d673feea62f16f74f717b41d979b4168edfd4249d125b6062a6",
+          "shape": [
+            1,
+            12,
+            2048,
+            32
+          ]
+        },
+        "v": {
+          "abs_max": 3.1144230365753174,
+          "dtype": "torch.float32",
+          "sha256": "00bee18c01584fa0a609e9db500fb1ebcc9efe3ab65e3267d66dd1e335b2fcc5",
+          "shape": [
+            1,
+            12,
+            2048,
+            32
+          ]
+        }
+      },
+      "origin": {
+        "archive_sha256": "1cede5502127193fa06816b5c6f0f42c2f4c407ed636e9d9cffed7a70e625be3",
+        "host": "linux10609",
+        "kind": "reviewed-saved-synthetic-operands",
+        "prior_review_sha256": "882849f4c578448483d7ac4cafcece3c12ccfe80d5e1eefb635e09c1ee3cf15e",
+        "values_sha256": "b5cfa4ad832d6995d46b83e692b76a9d97c0be1f6eb8cde4c65eb86040c22558",
+        "worker_sha256": "2de1d7d42528844d51910615cae49c9bc22ef2b4decbb6a819eaf9343e4e150e"
+      },
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    }
+  },
+  "fresh_user_status": {
+    "linux10603": {
+      "active_compute_processes": [],
+      "driver": "580.178.04",
+      "gpu": "NVIDIA GeForce RTX 3070",
+      "host": "linux10603",
+      "memory_mib": 8192,
+      "source": "Fresh read-only outputs supplied by user during fixed-input preparation; launcher rechecks live before and during work.",
+      "used_mib": 94,
+      "uuid": "GPU-e54fae90-feeb-8106-d8c0-1974fe48555f"
+    },
+    "linux10609": {
+      "active_compute_processes": [],
+      "driver": "580.178.04",
+      "gpu": "NVIDIA GeForce RTX 3070",
+      "host": "linux10609",
+      "memory_mib": 8192,
+      "source": "Fresh read-only outputs supplied by user during fixed-input preparation; launcher rechecks live before and during work.",
+      "used_mib": 94,
+      "uuid": "GPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52"
+    }
+  },
+  "full_fixture_verification": {
+    "CUDA_or_SDPA_or_model_executed": false,
+    "bytes": 85622679,
+    "fresh_CPU_load_workers": 2,
+    "fresh_logical_tensor_comparisons": 24,
+    "full_packet_sha256": "51c4e4b71ec292afc65ee3bd53c5556c6b538056d607244aef4945ed5fcded9a",
+    "kind": "full-immutable-fixture-local-review-v1",
+    "original_generation_refusals_remain_unqualified": true,
+    "passed": true,
+    "prior_reviewed_input_comparisons": 8,
+    "regular_members_restored": 139,
+    "results": [
+      {
+        "file": "0.json",
+        "sha256": "3cf0bc1ef577e1a67fec1eaf404fea7db6dc4cc124ee7d874733130e351499fe"
+      },
+      {
+        "file": "1.json",
+        "sha256": "3cf0bc1ef577e1a67fec1eaf404fea7db6dc4cc124ee7d874733130e351499fe"
+      }
+    ],
+    "runtime_regeneration_forbidden_and_not_called": true,
+    "tested_sources_match_full_packet": true
+  },
+  "full_fixture_verification_receipt_sha256": "dbae3602bb451dda32baddb2656c7bc6548e72db631c88b852a01862c8ad8637",
+  "full_model_correctness_or_speed_qualified": false,
+  "full_study_cost_approved": false,
+  "generator_replay_qualified": false,
+  "handoff_sha256": "61158d9b148ad32741d4cfaa7ec2862671b4ee5e534c0b9e1b26f611ec018b37",
+  "kind": "fixed-attention-preparation-v1",
+  "new_CUDA_backend_comparison_qualified": false,
+  "new_actual_claims_exist": false,
+  "new_current_sources": {
+    "models/attention_fixture.py": "7676f8d268196f880a408352af5b6c558028231deb270efc96f3c36ae753d411",
+    "models/attention_saved_evidence.py": "d561f3acf2e247a4191430204c1d2445f7d747fa7fde117117580f79263235c0",
+    "models/fixed_attention_diagnostic.py": "599ace54bb558f51579f7900bfed5c6e0fe41b272bd41894ff483bdf8aaec44d",
+    "models/fixed_attention_packet.py": "f479c8b175d9664c19ca75f19fb5c36a12dbd912512ccf9bf24aa87cab9b6c88",
+    "scripts/check_fixed_attention.py": "b0ee6a89dddc8dd3db67f08ec513de5e235a8866c1b6967b3724f0c2171a624a",
+    "scripts/prepare_fixed_attention.py": "5c50c03c2d929d1820f1dded309f49187778df19f120e92a7405e27b0abc1749",
+    "scripts/university_fixed_attention.sh": "c9e4e6102b24612723cb1137cb38b54b79df04c122732f6a4b9bb184d56c7867",
+    "tests/test_attention_fixture.py": "30a1cbd9644d1ef3c7ebaf727cc3c7c14ea1a546f44cab9775e8e544fa7c70fe",
+    "tests/test_fixed_attention.py": "cc6bbcbfa73713addfa05801e51ed064b8e75e9e6bfe40ac7c210a72f40ed494"
+  },
+  "new_host_plans": {
+    "linux10603": {
+      "activation_rule": "Only explicit user execution of run-attended.sh activates one plan copy; preparation starts no work.",
+      "allocator_gib": 4,
+      "attended": true,
+      "authorized": false,
+      "automatic_retries": 0,
+      "diagnostic_only": true,
+      "expected_driver": "580.178.04",
+      "expected_gpu": "NVIDIA GeForce RTX 3070",
+      "expected_gpu_uuid": "GPU-e54fae90-feeb-8106-d8c0-1974fe48555f",
+      "expected_host": "linux10603",
+      "fixed_inputs": true,
+      "generator_replay_qualified": false,
+      "handoff_sha256": "61158d9b148ad32741d4cfaa7ec2862671b4ee5e534c0b9e1b26f611ec018b37",
+      "kind": "fixed-attention-launch-v1",
+      "max_seconds": 1200,
+      "paid_compute": false,
+      "prior_consumed_attempts": {
+        "linux10603": {
+          "claim_sha256": "466ef6ae3b77ae0dff5048e99ec592445e0fb936f7690f3629eaa92c08f45419",
+          "plan_sha256": "0d32663aaf333ad4d2416cc10ca30c945a66acf23d4362e17c2bae6ab5cd1680"
+        },
+        "linux10609": {
+          "claim_sha256": "4c02bc5f40cad3dab79d27a158a15af0a056766b6f672ab3f7ea496464c406d9",
+          "plan_sha256": "f5d590fc32702596be19c9366421629ece96bf25b4362a7f37929abc67a146e4"
+        }
+      },
+      "purpose": "New fixed-input encoder component comparison, one case on this host. Load immutable synthetic bytes; prior refusals/claims preserved. No model integration, training or paid compute.",
+      "repeats": 3,
+      "research_admitted": false,
+      "role": "encoder-1",
+      "warmup": 1,
+      "worker_seconds": 120
+    },
+    "linux10609": {
+      "activation_rule": "Only explicit user execution of run-attended.sh activates one plan copy; preparation starts no work.",
+      "allocator_gib": 4,
+      "attended": true,
+      "authorized": false,
+      "automatic_retries": 0,
+      "diagnostic_only": true,
+      "expected_driver": "580.178.04",
+      "expected_gpu": "NVIDIA GeForce RTX 3070",
+      "expected_gpu_uuid": "GPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52",
+      "expected_host": "linux10609",
+      "fixed_inputs": true,
+      "generator_replay_qualified": false,
+      "handoff_sha256": "61158d9b148ad32741d4cfaa7ec2862671b4ee5e534c0b9e1b26f611ec018b37",
+      "kind": "fixed-attention-launch-v1",
+      "max_seconds": 1200,
+      "paid_compute": false,
+      "prior_consumed_attempts": {
+        "linux10603": {
+          "claim_sha256": "466ef6ae3b77ae0dff5048e99ec592445e0fb936f7690f3629eaa92c08f45419",
+          "plan_sha256": "0d32663aaf333ad4d2416cc10ca30c945a66acf23d4362e17c2bae6ab5cd1680"
+        },
+        "linux10609": {
+          "claim_sha256": "4c02bc5f40cad3dab79d27a158a15af0a056766b6f672ab3f7ea496464c406d9",
+          "plan_sha256": "f5d590fc32702596be19c9366421629ece96bf25b4362a7f37929abc67a146e4"
+        }
+      },
+      "purpose": "New fixed-input encoder component comparison, one case on this host. Load immutable synthetic bytes; prior refusals/claims preserved. No model integration, training or paid compute.",
+      "repeats": 3,
+      "research_admitted": false,
+      "role": "encoder-0",
+      "warmup": 1,
+      "worker_seconds": 120
+    }
+  },
+  "new_paid_hold_USD": 0,
+  "next": "User may explicitly invoke each new host-specific attended helper once from two local Mac Terminals; independently review both exports before any integration.",
+  "old_refusals_waived": false,
+  "old_result_sources_summaries_claims_unchanged": true,
+  "optimization_adopted": false,
+  "original_scientific_pins_preserved": 61,
+  "paid_compute": false,
+  "passed_offline_preparation": true,
+  "prior_consumed_attempts_preserved": {
+    "linux10603": {
+      "claim_sha256": "466ef6ae3b77ae0dff5048e99ec592445e0fb936f7690f3629eaa92c08f45419",
+      "plan_sha256": "0d32663aaf333ad4d2416cc10ca30c945a66acf23d4362e17c2bae6ab5cd1680"
+    },
+    "linux10609": {
+      "claim_sha256": "4c02bc5f40cad3dab79d27a158a15af0a056766b6f672ab3f7ea496464c406d9",
+      "plan_sha256": "f5d590fc32702596be19c9366421629ece96bf25b4362a7f37929abc67a146e4"
+    }
+  },
+  "raw_directory": "runs/pretrained/diagnostic/fixed-attention-university-20261030",
+  "real_SSH_connections": 0,
+  "regular_members_restored": 139,
+  "research_admitted": false,
+  "source_metadata_fixture_files": 138,
+  "status": "prepared-unrun",
+  "tested_sources_match_production": true,
+  "transport_scenarios": [
+    {
+      "host": "linux10609",
+      "passed": true,
+      "receipt": "runs/pretrained/diagnostic/fixed-attention-university-20261030/mock-transport-linux10609/review.json",
+      "receipt_sha256": "aeaac3953464f552fa7c21eea1b32518b21ab7cadb2266906aa3091e5a54b3b2",
+      "scenarios": [
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "normal",
+          "simulated_launches": 1,
+          "simulated_uploads": 1
+        },
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "upload_retry",
+          "simulated_launches": 1,
+          "simulated_uploads": 2
+        },
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "download_retry",
+          "simulated_launches": 1,
+          "simulated_uploads": 1
+        },
+        {
+          "first_exit": 1,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "existing_directory",
+          "simulated_launches": 0,
+          "simulated_uploads": 0
+        }
+      ]
+    },
+    {
+      "host": "linux10603",
+      "passed": true,
+      "receipt": "runs/pretrained/diagnostic/fixed-attention-university-20261030/mock-transport-linux10603/review.json",
+      "receipt_sha256": "f972bb2a80262d019767b27bf2115046eeaa47dd4ecfcfe4b812a802cfb955c9",
+      "scenarios": [
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "normal",
+          "simulated_launches": 1,
+          "simulated_uploads": 1
+        },
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "upload_retry",
+          "simulated_launches": 1,
+          "simulated_uploads": 2
+        },
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "download_retry",
+          "simulated_launches": 1,
+          "simulated_uploads": 1
+        },
+        {
+          "first_exit": 1,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "existing_directory",
+          "simulated_launches": 0,
+          "simulated_uploads": 0
+        }
+      ]
+    }
+  ],
+  "upload_started": false,
+  "upstream_source_bindings": 33
+}

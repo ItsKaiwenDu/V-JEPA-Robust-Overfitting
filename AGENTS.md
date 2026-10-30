@@ -2,6 +2,91 @@
 
 ## Current stage
 
+LATEST Oct30: FIXED-INPUT ENCODER0 PASS; ENCODER1 CPU ORACLE REFUSES.
+Read report/checks/2026-10-30-fixed-attention-review.json/md FIRST. User ran
+both NEW fixed-attention helpers; claims/actualplans now CONSUMED. NEVER rerun
+old or new run-attended.sh/removeclaim/replacecapturedpacket/source/summary.
+10609 encoder0 fixed-attention.y4cv6d exit0,43.47s reportedpre-export,4workers.
+Download linux10609/case-download-ybne6qld,328707234bytes,166members,sha
+4d4d577c40957d67eb010e18235e21c03307ea5359e5086867e26515a679ffad.
+10603 encoder1 fixed-attention.yVnT8b exit1,13.08s,efficient0 completes;
+math0 fails BEFORE GPU math attention/deviceinput transfer at CPU FP64 oracle.
+Download linux10603/case-download-vjuddm3_,128824276bytes,151members,sha
+1a71e16529ce258bec54cadccb8e50f2890ed150529f4a651ee9d179e418ffbc.
+All317regularmembers/278source-meta-fixture visits verified;104worker tensor
+signatures,44fixedinput snapshot comparisons,20independent NumPy checks,
+8sameinput backend gates,64fresh/crossarm byte comparisons PASS. 61sciencepins/
+33upstream bindings/captured sources/old and new claims remain unchanged.
+Fixed input bytes are stable BOTHhosts. Original reviewer passes encoder0 on
+Mac and rejects incomplete encoder1. Encoder0 sixsamples/arm(twofresh) median
+Eff F.536/B3.489/total4.024ms vs Math F.967/B1.557/total2.513ms =1.601x total,
+2.242x backward. Peakallocation61.8->225.4MiB. SYNTHETIC COMPONENT ONLY; no
+fullmodel/EOT8/PGD/optimizer/training/affordability/adoption qualified.
+Encoder1 passed+failed workers have identical common contracts and inputs.pt
+sha1c4dc71ab5e5de65cd6a47747dedc24261aa95db801cb1b8c67aaef74e51dc6e.
+Failure math0 CPU bookkeeping maxerr output1.2846e-10/dq8.9826e-11/dk3.7739e-11/
+dv9.2847e-11 at UNCHANGED1e-12rtol/1e-14atol. Preceding efficient0 reference
+errors<=2.50e-16. Failed inputs recompute locally PASS max1.25e-16. Failed
+computed FP64 oracle arrays NOT SAVED, only metrics; cause/location UNKNOWN.
+DO NOT claim GPU math numerical failure, input drift or harmlessrounding.
+No math GPU output/profile/timing exists; no replay1 on10603. Partial efficient
+result is not complete encoder1 comparison. All original refusals preserved.
+Next PREPARE bounded CPU-only reference reproducibility probe on10603 with
+controlhost, save actual FP64 intermediates BEFORE gates and record CPU/library
+context. No new GPU retry or tolerance widening. Review raw independent-review-
+20261030 has audit script/report; no implementation change or new test suite
+ran during this data review. 46prep/14reader checks are historical and frozen.
+18GPUmonitor samples noforeigncompute, notcontinuousproof. CompletedSSH may
+close. Review starts no realSSH/upload/GPU/paid work. Finance9.8116encumbered/
+.1884unreserved/old2hold/.0792gap/single10diagnostic/160compute/200project/
+40reserve unchanged; allknownRunpod terminated. Usercommits self; NEVER
+stage/commit/push. Older LATEST paragraphs below are historical snapshots.
+
+LATEST Oct30: IMMUTABLE-INPUT ATTENTION HANDOFF PREPARED, UNRUN.
+Read docs/fixed_attention_diagnostic.md and report/checks/2026-10-30-fixed-
+attention-preparation.json/md FIRST. New sources attention_fixture.py,
+fixed_attention_{packet,diagnostic}.py + check/prepare/university_fixed_attention
+scripts +2tests; existing NumPy saved-evidence reader is included unchanged.
+46 focused CPU checks/zero skips:6fresh tiny CPU math workers load exact arrays;
+2deliberately failed CPU workers retain inputs.pt,device-inputs.pt,values.pt.
+NumPy headers/extents/dtypes/values/hash/shape/stride checked before loading;
+no runtime FP32 generation/fallback. Fixed FP64 references independently checked
+against local Torch oracle with existing1e-12/1e-14 bookkeeping. Component
+bounds unchanged output1e-4/2e-5,QKV.002/2e-7. Old generation/reconstruction
+failures/cause remain unresolved; not waived by loading fixed bytes.
+Full85,622,679byte archive sha51c4e4b71ec292afc65ee3bd53c5556c6b538056d607244aef4945ed5fcded9a,
+manifest61158d9b148ad32741d4cfaa7ec2862671b4ee5e534c0b9e1b26f611ec018b37,
+138source/meta/fixture files+manifest=139members restored. Sources match tested
+tiny packet. Two actual fresh FULL-size CPU loader/oracle processes PASS with
+regeneration forbidden,24logical tensor comparisons,8prior-input matches,
+maxFP64error1.388e-16; no SDPA/model/CUDA in these extra loader checks.
+Predictor+encoder0 input bytes reused from reviewed prior efficient workers;
+encoder1 single new CPU post-RoPE capture at400tokens; allorigins explicit.
+All3fixtures included, but GPU jobs ONLY encoder0 and encoder1. 61sciencepins/
+33upstream bindings unchanged; no pixels/weights/trainedactivations/wheels/ledger.
+Raw fixed-attention-university-20261030 has NEW linux10609 roleencoder-0 and
+linux10603 roleencoder-1 helpers/proposals, bothUNARMED/NO actualclaim/plan.
+Old rawattention-components-university-20261030 claims remain CONSUMED: NEVER
+rerun old launchers/removeclaims/replaceoldpackets. New plans bind both old
+claim+plan hashes and distinct remote fixed-attention-transfer-20261030/HOST.
+User current continue authorizes preparation; explicit manual run-attended.sh
+invocation opts into ONE new bounded attended attempt on that host. Eachnewhost
+1200s inclremoteextract,4workers<=120s,allocator4GiB,outerkill5s,foreignguard5s.
+Two independent GPUs parallel; each backend comparison stays serial on sameGPU.
+ATTENDED keep LOCAL MAC Terminals/SSH open and Macawake/lidopen through download.
+New helper caffeinated, verified knownhost key, no installs or model retry.
+If copyfails use only new host download-only.sh afterreview. Eight MOCK transport
+scenarios PASS (no realnetwork). Snapshots atomic, unfinished .partial retained
+in export. Independent review loads fixture bytes, no regeneration; rejects
+changed snapshots/oracles/domain/coverage/replay/clock/memory/backend receipts.
+Fresh user outputs BOTH expected3070 UUIDs8192total94used580.178.04/no compute;
+new helper repeats checks live. No realSSH/upload/GPU work starts in prep.
+Old diagnostic sources/claims/evidence preserved. No new CUDA/model/PGD/optimizer
+qualification, fullstudy cost/adoption/research admission. Finance unchanged
+9.8116encumbered/.1884unreserved/single10diagnostic/160compute/200project/
+40reserve; old2hold/.0792gap remain, allknownRunpod terminated. Usercommits self;
+NEVER stage/commit/push. Older LATEST snapshots below are historical.
+
 LATEST Oct30: ATTENTION SAVED EVIDENCE REVIEWED; MIXED, GENERATION UNRESOLVED.
 Read report/checks/2026-10-30-attention-component-review.json/md FIRST.
 User ran both helpers. Actual10609 predictor attention.sAjUk6 exit0,42.14s

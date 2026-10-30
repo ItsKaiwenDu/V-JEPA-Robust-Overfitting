@@ -1,5 +1,24 @@
 # V-JEPA Robust Overfitting
 
+**Fixed-input encoder review (October 30):**
+[The 656-token encoder comparison passes; the 400-token comparison stops](report/checks/2026-10-30-fixed-attention-review.md).
+Both runs load identical fixture bytes. Math attention takes 2.51 versus 4.02 ms
+for the isolated 656-token component (1.60×), with higher allocation. The second
+host rejects CPU FP64 reference bookkeeping before GPU math attention runs.
+That discrepancy does not reproduce on the Mac; its cause remains unresolved.
+Next prepare a CPU-only reference probe with saved intermediates. No backend,
+full-model speedup, study cost, retry or research result is admitted.
+
+**Immutable attention inputs prepared (October 30):**
+[The new fixed-input diagnostic passes 46 focused CPU checks](report/checks/2026-10-30-fixed-attention-preparation.md).
+Workers load verified NumPy arrays and fixed FP64 references, and retain input/
+device-input/untimed-value evidence before acceptance checks. Two fresh full-size
+loader processes and eight simulated transport scenarios pass. New unarmed
+20-minute plans assign encoder-0 to linux10609 and encoder-1 to linux10603.
+Prior attempts and generation failures remain preserved; no new GPU/SSH/paid
+work, backend adoption or research admission has started. Earlier entries below
+record historical preparation and outcomes.
+
 **Attention component review: mixed result (October 30):**
 [Both exports are verified; predictor saved-input checks pass](report/checks/2026-10-30-attention-component-review.md).
 Math attention takes 12.12 ms versus 25.54 ms for the isolated predictor component,
