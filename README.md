@@ -1,5 +1,15 @@
 # V-JEPA Robust Overfitting
 
+**CPU-only cost-reduction proof verified (October 29):**
+[Projection reuse passes 32 new CPU checks](report/checks/2026-10-29-projection-reuse-CPU-proof.md)
+and all 140 focused checks in their documented process groups. It retains every
+EOT draw/backward while reusing identical FP64 forward values within one bank.
+Existing scientific sources and runners remain unchanged; CUDA speed and full
+pretrained equivalence are unmeasured. Next prepare a separate university-GPU
+correctness/profile diagnostic before any further paid work. RTX 3090 billing
+settles to $1.1328, wallet $6.56; $0.1884 remains unreserved in the diagnostic
+envelope, with the historical hold retained. Earlier entries below are historical.
+
 **RTX 3090 partial benchmark reviewed; Pod terminated (October 29):**
 [Ten of thirteen phases completed before the original cutoff](report/checks/2026-10-29-rtx3090-partial-benchmark-review.md).
 Saved numerical checks and clean/adversarial recovery signatures pass; controls

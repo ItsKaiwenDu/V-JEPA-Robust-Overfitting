@@ -1,5 +1,28 @@
 # Research Progress Reports
 
+## 2026-10-29 — Session billing settled; CPU-only projection-reuse proof verified
+
+The updated deleted-Pod row is $1.1328, wallet $6.56. Settling only this $1.30
+reservation frees $0.1672 internally: conservative encumbrance $9.8116 and
+$0.1884 unreserved within the single $10 diagnostic cap. The old $2 hold and gap
+remain; wallet movement is not added again. Full account reconciliation is pending.
+
+A separate CPU-only primitive reuses the original FP64 patch forward within one
+byte-identical input bank, retaining distinct per-draw normalization/backward
+graphs and all masks/loss reductions. Thirty-two new checks verify exact tensors,
+derivatives, actual tiny upstream PGD20/R2/EOT8 adversaries and synthetic AdamW
+recovery. With 77 candidate and 31 precision checks, 140 focused checks pass.
+The initial mixed-process runtime refusal is retained; new fixtures restore
+their own global state and unchanged precision fixtures run separately.
+
+All original 61 scientific pins and strict provenance remain. No runner integration,
+CUDA execution, released weights, held-out pixels or research admission occurs.
+The theoretical primary-only SE target is 1.46–1.53×; actual GPU benefit and reuse
+overhead are unknown. Next prepare a separately identified/source-bound university
+correctness/profile diagnostic. No paid work is authorized by this proof.
+[CPU proof](report/checks/2026-10-29-projection-reuse-CPU-proof.md).
+[Billing settlement](report/checks/2026-10-29-rtx3090-billing-settlement.md).
+
 ## 2026-10-29 — RTX 3090 partial result verified; recovery and shutdown complete
 
 The benchmark reached 10/13 phases and timed out at 3:58 PM, before the user's

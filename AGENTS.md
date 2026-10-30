@@ -2,6 +2,36 @@
 
 ## Current stage
 
+LATEST Oct29: BILLING SETTLED + ISOLATED CPU PROJECTION-REUSE PROOF PASS.
+Read report/checks/2026-10-29-rtx3090-billing-settlement.json/md and
+2026-10-29-projection-reuse-CPU-proof.json/md; docs/projection_reuse_cpu_prototype.md.
+User final3090 deleted-row1.1328/wallet6.56. Settle ONLY1.30hold toactual; internal
+release.1672; totalconservativeencumbrance9.8116/unreserved.1884insideSINGLE10pilot.
+Old2inclusivehold/.0792gap PRESERVED; walletusage8.44approx NOTaddedagain.
+AllknownPods terminated. Caps200/160/40 unchanged; no newpaidpermission/hold.
+New models/projection_reuse.py isCPU-only standalone plain BankProjectionReuse;
+NO integration into model/eval/training/runner or existingpolicy. RejectsCUDA.
+It computes originalFP64 forward onceperidentical-inputbank, separateoriginal
+FP32VJP/normalizationgraphperrequest, byteexactoperands, parameter/version/value/
+precision/thread/gradmodeguards; closespermanentlyafterexactcallcount/error.
+32newcases+77originalcandidatechecks combined109PASS;31originalprecisionchecks
+separateprocessPASS =>140focusedchecks/0skip. Initialmixed137pass1failure retained
+rawprojection-reuse-cpu-20261029: legacyparent/freshchildflagsmismatch, strictguard
+notrelaxed. Newtestsrestoreownflags/RNG/threads. Originalprecisionfixturesrun
+separately; repositorywidefixtureorderindependenceNOTclaimed. All61sciencepins
+andhistoricalpacket/report/sourcehashes unchanged. ActualtinyPGD20/R2/EOT8 outputs,
+allinput/parameterderivatives andsynthetic2updateAdamW/recovery exactonCPU.
+Tiny2families*8draws=16forwardrequests reducedto1, ALLVJPsretained. NOT16xGPU speed.
+No pretrainedweights/GPU/studypixels/prototypefreshprocessreplay/integration done.
+Primary-onlySEcost target1.459–1.525x needsideal16wayeligiblefraction33.6–36.7%;
+actualGPUfraction/guardcopies/memory/speed UNKNOWN. No cost/researchadmission.
+NextPREPARE separatelyidentified/sourcebound correctness+profilediagnostic for
+FREEuniversityGPU before paidbenchmark; fullCUDA input/parameter/attack comparisons,
+freshreplay/memory/timing andnewprovenance stillneeded. Do notpatchoriginalguard/
+oldclass/policies or silentlyenableCUDA. No SSH/launch/queue/reminder thisturn.
+Usercommits self;nevergitstage/commit/push. Prior3090benchmarkstill10/13timeout,
+controls/featuresunqualified; do notpaytocompletethosesolelyforqualification.
+
 LATEST Oct29 19:06PDT TERMINATED: RTX3090 PARTIAL BENCHMARK INDEPENDENTLY VERIFIED.
 Read report/checks/2026-10-29-rtx3090-partial-benchmark-review.json/md. Original
 operator time limit fired15:58 (deadline16:01minus180s),10/13phases; user16:00Stop
