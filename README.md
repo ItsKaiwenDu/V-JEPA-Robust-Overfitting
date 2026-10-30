@@ -1,5 +1,25 @@
 # V-JEPA Robust Overfitting
 
+**Attention component review: mixed result (October 30):**
+[Both exports are verified; predictor saved-input checks pass](report/checks/2026-10-30-attention-component-review.md).
+Math attention takes 12.12 ms versus 25.54 ms for the isolated predictor component,
+with higher allocation (899 versus 75 MiB). The encoder stops on a changed Q
+input signature before its final replay; its second shape never starts.
+The original Mac input-regeneration gate also rejects, so input-generation
+replay remains unqualified. A separate NumPy audit verifies saved-input values
+without waiving that refusal. Next prepare immutable synthetic input fixtures;
+no optimization, retry, paid work or research admission starts. Earlier entries
+below record historical preparation and outcomes.
+
+**FP32 attention component diagnostic prepared (October 30):**
+[54 CPU checks and eight simulated transport scenarios pass](report/checks/2026-10-30-attention-component-preparation.md).
+A source-only packet prepares predictor checks on linux10609 and encoder checks
+on linux10603, independently in parallel. Synthetic post-RoPE operands, FP64
+Q/K/V derivative oracles and observed-backend gates precede timing. Both attended
+20-minute proposals remain unarmed; no real SSH/GPU or paid work has started.
+Full-model equivalence, optimization adoption and study affordability remain
+pending. Earlier entries below record historical preparation and outcomes.
+
 **Evaluation work profile verified (October 30):**
 [Exact observer/replay checks pass](report/checks/2026-10-30-eot-work-profile-review.md).
 Full EOT8 controls take about 10.08 seconds, with 79% in backward. Attention

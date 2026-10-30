@@ -2,6 +2,80 @@
 
 ## Current stage
 
+LATEST Oct30: ATTENTION SAVED EVIDENCE REVIEWED; MIXED, GENERATION UNRESOLVED.
+Read report/checks/2026-10-30-attention-component-review.json/md FIRST.
+User ran both helpers. Actual10609 predictor attention.sAjUk6 exit0,42.14s
+reportedpre-export;4completeworkers<=120s. Actual10603 encoder attention.RWeKzM
+exit1,20.51s;3completeencoder0workers then math1 refuses before profiling/timing.
+Downloads linux10609/case-download-omxo6jf8(214268862bytes,122members,sha
+1cede5502127193fa06816b5c6f0f42c2f4c407ed636e9d9cffed7a70e625be3),
+linux10603/case-download-6yvketu7(137315607bytes,120members,sha
+ d27d74f1d83bd9bab8255ce54537de889b6451d2441e8a62e065b519a8200366).
+All242members/206source-metadata visits byteverified;61sciencepins/33upstream
+bindings/captured8diagnostic sources unchanged. Both actualplans/launchclaims
+exist and are consumed: NEVER rerun run-attended.sh/removeclaim/replacepacket.
+Original summaries and refusal gates frozen. Encoder math1 common differs
+ONLY /operand_signatures/q/sha256 (b7139f... vs fea51a...), reference hashes
+match. No failed tensor artifact, magnitude/cause UNKNOWN; reported oracle PASS
+is not independently verifiable for that worker. Encoder400 NEVERstarted.
+Efficient encoder0 pair savedtensors exact; math0 inspectable but no complete
+fresh-replayed encoder comparison/speed admitted. No retry/resource exception.
+Original portable Mac summarize also REJECTS predictor FP32 regeneration;
+shapes/positions match, all4operand byte signatures differ(max~1.3-2.2e-6).
+ARM64torch2.14.1 vs x86torch2.8+cu128 are differences, NOT proven cause.
+Separate models/attention_saved_evidence.py NumPy audit/new14CPUtests PASS:
+84tensor signatures,28actual-vs-independent-FP64 checks,12crossbackend gates,
+48bytecomparisons. Raw independent-review-20261030-final binds code/probes/XML.
+Savedinput audit does NOT waive original reconstruction/replay refusal; generator
+and full original portable reviewer remain UNQUALIFIED. Do not silently change
+captured workers/gates/old tolerances. NextPREPARE separatelyidentified immutable
+input fixture loaded by allworkers; save tensors before refusal. New encoder
+attempt needs a new reviewed bounded plan, not automatic replay of old one.
+Predictor math savedinput numerical/backend/freshreplay evidence passes. Six
+observations/arm(2fresh) medianefficient F2.218/B23.318/total25.537ms; math
+F4.728/B7.364/total12.123ms. Total2.1064x/back3.1664x component ONLY; forward
+slower. Peakallocated75.2->899.0MiB, notfullmodel/optimizerqualification. No
+fullmodel/attentionblock/EOT8/PGD/training/generalization/cost adoption. 22GPU
+monitor samples noforeigncompute, notcontinuousproof. CompletedSSH canclose.
+Review started NO newremote/GPU/paid work. Finance unchanged9.8116/.1884,
+old2hold/.0792gap/single10diagnostic/160compute/200project/40reserve. Allknown
+RunpodPods terminated. User commits self; NEVER stage/commit/push. Older LATEST
+entries below are historical, especially the now-consumed unarmed preparation.
+
+LATEST Oct30: FP32 ATTENTION COMPONENT HANDOFF PREPARED, UNRUN.
+Read docs/attention_component_diagnostic.md and report/checks/2026-10-30-
+attention-component-preparation.json/md. 54 focused CPU checks/zero skips;
+6 actual fresh CPU math workers exact replay + independent FP64 QKV oracle.
+Full-size synthetic upstream post-RoPE geometry reconstructs predictor2048/
+12heads/32dim and encoder656/400/16heads/64dim. 102 source/metadata files,
+103 restored members,291334byte archive; final manifest equals tested one.
+All61 scientific pins/33upstream bindings unchanged. No pixels/pretrained
+weights/trained activations/installs. Forced efficient/math SDPA standalone:
+upstream inner default context re-enables backends, so capture/restore CPU
+operand boundary then run isolated context covering forward+backward. NOT a
+full-model backend policy. Fixed component gates output1e-4/2e-5, QKV .002/
+2e-7; old full-model tolerances unchanged. CPU math fixtures do NOT qualify
+CUDA efficient. Require actual device-typed F/B evidence, independent oracle,
+within-arm fresh/repeated exact replay before accepting component timings.
+Numerical failure retains evidence/no widening/no automatic retry/adoption.
+Raw attention-components-university-20261030/linux10609 predictor(4workers)
+and linux10603 encoder(8workers) have distinct host/UUID plans and remote dirs.
+User can invoke each run-attended.sh ONCE from two LOCAL Mac Terminals;
+ATTENDED keep SSH/Mac awake/lid open. Independent GPUs parallel; within-host
+backend comparison serial. Eachhost1200s inclremoteextract,worker120s,
+allocator4GiB,outerkill5s,foreignCUDAguard5s. Leave other processes alone.
+Both current proposals unarmed/no current actualplan/claim; no real SSH/upload/
+GPU or paid work started. Eight MOCK transport scenarios pass. If copy fails,
+only host-specific download-only.sh after review; never remove claims/relaunch.
+Source-bound summary accepts a verified local upstream override for Mac review.
+Preliminary local failures/unlaunched helpers preserved in raw preflight dirs;
+DO NOT confuse mocked claims or older packets with current real launches.
+Previous EOT/projection/science captures and claims frozen. Full-model/PGD/
+optimizer/training integration, speed/affordability/research remain UNQUALIFIED.
+Finance unchanged9.8116encumbered/.1884unreserved/single10diagnostic inside
+160compute/200project/40reserve; old2hold/.0792gap remain. Runpod allterminated.
+User commits self; NEVER stage/commit/push. Older LATEST entries are historical.
+
 LATEST Oct30: EOT WORK PROFILE VERIFIED; BACKWARD/ATTENTION TARGET IDENTIFIED.
 Read report/checks/2026-10-30-eot-work-profile-review.json/md. Actual10609 run
 eot-profile.ZWwKds exits0 in240.49s;2freshworkers101.23/95.37s within20min/8min

@@ -1,0 +1,204 @@
+{
+  "CPU_checks": {
+    "actual_fresh_workers": 6,
+    "errors": 0,
+    "failures": 0,
+    "fixture_domain": "CPU math only; no CUDA efficient backend qualification",
+    "fixture_evidence_bytes": 459327,
+    "fixture_evidence_sha256": "5a2486f6cdca8ab9c202b94945a4bc8d9e60ad47adb7b9d0156a3a0a8139d589",
+    "skipped": 0,
+    "tests": 54,
+    "xml_sha256": "32e043098fa62da95282e2dbf7913d6ed55ef0d0add43817ab5d0fdc8c25d5fb"
+  },
+  "GPU_backend_or_speed_qualified": false,
+  "GPU_guard_interval_seconds": 5,
+  "archive_bytes": 291334,
+  "archive_sha256": "328b59d70b97d0207e6045246e2a1143f6de57c26833ddd2882adb9ab7d118b0",
+  "backend_comparison_order": "For each case: efficient0, math0, efficient1, math1; no cross-host speed ratio.",
+  "both_launch_proposals_unarmed": true,
+  "date": "2026-10-30",
+  "full_model_execution_policy_changed": false,
+  "full_study_cost_approved": false,
+  "handoff_sha256": "c70c4f46f271499a2f38f16a60ec1b6c9f6c34eaedf617341b12dc82d0c944c1",
+  "kind": "fp32-attention-component-preparation-v1",
+  "mock_transports": [
+    {
+      "host": "linux10609",
+      "network_connections": 0,
+      "passed": true,
+      "receipt": "runs/pretrained/diagnostic/attention-components-university-20261030/mock-transport-linux10609/review.json",
+      "receipt_sha256": "064afedd278d4651ec35025263de1a716e1e8a0e29f513507823fd5676f11c0a",
+      "scenarios": [
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "normal",
+          "simulated_launches": 1,
+          "simulated_uploads": 1
+        },
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "upload_retry",
+          "simulated_launches": 1,
+          "simulated_uploads": 2
+        },
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "download_retry",
+          "simulated_launches": 1,
+          "simulated_uploads": 1
+        },
+        {
+          "first_exit": 1,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "existing_directory",
+          "simulated_launches": 0,
+          "simulated_uploads": 0
+        }
+      ]
+    },
+    {
+      "host": "linux10603",
+      "network_connections": 0,
+      "passed": true,
+      "receipt": "runs/pretrained/diagnostic/attention-components-university-20261030/mock-transport-linux10603/review.json",
+      "receipt_sha256": "7d74326149e4c6fcf2e319624d2cf8b4d72393b19a73529ba99b93b11b5395a7",
+      "scenarios": [
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "normal",
+          "simulated_launches": 1,
+          "simulated_uploads": 1
+        },
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "upload_retry",
+          "simulated_launches": 1,
+          "simulated_uploads": 2
+        },
+        {
+          "first_exit": 0,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "download_retry",
+          "simulated_launches": 1,
+          "simulated_uploads": 1
+        },
+        {
+          "first_exit": 1,
+          "model_work": false,
+          "network_connections": 0,
+          "passed": true,
+          "scenario": "existing_directory",
+          "simulated_launches": 0,
+          "simulated_uploads": 0
+        }
+      ]
+    }
+  ],
+  "new_diagnostic_sources": {
+    "models/attention_component.py": "7c296c1ef514002eeb058f8ed74224fe0b199bc787ffcb2104261f5044bcc782",
+    "models/attention_diagnostic.py": "7680a1495f15573852ce9a89cd7b33e4a303d47c2275aea75b94986248ec50b6",
+    "models/attention_packet.py": "16afd48d61b4436f7c1c845bd27ea6ab8d8e3f11374a1eefe2d0f679248b7d21",
+    "scripts/check_attention_component.py": "f66c728f0e6432a4b3d1f029673cf1eb24f194ca1d39c3aab2c3e0fc10d3fc77",
+    "scripts/prepare_attention_component.py": "70dd12d2eb029a03c98df718299063461b0c64b121a29a379ccd7e2ae5afba39",
+    "scripts/university_attention_component.sh": "178ac9b27eeae266f8965df64e650a5fbff8ad590f4736aadb4f824884989100",
+    "tests/test_attention_component.py": "f470224ade4626de2379d1effcc93bef091c36fa598ab9e9a3cc7d9e365d9859",
+    "tests/test_attention_diagnostic.py": "8ce250fa95c1664aa415e17781bb4e9581d31efd341a37fb0115f2ad5390513d"
+  },
+  "new_paid_hold_USD": 0,
+  "next": "User may explicitly invoke each host-specific attended helper once from two local Mac Terminals; independently review all results before any integration.",
+  "optimization_adopted": false,
+  "original_financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "original_scientific_pins_preserved": 61,
+  "outer_kill_grace_seconds": 5,
+  "paid_compute": false,
+  "passed": true,
+  "per_host_limits": {
+    "allocator_gib": 4,
+    "automatic_retries": 0,
+    "max_seconds": 1200,
+    "repeats": 3,
+    "warmup": 1,
+    "worker_seconds": 120
+  },
+  "pinned_upstream_sources": 33,
+  "pixel_tensors_included": false,
+  "prepared_hosts": {
+    "linux10603": {
+      "role": "encoder",
+      "uuid": "GPU-e54fae90-feeb-8106-d8c0-1974fe48555f"
+    },
+    "linux10609": {
+      "role": "predictor",
+      "uuid": "GPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52"
+    }
+  },
+  "pretrained_weights_loaded": false,
+  "production_manifest_matches_tested": true,
+  "raw_directory": "runs/pretrained/diagnostic/attention-components-university-20261030",
+  "real_SSH_connections": 0,
+  "regular_archive_members_restored": 103,
+  "research_admitted": false,
+  "roles": {
+    "encoder": [
+      "encoder-0",
+      "encoder-1"
+    ],
+    "predictor": [
+      "predictor"
+    ]
+  },
+  "shapes_from_reviewed_first_draw": {
+    "encoder-0": {
+      "head_dim": 64,
+      "heads": 16,
+      "tokens": 656
+    },
+    "encoder-1": {
+      "head_dim": 64,
+      "heads": 16,
+      "tokens": 400
+    },
+    "predictor": {
+      "head_dim": 32,
+      "heads": 12,
+      "tokens": 2048
+    }
+  },
+  "source_and_metadata_members": 102,
+  "status": "prepared-unrun",
+  "synthetic_upstream_post_RoPE_operands_only": true,
+  "tolerance_scope": "Predeclared standalone component screen; no change to historical full-model/attack bounds.",
+  "university_GPU_work_started": false,
+  "uploads_started": false
+}

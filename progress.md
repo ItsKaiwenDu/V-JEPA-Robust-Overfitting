@@ -1,5 +1,48 @@
 # Research Progress Reports
 
+## 2026-10-30 — Attention exports reviewed; predictor promising, encoder incomplete
+
+Both attended exports verify: 242 regular members, 84 tensor signatures,
+28 independent NumPy derivative/output checks, 12 same-input backend comparisons
+and 48 fresh/cross-arm byte comparisons. All original 61 scientific pins and
+33 upstream bindings remain unchanged. Fourteen new CPU reader checks pass.
+
+The predictor completes four workers: math attention takes 12.12 versus 25.54 ms
+(2.106× component speedup; backward 3.166×), with peak allocation rising from
+75.2 to 899.0 MiB. This is synthetic isolated SDPA on one RTX 3070, not a full
+model, EOT8/PGD or study-cost unit. The encoder's fourth worker refuses a changed
+Q hash before timing; failed operands were not saved, and the second shape
+never starts. No complete encoder comparison is accepted.
+
+The unchanged original Mac reviewer rejects FP32 synthetic regeneration too.
+A separate saved-operands NumPy audit confirms numerical/backend evidence while
+preserving that original failure; input-generation replay remains unqualified.
+Both claims are consumed and preserved. Completed SSH sessions can close.
+Next prepare immutable input fixtures and earlier failure-evidence saving, then
+review any new bounded encoder plan. No new SSH/GPU/paid work, retry, optimization,
+financial change or research admission occurs during this review.
+[Independent review](report/checks/2026-10-30-attention-component-review.md).
+
+## 2026-10-30 — Source-only attention component checks prepared for two hosts
+
+54 focused CPU checks pass with zero skips, including six fresh math-backend
+workers, independent FP64 analytical derivatives and reconstruction of all three
+original full-size rotary geometries. Eight mock transport scenarios pass across
+separate 10609 predictor and 10603 encoder helpers. The final 291,334-byte source
+archive restores 103 members and matches the tested manifest. All 61 scientific
+pins and 33 upstream bindings are unchanged; no pretrained weights or pixels
+are loaded. Preliminary local fixtures and unlaunched packets are preserved.
+
+Each host may run one user-invoked attended attempt, capped at 20 minutes with
+120-second workers and a 4 GiB allocator bound. The hosts can run in parallel;
+backend comparisons remain on the same GPU. Numerical, actual-backend, exact
+replay and independent saved-evidence gates must pass before interpreting timing.
+Both proposals remain unarmed. No real SSH/upload/university GPU work or paid
+resource starts during preparation. Full-model correctness/speed, optimization,
+affordable-study and research admission remain pending; financial holds/caps
+are unchanged.
+[Preparation review](report/checks/2026-10-30-attention-component-preparation.md).
+
 ## 2026-10-30 — Evaluation profile verified; attention backward identified
 
 The attended run exits zero in 240.49s. All 100 archived members, 86 source/
