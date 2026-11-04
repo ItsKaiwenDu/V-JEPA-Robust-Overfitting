@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+"""Explicitly authorized, attended CPU reference scratch recovery from the Mac."""
+from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from models.cpu_oracle_scratch_client import main
+
+if __name__ == '__main__':
+    main()

@@ -2,6 +2,148 @@
 
 ## Current stage
 
+LATEST Nov04: TARGET CAPTURES VERIFIED; PARENT AUDIT+SETUP CEILING REJECTED.
+Read report/checks/2026-11-04-cpu-oracle-scratch-target-review.json/md FIRST.
+UserDone -> target ATTEMPT.json EXISTS/CONSUMED, sessionattended-4qh6v3t1.
+435streammembers and422originalexportmembers hashes/bytes/mtime verified.
+response1350983210B SHA f5c367212fd0e927f9e17e9033a070d1888168f2152e799f12118c610c594898;
+inner639739327B SHA acfa4bc04cebefc2035496fa312b36a3016697ce73ffd5043ae1147385e256fb.
+All4worker capturescomplete/all12calls/256chunks;2112logicalsignatures,
+2048independentNumPystage+48fixedfinalchecks PASS unchanged1e-12/1e-14,
+maxerr2.498001805406602e-16/maxratio.00750606982455. 32within/1584crossworker
+actualtobytes comparisons PASS;allcapturedarrays IDENTICAL across1/4threads+
+replay. Expectedhost/Python3.11.17/Torch2.8cu128/np2.4.6/CUDAuninitialized.
+But originalparent EXIT1/sessioncapture_completeFALSE/NOsummary: Stage
+comparisons do not reaggregate. UnchangedMacoriginalreader alsoREJECTS.
+Stored4threadreports0==2 and1thread1==3, but354crossgroupstat differences:
+178relativeL2/82maxabsoluteerror/94maxtoleranceratio;flags/bounds/actualarrays
+same. same_report exactnestedcomparison rejects. Consistentwithcontext-sensitive
+audit-stat replayfailure;parent recomputed report NOTSAVED/exactpairunobserved.
+NOclaim old1e-10failureexplained/hostreliable/GPUqualified/researchadmitted.
+ALSO setupguardGAP:2.5GiBwrite+fsync/readbackSUCCESS butrecordedallocated
+4294901760bytes (~4GiB)>3GiBsetupcap3221225472;oldsupervisor neverchecks
+thisallocatedvalueagainstsetupcap. DO NOTclaimoverallstoragePASS orretroexpand
+budget. XFSnoquota/physical>logicalconsistentpreallocation,notkerneltraceproof.
+Successfulnewprooffileremoved;remoteexistingevidencenotdeleted. Capture183
+samples peakallocated1802240000<2.25GiB;whole55.798s<600,notcontinuousproof.
+NewgrantCONSUMED; NEVERreruntarget/removeclaim/altercapturedoperators/reports.
+NEWrawindependent-target-review-20261104 savesexactauditprogram/checks/statdiffs.
+Currentproduction source4files+originalpacket+61science+33upstream+13prior
+claims unchanged;newauth/control/innerplan/claim/all4workergrants reverified.
+Control10609 AUTHORIZATION/ATTEMPT andrawtarget-independent-review.json ABSENT;
+DO NOTwriteacceptedbridge/launcholdcontrol. Sharesknownsetup/auditissues.
+NEXTprepare SEPARATEOFFLINE version/tests foractualblockallocationaccounting
+andcontext-sensitive saved-audit statistics. Keepnumericbounds/refusals;
+doNOTpatchfrozenv1source orwaiveoriginalparentgate. Futuretrialrequiresreviewed
+newoperator/resourcescope;noautomaticretry/controlrun. Existing/failedarchives
+remainunchanged. Remote/var/tmp/vjepa-cpu-oracle-20261104-linux10603-qlx7eq8t
+retained;nodeletionauthorized. NoactualSSH/newuniversityreference/paidwork in
+review. Financial9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/
+40reserve/lastwallet6.56/reconciliationfalse unchanged;knownRunpodterminated.
+Usercommits self;NEVERstage/commit/push. Oldpending/unrunentries historical.
+
+LATEST Nov04: TARGET SCRATCH EXCEPTION EXPLICITLY APPROVED; HELPER ARMED/UNRUN.
+Read report/checks/2026-11-04-cpu-oracle-scratch-authorization.json/md FIRST.
+User answered Approve one target attempt (Recommended) to exact19MBpacket+
+newguard/private/var/tmp/10603/600sCPUincl2.5GiBwriteproof/sameSSHcollection.
+Target AUTHORIZATION.json now EXISTS, SHA
+1c1c09b6e70adb096229191b9a78aee67bee16076fa93dffe6eed39414df1bdd,
+kindcpu-oracle-scratch-resource-exception-v1/approvedtrue/exactcontrolSHA
+8a42039c95a2592becfbef19f59afdaa5692b8e2125f08f6ede864f19bfe4a78/host10603/
+maximum_new_attempts1/max_seconds600/write_test_bytes2684354560/CPU_onlytrue/
+paid_computefalse/reset_old_claimsfalse/userbasisrecorded. Localverify_local
+accepts exactscope/source/oldclaims/Macspace; NO Popen/SSH/proof/reference run.
+ATTEMPT.json ABSENT. Do NOT ask samepermissionagain. NEXT userexecutes ONLY
+NEW rawcpu-oracle-scratch-recovery-20261104/linux10603/run-attended.sh ONCE
+fromLOCALMacTerminal toenterpassword. KeepSSH/Macawake/lidopen through stream;
+allow10minattempt+10mincollection. OnDoneinspectnewrawsession/claim/evidence;
+doNOTrelaunch onfailure. UseonlyNEWdownload-only afterpartialreview ifneeded.
+Control10609 AUTHORIZATION/ATTEMPT ABSENT; stillneeds ownexception+independent
+target-review record. Noparallel/autonext. Nooldremotedeletion orscratchdir
+cleanup authorized;successfulnewproof/reservefilesownoperationalcleanup only.
+Alloldscientific/probe/packet/13claims unchanged, oldfullprobesincomplete/
+numericaldiscrepancyunresolved. 60operationaltests historicalpassed; fullsize
+realproof/CPUresult NOTyetobtained. No financialchange/newpaidwork. Finance
+9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve,lastwallet
+6.56/reconciliationfalse;allknownRunpodterminated. Usercommits self;NEVERgitwrite.
+OlderLATESTentries are historical snapshots.
+
+LATEST Nov04: SCRATCH OPERATOR TESTED/UNARMED; TARGET EXCEPTION PENDING.
+Read docs/cpu_oracle_scratch_operator.md and report/checks/2026-11-04-cpu-oracle-
+scratch-preparation.json/md FIRST. User survey BOTHhosts:localXFS/dev/nvme0n1p3,
+st_dev66307,parent/var/tmp,resolvedsame,root1777,mount/,170G10603/177G10609,
+>104millionfreeinodes;HOMEisNFSdevice54/55. USERfacts notagentliveinspection,
+NOTquotareservation. Do notasksame survey/GPUstatus again;livepreflightinhelper.
+NEW models/cpu_oracle_scratch{,_client}.py,run_cpu_oracle_scratch.py,testfile.
+60OPERATIONALtests PASS zeroerrors/failures/skips;smallwrite/fsync,injectedquota,
+whole129memberrestore,host/mount/space/size/path/tamper/clock/claimguards,
+actualchildkernelFSIZElimit,stopsownchildonstorageerror,singleSSHstub+downloadonly.
+NOnewnumericalcalculation/GPU/full2.5GiBallocationtest. BothACTUALcontrols also
+UNARMEDrefusebeforeclaim/network underexplicitPopen-denial;standardlibrary/noTorch.
+Rawcpu-oracle-scratch-recovery-20261104 holds exactnewsourcecopies,usersurvey,
+twohelpers/controls,XML andindependent-preparation-review. BOTH AUTHORIZATION.json
+andATTEMPT.json ABSENT. Target10603 SHA8a42039c95a2592becfbef19f59afdaa5692b8e2125f08f6ede864f19bfe4a78;
+control10609 SHA0b8a2b76ea031bf35648926c3df72a916c2f60abe8aae9e42e1c236c18ce9d57.
+NEXT seekexplicit ONEadditional600sCPU-onlyTARGETexceptionincl2.5GiBwriteproof60s,
+upload unchanged19042363bytepacket+newoperator/control into NEWprivate/var/tmp,
+fourfreshworkers3calls90seach/noautomaticretry/oracleboundsunchanged. This is
+additional toconsumedoldgrants;NOgenericcontinue/cleanupapprovalarming. Source
+unchanged old128packet/61science/33upstream/8probesources/13oldclaims verified.
+Onapproval recordONLYtarget AUTHORIZATION kindcpu-oracle-scratch-resource-exception-v1,
+approvedtrue/exactcontrolsha/hostlinux10603/maxnewattempts1/maxseconds600/
+write_test_bytes2684354560/CPU_onlytrue/paidfalse/reset_old_claimsfalse/userbasis.
+ThenuserinvokesNEWtargetrun-attended.sh ONCEin LOCALMacTerminal forpassword;
+attend/caffeinate/keepMacawake through sameSSHcollection. Do notrunoldhelpers.
+Operator startsclockbeforeproof/extraction,retainsoldfreshnessgate,600s/noretry,
+32MiBsourcearraygate+per-filekernel1GiB8MiB+aggregate/category/allocated polling
+target.25s/capture2.25GiB/setup3GiB/freefloor1GiB/8GiBMac/4GiBscratch/2048inodes.
+NOTkernelaggregatequota/instantaneouspollingguarantee/exclusivereservation.
+Guardsmaystillrefuse;fullallocationproof/universityqualification NOTyetobtained.
+AllnewdataonXFS,existingupstreamreadonly;oneSSHpassword/run+streamnoremotetarcopy.
+Oncopyfailurepreservepartial,reviewthenNEWdownload-onlyhelper;NEVERrelaunchcase.
+Scratchtemporary;mustcopy+SHA/memberverifytoMac BEFOREreview. Noautodeletion,
+oldremoteevidenceoutside scope. Control10609 also needs ownexception+independent
+target-reviewrecord;NOparallel/autonext. Oldfailedprobesincomplete/discrepancy
+unresolved/nohostreliability/rootcause/GPU/researchqualification. Originaldraft
+configs/cpu_oracle_storage_recovery_v1.json SHA542f9e00... stays frozen ashistory.
+Finance9.8116/.1884/old2hold/.0792gap/10diagnostic/160compute/200project/40reserve,
+lastwallet6.56/reconciliationfalse unchanged;allknownRunpodterminated.
+Usercommits self;NEVERstage/commit/push. EarlierLATESTentries historical.
+
+LATEST Nov04: STORAGE-AWARE CPU RECOVERY DESIGN PREPARED; SURVEY PENDING.
+Read docs/cpu_oracle_storage_recovery.md and report/checks/2026-11-04-cpu-oracle-
+storage-plan.json/md FIRST. configs/cpu_oracle_storage_recovery_v1.json is an
+UNARMED DESIGN, authorized/launchable/operator_implemented FALSE. Plan SHA
+542f9e00b07ad6c589c6fc59b97a1d3fdfb52db89be52e00e404a478c9d8ffff.
+No executable recovery helper, grant, SSH, upload, allocation test, CPU/GPU
+reference work, cleanup or paid work starts. User asked continue, NOT a new
+resource exception. Async request asks READ-ONLY BOTHHOSTS hostname/df-hT/df-i/
+stat-dev-owner-mode/readlink for HOME,/tmp,/var/tmp. Pending capacity outputs;
+no selected scratch path or proven free quota. Do not request GPU status here.
+Design: original packet unchanged; target10603 first, review/copy then control
+10609, max1concurrenthost. Same4workers (4,0),(1,0),(4,1),(1,1),3calls each,
+originaloracle/observer/fixed400tokenfixture,600s/90s/noautomaticretry and
+1e-12/1e-14 retained. Proposed new localdisk scratch differentdevfromhome,
+refuseNFS/tmpfs;disk4GiBfree/2048inodes,Mac8GiBfree;2.5GiBactualwrite+fsync+
+readback60s withinnew600sgrant,NOTreservation;capturecap2.25GiB/setup3GiB,
+allraw+export+metadata+partial included. These guards NOT IMPLEMENTED/TESTED.
+Need survey, select path or stop, implement/test complete operator BEFORE
+asking separate explicit CPU resource exception. Do not arm by genericcontinue
+or cleanupapproval, do not reuse/reset consumedoriginalhelper/claim. Local
+scratch ephemeral:copy+SHA/memberverify toMac whileSSHattended; oldevidence
+not deleted. Futurecleanup onlynewscratch afterbackup/explicitnewscopecoverage.
+Offline audit rawcpu-oracle-storage-plan-20261104 verifies128packetmembers/
+61sciencepins/33upstream/13consumedclaim-planfiles inclcleanup. Allunchanged.
+668467200arraybytes/4workers;historicalraw+archive1331522866bytes EXCLUDES
+additionalsetup/FSoverhead. Capturecomponents2407530496bytes<2.25GiB;this
+is budgetmath not liveallocationproof. No new science/guard suite ran; do not
+relabel old33CPUtests as newrecoverytests. Botholdfullprobes incomplete and
+numeric discrepancy unresolved; no rootcause/hostreliability/GPU/researchpass.
+Finance9.8116encumbered/.1884unreserved/old2hold/.0792gap/single10diagnostic/
+160compute/200project/40reserve,lastwallet6.56/reconciliationfalse unchanged.
+AllknownRunpodterminated.Usercommitsself;NEVERstage/commit/push.
+EarlierLATESTentries are historical snapshots.
+
 LATEST Oct30: APPROVED24-ARCHIVE CLEANUP COMPLETE/VERIFIED; WRITES WORK.
 Read report/checks/2026-10-30-duplicate-archive-cleanup-review.json/md FIRST.
 Actual rawduplicate-archive-cleanup-20261030/cleanup-session-nbqgd8ei receipt

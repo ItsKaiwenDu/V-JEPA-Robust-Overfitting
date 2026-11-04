@@ -1,5 +1,83 @@
 # Research Progress Reports
 
+## 2026-11-04 — Target values verified; aggregation and setup limits refuse
+
+The target finishes its run phase in 55.798 seconds and returns exit 1 during
+final stage-report reaggregation. All four worker captures are complete. Local
+review verifies 435 streamed files and 422 original-export members, 2,112 tensor
+signatures, 2,048 intermediate and 48 fixed-reference comparisons. Values meet
+unchanged bounds; 32 within-worker and 1,584 cross-worker direct byte comparisons
+match. The original full reader still rejects, and no summary is substituted.
+
+The saved one/four-thread audit groups differ in 354 error statistics while
+actual arrays agree. This is consistent with the exact-report aggregation
+failure, but the parent's recalculated report was not saved. The earlier 1e-10
+discrepancy remains unresolved. Separately, the successful 2.5 GiB write test
+records about 4 GiB allocated, exceeding the 3 GiB setup ceiling that the current
+guard failed to enforce. The capture samples stay below their separate ceiling.
+
+The target claim is consumed; its sources and failed result remain frozen.
+Control 10609 stays unarmed, with no accepted target-review bridge. Next prepare
+offline revisions/tests for physical-allocation accounting and audit-statistic
+replay, preserving original bounds and refusals. No new university job, remote
+deletion, paid compute, budget change or research result occurs in this review.
+[Independent review](report/checks/2026-11-04-cpu-oracle-scratch-target-review.md).
+
+## 2026-11-04 — One target scratch recovery attempt approved, not launched
+
+The user explicitly approved the exact target-only upload and bounded CPU
+recovery. Its authorization is recorded against the tested linux10603 control;
+local source/packet/history/capacity checks pass without opening SSH. The new
+helper is armed, but no attempt claim, real write proof or reference work exists.
+The user must invoke it once from a local Mac Terminal and keep the session awake
+through collection. Control linux10609 remains unarmed pending independent target
+review and its own resource exception. Previous claims, numerical bounds, old
+failures and all financial holds remain unchanged. No new paid compute starts.
+[Authorization review](report/checks/2026-11-04-cpu-oracle-scratch-authorization.md).
+
+## 2026-11-04 — Separate local scratch identified; guarded operator tested
+
+The user's read-only output identifies `/var/tmp` as local XFS on both hosts,
+separate from NFS home, with 170G/177G reported available. A new standard-library
+supervisor, Mac client and thin CLI pass 60 operational checks with zero skips.
+The unchanged full packet restores; quota/size/clock failures retain evidence;
+a kernel per-file limit and a storage-triggered child stop are exercised.
+A one-connection SSH stub and copy-only recovery avoid a new model start.
+Both real prepared helpers also refuse while unarmed before any claim/network.
+
+The target proposal allows one additional 600-second CPU-only attempt including
+a real 2.5 GiB write/fsync/readback check, with 90 seconds per fresh worker.
+That full-size proof has not run. Runtime safeguards combine pinned capture
+geometry, per-file limits and observed aggregate/space guards; they reserve no
+exclusive quota or instantaneous kernel aggregate limit. All 128 packet files,
+61 scientific pins, 33 upstream bindings, eight old probe sources and 13 consumed
+claim/plan records remain verified. No actual SSH, upload, university calculation,
+deletion, paid work or financial change starts in this preparation.
+
+A separate explicit target-only resource exception is the next gate. Control
+linux10609 stays unarmed and requires independent review of the new target run.
+Both old full probes remain incomplete; the earlier discrepancy is unresolved.
+[Preparation review](report/checks/2026-11-04-cpu-oracle-scratch-preparation.md).
+
+## 2026-11-04 — Storage-aware CPU recovery proposal prepared offline
+
+The unarmed design retains the same fixed-input, four-worker reference protocol,
+with target linux10603 followed by independent review before control linux10609.
+New capture/export files would use a private directory on verified local disk
+scratch, separate from shared home. Proposed allocation/space/inode, aggregate
+size and transfer guards account for the full working set. The 2.25 GiB capture
+and 3 GiB setup ceilings are design requirements, not implemented runtime bounds.
+
+Offline review freshly verifies 128 packet files, 61 scientific pins, 33 upstream
+bindings and 13 consumed claim/plan records. All remain unchanged. The proposed
+full-size write test, original-reference replay and allocation guards have not
+run. A read-only survey is requested for both hosts; selected paths and the
+complete tested operator remain pending. A separate concrete CPU resource
+exception comes only after those prerequisites. No old attempt/cleanup helper
+is repeated, and no upload, deletion, paid work or financial change occurs.
+The earlier numerical discrepancy remains unresolved.
+[Planning audit](report/checks/2026-11-04-cpu-oracle-storage-plan.md).
+
 ## 2026-10-30 — Approved archive cleanup completed; small writes work again
 
 The authorized cleanup removes exactly 24 compressed exports, 3,186,014,424

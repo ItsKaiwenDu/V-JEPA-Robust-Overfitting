@@ -1,0 +1,93 @@
+{
+  "actual_unarmed_host_controls_refused": [
+    {
+      "claim_created": false,
+      "exit_status": 1,
+      "host": "linux10603",
+      "refused_before_network": true
+    },
+    {
+      "claim_created": false,
+      "exit_status": 1,
+      "host": "linux10609",
+      "refused_before_network": true
+    }
+  ],
+  "consumed_claim_and_plan_records_verified": 13,
+  "date": "2026-11-04",
+  "final_repository_checks": {
+    "git_diff_check": "passed",
+    "new_source_AST_and_whitespace": "passed",
+    "new_source_and_control_hashes": "unchanged",
+    "scaffold_and_YAML": "passed",
+    "university_connection_started": false
+  },
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "hosts": {
+    "linux10603": {
+      "attempt_claim_exists": false,
+      "authorization_exists": false,
+      "control_sha256": "8a42039c95a2592becfbef19f59afdaa5692b8e2125f08f6ede864f19bfe4a78",
+      "new_attempts_started": 0,
+      "requires_target_review": false,
+      "unarmed": true
+    },
+    "linux10609": {
+      "attempt_claim_exists": false,
+      "authorization_exists": false,
+      "control_sha256": "0b8a2b76ea031bf35648926c3df72a916c2f60abe8aae9e42e1c236c18ce9d57",
+      "new_attempts_started": 0,
+      "requires_target_review": true,
+      "unarmed": true
+    }
+  },
+  "kind": "cpu-oracle-scratch-offline-operator-v1",
+  "live_university_allocation_or_numerical_qualification": false,
+  "new_authorization_received": false,
+  "new_helpers_use_standard_library_without_Torch_import": true,
+  "new_reference_calculations": 0,
+  "new_source_sha256": {
+    "models/cpu_oracle_scratch.py": "12992c272b21902297746d7781685dc951d0a310ace1dc73cbb99b8d52f6bbe6",
+    "models/cpu_oracle_scratch_client.py": "7f08d0697841c831932155b198650465ee01ab10696bf419b0211af10889f885",
+    "scripts/run_cpu_oracle_scratch.py": "f675433fe48fb5247bcc507fec258216514ff345f7a94949d13d13f57ee5714c",
+    "tests/test_cpu_oracle_scratch.py": "54abfd9a4b08d7d1c95f62911a62a45c298e230c8c88d29e78a3cc299559ad8c"
+  },
+  "operational_checks": {
+    "errors": 0,
+    "failures": 0,
+    "real_model_or_GPU_executed": false,
+    "real_network_connections": 0,
+    "scope": "Local temporary storage, bounded child stubs, existing-packet restoration and an SSH transport stub; no real reference or full-size allocation test.",
+    "skipped": 0,
+    "tests": 60,
+    "xml_sha256": "29f76646bdc726625e0332979475abe60d2f549d451699b06d903f4c2584cdf3"
+  },
+  "operator_prepared_and_operationally_tested": true,
+  "original_numerical_discrepancy_resolved": false,
+  "original_packet_files_verified": 128,
+  "original_proposal_sha256": "542f9e00b07ad6c589c6fc59b97a1d3fdfb52db89be52e00e404a478c9d8ffff",
+  "original_scientific_sources_and_claims_unchanged": true,
+  "paid_work_started": false,
+  "pending_next_step": "Explicit additional target-host CPU resource exception, then a single attended launch and independent saved-evidence review before any control attempt.",
+  "previous_full_CPU_probe_results_still_incomplete": true,
+  "real_SSH_connections": 0,
+  "real_full_size_write_tests": 0,
+  "runtime_aggregate_limit_is_a_kernel_quota": false,
+  "runtime_limits": "Frozen 668467200-byte tensor geometry, original 32MiB array writer gate, inherited kernel per-file export/log limit, aggregate/category/allocated-space observation and stop guards. No exclusive quota or instantaneous kernel aggregate limit is claimed.",
+  "scientific_pins_verified": 61,
+  "survey_sha256": "83eb001326cc333ba59324675f722fc8ea3d8e9b83efe23dcf160ff83a636896",
+  "survey_source": "User read-only output, not an agent live inspection.",
+  "upstream_bindings_verified": 33
+}

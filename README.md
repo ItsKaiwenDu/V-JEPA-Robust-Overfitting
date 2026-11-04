@@ -1,5 +1,34 @@
 # V-JEPA Robust Overfitting
 
+**Target capture reviewed; two protocol issues remain (November 4):**
+[All saved values pass independent checks, while the original run remains rejected](report/checks/2026-11-04-cpu-oracle-scratch-target-review.md).
+Four complete worker captures have identical tensors, but one/four-thread audit
+statistics differ and fail exact reaggregation. The write proof also exceeds its
+planned physical setup allocation. The target claim is consumed; keep 10609 idle
+while separate offline fixes are prepared. No research result or new paid work.
+
+**Target scratch recovery approved, ready to launch (November 4):**
+[One additional linux10603 CPU-only attempt is explicitly authorized](report/checks/2026-11-04-cpu-oracle-scratch-authorization.md).
+The new tested helper is armed but has not launched. It checks local scratch,
+runs the unchanged reference probe, and collects evidence through attended SSH.
+Linux10609 remains unarmed until target review and a separate exception.
+
+**CPU scratch operator tested and unarmed (November 4):**
+[60 operational checks pass](report/checks/2026-11-04-cpu-oracle-scratch-preparation.md).
+The user survey identifies separate local XFS scratch on both hosts. A new
+attended launcher checks full-size writes, supervises the unchanged CPU probe,
+and streams evidence through one SSH connection. A separate target-only resource
+exception remains pending; no university attempt or paid work has started.
+The control host requires independent target review. Earlier entries are historical.
+
+**Storage-aware CPU recovery design prepared (November 4):**
+[The unarmed proposal](docs/cpu_oracle_storage_recovery.md) accounts for raw
+captures and export together, and calls for local disk scratch with a full-size
+write/fsync check. Target and control would run serially. Read-only filesystem
+surveys and a tested operator are still needed before a separate CPU resource
+exception. No attempt or allocation test has started; prior failures, consumed
+claims and financial caps remain unchanged. Earlier entries are historical.
+
 **Approved storage cleanup verified (October 30):**
 [Exactly 24 duplicate archive copies were removed, totaling 3.19 GB](report/checks/2026-10-30-duplicate-archive-cleanup-review.md).
 Mac backups remain verified; research usage reports 19G to 16G and a temporary

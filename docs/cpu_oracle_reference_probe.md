@@ -1,5 +1,25 @@
 # CPU reference reproducibility probe
 
+Latest result (November 4): the [target capture review](../report/checks/2026-11-04-cpu-oracle-scratch-target-review.md)
+verifies all saved numerical values, but the original full run rejects stage
+report reaggregation and the write proof exceeds the planned physical setup
+ceiling. The target claim is consumed. Preserve the captured operator and keep
+the control helper unarmed while separate offline revisions are prepared.
+Earlier preparation and approval statements below are historical.
+
+Current follow-up (November 4): the [new attended scratch operator](cpu_oracle_scratch_operator.md)
+passes 60 local operational checks after the user-supplied XFS survey. It remains
+unarmed pending a separate target-only CPU resource exception. No university
+allocation proof or reference calculation has started. The earlier proposal and
+outcome sections below are preserved as historical context; consumed helpers
+must not be rerun.
+
+Current follow-up (November 4): a [separate storage-aware recovery design](cpu_oracle_storage_recovery.md)
+is prepared but unarmed. Local-scratch surveys, a tested outer operator and a new
+CPU resource exception remain pending. The old helpers documented below are
+consumed; do not execute them again. No new attempt or allocation test has run.
+The historical sections below retain their original preparation/outcome context.
+
 Latest update: [approved archive cleanup is complete and verified](../report/checks/2026-10-30-duplicate-archive-cleanup-review.md).
 Twenty-four duplicate compressed exports were removed, with verified Mac backups
 retained. Small temporary writes work again; full-capture quota headroom remains
