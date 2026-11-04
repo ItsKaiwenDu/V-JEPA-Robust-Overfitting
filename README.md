@@ -1,5 +1,27 @@
 # V-JEPA Robust Overfitting
 
+**V3 CPU target capture independently verified (November 4):**
+[All four original workers and both storage ceilings pass](report/checks/2026-11-04-cpu-oracle-capture-v3-target-review.md).
+The local audit verifies 2,048 stage and 48 final comparisons at unchanged bounds,
+with identical captured arrays across thread counts and replays. The complete
+work phase takes 48.732 seconds. The grant is consumed; both hosts can stay idle.
+Next prepare a separate unarmed control-host handoff. Historical discrepancies
+and research gates remain open; earlier entries below are historical snapshots.
+
+**One v3 CPU target attempt approved (November 4):**
+[The new target helper is armed and locally verified](report/checks/2026-11-04-cpu-oracle-capture-v3-authorization.md).
+Its one-attempt authorization covers the reviewed CPU-only scope; no university
+work has started. The user must run the new attended helper once from a local
+Mac Terminal. Linux10609 remains idle and unarmed. Earlier entries are historical.
+
+**Packaged CPU launcher v3 verified and unarmed (November 4):**
+[76 revision checks pass](report/checks/2026-11-04-cpu-oracle-capture-v3-preparation.md).
+The corrected CLI resolves sibling packages and completes four original tiny
+workers from an archive-restored, isolated bundle. Failure receipts now distinguish
+startup errors from numerical refusals. The new target helper refuses while
+unarmed; another university attempt needs its own resource exception.
+Both hosts remain idle. Earlier entries below are historical.
+
 **V2 target reviewed: storage succeeds, launch import fails (November 4):**
 [All 149 saved files verify](report/checks/2026-11-04-cpu-oracle-capture-v2-target-review.md).
 The real 2.5 GiB proof stays below the 3 GiB setup allocation ceiling. A packaged

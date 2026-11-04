@@ -2,6 +2,100 @@
 
 ## Current stage
 
+LATEST Nov04: V3 TARGET CAPTURE INDEPENDENTLY VERIFIED; CONTROL HOST UNARMED.
+Read report/checks/2026-11-04-cpu-oracle-capture-v3-target-review.json/md FIRST.
+User reports exit0; actual target claim now EXISTS/CONSUMED, session
+cpu-oracle-capture-v3-20261104/linux10603/attended-gq6y5si5; claimSHA
+6396015bdd55750d18ba2f44bde79d9f18becaa35ff2d1270b7c937dbd7af704.
+Target control51f8c321.../authe51f2925... unchanged. Response1353945364B/
+SHAf467312d... rehashed; all453members/1353583842logicalB/exactmtimeNS verify.
+Inner639941016B/SHA4597b303.../431members verify; original129packetfiles,
+7overlayfiles/102310B,61scientific/33upstream/115immutablebindings unchanged.
+Outer/referenceEXIT0/noerror; realXFSfull2.5GiBproof9.499s/1926events PASS.
+Observed setup peak2701758464B<3221225472B; capture1805094912B<2415919104B;
+proof97/capture352samples; wholework48.732s<600s. Perfilekernelcaps remain;
+NOTcontinuousaggregatequota/exclusivecapacityreservation/futurefreeproof.
+Four originalworkers(4,0)/(1,0)/(4,1)/(1,1) complete/12calls/256chunks.
+NEWlocal saved-array audit with process/networkcreationDENIED verifies
+2112logicalsignatures/2048stage/48final atUNCHANGED1e-12+1e-14;
+32withinworker+1584crossworker actualbytecomparisons equal. All immediate/
+final remoteauditDECISIONS agree. Context-specific diagnosticstatistic
+differences retained; NEVERrequireexactcrosscontextnestedfloat equality.
+Current controlled v3target PASSES; oldv1parent refusal/v2startupfailure
+remainREJECTED/frozen; oldapproximately1e-10 unresolved. No generalhost
+reliability/GPUqualification/optimization/researchadmission established.
+Neverrepeat consumedhelper/resetclaim/extenddeadline/modifycapturedsources.
+Remote /var/tmp/vjepa-cpu-capture-v3-20261104-linux10603-3k0ulh7w RETAINED;
+NOdeletionauthorized. Both hosts canremainidle. NEXT PREPARE a separate
+UNARMEDcontrolhostoperator/tests/reviewable scope BEFORE asking newattempt
+authorization. NOcontrolhelper/grant/autonext/parallelrun now. Original
+10609auth/claim/target-independent-review.json bridge ABSENT; doNOTcreate
+oldacceptancebridge orreuseoldgrants. NoSSH/newworker/paidwork duringreview.
+Finance9.8116/.1884/old2hold/.0792gap/single10diag/160compute/200project/
+40reserve/lastwallet6.56/reconciliationfalse UNCHANGED;knownRunpodterminated.
+Usercommits self;NEVERstage/commit/push. PriorLATESTentries historical.
+
+LATEST Nov04: ONE V3 TARGET ATTEMPT APPROVED; HELPER ARMED/UNRUN.
+Read report/checks/2026-11-04-cpu-oracle-capture-v3-authorization.json/md FIRST.
+User explicitly selected Approve one v3 target attempt (Recommended) for the exact
+reviewed v3 scope. New target AUTHORIZATION.json EXISTS, SHAe51f2925c6461ccd771f4cb10839270f189b2a77b39f0bd9fc79a4900335dd26;
+kindcpu-oracle-capture-resource-exception-v3/approvedtrue/controlSHA51f8c3215411d2347d58895db3cce18be6b9ac977098c9c3197217d173b509b7/
+host10603/maxnewattempts1/maxseconds600/worker90/proof2684354560B/
+setup3221225472B/capture2415919104B/collection600s/CPUonly/paidfalse/
+resetoldclaimsfalse/autoretries0/userbasisrecorded. Localverify_local passes
+withPopenexplicitlyDENIED;115immutablebindings/source/packet/publichostkey/space
+reverify. No SSH/claim/fullproof/reference work started. ATTEMPT.json ABSENT.
+Do NOT ask this same resource permission again. NEXT user executes ONLY NEW
+rawcpu-oracle-capture-v3-20261104/linux10603/run-attended.sh ONCE fromLOCAL
+MacTerminal forpassword. KeepSSH/Terminal/Macawake/lidopen throughsameconnection
+collection;allow10minwork+10mincopypluslogin. OnDone reviewactualnewclaim/run/
+response/evidence independently;failurepreserve/noretry. Onlyafterpartialreview
+useNEWdownload-only helper;NEVERrepeatlaunch/resetclaim/extenddeadline.
+Originalv1targetclaim staysCONSUMED,allfrozenoriginalsources/arrays/reports/
+financialstate unchanged. Oldcontrol10609auth/claim/acceptedbridge ABSENT;
+no new control grant/helper/parallelrun. Noautonext/cleanup/paidwork/research
+admission. Realv3XFS/fullproof stillUNQUALIFIED/old1e-10unresolved.
+Finance9.8116/.1884/old2hold/.0792gap/single10diag/160compute/200project/
+40reserve/lastwallet6.56/reconciliationfalse unchanged;knownRunpodterminated.
+Usercommits self;NEVERstage/commit/push. PriorLATESTentries historical.
+
+LATEST Nov04: PACKAGED V3 LAUNCHER VERIFIED/UNARMED; TARGET EXCEPTION PENDING.
+Read docs/cpu_oracle_capture_v3.md and report/checks/2026-11-04-cpu-oracle-capture-
+v3-preparation.json/md FIRST. V3 is separate files; frozenv1/v2 NOTpatched.
+CorrectedCLI validates siblingpacket+scratch, inserts code root AFTERoverlay,
+preserves overlaymodels/originalmodelsfallback; livecontrol/auth/packet+overlay
+hashes verified BEFOREscientificimport. Newkind/authkind/prefix v3 reject old
+v1/v2grants; newcontrol binds lastconsumedv2claim8a3c97be.../115immutablefiles.
+76revisiontests PASS zeroerrors/failures/skips. ActualARCHIVED+RESTOREDtinyCLI
+in -I -B Python/neutralcwd/emptyPYTHONPATH completes4fresh originalworkers;
+directrehearsal4more. Exports+all8savedworkers re-audit withPopenDENIED.
+Fulloriginalpacketextract/coldimport realruntime succeeds wdispatchBLOCKED;
+wrongroots/symlinks/tamper/missingpackage/oldgrant/localfull/SCUlocalmode refuse.
+Explicitlocal-tiny-rehearsal onlytiny/nonSCU/nolivecontrol; no fullproof inlocal.
+Newstdsupervisor classifies startup/runtime/supervision/receipt failures vs
+numericalrefusal/saved-checksuccess, checks hashes+labels/order/exit; transport
+retainsoutcome. Originalalgorithm/packet/fixture/1e-12+1e-14 unchanged. V2
+allocation+auditcomponents reused byteforbyte. No originalv1parent waiver.
+Fullsaved435members+2048stage/48final PASS v3reader;failedv2target149members
+reverified. Original/failedsources/arrays/reports/oldclaims allUNCHANGED.
+Newrawcpu-oracle-capture-v3-20261104/linux10603 helper+CONTROL prepared;
+AUTHORIZATION.json andATTEMPT.json ABSENT. ActualhelperUNARMEDrefusalbefore
+claim/SSH. TargetSHA51f8c3215411d2347d58895db3cce18be6b9ac977098c9c3197217d173b509b7.
+ProposalONLY10603/newprivate/var/tmp/unchanged19042363Bpacket+7overlayfiles
+102310B+scope;ONEadditional600sCPUinclactual2.5GiBproof60s/fourworkers90seach/
+audit/export plus600s/3GiBexisting-filecollectionsameSSH. Capsunchanged3GiB
+setup/2.25GiBcapture/8GiBinitialspace/1GiBfloor/inode+perfileguards. Observed
+accountingNOTkernelaggregatequota/reservation/zeroovershootproof. V3liveXFS/
+universitycompletecapture UNQUALIFIED; localPython3.11.16/Torch2.14.1 differs.
+NEXT seek separateexplicitONEadditionalv3TARGETresourceexception against
+exactSHA/scope; existinggrantsCONSUMED/genericcontinueisNOTnewapproval. DoNOT
+arm/run/claimbeforeapproval. No control10609grant/helper/acceptedbridge or
+parallel/autonext. NoactualSSH/newuniversityproof/job/cleanup/paidwork/research
+admission/financialrelease inpreparation. Historical1e-10 remainsunresolved.
+Financial9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+lastwallet6.56/reconciliationfalse unchanged;knownRunpodterminated. Usercommits
+self;NEVERstage/commit/push. PriorLATESTentries historical.
+
 LATEST Nov04: V2 TARGET VERIFIED; STORAGE PASS, PACKAGED IMPORT FAILS.
 Read report/checks/2026-11-04-cpu-oracle-capture-v2-target-review.json/md FIRST.
 UserDone -> new ATTEMPT.json EXISTS/CONSUMED, sessionattended-tfi1f2sp. All149

@@ -1,5 +1,74 @@
 # Research Progress Reports
 
+## 2026-11-04 — V3 target CPU capture passes independent review
+
+The new linux10603 capture exits 0 and completes all four unchanged original
+workers. The 48.732-second work phase includes the full 2.5 GiB write/fsync/readback
+proof, workers, audit and export. Observed setup and capture allocation peak at
+2.516 GiB and 1.681 GiB, below the original 3 GiB and 2.25 GiB ceilings. All
+1,926 proof events and both supervisor receipts verify. This is observed
+accounting, not a continuous aggregate quota or capacity reservation.
+
+The response's 453 files, exact timestamps and 431 inner numerical export
+members verify. The original 129-member packet, seven overlays, 61 scientific
+bindings, 33 upstream bindings and 115 immutable historical bindings are
+unchanged. A fresh local audit with process/network creation denied verifies
+2,112 logical array signatures, 2,048 stage and 48 final comparisons at the
+original bounds. All 32 within-worker and 1,584 cross-worker byte comparisons
+agree. Diagnostic statistics remain associated with their computing context;
+the remote immediate/final audit decisions agree with the local array review.
+
+The v3 grant is consumed. Prior failures, captured sources and old claims remain
+frozen; the historical approximately 1e-10 discrepancy remains unresolved.
+Neither general host reliability nor GPU qualification, optimization adoption
+or research admission is established. Remote scratch is retained. Both hosts
+can stay idle while a separate unarmed control-host handoff is prepared and
+tested; another attempt requires its own reviewed resource authorization.
+No SSH connection, new reference worker, paid work, cleanup or financial change
+occurs during this review. User commits themselves.
+[Independent review](report/checks/2026-11-04-cpu-oracle-capture-v3-target-review.md).
+
+## 2026-11-04 — One v3 target attempt explicitly approved
+
+The user approved the exact linux10603 v3 upload and bounded CPU-only attempt.
+Its authorization is now recorded against the unchanged prepared control. All
+115 immutable bindings, source/packet identities and local preflight checks pass
+with subprocess creation denied. The target is armed but has no attempt claim;
+no SSH, full-size proof or university reference work has started.
+
+Next the user invokes the new attended helper once from a local Mac Terminal,
+keeps the session awake through collection, and reports completion for review.
+The grant permits up to ten minutes of work plus ten minutes of existing-file
+collection. No repeated launch, old-claim reset, automatic control-host run,
+cleanup, paid compute or financial change is authorized. The earlier failures
+and unresolved discrepancy remain preserved.
+[Authorization review](report/checks/2026-11-04-cpu-oracle-capture-v3-authorization.md).
+
+## 2026-11-04 — Corrected packaged launcher v3 prepared and unarmed
+
+The import-path correction is integrated into separately named v3 supervisor,
+client, runtime and scripts. All 76 targeted revision checks pass with zero
+failures/errors/skips. The actual archived/restored tiny CLI runs in isolated
+Python from a neutral directory and completes four fresh original workers;
+a direct rehearsal adds four more. All eight saved captures and their exports
+verify. Full source-packet cold imports complete with worker dispatch blocked.
+Wrong roots, aliasing, tampering, missing packages and invalid modes/grants refuse.
+
+The supervisor now explicitly classifies startup/runtime failures and numerical
+refusals from checksummed records and exit labels. The original failed v2 export
+remains frozen. Full saved evidence also passes 2,048 stage and 48 final checks
+through v3; all 115 immutable bindings and the prior 149-member target reverify.
+Numerical code, fixture and bounds remain unchanged. These are local rehearsals,
+not live university or full-size allocation qualification.
+
+The actual new target helper refuses while unarmed before any claim or SSH.
+Its concrete proposal preserves one 600-second CPU-only target attempt, including
+the 2.5 GiB proof and original workers, plus 600 seconds of existing-file copy.
+The prior grants are consumed; a separate v3 target exception is pending. Both
+hosts stay idle, with no new university work, remote cleanup, paid compute,
+financial change or research admission.
+[Preparation review](report/checks/2026-11-04-cpu-oracle-capture-v3-preparation.md).
+
 ## 2026-11-04 — V2 storage proof passes; parent stops on package import
 
 The actual target's 149 saved files, exact timestamps, 129 packet members and

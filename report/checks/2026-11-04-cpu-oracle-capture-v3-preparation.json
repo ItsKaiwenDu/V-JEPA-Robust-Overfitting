@@ -1,0 +1,237 @@
+{
+  "actual_unarmed_helper_refused": true,
+  "all_preparation_is_local": true,
+  "bootstrap_python_bytes": 81443,
+  "date": "2026-11-04",
+  "full_saved_review": {
+    "counts": {
+      "final": 48,
+      "stage": 2048
+    },
+    "full_saved": {
+      "CPU_only": true,
+      "GPU_work": false,
+      "all_planned_workers_completed": true,
+      "bounds": {
+        "atol": 1e-14,
+        "rtol": 1e-12
+      },
+      "capture_integrity_verified": true,
+      "handoff_sha256": "952ee2e1a9e45914b36557d0d3e5700ca2c1c0efb10ded675a2e443723ddb4b5",
+      "host": "linux10603",
+      "host_reliability_established": false,
+      "kind": "cpu-oracle-capture-runtime-v3",
+      "optimization_adopted": false,
+      "original_parent_invoked": false,
+      "original_refusals_waived": false,
+      "research_admitted": false,
+      "root_cause_established": false,
+      "saved_value_checks_passed": true,
+      "tiny_fixture": false,
+      "workers": [
+        {
+          "diagnostic_difference_count": 844,
+          "passed": true,
+          "phase_bitwise_equal": true,
+          "replay": 0,
+          "threads": 4,
+          "v3_audit_sha256": "170ed77c84d0488ed383f75f1194adaddc943bfef0a3c4ba12fd8694e8a82b42",
+          "worker_sha256": "7b8cba6ebd02ee14cb4a180878ae288cd009ad76e58671a02d1ce77029aee9a4"
+        },
+        {
+          "diagnostic_difference_count": 843,
+          "passed": true,
+          "phase_bitwise_equal": true,
+          "replay": 0,
+          "threads": 1,
+          "v3_audit_sha256": "854243a3d203e7179d5031a4163b3685585599f1051cb3e60ac1be4e31f74638",
+          "worker_sha256": "47e60c133771004684a06a636863777361f222064801130d60da1ff49595800a"
+        },
+        {
+          "diagnostic_difference_count": 844,
+          "passed": true,
+          "phase_bitwise_equal": true,
+          "replay": 1,
+          "threads": 4,
+          "v3_audit_sha256": "5d0528a374e6460a68b75bc3cac301f87c2d8ff2d5417e3aaf4b6700e921ba10",
+          "worker_sha256": "4a9750ec3b2ba7a0f50852a6ad7c7d51543c352e8120d484e45fef1646b90746"
+        },
+        {
+          "diagnostic_difference_count": 843,
+          "passed": true,
+          "phase_bitwise_equal": true,
+          "replay": 1,
+          "threads": 1,
+          "v3_audit_sha256": "ea72bc6a9b85f7fd5d5b8a9446af28065905167e7ecdc5448db861a0a17a80ea",
+          "worker_sha256": "b43806f6420686c2caa9d6e593fe03b44e5ccd3b6eac2b36f18c82670aec2055"
+        }
+      ]
+    },
+    "tiny": {
+      "cold-extracted-tiny": {
+        "original_worker_sha256": [
+          "9a6bdfdfd9837209c95a8ddc1372136f4b0035fe2615a299dd8bd159413d1bae",
+          "750eaf79b08d75cc625df26fb5e6adcbe215af7cd40886822189180107e2c7ad",
+          "a839b21cb5e7374e07f708ae02ab1e6256eef2a174c3a1a042e022a8a78e43d7",
+          "50bfc21c08cafc67a0d2196416d828dca38eea2f934e191b5ee302a7a4d10bd0"
+        ],
+        "passed": true,
+        "summary_sha256": "e0497095b58f6476ed26db23d098073c90557d943cd5e260fbfaefb6127a2d30",
+        "workers": 4
+      },
+      "direct-tiny": {
+        "original_worker_sha256": [
+          "d688991b349f9c8bf5117c15a81794a068dbdfbf772f4e6d929f8529f8bfbb77",
+          "a608b6527674b96b27d44220835723caff63c5738a84e5b257fb85ae87c56fad",
+          "ae909112d3494cc6c15b5de50316ec8986e0eae94f316f46f1d4f2d4ed42f0a1",
+          "cd81dea77c302eff11be2709fa88a3bb7a83f8af2e8341f541c667521c0e786f"
+        ],
+        "passed": true,
+        "summary_sha256": "dec238aaa78d00c5d247c71d55cb2a8e2821e0c39f4b732d4b1006c00cfe4c3c",
+        "workers": 4
+      }
+    }
+  },
+  "full_saved_summary_sha256": "a48f13ca7ab7ebe6e545f985021aaa6fcdb2216a755b82c1b77288992522d2a6",
+  "historical_discrepancy_resolved": false,
+  "immutable_bindings_verified": 115,
+  "independent_saved_export_checks": {
+    "cold-extracted-tiny": {
+      "bytes_verified": 489234,
+      "members_verified": 183,
+      "passed": true,
+      "sha256": "6e9994a9eb2c0665b8127341ddcaa138c4f541110995a1fee11717b5bebecce2"
+    },
+    "direct-tiny": {
+      "bytes_verified": 489204,
+      "members_verified": 183,
+      "passed": true,
+      "sha256": "f9272adb2f4a32859099c5c77a0945cd41fea355ba18830dc48bc64af2a7acc2"
+    }
+  },
+  "kind": "cpu-oracle-capture-v3-preparation-review",
+  "live_runtime_versions_unqualified_by_local_rehearsal": true,
+  "new_authorization_kind": "cpu-oracle-capture-resource-exception-v3",
+  "old_sources_arrays_reports_claims_unchanged": true,
+  "plan": {
+    "CPU_only": true,
+    "GPU_work": false,
+    "authorized": false,
+    "bounds": {
+      "atol": 1e-14,
+      "rtol": 1e-12
+    },
+    "control_host_authorized": false,
+    "date": "2026-11-04",
+    "financial_state_unchanged": {
+      "compute_cap_USD": 160,
+      "conservative_encumbrance_USD": 9.8116,
+      "full_account_reconciliation_complete": false,
+      "historical_inclusive_hold_USD": 2,
+      "historical_unassigned_gap_USD": 0.0792,
+      "last_user_reported_wallet_USD": 6.56,
+      "new_paid_hold_USD": 0,
+      "noncompute_reserve_USD": 40,
+      "project_cap_USD": 200,
+      "single_diagnostic_cap_USD": 10,
+      "unreserved_diagnostic_USD": 0.1884
+    },
+    "full_live_capture_qualified": false,
+    "host": "linux10603",
+    "kernel_aggregate_quota": false,
+    "kind": "cpu-oracle-capture-v3-unarmed-preparation",
+    "launchable_now": false,
+    "maximum_concurrent_hosts": 1,
+    "new_university_attempt_started": false,
+    "next_gate": "Separate explicit v3 target-only resource exception for this control and unchanged bounded envelope.",
+    "operator_implemented": true,
+    "original_packet_bytes": 19042363,
+    "original_packet_sha256": "d6b02dc362be2a3a5244174bc2d1175f763d1f661d5cc89ab2e18afa17e63f53",
+    "original_refusals_waived": false,
+    "overlay_bytes": 102310,
+    "overlay_files": 7,
+    "paid_work_started": false,
+    "policy": {
+      "automatic_retries": 0,
+      "capture_ceiling": 2415919104,
+      "collection_seconds": 600,
+      "emergency_bytes": 16777216,
+      "max_archive_bytes": 1082130432,
+      "max_array_bytes": 33554432,
+      "max_code_bytes": 67108864,
+      "max_collection_bytes": 3221225472,
+      "max_files": 1024,
+      "max_header_bytes": 1048576,
+      "max_input_bytes": 67108864,
+      "max_launcher_log_bytes": 16777216,
+      "max_metadata_bytes": 67108864,
+      "max_overlay_bytes": 2097152,
+      "max_raw_bytes": 1073741824,
+      "max_seconds": 600,
+      "minimum_free_bytes": 8589934592,
+      "minimum_free_inodes": 2048,
+      "poll_seconds": 0.25,
+      "runtime_free_floor": 1073741824,
+      "setup_ceiling": 3221225472,
+      "worker_seconds": 90,
+      "write_test_bytes": 2684354560,
+      "write_test_seconds": 60
+    },
+    "previous_attempts_consumed": true,
+    "proposed_new_attempts": 1,
+    "target_attempt_present": false,
+    "target_authorization_present": false,
+    "target_control_sha256": "51f8c3215411d2347d58895db3cce18be6b9ac977098c9c3197217d173b509b7",
+    "tasks": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "prior_v2_claim_sha256": "8a3c97be2f4b64c393cb65ad95387c49e752cde420087a874d3b2ca2831eb05c",
+  "prior_v2_failed_response_members_reverified": 149,
+  "prior_v2_target_review_sha256": "692aecfadd81f8395ca8fa8e9c6ad711b3546490d78da7579e3d28fc2f3374bd",
+  "receipt_classification_tests_passed": true,
+  "research_admitted": false,
+  "source_overlay_bytes": 102310,
+  "source_sha256": {
+    "models/cpu_oracle_capture_client_v3.py": "95d37e5ccb533972f8de9679662751b87151ea148bcde2daf797171f6c837b24",
+    "models/cpu_oracle_capture_runtime_v3.py": "95faeb96bc5ba7857c5c550f6b0bddfc36f7e347aca82868e3bcb4ebd397dd78",
+    "models/cpu_oracle_capture_v3.py": "6d364575809de31ed4c86ed8d758ed85e8d51ff6066d9914422bc4e853213830",
+    "models/cpu_oracle_reassessment_v2.py": "f40978d3ec7a05a2434878a757622ee49c6c9add530966640944462969870461",
+    "models/cpu_oracle_scratch.py": "12992c272b21902297746d7781685dc951d0a310ace1dc73cbb99b8d52f6bbe6",
+    "models/scratch_allocation_v2.py": "6b0503b8ab2c88a44a4d95c8fafbad52d1c0414293379406520a22f67700e874",
+    "scripts/capture_cpu_reference_v3.py": "84b6c7b52e1c7a0ee04004ccae605d39522a824579c86cf6c5669400b48fce3a",
+    "scripts/run_cpu_oracle_capture_v3.py": "a42069e986e231533b45ccc41d13ea8ac43abf931e0cb1329e396eefe6938fd8",
+    "tests/test_cpu_oracle_capture_v3.py": "b3f26bbc8eff27c00dffca694f7cc91301c1b72aa5fc96f725673a6b6b2020c2",
+    "tests/test_cpu_oracle_packaged_v3.py": "f7ada17ce683dbb2851f9969a2112c822fba1f5732dcda581ee03f8d4978ef96"
+  },
+  "target_attempt_present": false,
+  "target_authorization_present": false,
+  "target_control_sha256": "51f8c3215411d2347d58895db3cce18be6b9ac977098c9c3197217d173b509b7",
+  "unit_checks": {
+    "SSH_connections": 0,
+    "cold_extracted_tiny_workers": 4,
+    "cold_full_import_original_dispatch_blocked": true,
+    "errors": 0,
+    "failures": 0,
+    "fresh_local_original_tiny_workers": 8,
+    "full_size_allocation_tests": 0,
+    "junit_sha256": "32414b9928cbba8cceb57b273ff7c7816bf41b01faef6b6372bc0f7db1aae718",
+    "skipped": 0,
+    "tests": 76
+  }
+}
