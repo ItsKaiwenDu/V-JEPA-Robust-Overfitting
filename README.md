@@ -1,5 +1,33 @@
 # V-JEPA Robust Overfitting
 
+**V2 target reviewed: storage succeeds, launch import fails (November 4):**
+[All 149 saved files verify](report/checks/2026-11-04-cpu-oracle-capture-v2-target-review.md).
+The real 2.5 GiB proof stays below the 3 GiB setup allocation ceiling. A packaged
+import-path defect stops the parent before any reference worker. Four isolated
+local checks validate a candidate correction; a new launcher is still needed.
+The target grant is consumed. Keep both university hosts idle; no retry starts.
+
+**One v2 CPU target attempt approved (November 4):**
+[The new target helper is armed and locally verified](report/checks/2026-11-04-cpu-oracle-capture-v2-authorization.md).
+Its one-attempt authorization covers the reviewed CPU-only scope; no university
+work has started. The user must run the new attended helper once from a local
+Mac Terminal. Linux10609 remains idle and unarmed. Earlier entries are historical.
+
+**Integrated CPU capture v2 verified and unarmed (November 4):**
+[121 checks pass and the full saved capture verifies](report/checks/2026-11-04-cpu-oracle-capture-v2-preparation.md).
+The new operator supervises physical allocation before reference work and uses
+the revised saved-value audit with unchanged workers and numerical bounds.
+Its actual target helper refuses while unarmed. A separate target-only resource
+exception is pending; both university hosts remain idle and no paid work starts.
+
+**Offline audit and allocation corrections verified (November 4):**
+[69 tests and the full saved-capture reassessment pass](report/checks/2026-11-04-cpu-oracle-corrections-v2.md).
+New versioned components count actual setup allocation and retain audit-statistic
+differences while independently checking arrays at unchanged numerical bounds.
+The original run remains rejected. Live XFS qualification and integration into
+a new unarmed capture operator remain next; both university hosts can stay idle.
+Earlier entries below are historical snapshots.
+
 **Target capture reviewed; two protocol issues remain (November 4):**
 [All saved values pass independent checks, while the original run remains rejected](report/checks/2026-11-04-cpu-oracle-scratch-target-review.md).
 Four complete worker captures have identical tensors, but one/four-thread audit

@@ -1,5 +1,11 @@
 # Attended CPU reference recovery on local scratch
 
+Offline follow-up (November 4): the [separate v2 components](cpu_oracle_corrections_v2.md)
+pass 69 regression tests and a full saved-capture reassessment. They preserve the
+original rejection below. The new physical-allocation guard still needs live
+XFS qualification and integration into a new unarmed operator. Neither this
+frozen helper nor the control host should be launched again.
+
 Latest result (November 4): the [target capture review](../report/checks/2026-11-04-cpu-oracle-scratch-target-review.md)
 verifies all saved numerical values, but the original full run rejects stage
 report reaggregation and the write proof exceeds the planned physical setup

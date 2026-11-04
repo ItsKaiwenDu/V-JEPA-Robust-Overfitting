@@ -1,0 +1,192 @@
+{
+  "actual_unarmed_helper_refused": true,
+  "bootstrap_python_bytes": 76567,
+  "date": "2026-11-04",
+  "full_authenticated_saved_capture_reaudited": true,
+  "full_saved_integration_sha256": "1ed6895224cb8be36dcd40c717b8977f0aac15acb62834d87084fc8600eba98c",
+  "full_saved_summary": {
+    "CPU_only": true,
+    "GPU_work": false,
+    "all_planned_workers_completed": true,
+    "bounds": {
+      "atol": 1e-14,
+      "rtol": 1e-12
+    },
+    "capture_integrity_verified": true,
+    "handoff_sha256": "952ee2e1a9e45914b36557d0d3e5700ca2c1c0efb10ded675a2e443723ddb4b5",
+    "host": "linux10603",
+    "host_reliability_established": false,
+    "kind": "cpu-oracle-capture-runtime-v2",
+    "optimization_adopted": false,
+    "original_parent_invoked": false,
+    "original_refusals_waived": false,
+    "research_admitted": false,
+    "root_cause_established": false,
+    "saved_value_checks_passed": true,
+    "tiny_fixture": false,
+    "workers": [
+      {
+        "diagnostic_difference_count": 844,
+        "passed": true,
+        "phase_bitwise_equal": true,
+        "replay": 0,
+        "threads": 4,
+        "v2_audit_sha256": "170ed77c84d0488ed383f75f1194adaddc943bfef0a3c4ba12fd8694e8a82b42",
+        "worker_sha256": "7b8cba6ebd02ee14cb4a180878ae288cd009ad76e58671a02d1ce77029aee9a4"
+      },
+      {
+        "diagnostic_difference_count": 843,
+        "passed": true,
+        "phase_bitwise_equal": true,
+        "replay": 0,
+        "threads": 1,
+        "v2_audit_sha256": "854243a3d203e7179d5031a4163b3685585599f1051cb3e60ac1be4e31f74638",
+        "worker_sha256": "47e60c133771004684a06a636863777361f222064801130d60da1ff49595800a"
+      },
+      {
+        "diagnostic_difference_count": 844,
+        "passed": true,
+        "phase_bitwise_equal": true,
+        "replay": 1,
+        "threads": 4,
+        "v2_audit_sha256": "5d0528a374e6460a68b75bc3cac301f87c2d8ff2d5417e3aaf4b6700e921ba10",
+        "worker_sha256": "4a9750ec3b2ba7a0f50852a6ad7c7d51543c352e8120d484e45fef1646b90746"
+      },
+      {
+        "diagnostic_difference_count": 843,
+        "passed": true,
+        "phase_bitwise_equal": true,
+        "replay": 1,
+        "threads": 1,
+        "v2_audit_sha256": "ea72bc6a9b85f7fd5d5b8a9446af28065905167e7ecdc5448db861a0a17a80ea",
+        "worker_sha256": "b43806f6420686c2caa9d6e593fe03b44e5ccd3b6eac2b36f18c82670aec2055"
+      }
+    ]
+  },
+  "historical_discrepancy_resolved": false,
+  "immutable_bindings_verified": 98,
+  "kind": "cpu-oracle-capture-v2-preparation-review",
+  "new_control_host_prepared": false,
+  "new_source_sha256": {
+    "models/cpu_oracle_capture_client_v2.py": "bbc0885909c8f4f6e26e80c30e01d794f3d6d3b828fabbf151e1bb928384121d",
+    "models/cpu_oracle_capture_runtime_v2.py": "0ae3b483e06d8dc3327ae79521fce400a315f53c122c64569cda4720e16d29f9",
+    "models/cpu_oracle_capture_v2.py": "0c7e5dd151ba0855be6ee0e4d826ee4d0d6ec4ef8fa84e66c61df4a9a1604b96",
+    "models/cpu_oracle_reassessment_v2.py": "f40978d3ec7a05a2434878a757622ee49c6c9add530966640944462969870461",
+    "models/cpu_oracle_scratch.py": "12992c272b21902297746d7781685dc951d0a310ace1dc73cbb99b8d52f6bbe6",
+    "models/scratch_allocation_v2.py": "6b0503b8ab2c88a44a4d95c8fafbad52d1c0414293379406520a22f67700e874",
+    "scripts/capture_cpu_reference_v2.py": "e796e04d1cb7d9d87aa4b09a4fb86babf2ca663877ce092b3e02bcb22f8e10be",
+    "scripts/run_cpu_oracle_capture_v2.py": "d34a35a080b115c2a4335e44afd8e73539a7524bd69c59ed08bc87f77e500364",
+    "tests/test_cpu_oracle_capture_v2.py": "a7e50cfe466564685e01dd41a49a1903aa4ba5a13e28fe7524f53c62e211cc7b"
+  },
+  "old_control_host_unarmed": true,
+  "optimization_adopted": false,
+  "original_saved_member_hashes_verified": 435,
+  "original_sources_arrays_reports_claims_unchanged": true,
+  "plan": {
+    "authorized": false,
+    "bounds": {
+      "atol": 1e-14,
+      "rtol": 1e-12
+    },
+    "claim_and_authorization_absent": true,
+    "control_host_armed": false,
+    "date": "2026-11-04",
+    "financial_state_unchanged": {
+      "compute_cap_USD": 160,
+      "conservative_encumbrance_USD": 9.8116,
+      "full_account_reconciliation_complete": false,
+      "historical_inclusive_hold_USD": 2,
+      "historical_unassigned_gap_USD": 0.0792,
+      "last_user_reported_wallet_USD": 6.56,
+      "new_paid_hold_USD": 0,
+      "noncompute_reserve_USD": 40,
+      "project_cap_USD": 200,
+      "single_diagnostic_cap_USD": 10,
+      "unreserved_diagnostic_USD": 0.1884
+    },
+    "host": "linux10603",
+    "kernel_aggregate_quota": false,
+    "kind": "cpu-oracle-capture-v2-unarmed-preparation",
+    "launchable_now": false,
+    "live_XFS_allocator_qualified": false,
+    "maximum_concurrent_hosts": 1,
+    "new_university_attempt_started": false,
+    "next_gate": "Separate explicit target-only v2 resource exception after this concrete envelope review.",
+    "old_grants_consumed": true,
+    "old_refusals_waived": false,
+    "operator_implemented": true,
+    "original_packet_bytes": 19042363,
+    "original_packet_sha256": "d6b02dc362be2a3a5244174bc2d1175f763d1f661d5cc89ab2e18afa17e63f53",
+    "overlay_bytes": 95070,
+    "overlay_files": 7,
+    "paid_work_started": false,
+    "policy": {
+      "automatic_retries": 0,
+      "capture_ceiling": 2415919104,
+      "collection_seconds": 600,
+      "emergency_bytes": 16777216,
+      "max_archive_bytes": 1082130432,
+      "max_array_bytes": 33554432,
+      "max_code_bytes": 67108864,
+      "max_collection_bytes": 3221225472,
+      "max_files": 1024,
+      "max_header_bytes": 1048576,
+      "max_input_bytes": 67108864,
+      "max_launcher_log_bytes": 16777216,
+      "max_metadata_bytes": 67108864,
+      "max_overlay_bytes": 2097152,
+      "max_raw_bytes": 1073741824,
+      "max_seconds": 600,
+      "minimum_free_bytes": 8589934592,
+      "minimum_free_inodes": 2048,
+      "poll_seconds": 0.25,
+      "runtime_free_floor": 1073741824,
+      "setup_ceiling": 3221225472,
+      "worker_seconds": 90,
+      "write_test_bytes": 2684354560,
+      "write_test_seconds": 60
+    },
+    "proposed_new_attempts": 1,
+    "target_control_sha256": "64364f84133035c6fff3d5fbed87c64f7a8ec92203e202ec20d70456fe300484",
+    "tasks": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "university_connection_started": false
+  },
+  "prior_correction_review_sha256": "3b43a00b757a70ef7c478c2b0347617a75227b80fffe2516263f7aa67646a64f",
+  "research_admitted": false,
+  "source_review_sha256": "fd8a6308569b25cdacb16aa82458e01b5d04ac73de8da5a79c8fe6b042a8ecc0",
+  "target_attempt_present": false,
+  "target_authorization_present": false,
+  "target_control_sha256": "64364f84133035c6fff3d5fbed87c64f7a8ec92203e202ec20d70456fe300484",
+  "unarmed_exit_status": 1,
+  "unit_checks": {
+    "SSH_connections": 0,
+    "actual_blocking_child_deadline_and_kernel_file_limit_checked": true,
+    "errors": 0,
+    "failures": 0,
+    "fresh_local_tiny_workers": 5,
+    "full_size_write_tests": 0,
+    "junit_sha256": "be1c171f0597cfc3a3f141659df82b95db85c12040a17a3b780db18e5ee8b9ed",
+    "new_integration_checks": 52,
+    "prior_component_checks": 69,
+    "skipped": 0,
+    "tests": 121,
+    "university_jobs": 0
+  }
+}

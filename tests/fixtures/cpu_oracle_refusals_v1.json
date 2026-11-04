@@ -1,0 +1,44 @@
+{
+  "four_thread_statistic": {
+    "atol": 1e-14,
+    "failed_elements": 0,
+    "max_absolute_error": 4.163336342344337e-17,
+    "max_tolerance_ratio": 0.0019054353932843322,
+    "passed": true,
+    "relative_l2_error": 2.417898846212127e-16,
+    "rtol": 1e-12,
+    "shape": [
+      128,
+      64
+    ]
+  },
+  "kind": "recorded-cpu-oracle-v1-refusals-regression",
+  "one_thread_statistic": {
+    "atol": 1e-14,
+    "failed_elements": 0,
+    "max_absolute_error": 5.551115123125783e-17,
+    "max_tolerance_ratio": 0.003814232046083918,
+    "passed": true,
+    "relative_l2_error": 3.4756621964147557e-16,
+    "rtol": 1e-12,
+    "shape": [
+      128,
+      64
+    ]
+  },
+  "planned_setup_ceiling_bytes": 3221225472,
+  "recorded_proof_allocated_bytes": 4294901760,
+  "recorded_proof_written_bytes": 2684354560,
+  "source_chunk_key": [
+    0,
+    0,
+    0,
+    128
+  ],
+  "source_review_sha256": "fd8a6308569b25cdacb16aa82458e01b5d04ac73de8da5a79c8fe6b042a8ecc0",
+  "source_stage": "dq",
+  "source_stage_reports_sha256": {
+    "1_thread": "0de412630c05c918c540444171b66efcde9f6954c52533a7688c65746f269dbf",
+    "4_threads": "0df823393331ed8c9839fe8e0c08e36ee2eb0001aa001566a7b15acb998463e3"
+  }
+}

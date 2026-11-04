@@ -1,0 +1,230 @@
+{
+  "all_saved_numeric_decisions_reassessed": true,
+  "bounds": {
+    "atol": 1e-14,
+    "rtol": 1e-12
+  },
+  "control_host_authorized": false,
+  "date": "2026-11-04",
+  "documentation_sources": [
+    "https://docs.python.org/3.11/library/os.html#os.posix_fallocate",
+    "https://docs.python.org/3.11/library/os.html#os.stat_result.st_blocks",
+    "https://docs.kernel.org/admin-guide/xfs.html"
+  ],
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "fresh_local_verifications": [
+    {
+      "actual_BLAS_thread_count_proven": false,
+      "exit_status": 0,
+      "requested_thread_environment": 1,
+      "result": {
+        "array_checks_passed": true,
+        "bounds": {
+          "atol": 1e-14,
+          "rtol": 1e-12
+        },
+        "control_host_ready": false,
+        "final_reference_comparisons": 48,
+        "historical_discrepancy_resolved": false,
+        "kind": "cpu-oracle-offline-reassessment-v2",
+        "launch_authorized": false,
+        "new_university_work_started": false,
+        "original_parent_accepted": false,
+        "original_parent_refusal": "Stage comparisons do not reaggregate.",
+        "original_refusals_waived": false,
+        "original_setup_accepted": false,
+        "research_admitted": false,
+        "scope": "Offline reassessment of authenticated saved arrays; no original protocol acceptance or launch authorization.",
+        "source_response_sha256": "f5c367212fd0e927f9e17e9033a070d1888168f2152e799f12118c610c594898",
+        "source_review_sha256": "fd8a6308569b25cdacb16aa82458e01b5d04ac73de8da5a79c8fe6b042a8ecc0",
+        "sources": {
+          "models/attention_fixture.py": "7676f8d268196f880a408352af5b6c558028231deb270efc96f3c36ae753d411",
+          "models/attention_saved_evidence.py": "d561f3acf2e247a4191430204c1d2445f7d747fa7fde117117580f79263235c0",
+          "models/cpu_oracle_reassessment_v2.py": "f40978d3ec7a05a2434878a757622ee49c6c9add530966640944462969870461",
+          "models/oracle_trace.py": "3cd9f278dd4902a0831e67f57ee004df8a2143830b2aa6bbf3f9c128774c6def"
+        },
+        "stage_comparisons": 2048,
+        "worker_reassessments": [
+          {
+            "diagnostic_difference_count": 844,
+            "reassessment_sha256": "10db6db33abf619ae780719fabc4750153986322fb19a51b7f9c0b4ed9d1f9fd",
+            "replay": 0,
+            "saved_value_evidence_passed": true,
+            "threads": 4,
+            "worker_sha256": "7b8cba6ebd02ee14cb4a180878ae288cd009ad76e58671a02d1ce77029aee9a4"
+          },
+          {
+            "diagnostic_difference_count": 843,
+            "reassessment_sha256": "b714fd1e7fa1009e069ec16179c5d7fde24685aeb577cc4f013c47a9449ada6b",
+            "replay": 0,
+            "saved_value_evidence_passed": true,
+            "threads": 1,
+            "worker_sha256": "47e60c133771004684a06a636863777361f222064801130d60da1ff49595800a"
+          },
+          {
+            "diagnostic_difference_count": 844,
+            "reassessment_sha256": "4b78cba90c0a904a4132bea0258b0c088d18a086de33ee554ea481e17c89f10e",
+            "replay": 1,
+            "saved_value_evidence_passed": true,
+            "threads": 4,
+            "worker_sha256": "4a9750ec3b2ba7a0f50852a6ad7c7d51543c352e8120d484e45fef1646b90746"
+          },
+          {
+            "diagnostic_difference_count": 843,
+            "reassessment_sha256": "86e00ca7f7a1d5caaacb4d74bf94c0b5da9af9260fb4899875d03c60808fb80b",
+            "replay": 1,
+            "saved_value_evidence_passed": true,
+            "threads": 1,
+            "worker_sha256": "b43806f6420686c2caa9d6e593fe03b44e5ccd3b6eac2b36f18c82670aec2055"
+          }
+        ]
+      },
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "81beb3a30029906c12fcb0025f8a1a79496cdaa37904b3d4d2b5e65aaf4f44d5",
+      "step": "create-offline-reassessment"
+    },
+    {
+      "actual_BLAS_thread_count_proven": false,
+      "exit_status": 0,
+      "requested_thread_environment": 1,
+      "result": {
+        "array_checks_passed": true,
+        "kind": "cpu-oracle-offline-reassessment-v2",
+        "launch_authorized": false,
+        "original_parent_accepted": false,
+        "original_setup_accepted": false,
+        "research_admitted": false,
+        "verified": true,
+        "worker_checks": [
+          {
+            "diagnostic_difference_count": 0,
+            "replay": 0,
+            "saved_value_evidence_passed": true,
+            "threads": 4
+          },
+          {
+            "diagnostic_difference_count": 0,
+            "replay": 0,
+            "saved_value_evidence_passed": true,
+            "threads": 1
+          },
+          {
+            "diagnostic_difference_count": 0,
+            "replay": 1,
+            "saved_value_evidence_passed": true,
+            "threads": 4
+          },
+          {
+            "diagnostic_difference_count": 0,
+            "replay": 1,
+            "saved_value_evidence_passed": true,
+            "threads": 1
+          }
+        ]
+      },
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "4ef3d4cb342cc605338ba6a5fe0cca030203dd5df794c0eb1485be7c6c2afedd",
+      "step": "verify-requested-threads-1"
+    },
+    {
+      "actual_BLAS_thread_count_proven": false,
+      "exit_status": 0,
+      "requested_thread_environment": 4,
+      "result": {
+        "array_checks_passed": true,
+        "kind": "cpu-oracle-offline-reassessment-v2",
+        "launch_authorized": false,
+        "original_parent_accepted": false,
+        "original_setup_accepted": false,
+        "research_admitted": false,
+        "verified": true,
+        "worker_checks": [
+          {
+            "diagnostic_difference_count": 0,
+            "replay": 0,
+            "saved_value_evidence_passed": true,
+            "threads": 4
+          },
+          {
+            "diagnostic_difference_count": 0,
+            "replay": 0,
+            "saved_value_evidence_passed": true,
+            "threads": 1
+          },
+          {
+            "diagnostic_difference_count": 0,
+            "replay": 1,
+            "saved_value_evidence_passed": true,
+            "threads": 4
+          },
+          {
+            "diagnostic_difference_count": 0,
+            "replay": 1,
+            "saved_value_evidence_passed": true,
+            "threads": 1
+          }
+        ]
+      },
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stdout_sha256": "4ef3d4cb342cc605338ba6a5fe0cca030203dd5df794c0eb1485be7c6c2afedd",
+      "step": "verify-requested-threads-4"
+    }
+  ],
+  "historical_discrepancy_resolved": false,
+  "kind": "cpu-oracle-offline-corrections-v2-review",
+  "new_decision_comparison_matches_recorded_groups": true,
+  "new_guard_behavior": "Preallocate a fixed extent; check logical and allocated footprint before/after writes, fsync and close; refuse observed excess before reference work; no fallback or hard-quota claim.",
+  "new_guard_default_proof_bytes": 2684354560,
+  "new_guard_live_OS_preallocation_tested_on_XFS": false,
+  "new_guard_minimum_free_bytes": 8589934592,
+  "new_source_sha256": {
+    "models/cpu_oracle_reassessment_v2.py": "f40978d3ec7a05a2434878a757622ee49c6c9add530966640944462969870461",
+    "models/scratch_allocation_v2.py": "6b0503b8ab2c88a44a4d95c8fafbad52d1c0414293379406520a22f67700e874",
+    "scripts/reassess_cpu_oracle_v2.py": "1e051afe3ff90e57402f6e53cb75267e10d55b93830666c1eab9eabd9b0f694f",
+    "tests/fixtures/cpu_oracle_refusals_v1.json": "282fbf399cd70376393226d41f5ed2dd11e3bb6c56b2e0b3535b4915fd13b4d5",
+    "tests/test_cpu_oracle_reassessment_v2.py": "43265db3c072f4f28138efbec4080cfebb6cdb758653bebd0f8b6ca577ecd124",
+    "tests/test_scratch_allocation_v2.py": "d0a64529015c3edfde2ebbd2b4ee211e5f0d4ad350c24584ff65457983f261f7"
+  },
+  "new_university_attempt_started": false,
+  "new_version_is_remote_operator": false,
+  "next_step": "Integrate these tested components into a separately versioned unarmed capture operator, with a new storage/runtime envelope review before any additional university trial.",
+  "offline_implementation_complete": true,
+  "old_sources_claims_and_reports_unchanged": true,
+  "optimization_adopted": false,
+  "original_failure_waived": false,
+  "original_frozen_anchor_files_verified": 90,
+  "original_parent_accepted": false,
+  "original_reader_still_rejects": "Stage comparisons do not reaggregate.",
+  "recorded_allocation_refusal": "Setup logical/allocated-byte ceiling exceeded.",
+  "recorded_cross_thread_statistic_differences_retained": 354,
+  "research_admitted": false,
+  "saved_final_reference_checks": 48,
+  "saved_stage_checks": 2048,
+  "setup_ceiling_bytes_unchanged": 3221225472,
+  "source_review_sha256": "fd8a6308569b25cdacb16aa82458e01b5d04ac73de8da5a79c8fe6b042a8ecc0",
+  "tests_inject_Mac_allocator_explicitly": true,
+  "unit_checks": {
+    "SSH_connections": 0,
+    "errors": 0,
+    "failures": 0,
+    "fresh_local_tiny_workers": 1,
+    "junit_sha256": "9eebf0c53103eaab40be5a4e760936f554dc1ea45e16fd335177fe5117bb7b54",
+    "live_XFS_qualified": false,
+    "real_full_size_allocation_tests": 0,
+    "skipped": 0,
+    "tests": 69
+  },
+  "v2_summary_sha256": "ea88a94a402a521b38ae51b828822c8dde08eb7f374d165b3632c271f0f30beb"
+}

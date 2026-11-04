@@ -1,5 +1,91 @@
 # Research Progress Reports
 
+## 2026-11-04 — V2 storage proof passes; parent stops on package import
+
+The actual target's 149 saved files, exact timestamps, 129 packet members and
+seven overlay sources verify independently. The real 2.5 GiB allocation proof
+passes in 9.487 seconds, with a 2.52 GiB observed setup peak below the unchanged
+3 GiB ceiling. All 1,926 events and the supervisor receipt agree; this is not a
+continuous kernel quota or future reservation.
+
+The reference parent exits 1 on missing top-level `attacks` during import,
+before any worker or oracle call. The overlay exposes original models but omits
+the packet root from `sys.path`; checkout-based tests missed that cold-launch
+case. No results directory or numerical export exists. Four new isolated local
+tests reproduce the failure and validate a candidate path correction while
+blocking worker dispatch. Original v2 source and captured evidence stay frozen.
+
+This attempt is consumed. Next prepare a separately identified corrected
+launcher before considering another resource exception. Both hosts stay idle;
+no retry, SSH, remote cleanup, paid work, financial change or research admission
+occurs in this independent review. The historical discrepancy remains unresolved.
+[Target review](report/checks/2026-11-04-cpu-oracle-capture-v2-target-review.md).
+
+## 2026-11-04 — One v2 target attempt explicitly approved
+
+The user approved the exact linux10603 v2 upload and bounded CPU-only attempt.
+Its authorization is now recorded against the unchanged prepared control. All
+98 immutable bindings, source/packet identities and local preflight checks pass
+with subprocess creation denied. The target is armed but has no attempt claim;
+no SSH, full-size proof or university reference work has started.
+
+Next the user invokes the new attended helper once from a local Mac Terminal,
+keeps the session awake through collection, and reports completion for review.
+The grant permits up to ten minutes of work plus ten minutes of existing-file
+collection. No repeated launch, old-claim reset, automatic control-host run,
+cleanup, paid compute or financial change is authorized. The earlier failures
+and unresolved discrepancy remain preserved.
+[Authorization review](report/checks/2026-11-04-cpu-oracle-capture-v2-authorization.md).
+
+## 2026-11-04 — Integrated CPU capture v2 prepared and unarmed
+
+The allocation and audit fixes are integrated into a new supervisor, numerical
+parent, Mac client and thin scripts. All 121 tests pass: 52 integration and 69
+component checks, with zero failures/errors/skips. Four fresh tiny original
+workers complete under the new parent; a separate component worker also runs.
+Deadline and kernel file-limit tests, old-grant refusal, failure preservation,
+one-connection transport and download-only recovery pass locally.
+
+The integrated reader authenticates the complete 435-member saved capture and
+passes its 2,048 stage/48 final checks in a fresh process that forbids subprocess
+creation. All 98 immutable bindings remain unchanged. The actual prepared
+target helper refuses while unarmed, without creating a claim or opening SSH.
+
+The concrete proposal is one new attended linux10603 CPU-only attempt: unchanged
+19 MB packet plus 95 KB overlay, 600 seconds including the 2.5 GiB allocation
+proof and original workers, and up to 600 more seconds for existing-file copy.
+Original setup/capture ceilings and numerical bounds remain. The real XFS v2
+proof is unqualified; guards are observed limits, not an aggregate kernel quota.
+Target authorization/claim are absent, and the consumed prior grant cannot arm
+this version. A separate target resource exception is next. Linux10609 stays
+unarmed. No SSH, university calculation, full-size proof, cleanup, paid work,
+financial release or research admission occurs in preparation.
+[Preparation review](report/checks/2026-11-04-cpu-oracle-capture-v2-preparation.md).
+
+## 2026-11-04 — Offline allocation and audit corrections verified
+
+Separate v2 components now count physical setup allocation and compare strict
+numerical decisions while retaining context-dependent diagnostic statistics.
+All 69 regression tests pass with zero failures, errors or skips. The new local
+reader reauthenticates the 435 saved members and passes all 2,048 stage and 48
+fixed-final checks at the original bounds. Two fresh local verification
+processes also pass; requested thread settings do not establish actual Mac BLAS
+thread counts. The 354 original cross-group statistic differences are preserved.
+
+The allocation regression rejects the recorded approximately 4 GiB footprint
+under the unchanged 3 GiB setup ceiling. Small real I/O and injected quota/
+allocation faults are tested, but v2 has not run a full-size or live XFS proof.
+The library provides observed accounting, not an aggregate kernel quota or
+exclusive space reservation. A new enclosing operator is still needed.
+
+Original sources, captured reports, arrays and consumed claims stay frozen;
+the original reader still rejects and the historical discrepancy remains
+unresolved. Linux10609 stays unarmed. Next integrate these components into a
+separate unarmed operator and review its complete resource envelope before any
+additional university attempt. No SSH, new university work, cleanup, paid work,
+financial change, optimization adoption or research admission occurs here.
+[Verified corrections](report/checks/2026-11-04-cpu-oracle-corrections-v2.md).
+
 ## 2026-11-04 — Target values verified; aggregation and setup limits refuse
 
 The target finishes its run phase in 55.798 seconds and returns exit 1 during
