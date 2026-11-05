@@ -1,0 +1,175 @@
+{
+  "accepted_target_reverified": {
+    "SSH_connections": 0,
+    "control_authorized": false,
+    "response_sha256": "f467312d9135fd474e7b1717ba2455f4dcb90df44d473e5e623e7ed1b0fdce15",
+    "saved_members_verified": 453,
+    "subprocesses_started": 0,
+    "target_claim_sha256": "6396015bdd55750d18ba2f44bde79d9f18becaa35ff2d1270b7c937dbd7af704",
+    "target_review_sha256": "783a390b9eef87b1fe9e7d700ea97bb39677330e07d3f551652e662246514c3c"
+  },
+  "accepted_target_review_sha256": "783a390b9eef87b1fe9e7d700ea97bb39677330e07d3f551652e662246514c3c",
+  "actual_unarmed_helper_refused": true,
+  "all_preparation_is_local": true,
+  "attempt_present": false,
+  "authorization_present": false,
+  "bootstrap_python_bytes": 87003,
+  "control_sha256": "002e0dabbd39a7871ea998f4b19eae0f578dfa5225c3021753c382dbcfab0136",
+  "date": "2026-11-04",
+  "historical_discrepancy_resolved": false,
+  "immutable_bindings_verified": 131,
+  "independent_tiny_capture_reviews": {
+    "cold-extracted-tiny": {
+      "export_members_verified": 183,
+      "export_sha256": "3a5efbb7cc9d56fdbf8f48cfdd28a0da5b2841a66e39a594c5969eef3309b982",
+      "passed": true,
+      "summary_sha256": "0e63292b731d631db4a1f357f1fc3c30e197ecddbb9bc263657846657c292d6a",
+      "workers": 4
+    },
+    "direct-tiny": {
+      "export_members_verified": 183,
+      "export_sha256": "8bf2e0750cf3f06b5e90afef5638711120c7495f1d84abd02a62d1d69d113bb5",
+      "passed": true,
+      "summary_sha256": "18b066fa438b61c8c1f60a9312722f2073408b7305374ce4cd4ae1e864f7b261",
+      "workers": 4
+    }
+  },
+  "kind": "cpu-oracle-control-v1-preparation-review",
+  "live_control_runtime_unqualified_by_local_rehearsal": true,
+  "new_authorization_kind": "cpu-oracle-control-resource-exception-v1",
+  "old_control_grant_claim_and_acceptance_bridge_absent": true,
+  "original_target_accepted_for_controlled_v3_CPU_scope_only": true,
+  "original_target_sources_arrays_reports_claims_unchanged": true,
+  "plan": {
+    "CPU_only": true,
+    "GPU_work": false,
+    "attempt_present": false,
+    "authorization_present": false,
+    "authorized": false,
+    "bounds": {
+      "atol": 1e-14,
+      "rtol": 1e-12
+    },
+    "control_live_capture_qualified": false,
+    "control_sha256": "002e0dabbd39a7871ea998f4b19eae0f578dfa5225c3021753c382dbcfab0136",
+    "date": "2026-11-04",
+    "financial_state_unchanged": {
+      "compute_cap_USD": 160,
+      "conservative_encumbrance_USD": 9.8116,
+      "full_account_reconciliation_complete": false,
+      "historical_inclusive_hold_USD": 2,
+      "historical_unassigned_gap_USD": 0.0792,
+      "last_user_reported_wallet_USD": 6.56,
+      "new_paid_hold_USD": 0,
+      "noncompute_reserve_USD": 40,
+      "project_cap_USD": 200,
+      "single_diagnostic_cap_USD": 10,
+      "unreserved_diagnostic_USD": 0.1884
+    },
+    "host": "linux10609",
+    "kernel_aggregate_quota": false,
+    "kind": "cpu-oracle-control-v1-unarmed-preparation",
+    "launchable_now": false,
+    "maximum_concurrent_hosts": 1,
+    "new_university_attempt_started": false,
+    "next_gate": "Separate explicit control-host resource exception for one attended linux10609 attempt; do not reuse a consumed target or old control grant.",
+    "old_grants_reused": false,
+    "operator_implemented": true,
+    "original_packet_bytes": 19042363,
+    "original_packet_sha256": "d6b02dc362be2a3a5244174bc2d1175f763d1f661d5cc89ab2e18afa17e63f53",
+    "original_refusals_waived": false,
+    "overlay_bytes": 109322,
+    "overlay_files": 8,
+    "paid_work_started": false,
+    "policy": {
+      "automatic_retries": 0,
+      "capture_ceiling": 2415919104,
+      "collection_seconds": 600,
+      "emergency_bytes": 16777216,
+      "max_archive_bytes": 1082130432,
+      "max_array_bytes": 33554432,
+      "max_code_bytes": 67108864,
+      "max_collection_bytes": 3221225472,
+      "max_files": 1024,
+      "max_header_bytes": 1048576,
+      "max_input_bytes": 67108864,
+      "max_launcher_log_bytes": 16777216,
+      "max_metadata_bytes": 67108864,
+      "max_overlay_bytes": 2097152,
+      "max_raw_bytes": 1073741824,
+      "max_seconds": 600,
+      "minimum_free_bytes": 8589934592,
+      "minimum_free_inodes": 2048,
+      "poll_seconds": 0.25,
+      "runtime_free_floor": 1073741824,
+      "setup_ceiling": 3221225472,
+      "worker_seconds": 90,
+      "write_test_bytes": 2684354560,
+      "write_test_seconds": 60
+    },
+    "proposed_new_attempts": 1,
+    "role": "control",
+    "target_prerequisite": {
+      "accepted_scope": "controlled-v3-CPU-capture-only",
+      "control_host_authorized": false,
+      "historical_discrepancy_resolved": false,
+      "kind": "cpu-oracle-control-prerequisite-v1",
+      "old_failures_waived": false,
+      "research_admitted": false,
+      "target_authorization_sha256": "e51f2925c6461ccd771f4cb10839270f189b2a77b39f0bd9fc79a4900335dd26",
+      "target_claim_sha256": "6396015bdd55750d18ba2f44bde79d9f18becaa35ff2d1270b7c937dbd7af704",
+      "target_control_sha256": "51f8c3215411d2347d58895db3cce18be6b9ac977098c9c3197217d173b509b7",
+      "target_export_sha256": "4597b30308a3ca1b61748a75643ea1716b8aa0fcbcd7d28695e47743fc51e287",
+      "target_host": "linux10603",
+      "target_response_sha256": "f467312d9135fd474e7b1717ba2455f4dcb90df44d473e5e623e7ed1b0fdce15",
+      "target_review_sha256": "783a390b9eef87b1fe9e7d700ea97bb39677330e07d3f551652e662246514c3c"
+    },
+    "tasks": [
+      [
+        4,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "receipt_classification_and_wrong_host_checks_passed": true,
+  "research_admitted": false,
+  "source_overlay_bytes": 109322,
+  "source_sha256": {
+    "models/cpu_oracle_control_client_v1.py": "c4f758813629c1b11f986e20af7c411dfc29e824937cb441e97b7d7887031b1f",
+    "models/cpu_oracle_control_prerequisite.py": "c6d4927e89d23abbd4ad019ab4d9c0209f0995d75050f1246092aa4a23b8ef63",
+    "models/cpu_oracle_control_runtime_v1.py": "11e883bbba1ecec392ea0aa20589992717b68280e69b33adc5d8e602f23a654f",
+    "models/cpu_oracle_control_v1.py": "06e5731e48ee079acdecf5ad992eef3930c8ba2e66f44f0d9c748c31fdb5baf7",
+    "models/cpu_oracle_reassessment_v2.py": "f40978d3ec7a05a2434878a757622ee49c6c9add530966640944462969870461",
+    "models/cpu_oracle_scratch.py": "12992c272b21902297746d7781685dc951d0a310ace1dc73cbb99b8d52f6bbe6",
+    "models/scratch_allocation_v2.py": "6b0503b8ab2c88a44a4d95c8fafbad52d1c0414293379406520a22f67700e874",
+    "scripts/capture_cpu_control_v1.py": "f1ac67a73c3f243971fca96d69aabd20829795eb43d6632892963d35c55ce0e6",
+    "scripts/run_cpu_oracle_control_v1.py": "d8bf01fb0f90438cf79368e6cdfddd76053e1cad7a7fa732b8dae4937e73f3d0",
+    "tests/test_cpu_oracle_control_packaged_v1.py": "56365dd38cb60ef8c0a1809550cddf5512657ffb9827fc47092d5596454d5b5f",
+    "tests/test_cpu_oracle_control_v1.py": "d5a5bb4f6bceced0f91c7a661af4ebf373c234542e9148ad92c99c34d42a2324"
+  },
+  "target_capture_relabelled_as_control": false,
+  "unit_checks": {
+    "SSH_connections": 0,
+    "cold_extracted_tiny_workers": 4,
+    "errors": 0,
+    "failures": 0,
+    "fresh_local_original_tiny_workers": 8,
+    "full_size_allocation_tests": 0,
+    "full_source_cold_import_with_original_dispatch_blocked": true,
+    "junit_sha256": "1ab228abf7286693d17a2b3e4b3942987448198ec04055541e76ef34915553ab",
+    "skipped": 0,
+    "tests": 91
+  }
+}

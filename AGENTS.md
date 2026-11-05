@@ -2,6 +2,103 @@
 
 ## Current stage
 
+LATEST Nov04: CONTROL CAPTURE + CROSS-HOST VALUES INDEPENDENTLY VERIFIED.
+Read report/checks/2026-11-04-cpu-oracle-control-v1-review.json/md FIRST.
+UserDone -> actualcontrolclaim EXISTS/CONSUMED, attended-v54iunk4; SHA
+6ed5c4941a3eba87cd70a5aa5381234acfc494b77f3044b8d42a866630996b79.
+CONTROL002e0dab.../AUTHc4858a2e... unchanged; no more attempt authorized.
+Response1353955857B/SHA953d5117...;454members/1353594571logicalB/exactmtimeNS
+independently verified. Inner639941082B/SHAb2c4213c.../431members verify.
+Original129packetmembers/8overlays109322B/61science/33upstream/131immutable
+bindings unchanged. All453acceptedtargetfiles/response/exactmtime/source/
+auditartifacts reverified before/aftercross-hostcompare; targetreview783a390b...
+and consumedtargetclaim6396015b... remainFROZEN. Bothgrants nowCONSUMED.
+Control4originalworkers/12calls/256chunks/2112signatures; independent
+2048stage+48final PASS unchanged1e-12+1e-14. 32withinworker+1584crossworker
+actualbytecomparisons equal. Fresh matchedcross-host2112arraypairs ALLBITWISE
+EQUAL (16converted/2048stages/48final), zeroerror. Contexts matchCPUmodel/
+librarybuild/versions/thread+interop/env/precision/affinity; hostname/scheduling
+CPU/kernelpatch differ, preserved. TimingsNOTcontrolledspeedbenchmark.
+Actualcontrolfull2.5GiBwrite/fsync/readback PASS9.230s/1926events; observed
+setup2701770752B<3GiB/capture1805107200B<2.25GiB;95proof+484capturesamples.
+Wholework62.677s<600s,CPUonly/EXIT0/noerror/noowneddescendantsremaining.
+Observedaccounting NOTkernelaggregatequota/exclusivereservation/futureproof.
+Reviewprocess/networkcreationDENIED; no newSSH/oracle/model/GPU/paidwork.
+Remote /var/tmp/vjepa-cpu-control-v1-20261104-linux10609-v307_rnw RETAINED;
+no deletionauthorized. NEVERrepeatconsumedhelper/resetclaim/extenddeadline/
+rewritecapturedsources/reports. Old10609auth/claim/acceptancebridge ABSENT.
+NEXT OFFLINE compare historical CUDA-initialized fixed-input worker setup
+with these passing CPU-only captures. Original failed derivedCPUarrays NOT
+saved; currentprobes OMITCUDAinit, so old~1e-10 failure NOTreproduced/explained.
+DoNOTinfer rootcause/generalhostreliability/GPUqualification/adoption/research
+admission. No newuniversity/GPUjob prepared orauthorized; bothhosts stayidle.
+Any proposedreproduction needs separatelyidentified reviewedoperator/scope
+before newattemptauthorization; no automaticnext/parallel/cleanup/paidrun.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+lastwallet6.56/reconciliationfalse unchanged;knownRunpodterminated.
+Usercommits self;NEVERstage/commit/push. EarlierLATESTentries historical.
+
+LATEST Nov04: ONE CONTROL V1 ATTEMPT APPROVED; HELPER ARMED/UNRUN.
+Read report/checks/2026-11-04-cpu-oracle-control-v1-authorization.json/md FIRST.
+User explicitly selected Approve one control-host attempt (Recommended) for the
+exact reviewed scope. New rawcpu-oracle-control-v1-20261104/linux10609/
+AUTHORIZATION.json EXISTS, SHAc4858a2e49e1cf0d8fda22b43a85eee86564dea0622daa112638c4c9340f7b40.
+Kindcpu-oracle-control-resource-exception-v1/approvedtrue/controlSHA002e0dabbd39a7871ea998f4b19eae0f578dfa5225c3021753c382dbcfab0136/
+host10609/maxnewattempts1/work600s/worker90s/proof2684354560B<=60s/
+setup3221225472B/capture2415919104B/collection600s/CPUonly/paidfalse/
+oldclaimsresetfalse/autoretries0. No change to CONTROL/source/bounds.
+Localverify_local passes withPopenexplicitlyDENIED;131immutablebindings,
+source/packet/hostkey/space and453targetfiles/exactmtime reverify.
+Acceptedtargetreview783a390b.../targetclaim6396015b... stillfrozen/CONSUMED.
+Do NOT ask this same control resource approval again. New ATTEMPT.json ABSENT;
+no SSH/fullproof/controlworker or collection started. NEXT user runs ONLY NEW
+rawcpu-oracle-control-v1-20261104/linux10609/run-attended.sh ONCE fromLOCAL
+MacTerminal;passwordpromptly/keepSSH+Terminal+lidopen+Macawake throughsameSSH
+collection. Allow10minwork+10mincopypluslogin. Linux10603 remainsidle.
+OnDone independentlyreviewactualclaim/response/storage/source/4workers/arrays;
+compare against acceptedtarget without rewriting source or its receipts.
+Anyfailurepreserve/reviewbeforeNEWdownloadonly;NEVERrepeatlaunch/resetclaim/
+extenddeadline. Old10609grant/claim/oldacceptancebridge ABSENT; noautonext/
+parallel/cleanup/paidwork/researchadmission. Historical1e-10 unresolved;
+controlhostruntime/fullXFS remainsunqualified untilactualresultreview.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+lastwallet6.56/reconciliationfalse unchanged;knownRunpodterminated.
+Usercommits self;NEVERstage/commit/push. EarlierLATESTentries historical.
+
+LATEST Nov04: CONTROL V1 PREPARED/TESTED, UNARMED; SEPARATE CONTROL GRANT PENDING.
+Read docs/cpu_oracle_control_v1.md and report/checks/2026-11-04-cpu-oracle-
+control-v1-preparation.json/md FIRST. Separate control-specific files; all v3
+target/failed sources, arrays, reports and consumed claims remain FROZEN.
+91localchecks PASS/zeroerrors/failures/skips. Direct4+archiverestored4tiny
+originalworkers complete; all8+both183memberexports independently verify with
+PopenDENIED. Full source cold-import passes with worker/oracledispatchBLOCKED.
+New stdlib prerequisite binds acceptedtargetreview783a390b.../claim6396015b...;
+453savedfiles/exactmtime/response/source/reviewartifacts rehashed. Target
+cannot be relabelledascontrol; wronghost/review/bounds/oldgrant/tamper refuse.
+131immutablehistorybindings verify. Accepted target scope ONLYcontrolledv3CPU;
+historical1e-10 stillUNRESOLVED; nohostreliability/GPU/adoption/researchclaim.
+New rawcpu-oracle-control-v1-20261104/linux10609 helper+CONTROL prepared.
+ControlSHA002e0dabbd39a7871ea998f4b19eae0f578dfa5225c3021753c382dbcfab0136.
+Actual prepared helper UNARMED refusal BEFOREclaim/session/SSH; newAUTHORIZATION
+andATTEMPT bothABSENT. Old10609auth/claim and oldacceptancebridge alsoABSENT.
+NEXT seek separate explicitONE CONTROL-HOST resourceexception against this
+exact scope; genericcontinue andconsumedtargetgrant NOTanewcontrolapproval.
+DoNOTarm/claim/upload/connect/run until approved. Newauthorizationkind
+cpu-oracle-control-resource-exception-v1; neverreuseoldgrants/resetclaims.
+ScopeONLY10609/freshprivate/var/tmp/unchanged19042363Bpacket+8overlayfiles
+109322B+boundmetadata; NOtargetrawarrays/financialledger/privatecredentials
+uploaded. ONEadditional600sCPUattempt including2.5GiBproof<=60s/fourworkers
+<=90seach/audit/export; collection<=600s/3GiB existingfiles SAME SSH.
+Original3GiBsetup/2.25GiBcapture caps,8GiBinitialspace,1GiBfloor/inode/perfile
+guards unchanged. Observedaccounting NOTkernelaggregatequota/reservation.
+Afterapproval userLOCALMacattendedhelperONCE/passwordpromptly/SSH+lidopen+
+awake throughcollection; failurepreserve/reviewbeforecopyonly,NEVERrelaunch.
+Bothhosts canstayidle. Noautonext/parallel/newproof/universityjob/SSH/cleanup/
+paidwork/financialrelease inpreparation. Earlier targetv3grant CONSUMED.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+lastwallet6.56/reconciliationfalse unchanged;knownRunpodterminated.
+Usercommits self;NEVERstage/commit/push. PriorLATESTentries historical.
+
 LATEST Nov04: V3 TARGET CAPTURE INDEPENDENTLY VERIFIED; CONTROL HOST UNARMED.
 Read report/checks/2026-11-04-cpu-oracle-capture-v3-target-review.json/md FIRST.
 User reports exit0; actual target claim now EXISTS/CONSUMED, session

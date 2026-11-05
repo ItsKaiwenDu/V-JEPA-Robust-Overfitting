@@ -1,5 +1,27 @@
 # V-JEPA Robust Overfitting
 
+**CPU control and cross-host comparison verified (November 4):**
+[The linux10609 control passes independent review](report/checks/2026-11-04-cpu-oracle-control-v1-review.md).
+All 2,112 matched array pairs agree bit for bit with the accepted linux10603
+target. Original numerical bounds and observed storage ceilings pass. Both
+attempts are consumed; both hosts can stay idle. Next compare the historical
+GPU-initialized setup offline. Its earlier discrepancy remains unresolved;
+previous entries below are historical snapshots.
+
+**One CPU control attempt approved (November 4):**
+[The new linux10609 helper is armed and locally verified](report/checks/2026-11-04-cpu-oracle-control-v1-authorization.md).
+The exact approved CPU-only scope preserves the fixed packet and all limits.
+No university work has started; run the new attended helper once from a local
+Mac Terminal. Linux10603 remains idle. Earlier entries below are historical.
+
+**CPU control handoff prepared and unarmed (November 4):**
+[91 local checks pass](report/checks/2026-11-04-cpu-oracle-control-v1-preparation.md).
+The separate linux10609 operator binds the accepted target evidence and
+preserves the original packet, numerical bounds and storage limits. Cold and
+direct tiny rehearsals complete all eight workers; the actual unarmed helper
+refuses before SSH. One attended control attempt needs a separate scoped
+authorization. Both hosts can stay idle; earlier entries below are historical.
+
 **V3 CPU target capture independently verified (November 4):**
 [All four original workers and both storage ceilings pass](report/checks/2026-11-04-cpu-oracle-capture-v3-target-review.md).
 The local audit verifies 2,048 stage and 48 final comparisons at unchanged bounds,

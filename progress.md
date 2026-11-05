@@ -1,5 +1,74 @@
 # Research Progress Reports
 
+## 2026-11-04 — CPU control passes; both hosts agree exactly
+
+The linux10609 control completes all four original workers and exits 0.
+Independent local review authenticates all 454 outer files and exact timestamps,
+431 numerical export members, the unchanged 129-member packet, eight overlays
+and 131 immutable historical bindings. The actual 2.5 GiB proof and observed
+setup/capture peaks meet their original ceilings. The full work phase takes
+62.677 seconds; this is not a controlled speed benchmark.
+
+All 2,048 stage and 48 final checks pass at unchanged bounds. All 32 within-worker
+and 1,584 cross-worker byte checks agree. Comparing the control with the accepted
+target verifies 2,112 bitwise-equal matched array pairs: 16 converted inputs,
+2,048 intermediates and 48 final values. Corresponding runtime/library/thread /
+precision contexts match apart from hostname, scheduling CPU and kernel patch.
+All target saved files, timestamps, source and audit anchors reverify.
+
+Both current grants are consumed. No historical refusal is waived: the original
+failed derived CPU values were not saved, and these CPU-only runs omit the
+historical worker's CUDA initialization. Next compare the preserved setups
+offline before proposing any new reproduction. No root cause, general host
+reliability, GPU qualification, optimization adoption or research admission is
+established. Both hosts can stay idle; remote scratch is retained. This review
+starts no SSH, new university worker, cleanup, paid work or financial change.
+[Independent control and cross-host review](report/checks/2026-11-04-cpu-oracle-control-v1-review.md).
+
+## 2026-11-04 — One linux10609 control attempt explicitly approved
+
+The user approved the reviewed control-host upload and one bounded attended
+CPU attempt. Authorization is recorded against the unchanged prepared control.
+Local preflight succeeds with process creation denied; all 131 immutable
+bindings, packet/source identities, host key, Mac headroom and 453 saved target
+files/timestamps reverify. The new helper is armed and has no attempt claim.
+No SSH, storage proof or university worker starts during authorization.
+
+Next the user invokes the new linux10609 helper once from a local Mac Terminal
+and keeps the attended connection awake through collection. The original
+ten-minute work / ten-minute collection bounds and all storage/numerical limits
+remain. The target and old control grants/claims stay frozen; no retry, automatic
+next experiment, cleanup, paid work or financial change is authorized. Independent
+review must follow the actual outcome. Linux10603 stays idle and the historical
+discrepancy remains unresolved.
+[Authorization review](report/checks/2026-11-04-cpu-oracle-control-v1-authorization.md).
+
+## 2026-11-04 — CPU control handoff prepared and unarmed
+
+A separate linux10609 control operator is ready for a resource-scope decision.
+Its standard-library prerequisite re-verifies the accepted v3 target review,
+consumed claim, complete response, all 453 saved files/timestamps and source /
+audit bindings. All 131 immutable historical bindings remain unchanged. No old
+acceptance bridge or control grant is created, and target success cannot be
+relabeled as a control result or reused as authorization.
+
+All 91 local checks pass with zero errors, failures or skips. A restored archive
+and a direct tiny rehearsal each complete four original workers. All eight
+saved workers and both 183-member exports independently re-audit with process
+creation denied; full source imports pass with dispatch blocked. The actual
+prepared helper refuses before claim/session/SSH while unarmed.
+
+The concrete proposal is one additional attended CPU-only attempt on linux10609:
+the unchanged 19,042,363-byte packet, eight overlays totaling 109,322 bytes,
+up to ten minutes including the full 2.5 GiB proof and four original workers,
+then up to ten minutes of same-connection collection. Original numerical,
+3 GiB setup / 2.25 GiB capture, headroom and no-retry limits remain.
+A separate explicit control-host resource exception is pending. Both hosts
+stay idle; no new university attempt, full-size proof, SSH, cleanup, paid work,
+financial change, staging or commit occurs in preparation. The historical
+discrepancy remains unresolved and research gates stay closed.
+[Preparation review](report/checks/2026-11-04-cpu-oracle-control-v1-preparation.md).
+
 ## 2026-11-04 — V3 target CPU capture passes independent review
 
 The new linux10603 capture exits 0 and completes all four unchanged original
