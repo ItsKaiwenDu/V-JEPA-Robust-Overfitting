@@ -1,5 +1,39 @@
 # V-JEPA Robust Overfitting
 
+**Original CPU return after CUDA setup verified (November 4):**
+[The independent capture review passes](report/checks/2026-11-04-oracle-boundary-v1-target-review.md).
+All four original CPU checks pass, and the actual saved tensors match all 96
+comparisons with the prior CPU-only captures bit for bit. The observer stops
+before GPU input transfer; attention remains unqualified. The 49-second work
+phase meets its bounds, and the attempt is consumed. Both hosts can stay idle.
+Next prepare an offline proposal for the next original attention boundary;
+the historical discrepancy remains unexplained. Earlier entries are historical.
+
+**One CPU-return boundary capture approved (November 4):**
+[The new linux10603 helper is armed and locally verified](report/checks/2026-11-04-oracle-boundary-v1-authorization.md).
+The unchanged scope permits one original CPU-oracle return after CUDA setup,
+stopping before input transfer or SDPA. No university work has started. Run the
+new attended helper once from a local Mac Terminal for the university password;
+keep it open through collection. Linux10609 stays idle. Earlier entries below
+are historical snapshots.
+
+**Original CPU-return observer prepared and unarmed (November 4):**
+[79 local checks and independent saved-evidence review pass](report/checks/2026-11-04-oracle-boundary-v1-preparation.md).
+The observer saves actual original CPU returns before the unchanged gate and
+stops before GPU input transfer. Both pass and refusal decisions are preserved;
+the original GPU worker stays incomplete. The concrete university scope needs a
+new CUDA-setup resource exception; no remote work starts. Both hosts can stay
+idle. Earlier entries below are historical snapshots.
+
+**Historical oracle setup comparison complete (November 4):**
+[The offline review locates the refusal before GPU backend selection](report/checks/2026-11-04-cpu-oracle-context-comparison.md).
+Historical inputs/settings match; all 96 newer saved final values pass the old
+Torch gate at unchanged bounds. Actual historical computed CPU values are
+missing, and the programs differ in more than CUDA setup. Next prepare a
+separate observer at that missing return boundary. Both hosts stay idle;
+the discrepancy and research gates remain unresolved. Earlier entries below
+are historical snapshots.
+
 **CPU control and cross-host comparison verified (November 4):**
 [The linux10609 control passes independent review](report/checks/2026-11-04-cpu-oracle-control-v1-review.md).
 All 2,112 matched array pairs agree bit for bit with the accepted linux10603

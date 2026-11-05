@@ -1,5 +1,119 @@
 # Research Progress Reports
 
+## 2026-11-04 — Actual original CPU return after CUDA setup independently verified
+
+The attended linux10603 capture succeeds within its bounds. It executes the
+unchanged original CUDA setup, saves one actual CPU FP64 output/dQ/dK/dV return
+before the original gate, and passes all four original 1e-12/1e-14 checks.
+The observer then stops at the first input-transfer call before its body.
+The original full GPU worker remains incomplete/unaccepted, with no input
+transfer, SDPA, GPU benchmark, optimization adoption or research admission.
+
+Independent review denies process/network creation and authenticates the
+200,382,839-byte response, all 166 files/exact modification times, 139 original
+packet members, nine overlays and 946 preserved bindings. All 1,120 sealed input
+files reverify. The actual 13.1 MB computed-return capture matches all 96 prior
+CPU-only final-array comparisons bit for bit. Original inputs and the recorded
+common contract also match both historical passing and failing workers.
+
+The full 2.5 GiB proof passes in 9.462 seconds, with 1,926 evidence events.
+Observed setup/capture peaks are 2,701,959,168 / 217,427,968 bytes, within their
+3 GiB/2.25 GiB bounds. Whole work takes 49.005 seconds; the original observer
+call takes 0.752 seconds. These timings do not form a controlled benchmark.
+Sampling does not prove continuous GPU exclusivity or an aggregate disk quota.
+
+The original approximately 1e-10 failure is not reproduced or explained; its
+computed arrays are still unavailable. Post-gate metadata records initialized
+CUDA and adds CUDA details to Torch introspection while shared build/parallel/
+NumPy text matches. This is not a causal isolation experiment, and no original
+failure or gate is waived. The claim is consumed; never repeat its launcher.
+Remote scratch stays intact, both hosts can idle, and financial state is unchanged.
+
+Next prepare an offline proposal at the next original GPU-attention boundary,
+keeping the CPU gate and capturing downstream values before their checks.
+No next operator, grant, SSH, parallel job or cleanup starts during review.
+[Independent capture review](report/checks/2026-11-04-oracle-boundary-v1-target-review.md).
+
+## 2026-11-04 — One original CPU-return boundary attempt approved
+
+The user explicitly approved the tested linux10603-only upload and bounded
+attended CUDA-setup/CPU-return scope. Its new authorization is recorded against
+the unchanged prepared control. Local verification denies process/network
+creation and rechecks 946 preserved bindings, source/packet hashes, the public
+target key and local space. No executable code, previous grant or consumed claim
+changes. The 79-test preparation remains the validation baseline.
+
+The helper is armed but unrun: no new claim, SSH, proof, worker or CUDA context
+exists. Next the user runs the new attended helper once from a local Mac Terminal
+for the university password, keeping SSH/Terminal/lid open and the Mac awake
+through same-connection collection. Work remains at most 10 minutes including
+the 2.5 GiB proof and one original worker at most 120 seconds, with up to 10
+minutes collection. The observer stops before GPU input transfer/SDPA and never
+promotes the incomplete full GPU worker. No retries or linux10609 work starts.
+
+After completion or failure, independently review the actual evidence before
+any next action; never repeat the launch. Original bounds/history, unresolved
+discrepancy, research gates, financial caps/holds and reconciliation stay unchanged.
+[Authorization record](report/checks/2026-11-04-oracle-boundary-v1-authorization.md).
+
+## 2026-11-04 — Original CPU-return observer prepared; new scope unarmed
+
+The separate v1 observer follows the unchanged original fixed-input worker and
+saves the actual first FP64 output/dQ/dK/dV return before its original gate.
+Detailed library/thread metadata follows that gate. A passing gate stops at the
+first input-transfer call before its body; an original refusal remains a refusal.
+In both cases the original full GPU worker remains incomplete and unaccepted.
+
+All 79 new local checks pass, zero errors/failures/skips. Cold restored tiny
+fixtures run the actual original worker on the Mac. Positive/negative cases
+have identical inputs/computed returns while retaining different original gate
+decisions. Independent saved-evidence review denies process/network creation,
+reverifies 139 archive members/946 preserved bindings/310 exact-mtime rehearsal
+files, and reproduces all eight saved gate decisions at unchanged bounds.
+This validates the observer locally; it does not qualify university CUDA work.
+
+The handoff binds the complete unchanged 85.6 MB fixed-input packet, nine
+overlays, public target fingerprint and explicit storage/time limits. The
+prepared helper refuses before SSH: its new grant and attempt claim are absent.
+Next seek one separate attended linux10603 exception for CUDA setup followed by
+one original CPU-oracle call: up to 10 minutes work including the full 2.5 GiB
+proof, then up to 10 minutes same-SSH collection. Stop before input transfer or
+SDPA; no retries, old-claim reset or linux10609 work. Both hosts can remain idle.
+
+Historical source/results/claims, original numerical bounds, the unresolved
+discrepancy, research gates and all financial caps/holds remain unchanged.
+No SSH, university attempt, CUDA initialization, cleanup or paid work occurs
+during preparation. [Preparation review](report/checks/2026-11-04-oracle-boundary-v1-preparation.md).
+
+## 2026-11-04 — Historical CPU-oracle setup compared offline
+
+The preserved historical passing/failing encoder-1 workers have identical input
+snapshots and recorded common/runtime settings. Source-order inspection places
+their CPU bookkeeping gate before GPU transfer and attention backend selection;
+the math arm label does not mean a GPU math kernel executed. The same oracle,
+fixture loader and execution helpers remain byte-identical.
+
+All 317 historical archive members, current target/control evidence and 131
+immutable history bindings reverify. Eight actual historical input comparisons
+and 16 fixed NPY identities match. Replaying the literal original Torch gate
+on 96 newer saved final values passes at unchanged bounds. This reads saved
+tensors only and does not generate new oracle results or replay the old runtime.
+
+The historical values.pt oracle fields are canonical fixed references; neither
+historical worker saved actual computed local_oracle values. CUDA setup existed
+in both the old pass and failure. The new CPU probe also adds library/thread
+introspection before its first call and changes other prelude work, so this is
+not a single-variable CUDA experiment. The missing values/context leave the
+old discrepancy unresolved.
+
+Next prepare a separately tested observer that preserves the original pre-SDPA
+path, captures actual CPU return values before the original gate, and retains
+any refusal. Delay new detailed introspection or make it an explicit control.
+This is design only: no helper, grant, new university attempt, CUDA context,
+SSH, cleanup, paid work or financial change starts. Both hosts remain idle and
+both current grants remain consumed. Research gates stay closed.
+[Offline comparison](report/checks/2026-11-04-cpu-oracle-context-comparison.md).
+
 ## 2026-11-04 — CPU control passes; both hosts agree exactly
 
 The linux10609 control completes all four original workers and exits 0.

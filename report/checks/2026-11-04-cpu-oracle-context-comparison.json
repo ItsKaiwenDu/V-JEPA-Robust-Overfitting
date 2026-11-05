@@ -1,0 +1,331 @@
+{
+  "GPU_backend_qualified": false,
+  "SSH_connections": 0,
+  "accepted_target_files_reverified": 453,
+  "accepted_target_review_sha256": "783a390b9eef87b1fe9e7d700ea97bb39677330e07d3f551652e662246514c3c",
+  "analysis_artifacts_sha256": {
+    "runs/pretrained/diagnostic/cpu-oracle-context-comparison-20261104/verified-review/compare_context.py": "99cd45d4ad0a8be52263dcfcd5d7a5e85758293963f6cebe462738013a5d1a7b",
+    "runs/pretrained/diagnostic/cpu-oracle-context-comparison-20261104/verified-review/evidence-review.json": "5c2fcd58e1fa86c53ce9d7b1e558cbfc7919e05ddf7bc38121d5e4daf07d797a",
+    "runs/pretrained/diagnostic/cpu-oracle-context-comparison-20261104/verified-review/finalize_comparison.py": "cb8667b1e30364babba8cd0f594ef25866e5bfde67bdc0e6153e03d55f7a60cd",
+    "runs/pretrained/diagnostic/cpu-oracle-context-comparison-20261104/verified-review/fixed-fixture-file-identities.json": "5b173209ddce160bcffd38d810c4acf478f3fb430b1bc8db8514a96f0010a630",
+    "runs/pretrained/diagnostic/cpu-oracle-context-comparison-20261104/verified-review/historical-input-checks.json": "c7add730dd381cce333b35fddc8d8ef58a5ef348ab8f612b2c2a106b80d08a3e",
+    "runs/pretrained/diagnostic/cpu-oracle-context-comparison-20261104/verified-review/runtime-context-comparison.json": "577ca65920f6fe8a0ad1025ee3dc39995d73cf58f26646cb578fe1388e7da134",
+    "runs/pretrained/diagnostic/cpu-oracle-context-comparison-20261104/verified-review/saved-values-original-Torch-gate.json": "d7ce6f4882f9c8b41111dac5d79892bfc0ce7095e19d82cc93e2cef7d5506b48",
+    "runs/pretrained/diagnostic/cpu-oracle-context-comparison-20261104/verified-review/sealed-inputs.json": "4c74ebe019cfdcb477c1cde167be603cadbc234aee9c193b8114e864c4a382ae",
+    "runs/pretrained/diagnostic/cpu-oracle-context-comparison-20261104/verified-review/source-order.json": "de1ad21ea6c1dbc5b09c5b71cec9910a85de87c84c3fbe1b2790e388195dcd0e",
+    "runs/pretrained/diagnostic/cpu-oracle-context-comparison-20261104/verified-review/source-prelude-supplement.json": "c0f5d7df772b904336b8a03af274a4c0d41fa7cc488414d4a7a01fe328966832"
+  },
+  "comparison": {
+    "CPU_probe_hides_CUDA_and_records_uninitialized": true,
+    "CUDA_setup_requested_before_CPU_gate_in_both_historical_workers": true,
+    "GPU_backend_selection_downstream_of_refusal": true,
+    "bounds": {
+      "atol": 1e-14,
+      "rtol": 1e-12
+    },
+    "current_one_thread_workers_are_additional_controls_not_historical_equivalents": true,
+    "fixed_NPY_file_identity_comparisons": 16,
+    "historical_CPU_interop_threads_library_build_affinity_rounding_recorded": false,
+    "historical_common_contract_identical_between_pass_and_failure": true,
+    "historical_direct_CUDA_initialized_boolean_recorded": false,
+    "historical_effective_worker_environment_variables_recorded": false,
+    "historical_failed_local_oracle_arrays_saved": false,
+    "historical_fixed_input_comparisons": 8,
+    "historical_input_snapshot_sha256": "1c4dc71ab5e5de65cd6a47747dedc24261aa95db801cb1b8c67aaef74e51dc6e",
+    "historical_launcher_requested_OMP_MKL_OPENBLAS_threads": 4,
+    "historical_parent_requests_fresh_subprocess_per_worker": true,
+    "historical_passed_local_oracle_arrays_saved": false,
+    "historical_pre_backend_flags": {
+      "cudnn": true,
+      "efficient": true,
+      "flash": true,
+      "math": true
+    },
+    "historical_reported_bookkeeping": {
+      "failed_worker": {
+        "dk": {
+          "atol": 1e-14,
+          "max_absolute_error": 3.773852150917856e-11,
+          "passed": false,
+          "rtol": 1e-12
+        },
+        "dq": {
+          "atol": 1e-14,
+          "max_absolute_error": 8.982595223194778e-11,
+          "passed": false,
+          "rtol": 1e-12
+        },
+        "dv": {
+          "atol": 1e-14,
+          "max_absolute_error": 9.284677193743818e-11,
+          "passed": false,
+          "rtol": 1e-12
+        },
+        "output": {
+          "atol": 1e-14,
+          "max_absolute_error": 1.2845956590123997e-10,
+          "passed": false,
+          "rtol": 1e-12
+        }
+      },
+      "passed_worker": {
+        "dk": {
+          "atol": 1e-14,
+          "max_absolute_error": 4.163336342344337e-17,
+          "passed": true,
+          "rtol": 1e-12
+        },
+        "dq": {
+          "atol": 1e-14,
+          "max_absolute_error": 1.5265566588595902e-16,
+          "passed": true,
+          "rtol": 1e-12
+        },
+        "dv": {
+          "atol": 1e-14,
+          "max_absolute_error": 1.1102230246251565e-16,
+          "passed": true,
+          "rtol": 1e-12
+        },
+        "output": {
+          "atol": 1e-14,
+          "max_absolute_error": 2.498001805406602e-16,
+          "passed": true,
+          "rtol": 1e-12
+        }
+      }
+    },
+    "historical_runtime": {
+      "architecture": "x86_64",
+      "cublas_workspace_config": ":4096:8",
+      "cuda": "12.8",
+      "cudnn": 91002,
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": true,
+      "cudnn_enabled": true,
+      "cudnn_tf32": false,
+      "deterministic_algorithms": true,
+      "deterministic_warn_only": false,
+      "device": "cuda",
+      "devices": 1,
+      "gpu": "NVIDIA GeForce RTX 3070",
+      "matmul_precision": "highest",
+      "matmul_tf32": false,
+      "numpy": "2.4.6",
+      "python": "3.11.17",
+      "threads": 4,
+      "torch": "2.8.0+cu128"
+    },
+    "historical_values_pt_oracle_fields_are_fixed_references_not_local_oracle": true,
+    "maximum_original_gate_saved_value_absolute_error": 2.498001805406602e-16,
+    "old_failure_explained_by_changed_inputs": false,
+    "old_failure_explained_by_changed_recorded_flags": false,
+    "old_failure_explained_by_new_audit_method": false,
+    "original_Torch_gate_all_saved_values_pass": true,
+    "original_Torch_gate_saved_value_checks": 96,
+    "shared_recorded_precision_and_runtime_fields_match_for_four_thread_workers": true,
+    "source_order": {
+      "CPU_probe_call_lines": {
+        "configure_execution": 81,
+        "context": 84,
+        "fp64_oracle": 90,
+        "load": 82,
+        "torch.set_num_threads": 81
+      },
+      "GPU_backend_selection_is_after_CPU_gate": true,
+      "historical_pre_oracle_arm_references": [
+        {
+          "line": 64,
+          "source": "args.arm"
+        },
+        {
+          "line": 70,
+          "source": "args.arm"
+        },
+        {
+          "line": 74,
+          "source": "args.arm"
+        },
+        {
+          "line": 86,
+          "source": "args.arm"
+        }
+      ],
+      "historical_refusal_line": 107,
+      "historical_source": "runs/pretrained/diagnostic/fixed-attention-university-20261030/linux10603/case-download-vjuddm3_/unpacked/source/models/fixed_attention_diagnostic.py",
+      "historical_worker_call_lines": {
+        "clone_layout": 108,
+        "configure_execution": 77,
+        "fp64_oracle": 104,
+        "hardware_gate": 82,
+        "iteration": 115,
+        "load": 89,
+        "runtime_contract": 94,
+        "torch.cuda.get_device_properties": 85,
+        "torch.cuda.is_available": 83,
+        "torch.cuda.set_per_process_memory_fraction": 85,
+        "torch.set_num_threads": 77
+      },
+      "historical_worker_call_positions_line_column": {
+        "clone_layout": [
+          108,
+          17
+        ],
+        "configure_execution": [
+          77,
+          9
+        ],
+        "fp64_oracle": [
+          104,
+          22
+        ],
+        "hardware_gate": [
+          82,
+          22
+        ],
+        "iteration": [
+          115,
+          19
+        ],
+        "load": [
+          89,
+          24
+        ],
+        "runtime_contract": [
+          94,
+          23
+        ],
+        "torch.cuda.get_device_properties": [
+          85,
+          71
+        ],
+        "torch.cuda.is_available": [
+          83,
+          94
+        ],
+        "torch.cuda.set_per_process_memory_fraction": [
+          85,
+          13
+        ],
+        "torch.set_num_threads": [
+          77,
+          70
+        ]
+      },
+      "kind": "source-order-inspection-not-a-dynamic-trace",
+      "oracle_function_sha256": "da554403052619e9f3b9702ad74ce36cfc854a0c522dbbe9609c1c4ce205118d",
+      "original_SDPA_line": 129,
+      "original_backend_force_line": 127,
+      "original_oracle_executed_by_this_inspection": false,
+      "same_shared_source_sha256": {
+        "models/attention_component.py": "7c296c1ef514002eeb058f8ed74224fe0b199bc787ffcb2104261f5044bcc782",
+        "models/attention_fixture.py": "7676f8d268196f880a408352af5b6c558028231deb270efc96f3c36ae753d411",
+        "models/execution.py": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba",
+        "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+        "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679"
+      }
+    },
+    "source_order_is_not_a_dynamic_historical_call_trace": true,
+    "these_checks_establish_no_causal_explanation": true
+  },
+  "current_control_files_reverified": 454,
+  "current_control_review_sha256": "98764bb3fcc4072f07a385cfe21339ec3a12a2b4662aa7f8362b45f829faf420",
+  "date": "2026-11-04",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "historical_archive_members_reverified": 317,
+  "historical_downloads": [
+    {
+      "archive_sha256": "1a71e16529ce258bec54cadccb8e50f2890ed150529f4a651ee9d179e418ffbc",
+      "host": "linux10603",
+      "regular_members_reverified": 151
+    },
+    {
+      "archive_sha256": "4d4d577c40957d67eb010e18235e21c03307ea5359e5086867e26515a679ffad",
+      "host": "linux10609",
+      "regular_members_reverified": 166
+    }
+  ],
+  "historical_failed_computed_values_recovered": false,
+  "historical_fixed_review_sha256": "d4afebf2d722118ca35a4999a4d3689cc74b195915cb6bb3ec4caac0eb07e44e",
+  "immutable_control_bindings_reverified": 131,
+  "independent_raw_evidence_review_sha256": "5c2fcd58e1fa86c53ce9d7b1e558cbfc7919e05ddf7bc38121d5e4daf07d797a",
+  "kind": "cpu-oracle-historical-context-comparison-v1",
+  "new_university_attempt_started": false,
+  "next_step": {
+    "action": "Prepare a separate tested observer for the original pre-SDPA worker path. Save actual local_oracle outputs and full CPU/CUDA setup context before the original bookkeeping gate; stop before any GPU SDPA.",
+    "design_only": true,
+    "launchable_now": false,
+    "new_attempt_authorized": false,
+    "old_sources_bounds_claims_and_failed_records_must_remain_unchanged": true,
+    "operator_prepared": false,
+    "rationale": "The missing historical computed tensors prevent locating the first mismatch. CUDA setup alone is not an established cause because it was present in both the historical passing and failing paths. New pre-oracle metadata collection is another uncontrolled setup difference; delay detailed introspection until after the first computed result has been safely captured, or account for it as an explicit observation control."
+  },
+  "offline_comparison_complete": true,
+  "old_failure_or_claim_waived": false,
+  "optimization_adopted": false,
+  "original_CUDA_initialization_context_reproduced": false,
+  "original_oracle_worker_and_CUDA_initialization_calls_blocked": true,
+  "paid_compute_started": false,
+  "process_and_network_creation_denied": true,
+  "raw_review_directory": "runs/pretrained/diagnostic/cpu-oracle-context-comparison-20261104/verified-review",
+  "reader_environment": {
+    "CUDA_initialized": false,
+    "architecture": "arm64",
+    "numpy": "2.4.6",
+    "python": "3.11.16",
+    "role": "Saved tensors, literal original gate replay and source AST inspection only; no oracle generation or worker dispatch.",
+    "torch": "2.14.1",
+    "torch_threads": 4
+  },
+  "remote_cleanup_performed": false,
+  "research_admitted": false,
+  "root_cause_established": false,
+  "sealed_input_files_reverified": 935,
+  "sealed_input_manifest_sha256": "4c74ebe019cfdcb477c1cde167be603cadbc234aee9c193b8114e864c4a382ae",
+  "source_prelude_supplement": {
+    "CUDA_setup_is_not_an_established_sufficient_cause": true,
+    "CUDA_setup_is_present_in_both_old_success_and_failure": true,
+    "GPU_arm_label_is_not_active_backend_selection_at_the_refusal": true,
+    "do_not_treat_the_programs_as_a_single_variable_CUDA_initialization_experiment": true,
+    "kind": "cpu-oracle-source-prelude-comparison-v1",
+    "new_context_function_line": 44,
+    "new_context_source": "runs/pretrained/diagnostic/cpu-oracle-control-v1-20261104/linux10609/attended-v54iunk4/saved/code/models/cpu_oracle_probe.py",
+    "new_probe_collects_before_first_oracle": [
+      "torch.__config__.show",
+      "torch.__config__.parallel_info",
+      "np.__config__.show"
+    ],
+    "observation_or_library_introspection_effect_tested": false,
+    "old_runtime_function_line": 129,
+    "old_runtime_source": "runs/pretrained/diagnostic/fixed-attention-university-20261030/linux10603/case-download-vjuddm3_/unpacked/source/models/training.py",
+    "old_simple_runtime_contract_does_not_collect_these_fields": true,
+    "original_computed_local_oracle_values_not_preserved_even_in_passed_values_pt": true,
+    "original_values_pt_oracle_fields_come_from_fixed_numpy_reference": true
+  },
+  "validation": {
+    "accepted_target_files_reverified": 453,
+    "control_capture_files_reverified": 454,
+    "final_documentation_checks": "Saved separately in the raw verified-review directory.",
+    "historical_input_tensor_comparisons": 8,
+    "historical_regular_tar_members": 317,
+    "immutable_control_history_bindings": 131,
+    "new_unit_tests_added": false,
+    "original_gate_checks_on_saved_final_values": 96,
+    "production_sources_changed": false,
+    "reason_no_operator_suite_rerun": "Evidence/source analysis only; all executable operator sources remain byte-identical.",
+    "source_AST_order_and_prelude_checks": true,
+    "unchanged_fixed_NPY_file_comparisons": 16
+  }
+}

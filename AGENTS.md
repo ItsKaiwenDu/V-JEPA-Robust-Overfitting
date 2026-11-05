@@ -2,6 +2,153 @@
 
 ## Current stage
 
+LATEST Nov04: ORIGINAL CPU-RETURN AFTER CUDA SETUP CAPTURE INDEPENDENTLY VERIFIED.
+Read report/checks/2026-11-04-oracle-boundary-v1-target-review.json/md FIRST.
+Actualclaim CONSUMED/attended-6kpepwk9/SHA5e06811a7c9aeb781addd3e6f3f90baa85641fe7502619f1f5de1f3e8465cda3.
+Control eb5d8be9.../AUTH8a6bd64a.../alloriginal+operator sources FROZEN.
+Response200382839B/SHAdc4cc7b1...;166members/200221415logicalB/exactmtimeNS
+independently verify;139originalpacketmembers+9overlays+946historybindings
+unchanged;1120sealedinputs verify. ReviewDENIESprocess/networkcreation;
+noSSH/neworacle/worker/CUDA/paidwork/cleanup executedbyreview.
+OriginalCUDAsetup observedTRUE;actualfirstCPUfp64return savedc7da1f10...
+13108174B. FOURoriginal1e-12+1e-14gatechecks PASS/maxerr2.498e-16. Captured
+values match ALL96priorCPUonlyfinalarraypairs BITWISE (twohosts/fourworkers/
+threephases/fourarrays). Inputsnapshot1c4dc71a...samebytes+recordedcommon
+contract SAMEasBOTHhistoricalpassed/failedencoder1. Historicalcomputedreturns
+stillMISSING; canonicalrefs NEVERrelabelledascomputed. Old~1e-10 NOTreproduced
+or explained; no source/inputs/bounds/claims/refusal waived or causeestablished.
+Boundaryprofile recordsonecall/onereturn; originalgatepass ->firstcloneCALL
+interceptedBEFOREbody. OriginalfullGPUworker completefalse/passedfalse with
+intentionalBoundaryReached. NOinputtransfer/SDPA/attentionbenchmark/adoption/
+researchadmission. Postgatedetailedcontext CUDAtrue/Torch2.8cu128/Python3.11.17/
+NumPy2.4.6/threads4/interop8/affinitymatch. Torchbuildtext adds5CUDA-detail
+lines;sharedbuildsettings+parallel+NumPytextmatch. NOTproofchangedlibraries/
+causalCUDAisolation; contextaftergate NOTfullpre-first-callstate.
+Actual2.5GiBproof PASS9.462s/1926events; observedsetup2701959168B<3GiB,
+capture217427968B<2.25GiB. 97proof/45capturesamples;wholework49.005s<600,
+originalobserver0.752s<120; owneddescendantsnone. OneperiodicGPUrow; NO
+continuous-exclusivityproof/kernelaggregatequota/futurecapacityreservation.
+NEVERrepeatconsumedhelper/resetclaim/changecapturedsource/report. Remote
+/var/tmp/vjepa-oracle-boundary-v1-20261104-linux10603-js7zusqn RETAINED;
+no deletionauthorized. Bothhosts canstayidle; allknownRunpodterminated.
+NEXT PREPARE OFFLINEproposal for next ORIGINALGPUattentionboundary, keeping
+CPUgate live andsavingdownstreamactualoutput/gradient evidence BEFOREgates.
+Proposalonly: NOnewoperator/grant/claim/upload/SSH/nextworker/parallel/cleanup
+prepared orauthorized. Scope/resource review BEFORE anyfurthergrantrequest.
+Currentgrant andbothpriorCPUgrantsCONSUMED. 79preparedchecks baseline/source
+unchanged; nooperatortestrerun for this evidence-onlyaudit. Financesunchanged
+9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+lastwallet6.56/reconciliationfalse. Usercommits self;NEVERstage/commit/push.
+EarlierLATESTentries historical.
+
+LATEST Nov04: ONE ORIGINAL CPU-RETURN BOUNDARY ATTEMPT APPROVED; ARMED/UNRUN.
+Read report/checks/2026-11-04-oracle-boundary-v1-authorization.json/md FIRST.
+User explicitly approved ONE bounded attended CUDAsetup/CPUreturn attempt.
+New raworacle-boundary-v1-20261104/linux10603/AUTHORIZATION.json EXISTS;
+8a6bd64a8268452486657b0d691770f53755917a7858fddea2812daf2464b296.
+Control eb5d8be9edfce5a6a9cb0b7e6fadd28f6ce8d34b961cd58a535b552d8f1db63e
+and all scientific/operator/preparation sources unchanged. New grant ONLY
+host10603/freshprivate/var/tmp/85622679Bfixedsyntheticpacket+9overlays125527B+
+boundmetadata;600swork inclfull2.5GiBproof<=60s/oneoriginalworker<=120s/
+oneactualCPUfp64return;collection<=600s/3GiB SAME SSH. OriginalCUDAsetup
+allowed, STOPBEFOREGPUinputtransfer/SDPA;setup3GiB/capture2.25GiB remain.
+No retries/oldclaimreset/nextworker/paidwork/cleanup/financialrelease.
+Localverify_local actualgrant PASS with process/networkcreationDENIED;
+946preservedbindings/source/packet/publictargetkey/localspace reverify.
+NewATTEMPT.json ABSENT/noattendedsession/noSSH/proof/worker/CUDA started.
+DO NOT ask same resource approval again. NEXT user runs ONLY new raw
+oracle-boundary-v1-20261104/linux10603/run-attended.sh ONCE fromLOCAL Mac
+Terminal for universitypassword. Promptlyenterpassword/keepTerminal+SSH+
+lidopen+Macawake throughsameconnectioncollection;allow10minwork+10mincopy
+pluslogin. LiveGPU/storage gates recheck;10609 staysidle. OnDone inspect
+actualclaim/response/proof/source/actualreturn/originalgate independently.
+Failurepreserve/review;NEVERrepeatlaunch/resetclaim/extenddeadline. Onlyafter
+review use new download-only helper for same finished files, no workerrestart.
+OriginalGPUworker completefalse/passedfalse regardlessCPUgate; old~1e-10
+UNRESOLVED/nohostreliability/GPUqualification/adoption/researchadmission.
+Priorpreparation79checks remainbaseline; metadataonly arm step. BotholdCPU
+grants remainCONSUMED; reviewedcontrol/scopes/sources/reports stayFROZEN.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+lastwallet6.56/reconciliationfalse unchanged;knownRunpodterminated.
+Usercommits self;NEVERstage/commit/push. EarlierLATESTentries historical.
+
+LATEST Nov04: ORIGINAL CPU-RETURN OBSERVER V1 PREPARED/TESTED, UNARMED.
+Read docs/oracle_boundary_v1.md and report/checks/2026-11-04-oracle-boundary-
+v1-preparation.json/md FIRST. Separate observer/operator; original source,
+fixtures, bounds, reports and consumed claims remain FROZEN. 79 localchecks
+PASS/zeroerrors/failures/skips. Actual originaltinyCPUworker/oracle cold runs
+capture return BEFORE unchanged gate; deliberate local negative fixture keeps
+original refusal. Stop firstclone_layout CALL BEFOREbody; originalGPUworker
+always completefalse/passedfalse. No SDPA/inputtransfer; no fullworkerpass.
+Detailedintrospection AFTERgate/stop; profile/alarm restore tested without
+clockreset. Loadedfunctionsource+bytecode bound; oldparentloop NOTinvoked.
+Independentread-onlyreview DENIESprocess/network creation;139originalmembers,
+946preservedbindings,310rehearsalfiles+exactmtime verify;8savedgatechecks match.
+Positive/negative inputs+computedreturns bitwiseequal; onlynegativecanonicalref
+differs. LocalMacarm64Torch2.14.1 !=university2.8CUDA12.8; CUDApath NOTqualified.
+ControlSHAeb5d8be9edfce5a6a9cb0b7e6fadd28f6ce8d34b961cd58a535b552d8f1db63e.
+New raworacle-boundary-v1-20261104/linux10603 helper/control prepared.
+Actual unarmed shell REFUSES BEFORE SSH/session/claim. NewAUTHORIZATION.json
+andATTEMPT.json ABSENT. Both priorCPUonly grantsCONSUMED; NOnewresourcegrant.
+NEXT seek ONE separate explicit CUDAsetup/CPUreturn exception against exact
+reviewedscope: host10603 only/freshprivateXFS/var/tmp/unchanged85622679B packet
+(139files/90901652logicalB)+9overlayfiles125527B+boundmetadata. No ledger,
+privatekeys/passwords/weights/pixels/rawpriorcaptures uploaded. One additional
+600swork inclfull2.5GiBproof<=60s/oneoriginalworker<=120s/oneoraclecall;
+collection<=600s/3GiB existingfiles SAME SSH. Setup3GiB/capture2.25GiB,
+initial8GiB/floor1GiB remain; input/codecategory128MiB explicitly accommodates
+fullpacket. CUDAinitialization/allocatorcap original4GiB allowedONLYafternew
+grant. StopBEFOREGPUinputtransfer/SDPA. Innerold1200schemacompatibility grants
+NOoldparentrun; outer600bound controls. Strictforeigncompute guard preserves
+all otherprocesses;5ssampling NOTcontinuousproof. Storage NOTaggregatequota/
+reservation. Failurepreserve/review; noautomaticretry/newworker/claimreset.
+DoNOTarm/claim/upload/connect/run untilnewgrant. 10609 staysidle;bothcanidle.
+Historical~1e-10 unresolved; observation NOTidenticalhistoricalreplay orcausal
+CUDAisolation. Postgatecontext NOTfullpre-first-callstate. No rootcause/
+GPUqualification/adoption/researchadmission/cleanup/paidwork/financialrelease.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+lastwallet6.56/reconciliationfalse unchanged;knownRunpodterminated.
+Usercommits self;NEVERstage/commit/push. EarlierLATESTentries historical.
+
+LATEST Nov04: OFFLINE HISTORICAL CPU-ORACLE SETUP COMPARISON COMPLETE.
+Read report/checks/2026-11-04-cpu-oracle-context-comparison.json/md and
+docs/cpu_oracle_context_comparison.md FIRST. No new worker/oracle/CUDA/SSH/run.
+Reverified317historicalarchive members, current454control/453target files,
+131immutablehistorybindings and935sealedinputs unchanged. Historical pass/
+failure sameinputsPT1c4dc71a... and samecommon/runtime;8actualinput tensor
+comparisons+16fixedNPYidentities match. Sharedoracle/loader/execution/runtime/
+training sources SAMEbytes. Old literalTorchgate replayed on96NEWsavedfinal
+arrays: ALLPASS at1e-12+1e-14/maxerr2.498e-16; localMacreader2.14.1 !=old2.8.
+This doesNOTaudit missinghistoricalcomputedvalues orwaiveoriginalfailure.
+Verifiedsource order: CUDAsetup/fixedload/runtime -> CPUfp64oracleline104 ->
+bookkeepingrefusalline107 -> GPUleaves108 -> iteration115 ->backendselection.
+MatharmLABEL not executedGPUmathbackend atrefusal. Parentrequests fresh
+process perworker; no reusedPythonworker evidence. SourceorderNOTdynamictrace.
+CRITICAL historicalvalues.pt oracle_* fields are FIXEDcanonicalNumPyrefs,
+NOTlocal_oracle. Actualcomputed CPU returns missing from BOTHhistoricalpass+
+failure. Scalars only; cannotlocate operation or recoverfailedtensor byrelabel.
+CUDAsetup sharedbyoldpass+failure; NOTestablishedcause. NewCPUprobe ALSO
+adds torch/NumPybuild+parallel introspection BEFOREfirstoracle, plusdifferent
+I/O/import/observation; NOTa singlevariable CUDAinit experiment. Oldinterop/
+BLASbuild/affinity/rounding/effectiveworkerenv missing; requestsOMP/MKL/BLAS4
+inlauncher are sourceintent, notobservedvariables. One-threadnewruns areextra
+controls; fourthreadrecordedoverlap matchesold. Historical1e-10 UNRESOLVED.
+NEXT PREPARE separate tested observer for unchanged originalpreSDPAworker
+path: save ACTUALfp64return outputs/dQdKdV beforeoriginalbookkeepinggate,
+keepoldgate/pass/refusal; detailedintrospection AFTERfirstcomputedresult or
+explicitobservationcontrol. StopBEFOREGPUtransfer/SDPA; preservecoldprelude,
+functionidentity/source/inputs/tolerances/history. docs outlinesneededtests.
+DesignONLY: NOoperator/helper/newAUTH/ATTEMPT prepared; genericcontinue
+permitsofflinepreparation, NOTnewuniversity/CUDAresourceattempt. Review
+concreteoperator/exactbounds BEFOREnewgrantrequest. BothcurrentgrantsCONSUMED;
+NEVERrepeat oldhelpers/resetclaims/altercapturedsources/waiverefusals. No
+rootcause/hostreliability/GPUqualification/optimization/researchadmission.
+Bothhosts stayidle; oldacceptancebridge absent/remote scratchretained.
+No paidwork/financialrelease/cleanup. Finance9.8116/.1884/old2hold/.0792gap/
+10diag/160compute/200project/40reserve/lastwallet6.56/reconciliationfalse
+unchanged;knownRunpodterminated. Usercommits self;NEVERstage/commit/push.
+EarlierLATESTentries historical.
+
 LATEST Nov04: CONTROL CAPTURE + CROSS-HOST VALUES INDEPENDENTLY VERIFIED.
 Read report/checks/2026-11-04-cpu-oracle-control-v1-review.json/md FIRST.
 UserDone -> actualcontrolclaim EXISTS/CONSUMED, attended-v54iunk4; SHA
