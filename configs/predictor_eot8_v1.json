@@ -1,0 +1,196 @@
+{
+  "CUDA_or_pretrained_qualified": false,
+  "attempt_present": false,
+  "authorized": false,
+  "control_sha256": "2986c6e37059d0f83c823f4420f78c02b311f6a73f343f6406e7fd5c277cd028",
+  "date": "2026-11-05",
+  "host": "linux10609",
+  "kind": "predictor-clean-eot8-unarmed-preparation-v1",
+  "limits": {
+    "CPU_or_NumPy_analytical_oracle_calls": 0,
+    "PGD_FGSM_or_scoring_calls": 0,
+    "SDPA_call_rows_cap_per_worker": 4096,
+    "all_categories_bytes": 2264924160,
+    "automatic_retries": 0,
+    "capture_ceiling_bytes": 2415919104,
+    "capture_margin_bytes": 150994944,
+    "categories_bytes": {
+      "cache": 33554432,
+      "code": 134217728,
+      "emergency": 16777216,
+      "input": 134217728,
+      "metadata": 67108864,
+      "raw": 1879048192
+    },
+    "checkpoint_counts_are_observed_not_assumed_equal": true,
+    "clean_target_computations": 4,
+    "collection_bytes": 3221225472,
+    "collection_header_bytes_cap": 1048576,
+    "collection_seconds": 600,
+    "draw_units": 76,
+    "exact_new_packet_overlay_and_bootstrap_sizes_pending": true,
+    "first_draw_objectives": 12,
+    "forward_plus_at_most_one_recompute_total_per_worker": 2736,
+    "full_EOT8_objectives": 8,
+    "future_packet_bytes_cap": 67108864,
+    "gradient_control_family_units_per_worker": 38,
+    "initial_free_bytes": 8589934592,
+    "initial_free_inodes": 2048,
+    "input_category_bytes": 134217728,
+    "kernel_aggregate_quota_or_continuous_exclusivity_or_future_capacity_guaranteed": false,
+    "kind": "static-future-full-model-bounds-not-a-grant",
+    "launcher_log_bytes_cap": 16777216,
+    "mask_family_objective_units": 152,
+    "max_clean_target_bytes_each": 12582912,
+    "max_files": 1024,
+    "max_input_gradient_return_bytes": 16777216,
+    "max_mask_archive_bytes_each": 1048576,
+    "max_scalar_loss_return_bytes": 65536,
+    "max_simultaneous_scientific_processes": 1,
+    "max_tensor_file_bytes": 33554432,
+    "max_trace_bytes_each": 268435456,
+    "max_trace_events_each": 800000,
+    "max_trace_file_bytes": 268435456,
+    "minimum_context_block_SDPA_forwards_per_worker": 912,
+    "minimum_predictor_block_SDPA_forwards_per_worker": 456,
+    "model_parameter_backward_or_optimizer_steps": 0,
+    "operator_counts_passes_for_no_unrecorded_warmup": true,
+    "original_shared_FP64_patch_arithmetic_preserved": true,
+    "outer_margin_seconds": 180,
+    "outer_work_seconds": 2400,
+    "overlay_bytes_cap": 2097152,
+    "preceding_bootstrap_bytes_cap": 1048576,
+    "previous_component_allocator_bytes": 4294967296,
+    "previous_component_raw_category_bytes": 419430400,
+    "proof_bytes": 2684354560,
+    "proof_precedes_archive": true,
+    "proof_seconds": 60,
+    "raw_category_bytes": 1879048192,
+    "raw_terms_bytes": {
+      "four_trace_files": 1073741824,
+      "margin": 134217728,
+      "one_transient_trace_name_pair": 268435456,
+      "targets_masks_and_scalar_returns": 67108864,
+      "twenty_input_gradient_returns": 335544320
+    },
+    "runtime_floor_bytes": 1073741824,
+    "runtime_free_inodes": 1024,
+    "same_as_prior_full_EOT8_allocator": true,
+    "same_attended_SSH": true,
+    "setup_ceiling_bytes": 3221225472,
+    "setup_seconds": 180,
+    "stdin_bootstrap_bytes_cap": 2097152,
+    "timings_usable_for_speed_or_budget": false,
+    "torch_allocator_bytes": 7516192768,
+    "work_subtotal_seconds": 2220,
+    "work_terms_seconds": {
+      "final_receipts": 120,
+      "four_workers": 1920,
+      "setup_including_proof": 180
+    },
+    "worker_seconds": 480
+  },
+  "next_step": "Fresh read-only GPU check and one new exact scoped university exception, before arming or SSH.",
+  "payload": {
+    "attempt_present": false,
+    "authorization_present": false,
+    "control_sha256": "2986c6e37059d0f83c823f4420f78c02b311f6a73f343f6406e7fd5c277cd028",
+    "kind": "predictor-eot8-unarmed-payload-v1",
+    "local_CPU_tests_are_not_CUDA_qualification": true,
+    "new_remote_or_scientific_work": false,
+    "old_packet_bytes": 17192095,
+    "prior_pins_verified": 4276,
+    "remote_overlay_bytes": 181401,
+    "remote_overlay_files": 13,
+    "stdin_bootstrap_bytes": 575903
+  },
+  "phases": [
+    {
+      "draws": 8,
+      "families_per_draw": 2,
+      "name": "EOT8-before",
+      "profiled": false
+    },
+    {
+      "draws": 1,
+      "families_per_draw": 2,
+      "name": "draw-before",
+      "profiled": false
+    },
+    {
+      "draws": 1,
+      "families_per_draw": 2,
+      "name": "draw-profiled",
+      "profiled": true
+    },
+    {
+      "draws": 1,
+      "families_per_draw": 2,
+      "name": "draw-after",
+      "profiled": false
+    },
+    {
+      "draws": 8,
+      "families_per_draw": 2,
+      "name": "EOT8-after",
+      "profiled": false
+    }
+  ],
+  "proposal": "configs/predictor_attention_eot8_proposal_v1.json",
+  "proposal_sha256": "9a44e4b57a3ac36e0a5fb5092a089a6971da1ad0425714b06ae98793e4c7660d",
+  "raw_handoff_directory": "runs/pretrained/diagnostic/predictor-eot8-v1-20261105/linux10609-final",
+  "remote_source_sha256": {
+    "configs/predictor_attention_eot8_proposal_v1.json": "9a44e4b57a3ac36e0a5fb5092a089a6971da1ad0425714b06ae98793e4c7660d",
+    "models/__init__.py": "d47ec91bb05fad54517d95fbffa2ca93b9305c93eb80f6f17b2d57f73bec2a84",
+    "models/cpu_oracle_control_prerequisite.py": "c6d4927e89d23abbd4ad019ab4d9c0209f0995d75050f1246092aa4a23b8ef63",
+    "models/cpu_oracle_control_v1.py": "06e5731e48ee079acdecf5ad992eef3930c8ba2e66f44f0d9c748c31fdb5baf7",
+    "models/cpu_oracle_scratch.py": "12992c272b21902297746d7781685dc951d0a310ace1dc73cbb99b8d52f6bbe6",
+    "models/oracle_boundary_operator_v1.py": "dde0d903986a5e83d02d9e7cb5fe4b6869d02f3731c8d4f30dd749a20f742b73",
+    "models/predictor_eot8_adapter_v1.py": "89b7e0c67e88f2f776bb0bb6ad786a2202115e64ffc6c6f9a962381cc2e9a6b8",
+    "models/predictor_eot8_capture_v1.py": "fcf582f0152f9ad1d93d1bf038895ba6c6c84d75a4fdfc02d5d4b2ea96e0d3e4",
+    "models/predictor_eot8_events_v1.py": "6bb6a1d0564b4b7f976704325cd946a4a1cf6d6616f82f53dc908b065aa699a8",
+    "models/predictor_eot8_operator_v1.py": "41c5838011b3262f9a9bc7bdf22c98f5e158f8f6e7a4b025bdeef85305217161",
+    "models/predictor_eot8_worker_v1.py": "89a27bbf18ee5aa823a522790c86637ef7f14b1d4be6c0cf67326f99724ff306",
+    "models/scratch_allocation_v2.py": "6b0503b8ab2c88a44a4d95c8fafbad52d1c0414293379406520a22f67700e874",
+    "scripts/capture_predictor_eot8_v1.py": "22ffaa07f37fae97fbcf72ba0fcdb6a26aba82bc667be6e25da0c50bce179dca"
+  },
+  "research_admitted": false,
+  "validation": {
+    "errors": 0,
+    "failures": 0,
+    "new": 56,
+    "skips": 0,
+    "total_unique": 166,
+    "unchanged_regressions": 110
+  },
+  "workers": [
+    {
+      "fresh_replay_reference": null,
+      "mode": "original",
+      "name": "reference-0",
+      "numerical_reference": "accepted prior clean EOT8 for both full controls",
+      "replay": 0
+    },
+    {
+      "fresh_replay_reference": null,
+      "mode": "predictor-math",
+      "name": "predictor-math-0",
+      "numerical_reference": "new complete passing reference-0 (matching phases) AND prior full EOT8 for full controls",
+      "replay": 0
+    },
+    {
+      "fresh_replay_reference": "reference-0, complete saved scientific tensor signatures",
+      "mode": "original",
+      "name": "reference-1",
+      "numerical_reference": "accepted prior clean EOT8 for both full controls",
+      "replay": 1
+    },
+    {
+      "fresh_replay_reference": "predictor-math-0, complete saved scientific tensor signatures",
+      "mode": "predictor-math",
+      "name": "predictor-math-1",
+      "numerical_reference": "new complete passing reference-1 (matching phases) AND prior full EOT8 for full controls",
+      "replay": 1
+    }
+  ]
+}

@@ -2,6 +2,52 @@
 
 ## Current stage
 
+LATEST Nov05: PREDICTOR-ONLY FULL EOT8 V1 PREPARED/TESTED, UNARMED.
+Read docs/predictor_eot8_v1.md, configs/predictor_eot8_v1.json and
+report/checks/2026-11-05-predictor-eot8-v1-preparation.json/md FIRST.
+Separate adapter/typed writer/owner-aware reader/worker/supervisor/client; all earlier
+captured scientific/operator sources, arrays, claims and reports remain FROZEN.
+166 distinct targeted checks PASS, zero failures/errors/skips: 56new+110regressions.
+Four fresh tiny CPU upstream workers, all8draws/bothfamilies/fivepasses, exact initial
+state/references/replay; 40 actual FP32 returns retained before gates. Independent
+saved review:24 within-process exact/20 original-bound/20 fresh-process exact checks;
+CPU event ownership reverified without SDPA. Local arm64/Python3.11.16/Torch2.14.1/
+NumPy2.4.6 does NOT qualify target CUDA/pretrained fit, behavior or performance.
+4,276 proposal pins + latest227 exactmode/mtime + old199 exactmtime reverify; 4,441
+inputs sealed. Process/network/scientific dispatch denied during saved review.
+Private instance globals/F aliases; no global SDPA or upstream tensor changes.
+Actual-call predictor math selection after inner sdp_kernel, checkpoint lifetime,
+normal/early-stop/error restoration; unsupported candidate identity rejected by
+existing study guard. All phase primary draw/family/block call counts checked.
+All5passes actual rank0FP32 loss/input returns BEFORE gates; original loss1e-5/2e-6
+and input2e-3/2e-7, priorfullEOT8, newcompletepassing references and exactreplay stay.
+New event forward/backward sequence/thread association refuses ambiguity/missing links.
+Future actual CUDA proof is DRAW0/TWOFAMILIES only, never all15 encoder geometries.
+Cold full99-member import blocks scientific dispatch. Unarmed shell/client refuse
+BEFORE claim/session/SSH. Active handoff ONLY rawpredictor-eot8-v1-20261105/
+linux10609-final; earlier local previews historical/stale/unarmed; NEVER use them.
+CONTROL2986c6e37059d0f83c823f4420f78c02b311f6a73f343f6406e7fd5c277cd028.
+No AUTHORIZATION.json/ATTEMPT.json anywhere in new raw tree. All old grants consumed.
+Exact payload: unchanged17192095B original one-training-clip packet/99members plus
+13 overlay files181401B including bound proposal; bootstrap575903B<2MiB. No weights,
+dependency/privatekey/confirmation/test pixels upload. Source, public host key,
+reference order, state, continuing deadlines, actual allocated blocks/logical caps,
+owned children, foreign compute and same-SSH full collection guarded. No retries.
+Standalone retrieval DISABLED pending review; no old work/collection clock reset.
+Proposed—not granted—host10609 ONLY; 2400s work from preflight incl setup180/full
+2.5GiB proof<=60 BEFORE archive,4workers<=480/final receipts. Collection600s/3GiB.
+Setup3GiB/capture2.25GiB; allocator7GiB/raw1792MiB/bootstrap2MiB explicit increases
+from preceding components, otherwise original bounds unchanged. No fallback/cleanup.
+NEXT seek ONE NEW explicit exact scoped university exception and fresh READ-ONLY
+10609 GPU/UUID/process check before arming/SSH. Do not run helper until approved;
+no approval requested in preparation. Both hosts may idle; no need to rerun CPU tests.
+No target/CUDA/pretrained run, resource grant, claim, SSH, cleanup or paid work started.
+No fullmodel candidate/PGD/scoring/parameter/optimizer/recovery/performance/cost/research
+admission; historical ~1e-10, predictor generator/fixed-loader gaps remain unresolved.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/wallet6.56/
+reconciliationfalse unchanged; known Runpod Pods terminated. User commits self;
+NEVER stage/commit/push. Earlier LATEST entries historical snapshots.
+
 LATEST Nov05: FULL-MODEL PREDICTOR-ATTENTION OFFLINE PROPOSAL CHECKED.
 Read docs/predictor_attention_eot8_proposal.md, configs/predictor_attention_eot8_proposal_v1.json
 and report/checks/2026-11-05-predictor-attention-eot8-proposal.json/md FIRST.

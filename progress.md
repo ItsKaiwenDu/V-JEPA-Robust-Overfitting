@@ -1,5 +1,42 @@
 # Research Progress Reports
 
+## 2026-11-05 — Full-model predictor-attention v1 prepared, tested and unarmed
+
+The separate predictor-only math adapter, typed return writer, owner-aware event
+reader, full clean EOT8 worker and bounded operator/client are implemented.
+Private per-instance function globals select math inside the actual upstream SDPA
+context and remain active through checkpoint recomputation. Existing study
+policies reject the candidate identity; frozen science and target paths stay.
+Five passes retain all eight draws/two families, actual pre-gate FP32 returns,
+original bounds, fresh matching references and exact within/fresh-process replay.
+
+166 distinct targeted checks pass: 56 new and 110 unchanged regressions, zero
+failures/errors/skips. Four fresh tiny upstream CPU workers pass on arm64 /
+Python 3.11.16 / Torch 2.14.1 / NumPy 2.4.6. Independent saved review rechecks forty
+returns, 24 within-process exact comparisons, 20 original-bound comparisons,
+20 fresh-process exact comparisons and raw profiler ownership. The full frozen
+99-member packet cold-imports with scientific dispatch blocked. Tests also cover
+capture/IO errors, early-stop restoration, missing backend ownership, proof before
+archive, preflight inside a continuing deadline, serial refusal/no retry and
+complete private-file collection. Scaffold verification passes.
+
+All 4,276 proposal pins and 227 latest/199 old capture metadata checks reverify;
+4,441 inputs are sealed. The final unarmed control binds the unchanged 17,192,095-
+byte profile packet and 13 overlay files / 181,401 bytes; bootstrap is 575,903
+bytes. Earlier local previews and failed logs remain historical, not runnable
+handoffs. No new authorization, attempt, SSH, university/CUDA work, cleanup or
+paid compute is present. Both university hosts may idle. Exact source/payload and
+resource review is complete; next obtain one new scoped approval and a fresh
+read-only linux10609 GPU check before arming the 40-minute work / 10-minute
+collection attempt. Original caps/gates and all financial holds remain unchanged.
+
+CPU analogues cannot qualify pretrained CUDA correctness, memory fit or speed.
+Actual CUDA proof in a future result covers the profiled first draw/two families;
+other full-EOT8 numerical/replay/allocator/source checks remain. Historical
+refusals, generator/fixed-loader gaps, PGD/scoring, parameter/optimizer/recovery,
+ordinary matched performance/cost, calibration/scheduling and research admission
+remain pending. [Preparation review](report/checks/2026-11-05-predictor-eot8-v1-preparation.md).
+
 ## 2026-11-05 — Full-model predictor-attention proposal checked offline
 
 The next validation question is clean pretrained EOT8 loss/input-gradient

@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Predictor-only full EOT8 diagnostic prepared and unarmed (November 5):**
+[166 checks and independent saved-file review pass](report/checks/2026-11-05-predictor-eot8-v1-preparation.md).
+The separate adapter preserves the original model, objective and numerical gates,
+with typed captures, exact replay and owned backend evidence. Four cold tiny CPU
+workers pass; target CUDA and pretrained fit remain untested. The exact university
+handoff needs a new scoped approval before arming or SSH. Both hosts may stay idle.
+Earlier entries are historical snapshots.
+
 **Full-model predictor-attention proposal checked (November 5):**
 [The offline plan retains all eight EOT draws and both mask families](report/checks/2026-11-05-predictor-attention-eot8-proposal.md).
 The next diagnostic would change predictor attention only and compare complete
