@@ -1,5 +1,142 @@
 # Research Progress Reports
 
+## 2026-11-05 — Original encoder-1 cross-attempt cohort independently accepted
+
+Both original replay-1 GPU workers and the separate CPU verifier complete within
+the approved limits. The independently checked old and new captures now cover
+all four original encoder-1 component workers across two separate attempts.
+Efficient replay 1 exactly reproduces accepted efficient replay 0; math replay 1
+uses the new complete passing efficient reference. Both complete artifact
+signature sets match across replay 0/1. Original numerical, actual backend,
+source/runtime/hardware, layout, replay and allocator gates remain unchanged.
+The original single-parent session is never fabricated or qualified.
+
+The 227-file / 505,797,167-byte saved evidence verifies with exact hashes,
+mtimes and read-only import modes. All 199 old files and full old NPZ/input
+captures are re-read locally alongside the new returns. The imported 16-record
+subset stays explicitly separate from new work and does not renew old grants.
+New evidence includes two actual Torch CPU FP64 returns, twelve actual GPU
+FP32 returns across all six phases per worker, and one actual NumPy FP64 return
+saved before its original reconstruction gate. Independent cohort checks pass
+16 Torch CPU gates, 96 FP32 component/bitwise comparisons and 16 saved NumPy
+reconstructions. The NumPy gate keeps original loader views, argument order and
+bounds, with CUDA hidden and uninitialized in its fresh verifier process.
+
+The 81.268-second whole-work record includes a 9.651-second full 2.5 GiB storage
+proof before both archives. Observed setup/capture/raw bytes fit their approved
+3 GiB/2.25 GiB/400 MiB limits; serial fresh processes and no owned descendants
+verify. Instrumented timing records are resource evidence only. Independent
+review denies process/network and worker/oracle/SDPA execution, reauthenticates
+3,505 preparation inputs and seals 3,743 inputs. The 281-test baseline remains
+unchanged; no scientific rerun or evidence-only test suite is needed.
+
+The attempt and grant are consumed. Keep all sources, claims, arrays and
+historical reports frozen; no retry or remote cleanup is authorized. Both hosts
+can remain idle and this run's Terminal may close. Next prepare the remaining
+fixture/full-model coverage proposal offline. Other fixtures, generator replay,
+full-model behavior, performance/study costs, adoption and research admission
+remain pending; the historical approximately 1e-10 refusal remains unresolved.
+Financial caps and holds are unchanged; known Runpod Pods remain terminated.
+[Independent target review](report/checks/2026-11-05-attention-replay1-v1-target-review.md).
+
+## 2026-11-05 — One replay-1 university attempt explicitly approved
+
+The user approved the exact tested upload and resource scope. The separate
+replay-1 authorization is now recorded; source, control, original scientific
+bounds and the 281-test baseline are unchanged. Armed local verification denies
+process/network creation and rechecks 3,505 sealed inputs, 2,273 prior bindings,
+all 199 old capture files/exact mtimes, both archives, source maps, public host
+key and headroom. No claim, attended session, SSH, proof or calculation starts.
+
+Next run the new helper once from a local Mac Terminal, keeping SSH and the Mac
+awake through collection. The approved work has one continuing 600-second
+allowance: proof/setup/imports, two fresh serial original GPU replay-1 workers
+(at most 120 seconds each), and one CPU-only NumPy verifier (at most 90 seconds).
+The math worker requires the new complete passing efficient reference. Same-SSH
+collection permits up to another 600 seconds / 3 GiB. Setup/capture remain
+3 GiB/2.25 GiB; input/raw are explicitly 256/400 MiB. Original numerical and
+capture checks stay unchanged; no retry, claim reset, cleanup, paid compute or
+financial change is authorized. Linux10609 remains idle.
+
+On completion independently review the new evidence with all complete old
+captures. Remote subset attestations cannot stand in for locally absent old
+arrays. No original parent session, full-model research or performance/cost
+adoption is qualified by this authorization. The historical discrepancy remains
+unresolved. [Authorization record](report/checks/2026-11-05-attention-replay1-v1-authorization.md).
+
+## 2026-11-05 — Attention replay 1 operator prepared and unarmed
+
+The separate importer, observer, runtime, bounded resource operator, client and
+CPU cohort verifier are implemented. 281 local tests pass (118 new and 163
+frozen observer regressions), with zero errors, failures or skips. Two cold
+small CPU math workers and a separate CPU verifier preserve actual returns,
+original numerical decisions, the new-worker reference chain and complete
+artifact replay. The original NumPy reconstruction runs once on original fixed
+loader views and is captured before its unchanged gate. Refusals and write
+errors stop later work. Full-packet import is tested with computation blocked.
+
+The exact future payload contains the unchanged 85.6 MB synthetic packet,
+59.1 MB read-only reference archive and 16 operator files (220,890 bytes).
+The Mac client rechecks all 199 old files and exact mtimes before a new claim
+or connection. Imported old records, newly executed workers and the verifier
+have separate receipt fields. Omitted old NPZ data remains explicit attestation
+remotely; final target review must re-read the full old and new captures locally.
+
+Independent saved-file review blocks process/network creation and original
+worker/oracle/SDPA calls, rechecks 2,273 prior bindings and seals 3,505 inputs.
+It confirms 16 CPU gate checks, 96 FP32 component/bitwise checks and 16 saved
+NumPy reconstruction checks for the CPU analogue, and re-reads the accepted old
+CUDA pair. Local arm64 runtime differs from the target; no new CUDA, full-size
+proof, university work, SSH, grant, claim, cleanup or paid compute has started.
+
+Next request one new scoped university exception for 600 seconds of work
+including proof/setup, two serial original replay-1 workers and one CPU verifier,
+plus at most 600 seconds / 3 GiB same-SSH collection. Raw/input categories are
+explicitly 400/256 MiB; setup/capture remain 3 GiB/2.25 GiB. The new helper
+stays unarmed until approval. Original sources and consumed history stay frozen.
+No original parent session, performance/cost adoption or research result is
+claimed; the historical approximately 1e-10 refusal remains unresolved.
+Financial caps/holds are unchanged and known Runpod Pods remain terminated.
+[Prepared replay-1 operator](report/checks/2026-11-05-attention-replay1-v1-preparation.md).
+
+## 2026-11-04 — Remaining original attention replays proposed offline
+
+The checked proposal preserves the original graph: efficient replay 1 exactly
+references accepted efficient replay 0; math replay 1 references the new complete
+passing efficient replay 1. It imports only 16 pinned records / 59,132,357 bytes
+from the accepted pair, without rerunning those workers or renewing old grants.
+Complete old captures remain locally verified; the new import is explicitly a
+subset. Old/imported and new/executed receipt fields must remain separate.
+
+Source review maps all 22 explicit refusal conditions in the original final
+checker. Its NumPy FP64 reconstruction is additional work, so the proposal
+includes one fresh CPU-only verifier (at most 90 seconds), one unchanged NumPy
+oracle call and an actual FP64 return captured before the original gate. The
+two new original CUDA workers retain their two Torch CPU calls and twelve GPU
+iterations. Full-artifact bitwise cross-process replay, original per-replay
+references, numerical/backend/runtime/layout checks and timing-record validity
+stay required. This is explicitly a cross-attempt cohort; no invented original
+single-parent session or performance qualification is allowed.
+
+Resource arithmetic proposes one continuing 600-second attended attempt plus
+600 seconds / 3 GiB collection. Setup/capture ceilings remain 3 GiB/2.25 GiB.
+Raw captures are explicitly proposed at 400 MiB (previously 320), covering new
+workers, imported values, a NumPy return and transient-save/margin allowances.
+Input is explicitly proposed at 256 MiB (previously 128), covering both archives
+and a transient receive pair. The full 2.5 GiB proof precedes archive receipt.
+All capture categories total 864 MiB; work reservations total 500 seconds inside
+600. These are refusal caps, not reservations or measured future use.
+
+The stdlib-only design check reauthenticates 2,236 accepted inputs and all 199
+latest files/exact mtimes, seals 2,252 proposal inputs, and independently checks
+the graph, 16-file subset, scientific coverage map and arithmetic. Process/network
+creation is denied. No scientific modules, new worker/oracle/CUDA, operator,
+archive, helper, grant, claim, SSH, paid work or cleanup starts. Next implement
+and meaningfully test a separate unarmed operator/importer/combined verifier,
+then review its exact payload before any resource request. Consumed v1 modules
+remain frozen. Both hosts can remain idle and financial caps/holds are unchanged.
+[Offline replay-1 proposal](report/checks/2026-11-04-original-attention-replay1-proposal.md).
+
 ## 2026-11-04 — Original efficient/math GPU pair independently verified
 
 The attended linux10603 attempt completes both original encoder-1 workers:

@@ -1,0 +1,219 @@
+{
+  "SSH_connections": 0,
+  "additional_CPU_only_verifier_count": 1,
+  "attempt_claim_present": false,
+  "authorization_present": false,
+  "authorized": false,
+  "base_commit": "3a07203bf4f53fa0357bb9d6b25915692873e5da",
+  "capture_actual_CPU_and_all_six_FP32_GPU_returns_before_gates": true,
+  "capture_actual_NumPy_return_before_gate": true,
+  "case": "encoder-1",
+  "cohort_provenance": "Explicit cross-attempt; separate imported/executed/verifier records; never fabricate an original parent session.",
+  "cross_process_replay_check": "Exact complete original artifact tensor signatures per arm across replay0/replay1.",
+  "date": "2026-11-04",
+  "efficient_replay1_reference_check": "Exact original result signatures against accepted efficient replay0.",
+  "expected_driver": "580.178.04",
+  "expected_gpu": "NVIDIA GeForce RTX 3070",
+  "expected_gpu_uuid": "GPU-e54fae90-feeb-8106-d8c0-1974fe48555f",
+  "expected_numpy": "2.4.6",
+  "expected_python": "3.11.17",
+  "expected_torch": "2.8.0+cu128",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "host": "linux10603",
+  "imported_workers_count": 2,
+  "kind": "original-attention-replay1-offline-proposal-v1",
+  "launch_helper_prepared": false,
+  "math_replay1_reference_check": "Original component tolerances against new complete passing efficient replay1.",
+  "new_original_GPU_workers_count": 2,
+  "new_original_worker_or_oracle_or_CUDA_executed": false,
+  "new_resource_grant_requested": false,
+  "new_tasks": [
+    {
+      "arm": "efficient",
+      "case": "encoder-1",
+      "origin": "proposed-new-fresh-process",
+      "reference": "encoder-1-efficient-0",
+      "replay": 1,
+      "worker": "encoder-1-efficient-1"
+    },
+    {
+      "arm": "math",
+      "case": "encoder-1",
+      "origin": "proposed-new-fresh-process",
+      "reference": "encoder-1-efficient-1",
+      "replay": 1,
+      "worker": "encoder-1-math-1"
+    }
+  ],
+  "next_step": "Implement a separate unarmed replay1 operator/importer/combined-cohort verifier, test and independently review exact payload/control before any new resource request.",
+  "operator_implemented": false,
+  "original_CPU_bookkeeping_bounds": {
+    "atol": 1e-14,
+    "rtol": 1e-12
+  },
+  "original_NumPy_reconstruction_bounds": {
+    "atol": 1e-14,
+    "rtol": 1e-12
+  },
+  "original_component_and_reference_bounds": {
+    "dq_dk_dv": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "output": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    }
+  },
+  "paid_compute_started": false,
+  "policy_proposed": {
+    "CPU_verifier_seconds": 90,
+    "NumPy_return_file_bytes": 16777216,
+    "all_capture_categories_sum_bytes": 905969664,
+    "both_archives_and_one_transient_receive_name_pair_bytes": 238354222,
+    "capture_ceiling_unchanged": 2415919104,
+    "collection_bytes": 3221225472,
+    "collection_seconds": 600,
+    "exact_new_overlay_and_reference_archive_manifest_pending": true,
+    "explicit_input_increase_bytes": 134217728,
+    "explicit_raw_increase_bytes": 83886080,
+    "future_capacity_or_success_guaranteed": false,
+    "individual_tensor_file_bytes": 33554432,
+    "initial_free_bytes": 8589934592,
+    "kind": "static_replay1_design_caps_not_measured_target_work",
+    "max_concurrent_scientific_processes": 1,
+    "new_CPU_verifier_processes": 1,
+    "new_GPU_attention_iterations": 12,
+    "new_GPU_workers": 2,
+    "new_original_NumPy_CPU_calls": 1,
+    "new_original_Torch_CPU_calls": 2,
+    "new_overlay_limit_bytes": 2097152,
+    "numeric_bounds_relaxed": false,
+    "original_Torch_allocator_gib": 4,
+    "outer_work_seconds": 600,
+    "previous_claims_or_allowances_reset": false,
+    "previous_pair_input_category_bytes": 134217728,
+    "previous_pair_raw_category_bytes": 335544320,
+    "proof_before_archives_max_planned_bytes": 2770337792,
+    "proof_bytes": 2684354560,
+    "proof_precedes_all_archive_receipt_and_extraction": true,
+    "proof_seconds": 60,
+    "proposed_input_category_bytes": 268435456,
+    "proposed_raw_category_bytes": 419430400,
+    "raw_terms_bytes": {
+      "imported_value_files_allowance": 67108864,
+      "margin": 50331648,
+      "new_NumPy_return": 16777216,
+      "one_atomic_save_name_pair": 33554432,
+      "two_new_workers": 251658240
+    },
+    "reference_values_duplicated_or_hardlinked": false,
+    "remaining_work_margin_seconds": 100,
+    "runtime_floor_bytes": 1073741824,
+    "setup_ceiling_unchanged": 3221225472,
+    "work_subtotal_seconds": 500,
+    "work_terms_seconds": {
+      "CPU_verifier": 90,
+      "final_receipts_and_checks": 60,
+      "setup_including_proof": 110,
+      "two_original_workers": 240
+    },
+    "worker_seconds": 120
+  },
+  "prerequisite": {
+    "accepted_pair_control_sha256": "dabbd82a5d31c480d480fe314179683c9364984abde012f984656223231ffa3c",
+    "accepted_pair_review_path": "report/checks/2026-11-04-original-attention-pair-v1-target-review.json",
+    "accepted_pair_review_sha256": "2c34e86380b781f3cb66b731dba38825a448fc669c22eaefb699a0e0e27a72f8",
+    "accepted_raw_review_sha256": "349e1d1225b92afaf8c75702c0bd03b607e55c026b1618cd9cf9e0fd5f45ecd8",
+    "all_199_old_files_and_exact_mtimes_reverified": true,
+    "consumed_pair_claim_sha256": "f7d663471c3e2afd4d22ced57fca02f6c2210cb08d0a7c9e234355d2dd213a4e",
+    "historical_discrepancy_resolved": false,
+    "new_attempt_authorized": false,
+    "old_pair_claim_consumed": true,
+    "original_archive_sha256": "51c4e4b71ec292afc65ee3bd53c5556c6b538056d607244aef4945ed5fcded9a",
+    "original_handoff_sha256": "61158d9b148ad32741d4cfaa7ec2862671b4ee5e534c0b9e1b26f611ec018b37",
+    "original_parent_session_qualified": false,
+    "research_admitted": false
+  },
+  "proposal_only": true,
+  "qualification_limits": {
+    "current_cross_attempt_cohort_qualified": false,
+    "current_replay1_qualified": false,
+    "full_model_qualified": false,
+    "future_cross_attempt_cohort_acceptance_requires_all_scientific_checks_and_full_independent_saved_review": true,
+    "historical_discrepancy_resolved": false,
+    "optimization_adopted": false,
+    "original_parent_session_qualified": false,
+    "performance_or_study_cost_qualified": false,
+    "research_admitted": false
+  },
+  "reference_archive_prepared": false,
+  "reference_graph": [
+    {
+      "arm": "efficient",
+      "case": "encoder-1",
+      "origin": "accepted-previous-attempt",
+      "reference": null,
+      "replay": 0,
+      "worker": "encoder-1-efficient-0"
+    },
+    {
+      "arm": "math",
+      "case": "encoder-1",
+      "origin": "accepted-previous-attempt",
+      "reference": "encoder-1-efficient-0",
+      "replay": 0,
+      "worker": "encoder-1-math-0"
+    },
+    {
+      "arm": "efficient",
+      "case": "encoder-1",
+      "origin": "proposed-new-fresh-process",
+      "reference": "encoder-1-efficient-0",
+      "replay": 1,
+      "worker": "encoder-1-efficient-1"
+    },
+    {
+      "arm": "math",
+      "case": "encoder-1",
+      "origin": "proposed-new-fresh-process",
+      "reference": "encoder-1-efficient-1",
+      "replay": 1,
+      "worker": "encoder-1-math-1"
+    }
+  ],
+  "reference_subset": {
+    "archive_bytes_cap": 67108864,
+    "files": 16,
+    "financial_ledger_credentials_weights_or_pixels_in_payload": false,
+    "logical_bytes": 59132357,
+    "manifest_sha256": "01b760d190554e857f98233600eebc924796f54825b261c4049911ae14a00922",
+    "missing_old_NPZ_files_not_claimed_present_remotely": true,
+    "old_resource_grant_in_payload": false,
+    "old_worker_records_unchanged": true
+  },
+  "remote_cleanup_performed": false,
+  "scientific_call_bounds": {
+    "new_GPU_attention_iterations": 12,
+    "new_NumPy_CPU_reconstruction_calls": 1,
+    "new_Torch_CPU_oracle_calls": 2
+  },
+  "shape": [
+    1,
+    16,
+    400,
+    64
+  ]
+}

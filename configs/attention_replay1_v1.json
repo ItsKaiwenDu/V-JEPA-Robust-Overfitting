@@ -1,0 +1,162 @@
+{
+  "actual_NumPy_FP64_return_before_gate": true,
+  "actual_Torch_CPU_and_GPU_returns_before_gates": true,
+  "attempt_claim_present": false,
+  "authorization_present": false,
+  "authorized": false,
+  "base_commit": "3a07203bf4f53fa0357bb9d6b25915692873e5da",
+  "cohort_provenance": "Cross-attempt; separate imported/new worker/verifier records; original parent session remains unclaimed.",
+  "date": "2026-11-05",
+  "errors": 0,
+  "failures": 0,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "frozen_observer_regression_checks": 163,
+  "full_model_qualified": false,
+  "helper_prepared": true,
+  "historical_discrepancy_resolved": false,
+  "host": "linux10603",
+  "kind": "attention-replay1-v1-unarmed-preparation",
+  "launchable_now": false,
+  "new_CPU_only_verifiers": 1,
+  "new_CUDA_runs": 0,
+  "new_SSH_connections": 0,
+  "new_attempts": 1,
+  "new_checks": 118,
+  "new_original_GPU_workers": 2,
+  "new_resource_exception_required": true,
+  "old_numerical_bounds": {
+    "NumPy_CPU": {
+      "atol": 1e-14,
+      "rtol": 1e-12
+    },
+    "Torch_CPU": {
+      "atol": 1e-14,
+      "rtol": 1e-12
+    },
+    "components": {
+      "dq_dk_dv": {
+        "atol": 2e-07,
+        "rtol": 0.002
+      },
+      "output": {
+        "atol": 2e-05,
+        "rtol": 0.0001
+      }
+    }
+  },
+  "operator_implemented": true,
+  "optimization_adopted": false,
+  "original_parent_session_qualified": false,
+  "paid_compute": false,
+  "performance_or_cost_qualified": false,
+  "policy": {
+    "CPU_verifier_seconds": 90,
+    "automatic_retries": 0,
+    "capture_ceiling": 2415919104,
+    "collection_seconds": 600,
+    "emergency_bytes": 16777216,
+    "max_CPU_oracle_calls": 3,
+    "max_CPU_return_bytes": 16777216,
+    "max_CPU_verifiers": 1,
+    "max_GPU_return_bytes": 8388608,
+    "max_NumPy_CPU_oracle_calls": 1,
+    "max_Torch_CPU_oracle_calls": 2,
+    "max_archive_bytes": 1082130432,
+    "max_array_bytes": 33554432,
+    "max_attention_iterations": 12,
+    "max_code_bytes": 134217728,
+    "max_collection_bytes": 3221225472,
+    "max_files": 1024,
+    "max_header_bytes": 1048576,
+    "max_input_bytes": 268435456,
+    "max_launcher_log_bytes": 16777216,
+    "max_metadata_bytes": 67108864,
+    "max_overlay_bytes": 2097152,
+    "max_raw_bytes": 419430400,
+    "max_reference_archive_bytes": 67108864,
+    "max_seconds": 600,
+    "max_workers": 2,
+    "minimum_free_bytes": 8589934592,
+    "minimum_free_inodes": 2048,
+    "poll_seconds": 0.25,
+    "runtime_free_floor": 1073741824,
+    "setup_ceiling": 3221225472,
+    "worker_seconds": 120,
+    "write_test_bytes": 2684354560,
+    "write_test_seconds": 60
+  },
+  "prepared_checks": 281,
+  "previous_grants_consumed": true,
+  "reference_archive_prepared": true,
+  "reference_graph": [
+    {
+      "arm": "efficient",
+      "case": "encoder-1",
+      "origin": "accepted-previous-attempt",
+      "reference": null,
+      "replay": 0,
+      "worker": "encoder-1-efficient-0"
+    },
+    {
+      "arm": "math",
+      "case": "encoder-1",
+      "origin": "accepted-previous-attempt",
+      "reference": "encoder-1-efficient-0",
+      "replay": 0,
+      "worker": "encoder-1-math-0"
+    },
+    {
+      "arm": "efficient",
+      "case": "encoder-1",
+      "origin": "proposed-new-fresh-process",
+      "reference": "encoder-1-efficient-0",
+      "replay": 1,
+      "worker": "encoder-1-efficient-1"
+    },
+    {
+      "arm": "math",
+      "case": "encoder-1",
+      "origin": "proposed-new-fresh-process",
+      "reference": "encoder-1-efficient-1",
+      "replay": 1,
+      "worker": "encoder-1-math-1"
+    }
+  ],
+  "references": {
+    "archive_bytes": 59146240,
+    "complete_old_capture_before_upload_recheck_files": 199,
+    "files": 16,
+    "logical_bytes": 59132357,
+    "old_full_NPZ_captures_remain_local": true,
+    "old_grants_renewed": false,
+    "read_only": true
+  },
+  "research_admitted": false,
+  "skipped": 0,
+  "tasks": [
+    {
+      "arm": "efficient",
+      "case": "encoder-1",
+      "replay": 1,
+      "worker": "encoder-1-efficient-1"
+    },
+    {
+      "arm": "math",
+      "case": "encoder-1",
+      "replay": 1,
+      "worker": "encoder-1-math-1"
+    }
+  ]
+}

@@ -2,6 +2,178 @@
 
 ## Current stage
 
+LATEST Nov05: ORIGINAL ENCODER1 REPLAY1 COHORT INDEPENDENTLY ACCEPTED.
+Read report/checks/2026-11-05-attention-replay1-v1-target-review.json/md FIRST.
+ONEapprovedattemptCONSUMED:attended-7z22cufr/claimSHA
+6a2f7777c884b6484afef63cf420e0dabaa7b885fe043cb296f7480a732ad02a.
+Controlf8855f12.../AUTHb8bae9c7.../allcapturedoperator+scientificsourcesFROZEN.
+BothORIGINALCUDAworkers encoder1efficient1->math1 COMPLETE/PASS;mathreference
+NEWcompletepassingefficient1;efficient1EXACTrefaccepted e0. SeparatefreshPIDs
+3085963/3086604,CPUverifier3086931/serialboundariesverify. 2newTorchCPUFP64+
+12actualGPUFP32captures savedBEFOREoriginalgates/all6phases/actualdtype/layout.
+8newCPUgates/48FP32component+48bitwisechecksPASS;8CPUarraysbitwiseequalprior
+boundary. CUDAforward/backwardbackendsobserved/175efficient+216mathrowsretained.
+ONEfreshCPU NumPyoraclecall/actualFP64returnFA0D385C...BEFOREoriginalgate;
+CUDAhidden/uninitialized. Originalfixedloaderviews/argorder/1e-12,1e-14.
+FULLold199files/NPZ/inputcapturesREREADlocally withnewcaptures; imported16old
+referencesREMAINsubset/attestationonlyremotely/nooldgrantrenewal. Imported/
+newexecuted/verifierreceiptsSEPARATE. All4ORIGINALencoder1workersacross2attempts
+CROSS-ATTEMPTCOMPONENTCOHORTaccepted; NOoriginalsingleparentsessionfabricated.
+CompleteartifactsignaturesEXACT perarmacross0/1;bothmathcomparisons/refs/original
+runtime/source/hardware/backend/layout/replay/timingVALIDITY/allocatorPASS.
+Cohort16TorchCPU/96FP32component+bitwise/16NumPyreconstructionsPASS.
+Response506018920B/SHA81a35838.../227files505797167logicalB/hash/exactmtime+
+mode400importsverified. 139members/16overlays/2273priorpins/3505prepinputs
+unchanged;3743inputssealed. IndependentRAWreviewSHA
+7a0ef963323fcfff0b0059019c9bddc60c565329f32e4a205646cf6c842ed970.
+ReviewDENIESprocess/network+worker/oracle/SDPA;NOnewcalculations/SSH/cleanup/
+paidwork. CPUexportVstridemaypack:LIVEstridegate+exportlogicalbytesSEPARATE.
+Work81.268s<600/proof9.651s/1926events/proofBEFOREbotharchives. Setuppeak
+2702336000B<3GiB/capture523165696B<2.25GiB/raw268688258B<400MiB.
+Supervisionsamples98proof/106e1/52m1/30CPUverifier. Noowneddescendantsleft.
+Completecollectionboundsenforcedbyunchangedsource;NOseparateelapsedreceipt.
+SamplingNOTcontinuousGPUexclusivity;capsNOTaggregatequota/reservation. NEVERuse
+instrumentedtimingsforspeed/cost/adoption. 281tests unchangedbaseline;noevidence-
+onlyunittestsrerun. Originalparent/fullmodel/otherfixtures/generator/performance/
+researchNOTqualified;old~1e-10UNRESOLVED/missingoldcomputedreturnsNOTrecovered.
+Remote/var/tmp/vjepa-attention-replay1-v1-20261105-linux10603-ttjcvkpe RETAINED;
+nodeletionauthorized. Bothhostsmayidle;attemptTerminalcanclose. NEVERrelaunch
+consumedhelper/resetclaim. NEXT PREPARE OFFLINE next-coverageproposal from
+FROZENremainingfixture/fullmodelevidence. ProposalONLY:NOnewoperator/grantrequest/
+SSH/upload/worker/oracle/CUDA/cleanup/paidwork. Reverify3743pins/latest227exact
+mode+mtime/old199captures first. AllgrantsCONSUMED; newscope/reviewbeforeany
+resourceexception. Financial9.8116/.1884/old2hold/.0792gap/10diag/160compute/
+200project/40reserve/wallet6.56/reconciliationfalseUNCHANGED;knownRunpodterminated.
+Usercommitsself;NEVERstage/commit/push. EarlierLATESTentrieshistorical.
+
+LATEST Nov05: ONE ATTENTION REPLAY1 V1 ATTEMPT APPROVED; ARMED/UNRUN.
+Read report/checks/2026-11-05-attention-replay1-v1-authorization.json/md FIRST.
+Userapprovedexacttestedcontrol f8855f126590c2d8b3eb78d9e245027ff0e950837ec2e4736a22dc5209d6274e.
+Newrawattention-replay1-v1-20261105/linux10603/AUTHORIZATION.json EXISTS.
+NoATTEMPT.json/attendedsession/SSH/proof/worker/oracle/CUDA started. DoNOTask
+thissameapprovalagain. 3505sealedinputs/2273priorpins/199oldfilesexactmtime/
+botharchives/17localsources/16overlays/publickey/headroom reverified locally;
+process/networkcreationDENIED. 281tests remainunchangedbaseline; metadataarmONLY.
+Source/control/scientificgates/preparationhistoryunchanged. GrantONLYhost10603/
+freshprivateXFS/var/tmp/85622679Bsynthetic+59146240B16read-onlyreferences+
+16overlays220890B+boundmetadata. OldgrantsprovenanceONLY/norenewal/reset.
+ONE600souterwork inclfull2.5GiBproof<=60sBEFOREbotharchives/setup<=110s/
+twofreshserialORIGINALCUDAworkers efficient1->math1<=120seach;mathrequiresNEW
+completepassingefficient1. ThenONEfreshCPUonlyNumPyverifier<=90s,CUDAhidden/
+noinit/SDPA;originalfixedloaderviews/ONEactualFP64returnBEFOREoriginalgate.
+Max2TorchCPU+1NumPyCPUcalls/12GPUiterations, originalbounds/runtime/layout/
+actualbackend/fullartifactreplay unchanged. Setup3GiB/capture2.25GiB;
+input256MiB/raw400MiB EXPLICITLYapproved. Perfile32MiB/CPUreturn16/GPUreturn8/
+Torchallocator4GiB unchanged. Collection<=600s/3GiB SAMEattendedSSH,ALLNPZ/
+imports/exactmode+mtime. Noautomaticretry/claimreset/deadlineextension/
+foreignprocesskill/oldremoteexpunge/paidcompute/newfinancialhold.
+NEXT userrunsONLYnewrawlinux10603/run-attended.sh ONCE fromLOCALMacTerminal;
+passwordpromptly/keepTerminal+SSH+Macawake+lidopen throughcollection.10609idle.
+LiveGPU/storagegatesrecheck. OnDone independentlyreviewnewclaim/proof/source/
+allreturns/originalbackend/refusals + FULLoldcaptures; subsetattestationNEVER
+claimsoldNPZpresentremotely. OnfailurePRESERVE/review;NEVERrepeatlaunch.
+Nooriginalparent/sessionfabricated;cohortFULLreview/performance/fullmodel/
+research remainPENDING;historical~1e-10UNRESOLVED. InstrumentedtimingsNOTspeed/
+cost/adoption. Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/
+40reserve/wallet6.56/reconciliationfalseUNCHANGED;knownRunpodterminated.
+Usercommitsself;NEVERstage/commit/push. EarlierLATESTentries historical.
+
+LATEST Nov05: ATTENTION REPLAY1 V1 PREPARED/TESTED, UNARMED.
+Read docs/attention_replay1_v1.md,configs/attention_replay1_v1.json and
+report/checks/2026-11-05-attention-replay1-v1-preparation.json/md FIRST.
+Separate importer/observer/runtime/operator/client/cohortCPUverifier; captured
+scientific/operator sources/history FROZEN. 281checks PASS/0errors/failures/skips:
+118new+163frozenobserverregressions. Realcold tinyCPUmath analogues ONLY:
+2newworkers+1freshCPU NumPyverifier; originalcode/gates/math unchanged. Actual
+2TorchCPUFP64+12FP32returns+1NumPyFP64return BEFOREgates. NumPy uses ORIGINAL
+fixedloaderviews/argorder/bounds1e-12/1e-14. Nocast; capturesIOerror/oldCPU/
+NumPyrefusal failclosed. Fullpacket139coldimports withcomputationBLOCKED.
+16oldrecords/59132357logicalB/59146240B referenceUSTAR hash/mtime/mode0400;
+oldgrantsPROVENANCEonly/no renewedclaim. Clientrechecksold199files/exactmtime
+BEFOREnewclaim/SSH. Imported/newexecuted/CPUverifier fieldsSEPARATE.
+Math1 referenceNEWcompletePASS efficient1; efficient1exactrefaccepted e0.
+Fullartifactcrossreplay/all21scientificrefusals preserved; original22ndparent
+sessionenvelopeUNCLAIMED. OldNPZ/inputfilesNOTinsubset;remoteattestationonly;
+FINALindependentMacreviewMUSTrereadFULLold+newcaptures beforecohortacceptance.
+CPUexportVstride maybepacked:checkLIVEfixturestride+exportlogicalbytesseparate.
+IndependentSAVEDreview deniesprocess/networkcreation andworker/oracle/SDPA;
+2273priorpins+199oldfiles/exactmtime+139members+16refs+localcapturesverify;
+3505inputssealed. CPUcohort16CPUbounds/96FP32component+bitwise/16NumPychecks;
+acceptedoldCUDApair8CPU/48FP32checks REREADonly. Localarm64/Python3.11.16/
+Torch2.14.1 !=target; NOnewCUDA/fullproof/universityrun/SSH/cleanup/paidwork.
+Control f8855f126590c2d8b3eb78d9e245027ff0e950837ec2e4736a22dc5209d6274e.
+Review6b7899ae89b777aa9cb45be35a1206ee683376beb6ace530657fe61b8d2a6cb6.
+Exactpayload85622679Bsynthetic+59146240B16references+16overlays220890B+metadata;
+17localsources/bootstrap765809B. Nofinancialledger/credentials/privatekeys/
+weights/researchpixels/oldRESOURCEgrant. Newrawattention-replay1-v1-20261105/
+linux10603/run/download helpers UNARMED:AUTHORIZATION.json/ATTEMPT.json ABSENT.
+Actualshell/processblockedclient REFUSE beforeSSH/session/claim.
+NEXT seekONE newexplicit exception againstreviewedexactscope; donotarm/upload/
+connect/startuntilapproval. PriorgrantsCONSUMED; nooldhelperreuse/claimreset.
+Scopehost10603ONLY/freshprivateXFS/var/tmp/600souter inclfull2.5GiBproof<=60s
+BEFOREarchives/setup<=110s/2freshserialoriginalCUDAworkers<=120each then1fresh
+CPUonlyverifier<=90s. Max2TorchCPU+1NumPyCPUcalls/12GPUiterations. Original
+setup3GiB/capture2.25GiB unchanged; EXPLICITinput256MiB/raw400MiB;references
+archive/unpacked<=64MiB each;CPUreturn16/GPUreturn8/individual32MiB;Torch4GiB.
+Collection<=600s/3GiB SAMEattendedSSH includesALLNPZ/imports/exactmode+mtime.
+Noretry/nextphaseonrefusal/deadlineextension/foreignprocesskill/remoteolddelete/
+newfinancialhold. SamplingNOTcontinuousGPUexclusivity;capsNOTaggregatequota/
+reservation/futurecapacity. Bothhosts mayidle;10609outsidescope. NEVERuse
+instrumentedtimings forspeed/cost/adoption. Parent/fullmodel/otherfixtures/
+generator/performance/research PENDING;~1e-10UNRESOLVED. Financeunchanged
+9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/wallet6.56/
+reconciliationfalse;knownRunpodterminated. Usercommitsself;NEVERstage/commit/push.
+EarlierLATESTentries historical snapshots, includingNov04proposalNOoperator.
+
+LATEST Nov04: ORIGINAL ATTENTION REPLAY1 OFFLINE PROPOSAL COMPLETE; NO OPERATOR.
+Read docs/original_attention_replay1_proposal.md,configs/original_attention_
+replay1_proposal_v1.json and report/checks/2026-11-04-original-attention-
+replay1-proposal.json/md FIRST. DesignONLY; NOoperator/referencearchive/
+launchhelper/AUTH/ATTEMPT/SSH/worker/oracle/CUDA/paidwork/cleanup/grantrequest.
+2236acceptedinputs+199latestfiles/exactmtime+acceptedreview reverify;
+2252proposalinputs sealed. Stdlib/sourceASTchecks with process/networkcreation
+DENIED; NOscientificimports/calls. Allcapturedsources/claims/arrays/reportsFROZEN.
+Originalgraphverified: e0->none,m0->e0,e1->e0 EXACT,m1->NEWcompletePASS e1.
+ProposeONEnewattended host10603 attempt/TWOfreshserial ORIGINALCUDAworkers
+encoder1efficient1 thenmath1; preserveall6CPU/GPUreturnphases andactualFP32.
+No rerunoldpair. Import16oldrecords/59132357B (twoPT29487103B each) as
+read-onlyhash/mtimepinned REFERENCES; noexpiredgrantreuse/claimreset. Future
+referencearchive<=64MiB PENDINGimplementation; oldfullNPZcaptures staylocal
+and mustbe reread byfinalindependentreview, NOTclaimedpresentinimportsubset.
+Separateimported/newexecuted/verifier receiptfields; nofakeoriginalsession.
+CRITICAL originalsummaryadds NumPyFP64reconstruction ONCEpercase. Proposed
+scopeexplicitlyaddsONEfreshCPUonlyverifier<=90s afterbothnewworkerspass,
+CUDAhidden/noinit/SDPA; ONEunchangedNumPyoraclecall/actualFP64returncapture
+BEFOREoriginalnp.allclose gate(argorderpreserved,1e-12/1e-14). Newattempt
+max2TorchCPU+1NumPyCPUcalls/12GPUiterations, ONEscientificprocessatatime.
+22originalsummaryrefusals mapped; newcombinedcohort verifierMUSTpreserve
+scientificchecks/fullartifactexactreplay/per-replayrefs/canonicalreconstruction/
+backend/runtime/live-layout/timingVALIDITY/allocator. Singleoriginalparent
+sessionenvelope remainsUNCLAIMED evenifcrossattemptcohortpasses. NOoriginal
+parent/summarizer invocation/fabricatedsession/walltime/oldcompletionrewrite.
+CPUexportVstride maybepacked; checkLIVErecordagainstfixture+exportlogicalbytes
+separately. Keepalloldnumericgates/refusals/rows;~1e-10 stillUNRESOLVED.
+Proposed600souter inclproof2.5GiB<=60/setup<=110/2GPUworkers<=120each/
+CPUverifier<=90/finalchecks60;500sstaticallocation+100margin, noclockreset.
+SameSSHcollection<=600s/3GiB/allNPZ/imports. Setup3GiB/capture2.25GiB unchanged;
+EXPLICITnewraw400MiB vs320 (240new+64import+16NumPy+32atomic+48margin),
+input256MiB vs128 (twoarchives+transientreceive). Categories864MiB<2.25GiB.
+ProofBEFOREarchives. Perfile32MiB/CPUreturn16/GPUreturn8/Torchallocator4GiB/
+initial8GiB/freefloor1GiB/inode/foreigncompute guards unchanged. CapsNOTquota/
+continuousGPUexclusivity/reservation/guaranteedfuturecapacity. Newoverlay<=2MiB
+exactpayload/control PENDINGimplementation/testing/review. Noresourcesaskednow.
+NEXT IMPLEMENTseparateUNARMEDreplay1operator/importer/cohortverifier. Meaningful
+realCPUtinyanalogs/coldfullimportblocked/refusal/FP32/before-gateNumPyreturn/
+exactreferences/completeartifactreplay/oldsubsetprovenance/guards/clocks/
+collection/unarmed-beforeSSH tests, thenindependentreview EXACTpayload/scope
+BEFOREnewgrant. DoNOTeditconsumedv1observer/runtime (live0ONLY) orv1audit
+(assumesperarrayreference;efficient1 usesexact_replay). Nooldhelperreuse.
+Bothhostsidle; noGPUcheck neededuntiloperatorready. Parent-session/fullmodel/
+performance/cost/adoption/research PENDING; instrumentedtimingsNEVERspeed/budget.
+Financial9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+wallet6.56/reconciliationfalseUNCHANGED; knownRunpodterminated. Usercommitsself;
+NEVERstage/commit/push. EarlierLATESTentries historical.
+
 LATEST Nov04: ORIGINAL EFFICIENT/MATH GPU PAIR V1 INDEPENDENTLY VERIFIED.
 Read report/checks/2026-11-04-original-attention-pair-v1-target-review.json/md
 FIRST. ONE approvedattempt CONSUMED:attended-ctv6hett/claimSHA

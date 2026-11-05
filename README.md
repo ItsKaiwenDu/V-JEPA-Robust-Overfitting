@@ -1,5 +1,39 @@
 # V-JEPA Robust Overfitting
 
+**Original encoder-1 replay cohort verified (November 5):**
+[Both replay-1 workers and the CPU reconstruction pass independent review](report/checks/2026-11-05-attention-replay1-v1-target-review.md).
+The complete old and new captures cover all four original encoder-1 workers
+across two separate attempts, with exact artifact replay and unchanged gates.
+This attempt is consumed and finished; both hosts can stay idle. Next prepare
+the remaining validation scope offline. Full-model, other-fixture, performance
+and research qualifications remain pending. Earlier entries are historical.
+
+**One attention replay-1 attempt approved (November 5):**
+[The linux10603 helper is armed and locally verified](report/checks/2026-11-05-attention-replay1-v1-authorization.md).
+The approved work covers two missing original replay-1 GPU workers, followed
+on success by one CPU verifier, within the tested limits. No attempt or SSH
+has started. Run the new attended helper once from a local Mac Terminal and
+keep it open through collection; linux10609 stays idle. Earlier unarmed entries
+are preparation snapshots.
+
+**Attention replay 1 prepared and unarmed (November 5):**
+[281 local checks and independent saved-file review pass](report/checks/2026-11-05-attention-replay1-v1-preparation.md).
+The separate operator imports the accepted references read-only, runs only the
+two missing replay-1 workers, then checks one captured NumPy FP64 reconstruction.
+Small CPU analogues pass; target CUDA work has not started. The exact university
+handoff needs a new scoped resource exception. No SSH, authorization or claim
+exists. Original parent-session, performance and research qualifications remain
+pending; both hosts can remain idle. Earlier entries are historical snapshots.
+
+**Remaining attention replays proposed offline (November 4):**
+[The checked proposal preserves the original reference chain and final CPU reconstruction](report/checks/2026-11-04-original-attention-replay1-proposal.md).
+It plans two new replay-1 GPU workers using the accepted pair as immutable
+references, followed by one bounded CPU-only verifier. Results would be labelled
+as a cross-attempt component cohort; no original parent session is fabricated.
+No operator, archive, grant or remote work is prepared. Next implement and test
+that separate unarmed operator. Both hosts can stay idle. Earlier entries are
+historical snapshots.
+
 **Original efficient/math GPU pair verified (November 4):**
 [Both original workers and complete saved captures pass independent review](report/checks/2026-11-04-original-attention-pair-v1-target-review.md).
 All six phases per arm pass the unchanged numerical, real-backend and replay
