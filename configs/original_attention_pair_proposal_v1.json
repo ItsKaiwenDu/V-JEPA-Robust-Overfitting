@@ -1,0 +1,179 @@
+{
+  "GPU_phases_per_worker": [
+    "untimed",
+    "profiled",
+    "warmup",
+    "timed-1",
+    "timed-2",
+    "timed-3"
+  ],
+  "SSH_connections": 0,
+  "attempt_claim_present": false,
+  "authorization_present": false,
+  "authorized": false,
+  "base_commit": "163d446d8d24b02bd0aa8bf892d1a35348ab4ca1",
+  "date": "2026-11-04",
+  "evidence": {
+    "CPU_return_dtype": "float64",
+    "GPU_return_dtype": "float32",
+    "actual_backend_trace_required": true,
+    "capture_all_six_original_GPU_returns_before_gates": true,
+    "capture_original_CPU_return_before_gate": true,
+    "collection_manifest_covers_NPZ": true,
+    "detailed_library_context_after_original_worker_only": true,
+    "existing_finished_files_only_on_collection": true,
+    "preserve_original_input_and_values_snapshots": true,
+    "record_timing_but_exclude_from_cost_or_speed_qualification": true,
+    "within_process_exact_replay_required": true
+  },
+  "expected_driver": "580.178.04",
+  "expected_gpu": "NVIDIA GeForce RTX 3070",
+  "expected_gpu_uuid": "GPU-e54fae90-feeb-8106-d8c0-1974fe48555f",
+  "expected_numpy": "2.4.6",
+  "expected_python": "3.11.17",
+  "expected_torch": "2.8.0+cu128",
+  "failure_policy": {
+    "any_original_gate_or_capture_error_stops_pair": true,
+    "leave_foreign_processes_alone": true,
+    "never_reset_old_claims": true,
+    "no_automatic_retry": true,
+    "no_candidate_after_rejected_baseline": true,
+    "preserve_all_partial_outputs": true,
+    "stop_only_owned_children": true
+  },
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "host": "linux10603",
+  "kind": "original-attention-pair-offline-proposal-v1",
+  "launch_helper_prepared": false,
+  "launchable_now": false,
+  "new_resource_grant_requested": false,
+  "new_university_work_started": false,
+  "next_step": "Implement a separate unarmed operator, capture writer and client, then test and independently review the exact payload/bounds before seeking any new GPU-execution resource grant.",
+  "operator_implemented": false,
+  "original_CPU_bookkeeping_bounds": {
+    "atol": 1e-14,
+    "rtol": 1e-12
+  },
+  "original_component_and_reference_bounds": {
+    "dk": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dq": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dv": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "output": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    }
+  },
+  "paid_compute_started": false,
+  "payload": {
+    "exact_new_overlay_manifest_finalized": false,
+    "original_archive_bytes": 85622679,
+    "original_archive_members": 139,
+    "original_archive_sha256": "51c4e4b71ec292afc65ee3bd53c5556c6b538056d607244aef4945ed5fcded9a",
+    "prior_raw_captures_or_financial_ledger_included": false,
+    "private_keys_or_secrets_included": false,
+    "weights_or_research_pixels_included": false
+  },
+  "policy_proposed": {
+    "GPU_guard_interval_seconds": 5,
+    "allocator_gib_per_worker": 4,
+    "automatic_retries": 0,
+    "capture_ceiling_bytes": 2415919104,
+    "collection_bytes": 3221225472,
+    "collection_seconds": 600,
+    "emergency_bytes": 16777216,
+    "individual_tensor_file_bytes": 33554432,
+    "initial_free_bytes": 8589934592,
+    "max_code_bytes": 134217728,
+    "max_concurrent_scientific_workers": 1,
+    "max_files": 1024,
+    "max_fresh_scientific_workers": 2,
+    "max_input_bytes": 134217728,
+    "max_metadata_bytes": 67108864,
+    "max_original_CPU_oracle_calls": 2,
+    "max_original_GPU_iterations": 12,
+    "max_overlay_bytes": 2097152,
+    "max_seconds": 600,
+    "maximum_new_attempts": 1,
+    "per_CPU_return_file_bytes": 16777216,
+    "per_GPU_return_file_bytes": 8388608,
+    "raw_capture_category_bytes": 335544320,
+    "runtime_free_floor_bytes": 1073741824,
+    "setup_ceiling_bytes": 3221225472,
+    "worker_seconds": 120,
+    "write_test_bytes": 2684354560,
+    "write_test_seconds": 60
+  },
+  "prerequisite": {
+    "GPU_attention_qualified": false,
+    "accepted_actual_CPU_return_sha256": "c7da1f108881a005432443180ffe10f814bf67aa541abae109add84276a8a7f8",
+    "accepted_boundary_review_path": "report/checks/2026-11-04-oracle-boundary-v1-target-review.json",
+    "accepted_boundary_review_sha256": "6b9c357b4b8e60ccd1dbf0b84db5a20474cc690593d899961b00718f1a78282c",
+    "accepted_fixed_input_snapshot_sha256": "1c4dc71ab5e5de65cd6a47747dedc24261aa95db801cb1b8c67aaef74e51dc6e",
+    "accepted_raw_review_sha256": "5d63984c5ff94f94b536236f255337dbb09ce2434ac12a8c7935d2102154a2f9",
+    "consumed_boundary_claim_sha256": "5e06811a7c9aeb781addd3e6f3f90baa85641fe7502619f1f5de1f3e8465cda3",
+    "historical_discrepancy_resolved": false,
+    "new_attempt_authorized": false,
+    "original_archive_sha256": "51c4e4b71ec292afc65ee3bd53c5556c6b538056d607244aef4945ed5fcded9a",
+    "original_handoff_sha256": "61158d9b148ad32741d4cfaa7ec2862671b4ee5e534c0b9e1b26f611ec018b37",
+    "previous_grants_consumed": true,
+    "research_admitted": false
+  },
+  "proposal_only": true,
+  "qualification_limits": {
+    "fresh_process_replay1_qualified": false,
+    "full_model_qualified": false,
+    "historical_discrepancy_resolved": false,
+    "optimization_adopted": false,
+    "original_four_worker_session_complete": false,
+    "performance_or_study_cost_qualified": false,
+    "research_admitted": false
+  },
+  "role": "encoder-1",
+  "shape": [
+    1,
+    16,
+    400,
+    64
+  ],
+  "tasks": [
+    {
+      "arm": "efficient",
+      "case": "encoder-1",
+      "fresh_process": true,
+      "reference": null,
+      "replay": 0
+    },
+    {
+      "arm": "math",
+      "case": "encoder-1",
+      "fresh_process": true,
+      "reference": {
+        "must_be_complete_and_passed": true,
+        "same_attempt_only": true,
+        "worker": "encoder-1-efficient-0"
+      },
+      "replay": 0
+    }
+  ]
+}

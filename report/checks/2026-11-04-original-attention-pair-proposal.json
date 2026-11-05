@@ -1,0 +1,227 @@
+{
+  "SSH_connections": 0,
+  "accepted_prerequisite": {
+    "GPU_attention_qualified": false,
+    "accepted_actual_CPU_return_sha256": "c7da1f108881a005432443180ffe10f814bf67aa541abae109add84276a8a7f8",
+    "accepted_boundary_review_path": "report/checks/2026-11-04-oracle-boundary-v1-target-review.json",
+    "accepted_boundary_review_sha256": "6b9c357b4b8e60ccd1dbf0b84db5a20474cc690593d899961b00718f1a78282c",
+    "accepted_fixed_input_snapshot_sha256": "1c4dc71ab5e5de65cd6a47747dedc24261aa95db801cb1b8c67aaef74e51dc6e",
+    "accepted_raw_review_sha256": "5d63984c5ff94f94b536236f255337dbb09ce2434ac12a8c7935d2102154a2f9",
+    "consumed_boundary_claim_sha256": "5e06811a7c9aeb781addd3e6f3f90baa85641fe7502619f1f5de1f3e8465cda3",
+    "historical_discrepancy_resolved": false,
+    "new_attempt_authorized": false,
+    "original_archive_sha256": "51c4e4b71ec292afc65ee3bd53c5556c6b538056d607244aef4945ed5fcded9a",
+    "original_handoff_sha256": "61158d9b148ad32741d4cfaa7ec2862671b4ee5e534c0b9e1b26f611ec018b37",
+    "previous_grants_consumed": true,
+    "research_admitted": false
+  },
+  "authorized": false,
+  "base_commit": "163d446d8d24b02bd0aa8bf892d1a35348ab4ca1",
+  "date": "2026-11-04",
+  "design_artifacts_sha256": {
+    "runs/pretrained/diagnostic/original-attention-pair-proposal-20261104/verified-design/design-review.json": "140e08f0f818ead783ac9b49519d2168e7a3c3ce37365a8de2d30fbcd1cfe539",
+    "runs/pretrained/diagnostic/original-attention-pair-proposal-20261104/verified-design/export-coverage.json": "5f150464339f3f685e064b4d94a58a6c000950329a05b18a8e836b3545310fed",
+    "runs/pretrained/diagnostic/original-attention-pair-proposal-20261104/verified-design/finalize.py": "aab8d8e22c0bc6ebc07e14bb0eea31f2be55bdf94c5484a568ed9689467bb16b",
+    "runs/pretrained/diagnostic/original-attention-pair-proposal-20261104/verified-design/prepare.py": "3b73eb083870c3bb37b8c8efa8df9b42b2b36114e1e9421c48c2cf41eb6e7eca",
+    "runs/pretrained/diagnostic/original-attention-pair-proposal-20261104/verified-design/prerequisites.json": "5d26bf10a31de1dc8b5b10510c3f61df33f316caad243c68c995a10fb0a433a8",
+    "runs/pretrained/diagnostic/original-attention-pair-proposal-20261104/verified-design/resource-arithmetic.json": "e35084004228d6b810936b16f00821267085852ceb012fa59f96a09fa599a295",
+    "runs/pretrained/diagnostic/original-attention-pair-proposal-20261104/verified-design/sealed-inputs.json": "5aa8b3296799181b58b4b20a80ba4073aca6ec718241fd56626c737c75776aef",
+    "runs/pretrained/diagnostic/original-attention-pair-proposal-20261104/verified-design/source-boundaries.json": "a76e46a3ff7e762464e0225cb714fa7884e8dfb5fa99dc9271710ee42af5e1aa"
+  },
+  "design_review_sha256": "140e08f0f818ead783ac9b49519d2168e7a3c3ce37365a8de2d30fbcd1cfe539",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "kind": "original-attention-pair-offline-proposal-review",
+  "launch_helper_prepared": false,
+  "new_CUDA_work_executed": false,
+  "new_authorization_or_claim_prepared": false,
+  "new_document_sha256": "431abb597f8ff17ebd156db578691e91fee2c38a7dd24b4a812d14dce90e1810",
+  "new_oracle_or_worker_executed": false,
+  "new_resource_grant_requested": false,
+  "next_step": "Implement a separate unarmed operator, capture writer and client, then test and independently review the exact payload/bounds before seeking any new GPU-execution resource grant.",
+  "operator_implemented": false,
+  "original_full_session_qualification_granted": false,
+  "paid_compute_started": false,
+  "process_and_network_creation_denied": true,
+  "proposal_complete": true,
+  "proposal_configuration_sha256": "a8be90ea0e3c0ebba5702066dd80f10cc6aab2e2a22ec7a4504544ca2f181d05",
+  "proposal_only": true,
+  "raw_design_directory": "runs/pretrained/diagnostic/original-attention-pair-proposal-20261104/verified-design",
+  "remote_cleanup_performed": false,
+  "research_admitted": false,
+  "resource_arithmetic": {
+    "aggregate_capture_ceiling_unchanged": 2415919104,
+    "aggregate_setup_ceiling_unchanged": 3221225472,
+    "all_capture_category_sum_bound_bytes": 687865856,
+    "assumptions_are_caps_for_a_new_operator_not_proof_of_success": true,
+    "collection_max_bytes": 3221225472,
+    "collection_seconds": 600,
+    "elements_per_array": 409600,
+    "exact_new_overlay_manifest_pending_implementation": true,
+    "existing_attempt_allowance_extended": false,
+    "explicit_capture_category_increase_bytes": 67108864,
+    "final_checks_reserved_seconds": 60,
+    "historical_efficient_worker_PT_file_bytes": {
+      "device-inputs.pt": 6555805,
+      "inputs.pt": 9824413,
+      "values.pt": 29487103
+    },
+    "individual_tensor_file_ceiling_unchanged": 33554432,
+    "initial_free_bytes": 8589934592,
+    "kind": "static_evidence_budget_not_a_measured_target_run",
+    "math_worker_PT_file_extents_measured": false,
+    "max_overlay_bytes_proposed": 2097152,
+    "numeric_tolerances_changed": false,
+    "one_atomic_save_pair_extra_logical_bytes": 33554432,
+    "outer_seconds": 600,
+    "per_worker_rounded_capture_allowances": {
+      "computed_CPU_return": 16777216,
+      "original_device_inputs_PT": 12582912,
+      "original_inputs_PT": 12582912,
+      "original_values_PT": 33554432,
+      "six_GPU_return_arrays": 50331648
+    },
+    "planning_capture_subtotal_bytes": 285212672,
+    "previous_single_return_raw_ceiling": 268435456,
+    "proposed_raw_capture_category_ceiling": 335544320,
+    "raw_FP32_GPU_return_bytes": 6553600,
+    "raw_FP64_CPU_return_bytes": 13107200,
+    "remaining_raw_headroom_bytes": 50331648,
+    "runtime_free_floor_bytes": 1073741824,
+    "setup_freshness_seconds": 110,
+    "shape": [
+      1,
+      16,
+      400,
+      64
+    ],
+    "two_workers_steady_capture_bytes": 251658240,
+    "worker_seconds": 120,
+    "workers": 2
+  },
+  "source_boundaries": {
+    "GPU_phases": [
+      "untimed",
+      "profiled",
+      "warmup",
+      "timed-1",
+      "timed-2",
+      "timed-3"
+    ],
+    "candidate_requires_completed_passing_same_common_reference": true,
+    "first_GPU_result_snapshot_precedes_component_gate": true,
+    "iteration_contains_one_SDPA_forward_and_one_QKV_VJP": true,
+    "later_original_replays_keep_signatures_not_full_return_arrays": true,
+    "original_CPU_oracle_calls_per_worker": 1,
+    "original_GPU_iterations_per_worker": 6,
+    "original_parent_or_summarizer_must_not_be_used_to_claim_full_session_pass": true,
+    "original_parent_role_tasks": [
+      "encoder-1-efficient-0",
+      "encoder-1-math-0",
+      "encoder-1-efficient-1",
+      "encoder-1-math-1"
+    ],
+    "original_worker_source_sha256": "599ace54bb558f51579f7900bfed5c6e0fe41b272bd41894ff483bdf8aaec44d",
+    "proposed_stage_tasks": [
+      "encoder-1-efficient-0",
+      "encoder-1-math-0"
+    ],
+    "source_inspection_is_not_a_dynamic_GPU_trace": true,
+    "worker_call_positions": {
+      "compare": [
+        {
+          "column": 32,
+          "line": 120
+        },
+        {
+          "column": 47,
+          "line": 135
+        }
+      ],
+      "fp64_oracle": [
+        {
+          "column": 21,
+          "line": 104
+        }
+      ],
+      "hardware_gate": [
+        {
+          "column": 21,
+          "line": 82
+        },
+        {
+          "column": 25,
+          "line": 160
+        }
+      ],
+      "iteration": [
+        {
+          "column": 18,
+          "line": 115
+        },
+        {
+          "column": 23,
+          "line": 141
+        },
+        {
+          "column": 26,
+          "line": 150
+        }
+      ],
+      "runtime_contract": [
+        {
+          "column": 22,
+          "line": 94
+        },
+        {
+          "column": 11,
+          "line": 157
+        }
+      ],
+      "snapshot": [
+        {
+          "column": 37,
+          "line": 91
+        },
+        {
+          "column": 44,
+          "line": 111
+        },
+        {
+          "column": 27,
+          "line": 118
+        }
+      ],
+      "torch.profiler.profile": [
+        {
+          "column": 13,
+          "line": 140
+        }
+      ]
+    }
+  },
+  "validation": {
+    "FP32_and_FP64_capture_budget_arithmetic_verified": true,
+    "frozen_exporter_excludes_NPZ_confirmed": true,
+    "latest_capture_files_and_exact_mtimes_reverified": 166,
+    "new_unit_tests_added": false,
+    "operator_suites_rerun": false,
+    "original_sealed_inputs_reverified": 1120,
+    "original_sources_unchanged": true,
+    "proposal_sealed_inputs_reverified": 1131,
+    "reason_no_worker_tests": "Documentation/design only; no executable operator is added or changed, and no new worker/oracle is dispatched.",
+    "six_iterations_per_worker_statically_verified": true,
+    "source_AST_order_and_reference_requirements_verified": true
+  }
+}

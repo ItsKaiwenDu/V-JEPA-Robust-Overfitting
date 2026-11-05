@@ -1,5 +1,136 @@
 # Research Progress Reports
 
+## 2026-11-04 — Original efficient/math GPU pair independently verified
+
+The attended linux10603 attempt completes both original encoder-1 workers:
+efficient replay 0, then math replay 0 using its complete passing efficient
+reference. Two fresh serial processes retain all original CPU/GPU numerical,
+layout, actual-backend, runtime/precision and exact within-process replay gates.
+Both workers and the new typed capture coverage pass. Actual CPU returns stay
+FP64 and all six actual GPU returns per worker stay FP32, saved before checks.
+
+Independent saved-file review verifies 199 files/exact mtimes, the 374.3 MB
+response, 139 original packet members, 13 overlays, 1,148 preserved bindings and
+all 2,028 preparation inputs. It seals 2,236 inputs and repeats eight CPU checks,
+48 GPU component comparisons, 48 bitwise snapshot/replay comparisons and four
+fresh-reference comparisons. Both CPU-return files match the accepted earlier
+capture byte for byte; original inputs/common contracts match the historical
+pass/failure. That old approximately 1e-10 refusal remains unexplained, with its
+actual historical computed arrays still unavailable.
+
+The full 2.5 GiB proof passes in 9.614 seconds and whole work takes 36.780 seconds.
+Observed setup/capture peaks are 2,702,053,376 / 391,421,952 bytes, within the
+3 GiB/2.25 GiB ceilings; final raw captures total 196,605,878 bytes within 320 MiB.
+Both real CUDA forward/backward backend traces pass; all profiler rows remain.
+Nine GPU observations do not prove continuous exclusivity or a future resource
+reservation. Instrumented timings cannot support speed or study-cost claims.
+
+The first offline reader incorrectly equated CPU-exported V strides with the
+live CUDA layout. Its source/log are preserved. The corrected audit checks the
+unchanged original live-layout receipt separately from the packed CPU snapshot's
+identical logical bytes. No original source, gate, tolerance or captured value
+changes; no scientific worker is repeated. The 163-test operator preparation
+remains unchanged; evidence review adds no unit tests or remote work.
+
+This grant is consumed and remote scratch is retained. Both hosts can idle.
+Next prepare an offline proposal for the remaining original replay-1 workers.
+The pair alone does not complete the original four-worker session, qualify the
+full model or admit research execution. No next operator/grant/claim/SSH/CUDA,
+cleanup or financial change starts. All known Runpod Pods remain terminated.
+[Independent GPU-pair review](report/checks/2026-11-04-original-attention-pair-v1-target-review.md).
+
+## 2026-11-04 — One original efficient/math pair attempt explicitly approved
+
+The user approved the tested linux10603-only upload and bounded attended GPU
+pair. The separate authorization is now recorded against unchanged source and
+control bytes. Local verification denies process/network creation and rechecks
+all 2,028 sealed inputs, 1,148 prior bindings, the original packet, source maps,
+public target key and local headroom. The 163-test preparation remains unchanged.
+No new claim, SSH, full-size proof, worker, oracle or CUDA execution exists yet.
+
+Next the user runs the new attended helper once from a local Mac Terminal for
+the university password, keeping Terminal/SSH and the Mac awake through the
+same-connection collection. The grant allows one 600-second work phase including
+the full 2.5 GiB proof and two serial original workers (at most 120 seconds each),
+followed by at most 600 seconds / 3 GiB collection. Setup/capture ceilings remain
+3 GiB/2.25 GiB; raw captures have the explicitly approved 320 MiB category.
+No retry, old-claim reset, next worker after refusal, foreign-process kill, paid
+compute, cleanup or financial change is authorized. Linux10609 stays idle.
+
+On completion independently review the actual claim, full proof, sources,
+CPU/GPU returns, backend and original decisions. Preserve any failure without
+repeating the launch. Pair completion alone cannot qualify the four-worker
+session, performance, full-model research or explain the historical discrepancy.
+[Authorization record](report/checks/2026-11-04-original-attention-pair-v1-authorization.md).
+
+## 2026-11-04 — Original attention pair v1 prepared, tested and unarmed
+
+A separate typed writer, observer, fresh-process runtime, bounded operator and
+attended client implement the reviewed efficient-0 -> math-0 pair. Every
+original source/gate remains unchanged. Each worker's actual CPU FP64 return
+and all six attention FP32 returns are saved before acceptance; candidate work
+requires its own complete passing baseline. Any refusal or capture failure
+stops without retry. Detailed introspection follows the whole original worker.
+
+All 163 local checks pass: 84 new checks and 79 frozen observer regressions,
+with zero errors, failures or skips. Two fresh cold tiny CPU math workers
+complete all six phases and preserve FP32 logical byte identity. Negative
+fixtures retain original CPU/reference refusals and capture-write errors.
+Full unchanged-packet import completes with original dispatch blocked. Bound
+transport includes every NPZ; the actual unarmed shell refuses before SSH.
+
+Independent saved-file review authenticates 139 original packet members, 1,148
+prior bindings and 835 rehearsal files/exact mtimes, sealing 2,028 inputs. It
+repeats eight passing CPU checks, four negative CPU decisions, 48 FP32 component
+checks, 48 bitwise snapshot/replay checks and four fresh-reference comparisons.
+No oracle or SDPA is evaluated by that review. Local arm64 Torch 2.14.1 CPU math
+is explicitly separate from the target's Torch 2.8/CUDA runtime.
+
+The exact unarmed handoff is the unchanged 85.6 MB synthetic packet plus 13
+overlays/177,136 bytes and metadata. It needs a new linux10603-only resource
+exception: one 600-second attended attempt including the full 2.5 GiB proof and
+two serial original workers, then at most 600 seconds of same-SSH collection.
+Setup/capture ceilings remain 3 GiB/2.25 GiB; the explicit new raw category is
+320 MiB. No grant/claim/SSH/CUDA/paid work or cleanup starts in preparation.
+Previous grants remain consumed and both hosts may idle. Financial caps and
+holds remain unchanged. Next request that scoped GPU-execution exception.
+
+Instrumented timing cannot qualify speed/cost/adoption, and this pair cannot
+complete the original replay-1/four-worker or full-model research checks. The
+historical approximately 1e-10 refusal remains unresolved. All earlier evidence
+and consumed operators stay frozen.
+[Prepared-operator review](report/checks/2026-11-04-original-attention-pair-v1-preparation.md).
+
+## 2026-11-04 — Next original attention pair proposed offline
+
+The proposal stages two original fresh linux10603 workers: efficient replay 0,
+then math replay 0 with the completed passing efficient worker as reference.
+Every original CPU/GPU numerical, actual-backend and within-process replay gate
+stays live. Any refusal stops the pair. Its two workers do not complete the
+original four-worker session or replay-1 coverage.
+
+Source inspection verifies six GPU iterations per worker and that the original
+first GPU snapshot precedes its gate. Additional evidence must save all later
+returns as FP32 before their checks, plus actual CPU FP64 oracle returns. The
+old exporter skips NPZ files, so future collection must explicitly include every
+new capture. Instrumented timing and profiling effects are disclosed; these
+timings cannot qualify study-cost projections, speed or adoption.
+
+Static source/resource checks reverify 1,120 accepted inputs, 166 latest files
+with exact modification times, and seal 1,131 proposal inputs. Proposed work and
+collection stay at 600 seconds each; setup/capture ceilings remain 3 GiB/2.25 GiB.
+The new raw category is explicitly proposed at 320 MiB: 240 MiB steady evidence,
+32 MiB transient-save allowance and 48 MiB margin. Original per-file/allocator
+and numerical limits remain. These are checked caps, not measured math extents.
+
+This step adds a proposal and provenance only. No worker/oracle/CUDA, operator,
+helper, new grant/claim, SSH, paid compute or cleanup starts. All existing grants
+are consumed and captured sources/history remain frozen. Next implement and
+meaningfully test a separate unarmed operator and its exact payload before
+requesting any new GPU-execution exception. Both hosts can remain idle; the
+historical discrepancy, research gates and financial state stay unchanged.
+[Offline proposal review](report/checks/2026-11-04-original-attention-pair-proposal.md).
+
 ## 2026-11-04 — Actual original CPU return after CUDA setup independently verified
 
 The attended linux10603 capture succeeds within its bounds. It executes the

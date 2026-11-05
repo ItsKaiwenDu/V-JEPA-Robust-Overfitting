@@ -1,5 +1,37 @@
 # V-JEPA Robust Overfitting
 
+**Original efficient/math GPU pair verified (November 4):**
+[Both original workers and complete saved captures pass independent review](report/checks/2026-11-04-original-attention-pair-v1-target-review.md).
+All six phases per arm pass the unchanged numerical, real-backend and replay
+gates. The 37-second attempt includes the storage proof and is consumed. Both
+hosts can remain idle. Next propose the remaining original replay-1 coverage
+offline; full-model research and performance/cost qualification remain pending.
+Earlier entries are historical snapshots.
+
+**One original attention-pair attempt approved (November 4):**
+[The linux10603 helper is armed and locally verified](report/checks/2026-11-04-original-attention-pair-v1-authorization.md).
+The user approved the exact tested efficient/math pair and resource bounds.
+No SSH or attempt has started. Run the new attended helper once from a local
+Mac Terminal and keep it open through collection; linux10609 stays idle.
+Earlier unarmed entries are preparation snapshots.
+
+**Original attention pair v1 prepared and unarmed (November 4):**
+[163 local checks and independent saved-file review pass](report/checks/2026-11-04-original-attention-pair-v1-preparation.md).
+The separate operator preserves every original gate and captures CPU FP64 plus
+all six GPU FP32 returns before their checks. Tiny CPU math rehearsals pass;
+target CUDA behavior remains untested. The concrete linux10603 handoff needs a
+new scoped GPU-execution exception. No SSH or new claim exists, and both hosts
+can stay idle. Instrumented timings and this partial pair cannot qualify speed,
+study costs or the full research workflow. Earlier entries are historical.
+
+**Original attention pair proposed offline (November 4):**
+[The checked proposal preserves the original gates and adds saved GPU returns](report/checks/2026-11-04-original-attention-pair-proposal.md).
+It stages a fresh efficient/math pair on linux10603, with every result captured
+before acceptance. No operator or resource grant is prepared. Instrumented
+timings cannot qualify a speed or budget claim, and the pair cannot replace
+the original four-worker session. Next implement and locally test the separate
+operator; both hosts can stay idle. Earlier entries are historical snapshots.
+
 **Original CPU return after CUDA setup verified (November 4):**
 [The independent capture review passes](report/checks/2026-11-04-oracle-boundary-v1-target-review.md).
 All four original CPU checks pass, and the actual saved tensors match all 96

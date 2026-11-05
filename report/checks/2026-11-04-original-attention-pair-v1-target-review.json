@@ -1,0 +1,228 @@
+{
+  "CPU_arrays_bitwise_equal_to_accepted_boundary": 8,
+  "CPU_gate_checks": 8,
+  "CPU_oracle_calls": 2,
+  "GPU_bitwise_snapshot_replay_checks": 48,
+  "GPU_component_array_checks": 48,
+  "SSH_connections_by_review": 0,
+  "actual_CPU_FP64_captures": 2,
+  "actual_GPU_FP32_captures": 12,
+  "attempt_consumed": true,
+  "attention_iterations": 12,
+  "authorization_sha256": "6aea31f2e28cf432e94dcc058dfb3f46f65326e1f5a21673731ac2135bf01866",
+  "both_actual_CUDA_backends_observed": true,
+  "capture_peak_observed_bytes": 391421952,
+  "consumed_attempt_sha256": "f7d663471c3e2afd4d22ced57fca02f6c2210cb08d0a7c9e234355d2dd213a4e",
+  "consumed_operator_scope_frozen": true,
+  "continuous_GPU_exclusivity_proved": false,
+  "control_sha256": "dabbd82a5d31c480d480fe314179683c9364984abde012f984656223231ffa3c",
+  "date": "2026-11-04",
+  "exact_modification_times_verified": true,
+  "final_raw_capture_bytes": 196605878,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "fresh_process_replay_1_qualified": false,
+  "fresh_reference_checks": 4,
+  "full_2_5_GiB_proof_passed": true,
+  "full_model_qualified": false,
+  "historical_comparison": {
+    "efficient": {
+      "common_contract_differences": [],
+      "old_actual_CPU_return_available": false,
+      "old_complete": true,
+      "old_passed": true,
+      "recorded_common_contract_identical": true,
+      "same_input_snapshot_bytes": true
+    },
+    "math": {
+      "common_contract_differences": [],
+      "old_actual_CPU_return_available": false,
+      "old_complete": false,
+      "old_passed": false,
+      "recorded_common_contract_identical": true,
+      "same_input_snapshot_bytes": true
+    }
+  },
+  "historical_discrepancy_resolved": false,
+  "independent_raw_review_sha256": "349e1d1225b92afaf8c75702c0bd03b607e55c026b1618cd9cf9e0fd5f45ecd8",
+  "independent_review_artifacts": {
+    "runs/pretrained/diagnostic/original-attention-pair-v1-20261104/independent-target-review-v2/CPU-export-layouts.json": "395975b955642f730eaa10323b534fe89c285f095ddffe546ff8b881428200b9",
+    "runs/pretrained/diagnostic/original-attention-pair-v1-20261104/independent-target-review-v2/finalize.py": "85cd8e64ceb14d41aa89cd15db04458f3f4bf3282f0f040d4661b4777a8b9699",
+    "runs/pretrained/diagnostic/original-attention-pair-v1-20261104/independent-target-review-v2/fresh-reference-checks.json": "bea23117292ed03b1f40837529432da5f3f0f2074bdc7001b26c198671dcfd9f",
+    "runs/pretrained/diagnostic/original-attention-pair-v1-20261104/independent-target-review-v2/historical-comparison.json": "3eec0067a377a8148536d5697d6c1b7cee4611f73224dfc6b5116c25a83e5859",
+    "runs/pretrained/diagnostic/original-attention-pair-v1-20261104/independent-target-review-v2/original-CPU-gate-checks.json": "f24496749d7fa28f3504c09ce0a87d0240518511e954b1913bd0fca363ff5e58",
+    "runs/pretrained/diagnostic/original-attention-pair-v1-20261104/independent-target-review-v2/original-GPU-component-checks.json": "8ec2cdc5e87d1f3e27974b8d3a64d860268de763369b6358e2ba359a3a6164ce",
+    "runs/pretrained/diagnostic/original-attention-pair-v1-20261104/independent-target-review-v2/reader-correction.json": "8f8f02ae6ac53e51a1e2b9d5129a50d54e5efa0384eda74c2ca5dbd059725c06",
+    "runs/pretrained/diagnostic/original-attention-pair-v1-20261104/independent-target-review-v2/review.json": "349e1d1225b92afaf8c75702c0bd03b607e55c026b1618cd9cf9e0fd5f45ecd8",
+    "runs/pretrained/diagnostic/original-attention-pair-v1-20261104/independent-target-review-v2/review.log": "587bfd0a4fe6249e10380228e642304455ec444ed4569de7d5cbb3f483b21314",
+    "runs/pretrained/diagnostic/original-attention-pair-v1-20261104/independent-target-review-v2/review.py": "4be2dd69ed382d5c0695bb295e9ff55645bf881d8a75bb56c0655e085e2366f0",
+    "runs/pretrained/diagnostic/original-attention-pair-v1-20261104/independent-target-review-v2/sealed-inputs.json": "a16aaedfb75e652c7d444914458014942c8f2ba07d4d8c460717b0bf89c53541"
+  },
+  "independent_review_complete": true,
+  "kernel_aggregate_quota_proved": false,
+  "kind": "original-attention-pair-v1-target-independent-review",
+  "limitations": [
+    "This verifies only the observed 400-token encoder-1 efficient replay-0/math replay-0 pair; original replay-1 and full-model coverage remain pending.",
+    "Copies and capture I/O are inside the profiler and affect timing/cache state. These instrumented timings cannot support speed, study-cost or optimization-adoption claims.",
+    "The earlier approximately 1e-10 CPU refusal is not reproduced or explained. The two historical workers still lack actual computed CPU returns.",
+    "A CPU-exported device-input tensor can have a packed stride layout. Original live device_input_strides match the fixture and all exported logical bytes match; the first offline reader overconstrained that export and was corrected without changing any original gate.",
+    "Five-second GPU sampling and nine persisted observations do not prove continuous exclusivity.",
+    "Observed storage ceilings and the successful full allocation proof are not an aggregate kernel quota, exclusive reservation or future capacity guarantee.",
+    "Independent numerical replay reads saved arrays on arm64/PyTorch 2.14.1; it evaluates no new university oracle or GPU attention."
+  ],
+  "local_and_captured_operator_sources_unchanged": true,
+  "local_session": "runs/pretrained/diagnostic/original-attention-pair-v1-20261104/linux10603/attended-ctv6hett",
+  "new_authorization_or_claim_created_by_review": false,
+  "new_original_worker_or_oracle_or_SDPA_evaluated_by_review": false,
+  "new_unit_tests_added": false,
+  "next_step": {
+    "action": "Prepare an offline proposal for the remaining original fresh-process replay-1 coverage, retaining this complete reviewed pair as immutable evidence and preserving all original gates.",
+    "both_hosts_can_stay_idle": true,
+    "never_reuse_consumed_pair_helper_or_grant": true,
+    "new_attempt_started": false,
+    "new_operator_prepared": false,
+    "new_resource_authorized": false,
+    "proposal_only": true
+  },
+  "old_refusals_waived": false,
+  "operator_source_changed_by_review": false,
+  "operator_tests_rerun": false,
+  "optimization_adopted": false,
+  "original_four_worker_session_qualified": false,
+  "original_numerical_bounds": {
+    "CPU": {
+      "atol": 1e-14,
+      "rtol": 1e-12
+    },
+    "dq_dk_dv": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "output": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    }
+  },
+  "original_packet_members_verified": 139,
+  "original_packet_sha256": "51c4e4b71ec292afc65ee3bd53c5556c6b538056d607244aef4945ed5fcded9a",
+  "original_workers_completed": 2,
+  "overlay_files_verified": 13,
+  "owned_descendants_remaining": false,
+  "paid_compute_started": false,
+  "pair_checks_passed": true,
+  "performance_or_study_cost_qualified": false,
+  "preparation_sealed_inputs_verified": 2028,
+  "prepared_operator_checks": 163,
+  "prior_bindings_verified": 1148,
+  "process_and_network_creation_denied_after_reader_imports": true,
+  "proof_events": 1926,
+  "proof_seconds": 9.614082244224846,
+  "proof_supervision_samples": 98,
+  "raw_review_directory": "runs/pretrained/diagnostic/original-attention-pair-v1-20261104/independent-target-review-v2",
+  "reader": {
+    "CUDA_initialized": false,
+    "architecture": "arm64",
+    "numpy": "2.4.6",
+    "python": "3.11.16",
+    "torch": "2.14.1"
+  },
+  "reader_correction": {
+    "correction": "Initial offline reader incorrectly required CPU-exported V strides to equal live GPU strides. The unchanged snapshot uses detach().cpu(); original live device_input_strides match the fixed fixture and all exported logical values are identical. V2 checks the original live-layout receipt and CPU-export bytes separately.",
+    "initial_review_retained": true,
+    "original_operator_sources_gates_bounds_and_claim_unchanged": true
+  },
+  "remote_cleanup_performed": false,
+  "remote_scratch": "/var/tmp/vjepa-original-attention-pair-v1-20261104-linux10603-t40vx4zz",
+  "research_admitted": false,
+  "response_bytes": 374315134,
+  "response_sha256": "acd3e1be0021e8938a99dbdda7ed8d61fe9a2a80b9180f5eed81321e24f45c55",
+  "saved_bytes_verified": 374125075,
+  "saved_members_verified": 199,
+  "sealed_input_files_verified": 2236,
+  "setup_peak_observed_bytes": 2702053376,
+  "validation_reason": "Evidence-only review; tested sources remain byte-identical. Saved arrays and all original decisions are independently verified instead of restarting any worker.",
+  "whole_work_seconds": 36.77992041781545,
+  "worker_supervision_samples": {
+    "efficient": 111,
+    "math": 53
+  },
+  "workers": {
+    "efficient": {
+      "CPU_return_bytes": 13108174,
+      "CPU_return_sha256": "c7da1f108881a005432443180ffe10f814bf67aa541abae109add84276a8a7f8",
+      "GPU_monitor_observations": 5,
+      "actual_CUDA_backend_forward_and_backward_observed": true,
+      "attention_return_bytes_each": [
+        6554574,
+        6554574,
+        6554574,
+        6554574,
+        6554574,
+        6554574
+      ],
+      "attention_return_dtype": "float32",
+      "capture_coverage_complete": true,
+      "context_after_worker": {
+        "CUDA_initialized": true,
+        "host": "linux10603",
+        "interop_threads": 8,
+        "numpy": "2.4.6",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128"
+      },
+      "observer_seconds": 7.303139025811106,
+      "original_worker_passed": true,
+      "original_worker_seconds": 6.855359779205173,
+      "process_id": 1029586,
+      "profiler_event_count": 175,
+      "supervised_seconds": 11.476892634760588,
+      "within_process_all_six_returns_bitwise_equal": true,
+      "worker": "encoder-1-efficient-0"
+    },
+    "math": {
+      "CPU_return_bytes": 13108174,
+      "CPU_return_sha256": "c7da1f108881a005432443180ffe10f814bf67aa541abae109add84276a8a7f8",
+      "GPU_monitor_observations": 4,
+      "actual_CUDA_backend_forward_and_backward_observed": true,
+      "attention_return_bytes_each": [
+        6554574,
+        6554574,
+        6554574,
+        6554574,
+        6554574,
+        6554574
+      ],
+      "attention_return_dtype": "float32",
+      "capture_coverage_complete": true,
+      "context_after_worker": {
+        "CUDA_initialized": true,
+        "host": "linux10603",
+        "interop_threads": 8,
+        "numpy": "2.4.6",
+        "python": "3.11.17",
+        "threads": 4,
+        "torch": "2.8.0+cu128"
+      },
+      "observer_seconds": 3.667447808664292,
+      "original_worker_passed": true,
+      "original_worker_seconds": 3.1861858619377017,
+      "process_id": 1030170,
+      "profiler_event_count": 216,
+      "supervised_seconds": 5.407784829847515,
+      "within_process_all_six_returns_bitwise_equal": true,
+      "worker": "encoder-1-math-0"
+    }
+  }
+}

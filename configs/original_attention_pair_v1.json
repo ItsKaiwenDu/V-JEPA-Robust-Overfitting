@@ -1,0 +1,127 @@
+{
+  "GPU_phases_per_worker": [
+    "untimed",
+    "profiled",
+    "warmup",
+    "timed-1",
+    "timed-2",
+    "timed-3"
+  ],
+  "actual_FP32_returns_saved_before_gates": true,
+  "actual_FP64_CPU_returns_saved_before_gates": true,
+  "all_NPZ_included_in_collection": true,
+  "authorized": false,
+  "base_commit": "163d446d8d24b02bd0aa8bf892d1a35348ab4ca1",
+  "date": "2026-11-04",
+  "detailed_library_context_after_original_worker_only": true,
+  "expected_driver": "580.178.04",
+  "expected_gpu_uuid": "GPU-e54fae90-feeb-8106-d8c0-1974fe48555f",
+  "expected_numpy": "2.4.6",
+  "expected_python": "3.11.17",
+  "expected_torch": "2.8.0+cu128",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "frozen_observer_regression_checks": 79,
+  "historical_discrepancy_resolved": false,
+  "host": "linux10603",
+  "kind": "original-attention-pair-prepared-v1",
+  "launchable_now": false,
+  "new_GPU_execution_exception_required": true,
+  "new_attempts": 1,
+  "new_checks": 84,
+  "old_refusals_waived": false,
+  "original_CPU_bookkeeping_bounds": {
+    "atol": 1e-14,
+    "rtol": 1e-12
+  },
+  "original_component_and_reference_bounds": {
+    "dk": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dq": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dv": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "output": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    }
+  },
+  "original_four_worker_session_qualified": false,
+  "paid_compute": false,
+  "performance_qualified": false,
+  "policy": {
+    "automatic_retries": 0,
+    "capture_ceiling": 2415919104,
+    "collection_seconds": 600,
+    "emergency_bytes": 16777216,
+    "max_CPU_oracle_calls": 2,
+    "max_CPU_return_bytes": 16777216,
+    "max_GPU_return_bytes": 8388608,
+    "max_archive_bytes": 1082130432,
+    "max_array_bytes": 33554432,
+    "max_attention_iterations": 12,
+    "max_code_bytes": 134217728,
+    "max_collection_bytes": 3221225472,
+    "max_files": 1024,
+    "max_header_bytes": 1048576,
+    "max_input_bytes": 134217728,
+    "max_launcher_log_bytes": 16777216,
+    "max_metadata_bytes": 67108864,
+    "max_overlay_bytes": 2097152,
+    "max_raw_bytes": 335544320,
+    "max_seconds": 600,
+    "max_workers": 2,
+    "minimum_free_bytes": 8589934592,
+    "minimum_free_inodes": 2048,
+    "poll_seconds": 0.25,
+    "runtime_free_floor": 1073741824,
+    "setup_ceiling": 3221225472,
+    "worker_seconds": 120,
+    "write_test_bytes": 2684354560,
+    "write_test_seconds": 60
+  },
+  "prepared_checks": 163,
+  "prerequisite": {
+    "GPU_attention_qualified": false,
+    "accepted_boundary_review_sha256": "6b9c357b4b8e60ccd1dbf0b84db5a20474cc690593d899961b00718f1a78282c",
+    "consumed_boundary_claim_sha256": "5e06811a7c9aeb781addd3e6f3f90baa85641fe7502619f1f5de1f3e8465cda3",
+    "historical_discrepancy_resolved": false,
+    "new_attempt_authorized_at_preparation": false,
+    "previous_grants_consumed": true,
+    "proposal_sha256": "a8be90ea0e3c0ebba5702066dd80f10cc6aab2e2a22ec7a4504544ca2f181d05",
+    "research_admitted": false
+  },
+  "previous_grants_consumed": true,
+  "research_admitted": false,
+  "tasks": [
+    {
+      "arm": "efficient",
+      "case": "encoder-1",
+      "replay": 0,
+      "worker": "encoder-1-efficient-0"
+    },
+    {
+      "arm": "math",
+      "case": "encoder-1",
+      "replay": 0,
+      "worker": "encoder-1-math-0"
+    }
+  ]
+}
