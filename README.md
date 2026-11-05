@@ -1,5 +1,14 @@
 # V-JEPA Robust Overfitting
 
+**Full-model predictor-attention proposal checked (November 5):**
+[The offline plan retains all eight EOT draws and both mask families](report/checks/2026-11-05-predictor-attention-eot8-proposal.md).
+The next diagnostic would change predictor attention only and compare complete
+loss/input gradients against fresh original references. Accepted encoder
+components stay frozen. No operator, grant or remote run is prepared. Next
+implement and test the separate unarmed diagnostic; both hosts can remain idle.
+Full-model correctness, performance/cost and research admission remain pending.
+Earlier entries are historical snapshots.
+
 **Original encoder-1 replay cohort verified (November 5):**
 [Both replay-1 workers and the CPU reconstruction pass independent review](report/checks/2026-11-05-attention-replay1-v1-target-review.md).
 The complete old and new captures cover all four original encoder-1 workers

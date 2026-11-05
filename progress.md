@@ -1,5 +1,42 @@
 # Research Progress Reports
 
+## 2026-11-05 — Full-model predictor-attention proposal checked offline
+
+The next validation question is clean pretrained EOT8 loss/input-gradient
+agreement with math SDPA restricted to the predictor, preserving the original
+encoder, clean teacher, shared patch/native backward and all eight draws/two
+mask families. Saved masks show 15 encoder context lengths from 256 to 1,192;
+every predictor sequence has 2,048 tokens. Accepted encoder-0 and encoder-1
+component cohorts need no rerun. Predictor saved-input comparisons passed,
+but generator and fixed-loader GPU qualification remain unclaimed; historical
+refusals and all old records stay unchanged.
+
+The proposal specifies four serial fresh workers on linux10609, fresh matching
+original references, exact within/fresh-process replay, before-gate FP32 returns
+and actual owned forward/backward backend evidence. The upstream inner SDPA
+context and non-reentrant checkpoint recomputation require a separate tested
+adapter/event reader; existing study guards cannot be widened. The 24 gates
+and resource envelope are a design only: 40-minute work / 10-minute collection,
+3 GiB setup / 2.25 GiB capture, explicit 7 GiB allocator, 1,792 MiB raw and 2 MiB
+bootstrap proposals. Fit, backend attribution and exact new payload remain
+pending implementation; no allowance is granted or old clock reset.
+
+All 3,743 predecessor pins, latest 227 files/exact modes/mtimes, old 199 files/
+exact mtimes, five additional archives/659 members and the old 99-member EOT8
+packet reverify. A separate standard-library-only check seals 4,276 proposal
+inputs and checks source AST, geometry, original bounds, reference graph and
+static arithmetic with process/network/scientific imports denied. The old
+281-test baseline is not rerun. No operator, handoff, helper, authorization,
+claim, resource request, SSH, scientific work, cleanup or paid work is prepared.
+
+Next implement and meaningfully test the separate unarmed diagnostic and review
+its exact payload before any new scoped university exception. Both hosts may
+idle. Full-model candidate qualification, adversarial/scoring and parameter/
+optimizer/recovery checks, ordinary matched performance/cost, feature diagnostics,
+calibration, scheduling and research remain separate gates. Financial caps,
+encumbrances and unresolved billing are unchanged; known Runpod Pods remain
+terminated. [Checked proposal](report/checks/2026-11-05-predictor-attention-eot8-proposal.md).
+
 ## 2026-11-05 — Original encoder-1 cross-attempt cohort independently accepted
 
 Both original replay-1 GPU workers and the separate CPU verifier complete within

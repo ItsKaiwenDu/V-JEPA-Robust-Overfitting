@@ -1,0 +1,918 @@
+{
+  "SSH_connections": 0,
+  "attempt_claim_present": false,
+  "authorization_present": false,
+  "authorized": false,
+  "base_commit": "e0cd8daf78662b2cc310ce77f3d78d9ac91df504",
+  "baseline_model_policy": "shared-fp64-native",
+  "baseline_required_to_match_prior_under_original_bounds": true,
+  "candidate_backend_change": "Predictor owned SDPA calls only: MATH; original encoder and target paths preserved.",
+  "candidate_required_to_match_both_new_reference_and_prior": true,
+  "coverage_decision": {
+    "distinct_context_lengths": [
+      256,
+      288,
+      400,
+      488,
+      496,
+      512,
+      592,
+      656,
+      816,
+      856,
+      880,
+      944,
+      1000,
+      1032,
+      1192
+    ],
+    "distinct_context_lengths_count": 15,
+    "encoder_math_expansion_recommended": false,
+    "evidence": [
+      {
+        "accepted_scope": "Four fresh original fixed-input component workers, unchanged reviewer passed on October 30.",
+        "case": "encoder-0",
+        "full_model_or_all_context_geometries_qualified": false,
+        "rerun_recommended_now": false,
+        "shape": [
+          1,
+          16,
+          656,
+          64
+        ],
+        "source": "report/checks/2026-10-30-fixed-attention-review.json"
+      },
+      {
+        "accepted_scope": "Four original component workers across two accepted attempts with typed returns, full artifact replay and original NumPy reconstruction.",
+        "case": "encoder-1",
+        "original_single_parent_session_qualified": false,
+        "rerun_recommended_now": false,
+        "shape": [
+          1,
+          16,
+          400,
+          64
+        ],
+        "source": "report/checks/2026-11-05-attention-replay1-v1-target-review.json"
+      },
+      {
+        "accepted_scope": "Four original generated-worker saved-input comparisons: independent NumPy numerical, actual CUDA backend and exact replay passed.",
+        "case": "predictor",
+        "fixed_loader_GPU_attempt_was_run": false,
+        "generator_and_original_portable_reviewer_passed": false,
+        "remaining_gap_preserved": "No full pretrained predictor or fixed-loader GPU execution qualification is inferred.",
+        "rerun_recommended_now": false,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ],
+        "source": "report/checks/2026-10-30-attention-component-review.json"
+      }
+    ],
+    "fixed_predictor_loader_gap_waived": false,
+    "full_EOT8_mask_geometries": [
+      {
+        "context_tokens": 656,
+        "draw": 0,
+        "family": 0,
+        "predictor_tokens": 2048,
+        "target_tokens": 1392
+      },
+      {
+        "context_tokens": 400,
+        "draw": 0,
+        "family": 1,
+        "predictor_tokens": 2048,
+        "target_tokens": 1648
+      },
+      {
+        "context_tokens": 816,
+        "draw": 1,
+        "family": 0,
+        "predictor_tokens": 2048,
+        "target_tokens": 1232
+      },
+      {
+        "context_tokens": 288,
+        "draw": 1,
+        "family": 1,
+        "predictor_tokens": 2048,
+        "target_tokens": 1760
+      },
+      {
+        "context_tokens": 944,
+        "draw": 2,
+        "family": 0,
+        "predictor_tokens": 2048,
+        "target_tokens": 1104
+      },
+      {
+        "context_tokens": 288,
+        "draw": 2,
+        "family": 1,
+        "predictor_tokens": 2048,
+        "target_tokens": 1760
+      },
+      {
+        "context_tokens": 880,
+        "draw": 3,
+        "family": 0,
+        "predictor_tokens": 2048,
+        "target_tokens": 1168
+      },
+      {
+        "context_tokens": 512,
+        "draw": 3,
+        "family": 1,
+        "predictor_tokens": 2048,
+        "target_tokens": 1536
+      },
+      {
+        "context_tokens": 1192,
+        "draw": 4,
+        "family": 0,
+        "predictor_tokens": 2048,
+        "target_tokens": 856
+      },
+      {
+        "context_tokens": 496,
+        "draw": 4,
+        "family": 1,
+        "predictor_tokens": 2048,
+        "target_tokens": 1552
+      },
+      {
+        "context_tokens": 1032,
+        "draw": 5,
+        "family": 0,
+        "predictor_tokens": 2048,
+        "target_tokens": 1016
+      },
+      {
+        "context_tokens": 488,
+        "draw": 5,
+        "family": 1,
+        "predictor_tokens": 2048,
+        "target_tokens": 1560
+      },
+      {
+        "context_tokens": 856,
+        "draw": 6,
+        "family": 0,
+        "predictor_tokens": 2048,
+        "target_tokens": 1192
+      },
+      {
+        "context_tokens": 256,
+        "draw": 6,
+        "family": 1,
+        "predictor_tokens": 2048,
+        "target_tokens": 1792
+      },
+      {
+        "context_tokens": 1000,
+        "draw": 7,
+        "family": 0,
+        "predictor_tokens": 2048,
+        "target_tokens": 1048
+      },
+      {
+        "context_tokens": 592,
+        "draw": 7,
+        "family": 1,
+        "predictor_tokens": 2048,
+        "target_tokens": 1456
+      }
+    ],
+    "full_model_candidate_already_qualified": false,
+    "kind": "attention-coverage-decision-v1",
+    "old_session_or_claim_rewritten": false,
+    "predictor_lengths": [
+      2048
+    ],
+    "selected_next_question": "Do unchanged full-model clean EOT8 loss/input derivatives survive math attention limited to predictor SDPA, at original bounds and within the prior 7 GiB full-model allocator cap?",
+    "why_not_more_synthetic_replays": "Existing saved-input component evidence is adequate to motivate a separately bounded full-model diagnostic, not to adopt it. Keep all historical generator/CPU refusals unresolved.",
+    "why_predictor_only": "Only the predictor has the same 2048-token geometry in all 16 mask-family instances; 15 encoder context lengths are present and their policy stays unchanged."
+  },
+  "date": "2026-11-05",
+  "existing_execution_or_study_policies_modified": false,
+  "expected_driver": "580.178.04",
+  "expected_gpu": "NVIDIA GeForce RTX 3070",
+  "expected_gpu_uuid": "GPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52",
+  "expected_numpy": "2.4.6",
+  "expected_python": "3.11.17",
+  "expected_torch": "2.8.0+cu128",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "fresh_process_exact_replay_required_per_mode": true,
+  "gates": [
+    {
+      "id": "source-and-domain",
+      "requirement": "61 original science pins, 33 upstream sources, checkpoint/runtime/data references match; no install, generation or held-out reads."
+    },
+    {
+      "id": "original-reference",
+      "requirement": "Both full reference controls pass original bounds against the accepted prior EOT8 loss/input return."
+    },
+    {
+      "id": "frozen-state",
+      "requirement": "Released weights, target state, eval/checkpointing settings and all model/buffer identities match before/after every phase; target remains frozen."
+    },
+    {
+      "id": "data-and-masks",
+      "requirement": "One original clean training clip, FP32 normalization, eight attack-bank seeds, both families and all 32 mask tensor identities stay unchanged."
+    },
+    {
+      "id": "runtime",
+      "requirement": "Original deterministic flags, FP32/no autocast, TF32 off, shared FP64 patch/native backward and target path stay unchanged."
+    },
+    {
+      "id": "distinct-policy",
+      "requirement": "New diagnostic identity is unsupported by existing study policy/guards while active; original policy and guards are not widened."
+    },
+    {
+      "id": "effective-call-selection",
+      "requirement": "Select and validate math only for owned predictor SDPA after entering the pinned upstream inner context; reference and encoder calls delegate unchanged."
+    },
+    {
+      "id": "owned-scope",
+      "requirement": "Owner instance/type/path, Q/K/V geometry/dtype/stride and original arguments are bound at each call. Unknown owners/kwargs/extra calls refuse; no global math switch."
+    },
+    {
+      "id": "checkpoint-lifetime",
+      "requirement": "Keep routing active through input backward and non-reentrant checkpoint recomputation; restore stacks/method aliases/flags after normal, early-stop and error exits."
+    },
+    {
+      "id": "actual-backend",
+      "requirement": "New per-owner forward/backward evidence proves predictor math and unchanged encoder/reference efficient paths; no inference solely from flag labels or kernel counts."
+    },
+    {
+      "id": "supported-attribution",
+      "requirement": "Preserve needed CPU parent/thread/forward-backward association fields and raw CUDA links; missing/ambiguous association refuses, never invent a conserved partition."
+    },
+    {
+      "id": "before-gate-capture",
+      "requirement": "Save actual scalar FP32 loss after forward and FP32 input gradient after autograd return before numerical/finite gates; preserve rank and failed/nonfinite values."
+    },
+    {
+      "id": "candidate-comparison",
+      "requirement": "Each candidate phase passes original full-model loss/input bounds against the corresponding new passing reference phase; full controls also pass directly against prior EOT8."
+    },
+    {
+      "id": "observer-repeat",
+      "requirement": "Within each mode full before/after controls are bitwise equal and all three first-draw controls are bitwise equal, including observation/removal."
+    },
+    {
+      "id": "fresh-process-repeat",
+      "requirement": "Reference 1 and candidate 1 exactly match their own replay-0 complete scientific tensor signatures; no within-tolerance substitution for exact replay."
+    },
+    {
+      "id": "phase-order",
+      "requirement": "Five declared passes only, serial worker/reference dependencies; any failure stops later work and no hidden warm-up/replay occurs."
+    },
+    {
+      "id": "memory",
+      "requirement": "Every phase stays within original full-model 7 GiB Torch allocator cap; OOM/incomplete trace is failure, never a smaller EOT bank or dtype fallback."
+    },
+    {
+      "id": "time-and-children",
+      "requirement": "One continuing 2400-second work clock with 180-second setup, four <=480-second children, serial ownership and no allowance reset."
+    },
+    {
+      "id": "local-scratch",
+      "requirement": "Private local XFS /var/tmp is separate from NFS home; full 2.5 GiB proof before archive and free/inode/allocated-byte guards all pass."
+    },
+    {
+      "id": "storage-and-event-bounds",
+      "requirement": "Typed return/target/trace/event/category ceilings hold without truncation; partial files and receipts are retained on errors."
+    },
+    {
+      "id": "trace-accounting",
+      "requirement": "Exclude GPU annotation copies from device kernels; retain raw intervals/links and unresolved discrepancies; no inclusive-range sum is wall time."
+    },
+    {
+      "id": "GPU-sharing",
+      "requirement": "Fresh UUID/driver and no-foreign-compute checks before/during/after; only owned children can be stopped; sampling is not exclusivity."
+    },
+    {
+      "id": "transport-and-claim",
+      "requirement": "New exact payload and grant, single-use claim, bounded same-SSH collection of every capture with hashes/modes/mtimes; no launch retry or old scratch cleanup."
+    },
+    {
+      "id": "qualification",
+      "requirement": "Only one-clip clean EOT8 numerical/backend/memory/replay evidence can pass; no PGD, scoring, parameter/optimizer, research, speed or affordability admission."
+    }
+  ],
+  "host": "linux10609",
+  "host_choice": "Same workstation as accepted pretrained clean EOT8 reference; all comparisons serial on one GPU.",
+  "kind": "predictor-attention-clean-eot8-offline-proposal-v1",
+  "later_gates": [
+    "Independent review of the first candidate full-model clean EOT8 result, preserving every failed component/generator record.",
+    "Separately scoped adversarial-input/PGD and independent scoring, parameter-gradient, optimizer/checkpoint-recovery validation with frozen original bounds.",
+    "Dedicated uninstrumented matched before/after benchmark of the SAME ordinary study cost units and complete measured affordability screen.",
+    "Feature diagnostics, calibration, evaluation schedule and approved research trajectories remain separate gates."
+  ],
+  "launch_helper_prepared": false,
+  "new_adapter_must_not_call_old_component_parent_or_patch_frozen_module_globals": true,
+  "new_diagnostic_identity_required": "predictor-math-clean-eot8-diagnostic-v1",
+  "new_packet_prepared": false,
+  "new_resource_grant_requested": false,
+  "new_worker_or_oracle_or_CUDA_executed": false,
+  "next_step": "Implement and test the separately named unarmed full-model predictor-only math diagnostic and its exact payload. No resource request or remote work in this proposal.",
+  "no_speed_or_budget_claim_from_proposed_run": true,
+  "numerical_bounds": {
+    "clean_loss": {
+      "atol": 2e-06,
+      "rtol": 1e-05
+    },
+    "input_gradient": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    }
+  },
+  "operator_implemented": false,
+  "paid_compute_started": false,
+  "parallel_second_host_work_proposed": false,
+  "phases_per_worker": [
+    {
+      "draws": 8,
+      "families_per_draw": 2,
+      "name": "EOT8-before",
+      "profiled": false
+    },
+    {
+      "draws": 1,
+      "families_per_draw": 2,
+      "name": "draw-before",
+      "profiled": false
+    },
+    {
+      "draws": 1,
+      "families_per_draw": 2,
+      "name": "draw-profiled",
+      "profiled": true
+    },
+    {
+      "draws": 1,
+      "families_per_draw": 2,
+      "name": "draw-after",
+      "profiled": false
+    },
+    {
+      "draws": 8,
+      "families_per_draw": 2,
+      "name": "EOT8-after",
+      "profiled": false
+    }
+  ],
+  "preparation_acceptance_requirements": [
+    "Implement separately named unarmed adapter, guarded full-model worker, typed writer, owner-aware event reader, scratch supervisor and collector.",
+    "Real cold tiny CPU model/checkpoint analogues with fixed initial state and all draws/families; no CPU result labelled CUDA backend evidence.",
+    "Refuse source/alias/owner drift, outer-only SDPA selection, stale active identity, early checkpoint stop leaks and incomplete gradient/trace capture.",
+    "Test source-bound effective flags at actual SDPA, transparent original route, predictor-only routing across non-reentrant recomputation and exact restoration.",
+    "Test actual FP32 scalar rank/input-gradient capture before original gates; preserve numerical, nonfinite and write/trace failures without advancing.",
+    "Test original bounds plus exact within/fresh process replay, phase/reference order, target/model immutability and no parameter grad accumulation.",
+    "Test attribution on retained synthetic event records with ambiguous/missing sequence ownership refused and known GPU annotation copies excluded.",
+    "Cold full-packet restore/import with scientific dispatch blocked; exact payload/bootstrap sizes <= proposed caps; no unarmed SSH/claim.",
+    "Test full allocation proof ordering via small local fixtures, continuing clocks, owned children, no foreign-process kill, file/category caps and incomplete transport.",
+    "Independent exact-source/payload/saved-file review before any resource request; 3743 predecessor pins and all newly referenced evidence reverify.",
+    "Only afterward seek one explicit new university exception matching final tested bytes, domain and limits; old grants remain consumed."
+  ],
+  "proposal_only": true,
+  "proposed_resource_envelope": {
+    "CPU_or_NumPy_analytical_oracle_calls": 0,
+    "PGD_FGSM_or_scoring_calls": 0,
+    "SDPA_call_rows_cap_per_worker": 4096,
+    "all_categories_bytes": 2264924160,
+    "automatic_retries": 0,
+    "capture_ceiling_bytes": 2415919104,
+    "capture_margin_bytes": 150994944,
+    "categories_bytes": {
+      "cache": 33554432,
+      "code": 134217728,
+      "emergency": 16777216,
+      "input": 134217728,
+      "metadata": 67108864,
+      "raw": 1879048192
+    },
+    "checkpoint_counts_are_observed_not_assumed_equal": true,
+    "clean_target_computations": 4,
+    "collection_bytes": 3221225472,
+    "collection_header_bytes_cap": 1048576,
+    "collection_seconds": 600,
+    "draw_units": 76,
+    "exact_new_packet_overlay_and_bootstrap_sizes_pending": true,
+    "first_draw_objectives": 12,
+    "forward_plus_at_most_one_recompute_total_per_worker": 2736,
+    "full_EOT8_objectives": 8,
+    "future_packet_bytes_cap": 67108864,
+    "gradient_control_family_units_per_worker": 38,
+    "initial_free_bytes": 8589934592,
+    "initial_free_inodes": 2048,
+    "input_category_bytes": 134217728,
+    "kernel_aggregate_quota_or_continuous_exclusivity_or_future_capacity_guaranteed": false,
+    "kind": "static-future-full-model-bounds-not-a-grant",
+    "launcher_log_bytes_cap": 16777216,
+    "mask_family_objective_units": 152,
+    "max_clean_target_bytes_each": 12582912,
+    "max_files": 1024,
+    "max_input_gradient_return_bytes": 16777216,
+    "max_mask_archive_bytes_each": 1048576,
+    "max_scalar_loss_return_bytes": 65536,
+    "max_simultaneous_scientific_processes": 1,
+    "max_tensor_file_bytes": 33554432,
+    "max_trace_bytes_each": 268435456,
+    "max_trace_events_each": 800000,
+    "max_trace_file_bytes": 268435456,
+    "minimum_context_block_SDPA_forwards_per_worker": 912,
+    "minimum_predictor_block_SDPA_forwards_per_worker": 456,
+    "model_parameter_backward_or_optimizer_steps": 0,
+    "operator_counts_passes_for_no_unrecorded_warmup": true,
+    "original_shared_FP64_patch_arithmetic_preserved": true,
+    "outer_margin_seconds": 180,
+    "outer_work_seconds": 2400,
+    "overlay_bytes_cap": 2097152,
+    "preceding_bootstrap_bytes_cap": 1048576,
+    "previous_component_allocator_bytes": 4294967296,
+    "previous_component_raw_category_bytes": 419430400,
+    "proof_bytes": 2684354560,
+    "proof_precedes_archive": true,
+    "proof_seconds": 60,
+    "raw_category_bytes": 1879048192,
+    "raw_terms_bytes": {
+      "four_trace_files": 1073741824,
+      "margin": 134217728,
+      "one_transient_trace_name_pair": 268435456,
+      "targets_masks_and_scalar_returns": 67108864,
+      "twenty_input_gradient_returns": 335544320
+    },
+    "runtime_floor_bytes": 1073741824,
+    "runtime_free_inodes": 1024,
+    "same_as_prior_full_EOT8_allocator": true,
+    "same_attended_SSH": true,
+    "setup_ceiling_bytes": 3221225472,
+    "setup_seconds": 180,
+    "stdin_bootstrap_bytes_cap": 2097152,
+    "timings_usable_for_speed_or_budget": false,
+    "torch_allocator_bytes": 7516192768,
+    "work_subtotal_seconds": 2220,
+    "work_terms_seconds": {
+      "final_receipts": 120,
+      "four_workers": 1920,
+      "setup_including_proof": 180
+    },
+    "worker_seconds": 480
+  },
+  "qualification_limits": {
+    "candidate_already_qualified": false,
+    "full_PGD_or_independent_scoring_qualified": false,
+    "full_model_candidate_training_or_research_qualified": false,
+    "generator_replay_qualified": false,
+    "historical_refusals_resolved": false,
+    "optimization_adopted": false,
+    "original_single_parent_component_session_qualified": false,
+    "parameter_or_optimizer_recovery_qualified": false,
+    "performance_or_study_cost_qualified": false,
+    "predictor_fixed_loader_GPU_qualified": false
+  },
+  "reference": {
+    "attack_seeds": [
+      865311023795641958,
+      7399188755883649554,
+      867422081190991898,
+      3902520512841466707,
+      6032771523782279135,
+      3779409266305138859,
+      169826197422819580,
+      8283481338430586684
+    ],
+    "clean_pixels": {
+      "abs_max": 1.0,
+      "dtype": "torch.float32",
+      "sha256": "d497eb48187685856e993af2cc010468be3f63b2a1125958bcbd2f3991685a3c",
+      "shape": [
+        1,
+        3,
+        16,
+        256,
+        256
+      ]
+    },
+    "clean_targets": {
+      "abs_max": 13.502695083618164,
+      "dtype": "torch.float32",
+      "sha256": "62049a4d393a59867090f34263f96cd655ca5e6b2e56890dcb2ceaa811680fd1",
+      "shape": [
+        1,
+        2048,
+        1024
+      ]
+    },
+    "confirmation_or_test_pixels_in_payload": false,
+    "data": {
+      "checkpoint_sha256": "5346856ec9df69487fe72a25bf2632aaa8112df33fb67708e3f7374edc1f7012",
+      "kind": "original-training",
+      "pixel_sha256": "d497eb48187685856e993af2cc010468be3f63b2a1125958bcbd2f3991685a3c",
+      "video_id": "v_BreastStroke_g15_c01"
+    },
+    "encoder_depth": 24,
+    "existing_packet_archive": "runs/pretrained/diagnostic/eot-work-profile-university-20261029/packet/vjepa-eot-profile.tar.gz",
+    "existing_packet_bytes": 17192095,
+    "existing_packet_is_new_launcher": false,
+    "existing_packet_logical_bytes": 26446958,
+    "existing_packet_members": 99,
+    "existing_packet_sha256": "2278bce2b519943c0f83a49c556bb73dd928fe880fba0f6c56de2a4c3c2ec0da",
+    "full_mask_tensor_identities": [
+      [
+        [
+          {
+            "abs_max": 2047.0,
+            "dtype": "torch.int64",
+            "sha256": "b705ba23102114c7d545b36fc3ff4f79228cb60de031a58f621d8d6adf961e49",
+            "shape": [
+              1,
+              656
+            ]
+          },
+          {
+            "abs_max": 2006.0,
+            "dtype": "torch.int64",
+            "sha256": "c6259a21534aa66ccbf5e42ce93d97b1c312cd821eb0333a2342163ef39a4e35",
+            "shape": [
+              1,
+              1392
+            ]
+          }
+        ],
+        [
+          {
+            "abs_max": 2032.0,
+            "dtype": "torch.int64",
+            "sha256": "6875f919d9c7f175f2d0b192481cae958898f9cef9664b6a08e83158f4942543",
+            "shape": [
+              1,
+              400
+            ]
+          },
+          {
+            "abs_max": 2047.0,
+            "dtype": "torch.int64",
+            "sha256": "dc5ae5ebcb6ec09ed55d245e0a67ebc7a2a11bf64ffbb89f6290210fb8f8bcc8",
+            "shape": [
+              1,
+              1648
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "abs_max": 2047.0,
+            "dtype": "torch.int64",
+            "sha256": "0a75d82e582c3075535a601a9371ee09e29d5fd303d1e02cb1eeb3a2939a29cd",
+            "shape": [
+              1,
+              816
+            ]
+          },
+          {
+            "abs_max": 1998.0,
+            "dtype": "torch.int64",
+            "sha256": "7d8235b3daf60c716cb2402147983ad84c0ba2354f905ad987bd63f09baf4d45",
+            "shape": [
+              1,
+              1232
+            ]
+          }
+        ],
+        [
+          {
+            "abs_max": 2034.0,
+            "dtype": "torch.int64",
+            "sha256": "ecad33c4480b39adf4be51b86f7501b9d4ae83b930fd1adedd3e11e6433eb10e",
+            "shape": [
+              1,
+              288
+            ]
+          },
+          {
+            "abs_max": 2047.0,
+            "dtype": "torch.int64",
+            "sha256": "c72767770ac5b7e8f830e353caadbe3560069d45cfb7280388df77e0efe6e9ff",
+            "shape": [
+              1,
+              1760
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "abs_max": 2047.0,
+            "dtype": "torch.int64",
+            "sha256": "44714ba687857c5263210a4623a41034252b99e0d6c92d590a0bc29408d3462b",
+            "shape": [
+              1,
+              944
+            ]
+          },
+          {
+            "abs_max": 2041.0,
+            "dtype": "torch.int64",
+            "sha256": "29f45e3716f630ca93fa4c196b9cea8f6d369314ac1a2796e5c2f7ef9e3cc1e9",
+            "shape": [
+              1,
+              1104
+            ]
+          }
+        ],
+        [
+          {
+            "abs_max": 2047.0,
+            "dtype": "torch.int64",
+            "sha256": "283bf46434c78ee5482f4407ddc0959e765eb92d63cdadd2a9274382aeeec29d",
+            "shape": [
+              1,
+              288
+            ]
+          },
+          {
+            "abs_max": 2045.0,
+            "dtype": "torch.int64",
+            "sha256": "e809d9d40b743bbd943b17672f36fde9c4dd221792f651a217e89d3acc30bccf",
+            "shape": [
+              1,
+              1760
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "abs_max": 2047.0,
+            "dtype": "torch.int64",
+            "sha256": "3c19dd2767362d53ae7b9f2f90dfaffa1e3850ebdd64689609e3f6e60f004c84",
+            "shape": [
+              1,
+              880
+            ]
+          },
+          {
+            "abs_max": 2039.0,
+            "dtype": "torch.int64",
+            "sha256": "c530589c13b2e541d599c5d9198fa181a80c8b906ff98ceac474314225195fbd",
+            "shape": [
+              1,
+              1168
+            ]
+          }
+        ],
+        [
+          {
+            "abs_max": 2047.0,
+            "dtype": "torch.int64",
+            "sha256": "6e493b8bd855746fe195c88613591725a6200e950b03fd0d5cbfa61ab2b266dc",
+            "shape": [
+              1,
+              512
+            ]
+          },
+          {
+            "abs_max": 2046.0,
+            "dtype": "torch.int64",
+            "sha256": "b81f2e6e4a66ebbe94b6fab7f3d3ff585d2d3c13280b718218ec506a09c9020f",
+            "shape": [
+              1,
+              1536
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "abs_max": 2047.0,
+            "dtype": "torch.int64",
+            "sha256": "a794b33755f9c8f81a3fe94c21f0d33f310532ac41b20f575f64e16236dde17a",
+            "shape": [
+              1,
+              1192
+            ]
+          },
+          {
+            "abs_max": 1998.0,
+            "dtype": "torch.int64",
+            "sha256": "9d9815f09cae2bb918ac67e66815382f838afe065ac8f4c5079bb061de82ecef",
+            "shape": [
+              1,
+              856
+            ]
+          }
+        ],
+        [
+          {
+            "abs_max": 2034.0,
+            "dtype": "torch.int64",
+            "sha256": "4a5e5e3f43f1449cd85b3cd072bd2c3f0368d5c94c5839c56fa98c0d74c82197",
+            "shape": [
+              1,
+              496
+            ]
+          },
+          {
+            "abs_max": 2047.0,
+            "dtype": "torch.int64",
+            "sha256": "48fdfe7c1b23195c1dda9ef101e67ed95e7b43fb6ba7e3e057d63ea14c26cb8c",
+            "shape": [
+              1,
+              1552
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "abs_max": 2047.0,
+            "dtype": "torch.int64",
+            "sha256": "655e0ee9580df61e419642bd65a1561fd0e168f1917909f26650464e7f464a9c",
+            "shape": [
+              1,
+              1032
+            ]
+          },
+          {
+            "abs_max": 1994.0,
+            "dtype": "torch.int64",
+            "sha256": "5287ed4f1e21999433134f322ae0942754d8ebabc19c0a83f1a7d16264377d2b",
+            "shape": [
+              1,
+              1016
+            ]
+          }
+        ],
+        [
+          {
+            "abs_max": 2047.0,
+            "dtype": "torch.int64",
+            "sha256": "a0a97df05a3990345902465dfbfd537c8dd69f9a0637e67292807e33daa6d991",
+            "shape": [
+              1,
+              488
+            ]
+          },
+          {
+            "abs_max": 2028.0,
+            "dtype": "torch.int64",
+            "sha256": "ce1cca6bda9cb847d216552cfd2fb676c95044ccf00a294cd0e0a9af4c2dfe08",
+            "shape": [
+              1,
+              1560
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "abs_max": 2047.0,
+            "dtype": "torch.int64",
+            "sha256": "4e6d1dc4357264ad63a47257fd1bd8f88b2a55df6d3ad140bfc51b7629430fa1",
+            "shape": [
+              1,
+              856
+            ]
+          },
+          {
+            "abs_max": 2046.0,
+            "dtype": "torch.int64",
+            "sha256": "ed6549bf5b7c118de2f864a222e934ef0f2590f26e4a8e149c26ba8096dcc21a",
+            "shape": [
+              1,
+              1192
+            ]
+          }
+        ],
+        [
+          {
+            "abs_max": 2047.0,
+            "dtype": "torch.int64",
+            "sha256": "68fcd1f62a76acbfd19c122776a9792093ed71ac3c9cc076d4493bcdefcf3a24",
+            "shape": [
+              1,
+              256
+            ]
+          },
+          {
+            "abs_max": 2046.0,
+            "dtype": "torch.int64",
+            "sha256": "611dc19bb15b80321262874d45f5734bf4d330125c98a4a95580bfbbaf3104d4",
+            "shape": [
+              1,
+              1792
+            ]
+          }
+        ]
+      ],
+      [
+        [
+          {
+            "abs_max": 2047.0,
+            "dtype": "torch.int64",
+            "sha256": "88d30d225eb7134a18f9001ae9023fd238e6a8d17d805d505fa8efe744d4098d",
+            "shape": [
+              1,
+              1000
+            ]
+          },
+          {
+            "abs_max": 2038.0,
+            "dtype": "torch.int64",
+            "sha256": "37faabfc1f4ad32c6d892de2cf4c2fcf53915d2cef60245b9176ae91a5c38318",
+            "shape": [
+              1,
+              1048
+            ]
+          }
+        ],
+        [
+          {
+            "abs_max": 2047.0,
+            "dtype": "torch.int64",
+            "sha256": "a3e8a7e940ec70e62892a7c1636707015fcf3ce7fa09d985c4adf05d90370e9e",
+            "shape": [
+              1,
+              592
+            ]
+          },
+          {
+            "abs_max": 1999.0,
+            "dtype": "torch.int64",
+            "sha256": "21326f574578c254060243fb52460215ca7a0c6e907c7f53353ba178ef4e738a",
+            "shape": [
+              1,
+              1456
+            ]
+          }
+        ]
+      ]
+    ],
+    "mask_bank_sha256": "5c607050294bd78a8a38876798941146c6a055e0c77425a1130b7036fb969d89",
+    "new_checkpoint_or_dependencies_in_payload": false,
+    "predictor_depth": 12,
+    "report": "report/checks/2026-10-30-eot-work-profile-review.json",
+    "report_sha256": "7cdf7f16051bc5fdd12068275983a2505d6bcd43ecc0d42de9bb9376f1060ac4",
+    "target_computed_original_once_per_fresh_worker_before_adapter": true,
+    "target_encoder_checkpointing": false,
+    "weights_sha256": "cfbc0bc74549bfb01c02e99f4f8a998ebe1851cdf1ca7ded46498567dd2b28a2",
+    "worker_sha256": "8e993374ca3195cdca53bb7f25a708ea4fd9868a9b2597c3a82788126302c9b2"
+  },
+  "remote_cleanup_performed": false,
+  "selected_question": "Do unchanged full-model clean EOT8 loss/input derivatives survive math attention limited to predictor SDPA, at original bounds and within the prior 7 GiB full-model allocator cap?",
+  "workers": [
+    {
+      "fresh_replay_reference": null,
+      "mode": "original",
+      "name": "reference-0",
+      "numerical_reference": "accepted prior clean EOT8 for both full controls",
+      "replay": 0
+    },
+    {
+      "fresh_replay_reference": null,
+      "mode": "predictor-math",
+      "name": "predictor-math-0",
+      "numerical_reference": "new complete passing reference-0 (matching phases) AND prior full EOT8 for full controls",
+      "replay": 0
+    },
+    {
+      "fresh_replay_reference": "reference-0, complete saved scientific tensor signatures",
+      "mode": "original",
+      "name": "reference-1",
+      "numerical_reference": "accepted prior clean EOT8 for both full controls",
+      "replay": 1
+    },
+    {
+      "fresh_replay_reference": "predictor-math-0, complete saved scientific tensor signatures",
+      "mode": "predictor-math",
+      "name": "predictor-math-1",
+      "numerical_reference": "new complete passing reference-1 (matching phases) AND prior full EOT8 for full controls",
+      "replay": 1
+    }
+  ]
+}

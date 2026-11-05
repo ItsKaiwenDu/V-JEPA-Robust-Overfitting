@@ -2,6 +2,49 @@
 
 ## Current stage
 
+LATEST Nov05: FULL-MODEL PREDICTOR-ATTENTION OFFLINE PROPOSAL CHECKED.
+Read docs/predictor_attention_eot8_proposal.md, configs/predictor_attention_eot8_proposal_v1.json
+and report/checks/2026-11-05-predictor-attention-eot8-proposal.json/md FIRST.
+Proposal ONLY: no operator/archive/helper/AUTH/ATTEMPT/resource request/SSH/scientific
+execution/cleanup/paid work. All earlier captured sources, arrays, claims and reports
+remain frozen; all previous grants consumed. 3743 predecessor pins + latest227 exact
+mode/mtime + old199 exactmtime + five archives/659 members + existing99-member full
+EOT8 packet reverified. Independent stdlib/source-AST/arithmetic review denies process/
+network and scientific imports; 4276 proposal inputs sealed. No new tests; historical
+281-check operator baseline unchanged. Encoder0 four fixed workers and encoder1 four
+cross-attempt workers already accepted; do not repeat them. Predictor saved-input
+numerical/backend/replay passed, but portable generation and predictor fixed-loader
+GPU execution remain unqualified. Historical ~1e-10 refusal stays unresolved.
+Next question: full pretrained clean EOT8 loss/input derivative, predictor SDPA math
+ONLY. All8draws/bothfamilies retained;15 encoder lengths256..1192 unchanged; predictor
+2048 throughout. Upstream inner sdp_kernel context requires actual-call selection;
+source/instance ownership plus checkpoint-recomputation lifetime/restoration mandatory.
+Existing study guards/policies cannot admit candidate; use separate diagnostic identity.
+Actual owned CUDA forward/backward association requires a NEW tested event writer/reader;
+old event labels/counts/outer flags cannot prove backend or conserved attribution.
+Proposed4fresh serial workers host10609: original0 -> candidate0 -> original1 -> candidate1.
+Candidates use NEW complete passing same-replay references; full controls also compare
+prior EOT8; original loss1e-5/2e-6 and input2e-3/2e-7 unchanged. Five passes/worker:
+fullEOT8 before, draw0 before/profiled/after, fullEOT8 after. Actual rank0FP32 loss/input
+return saved BEFORE gates; within/fresh-process complete tensor replay EXACT. No warmup,
+extra analytical oracle, PGD/scoring, parameter backward, optimizer or training.
+Proposed—not granted—2400s work incl setup180/full2.5GiB proof<=60 before archive,
+4workers<=480 each/final120;2220 subtotal+180 margin. Collection600s/3GiB sameSSH.
+Setup3GiB/capture2.25GiB unchanged; allocator7GiB matches prior fullmodel, explicitly
+increased from component4GiB. Raw1792MiB vs400; total2160MiB/144MiB margin; bootstrap
+2MiB vs1. Exact payload sizes/fit/event support UNIMPLEMENTED; all caps static only.
+NEXT IMPLEMENT/TEST separate UNARMED adapter/worker/typed writer/owner-aware reader/
+supervisor/collector; real cold tinyCPU checkpoint analogues, failure/restoration/
+source/ownership/replay/capture/resource/transport/unarmed-beforeSSH checks. Cold full
+packet import must block computation. Independent exact-source/payload review BEFORE
+new scoped grant request; do not ask for resources now. Both hosts may idle; no fresh
+GPU check needed until operator ready. No old helper reuse, claim reset or cleanup.
+No fullmodel candidate, adversarial/scoring/parameter/recovery/performance/cost/research
+admission; no speed claims from instrumented controls. Finance9.8116/.1884/old2hold/
+.0792gap/10diag/160compute/200project/40reserve/wallet6.56/reconciliationfalse unchanged;
+known Runpod Pods terminated. User commits self; NEVER stage/commit/push.
+Earlier LATEST entries are historical snapshots.
+
 LATEST Nov05: ORIGINAL ENCODER1 REPLAY1 COHORT INDEPENDENTLY ACCEPTED.
 Read report/checks/2026-11-05-attention-replay1-v1-target-review.json/md FIRST.
 ONEapprovedattemptCONSUMED:attended-7z22cufr/claimSHA
