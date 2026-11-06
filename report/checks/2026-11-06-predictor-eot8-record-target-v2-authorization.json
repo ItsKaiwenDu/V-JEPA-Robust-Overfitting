@@ -1,0 +1,59 @@
+{
+  "Mac_caffeinate_present": true,
+  "Mac_helper": "/Users/kaiwendu/Documents/GitHub/V-JEPA-Robust-Overfitting/runs/pretrained/diagnostic/predictor-record-target-v2-20261106/linux10603-final/run-attended.sh",
+  "approval": {
+    "path": "runs/pretrained/diagnostic/predictor-record-target-v2-20261106/authorization-review/user-approval.json",
+    "sha256": "1322dec16f6613e1641bc1098119778595006014915adec0d87153ab6df3d114"
+  },
+  "approval_persists_for_exact_unchanged_scope": true,
+  "authorization_is_for_one_new_attempt_only": true,
+  "authorization_path": "runs/pretrained/diagnostic/predictor-record-target-v2-20261106/linux10603-final/AUTHORIZATION.json",
+  "authorization_sha256": "c49588c7afaf85b98e5a95420f33ae7cf24c87b9f15f564a986a2ab44bf92d15",
+  "control_sha256": "0895a8064abb4e745067350c4617e29dca9588858188c26603b05cd07e6d6bd9",
+  "date": "2026-11-06",
+  "exact_user_approval_source": "Explicit user response to request_user_input_async/call_f2bf222c9b4d45d09eb820519190f00c/0",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "fresh_pasted_10603_identity_clear": true,
+  "helper_shell_syntax_passed": true,
+  "kind": "predictor-eot8-record-target-v2-armed-state-review",
+  "local_source_and_payload_bindings_unchanged": true,
+  "new_SSH_upload_proof_or_GPU_work": false,
+  "new_attempt_present": false,
+  "new_tests_rerun": false,
+  "next_step": "User runs the exact final Mac helper once, keeps Terminal and Mac awake, and enters university password promptly. Live guards must pass; no retry or second host.",
+  "old_10603_consumed_claim_unchanged": true,
+  "old_10609_unselected_unarmed": true,
+  "overlay_bytes": 225423,
+  "overlay_files": 17,
+  "passed": true,
+  "pasted_status_is_not_a_live_check_or_reservation": true,
+  "preparation_checks_not_rerun": 60,
+  "process_network_or_scientific_import_during_review": false,
+  "raw_armed_review": {
+    "path": "runs/pretrained/diagnostic/predictor-record-target-v2-20261106/authorization-review/review.json",
+    "sha256": "8be6b4d19b251f943e3becfe251db7576fa0f8aaabbaf0b5261f5f0a48013d96"
+  },
+  "saved_review_sources": {
+    "runs/pretrained/diagnostic/predictor-record-target-v2-20261106/authorization-review/arm-source.py": "3c6bbe6c59ef053d1188e171d56ccf341a4b4724560b29ae202b6449fe31db3d",
+    "runs/pretrained/diagnostic/predictor-record-target-v2-20261106/authorization-review/review-source.py": "3e6d470da0e59c49f95d0df6b590e2899fa259917b54167f764dc251fcf087ce"
+  },
+  "sealed_preparation_inputs_reverified": 7330,
+  "status": {
+    "path": "runs/pretrained/diagnostic/predictor-record-target-v2-20261106/authorization-review/user-status.json",
+    "sha256": "50f4f95d19460d88205420d6dacac0ecc5c7367290c607338f8aaa6a09380930"
+  },
+  "stdin_bootstrap_bytes": 707797,
+  "work_clock_started": false
+}

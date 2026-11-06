@@ -1,5 +1,27 @@
 # V-JEPA Robust Overfitting
 
+**EOT8 baseline verified; predictor gradient candidate rejected (November 6):**
+[All 159 files and twelve actual FP32 returns are verified](report/checks/2026-11-06-predictor-eot8-record-target-v2-target-review.md).
+The corrected writer preserves complete baseline call/scope/backend evidence.
+The candidate loss matches exactly, but 3,724 gradient elements exceed the
+unchanged bounds; the run stops before replay. Next is offline attribution of
+that discrepancy. Both hosts may idle; the attempt is consumed. Earlier entries
+are historical snapshots.
+
+**EOT8 external-record university attempt approved (November 6):**
+[The exact one-attempt authorization is armed and independently verified](report/checks/2026-11-06-predictor-eot8-record-target-v2-authorization.md).
+The fresh linux10603 GPU snapshot is clear. Next run the final attended Mac
+helper once and keep Terminal and Mac awake through collection, up to 50 minutes.
+No attempt or university work has started. Earlier entries are historical snapshots.
+
+**EOT8 external-record university handoff ready, unarmed (November 6):**
+[60 checks and independent saved-file review pass](report/checks/2026-11-06-predictor-eot8-record-target-v2-preparation.md).
+The supervisor requires final completion records and rereads actual backend
+events before accepting workers. Four fresh CPU workers preserve all forty
+prior tensors exactly. Next is one scoped university approval and a fresh
+linux10603 GPU check; target CUDA remains pending. Both hosts may idle. Earlier
+entries are historical snapshots.
+
 **Bounded EOT8 result storage fixed offline (November 6):**
 [33 checks and independent saved-file review pass](report/checks/2026-11-06-predictor-eot8-record-v2-offline-review.md).
 Call records now live in bounded external files with a small summary and final

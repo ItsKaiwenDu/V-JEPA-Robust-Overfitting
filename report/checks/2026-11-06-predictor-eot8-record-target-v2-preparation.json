@@ -1,0 +1,160 @@
+{
+  "CPU_actual_returns": 40,
+  "CPU_event_rows": [
+    25154,
+    26098,
+    25154,
+    26098
+  ],
+  "CPU_exact_vs_saved_v1": 40,
+  "CPU_four_fresh_PIDs": [
+    67899,
+    68046,
+    68051,
+    68054
+  ],
+  "CPU_fresh_replay_exact": 20,
+  "CPU_original_bound_comparisons": 20,
+  "CPU_output_receipts_independently_reverified": [
+    {
+      "CUDA_qualified": false,
+      "calls_sha256": "bc606a8b159b79182fb1f6006b01854099ae7a1d11b0729b31c1ad8aa3bf7f4c",
+      "completion_sha256": "4af5741b50826529d63a16f93a567925d94f3c0180f7910da70fff42bcef9b67",
+      "index": 0,
+      "pid": 67899,
+      "scopes_sha256": "9419280b06b9d97c7d15c651b50bd2a34245d1921241f6045d8dedabfb515e0a",
+      "trace_sha256": "2a7f6ecde7b7b152947401509935da47c44c0c52d830f0ae5fd6a4a301a59efc",
+      "worker_sha256": "6189e5c52cf70666be89c4ef2e4abd1e564a39e798c56bcb2d4d7c8b62d7cab8"
+    },
+    {
+      "CUDA_qualified": false,
+      "calls_sha256": "daff933a76b03df87d124438d3048b1f73b8d1e001ed2d006f6345df87395585",
+      "completion_sha256": "2da673480b0b1a85f5ab73d49178e1a31e5c48f776b2dcbb49df15a260612e1e",
+      "index": 1,
+      "pid": 68046,
+      "scopes_sha256": "3bdaf579c98f7ecc2412768e711546d033971b8811d2acc7803cb785d994899b",
+      "trace_sha256": "5d69c985cabd4b2e178c8b61ad1eb29336035289545af377b20013bd4c044c5e",
+      "worker_sha256": "5fba898f17cd627750b749caaf03e28aef3112a94fb546c639a441f25338938f"
+    },
+    {
+      "CUDA_qualified": false,
+      "calls_sha256": "b8a684bf4baf0b874c06dc51cc0e4b8fa2fa1f1a904dc3c93eeb87d9126f2832",
+      "completion_sha256": "2ca530ea8061b2cd135c915fa7f19111a1888421dda79720ab5c607e7953effd",
+      "index": 2,
+      "pid": 68051,
+      "scopes_sha256": "8740c4510d1dfd46ff775e807efeee1eb393e50d4e7237850d30e1d20f280a1b",
+      "trace_sha256": "15d3d7dce5a5062d6ea33a17b7fa0fdf50f0f6598e0dc9db19e70703bdfd9aa0",
+      "worker_sha256": "8ea6608a150de934d9903e25221ff65356b77adf1c855903f0d0dbd6b8963f79"
+    },
+    {
+      "CUDA_qualified": false,
+      "calls_sha256": "326604da6450a7427f251e51f6cdbe9b4e690c240bdae1389286b97c6b55aeaf",
+      "completion_sha256": "bc26f0faabb31cf85de577e5cce70dea48deb6ec88191c7129f7260b26320e63",
+      "index": 3,
+      "pid": 68054,
+      "scopes_sha256": "0c9efeed317a604f96bd534b861f62a105c23d4d819c3c6a0b0bc18c63a6e918",
+      "trace_sha256": "de255b6bef30dad80ca2a32ee231ed1f7e3242fe55344e69d01bb6a26e966451",
+      "worker_sha256": "cfe07f85adfb536ebaf0b03118f93a1248e10fa18ec05f2bf0081b8f111f96ab"
+    }
+  ],
+  "CPU_twenty_graph_scopes_complete_hooks_removed": true,
+  "CPU_within_exact": 24,
+  "actual_raw_event_verification_required_before_next_live_worker": true,
+  "archive_bytes": 17192095,
+  "archive_members": 99,
+  "checks": {
+    "errors": 0,
+    "failures": 0,
+    "skips": 0,
+    "unique": 60
+  },
+  "consumed_prior_claim_unchanged": true,
+  "control_sha256": "0895a8064abb4e745067350c4617e29dca9588858188c26603b05cd07e6d6bd9",
+  "date": "2026-11-06",
+  "documentation": {
+    "path": "docs/predictor_eot8_record_target_v2.md",
+    "sha256": "43d1ac786dac57f2d7183c0dd67c12194abad8574abb6d90f7e6af2754444052"
+  },
+  "failed_full_volume_simulation_collected_rows": 2736,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "fresh_target_status_pending": true,
+  "full_volume_simulation_is_not_actual_GPU_evidence": true,
+  "handoff": "runs/pretrained/diagnostic/predictor-record-target-v2-20261106/linux10603-final",
+  "historical_refusals_resolved": false,
+  "kind": "predictor-eot8-record-target-v2-preparation",
+  "local_environment": {
+    "architecture": "arm64",
+    "python": "3.11.16",
+    "torch": "2.14.1"
+  },
+  "model_autograd_SDPA_CUDA_process_network_blocked_during_saved_review": true,
+  "new_SSH_upload_or_proof_or_university_or_paid_work": false,
+  "new_authorization_or_attempt_present": false,
+  "new_target_approval_requested_at_report_creation": false,
+  "next_step": "One new exact scoped university exception and fresh clear linux10603 GPU status before arming. Never reuse a consumed helper or the old pending linux10609 grant.",
+  "old_10609_unselected_unarmed": true,
+  "overlay_bytes": 225423,
+  "overlay_files": 17,
+  "parent_writer_33_checks_unchanged_not_rerun": true,
+  "passed": true,
+  "prior_inputs_reverified": 6759,
+  "raw_review": {
+    "path": "runs/pretrained/diagnostic/predictor-record-target-v2-20261106/independent-review/review.json",
+    "sha256": "243dbc9f1869a41b193e9934cefcaa1f3e6837ae53872334039920ca1d0d763d"
+  },
+  "record_storage_projection": {
+    "all_other_metadata_and_allocated_blocks_still_require_existing_aggregate_gate": true,
+    "existing_metadata_category_bytes": 67108864,
+    "four_workers_plus_one_atomic_copy_bytes": 43712512,
+    "global_operational_JSON_limit_unchanged": 1048576,
+    "metadata_category_margin_before_other_metadata_bytes": 23396352,
+    "new_worker_header_limit": 262144
+  },
+  "research_admitted": false,
+  "scaffold_YAML_shell_syntax_and_diff_check_passed": true,
+  "scientific_tensor_or_numerical_or_aggregate_time_storage_bounds_changed": false,
+  "sealed_inputs": 7330,
+  "sealed_manifest": {
+    "files": 7330,
+    "path": "runs/pretrained/diagnostic/predictor-record-target-v2-20261106/independent-review/sealed-inputs.json",
+    "sha256": "5e444f5ac7f5c56d570019cc56a87ac0da60e6881d0328fa678a0fe9a287508b"
+  },
+  "source_bindings": {
+    "configs/predictor_attention_eot8_proposal_v1.json": "9a44e4b57a3ac36e0a5fb5092a089a6971da1ad0425714b06ae98793e4c7660d",
+    "configs/predictor_eot8_record_target_v2.json": "1300b1323a6dccadf2eebc86148ca61d7652afad8e3785c3efcdd762d3e95515",
+    "models/cpu_oracle_control_prerequisite.py": "c6d4927e89d23abbd4ad019ab4d9c0209f0995d75050f1246092aa4a23b8ef63",
+    "models/cpu_oracle_control_v1.py": "06e5731e48ee079acdecf5ad992eef3930c8ba2e66f44f0d9c748c31fdb5baf7",
+    "models/cpu_oracle_scratch.py": "12992c272b21902297746d7781685dc951d0a310ace1dc73cbb99b8d52f6bbe6",
+    "models/oracle_boundary_operator_v1.py": "dde0d903986a5e83d02d9e7cb5fe4b6869d02f3731c8d4f30dd749a20f742b73",
+    "models/predictor_eot8_adapter_v1.py": "89b7e0c67e88f2f776bb0bb6ad786a2202115e64ffc6c6f9a962381cc2e9a6b8",
+    "models/predictor_eot8_capture_v1.py": "fcf582f0152f9ad1d93d1bf038895ba6c6c84d75a4fdfc02d5d4b2ea96e0d3e4",
+    "models/predictor_eot8_events_v1.py": "6bb6a1d0564b4b7f976704325cd946a4a1cf6d6616f82f53dc908b065aa699a8",
+    "models/predictor_eot8_owned_receipt_v1.py": "55005fd96e994c660e693e0347a337d01826eaf5224ecf6f38329a8905538531",
+    "models/predictor_eot8_owned_v1.py": "ef3675e69ef56b0b4ef4f543cab96b7f2bc757a64202d74500f3802ccd5dfc12",
+    "models/predictor_eot8_record_client_v2.py": "d0d12ef34b731906b12ac964416eba3a48c1d8a2e80cd412bb3054f18c69aede",
+    "models/predictor_eot8_record_operator_v2.py": "f0f5bd09dd533977f5d2c67898fc5e62728fca4aefdf99f23edd397dc15806ae",
+    "models/predictor_eot8_record_v2.py": "c75455b9a08f1b25bbb7269d4ae3c1fa34826656ba1800c0a45fdf9433765dd9",
+    "models/predictor_eot8_record_worker_v2.py": "ec43f86d2c077eb6a3d8dbb34b2d25f437c2f544fe3baa41ddbddad41bb66be4",
+    "models/scratch_allocation_v2.py": "6b0503b8ab2c88a44a4d95c8fafbad52d1c0414293379406520a22f67700e874",
+    "scripts/capture_predictor_eot8_record_v2.py": "0a5e5d51bccf878ed27a12b634251374a29f119e456f6319a9938366d241b9ad",
+    "scripts/prepare_predictor_eot8_record_v2.py": "7da20101958490258b604a317a983c352aa375f8de1b1016b3a5a8d47508c36a",
+    "scripts/run_predictor_eot8_record_v2.py": "d60e02d6aeb59693bdaa9c42c30fd2e4173ff38e043100867b9051eaa42aef55",
+    "tests/test_predictor_eot8_record_operations_v2.py": "c3036a659f246ba3f4618ffa20fa414fd93c4bd1634093f0242cda8d4ab073c7",
+    "tests/test_predictor_eot8_record_target_v2.py": "f0576e18026d8aab09cb75c746833ee6e96f5459bca1c29a589a7a761ee723d8"
+  },
+  "stdin_bootstrap_bytes": 707797,
+  "target_CUDA_or_pretrained_or_performance_qualified": false,
+  "typed_new_record_and_partial_caps_enforced": true
+}

@@ -2,6 +2,129 @@
 
 ## Current stage
 
+LATEST Nov06: EOT8 ORIGINAL VERIFIED; PREDICTOR-MATH INPUT-GRADIENT REJECTED.
+Read report/checks/2026-11-06-predictor-eot8-record-target-v2-target-review.json/md FIRST.
+Saved response238107286B,159files237948160logicalB fully verified:stream/file
+hashes,sizes,modes,exact nanosecond mtimes,extent;99packet/17overlay bindings.
+7330 prior pins reverified;7505 inputs sealed under rawpredictor-record-target-v2-
+20261106/independent-target-review. Local saved review blocks model/autograd/
+SDPA/CUDA/process/network; no scientific work or tests rerun. Sources FROZEN.
+Baseline worker0 complete/passed:all10 FP32 returns;4 fullEOT8 comparisons EXACT
+vsprior +6 within-process exact;initial weights/pixels/targets/seeds/8draws/
+2families/runtime unchanged. Model/targets and adapter-restored receipts present.
+2736 actual call rows,5 complete GraphTask scopes/hook removals independently
+verify;5 observed cross-creator thread scopes,zero ownership refusals. Raw CUDA
+reader rerun on216858events/81250156B;accepted backend receipt matches session.
+Actual efficient CUDA links only profiledfirstdraw/twofamilies/36owners, not all
+geometry or performance/cost. New split writer works:2255474B calls,19491B header,
+1933B scopes,436B completion marker. No old1MiB bound change/record overflow.
+Candidate1 stops on EOT8-before INPUT gradient under original rtol.002/atol2e-7:
+3724/3145728 elements violate;worst threshold ratio8.641704438;maxabsdelta1.496e-5.
+Loss EXACT0.5617199540138245 vsprior+freshoriginal. Baseline is exactprior,so both
+references fail identically. Low descriptive L2 does NOT override elementwise gate;
+no tolerance relaxed. Root forward/backward cause NOT established. Initial baseline
+identities match. Candidate saves2actualFP32returns,1152calls,one complete scope/
+hook removal,adapter restored,zero ownership refusals,hash-bound finalFAILURE.
+Loader refuses failedcandidate reference. Candidate profiling phase NOT reached;
+NO independent candidate CUDA-kernel/backend qualification. Other phases and
+both replay workers absent. Four-worker diagnostic incomplete/failed; no adoption.
+Proof2.5GiB/9.755s/1926observations;work154.975s;worker supervisors95.277/32.604s.
+Peak allocators5128348672/5847053312B<7GiB;26GPU samples only owned PIDs652681/
+658470. No timeout/OOM/foreign/storage refusal recorded. Sampling NOTexclusivity.
+ACTIVE latest claim now CONSUMED4dd65b03ea11ff2f67db43008130dbc7a84e75c7b29c01e1c5b2f84e0bd859bd.
+Never rerun rawpredictor-record-target-v2-20261106/linux10603-final helper or reset
+AUTH/ATTEMPT/clock/reuse unused workers. All captured source/control/claims/data
+remain immutable. Old09 unselected/unarmed; no fallback/cleanup. Bothhosts mayidle.
+NEXT offline attribution plan for predictor forward vsbackward discrepancy with
+original numerical bounds and preserved fixed-input evidence. NO new target
+work before concrete reviewed scope +ONE new exact approval; no ask before prep.
+Historical failures/replay/PGDscoring/parameteroptimizer/performancecost/research
+admission stayopen. Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/
+200project/40reserve/wallet6.56/reconciliationfalse unchanged;Runpod terminated.
+User commits self; NEVER stage/commit/push. Earlier LATEST entries are history.
+
+LATEST Nov06: EOT8 RECORD V2 SINGLE TARGET ATTEMPT APPROVED/ARMED, NOT CLAIMED.
+Read report/checks/2026-11-06-predictor-eot8-record-target-v2-authorization.json/md
+and docs/predictor_eot8_record_target_v2.md FIRST. User explicitly approved one
+bounded attempt in call_f2bf222c9b4d45d09eb820519190f00c/0 and supplied fresh clear
+03 status in /1: expected RTX3070 UUID,8192MiB/94MiB,driver580.178.04,no compute.
+Approval PERSISTS for EXACT unchanged scope; do NOT ask it again. Pasted status
+is not a reservation/live agent SSH check; live guards must pass before/during.
+ACTIVE handoff ONLY rawpredictor-record-target-v2-20261106/linux10603-final.
+CONTROL0895a8064abb4e745067350c4617e29dca9588858188c26603b05cd07e6d6bd9;
+AUTHc49588c7afaf85b98e5a95420f33ae7cf24c87b9f15f564a986a2ab44bf92d15.
+Separate AUTH saved, no ATTEMPT/session/SSH/upload/proof/university worker yet.
+Independent armed review reverified7330sealed inputs/control/source/publickey/
+old consumed claims/exact17overlays225423B/packet17192095B/bootstrap707797B.
+Scientific imports/process/network blocked during review; shell syntax PASS.
+60 preparation checks unchanged, not rerun. Original frozen sources and old
+claims stay immutable; old09 unselected/unarmed. No fallback or parallel host.
+NEXT user runs the final attended LOCAL Mac helper ONCE, optionally under the
+built-in caffeinate -i. Keep Mac awake/lid open/Terminal open through collection;
+enter university password promptly. Helper claims before SSH; any error stops,
+NEVER rerun or reset/replace AUTH or ATTEMPT. Then independently review saved
+response/files/typed returns/scopes/final markers/raw backend events before any
+qualification. No missing old receipts may be reconstructed or adopted.
+SAME40min work incl full2.5GiBproof +4serial<=8minworkers;10min/3GiB sameSSH
+collection; setup3GiB/capture2.25GiB/raw1792MiB/metadata64MiB/allocator7GiB.
+No retries/standalone retrieval/cleanup/privatekey upload/heldout pixels/paidwork.
+Foreign compute refuses; leave processes alone. Scientific/resource gates and
+finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+wallet6.56/reconciliationfalse unchanged; known Runpod terminated. Target CUDA,
+pretrained behavior/backend/memory/performance and research gates stay pending.
+User commits self; NEVER stage/commit/push. Earlier LATEST entries are history.
+
+LATEST Nov06: EOT8 RECORD V2 LIVE HANDOFF PREPARED/VERIFIED, UNARMED.
+Read docs/predictor_eot8_record_target_v2.md and
+report/checks/2026-11-06-predictor-eot8-record-target-v2-preparation.json/md FIRST.
+Separate models/predictor_eot8_record_worker_v2.py/operator_v2.py/client_v2.py,
+source-bound capture/prepare/run scripts/config. Frozenroute/recordv2/capture/
+eventreader reused unchanged; all capturedsources/claims remain FROZEN.
+60distinct checks PASS,zeroerrors/failures/skips. Earlier33recordchecks notrerun
+oradded. Four fresh CPUexecutions ofliveworker:40FP32returns EXACT vsoldv1,
+24withinexact/20originalbound/20freshreplay;20completeGraphTasks/hooksremoved.
+Supervisor outputchecker requires finalmarker/hash-linkedexternalfiles/actual
+scopes/all10typedreturns and independentlyreruns rawbackendreader BEFOREacceptance.
+Outputreceipt bindsheader/completion/calls/scopes/trace hashes; priorreceipts
+rechecked beforelaterworkers, inclchildentry before scientificimports. Livegate
+rejectsCPU; localverificationexplicitCPUonly/forbiddenonuniversity. Revisiontag
+required beforemodelrefs. Original tensorops/numgates/targets/seeds/all8draws/
+2families/fivepasses/newcompletepassingrefs/exactreplay unchanged. No neworacle/
+PGD/scoring/optimizer/parameterbackward. Existingstudyguardrejectscandidate.
+Cold99memberimports, exactsource/control/publickey, unarmed/copiedhelperrefusal,
+typedpartialcaps/categoryaccounting/continuingclock/serialstop/collection pass.
+New integrationrealrefusal preservesloss/scope/hook; simulatedfailedfullvolume
+2736syntheticrows copied afterexit1, no retry/nextworker/admission. Not GPUevidence.
+Independentreview reverified6759priorpins/exactpayload/40CPUvalues/rawCPUevents,
+sealed7330inputs under rawpredictor-record-target-v2-20261106/independent-review.
+Model/backward/SDPA/CUDA/process/network blocked. Scaffold/YAML/shell/diff PASS.
+ACTIVE unarmedhandoff ONLY rawpredictor-record-target-v2-20261106/linux10603-final.
+CONTROL0895a8064abb4e745067350c4617e29dca9588858188c26603b05cd07e6d6bd9.
+Exact proposedupload unchanged17192095B/99members packet +17overlays225423B
+inclboundplan/budgetsnapshot;stdinbootstrap707797B<2MiB. Newprivate/var/tmp on03;
+no weights/deps/privatekeys/heldoutpixels uploads/installs. Previouscontrol90863.../
+claimb018c09881ed58dc166b890af1865b817d495813581ae7c9905692293e087528 consumed,
+unchanged. 09unselected/unarmed, neverfallback. No AUTH/ATTEMPT/SSH/upload/proof/
+universityworker/cleanup/paidwork/approval created. Bothhosts mayidle.
+Same2400swork inclpreflight/setup180/full2.5GiBproof<=60 BEFOREarchive and4serial
+<=480sworkers;600s/3GiBsameSSHcollection afterscratchwork. Earlierreceipt/event
+checks chargedtoexistingclocks. Setup3GiB/capture2.25GiB/raw1792MiB/metadata64MiB/
+allocator7GiB;newlowerfilecaps8MiBcalls/64KiBscopes/256KiBheader/16KiBmarkers +partials.
+No retries, oldclaimclockreset, standaloneretrieval, cleanup or parallelhost.
+Source sampling is not GPU/storage reservation; foreigncompute refuses, leavealone.
+LocalCPU nottargetCUDA/pretrained/memory/backend/performance/cost/research proof.
+ActualCUDAproofiflaterpassing onlyprofiledfirstdraw/twofamilies, notallgeometry.
+NEXT request ONE new exact scoped additional target authorization and fresh
+read-only linux10603 hostname/GPUUUID/process status. The previous single attempt
+is consumed; a new attempt requires one new scoped approval. Completepreparation
+is nowreviewed; do NOT ask an already-answered approval again. After approval and
+freshclearstatus, reverifyexactbindings, write separateAUTH, independentlycheck,
+then give one attendedLOCALMac helper. Do NOT startorclaimbeforeapproval.
+Historical~1e-10/generatorfixedloader/PGDscoring/parameteroptimizer/performancecost/
+research gates stayopen. Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/
+200project/40reserve/wallet6.56/reconciliationfalse unchanged;knownRunpodterminated.
+User commits self; NEVER stage/commit/push. EarlierLATEST historical snapshots.
+
 LATEST Nov06: EOT8 SPLIT RESULT WRITER V2 FIXED/TESTED OFFLINE.
 Read docs/predictor_eot8_record_v2.md and
 report/checks/2026-11-06-predictor-eot8-record-v2-offline-review.json/md FIRST.

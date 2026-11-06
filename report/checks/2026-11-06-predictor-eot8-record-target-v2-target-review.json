@@ -1,0 +1,434 @@
+{
+  "GPU_samples_by_worker": [
+    {
+      "count": 19,
+      "only_observed_compute_PID": 652681
+    },
+    {
+      "count": 7,
+      "only_observed_compute_PID": 658470
+    }
+  ],
+  "actual_FP32_returns": 12,
+  "actual_values_by_worker": [
+    {
+      "EOT8-after-input": {
+        "dtype": "torch.float32",
+        "max_abs": 0.45659419894218445,
+        "scalar": null,
+        "shape": [
+          1,
+          3,
+          16,
+          256,
+          256
+        ],
+        "tensor_sha256": "68c82f9e88337dcd2afc1d6d33dd86025d6bc33086d8ae59b05f5d7446c5af4b"
+      },
+      "EOT8-after-loss": {
+        "dtype": "torch.float32",
+        "max_abs": 0.5617199540138245,
+        "scalar": 0.5617199540138245,
+        "shape": [],
+        "tensor_sha256": "e0936ec1b34b140bc92404d108cfabb17b861feca87c207e702f818997f34a62"
+      },
+      "EOT8-before-input": {
+        "dtype": "torch.float32",
+        "max_abs": 0.45659419894218445,
+        "scalar": null,
+        "shape": [
+          1,
+          3,
+          16,
+          256,
+          256
+        ],
+        "tensor_sha256": "68c82f9e88337dcd2afc1d6d33dd86025d6bc33086d8ae59b05f5d7446c5af4b"
+      },
+      "EOT8-before-loss": {
+        "dtype": "torch.float32",
+        "max_abs": 0.5617199540138245,
+        "scalar": 0.5617199540138245,
+        "shape": [],
+        "tensor_sha256": "e0936ec1b34b140bc92404d108cfabb17b861feca87c207e702f818997f34a62"
+      },
+      "draw-after-input": {
+        "dtype": "torch.float32",
+        "max_abs": 0.18683339655399323,
+        "scalar": null,
+        "shape": [
+          1,
+          3,
+          16,
+          256,
+          256
+        ],
+        "tensor_sha256": "4d7f8384c12a63510f2ce0df243302c7a012fdf4649cd29207625b53f5418d67"
+      },
+      "draw-after-loss": {
+        "dtype": "torch.float32",
+        "max_abs": 0.5697278380393982,
+        "scalar": 0.5697278380393982,
+        "shape": [],
+        "tensor_sha256": "44155f85489c161fa83cbc61826e21f11ec4c86f1443609da550c06746e49ada"
+      },
+      "draw-before-input": {
+        "dtype": "torch.float32",
+        "max_abs": 0.18683339655399323,
+        "scalar": null,
+        "shape": [
+          1,
+          3,
+          16,
+          256,
+          256
+        ],
+        "tensor_sha256": "4d7f8384c12a63510f2ce0df243302c7a012fdf4649cd29207625b53f5418d67"
+      },
+      "draw-before-loss": {
+        "dtype": "torch.float32",
+        "max_abs": 0.5697278380393982,
+        "scalar": 0.5697278380393982,
+        "shape": [],
+        "tensor_sha256": "44155f85489c161fa83cbc61826e21f11ec4c86f1443609da550c06746e49ada"
+      },
+      "draw-profiled-input": {
+        "dtype": "torch.float32",
+        "max_abs": 0.18683339655399323,
+        "scalar": null,
+        "shape": [
+          1,
+          3,
+          16,
+          256,
+          256
+        ],
+        "tensor_sha256": "4d7f8384c12a63510f2ce0df243302c7a012fdf4649cd29207625b53f5418d67"
+      },
+      "draw-profiled-loss": {
+        "dtype": "torch.float32",
+        "max_abs": 0.5697278380393982,
+        "scalar": 0.5697278380393982,
+        "shape": [],
+        "tensor_sha256": "44155f85489c161fa83cbc61826e21f11ec4c86f1443609da550c06746e49ada"
+      }
+    },
+    {
+      "EOT8-before-input": {
+        "dtype": "torch.float32",
+        "max_abs": 0.45660915970802307,
+        "scalar": null,
+        "shape": [
+          1,
+          3,
+          16,
+          256,
+          256
+        ],
+        "tensor_sha256": "f64f74b24a8b3507d17477b0e63528b6ca0bda2f589629169439e5e548518040"
+      },
+      "EOT8-before-loss": {
+        "dtype": "torch.float32",
+        "max_abs": 0.5617199540138245,
+        "scalar": 0.5617199540138245,
+        "shape": [],
+        "tensor_sha256": "e0936ec1b34b140bc92404d108cfabb17b861feca87c207e702f818997f34a62"
+      }
+    }
+  ],
+  "all_initial_weights_pixels_targets_masks_seeds_runtime_match": true,
+  "all_original_full_EOT8_returns_exact_vs_prior": true,
+  "approved_overlays_verified": 17,
+  "approved_packet_members_verified": 99,
+  "authorization_sha256": "c49588c7afaf85b98e5a95420f33ae7cf24c87b9f15f564a986a2ab44bf92d15",
+  "baseline_exported_five_backward_scopes_and_restore_receipt_verified": true,
+  "baseline_observed_cross_creator_thread_scopes": 5,
+  "candidate_CUDA_backend_qualified": false,
+  "candidate_EOT8_before_comparisons_vs_both_prior_and_fresh_original": [
+    {
+      "atol": 2e-06,
+      "elements": 1,
+      "exact": true,
+      "kind": "loss",
+      "max_absolute_error": 0.0,
+      "max_threshold_ratio": 0.0,
+      "passed": true,
+      "rtol": 1e-05,
+      "violations": 0,
+      "worst_ratio_element": {
+        "absolute_error": 0.0,
+        "actual": 0.5617199540138245,
+        "coordinates": [],
+        "flat_index": 0,
+        "reference": 0.5617199540138245,
+        "threshold": 7.617199540138244e-06
+      }
+    },
+    {
+      "atol": 2e-07,
+      "elements": 3145728,
+      "exact": false,
+      "kind": "input",
+      "max_absolute_error": 1.4960765838623047e-05,
+      "max_threshold_ratio": 8.641704438152846,
+      "passed": false,
+      "relative_L2_error_diagnostic_only": 4.683764242262674e-05,
+      "rtol": 0.002,
+      "violating_fraction": 0.0011838277180989583,
+      "violations": 3724,
+      "worst_ratio_element": {
+        "absolute_error": 2.00571957975626e-06,
+        "actual": -1.8054561223834753e-05,
+        "coordinates": [
+          0,
+          0,
+          2,
+          233,
+          112
+        ],
+        "flat_index": 190832,
+        "reference": -1.6048841644078493e-05,
+        "threshold": 2.32097683288157e-07
+      }
+    }
+  ],
+  "candidate_call_rows": 1152,
+  "candidate_or_study_or_performance_qualified": false,
+  "candidate_passed": false,
+  "candidate_profiling_stage_reached": false,
+  "candidate_started": true,
+  "collection_complete": true,
+  "collection_files": 159,
+  "collection_hash_size_mode_exact_mtime_and_member_hashes_verified": true,
+  "consumed_attempt_sha256": "4dd65b03ea11ff2f67db43008130dbc7a84e75c7b29c01e1c5b2f84e0bd859bd",
+  "consumed_claim_reset": false,
+  "continuous_exclusivity_proved": false,
+  "control_sha256": "0895a8064abb4e745067350c4617e29dca9588858188c26603b05cd07e6d6bd9",
+  "date": "2026-11-06",
+  "diagnostic_complete": false,
+  "diagnostic_passed": false,
+  "failed_candidate_exported_one_complete_scope_hook_removed_and_adapter_restored": true,
+  "failed_candidate_final_failure_marker_binds_header": true,
+  "failed_candidate_full_reference_loader_refused": true,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "four_original_full_EOT8_comparisons": [
+    {
+      "atol": 2e-06,
+      "elements": 1,
+      "exact": true,
+      "kind": "loss",
+      "max_absolute_error": 0.0,
+      "max_threshold_ratio": 0.0,
+      "passed": true,
+      "phase": "EOT8-before",
+      "rtol": 1e-05,
+      "violations": 0,
+      "worst_ratio_element": {
+        "absolute_error": 0.0,
+        "actual": 0.5617199540138245,
+        "coordinates": [],
+        "flat_index": 0,
+        "reference": 0.5617199540138245,
+        "threshold": 7.617199540138244e-06
+      }
+    },
+    {
+      "atol": 2e-07,
+      "elements": 3145728,
+      "exact": true,
+      "kind": "input",
+      "max_absolute_error": 0.0,
+      "max_threshold_ratio": 0.0,
+      "passed": true,
+      "phase": "EOT8-before",
+      "relative_L2_error_diagnostic_only": 0.0,
+      "rtol": 0.002,
+      "violating_fraction": 0.0,
+      "violations": 0,
+      "worst_ratio_element": {
+        "absolute_error": 0.0,
+        "actual": -0.0028906234074383974,
+        "coordinates": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "flat_index": 0,
+        "reference": -0.0028906234074383974,
+        "threshold": 5.9812468148767945e-06
+      }
+    },
+    {
+      "atol": 2e-06,
+      "elements": 1,
+      "exact": true,
+      "kind": "loss",
+      "max_absolute_error": 0.0,
+      "max_threshold_ratio": 0.0,
+      "passed": true,
+      "phase": "EOT8-after",
+      "rtol": 1e-05,
+      "violations": 0,
+      "worst_ratio_element": {
+        "absolute_error": 0.0,
+        "actual": 0.5617199540138245,
+        "coordinates": [],
+        "flat_index": 0,
+        "reference": 0.5617199540138245,
+        "threshold": 7.617199540138244e-06
+      }
+    },
+    {
+      "atol": 2e-07,
+      "elements": 3145728,
+      "exact": true,
+      "kind": "input",
+      "max_absolute_error": 0.0,
+      "max_threshold_ratio": 0.0,
+      "passed": true,
+      "phase": "EOT8-after",
+      "relative_L2_error_diagnostic_only": 0.0,
+      "rtol": 0.002,
+      "violating_fraction": 0.0,
+      "violations": 0,
+      "worst_ratio_element": {
+        "absolute_error": 0.0,
+        "actual": -0.0028906234074383974,
+        "coordinates": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "flat_index": 0,
+        "reference": -0.0028906234074383974,
+        "threshold": 5.9812468148767945e-06
+      }
+    }
+  ],
+  "fresh_process_replay_qualified": false,
+  "fresh_replay_started": false,
+  "historical_refusals_resolved": false,
+  "kind": "predictor-eot8-record-target-v2-result-review",
+  "model_autograd_SDPA_CUDA_process_network_denied_during_review": true,
+  "new_SSH_upload_or_calculation_or_oracle_or_GPU_work_during_review": false,
+  "new_tests_rerun": false,
+  "next_step": "Offline attribution of the predictor-math input-gradient discrepancy using preserved values and a separately reviewed minimal comparison plan. Keep the original elementwise bounds; no automatic retry, candidate adoption, source alteration or new target work.",
+  "numerical_tolerances_changed": false,
+  "original_CUDA_backend_proof_scope": "profiled-first-draw-two-families-only",
+  "original_call_rows": 2736,
+  "original_raw_profile_bytes": 81250156,
+  "original_raw_profile_events": 216858,
+  "original_worker_complete_and_passed": true,
+  "original_worker_receipt_reverified": {
+    "CUDA_qualified": true,
+    "calls_sha256": "b7fdf78e1ba39852a90e759b2f143334ee11a9a7d75c5c05020d0b00fbfd7a85",
+    "completion_sha256": "f99183262a932b2921613632c26c959985e914dab599b09a56a5334acb435e01",
+    "index": 0,
+    "pid": 652681,
+    "scopes_sha256": "16b05194f95b59bc5830580962d58f5ee5bd327268da6ac1eee214e3757000ac",
+    "trace_sha256": "db469234865e9e1120fb13e3234bf6feec584dafc2d9868c2fb2dcbdcbf21f19",
+    "worker_sha256": "f96c9468a30ee3b70b969d5aea44bf7668ca9d938d128b6734c7af38c8402607"
+  },
+  "paid_compute": false,
+  "prior_sealed_inputs_reverified": 7330,
+  "proof_allocation_rows": 1926,
+  "proof_bytes": 2684354560,
+  "proof_seconds": 9.755010592751205,
+  "raw_review": {
+    "path": "runs/pretrained/diagnostic/predictor-record-target-v2-20261106/independent-target-review/review.json",
+    "sha256": "e26c79dacf73b46480db7a687a65e7a520b8fb8c202409d7f93e9bb4eeda05a1"
+  },
+  "record_bytes_by_worker": [
+    {
+      "attention-calls.jsonl": 2255474,
+      "attention-scopes.json": 1933,
+      "worker-complete.json": 436,
+      "worker.json": 19491
+    },
+    {
+      "attention-calls.jsonl": 950698,
+      "attention-scopes.json": 798,
+      "worker-failure.json": 441,
+      "worker.json": 8913
+    }
+  ],
+  "record_writer_overflow_recurred": false,
+  "research_admitted": false,
+  "resource_time_or_storage_refusal_recorded": false,
+  "response_bytes": 238107286,
+  "response_sha256": "53e384283c46418aa06b69f7344987dee283ad332ed8fb775b6e5d1db1279e75",
+  "saved_review_passed": true,
+  "scratch_directory": "/var/tmp/vjepa-predictor-eot8-record-v2-20261106-xubjsofk",
+  "sealed_inputs": 7505,
+  "sealed_manifest": {
+    "files": 7505,
+    "path": "runs/pretrained/diagnostic/predictor-record-target-v2-20261106/independent-target-review/sealed-inputs.json",
+    "sha256": "1d138bb2429f1ff665c7c3ec01f8773ac29429a79fd81d061b66d7c984e771d3"
+  },
+  "six_original_within_process_exact_comparisons": [
+    {
+      "after": "EOT8-after",
+      "before": "EOT8-before",
+      "exact": true,
+      "kind": "loss"
+    },
+    {
+      "after": "EOT8-after",
+      "before": "EOT8-before",
+      "exact": true,
+      "kind": "input"
+    },
+    {
+      "after": "draw-profiled",
+      "before": "draw-before",
+      "exact": true,
+      "kind": "loss"
+    },
+    {
+      "after": "draw-profiled",
+      "before": "draw-before",
+      "exact": true,
+      "kind": "input"
+    },
+    {
+      "after": "draw-after",
+      "before": "draw-before",
+      "exact": true,
+      "kind": "loss"
+    },
+    {
+      "after": "draw-after",
+      "before": "draw-before",
+      "exact": true,
+      "kind": "input"
+    }
+  ],
+  "source_error": "Predictor-math EOT8-before input gradient fails the unchanged elementwise bounds against the historical full-EOT8 reference; the fresh passing original is identical to that reference.",
+  "stream_logical_bytes": 237948160,
+  "unchanged_raw_CUDA_event_verifier_reexecuted": true,
+  "whole_work_seconds": 154.97499306406826,
+  "worker_reported_peak_allocator_bytes": [
+    5128348672,
+    5847053312
+  ],
+  "worker_supervisor_seconds": [
+    95.27656752429903,
+    32.6037759128958
+  ]
+}

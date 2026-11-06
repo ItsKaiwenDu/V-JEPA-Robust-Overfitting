@@ -1,5 +1,92 @@
 # Research Progress Reports
 
+## 2026-11-06 — Target baseline verified and candidate gradient rejected
+
+The external-record writer completes its first university baseline: all five
+phases, ten FP32 returns, 2,736 call rows, five graph scopes and final completion
+marker verify. Four full-EOT8 comparisons are exact against the historical
+reference; six within-process controls are exact. Independent raw-event reading
+confirms efficient CUDA forward/backward links for the profiled first draw,
+both families and all 36 owners. The 2,255,474-byte call file no longer enters
+the small worker header; no serialization overflow recurred.
+
+The predictor-math candidate reaches its first full EOT8 loss/input gradient.
+Loss is exactly 0.5617199540138245, but 3,724 of 3,145,728 input-gradient values
+violate the original rtol 0.002 / atol 2e-7 rule, with worst error/threshold ratio
+8.6417. Its two tensors, 1,152 call rows, complete single backward scope, removed
+hook, restored adapter and final failure marker are preserved. No tolerance is
+relaxed; the candidate cannot qualify as a reference. Profiling and the replay
+workers never start, so candidate kernel/backend and fresh replay qualification
+remain absent. The numerical source is not established by this review.
+
+All 159 same-SSH collected files / 237,948,160 logical bytes match stream hashes,
+sizes, modes and exact modification times. Independent review revalidates 7,330
+prior pins and seals 7,505 inputs with model/autograd/SDPA/CUDA/process/network
+execution blocked. Whole work is 154.975 seconds; the 2.5 GiB proof passes in
+9.755 seconds and recorded allocator peaks stay below 7 GiB. No resource or
+foreign-process refusal is recorded; sampling is not exclusivity proof.
+
+The diagnostic remains incomplete/failed, and its one attempt is consumed.
+Both hosts may idle. Next prepare offline forward/backward attribution while
+preserving the original bounds and all captured source/results/claims. No new
+experiment, retry, cleanup, paid compute, financial hold or test rerun occurs.
+[Target review](report/checks/2026-11-06-predictor-eot8-record-target-v2-target-review.md).
+
+## 2026-11-06 — External-record EOT8 attempt approved and armed
+
+The user approved the exact single linux10603 attempt and supplied a fresh GPU
+snapshot with the expected identity and no CUDA compute processes. A separate
+authorization is saved in the final handoff; no attempt has been claimed and no
+SSH/upload, proof or university work has begun. Live guards must still pass;
+the snapshot is not a reservation.
+
+Independent armed-state review reverified all 7,330 sealed inputs, exact source,
+control, public key and prior consumed claims, plus 17 overlays / 225,423 bytes,
+the unchanged 17,192,095-byte packet and 707,797-byte bootstrap. It checks the
+exact approval and authorization with scientific imports, process and network
+creation blocked. Helper shell syntax passes. The 60 preparation checks were
+not rerun. Captured historical sources/claims and the pending 09 handoff stay
+unchanged.
+
+Next run the final attended Mac helper once, enter the university password
+promptly, and keep Mac and Terminal awake through work and same-SSH collection.
+The unchanged allowance is 40 minutes of work, including the full 2.5 GiB proof
+and four serial workers of at most eight minutes each, then at most 10 minutes /
+3 GiB collection. No retries or automatic restart, cleanup, parallel host,
+private-key uploads, held-out pixels or paid compute. Target qualification and
+broader research gates remain pending; financial caps/holds are unchanged.
+[Authorization review](report/checks/2026-11-06-predictor-eot8-record-target-v2-authorization.md).
+
+## 2026-11-06 — External-record EOT8 university handoff prepared and verified
+
+The new live worker integrates the frozen bounded record writer, with separate
+supervisor/client/entry/config files and a new unarmed source-bound handoff.
+Final markers, hash-linked calls/scopes and actual raw backend events must verify
+before a worker is accepted; those receipts are rechecked before later tasks.
+All ten typed captures, source/control/domain/revision and continuing clocks
+are checked. Missing or altered evidence and CPU/live mismatches refuse.
+
+60 distinct local checks pass without failures/errors/skips. Four fresh CPU
+executions retain all forty prior FP32 tensors exactly, along with original
+reference/replay, graph-scope and event checks. The original scientific
+expressions and numerical/resource bounds stay. The earlier 33 writer checks
+were not rerun or added to sixty. A simulated failed full-volume record collects
+all 2,736 synthetic rows and stops before any next worker.
+
+Independent saved review rechecks all 6,759 prior pins, exact packet/overlays,
+source/claim and actual CPU values/events; 7,330 inputs are sealed with scientific,
+process and network execution blocked. The payload is 17 overlays / 225,423 bytes
+plus the unchanged 17,192,095-byte packet and 707,797-byte bootstrap. Scaffold,
+YAML, shell syntax and diff checks pass.
+
+No new authorization, attempt, SSH/upload, proof, university worker, cleanup or
+paid compute starts. Both hosts may idle. Next request one exact additional
+university attempt and fresh 10603 GPU status before arming. The previous
+consumed helpers remain immutable and 09 remains unselected. Target CUDA,
+pretrained memory/numerics/backend/performance and broader research gates remain
+pending; financial caps/holds and reconciliation state are unchanged.
+[Preparation review](report/checks/2026-11-06-predictor-eot8-record-target-v2-preparation.md).
+
 ## 2026-11-06 — Bounded EOT8 record storage corrected offline
 
 A separate writer now stores up to 4,096 call rows outside the small worker
