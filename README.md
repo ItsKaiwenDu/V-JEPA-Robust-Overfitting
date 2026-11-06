@@ -1,5 +1,35 @@
 # V-JEPA Robust Overfitting
 
+**Graph-owned EOT8 baseline values recovered; final receipt failed (November 6):**
+[All ten baseline tensors and 143 downloaded files verify](report/checks/2026-11-06-predictor-owned-target-v1-target-review.md).
+The full EOT8 loss/input gradients match the prior reference exactly. Final
+JSON exceeded its size limit, leaving ownership/completion receipts unsaved;
+the candidate never started. The attempt is consumed. Next fix result storage
+and test full metadata sizes offline. Both hosts may idle. Earlier entries
+are historical snapshots.
+
+**Graph-owned EOT8 university attempt approved (November 6):**
+[The exact one-attempt authorization is armed and independently verified](report/checks/2026-11-06-predictor-owned-target-v1-authorization.md).
+The fresh linux10603 GPU snapshot is clear. Next run the final attended Mac
+helper once and keep Terminal and Mac awake through collection. No attempt
+or university work has started yet. Earlier entries are historical snapshots.
+
+**Graph-owned EOT8 university handoff ready, unarmed (November 6):**
+[51 checks and independent saved-file review pass](report/checks/2026-11-06-predictor-owned-target-v1-preparation.md).
+The new worker preserves all forty saved CPU returns exactly and retains
+thread/graph evidence on backward refusals. Exact payload, continuing limits
+and collection are verified. Next is one scoped university approval and a
+fresh linux10603 GPU check; target CUDA remains unqualified. Both hosts may
+idle. Earlier entries are historical snapshots.
+
+**Backward ownership correction verified offline (November 5):**
+[27 checks and independent saved-file review pass](report/checks/2026-11-05-predictor-owned-backward-v1-offline-review.md).
+The separate wrapper admits checkpoint recomputation from its own backward
+graph across threads and rejects unrelated or overlapping calls. Four fresh
+CPU workers retain exact agreement with all forty prior CPU returns. Target
+CUDA behavior remains untested. Next prepare a new bounded handoff; both
+university hosts may idle. Earlier entries are historical snapshots.
+
 **Predictor EOT8 university attempt reviewed (November 5):**
 [The first original backward stopped at the diagnostic ownership guard](report/checks/2026-11-05-predictor-eot8-10603-v1-target-review.md).
 All 131 downloaded files verify. The forward loss matches its prior reference,

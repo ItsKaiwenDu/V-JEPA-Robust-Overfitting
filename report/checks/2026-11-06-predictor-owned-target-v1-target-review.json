@@ -1,0 +1,266 @@
+{
+  "GPU_samples": 24,
+  "actual_FP32_returns": 10,
+  "actual_Python_thread_and_GraphTask_evidence_independently_qualified": false,
+  "actual_values": {
+    "EOT8-after-input": {
+      "dtype": "torch.float32",
+      "max_abs": 0.45659419894218445,
+      "scalar": null,
+      "shape": [
+        1,
+        3,
+        16,
+        256,
+        256
+      ],
+      "tensor_sha256": "68c82f9e88337dcd2afc1d6d33dd86025d6bc33086d8ae59b05f5d7446c5af4b"
+    },
+    "EOT8-after-loss": {
+      "dtype": "torch.float32",
+      "max_abs": 0.5617199540138245,
+      "scalar": 0.5617199540138245,
+      "shape": [],
+      "tensor_sha256": "e0936ec1b34b140bc92404d108cfabb17b861feca87c207e702f818997f34a62"
+    },
+    "EOT8-before-input": {
+      "dtype": "torch.float32",
+      "max_abs": 0.45659419894218445,
+      "scalar": null,
+      "shape": [
+        1,
+        3,
+        16,
+        256,
+        256
+      ],
+      "tensor_sha256": "68c82f9e88337dcd2afc1d6d33dd86025d6bc33086d8ae59b05f5d7446c5af4b"
+    },
+    "EOT8-before-loss": {
+      "dtype": "torch.float32",
+      "max_abs": 0.5617199540138245,
+      "scalar": 0.5617199540138245,
+      "shape": [],
+      "tensor_sha256": "e0936ec1b34b140bc92404d108cfabb17b861feca87c207e702f818997f34a62"
+    },
+    "draw-after-input": {
+      "dtype": "torch.float32",
+      "max_abs": 0.18683339655399323,
+      "scalar": null,
+      "shape": [
+        1,
+        3,
+        16,
+        256,
+        256
+      ],
+      "tensor_sha256": "4d7f8384c12a63510f2ce0df243302c7a012fdf4649cd29207625b53f5418d67"
+    },
+    "draw-after-loss": {
+      "dtype": "torch.float32",
+      "max_abs": 0.5697278380393982,
+      "scalar": 0.5697278380393982,
+      "shape": [],
+      "tensor_sha256": "44155f85489c161fa83cbc61826e21f11ec4c86f1443609da550c06746e49ada"
+    },
+    "draw-before-input": {
+      "dtype": "torch.float32",
+      "max_abs": 0.18683339655399323,
+      "scalar": null,
+      "shape": [
+        1,
+        3,
+        16,
+        256,
+        256
+      ],
+      "tensor_sha256": "4d7f8384c12a63510f2ce0df243302c7a012fdf4649cd29207625b53f5418d67"
+    },
+    "draw-before-loss": {
+      "dtype": "torch.float32",
+      "max_abs": 0.5697278380393982,
+      "scalar": 0.5697278380393982,
+      "shape": [],
+      "tensor_sha256": "44155f85489c161fa83cbc61826e21f11ec4c86f1443609da550c06746e49ada"
+    },
+    "draw-profiled-input": {
+      "dtype": "torch.float32",
+      "max_abs": 0.18683339655399323,
+      "scalar": null,
+      "shape": [
+        1,
+        3,
+        16,
+        256,
+        256
+      ],
+      "tensor_sha256": "4d7f8384c12a63510f2ce0df243302c7a012fdf4649cd29207625b53f5418d67"
+    },
+    "draw-profiled-loss": {
+      "dtype": "torch.float32",
+      "max_abs": 0.5697278380393982,
+      "scalar": 0.5697278380393982,
+      "shape": [],
+      "tensor_sha256": "44155f85489c161fa83cbc61826e21f11ec4c86f1443609da550c06746e49ada"
+    }
+  },
+  "all_captured_sources_claims_and_values_frozen": true,
+  "all_full_EOT8_returns_exact_vs_prior": true,
+  "approved_overlays_verified": 16,
+  "approved_packet_members_verified": 99,
+  "authorization_sha256": "2a204f1b1f9b4658ca84aaac4374631181ce7d791d40a16115cb852fdc07d130",
+  "candidate_started": false,
+  "collection_complete": true,
+  "collection_files": 143,
+  "collection_hash_size_mode_exact_mtime_and_member_hashes_verified": true,
+  "complete_backend_or_candidate_qualification": false,
+  "consumed_attempt_sha256": "b018c09881ed58dc166b890af1865b817d495813581ae7c9905692293e087528",
+  "consumed_claim_reset": false,
+  "continuous_exclusivity_proved": false,
+  "control_sha256": "90863e16153414e276219ddf6305660e9a1a9f515199137d2216749c68b88aa6",
+  "date": "2026-11-06",
+  "diagnostic_complete": false,
+  "diagnostic_passed": false,
+  "exported_backward_scopes_present": false,
+  "exported_call_rows_present": false,
+  "exported_restore_receipt_present": false,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "five_phase_progress_record_present": true,
+  "four_original_full_EOT8_comparisons": [
+    {
+      "atol": 2e-06,
+      "exact": true,
+      "kind": "loss",
+      "max_absolute_error": 0.0,
+      "passed": true,
+      "phase": "EOT8-before",
+      "rtol": 1e-05
+    },
+    {
+      "atol": 2e-07,
+      "exact": true,
+      "kind": "input",
+      "max_absolute_error": 0.0,
+      "passed": true,
+      "phase": "EOT8-before",
+      "rtol": 0.002
+    },
+    {
+      "atol": 2e-06,
+      "exact": true,
+      "kind": "loss",
+      "max_absolute_error": 0.0,
+      "passed": true,
+      "phase": "EOT8-after",
+      "rtol": 1e-05
+    },
+    {
+      "atol": 2e-07,
+      "exact": true,
+      "kind": "input",
+      "max_absolute_error": 0.0,
+      "passed": true,
+      "phase": "EOT8-after",
+      "rtol": 0.002
+    }
+  ],
+  "fresh_replay_started": false,
+  "historical_refusals_resolved": false,
+  "kind": "predictor-graph-owned-target-v1-result-review",
+  "largest_worker_reported_allocator_bytes": 5130884096,
+  "last_saved_worker_bytes": 18656,
+  "last_saved_worker_complete": false,
+  "last_saved_worker_passed": false,
+  "model_autograd_SDPA_CUDA_process_network_denied_during_review": true,
+  "new_SSH_upload_or_calculation_or_oracle_or_GPU_work_during_review": false,
+  "new_tests_rerun": false,
+  "next_step": "Offline separately named bounded call/scope evidence writer and full-pretrained-size serialization tests. Preserve captured sources and this consumed claim. No target rerun or new approval request before reviewed concrete preparation.",
+  "offline_writer_fix_implemented": false,
+  "only_observed_compute_PID": 3225336,
+  "paid_compute": false,
+  "prior_sealed_inputs_reverified": 5574,
+  "proof_allocation_rows": 1926,
+  "proof_bytes": 2684354560,
+  "proof_seconds": 9.599323557224125,
+  "raw_profile_bytes": 81439573,
+  "raw_profile_device_rows": {
+    "cpu": 184513,
+    "cuda": 32352
+  },
+  "raw_profile_events": 216865,
+  "raw_profile_owned_CPU_labels": 144,
+  "raw_profile_owners": 36,
+  "raw_review": {
+    "path": "runs/pretrained/diagnostic/predictor-owned-target-v1-20261106/independent-target-review/review.json",
+    "sha256": "e5226a709cdc9d466724af76a38e70fc182ab255de9a882908e3494e801f12e8"
+  },
+  "reason_event_verifier_not_reexecuted": "Required original call rows were not exported; no replacement or fabricated receipt is used.",
+  "research_admitted": false,
+  "response_bytes": 214061148,
+  "response_sha256": "6edba522e0d7129c9a31271adcbd2609bc174778cb161708901f56577aab6708",
+  "retained_profile_summary_claims_CUDA": true,
+  "saved_review_passed": true,
+  "scratch_directory": "/var/tmp/vjepa-predictor-eot8-owned-v1-20261106-9l7l5zjo",
+  "sealed_inputs": 5734,
+  "sealed_manifest": {
+    "files": 5734,
+    "path": "runs/pretrained/diagnostic/predictor-owned-target-v1-20261106/independent-target-review/sealed-inputs.json",
+    "sha256": "d813c2b0b8c307f66c1a2ce990faddabc88900175bf326a25ef4cec7b1c47410"
+  },
+  "six_within_process_exact_comparisons": [
+    {
+      "after": "EOT8-after",
+      "before": "EOT8-before",
+      "exact": true,
+      "kind": "loss"
+    },
+    {
+      "after": "EOT8-after",
+      "before": "EOT8-before",
+      "exact": true,
+      "kind": "input"
+    },
+    {
+      "after": "draw-profiled",
+      "before": "draw-before",
+      "exact": true,
+      "kind": "loss"
+    },
+    {
+      "after": "draw-profiled",
+      "before": "draw-before",
+      "exact": true,
+      "kind": "input"
+    },
+    {
+      "after": "draw-after",
+      "before": "draw-before",
+      "exact": true,
+      "kind": "loss"
+    },
+    {
+      "after": "draw-after",
+      "before": "draw-before",
+      "exact": true,
+      "kind": "input"
+    }
+  ],
+  "source_error": "Final worker.json serialization exceeds frozen 1 MiB operational JSON bound; final ownership/completion receipt not saved.",
+  "stream_logical_bytes": 213916291,
+  "unchanged_owned_event_verifier_reexecuted": false,
+  "whole_work_seconds": 128.88543003425002,
+  "worker_log_sha256": "3c9677ff3263246d51abd7ef9a8a292331213653e96237a51623227ac2e65237",
+  "worker_supervisor_seconds": 117.2071638922207
+}

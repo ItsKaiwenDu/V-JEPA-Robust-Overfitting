@@ -1,0 +1,107 @@
+{
+  "CPU_actual_FP32_returns": 40,
+  "CPU_cross_mode_original_bounds": 20,
+  "CPU_event_rows": [
+    25154,
+    26098,
+    25154,
+    26098
+  ],
+  "CPU_exact_vs_saved_v1": 40,
+  "CPU_four_fresh_PIDs": [
+    42302,
+    42332,
+    42335,
+    42338
+  ],
+  "CPU_fresh_replay_exact": 20,
+  "CPU_graph_scopes_complete_hooks_removed": 20,
+  "CPU_injected_refusal_metadata_and_loss_retained": true,
+  "CPU_within_exact": 24,
+  "all_predecessor_sources_and_consumed_claims_unchanged": true,
+  "archive_bytes": 17192095,
+  "archive_members_verified": 99,
+  "backend_changed_or_research_admitted": false,
+  "capture_category_bytes": 2264924160,
+  "capture_margin_bytes": 150994944,
+  "checks": {
+    "errors": 0,
+    "failures": 0,
+    "skips": 0,
+    "unique": 51
+  },
+  "control_sha256": "90863e16153414e276219ddf6305660e9a1a9f515199137d2216749c68b88aa6",
+  "date": "2026-11-06",
+  "documentation": {
+    "path": "docs/predictor_eot8_owned_target_v1.md",
+    "sha256": "f6db6aca2196c90992c1cdb853c59bc06ba3709ca02f254cf326210919975dab"
+  },
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "handoff": "runs/pretrained/diagnostic/predictor-owned-target-v1-20261106/linux10603-final",
+  "historical_refusals_resolved": false,
+  "kind": "predictor-graph-owned-target-preparation-v1",
+  "local_environment": {
+    "architecture": "arm64",
+    "python": "3.11.16",
+    "torch": "2.14.1"
+  },
+  "local_only_tiny_CPU_analogue": true,
+  "new_authorization_or_attempt": false,
+  "next_step": "One new exact scoped university exception and fresh clear 10603 GPU status before arming. Never rerun the consumed v1 helper or the superseded unarmed preview.",
+  "no_target_approval_requested_at_report_creation": true,
+  "old_10609_unarmed": true,
+  "overlay_bytes": 207662,
+  "overlay_files": 16,
+  "passed": true,
+  "prior_pins_reverified": 4910,
+  "process_network_or_scientific_dispatch_during_saved_review": false,
+  "raw_review": {
+    "path": "runs/pretrained/diagnostic/predictor-owned-target-v1-20261106/independent-review/review.json",
+    "sha256": "277a5b66f30826c8b1d6669722ef002b2357bc16790970ce9e11827a9e8dd4eb"
+  },
+  "remote_work_or_upload_or_paid_compute": false,
+  "resource_envelope_unchanged": true,
+  "scaffold_and_YAML_passed": true,
+  "sealed_inputs": 5574,
+  "sealed_manifest": {
+    "files": 5574,
+    "path": "runs/pretrained/diagnostic/predictor-owned-target-v1-20261106/independent-review/sealed-inputs.json",
+    "sha256": "cd89bb4bf2eb99f9572dbb1e2b1b4fec81c05d65a338677c9490f9c6bb6558a4"
+  },
+  "source_bindings": {
+    "configs/predictor_attention_eot8_proposal_v1.json": "9a44e4b57a3ac36e0a5fb5092a089a6971da1ad0425714b06ae98793e4c7660d",
+    "configs/predictor_eot8_owned_target_v1.json": "83cc0a8b13594a19f5b4c0fb51b0137b6749bac2c9d38352e1463ac8d002f67b",
+    "models/cpu_oracle_control_prerequisite.py": "c6d4927e89d23abbd4ad019ab4d9c0209f0995d75050f1246092aa4a23b8ef63",
+    "models/cpu_oracle_control_v1.py": "06e5731e48ee079acdecf5ad992eef3930c8ba2e66f44f0d9c748c31fdb5baf7",
+    "models/cpu_oracle_scratch.py": "12992c272b21902297746d7781685dc951d0a310ace1dc73cbb99b8d52f6bbe6",
+    "models/oracle_boundary_operator_v1.py": "dde0d903986a5e83d02d9e7cb5fe4b6869d02f3731c8d4f30dd749a20f742b73",
+    "models/predictor_eot8_adapter_v1.py": "89b7e0c67e88f2f776bb0bb6ad786a2202115e64ffc6c6f9a962381cc2e9a6b8",
+    "models/predictor_eot8_capture_v1.py": "fcf582f0152f9ad1d93d1bf038895ba6c6c84d75a4fdfc02d5d4b2ea96e0d3e4",
+    "models/predictor_eot8_events_v1.py": "6bb6a1d0564b4b7f976704325cd946a4a1cf6d6616f82f53dc908b065aa699a8",
+    "models/predictor_eot8_owned_client_v1.py": "cf97c43844ef8ef1452c3a37d2c6b1decaba44fb3ea9b77c49c15012f8b325aa",
+    "models/predictor_eot8_owned_operator_v1.py": "e6f6052cdfa3279386d8a7be929ae4b830f247d158f06c168fc8ffa653f59433",
+    "models/predictor_eot8_owned_receipt_v1.py": "55005fd96e994c660e693e0347a337d01826eaf5224ecf6f38329a8905538531",
+    "models/predictor_eot8_owned_v1.py": "ef3675e69ef56b0b4ef4f543cab96b7f2bc757a64202d74500f3802ccd5dfc12",
+    "models/predictor_eot8_owned_worker_v1.py": "ae67291dc7be934eb839c31e9af96072866574d70621dd63fc851bbb29c3ee99",
+    "models/scratch_allocation_v2.py": "6b0503b8ab2c88a44a4d95c8fafbad52d1c0414293379406520a22f67700e874",
+    "scripts/capture_predictor_eot8_owned_v1.py": "c04346981d6a1e851e143a72ee1bbf9c6381887a2127ac6694c1e304aa18c9a6",
+    "scripts/prepare_predictor_eot8_owned_v1.py": "c74732e77ee5cb7d44f8efbbb2d962097c2dc569a4aecd1b40248485491dbce6",
+    "scripts/run_predictor_eot8_owned_v1.py": "24b320d8307bbb178bd1af93400090696372b9469e7494ec6b50a5805a50f65e",
+    "tests/test_predictor_eot8_owned_operations_v1.py": "e6e6629f00c4fb260338c508de13364703c9adecc85e834228a2742bdfc02198",
+    "tests/test_predictor_eot8_owned_target_v1.py": "ad808065bfc484b6eb40de3ff949ea87109af85d9cfed88ec5680946e8faf3a5"
+  },
+  "stdin_bootstrap_bytes": 640444,
+  "target_CUDA_or_pretrained_qualified": false
+}

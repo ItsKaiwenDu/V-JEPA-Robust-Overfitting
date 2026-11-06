@@ -1,5 +1,120 @@
 # Research Progress Reports
 
+## 2026-11-06 — Original EOT8 numerical controls agree; final result JSON fails
+
+The corrected route completed the original worker's five recorded phases and
+saved ten actual FP32 losses and input gradients. Independent saved review
+verifies all four full EOT8 comparisons exactly against the prior reference,
+and six exact within-process comparisons. The run then failed while serializing
+the final result: the full call-row/scope record exceeds the frozen operational
+writer's 1 MiB JSON bound. Local tiny-worker tests missed this full metadata
+volume. No candidate or fresh replay started.
+
+All 143 files, the 214,061,148-byte response, approved packet/overlays, hashes,
+sizes, modes and exact modification times verify. The final ownership/call-row,
+restoration and completion receipts were not saved; the last worker JSON stays
+incomplete/failed. No passing reference or lost receipt is reconstructed. The
+raw profile remains available, but independent verification with the unchanged
+reader needs the missing call rows. Full backend/candidate qualification stays
+pending despite the recovered baseline numerical agreement.
+
+The storage proof passed, work ended in 128.89 seconds and the reported peak
+allocator stayed below 7 GiB. Twenty-four samples show only the owned compute
+PID. The review rechecks 5,574 prior pins and seals 5,734 inputs with scientific
+execution, process and network creation blocked. No new tests or target work
+ran. Captured sources and this consumed attempt are frozen.
+
+Next correct the result writer offline using separate bounded evidence files
+and a small operational receipt, with full pretrained-volume/4,096-row capacity,
+failure, atomic completion, reference-loading and collection checks. Original
+scientific/resource bounds stay. Both hosts may idle; no new target grant is
+requested now. Historical research gates and financial caps/holds are unchanged.
+[Target review](report/checks/2026-11-06-predictor-owned-target-v1-target-review.md).
+
+## 2026-11-06 — One graph-owned EOT8 university attempt approved and armed
+
+The user approved the exact upload and bounded additional attempt on linux10603.
+Their fresh pasted status matches the expected RTX 3070 UUID and driver, with
+94 MiB used and no CUDA compute processes. The final handoff now contains the
+separate authorization; no attempt claim, work clock, SSH, upload, storage
+proof or university worker has started.
+
+Independent armed-state review verifies the authorization and explicit user
+basis, all 5,574 preparation pins, source/control/public host-key bindings,
+16 overlays / 207,662 bytes and the 640,444-byte bootstrap. Scientific imports,
+process and network creation are blocked during review. Shell syntax passes;
+the existing 51 checks were not repeated. Prior consumed evidence and the old
+unselected 09 and superseded preview states remain unchanged.
+
+Next the user runs the single final Mac helper, enters the university password
+promptly, and keeps Terminal and Mac awake for up to forty minutes of work plus
+ten minutes of collection. A failure stops for review without a retry. Live
+GPU guards still apply. Original numerical/resource bounds, pending scientific
+gates and financial caps/holds remain unchanged; no paid compute is involved.
+[Authorization review](report/checks/2026-11-06-predictor-owned-target-v1-authorization.md).
+
+## 2026-11-06 — Graph-owned EOT8 handoff prepared and independently checked
+
+The corrected route now has a separate live worker, bounded operator/client,
+source-bound entries and a stdlib ownership-receipt reader. It preserves the
+original calculation, numerical bounds, mask coverage, before-gate returns,
+fresh reference ordering, exact replay and actual backend-event reader. Normal
+backward failures retain loss and precise thread/graph/refusal evidence; missing
+input gradients and incomplete workers cannot be accepted. The final local
+handoff folder is bound to prevent copied helpers resetting its claim.
+
+51 distinct local checks pass without errors/failures/skips. Four fresh CPU
+workers reproduce all forty saved FP32 tensors exactly; independent review
+rechecks their numerical comparisons, twenty graph scopes and event ownership.
+The injected refusal saves its loss, failed scope and removed hook. All 4,910
+predecessor pins and the consumed prior claim remain unchanged; 5,574 inputs
+are sealed. The earlier 50-case preparation run is history, not an additional
+fifty checks. Scaffold/YAML and diff checks pass.
+
+The final unarmed 10603 packet has 16 overlays / 207,662 bytes plus the unchanged
+17,192,095-byte clip/reference archive and 640,444-byte bootstrap. The proposed
+40-minute work / 10-minute collection, storage and 7 GiB allocator bounds stay
+unchanged. No target approval, claim, SSH, upload, proof, university worker,
+cleanup or paid compute occurred. Next request one exact additional attempt
+and fresh GPU status before arming. The old 03 attempt remains consumed and
+09 remains unselected/unarmed. CPU evidence does not qualify target CUDA,
+pretrained full gradients, performance, cost or research. Historical gaps and
+financial caps/holds remain unchanged.
+[Preparation review](report/checks/2026-11-06-predictor-owned-target-v1-preparation.md).
+
+## 2026-11-05 — Backward graph ownership corrected and checked offline
+
+The separate wrapper binds a single exact loss/input pair to a GraphTask
+observed by a temporary root prehook. It admits serial checkpoint recomputation
+from that graph across threads while rejecting unrelated graphs, overlapping
+calls, reused tokens and modified state before upstream attention runs. It
+records precise bounded refusal evidence and restores hooks, private methods,
+backend contexts and model identity. Global autograd scheduling and original
+gradient arguments stay. Captured v1 source and the consumed target claim remain
+frozen.
+
+27 distinct local checks pass with zero failures/errors/skips. A real CPU
+checkpoint backward from a different Python thread reproduces the frozen
+refusal; corrected original and predictor-math modes complete with saved thread
+and graph IDs. Four fresh tiny CPU workers complete all eight draws, both mask
+families and five passes, preserving forty actual FP32 returns exactly against
+the saved v1 CPU tensors. Independent review verifies twenty graph scopes,
+24 within-process exact comparisons, 20 original-bound comparisons, 20 fresh
+exact replays, sixteen additional unit-test tensors and raw CPU event ownership.
+All 4,663 predecessor pins remain exact; 4,910 inputs are sealed. Earlier 15/26
+preparation runs remain history and are not added to the final count. Scaffold
+and diff checks pass. One inactive-route error-record edge case found during
+review was corrected and added to the final suite.
+
+Local arm64/Torch 2.14.1 evidence does not qualify PyTorch 2.8 CUDA hook/thread
+behavior, pretrained full gradients, memory fit, speed or research execution.
+The old target's thread IDs remain unobserved and historical numerical refusals
+remain open. No new remote operator, handoff, authorization, attempt, SSH,
+cleanup or paid compute was created. Both hosts may idle. Next prepare and
+independently review a new bounded unarmed university handoff, then seek one
+new scoped attempt. Financial caps and holds are unchanged.
+[Offline correction review](report/checks/2026-11-05-predictor-owned-backward-v1-offline-review.md).
+
 ## 2026-11-05 — Predictor EOT8 attempt stopped during original CUDA backward
 
 The one approved replacement attempt ran on linux10603 and is consumed. The

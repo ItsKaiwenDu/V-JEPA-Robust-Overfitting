@@ -2,6 +2,155 @@
 
 ## Current stage
 
+LATEST Nov06: GRAPH-OWNED EOT8 BASELINE VALUES REVIEWED; FINAL JSON WRITER FAILED.
+Read report/checks/2026-11-06-predictor-owned-target-v1-target-review.json/md FIRST.
+Approved additional03 ATTEMPT CONSUMED: b018c09881ed58dc166b890af1865b817d495813581ae7c9905692293e087528.
+Rawfinal/attended-40o98vh8/saved;143files/response214061148B EXACT stream+SHA+size+
+mode+nanosecondmtime verified.99packet+16overlay exact;5574priorpins unchanged;
+5734inputssealed under independent-target-review. All capturedscientific/operator/
+client/test/config sources/claims/arrays/logs NOW FROZEN. Never patch/rerun helper.
+Worker0 ORIGINAL completedfivephaseprogress;10actualFP32loss/inputfiles saved.
+FullEOT8before/after loss AND input EXACTvsacceptedprior:4bounds/zeroerror;6within
+controls EXACT. No candidate or freshreplay worker started; supervisorstops exit1.
+ONLY traceback at workerfinally record(): Operational JSON exceeds bound. Frozen
+operationalwriter1MiB ceiling; finalstate merges fullcallrows/scopes intooneJSON.
+TinyCPUtests missed fullpretrainedmetadata volume. Result-writing defect, no recorded
+numerical/OOM/timeout/foreigncompute refusal. Do NOT mark full diagnostic passed.
+Lastsuccessfulworker.json18656B completefalse/passedfalse,all5phases and10artifacts;
+MISSING finalcall_rows/scopes/refusals/restoration/completionreceipt. No reconstruction
+or fabricatedrecords or retroactivepassingreference. ActualGPUthread/GraphTaskproof
+notindependentlyqualified. Correctedbackward calculation reached all5passes, but
+ownership/backend/candidate/replay qualification remains incomplete.
+Rawfirstdrawtrace216865events/81439573B/144CPUlabels/36owners retained. Storedlive
+backendsummary claimsCUDAefficient; unchangedeventreader CANNOT reexecute without
+missingcallrows. Review checks rawstructure/labels only; NO substitute receipt.
+Proof2.5GiB/fsync/readback PASS9.599s/1926allocationrows/XFSseparatehome. Work128.885s,
+worker supervisor117.207s;largest reportedallocator5130884096B<7GiB;24GPUsamples only
+ownedPID3225336, notexclusivity. Completecollection, no neednewSSH/retrieval.
+Review blocksmodel/backward/SDPA/CUDA/process/network. No tests/newcalculation/
+cleanup/paidwork/researchadmission. Old09unselected/unarmed; no fallback/parallel.
+NEXT OFFLINE: separately named bounded call/scopereceipt writer + smallworkerJSON;
+fullpretrainedmetadata/4096-row ceiling tests, atomic/failure/reference/collection
+paths. Preserveoriginalscientific/resourcegates; no global1MiBwriterpatch or cap
+relaxation in capturedsources. Do this concrete tested correction BEFORE anynew
+attemptapprovalrequest. Do NOT ask for another grant now. This grant consumed.
+Bothhosts mayidle. Historical~1e-10/generatorfixedloader/PGDscoring/parameteroptimizer/
+performancecost/research gates remainopen. Finance9.8116/.1884/old2hold/.0792gap/
+10diag/160compute/200project/40reserve/wallet6.56/reconciliationfalse unchanged;
+knownRunpodterminated. User commits self; NEVER stage/commit/push. EarlierLATEST
+entries historical, including priorunstarted/armed statements.
+
+LATEST Nov06: GRAPH-OWNED PREDICTOR EOT8 ATTEMPT APPROVED AND LOCALLY ARMED.
+Read report/checks/2026-11-06-predictor-owned-target-v1-authorization.json/md FIRST.
+User explicitly approved "Approve one bounded university attempt (Recommended)"
+to request_user_input_async/call_8be3ff2d2ac2463d96be13127f690069/0. Approval persists
+for EXACT scope; NEVER request it again. Fresh pasted03 host/UUID/driver/94MiB and
+EMPTYcompute match gate; snapshot only, live guards still required. FinalONLY
+rawpredictor-owned-target-v1-20261106/linux10603-final AUTHORIZATION.json exists.
+CONTROL90863e16153414e276219ddf6305660e9a1a9f515199137d2216749c68b88aa6;
+AUTHSHA2a204f1b1f9b4658ca84aaac4374631181ce7d791d40a16115cb852fdc07d130.
+ATTEMPT ABSENT; no clock/SSH/upload/proof/universityworker started. Independent
+armed review reverified5574sealedpins/exactauthbasis/source/control/publickey/
+16overlays207662B/bootstrap640444B. Scientificimports/process/network blocked.
+Bash syntax PASS; no need repeat51tests. Old03consumedclaimunchanged;09unselected/
+unarmed; superseded03previewunarmed/stalesource. No fallback or parallelhost.
+University password required; user runs attended Mac helper. NEXT give ONE command:
+bash /Users/kaiwendu/Documents/GitHub/V-JEPA-Robust-Overfitting/runs/pretrained/diagnostic/predictor-owned-target-v1-20261106/linux10603-final/run-attended.sh
+Run only on Mac Terminal, once; enter password promptly; keep Terminal/Mac awake.
+The local claim is consumed before SSH. Any failure: preserve evidence, stop,
+NEVER repeat helper. After user reports result, independently review saved files.
+Same2400swork inclfull2.5GiBproof/4serial<=480sworkers +600s/3GiBsameSSHcollection;
+setup3GiB/capture2.25GiB/raw1792MiB/allocator7GiB. No retry/reset/cleanup/standalone
+retrieval/paidwork. Foreigncompute refuses; leave processes alone. Original
+scientific gates preserved; targetCUDA/pretrained/backend/performance/research
+qualification remains pending. Finance9.8116/.1884/old2hold/.0792gap/10diag/
+160compute/200project/40reserve/wallet6.56/reconciliationfalse unchanged;knownRunpod
+terminated. User commits self; NEVER stage/commit/push. EarlierLATEST historical.
+
+LATEST Nov06: GRAPH-OWNED PREDICTOR EOT8 TARGET HANDOFF PREPARED, UNARMED.
+Read docs/predictor_eot8_owned_target_v1.md and
+report/checks/2026-11-06-predictor-owned-target-v1-preparation.json/md FIRST.
+New named liveworker/receiptreader/operator/client/entries preserve all capturedv1
+sources/claims and correctedroute. All51distinct localchecks PASS,zeroerrors/
+failures/skips; earlier50run history, do NOT sum. Four fresh CPUworker executions
+40FP32returns EXACT vsoldv1;24withinexact/20originalbound/20freshreplay;20complete
+GraphTasks/hooksremoved. Savedrefusaltest retains loss+precisethread/graph evidence,
+no gradient/completion. Cold99member imports, continuingtime/storage/source/key/
+authorization/transport/refusalcollection verified. No newCUDA/pretrained qualification.
+Receiptreader stdlibonly; exactgraphs/creatorforwards/recomputationthreads/five
+scopes/all8draws+2families/blockcounts/no refusals required before nextworker/reference.
+Originaleventreader/numgates/sharedFP64/nativeFP32/teacher/masks/refs/exactreplays stay.
+Prior4910pins/consumed03claim9b80b1... unchanged;5574inputs sealed under raw
+predictor-owned-target-v1-20261106/independent-review. Review deniesmodel/backward/
+SDPA/CUDA/process/network. Actualoldtargetfailingthread NOT recorded; do not rewrite.
+ACTIVE handoff ONLY rawpredictor-owned-target-v1-20261106/linux10603-final.
+CONTROL90863e16153414e276219ddf6305660e9a1a9f515199137d2216749c68b88aa6.
+Earlierlinux10603 preview superseded/stalesource/unarmed; NEVER run it. Exactlocal
+handoffdirectory now bound; copiedhelpers refuse and cannotresetclaim under sameauth.
+Proposed upload: unchanged17192095B/99members packet +16overlays207662B including
+correctedroute/receipt/liveworker/boundmetadata+budget;stdinbootstrap640444B<2MiB.
+No privatekeys/weights/dependencies/heldoutpixels uploads or installs. Target03 ONLY
+freshprivate/var/tmp. GPU UUIDe54fae90-feeb-8106-d8c0-1974fe48555f/driver580.178.04.
+Samebounds2400swork frombeforepreflight inclsetup180/full2.5GiBproof<=60 BEFOREarchive/
+4serial<=480sworkers;600s/3GiBsameSSHcollection. Setup3GiB/capture2.25GiB/raw1792MiB/
+allocator7GiB;calls4096/scopes5/threads8/refusals32;originallowerlimits unchanged.
+No retry/reset/standaloneretrieval/parallelhost/cleanup/paidwork. Foreignprocessrefuses;
+leaveothersalone. Sampling is not GPU/storageexclusivity. LocalCPU nottargetCUDA proof.
+No AUTHORIZATION.json/ATTEMPT.json/SSH/upload/proof/universityworker this preparation.
+Previous03grant CONSUMED;09 historicalgrant UNSELECTED,UNARMED; no fallback.
+NEXT: One additional target attempt requires one new scoped authorization;
+never reset the consumed claim. Request that exact scope and fresh read-only03
+hostname/GPU UUID/process status AFTER this completed reviewed preparation. Once
+approved, reverifybindings, materialize separateauth, independentlycheck, then give
+one attendedMachelper. Do NOT launch until approval/freshclearstatus. No need to
+rerun passingCPUtests absent changes. Bothhosts canidle;09 neednotparallel.
+No backend/performance/cost/research admission. Historical~1e-10/generatorfixedloader/
+fullmodelPGDscoring/parameteroptimizerrecovery/calibration/features/scheduling stayopen.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/wallet6.56/
+reconciliationfalse unchanged;knownRunpodterminated. User commits self; NEVER
+stage/commit/push. EarlierLATESTentries historical.
+
+LATEST Nov05: GRAPH-OWNED BACKWARD WRAPPER CORRECTED/TESTED OFFLINE.
+Read docs/predictor_owned_backward_v1.md and
+report/checks/2026-11-05-predictor-owned-backward-v1-offline-review.json/md FIRST.
+Separate new models/predictor_eot8_owned_v1.py route and local-only
+models/predictor_eot8_owned_cpu_v1.py; all capturedv1sources/claims FROZEN.
+27distinct localchecks PASS,zeroerrors/failures/skips. Real upstreamcheckpoint
+CPUdifferentPythonthread reproduces FROZEN creator-thread refusal. Neworiginal+
+predictormath cases pass with measured different creator/runner and observed
+GraphTask IDs; IDs NOT mocked. This is NOT a targetCUDAengine reproduction.
+Owned exactloss/input/version/rootnode token ONEuse; rootprehook observesGraphTask,
+returnsNone(no gradient changes); admitsserialsamegraph recomputation. No global
+autogradscheduling change or arbitrarythread whitelist. Creatorforward onlyoutside
+autograd; outerownedmethodLock BEFOREupstream/backendcontext. Rejectsforeign/
+nested/reused graphs/tasks,phase/tensor/method/identity/alias/flags changes,
+concurrentattention/earlyexit. Precise boundedpre-refusal PID/thread/graph/active/
+phase/callcap evidence; refusal poisonsroute. Hooks/methods/policy/context restore;
+preparedtokenscancel, runningexitrefuseswithoutunhookingwhileworkstillrunning.
+Limits4096calls/5scopes/8threadspergraph/32refusals; no tensorcasts/numericalchanges.
+LocalCPUdriver refusesuniversity/live/CUDA BEFOREmodelimports; NO newtargetentry.
+4fresh tinyCPUworkers/eightdraws/twofamilies/fivepasses;40actualFP32returns EXACT
+againstpriorv1CPU;24withinexact/20originalbound/20freshreplayexact;20scopehookremovals.
+16additionalactual/referenceCPUarrays/eightoriginalboundchecks; rawCPUeventownership
+readerreverifiedwithoutSDPA. Guardstillrejectsactivecandidate; paramsgradsremainNone.
+Independent FINALsavedreview4663predecessorpins unchanged;4910inputssealed. Source:
+runs/pretrained/diagnostic/predictor-owned-backward-20261105/independent-final-review.
+Earlier15/26logs/sourcecopies/provisionalreviewhistorical; do NOT sum repeatedchecks.
+Scaffold/YAML/diffcheckpass. Localarm64/Python3.11.16/Torch2.14.1/NumPy2.4.6 only.
+No targetCUDA/pretrainedfit/fullgradient/backend/performance/cost/research qualification.
+Oldtargetfailingthread NOT observed; CPUrepro supportsinference, never rewritesrecord.
+No newGPU/SSH/upload/proof/cleanup/paidwork, archive/remoteoperator/control/helper/
+AUTH/ATTEMPT/resourceapproval. BothhostsmayIDLE. Prior03grant CONSUMED;09unselected.
+NEXT prepare separate liveworker/boundedoperator+client/exactpayload/unarmedhandoff
+with correctedroute; test coldsource/control/continuinglimits/refusalcollection and
+independentlyreview BEFORE anynewtargetapprovalrequest. Preserveoriginal8draws/
+2families/sharedFP64/nativeFP32/teacher/masks/refs/numgates/exactreplay/backendproof.
+Do not patch capturedv1helpers or repurpose old40min grant; extraattempt needsONE
+newreviewedbound/authorization,noreset AFTERconcrete preparation. No request now.
+Financial9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/wallet6.56/
+reconciliationfalse unchanged;knownRunpodterminated. User commits self; NEVER
+stage/commit/push. EarlierLATESTentries historical.
+
 LATEST Nov05: PREDICTOR EOT8 10603 ATTEMPT CONSUMED, OWNERSHIP-GUARD REFUSAL REVIEWED.
 Read report/checks/2026-11-05-predictor-eot8-10603-v1-target-review.json/md FIRST.
 Rawlinux10603/attended-ekxaaj6h/claimSHA9b80b1cf479f442919f097704ac95bdb8304338eadc2053c0efec13f64cf6494.

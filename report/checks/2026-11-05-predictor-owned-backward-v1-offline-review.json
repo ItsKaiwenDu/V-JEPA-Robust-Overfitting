@@ -1,0 +1,108 @@
+{
+  "CPU_cross_mode_original_bound": 20,
+  "CPU_cross_thread_cases": [
+    {
+      "call_threads": [
+        13288468480
+      ],
+      "creator_thread": 8544805568,
+      "graph_id": 6,
+      "mode": "original",
+      "root_hook_thread": 13288468480,
+      "runner_thread": 13288468480
+    },
+    {
+      "call_threads": [
+        13288468480
+      ],
+      "creator_thread": 8544805568,
+      "graph_id": 8,
+      "mode": "predictor-math",
+      "root_hook_thread": 13288468480,
+      "runner_thread": 13288468480
+    }
+  ],
+  "CPU_events_independently_reverified_without_SDPA": true,
+  "CPU_five_scopes_per_worker": true,
+  "CPU_four_fresh_PIDs": [
+    5350,
+    5360,
+    5480,
+    5485
+  ],
+  "CPU_fresh_replay_exact": 20,
+  "CPU_full_saved_returns": 40,
+  "CPU_new_vs_saved_v1_exact": 40,
+  "CPU_raw_event_rows": [
+    25154,
+    26098,
+    25154,
+    26098
+  ],
+  "CPU_unit_actual_reference_tensors": 16,
+  "CPU_unit_original_bound_comparisons": 8,
+  "CPU_within_exact": 24,
+  "SSH_upload_or_university_or_paid_compute": false,
+  "active_review": "independent-final-review",
+  "checks": {
+    "errors": 0,
+    "failures": 0,
+    "skips": 0,
+    "unique": 27
+  },
+  "consumed_claim_unchanged": true,
+  "date": "2026-11-05",
+  "documentation": {
+    "path": "docs/predictor_owned_backward_v1.md",
+    "sha256": "8b77d3b2462d794aa6e247f6863391fca0283e96319f35f24b2c3271b532952b"
+  },
+  "earlier_draft_reviews_are_historical": true,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "git_diff_check_passed": true,
+  "historical_refusal_resolved": false,
+  "kind": "predictor-owned-backward-v1-offline-correction",
+  "local_environment": {
+    "architecture": "arm64",
+    "numpy": "2.4.6",
+    "python": "3.11.16",
+    "torch": "2.14.1"
+  },
+  "new_remote_operator_or_payload_or_helper": false,
+  "new_sources": {
+    "models/predictor_eot8_owned_cpu_v1.py": "38b7b38f2d024d15c51abb72d58d6a768156fd2450eddaab33324bf6d733e756",
+    "models/predictor_eot8_owned_v1.py": "ef3675e69ef56b0b4ef4f543cab96b7f2bc757a64202d74500f3802ccd5dfc12",
+    "tests/test_predictor_eot8_owned_v1.py": "121697f905749fc9db538dd083734daa5506d99dfaab5fd32f1e243c9edb3f04"
+  },
+  "new_target_authorization_or_attempt": false,
+  "next_step": "Prepare and independently review a new bounded unarmed target handoff using this separate route; the previous attempt remains consumed. No target execution is authorized by this offline work.",
+  "passed": true,
+  "process_network_or_scientific_dispatch_during_review": false,
+  "raw_review": {
+    "path": "runs/pretrained/diagnostic/predictor-owned-backward-20261105/independent-final-review/review.json",
+    "sha256": "efb9a7eab1f789661531be0441ca79fe58470c63a26dd2e29d34dc9cf1dff878"
+  },
+  "research_admitted": false,
+  "scaffold_and_yaml_check_passed": true,
+  "scientific_sources_previously_captured_unchanged": true,
+  "sealed_inputs": 4910,
+  "sealed_manifest": {
+    "files": 4910,
+    "path": "runs/pretrained/diagnostic/predictor-owned-backward-20261105/independent-final-review/sealed-inputs.json",
+    "sha256": "6e630839710e40ad9a34d010786225d0ebce38b75ee31b7bb3ea130e6505254a"
+  },
+  "target_CUDA_qualification": false,
+  "target_failure_thread_id_measured": false,
+  "unchanged_prior_pins": 4663
+}
