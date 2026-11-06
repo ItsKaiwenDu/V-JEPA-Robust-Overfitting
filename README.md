@@ -1,5 +1,35 @@
 # V-JEPA Robust Overfitting
 
+**Predictor EOT8 university attempt reviewed (November 5):**
+[The first original backward stopped at the diagnostic ownership guard](report/checks/2026-11-05-predictor-eot8-10603-v1-target-review.md).
+All 131 downloaded files verify. The forward loss matches its prior reference,
+but no input gradient or candidate result was produced. The likely cause is a
+same-thread assumption during CUDA checkpoint recomputation. This attempt is
+consumed; both hosts may idle. Next correct and test ownership handling offline.
+Earlier entries are historical snapshots.
+
+**Predictor EOT8 linux10603 replacement approved (November 5):**
+[The one attended university attempt is armed](report/checks/2026-11-05-predictor-eot8-10603-v1-authorization.md).
+The user's fresh GPU check is clear and local authorization reverified 4,526
+inputs. Run the 10603 helper once from the Mac and keep Terminal awake through
+collection. No attempt or work clock has started. The old 10609 grant remains
+unspent and its helper unarmed; it is not the selected host. Earlier entries
+are historical snapshots.
+
+**Predictor EOT8 linux10603 replacement prepared (November 5):**
+[37 host-specific checks and independent saved-file review pass](report/checks/2026-11-05-predictor-eot8-10603-v1-preparation.md).
+The reported GPU is clear. The new handoff preserves tensor operations, gates
+and resource bounds, and remains unarmed pending one replacement approval.
+The existing 10609 approval is unspent; this would replace that run. Target CUDA
+and cross-host agreement remain unqualified. Earlier entries are historical.
+
+**Predictor EOT8 attempt approved; waiting for a clear GPU (November 5):**
+[The exact approval is recorded and persists](report/checks/2026-11-05-predictor-eot8-v1-conditional-approval.md).
+Linux10609's reported compute list contains another CUDA process, so the helper
+stays unarmed. No attempt or clock is consumed. A fresh clear GPU check is the
+remaining condition; the same scope needs no repeated approval. Earlier entries
+are historical snapshots.
+
 **Predictor-only full EOT8 diagnostic prepared and unarmed (November 5):**
 [166 checks and independent saved-file review pass](report/checks/2026-11-05-predictor-eot8-v1-preparation.md).
 The separate adapter preserves the original model, objective and numerical gates,

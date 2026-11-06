@@ -2,6 +2,131 @@
 
 ## Current stage
 
+LATEST Nov05: PREDICTOR EOT8 10603 ATTEMPT CONSUMED, OWNERSHIP-GUARD REFUSAL REVIEWED.
+Read report/checks/2026-11-05-predictor-eot8-10603-v1-target-review.json/md FIRST.
+Rawlinux10603/attended-ekxaaj6h/claimSHA9b80b1cf479f442919f097704ac95bdb8304338eadc2053c0efec13f64cf6494.
+CONTROL29b781.../AUTH3db34f.../allcapturedscientific+operator+entry+tests/configs
+FROZEN. Never edit those files to reuse their control or reset ATTEMPT.json.
+Attempt consumed; worker0 ORIGINAL only exits1 in firstEOT8 backward; operator
+completefalse/passfalse/tasksEMPTY. No candidate/replay/nextphase/profile/inputgrad.
+OneactualCUDAFP32scalar savedBEFOREgate:0.5617199540138245 matches priorloss EXACT
+on independent CPU reread, but scalaronly does NOT qualify the failed worker.
+Baselineweight/checkpoint/runtime/pixel/target/mask/seed identities match prior.
+576forwardSDPAcalls returned:24encoder+12predictor blocks EACH16 calls/all8draws+
+2families;0backward rows. Guard message Unowned/concurrent call or call count
+exceeded during torch.utils.checkpoint recomputation.576<4096 excludes countcap.
+LIKELY creation-thread assumption conflicts with CUDAautogradworkerthread. Pinned
+PyTorch2.8engine source supports distinction, BUT failingthreadID/activeflagNOT
+captured; inference, not measured thread attribution. Do not claim backendproof.
+Route reportsrestored.15GPU samples onlyownedPID921739; no foreignPID observed,
+not continuous exclusivity. Proof2.5GiB/fsync/readback PASS9.596s/XFSseparatehome;
+1926allocationrows; worker67.836s/supervisor72.514/operator85.314s withinbounds.
+SameSSHcollectionCOMPLETE131files69928670logicalB/response70054000B exactextent;
+allfileSHA/size/mode/exactmtime+allstreammembers checked,99packet+14overlays exact,
+4526priorpinsreverified;4663inputssealed under independent-target-review/.
+Savedreview deniesprocess/network/scientific dispatch; no new remote/GPU/paidwork.
+No fresh tests this savedreview;37preparationchecks unchanged. Never reclassify
+this diagnostic refusal as numerical success or candidate failure. No ~1e-10
+resolution/generatorfixedloader/fullmodel/backend/PGDscoring/parameteroptimizer/
+performancecost/research admission. Both hosts may IDLE.09 stillunarmed/unselected;
+no fallback under spent03grant. NEXT OFFLINE separate named thread-aware route /
+explicit ownedbackward scope + precise pre-refusal thread/graph evidence and real
+cross-thread/concurrent/error/restoration tests. Do not merely whitelist allthreads,
+disable guards or changeglobalautograd scheduling. All capturedv1sources frozen.
+Any additional targetattempt needs new reviewedbound/authorization,noreset AFTER
+concrete tested preparation; do NOT ask now or rerun oldhelper. No cleanup.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/wallet6.56/
+reconciliationfalse unchanged;knownRunpodterminated. User commits self; NEVER
+stage/commit/push. Prior LATEST entries are historical snapshots.
+
+LATEST Nov05: PREDICTOR EOT8 LINUX10603 REPLACEMENT APPROVED AND LOCALLY ARMED.
+Read report/checks/2026-11-05-predictor-eot8-10603-v1-authorization.json/md FIRST.
+User explicitly answered "Approve one linux10603 replacement attempt (Recommended)"
+to request_user_input_async call_1dae5f3c7d014b2089858f73e4792266/0, IN PLACE OF
+pending09. Fresh user-pasted03 identity/UUID/driver/94MiB and EMPTY compute list
+match; snapshot is not a reservation. 10603 AUTHORIZATION.json created and exact
+control29b781e522f16396940cf4e014ff5aa6fe4699bfa2d6f6c49da4385650c8fa56
+validated; authSHA3db34ff9a7e58587c1bbc433a30595320fed5347b1cde7b93e227ece7bdee482.
+Old09 AUTH/ATTEMPT ABSENT; historical09 grant remains unspent but NOT SELECTED.
+Never arm/run09 in parallel or switch back under this selected attempt.
+New03 ATTEMPT ABSENT; no workclock/SSH/upload/proof/worker/CUDA/paidcompute started.
+Independent local arm check reverified4526sealedpins,37newhosttests XML, exactcontrol,
+auth,14overlays185456B,bootstrap593325B, pinnedknownhost. process/network denied.
+Agent key-only SSH probe was denied; university password is required. NEXT give
+user ONE local Mac command:
+bash /Users/kaiwendu/Documents/GitHub/V-JEPA-Robust-Overfitting/runs/pretrained/diagnostic/predictor-eot8-10603-v1-20261105/linux10603/run-attended.sh
+Once only; keep Terminal and Mac awake; type university password promptly; no retry
+if failure. Live GPU guard must pass; foreign process refuses and is untouched.
+Limits unchanged:2400swork inclfull2.5GiBproof+4serial<=480sworkers;600s/3GiBcollection
+sameSSH;setup3GiB/capture2.25GiB/raw1792MiB/allocator7GiB. Old numerical/reference/
+exactreplay gates unchanged, 10603 originals must compare against saved09 fullEOT8.
+No host/CUDA/pretrained/performance/cost/research claim yet. Historical refusals and
+scientific gaps remain. Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/
+200project/40reserve/wallet6.56/reconciliationfalse unchanged; knownRunpodterminated.
+User commits self; NEVER stage/commit/push. Prior preparation/conditional entries
+below are historical. After user reports result, independently review saved files.
+
+LATEST Nov05: PREDICTOR EOT8 LINUX10603 REPLACEMENT PREPARED, UNARMED.
+Read docs/predictor_eot8_10603_v1.md and
+report/checks/2026-11-05-predictor-eot8-10603-v1-preparation.json/md FIRST.
+User-pasted10603 expectedUUID/driver/94MiB/EMPTYcompute; availability snapshot only.
+09 remains contested; leave all foreign processes alone. Existing09 exact approval
+PERSISTS,UNSPENT,UNARMED; it is NOT authority for03. Both handoffs have NO AUTH/ATTEMPT.
+One new03 replacement exception is needed because the approved scope names09.
+NEXT seek ONE exact scoped approval for03 IN PLACE OF pending09, NOT another parallel
+attempt. If approved record replacement selection and leave09unarmed; do not run both.
+Do not SSH/upload/proof/claim/arm/launch until approval and fresh clear status.
+37newhostchecks PASS,zeroerrors/failures/skips;4freshtinyCPUworkers. Earlier166baseline
+unchanged/notrerun. Independent saved review4441parentpins/227latest+199oldmetadata/
+40actualCPUFP32returns/24withinexact+20originalbound+20freshreplay;4526inputssealed.
+Review denies scientific dispatch/process/network. CPU analogues are NOT target CUDA,
+pretrained memory/correctness/performance or cross-host agreement qualification.
+Frozen old09source/adapter/capture/events unchanged. Newworker differs ONLY livehost
+literal and receiptkind/actualhost; tensor operations untouched. Original03 full
+controls MUST pass unchanged bounds against saved09EOT8. Candidates require fresh
+complete passing same-host/same-replay refs; within/fresh exact replay stays.
+CONTROL29b781e522f16396940cf4e014ff5aa6fe4699bfa2d6f6c49da4385650c8fa56.
+Prepared handoff rawpredictor-eot8-10603-v1-20261105/linux10603 only, UNARMED.
+Exact proposed upload to fresh private /var/tmp on kdu@linux10603.dc.engr.scu.edu:
+unchanged17192095B/99member original trainingclip+priorcleanderivatives+frozensource
+packet plus14overlays185456B incl oldproposal/newhostmetadata/financialsnapshot;
+stdinbootstrap593325B<2MiB. No weight/dependency/privatekey/heldoutpixel uploads.
+Oneattempt2400swork inclsetup180/full2.5GiBproof<=60 BEFOREarchive/4serial<=480sworkers;
+collection600s/3GiBsameSSH. Setup3GiB/capture2.25GiB/raw1792MiB/allocator7GiB unchanged.
+No retry/oldclaimclockreset/standaloneretrieval/cleanup/paidwork. Foreigncompute
+refuses; live guards do NOT reserve exclusive GPU/storage. Future CUDAbackendproof
+onlyprofiledfirstdraw/bothfamilies, neverall15encodergeometries. Historicalrefusals/
+generatorfixedloader/PGDscoring/parameteroptimizerrecovery/performancecost/research
+remain open. No SSH/targetwork/approval/claim this preparation. Finance9.8116/.1884/
+old2hold/.0792gap/10diag/160compute/200project/40reserve/wallet6.56/reconciliationfalse
+unchanged; knownRunpodterminated. User commits self; NEVER stage/commit/push.
+Earlier LATEST entries are historical snapshots; old09approval was conditional,unspent.
+
+LATEST Nov05: EXACT PREDICTOR EOT8 V1 SCOPE APPROVED; GPU NOT CLEAR, UNARMED.
+Read report/checks/2026-11-05-predictor-eot8-v1-conditional-approval.json/md FIRST.
+User approved "Approve one bounded university attempt (Recommended)" under
+control2986c6e37059d0f83c823f4420f78c02b311f6a73f343f6406e7fd5c277cd028,
+CONDITIONAL on fresh GPU check passing. DO NOT ask this approval again for unchanged
+scope. Raw approval-pending-gpu-clear/CONDITIONAL_APPROVAL.json holds exact validated
+future authorization, NOT an executable AUTHORIZATION.json. Both AUTHORIZATION.json
+and ATTEMPT.json remain ABSENT; helper UNARMED; attempt and work clock UNCONSUMED.
+Fresh pasted10609 identity/UUID/driver/285MiB idle-memory threshold pass, but compute
+list contains PID2522822 /usr/NX/bin/nxnode.bin 183MiB. Frozen gate replay on PASTED
+rows refuses another compute process. No live SSH/status call or ownership inference.
+Do NOT kill/whitelist/ignore the process, weaken guards, switch host or launch helper.
+All4441pins/review/control/bootstrap575903B reverified offline; no scientific imports,
+process/network creation, upload, proof, worker, CUDA, cleanup or paid work. Frozen
+source/payload/captures unchanged;166 tests not rerun. Financial state unchanged.
+NEXT obtain fresh READ-ONLY 10609 GPU/UUID/compute rows. When clear, reverify and
+materialize the ALREADY approved exact authorization from the conditional receipt,
+check the armed state independently, then give the single attended LOCAL Mac helper.
+No new resource approval needed for same exact scope; no claim before user launch.
+Same one-attempt40minwork incl2.5GiBproof/4serial<=8minworkers +10min/3GiB collection;
+3GiBsetup/2.25GiBcapture/1792MiBraw/7GiBallocator; no retries/old clock resets.
+Only host10609 and linux10609-final handoff; prior previews stale/historical.
+Both hosts may idle. Old grants consumed; this new grant approved but not spent.
+User commits self; NEVER stage/commit/push. Earlier LATEST entries historical.
+
 LATEST Nov05: PREDICTOR-ONLY FULL EOT8 V1 PREPARED/TESTED, UNARMED.
 Read docs/predictor_eot8_v1.md, configs/predictor_eot8_v1.json and
 report/checks/2026-11-05-predictor-eot8-v1-preparation.json/md FIRST.

@@ -1,5 +1,107 @@
 # Research Progress Reports
 
+## 2026-11-05 — Predictor EOT8 attempt stopped during original CUDA backward
+
+The one approved replacement attempt ran on linux10603 and is consumed. The
+first original-model worker recorded all 576 forward attention calls and one
+actual FP32 EOT8 scalar, then refused during checkpoint recomputation inside
+its backward call. Its saved loss exactly matches the prior loss, but no input
+gradient, completed phase, profiled draw, candidate or fresh replay exists.
+This is an incomplete diagnostic; full derivative agreement remains unqualified.
+
+The failing guard combines creator-thread, active-state and call-cap checks.
+576 recorded calls are below the 4,096 cap. A mismatch between the creator
+thread and a CUDA autograd worker is the likely cause, consistent with pinned
+PyTorch 2.8 engine source and the checkpoint traceback. Actual failing thread
+IDs and active state were not captured, so this remains inferred. The route
+reports restoration; the supervisor stopped after worker exit 1. Fifteen GPU
+samples contain no other compute PID; no capacity refusal is recorded.
+
+The 2.5 GiB storage proof passed with fsync and full readback in 9.60 seconds.
+The whole operator ended in about 85.3 seconds, then completed same-SSH
+collection. Independent saved-file review verifies all 131 files and streamed
+members, exact modes and mtimes, 99 packet members, 14 overlays and 4,526 prior
+pins, and seals 4,663 inputs. Captured source, raw arrays and claims stay frozen.
+No new model work, backward, remote process, cleanup or paid compute ran during
+review. The earlier 37 local preparation checks are unchanged and not rerun.
+
+Next prepare a separate route that identifies its own backward recomputation
+across threads, records precise refusal evidence and retains strict concurrency,
+backend and numerical checks. Test cross-thread and error paths locally before
+requesting another reviewed target attempt. Both university hosts may idle;
+10609 remains unarmed and unselected. Financial caps and holds are unchanged.
+[Detailed review](report/checks/2026-11-05-predictor-eot8-10603-v1-target-review.md).
+
+## 2026-11-05 — One predictor EOT8 replacement attempt approved on linux10603
+
+The user approved 10603 in place of the blocked 10609 host. Fresh pasted status
+matches the pinned RTX 3070 UUID and driver, with 94 MiB used and an empty CUDA
+compute list. The exact 10603 authorization is recorded and locally armed. Its
+control, 4,526 sealed inputs, 37 test receipts, public host key and bounded
+bootstrap verify. The 10609 helper remains unarmed and its earlier approval
+unspent but not selected. No new attempt claim, work clock, SSH upload, CUDA
+worker or paid compute has begun.
+
+The app cannot authenticate to university SSH without the user's password;
+its key-only read-only probe was denied. The next step is for the user to run
+the single 10603 attended helper from their Mac, keep it awake through collection
+and report the final result. The live GPU guard will check for a foreign process.
+The original 40-minute work / 10-minute collection limits, 2.5 GiB scratch proof,
+four serial workers and numerical/reference gates stay. No retry or parallel
+10609 attempt is authorized. Full pretrained CUDA, cross-host agreement,
+performance and research qualification remain pending. Financial caps and holds
+are unchanged. [Authorization](report/checks/2026-11-05-predictor-eot8-10603-v1-authorization.md).
+
+## 2026-11-05 — Predictor EOT8 linux10603 replacement reviewed, unarmed
+
+The user's fresh linux10603 status has the expected RTX 3070 UUID and driver,
+94 MiB used and no CUDA compute process. The previous 10609 status was blocked
+by another compute process. Preparation keeps that approved scope unspent and
+unarmed, and creates a separate host-bound replacement for explicit review.
+This would run one attempt on 10603 in place of 10609; never run both.
+
+37 new checks pass with zero errors, failures or skips. Four fresh CPU workers
+exercise the same tensor operations and replay chain; the worker source differs
+only in host gating and receipt provenance. Independent saved-file review
+reverifies 4,441 predecessor pins, the old capture metadata, all forty FP32
+returns and 24 within-process exact / 20 original-bound / 20 fresh-process exact
+comparisons, plus CPU event ownership. It seals 4,526 inputs. The earlier 166
+checks are unchanged and not rerun. These local CPU checks qualify neither
+pretrained CUDA correctness, cross-host agreement nor performance.
+
+The unchanged 17,192,095-byte packet plus 14 overlays / 185,456 bytes uses a
+593,325-byte bootstrap. The same proposed 40-minute work / 10-minute collection
+scope, full 2.5 GiB proof, four serial workers, storage/allocator caps, numerical
+bounds and strict foreign-compute refusal remain. No authorization, attempt,
+SSH, university work, cleanup or paid compute has started. Next seek one exact
+10603 replacement approval, then reverify authorization and fresh idle status
+before supplying the attended helper. Historical records, unresolved research
+gates and financial holds remain unchanged.
+[Reviewed replacement](report/checks/2026-11-05-predictor-eot8-10603-v1-preparation.md).
+
+## 2026-11-05 — Exact predictor EOT8 scope approved; GPU condition pending
+
+The user approved the reviewed one-attempt linux10609 upload and attended run,
+conditional on a clear GPU. The supplied UUID/driver and initial 285 MiB usage
+match the guard, but PID 2522822 (`/usr/NX/bin/nxnode.bin`, 183 MiB) appears in
+the CUDA compute list. Offline replay of the frozen guard against those pasted
+rows confirms refusal. Ownership is unknown; leave the process alone and keep
+the guard unchanged.
+
+The exact approval and validated future authorization are preserved separately
+from executable authorization. The helper remains unarmed, with no claim,
+attempt consumption or work clock. All 4,441 pinned inputs and exact source/
+payload/review bindings reverify. The 166-test baseline is unchanged and not
+rerun; no SSH, upload, storage proof, worker, CUDA calculation, cleanup or paid
+work starts. Both hosts may idle and financial caps/holds remain unchanged.
+
+Next obtain a fresh read-only linux10609 GPU/process check. Once clear, arm the
+same exact already-approved scope and verify the armed state before providing
+the attended Mac helper. Do not request the same approval again, switch hosts,
+whitelist/kill a process or reset any historical claim. The 40-minute work plus
+10-minute collection bounds remain; this attempt has not started.
+[Conditional approval](report/checks/2026-11-05-predictor-eot8-v1-conditional-approval.md).
+
 ## 2026-11-05 — Full-model predictor-attention v1 prepared, tested and unarmed
 
 The separate predictor-only math adapter, typed return writer, owner-aware event
