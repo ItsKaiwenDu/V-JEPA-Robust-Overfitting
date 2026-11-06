@@ -1,5 +1,35 @@
 # Research Progress Reports
 
+## 2026-11-06 — Bounded EOT8 record storage corrected offline
+
+A separate writer now stores up to 4,096 call rows outside the small worker
+JSON, with hash-bound scope metadata and a final completion marker. Missing,
+corrupt, partial, legacy or failed receipts cannot qualify as references.
+Atomic writes preserve previous snapshots; a secondary writer failure retains
+the original scientific exception. The old 1 MiB writer and all captured target
+sources/claims remain unchanged; no lost receipt is reconstructed.
+
+33 distinct checks pass. Explicitly synthetic pretrained-volume metadata
+reproduces the old overflow and saves losslessly; four maximum 8 MiB files plus
+one atomic copy remain inside the existing metadata/storage gates. Full-size
+and actual CPU collection preserve hashes, modes and exact modification times.
+Four fresh CPU workers reproduce all forty actual FP32 returns exactly, with
+24 within-process equalities, 20 original-bound comparisons, 20 fresh replay
+equalities, twenty complete graph scopes and unchanged event ownership.
+
+Independent saved review rechecks 5,734 predecessor pins and seals 6,759 inputs
+while blocking scientific execution, process and network creation. Earlier
+30/31-case preparation runs and the reviewer path-selector correction are
+history, not additional tests. Scaffold/YAML and diff checks pass.
+
+The correction is local CPU evidence; target CUDA/pretrained behavior, memory,
+backend and performance qualification remain open. No target entry, operator,
+archive, authorization, attempt, SSH/upload, proof, cleanup or paid compute is
+created. Next prepare and independently review a separate bounded live handoff
+before requesting any additional target attempt. Both hosts may idle. All
+financial caps/holds and historical research gates remain unchanged.
+[Offline writer review](report/checks/2026-11-06-predictor-eot8-record-v2-offline-review.md).
+
 ## 2026-11-06 — Original EOT8 numerical controls agree; final result JSON fails
 
 The corrected route completed the original worker's five recorded phases and

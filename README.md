@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Bounded EOT8 result storage fixed offline (November 6):**
+[33 checks and independent saved-file review pass](report/checks/2026-11-06-predictor-eot8-record-v2-offline-review.md).
+Call records now live in bounded external files with a small summary and final
+completion marker. Full-volume storage/collection checks pass, and four fresh
+CPU workers preserve all forty prior tensors exactly. Next prepare a separate
+live handoff; target CUDA remains pending. Both hosts may idle. Earlier entries
+are historical snapshots.
+
 **Graph-owned EOT8 baseline values recovered; final receipt failed (November 6):**
 [All ten baseline tensors and 143 downloaded files verify](report/checks/2026-11-06-predictor-owned-target-v1-target-review.md).
 The full EOT8 loss/input gradients match the prior reference exactly. Final

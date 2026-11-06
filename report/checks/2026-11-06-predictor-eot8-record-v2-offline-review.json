@@ -1,0 +1,136 @@
+{
+  "active_review": "independent-final-review",
+  "actual_CPU_call_file_bytes": [
+    238494,
+    238950,
+    238494,
+    238950
+  ],
+  "actual_CPU_event_ownership_independently_rechecked_without_SDPA": true,
+  "actual_CPU_exact_vs_saved_v1": 40,
+  "actual_CPU_four_fresh_PIDs": [
+    62051,
+    62058,
+    62065,
+    62071
+  ],
+  "actual_CPU_fresh_replay_exact": 20,
+  "actual_CPU_graph_scopes_complete_with_hooks_removed": 20,
+  "actual_CPU_original_bound_comparisons": 20,
+  "actual_CPU_raw_event_counts": [
+    25154,
+    26098,
+    25154,
+    26098
+  ],
+  "actual_CPU_returns": 40,
+  "actual_CPU_small_header_bytes": [
+    12743,
+    12799,
+    12742,
+    12798
+  ],
+  "actual_CPU_within_exact": 24,
+  "capacity_fixtures_are_not_actual_or_reconstructed_GPU_receipts": true,
+  "captured_scientific_sources_or_numerical_or_aggregate_resource_bounds_changed": false,
+  "checks": {
+    "errors": 0,
+    "failures": 0,
+    "skips": 0,
+    "unique": 33
+  },
+  "date": "2026-11-06",
+  "documentation": {
+    "path": "docs/predictor_eot8_record_v2.md",
+    "sha256": "c219dc290b792dbb68fae7e37fc3ab5b6b316000cd3874c8e398c6926d5bd611"
+  },
+  "earlier_test_runs_are_history_not_added_to_33": true,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "historical_refusals_resolved": false,
+  "initial_review_directory_selector_corrected_without_scientific_changes": true,
+  "kind": "predictor-eot8-record-v2-offline-review",
+  "legacy_or_partial_or_synthetic_records_not_passing_references": true,
+  "local_environment": {
+    "architecture": "arm64",
+    "python": "3.11.16",
+    "torch": "2.14.1"
+  },
+  "maximum_8MiB_collection_roundtrip_and_actual_CPU_roundtrip_pass": true,
+  "model_autograd_SDPA_CUDA_process_network_blocked_during_saved_review": true,
+  "new_SSH_upload_or_university_or_paid_work": false,
+  "new_remote_operator_or_archive_or_entry_or_AUTH_or_ATTEMPT": false,
+  "new_sources": {
+    "models/predictor_eot8_record_cpu_v2.py": "a61bf674c654a2b24308e4d9153068111a24e592e48039bcfa88a4dc36f3a6a1",
+    "models/predictor_eot8_record_v2.py": "c75455b9a08f1b25bbb7269d4ae3c1fa34826656ba1800c0a45fdf9433765dd9",
+    "tests/test_predictor_eot8_record_v2.py": "cff71807c1b11b8ab76bfc9baa05793d24e5e3f4dcc6c6067c10c5bb0d0889f4"
+  },
+  "next_step": "Prepare and independently review a separate live worker/operator/client/unarmed exact payload using v2 records; all target grants remain consumed and no new target approval is requested yet.",
+  "normal_failure_scope_and_loss_retained": true,
+  "old_target_lost_receipts_reconstructed": false,
+  "passed": true,
+  "prior_consumed_target_claim_unchanged": true,
+  "prior_sealed_inputs_reverified": 5734,
+  "raw_review": {
+    "path": "runs/pretrained/diagnostic/predictor-record-v2-20261106/independent-final-review/review.json",
+    "sha256": "388c0e1bd39a61045955b0f1babd2220085435a704d2c641d05413e5c8e5a5b2"
+  },
+  "research_admitted": false,
+  "scaffold_YAML_and_diff_check_passed": true,
+  "sealed_inputs": 6759,
+  "sealed_manifest": {
+    "files": 6759,
+    "path": "runs/pretrained/diagnostic/predictor-record-v2-20261106/independent-final-review/sealed-inputs.json",
+    "sha256": "d9c02ddae3b13c61af4bf11a24598fad5d2f5781c62aef53a8c4eba0eb443d4d"
+  },
+  "synthetic_capacity_only": {
+    "old_JSON_bytes": 2198581,
+    "rows": 2736,
+    "small_worker_bytes": 948,
+    "split_call_bytes": 2196866,
+    "synthetic_only": true
+  },
+  "synthetic_maximum_budget": {
+    "measured_storage": {
+      "allocated_bytes": 41992192,
+      "categories": {
+        "cache": 0,
+        "code": 0,
+        "emergency": 0,
+        "input": 0,
+        "metadata": 41954980,
+        "proof": 0,
+        "raw": 0
+      },
+      "ceiling": 2415919104,
+      "files": 17,
+      "logical_bytes": 41954980
+    },
+    "row_bytes_each": 2048,
+    "rows_each": 4096,
+    "static_projection": {
+      "all_other_metadata_and_allocated_blocks_still_require_existing_aggregate_gate": true,
+      "existing_metadata_category_bytes": 67108864,
+      "four_workers_plus_one_atomic_copy_bytes": 43712512,
+      "global_operational_JSON_limit_unchanged": 1048576,
+      "metadata_category_margin_before_other_metadata_bytes": 23396352,
+      "new_worker_header_limit": 262144
+    },
+    "synthetic_only": true,
+    "workers": 4
+  },
+  "target_CUDA_or_pretrained_or_performance_qualified": false,
+  "unpublished_completion_marker_refuses_success_looking_header": true,
+  "writer_failure_does_not_mask_primary_error": true
+}

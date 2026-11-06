@@ -2,6 +2,52 @@
 
 ## Current stage
 
+LATEST Nov06: EOT8 SPLIT RESULT WRITER V2 FIXED/TESTED OFFLINE.
+Read docs/predictor_eot8_record_v2.md and
+report/checks/2026-11-06-predictor-eot8-record-v2-offline-review.json/md FIRST.
+New stdlib models/predictor_eot8_record_v2.py + local-only
+models/predictor_eot8_record_cpu_v2.py. All captured prior sources/claims FROZEN.
+33distinctchecks PASS,zeroerrors/failures/skips. Earlier30/31runs are history,
+do NOT sum. First30caughtlocalfixturepermissions;childumask077 mirrorsoperator.
+New callsJSONL4096rows*2048B=8MiB; scopes/refusalsJSON64KiB;workerheader256KiB;
+finalsuccess/failuremarkers16KiB. GLOBAL old1MiB JSONlimit unchanged. Exact hashes/
+bytes/counts/identity/control/status + unchangedownership validator before refs.
+Atomic privatepartials/fsync/replace/dirfsync; previousrows immutable; no reuse,
+truncation/sampling or silentrepair. Completeheader alone NOTenough: exactfinal
+completionmarker required; ANYfailuremarker refuses. Writerfailures keep primary
+scientificerror. No lostGPUrecords reconstructed; oldtargetremainsincomplete.
+Synthetic2736row/fullmodelvolume JSON2198581B reproduces oldfailure andsplitstores
+allrows. Synthetic4096maxrows2048B tests+full8MiBcopy;4workers+oneatomiccopy measured
+metadata41954980B/allocated41992192B;static43712512B<64MiBcategory. Othermetadata+
+allocated/free/inode aggregates still enforced; no reservation or caprelaxation.
+Syntheticfixtures explicitlytagged,failed/nonresearch; NEVER admit as GPUresults.
+Four fresh actual tinyCPU workers all8draws/bothfamilies/5passes:40FP32returns EXACT
+vsoldv1;24withinexact/20originalbound/20freshreplay;20completeGraphTasks/hooksremoved;
+rawCPUeventownership rereadwithoutSDPA. Newheaders12742..12799B. Realfailedbackward
+loss/refusal/scoperestore retained; secondarywritererror doesnotmaskprimaryerror;
+forcedfinalmarkerpublicationfailure refuses success-lookingheader beforemodelrefs.
+Loaderrequires splitformat+markernohistoryfallback; localCPUdriver refusesuniversity/
+CUDA/live before scientificimports. Original route/objective/targets/masks/numgates/
+backendreader/exactreplay/modelparameterchecks unchanged; no paramgrad accumulation.
+Independent FINALreview reverified5734predecessorpins, sealed6759inputs under raw
+predictor-record-v2-20261106/independent-final-review. Earlierreview selector failure
+ontruncatedpytestpath preserved; fixedtoerror-recordselection. No newscientificwork
+inreview: model/backward/SDPA/CUDA/process/network blocked. Scaffold/YAML/diff PASS.
+Localarm64/Python3.11.16/Torch2.14.1 ONLY; targetCUDA/pretrained/memory/backend/
+performance/cost/research qualification remainspending. B018c098...claim consumed,
+oldtargetloss/gradientvalues/finalmissingreceipts NEVERretroactivelyqualified.
+No remoteoperator/targetentry/archive/control/helper/AUTH/ATTEMPT/SSH/upload/proof/
+cleanup/paidwork or newgrant created. Bothhosts mayIDLE. No needrepeattests now.
+NEXT OFFLINE prepare separatelynamed liveworker/boundedoperator+client/exact
+unarmedpayload using newrecordloader/finalmarkers. Test coldsource binding,
+reference acceptance/error/atomic/filecategory/continuinglimit/collection paths;
+independentlyreview before anynewtargetapprovalrequest. Do NOT ask now or rearm
+oldhelper. Previous03grants CONSUMED;09unselected/unarmed, not fallback.
+Historical~1e-10/generatorfixedloader/PGDscoring/parameteroptimizer/performancecost/
+research gates stayopen. Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/
+200project/40reserve/wallet6.56/reconciliationfalse unchanged;knownRunpodterminated.
+User commits self; NEVER stage/commit/push. EarlierLATEST entries historical.
+
 LATEST Nov06: GRAPH-OWNED EOT8 BASELINE VALUES REVIEWED; FINAL JSON WRITER FAILED.
 Read report/checks/2026-11-06-predictor-owned-target-v1-target-review.json/md FIRST.
 Approved additional03 ATTEMPT CONSUMED: b018c09881ed58dc166b890af1865b817d495813581ae7c9905692293e087528.
