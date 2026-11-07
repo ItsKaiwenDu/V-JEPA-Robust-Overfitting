@@ -2,6 +2,53 @@
 
 ## Current stage
 
+LATEST Nov06: OFFLINE PREDICTOR GRADIENT ANALYSIS + OBSERVER PROPOSAL VERIFIED.
+Read report/checks/2026-11-06-predictor-gradient-attribution-v1-offline-review.json/md
+and docs/predictor_gradient_attribution_v1.md FIRST. New separate CPU/saved-only
+models/predictor_gradient_attribution_v1.py, analysis script,29-check suite, inert
+configs/predictor_gradient_attribution_v1.json. All captured historical/target
+source/results/claims stay FROZEN; latest target consumed4dd65... never rerun.
+Full3,145,728-element analysis at original rtol.002/atol2e-7:3724violations,
+all16frames/3channels;58opposite nonzero pixel-gradient signs,3beyond bound/55within.
+Pixel-gradient signs != missing predictor-residual signs; no attack/root-cause
+claim. All48channel/frame groups/fixed bins independently NumPy-rechecked; most
+violations between refmagnitudes1e-5..1e-3, notonlysmallestvalues. Loss stillEXACT.
+Target predictions/cotangents NOT captured, cannot infer forward/backward cause.
+New LocalPredictionObserver CPU-only/tiny-only/refusesuniversity. Actual native
+before/observed/after6returns EXACT vs frozen tiny baseline;16actualprediction
+cotangents/maskbytes/target bytes independently NumPy-checked. Native graph hooks
+complete/removed;observer hooks restore on success/incomplete/primaryexceptions;
+model values/versions unchanged,param grads absent. Prototype notpretrainedCUDA.
+29distinct checks PASS,zeroerror/failure/skip. First23pass+5fixture setup errors
+preserved (direct fixture call; no model in those5); corrected28pass, then extra
+mask/target provenance check gives29. Do NOT sum runs. Finalanalysis sourcepins
+current; exact earlier test source retained under raw/source-history.
+Independent saved review reverified7505priorpins,sealed7526 under rawpredictor-
+gradient-attribution-v1-20261106/independent-review, with model/autograd/SDPA/CUDA/
+process/network blocked. No new target/SSH/upload/attempt/AUTH/helper/paidwork.
+Proposal ONLY:2serial one-phase nativeEOT8 original/candidate observers,all16
+prediction/cotangent pairs. Original mustexact-replay passing values;candidate
+mustexact-reproduce failedvalues for attribution ONLY, never passing reference.
+Original numerical gate NOT waived. No new surrogate/extra backward/profile.
+Future proposed03/privatevar/tmp:1200swork incl180setup/full2.5GiBproof<=60 +
+2workers<=420s +120receipt reserve (1140<1200);600s/3GiBsameSSHcollection.
+Setup3GiB/capture2.25GiB/allocator7GiB/metadata64MiB/proposedraw512MiB;static
+rawprojection424935424B incl70headers+16MiB atomiccopy,NOTreservation/livepeak.
+No retry/reset/cleanup/privatekey/heldout/parallelhost/paidwork. Actual guards
+must remain. No liveoperator/handoff or new authorization exists/created.
+Observer distinguishes loss-cotangent change only; unchangedc doesn'tprovepure
+backward cause becauseJ includesinternalforward changes. Tested4savedVJPcell
+identity retains bothorders/interaction; actualtargetcrosscells absent, NOTin
+firstproposal. Later sameQKV/samecotangent comparison may be needed; no claimnow.
+NEXT implement/test/review a separate bounded prediction-boundary observer and
+unarmed targethandoff from this inertproposal. THEN request ONE new exact scoped
+university approval; no asking before concrete prep. Bothhosts mayidle.
+Old target gradient candidate remainsrejected; CUDA candidate/profiling/replay/
+PGDscoring/parameteroptimizer/performancecost/research gates staypending.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+lastwallet6.56/reconciliationfalse unchanged;known Runpod terminated.
+User commits self; NEVER stage/commit/push. EarlierLATEST entries are history.
+
 LATEST Nov06: EOT8 ORIGINAL VERIFIED; PREDICTOR-MATH INPUT-GRADIENT REJECTED.
 Read report/checks/2026-11-06-predictor-eot8-record-target-v2-target-review.json/md FIRST.
 Saved response238107286B,159files237948160logicalB fully verified:stream/file

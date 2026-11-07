@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Predictor gradient attribution prepared offline (November 6):**
+[Whole-tensor analysis, 29 checks and an independent saved review pass](report/checks/2026-11-06-predictor-gradient-attribution-v1-offline-review.md).
+The rejected gradient has 58 sign changes; this does not identify the numerical
+cause. A small CPU observer preserves native loss/gradients exactly and records
+all sixteen prediction cotangents. Next prepare a bounded live observer handoff
+from the inactive proposal. Both hosts may idle; no target attempt has started.
+Earlier entries are historical snapshots.
+
 **EOT8 baseline verified; predictor gradient candidate rejected (November 6):**
 [All 159 files and twelve actual FP32 returns are verified](report/checks/2026-11-06-predictor-eot8-record-target-v2-target-review.md).
 The corrected writer preserves complete baseline call/scope/backend evidence.

@@ -1,5 +1,38 @@
 # Research Progress Reports
 
+## 2026-11-06 — Saved-gradient analysis and native observer proposal verified
+
+All 3,145,728 saved input-gradient elements enter the original bound, every
+channel/frame group and fixed reference-magnitude bins. There are 3,724
+violations and 58 opposite nonzero signs; only three sign changes exceed the
+original bound. Violations span all frames/channels and are not limited to the
+smallest magnitudes. Equal reduced loss and pixel-gradient signs cannot reveal
+the missing predictor-residual/cotangent cause. The candidate remains rejected.
+
+A separate CPU-only observer prototype captures all sixteen native predictor
+outputs and actual incoming cotangents without replacing either. Three real
+small upstream CPU passes before/during/after observation preserve six loss/
+input returns exactly and match the older frozen CPU baseline. All sixteen
+native cotangents and mask/target identities independently verify. Model
+values/versions and absent parameter gradients remain; all hooks restore.
+
+29 final checks pass with zero errors/failures/skips. Initial five fixture setup
+errors, the corrected 28-case pass and exact earlier local test source are
+preserved as history, not added to the final count. Independent saved review
+uses NumPy to recheck full gradient groups and actual CPU snapshots while
+blocking model/autograd/SDPA/CUDA/process/network work;7,505 prior inputs verify
+and7,526 inputs are sealed. No historical captured source or claim changes.
+
+An inert proposal specifies two serial native-EOT8 prediction/cotangent captures,
+original passing-value replay and failed-candidate reproduction for attribution
+only, retaining original gates. Its proposed work/storage envelope is bounded;
+no live operator, handoff, authorization or attempt exists. The observer cannot
+alone isolate pure backward arithmetic; no target cross-VJP cells are computed.
+Next implement/test/review the bounded observer handoff before one new scoped
+target approval. Both hosts may idle, financial caps/holds remain unchanged,
+and no SSH/upload/university GPU or paid compute starts.
+[Offline review](report/checks/2026-11-06-predictor-gradient-attribution-v1-offline-review.md).
+
 ## 2026-11-06 — Target baseline verified and candidate gradient rejected
 
 The external-record writer completes its first university baseline: all five
