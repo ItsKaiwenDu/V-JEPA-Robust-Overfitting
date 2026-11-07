@@ -1,0 +1,152 @@
+{
+  "actual_native_and_applied_sparse_values_retained": true,
+  "all_sixteen_pairs_verified_not_just_changed_entries": true,
+  "applied_whole_cotangent_hash_must_match_saved_other_path": true,
+  "authorized": false,
+  "automatic_retries": 0,
+  "cleanup": false,
+  "cotangent_first_terms": [
+    "g01-g00",
+    "g11-g01"
+  ],
+  "cross_cell_cotangent_is_explicitly_replaced": true,
+  "cross_cells_cannot_qualify_native_loss_derivatives": true,
+  "cross_gradients_can_only_follow_two_accepted_value_reproductions": true,
+  "do_not_report_causal_percentages_from_entry_counts": true,
+  "execution_is_one_new_separate_attribution_attempt_not_a_retry": true,
+  "failed_values_are_not_passing_worker_references": true,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "fixed_cotangent_does_not_isolate_pure_backward_arithmetic": true,
+  "fresh_process_per_cell": true,
+  "incoming_whole_cotangent_and_prediction_hash_must_match_saved_same_path": true,
+  "kind": "predictor-common-cotangent-proposal-v1",
+  "known_candidate_failure_must_be_reproduced_and_stay_failed": true,
+  "native_forward_objective_unchanged": true,
+  "new_dependency_or_weights_upload": false,
+  "new_profiling_or_oracle_or_attack_or_optimizer": false,
+  "new_target_execution_permitted": false,
+  "numerical_candidate_backend_or_research_adoption": false,
+  "old_claim_or_clock_reset": false,
+  "operator_present": false,
+  "ordered_cells": [
+    {
+      "cotangent": 0,
+      "expected_original_numerical_passed": true,
+      "id": "00",
+      "native_loss_gradient": true,
+      "path": 0
+    },
+    {
+      "cotangent": 1,
+      "expected_original_numerical_passed": false,
+      "id": "11",
+      "native_loss_gradient": true,
+      "path": 1
+    },
+    {
+      "cotangent": 1,
+      "diagnostic_intervention_only": true,
+      "id": "01",
+      "native_loss_gradient": false,
+      "path": 0
+    },
+    {
+      "cotangent": 0,
+      "diagnostic_intervention_only": true,
+      "id": "10",
+      "native_loss_gradient": false,
+      "path": 1
+    }
+  ],
+  "original_numerical_bounds": {
+    "input": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "loss": {
+      "atol": 2e-06,
+      "rtol": 1e-05
+    }
+  },
+  "paid_compute": false,
+  "parallel_host": false,
+  "path_first_terms": [
+    "g10-g00",
+    "g11-g10"
+  ],
+  "prior_consumed_claim_sha256": "701c196c878eea81f6b6810fc0c2bcde5468c257a111d224e6dd6d14e930fa7e",
+  "prior_manifest": {
+    "files": 10665,
+    "path": "runs/pretrained/diagnostic/predictor-boundary-v1-20261106/independent-target-review/sealed-inputs.json",
+    "sha256": "b98b83f75362a3e976a64bdf9dbb0d5c3f6fe99802c365895bb4bf3a6445405c"
+  },
+  "prior_review": {
+    "path": "report/checks/2026-11-06-predictor-boundary-v1-target-review.json",
+    "sha256": "b309378641673e390d6e63e521229c663453c45dffa5e8df30a797afc2b64051"
+  },
+  "private_key_or_heldout_pixels": false,
+  "proposal_only": true,
+  "proposed_gpu_uuid": "GPU-e54fae90-feeb-8106-d8c0-1974fe48555f",
+  "proposed_host": "linux10603",
+  "proposed_parent": "/var/tmp",
+  "raw_projection": {
+    "actual_whole_tensor_hashes_and_sparse_entries_must_be_recorded": true,
+    "files": 12,
+    "four_loss_input_target_sets_bytes": 83886096,
+    "header_allowance_bytes_per_file": 65536,
+    "one_atomic_copy_bytes": 16777216,
+    "prediction_and_full_cotangent_tensors_written_again": false,
+    "projected_raw_bytes": 101449744,
+    "projection_not_reservation": true
+  },
+  "research_admitted": false,
+  "resource_proposal": {
+    "actual_category_file_allocated_free_inode_deadline_and_foreign_process_guards_required": true,
+    "allocator_bytes": 7516192768,
+    "capacity_reservation_or_target_peak_demonstrated": false,
+    "capture_bytes": 2415919104,
+    "code_bytes": 134217728,
+    "collection_bytes": 3221225472,
+    "collection_seconds": 600,
+    "input_bytes": 134217728,
+    "metadata_bytes": 67108864,
+    "proof_seconds_included": 60,
+    "raw_bytes": 536870912,
+    "receipt_reserve_seconds": 120,
+    "setup_bytes": 3221225472,
+    "setup_seconds_included": 180,
+    "static_work_sum_seconds": 1980,
+    "work_seconds": 2400,
+    "worker_seconds": 420,
+    "workers": 4,
+    "write_proof_bytes": 2684354560
+  },
+  "retain_interaction": "g11-g10-g01+g00",
+  "saved_analysis": {
+    "path": "runs/pretrained/diagnostic/predictor-cotangent-attribution-v1-20261106/saved-analysis/analysis.json",
+    "sha256": "1b70ed0e7d41f76f5d3ec20dd653f083d76f3571e125fbafd9b8afbed823d1c1"
+  },
+  "separate_exact_approval_only_after_tested_live_handoff": true,
+  "source_sha256": {
+    "models/predictor_cotangent_attribution_v1.py": "be1eb221ac5c6dd49b71bc873dd4433d05fd01f1935b124a84f0207667b8c448",
+    "scripts/analyze_predictor_cotangents_v1.py": "959b3dc5f4fce48f10e2d0f11bacc7610eec6f5de11c9617a0e88e096a3d920c",
+    "tests/test_predictor_cotangent_attribution_v1.py": "9081507a6d162376395cfe0e3359aed165795a45c805d9e0e7c5bed1e1bd3fcf"
+  },
+  "sparse_values": {
+    "bytes": 12314,
+    "path": "runs/pretrained/diagnostic/predictor-cotangent-attribution-v1-20261106/saved-analysis/sparse-values.json",
+    "sha256": "13e693dadbe527e6d14f2b164a6b97b2036479fdb768a2e93130fa78c056a6d6"
+  }
+}

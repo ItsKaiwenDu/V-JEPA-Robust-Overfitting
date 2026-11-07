@@ -1,5 +1,141 @@
 # Research Progress Reports
 
+## 2026-11-06 — Four target cells verified; external cotangent term dominates
+
+The approved four fresh linux10603 workers completed. All 186 saved files and
+the 195,062,662-byte response independently verify, including exact hashes,
+sizes, modes, nanosecond mtimes and archive coverage/extent. All 11,793 sealed
+preparation files match; 11,998 inputs are now sealed. Both native diagonals
+exactly reproduce their own saved loss/input values; the original also exactly
+matches the historical reference. All four forward losses/targets are exact.
+
+The known candidate remains rejected at 3,724 of 3,145,728 input entries under
+unchanged rtol 0.002 / atol 2e-7, with its own bound rejection marker. Both cross
+workers actually replace the eleven differing cotangents in nine boundary
+pairs; all sixteen whole prediction/received/applied signatures and sparse
+bits verify in each cell. The original path with candidate cotangent has 3,739
+descriptive bound violations; the candidate path with original cotangent has
+zero. Cross cells remain controlled VJPs, not passing native-loss derivatives.
+
+Both ordered decompositions reconstruct the whole saved difference exactly in
+FP64, with interaction retained. External cotangent terms have signed
+projections 102.3106% and 105.2539% of total difference; the corresponding path
+terms are -2.3106% and -5.2539%. These conditional ordered projections are not
+a unique causal percentage; cancellation and nonzero interaction remain.
+All 3,724 original failure locations, raw values, bounds and terms are saved.
+This points to the external loss-gradient boundary as the dominant measured
+contributor in this sample, while internal forward rounding versus pure
+backward arithmetic remains unresolved.
+
+Four complete GraphTasks each verify 1,152 actual calls, all 36 owners and hook/
+model restoration. Work took 137.390321 seconds, including a full 2.5 GiB
+write/fsync/readback proof in 9.811373 seconds. All time/storage/allocator guards
+hold; sampled GPU rows show only the current worker. There is no refusal or
+automatic retry, no new SSH during review and no model/autograd/SDPA/CUDA work
+in review. Earlier 68 preparation tests were not rerun. Kernel/five-phase,
+cross-cell replay, scoring/optimizer/performance and research gates remain open.
+
+The single grant is consumed and frozen. Never rerun its helper, reset clocks/
+claims, mutate captured source or reuse leftover time. Both SSH sessions may
+idle or close; linux10609 stays unarmed. Next is an offline plan for a minimal
+same-internal-input and same-cotangent comparison. No new university or paid
+work is authorized, and financial holds/caps/reconciliation stay unchanged.
+[Independent target review](report/checks/2026-11-06-common-cotangent-v1-target-review.md).
+
+## 2026-11-06 — Four-cell attempt approved and armed, still unused
+
+The user approved the exact four-cell linux10603 attempt and supplied a fresh
+GPU snapshot matching the expected UUID, 8,192 MiB total / 94 MiB used,
+driver 580.178.04 and no CUDA compute process. A separate private authorization
+is saved; there is no attempt claim, session, SSH/upload, storage proof or work
+clock. Live identity/process/resource guards must still pass. The pasted status
+is not a GPU reservation.
+
+Independent armed-state review reverified all 11,793 sealed inputs, original
+source/control/public-key and consumed-claim bindings, both complete archives,
+12,314-byte sparse metadata, 21 overlays / 298,508 bytes and 890,104-byte
+bootstrap. Exact approval, authorization and the unused helper verify with
+scientific imports and process/network creation blocked. Helper syntax passes;
+the 68 preparation checks were not rerun. Captured sources and old claims stay
+frozen; linux10609 remains unselected and unarmed.
+
+Next run the final helper once in a local Mac Terminal, enter the university
+password promptly, and keep the Mac awake/lid and Terminal open through the
+40-minute work plus ten-minute same-SSH collection allowance. Native controls
+reproduce original and rejected values; two explicit cotangent interventions
+measure controlled cross VJPs. The candidate rejection and original numerical
+bounds remain; attribution completion is not study acceptance. Report the saved
+completion/error for review, never relaunch or reset the attempt. No retries,
+cleanup, parallel host, private-key/held-out uploads or paid compute are included.
+Financial caps, holds and pending reconciliation remain unchanged.
+[Authorization review](report/checks/2026-11-06-common-cotangent-handoff-v1-authorization.md).
+
+## 2026-11-06 — Bounded four-cell university handoff verified, unarmed
+
+A separate controlled-cell record, observer/worker, source-bound entry,
+supervisor and attended client implement the four-cell attribution plan. Native
+diagonals must reproduce saved values exactly; the target candidate's numerical
+rejection stays failed under a separate bound marker. Cross workers explicitly
+replace incoming predictor cotangents and cannot qualify native-loss gradients.
+Parent/entry verify every earlier cell before later model work. The complete
+attribution marker never implies scientific/study acceptance.
+
+68 distinct local checks pass. Two cohorts provide eight fresh tiny CPU cells,
+sixteen loss/input returns exact against frozen anchors, 128 observed boundaries
+and eight complete/restored graph scopes. These full-worker CPU cotangents are
+identical, so a separate nontrivial toy backward check exercises both new cross
+directions. Canonical-refusal injections and primary-backward failures preserve
+their distinct evidence. Four collection simulations verify success and stop
+paths. CPU/mock values qualify no live GPU or resource grant.
+
+The first 28-pass/one-failure/24-fixture-error run is retained. A separate new
+bounded marker reader and stale test filename were corrected, with fifteen
+integrity checks added; the second run passes all 68. The old reader and limits
+remain frozen. Independent review reverified 10,681 predecessor pins and sealed
+11,793 inputs with scientific execution/process/network creation blocked.
+Scaffold/YAML, helper syntax and diff checks pass.
+
+Final upload is the unchanged 17,192,095-byte packet, 20,037,087-byte value
+archive, 12,314-byte sparse metadata, 21 overlays / 298,508 bytes and bound plan
+metadata; the bootstrap is 890,104 bytes. One new private linux10603 attempt is
+proposed for up to 40 minutes including full 2.5 GiB proof and four serial
+seven-minute workers, then at most ten minutes / 3 GiB same-SSH collection.
+Existing storage/allocator/foreign-process gates and financial holds remain.
+
+Next request one new exact scoped four-cell approval and fresh host status.
+There is no new authorization, claim, SSH/upload, university work, cleanup or
+paid compute. The preceding 10603 grant remains consumed; both hosts may idle. Actual
+target cross-gradients and causal contribution are still unknown.
+[Preparation review](report/checks/2026-11-06-common-cotangent-handoff-v1-preparation.md).
+
+## 2026-11-06 — Common-cotangent attribution prepared offline
+
+The exact eleven-entry output-cotangent difference now has a 12,314-byte sparse
+representation with complete incoming/destination tensor hashes. All sixteen
+pairs, both diagonal directions and both cross directions are verified against
+the actual saved arrays: 64 bitwise comparisons. All 10,665 target pins and the
+consumed claim reverify; 10,681 inputs are now sealed.
+
+39 distinct checks pass without failures/errors/skips. Four actual synthetic
+CPU VJPs match explicit Jacobians and verify both decompositions plus interaction.
+On the small upstream CPU model, native before / diagonal / after results remain
+bitwise equal to the frozen baseline. A hypothetical one-entry replacement is
+bitwise equal to an independent direct multi-output VJP. Hook restoration, model
+values/versions and absent parameter gradients verify. These are labelled CPU
+proofs, not pretrained CUDA qualification or the actual target cross experiment.
+
+The rejected candidate and original numerical bounds remain unchanged. Actual
+target cross cells and their causal contribution are still unknown. The inert
+four-cell plan retains fresh native diagonal controls, a failed candidate record,
+both decomposition orders and interaction. It does not isolate pure backward
+arithmetic from internal forward-state changes.
+
+Next implement/test/review a separate bounded live record, worker and attended
+handoff before asking for one new exact university approval. No operator/helper,
+authorization, SSH/upload, new university attempt, cleanup or paid compute was
+created. Both hosts may idle; financial limits and pending reconciliation stay.
+[Offline review](report/checks/2026-11-06-predictor-common-cotangent-v1-offline-review.md).
+
 ## 2026-11-06 — Native output-boundary capture complete; candidate still rejected
 
 The attended linux10603 attempt saved both native full-EOT8 arms and all sixteen

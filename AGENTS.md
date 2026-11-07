@@ -2,6 +2,189 @@
 
 ## Current stage
 
+LATEST Nov06: FOUR-CELL TARGET ATTRIBUTION VERIFIED; CANDIDATE STILL REJECTED.
+Read report/checks/2026-11-06-common-cotangent-v1-target-review.json/md FIRST.
+All four fresh serial target cells completed; independently verified original
+195062662B response/186 files194880267logicalB, hashes/sizes/modes/exactnsmtime/
+tarcoverage+extent,99packet/5capsule members/21overlays/sparse/AUTH/CONTROL.
+11793 preparation pins reverified;11998 sealed under rawcommon-cotangent-
+handoff-v1-20261106/independent-target-review. Review blocks model/autograd/
+SDPA/CUDA/process/network. Saved CPU tensor+NumPy arithmetic only;68 checks
+NOT rerun/summed. Every captured source/result/claim now FROZEN.
+4cells00(original,c0),11(candidate,c1),01(original,c1),10(candidate,c0).
+Both native loss/input diagonals EXACT ownanchors;original EXACT historical.
+Allfour losses/targets exact;loss.5617199540138245. Samebaseline/masks/runtime.
+Candidate nativeREJECTED3724/3145728 entries at original rtol.002/atol2e-7;
+maxabs1.496076584e-5/maxratio8.641704438. Rejection ownmarker retained.
+Crosscells explicitcontrolledVJP, NOTnative-loss qualification/adoption.
+Actual64boundarypairs:wholeprediction/received/applied hashesmatch;eachcross
+replaces11exact uint32entries in9pairs,diagonalsreplace0. All hooksremoved.
+Descriptiveinputboundviolations vs00:00=0,11=3724,01=3739,10=0.
+Both order decompositions over ALL3145728 FP64saved elements reconstructEXACT.
+TotaldiffL2.00021499490515. Path@c0 norm5.3825%/projection-2.3106%;cot@path1
+norm102.4260%/projection102.3106%;cot@path0 norm105.4864%/projection105.2539%;
+path@c1 norm8.7519%/projection-5.2539%;interactionnorm5.1101%/projection-2.9434%.
+Signedprojection ratios NOTunique causalpercent;normsnonadditive/cancellation.
+All3724failurecoords/4values/bounds/components retained171445BNPZ;fullarraysraw.
+This sample:externalcotangent changesDOMINANT bothorders;fixedoriginalc stays
+within originalbound. Path+interaction NONZERO;commonexternalc NOTsameinternal
+QKV/state. Purebackwardarithmetic cause NOTproved. No candidateadoption.
+4freshPIDs1519020/1520984/1522585/1524383;each1completeGraphTask/1152calls=
+576fwd+576bwd/36owners/16boundaries;zeroownershiprefusals;model/adapter/observer
+restored. Frozen native loaders refuse ALLcontrolledrecords. Crossreplay,
+actualkernels/fivephase/PGDscoring/optimizer/performance/research NOTqualified.
+Work137.390321s;2.5GiBproof9.811373s/1926observations beforearchives;supervisors
+31.078/27.469/29.328/28.999<420;allocator5122851840/5847053312/5126743040/
+5847053312B<7GiB;capturepeak195522560<2.25GiB;allcategory/typedcapsheld.
+GPU7/6/6/6samples onlyownPID;NOTcontinuous exclusivity/reservation. Noresource/
+time/storage/foreignrefusal. OneoriginalsameSSHstream;NOretry/newretrieval.
+Localclaim-to-lastresponsewrite204.997350s;NOseparate transportexitcodereceipt.
+ACTIVE latestclaim CONSUMED9066c0afb97cb9e92f02e047806124aab73fff36cc9cdb46b4c31e28d167e94c.
+NEVER rerun rawcommon-cotangent-handoff-v1-20261106/linux10603-final helper or
+resetAUTH/ATTEMPT/time/source/results. Old09unselected/unarmed;bothmayidle/close.
+NEXT OFFLINE minimal sameinternalinput+samecotangent comparison PLAN, retaining
+both orderedterms+interaction. No newgrant/SSH/upload/universitywork/cleanup/
+standaloneretrieval/fallback/parallelhost/paidwork. Prep concrete scope BEFORE
+any future request; no speculativeapproval question now.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+wallet6.56/reconciliationfalse unchanged; knownRunpodterminated.
+Usercommits self; NEVER stage/commit/push. Earlier LATEST entries are history.
+
+LATEST Nov06: FOUR-CELL ATTRIBUTION ATTEMPT APPROVED/ARMED, NOT CLAIMED.
+Read report/checks/2026-11-06-common-cotangent-handoff-v1-authorization.json/md
+and docs/predictor_common_cotangent_handoff_v1.md FIRST. User explicitly approved
+one bounded four-cell attempt in call_927700e9a3074e7e84133926f3f8f08e/0; fresh
+03 status in /1 matches expected RTX3070 UUID,8192MiB/94MiB,driver580.178.04,
+empty compute list. Approval PERSISTS for EXACT unchanged scope; DO NOTask again.
+Pastedcheck NOTagentSSH/reservation; live guards remain before/during work.
+ACTIVE ONLY rawcommon-cotangent-handoff-v1-20261106/linux10603-final.
+CONTROLd02e3a9ef8fb6e5426b504b5710066c9755960dcdabee839d81eaf3ff28c5821;
+AUTHaec5d2309acbcc728cf6bff37178d72690d916b44143a720156810677f94be39.
+Separate private AUTH and exactapproval/status saved; NOATTEMPT/session/SSH/
+upload/proof/universityworker/workclock yet. NeverclaimorlaunchagentSSH.
+Independentarmedreview reverified11793sealed preparationinputs,allsource/
+publickey/control/oldconsumedclaims,99member17192095Bpacket,5member20037087B
+capsule25182004logicalB,12314Bsparsedata,21overlays298508B,bootstrap890104B.
+Scientificimports/process/network blocked duringreview; helpersyntaxPASS.
+68preparation checks NOT rerun/summed. Capturedsources remainFROZEN;old09
+unselected/unarmed. Oldclaim701c...consumedimmutable,neveroldhelperfallback.
+NEXT user runs final attended LOCALMac helper ONCE (caffeinate -i), keepsMac
+awake/lidopen/Terminalopen throughcollection; passwordpromptly. Helperclaims
+beforeSSH; NEVER rerun/reset AUTH/ATTEMPT/clocks after anyresult. Independently
+review actualsavedresponse/typedreturns/wholepred+cothashes/sparsebits/scopes/
+markers/source/state beforeattribution. Missingreceipts notpassingrefs.
+4freshserialcells00nativeoriginal,11nativecandidate,01original+otherc,10candidate+
+originalc. Twoexplicitcotangentinterventions authorized; crosscells NOTnative-loss
+derivatives. Nativecandidate numericalrejection MUSTstayfailed underownmarker;
+originalbounds unchanged. Attrcompletion/exit0 doesNOTimplyscientific acceptance.
+40minwork inclfull2.5GiBproof+4serial<=7minworkers;10min/3GiBsameSSHcollection;
+transportincludinglogin<=50min. Setup3GiB/capture2.25GiB/raw512MiB/metadata64MiB/
+input128MiB/code128MiB/cache32MiB/emergency16MiB/allocator7GiB unchanged.
+No retry/reset/cleanup/standaloneretrieval/fallback/parallelhost/privatekeys/
+heldoutpixels/weightdependencyinstallation/paidwork. Foreigncompute refuses;
+leavealone. Sampling/projections NOTcapacityreservation. Actualtargetcrosscells/
+causalshare/kernels/fivephase/replay/scoring/optimizer/performance/research pending.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+wallet6.56/reconciliationfalse unchanged; knownRunpodterminated.
+Usercommits self; NEVER stage/commit/push. Earlier LATEST entries are history.
+
+LATEST Nov06: FOUR-CELL CONTROLLED-VJP HANDOFF VERIFIED, UNARMED.
+Read report/checks/2026-11-06-common-cotangent-handoff-v1-preparation.json/md and
+docs/predictor_common_cotangent_handoff_v1.md FIRST. Separate new controlledrecord/
+observer/worker/entry/operator/client/prepare/run/contract +2tests. Captured
+historical sources/results/claims stay FROZEN. The preceding 10603 grant is consumed.
+One new four-cell university attempt requires one new exact scoped authorization.
+68distinctfocusedchecks PASS,zeroerrors/failures/skips. First28pass/1stale marker
+testfailure/24fixtureerrors(oldreaderallowlist);new boundedmarkerreader+testname
+fixed,15markerchecksadded. Exactsourcefirst/second receipts preserved, NOTsummed.
+Oldreader/globalcaps unchanged. Earlier39/48suites notrerun oradded.
+2cohorts/8fresh positive tinyCPUcells:16native loss/inputreturns EXACTvsfrozen,
+128actualboundaries/8completeGraphTasks/hookremoval/restore verify. CPUc0==c1,
+zeroedit fullworkerproofs NOTtarget11entry qualification. Actualnontrivialnew
+observertoy crossbackward unitcheck also passes. LocalCPU notpretrainedCUDA.
+2canonical-refusal injections retainnativefailure markers/attrcomplete;2primary
+backwarderrorsretainloss/partialrows/removedhooks. Numericalinjections notrealCPU
+discrepancies.4sameSSH simulations(success/native-reject+scopedcross/unexpected
+crossfail/priorcontroltamper) verifyallhash/size/mode/exactmtime/extent.
+MockGPU/proof/testauth fixtures NOTresource grants/live capacity/qualification.
+Independentreview reverified10681priorpins,sealed11793 under rawcommon-cotangent-
+handoff-v1-20261106/independent-review;model/autograd/SDPA/CUDA/process/network
+blocked. Exact99packet/5capsule members/21overlays/sparse/publickey verified.
+ACTIVE ONLY rawcommon-cotangent-handoff-v1-20261106/linux10603-final, NOAUTH/ATTEMPT.
+CONTROLd02e3a9ef8fb6e5426b504b5710066c9755960dcdabee839d81eaf3ff28c5821.
+Proposedupload17192095Bpacket +20037087Bvaluearchive(five members25182004logicalB)
++12314Bsparsedata+21overlays298508B+boundbudgetmetadata;stdin890104B<2MiB.
+Newprivate/var/tmp linux10603 only, existingcheckpoint/upstream verifiedinplace.
+Fourfreshserialcells00nativeoriginal,11nativecandidate,01original+otherc,
+10candidate+originalc. Diagonals exactlyreplay ownvalues;originalbounds unchanged.
+Knownnativecandidate rejection MUST stayfalse/hash-bound;new attrcompletion
+distinctfromnativeacceptance. Crosscells areexplicitcotangentinterventions,
+NOTnative-loss derivatives/attack/optimizer/research qualification. Genericpassed
+flag forbidden. Oldnativeloaders refuse. Scientific/study/performance staysfalse.
+Bothparent+entry checkallpriorreceipts beforelatermodelrefs. All16wholeprediction/
+incoming/appliedcot hashes+actualsparsebits/targets/masks/weights/pixels/runtime/
+source/state/GraphTask/hooks mustmatch. Unexpectedfailure stops+sameSSHcollection.
+Actualcrosscells/J/causalshare/backendkernels/fivephase/replay/studygates pending.
+40minwork incl180setup/full2.5GiBproof<=60 +4*420 +120receiptreserve=1980<2400;
+600s/3GiBsameSSHcollection. Setup3GiB/capture2.25GiB/raw512MiB/metadata64MiB/
+input128MiB/code128MiB/cache32MiB/emergency16MiB/allocator7GiB unchanged.
+No retry/reset/standaloneretrieval/cleanup/fallback/parallelhost/paidwork.
+Foreigncompute refuses;leavealone. Capacity/time projections NOTreservations.
+NEXT requestONEnew exactscope approval +fresh03 hostname/GPUUUID/processcheck.
+Prep is complete/reviewed. After approval persists, DO NOT ask again; reverify
+bindings,save separateAUTH,independentlycheck armed-unusedstate,then givefinal
+LOCALMac helperonce. No AUTH/claim/SSH beforeapproval. Neverrun oldhelpers.
+Oldclaim701c196c878eea81f6b6810fc0c2bcde5468c257a111d224e6dd6d14e930fa7e
+CONSUMEDimmutable;old09unselected/unarmed. Bothmayidle. No newuniversityresource
+grant/work/SSH/upload/proof/cleanup/paidwork created. Rootcause remainsopen.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+wallet6.56/reconciliationfalse unchanged; knownRunpodterminated.
+Usercommits self; NEVER stage/commit/push. Earlier LATEST entries are history.
+
+LATEST Nov06: COMMON-COTANGENT OFFLINE PLAN + LOCAL CPU PROTOTYPE VERIFIED.
+Read report/checks/2026-11-06-predictor-common-cotangent-v1-offline-review.json/md
+and docs/predictor_common_cotangent_v1.md FIRST. New separate saved-array analysis/
+sparse patch + LocalCotangentReplay, analysis CLI,39-check suite and inertconfig
+configs/predictor_common_cotangent_v1.json. All captured prior sources FROZEN.
+39distinct checks PASS,zeroerrors/failures/skips FIRST run; earlier48/29 notrerun/
+summed. Actualtarget32cotangents independently NumPy-reconstructed;12314B sparse
+artifact verifies64fullarray replays (16pairs*2diagonal/2cross) bitwise withwhole
+source+destination hashes,exactuint32edits.11changedentries/9pairs retained.
+These are arraycopies only, NOtargetJacobian/crossVJP/causalshare computed.
+Synthetictoy4actualcontrolledCPU VJPs match explicitJacobian exactly;bothorders
+andnonzerointeraction verify. Realnative tinyCPU before/diagonal/after EXACT
+vsfrozen baseline;onesyntheticchangedcotangent inputVJP EXACT vsindependent
+directmultioutput VJP. Allhooks/modelvalues/versions/absentparamgrads preserved.
+Prototype localCPU32tokens/128features ONLY, refusesuniversity/CUDA/targetscope;
+crossgradienthook explicitly replacescotangent, NOT native-loss qualification.
+Source/destinationfullhash andprediction/mask/target checks;noinplacemutation.
+Independentreview reverified10665priorpins,sealed10681 under rawpredictor-
+cotangent-attribution-v1-20261106/independent-review;model/autograd/SDPA/CUDA/
+process/network blocked. NativeCPUscientificwork onlylabelledtests,notreview.
+Scaffold/YAML/diff PASS. Oldcandidate remainsREJECTED3724inputelements, noadoption.
+Proposal ONLY, NOoperator/helper/AUTH/ATTEMPT/SSH/upload/newuniversitywork.
+Fourfuturefreshserialcells00nativeoriginal,11nativecandidate(expectedrejection),
+01original+otherc,10candidate+originalc. BOTHdiagonalvaluesmustexact-reproduce,
+candidatefailurestaysfailed/notpassingref;futureattribution-onlycontinuation
+afterknownfailure needsnewtestedprotocol/approval, NOToldoperatorcontinuation.
+Crosscells distinctcontrolledVJP identity,originalnumericalboundsretained,
+nevernative-loss/attack/scoring/parameteroptimizer/researchqualification.
+Keepbothorderedterms+interaction;equaldiagonals/c0/c1 don'tidentifycrosses.
+Commonexternalcotangents doNOTfixinternalforwardstates/isolatepurebackwardbug.
+Futureenvelope proposal40min incl180setup/full2.5GiBproof<=60 +4*420s+120reserve
+=1980<2400;600s/3GiBsameSSHcollection. Setup3GiB/capture2.25GiB/raw512MiB/
+metadata64MiB/input128MiB/code128MiB/allocator7GiB. Pred/c wholehash inRAM;
+4loss/input/targetsets+headers/atomiccopy project101449744B raw,NOTlivepeak/reserve.
+Actualguards stillrequired. No retry/reset/cleanup/fallback/parallelhost/paidwork.
+Latest oldclaim701c196c878eea81f6b6810fc0c2bcde5468c257a111d224e6dd6d14e930fa7e
+CONSUMED/FROZEN; neverrerun oldboundaryhelper. Old09unselected/unarmed;bothmayidle.
+NEXT implement/test/review SEPARATE boundedcontrolledVJP record/worker/handoff;
+THEN askONEnewexact scoped universityapproval+freshstatus. Noaskbeforeprep,
+noalreadyapprovedscopequestion. No targetcommand yet. Broadergatespending.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+wallet6.56/reconciliationfalse unchanged; knownRunpodterminated.
+Usercommits self; NEVER stage/commit/push. Earlier LATEST entries are history.
+
 LATEST Nov06: NATIVE PREDICTOR BOUNDARY CAPTURE VERIFIED; 11 LOSS-COTANGENT CHANGES.
 Read report/checks/2026-11-06-predictor-boundary-v1-target-review.json/md FIRST.
 Saved512530141B response/223files512303338logicalB fully verified: rawmember/

@@ -1,0 +1,90 @@
+{
+  "Mac_caffeinate_present": true,
+  "Mac_helper": "/Users/kaiwendu/Documents/GitHub/V-JEPA-Robust-Overfitting/runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/linux10603-final/run-attended.sh",
+  "allocator_bytes": 7516192768,
+  "anchor_archive_bytes": 20037087,
+  "anchor_logical_bytes": 25182004,
+  "anchor_members": 5,
+  "approval": {
+    "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/authorization-review/user-approval.json",
+    "sha256": "66f822124254e090cf4a40050115567dc72d5b398e4f601c5cc3db31f73cff8d"
+  },
+  "approval_persists_for_exact_unchanged_scope": true,
+  "arming_receipt": {
+    "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/authorization-review/arming-receipt.json",
+    "sha256": "fc53c83bfc667925323cd9808d90e26ef8bdaeebc66219af17904bbaefd9f903"
+  },
+  "authorization_path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/linux10603-final/AUTHORIZATION.json",
+  "authorization_sha256": "aec5d2309acbcc728cf6bff37178d72690d916b44143a720156810677f94be39",
+  "automatic_retries": 0,
+  "capture_bytes": 2415919104,
+  "collection_bytes": 3221225472,
+  "collection_seconds": 600,
+  "control_sha256": "d02e3a9ef8fb6e5426b504b5710066c9755960dcdabee839d81eaf3ff28c5821",
+  "cross_cells_are_explicit_controlled_interventions": true,
+  "date": "2026-11-06",
+  "exact_user_approval_source": "Explicit user response to request_user_input_async/call_927700e9a3074e7e84133926f3f8f08e/0",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "fresh_pasted_10603_identity_clear": true,
+  "helper_shell_syntax_passed": true,
+  "kind": "common-cotangent-v1-armed-state-review",
+  "known_candidate_rejection_remains_rejected": true,
+  "local_source_and_payload_bindings_unchanged": true,
+  "metadata_bytes": 67108864,
+  "new_SSH_upload_proof_or_GPU_work": false,
+  "new_attempt_present": false,
+  "new_tests_rerun": false,
+  "next_step": "User runs the exact final Mac helper once; keep Mac awake, lid and Terminal open through collection, enter the password promptly. Live guards must pass. Do not repeat after any result.",
+  "old_10609_unselected_unarmed": true,
+  "old_consumed_claims_unchanged": true,
+  "one_new_attended_attempt_only": true,
+  "original_numerical_bounds_unchanged": true,
+  "original_packet_bytes": 17192095,
+  "original_packet_members": 99,
+  "overlay_bytes": 298508,
+  "overlay_files": 21,
+  "paid_compute": false,
+  "passed": true,
+  "pasted_status_is_not_a_live_check_or_reservation": true,
+  "preparation_checks_not_rerun": 68,
+  "preparation_report": {
+    "path": "report/checks/2026-11-06-common-cotangent-handoff-v1-preparation.json",
+    "sha256": "953dea0ce6652e1ae9fbe580c17e7445e6b6f3839be688480b1f24dfefca9c5b"
+  },
+  "raw_armed_review": {
+    "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/authorization-review/review.json",
+    "sha256": "460d4d4e2fb1312c3607d617aef938e8d15908e7d50cbd74cff3f969771d321b"
+  },
+  "raw_bytes": 536870912,
+  "recorded_utc": "2026-11-07T03:30:34.447174+00:00",
+  "saved_review_sources": {
+    "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/authorization-review/arm-source.py": "02a2ccdbd485658092c0f294dec4e706831de3bbf55fee918fbaab4ecc061496",
+    "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/authorization-review/checkpoint-source.py": "2d83137a72901870c4c3c7eb2a8d3044e9fff0f44851348576d813214f3d075b",
+    "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/authorization-review/review-source.py": "e1eea99f84d546b0ad928640603c35e59cb35a839f67230d08bd32ffe0e507b7"
+  },
+  "scientific_import_process_or_network_during_review": false,
+  "sealed_preparation_inputs_reverified": 11793,
+  "setup_bytes": 3221225472,
+  "sparse_value_bytes": 12314,
+  "status": {
+    "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/authorization-review/user-status.json",
+    "sha256": "6695302531b2c16c61ea5f3bbcff21b4156677bd1f744f49e6832ce31362dfa3"
+  },
+  "stdin_bootstrap_bytes": 890104,
+  "work_clock_started": false,
+  "work_seconds": 2400,
+  "worker_seconds": 420,
+  "workers": 4
+}

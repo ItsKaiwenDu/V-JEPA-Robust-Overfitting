@@ -1,0 +1,272 @@
+{
+  "actual_CPU_observed_boundaries_checked": 128,
+  "actual_native_CPU_loss_input_returns_exact": 16,
+  "anchor_archive_bytes": 20037087,
+  "anchor_logical_bytes": 25182004,
+  "anchor_members": 5,
+  "checks": {
+    "errors": 0,
+    "failures": 0,
+    "skips": 0,
+    "unique": 68
+  },
+  "cold_bootstrap_pre_authorization_scientific_import_refusal_test_passed": true,
+  "control_sha256": "d02e3a9ef8fb6e5426b504b5710066c9755960dcdabee839d81eaf3ff28c5821",
+  "date": "2026-11-06",
+  "documentation": {
+    "path": "docs/predictor_common_cotangent_handoff_v1.md",
+    "sha256": "b8e54fdb2c088b66262973fc6a84ee18006b58bef85cd4e90c92810d7192d2bd"
+  },
+  "final_handoff": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/linux10603-final",
+  "final_handoff_attempt_present": false,
+  "final_handoff_authorization_present": false,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "fresh_CPU_cell_receipts": [
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_complete": true,
+      "calls_sha256": "6905b0104a38f86082567381181de6d5a16ff5b4811446c6f14fe305ddc995e1",
+      "cell": "00",
+      "index": 0,
+      "marker_sha256": "f6364fbea50a5dbe05ba845c0ccb4111ea97b27445bad6373c478a7e0f82768e",
+      "mask_sha256": "c7e66e60a534488ee05bb52b0e4e84b67210711c032d5ec1cb68bc85fc8c53d9",
+      "native_loss_gradient": true,
+      "native_numerical_passed": true,
+      "pid": 82834,
+      "research_admitted": false,
+      "scopes_sha256": "11807113a14a678effda9cce306e5b1895811a7675a1d5a6fe330eaf47f041b6",
+      "worker_sha256": "2e7b268635442f0e73604569b0081c358bbe72fa537301fb39cc8c996b9ab79d"
+    },
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_complete": true,
+      "calls_sha256": "e3f6264d90bd36e93787508da6903155ae54294d1e39beb612d8f9612cfc014d",
+      "cell": "11",
+      "index": 1,
+      "marker_sha256": "1121c482ebf4732972ec880b4426d2f771d0554c27145bf803d92a067ea427d2",
+      "mask_sha256": "c7e66e60a534488ee05bb52b0e4e84b67210711c032d5ec1cb68bc85fc8c53d9",
+      "native_loss_gradient": true,
+      "native_numerical_passed": true,
+      "pid": 82858,
+      "research_admitted": false,
+      "scopes_sha256": "3c03867715ec466368649fc2857eb06e63e78e765bb3777efb9c3ce2924dccff",
+      "worker_sha256": "eb5e687852df44f98be879d6f73af9aaa003848e604ec9386311077fbec7799b"
+    },
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_complete": true,
+      "calls_sha256": "75824b15d181e3f9e201a942b24f48691a92ccf67434d2324df0af3f36eb4910",
+      "cell": "01",
+      "index": 2,
+      "marker_sha256": "d96f5acaf4f6d66ce94f5bd16882b91747f040a550c4c563c64c82c0992ebe54",
+      "mask_sha256": "c7e66e60a534488ee05bb52b0e4e84b67210711c032d5ec1cb68bc85fc8c53d9",
+      "native_loss_gradient": false,
+      "native_numerical_passed": null,
+      "pid": 82863,
+      "research_admitted": false,
+      "scopes_sha256": "50117dfe1c24dc8d583671386610b985fc8b35f746f0b995385c5ab1aa657007",
+      "worker_sha256": "a3b46f3f05e5f02d75d9471674fe6b2335752333caafa92cf0d3ab62e5578352"
+    },
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_complete": true,
+      "calls_sha256": "ce1dc7e476762b6a72ad48c0b4f1d3fe346bf6d76e1f40fb8a1eea45f1101fa0",
+      "cell": "10",
+      "index": 3,
+      "marker_sha256": "045ba0b01477249f8b2e282e032b878b95312e5e04d2407564c42e3a1b34cb46",
+      "mask_sha256": "c7e66e60a534488ee05bb52b0e4e84b67210711c032d5ec1cb68bc85fc8c53d9",
+      "native_loss_gradient": false,
+      "native_numerical_passed": null,
+      "pid": 82866,
+      "research_admitted": false,
+      "scopes_sha256": "c1d4be0146dc30050c2fbe2fb61e956b301936074fd468d042947e40d9591ec1",
+      "worker_sha256": "f2c436d7623be323bed581f1ecaf32cd5dc12c64bc03a48295f067344edb8e14"
+    },
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_complete": true,
+      "calls_sha256": "0f5aadd98e34b9dbdc4971bac3c4f9bd793060f5ff5219cbab29dc1732b2d93a",
+      "cell": "00",
+      "index": 0,
+      "marker_sha256": "b17df353c9df57def376186aaba736f3f9e9887c853e0b5a9f9efd7f9062556e",
+      "mask_sha256": "c7e66e60a534488ee05bb52b0e4e84b67210711c032d5ec1cb68bc85fc8c53d9",
+      "native_loss_gradient": true,
+      "native_numerical_passed": true,
+      "pid": 82899,
+      "research_admitted": false,
+      "scopes_sha256": "a6da1054c8f5e47802df4d5a09377a8bb4b66dae4f4b5a31eeb78cb02a475e89",
+      "worker_sha256": "2a4d36c5e29120a1a17f4d1768fda9c09c3624e90c765d1b77cb798994cabb26"
+    },
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_complete": true,
+      "calls_sha256": "97fbfbaeaa06006c07941c7fc69db0431d6ca848553ccb5d7782372451171559",
+      "cell": "11",
+      "index": 1,
+      "marker_sha256": "73a19a45831dd51a86a8d0e44758636dcd63ab8eb1cae2ee27068e54196ac0b3",
+      "mask_sha256": "c7e66e60a534488ee05bb52b0e4e84b67210711c032d5ec1cb68bc85fc8c53d9",
+      "native_loss_gradient": true,
+      "native_numerical_passed": true,
+      "pid": 82915,
+      "research_admitted": false,
+      "scopes_sha256": "c2c122157513484648a7aa37965772fe2b2218f5f9c0755bc9f357f33bded0a3",
+      "worker_sha256": "259f217571c6b42eae3c1ee454d6941838daee0d53ead7c2ea995799da5f3083"
+    },
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_complete": true,
+      "calls_sha256": "b63eaa66e95fc95f97b020c90e2e9e4baf160e6d81b12b8e4a2fe53aa45b4921",
+      "cell": "01",
+      "index": 2,
+      "marker_sha256": "490ea7d02043ff4921400b7a7cce8c1a31a92b47bff255c9c7bca02ae38a1379",
+      "mask_sha256": "c7e66e60a534488ee05bb52b0e4e84b67210711c032d5ec1cb68bc85fc8c53d9",
+      "native_loss_gradient": false,
+      "native_numerical_passed": null,
+      "pid": 82919,
+      "research_admitted": false,
+      "scopes_sha256": "224eebbd244ccde098a7ff6b1974d24e69bdf7148e0803339fd52e4616ba1119",
+      "worker_sha256": "b62364f1380e9b611515dcb7f3a30d5b0cfbe963c277c0c64d2c737c894d6492"
+    },
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_complete": true,
+      "calls_sha256": "57c59f3827dac26656ec6be7e416a74682dcfb07416775d4ba0044ef2b7f2d83",
+      "cell": "10",
+      "index": 3,
+      "marker_sha256": "676d5b41fba369902f821ee230ad94e85b82c88b6ebc35035f682b268864c0ed",
+      "mask_sha256": "c7e66e60a534488ee05bb52b0e4e84b67210711c032d5ec1cb68bc85fc8c53d9",
+      "native_loss_gradient": false,
+      "native_numerical_passed": null,
+      "pid": 82922,
+      "research_admitted": false,
+      "scopes_sha256": "b24c8a38c1cf0335070985f1d55c3caadacd31cf7f87601efb6e404aa308abea",
+      "worker_sha256": "48b74f4f1f48cbb93c4b588132e57c0ec271283a46aea4c796643aa7bdb207d9"
+    }
+  ],
+  "fresh_positive_CPU_PIDs": [
+    82834,
+    82858,
+    82863,
+    82866,
+    82899,
+    82915,
+    82919,
+    82922
+  ],
+  "helper_shell_syntax_scaffold_YAML_and_diff_checks_passed": true,
+  "kind": "predictor-common-cotangent-handoff-preparation-review-v1",
+  "local_zero_edit_cells_are_not_target_eleven_entry_qualification": true,
+  "native_refusal_injection_captures_preserved": 2,
+  "native_rejection_not_promoted_to_passing_scientific_status": true,
+  "new_marker_reader_preserves_limits_and_frozen_reader_unchanged": true,
+  "new_remote_or_university_or_paid_work_during_preparation": false,
+  "new_target_approval_requested_at_report_creation": false,
+  "next_step": "After independent review, request one new exact scoped four-cell university approval and fresh linux10603 status. Do not claim/run before approval; preserve the consumed old grants.",
+  "nontrivial_new_observer_toy_cross_backward_unit_check_passed": true,
+  "old_native_loaders_reject_controlled_cells": true,
+  "original_packet_bytes": 17192095,
+  "original_packet_members": 99,
+  "overlay_bytes": 298508,
+  "overlay_files": 21,
+  "passed": true,
+  "primary_backward_errors_preserved": 2,
+  "prior_sealed_inputs_reverified": 10681,
+  "raw_review": {
+    "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/independent-review/review.json",
+    "sha256": "a8982f85397a6261639a515d3b4d4f2b52f78580a715a5025ca80e118a3d5975"
+  },
+  "review_source": {
+    "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/independent-review/review.py",
+    "sha256": "b1cc8ea6fe3ad528aa348cb40f58d5eea86576ae350c1b2d2ab6e58dc4de80f1"
+  },
+  "same_SSH_simulations": [
+    {
+      "attribution_complete": true,
+      "candidate_native_numerical_passed": true,
+      "error": null,
+      "files_verified": 69,
+      "tasks": 4
+    },
+    {
+      "attribution_complete": false,
+      "candidate_native_numerical_passed": false,
+      "error": "Controlled worker failed; no retry or next cell.",
+      "files_verified": 59,
+      "tasks": 2
+    },
+    {
+      "attribution_complete": false,
+      "candidate_native_numerical_passed": false,
+      "error": "prior-native-control-tamper-test",
+      "files_verified": 49,
+      "tasks": 2
+    },
+    {
+      "attribution_complete": true,
+      "candidate_native_numerical_passed": false,
+      "error": null,
+      "files_verified": 70,
+      "tasks": 4
+    }
+  ],
+  "saved_review_model_autograd_SDPA_CUDA_process_network_blocked": true,
+  "sealed_inputs": 11793,
+  "sealed_manifest": {
+    "files": 11793,
+    "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/independent-review/sealed-inputs.json",
+    "sha256": "9832b8e444ad6706f5036add7fb10974d34e73fe8f08cdc9d63c8a748cf8aa59"
+  },
+  "simulated_GPU_proof_and_authorizations_are_not_live_evidence_or_grants": true,
+  "source_sha256": {
+    "configs/predictor_attention_eot8_proposal_v1.json": "9a44e4b57a3ac36e0a5fb5092a089a6971da1ad0425714b06ae98793e4c7660d",
+    "configs/predictor_common_cotangent_target_v1.json": "316d7c6478b521c2dc333c7c9b6ea3facd97704548ee8767cf8631bbbb573340",
+    "configs/predictor_common_cotangent_v1.json": "9a35e31d1e720db7dfc927562f00886cada163111d73f7eef51031968cbbbd9f",
+    "models/cpu_oracle_control_prerequisite.py": "c6d4927e89d23abbd4ad019ab4d9c0209f0995d75050f1246092aa4a23b8ef63",
+    "models/cpu_oracle_control_v1.py": "06e5731e48ee079acdecf5ad992eef3930c8ba2e66f44f0d9c748c31fdb5baf7",
+    "models/cpu_oracle_scratch.py": "12992c272b21902297746d7781685dc951d0a310ace1dc73cbb99b8d52f6bbe6",
+    "models/oracle_boundary_operator_v1.py": "dde0d903986a5e83d02d9e7cb5fe4b6869d02f3731c8d4f30dd749a20f742b73",
+    "models/predictor_common_cotangent_client_v1.py": "0dc0f12f58107bb3de9fa1329cdc5a44ceb6ceb081a0b96bb34947ca7a376b05",
+    "models/predictor_common_cotangent_contract_v1.py": "d878a877c9ca1dfd5de00d92de36e16cc49968bf58788be7d346e41e60ca031a",
+    "models/predictor_common_cotangent_observer_v1.py": "f9baf283339ea3dac60c9419cea45b4d822827b051cdb73a73fca988e75a9391",
+    "models/predictor_common_cotangent_operator_v1.py": "676804931c5aa70d3dbb2028565ace3a131213effa8b4bc42d9598d9f4038baa",
+    "models/predictor_common_cotangent_record_v1.py": "30e07f105cf9ad8e728b4e2f3ceaf830b8e1bc700169ecd950456645fa7ab5a2",
+    "models/predictor_common_cotangent_worker_v1.py": "574edba729be06beb2c095060380116b23701669577a77d36e7f35b60c34604a",
+    "models/predictor_cotangent_attribution_v1.py": "be1eb221ac5c6dd49b71bc873dd4433d05fd01f1935b124a84f0207667b8c448",
+    "models/predictor_eot8_adapter_v1.py": "89b7e0c67e88f2f776bb0bb6ad786a2202115e64ffc6c6f9a962381cc2e9a6b8",
+    "models/predictor_eot8_capture_v1.py": "fcf582f0152f9ad1d93d1bf038895ba6c6c84d75a4fdfc02d5d4b2ea96e0d3e4",
+    "models/predictor_eot8_owned_receipt_v1.py": "55005fd96e994c660e693e0347a337d01826eaf5224ecf6f38329a8905538531",
+    "models/predictor_eot8_owned_v1.py": "ef3675e69ef56b0b4ef4f543cab96b7f2bc757a64202d74500f3802ccd5dfc12",
+    "models/predictor_eot8_record_v2.py": "c75455b9a08f1b25bbb7269d4ae3c1fa34826656ba1800c0a45fdf9433765dd9",
+    "models/scratch_allocation_v2.py": "6b0503b8ab2c88a44a4d95c8fafbad52d1c0414293379406520a22f67700e874",
+    "scripts/capture_predictor_common_cotangent_v1.py": "cd6ef7c66307bb846adeb42ee6bcaf3520e18132d799ff91dc3224e5ce3dbc3c",
+    "scripts/prepare_predictor_common_cotangent_v1.py": "b2773a39c7abdc6e8365c6e968bb1f5a4332a5caad626fd684e7549cb0ce0bea",
+    "scripts/run_predictor_common_cotangent_v1.py": "16ab016f89d710da67a61df2180e4983c835f4589688fe304762fec03a423d3c",
+    "tests/test_predictor_common_cotangent_operations_v1.py": "1251cd8db9abf48c93b06851fb64973e4c704f4cc59b905a20a9c2f18de70566",
+    "tests/test_predictor_common_cotangent_v1.py": "bf46f2829e204a68d1b8208724c72c64b908c79c05ed388fd9ef76234953d31d"
+  },
+  "sparse_value_bytes": 12314,
+  "stdin_bootstrap_bytes": 890104,
+  "test_history_not_summed": {
+    "first": {
+      "failures": 1,
+      "fixture_errors": 24,
+      "passed": 28,
+      "tests": 53
+    },
+    "second": {
+      "passed": 68
+    }
+  }
+}

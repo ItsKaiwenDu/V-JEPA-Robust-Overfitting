@@ -1,0 +1,482 @@
+{
+  "GPU_samples_by_worker": [
+    {
+      "count": 7,
+      "only_observed_compute_PID": 1519020
+    },
+    {
+      "count": 6,
+      "only_observed_compute_PID": 1520984
+    },
+    {
+      "count": 6,
+      "only_observed_compute_PID": 1522585
+    },
+    {
+      "count": 6,
+      "only_observed_compute_PID": 1524383
+    }
+  ],
+  "actual_target_four_cells_exist": true,
+  "all_four_forward_loss_and_clean_targets_exact": true,
+  "all_input_gradient_elements_per_cell": 3145728,
+  "all_native_GraphTasks_complete_with_hooks_removed": true,
+  "all_same_masks_targets_weights_pixels_seeds_runtime_and_source_bindings_verified": true,
+  "allocation_observations": 1926,
+  "approved_overlays_verified": 21,
+  "approved_packet_members_verified": 99,
+  "attribution_complete": true,
+  "authorization_sha256": "aec5d2309acbcc728cf6bff37178d72690d916b44143a720156810677f94be39",
+  "both_native_diagonal_loss_and_input_returns_exactly_reproduce_own_anchors": true,
+  "candidate_actual_CUDA_kernels_qualified": false,
+  "candidate_comparisons_vs_historical_and_fresh_original": [
+    {
+      "atol": 2e-06,
+      "elements": 1,
+      "exact": true,
+      "kind": "loss",
+      "max_absolute_error": 0.0,
+      "max_normalized_error": 0.0,
+      "passed": true,
+      "rtol": 1e-05,
+      "violations": 0
+    },
+    {
+      "atol": 2e-07,
+      "elements": 3145728,
+      "exact": false,
+      "kind": "input",
+      "max_absolute_error": 1.4960765838623047e-05,
+      "max_normalized_error": 8.641704438152846,
+      "passed": false,
+      "rtol": 0.002,
+      "violations": 3724
+    }
+  ],
+  "candidate_native_numerical_passed": false,
+  "candidate_remains_rejected": true,
+  "collection_complete": true,
+  "collection_files": 186,
+  "collection_hash_size_mode_exact_mtime_and_member_hashes_verified": true,
+  "consumed_attempt_sha256": "9066c0afb97cb9e92f02e047806124aab73fff36cc9cdb46b4c31e28d167e94c",
+  "consumed_claim_reset": false,
+  "continuous_exclusivity_proved": false,
+  "control_sha256": "d02e3a9ef8fb6e5426b504b5710066c9755960dcdabee839d81eaf3ff28c5821",
+  "date": "2026-11-06",
+  "decomposition": {
+    "all_original_failure_locations_retained": {
+      "bytes": 171445,
+      "count": 3724,
+      "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/independent-target-review/original-failure-locations.npz",
+      "sha256": "25d29130b6ebf7a04d7c85205b5a9c5b45f86248ef06fcc3c57e46f3ffd18645"
+    },
+    "descriptive_original_bound_comparisons_not_cross_cell_admission": {
+      "00": {
+        "atol": 2e-07,
+        "elements": 3145728,
+        "exact": true,
+        "kind": "input",
+        "max_absolute_error": 0.0,
+        "max_normalized_error": 0.0,
+        "passed": true,
+        "rtol": 0.002,
+        "violations": 0
+      },
+      "01": {
+        "atol": 2e-07,
+        "elements": 3145728,
+        "exact": false,
+        "kind": "input",
+        "max_absolute_error": 1.65402889251709e-05,
+        "max_normalized_error": 8.633177595303662,
+        "passed": false,
+        "rtol": 0.002,
+        "violations": 3739
+      },
+      "10": {
+        "atol": 2e-07,
+        "elements": 3145728,
+        "exact": false,
+        "kind": "input",
+        "max_absolute_error": 5.960464477539062e-07,
+        "max_normalized_error": 0.8787591294953627,
+        "passed": true,
+        "rtol": 0.002,
+        "violations": 0
+      },
+      "11": {
+        "atol": 2e-07,
+        "elements": 3145728,
+        "exact": false,
+        "kind": "input",
+        "max_absolute_error": 1.4960765838623047e-05,
+        "max_normalized_error": 8.641704438152846,
+        "passed": false,
+        "rtol": 0.002,
+        "violations": 3724
+      }
+    },
+    "interaction_two_forms_exact": true,
+    "interpretation": "Signed projections are ordered finite-difference components, not a unique causal percentage. Term norms do not add; internal forward rounding remains part of each path Jacobian. Cross cells are controlled VJPs, not native-loss qualification. One capture per cross cell does not establish fresh-process replay.",
+    "ordered_sums": {
+      "cotangent_then_path": {
+        "all_signed_projection_sum": 1.0000000000000022,
+        "failure_signed_projection_sum": 0.9999999999999999,
+        "max_reconstruction_absolute_error": 0.0,
+        "reconstruction_L2_error": 0.0,
+        "terms": [
+          "cotangent_on_original_path",
+          "path_at_candidate_cotangent"
+        ]
+      },
+      "path_then_cotangent": {
+        "all_signed_projection_sum": 1.000000000000002,
+        "failure_signed_projection_sum": 1.0,
+        "max_reconstruction_absolute_error": 0.0,
+        "reconstruction_L2_error": 0.0,
+        "terms": [
+          "path_at_original_cotangent",
+          "cotangent_on_candidate_path"
+        ]
+      }
+    },
+    "terms": {
+      "cotangent_on_candidate_path": {
+        "all": {
+          "L2": 0.0002202106795086468,
+          "L2_over_total_difference_L2": 1.0242599905061658,
+          "cosine_with_total_difference": 0.9988730693381926,
+          "elements": 3145728,
+          "max_absolute": 1.5467405319213867e-05,
+          "nonzero": 2223174,
+          "signed_projection_fraction_of_total_difference": 1.023105720517202
+        },
+        "original_failure_locations": {
+          "L2": 4.120635743941871e-05,
+          "L2_over_total_difference_L2": 1.0071042571422755,
+          "cosine_with_total_difference": 0.9997815330861611,
+          "elements": 3724,
+          "max_absolute": 3.580935299396515e-06,
+          "nonzero": 3724,
+          "signed_projection_fraction_of_total_difference": 1.0068842381833034
+        }
+      },
+      "cotangent_on_original_path": {
+        "all": {
+          "L2": 0.00022679040428256233,
+          "L2_over_total_difference_L2": 1.0548640867720749,
+          "cosine_with_total_difference": 0.9977961190593638,
+          "elements": 3145728,
+          "max_absolute": 1.65402889251709e-05,
+          "nonzero": 2223186,
+          "signed_projection_fraction_of_total_difference": 1.0525392919162766
+        },
+        "original_failure_locations": {
+          "L2": 4.114394123165265e-05,
+          "L2_over_total_difference_L2": 1.0055787733950576,
+          "cosine_with_total_difference": 0.9997721463515769,
+          "elements": 3724,
+          "max_absolute": 3.593042492866516e-06,
+          "nonzero": 3724,
+          "signed_projection_fraction_of_total_difference": 1.0053496486027627
+        }
+      },
+      "interaction": {
+        "all": {
+          "L2": 1.0986456468708036e-05,
+          "L2_over_total_difference_L2": 0.05110100846809038,
+          "cosine_with_total_difference": -0.5759880730622758,
+          "elements": 3145728,
+          "max_absolute": 1.1324882507324219e-06,
+          "nonzero": 2191799,
+          "signed_projection_fraction_of_total_difference": -0.02943357139907442
+        },
+        "original_failure_locations": {
+          "L2": 2.9513301145291115e-07,
+          "L2_over_total_difference_L2": 0.007213200358571653,
+          "cosine_with_total_difference": 0.2127473942571304,
+          "elements": 3724,
+          "max_absolute": 4.351022653281689e-08,
+          "nonzero": 3717,
+          "signed_projection_fraction_of_total_difference": 0.0015345895805407178
+        }
+      },
+      "path_at_candidate_cotangent": {
+        "all": {
+          "L2": 1.8816240274145927e-05,
+          "L2_over_total_difference_L2": 0.08751947057046194,
+          "cosine_with_total_difference": -0.6003154677903929,
+          "elements": 3145728,
+          "max_absolute": 1.6391277313232422e-06,
+          "nonzero": 2635064,
+          "signed_projection_fraction_of_total_difference": -0.05253929191627439
+        },
+        "original_failure_locations": {
+          "L2": 9.051269248391449e-07,
+          "L2_over_total_difference_L2": 0.022121760716165315,
+          "cosine_with_total_difference": -0.24182743278899752,
+          "elements": 3724,
+          "max_absolute": 2.2354652173817158e-07,
+          "nonzero": 3719,
+          "signed_projection_fraction_of_total_difference": -0.005349648602762752
+        }
+      },
+      "path_at_original_cotangent": {
+        "all": {
+          "L2": 1.1572013877303026e-05,
+          "L2_over_total_difference_L2": 0.05382459583954104,
+          "cosine_with_total_difference": -0.42927810523801196,
+          "elements": 3145728,
+          "max_absolute": 5.960464477539062e-07,
+          "nonzero": 2633581,
+          "signed_projection_fraction_of_total_difference": -0.02310572051719996
+        },
+        "original_failure_locations": {
+          "L2": 9.061769534281976e-07,
+          "L2_over_total_difference_L2": 0.022147423946983782,
+          "cosine_with_total_difference": -0.3108369713688992,
+          "elements": 3724,
+          "max_absolute": 1.800362952053547e-07,
+          "nonzero": 3720,
+          "signed_projection_fraction_of_total_difference": -0.00688423818330347
+        }
+      }
+    },
+    "total_difference": {
+      "all": {
+        "L2": 0.00021499490515081404,
+        "L2_over_total_difference_L2": 1.0,
+        "cosine_with_total_difference": 1.0,
+        "elements": 3145728,
+        "max_absolute": 1.4960765838623047e-05,
+        "nonzero": 2650088,
+        "signed_projection_fraction_of_total_difference": 1.0
+      },
+      "original_failure_locations": {
+        "L2": 4.091568191395046e-05,
+        "L2_over_total_difference_L2": 1.0,
+        "cosine_with_total_difference": 0.9999999999999999,
+        "elements": 3724,
+        "max_absolute": 3.4892000257968903e-06,
+        "nonzero": 3724,
+        "signed_projection_fraction_of_total_difference": 0.9999999999999999
+      }
+    }
+  },
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "fresh_process_cross_cell_replay_qualified": false,
+  "full_actual_target_input_gradients": 4,
+  "full_five_phase_qualified": false,
+  "isolated_backward_arithmetic_cause_proved": false,
+  "kind": "predictor-common-cotangent-v1-target-saved-review",
+  "local_claim_to_last_response_write_seconds": 204.9973497390747,
+  "model_autograd_SDPA_CUDA_process_network_denied_during_review": true,
+  "native_call_rows_by_worker": [
+    1152,
+    1152,
+    1152,
+    1152
+  ],
+  "new_SSH_upload_or_GPU_work_during_review": false,
+  "new_tests_rerun": false,
+  "next_step": "Offline design of the smallest same-internal-input and same-cotangent comparison, using both measured decomposition orders and the interaction. No candidate adoption, new launch, retry or reused grant.",
+  "numerical_tolerances_changed": false,
+  "observed_boundaries": [
+    {
+      "actual_pairs": 16,
+      "actual_replaced_entries": 0,
+      "cell": "00",
+      "native_loss_gradient": true,
+      "native_numerical_passed": true,
+      "pairs_with_replaced_entries": 0,
+      "sparse_coordinates_checked": 11,
+      "whole_prediction_received_applied_hashes_verified": true
+    },
+    {
+      "actual_pairs": 16,
+      "actual_replaced_entries": 0,
+      "cell": "11",
+      "native_loss_gradient": true,
+      "native_numerical_passed": false,
+      "pairs_with_replaced_entries": 0,
+      "sparse_coordinates_checked": 11,
+      "whole_prediction_received_applied_hashes_verified": true
+    },
+    {
+      "actual_pairs": 16,
+      "actual_replaced_entries": 11,
+      "cell": "01",
+      "native_loss_gradient": false,
+      "native_numerical_passed": null,
+      "pairs_with_replaced_entries": 9,
+      "sparse_coordinates_checked": 11,
+      "whole_prediction_received_applied_hashes_verified": true
+    },
+    {
+      "actual_pairs": 16,
+      "actual_replaced_entries": 11,
+      "cell": "10",
+      "native_loss_gradient": false,
+      "native_numerical_passed": null,
+      "pairs_with_replaced_entries": 9,
+      "sparse_coordinates_checked": 11,
+      "whole_prediction_received_applied_hashes_verified": true
+    }
+  ],
+  "old_native_loader_refused_every_controlled_cell": true,
+  "ordered_decomposition": {
+    "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/independent-target-review/decomposition.json",
+    "sha256": "833aad2532d486942b81beefcef180f5832e2b07309799ee077571587e8e6ec6"
+  },
+  "original_comparisons_vs_historical": [
+    {
+      "atol": 2e-06,
+      "elements": 1,
+      "exact": true,
+      "kind": "loss",
+      "max_absolute_error": 0.0,
+      "max_normalized_error": 0.0,
+      "passed": true,
+      "rtol": 1e-05,
+      "violations": 0
+    },
+    {
+      "atol": 2e-07,
+      "elements": 3145728,
+      "exact": true,
+      "kind": "input",
+      "max_absolute_error": 0.0,
+      "max_normalized_error": 0.0,
+      "passed": true,
+      "rtol": 0.002,
+      "violations": 0
+    }
+  ],
+  "original_native_loss": 0.5617199540138245,
+  "paid_compute": false,
+  "performance_qualified": false,
+  "previous_tests_not_rerun": {
+    "errors": 0,
+    "failures": 0,
+    "preparation_unique": 68,
+    "skips": 0
+  },
+  "prior_sealed_inputs_reverified": 11793,
+  "proof_bytes": 2684354560,
+  "proof_seconds": 9.811373038683087,
+  "raw_review": {
+    "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/independent-target-review/review.json",
+    "sha256": "228713c4b173660d3ec34aea89bcd4e39a4caf8826f9f987a95e643d4bb43460"
+  },
+  "research_admitted": false,
+  "resource_time_storage_or_foreign_process_refusal_recorded": false,
+  "response": {
+    "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/linux10603-final/attended-q8txgu3g/response.bin",
+    "sha256": "cff548bf4a4d570b9e07a336e751908b7315faf1c760cedc33d404fedd9e4de0"
+  },
+  "response_bytes": 195062662,
+  "review_source": {
+    "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/independent-target-review/review.py",
+    "sha256": "85c01d8a32ec23dc229d1440977f083d6bfba0ced1bc13917c99d30b96546825"
+  },
+  "saved_review_passed": true,
+  "saved_worker_receipts_reverified": [
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_complete": true,
+      "calls_sha256": "2abbdceeb5e73cd21a94450338025b1fa1f88cb862e2e3f9b3d374fe6047a29d",
+      "cell": "00",
+      "index": 0,
+      "marker_sha256": "4ca1f654fbb3016a0ccbceee62cf5baf21c0a059b044a3c5c483088a1399d8ac",
+      "mask_sha256": "9e4903ac669501297341942317ae82a26a27de993c6aea99d4d5f2526dc603b1",
+      "native_loss_gradient": true,
+      "native_numerical_passed": true,
+      "pid": 1519020,
+      "research_admitted": false,
+      "scopes_sha256": "bed35a74b3b89c478cddb31a15b935ed5c9f346e67a2b58ae13b5324d4a3b71b",
+      "worker_sha256": "1382b8b1c71ca9763f6d054ac60ffea2f35acdc91e1d9447089079815cfab4cd"
+    },
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_complete": true,
+      "calls_sha256": "35f72b05a50305efd9a47a7ca2a5f530996aec69edebfb145edd72b83977f2e4",
+      "cell": "11",
+      "index": 1,
+      "marker_sha256": "48e74c21c8f870572bb3896938521a1a66689edc8095afd0f0661daa6337788d",
+      "mask_sha256": "9e4903ac669501297341942317ae82a26a27de993c6aea99d4d5f2526dc603b1",
+      "native_loss_gradient": true,
+      "native_numerical_passed": false,
+      "pid": 1520984,
+      "research_admitted": false,
+      "scopes_sha256": "5ddff88fc67b3172339ab30ecb3322b3b9dcfc6786f0917de7685cb7c05dc111",
+      "worker_sha256": "688f28d7fc611fa54439f16d5e7c0168d8b23355234e92d85abdbce1d8a90f89"
+    },
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_complete": true,
+      "calls_sha256": "b5a6bf972e37e601377154766b1cced7c6f1c5eacd6126212d4eb4d28ea0cd27",
+      "cell": "01",
+      "index": 2,
+      "marker_sha256": "abc04d7f0388050456980f968bb094b7d7db77cc7693fd6b837f6fb6bbf804e6",
+      "mask_sha256": "9e4903ac669501297341942317ae82a26a27de993c6aea99d4d5f2526dc603b1",
+      "native_loss_gradient": false,
+      "native_numerical_passed": null,
+      "pid": 1522585,
+      "research_admitted": false,
+      "scopes_sha256": "6349de94987e60c3e9c4e7600a598c4e066f5f6f65613da4377077c83621fec2",
+      "worker_sha256": "b71462af438f12bd38f9e6c48a0daf0a59199e823f2d050ccc72320a5ce7a4e9"
+    },
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_complete": true,
+      "calls_sha256": "f41bfaffd18c5f3d3fdd88e6202e0ff0bf27f9a1eb7f2e77b81eadfd5243f740",
+      "cell": "10",
+      "index": 3,
+      "marker_sha256": "ba4d2cf8d380740217d19faae4d6bd5590ba9605284c63168305e6941e285e68",
+      "mask_sha256": "9e4903ac669501297341942317ae82a26a27de993c6aea99d4d5f2526dc603b1",
+      "native_loss_gradient": false,
+      "native_numerical_passed": null,
+      "pid": 1524383,
+      "research_admitted": false,
+      "scopes_sha256": "9c8306196fbdb70b8c99740d2e6ab6f40485cc7c753915a007d86535384593d6",
+      "worker_sha256": "84aa5a831118cc60a91150f673a4336e1b307742618f4260d15e88b01088f028"
+    }
+  ],
+  "scientific_passed": false,
+  "scratch_directory": "/var/tmp/vjepa-common-cotangent-v1-20261106-ffb7owdr",
+  "sealed_inputs": 11998,
+  "sealed_manifest": {
+    "files": 11998,
+    "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/independent-target-review/sealed-inputs.json",
+    "sha256": "de0806600bf37392d0b4a9e67d3d2986cd70097b1ffee352515e3154c2ceadbf"
+  },
+  "separate_transport_exit_status_receipt_available": false,
+  "stream_logical_bytes": 194880267,
+  "supervisor_peak_capture_allocated_bytes": 195522560,
+  "value_anchor_members_verified": 5,
+  "whole_work_seconds": 137.3903210409917,
+  "worker_peak_allocator_bytes": [
+    5122851840,
+    5847053312,
+    5126743040,
+    5847053312
+  ],
+  "worker_supervisor_seconds": [
+    31.078027829993516,
+    27.468737192917615,
+    29.327858831733465,
+    28.99864297080785
+  ]
+}

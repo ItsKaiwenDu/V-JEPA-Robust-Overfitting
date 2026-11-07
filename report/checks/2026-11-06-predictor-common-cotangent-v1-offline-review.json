@@ -1,0 +1,86 @@
+{
+  "CPU_prototypes_are_not_target_pretrained_CUDA_qualification": true,
+  "actual_saved_cotangent_changes": 11,
+  "both_ordered_toy_decompositions_exact_and_interaction_retained": true,
+  "both_target_cross_cells_still_absent": true,
+  "candidate_remains_rejected": true,
+  "checks": {
+    "errors": 0,
+    "failures": 0,
+    "skips": 0,
+    "unique": 39
+  },
+  "consumed_claim_unchanged": "701c196c878eea81f6b6810fc0c2bcde5468c257a111d224e6dd6d14e930fa7e",
+  "date": "2026-11-06",
+  "documentation": {
+    "path": "docs/predictor_common_cotangent_v1.md",
+    "sha256": "bd039e5529527ffbd0fe613cadc535c47f34e6255de43a03abcf70e559a15b24"
+  },
+  "earlier_preparation_checks_not_rerun_or_summed": true,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "kind": "predictor-common-cotangent-offline-review-v1",
+  "model_autograd_SDPA_CUDA_process_network_blocked_during_saved_review": true,
+  "native_L1_cotangents_independently_reconstructed": 32,
+  "native_tiny_diagonal_and_before_after_exact_vs_frozen": true,
+  "native_tiny_synthetic_one_entry_cross_exact_vs_direct_VJP": true,
+  "new_SSH_upload_university_work_cleanup_or_paid_compute": false,
+  "new_target_operator_helper_authorization_or_attempt": false,
+  "next_step": "Prepare/test/review a separate bounded controlled-VJP handoff before requesting one new exact scoped university approval. Both hosts may idle.",
+  "nonidentifiability_counterexample_same_diagonals_distinct_crosses_verified": true,
+  "passed": true,
+  "prior_inputs_reverified": 10665,
+  "projected_raw_bytes": 101449744,
+  "proposal": {
+    "path": "configs/predictor_common_cotangent_v1.json",
+    "sha256": "9a35e31d1e720db7dfc927562f00886cada163111d73f7eef51031968cbbbd9f"
+  },
+  "proposed_whole_work_seconds": 2400,
+  "proposed_work_static_seconds": 1980,
+  "quantitative_target_causal_share_identified": false,
+  "raw_review": {
+    "path": "runs/pretrained/diagnostic/predictor-cotangent-attribution-v1-20261106/independent-review/review.json",
+    "sha256": "2e21dbf401536cefa30b06f211d3d33cccfb9d684dae2ebbec5ee1468b11b3aa"
+  },
+  "resource_projection_not_reservation_or_live_peak": true,
+  "review_source": {
+    "path": "runs/pretrained/diagnostic/predictor-cotangent-attribution-v1-20261106/independent-review/review.py",
+    "sha256": "ab6ea709d859d57cf42bea1c527969d52a8039079f15a26a9983db36e0ac2aa2"
+  },
+  "saved_analysis": {
+    "path": "runs/pretrained/diagnostic/predictor-cotangent-attribution-v1-20261106/saved-analysis/analysis.json",
+    "sha256": "1b70ed0e7d41f76f5d3ec20dd653f083d76f3571e125fbafd9b8afbed823d1c1"
+  },
+  "scaffold_YAML_and_diff_checks_passed": true,
+  "sealed_inputs": 10681,
+  "sealed_manifest": {
+    "files": 10681,
+    "path": "runs/pretrained/diagnostic/predictor-cotangent-attribution-v1-20261106/independent-review/sealed-inputs.json",
+    "sha256": "073fb659726ec3b7670e140f059ba686786696a00e1943714d6bf95e0ec74017"
+  },
+  "source_sha256": {
+    "models/predictor_cotangent_attribution_v1.py": "be1eb221ac5c6dd49b71bc873dd4433d05fd01f1935b124a84f0207667b8c448",
+    "scripts/analyze_predictor_cotangents_v1.py": "959b3dc5f4fce48f10e2d0f11bacc7610eec6f5de11c9617a0e88e096a3d920c",
+    "tests/test_predictor_cotangent_attribution_v1.py": "9081507a6d162376395cfe0e3359aed165795a45c805d9e0e7c5bed1e1bd3fcf"
+  },
+  "sparse_values": {
+    "bytes": 12314,
+    "path": "runs/pretrained/diagnostic/predictor-cotangent-attribution-v1-20261106/saved-analysis/sparse-values.json",
+    "sha256": "13e693dadbe527e6d14f2b164a6b97b2036479fdb768a2e93130fa78c056a6d6"
+  },
+  "sparse_values_bytes": 12314,
+  "synthetic_toy_actual_controlled_cells": 4,
+  "toy_cells_exact_vs_explicit_Jacobians": true,
+  "whole_array_patch_comparisons": 64
+}

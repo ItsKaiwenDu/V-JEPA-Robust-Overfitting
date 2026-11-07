@@ -1,5 +1,35 @@
 # V-JEPA Robust Overfitting
 
+**Four-cell target attribution verified (November 6):**
+[All four saved captures and both ordered decompositions verify](report/checks/2026-11-06-common-cotangent-v1-target-review.md).
+The eleven external cotangent changes dominate this sample's difference;
+holding the original cotangent fixed leaves no original-bound violations in
+the controlled comparison. The native candidate remains rejected. Its grant
+is consumed; next is an offline same-input/cotangent plan. No new launch.
+Earlier entries are historical snapshots.
+
+**Four-cell university attempt approved (November 6):**
+[The exact one-attempt authorization is armed and independently verified](report/checks/2026-11-06-common-cotangent-handoff-v1-authorization.md).
+Next run the final attended helper once in a local Mac Terminal and keep the
+Mac awake through collection, up to 50 minutes. No attempt or university work
+has started. Attribution completion preserves the candidate's native rejection.
+Earlier entries are historical snapshots.
+
+**Four-cell controlled-VJP handoff ready, unarmed (November 6):**
+[68 focused checks and independent preparation review pass](report/checks/2026-11-06-common-cotangent-handoff-v1-preparation.md).
+The separate protocol preserves the native candidate's rejection while measuring
+two explicitly controlled cross-gradients. Exact payload, continuing budgets,
+record semantics and same-SSH collection are verified locally. Next is one new
+scoped university approval and fresh host status. No target work has started.
+Earlier entries are historical snapshots.
+
+**Common-cotangent comparison prepared offline (November 6):**
+[39 checks and independent saved-data review pass](report/checks/2026-11-06-predictor-common-cotangent-v1-offline-review.md).
+A 12,314-byte patch reproduces the two saved cotangent sets exactly. The local
+CPU replay prototype preserves the native result and passes an independent
+VJP check. Target causal contributions remain unknown; next prepare a separate
+bounded four-cell handoff. No university work has started. Earlier entries are history.
+
 **Native predictor boundary capture reviewed (November 6):**
 [Both observed arms reproduce their saved values exactly](report/checks/2026-11-06-predictor-boundary-v1-target-review.md).
 The original passes; the candidate still fails the unchanged input-gradient
