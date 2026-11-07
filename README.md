@@ -1,5 +1,27 @@
 # V-JEPA Robust Overfitting
 
+**Native predictor boundary capture reviewed (November 6):**
+[Both observed arms reproduce their saved values exactly](report/checks/2026-11-06-predictor-boundary-v1-target-review.md).
+The original passes; the candidate still fails the unchanged input-gradient
+bound at 3,724 entries. Saved observations reveal eleven changed native L1
+cotangents; their contribution to the final gradient error remains to be
+isolated. Evidence is verified, the attempt is consumed, and both hosts may
+idle. Next is an offline causal-comparison plan. Earlier entries are history.
+
+**Native predictor boundary attempt approved (November 6):**
+[The exact one-attempt authorization is armed and independently verified](report/checks/2026-11-06-predictor-boundary-v1-authorization.md).
+Next run the final attended helper once in a local Mac Terminal and keep the
+Mac awake through collection, up to 30 minutes. No attempt or university work
+has started. A preserved numerical rejection stays rejected. Earlier entries
+are historical snapshots.
+
+**Native predictor boundary handoff ready, unarmed (November 6):**
+[48 checks and independent saved-file review pass](report/checks/2026-11-06-predictor-boundary-v1-preparation.md).
+The new observer preserves actual predictions/cotangents and original numerical
+rejections. Exact value anchors and bounded same-SSH collection are verified.
+Next is one scoped university approval and a fresh linux10603 GPU check; no
+new target attempt has started. Both hosts may idle. Earlier entries are history.
+
 **Predictor gradient attribution prepared offline (November 6):**
 [Whole-tensor analysis, 29 checks and an independent saved review pass](report/checks/2026-11-06-predictor-gradient-attribution-v1-offline-review.md).
 The rejected gradient has 58 sign changes; this does not identify the numerical

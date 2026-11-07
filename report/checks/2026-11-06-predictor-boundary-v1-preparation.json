@@ -1,0 +1,214 @@
+{
+  "actual_positive_CPU_cotangents_independently_checked": 64,
+  "actual_positive_CPU_fresh_PIDs": [
+    74889,
+    74915,
+    74934,
+    74955
+  ],
+  "actual_positive_CPU_returns_exact": 8,
+  "anchor_archive_bytes": 20037087,
+  "anchor_logical_bytes": 25182004,
+  "anchor_members": 5,
+  "checks": {
+    "errors": 0,
+    "failures": 0,
+    "skips": 0,
+    "unique": 48
+  },
+  "cold_bootstrap_scientific_import_guard_checked": true,
+  "continuing_time_typed_partial_and_storage_categories_checked": true,
+  "control_sha256": "7a586af8080447c0215884432d093db4cb1215c91fef04dfe24feefda72a7668",
+  "copied_and_unarmed_and_old_scope_refusal_checked": true,
+  "date": "2026-11-06",
+  "documentation": {
+    "path": "docs/predictor_boundary_v1.md",
+    "sha256": "439d6c844cf3b37a5bb9ea593a1d1ac67bdc17b995910c9bf8b1ee10e1da0dff"
+  },
+  "failed_candidate_value_anchor_not_promoted_to_a_passing_reference": true,
+  "fault_injected_CPU_candidate_cotangents_preserved_and_checked": 32,
+  "final_handoff": "runs/pretrained/diagnostic/predictor-boundary-v1-20261106/linux10603-final",
+  "final_handoff_attempt_present": false,
+  "final_handoff_authorization_present": false,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "fresh_target_status_pending": true,
+  "kind": "predictor-boundary-v1-preparation-review",
+  "local_CPU_results_are_not_target_CUDA_qualification": true,
+  "local_simulation_authorizations_are_fixtures_only": true,
+  "model_autograd_SDPA_CUDA_process_network_blocked_during_saved_review": true,
+  "native_receipts": [
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_only": true,
+      "calls_sha256": "ed989d27d394712ff3e10b85420ce152e0b3fa843ed4f7fbacf066ae2d6e2707",
+      "capture_complete": true,
+      "index": 0,
+      "marker_sha256": "306b2884ba097e758eef8c6de0bee299c826602da736b9b736b3f3ed5115a213",
+      "mask_sha256": "c7e66e60a534488ee05bb52b0e4e84b67210711c032d5ec1cb68bc85fc8c53d9",
+      "numerical_passed": true,
+      "pid": 74889,
+      "research_admitted": false,
+      "scopes_sha256": "ead5267d4516045fac12c0f3a8586edd744929d2e94814620839def52145e4be",
+      "worker_sha256": "265986cdf0a9d4dea6411fbe307736b21a47584cd35b81bccea86d91b902dc8a"
+    },
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_only": true,
+      "calls_sha256": "8e3bd20d36bdf9a5919769a5b316783a898032577fc93c694ec19ef2ac98430b",
+      "capture_complete": true,
+      "index": 1,
+      "marker_sha256": "12b5674c80704e3776d5c714d865a9bb45522ae441fbecde0740dcf9db544079",
+      "mask_sha256": "c7e66e60a534488ee05bb52b0e4e84b67210711c032d5ec1cb68bc85fc8c53d9",
+      "numerical_passed": true,
+      "pid": 74915,
+      "research_admitted": false,
+      "scopes_sha256": "d273c5343d3ef089f37eefdecb0e1ad22072984b1c1fc7b5d9744ef0b301623b",
+      "worker_sha256": "bc4b171feb17a8aa34582891f9122795e5dc3cd9e8b4e61872b383cef0053ed9"
+    },
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_only": true,
+      "calls_sha256": "d881ad9c218540205ad3d52f85f6f51f2b8180e3ff99846c3af7d66f6214330d",
+      "capture_complete": true,
+      "index": 0,
+      "marker_sha256": "e67fbb71bfc216a664d7f62f7f7528de199d855971a47d6f1e347681d495fdfc",
+      "mask_sha256": "c7e66e60a534488ee05bb52b0e4e84b67210711c032d5ec1cb68bc85fc8c53d9",
+      "numerical_passed": true,
+      "pid": 74934,
+      "research_admitted": false,
+      "scopes_sha256": "b61ec49314f82340ad47c993d0ad4bb08fd052118fe4141cf5aa1dcd5cf14113",
+      "worker_sha256": "afe97960f3f7fcd4d429d1e4c10fab3be7937b343056b13a9554b8c446d8ef14"
+    },
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_only": true,
+      "calls_sha256": "741906994cc906676bbcab700aa47afd8ac530f0150cb90d5d05690a4f834cc9",
+      "capture_complete": true,
+      "index": 1,
+      "marker_sha256": "c5db7c0c8197fcf849f4329df724fd365e87aa575ca86ec21923b5c2da10a66a",
+      "mask_sha256": "c7e66e60a534488ee05bb52b0e4e84b67210711c032d5ec1cb68bc85fc8c53d9",
+      "numerical_passed": true,
+      "pid": 74955,
+      "research_admitted": false,
+      "scopes_sha256": "6c389df03e6081e793a6b888262a4277e61723fda09c94ddddd0a19f77eea07b",
+      "worker_sha256": "f815a28c20f9d0e5606e05b8e08b1f3107f71e28b1f84ac450e0e48fb9af82e8"
+    }
+  ],
+  "new_authorization_or_attempt_or_SSH_or_university_work": false,
+  "new_target_approval_requested_at_report_creation": false,
+  "next_step": "After saved preparation report, request one new exact scoped target approval and fresh linux10603 GPU identity/process status. Never arm or claim first.",
+  "old_claims_unchanged": true,
+  "old_packet_bytes": 17192095,
+  "old_packet_members": 99,
+  "one_phase_capture_never_old_five_phase_or_research_qualification": true,
+  "only_four_unchanged_prior_values_and_metadata_in_anchor_archive": true,
+  "original_tensor_operations_and_numerical_bounds_unchanged": true,
+  "overlay_bytes": 252869,
+  "overlay_files": 20,
+  "passed": true,
+  "prior_inputs_reverified": 7526,
+  "raw_review": {
+    "path": "runs/pretrained/diagnostic/predictor-boundary-v1-20261106/independent-review/review.json",
+    "sha256": "c46c2f3fb90be6884f6a562a243860bfdf76e13f1c4c6516062c873bf058a992"
+  },
+  "resource_proposal": {
+    "actual_limits_guards_still_required": true,
+    "allocator_bytes": 7516192768,
+    "capture_bytes": 2415919104,
+    "collection_bytes": 3221225472,
+    "collection_seconds": 600,
+    "metadata_bytes": 67108864,
+    "proof_seconds_included": 60,
+    "raw_bytes": 536870912,
+    "resource_reservation_or_live_peak_demonstrated": false,
+    "review_and_finalize_seconds_reserved": 120,
+    "setup_bytes": 3221225472,
+    "setup_seconds_included": 180,
+    "static_work_sum_seconds": 1140,
+    "tensor_file_bytes": 16777216,
+    "whole_work_seconds": 1200,
+    "worker_seconds": 420,
+    "workers": 2,
+    "write_proof_bytes": 2684354560
+  },
+  "same_SSH_simulations": [
+    {
+      "capture_complete": true,
+      "error": "Worker refused; no retry or next worker.",
+      "files_verified": 111,
+      "passed": false,
+      "tasks": 2
+    },
+    {
+      "capture_complete": true,
+      "error": null,
+      "files_verified": 111,
+      "passed": true,
+      "tasks": 2
+    },
+    {
+      "capture_complete": false,
+      "error": "prior-capture-tamper-test",
+      "files_verified": 69,
+      "passed": false,
+      "tasks": 1
+    }
+  ],
+  "scaffold_YAML_shell_syntax_and_diff_check_passed": true,
+  "sealed_inputs": 10424,
+  "sealed_manifest": {
+    "files": 10424,
+    "path": "runs/pretrained/diagnostic/predictor-boundary-v1-20261106/independent-review/sealed-inputs.json",
+    "sha256": "81e4ec7e7d3f3ce6164af8f76fa46880f2343a47c062189c5041bc46d0c75160"
+  },
+  "source_sha256": {
+    "configs/predictor_attention_eot8_proposal_v1.json": "9a44e4b57a3ac36e0a5fb5092a089a6971da1ad0425714b06ae98793e4c7660d",
+    "configs/predictor_boundary_target_v1.json": "1f0bb164eb0d9b9edb9471a2f2a96e71957d83b080710d9c06c1dec3dcaaf480",
+    "configs/predictor_gradient_attribution_v1.json": "1b49ee726fc9fb97aa9e5a4be1fb1e449b435141fed8dbbe11321d8254e1ca38",
+    "models/cpu_oracle_control_prerequisite.py": "c6d4927e89d23abbd4ad019ab4d9c0209f0995d75050f1246092aa4a23b8ef63",
+    "models/cpu_oracle_control_v1.py": "06e5731e48ee079acdecf5ad992eef3930c8ba2e66f44f0d9c748c31fdb5baf7",
+    "models/cpu_oracle_scratch.py": "12992c272b21902297746d7781685dc951d0a310ace1dc73cbb99b8d52f6bbe6",
+    "models/oracle_boundary_operator_v1.py": "dde0d903986a5e83d02d9e7cb5fe4b6869d02f3731c8d4f30dd749a20f742b73",
+    "models/predictor_boundary_client_v1.py": "e2ca589811406b8de21b7c0be0c1bf6d7b66ebf4649371f4ad03f6ec8fe09467",
+    "models/predictor_boundary_contract_v1.py": "f05cb2ca07aade34a95801bc97a07f9044de0493a2acc016d703749e812810aa",
+    "models/predictor_boundary_observer_v1.py": "4bcaf1b9da47b2045fddcfafdc86a9c430fd6a3b22d33b5510526613f5ac321c",
+    "models/predictor_boundary_operator_v1.py": "20e334581fcabf0b1a2dcf587679291b20f27b370ca8111147111836100a64d8",
+    "models/predictor_boundary_record_v1.py": "c76c6e1564b2fc6d14c47b44f926b7fb2b12bc288e1fe7e1714cd5ca82dd484b",
+    "models/predictor_boundary_worker_v1.py": "1bc1d3e45e7b4094f7bd5bed0983051c11e682cf209af9f9bb7e88cf75afea9c",
+    "models/predictor_eot8_adapter_v1.py": "89b7e0c67e88f2f776bb0bb6ad786a2202115e64ffc6c6f9a962381cc2e9a6b8",
+    "models/predictor_eot8_capture_v1.py": "fcf582f0152f9ad1d93d1bf038895ba6c6c84d75a4fdfc02d5d4b2ea96e0d3e4",
+    "models/predictor_eot8_owned_receipt_v1.py": "55005fd96e994c660e693e0347a337d01826eaf5224ecf6f38329a8905538531",
+    "models/predictor_eot8_owned_v1.py": "ef3675e69ef56b0b4ef4f543cab96b7f2bc757a64202d74500f3802ccd5dfc12",
+    "models/predictor_eot8_record_v2.py": "c75455b9a08f1b25bbb7269d4ae3c1fa34826656ba1800c0a45fdf9433765dd9",
+    "models/scratch_allocation_v2.py": "6b0503b8ab2c88a44a4d95c8fafbad52d1c0414293379406520a22f67700e874",
+    "scripts/capture_predictor_boundary_v1.py": "879c1fd49d4a88f182870af011ff8c3ea0ed291ca7c97bae0aa32cfa93506a29",
+    "scripts/prepare_predictor_boundary_v1.py": "d0111b1fb5415632aee17d4b9a899c552c1ff78314707e0579027520402cad22",
+    "scripts/run_predictor_boundary_v1.py": "e74165eb7af64757f6dea2bf31cc762a9e4c7f715c5caef98e9c773ac7bf9d4c",
+    "tests/test_predictor_boundary_operations_v1.py": "2606f3e1032c48fd1bfd5c521920822f4d25e9124287f75ebb35f679a5b192ea",
+    "tests/test_predictor_boundary_v1.py": "07914649c3cb7de320345a3eabfa278a9efdb15935c1533174a9c5154d1da110"
+  },
+  "stdin_bootstrap_bytes": 735836,
+  "test_history_not_summed": {
+    "first": {
+      "output_parent_setup_errors": 34,
+      "passed": 14
+    },
+    "second": {
+      "passed": 45,
+      "private_umask_simulation_failures": 3
+    }
+  },
+  "two_actual_primary_backward_failures_preserved_with_hooks_removed": true
+}

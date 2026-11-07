@@ -2,6 +2,132 @@
 
 ## Current stage
 
+LATEST Nov06: NATIVE PREDICTOR BOUNDARY CAPTURE VERIFIED; 11 LOSS-COTANGENT CHANGES.
+Read report/checks/2026-11-06-predictor-boundary-v1-target-review.json/md FIRST.
+Saved512530141B response/223files512303338logicalB fully verified: rawmember/
+localhash,size,mode,exactnsmtime,extent;99packet/5anchors/20overlays exact.
+10424preparationpins reverified;10665sealed under rawpredictor-boundary-v1-
+20261106/independent-target-review. Review blocks model/autograd/SDPA/CUDA/
+process/network. No tests rerun; prior48count unchanged. AllcapturedsourcesFROZEN.
+Attributioncapture COMPLETE; diagnostic numerically FAILED/INCOMPLETE. Fresh
+originalPID978427 passes onephase/exactpriorvalues;candidatePID983182 exactly
+reproduces priorfailed loss/input, remainsREJECTED. BothlossEXACT.5617199540138245.
+Input3724/3145728 violations vsunchangedrtol.002/atol2e-7; maxratio8.641704438,
+maxabs1.496076584e-5, identical vshistorical/freshoriginal. Notpassingref.
+Actual16prediction/cotangentpairs EACHarm,32pairs/64observationtensors checked.
+NativeL1 cotangents reconstructed independently NumPy fromsameactualtargets/
+maskindices: ALL exact.22601728features/arm;22326053predictiondifferences,
+maxabs4.610419273e-5.11actualcotangentchanges in9pairs:10oppositenonzero residual
+signs,1originalzero->positive. All11coords retained. Cdiffmax1.201479449e-7.
+External lossboundary changed; doesNOT quantify inputgradientcausalshare or
+isolate purebackward arithmetic vsinternalforward states. J0Tc0/J1Tc1 observed;
+commoncotangentcrosscells absent. Equal scalar loss doesNOTimplyequalc.
+EachnativeGraphTask complete,1152actualcalls=576forward+576backward,36owners;
+allhooksremoved/observer+adapterrestored/modelunchanged/mask+target+weights+
+pixels+seeds+runtime exact,zeroownershiprefusals. Failuremarker binds canonical
+numericalrefusal; passingloaderrefuses. Actualcandidatekernels/fivephase/replay/
+PGDscoring/parameteroptimizer/performancecost/research remainpending, noadoption.
+Work121.019s,full2.5GiBproof9.538s/1926allocationrows beforebotharchives;
+supervisors77.689/29.788s;allocator5122851840/5847053312B<7GiB;captureallocated
+512835584B<2.25GiB,raw/metadata<512/64MiB. GPU16/6samples onlyownPID; notreserve/
+continuous exclusivity. No timeout/OOM/storage/foreignprocessrefusal recorded.
+ACTIVE latest attempt nowCONSUMED701c196c878eea81f6b6810fc0c2bcde5468c257a111d224e6dd6d14e930fa7e.
+NEVER rerun rawpredictor-boundary-v1-20261106/linux10603-final helper, resetAUTH/
+ATTEMPT/clocks, reuseunusedtime or mutatecapturedsource/results. Old09unarmed/
+unselected; bothhostsmayidle. No newgrant/SSH/upload/targetwork/cleanup/paidwork
+duringreview. NEXT offline attribution/minimalcausalcomparison plan using saved
+observations; noadditionalGPUwork until reviewedconcretescope+ONEnewapproval.
+DoNOT askbeforeprep or askalreadyauthorizedscopeagain. Keeporiginalbounds.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+lastwallet6.56/reconciliationfalse unchanged; knownRunpodterminated.
+User commits self; NEVER stage/commit/push. Earlier LATEST entries are history.
+
+LATEST Nov06: NATIVE PREDICTOR BOUNDARY ATTEMPT APPROVED/ARMED, NOT CLAIMED.
+Read report/checks/2026-11-06-predictor-boundary-v1-authorization.json/md and
+docs/predictor_boundary_v1.md FIRST. User approved one bounded observer attempt
+in call_be72bf14811448a1b966a8fa919b7e56/0 and supplied fresh clear03 status in /1:
+expected RTX3070 UUID,8192MiB/94MiB,driver580.178.04,no compute process.
+Approval PERSISTS for EXACT unchanged scope; DO NOT ask again. Pasted status is
+not an agent SSH check/reservation; live guards still apply before/during work.
+ACTIVE ONLY rawpredictor-boundary-v1-20261106/linux10603-final.
+CONTROL7a586af8080447c0215884432d093db4cb1215c91fef04dfe24feefda72a7668;
+AUTH43bcd65023f7f81f1de6977eaa6d086eb9890669f8a8a7d3511a91fa75497a78.
+Separate private AUTH saved; NO ATTEMPT/session/SSH/upload/proof/work clock yet.
+Independent armed review reverified10424sealed inputs/allsource/publichostkey/
+oldconsumedclaims,bothcompletearchives99/5members,20overlays252869B andbootstrap
+735836B. Originalpacket17192095B;anchors20037087B/25182004logicalB. Scientific
+imports/process/network blocked during review; helper shell syntax passes.
+48local preparation checks NOT rerun/summed. Prior captured sources remainFROZEN.
+NEXT user runs final attended LOCAL Mac helper ONCE with caffeinate -i; keep Mac
+awake/lidopen/Terminalopen through collection, passwordpromptly. Helperclaims
+beforeSSH; NEVER rerun/reset AUTH/ATTEMPT after any result. Review saved response/
+alltypedcaptures/scopes/markers/actualmaskbytes before attribution. A complete
+numericalcandidate rejection may return1 and staysrejected, notpassingreference.
+Twofresh serial onephase nativeEOT8 arms,16prediction/cotangentpairs each. Exact
+anchor reproduction required; original numericalbounds remain. Readonlyhooks
+returnNone/removehandles, no surrogate/extrabackward/profile/oracle/attack.
+Actualcandidatekernels/rootcause/fivephase/performance/studyqual remainpending.
+1200swork incl180setup/full2.5GiBproof<=60 +2serial<=420sworkers,120receiptreserve;
+600s/3GiBsameSSHcollection. Setup3GiB/capture2.25GiB/raw512MiB/metadata64MiB/
+input128MiB/code128MiB/cache32MiB/emergency16MiB/allocator7GiB unchanged.
+No retry/oldclaimclockreset/standaloneretrieval/cleanup/fallback/parallelhost/
+privatekeys/heldoutpixels/paidwork. Foreigncompute refuses; leaveprocessesalone.
+Oldclaim4dd65... consumed immutable; old09unselected/unarmed. Sampling NOTreserve.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+lastwallet6.56/reconciliationfalse unchanged; knownRunpodterminated.
+User commits self; NEVER stage/commit/push. Earlier LATEST entries are history.
+
+LATEST Nov06: NATIVE PREDICTOR BOUNDARY HANDOFF VERIFIED, UNARMED.
+Read report/checks/2026-11-06-predictor-boundary-v1-preparation.json/md and
+docs/predictor_boundary_v1.md FIRST. Separate observer/worker/one-phase record/
+operator/client/entry/prepare/run +contract. All prior captured sources FROZEN.
+48distinctchecks PASS,zeroerror/failure/skip;prior29/48/60 suites notrerun/summed.
+First14pass+34missing-local-parent setup errors,then45pass+3simulation umask
+refusals retained;onlysimulation corrected to native077,receiverunchanged.
+4fresh positive tinyCPU workers across2cohorts:8native returns EXACT vsfrozenCPU,
+64actualcotangents independently NumPy-rechecked;32morecotangents in explicit
+failed CPU numerical injections preserved/rejected.2primarybackwarderror paths
+retainloss/16predictions/removedhooks. Local tests notpretrainedCUDA qualification.
+3sameSSH simulations success/numericalrefusal/tamper-stop fully hash/size/mode/
+exactmtime/streamverified. FakeGPU/proof/auth fixtures NOTresourcegrants/capacity.
+Coldbootstrapblocks scientificimports preauth; copied/unarmed/expandedrefuse;
+typedpartialcaps/category/continuingclock/proof-before-both-archives pass.
+Independentreview reverified7526priorpins,sealed10424inputs under rawpredictor-
+boundary-v1-20261106/independent-review;model/autograd/SDPA/CUDA/process/network
+blocked. Exact99memberpacket+5memberanchors verified;oldclaims unchanged.
+ACTIVE ONLY rawpredictor-boundary-v1-20261106/linux10603-final; NOAUTH/ATTEMPT.
+CONTROL7a586af8080447c0215884432d093db4cb1215c91fef04dfe24feefda72a7668.
+Upload proposedunchanged17192095Bpacket +20037087B/five-member valuearchive
+(four unchanged loss/inputgrad returns+readonlymetadata;25182004logicalB),
+20overlays252869B +boundbudgetmetadata,735836Bstdinbootstrap<2MiB.
+Newprivate/var/tmp onlylinux10603. No weights/deps/privatekeys/heldout uploads.
+Two fresh serial one-phase native EOT8 arms,all8draws/2families/16observations.
+Hooks returnNone, no surrogate/extra backward/oracle/profile/timing/attack.
+Original mustexact-replay passing values;candidate mustexact-reproduce failed
+values for attribution ONLY, NEVER passingref. Original numericalgates still
+run unchanged; numericalfailure remainsfailed/serialstop +sameSSHcollection.
+Distinct one-phase kind, externalcalls/scopes+finalmarkers; neveroldfivephase/
+CUDAkernels/performance/studyqual. Parent+entry recheckpreviouspassingreceipt/
+alltypedcaptures/masks beforecandidate. Scopedgraph/hooks/source/weights/targets
+mustverify. Actual mathkernel notproved withoutprofile. Rootcause remainsopen.
+Bounds1200swork incl180setup/full2.5GiBproof<=60 +2serial<=420sworkers,120receipt
+reserve;600s/3GiBsameSSHcollection. Setup3GiB/capture2.25GiB/allocator7GiB/
+raw512MiB/metadata64MiB/input128MiB/code128MiB/cache32MiB/emergency16MiB.
+No retry/reset/standalone retrieval/cleanup/fallback/parallelhost/paidwork.
+Foreigncompute refuses;leavealone. Capacity/time/projections NOTreservation.
+NEXT ask ONE new exact scoped approval and fresh03 hostname/GPUUUID/process
+snapshot. One additional target attempt requires one new explicit scoped approval;
+all previous grants are consumed. Complete preparation is reviewed now; after
+approval persists, DO NOT ask again. Reverifybindings,write separateAUTH,review
+armedstate,then giveLOCALMac helper once. No arming/claim/SSH beforeapproval.
+Old target claim4dd65... consumed immutable;old09unselected/unarmed. Bothmayidle.
+No new SSH/upload/proof/universitywork/cleanup/paidwork/resourcegrant created.
+Historicalrefusals/actualcandidatekernels/replay/PGDscoring/parameteroptimizer/
+performancecost/research staypending. Finance9.8116/.1884/old2hold/.0792gap/
+10diag/160compute/200project/40reserve/lastwallet6.56/reconciliationfalse
+unchanged;known Runpodterminated. Usercommits self,NEVER stage/commit/push.
+Earlier LATEST entries are historical snapshots.
+
 LATEST Nov06: OFFLINE PREDICTOR GRADIENT ANALYSIS + OBSERVER PROPOSAL VERIFIED.
 Read report/checks/2026-11-06-predictor-gradient-attribution-v1-offline-review.json/md
 and docs/predictor_gradient_attribution_v1.md FIRST. New separate CPU/saved-only

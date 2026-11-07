@@ -1,5 +1,99 @@
 # Research Progress Reports
 
+## 2026-11-06 — Native output-boundary capture complete; candidate still rejected
+
+The attended linux10603 attempt saved both native full-EOT8 arms and all sixteen
+actual prediction/cotangent pairs per arm. Both reproduce their own preserved
+loss/input returns exactly. The original passes; the candidate repeats the
+unchanged input-gradient rejection at 3,724 of 3,145,728 elements. Equal scalar
+losses do not remove that failure or qualify the rejected candidate.
+
+Independent NumPy reconstruction verifies all 32 pairs against the native L1
+tail and original mask/target bytes. Eleven incoming cotangent entries differ
+across nine pairs: ten opposite nonzero residual signs and one original-zero
+residual becoming positive. The other prediction differences leave the loss
+sign unchanged. This identifies a changed external loss boundary; it does not
+quantify its contribution to final input-gradient error or isolate internal
+forward-state effects from backward arithmetic. Common-cotangent cross terms
+have not been evaluated.
+
+All 223 files / 512,303,338 logical bytes and the 512,530,141-byte response are
+verified against member/file hashes, sizes, modes, exact nanosecond mtimes and
+stream extent. All 10,424 preparation pins reverify; 10,665 inputs are now sealed.
+Both native GraphTasks, ownership, hooks, model restoration and final markers
+verify. The candidate's failed record cannot load as a passing reference.
+No target model or backward was rerun during saved review; the earlier 48 local
+checks were not rerun. Captured sources/results/claims remain frozen.
+
+Whole work was 121.019 seconds, including the full 2.5 GiB storage proof; both
+workers remain within their time, storage and 7 GiB allocator limits. No
+resource or foreign-process refusal is recorded. Sampling is not exclusivity.
+The attempt is consumed and must never be relaunched or reset. Both university
+hosts may idle. Next prepare an offline causal-comparison plan from the saved
+evidence; no new target work, retries, cleanup or paid compute is authorized.
+Financial caps/holds and pending reconciliation remain unchanged.
+[Independent target review](report/checks/2026-11-06-predictor-boundary-v1-target-review.md).
+
+## 2026-11-06 — Native predictor boundary attempt approved and armed
+
+The user approved the exact single linux10603 observer attempt and supplied a
+fresh GPU snapshot with the expected UUID, 8,192 MiB total / 94 MiB used,
+driver 580.178.04 and no CUDA compute process. A private authorization is saved
+in the final handoff. No attempt has been claimed and no SSH/upload, storage
+proof, work clock or university calculation has begun. Live guards still apply;
+the snapshot is not a GPU reservation.
+
+Independent armed-state review reverified all 10,424 sealed inputs, exact
+source/control/public-key and prior consumed claims, both complete input
+archives, 20 overlays / 252,869 bytes, and the 735,836-byte bootstrap. It checked
+the exact authorization and user approval with scientific imports and
+process/network creation blocked. Helper shell syntax passes. The 48 preparation
+checks were not rerun. Earlier captured sources and claims remain frozen;
+linux10609 stays unselected and unarmed.
+
+Next run the attended helper once from a local Mac Terminal, keep the Mac awake
+and enter the university password promptly. The allowance remains 20 minutes
+of work including the full 2.5 GiB proof and two serial workers of at most
+seven minutes each, followed by at most 10 minutes / 3 GiB same-SSH collection.
+No retries, cleanup, claim resets, parallel host or paid compute are included.
+Actual predictions/cotangents and raw returns must be reviewed independently.
+Original numerical bounds stay unchanged; reproducing the candidate's failure
+is attribution evidence only and cannot qualify a passing worker or research.
+Financial caps/holds and pending reconciliation are unchanged.
+[Authorization review](report/checks/2026-11-06-predictor-boundary-v1-authorization.md).
+
+## 2026-11-06 — Bounded native predictor observer handoff verified
+
+A separate source-bound observer/worker, one-phase record format, supervisor,
+entry and attended client preserve all sixteen actual native prediction and
+cotangent pairs per arm. The original EOT8 objective and original numerical
+bounds remain. Passing baseline values and failed candidate values are separate
+immutable anchors; reproducing a refusal never makes it a passing reference.
+Parent/entry checks, original graph ownership, exact masks/typed values and final
+success/failure markers guard the serial plan. No profiling or extra backward.
+
+48 final checks pass. Four fresh positive tiny CPU workers preserve eight native
+loss/input returns exactly and independently verify64actualcotangents; two forced
+candidate-refusal captures preserve32more. Two primary backward failures preserve
+loss/predictions and removed hooks. Three same-SSH simulations verify successful
+collection, numerical-refusal collection and prior-tamper stopping. Initial
+output-parent errors and simulation-umask refusals remain recorded, not summed.
+Receiver permissions and all scientific bounds are unchanged.
+
+Independent saved review revalidates7,526 prior files and seals10,424 inputs with
+model/autograd/SDPA/CUDA/process/network execution blocked. Exact input/member,
+source/control/public-key and old-claim bindings verify. The unarmed payload is
+17,192,095B original packet +20,037,087B value archive (four unchanged returns and
+metadata),20overlays/252,869B and735,836Bbootstrap. Scaffold/YAML/shell/diff pass.
+
+The reviewed scope stays20minuteswork inclfull2.5GiBproof and2serialworkers<=7min,
+then<=10min/3GiBsameSSHcollection;setup3GiB/capture2.25GiB/raw512MiB/metadata64MiB/
+allocator7GiB. No new AUTH/attempt/SSH/upload/proof/university or paid work exists.
+Next request one exact scoped approval and fresh03status before arming. Both
+hosts may idle. Candidate/replay/backend/performance/research qualification and
+financial reconciliation remain pending, with all caps/holds unchanged.
+[Preparation review](report/checks/2026-11-06-predictor-boundary-v1-preparation.md).
+
 ## 2026-11-06 — Saved-gradient analysis and native observer proposal verified
 
 All 3,145,728 saved input-gradient elements enter the original bound, every

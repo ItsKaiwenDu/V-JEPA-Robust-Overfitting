@@ -1,0 +1,705 @@
+{
+  "GPU_samples_by_worker": [
+    {
+      "count": 16,
+      "only_observed_compute_PID": 978427
+    },
+    {
+      "count": 6,
+      "only_observed_compute_PID": 983182
+    }
+  ],
+  "actual_boundary_changes_are_not_a_quantitative_causal_decomposition": true,
+  "actual_cotangent_tensors": 32,
+  "actual_prediction_cotangent_pairs_independently_Checked": 32,
+  "actual_prediction_tensors": 32,
+  "all_cotangent_change_examples_saved": true,
+  "allocation_observations": 1926,
+  "approved_overlays_verified": 20,
+  "approved_packet_members_verified": 99,
+  "attribution_capture_complete": true,
+  "authorization_sha256": "43bcd65023f7f81f1de6977eaa6d086eb9890669f8a8a7d3511a91fa75497a78",
+  "both_native_GraphTasks_complete_with_hooks_removed": true,
+  "both_observed_arms_exactly_reproduce_their_original_value_anchors": true,
+  "boundary_pairs": [
+    {
+      "cotangent_changed_elements": 1,
+      "cotangent_unit_magnitude": 4.384709484384075e-08,
+      "draw": 0,
+      "elements": 1425408,
+      "examples": [
+        {
+          "candidate_cotangent": -4.384709484384075e-08,
+          "candidate_prediction": -1.5121060609817505,
+          "candidate_residual": -3.4570693969726562e-06,
+          "coordinate": [
+            0,
+            903,
+            605
+          ],
+          "feature": 605,
+          "original_cotangent": 4.384709484384075e-08,
+          "original_prediction": -1.5121002197265625,
+          "original_residual": 2.384185791015625e-06,
+          "target": -1.5121026039123535,
+          "target_token": 1335
+        }
+      ],
+      "family": 0,
+      "max_cotangent_absolute_error": 8.76941896876815e-08,
+      "max_prediction_absolute_error": 2.1219253540039062e-05,
+      "native_L1_cotangents_exact_for_both_arms": true,
+      "opposite_nonzero_residual_signs": 1,
+      "prediction_changed_elements": 1407403,
+      "residual_sign_changed_elements": 1,
+      "shape": [
+        1,
+        1392,
+        1024
+      ],
+      "zero_to_or_from_nonzero_residual_signs": 0
+    },
+    {
+      "cotangent_changed_elements": 1,
+      "cotangent_unit_magnitude": 3.703589612769065e-08,
+      "draw": 0,
+      "elements": 1687552,
+      "examples": [
+        {
+          "candidate_cotangent": 3.703589612769065e-08,
+          "candidate_prediction": 0.11141789704561234,
+          "candidate_residual": 1.564621925354004e-07,
+          "coordinate": [
+            0,
+            1573,
+            873
+          ],
+          "feature": 873,
+          "original_cotangent": -3.703589612769065e-08,
+          "original_prediction": 0.11141766607761383,
+          "original_residual": -7.450580596923828e-08,
+          "target": 0.1114177405834198,
+          "target_token": 1972
+        }
+      ],
+      "family": 1,
+      "max_cotangent_absolute_error": 7.40717922553813e-08,
+      "max_prediction_absolute_error": 2.8133392333984375e-05,
+      "native_L1_cotangents_exact_for_both_arms": true,
+      "opposite_nonzero_residual_signs": 1,
+      "prediction_changed_elements": 1665320,
+      "residual_sign_changed_elements": 1,
+      "shape": [
+        1,
+        1648,
+        1024
+      ],
+      "zero_to_or_from_nonzero_residual_signs": 0
+    },
+    {
+      "cotangent_changed_elements": 2,
+      "cotangent_unit_magnitude": 4.9541522884055667e-08,
+      "draw": 1,
+      "elements": 1261568,
+      "examples": [
+        {
+          "candidate_cotangent": 4.9541522884055667e-08,
+          "candidate_prediction": 0.07943325489759445,
+          "candidate_residual": 5.960464477539063e-08,
+          "coordinate": [
+            0,
+            343,
+            9
+          ],
+          "feature": 9,
+          "original_cotangent": -4.9541522884055667e-08,
+          "original_prediction": 0.07943268865346909,
+          "original_residual": -5.066394805908203e-07,
+          "target": 0.07943319529294968,
+          "target_token": 568
+        },
+        {
+          "candidate_cotangent": 4.9541522884055667e-08,
+          "candidate_prediction": -0.0475735068321228,
+          "candidate_residual": 8.195638656616211e-07,
+          "coordinate": [
+            0,
+            904,
+            1020
+          ],
+          "feature": 1020,
+          "original_cotangent": -4.9541522884055667e-08,
+          "original_prediction": -0.04757492244243622,
+          "original_residual": -5.960464477539062e-07,
+          "target": -0.047574326395988464,
+          "target_token": 1453
+        }
+      ],
+      "family": 0,
+      "max_cotangent_absolute_error": 9.908304576811133e-08,
+      "max_prediction_absolute_error": 3.1948089599609375e-05,
+      "native_L1_cotangents_exact_for_both_arms": true,
+      "opposite_nonzero_residual_signs": 2,
+      "prediction_changed_elements": 1245145,
+      "residual_sign_changed_elements": 2,
+      "shape": [
+        1,
+        1232,
+        1024
+      ],
+      "zero_to_or_from_nonzero_residual_signs": 0
+    },
+    {
+      "cotangent_changed_elements": 2,
+      "cotangent_unit_magnitude": 3.467906495302486e-08,
+      "draw": 1,
+      "elements": 1802240,
+      "examples": [
+        {
+          "candidate_cotangent": 3.467906495302486e-08,
+          "candidate_prediction": -0.23657311499118805,
+          "candidate_residual": 3.4868717193603516e-06,
+          "coordinate": [
+            0,
+            489,
+            12
+          ],
+          "feature": 12,
+          "original_cotangent": -3.467906495302486e-08,
+          "original_prediction": -0.23657770454883575,
+          "original_residual": -1.1026859283447266e-06,
+          "target": -0.2365766018629074,
+          "target_token": 571
+        },
+        {
+          "candidate_cotangent": 3.467906495302486e-08,
+          "candidate_prediction": -0.2537049949169159,
+          "candidate_residual": 2.9802322387695312e-08,
+          "coordinate": [
+            0,
+            944,
+            730
+          ],
+          "feature": 730,
+          "original_cotangent": -3.467906495302486e-08,
+          "original_prediction": -0.25370553135871887,
+          "original_residual": -5.066394805908203e-07,
+          "target": -0.2537050247192383,
+          "target_token": 1100
+        }
+      ],
+      "family": 1,
+      "max_cotangent_absolute_error": 6.935812990604973e-08,
+      "max_prediction_absolute_error": 4.610419273376465e-05,
+      "native_L1_cotangents_exact_for_both_arms": true,
+      "opposite_nonzero_residual_signs": 2,
+      "prediction_changed_elements": 1783129,
+      "residual_sign_changed_elements": 2,
+      "shape": [
+        1,
+        1760,
+        1024
+      ],
+      "zero_to_or_from_nonzero_residual_signs": 0
+    },
+    {
+      "cotangent_changed_elements": 0,
+      "cotangent_unit_magnitude": 5.5285468647525704e-08,
+      "draw": 2,
+      "elements": 1130496,
+      "examples": [],
+      "family": 0,
+      "max_cotangent_absolute_error": 0.0,
+      "max_prediction_absolute_error": 2.7418136596679688e-05,
+      "native_L1_cotangents_exact_for_both_arms": true,
+      "opposite_nonzero_residual_signs": 0,
+      "prediction_changed_elements": 1115067,
+      "residual_sign_changed_elements": 0,
+      "shape": [
+        1,
+        1104,
+        1024
+      ],
+      "zero_to_or_from_nonzero_residual_signs": 0
+    },
+    {
+      "cotangent_changed_elements": 0,
+      "cotangent_unit_magnitude": 3.467906495302486e-08,
+      "draw": 2,
+      "elements": 1802240,
+      "examples": [],
+      "family": 1,
+      "max_cotangent_absolute_error": 0.0,
+      "max_prediction_absolute_error": 2.968311309814453e-05,
+      "native_L1_cotangents_exact_for_both_arms": true,
+      "opposite_nonzero_residual_signs": 0,
+      "prediction_changed_elements": 1783113,
+      "residual_sign_changed_elements": 0,
+      "shape": [
+        1,
+        1760,
+        1024
+      ],
+      "zero_to_or_from_nonzero_residual_signs": 0
+    },
+    {
+      "cotangent_changed_elements": 0,
+      "cotangent_unit_magnitude": 5.225612653703138e-08,
+      "draw": 3,
+      "elements": 1196032,
+      "examples": [],
+      "family": 0,
+      "max_cotangent_absolute_error": 0.0,
+      "max_prediction_absolute_error": 2.181529998779297e-05,
+      "native_L1_cotangents_exact_for_both_arms": true,
+      "opposite_nonzero_residual_signs": 0,
+      "prediction_changed_elements": 1180117,
+      "residual_sign_changed_elements": 0,
+      "shape": [
+        1,
+        1168,
+        1024
+      ],
+      "zero_to_or_from_nonzero_residual_signs": 0
+    },
+    {
+      "cotangent_changed_elements": 0,
+      "cotangent_unit_magnitude": 3.973643103449831e-08,
+      "draw": 3,
+      "elements": 1572864,
+      "examples": [],
+      "family": 1,
+      "max_cotangent_absolute_error": 0.0,
+      "max_prediction_absolute_error": 2.682209014892578e-05,
+      "native_L1_cotangents_exact_for_both_arms": true,
+      "opposite_nonzero_residual_signs": 0,
+      "prediction_changed_elements": 1555407,
+      "residual_sign_changed_elements": 0,
+      "shape": [
+        1,
+        1536,
+        1024
+      ],
+      "zero_to_or_from_nonzero_residual_signs": 0
+    },
+    {
+      "cotangent_changed_elements": 1,
+      "cotangent_unit_magnitude": 7.130275037070533e-08,
+      "draw": 4,
+      "elements": 876544,
+      "examples": [
+        {
+          "candidate_cotangent": 7.130275037070533e-08,
+          "candidate_prediction": -1.3356045484542847,
+          "candidate_residual": 3.2186508178710938e-06,
+          "coordinate": [
+            0,
+            288,
+            766
+          ],
+          "feature": 766,
+          "original_cotangent": 0.0,
+          "original_prediction": -1.3356077671051025,
+          "original_residual": 0.0,
+          "target": -1.3356077671051025,
+          "target_token": 663
+        }
+      ],
+      "family": 0,
+      "max_cotangent_absolute_error": 7.130275037070533e-08,
+      "max_prediction_absolute_error": 2.6702880859375e-05,
+      "native_L1_cotangents_exact_for_both_arms": true,
+      "opposite_nonzero_residual_signs": 0,
+      "prediction_changed_elements": 863176,
+      "residual_sign_changed_elements": 1,
+      "shape": [
+        1,
+        856,
+        1024
+      ],
+      "zero_to_or_from_nonzero_residual_signs": 1
+    },
+    {
+      "cotangent_changed_elements": 1,
+      "cotangent_unit_magnitude": 3.932677472562318e-08,
+      "draw": 4,
+      "elements": 1589248,
+      "examples": [
+        {
+          "candidate_cotangent": -3.932677472562318e-08,
+          "candidate_prediction": 0.04208335280418396,
+          "candidate_residual": -3.337860107421875e-06,
+          "coordinate": [
+            0,
+            194,
+            837
+          ],
+          "feature": 837,
+          "original_cotangent": 3.932677472562318e-08,
+          "original_prediction": 0.04208800196647644,
+          "original_residual": 1.3113021850585938e-06,
+          "target": 0.04208669066429138,
+          "target_token": 290
+        }
+      ],
+      "family": 1,
+      "max_cotangent_absolute_error": 7.865354945124636e-08,
+      "max_prediction_absolute_error": 3.314018249511719e-05,
+      "native_L1_cotangents_exact_for_both_arms": true,
+      "opposite_nonzero_residual_signs": 1,
+      "prediction_changed_elements": 1572922,
+      "residual_sign_changed_elements": 1,
+      "shape": [
+        1,
+        1552,
+        1024
+      ],
+      "zero_to_or_from_nonzero_residual_signs": 0
+    },
+    {
+      "cotangent_changed_elements": 1,
+      "cotangent_unit_magnitude": 6.007397246321489e-08,
+      "draw": 5,
+      "elements": 1040384,
+      "examples": [
+        {
+          "candidate_cotangent": 6.007397246321489e-08,
+          "candidate_prediction": 2.0685203075408936,
+          "candidate_residual": 2.384185791015625e-07,
+          "coordinate": [
+            0,
+            234,
+            965
+          ],
+          "feature": 965,
+          "original_cotangent": -6.007397246321489e-08,
+          "original_prediction": 2.0685181617736816,
+          "original_residual": -1.9073486328125e-06,
+          "target": 2.0685200691223145,
+          "target_token": 424
+        }
+      ],
+      "family": 0,
+      "max_cotangent_absolute_error": 1.2014794492642977e-07,
+      "max_prediction_absolute_error": 2.0503997802734375e-05,
+      "native_L1_cotangents_exact_for_both_arms": true,
+      "opposite_nonzero_residual_signs": 1,
+      "prediction_changed_elements": 1024942,
+      "residual_sign_changed_elements": 1,
+      "shape": [
+        1,
+        1016,
+        1024
+      ],
+      "zero_to_or_from_nonzero_residual_signs": 0
+    },
+    {
+      "cotangent_changed_elements": 1,
+      "cotangent_unit_magnitude": 3.912510138093239e-08,
+      "draw": 5,
+      "elements": 1597440,
+      "examples": [
+        {
+          "candidate_cotangent": 3.912510138093239e-08,
+          "candidate_prediction": 0.49315398931503296,
+          "candidate_residual": 2.980232238769531e-07,
+          "coordinate": [
+            0,
+            1386,
+            968
+          ],
+          "feature": 968,
+          "original_cotangent": -3.912510138093239e-08,
+          "original_prediction": 0.49315276741981506,
+          "original_residual": -9.238719940185547e-07,
+          "target": 0.4931536912918091,
+          "target_token": 1816
+        }
+      ],
+      "family": 1,
+      "max_cotangent_absolute_error": 7.825020276186478e-08,
+      "max_prediction_absolute_error": 2.8371810913085938e-05,
+      "native_L1_cotangents_exact_for_both_arms": true,
+      "opposite_nonzero_residual_signs": 1,
+      "prediction_changed_elements": 1578104,
+      "residual_sign_changed_elements": 1,
+      "shape": [
+        1,
+        1560,
+        1024
+      ],
+      "zero_to_or_from_nonzero_residual_signs": 0
+    },
+    {
+      "cotangent_changed_elements": 0,
+      "cotangent_unit_magnitude": 5.120399038105461e-08,
+      "draw": 6,
+      "elements": 1220608,
+      "examples": [],
+      "family": 0,
+      "max_cotangent_absolute_error": 0.0,
+      "max_prediction_absolute_error": 2.7894973754882812e-05,
+      "native_L1_cotangents_exact_for_both_arms": true,
+      "opposite_nonzero_residual_signs": 0,
+      "prediction_changed_elements": 1205254,
+      "residual_sign_changed_elements": 0,
+      "shape": [
+        1,
+        1192,
+        1024
+      ],
+      "zero_to_or_from_nonzero_residual_signs": 0
+    },
+    {
+      "cotangent_changed_elements": 1,
+      "cotangent_unit_magnitude": 3.4059798537100505e-08,
+      "draw": 6,
+      "elements": 1835008,
+      "examples": [
+        {
+          "candidate_cotangent": -3.4059798537100505e-08,
+          "candidate_prediction": -0.33549487590789795,
+          "candidate_residual": -6.258487701416016e-07,
+          "coordinate": [
+            0,
+            31,
+            591
+          ],
+          "feature": 591,
+          "original_cotangent": 3.4059798537100505e-08,
+          "original_prediction": -0.3354916572570801,
+          "original_residual": 2.592802047729492e-06,
+          "target": -0.3354942500591278,
+          "target_token": 36
+        }
+      ],
+      "family": 1,
+      "max_cotangent_absolute_error": 6.811959707420101e-08,
+      "max_prediction_absolute_error": 3.314018249511719e-05,
+      "native_L1_cotangents_exact_for_both_arms": true,
+      "opposite_nonzero_residual_signs": 1,
+      "prediction_changed_elements": 1816468,
+      "residual_sign_changed_elements": 1,
+      "shape": [
+        1,
+        1792,
+        1024
+      ],
+      "zero_to_or_from_nonzero_residual_signs": 0
+    },
+    {
+      "cotangent_changed_elements": 0,
+      "cotangent_unit_magnitude": 5.8239653100145006e-08,
+      "draw": 7,
+      "elements": 1073152,
+      "examples": [],
+      "family": 0,
+      "max_cotangent_absolute_error": 0.0,
+      "max_prediction_absolute_error": 2.1457672119140625e-05,
+      "native_L1_cotangents_exact_for_both_arms": true,
+      "opposite_nonzero_residual_signs": 0,
+      "prediction_changed_elements": 1057907,
+      "residual_sign_changed_elements": 0,
+      "shape": [
+        1,
+        1048,
+        1024
+      ],
+      "zero_to_or_from_nonzero_residual_signs": 0
+    },
+    {
+      "cotangent_changed_elements": 0,
+      "cotangent_unit_magnitude": 4.191975122580516e-08,
+      "draw": 7,
+      "elements": 1490944,
+      "examples": [],
+      "family": 1,
+      "max_cotangent_absolute_error": 0.0,
+      "max_prediction_absolute_error": 2.5451183319091797e-05,
+      "native_L1_cotangents_exact_for_both_arms": true,
+      "opposite_nonzero_residual_signs": 0,
+      "prediction_changed_elements": 1472579,
+      "residual_sign_changed_elements": 0,
+      "shape": [
+        1,
+        1456,
+        1024
+      ],
+      "zero_to_or_from_nonzero_residual_signs": 0
+    }
+  ],
+  "boundary_totals": {
+    "cotangent_changed_elements": 11,
+    "elements": 22601728,
+    "opposite_nonzero_residual_signs": 10,
+    "pairs_with_changed_cotangents": 9,
+    "prediction_changed_elements": 22326053,
+    "residual_sign_changed_elements": 11,
+    "zero_to_or_from_nonzero_residual_signs": 1
+  },
+  "candidate_actual_CUDA_kernels_qualified": false,
+  "candidate_comparisons_vs_historical_and_fresh_original": [
+    {
+      "atol": 2e-06,
+      "elements": 1,
+      "exact": true,
+      "kind": "loss",
+      "max_absolute_error": 0.0,
+      "max_normalized_error": 0.0,
+      "passed": true,
+      "rtol": 1e-05,
+      "violations": 0
+    },
+    {
+      "atol": 2e-07,
+      "elements": 3145728,
+      "exact": false,
+      "kind": "input",
+      "max_absolute_error": 1.4960765838623047e-05,
+      "max_normalized_error": 8.641704438152846,
+      "passed": false,
+      "rtol": 0.002,
+      "violations": 3724
+    }
+  ],
+  "candidate_numerical_passed": false,
+  "candidate_remains_rejected": true,
+  "collection_complete": true,
+  "collection_files": 223,
+  "collection_hash_size_mode_exact_mtime_and_member_hashes_verified": true,
+  "consumed_attempt_sha256": "701c196c878eea81f6b6810fc0c2bcde5468c257a111d224e6dd6d14e930fa7e",
+  "consumed_claim_reset": false,
+  "continuous_exclusivity_proved": false,
+  "control_sha256": "7a586af8080447c0215884432d093db4cb1215c91fef04dfe24feefda72a7668",
+  "date": "2026-11-06",
+  "diagnostic_passed": false,
+  "every_saved_cotangent_exactly_matches_native_L1_tail": true,
+  "failed_anchor_never_promoted_to_passing_reference": true,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "fresh_process_replay_qualified": false,
+  "full_five_phase_qualified": false,
+  "isolated_backward_arithmetic_cause_proved": false,
+  "kind": "predictor-boundary-v1-target-saved-review",
+  "max_cotangent_absolute_error": 1.2014794492642977e-07,
+  "max_prediction_absolute_error": 4.610419273376465e-05,
+  "model_autograd_SDPA_CUDA_process_network_denied_during_review": true,
+  "native_call_rows_by_worker": [
+    1152,
+    1152
+  ],
+  "native_saved_loss_and_input_returns": 4,
+  "new_SSH_upload_or_GPU_work_during_review": false,
+  "new_tests_rerun": false,
+  "next_step": "Use these saved observations for offline attribution and a minimal separately reviewed causal comparison plan. Keep the original input-gradient bound and failed candidate rejected; no new target work or retries are authorized.",
+  "numerical_tolerances_changed": false,
+  "original_and_candidate_loss": 0.5617199540138245,
+  "original_comparisons_vs_historical": [
+    {
+      "atol": 2e-06,
+      "elements": 1,
+      "exact": true,
+      "kind": "loss",
+      "max_absolute_error": 0.0,
+      "max_normalized_error": 0.0,
+      "passed": true,
+      "rtol": 1e-05,
+      "violations": 0
+    },
+    {
+      "atol": 2e-07,
+      "elements": 3145728,
+      "exact": true,
+      "kind": "input",
+      "max_absolute_error": 0.0,
+      "max_normalized_error": 0.0,
+      "passed": true,
+      "rtol": 0.002,
+      "violations": 0
+    }
+  ],
+  "original_numerical_passed": true,
+  "paid_compute": false,
+  "performance_qualified": false,
+  "preparation_checks_not_rerun": 48,
+  "prior_sealed_inputs_reverified": 10424,
+  "proof_bytes": 2684354560,
+  "proof_seconds": 9.538254079874605,
+  "raw_review": {
+    "path": "runs/pretrained/diagnostic/predictor-boundary-v1-20261106/independent-target-review/review.json",
+    "sha256": "f45c94e7c47818191546d1d256d238d85089136246f0f4d0487756fe2b5ba755"
+  },
+  "research_admitted": false,
+  "resource_time_storage_or_foreign_process_refusal_recorded": false,
+  "response": {
+    "path": "runs/pretrained/diagnostic/predictor-boundary-v1-20261106/linux10603-final/attended-uwpuxma2/response.bin",
+    "sha256": "5219a8f2868fdf4cc4bff045f43738af5319edcf6a7dbcbbfd30ce4bbab34dd0"
+  },
+  "response_bytes": 512530141,
+  "review_source": {
+    "path": "runs/pretrained/diagnostic/predictor-boundary-v1-20261106/independent-target-review/review.py",
+    "sha256": "0cfd5d93a388df52d4b5108ba959088c7239f0a4b0038b6fa83667af0e8945e9"
+  },
+  "same_targets_masks_weights_pixels_seeds_runtime": true,
+  "saved_review_passed": true,
+  "saved_worker_receipts_reverified": [
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_only": true,
+      "calls_sha256": "3e36e3745d13691935f8a60a18af510727eada3d852e84b227ce78753f32dfda",
+      "capture_complete": true,
+      "index": 0,
+      "marker_sha256": "dbc07c3af24e9453378c5d8cc045068e3d0e549925498e9b10c86e22285fdacd",
+      "mask_sha256": "9e4903ac669501297341942317ae82a26a27de993c6aea99d4d5f2526dc603b1",
+      "numerical_passed": true,
+      "pid": 978427,
+      "research_admitted": false,
+      "scopes_sha256": "570d33889c7200b9d897b5fa16da6f5719cf9412a851d18c7346f06e1b6b9cdb",
+      "worker_sha256": "5f81b592d6a47ab2cd3f6e8c3cad9231a25183524656a5e339be8ec3bacddfbe"
+    },
+    {
+      "CUDA_backend_qualified": false,
+      "attribution_only": true,
+      "calls_sha256": "50e575d758b1917e4dfcb112d0448e9cd81b8ff588add2585a7dadf9ae022096",
+      "capture_complete": true,
+      "index": 1,
+      "marker_sha256": "8cd496189464da8feae93558b5f67f047d5c348e0a677b007a53fce3c050c8f1",
+      "mask_sha256": "9e4903ac669501297341942317ae82a26a27de993c6aea99d4d5f2526dc603b1",
+      "numerical_passed": false,
+      "pid": 983182,
+      "research_admitted": false,
+      "scopes_sha256": "eb036649c3f8d00b1033d0d592c7251246b973cb69035f0880ba5dfd363b9291",
+      "worker_sha256": "43339d3f1802c2fd87427936e73847cc566205ab72b9af15c69c3cab1f0e8691"
+    }
+  ],
+  "scratch_directory": "/var/tmp/vjepa-predictor-boundary-v1-20261106-f078fbgx",
+  "sealed_inputs": 10665,
+  "sealed_manifest": {
+    "files": 10665,
+    "path": "runs/pretrained/diagnostic/predictor-boundary-v1-20261106/independent-target-review/sealed-inputs.json",
+    "sha256": "b98b83f75362a3e976a64bdf9dbb0d5c3f6fe99802c365895bb4bf3a6445405c"
+  },
+  "stream_logical_bytes": 512303338,
+  "supervisor_peak_capture_allocated_bytes": 512835584,
+  "value_anchor_members_verified": 5,
+  "whole_work_seconds": 121.01873849472031,
+  "worker_peak_allocator_bytes": [
+    5122851840,
+    5847053312
+  ],
+  "worker_supervisor_seconds": [
+    77.68869297485799,
+    29.788420621771365
+  ]
+}
