@@ -2,6 +2,102 @@
 
 ## Current stage
 
+LATEST Nov06: NATIVE ONE-SDPA OBSERVER VERIFIED LOCALLY; NO TARGET OPERATOR.
+Read report/checks/2026-11-06-predictor-sdpa-observer-v1-local-review.json/md
+and docs/predictor_sdpa_observer_v1.md FIRST. Separate observer, bounded record/
+CPU layout rebuild, CPU-only rehearsal entry and tests. All prior sourcesFROZEN.
+37focusedchecks PASS zeroerrors/failures/skips. First10pass/26fixtureerrors from
+actualcheckpoint mismatch40savedfwd/36recompute; onlynewfinitecheck nowdetach.
+Second36PASS. Publicationcollisionguard thenadded+1preservationtest;third37PASS.
+All3sources/logs/failures preserved,NOTsummed;earlier25/68 NOT rerun.
+4freshCPU PIDs87536/87541/87545/87551:2creator/2other-backwardrunner;actualsmall
+upstream activationcheckpoint EOT8. Before/observed/after full loss/input EXACT
+24logicalhashesvsfrozenoriginal (signedzeros included). All32nativeboundary
+tensors EXACT across4processes; each128calls64fwd+64bwd/4owners/16drawfamilies/
+1completeGraphTask,8tensors+4hooks. Native/model/target/versions/flags/absent
+paramgrads unchanged, allhooks/root/privatealias restored; no threadwhitelist.
+Instance-privateF alias wrapsoriginalfrozenroute;forwardobjectunchanged,hooks
+returnNone. ActualrootGraphTask+PID/phase checked;hookthreads mustappear inreal
+native recomputation. ActualnestedforeignGraphTask refuses. Source/closure pinned.
+QKV/output/dO/dQ/dK/dV sourceoffsets/strides/extents/aliasgroups/version/alignment
+retained;storage refs preventfalse recycledaliases. Savedcopies contiguousCPU,
+NOTnative physicalstorage. Rebuildzeroedpadding withoriginaloffsets/strides/
+aliasgroups,wholelogicalhash checks;physicalalignment/paddingNOTobservedequal.
+2actualstandaloneCPU replays output/dQ/dK/dV EXACT; independentlyNumPyFP64
+savedarraychecks all4 pass originalcomponentbounds,maxratio<.000309.
+Primarybackward/writefailures retain4nativefwdtensors/firstQ+originalerror and
+cleanup. Actualpartialwrite retained/noCompletemarker;collisions/tamper/rehashed
+metadata/unsafe files/missingmarkers refuse. Frozenworkerloaders refuseformat.
+Independent savedreview reverified12027pins,sealed12885 under rawpredictor-sdpa-
+observer-v1-20261106/independent-review +separatebyteanchor audit. Model/autograd/
+SDPA/CUDA/process/network blocked;CPU tensors+analyticalNumPy only. No SDPA rerun.
+Localarm64Py3.11.16/Torch2.14.1/NumPy2.4.6;1x2x32x32 arrays,NOTpretrainedCUDA.
+Frozen native route/adapter/upstream/oldclaims unchanged; scaffold/YAML/diff PASS.
+Targetselectionstill00original draw0/family0 predictor.0 row24 1x12x2048x32;
+localrow2. RealtrainedQKV/dO stillabsent; noactualkernel/fivephase/perf/optimizer/
+researchqualification. CandidateREJECTED3724,bothordered4cellterms+interaction
+preserved. SameQKV/dO NOTidenticalprivatebackendforwardstates/purebackwardbug.
+Librarytargetdomainchecks NOTgrant. NO targetworker/operator/helper/control/
+AUTH/ATTEMPT/SSH/upload/proof/newuniversitygrant/compute. CPUentry refuseshosts/
+CUDA beforemodel/output. No cleanup/retry/reset/standaloneretrieval/paidwork.
+Latestoldclaim9066c0afb97cb9e92f02e047806124aab73fff36cc9cdb46b4c31e28d167e94c
+CONSUMEDimmutable; neveroldhelper/fallback/leftovertime. Bothhostsmayidle/close.
+NEXT implement/test fixedinput componentworker,canonicalFP64ref publication,
+actualbackend evidence+freshreplay;THEN boundedsameSSHoperator+reviewedhandoff
+underinert25minproposal. ONLYafterconcreteprep askONEnewscope+freshstatus.
+Noask/userSSH now. Newobserver IO/memoryoverhead NOTtiming/capacity proof.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+wallet6.56/reconciliationfalse unchanged;knownRunpodterminated.
+Usercommits self; NEVER stage/commit/push. Earlier LATEST entries are history.
+
+LATEST Nov06: SAME-QKV/SDPA-COTANGENT OFFLINE PLAN + TINY CPU PROTOTYPE VERIFIED.
+Read report/checks/2026-11-06-predictor-sdpa-fixed-input-v1-offline-review.json/md
+and docs/predictor_sdpa_fixed_input_v1.md FIRST. New inert config, plan module,
+metadata-only CLI and 25 focused checks. Captured predecessor sources FROZEN.
+25 PASS zeroerrors/failures/skips; first24pass/1handwritten Vspanexpectationwrong,
+productioncalculation unchanged; onlytest9435648->9434112B. First/second exact
+sources+logs+tinyreceipts saved. NOTsummed; earlier68checks NOT rerun.
+ActualtinyCPU direct+nonreentrantcheckpoint examples: before/observed/after full
+toy loss/output/input EXACT; onecapture despitecheckpoint2forwardcalls, hooks
+removed. SameactualQKV+incoming SDPAgrad replay output/dQ/dK/dV EXACT, original
+non-denseVstride retained, independentNumPyFP64 boundsPASS(maxratio<.002346).
+Localarm64Py3.11.16/Torch2.14.1/NumPy2.4.6; NOTpretrainedCUDA/targetruntime.
+Metadatareview validates receipts, NOTindependentlyrecomputeunsavedtoyarrays.
+11998 predecessor pins reverified;12027 sealed under rawpredictor-sdpa-fixed-
+input-v1-20261106/independent-review. Proposal/review prohibit scientificimports/
+model/process/network; scaffold/YAML/diff PASS. Oldclaims/records unchanged.
+Plan selection FIXED00original draw0/family0 predictor.0 FIRSTforward row24,
+shape1x12x2048x32;QKstride786432/65536/32/1,V2359296/32/1152/1. NOTerrranking.
+Currentrecords contain layouts/flags, NOTactualselectedtrainedQKV/output/dO/
+dQ/dK/dV. Oldpredictor-outputc NOTSDPA-outputc. Neednewcapturebeforetargetpair.
+ProposeONEoriginal fullEOT8captureworker, native loss/input EXACT originalanchor,
+observationaltensorhooksNone/nochangedcotangent. Then4freshserialfixedinput
+workers default0/math0/default1/math1. AllshareactualsavedQKV+SDPAdO;no generator.
+StandalonedefaultmustEXACTnativecapturedout/QKVgrads BEFOREmath. Numerical/
+FP64/reference/actualdevicekernels/freshreplay requireoriginalbounds, no waivers.
+PublicSDPA pair STILLownbackendforwardstates;equalQKV/dO/output NOTidentical
+probabilities/LSE/privatebuffers. End-to-endattentionVJP comparison ONLY,
+NOTisolatedbackwardbug. No privatebackwardAPI/fabricatedsavedstate permitted.
+Originaldefaultactualfamily NOTassumed efficient;fullmodelkernels unqualified.
+No nativecandidateadoption/losschange/researchcotangent-substitution/tolwidening.
+Originalcandidate REJECTED3724; both4cellorderedterms+interaction retained.
+Inertproposal25minwork inclsetup180/full2.5GiBproof<=60+capture420+4*120+
+receipt120=1200<1500;600s/3GiBsameSSHcollection. Setup3GiB/capture2.25GiB/
+raw512MiB/metadata64MiB/inputcode128MiB/allocator7GiB/tensor16MiB unchanged.
+Steadylogical171966468B+16MiBatomic;Vspan9434112B. Projections NOTactualpeaks/
+capacity/reservation. Offset/alias/materialization handling+exactbaseline pending.
+NO universityobserver/operator/helper/AUTH/ATTEMPT/SSH/upload/proof/newgrant.
+Latestoldclaim9066c0afb97cb9e92f02e047806124aab73fff36cc9cdb46b4c31e28d167e94c
+CONSUMEDimmutable. Neveroldhelper/reset/cleanup/retrieval/leftovertime/fallback.
+NEXT implement/test/review SEPARATE nativeoneboundaryobserver inclownership/
+checkpointing/originalvaluecontrols, THEN boundedfixedinputoperator+handoff;
+ONLYafterconcretereview askONEnewscope+freshstatus. Noasknow. Bothhostsmayidle.
+No parallelhost/paidcompute/keys/heldoutpixels/install. Candidate/kernel/fivephase/
+scoring/optimizer/performance/research pending; nofullmodelresearchadmission.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+wallet6.56/reconciliationfalse unchanged;knownRunpodterminated.
+Usercommits self; NEVER stage/commit/push. Earlier LATEST entries are history.
+
 LATEST Nov06: FOUR-CELL TARGET ATTRIBUTION VERIFIED; CANDIDATE STILL REJECTED.
 Read report/checks/2026-11-06-common-cotangent-v1-target-review.json/md FIRST.
 All four fresh serial target cells completed; independently verified original

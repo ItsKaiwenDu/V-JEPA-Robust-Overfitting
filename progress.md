@@ -1,5 +1,81 @@
 # Research Progress Reports
 
+## 2026-11-06 — Native attention observer verified on the small CPU model
+
+Implemented a separate native one-boundary observer around the frozen
+instance-local route, bounded typed records, honest CPU layout/offset/alias
+reconstruction and a CPU-only rehearsal entry. No model operation, incoming
+gradient, global SDPA alias, backend setting or thread whitelist is changed.
+
+37 focused checks pass. Four fresh small upstream CPU workers, including two
+different backward-runner thread cases, capture eight actual tensors each in
+one owned checkpointed EOT8 GraphTask. All 32 captured tensors replay exactly
+across processes. Before/observed/after full loss/input returns match all 24
+frozen reference logical byte hashes. Hooks, private alias, root graph, flags,
+model/target state and absent parameter gradients restore. Two actual standalone
+CPU replays match captured output/QKV gradients; independent saved-array FP64
+analytical checks pass unchanged component bounds.
+
+First run caught checkpoint saved-tensor pollution from a live finite check
+(40 forward / 36 recomputation); the diagnostic now checks detached values.
+The second run passes 36 checks. A publication collision guard and preservation
+test then yield 37 passes. Exact source histories, failed values and logs remain;
+counts are not summed and earlier 25/68 checks were not rerun. Primary backward,
+capture/write, ownership and integrity failures preserve evidence and reject.
+
+Independent saved review reverified 12,027 predecessor inputs and sealed 12,885,
+plus a separately bound native byte audit. It executes no model/autograd/SDPA/
+CUDA/process/network work. Scaffold/YAML/diff pass; old sources/claims unchanged.
+These are local CPU arrays 1×2×32×32, not pretrained CUDA. Native physical
+padding/alignment are not reproduced by logical CPU file copies. Actual target
+resource peaks and performance remain unknown; the candidate stays rejected.
+
+Next implement/test the fixed-input component worker, frozen FP64 reference,
+actual backend evidence and fresh replay checks, then prepare the bounded
+same-SSH handoff before asking new university scope. No target worker/operator,
+helper, authorization, claim, upload, SSH or university compute starts now.
+Both hosts may idle. Financial caps/holds and reconciliation stay unchanged;
+known Runpod Pods remain terminated.
+[Local observer review](report/checks/2026-11-06-predictor-sdpa-observer-v1-local-review.md).
+
+## 2026-11-06 — Fixed-input attention plan and local CPU prototype
+
+Prepared an inert plan selecting original draw 0 / family 0, predictor block 0,
+first forward SDPA call (row 24). The predecessor has actual layouts but no
+selected trained Q/K/V or incoming SDPA gradient; a new observation would be
+required. Proposed capture is original-only with exact native loss/input replay,
+followed by four fresh standalone original/math workers using identical saved
+Q/K/V and incoming gradient. Original standalone output/QKV derivatives must
+exactly match captured native values before math advances. Original numerical
+bounds, actual CUDA evidence and within-arm fresh replay remain mandatory.
+
+Same Q/K/V and incoming gradient do not establish identical backend private
+forward state. This measures attention forward/VJP differences at fixed inputs;
+it cannot alone prove a pure backward bug. No private backward API, candidate
+adoption or derivative/loss substitution for research is included. The native
+candidate stays rejected, with both preceding orders and interaction preserved.
+
+25 focused local checks pass. Direct and nonreentrant-checkpointed small CPU
+examples preserve before/observed/after full toy loss/output/input exactly.
+One actual boundary capture replays output/dQ/dK/dV exactly from the same
+Q/K/V and incoming gradient, retaining non-dense V layout and passing the
+independent NumPy FP64 analytical bounds. This is synthetic local CPU evidence,
+not pretrained CUDA. First run had one handwritten V-storage-span expectation
+error; only that test changed, with all source/log history retained. Counts
+are not summed and earlier 68 checks were not rerun.
+
+All 11,998 predecessor pins reverify; 12,027 inputs are sealed. Metadata review
+checks test receipts without rerunning model/oracle/SDPA or scientific imports.
+Scaffold/YAML/diff pass. No old source, claim, bound or study config changed.
+
+The prospective 25-minute work / ten-minute same-SSH collection envelope is
+only a proposal. No target observer/operator/helper, authorization, claim, SSH,
+upload, proof or university compute exists. Next implement/test/review the native
+one-boundary observer, then prepare its bounded operator before requesting
+new scope. No SSH task now; both hosts may idle. Financial caps/holds and
+pending reconciliation stay unchanged; known Runpod Pods remain terminated.
+[Offline review](report/checks/2026-11-06-predictor-sdpa-fixed-input-v1-offline-review.md).
+
 ## 2026-11-06 — Four target cells verified; external cotangent term dominates
 
 The approved four fresh linux10603 workers completed. All 186 saved files and

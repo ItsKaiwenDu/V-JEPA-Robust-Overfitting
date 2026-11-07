@@ -1,0 +1,695 @@
+{
+  "actual_pretrained_QKV_and_SDPA_cotangent_not_present_in_saved_evidence": true,
+  "candidate_remains_rejected": true,
+  "checks": {
+    "errors": 0,
+    "failures": 0,
+    "skips": 0,
+    "unique": 25
+  },
+  "configuration": {
+    "path": "configs/predictor_sdpa_fixed_input_v1.json",
+    "sha256": "9569ba1de0c0068a9985971d03a02ba0b20ec6e07c9a33a788ed09b6c6501795"
+  },
+  "counts_not_summed_and_old_68_checks_not_rerun": true,
+  "date": "2026-11-06",
+  "documentation": {
+    "path": "docs/predictor_sdpa_fixed_input_v1.md",
+    "sha256": "a85b83fc0395e4209374ec970215bb411876bd61898e932de78d1b35affe151d"
+  },
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "first_test_run": {
+    "errors": 0,
+    "failures": 1,
+    "skips": 0,
+    "unique": 25
+  },
+  "kind": "predictor-same-qkv-cotangent-offline-review-v1",
+  "local_CPU_proof_receipts": [
+    {
+      "CUDA_qualified": false,
+      "before_observed_after_full_toy_loss_output_input_bitwise_equal": true,
+      "calls_observed_in_capture": 1,
+      "capture_total_calls": 1,
+      "checkpointed": false,
+      "independent_FP64_checks": {
+        "dk": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 4.4620333383010857e-10,
+          "max_tolerance_ratio": 0.000369492074462865,
+          "passed": true,
+          "relative_l2_error": 1.1755775101781794e-07,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ]
+        },
+        "dq": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 4.614028235004619e-10,
+          "max_tolerance_ratio": 0.000276907857575649,
+          "passed": true,
+          "relative_l2_error": 1.3095246341617562e-07,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ]
+        },
+        "dv": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 3.184841369796576e-09,
+          "max_tolerance_ratio": 0.002345646007900931,
+          "passed": true,
+          "relative_l2_error": 7.82679557160373e-08,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ]
+        },
+        "output": {
+          "atol": 2e-05,
+          "failed_elements": 0,
+          "max_absolute_error": 2.0748437246087548e-08,
+          "max_tolerance_ratio": 0.0006031370145183993,
+          "passed": true,
+          "relative_l2_error": 6.343967440105374e-08,
+          "rtol": 0.0001,
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ]
+        }
+      },
+      "kind": "local-tiny-CPU-same-QKV-grad-output-proof-v1",
+      "native_replay_exact": {
+        "dk": true,
+        "dq": true,
+        "dv": true,
+        "output": true
+      },
+      "native_value_hashes": {
+        "input": "cfa471017ed7225eeb25cb58de9138d2735634f1ca2d5d204a5858e6117a24e6",
+        "loss": "e3b05b8a6b47f3ca6048a0fc55c7630fdbf4f7d3bdeddf5015ed1aa10610f123",
+        "output": "5b7085986de44d1582bbf6e09a60c92eb639547832bd9dac63862f91583c186f"
+      },
+      "non_dense_V_stride_preserved": true,
+      "observed": {
+        "dk": {
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "requires_grad": false,
+          "sha256": "caa41481f71d36d887ef1be71ea0ce20e7e352322ee45d15cecfc76d3c6d1e38",
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ],
+          "stride": [
+            48,
+            24,
+            1,
+            6
+          ],
+          "version": 0
+        },
+        "dq": {
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "requires_grad": false,
+          "sha256": "e64540b40f20bd5d813afb3296140b584eb9e62d855686b3515f2e9dfdbe1072",
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ],
+          "stride": [
+            48,
+            24,
+            4,
+            1
+          ],
+          "version": 0
+        },
+        "dv": {
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "requires_grad": false,
+          "sha256": "d572bf4e053a9b2521e0cda02d1486570544ae9bce1f1b0543eab19bc8c1038d",
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ],
+          "stride": [
+            48,
+            24,
+            4,
+            1
+          ],
+          "version": 0
+        },
+        "grad_output": {
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "requires_grad": false,
+          "sha256": "c2d26bd0b202e62b29349384b9af83511d4f6ce33cb2c1d7fbfabe846d620b71",
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ],
+          "stride": [
+            48,
+            24,
+            4,
+            1
+          ],
+          "version": 0
+        },
+        "k": {
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "requires_grad": true,
+          "sha256": "f73c379296414a017dea3657c5a679383cd7a26affb2cb113a6f1a402de327ab",
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ],
+          "stride": [
+            48,
+            24,
+            4,
+            1
+          ],
+          "version": 0
+        },
+        "output": {
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "requires_grad": true,
+          "sha256": "5b7085986de44d1582bbf6e09a60c92eb639547832bd9dac63862f91583c186f",
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ],
+          "stride": [
+            48,
+            24,
+            4,
+            1
+          ],
+          "version": 0
+        },
+        "q": {
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "requires_grad": true,
+          "sha256": "3d8e9611a1e78851bf8ee094b61102fa0ed4d60c70192212f28a7595eb4a5953",
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ],
+          "stride": [
+            48,
+            24,
+            4,
+            1
+          ],
+          "version": 0
+        },
+        "v": {
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "requires_grad": true,
+          "sha256": "0b5c7c0ad04da206a69dff68ad9a2c19f2816955009ba862059702232b7bc4f7",
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ],
+          "stride": [
+            144,
+            4,
+            24,
+            1
+          ],
+          "version": 0
+        }
+      },
+      "pretrained_target_values_captured": false,
+      "pure_backward_arithmetic_isolated": false,
+      "receipt": {
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-fixed-input-v1-20261106/tiny-proofs-second/tiny-direct.json",
+        "sha256": "677277fd1885c2b7c8d99f63d1911a1b74efae1e27f9822c389a7c603efd3e68"
+      }
+    },
+    {
+      "CUDA_qualified": false,
+      "before_observed_after_full_toy_loss_output_input_bitwise_equal": true,
+      "calls_observed_in_capture": 1,
+      "capture_total_calls": 2,
+      "checkpointed": true,
+      "independent_FP64_checks": {
+        "dk": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 4.4620333383010857e-10,
+          "max_tolerance_ratio": 0.000369492074462865,
+          "passed": true,
+          "relative_l2_error": 1.1755775101781794e-07,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ]
+        },
+        "dq": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 4.614028235004619e-10,
+          "max_tolerance_ratio": 0.000276907857575649,
+          "passed": true,
+          "relative_l2_error": 1.3095246341617562e-07,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ]
+        },
+        "dv": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 3.184841369796576e-09,
+          "max_tolerance_ratio": 0.002345646007900931,
+          "passed": true,
+          "relative_l2_error": 7.82679557160373e-08,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ]
+        },
+        "output": {
+          "atol": 2e-05,
+          "failed_elements": 0,
+          "max_absolute_error": 2.0748437246087548e-08,
+          "max_tolerance_ratio": 0.0006031370145183993,
+          "passed": true,
+          "relative_l2_error": 6.343967440105374e-08,
+          "rtol": 0.0001,
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ]
+        }
+      },
+      "kind": "local-tiny-CPU-same-QKV-grad-output-proof-v1",
+      "native_replay_exact": {
+        "dk": true,
+        "dq": true,
+        "dv": true,
+        "output": true
+      },
+      "native_value_hashes": {
+        "input": "cfa471017ed7225eeb25cb58de9138d2735634f1ca2d5d204a5858e6117a24e6",
+        "loss": "e3b05b8a6b47f3ca6048a0fc55c7630fdbf4f7d3bdeddf5015ed1aa10610f123",
+        "output": "5b7085986de44d1582bbf6e09a60c92eb639547832bd9dac63862f91583c186f"
+      },
+      "non_dense_V_stride_preserved": true,
+      "observed": {
+        "dk": {
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "requires_grad": false,
+          "sha256": "caa41481f71d36d887ef1be71ea0ce20e7e352322ee45d15cecfc76d3c6d1e38",
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ],
+          "stride": [
+            48,
+            24,
+            1,
+            6
+          ],
+          "version": 0
+        },
+        "dq": {
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "requires_grad": false,
+          "sha256": "e64540b40f20bd5d813afb3296140b584eb9e62d855686b3515f2e9dfdbe1072",
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ],
+          "stride": [
+            48,
+            24,
+            4,
+            1
+          ],
+          "version": 0
+        },
+        "dv": {
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "requires_grad": false,
+          "sha256": "d572bf4e053a9b2521e0cda02d1486570544ae9bce1f1b0543eab19bc8c1038d",
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ],
+          "stride": [
+            48,
+            24,
+            4,
+            1
+          ],
+          "version": 0
+        },
+        "grad_output": {
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "requires_grad": false,
+          "sha256": "c2d26bd0b202e62b29349384b9af83511d4f6ce33cb2c1d7fbfabe846d620b71",
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ],
+          "stride": [
+            48,
+            24,
+            4,
+            1
+          ],
+          "version": 0
+        },
+        "k": {
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "requires_grad": true,
+          "sha256": "f73c379296414a017dea3657c5a679383cd7a26affb2cb113a6f1a402de327ab",
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ],
+          "stride": [
+            48,
+            24,
+            4,
+            1
+          ],
+          "version": 0
+        },
+        "output": {
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "requires_grad": true,
+          "sha256": "5b7085986de44d1582bbf6e09a60c92eb639547832bd9dac63862f91583c186f",
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ],
+          "stride": [
+            48,
+            24,
+            4,
+            1
+          ],
+          "version": 0
+        },
+        "q": {
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "requires_grad": true,
+          "sha256": "3d8e9611a1e78851bf8ee094b61102fa0ed4d60c70192212f28a7595eb4a5953",
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ],
+          "stride": [
+            48,
+            24,
+            4,
+            1
+          ],
+          "version": 0
+        },
+        "v": {
+          "device": "cpu",
+          "dtype": "torch.float32",
+          "requires_grad": true,
+          "sha256": "0b5c7c0ad04da206a69dff68ad9a2c19f2816955009ba862059702232b7bc4f7",
+          "shape": [
+            1,
+            2,
+            6,
+            4
+          ],
+          "stride": [
+            144,
+            4,
+            24,
+            1
+          ],
+          "version": 0
+        }
+      },
+      "pretrained_target_values_captured": false,
+      "pure_backward_arithmetic_isolated": false,
+      "receipt": {
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-fixed-input-v1-20261106/tiny-proofs-second/tiny-checkpointed.json",
+        "sha256": "27b66c15ad066efd119b153312cd41ac7e505556f3c91cae89ca38e66d0c352f"
+      }
+    }
+  ],
+  "local_runtime": {
+    "CUDA_build": null,
+    "architecture": "arm64",
+    "numpy": "2.4.6",
+    "platform": "darwin",
+    "prototype_domain": "tiny local CPU only",
+    "pytest_environment_threads": 4,
+    "python": "3.11.16",
+    "torch": "2.14.1"
+  },
+  "new_university_grant_upload_SSH_or_compute": false,
+  "next_step": "Implement and test a separate native one-boundary observer with exact ownership and original-value replay, then prepare the fixed-input operator. No new target scope requested before a concrete reviewed handoff.",
+  "only_test_storage_span_expectation_changed": true,
+  "operator_or_target_helper_prepared": false,
+  "original_numerical_bounds_unchanged": true,
+  "paid_compute": false,
+  "passed": true,
+  "predecessor_claim_unchanged": true,
+  "pretrained_values_or_CUDA_qualified": false,
+  "previous_target_review": {
+    "path": "report/checks/2026-11-06-common-cotangent-v1-target-review.json",
+    "sha256": "7a892f9f2a286161cca58b9d7a359a357bc99e36c7e6cbc0d050c9470f1506b2"
+  },
+  "prior_sealed_inputs_reverified": 11998,
+  "proposal_source_and_selected_first_boundary_verified": true,
+  "pure_backward_arithmetic_isolated": false,
+  "raw_projection": {
+    "FP32_bytes_per_array": 3145728,
+    "capture_eight_FP32_arrays_bytes": 25165824,
+    "elements_per_array": 786432,
+    "estimate_is_not_actual_storage_or_allocator_peak": true,
+    "four_FP64_reference_arrays_bytes": 25165824,
+    "four_workers_two_phases_four_FP32_returns_bytes": 100663296,
+    "input_layout_storage_span_bytes": {
+      "k": 3145728,
+      "q": 3145728,
+      "v": 9434112
+    },
+    "original_full_model_loss_input_targets_bytes": 20971524,
+    "single_atomic_tensor_allowance_bytes": 16777216,
+    "steady_logical_tensor_bytes": 171966468
+  },
+  "raw_review": {
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-fixed-input-v1-20261106/independent-review/review.json",
+    "sha256": "8413d9a64ed39f4689b50ac49715d06877ef0703a4add39ddd675ca8e991795e"
+  },
+  "research_admitted": false,
+  "resource_proposal_only": {
+    "allocator_bytes": 7516192768,
+    "cache_bytes": 33554432,
+    "capture_bytes": 2415919104,
+    "capture_worker_seconds": 420,
+    "code_bytes": 134217728,
+    "collection_bytes": 3221225472,
+    "collection_seconds": 600,
+    "component_worker_seconds": 120,
+    "component_workers": 4,
+    "emergency_bytes": 16777216,
+    "host": "linux10603",
+    "input_bytes": 134217728,
+    "metadata_bytes": 67108864,
+    "parent": "/var/tmp",
+    "raw_bytes": 536870912,
+    "receipt_reserve_seconds": 120,
+    "setup_bytes": 3221225472,
+    "setup_seconds": 180,
+    "static_reserved_seconds": 1200,
+    "tensor_file_bytes": 16777216,
+    "work_seconds": 1500,
+    "write_proof_bytes": 2684354560,
+    "write_proof_seconds": 60
+  },
+  "review_source": {
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-fixed-input-v1-20261106/independent-review/review.py",
+    "sha256": "116a97de3c0bd1b5fc2189ba73c3ad419c9f92c41a1858ec099301b98473bbdc"
+  },
+  "review_validates_test_receipts_not_independent_recomputation_of_unsaved_toy_arrays": true,
+  "same_QKV_and_grad_output_does_not_establish_identical_private_backend_forward_state": true,
+  "scaffold_YAML_and_diff_checks_passed": true,
+  "scientific_imports_process_network_blocked_during_review": true,
+  "sealed_inputs": 12027,
+  "sealed_manifest": {
+    "files": 12027,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-fixed-input-v1-20261106/independent-review/sealed-inputs.json",
+    "sha256": "40f187012cb833d6e2846a383780272ca356a9e544815c266e13b06e4cb07ff6"
+  },
+  "selection": {
+    "block": 0,
+    "draw": 0,
+    "family": 0,
+    "forward_row_index": 24,
+    "kwargs": {
+      "attn_mask": null,
+      "dropout_p": 0.0,
+      "is_causal": false
+    },
+    "layout": {
+      "k": {
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "requires_grad": true,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ],
+        "stride": [
+          786432,
+          65536,
+          32,
+          1
+        ]
+      },
+      "q": {
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "requires_grad": true,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ],
+        "stride": [
+          786432,
+          65536,
+          32,
+          1
+        ]
+      },
+      "v": {
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "requires_grad": true,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ],
+        "stride": [
+          2359296,
+          32,
+          1152,
+          1
+        ]
+      }
+    },
+    "owner": "predictor.0",
+    "phase": "EOT8-before",
+    "rule": "first original predictor call in frozen execution order; no magnitude ranking",
+    "source_cell": "00"
+  },
+  "source_missing_values": [
+    "q",
+    "k",
+    "v",
+    "output",
+    "grad_output",
+    "dq",
+    "dk",
+    "dv"
+  ],
+  "source_sha256": {
+    "models/predictor_sdpa_fixed_input_v1.py": "72bcca7e97a160537617f09f61dc244e87c0109806593b2549b01f7e32f97857",
+    "scripts/plan_predictor_sdpa_fixed_input_v1.py": "9b92b90e7e5597895ec2616faf579970f1f317690e0eb9a4ca81444b2d447522",
+    "tests/test_predictor_sdpa_fixed_input_v1.py": "84d89e832c181acae2bcda8c2fd6b565881b34747a9b96faba85d456c71c7eae"
+  }
+}

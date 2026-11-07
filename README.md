@@ -1,5 +1,20 @@
 # V-JEPA Robust Overfitting
 
+**Native attention observer verified locally (November 6):**
+[37 focused checks verify exact native values, checkpoint ownership and bounded captures](report/checks/2026-11-06-predictor-sdpa-observer-v1-local-review.md).
+Four fresh small-model CPU processes preserve before/observed/after loss/input
+bytes and capture matching attention tensors. The university operator and
+pretrained CUDA capture remain pending; no new SSH action or resource grant.
+Earlier entries are historical snapshots.
+
+**Fixed-input attention plan verified locally (November 6):**
+[An inert same-QKV/incoming-gradient plan and tiny CPU capture prototype](report/checks/2026-11-06-predictor-sdpa-fixed-input-v1-offline-review.md)
+pass 25 focused checks. The plan preserves the candidate rejection and selects
+the first original predictor attention call. Identical inputs still allow
+backend-specific forward state, so this cannot alone isolate backward arithmetic.
+Next implement the native observer; no new university work or approval now.
+Earlier entries are historical snapshots.
+
 **Four-cell target attribution verified (November 6):**
 [All four saved captures and both ordered decompositions verify](report/checks/2026-11-06-common-cotangent-v1-target-review.md).
 The eleven external cotangent changes dominate this sample's difference;

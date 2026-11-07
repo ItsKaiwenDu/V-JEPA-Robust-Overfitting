@@ -1,0 +1,698 @@
+{
+  "actual_native_boundary_tensors_verified": 32,
+  "all_32_boundary_tensor_values_exact_across_fresh_workers": true,
+  "all_original_GraphTasks_owned_and_hooks_removed": true,
+  "candidate_remains_rejected": true,
+  "checks": {
+    "errors": 0,
+    "failures": 0,
+    "skips": 0,
+    "unique": 37
+  },
+  "date": "2026-11-06",
+  "different_backward_runner_thread_cases": 2,
+  "documentation": {
+    "path": "docs/predictor_sdpa_observer_v1.md",
+    "sha256": "2a976964a22cffaad97f4f6666a083f1b90001812dc3ac5cc86d54a2266224f8"
+  },
+  "failed_partial_captures": [
+    {
+      "actual_saved_tensors": [
+        "k",
+        "output",
+        "q",
+        "v"
+      ],
+      "case": "backward",
+      "error": "cpu-primary-backward-error",
+      "partial_boundary": {
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/pytest-third/native-sdpa-observer0/backward/boundary/boundary.json",
+        "sha256": "74c2fd563013816da8abbcafc2aa246d5c7be0d24b754b162c038f507d168f7c"
+      },
+      "reference_qualified": false,
+      "restored": true,
+      "worker": {
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/pytest-third/native-sdpa-observer0/backward/worker.json",
+        "sha256": "3c378d0ca2ddb5ccb4e0e4897093e728628ed486def7361f94b9b0d3b139994b"
+      }
+    },
+    {
+      "actual_saved_tensors": [
+        "q"
+      ],
+      "case": "save",
+      "error": "cpu-capture-write-error",
+      "partial_boundary": {
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/pytest-third/native-sdpa-observer0/save/boundary/boundary.json",
+        "sha256": "ab1336bc36f1cb93f6071a2ac8aa733b6cd37390179087f1b8d304c37c77d9c1"
+      },
+      "reference_qualified": false,
+      "restored": true,
+      "worker": {
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/pytest-third/native-sdpa-observer0/save/worker.json",
+        "sha256": "5c82d0d4b311b79ae580e42c875a6ef22b9bff2218388a3a08221e09bee7ddaa"
+      }
+    }
+  ],
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "first_checkpoint_mismatch_retained": {
+    "capture_complete": false,
+    "fix": "Only new finite-value diagnostic changed to tensor.detach(); native graph/checkpoint configuration and bounds unchanged.",
+    "original_saved_count": 40,
+    "recompute_saved_count": 36,
+    "worker": {
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/pytest-first/native-sdpa-observer0/creator-0/worker.json",
+      "sha256": "edb0eb4ae08cde3703d1d8aeda2c1786a60c1e753fd64335ea4135e073b5f6ca"
+    }
+  },
+  "fresh_positive_CPU_PIDs": [
+    87536,
+    87541,
+    87545,
+    87551
+  ],
+  "full_native_before_observed_after_loss_input_returns_exact": 24,
+  "full_native_controls_bitwise_anchor_audit": {
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/independent-review/bitwise-native-anchor-audit.json",
+    "sha256": "a353a1e280b54bbcf7ad908d0d69e05a08c6d7c0e8b72d5c04167405d556401d"
+  },
+  "full_original_EOT8_masks_per_worker": 16,
+  "independent_NumPy_FP64_saved_array_checks": [
+    {
+      "case": "creator-0",
+      "checks": {
+        "dk": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 6.045001857375804e-16,
+          "max_tolerance_ratio": 3.0224340510223703e-09,
+          "passed": true,
+          "relative_l2_error": 1.3786102489284615e-07,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "dq": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 3.3296720017471034e-13,
+          "max_tolerance_ratio": 1.6360606142825708e-06,
+          "passed": true,
+          "relative_l2_error": 1.1577041315220293e-07,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "dv": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.220878101105543e-11,
+          "max_tolerance_ratio": 6.228101227698814e-05,
+          "passed": true,
+          "relative_l2_error": 7.455547426321817e-08,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "output": {
+          "atol": 2e-05,
+          "failed_elements": 0,
+          "max_absolute_error": 7.2552385418922505e-09,
+          "max_tolerance_ratio": 0.0003083569023029144,
+          "passed": true,
+          "relative_l2_error": 5.447643335644862e-08,
+          "rtol": 0.0001,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    {
+      "case": "other-0",
+      "checks": {
+        "dk": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 6.045001857375804e-16,
+          "max_tolerance_ratio": 3.0224340510223703e-09,
+          "passed": true,
+          "relative_l2_error": 1.3786102489284615e-07,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "dq": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 3.3296720017471034e-13,
+          "max_tolerance_ratio": 1.6360606142825708e-06,
+          "passed": true,
+          "relative_l2_error": 1.1577041315220293e-07,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "dv": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.220878101105543e-11,
+          "max_tolerance_ratio": 6.228101227698814e-05,
+          "passed": true,
+          "relative_l2_error": 7.455547426321817e-08,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "output": {
+          "atol": 2e-05,
+          "failed_elements": 0,
+          "max_absolute_error": 7.2552385418922505e-09,
+          "max_tolerance_ratio": 0.0003083569023029144,
+          "passed": true,
+          "relative_l2_error": 5.447643335644862e-08,
+          "rtol": 0.0001,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    {
+      "case": "creator-1",
+      "checks": {
+        "dk": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 6.045001857375804e-16,
+          "max_tolerance_ratio": 3.0224340510223703e-09,
+          "passed": true,
+          "relative_l2_error": 1.3786102489284615e-07,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "dq": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 3.3296720017471034e-13,
+          "max_tolerance_ratio": 1.6360606142825708e-06,
+          "passed": true,
+          "relative_l2_error": 1.1577041315220293e-07,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "dv": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.220878101105543e-11,
+          "max_tolerance_ratio": 6.228101227698814e-05,
+          "passed": true,
+          "relative_l2_error": 7.455547426321817e-08,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "output": {
+          "atol": 2e-05,
+          "failed_elements": 0,
+          "max_absolute_error": 7.2552385418922505e-09,
+          "max_tolerance_ratio": 0.0003083569023029144,
+          "passed": true,
+          "relative_l2_error": 5.447643335644862e-08,
+          "rtol": 0.0001,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        }
+      }
+    },
+    {
+      "case": "other-1",
+      "checks": {
+        "dk": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 6.045001857375804e-16,
+          "max_tolerance_ratio": 3.0224340510223703e-09,
+          "passed": true,
+          "relative_l2_error": 1.3786102489284615e-07,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "dq": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 3.3296720017471034e-13,
+          "max_tolerance_ratio": 1.6360606142825708e-06,
+          "passed": true,
+          "relative_l2_error": 1.1577041315220293e-07,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "dv": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.220878101105543e-11,
+          "max_tolerance_ratio": 6.228101227698814e-05,
+          "passed": true,
+          "relative_l2_error": 7.455547426321817e-08,
+          "rtol": 0.002,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "output": {
+          "atol": 2e-05,
+          "failed_elements": 0,
+          "max_absolute_error": 7.2552385418922505e-09,
+          "max_tolerance_ratio": 0.0003083569023029144,
+          "passed": true,
+          "relative_l2_error": 5.447643335644862e-08,
+          "rtol": 0.0001,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        }
+      }
+    }
+  ],
+  "kind": "native-SDPA-observer-local-CPU-saved-review-v1",
+  "local_runtime": {
+    "CUDA_build": null,
+    "architecture": "arm64",
+    "numpy": "2.4.6",
+    "python": "3.11.16",
+    "torch": "2.14.1"
+  },
+  "model_autograd_SDPA_CUDA_process_network_blocked_during_saved_review": true,
+  "native_cotangent_or_forward_replaced": false,
+  "native_physical_allocation_alignment_or_padding_identity_claimed": false,
+  "native_route_and_adapter_sources_frozen": true,
+  "new_SDPA_or_derivative_evaluation_during_review": false,
+  "new_SSH_upload_proof_or_university_work": false,
+  "new_university_grant_or_target_entry_operator_helper": false,
+  "next_step": "Implement/test the fixed-input component worker, frozen FP64-reference publication, actual backend evidence and fresh replay; then prepare bounded same-SSH operator/handoff before any new university scope request.",
+  "numerical_bounds_unchanged": true,
+  "paid_compute": false,
+  "passed": true,
+  "pretrained_or_CUDA_or_five_phase_or_performance_qualified": false,
+  "previous_review": {
+    "path": "report/checks/2026-11-06-predictor-sdpa-fixed-input-v1-offline-review.json",
+    "sha256": "9588a9c82bbcd3b9a0c8ea38876b99533079fe33cc407c955163fc43b6a432ff"
+  },
+  "prior_25_and_68_checks_not_rerun": true,
+  "prior_sealed_inputs_reverified": 12027,
+  "private_instance_alias_restored_no_global_patch": true,
+  "publication_collision_guard_added_after_second_run": true,
+  "pure_backward_arithmetic_isolated": false,
+  "raw_review": {
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/independent-review/review.json",
+    "sha256": "c33a4e1b94e6717a923aa189ed4b9738211c07a2597b29be713db0c3c594da14"
+  },
+  "research_admitted": false,
+  "review_source": {
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/independent-review/review.py",
+    "sha256": "8328d0b015d9c12d489c2e880a135e81b0aa911824bc89dacf5dbd1d9a4239b7"
+  },
+  "scaffold_YAML_and_diff_checks_passed": true,
+  "sealed_inputs": 12885,
+  "sealed_manifest": {
+    "files": 12885,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/independent-review/sealed-inputs.json",
+    "sha256": "3e59041ec7cc70f094b83e0c81e0c066854f5379b6ffb239230aef5a09ff2e64"
+  },
+  "source_offsets_strides_alias_group_rebuild_checked": true,
+  "source_sha256": {
+    "models/predictor_sdpa_capture_record_v1.py": "cdd02a830a65a2ab2185c9b5bc59e1026570f50542d78fe480750ab198198f06",
+    "models/predictor_sdpa_observer_cpu_v1.py": "9a3c1c1fd89be150b153ed62ed6d6871ab8266e216547a3856f07b6fc1650527",
+    "models/predictor_sdpa_observer_v1.py": "5e6e00593f3befb1979b37f0fec155bb35322c9e4c196a7abe968d2f0ff68047",
+    "scripts/check_predictor_sdpa_observer_v1.py": "e4675f2526b7b50087465a518484a6a369b0ee27d1f170bfaacbc317a8f31628",
+    "tests/test_predictor_sdpa_observer_v1.py": "542c411ec1514aa88c797849632fefab7d57a3e0ed48b6f67f2c547a15cb1566"
+  },
+  "standalone_CPU_exact_replay_actual_test_receipts": 2,
+  "test_history_not_summed": {
+    "first": {
+      "errors": 26,
+      "failures": 0,
+      "skips": 0,
+      "unique": 36
+    },
+    "second": {
+      "errors": 0,
+      "failures": 0,
+      "skips": 0,
+      "unique": 36
+    },
+    "third": {
+      "errors": 0,
+      "failures": 0,
+      "skips": 0,
+      "unique": 37
+    }
+  },
+  "workers": [
+    {
+      "boundary": {
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/pytest-third/native-sdpa-observer0/creator-0/boundary/boundary.json",
+        "sha256": "2d2ae728d505e03cc7fa0cfce4a86fac7adaf4dd759ad9d39bfb7a8d9d9902b1"
+      },
+      "case": "creator-0",
+      "coverage": {
+        "CUDA_kernel_qualified": false,
+        "backward_calls": 64,
+        "five_phase_qualified": false,
+        "forward_calls": 64,
+        "hooks_removed": true,
+        "kind": "native-SDPA-observation-one-GraphTask-coverage-v1",
+        "owners": 4,
+        "scopes": 1
+      },
+      "gradient_observations": {
+        "dk": {
+          "graph_id": 1,
+          "hook_removed": true,
+          "pid": 87536,
+          "thread": 8544805568
+        },
+        "dq": {
+          "graph_id": 1,
+          "hook_removed": true,
+          "pid": 87536,
+          "thread": 8544805568
+        },
+        "dv": {
+          "graph_id": 1,
+          "hook_removed": true,
+          "pid": 87536,
+          "thread": 8544805568
+        },
+        "grad_output": {
+          "graph_id": 1,
+          "hook_removed": true,
+          "pid": 87536,
+          "thread": 8544805568
+        }
+      },
+      "native_boundary_tensors": 8,
+      "original_loss_input_before_observed_after_exact": true,
+      "pid": 87536,
+      "scope": {
+        "call_threads": [
+          8544805568
+        ],
+        "creator_thread": 8544805568,
+        "graph_id": 1,
+        "hook_removed": true,
+        "index": 0,
+        "input_id": 4617984736,
+        "loss_id": 4612658496,
+        "phase": "EOT8-before",
+        "pid": 87536,
+        "root_hook_thread": 8544805568,
+        "runner_thread": 8544805568,
+        "state": "complete"
+      },
+      "wall_seconds": 0.9935127920180093,
+      "worker": {
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/pytest-third/native-sdpa-observer0/creator-0/worker.json",
+        "sha256": "d38ba3b3cd32ddc41ad1da316777a6c31440d2ab56a347970efbdf6e11c32742"
+      }
+    },
+    {
+      "boundary": {
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/pytest-third/native-sdpa-observer0/other-0/boundary/boundary.json",
+        "sha256": "96e663deaf20cca0f3db028f17082c9b96eecadf7b5f22095317e0232c14b847"
+      },
+      "case": "other-0",
+      "coverage": {
+        "CUDA_kernel_qualified": false,
+        "backward_calls": 64,
+        "five_phase_qualified": false,
+        "forward_calls": 64,
+        "hooks_removed": true,
+        "kind": "native-SDPA-observation-one-GraphTask-coverage-v1",
+        "owners": 4,
+        "scopes": 1
+      },
+      "gradient_observations": {
+        "dk": {
+          "graph_id": 1,
+          "hook_removed": true,
+          "pid": 87541,
+          "thread": 6173454336
+        },
+        "dq": {
+          "graph_id": 1,
+          "hook_removed": true,
+          "pid": 87541,
+          "thread": 6173454336
+        },
+        "dv": {
+          "graph_id": 1,
+          "hook_removed": true,
+          "pid": 87541,
+          "thread": 6173454336
+        },
+        "grad_output": {
+          "graph_id": 1,
+          "hook_removed": true,
+          "pid": 87541,
+          "thread": 6173454336
+        }
+      },
+      "native_boundary_tensors": 8,
+      "original_loss_input_before_observed_after_exact": true,
+      "pid": 87541,
+      "scope": {
+        "call_threads": [
+          6173454336
+        ],
+        "creator_thread": 8544805568,
+        "graph_id": 1,
+        "hook_removed": true,
+        "index": 0,
+        "input_id": 4948079344,
+        "loss_id": 4961342784,
+        "phase": "EOT8-before",
+        "pid": 87541,
+        "root_hook_thread": 6173454336,
+        "runner_thread": 6173454336,
+        "state": "complete"
+      },
+      "wall_seconds": 1.0494337500131223,
+      "worker": {
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/pytest-third/native-sdpa-observer0/other-0/worker.json",
+        "sha256": "593a04de545e2b8df3de2b88f7482fcef3af5f9f39048e634cbdc41478fcb1d7"
+      }
+    },
+    {
+      "boundary": {
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/pytest-third/native-sdpa-observer0/creator-1/boundary/boundary.json",
+        "sha256": "399befcac109f914b52f051e466062fb9001cf6b192f344d7139bd7d79605655"
+      },
+      "case": "creator-1",
+      "coverage": {
+        "CUDA_kernel_qualified": false,
+        "backward_calls": 64,
+        "five_phase_qualified": false,
+        "forward_calls": 64,
+        "hooks_removed": true,
+        "kind": "native-SDPA-observation-one-GraphTask-coverage-v1",
+        "owners": 4,
+        "scopes": 1
+      },
+      "gradient_observations": {
+        "dk": {
+          "graph_id": 1,
+          "hook_removed": true,
+          "pid": 87545,
+          "thread": 8544805568
+        },
+        "dq": {
+          "graph_id": 1,
+          "hook_removed": true,
+          "pid": 87545,
+          "thread": 8544805568
+        },
+        "dv": {
+          "graph_id": 1,
+          "hook_removed": true,
+          "pid": 87545,
+          "thread": 8544805568
+        },
+        "grad_output": {
+          "graph_id": 1,
+          "hook_removed": true,
+          "pid": 87545,
+          "thread": 8544805568
+        }
+      },
+      "native_boundary_tensors": 8,
+      "original_loss_input_before_observed_after_exact": true,
+      "pid": 87545,
+      "scope": {
+        "call_threads": [
+          8544805568
+        ],
+        "creator_thread": 8544805568,
+        "graph_id": 1,
+        "hook_removed": true,
+        "index": 0,
+        "input_id": 5524351456,
+        "loss_id": 5613254560,
+        "phase": "EOT8-before",
+        "pid": 87545,
+        "root_hook_thread": 8544805568,
+        "runner_thread": 8544805568,
+        "state": "complete"
+      },
+      "wall_seconds": 1.090157625003485,
+      "worker": {
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/pytest-third/native-sdpa-observer0/creator-1/worker.json",
+        "sha256": "a3aa0d03656e6cc6de77aa49b034e4d094957775a3b09c94af1ba907a81a23a4"
+      }
+    },
+    {
+      "boundary": {
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/pytest-third/native-sdpa-observer0/other-1/boundary/boundary.json",
+        "sha256": "433888a14bb5fd68cf07d31ab113390af3b1a613cfadbd4e166eca65cf8ba209"
+      },
+      "case": "other-1",
+      "coverage": {
+        "CUDA_kernel_qualified": false,
+        "backward_calls": 64,
+        "five_phase_qualified": false,
+        "forward_calls": 64,
+        "hooks_removed": true,
+        "kind": "native-SDPA-observation-one-GraphTask-coverage-v1",
+        "owners": 4,
+        "scopes": 1
+      },
+      "gradient_observations": {
+        "dk": {
+          "graph_id": 1,
+          "hook_removed": true,
+          "pid": 87551,
+          "thread": 6350303232
+        },
+        "dq": {
+          "graph_id": 1,
+          "hook_removed": true,
+          "pid": 87551,
+          "thread": 6350303232
+        },
+        "dv": {
+          "graph_id": 1,
+          "hook_removed": true,
+          "pid": 87551,
+          "thread": 6350303232
+        },
+        "grad_output": {
+          "graph_id": 1,
+          "hook_removed": true,
+          "pid": 87551,
+          "thread": 6350303232
+        }
+      },
+      "native_boundary_tensors": 8,
+      "original_loss_input_before_observed_after_exact": true,
+      "pid": 87551,
+      "scope": {
+        "call_threads": [
+          6350303232
+        ],
+        "creator_thread": 8544805568,
+        "graph_id": 1,
+        "hook_removed": true,
+        "index": 0,
+        "input_id": 6079771136,
+        "loss_id": 6080025920,
+        "phase": "EOT8-before",
+        "pid": 87551,
+        "root_hook_thread": 6350303232,
+        "runner_thread": 6350303232,
+        "state": "complete"
+      },
+      "wall_seconds": 0.987620625004638,
+      "worker": {
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-observer-v1-20261106/pytest-third/native-sdpa-observer0/other-1/worker.json",
+        "sha256": "cdfe884ff7039f514bcb24e5b9dbf903cbbfcc1a1e3ff02215b324041a5e7201"
+      }
+    }
+  ]
+}

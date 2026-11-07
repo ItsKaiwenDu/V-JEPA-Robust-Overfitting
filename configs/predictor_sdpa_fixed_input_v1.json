@@ -1,0 +1,242 @@
+{
+  "actual_device_typed_CUDA_forward_and_backward_evidence_required": true,
+  "all_component_cells_same_QKV_and_grad_output_logical_hashes_and_layouts": true,
+  "authorized": false,
+  "automatic_retries": 0,
+  "candidate_native_numerical_passed": false,
+  "capture_is_native_observation_no_cotangent_replacement": true,
+  "capture_original_full_loss_input_must_replay_exactly": true,
+  "cleanup": false,
+  "component_bounds": {
+    "dk": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dq": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dv": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "output": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    }
+  },
+  "component_original_must_match_captured_native_output_and_QKV_gradients_exactly": true,
+  "evidence": {
+    "call_record": {
+      "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/linux10603-final/attended-q8txgu3g/saved/results/0/attention-calls.jsonl",
+      "sha256": "2abbdceeb5e73cd21a94450338025b1fa1f88cb862e2e3f9b3d374fe6047a29d"
+    },
+    "native_original_record": {
+      "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/linux10603-final/attended-q8txgu3g/saved/results/0/worker.json",
+      "sha256": "1382b8b1c71ca9763f6d054ac60ffea2f35acdc91e1d9447089079815cfab4cd"
+    },
+    "predecessor_review": {
+      "path": "report/checks/2026-11-06-common-cotangent-v1-target-review.json",
+      "sha256": "7a892f9f2a286161cca58b9d7a359a357bc99e36c7e6cbc0d050c9470f1506b2"
+    },
+    "prior_manifest": {
+      "files": 11998,
+      "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/independent-target-review/sealed-inputs.json",
+      "sha256": "de0806600bf37392d0b4a9e67d3d2986cd70097b1ffee352515e3154c2ceadbf"
+    },
+    "raw_predecessor_review": {
+      "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/independent-target-review/review.json",
+      "sha256": "228713c4b173660d3ec34aea89bcd4e39a4caf8826f9f987a95e643d4bb43460"
+    },
+    "sealed_prior_inputs_reverified": 11998,
+    "source_sha256": {
+      "models/attention_saved_evidence.py": "d561f3acf2e247a4191430204c1d2445f7d747fa7fde117117580f79263235c0",
+      "models/predictor_sdpa_fixed_input_v1.py": "72bcca7e97a160537617f09f61dc244e87c0109806593b2549b01f7e32f97857",
+      "scripts/plan_predictor_sdpa_fixed_input_v1.py": "9b92b90e7e5597895ec2616faf579970f1f317690e0eb9a4ca81444b2d447522",
+      "tests/test_predictor_sdpa_fixed_input_v1.py": "84d89e832c181acae2bcda8c2fd6b565881b34747a9b96faba85d456c71c7eae"
+    }
+  },
+  "existing_output_cotangent_is_at_predictor_output_not_SDPA_output": true,
+  "failure_action": "preserve values and stop before next worker; no fallback or retries",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "fresh_process_replay_requires_exact_per_arm_outputs_and_QKV_gradients": true,
+  "independent_FP64_analytical_oracle_required_before_acceptance": true,
+  "internal_forward_rounding_remains_in_public_SDPA_VJP_comparison": true,
+  "kind": "predictor-same-qkv-cotangent-proposal-v1",
+  "missing_actual_target_values": [
+    "q",
+    "k",
+    "v",
+    "output",
+    "grad_output",
+    "dq",
+    "dk",
+    "dv"
+  ],
+  "new_target_execution_permitted": false,
+  "numerical_tolerances_changed": false,
+  "operator_present": false,
+  "oracle_bookkeeping_bounds": {
+    "atol": 1e-14,
+    "rtol": 1e-12
+  },
+  "original_full_model_bounds": {
+    "input": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "loss": {
+      "atol": 2e-06,
+      "rtol": 1e-05
+    }
+  },
+  "original_full_model_kernel_identity_proved": false,
+  "paid_compute": false,
+  "parallel_host": false,
+  "performance_qualified": false,
+  "prior_consumed_claim_sha256": "9066c0afb97cb9e92f02e047806124aab73fff36cc9cdb46b4c31e28d167e94c",
+  "private_backend_backward_API_or_synthetic_saved_state_permitted": false,
+  "proposal_only": true,
+  "proposed_serial_workers": [
+    "native-original-capture",
+    "fixed-original-0",
+    "fixed-math-0",
+    "fixed-original-1",
+    "fixed-math-1"
+  ],
+  "pure_backward_arithmetic_isolated": false,
+  "raw_projection": {
+    "FP32_bytes_per_array": 3145728,
+    "capture_eight_FP32_arrays_bytes": 25165824,
+    "elements_per_array": 786432,
+    "estimate_is_not_actual_storage_or_allocator_peak": true,
+    "four_FP64_reference_arrays_bytes": 25165824,
+    "four_workers_two_phases_four_FP32_returns_bytes": 100663296,
+    "input_layout_storage_span_bytes": {
+      "k": 3145728,
+      "q": 3145728,
+      "v": 9434112
+    },
+    "original_full_model_loss_input_targets_bytes": 20971524,
+    "single_atomic_tensor_allowance_bytes": 16777216,
+    "steady_logical_tensor_bytes": 171966468
+  },
+  "research_admitted": false,
+  "reset_old_claim_or_clock": false,
+  "resource_proposal": {
+    "allocator_bytes": 7516192768,
+    "cache_bytes": 33554432,
+    "capture_bytes": 2415919104,
+    "capture_worker_seconds": 420,
+    "code_bytes": 134217728,
+    "collection_bytes": 3221225472,
+    "collection_seconds": 600,
+    "component_worker_seconds": 120,
+    "component_workers": 4,
+    "emergency_bytes": 16777216,
+    "host": "linux10603",
+    "input_bytes": 134217728,
+    "metadata_bytes": 67108864,
+    "parent": "/var/tmp",
+    "raw_bytes": 536870912,
+    "receipt_reserve_seconds": 120,
+    "setup_bytes": 3221225472,
+    "setup_seconds": 180,
+    "static_reserved_seconds": 1200,
+    "tensor_file_bytes": 16777216,
+    "work_seconds": 1500,
+    "write_proof_bytes": 2684354560,
+    "write_proof_seconds": 60
+  },
+  "same_QKV_and_grad_output_imply_same_backend_internal_saved_state": false,
+  "scientific_call_proposal": {
+    "component_profiled_iterations": 4,
+    "component_timed_or_warmup_iterations": 0,
+    "component_untimed_iterations": 4,
+    "full_model_backward": 1,
+    "full_model_mask_draws": 8,
+    "full_model_mask_families": 2,
+    "independent_FP64_oracle": 1
+  },
+  "selection": {
+    "block": 0,
+    "draw": 0,
+    "family": 0,
+    "forward_row_index": 24,
+    "kwargs": {
+      "attn_mask": null,
+      "dropout_p": 0.0,
+      "is_causal": false
+    },
+    "layout": {
+      "k": {
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "requires_grad": true,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ],
+        "stride": [
+          786432,
+          65536,
+          32,
+          1
+        ]
+      },
+      "q": {
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "requires_grad": true,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ],
+        "stride": [
+          786432,
+          65536,
+          32,
+          1
+        ]
+      },
+      "v": {
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "requires_grad": true,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ],
+        "stride": [
+          2359296,
+          32,
+          1152,
+          1
+        ]
+      }
+    },
+    "owner": "predictor.0",
+    "phase": "EOT8-before",
+    "rule": "first original predictor call in frozen execution order; no magnitude ranking",
+    "source_cell": "00"
+  },
+  "standalone_retrieval": false
+}
