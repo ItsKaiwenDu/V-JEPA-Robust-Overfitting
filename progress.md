@@ -1,5 +1,39 @@
 # Research Progress Reports
 
+## 2026-11-07 — Fixed-input attention components verified locally
+
+61 focused CPU checks pass. Four fresh standalone processes load the same actual
+saved native Q/K/V and SDPA incoming gradient, preserve recorded layout/offset/
+alias relations and share one frozen FP64 analytical reference. Original workers
+reproduce all native boundary returns exactly; math passes the original bounds.
+Within-arm fresh-process and profiled replay are bitwise exact. Actual CPU backend
+families are observed as CPU flash and math; synthetic CUDA parser tests qualify
+no actual CUDA execution. No speed or capacity claim is made.
+
+The saved-array review independently reconstructs the reference under original
+bookkeeping bounds and verifies all 32 FP32 returns, source/runtime/input/serial
+bindings and actual CPU traces with model/autograd/SDPA/CUDA/process/network
+blocked. It reverified 12,885 old pins plus the native byte audit and sealed 15,585
+inputs. Failure tests preserve actual values, partials, traces and primary errors;
+changed/rehashed numerical evidence and unsafe NPY publication refuse.
+
+The first run has 59 passes / one incorrect test exception expectation; only the
+assertion changed and one actual no-regeneration test was added. The second run
+passes 61; both source/log histories remain, not summed. Review discovery fixes
+for pytest shortened names/current alias also remain, with no worker/test rerun.
+Earlier 37/25/68 suites were not rerun. Prior scientific sources/claims stay frozen.
+
+This is small saved-native CPU evidence, not released-pretrained CUDA. Backend
+private forward states remain distinct, so backward arithmetic is not isolated.
+The full-model candidate remains rejected at 3,724 input-gradient entries, with
+both preceding decomposition orders and interaction retained.
+
+Next prepare/test/review the separate bounded same-SSH operator and target
+handoff before requesting one new exact university scope. No target worker,
+operator/helper, authorization, attempt, SSH/upload, proof, cleanup or paid work
+is created now. Both sessions may idle; caps/holds/reconciliation stay unchanged.
+[Component review](report/checks/2026-11-07-predictor-sdpa-components-v1-local-review.md).
+
 ## 2026-11-06 — Native attention observer verified on the small CPU model
 
 Implemented a separate native one-boundary observer around the frozen

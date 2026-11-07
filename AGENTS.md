@@ -2,6 +2,54 @@
 
 ## Current stage
 
+LATEST Nov07: FIXED-INPUT SDPA COMPONENT WORKERS VERIFIED LOCALLY; NO TARGET OPERATOR.
+Read report/checks/2026-11-07-predictor-sdpa-components-v1-local-review.json/md
+and docs/predictor_sdpa_components_v1.md FIRST. Separate component worker,
+bounded NPY reference/return records, actual backend association recognizer,
+local CPU CLI and 61 focused checks. ALL predecessor science/claims FROZEN.
+61 PASS zeroerrors/failures/skips. First59PASS/1wrong test exception expectation
+(correctly refused reference had no worker file); only assertion fixed plus one
+actual no-regeneration test added. Sources/logs/values of both runs preserved,
+NOTsummed; earlier37/25/68 NOT rerun. Production source unchanged betweenruns.
+4fresh CPU PIDs2989/3029/3034/3121:original0/math0/original1/math1. Same saved
+actual native QKV/SDPAdO1x2x32x32, offsets/strides/backingextents/aliases held;
+Vnon-dense/nonzerooffset. Paddingzeroed/native physicalalignmentNOTclaimed.
+ONEcanonical chunk128 NumPyFP64 publication byPID2989; same immutable bytes
+all4, laterbuilds0; actualextra mathworker passes withoraclecall disabled.
+Reference marker NOTpassingworker. Original0/1 untimed+profile output/dQdKdV
+EXACTnative=16bytecomparisons. All32FP32returns passFP64bounds; allprofiled
+andwithinarm freshreplay EXACT. Actual CPUflash/math/CPUflash/math,75/245/75/245
+events. Botharmsdifferwithinbounds:out321/dQ1517/dK1780/dV1bitwiseentries;
+max componentcrossboundratio.000316660. No timing/performancequalification.
+Output1e-4/2e-5,QKV.002/2e-7,book1e-12/1e-14,fullmodelbounds unchanged.
+Savedreaders recomputeactualnumericalchecks; rehashedpassingbooleans refuse.
+Partial/nonfinite/numerical/profile/backend/storagefailures preserve actual
+values/logs/trace/primaryexceptions; no retry/newcell onfailure. Privatefiles/
+safeNPYheaders/extents/no-pickle/atomicmarkers/earlierreceipts/source/runtime/
+flags/offsetalias/freshPID guards tested. CUDArecognizer parserfixtures ONLY;
+requires actualoperator-associated recognizedkernel families bothphases,
+device0; unsupportedflash/cuDNN/versionevidence REFUSES/no fallback. Default
+backend NEVERassumed efficient. NOactualCUDAproof atthischeckpoint.
+Independent savedreview blocksmodel/autograd/SDPA/CUDA/process/network;
+reconstructedcanonicalFP64 andcheckedallactualreturns/native/replay/CPUtraces,
+reverified12885oldpins+separatebyteaudit;sealed15585. Two reviewdiscovery
+refusals(pytestshortnames/currentalias) preserved/fixed ONLYreviewpaths;no
+worker/test rerun. Live reviewerstdout excludedfromseal. Localarm64Py3.11.16/
+Torch2.14.1/NumPy2.4.6;NOTpretrainedCUDA/capacity/research evidence.
+CandidateREJECTED3724;bothordered4cellterms+interaction intact. SameQKV/dO
+NOTidentical backendprivateforwardstate;purebackwardarithmetic NOTisolated.
+NOtargetcaptureworker/operator/helper/control/AUTH/ATTEMPT/SSH/upload/proof/
+newuniversitygrant/cleanup/retrieval/paidcompute. CPUentry refusesCUDA/hosts.
+Latestoldclaim9066c0afb97cb9e92f02e047806124aab73fff36cc9cdb46b4c31e28d167e94c
+CONSUMEDimmutable;neveroldhelper/reset/leftovertime/fallback. Bothhostsmayidle.
+NEXT prepare/test/review SEPARATE boundedsameSSHoperator+targethandoff under
+inert25minproposal:originalonlynativecapture/exactfullcontrols then4serial
+components/continuingguards+collection. ONLYafterconcreteprep askONEnewscope
++freshstatus. Noask/userSSH now. No kernel/fivephase/optimizer/perf/research
+admission. Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/
+40reserve/wallet6.56/reconciliationfalse unchanged;knownRunpodterminated.
+Usercommits self; NEVER stage/commit/push. EarlierLATEST entries arehistory.
+
 LATEST Nov06: NATIVE ONE-SDPA OBSERVER VERIFIED LOCALLY; NO TARGET OPERATOR.
 Read report/checks/2026-11-06-predictor-sdpa-observer-v1-local-review.json/md
 and docs/predictor_sdpa_observer_v1.md FIRST. Separate observer, bounded record/

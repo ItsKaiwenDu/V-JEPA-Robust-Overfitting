@@ -1,5 +1,12 @@
 # V-JEPA Robust Overfitting
 
+**Fixed-input attention components verified locally (November 7):**
+[61 checks verify one frozen FP64 reference, actual saved inputs and fresh replay](report/checks/2026-11-07-predictor-sdpa-components-v1-local-review.md).
+Four CPU processes preserve native inputs and pass original component bounds.
+Target capture, actual CUDA proof and the university operator remain pending;
+the full-model candidate stays rejected. No new SSH action or resource grant.
+Earlier entries are historical snapshots.
+
 **Native attention observer verified locally (November 6):**
 [37 focused checks verify exact native values, checkpoint ownership and bounded captures](report/checks/2026-11-06-predictor-sdpa-observer-v1-local-review.md).
 Four fresh small-model CPU processes preserve before/observed/after loss/input
