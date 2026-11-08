@@ -2,6 +2,167 @@
 
 ## Current stage
 
+LATEST Nov07: METADATA READ CONSUMED; ACTUAL MASK-FILE GUARD DEFECT IDENTIFIED.
+Read report/checks/2026-11-07-sdpa-metadata-result-review.json/md FIRST.
+Separate approved probe returned74051B,144filemetadata records,9savedstatus/log
+reads27323B,0.0034s inspector. Its PROBE_ATTEMPT is now CONSUMED; neverrerun
+probe/originalhelper/resetAUTH/claim/clocks. Evidencepins saved in raw
+sdpa-collection-incident-20261107/metadata-result-review/probe-evidence-pins.json.
+SOLEobserved typed violation results/capture/mask-indices.json146562B>65536B.
+Frozen inventory also runs duringcapture; supervisor+session bothguardrefused.
+Original full2.5GiBproof reportsPASS/exit0; nativecapture INCOMPLETE, baseline
+matches frozencontract, onlypartialworker/targets/mask files, no newnative
+loss/input/boundary returns, zero componentcomparisons started. No numerical
+pass/failure/backend/performance/research claim. Candidate3724rejection remains.
+Do not confuse stored expected anchor hashes with new computed gradients.
+Mask/tensor contents NOTretrieved/validated; no fullretrieval needed for guardbug.
+Independent savedreview blocks science imports/process/network; reverified21494
+prep pins and six originalincident bytes+mtimes. Prior15testsNOT rerun/summed.
+SavedSSHstderr0B; no transportexitreceipt, so do not inventnumericSSHexitstatus.
+Bothclaims consumed; alloldsource/control/AUTH/rawoutputs FROZEN. No newagentSSH,
+serverwrite/science/proof/paidwork. Financecaps/holds/reconciliation unchanged.
+NEXT offlineprepare separatelyversioned exact-path mask-cap correction + full
+EOT8serialization regression, partial/completed/overlimit/unrelatedfile checks.
+Recorded8draws*2families=32768indices; syntheticmax2047 compactJSON164322B.
+Proposal exactmask256KiB ONLY, attention-scopes64KiB+aggregate64MiBmeta and
+allnumerical/otherguards stay. Proposal NOTapplied/approved target scope.
+Make concrete/review before ONEnewexact universityscope; neveroldgrantretry.
+Usercommitsself;neverstage/commit/push. EarlierLATEST entries historical.
+
+LATEST Nov07: METADATA-ONLY READ APPROVED, ARMED AND UNUSED.
+Read report/checks/2026-11-07-sdpa-metadata-probe-authorization.json/md FIRST.
+Exact approval request_user_input_async/call_b8c5a4d244a74c21ab0f2cd45fe365c6/0
+PERSISTS; do not ask again for this unchanged scope. Private approval and NEW
+probe AUTHORIZATION saved mode0600; AUTH28a8910fe91aa8816f2c90661821eadc0c24c82438d3753558a35419e8a3a939.
+Only rawsdpa-collection-incident-20261107/metadata-probe-01/run-once.sh is armed.
+PLAN179152908e4e788e5a345336877f8a9062f222fa67b40fdc7f361c4b5ad9704c unchanged.
+One exact existing /var/tmp/vjepa-native-sdpa-v1-20261107-hfdwn566 on linux10603;
+7611B inspector+boundmetadata via stdin;20sread/1MiBresponse/180stransport incllogin.
+File metadata + bounded allowlisted status/log tails ONLY. No array/archive/
+proof/cache contents, server writes, model/GPU/proof/paid work or numericalretry.
+Independent local saved review reverifies21494prep pins, six original incident
+bytes+mtimes, source/plan/helper/publickey/auth; science imports/process/network
+blocked. Prior15tests NOT rerun/summed; helper syntaxPASS. NO PROBE_ATTEMPT,
+newSSH or targetread yet. NEXT user runs exact LOCAL Mac helper ONCE outsideSSH,
+password promptly/Terminalopen up3min; collect Done/error then independentreview.
+NEVER agentSSH/runhelper/oldexperimentfallback/retry/reset claim or clocks.
+Originalexperiment ATTEMPTc4afa75ef3c1ccb126f2c819d00b04ff9ce81ac671bbe153a30403edd17f8b5f
+CONSUMED; filename/scientificoutcome UNKNOWN until metadata review.
+Financialcaps/holds/reconciliation, candidate3724rejection and bounds unchanged.
+Usercommits self;neverstage/commit/push. EarlierLATEST entries historical.
+
+LATEST Nov07: NATIVE SDPA ATTEMPT CONSUMED; COLLECTION FAILED, SCIENCE UNKNOWN.
+Read report/checks/2026-11-07-native-sdpa-collection-incident.json/md FIRST.
+Originalrawpredictor-sdpa-handoff-v1-20261107/linux10603-final/ATTEMPT.json
+CONSUMEDc4afa75ef3c1ccb126f2c819d00b04ff9ce81ac671bbe153a30403edd17f8b5f.
+Sessionattended-36ktqmyp;response229B ONLYscratchreceipt, exit1,stderr561B:
+ValueError Native SDPA typed-file ceiling exceeded incollectioninventory.
+ClientJSONDecodeError SECONDARY missingcollectionheader. Remoteexactfilename/
+scientificoutcome UNKNOWN. All originalsource/claim/control/AUTH/response/
+transport/stderrbytes+mtimes preserved;21494preppins reverified. NEVERrerun
+oldhelper/resetclaim/AUTH/clocks or assume numericalsuccess/failure.
+Exactremote /var/tmp/vjepa-native-sdpa-v1-20261107-hfdwn566 onlinux10603.
+Localcounterexamples partialarchive/cachegeneric1MiB NOTprovedactualtrigger.
+Separate rawsdpa-collection-incident-20261107/metadata-probe-01 READYUNARMED.
+PLAN179152908e4e788e5a345336877f8a9062f222fa67b40fdc7f361c4b5ad9704c.
+15localmetadatachecks PASS;no science reruns. Newinspector7611B +boundmetadata,
+oneexactexistingprivate03scratch;20sread/1MiBresponse/180stransport incllogin.
+Onlyfilemetadata+boundedJSON/logtails;NOarray/archive/proof/cachecontents,
+serverfilewrites,models/GPU/proof/paidwork. No probeAUTH/PROBE_ATTEMPT/SSH/read.
+NEXT oneNEWexactmetadata-onlyapproval because oldSSHclosed/grantconsumed;
+thenreview/arm separateinspector andgiveMac helperONCE. NeveragentSSH or
+originalhelperfallback. New metadata read does NOTgrant numericalretry or
+fulltensorretrieval. Research/candidate3724/bounds/finance unchanged.
+Usercommits self;neverstage/commit/push. EarlierLATEST entries historical.
+
+LATEST Nov07: NATIVE SDPA ATTEMPT APPROVED/ARMED, NOT CLAIMED.
+Read report/checks/2026-11-07-predictor-sdpa-handoff-v1-authorization.json/md
+FIRST. User explicitlyapproved exactoneboundedattempt in
+request_user_input_async/call_6bc6110b826e42f8a198b61ab93339aa/0; /1fresh03
+status matches RTX3070 UUIDe54fae90-feeb-8106-d8c0-1974fe48555f,8192/94MiB,
+driver580.178.04, emptycompute. ApprovalPERSISTS exactunchangedscope;DO NOTask
+again. Pastedcheck NOTagentSSH/reservation;liveguards mandatory.
+ACTIVEONLYrawpredictor-sdpa-handoff-v1-20261107/linux10603-final.
+CONTROLbecbdc2607a9cc5281830d20bb5f2f63b6ecab88aa1f9421eee52009bbbdc124;
+AUTHd694798ff70a01b149e009469868c62d1381ee16f922483bf20bd27f7bc08a02.
+SeparateAUTH+exactapproval/status savedprivate. NOATTEMPT/session/SSH/upload/
+proof/universityworkclock. NEVERclaim/launchagentSSH;userhelper doesonce.
+Armedsavedreview reverified21494sealedprepinputs,source/control/publickey/
+oldclaim,99member17192095Bpacket26446958logicalB,28overlays372171B,bootstrap
+919045B. Scientificimports/process/network blocked;helperbashsyntaxPASS.
+65preparationchecks NOT rerun/summed. Firstarmedreview refusedAUTHmode0644;
+AUTH+approval/status/receipt tightened0600 WITHOUTbyte/scope/claimchanges;
+failedreviewlog+permissionreceipt retained. Secondarmedreview PASS.
+Allscientific/helper sources remainFROZEN;old09 unselected/unarmed.
+NEXT userrunsfinal LOCALMac helper ONCE via caffeinate -i;Macawake/lidopen/
+Terminalopen throughsameSSHcollection, passwordpromptly. Up35minincllogin,
+25minwork inclfull2.5GiBproof+oneoriginalcapture<=420+4components<=120,
+then600s/3GiBcollection. ClaimoncebeforeSSH;NEVERrerun/resetAUTH/ATTEMPT/
+clocks afteranyresult. Preservepartialresponse+SSHstderr;independentreviewnext.
+Sameoriginalnativecontrols,ONEcanonicalFP64,originalcomponentbounds/exact
+native/profile/freshreplay,actualbackend requirements/strictguards remain.
+CandidateREJECTED3724;no backward-onlyproof/adoption/research/performance.
+Ceilings3GiBsetup/2.25GiBcapture/512MiBraw/64MiBmeta/7GiBallocator unchanged.
+No retry/cleanup/retrieval/fallback/parallelhost/keys/heldout/install/paidwork.
+Oldclaim9066c0afb97cb9e92f02e047806124aab73fff36cc9cdb46b4c31e28d167e94c
+CONSUMEDimmutable;neveroldhelper. Finance9.8116/.1884/old2hold/.0792gap/10diag/
+160compute/200project/40reserve/wallet6.56/reconciliationfalse unchanged;
+knownRunpodterminated. Usercommitsself;NEVERstage/commit/push.
+EarlierLATEST entries historical.
+
+LATEST Nov07: NATIVE CAPTURE + FIXED-INPUT HANDOFF PREPARED, UNARMED.
+Read report/checks/2026-11-07-predictor-sdpa-handoff-v1-preparation.json/md and
+docs/predictor_sdpa_handoff_v1.md FIRST. ALL previous sources/values/claims FROZEN.
+Separate new contract/target wrapper/operator/client/preparer/entries/tests.
+Finalrawpredictor-sdpa-handoff-v1-20261107/linux10603-final;CONTROL
+becbdc2607a9cc5281830d20bb5f2f63b6ecab88aa1f9421eee52009bbbdc124.
+NO AUTHORIZATION/ATTEMPT/SSH/upload/proof/universitywork. Unarmedhelper refuses
+before claim/session/connection. NEVER agentSSH or run old/newhelpers now.
+65focusedchecks PASS zeroerrors/failures/skips. First63PASS; precision-before-
+CUDAsetup ordering +regression ->second64PASS; local SSHstderr preservation+
+prescratchrefusal test ->third65PASS. All3sources/logs/raw preserved, NOTsummed;
+old61/37/25/68 NOT rerun. FirstpackagedCPU harness missed code-root path already
+inrealentry; ONLYharness corrected, failurekept. FreshpackagedCPU PASS real99
+members+28overlays. Itsremoteoverlay EXACTfinal; newerlocalstderrclient tested
+separately. 2finalCPUcohorts+1packaged=15fresh actual CPUprocesses, 3native
+backwards then4components each;NOTtarget/CUDA/performance qualification.
+Savedreview blocksmodel/autograd/SDPA/CUDA/process/network; verifies96FP32
+componentreturns,24nativeboundaryarrays,fullnativeanchors/layouts/ownership/
+source/runtime, FP64bookkeeping, exactnative/withinarm/profile replay. Reverified
+15585oldpins;sealed21494. Mockproof/GPU/SSH/AUTHfixtures NOTgrants/evidence.
+Packet17192095B/99members/26446958logicalB;28overlays372171B;bootstrap919045B
+<2MiB, boundcontrol/proposal metadata includesoldfinance. ONLYfreshprivate
+/var/tmp on kdu@linux10603.dc.engr.scu.edu. Existingweights/deps/upstreamverify
+inplace;NOinstall/privatekeys/passwords/heldoutpixels/candidatecapsule.
+OneoriginalnativeEOT8 capture(1backward;8draws/2families), fixedpredictor.0
+row24, nativefull loss/input EXACToriginalanchors before components. Frozen
+observer/route unchanged;hooksNone/model/targets/masks/flags/versions/absent
+paramgrads restore. Then4freshserial original0/math0/original1/math1, identical
+savedQKV/SDPAdO/layout/offset/alias, ONEcanonicalFP64, originalcomponentbounds,
+nativebaseline/profile/freshreplay exact. No extra before/after modelcontrols.
+WrapperconfiguresprecisionbeforeCUDA;new boundallocatorreceipts mandatory.
+All numerical/ownership/source/runtime/foreign/resource/kernel failures STOP
+and preserve before nextworker. Unsupporteddefaultflash/cuDNN/versionevidence
+refuses;NEVERforcefallback/assumeefficient. CUDAdispatch/peaks remainunknown.
+25min1500swork inclsetup<=180/proof2.5GiB<=60/capture<=420/4components<=120/
+receiptreserve120;static1200. Continuing600s/3GiBsameSSHcollection;client2100s
+incllogin. Enterpasswordpromptly;Macawake/lidopen/Terminalopen throughcollection.
+ClaimoncebeforeSSH;response+stderr saved evenprescratchrefusal. No retry/reset/
+standaloneretrieval/cleanup/fallback/parallelhost/paidcompute. Ceilings3GiBsetup/
+2.25GiBcapture/512MiBraw/64MiBmeta/128MiBinput+code/32MiBcache/16MiBemergency+
+tensor/7GiBallocator unchanged. Liveguards sampledNOTreservation/exclusivity.
+CandidateREJECTED3724; bothordered4cellterms+interaction preserved; sameQKV/dO
+NOTidenticalprivateforwardstate/purebackwardproof. No research/studyadmission.
+Latestclaim9066c0afb97cb9e92f02e047806124aab73fff36cc9cdb46b4c31e28d167e94c
+CONSUMEDimmutable. Old09 alternative staysunarmed. Bothhostsmayidle/close.
+NEXT ONEnewexactscopedapproval+fresh03status; all priorgrants consumed. Only
+afterapproval reverifybindings,saveNEWseparateAUTH andindependentlyreviewarmed-
+unusedstate BEFOREgive attendedMac commandONCE. Do NOTaskalreadyapproved
+unchangedscopeagain. Do notclaim/launchagentSSH. No usercommanduntilarmed.
+Finance9.8116/.1884/old2hold/.0792gap/10diag/160compute/200project/40reserve/
+wallet6.56/reconciliationfalse unchanged;knownRunpodterminated. Usercommitsself;
+NEVER stage/commit/push. EarlierLATEST entries historical.
+
 LATEST Nov07: FIXED-INPUT SDPA COMPONENT WORKERS VERIFIED LOCALLY; NO TARGET OPERATOR.
 Read report/checks/2026-11-07-predictor-sdpa-components-v1-local-review.json/md
 and docs/predictor_sdpa_components_v1.md FIRST. Separate component worker,

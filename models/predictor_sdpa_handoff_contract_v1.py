@@ -1,0 +1,32 @@
+"""Exact new attention scope; an inert control never grants target resources."""
+KIND='native-fixed-SDPA-handoff-operator-v1'
+AUTH_KIND='native-fixed-SDPA-university-exception-v1'
+PREFIX='vjepa-native-sdpa-v1-20261107-'
+CONTRACT_SHA='a0c19f26b678e095eeafbe6424b479179e76544b3d4e9e40345af2b0100b1fbd'
+PACKET_SHA='2278bce2b519943c0f83a49c556bb73dd928fe880fba0f6c56de2a4c3c2ec0da'
+PRIOR_CLAIM_SHA='9066c0afb97cb9e92f02e047806124aab73fff36cc9cdb46b4c31e28d167e94c'
+MiB=2**20
+GiB=2**30
+RESOURCE={'host':'linux10603','parent':'/var/tmp','work_seconds':1500,'setup_seconds':180,
+ 'write_proof_bytes':5*GiB//2,'write_proof_seconds':60,'capture_worker_seconds':420,
+ 'component_workers':4,'component_worker_seconds':120,'receipt_reserve_seconds':120,'static_reserved_seconds':1200,
+ 'setup_bytes':3*GiB,'capture_bytes':9*GiB//4,'raw_bytes':512*MiB,'metadata_bytes':64*MiB,
+ 'input_bytes':128*MiB,'code_bytes':128*MiB,'cache_bytes':32*MiB,'emergency_bytes':16*MiB,
+ 'tensor_file_bytes':16*MiB,'allocator_bytes':7*GiB,'collection_seconds':600,'collection_bytes':3*GiB}
+ROLES=('capture','component-0','component-1','component-2','component-3')
+FROZEN_BOOT=('models/cpu_oracle_scratch.py','models/cpu_oracle_control_prerequisite.py',
+ 'models/cpu_oracle_control_v1.py','models/scratch_allocation_v2.py','models/oracle_boundary_operator_v1.py')
+COMPONENT_SOURCES=('models/predictor_sdpa_component_v1.py','models/predictor_sdpa_component_records_v1.py',
+ 'models/predictor_sdpa_component_events_v1.py','models/predictor_sdpa_capture_record_v1.py',
+ 'models/attention_saved_evidence.py','models/execution.py','models/training.py',
+ 'models/predictor_eot8_capture_v1.py','models/predictor_eot8_adapter_v1.py',
+ 'scripts/check_predictor_sdpa_components_v1.py','tests/test_predictor_sdpa_components_v1.py')
+REMOTE_NAMES=tuple(dict.fromkeys(('models/__init__.py',*FROZEN_BOOT,*COMPONENT_SOURCES,
+ 'models/predictor_eot8_owned_receipt_v1.py','models/predictor_eot8_record_v2.py','models/predictor_eot8_owned_v1.py',
+ 'models/predictor_sdpa_observer_v1.py','models/predictor_sdpa_handoff_contract_v1.py',
+ 'models/predictor_sdpa_handoff_operator_v1.py','models/predictor_sdpa_target_v1.py',
+ 'scripts/capture_predictor_sdpa_handoff_v1.py','configs/predictor_attention_eot8_proposal_v1.json',
+ 'configs/predictor_sdpa_fixed_input_v1.json','configs/predictor_sdpa_handoff_v1.json')))
+LOCAL_EXTRA=('models/predictor_sdpa_handoff_client_v1.py','scripts/prepare_predictor_sdpa_handoff_v1.py',
+ 'scripts/run_predictor_sdpa_handoff_v1.py','tests/test_predictor_sdpa_handoff_v1.py',
+ 'tests/test_predictor_sdpa_handoff_operations_v1.py')

@@ -1,0 +1,82 @@
+{
+  "approved": true,
+  "armed": true,
+  "arming_receipt": {
+    "bytes": 1136,
+    "path": "runs/pretrained/diagnostic/sdpa-collection-incident-20261107/authorization-review/arming-receipt.json",
+    "sha256": "89de1feaf373e3c5d10adbf40da22c4ae962b60dcd20dbbfd652299f1b6c65aa"
+  },
+  "authorization": {
+    "bytes": 1664,
+    "path": "runs/pretrained/diagnostic/sdpa-collection-incident-20261107/metadata-probe-01/AUTHORIZATION.json",
+    "sha256": "28a8910fe91aa8816f2c90661821eadc0c24c82438d3753558a35419e8a3a939"
+  },
+  "date": "2026-11-07",
+  "exact_user_approval_source": "request_user_input_async/call_b8c5a4d244a74c21ab0f2cd45fe365c6/0",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "helper_shell_syntax_passed": true,
+  "host": "linux10603",
+  "independent_armed_review": {
+    "bytes": 2896,
+    "path": "runs/pretrained/diagnostic/sdpa-collection-incident-20261107/authorization-review/independent-armed-review.json",
+    "sha256": "22dc6f29305e6ad773ae9731e7f06418e463128caf3fa6841a8929d56debd828"
+  },
+  "inspector_bytes": 7611,
+  "kind": "native-SDPA-metadata-read-curated-authorization-v1",
+  "model_GPU_proof_paid_or_retry_authorized": false,
+  "new_connection_or_target_read": false,
+  "next_step": "User runs the metadata-only Mac helper once, enters the password promptly and reports completion/error; no agent SSH or original experiment retry.",
+  "offending_filename": "unknown",
+  "original_evidence_bytes_and_mtimes_unchanged": true,
+  "original_experiment_claim_consumed": true,
+  "original_incident_report": {
+    "bytes": 3538,
+    "path": "report/checks/2026-11-07-native-sdpa-collection-incident.json",
+    "sha256": "fa96284da2f79ddc6f942ff1e50548e0113a7c1b9e46407dba5cb27c37294c18"
+  },
+  "passed": true,
+  "plan": {
+    "bytes": 2332,
+    "path": "runs/pretrained/diagnostic/sdpa-collection-incident-20261107/metadata-probe-01/PLAN.json",
+    "sha256": "179152908e4e788e5a345336877f8a9062f222fa67b40fdc7f361c4b5ad9704c"
+  },
+  "preparation_pins_reverified": 21494,
+  "preparation_tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 15
+  },
+  "probe_claim_present": false,
+  "read_seconds": 20,
+  "response_bytes": 1048576,
+  "scientific_imports_and_process_network_blocked_during_review": true,
+  "scientific_outcome": "unknown",
+  "scratch": "/var/tmp/vjepa-native-sdpa-v1-20261107-hfdwn566",
+  "server_file_writes": false,
+  "summary": {
+    "bytes": 2798,
+    "path": "report/checks/2026-11-07-sdpa-metadata-probe-authorization.md",
+    "sha256": "ee2ada72fc4cafd5591fb6e1c39876ebff2ad66ff55f03c904903c4f0d73ccbf"
+  },
+  "tensor_archive_proof_cache_contents_read": false,
+  "tests_rerun": false,
+  "transport_seconds_including_login": 180,
+  "user_approval": {
+    "bytes": 1268,
+    "path": "runs/pretrained/diagnostic/sdpa-collection-incident-20261107/authorization-review/user-approval.json",
+    "sha256": "e93090e89b8badad54ad4614e62043c5370ea202a5e5320d59a4e6130f78fe61"
+  }
+}

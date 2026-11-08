@@ -1,5 +1,119 @@
 # Research Progress Reports
 
+## 2026-11-07 — Metadata identifies the exact mask-file guard refusal
+
+The approved metadata read returned 74,051 bytes: 144 file metadata records and
+nine bounded saved status/log reads totaling 27,323 bytes. All hashes, offsets
+and inventory bindings verify. The sole typed-file violation is the 146,562-byte
+mask-index manifest against its 65,536-byte guard. Both capture supervision and
+final collection use that guard, explaining the interrupted native capture and
+secondary client decoding error.
+
+Saved records report a passed 2.5 GiB storage proof and matching baseline, but
+the native capture remains incomplete and none of four components started.
+No new loss/input replay or boundary result is saved. Actual mask/tensor contents
+were not retrieved or validated; expected anchor hashes are not new returns.
+There is no numerical/backend/performance/research pass or new numerical failure.
+The earlier candidate rejection at 3,724 entries remains unchanged.
+
+Independent saved review blocks scientific imports/process/network and reverifies
+all 21,494 preparation hashes plus original incident bytes and mtimes. The new
+probe claim is consumed and pinned; no helper is repeated or reset. No tests
+were rerun, new agent SSH made or paid compute started. Financial state is fixed.
+
+Next prepare an exact-path mask-metadata cap correction in a separate operator
+and test full-size EOT8 serialization, partial writes and refusal boundaries.
+Recorded shapes give 32,768 indices; the synthetic compact worst-case size is
+164,322 bytes, covered by a proposed 256 KiB exact-mask allowance. No guard or
+numerical limit has been changed and no new target attempt is authorized.
+[Saved metadata review](report/checks/2026-11-07-sdpa-metadata-result-review.md).
+
+## 2026-11-07 — Separate metadata-only read approved, armed and unused
+
+The user approved one read-only inspection of the exact existing linux10603
+scratch. The new private authorization binds the unchanged 7,611-byte inspector,
+plan and public key. Independent saved-state review reverifies all 21,494
+preparation hashes and six original incident files, including their original
+modification times, with scientific imports/process/network execution blocked.
+The existing 15 metadata checks were not rerun; helper syntax passes.
+
+No probe claim, new SSH connection or target read exists yet. Next the user runs
+the separate Mac helper once, entering the university password promptly and
+keeping Terminal open. Bounds are 20 seconds of metadata inspection, a 1 MiB
+response and three minutes total including login. No server writes, tensor/
+archive/proof/cache contents, model/GPU/proof or paid work are included.
+The original experiment remains consumed; no retry or full retrieval is granted.
+Its exact offending filename and scientific result remain unknown. All numerical
+bounds, rejection and financial holds/caps/reconciliation stay unchanged.
+[Metadata approval review](report/checks/2026-11-07-sdpa-metadata-probe-authorization.md).
+
+## 2026-11-07 — Collection guard failed; native SDPA outcome not yet known
+
+The attended helper consumed its one attempt, created scratch, then ended without
+a collection header. Saved stderr identifies a typed-file ceiling refusal during
+server collection; the client JSONDecodeError is secondary. The offending file
+and scientific result remain unknown. Original evidence/claim/source bytes and
+mtimes are preserved and 21,494 preparation pins reverify. No rerun or reset.
+
+A separate exact-scratch metadata-only inspector is prepared and unarmed, with
+15 local checks passing. It would read filenames/sizes and bounded JSON/log tails
+for at most 20 seconds / 1 MiB, with no tensor contents, server writes, GPU/model
+work or proof. A new scoped read approval is needed because the original SSH
+connection and grant ended. Numerical bounds, prior rejection and finances stay
+unchanged. [Incident review](report/checks/2026-11-07-native-sdpa-collection-incident.md).
+
+## 2026-11-07 — Native attention attempt approved, armed and unused
+
+The user approved the exact bounded native capture/four-component attempt and
+provided matching linux10603 RTX 3070 status with an empty compute list.
+Approval/status provenance and a separate strict authorization are saved.
+The unchanged scope is approved; do not request it again.
+
+Independent armed-state review reverifies all 21,494 preparation pins, source,
+archive/member/public-key/helper and old-claim bindings with scientific imports,
+process and network execution blocked. A local authorization-mode mismatch was
+tightened to 0600 without changing any bytes or scope; its first refusal and
+correction receipt remain, and the second review passes. The earlier 65 checks
+were not rerun. No attempt, SSH, upload, proof or university work has started.
+
+Next the user runs the final helper once in a local Mac Terminal, keeps the Mac
+awake/lid and Terminal open, and enters the password promptly. The continuing
+25-minute work / ten-minute same-SSH collection bounds and all original guards
+remain. Preserve any error/partial response and never repeat/reset the helper.
+The native candidate stays rejected; financial state and old claims stay fixed.
+[Authorization review](report/checks/2026-11-07-predictor-sdpa-handoff-v1-authorization.md).
+
+## 2026-11-07 — Native attention handoff prepared, unarmed
+
+65 focused local checks pass, plus a separate fresh-process rehearsal of the
+actual extracted packet and remote overlay. Two final small upstream CPU cohorts
+and the packaged cohort provide 15 actual fresh processes: one original native
+EOT8 capture and four standalone attention comparisons each. Native values,
+ownership and exact profile/within-arm replay hold. Saved review verifies all
+96 component arrays and 24 boundary arrays, reconstructs the FP64 references,
+reverifies 15,585 prior pins and seals 21,494 files with executable science and
+network/process entry points blocked.
+
+The final handoff binds one unchanged 17.2 MB training-clip/reference/source
+packet, 28 overlays and control metadata. It remains unarmed: no authorization,
+claim, SSH, upload, storage proof or university work. Proposed scope is one
+linux10603 attempt: 25 minutes work, one native capture then four components,
+original limits/guards, and ten minutes/3 GiB collection on the same connection.
+The client saves early SSH stderr and claims once; no retry/reset/cleanup/
+separate retrieval/fallback/parallel host exists. No paid compute is involved.
+
+63/64/65-check source histories and the first failed packaged harness remain,
+not summed. Review adds pre-CUDA precision ordering and saved stderr tests; only
+the harness search path changes for its retry. Original bounds and predecessor
+science/claims stay frozen. CPU/mock evidence qualifies no CUDA dispatch or
+target capacity. The candidate still fails 3,724 original input entries.
+
+Next obtain one new exact scoped approval and fresh linux10603 status, then
+reverify and independently review a separate armed-but-unused authorization
+before giving the attended Mac helper once. Financial caps/holds/reconciliation
+remain unchanged; both university sessions may idle while unarmed.
+[Handoff preparation](report/checks/2026-11-07-predictor-sdpa-handoff-v1-preparation.md).
+
 ## 2026-11-07 — Fixed-input attention components verified locally
 
 61 focused CPU checks pass. Four fresh standalone processes load the same actual

@@ -1,0 +1,82 @@
+{
+  "client_JSONDecodeError_is_secondary": true,
+  "collection_header_missing": true,
+  "counterexamples_local_only": [
+    "archive .tar.gz.partial gets 1 MiB instead of completed archive 128 MiB",
+    "cache file gets generic 1 MiB regardless of 32 MiB aggregate cache category"
+  ],
+  "counterexamples_prove_actual_trigger": false,
+  "date": "2026-11-07",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "independent_review_blocks_scientific_imports_and_process_network": true,
+  "kind": "native-SDPA-collection-incident-local-review-v1",
+  "new_SSH_or_server_read_started": false,
+  "next_step": "One new metadata-only scope for the closed/consumed attempt; then independently reverify/arm the exact read-only helper. Never rerun the original experiment or guess its scientific outcome.",
+  "offending_remote_filename": "unknown without metadata",
+  "old_source_and_claim_bytes_and_original_mtimes_unchanged": true,
+  "only_scratch_receipt_present": true,
+  "original_SSH_exit_status": 1,
+  "original_claim": {
+    "bytes": 252,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v1-20261107/linux10603-final/ATTEMPT.json",
+    "sha256": "c4afa75ef3c1ccb126f2c819d00b04ff9ce81ac671bbe153a30403edd17f8b5f"
+  },
+  "original_evidence_pins": {
+    "bytes": 1509,
+    "path": "runs/pretrained/diagnostic/sdpa-collection-incident-20261107/original-evidence-pins.json",
+    "sha256": "68aa20dde1140ba5e5d550ef3f5682c7bea9091117302991aab399cf619f81aa"
+  },
+  "original_grant_consumed": true,
+  "original_session": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v1-20261107/linux10603-final/attended-36ktqmyp",
+  "passed": true,
+  "plan": {
+    "bytes": 2332,
+    "path": "runs/pretrained/diagnostic/sdpa-collection-incident-20261107/metadata-probe-01/PLAN.json",
+    "sha256": "179152908e4e788e5a345336877f8a9062f222fa67b40fdc7f361c4b5ad9704c"
+  },
+  "plan_sha256": "179152908e4e788e5a345336877f8a9062f222fa67b40fdc7f361c4b5ad9704c",
+  "preparation_pins_reverified": 21494,
+  "primary_visible_failure": "Native SDPA typed-file ceiling exceeded in collection inventory",
+  "probe_array_contents_read": false,
+  "probe_authorized": false,
+  "probe_claim_present": false,
+  "probe_client_bytes": 3236,
+  "probe_exact_scratch": "/var/tmp/vjepa-native-sdpa-v1-20261107-hfdwn566",
+  "probe_host": "linux10603",
+  "probe_model_GPU_proof_or_paid_work": false,
+  "probe_read_seconds": 20,
+  "probe_response_bytes": 1048576,
+  "probe_server_bytes": 7611,
+  "probe_server_file_writes": false,
+  "probe_transport_seconds": 180,
+  "raw_review": {
+    "bytes": 3120,
+    "path": "runs/pretrained/diagnostic/sdpa-collection-incident-20261107/independent-review.json",
+    "sha256": "9e22610432b54c6c782cce43a649e7de9a2054b67f419e6b2d0c59ef820660dd"
+  },
+  "response_bytes": 229,
+  "scientific_worker_outcome": "unknown from saved local evidence",
+  "summary": {
+    "bytes": 3214,
+    "path": "report/checks/2026-11-07-native-sdpa-collection-incident.md",
+    "sha256": "f7abd66623f5bee56cd9a70dede4d173eca911b88466d7cd0651e39175ca8532"
+  },
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 15
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "actual_mask_and_tensor_contents_retrieved_or_verified": false,
+  "authorized_scope": {
+    "bytes": 3355,
+    "path": "report/checks/2026-11-07-sdpa-metadata-probe-authorization.json",
+    "sha256": "26e022e4642d779b5af9980206718c9dcd6ad6951a06b6fa4eeed6a840c1fdb5"
+  },
+  "candidate_rejected_entries_unchanged": 3724,
+  "capture_cause": "Typed-file guard rejects 146562-byte mask-indices.json at 65536 bytes; same inventory then prevents collection.",
+  "capture_supervisor_seconds": 19.931030732113868,
+  "capture_worker_exit_status_saved": null,
+  "component_comparisons_complete": false,
+  "component_comparisons_started": 0,
+  "consumed_probe_claim": {
+    "bytes": 174,
+    "path": "runs/pretrained/diagnostic/sdpa-collection-incident-20261107/metadata-probe-01/PROBE_ATTEMPT.json",
+    "sha256": "e924af4e7bd8222578ad86bb64bfcca6e3ad293ffb4ab2cc4607124a15934ced"
+  },
+  "date": "2026-11-07",
+  "existing_metadata_checks_not_rerun": 15,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "further_phase_progress_not_proven": true,
+  "kind": "native-SDPA-metadata-result-curated-review-v1",
+  "metadata_files": 144,
+  "metadata_inspection_seconds": 0.003395934123545885,
+  "metadata_read_claim_consumed": true,
+  "metadata_response_bytes": 74051,
+  "native_capture_complete": false,
+  "new_agent_connection_or_server_work": false,
+  "new_numerical_result_or_failure_qualified": false,
+  "next_step": "Prepare a separately versioned exact-path mask metadata guard and full-size EOT8 serialization regression; preserve all consumed files and numerical gates. Any further university attempt needs a separate reviewed scope.",
+  "offline_serialization_sizing": {
+    "actual_mask_contents_read": false,
+    "draws": 8,
+    "families_per_draw": 2,
+    "maximum_index": 2047,
+    "proposal_applied": false,
+    "proposed_exact_mask_file_bytes": 262144,
+    "total_indices": 32768,
+    "worst_case_compact_bytes": 164322
+  },
+  "original_experiment_claim_consumed": true,
+  "original_incident": {
+    "bytes": 3538,
+    "path": "report/checks/2026-11-07-native-sdpa-collection-incident.json",
+    "sha256": "fa96284da2f79ddc6f942ff1e50548e0113a7c1b9e46407dba5cb27c37294c18"
+  },
+  "original_native_anchor_replay_complete": false,
+  "partial_baseline_matches_frozen_contract": true,
+  "passed": true,
+  "preparation_pins_reverified": 21494,
+  "prepared_sources_and_original_incident_bytes_mtimes_unchanged": true,
+  "probe_evidence_pins": {
+    "bytes": 2187,
+    "path": "runs/pretrained/diagnostic/sdpa-collection-incident-20261107/metadata-result-review/probe-evidence-pins.json",
+    "sha256": "3a4334ab367f2e87c510591149ff2393379cf7eecff4b924620628f2afbc1d95"
+  },
+  "proof_bytes_written_and_read": 2684354560,
+  "proof_is_not_aggregate_quota_or_reservation": true,
+  "proof_saved_status_passed": true,
+  "raw_review": {
+    "bytes": 5073,
+    "path": "runs/pretrained/diagnostic/sdpa-collection-incident-20261107/metadata-result-review/independent-review.json",
+    "sha256": "2c57701791307400750892f3d26f9940151ee5eb90bd2acf2b3c169c8606204c"
+  },
+  "response": {
+    "bytes": 74051,
+    "path": "runs/pretrained/diagnostic/sdpa-collection-incident-20261107/metadata-probe-01/response.json",
+    "sha256": "d4a82d9c91579a8d27ba2836e0ca5995430eec699e0c2a630ace5544503dfad4"
+  },
+  "review_blocks_scientific_imports_process_and_network": true,
+  "saved_transport_exit_status": null,
+  "selected_metadata_bytes": 27323,
+  "selected_metadata_files": 9,
+  "session_work_seconds": 32.139391323085874,
+  "sole_file_above_original_typed_cap": {
+    "allocated_bytes": 147456,
+    "bytes": 146562,
+    "file": "results/capture/mask-indices.json",
+    "mode": 384,
+    "mtime_ns": 1794078566574655604,
+    "nlink": 1,
+    "old_typed_limit_bytes": 65536,
+    "over_old_typed_limit": true,
+    "owner_uid": 2170,
+    "regular": true,
+    "symlink": false
+  },
+  "ssh_stderr_bytes": 0,
+  "summary": {
+    "bytes": 4310,
+    "path": "report/checks/2026-11-07-sdpa-metadata-result-review.md",
+    "sha256": "90e6de387bd9b5ca892ca5e6039333326a95f13c0dd67209d8a39089b7741e68"
+  },
+  "tests_rerun": false,
+  "valid_complete_metadata_response": true
+}

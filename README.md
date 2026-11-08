@@ -1,5 +1,38 @@
 # V-JEPA Robust Overfitting
 
+**Native attention guard failure identified (November 7):**
+[The saved metadata confirms an undersized mask-index file limit](report/checks/2026-11-07-sdpa-metadata-result-review.md).
+The mask manifest is 146,562 bytes against a 65,536-byte guard. The storage proof
+passed; native capture stayed incomplete and no component comparisons started.
+Next prepare a separate guard correction and full-size regression. Both existing
+claims are consumed; no new numerical attempt is authorized.
+Earlier entries are historical snapshots.
+
+**Metadata-only collection check approved and armed (November 7):**
+[The separate inspector is verified and ready for one local Mac command](report/checks/2026-11-07-sdpa-metadata-probe-authorization.md).
+It reads filenames, sizes and bounded saved status/logs within three minutes,
+without restarting the experiment. No probe connection or read has started;
+the original attempt stays consumed and its scientific outcome remains unknown.
+Earlier entries are historical snapshots.
+
+**Native attention collection failed (November 7):**
+[The saved transport identifies a server file-limit refusal; scientific outcome remains unknown](report/checks/2026-11-07-native-sdpa-collection-incident.md).
+The original attempt is consumed. A tested, separate metadata-only inspector is
+unarmed pending scoped approval; do not repeat the experiment helper.
+Earlier entries are historical snapshots.
+
+**Native attention attempt approved and armed (November 7):**
+[Exact approval, fresh host status and the unused handoff verify](report/checks/2026-11-07-predictor-sdpa-handoff-v1-authorization.md).
+Next run the final attended helper once from a local Mac Terminal, keeping the
+Mac awake through up to 35 minutes of work/collection. No attempt or university
+work has started. Earlier entries are historical snapshots.
+
+**Native attention handoff prepared, unarmed (November 7):**
+[65 local checks and an exact-payload CPU rehearsal verify the bounded capture/component handoff](report/checks/2026-11-07-predictor-sdpa-handoff-v1-preparation.md).
+One new scoped university approval and fresh host status are needed before
+arming. No SSH, upload, target proof or university work has started; the native
+candidate remains rejected. Earlier entries are historical snapshots.
+
 **Fixed-input attention components verified locally (November 7):**
 [61 checks verify one frozen FP64 reference, actual saved inputs and fresh replay](report/checks/2026-11-07-predictor-sdpa-components-v1-local-review.md).
 Four CPU processes preserve native inputs and pass original component bounds.
