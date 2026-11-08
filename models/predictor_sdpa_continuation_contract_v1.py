@@ -1,0 +1,31 @@
+"""Component-only continuation of frozen native inputs; no grant at preparation."""
+from models import predictor_sdpa_handoff_contract_v2 as prior
+KIND='native-SDPA-component-only-collection-v1'
+AUTH_KIND='native-SDPA-component-only-university-exception-v1'
+PREFIX='vjepa-SDPA-components-v1-20261108-'
+CONTRACT_SHA='4fc0dc3600d6e5657bdf310b52249f5bb83138923850ec140c4b3b3a5b371ba3'
+CAPSULE_SHA='b8ad88e9a34ea55460177d996d40f915efe9d4284e16e9616923a46eeca6391c'
+MANIFEST_SHA='6247604eb1b08e1da82220ed77e64eab5b26d5dc280bd98732f5d0c3e07c2529'
+PARENT_CONTROL_SHA='fd9481d6295880c8c97aac32ee7705fb4b5a919a76d30bb3809f0f780d598609'
+PRIOR_CLAIM_SHA='d402bddad88abe7b2241d8c518197ce4bd693b46811352615d87013a9a9d240b'
+NATIVE_WORKER_SHA='23f386ab1374e4573f1d9475cea0cca5cedd39f7149f99ae1d359d5b4e8170bf'
+BOUNDARY_SHA='51da0691bd3a71367e0abdece1f8d6f8c1fb13eb933c06e5c7aa6c02b69d76da'
+MiB=2**20
+GiB=2**30
+RESOURCE={**prior.RESOURCE,'work_seconds':900,'capture_worker_seconds':0,'static_reserved_seconds':780}
+ROLES=('component-0','component-1','component-2','component-3')
+FROZEN_BOOT=(*prior.FROZEN_BOOT,'models/predictor_sdpa_handoff_contract_v1.py',
+ 'models/predictor_sdpa_handoff_operator_v1.py','models/predictor_sdpa_storage_v2.py',
+ 'models/predictor_sdpa_handoff_contract_v2.py','models/predictor_sdpa_handoff_operator_v2.py')
+COMPONENT_SOURCES=('models/predictor_sdpa_component_v2.py','models/predictor_sdpa_component_records_v1.py',
+ 'models/predictor_sdpa_component_events_v1.py','models/predictor_sdpa_capture_record_v1.py',
+ 'models/attention_saved_evidence.py','models/execution.py','models/training.py',
+ 'models/predictor_eot8_capture_v1.py','models/predictor_eot8_adapter_v1.py',
+ 'scripts/check_predictor_sdpa_components_v2.py','tests/test_predictor_sdpa_component_startup_v2.py',
+ 'models/predictor_sdpa_component_startup_v2.py','models/predictor_sdpa_component_target_v2.py')
+REMOTE_NAMES=tuple(dict.fromkeys(('models/__init__.py',*FROZEN_BOOT,*COMPONENT_SOURCES,
+ 'models/predictor_sdpa_continuation_contract_v1.py','models/predictor_sdpa_continuation_storage_v1.py',
+ 'models/predictor_sdpa_continuation_operator_v1.py','scripts/capture_predictor_sdpa_continuation_v1.py',
+ 'configs/predictor_sdpa_continuation_v1.json')))
+LOCAL_EXTRA=('models/predictor_sdpa_continuation_client_v1.py','scripts/prepare_predictor_sdpa_continuation_v1.py',
+ 'scripts/run_predictor_sdpa_continuation_v1.py','tests/test_predictor_sdpa_continuation_v1.py')

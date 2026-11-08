@@ -1,5 +1,79 @@
 # Research Progress Reports
 
+## 2026-11-08 — Startup corrected on target; original values pass, association refused
+
+The consumed component-only attempt exits 1 with complete same-SSH collection:
+152,863,158 response bytes, 179 regular members and all private modes/hashes/ns
+timestamps verify. All capsule/source and prior bindings stay. The full storage
+proof passes; no new full-model backward or native capture occurs. Session work
+lasts 29.21 seconds; only original component-0 starts.
+
+The actual target startup configures once and keeps the original runtime/precision
+and 7 GiB cap. One canonical FP64 reference and all eight actual return arrays
+verify: all four original bounds pass with zero failed elements, original outputs
+and gradients match native bitwise, and the profiled values replay exactly.
+The other three workers, fresh-process replay and final resource/completion
+checks remain unexecuted; this is no completed backend or training qualification.
+
+The existing backend parser searches only the backward user label's CPU-parent
+subtree. The actual efficient backward runs on another autograd CPU thread, with
+matching forward-thread/sequence metadata and positive linked CUDA kernels. The
+parser excludes it and rejects. Saved review reproduces that rejection without
+relabeling events or changing guards. Next prepare a separate offline association
+correction and strict mutation/ambiguity tests using this actual trace.
+
+Saved review blocks scientific/CUDA/process/network/reference execution. The first
+review's aggregate relative-L2 exact-summary refusal (8.47e-22 CPU reduction
+roundoff) and source stay; the second checks original elementwise gates exactly
+and reports the diagnostic summaries separately. No numerical bound, stored plan,
+claim or clock changes and no tests/science rerun. No new university scope is
+armed. Candidate rejection, full-training gates and all finances remain unchanged.
+[Target review](report/checks/2026-11-08-predictor-sdpa-continuation-v1-target-review.md).
+
+## 2026-11-08 — Component-only grant armed; launch remains unused
+
+The user approved the unchanged bounded university scope and supplied matching
+fresh linux10603 RTX 3070 status with an empty compute list. The exact approval
+and status are saved privately; a separate mode-0600 authorization binds the final
+control. Approval persists for this scope and must not be requested again.
+
+Cold armed review blocks scientific imports/process/network/remote execution and
+reverifies 10,718 preparation inputs, 30,568 prior hashes, exact payload, host key
+and helper. No tests or science repeat. No attempt, SSH, upload, storage proof
+or university work starts during arming.
+
+Next the user runs the final local Mac helper once, enters the password promptly
+and keeps the Mac/lid/Terminal awake/open through up to 25 minutes including login,
+work and same-SSH collection. Limits remain 15 minutes work and ten minutes/3 GiB
+collection, with four serial components of at most 120 seconds each and no new
+full-model capture/backward. The live guards still apply; any outcome is preserved
+for independent review without retry, reset, retrieval or cleanup. Old evidence,
+candidate rejection, training gates and finances remain unchanged.
+[Armed review](report/checks/2026-11-08-predictor-sdpa-continuation-v1-authorization.md).
+
+## 2026-11-08 — Component-only continuation verified and unarmed
+
+49 integration checks pass. Cold authorization refuses before scientific imports
+or target writes; the actual capsule/overlay rehearsal runs four fresh small CPU
+components with one canonical FP64 reference. Serial clocks, strict guard wiring,
+failure stops and same-connection collection verify. Saved-data review blocks
+scientific/CUDA/process/network execution, rechecks 30,568 prior hashes and
+validates 64 CPU return arrays, eight reference arrays and the complete simulated
+stream. Failed local fixture/import-path rehearsals and sources are retained;
+no counts are accumulated and frozen scientific workers stay unchanged.
+
+The separate payload has the unchanged 36,042,589-byte capsule and 29 overlays
+(327,663 bytes), with a 973,786-byte bootstrap. It proposes one attended 15-minute
+component-only attempt, including the full storage proof and four serial workers
+of at most 120 seconds each, then up to ten minutes/3 GiB of same-SSH collection.
+There is no new full-model backward or capture, retry, cleanup or paid compute.
+
+Next one new scoped university approval and fresh linux10603 status, then record
+and review an armed-but-unused handoff before giving a command. No new final
+authorization, claim or connection exists. Candidate rejection, full training
+and financial gates remain unchanged.
+[Preparation review](report/checks/2026-11-08-predictor-sdpa-continuation-v1-preparation.md).
+
 ## 2026-11-07 — Component startup fixed locally; frozen native inputs prepared
 
 The separate v2 wrapper/executor uses one configuration owner before CUDA

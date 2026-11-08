@@ -1,0 +1,85 @@
+{
+  "approval": {
+    "bytes": 1697,
+    "mtime_ns": 1794155397754853952,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/authorization/user-approval.json",
+    "sha256": "81777f06092a66165b1261ce0ef2b45c257272eb633730d28747da1f2de9048b"
+  },
+  "approval_persists_no_reconfirmation_needed": true,
+  "approval_record_source": {
+    "bytes": 4824,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/authorization/record_approval.py",
+    "sha256": "a9719a836c2b4b854e04efd087c0089592cfed6bc29fda501c72f087a741e092"
+  },
+  "armed_input_seal": {
+    "bytes": 1900,
+    "files": 11,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/authorization/armed-inputs.json",
+    "sha256": "c19e3854b440b20434d2ee9ce3b926847aca8b058bf32bc84be07b9f8c1e6e73"
+  },
+  "attempt_present": false,
+  "authorization": {
+    "bytes": 1689,
+    "mtime_ns": 1794155397755357324,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/AUTHORIZATION.json",
+    "sha256": "6b2d4f446123428a36de0172275ef0126be663e8a907ce70706972a51b2e54cb"
+  },
+  "authorization_mode": "0600",
+  "control": {
+    "bytes": 107927,
+    "mtime_ns": 1794153831116019003,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/CONTROL.json",
+    "sha256": "c35d8662597713562d6722d06f100fd2921e038a24ecedaa38c2b7a1b1fe6c1d"
+  },
+  "date": "2026-11-08",
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "full_model_candidate_adopted": false,
+  "helper": {
+    "bytes": 394,
+    "mtime_ns": 1794153831116625624,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/run-attended.sh",
+    "sha256": "7059745f31f2ad8e6aaecbbb169ea22d30f1fbb5a9b1948b57ad40a380bd148d"
+  },
+  "host_matches_fresh_pasted_idle_status": true,
+  "kind": "component-only-continuation-v1-authorization-review",
+  "live_guards_still_required": true,
+  "new_SSH_upload_proof_or_university_work": false,
+  "new_full_model_backwards_or_native_captures": 0,
+  "next_step": "User runs the exact final local Mac helper once, enters password promptly and keeps Mac/lid/Terminal awake/open through at most 25 minutes of work/collection; no repeat or separate retrieval.",
+  "overlay_bytes": 327663,
+  "overlay_files": 29,
+  "passed": true,
+  "pasted_status": {
+    "bytes": 797,
+    "mtime_ns": 1794155397755089034,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/authorization/pasted-status.json",
+    "sha256": "d8add33114bfdcddead990d0e58a8352802033dd6dc17808c1fa4aaaef7848a7"
+  },
+  "payload_bytes": 36042589,
+  "preparation": {
+    "bytes": 11722,
+    "mtime_ns": 1794154039069734649,
+    "path": "report/checks/2026-11-08-predictor-sdpa-continuation-v1-preparation.json",
+    "sha256": "8af316939ae26dca264e2e5c806f6178f226a1925d553319578fb2cc2aa4cc95"
+  },
+  "prepared_sealed_files_reverified": 10718,
+  "prior_preserved_hashes_reverified": 30568,
+  "raw_armed_review": {
+    "bytes": 2775,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/authorization/armed-review.json",
+    "sha256": "c55690822c6e7da9e5da11a29ba37d4d289c93bebe7a9c75a8d59a242fff09c9"
+  },
+  "research_or_training_admitted": false,
+  "review_source": {
+    "bytes": 5877,
+    "mtime_ns": 1794155442983258276,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/authorization/review_armed.py",
+    "sha256": "64e8981a88114c9632fe302a5f3f9209d41f58bb0e34b699202c77fa5bcbfe6d"
+  },
+  "scientific_import_process_network_and_remote_execution_blocked": true,
+  "scope_approved_and_unchanged": true,
+  "session_present": false,
+  "status_is_not_a_reservation": true,
+  "stdin_bootstrap_bytes": 973786,
+  "tests_or_scientific_cohorts_rerun": false
+}

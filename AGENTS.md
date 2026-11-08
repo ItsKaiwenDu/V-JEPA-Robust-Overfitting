@@ -2,6 +2,102 @@
 
 ## Current stage
 
+LATEST November 8: COMPONENT-ONLY ATTEMPT CONSUMED; STARTUP/VALUES PASS, BACKEND PROOF REFUSED.
+Read report/checks/2026-11-08-predictor-sdpa-continuation-v1-target-review.json/md
+first. Final session raw predictor-sdpa-continuation-v1-20261108/linux10603-final/
+attended-fz_fon25; ATTEMPT consumed SHA 9933b5e9f50c5c3ee571b39bea8d2afd94724ea9adf7d772809a70aaaae7f1f0.
+Response152863158B,179regularfiles152685099logicalB fully verified (bytes/hash/
+private modes/nsmtime),29overlays/118capsule inputs,10718prep+30568old pins stay.
+Same-SSH collection complete, transport exit1, no SSH stderr. Full2.5GiB proof
+passes; original native inputs reused unchanged; zero new full-model backward/
+native capture. Session29.21s. Only original component0 starts;1/2/3 never run.
+Actual configure-once startup succeeds before CUDA init, original precision/
+runtime/7GiB cap preserved. One canonicalFP64 reference built. All4reference+
+8actualreturn arrays verify; original output/dQ/dK/dV bitwise match native, profile
+exactly replays untimed, all original numerical failed-element counts0. No fresh
+process replay or math data. No completed component/backend/capacity/performance
+qualification; final peak receipt and final flags/input completion checks absent.
+Existing event verifier rejects missing backward backend. 106savedrows include
+actual efficient F/B ops and positive linked device0CUTLASS kernels. Forward
+label/operator thread1; backward operator lies in thread2 autograd subtree with
+matching seq1/fwdthread1, outside backward-label CPU-parent ancestry. Current
+rule ignores that subtree. Refusal reproduced UNCHANGED; no relabeling/backend
+adoption/fallback, no tolerance relaxed. CUDA async intervals not CPU containment.
+Saved-only review blocks model/autograd/SDPA/CUDA/process/network/reference work;
+no tests/science rerun. First review/source preserved: aggregate relative-L2 exact
+summary differs8.47e-22 across CPU reductions. Second checks every elementwise
+gate field exactly, reports both diagnostic summaries separately (not a gate).
+In-memory path/source view only, stored plan stays. All current science/operators/
+helpers/AUTH/claim/evidence/clocks now FROZEN, see sealed-target-review.json.
+NEXT offline separately version event-association correction using actual saved
+trace + ambiguity/thread/sequence/foreign-kernel/parent-graph refusal regressions.
+Keep original scientific/backend/replay gates and this incomplete rejection.
+NO new target approval/attempt/SSH/retrieval/retry/cleanup/fallback/paidwork; never
+reuse/reset consumed helper or claim. Full training unadmitted,candidate3724
+rejection and financial caps/holds/reconciliation unchanged. User commits self;
+never stage/commit/push. Earlier LATEST entries historical.
+
+LATEST November 8: COMPONENT-ONLY CONTINUATION APPROVED, ARMED AND UNUSED.
+Read report/checks/2026-11-08-predictor-sdpa-continuation-v1-authorization.json/md
+first. User explicitly approved exact scope in call_2be84936536f4f0383db38f2b904abbb/0;
+item1 fresh03 status expected3070 UUID e54fae90-feeb-8106-d8c0-1974fe48555f,
+8192/94MiB,driver580.178.04,empty compute. Approval PERSISTS unchanged; never
+ask again. Exact question/answer/status saved privately, separate mode0600AUTH.
+Active ONLY raw predictor-sdpa-continuation-v1-20261108/linux10603-final.
+CONTROL c35d8662597713562d6722d06f100fd2921e038a24ecedaa38c2b7a1b1fe6c1d;
+AUTH6b2d4f446123428a36de0172275ef0126be663e8a907ce70706972a51b2e54cb.
+NO ATTEMPT/session/SSH/upload/proof/university clock. Never agent SSH/run helper.
+Cold armed review blocks science imports/process/network/remote work, reverifies
+10718sealed preparation files+30568prior hashes, scope/payload/publickey/helper.
+No tests/science rerun; previous target claims/evidence/mtimes/clocks unchanged.
+NEXT user runs exact final LOCAL Mac run-attended.sh ONCE outside SSH; password
+promptly, keep Mac awake/lid and Terminal open through <=25min incl login/work/
+collection. 15min work incl full2.5GiB proof/four fresh serial components<=120s,
+then600s/3GiB SAME SSH collection. Zero new full-model backward/native capture.
+Capsule36042589B,29overlays327663B,bootstrap973786B unchanged. Setup/capture3GiB/
+2.25GiB,raw512MiB,metadata64MiB,allocator7GiB and all original science/bounds/
+precision/backend/replay guards stay. Pasted status is not reservation; live
+checks required. Preserve any failure/partial output; independently review,
+NEVER repeat/reset helper/claim/clocks, separate retrieval/cleanup/fallback.
+No private keys/heldout/install/paidwork. Full training unadmitted,candidate3724
+rejection and financial caps/holds/reconciliation unchanged. User commits self;
+never stage/commit/push. Earlier LATEST entries historical.
+
+LATEST November 8: COMPONENT-ONLY CONTINUATION V1 PREPARED, UNARMED.
+Read report/checks/2026-11-08-predictor-sdpa-continuation-v1-preparation.json/md
+and docs/predictor_sdpa_continuation_v1.md first. Final raw predictor-sdpa-
+continuation-v1-20261108/linux10603-final; CONTROL
+c35d8662597713562d6722d06f100fd2921e038a24ecedaa38c2b7a1b1fe6c1d.
+49 final integration tests PASS; earlier startup71/packaging18 suites not rerun.
+Actual cold bootstrap refuses before science/writes; exact payload CPU rehearsal
+runs4 fresh components from accepted small saved inputs, one FP64 reference.
+Two CPU cohorts/64return arrays/8reference arrays reverified. Saved review blocks
+model/autograd/SDPA/CUDA/process/network/reference execution, reverifies30568old
+pins, original consumed claim/accepted capture bytes/modes/nsmtime, full stream.
+First33/7 and second47/1 failing local wiring tests/source retained; no summed
+counts. Only CPU fixture anchor metadata and rehearsal code path corrected;
+frozen math/startup/old target evidence and clocks unchanged. CPU/mocks do NOT
+qualify actual CUDA/backend/capacity/speed. Full-model candidate3724 stays rejected.
+Payload unchanged36042589B capsule118members48627833logicalB; 29 overlays327663B,
+bootstrap973786B<2MiB; metadata includes unchanged finance. Training pixels and
+redundant prior-gradient packet excluded; native tensors/gradient/loss/targets
+included. No private keys/heldout pixels/installs/paidwork. Input capsule fresh
+private03 /var/tmp; zero new full-model backward/native captures. New kind and
+claim bind consumed d402; never reuse old grant/helper/claim or reset clocks.
+Proposed15min work incl full2.5GiB proof/four serial components<=120s, then600s/
+3GiB SAME SSH collection;1500s client incl login. Setup/capture3GiB/2.25GiB,
+raw512MiB,metadata64MiB,input/code128MiB,cache32MiB,allocator7GiB unchanged.
+Only exact native-input-capsule.tar.gz(+partial) gets input category. Strict
+original pre-init guard/configure-once/precision/numerics/backend/replay stay.
+Current continuation code/controls/helpers/test evidence FROZEN by sealed-
+preparation-inputs.json. Final has NO AUTHORIZATION/ATTEMPT/connection/work.
+NEXT ask ONE new exact scoped university approval plus fresh03 GPU status;
+only after approval save separate private AUTH and review armed-unused state,
+then give exact local Mac helper ONCE. Approval persists for unchanged scope;
+never ask twice. Never agent SSH/launch/retrieve/cleanup/fallback/paidcompute.
+All training/full-model/finance gates remain; no invented ETA or percentage.
+User commits self; never stage/commit/push. Earlier LATEST entries historical.
+
 LATEST November 7: COMPONENT STARTUP V2 VERIFIED LOCALLY; NO TARGET HANDOFF YET.
 Read report/checks/2026-11-07-predictor-component-startup-v2-local-review.json/md
 and docs/predictor_sdpa_component_startup_v2.md first. New wrapper delegates all

@@ -1,5 +1,26 @@
 # V-JEPA Robust Overfitting
 
+**Startup and original component values verified; profiler association blocked (November 8):**
+[Saved target evidence confirms the startup fix and passing numerical returns](report/checks/2026-11-08-predictor-sdpa-continuation-v1-target-review.md).
+The backend verifier excludes a backward operator on a separate autograd thread.
+Collection is complete; only the first component ran and the attempt is consumed.
+Next prepare an offline association correction using the saved trace. Full training
+remains unadmitted. Earlier entries are historical snapshots.
+
+**Component-only continuation approved and armed (November 8):**
+[The exact grant, fresh host status and unused handoff verify](report/checks/2026-11-08-predictor-sdpa-continuation-v1-authorization.md).
+Next run the final Mac helper once, keeping the Mac awake through up to 25 minutes
+of work and collection. No university attempt or connection has started. The
+saved capture and corrected startup remain unchanged; full training is unadmitted.
+Earlier entries are historical snapshots.
+
+**Component-only university handoff prepared (November 8):**
+[49 integration checks verify the separate frozen-input continuation](report/checks/2026-11-08-predictor-sdpa-continuation-v1-preparation.md).
+The handoff reuses the accepted capture and corrected startup, with four fresh
+component workers and bounded collection. It is unarmed pending one new scoped
+university approval and fresh host status. No new full-model capture is needed;
+full training remains unadmitted. Earlier entries are historical snapshots.
+
 **Component startup corrected locally (November 7):**
 [71 startup checks and 18 packaging checks verify the separate correction](report/checks/2026-11-07-predictor-component-startup-v2-local-review.md).
 Both real wrapper/executor layers now share one configuration owner; the strict

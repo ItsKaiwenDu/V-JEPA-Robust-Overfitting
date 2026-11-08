@@ -1,0 +1,277 @@
+{
+  "actual_component_arrays_verified": 64,
+  "actual_small_CPU_cohorts": [
+    {
+      "CPU_only": true,
+      "actual_component_arrays_verified": 32,
+      "canonical_reference": {
+        "bytes": 2675,
+        "mtime_ns": 1794153652949446982,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-final/components0/cohort/reference/reference.json",
+        "sha256": "2d7582d24b8acc886b646203103df799c92708f417e695f1c03025866b5173a0"
+      },
+      "fresh_processes": 4,
+      "in_memory_source_root_translation_only": false,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-final/components0/cohort",
+      "plan": {
+        "bytes": 2936,
+        "mtime_ns": 1794153651031735696,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-final/components0/cohort/component-plan.json",
+        "sha256": "92c93a8734e521d2674aa55c215823005af08d06bbc48c80ecb783f6df8d598b"
+      },
+      "reference_arrays_verified": 4,
+      "stored_plan_unchanged": true,
+      "workers": [
+        {
+          "index": 0,
+          "pid": 3650,
+          "worker": {
+            "bytes": 7900,
+            "mtime_ns": 1794153653005823306,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-final/components0/cohort/0/worker.json",
+            "sha256": "b93aedc691d5fd72413d6a4ece265b20dd7865eeb03950a631205834bcea95e0"
+          }
+        },
+        {
+          "index": 1,
+          "pid": 3669,
+          "worker": {
+            "bytes": 8974,
+            "mtime_ns": 1794153654847795011,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-final/components0/cohort/1/worker.json",
+            "sha256": "f6eaab47397ef191f3b3fc8854037a308c4b808046218846f20f066ed3451aa1"
+          }
+        },
+        {
+          "index": 2,
+          "pid": 3691,
+          "worker": {
+            "bytes": 8372,
+            "mtime_ns": 1794153656708829556,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-final/components0/cohort/2/worker.json",
+            "sha256": "58a3315db3c204ea68e5dba87c4ccd8136250618f1ba9d730dacb2a3b8a287dc"
+          }
+        },
+        {
+          "index": 3,
+          "pid": 3695,
+          "worker": {
+            "bytes": 9448,
+            "mtime_ns": 1794153658663219398,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-final/components0/cohort/3/worker.json",
+            "sha256": "57cb398d11e06337a7c60bd411e053af548de1dea653985544bbad0d55d84be6"
+          }
+        }
+      ]
+    },
+    {
+      "CPU_only": true,
+      "actual_component_arrays_verified": 32,
+      "canonical_reference": {
+        "bytes": 2675,
+        "mtime_ns": 1794153704622129028,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-final/test_actual_payload_import_pat0/packaged-CPU/reference/reference.json",
+        "sha256": "d1b9e544bfc85297aa301430348a4d4cc922d23f87f557aa43741379730abaf6"
+      },
+      "fresh_processes": 4,
+      "in_memory_source_root_translation_only": true,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-final/test_actual_payload_import_pat0/packaged-CPU",
+      "plan": {
+        "bytes": 3090,
+        "mtime_ns": 1794153702944767624,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-final/test_actual_payload_import_pat0/packaged-CPU/component-plan.json",
+        "sha256": "6d376517adf9b732d56429e5a867c00d750aaf620fb5ac5052a81593fbd9845a"
+      },
+      "reference_arrays_verified": 4,
+      "stored_plan_unchanged": true,
+      "workers": [
+        {
+          "index": 0,
+          "pid": 3939,
+          "worker": {
+            "bytes": 7900,
+            "mtime_ns": 1794153704663648901,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-final/test_actual_payload_import_pat0/packaged-CPU/0/worker.json",
+            "sha256": "17f3d1f72b08d21d95c5b4f7195deed7a6fb8511e9ca66973286a9f9d52aea8a"
+          }
+        },
+        {
+          "index": 1,
+          "pid": 3959,
+          "worker": {
+            "bytes": 8975,
+            "mtime_ns": 1794153706476851563,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-final/test_actual_payload_import_pat0/packaged-CPU/1/worker.json",
+            "sha256": "bf344280511395fa888104e7e87488677e6a68719e712ae878c2b87d34165910"
+          }
+        },
+        {
+          "index": 2,
+          "pid": 3975,
+          "worker": {
+            "bytes": 8372,
+            "mtime_ns": 1794153708341873286,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-final/test_actual_payload_import_pat0/packaged-CPU/2/worker.json",
+            "sha256": "3a17b531d286f21b5617acafda95af5660c9af0366a4e721919cd750c7d2a649"
+          }
+        },
+        {
+          "index": 3,
+          "pid": 3989,
+          "worker": {
+            "bytes": 9446,
+            "mtime_ns": 1794153710327002261,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-final/test_actual_payload_import_pat0/packaged-CPU/3/worker.json",
+            "sha256": "5c58f17961fd1d840b20564f5e9bb89b225c7b2c28a6c51defc11ae35908ba95"
+          }
+        }
+      ]
+    }
+  ],
+  "candidate_full_model_adopted": false,
+  "capsule_bytes": 36042589,
+  "capsule_logical_bytes": 48627833,
+  "capsule_members": 118,
+  "cold_authorization_actual_payload_imports_live_guard_wiring_failure_stop_and_collection_tests_pass": true,
+  "complete_simulated_single_connection_response": {
+    "bytes": 102621192,
+    "mtime_ns": 1794153662219100262,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-final/test_proof_capsule_four_serial0/response",
+    "sha256": "195a1827f7073cdfa8d0fd540a08b4c15c1206aedcfac180981afe213fdf7386"
+  },
+  "contract": {
+    "bytes": 4957,
+    "path": "configs/predictor_sdpa_continuation_v1.json",
+    "sha256": "4fc0dc3600d6e5657bdf310b52249f5bb83138923850ec140c4b3b3a5b371ba3"
+  },
+  "control": {
+    "bytes": 107927,
+    "mtime_ns": 1794153831116019003,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/CONTROL.json",
+    "sha256": "c35d8662597713562d6722d06f100fd2921e038a24ecedaa38c2b7a1b1fe6c1d"
+  },
+  "date": "2026-11-08",
+  "final_attempt_present": false,
+  "final_authorization_present": false,
+  "final_unarmed_handoff": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "full_native_tensor_contents_newly_evaluated": false,
+  "kind": "component-only-continuation-v1-unarmed-preparation-review",
+  "model_autograd_SDPA_CUDA_process_network_or_reference_execution_blocked_during_review": true,
+  "native_frozen_byte_identity_and_original_receipt_verified": {
+    "boundary_sha256": "51da0691bd3a71367e0abdece1f8d6f8c1fb13eb933c06e5c7aa6c02b69d76da",
+    "marker_sha256": "68d43c70c422cee91427f76d0e45cb588f402fa7bf903f0c3389f3b58bc9da24",
+    "pid": 3093152,
+    "role": "capture",
+    "worker_sha256": "23f386ab1374e4573f1d9475cea0cca5cedd39f7149f99ae1d359d5b4e8170bf"
+  },
+  "new_paid_compute": false,
+  "new_university_SSH_upload_storage_proof_or_compute": false,
+  "next_step": "One new exact scoped university approval plus fresh linux10603 status; then record and independently review the armed unused handoff before giving a local Mac command.",
+  "overlay_bytes": 327663,
+  "overlay_files": 29,
+  "passed": true,
+  "payload_review": {
+    "bytes": 463,
+    "mtime_ns": 1794153831116877873,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/payload-review.json",
+    "sha256": "5c4dcdc872ccb0e8055c189bca17f48bb9de9e175569cf19bc46650891d80e3e"
+  },
+  "preserved_failed_local_runs": [
+    {
+      "failed": 7,
+      "passed": 33,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-first.xml",
+      "reason": "Small saved CPU fixture lacks the target-only anchor summary field; explicit local fixture branch corrected."
+    },
+    {
+      "failed": 1,
+      "passed": 47,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-second.xml",
+      "reason": "Standalone rehearsal CLI lacked the frozen code path that actual target child explicitly adds; rehearsal now matches that setup."
+    }
+  ],
+  "prior_consumed_native_claim": {
+    "bytes": 254,
+    "mtime_ns": 1794118109493298984,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/linux10603-final/ATTEMPT.json",
+    "sha256": "d402bddad88abe7b2241d8c518197ce4bd693b46811352615d87013a9a9d240b"
+  },
+  "prior_preserved_files_reverified": 30568,
+  "prior_startup_71_and_capsule_18_tests_rerun": false,
+  "proposed_resource": {
+    "allocator_bytes": 7516192768,
+    "cache_bytes": 33554432,
+    "capture_bytes": 2415919104,
+    "capture_worker_seconds": 0,
+    "code_bytes": 134217728,
+    "collection_bytes": 3221225472,
+    "collection_seconds": 600,
+    "component_worker_seconds": 120,
+    "component_workers": 4,
+    "emergency_bytes": 16777216,
+    "host": "linux10603",
+    "input_bytes": 134217728,
+    "mask_indices_file_bytes": 262144,
+    "metadata_bytes": 67108864,
+    "parent": "/var/tmp",
+    "raw_bytes": 536870912,
+    "receipt_reserve_seconds": 120,
+    "setup_bytes": 3221225472,
+    "setup_seconds": 180,
+    "static_reserved_seconds": 780,
+    "tensor_file_bytes": 16777216,
+    "work_seconds": 900,
+    "write_proof_bytes": 2684354560,
+    "write_proof_seconds": 60
+  },
+  "raw_review": {
+    "bytes": 8263,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/review/review.json",
+    "sha256": "3f930e68c89414201f15e8fc712a8c6564e241b44baa9c8d4f199cbcb24d5380"
+  },
+  "reference_arrays_verified": 8,
+  "research_or_training_admitted": false,
+  "review_source": {
+    "bytes": 10066,
+    "mtime_ns": 1794153791268506914,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/review/review_saved.py",
+    "sha256": "189581d073dba3fe5e1a1e1e570bace88b5de4fe7bb21c9fb3d6390552504ff8"
+  },
+  "sealed_preparation_inputs": {
+    "bytes": 2598396,
+    "files": 10718,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/sealed-preparation-inputs.json",
+    "sha256": "af80ace4bd60628c25a692316c98cc966a4d2e56b564b807db398a2aa8ff9486"
+  },
+  "simulated_archive_files_verified": 212,
+  "simulated_response_and_saved_bytes_modes_nsmtime_match": true,
+  "source_startup_and_scientific_bounds_frozen": true,
+  "stdin_bootstrap_bytes": 973786,
+  "strict_CUDA_startup_regression_previously_verified_not_rerun": true,
+  "test_counts_not_accumulated": true,
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "passed": 49,
+    "skips": 0,
+    "xml": {
+      "bytes": 7802,
+      "mtime_ns": 1794153712468023248,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/pytest-final.xml",
+      "sha256": "9d97e998438ec10be5f59e670d886321f7dbd717f08fc75d6a5da26c49bdfe72"
+    }
+  }
+}

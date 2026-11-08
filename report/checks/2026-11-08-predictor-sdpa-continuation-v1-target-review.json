@@ -1,0 +1,443 @@
+{
+  "actual_component_arrays_verified": 8,
+  "archive_bytes_hashes_modes_nsmtime_reverified": true,
+  "archive_logical_bytes": 152685099,
+  "archive_members": 179,
+  "authorization": {
+    "bytes": 1689,
+    "mtime_ns": 1794155397755357324,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/AUTHORIZATION.json",
+    "sha256": "6b2d4f446123428a36de0172275ef0126be663e8a907ce70706972a51b2e54cb"
+  },
+  "backend_parser_rejection_reproduced_unchanged": true,
+  "canonical_FP64_references_built": 1,
+  "canonical_reference_arrays_verified": 4,
+  "capsule_inputs_reverified": 118,
+  "cause": "Existing verifier searches only CPU-parent descendants of the thread-1 backward user label. The actual efficient backward is in a thread-2 autograd subtree with matching forward-thread/sequence metadata, so its operator is excluded despite saved positive linked CUDA kernels.",
+  "claim": {
+    "bytes": 259,
+    "mtime_ns": 1794155687460918245,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/ATTEMPT.json",
+    "sha256": "9933b5e9f50c5c3ee571b39bea8d2afd94724ea9adf7d772809a70aaaae7f1f0"
+  },
+  "collection_complete": true,
+  "component_backend_or_performance_qualified": false,
+  "component_error": "Unrecognized/mixed or missing actual component backward backend; no fallback.",
+  "component_values_pass_original_bounds": true,
+  "component_wall_seconds": 5.719544576015323,
+  "component_workers_complete": 0,
+  "component_workers_started": 1,
+  "consumed": true,
+  "control": {
+    "bytes": 107927,
+    "mtime_ns": 1794153831116019003,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/CONTROL.json",
+    "sha256": "c35d8662597713562d6722d06f100fd2921e038a24ecedaa38c2b7a1b1fe6c1d"
+  },
+  "date": "2026-11-08",
+  "event_evidence": {
+    "autograd_engine": {
+      "device": "cpu",
+      "device_index": 1201384,
+      "end_us": 41149.78,
+      "fwd_thread": 1,
+      "index": 30,
+      "legacy": false,
+      "linked_kernels": [],
+      "name": "autograd::engine::evaluate_function: ScaledDotProductEfficientAttentionBackward0",
+      "parent": null,
+      "scope": 0,
+      "sequence_nr": 1,
+      "start_us": 27992.84,
+      "thread": 2,
+      "user_annotation": false
+    },
+    "autograd_node": {
+      "device": "cpu",
+      "device_index": 1201384,
+      "end_us": 41139.381,
+      "fwd_thread": 1,
+      "index": 31,
+      "legacy": false,
+      "linked_kernels": [],
+      "name": "ScaledDotProductEfficientAttentionBackward0",
+      "parent": 30,
+      "scope": 1,
+      "sequence_nr": 1,
+      "start_us": 28000.219,
+      "thread": 2,
+      "user_annotation": false
+    },
+    "backward_operator": {
+      "device": "cpu",
+      "device_index": 1201384,
+      "end_us": 41137.863,
+      "fwd_thread": 0,
+      "index": 32,
+      "legacy": false,
+      "linked_kernels": [],
+      "name": "aten::_scaled_dot_product_efficient_attention_backward",
+      "parent": 31,
+      "scope": 0,
+      "sequence_nr": -1,
+      "start_us": 30475.149,
+      "thread": 2,
+      "user_annotation": false
+    },
+    "backward_phase": {
+      "device": "cpu",
+      "device_index": 1201384,
+      "end_us": 41250.802,
+      "fwd_thread": 0,
+      "index": 29,
+      "legacy": false,
+      "linked_kernels": [],
+      "name": "fixed-SDPA/backward",
+      "parent": null,
+      "scope": 7,
+      "sequence_nr": -1,
+      "start_us": 24871.031,
+      "thread": 1,
+      "user_annotation": true
+    },
+    "cross_thread_autograd_sequence_and_forward_thread_match": true,
+    "existing_CPU_ancestry_rule_excludes_backward_operator": true,
+    "forward_operator": {
+      "device": "cpu",
+      "device_index": 1201384,
+      "end_us": 24790.398,
+      "fwd_thread": 0,
+      "index": 2,
+      "legacy": false,
+      "linked_kernels": [],
+      "name": "aten::_scaled_dot_product_efficient_attention",
+      "parent": 1,
+      "scope": 0,
+      "sequence_nr": 1,
+      "start_us": 13987.809,
+      "thread": 1,
+      "user_annotation": false
+    },
+    "forward_phase": {
+      "device": "cpu",
+      "device_index": 1201384,
+      "end_us": 24851.752,
+      "fwd_thread": 0,
+      "index": 0,
+      "legacy": false,
+      "linked_kernels": [],
+      "name": "fixed-SDPA/forward",
+      "parent": null,
+      "scope": 7,
+      "sequence_nr": -1,
+      "start_us": 7740.704,
+      "thread": 1,
+      "user_annotation": true
+    },
+    "no_new_backend_acceptance_or_event_relabeling": true,
+    "positive_device0_kernels_linked_to_operator_descendants": {
+      "backward": [
+        {
+          "host_event_index": 43,
+          "host_operator": "aten::_efficient_attention_backward",
+          "kernel": {
+            "device": 0,
+            "duration_us": 22956.928,
+            "name": "fmha_cutlassB_f32_aligned_64x64_k32_sm80(PyTorchMemEffAttention::AttentionBackwardKernel<cutlass::arch::Sm80, float, true, false, false, 64, 64, 32, false>::Params)"
+          }
+        }
+      ],
+      "forward": [
+        {
+          "host_event_index": 9,
+          "host_operator": "aten::_efficient_attention_forward",
+          "kernel": {
+            "device": 0,
+            "duration_us": 2116.6399999999994,
+            "name": "fmha_cutlassF_f32_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel<float, cutlass::arch::Sm80, true, 64, 64, 64, true, true>::Params)"
+          }
+        },
+        {
+          "host_event_index": 10,
+          "host_operator": "Activity Buffer Request",
+          "kernel": {
+            "device": 0,
+            "duration_us": 2116.6399999999994,
+            "name": "fmha_cutlassF_f32_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel<float, cutlass::arch::Sm80, true, 64, 64, 64, true, true>::Params)"
+          }
+        }
+      ]
+    },
+    "rows": 106
+  },
+  "final_GPU_peak_receipt_missing": true,
+  "final_flags_and_inputs_completion_checks_not_reached": true,
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "first_review_log": {
+    "bytes": 420,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/target-review/review.log",
+    "sha256": "0026f2e0f5e5ea6fb966f9140c428a7b665a18c9c2bcfc477fce42c4ac0aa8b5"
+  },
+  "first_review_refusal": "Exact equality of aggregate relative L2 diagnostics differed by 8.47e-22 across CPU reductions. Second review checks all elementwise-gate fields exactly, reports both L2 diagnostics separately and keeps every numerical bound unchanged.",
+  "first_review_source": {
+    "bytes": 15246,
+    "mtime_ns": 1794157598699490041,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/target-review/review_saved.py",
+    "sha256": "16df7b90c9ae61e4cfa2767f39774d8ab62bc5591e5f9363d639d2a7f21b0888"
+  },
+  "fresh_process_replay_not_run": true,
+  "frozen_native_receipt": {
+    "boundary_sha256": "51da0691bd3a71367e0abdece1f8d6f8c1fb13eb933c06e5c7aa6c02b69d76da",
+    "marker_sha256": "68d43c70c422cee91427f76d0e45cb588f402fa7bf903f0c3389f3b58bc9da24",
+    "pid": 3093152,
+    "role": "capture",
+    "worker_sha256": "23f386ab1374e4573f1d9475cea0cca5cedd39f7149f99ae1d359d5b4e8170bf"
+  },
+  "full_model_candidate_rejected_entries_unchanged": 3724,
+  "kind": "component-only-continuation-v1-target-saved-review",
+  "model_autograd_SDPA_CUDA_process_network_reference_execution_blocked": true,
+  "native_output_logical_hashes": {
+    "profiled": {
+      "dk": "f6badf9b4684abe2bbbb5744c84fffa27a4bc6ab7f7d5002c37cb2d51213a9d1",
+      "dq": "f2c5d2f614ae9861926a5a9e27ac209677e64bdfd0d4dd74189e0936ba202b0f",
+      "dv": "0afa0f1458dc8f5ee51024dc07776ac36cdd09f04b9d9923177e6ba4d0c852ef",
+      "output": "f9e5f261427639855a010c5c174006e1b3df850099a67e066b8610f53bb1f6f7"
+    },
+    "untimed": {
+      "dk": "f6badf9b4684abe2bbbb5744c84fffa27a4bc6ab7f7d5002c37cb2d51213a9d1",
+      "dq": "f2c5d2f614ae9861926a5a9e27ac209677e64bdfd0d4dd74189e0936ba202b0f",
+      "dv": "0afa0f1458dc8f5ee51024dc07776ac36cdd09f04b9d9923177e6ba4d0c852ef",
+      "output": "f9e5f261427639855a010c5c174006e1b3df850099a67e066b8610f53bb1f6f7"
+    }
+  },
+  "new_full_model_backwards": 0,
+  "new_native_captures": 0,
+  "new_paid_compute": false,
+  "new_research_or_training_admitted": false,
+  "next_step": "Prepare a separately versioned offline association verifier using saved cross-thread autograd metadata and strict ambiguity/mutation/foreign-kernel regressions; preserve this refusal and all original numerical/backend gates. No new target attempt is authorized.",
+  "numerical_checks": {
+    "profiled": {
+      "dk": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 3.4826833479484494e-11,
+        "max_tolerance_ratio": 0.00016256409068091725,
+        "passed": true,
+        "relative_l2_error": 3.6205087270809233e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dq": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.033925839332677e-11,
+        "max_tolerance_ratio": 5.160648470673458e-05,
+        "passed": true,
+        "relative_l2_error": 3.2586804252676402e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dv": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.5785024031998165e-11,
+        "max_tolerance_ratio": 7.775571467563141e-05,
+        "passed": true,
+        "relative_l2_error": 3.369197943691921e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "output": {
+        "atol": 2e-05,
+        "failed_elements": 0,
+        "max_absolute_error": 1.6000549245109852e-05,
+        "max_tolerance_ratio": 0.5541802668312376,
+        "passed": true,
+        "relative_l2_error": 1.452763659319289e-06,
+        "rtol": 0.0001,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      }
+    },
+    "untimed": {
+      "dk": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 3.4826833479484494e-11,
+        "max_tolerance_ratio": 0.00016256409068091725,
+        "passed": true,
+        "relative_l2_error": 3.6205087270809233e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dq": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.033925839332677e-11,
+        "max_tolerance_ratio": 5.160648470673458e-05,
+        "passed": true,
+        "relative_l2_error": 3.2586804252676402e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dv": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.5785024031998165e-11,
+        "max_tolerance_ratio": 7.775571467563141e-05,
+        "passed": true,
+        "relative_l2_error": 3.369197943691921e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "output": {
+        "atol": 2e-05,
+        "failed_elements": 0,
+        "max_absolute_error": 1.6000549245109852e-05,
+        "max_tolerance_ratio": 0.5541802668312376,
+        "passed": true,
+        "relative_l2_error": 1.452763659319289e-06,
+        "rtol": 0.0001,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      }
+    }
+  },
+  "one_original_worker_bitwise_matches_native": true,
+  "overlay_files_reverified": 29,
+  "passed": true,
+  "prior_preparation_sealed_files_reverified": 10718,
+  "prior_preserved_hashes_reverified": 30568,
+  "profiled_original_replay_exact": true,
+  "raw_review": {
+    "bytes": 11198,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/target-review/review.json",
+    "sha256": "64885bfb9d151df5800d622edf257713c7e3b05c3334d63d144043ab84b342d2"
+  },
+  "relative_L2_diagnostic_summaries": {
+    "dk": {
+      "absolute_difference": 8.470329472543003e-22,
+      "recorded": 3.6205087270809225e-06,
+      "reviewed": 3.6205087270809233e-06,
+      "used_for_acceptance": false
+    },
+    "dq": {
+      "absolute_difference": 8.470329472543003e-22,
+      "recorded": 3.2586804252676394e-06,
+      "reviewed": 3.2586804252676402e-06,
+      "used_for_acceptance": false
+    },
+    "dv": {
+      "absolute_difference": 8.470329472543003e-22,
+      "recorded": 3.369197943691922e-06,
+      "reviewed": 3.369197943691921e-06,
+      "used_for_acceptance": false
+    },
+    "output": {
+      "absolute_difference": 8.470329472543003e-22,
+      "recorded": 1.452763659319288e-06,
+      "reviewed": 1.452763659319289e-06,
+      "used_for_acceptance": false
+    }
+  },
+  "response": {
+    "bytes": 152863158,
+    "mtime_ns": 1794155687430988458,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/attended-fz_fon25/response.bin",
+    "sha256": "5020ce7dd52325af4b830f0ebf6247bb7c74d771561347ec2929e071254664ff"
+  },
+  "response_bytes": 152863158,
+  "review_source": {
+    "bytes": 16291,
+    "mtime_ns": 1794157718568961012,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/target-review/review_saved_second.py",
+    "sha256": "e7f2ec281699335a7a7c73954563aa9f2d8bb9f5d3346c2dfa0b0a3c475eb8ac"
+  },
+  "same_connection": true,
+  "saved_plan_bytes_changed": false,
+  "saved_plan_translated_in_memory_only": true,
+  "sealed_target_review": {
+    "bytes": 40946,
+    "files": 191,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/target-review/sealed-target-review.json",
+    "sha256": "6e86b4456e11a33aa245e59b2a2bdaa297f435de581cd374f47b42f7280b8584"
+  },
+  "session": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/attended-fz_fon25",
+  "session_work_seconds": 29.206715492065996,
+  "startup_fix_worked": true,
+  "startup_receipt": {
+    "allocator_cap_bytes": 7516192768,
+    "allocator_fraction": 0.9153876238137426,
+    "configure_calls": 1,
+    "cuda_initialized_after": true,
+    "cuda_initialized_before": false,
+    "device": "cuda",
+    "device_total_bytes": 8210939904,
+    "kind": "native-SDPA-component-startup-v2",
+    "pid": 1201384,
+    "policy": "shared-fp64-native",
+    "precision": {
+      "cublas_workspace_config": ":4096:8",
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": true,
+      "cudnn_enabled": true,
+      "cudnn_tf32": false,
+      "deterministic_algorithms": true,
+      "deterministic_warn_only": false,
+      "matmul_precision": "highest",
+      "matmul_tf32": false
+    }
+  },
+  "storage_proof_passed": true,
+  "target_input_pins": {
+    "bytes": 77537,
+    "mtime_ns": 1794157742871099885,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/target-review/target-input-pins.json",
+    "sha256": "45b889fc411ccc802148b590c08b5f6c9600bda7667a57c599aaabbcb3729c62"
+  },
+  "tests_rerun": false,
+  "transport_exit_status": 1,
+  "unstarted_component_indices": [
+    1,
+    2,
+    3
+  ]
+}
