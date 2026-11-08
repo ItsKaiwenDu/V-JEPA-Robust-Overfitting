@@ -1,0 +1,227 @@
+{
+  "CUDA_specific_two_layer_startup_not_covered_by_prior_CPU_rehearsal": true,
+  "all_current_scientific_sources_and_claims_frozen": true,
+  "archive_bytes_hashes_modes_ns_mtimes_reverified": true,
+  "archive_files_verified": 171,
+  "archive_logical_bytes": 108613250,
+  "candidate_rejected_entries_unchanged": 3724,
+  "canonical_FP64_references_built": 0,
+  "cause": "Wrapper configures deterministic execution then initializes CUDA for allocator setup; component executor configures again and strict pre-initialization guard refuses.",
+  "claim": {
+    "bytes": 254,
+    "mtime_ns": 1794118109493298984,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/linux10603-final/ATTEMPT.json",
+    "sha256": "d402bddad88abe7b2241d8c518197ce4bd693b46811352615d87013a9a9d240b"
+  },
+  "collection_complete": true,
+  "component_backend_or_performance_qualified": false,
+  "component_failure": "Configure deterministic execution before CUDA initialization.",
+  "component_failure_is_numerical_tolerance_rejection": false,
+  "component_failure_type": "RuntimeError",
+  "component_numerical_comparisons_complete": false,
+  "component_returns_saved": false,
+  "component_startup_refused": true,
+  "component_workers_complete": 0,
+  "component_workers_started": 1,
+  "consumed": true,
+  "date": "2026-11-07",
+  "exact_mask_file_bytes": 146562,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "first_local_review_refusal": {
+    "bytes": 721,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/target-review/review.log",
+    "sha256": "c9b634c8482d1682eeb7b8fc25b2ab7916577603c50a07c06cd47f1864dde966"
+  },
+  "first_local_review_source": {
+    "bytes": 12809,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/target-review/review_saved.py",
+    "sha256": "b8ca4cdb766a105c67729375fc61a47d719c0e1c037ecaac9ee1118e592474fe"
+  },
+  "input_pins": {
+    "bytes": 72218,
+    "mtime_ns": 1794121386288016559,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/target-review/target-input-pins.json",
+    "sha256": "e488628ceda385437a75856e621b7458b2d48ce711acdbf6e9562d556334e6b1"
+  },
+  "kind": "native-SDPA-v2-curated-target-review",
+  "mask_policy_fix_worked": true,
+  "model_autograd_SDPA_CUDA_process_network_or_reference_execution_blocked": true,
+  "native_anchor_values": {
+    "input": {
+      "finite": true,
+      "logical_sha256": "68c82f9e88337dcd2afc1d6d33dd86025d6bc33086d8ae59b05f5d7446c5af4b",
+      "native_anchor_exact": true,
+      "shape": [
+        1,
+        3,
+        16,
+        256,
+        256
+      ]
+    },
+    "loss": {
+      "finite": true,
+      "logical_sha256": "e0936ec1b34b140bc92404d108cfabb17b861feca87c207e702f818997f34a62",
+      "native_anchor_exact": true,
+      "shape": []
+    },
+    "targets": {
+      "finite": true,
+      "logical_sha256": "62049a4d393a59867090f34263f96cd655ca5e6b2e56890dcb2ceaa811680fd1",
+      "native_anchor_exact": false,
+      "shape": [
+        1,
+        2048,
+        1024
+      ]
+    }
+  },
+  "native_boundary_arrays": {
+    "dk": {
+      "finite": true,
+      "logical_sha256": "f6badf9b4684abe2bbbb5744c84fffa27a4bc6ab7f7d5002c37cb2d51213a9d1",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "dq": {
+      "finite": true,
+      "logical_sha256": "f2c5d2f614ae9861926a5a9e27ac209677e64bdfd0d4dd74189e0936ba202b0f",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "dv": {
+      "finite": true,
+      "logical_sha256": "0afa0f1458dc8f5ee51024dc07776ac36cdd09f04b9d9923177e6ba4d0c852ef",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "grad_output": {
+      "finite": true,
+      "logical_sha256": "a29ed1d58225d24082470ec897afdf0462d0ac34bc4af9416233a489c58d36d1",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "k": {
+      "finite": true,
+      "logical_sha256": "f95a94c54a8dba93b3d7798c472c59a8f2aec1a9acbc94831aa2dd85ff295c33",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "output": {
+      "finite": true,
+      "logical_sha256": "f9e5f261427639855a010c5c174006e1b3df850099a67e066b8610f53bb1f6f7",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "q": {
+      "finite": true,
+      "logical_sha256": "199e8e11e0ad1350e1d8aaf4359e20f2df4473067603275f35d6763e81f24bff",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "v": {
+      "finite": true,
+      "logical_sha256": "615301b1ff999262ca195c1a8f75357ee63a21a00588ca05deff4abed307d297",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    }
+  },
+  "native_capture_accepted": true,
+  "native_capture_complete": true,
+  "native_capture_peak_allocator_bytes": 5143749632,
+  "native_capture_wall_seconds": 52.56668302929029,
+  "native_scope": {
+    "CUDA_kernel_qualified": false,
+    "backward_calls": 576,
+    "five_phase_qualified": false,
+    "forward_calls": 576,
+    "hooks_removed": true,
+    "kind": "native-SDPA-observation-one-GraphTask-coverage-v1",
+    "owners": 36,
+    "scopes": 1
+  },
+  "new_model_gradient_or_numerical_experiment_in_review": false,
+  "new_paid_compute": false,
+  "next_step": "Prepare a separate component-startup correction with a regression through both wrapper/executor layers; keep strict CUDA-before-init guard and 7 GiB cap. Prefer reviewed captured native inputs over another full capture, with a separate bound scope/authorization before any new university work.",
+  "packet_members_reverified": 99,
+  "passed": true,
+  "preparation_sealed_files_reverified": 25370,
+  "proposed_continuation_authorized": false,
+  "raw_review": {
+    "bytes": 5105,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/target-review/review-second.json",
+    "sha256": "d855b00393f5a155f03b7bb633995335f89450aaa3d1b97cd5b2961e1598bd61"
+  },
+  "research_or_training_admitted": false,
+  "response": {
+    "bytes": 108778481,
+    "mtime_ns": 1794118109384252999,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/linux10603-final/attended-627v_nh9/response.bin",
+    "sha256": "543a0e5e01fc90c3b85d823f44e05a2cf033e24bd3238eedb4b44a23112087e0"
+  },
+  "response_bytes": 108778481,
+  "review_source": {
+    "bytes": 12805,
+    "mtime_ns": 1794121370849335510,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/target-review/review_saved_second.py",
+    "sha256": "658d7f39fc4e698dbe49135c2aa89fefdbc994f266361222cb3640f8fda41ab7"
+  },
+  "saved_plan_bytes_or_identity_changed": false,
+  "saved_plan_paths_translated_in_memory_only": true,
+  "session": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/linux10603-final/attended-627v_nh9",
+  "session_work_seconds": 75.63635189598426,
+  "source_overlay_files_reverified": 33,
+  "storage_proof_passed": true,
+  "summary": {
+    "bytes": 4817,
+    "path": "report/checks/2026-11-07-predictor-sdpa-handoff-v2-target-review.md",
+    "sha256": "2e2241ee9de4be019a5b747a8eba76bd60cca0c01c656525bc4034bc2d3ba536"
+  },
+  "targets_signature_verified": true,
+  "tests_rerun": false,
+  "transport_exit_status": 1
+}

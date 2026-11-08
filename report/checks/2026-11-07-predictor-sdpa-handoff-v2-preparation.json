@@ -1,0 +1,1647 @@
+{
+  "actual_CPU_cohorts": [
+    {
+      "PIDs": [
+        63458,
+        63471,
+        63472,
+        63476,
+        63477
+      ],
+      "canonical_bookkeeping": {
+        "dk": {
+          "atol": 1e-14,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "relative_l2_error": 0.0,
+          "rtol": 1e-12,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "dq": {
+          "atol": 1e-14,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "relative_l2_error": 0.0,
+          "rtol": 1e-12,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "dv": {
+          "atol": 1e-14,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "relative_l2_error": 0.0,
+          "rtol": 1e-12,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "output": {
+          "atol": 1e-14,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "relative_l2_error": 0.0,
+          "rtol": 1e-12,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        }
+      },
+      "canonical_reference": {
+        "bytes": 2676,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/pytest-third/native-handoff0/results/components/reference/reference.json",
+        "sha256": "acedbc9471da7f9655a4ba115d837b85978cf80afd2d101fd4b44e41cb56f984"
+      },
+      "capture": {
+        "bytes": 11541,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/pytest-third/native-handoff0/results/capture/worker.json",
+        "sha256": "0e015e9b095351ad3ee8d14a0e7376f0e588db7c24d5fddae5548833062af562"
+      },
+      "capture_receipt": {
+        "boundary_sha256": "e0c0bf0e80cfc8dad8f1ff3ca5f009858643511aa2c0d0ac469ffa0d8b617100",
+        "marker_sha256": "a4a242a9a55aca6fd66b888be8138c29ece97dab6b3eff45bef183c44ab1b380",
+        "pid": 63458,
+        "role": "capture",
+        "worker_sha256": "0e015e9b095351ad3ee8d14a0e7376f0e588db7c24d5fddae5548833062af562"
+      },
+      "new_target_work": false,
+      "original_value_replay_exact": true,
+      "plan": {
+        "bytes": 2710,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/pytest-third/native-handoff0/results/components/component-plan.json",
+        "sha256": "055700b1ea1ab62c00183fc50d93d9b2335a50ee432ecdd0c565b147971028f8"
+      },
+      "root": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/pytest-third/native-handoff0",
+      "workers": [
+        {
+          "FP64_checks": {
+            "profiled": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 6.045001857375804e-16,
+                "max_tolerance_ratio": 3.0224340510223703e-09,
+                "passed": true,
+                "relative_l2_error": 1.3786102489284615e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 3.3296720017471034e-13,
+                "max_tolerance_ratio": 1.6360606142825708e-06,
+                "passed": true,
+                "relative_l2_error": 1.1577041315220293e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455547426321817e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 7.2552385418922505e-09,
+                "max_tolerance_ratio": 0.0003083569023029144,
+                "passed": true,
+                "relative_l2_error": 5.447643335644862e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            },
+            "untimed": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 6.045001857375804e-16,
+                "max_tolerance_ratio": 3.0224340510223703e-09,
+                "passed": true,
+                "relative_l2_error": 1.3786102489284615e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 3.3296720017471034e-13,
+                "max_tolerance_ratio": 1.6360606142825708e-06,
+                "passed": true,
+                "relative_l2_error": 1.1577041315220293e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455547426321817e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 7.2552385418922505e-09,
+                "max_tolerance_ratio": 0.0003083569023029144,
+                "passed": true,
+                "relative_l2_error": 5.447643335644862e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            }
+          },
+          "backend": {
+            "CPU_only": true,
+            "CUDA_forward_and_backward_qualified": false,
+            "default_family_was_assumed": false,
+            "device": "cpu",
+            "kind": "one-fixed-SDPA-associated-backend-v1",
+            "observed_family": "cpu-flash",
+            "phase_correlated_CUDA_kernel_names": {
+              "fixed-SDPA/backward": [],
+              "fixed-SDPA/forward": []
+            },
+            "selection": "original",
+            "timings_usable_for_speed_or_cost": false,
+            "unsupported_backend_action": "refuse and preserve; never force a fallback"
+          },
+          "index": 0,
+          "marker": {
+            "bytes": 266,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/pytest-third/native-handoff0/results/components/0/complete.json",
+            "sha256": "66be91c036da8760c23484972d819cb122745fd5a399cd228e03f4223dd1a8af"
+          },
+          "oracle_build_calls": 1,
+          "pid": 63471,
+          "profile_replay_exact": true,
+          "trace": {
+            "bytes": 17740,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/pytest-third/native-handoff0/results/components/0/events.jsonl",
+            "sha256": "49632889c56d83f3aab70fe1e052eedae153e10bfffea5c4b87f206b3c03f9e5"
+          },
+          "worker": {
+            "bytes": 7375,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/pytest-third/native-handoff0/results/components/0/worker.json",
+            "sha256": "b40c0739cc331d9fbcf4fa9575fe8c0b9a684366d6c38f2f83349f2f203af6d9"
+          }
+        },
+        {
+          "FP64_checks": {
+            "profiled": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 5.401049691437153e-16,
+                "max_tolerance_ratio": 2.700491691214415e-09,
+                "passed": true,
+                "relative_l2_error": 1.064387059336796e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.755620563800958e-13,
+                "max_tolerance_ratio": 1.3617889660993968e-06,
+                "passed": true,
+                "relative_l2_error": 1.0969150953548223e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455371744162237e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 5.468499604532884e-09,
+                "max_tolerance_ratio": 0.00022312235161089299,
+                "passed": true,
+                "relative_l2_error": 5.088068982993577e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            },
+            "untimed": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 5.401049691437153e-16,
+                "max_tolerance_ratio": 2.700491691214415e-09,
+                "passed": true,
+                "relative_l2_error": 1.064387059336796e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.755620563800958e-13,
+                "max_tolerance_ratio": 1.3617889660993968e-06,
+                "passed": true,
+                "relative_l2_error": 1.0969150953548223e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455371744162237e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 5.468499604532884e-09,
+                "max_tolerance_ratio": 0.00022312235161089299,
+                "passed": true,
+                "relative_l2_error": 5.088068982993577e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            }
+          },
+          "backend": {
+            "CPU_only": true,
+            "CUDA_forward_and_backward_qualified": false,
+            "default_family_was_assumed": false,
+            "device": "cpu",
+            "kind": "one-fixed-SDPA-associated-backend-v1",
+            "observed_family": "math",
+            "phase_correlated_CUDA_kernel_names": {
+              "fixed-SDPA/backward": [],
+              "fixed-SDPA/forward": []
+            },
+            "selection": "math",
+            "timings_usable_for_speed_or_cost": false,
+            "unsupported_backend_action": "refuse and preserve; never force a fallback"
+          },
+          "index": 1,
+          "marker": {
+            "bytes": 266,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/pytest-third/native-handoff0/results/components/1/complete.json",
+            "sha256": "5edf790e121c2f48ddb353062d8a8fe6f7ff41e87f07cb2d1ba082b64d80aa9f"
+          },
+          "oracle_build_calls": 0,
+          "pid": 63472,
+          "profile_replay_exact": true,
+          "trace": {
+            "bytes": 58188,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/pytest-third/native-handoff0/results/components/1/events.jsonl",
+            "sha256": "48654a7d0e540df76dac41924b54e7643cffa27c94d971e2f4f2b7387af0ec2b"
+          },
+          "worker": {
+            "bytes": 8450,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/pytest-third/native-handoff0/results/components/1/worker.json",
+            "sha256": "6442edfbe7b3cbb8ac5f8d55a5a702cded6ceba625019062130044830b085051"
+          }
+        },
+        {
+          "FP64_checks": {
+            "profiled": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 6.045001857375804e-16,
+                "max_tolerance_ratio": 3.0224340510223703e-09,
+                "passed": true,
+                "relative_l2_error": 1.3786102489284615e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 3.3296720017471034e-13,
+                "max_tolerance_ratio": 1.6360606142825708e-06,
+                "passed": true,
+                "relative_l2_error": 1.1577041315220293e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455547426321817e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 7.2552385418922505e-09,
+                "max_tolerance_ratio": 0.0003083569023029144,
+                "passed": true,
+                "relative_l2_error": 5.447643335644862e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            },
+            "untimed": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 6.045001857375804e-16,
+                "max_tolerance_ratio": 3.0224340510223703e-09,
+                "passed": true,
+                "relative_l2_error": 1.3786102489284615e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 3.3296720017471034e-13,
+                "max_tolerance_ratio": 1.6360606142825708e-06,
+                "passed": true,
+                "relative_l2_error": 1.1577041315220293e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455547426321817e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 7.2552385418922505e-09,
+                "max_tolerance_ratio": 0.0003083569023029144,
+                "passed": true,
+                "relative_l2_error": 5.447643335644862e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            }
+          },
+          "backend": {
+            "CPU_only": true,
+            "CUDA_forward_and_backward_qualified": false,
+            "default_family_was_assumed": false,
+            "device": "cpu",
+            "kind": "one-fixed-SDPA-associated-backend-v1",
+            "observed_family": "cpu-flash",
+            "phase_correlated_CUDA_kernel_names": {
+              "fixed-SDPA/backward": [],
+              "fixed-SDPA/forward": []
+            },
+            "selection": "original",
+            "timings_usable_for_speed_or_cost": false,
+            "unsupported_backend_action": "refuse and preserve; never force a fallback"
+          },
+          "index": 2,
+          "marker": {
+            "bytes": 266,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/pytest-third/native-handoff0/results/components/2/complete.json",
+            "sha256": "589fcce7628e24ee13e8c63617c82d9d96c1aeadf251eb52dd6c6d5e5e88172d"
+          },
+          "oracle_build_calls": 0,
+          "pid": 63476,
+          "profile_replay_exact": true,
+          "trace": {
+            "bytes": 17734,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/pytest-third/native-handoff0/results/components/2/events.jsonl",
+            "sha256": "d4eec87b21ad9b8ee81a730f21d3aff7096c123791e5d09e1089408615749459"
+          },
+          "worker": {
+            "bytes": 7846,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/pytest-third/native-handoff0/results/components/2/worker.json",
+            "sha256": "8cede8e929e402053297f20d8ea3b5e64b488eb5d0f0c0bef4784b94612eaf89"
+          }
+        },
+        {
+          "FP64_checks": {
+            "profiled": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 5.401049691437153e-16,
+                "max_tolerance_ratio": 2.700491691214415e-09,
+                "passed": true,
+                "relative_l2_error": 1.064387059336796e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.755620563800958e-13,
+                "max_tolerance_ratio": 1.3617889660993968e-06,
+                "passed": true,
+                "relative_l2_error": 1.0969150953548223e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455371744162237e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 5.468499604532884e-09,
+                "max_tolerance_ratio": 0.00022312235161089299,
+                "passed": true,
+                "relative_l2_error": 5.088068982993577e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            },
+            "untimed": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 5.401049691437153e-16,
+                "max_tolerance_ratio": 2.700491691214415e-09,
+                "passed": true,
+                "relative_l2_error": 1.064387059336796e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.755620563800958e-13,
+                "max_tolerance_ratio": 1.3617889660993968e-06,
+                "passed": true,
+                "relative_l2_error": 1.0969150953548223e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455371744162237e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 5.468499604532884e-09,
+                "max_tolerance_ratio": 0.00022312235161089299,
+                "passed": true,
+                "relative_l2_error": 5.088068982993577e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            }
+          },
+          "backend": {
+            "CPU_only": true,
+            "CUDA_forward_and_backward_qualified": false,
+            "default_family_was_assumed": false,
+            "device": "cpu",
+            "kind": "one-fixed-SDPA-associated-backend-v1",
+            "observed_family": "math",
+            "phase_correlated_CUDA_kernel_names": {
+              "fixed-SDPA/backward": [],
+              "fixed-SDPA/forward": []
+            },
+            "selection": "math",
+            "timings_usable_for_speed_or_cost": false,
+            "unsupported_backend_action": "refuse and preserve; never force a fallback"
+          },
+          "index": 3,
+          "marker": {
+            "bytes": 266,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/pytest-third/native-handoff0/results/components/3/complete.json",
+            "sha256": "c10f8c3de6aa514e8e827390309c7baa90b5570a0a412c6fcb85ddf19998c8da"
+          },
+          "oracle_build_calls": 0,
+          "pid": 63477,
+          "profile_replay_exact": true,
+          "trace": {
+            "bytes": 58177,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/pytest-third/native-handoff0/results/components/3/events.jsonl",
+            "sha256": "287b0dc55e518f0673ac1cd0d617210eb3004529de8f67b8524a1c3a883a02cf"
+          },
+          "worker": {
+            "bytes": 8923,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/pytest-third/native-handoff0/results/components/3/worker.json",
+            "sha256": "6127734d8c9ddba2494b210b1ffa01b62e1481c49367e1bba74b779904713f84"
+          }
+        }
+      ]
+    },
+    {
+      "PIDs": [
+        63663,
+        63690,
+        63702,
+        63703,
+        63726
+      ],
+      "canonical_bookkeeping": {
+        "dk": {
+          "atol": 1e-14,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "relative_l2_error": 0.0,
+          "rtol": 1e-12,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "dq": {
+          "atol": 1e-14,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "relative_l2_error": 0.0,
+          "rtol": 1e-12,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "dv": {
+          "atol": 1e-14,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "relative_l2_error": 0.0,
+          "rtol": 1e-12,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        },
+        "output": {
+          "atol": 1e-14,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "relative_l2_error": 0.0,
+          "rtol": 1e-12,
+          "shape": [
+            1,
+            2,
+            32,
+            32
+          ]
+        }
+      },
+      "canonical_reference": {
+        "bytes": 2676,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/packaged-CPU/results/components/reference/reference.json",
+        "sha256": "2ed85937023db235876240c2dadd694b0251324b409a1c52c3dc5b399b1a3b1f"
+      },
+      "capture": {
+        "bytes": 11540,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/packaged-CPU/results/capture/worker.json",
+        "sha256": "b49635975cae9c27d44357197b8171eafa6addf1dba6e10d841e71a2069e8741"
+      },
+      "capture_receipt": {
+        "boundary_sha256": "d57440969240c4a31735e42c46a279210b658d093f36147d0f72752f07043e16",
+        "marker_sha256": "31ee6bafa150fdee0cb1e52d99bbbfe98052f605a9ff87c693836f9173dccbd1",
+        "pid": 63663,
+        "role": "capture",
+        "worker_sha256": "b49635975cae9c27d44357197b8171eafa6addf1dba6e10d841e71a2069e8741"
+      },
+      "new_target_work": false,
+      "original_value_replay_exact": true,
+      "plan": {
+        "bytes": 2761,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/packaged-CPU/results/components/component-plan.json",
+        "sha256": "2e2bf907900caf3b014d7d1849ee5df7fbe3ca986e8985a9f25c17c7e8ea6090"
+      },
+      "root": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/packaged-CPU",
+      "workers": [
+        {
+          "FP64_checks": {
+            "profiled": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 6.045001857375804e-16,
+                "max_tolerance_ratio": 3.0224340510223703e-09,
+                "passed": true,
+                "relative_l2_error": 1.3786102489284615e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 3.3296720017471034e-13,
+                "max_tolerance_ratio": 1.6360606142825708e-06,
+                "passed": true,
+                "relative_l2_error": 1.1577041315220293e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455547426321817e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 7.2552385418922505e-09,
+                "max_tolerance_ratio": 0.0003083569023029144,
+                "passed": true,
+                "relative_l2_error": 5.447643335644862e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            },
+            "untimed": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 6.045001857375804e-16,
+                "max_tolerance_ratio": 3.0224340510223703e-09,
+                "passed": true,
+                "relative_l2_error": 1.3786102489284615e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 3.3296720017471034e-13,
+                "max_tolerance_ratio": 1.6360606142825708e-06,
+                "passed": true,
+                "relative_l2_error": 1.1577041315220293e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455547426321817e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 7.2552385418922505e-09,
+                "max_tolerance_ratio": 0.0003083569023029144,
+                "passed": true,
+                "relative_l2_error": 5.447643335644862e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            }
+          },
+          "backend": {
+            "CPU_only": true,
+            "CUDA_forward_and_backward_qualified": false,
+            "default_family_was_assumed": false,
+            "device": "cpu",
+            "kind": "one-fixed-SDPA-associated-backend-v1",
+            "observed_family": "cpu-flash",
+            "phase_correlated_CUDA_kernel_names": {
+              "fixed-SDPA/backward": [],
+              "fixed-SDPA/forward": []
+            },
+            "selection": "original",
+            "timings_usable_for_speed_or_cost": false,
+            "unsupported_backend_action": "refuse and preserve; never force a fallback"
+          },
+          "index": 0,
+          "marker": {
+            "bytes": 266,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/packaged-CPU/results/components/0/complete.json",
+            "sha256": "928e469fb800cf1122e68a4f894467d867a9e070a7f0fda60bba03c9ca744fdb"
+          },
+          "oracle_build_calls": 1,
+          "pid": 63690,
+          "profile_replay_exact": true,
+          "trace": {
+            "bytes": 17735,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/packaged-CPU/results/components/0/events.jsonl",
+            "sha256": "937e798a88b69a47bb802db689cc648d1c201e2d641d729d3abd582327dfe7f4"
+          },
+          "worker": {
+            "bytes": 7375,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/packaged-CPU/results/components/0/worker.json",
+            "sha256": "4a8154e89e19fc5d79970bb6129ce759d9431eec8a22bfd36877c7e8e49bbafe"
+          }
+        },
+        {
+          "FP64_checks": {
+            "profiled": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 5.401049691437153e-16,
+                "max_tolerance_ratio": 2.700491691214415e-09,
+                "passed": true,
+                "relative_l2_error": 1.064387059336796e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.755620563800958e-13,
+                "max_tolerance_ratio": 1.3617889660993968e-06,
+                "passed": true,
+                "relative_l2_error": 1.0969150953548223e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455371744162237e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 5.468499604532884e-09,
+                "max_tolerance_ratio": 0.00022312235161089299,
+                "passed": true,
+                "relative_l2_error": 5.088068982993577e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            },
+            "untimed": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 5.401049691437153e-16,
+                "max_tolerance_ratio": 2.700491691214415e-09,
+                "passed": true,
+                "relative_l2_error": 1.064387059336796e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.755620563800958e-13,
+                "max_tolerance_ratio": 1.3617889660993968e-06,
+                "passed": true,
+                "relative_l2_error": 1.0969150953548223e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455371744162237e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 5.468499604532884e-09,
+                "max_tolerance_ratio": 0.00022312235161089299,
+                "passed": true,
+                "relative_l2_error": 5.088068982993577e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            }
+          },
+          "backend": {
+            "CPU_only": true,
+            "CUDA_forward_and_backward_qualified": false,
+            "default_family_was_assumed": false,
+            "device": "cpu",
+            "kind": "one-fixed-SDPA-associated-backend-v1",
+            "observed_family": "math",
+            "phase_correlated_CUDA_kernel_names": {
+              "fixed-SDPA/backward": [],
+              "fixed-SDPA/forward": []
+            },
+            "selection": "math",
+            "timings_usable_for_speed_or_cost": false,
+            "unsupported_backend_action": "refuse and preserve; never force a fallback"
+          },
+          "index": 1,
+          "marker": {
+            "bytes": 266,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/packaged-CPU/results/components/1/complete.json",
+            "sha256": "4798272e1ba2c6cdb450b81e580c8ad9df33eb9b37a9fe5fb6b0dca7bd94fb75"
+          },
+          "oracle_build_calls": 0,
+          "pid": 63702,
+          "profile_replay_exact": true,
+          "trace": {
+            "bytes": 58185,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/packaged-CPU/results/components/1/events.jsonl",
+            "sha256": "13111179822801520dbf2704cbef298979bb07491ff11739f619f2c22ff2a188"
+          },
+          "worker": {
+            "bytes": 8450,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/packaged-CPU/results/components/1/worker.json",
+            "sha256": "d5b8d7de89f08c57757fdd8df508a7c4c97f8572d80c022ea4f341d764a89155"
+          }
+        },
+        {
+          "FP64_checks": {
+            "profiled": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 6.045001857375804e-16,
+                "max_tolerance_ratio": 3.0224340510223703e-09,
+                "passed": true,
+                "relative_l2_error": 1.3786102489284615e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 3.3296720017471034e-13,
+                "max_tolerance_ratio": 1.6360606142825708e-06,
+                "passed": true,
+                "relative_l2_error": 1.1577041315220293e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455547426321817e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 7.2552385418922505e-09,
+                "max_tolerance_ratio": 0.0003083569023029144,
+                "passed": true,
+                "relative_l2_error": 5.447643335644862e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            },
+            "untimed": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 6.045001857375804e-16,
+                "max_tolerance_ratio": 3.0224340510223703e-09,
+                "passed": true,
+                "relative_l2_error": 1.3786102489284615e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 3.3296720017471034e-13,
+                "max_tolerance_ratio": 1.6360606142825708e-06,
+                "passed": true,
+                "relative_l2_error": 1.1577041315220293e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455547426321817e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 7.2552385418922505e-09,
+                "max_tolerance_ratio": 0.0003083569023029144,
+                "passed": true,
+                "relative_l2_error": 5.447643335644862e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            }
+          },
+          "backend": {
+            "CPU_only": true,
+            "CUDA_forward_and_backward_qualified": false,
+            "default_family_was_assumed": false,
+            "device": "cpu",
+            "kind": "one-fixed-SDPA-associated-backend-v1",
+            "observed_family": "cpu-flash",
+            "phase_correlated_CUDA_kernel_names": {
+              "fixed-SDPA/backward": [],
+              "fixed-SDPA/forward": []
+            },
+            "selection": "original",
+            "timings_usable_for_speed_or_cost": false,
+            "unsupported_backend_action": "refuse and preserve; never force a fallback"
+          },
+          "index": 2,
+          "marker": {
+            "bytes": 266,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/packaged-CPU/results/components/2/complete.json",
+            "sha256": "a44c6d41f9f79a1a8249c37e81e5b427fab5f122e19f719ee65ccededa1114de"
+          },
+          "oracle_build_calls": 0,
+          "pid": 63703,
+          "profile_replay_exact": true,
+          "trace": {
+            "bytes": 17729,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/packaged-CPU/results/components/2/events.jsonl",
+            "sha256": "2a1609c7c4e8cafae50a7b1ace915cca911f0f35eacafc52f78d0d93abff9626"
+          },
+          "worker": {
+            "bytes": 7847,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/packaged-CPU/results/components/2/worker.json",
+            "sha256": "5a4db286368b70946b97d6e125980f14ce5517dfecca3cc041e4c7962f832408"
+          }
+        },
+        {
+          "FP64_checks": {
+            "profiled": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 5.401049691437153e-16,
+                "max_tolerance_ratio": 2.700491691214415e-09,
+                "passed": true,
+                "relative_l2_error": 1.064387059336796e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.755620563800958e-13,
+                "max_tolerance_ratio": 1.3617889660993968e-06,
+                "passed": true,
+                "relative_l2_error": 1.0969150953548223e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455371744162237e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 5.468499604532884e-09,
+                "max_tolerance_ratio": 0.00022312235161089299,
+                "passed": true,
+                "relative_l2_error": 5.088068982993577e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            },
+            "untimed": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 5.401049691437153e-16,
+                "max_tolerance_ratio": 2.700491691214415e-09,
+                "passed": true,
+                "relative_l2_error": 1.064387059336796e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.755620563800958e-13,
+                "max_tolerance_ratio": 1.3617889660993968e-06,
+                "passed": true,
+                "relative_l2_error": 1.0969150953548223e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455371744162237e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 5.468499604532884e-09,
+                "max_tolerance_ratio": 0.00022312235161089299,
+                "passed": true,
+                "relative_l2_error": 5.088068982993577e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            }
+          },
+          "backend": {
+            "CPU_only": true,
+            "CUDA_forward_and_backward_qualified": false,
+            "default_family_was_assumed": false,
+            "device": "cpu",
+            "kind": "one-fixed-SDPA-associated-backend-v1",
+            "observed_family": "math",
+            "phase_correlated_CUDA_kernel_names": {
+              "fixed-SDPA/backward": [],
+              "fixed-SDPA/forward": []
+            },
+            "selection": "math",
+            "timings_usable_for_speed_or_cost": false,
+            "unsupported_backend_action": "refuse and preserve; never force a fallback"
+          },
+          "index": 3,
+          "marker": {
+            "bytes": 266,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/packaged-CPU/results/components/3/complete.json",
+            "sha256": "8b0f4907a747654c3edbd468e9c1bbbd884f64813ab23957d5d3a409eafc1a5f"
+          },
+          "oracle_build_calls": 0,
+          "pid": 63726,
+          "profile_replay_exact": true,
+          "trace": {
+            "bytes": 58179,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/packaged-CPU/results/components/3/events.jsonl",
+            "sha256": "9c5c9db750818372183b2b2cc799525cc5617aa3b140e97398e53517ffa234f5"
+          },
+          "worker": {
+            "bytes": 8923,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/packaged-CPU/results/components/3/worker.json",
+            "sha256": "28c5ddb786dda207ee928ad182176ccb9af9ea4099bf69421ffe9f5b1b60caf0"
+          }
+        }
+      ]
+    }
+  ],
+  "actual_CUDA_pretrained_or_performance_qualified": false,
+  "actual_component_FP32_arrays_reverified": 64,
+  "actual_full_native_backwards_in_review": 0,
+  "actual_native_boundary_arrays_reverified": 16,
+  "attempt_present": false,
+  "authorization_present": false,
+  "candidate_failed_input_entries": 3724,
+  "candidate_remains_rejected": true,
+  "checks": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 58
+  },
+  "control_sha256": "fd9481d6295880c8c97aac32ee7705fb4b5a919a76d30bb3809f0f780d598609",
+  "date": "2026-11-07",
+  "documentation": {
+    "bytes": 7043,
+    "path": "docs/predictor_sdpa_handoff_v2.md",
+    "sha256": "ec07ca4fd9e541d5d73aa2ac0a24f436a7ec33c7ba6a8d99f2b26718f246682b"
+  },
+  "final_control": {
+    "bytes": 69473,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/linux10603-final/CONTROL.json",
+    "sha256": "fd9481d6295880c8c97aac32ee7705fb4b5a919a76d30bb3809f0f780d598609"
+  },
+  "final_saved_review_source": {
+    "bytes": 11286,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/review_handoff_saved_v2.py",
+    "sha256": "1d70a04266ef0c08e58c38e68249566d7ee120ed3859ede08d20c67eeb9948df"
+  },
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "first_and_second_integration_failures_retained": true,
+  "first_saved_review_refusal": {
+    "bytes": 454,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/independent-review.log",
+    "sha256": "98a9789a13979328d4ae02eebabb4dee516717e9090046635b5c4a658ed0e285"
+  },
+  "first_saved_review_source": {
+    "bytes": 11248,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/review_handoff_saved.py",
+    "sha256": "c0dcb563e9652c8fd9035c5d05db3a9cd754f26d22aa0bd36a5b803068079e06"
+  },
+  "fresh_CPU_PIDs": [
+    63458,
+    63471,
+    63472,
+    63476,
+    63477,
+    63663,
+    63690,
+    63702,
+    63703,
+    63726
+  ],
+  "full_training_authorized": false,
+  "full_training_start_estimate": null,
+  "kind": "native-SDPA-handoff-v2-curated-preparation",
+  "mock_GPU_proof_transport_and_authorization_fixtures_not_target_evidence_or_grants": true,
+  "model_autograd_SDPA_CUDA_process_network_blocked_during_saved_review": true,
+  "new_agent_SSH_upload_proof_or_university_work": false,
+  "new_paid_compute": false,
+  "next_step": "One new exact scoped authorization and fresh linux10603 status; then reverify and save/review separate authorization before giving the attended helper once.",
+  "numerical_bounds_and_old_sources_claims_unchanged": true,
+  "only_saved_CPU_tensors_and_NumPy_analytical_arithmetic_during_review": true,
+  "packaged_and_final_overlay_sources_match": true,
+  "packaged_remote_overlay_exactly_matches_final": true,
+  "passed": true,
+  "payload": {
+    "attempt_present": false,
+    "authorization_present": false,
+    "control_sha256": "fd9481d6295880c8c97aac32ee7705fb4b5a919a76d30bb3809f0f780d598609",
+    "kind": "unarmed-native-fixed-SDPA-payload-review-v2",
+    "new_remote_or_university_work": false,
+    "overlay_bytes": 421420,
+    "overlay_files": 33,
+    "packet_bytes": 17192095,
+    "packet_members": 99,
+    "packet_uncompressed_bytes": 26446958,
+    "prior_pins_verified": 21507,
+    "stdin_bootstrap_bytes": 1052406
+  },
+  "payload_review": {
+    "bytes": 414,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/linux10603-final/payload-review.json",
+    "sha256": "112cd1aaad4b358ac825cf97abd5993106c2b13632377c37d0d244429a719a3c"
+  },
+  "preceding_storage_checks_not_rerun": 43,
+  "preparation_check_count": 58,
+  "prior_pins_reverified": 21507,
+  "pure_backward_arithmetic_isolated": false,
+  "raw_review": {
+    "bytes": 30951,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/independent-review-second/review.json",
+    "sha256": "281163e3dc7652b62746503697c14d90d5f6fc7018718d1602ce4ff1d9fa3209"
+  },
+  "remaining_training_gates": [
+    "correct full-model research execution policy",
+    "chosen-hardware optimizer/resume/evaluation qualification and measured affordable complete budget",
+    "research attack calibration, feature checks and protocol freeze"
+  ],
+  "research_admitted": false,
+  "sealed_input_files": 25370,
+  "sealed_inputs": {
+    "bytes": 5362338,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/independent-review-second/sealed-inputs.json",
+    "sha256": "578b19a93e8b618d02386d2ac51b3fca99d178131412f44f1d4bb9bc62ee6787"
+  },
+  "summary": {
+    "bytes": 5412,
+    "path": "report/checks/2026-11-07-predictor-sdpa-handoff-v2-preparation.md",
+    "sha256": "739ccb59ab4a971302e1183f671dc2f69f9cae4aeef8e0c26500a2970752f0b5"
+  },
+  "symlink_test_artifacts_retained_not_followed": [],
+  "target_contract": {
+    "bytes": 19649,
+    "path": "configs/predictor_sdpa_handoff_v2.json",
+    "sha256": "386e88a4fa8d3d6fb08ac331ae50694debd182592e65b79785d021233f333466"
+  },
+  "test_history_not_summed": {
+    "first": {
+      "errors": 14,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 51
+    },
+    "second": {
+      "errors": 0,
+      "failures": 1,
+      "skipped": 0,
+      "tests": 51
+    },
+    "third": {
+      "errors": 0,
+      "failures": 0,
+      "skipped": 0,
+      "tests": 58
+    }
+  }
+}

@@ -1,5 +1,33 @@
 # V-JEPA Robust Overfitting
 
+**Native attention capture verified; component startup blocked (November 7):**
+[The complete saved capture replays original values exactly; component-0 hits a CUDA initialization guard](report/checks/2026-11-07-predictor-sdpa-handoff-v2-target-review.md).
+All 171 collected files and eight boundary tensors verify. Next correct the
+wrapper/executor initialization sequence while preserving the strict guard,
+then prepare a separate continuation using the frozen capture. The attempt is
+consumed; full training remains unadmitted.
+Earlier entries are historical snapshots.
+
+**Replacement attention attempt approved and armed (November 7):**
+[The exact grant, fresh host status and unused package verify](report/checks/2026-11-07-predictor-sdpa-handoff-v2-authorization.md).
+Next run the final Mac helper once and keep the Mac awake through collection,
+up to 35 minutes. No attempt or university work has started.
+Earlier entries are historical snapshots.
+
+**Replacement attention handoff prepared, unarmed (November 7):**
+[58 integration checks and an exact-payload CPU rehearsal verify the new handoff](report/checks/2026-11-07-predictor-sdpa-handoff-v2-preparation.md).
+The repaired mask policy now guards live capture and collection. One new scoped
+university approval and fresh host status are needed before arming. Full-model
+correctness, hardware/budget and research-calibration gates still precede training.
+Earlier entries are historical snapshots.
+
+**Mask-file guard correction verified locally (November 7):**
+[43 checks verify the separate exact-path storage policy](report/checks/2026-11-07-predictor-sdpa-storage-v2-local-review.md).
+The full EOT8 masks reproduce the incident's 146,562-byte manifest. Only that
+artifact and its atomic partial receive a 256 KiB allowance; other limits stay.
+Next prepare the replacement university handoff. No new target attempt is armed.
+Earlier entries are historical snapshots.
+
 **Native attention guard failure identified (November 7):**
 [The saved metadata confirms an undersized mask-index file limit](report/checks/2026-11-07-sdpa-metadata-result-review.md).
 The mask manifest is 146,562 bytes against a 65,536-byte guard. The storage proof

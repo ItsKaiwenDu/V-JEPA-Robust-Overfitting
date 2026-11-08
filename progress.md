@@ -1,5 +1,104 @@
 # Research Progress Reports
 
+## 2026-11-07 — Native attention capture accepted; component initialization refused
+
+The replacement collects all evidence successfully: 108,778,481 response bytes,
+171 regular members, all hashes/modes/ns timestamps, 33 overlays and 99 packet
+members independently verify. The original native loss/full input gradient replay
+exactly; targets and all eight boundary tensors verify. The mask-file correction
+works. Native scope covers 576 forward and 576 recomputed calls over 36 owners;
+peak allocation is 5,143,749,632 bytes, below 7 GiB. This is no full AdamW or
+performance qualification.
+
+Original component-0 then exits before any return/reference/numerical comparison:
+the wrapper configures determinism, initializes CUDA for allocator setup, and the
+executor's second configuration is rejected by the strict pre-init guard. CPU
+checks missed that two-layer CUDA path. The other three components do not run.
+The 75.64-second session is incomplete, with exit 1 and complete collection.
+
+Saved review blocks model/autograd/SDPA/CUDA/process/network/reference execution.
+A local source-root mapping refusal is retained; only the in-memory review view
+changes, then the second review passes. No stored plan, science, claim or clock
+changes and no tests/model/target work repeat. Native capture is accepted for a
+future read-only continuation; the comparison and research admission stay pending.
+
+Next prepare a separate startup correction and a regression through both layers,
+keep the strict guard and resource/numerical bounds, and review a component-only
+continuation using these captured inputs before one new scoped university grant.
+This attempt and old grants are consumed. All prior rejection, financial caps,
+holds and reconciliation stay unchanged.
+[Target evidence review](report/checks/2026-11-07-predictor-sdpa-handoff-v2-target-review.md).
+
+## 2026-11-07 — Replacement native attention grant armed and unused
+
+The user approved the unchanged replacement scope and supplied matching fresh
+linux10603 RTX 3070 status with an empty compute list. The exact question/answer
+and status are saved privately; a separate mode-0600 authorization binds the
+final control and both consumed incident claims. Do not request approval again.
+
+Saved armed review blocks scientific imports/process/network and reverifies
+25,370 sealed inputs, exact payload/public-key/helper and original evidence
+bytes/mtimes. A local review-writer text/bytes mismatch and empty file remain;
+the second writer/review passes without changing scope or rerunning tests.
+No attempt, SSH, upload, proof or university work has started.
+
+Next the user runs the final local Mac helper once, enters the password promptly
+and keeps Mac/lid/Terminal awake/open through same-SSH collection. Limits remain
+25 minutes work plus ten minutes/3 GiB collection, 35-minute transport including
+login. Original numerical and other resource guards remain; no retries or old
+claim/time resets. Full training and all financial/admission gates stay pending.
+[Armed authorization review](report/checks/2026-11-07-predictor-sdpa-handoff-v2-authorization.md).
+
+## 2026-11-07 — Replacement native attention handoff verified and unarmed
+
+58 integration checks pass. Two final five-process CPU cohorts include an exact
+99-member-packet/33-overlay rehearsal. Saved-data review validates 16 native
+boundary arrays, 64 component arrays and two canonical references; 21,507 prior
+bindings reverify and 25,370 files are sealed. Source/claims/evidence/mtimes stay
+frozen. Earlier failed wiring tests and a review framing-size refusal are kept;
+counts are not summed and older scientific suites were not rerun.
+
+The new operator uses the reviewed 256 KiB exact-mask policy for live storage
+and collection, while preserving frozen scientific gates and other budgets.
+Payload is 17,192,095 bytes plus 421,420 bytes of overlays and bound metadata;
+final bootstrap is 1,052,406 bytes. The proposed additional linux10603 attempt
+allows 25 minutes work plus ten minutes same-SSH collection. No new authorization,
+claim, remote connection, upload or target work exists. Next obtain one new
+exact scoped approval and fresh status, then review an armed-but-unused grant.
+
+Full training is not yet admitted. The next diagnostic does not itself qualify
+a full-model policy. Chosen-hardware training/resume/evaluation and an affordable
+measured budget, research calibration/features and protocol freeze remain.
+The university GPU's full AdamW capacity remains unqualified. No dependable
+training ETA follows from local tests; all financial caps/holds stay unchanged.
+[Replacement handoff preparation](report/checks/2026-11-07-predictor-sdpa-handoff-v2-preparation.md).
+
+## 2026-11-07 — Exact-path mask-file policy verified locally
+
+A separate storage/collection component raises only the exact native mask-file
+and atomic-partial allowance to 256 KiB. The pinned CPU sampler regenerates all
+original signatures and the full 146,562-byte manifest; the old guard refuses it
+and the new policy accepts it. The worst-case compact extent is 164,322 bytes.
+
+43 focused tests pass with zero failures/errors/skips. Full-size serialization,
+atomic pairs/partials, refusal boundaries and unrelated/unsafe paths are tested.
+All 144 incident file entries are compared with the frozen classifier. Category
+and allocated ceilings remain enforced; legacy storage accounting and collection
+bytes match apart from the explicit v2 envelope kind.
+
+Saved review reconstructs 32 int64 signatures and 16 mask partitions without
+scientific imports and reverifies 21,507 preserved hashes plus evidence mtimes.
+The first 41 passes and final 43 are not summed. A pytest current-symlink caused
+the first saved reviewer to refuse; only its path filter changed. The second
+review passes; implementation/tests were not rerun for that correction.
+
+No target handoff or authorization is prepared. Next integrate the tested policy
+into a separate bound operator/client, verify cold authorization and the complete
+local transport/payload path, then request a new exact university scope. All old
+source, numerical bounds, consumed claims, rejection and finances remain fixed.
+No model/GPU/SSH/university or paid work has started.
+[Local correction review](report/checks/2026-11-07-predictor-sdpa-storage-v2-local-review.md).
+
 ## 2026-11-07 — Metadata identifies the exact mask-file guard refusal
 
 The approved metadata read returned 74,051 bytes: 144 file metadata records and

@@ -1,0 +1,148 @@
+{
+  "CPU_mask_generation_only_no_model_or_GPU": true,
+  "actual_full_mask_bytes": 146562,
+  "baseline_mask_pairs_independently_verified": 16,
+  "binary_evidence_read_for_integrity_hashes": true,
+  "candidate_rejected_entries_unchanged": 3724,
+  "date": "2026-11-07",
+  "documentation": {
+    "bytes": 4254,
+    "path": "docs/predictor_sdpa_storage_v2.md",
+    "sha256": "5dfa906771c7d0627de624234665cef0f9df12e803988f928a0d57d031db3192"
+  },
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "first_passing_test_count_preserved_not_summed": 41,
+  "first_review_failure": {
+    "bytes": 414,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-storage-v2-20261107/review-first-failure.log",
+    "sha256": "6be2713e40ce19775502d3f880e4cb7d81e3b4287fd00909189fbb208ea14b2f"
+  },
+  "first_review_source": {
+    "bytes": 6527,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-storage-v2-20261107/review_saved.py",
+    "sha256": "266a607def5c348ffefd7378841b2d6985f1c750629c4b63f457dc0d078d704b"
+  },
+  "first_test_source": {
+    "bytes": 11251,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-storage-v2-20261107/test-source-first.py",
+    "sha256": "5a26088710013baa950d9f5f71f89809ed6c2c942db9b087a1fb2512dc99787c"
+  },
+  "independent_mask_verification": "Original shapes/ranges/partition coverage and every little-endian int64 signature reconstructed with struct/hashlib; no Torch import.",
+  "kind": "native-SDPA-storage-v2-curated-local-review",
+  "mask_exact_path": "results/capture/mask-indices.json",
+  "mask_file_cap_bytes": 262144,
+  "module": {
+    "bytes": 5496,
+    "path": "models/predictor_sdpa_storage_v2.py",
+    "sha256": "4d8ba736fa2db43562fff1241dc7625c18edb1c7691887ac58490aee451b62a2"
+  },
+  "new_target_or_paid_work": false,
+  "next_step": "Prepare a separately bound replacement university operator/client/handoff using the reviewed storage policy, verify full local integration and cold authorization, then request one new exact scope. Never run the frozen original or consumed metadata helper.",
+  "numerical_or_performance_result": false,
+  "only_changed_typed_paths": [
+    "results/capture/mask-indices.json",
+    "results/capture/mask-indices.json.partial"
+  ],
+  "original_and_probe_claims_consumed_unchanged": true,
+  "original_and_probe_evidence_bytes_and_mtimes_unchanged": true,
+  "original_operator_target_and_scientific_sources_unchanged": true,
+  "other_typed_and_aggregate_limits_unchanged": true,
+  "passed": true,
+  "preserved_bindings": {
+    "bytes": 4560535,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-storage-v2-20261107/preserved-inputs.json",
+    "sha256": "44c11977f5aa6f0d73cd1e9d6bb4049220c27ceb2c76dd4c387c24097287ddf0"
+  },
+  "preserved_input_hashes_reverified": 21507,
+  "prior_metadata_review": {
+    "bytes": 4548,
+    "path": "report/checks/2026-11-07-sdpa-metadata-result-review.json",
+    "sha256": "619585c005183e44e78c5091a7f1ef5145a7ceb3300a8dfaa1d59d069e9dcfaf"
+  },
+  "raw_review": {
+    "bytes": 4620,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-storage-v2-20261107/independent-review.json",
+    "sha256": "c28b724701837c46a847a685048812bf631fe084e70a383529e0ff6ba41165a1"
+  },
+  "regenerated_mask_file": {
+    "bytes": 146562,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-storage-v2-20261107/pytest-final/test_full_original_EOT8_masks_0/results/capture/mask-indices.json",
+    "sha256": "9e4903ac669501297341942317ae82a26a27de993c6aea99d4d5f2526dc603b1"
+  },
+  "resource": {
+    "allocator_bytes": 7516192768,
+    "cache_bytes": 33554432,
+    "capture_bytes": 2415919104,
+    "capture_worker_seconds": 420,
+    "code_bytes": 134217728,
+    "collection_bytes": 3221225472,
+    "collection_seconds": 600,
+    "component_worker_seconds": 120,
+    "component_workers": 4,
+    "emergency_bytes": 16777216,
+    "host": "linux10603",
+    "input_bytes": 134217728,
+    "metadata_bytes": 67108864,
+    "parent": "/var/tmp",
+    "raw_bytes": 536870912,
+    "receipt_reserve_seconds": 120,
+    "setup_bytes": 3221225472,
+    "setup_seconds": 180,
+    "static_reserved_seconds": 1200,
+    "tensor_file_bytes": 16777216,
+    "work_seconds": 1500,
+    "write_proof_bytes": 2684354560,
+    "write_proof_seconds": 60
+  },
+  "review_blocks_scientific_imports_and_process_network": true,
+  "review_deserializes_JSON_masks_only": true,
+  "review_source": {
+    "bytes": 6656,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-storage-v2-20261107/review_saved_v2.py",
+    "sha256": "2e26cb6e0c1c973eabd83939dad0d65508c62573c1dbb66369c46631e8aa4cb1"
+  },
+  "summary": {
+    "bytes": 2520,
+    "path": "report/checks/2026-11-07-predictor-sdpa-storage-v2-local-review.md",
+    "sha256": "f71abd31b25b5e9b4240c20d8a303b9e27182aae503d5f7e8fc17c1ada81c395"
+  },
+  "target_handoff_or_authorization_prepared": false,
+  "target_operator_integrated": false,
+  "tensor_deserialization": false,
+  "test_log": {
+    "bytes": 99,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-storage-v2-20261107/pytest-final.log",
+    "sha256": "6330d1c7d50fe4e56a698cdac0320f9a1b66182aef48a3a432388d2556b5281c"
+  },
+  "test_source": {
+    "bytes": 13436,
+    "path": "tests/test_predictor_sdpa_storage_v2.py",
+    "sha256": "3cbca34813d871e2a0f246ac5159b10b48b5b66242a2b9f9bf0a722ab5ca171f"
+  },
+  "test_xml": {
+    "bytes": 7040,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-storage-v2-20261107/pytest-final.xml",
+    "sha256": "c6d32c7a0dc4fdf383889cb6b34cb1550a5e020ff56f72421719b861c7bdff0f"
+  },
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "tests": 43
+  },
+  "total_indices": 32768,
+  "v2_collection_kind": "native-fixed-SDPA-storage-collection-v2",
+  "worst_case_compact_mask_bytes": 164322
+}

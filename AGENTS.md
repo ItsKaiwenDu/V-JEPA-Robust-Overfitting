@@ -2,6 +2,130 @@
 
 ## Current stage
 
+LATEST November 7: V2 ATTEMPT CONSUMED; NATIVE CAPTURE ACCEPTED, COMPONENT INIT REFUSED.
+Read report/checks/2026-11-07-predictor-sdpa-handoff-v2-target-review.json/md first.
+Session raw predictor-sdpa-handoff-v2-20261107/linux10603-final/attended-627v_nh9;
+complete response108778481B,171regularfiles108613250logicalB reverified (bytes,
+hashes,modes,nsmtime),33overlay/99packet files,25370prior preparation bindings.
+Native original capture complete: actual loss/full input gradient EXACT original
+anchors, targets signature and all8 boundary tensors verify. Graph scope576
+forward/576recompute calls,36owners,route/observer restored; unchanged baseline.
+Peak allocator5143749632B<7GiB; mask146562B accepted under repaired256KiB guard.
+Storage proof passes. Capture52.57s,session75.64s,transport exit1 with complete
+collection. No full training/AdamW capacity/speed/backend/research qualification.
+ONLY component original-0 starts; incomplete, no returns/no FP64 builds/no
+numerical comparison/profile. Error Configure deterministic execution before
+CUDA initialization. Wrapper configures then initializes CUDA for allocator;
+core._execute configures again and strict guard refuses. CPU tests missed that
+complete CUDA two-layer sequence. This is startup refusal, not numerical rejection.
+Math/replay workers never started. Failed marker/plan/native identity verify.
+Saved-array review blocks model/autograd/SDPA/CUDA/process/network/reference
+execution. First local plan view had wrong source root; guard refusal retained.
+Only in-memory view corrected to loaded byte-identical repository source, saved
+plan bytes unchanged, second review passes. No target retry or scientific work.
+ALL current v1/v2 science/operators/helpers/control/AUTH/raw outputs now FROZEN.
+V2 ATTEMPT consumed (see pinned target review); never repeat/reset helper or
+claim/clocks, agent SSH, retrieval, cleanup or fallback. Old two claims also frozen.
+NEXT offline prepare separate component-init correction + regression spanning
+both wrapper/executor with simulated CUDA state; configure exactly once, keep
+strict guard/runtime/precision/7GiB cap and original comparison/replay gates.
+Prefer verified frozen native inputs for component-only continuation instead
+of repeating capture. Concrete test/review then ONE new exact university scope;
+no new target authorization now. Candidate3724/full-training/finance unchanged.
+User commits self; never stage/commit/push. Earlier LATEST entries historical.
+
+LATEST November 7: REPLACEMENT V2 APPROVED, ARMED AND UNUSED.
+Read report/checks/2026-11-07-predictor-sdpa-handoff-v2-authorization.json/md first.
+User explicitly replied Approved. to the exact additional replacement scope;
+then fresh03 status in call_6dccff06134443d79537fb24be3192b9/0 matches expected
+RTX3070 UUID e54fae90-feeb-8106-d8c0-1974fe48555f,8192/94MiB,driver580.178.04,
+empty compute. Approval PERSISTS for exact unchanged scope; do not ask again.
+Private approval/status and separate mode0600 AUTH saved. Active ONLY raw
+predictor-sdpa-handoff-v2-20261107/linux10603-final. CONTROL
+fd9481d6295880c8c97aac32ee7705fb4b5a919a76d30bb3809f0f780d598609;
+AUTH5a62409868a83ae78aa3694c1a8ad7c5e35a77b1a93218c09b3b7951807f5006.
+NO ATTEMPT/session/SSH/upload/proof/university clock. Never agent SSH/run helper.
+Saved armed review blocks scientific imports/process/network, rechecks25370
+sealed preparation files plus payload/publickey/helper and consumed evidence
+bytes/mtimes. First review writer text/bytes error and empty output retained;
+only binary writer/new output fixed, second review PASS. No tests/science rerun.
+NEXT user runs exact final LOCAL Mac run-attended.sh ONCE outside SSH, password
+promptly, Mac awake/lid+Terminal open through same-SSH collection up35min incllogin.
+One additional25min work incl full2.5GiB proof/capture<=420s/four serial<=120s,
+then600s/3GiB collection. New mask exact path+partial256KiB; all original other
+caps/numerical/graph/backend/replay/live guards unchanged. Pasted check is not
+reservation; live gates required. After any result save partials/logs, review;
+NEVER repeat/reset claim/AUTH/clocks or use old helper/retrieval/cleanup/fallback.
+Both old claims/clocks/evidence remain consumed/frozen. No paid compute, keys,
+heldout pixels or installations. Full training unadmitted; candidate3724 rejection
+and financial caps/holds/reconciliation unchanged. User commits self; neverstage/
+commit/push. Earlier LATEST entries historical.
+
+LATEST November 7: REPLACEMENT NATIVE SDPA HANDOFF V2 PREPARED, UNARMED.
+Read report/checks/2026-11-07-predictor-sdpa-handoff-v2-preparation.json/md and
+ docs/predictor_sdpa_handoff_v2.md first. New operator/client/contract/entries
+use the frozen v2 storage policy for BOTH live storage and collection. V1
+science/gates/bodies remain frozen; AST equivalence and cold import guards pass.
+Final raw predictor-sdpa-handoff-v2-20261107/linux10603-final; CONTROL
+fd9481d6295880c8c97aac32ee7705fb4b5a919a76d30bb3809f0f780d598609.
+NO AUTHORIZATION/ATTEMPT/SSH/upload/university work. Unarmed refuses before claim.
+58 final integration checks PASS, no failures/errors/skips; 43 storage checks
+and older 65/15 suites not rerun. First/second failed integration sources/logs
+retained (stale config/mock reference, then cold dependency ordering). Counts
+not summed. First saved-review refusal used rehearsal rather than final encoded
+size; only reviewer framing count corrected, second passes without tests rerun.
+Two final local CPU cohorts, 5 fresh processes each; one actual native capture
+then four components. Packaged cohort uses actual 99-member packet/33 overlays.
+Saved review blocks model/autograd/SDPA/CUDA/process/network execution, verifies
+16 native-boundary and 64 component arrays/2 references; rechecks 21507 old pins
+and seals 25370 files. Neither CPU nor mocks qualify target CUDA/capacity/speed.
+Payload unchanged17192095B packet,33 overlays421420B,bootstrap1052406B<2MiB,
+bound metadata includes existing finance. Only linux10603 fresh private /var/tmp.
+Proposed additional 25min work incl full2.5GiB proof,capture<=420s,4serial<=120s;
+then600s/3GiB SAME SSH collection; total2100s incl login. Existing caps unchanged
+except EXACT mask file+partial256KiB. New kind/prefix/claim bind consumed native
+c4afa75ef3c1ccb126f2c819d00b04ff9ce81ac671bbe153a30403edd17f8b5f and metadata
+e924af4e7bd8222578ad86bb64bfcca6e3ad293ffb4ab2cc4607124a15934ced.
+Both consumed clocks/evidence/mtimes stay. No numerical bounds/selection/graph/
+backend/replay changes, retry/cleanup/install/privatekeys/heldout/paidwork.
+NEXT ONE NEW exact scoped university approval + fresh03 status; no agent SSH.
+Only after approval reverify/save separate AUTH and independently review armed-
+unused state, then give local Mac helper ONCE. Preserve approval if unchanged.
+Full training NOT admitted: full-model correctness/policy, chosen-hardware
+optimizer/eval/budget, research calibration/features/protocol gates remain.
+University8GB AdamW unqualified; candidate3724 rejection unchanged. Never imply
+this component diagnostic alone adopts a policy or fixes failed cost screens.
+Financial caps/holds/reconciliation unchanged; no training ETA or fabricated %.
+User commits self; never stage/commit/push. Earlier entries historical.
+
+LATEST November 7: EXACT-PATH MASK STORAGE POLICY VERIFIED LOCALLY.
+Read report/checks/2026-11-07-predictor-sdpa-storage-v2-local-review.json/md
+and docs/predictor_sdpa_storage_v2.md first. New local module
+models/predictor_sdpa_storage_v2.py leaves all v1 source/globals frozen.
+Only results/capture/mask-indices.json and its atomic .partial get 256 KiB.
+All other typed/aggregate/allocated/free/inode/numerical limits stay unchanged.
+43 focused checks pass, zero errors/failures/skips. Pinned CPU sampler exactly
+reproduces all original mask signatures and 146562-byte EOT8 serialization;
+worst-case extent 164322 bytes. No model, weights, CUDA or university execution.
+Tests cover full masks, atomic pairs/partials, over-limit/unrelated/unsafe
+paths, actual 144-file catalog, unchanged category/allocated ceilings and
+collection bytes/hash/mode/nsmtime. V2 collection has a separate kind.
+Saved review blocks science imports/process/network; independently reconstructs
+32 int64 signatures/16 partitions and reverifies 21507 preserved bindings plus
+original/probe evidence mtimes. First 41 passes, then two compatibility tests
+=>43, not summed. First reviewer refused pytest current-symlink duplicate;
+source/failure preserved, review-path filter alone corrected and second passes.
+Frozen binaries hashed only; no tensor deserialization in saved review.
+No new target CONTROL/AUTHORIZATION/ATTEMPT/helper/connection. Both prior claims
+remain consumed. This component is NOT yet integrated into a new target operator.
+NEXT prepare separate bound replacement operator/client/handoff and test cold
+authorization, actual payload import paths and same-SSH collection before ONE
+new exact scoped university approval. No command or approval request before
+concrete preparation/review. Never rerun/reset old experiment or metadata helper.
+Original native capture incomplete; zero components started. Candidate rejection
+3724 and all numerical/resource/financial caps/holds/reconciliation unchanged.
+User commits self; never stage/commit/push. Earlier LATEST entries historical.
+
 LATEST Nov07: METADATA READ CONSUMED; ACTUAL MASK-FILE GUARD DEFECT IDENTIFIED.
 Read report/checks/2026-11-07-sdpa-metadata-result-review.json/md FIRST.
 Separate approved probe returned74051B,144filemetadata records,9savedstatus/log
