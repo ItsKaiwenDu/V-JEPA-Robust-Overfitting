@@ -1,0 +1,416 @@
+{
+  "CPU_cohort": {
+    "actual_component_arrays_verified": 32,
+    "canonical_reference": {
+      "bytes": 2675,
+      "mtime_ns": 1794123683948421168,
+      "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/pytest-final/fixed-SDPA0/cohort/reference/reference.json",
+      "sha256": "6096ba78c876c416aaf4514cd5333b38c22f68d60888b918823c1aa2e66a8d27"
+    },
+    "fresh_replay_exact": true,
+    "independent_tiny_reference_reconstruction": {
+      "bytes": 742,
+      "mtime_ns": 1794123691689476714,
+      "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/pytest-final/fixed-SDPA0/independent-reference-reconstruction.json",
+      "sha256": "de9bdc51b8c17e5de93631eb196176b20bf010738c88b9607a99549f1986a237"
+    },
+    "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/pytest-final/fixed-SDPA0/cohort",
+    "plan": {
+      "bytes": 2936,
+      "mtime_ns": 1794123682658491287,
+      "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/pytest-final/fixed-SDPA0/cohort/component-plan.json",
+      "sha256": "8f32205f122110445cd7e4e0a7686f399cb63fbbd11b25ad8f1b65598da66235"
+    },
+    "reference_arrays_verified": 4,
+    "workers": [
+      {
+        "CPU_only": true,
+        "CUDA_qualified": false,
+        "index": 0,
+        "oracle_build_calls": 1,
+        "pid": 1257,
+        "worker": {
+          "bytes": 7900,
+          "mtime_ns": 1794123683986762755,
+          "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/pytest-final/fixed-SDPA0/cohort/0/worker.json",
+          "sha256": "ac8ac93f1e62a2f38e4db9c89d17d157d5e57e6465835a4c70e6cdeeed190f00"
+        }
+      },
+      {
+        "CPU_only": true,
+        "CUDA_qualified": false,
+        "index": 1,
+        "oracle_build_calls": 0,
+        "pid": 1282,
+        "worker": {
+          "bytes": 8975,
+          "mtime_ns": 1794123685771638577,
+          "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/pytest-final/fixed-SDPA0/cohort/1/worker.json",
+          "sha256": "7515cee733cec2bff5a87fe5d2418531988778b2cf25b8ef04011be8b3d0af0d"
+        }
+      },
+      {
+        "CPU_only": true,
+        "CUDA_qualified": false,
+        "index": 2,
+        "oracle_build_calls": 0,
+        "pid": 1288,
+        "worker": {
+          "bytes": 8372,
+          "mtime_ns": 1794123687614675718,
+          "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/pytest-final/fixed-SDPA0/cohort/2/worker.json",
+          "sha256": "41a307663b6bfa86e0d2f1a2c3be7d42a54ff0f67ad82cab6e2b2425cf67ae87"
+        }
+      },
+      {
+        "CPU_only": true,
+        "CUDA_qualified": false,
+        "index": 3,
+        "oracle_build_calls": 0,
+        "pid": 1289,
+        "worker": {
+          "bytes": 9448,
+          "mtime_ns": 1794123689554409140,
+          "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/pytest-final/fixed-SDPA0/cohort/3/worker.json",
+          "sha256": "b77ceb4a754ea6441bc13e1c3f85883307dbe9f47ca2203822d43009ab606d4c"
+        }
+      }
+    ]
+  },
+  "bookkeeping": {
+    "atol": 1e-14,
+    "rtol": 1e-12
+  },
+  "candidate_rejected_entries_unchanged": 3724,
+  "capsule": {
+    "archive": {
+      "bytes": 36042589,
+      "mtime_ns": 1794124037529123731,
+      "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/capsule-final/native-sdpa-capsule.tar.gz",
+      "sha256": "b8ad88e9a34ea55460177d996d40f915efe9d4284e16e9616923a46eeca6391c"
+    },
+    "copy_modes": "0600; original source modes/bytes/ns timestamps unchanged",
+    "logical_bytes": 48627833,
+    "manifest": {
+      "bytes": 47066,
+      "mtime_ns": 1794124037723151752,
+      "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/capsule-final/manifest.json",
+      "sha256": "6247604eb1b08e1da82220ed77e64eab5b26d5dc280bd98732f5d0c3e07c2529"
+    },
+    "members": 118,
+    "native_capture_members": 18,
+    "prior_duplicate_gradient_file_excluded": true,
+    "source_members": 97,
+    "training_pixels_excluded": true
+  },
+  "capsule_initial_variant": {
+    "active": false,
+    "archive": {
+      "bytes": 36042583,
+      "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/capsule/native-sdpa-capsule.tar.gz",
+      "sha256": "65e07491b84be0b0f008217d0009e4e4a69f2e885290f1d105963669739576ba"
+    },
+    "reason": "Inherited mode 0644 for one copied public report; final copy policy is 0600 for every member. Original source files untouched.",
+    "source": {
+      "bytes": 5554,
+      "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/capsule-source-first/prepare_native_sdpa_capsule_v1.py",
+      "sha256": "a91e7c142118e8c7dfd3a097da73d5670eb7fa534e6354e65e5b29dd0641b2ea"
+    }
+  },
+  "capsule_tests_final_log": {
+    "bytes": 99,
+    "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/pytest-capsule.log",
+    "sha256": "ac87e1d114bc5da7dd44f223cf00c22a045e85083baebcbc249b1b2718004f94"
+  },
+  "component_bounds": {
+    "dk": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dq": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dv": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "output": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    }
+  },
+  "consumed_native_claim": {
+    "bytes": 254,
+    "mtime_ns": 1794118109493298984,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/linux10603-final/ATTEMPT.json",
+    "sha256": "d402bddad88abe7b2241d8c518197ce4bd693b46811352615d87013a9a9d240b"
+  },
+  "date": "2026-11-07",
+  "exact_target_runtime_and_precision_required": true,
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "full_model_candidate_adopted": false,
+  "full_native_FP64_reference_or_component_execution_in_review": false,
+  "historical_sources_evidence_and_clocks_unchanged": true,
+  "historical_test_runs": [
+    {
+      "failed": 2,
+      "passed": 69,
+      "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/pytest-first.xml",
+      "reason": "Mac Torch lazy-import CUDA shim and overbroad mocked hash."
+    },
+    {
+      "failed": 1,
+      "passed": 70,
+      "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/pytest-second.xml",
+      "reason": "Overbroad mocked read returned a plan for the saved worker receipt."
+    }
+  ],
+  "inert_native_plan": {
+    "bytes": 2991,
+    "mtime_ns": 1794124249749035875,
+    "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/review/inert-native-plan.json",
+    "sha256": "98bf3c539bf6fc8ac774b680180d19b199199d087a30f8e977c749c4d36f618b"
+  },
+  "kind": "component-startup-v2-saved-local-review",
+  "model_autograd_SDPA_CUDA_process_network_reference_execution_blocked": true,
+  "native_capture_arrays_reverified": {
+    "dk": {
+      "finite": true,
+      "logical_sha256": "f6badf9b4684abe2bbbb5744c84fffa27a4bc6ab7f7d5002c37cb2d51213a9d1",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "dq": {
+      "finite": true,
+      "logical_sha256": "f2c5d2f614ae9861926a5a9e27ac209677e64bdfd0d4dd74189e0936ba202b0f",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "dv": {
+      "finite": true,
+      "logical_sha256": "0afa0f1458dc8f5ee51024dc07776ac36cdd09f04b9d9923177e6ba4d0c852ef",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "grad_output": {
+      "finite": true,
+      "logical_sha256": "a29ed1d58225d24082470ec897afdf0462d0ac34bc4af9416233a489c58d36d1",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "k": {
+      "finite": true,
+      "logical_sha256": "f95a94c54a8dba93b3d7798c472c59a8f2aec1a9acbc94831aa2dd85ff295c33",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "output": {
+      "finite": true,
+      "logical_sha256": "f9e5f261427639855a010c5c174006e1b3df850099a67e066b8610f53bb1f6f7",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "q": {
+      "finite": true,
+      "logical_sha256": "199e8e11e0ad1350e1d8aaf4359e20f2df4473067603275f35d6763e81f24bff",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "v": {
+      "finite": true,
+      "logical_sha256": "615301b1ff999262ca195c1a8f75357ee63a21a00588ca05deff4abed307d297",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    }
+  },
+  "new_SSH_upload_or_university_execution": false,
+  "new_paid_compute": false,
+  "new_target_operator_AUTHORIZATION_or_ATTEMPT": false,
+  "new_wrapper_executor_single_configuration_regression_passed": true,
+  "next_step": "Integrate and test a separate component-only university operator/client around this frozen capsule, including cold authorization, strict live guards and same-SSH collection; only then request one new exact scoped university grant.",
+  "numerical_backend_replay_math_unchanged_AST_regression": true,
+  "old_wrapper_executor_duplicate_configuration_reproduced": true,
+  "original_allocator_cap_bytes": 7516192768,
+  "passed": true,
+  "preserved_first_and_second_failed_mock_tests": true,
+  "preserved_initial_capsule_and_builder": true,
+  "prior_file_hashes_reverified": 25548,
+  "prior_target_files_bytes_hashes_nsmtime_reverified": 177,
+  "raw_review": {
+    "bytes": 10308,
+    "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/review/review.json",
+    "sha256": "8c2150ac4efb8bbebb0b2ad18b12879e4278bcbe54928c982f968432d2e88622"
+  },
+  "research_or_training_admitted": false,
+  "review_source": {
+    "bytes": 12308,
+    "mtime_ns": 1794124234042842963,
+    "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/review/review_saved.py",
+    "sha256": "73dfbddf89257b70e54451081c437b7fc0f536d4094a8922dcda1d295399c4ab"
+  },
+  "sealed_local_inputs": {
+    "bytes": 1036390,
+    "files": 5017,
+    "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/sealed-local-inputs.json",
+    "sha256": "fb7576202c132b5d9dd48c4226bc190dc1eac0e27147bffaf1aa6d4ff0c40d13"
+  },
+  "source": {
+    "models/attention_saved_evidence.py": {
+      "bytes": 5161,
+      "mtime_ns": 1793385829291671429,
+      "path": "models/attention_saved_evidence.py",
+      "sha256": "d561f3acf2e247a4191430204c1d2445f7d747fa7fde117117580f79263235c0"
+    },
+    "models/execution.py": {
+      "bytes": 12043,
+      "mtime_ns": 1792692186176663831,
+      "path": "models/execution.py",
+      "sha256": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba"
+    },
+    "models/predictor_eot8_adapter_v1.py": {
+      "bytes": 7839,
+      "mtime_ns": 1793910190405290472,
+      "path": "models/predictor_eot8_adapter_v1.py",
+      "sha256": "89b7e0c67e88f2f776bb0bb6ad786a2202115e64ffc6c6f9a962381cc2e9a6b8"
+    },
+    "models/predictor_eot8_capture_v1.py": {
+      "bytes": 2194,
+      "mtime_ns": 1793905108610408536,
+      "path": "models/predictor_eot8_capture_v1.py",
+      "sha256": "fcf582f0152f9ad1d93d1bf038895ba6c6c84d75a4fdfc02d5d4b2ea96e0d3e4"
+    },
+    "models/predictor_sdpa_capture_record_v1.py": {
+      "bytes": 17240,
+      "mtime_ns": 1794025652773776951,
+      "path": "models/predictor_sdpa_capture_record_v1.py",
+      "sha256": "cdd02a830a65a2ab2185c9b5bc59e1026570f50542d78fe480750ab198198f06"
+    },
+    "models/predictor_sdpa_component_events_v1.py": {
+      "bytes": 8268,
+      "mtime_ns": 1794071398755233906,
+      "path": "models/predictor_sdpa_component_events_v1.py",
+      "sha256": "c1397e06ca89d1299a7d853e6c88124d1cc7874aae3f5763f018fbc67bd195fc"
+    },
+    "models/predictor_sdpa_component_records_v1.py": {
+      "bytes": 8163,
+      "mtime_ns": 1794071398755655989,
+      "path": "models/predictor_sdpa_component_records_v1.py",
+      "sha256": "45f58aa8877167fa0541a7cf92edd2d45d25e9816f3e5cc5280fc5767ddc87a6"
+    },
+    "models/predictor_sdpa_component_startup_v2.py": {
+      "bytes": 3801,
+      "mtime_ns": 1794123312478641842,
+      "path": "models/predictor_sdpa_component_startup_v2.py",
+      "sha256": "8359f9a1f8da77eeb13d02a55d56982e2998db67f48199a577f62ef95329dae3"
+    },
+    "models/predictor_sdpa_component_target_v2.py": {
+      "bytes": 2057,
+      "mtime_ns": 1794123204708015527,
+      "path": "models/predictor_sdpa_component_target_v2.py",
+      "sha256": "9de825da42b15fac335f44f8fdb46515f9dacd53e37b3bb7e5632aeb671f44a3"
+    },
+    "models/predictor_sdpa_component_v2.py": {
+      "bytes": 26547,
+      "mtime_ns": 1794123204705894473,
+      "path": "models/predictor_sdpa_component_v2.py",
+      "sha256": "47a816eccc1e0a5e1976b83a52c959bf745b99f5e9f2761a7d522f53cb544538"
+    },
+    "models/training.py": {
+      "bytes": 16803,
+      "mtime_ns": 1792636957412352771,
+      "path": "models/training.py",
+      "sha256": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679"
+    },
+    "scripts/check_predictor_sdpa_components_v2.py": {
+      "bytes": 3535,
+      "mtime_ns": 1794123204708179569,
+      "path": "scripts/check_predictor_sdpa_components_v2.py",
+      "sha256": "fecd5a1d4dc5f39ab33f5e92c3bc202a70edeb1ae110f66533c64f773f2001a9"
+    },
+    "scripts/prepare_native_sdpa_capsule_v1.py": {
+      "bytes": 5677,
+      "mtime_ns": 1794124025448597274,
+      "path": "scripts/prepare_native_sdpa_capsule_v1.py",
+      "sha256": "0f8a7ac4e61804aec82d9b75ff3c3090ef7681742304bdb66d0b6719bd22ed1a"
+    },
+    "tests/test_native_sdpa_capsule_v1.py": {
+      "bytes": 4274,
+      "mtime_ns": 1794124083491855366,
+      "path": "tests/test_native_sdpa_capsule_v1.py",
+      "sha256": "cf534cc3a14268bbfc65e27054535453a198fb04192dddd9ef46d11cbd3adaec"
+    },
+    "tests/test_predictor_sdpa_component_startup_v2.py": {
+      "bytes": 27400,
+      "mtime_ns": 1794123682373281711,
+      "path": "tests/test_predictor_sdpa_component_startup_v2.py",
+      "sha256": "1b06e6bcf219d89255db97520f50fe1b25074147fda8feb08adb8d01d9e24f97"
+    }
+  },
+  "startup_CUDA_state_simulated_not_hardware": true,
+  "startup_tests_final_log": {
+    "bytes": 100,
+    "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/pytest-final.log",
+    "sha256": "b6c3ba73988cf2dbeec54072bbf4d7be45183f4c3e208df1ed55c52c02961e1f"
+  },
+  "strict_preinitialized_context_refusal_unchanged": true,
+  "test_counts_are_separate_suites_not_accumulated_retries": true,
+  "test_suites": [
+    {
+      "errors": 0,
+      "failures": 0,
+      "skips": 0,
+      "tests": 71,
+      "xml": {
+        "bytes": 12322,
+        "mtime_ns": 1794123703471608101,
+        "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/pytest-final.xml",
+        "sha256": "03fba9d85806ea5a156429d0c8834512be59653c2e79d048529c9c137c725b5b"
+      }
+    },
+    {
+      "errors": 0,
+      "failures": 0,
+      "skips": 0,
+      "tests": 18,
+      "xml": {
+        "bytes": 3071,
+        "mtime_ns": 1794124083927812861,
+        "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/pytest-capsule.xml",
+        "sha256": "721e5ba9830c897850d2fa19b1f571e44c0cec4eab2896106e13055480a65a2d"
+      }
+    }
+  ]
+}

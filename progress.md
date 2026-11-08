@@ -1,5 +1,28 @@
 # Research Progress Reports
 
+## 2026-11-07 — Component startup fixed locally; frozen native inputs prepared
+
+The separate v2 wrapper/executor uses one configuration owner before CUDA
+initialization and operand work. The strict original guard, exact runtime/flags,
+7 GiB cap, math, bounds, serial reference and fresh replay stay. A regression
+through both real layers reproduces the old refusal and verifies the new order
+using simulated CUDA state. The final startup suite passes 71 checks; four fresh
+small CPU components share one FP64 reference and saved returns/replay verify.
+The earlier failed mock harnesses and source snapshots are preserved.
+
+A separate 18-check packaging suite verifies a 36,042,589-byte capsule with 118
+private regular copies, including all 18 accepted native capture files and 97
+code/metadata files. Original training pixels and duplicate prior-gradient packet
+files are excluded; original bytes, modes and ns timestamps stay unchanged.
+The first capsule variant is retained inactive. Saved-only review reverifies
+25,548 prior hashes and all eight native tensors without model/CUDA/remote work.
+
+Next integrate and test a separate component-only university operator/client,
+including cold authorization and same-SSH collection, before one new exact
+scoped grant. No new target operator/authorization/attempt/connection exists.
+The consumed v2 claim, candidate rejection, training gates and finances stay.
+[Local startup review](report/checks/2026-11-07-predictor-component-startup-v2-local-review.md).
+
 ## 2026-11-07 — Native attention capture accepted; component initialization refused
 
 The replacement collects all evidence successfully: 108,778,481 response bytes,

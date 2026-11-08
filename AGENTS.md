@@ -2,6 +2,37 @@
 
 ## Current stage
 
+LATEST November 7: COMPONENT STARTUP V2 VERIFIED LOCALLY; NO TARGET HANDOFF YET.
+Read report/checks/2026-11-07-predictor-component-startup-v2-local-review.json/md
+and docs/predictor_sdpa_component_startup_v2.md first. New wrapper delegates all
+CUDA configuration/allocator setup to one executor startup owner. Original strict
+pre-init refusal/runtime/precision/7GiB cap unchanged; no idempotent relaxation.
+71 final startup tests pass: real old wrapper+executor reproduces double configure;
+real new two-layer chain configures once with simulated CUDA state then stops
+before operands. Four fresh small CPU components share one actual FP64 reference;
+32 saved returns/4 reference arrays/original agreement/backend receipts/replay
+verify. CPU/mocks do NOT qualify actual CUDA/backend/capacity/speed.
+18 separate packaging checks pass. Final capsule raw predictor-component-startup-
+v2-20261107/capsule-final:118members,48627833logicalB,36042589compressedB,SHA
+b8ad88e9a34ea55460177d996d40f915efe9d4284e16e9616923a46eeca6391c.
+97 code/metadata,18 accepted native capture,3 parent metadata; training pixels
+and duplicate prior-gradient packet excluded. Copies0600; originals bytes/modes/
+nsmtime unchanged. First capsule/public-report mode and builder retained inactive.
+Saved-only review blocks science/CUDA/process/network/reference work; reverifies
+25548 prior hashes + all8 actual native tensors. Inert full-size plan validates
+only; no full native FP64 build/components. First/second failed test mocks/sources
+remain, counts not accumulated. New local sources/capsule/tests/evidence now
+FROZEN by sealed-local-inputs.json; all prior target evidence/claim/clocks frozen.
+NO new target operator/client/CONTROL/AUTH/ATTEMPT/helper/SSH/upload/proof/work.
+NEXT integrate separate component-only operator/client using the frozen capsule;
+test cold authorization, actual payload/imports, strict live guards, serial
+startup and same-SSH collection. Finish concrete review before ONE new exact
+scoped university approval. Do NOT reuse consumed d402 claim/grant, rerun old
+capture/helper, connect for retrieval, reset clocks, clean up or use fallback.
+Full training/candidate3724 rejection/financial caps-holds-reconciliation unchanged.
+No paid work or new target authorization. User commits self; never stage/commit/
+push. Earlier LATEST entries historical.
+
 LATEST November 7: V2 ATTEMPT CONSUMED; NATIVE CAPTURE ACCEPTED, COMPONENT INIT REFUSED.
 Read report/checks/2026-11-07-predictor-sdpa-handoff-v2-target-review.json/md first.
 Session raw predictor-sdpa-handoff-v2-20261107/linux10603-final/attended-627v_nh9;

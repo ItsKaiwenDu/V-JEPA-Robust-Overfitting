@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Component startup corrected locally (November 7):**
+[71 startup checks and 18 packaging checks verify the separate correction](report/checks/2026-11-07-predictor-component-startup-v2-local-review.md).
+Both real wrapper/executor layers now share one configuration owner; the strict
+CUDA guard stays. A verified frozen-input capsule preserves the accepted native
+capture. Next integrate the component-only university handoff. No new target
+execution is authorized; full training remains unadmitted.
+Earlier entries are historical snapshots.
+
 **Native attention capture verified; component startup blocked (November 7):**
 [The complete saved capture replays original values exactly; component-0 hits a CUDA initialization guard](report/checks/2026-11-07-predictor-sdpa-handoff-v2-target-review.md).
 All 171 collected files and eight boundary tensors verify. Next correct the
