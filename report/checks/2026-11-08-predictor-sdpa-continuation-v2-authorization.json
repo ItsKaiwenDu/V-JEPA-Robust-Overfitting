@@ -1,0 +1,88 @@
+{
+  "approval": {
+    "bytes": 1513,
+    "mtime_ns": 1794164732631598699,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/authorization/user-approval.json",
+    "sha256": "19ee7391dfef424130c71661c5ab8f0eabbab341463a09a927fbf64c63033102"
+  },
+  "approval_persists_no_reconfirmation_needed": true,
+  "approval_record_source": {
+    "bytes": 4850,
+    "mtime_ns": 1794164714934164249,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/authorization/record_approval.py",
+    "sha256": "792b9884b137be23913292db364e3de84d172d5a3dd7f1afcaea28dccbed74fa"
+  },
+  "armed_input_seal": {
+    "bytes": 2047,
+    "files": 12,
+    "mtime_ns": 1794164817515262693,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/authorization/armed-inputs.json",
+    "sha256": "81d07a9cae1c06bea61910a0511d2d97c0c8001bbef55dfb68dc2e0409a63f82"
+  },
+  "attempt_present": false,
+  "authorization": {
+    "bytes": 1689,
+    "mtime_ns": 1794164732631866364,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/AUTHORIZATION.json",
+    "sha256": "7f27a93a22bdf170f02efaa828e4e0712f2cfff58f7223f1c18c2c930d312216"
+  },
+  "authorization_mode": "0600",
+  "control": {
+    "bytes": 110078,
+    "mtime_ns": 1794163401155695966,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/CONTROL.json",
+    "sha256": "daa0cf533471935fb01c62e90b43961eef68c1eef37af630bb9f27ca91dd48fb"
+  },
+  "date": "2026-11-08",
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "full_model_candidate_adopted": false,
+  "helper": {
+    "bytes": 393,
+    "mtime_ns": 1794163401156220545,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/run-attended.sh",
+    "sha256": "bfbf605d2121b4e6a526f8b09a1c24858d68d94131c68589dab69091b4f7c4a0"
+  },
+  "host_matches_fresh_pasted_idle_status": true,
+  "kind": "component-only-continuation-v2-authorization-review",
+  "live_guards_still_required": true,
+  "new_SSH_upload_proof_or_university_work": false,
+  "new_full_model_backwards_or_native_captures": 0,
+  "next_step": "User runs the exact final local Mac helper once, enters password promptly and keeps Mac/lid/Terminal awake/open through at most 25 minutes of work/collection; no repeat or separate retrieval.",
+  "overlay_bytes": 329747,
+  "overlay_files": 31,
+  "passed": true,
+  "pasted_status": {
+    "bytes": 797,
+    "mtime_ns": 1794164732631708948,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/authorization/pasted-status.json",
+    "sha256": "9693ef4113369580483e70ea572c7765eb42987ec70e615e48ac1987fe34c363"
+  },
+  "payload_bytes": 36042589,
+  "preparation": {
+    "bytes": 25336,
+    "mtime_ns": 1794163573584546980,
+    "path": "report/checks/2026-11-08-predictor-sdpa-continuation-v2-preparation.json",
+    "sha256": "6f7858332d7a03e0d644356b4963030f4f91b6be7c0aec3e525eb85cfff9ee05"
+  },
+  "prepared_sealed_files_reverified": 4063,
+  "prior_preserved_hashes_reverified": 41512,
+  "raw_armed_review": {
+    "bytes": 2768,
+    "mtime_ns": 1794164759701706039,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/authorization/armed-review.json",
+    "sha256": "1eba757526cf1883e681c687ec8b28b3e41d9d9387d71f9970a3afee1952c3b3"
+  },
+  "research_or_training_admitted": false,
+  "review_source": {
+    "bytes": 5861,
+    "mtime_ns": 1794164714934350123,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/authorization/review_armed.py",
+    "sha256": "52a649f0eabd7f224dd3cf75c7226ac0a43f1228491429e759b3d90bf9575367"
+  },
+  "scientific_import_process_network_and_remote_execution_blocked": true,
+  "scope_approved_and_unchanged": true,
+  "session_present": false,
+  "status_is_not_a_reservation": true,
+  "stdin_bootstrap_bytes": 983517,
+  "tests_or_scientific_cohorts_rerun": false
+}

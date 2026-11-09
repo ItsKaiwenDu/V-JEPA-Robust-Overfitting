@@ -1,0 +1,584 @@
+{
+  "actual_component_arrays_verified": 96,
+  "actual_small_CPU_cohorts": [
+    {
+      "CPU_only": true,
+      "actual_component_arrays_verified": 32,
+      "canonical_reference": {
+        "bytes": 2676,
+        "mtime_ns": 1794162819239381471,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-worker/components-v30/cohort/reference/reference.json",
+        "sha256": "480e72dd2599a5c9cc3416cfd589fd60b349ad48643abcb37a8d2844e1083089"
+      },
+      "fresh_processes": 4,
+      "in_memory_source_root_translation_only": false,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-worker/components-v30/cohort",
+      "plan": {
+        "bytes": 3057,
+        "mtime_ns": 1794162818185730382,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-worker/components-v30/cohort/component-plan.json",
+        "sha256": "27d3e4a665d2040ef890bf8bc7b2001b704c3ebffd179b5bd69f2daefb72acf0"
+      },
+      "reference_arrays_verified": 4,
+      "stored_plan_unchanged": true,
+      "workers": [
+        {
+          "index": 0,
+          "pid": 17126,
+          "worker": {
+            "bytes": 8172,
+            "mtime_ns": 1794162819283291650,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-worker/components-v30/cohort/0/worker.json",
+            "sha256": "373c5d41dfa3ab7583ba41ce362a947cdc4d7085eeb62aef72811992076db573"
+          }
+        },
+        {
+          "index": 1,
+          "pid": 17137,
+          "worker": {
+            "bytes": 9244,
+            "mtime_ns": 1794162820318869911,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-worker/components-v30/cohort/1/worker.json",
+            "sha256": "7680cd5e5016f3cf107f566c2633581e1c27985a7797ecffae3238bae4e41b87"
+          }
+        },
+        {
+          "index": 2,
+          "pid": 17138,
+          "worker": {
+            "bytes": 8644,
+            "mtime_ns": 1794162821478107730,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-worker/components-v30/cohort/2/worker.json",
+            "sha256": "ad5f8a2d63c55487508d1eac7c31455bf90b6a2bc1d7218e531668fcdc31fdab"
+          }
+        },
+        {
+          "index": 3,
+          "pid": 17141,
+          "worker": {
+            "bytes": 9720,
+            "mtime_ns": 1794162822737068626,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-worker/components-v30/cohort/3/worker.json",
+            "sha256": "364797f16d8f78a851ba9e217b37eca028d3432740a9f8be8671c63aec7caf93"
+          }
+        }
+      ]
+    },
+    {
+      "CPU_only": true,
+      "actual_component_arrays_verified": 32,
+      "canonical_reference": {
+        "bytes": 2676,
+        "mtime_ns": 1794163304650453633,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-handoff/components0/cohort/reference/reference.json",
+        "sha256": "8b409329c0feb0e5a96686e7593e0acf31329990df5d16e120c686586cccbc76"
+      },
+      "fresh_processes": 4,
+      "in_memory_source_root_translation_only": false,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-handoff/components0/cohort",
+      "plan": {
+        "bytes": 3055,
+        "mtime_ns": 1794163303275785950,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-handoff/components0/cohort/component-plan.json",
+        "sha256": "494ddb074ddfb4b9082401d92c91394c3f5e5a83a3db90f5877041cfc0e0227b"
+      },
+      "reference_arrays_verified": 4,
+      "stored_plan_unchanged": true,
+      "workers": [
+        {
+          "index": 0,
+          "pid": 19078,
+          "worker": {
+            "bytes": 8172,
+            "mtime_ns": 1794163304694412258,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-handoff/components0/cohort/0/worker.json",
+            "sha256": "4169ea56ebd130eed71a24cf3d1befaeb19c9dd7604b735cb14a2a07e90e92b3"
+          }
+        },
+        {
+          "index": 1,
+          "pid": 19096,
+          "worker": {
+            "bytes": 9247,
+            "mtime_ns": 1794163305918039546,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-handoff/components0/cohort/1/worker.json",
+            "sha256": "3b7c2738292250c52c54acb849caae4205f0cdf0956479b60d2a57b88fc5e14a"
+          }
+        },
+        {
+          "index": 2,
+          "pid": 19102,
+          "worker": {
+            "bytes": 8644,
+            "mtime_ns": 1794163307152520626,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-handoff/components0/cohort/2/worker.json",
+            "sha256": "4b9a88285c346f2e41996fd325886b23a1354e96d35e0e61d57c1c19acd4d152"
+          }
+        },
+        {
+          "index": 3,
+          "pid": 19103,
+          "worker": {
+            "bytes": 9721,
+            "mtime_ns": 1794163308411157315,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-handoff/components0/cohort/3/worker.json",
+            "sha256": "b175a8f38aba4931e2164646738d5a091f32d90543dc1fe642507888d068fc7e"
+          }
+        }
+      ]
+    },
+    {
+      "CPU_only": true,
+      "actual_component_arrays_verified": 32,
+      "canonical_reference": {
+        "bytes": 2676,
+        "mtime_ns": 1794163350351002812,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-handoff/test_actual_payload_import_pat0/packaged-CPU/reference/reference.json",
+        "sha256": "1e2aceb19b7fb7cba7af36bab9aab7a72ecd4856b495119e9ebd22726dfe5ce4"
+      },
+      "fresh_processes": 4,
+      "in_memory_source_root_translation_only": true,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-handoff/test_actual_payload_import_pat0/packaged-CPU",
+      "plan": {
+        "bytes": 3210,
+        "mtime_ns": 1794163349204531646,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-handoff/test_actual_payload_import_pat0/packaged-CPU/component-plan.json",
+        "sha256": "3846ae13190f3d453222050ec1f3683705adf5ee51981a0ef90c511ab0f04d11"
+      },
+      "reference_arrays_verified": 4,
+      "stored_plan_unchanged": true,
+      "workers": [
+        {
+          "index": 0,
+          "pid": 19414,
+          "worker": {
+            "bytes": 8172,
+            "mtime_ns": 1794163350387588659,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-handoff/test_actual_payload_import_pat0/packaged-CPU/0/worker.json",
+            "sha256": "0a13a5207eb776a059ad9db1eb7d41727550252c42588148c605d4f8b164c484"
+          }
+        },
+        {
+          "index": 1,
+          "pid": 19436,
+          "worker": {
+            "bytes": 9248,
+            "mtime_ns": 1794163351564930507,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-handoff/test_actual_payload_import_pat0/packaged-CPU/1/worker.json",
+            "sha256": "e64a42d2ddfb5798bab0b55085abac7d09a50f21c06477a5ac87ee14be6ce77e"
+          }
+        },
+        {
+          "index": 2,
+          "pid": 19443,
+          "worker": {
+            "bytes": 8645,
+            "mtime_ns": 1794163352756035001,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-handoff/test_actual_payload_import_pat0/packaged-CPU/2/worker.json",
+            "sha256": "0b8f3b934838c183655f242efc83f9be167a9e43904c26a8558775943695b8c7"
+          }
+        },
+        {
+          "index": 3,
+          "pid": 19447,
+          "worker": {
+            "bytes": 9720,
+            "mtime_ns": 1794163353999548305,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-handoff/test_actual_payload_import_pat0/packaged-CPU/3/worker.json",
+            "sha256": "a6ed570c1bc16062e192e58fc8a2a72e2ecb4e9c488e7e564384dbbc73400e0e"
+          }
+        }
+      ]
+    }
+  ],
+  "all_preparation_sources_controls_helpers_and_test_evidence_now_frozen": true,
+  "association_review": {
+    "bytes": 5457,
+    "path": "report/checks/2026-11-08-predictor-sdpa-association-v2-local-review.json",
+    "sha256": "abe4f18c2dbf5fe8f9907b7733a32682b8605241809d560db5b8ad1b3764bda9"
+  },
+  "candidate_full_model_adopted": false,
+  "capsule_bytes": 36042589,
+  "capsule_logical_bytes": 48627833,
+  "capsule_members": 118,
+  "cold_authorization_actual_payload_imports_live_guard_wiring_failure_stop_and_collection_tests_pass": true,
+  "complete_simulated_single_connection_response": {
+    "bytes": 102631819,
+    "mtime_ns": 1794163310726403852,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-handoff/test_proof_capsule_four_serial0/response",
+    "sha256": "156273cf6f50eeb2630053ccb1136d05619a6b848ebbb29e3381004ee21535ba"
+  },
+  "control": {
+    "bytes": 110078,
+    "mtime_ns": 1794163401155695966,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/CONTROL.json",
+    "sha256": "daa0cf533471935fb01c62e90b43961eef68c1eef37af630bb9f27ca91dd48fb"
+  },
+  "date": "2026-11-08",
+  "earlier_72_metadata_and_71_startup_suites_not_rerun": true,
+  "final_attempt_present": false,
+  "final_authorization_present": false,
+  "final_control_sha256": "daa0cf533471935fb01c62e90b43961eef68c1eef37af630bb9f27ca91dd48fb",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "first_run_passed_without_source_correction_after_test_execution": true,
+  "frozen_verifier_and_collector_sources_verified": true,
+  "full_native_tensor_contents_newly_evaluated": false,
+  "functions_equal_frozen_math_after_only_verifier_import_normalization": true,
+  "kind": "component-only-continuation-v2-unarmed-preparation-review",
+  "launch_correlation_ID_limitation_retained": true,
+  "model_autograd_SDPA_CUDA_process_network_or_reference_execution_blocked_during_review": true,
+  "native_frozen_byte_identity_and_original_receipt_verified": {
+    "boundary_sha256": "51da0691bd3a71367e0abdece1f8d6f8c1fb13eb933c06e5c7aa6c02b69d76da",
+    "marker_sha256": "68d43c70c422cee91427f76d0e45cb588f402fa7bf903f0c3389f3b58bc9da24",
+    "pid": 3093152,
+    "role": "capture",
+    "worker_sha256": "23f386ab1374e4573f1d9475cea0cca5cedd39f7149f99ae1d359d5b4e8170bf"
+  },
+  "new_paid_compute": false,
+  "new_university_SSH_upload_storage_proof_or_compute": false,
+  "next_step": "One new exact scoped university approval plus fresh linux10603 status; then record and independently review the armed unused handoff before giving a local Mac command.",
+  "old_incomplete_worker_still_incomplete": true,
+  "old_worker": {
+    "bytes": 7836,
+    "mtime_ns": 1794155662709314892,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/attended-fz_fon25/saved/results/components/0/worker.json",
+    "sha256": "07951ce0b40d0ea2a50fb765678c229f3b0b5532a75db727bb9aa264f48c1bf1"
+  },
+  "overlay_bytes": 329747,
+  "overlay_files": 31,
+  "passed": true,
+  "payload_review": {
+    "bytes": 463,
+    "mtime_ns": 1794163401156510043,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/payload-review.json",
+    "sha256": "651f4c0fcd3c6e46f8572882f3e40a44e6cc18d721e959842e25fbd25c4c6777"
+  },
+  "prior_consumed_native_claim": {
+    "bytes": 259,
+    "mtime_ns": 1794155687460918245,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/ATTEMPT.json",
+    "sha256": "9933b5e9f50c5c3ee571b39bea8d2afd94724ea9adf7d772809a70aaaae7f1f0"
+  },
+  "prior_preserved_files_reverified": 41512,
+  "proposed_resource": {
+    "allocator_bytes": 7516192768,
+    "cache_bytes": 33554432,
+    "capture_bytes": 2415919104,
+    "capture_worker_seconds": 0,
+    "code_bytes": 134217728,
+    "collection_bytes": 3221225472,
+    "collection_seconds": 600,
+    "component_worker_seconds": 120,
+    "component_workers": 4,
+    "emergency_bytes": 16777216,
+    "host": "linux10603",
+    "input_bytes": 134217728,
+    "mask_indices_file_bytes": 262144,
+    "metadata_bytes": 67108864,
+    "parent": "/var/tmp",
+    "raw_bytes": 536870912,
+    "receipt_reserve_seconds": 120,
+    "setup_bytes": 3221225472,
+    "setup_seconds": 180,
+    "static_reserved_seconds": 780,
+    "tensor_file_bytes": 16777216,
+    "work_seconds": 900,
+    "write_proof_bytes": 2684354560,
+    "write_proof_seconds": 60
+  },
+  "raw_review": {
+    "bytes": 20081,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/review/review.json",
+    "sha256": "7ce649d327aeccd8fc302c721be6b85a51fdbbae33576fcf2b8babbcf2c86477"
+  },
+  "real_wrapper_executor_single_CUDA_owner_simulation_verified": true,
+  "reference_arrays_verified": 12,
+  "research_or_training_admitted": false,
+  "review_source": {
+    "bytes": 13566,
+    "mtime_ns": 1794163430267985573,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/review/review_saved.py",
+    "sha256": "a5e01c35539118d65d254c23276b74c08e3025257d853c791f77221fca9b494b"
+  },
+  "scaffold_and_git_diff_check_passed": true,
+  "scope_approval_pending": true,
+  "sealed_preparation_inputs": {
+    "bytes": 976434,
+    "files": 4063,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/sealed-preparation-inputs.json",
+    "sha256": "99ce289fa9f1c3f9839f0926019fe359768266738f9a25e0456e57db4facc042"
+  },
+  "simulated_archive_files_verified": 214,
+  "simulated_response_and_saved_bytes_modes_nsmtime_match": true,
+  "six_invalid_completion_or_resource_receipts_refused": [
+    "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-worker/test_target_wrapper_refuses_in0",
+    "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-worker/test_target_wrapper_refuses_in1",
+    "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-worker/test_target_wrapper_refuses_in2",
+    "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-worker/test_target_wrapper_refuses_in3",
+    "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-worker/test_target_wrapper_refuses_in4",
+    "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-worker/test_target_wrapper_refuses_in5"
+  ],
+  "source": {
+    "configs/predictor_sdpa_continuation_v2.json": {
+      "bytes": 5807,
+      "mtime_ns": 1794163225951134308,
+      "path": "configs/predictor_sdpa_continuation_v2.json",
+      "sha256": "71410f850db74e83fd46a7f623dccdf33f1fdebb500becaf8a5bb53cd51617c1"
+    },
+    "docs/predictor_sdpa_continuation_v2.md": {
+      "bytes": 6788,
+      "mtime_ns": 1794163339008864137,
+      "path": "docs/predictor_sdpa_continuation_v2.md",
+      "sha256": "fb5dfb8da16a78b2c17aeac6303a5a59c5616a27b9f230c73377a853c0202aa9"
+    },
+    "models/attention_saved_evidence.py": {
+      "bytes": 5161,
+      "mtime_ns": 1793385829291671429,
+      "path": "models/attention_saved_evidence.py",
+      "sha256": "d561f3acf2e247a4191430204c1d2445f7d747fa7fde117117580f79263235c0"
+    },
+    "models/cpu_oracle_control_prerequisite.py": {
+      "bytes": 5813,
+      "mtime_ns": 1793836369395265167,
+      "path": "models/cpu_oracle_control_prerequisite.py",
+      "sha256": "c6d4927e89d23abbd4ad019ab4d9c0209f0995d75050f1246092aa4a23b8ef63"
+    },
+    "models/cpu_oracle_control_v1.py": {
+      "bytes": 26840,
+      "mtime_ns": 1793836454220312574,
+      "path": "models/cpu_oracle_control_v1.py",
+      "sha256": "06e5731e48ee079acdecf5ad992eef3930c8ba2e66f44f0d9c748c31fdb5baf7"
+    },
+    "models/cpu_oracle_scratch.py": {
+      "bytes": 29965,
+      "mtime_ns": 1793823730779597119,
+      "path": "models/cpu_oracle_scratch.py",
+      "sha256": "12992c272b21902297746d7781685dc951d0a310ace1dc73cbb99b8d52f6bbe6"
+    },
+    "models/execution.py": {
+      "bytes": 12043,
+      "mtime_ns": 1792692186176663831,
+      "path": "models/execution.py",
+      "sha256": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba"
+    },
+    "models/oracle_boundary_operator_v1.py": {
+      "bytes": 24006,
+      "mtime_ns": 1793852820562072327,
+      "path": "models/oracle_boundary_operator_v1.py",
+      "sha256": "dde0d903986a5e83d02d9e7cb5fe4b6869d02f3731c8d4f30dd749a20f742b73"
+    },
+    "models/predictor_eot8_adapter_v1.py": {
+      "bytes": 7839,
+      "mtime_ns": 1793910190405290472,
+      "path": "models/predictor_eot8_adapter_v1.py",
+      "sha256": "89b7e0c67e88f2f776bb0bb6ad786a2202115e64ffc6c6f9a962381cc2e9a6b8"
+    },
+    "models/predictor_eot8_capture_v1.py": {
+      "bytes": 2194,
+      "mtime_ns": 1793905108610408536,
+      "path": "models/predictor_eot8_capture_v1.py",
+      "sha256": "fcf582f0152f9ad1d93d1bf038895ba6c6c84d75a4fdfc02d5d4b2ea96e0d3e4"
+    },
+    "models/predictor_sdpa_capture_record_v1.py": {
+      "bytes": 17240,
+      "mtime_ns": 1794025652773776951,
+      "path": "models/predictor_sdpa_capture_record_v1.py",
+      "sha256": "cdd02a830a65a2ab2185c9b5bc59e1026570f50542d78fe480750ab198198f06"
+    },
+    "models/predictor_sdpa_component_events_v1.py": {
+      "bytes": 8268,
+      "mtime_ns": 1794071398755233906,
+      "path": "models/predictor_sdpa_component_events_v1.py",
+      "sha256": "c1397e06ca89d1299a7d853e6c88124d1cc7874aae3f5763f018fbc67bd195fc"
+    },
+    "models/predictor_sdpa_component_events_v2.py": {
+      "bytes": 15023,
+      "mtime_ns": 1794161484466041678,
+      "path": "models/predictor_sdpa_component_events_v2.py",
+      "sha256": "ebde9c0f32078979cfa5920503004bb79ca697fdc05d7adacbfc59bde41f515a"
+    },
+    "models/predictor_sdpa_component_records_v1.py": {
+      "bytes": 8163,
+      "mtime_ns": 1794071398755655989,
+      "path": "models/predictor_sdpa_component_records_v1.py",
+      "sha256": "45f58aa8877167fa0541a7cf92edd2d45d25e9816f3e5cc5280fc5767ddc87a6"
+    },
+    "models/predictor_sdpa_component_startup_v2.py": {
+      "bytes": 3801,
+      "mtime_ns": 1794123312478641842,
+      "path": "models/predictor_sdpa_component_startup_v2.py",
+      "sha256": "8359f9a1f8da77eeb13d02a55d56982e2998db67f48199a577f62ef95329dae3"
+    },
+    "models/predictor_sdpa_component_target_v3.py": {
+      "bytes": 2327,
+      "mtime_ns": 1794162816921122043,
+      "path": "models/predictor_sdpa_component_target_v3.py",
+      "sha256": "db1a84f91313d8b13a278d6b8111f7a0b243bba4a52c3e2f8201faad8159231d"
+    },
+    "models/predictor_sdpa_component_v3.py": {
+      "bytes": 26682,
+      "mtime_ns": 1794162722992892460,
+      "path": "models/predictor_sdpa_component_v3.py",
+      "sha256": "a9311743a4c092405ea584d4822eef6b8340729aff8fdd8dfc4acbbec18e0701"
+    },
+    "models/predictor_sdpa_continuation_client_v2.py": {
+      "bytes": 10055,
+      "mtime_ns": 1794163225955166110,
+      "path": "models/predictor_sdpa_continuation_client_v2.py",
+      "sha256": "ba98b0deeffab5e6a542a2e1c98cc5da4b55cf11cb60224077af949dfacd4607"
+    },
+    "models/predictor_sdpa_continuation_contract_v1.py": {
+      "bytes": 2449,
+      "mtime_ns": 1794153002941677941,
+      "path": "models/predictor_sdpa_continuation_contract_v1.py",
+      "sha256": "4b89d82d631a6894d74f67f56906cd13bd342225fa265367beedf1182ea5bc73"
+    },
+    "models/predictor_sdpa_continuation_contract_v2.py": {
+      "bytes": 1984,
+      "mtime_ns": 1794163225954297117,
+      "path": "models/predictor_sdpa_continuation_contract_v2.py",
+      "sha256": "9ea6713e8b29281396d5fe9e98caa92e60f137f4310f6aa4302b5f6ac69e669c"
+    },
+    "models/predictor_sdpa_continuation_operator_v2.py": {
+      "bytes": 19773,
+      "mtime_ns": 1794163225954925070,
+      "path": "models/predictor_sdpa_continuation_operator_v2.py",
+      "sha256": "72c4724ac8bcdecb0e2e930f4ff3af69aeea3199968de6a761aa506a7e4a0649"
+    },
+    "models/predictor_sdpa_continuation_storage_v2.py": {
+      "bytes": 4683,
+      "mtime_ns": 1794163225954614323,
+      "path": "models/predictor_sdpa_continuation_storage_v2.py",
+      "sha256": "5a922a7ef1959e21e87c99bf191765207be54403f88922cd85f86935dbaffd97"
+    },
+    "models/predictor_sdpa_handoff_contract_v1.py": {
+      "bytes": 2608,
+      "mtime_ns": 1794073508749740819,
+      "path": "models/predictor_sdpa_handoff_contract_v1.py",
+      "sha256": "b4721508c6481b0569c36d5d59aeabf49bab54021da23d2f0d8b15d56855af90"
+    },
+    "models/predictor_sdpa_handoff_contract_v2.py": {
+      "bytes": 1298,
+      "mtime_ns": 1794098714634934552,
+      "path": "models/predictor_sdpa_handoff_contract_v2.py",
+      "sha256": "59115b3edbe8d777772380f4494dc2a9f8ee75a1f8a5d6fc54a48c6decba1d85"
+    },
+    "models/predictor_sdpa_handoff_operator_v1.py": {
+      "bytes": 25001,
+      "mtime_ns": 1794073508750094985,
+      "path": "models/predictor_sdpa_handoff_operator_v1.py",
+      "sha256": "c3e4c1f01ffe7f087ce685d9f9a0bd3404bd9a9476dcd3eb29eb1bd589e48868"
+    },
+    "models/predictor_sdpa_handoff_operator_v2.py": {
+      "bytes": 22187,
+      "mtime_ns": 1794098759299307194,
+      "path": "models/predictor_sdpa_handoff_operator_v2.py",
+      "sha256": "d0459b0e7582e63ecfc8ce22490c1f164752fac78aee56a9a569dbba248f6b8c"
+    },
+    "models/predictor_sdpa_storage_v2.py": {
+      "bytes": 5496,
+      "mtime_ns": 1794097878161645087,
+      "path": "models/predictor_sdpa_storage_v2.py",
+      "sha256": "4d8ba736fa2db43562fff1241dc7625c18edb1c7691887ac58490aee451b62a2"
+    },
+    "models/scratch_allocation_v2.py": {
+      "bytes": 10813,
+      "mtime_ns": 1793827477367853387,
+      "path": "models/scratch_allocation_v2.py",
+      "sha256": "6b0503b8ab2c88a44a4d95c8fafbad52d1c0414293379406520a22f67700e874"
+    },
+    "models/training.py": {
+      "bytes": 16803,
+      "mtime_ns": 1792636957412352771,
+      "path": "models/training.py",
+      "sha256": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679"
+    },
+    "scripts/capture_predictor_sdpa_continuation_v2.py": {
+      "bytes": 624,
+      "mtime_ns": 1794163225955590815,
+      "path": "scripts/capture_predictor_sdpa_continuation_v2.py",
+      "sha256": "cf29742eb107c0880cf864c7dc3eaadede57ed6d37d711571c1f084f60620fe7"
+    },
+    "scripts/check_predictor_sdpa_components_v3.py": {
+      "bytes": 3535,
+      "mtime_ns": 1794162722994679705,
+      "path": "scripts/check_predictor_sdpa_components_v3.py",
+      "sha256": "00bd33b7a78036424d02b41b76f343cb61bd9b942825c47d4ccd113d771de0e6"
+    },
+    "scripts/prepare_predictor_sdpa_continuation_v2.py": {
+      "bytes": 4413,
+      "mtime_ns": 1794163225955406900,
+      "path": "scripts/prepare_predictor_sdpa_continuation_v2.py",
+      "sha256": "3e03544294cfcaa71eefb390b6f06bc7e7d757e0bdab27d8ebbebaa261777418"
+    },
+    "scripts/run_predictor_sdpa_continuation_v2.py": {
+      "bytes": 451,
+      "mtime_ns": 1794163225955813980,
+      "path": "scripts/run_predictor_sdpa_continuation_v2.py",
+      "sha256": "4df3425fb4622ca91b83f6f72d25a1c23208a5e46a8166360b9a7776af9f76f1"
+    },
+    "tests/test_predictor_sdpa_component_integration_v3.py": {
+      "bytes": 11222,
+      "mtime_ns": 1794162816926245738,
+      "path": "tests/test_predictor_sdpa_component_integration_v3.py",
+      "sha256": "9a6fd2b936d417c684ffa2d412e3af37dd34974d184cbeaa24a99c1cdea38dfd"
+    },
+    "tests/test_predictor_sdpa_continuation_v2.py": {
+      "bytes": 24057,
+      "mtime_ns": 1794163255177920649,
+      "path": "tests/test_predictor_sdpa_continuation_v2.py",
+      "sha256": "879ac742f7eb3c163bc410e1be52c4f98ce368f38316363b6a321bacbdf26536"
+    }
+  },
+  "source_startup_and_scientific_bounds_frozen": true,
+  "stdin_bootstrap_bytes": 983517,
+  "synthetic_CUDA_tests_do_not_qualify_actual_CUDA_science_or_resources": true,
+  "synthetic_resource_receipt": {
+    "bytes": 908,
+    "mtime_ns": 1794162824956986098,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-worker/test_target_wrapper_publishes_0/0/component-resource.json",
+    "sha256": "74b61c8215bec2006066b3ec3bef1bd3b720e98e09d935697d3cce2957e85d6a"
+  },
+  "test_errors": 0,
+  "test_failures": 0,
+  "test_skips": 0,
+  "test_suites": [
+    {
+      "errors": 0,
+      "failures": 0,
+      "passed": 16,
+      "skips": 0,
+      "xml": {
+        "bytes": 3124,
+        "mtime_ns": 1794162825389641821,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-worker.xml",
+        "sha256": "a848bb7837ccb4b18108bcfd7235ce0dd6f77c5350b37b922f4b83df6adb3244"
+      }
+    },
+    {
+      "errors": 0,
+      "failures": 0,
+      "passed": 52,
+      "skips": 0,
+      "xml": {
+        "bytes": 8236,
+        "mtime_ns": 1794163355279810663,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/pytest-handoff.xml",
+        "sha256": "583fbeedfbc2dd6db08a3459e0f10d7d7da06f929beb2e5c7198722bf11280d9"
+      }
+    }
+  ],
+  "tests_passed": 68
+}

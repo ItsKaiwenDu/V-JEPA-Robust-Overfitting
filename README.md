@@ -1,5 +1,34 @@
 # V-JEPA Robust Overfitting
 
+**Component values pass; profiler launch evidence remains blocked (November 8):**
+[Independent review verifies the complete download and identifies a kernel-witness collision](report/checks/2026-11-08-predictor-sdpa-continuation-v2-target-review.md).
+The cross-thread correction works, but two auxiliary fill launches share the
+same recorded name/device/duration. The first worker remains incomplete; the
+other three did not run. Next improve profiler correlation evidence offline.
+The attempt is consumed, and full training remains unadmitted.
+Earlier entries are historical snapshots.
+
+**Component continuation v2 approved and armed (November 8):**
+[The exact authorization and unused handoff verify locally](report/checks/2026-11-08-predictor-sdpa-continuation-v2-authorization.md).
+Next run the final Mac helper once and keep the Mac awake through up to 25 minutes
+including collection. No university attempt has started. The accepted native
+capture and original gates stay unchanged; full training remains unadmitted.
+Earlier entries are historical snapshots.
+
+**Association correction integrated; new component handoff ready (November 8):**
+[68 focused checks and independent saved-data review verify the separate worker and handoff](report/checks/2026-11-08-predictor-sdpa-continuation-v2-preparation.md).
+The original math/startup and accepted native inputs stay unchanged. The new
+university attempt is unarmed pending one exact scoped approval and fresh host
+status. CPU and mocked checks do not qualify actual CUDA results or full training.
+Earlier entries are historical snapshots.
+
+**Offline event association verified (November 8):**
+[72 checks validate the separate cross-thread association verifier](report/checks/2026-11-08-predictor-sdpa-association-v2-local-review.md).
+The saved trace satisfies the new identity/kernel rule while the old failed run
+stays incomplete. Next integrate this verifier into a separately tested worker
+and handoff; no new university work is authorized. Full training remains unadmitted.
+Earlier entries are historical snapshots.
+
 **Startup and original component values verified; profiler association blocked (November 8):**
 [Saved target evidence confirms the startup fix and passing numerical returns](report/checks/2026-11-08-predictor-sdpa-continuation-v1-target-review.md).
 The backend verifier excludes a backward operator on a separate autograd thread.

@@ -1,0 +1,686 @@
+{
+  "actual_component_arrays_verified": 8,
+  "archive_bytes_hashes_modes_nsmtime_reverified": true,
+  "archive_logical_bytes": 152689176,
+  "archive_members": 181,
+  "authorization": {
+    "bytes": 1689,
+    "mtime_ns": 1794164732631866364,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/AUTHORIZATION.json",
+    "sha256": "7f27a93a22bdf170f02efaa828e4e0712f2cfff58f7223f1c18c2c930d312216"
+  },
+  "backend_parser_rejection_reproduced_unchanged": true,
+  "canonical_FP64_references_built": 1,
+  "canonical_reference_arrays_verified": 4,
+  "capsule_inputs_reverified": 118,
+  "cause": "The v2 cross-thread association succeeds. The next guard requires one global name/device/nanosecond-duration CUDA witness for every positive link. A forward auxiliary fill and a backward auxiliary fill both have identical recorded names, device 0 and 1376 ns durations, so each link matches CUDA rows 24 and 93. The guard correctly refuses ambiguity under its current contract. Required efficient attention kernels have unique saved matches, but the old schema has no launch IDs; no backend or completed worker is inferred.",
+  "claim": {
+    "bytes": 258,
+    "mtime_ns": 1794181676792950736,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/ATTEMPT.json",
+    "sha256": "6c46ce1fb7ab4a3f7dbe138866b9d45f5046f0c77b26bd8e689d7b8c3dcaa07a"
+  },
+  "collection_complete": true,
+  "component_backend_or_performance_qualified": false,
+  "component_error": "Missing/ambiguous positive CUDA kernel witness.",
+  "component_values_pass_original_bounds": true,
+  "component_wall_seconds": 4.997990719974041,
+  "component_workers_complete": 0,
+  "component_workers_started": 1,
+  "consumed": true,
+  "control": {
+    "bytes": 110078,
+    "mtime_ns": 1794163401155695966,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/CONTROL.json",
+    "sha256": "daa0cf533471935fb01c62e90b43961eef68c1eef37af630bb9f27ca91dd48fb"
+  },
+  "date": "2026-11-08",
+  "event_evidence": {
+    "ambiguous_auxiliary_fill_links": [
+      {
+        "device": 0,
+        "duration_ns": 1376,
+        "host_event_index": 22,
+        "host_link_index": 0,
+        "kernel_name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+        "matching_CUDA_rows": [
+          24,
+          93
+        ],
+        "phase": "fixed-SDPA/forward"
+      },
+      {
+        "device": 0,
+        "duration_ns": 1376,
+        "host_event_index": 68,
+        "host_link_index": 0,
+        "kernel_name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+        "matching_CUDA_rows": [
+          24,
+          93
+        ],
+        "phase": "fixed-SDPA/backward"
+      }
+    ],
+    "autograd_engine": {
+      "device": "cpu",
+      "device_index": 2718935,
+      "end_us": 1935.013,
+      "fwd_thread": 1,
+      "index": 30,
+      "legacy": false,
+      "linked_kernels": [],
+      "name": "autograd::engine::evaluate_function: ScaledDotProductEfficientAttentionBackward0",
+      "parent": null,
+      "scope": 0,
+      "sequence_nr": 1,
+      "start_us": 1613.673,
+      "thread": 2,
+      "user_annotation": false
+    },
+    "autograd_node": {
+      "device": "cpu",
+      "device_index": 2718935,
+      "end_us": 1926.655,
+      "fwd_thread": 1,
+      "index": 31,
+      "legacy": false,
+      "linked_kernels": [],
+      "name": "ScaledDotProductEfficientAttentionBackward0",
+      "parent": 30,
+      "scope": 1,
+      "sequence_nr": 1,
+      "start_us": 1618.812,
+      "thread": 2,
+      "user_annotation": false
+    },
+    "backward_operator": {
+      "device": "cpu",
+      "device_index": 2718935,
+      "end_us": 1925.334,
+      "fwd_thread": 0,
+      "index": 32,
+      "legacy": false,
+      "linked_kernels": [],
+      "name": "aten::_scaled_dot_product_efficient_attention_backward",
+      "parent": 31,
+      "scope": 0,
+      "sequence_nr": -1,
+      "start_us": 1627.372,
+      "thread": 2,
+      "user_annotation": false
+    },
+    "backward_phase": {
+      "device": "cpu",
+      "device_index": 2718935,
+      "end_us": 2027.922,
+      "fwd_thread": 0,
+      "index": 29,
+      "legacy": false,
+      "linked_kernels": [],
+      "name": "fixed-SDPA/backward",
+      "parent": null,
+      "scope": 7,
+      "sequence_nr": -1,
+      "start_us": 1371.844,
+      "thread": 1,
+      "user_annotation": true
+    },
+    "cross_thread_anchors": [
+      {
+        "added_CPU_indices": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83
+        ],
+        "backward_thread": 2,
+        "engine_index": 30,
+        "forward_chain": [
+          1,
+          2
+        ],
+        "forward_thread": 1,
+        "host_interval_checked": true,
+        "node_index": 31,
+        "node_name": "ScaledDotProductEfficientAttentionBackward0",
+        "producer_index": 2,
+        "producer_name": "aten::_scaled_dot_product_efficient_attention",
+        "sequence_nr": 1
+      }
+    ],
+    "cross_thread_autograd_sequence_and_forward_thread_match": true,
+    "forward_operator": {
+      "device": "cpu",
+      "device_index": 2718935,
+      "end_us": 1306.401,
+      "fwd_thread": 0,
+      "index": 2,
+      "legacy": false,
+      "linked_kernels": [],
+      "name": "aten::_scaled_dot_product_efficient_attention",
+      "parent": 1,
+      "scope": 0,
+      "sequence_nr": 1,
+      "start_us": 271.768,
+      "thread": 1,
+      "user_annotation": false
+    },
+    "forward_phase": {
+      "device": "cpu",
+      "device_index": 2718935,
+      "end_us": 1357.152,
+      "fwd_thread": 0,
+      "index": 0,
+      "legacy": false,
+      "linked_kernels": [],
+      "name": "fixed-SDPA/forward",
+      "parent": null,
+      "scope": 7,
+      "sequence_nr": -1,
+      "start_us": 214.849,
+      "thread": 1,
+      "user_annotation": true
+    },
+    "kernel_link_match_diagnostics": [
+      {
+        "device": 0,
+        "duration_ns": 2121730,
+        "host_event_index": 9,
+        "host_link_index": 0,
+        "kernel_name": "fmha_cutlassF_f32_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel<float, cutlass::arch::Sm80, true, 64, 64, 64, true, true>::Params)",
+        "matching_CUDA_rows": [
+          26
+        ],
+        "phase": "fixed-SDPA/forward"
+      },
+      {
+        "device": 0,
+        "duration_ns": 2121730,
+        "host_event_index": 10,
+        "host_link_index": 0,
+        "kernel_name": "fmha_cutlassF_f32_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel<float, cutlass::arch::Sm80, true, 64, 64, 64, true, true>::Params)",
+        "matching_CUDA_rows": [
+          26
+        ],
+        "phase": "fixed-SDPA/forward"
+      },
+      {
+        "device": 0,
+        "duration_ns": 7360,
+        "host_event_index": 17,
+        "host_link_index": 0,
+        "kernel_name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+        "matching_CUDA_rows": [
+          20
+        ],
+        "phase": "fixed-SDPA/forward"
+      },
+      {
+        "device": 0,
+        "duration_ns": 1376,
+        "host_event_index": 22,
+        "host_link_index": 0,
+        "kernel_name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+        "matching_CUDA_rows": [
+          24,
+          93
+        ],
+        "phase": "fixed-SDPA/forward"
+      },
+      {
+        "device": 0,
+        "duration_ns": 22991669,
+        "host_event_index": 43,
+        "host_link_index": 0,
+        "kernel_name": "fmha_cutlassB_f32_aligned_64x64_k32_sm80(PyTorchMemEffAttention::AttentionBackwardKernel<cutlass::arch::Sm80, float, true, false, false, 64, 64, 32, false>::Params)",
+        "matching_CUDA_rows": [
+          96
+        ],
+        "phase": "fixed-SDPA/backward"
+      },
+      {
+        "device": 0,
+        "duration_ns": 7936,
+        "host_event_index": 45,
+        "host_link_index": 0,
+        "kernel_name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+        "matching_CUDA_rows": [
+          88
+        ],
+        "phase": "fixed-SDPA/backward"
+      },
+      {
+        "device": 0,
+        "duration_ns": 8896,
+        "host_event_index": 50,
+        "host_link_index": 0,
+        "kernel_name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+        "matching_CUDA_rows": [
+          89
+        ],
+        "phase": "fixed-SDPA/backward"
+      },
+      {
+        "device": 0,
+        "duration_ns": 8224,
+        "host_event_index": 53,
+        "host_link_index": 0,
+        "kernel_name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+        "matching_CUDA_rows": [
+          90
+        ],
+        "phase": "fixed-SDPA/backward"
+      },
+      {
+        "device": 0,
+        "duration_ns": 24832,
+        "host_event_index": 57,
+        "host_link_index": 0,
+        "kernel_name": "void at::native::vectorized_elementwise_kernel<4, at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> >, std::array<char*, 3ul> >(int, at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> >, std::array<char*, 3ul>)",
+        "matching_CUDA_rows": [
+          91
+        ],
+        "phase": "fixed-SDPA/backward"
+      },
+      {
+        "device": 0,
+        "duration_ns": 21056,
+        "host_event_index": 59,
+        "host_link_index": 0,
+        "kernel_name": "void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::func_wrapper_t<float, at::native::sum_functor<float, float, float>::operator()(at::TensorIterator&)::{lambda(float, float)#1}>, unsigned int, float, 4, 4> >(at::native::ReduceOp<float, at::native::func_wrapper_t<float, at::native::sum_functor<float, float, float>::operator()(at::TensorIterator&)::{lambda(float, float)#1}>, unsigned int, float, 4, 4>)",
+        "matching_CUDA_rows": [
+          92
+        ],
+        "phase": "fixed-SDPA/backward"
+      },
+      {
+        "device": 0,
+        "duration_ns": 1376,
+        "host_event_index": 68,
+        "host_link_index": 0,
+        "kernel_name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+        "matching_CUDA_rows": [
+          24,
+          93
+        ],
+        "phase": "fixed-SDPA/backward"
+      },
+      {
+        "device": 0,
+        "duration_ns": 2240,
+        "host_event_index": 70,
+        "host_link_index": 0,
+        "kernel_name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1})",
+        "matching_CUDA_rows": [
+          94
+        ],
+        "phase": "fixed-SDPA/backward"
+      },
+      {
+        "device": 0,
+        "duration_ns": 14048,
+        "host_event_index": 73,
+        "host_link_index": 0,
+        "kernel_name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<unsigned char>, std::array<char*, 1ul> >(int, at::native::FillFunctor<unsigned char>, std::array<char*, 1ul>)",
+        "matching_CUDA_rows": [
+          95
+        ],
+        "phase": "fixed-SDPA/backward"
+      }
+    ],
+    "legacy_CPU_ancestry_rule_excludes_backward_operator": true,
+    "new_cross_thread_association_succeeds": true,
+    "no_new_backend_acceptance_or_event_relabeling": true,
+    "positive_device0_kernels_linked_to_operator_descendants": {
+      "backward": [
+        {
+          "host_event_index": 43,
+          "host_operator": "aten::_efficient_attention_backward",
+          "kernel": {
+            "device": 0,
+            "duration_us": 22991.669,
+            "name": "fmha_cutlassB_f32_aligned_64x64_k32_sm80(PyTorchMemEffAttention::AttentionBackwardKernel<cutlass::arch::Sm80, float, true, false, false, 64, 64, 32, false>::Params)"
+          }
+        }
+      ],
+      "forward": [
+        {
+          "host_event_index": 9,
+          "host_operator": "aten::_efficient_attention_forward",
+          "kernel": {
+            "device": 0,
+            "duration_us": 2121.7300000000005,
+            "name": "fmha_cutlassF_f32_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel<float, cutlass::arch::Sm80, true, 64, 64, 64, true, true>::Params)"
+          }
+        },
+        {
+          "host_event_index": 10,
+          "host_operator": "Activity Buffer Request",
+          "kernel": {
+            "device": 0,
+            "duration_us": 2121.7300000000005,
+            "name": "fmha_cutlassF_f32_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel<float, cutlass::arch::Sm80, true, 64, 64, 64, true, true>::Params)"
+          }
+        }
+      ]
+    },
+    "required_attention_family_links_have_unique_saved_matches": true,
+    "rows": 106
+  },
+  "final_GPU_peak_receipt_missing": true,
+  "final_flags_and_inputs_completion_checks_not_reached": true,
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "first_saved_review_passed": true,
+  "fresh_process_replay_not_run": true,
+  "frozen_native_receipt": {
+    "boundary_sha256": "51da0691bd3a71367e0abdece1f8d6f8c1fb13eb933c06e5c7aa6c02b69d76da",
+    "marker_sha256": "68d43c70c422cee91427f76d0e45cb588f402fa7bf903f0c3389f3b58bc9da24",
+    "pid": 3093152,
+    "role": "capture",
+    "worker_sha256": "23f386ab1374e4573f1d9475cea0cca5cedd39f7149f99ae1d359d5b4e8170bf"
+  },
+  "full_model_candidate_rejected_entries_unchanged": 3724,
+  "kernel_tuple_ambiguity_is_not_numerical_failure": true,
+  "kind": "component-only-continuation-v2-target-saved-review",
+  "model_autograd_SDPA_CUDA_process_network_reference_execution_blocked": true,
+  "native_output_logical_hashes": {
+    "profiled": {
+      "dk": "f6badf9b4684abe2bbbb5744c84fffa27a4bc6ab7f7d5002c37cb2d51213a9d1",
+      "dq": "f2c5d2f614ae9861926a5a9e27ac209677e64bdfd0d4dd74189e0936ba202b0f",
+      "dv": "0afa0f1458dc8f5ee51024dc07776ac36cdd09f04b9d9923177e6ba4d0c852ef",
+      "output": "f9e5f261427639855a010c5c174006e1b3df850099a67e066b8610f53bb1f6f7"
+    },
+    "untimed": {
+      "dk": "f6badf9b4684abe2bbbb5744c84fffa27a4bc6ab7f7d5002c37cb2d51213a9d1",
+      "dq": "f2c5d2f614ae9861926a5a9e27ac209677e64bdfd0d4dd74189e0936ba202b0f",
+      "dv": "0afa0f1458dc8f5ee51024dc07776ac36cdd09f04b9d9923177e6ba4d0c852ef",
+      "output": "f9e5f261427639855a010c5c174006e1b3df850099a67e066b8610f53bb1f6f7"
+    }
+  },
+  "new_full_model_backwards": 0,
+  "new_native_captures": 0,
+  "new_paid_compute": false,
+  "new_research_or_training_admitted": false,
+  "next_step": "Offline design and test stronger launch-correlation evidence using the saved collision as a regression. Preserve this refusal, frozen sources and original numerical/backend/replay gates; no target retry, retrieval or new university grant is authorized.",
+  "no_new_target_scope_authorized": true,
+  "numerical_checks": {
+    "profiled": {
+      "dk": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 3.4826833479484494e-11,
+        "max_tolerance_ratio": 0.00016256409068091725,
+        "passed": true,
+        "relative_l2_error": 3.6205087270809233e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dq": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.033925839332677e-11,
+        "max_tolerance_ratio": 5.160648470673458e-05,
+        "passed": true,
+        "relative_l2_error": 3.2586804252676402e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dv": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.5785024031998165e-11,
+        "max_tolerance_ratio": 7.775571467563141e-05,
+        "passed": true,
+        "relative_l2_error": 3.369197943691921e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "output": {
+        "atol": 2e-05,
+        "failed_elements": 0,
+        "max_absolute_error": 1.6000549245109852e-05,
+        "max_tolerance_ratio": 0.5541802668312376,
+        "passed": true,
+        "relative_l2_error": 1.452763659319289e-06,
+        "rtol": 0.0001,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      }
+    },
+    "untimed": {
+      "dk": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 3.4826833479484494e-11,
+        "max_tolerance_ratio": 0.00016256409068091725,
+        "passed": true,
+        "relative_l2_error": 3.6205087270809233e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dq": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.033925839332677e-11,
+        "max_tolerance_ratio": 5.160648470673458e-05,
+        "passed": true,
+        "relative_l2_error": 3.2586804252676402e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dv": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.5785024031998165e-11,
+        "max_tolerance_ratio": 7.775571467563141e-05,
+        "passed": true,
+        "relative_l2_error": 3.369197943691921e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "output": {
+        "atol": 2e-05,
+        "failed_elements": 0,
+        "max_absolute_error": 1.6000549245109852e-05,
+        "max_tolerance_ratio": 0.5541802668312376,
+        "passed": true,
+        "relative_l2_error": 1.452763659319289e-06,
+        "rtol": 0.0001,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      }
+    }
+  },
+  "old_and_current_verifier_sources_unchanged": true,
+  "one_original_worker_bitwise_matches_native": true,
+  "overlay_files_reverified": 31,
+  "passed": true,
+  "previous_target_and_metadata_reviews_unchanged": true,
+  "prior_preparation_sealed_files_reverified": 4063,
+  "prior_preserved_hashes_reverified": 41512,
+  "profiled_original_replay_exact": true,
+  "raw_review": {
+    "bytes": 17365,
+    "mtime_ns": 1794183627536284546,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/target-review/review.json",
+    "sha256": "8422bfdabde824e4702ffe35dc990b60706be061c4f7c01ce2ede3ad1fadf4da"
+  },
+  "relative_L2_diagnostic_summaries": {
+    "dk": {
+      "absolute_difference": 8.470329472543003e-22,
+      "recorded": 3.6205087270809225e-06,
+      "reviewed": 3.6205087270809233e-06,
+      "used_for_acceptance": false
+    },
+    "dq": {
+      "absolute_difference": 8.470329472543003e-22,
+      "recorded": 3.2586804252676394e-06,
+      "reviewed": 3.2586804252676402e-06,
+      "used_for_acceptance": false
+    },
+    "dv": {
+      "absolute_difference": 8.470329472543003e-22,
+      "recorded": 3.369197943691922e-06,
+      "reviewed": 3.369197943691921e-06,
+      "used_for_acceptance": false
+    },
+    "output": {
+      "absolute_difference": 8.470329472543003e-22,
+      "recorded": 1.452763659319288e-06,
+      "reviewed": 1.452763659319289e-06,
+      "used_for_acceptance": false
+    }
+  },
+  "response": {
+    "bytes": 152863544,
+    "mtime_ns": 1794181676689006389,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/attended-1o9_nbog/response.bin",
+    "sha256": "fdfc0c8f6fc86b46c048c043e9970a1c9a93845253a83b85549e3c38ec2b9859"
+  },
+  "response_bytes": 152863544,
+  "review_source": {
+    "bytes": 18379,
+    "mtime_ns": 1794183609356867411,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/target-review/review_saved.py",
+    "sha256": "c0be2358f85202451c6f8cf4be06b933e69b2148b60f9565e9d7f024e45ef2e4"
+  },
+  "same_connection": true,
+  "saved_plan_bytes_changed": false,
+  "saved_plan_translated_in_memory_only": true,
+  "sealed_target_review": {
+    "bytes": 40883,
+    "files": 191,
+    "mtime_ns": 1794183699597957432,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/target-review/sealed-target-review.json",
+    "sha256": "6ce0f5feb8aeb678d33763efed9ff037e6ba7d52f5283a86b12df1aa6d718898"
+  },
+  "session": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/attended-1o9_nbog",
+  "session_work_seconds": 22.89296821784228,
+  "source_correction_during_review": false,
+  "startup_fix_worked": true,
+  "startup_receipt": {
+    "allocator_cap_bytes": 7516192768,
+    "allocator_fraction": 0.9153876238137426,
+    "configure_calls": 1,
+    "cuda_initialized_after": true,
+    "cuda_initialized_before": false,
+    "device": "cuda",
+    "device_total_bytes": 8210939904,
+    "kind": "native-SDPA-component-startup-v2",
+    "pid": 2718935,
+    "policy": "shared-fp64-native",
+    "precision": {
+      "cublas_workspace_config": ":4096:8",
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": true,
+      "cudnn_enabled": true,
+      "cudnn_tf32": false,
+      "deterministic_algorithms": true,
+      "deterministic_warn_only": false,
+      "matmul_precision": "highest",
+      "matmul_tf32": false
+    }
+  },
+  "storage_proof_passed": true,
+  "target_input_pins": {
+    "bytes": 78092,
+    "mtime_ns": 1794183627484732742,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/target-review/target-input-pins.json",
+    "sha256": "5817605f6dce9a50e9cf6efe2e65fb0d7b0140d6adc5ecdd3b10d79260e12d4d"
+  },
+  "tests_rerun": false,
+  "transport_exit_status": 1,
+  "unstarted_component_indices": [
+    1,
+    2,
+    3
+  ]
+}

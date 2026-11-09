@@ -1,0 +1,119 @@
+{
+  "actual_cross_thread_anchors": 1,
+  "actual_linked_kernel_witnesses": 12,
+  "actual_records": 106,
+  "assessment": {
+    "bytes": 16401,
+    "mtime_ns": 1794161500188808952,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-association-v2-20261108/pytest-final/test_pure_stdlib_audit_runs_wi0/assessment/assessment.json",
+    "sha256": "29d9e4d7bc816c2bda0a1a4df0c4643cc319096239a04bf870cd22c7ac12352b"
+  },
+  "cached_CPU_profile_records_reassessed": [
+    75,
+    245,
+    75,
+    245
+  ],
+  "cached_CPU_trace_semantics_unchanged": true,
+  "date": "2026-11-08",
+  "final_count_not_accumulated": true,
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "first_run": {
+    "failed": 1,
+    "passed": 67,
+    "reason": "Competing-link fixture was outside the qualified operator subtree; unrelated unused activity must not invalidate an otherwise valid proof. Corrected fixture tests competing claims inside the qualified subtree.",
+    "source_snapshot": "runs/pretrained/diagnostic/predictor-sdpa-association-v2-20261108/source-first",
+    "xml": {
+      "bytes": 13443,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-association-v2-20261108/pytest-first.xml",
+      "sha256": "463ee5b1f452d8e1bdbf7904ea8ca19f2b79fbaad8319a70187755b428d4a38a"
+    }
+  },
+  "first_test_source_and_67pass_1failure_retained": true,
+  "full_model_candidate_adopted": false,
+  "kernel_evidence_is_name_device_and_ns_duration_not_unique_launch_correlation_IDs": true,
+  "kind": "offline-SDPA-association-v2-saved-review",
+  "metadata_association_assessment_does_not_complete_worker_or_resource_or_fresh_replay_gates": true,
+  "new_AUTHORIZATION_or_ATTEMPT": false,
+  "new_source_bindings": {
+    "models/predictor_sdpa_component_events_v1.py": {
+      "bytes": 8268,
+      "mtime_ns": 1794071398755233906,
+      "path": "models/predictor_sdpa_component_events_v1.py",
+      "sha256": "c1397e06ca89d1299a7d853e6c88124d1cc7874aae3f5763f018fbc67bd195fc"
+    },
+    "models/predictor_sdpa_component_events_v2.py": {
+      "bytes": 15023,
+      "mtime_ns": 1794161484466041678,
+      "path": "models/predictor_sdpa_component_events_v2.py",
+      "sha256": "ebde9c0f32078979cfa5920503004bb79ca697fdc05d7adacbfc59bde41f515a"
+    },
+    "scripts/check_predictor_sdpa_association_v2.py": {
+      "bytes": 5361,
+      "mtime_ns": 1794161258657678880,
+      "path": "scripts/check_predictor_sdpa_association_v2.py",
+      "sha256": "bd3ea6f998a68f719ea2fcf054c89504f38af6b687d7c71a5e9c5531abf28132"
+    },
+    "tests/test_predictor_sdpa_component_events_v2.py": {
+      "bytes": 14962,
+      "mtime_ns": 1794161484466176761,
+      "path": "tests/test_predictor_sdpa_component_events_v2.py",
+      "sha256": "071e9d88b4b7037bd055224d23a014b52508d41aa2cad8f919fb9b5fb238e929"
+    }
+  },
+  "next_step": "Prepare a separate component worker/handoff version integrating the new association verifier; test complete startup, scientific and receipt paths before any new scoped university grant. Do not reuse the consumed claim or change old evidence.",
+  "no_new_model_autograd_SDPA_profiler_CUDA_or_university_work": true,
+  "no_scientific_tests_rerun": true,
+  "old_claim": {
+    "bytes": 259,
+    "mtime_ns": 1794155687460918245,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/ATTEMPT.json",
+    "sha256": "9933b5e9f50c5c3ee571b39bea8d2afd94724ea9adf7d772809a70aaaae7f1f0"
+  },
+  "old_component_stays_incomplete": true,
+  "old_parser_refusal_preserved": true,
+  "old_result_rows_sources_and_clocks_unchanged": true,
+  "passed": true,
+  "primary_reference_sources": {
+    "bytes": 928,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-association-v2-20261108/reference-sources.json",
+    "sha256": "45f148018204115c571fc197a406421db351853d0b35de9e8babd77694c2558f"
+  },
+  "prior_hashes_reverified": 41489,
+  "raw_review": {
+    "bytes": 4125,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-association-v2-20261108/review/review.json",
+    "sha256": "7adc2f4e0ed1a38f36e162acb3dfd0828a5364c6669191ad5616c75a89c4f32b"
+  },
+  "real_saved_trace": {
+    "bytes": 32408,
+    "mtime_ns": 1794155662669315036,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/attended-fz_fon25/saved/results/components/0/events.jsonl",
+    "sha256": "d03b3841518bb0a2380c43e4ed7abef5b36aba7626fe98de85322739a6faa466"
+  },
+  "research_or_training_admitted": false,
+  "review_source": {
+    "bytes": 7597,
+    "mtime_ns": 1794161700059230976,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-association-v2-20261108/review/review_saved.py",
+    "sha256": "6cb22a04c3d288d98759782addfca3649fde20ec796b2228d75a398b7dffb93f"
+  },
+  "scientific_import_process_network_capture_and_reference_execution_blocked": true,
+  "sealed_local_inputs": {
+    "bytes": 3305,
+    "files": 20,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-association-v2-20261108/sealed-local-inputs.json",
+    "sha256": "ecd2f0afa7a316c1e15d47b6896dbd158a0f8560503af360e1e3269aa430793b"
+  },
+  "synthetic_math_cross_thread_tests_are_not_new_CUDA_evidence": true,
+  "test_errors": 0,
+  "test_failures": 0,
+  "test_skips": 0,
+  "test_xml": {
+    "bytes": 12283,
+    "mtime_ns": 1794161500197785804,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-association-v2-20261108/pytest-final.xml",
+    "sha256": "3647761d1a4e1731a00005838a04959b25d4bf60be64d55a12ad756e79c0b425"
+  },
+  "tests_passed": 72
+}

@@ -2,6 +2,123 @@
 
 ## Current stage
 
+LATEST November 8: COMPONENT CONTINUATION V2 CONSUMED; VALUES PASS, KERNEL WITNESS AMBIGUOUS.
+Read report/checks/2026-11-08-predictor-sdpa-continuation-v2-target-review.json/md
+first. Final raw predictor-sdpa-integration-v3-20261108/linux10603-final/session
+attended-1o9_nbog. ATTEMPT consumed SHA 6c46ce1fb7ab4a3f7dbe138866b9d45f5046f0c77b26bd8e689d7b8c3dcaa07a.
+Complete sameSSHcollection152863544B,181regularmembers152689176logicalB,
+bytes/hashes/private modes/nsmtime verified; transport1,no send errors/stderr.
+31overlays/118capsule,4063sealedprep+41512prior hashes/armedbindings all unchanged.
+Full2.5GiB proof passes; zero new fullmodelbackward/nativecapture. Session22.89s.
+Only original0 starts;1/2/3unrun. Configure-once strictpreinit/runtime/precision/
+7GiBcap work. One canonicalFP64reference,4reference+8actualFP32arrays verified.
+Originalnumericalgates all0failed; nativeoutput/dQ/dK/dV bitwiseexact, profiled
+exactuntimed. DiagnosticL2 summaries separate; originalbounds unchanged.
+Corrected cross-thread anchor works. Next all-positive-link witness guard refuses:
+forwardfill host22 and backwardfill host68 share name/device0/duration1376ns;
+each globally matches CUDA24 AND93. EfficientattentionF/B unique matches26/96
+but all-links gate stillfails. Schema has no uniquelaunchcorrelationID; refusal
+reproduced UNCHANGED, no nearesttime/labelchange/backend/completion inference.
+Worker0 incomplete/failuremarker; no finalresource receipt/flags/inputchecks,
+freshprocessreplay/backend/capacity/speed/fulltraining qualification. Candidate
+3724 staysrejected, financialcaps-holds-reconciliation unchanged. Savedreview
+blocks model/autograd/SDPA/CUDA/process/network/reference work; no tests/science
+rerun. All current source/operators/helpers/AUTH/claim/results/mtimes/clocks
+FROZEN; see target-review/sealed-target-review.json. NEVERrepeat/reset helper/
+claim/clocks, agentSSH, retrieval/cleanup/fallback/paidwork. No newscopeauthorized.
+NEXT OFFLINE design+test stronger profiler launch-correlation evidence, use exact
+savedfillcollision regression. Preserve old/current refusals and originalscience/
+backend/replay/resource gates. Any later university attempt needs concreteprep+
+ONE new exactscope; no newattempt now. User commits self;never stage/commit/push.
+Earlier LATEST entries historical.
+
+LATEST November 8: COMPONENT CONTINUATION V2 APPROVED, ARMED AND UNUSED.
+Read report/checks/2026-11-08-predictor-sdpa-continuation-v2-authorization.json/md
+first. User explicitly approved unchanged scope in call_6c4d3ec38eab4568afea55f50d6dd475/0;
+item1 fresh03 status expected3070 UUID e54fae90-feeb-8106-d8c0-1974fe48555f,
+8192/94MiB,driver580.178.04,emptycompute. Approval PERSISTS; never ask again.
+Exact question/answer/status saved privately; separate0600AUTH. Active ONLY raw
+predictor-sdpa-integration-v3-20261108/linux10603-final. CONTROL
+daa0cf533471935fb01c62e90b43961eef68c1eef37af630bb9f27ca91dd48fb;
+AUTH7f27a93a22bdf170f02efaa828e4e0712f2cfff58f7223f1c18c2c930d312216.
+NO ATTEMPT/session/SSH/upload/proof/universityclock. Never agentSSH/runhelper.
+Cold armed review blocks scientific imports/process/network/remote execution;
+reverifies4063sealedprep+41512prior hashes, exactscope/payload/publickey/helper.
+No tests/science repeat; oldclaims/evidence/mtimes/clocks unchanged. Accepted
+nativecapsule36042589B,31overlays329747B,bootstrap983517B all unchanged. Zero new
+fullmodelbackward/nativecapture;15min work incl full2.5GiB proof+4freshserial
+components<=120s, then600s/3GiB SAME SSH collection;1500s client incllogin.
+All originalnumerics/reference/startup/backend/replay/storage/7GiBallocator stay.
+NEXT user runs exact final LOCAL Mac run-attended.sh ONCE, password promptly,
+Mac awake/lid+Terminal open through <=25min inclcollection. Live guardsrequired;
+pastedstatus notreservation. Preserve failure/partialoutputs for independentreview,
+NEVERrepeat/resethelper/claim/clocks/retrieve/cleanup/fallback. No privatekeys/
+heldout/install/paidwork;fulltraining/candidate3724/financialgates unchanged.
+User commits self;never stage/commit/push. Earlier LATEST entries historical.
+
+LATEST November 8: ASSOCIATION-V2 WORKER / COMPONENT CONTINUATION V2 PREPARED, UNARMED.
+Read report/checks/2026-11-08-predictor-sdpa-continuation-v2-preparation.json/md
+and docs/predictor_sdpa_continuation_v2.md first. Separate component_v3 uses frozen
+events_v2 verifier + unchanged v1 collector; scientific function ASTs identical
+apart from imports. New planv3/resourcev3; same strict configure-once startup,
+original numerical/reference/runtime/flags/input-layout/alias/fresh-replay gates.
+16worker+52handoff checks PASS, zero errors/failures/skips. Earlier72/71/etc suites
+not rerun/counts not accumulated. Actual cold bootstrap refuses before science/
+writes/process. Actual payload runs4fresh smallCPU workers. Three CPU cohorts,
+96returns/12reference arrays, exact profile/fresh replay reverified saved-only;
+model/autograd/SDPA/CUDA/process/network/reference execution blocked in review.
+Synthetic CUDA lifecycle/resources do NOT qualify real CUDA/backend/capacity/speed.
+All41512old hashes, previous consumed claim9933/incomplete worker/no resource,
+original source/archives/mtimes/clocks verify unchanged. Association schema lacks
+unique launchIDs, limitation retained; no inferred old worker completion/adoption.
+Final only raw predictor-sdpa-integration-v3-20261108/linux10603-final; CONTROL
+daa0cf533471935fb01c62e90b43961eef68c1eef37af630bb9f27ca91dd48fb.
+Unchanged capsule36042589B/118members48627833logicalB;31overlays329747B;
+bootstrap983517B<2MiB; unchanged budget snapshot included. Frozen accepted native
+inputs reused; zero new fullmodelbackward/nativecapture, one FP64reference.
+Proposed15min work incl full2.5GiB proof/four serial components<=120s; then600s/
+3GiB SAME SSH collection,1500s client incl login. All previous storage/precision/
+7GiB allocator/originalnumerics/backend/replay guards stay. New kind/claim binds
+consumed9933, never old grant/helper/claim reuse/reset. NO AUTH/ATTEMPT/SSH/upload/
+proof/remote work now. All new sources/controls/helpers/test evidence now FROZEN
+by sealed-preparation-inputs.json. No cleanup/retrieval/retry/fallback/install/
+privatekey/heldout/paidwork. Fulltraining/candidate3724/financialcaps-holds remain.
+NEXT ask ONE new exact scoped university approval plus fresh03 status; after
+approval save separate privateAUTH + independently review armed-unused handoff,
+then give exact localMac helper ONCE. Approval persists unchanged; never ask twice.
+Never agentSSH/run helper. User commits self; never stage/commit/push.
+Earlier LATEST entries historical.
+
+LATEST November 8: OFFLINE SDPA ASSOCIATION V2 VERIFIED; NO NEW TARGET HANDOFF.
+Read report/checks/2026-11-08-predictor-sdpa-association-v2-local-review.json/md
+and docs/predictor_sdpa_association_v2.md first. Separate stdlib verifier leaves
+all v1 collectors/verifiers/scientific workers and consumed records FROZEN.
+72 metadata-only checks pass; earlier49/71/etc scientific suites not rerun.
+Actual106rowtrace yields1cross-thread anchor and12linked device0 witnesses.
+Recorded fwdthread+sequence, engine/node parent/process/thread/host interval,
+unique ancestor-chain producer must all match. Math uses inner BMM/softmax
+producer keys. Parent-contained CPU traces preserve old classification/proof.
+Positive kernel links require unique name/device/ns-duration CUDA witness;
+ambiguous/foreign/unlinked/malformed/unsupported refuse. No nearest-time choice
+or GPU-in-CPU-label containment. No launch correlation IDs in old schema;
+limitation explicit, no inferred worker completion/capacity/speed/cost/adoption.
+Pure stdlib audit + independent saved review block scientific imports/process/
+network/capture/reference work; reverify41489old hashes, actual links/witnesses,
+4cachedCPU traces. Synthetic math/cross-thread cases are NOT new CUDA evidence.
+First67pass/1failure source/log retained: competing-link fixture was outside
+qualified subtree; corrected fixture tests real in-scope ambiguity. More malformed
+parent/overflow tests =>72final, counts not accumulated. Original targettrace,
+claim9933 and worker incomplete/refusal stay; missing final receipts and 3unrun
+cells not inferred. No tensors, model, autograd, SDPA, profiler, CUDA or target
+run. All new v2 code/assessment/tests now frozen by sealed-local-inputs.json.
+NEXT integrate unchanged v2 verifier into separate component worker/handoff;
+test full startup/numerical/receipt paths before any new exact university scope.
+NO new target operator/CONTROL/AUTH/ATTEMPT/helper/SSH/upload/proof/paidwork now.
+Never repeat/reset consumed continuation helper/claims/clocks, retrieve/cleanup/
+fallback. Keep all original math/numerical/backend/replay/resource gates. Full
+training unadmitted,candidate3724 rejection/finance caps-holds-reconciliation
+unchanged. User commits self; never stage/commit/push. Earlier LATEST historical.
+
 LATEST November 8: COMPONENT-ONLY ATTEMPT CONSUMED; STARTUP/VALUES PASS, BACKEND PROOF REFUSED.
 Read report/checks/2026-11-08-predictor-sdpa-continuation-v1-target-review.json/md
 first. Final session raw predictor-sdpa-continuation-v1-20261108/linux10603-final/

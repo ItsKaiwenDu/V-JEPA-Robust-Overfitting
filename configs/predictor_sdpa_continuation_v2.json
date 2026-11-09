@@ -1,0 +1,210 @@
+{
+  "FP64_reference_builds": 1,
+  "association_proof_kind": "one-fixed-SDPA-associated-backend-v2",
+  "authorized": false,
+  "automatic_retries": 0,
+  "backend_adoption": false,
+  "bookkeeping": {
+    "atol": 1e-14,
+    "rtol": 1e-12
+  },
+  "boundary_sha256": "51da0691bd3a71367e0abdece1f8d6f8c1fb13eb933c06e5c7aa6c02b69d76da",
+  "candidate_failed_input_entries": 3724,
+  "candidate_remains_rejected": true,
+  "capsule": {
+    "bytes": 36042589,
+    "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/capsule-final/native-sdpa-capsule.tar.gz",
+    "sha256": "b8ad88e9a34ea55460177d996d40f915efe9d4284e16e9616923a46eeca6391c"
+  },
+  "capsule_manifest": {
+    "bytes": 47066,
+    "path": "runs/pretrained/diagnostic/predictor-component-startup-v2-20261107/capsule-final/manifest.json",
+    "sha256": "6247604eb1b08e1da82220ed77e64eab5b26d5dc280bd98732f5d0c3e07c2529"
+  },
+  "cells": [
+    [
+      "original",
+      0
+    ],
+    [
+      "math",
+      0
+    ],
+    [
+      "original",
+      1
+    ],
+    [
+      "math",
+      1
+    ]
+  ],
+  "cleanup": false,
+  "component_plan_kind": "native-SDPA-fixed-input-plan-v3",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "full_model_backwards": 0,
+  "kind": "native-SDPA-component-only-contract-v2",
+  "launch_correlation_IDs_available": false,
+  "local_association_review": {
+    "bytes": 5457,
+    "path": "report/checks/2026-11-08-predictor-sdpa-association-v2-local-review.json",
+    "sha256": "abe4f18c2dbf5fe8f9907b7733a32682b8605241809d560db5b8ad1b3764bda9"
+  },
+  "local_startup_review": {
+    "path": "report/checks/2026-11-07-predictor-component-startup-v2-local-review.json",
+    "sha256": "99ae0ab0a73a7c89a85b4ad1a11bf7f7d644a2c58cb9c343ea9ac115659f5636"
+  },
+  "native_worker_sha256": "23f386ab1374e4573f1d9475cea0cca5cedd39f7149f99ae1d359d5b4e8170bf",
+  "new_native_captures": 0,
+  "new_target_execution_permitted": false,
+  "numerical_bounds": {
+    "dk": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dq": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dv": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "output": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    }
+  },
+  "old_incomplete_worker_remains_incomplete": true,
+  "origin_native_claim": {
+    "bytes": 254,
+    "mtime_ns": 1794118109493298984,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/linux10603-final/ATTEMPT.json",
+    "sha256": "d402bddad88abe7b2241d8c518197ce4bd693b46811352615d87013a9a9d240b"
+  },
+  "paid_compute": false,
+  "parent_consumed_claim": {
+    "bytes": 259,
+    "mtime_ns": 1794155687460918245,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/ATTEMPT.json",
+    "sha256": "9933b5e9f50c5c3ee571b39bea8d2afd94724ea9adf7d772809a70aaaae7f1f0"
+  },
+  "parent_control_sha256": "fd9481d6295880c8c97aac32ee7705fb4b5a919a76d30bb3809f0f780d598609",
+  "preserved_inputs": {
+    "bytes": 9183065,
+    "files": 41512,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/preserved-inputs.json",
+    "sha256": "6f5da69bc24f5d5ebc4aefbc91022b0c96dece5aaaa0abbe681b2509446546f3"
+  },
+  "profiled_iterations": 4,
+  "proposal_only": true,
+  "resource": {
+    "allocator_bytes": 7516192768,
+    "cache_bytes": 33554432,
+    "capture_bytes": 2415919104,
+    "capture_worker_seconds": 0,
+    "code_bytes": 134217728,
+    "collection_bytes": 3221225472,
+    "collection_seconds": 600,
+    "component_worker_seconds": 120,
+    "component_workers": 4,
+    "emergency_bytes": 16777216,
+    "host": "linux10603",
+    "input_bytes": 134217728,
+    "mask_indices_file_bytes": 262144,
+    "metadata_bytes": 67108864,
+    "parent": "/var/tmp",
+    "raw_bytes": 536870912,
+    "receipt_reserve_seconds": 120,
+    "setup_bytes": 3221225472,
+    "setup_seconds": 180,
+    "static_reserved_seconds": 780,
+    "tensor_file_bytes": 16777216,
+    "work_seconds": 900,
+    "write_proof_bytes": 2684354560,
+    "write_proof_seconds": 60
+  },
+  "resource_receipt_kind": "native-fixed-SDPA-component-resource-v3",
+  "selection": {
+    "block": 0,
+    "draw": 0,
+    "family": 0,
+    "forward_row_index": 24,
+    "kwargs": {
+      "attn_mask": null,
+      "dropout_p": 0.0,
+      "is_causal": false
+    },
+    "layout": {
+      "k": {
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "requires_grad": true,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ],
+        "stride": [
+          786432,
+          65536,
+          32,
+          1
+        ]
+      },
+      "q": {
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "requires_grad": true,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ],
+        "stride": [
+          786432,
+          65536,
+          32,
+          1
+        ]
+      },
+      "v": {
+        "device": "cuda:0",
+        "dtype": "torch.float32",
+        "requires_grad": true,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ],
+        "stride": [
+          2359296,
+          32,
+          1152,
+          1
+        ]
+      }
+    },
+    "owner": "predictor.0",
+    "phase": "EOT8-before",
+    "rule": "first original predictor call in frozen execution order; no magnitude ranking",
+    "source_cell": "00"
+  },
+  "untimed_iterations": 4,
+  "warmup_or_timed_iterations": 0
+}

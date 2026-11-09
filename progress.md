@@ -1,5 +1,113 @@
 # Research Progress Reports
 
+## 2026-11-08 — Component values pass; kernel-witness ambiguity stops the run
+
+The attended component continuation exits 1 with complete same-SSH collection:
+152,863,544 response bytes, 181 regular members, and 152,689,176 logical bytes all
+verify with private modes/hashes/ns timestamps. The 31 overlays, 118 capsule files,
+4,063 sealed preparation inputs, 41,512 prior hashes and armed bindings stay.
+The full storage proof passes; no new full-model backward or capture occurs.
+Session work is 22.89 seconds; only original component-0 starts.
+
+Strict configure-once startup and original runtime/precision work. One canonical
+FP64 reference, four reference arrays and all eight actual returns verify. Original
+output and gradients match native bitwise, the profiled iteration replays exactly,
+and every original numerical gate has zero failed elements. No tolerance changes.
+
+The cross-thread association correction works. A later guard requires every host
+kernel link to have one unique name/device/duration witness globally. Two auxiliary
+fills share those fields (1,376 ns, device 0), so each matches both CUDA rows 24 and
+93. The required attention kernels have unique matches, but the old schema lacks
+launch IDs and the all-links contract still refuses. That refusal remains intact.
+Final flags/input checks, resource receipt, fresh replay and three remaining workers
+are absent; no backend/capacity/speed/training qualification is inferred.
+
+Saved-only review blocks model/autograd/SDPA/CUDA/process/network/reference work,
+verifies the stream and arrays, and reproduces the exact ambiguity. No tests or
+science rerun. Sources, claim, results and clocks are frozen. Next design stronger
+profiler launch-correlation evidence offline and add this collision as a regression.
+No target retry/retrieval/cleanup/fallback or new university scope is authorized.
+Candidate rejection, financial caps/holds and full-training gates stay unchanged.
+[Target review](report/checks/2026-11-08-predictor-sdpa-continuation-v2-target-review.md).
+
+## 2026-11-08 — Association-aware component continuation approved and armed
+
+The user approved the exact component-only scope and supplied matching fresh
+linux10603 status with an empty compute list. The full grant/status are saved
+privately, with a separate mode-0600 authorization bound to the final control.
+Approval persists for this unchanged scope; live guards still check the GPU.
+
+Cold armed review blocks scientific imports/process/network/remote execution,
+reverifies 4,063 sealed preparation inputs plus 41,512 preserved prior hashes,
+and validates the exact payload, pinned public host key, authorization and helper.
+No tests, scientific cohorts, attempt, SSH, upload, proof or university work began.
+Old claims/evidence/clocks and all financial/full-training gates stay unchanged.
+
+Next the user runs the final local Mac helper once, enters the password promptly
+and keeps the Mac awake with lid and Terminal open through at most 25 minutes
+including login, 15 minutes of bounded component work and ten minutes of same-SSH
+collection. No new full-model backward/native capture is included. Any outcome
+is preserved for independent review without retry, reset, cleanup or fallback.
+[Armed review](report/checks/2026-11-08-predictor-sdpa-continuation-v2-authorization.md).
+
+## 2026-11-08 — Association correction integrated into a separate handoff
+
+16 worker and 52 handoff checks pass, with zero failures, errors or skips. The
+v3 worker uses the frozen v2 association verifier with the unchanged collector;
+its scientific functions match the old worker after normalizing only imports.
+Single-owner startup, original numerical bounds, flags, layouts/aliases, canonical
+reference and fresh replay remain. Six invalid resource/completion fixtures refuse
+receipts; the real wrapper/executor simulation configures once before CUDA setup.
+These simulations establish no actual CUDA scientific/resource qualification.
+
+The exact packaged code runs four fresh small CPU workers. Independent saved-only
+review blocks scientific/CUDA/process/network/reference execution, reverifies
+41,512 prior hashes, 96 return arrays and 12 reference arrays across three CPU
+cohorts, and the complete simulated single-connection collection. Cold missing
+authorization, copied/consumed claims, altered inputs, deadline and worker failures
+all refuse as intended. Earlier suites were not repeated or added to the count.
+
+The final unarmed v2 handoff reuses the unchanged 36,042,589-byte accepted native
+capsule and 31 overlays (329,747 bytes); bootstrap is 983,517 bytes. It binds consumed
+claim 9933 while preserving the failed worker and all earlier clocks. One proposed
+attended attempt permits 15 minutes including the full 2.5 GiB storage proof and
+four serial component workers, then ten minutes / 3 GiB same-SSH collection. No
+new full-model backward/capture is included. All original scientific, resource,
+financial and full-training gates stay; no paid work or new university run began.
+
+Next obtain one exact scoped approval and fresh host status, save and review the
+separate authorization, then supply the user the one-use local Mac helper. Current
+sources, controls, helpers and local evidence are frozen by the preparation seal.
+[Preparation review](report/checks/2026-11-08-predictor-sdpa-continuation-v2-preparation.md).
+
+## 2026-11-08 — Offline cross-thread event association validated
+
+A separate standard-library verifier passes 72 metadata-only checks. It links
+recorded autograd nodes by forward thread and sequence plus an intact engine/
+node/producer parent chain, preserving parent-contained phase evidence. Actual
+saved target metadata supplies one cross-thread anchor and 12 positive linked
+CUDA witnesses. The four cached CPU traces keep their old results; synthetic
+math tests exercise inner-producer identities without running new CUDA math.
+
+Kernel names alone do not qualify a phase: device and nanosecond-duration
+witnesses must match unambiguously. Invalid/foreign identities, malformed graphs,
+unlinked activity and unsupported backends refuse. The old trace lacks unique
+launch IDs, a retained limitation. GPU intervals are allowed to outlive CPU labels.
+No worker completion, final resource receipt, fresh replay or speed/cost is inferred.
+
+Independent saved-only review blocks scientific imports/process/network/capture
+and reference execution, reverifies 41,489 preserved hashes and checks actual
+identity/kernel links. The old verifier still rejects and the old worker/result
+remain incomplete. The first 67/1 local fixture failure and sources are retained;
+the corrected in-scope ambiguity and added malformed-input tests yield 72 final
+passes without accumulating counts. No scientific suite or university job repeats.
+
+Next integrate this unchanged verifier into a separate worker/handoff, test the
+complete execution/receipt path, then review a new university scope. No new
+operator/authorization/claim/connection exists. Full training, candidate rejection
+and financial gates remain unchanged.
+[Local association review](report/checks/2026-11-08-predictor-sdpa-association-v2-local-review.md).
+
 ## 2026-11-08 — Startup corrected on target; original values pass, association refused
 
 The consumed component-only attempt exits 1 with complete same-SSH collection:
