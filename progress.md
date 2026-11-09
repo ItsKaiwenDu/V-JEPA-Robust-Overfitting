@@ -1,5 +1,69 @@
 # Research Progress Reports
 
+## 2026-11-08 — Raw-correlation component worker integrated and verified
+
+45 focused integration checks pass, with zero failures, errors or skips. Four
+actual fresh small CPU workers share one FP64 reference and pass original numerical,
+native-value, profile/fresh-replay, flags/input and runtime checks. Raw trace counts
+are 75/249/75/249. The v4 plan and saved descriptors bind raw format/encoding/count/
+runtime; the exact saved envelope is read back. Original arithmetic, operands,
+reference, bounds, layout/alias and configure-once startup stay unchanged.
+
+Actual CPU artifacts pass frozen storage/collection, including complete copied
+arrays, raw proofs, bytes, hashes, private modes and ns timestamps. The explicitly
+local codec rehearsal is no university grant. The separate v4 resource publisher
+now selects/restores private creation itself; a bounded reader validates file and
+worker/plan/PID/startup/resource identity. Fourteen bad receipt fixtures refuse.
+CUDA startup/resource cases are simulations and qualify no real GPU execution.
+
+First-run 27/16 evidence exposed caller-mask-dependent receipt creation. The writer
+was corrected while keeping the reader strict. Second-run 44/1 evidence caught a
+malformed-number fixture rejected by canonical JSON before the reader; only the
+fixture was adjusted. All sources/logs remain; final 45 passes are not accumulated.
+The first saved review's label-import AST mismatch remains. The second normalizes
+that import after exact label-value equality; no worker or test changed in review.
+
+Independent saved-only review blocks scientific/CUDA/profile/process/network/
+reference execution, reverifies 45,793 prior hashes and 32 actual final CPU return
+arrays plus four reference arrays, collection copies and resource/failure fixtures.
+Old sources, consumed claim, incomplete worker, evidence and clocks stay. No old
+suite repeats or target authorization/attempt/connection/paid work is created.
+
+Next prepare a separate university handoff using the unchanged accepted capsule
+and new worker, then test cold bootstrap, payload, live guards, serial deadlines
+and same-SSH collection before a new scoped approval. Actual target CUDA validation,
+full training, candidate rejection and all financial gates remain unchanged.
+[Local integration review](report/checks/2026-11-08-predictor-sdpa-component-v4-local-review.md).
+
+## 2026-11-08 — Explicit raw launch-correlation evidence validated locally
+
+A separate read-only raw Kineto collector/verifier preserves CPU correlation IDs,
+GPU linked IDs, record indices, stream/device provenance and integer nanosecond
+clocks. It attaches each device row to its recorded CPU owner, preserving duplicate
+CPU wrappers. It uses neither name/duration matching nor nearest-time selection,
+and it does not assume each individual GPU correlation ID is globally unique.
+The frozen cross-thread autograd rule and non-correlation backend guards remain.
+
+54 focused checks pass with zero failures, errors or skips. First-run 46/2 assertion
+failures and sources remain; only test expectations for floating microseconds and
+historical JSONL errors changed, with six further metadata regressions added.
+Collector and CLI bytes were unchanged. Counts are not accumulated; no numerical
+bound changes. Equal-duration CUDA cases are handwritten metadata, not measurements.
+
+One tiny actual local CPU allocation/addition probe produces nine records under
+PyTorch 2.14.1 without SDPA, backward or model work. It validates local API access,
+not the target's PyTorch 2.8/CUDA runtime. Independent saved-only review blocks
+scientific imports/profiling/collection/process/network, reverifies 45,760 prior
+hashes and 187 target descriptors, and checks synthetic witnesses, CPU records and
+cold CLI provenance. The real collision trace still refuses under the frozen rule;
+its missing IDs cannot be recovered, and the consumed worker stays incomplete.
+
+Next integrate this collector into a separate component worker and test startup,
+numerics, profiling, storage and final receipts before preparing any target scope.
+No target helper, authorization, claim, connection or paid work was created. Full
+training, candidate rejection and financial caps/holds/reconciliation stay unchanged.
+[Local review](report/checks/2026-11-08-predictor-sdpa-launch-evidence-v1-local-review.md).
+
 ## 2026-11-08 — Component values pass; kernel-witness ambiguity stops the run
 
 The attended component continuation exits 1 with complete same-SSH collection:

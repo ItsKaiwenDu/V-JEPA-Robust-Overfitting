@@ -2,6 +2,73 @@
 
 ## Current stage
 
+LATEST November 8: RAW-CORRELATION COMPONENT WORKER V4 VERIFIED LOCALLY.
+Read report/checks/2026-11-08-predictor-sdpa-component-v4-local-review.json/md
+and docs/predictor_sdpa_component_v4.md first. Separate v4 core/wrapper/CPU CLI
+integrate frozen raw collector/verifier. New plan/trace descriptor require raw
+format, encoding, count and runtime; save/read back exact envelope in unchanged
+8 MiB events slot. Original arithmetic/operands/reference/numerical/runtime/flags/
+layout/alias/startup/replay gates stay. Label-provider import changes only constant
+source, not label values; normalization test compares all existing core functions.
+45 final focused tests pass, zero failures/errors/skips. Four actual fresh CPU
+workers, one FP64 build, 32 returns + 4 reference arrays verify; raw75/249/75/249
+records, exact native/profile/fresh replay. Actual CPU storage/codec roundtrip and
+copied arrays/proofs/hashes/modes/nsmtime verify; explicit LOCAL fixture, not a
+target handoff/grant. Missing raw API/backend failures keep available artifacts.
+Target startup/resource fixtures are synthetic, NOT real CUDA qualification.
+New v4 receipt publisher explicitly selects/restores private mask. Bounded reader
+checks private/stable/single-link file, schema, worker hash, plan/index/PID/startup,
+typed peak<=7GiB, time<=120s and no-admission fields. 14 invalid fixtures refuse.
+First27pass/16fail writer-mask boundary run + sources kept. Publisher fixed,
+reader strict. Second44pass/1fail malformed Infinity writer fixture kept; only
+fixture bypasses canonical writer to exercise reader. Final45 not accumulated.
+First saved-review label-import AST refusal/source kept; second normalizes only
+that import after exact label equality. No tests/science repeated in review.
+Independent saved review blocks model/autograd/SDPA/CUDA/profile/process/network/
+reference work; rechecks45793old hashes, actual final CPU arrays/raw/collection,
+resource/failure fixtures. Old consumed claim6c46 and incomplete worker remain.
+All new sources/test artifacts FROZEN by sealed-local-inputs.json. No new target
+handoff/CONTROL/AUTH/ATTEMPT/SSH/upload/proof/paid work. Actual local runtime is
+Torch2.14.1 CPU; target2.8/CUDA compatibility/backend/capacity/speed still pending.
+NEXT prepare SEPARATE university handoff from unchanged accepted native capsule
+and verified v4 worker. Test cold bootstrap/authorization, exact payload/imports,
+live guards, serial deadlines and same-SSH collection before ONE new scoped
+university approval. No approval request until concrete review. Never agentSSH/
+launch, repeat/reset consumed helpers/claims/clocks, retrieve/cleanup/fallback.
+No new fullmodelbackward/capture/heldout/install/paidcompute. Candidate3724/full
+training/financialcaps-holds-reconciliation unchanged. User commits self; never
+stage/commit/push. Earlier LATEST entries are historical.
+
+LATEST November 8: RAW KINETO LAUNCH EVIDENCE V1 VERIFIED LOCALLY.
+Read report/checks/2026-11-08-predictor-sdpa-launch-evidence-v1-local-review.json/md
+and docs/predictor_sdpa_launch_evidence_v1.md first. Separate collector/verifier
+models/predictor_sdpa_launch_evidence_v1.py reads completed raw Kineto metadata,
+retaining exact CPU correlation IDs, GPU linked IDs, record indices, streams and
+integer nanoseconds. No name/duration or nearest-time identity. Device correlation
+IDs are NOT assumed globally unique per kernel. Duplicate CPU nodes retained;
+CPU containment/runtime thread association is a separate deterministic view.
+Frozen v2 autograd thread/sequence/producer rule is reused; other backend/phase/
+required-kernel guard ASTs match v2 after isolating new correlation/proof code.
+54 focused checks pass, zero errors/failures/skips. First 46/2 assertion failures
+and sources/logs retained; only two test assertions fixed + six regressions added.
+Collector/CLI unchanged after first run; no counts accumulated or tolerance changes.
+One tiny actual local CPU allocation/addition probe: 9 records, Torch2.14.1,
+zero SDPA/backwards/model calls. CUDA fixtures use handwritten IDs, never recovered
+from real traces. No target PyTorch2.8/CUDA compatibility/capacity/speed qualified.
+Independent stdlib saved review blocks science imports/collection/profiler/process/
+network; rechecks45760old hashes,187target descriptors/private metadata/claim,
+synthetic witnesses and actual CPU metadata. Real106-row collision still refuses
+in frozen v2; new schema refuses missing old IDs. Old worker stays incomplete,
+claim6c46/evidence/mtimes/clocks unchanged. No missing receipts or replay inferred.
+All new sources/tests/metadata evidence FROZEN by sealed-local-inputs.json.
+NEXT integrate new collector/verifier into separately versioned component worker;
+test FULL startup/numerical/profile/storage/resource receipt path locally before
+preparing another target scope. No new worker/handoff/CONTROL/AUTH/ATTEMPT/SSH/
+upload/proof/target work now. NEVER repeat/reset consumed helper/claim/clocks,
+retrieve/cleanup/fallback/install/paid compute. Numerical/candidate3724/fulltraining/
+financial caps-holds-reconciliation unchanged. User commits self; never stage/
+commit/push. Earlier LATEST entries are historical.
+
 LATEST November 8: COMPONENT CONTINUATION V2 CONSUMED; VALUES PASS, KERNEL WITNESS AMBIGUOUS.
 Read report/checks/2026-11-08-predictor-sdpa-continuation-v2-target-review.json/md
 first. Final raw predictor-sdpa-integration-v3-20261108/linux10603-final/session

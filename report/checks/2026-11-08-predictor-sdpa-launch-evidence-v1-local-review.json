@@ -1,0 +1,171 @@
+{
+  "CPU_probe_records": 9,
+  "CPU_probe_scope": {
+    "CPU_only": true,
+    "CUDA_qualified": false,
+    "SDPA_calls": 0,
+    "backwards": 0,
+    "model_calls": 0,
+    "target_runtime_qualified": false,
+    "torch_version": "2.14.1"
+  },
+  "actual_CUDA_or_target_runtime_qualified": false,
+  "actual_collision_duration_ns": 1376,
+  "actual_collision_rows": [
+    24,
+    93
+  ],
+  "actual_local_CPU_probe": {
+    "bytes": 3188,
+    "mtime_ns": 1794184516573818212,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-launch-evidence-v1-20261108/pytest-final/test_actual_local_CPU_metadata0/actual-local-CPU-raw.json",
+    "sha256": "77ccfdf6d203c0ec624d7c9f99735ccb31cb5baa8b2eac0afc1284a87db42eec"
+  },
+  "all_new_sources_tests_and_metadata_evidence_now_frozen": true,
+  "cold_assessment": {
+    "bytes": 4138,
+    "mtime_ns": 1794184516608636969,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-launch-evidence-v1-20261108/pytest-final/test_cold_cli_blocks_science_p0/assessment/assessment.json",
+    "sha256": "7346d602c9d3189da81899767e5624c623205c85340679ab001e03e9feac497c"
+  },
+  "collector_and_CLI_unchanged_after_first_run": true,
+  "counts_not_accumulated": true,
+  "date": "2026-11-08",
+  "final_errors": 0,
+  "final_failures": 0,
+  "final_skips": 0,
+  "final_tests_passed": 54,
+  "financial_caps_holds_reconciliation_and_candidate_rejection_unchanged": true,
+  "first_sources_logs_and_two_assertion_failures_retained": true,
+  "frozen_cross_thread_rule_and_families_reused": true,
+  "frozen_noncorrelation_backend_guard_AST_equal": true,
+  "kind": "raw-SDPA-launch-correlation-v1-local-saved-review",
+  "new_schema_refuses_absent_old_IDs": true,
+  "next_step": "Integrate the separate raw collector/verifier into a new component worker, then test complete startup/numerical/profile/storage/receipt paths before any newly prepared university scope. Preserve consumed helpers and missing old IDs.",
+  "no_new_model_backward_SDPA_reference_or_CUDA_execution": true,
+  "no_new_target_operator_handoff_AUTHORIZATION_ATTEMPT_SSH_upload_or_paid_compute": true,
+  "no_prior_scientific_suite_rerun": true,
+  "old_refusal_reproduced_unchanged": true,
+  "old_worker": {
+    "bytes": 7806,
+    "mtime_ns": 1794181658554221103,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/attended-1o9_nbog/saved/results/components/0/worker.json",
+    "sha256": "359720df0aae02e64906b770b6b6b8f9376b165d43c31615c0caec64cec8b1ac"
+  },
+  "old_worker_stays_incomplete": true,
+  "passed": true,
+  "preserved_inputs": {
+    "bytes": 10200446,
+    "mtime_ns": 1794184165122485189,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-launch-evidence-v1-20261108/preserved-inputs.json",
+    "sha256": "f70a771b68bab9f35a14a524cac7a5af3f4a99a9df54c6b506e0ebc32daba729"
+  },
+  "prior_consumed_claim": {
+    "bytes": 258,
+    "mtime_ns": 1794181676792950736,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/ATTEMPT.json",
+    "sha256": "6c46ce1fb7ab4a3f7dbe138866b9d45f5046f0c77b26bd8e689d7b8c3dcaa07a"
+  },
+  "prior_preserved_files_reverified": 45760,
+  "prior_target_input_descriptors_reverified": 187,
+  "raw_review": {
+    "bytes": 5855,
+    "mtime_ns": 1794184737055196716,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-launch-evidence-v1-20261108/review/review.json",
+    "sha256": "a4dc4c73c6a43bea2da0878f71e680e4f8aa9fc14f0b2bd25ffc3004f8371a47"
+  },
+  "real_trace": {
+    "bytes": 32201,
+    "mtime_ns": 1794181658508221247,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/attended-1o9_nbog/saved/results/components/0/events.jsonl",
+    "sha256": "e120e86d4a6bfbdb4b2d31911c27be8ef6a15063875c14e0c1bb9c7ff78a2449"
+  },
+  "reference_sources": {
+    "bytes": 885,
+    "mtime_ns": 1794184165122709064,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-launch-evidence-v1-20261108/reference-sources.json",
+    "sha256": "71ed02a5994ff16c2e0ab480f3562da20a43af9f48b9d8e784d15c905b9447c9"
+  },
+  "research_or_full_training_admitted": false,
+  "review_source": {
+    "bytes": 11040,
+    "mtime_ns": 1794184720656376285,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-launch-evidence-v1-20261108/review/review_saved.py",
+    "sha256": "772af687d72e88f60f7bffdc59d759df7b2dbbbc75236f5915b7ae39ad8d45e8"
+  },
+  "scaffold_and_git_diff_check_passed": true,
+  "scientific_import_collection_profiler_process_and_network_blocked_in_review": true,
+  "sealed_local_inputs": {
+    "bytes": 5469,
+    "files": 30,
+    "mtime_ns": 1794184815238240555,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-launch-evidence-v1-20261108/sealed-local-inputs.json",
+    "sha256": "d949e40f9720be0528d8b2d23937490f11417026c9510820c7fe3ef0f9b6de25"
+  },
+  "source": {
+    "docs/predictor_sdpa_launch_evidence_v1.md": {
+      "bytes": 6009,
+      "mtime_ns": 1794184603038142296,
+      "path": "docs/predictor_sdpa_launch_evidence_v1.md",
+      "sha256": "3107e16424e146360987b48ecfece25ff4b14d49f0c5e048f2c6e6794792c1b2"
+    },
+    "models/predictor_sdpa_launch_evidence_v1.py": {
+      "bytes": 17552,
+      "mtime_ns": 1794184315123106279,
+      "path": "models/predictor_sdpa_launch_evidence_v1.py",
+      "sha256": "c9749407f3d237050252ec7e9d4831c901df813a35b3b4a38ad8d693e0e1899f"
+    },
+    "scripts/check_predictor_sdpa_launch_evidence_v1.py": {
+      "bytes": 2742,
+      "mtime_ns": 1794184445177809708,
+      "path": "scripts/check_predictor_sdpa_launch_evidence_v1.py",
+      "sha256": "1efdce28b4717681c6d6e26dfe8174d959fecdb76c533de5bf2a1e7f2120de41"
+    },
+    "tests/test_predictor_sdpa_launch_evidence_v1.py": {
+      "bytes": 16361,
+      "mtime_ns": 1794184515428408916,
+      "path": "tests/test_predictor_sdpa_launch_evidence_v1.py",
+      "sha256": "d605917900deeb63a1ad3ab706027d1cb886cea1749ec039c70ef2cb387956be"
+    }
+  },
+  "synthetic_ID_fixture": {
+    "bytes": 4670,
+    "mtime_ns": 1794184515605877154,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-launch-evidence-v1-20261108/pytest-final/test_equal_name_device_duratio0/synthetic-collision.json",
+    "sha256": "09be08e7fb740ef36696f12f710590e551cd5d3c243a19d65818bcb02daed307"
+  },
+  "synthetic_metadata_is_not_recovered_or_measured_CUDA_evidence": true,
+  "synthetic_proof": {
+    "bytes": 3040,
+    "mtime_ns": 1794184515605993987,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-launch-evidence-v1-20261108/pytest-final/test_equal_name_device_duratio0/proof.json",
+    "sha256": "f6a1b066a92bce57df2a27cea2f72b62bf801f4e5bb15108468cb42423ae6406"
+  },
+  "synthetic_witnesses_independently_verified": 4,
+  "test_runs": [
+    {
+      "errors": 0,
+      "failures": 2,
+      "skips": 0,
+      "tests": 48,
+      "xml": {
+        "bytes": 9990,
+        "mtime_ns": 1794184446761982465,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-launch-evidence-v1-20261108/pytest-first.xml",
+        "sha256": "f21b8fd3aac73c24bf128364848de3ece86c0876cf246ac86464accd1cbd10b2"
+      }
+    },
+    {
+      "errors": 0,
+      "failures": 0,
+      "skips": 0,
+      "tests": 54,
+      "xml": {
+        "bytes": 9028,
+        "mtime_ns": 1794184516619404488,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-launch-evidence-v1-20261108/pytest-final.xml",
+        "sha256": "5d9a2d168d15d6f8e72873bdfd6ebc6a38446e1ade1bd8ebe3187c752bf0b865"
+      }
+    }
+  ]
+}

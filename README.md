@@ -1,5 +1,21 @@
 # V-JEPA Robust Overfitting
 
+**Raw profiler collector integrated into a verified component worker (November 8):**
+[45 focused integration checks and independent saved-data review pass](report/checks/2026-11-08-predictor-sdpa-component-v4-local-review.md).
+Four fresh CPU workers verify numerical/profile/replay checks, raw storage and
+collection. Private resource receipt publication/readback is tested separately
+with CUDA boundary simulations. Next prepare the separate university handoff;
+actual CUDA validation and full training remain pending. No target attempt is armed.
+Earlier entries are historical snapshots.
+
+**Raw launch-correlation collector verified locally (November 8):**
+[54 focused checks validate explicit profiler ID links and preserve the old refusal](report/checks/2026-11-08-predictor-sdpa-launch-evidence-v1-local-review.md).
+The new format retains correlation fields omitted by the old collector. A tiny
+local CPU API probe passes; CUDA and target compatibility remain pending. Next
+integrate it into a separate worker and test the complete execution path.
+No new university run is prepared or authorized; full training remains unadmitted.
+Earlier entries are historical snapshots.
+
 **Component values pass; profiler launch evidence remains blocked (November 8):**
 [Independent review verifies the complete download and identifies a kernel-witness collision](report/checks/2026-11-08-predictor-sdpa-continuation-v2-target-review.md).
 The cross-thread correction works, but two auxiliary fill launches share the

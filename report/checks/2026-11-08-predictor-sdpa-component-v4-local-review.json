@@ -1,0 +1,320 @@
+{
+  "actual_CUDA_or_target_runtime_capacity_speed_qualified": false,
+  "actual_unique_CPU_component_arrays_verified": 32,
+  "actual_wrapper_executor_single_startup_simulation_stops_before_operands": true,
+  "all_new_sources_tests_and_artifacts_now_frozen": true,
+  "all_scientific_function_normalization_test_passed": true,
+  "available_failure_artifacts_verified": [
+    {
+      "available_actual_arrays": 8,
+      "error": "injected-association-refusal-v4",
+      "raw_trace_available": true,
+      "worker": {
+        "bytes": 7644,
+        "mtime_ns": 1794187515778698062,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_real_worker_keeps_saved_r0/0/worker.json",
+        "sha256": "b8ecb14a33e8bb5c80c22143c9ea5c2443c1d7ac83dc1f843b045b0e9d8e12b7"
+      }
+    },
+    {
+      "available_actual_arrays": 8,
+      "error": "injected-missing-raw-API",
+      "raw_trace_available": false,
+      "worker": {
+        "bytes": 7397,
+        "mtime_ns": 1794187517272821127,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_missing_raw_API_refusal_r0/0/worker.json",
+        "sha256": "b0634cff9b62b39cadda9473defd75477b3b9d39c517a2cf2c2583c48b93ce46"
+      }
+    }
+  ],
+  "canonical_reference": {
+    "bytes": 2675,
+    "mtime_ns": 1794187510706852938,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/components-v40/cohort/reference/reference.json",
+    "sha256": "da7ca1a7898ed4f12220f9f0a20b5bc47141188a4b56b119d40c32204c7396c7"
+  },
+  "canonical_reference_arrays_verified": 4,
+  "canonical_reference_builds": 1,
+  "collection_copy_full_array_and_raw_profile_checks_pass": true,
+  "counts_not_accumulated": true,
+  "date": "2026-11-08",
+  "final_actual_CPU_workers": [
+    {
+      "index": 0,
+      "pid": 4640,
+      "raw_records": 75,
+      "raw_trace": {
+        "bytes": 25661,
+        "mtime_ns": 1794187510729710728,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/components-v40/cohort/0/events.jsonl",
+        "sha256": "8555eba245c80ffbb3d6496fbcad8e41d79b1ec6619aceed0c41a43472376980"
+      },
+      "worker": {
+        "bytes": 8539,
+        "mtime_ns": 1794187510732766586,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/components-v40/cohort/0/worker.json",
+        "sha256": "d5c88a6af2159dc7e2a5899ab6ea78742f87948042755166077037089932eca5"
+      }
+    },
+    {
+      "index": 1,
+      "pid": 4656,
+      "raw_records": 249,
+      "raw_trace": {
+        "bytes": 85012,
+        "mtime_ns": 1794187511779373306,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/components-v40/cohort/1/events.jsonl",
+        "sha256": "34df5bfefa05ea959b2ac3b241074b996fccc6ae514ddb58dfca0eaf03f546a6"
+      },
+      "worker": {
+        "bytes": 9614,
+        "mtime_ns": 1794187511786789639,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/components-v40/cohort/1/worker.json",
+        "sha256": "b2039cdd1d5e02ece397fe8f397cc3925cf3ead6aacfd4d12ad4160287fe070a"
+      }
+    },
+    {
+      "index": 2,
+      "pid": 4662,
+      "raw_records": 75,
+      "raw_trace": {
+        "bytes": 25661,
+        "mtime_ns": 1794187512852685545,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/components-v40/cohort/2/events.jsonl",
+        "sha256": "d415a1e7602d59fffcb935a74b3d4769f3d06cd019be4eb49e67268227ec6ac7"
+      },
+      "worker": {
+        "bytes": 9010,
+        "mtime_ns": 1794187512869047745,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/components-v40/cohort/2/worker.json",
+        "sha256": "bb95808c367c93a351bf4ad7a72cfced883c137316fcf026256f6740bc43f706"
+      }
+    },
+    {
+      "index": 3,
+      "pid": 4663,
+      "raw_records": 249,
+      "raw_trace": {
+        "bytes": 85012,
+        "mtime_ns": 1794187514031103490,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/components-v40/cohort/3/events.jsonl",
+        "sha256": "ceb5130df2e13f1e2f781315e00e5f9617e7117500444c0dd03bcf7bbcceb764"
+      },
+      "worker": {
+        "bytes": 10086,
+        "mtime_ns": 1794187514065071051,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/components-v40/cohort/3/worker.json",
+        "sha256": "618ebbb535cdbd6518bece5cc87bbdcbd914e66233060b5f3c732e0f69f4cab9"
+      }
+    }
+  ],
+  "final_test_errors": 0,
+  "final_test_failures": 0,
+  "final_test_skips": 0,
+  "final_tests_passed": 45,
+  "financial_caps_holds_and_reconciliation_unchanged": true,
+  "first_receipt_0644_boundary_failure_and_sources_preserved": true,
+  "first_saved_review_refusal": "The _iteration AST changes only its label-provider import. Second review normalizes that import after checking both label values exactly. No worker, math, tests or frozen source changed.",
+  "first_saved_review_source": {
+    "bytes": 14149,
+    "mtime_ns": 1794187751484710400,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/review/review_saved.py",
+    "sha256": "cb8ac64c63cb0130dcd1f09d978e553271d68fe13082f486934fdcce7d0fdee0"
+  },
+  "fresh_process_count": 4,
+  "frozen_collector_review": {
+    "bytes": 7400,
+    "mtime_ns": 1794184815238537013,
+    "path": "report/checks/2026-11-08-predictor-sdpa-launch-evidence-v1-local-review.json",
+    "sha256": "1bbf9bbbe3dec1ff0e771dfaa186abea34e33b251221fe54212c3701c0f6f3fd"
+  },
+  "frozen_storage_limits_and_inventory_pass": {
+    "allocated_bytes": 802816,
+    "categories": {
+      "cache": 0,
+      "code": 0,
+      "emergency": 0,
+      "input": 0,
+      "metadata": 267657,
+      "proof": 0,
+      "raw": 332288
+    },
+    "ceiling": 2415919104,
+    "files": 56,
+    "logical_bytes": 599945
+  },
+  "full_model_candidate_adopted": false,
+  "key_frozen_scientific_function_ASTs_identical_after_label_import_normalization": [
+    "_iteration",
+    "_operands",
+    "capture",
+    "hashed_json",
+    "load_reference",
+    "previous",
+    "publish_reference",
+    "read",
+    "run"
+  ],
+  "kind": "raw-correlation-component-v4-local-saved-review",
+  "local_codec_rehearsal_is_not_a_new_university_handoff": true,
+  "local_collected_files_verified": 56,
+  "local_collection_bytes_modes_nsmtime_match": true,
+  "local_collection_response": {
+    "bytes": 665124,
+    "mtime_ns": 1794187516443500489,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_actual_raw_CPU_artifacts_0/local-codec-response",
+    "sha256": "5eeb4e7a07a04031b13c25675b39bde068e2b23ad1ad676623acbaba82d79df5"
+  },
+  "model_autograd_SDPA_CUDA_profile_process_network_reference_execution_blocked_during_review": true,
+  "next_step": "Prepare a separate university handoff from the unchanged native capsule and new worker; test cold bootstrap, exact payload, live guards, serial deadlines and same-SSH collection before any new scoped university approval. Never reuse consumed helpers or claims.",
+  "no_new_full_model_backward_or_native_capture": true,
+  "no_new_target_handoff_CONTROL_AUTHORIZATION_ATTEMPT_SSH_upload_proof_or_paid_compute": true,
+  "no_numerical_tolerance_or_frozen_source_changed": true,
+  "no_old_metadata_or_scientific_suite_rerun": true,
+  "old_consumed_claim": {
+    "bytes": 258,
+    "mtime_ns": 1794181676792950736,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/ATTEMPT.json",
+    "sha256": "6c46ce1fb7ab4a3f7dbe138866b9d45f5046f0c77b26bd8e689d7b8c3dcaa07a"
+  },
+  "old_worker_stays_incomplete": true,
+  "original_numerical_bounds_runtime_precision_layouts_and_flags_preserved": true,
+  "passed": true,
+  "preserved_inputs": {
+    "bytes": 10206378,
+    "mtime_ns": 1794187184036614337,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/preserved-inputs.json",
+    "sha256": "c45f72e26f2ed326d9eca418ff931bb36971d875b9b615a89ea1e2c3cf46b00b"
+  },
+  "prior_preserved_hashes_reverified": 45793,
+  "private_creation_receipt": {
+    "bytes": 908,
+    "mtime_ns": 1794187517475666082,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_resource_publisher_is_pri0/0/component-resource.json",
+    "sha256": "d7a0c056b078f2b64069f8ec62aa251a39ea4d48e2bb68dd59690929a6591475"
+  },
+  "profile_and_fresh_replay_exact": true,
+  "profile_label_values_unchanged": true,
+  "raw_record_counts": [
+    75,
+    249,
+    75,
+    249
+  ],
+  "raw_review": {
+    "bytes": 11563,
+    "mtime_ns": 1794187863191154758,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/review/review.json",
+    "sha256": "771e58cdfbcffeb27d34d761565e8ff1d29b60069c1ed649dc00113bf3f92167"
+  },
+  "refused_mutated_resource_cases": [
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_resource_readback_refuses0",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_resource_readback_refuses1",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_resource_readback_refuses10",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_resource_readback_refuses11",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_resource_readback_refuses12",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_resource_readback_refuses13",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_resource_readback_refuses2",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_resource_readback_refuses3",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_resource_readback_refuses4",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_resource_readback_refuses5",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_resource_readback_refuses6",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_resource_readback_refuses7",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_resource_readback_refuses8",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_resource_readback_refuses9"
+  ],
+  "research_or_training_admitted": false,
+  "review_source": {
+    "bytes": 14750,
+    "mtime_ns": 1794187846165673947,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/review/review_saved_second.py",
+    "sha256": "9d49a1ece7113a1e56d12ecfa0dea4715c9b95b4b8369e46b14dfcb1fe453fd2"
+  },
+  "scaffold_and_git_diff_check_passed": true,
+  "sealed_local_inputs": {
+    "bytes": 256483,
+    "files": 1246,
+    "mtime_ns": 1794187978504411767,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/sealed-local-inputs.json",
+    "sha256": "83e0f35558717bdbf067072c767362cce6fca8293c03e0d88e1bf003b87cbf38"
+  },
+  "second_nonfinite_reader_fixture_failure_preserved": true,
+  "source": {
+    "docs/predictor_sdpa_component_v4.md": {
+      "bytes": 5860,
+      "mtime_ns": 1794187652085568870,
+      "path": "docs/predictor_sdpa_component_v4.md",
+      "sha256": "25bf1e43bdfbd87d2473319d8438b25c85b80c28baf5f82fbbd96b6b88829f80"
+    },
+    "models/predictor_sdpa_component_target_v4.py": {
+      "bytes": 4891,
+      "mtime_ns": 1794187463326780762,
+      "path": "models/predictor_sdpa_component_target_v4.py",
+      "sha256": "390df56666341bc5623c8f8a0ac9821ca6eefffb4ade186f21fe7a1d78e56ec0"
+    },
+    "models/predictor_sdpa_component_v4.py": {
+      "bytes": 27735,
+      "mtime_ns": 1794187184038337286,
+      "path": "models/predictor_sdpa_component_v4.py",
+      "sha256": "f0244956613235e77abf8ef56cfef5aff750013b59ac9e3933fc462c891f3193"
+    },
+    "scripts/check_predictor_sdpa_components_v4.py": {
+      "bytes": 3535,
+      "mtime_ns": 1794187184038940324,
+      "path": "scripts/check_predictor_sdpa_components_v4.py",
+      "sha256": "25362bb4ca8b88945c9a3f2913f9865d67bf968b05292e99eca390b0740b5f81"
+    },
+    "tests/test_predictor_sdpa_component_integration_v4.py": {
+      "bytes": 21944,
+      "mtime_ns": 1794187509363903283,
+      "path": "tests/test_predictor_sdpa_component_integration_v4.py",
+      "sha256": "30583f1672a6304583ef3c789d1b98a586245295a2c6586c2e4b3959d1b7ff2d"
+    }
+  },
+  "synthetic_resource_peak_is_not_measured_CUDA": true,
+  "synthetic_resource_receipt": {
+    "bytes": 907,
+    "mtime_ns": 1794187515962118833,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2/test_target_wrapper_publishes_0/0/component-resource.json",
+    "sha256": "61fb4b90aae854c721f26ba795b91ef11f8d5421fc09a927ffa5463a85049d88"
+  },
+  "test_runs": [
+    {
+      "errors": 0,
+      "failures": 16,
+      "skips": 0,
+      "tests": 43,
+      "xml": {
+        "bytes": 47437,
+        "mtime_ns": 1794187400281320590,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-first.xml",
+        "sha256": "f168f2377402ad5c3c390d0403c3e5f4730af672af4f077553cdf6e66c1c44b2"
+      }
+    },
+    {
+      "errors": 0,
+      "failures": 1,
+      "skips": 0,
+      "tests": 45,
+      "xml": {
+        "bytes": 12617,
+        "mtime_ns": 1794187471438613976,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final.xml",
+        "sha256": "95ed647ee55b9fd340d127e256632e8114bb3de5529398ed4dedc153b06004ef"
+      }
+    },
+    {
+      "errors": 0,
+      "failures": 0,
+      "skips": 0,
+      "tests": 45,
+      "xml": {
+        "bytes": 8057,
+        "mtime_ns": 1794187517478098610,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v4-20261108/pytest-final-v2.xml",
+        "sha256": "9363c7eb637b22f349afd44ebb38e6b719193d4e6933a5c695403e14863f3f2e"
+      }
+    }
+  ]
+}
