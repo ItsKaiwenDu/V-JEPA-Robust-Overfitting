@@ -1,5 +1,27 @@
 # V-JEPA Robust Overfitting
 
+**Component numbers pass; raw profiler metadata blocks completion (November 13):**
+[Independent review verifies the complete download and saved numerical outputs](report/checks/2026-11-13-predictor-sdpa-continuation-v3-target-review.md).
+The first worker stops in raw-event validation before its trace is saved; the
+other three do not run. Next improve bounded raw-metadata retention offline while
+preserving the strict checks. This attempt is consumed; full training remains
+pending. Earlier entries are historical snapshots.
+
+**Component continuation v3 approved and armed (November 13):**
+[The scoped authorization and unused handoff verify locally](report/checks/2026-11-13-predictor-sdpa-continuation-v3-authorization.md).
+Next run the final Mac helper once and keep the Mac awake through up to 25 minutes
+including collection. The saved native inputs and original gates remain unchanged.
+No university attempt has started; actual CUDA validation and full training remain
+pending. Earlier entries are historical snapshots.
+
+**Raw-correlation university handoff ready, awaiting approval (November 13):**
+[78 handoff checks and independent saved-evidence review pass](report/checks/2026-11-13-predictor-sdpa-continuation-v3-preparation.md).
+The separate package reuses the accepted native inputs and frozen v4 worker.
+Two fresh CPU cohorts verify saved numerical/profile/replay evidence; cold guards,
+deadlines and collection are checked. One new scoped approval and fresh host status
+are needed before arming. Actual CUDA validation and full training remain pending.
+Earlier entries are historical snapshots.
+
 **Raw profiler collector integrated into a verified component worker (November 8):**
 [45 focused integration checks and independent saved-data review pass](report/checks/2026-11-08-predictor-sdpa-component-v4-local-review.md).
 Four fresh CPU workers verify numerical/profile/replay checks, raw storage and

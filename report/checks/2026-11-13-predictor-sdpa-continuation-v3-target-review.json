@@ -1,0 +1,311 @@
+{
+  "GPU_samples_match_expected_host_and_only_owned_process": true,
+  "GPU_sampling_is_not_continuous_exclusivity_proof": true,
+  "actual_component_arrays_verified": 8,
+  "actual_input_metadata_matches_frozen_native_layouts": true,
+  "all_current_sources_and_target_evidence_frozen_by": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v3-20261113/target-review/sealed-target-review.json",
+  "all_frozen_scientific_collectors_and_handoffs_unchanged": true,
+  "archive_bytes_hashes_modes_nsmtime_reverified": true,
+  "archive_logical_bytes": 152699689,
+  "archive_members": 183,
+  "armed_files_reverified": 15,
+  "authorization": {
+    "bytes": 1689,
+    "mode": 384,
+    "mtime_ns": 1794609578581473689,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v3-20261113/linux10603-final/AUTHORIZATION.json",
+    "sha256": "8611546b7a8b982941c5fa80df0974384ba1b671ddfa86b58c27664c5bfe4e12"
+  },
+  "canonical_FP64_references_built": 1,
+  "canonical_reference_arrays_verified": 4,
+  "capsule_inputs_reverified": 118,
+  "cause": "The first original component passes elementwise numerical gates and saves both return sets. Raw Kineto extraction then reaches project(trace), which rejects an invalid raw field or legacy fallback under its unchanged contract. capture_results validates before returning, while the worker publishes the envelope only after that return, so the offending raw rows were not saved. The generic exception identifies the stage but not the exact record or field. No exact sentinel/API diagnosis or backend qualification can be inferred from the available evidence.",
+  "claim": {
+    "bytes": 260,
+    "mode": 420,
+    "mtime_ns": 1794610485666490501,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v3-20261113/linux10603-final/ATTEMPT.json",
+    "sha256": "95a15a08e35721a7840e26915544b5599d3656635b2527162b3ec595236770b0"
+  },
+  "collection_complete": true,
+  "component_backend_or_performance_qualified": false,
+  "component_error": "Invalid raw event fields or legacy CUDA fallback.",
+  "component_log": {
+    "bytes": 2074,
+    "mode": 384,
+    "mtime_ns": 1794610465813076853,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v3-20261113/linux10603-final/attended-i5g38p2o/saved/component-0.log",
+    "sha256": "68ecfac5cc0ad104e7454b59d464edeb5f2966341988b67de4499a0138095c6e"
+  },
+  "component_values_pass_original_bounds": true,
+  "component_wall_seconds": 8.285390412900597,
+  "component_workers_complete": 0,
+  "component_workers_started": 1,
+  "consumed": true,
+  "control": {
+    "bytes": 112573,
+    "mode": 384,
+    "mtime_ns": 1794605931324473191,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v3-20261113/linux10603-final/CONTROL.json",
+    "sha256": "79397405382737d96962a07cbb1880aa3cbeca7d8e2fac79ff64e7550ed61d34"
+  },
+  "date": "2026-11-13",
+  "exact_offending_row_and_field_identifiable": false,
+  "final_GPU_peak_receipt_missing": true,
+  "final_flags_and_inputs_completion_checks_not_reached": true,
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "fresh_process_replay_not_run": true,
+  "frozen_native_receipt": {
+    "boundary_sha256": "51da0691bd3a71367e0abdece1f8d6f8c1fb13eb933c06e5c7aa6c02b69d76da",
+    "marker_sha256": "68d43c70c422cee91427f76d0e45cb588f402fa7bf903f0c3389f3b58bc9da24",
+    "pid": 3093152,
+    "role": "capture",
+    "worker_sha256": "23f386ab1374e4573f1d9475cea0cca5cedd39f7149f99ae1d359d5b4e8170bf"
+  },
+  "full_model_candidate_rejected_entries_unchanged": 3724,
+  "kind": "raw-correlation-component-continuation-v3-target-saved-review",
+  "model_autograd_SDPA_CUDA_profile_process_network_reference_execution_blocked": true,
+  "native_output_logical_hashes": {
+    "profiled": {
+      "dk": "f6badf9b4684abe2bbbb5744c84fffa27a4bc6ab7f7d5002c37cb2d51213a9d1",
+      "dq": "f2c5d2f614ae9861926a5a9e27ac209677e64bdfd0d4dd74189e0936ba202b0f",
+      "dv": "0afa0f1458dc8f5ee51024dc07776ac36cdd09f04b9d9923177e6ba4d0c852ef",
+      "output": "f9e5f261427639855a010c5c174006e1b3df850099a67e066b8610f53bb1f6f7"
+    },
+    "untimed": {
+      "dk": "f6badf9b4684abe2bbbb5744c84fffa27a4bc6ab7f7d5002c37cb2d51213a9d1",
+      "dq": "f2c5d2f614ae9861926a5a9e27ac209677e64bdfd0d4dd74189e0936ba202b0f",
+      "dv": "0afa0f1458dc8f5ee51024dc07776ac36cdd09f04b9d9923177e6ba4d0c852ef",
+      "output": "f9e5f261427639855a010c5c174006e1b3df850099a67e066b8610f53bb1f6f7"
+    }
+  },
+  "new_full_model_backwards": 0,
+  "new_native_captures": 0,
+  "new_paid_compute": false,
+  "new_research_or_training_admitted": false,
+  "next_step": "Offline prepare and test a separately versioned bounded capture-before-validation path so a later refusal retains its actual offending raw metadata. Keep current validators and numerical/backend/replay gates strict; preserve this consumed refusal. No target retry, retrieval, cleanup or new university attempt is authorized.",
+  "numerical_checks": {
+    "profiled": {
+      "dk": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 3.4826833479484494e-11,
+        "max_tolerance_ratio": 0.00016256409068091725,
+        "passed": true,
+        "relative_l2_error": 3.6205087270809233e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dq": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.033925839332677e-11,
+        "max_tolerance_ratio": 5.160648470673458e-05,
+        "passed": true,
+        "relative_l2_error": 3.2586804252676402e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dv": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.5785024031998165e-11,
+        "max_tolerance_ratio": 7.775571467563141e-05,
+        "passed": true,
+        "relative_l2_error": 3.369197943691921e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "output": {
+        "atol": 2e-05,
+        "failed_elements": 0,
+        "max_absolute_error": 1.6000549245109852e-05,
+        "max_tolerance_ratio": 0.5541802668312376,
+        "passed": true,
+        "relative_l2_error": 1.452763659319289e-06,
+        "rtol": 0.0001,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      }
+    },
+    "untimed": {
+      "dk": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 3.4826833479484494e-11,
+        "max_tolerance_ratio": 0.00016256409068091725,
+        "passed": true,
+        "relative_l2_error": 3.6205087270809233e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dq": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.033925839332677e-11,
+        "max_tolerance_ratio": 5.160648470673458e-05,
+        "passed": true,
+        "relative_l2_error": 3.2586804252676402e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dv": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.5785024031998165e-11,
+        "max_tolerance_ratio": 7.775571467563141e-05,
+        "passed": true,
+        "relative_l2_error": 3.369197943691921e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "output": {
+        "atol": 2e-05,
+        "failed_elements": 0,
+        "max_absolute_error": 1.6000549245109852e-05,
+        "max_tolerance_ratio": 0.5541802668312376,
+        "passed": true,
+        "relative_l2_error": 1.452763659319289e-06,
+        "rtol": 0.0001,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      }
+    }
+  },
+  "one_original_worker_saved_array_bytes_match_native": true,
+  "overlay_files_reverified": 34,
+  "passed": true,
+  "prior_preparation_sealed_files_reverified": 13951,
+  "prior_preserved_hashes_reverified": 47042,
+  "profiled_saved_array_bytes_match_untimed_and_native": true,
+  "publication_boundary_verified_against_exact_frozen_collector_and_worker": true,
+  "raw_capture_validator_refusal_logged": true,
+  "raw_trace_not_reconstructed_or_synthesized": true,
+  "raw_trace_saved": false,
+  "raw_validation_refusal_not_reproduced_without_missing_trace": true,
+  "relative_L2_diagnostic_summaries": {
+    "dk": {
+      "absolute_difference": 8.470329472543003e-22,
+      "recorded": 3.6205087270809225e-06,
+      "reviewed": 3.6205087270809233e-06,
+      "used_for_acceptance": false
+    },
+    "dq": {
+      "absolute_difference": 8.470329472543003e-22,
+      "recorded": 3.2586804252676394e-06,
+      "reviewed": 3.2586804252676402e-06,
+      "used_for_acceptance": false
+    },
+    "dv": {
+      "absolute_difference": 8.470329472543003e-22,
+      "recorded": 3.369197943691922e-06,
+      "reviewed": 3.369197943691921e-06,
+      "used_for_acceptance": false
+    },
+    "output": {
+      "absolute_difference": 8.470329472543003e-22,
+      "recorded": 1.452763659319288e-06,
+      "reviewed": 1.452763659319289e-06,
+      "used_for_acceptance": false
+    }
+  },
+  "response": {
+    "bytes": 152884429,
+    "mode": 384,
+    "mtime_ns": 1794610485563350281,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v3-20261113/linux10603-final/attended-i5g38p2o/response.bin",
+    "sha256": "d174d736bf5bc5c87a56a140306a0609b5680feb547f5a4d5776ce1a814576e7"
+  },
+  "response_bytes": 152884429,
+  "review_source": {
+    "bytes": 16932,
+    "mode": 384,
+    "mtime_ns": 1794610775928698014,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v3-20261113/target-review/review_saved.py",
+    "sha256": "13580b750e33b60a60a5870e22d743e89e84b8f137817d387dd1b50d5e62bad9"
+  },
+  "same_connection": true,
+  "saved_plan_bytes_changed": false,
+  "saved_plan_translated_in_memory_only": true,
+  "session": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v3-20261113/linux10603-final/attended-i5g38p2o",
+  "session_work_seconds": 38.17142450576648,
+  "source_correction_during_review": false,
+  "startup_configure_once_verified": true,
+  "startup_receipt": {
+    "allocator_cap_bytes": 7516192768,
+    "allocator_fraction": 0.9153876238137426,
+    "configure_calls": 1,
+    "cuda_initialized_after": true,
+    "cuda_initialized_before": false,
+    "device": "cuda",
+    "device_total_bytes": 8210939904,
+    "kind": "native-SDPA-component-startup-v2",
+    "pid": 35472,
+    "policy": "shared-fp64-native",
+    "precision": {
+      "cublas_workspace_config": ":4096:8",
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": true,
+      "cudnn_enabled": true,
+      "cudnn_tf32": false,
+      "deterministic_algorithms": true,
+      "deterministic_warn_only": false,
+      "matmul_precision": "highest",
+      "matmul_tf32": false
+    }
+  },
+  "storage_proof_passed": true,
+  "target_input_pins": {
+    "bytes": 81512,
+    "mode": 384,
+    "mtime_ns": 1794610801360336872,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v3-20261113/target-review/target-input-pins.json",
+    "sha256": "f2f658a894bd79cc8257abf76d49aad308d36a195d957a0d1c1cbbe87d3441d2"
+  },
+  "tests_rerun": false,
+  "transport_exit_status": 1,
+  "unstarted_component_indices": [
+    1,
+    2,
+    3
+  ],
+  "worker_profile_replay_completion_flag_stays_false": true
+}

@@ -1,5 +1,93 @@
 # Research Progress Reports
 
+## 2026-11-13 — Native component values pass; raw metadata validation blocks completion
+
+The university attempt exits 1 after the first original component. Same-SSH
+collection is complete: 152,884,429 response bytes, 183 regular members and
+152,699,689 logical bytes reverify with hashes/private modes/ns timestamps. All
+34 overlays, 118 capsule inputs, 13,951 preparation files, 15 armed bindings and
+47,042 prior hashes stay. The attempt is consumed and no retry is authorized.
+
+Configure-once startup, original precision/runtime and 7 GiB allocator setting
+pass. The full 2.5 GiB proof passes; session work is 38.17 seconds. One FP64
+reference and all eight saved FP32 arrays reverify independently: original
+numerical bounds have zero failed entries, and both return sets match accepted
+native values bitwise. No new full-model backward/capture occurs.
+
+Raw Kineto metadata extraction then reaches `project(trace)` and refuses an
+invalid raw field or legacy fallback. The collector validates before returning;
+the worker saves after that return. No offending raw trace is retained, so the
+exact row/field cannot be diagnosed from saved evidence. No metadata or IDs are
+invented and no backend proof is inferred. The worker stays incomplete; later
+completion flags, final measured GPU receipt and three later workers are absent.
+Saved-array equality does not relabel those incomplete checks as completed.
+
+Next prepare a separate bounded capture-before-validation path offline, preserving
+actual refused metadata for later diagnosis and keeping current validation and
+numerical/backend/replay rules strict. No new university grant, retry, retrieval,
+cleanup, installation or paid compute. Full-training gates, candidate rejection,
+old/current evidence/clocks and financial caps/holds remain unchanged.
+[Target review](report/checks/2026-11-13-predictor-sdpa-continuation-v3-target-review.md).
+
+## 2026-11-13 — Raw-correlation component continuation authorized
+
+The user approved the exact linux10603 scope and supplied matching fresh status:
+RTX 3070, expected UUID/driver, 8192 MiB total, 94 MiB used and no listed compute
+process. Exact consent/status are saved privately; separate mode-0600 authorization
+binds the unchanged final control. Approval persists for this scope. The handoff
+is armed and unused, without an attempt, session, connection, upload or proof.
+
+Independent cold review blocks scientific imports/process/network/remote execution,
+reverifies 13,951 preparation files and 47,042 prior hashes, and checks exact payload,
+public host key, helper, authorization and unchanged resource bounds. No tests or
+scientific cohorts repeat. The existing 78-test preparation result stays unchanged.
+The payload remains the 36,042,589-byte native capsule, 34 overlays (369,087 bytes)
+and 1,060,016-byte bootstrap.
+
+Next run the final local Mac helper once. The approved scope permits 15 minutes
+including the full 2.5 GiB proof, one FP64 reference and four fresh serial component
+workers of at most 120 seconds each, followed by up to ten minutes / 3 GiB collection
+through the same SSH connection. Total client ceiling is 25 minutes including
+login. Keep the Mac awake, lid and Terminal open and enter the password promptly.
+Any result or partial output needs independent review; never repeat the launch.
+No new full-model capture, retry, cleanup, installation, held-out data or paid
+compute is included. Original gates, candidate rejection, full-training status,
+old consumed evidence/clocks and all financial caps/holds remain unchanged.
+[Authorization review](report/checks/2026-11-13-predictor-sdpa-continuation-v3-authorization.md).
+
+## 2026-11-13 — Raw-correlation component university handoff prepared
+
+78 focused handoff checks pass, with zero failures, errors or skips. The separate
+v3 package keeps the accepted 36,042,589-byte native capsule and verified v4
+worker unchanged. Its 34 overlays total 369,087 bytes; the stdin bootstrap is
+1,060,016 bytes. Cold authorization, exact payload/imports, live GPU gate wiring,
+serial/setup deadlines, failure retention and same-SSH collection are verified.
+The final handoff is unarmed, without an authorization or attempt.
+
+Two actual final small CPU cohorts use eight distinct fresh workers and two FP64
+references. Independent saved-only review verifies 64 return arrays, eight reference
+arrays, raw counts 75/249/75/249 per cohort, original numerical bounds and exact
+profile/fresh replay. Complete capsule and simulated collection bytes/hashes/private
+modes/ns timestamps match. Review blocks new scientific/profile/process/network
+execution and reverifies 47,042 prior hashes. Old claims, evidence and clocks stay;
+the previous kernel-witness collision and incomplete worker remain unchanged.
+
+A new standard-library receipt adapter preserves exact frozen validation bodies
+and constants without importing PyTorch before predecessor receipt checks. Deep
+scientific validation still uses frozen v4; synthetic shallow metadata does not
+pass the deep CUDA domain check. First 68/1 and second 69/9 runs and sources remain:
+a transitive scientific import was isolated, then an omitted exact schema constant
+was supplied. Final 78 passes are not accumulated; older 45/54 suites did not repeat.
+
+Next obtain one new scoped university approval and fresh linux10603 status, save
+the separate approval and review the armed unused handoff. Proposed scope remains
+15 minutes including the full storage proof and four fresh serial components,
+then ten minutes / 3 GiB same-SSH collection. No new full-model backward/capture,
+retry, cleanup, installation, held-out data or paid compute. Actual CUDA/runtime/
+backend/capacity/speed checks, full training, candidate rejection and all financial
+gates remain pending or unchanged.
+[Preparation review](report/checks/2026-11-13-predictor-sdpa-continuation-v3-preparation.md).
+
 ## 2026-11-08 — Raw-correlation component worker integrated and verified
 
 45 focused integration checks pass, with zero failures, errors or skips. Four
