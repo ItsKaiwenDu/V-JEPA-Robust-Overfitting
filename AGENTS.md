@@ -2,6 +2,110 @@
 
 ## Current stage
 
+LATEST November 14: FIXED-INPUT CUDA COMPONENT COHORT COMPLETE, INDEPENDENTLY VERIFIED.
+Read report/checks/2026-11-14-predictor-sdpa-continuation-v6-target-review.json/md
+first. Exact V6grant consumed, claim
+f1193936d4bb415b8ca5c793e34798b8e185b82eabd00c2f7423de26599d1bef,
+final attended-i96b33mr. SameSSH response228792987B;239files228553883logicalB,
+allbytes/private modes/nsmtime/member hashes verify; transport0/noerrors/stderr.
+Allfour serial V7/V2 CUDA workers complete;32FP32returns meetoriginal FP64bounds,
+4canonicalreference arrays/ONEbuild. Math vs passingoriginal also passes. Both
+originalworkers exactnative; untimed/profiled and bothfreshprocess replays exact.
+4distinctPIDs/serial/source/native/layout/alias/dtype/runtime/startup/flags/restore/
+reference/metadata/numerical/resource receipts pass. 28relativeL2 finalrounding
+comparisons pass existingBOOK only; exactacceptance/tensorbounds unchanged.
+Raw530records retained, original106/12kernels each efficient;math159/16kernels each
+math;56positive metadatawitnesses. Notpurebackward isolation/speedcostqualification.
+Full2.5GiBproof passes onlocalXFS, notreservation/sharedquota. All5supervisors0,
+no retry/terminateddescendants; samplesonlypermittedGPUprocesses, notcontinuous
+exclusivityproof. Session106.342s<900;workers<=120;maxGPU916455424B<7GiB.
+ActualPython3.11.17/Torch2.8.0+cu128/NumPy2.4.6/CUDA12.8/RTX3070 verified.
+Saved-only review blocks model/autograd/SDPA/CUDA/profile/process/network/reference/
+extraction.9736sealedprep+18armed+77097prior hashes+245current/195oldtarget
+byte/mode/nsmtime descriptors+SIXpreviousconsumedclaims unchanged. No tests or
+science reruns;127first-run prepchecks remain covered. Currenttarget/source/
+review frozen by raw predictor-sdpa-continuation-v6-20261113/target-review/
+sealed-target-review.json. Localpublication-helper quotingerror retained; corrected
+reporthelper only, no science/tests/target repetition. Allolderfailedparents/
+completedproducers/unrunworkers/claims/clocks remain. Currentgrant consumed; no
+repeat/reset/helpercopy/retrieval. Candidate3724/fulltraining/financialcaps/holds/
+reconciliation unchanged. Onefrozenpredictorcall only; no fullmodel capacity/
+attack/optimizer/performance admission. NEXT LOCAL ONLY interpret completed
+componentcontrol and prepare fullmodelfollowup plan with unchangedresearch/
+numericalgates. No new universityscope/paidwork authorized. No agentSSH/helperlaunch,
+cleanup/installations/heldoutpixels/oldclaim/grant/clock reuse. Usercommits self;
+never stage/commit/push. EarlierLATEST historical.
+
+LATEST November 13: NUMERICAL-POLICY HANDOFF V6 APPROVED, ARMED, UNUSED.
+Read report/checks/2026-11-13-predictor-sdpa-continuation-v6-authorization.json/md
+and docs/predictor_sdpa_continuation_v6.md first. Exact user grant
+call_2b4987396840442ca3b7a89cefb784db/0 savedprivately; final CONTROL
+4881d61dfa76d81fc6dcc624b1d78b29165aa8a077cc6ef5315c3d95a0c94c81,
+AUTH2786356c842a52e206b5005a1bf8bc16ca99de16548d7c4fe5ab47f5ddfc7c6d.
+Only active final raw predictor-sdpa-continuation-v6-20261113/linux10603-final.
+Unchanged capsule36042589B/118members,40overlays433275B/bootstrap1201073B.
+V7plan-resource/V2records/numericalpolicy/source/canonicalreference bound.
+Independent COLDreview blocks scientificimports/process/network/remote execution;
+9736sealedprep+77097prior hashes+195target descriptors+SIXconsumedclaims reverify.
+Original127first-run tests covered; no suite/scientificrerun. Newarmed inputs
+sealed by raw authorization/armed-inputs.json. Old source/bytes/modes/nsmtime/
+claims/clocks and failedparent/completedproducer/unrunworkers stay unchanged.
+NO finalATTEMPT/session/SSH/upload/proof/universitywork yet. AUTHisNOTclaim.
+ONE attended03 grant:900s inclfull2.5GiBproof+oneFP64ref+4serial<=120s;
+then600s/3GiB SAME SSH collection,1500sclient incllogin. Setup3GiB/capture2.25GiB/
+raw512MiB/meta64MiB/trace8MiB/GPU7GiB unchanged; no fullmodelbackward/capture/
+retry/reset/separateretrieval/cleanup/install/privatekeys/heldout/paidwork.
+Matching03 status ALREADYsaved; notreservation, liveguardsrequired. Do NOT ask
+approvalagain forunchangedscope or duplicate the receivedstatus request.
+NEXT userruns exact final LOCAL Mac run-attended.sh ONCE, enterspasswordpromptly,
+keepsMac/lid/Terminalawake through<=25min includingcollection. Never agentSSH or
+executehelper. On Done independently inspect claimed local ATTEMPT/attended-*
+response/saved evidence and preserve partials; never rerun/reset/copyhelper or
+startseparateretrieval under thisgrant. Candidate3724/fulltraining/financialcaps/
+holds/reconciliation unchanged. Usercommits self;never stage/commit/push.
+Earlier LATEST entries historical.
+
+LATEST November 13: NUMERICAL-POLICY UNIVERSITY HANDOFF V6 PREPARED, UNARMED.
+Read report/checks/2026-11-13-predictor-sdpa-continuation-v6-preparation.json/md and
+ docs/predictor_sdpa_continuation_v6.md first. Separate package frozenV7 worker/V2
+records; unchanged capsule36042589B/118members48627833logicalB.40overlays433275B,
+bootstrap1201073B<2MiB. Finalonly raw predictor-sdpa-continuation-v6-20261113/
+linux10603-final; CONTROL4881d61dfa76d81fc6dcc624b1d78b29165aa8a077cc6ef5315c3d95a0c94c81.
+Explicit numericalpolicy/V7plan-resource/V2reference-worker kinds in contract/auth/
+plan/headers/receipts. Newcoldreference kind/policy/domain/source/identity/marker/
+manifest/boundedarray-hash checks BEFORE scientific imports; not FP64/CUDAproof.
+StdlibV4resource reader exactly frozenV7/startupV2 bodies/constants, only transitive
+startup import removed.34saved cold refusals still refuse with scientificreader
+blocked; shallowmetadata cannot pass deepnativeCUDA domain. Orchestration/storage/
+serial/scientificentry ASTs same afterversions; scientificgates unchanged.
+127focused handoff tests FIRST RUN PASS zero errors/failures/skips;44initialsource
+pins match. Previous94worker/102policy/old suites notrerun or accumulated. Twoactual
+smallCPU cohorts (normal+exactpackaged):8freshworkers/2FP64refs,64unique returns/
+8refs saved-only verify; all originalnumerical/profile/math/serial/freshreplay pass.
+Path translations IN MEMORY only, storedplans unchanged. ActualTorch2.14.1CPU,
+university2.8/CUDA compatibility/capacity/speed unqualified.
+Complete SIMULATED orchestration collection223files102608286logicalB bytes/modes/
+nsmtime match; proof/GPU/clocks simulated, actualCPUreturns reused. CopiedoldV7
+invalidfield failure8oldreturns/4oldrefs+raw keepsbytes/modes/nsmtime; no newscience
+forcopy, incomplete/rejected. Independentreview blocks science/profile/process/
+network/reference/extraction;77097prior hashes+195targetdescriptors+SIXconsumedclaims
+unchanged. Latest8e5614failedparent/completedproducer/1/2/3unrun and older failures
+stay. No retrospective production admission. Source/tests/raw/review FROZEN by raw
+sealed-preparation-inputs.json. No finalAUTH/ATTEMPT/session/SSH/upload/proof/targetclock.
+ProposedONE attended03 attempt:15min inclfull2.5GiBproof+oneFP64ref+4serial<=120s;
+then600s/3GiB SAME SSH collection,1500sclient incllogin. Setup3GiB/capture2.25GiB/
+raw512MiB/metadata64MiB/trace8MiB/allocator7GiB unchanged. No newfullmodelbackward/
+nativecapture/retry/reset/retrieval/cleanup/install/privatekeys/heldout/paidwork.
+Pasted03 status call_a7aca11772cb4a5aba06fe3a2f50b257 item0 savedprivately matches
+GPU/UUID/8192-94MiB/driver/emptycompute; NOTapproval/reservation; liveguardsrequired.
+One new scoped approval is required before any university upload or work.
+Prior grant consumed. NEXT askONE exactscope with concretepayload/limits; do NOT
+askstatusagain now (alreadyprovided). Afterapproval save privateAUTH and review
+armedUNUSED handoff before userrunsfinalLOCAL Mac helperONCE. Never agentSSH/run
+helper; unchanged approval persists, never ask twice. Candidate3724/fulltraining/
+financialcaps-holds-reconciliation unchanged. Usercommits self;never stage/commit/
+push. Earlier LATEST entries historical.
+
 LATEST November 13: NUMERICAL-POLICY COMPONENT WORKER V7 VERIFIED LOCALLY.
 Read report/checks/2026-11-13-predictor-sdpa-component-v7-local-review.json/md and
  docs/predictor_sdpa_component_v7.md first. Newv7 core/targetwrapper/localCPUCLI,

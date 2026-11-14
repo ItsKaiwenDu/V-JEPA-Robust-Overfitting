@@ -1,0 +1,2300 @@
+{
+  "actual_fresh_CPU_processes": 8,
+  "actual_return_array_descriptors": {
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635204117132281,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/profiled-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635204116261874,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/profiled-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635204117798889,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/profiled-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635204115655685,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/profiled-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635204106447845,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/untimed-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635204106095749,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/untimed-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635204106830151,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/untimed-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635204105598606,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/untimed-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635205280974105,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/profiled-dk.npy",
+      "sha256": "9c36d27b0693d3203f2341db1bf366b51d4dd302525c0834d84729d1745c4660"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635205280408169,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/profiled-dq.npy",
+      "sha256": "075b8cc707892985f8ac27643057ed57509cd3b6cc1440e29717919c067d6609"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635205281604211,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/profiled-dv.npy",
+      "sha256": "9520e6d15c999b087dc5abc6562e87ca20c882e0db5103a17fcc98087ee5d7f5"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635205279861567,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/profiled-output.npy",
+      "sha256": "a9cd9cf90d353fc1caeaeedc1ca6075840342369d7ee307cf46dcce912eee048"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635205266666943,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/untimed-dk.npy",
+      "sha256": "9c36d27b0693d3203f2341db1bf366b51d4dd302525c0834d84729d1745c4660"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635205266272388,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/untimed-dq.npy",
+      "sha256": "075b8cc707892985f8ac27643057ed57509cd3b6cc1440e29717919c067d6609"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635205267091667,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/untimed-dv.npy",
+      "sha256": "9520e6d15c999b087dc5abc6562e87ca20c882e0db5103a17fcc98087ee5d7f5"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635205265851332,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/untimed-output.npy",
+      "sha256": "a9cd9cf90d353fc1caeaeedc1ca6075840342369d7ee307cf46dcce912eee048"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635206386118819,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/profiled-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635206385340127,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/profiled-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635206386913428,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/profiled-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635206384701356,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/profiled-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635206357689020,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/untimed-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635206357309174,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/untimed-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635206358127867,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/untimed-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635206356872077,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/untimed-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635207604450219,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/profiled-dk.npy",
+      "sha256": "9c36d27b0693d3203f2341db1bf366b51d4dd302525c0834d84729d1745c4660"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635207603621611,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/profiled-dq.npy",
+      "sha256": "075b8cc707892985f8ac27643057ed57509cd3b6cc1440e29717919c067d6609"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635207605258077,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/profiled-dv.npy",
+      "sha256": "9520e6d15c999b087dc5abc6562e87ca20c882e0db5103a17fcc98087ee5d7f5"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635207602863629,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/profiled-output.npy",
+      "sha256": "a9cd9cf90d353fc1caeaeedc1ca6075840342369d7ee307cf46dcce912eee048"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635207537168707,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/untimed-dk.npy",
+      "sha256": "9c36d27b0693d3203f2341db1bf366b51d4dd302525c0834d84729d1745c4660"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635207536580438,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/untimed-dq.npy",
+      "sha256": "075b8cc707892985f8ac27643057ed57509cd3b6cc1440e29717919c067d6609"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635207537714181,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/untimed-dv.npy",
+      "sha256": "9520e6d15c999b087dc5abc6562e87ca20c882e0db5103a17fcc98087ee5d7f5"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635207536135467,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/untimed-output.npy",
+      "sha256": "a9cd9cf90d353fc1caeaeedc1ca6075840342369d7ee307cf46dcce912eee048"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635274969016755,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/profiled-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635274968511505,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/profiled-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635274969666090,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/profiled-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635274967986796,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/profiled-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635274963062915,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/untimed-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635274962638039,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/untimed-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635274963483540,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/untimed-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635274962213080,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/untimed-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635276093131525,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/profiled-dk.npy",
+      "sha256": "9c36d27b0693d3203f2341db1bf366b51d4dd302525c0834d84729d1745c4660"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635276092547982,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/profiled-dq.npy",
+      "sha256": "075b8cc707892985f8ac27643057ed57509cd3b6cc1440e29717919c067d6609"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635276093779776,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/profiled-dv.npy",
+      "sha256": "9520e6d15c999b087dc5abc6562e87ca20c882e0db5103a17fcc98087ee5d7f5"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635276092047732,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/profiled-output.npy",
+      "sha256": "a9cd9cf90d353fc1caeaeedc1ca6075840342369d7ee307cf46dcce912eee048"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635276078597090,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/untimed-dk.npy",
+      "sha256": "9c36d27b0693d3203f2341db1bf366b51d4dd302525c0834d84729d1745c4660"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635276078169757,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/untimed-dq.npy",
+      "sha256": "075b8cc707892985f8ac27643057ed57509cd3b6cc1440e29717919c067d6609"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635276079093883,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/untimed-dv.npy",
+      "sha256": "9520e6d15c999b087dc5abc6562e87ca20c882e0db5103a17fcc98087ee5d7f5"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635276077715631,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/untimed-output.npy",
+      "sha256": "a9cd9cf90d353fc1caeaeedc1ca6075840342369d7ee307cf46dcce912eee048"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635277250416806,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/profiled-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635277249883806,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/profiled-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635277250998515,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/profiled-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635277249269513,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/profiled-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635277221235563,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/untimed-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635277220782687,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/untimed-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635277221637022,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/untimed-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635277220332395,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/untimed-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635278519405650,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/profiled-dk.npy",
+      "sha256": "9c36d27b0693d3203f2341db1bf366b51d4dd302525c0834d84729d1745c4660"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635278518712150,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/profiled-dq.npy",
+      "sha256": "075b8cc707892985f8ac27643057ed57509cd3b6cc1440e29717919c067d6609"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635278520092068,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/profiled-dv.npy",
+      "sha256": "9520e6d15c999b087dc5abc6562e87ca20c882e0db5103a17fcc98087ee5d7f5"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635278518037232,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/profiled-output.npy",
+      "sha256": "a9cd9cf90d353fc1caeaeedc1ca6075840342369d7ee307cf46dcce912eee048"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635278452293904,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/untimed-dk.npy",
+      "sha256": "9c36d27b0693d3203f2341db1bf366b51d4dd302525c0834d84729d1745c4660"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635278451905654,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/untimed-dq.npy",
+      "sha256": "075b8cc707892985f8ac27643057ed57509cd3b6cc1440e29717919c067d6609"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635278452720571,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/untimed-dv.npy",
+      "sha256": "9520e6d15c999b087dc5abc6562e87ca20c882e0db5103a17fcc98087ee5d7f5"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794635278451435861,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/untimed-output.npy",
+      "sha256": "a9cd9cf90d353fc1caeaeedc1ca6075840342369d7ee307cf46dcce912eee048"
+    }
+  },
+  "actual_small_CPU_cohorts": [
+    {
+      "canonical_reference": {
+        "bytes": 2749,
+        "mode": 384,
+        "mtime_ns": 1794635204083096609,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/reference/reference.json",
+        "sha256": "8815bab7f93f0d4412a39b0c3a2ac7f509ac890d3a632fc922dda50635d39e04"
+      },
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort",
+      "source_root_translated_only_in_memory": false,
+      "stored_plan_unchanged": true,
+      "workers": [
+        {
+          "actual_saved_checks": {
+            "profiled": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 6.045001857375804e-16,
+                "max_tolerance_ratio": 3.0224340510223703e-09,
+                "passed": true,
+                "relative_l2_error": 1.3786102489284615e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 3.3296720017471034e-13,
+                "max_tolerance_ratio": 1.6360606142825708e-06,
+                "passed": true,
+                "relative_l2_error": 1.1577041315220293e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455547426321817e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 7.2552385418922505e-09,
+                "max_tolerance_ratio": 0.0003083569023029144,
+                "passed": true,
+                "relative_l2_error": 5.447643335644862e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            },
+            "untimed": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 6.045001857375804e-16,
+                "max_tolerance_ratio": 3.0224340510223703e-09,
+                "passed": true,
+                "relative_l2_error": 1.3786102489284615e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 3.3296720017471034e-13,
+                "max_tolerance_ratio": 1.6360606142825708e-06,
+                "passed": true,
+                "relative_l2_error": 1.1577041315220293e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455547426321817e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 7.2552385418922505e-09,
+                "max_tolerance_ratio": 0.0003083569023029144,
+                "passed": true,
+                "relative_l2_error": 5.447643335644862e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            }
+          },
+          "index": 0,
+          "pid": 45832,
+          "raw_records": 75,
+          "worker": {
+            "bytes": 9563,
+            "mode": 384,
+            "mtime_ns": 1794635204125887687,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/0/worker.json",
+            "sha256": "f66730defd0f0e0cb58f3e953317d1dd75be6db33df296bf110102442378a59b"
+          }
+        },
+        {
+          "actual_saved_checks": {
+            "profiled": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 5.401049691437153e-16,
+                "max_tolerance_ratio": 2.700491691214415e-09,
+                "passed": true,
+                "relative_l2_error": 1.064387059336796e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.755620563800958e-13,
+                "max_tolerance_ratio": 1.3617889660993968e-06,
+                "passed": true,
+                "relative_l2_error": 1.0969150953548223e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455371744162237e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 5.468499604532884e-09,
+                "max_tolerance_ratio": 0.00022312235161089299,
+                "passed": true,
+                "relative_l2_error": 5.088068982993577e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            },
+            "untimed": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 5.401049691437153e-16,
+                "max_tolerance_ratio": 2.700491691214415e-09,
+                "passed": true,
+                "relative_l2_error": 1.064387059336796e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.755620563800958e-13,
+                "max_tolerance_ratio": 1.3617889660993968e-06,
+                "passed": true,
+                "relative_l2_error": 1.0969150953548223e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455371744162237e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 5.468499604532884e-09,
+                "max_tolerance_ratio": 0.00022312235161089299,
+                "passed": true,
+                "relative_l2_error": 5.088068982993577e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            }
+          },
+          "index": 1,
+          "pid": 45870,
+          "raw_records": 249,
+          "worker": {
+            "bytes": 10641,
+            "mode": 384,
+            "mtime_ns": 1794635205299325324,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/1/worker.json",
+            "sha256": "27d8eaa9498f4514076bdac4307289ea6a76021f5ea2b487a2ab91f852521209"
+          }
+        },
+        {
+          "actual_saved_checks": {
+            "profiled": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 6.045001857375804e-16,
+                "max_tolerance_ratio": 3.0224340510223703e-09,
+                "passed": true,
+                "relative_l2_error": 1.3786102489284615e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 3.3296720017471034e-13,
+                "max_tolerance_ratio": 1.6360606142825708e-06,
+                "passed": true,
+                "relative_l2_error": 1.1577041315220293e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455547426321817e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 7.2552385418922505e-09,
+                "max_tolerance_ratio": 0.0003083569023029144,
+                "passed": true,
+                "relative_l2_error": 5.447643335644862e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            },
+            "untimed": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 6.045001857375804e-16,
+                "max_tolerance_ratio": 3.0224340510223703e-09,
+                "passed": true,
+                "relative_l2_error": 1.3786102489284615e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 3.3296720017471034e-13,
+                "max_tolerance_ratio": 1.6360606142825708e-06,
+                "passed": true,
+                "relative_l2_error": 1.1577041315220293e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455547426321817e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 7.2552385418922505e-09,
+                "max_tolerance_ratio": 0.0003083569023029144,
+                "passed": true,
+                "relative_l2_error": 5.447643335644862e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            }
+          },
+          "index": 2,
+          "pid": 45871,
+          "raw_records": 75,
+          "worker": {
+            "bytes": 10035,
+            "mode": 384,
+            "mtime_ns": 1794635206413360246,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/2/worker.json",
+            "sha256": "58e1f0630413322b9a42bdcb60b12b82863b8aec26241e07654f9e716cc9c837"
+          }
+        },
+        {
+          "actual_saved_checks": {
+            "profiled": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 5.401049691437153e-16,
+                "max_tolerance_ratio": 2.700491691214415e-09,
+                "passed": true,
+                "relative_l2_error": 1.064387059336796e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.755620563800958e-13,
+                "max_tolerance_ratio": 1.3617889660993968e-06,
+                "passed": true,
+                "relative_l2_error": 1.0969150953548223e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455371744162237e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 5.468499604532884e-09,
+                "max_tolerance_ratio": 0.00022312235161089299,
+                "passed": true,
+                "relative_l2_error": 5.088068982993577e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            },
+            "untimed": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 5.401049691437153e-16,
+                "max_tolerance_ratio": 2.700491691214415e-09,
+                "passed": true,
+                "relative_l2_error": 1.064387059336796e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.755620563800958e-13,
+                "max_tolerance_ratio": 1.3617889660993968e-06,
+                "passed": true,
+                "relative_l2_error": 1.0969150953548223e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455371744162237e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 5.468499604532884e-09,
+                "max_tolerance_ratio": 0.00022312235161089299,
+                "passed": true,
+                "relative_l2_error": 5.088068982993577e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            }
+          },
+          "index": 3,
+          "pid": 45872,
+          "raw_records": 249,
+          "worker": {
+            "bytes": 11113,
+            "mode": 384,
+            "mtime_ns": 1794635207660723599,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/3/worker.json",
+            "sha256": "432381df3c55686db1b4ccb62d96f81adad90c3d0f3614dc3003500e31e7f8ea"
+          }
+        }
+      ]
+    },
+    {
+      "canonical_reference": {
+        "bytes": 2749,
+        "mode": 384,
+        "mtime_ns": 1794635274946492144,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/reference/reference.json",
+        "sha256": "d2fb37b7abb60840d6549db0ab074ebcae91b3055b870cb4fe0d49d2fd16615c"
+      },
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU",
+      "source_root_translated_only_in_memory": true,
+      "stored_plan_unchanged": true,
+      "workers": [
+        {
+          "actual_saved_checks": {
+            "profiled": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 6.045001857375804e-16,
+                "max_tolerance_ratio": 3.0224340510223703e-09,
+                "passed": true,
+                "relative_l2_error": 1.3786102489284615e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 3.3296720017471034e-13,
+                "max_tolerance_ratio": 1.6360606142825708e-06,
+                "passed": true,
+                "relative_l2_error": 1.1577041315220293e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455547426321817e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 7.2552385418922505e-09,
+                "max_tolerance_ratio": 0.0003083569023029144,
+                "passed": true,
+                "relative_l2_error": 5.447643335644862e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            },
+            "untimed": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 6.045001857375804e-16,
+                "max_tolerance_ratio": 3.0224340510223703e-09,
+                "passed": true,
+                "relative_l2_error": 1.3786102489284615e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 3.3296720017471034e-13,
+                "max_tolerance_ratio": 1.6360606142825708e-06,
+                "passed": true,
+                "relative_l2_error": 1.1577041315220293e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455547426321817e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 7.2552385418922505e-09,
+                "max_tolerance_ratio": 0.0003083569023029144,
+                "passed": true,
+                "relative_l2_error": 5.447643335644862e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            }
+          },
+          "index": 0,
+          "pid": 45978,
+          "raw_records": 75,
+          "worker": {
+            "bytes": 9563,
+            "mode": 384,
+            "mtime_ns": 1794635274978769976,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/0/worker.json",
+            "sha256": "f878928a4fa1700080dbf04730386329e5d58c7fb56d7f28bec17877f9b6f5d3"
+          }
+        },
+        {
+          "actual_saved_checks": {
+            "profiled": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 5.401049691437153e-16,
+                "max_tolerance_ratio": 2.700491691214415e-09,
+                "passed": true,
+                "relative_l2_error": 1.064387059336796e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.755620563800958e-13,
+                "max_tolerance_ratio": 1.3617889660993968e-06,
+                "passed": true,
+                "relative_l2_error": 1.0969150953548223e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455371744162237e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 5.468499604532884e-09,
+                "max_tolerance_ratio": 0.00022312235161089299,
+                "passed": true,
+                "relative_l2_error": 5.088068982993577e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            },
+            "untimed": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 5.401049691437153e-16,
+                "max_tolerance_ratio": 2.700491691214415e-09,
+                "passed": true,
+                "relative_l2_error": 1.064387059336796e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.755620563800958e-13,
+                "max_tolerance_ratio": 1.3617889660993968e-06,
+                "passed": true,
+                "relative_l2_error": 1.0969150953548223e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455371744162237e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 5.468499604532884e-09,
+                "max_tolerance_ratio": 0.00022312235161089299,
+                "passed": true,
+                "relative_l2_error": 5.088068982993577e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            }
+          },
+          "index": 1,
+          "pid": 46002,
+          "raw_records": 249,
+          "worker": {
+            "bytes": 10640,
+            "mode": 384,
+            "mtime_ns": 1794635276112131381,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/1/worker.json",
+            "sha256": "18058341a8cd664c0076f026a088609e12f87cf6e5bed3e261ae7082038897d1"
+          }
+        },
+        {
+          "actual_saved_checks": {
+            "profiled": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 6.045001857375804e-16,
+                "max_tolerance_ratio": 3.0224340510223703e-09,
+                "passed": true,
+                "relative_l2_error": 1.3786102489284615e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 3.3296720017471034e-13,
+                "max_tolerance_ratio": 1.6360606142825708e-06,
+                "passed": true,
+                "relative_l2_error": 1.1577041315220293e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455547426321817e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 7.2552385418922505e-09,
+                "max_tolerance_ratio": 0.0003083569023029144,
+                "passed": true,
+                "relative_l2_error": 5.447643335644862e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            },
+            "untimed": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 6.045001857375804e-16,
+                "max_tolerance_ratio": 3.0224340510223703e-09,
+                "passed": true,
+                "relative_l2_error": 1.3786102489284615e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 3.3296720017471034e-13,
+                "max_tolerance_ratio": 1.6360606142825708e-06,
+                "passed": true,
+                "relative_l2_error": 1.1577041315220293e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455547426321817e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 7.2552385418922505e-09,
+                "max_tolerance_ratio": 0.0003083569023029144,
+                "passed": true,
+                "relative_l2_error": 5.447643335644862e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            }
+          },
+          "index": 2,
+          "pid": 46014,
+          "raw_records": 75,
+          "worker": {
+            "bytes": 10036,
+            "mode": 384,
+            "mtime_ns": 1794635277277732381,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/2/worker.json",
+            "sha256": "c5cb394d9b7137407b5049f0322c63ce3433a8cded1add990b8d6cf8e5790e2b"
+          }
+        },
+        {
+          "actual_saved_checks": {
+            "profiled": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 5.401049691437153e-16,
+                "max_tolerance_ratio": 2.700491691214415e-09,
+                "passed": true,
+                "relative_l2_error": 1.064387059336796e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.755620563800958e-13,
+                "max_tolerance_ratio": 1.3617889660993968e-06,
+                "passed": true,
+                "relative_l2_error": 1.0969150953548223e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455371744162237e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 5.468499604532884e-09,
+                "max_tolerance_ratio": 0.00022312235161089299,
+                "passed": true,
+                "relative_l2_error": 5.088068982993577e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            },
+            "untimed": {
+              "dk": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 5.401049691437153e-16,
+                "max_tolerance_ratio": 2.700491691214415e-09,
+                "passed": true,
+                "relative_l2_error": 1.064387059336796e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dq": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.755620563800958e-13,
+                "max_tolerance_ratio": 1.3617889660993968e-06,
+                "passed": true,
+                "relative_l2_error": 1.0969150953548223e-07,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "dv": {
+                "atol": 2e-07,
+                "failed_elements": 0,
+                "max_absolute_error": 2.220878101105543e-11,
+                "max_tolerance_ratio": 6.228101227698814e-05,
+                "passed": true,
+                "relative_l2_error": 7.455371744162237e-08,
+                "rtol": 0.002,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              },
+              "output": {
+                "atol": 2e-05,
+                "failed_elements": 0,
+                "max_absolute_error": 5.468499604532884e-09,
+                "max_tolerance_ratio": 0.00022312235161089299,
+                "passed": true,
+                "relative_l2_error": 5.088068982993577e-08,
+                "rtol": 0.0001,
+                "shape": [
+                  1,
+                  2,
+                  32,
+                  32
+                ]
+              }
+            }
+          },
+          "index": 3,
+          "pid": 46020,
+          "raw_records": 249,
+          "worker": {
+            "bytes": 11113,
+            "mode": 384,
+            "mtime_ns": 1794635278575545008,
+            "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/3/worker.json",
+            "sha256": "3d58197921410524fb0b86f2665967582a5ee464ecb9748fbf6a1133e5f0ddc6"
+          }
+        }
+      ]
+    }
+  ],
+  "adapter_startup_and_resource_ASTs_match_frozen_sources": true,
+  "all_new_preparation_source_test_and_review_inputs_frozen_by": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/sealed-preparation-inputs.json",
+  "all_six_claims_unchanged": [
+    {
+      "bytes": 259,
+      "mode": 420,
+      "mtime_ns": 1794623296040130747,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/linux10603-final/ATTEMPT.json",
+      "sha256": "8e5614d40fd19cf2fd35861e19a86eb90251cd113ef23b144db9a0682d070662"
+    },
+    {
+      "bytes": 258,
+      "mode": 420,
+      "mtime_ns": 1794615662552820275,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/linux10603-final/ATTEMPT.json",
+      "sha256": "3829d1b634b32053f73560610f2e78d5a835e7193eaea885b55211e6c2536c32"
+    },
+    {
+      "bytes": 260,
+      "mode": 420,
+      "mtime_ns": 1794610485666490501,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v3-20261113/linux10603-final/ATTEMPT.json",
+      "sha256": "95a15a08e35721a7840e26915544b5599d3656635b2527162b3ec595236770b0"
+    },
+    {
+      "bytes": 258,
+      "mode": 420,
+      "mtime_ns": 1794181676792950736,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/ATTEMPT.json",
+      "sha256": "6c46ce1fb7ab4a3f7dbe138866b9d45f5046f0c77b26bd8e689d7b8c3dcaa07a"
+    },
+    {
+      "bytes": 259,
+      "mode": 420,
+      "mtime_ns": 1794155687460918245,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/ATTEMPT.json",
+      "sha256": "9933b5e9f50c5c3ee571b39bea8d2afd94724ea9adf7d772809a70aaaae7f1f0"
+    },
+    {
+      "bytes": 254,
+      "mode": 420,
+      "mtime_ns": 1794118109493298984,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/linux10603-final/ATTEMPT.json",
+      "sha256": "d402bddad88abe7b2241d8c518197ce4bd693b46811352615d87013a9a9d240b"
+    }
+  ],
+  "candidate_rejection_unchanged": true,
+  "canonical_reference_builds": 2,
+  "capsule_logical_bytes": 48627833,
+  "capsule_members": 118,
+  "cold_guard_saved_refusals": [
+    {
+      "error": "Exact v7 plan/source/metadata policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_cold_plan_policy_binding_2"
+    },
+    {
+      "error": "Exact v7 plan/source/metadata policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_cold_plan_policy_binding_5"
+    },
+    {
+      "error": "Exact v7 plan/source/metadata policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_cold_plan_policy_binding_4"
+    },
+    {
+      "error": "Exact v7 plan/source/metadata policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_cold_plan_policy_binding_3"
+    },
+    {
+      "error": "Exact v7 plan/source/metadata policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_cold_plan_policy_binding_6"
+    },
+    {
+      "error": "Exact v7 plan/source/metadata policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_cold_plan_policy_binding_1"
+    },
+    {
+      "error": "Exact v7 plan/source/metadata policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_cold_plan_policy_binding_0"
+    },
+    {
+      "error": "Exact v7 plan/source/metadata policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_cold_plan_policy_binding_7"
+    },
+    {
+      "error": "Exact v7 retained-trace/proof policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_preimport_worker_policy_g6"
+    },
+    {
+      "error": "Exact v7 retained-trace/proof policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_preimport_worker_policy_g1"
+    },
+    {
+      "error": "Exact v7 retained-trace/proof policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_preimport_worker_policy_g0"
+    },
+    {
+      "error": "Exact v7 retained-trace/proof policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_preimport_worker_policy_g2"
+    },
+    {
+      "error": "Exact v7 retained-trace/proof policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_preimport_worker_policy_g5"
+    },
+    {
+      "error": "Exact v7 retained-trace/proof policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_preimport_worker_policy_g4"
+    },
+    {
+      "error": "Exact v7 retained-trace/proof policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_preimport_worker_policy_g3"
+    },
+    {
+      "error": "Exact v7 plan/source/metadata policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_plan_numerical_policy_fai2"
+    },
+    {
+      "error": "Exact v7 plan/source/metadata policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_plan_numerical_policy_fai3"
+    },
+    {
+      "error": "Exact v7 plan/source/metadata policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_plan_numerical_policy_fai1"
+    },
+    {
+      "error": "Exact v7 plan/source/metadata policy binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_plan_numerical_policy_fai0"
+    },
+    {
+      "error": "Separate fixed-input reference/worker identity required.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_worker_numerical_policy_a3"
+    },
+    {
+      "error": "Exact v7 numerical worker policy required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_worker_numerical_policy_a2"
+    },
+    {
+      "error": "Exact v7 numerical worker policy required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_worker_numerical_policy_a0"
+    },
+    {
+      "error": "Exact v7 numerical worker policy required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_worker_numerical_policy_a1"
+    },
+    {
+      "error": "Exact v7 canonical reference metadata required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_reference_policy_and_meta8"
+    },
+    {
+      "error": "Exact v7 canonical reference policy/hash binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_reference_policy_and_meta6"
+    },
+    {
+      "error": "Exact v7 canonical reference policy/hash binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_reference_policy_and_meta1"
+    },
+    {
+      "error": "Exact v7 canonical reference policy/hash binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_reference_policy_and_meta0"
+    },
+    {
+      "error": "Exact v7 canonical reference metadata required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_reference_policy_and_meta7"
+    },
+    {
+      "error": "Exact v7 canonical reference metadata required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_reference_policy_and_meta9"
+    },
+    {
+      "error": "Separate fixed-input reference/worker identity required.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_reference_policy_and_meta2"
+    },
+    {
+      "error": "Exact v7 canonical reference policy/hash binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_reference_policy_and_meta5"
+    },
+    {
+      "error": "Exact v7 canonical reference policy/hash binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_reference_policy_and_meta4"
+    },
+    {
+      "error": "Exact v7 canonical reference policy/hash binding required before scientific imports.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_reference_policy_and_meta3"
+    },
+    {
+      "error": "Fixed-input artifact hash/extent mismatch.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_reference_policy_and_meta10"
+    }
+  ],
+  "cold_reference_checks_are_static_not_FP64_or_CUDA_qualification": true,
+  "complete_simulated_single_connection_response": {
+    "bytes_modes_nsmtime_reverified": true,
+    "files": 223,
+    "logical_bytes": 102608286,
+    "response": {
+      "bytes": 102838335,
+      "mode": 384,
+      "mtime_ns": 1794635209964381876,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_proof_capsule_four_serial0/response",
+      "sha256": "ecd628fd43d6fc7ff004e6aa3518c08fa2111d8ec7ad43eff13d0f28af0ef867"
+    }
+  },
+  "control": {
+    "bytes": 119407,
+    "mode": 384,
+    "mtime_ns": 1794635365931273292,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/linux10603-final/CONTROL.json",
+    "sha256": "4881d61dfa76d81fc6dcc624b1d78b29165aa8a077cc6ef5315c3d95a0c94c81"
+  },
+  "counts_not_accumulated_with_previous_suites": true,
+  "date": "2026-11-13",
+  "final_attempt_present": false,
+  "final_authorization_present": false,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "first_run_passed": true,
+  "helper": {
+    "bytes": 394,
+    "mode": 448,
+    "mtime_ns": 1794635365931717542,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/linux10603-final/run-attended.sh",
+    "sha256": "f0ec32e60e9ea22455d5198e03b69d2bcd7de6e0a2208eac7855feb9a5aec208"
+  },
+  "kind": "numerical-policy-bound-component-handoff-v6-unarmed-preparation-review",
+  "metadata_policy": "fixed-SDPA-profiler-overhead-signature-v1",
+  "model_autograd_SDPA_CUDA_profile_process_network_reference_extraction_execution_blocked_during_review": true,
+  "new_paid_compute": false,
+  "new_science_for_retained_failure_fixture": false,
+  "new_university_SSH_upload_storage_proof_or_compute": false,
+  "next_step": "After recording/sealing the concrete reviewed preparation, ask one new exact scoped university approval. Retain the provided status and live guards. Only after that approval save a private authorization and independently review the armed unused handoff before the user runs one final local Mac helper. Never agent SSH, repeat helpers or reset consumed grants/claims/clocks.",
+  "numerical_policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+  "old_failed_parent_completed_producer_and_unrun_workers_unchanged": true,
+  "orchestration_storage_and_scientific_entry_ASTs_unchanged_after_versions": true,
+  "overlay_bytes": 433275,
+  "overlay_files": 40,
+  "passed": true,
+  "pasted_status": {
+    "bytes": 705,
+    "mode": 384,
+    "mtime_ns": 1794634581102170492,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/status/pasted-status.json",
+    "sha256": "266ca378381c183dd012006afa4c451b7e8eb74ba7666fbc2d3e92e0ec8fca26"
+  },
+  "pasted_status_is_not_approval_or_reservation": true,
+  "payload_bytes": 36042589,
+  "payload_review": {
+    "bytes": 464,
+    "mode": 384,
+    "mtime_ns": 1794635365931884792,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/linux10603-final/payload-review.json",
+    "sha256": "f0219399fb64f3b7d65a2973b678b1fdc14508de56b4b49877bb937aa551f2a8"
+  },
+  "preserved_inputs": {
+    "bytes": 17561388,
+    "mode": 384,
+    "mtime_ns": 1794634581101717579,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/preserved-inputs.json",
+    "sha256": "5da9df1b74df18cc6b5955d34692d6473dc6bfe5228a5971df143499fd5b216c"
+  },
+  "prior_preserved_hashes_reverified": 77097,
+  "proposed_resource": {
+    "allocator_bytes": 7516192768,
+    "cache_bytes": 33554432,
+    "capture_bytes": 2415919104,
+    "capture_worker_seconds": 0,
+    "code_bytes": 134217728,
+    "collection_bytes": 3221225472,
+    "collection_seconds": 600,
+    "component_worker_seconds": 120,
+    "component_workers": 4,
+    "emergency_bytes": 16777216,
+    "host": "linux10603",
+    "input_bytes": 134217728,
+    "mask_indices_file_bytes": 262144,
+    "metadata_bytes": 67108864,
+    "parent": "/var/tmp",
+    "raw_bytes": 536870912,
+    "receipt_reserve_seconds": 120,
+    "setup_bytes": 3221225472,
+    "setup_seconds": 180,
+    "static_reserved_seconds": 780,
+    "tensor_file_bytes": 16777216,
+    "work_seconds": 900,
+    "write_proof_bytes": 2684354560,
+    "write_proof_seconds": 60
+  },
+  "reference_array_descriptors": {
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/reference/dk.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794635204081824313,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/reference/dk.npy",
+      "sha256": "04a3a07b2a12d98e8e168aa185e160a1f2fb815285a196ef99def42c5073fa46"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/reference/dq.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794635204081482050,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/reference/dq.npy",
+      "sha256": "fbb9e36f4c056723430b48e0f32c9421d158def2da7d8bb1bad8f80d75b892a6"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/reference/dv.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794635204082340332,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/reference/dv.npy",
+      "sha256": "e00638533d113eeffeab8b07f9a790f01199e346cf0b084d83f48aae1064087a"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/reference/output.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794635204081164538,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/components0/cohort/reference/output.npy",
+      "sha256": "f45a8cf74c80a6e49023bb55543bfeb1066ba140c3324e78c0a337471bd95672"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/reference/dk.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794635274945243934,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/reference/dk.npy",
+      "sha256": "04a3a07b2a12d98e8e168aa185e160a1f2fb815285a196ef99def42c5073fa46"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/reference/dq.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794635274944849058,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/reference/dq.npy",
+      "sha256": "fbb9e36f4c056723430b48e0f32c9421d158def2da7d8bb1bad8f80d75b892a6"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/reference/dv.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794635274945697851,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/reference/dv.npy",
+      "sha256": "e00638533d113eeffeab8b07f9a790f01199e346cf0b084d83f48aae1064087a"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/reference/output.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794635274944465141,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_actual_payload_import_pat0/packaged-CPU/reference/output.npy",
+      "sha256": "f45a8cf74c80a6e49023bb55543bfeb1066ba140c3324e78c0a337471bd95672"
+    }
+  },
+  "reference_kind": "native-SDPA-fixed-FP64-reference-v2",
+  "retained_failure_reference_arrays_copied": 4,
+  "retained_failure_remains_incomplete_and_rejected": true,
+  "retained_failure_return_arrays_copied": 8,
+  "retained_old_local_failure_collection": {
+    "bytes_modes_nsmtime_reverified": true,
+    "files": 18,
+    "logical_bytes": 173286,
+    "response": {
+      "bytes": 197858,
+      "mode": 384,
+      "mtime_ns": 1794635281766918629,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first/test_retained_invalid_CPU_trac0/response",
+      "sha256": "f1b5792ff90f07dbcb11b39e13ab274b91c139b150863be8a0f2f1db6e66fce6"
+    }
+  },
+  "review_source": {
+    "bytes": 19460,
+    "mode": 420,
+    "mtime_ns": 1794635799655270402,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/review/review_saved.py",
+    "sha256": "566631e8639752a05473aa443b624b6d47fb9c3b66366ddb7f214c716991b932"
+  },
+  "simulated_orchestration_proof_and_GPU_wiring_not_measured_target_work": true,
+  "source": {
+    "configs/predictor_sdpa_continuation_v6.json": {
+      "bytes": 9486,
+      "mode": 420,
+      "mtime_ns": 1794634581115610739,
+      "path": "configs/predictor_sdpa_continuation_v6.json",
+      "sha256": "d63e59d1570648e53d97e7db977a575a0e4da4044504ebc9a6d0a689a0d497e9"
+    },
+    "docs/predictor_sdpa_continuation_v6.md": {
+      "bytes": 6418,
+      "mode": 420,
+      "mtime_ns": 1794635052050968732,
+      "path": "docs/predictor_sdpa_continuation_v6.md",
+      "sha256": "ac3185531fa313460e561f15a7a3189f45f06132ddb55486c9873bc3ec9ab661"
+    },
+    "models/attention_saved_evidence.py": {
+      "bytes": 5161,
+      "mode": 420,
+      "mtime_ns": 1793385829291671429,
+      "path": "models/attention_saved_evidence.py",
+      "sha256": "d561f3acf2e247a4191430204c1d2445f7d747fa7fde117117580f79263235c0"
+    },
+    "models/cpu_oracle_control_prerequisite.py": {
+      "bytes": 5813,
+      "mode": 420,
+      "mtime_ns": 1793836369395265167,
+      "path": "models/cpu_oracle_control_prerequisite.py",
+      "sha256": "c6d4927e89d23abbd4ad019ab4d9c0209f0995d75050f1246092aa4a23b8ef63"
+    },
+    "models/cpu_oracle_control_v1.py": {
+      "bytes": 26840,
+      "mode": 420,
+      "mtime_ns": 1793836454220312574,
+      "path": "models/cpu_oracle_control_v1.py",
+      "sha256": "06e5731e48ee079acdecf5ad992eef3930c8ba2e66f44f0d9c748c31fdb5baf7"
+    },
+    "models/cpu_oracle_scratch.py": {
+      "bytes": 29965,
+      "mode": 420,
+      "mtime_ns": 1793823730779597119,
+      "path": "models/cpu_oracle_scratch.py",
+      "sha256": "12992c272b21902297746d7781685dc951d0a310ace1dc73cbb99b8d52f6bbe6"
+    },
+    "models/execution.py": {
+      "bytes": 12043,
+      "mode": 420,
+      "mtime_ns": 1792692186176663831,
+      "path": "models/execution.py",
+      "sha256": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba"
+    },
+    "models/oracle_boundary_operator_v1.py": {
+      "bytes": 24006,
+      "mode": 420,
+      "mtime_ns": 1793852820562072327,
+      "path": "models/oracle_boundary_operator_v1.py",
+      "sha256": "dde0d903986a5e83d02d9e7cb5fe4b6869d02f3731c8d4f30dd749a20f742b73"
+    },
+    "models/predictor_eot8_adapter_v1.py": {
+      "bytes": 7839,
+      "mode": 420,
+      "mtime_ns": 1793910190405290472,
+      "path": "models/predictor_eot8_adapter_v1.py",
+      "sha256": "89b7e0c67e88f2f776bb0bb6ad786a2202115e64ffc6c6f9a962381cc2e9a6b8"
+    },
+    "models/predictor_eot8_capture_v1.py": {
+      "bytes": 2194,
+      "mode": 420,
+      "mtime_ns": 1793905108610408536,
+      "path": "models/predictor_eot8_capture_v1.py",
+      "sha256": "fcf582f0152f9ad1d93d1bf038895ba6c6c84d75a4fdfc02d5d4b2ea96e0d3e4"
+    },
+    "models/predictor_sdpa_capture_record_v1.py": {
+      "bytes": 17240,
+      "mode": 420,
+      "mtime_ns": 1794025652773776951,
+      "path": "models/predictor_sdpa_capture_record_v1.py",
+      "sha256": "cdd02a830a65a2ab2185c9b5bc59e1026570f50542d78fe480750ab198198f06"
+    },
+    "models/predictor_sdpa_component_events_v1.py": {
+      "bytes": 8268,
+      "mode": 420,
+      "mtime_ns": 1794071398755233906,
+      "path": "models/predictor_sdpa_component_events_v1.py",
+      "sha256": "c1397e06ca89d1299a7d853e6c88124d1cc7874aae3f5763f018fbc67bd195fc"
+    },
+    "models/predictor_sdpa_component_events_v2.py": {
+      "bytes": 15023,
+      "mode": 420,
+      "mtime_ns": 1794161484466041678,
+      "path": "models/predictor_sdpa_component_events_v2.py",
+      "sha256": "ebde9c0f32078979cfa5920503004bb79ca697fdc05d7adacbfc59bde41f515a"
+    },
+    "models/predictor_sdpa_component_records_v2.py": {
+      "bytes": 8163,
+      "mode": 420,
+      "mtime_ns": 1794632959001265870,
+      "path": "models/predictor_sdpa_component_records_v2.py",
+      "sha256": "fe5967c5905dba549168f0a7a723553cd21e343d32e44035c60aa19e532d27c3"
+    },
+    "models/predictor_sdpa_component_startup_v2.py": {
+      "bytes": 3801,
+      "mode": 420,
+      "mtime_ns": 1794123312478641842,
+      "path": "models/predictor_sdpa_component_startup_v2.py",
+      "sha256": "8359f9a1f8da77eeb13d02a55d56982e2998db67f48199a577f62ef95329dae3"
+    },
+    "models/predictor_sdpa_component_target_v7.py": {
+      "bytes": 5223,
+      "mode": 420,
+      "mtime_ns": 1794632959001497160,
+      "path": "models/predictor_sdpa_component_target_v7.py",
+      "sha256": "3b890941fbd9d83f4e49293acdbfca67e379cebd212a29447440d7ab24dada43"
+    },
+    "models/predictor_sdpa_component_v7.py": {
+      "bytes": 28764,
+      "mode": 420,
+      "mtime_ns": 1794632959001389619,
+      "path": "models/predictor_sdpa_component_v7.py",
+      "sha256": "70cc9e74c70980f598496783ea4c303f3d10b61537a329f9cc8ae94ff5dff955"
+    },
+    "models/predictor_sdpa_continuation_client_v6.py": {
+      "bytes": 10346,
+      "mode": 420,
+      "mtime_ns": 1794634705341912248,
+      "path": "models/predictor_sdpa_continuation_client_v6.py",
+      "sha256": "99deb08c064d89cf92b21c644118f4f681a8117bd52ec3102d70ed0204f97598"
+    },
+    "models/predictor_sdpa_continuation_contract_v1.py": {
+      "bytes": 2449,
+      "mode": 420,
+      "mtime_ns": 1794153002941677941,
+      "path": "models/predictor_sdpa_continuation_contract_v1.py",
+      "sha256": "4b89d82d631a6894d74f67f56906cd13bd342225fa265367beedf1182ea5bc73"
+    },
+    "models/predictor_sdpa_continuation_contract_v2.py": {
+      "bytes": 1984,
+      "mode": 384,
+      "mtime_ns": 1794163225954297117,
+      "path": "models/predictor_sdpa_continuation_contract_v2.py",
+      "sha256": "9ea6713e8b29281396d5fe9e98caa92e60f137f4310f6aa4302b5f6ac69e669c"
+    },
+    "models/predictor_sdpa_continuation_contract_v3.py": {
+      "bytes": 2064,
+      "mode": 384,
+      "mtime_ns": 1794605606921924257,
+      "path": "models/predictor_sdpa_continuation_contract_v3.py",
+      "sha256": "e350577e1d28ad60776b917839c43b15452f207e443903ab5312316ab1417bb9"
+    },
+    "models/predictor_sdpa_continuation_contract_v4.py": {
+      "bytes": 2107,
+      "mode": 384,
+      "mtime_ns": 1794612643328024348,
+      "path": "models/predictor_sdpa_continuation_contract_v4.py",
+      "sha256": "5eef63f86be59d6fa47777c050d7e0479e0ac6288e81ae92e99e86af3e0da3b2"
+    },
+    "models/predictor_sdpa_continuation_contract_v5.py": {
+      "bytes": 2215,
+      "mode": 384,
+      "mtime_ns": 1794621190549305701,
+      "path": "models/predictor_sdpa_continuation_contract_v5.py",
+      "sha256": "510a8f15e2e94d36454cc4cbf9e5b8f72c2b02567e369840a51e624171acf0c3"
+    },
+    "models/predictor_sdpa_continuation_contract_v6.py": {
+      "bytes": 2428,
+      "mode": 420,
+      "mtime_ns": 1794634705341695125,
+      "path": "models/predictor_sdpa_continuation_contract_v6.py",
+      "sha256": "363ff086f9a8a4e9ffc1399b5cf6427bc761d7561e19b816def04ebb46f0b73a"
+    },
+    "models/predictor_sdpa_continuation_operator_v6.py": {
+      "bytes": 25186,
+      "mode": 420,
+      "mtime_ns": 1794634705341817083,
+      "path": "models/predictor_sdpa_continuation_operator_v6.py",
+      "sha256": "040064a1d2128b7229b6654f8a4b079e24b076fdff1c9dbcaceaa9e79aa80bce"
+    },
+    "models/predictor_sdpa_continuation_receipts_v4.py": {
+      "bytes": 4713,
+      "mode": 420,
+      "mtime_ns": 1794634705342109830,
+      "path": "models/predictor_sdpa_continuation_receipts_v4.py",
+      "sha256": "23caf056ba438f26de52a6bfd61eec791f5cddee0b1ac80344ab55f7e45c814b"
+    },
+    "models/predictor_sdpa_continuation_storage_v6.py": {
+      "bytes": 4680,
+      "mode": 420,
+      "mtime_ns": 1794634705342009497,
+      "path": "models/predictor_sdpa_continuation_storage_v6.py",
+      "sha256": "f1e7cfeb361b84c229d5057f4f603d9c1da90b430c2e617d51ce4d3bb7362b5c"
+    },
+    "models/predictor_sdpa_handoff_contract_v1.py": {
+      "bytes": 2608,
+      "mode": 420,
+      "mtime_ns": 1794073508749740819,
+      "path": "models/predictor_sdpa_handoff_contract_v1.py",
+      "sha256": "b4721508c6481b0569c36d5d59aeabf49bab54021da23d2f0d8b15d56855af90"
+    },
+    "models/predictor_sdpa_handoff_contract_v2.py": {
+      "bytes": 1298,
+      "mode": 420,
+      "mtime_ns": 1794098714634934552,
+      "path": "models/predictor_sdpa_handoff_contract_v2.py",
+      "sha256": "59115b3edbe8d777772380f4494dc2a9f8ee75a1f8a5d6fc54a48c6decba1d85"
+    },
+    "models/predictor_sdpa_handoff_operator_v1.py": {
+      "bytes": 25001,
+      "mode": 420,
+      "mtime_ns": 1794073508750094985,
+      "path": "models/predictor_sdpa_handoff_operator_v1.py",
+      "sha256": "c3e4c1f01ffe7f087ce685d9f9a0bd3404bd9a9476dcd3eb29eb1bd589e48868"
+    },
+    "models/predictor_sdpa_handoff_operator_v2.py": {
+      "bytes": 22187,
+      "mode": 420,
+      "mtime_ns": 1794098759299307194,
+      "path": "models/predictor_sdpa_handoff_operator_v2.py",
+      "sha256": "d0459b0e7582e63ecfc8ce22490c1f164752fac78aee56a9a569dbba248f6b8c"
+    },
+    "models/predictor_sdpa_launch_evidence_v1.py": {
+      "bytes": 17552,
+      "mode": 384,
+      "mtime_ns": 1794184315123106279,
+      "path": "models/predictor_sdpa_launch_evidence_v1.py",
+      "sha256": "c9749407f3d237050252ec7e9d4831c901df813a35b3b4a38ad8d693e0e1899f"
+    },
+    "models/predictor_sdpa_launch_evidence_v2.py": {
+      "bytes": 19485,
+      "mode": 420,
+      "mtime_ns": 1794617313275094057,
+      "path": "models/predictor_sdpa_launch_evidence_v2.py",
+      "sha256": "05f99a96ca34d65c4167cdbd37f97600b14468aa08fbfe5aa9b581b72e5fdddb"
+    },
+    "models/predictor_sdpa_numerical_receipts_v1.py": {
+      "bytes": 4226,
+      "mode": 420,
+      "mtime_ns": 1794631040941925415,
+      "path": "models/predictor_sdpa_numerical_receipts_v1.py",
+      "sha256": "bb6b159a71f6d5cc335247b6fa6c6298fe328b1d518190ba529b53cfd1fa92d6"
+    },
+    "models/predictor_sdpa_raw_capture_v1.py": {
+      "bytes": 3984,
+      "mode": 384,
+      "mtime_ns": 1794611755022548713,
+      "path": "models/predictor_sdpa_raw_capture_v1.py",
+      "sha256": "6da98072ac5f38e1939f0d470970b7f68b6d63b7d475c23ac5d4d3e60c6ac9e4"
+    },
+    "models/predictor_sdpa_storage_v2.py": {
+      "bytes": 5496,
+      "mode": 420,
+      "mtime_ns": 1794097878161645087,
+      "path": "models/predictor_sdpa_storage_v2.py",
+      "sha256": "4d8ba736fa2db43562fff1241dc7625c18edb1c7691887ac58490aee451b62a2"
+    },
+    "models/scratch_allocation_v2.py": {
+      "bytes": 10813,
+      "mode": 420,
+      "mtime_ns": 1793827477367853387,
+      "path": "models/scratch_allocation_v2.py",
+      "sha256": "6b0503b8ab2c88a44a4d95c8fafbad52d1c0414293379406520a22f67700e874"
+    },
+    "models/training.py": {
+      "bytes": 16803,
+      "mode": 420,
+      "mtime_ns": 1792636957412352771,
+      "path": "models/training.py",
+      "sha256": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679"
+    },
+    "scripts/capture_predictor_sdpa_continuation_v6.py": {
+      "bytes": 624,
+      "mode": 420,
+      "mtime_ns": 1794634705342277245,
+      "path": "scripts/capture_predictor_sdpa_continuation_v6.py",
+      "sha256": "25479b928d8ea39b97b2913b4f1ec5f5efafaa9f3719cd0737cb8847671474ec"
+    },
+    "scripts/check_predictor_sdpa_components_v7.py": {
+      "bytes": 3589,
+      "mode": 420,
+      "mtime_ns": 1794632959001574992,
+      "path": "scripts/check_predictor_sdpa_components_v7.py",
+      "sha256": "c05f183a47281552d516d4adb99639241cd120ad0087ad6df76b1d38c6533c57"
+    },
+    "scripts/prepare_predictor_sdpa_continuation_v6.py": {
+      "bytes": 4704,
+      "mode": 420,
+      "mtime_ns": 1794634705342213245,
+      "path": "scripts/prepare_predictor_sdpa_continuation_v6.py",
+      "sha256": "b01339dd9de01a6f99f42efb192dab4c5aae8358e1d3ce465b8f6767682ab691"
+    },
+    "scripts/run_predictor_sdpa_continuation_v6.py": {
+      "bytes": 451,
+      "mode": 420,
+      "mtime_ns": 1794634705342336994,
+      "path": "scripts/run_predictor_sdpa_continuation_v6.py",
+      "sha256": "6d38aff7aefa93bc880afeee26351c8b1f81d9a3de60b708ff2b137222400327"
+    },
+    "tests/test_predictor_sdpa_component_integration_v7.py": {
+      "bytes": 41855,
+      "mode": 420,
+      "mtime_ns": 1794633280596959842,
+      "path": "tests/test_predictor_sdpa_component_integration_v7.py",
+      "sha256": "85d6d4ffe0d3bdaa5bb8ff083a623e4a10e20834e617f102531e7c199d239631"
+    },
+    "tests/test_predictor_sdpa_continuation_v6.py": {
+      "bytes": 50646,
+      "mode": 420,
+      "mtime_ns": 1794634897183610933,
+      "path": "tests/test_predictor_sdpa_continuation_v6.py",
+      "sha256": "2a571fab438686d07ed734932d9d88306d9609b347ef0cf79bb64a3db1f9f592"
+    }
+  },
+  "stdin_bootstrap_bytes": 1201073,
+  "synthetic_shallow_receipt_is_not_passing_native_domain": true,
+  "target_CUDA_capacity_speed_or_full_training_admitted": false,
+  "test_errors": 0,
+  "test_failures": 0,
+  "test_log": {
+    "bytes": 192,
+    "mode": 384,
+    "mtime_ns": 1794635295498520465,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first.log",
+    "sha256": "64f6b6f0f1e44c53bfeb0260bc6424faf911b6ea21fb88401052d24cd4653508"
+  },
+  "test_skips": 0,
+  "test_xml": {
+    "bytes": 20423,
+    "mode": 384,
+    "mtime_ns": 1794635295460696386,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/pytest-first.xml",
+    "sha256": "44efaeb068205aefa1e79cc6ad7b2bbb0b623bf54e819371197e79069880db9e"
+  },
+  "tests_or_prior_suites_repeated_during_review": false,
+  "tests_passed": 127,
+  "unique_actual_return_arrays_verified": 64,
+  "unique_reference_arrays_verified": 8,
+  "worker_kind": "native-SDPA-fixed-input-component-v2"
+}

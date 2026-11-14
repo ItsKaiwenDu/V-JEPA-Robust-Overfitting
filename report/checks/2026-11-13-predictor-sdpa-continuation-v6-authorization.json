@@ -1,0 +1,145 @@
+{
+  "all_six_consumed_claims_unchanged": [
+    {
+      "bytes": 259,
+      "mode": 420,
+      "mtime_ns": 1794623296040130747,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/linux10603-final/ATTEMPT.json",
+      "sha256": "8e5614d40fd19cf2fd35861e19a86eb90251cd113ef23b144db9a0682d070662"
+    },
+    {
+      "bytes": 258,
+      "mode": 420,
+      "mtime_ns": 1794615662552820275,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/linux10603-final/ATTEMPT.json",
+      "sha256": "3829d1b634b32053f73560610f2e78d5a835e7193eaea885b55211e6c2536c32"
+    },
+    {
+      "bytes": 260,
+      "mode": 420,
+      "mtime_ns": 1794610485666490501,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v3-20261113/linux10603-final/ATTEMPT.json",
+      "sha256": "95a15a08e35721a7840e26915544b5599d3656635b2527162b3ec595236770b0"
+    },
+    {
+      "bytes": 258,
+      "mode": 420,
+      "mtime_ns": 1794181676792950736,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/ATTEMPT.json",
+      "sha256": "6c46ce1fb7ab4a3f7dbe138866b9d45f5046f0c77b26bd8e689d7b8c3dcaa07a"
+    },
+    {
+      "bytes": 259,
+      "mode": 420,
+      "mtime_ns": 1794155687460918245,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/ATTEMPT.json",
+      "sha256": "9933b5e9f50c5c3ee571b39bea8d2afd94724ea9adf7d772809a70aaaae7f1f0"
+    },
+    {
+      "bytes": 254,
+      "mode": 420,
+      "mtime_ns": 1794118109493298984,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/linux10603-final/ATTEMPT.json",
+      "sha256": "d402bddad88abe7b2241d8c518197ce4bd693b46811352615d87013a9a9d240b"
+    }
+  ],
+  "approval": {
+    "bytes": 2028,
+    "mode": 384,
+    "mtime_ns": 1794636888592467466,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/authorization/user-approval.json",
+    "sha256": "1ce36e39cd3ade78be6d4676d43052cf884813357cac82afd8960688ff88ae24"
+  },
+  "approval_persists_no_reconfirmation_needed": true,
+  "approval_record_source": {
+    "bytes": 4868,
+    "mode": 384,
+    "mtime_ns": 1794636857294891160,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/authorization/record_approval.py",
+    "sha256": "0d21643cdaeca1cff94dd066f39fea06b24b576a3f191a843d6874e3d4da9e43"
+  },
+  "armed_inputs_seal": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/authorization/armed-inputs.json",
+  "attempt_present": false,
+  "authorization": {
+    "bytes": 2117,
+    "mode": 384,
+    "mtime_ns": 1794636888592963716,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/linux10603-final/AUTHORIZATION.json",
+    "sha256": "2786356c842a52e206b5005a1bf8bc16ca99de16548d7c4fe5ab47f5ddfc7c6d"
+  },
+  "authorization_mode": "0600",
+  "control": {
+    "bytes": 119407,
+    "mode": 384,
+    "mtime_ns": 1794635365931273292,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/linux10603-final/CONTROL.json",
+    "sha256": "4881d61dfa76d81fc6dcc624b1d78b29165aa8a077cc6ef5315c3d95a0c94c81"
+  },
+  "date": "2026-11-13",
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "first_run_tests_passed": 127,
+  "full_model_candidate_adopted": false,
+  "helper": {
+    "bytes": 394,
+    "mode": 448,
+    "mtime_ns": 1794635365931717542,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/linux10603-final/run-attended.sh",
+    "sha256": "f0ec32e60e9ea22455d5198e03b69d2bcd7de6e0a2208eac7855feb9a5aec208"
+  },
+  "host_matches_pasted_idle_status": true,
+  "kind": "numerical-policy-bound-component-continuation-v6-armed-unused-review",
+  "live_guards_still_required": true,
+  "metadata_policy": "fixed-SDPA-profiler-overhead-signature-v1",
+  "new_SSH_upload_proof_or_university_work": false,
+  "new_full_model_backwards_or_native_captures": 0,
+  "next_step": "User runs exact final LOCAL Mac helper once; enter password promptly and keep Mac awake/lid/Terminal open through at most 25 minutes including collection. No repeat, separate retrieval or agent SSH.",
+  "numerical_receipt_policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+  "overlay_bytes": 433275,
+  "overlay_files": 40,
+  "passed": true,
+  "pasted_status": {
+    "bytes": 705,
+    "mode": 384,
+    "mtime_ns": 1794634581102170492,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/status/pasted-status.json",
+    "sha256": "266ca378381c183dd012006afa4c451b7e8eb74ba7666fbc2d3e92e0ec8fca26"
+  },
+  "payload_bytes": 36042589,
+  "preparation": {
+    "bytes": 99413,
+    "mode": 384,
+    "mtime_ns": 1794636046959415699,
+    "path": "report/checks/2026-11-13-predictor-sdpa-continuation-v6-preparation.json",
+    "sha256": "8294e1db9cece3229376fb96a92db7a8bc7ad28db2c54af7e1db6d9ccfe7f135"
+  },
+  "preparation_seal": {
+    "bytes": 2282036,
+    "mode": 420,
+    "mtime_ns": 1794636245408533404,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/sealed-preparation-inputs.json",
+    "sha256": "0be467e30f58b88f4e29b6c89373620dfdba1c98a05f42e0f3797acda3680806"
+  },
+  "prepared_sealed_files_reverified": 9736,
+  "prior_preserved_hashes_reverified": 77097,
+  "reference_record_kind": "native-SDPA-fixed-FP64-reference-v2",
+  "research_or_training_admitted": false,
+  "resource_receipt_kind": "native-fixed-SDPA-component-resource-v7",
+  "review_source": {
+    "bytes": 9542,
+    "mode": 384,
+    "mtime_ns": 1794636857295951036,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/authorization/review_armed.py",
+    "sha256": "746a3a618863bced3fea38b5e23e37d440d7b0008e27cc7a8d2910c804cdc685"
+  },
+  "scientific_import_process_network_and_remote_execution_blocked": true,
+  "scope_approved_and_unchanged": true,
+  "session_present": false,
+  "status_is_not_a_reservation": true,
+  "stdin_bootstrap_bytes": 1201073,
+  "target_descriptors_unchanged": 195,
+  "test_errors": 0,
+  "test_failures": 0,
+  "test_skips": 0,
+  "tests_or_scientific_cohorts_rerun": false,
+  "worker_record_kind": "native-SDPA-fixed-input-component-v2"
+}

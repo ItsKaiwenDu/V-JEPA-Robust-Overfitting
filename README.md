@@ -1,5 +1,29 @@
 # V-JEPA Robust Overfitting
 
+**Fixed-input attention check completes on the university GPU (November 14):**
+[All four CUDA workers and their saved evidence pass independent review](report/checks/2026-11-14-predictor-sdpa-continuation-v6-target-review.md).
+All 32 return arrays meet the original bounds against one FP64 reference. Original
+values match native values exactly, and both attention modes replay bitwise in
+fresh processes. Next interpret this component result and prepare the remaining
+full-model follow-up. The full-model candidate's gradient rejection and training
+gates remain. Earlier entries are historical snapshots.
+
+**Numerical-policy university attempt approved and armed (November 13):**
+[The exact authorization and unused handoff verify locally](report/checks/2026-11-13-predictor-sdpa-continuation-v6-authorization.md).
+All 127 preparation checks remain covered. Next run the final Mac helper once and
+keep the Mac awake through up to 25 minutes including collection. The frozen v7
+worker/v2 records and strict scientific gates remain. No university attempt has
+started; actual CUDA validation and full training remain pending. Earlier entries
+are historical snapshots.
+
+**Numerical-policy university handoff prepared, awaiting approval (November 13):**
+[127 handoff tests and independent saved-data review pass](report/checks/2026-11-13-predictor-sdpa-continuation-v6-preparation.md).
+The unarmed packet binds the frozen v7 worker/v2 records, canonical reference and
+numerical policy. Exact packaged CPU execution, cold guards and bounded collection
+verify locally. One new scoped approval is needed before university work. Actual
+CUDA validation and full training remain pending. Earlier entries are historical
+snapshots.
+
 **Component worker v7 passes local execution checks (November 13):**
 [94 integration tests and independent saved-data review pass](report/checks/2026-11-13-predictor-sdpa-component-v7-local-review.md).
 The worker binds the tested numerical policy into versioned plans, records and

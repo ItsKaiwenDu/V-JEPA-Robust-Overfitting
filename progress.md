@@ -1,5 +1,87 @@
 # Research Progress Reports
 
+## 2026-11-14 — Fixed-input CUDA attention components complete and verified
+
+The exact v6 grant is consumed by claim f1193936. All four serial workers finish
+with exit zero; the complete same-SSH response contains 239 files and 228,553,883
+logical bytes. Independent saved-only review verifies all archive/member hashes,
+private modes and nanosecond timestamps. All 32 FP32 returns meet the original
+bounds against one canonical FP64 reference, with zero failed elements; math also
+passes the passing-original comparison. Both original workers match native
+original values exactly. Untimed/profiled values and both fresh-process replays
+are bitwise equal. All serial/source/layout/alias/runtime/startup/backend/resource
+bindings pass. Twenty-eight diagnostic L2 rounding differences stay within the
+existing bookkeeping rule, preserving exact acceptance fields and tensor bounds.
+
+The retained raw traces have 530 records and 56 positive CUDA metadata witnesses;
+original associates with efficient, the explicit math control with math. Peak
+component allocator is 0.853516 GiB under the unchanged 7 GiB cap. The full 2.5 GiB
+storage proof passes and the session records 106.342 seconds within 900. Wall times
+and metadata do not qualify study throughput or isolate pure backward arithmetic.
+
+Review blocks new scientific/process/network work and reverifies 9,736 sealed
+preparation files, 18 armed inputs, 77,097 prior hashes, 245 current and 195 older
+target descriptors, all sources/capsule and six earlier consumed claims. Earlier
+failed parents/completed producers/unrun workers remain unchanged. No tests rerun;
+the 127 first-run preparation checks stay covered. Current evidence is sealed.
+Full-model candidate rejection at 3,724 input entries, training gates and financial
+caps/holds/reconciliation remain. A local report-helper quoting correction affects
+no scientific result or attempt. Next interpret the component finding and prepare
+an offline full-model follow-up. No additional target scope is authorized.
+[Review](report/checks/2026-11-14-predictor-sdpa-continuation-v6-target-review.md).
+
+## 2026-11-13 — Numerical-policy university attempt approved, armed and unused
+
+The exact one-attempt approval is retained privately and bound to final control
+4881d61d and authorization 2786356c. Independent cold review blocks scientific
+imports, process/network/remote execution and reverifies all 9,736 sealed
+preparation files, 77,097 prior hashes, 195 target descriptors, six consumed claims,
+public host identity, exact payload, authorization and final Mac helper. The
+first-run 127 passing checks remain covered; no tests or scientific work repeat.
+New armed inputs are sealed separately.
+
+One attended linux10603 attempt permits 15 minutes including the full 2.5 GiB
+storage proof, one FP64 reference and four serial components of at most 120 seconds
+each, followed by up to ten minutes / 3 GiB collection through the same SSH
+connection. Resource/scientific bounds and the unchanged financial state remain.
+The supplied idle status is retained; live guards remain mandatory. No attempt,
+SSH, upload, storage proof or university computation has started. Next the user
+runs the final local Mac helper once, keeps Terminal/lid open through collection
+and reports the outcome for independent review. No retries or separate retrieval
+are included. The agent must not SSH or execute the helper.
+[Review](report/checks/2026-11-13-predictor-sdpa-continuation-v6-authorization.md).
+
+## 2026-11-13 — Numerical-policy university handoff prepared, unarmed
+
+127 focused tests pass on the first run, with no failures/errors/skips. The separate
+v6 handoff uses the unchanged 36,042,589-byte capsule and forty overlays totaling
+433,275 bytes; bootstrap is 1,201,073 bytes. Scope/auth-template/plan/reference/
+worker/resource bindings preserve numerical policy and v7/v2 identities. New cold
+canonical-reference checks precede scientific imports. The v4 receipt adapter
+matches frozen startup/v7 reader bodies; all 34 saved cold refusals reverify.
+Shallow synthetic metadata still fails the deep native CUDA-domain checker.
+
+Two fresh local CPU cohorts verify normal and exact packaged execution: eight
+processes, two canonical references, 64 return arrays and eight reference arrays.
+Numerical/profile/math/serial/fresh replay and source bindings pass; stored plans
+are unchanged, with path translations only in memory. The complete simulated
+collection preserves all 223 files and 102,608,286 logical bytes, hashes, modes and
+nanosecond timestamps. A copied old local failure retains its eight returns/four
+references without new science and remains rejected/incomplete.
+
+Independent saved-only review blocks science/process/network/reference/extraction,
+reverifies 77,097 prior hashes and 195 target descriptors, and preserves six consumed
+claims and their clocks. Previous suites are not repeated or accumulated. The
+actual old completed producer, failed parent and unrun components stay unchanged.
+No final AUTHORIZATION/ATTEMPT, SSH/upload/proof, cleanup, install, held-out pixels
+or paid compute occurs. Full training and financial gates remain unchanged.
+
+The provided idle linux10603 status is saved privately and is not approval or a
+reservation. Next obtain one scoped approval for the unchanged 15-minute work /
+ten-minute same-SSH collection plan, then save authorization and review the armed
+unused packet before one local Mac command. No old grant/claim/clock/helper resets.
+[Preparation review](report/checks/2026-11-13-predictor-sdpa-continuation-v6-preparation.md).
+
 ## 2026-11-13 — Numerical receipt policy integrated into worker v7
 
 94 focused integration checks pass on the first run, with no failures/errors/skips.
