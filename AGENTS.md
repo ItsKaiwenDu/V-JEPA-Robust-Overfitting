@@ -2,6 +2,180 @@
 
 ## Current stage
 
+LATEST November 13: V5 CONSUMED; TENSORS/METADATA PASS, PARENT SUMMARY EQUALITY REFUSES.
+Read report/checks/2026-11-13-predictor-sdpa-continuation-v5-target-review.json/md first.
+Final session attended-vlbwjaqq, claim
+8e5614d40fd19cf2fd35861e19a86eb90251cd113ef23b144db9a0682d070662 consumed.
+Complete same-SSH response152977694B/189regularfiles152793107logicalB; hashes,
+private modes/nsmtime verify. Transport1/no senderrors/stderr. Full2.5GiBproof passes;
+session56.98s. Original0producer exit0/complete marker/finalresource/startup/flags/
+inputs/profile replay verify. Parent reader refuses before task append; tasks[],
+comparison incomplete, overall1. Other1/2/3 UNRUN; no freshprocess replay/adoption.
+Eight actualFP32 arrays/fourcanonicalFP64 arrays pass original elementwise bounds,
+zero failed elements. Untimed/profiled logical bytes match native exactly. Local
+saved-only frozen reader reproduces "Actual saved component/reference numerical
+bound rejected.": ONLY relative_l2_error summary fields differ (~8.47e-22); all
+acceptance fields/shape/maxerror/ratio/bounds match exactly. Reader demands whole
+summary dict exactequality. Remote parent's recalculateddict not serialized, so
+its exactscalar delta and thread/library mechanism NOT proven. No changed metric/
+tolerance or retroactive pass. Producer complete != parent admitted.
+All106rawrows retained; NEW metadata proof recomputes exactly, overhead10/range20/
+12distinct positiveCUDA witnesses/efficient family. Metadata-only, no speed/full
+cohort/replay qualification. Valid V6resource peak50534400B under7GiB; no ownGPU
+interference in samples, notcontinuous exclusivity proof. Frozen originalgates stay.
+Independent review blocks model/autograd/SDPA/CUDA/profile/process/network/reference;
+7327sealedprep+16armed+67341prior hashes/38overlays/118capsule/fiveolderclaims reverify.
+195currenttarget descriptors+source/evidence frozen by target-review/sealed-target-review.json.
+No tests/scientificruns/agentSSH/retrieval/cleanup/install/sourcefix/heldout/paidwork.
+All old/current claims/bytes/modes/nsmtime/clocks stay; candidate3724/fulltraining/
+financialcaps-holds-reconciliation unchanged. NEVER repeat/reset helper/grant/claim/
+clock, or infer new university scope. NEXT OFFLINE design/test a separatelyversioned
+receipt comparison: strict originalelementwise bounds/provenance/runtime/input/
+backend/freshreplay, explicit validated diagnostic bookkeeping without bitwise
+whole-dict equality. Preserve failed run and completedproducer as distinct facts.
+No newtargetscope authorized. Usercommits self;never stage/commit/push.
+Earlier LATEST entries historical.
+
+LATEST November 13: POLICY-BOUND CONTINUATION V5 APPROVED, ARMED AND UNUSED.
+Read report/checks/2026-11-13-predictor-sdpa-continuation-v5-authorization.json/md first.
+Exact scope approved in call_16ab9704cd2548b5800c4fb0d1ce5db8 item0. Existing private
+status call_d3779e2389bb49df8d951b66029ff63e item0 matches expected03 GPU/UUID,
+8192/94MiB, driver580.178.04, emptycompute. Approval PERSISTS unchanged; never ask
+again. Finalonly raw predictor-sdpa-continuation-v5-20261113/linux10603-final;
+CONTROL9f2418d598c1aa20ba91b195be40b68b3a046e24a42fae0230240f0dd39f4550;
+AUTH02f06b346666c77473b7d68f7d6bb07dd70755fd164712fdff56a24f49b871a0.
+Private exactapproval/status+separate0600AUTH. NO ATTEMPT/session/SSH/upload/proof/
+targetclock started. Never agentSSH or runhelper. Coldarmedreview blocks scientific
+imports/process/network/remoteexecution;7327sealedprep+67341prior hashes+allfive
+consumedclaims/capsule/source/bootstrap/publickey/helper verify.16armedinputs sealed.
+No tests/scientificcohorts repeated;102distinctprepchecks accurately preserve first
+101pass/1fail fixture-summary omission+targetedcorrection1/1; no secondfullsuite.
+Capsule36042589B/118members48627833logicalB,38overlays409003B,bootstrap1146186B<2MiB.
+Explicitmetadata_policy+V6plan/resource identities bound; originalgates unchanged.
+Oneattended03 attempt:15min inclfull2.5GiBproof+oneFP64ref+4serialcomponents<=120s;
+then600s/3GiB SAME SSH collection,1500sclient incllogin. Setup3GiB/capture2.25GiB/
+raw512MiB/metadata64MiB/trace8MiB/allocator7GiB unchanged. No newfullmodelbackward/
+nativecapture/retry/reset/retrieval/cleanup/install/privatekeys/heldout/paidwork.
+Liveguards required; pastedstatus notreservation. NEXT userruns exactfinalLOCAL Mac
+run-attended.sh ONCE, passwordpromptly, Macawake/lid+Terminalopen through<=25min
+inclcollection. Anyresult/partial needs independentreview; NEVER repeathelper or
+resetclaim/clocks. All oldclaims/failures and candidate3724/fulltraining/financial
+caps-holds-reconciliation stay. Usercommits self;never stage/commit/push.
+Earlier LATEST entries historical.
+
+LATEST November 13: POLICY-BOUND UNIVERSITY HANDOFF V5 PREPARED, UNARMED.
+Read report/checks/2026-11-13-predictor-sdpa-continuation-v5-preparation.json/md
+and docs/predictor_sdpa_continuation_v5.md first. Separate package uses frozen V6
+worker/policy V2, unchanged capsule36042589B/118members48627833logicalB.
+38overlays409003B, bootstrap1146186B<2MiB. Finalonly raw predictor-sdpa-
+continuation-v5-20261113/linux10603-final; CONTROL9f2418d598c1aa20ba91b195be40b68b3a046e24a42fae0230240f0dd39f4550.
+Explicit metadata policy+V6plan/resource/proof identities bound in scope/auth/
+plan/trace/recomputedproof. Coldstdlib V3receipt reader exactfrozenV6/startup ASTs/
+constants except removed transitiveimport;15malformed preimport bindings refuse.
+Deep nativeCUDA domain still rejects synthetic shallowCPU fixtures.
+102DISTINCT checks covered: firstFULL101pass/1fail (testCPUsummary omittedpolicy;
+all workers completed), ONLYsummaryfixture corrected, targetedpackaged check1/1
+passes. Source/log/XML/artifacts preserved; allother testbodies/production/science
+sources unchanged. NO second fullsuite or 103distinct claim. Prior61/78/79 suites
+not repeated. ThreeactualsmallCPU cohorts/12freshworkers/3FP64refs:96returns+12refs
+saved-only verify; raw75/249/75/249 each; profile/freshreplay exact. Initial packaged
+summary stillmissingfield; actual plans/traces/proofs/numerics independentlyverify.
+Frozen localV6 invalidfield failure copied/collected:8oldreturns/4refs+raw retain
+bytes/modes/nsmtime,incomplete/rejected; no newscience in this copy fixture.
+Independent review blocks science/profile/process/network/reference/extraction,
+verifies67341prior hashes+192target byte/mode/nsmtime descriptors; allFIVElineage
+claims consumed/unchanged. Latest3829retainedtrace+incompleteworker/older95a15missing
+trace unknownfield/oldkernelcollision refusal remain. All production scope/storage/
+transport/scientificentry ASTs same after versionnormalization; gates unchanged.
+ProposedONE attended03 attempt:15minwork inclfull2.5GiBproof+oneFP64ref+4serial<=120s
+components, zero newfullmodelbackward/nativecapture; then600s/3GiB SAME SSH collection,
+1500sclient incllogin. Setup3GiB/capture2.25GiB/raw512MiB/metadata64MiB/trace8MiB/
+mask-header256KiB/allocator7GiB unchanged. No retry/reset/retrieval/cleanup/install/
+privatekeys/heldout/paidwork. All new source/tests/raw/control/helper/report FROZEN
+by raw sealed-preparation-inputs.json. No finalAUTH/ATTEMPT/session/SSH/upload/proof/
+targetclock. Pasted03 expectedGPU/UUID/8192-94MiB/driver/emptycompute savedprivately,
+NOTapproval/reservation; liveguards required. ActualTorch2.8/CUDA stillunqualified.
+One new scoped approval is required before any university upload or work.
+Prior grant consumed. NEXT askONEexactscope using concreteplan/payload/limits; do
+NOT askstatusagain now (alreadyprovided). Afterapproval save privateAUTH and review
+armedUNUSED handoff before user runsfinalLOCAL Mac helperONCE. Never agentSSH/run
+helper. Approval persists unchanged; never ask twice. Candidate3724/fulltraining/
+financialcaps-holds-reconciliation unchanged. Usercommits self;never stage/commit/
+push. Earlier LATEST entries historical.
+
+LATEST November 13: POLICY-BOUND COMPONENT WORKER V6 VERIFIED LOCALLY.
+Read report/checks/2026-11-13-predictor-sdpa-component-v6-local-review.json/md and
+ docs/predictor_sdpa_component_v6.md first. Separate v6 core/wrapper/CPU CLI use
+frozen overhead/GPU-range metadata policy v2; explicit policy bound in plan AND
+trace descriptor, exact savedproof recomputed. New plan/resourcekind V6; old/missing/
+rewritten policies/completion/proofs refuse. Every corefunction AST matches v5
+after ONLY version/provider/policy-field normalization. Wrapper/CLI ASTs match
+v5 after versionnormalization. Same math/inputs/layouts/aliases/anchors/FP64ref/
+bounds/precision/configureonce/startup/publication/flags/input/serial/replay gates.
+61focused integration tests FIRST RUN PASS zero errors/failures/skips. Fourfresh
+smallCPU cohort workers/oneFP64ref pass numerical/native/profile/input/flags/exact
+freshreplay, raw75/249/75/249. Three separate actualCPU failureworkers preserve
+association/API/invalidfield evidence. SevenCPUworkers/fourrefs acrossseparatecases,
+56unique returnarrays+16refarrays saved-only verify. All failed cases stayincomplete,
+no GPUreceipt; missingAPI has no inventedtrace. Invalidfield is LOCAL injection.
+Actual saved106-row GPUtrace copied ONLY into localmetadata fixture; allbytesstay,
+overhead10/range20/12recordedkernelwitnesses verify under newpolicy. No complete
+worker/GPUsevidence/replay/admission inferred. Historicalworker flagsfalse/error/
+missingreceipts/1/2/3unrun/claim3829 stay; oldvalidator STILL REFUSES.
+Independent review blocks model/autograd/SDPA/CUDA/profile/process/network/oracle/
+extraction, verifies66797prior hashes+192target byte/mode/nsmtime descriptors,
+19rehashed completion/trace/policy/proof refusals,14invalid resourcefixtures+oldV5
+resourcekind refusal. Full localcodec bytes/hashes/modes/nsmtime/copiedarrays verify.
+Targetstartup/resource fixtures SIMULATED, not actualCUDA. Only actual local
+Torch2.14.1CPU; target2.8/CUDA/backend/capacity/speed unqualified. Prior78/79/old
+suites not repeated or accumulated. Newsource/tests/raw/review FROZEN by raw
+predictor-sdpa-component-v6-20261113/sealed-local-inputs.json. All old claims/clocks/
+bytes stay. No targetoperator/handoff/CONTROL/AUTH/ATTEMPT/agentSSH/upload/proof/
+retrieval/cleanup/install/heldout/paidwork. Candidate3724/fulltraining and financial
+caps-holds-reconciliation unchanged. Never oldhelper/claim/grant/clock repeat/reset.
+NEXT prepare SEPARATE universityhandoff from unchanged acceptednative capsule+V6.
+Bind explicit metadata_policy and V6resourcekind, including coldstdlib receipt
+adapter ifneeded. Test FULL exactpayload/imports/unusedauth/liveguards/storage/
+serialclocks/SAME-SSHcollection before ONE futureexactscoped universityproposal.
+No new targetscope authorized. Usercommits self;never stage/commit/push.
+Earlier LATEST entries historical.
+
+LATEST November 13: OVERHEAD / GPU-RANGE METADATA POLICY VERIFIED OFFLINE.
+Read report/checks/2026-11-13-predictor-sdpa-overhead-v1-local-review.json/md and
+ docs/predictor_sdpa_overhead_v1.md first. Separate launch_evidence_v2 + savedCLI,
+raw v1 envelope unchanged. Every row/index retained; roles separate. Strictknown
+2.8.0+cu128 CPU buffer-request signature keeps device_index=-1 but cannot parent
+CPUoperations or ownlinks. Overhead may inherit realowner correlation10; only
+positiveprocess frontend roles enter owners. Narrow flaggedGPU phase ranges pair
+to actualCPU annotation by recordedID, cannot count as kernels. Unknown/malformed/
+foreign/missingowner records refuse; no blanket negatives or name-only dropping.
+Full scientific/backend/phase/autograd decision function AST matches frozen v1;
+original numerical/reference/runtime/startup/device/family/kernel/replay rules stay.
+78final focused tests PASS zero errors/failures/skips, no model/autograd/SDPA/
+profiler/CUDA/reference work. Initial local overstrictID refusal+sources saved;
+first61pass/3fail preserved (one producer-shadowing fixture; two actual GPU-range
+assertions). Fixture corrected+narrow metadata support/tests added; no old suite
+repeated or counts accumulated. Actual saved106rows retained, overhead10/range20,
+12distinct genuine positive CUDA witnesses/realCPUowner9/cross-thread anchor verify
+under NEW separate policy only. Old validator STILL REFUSES; actual worker stays
+incomplete/flagsfalse/missingreceipts/other1/2/3unrun; claim3829 staysconsumed.
+Primary source pinned PyTorch2.8.0/Kineto5e7501833f1021ce6f618572d3baf657b6319658
+supports role interpretation/correlation inheritance/GPU ranges. No installedwheel
+sourcecommit/nativeoverheadkind authentication claimed. Metadata cannot prove
+actual execution/completion/replay/capacity/speed/adoption.
+Independent stdlib review blocks scienceimports/process/network;66754prior hashes+
+192target byte/mode/nsmtime descriptors reverify; no tests/science rerun. Newsource/
+tests/raw/evidence frozen by raw predictor-sdpa-overhead-v1-20261113/sealed-local-inputs.json.
+All historical sources/claims/clocks stay. No componentworker/targethandoff/CONTROL/
+AUTH/ATTEMPT/agentSSH/upload/retrieval/cleanup/install/heldout/paidwork. Candidate3724,
+fulltraining and financialcaps-holds-reconciliation unchanged. NEVER oldhelper/
+claim/grant/clock repeat/reset or use new metadata proof to close historicalworker.
+NEXT integrate separate metadata policy into SEPARATELY VERSIONED component worker.
+Keep publication-before-validation, same math/FP64reference/startup/7GiB resource/
+layout-input-flags/freshreplay gates. Test complete local integration before any
+new universityhandoff; no newtargetscope authorized. Usercommits self;never stage/
+commit/push. Earlier LATEST entries historical.
+
 LATEST November 13: CONTINUATION V4 CONSUMED; RAW TRACE RETAINED, EXACT FIELD IDENTIFIED.
 Read report/checks/2026-11-13-predictor-sdpa-continuation-v4-target-review.json/md
 first. Final session attended-6ub5e6wx; consumed claim SHA

@@ -1,0 +1,522 @@
+{
+  "GPU_peak_allocator_bytes": 50534400,
+  "GPU_samples_match_expected_host_and_only_owned_process": true,
+  "GPU_sampling_is_not_continuous_exclusivity_proof": true,
+  "actual_component_arrays_verified": 8,
+  "actual_input_metadata_matches_frozen_native_layouts": true,
+  "all_five_previous_claims_unchanged": [
+    {
+      "bytes": 258,
+      "mode": 420,
+      "mtime_ns": 1794615662552820275,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/linux10603-final/ATTEMPT.json",
+      "sha256": "3829d1b634b32053f73560610f2e78d5a835e7193eaea885b55211e6c2536c32"
+    },
+    {
+      "bytes": 260,
+      "mode": 420,
+      "mtime_ns": 1794610485666490501,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v3-20261113/linux10603-final/ATTEMPT.json",
+      "sha256": "95a15a08e35721a7840e26915544b5599d3656635b2527162b3ec595236770b0"
+    },
+    {
+      "bytes": 258,
+      "mode": 420,
+      "mtime_ns": 1794181676792950736,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/ATTEMPT.json",
+      "sha256": "6c46ce1fb7ab4a3f7dbe138866b9d45f5046f0c77b26bd8e689d7b8c3dcaa07a"
+    },
+    {
+      "bytes": 259,
+      "mode": 420,
+      "mtime_ns": 1794155687460918245,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/ATTEMPT.json",
+      "sha256": "9933b5e9f50c5c3ee571b39bea8d2afd94724ea9adf7d772809a70aaaae7f1f0"
+    },
+    {
+      "bytes": 254,
+      "mode": 420,
+      "mtime_ns": 1794118109493298984,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/linux10603-final/ATTEMPT.json",
+      "sha256": "d402bddad88abe7b2241d8c518197ce4bd693b46811352615d87013a9a9d240b"
+    }
+  ],
+  "all_frozen_scientific_collectors_and_handoffs_unchanged": true,
+  "all_original_elementwise_error_gates_pass_with_zero_failed_elements": true,
+  "archive_bytes_hashes_modes_nsmtime_reverified": true,
+  "archive_logical_bytes": 152793107,
+  "archive_members": 189,
+  "armed_files_reverified": 16,
+  "authorization": {
+    "bytes": 1922,
+    "mode": 384,
+    "mtime_ns": 1794623021399484651,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/linux10603-final/AUTHORIZATION.json",
+    "sha256": "02f06b346666c77473b7d68f7d6bb07dd70755fd164712fdff56a24f49b871a0"
+  },
+  "canonical_FP64_references_built": 1,
+  "canonical_reference_arrays_verified": 4,
+  "capsule_inputs_reverified": 118,
+  "claim": {
+    "bytes": 259,
+    "mode": 420,
+    "mtime_ns": 1794623296040130747,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/linux10603-final/ATTEMPT.json",
+    "sha256": "8e5614d40fd19cf2fd35861e19a86eb90251cd113ef23b144db9a0682d070662"
+  },
+  "collection_complete": true,
+  "component_resource_receipt_valid": true,
+  "component_values_pass_original_bounds": true,
+  "component_worker_wall_seconds": 9.08708004374057,
+  "component_workers_started": 1,
+  "consumed": true,
+  "control": {
+    "bytes": 116308,
+    "mode": 384,
+    "mtime_ns": 1794621912795755251,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/linux10603-final/CONTROL.json",
+    "sha256": "9f2418d598c1aa20ba91b195be40b68b3a046e24a42fae0230240f0dd39f4550"
+  },
+  "date": "2026-11-13",
+  "elementwise_bounds_and_acceptance_fields_match_producer": true,
+  "exact_remote_scalar_difference_not_recoverable": true,
+  "failed_elements": 0,
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "fresh_process_replay_not_run": true,
+  "frozen_native_receipt": {
+    "boundary_sha256": "51da0691bd3a71367e0abdece1f8d6f8c1fb13eb933c06e5c7aa6c02b69d76da",
+    "marker_sha256": "68d43c70c422cee91427f76d0e45cb588f402fa7bf903f0c3389f3b58bc9da24",
+    "pid": 3093152,
+    "role": "capture",
+    "worker_sha256": "23f386ab1374e4573f1d9475cea0cca5cedd39f7149f99ae1d359d5b4e8170bf"
+  },
+  "frozen_reader_refusal_reproduced": "Actual saved component/reference numerical bound rejected.",
+  "full_model_candidate_rejected_entries_unchanged": 3724,
+  "kind": "policy-bound-component-continuation-v5-target-saved-review",
+  "metadata_policy": "fixed-SDPA-profiler-overhead-signature-v1",
+  "model_autograd_SDPA_CUDA_profile_process_network_reference_execution_blocked": true,
+  "native_output_logical_hashes": {
+    "profiled": {
+      "dk": "f6badf9b4684abe2bbbb5744c84fffa27a4bc6ab7f7d5002c37cb2d51213a9d1",
+      "dq": "f2c5d2f614ae9861926a5a9e27ac209677e64bdfd0d4dd74189e0936ba202b0f",
+      "dv": "0afa0f1458dc8f5ee51024dc07776ac36cdd09f04b9d9923177e6ba4d0c852ef",
+      "output": "f9e5f261427639855a010c5c174006e1b3df850099a67e066b8610f53bb1f6f7"
+    },
+    "untimed": {
+      "dk": "f6badf9b4684abe2bbbb5744c84fffa27a4bc6ab7f7d5002c37cb2d51213a9d1",
+      "dq": "f2c5d2f614ae9861926a5a9e27ac209677e64bdfd0d4dd74189e0936ba202b0f",
+      "dv": "0afa0f1458dc8f5ee51024dc07776ac36cdd09f04b9d9923177e6ba4d0c852ef",
+      "output": "f9e5f261427639855a010c5c174006e1b3df850099a67e066b8610f53bb1f6f7"
+    }
+  },
+  "new_full_model_backwards": 0,
+  "new_native_captures": 0,
+  "new_paid_compute": false,
+  "new_research_or_training_admitted": false,
+  "next_stage": "Offline design and test a separately versioned result-reader bookkeeping comparison; original scientific bounds and this consumed parent rejection stay unchanged.",
+  "next_step": "Offline design and test a separately versioned receipt comparison that keeps original elementwise bounds strict and validates diagnostic reduction bookkeeping without bitwise dictionary equality. Preserve this consumed failed attempt, producer completion and parent rejection; no target retry, retrieval, cleanup or new university attempt is authorized.",
+  "no_metric_or_tolerance_rewritten_to_admit_failed_attempt": true,
+  "numerical_checks": {
+    "profiled": {
+      "dk": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 3.4826833479484494e-11,
+        "max_tolerance_ratio": 0.00016256409068091725,
+        "passed": true,
+        "relative_l2_error": 3.6205087270809233e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dq": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.033925839332677e-11,
+        "max_tolerance_ratio": 5.160648470673458e-05,
+        "passed": true,
+        "relative_l2_error": 3.2586804252676402e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dv": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.5785024031998165e-11,
+        "max_tolerance_ratio": 7.775571467563141e-05,
+        "passed": true,
+        "relative_l2_error": 3.369197943691921e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "output": {
+        "atol": 2e-05,
+        "failed_elements": 0,
+        "max_absolute_error": 1.6000549245109852e-05,
+        "max_tolerance_ratio": 0.5541802668312376,
+        "passed": true,
+        "relative_l2_error": 1.452763659319289e-06,
+        "rtol": 0.0001,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      }
+    },
+    "untimed": {
+      "dk": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 3.4826833479484494e-11,
+        "max_tolerance_ratio": 0.00016256409068091725,
+        "passed": true,
+        "relative_l2_error": 3.6205087270809233e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dq": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.033925839332677e-11,
+        "max_tolerance_ratio": 5.160648470673458e-05,
+        "passed": true,
+        "relative_l2_error": 3.2586804252676402e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dv": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.5785024031998165e-11,
+        "max_tolerance_ratio": 7.775571467563141e-05,
+        "passed": true,
+        "relative_l2_error": 3.369197943691921e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "output": {
+        "atol": 2e-05,
+        "failed_elements": 0,
+        "max_absolute_error": 1.6000549245109852e-05,
+        "max_tolerance_ratio": 0.5541802668312376,
+        "passed": true,
+        "relative_l2_error": 1.452763659319289e-06,
+        "rtol": 0.0001,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      }
+    }
+  },
+  "one_original_worker_saved_array_bytes_match_native": true,
+  "only_summary_difference_in_local_reader_reproduction": "relative_l2_error",
+  "orchestrator_accepted_workers": 0,
+  "overall_run_passed": false,
+  "overlay_files_reverified": 38,
+  "passed": true,
+  "prior_preparation_sealed_files_reverified": 7327,
+  "prior_preserved_hashes_reverified": 67341,
+  "producer_complete_record_is_not_parent_admission": true,
+  "producer_complete_worker_records": 1,
+  "producer_oracle_checks": {
+    "dk": {
+      "atol": 2e-07,
+      "failed_elements": 0,
+      "max_absolute_error": 3.4826833479484494e-11,
+      "max_tolerance_ratio": 0.00016256409068091725,
+      "passed": true,
+      "relative_l2_error": 3.6205087270809225e-06,
+      "rtol": 0.002,
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "dq": {
+      "atol": 2e-07,
+      "failed_elements": 0,
+      "max_absolute_error": 1.033925839332677e-11,
+      "max_tolerance_ratio": 5.160648470673458e-05,
+      "passed": true,
+      "relative_l2_error": 3.2586804252676394e-06,
+      "rtol": 0.002,
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "dv": {
+      "atol": 2e-07,
+      "failed_elements": 0,
+      "max_absolute_error": 1.5785024031998165e-11,
+      "max_tolerance_ratio": 7.775571467563141e-05,
+      "passed": true,
+      "relative_l2_error": 3.369197943691922e-06,
+      "rtol": 0.002,
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "output": {
+      "atol": 2e-05,
+      "failed_elements": 0,
+      "max_absolute_error": 1.6000549245109852e-05,
+      "max_tolerance_ratio": 0.5541802668312376,
+      "passed": true,
+      "relative_l2_error": 1.452763659319288e-06,
+      "rtol": 0.0001,
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    }
+  },
+  "producer_profile_flags_inputs_complete": true,
+  "profiled_saved_array_bytes_match_untimed_and_native": true,
+  "profiler_metadata_correction_works_for_this_actual_trace": true,
+  "raw_trace_descriptor": {
+    "bytes": 39241,
+    "encoding": "single-JSON-envelope",
+    "file": "events.jsonl",
+    "format": "fixed-SDPA-raw-Kineto-correlation-v1",
+    "metadata_policy": "fixed-SDPA-profiler-overhead-signature-v1",
+    "records": 106,
+    "saved_before_semantic_validation": true,
+    "sha256": "7fa8765c13bc56be5bf12b6fbde229d2ac678f36863ab0f7f23efddd0038aaf8",
+    "torch_version": "2.8.0+cu128"
+  },
+  "raw_trace_not_filtered_normalized_reconstructed_or_synthesized": true,
+  "raw_trace_records": 106,
+  "recorded_metadata_proof_recomputed_exactly": true,
+  "recorded_positive_CUDA_kernel_witnesses": 12,
+  "remote_orchestrator_recomputed_dictionary_serialized": false,
+  "remote_thread_reduction_or_library_mechanism_not_proven": true,
+  "resource_receipt": {
+    "index": 0,
+    "kind": "native-fixed-SDPA-component-resource-v6",
+    "peak_allocator_bytes": 50534400,
+    "performance_qualified": false,
+    "pid": 693987,
+    "plan_sha256": "49be76b9944be3636b52f79a08cebf5cb64783ce5431c44c77bb022dffdd82b4",
+    "post_entry_wall_seconds": 9.306851251982152,
+    "research_admitted": false,
+    "startup": {
+      "allocator_cap_bytes": 7516192768,
+      "allocator_fraction": 0.9153876238137426,
+      "configure_calls": 1,
+      "cuda_initialized_after": true,
+      "cuda_initialized_before": false,
+      "device": "cuda",
+      "device_total_bytes": 8210939904,
+      "kind": "native-SDPA-component-startup-v2",
+      "pid": 693987,
+      "policy": "shared-fp64-native",
+      "precision": {
+        "cublas_workspace_config": ":4096:8",
+        "cudnn_benchmark": false,
+        "cudnn_deterministic": true,
+        "cudnn_enabled": true,
+        "cudnn_tf32": false,
+        "deterministic_algorithms": true,
+        "deterministic_warn_only": false,
+        "matmul_precision": "highest",
+        "matmul_tf32": false
+      }
+    },
+    "worker_sha256": "9aa728ab388f3ecc9b4143328b5b2becd424bfe29905c1e4743dd2d9ccf51073"
+  },
+  "response": {
+    "bytes": 152977694,
+    "mode": 384,
+    "mtime_ns": 1794623294421943444,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/linux10603-final/attended-vlbwjaqq/response.bin",
+    "sha256": "17d473d8e8bc9153ed2b783210fb6faff4c4c83fbe10bd3a2c619eff7e2deed4"
+  },
+  "response_bytes": 152977694,
+  "review_source": {
+    "bytes": 18419,
+    "mode": 384,
+    "mtime_ns": 1794629427290539055,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/target-review/review_saved.py",
+    "sha256": "da9f538ea368da3ea25b5ee7259836bf52d31ba39e1d7d307b9a5bba71a242e8"
+  },
+  "same_connection": true,
+  "saved_plan_bytes_changed": false,
+  "saved_plan_translated_in_memory_only": true,
+  "saved_recomputed_summary_differences": [
+    {
+      "absolute_difference": 8.470329472543003e-22,
+      "array": "output",
+      "diagnostic_only_not_used_to_admit_worker": true,
+      "field": "relative_l2_error",
+      "phase": "untimed",
+      "recorded": 1.452763659319288e-06,
+      "recorded_float_hex": "0x1.85f92892c48aep-20",
+      "review_float_hex": "0x1.85f92892c48b2p-20",
+      "saved_recomputed": 1.452763659319289e-06
+    },
+    {
+      "absolute_difference": 8.470329472543003e-22,
+      "array": "dq",
+      "diagnostic_only_not_used_to_admit_worker": true,
+      "field": "relative_l2_error",
+      "phase": "untimed",
+      "recorded": 3.2586804252676394e-06,
+      "recorded_float_hex": "0x1.b55f68267a393p-19",
+      "review_float_hex": "0x1.b55f68267a395p-19",
+      "saved_recomputed": 3.2586804252676402e-06
+    },
+    {
+      "absolute_difference": 8.470329472543003e-22,
+      "array": "dk",
+      "diagnostic_only_not_used_to_admit_worker": true,
+      "field": "relative_l2_error",
+      "phase": "untimed",
+      "recorded": 3.6205087270809225e-06,
+      "recorded_float_hex": "0x1.e5efbb8d162dcp-19",
+      "review_float_hex": "0x1.e5efbb8d162dep-19",
+      "saved_recomputed": 3.6205087270809233e-06
+    },
+    {
+      "absolute_difference": 8.470329472543003e-22,
+      "array": "dv",
+      "diagnostic_only_not_used_to_admit_worker": true,
+      "field": "relative_l2_error",
+      "phase": "untimed",
+      "recorded": 3.369197943691922e-06,
+      "recorded_float_hex": "0x1.c434c285dfcafp-19",
+      "review_float_hex": "0x1.c434c285dfcadp-19",
+      "saved_recomputed": 3.369197943691921e-06
+    },
+    {
+      "absolute_difference": 8.470329472543003e-22,
+      "array": "output",
+      "diagnostic_only_not_used_to_admit_worker": true,
+      "field": "relative_l2_error",
+      "phase": "profiled",
+      "recorded": 1.452763659319288e-06,
+      "recorded_float_hex": "0x1.85f92892c48aep-20",
+      "review_float_hex": "0x1.85f92892c48b2p-20",
+      "saved_recomputed": 1.452763659319289e-06
+    },
+    {
+      "absolute_difference": 8.470329472543003e-22,
+      "array": "dq",
+      "diagnostic_only_not_used_to_admit_worker": true,
+      "field": "relative_l2_error",
+      "phase": "profiled",
+      "recorded": 3.2586804252676394e-06,
+      "recorded_float_hex": "0x1.b55f68267a393p-19",
+      "review_float_hex": "0x1.b55f68267a395p-19",
+      "saved_recomputed": 3.2586804252676402e-06
+    },
+    {
+      "absolute_difference": 8.470329472543003e-22,
+      "array": "dk",
+      "diagnostic_only_not_used_to_admit_worker": true,
+      "field": "relative_l2_error",
+      "phase": "profiled",
+      "recorded": 3.6205087270809225e-06,
+      "recorded_float_hex": "0x1.e5efbb8d162dcp-19",
+      "review_float_hex": "0x1.e5efbb8d162dep-19",
+      "saved_recomputed": 3.6205087270809233e-06
+    },
+    {
+      "absolute_difference": 8.470329472543003e-22,
+      "array": "dv",
+      "diagnostic_only_not_used_to_admit_worker": true,
+      "field": "relative_l2_error",
+      "phase": "profiled",
+      "recorded": 3.369197943691922e-06,
+      "recorded_float_hex": "0x1.c434c285dfcafp-19",
+      "review_float_hex": "0x1.c434c285dfcadp-19",
+      "saved_recomputed": 3.369197943691921e-06
+    }
+  ],
+  "session": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/linux10603-final/attended-vlbwjaqq",
+  "session_work_seconds": 56.98135022679344,
+  "source_correction_during_review": false,
+  "startup_configure_once_verified": true,
+  "startup_receipt": {
+    "allocator_cap_bytes": 7516192768,
+    "allocator_fraction": 0.9153876238137426,
+    "configure_calls": 1,
+    "cuda_initialized_after": true,
+    "cuda_initialized_before": false,
+    "device": "cuda",
+    "device_total_bytes": 8210939904,
+    "kind": "native-SDPA-component-startup-v2",
+    "pid": 693987,
+    "policy": "shared-fp64-native",
+    "precision": {
+      "cublas_workspace_config": ":4096:8",
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": true,
+      "cudnn_enabled": true,
+      "cudnn_tf32": false,
+      "deterministic_algorithms": true,
+      "deterministic_warn_only": false,
+      "matmul_precision": "highest",
+      "matmul_tf32": false
+    }
+  },
+  "storage_proof_passed": true,
+  "target_input_pins": {
+    "bytes": 84263,
+    "mode": 384,
+    "mtime_ns": 1794629483803327756,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/target-review/target-input-pins.json",
+    "sha256": "de06a4a910653fd3fbcb4123e143560c2cf53d7908aa5e1b3679b1af24faeaf7"
+  },
+  "tests_rerun": false,
+  "transport_exit_status": 1,
+  "unstarted_component_indices": [
+    1,
+    2,
+    3
+  ],
+  "whole_diagnostic_dictionary_exact_equality_is_frozen_reader_requirement": true
+}

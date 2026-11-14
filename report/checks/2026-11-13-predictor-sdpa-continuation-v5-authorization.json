@@ -1,0 +1,147 @@
+{
+  "all_five_consumed_claims_unchanged": [
+    {
+      "bytes": 258,
+      "mode": 420,
+      "mtime_ns": 1794615662552820275,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/linux10603-final/ATTEMPT.json",
+      "sha256": "3829d1b634b32053f73560610f2e78d5a835e7193eaea885b55211e6c2536c32"
+    },
+    {
+      "bytes": 260,
+      "mode": 420,
+      "mtime_ns": 1794610485666490501,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v3-20261113/linux10603-final/ATTEMPT.json",
+      "sha256": "95a15a08e35721a7840e26915544b5599d3656635b2527162b3ec595236770b0"
+    },
+    {
+      "bytes": 258,
+      "mode": 420,
+      "mtime_ns": 1794181676792950736,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/ATTEMPT.json",
+      "sha256": "6c46ce1fb7ab4a3f7dbe138866b9d45f5046f0c77b26bd8e689d7b8c3dcaa07a"
+    },
+    {
+      "bytes": 259,
+      "mode": 420,
+      "mtime_ns": 1794155687460918245,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/ATTEMPT.json",
+      "sha256": "9933b5e9f50c5c3ee571b39bea8d2afd94724ea9adf7d772809a70aaaae7f1f0"
+    },
+    {
+      "bytes": 254,
+      "mode": 420,
+      "mtime_ns": 1794118109493298984,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/linux10603-final/ATTEMPT.json",
+      "sha256": "d402bddad88abe7b2241d8c518197ce4bd693b46811352615d87013a9a9d240b"
+    }
+  ],
+  "approval": {
+    "bytes": 1993,
+    "mode": 384,
+    "mtime_ns": 1794623021399297484,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/authorization/user-approval.json",
+    "sha256": "967d2341cea5400810c1f0a6e7fa901c8c9240bca32a0399a2f888bcc8982f13"
+  },
+  "approval_persists_no_reconfirmation_needed": true,
+  "approval_record_source": {
+    "bytes": 4652,
+    "mode": 384,
+    "mtime_ns": 1794623007732808597,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/authorization/record_approval.py",
+    "sha256": "fa0e86687c237c4d69e1cc98a517936233d46e3199550ee7ec017762103241ca"
+  },
+  "armed_input_seal": {
+    "bytes": 2616,
+    "files": 16,
+    "mtime_ns": 1794623140526116545,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/authorization/armed-inputs.json",
+    "sha256": "8892465f5f86d22aee6e0dca5393b4df5a5d04b61db7ad7cd0c2ea52c7fbb696"
+  },
+  "attempt_present": false,
+  "authorization": {
+    "bytes": 1922,
+    "mode": 384,
+    "mtime_ns": 1794623021399484651,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/linux10603-final/AUTHORIZATION.json",
+    "sha256": "02f06b346666c77473b7d68f7d6bb07dd70755fd164712fdff56a24f49b871a0"
+  },
+  "authorization_mode": "0600",
+  "control": {
+    "bytes": 116308,
+    "mode": 384,
+    "mtime_ns": 1794621912795755251,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/linux10603-final/CONTROL.json",
+    "sha256": "9f2418d598c1aa20ba91b195be40b68b3a046e24a42fae0230240f0dd39f4550"
+  },
+  "date": "2026-11-13",
+  "distinct_preparation_checks_covered": 102,
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "fixture_only_correction_targeted_check_passed": true,
+  "full_model_candidate_adopted": false,
+  "full_suite_rerun": false,
+  "helper": {
+    "bytes": 394,
+    "mode": 448,
+    "mtime_ns": 1794621912796340834,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/linux10603-final/run-attended.sh",
+    "sha256": "8960ed01028ad81502947dd3d563da62cf191d5a0e80268d60abc211f46b3708"
+  },
+  "host_matches_pasted_idle_status": true,
+  "initial_full_suite_failed": 1,
+  "initial_full_suite_passed": 101,
+  "kind": "policy-bound-component-continuation-v5-authorization-review",
+  "live_guards_still_required": true,
+  "metadata_policy": "fixed-SDPA-profiler-overhead-signature-v1",
+  "new_SSH_upload_proof_or_university_work": false,
+  "new_full_model_backwards_or_native_captures": 0,
+  "next_step": "User runs exact final LOCAL Mac helper once; enter password promptly and keep Mac awake/lid/Terminal open through at most 25 minutes including collection. No repeat, separate retrieval or agent SSH.",
+  "overlay_bytes": 409003,
+  "overlay_files": 38,
+  "passed": true,
+  "pasted_status": {
+    "bytes": 705,
+    "mode": 384,
+    "mtime_ns": 1794621615145682835,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/status/pasted-status.json",
+    "sha256": "668d6150bec3fabc2cb913863e51d006f108d9a82cf8c44c03e9742114ecda23"
+  },
+  "payload_bytes": 36042589,
+  "preparation": {
+    "bytes": 29631,
+    "mode": 384,
+    "mtime_ns": 1794622515193055066,
+    "path": "report/checks/2026-11-13-predictor-sdpa-continuation-v5-preparation.json",
+    "sha256": "332d50a275944ff870e181ae6dc01307131e1f1e77e1c94e2662ef4147ca8bb3"
+  },
+  "preparation_seal": {
+    "bytes": 1733590,
+    "mode": 384,
+    "mtime_ns": 1794622690937315703,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/sealed-preparation-inputs.json",
+    "sha256": "4800d2b2b51e6b884c6886165c1ccf9d986ad86a3a41d82167484afedc41fb73"
+  },
+  "prepared_sealed_files_reverified": 7327,
+  "prior_preserved_hashes_reverified": 67341,
+  "raw_armed_review": {
+    "bytes": 4916,
+    "mtime_ns": 1794623057126716419,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/authorization/armed-review.json",
+    "sha256": "962e855f6f1c0e44977322c04e7cfb34441c90403f9d9bc322e44c3eb2ad3e22"
+  },
+  "research_or_training_admitted": false,
+  "resource_receipt_kind": "native-fixed-SDPA-component-resource-v6",
+  "review_source": {
+    "bytes": 8414,
+    "mode": 384,
+    "mtime_ns": 1794623007736094849,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/authorization/review_armed.py",
+    "sha256": "4c5b2c3e791ecf3e75995ed83570dd0a05f2f94ef2e9f78c31c0cbd2c677323e"
+  },
+  "scientific_import_process_network_and_remote_execution_blocked": true,
+  "scope_approved_and_unchanged": true,
+  "session_present": false,
+  "status_is_not_a_reservation": true,
+  "stdin_bootstrap_bytes": 1146186,
+  "tests_or_scientific_cohorts_rerun": false
+}

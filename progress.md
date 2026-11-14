@@ -1,5 +1,143 @@
 # Research Progress Reports
 
+## 2026-11-13 — Tensor and metadata checks pass; parent reader rejects summary equality
+
+The v5 attempt is consumed and exits 1, with complete same-SSH collection. All 189
+files (152,793,107 logical bytes), hashes, modes and nanosecond timestamps verify.
+The full 2.5 GiB storage proof passes within 56.98 seconds of session work. The
+first original component exits 0 with complete/startup/resource receipts, restored
+flags, unchanged inputs and exact profiled return replay. The parent reader rejects
+it before accepting any task; math and fresh-process replays do not run.
+
+All eight saved FP32 returns pass original elementwise bounds against four saved
+FP64 arrays with zero failures. Untimed/profiled logical bytes match the original
+native component exactly. The local frozen reader reproduces its saved error:
+only diagnostic relative L2 summaries differ, about 8.47e-22, and it demands exact
+whole-dictionary equality. The actual parent's recalculated summary was not saved,
+so its precise scalar difference and reduction mechanism remain unobserved. No
+metric, numerical tolerance or old failure is changed to make this a passing run.
+
+The new metadata policy recomputes its exact proof from all 106 raw records, with
+12 genuine recorded CUDA witnesses and the efficient family. Overhead and GPU
+annotations are retained separately. The metadata proof does not admit the entire
+cohort or qualify speed/replay. The first worker's 50,534,400-byte peak allocator
+receipt validates within 7 GiB. GPU sampling retains its exclusivity limitation.
+
+Saved-only review blocks scientific/process/network/reference work, reverifies
+7,327 sealed preparation files, 16 armed inputs, 67,341 prior hashes, 38 overlays,
+118 capsule members and five older claims. All 195 target descriptors are sealed;
+no tests, models or remote work repeat. Sources, evidence and financial/training
+gates remain unchanged. Next design/test a separate result-reader bookkeeping
+comparison offline, preserving strict original elementwise and provenance gates.
+No new university attempt or retrieval is authorized; never rerun this helper.
+[Target review](report/checks/2026-11-13-predictor-sdpa-continuation-v5-target-review.md).
+
+## 2026-11-13 — Policy-bound component attempt approved, armed and unused
+
+The exact one-attempt scope is approved in call_16ab9704cd2548b5800c4fb0d1ce5db8,
+item 0; the previously supplied linux10603 status matches the expected idle GPU.
+Approval and status are saved privately, with a separate mode-0600 authorization
+bound to the unchanged final control. Approval persists; live checks still apply.
+Independent cold review blocks science/process/network work and reverifies 7,327
+sealed preparation files, 67,341 prior hashes, the exact capsule, overlays, public
+host key, helper and five consumed claims. Sixteen armed inputs are sealed.
+
+The scope remains 15 minutes including the full 2.5 GiB storage proof, one FP64
+reference and four fresh serial component workers of at most 120 seconds each,
+then ten minutes / 3 GiB collection through the same SSH connection. All storage,
+numerical, backend, startup, input and replay bounds stay strict. No tests repeat;
+the preparation's original full run and fixture-only targeted correction remain.
+No attempt/session, SSH/upload/proof or target compute has started. Next the user
+runs the final local Mac helper once and keeps the Mac awake through collection.
+No new full-model backward/capture, retry/reset/retrieval, cleanup, installation,
+private keys, held-out pixels or paid work is included. Candidate, full-training
+and financial gates remain unchanged.
+[Authorization review](report/checks/2026-11-13-predictor-sdpa-continuation-v5-authorization.md).
+
+## 2026-11-13 — Policy-bound university handoff prepared, unarmed
+
+The new packet uses the frozen v6 worker, explicit policy/V6 resource bindings,
+unchanged 36,042,589-byte native-input capsule and 38 overlays totaling 409,003 bytes.
+Bootstrap is 1,146,186 bytes. Cold plan/source/trace/proof checks and the stdlib
+receipt adapter preserve deep scientific validation, exact limits and source pins.
+
+All 102 distinct checks are covered: the first full run has 101 passes/1 failure
+from a missing test-summary policy field after all packaged workers completed.
+Only that fixture writer changes; its targeted check passes 1/1. This is not a
+second full suite or 103 distinct tests. All initial sources/logs/XML/artifacts stay;
+old suites are not repeated. Three actual local CPU cohorts yield 12 fresh workers,
+96 unique return arrays and 12 reference arrays, independently verified with
+original numerical/profile/fresh-replay checks. Target GPU cases remain simulated.
+
+Saved-only review blocks scientific/process/network/reference work, reverifies
+67,341 prior hashes and 192 target descriptors, complete capsule/collection
+hashes/modes/nsmtime, cold guard refusals and five unchanged consumed claims.
+A copied prior local invalid-field failure stays incomplete/rejected. The actual
+historical retained trace, missing-trace failure and collision refusal all remain.
+No target SSH/upload/proof, final authorization/attempt, cleanup or paid work occurs.
+
+The provided linux10603 status matches the expected idle device, but is not an
+approval or reservation. Next obtain one scoped approval for the exact 15-minute
+component-only attempt plus ten-minute same-SSH collection, then review the armed
+unused packet before one local Mac command. Candidate, full-training and financial
+gates stay unchanged.
+[Preparation review](report/checks/2026-11-13-predictor-sdpa-continuation-v5-preparation.md).
+
+## 2026-11-13 — Component worker v6 verified locally
+
+61 integration checks pass on the first run, with zero failures/errors/skips. The
+new plan and trace descriptor bind the verified overhead/GPU-range policy, with a
+separate v6 resource identity. After normalizing version/provider/policy fields,
+all core functions match the frozen v5 ASTs; numerical, native-input, FP64 reference,
+startup, resource, publication, final flags/input and fresh-replay gates stay.
+
+Four actual fresh small CPU workers pass all checks with one canonical reference
+and exact original/math fresh replay. Raw counts are 75/249/75/249. Three separate
+injected-failure workers retain their available evidence and remain incomplete.
+Independent saved review verifies 56 unique return arrays and 16 reference arrays
+across seven CPU processes/four reference builds in these separate cases, plus
+full collection hashes/modes/nsmtime, 19 deep mutation refusals and resource guards.
+CUDA startup/resource cases are simulated; actual science uses Torch 2.14.1 CPU.
+
+The historical 106-record GPU trace passes a separate copied metadata fixture;
+its raw bytes, old refusal, incomplete worker and consumed claim stay unchanged.
+Review blocks scientific/profile/process/network/reference work and reverifies
+66,797 prior hashes plus 192 target descriptors. Tests/old suites are not repeated
+or accumulated. No target scope, SSH/upload, retrieval, cleanup, installation,
+paid compute, held-out pixels or training/research admission occur.
+
+Next prepare the separate university handoff using accepted native inputs and v6,
+explicit policy/resource bindings, cold receipt checks, storage/serial/live guards
+and same-SSH collection tests before a new scoped target proposal.
+[Review](report/checks/2026-11-13-predictor-sdpa-component-v6-local-review.md).
+
+## 2026-11-13 — Separate profiler metadata roles verified offline
+
+78 focused checks pass with zero failures/errors/skips. The separately versioned
+verifier retains all raw records and recognizes narrow source-supported overhead
+and GPU phase-range signatures. Neither can supply kernel evidence; overhead
+cannot own launches or parent CPU operations. A real CPU owner keeps correlation
+10 even when an overhead record inherits that number. Unknown/malformed roles
+and invalid kernel/owner/autograd associations still refuse.
+
+The unchanged 106-row saved trace passes the new metadata-only assessment, with
+12 distinct genuine CUDA witnesses and the original cross-thread producer chain.
+The complete scientific/backend validator body is AST-identical to the frozen
+version. This does not complete or adopt the old worker: its rejection, missing
+receipts, false later flags, unrun components and consumed claim all stay.
+
+The first local global-ID refusal and first test run's 61 passes/3 failures are
+preserved. One fixture was corrected; narrow GPU-range handling and regressions
+resolve the later metadata issue. Counts are not accumulated. Independent saved
+review blocks scientific imports/process/network and reverifies 66,754 prior
+hashes plus 192 target byte/mode/nsmtime descriptors. No scientific or remote work,
+paid compute, cleanup or installation occurs; financial/training gates stay.
+
+Next integrate this policy into a separate component worker while retaining all
+numerical/reference/startup/resource/input/flags/replay gates. Complete local
+integration tests before preparing any new university scope.
+[Review](report/checks/2026-11-13-predictor-sdpa-overhead-v1-local-review.md).
+
 ## 2026-11-13 — Actual trace retained; profiler metadata conflict identified
 
 The approved v4 attempt finishes with exit 1, and its same-SSH collection is

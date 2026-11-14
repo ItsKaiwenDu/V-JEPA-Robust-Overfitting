@@ -1,0 +1,576 @@
+{
+  "actual_CUDA_or_target_PyTorch28_compatibility_capacity_speed_qualified": false,
+  "actual_final_CPU_workers": [
+    {
+      "index": 0,
+      "pid": 22199,
+      "raw_trace": {
+        "bytes": 25736,
+        "mtime_ns": 1794618867336360642,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/components-v60/cohort/0/events.jsonl",
+        "sha256": "379c88b7986cba3ab37ac16b270dc9c8f0085ed9417c47b556dbd34f9f109859"
+      },
+      "worker": {
+        "bytes": 9490,
+        "mtime_ns": 1794618867341277768,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/components-v60/cohort/0/worker.json",
+        "sha256": "727f8ce7a086bff9fed49e846a99036492ab124d101524ddfe73ba735cae9fad"
+      }
+    },
+    {
+      "index": 1,
+      "pid": 22204,
+      "raw_trace": {
+        "bytes": 85261,
+        "mtime_ns": 1794618868432386848,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/components-v60/cohort/1/events.jsonl",
+        "sha256": "6919e132898c68b5382ced65c0cb598a18cdc92cb171d5c7690c7b84051bd4bd"
+      },
+      "worker": {
+        "bytes": 10567,
+        "mtime_ns": 1794618868444309890,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/components-v60/cohort/1/worker.json",
+        "sha256": "6dcec202761d82e01b81ea8824e9c42e07ba005fce1e72918f0ebffd1d6948de"
+      }
+    },
+    {
+      "index": 2,
+      "pid": 22205,
+      "raw_trace": {
+        "bytes": 25736,
+        "mtime_ns": 1794618869493767054,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/components-v60/cohort/2/events.jsonl",
+        "sha256": "c6f313e7dbc94c97fd6cf52c676f78e85b8a958e7e626ead50185c7c9e700b0b"
+      },
+      "worker": {
+        "bytes": 9962,
+        "mtime_ns": 1794618869515919013,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/components-v60/cohort/2/worker.json",
+        "sha256": "2b731c33a7542ddf0be7625ef6268c8ca28fbba7739066e4b324244ee749d56b"
+      }
+    },
+    {
+      "index": 3,
+      "pid": 22213,
+      "raw_trace": {
+        "bytes": 85261,
+        "mtime_ns": 1794618870675540222,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/components-v60/cohort/3/events.jsonl",
+        "sha256": "091ab7f35bd283a9035e195776007ab1de1666fb0a8b90cf5e01113ae11d1ef4"
+      },
+      "worker": {
+        "bytes": 11041,
+        "mtime_ns": 1794618870720217849,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/components-v60/cohort/3/worker.json",
+        "sha256": "4b37aac346eb4d4d35b95ad7d5775213e95b4d746bb451b4101afc97312c239e"
+      }
+    }
+  ],
+  "actual_fresh_CPU_processes": 7,
+  "actual_local_failure_cases": [
+    {
+      "CPU_only": true,
+      "available_actual_arrays": 8,
+      "error": "injected-association-refusal-v6",
+      "no_completed_worker_or_resource": true,
+      "raw_trace_available": true,
+      "reference_arrays": 4,
+      "semantic_raw_metadata_valid": true,
+      "synthetic_failure_injection": true,
+      "worker": {
+        "bytes": 7748,
+        "mtime_ns": 1794618872483252621,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/worker.json",
+        "sha256": "fbfe4130a4e02d16ca60bf5b25d158c5b0459954a8fc8769707ecc87cf9422de"
+      }
+    },
+    {
+      "CPU_only": true,
+      "available_actual_arrays": 8,
+      "error": "injected-missing-raw-API",
+      "no_completed_worker_or_resource": true,
+      "raw_trace_available": false,
+      "reference_arrays": 4,
+      "semantic_raw_metadata_valid": false,
+      "synthetic_failure_injection": true,
+      "worker": {
+        "bytes": 7399,
+        "mtime_ns": 1794618874017995053,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/worker.json",
+        "sha256": "354324ded24424f3036d35f9a53c6bf287bc1e85fef03c8708d0df53864d6dd8"
+      }
+    },
+    {
+      "CPU_only": true,
+      "available_actual_arrays": 8,
+      "error": "Unknown or malformed negative-device profiler record; no name-only exclusion.",
+      "no_completed_worker_or_resource": true,
+      "raw_trace_available": true,
+      "reference_arrays": 4,
+      "semantic_raw_metadata_valid": false,
+      "synthetic_failure_injection": true,
+      "worker": {
+        "bytes": 7796,
+        "mtime_ns": 1794618875022205173,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_actual_worker_saves_inval0/0/worker.json",
+        "sha256": "7a7a1d0fb5bc9e52e092a54af4a68386c5a9fabcfe6ea16dd743f6993e823211"
+      }
+    }
+  ],
+  "actual_saved_GPU_fixture": {
+    "bytes": 11146,
+    "mtime_ns": 1794618875285845141,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_actual_saved_GPU_metadata0/saved-GPU-metadata-fixture/fixture.json",
+    "sha256": "71e243525910b3e0beb6d7b2775fb274c9407c2a9b8976899bb017c9052da7a4"
+  },
+  "actual_saved_GPU_fixture_is_not_worker_completion": true,
+  "actual_unique_return_arrays_verified": 56,
+  "all_new_source_test_and_review_inputs_frozen_by": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/sealed-local-inputs.json",
+  "candidate_rejection_and_financial_caps_holds_reconciliation_unchanged": true,
+  "canonical_reference": {
+    "bytes": 2676,
+    "mtime_ns": 1794618867304762016,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/components-v60/cohort/reference/reference.json",
+    "sha256": "4635b7b386ec0726a86c611ba6c8fb2350348f4303d5b1497cfc3deaf0d921ea"
+  },
+  "canonical_reference_arrays_verified": 16,
+  "canonical_reference_builds_across_separate_cases": 4,
+  "date": "2026-11-13",
+  "explicit_metadata_policy_bound_in_plan_trace_and_recomputed_proof": true,
+  "extractor_does_not_invoke_semantic_acceptance": true,
+  "first_run_passed": true,
+  "fourteen_invalid_resource_fixtures_still_refuse": [
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_resource_readback_refuses0",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_resource_readback_refuses1",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_resource_readback_refuses10",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_resource_readback_refuses11",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_resource_readback_refuses12",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_resource_readback_refuses13",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_resource_readback_refuses2",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_resource_readback_refuses3",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_resource_readback_refuses4",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_resource_readback_refuses5",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_resource_readback_refuses6",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_resource_readback_refuses7",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_resource_readback_refuses8",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_resource_readback_refuses9"
+  ],
+  "frozen_validators_and_original_bounds_unchanged": true,
+  "invalid_metadata_is_local_injection_not_actual_target_overhead": true,
+  "kind": "metadata-policy-component-v6-local-saved-review",
+  "local_codec_exercise_is_not_university_grant": true,
+  "local_collection_bytes_modes_nsmtime_and_copied_arrays_verified": true,
+  "local_collection_files_verified": 56,
+  "local_collection_response": {
+    "bytes": 665125,
+    "mtime_ns": 1794618873172130230,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_actual_raw_CPU_artifacts_0/local-codec-response",
+    "sha256": "6b4193663f039f574e46547dce1f38c19089db4f66b5749db0f9ec617e0d0d02"
+  },
+  "model_autograd_SDPA_CUDA_profiler_process_network_reference_extraction_execution_blocked_during_review": true,
+  "new_university_handoff_CONTROL_AUTHORIZATION_ATTEMPT_SSH_upload_proof_or_paid_compute": false,
+  "next_step": "Prepare a separate university handoff from the unchanged accepted native capsule and v6 worker. Bind the explicit metadata policy and V6 resource kind, test cold/payload/live-guard/serial/storage/same-SSH collection paths, then consider one new exact scoped university approval. No target scope exists; never reuse consumed helpers, claims, retrieval connections or clocks.",
+  "nineteen_rehashed_completion_trace_policy_proof_fixtures_still_refuse": [
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_completion_claim0/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_completion_claim1/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_completion_claim2/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_completion_claim3/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_completion_claim4/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_trace_metadata_c0/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_trace_metadata_c1/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_trace_metadata_c2/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_trace_metadata_c3/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_trace_metadata_c4/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_trace_metadata_c5/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_trace_metadata_c6/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_trace_metadata_c7/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_policy_descripto0/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_policy_descripto1/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_policy_descripto2/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_policy_descripto3/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_policy_descripto4/copy",
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_rehashed_policy_descripto5/copy"
+  ],
+  "no_new_full_model_backward_or_native_capture": true,
+  "old_V5_resource_kind_rejected": true,
+  "old_actual_raw_trace_refusal_incomplete_flags_and_consumed_claim_unchanged": true,
+  "old_consumed_claim": {
+    "bytes": 258,
+    "mtime_ns": 1794615662552820275,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/linux10603-final/ATTEMPT.json",
+    "sha256": "3829d1b634b32053f73560610f2e78d5a835e7193eaea885b55211e6c2536c32"
+  },
+  "old_incomplete_worker": {
+    "bytes": 7960,
+    "mtime_ns": 1794615626728850415,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/linux10603-final/attended-6ub5e6wx/saved/results/components/0/worker.json",
+    "sha256": "5601f2c3eadbfa6d140f2aa36b1d077003c251275153a2cc0be3a234ab13af73"
+  },
+  "old_target_bytes_modes_nsmtime_unchanged": 192,
+  "passed": true,
+  "preserved_inputs": {
+    "bytes": 15218878,
+    "mtime_ns": 1794618679221357573,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/preserved-inputs.json",
+    "sha256": "d0110e8622d1472290476814a8c4d6238e25fac72e62f312a85838737c1c56a4"
+  },
+  "prior_preserved_hashes_reverified": 66797,
+  "profile_and_fresh_replay_exact_for_complete_CPU_cohort": true,
+  "raw_and_descriptor_published_before_actual_strict_refusal_verified": true,
+  "raw_record_counts": [
+    75,
+    249,
+    75,
+    249
+  ],
+  "research_or_training_admitted": false,
+  "review_source": {
+    "bytes": 17328,
+    "mtime_ns": 1794619157934895334,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/review/review_saved.py",
+    "sha256": "9f98330ac9c0c8681a54d8df0d37150c425a1aafaf886386764f72b0d52471a2"
+  },
+  "saved_GPU_fixture_metadata_proof": {
+    "CPU_only": false,
+    "CUDA_forward_and_backward_qualified": false,
+    "actual_CUDA_execution_admitted": false,
+    "annotations_qualify_as_kernels": false,
+    "association_mode": "CPU-parent-and-autograd-identity",
+    "base_proof_kind": "one-fixed-SDPA-correlated-backend-v3",
+    "cross_thread_anchors": [
+      {
+        "added_CPU_indices": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83
+        ],
+        "backward_thread": 2,
+        "engine_index": 30,
+        "forward_chain": [
+          1,
+          2
+        ],
+        "forward_thread": 1,
+        "host_interval_checked": true,
+        "node_index": 31,
+        "node_name": "ScaledDotProductEfficientAttentionBackward0",
+        "producer_index": 2,
+        "producer_name": "aten::_scaled_dot_product_efficient_attention",
+        "sequence_nr": 1
+      }
+    ],
+    "default_family_was_assumed": false,
+    "device": "cuda",
+    "fresh_process_replay_inferred": false,
+    "full_model_candidate_adopted": false,
+    "historical_worker_completion_inferred": false,
+    "installed_binary_source_commit_verified": false,
+    "kernel_match_fields": [
+      "raw_event_index",
+      "recorded_CPU_correlation_id",
+      "recorded_GPU_linked_correlation_id"
+    ],
+    "kernel_name_or_duration_used_as_identity": false,
+    "kernel_witnesses": [
+      {
+        "CUDA_event_index": 19,
+        "GPU_correlation_id": 22,
+        "GPU_linked_correlation_id": 16,
+        "device": 0,
+        "end_ns": 1794615626369256115,
+        "host_correlation_id": 16,
+        "host_event_index": 17,
+        "host_link_index": 0,
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+        "resource_id": 7,
+        "start_ns": 1794615626369248947
+      },
+      {
+        "CUDA_event_index": 24,
+        "GPU_correlation_id": 35,
+        "GPU_linked_correlation_id": 18,
+        "device": 0,
+        "end_ns": 1794615626369266931,
+        "host_correlation_id": 18,
+        "host_event_index": 22,
+        "host_link_index": 0,
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+        "resource_id": 7,
+        "start_ns": 1794615626369265555
+      },
+      {
+        "CUDA_event_index": 26,
+        "GPU_correlation_id": 41,
+        "GPU_linked_correlation_id": 10,
+        "device": 0,
+        "end_ns": 1794615626371373393,
+        "host_correlation_id": 10,
+        "host_event_index": 9,
+        "host_link_index": 0,
+        "name": "fmha_cutlassF_f32_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel<float, cutlass::arch::Sm80, true, 64, 64, 64, true, true>::Params)",
+        "resource_id": 7,
+        "start_ns": 1794615626369274931
+      },
+      {
+        "CUDA_event_index": 88,
+        "GPU_correlation_id": 63,
+        "GPU_linked_correlation_id": 528,
+        "device": 0,
+        "end_ns": 1794615626371381969,
+        "host_correlation_id": 528,
+        "host_event_index": 45,
+        "host_link_index": 0,
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+        "resource_id": 7,
+        "start_ns": 1794615626371374129
+      },
+      {
+        "CUDA_event_index": 89,
+        "GPU_correlation_id": 80,
+        "GPU_linked_correlation_id": 530,
+        "device": 0,
+        "end_ns": 1794615626371391761,
+        "host_correlation_id": 530,
+        "host_event_index": 50,
+        "host_link_index": 0,
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+        "resource_id": 7,
+        "start_ns": 1794615626371382641
+      },
+      {
+        "CUDA_event_index": 90,
+        "GPU_correlation_id": 93,
+        "GPU_linked_correlation_id": 532,
+        "device": 0,
+        "end_ns": 1794615626371400881,
+        "host_correlation_id": 532,
+        "host_event_index": 53,
+        "host_link_index": 0,
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+        "resource_id": 7,
+        "start_ns": 1794615626371392433
+      },
+      {
+        "CUDA_event_index": 91,
+        "GPU_correlation_id": 105,
+        "GPU_linked_correlation_id": 535,
+        "device": 0,
+        "end_ns": 1794615626371426577,
+        "host_correlation_id": 535,
+        "host_event_index": 57,
+        "host_link_index": 0,
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> >, std::array<char*, 3ul> >(int, at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> >, std::array<char*, 3ul>)",
+        "resource_id": 7,
+        "start_ns": 1794615626371401649
+      },
+      {
+        "CUDA_event_index": 92,
+        "GPU_correlation_id": 119,
+        "GPU_linked_correlation_id": 536,
+        "device": 0,
+        "end_ns": 1794615626371448177,
+        "host_correlation_id": 536,
+        "host_event_index": 59,
+        "host_link_index": 0,
+        "name": "void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::func_wrapper_t<float, at::native::sum_functor<float, float, float>::operator()(at::TensorIterator&)::{lambda(float, float)#1}>, unsigned int, float, 4, 4> >(at::native::ReduceOp<float, at::native::func_wrapper_t<float, at::native::sum_functor<float, float, float>::operator()(at::TensorIterator&)::{lambda(float, float)#1}>, unsigned int, float, 4, 4>)",
+        "resource_id": 7,
+        "start_ns": 1794615626371427281
+      },
+      {
+        "CUDA_event_index": 93,
+        "GPU_correlation_id": 130,
+        "GPU_linked_correlation_id": 544,
+        "device": 0,
+        "end_ns": 1794615626371450289,
+        "host_correlation_id": 544,
+        "host_event_index": 68,
+        "host_link_index": 0,
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+        "resource_id": 7,
+        "start_ns": 1794615626371448913
+      },
+      {
+        "CUDA_event_index": 94,
+        "GPU_correlation_id": 138,
+        "GPU_linked_correlation_id": 545,
+        "device": 0,
+        "end_ns": 1794615626371453233,
+        "host_correlation_id": 545,
+        "host_event_index": 70,
+        "host_link_index": 0,
+        "name": "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1})",
+        "resource_id": 7,
+        "start_ns": 1794615626371450961
+      },
+      {
+        "CUDA_event_index": 95,
+        "GPU_correlation_id": 150,
+        "GPU_linked_correlation_id": 547,
+        "device": 0,
+        "end_ns": 1794615626371467761,
+        "host_correlation_id": 547,
+        "host_event_index": 73,
+        "host_link_index": 0,
+        "name": "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<unsigned char>, std::array<char*, 1ul> >(int, at::native::FillFunctor<unsigned char>, std::array<char*, 1ul>)",
+        "resource_id": 7,
+        "start_ns": 1794615626371454001
+      },
+      {
+        "CUDA_event_index": 96,
+        "GPU_correlation_id": 158,
+        "GPU_linked_correlation_id": 526,
+        "device": 0,
+        "end_ns": 1794615626394436511,
+        "host_correlation_id": 526,
+        "host_event_index": 43,
+        "host_link_index": 0,
+        "name": "fmha_cutlassB_f32_aligned_64x64_k32_sm80(PyTorchMemEffAttention::AttentionBackwardKernel<cutlass::arch::Sm80, float, true, false, false, 64, 64, 32, false>::Params)",
+        "resource_id": 7,
+        "start_ns": 1794615626371468561
+      }
+    ],
+    "kind": "one-fixed-SDPA-correlated-backend-with-overhead-v1",
+    "metadata_CUDA_links_valid": true,
+    "metadata_only": true,
+    "metadata_policy": "fixed-SDPA-profiler-overhead-signature-v1",
+    "native_activity_kind_observed": false,
+    "observed_family": "efficient",
+    "overhead_can_own_launches": false,
+    "overhead_can_parent_CPU_operations": false,
+    "overhead_interpretation": "source-supported strict signature; native activity kind not recorded",
+    "per_kernel_global_unique_correlation_id_assumed": false,
+    "phase_correlated_CUDA_kernel_names": {
+      "fixed-SDPA/backward": [
+        "fmha_cutlassB_f32_aligned_64x64_k32_sm80(PyTorchMemEffAttention::AttentionBackwardKernel<cutlass::arch::Sm80, float, true, false, false, 64, 64, 32, false>::Params)",
+        "void at::native::elementwise_kernel<128, 2, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1}>(int, at::native::gpu_kernel_impl_nocast<at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1}>(at::TensorIteratorBase&, at::native::direct_copy_kernel_cuda(at::TensorIteratorBase&)::{lambda()#3}::operator()() const::{lambda()#7}::operator()() const::{lambda(float)#1} const&)::{lambda(int)#1})",
+        "void at::native::reduce_kernel<512, 1, at::native::ReduceOp<float, at::native::func_wrapper_t<float, at::native::sum_functor<float, float, float>::operator()(at::TensorIterator&)::{lambda(float, float)#1}>, unsigned int, float, 4, 4> >(at::native::ReduceOp<float, at::native::func_wrapper_t<float, at::native::sum_functor<float, float, float>::operator()(at::TensorIterator&)::{lambda(float, float)#1}>, unsigned int, float, 4, 4>)",
+        "void at::native::vectorized_elementwise_kernel<4, at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> >, std::array<char*, 3ul> >(int, at::native::BinaryFunctor<float, float, float, at::native::binary_internal::MulFunctor<float> >, std::array<char*, 3ul>)",
+        "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)",
+        "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<unsigned char>, std::array<char*, 1ul> >(int, at::native::FillFunctor<unsigned char>, std::array<char*, 1ul>)"
+      ],
+      "fixed-SDPA/forward": [
+        "fmha_cutlassF_f32_aligned_64x64_rf_sm80(PyTorchMemEffAttention::AttentionKernel<float, cutlass::arch::Sm80, true, 64, 64, 64, true, true>::Params)",
+        "void at::native::vectorized_elementwise_kernel<4, at::native::FillFunctor<float>, std::array<char*, 1ul> >(int, at::native::FillFunctor<float>, std::array<char*, 1ul>)"
+      ]
+    },
+    "pinned_Kineto_source": "5e7501833f1021ce6f618572d3baf657b6319658",
+    "projected_records": 106,
+    "raw_records": 106,
+    "raw_rows_removed_or_rewritten": false,
+    "raw_trace_kind": "fixed-SDPA-raw-Kineto-correlation-v1",
+    "raw_trace_sha256": "d1b2006c583c6cfc4d8dc0bb0b12e823293222079c740d6d78acb78a72382686",
+    "recorded_host_correlation_links_available": true,
+    "retained_GPU_annotation_indices": [
+      20
+    ],
+    "retained_overhead_indices": [
+      10
+    ],
+    "selection": "original",
+    "timings_usable_for_speed_or_cost": false,
+    "unsupported_backend_action": "refuse and preserve; never force a fallback",
+    "worker_completion_inferred": false
+  },
+  "scientific_core_functions_identical_after_only_version_policy_provider_normalization": true,
+  "source": {
+    "docs/predictor_sdpa_component_v6.md": {
+      "bytes": 6002,
+      "mtime_ns": 1794619014819964817,
+      "path": "docs/predictor_sdpa_component_v6.md",
+      "sha256": "13d40db771dda4369f7869e755ffc422ccd7273648845f497587c3ffba69813d"
+    },
+    "models/predictor_sdpa_component_target_v6.py": {
+      "bytes": 4891,
+      "mtime_ns": 1794618679224637698,
+      "path": "models/predictor_sdpa_component_target_v6.py",
+      "sha256": "07b07931eb5fefb5e61daf639289512d7c0cf6ee80af14ec607a84e7e47c0376"
+    },
+    "models/predictor_sdpa_component_v6.py": {
+      "bytes": 28467,
+      "mtime_ns": 1794618679221775865,
+      "path": "models/predictor_sdpa_component_v6.py",
+      "sha256": "062ff7f6c8bce7c025bcc7aebe62426f089c852a518f32f10e229daedd289339"
+    },
+    "scripts/check_predictor_sdpa_components_v6.py": {
+      "bytes": 3535,
+      "mtime_ns": 1794618679224774032,
+      "path": "scripts/check_predictor_sdpa_components_v6.py",
+      "sha256": "d9766709a8a497cb260b4b4aa3c2f73b8071fc4f3ca29c739d718bcecf0868a6"
+    },
+    "tests/test_predictor_sdpa_component_integration_v6.py": {
+      "bytes": 29318,
+      "mtime_ns": 1794618811756125477,
+      "path": "tests/test_predictor_sdpa_component_integration_v6.py",
+      "sha256": "9b59703ce7401925ea4aff73148b73313c8e687ed929ea2b9fd47b285dac9066"
+    }
+  },
+  "synthetic_resource_cases_not_actual_CUDA_qualification": true,
+  "synthetic_resource_receipt": {
+    "bytes": 909,
+    "mtime_ns": 1794618872673069962,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first/test_target_wrapper_publishes_0/0/component-resource.json",
+    "sha256": "5caef3cd0148338833afaa9e701bab390c51be23a125033a6f5c99824e065e07"
+  },
+  "target_wrapper_and_local_CLI_ASTs_identical_after_version_normalization": true,
+  "test_errors": 0,
+  "test_failures": 0,
+  "test_skips": 0,
+  "test_xml": {
+    "bytes": 10835,
+    "mtime_ns": 1794618875288231683,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v6-20261113/pytest-first.xml",
+    "sha256": "02609f8b4321db9b4ec1f2350f0d816d6390e9ce416317eb2dd41cf5c2d80a7a"
+  },
+  "tests_or_old_suites_repeated_during_review": false,
+  "tests_passed": 61
+}

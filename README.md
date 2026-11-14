@@ -1,5 +1,44 @@
 # V-JEPA Robust Overfitting
 
+**Component tensors pass; result-reader bookkeeping blocks completion (November 13):**
+[All 189 downloaded files and original tensor bounds verify](report/checks/2026-11-13-predictor-sdpa-continuation-v5-target-review.md).
+The profiler metadata correction now passes on the actual trace. The first worker
+finishes, but its parent reader rejects an exact diagnostic-summary comparison;
+the other three workers remain unrun. Next fix and test the reader offline while
+preserving this failed attempt. Full training remains pending. Earlier entries
+are historical snapshots.
+
+**Policy-bound university attempt approved and armed (November 13):**
+[The exact authorization and unused handoff verify locally](report/checks/2026-11-13-predictor-sdpa-continuation-v5-authorization.md).
+Next run the final Mac helper once and keep the Mac awake through up to 25 minutes
+including collection. Accepted native inputs and strict scientific/backend checks
+stay unchanged. No university attempt has started; actual CUDA validation and full
+training remain pending. Earlier entries are historical snapshots.
+
+**Policy-bound university handoff prepared, awaiting approval (November 13):**
+[102 distinct checks and independent saved-data review are covered](report/checks/2026-11-13-predictor-sdpa-continuation-v5-preparation.md).
+The packet uses the accepted native inputs and verified v6 worker. An initial
+test-summary omission is preserved; its corrected packaged check passes separately.
+The final handoff is unarmed. One new scoped approval is needed before university
+work; target CUDA validation and full training remain pending. Earlier entries
+are historical snapshots.
+
+**Component worker v6 passes local integration checks (November 13):**
+[61 checks and independent saved-data review pass](report/checks/2026-11-13-predictor-sdpa-component-v6-local-review.md).
+The separate worker binds the verified profiler policy while preserving numerical,
+retention, startup, resource and replay gates. Four fresh CPU workers replay exactly;
+failed cases retain evidence and remain incomplete. Next prepare the separate
+university handoff. Actual target validation and full training remain pending.
+Earlier entries are historical snapshots.
+
+**Separate profiler metadata correction passes offline checks (November 13):**
+[78 checks and independent saved-data review pass](report/checks/2026-11-13-predictor-sdpa-overhead-v1-local-review.md).
+All 106 raw records stay intact; overhead and GPU phase ranges remain separate
+from CPU ownership and genuine kernel evidence. The saved trace passes the new
+metadata assessment. Historical workers remain incomplete. Next integrate the
+policy into a new component worker and test locally; full training stays pending.
+Earlier entries are historical snapshots.
+
 **Actual university trace retained; exact metadata conflict identified (November 13):**
 [Independent review verifies all 186 downloaded files and passing saved numerical outputs](report/checks/2026-11-13-predictor-sdpa-continuation-v4-target-review.md).
 The first worker retains its raw trace, then refuses a CPU profiler record whose
