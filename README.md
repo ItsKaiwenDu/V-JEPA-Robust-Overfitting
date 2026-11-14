@@ -1,5 +1,35 @@
 # V-JEPA Robust Overfitting
 
+**Actual university trace retained; exact metadata conflict identified (November 13):**
+[Independent review verifies all 186 downloaded files and passing saved numerical outputs](report/checks/2026-11-13-predictor-sdpa-continuation-v4-target-review.md).
+The first worker retains its raw trace, then refuses a CPU profiler record whose
+device index is -1. Upstream source supports an overhead interpretation; later
+backend checks remain unqualified. The attempt is consumed. Next correct and test
+the metadata contract offline; full training remains pending. Earlier entries
+are historical snapshots.
+
+**Capture-before-validation university attempt approved and armed (November 13):**
+[The scoped authorization and unused handoff verify locally](report/checks/2026-11-13-predictor-sdpa-continuation-v4-authorization.md).
+Next run the final Mac helper once and keep the Mac awake through up to 25 minutes
+including collection. Accepted native inputs and strict scientific/backend checks
+stay unchanged. No university attempt has started; actual CUDA validation and full
+training remain pending. Earlier entries are historical snapshots.
+
+**Capture-before-validation university handoff ready, awaiting approval (November 13):**
+[82 handoff checks and independent saved-data review pass](report/checks/2026-11-13-predictor-sdpa-continuation-v4-preparation.md).
+The separate package uses the frozen v5 worker and accepted native inputs. Cold
+guards, payload/imports, deadlines and retained-failure collection verify locally.
+One new scoped approval and fresh host status are required before arming. Actual
+CUDA validation and full training remain pending. Earlier entries are historical.
+
+**Raw profiler metadata now survives semantic rejection in local checks (November 13):**
+[79 focused checks and independent saved-data review pass](report/checks/2026-11-13-predictor-sdpa-retention-v1-local-review.md).
+The separate v5 worker saves bounded raw bytes before applying the frozen validator.
+Malformed metadata still refuses; numerical and backend rules stay strict. Next
+prepare the separate university handoff. The previous real failure remains
+incomplete, and actual CUDA validation/full training remain pending.
+Earlier entries are historical snapshots.
+
 **Component numbers pass; raw profiler metadata blocks completion (November 13):**
 [Independent review verifies the complete download and saved numerical outputs](report/checks/2026-11-13-predictor-sdpa-continuation-v3-target-review.md).
 The first worker stops in raw-event validation before its trace is saved; the

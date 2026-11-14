@@ -1,5 +1,121 @@
 # Research Progress Reports
 
+## 2026-11-13 — Actual trace retained; profiler metadata conflict identified
+
+The approved v4 attempt finishes with exit 1, and its same-SSH collection is
+complete. All 186 files (152,749,518 logical bytes), hashes, private modes and
+nanosecond modification times verify. The full storage proof, strict startup,
+precision/runtime and input identities pass. Eight saved FP32 arrays pass the
+original elementwise numerical bounds against four canonical FP64 arrays; both
+untimed and profiled returns match accepted native bytes exactly.
+
+The new retention path saves all 106 raw records before the strict validator
+refuses. Its exact saved trace reproduces the failure: record 10, Activity Buffer
+Request, is CPU metadata with device_index -1. This is the only basic raw-field
+violation. PyTorch 2.8.0's pinned Kineto source maps that overhead name and returns
+-1 for overhead device IDs, supporting an interpretation rather than proof of
+the exact installed binary source or activity kind. No raw row is changed or
+removed and no later association/backend success is inferred. The older missing
+trace's exact offending field remains unknown.
+
+The first worker stays incomplete; components 1/2/3 do not run. Later completion
+flags and missing backend/resource receipts stay missing. All 4,915 preparation,
+15 armed and 61,648 prior hashes reverify; the attempt/old claims remain consumed.
+No tests/science rerun, frozen source correction, new SSH/retrieval, cleanup or
+paid compute occurs. Candidate rejection, full-training and financial gates stay.
+
+Next prepare and test a separately versioned metadata contract offline, retaining
+all raw rows and strict CPU-owner/CUDA-link/backend rules. No blanket negative-ID
+allowance or name-only dropping. No new university attempt is authorized.
+[Target and source review](report/checks/2026-11-13-predictor-sdpa-continuation-v4-target-review.md).
+
+## 2026-11-13 — Capture-before-validation continuation authorized
+
+The user approved the exact linux10603 scope and supplied matching fresh GPU
+status: expected RTX 3070 UUID/driver, 8192 MiB total, 94 MiB used and no listed
+compute process. Consent/status are saved privately, and a separate mode-0600
+authorization binds the unchanged final control. Approval persists for this scope.
+The handoff is armed and unused, without an attempt, session, connection or upload.
+
+Independent cold review blocks scientific imports/process/network/remote execution,
+reverifies 4,915 sealed preparation files and 61,648 prior hashes, and checks exact
+payload, pinned public host key, helper, authorization and resource limits. The
+existing 82-test result remains; no tests or scientific cohorts repeat. Payload
+stays the 36,042,589-byte capsule, 36 overlays (378,550 bytes) and 1,082,159-byte
+bootstrap. Publication before semantic validation and the v5 resource kind are bound.
+
+Next run the final local Mac helper once, enter the university password promptly,
+and keep Mac/lid/Terminal awake/open through up to 25 minutes including login and
+collection. Scope permits 15 minutes including the full 2.5 GiB proof, one FP64
+reference and four serial component workers of at most 120 seconds each; then up
+to ten minutes / 3 GiB same-SSH collection. Any result or partial output needs
+independent review; never repeat the launch. No new full-model capture, retries,
+retrieval, cleanup, installations, held-out pixels or paid compute. Old evidence,
+clocks, candidate rejection, full-training gates and financial caps/holds stay.
+[Authorization review](report/checks/2026-11-13-predictor-sdpa-continuation-v4-authorization.md).
+
+## 2026-11-13 — Capture-before-validation university handoff prepared
+
+82 focused handoff checks pass on the first run with zero failures/errors/skips.
+The separate unarmed package uses the frozen v5 worker and unchanged 36,042,589-byte
+native-input capsule. Its 36 overlays total 378,550 bytes; stdin bootstrap is
+1,082,159 bytes. Cold authorization, exact payload/imports, GPU guard wiring,
+storage/setup/serial clocks, predecessor receipts and same-SSH collection verify.
+The v5 publication plan/descriptor and resource identity are bound explicitly.
+
+Two actual new small CPU cohorts complete eight fresh workers and two canonical
+FP64 references. Saved-only review verifies 64 new returns, eight reference arrays,
+original numerical/native-value checks, raw counts 75/249/75/249 per cohort and
+exact profile/fresh replay. Another codec fixture reuses the prior local injected
+failure; its eight returns/four reference arrays and raw metadata copy exactly,
+stay incomplete and still refuse. This is not new target execution.
+
+Independent review blocks scientific/profile/process/network/reference/extraction
+execution and reverifies 61,648 prior hashes and all four lineage claims/clocks.
+The latest real missing trace and exact unknown field remain unresolved; no prior
+result is relabeled. The frozen 79-test retention and older suites are not rerun.
+Mocked resource/status cases qualify no actual CUDA behavior. The final handoff
+has no authorization, attempt, connection, upload, proof or university work yet.
+
+Next obtain one new scoped university approval plus fresh linux10603 status,
+save and review the armed unused handoff, then provide one local Mac command.
+Scope stays 15 minutes including the full 2.5 GiB proof and four serial component
+workers, followed by ten minutes / 3 GiB same-SSH collection, with a 25-minute client
+ceiling including login. Original scientific/resource gates, candidate rejection,
+full-training status and financial caps/holds remain unchanged. No paid compute.
+[Preparation review](report/checks/2026-11-13-predictor-sdpa-continuation-v4-preparation.md).
+
+## 2026-11-13 — Bounded raw metadata retention verified offline
+
+79 focused tests pass on the first run, with zero failures/errors/skips. A separate
+extractor preserves bounded serializable raw values without semantic acceptance.
+The v5 worker saves the raw envelope and hash/count/runtime descriptor before
+reading back those bytes and invoking the frozen validator. Invalid metadata still
+refuses and remains incomplete. Nonportable values or unavailable APIs identify
+the record/field without inventing a replacement envelope.
+
+Four fresh small CPU workers pass numerical/native, backend, flags/input and exact
+profile/fresh replay checks, with one canonical FP64 reference. Raw counts stay
+75/249/75/249. Three additional actual CPU workers exercise injected association,
+API and invalid-field failures. The invalid raw field is demonstrably saved before
+strict rejection. It is synthetic and does not identify the lost university record.
+
+Independent saved review blocks new science/profile/process/network/reference/
+extraction execution and verifies 61,172 prior hashes, 56 unique return arrays,
+16 reference arrays and complete local collection metadata/copies. Seven actual
+CPU workers and four reference builds span separate cases. Old target file bytes,
+modes/ns timestamps, consumed claim, missing trace and unknown field stay unchanged.
+No old suite repeats; original scientific and target/CLI validation bodies remain
+unchanged after the narrow instrumentation/version normalization. CUDA simulations
+qualify no real target execution or capacity.
+
+Next prepare a separate university handoff from the accepted native capsule and
+verified v5 worker, test its full cold/payload/guard/clock/storage/collection path,
+then request one scoped approval. No new target control, authorization, attempt,
+connection, upload, proof or paid work is created here. Full-training gates,
+candidate rejection and all financial caps/holds remain unchanged.
+[Local retention review](report/checks/2026-11-13-predictor-sdpa-retention-v1-local-review.md).
+
 ## 2026-11-13 — Native component values pass; raw metadata validation blocks completion
 
 The university attempt exits 1 after the first original component. Same-SSH

@@ -1,0 +1,353 @@
+{
+  "actual_CUDA_or_target_PyTorch28_compatibility_capacity_speed_qualified": false,
+  "actual_final_CPU_workers": [
+    {
+      "index": 0,
+      "pid": 16866,
+      "raw_trace": {
+        "bytes": 25736,
+        "mtime_ns": 1794611757219463666,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/components-v50/cohort/0/events.jsonl",
+        "sha256": "09586f48e7962ee014be3dc640e0e08985c83e636af7fb16b5ba4b705ab5e908"
+      },
+      "worker": {
+        "bytes": 8580,
+        "mtime_ns": 1794611757223672200,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/components-v50/cohort/0/worker.json",
+        "sha256": "dd7173f10f673c5687db77ab6c905ed2d72aee16ccb0f9d9be48d2a94ca8d179"
+      }
+    },
+    {
+      "index": 1,
+      "pid": 16883,
+      "raw_trace": {
+        "bytes": 85261,
+        "mtime_ns": 1794611758307883243,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/components-v50/cohort/1/events.jsonl",
+        "sha256": "bd0951dd57050e8924ad38d2818f6205390938cf9344d6d8edb715a329f96d01"
+      },
+      "worker": {
+        "bytes": 9655,
+        "mtime_ns": 1794611758317660392,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/components-v50/cohort/1/worker.json",
+        "sha256": "0429849c715da4eb887fac07954f9541722207b2980c7ce419b525bba2191190"
+      }
+    },
+    {
+      "index": 2,
+      "pid": 16890,
+      "raw_trace": {
+        "bytes": 25736,
+        "mtime_ns": 1794611759444368399,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/components-v50/cohort/2/events.jsonl",
+        "sha256": "c450b4ef1daed854a50c5644b04990487f7ee3a3eb5dda609d2bdeb9a61de790"
+      },
+      "worker": {
+        "bytes": 9049,
+        "mtime_ns": 1794611759462178616,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/components-v50/cohort/2/worker.json",
+        "sha256": "9bda6f006e43dac8e3a26449590cf46e3deb6d8fe9f19b3b0c855cf72efa6042"
+      }
+    },
+    {
+      "index": 3,
+      "pid": 16907,
+      "raw_trace": {
+        "bytes": 85261,
+        "mtime_ns": 1794611760620838857,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/components-v50/cohort/3/events.jsonl",
+        "sha256": "56be24f8a15c4664f8eb458c0411597429001dcbe24a7ce7a314183445cd14c6"
+      },
+      "worker": {
+        "bytes": 10129,
+        "mtime_ns": 1794611760662498113,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/components-v50/cohort/3/worker.json",
+        "sha256": "f255e26119e980b4e8c1307f012085e6d5a621bec87511aa8f4a2f5ddc89dbf5"
+      }
+    }
+  ],
+  "actual_fresh_CPU_processes": 7,
+  "actual_local_failure_cases": [
+    {
+      "CPU_only": true,
+      "available_actual_arrays": 8,
+      "error": "injected-association-refusal-v5",
+      "no_completed_worker_or_resource": true,
+      "raw_trace_available": true,
+      "reference_arrays": 4,
+      "semantic_raw_metadata_valid": true,
+      "synthetic_failure_injection": true,
+      "worker": {
+        "bytes": 7686,
+        "mtime_ns": 1794611762480709389,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/worker.json",
+        "sha256": "166c0b6b7448692e054f7ceb65ba3f69070c4029d759b6e6a2221db0d4db0da0"
+      }
+    },
+    {
+      "CPU_only": true,
+      "available_actual_arrays": 8,
+      "error": "injected-missing-raw-API",
+      "no_completed_worker_or_resource": true,
+      "raw_trace_available": false,
+      "reference_arrays": 4,
+      "semantic_raw_metadata_valid": false,
+      "synthetic_failure_injection": true,
+      "worker": {
+        "bytes": 7398,
+        "mtime_ns": 1794611764094356541,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/worker.json",
+        "sha256": "a3164e16b3357d89b322978cc018a825654937ece55398135a04d5519107706a"
+      }
+    },
+    {
+      "CPU_only": true,
+      "available_actual_arrays": 8,
+      "error": "Invalid raw event fields or legacy CUDA fallback.",
+      "no_completed_worker_or_resource": true,
+      "raw_trace_available": true,
+      "reference_arrays": 4,
+      "semantic_raw_metadata_valid": false,
+      "synthetic_failure_injection": true,
+      "worker": {
+        "bytes": 7705,
+        "mtime_ns": 1794611765150495471,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_actual_worker_saves_inval0/0/worker.json",
+        "sha256": "144392510eb94b84cb7b35e67f71a1a5e00e30fef8d90fbe6462cc9e4f491b05"
+      }
+    }
+  ],
+  "actual_unique_return_arrays_verified": 56,
+  "all_new_sources_and_local_artifacts_now_frozen_by": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/sealed-local-inputs.json",
+  "candidate_rejection_and_financial_caps_holds_reconciliation_unchanged": true,
+  "canonical_reference": {
+    "bytes": 2676,
+    "mtime_ns": 1794611757181134195,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/components-v50/cohort/reference/reference.json",
+    "sha256": "9072ef247a00d1fd1c518a5776ce45d33358800910111caf202e5e6ac3fe5030"
+  },
+  "canonical_reference_arrays_verified": 16,
+  "canonical_reference_builds_across_separate_cases": 4,
+  "date": "2026-11-13",
+  "extractor_does_not_invoke_semantic_acceptance": true,
+  "first_run_passed": true,
+  "fourteen_invalid_resource_fixtures_still_refuse": [
+    "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_resource_readback_refuses0",
+    "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_resource_readback_refuses1",
+    "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_resource_readback_refuses10",
+    "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_resource_readback_refuses11",
+    "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_resource_readback_refuses12",
+    "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_resource_readback_refuses13",
+    "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_resource_readback_refuses2",
+    "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_resource_readback_refuses3",
+    "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_resource_readback_refuses4",
+    "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_resource_readback_refuses5",
+    "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_resource_readback_refuses6",
+    "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_resource_readback_refuses7",
+    "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_resource_readback_refuses8",
+    "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_resource_readback_refuses9"
+  ],
+  "fourteen_synthetic_invalid_retained_traces_still_refuse": [
+    {
+      "bytes": 4670,
+      "mtime_ns": 1794611756074152067,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_invalid_serializable_valu0/raw/events.jsonl",
+      "sha256": "3f4d668ba9b030925bbe5d142874cb4a8ee2db419d89a3a6d36293f01f4afca6"
+    },
+    {
+      "bytes": 4673,
+      "mtime_ns": 1794611756075704189,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_invalid_serializable_valu1/raw/events.jsonl",
+      "sha256": "119866003f149476f6d97ead77c3587644d90aeacb08a988d53638cbf22f696a"
+    },
+    {
+      "bytes": 4666,
+      "mtime_ns": 1794611756087262001,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_invalid_serializable_valu10/raw/events.jsonl",
+      "sha256": "88fc5445f4ac742c91e0b1d325eb10c5f3bb42bedeefa1cb8dc166e06651df9f"
+    },
+    {
+      "bytes": 4667,
+      "mtime_ns": 1794611756088566874,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_invalid_serializable_valu11/raw/events.jsonl",
+      "sha256": "f1dcbabc5fad4efbbd343180b144b6a9e122713df2f6058dec9606268363f6f2"
+    },
+    {
+      "bytes": 4669,
+      "mtime_ns": 1794611756089793330,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_invalid_serializable_valu12/raw/events.jsonl",
+      "sha256": "bdc1bc1e80cbee391484e66a81a8f60975a82fdceb62be2b2ff2d809889554cb"
+    },
+    {
+      "bytes": 4654,
+      "mtime_ns": 1794611756091022244,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_invalid_serializable_valu13/raw/events.jsonl",
+      "sha256": "ad50206be40f65e47fa3621a0f0e9946ad00be8875787987c795ebbc2422dff1"
+    },
+    {
+      "bytes": 4671,
+      "mtime_ns": 1794611756077063187,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_invalid_serializable_valu2/raw/events.jsonl",
+      "sha256": "d1b8ace431ce46461e82643f2f40b8958bf5bb6775e091b17956e9e8a6c4fed8"
+    },
+    {
+      "bytes": 4671,
+      "mtime_ns": 1794611756078358559,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_invalid_serializable_valu3/raw/events.jsonl",
+      "sha256": "4be03b615d1eb984a71b96ba6e256a2b6e9f4f7444dac7200aa27275b7c5e30d"
+    },
+    {
+      "bytes": 4672,
+      "mtime_ns": 1794611756079587432,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_invalid_serializable_valu4/raw/events.jsonl",
+      "sha256": "a4f8931d2f6d0dc90108a0c7d3e2522d6cd445dbd38c91a57521587af710b794"
+    },
+    {
+      "bytes": 4670,
+      "mtime_ns": 1794611756080861971,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_invalid_serializable_valu5/raw/events.jsonl",
+      "sha256": "9dfecf2d25ae314083c0ef6dcbd2952a50c36f2798f98529fbbb5b6022b3680d"
+    },
+    {
+      "bytes": 4653,
+      "mtime_ns": 1794611756082028886,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_invalid_serializable_valu6/raw/events.jsonl",
+      "sha256": "e8666a0d38435aee0935a2d6f1872411981027eef5dfd38728e13378a1c56d0e"
+    },
+    {
+      "bytes": 4670,
+      "mtime_ns": 1794611756083354633,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_invalid_serializable_valu7/raw/events.jsonl",
+      "sha256": "83276b72cc2720a41609443fed9c0b47805cfd64f912d9e605e40ce887725e64"
+    },
+    {
+      "bytes": 4668,
+      "mtime_ns": 1794611756084630214,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_invalid_serializable_valu8/raw/events.jsonl",
+      "sha256": "ba71b6bfc44607d3dc41ee6c56ab15b3b8a7b48e0e62c861fdf63404d174c18e"
+    },
+    {
+      "bytes": 4671,
+      "mtime_ns": 1794611756085954837,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_invalid_serializable_valu9/raw/events.jsonl",
+      "sha256": "63861d028cefb7228b59669fc30ca28c76aea85168629e72838af87ad647a1de"
+    }
+  ],
+  "frozen_validator_and_original_bounds_unchanged": true,
+  "invalid_metadata_is_injected_not_the_missing_target_trace": true,
+  "kind": "raw-metadata-before-validation-v1-local-saved-review",
+  "local_codec_exercise_is_not_university_grant": true,
+  "local_collection_bytes_modes_nsmtime_and_copied_arrays_verified": true,
+  "local_collection_files_verified": 56,
+  "local_collection_response": {
+    "bytes": 665124,
+    "mtime_ns": 1794611763201950768,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_actual_raw_CPU_artifacts_0/local-codec-response",
+    "sha256": "ac1d69c8591a9141db21954477cdaeb271d4e574af503d0d06547430cd0bbe47"
+  },
+  "model_autograd_SDPA_CUDA_profiler_process_network_reference_extraction_execution_blocked_during_review": true,
+  "new_university_handoff_CONTROL_AUTHORIZATION_ATTEMPT_SSH_upload_proof_or_paid_compute": false,
+  "next_step": "Prepare a separate university handoff from accepted native capsule and v5 worker; test complete cold/payload/live-guard/serial/storage/collection path before any new exact scoped university approval. Never reuse consumed helpers/claims or retrieve/reset old attempts.",
+  "no_new_full_model_backward_or_native_capture": true,
+  "old_consumed_claim": {
+    "bytes": 260,
+    "mtime_ns": 1794610485666490501,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v3-20261113/linux10603-final/ATTEMPT.json",
+    "sha256": "95a15a08e35721a7840e26915544b5599d3656635b2527162b3ec595236770b0"
+  },
+  "old_incomplete_worker": {
+    "bytes": 7669,
+    "mtime_ns": 1794610465739077154,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v3-20261113/linux10603-final/attended-i5g38p2o/saved/results/components/0/worker.json",
+    "sha256": "c7b4b53b595ac312ecd31b0fadb3e35741a01509dc5787df433165ac17a2dd44"
+  },
+  "old_target_bytes_modes_nsmtime_unchanged": 189,
+  "old_unknown_field_and_missing_trace_remain_unknown_missing": true,
+  "passed": true,
+  "preserved_inputs": {
+    "bytes": 13889403,
+    "mtime_ns": 1794611604100156097,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/preserved-inputs.json",
+    "sha256": "0eb9fc4b5bc32a0edbba81338717a6fe350cb3a3f655396c06f215d3bf887cde"
+  },
+  "prior_preserved_hashes_reverified": 61172,
+  "profile_and_fresh_replay_exact_for_complete_CPU_cohort": true,
+  "raw_and_descriptor_published_before_actual_strict_refusal_verified": true,
+  "raw_record_counts": [
+    75,
+    249,
+    75,
+    249
+  ],
+  "research_or_training_admitted": false,
+  "review_source": {
+    "bytes": 15315,
+    "mtime_ns": 1794612074623977125,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/review/review_saved.py",
+    "sha256": "4417433e34d32afc341890fb1873a02445daa53badb1876ba0c81cec931a5db5"
+  },
+  "scientific_core_functions_identical_after_only_retention_normalization": true,
+  "source": {
+    "docs/predictor_sdpa_retention_v1.md": {
+      "bytes": 5726,
+      "mtime_ns": 1794612074623813333,
+      "path": "docs/predictor_sdpa_retention_v1.md",
+      "sha256": "c2b19ee1a87342f77421ea4d2e2f14a858953b7d165cf3275bc68f5b71f85ce8"
+    },
+    "models/predictor_sdpa_component_target_v5.py": {
+      "bytes": 4891,
+      "mtime_ns": 1794611755023364920,
+      "path": "models/predictor_sdpa_component_target_v5.py",
+      "sha256": "c378be399d5039d7b85f376795a23412fa338d6a42d95cf47f3fb8aba422a1e6"
+    },
+    "models/predictor_sdpa_component_v5.py": {
+      "bytes": 28171,
+      "mtime_ns": 1794611755023072296,
+      "path": "models/predictor_sdpa_component_v5.py",
+      "sha256": "b9090f53df68deb34ca5e8814b856cb1785073a65f46088c8247577e89bd4acf"
+    },
+    "models/predictor_sdpa_raw_capture_v1.py": {
+      "bytes": 3984,
+      "mtime_ns": 1794611755022548713,
+      "path": "models/predictor_sdpa_raw_capture_v1.py",
+      "sha256": "6da98072ac5f38e1939f0d470970b7f68b6d63b7d475c23ac5d4d3e60c6ac9e4"
+    },
+    "scripts/check_predictor_sdpa_components_v5.py": {
+      "bytes": 3535,
+      "mtime_ns": 1794611755023780336,
+      "path": "scripts/check_predictor_sdpa_components_v5.py",
+      "sha256": "40eae754cd00891255a0bf1e8a51c24e8a91b5fdbe0362136cac5539166e0e06"
+    },
+    "tests/test_predictor_sdpa_component_integration_v5.py": {
+      "bytes": 24325,
+      "mtime_ns": 1794611755024386918,
+      "path": "tests/test_predictor_sdpa_component_integration_v5.py",
+      "sha256": "afff0d84e3f3118c1922deaacbe6a6a6ce5bcccca73084d267af960d98bf58f4"
+    },
+    "tests/test_predictor_sdpa_raw_capture_v1.py": {
+      "bytes": 5759,
+      "mtime_ns": 1794611755024495210,
+      "path": "tests/test_predictor_sdpa_raw_capture_v1.py",
+      "sha256": "836a2833c6fbeb7810185c9e55f384df9681cfb0d598fa07c9686090000f389f"
+    }
+  },
+  "synthetic_resource_cases_not_actual_CUDA_qualification": true,
+  "synthetic_resource_receipt": {
+    "bytes": 908,
+    "mtime_ns": 1794611762693822246,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first/test_target_wrapper_publishes_0/0/component-resource.json",
+    "sha256": "c773bc904fcc879d9ca32f99a60d510e0f81eea642f11b98229778f277accae4"
+  },
+  "target_wrapper_and_local_CLI_ASTs_identical_after_version_normalization": true,
+  "test_errors": 0,
+  "test_failures": 0,
+  "test_skips": 0,
+  "test_xml": {
+    "bytes": 30321,
+    "mtime_ns": 1794611765363686745,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-retention-v1-20261113/pytest-first.xml",
+    "sha256": "9094e25664ae8562acdfdc964ab942438b65f62255b237e8ebc34fb89a32228f"
+  },
+  "tests_or_old_suites_repeated_during_review": false,
+  "tests_passed": 79
+}

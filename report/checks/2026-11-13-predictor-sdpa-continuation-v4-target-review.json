@@ -1,0 +1,421 @@
+{
+  "GPU_samples_match_expected_host_and_only_owned_process": true,
+  "GPU_sampling_is_not_continuous_exclusivity_proof": true,
+  "actual_component_arrays_verified": 8,
+  "actual_input_metadata_matches_frozen_native_layouts": true,
+  "all_current_sources_and_target_evidence_frozen_by": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/target-review/sealed-target-review.json",
+  "all_frozen_scientific_collectors_and_handoffs_unchanged": true,
+  "archive_bytes_hashes_modes_nsmtime_reverified": true,
+  "archive_logical_bytes": 152749518,
+  "archive_members": 186,
+  "armed_files_reverified": 15,
+  "authorization": {
+    "bytes": 1689,
+    "mode": 384,
+    "mtime_ns": 1794615240348990196,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/linux10603-final/AUTHORIZATION.json",
+    "sha256": "deb5f491741de1ae6c5707e544c7e50c0bd884a77571e1653bf4b08410aa60e3"
+  },
+  "canonical_FP64_references_built": 1,
+  "canonical_reference_arrays_verified": 4,
+  "capsule_inputs_reverified": 118,
+  "cause": "The first original component passes unchanged elementwise numerical gates and retains both return sets plus all 106 raw profiler records before semantic validation. Raw record 10, Activity Buffer Request, is CPU metadata with device_index -1. The frozen validator requires all device_index fields to be nonnegative and reproduces the recorded refusal on the exact saved trace. No record is removed, relabeled or normalized, and later backend/association checks are not assumed to pass. This identifies the present failure only; the older missing-trace attempt still has no exact offending row available.",
+  "claim": {
+    "bytes": 258,
+    "mode": 420,
+    "mtime_ns": 1794615662552820275,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/linux10603-final/ATTEMPT.json",
+    "sha256": "3829d1b634b32053f73560610f2e78d5a835e7193eaea885b55211e6c2536c32"
+  },
+  "collection_complete": true,
+  "component_backend_or_performance_qualified": false,
+  "component_error": "Invalid raw event fields or legacy CUDA fallback.",
+  "component_log": {
+    "bytes": 1573,
+    "mode": 384,
+    "mtime_ns": 1794615626803850117,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/linux10603-final/attended-6ub5e6wx/saved/component-0.log",
+    "sha256": "8ff6c968163cfe4daea0cd03a352085bf0bf9ead9d47db0e528a3754a64ee9f5"
+  },
+  "component_values_pass_original_bounds": true,
+  "component_wall_seconds": 5.0290843630209565,
+  "component_workers_complete": 0,
+  "component_workers_started": 1,
+  "consumed": true,
+  "control": {
+    "bytes": 114025,
+    "mode": 384,
+    "mtime_ns": 1794612891067835768,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/linux10603-final/CONTROL.json",
+    "sha256": "562a06509d7606802649a1d82fdd50d075680bc6263e5f0eb5ff1e9cabbbd6d5"
+  },
+  "date": "2026-11-13",
+  "exact_offending_row_and_field_identifiable": true,
+  "final_GPU_peak_receipt_missing": true,
+  "final_flags_and_inputs_completion_checks_not_reached": true,
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "fresh_process_replay_not_run": true,
+  "frozen_native_receipt": {
+    "boundary_sha256": "51da0691bd3a71367e0abdece1f8d6f8c1fb13eb933c06e5c7aa6c02b69d76da",
+    "marker_sha256": "68d43c70c422cee91427f76d0e45cb588f402fa7bf903f0c3389f3b58bc9da24",
+    "pid": 3093152,
+    "role": "capture",
+    "worker_sha256": "23f386ab1374e4573f1d9475cea0cca5cedd39f7149f99ae1d359d5b4e8170bf"
+  },
+  "frozen_semantic_refusal_reproduced_from_saved_raw_bytes": true,
+  "full_model_candidate_rejected_entries_unchanged": 3724,
+  "installed_binary_source_commit_verified": false,
+  "kind": "retained-raw-component-continuation-v4-target-saved-review",
+  "model_autograd_SDPA_CUDA_profile_process_network_reference_execution_blocked": true,
+  "native_output_logical_hashes": {
+    "profiled": {
+      "dk": "f6badf9b4684abe2bbbb5744c84fffa27a4bc6ab7f7d5002c37cb2d51213a9d1",
+      "dq": "f2c5d2f614ae9861926a5a9e27ac209677e64bdfd0d4dd74189e0936ba202b0f",
+      "dv": "0afa0f1458dc8f5ee51024dc07776ac36cdd09f04b9d9923177e6ba4d0c852ef",
+      "output": "f9e5f261427639855a010c5c174006e1b3df850099a67e066b8610f53bb1f6f7"
+    },
+    "untimed": {
+      "dk": "f6badf9b4684abe2bbbb5744c84fffa27a4bc6ab7f7d5002c37cb2d51213a9d1",
+      "dq": "f2c5d2f614ae9861926a5a9e27ac209677e64bdfd0d4dd74189e0936ba202b0f",
+      "dv": "0afa0f1458dc8f5ee51024dc07776ac36cdd09f04b9d9923177e6ba4d0c852ef",
+      "output": "f9e5f261427639855a010c5c174006e1b3df850099a67e066b8610f53bb1f6f7"
+    }
+  },
+  "new_full_model_backwards": 0,
+  "new_native_captures": 0,
+  "new_paid_compute": false,
+  "new_research_or_training_admitted": false,
+  "next_step": "Offline review the pinned upstream representation of profiler overhead and design/test separately versioned metadata handling that retains every raw row and preserves strict CPU-owner/CUDA-link/backend gates. Do not simply permit all negative device IDs or discard rows by name. Preserve this consumed refusal; no target retry, retrieval, cleanup or new university attempt is authorized.",
+  "numerical_checks": {
+    "profiled": {
+      "dk": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 3.4826833479484494e-11,
+        "max_tolerance_ratio": 0.00016256409068091725,
+        "passed": true,
+        "relative_l2_error": 3.6205087270809233e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dq": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.033925839332677e-11,
+        "max_tolerance_ratio": 5.160648470673458e-05,
+        "passed": true,
+        "relative_l2_error": 3.2586804252676402e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dv": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.5785024031998165e-11,
+        "max_tolerance_ratio": 7.775571467563141e-05,
+        "passed": true,
+        "relative_l2_error": 3.369197943691921e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "output": {
+        "atol": 2e-05,
+        "failed_elements": 0,
+        "max_absolute_error": 1.6000549245109852e-05,
+        "max_tolerance_ratio": 0.5541802668312376,
+        "passed": true,
+        "relative_l2_error": 1.452763659319289e-06,
+        "rtol": 0.0001,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      }
+    },
+    "untimed": {
+      "dk": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 3.4826833479484494e-11,
+        "max_tolerance_ratio": 0.00016256409068091725,
+        "passed": true,
+        "relative_l2_error": 3.6205087270809233e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dq": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.033925839332677e-11,
+        "max_tolerance_ratio": 5.160648470673458e-05,
+        "passed": true,
+        "relative_l2_error": 3.2586804252676402e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dv": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.5785024031998165e-11,
+        "max_tolerance_ratio": 7.775571467563141e-05,
+        "passed": true,
+        "relative_l2_error": 3.369197943691921e-06,
+        "rtol": 0.002,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "output": {
+        "atol": 2e-05,
+        "failed_elements": 0,
+        "max_absolute_error": 1.6000549245109852e-05,
+        "max_tolerance_ratio": 0.5541802668312376,
+        "passed": true,
+        "relative_l2_error": 1.452763659319289e-06,
+        "rtol": 0.0001,
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      }
+    }
+  },
+  "offending_record": {
+    "correlation_id": 10,
+    "device": "cpu",
+    "device_index": -1,
+    "end_ns": 1794615626369165709,
+    "end_thread": 1,
+    "fwd_thread": 0,
+    "index": 10,
+    "is_async": false,
+    "legacy_cuda_elapsed_us": -1,
+    "linked_correlation_id": 0,
+    "name": "Activity Buffer Request",
+    "resource_id": 0,
+    "scope": 0,
+    "sequence_nr": -1,
+    "start_ns": 1794615626368063215,
+    "thread": 1,
+    "user_annotation": false
+  },
+  "older_missing_trace_exact_field_remains_unknown": true,
+  "one_original_worker_saved_array_bytes_match_native": true,
+  "overlay_files_reverified": 36,
+  "passed": true,
+  "pinned_kineto_gitlink_sha1": "5e7501833f1021ce6f618572d3baf657b6319658",
+  "pinned_pytorch_tag": "v2.8.0",
+  "prior_preparation_sealed_files_reverified": 4915,
+  "prior_preserved_hashes_reverified": 61648,
+  "profiled_saved_array_bytes_match_untimed_and_native": true,
+  "publication_before_semantic_validation_verified_against_frozen_worker": true,
+  "raw_capture_validator_refusal_logged": true,
+  "raw_field_violations": [
+    {
+      "field": "device_index",
+      "row": 10,
+      "value": -1
+    }
+  ],
+  "raw_trace_descriptor": {
+    "bytes": 39241,
+    "encoding": "single-JSON-envelope",
+    "file": "events.jsonl",
+    "format": "fixed-SDPA-raw-Kineto-correlation-v1",
+    "records": 106,
+    "saved_before_semantic_validation": true,
+    "sha256": "d1b2006c583c6cfc4d8dc0bb0b12e823293222079c740d6d78acb78a72382686",
+    "torch_version": "2.8.0+cu128"
+  },
+  "raw_trace_not_filtered_normalized_reconstructed_or_synthesized": true,
+  "raw_trace_records": 106,
+  "raw_trace_saved": true,
+  "relative_L2_diagnostic_summaries": {
+    "dk": {
+      "absolute_difference": 8.470329472543003e-22,
+      "recorded": 3.6205087270809225e-06,
+      "reviewed": 3.6205087270809233e-06,
+      "used_for_acceptance": false
+    },
+    "dq": {
+      "absolute_difference": 8.470329472543003e-22,
+      "recorded": 3.2586804252676394e-06,
+      "reviewed": 3.2586804252676402e-06,
+      "used_for_acceptance": false
+    },
+    "dv": {
+      "absolute_difference": 8.470329472543003e-22,
+      "recorded": 3.369197943691922e-06,
+      "reviewed": 3.369197943691921e-06,
+      "used_for_acceptance": false
+    },
+    "output": {
+      "absolute_difference": 8.470329472543003e-22,
+      "recorded": 1.452763659319288e-06,
+      "reviewed": 1.452763659319289e-06,
+      "used_for_acceptance": false
+    }
+  },
+  "remaining_association_backend_gates_not_evaluated_counterfactually": true,
+  "response": {
+    "bytes": 152936174,
+    "mode": 384,
+    "mtime_ns": 1794615662492452773,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/linux10603-final/attended-6ub5e6wx/response.bin",
+    "sha256": "b2affd91c56732b05ecb33d9a43cecd91d1a163cf51e74a0fd8c617782fd64ff"
+  },
+  "response_bytes": 152936174,
+  "review_source": {
+    "bytes": 19107,
+    "mode": 384,
+    "mtime_ns": 1794616153564256382,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/target-review/review_saved.py",
+    "sha256": "ced85861c95b00946a893e6fe84e0de4a65ba787f9ff95d40b62c5cab4233c49"
+  },
+  "same_connection": true,
+  "saved_plan_bytes_changed": false,
+  "saved_plan_translated_in_memory_only": true,
+  "saved_raw_activity_kind_not_recorded": true,
+  "session": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/linux10603-final/attended-6ub5e6wx",
+  "session_work_seconds": 35.814368668943644,
+  "source_correction_during_review": false,
+  "startup_configure_once_verified": true,
+  "startup_receipt": {
+    "allocator_cap_bytes": 7516192768,
+    "allocator_fraction": 0.9153876238137426,
+    "configure_calls": 1,
+    "cuda_initialized_after": true,
+    "cuda_initialized_before": false,
+    "device": "cuda",
+    "device_total_bytes": 8210939904,
+    "kind": "native-SDPA-component-startup-v2",
+    "pid": 298699,
+    "policy": "shared-fp64-native",
+    "precision": {
+      "cublas_workspace_config": ":4096:8",
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": true,
+      "cudnn_enabled": true,
+      "cudnn_tf32": false,
+      "deterministic_algorithms": true,
+      "deterministic_warn_only": false,
+      "matmul_precision": "highest",
+      "matmul_tf32": false
+    }
+  },
+  "storage_proof_passed": true,
+  "target_attempt_passed": false,
+  "target_input_pins": {
+    "bytes": 82872,
+    "mode": 384,
+    "mtime_ns": 1794616193115909729,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/target-review/target-input-pins.json",
+    "sha256": "f57745dd35d3658150f39d4ba0dabf11fc58fe3878140f9b57c75f0a8b4bf9d1"
+  },
+  "tests_rerun": false,
+  "transport_exit_status": 1,
+  "unstarted_component_indices": [
+    1,
+    2,
+    3
+  ],
+  "upstream_interpretation": "The observed name/device_index pair is consistent with the overhead representation in the Kineto source pinned by the official PyTorch v2.8.0 tag. This is a source-supported interpretation, not a recorded native activity-kind witness or proof of the exact installed wheel source commit.",
+  "upstream_source_review": {
+    "bytes": 4659,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/target-review/upstream-review.json",
+    "sha256": "7d1020bb45b0036f01f8ba55cf4159ef3412af9e292430b8533877e7ea70c035"
+  },
+  "upstream_sources": {
+    "cupti_strings": {
+      "full_blob_rehashed": false,
+      "partial_line_range": [
+        55,
+        110
+      ],
+      "receipt": {
+        "bytes": 2104,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/target-review/upstream-sources/cupti_strings.json",
+        "sha256": "8d093966624f453aed95bad25062c432486d2bf62e70788dd3d833217a9d8a80"
+      },
+      "upstream_blob_sha1": "554dfc396c6302498aea25ec7309534ace87a872",
+      "url": "https://github.com/pytorch/kineto/blob/5e7501833f1021ce6f618572d3baf657b6319658/libkineto/src/cupti_strings.cpp"
+    },
+    "overhead_type": {
+      "full_blob_rehashed": true,
+      "partial_line_range": null,
+      "receipt": {
+        "bytes": 8041,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/target-review/upstream-sources/overhead_type.json",
+        "sha256": "50083c1bdac172937e73c8c238848961900f341741c91296a53287f93d6bf40d"
+      },
+      "upstream_blob_sha1": "8ba9e7717925521907d35a4b69f192a3eeb8e29f",
+      "url": "https://github.com/pytorch/kineto/blob/5e7501833f1021ce6f618572d3baf657b6319658/libkineto/src/CuptiActivity.h"
+    },
+    "profiler_overhead": {
+      "full_blob_rehashed": true,
+      "partial_line_range": null,
+      "receipt": {
+        "bytes": 58804,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/target-review/upstream-sources/profiler_overhead.json",
+        "sha256": "69791c16b8029553c6ebe76a5a4e7d4a84cae69170999ebcb836429f84dbc4d4"
+      },
+      "upstream_blob_sha1": "75e80def66ff6eb0325d1c6d3875023741ff5887",
+      "url": "https://github.com/pytorch/kineto/blob/5e7501833f1021ce6f618572d3baf657b6319658/libkineto/src/CuptiActivityProfiler.cpp"
+    },
+    "pytorch_collection_v280": {
+      "full_blob_rehashed": true,
+      "partial_line_range": null,
+      "receipt": {
+        "bytes": 59430,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/target-review/upstream-sources/pytorch_collection_v280.json",
+        "sha256": "0a8578af468b7f26131213f7784c07c3cb5c34e9a3dfe2c7e79ed5c4082982ea"
+      },
+      "upstream_blob_sha1": "72bffcd8b8cea8d72f2f697cad18b6b1085fb5a4",
+      "url": "https://github.com/pytorch/pytorch/blob/v2.8.0/torch/csrc/profiler/collection.cpp"
+    },
+    "pytorch_profiler_kineto_v280": {
+      "full_blob_rehashed": true,
+      "partial_line_range": null,
+      "receipt": {
+        "bytes": 41067,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/target-review/upstream-sources/pytorch_profiler_kineto_v280.json",
+        "sha256": "949c72baa517c3f27c8d16974e337217d80eee05964c7cd6efe4b40723128b3e"
+      },
+      "upstream_blob_sha1": "17aef05da085ca1072ead819ddd15a7b82500b45",
+      "url": "https://github.com/pytorch/pytorch/blob/v2.8.0/torch/csrc/autograd/profiler_kineto.cpp"
+    }
+  },
+  "worker_profile_replay_completion_flag_stays_false": true
+}
