@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Separate saved-result reader passes offline regression checks (November 13):**
+[102 focused tests and independent saved-data review pass](report/checks/2026-11-13-predictor-sdpa-receipts-v1-local-review.md).
+Tensor acceptance fields stay exact; diagnostic relative L2 values use the existing
+bookkeeping bound. The saved first GPU worker satisfies the new retrospective
+reader, while its historical failed run stays unchanged. Next integrate the policy
+into a new worker version and test it locally. Full training remains pending.
+Earlier entries are historical snapshots.
+
 **Component tensors pass; result-reader bookkeeping blocks completion (November 13):**
 [All 189 downloaded files and original tensor bounds verify](report/checks/2026-11-13-predictor-sdpa-continuation-v5-target-review.md).
 The profiler metadata correction now passes on the actual trace. The first worker

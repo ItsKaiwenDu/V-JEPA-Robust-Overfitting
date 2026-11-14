@@ -1,5 +1,35 @@
 # Research Progress Reports
 
+## 2026-11-13 — Separate numerical receipt policy and saved reader verified
+
+102 focused tests pass on the first run, with zero errors/failures/skips. Both
+canonical FP64 and passing-original summaries keep all fields, strict types,
+original tensor bounds and exact acceptance values. Only diagnostic relative L2
+uses the existing 1e-12/1e-14 bookkeeping rule. No value is ignored or rewritten;
+real bound violations, malformed summaries and forged passing claims still refuse.
+The saved reader's AST preserves all other frozen v6 gates apart from two explicit
+comparison statements and report plumbing. No generator or worker source changes.
+
+The pinned saved-data CLI validates all 195 target descriptors and the prior failed
+review before assessing the first saved original worker. Its new retrospective
+assessment passes, including metadata and resource checks. The frozen old reader
+still rejects; the consumed failed parent, completed producer and three unrun
+components stay distinct and unchanged. This creates no worker/cohort admission
+or inferred backend, speed or replay qualification.
+
+Independent saved-only review reverifies 74,836 prior hashes, all target bytes/
+modes/nsmtime, 104 unique existing return arrays and 16 reference arrays. All twelve
+old CPU workers from three cohorts retain math/serial/fresh-replay checks, and all
+17 saved rehashed failure fixtures still refuse. No scientific worker, model,
+reference, SDPA, CUDA, profiler, process/network or university execution occurs.
+Old suites are not repeated or counted together. All six old claims, evidence and
+financial/training gates stay. No target handoff is prepared or authorized.
+
+Next integrate the policy into a separately versioned worker, bind policy/source/
+plan/resource identities and test complete local execution before considering any
+new university scope. Never reuse old helpers, grants, claims or clocks.
+[Review](report/checks/2026-11-13-predictor-sdpa-receipts-v1-local-review.md).
+
 ## 2026-11-13 — Tensor and metadata checks pass; parent reader rejects summary equality
 
 The v5 attempt is consumed and exits 1, with complete same-SSH collection. All 189

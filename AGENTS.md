@@ -2,6 +2,42 @@
 
 ## Current stage
 
+LATEST November 13: SEPARATE NUMERICAL RECEIPT POLICY / SAVED READER VERIFIED OFFLINE.
+Read report/checks/2026-11-13-predictor-sdpa-receipts-v1-local-review.json/md and
+ docs/predictor_sdpa_receipts_v1.md first. New pure numerical_receipts_v1 and
+saved_reader_v1 assess existing bytes ONLY. POLICY fixed-SDPA-numerical-receipt-bookkeeping-v1.
+Allfour returns/allfields/strictJSONtypes required. Recomputed+recorded elementwise
+checks pass/zero failed; exact shape/bounds/pass/failurecount/maxerror/maxratio stay.
+ONLY relative_l2_error uses EXISTING BOOK rtol1e-12/atol1e-14; exact zero-error
+requires zeros. Explicit new receipt rule, no tensor tolerance expansion, no dropped/
+rewritten metric. Both canonical-FP64 and passing-original sites covered.
+Saved deep reader AST same frozenV6 except two comparison statements+report plumbing.
+All provenance/native/layout/alias/FP64/runtime/precision/startup/flags/input/backend/
+serial/freshreplay/completion gates stay. Unchanged stdlibV3 CUDAresource checks.
+102 focused tests FIRST RUN PASS zero errors/failures/skips; allfive pretest pins match.
+No previous suites repeated/accumulated. Coldpolicy onlymath. 17saved rehashed
+failurefixtures still refuse: malformeddiagnostics/arrays/source/runtime/input/
+trace/backend/startup/falsecompletion/serial/freshreplay. Tests+CLI+review block
+model/autograd/SDPA/CUDA/profile/reference/process/network work. NO new science.
+Independent review74836prior hashes+195target byte/mode/nsmtime descriptors;
+104unique EXISTING returns+16EXISTING FP64arrays across threeoldCPUcohorts (12old
+workerPIDs) and oldtarget. Zero new scientificworkers/refs. Newguarded savedCLI
+pins failedreview704ec1836d6eb35b178085166d4fd537a8865a17c1caadc25f4d5fd7ca2649b5.
+Target firstworker passes NEW RETROSPECTIVE assessment/resource, not oldadmission.
+Oldfrozenloader stillrefuses; claim8e5614/parentfailed/producercomplete/1/2/3unrun stay.
+Remote parent's exactrecomputedscalar/reductionmechanism stillunknown. Allsix
+consumedclaims/bytes/modes/nsmtime/clocks unchanged. No old status rewritten.
+Allnew source/tests/evidence frozen by raw predictor-sdpa-receipts-v1-20261113/
+sealed-local-inputs.json. NO new worker/targetoperator/handoff/CONTROL/AUTH/ATTEMPT/
+SSH/upload/proof/retrieval/cleanup/install/heldout/paidwork. No targetscope authorized.
+Candidate3724/fulltraining/financialcaps-holds-reconciliation unchanged. Never reuse/
+reset oldhelper/grant/claim/clock or close failedhistoricalcohort.
+NEXT integrate tested numericalpolicy into SEPARATELY VERSIONED component worker;
+explicit policy/source/plan/resource/receipt identities, unchanged scientificgates,
+complete LOCAL execution tests before any universityhandoff/proposal. Keep new
+retrospective reader distinct from production admission. Usercommits self;never
+stage/commit/push. Earlier LATEST entries historical.
+
 LATEST November 13: V5 CONSUMED; TENSORS/METADATA PASS, PARENT SUMMARY EQUALITY REFUSES.
 Read report/checks/2026-11-13-predictor-sdpa-continuation-v5-target-review.json/md first.
 Final session attended-vlbwjaqq, claim
