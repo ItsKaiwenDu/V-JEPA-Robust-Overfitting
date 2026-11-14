@@ -2,6 +2,122 @@
 
 ## Current stage
 
+LATEST November 14: SMALL-UPSTREAM FORWARD-PRESERVING INTEGRATION VERIFIED LOCALLY.
+Read report/checks/2026-11-14-predictor-forward-preserving-upstream-v1-local-review.json/md
+and docs/predictor_forward_preserving_upstream_v1.md first. Newseparate module/tests
+predictor_forward_preserving_upstream_v1. Existingnativeguard+8callCPUprototype
+BYTEUNCHANGED; mathbackward delegated verbatim, originalforward viaunchanged
+nativeguardedcall composedONLYinto instance-private F alias. No upstreamglobalF/
+methodidentity/guardpredicate/registeredtrainingpolicy change. Distinctlocalmarker
+restored. Readonly nativeTask/root observations undernative lock, NO native._admit
+for mathadmission (wouldfabricaterecomputation). Actualnativewrappers alone append
+call-thread evidence. No addedouterhook. Fullrestoration normal/primary/refusal.
+FourREALsmallupstream model comparisons: masks19/23 x creator/otherthread; each
+originalbefore/candidate/originalafter=12tiny model evals. Checkpointed2encoder+
+2predictorblocks;ONEdraw/twofamilies, NOT8drawEOT8. Predictions/loss/targets/native
+L1cotangents bitwise equal. Full tinyinputbound passes maxratio0.00392966345<1;
+maxabs1.28056854e-9. Modelstate/versions/parametergrads absent/restoration verify.
+Each evaluation16native rows:8primary+8actualrecomp. Candidate8prototypecalls:
+4initialVJPs+4recompute;4distinctinnerGraphTasks/nativeouterroot/leafhooks verify.
+Missingcheckpoint STILL oldguardrefuses emptycallthreads; originalfamilycoverage
+and foreigngraphs stillrefuse. 13DISTINCTcheckscovered, initial12PASS/1negative
+fixtureassertFAIL (foreigninMATHalsoflagrefusal); ONLYfixture isolatesoriginalflags,
+ONEtargetedcorrectedtestPASS. Never claimfirstsuiteclean; no fullsuite/positive
+modelrepetition. Operator/thresholds unchanged afterfirstsource; oldfailure/log/source
+preserved. IndependentNumPyreview120actualFP32arrays/nativeL1/fullinput/ownership;
+NO model/autograd/SDPA/CUDA/process/network/newreference inreview. 737priorsealed
+inputs+245actualtarget descriptors unchanged. NewinputsFROZEN by raw predictor-
+forward-preserving-upstream-v1-20261114/sealed-inputs.json. Runtime2.14.1CPU/arm64;
+no2.8CUDA/pretrained/EOT8/optimizer/performance/adoption qualification. Candidate3724/
+financialcaps/holds/reconciliation/fulltraininggates unchanged. No nativepassing
+worker receipt emitted; actualcustomderivativehasdistinctlocalcontextidentity.
+NEXT LOCAL ONLY prepare SEPARATE explicit eight-draw/two-family integration scope:
+two predictorblocks*8draws*2families*2checkpoint=64forwardcalls. Do NOT silently
+widen frozenCPU8call resourcebound. Reuse frozenarithmetics/nativeguard with new
+boundedentry/identity; localactualEOT8 original predictions/nativecotangents/
+fullinputbounds/ownedroot/allnestedscopes mustverify before any targethandoff.
+No newuniversityoperator/approval/SSH/helper/upload/proof/install/cleanup/heldout/
+paidwork. Oldgrants/claims/clocks immutable. No repeatedmanualhost/GPUchecks for
+localstage; usercommits self, never stage/commit/push. EarlierLATEST historical.
+
+LATEST November 14: FORWARD-PRESERVING PUBLIC-MATH VJP TINY CPU PROTOTYPE VERIFIED.
+Read report/checks/2026-11-14-predictor-forward-preserving-cpu-v1-local-review.json/md
+and docs/predictor_forward_preserving_cpu_v1.md first. Separate models/
+predictor_forward_preserving_cpu_v1.py + tests/test_predictor_forward_preserving_cpu_v1.py.
+Explicit tinyCPUcalls only; no modelpatch/trainingpolicy/targetentry. Original
+publicSDPAforward with explicit grad-enabled eligibility, unusedgraph discarded;
+firstorder publicmathVJP on original QKV layouts/alias+actualincomingcotangent.
+No loss/cotangentpatch/smoothing/privatebackward/fabricatedstate. Existing readonly
+GraphTaskidentity inspection (asoldguard) used, no missingAPI/threadfallback.
+Own observed outerroot + distinctinnerroot/threeleafhooks; checkpointcalls must
+belongoutertask; allhooks finallyremoved. Actual loss/inputversions and QKVversions/
+flags/restoration; gradient singleuse, postconsume forwardsrefused. CPUtiny caps
+1batch/2heads/32tokens/features/128KiBbackings/8calls. Universityhosts/CUDA/FP64/
+meta/targetgeometry/no-grad/autocast/inference/higherderivative/reentrantcheckpoint/
+unowned/foreign/mutated/incomplete/reusedcontexts refuse; no automaticfallback.
+First25checks PASS; addversion/consumedguards+4edgecases,29 PASS; retain exactinput
+layouts inindependent directreferencefixture, final29 PASS. ZERO failures/skips/
+errors; never sumcounts. Allstages/logs/source/actualarrays preserved. Arithmetic
+Function AST unchanged acrossstages. Sixfinal tinycases:4near/exactzero nativeL1
+(direct+nonreentrantcheckpoint) and2chained. Originalforward/predictions/loss/native
+cotangent bitwise equal; actualoldmathroundingswitches in4fixtures. ActualnewVJP
+bitwise directpublicmath; originalinputbounds pass maxratio0.000719138<1.
+Independentreview120savedFP32arrays; FOURexplicit additional tinyNumPyFP64formula
+refs/16arrays. NO model/autograd/SDPA/CUDA/process/network inreview, but recordthese
+analyticalevaluations honestly; not no-new-reference claim. 332priorsealedinputs/
+245actualtarget byte/mode/nsmtime descriptors unchanged. Existingtraining/study/
+router/nativeGraphTaskguard unchanged. Newsource/tests/arrays/reviews FROZEN by raw
+predictor-forward-preserving-cpu-v1-20261114/sealed-inputs.json. ActuallocalTorch
+2.14.1/Python3.11.16/NumPy2.4.6arm64; no target2.8/CUDA qualification. Original
+candidate3724/financialcaps/holds/reconciliation/fulltraininggates unchanged.
+NEXT LOCAL ONLY prepare separate small-upstream model integration using instance-
+local predictor routing and UNCHANGED native GraphTask ownership guard. Explicit
+prototype scope is not model integration. Check exactforward/context/nativeL1
+cotangents, checkpoint/nestedownership and originalfullinputbounds; do not weaken
+oldguard or registertrainingpolicy. Stop locally if publiccomputation cannotpreserve
+requiredproperties. No targethandoff/approval until localmodelintegration verified.
+No SSH/helper/upload/proof/cleanup/install/heldout/paidwork; no oldgrant/claim/clock
+reuse. Reuse establishedhost/GPU status; no repeatedmanualrequests atlocalstage.
+Userannotation clarified: priorquestion was researchquestion, not askinguser toanswer.
+Usercommits self;never stage/commit/push. EarlierLATEST historical.
+
+LATEST November 14: FORWARD-PRESERVING FULL-MODEL FOLLOW-UP PLANNED OFFLINE.
+Read report/checks/2026-11-14-predictor-forward-preserving-vjp-v1-offline-review.json/md,
+docs/predictor_forward_preserving_vjp_v1.md and configs/predictor_forward_preserving_vjp_v1.json.
+Completed four-worker component cohort CLOSED/PASS; do not repeat it. Prior native
+math-forward candidate3724 staysrejected. Saved elevenL1cotangentchanges/ninepairs;
+fourcellg10 passesoriginalbound, g01fails3739; BOTHorders+nonzerointeraction retained.
+G10 retainsmathforwardstate/replacesexternalcotangent, isNOTproposednewnativeroute.
+OnefrozenSDPAcall pass isNOTwholemodelqualification. NewHYPOTHESIS: preserve exact
+originalforwardvalues and nativeL1cotangents, use publicmathVJP onlypredictor.
+Explicit CUSTOMdiagnosticderivative, notclaim originalkernelbackward identity;
+internalmathstate maydiffer. Firstorderonly; no privateAPI/fabricatedstate/
+externalcotangentpatch/smoothedloss/toleranceexpansion/ownershipguardbypass.
+ProposalINERT authorizedfalse/no targetexecution/prototype/operator/helper/AUTH/
+ATTEMPT. No newscience/arrays/references/tests/SSH/upload/proof/install/cleanup/paidwork.
+Saved-only stdlibbuilder+independentreview verifies3priorreporthashes viaexisting
+77097manifest, exactsaveddecomposition,313currentsealedinputs/245targetdescriptors.
+Study/router/numericalbounds/priorclaims/outcomes unchanged. Newplanninginputs
+sealed by raw predictor-forward-preserving-vjp-v1-20261114/sealed-inputs.json.
+NEXT LOCAL ONLY implement SEPARATE tinyCPUprototype and necessary newoperator tests:
+originalforward/context exact; direct+checkpointed independentFP64/publicmathVJP;
+nearzero/exactzero nativeL1 predictions/cotangents unchanged; layouts/alias/versions/
+flags/hooks/restoration; explicit EVERYGraphTask/owner/thread; firstorder/errorrefusal.
+Refuseuniversityhosts/CUDA/targetsize beforewrites. Do not mutatefrozenrouter or
+registertrainingpolicy. Ifcannotpreserveforward/context/ownership with publicAPIs,
+STOPpath locally. Onlyafterlocalfeasibility prepareconcrete unarmedtargetscope.
+Futureproposed nativeoriginal+newroute initial EOT8gate, exactpredictions/native
+cotangents and originalfullinputbound; anyfailure STOPcandidate beforemorework;
+conditionalfreshreplayonlyifbothinitialgatespass. G10cannotreplacefreshnativeworker.
+No target approval ask now. Existing grantsconsumed; no helper/claim/clock reset.
+Retain passingoriginalpolicy asfallback; no assumed speed/budgetadmission. All
+research/attack/optimizer/recovery/hardware/budgetgates and financecaps/holds/
+reconciliation unchanged. Userfrustrated repeatedmanualchecks: REUSE knownhost/GPU
+identities and suppliedstatus; relyon futurelive launcher guard. Askmanualoutput
+ONLY access/identitychange orunexpectedfailure; no statusrequest forthislocalstage.
+Never agentSSH/helperlaunch; usercommits self, never stage/commit/push.
+EarlierLATEST historical.
+
 LATEST November 14: FIXED-INPUT CUDA COMPONENT COHORT COMPLETE, INDEPENDENTLY VERIFIED.
 Read report/checks/2026-11-14-predictor-sdpa-continuation-v6-target-review.json/md
 first. Exact V6grant consumed, claim

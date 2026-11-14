@@ -1,0 +1,182 @@
+{
+  "SSH_upload_storage_proof_cleanup_installation_or_paid_work_permitted": false,
+  "authorized": false,
+  "automatic_retries": 0,
+  "backend_adopted": false,
+  "bookkeeping_bounds": {
+    "atol": 1e-14,
+    "rtol": 1e-12
+  },
+  "component_bounds": {
+    "dk": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dq": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dv": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "output": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    }
+  },
+  "conceptual_backward": "bar_q,bar_k,bar_v = VJP(public_math_SDPA,q,k,v; actual_bar_z)",
+  "conceptual_forward": "z = original_SDPA(q,k,v), with original observed execution context, layouts and FP32 values",
+  "custom_VJP_is_explicit_diagnostic_derivative": true,
+  "date": "2026-11-14",
+  "decision_branches": {
+    "all_later_correctness_resource_and_budget_gates_pass": "Only a separate reviewed research-policy decision can admit full training.",
+    "correctness_passes_but_measured_cost_does_not_fit": "Keep as diagnostic evidence only; do not train or assume speed from component times.",
+    "local_cannot_preserve_forward_or_ownership_with_public_APIs": "Stop this implementation path before target work; retain the passing original execution policy.",
+    "new_target_forward_or_gradient_or_replay_gate_fails": "Keep rejected and stop this candidate path; return to original-policy cost/design feasibility."
+  },
+  "double_backward_qualification": false,
+  "evidence": {
+    "completed_component_review": {
+      "bytes": 131637,
+      "mode": 384,
+      "mtime_ns": 1794681153503296296,
+      "path": "report/checks/2026-11-14-predictor-sdpa-continuation-v6-target-review.json",
+      "sha256": "856014be9fb1662b89d0adaaadfeff4cb4ffad86227a361e2f0bf6ee217af57c"
+    },
+    "completed_component_seal": {
+      "bytes": 62153,
+      "mode": 384,
+      "mtime_ns": 1794681153673366073,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/target-review/sealed-target-review.json",
+      "sha256": "7f31b8da4e12441eaeb4565c4a9f7c13e3d3f22034320f7c54617e27ef37e88f"
+    },
+    "four_cell_attribution": {
+      "bytes": 17926,
+      "mode": 420,
+      "mtime_ns": 1794023361160781146,
+      "path": "report/checks/2026-11-06-common-cotangent-v1-target-review.json",
+      "sha256": "7a892f9f2a286161cca58b9d7a359a357bc99e36c7e6cbc0d050c9470f1506b2"
+    },
+    "frozen_attention_router": {
+      "bytes": 7839,
+      "mode": 420,
+      "mtime_ns": 1793910190405290472,
+      "path": "models/predictor_eot8_adapter_v1.py",
+      "sha256": "89b7e0c67e88f2f776bb0bb6ad786a2202115e64ffc6c6f9a962381cc2e9a6b8"
+    },
+    "frozen_study": {
+      "bytes": 3157,
+      "mode": 420,
+      "mtime_ns": 1792274203026087336,
+      "path": "configs/study.yaml",
+      "sha256": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1"
+    },
+    "full_model_baseline": {
+      "bytes": 13407,
+      "mode": 420,
+      "mtime_ns": 1794008996335213544,
+      "path": "report/checks/2026-11-06-predictor-eot8-record-target-v2-target-review.json",
+      "sha256": "f58373bae61b90c691943905b2b76db7308b0339e1c404c4683586dc93e5e2bb"
+    },
+    "loss_boundary": {
+      "bytes": 23230,
+      "mode": 420,
+      "mtime_ns": 1794016768352042274,
+      "path": "report/checks/2026-11-06-predictor-boundary-v1-target-review.json",
+      "sha256": "b309378641673e390d6e63e521229c663453c45dffa5e8df30a797afc2b64051"
+    },
+    "ordered_decomposition": {
+      "bytes": 7145,
+      "mode": 384,
+      "mtime_ns": 1794023201350061438,
+      "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/independent-target-review/decomposition.json",
+      "sha256": "833aad2532d486942b81beefcef180f5832e2b07309799ee077571587e8e6ec6"
+    },
+    "prior_hash_manifest": {
+      "bytes": 17561388,
+      "mode": 384,
+      "mtime_ns": 1794634581101717579,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/preserved-inputs.json",
+      "sha256": "5da9df1b74df18cc6b5955d34692d6473dc6bfe5228a5971df143499fd5b216c"
+    }
+  },
+  "evidence_is_not_new_route_qualification": true,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "first_order_only": true,
+  "full_model_bounds": {
+    "input": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "loss": {
+      "atol": 2e-06,
+      "rtol": 1e-05
+    }
+  },
+  "future_full_model_gate": {
+    "already_accepted_controlled_g10_may_stand_in_for_new_native_worker": false,
+    "conditional_replay": "Only after both initial gates pass, fresh original and new-route workers must exactly reproduce their own loss, input gradient, predictions and native cotangents.",
+    "failure_action": "Preserve the refusal and stop before any replay, profiling, attack or optimizer. Retire this candidate route rather than repeating the same comparison.",
+    "initial_work": "One native EOT8 loss/input-gradient pass per worker with hash-bound full predictions/native loss cotangents and original baseline anchors.",
+    "initial_workers": [
+      "fresh-original-baseline",
+      "new-forward-preserving-diagnostic"
+    ],
+    "later_remaining_qualifications": [
+      "full-model actual backend and complete execution evidence",
+      "attack/scoring and parameter/optimizer exact recovery",
+      "chosen-hardware capacity and timed work-unit measurement",
+      "remaining complete-study budget admission"
+    ],
+    "status": "Not implemented or authorized; determine exact payload/resources only after local feasibility passes."
+  },
+  "internal_math_forward_state_can_still_differ": true,
+  "kind": "predictor-forward-preserving-public-math-vjp-proposal-v1",
+  "loss_smoothing_or_tolerance_expansion_permitted": false,
+  "manual_status_policy": "Reuse established host/GPU identities and received status. Future reviewed launchers perform live guards. Request manual output only for an access/identity change or unexpected failure; no repeated status request at this local stage.",
+  "native_original_backward_identity_claimed": false,
+  "new_paid_hold_USD": 0,
+  "new_target_execution_permitted": false,
+  "next_local_prototype_requirements": [
+    "Separate local-only module and identity; refuse university/CUDA/target-sized execution before output creation. Do not edit frozen router or training policy registration.",
+    "Observe exact before/inside/after forward values and execution context on tiny direct and checkpointed CPU examples; preserve tensor layouts/alias/input versions and restore flags/hooks/model state.",
+    "Check public-math VJP against independent tiny FP64 analytical reference and direct public math VJP, using the actual incoming gradient without external cotangent substitution.",
+    "Exercise native L1 residuals near zero and at exact zero; original predictions, targets, loss and actual loss cotangents must remain bitwise equal. Constant cotangents alone do not test the motivating failure.",
+    "Explicitly validate checkpoint recomputation and every nested autograd GraphTask/owner/thread. Never bypass or loosen the existing native graph ownership guard.",
+    "First-order scope, failure cleanup and unsupported-context refusal; no silent fallback, private backend API, retained parameter gradients, fresh random replacements or tolerance changes."
+  ],
+  "no_external_loss_cotangent_patch_or_replay": true,
+  "operator_present": false,
+  "original_prediction_and_native_loss_cotangent_must_match_bitwise": true,
+  "performance_qualified": false,
+  "prior_candidate_failed_input_entries": 3724,
+  "prior_candidate_remains_rejected": true,
+  "private_backward_API_or_fabricated_saved_state_permitted": false,
+  "proposal_only": true,
+  "proposed_identity": "predictor-original-forward-public-math-vjp-diagnostic-v1",
+  "prototype_present": false,
+  "research_admitted": false,
+  "research_question": "Can a predictor-only public-math VJP retain exact original forward values and native L1 output cotangents while satisfying the original full-EOT8 input-gradient bounds?",
+  "reuse_old_helper_grant_claim_or_clock": false,
+  "saved_synthesis": {
+    "bytes": 9926,
+    "mode": 384,
+    "mtime_ns": 1794683147128577375,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-vjp-v1-20261114/evidence-synthesis.json",
+    "sha256": "d3015dee70a1911191846b43bdd19c298dd4c6415a3d8c76e34bffc9add97873"
+  },
+  "scope": "Only predictor attention; encoder, projections, targets, native masked L1 objective, pixels, masks, seeds, weights and splits stay unchanged."
+}

@@ -1,5 +1,28 @@
 # V-JEPA Robust Overfitting
 
+**Small-upstream model integration passes (November 14):**
+[Four actual model comparisons pass the original gradient bounds](report/checks/2026-11-14-predictor-forward-preserving-upstream-v1-local-review.md).
+Original predictions and native L1 cotangents stay exact under the unchanged
+checkpoint/ownership guard, on creator-thread and separate-thread backwards.
+Next verify eight-draw coverage locally before a target handoff; CUDA, performance
+and training remain pending. Earlier entries are historical snapshots.
+
+**Forward-preserving gradient prototype passes locally (November 14):**
+[29 focused CPU checks and independent saved-array review pass](report/checks/2026-11-14-predictor-forward-preserving-cpu-v1-local-review.md).
+Tiny direct/checkpointed examples preserve original predictions and native L1
+cotangents while public-math VJPs meet the original bounds. Chained calls and
+failure cleanup also pass. Next integrate locally with the small upstream model
+and unchanged native ownership guard; full-model/CUDA/training remain pending.
+Earlier entries are historical snapshots.
+
+**Next full-model route selected offline (November 14):**
+[The evidence-based follow-up plan passes independent review](report/checks/2026-11-14-predictor-forward-preserving-vjp-v1-offline-review.md).
+The completed attention comparison is closed. Next build a local-only prototype
+that preserves original forward values while testing a public-math VJP. Explicit
+failure branches stop the route; the old candidate remains rejected and training
+remains gated. No new university run or manual GPU status is needed now. Earlier
+entries are historical snapshots.
+
 **Fixed-input attention check completes on the university GPU (November 14):**
 [All four CUDA workers and their saved evidence pass independent review](report/checks/2026-11-14-predictor-sdpa-continuation-v6-target-review.md).
 All 32 return arrays meet the original bounds against one FP64 reference. Original

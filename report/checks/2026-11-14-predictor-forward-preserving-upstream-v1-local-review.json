@@ -1,0 +1,1109 @@
+{
+  "EOT_draws_per_evaluation": 1,
+  "actual_model_cases": 4,
+  "actual_target_descriptors_unchanged": 245,
+  "cases": [
+    {
+      "all_methods_hooks_and_markers_restored": true,
+      "case": "seed-19-thread-0",
+      "input_check": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.1641532182693481e-09,
+        "max_tolerance_ratio": 0.0034227923616564383,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "math_inner_graph_ids": [
+        5,
+        4,
+        3,
+        2
+      ],
+      "model_state_sha256": "be86221872cd9fa3cc7aad1cd0bfbe0cf071ada9a769d66d446447d3cd7af928",
+      "native_scope": {
+        "call_threads": [
+          8438244032
+        ],
+        "creator_thread": 8438244032,
+        "graph_id": 1,
+        "hook_removed": true,
+        "index": 0,
+        "input_id": 5139236256,
+        "loss_id": 5139242336,
+        "phase": "draw-before",
+        "pid": 50242,
+        "root_hook_thread": 8438244032,
+        "runner_thread": 8438244032,
+        "state": "complete"
+      },
+      "predictions_targets_loss_and_native_L1_cotangents_bitwise_exact": true,
+      "receipt": {
+        "bytes": 127302,
+        "mode": 384,
+        "mtime_ns": 1794685418976284075,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/receipt.json",
+        "sha256": "84eeac6bdfc8a1c3817c10d11b523bc46c1dd77f4a14ef224311c2d325d4115a"
+      }
+    },
+    {
+      "all_methods_hooks_and_markers_restored": true,
+      "case": "seed-19-thread-1",
+      "input_check": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.1641532182693481e-09,
+        "max_tolerance_ratio": 0.0034227923616564383,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "math_inner_graph_ids": [
+        19,
+        18,
+        17,
+        16
+      ],
+      "model_state_sha256": "be86221872cd9fa3cc7aad1cd0bfbe0cf071ada9a769d66d446447d3cd7af928",
+      "native_scope": {
+        "call_threads": [
+          6308261888
+        ],
+        "creator_thread": 8438244032,
+        "graph_id": 15,
+        "hook_removed": true,
+        "index": 0,
+        "input_id": 5138883568,
+        "loss_id": 5139715472,
+        "phase": "draw-before",
+        "pid": 50242,
+        "root_hook_thread": 6308261888,
+        "runner_thread": 6308261888,
+        "state": "complete"
+      },
+      "predictions_targets_loss_and_native_L1_cotangents_bitwise_exact": true,
+      "receipt": {
+        "bytes": 127351,
+        "mode": 384,
+        "mtime_ns": 1794685419236255611,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/receipt.json",
+        "sha256": "eef17d91b81f60166f4d411ed257146e4487353aa5aad2dce727231241f62a34"
+      }
+    },
+    {
+      "all_methods_hooks_and_markers_restored": true,
+      "case": "seed-23-thread-0",
+      "input_check": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.280568540096283e-09,
+        "max_tolerance_ratio": 0.003929663446154437,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "math_inner_graph_ids": [
+        12,
+        11,
+        10,
+        9
+      ],
+      "model_state_sha256": "be86221872cd9fa3cc7aad1cd0bfbe0cf071ada9a769d66d446447d3cd7af928",
+      "native_scope": {
+        "call_threads": [
+          8438244032
+        ],
+        "creator_thread": 8438244032,
+        "graph_id": 8,
+        "hook_removed": true,
+        "index": 0,
+        "input_id": 5138886768,
+        "loss_id": 5139244016,
+        "phase": "draw-before",
+        "pid": 50242,
+        "root_hook_thread": 8438244032,
+        "runner_thread": 8438244032,
+        "state": "complete"
+      },
+      "predictions_targets_loss_and_native_L1_cotangents_bitwise_exact": true,
+      "receipt": {
+        "bytes": 127320,
+        "mode": 384,
+        "mtime_ns": 1794685419110361024,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/receipt.json",
+        "sha256": "a1e1710697bab9993256fcf37706da33817dd305f1a094cb7ce1b9c4912964ea"
+      }
+    },
+    {
+      "all_methods_hooks_and_markers_restored": true,
+      "case": "seed-23-thread-1",
+      "input_check": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.280568540096283e-09,
+        "max_tolerance_ratio": 0.003929663446154437,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "math_inner_graph_ids": [
+        26,
+        25,
+        24,
+        23
+      ],
+      "model_state_sha256": "be86221872cd9fa3cc7aad1cd0bfbe0cf071ada9a769d66d446447d3cd7af928",
+      "native_scope": {
+        "call_threads": [
+          6308261888
+        ],
+        "creator_thread": 8438244032,
+        "graph_id": 22,
+        "hook_removed": true,
+        "index": 0,
+        "input_id": 5139235616,
+        "loss_id": 5139405456,
+        "phase": "draw-before",
+        "pid": 50242,
+        "root_hook_thread": 6308261888,
+        "runner_thread": 6308261888,
+        "state": "complete"
+      },
+      "predictions_targets_loss_and_native_L1_cotangents_bitwise_exact": true,
+      "receipt": {
+        "bytes": 127348,
+        "mode": 384,
+        "mtime_ns": 1794685419358802719,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/receipt.json",
+        "sha256": "bcb8e649bce3feb933a249bf95e6ce217c29542412492d150f642169786865b7"
+      }
+    }
+  ],
+  "date": "2026-11-14",
+  "distinct_checks_covered": 13,
+  "document": {
+    "bytes": 6990,
+    "mode": 384,
+    "mtime_ns": 1794685842422406528,
+    "path": "docs/predictor_forward_preserving_upstream_v1.md",
+    "sha256": "ba560929e7538a526c8bba22c54ab190fa98ce28c51b4fdd65923808b803a12d"
+  },
+  "eight_draw_EOT8_or_pretrained_CUDA_or_research_or_performance_qualified": false,
+  "first_test_log": {
+    "bytes": 3858,
+    "mode": 384,
+    "mtime_ns": 1794685419862249608,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/pytest-first.log",
+    "sha256": "463d76d758d0102fa386c7934609aa29086485bb8ee50405fbf5e1e02795a3d9"
+  },
+  "four_actual_model_comparisons_not_repeated": true,
+  "full_suite_repeated": false,
+  "initial_failed": 1,
+  "initial_failure_preserved": true,
+  "initial_passed": 12,
+  "kind": "local-small-upstream-forward-preserving-VJP-saved-review-v1",
+  "mask_banks": 2,
+  "mask_families_per_bank": 2,
+  "max_input_tolerance_ratio": 0.003929663446154437,
+  "model_evaluations_before_candidate_after": 12,
+  "native_call_threads_not_fabricated_by_math_scope": true,
+  "native_guard_and_existing_prototype_unchanged": true,
+  "native_missing_checkpoint_and_coverage_refusal_checks_passed_in_initial_suite": true,
+  "negative_native_foreign_graph_refusal": {
+    "bytes": 12969,
+    "mode": 384,
+    "mtime_ns": 1794685493335148733,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-targeted/foreign-graph-refusal.json",
+    "sha256": "241c35a4dbdb2fc303f3b7a0c5881476c637584e19d209ab2d1e7ac845c41a13"
+  },
+  "new_target_operator_authorization_upload_or_paid_work": false,
+  "next_step": "Prepare a separate local eight-draw/two-family integration scope and explicit bounded call-count extension before any target handoff. This one-bank integration keeps the frozen prototype eight-call bound and the original native guard; it is not EOT8 evidence.",
+  "no_new_model_autograd_SDPA_CUDA_process_network_or_reference_execution_during_review": true,
+  "old_target_candidate_failed_entries_unchanged": 3724,
+  "only_negative_foreign_graph_fixture_changed": true,
+  "original_full_input_bound_passed": true,
+  "original_predictions_targets_loss_and_L1_cotangents_preserved": true,
+  "passed": true,
+  "prior_sealed_files_reverified": 737,
+  "raw_review": {
+    "bytes": 63097,
+    "mode": 384,
+    "mtime_ns": 1794685704750502509,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/review/review.json",
+    "sha256": "427e7e643201d3d6c6c70f2c95e5338e0a13e4200fb32e9c29a20ffc363edee8"
+  },
+  "raw_review_log": {
+    "bytes": 220,
+    "mode": 384,
+    "mtime_ns": 1794685704750664425,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/review/review.log",
+    "sha256": "8e7f0bf1b68a447e6803aac41b693d3b519ba71d4f064d67df6b4436a7345bbc"
+  },
+  "review_source": {
+    "bytes": 11087,
+    "mode": 384,
+    "mtime_ns": 1794685704274001817,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/review/review_saved.py",
+    "sha256": "88d1f50c1501518f8ad9de88ca9eb4e137cc2325982efab47b3643e031bb37fd"
+  },
+  "runtime_after_tests": {
+    "architecture": "arm64",
+    "numpy": "2.4.6",
+    "python": "3.11.16",
+    "torch_package": "2.14.1"
+  },
+  "saved_FP32_array_count": 120,
+  "saved_FP32_arrays": {
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-cotangent-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685418972383392,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-cotangent-0.npy",
+      "sha256": "291c4163cf1b8e1931c9e3d421fcd297a7d3c4f4ac0fbb61ddbf1aedde540b74"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-cotangent-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685418972245851,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-cotangent-1.npy",
+      "sha256": "304c6f66e59d37fa5cafc09090f0b9d24f8a0a7846d507837b169f693419aac7"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-input.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685418972488058,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-input.npy",
+      "sha256": "fc3cbea79c8527b1755a8baa8262f11e69159776e4e2e475bbfaf83a47dd5e49"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794685418972142518,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-loss.npy",
+      "sha256": "eda94221263c0633badad2dc9d7857fae166607a1bc4d07e074b9e21958c9797"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-pixels.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685418971492565,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-pixels.npy",
+      "sha256": "4d6ac28666752e1680d4835ea834f2da64f46ee5943e0e85fb03880045003867"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-prediction-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685418971624230,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-prediction-0.npy",
+      "sha256": "52b46aa343f07027ea16fbb32c90c54cdb4354711254fb231f28d9e27d4246b8"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-prediction-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685418971877062,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-prediction-1.npy",
+      "sha256": "2e6a3c3562fb28ff81bbf8b5bdf31c354c39e9573a1b247119b9d6aaeec2bc7a"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-selected-target-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685418971742355,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-selected-target-0.npy",
+      "sha256": "9b1d258e943a75035a93e25b4a5cd254f8682232c38fe4036bf03f15b0c8a63e"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-selected-target-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685418972025061,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-selected-target-1.npy",
+      "sha256": "f7207bddcef3f099df8865407dc45217b34a443a9144317258276f487fdbc087"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-targets.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794685418971321566,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/actual-targets.npy",
+      "sha256": "38a8a81a452edf0d39adda45423dddec71f5e575a3032dd32e8f921fd128c92f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-cotangent-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685418973557593,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-cotangent-0.npy",
+      "sha256": "291c4163cf1b8e1931c9e3d421fcd297a7d3c4f4ac0fbb61ddbf1aedde540b74"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-cotangent-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685418973447635,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-cotangent-1.npy",
+      "sha256": "304c6f66e59d37fa5cafc09090f0b9d24f8a0a7846d507837b169f693419aac7"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-input.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685418973669050,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-input.npy",
+      "sha256": "70db48e6937d673b831f0a1662ef274928275ddf72ecf6ad19e650a4d2006d25"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794685418973353344,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-loss.npy",
+      "sha256": "eda94221263c0633badad2dc9d7857fae166607a1bc4d07e074b9e21958c9797"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-pixels.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685418972756056,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-pixels.npy",
+      "sha256": "4d6ac28666752e1680d4835ea834f2da64f46ee5943e0e85fb03880045003867"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-prediction-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685418972870889,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-prediction-0.npy",
+      "sha256": "52b46aa343f07027ea16fbb32c90c54cdb4354711254fb231f28d9e27d4246b8"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-prediction-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685418973123595,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-prediction-1.npy",
+      "sha256": "2e6a3c3562fb28ff81bbf8b5bdf31c354c39e9573a1b247119b9d6aaeec2bc7a"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-selected-target-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685418972981138,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-selected-target-0.npy",
+      "sha256": "9b1d258e943a75035a93e25b4a5cd254f8682232c38fe4036bf03f15b0c8a63e"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-selected-target-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685418973239928,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-selected-target-1.npy",
+      "sha256": "f7207bddcef3f099df8865407dc45217b34a443a9144317258276f487fdbc087"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-targets.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794685418972616099,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/after-targets.npy",
+      "sha256": "38a8a81a452edf0d39adda45423dddec71f5e575a3032dd32e8f921fd128c92f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-cotangent-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685418970988276,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-cotangent-0.npy",
+      "sha256": "291c4163cf1b8e1931c9e3d421fcd297a7d3c4f4ac0fbb61ddbf1aedde540b74"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-cotangent-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685418970868569,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-cotangent-1.npy",
+      "sha256": "304c6f66e59d37fa5cafc09090f0b9d24f8a0a7846d507837b169f693419aac7"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-input.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685418971162692,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-input.npy",
+      "sha256": "70db48e6937d673b831f0a1662ef274928275ddf72ecf6ad19e650a4d2006d25"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794685418970733694,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-loss.npy",
+      "sha256": "eda94221263c0633badad2dc9d7857fae166607a1bc4d07e074b9e21958c9797"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-pixels.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685418970003033,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-pixels.npy",
+      "sha256": "4d6ac28666752e1680d4835ea834f2da64f46ee5943e0e85fb03880045003867"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-prediction-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685418970146365,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-prediction-0.npy",
+      "sha256": "52b46aa343f07027ea16fbb32c90c54cdb4354711254fb231f28d9e27d4246b8"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-prediction-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685418970457905,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-prediction-1.npy",
+      "sha256": "2e6a3c3562fb28ff81bbf8b5bdf31c354c39e9573a1b247119b9d6aaeec2bc7a"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-selected-target-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685418970288739,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-selected-target-0.npy",
+      "sha256": "9b1d258e943a75035a93e25b4a5cd254f8682232c38fe4036bf03f15b0c8a63e"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-selected-target-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685418970608570,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-selected-target-1.npy",
+      "sha256": "f7207bddcef3f099df8865407dc45217b34a443a9144317258276f487fdbc087"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-targets.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794685418969784284,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-0/before-targets.npy",
+      "sha256": "38a8a81a452edf0d39adda45423dddec71f5e575a3032dd32e8f921fd128c92f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-cotangent-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419232365178,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-cotangent-0.npy",
+      "sha256": "291c4163cf1b8e1931c9e3d421fcd297a7d3c4f4ac0fbb61ddbf1aedde540b74"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-cotangent-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419232255679,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-cotangent-1.npy",
+      "sha256": "304c6f66e59d37fa5cafc09090f0b9d24f8a0a7846d507837b169f693419aac7"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-input.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419232471594,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-input.npy",
+      "sha256": "fc3cbea79c8527b1755a8baa8262f11e69159776e4e2e475bbfaf83a47dd5e49"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794685419232148346,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-loss.npy",
+      "sha256": "eda94221263c0633badad2dc9d7857fae166607a1bc4d07e074b9e21958c9797"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-pixels.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419231309226,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-pixels.npy",
+      "sha256": "4d6ac28666752e1680d4835ea834f2da64f46ee5943e0e85fb03880045003867"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-prediction-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419231467600,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-prediction-0.npy",
+      "sha256": "52b46aa343f07027ea16fbb32c90c54cdb4354711254fb231f28d9e27d4246b8"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-prediction-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419231835723,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-prediction-1.npy",
+      "sha256": "2e6a3c3562fb28ff81bbf8b5bdf31c354c39e9573a1b247119b9d6aaeec2bc7a"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-selected-target-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419231650724,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-selected-target-0.npy",
+      "sha256": "9b1d258e943a75035a93e25b4a5cd254f8682232c38fe4036bf03f15b0c8a63e"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-selected-target-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419232011097,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-selected-target-1.npy",
+      "sha256": "f7207bddcef3f099df8865407dc45217b34a443a9144317258276f487fdbc087"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-targets.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794685419231115811,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/actual-targets.npy",
+      "sha256": "38a8a81a452edf0d39adda45423dddec71f5e575a3032dd32e8f921fd128c92f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-cotangent-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419233527962,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-cotangent-0.npy",
+      "sha256": "291c4163cf1b8e1931c9e3d421fcd297a7d3c4f4ac0fbb61ddbf1aedde540b74"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-cotangent-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419233408504,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-cotangent-1.npy",
+      "sha256": "304c6f66e59d37fa5cafc09090f0b9d24f8a0a7846d507837b169f693419aac7"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-input.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419233640586,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-input.npy",
+      "sha256": "70db48e6937d673b831f0a1662ef274928275ddf72ecf6ad19e650a4d2006d25"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794685419233322130,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-loss.npy",
+      "sha256": "eda94221263c0633badad2dc9d7857fae166607a1bc4d07e074b9e21958c9797"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-pixels.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419232724217,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-pixels.npy",
+      "sha256": "4d6ac28666752e1680d4835ea834f2da64f46ee5943e0e85fb03880045003867"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-prediction-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419232834091,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-prediction-0.npy",
+      "sha256": "52b46aa343f07027ea16fbb32c90c54cdb4354711254fb231f28d9e27d4246b8"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-prediction-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419233146548,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-prediction-1.npy",
+      "sha256": "2e6a3c3562fb28ff81bbf8b5bdf31c354c39e9573a1b247119b9d6aaeec2bc7a"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-selected-target-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419233048840,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-selected-target-0.npy",
+      "sha256": "9b1d258e943a75035a93e25b4a5cd254f8682232c38fe4036bf03f15b0c8a63e"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-selected-target-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419233231880,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-selected-target-1.npy",
+      "sha256": "f7207bddcef3f099df8865407dc45217b34a443a9144317258276f487fdbc087"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-targets.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794685419232571093,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/after-targets.npy",
+      "sha256": "38a8a81a452edf0d39adda45423dddec71f5e575a3032dd32e8f921fd128c92f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-cotangent-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419230863688,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-cotangent-0.npy",
+      "sha256": "291c4163cf1b8e1931c9e3d421fcd297a7d3c4f4ac0fbb61ddbf1aedde540b74"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-cotangent-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419230756938,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-cotangent-1.npy",
+      "sha256": "304c6f66e59d37fa5cafc09090f0b9d24f8a0a7846d507837b169f693419aac7"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-input.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419230981062,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-input.npy",
+      "sha256": "70db48e6937d673b831f0a1662ef274928275ddf72ecf6ad19e650a4d2006d25"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794685419230641689,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-loss.npy",
+      "sha256": "eda94221263c0633badad2dc9d7857fae166607a1bc4d07e074b9e21958c9797"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-pixels.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419229885736,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-pixels.npy",
+      "sha256": "4d6ac28666752e1680d4835ea834f2da64f46ee5943e0e85fb03880045003867"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-prediction-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419230092068,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-prediction-0.npy",
+      "sha256": "52b46aa343f07027ea16fbb32c90c54cdb4354711254fb231f28d9e27d4246b8"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-prediction-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419230407899,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-prediction-1.npy",
+      "sha256": "2e6a3c3562fb28ff81bbf8b5bdf31c354c39e9573a1b247119b9d6aaeec2bc7a"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-selected-target-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419230273858,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-selected-target-0.npy",
+      "sha256": "9b1d258e943a75035a93e25b4a5cd254f8682232c38fe4036bf03f15b0c8a63e"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-selected-target-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419230519690,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-selected-target-1.npy",
+      "sha256": "f7207bddcef3f099df8865407dc45217b34a443a9144317258276f487fdbc087"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-targets.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794685419229454655,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-19-thread-1/before-targets.npy",
+      "sha256": "38a8a81a452edf0d39adda45423dddec71f5e575a3032dd32e8f921fd128c92f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-cotangent-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419106484383,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-cotangent-0.npy",
+      "sha256": "4ef9f1725440f52bb3aa81ea8ac4a1f5588c4ac1761dae5cb0e488e41b501038"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-cotangent-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419106364842,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-cotangent-1.npy",
+      "sha256": "03dae5d2dc8db4c199677c034ff4372ea3cdca095f09d51c1c0682850188602f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-input.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419106598007,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-input.npy",
+      "sha256": "8954bd6fa03f1413d0f7edbea0b929b525a3589545c3ad729c24e598e5f8169e"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794685419106258384,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-loss.npy",
+      "sha256": "6e3919e4cb3a3f05605622670ea4b3fe41ea461215540bfb5b47641ea0068362"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-pixels.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419105616805,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-pixels.npy",
+      "sha256": "4d6ac28666752e1680d4835ea834f2da64f46ee5943e0e85fb03880045003867"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-prediction-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419105719304,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-prediction-0.npy",
+      "sha256": "b28b6ac47ff0c1d66bbf191bcb303f9a7d86ae4ff7c4d5a5bd759bb3e82902b9"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-prediction-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419106030261,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-prediction-1.npy",
+      "sha256": "981d05576e1d3e2059e6a8776f9858fea37ad05d36c68c74783cb268f6d92b64"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-selected-target-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419105889262,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-selected-target-0.npy",
+      "sha256": "a70fc3c1815eb79ea61942c54582319eb9abd666d4e1fd2131c41f8a5602b78c"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-selected-target-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419106148677,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-selected-target-1.npy",
+      "sha256": "60276d408a92652442c5e1bb8c34da85940eabb26254fa5b16a325333caff445"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-targets.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794685419105474514,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/actual-targets.npy",
+      "sha256": "38a8a81a452edf0d39adda45423dddec71f5e575a3032dd32e8f921fd128c92f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-cotangent-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419107627875,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-cotangent-0.npy",
+      "sha256": "4ef9f1725440f52bb3aa81ea8ac4a1f5588c4ac1761dae5cb0e488e41b501038"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-cotangent-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419107523084,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-cotangent-1.npy",
+      "sha256": "03dae5d2dc8db4c199677c034ff4372ea3cdca095f09d51c1c0682850188602f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-input.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419107738208,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-input.npy",
+      "sha256": "09b78e0a869041ea8fc4f3ffd6227af784f2bb0a1a7f3d426ce279bc24c82224"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794685419107431252,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-loss.npy",
+      "sha256": "6e3919e4cb3a3f05605622670ea4b3fe41ea461215540bfb5b47641ea0068362"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-pixels.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419106842130,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-pixels.npy",
+      "sha256": "4d6ac28666752e1680d4835ea834f2da64f46ee5943e0e85fb03880045003867"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-prediction-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419106960130,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-prediction-0.npy",
+      "sha256": "b28b6ac47ff0c1d66bbf191bcb303f9a7d86ae4ff7c4d5a5bd759bb3e82902b9"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-prediction-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419107187003,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-prediction-1.npy",
+      "sha256": "981d05576e1d3e2059e6a8776f9858fea37ad05d36c68c74783cb268f6d92b64"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-selected-target-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419107078587,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-selected-target-0.npy",
+      "sha256": "a70fc3c1815eb79ea61942c54582319eb9abd666d4e1fd2131c41f8a5602b78c"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-selected-target-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419107290002,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-selected-target-1.npy",
+      "sha256": "60276d408a92652442c5e1bb8c34da85940eabb26254fa5b16a325333caff445"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-targets.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794685419106707006,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/after-targets.npy",
+      "sha256": "38a8a81a452edf0d39adda45423dddec71f5e575a3032dd32e8f921fd128c92f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-cotangent-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419105267558,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-cotangent-0.npy",
+      "sha256": "4ef9f1725440f52bb3aa81ea8ac4a1f5588c4ac1761dae5cb0e488e41b501038"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-cotangent-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419105126725,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-cotangent-1.npy",
+      "sha256": "03dae5d2dc8db4c199677c034ff4372ea3cdca095f09d51c1c0682850188602f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-input.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419105369140,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-input.npy",
+      "sha256": "09b78e0a869041ea8fc4f3ffd6227af784f2bb0a1a7f3d426ce279bc24c82224"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794685419105032767,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-loss.npy",
+      "sha256": "6e3919e4cb3a3f05605622670ea4b3fe41ea461215540bfb5b47641ea0068362"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-pixels.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419104327605,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-pixels.npy",
+      "sha256": "4d6ac28666752e1680d4835ea834f2da64f46ee5943e0e85fb03880045003867"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-prediction-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419104492063,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-prediction-0.npy",
+      "sha256": "b28b6ac47ff0c1d66bbf191bcb303f9a7d86ae4ff7c4d5a5bd759bb3e82902b9"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-prediction-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419104831560,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-prediction-1.npy",
+      "sha256": "981d05576e1d3e2059e6a8776f9858fea37ad05d36c68c74783cb268f6d92b64"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-selected-target-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419104717061,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-selected-target-0.npy",
+      "sha256": "a70fc3c1815eb79ea61942c54582319eb9abd666d4e1fd2131c41f8a5602b78c"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-selected-target-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419104936810,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-selected-target-1.npy",
+      "sha256": "60276d408a92652442c5e1bb8c34da85940eabb26254fa5b16a325333caff445"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-targets.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794685419099096515,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-0/before-targets.npy",
+      "sha256": "38a8a81a452edf0d39adda45423dddec71f5e575a3032dd32e8f921fd128c92f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-cotangent-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419354867537,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-cotangent-0.npy",
+      "sha256": "4ef9f1725440f52bb3aa81ea8ac4a1f5588c4ac1761dae5cb0e488e41b501038"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-cotangent-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419354769662,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-cotangent-1.npy",
+      "sha256": "03dae5d2dc8db4c199677c034ff4372ea3cdca095f09d51c1c0682850188602f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-input.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419354966578,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-input.npy",
+      "sha256": "8954bd6fa03f1413d0f7edbea0b929b525a3589545c3ad729c24e598e5f8169e"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794685419354685455,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-loss.npy",
+      "sha256": "6e3919e4cb3a3f05605622670ea4b3fe41ea461215540bfb5b47641ea0068362"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-pixels.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419354136708,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-pixels.npy",
+      "sha256": "4d6ac28666752e1680d4835ea834f2da64f46ee5943e0e85fb03880045003867"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-prediction-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419354260791,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-prediction-0.npy",
+      "sha256": "b28b6ac47ff0c1d66bbf191bcb303f9a7d86ae4ff7c4d5a5bd759bb3e82902b9"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-prediction-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419354464873,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-prediction-1.npy",
+      "sha256": "981d05576e1d3e2059e6a8776f9858fea37ad05d36c68c74783cb268f6d92b64"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-selected-target-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419354368748,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-selected-target-0.npy",
+      "sha256": "a70fc3c1815eb79ea61942c54582319eb9abd666d4e1fd2131c41f8a5602b78c"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-selected-target-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419354579455,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-selected-target-1.npy",
+      "sha256": "60276d408a92652442c5e1bb8c34da85940eabb26254fa5b16a325333caff445"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-targets.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794685419353965751,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/actual-targets.npy",
+      "sha256": "38a8a81a452edf0d39adda45423dddec71f5e575a3032dd32e8f921fd128c92f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-cotangent-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419356065154,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-cotangent-0.npy",
+      "sha256": "4ef9f1725440f52bb3aa81ea8ac4a1f5588c4ac1761dae5cb0e488e41b501038"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-cotangent-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419355942071,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-cotangent-1.npy",
+      "sha256": "03dae5d2dc8db4c199677c034ff4372ea3cdca095f09d51c1c0682850188602f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-input.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419356198570,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-input.npy",
+      "sha256": "09b78e0a869041ea8fc4f3ffd6227af784f2bb0a1a7f3d426ce279bc24c82224"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794685419355859322,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-loss.npy",
+      "sha256": "6e3919e4cb3a3f05605622670ea4b3fe41ea461215540bfb5b47641ea0068362"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-pixels.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419355187285,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-pixels.npy",
+      "sha256": "4d6ac28666752e1680d4835ea834f2da64f46ee5943e0e85fb03880045003867"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-prediction-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419355462741,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-prediction-0.npy",
+      "sha256": "b28b6ac47ff0c1d66bbf191bcb303f9a7d86ae4ff7c4d5a5bd759bb3e82902b9"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-prediction-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419355674073,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-prediction-1.npy",
+      "sha256": "981d05576e1d3e2059e6a8776f9858fea37ad05d36c68c74783cb268f6d92b64"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-selected-target-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419355568532,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-selected-target-0.npy",
+      "sha256": "a70fc3c1815eb79ea61942c54582319eb9abd666d4e1fd2131c41f8a5602b78c"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-selected-target-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419355768197,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-selected-target-1.npy",
+      "sha256": "60276d408a92652442c5e1bb8c34da85940eabb26254fa5b16a325333caff445"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-targets.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794685419355060494,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/after-targets.npy",
+      "sha256": "38a8a81a452edf0d39adda45423dddec71f5e575a3032dd32e8f921fd128c92f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-cotangent-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419353720503,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-cotangent-0.npy",
+      "sha256": "4ef9f1725440f52bb3aa81ea8ac4a1f5588c4ac1761dae5cb0e488e41b501038"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-cotangent-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419353574587,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-cotangent-1.npy",
+      "sha256": "03dae5d2dc8db4c199677c034ff4372ea3cdca095f09d51c1c0682850188602f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-input.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419353843169,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-input.npy",
+      "sha256": "09b78e0a869041ea8fc4f3ffd6227af784f2bb0a1a7f3d426ce279bc24c82224"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794685419353421255,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-loss.npy",
+      "sha256": "6e3919e4cb3a3f05605622670ea4b3fe41ea461215540bfb5b47641ea0068362"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-pixels.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419352667968,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-pixels.npy",
+      "sha256": "4d6ac28666752e1680d4835ea834f2da64f46ee5943e0e85fb03880045003867"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-prediction-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419352802634,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-prediction-0.npy",
+      "sha256": "b28b6ac47ff0c1d66bbf191bcb303f9a7d86ae4ff7c4d5a5bd759bb3e82902b9"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-prediction-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419353098465,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-prediction-1.npy",
+      "sha256": "981d05576e1d3e2059e6a8776f9858fea37ad05d36c68c74783cb268f6d92b64"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-selected-target-0.npy": {
+      "bytes": 12416,
+      "mode": 384,
+      "mtime_ns": 1794685419352951133,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-selected-target-0.npy",
+      "sha256": "a70fc3c1815eb79ea61942c54582319eb9abd666d4e1fd2131c41f8a5602b78c"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-selected-target-1.npy": {
+      "bytes": 4224,
+      "mode": 384,
+      "mtime_ns": 1794685419353239131,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-selected-target-1.npy",
+      "sha256": "60276d408a92652442c5e1bb8c34da85940eabb26254fa5b16a325333caff445"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-targets.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794685419352218804,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/evidence-first/seed-23-thread-1/before-targets.npy",
+      "sha256": "38a8a81a452edf0d39adda45423dddec71f5e575a3032dd32e8f921fd128c92f"
+    }
+  },
+  "scientific_implementation_and_bounds_unchanged_after_first_run": true,
+  "sealed_inputs": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/sealed-inputs.json",
+  "source_pins": {
+    "models/predictor_forward_preserving_upstream_v1.py": "db71de4b6b8c3ba1532639258f23e7b4b5a850493625bf6ba1a7e2f8c9b13b88",
+    "tests/test_predictor_forward_preserving_upstream_v1.py": "b77f1c28a225f82063372b3e3007ac15da8784ad8f01180b91357b91cef35bc8"
+  },
+  "targeted_fixture_check_passed": 1,
+  "targeted_test_log": {
+    "bytes": 1211,
+    "mode": 384,
+    "mtime_ns": 1794685493437659849,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-upstream-v1-20261114/pytest-targeted.log",
+    "sha256": "ade00a575f43bf78d6dcc83a31e819f8d6a8cc3474f13969092c74b45eea6944"
+  }
+}

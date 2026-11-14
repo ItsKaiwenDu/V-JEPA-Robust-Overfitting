@@ -1,0 +1,1344 @@
+{
+  "CUDA_or_full_model_or_study_or_performance_qualified": false,
+  "actual_saved_FP32_arrays": {
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-0/actual-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359191437056,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-0/actual-input.npy",
+      "sha256": "5c682fa9cfd84f7cd9bea402a5005c9a5f3954ec90916e0f757effdd7de1dafd"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-0/actual.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359191147395,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-0/actual.npy",
+      "sha256": "7513425e70a2e7d3a5d637adf55632aa5665a04bfd11662578b638abe0eb238f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-0/after.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359191238435,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-0/after.npy",
+      "sha256": "7513425e70a2e7d3a5d637adf55632aa5665a04bfd11662578b638abe0eb238f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-0/before.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359191031897,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-0/before.npy",
+      "sha256": "7513425e70a2e7d3a5d637adf55632aa5665a04bfd11662578b638abe0eb238f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-0/expected-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359191341266,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-0/expected-input.npy",
+      "sha256": "0f387d979e85e6087c515286a489e49a767ca97969b3623cf1e8dc355ca790a6"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-0/repeated-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359191525430,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-0/repeated-input.npy",
+      "sha256": "0f387d979e85e6087c515286a489e49a767ca97969b3623cf1e8dc355ca790a6"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-1/actual-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359194321377,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-1/actual-input.npy",
+      "sha256": "5c682fa9cfd84f7cd9bea402a5005c9a5f3954ec90916e0f757effdd7de1dafd"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-1/actual.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359194086048,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-1/actual.npy",
+      "sha256": "7513425e70a2e7d3a5d637adf55632aa5665a04bfd11662578b638abe0eb238f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-1/after.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359194176713,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-1/after.npy",
+      "sha256": "7513425e70a2e7d3a5d637adf55632aa5665a04bfd11662578b638abe0eb238f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-1/before.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359193977134,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-1/before.npy",
+      "sha256": "7513425e70a2e7d3a5d637adf55632aa5665a04bfd11662578b638abe0eb238f"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-1/expected-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359194250920,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-1/expected-input.npy",
+      "sha256": "0f387d979e85e6087c515286a489e49a767ca97969b3623cf1e8dc355ca790a6"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-1/repeated-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359194395084,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-1/repeated-input.npy",
+      "sha256": "0f387d979e85e6087c515286a489e49a767ca97969b3623cf1e8dc355ca790a6"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/after-cotangent.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358897812851,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/after-cotangent.npy",
+      "sha256": "5ac6fa8f6fde01d378974cdbf4c9704a7617fa73bf0f4de820140acc52ecfb03"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/after-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358897913432,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/after-input.npy",
+      "sha256": "b390e0087167560931958255936efd0fe0f15634dc201cd74e9117f15d2bd5a4"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/after-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794684358897716936,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/after-loss.npy",
+      "sha256": "93c8ff0a74e79e04a500c68c109efd31d2d5db7fb7fb03fb179f461e767de6b1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/after-output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358897603271,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/after-output.npy",
+      "sha256": "baf67661445d16774b90b1bfcff50e08a1b38fc500e3a32661a9185c6a247ba0"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/before-cotangent.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358897357359,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/before-cotangent.npy",
+      "sha256": "5ac6fa8f6fde01d378974cdbf4c9704a7617fa73bf0f4de820140acc52ecfb03"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/before-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358897498815,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/before-input.npy",
+      "sha256": "b390e0087167560931958255936efd0fe0f15634dc201cd74e9117f15d2bd5a4"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/before-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794684358897227987,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/before-loss.npy",
+      "sha256": "93c8ff0a74e79e04a500c68c109efd31d2d5db7fb7fb03fb179f461e767de6b1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/before-output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358897051865,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/before-output.npy",
+      "sha256": "baf67661445d16774b90b1bfcff50e08a1b38fc500e3a32661a9185c6a247ba0"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/cotangent.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358896140341,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/cotangent.npy",
+      "sha256": "5ac6fa8f6fde01d378974cdbf4c9704a7617fa73bf0f4de820140acc52ecfb03"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/direct-dk.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358898219677,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/direct-dk.npy",
+      "sha256": "2afb7345c3936a3eda88dbc12685e8ea014bf4e8120b1523f77a9caa3d934acf"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/direct-dq.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358898108095,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/direct-dq.npy",
+      "sha256": "82eda14f22ca4f3de0992e2c2b16f7dce02eb1a26525955c1c989fe0c2973123"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/direct-dv.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358898331383,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/direct-dv.npy",
+      "sha256": "0ae0b23612af2d443be4a3acbd7b64753253ced45f496830da11b693701ef26a"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/direct-output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358898012722,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/direct-output.npy",
+      "sha256": "54feea53f3a5f255423d9d8fd736eaacbf643daa1c8a39830d08bfce0065b669"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/dk.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358896254547,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/dk.npy",
+      "sha256": "2afb7345c3936a3eda88dbc12685e8ea014bf4e8120b1523f77a9caa3d934acf"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/dq.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358896368670,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/dq.npy",
+      "sha256": "82eda14f22ca4f3de0992e2c2b16f7dce02eb1a26525955c1c989fe0c2973123"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/dv.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358896475376,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/dv.npy",
+      "sha256": "0ae0b23612af2d443be4a3acbd7b64753253ced45f496830da11b693701ef26a"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358896820286,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/input.npy",
+      "sha256": "89430627f148fc80c651afdadfd04c0383a329756417a46edc719c0ea40e1c15"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/k.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358895878971,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/k.npy",
+      "sha256": "7dcf0d001407425e91dbf0027b5595d2ccd8650bde6f45b7d07e687222635983"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794684358896718705,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/loss.npy",
+      "sha256": "93c8ff0a74e79e04a500c68c109efd31d2d5db7fb7fb03fb179f461e767de6b1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/old-math-cotangent.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358898665793,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/old-math-cotangent.npy",
+      "sha256": "2306987b0fb27f76825fb13a15e4ab249b871f9bc97da8552c2eadc72bee5f2a"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/old-math-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358898775083,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/old-math-input.npy",
+      "sha256": "d828fd54a52b6052d2c64a59769f4e66e59ff3e7c6ff58adf96c6c30d6889e06"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/old-math-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794684358898520796,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/old-math-loss.npy",
+      "sha256": "93c8ff0a74e79e04a500c68c109efd31d2d5db7fb7fb03fb179f461e767de6b1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/old-math-output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358898430964,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/old-math-output.npy",
+      "sha256": "54feea53f3a5f255423d9d8fd736eaacbf643daa1c8a39830d08bfce0065b669"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358896597790,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/output.npy",
+      "sha256": "baf67661445d16774b90b1bfcff50e08a1b38fc500e3a32661a9185c6a247ba0"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/q.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358895469561,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/q.npy",
+      "sha256": "c80a602d18ff5d343f31ea66237e6875e2379337c0148f3a07d97346575e9a6c"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/target.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358896935076,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/target.npy",
+      "sha256": "3991b3c996673a2e984955419107f958f8f12470e945363ac9bceef78b97d53e"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/v.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684358896015760,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/v.npy",
+      "sha256": "3e3a0029192f56c28d17c4ab3764283a364bc264fc75afd398ff72c1f78fe1cb"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/after-cotangent.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359173243231,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/after-cotangent.npy",
+      "sha256": "8629b9847e7fc7f7b6e19597256ea31197609cc0f983f19eeb5c17ed384c9c5e"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/after-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359173318396,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/after-input.npy",
+      "sha256": "f2e3049fc9f168338c83eb7b488e3105378c35a0ebb987f878f4874a5a963bd6"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/after-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794684359173165149,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/after-loss.npy",
+      "sha256": "93c8ff0a74e79e04a500c68c109efd31d2d5db7fb7fb03fb179f461e767de6b1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/after-output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359173078692,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/after-output.npy",
+      "sha256": "baf67661445d16774b90b1bfcff50e08a1b38fc500e3a32661a9185c6a247ba0"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/before-cotangent.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359172883237,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/before-cotangent.npy",
+      "sha256": "8629b9847e7fc7f7b6e19597256ea31197609cc0f983f19eeb5c17ed384c9c5e"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/before-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359172985444,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/before-input.npy",
+      "sha256": "f2e3049fc9f168338c83eb7b488e3105378c35a0ebb987f878f4874a5a963bd6"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/before-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794684359172803447,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/before-loss.npy",
+      "sha256": "93c8ff0a74e79e04a500c68c109efd31d2d5db7fb7fb03fb179f461e767de6b1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/before-output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359172708116,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/before-output.npy",
+      "sha256": "baf67661445d16774b90b1bfcff50e08a1b38fc500e3a32661a9185c6a247ba0"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/cotangent.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359171975713,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/cotangent.npy",
+      "sha256": "8629b9847e7fc7f7b6e19597256ea31197609cc0f983f19eeb5c17ed384c9c5e"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/direct-dk.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359173587724,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/direct-dk.npy",
+      "sha256": "739513eb4988eff95722a40a66d75b7448a63b3971d18c360f54e39513084d0c"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/direct-dq.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359173487851,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/direct-dq.npy",
+      "sha256": "b7e71dc43bb8f68bb2fc0af4c72e273b9284fd4377eb717b620a63deba1f651d"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/direct-dv.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359173673098,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/direct-dv.npy",
+      "sha256": "141598e4d7a540839301108a8a665f2888b7bc92d43f829defe0a7752dac2ed6"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/direct-output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359173400228,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/direct-output.npy",
+      "sha256": "54feea53f3a5f255423d9d8fd736eaacbf643daa1c8a39830d08bfce0065b669"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/dk.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359172063503,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/dk.npy",
+      "sha256": "739513eb4988eff95722a40a66d75b7448a63b3971d18c360f54e39513084d0c"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/dq.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359172138876,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/dq.npy",
+      "sha256": "b7e71dc43bb8f68bb2fc0af4c72e273b9284fd4377eb717b620a63deba1f651d"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/dv.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359172213875,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/dv.npy",
+      "sha256": "141598e4d7a540839301108a8a665f2888b7bc92d43f829defe0a7752dac2ed6"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359172518578,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/input.npy",
+      "sha256": "c13349a752c804060540924f46c5707aab610097f62c1ee3c4daa9220438c988"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/k.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359171806383,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/k.npy",
+      "sha256": "7dcf0d001407425e91dbf0027b5595d2ccd8650bde6f45b7d07e687222635983"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794684359172430746,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/loss.npy",
+      "sha256": "93c8ff0a74e79e04a500c68c109efd31d2d5db7fb7fb03fb179f461e767de6b1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/old-math-cotangent.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359173904468,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/old-math-cotangent.npy",
+      "sha256": "5ac6fa8f6fde01d378974cdbf4c9704a7617fa73bf0f4de820140acc52ecfb03"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/old-math-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359174000675,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/old-math-input.npy",
+      "sha256": "89430627f148fc80c651afdadfd04c0383a329756417a46edc719c0ea40e1c15"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/old-math-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794684359173828303,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/old-math-loss.npy",
+      "sha256": "93c8ff0a74e79e04a500c68c109efd31d2d5db7fb7fb03fb179f461e767de6b1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/old-math-output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359173751513,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/old-math-output.npy",
+      "sha256": "54feea53f3a5f255423d9d8fd736eaacbf643daa1c8a39830d08bfce0065b669"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359172318290,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/output.npy",
+      "sha256": "baf67661445d16774b90b1bfcff50e08a1b38fc500e3a32661a9185c6a247ba0"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/q.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359171697593,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/q.npy",
+      "sha256": "c80a602d18ff5d343f31ea66237e6875e2379337c0148f3a07d97346575e9a6c"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/target.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359172615284,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/target.npy",
+      "sha256": "b139e01d20b8fb89b6ae5bdd4a16d610ce9af70e595f916e2e5094be9c909953"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/v.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359171888589,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/v.npy",
+      "sha256": "3e3a0029192f56c28d17c4ab3764283a364bc264fc75afd398ff72c1f78fe1cb"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/after-cotangent.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359168172951,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/after-cotangent.npy",
+      "sha256": "5ac6fa8f6fde01d378974cdbf4c9704a7617fa73bf0f4de820140acc52ecfb03"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/after-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359168248116,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/after-input.npy",
+      "sha256": "b390e0087167560931958255936efd0fe0f15634dc201cd74e9117f15d2bd5a4"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/after-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794684359168093952,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/after-loss.npy",
+      "sha256": "93c8ff0a74e79e04a500c68c109efd31d2d5db7fb7fb03fb179f461e767de6b1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/after-output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359168008912,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/after-output.npy",
+      "sha256": "baf67661445d16774b90b1bfcff50e08a1b38fc500e3a32661a9185c6a247ba0"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/before-cotangent.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359167815374,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/before-cotangent.npy",
+      "sha256": "5ac6fa8f6fde01d378974cdbf4c9704a7617fa73bf0f4de820140acc52ecfb03"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/before-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359167894789,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/before-input.npy",
+      "sha256": "b390e0087167560931958255936efd0fe0f15634dc201cd74e9117f15d2bd5a4"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/before-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794684359167734584,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/before-loss.npy",
+      "sha256": "93c8ff0a74e79e04a500c68c109efd31d2d5db7fb7fb03fb179f461e767de6b1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/before-output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359167646252,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/before-output.npy",
+      "sha256": "baf67661445d16774b90b1bfcff50e08a1b38fc500e3a32661a9185c6a247ba0"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/cotangent.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359166897808,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/cotangent.npy",
+      "sha256": "5ac6fa8f6fde01d378974cdbf4c9704a7617fa73bf0f4de820140acc52ecfb03"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/direct-dk.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359168493195,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/direct-dk.npy",
+      "sha256": "2afb7345c3936a3eda88dbc12685e8ea014bf4e8120b1523f77a9caa3d934acf"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/direct-dq.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359168403280,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/direct-dq.npy",
+      "sha256": "82eda14f22ca4f3de0992e2c2b16f7dce02eb1a26525955c1c989fe0c2973123"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/direct-dv.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359168601568,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/direct-dv.npy",
+      "sha256": "0ae0b23612af2d443be4a3acbd7b64753253ced45f496830da11b693701ef26a"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/direct-output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359168322531,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/direct-output.npy",
+      "sha256": "54feea53f3a5f255423d9d8fd736eaacbf643daa1c8a39830d08bfce0065b669"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/dk.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359166986598,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/dk.npy",
+      "sha256": "2afb7345c3936a3eda88dbc12685e8ea014bf4e8120b1523f77a9caa3d934acf"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/dq.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359167077221,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/dq.npy",
+      "sha256": "82eda14f22ca4f3de0992e2c2b16f7dce02eb1a26525955c1c989fe0c2973123"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/dv.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359167159220,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/dv.npy",
+      "sha256": "0ae0b23612af2d443be4a3acbd7b64753253ced45f496830da11b693701ef26a"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359167396590,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/input.npy",
+      "sha256": "89430627f148fc80c651afdadfd04c0383a329756417a46edc719c0ea40e1c15"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/k.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359166708853,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/k.npy",
+      "sha256": "7dcf0d001407425e91dbf0027b5595d2ccd8650bde6f45b7d07e687222635983"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794684359167315133,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/loss.npy",
+      "sha256": "93c8ff0a74e79e04a500c68c109efd31d2d5db7fb7fb03fb179f461e767de6b1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/old-math-cotangent.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359168870021,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/old-math-cotangent.npy",
+      "sha256": "2306987b0fb27f76825fb13a15e4ab249b871f9bc97da8552c2eadc72bee5f2a"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/old-math-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359168969686,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/old-math-input.npy",
+      "sha256": "d828fd54a52b6052d2c64a59769f4e66e59ff3e7c6ff58adf96c6c30d6889e06"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/old-math-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794684359168784356,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/old-math-loss.npy",
+      "sha256": "93c8ff0a74e79e04a500c68c109efd31d2d5db7fb7fb03fb179f461e767de6b1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/old-math-output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359168702316,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/old-math-output.npy",
+      "sha256": "54feea53f3a5f255423d9d8fd736eaacbf643daa1c8a39830d08bfce0065b669"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359167238926,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/output.npy",
+      "sha256": "baf67661445d16774b90b1bfcff50e08a1b38fc500e3a32661a9185c6a247ba0"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/q.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359166571439,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/q.npy",
+      "sha256": "c80a602d18ff5d343f31ea66237e6875e2379337c0148f3a07d97346575e9a6c"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/target.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359167515546,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/target.npy",
+      "sha256": "3991b3c996673a2e984955419107f958f8f12470e945363ac9bceef78b97d53e"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/v.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359166806310,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/v.npy",
+      "sha256": "3e3a0029192f56c28d17c4ab3764283a364bc264fc75afd398ff72c1f78fe1cb"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/after-cotangent.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359178466383,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/after-cotangent.npy",
+      "sha256": "8629b9847e7fc7f7b6e19597256ea31197609cc0f983f19eeb5c17ed384c9c5e"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/after-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359178550631,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/after-input.npy",
+      "sha256": "f2e3049fc9f168338c83eb7b488e3105378c35a0ebb987f878f4874a5a963bd6"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/after-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794684359178380009,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/after-loss.npy",
+      "sha256": "93c8ff0a74e79e04a500c68c109efd31d2d5db7fb7fb03fb179f461e767de6b1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/after-output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359178293136,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/after-output.npy",
+      "sha256": "baf67661445d16774b90b1bfcff50e08a1b38fc500e3a32661a9185c6a247ba0"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/before-cotangent.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359178086723,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/before-cotangent.npy",
+      "sha256": "8629b9847e7fc7f7b6e19597256ea31197609cc0f983f19eeb5c17ed384c9c5e"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/before-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359178184055,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/before-input.npy",
+      "sha256": "f2e3049fc9f168338c83eb7b488e3105378c35a0ebb987f878f4874a5a963bd6"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/before-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794684359178009475,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/before-loss.npy",
+      "sha256": "93c8ff0a74e79e04a500c68c109efd31d2d5db7fb7fb03fb179f461e767de6b1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/before-output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359177915101,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/before-output.npy",
+      "sha256": "baf67661445d16774b90b1bfcff50e08a1b38fc500e3a32661a9185c6a247ba0"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/cotangent.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359177230198,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/cotangent.npy",
+      "sha256": "8629b9847e7fc7f7b6e19597256ea31197609cc0f983f19eeb5c17ed384c9c5e"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/direct-dk.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359178831959,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/direct-dk.npy",
+      "sha256": "739513eb4988eff95722a40a66d75b7448a63b3971d18c360f54e39513084d0c"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/direct-dq.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359178740836,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/direct-dq.npy",
+      "sha256": "b7e71dc43bb8f68bb2fc0af4c72e273b9284fd4377eb717b620a63deba1f651d"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/direct-dv.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359178932499,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/direct-dv.npy",
+      "sha256": "141598e4d7a540839301108a8a665f2888b7bc92d43f829defe0a7752dac2ed6"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/direct-output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359178632171,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/direct-output.npy",
+      "sha256": "54feea53f3a5f255423d9d8fd736eaacbf643daa1c8a39830d08bfce0065b669"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/dk.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359177319321,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/dk.npy",
+      "sha256": "739513eb4988eff95722a40a66d75b7448a63b3971d18c360f54e39513084d0c"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/dq.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359177404694,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/dq.npy",
+      "sha256": "b7e71dc43bb8f68bb2fc0af4c72e273b9284fd4377eb717b620a63deba1f651d"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/dv.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359177483693,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/dv.npy",
+      "sha256": "141598e4d7a540839301108a8a665f2888b7bc92d43f829defe0a7752dac2ed6"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359177737396,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/input.npy",
+      "sha256": "c13349a752c804060540924f46c5707aab610097f62c1ee3c4daa9220438c988"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/k.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359177055118,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/k.npy",
+      "sha256": "7dcf0d001407425e91dbf0027b5595d2ccd8650bde6f45b7d07e687222635983"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794684359177636357,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/loss.npy",
+      "sha256": "93c8ff0a74e79e04a500c68c109efd31d2d5db7fb7fb03fb179f461e767de6b1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/old-math-cotangent.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359179196452,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/old-math-cotangent.npy",
+      "sha256": "5ac6fa8f6fde01d378974cdbf4c9704a7617fa73bf0f4de820140acc52ecfb03"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/old-math-input.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359179298909,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/old-math-input.npy",
+      "sha256": "89430627f148fc80c651afdadfd04c0383a329756417a46edc719c0ea40e1c15"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/old-math-loss.npy": {
+      "bytes": 132,
+      "mode": 384,
+      "mtime_ns": 1794684359179102787,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/old-math-loss.npy",
+      "sha256": "93c8ff0a74e79e04a500c68c109efd31d2d5db7fb7fb03fb179f461e767de6b1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/old-math-output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359179016372,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/old-math-output.npy",
+      "sha256": "54feea53f3a5f255423d9d8fd736eaacbf643daa1c8a39830d08bfce0065b669"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/output.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359177559275,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/output.npy",
+      "sha256": "baf67661445d16774b90b1bfcff50e08a1b38fc500e3a32661a9185c6a247ba0"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/q.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359176962036,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/q.npy",
+      "sha256": "c80a602d18ff5d343f31ea66237e6875e2379337c0148f3a07d97346575e9a6c"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/target.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359177824937,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/target.npy",
+      "sha256": "b139e01d20b8fb89b6ae5bdd4a16d610ce9af70e595f916e2e5094be9c909953"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/v.npy": {
+      "bytes": 320,
+      "mode": 384,
+      "mtime_ns": 1794684359177142158,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/v.npy",
+      "sha256": "3e3a0029192f56c28d17c4ab3764283a364bc264fc75afd398ff72c1f78fe1cb"
+    }
+  },
+  "actual_target_descriptors_unchanged": 245,
+  "all_original_tensor_bounds_unchanged": true,
+  "date": "2026-11-14",
+  "direct_and_checkpointed_single_and_chained_cases_passed": true,
+  "document": {
+    "bytes": 6205,
+    "mode": 384,
+    "mtime_ns": 1794684630290500307,
+    "path": "docs/predictor_forward_preserving_cpu_v1.md",
+    "sha256": "387a78540eb80177225fc24fdaa7e1cf96662b59009fb230b6eb67c345f0caf7"
+  },
+  "final_distinct_tests": 29,
+  "final_layout_fidelity_suite_passed": 29,
+  "first_suite_passed": 25,
+  "first_test_log": {
+    "bytes": 99,
+    "mode": 384,
+    "mtime_ns": 1794684002892957579,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/pytest-first.log",
+    "sha256": "10697beef4cdcedc538ebcd34207c6e710fca105f897202ddfc1cb456324e60f"
+  },
+  "frozen_study_training_router_and_existing_GraphTask_guard_unchanged": true,
+  "guard_and_chain_suite_passed": 29,
+  "guard_test_log": {
+    "bytes": 99,
+    "mode": 384,
+    "mtime_ns": 1794684168629310997,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/pytest-final.log",
+    "sha256": "f1efca889fd6269b18b2589bc742d977670703037df9ecd9d19bc7b1048d6aac"
+  },
+  "independent_review_analytical_FP64_evaluations": 4,
+  "kind": "local-forward-preserving-public-math-VJP-CPU-review-v1",
+  "max_input_tolerance_ratio": 0.0007191375884801862,
+  "new_remote_or_paid_work": false,
+  "next_step": "Prepare separate local small-upstream integration under the unchanged native graph ownership guard before a target handoff. Verify forward/context/ownership, exact native cotangents and original full-input bounds across the real checkpointed predictor route. This explicit-call CPU prototype does not establish model routing or Torch2.8/CUDA compatibility.",
+  "no_model_autograd_SDPA_CUDA_process_network_execution_during_review": true,
+  "observed_actual_old_math_cotangent_switch_cases": 4,
+  "old_target_candidate_rejection_entries_unchanged": 3724,
+  "original_forward_values_and_native_L1_cotangents_preserved": true,
+  "passed": true,
+  "prior_sealed_inputs_reverified": 332,
+  "raw_review": {
+    "bytes": 74350,
+    "mode": 384,
+    "mtime_ns": 1794684478259451697,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/review.json",
+    "sha256": "17c1df07eb4ca4b9d41b52b55c5610511fd82d9f592121ff745ddd2cdc1ce02a"
+  },
+  "raw_review_log": {
+    "bytes": 213,
+    "mode": 384,
+    "mtime_ns": 1794684478259551987,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/review.log",
+    "sha256": "fbdcf15c050c965a82a02e1db823d805331c9a564c8a3ca8666523a9330781e6"
+  },
+  "reference_evaluations_are_tiny_saved_input_Numpy_only": true,
+  "review_FP64_reference_arrays": {
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-0-near-0/dk.npy": {
+      "bytes": 512,
+      "mode": 384,
+      "mtime_ns": 1794684477913781050,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-0-near-0/dk.npy",
+      "sha256": "af6116c21998eb9d903d6ea0fea6e2f100aeec0965d7c12298dc9bce80693ff1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-0-near-0/dq.npy": {
+      "bytes": 512,
+      "mode": 384,
+      "mtime_ns": 1794684477913672677,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-0-near-0/dq.npy",
+      "sha256": "65aa7a8c56e3ac24bd061e463de53d851aea531e1914c26fd01a9e195164ebb1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-0-near-0/dv.npy": {
+      "bytes": 512,
+      "mode": 384,
+      "mtime_ns": 1794684477913883965,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-0-near-0/dv.npy",
+      "sha256": "6b108f4b148f425a1e7ba9b57f5d08b85c4d0e23993cf59c561e60d5583fe62a"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-0-near-0/output.npy": {
+      "bytes": 512,
+      "mode": 384,
+      "mtime_ns": 1794684477913535388,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-0-near-0/output.npy",
+      "sha256": "aae6408cc3a97baf71e46466665aef1454c6a5188287cfb943028d227bd02dfd"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-0-near-1/dk.npy": {
+      "bytes": 512,
+      "mode": 384,
+      "mtime_ns": 1794684477916657871,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-0-near-1/dk.npy",
+      "sha256": "3aa3a1cea52ba27a1108e40e56a972f2c8f10f5b5a8f71056564cfc68c8ddce3"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-0-near-1/dq.npy": {
+      "bytes": 512,
+      "mode": 384,
+      "mtime_ns": 1794684477916557915,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-0-near-1/dq.npy",
+      "sha256": "f035a2bec908da06be0eecd2916ba579642503ded14c174e2cb1474e95a96480"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-0-near-1/dv.npy": {
+      "bytes": 512,
+      "mode": 384,
+      "mtime_ns": 1794684477916758911,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-0-near-1/dv.npy",
+      "sha256": "5da6599d3a69d184a6e27f7ada66e5a96ec394dc38d0d19cc7a7fc921c16e93a"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-0-near-1/output.npy": {
+      "bytes": 512,
+      "mode": 384,
+      "mtime_ns": 1794684477916446375,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-0-near-1/output.npy",
+      "sha256": "aae6408cc3a97baf71e46466665aef1454c6a5188287cfb943028d227bd02dfd"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-1-near-0/dk.npy": {
+      "bytes": 512,
+      "mode": 384,
+      "mtime_ns": 1794684477919808979,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-1-near-0/dk.npy",
+      "sha256": "af6116c21998eb9d903d6ea0fea6e2f100aeec0965d7c12298dc9bce80693ff1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-1-near-0/dq.npy": {
+      "bytes": 512,
+      "mode": 384,
+      "mtime_ns": 1794684477919710939,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-1-near-0/dq.npy",
+      "sha256": "65aa7a8c56e3ac24bd061e463de53d851aea531e1914c26fd01a9e195164ebb1"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-1-near-0/dv.npy": {
+      "bytes": 512,
+      "mode": 384,
+      "mtime_ns": 1794684477919900644,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-1-near-0/dv.npy",
+      "sha256": "6b108f4b148f425a1e7ba9b57f5d08b85c4d0e23993cf59c561e60d5583fe62a"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-1-near-0/output.npy": {
+      "bytes": 512,
+      "mode": 384,
+      "mtime_ns": 1794684477919599233,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-1-near-0/output.npy",
+      "sha256": "aae6408cc3a97baf71e46466665aef1454c6a5188287cfb943028d227bd02dfd"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-1-near-1/dk.npy": {
+      "bytes": 512,
+      "mode": 384,
+      "mtime_ns": 1794684477922739382,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-1-near-1/dk.npy",
+      "sha256": "3aa3a1cea52ba27a1108e40e56a972f2c8f10f5b5a8f71056564cfc68c8ddce3"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-1-near-1/dq.npy": {
+      "bytes": 512,
+      "mode": 384,
+      "mtime_ns": 1794684477922640676,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-1-near-1/dq.npy",
+      "sha256": "f035a2bec908da06be0eecd2916ba579642503ded14c174e2cb1474e95a96480"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-1-near-1/dv.npy": {
+      "bytes": 512,
+      "mode": 384,
+      "mtime_ns": 1794684477922836047,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-1-near-1/dv.npy",
+      "sha256": "5da6599d3a69d184a6e27f7ada66e5a96ec394dc38d0d19cc7a7fc921c16e93a"
+    },
+    "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-1-near-1/output.npy": {
+      "bytes": 512,
+      "mode": 384,
+      "mtime_ns": 1794684477922533386,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/native-L1-checkpoint-1-near-1/output.npy",
+      "sha256": "aae6408cc3a97baf71e46466665aef1454c6a5188287cfb943028d227bd02dfd"
+    }
+  },
+  "review_cases": [
+    {
+      "all_root_leaf_hooks_removed": true,
+      "case": "chained-checkpoint-0",
+      "checkpointed": false,
+      "inner_graph_ids": [
+        34,
+        33
+      ],
+      "input_check": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 9.313225746154785e-10,
+        "max_tolerance_ratio": 0.00013591867003269088,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "native_two_call_forward_bitwise_exact": true,
+      "outer_graph_id": 32,
+      "receipt": {
+        "bytes": 11012,
+        "mode": 384,
+        "mtime_ns": 1794684359191821133,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-0/receipt.json",
+        "sha256": "26d8f79f512a11e0096d3608b0b297cdc40a7f8371fc19336ec22778ca881893"
+      }
+    },
+    {
+      "all_root_leaf_hooks_removed": true,
+      "case": "chained-checkpoint-1",
+      "checkpointed": true,
+      "inner_graph_ids": [
+        39,
+        38
+      ],
+      "input_check": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 9.313225746154785e-10,
+        "max_tolerance_ratio": 0.00013591867003269088,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "native_two_call_forward_bitwise_exact": true,
+      "outer_graph_id": 37,
+      "receipt": {
+        "bytes": 15357,
+        "mode": 384,
+        "mtime_ns": 1794684359194800910,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/chained-checkpoint-1/receipt.json",
+        "sha256": "f5dea8d1bbae45697a9917afc6d76075892266cc02000d7fc892a9a2876794f0"
+      }
+    },
+    {
+      "FP64_checks": {
+        "dk": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.0818387465315613e-10,
+          "max_tolerance_ratio": 0.00012704991524860258,
+          "passed": true,
+          "rtol": 0.002
+        },
+        "dq": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.0065170206785832e-10,
+          "max_tolerance_ratio": 0.00018470689765231847,
+          "passed": true,
+          "rtol": 0.002
+        },
+        "dv": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.302175033941367e-09,
+          "max_tolerance_ratio": 5.5253995745196144e-05,
+          "passed": true,
+          "rtol": 0.002
+        },
+        "output": {
+          "atol": 2e-05,
+          "failed_elements": 0,
+          "max_absolute_error": 2.475817545422032e-08,
+          "max_tolerance_ratio": 0.0011404239332078086,
+          "passed": true,
+          "rtol": 0.0001
+        }
+      },
+      "all_root_leaf_hooks_removed": true,
+      "case": "native-L1-checkpoint-0-near-0",
+      "checkpointed": false,
+      "inner_graph_ids": [
+        2
+      ],
+      "input_check": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.862645149230957e-09,
+        "max_tolerance_ratio": 0.0007031743113291369,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "native_forward_and_cotangent_bitwise_exact": true,
+      "old_math_changes_actual_native_cotangent": true,
+      "outer_graph_id": 1,
+      "public_math_derivatives_bitwise_equal": true,
+      "receipt": {
+        "bytes": 12672,
+        "mode": 384,
+        "mtime_ns": 1794684358899160617,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-0/receipt.json",
+        "sha256": "ee26ab3d71fb09bd144ca1bd08af00d72d35cb90fa28da1738834cbfc52c6111"
+      }
+    },
+    {
+      "FP64_checks": {
+        "dk": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.0818387465315613e-10,
+          "max_tolerance_ratio": 0.00017611753981872728,
+          "passed": true,
+          "rtol": 0.002
+        },
+        "dq": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.1768381498407652e-10,
+          "max_tolerance_ratio": 0.00018470689765231847,
+          "passed": true,
+          "rtol": 0.002
+        },
+        "dv": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.302175033941367e-09,
+          "max_tolerance_ratio": 5.5253995745196144e-05,
+          "passed": true,
+          "rtol": 0.002
+        },
+        "output": {
+          "atol": 2e-05,
+          "failed_elements": 0,
+          "max_absolute_error": 2.475817545422032e-08,
+          "max_tolerance_ratio": 0.0011404239332078086,
+          "passed": true,
+          "rtol": 0.0001
+        }
+      },
+      "all_root_leaf_hooks_removed": true,
+      "case": "native-L1-checkpoint-0-near-1",
+      "checkpointed": false,
+      "inner_graph_ids": [
+        14
+      ],
+      "input_check": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.862645149230957e-09,
+        "max_tolerance_ratio": 0.0007191375884801862,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "native_forward_and_cotangent_bitwise_exact": true,
+      "old_math_changes_actual_native_cotangent": true,
+      "outer_graph_id": 13,
+      "public_math_derivatives_bitwise_equal": true,
+      "receipt": {
+        "bytes": 12677,
+        "mode": 384,
+        "mtime_ns": 1794684359174369626,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-0-near-1/receipt.json",
+        "sha256": "a63bdaf3bbad6001e8dfd2fde92c3858914fcc57fd56a8ef5a1a989493696360"
+      }
+    },
+    {
+      "FP64_checks": {
+        "dk": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.0818387465315613e-10,
+          "max_tolerance_ratio": 0.00012704991524860258,
+          "passed": true,
+          "rtol": 0.002
+        },
+        "dq": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.0065170206785832e-10,
+          "max_tolerance_ratio": 0.00018470689765231847,
+          "passed": true,
+          "rtol": 0.002
+        },
+        "dv": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.302175033941367e-09,
+          "max_tolerance_ratio": 5.5253995745196144e-05,
+          "passed": true,
+          "rtol": 0.002
+        },
+        "output": {
+          "atol": 2e-05,
+          "failed_elements": 0,
+          "max_absolute_error": 2.475817545422032e-08,
+          "max_tolerance_ratio": 0.0011404239332078086,
+          "passed": true,
+          "rtol": 0.0001
+        }
+      },
+      "all_root_leaf_hooks_removed": true,
+      "case": "native-L1-checkpoint-1-near-0",
+      "checkpointed": true,
+      "inner_graph_ids": [
+        8
+      ],
+      "input_check": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.862645149230957e-09,
+        "max_tolerance_ratio": 0.0007031743113291369,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "native_forward_and_cotangent_bitwise_exact": true,
+      "old_math_changes_actual_native_cotangent": true,
+      "outer_graph_id": 7,
+      "public_math_derivatives_bitwise_equal": true,
+      "receipt": {
+        "bytes": 14844,
+        "mode": 384,
+        "mtime_ns": 1794684359169423219,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-0/receipt.json",
+        "sha256": "b294dddf5b258a3ee37c3d1a114fa2044d3a7688bbaf2b5c69914b97757cad0f"
+      }
+    },
+    {
+      "FP64_checks": {
+        "dk": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.0818387465315613e-10,
+          "max_tolerance_ratio": 0.00017611753981872728,
+          "passed": true,
+          "rtol": 0.002
+        },
+        "dq": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.1768381498407652e-10,
+          "max_tolerance_ratio": 0.00018470689765231847,
+          "passed": true,
+          "rtol": 0.002
+        },
+        "dv": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.302175033941367e-09,
+          "max_tolerance_ratio": 5.5253995745196144e-05,
+          "passed": true,
+          "rtol": 0.002
+        },
+        "output": {
+          "atol": 2e-05,
+          "failed_elements": 0,
+          "max_absolute_error": 2.475817545422032e-08,
+          "max_tolerance_ratio": 0.0011404239332078086,
+          "passed": true,
+          "rtol": 0.0001
+        }
+      },
+      "all_root_leaf_hooks_removed": true,
+      "case": "native-L1-checkpoint-1-near-1",
+      "checkpointed": true,
+      "inner_graph_ids": [
+        20
+      ],
+      "input_check": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.862645149230957e-09,
+        "max_tolerance_ratio": 0.0007191375884801862,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "native_forward_and_cotangent_bitwise_exact": true,
+      "old_math_changes_actual_native_cotangent": true,
+      "outer_graph_id": 19,
+      "public_math_derivatives_bitwise_equal": true,
+      "receipt": {
+        "bytes": 14850,
+        "mode": 384,
+        "mtime_ns": 1794684359179685777,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/evidence-verified/native-L1-checkpoint-1-near-1/receipt.json",
+        "sha256": "dc33f4258d725db77f589c3e2cd8bcee43b8044cf57df977cc4b0214e8acb8d8"
+      }
+    }
+  ],
+  "review_generated_FP64_reference_arrays": 16,
+  "review_source": {
+    "bytes": 10200,
+    "mode": 384,
+    "mtime_ns": 1794684468886554360,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/review/review_local.py",
+    "sha256": "14d868a0baca11d9e3ba050bf19688284e93a1633cdabdc709bd5a7cf2ac9dee"
+  },
+  "runtime_metadata_after_tests": {
+    "architecture": "arm64",
+    "numpy": "2.4.6",
+    "python": "3.11.16",
+    "torch_package": "2.14.1"
+  },
+  "saved_FP32_array_count": 120,
+  "sealed_inputs": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/sealed-inputs.json",
+  "source_pins": {
+    "models/predictor_forward_preserving_cpu_v1.py": "6ba308e948c0ce346512f17ef4fc11eccb542954048c859ad6c6a751db1fbb66",
+    "tests/test_predictor_forward_preserving_cpu_v1.py": "d5915f329b991be68918d86ceeeeffb4e1d2e8b7e71c9bf23814a353fd611827"
+  },
+  "stage_changes": "After first 25 passing checks, add input/loss version and consumed-scope guards plus four edge-case checks. Then strengthen reference inputs to retain exact layout/storage; arithmetic class unchanged across stages. All earlier sources/logs/data remain.",
+  "test_counts_not_accumulated": true,
+  "test_failures_errors_skips": 0,
+  "university_operator_or_new_authorization_created": false,
+  "verified_test_log": {
+    "bytes": 99,
+    "mode": 384,
+    "mtime_ns": 1794684359261725947,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-cpu-v1-20261114/pytest-verified.log",
+    "sha256": "f1efca889fd6269b18b2589bc742d977670703037df9ecd9d19bc7b1048d6aac"
+  }
+}

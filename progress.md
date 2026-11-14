@@ -1,5 +1,80 @@
 # Research Progress Reports
 
+## 2026-11-14 — Small-upstream integration preserves native forward/cotangents
+
+Four actual model comparisons (two mask seeds, creator/separate-thread backwards)
+preserve original predictions, loss, targets and native L1 cotangents bitwise.
+Both-family, one-draw checkpointed input gradients pass original rtol 0.002 /
+atol 2e-7, maximum error/tolerance ratio 0.00392966345. Original-before/after controls
+replay exactly. Model state/versions/parameter-gradient absence and restoration pass.
+Each actual model evaluation retains 8 primary + 8 genuine recomputation rows;
+four new predictor VJPs have distinct inner GraphTasks under the original native
+root. Read-only bridge admission adds no artificial native call-thread evidence.
+Original missing-checkpoint, coverage and foreign-graph refusals remain strict.
+
+13 distinct checks are covered: first suite 12 pass/1 negative-fixture assertion
+failure; after isolating graph ownership from simultaneous changed flags, only
+that corrected check reruns and passes. Production, guards and thresholds stay;
+no successful model comparison or full suite repeats and counts are not summed.
+Independent saved-only review verifies 120 FP32 arrays, reconstructs native L1
+cotangents, checks full-input bounds and actual ownership receipts. It performs
+no model/autograd/SDPA/CUDA/process/network or reference execution. 737 prior files
+and 245 actual target descriptors remain unchanged; all new evidence is sealed.
+
+This is local tiny upstream one-draw/two-family evidence. Next explicitly bound
+and test eight-draw local integration (64 predictor calls including recomputation)
+before any target handoff. Frozen 8-call prototype and native guard stay unchanged.
+Pretrained CUDA, optimizer, throughput/budget and training remain pending. No
+SSH/status request, paid work or financial change occurs.
+[Review](report/checks/2026-11-14-predictor-forward-preserving-upstream-v1-local-review.md).
+
+## 2026-11-14 — Original-forward/public-math-VJP tiny CPU feasibility passes
+
+A separate explicit-call prototype now preserves original forward values and native
+L1 cotangents while computing first-order public math VJPs. Final 29 checks pass,
+zero failures/errors/skips. Initial 25-pass and guard/layout refinement stages are
+retained; counts are not added. Four native L1 direct/checkpointed examples and
+two chained examples pass original numerical/input bounds with exact forward
+values. Actual old-math cotangent switches remain visible in all four motivating
+fixtures. The largest input error/tolerance ratio is 0.000719138. Every introduced
+outer/inner GraphTask, leaf/root hook, checkpoint owner, layout/alias/version and
+restoration requirement is observed. Unsupported contexts and injected failures
+refuse cleanly. No frozen native guard, router or training policy is changed.
+
+Independent review verifies 120 saved FP32 arrays, reconstructs native L1
+cotangents, and explicitly evaluates four tiny vectorized NumPy FP64 references
+(16 arrays). It performs no model/autograd/SDPA/CUDA/process/network execution.
+332 prior sealed inputs and 245 target descriptors remain unchanged. No historical
+suite or target work repeats. New evidence is sealed. This is tiny local CPU
+feasibility; native model routing, Torch 2.8/CUDA, memory/performance/optimizer and
+research training remain unqualified. Next perform separate local small-upstream
+integration under the unchanged native ownership guard. No manual SSH/GPU request.
+[Review](report/checks/2026-11-14-predictor-forward-preserving-cpu-v1-local-review.md).
+
+## 2026-11-14 — Full-model follow-up selected; completed component cohort closed
+
+Saved evidence now supports a different question: can original forward values
+preserve native L1 cotangents while a public-math predictor VJP passes the original
+full-model gradient bound? The old math-forward candidate stays rejected. Both
+ordered decompositions and interaction remain; controlled g10 is not the proposed
+new route. A single passing fixed-input boundary does not qualify the full model.
+
+The inert proposal requires a tiny local CPU prototype first, covering exact
+forward/near-zero L1 behavior, direct/checkpointed VJPs, explicit autograd ownership,
+restoration and unsupported-context refusal. No frozen router, objective, numerical
+bound or training-policy registration changes. If public APIs cannot preserve
+forward/context/ownership, stop locally. A future full-model failure ends this
+candidate path rather than repeating the same comparison. Performance and full
+budget gates still follow correctness; no speedup is assumed.
+
+Builder and independent saved-only review block scientific imports/process/network
+work. Three prior reports match preserved hashes; saved decomposition matches its
+curated record. All 313 completed component inputs and 245 actual target descriptors
+remain unchanged. No tests, models, references, arrays, remote jobs or paid work
+are created. Financial caps/holds/reconciliation stay. Next implement only the new
+tiny local CPU prototype; no manual SSH/GPU status request at this stage.
+[Review](report/checks/2026-11-14-predictor-forward-preserving-vjp-v1-offline-review.md).
+
 ## 2026-11-14 — Fixed-input CUDA attention components complete and verified
 
 The exact v6 grant is consumed by claim f1193936. All four serial workers finish

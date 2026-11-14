@@ -1,0 +1,305 @@
+{
+  "both_ordered_decompositions": {
+    "cotangent_then_path": {
+      "all_signed_projection_sum": 1.0000000000000022,
+      "failure_signed_projection_sum": 0.9999999999999999,
+      "max_reconstruction_absolute_error": 0.0,
+      "reconstruction_L2_error": 0.0,
+      "terms": [
+        "cotangent_on_original_path",
+        "path_at_candidate_cotangent"
+      ]
+    },
+    "path_then_cotangent": {
+      "all_signed_projection_sum": 1.000000000000002,
+      "failure_signed_projection_sum": 1.0,
+      "max_reconstruction_absolute_error": 0.0,
+      "reconstruction_L2_error": 0.0,
+      "terms": [
+        "path_at_original_cotangent",
+        "cotangent_on_candidate_path"
+      ]
+    }
+  },
+  "boundary_totals": {
+    "cotangent_changed_elements": 11,
+    "elements": 22601728,
+    "opposite_nonzero_residual_signs": 10,
+    "pairs_with_changed_cotangents": 9,
+    "prediction_changed_elements": 22326053,
+    "residual_sign_changed_elements": 11,
+    "zero_to_or_from_nonzero_residual_signs": 1
+  },
+  "component_success_does_not_admit_full_model": true,
+  "controlled_cross_comparisons": {
+    "00": {
+      "atol": 2e-07,
+      "elements": 3145728,
+      "exact": true,
+      "kind": "input",
+      "max_absolute_error": 0.0,
+      "max_normalized_error": 0.0,
+      "passed": true,
+      "rtol": 0.002,
+      "violations": 0
+    },
+    "01": {
+      "atol": 2e-07,
+      "elements": 3145728,
+      "exact": false,
+      "kind": "input",
+      "max_absolute_error": 1.65402889251709e-05,
+      "max_normalized_error": 8.633177595303662,
+      "passed": false,
+      "rtol": 0.002,
+      "violations": 3739
+    },
+    "10": {
+      "atol": 2e-07,
+      "elements": 3145728,
+      "exact": false,
+      "kind": "input",
+      "max_absolute_error": 5.960464477539062e-07,
+      "max_normalized_error": 0.8787591294953627,
+      "passed": true,
+      "rtol": 0.002,
+      "violations": 0
+    },
+    "11": {
+      "atol": 2e-07,
+      "elements": 3145728,
+      "exact": false,
+      "kind": "input",
+      "max_absolute_error": 1.4960765838623047e-05,
+      "max_normalized_error": 8.641704438152846,
+      "passed": false,
+      "rtol": 0.002,
+      "violations": 3724
+    }
+  },
+  "date": "2026-11-14",
+  "decision": "Close the accepted fixed-input comparison; next implement a separate local-only prototype preserving original forward values while using a public math VJP.",
+  "document": {
+    "bytes": 6747,
+    "mode": 384,
+    "mtime_ns": 1794683147128965076,
+    "path": "docs/predictor_forward_preserving_vjp_v1.md",
+    "sha256": "cd63f912cd519b63f5905f616f55ae47ca7368fbf8a61a64bfe6ebc794f17c76"
+  },
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "g10_is_not_the_proposed_new_route": true,
+  "independent_review": {
+    "bytes": 2248,
+    "mode": 384,
+    "mtime_ns": 1794683238691296933,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-vjp-v1-20261114/independent-review.json",
+    "sha256": "0853f9cb834ad10e7bf694ed9b45e9e9811185d5a888cffc34fc261ec4cc2bc8"
+  },
+  "kind": "predictor-forward-preserving-next-step-offline-report-v1",
+  "manual_status_policy": "Reuse established host/GPU identities and received status. Future reviewed launchers perform live guards. Request manual output only for an access/identity change or unexpected failure; no repeated status request at this local stage.",
+  "new_tests_scientific_workers_references_arrays_or_remote_work": 0,
+  "next_step": "Implement the separate tiny local CPU prototype and its new-operator tests; stop locally if original forward or explicit checkpoint/GraphTask ownership cannot be preserved with public APIs.",
+  "ordered_terms_and_interaction": {
+    "cotangent_on_candidate_path": {
+      "all": {
+        "L2": 0.0002202106795086468,
+        "L2_over_total_difference_L2": 1.0242599905061658,
+        "cosine_with_total_difference": 0.9988730693381926,
+        "elements": 3145728,
+        "max_absolute": 1.5467405319213867e-05,
+        "nonzero": 2223174,
+        "signed_projection_fraction_of_total_difference": 1.023105720517202
+      },
+      "original_failure_locations": {
+        "L2": 4.120635743941871e-05,
+        "L2_over_total_difference_L2": 1.0071042571422755,
+        "cosine_with_total_difference": 0.9997815330861611,
+        "elements": 3724,
+        "max_absolute": 3.580935299396515e-06,
+        "nonzero": 3724,
+        "signed_projection_fraction_of_total_difference": 1.0068842381833034
+      }
+    },
+    "cotangent_on_original_path": {
+      "all": {
+        "L2": 0.00022679040428256233,
+        "L2_over_total_difference_L2": 1.0548640867720749,
+        "cosine_with_total_difference": 0.9977961190593638,
+        "elements": 3145728,
+        "max_absolute": 1.65402889251709e-05,
+        "nonzero": 2223186,
+        "signed_projection_fraction_of_total_difference": 1.0525392919162766
+      },
+      "original_failure_locations": {
+        "L2": 4.114394123165265e-05,
+        "L2_over_total_difference_L2": 1.0055787733950576,
+        "cosine_with_total_difference": 0.9997721463515769,
+        "elements": 3724,
+        "max_absolute": 3.593042492866516e-06,
+        "nonzero": 3724,
+        "signed_projection_fraction_of_total_difference": 1.0053496486027627
+      }
+    },
+    "interaction": {
+      "all": {
+        "L2": 1.0986456468708036e-05,
+        "L2_over_total_difference_L2": 0.05110100846809038,
+        "cosine_with_total_difference": -0.5759880730622758,
+        "elements": 3145728,
+        "max_absolute": 1.1324882507324219e-06,
+        "nonzero": 2191799,
+        "signed_projection_fraction_of_total_difference": -0.02943357139907442
+      },
+      "original_failure_locations": {
+        "L2": 2.9513301145291115e-07,
+        "L2_over_total_difference_L2": 0.007213200358571653,
+        "cosine_with_total_difference": 0.2127473942571304,
+        "elements": 3724,
+        "max_absolute": 4.351022653281689e-08,
+        "nonzero": 3717,
+        "signed_projection_fraction_of_total_difference": 0.0015345895805407178
+      }
+    },
+    "path_at_candidate_cotangent": {
+      "all": {
+        "L2": 1.8816240274145927e-05,
+        "L2_over_total_difference_L2": 0.08751947057046194,
+        "cosine_with_total_difference": -0.6003154677903929,
+        "elements": 3145728,
+        "max_absolute": 1.6391277313232422e-06,
+        "nonzero": 2635064,
+        "signed_projection_fraction_of_total_difference": -0.05253929191627439
+      },
+      "original_failure_locations": {
+        "L2": 9.051269248391449e-07,
+        "L2_over_total_difference_L2": 0.022121760716165315,
+        "cosine_with_total_difference": -0.24182743278899752,
+        "elements": 3724,
+        "max_absolute": 2.2354652173817158e-07,
+        "nonzero": 3719,
+        "signed_projection_fraction_of_total_difference": -0.005349648602762752
+      }
+    },
+    "path_at_original_cotangent": {
+      "all": {
+        "L2": 1.1572013877303026e-05,
+        "L2_over_total_difference_L2": 0.05382459583954104,
+        "cosine_with_total_difference": -0.42927810523801196,
+        "elements": 3145728,
+        "max_absolute": 5.960464477539062e-07,
+        "nonzero": 2633581,
+        "signed_projection_fraction_of_total_difference": -0.02310572051719996
+      },
+      "original_failure_locations": {
+        "L2": 9.061769534281976e-07,
+        "L2_over_total_difference_L2": 0.022147423946983782,
+        "cosine_with_total_difference": -0.3108369713688992,
+        "elements": 3724,
+        "max_absolute": 1.800362952053547e-07,
+        "nonzero": 3720,
+        "signed_projection_fraction_of_total_difference": -0.00688423818330347
+      }
+    }
+  },
+  "original_numerical_bounds_study_router_claims_and_results_unchanged": true,
+  "passed": true,
+  "plan": {
+    "bytes": 8914,
+    "mode": 384,
+    "mtime_ns": 1794683147128840620,
+    "path": "configs/predictor_forward_preserving_vjp_v1.json",
+    "sha256": "67c719c642de536f598d1aa648efee9752041597fe5821bf9e5b62aab2f9df03"
+  },
+  "proposed_route_prototype_operator_or_execution_grant_present": false,
+  "saved_synthesis": {
+    "bytes": 9926,
+    "mode": 384,
+    "mtime_ns": 1794683147128577375,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-vjp-v1-20261114/evidence-synthesis.json",
+    "sha256": "d3015dee70a1911191846b43bdd19c298dd4c6415a3d8c76e34bffc9add97873"
+  },
+  "sealed_inputs": "runs/pretrained/diagnostic/predictor-forward-preserving-vjp-v1-20261114/sealed-inputs.json",
+  "source_evidence": {
+    "completed_component_review": {
+      "bytes": 131637,
+      "mode": 384,
+      "mtime_ns": 1794681153503296296,
+      "path": "report/checks/2026-11-14-predictor-sdpa-continuation-v6-target-review.json",
+      "sha256": "856014be9fb1662b89d0adaaadfeff4cb4ffad86227a361e2f0bf6ee217af57c"
+    },
+    "completed_component_seal": {
+      "bytes": 62153,
+      "mode": 384,
+      "mtime_ns": 1794681153673366073,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/target-review/sealed-target-review.json",
+      "sha256": "7f31b8da4e12441eaeb4565c4a9f7c13e3d3f22034320f7c54617e27ef37e88f"
+    },
+    "four_cell_attribution": {
+      "bytes": 17926,
+      "mode": 420,
+      "mtime_ns": 1794023361160781146,
+      "path": "report/checks/2026-11-06-common-cotangent-v1-target-review.json",
+      "sha256": "7a892f9f2a286161cca58b9d7a359a357bc99e36c7e6cbc0d050c9470f1506b2"
+    },
+    "frozen_attention_router": {
+      "bytes": 7839,
+      "mode": 420,
+      "mtime_ns": 1793910190405290472,
+      "path": "models/predictor_eot8_adapter_v1.py",
+      "sha256": "89b7e0c67e88f2f776bb0bb6ad786a2202115e64ffc6c6f9a962381cc2e9a6b8"
+    },
+    "frozen_study": {
+      "bytes": 3157,
+      "mode": 420,
+      "mtime_ns": 1792274203026087336,
+      "path": "configs/study.yaml",
+      "sha256": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1"
+    },
+    "full_model_baseline": {
+      "bytes": 13407,
+      "mode": 420,
+      "mtime_ns": 1794008996335213544,
+      "path": "report/checks/2026-11-06-predictor-eot8-record-target-v2-target-review.json",
+      "sha256": "f58373bae61b90c691943905b2b76db7308b0339e1c404c4683586dc93e5e2bb"
+    },
+    "loss_boundary": {
+      "bytes": 23230,
+      "mode": 420,
+      "mtime_ns": 1794016768352042274,
+      "path": "report/checks/2026-11-06-predictor-boundary-v1-target-review.json",
+      "sha256": "b309378641673e390d6e63e521229c663453c45dffa5e8df30a797afc2b64051"
+    },
+    "ordered_decomposition": {
+      "bytes": 7145,
+      "mode": 384,
+      "mtime_ns": 1794023201350061438,
+      "path": "runs/pretrained/diagnostic/common-cotangent-handoff-v1-20261106/independent-target-review/decomposition.json",
+      "sha256": "833aad2532d486942b81beefcef180f5832e2b07309799ee077571587e8e6ec6"
+    },
+    "prior_hash_manifest": {
+      "bytes": 17561388,
+      "mode": 384,
+      "mtime_ns": 1794634581101717579,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/preserved-inputs.json",
+      "sha256": "5da9df1b74df18cc6b5955d34692d6473dc6bfe5228a5971df143499fd5b216c"
+    }
+  },
+  "stop_conditions": {
+    "all_later_correctness_resource_and_budget_gates_pass": "Only a separate reviewed research-policy decision can admit full training.",
+    "correctness_passes_but_measured_cost_does_not_fit": "Keep as diagnostic evidence only; do not train or assume speed from component times.",
+    "local_cannot_preserve_forward_or_ownership_with_public_APIs": "Stop this implementation path before target work; retain the passing original execution policy.",
+    "new_target_forward_or_gradient_or_replay_gate_fails": "Keep rejected and stop this candidate path; return to original-policy cost/design feasibility."
+  }
+}
