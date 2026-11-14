@@ -1,0 +1,3722 @@
+{
+  "actual_CPU_collection": {
+    "bytes": 665126,
+    "mode": 384,
+    "mtime_ns": 1794633316920591403,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_raw_CPU_artifacts_0/local-codec-response",
+    "sha256": "f81437fcf2655ea282ee3dcce3e7817ceddc23e31013c4fb00521c369d65ed98"
+  },
+  "actual_CPU_collection_files_verified": 56,
+  "actual_failed_CPU_workers": 3,
+  "actual_fresh_CPU_worker_processes": 11,
+  "actual_local_failure_cases": [
+    {
+      "actual_saved_numerical_checks": {
+        "profiled": {
+          "dk": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 6.045001857375804e-16,
+            "max_tolerance_ratio": 3.0224340510223703e-09,
+            "passed": true,
+            "relative_l2_error": 1.3786102489284615e-07,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "dq": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 3.3296720017471034e-13,
+            "max_tolerance_ratio": 1.6360606142825708e-06,
+            "passed": true,
+            "relative_l2_error": 1.1577041315220293e-07,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "dv": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 2.220878101105543e-11,
+            "max_tolerance_ratio": 6.228101227698814e-05,
+            "passed": true,
+            "relative_l2_error": 7.455547426321817e-08,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 7.2552385418922505e-09,
+            "max_tolerance_ratio": 0.0003083569023029144,
+            "passed": true,
+            "relative_l2_error": 5.447643335644862e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          }
+        },
+        "untimed": {
+          "dk": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 6.045001857375804e-16,
+            "max_tolerance_ratio": 3.0224340510223703e-09,
+            "passed": true,
+            "relative_l2_error": 1.3786102489284615e-07,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "dq": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 3.3296720017471034e-13,
+            "max_tolerance_ratio": 1.6360606142825708e-06,
+            "passed": true,
+            "relative_l2_error": 1.1577041315220293e-07,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "dv": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 2.220878101105543e-11,
+            "max_tolerance_ratio": 6.228101227698814e-05,
+            "passed": true,
+            "relative_l2_error": 7.455547426321817e-08,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 7.2552385418922505e-09,
+            "max_tolerance_ratio": 0.0003083569023029144,
+            "passed": true,
+            "relative_l2_error": 5.447643335644862e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          }
+        }
+      },
+      "error": "injected-association-refusal-v7",
+      "local_injection": true,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0",
+      "reference": {
+        "bytes": 2749,
+        "mode": 384,
+        "mtime_ns": 1794633316205425691,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/reference/reference.json",
+        "sha256": "6bbd1ce0fcab019c7c0afc3fe0725e52bda19797d30ae20b66a34e07598be161"
+      },
+      "trace_descriptor": {
+        "bytes": 25736,
+        "encoding": "single-JSON-envelope",
+        "file": "events.jsonl",
+        "format": "fixed-SDPA-raw-Kineto-correlation-v1",
+        "metadata_policy": "fixed-SDPA-profiler-overhead-signature-v1",
+        "records": 75,
+        "saved_before_semantic_validation": true,
+        "sha256": "53d793af2a7dc893e7200c025772cf5d9da43a7a9ef52de288fbb10b930df2d7",
+        "torch_version": "2.14.1"
+      },
+      "worker": {
+        "bytes": 7821,
+        "mode": 384,
+        "mtime_ns": 1794633316231347737,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/worker.json",
+        "sha256": "ce3cff21dc63a19e3d004aaadfc62cf6aff04f61dd9e89e21356806267a11b31"
+      }
+    },
+    {
+      "actual_saved_numerical_checks": {
+        "profiled": {
+          "dk": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 6.045001857375804e-16,
+            "max_tolerance_ratio": 3.0224340510223703e-09,
+            "passed": true,
+            "relative_l2_error": 1.3786102489284615e-07,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "dq": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 3.3296720017471034e-13,
+            "max_tolerance_ratio": 1.6360606142825708e-06,
+            "passed": true,
+            "relative_l2_error": 1.1577041315220293e-07,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "dv": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 2.220878101105543e-11,
+            "max_tolerance_ratio": 6.228101227698814e-05,
+            "passed": true,
+            "relative_l2_error": 7.455547426321817e-08,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 7.2552385418922505e-09,
+            "max_tolerance_ratio": 0.0003083569023029144,
+            "passed": true,
+            "relative_l2_error": 5.447643335644862e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          }
+        },
+        "untimed": {
+          "dk": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 6.045001857375804e-16,
+            "max_tolerance_ratio": 3.0224340510223703e-09,
+            "passed": true,
+            "relative_l2_error": 1.3786102489284615e-07,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "dq": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 3.3296720017471034e-13,
+            "max_tolerance_ratio": 1.6360606142825708e-06,
+            "passed": true,
+            "relative_l2_error": 1.1577041315220293e-07,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "dv": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 2.220878101105543e-11,
+            "max_tolerance_ratio": 6.228101227698814e-05,
+            "passed": true,
+            "relative_l2_error": 7.455547426321817e-08,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 7.2552385418922505e-09,
+            "max_tolerance_ratio": 0.0003083569023029144,
+            "passed": true,
+            "relative_l2_error": 5.447643335644862e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          }
+        }
+      },
+      "error": "injected-missing-raw-API",
+      "local_injection": true,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0",
+      "reference": {
+        "bytes": 2749,
+        "mode": 384,
+        "mtime_ns": 1794633317766906537,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/reference/reference.json",
+        "sha256": "f0284fb967e165b99a221ca918fdde6c02505fa27894e7171cfc16f5a9fb4d2e"
+      },
+      "trace_descriptor": null,
+      "worker": {
+        "bytes": 7472,
+        "mode": 384,
+        "mtime_ns": 1794633317794813730,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/worker.json",
+        "sha256": "6b34f3ff4f35046846691ab220aa4aba93b429c20ea5dd6fc6d35345b43131ca"
+      }
+    },
+    {
+      "actual_saved_numerical_checks": {
+        "profiled": {
+          "dk": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 6.045001857375804e-16,
+            "max_tolerance_ratio": 3.0224340510223703e-09,
+            "passed": true,
+            "relative_l2_error": 1.3786102489284615e-07,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "dq": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 3.3296720017471034e-13,
+            "max_tolerance_ratio": 1.6360606142825708e-06,
+            "passed": true,
+            "relative_l2_error": 1.1577041315220293e-07,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "dv": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 2.220878101105543e-11,
+            "max_tolerance_ratio": 6.228101227698814e-05,
+            "passed": true,
+            "relative_l2_error": 7.455547426321817e-08,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 7.2552385418922505e-09,
+            "max_tolerance_ratio": 0.0003083569023029144,
+            "passed": true,
+            "relative_l2_error": 5.447643335644862e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          }
+        },
+        "untimed": {
+          "dk": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 6.045001857375804e-16,
+            "max_tolerance_ratio": 3.0224340510223703e-09,
+            "passed": true,
+            "relative_l2_error": 1.3786102489284615e-07,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "dq": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 3.3296720017471034e-13,
+            "max_tolerance_ratio": 1.6360606142825708e-06,
+            "passed": true,
+            "relative_l2_error": 1.1577041315220293e-07,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "dv": {
+            "atol": 2e-07,
+            "failed_elements": 0,
+            "max_absolute_error": 2.220878101105543e-11,
+            "max_tolerance_ratio": 6.228101227698814e-05,
+            "passed": true,
+            "relative_l2_error": 7.455547426321817e-08,
+            "rtol": 0.002,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          },
+          "output": {
+            "atol": 2e-05,
+            "failed_elements": 0,
+            "max_absolute_error": 7.2552385418922505e-09,
+            "max_tolerance_ratio": 0.0003083569023029144,
+            "passed": true,
+            "relative_l2_error": 5.447643335644862e-08,
+            "rtol": 0.0001,
+            "shape": [
+              1,
+              2,
+              32,
+              32
+            ]
+          }
+        }
+      },
+      "error": "Unknown or malformed negative-device profiler record; no name-only exclusion.",
+      "local_injection": true,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0",
+      "reference": {
+        "bytes": 2749,
+        "mode": 384,
+        "mtime_ns": 1794633318807534326,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/reference/reference.json",
+        "sha256": "b52e44286b9b908032de7cfe36ea28afb52ee5221dc6b38f626a60a08221b56f"
+      },
+      "trace_descriptor": {
+        "bytes": 25733,
+        "encoding": "single-JSON-envelope",
+        "file": "events.jsonl",
+        "format": "fixed-SDPA-raw-Kineto-correlation-v1",
+        "metadata_policy": "fixed-SDPA-profiler-overhead-signature-v1",
+        "records": 75,
+        "saved_before_semantic_validation": true,
+        "sha256": "e973d7fa9aa07008a2ba85b98c85157149148f2e0a349f21a86622713380ded0",
+        "torch_version": "2.14.1"
+      },
+      "worker": {
+        "bytes": 7868,
+        "mode": 384,
+        "mtime_ns": 1794633318834801651,
+        "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/worker.json",
+        "sha256": "1975b6dc9b96bae041167cb3522e152b68aa427b4ed847db31a046222f07297b"
+      }
+    }
+  ],
+  "actual_successful_CPU_workers": 8,
+  "all_new_source_test_and_review_inputs_frozen_by": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/sealed-local-inputs.json",
+  "all_six_consumed_claims_unchanged": [
+    {
+      "bytes": 259,
+      "mode": 420,
+      "mtime_ns": 1794623296040130747,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v5-20261113/linux10603-final/ATTEMPT.json",
+      "sha256": "8e5614d40fd19cf2fd35861e19a86eb90251cd113ef23b144db9a0682d070662"
+    },
+    {
+      "bytes": 258,
+      "mode": 420,
+      "mtime_ns": 1794615662552820275,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v4-20261113/linux10603-final/ATTEMPT.json",
+      "sha256": "3829d1b634b32053f73560610f2e78d5a835e7193eaea885b55211e6c2536c32"
+    },
+    {
+      "bytes": 260,
+      "mode": 420,
+      "mtime_ns": 1794610485666490501,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v3-20261113/linux10603-final/ATTEMPT.json",
+      "sha256": "95a15a08e35721a7840e26915544b5599d3656635b2527162b3ec595236770b0"
+    },
+    {
+      "bytes": 258,
+      "mode": 420,
+      "mtime_ns": 1794181676792950736,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-integration-v3-20261108/linux10603-final/ATTEMPT.json",
+      "sha256": "6c46ce1fb7ab4a3f7dbe138866b9d45f5046f0c77b26bd8e689d7b8c3dcaa07a"
+    },
+    {
+      "bytes": 259,
+      "mode": 420,
+      "mtime_ns": 1794155687460918245,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-continuation-v1-20261108/linux10603-final/ATTEMPT.json",
+      "sha256": "9933b5e9f50c5c3ee571b39bea8d2afd94724ea9adf7d772809a70aaaae7f1f0"
+    },
+    {
+      "bytes": 254,
+      "mode": 420,
+      "mtime_ns": 1794118109493298984,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-handoff-v2-20261107/linux10603-final/ATTEMPT.json",
+      "sha256": "d402bddad88abe7b2241d8c518197ce4bd693b46811352615d87013a9a9d240b"
+    }
+  ],
+  "candidate_rejection_and_financial_caps_holds_reconciliation_unchanged": true,
+  "canonical_reference_builds_across_separate_cases": 5,
+  "collection_bytes_hashes_modes_nsmtime_match": true,
+  "collection_logical_bytes": 605371,
+  "controlled_diagnostic_rounding_CPU_cohort": {
+    "diagnostic_serialization_injected": true,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort",
+    "raw_counts": [
+      75,
+      249,
+      75,
+      249
+    ],
+    "reference": {
+      "bytes": 2749,
+      "mode": 384,
+      "mtime_ns": 1794633320159612826,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/reference/reference.json",
+      "sha256": "68d0b824a79d7e6fc51c267b64c074d271adc5222314fc50b029387617ade92c"
+    },
+    "workers": [
+      {
+        "index": 0,
+        "numerical_checks": {
+          "profiled": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 6.045001857375804e-16,
+              "max_tolerance_ratio": 3.0224340510223703e-09,
+              "passed": true,
+              "relative_l2_error": 1.3786102489284615e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 3.3296720017471034e-13,
+              "max_tolerance_ratio": 1.6360606142825708e-06,
+              "passed": true,
+              "relative_l2_error": 1.1577041315220293e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.220878101105543e-11,
+              "max_tolerance_ratio": 6.228101227698814e-05,
+              "passed": true,
+              "relative_l2_error": 7.455547426321817e-08,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 7.2552385418922505e-09,
+              "max_tolerance_ratio": 0.0003083569023029144,
+              "passed": true,
+              "relative_l2_error": 5.447643335644862e-08,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            }
+          },
+          "untimed": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 6.045001857375804e-16,
+              "max_tolerance_ratio": 3.0224340510223703e-09,
+              "passed": true,
+              "relative_l2_error": 1.3786102489284615e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 3.3296720017471034e-13,
+              "max_tolerance_ratio": 1.6360606142825708e-06,
+              "passed": true,
+              "relative_l2_error": 1.1577041315220293e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.220878101105543e-11,
+              "max_tolerance_ratio": 6.228101227698814e-05,
+              "passed": true,
+              "relative_l2_error": 7.455547426321817e-08,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 7.2552385418922505e-09,
+              "max_tolerance_ratio": 0.0003083569023029144,
+              "passed": true,
+              "relative_l2_error": 5.447643335644862e-08,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            }
+          }
+        },
+        "pid": 44223,
+        "receipt_comparison": {
+          "profiled": {
+            "all_acceptance_fields_exact": true,
+            "bookkeeping": {
+              "atol": 1e-14,
+              "rtol": 1e-12
+            },
+            "comparison_passed": true,
+            "context": "canonical-FP64",
+            "kind": "fixed-SDPA-numerical-receipt-comparison-v1",
+            "original_elementwise_bounds_passed": true,
+            "performance_qualified": false,
+            "policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+            "producer_records_rewritten": false,
+            "relative_l2": {
+              "dk": {
+                "absolute_difference": 2.6469779601696886e-23,
+                "allowed_bookkeeping_difference": 1.0000137861024893e-14,
+                "exact_summary_match": false,
+                "recomputed": 1.3786102489284615e-07,
+                "recorded": 1.3786102489284618e-07
+              },
+              "dq": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000115770413153e-14,
+                "exact_summary_match": false,
+                "recomputed": 1.1577041315220293e-07,
+                "recorded": 1.1577041315220294e-07
+              },
+              "dv": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000074555474263e-14,
+                "exact_summary_match": false,
+                "recomputed": 7.455547426321817e-08,
+                "recorded": 7.455547426321818e-08
+              },
+              "output": {
+                "absolute_difference": 6.617444900424222e-24,
+                "allowed_bookkeeping_difference": 1.0000054476433356e-14,
+                "exact_summary_match": false,
+                "recomputed": 5.447643335644862e-08,
+                "recorded": 5.447643335644863e-08
+              }
+            },
+            "research_admitted": false,
+            "tensor_bounds": {
+              "dk": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dq": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dv": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "output": {
+                "atol": 2e-05,
+                "rtol": 0.0001
+              }
+            },
+            "worker_completion_inferred": false
+          },
+          "untimed": {
+            "all_acceptance_fields_exact": true,
+            "bookkeeping": {
+              "atol": 1e-14,
+              "rtol": 1e-12
+            },
+            "comparison_passed": true,
+            "context": "canonical-FP64",
+            "kind": "fixed-SDPA-numerical-receipt-comparison-v1",
+            "original_elementwise_bounds_passed": true,
+            "performance_qualified": false,
+            "policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+            "producer_records_rewritten": false,
+            "relative_l2": {
+              "dk": {
+                "absolute_difference": 2.6469779601696886e-23,
+                "allowed_bookkeeping_difference": 1.0000137861024893e-14,
+                "exact_summary_match": false,
+                "recomputed": 1.3786102489284615e-07,
+                "recorded": 1.3786102489284618e-07
+              },
+              "dq": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000115770413153e-14,
+                "exact_summary_match": false,
+                "recomputed": 1.1577041315220293e-07,
+                "recorded": 1.1577041315220294e-07
+              },
+              "dv": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000074555474263e-14,
+                "exact_summary_match": false,
+                "recomputed": 7.455547426321817e-08,
+                "recorded": 7.455547426321818e-08
+              },
+              "output": {
+                "absolute_difference": 6.617444900424222e-24,
+                "allowed_bookkeeping_difference": 1.0000054476433356e-14,
+                "exact_summary_match": false,
+                "recomputed": 5.447643335644862e-08,
+                "recorded": 5.447643335644863e-08
+              }
+            },
+            "research_admitted": false,
+            "tensor_bounds": {
+              "dk": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dq": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dv": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "output": {
+                "atol": 2e-05,
+                "rtol": 0.0001
+              }
+            },
+            "worker_completion_inferred": false
+          }
+        },
+        "worker": {
+          "bytes": 9563,
+          "mode": 384,
+          "mtime_ns": 1794633320189481417,
+          "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/worker.json",
+          "sha256": "569f67b96d087707f2e63172db46b19d297881c8e4aeba5c956b6f5ac6164889"
+        }
+      },
+      {
+        "index": 1,
+        "numerical_checks": {
+          "profiled": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 5.401049691437153e-16,
+              "max_tolerance_ratio": 2.700491691214415e-09,
+              "passed": true,
+              "relative_l2_error": 1.064387059336796e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.755620563800958e-13,
+              "max_tolerance_ratio": 1.3617889660993968e-06,
+              "passed": true,
+              "relative_l2_error": 1.0969150953548223e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.220878101105543e-11,
+              "max_tolerance_ratio": 6.228101227698814e-05,
+              "passed": true,
+              "relative_l2_error": 7.455371744162237e-08,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 5.468499604532884e-09,
+              "max_tolerance_ratio": 0.00022312235161089299,
+              "passed": true,
+              "relative_l2_error": 5.088068982993577e-08,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            }
+          },
+          "untimed": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 5.401049691437153e-16,
+              "max_tolerance_ratio": 2.700491691214415e-09,
+              "passed": true,
+              "relative_l2_error": 1.064387059336796e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.755620563800958e-13,
+              "max_tolerance_ratio": 1.3617889660993968e-06,
+              "passed": true,
+              "relative_l2_error": 1.0969150953548223e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.220878101105543e-11,
+              "max_tolerance_ratio": 6.228101227698814e-05,
+              "passed": true,
+              "relative_l2_error": 7.455371744162237e-08,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 5.468499604532884e-09,
+              "max_tolerance_ratio": 0.00022312235161089299,
+              "passed": true,
+              "relative_l2_error": 5.088068982993577e-08,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            }
+          }
+        },
+        "pid": 44224,
+        "receipt_comparison": {
+          "profiled": {
+            "all_acceptance_fields_exact": true,
+            "bookkeeping": {
+              "atol": 1e-14,
+              "rtol": 1e-12
+            },
+            "comparison_passed": true,
+            "context": "canonical-FP64",
+            "kind": "fixed-SDPA-numerical-receipt-comparison-v1",
+            "original_elementwise_bounds_passed": true,
+            "performance_qualified": false,
+            "policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+            "producer_records_rewritten": false,
+            "relative_l2": {
+              "dk": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000106438705933e-14,
+                "exact_summary_match": false,
+                "recomputed": 1.064387059336796e-07,
+                "recorded": 1.0643870593367962e-07
+              },
+              "dq": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000109691509535e-14,
+                "exact_summary_match": false,
+                "recomputed": 1.0969150953548223e-07,
+                "recorded": 1.0969150953548224e-07
+              },
+              "dv": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000074553717442e-14,
+                "exact_summary_match": false,
+                "recomputed": 7.455371744162237e-08,
+                "recorded": 7.455371744162238e-08
+              },
+              "output": {
+                "absolute_difference": 6.617444900424222e-24,
+                "allowed_bookkeeping_difference": 1.0000050880689829e-14,
+                "exact_summary_match": false,
+                "recomputed": 5.088068982993577e-08,
+                "recorded": 5.0880689829935773e-08
+              }
+            },
+            "research_admitted": false,
+            "tensor_bounds": {
+              "dk": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dq": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dv": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "output": {
+                "atol": 2e-05,
+                "rtol": 0.0001
+              }
+            },
+            "worker_completion_inferred": false
+          },
+          "untimed": {
+            "all_acceptance_fields_exact": true,
+            "bookkeeping": {
+              "atol": 1e-14,
+              "rtol": 1e-12
+            },
+            "comparison_passed": true,
+            "context": "canonical-FP64",
+            "kind": "fixed-SDPA-numerical-receipt-comparison-v1",
+            "original_elementwise_bounds_passed": true,
+            "performance_qualified": false,
+            "policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+            "producer_records_rewritten": false,
+            "relative_l2": {
+              "dk": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000106438705933e-14,
+                "exact_summary_match": false,
+                "recomputed": 1.064387059336796e-07,
+                "recorded": 1.0643870593367962e-07
+              },
+              "dq": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000109691509535e-14,
+                "exact_summary_match": false,
+                "recomputed": 1.0969150953548223e-07,
+                "recorded": 1.0969150953548224e-07
+              },
+              "dv": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000074553717442e-14,
+                "exact_summary_match": false,
+                "recomputed": 7.455371744162237e-08,
+                "recorded": 7.455371744162238e-08
+              },
+              "output": {
+                "absolute_difference": 6.617444900424222e-24,
+                "allowed_bookkeeping_difference": 1.0000050880689829e-14,
+                "exact_summary_match": false,
+                "recomputed": 5.088068982993577e-08,
+                "recorded": 5.0880689829935773e-08
+              }
+            },
+            "research_admitted": false,
+            "tensor_bounds": {
+              "dk": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dq": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dv": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "output": {
+                "atol": 2e-05,
+                "rtol": 0.0001
+              }
+            },
+            "worker_completion_inferred": false
+          }
+        },
+        "worker": {
+          "bytes": 10644,
+          "mode": 384,
+          "mtime_ns": 1794633321271948476,
+          "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/worker.json",
+          "sha256": "428195f26d09cc458859e7e5fb3514ae6885991eca1496a639ef7e08e8de8435"
+        }
+      },
+      {
+        "index": 2,
+        "numerical_checks": {
+          "profiled": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 6.045001857375804e-16,
+              "max_tolerance_ratio": 3.0224340510223703e-09,
+              "passed": true,
+              "relative_l2_error": 1.3786102489284615e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 3.3296720017471034e-13,
+              "max_tolerance_ratio": 1.6360606142825708e-06,
+              "passed": true,
+              "relative_l2_error": 1.1577041315220293e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.220878101105543e-11,
+              "max_tolerance_ratio": 6.228101227698814e-05,
+              "passed": true,
+              "relative_l2_error": 7.455547426321817e-08,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 7.2552385418922505e-09,
+              "max_tolerance_ratio": 0.0003083569023029144,
+              "passed": true,
+              "relative_l2_error": 5.447643335644862e-08,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            }
+          },
+          "untimed": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 6.045001857375804e-16,
+              "max_tolerance_ratio": 3.0224340510223703e-09,
+              "passed": true,
+              "relative_l2_error": 1.3786102489284615e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 3.3296720017471034e-13,
+              "max_tolerance_ratio": 1.6360606142825708e-06,
+              "passed": true,
+              "relative_l2_error": 1.1577041315220293e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.220878101105543e-11,
+              "max_tolerance_ratio": 6.228101227698814e-05,
+              "passed": true,
+              "relative_l2_error": 7.455547426321817e-08,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 7.2552385418922505e-09,
+              "max_tolerance_ratio": 0.0003083569023029144,
+              "passed": true,
+              "relative_l2_error": 5.447643335644862e-08,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            }
+          }
+        },
+        "pid": 44226,
+        "receipt_comparison": {
+          "profiled": {
+            "all_acceptance_fields_exact": true,
+            "bookkeeping": {
+              "atol": 1e-14,
+              "rtol": 1e-12
+            },
+            "comparison_passed": true,
+            "context": "canonical-FP64",
+            "kind": "fixed-SDPA-numerical-receipt-comparison-v1",
+            "original_elementwise_bounds_passed": true,
+            "performance_qualified": false,
+            "policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+            "producer_records_rewritten": false,
+            "relative_l2": {
+              "dk": {
+                "absolute_difference": 2.6469779601696886e-23,
+                "allowed_bookkeeping_difference": 1.0000137861024893e-14,
+                "exact_summary_match": false,
+                "recomputed": 1.3786102489284615e-07,
+                "recorded": 1.3786102489284618e-07
+              },
+              "dq": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000115770413153e-14,
+                "exact_summary_match": false,
+                "recomputed": 1.1577041315220293e-07,
+                "recorded": 1.1577041315220294e-07
+              },
+              "dv": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000074555474263e-14,
+                "exact_summary_match": false,
+                "recomputed": 7.455547426321817e-08,
+                "recorded": 7.455547426321818e-08
+              },
+              "output": {
+                "absolute_difference": 6.617444900424222e-24,
+                "allowed_bookkeeping_difference": 1.0000054476433356e-14,
+                "exact_summary_match": false,
+                "recomputed": 5.447643335644862e-08,
+                "recorded": 5.447643335644863e-08
+              }
+            },
+            "research_admitted": false,
+            "tensor_bounds": {
+              "dk": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dq": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dv": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "output": {
+                "atol": 2e-05,
+                "rtol": 0.0001
+              }
+            },
+            "worker_completion_inferred": false
+          },
+          "untimed": {
+            "all_acceptance_fields_exact": true,
+            "bookkeeping": {
+              "atol": 1e-14,
+              "rtol": 1e-12
+            },
+            "comparison_passed": true,
+            "context": "canonical-FP64",
+            "kind": "fixed-SDPA-numerical-receipt-comparison-v1",
+            "original_elementwise_bounds_passed": true,
+            "performance_qualified": false,
+            "policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+            "producer_records_rewritten": false,
+            "relative_l2": {
+              "dk": {
+                "absolute_difference": 2.6469779601696886e-23,
+                "allowed_bookkeeping_difference": 1.0000137861024893e-14,
+                "exact_summary_match": false,
+                "recomputed": 1.3786102489284615e-07,
+                "recorded": 1.3786102489284618e-07
+              },
+              "dq": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000115770413153e-14,
+                "exact_summary_match": false,
+                "recomputed": 1.1577041315220293e-07,
+                "recorded": 1.1577041315220294e-07
+              },
+              "dv": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000074555474263e-14,
+                "exact_summary_match": false,
+                "recomputed": 7.455547426321817e-08,
+                "recorded": 7.455547426321818e-08
+              },
+              "output": {
+                "absolute_difference": 6.617444900424222e-24,
+                "allowed_bookkeeping_difference": 1.0000054476433356e-14,
+                "exact_summary_match": false,
+                "recomputed": 5.447643335644862e-08,
+                "recorded": 5.447643335644863e-08
+              }
+            },
+            "research_admitted": false,
+            "tensor_bounds": {
+              "dk": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dq": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dv": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "output": {
+                "atol": 2e-05,
+                "rtol": 0.0001
+              }
+            },
+            "worker_completion_inferred": false
+          }
+        },
+        "worker": {
+          "bytes": 10035,
+          "mode": 384,
+          "mtime_ns": 1794633322414176843,
+          "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/worker.json",
+          "sha256": "468419ad31a499c467a57016454acab8db7259df2fd95ff1407d9a9e466e4db5"
+        }
+      },
+      {
+        "index": 3,
+        "numerical_checks": {
+          "profiled": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 5.401049691437153e-16,
+              "max_tolerance_ratio": 2.700491691214415e-09,
+              "passed": true,
+              "relative_l2_error": 1.064387059336796e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.755620563800958e-13,
+              "max_tolerance_ratio": 1.3617889660993968e-06,
+              "passed": true,
+              "relative_l2_error": 1.0969150953548223e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.220878101105543e-11,
+              "max_tolerance_ratio": 6.228101227698814e-05,
+              "passed": true,
+              "relative_l2_error": 7.455371744162237e-08,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 5.468499604532884e-09,
+              "max_tolerance_ratio": 0.00022312235161089299,
+              "passed": true,
+              "relative_l2_error": 5.088068982993577e-08,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            }
+          },
+          "untimed": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 5.401049691437153e-16,
+              "max_tolerance_ratio": 2.700491691214415e-09,
+              "passed": true,
+              "relative_l2_error": 1.064387059336796e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.755620563800958e-13,
+              "max_tolerance_ratio": 1.3617889660993968e-06,
+              "passed": true,
+              "relative_l2_error": 1.0969150953548223e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.220878101105543e-11,
+              "max_tolerance_ratio": 6.228101227698814e-05,
+              "passed": true,
+              "relative_l2_error": 7.455371744162237e-08,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 5.468499604532884e-09,
+              "max_tolerance_ratio": 0.00022312235161089299,
+              "passed": true,
+              "relative_l2_error": 5.088068982993577e-08,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            }
+          }
+        },
+        "pid": 44227,
+        "receipt_comparison": {
+          "profiled": {
+            "all_acceptance_fields_exact": true,
+            "bookkeeping": {
+              "atol": 1e-14,
+              "rtol": 1e-12
+            },
+            "comparison_passed": true,
+            "context": "canonical-FP64",
+            "kind": "fixed-SDPA-numerical-receipt-comparison-v1",
+            "original_elementwise_bounds_passed": true,
+            "performance_qualified": false,
+            "policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+            "producer_records_rewritten": false,
+            "relative_l2": {
+              "dk": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000106438705933e-14,
+                "exact_summary_match": false,
+                "recomputed": 1.064387059336796e-07,
+                "recorded": 1.0643870593367962e-07
+              },
+              "dq": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000109691509535e-14,
+                "exact_summary_match": false,
+                "recomputed": 1.0969150953548223e-07,
+                "recorded": 1.0969150953548224e-07
+              },
+              "dv": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000074553717442e-14,
+                "exact_summary_match": false,
+                "recomputed": 7.455371744162237e-08,
+                "recorded": 7.455371744162238e-08
+              },
+              "output": {
+                "absolute_difference": 6.617444900424222e-24,
+                "allowed_bookkeeping_difference": 1.0000050880689829e-14,
+                "exact_summary_match": false,
+                "recomputed": 5.088068982993577e-08,
+                "recorded": 5.0880689829935773e-08
+              }
+            },
+            "research_admitted": false,
+            "tensor_bounds": {
+              "dk": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dq": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dv": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "output": {
+                "atol": 2e-05,
+                "rtol": 0.0001
+              }
+            },
+            "worker_completion_inferred": false
+          },
+          "untimed": {
+            "all_acceptance_fields_exact": true,
+            "bookkeeping": {
+              "atol": 1e-14,
+              "rtol": 1e-12
+            },
+            "comparison_passed": true,
+            "context": "canonical-FP64",
+            "kind": "fixed-SDPA-numerical-receipt-comparison-v1",
+            "original_elementwise_bounds_passed": true,
+            "performance_qualified": false,
+            "policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+            "producer_records_rewritten": false,
+            "relative_l2": {
+              "dk": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000106438705933e-14,
+                "exact_summary_match": false,
+                "recomputed": 1.064387059336796e-07,
+                "recorded": 1.0643870593367962e-07
+              },
+              "dq": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000109691509535e-14,
+                "exact_summary_match": false,
+                "recomputed": 1.0969150953548223e-07,
+                "recorded": 1.0969150953548224e-07
+              },
+              "dv": {
+                "absolute_difference": 1.3234889800848443e-23,
+                "allowed_bookkeeping_difference": 1.0000074553717442e-14,
+                "exact_summary_match": false,
+                "recomputed": 7.455371744162237e-08,
+                "recorded": 7.455371744162238e-08
+              },
+              "output": {
+                "absolute_difference": 6.617444900424222e-24,
+                "allowed_bookkeeping_difference": 1.0000050880689829e-14,
+                "exact_summary_match": false,
+                "recomputed": 5.088068982993577e-08,
+                "recorded": 5.0880689829935773e-08
+              }
+            },
+            "research_admitted": false,
+            "tensor_bounds": {
+              "dk": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dq": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dv": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "output": {
+                "atol": 2e-05,
+                "rtol": 0.0001
+              }
+            },
+            "worker_completion_inferred": false
+          }
+        },
+        "worker": {
+          "bytes": 11117,
+          "mode": 384,
+          "mtime_ns": 1794633323608411007,
+          "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/worker.json",
+          "sha256": "fcbeaad1ae270a9cec239646b1cac1b4fd3f136194f4507037e57f456e018cc5"
+        }
+      }
+    ]
+  },
+  "counts_not_accumulated_with_previous_suites": true,
+  "date": "2026-11-13",
+  "first_run_passed": true,
+  "historical_failed_parent_and_completed_producer_not_rewritten": true,
+  "kind": "numerical-policy-bound-component-v7-local-review",
+  "metadata_policy": "fixed-SDPA-profiler-overhead-signature-v1",
+  "model_autograd_SDPA_CUDA_profile_process_network_reference_extraction_execution_blocked_during_review": true,
+  "next_step": "Prepare a separate, unarmed university handoff using the frozen accepted native-input capsule, v7 worker/v2 records and explicit numerical policy. Bind new source/plan/reference/worker/resource identities, prepare any cold adapter, and test exact payload/imports/unused authorization/live guards/storage/serial clocks/same-SSH collection before considering one future scoped university proposal. Never reuse old helper/grant/claim/clock or close the historical failed cohort.",
+  "no_new_university_operator_handoff_CONTROL_AUTHORIZATION_ATTEMPT_SSH_upload_or_paid_compute": true,
+  "normal_CPU_cohort": {
+    "diagnostic_serialization_injected": false,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort",
+    "raw_counts": [
+      75,
+      249,
+      75,
+      249
+    ],
+    "reference": {
+      "bytes": 2749,
+      "mode": 384,
+      "mtime_ns": 1794633311141140510,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/reference/reference.json",
+      "sha256": "1139dd082fc0cd43d2702dbac6728cb21538990310cc527048b6d534152380ce"
+    },
+    "workers": [
+      {
+        "index": 0,
+        "numerical_checks": {
+          "profiled": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 6.045001857375804e-16,
+              "max_tolerance_ratio": 3.0224340510223703e-09,
+              "passed": true,
+              "relative_l2_error": 1.3786102489284615e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 3.3296720017471034e-13,
+              "max_tolerance_ratio": 1.6360606142825708e-06,
+              "passed": true,
+              "relative_l2_error": 1.1577041315220293e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.220878101105543e-11,
+              "max_tolerance_ratio": 6.228101227698814e-05,
+              "passed": true,
+              "relative_l2_error": 7.455547426321817e-08,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 7.2552385418922505e-09,
+              "max_tolerance_ratio": 0.0003083569023029144,
+              "passed": true,
+              "relative_l2_error": 5.447643335644862e-08,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            }
+          },
+          "untimed": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 6.045001857375804e-16,
+              "max_tolerance_ratio": 3.0224340510223703e-09,
+              "passed": true,
+              "relative_l2_error": 1.3786102489284615e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 3.3296720017471034e-13,
+              "max_tolerance_ratio": 1.6360606142825708e-06,
+              "passed": true,
+              "relative_l2_error": 1.1577041315220293e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.220878101105543e-11,
+              "max_tolerance_ratio": 6.228101227698814e-05,
+              "passed": true,
+              "relative_l2_error": 7.455547426321817e-08,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 7.2552385418922505e-09,
+              "max_tolerance_ratio": 0.0003083569023029144,
+              "passed": true,
+              "relative_l2_error": 5.447643335644862e-08,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            }
+          }
+        },
+        "pid": 44181,
+        "receipt_comparison": {
+          "profiled": {
+            "all_acceptance_fields_exact": true,
+            "bookkeeping": {
+              "atol": 1e-14,
+              "rtol": 1e-12
+            },
+            "comparison_passed": true,
+            "context": "canonical-FP64",
+            "kind": "fixed-SDPA-numerical-receipt-comparison-v1",
+            "original_elementwise_bounds_passed": true,
+            "performance_qualified": false,
+            "policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+            "producer_records_rewritten": false,
+            "relative_l2": {
+              "dk": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000137861024893e-14,
+                "exact_summary_match": true,
+                "recomputed": 1.3786102489284615e-07,
+                "recorded": 1.3786102489284615e-07
+              },
+              "dq": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000115770413153e-14,
+                "exact_summary_match": true,
+                "recomputed": 1.1577041315220293e-07,
+                "recorded": 1.1577041315220293e-07
+              },
+              "dv": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000074555474263e-14,
+                "exact_summary_match": true,
+                "recomputed": 7.455547426321817e-08,
+                "recorded": 7.455547426321817e-08
+              },
+              "output": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000054476433356e-14,
+                "exact_summary_match": true,
+                "recomputed": 5.447643335644862e-08,
+                "recorded": 5.447643335644862e-08
+              }
+            },
+            "research_admitted": false,
+            "tensor_bounds": {
+              "dk": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dq": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dv": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "output": {
+                "atol": 2e-05,
+                "rtol": 0.0001
+              }
+            },
+            "worker_completion_inferred": false
+          },
+          "untimed": {
+            "all_acceptance_fields_exact": true,
+            "bookkeeping": {
+              "atol": 1e-14,
+              "rtol": 1e-12
+            },
+            "comparison_passed": true,
+            "context": "canonical-FP64",
+            "kind": "fixed-SDPA-numerical-receipt-comparison-v1",
+            "original_elementwise_bounds_passed": true,
+            "performance_qualified": false,
+            "policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+            "producer_records_rewritten": false,
+            "relative_l2": {
+              "dk": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000137861024893e-14,
+                "exact_summary_match": true,
+                "recomputed": 1.3786102489284615e-07,
+                "recorded": 1.3786102489284615e-07
+              },
+              "dq": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000115770413153e-14,
+                "exact_summary_match": true,
+                "recomputed": 1.1577041315220293e-07,
+                "recorded": 1.1577041315220293e-07
+              },
+              "dv": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000074555474263e-14,
+                "exact_summary_match": true,
+                "recomputed": 7.455547426321817e-08,
+                "recorded": 7.455547426321817e-08
+              },
+              "output": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000054476433356e-14,
+                "exact_summary_match": true,
+                "recomputed": 5.447643335644862e-08,
+                "recorded": 5.447643335644862e-08
+              }
+            },
+            "research_admitted": false,
+            "tensor_bounds": {
+              "dk": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dq": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dv": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "output": {
+                "atol": 2e-05,
+                "rtol": 0.0001
+              }
+            },
+            "worker_completion_inferred": false
+          }
+        },
+        "worker": {
+          "bytes": 9563,
+          "mode": 384,
+          "mtime_ns": 1794633311178764861,
+          "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/worker.json",
+          "sha256": "9e8b89117e18a2a46b1cacb9ce2f8dd09a5a65be66fc797890e8f9b39b31da20"
+        }
+      },
+      {
+        "index": 1,
+        "numerical_checks": {
+          "profiled": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 5.401049691437153e-16,
+              "max_tolerance_ratio": 2.700491691214415e-09,
+              "passed": true,
+              "relative_l2_error": 1.064387059336796e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.755620563800958e-13,
+              "max_tolerance_ratio": 1.3617889660993968e-06,
+              "passed": true,
+              "relative_l2_error": 1.0969150953548223e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.220878101105543e-11,
+              "max_tolerance_ratio": 6.228101227698814e-05,
+              "passed": true,
+              "relative_l2_error": 7.455371744162237e-08,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 5.468499604532884e-09,
+              "max_tolerance_ratio": 0.00022312235161089299,
+              "passed": true,
+              "relative_l2_error": 5.088068982993577e-08,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            }
+          },
+          "untimed": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 5.401049691437153e-16,
+              "max_tolerance_ratio": 2.700491691214415e-09,
+              "passed": true,
+              "relative_l2_error": 1.064387059336796e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.755620563800958e-13,
+              "max_tolerance_ratio": 1.3617889660993968e-06,
+              "passed": true,
+              "relative_l2_error": 1.0969150953548223e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.220878101105543e-11,
+              "max_tolerance_ratio": 6.228101227698814e-05,
+              "passed": true,
+              "relative_l2_error": 7.455371744162237e-08,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 5.468499604532884e-09,
+              "max_tolerance_ratio": 0.00022312235161089299,
+              "passed": true,
+              "relative_l2_error": 5.088068982993577e-08,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            }
+          }
+        },
+        "pid": 44185,
+        "receipt_comparison": {
+          "profiled": {
+            "all_acceptance_fields_exact": true,
+            "bookkeeping": {
+              "atol": 1e-14,
+              "rtol": 1e-12
+            },
+            "comparison_passed": true,
+            "context": "canonical-FP64",
+            "kind": "fixed-SDPA-numerical-receipt-comparison-v1",
+            "original_elementwise_bounds_passed": true,
+            "performance_qualified": false,
+            "policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+            "producer_records_rewritten": false,
+            "relative_l2": {
+              "dk": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000106438705933e-14,
+                "exact_summary_match": true,
+                "recomputed": 1.064387059336796e-07,
+                "recorded": 1.064387059336796e-07
+              },
+              "dq": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000109691509535e-14,
+                "exact_summary_match": true,
+                "recomputed": 1.0969150953548223e-07,
+                "recorded": 1.0969150953548223e-07
+              },
+              "dv": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000074553717442e-14,
+                "exact_summary_match": true,
+                "recomputed": 7.455371744162237e-08,
+                "recorded": 7.455371744162237e-08
+              },
+              "output": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000050880689829e-14,
+                "exact_summary_match": true,
+                "recomputed": 5.088068982993577e-08,
+                "recorded": 5.088068982993577e-08
+              }
+            },
+            "research_admitted": false,
+            "tensor_bounds": {
+              "dk": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dq": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dv": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "output": {
+                "atol": 2e-05,
+                "rtol": 0.0001
+              }
+            },
+            "worker_completion_inferred": false
+          },
+          "untimed": {
+            "all_acceptance_fields_exact": true,
+            "bookkeeping": {
+              "atol": 1e-14,
+              "rtol": 1e-12
+            },
+            "comparison_passed": true,
+            "context": "canonical-FP64",
+            "kind": "fixed-SDPA-numerical-receipt-comparison-v1",
+            "original_elementwise_bounds_passed": true,
+            "performance_qualified": false,
+            "policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+            "producer_records_rewritten": false,
+            "relative_l2": {
+              "dk": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000106438705933e-14,
+                "exact_summary_match": true,
+                "recomputed": 1.064387059336796e-07,
+                "recorded": 1.064387059336796e-07
+              },
+              "dq": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000109691509535e-14,
+                "exact_summary_match": true,
+                "recomputed": 1.0969150953548223e-07,
+                "recorded": 1.0969150953548223e-07
+              },
+              "dv": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000074553717442e-14,
+                "exact_summary_match": true,
+                "recomputed": 7.455371744162237e-08,
+                "recorded": 7.455371744162237e-08
+              },
+              "output": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000050880689829e-14,
+                "exact_summary_match": true,
+                "recomputed": 5.088068982993577e-08,
+                "recorded": 5.088068982993577e-08
+              }
+            },
+            "research_admitted": false,
+            "tensor_bounds": {
+              "dk": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dq": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dv": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "output": {
+                "atol": 2e-05,
+                "rtol": 0.0001
+              }
+            },
+            "worker_completion_inferred": false
+          }
+        },
+        "worker": {
+          "bytes": 10641,
+          "mode": 384,
+          "mtime_ns": 1794633312201294447,
+          "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/worker.json",
+          "sha256": "a1e2199908e88841f39d6858aa2a92b24681cfd39e96cfefb0c22860fc38f04e"
+        }
+      },
+      {
+        "index": 2,
+        "numerical_checks": {
+          "profiled": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 6.045001857375804e-16,
+              "max_tolerance_ratio": 3.0224340510223703e-09,
+              "passed": true,
+              "relative_l2_error": 1.3786102489284615e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 3.3296720017471034e-13,
+              "max_tolerance_ratio": 1.6360606142825708e-06,
+              "passed": true,
+              "relative_l2_error": 1.1577041315220293e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.220878101105543e-11,
+              "max_tolerance_ratio": 6.228101227698814e-05,
+              "passed": true,
+              "relative_l2_error": 7.455547426321817e-08,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 7.2552385418922505e-09,
+              "max_tolerance_ratio": 0.0003083569023029144,
+              "passed": true,
+              "relative_l2_error": 5.447643335644862e-08,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            }
+          },
+          "untimed": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 6.045001857375804e-16,
+              "max_tolerance_ratio": 3.0224340510223703e-09,
+              "passed": true,
+              "relative_l2_error": 1.3786102489284615e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 3.3296720017471034e-13,
+              "max_tolerance_ratio": 1.6360606142825708e-06,
+              "passed": true,
+              "relative_l2_error": 1.1577041315220293e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.220878101105543e-11,
+              "max_tolerance_ratio": 6.228101227698814e-05,
+              "passed": true,
+              "relative_l2_error": 7.455547426321817e-08,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 7.2552385418922505e-09,
+              "max_tolerance_ratio": 0.0003083569023029144,
+              "passed": true,
+              "relative_l2_error": 5.447643335644862e-08,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            }
+          }
+        },
+        "pid": 44191,
+        "receipt_comparison": {
+          "profiled": {
+            "all_acceptance_fields_exact": true,
+            "bookkeeping": {
+              "atol": 1e-14,
+              "rtol": 1e-12
+            },
+            "comparison_passed": true,
+            "context": "canonical-FP64",
+            "kind": "fixed-SDPA-numerical-receipt-comparison-v1",
+            "original_elementwise_bounds_passed": true,
+            "performance_qualified": false,
+            "policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+            "producer_records_rewritten": false,
+            "relative_l2": {
+              "dk": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000137861024893e-14,
+                "exact_summary_match": true,
+                "recomputed": 1.3786102489284615e-07,
+                "recorded": 1.3786102489284615e-07
+              },
+              "dq": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000115770413153e-14,
+                "exact_summary_match": true,
+                "recomputed": 1.1577041315220293e-07,
+                "recorded": 1.1577041315220293e-07
+              },
+              "dv": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000074555474263e-14,
+                "exact_summary_match": true,
+                "recomputed": 7.455547426321817e-08,
+                "recorded": 7.455547426321817e-08
+              },
+              "output": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000054476433356e-14,
+                "exact_summary_match": true,
+                "recomputed": 5.447643335644862e-08,
+                "recorded": 5.447643335644862e-08
+              }
+            },
+            "research_admitted": false,
+            "tensor_bounds": {
+              "dk": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dq": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dv": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "output": {
+                "atol": 2e-05,
+                "rtol": 0.0001
+              }
+            },
+            "worker_completion_inferred": false
+          },
+          "untimed": {
+            "all_acceptance_fields_exact": true,
+            "bookkeeping": {
+              "atol": 1e-14,
+              "rtol": 1e-12
+            },
+            "comparison_passed": true,
+            "context": "canonical-FP64",
+            "kind": "fixed-SDPA-numerical-receipt-comparison-v1",
+            "original_elementwise_bounds_passed": true,
+            "performance_qualified": false,
+            "policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+            "producer_records_rewritten": false,
+            "relative_l2": {
+              "dk": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000137861024893e-14,
+                "exact_summary_match": true,
+                "recomputed": 1.3786102489284615e-07,
+                "recorded": 1.3786102489284615e-07
+              },
+              "dq": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000115770413153e-14,
+                "exact_summary_match": true,
+                "recomputed": 1.1577041315220293e-07,
+                "recorded": 1.1577041315220293e-07
+              },
+              "dv": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000074555474263e-14,
+                "exact_summary_match": true,
+                "recomputed": 7.455547426321817e-08,
+                "recorded": 7.455547426321817e-08
+              },
+              "output": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000054476433356e-14,
+                "exact_summary_match": true,
+                "recomputed": 5.447643335644862e-08,
+                "recorded": 5.447643335644862e-08
+              }
+            },
+            "research_admitted": false,
+            "tensor_bounds": {
+              "dk": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dq": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dv": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "output": {
+                "atol": 2e-05,
+                "rtol": 0.0001
+              }
+            },
+            "worker_completion_inferred": false
+          }
+        },
+        "worker": {
+          "bytes": 10035,
+          "mode": 384,
+          "mtime_ns": 1794633313289324536,
+          "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/worker.json",
+          "sha256": "f5c0f64a61007ed9f35b5e1fdf60aea6a3b7ee57171688ca050ee8be4fab804e"
+        }
+      },
+      {
+        "index": 3,
+        "numerical_checks": {
+          "profiled": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 5.401049691437153e-16,
+              "max_tolerance_ratio": 2.700491691214415e-09,
+              "passed": true,
+              "relative_l2_error": 1.064387059336796e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.755620563800958e-13,
+              "max_tolerance_ratio": 1.3617889660993968e-06,
+              "passed": true,
+              "relative_l2_error": 1.0969150953548223e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.220878101105543e-11,
+              "max_tolerance_ratio": 6.228101227698814e-05,
+              "passed": true,
+              "relative_l2_error": 7.455371744162237e-08,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 5.468499604532884e-09,
+              "max_tolerance_ratio": 0.00022312235161089299,
+              "passed": true,
+              "relative_l2_error": 5.088068982993577e-08,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            }
+          },
+          "untimed": {
+            "dk": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 5.401049691437153e-16,
+              "max_tolerance_ratio": 2.700491691214415e-09,
+              "passed": true,
+              "relative_l2_error": 1.064387059336796e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dq": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.755620563800958e-13,
+              "max_tolerance_ratio": 1.3617889660993968e-06,
+              "passed": true,
+              "relative_l2_error": 1.0969150953548223e-07,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "dv": {
+              "atol": 2e-07,
+              "failed_elements": 0,
+              "max_absolute_error": 2.220878101105543e-11,
+              "max_tolerance_ratio": 6.228101227698814e-05,
+              "passed": true,
+              "relative_l2_error": 7.455371744162237e-08,
+              "rtol": 0.002,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            },
+            "output": {
+              "atol": 2e-05,
+              "failed_elements": 0,
+              "max_absolute_error": 5.468499604532884e-09,
+              "max_tolerance_ratio": 0.00022312235161089299,
+              "passed": true,
+              "relative_l2_error": 5.088068982993577e-08,
+              "rtol": 0.0001,
+              "shape": [
+                1,
+                2,
+                32,
+                32
+              ]
+            }
+          }
+        },
+        "pid": 44192,
+        "receipt_comparison": {
+          "profiled": {
+            "all_acceptance_fields_exact": true,
+            "bookkeeping": {
+              "atol": 1e-14,
+              "rtol": 1e-12
+            },
+            "comparison_passed": true,
+            "context": "canonical-FP64",
+            "kind": "fixed-SDPA-numerical-receipt-comparison-v1",
+            "original_elementwise_bounds_passed": true,
+            "performance_qualified": false,
+            "policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+            "producer_records_rewritten": false,
+            "relative_l2": {
+              "dk": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000106438705933e-14,
+                "exact_summary_match": true,
+                "recomputed": 1.064387059336796e-07,
+                "recorded": 1.064387059336796e-07
+              },
+              "dq": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000109691509535e-14,
+                "exact_summary_match": true,
+                "recomputed": 1.0969150953548223e-07,
+                "recorded": 1.0969150953548223e-07
+              },
+              "dv": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000074553717442e-14,
+                "exact_summary_match": true,
+                "recomputed": 7.455371744162237e-08,
+                "recorded": 7.455371744162237e-08
+              },
+              "output": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000050880689829e-14,
+                "exact_summary_match": true,
+                "recomputed": 5.088068982993577e-08,
+                "recorded": 5.088068982993577e-08
+              }
+            },
+            "research_admitted": false,
+            "tensor_bounds": {
+              "dk": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dq": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dv": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "output": {
+                "atol": 2e-05,
+                "rtol": 0.0001
+              }
+            },
+            "worker_completion_inferred": false
+          },
+          "untimed": {
+            "all_acceptance_fields_exact": true,
+            "bookkeeping": {
+              "atol": 1e-14,
+              "rtol": 1e-12
+            },
+            "comparison_passed": true,
+            "context": "canonical-FP64",
+            "kind": "fixed-SDPA-numerical-receipt-comparison-v1",
+            "original_elementwise_bounds_passed": true,
+            "performance_qualified": false,
+            "policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+            "producer_records_rewritten": false,
+            "relative_l2": {
+              "dk": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000106438705933e-14,
+                "exact_summary_match": true,
+                "recomputed": 1.064387059336796e-07,
+                "recorded": 1.064387059336796e-07
+              },
+              "dq": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000109691509535e-14,
+                "exact_summary_match": true,
+                "recomputed": 1.0969150953548223e-07,
+                "recorded": 1.0969150953548223e-07
+              },
+              "dv": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000074553717442e-14,
+                "exact_summary_match": true,
+                "recomputed": 7.455371744162237e-08,
+                "recorded": 7.455371744162237e-08
+              },
+              "output": {
+                "absolute_difference": 0.0,
+                "allowed_bookkeeping_difference": 1.0000050880689829e-14,
+                "exact_summary_match": true,
+                "recomputed": 5.088068982993577e-08,
+                "recorded": 5.088068982993577e-08
+              }
+            },
+            "research_admitted": false,
+            "tensor_bounds": {
+              "dk": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dq": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "dv": {
+                "atol": 2e-07,
+                "rtol": 0.002
+              },
+              "output": {
+                "atol": 2e-05,
+                "rtol": 0.0001
+              }
+            },
+            "worker_completion_inferred": false
+          }
+        },
+        "worker": {
+          "bytes": 11112,
+          "mode": 384,
+          "mtime_ns": 1794633314494781928,
+          "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/worker.json",
+          "sha256": "682016e16ac2b2f53bb30c9d4922bb1022688370bc73a11779d760ad9b37d3a2"
+        }
+      }
+    ]
+  },
+  "numerical_policy": "fixed-SDPA-numerical-receipt-bookkeeping-v1",
+  "old_actual_target_and_new_worker_reference_domains_are_distinct": true,
+  "old_resource_adapter_refuses_new_kind": true,
+  "old_target_byte_mode_nsmtime_descriptors_unchanged": 195,
+  "original_tensor_and_bookkeeping_bounds_unchanged": true,
+  "passed": true,
+  "preserved_inputs": {
+    "bytes": 17299669,
+    "mode": 384,
+    "mtime_ns": 1794632904860554049,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/preserved-inputs.json",
+    "sha256": "be2302800df59134e000792bf0e95d87b8908348105ec382ae529862b985f5cf"
+  },
+  "prior_preserved_hashes_reverified": 75813,
+  "record_module_functions_identical_only_kinds_change": true,
+  "reference_array_descriptors": {
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/reference/dk.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633311140312892,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/reference/dk.npy",
+      "sha256": "04a3a07b2a12d98e8e168aa185e160a1f2fb815285a196ef99def42c5073fa46"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/reference/dq.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633311139796856,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/reference/dq.npy",
+      "sha256": "fbb9e36f4c056723430b48e0f32c9421d158def2da7d8bb1bad8f80d75b892a6"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/reference/dv.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633311140716055,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/reference/dv.npy",
+      "sha256": "e00638533d113eeffeab8b07f9a790f01199e346cf0b084d83f48aae1064087a"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/reference/output.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633311139290319,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/reference/output.npy",
+      "sha256": "f45a8cf74c80a6e49023bb55543bfeb1066ba140c3324e78c0a337471bd95672"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/reference/dk.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633318806646001,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/reference/dk.npy",
+      "sha256": "04a3a07b2a12d98e8e168aa185e160a1f2fb815285a196ef99def42c5073fa46"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/reference/dq.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633318806260963,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/reference/dq.npy",
+      "sha256": "fbb9e36f4c056723430b48e0f32c9421d158def2da7d8bb1bad8f80d75b892a6"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/reference/dv.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633318807059081,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/reference/dv.npy",
+      "sha256": "e00638533d113eeffeab8b07f9a790f01199e346cf0b084d83f48aae1064087a"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/reference/output.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633318805894258,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/reference/output.npy",
+      "sha256": "f45a8cf74c80a6e49023bb55543bfeb1066ba140c3324e78c0a337471bd95672"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/reference/dk.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633320158803292,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/reference/dk.npy",
+      "sha256": "04a3a07b2a12d98e8e168aa185e160a1f2fb815285a196ef99def42c5073fa46"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/reference/dq.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633320158455628,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/reference/dq.npy",
+      "sha256": "fbb9e36f4c056723430b48e0f32c9421d158def2da7d8bb1bad8f80d75b892a6"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/reference/dv.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633320159181080,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/reference/dv.npy",
+      "sha256": "e00638533d113eeffeab8b07f9a790f01199e346cf0b084d83f48aae1064087a"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/reference/output.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633320156910601,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/reference/output.npy",
+      "sha256": "f45a8cf74c80a6e49023bb55543bfeb1066ba140c3324e78c0a337471bd95672"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/reference/dk.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633317765822880,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/reference/dk.npy",
+      "sha256": "04a3a07b2a12d98e8e168aa185e160a1f2fb815285a196ef99def42c5073fa46"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/reference/dq.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633317765328844,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/reference/dq.npy",
+      "sha256": "fbb9e36f4c056723430b48e0f32c9421d158def2da7d8bb1bad8f80d75b892a6"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/reference/dv.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633317766262001,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/reference/dv.npy",
+      "sha256": "e00638533d113eeffeab8b07f9a790f01199e346cf0b084d83f48aae1064087a"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/reference/output.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633317764733766,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/reference/output.npy",
+      "sha256": "f45a8cf74c80a6e49023bb55543bfeb1066ba140c3324e78c0a337471bd95672"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/reference/dk.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633316204217119,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/reference/dk.npy",
+      "sha256": "04a3a07b2a12d98e8e168aa185e160a1f2fb815285a196ef99def42c5073fa46"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/reference/dq.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633316203820956,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/reference/dq.npy",
+      "sha256": "fbb9e36f4c056723430b48e0f32c9421d158def2da7d8bb1bad8f80d75b892a6"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/reference/dv.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633316204868530,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/reference/dv.npy",
+      "sha256": "e00638533d113eeffeab8b07f9a790f01199e346cf0b084d83f48aae1064087a"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/reference/output.npy": {
+      "bytes": 16512,
+      "mode": 384,
+      "mtime_ns": 1794633316203446418,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/reference/output.npy",
+      "sha256": "f45a8cf74c80a6e49023bb55543bfeb1066ba140c3324e78c0a337471bd95672"
+    }
+  },
+  "return_array_descriptors": {
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633311171004976,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/profiled-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633311170481189,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/profiled-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633311171540096,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/profiled-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633311169823821,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/profiled-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633311162646222,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/untimed-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633311162303225,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/untimed-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633311163021469,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/untimed-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633311161919812,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/0/untimed-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633312184057819,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/profiled-dk.npy",
+      "sha256": "9c36d27b0693d3203f2341db1bf366b51d4dd302525c0834d84729d1745c4660"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633312183335409,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/profiled-dq.npy",
+      "sha256": "075b8cc707892985f8ac27643057ed57509cd3b6cc1440e29717919c067d6609"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633312184804687,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/profiled-dv.npy",
+      "sha256": "9520e6d15c999b087dc5abc6562e87ca20c882e0db5103a17fcc98087ee5d7f5"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633312182552083,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/profiled-output.npy",
+      "sha256": "a9cd9cf90d353fc1caeaeedc1ca6075840342369d7ee307cf46dcce912eee048"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633312169479624,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/untimed-dk.npy",
+      "sha256": "9c36d27b0693d3203f2341db1bf366b51d4dd302525c0834d84729d1745c4660"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633312169126961,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/untimed-dq.npy",
+      "sha256": "075b8cc707892985f8ac27643057ed57509cd3b6cc1440e29717919c067d6609"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633312169850579,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/untimed-dv.npy",
+      "sha256": "9520e6d15c999b087dc5abc6562e87ca20c882e0db5103a17fcc98087ee5d7f5"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633312168549008,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/1/untimed-output.npy",
+      "sha256": "a9cd9cf90d353fc1caeaeedc1ca6075840342369d7ee307cf46dcce912eee048"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633313264172817,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/profiled-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633313263578447,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/profiled-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633313264885018,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/profiled-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633313263051161,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/profiled-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633313237464820,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/untimed-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633313237073199,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/untimed-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633313238050773,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/untimed-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633313236176957,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/2/untimed-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633314444679861,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/profiled-dk.npy",
+      "sha256": "9c36d27b0693d3203f2341db1bf366b51d4dd302525c0834d84729d1745c4660"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633314444079409,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/profiled-dq.npy",
+      "sha256": "075b8cc707892985f8ac27643057ed57509cd3b6cc1440e29717919c067d6609"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633314445475812,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/profiled-dv.npy",
+      "sha256": "9520e6d15c999b087dc5abc6562e87ca20c882e0db5103a17fcc98087ee5d7f5"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633314443359541,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/profiled-output.npy",
+      "sha256": "a9cd9cf90d353fc1caeaeedc1ca6075840342369d7ee307cf46dcce912eee048"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633314382891448,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/untimed-dk.npy",
+      "sha256": "9c36d27b0693d3203f2341db1bf366b51d4dd302525c0834d84729d1745c4660"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633314382538118,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/untimed-dq.npy",
+      "sha256": "075b8cc707892985f8ac27643057ed57509cd3b6cc1440e29717919c067d6609"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633314383272819,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/untimed-dv.npy",
+      "sha256": "9520e6d15c999b087dc5abc6562e87ca20c882e0db5103a17fcc98087ee5d7f5"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633314382122455,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/components-v70/cohort/3/untimed-output.npy",
+      "sha256": "a9cd9cf90d353fc1caeaeedc1ca6075840342369d7ee307cf46dcce912eee048"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633318829542492,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/profiled-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633318828993747,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/profiled-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633318830129028,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/profiled-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633318828457878,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/profiled-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633318823346759,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/untimed-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633318822935680,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/untimed-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633318823785255,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/untimed-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633318822441226,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_actual_worker_saves_inval0/0/untimed-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633320181293953,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/profiled-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633320180770792,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/profiled-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633320181841031,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/profiled-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633320180129506,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/profiled-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633320175034096,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/untimed-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633320174524601,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/untimed-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633320175513591,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/untimed-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633320174020147,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/0/untimed-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633321253443652,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/profiled-dk.npy",
+      "sha256": "9c36d27b0693d3203f2341db1bf366b51d4dd302525c0834d84729d1745c4660"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633321252752283,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/profiled-dq.npy",
+      "sha256": "075b8cc707892985f8ac27643057ed57509cd3b6cc1440e29717919c067d6609"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633321254170770,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/profiled-dv.npy",
+      "sha256": "9520e6d15c999b087dc5abc6562e87ca20c882e0db5103a17fcc98087ee5d7f5"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633321252170205,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/profiled-output.npy",
+      "sha256": "a9cd9cf90d353fc1caeaeedc1ca6075840342369d7ee307cf46dcce912eee048"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633321239295994,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/untimed-dk.npy",
+      "sha256": "9c36d27b0693d3203f2341db1bf366b51d4dd302525c0834d84729d1745c4660"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633321238868832,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/untimed-dq.npy",
+      "sha256": "075b8cc707892985f8ac27643057ed57509cd3b6cc1440e29717919c067d6609"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633321239720782,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/untimed-dv.npy",
+      "sha256": "9520e6d15c999b087dc5abc6562e87ca20c882e0db5103a17fcc98087ee5d7f5"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633321238175422,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/1/untimed-output.npy",
+      "sha256": "a9cd9cf90d353fc1caeaeedc1ca6075840342369d7ee307cf46dcce912eee048"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633322389059914,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/profiled-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633322388486378,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/profiled-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633322389680783,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/profiled-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633322387861676,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/profiled-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633322361935547,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/untimed-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633322361521717,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/untimed-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633322362360459,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/untimed-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633322360783391,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/2/untimed-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633323557788529,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/profiled-dk.npy",
+      "sha256": "9c36d27b0693d3203f2341db1bf366b51d4dd302525c0834d84729d1745c4660"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633323557147494,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/profiled-dq.npy",
+      "sha256": "075b8cc707892985f8ac27643057ed57509cd3b6cc1440e29717919c067d6609"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633323558400773,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/profiled-dv.npy",
+      "sha256": "9520e6d15c999b087dc5abc6562e87ca20c882e0db5103a17fcc98087ee5d7f5"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633323556362418,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/profiled-output.npy",
+      "sha256": "a9cd9cf90d353fc1caeaeedc1ca6075840342369d7ee307cf46dcce912eee048"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633323496874358,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/untimed-dk.npy",
+      "sha256": "9c36d27b0693d3203f2341db1bf366b51d4dd302525c0834d84729d1745c4660"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633323496480236,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/untimed-dq.npy",
+      "sha256": "075b8cc707892985f8ac27643057ed57509cd3b6cc1440e29717919c067d6609"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633323497253729,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/untimed-dv.npy",
+      "sha256": "9520e6d15c999b087dc5abc6562e87ca20c882e0db5103a17fcc98087ee5d7f5"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633323495797909,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_four_fresh_processes_cont0/rounded-cohort/3/untimed-output.npy",
+      "sha256": "a9cd9cf90d353fc1caeaeedc1ca6075840342369d7ee307cf46dcce912eee048"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633317792653126,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/profiled-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633317792117548,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/profiled-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633317793208954,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/profiled-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633317791565553,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/profiled-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633317786095021,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/untimed-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633317785604693,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/untimed-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633317786542809,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/untimed-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633317785050698,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_missing_raw_API_refusal_r0/0/untimed-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/profiled-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633316226156786,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/profiled-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/profiled-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633316225645124,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/profiled-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/profiled-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633316226861446,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/profiled-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/profiled-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633316225147337,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/profiled-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/untimed-dk.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633316220105510,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/untimed-dk.npy",
+      "sha256": "f67bce7a108a8a268b2850ea2ba8638e1d163d8ec3bc6cc10d769ca2311a519b"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/untimed-dq.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633316219753305,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/untimed-dq.npy",
+      "sha256": "9b5282b3b5d87ac70e95c599bfccb330c2be9fe62fb8929b2dc7b3bcb30ec555"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/untimed-dv.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633316220493464,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/untimed-dv.npy",
+      "sha256": "6121824582c5c29bb69bfaf8f82d0304e79ed9cb84e5c9691ad1361c0fe986dc"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/untimed-output.npy": {
+      "bytes": 8320,
+      "mode": 384,
+      "mtime_ns": 1794633316219376100,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_real_worker_keeps_saved_r0/0/untimed-output.npy",
+      "sha256": "19d786219a5cbe9de7c11d841136af566aac7e2b4dd6401b27cd9ce4a4d972db"
+    }
+  },
+  "review_source": {
+    "bytes": 20136,
+    "mode": 420,
+    "mtime_ns": 1794633785030672815,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/review/review_saved.py",
+    "sha256": "38bc0cf96f90d9f0f0a5478b3b85e75cb38c5df6d3182fa9368d3df3888fd72d"
+  },
+  "saved_rehashed_refusals": [
+    {
+      "error": "Unique positive frontend CPU correlation IDs required.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_trace_metadata_c4/copy"
+    },
+    {
+      "error": "Saved raw trace count/schema/runtime changed.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_trace_metadata_c3/copy"
+    },
+    {
+      "error": "Component/reference cannot adopt full model or claim isolated backward arithmetic.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_completion_claim4/copy"
+    },
+    {
+      "error": "Passing fixed-input component worker identity changed.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_completion_claim3/copy"
+    },
+    {
+      "error": "Separate fixed-input reference/worker identity required.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_worker_policy_an3/copy"
+    },
+    {
+      "error": "Passing fixed-input component worker identity changed.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_completion_claim2/copy"
+    },
+    {
+      "error": "Exact saved raw trace descriptor/runtime required.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_trace_metadata_c2/copy"
+    },
+    {
+      "error": "Saved raw trace count/schema/runtime changed.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_trace_metadata_c5/copy"
+    },
+    {
+      "error": "Passing fixed-input component worker identity changed.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_worker_policy_an2/copy"
+    },
+    {
+      "error": "Exact saved raw trace descriptor/runtime required.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_policy_descripto0/copy"
+    },
+    {
+      "error": "Exact saved raw trace descriptor/runtime required.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_policy_descripto1/copy"
+    },
+    {
+      "error": "Passing fixed-input component worker identity changed.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_worker_policy_an0/copy"
+    },
+    {
+      "error": "Exact saved raw trace descriptor/runtime required.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_trace_metadata_c0/copy"
+    },
+    {
+      "error": "Saved backend association changed.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_trace_metadata_c7/copy"
+    },
+    {
+      "error": "Passing fixed-input component worker identity changed.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_completion_claim0/copy"
+    },
+    {
+      "error": "Passing fixed-input component worker identity changed.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_worker_policy_an1/copy"
+    },
+    {
+      "error": "Passing fixed-input component worker identity changed.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_completion_claim1/copy"
+    },
+    {
+      "error": "Exact saved raw trace descriptor/runtime required.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_trace_metadata_c6/copy"
+    },
+    {
+      "error": "Exact saved raw trace descriptor/runtime required.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_trace_metadata_c1/copy"
+    },
+    {
+      "error": "Saved backend association changed.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_policy_descripto3/copy"
+    },
+    {
+      "error": "Saved backend association changed.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_policy_descripto4/copy"
+    },
+    {
+      "error": "Saved backend association changed.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_policy_descripto5/copy"
+    },
+    {
+      "error": "Exact saved raw trace descriptor/runtime required.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_policy_descripto2/copy"
+    },
+    {
+      "error": "Actual elementwise acceptance must pass with zero failed elements.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_forged_passing_header_can0/copy"
+    },
+    {
+      "error": "Finite nonnegative floating-point receipt metrics required.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_generated_values_still_re6/copy"
+    },
+    {
+      "error": "Relative L2 diagnostic disagrees beyond the original bookkeeping bound.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_generated_values_still_re1/copy"
+    },
+    {
+      "error": "Relative L2 diagnostic disagrees beyond the original bookkeeping bound.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_generated_values_still_re0/copy"
+    },
+    {
+      "error": "Finite nonnegative floating-point receipt metrics required.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_generated_values_still_re7/copy"
+    },
+    {
+      "error": "Numerical acceptance fields must match exactly.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_generated_values_still_re2/copy"
+    },
+    {
+      "error": "Actual elementwise acceptance must pass with zero failed elements.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_generated_values_still_re5/copy"
+    },
+    {
+      "error": "Actual elementwise acceptance must pass with zero failed elements.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_generated_values_still_re4/copy"
+    },
+    {
+      "error": "Numerical acceptance fields must match exactly.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_generated_values_still_re3/copy"
+    },
+    {
+      "error": "Separate fixed-input reference/worker identity required.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_reference_cannot2/reference"
+    },
+    {
+      "error": "Frozen canonical analytical reference binding changed.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_reference_cannot0/reference"
+    },
+    {
+      "error": "Frozen canonical analytical reference binding changed.",
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_rehashed_reference_cannot1/reference"
+    }
+  ],
+  "saved_rounding_passes": [
+    {
+      "index": 1,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_generated_values_accept_l1/copy"
+    },
+    {
+      "index": 0,
+      "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_generated_values_accept_l0/copy"
+    }
+  ],
+  "scientific_core_functions_identical_except_explicit_versions_policy_bindings_and_two_comparisons": true,
+  "source": {
+    "docs/predictor_sdpa_component_v7.md": {
+      "bytes": 5463,
+      "mode": 420,
+      "mtime_ns": 1794633280597197298,
+      "path": "docs/predictor_sdpa_component_v7.md",
+      "sha256": "36d0e437ae2437d898690af3febfd1509dac95848826c296209e22b14a199d13"
+    },
+    "models/predictor_sdpa_component_records_v2.py": {
+      "bytes": 8163,
+      "mode": 420,
+      "mtime_ns": 1794632959001265870,
+      "path": "models/predictor_sdpa_component_records_v2.py",
+      "sha256": "fe5967c5905dba549168f0a7a723553cd21e343d32e44035c60aa19e532d27c3"
+    },
+    "models/predictor_sdpa_component_target_v7.py": {
+      "bytes": 5223,
+      "mode": 420,
+      "mtime_ns": 1794632959001497160,
+      "path": "models/predictor_sdpa_component_target_v7.py",
+      "sha256": "3b890941fbd9d83f4e49293acdbfca67e379cebd212a29447440d7ab24dada43"
+    },
+    "models/predictor_sdpa_component_v7.py": {
+      "bytes": 28764,
+      "mode": 420,
+      "mtime_ns": 1794632959001389619,
+      "path": "models/predictor_sdpa_component_v7.py",
+      "sha256": "70cc9e74c70980f598496783ea4c303f3d10b61537a329f9cc8ae94ff5dff955"
+    },
+    "models/predictor_sdpa_numerical_receipts_v1.py": {
+      "bytes": 4226,
+      "mode": 420,
+      "mtime_ns": 1794631040941925415,
+      "path": "models/predictor_sdpa_numerical_receipts_v1.py",
+      "sha256": "bb6b159a71f6d5cc335247b6fa6c6298fe328b1d518190ba529b53cfd1fa92d6"
+    },
+    "scripts/check_predictor_sdpa_components_v7.py": {
+      "bytes": 3589,
+      "mode": 420,
+      "mtime_ns": 1794632959001574992,
+      "path": "scripts/check_predictor_sdpa_components_v7.py",
+      "sha256": "c05f183a47281552d516d4adb99639241cd120ad0087ad6df76b1d38c6533c57"
+    },
+    "tests/test_predictor_sdpa_component_integration_v7.py": {
+      "bytes": 41855,
+      "mode": 420,
+      "mtime_ns": 1794633280596959842,
+      "path": "tests/test_predictor_sdpa_component_integration_v7.py",
+      "sha256": "85d6d4ffe0d3bdaa5bb8ff083a623e4a10e20834e617f102531e7c199d239631"
+    }
+  },
+  "synthetic_resource_is_not_measured_CUDA_peak_or_scientific_completion": true,
+  "synthetic_resource_receipt": {
+    "bytes": 981,
+    "mode": 384,
+    "mtime_ns": 1794633316417909465,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first/test_target_wrapper_publishes_0/0/component-resource.json",
+    "sha256": "4433dde014ac8cd58fb868a2e13ffef8d44e840e9c79449499faa70802073511"
+  },
+  "target_runtime_capacity_speed_or_full_training_admitted": false,
+  "test_errors": 0,
+  "test_failures": 0,
+  "test_log": {
+    "bytes": 180,
+    "mode": 384,
+    "mtime_ns": 1794633324068819762,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first.log",
+    "sha256": "3996a70ba1034120e4a99481ed86dae859e2b866243754a6183729ac998940d5"
+  },
+  "test_skips": 0,
+  "test_xml": {
+    "bytes": 16620,
+    "mode": 384,
+    "mtime_ns": 1794633324011829803,
+    "path": "runs/pretrained/diagnostic/predictor-sdpa-component-v7-20261113/pytest-first.xml",
+    "sha256": "dd2d0c668301443f28d224dbd8a87ad9639e1bba104b2e31e131085d8e7b68b4"
+  },
+  "tests_or_old_suites_repeated_during_review": false,
+  "tests_passed": 94,
+  "unique_actual_return_arrays_verified": 88,
+  "unique_reference_arrays_verified": 20,
+  "wrapper_and_CLI_ASTs_unchanged_after_only_versions_and_policy_fields": true
+}

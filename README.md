@@ -1,5 +1,14 @@
 # V-JEPA Robust Overfitting
 
+**Component worker v7 passes local execution checks (November 13):**
+[94 integration tests and independent saved-data review pass](report/checks/2026-11-13-predictor-sdpa-component-v7-local-review.md).
+The worker binds the tested numerical policy into versioned plans, records and
+resource receipts. Normal and controlled-rounding CPU cohorts complete all four
+fresh workers and exact replay; failures retain evidence. Original tensor and
+scientific gates stay strict. Next prepare the separate university handoff;
+actual CUDA validation and full training remain pending. Earlier entries are
+historical snapshots.
+
 **Separate saved-result reader passes offline regression checks (November 13):**
 [102 focused tests and independent saved-data review pass](report/checks/2026-11-13-predictor-sdpa-receipts-v1-local-review.md).
 Tensor acceptance fields stay exact; diagnostic relative L2 values use the existing

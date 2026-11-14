@@ -2,6 +2,44 @@
 
 ## Current stage
 
+LATEST November 13: NUMERICAL-POLICY COMPONENT WORKER V7 VERIFIED LOCALLY.
+Read report/checks/2026-11-13-predictor-sdpa-component-v7-local-review.json/md and
+ docs/predictor_sdpa_component_v7.md first. Newv7 core/targetwrapper/localCPUCLI,
+recordsv2. Explicit numerical_receipt_policy in v7plan/reference/worker/resource;
+sourcepins include frozen numerical_receipts_v1. Reference/worker kinds V2,
+resourcekindV7; old/new readers/records/plan/receipts refuse eachother's domain.
+Allcorefunction ASTs sameV6 after versions/recordselection/policyfields/TWOsummary
+comparison calls. Recordfunctions AST sameV1; onlykinds change. Wrapper/CLI ASTs
+same after versions+policybindings. All arithmetic/native/layout/alias/reference/
+originalbounds/runtime/precision/startup/flags/input/backend/serial/freshreplay stay.
+Canonical+passing-original fields exact; ONLY L2 uses originalBOOK1e-12/1e-14.
+94focused integration tests FIRST RUN PASS zero errors/failures/skips;7source pins
+match. Previous102policy/61worker suites notrerun or accumulated. Normal4freshCPU
+workers+oneFP64ref; separate controlled4freshworkers+oneFP64ref injectONLY nonzero
+final diagnostic serialization lastbit, originalmath unchanged. Both complete all
+numerical/native/profile/math/serial/exactfreshreplay; raw75/249/75/249 each.
+Threeadditional actualCPU failureworkers association/API/invalidraw retain arrays/
+reference/failure; no complete/resource, missingAPI nofabricatedtrace; rawsavedbefore
+strictrefusal. Total11CPUprocesses/5refs acrossseparatecases;88unique returns/20refs
+saved-only verify.35rehashed invalid worker/reference cases refuse;2rounding cases
+pass. Actuallocalcodec56files/605371logicalB/665126response bytes/modes/nsmtime match.
+Startup/resource tests SIMULATED, not realCUDAcapacity/speed. Positivecoldstub is
+not scientificworker; legacyresourceadapter rejectsV7. Actualscience Torch2.14.1CPU.
+Independent review blocks model/autograd/SDPA/CUDA/profile/process/network/reference/
+extraction.75813prior hashes+195target descriptors+sixclaims byte/mode/nsmtime/clocks
+unchanged. Old8e5614parentfailed/producercomplete/1/2/3unrun stay; no retrospective
+production admission. Newsource/tests/raw/review FROZEN by raw predictor-sdpa-
+component-v7-20261113/sealed-local-inputs.json. No targetoperator/handoff/CONTROL/
+AUTH/ATTEMPT/agentSSH/upload/proof/retrieval/cleanup/install/heldout/paidwork.
+Candidate3724/fulltraining/financialcaps-holds-reconciliation unchanged; no new
+universityscope authorized. Never oldhelper/grant/claim/clock reuse/reset.
+NEXT prepare SEPARATE unarmed universityhandoff using acceptednative capsule+V7/V2;
+explicit numericalpolicy/source/plan/reference/worker/resource bindings, cold
+metadata adapter ifneeded. Test full exactpayload/imports/unusedauthorization/
+liveguards/storage/serialclocks/SAME-SSHcollection before ONE futureexactscope
+proposal. Keep retrospective reader separate from production. Usercommits self;
+never stage/commit/push. Earlier LATEST entries historical.
+
 LATEST November 13: SEPARATE NUMERICAL RECEIPT POLICY / SAVED READER VERIFIED OFFLINE.
 Read report/checks/2026-11-13-predictor-sdpa-receipts-v1-local-review.json/md and
  docs/predictor_sdpa_receipts_v1.md first. New pure numerical_receipts_v1 and

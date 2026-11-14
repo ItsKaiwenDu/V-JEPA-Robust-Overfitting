@@ -1,5 +1,38 @@
 # Research Progress Reports
 
+## 2026-11-13 — Numerical receipt policy integrated into worker v7
+
+94 focused integration checks pass on the first run, with no failures/errors/skips.
+Plans, reference/worker headers and resource receipts bind the numerical policy;
+v7 plans/resources and v2 record kinds prevent old/new result reuse. Normalized
+AST checks preserve all frozen scientific actions apart from explicit bindings and
+the two validated summary comparisons. Elementwise tensor bounds and exact
+acceptance fields remain unchanged; only relative L2 uses the existing bookkeeping
+rule. Record publication functions are unchanged apart from distinct kinds.
+
+A normal four-worker CPU cohort and a controlled four-worker cohort both complete
+one canonical reference each, numerical/native checks, math comparison, profile
+and exact fresh replay. The controlled case injects last-bit rounding solely into
+nonzero final diagnostic summaries, preserving attention arithmetic. Three separate
+actual CPU failure cases retain their arrays/reference and failure markers. Review
+verifies 88 unique return arrays and 20 reference arrays across eleven processes
+and five builds; no scientific work repeats during that review.
+
+All 35 saved invalid worker/reference mutations refuse, two isolated rounding
+fixtures pass, and the actual local collection preserves all 56 files, hashes,
+private modes and nanosecond timestamps. CUDA/resource boundaries remain simulated.
+Independent saved review blocks scientific/process/network/reference execution,
+reverifies 75,813 prior hashes and 195 target descriptors, and preserves all six
+consumed claims. The historical failed university cohort and completed old producer
+stay distinct and unchanged. Prior suites are not rerun or accumulated.
+
+Next prepare the separate unarmed university handoff, including explicit numerical
+policy/v7/v2 identities, any cold receipt adapter and exact payload/storage/live/
+serial/collection checks. No university attempt, authorization, SSH/upload, cleanup,
+installation, held-out data or paid compute occurs. Full-training and financial
+gates stay unchanged; no old helper, grant, claim or clock may be reused.
+[Review](report/checks/2026-11-13-predictor-sdpa-component-v7-local-review.md).
+
 ## 2026-11-13 — Separate numerical receipt policy and saved reader verified
 
 102 focused tests pass on the first run, with zero errors/failures/skips. Both
