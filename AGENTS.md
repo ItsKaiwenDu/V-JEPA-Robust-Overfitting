@@ -2,6 +2,217 @@
 
 ## Current stage
 
+LATEST November 14: V2 FULL-SIZE CUDA INITIAL NUMERICAL PASS; 3 COMPLETE, LAST REPLAY PARTIAL.
+Read report/checks/2026-11-14-forward-preserving-v2-target-review.json/md first.
+Selected V2 attended-yo4uf0wc, CONTROL8b22bf0905ec0c87f6551376275e5c34542b8136cfdd2f555e0bbc39209c461e,
+claim CONSUMED scratch /var/tmp/vjepa-forward-preserving-v2-20261114-mu772f1_.
+Complete sameSSH response704,661,621B/280files704,377,869logicalB, allmember/source/
+control/approval/archive/hash/mode/nsmtime verify. 2075priorarmedpins unchanged.
+REALtarget Torch2.8+cu128/Python3.11.17/RTX3070/VitL24encoder12predictor, samefrozen
+trainingclip/8draws/2families. Worker0originalPID41586 COMPLETE prioranchors EXACT.
+Worker1newcandidatePID48079 COMPLETE initialfullCUDAgate PASS: loss0.5617199540138245,
+16predictions/targets/masks/nativeL1cotangents bitwiseoriginal; all3,145,728inputentries
+old.002/2e-7bound PASS0fail,maxabs2.7939677238464355e-7,maxratio0.5058618267269619<1.
+Worker2originalreplayPID54863 COMPLETE36capturesfreshprocessexact inclinput/loss.
+Eachcomplete1152nativecalls576primary+576actualcheckpoint/36owners16each. Candidate
+192distinctpublicmathinnerGraphTasks/384predictorcalls/nativeouterroot+leafhooks/
+flags/layout/aliases/restoration verify; no fabricatednativecallthreads. Candidate
+peakallocator5,897,503,744B=5.492478GiB<7GiB. No kernel/speed/optimizer/adoptionclaim.
+Worker3candidatefreshreplayPID61329 PARTIAL,6arrays(targets/masks/pred0..3) match
+original BUT no loss/inputgradient/nativeVJPproof/finalmarker; neveradmit/backfill/
+reconstruct/claimreplay. Coldreaderrefuses. ParentFAILED after477.362277s due strict
+inventory `Unexpected special file or external hardlink.` No offendingpath/stat
+logged; lastcache2355B, finalcacheempty. Transientwriter/cache race HYPOTHESISonly;
+unsafeactualfile notruledout. Neverrelaxguard basedonspeculation. Supervisefinally
+terminates+waits ownedchild; emptydescendantlist not indication parentchild running.
+Real2.5GiBproofPASS. IndependentNumPysavedreview114arrays(108complete+6partial),
+originalanchor decoded restrictedFP32savedZIP/noTorch/newreference; no newmodel/
+autograd/SDPA/profile/process/network/extraction. All oldcandidate3724/finance/
+research/fulltraining gates unchanged. INITIALnewcandidatepassONLY; freshcandidate
+replay remains OPEN, parent staysFAILED. Latest280targetdescriptors savedrawV2/
+target-review/saved-target-pins.json; review/seal there. No remote/SCIrepetition.
+NEXT LOCAL ONLY diagnose inventory refusal with bounded offendingpath/inode/mode/
+nlink metadata, preserve strictpredicates andalloldsource/evidence. Keepthreeverified
+workers; plan ONLYmissingcandidatefreshreplay with immutable original1+candidate0
+source/control/reference lineage; don'treruncompletedcohort. No newtargethandoff/
+SSH/helper/retrieval/proof/install/cleanup/paidwork orautomaticretry/reset underspent
+V2grant. Additionalremote scope requires separate concreteprep+review+authorization.
+Do not askmanualGPU/status forlocalstage; sourcecleanup+completecollection suffice.
+Usercommits self;neverstage/commit/push. EarlierLATEST historical.
+
+LATEST November 14: CORRECTED V2 USER APPROVED, ARMED, UNUSED.
+Read report/checks/2026-11-14-forward-preserving-v2-armed-review.json/md first.
+Userreply "Approve one corrected v2 attempt (Recommended)" to
+call_7d0eb7caa7a140ce940437cb862626a0 item0 accepted. ONEadditionalv2attempt.
+Selected raw predictor-forward-preserving-handoff-v2-20261114/linux10603-final;
+CONTROL 8b22bf0905ec0c87f6551376275e5c34542b8136cfdd2f555e0bbc39209c461e;
+AUTHORIZATION 09eb6a19731061c3a9b8e16af5bad51a698082a3cd3b9f7a02c990ecf41082ee.
+IndependentSTDLIB armed-unusedreviewPASS2067preppins+135latesttarget+245earlier
+byte/mode/nsmtime descriptors unchanged; exactapproval/sources/payload/hostkey/
+canonicalhelper/three-argchildvalidateauthverified. V2ATTEMPTABSENT. V1claim/evidence
+CONSUMED/UNCHANGED:13.251sproof/setup,no modelwork; neverrerunoldv1command.
+V2scope unchangedpacket17,192,095B+25overlays302,951B+boundbudgetmetadata;
+linux10603privatevar_tmp;40minworkinclfull2.5GiBproof/4serial<=8minworkers,10min/
+3GiBsameSSHcollection,50minclient. Original0/candidate0 thenfreshreplayONLYifbothpass;
+failureSTOP/noretry. Numerical/storage/GPU7GiB/financecaps unchanged. No agentSSH/
+helper/upload/proof/science/paidwork. No science/tests repeatnow. ApprovalPERSISTS;
+no furtherunchangedapproval or repeatedmanualGPUstatus; livehelperguards only.
+NEXT giveONESINGLEfinalV2Maccommand to USER; agentmustNOTSSH/executehelper. User
+keepsMac/lid/Terminalopen, enterspasswordlocally, waitscollection, reportsDone/error.
+Then independentlyreview V2ATTEMPT/newattendedresponse/rawfiles FIRST. Preserve
+partials/refusals andneverrelaunch/resetclaim/clock/grant. No unsolicitedretrieval/
+cleanup/install/paidwork. Candidate3724/qualification/fulltraining gates unchanged.
+Usercommits self;neverstage/commit/push. EarlierLATEST historical.
+
+LATEST November 14: V1 STARTUP FAILURE VERIFIED; CORRECTED V2 CHILD PREPARED, UNARMED.
+Read report/checks/2026-11-14-forward-preserving-v1-startup-refusal-review.json/md
+and report/checks/2026-11-14-forward-preserving-v2-preparation-review.json/md,
+docs/predictor_forward_preserving_handoff_v2.md first. V1 CONSUMED, neverrerun.
+V1 actualattended-elmh_fic response61,289,438B/135files61,158,021logicalB complete;
+allhash/mode/nsmtime/USTARframing/source/control/approval verify. Work13.251461s;
+real2.5GiBwrite/fsync/readback proofPASS10.553742s. Worker0exit1 BEFORE scientific
+imports/setup: child omittedCONTROL thirdarg to validate_authorization. NO model/
+checkpointload/EOT8/candidate/replay/GPUobjective. CandidateUNTESTED,notscientific
+rejection/qualification. Agentintroducedwiringmistake acknowledged. Firstreview
+assumedemptyresultsdircollected; file-onlytransport omitsit, correctedabsencecheck
+preservedfailure; noactualdata/thresholdchange. V1sources/oldclaims/clockFROZEN.
+Separate V2 targetentry/operator/client/prepare/run/config; passesauth,sha,c explicitly.
+Supervisor AST changesONLYentrypath; frozenvalidation/deadlinecodes reused private
+newnamespace,no oldglobalsmutation. Science/receipts/math/ownership/bounds UNCHANGED.
+12newcoldchecks FIRSTONLYsuitePASS0fail/error/skip: reproducev1 exactfailure, actual
+V2childreachesliveGPUboundarywithboundcontrol; oldapproval/missingauth/changed
+source/packet/control/expiredclock/order refuse. Localpath/clock/signal/GPU explicit
+fixtures, syntheticcontrolhashes distinctfinal; stopBEFORE GPU/science. NO model/
+proof/oldsuccessfulsuite repetition. IndependentSTDLIBsavedreview2033incidentpins+
+135latesttarget/245earliertarget byte/mode/nsmtime descriptors unchanged. V1 complete
+135filecopy local; no retrievalrequired. No SSH/targetwork/cleanup/install/paidwork.
+Selected raw predictor-forward-preserving-handoff-v2-20261114/linux10603-final;
+CONTROL 8b22bf0905ec0c87f6551376275e5c34542b8136cfdd2f555e0bbc39209c461e.
+Exactnewpayload17,192,095Bpacket+25overlays302,951B+metadata inclbudget;880,912B
+bootstrap. Targetprivate /var/tmp/vjepa-forward-preserving-v2-20261114-* linux10603.
+40minworkinclfull2.5GiBproof/4serial<=8minworkers,10min/3GiBsameSSHcollection,
+50minclient; original0/candidate0 thenfreshreplayONLYifbothpass. FailureSTOP/noretry.
+Originalnumerical/setup3GiB/capture2.25GiB/raw1792MiB/meta64MiB/GPU7GiB unchanged.
+V2AUTHORIZATION/ATTEMPT ABSENT. V1claimconsumed/proof/timepreserved, notreset.
+NEXT afterconcretefinalreview askONE NEW exactscope forV2additionalattempt. Olduser
+grant maximumONEspent; noimplicitnewproof/launch. Ifapprovedsaveexactbasis once,
+independentlyreviewARMED UNUSEDsources/oldclaims/key, giveONESINGLEMaccommand;
+agentneverSSH/helperrun. Reuseknownhost/GPUinfo; no repeatedmanualstatus or duplicate
+approval. AwaitDone thenreviewevidence FIRST; neverrerunconsumedcommand. Research/
+candidate3724/financecaps/holds/reconciliation/fulltraining gates unchanged.
+Usercommits self; neverstage/commit/push. EarlierLATEST historical.
+
+LATEST November 14: FORWARD-PRESERVING FULL EOT8 USER APPROVED, ARMED, UNUSED.
+Read report/checks/2026-11-14-forward-preserving-handoff-v1-armed-review.json/md first.
+Explicit userreply "Approve one bounded university attempt (Recommended)" to
+call_867156fe8a834607a83375ea4a2e3c8a item0 accepted. Selected raw predictor-forward-
+preserving-handoff-v1-20261114/linux10603-final. CONTROL
+f6c9cf497d8bb10d080f295ba0946b14305092189d7d1ec03c6b1077f1f69a61;
+AUTHORIZATION b8c8de17b40c575ecc5a174557d69c904f1a6b6d800f6fb4251044fbbbadd238.
+Exactuserbasis/resources/oneattempt recorded; independentSTDLIBONLY armed-unused
+review PASS1880priorpins+245actualtarget byte/mode/nsmtime descriptors unchanged.
+Source/payload/archive/publichostkey/canonicaldirectory/oldclaims bound. ATTEMPT
+ABSENT. Oldsupersededprepared/pending10609 remainunarmed. NO agentSSH/upload/helper/
+proof/science/paidwork. Do NOT rerunscience/tests now. Unchangedapproval persists;
+DO NOT askagain orrepeatmanualhost/GPUcheck. No currentGPUidle/capacityclaim.
+Scopeunchanged17,192,095Bpacket+22overlays276,208B+metadata inclbudget;linux10603
+privatevar_tmpONLY;40minworkincl2.5GiBproof/4serial<=8minworkers,10min/3GiBsameSSH
+collection;original0/candidate0 thenfreshreplayONLYifbothpass. Earlierdocumented
+numerical/resourcebounds/exclusions remain. InitialANYfailureSTOPnextwork/noretry.
+NEXT giveONESINGLEfinalMacattendedcommand to USER (Maclocalprompt;keepawake/lid/
+Terminalopen;enterpasswordlocally;upto50mininclcollection). AgentMUSTNOTSSH/execute
+helper. AwaituserDone/terminalresult; independentlyreviewnewATTEMPT/response/raw
+sameSSHcollection FIRST. Onerror preserveallpartialfiles, neverrelaunch orresetclaim/
+clock/grant. No unsolicitedretrievalconnection orcleanup. Candidate3724/financial
+caps/holds/reconciliation/research/fulltraining gates unchanged. Usercommits self;
+neverstage/commit/push. EarlierLATEST describeshistoricalpreparation state.
+
+LATEST November 14: FULL-MODEL FORWARD-PRESERVING EOT8 HANDOFF PREPARED, UNARMED.
+Read report/checks/2026-11-14-forward-preserving-handoff-v1-preparation-review.json/md
+and docs/predictor_forward_preserving_handoff_v1.md first. New target/worker/records/
+operator/client+capture/prepare/run entries and inertconfig, frozen oldsources unchanged.
+SELECTED raw predictor-forward-preserving-handoff-v1-20261114/linux10603-final,
+CONTROL f6c9cf497d8bb10d080f295ba0946b14305092189d7d1ec03c6b1077f1f69a61.
+Earlier linux10603-prepared superseded/unarmed; preservefirstsource/test/metadata.
+Exactupload17,192,095B/99memberpacket+22overlays276,208B+boundmetadata inclbudget;
+bootstrap801,201B. Destination private /var/tmp/vjepa-forward-preserving-v1-20261114-*
+on linux10603ONLY. Existingweights/deps in place; no privatekeys/heldout/install.
+Up to4FRESHserial roles original0/candidate0/original1/candidate1, EACHONE nativeEOT8
+8draws/2families. InitialANYfailure stopsbefore replay/next; retirecandidate, no retry.
+Replay ONLYafter bothinitialpassed; requireexact ownloss/input/predictions/native
+cotangents/targets/masks. Bothnativeoriginalanchors+freshsame-replayoriginal mandatory;
+oldbounds loss1e-5/2e-6,input.002/2e-7. Actualreturns savedbeforeacceptance.
+SeparateCUDAport retains exactfrozenpublicmathbackwardCODEOBJECT/privateobservation
+namespace substitutesONLYfingerprintcopyCPU,nocomputationaloperandreplacement.
+Native originalforward+strictunchangedownedguard/privateF only; no trainingpolicy/
+nativepassingreceipt/globalmethodpatch/native._admit formathematicaladmission.
+Target24encoder/12predictor blocks,192mathVJPs/384predictorcalls,[1,12,2048,32]
+16MiBbackings. Actualnativeouterroot+allnestedroot/leaf/checkpoint/flags/versions.
+NumericalONLY attempt: no profile/warmup/attack/scoring/FP64oracle/optimizer/paidwork.
+40minwork inclfull2.5GiBproof/setup3min,4x8minworker,2minreceipt;10min/3GiBsameSSH
+collection;50minclientincllogin. Setup/capture3/2.25GiB/raw1792MiB/metadata64MiB/
+GPU7GiB unchanged. Calls/VJP8MiBeach,scopes64KiB,header256KiB,marker16KiB,
+scientificchildFSIZE16MiB. Rawfour-workerupper808,779,776B<1792MiB.
+41newchecks FIRSTONLYsuitePASS0fail/error/skip. ACTUAL packaged4freshCPUworkers/
+4EOT8objectives/144arrays(140FP32+4intmask); originalnativevalues/cotangents exact,
+inputmaxratio.000538688635, exactpermodefreshreplays. GPU/proof/deadline/process
+supervisor cases EXPLICITsimulations; allfailureindicesstop+collect, candidate0
+failuredoesnotunlockreplay. Onlypost-suitechange coldrecords.load requiresnumerical/
+replayacceptancefields;4savedworkersrevalidated+5missingfieldsrefuse, NO science
+rerun/worker/arithmetic/thresholdchange. Firstsources/41tests/snapshots retained.
+IndependentNumPyONLYsavedreview arrays/nativeL1/fullinput/ownership/payload/hostpin/
+unarmedhelper; blocksmodel/autograd/SDPA/process/network/extraction/newreference.
+1531priorpins+245actualtarget byte/mode/nsmtime descriptors unchanged; newstage
+sealed raw predictor-forward-preserving-handoff-v1-20261114/sealed-inputs.json.
+ActualruntimeCPU2.14arm64 NOT2.8CUDA/pretrained/memory/kernel/performance/training
+qualification. Candidate3724/caps/holds/reconciliation unchanged. No newtargetAUTH/
+ATTEMPT/SSH/upload/proof/helperrun/cleanup/install/paidwork oroldgrant/claim/clockreset.
+NEXT afterconcretefinalreview seekONE NEW exactscopedapproval BEFORE arming/upload/
+work; previousgrants consumed/different. Unchangedapproval persists, neverasktwice.
+Ifapproved recordexactuserbasis/control/resources locally, independentlyreviewarmed
+UNUSEDhandoff/source/lineage/publichostkey, thengiveONESINGLEattendedMaccommand.
+AgentmustNOTSSH/executehelper. Reuseknownhost/GPUstatus;livehelperguards; no manual
+repeatforthislocalstage. NeverclaimGPUidlefromstalesnapshot. Onresult independently
+review first, neverrerun. Usercommits self; neverstage/commit/push. EarlierLATEST
+historical.
+
+LATEST November 14: FULL EIGHT-DRAW TINY CPU FORWARD-PRESERVING INTEGRATION VERIFIED.
+Read report/checks/2026-11-14-predictor-forward-preserving-eot8-cpu-v1-local-review.json/md
+and docs/predictor_forward_preserving_eot8_cpu_v1.md first. Separate module/tests
+predictor_forward_preserving_eot8_cpu_v1; distinctlocalidentity/marker/resourceentry.
+Explicit64predictorforwardcap=2blocks*8draws*2families*2checkpoint. Prior8callCPUentry
+andonebankentry+nativeguard BYTEUNCHANGED. Newstateconstructor declares64; never
+widens/entersold8callscope; standaloneattention/gradientrefuse. Reusesfrozen actual
+IntegratedAttention+mathbackward/native-rootobservation; native._admit NEVER called
+formathematicaladmission. Actualnativewrappers alone appendrecomputationthreads.
+Exactunchangednative_objective:8draws/twofamilymeans; bindactualscalar/inputidentity.
+FourREALtinyEOT8comparisons banks19..26/37..44 x creator/otherthread, originalbefore/
+candidate/originalafter=12completecomparisonevals plus deliberate negativescopes.
+16predictions/targets/loss/nativeL1cotangents BITWISEoriginal; originalinputreplays
+exact. Fullinputoldbound .002/2e-7 passes0failed,maxabs3.49245965e-10,maxratio
+0.000857361812<1. Model/versions/parametergradabsence/restoration verified.
+Each eval128actualnative rows64primary+64checkpoint;16eachperencoder/predictorblock.
+Eachcandidate64predictorcalls/32completeddistinctmathinnerGraphTasks/onerealnative
+outerroot; root+leafhooksremoved. OriginalEOT8coverage/missingcheckpoint/foreign
+GraphTaskguards stillrefuse. Missingcheckpoint math32VJPs COMPLETE butnative refuses
+emptythreads: no fabricatedrecomputation. 19checks PASSFIRSTONLYsuite,0fail/error/skip;
+no oldsuite/fullsuite/successfulmodelrepeat. Sourcefirst/log/XML/returns/negatives
+preserved. IndependentNumPyONLYreview624savedFP32arrays/nativeL1normalization/loss/
+fullinput/ownership; blockedmodel/autograd/SDPA/process/network, no newVJPreference.
+882priorsealedinputs+245actualtarget byte/mode/nsmtime descriptors unchanged.
+NewinputsFROZEN by raw predictor-forward-preserving-eot8-cpu-v1-20261114/sealed-inputs.json.
+Runtime2.14.1CPUarm64; no2.8CUDA/pretrained/memory/optimizer/speed/research/adoption/
+trainingqualification. Candidate3724 andbudgetcaps/holds/reconciliation unchanged.
+NEXT LOCAL ONLY prepare CONCRETE UNARMED full-model original-forward/public-math-VJP
+universityhandoff: freshoriginal+candidate actualEOT8 exactpredictions/nativeL1 and
+oldfullinputbounds; ANYinitialfailure STOPcandidate, conditionalfreshprocessreplay
+onlyifbothinitialgatespass. Reusefrozenarithmetics/strictnativeguard; targetgeometry,
+backend/ownership/memory/time/collectionbounds needseparateconcreteverification.
+No targetupload/SSH/helper/claim/AUTH/ATTEMPT/install/cleanup/heldout/paidwork or
+oldgrant/claim/clockreuse. No targetapproval ask untilconcretehandofflocallyreviewed.
+Reuseknownhost/GPUstatus, no repeatedmanualchecksforlocalprep. Usercommits self;
+neverstage/commit/push. EarlierLATEST historical.
+
 LATEST November 14: SMALL-UPSTREAM FORWARD-PRESERVING INTEGRATION VERIFIED LOCALLY.
 Read report/checks/2026-11-14-predictor-forward-preserving-upstream-v1-local-review.json/md
 and docs/predictor_forward_preserving_upstream_v1.md first. Newseparate module/tests

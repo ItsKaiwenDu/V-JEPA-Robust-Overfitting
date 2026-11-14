@@ -1,0 +1,253 @@
+{
+  "FP32_arrays": 140,
+  "GPU_allocation_proof_supervisor_and_deadlines_are_simulated_in_local_control_tests": true,
+  "actual_target_descriptors_unchanged": 245,
+  "authorization_required_before_arming": true,
+  "bootstrap": {
+    "bytes": 801201,
+    "mode": 384,
+    "mtime_ns": 1794688577088858512,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v1-20261114/final-bootstrap.bin",
+    "sha256": "ca963170647c238f931e19d3c8722891a238549b32a489c10acd07f6868fd32c"
+  },
+  "cases": [
+    {
+      "checks": {},
+      "exact_fresh_replay": false,
+      "index": 0,
+      "mode": "original",
+      "one_native_EOT8_scope_complete": true,
+      "pid": 52958,
+      "saved_arrays": 36,
+      "worker": {
+        "bytes": 15755,
+        "mode": 384,
+        "mtime_ns": 1794688177691820237,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v1-20261114/packaged-CPU-cohort/worker-0/worker.json",
+        "sha256": "e8350cc65bb0066aeffd24b41eb7bbd721b053b320331bbff75dc07103c1870d"
+      }
+    },
+    {
+      "checks": {
+        "input": {
+          "failed_elements": 0,
+          "max_absolute_error": 2.3283064365386963e-10,
+          "max_tolerance_ratio": 0.0005386886344734006
+        },
+        "loss": {
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0
+        }
+      },
+      "exact_fresh_replay": false,
+      "index": 1,
+      "mode": "candidate",
+      "one_native_EOT8_scope_complete": true,
+      "pid": 52987,
+      "saved_arrays": 36,
+      "worker": {
+        "bytes": 16220,
+        "mode": 384,
+        "mtime_ns": 1794688179342706228,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v1-20261114/packaged-CPU-cohort/worker-1/worker.json",
+        "sha256": "11cae3533b7779b80a17b7596f6d2e691013a3b5d080b117fd4c82afe3efb07b"
+      }
+    },
+    {
+      "checks": {},
+      "exact_fresh_replay": true,
+      "index": 2,
+      "mode": "original",
+      "one_native_EOT8_scope_complete": true,
+      "pid": 52991,
+      "saved_arrays": 36,
+      "worker": {
+        "bytes": 15774,
+        "mode": 384,
+        "mtime_ns": 1794688180914005785,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v1-20261114/packaged-CPU-cohort/worker-2/worker.json",
+        "sha256": "d465aa4800911af328c9df704cda43f4bb32e57ad84a00d4808c92a9cdb8fe71"
+      }
+    },
+    {
+      "checks": {
+        "input": {
+          "failed_elements": 0,
+          "max_absolute_error": 2.3283064365386963e-10,
+          "max_tolerance_ratio": 0.0005386886344734006
+        },
+        "loss": {
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0
+        }
+      },
+      "exact_fresh_replay": true,
+      "index": 3,
+      "mode": "candidate",
+      "one_native_EOT8_scope_complete": true,
+      "pid": 52994,
+      "saved_arrays": 36,
+      "worker": {
+        "bytes": 16239,
+        "mode": 384,
+        "mtime_ns": 1794688182526420904,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v1-20261114/packaged-CPU-cohort/worker-3/worker.json",
+        "sha256": "d5e666f66b752b1b081ddd258a99b88928e67c15dccb85f623c730a06ef22bfe"
+      }
+    }
+  ],
+  "cold_hardening": {
+    "bytes": 1506,
+    "mode": 384,
+    "mtime_ns": 1794688377269360149,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v1-20261114/cold-hardening-check.json",
+    "sha256": "c54561f995345712ea9b51fe5478d50193f1fd7e9d437d687b27adf18dab93c8"
+  },
+  "cold_saved_workers_reverified": 4,
+  "date": "2026-11-14",
+  "document": {
+    "bytes": 12344,
+    "path": "docs/predictor_forward_preserving_handoff_v1.md",
+    "sha256": "6fb3b90893cbac9b7950e49d7f40c97a40322d3faa8bb7e90f2aea5951ff7a64"
+  },
+  "final_authorization_and_attempt_present": false,
+  "final_control_sha256": "f6c9cf497d8bb10d080f295ba0946b14305092189d7d1ec03c6b1077f1f69a61",
+  "final_source_pins": {
+    "configs/predictor_forward_preserving_handoff_v1.json": "fdd822dcfa930984d57564ed63ad9b481cce94e0df6d520deffecd89cca538e1",
+    "models/predictor_forward_preserving_client_v1.py": "d72915c7d36f737e017fa05d826b91dae48fe22fcb3217ddfc74237fc994e203",
+    "models/predictor_forward_preserving_cpu_v1.py": "6ba308e948c0ce346512f17ef4fc11eccb542954048c859ad6c6a751db1fbb66",
+    "models/predictor_forward_preserving_operator_v1.py": "9b5590381fd9dfb36f31abe858ee3382cecfbf5296a63fef18371cbff0dcf90f",
+    "models/predictor_forward_preserving_records_v1.py": "24639c3b3d306cc67a02a2327ce2c40b4829788e2da48e373c6edab86255eb0f",
+    "models/predictor_forward_preserving_target_v1.py": "000591f52fd66e7b1d4a78ff0c38ed265a5870e4a8463f9d810031d56752710a",
+    "models/predictor_forward_preserving_upstream_v1.py": "db71de4b6b8c3ba1532639258f23e7b4b5a850493625bf6ba1a7e2f8c9b13b88",
+    "models/predictor_forward_preserving_worker_v1.py": "55d20ed67993b5fde7080393b92ec770b85ee40af46cf374e88d1551f56ccfb3",
+    "scripts/capture_predictor_forward_preserving_v1.py": "e98dc97800095b28284eeecfe06286c3187d43442511f04620994b5ae37f75f8",
+    "scripts/prepare_predictor_forward_preserving_v1.py": "d29aec1dd37d1e751c9e6a8c4c2858fe26f76921e2472073a2a3286fd37e1a28",
+    "scripts/run_predictor_forward_preserving_v1.py": "b658f708bb6a431354e157523ea70103a86e65da1caa210485fe83ea31cf55da",
+    "tests/test_predictor_forward_preserving_handoff_v1.py": "0e5b18bad631906714156d3e246b54ee979bf049a9358f44e0f46ca5869e5630"
+  },
+  "final_unarmed_refusal_and_exact_local_source_binding_verified": true,
+  "first_source_pins": {
+    "configs/predictor_forward_preserving_handoff_v1.json": "fdd822dcfa930984d57564ed63ad9b481cce94e0df6d520deffecd89cca538e1",
+    "models/predictor_forward_preserving_client_v1.py": "d72915c7d36f737e017fa05d826b91dae48fe22fcb3217ddfc74237fc994e203",
+    "models/predictor_forward_preserving_cpu_v1.py": "6ba308e948c0ce346512f17ef4fc11eccb542954048c859ad6c6a751db1fbb66",
+    "models/predictor_forward_preserving_operator_v1.py": "9b5590381fd9dfb36f31abe858ee3382cecfbf5296a63fef18371cbff0dcf90f",
+    "models/predictor_forward_preserving_records_v1.py": "a9fe0a36e73baae87905e8b15d329b75a82230969e073a3215a1e7a3f72752d2",
+    "models/predictor_forward_preserving_target_v1.py": "000591f52fd66e7b1d4a78ff0c38ed265a5870e4a8463f9d810031d56752710a",
+    "models/predictor_forward_preserving_upstream_v1.py": "db71de4b6b8c3ba1532639258f23e7b4b5a850493625bf6ba1a7e2f8c9b13b88",
+    "models/predictor_forward_preserving_worker_v1.py": "55d20ed67993b5fde7080393b92ec770b85ee40af46cf374e88d1551f56ccfb3",
+    "scripts/capture_predictor_forward_preserving_v1.py": "e98dc97800095b28284eeecfe06286c3187d43442511f04620994b5ae37f75f8",
+    "scripts/prepare_predictor_forward_preserving_v1.py": "d29aec1dd37d1e751c9e6a8c4c2858fe26f76921e2472073a2a3286fd37e1a28",
+    "scripts/run_predictor_forward_preserving_v1.py": "b658f708bb6a431354e157523ea70103a86e65da1caa210485fe83ea31cf55da",
+    "tests/test_predictor_forward_preserving_handoff_v1.py": "0e5b18bad631906714156d3e246b54ee979bf049a9358f44e0f46ca5869e5630"
+  },
+  "first_suite": {
+    "errors": 0,
+    "failures": 0,
+    "runs": 1,
+    "skipped": 0,
+    "tests": 41
+  },
+  "int64_mask_arrays": 4,
+  "kind": "forward-preserving-unarmed-handoff-saved-review-v1",
+  "local_EOT8_objectives": 4,
+  "local_fresh_scientific_processes": 4,
+  "local_saved_arrays": 144,
+  "max_candidate_input_tolerance_ratio": 0.0005386886344734006,
+  "missing_fields_rejected": 5,
+  "new_SSH_upload_target_proof_cleanup_installation_heldout_or_paid_work": false,
+  "next_step": "Obtain one new exact scoped university approval before arming. Reuse known host/GPU identities; live guards run in the attended helper. Do not ask repeated manual status for local preparation.",
+  "no_new_model_autograd_SDPA_profile_process_network_reference_or_extraction_during_review": true,
+  "only_post_suite_change": "Cold record loader now requires original numerical acceptance and exact replay fields; no worker, arithmetic or threshold change.",
+  "original_predictions_native_cotangents_and_exact_per_mode_replays_verified": true,
+  "passed": true,
+  "payload": {
+    "attempt_present": false,
+    "authorization_present": false,
+    "bootstrap_bytes": 801201,
+    "control_sha256": "f6c9cf497d8bb10d080f295ba0946b14305092189d7d1ec03c6b1077f1f69a61",
+    "kind": "forward-preserving-native-EOT8-operator-v1",
+    "new_remote_work": false,
+    "overlay_bytes": 276208,
+    "overlay_files": 22,
+    "packet_bytes": 17192095,
+    "prior_sealed_files_verified": 1531,
+    "raw_four_worker_upper_bound_bytes": 808779776
+  },
+  "prior_sealed_files_unchanged": 1531,
+  "public_host_key_pin_reused": true,
+  "resource": {
+    "VJP_file_bytes": 8388608,
+    "allocator_bytes": 7516192768,
+    "bootstrap_bytes": 2097152,
+    "cache_bytes": 33554432,
+    "call_file_bytes": 8388608,
+    "capture_bytes": 2415919104,
+    "code_bytes": 134217728,
+    "collection_bytes": 3221225472,
+    "collection_seconds": 600,
+    "emergency_bytes": 16777216,
+    "final_reserve_seconds": 120,
+    "header_bytes": 262144,
+    "initial_VJPs": 192,
+    "input_bytes": 134217728,
+    "marker_bytes": 16384,
+    "max_files": 1024,
+    "max_simultaneous_scientific_processes": 1,
+    "metadata_bytes": 67108864,
+    "native_call_rows": 4096,
+    "predictor_calls": 384,
+    "proof_bytes": 2684354560,
+    "proof_seconds": 60,
+    "raw_bytes": 1879048192,
+    "scope_file_bytes": 65536,
+    "setup_bytes": 3221225472,
+    "setup_seconds": 180,
+    "tensor_file_bytes": 16777216,
+    "work_seconds": 2400,
+    "worker_seconds": 480,
+    "workers": 4
+  },
+  "review_source": {
+    "bytes": 13688,
+    "mode": 420,
+    "mtime_ns": 1794688577095872424,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v1-20261114/review_saved.py",
+    "sha256": "1510d96f2875021c5869aaeca44ca0240da2d7d6a404a6b752416932d2ecaa84"
+  },
+  "runtime_after_tests": {
+    "architecture": "arm64",
+    "numpy": "2.4.6",
+    "python": "3.11.16",
+    "torch_package": "2.14.1"
+  },
+  "saved_independent_review": {
+    "bytes": 73606,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v1-20261114/independent-review.json",
+    "sha256": "30e6c8c43652cd71bc6243598762a1eb29d959a9d0feb53bb1dcbe01808a895f"
+  },
+  "saved_review_log": {
+    "bytes": 452,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v1-20261114/independent-review.log",
+    "sha256": "59ba3fb3f9255b2c08aeee95ee9ed448b2edf488ced8411b9e035cde4ba2bed3"
+  },
+  "scientific_workers_repeated": false,
+  "sealed_inputs": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v1-20261114/sealed-inputs.json",
+  "target_Torch2_8_CUDA_pretrained_geometry_memory_kernel_or_performance_qualified": false,
+  "test_log": {
+    "bytes": 99,
+    "mode": 384,
+    "mtime_ns": 1794688184014506551,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v1-20261114/pytest-first.log",
+    "sha256": "ff0ea5c73c1324dd0b370beb09f3a60fe32b82d089a6ab3ead643340b06c302b"
+  },
+  "test_xml": {
+    "bytes": 6846,
+    "mode": 384,
+    "mtime_ns": 1794688183976801133,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v1-20261114/pytest-first.xml",
+    "sha256": "bd208c1af54c85c7298080ca6c32905f629267691b53d7e5d55ac04c26d319c2"
+  }
+}

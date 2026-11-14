@@ -1,0 +1,397 @@
+{
+  "actual_target_descriptors_unchanged": 245,
+  "all_original_forward_values_and_native_L1_cotangents_exact": true,
+  "cases": [
+    {
+      "case": "seed-19-thread-0",
+      "exact_predictions_targets_loss_native_cotangents": true,
+      "inner_graph_ids": [
+        33,
+        32,
+        31,
+        30,
+        29,
+        28,
+        27,
+        26,
+        25,
+        24,
+        23,
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2
+      ],
+      "input_check": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 3.4924596548080444e-10,
+        "max_tolerance_ratio": 0.0008573618110200237,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "methods_hooks_and_markers_restored": true,
+      "native_scope": {
+        "call_threads": [
+          8438244032
+        ],
+        "creator_thread": 8438244032,
+        "graph_id": 1,
+        "hook_removed": true,
+        "index": 0,
+        "input_id": 4728744976,
+        "loss_id": 4829859664,
+        "phase": "EOT8-before",
+        "pid": 51345,
+        "root_hook_thread": 8438244032,
+        "runner_thread": 8438244032,
+        "state": "complete"
+      },
+      "receipt": {
+        "bytes": 980597,
+        "mode": 384,
+        "mtime_ns": 1794686733073484317,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-eot8-cpu-v1-20261114/evidence-first/seed-19-thread-0/receipt.json",
+        "sha256": "91be502c03191805f6a64ce4ac41532e05e26971405fda79b5aee20ece1f6540"
+      }
+    },
+    {
+      "case": "seed-19-thread-1",
+      "exact_predictions_targets_loss_native_cotangents": true,
+      "inner_graph_ids": [
+        103,
+        102,
+        101,
+        100,
+        99,
+        98,
+        97,
+        96,
+        95,
+        94,
+        93,
+        92,
+        91,
+        90,
+        89,
+        88,
+        87,
+        86,
+        85,
+        84,
+        83,
+        82,
+        81,
+        80,
+        79,
+        78,
+        77,
+        76,
+        75,
+        74,
+        73,
+        72
+      ],
+      "input_check": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 3.4924596548080444e-10,
+        "max_tolerance_ratio": 0.0008573618110200237,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "methods_hooks_and_markers_restored": true,
+      "native_scope": {
+        "call_threads": [
+          6196654080
+        ],
+        "creator_thread": 8438244032,
+        "graph_id": 71,
+        "hook_removed": true,
+        "index": 0,
+        "input_id": 4823493968,
+        "loss_id": 5077787232,
+        "phase": "EOT8-before",
+        "pid": 51345,
+        "root_hook_thread": 6196654080,
+        "runner_thread": 6196654080,
+        "state": "complete"
+      },
+      "receipt": {
+        "bytes": 980902,
+        "mode": 384,
+        "mtime_ns": 1794686734156777633,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-eot8-cpu-v1-20261114/evidence-first/seed-19-thread-1/receipt.json",
+        "sha256": "cd2361eb472ad4cb9a7457e936fe1df3a5bd510b192a567e72861f59753b0bb6"
+      }
+    },
+    {
+      "case": "seed-37-thread-0",
+      "exact_predictions_targets_loss_native_cotangents": true,
+      "inner_graph_ids": [
+        68,
+        67,
+        66,
+        65,
+        64,
+        63,
+        62,
+        61,
+        60,
+        59,
+        58,
+        57,
+        56,
+        55,
+        54,
+        53,
+        52,
+        51,
+        50,
+        49,
+        48,
+        47,
+        46,
+        45,
+        44,
+        43,
+        42,
+        41,
+        40,
+        39,
+        38,
+        37
+      ],
+      "input_check": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 2.3283064365386963e-10,
+        "max_tolerance_ratio": 0.0006800652139925589,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "methods_hooks_and_markers_restored": true,
+      "native_scope": {
+        "call_threads": [
+          8438244032
+        ],
+        "creator_thread": 8438244032,
+        "graph_id": 36,
+        "hook_removed": true,
+        "index": 0,
+        "input_id": 4827736464,
+        "loss_id": 4827846592,
+        "phase": "EOT8-before",
+        "pid": 51345,
+        "root_hook_thread": 8438244032,
+        "runner_thread": 8438244032,
+        "state": "complete"
+      },
+      "receipt": {
+        "bytes": 980824,
+        "mode": 384,
+        "mtime_ns": 1794686733609146619,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-eot8-cpu-v1-20261114/evidence-first/seed-37-thread-0/receipt.json",
+        "sha256": "3f775d36d1c53913945132e260ebb9c737e91f16ca79d47abea1e03a1824e23d"
+      }
+    },
+    {
+      "case": "seed-37-thread-1",
+      "exact_predictions_targets_loss_native_cotangents": true,
+      "inner_graph_ids": [
+        138,
+        137,
+        136,
+        135,
+        134,
+        133,
+        132,
+        131,
+        130,
+        129,
+        128,
+        127,
+        126,
+        125,
+        124,
+        123,
+        122,
+        121,
+        120,
+        119,
+        118,
+        117,
+        116,
+        115,
+        114,
+        113,
+        112,
+        111,
+        110,
+        109,
+        108,
+        107
+      ],
+      "input_check": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 2.3283064365386963e-10,
+        "max_tolerance_ratio": 0.0006800652139925589,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "methods_hooks_and_markers_restored": true,
+      "native_scope": {
+        "call_threads": [
+          6196654080
+        ],
+        "creator_thread": 8438244032,
+        "graph_id": 106,
+        "hook_removed": true,
+        "index": 0,
+        "input_id": 4823665952,
+        "loss_id": 4827817184,
+        "phase": "EOT8-before",
+        "pid": 51345,
+        "root_hook_thread": 6196654080,
+        "runner_thread": 6196654080,
+        "state": "complete"
+      },
+      "receipt": {
+        "bytes": 981209,
+        "mode": 384,
+        "mtime_ns": 1794686734731776842,
+        "path": "runs/pretrained/diagnostic/predictor-forward-preserving-eot8-cpu-v1-20261114/evidence-first/seed-37-thread-1/receipt.json",
+        "sha256": "4638bee7381436c91949261b01ae3185f84d7718454c906b36456424e9b5fc41"
+      }
+    }
+  ],
+  "date": "2026-11-14",
+  "distinct_math_VJPs_per_candidate": 32,
+  "document": {
+    "bytes": 7163,
+    "path": "docs/predictor_forward_preserving_eot8_cpu_v1.md",
+    "sha256": "a8a33d3137370ffebdd6a9801621ff285527cfdf49b81955eb8a53787f938818"
+  },
+  "draws_per_evaluation": 8,
+  "errors": 0,
+  "failures": 0,
+  "families_per_draw": 2,
+  "kind": "local-full-EOT8-forward-preserving-VJP-saved-review-v1",
+  "local_tiny_CPU_EOT8_integration_qualified": true,
+  "mask_banks": 2,
+  "max_input_absolute_error": 3.4924596548080444e-10,
+  "max_input_tolerance_ratio": 0.0008573618110200237,
+  "model_comparisons": 4,
+  "native_guard_and_both_prior_eight_call_entries_unchanged": true,
+  "native_recomputation_evidence_not_appended_by_math_admission": true,
+  "native_rows_per_evaluation": 128,
+  "negative_native_refusals": {
+    "native-coverage-refusal": {
+      "bytes": 151333,
+      "mode": 384,
+      "mtime_ns": 1794686735081984825,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-eot8-cpu-v1-20261114/evidence-first/native-coverage-refusal/receipt.json",
+      "sha256": "afb6dee4fecec252e6f95684c5d17b6f0a60019912a202f291c5854863dd112b"
+    },
+    "native-foreign-graph-refusal": {
+      "bytes": 178304,
+      "mode": 384,
+      "mtime_ns": 1794686735340248622,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-eot8-cpu-v1-20261114/evidence-first/native-foreign-graph-refusal/receipt.json",
+      "sha256": "bfa8e9a5d8ba74d100ccc901479a7cf90b46e1f155c28d4bcfa11006c82c6f2e"
+    },
+    "native-missing-checkpoint-refusal": {
+      "bytes": 248414,
+      "mode": 384,
+      "mtime_ns": 1794686735222633981,
+      "path": "runs/pretrained/diagnostic/predictor-forward-preserving-eot8-cpu-v1-20261114/evidence-first/native-missing-checkpoint-refusal/receipt.json",
+      "sha256": "26b95b23e39cff6a95452d31d3c3778d3892a9d65e6c3b1dc3ca45b7cbc6e48c"
+    }
+  },
+  "new_remote_operator_authorization_upload_or_paid_work": false,
+  "next_step": "Prepare a concrete unarmed full-model original-forward/public-math-VJP university handoff with fresh original control, exact native predictions/cotangents and original full-input bounds; conditional fresh replay only after initial gates. No launch or target claim is authorized by this local evidence.",
+  "no_model_autograd_SDPA_CUDA_process_network_or_reference_execution_in_review": true,
+  "original_full_input_bound_passed": true,
+  "passed": true,
+  "positive_model_evaluations_before_candidate_after": 12,
+  "predictor_calls_per_candidate_including_checkpoint_recomputation": 64,
+  "prior_sealed_files_reverified": 882,
+  "protected_sources": {
+    "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+    "external/vjepa2/src/models/utils/modules.py": "b93f6c7e0747deb216419c000c2878f11a9189024a9adeacfd437e172396dff0",
+    "models/execution.py": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba",
+    "models/predictor_eot8_adapter_v1.py": "89b7e0c67e88f2f776bb0bb6ad786a2202115e64ffc6c6f9a962381cc2e9a6b8",
+    "models/predictor_eot8_owned_v1.py": "ef3675e69ef56b0b4ef4f543cab96b7f2bc757a64202d74500f3802ccd5dfc12",
+    "models/predictor_forward_preserving_cpu_v1.py": "6ba308e948c0ce346512f17ef4fc11eccb542954048c859ad6c6a751db1fbb66",
+    "models/predictor_forward_preserving_upstream_v1.py": "db71de4b6b8c3ba1532639258f23e7b4b5a850493625bf6ba1a7e2f8c9b13b88",
+    "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf",
+    "tests/test_predictor_forward_preserving_upstream_v1.py": "b77f1c28a225f82063372b3e3007ac15da8784ad8f01180b91357b91cef35bc8"
+  },
+  "review_source": {
+    "bytes": 14610,
+    "mode": 420,
+    "mtime_ns": 1794686878810230506,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-eot8-cpu-v1-20261114/review/review_saved.py",
+    "sha256": "1f7fd76d4550a265a4ef52d0c6e9d714ad8c1e1f99581a862fcbf60da4f95655"
+  },
+  "runtime_after_tests": {
+    "architecture": "arm64",
+    "numpy": "2.4.6",
+    "python": "3.11.16",
+    "torch_package": "2.14.1"
+  },
+  "saved_FP32_array_count": 624,
+  "saved_review": {
+    "bytes": 299328,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-eot8-cpu-v1-20261114/review/review.json",
+    "sha256": "c443d485b00b6d621ede28d3d5307bd57e70c231b6fd68c50d470c5118208afc"
+  },
+  "saved_review_log": {
+    "bytes": 350,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-eot8-cpu-v1-20261114/review/review.log",
+    "sha256": "7149c975a10fe9d723fba809f1baefd4befb9323be6ae980aa2246661cc0b10e"
+  },
+  "sealed_inputs": "runs/pretrained/diagnostic/predictor-forward-preserving-eot8-cpu-v1-20261114/sealed-inputs.json",
+  "skipped": 0,
+  "source_pins": {
+    "models/predictor_forward_preserving_eot8_cpu_v1.py": "256079682d27aa2be42b0c909298a5adb3632cc385e95aa3590d2724b75a1a9e",
+    "tests/test_predictor_forward_preserving_eot8_cpu_v1.py": "240f98e28b0472ab0bbf974a5619f959d05d98737e0ef458bb6b587ac272470f"
+  },
+  "target_Torch2_8_CUDA_pretrained_optimizer_performance_research_or_training_qualified": false,
+  "test_log": {
+    "bytes": 1178,
+    "mode": 384,
+    "mtime_ns": 1794686735768813922,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-eot8-cpu-v1-20261114/pytest-first.log",
+    "sha256": "5f38ec1cb691a10857c50d87cd9c6828f84c58fe0ceeb0335c573895d9480bee"
+  },
+  "test_suite_runs": 1,
+  "test_xml": {
+    "bytes": 3404,
+    "mode": 384,
+    "mtime_ns": 1794686735650410619,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-eot8-cpu-v1-20261114/pytest-first.xml",
+    "sha256": "70a75bab75b087f2e78169771bd1682591d32e6f6a5bcfd50e8485d379bac956"
+  },
+  "tests": 19
+}

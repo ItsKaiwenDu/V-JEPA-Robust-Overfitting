@@ -1,0 +1,52 @@
+{
+  "approval": {
+    "bytes": 1730,
+    "mode": 384,
+    "mtime_ns": 1794690759783279577,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/arming-20261114/approval.json",
+    "sha256": "886ea6216accd59471eb1f3db1d95e85f99ca46b770800bf32b6ac2854d4b2a2"
+  },
+  "armed": true,
+  "attempt_present": false,
+  "authorization": {
+    "bytes": 2308,
+    "mode": 384,
+    "mtime_ns": 1794690759783939286,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/AUTHORIZATION.json",
+    "sha256": "09eb6a19731061c3a9b8e16af5bad51a698082a3cd3b9f7a02c990ecf41082ee"
+  },
+  "control": {
+    "bytes": 47902,
+    "mode": 384,
+    "mtime_ns": 1794690249377146037,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/CONTROL.json",
+    "sha256": "8b22bf0905ec0c87f6551376275e5c34542b8136cfdd2f555e0bbc39209c461e"
+  },
+  "corrected_child_three_argument_validation_verified": true,
+  "current_GPU_idle_or_capacity_claimed": false,
+  "date": "2026-11-14",
+  "earlier_target_descriptors_unchanged": 245,
+  "exact_approval_source_resources_and_canonical_helper_verified": true,
+  "helper": {
+    "bytes": 390,
+    "mode": 448,
+    "mtime_ns": 1794690249377528162,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/run-attended.sh",
+    "sha256": "c4373f3976e26da912cb3252b1495dbfbee1d56417e58426339b635dd7884132"
+  },
+  "kind": "armed-unused-forward-preserving-v2-review",
+  "latest_target_descriptors_unchanged": 135,
+  "manual_GPU_status_needed": false,
+  "new_remote_SSH_upload_helper_proof_model_or_paid_work": false,
+  "passed": true,
+  "prepared_sealed_files_unchanged": 2067,
+  "remaining_action": "User runs only the v2 attended Mac helper once, keeps Mac/lid/Terminal open through collection and reports result for independent review. Never rerun v1 or reuse either claim.",
+  "review_source": {
+    "bytes": 7305,
+    "mode": 420,
+    "mtime_ns": 1794690833354588675,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/arming-20261114/review_armed.py",
+    "sha256": "3d2f43ce90f83cbd24445947a54d29963d21ecd2973e7fb0b5b5e379a3fcbb4c"
+  },
+  "v1_claim_and_evidence_unchanged_consumed": true
+}

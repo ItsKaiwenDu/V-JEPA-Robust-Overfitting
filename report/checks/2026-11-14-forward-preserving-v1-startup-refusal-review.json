@@ -1,0 +1,40 @@
+{
+  "candidate_was_not_executed": true,
+  "cause": "The child entry calls validate_authorization(auth, sha) but this new validator requires the bound control as a third argument; it refuses before scientific imports.",
+  "collection_logical_bytes": 61158021,
+  "collection_members": 135,
+  "complete_same_SSH_collection_verified": true,
+  "completed_model_workers": 0,
+  "consumed_claim": {
+    "bytes": 264,
+    "mode": 420,
+    "mtime_ns": 1794689544972726120,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v1-20261114/linux10603-final/ATTEMPT.json",
+    "sha256": "4166295462bfe1af5f4273b35c314e7ccad8570e208428952bc3c9b32d3c290d"
+  },
+  "control_sha256": "f6c9cf497d8bb10d080f295ba0946b14305092189d7d1ec03c6b1077f1f69a61",
+  "date": "2026-11-14",
+  "full_storage_proof_passed": true,
+  "kind": "forward-preserving-v1-startup-refusal-review",
+  "model_or_CUDA_objectives": 0,
+  "new_SSH_retrieval_cleanup_installation_model_or_paid_work": false,
+  "next_local_step": "Prepare a separate corrected child entry and exact cold entry regression tests; preserve v1 and never rerun its launch.",
+  "numerical_candidate_rejection_or_qualification": false,
+  "old_armed_seal_files_unchanged": 1888,
+  "old_claim_and_authorization_remain_consumed": true,
+  "passed": true,
+  "proof_bytes_written_and_read": 2684354560,
+  "proof_wall_seconds": 10.553742181975394,
+  "replay_workers_not_started": true,
+  "response": {
+    "bytes": 61289438,
+    "mode": 420,
+    "mtime_ns": 1794689544903480974,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v1-20261114/linux10603-final/attended-elmh_fic/response.bin",
+    "sha256": "d508489b0dd4612af87ba266e0d09fb1790afe62caf6b5554f7d0f8c2fbf6206"
+  },
+  "reviewer_first_failure": "Initial review assumed the empty results directory was extracted; file-only collection omits it. Corrected absence check; no target evidence or thresholds changed.",
+  "saved_file_byte_mode_nsmtime_descriptors_verified": true,
+  "session_wall_seconds": 13.25146100576967,
+  "worker_exit_status": 1
+}

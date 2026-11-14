@@ -1,0 +1,138 @@
+{
+  "actual_cold_child_entry_exercised": true,
+  "attempt_present": false,
+  "authorization_present": false,
+  "bootstrap": {
+    "bytes": 880912,
+    "mode": 384,
+    "mtime_ns": 1794690464121005868,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/final-bootstrap.bin",
+    "sha256": "cd2322caa870e5b9d357423edeee3192aea5e62421276d91c6d7b5ddaaafe157"
+  },
+  "bound_control_reaches_live_guard_before_science": true,
+  "date": "2026-11-14",
+  "document": {
+    "bytes": 6892,
+    "path": "docs/predictor_forward_preserving_handoff_v2.md",
+    "sha256": "0f25da72891203ea32e101b599e408b6910ca6d013076e21ba6a9300b43845a1"
+  },
+  "earlier_target_descriptors_unchanged": 245,
+  "errors": 0,
+  "exact_child_entry_check": {
+    "bytes": 208,
+    "mode": 384,
+    "mtime_ns": 1794690299532883301,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/exact-child-entry-check.json",
+    "sha256": "b1cc1e09f1de0d22113a38115ec7b235c1f7ce2309b32bad07061f81cf768cdc"
+  },
+  "failures": 0,
+  "incident_review": {
+    "bytes": 2073,
+    "mode": 384,
+    "mtime_ns": 1794689845057760521,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v1-20261114/target-review-startup-refusal/review.json",
+    "sha256": "9f7588c6685f08cb38f4ffab8e206df525c1d60f5f507492ba14ee83887554e2"
+  },
+  "kind": "forward-preserving-v2-corrected-child-preparation-review",
+  "latest_target_descriptors_unchanged": 135,
+  "new_model_or_GPU_objectives": 0,
+  "new_remote_SSH_upload_proof_cleanup_installation_or_paid_work": false,
+  "next_step": "One new exact scoped approval for v2 before arming; the consumed v1 grant cannot authorize a second proof/launch. Reuse known host/GPU information and live guards; no repeated manual status.",
+  "old_approval_changed_sources_packet_clock_and_order_refusals_verified": true,
+  "old_failed_claim_not_reset": true,
+  "old_successful_model_or_test_suites_repeated": false,
+  "original_failure_reproduced": true,
+  "passed": true,
+  "payload": {
+    "attempt_present": false,
+    "authorization_present": false,
+    "bootstrap_bytes": 880912,
+    "control_sha256": "8b22bf0905ec0c87f6551376275e5c34542b8136cfdd2f555e0bbc39209c461e",
+    "kind": "forward-preserving-native-EOT8-operator-v2",
+    "new_remote_work": false,
+    "overlay_bytes": 302951,
+    "overlay_files": 25,
+    "packet_bytes": 17192095,
+    "prior_sealed_files_verified": 2033,
+    "raw_four_worker_upper_bound_bytes": 808779776
+  },
+  "prior_sealed_incident_files_unchanged": 2033,
+  "resource": {
+    "VJP_file_bytes": 8388608,
+    "allocator_bytes": 7516192768,
+    "bootstrap_bytes": 2097152,
+    "cache_bytes": 33554432,
+    "call_file_bytes": 8388608,
+    "capture_bytes": 2415919104,
+    "code_bytes": 134217728,
+    "collection_bytes": 3221225472,
+    "collection_seconds": 600,
+    "emergency_bytes": 16777216,
+    "final_reserve_seconds": 120,
+    "header_bytes": 262144,
+    "initial_VJPs": 192,
+    "input_bytes": 134217728,
+    "marker_bytes": 16384,
+    "max_files": 1024,
+    "max_simultaneous_scientific_processes": 1,
+    "metadata_bytes": 67108864,
+    "native_call_rows": 4096,
+    "predictor_calls": 384,
+    "proof_bytes": 2684354560,
+    "proof_seconds": 60,
+    "raw_bytes": 1879048192,
+    "scope_file_bytes": 65536,
+    "setup_bytes": 3221225472,
+    "setup_seconds": 180,
+    "tensor_file_bytes": 16777216,
+    "work_seconds": 2400,
+    "worker_seconds": 480,
+    "workers": 4
+  },
+  "review_source": {
+    "bytes": 8080,
+    "mode": 420,
+    "mtime_ns": 1794690464189447888,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/review_saved.py",
+    "sha256": "b7694aa5db9a1b9e2ec40358d786e5a73bec225fceb69a220e88b10aa8d048c7"
+  },
+  "saved_independent_review": {
+    "bytes": 5278,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/independent-review.json",
+    "sha256": "b8ba17ea3516048d3037a63a37070de2c42315fa1fc3bd807b9dc7df6eb007a0"
+  },
+  "saved_review_log": {
+    "bytes": 323,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/independent-review.log",
+    "sha256": "10de282ca01217a2987c4049e3d1df7f73e9b594f18fdb2507328c8c9e091538"
+  },
+  "scientific_worker_arithmetic_numerical_resource_or_financial_change": false,
+  "sealed_inputs": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/sealed-inputs.json",
+  "selected_control_sha256": "8b22bf0905ec0c87f6551376275e5c34542b8136cfdd2f555e0bbc39209c461e",
+  "skipped": 0,
+  "source_pins": {
+    "configs/predictor_forward_preserving_handoff_v2.json": "423bd39fffa62055610f25fa176d6ded99121401fffa4aad1d2e1d2dd4a317a8",
+    "models/predictor_forward_preserving_client_v2.py": "adeff2a03beb933bbef761f9246ac9e62854299f17d0bc88b9da53a36a6fbe24",
+    "models/predictor_forward_preserving_operator_v2.py": "c82a7d384e42ce8d3deed5ba3d60b9482613d1a2194a4c411fd55cc245e10171",
+    "scripts/capture_predictor_forward_preserving_v2.py": "f40bf75d88071e349ed6bf6d042b3d1fbaef5e252a1c7fde3858c34577204190",
+    "scripts/prepare_predictor_forward_preserving_v2.py": "00c8c0b2f7f98b4fba40602bd3050ddef19d02a561fd3877b5e792b3ffe80afc",
+    "scripts/run_predictor_forward_preserving_v2.py": "a9883a2672f9ebdacddb24c5707e660f715f2f6438598ad72324c7ffe59093b4",
+    "tests/test_predictor_forward_preserving_child_v2.py": "164884bf91db66ea8af97a2ea7dd6abd35b298956af4c7ce15e057c0c7f2f1b3"
+  },
+  "suite_runs": 1,
+  "test_log": {
+    "bytes": 99,
+    "mode": 384,
+    "mtime_ns": 1794690300510350798,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/pytest-first.log",
+    "sha256": "491b9540f1a8affa774adf93881c0ff94742ef95ebbf4986f2555d8f3bc3edd0"
+  },
+  "test_xml": {
+    "bytes": 2476,
+    "mode": 384,
+    "mtime_ns": 1794690300503764504,
+    "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/pytest-first.xml",
+    "sha256": "73e9c2ae9eb2a380fe66fb70456459c9c86106e3100f735b335146697238149e"
+  },
+  "tests": 12
+}
