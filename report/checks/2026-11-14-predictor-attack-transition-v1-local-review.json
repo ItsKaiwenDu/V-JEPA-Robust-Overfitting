@@ -1,0 +1,146 @@
+{
+  "actual_private_reconstruction_files": 242,
+  "actual_private_reconstruction_logical_bytes": 599605882,
+  "actual_reconstruction_check": {
+    "bytes": 253,
+    "path": "runs/pretrained/diagnostic/predictor-attack-transition-v1-20261114/actual-collection-check.json",
+    "sha256": "c73ddd4db4aef70b7ff82c96d79d6820c392797da05793cade4b5a056daab071"
+  },
+  "collector_frozen_source_unchanged": true,
+  "date": "2026-11-14",
+  "decision_builder": {
+    "bytes": 12743,
+    "path": "scripts/prepare_predictor_attack_transition_v1.py",
+    "sha256": "58097d9fb15261f7feaa6a101060df66d121a92f8cdbf0e9e671c4386ca6403d"
+  },
+  "decision_plan_source_pins_and_remaining_gate_separation_verified": true,
+  "decision_review": {
+    "bytes": 7351,
+    "path": "runs/pretrained/diagnostic/predictor-attack-transition-v1-20261114/decision-final-review.json",
+    "sha256": "8f270650797ccd1262851632adb44ace635eaf3633f493ed892db85fbbd5afa5"
+  },
+  "direct_cold_reference_admission_passed_in_new_test": true,
+  "distinct_new_collection_checks_latest_pass": 26,
+  "documentation": {
+    "bytes": 8720,
+    "path": "docs/predictor_attack_transition_v1.md",
+    "sha256": "13318da76d54893621eb836fd70603669df9a96d0b321d18a8d0486b0968c3f1"
+  },
+  "financial_caps_holds_and_pending_reconciliation_unchanged": true,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "first_failure_and_source_stages_preserved": true,
+  "historical_consumed_authorization_copied_only_as_evidence": true,
+  "independent_review": {
+    "bytes": 1897,
+    "path": "runs/pretrained/diagnostic/predictor-attack-transition-v1-20261114/independent-review.json",
+    "sha256": "c68037094d65757a4581bd409e6a7720fe7fe0a3099aa5a257a3080bdd05cd87"
+  },
+  "independent_review_log": {
+    "bytes": 177,
+    "path": "runs/pretrained/diagnostic/predictor-attack-transition-v1-20261114/independent-review-final.log",
+    "sha256": "455e8629fde9cfe632857c68a4ba3383561e18ebb4948a67a37d5d3b80c3b3de"
+  },
+  "independent_review_source": {
+    "bytes": 9122,
+    "path": "runs/pretrained/diagnostic/predictor-attack-transition-v1-20261114/review_saved.py",
+    "sha256": "19baea4a8cd7b308fe4184ceca159215771f49ef3c1a50c27559478c9dae7070"
+  },
+  "independent_review_stdlib_saved_files_only": true,
+  "initial_audit_failures_preserved": [
+    "runs/pretrained/diagnostic/predictor-attack-transition-v1-20261114/independent-review-first.log",
+    "runs/pretrained/diagnostic/predictor-attack-transition-v1-20261114/independent-review-corrected.log"
+  ],
+  "iterated_PGD_candidate_implemented": false,
+  "kind": "predictor-attack-transition-v1-local-review",
+  "new_execution_grant_claim_or_target_handoff_created": false,
+  "new_reconstruction_directory_policy_0700_and_original_file_mode_nsmtime_preserved": true,
+  "new_scientific_model_GPU_reference_or_remote_work": false,
+  "new_training_policy_or_study_adoption": false,
+  "next_local_prototype": {
+    "CPU_only": true,
+    "candidate_objectives_at_most": 4,
+    "conditional_fresh_candidate_replay_objectives_at_most": 4,
+    "draws": 8,
+    "encoder_blocks": 2,
+    "families": 2,
+    "predictor_blocks": 2,
+    "restarts": 2,
+    "same_input_original_checks_at_most": 4,
+    "steps": 2,
+    "tiny_synthetic_shape": [
+      1,
+      3,
+      4,
+      16,
+      16
+    ],
+    "total_new_tiny_gradient_objectives_at_most": 12
+  },
+  "next_local_work": "Separate tiny per-iterate PGD gradient-context integration, at most four candidate/four same-input original/four conditional fresh-replay objectives; no old clean cohort repeat.",
+  "no_GPU_handoff_or_resource_request_ready": true,
+  "no_speed_or_full_study_cost_estimate_from_diagnostic_walls": true,
+  "no_training_or_routine_EOT1_path_change": true,
+  "old_clean_numerical_replay_gate_stays_closed": true,
+  "passed": true,
+  "plan": {
+    "bytes": 12086,
+    "path": "configs/predictor_attack_transition_v1.json",
+    "sha256": "48b76a28020e71e4cca2e75be79ab6ec6f037a443eae6e2cb2d3b1bad10a54e2"
+  },
+  "primary_attack_bank_forward_calls": 44,
+  "primary_logical_gradient_calls": 40,
+  "prior_sealed_hashes_unchanged": 3237,
+  "raw_response_and_original_mirror_unchanged": true,
+  "receiver_source": {
+    "bytes": 5460,
+    "path": "models/private_collection_v1.py",
+    "sha256": "3ca50125d93781e9f9b0de6a1591626e6dc15806968b1a1af6318c5fed511464"
+  },
+  "receiver_tests": {
+    "bytes": 9595,
+    "path": "tests/test_private_collection_v1.py",
+    "sha256": "194604a4281605b2b268c18cfbaeff77e82d770d61a63b3e9720ccf93ae6f9a3"
+  },
+  "sealed_inputs": "runs/pretrained/diagnostic/predictor-attack-transition-v1-20261114/sealed-inputs.json",
+  "target_byte_mode_nsmtime_descriptors_unchanged": [
+    242,
+    280,
+    135,
+    245
+  ],
+  "test_history": [
+    {
+      "errors": 0,
+      "failures": 1,
+      "file": "pytest-first.xml",
+      "skipped": 0,
+      "tests": 23
+    },
+    {
+      "errors": 0,
+      "failures": 0,
+      "file": "pytest-corrected.xml",
+      "skipped": 0,
+      "tests": 3
+    },
+    {
+      "errors": 0,
+      "failures": 0,
+      "file": "pytest-source-race.xml",
+      "skipped": 0,
+      "tests": 1
+    }
+  ]
+}

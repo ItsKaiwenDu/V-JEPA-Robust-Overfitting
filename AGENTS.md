@@ -2,6 +2,62 @@
 
 ## Current stage
 
+LATEST November 14: ATTACK-LOOP TRANSITION DECISION + PRIVATE LOCAL COLLECTION VERIFIED; NEXT TINY PGD INTEGRATION.
+Read report/checks/2026-11-14-predictor-attack-transition-v1-local-review.json/md,
+docs/predictor_attack_transition_v1.md and configs/predictor_attack_transition_v1.json.
+SinglecasecleanEOT8 numerical/freshreplay remainsCLOSED/PASS. Newinertdecision/source
+pins, no researchpolicy/adoption/benchmark/targetgrant. Actualsourcegap: TargetRoute
+one-loss/one-native-token/one-gradient singleuse vsPGDdirecttorch.autograd.grad and
+no-gradclean/final/independentscoring. Sourcecounts PGD20R2=40grads+4no-gradattack
+forwards=44;PGD50R2=100+4=104;strongcontrol6scoreforwardsincl2audits. CountsNOTtimings.
+Decision: separateopt-in EOT8primary/convergence PER-ITERATEgradientcontext; preserve
+consider-before-backward/allcandidate/maxselection/starts/masks/clean-target/projection.
+Freshboundedrouteeachgradient; no globalautogradpatch/guardwidening/oldscopereuse.
+Keepno-gradattack/scoring ORIGINALforward outsidecustomcontext. Newfirst-order
+customderivative explicit: cleanboundpass!=identicalPGDsign/trajectory/strength.
+Comparegradients atSAMEiteratedinputs; no fakeequivalence/automaticlargest-lossadoption.
+Optimizerparameterbackward/trainingPGD5EOT1/routineEOT1 unchanged/outsidecandidate
+scope. No trainingpolicy registered or fullAdamW8GiBqualification. Original/study/
+budget/precision/evaluation/PGDsources/YAML frozen. Legacyresearchcalibration30units/
+10trainclips3steps stillunselected; fullhardware/recovery/backend/performance/cost/
+adoptiongates OPEN. Old3090partialprimaryscreenfailed; no timing/cost/speedup inferred
+from103.607/100.100original,108.265/109.668candidate instrumentedworkerwalls. Historical
+pricesNOTcurrentquotes; no paidallowance/holdrelease/billingreconciliation inferred.
+Separate models/private_collection_v1.py LOCALONLYAPI, NOTwiredanyconsumedclient.
+Exactolddecoder CODEOBJECT+originalframing/size/count/hash/filemode/nsmtime/refusals;
+source/controlhash pinned, sourceFDheld (neverreopenreplacedname), postidentitycheck,
+newdestprivate0700dirs/scopedumaskRESTORED onallpaths. Source0644permittedONLYowned
+privateparent (originalresponse untouched); outputfiles original400/600. Rawsource/
+0755mirror/oldclients unchanged. Actual242files599,605,882logicalB reconstructed
+withALL700dirs; strictCapsuleacceptsDIRECTLY, no new55fileworkaroundcopyneeded.
+26distinctnewcollectorchecks finalPASS. First23=22pass1fail(originalsource0644
+assumption), retained; onlyfailed+2newnextPASS3;1newpinned-source-replacementPASS.
+No priorpassingtest/scientificsuite repeated. Snapshotsfirst/corrected/final retained.
+IndependentSTDLIB NOmodels/Torch/NumPy/process/network checks3237priorhashes+242/
+280/135/245oldbyte/mode/nsmtime descriptors unchanged, private reconstruction/plan/
+sourcepins/claim. Twoinitialaudits assumeduppercaseglobabsence; preservefailures:
+casealiasesresolvearchivedlowercasecontrol/auth, literalentries/datahash/canonical
+oldhandoff+consumedclaim proveNOTnewgrant. Newdatareceivercreatesno executiongrant.
+Rawstage predictor-attack-transition-v1-20261114/sealed-inputs.json. No SSH/GPU/new
+scientificobjective/tensorreference/proof/optimizer/upload/cleanup/install/paidwork.
+NEXT LOCAL ONLY implement the declared NEWtinyCPU2encoder/2predictor, pixels
+[1,3,4,16,16], PGD2/R2/EOT8/2families gradient-context prototype+newartifactidentity.
+Atmost4candidate+4same-input-originalgradientchecks; ONLYifallpassfreshcandidate
+rollout4moreobjectives: total<=12NEWtinygradientobjectives, conditionalreplay. Test
+realnative-root/checkpoint/inner-task ownership/perobjectiveOLDcaps/hooks/privateF/
+flags/modes/restoration/parameter.gradabsence/allcandidate+normrules. Preserveold
+bounds, nativeL1, cleanfixedtargets/masks/starts andconsider-before-backwardorder.
+Predeterminedtinyteststep1/255 isNOTresearchcalibration. UnsupportedCUDA/university
+hosts/higherderivatives/modes/counts refusebeforework. No repeatedoldcleancohort.
+No universityapproval/status request ortargethandoffreadyNOW; localimplementation
+mayproceed withnextusercontinuation, no extra localapprovalflow. Onlylaterafter
+localpass prepareEXACTnewiterated-target/backend/performance scope andseekONEnew
+universitygrant afterconcreteprep; consumed3237sources/grants remainfrozen. DoNOT
+useoldEOT8receiptstoadmitattack/optimizer/training orremoveobservers/guardsfor speed.
+All financialholds/$200/$160/single$10/reconciliation, old3724/oldparentfailure and
+partialunadmitted preserved. Usercommits self;neverstage/commit/push.
+EarlierLATEST historical.
+
 LATEST November 14: MISSING CANDIDATE FRESH REPLAY VERIFIED PASS; SINGLE-CASE NUMERICAL/REPLAY CHAIN CLOSED.
 Read report/checks/2026-11-14-missing-candidate-replay-v1-target-review.json/md first.
 Actualselected linux10603-ready/attended-nqg9xqaj; CONTROLaf2c495cb86ab78b48e20a700358f6964182f015939fa18c5f7566aa5cdf0842;

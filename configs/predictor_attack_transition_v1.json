@@ -1,0 +1,268 @@
+{
+  "authorized": false,
+  "completed_evidence_scope": {
+    "clean_EOT8": true,
+    "fresh_candidate_replay_exact": true,
+    "parameter_update_attack_or_performance_qualification": false,
+    "training_clips": 1
+  },
+  "date": "2026-11-14",
+  "decision": "Proceed to a separate local tiny EOT8 PGD input-gradient callback integration for primary/convergence evaluation. Retain existing parameter-update, training PGD5/EOT1 and routine/EOT1 paths; they are outside this candidate scope. Do not benchmark a clean-call-only adapter as if it were a research PGD implementation.",
+  "directory_fix_not_wired_into_consumed_clients": true,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "full_training_authorized": false,
+  "future_target_performance_prerequisites": [
+    "Local repeated-objective integration and conditional fresh rollout replay pass first.",
+    "Prepare a separate bounded target iterated-input/ownership and backend-trace scope; completed clean cohorts are not rescheduled.",
+    "Measure original and opt-in end-to-end units with identical inputs, scoring, runtime and bookkeeping; declare observer/transfer/serialization costs.",
+    "Any lean observation variant needs separate explicit validation; do not disable guards or multiply instrumented single-EOT8 wall time into a primary-workload estimate.",
+    "Measure all affected workload/recovery/checkpoint units on the selected research runtime before full cost admission. Historical screen prices and other-GPU timing are not current quotes or evidence for this route."
+  ],
+  "gates": {
+    "backend_kernel_and_end_to_end_performance": {
+      "diagnostic_worker_wall_not_a_benchmark": true,
+      "speedup": null,
+      "status": "not_measured_for_new_integrated_path"
+    },
+    "clean_EOT8_one_clip_numerical_and_fresh_replay": {
+      "evidence": "report/checks/2026-11-14-missing-candidate-replay-v1-target-review.json",
+      "research_admission": false,
+      "status": "passed_scoped"
+    },
+    "full_study_economics": {
+      "latest_existing_3090_primary_only_screen_passed": false,
+      "new_candidate_complete_study_cost_USD": null,
+      "status": "not_admitted"
+    },
+    "full_training": {
+      "requires_all_preceding_relevant_gates_and_separate_adoption": true,
+      "status": "not_authorized"
+    },
+    "iterated_same_input_numerical_native_ownership_and_replay": {
+      "clean_pass_does_not_substitute": true,
+      "no_assumed_exact_original_attack_trajectory": true,
+      "status": "not_qualified"
+    },
+    "private_collection_reconstruction": {
+      "consumed_clients_changed": false,
+      "status": "new_local_receiver_verified_separately",
+      "target_metadata_preserved": "files only; local directory policy explicit 0700"
+    },
+    "repeated_PGD_input_gradient_integration": {
+      "blocker": "TargetRoute.loss/gradient are single-use and native-owner-token bound; old PGD calls torch.autograd.grad directly.",
+      "next_local_priority": true,
+      "status": "not_implemented"
+    },
+    "research_attack_calibration_and_stronger_control": {
+      "primary": {
+        "attack_masks": 8,
+        "epsilon_255": 4,
+        "restarts": 2,
+        "scoring_masks": 4,
+        "step_size_255": null,
+        "steps": 20
+      },
+      "selected_step_size_255": null,
+      "status": "not_complete",
+      "stronger_control": {
+        "attack_masks": 8,
+        "restarts": 2,
+        "scoring_audits": 2,
+        "scoring_masks": 4,
+        "selection_uses_attack_bank_only": true,
+        "step_size": "same_training_calibrated_step_as_primary",
+        "steps": 50
+      },
+      "ten_training_clips_three_steps_primary_units": 30
+    },
+    "research_hardware_optimizer_and_exact_recovery": {
+      "parameter_update_gradient_route": "existing original path; custom VJP stays outside optimizer backward",
+      "status": "requires_chosen_runtime_and_explicit_new_attack_identity",
+      "university_8GiB_full_AdamW_training_qualified": false
+    }
+  },
+  "integration_requirements": [
+    "Use a new opt-in PGD/evaluator artifact identity; leave existing PGD, execution policies, training and study YAML unchanged.",
+    "An explicit per-iterate gradient context owns the actual loss/input token. Do not globally patch torch.autograd.grad or bypass native ownership.",
+    "Create a fresh bounded route for each differentiation. Keep all no-grad clean/final-iterate/independent-scoring calls on original forward.",
+    "Hold clean targets, masks, restart seeds, perturbation projection, all-candidate selection, per-example comparisons and consider-before-backward ordering fixed.",
+    "Compare gradients at identical iterated inputs using unchanged bounds; exact clean replay does not imply identical PGD sign updates or final adversaries.",
+    "Record per-objective native/checkpoint/inner-task evidence and restoration. Do not widen or reuse a consumed single-objective guard.",
+    "Keep custom first-order input differentiation outside parameter accumulation, AdamW, checkpoint selection and independent scoring.",
+    "Stop on any value/ownership/restoration/resource failure. No passing marker reconstructed from previous clean returns."
+  ],
+  "kind": "forward-preserving-attack-transition-local-plan-v1",
+  "local_prototype_scope": {
+    "artifact_kind_must_declare_custom_attack_gradient_identity": true,
+    "attack": {
+      "draws": 8,
+      "epsilon_255": 4,
+      "families": 2,
+      "fixed_test_step_size_255": 1,
+      "random_start": true,
+      "restarts": 2,
+      "step_is_not_research_calibration": true,
+      "steps": 2
+    },
+    "candidate_gradient_objectives_at_most": 4,
+    "completed_clean_cohort_repeats": 0,
+    "conditional_fresh_candidate_rollout_gradient_objectives_at_most": 4,
+    "device": "cpu",
+    "encoder_blocks": 2,
+    "failure_stops_without_retry_or_scope_reuse": true,
+    "fresh_candidate_rollout_only_after_initial_gates_pass": true,
+    "implemented": false,
+    "input_shape": [
+      1,
+      3,
+      4,
+      16,
+      16
+    ],
+    "kind": "proposed_local_tiny_PGD_scope_not_a_target_grant",
+    "no_grad_attack_selection_and_independent_score_use_original_forward_outside_custom_scope": true,
+    "no_held_out_pixels_paid_GPU_profile_optimizer_or_target_work": true,
+    "parameter_gradients_absent_and_existing_optimizer_path_untouched": true,
+    "per_objective_frozen_tiny_caps_unchanged": true,
+    "per_objective_native_root_and_distinct_math_tasks_required": true,
+    "predictor_blocks": 2,
+    "preserve_original_consider_before_backward_order_and_all_best_candidate_rules": true,
+    "same_input_original_gradient_checks_at_most": 4,
+    "synthetic_tiny_only": true,
+    "total_gradient_objectives_at_most": 12,
+    "training_PGD5_EOT1_and_routine_EOT1_paths_unchanged": true,
+    "university_hosts_and_CUDA_refused_before_work": true
+  },
+  "new_SSH_upload_helper_authorization_attempt_GPU_or_scientific_work": false,
+  "new_financial_hold_or_hold_release_USD": 0,
+  "new_target_execution_permitted": false,
+  "next_local_step": "Implement only the declared tiny repeated-PGD gradient-context prototype and new local tests. No university request is ready at this checkpoint.",
+  "proposal_only": true,
+  "research_policy_registered": false,
+  "source_control_flow_counts": {
+    "local_integration": {
+      "extra_scoring_banks": 0,
+      "independent_no_grad_scoring_forwards": 2,
+      "input_gradient_objectives": 4,
+      "no_grad_attack_bank_forwards": 4,
+      "restarts": 2,
+      "source_structure_only_not_a_timing_estimate": true,
+      "steps": 2,
+      "total_attack_bank_objective_forwards": 8
+    },
+    "primary": {
+      "extra_scoring_banks": 0,
+      "independent_no_grad_scoring_forwards": 2,
+      "input_gradient_objectives": 40,
+      "no_grad_attack_bank_forwards": 4,
+      "restarts": 2,
+      "source_structure_only_not_a_timing_estimate": true,
+      "steps": 20,
+      "total_attack_bank_objective_forwards": 44
+    },
+    "stronger_control": {
+      "extra_scoring_banks": 2,
+      "independent_no_grad_scoring_forwards": 6,
+      "input_gradient_objectives": 100,
+      "no_grad_attack_bank_forwards": 4,
+      "restarts": 2,
+      "source_structure_only_not_a_timing_estimate": true,
+      "steps": 50,
+      "total_attack_bank_objective_forwards": 104
+    }
+  },
+  "sources": {
+    "attacks/pgd.py": {
+      "bytes": 5089,
+      "path": "attacks/pgd.py",
+      "sha256": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81"
+    },
+    "configs/budget_study_plan.yaml": {
+      "bytes": 5287,
+      "path": "configs/budget_study_plan.yaml",
+      "sha256": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa"
+    },
+    "configs/research_attack_candidate_v1.json": {
+      "bytes": 15258,
+      "path": "configs/research_attack_candidate_v1.json",
+      "sha256": "1d4901b2893b6cbf35e11e3ca12b59927c8b15a1662b85abedca439520009051"
+    },
+    "configs/study.yaml": {
+      "bytes": 3157,
+      "path": "configs/study.yaml",
+      "sha256": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1"
+    },
+    "models/candidate_budget.py": {
+      "bytes": 19334,
+      "path": "models/candidate_budget.py",
+      "sha256": "1d1926e18c23f1f238d2ca519864c2a4cd935e302a3d2b8de66b17b5c3cd0d66"
+    },
+    "models/candidate_contract.py": {
+      "bytes": 5094,
+      "path": "models/candidate_contract.py",
+      "sha256": "13f664f7146eb4816cbaf9fde15d1b6e572db0949e22c319eb2420d23c1e4572"
+    },
+    "models/candidate_evaluation.py": {
+      "bytes": 9732,
+      "path": "models/candidate_evaluation.py",
+      "sha256": "26510d6bd5557421fc10bcdc28dd4b5c553b69c3a9914a3cd80457d5bc746a30"
+    },
+    "models/execution.py": {
+      "bytes": 12043,
+      "path": "models/execution.py",
+      "sha256": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba"
+    },
+    "models/predictor_eot8_owned_v1.py": {
+      "bytes": 16089,
+      "path": "models/predictor_eot8_owned_v1.py",
+      "sha256": "ef3675e69ef56b0b4ef4f543cab96b7f2bc757a64202d74500f3802ccd5dfc12"
+    },
+    "models/predictor_forward_preserving_target_v1.py": {
+      "bytes": 13112,
+      "path": "models/predictor_forward_preserving_target_v1.py",
+      "sha256": "000591f52fd66e7b1d4a78ff0c38ed265a5870e4a8463f9d810031d56752710a"
+    },
+    "models/private_collection_v1.py": {
+      "bytes": 5460,
+      "path": "models/private_collection_v1.py",
+      "sha256": "3ca50125d93781e9f9b0de6a1591626e6dc15806968b1a1af6318c5fed511464"
+    },
+    "models/training.py": {
+      "bytes": 16803,
+      "path": "models/training.py",
+      "sha256": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679"
+    },
+    "report/checks/2026-10-29-rtx3090-partial-benchmark-review.json": {
+      "bytes": 40336,
+      "path": "report/checks/2026-10-29-rtx3090-partial-benchmark-review.json",
+      "sha256": "75743db455ac0832c26b71bddf600900d21e62062a0feda76cdbd7baab41de03"
+    },
+    "report/checks/2026-11-14-forward-preserving-v2-target-review.json": {
+      "bytes": 11099,
+      "path": "report/checks/2026-11-14-forward-preserving-v2-target-review.json",
+      "sha256": "597536c9ea803ad2f6144e99a23c834c7af5404ba29dfc47cee3741b574d4e0b"
+    },
+    "report/checks/2026-11-14-missing-candidate-replay-v1-target-review.json": {
+      "bytes": 7560,
+      "path": "report/checks/2026-11-14-missing-candidate-replay-v1-target-review.json",
+      "sha256": "908fec6f57eaa6e787861bb3e5715f13dfbbe4b44587710bd018d56c2c5edd14"
+    },
+    "tests/test_private_collection_v1.py": {
+      "bytes": 9595,
+      "path": "tests/test_private_collection_v1.py",
+      "sha256": "194604a4281605b2b268c18cfbaeff77e82d770d61a63b3e9720ccf93ae6f9a3"
+    }
+  }
+}
