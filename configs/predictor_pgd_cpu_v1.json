@@ -1,0 +1,59 @@
+{
+  "CUDA_qualified": false,
+  "algorithm": "tiny-cpu-pgd2-r2-eot8-gradient-context-v1",
+  "attack": {
+    "attack_draws": 8,
+    "epsilon_255": 4,
+    "fixed_test_step_255": 1,
+    "mask_families": 2,
+    "random_start": true,
+    "restart_seed": 73,
+    "restarts": 2,
+    "scoring_draws": 4,
+    "step_is_research_calibration": false,
+    "steps": 2
+  },
+  "candidate_all_iterate_comparisons": 7,
+  "conditional_fresh_candidate_objectives_max": 4,
+  "device": "cpu",
+  "encoder_blocks": 2,
+  "fresh_replay_only_after_initial_gates_pass": true,
+  "independent_no_grad_score_forwards": 2,
+  "initial_candidate_objectives_max": 4,
+  "initial_matched_input_original_objectives_max": 4,
+  "input_bound": {
+    "atol": 2e-07,
+    "rtol": 0.002
+  },
+  "input_shape": [
+    1,
+    3,
+    4,
+    16,
+    16
+  ],
+  "kind": "local-tiny-pgd-context-contract-v1",
+  "loss_bound": {
+    "atol": 2e-06,
+    "rtol": 1e-05
+  },
+  "new_financial_hold_USD": 0,
+  "no_SSH_upload_GPU_storage_proof_install_cleanup_or_paid_work": true,
+  "no_grad_attack_forwards": 4,
+  "old_clean_cohort_reruns": 0,
+  "optimizer_and_existing_training_and_PGD_unchanged": true,
+  "per_objective_candidate_predictor_call_cap": 64,
+  "per_objective_initial_VJPs": 32,
+  "per_objective_native_call_cap": 128,
+  "predictor_blocks": 2,
+  "same_input_comparison_not_original_trajectory_equivalence": true,
+  "targets_shape": [
+    1,
+    32,
+    128
+  ],
+  "total_new_gradient_objectives_max": 12,
+  "training_or_research_qualified": false,
+  "training_policy_registered": false,
+  "university_execution_authorized": false
+}

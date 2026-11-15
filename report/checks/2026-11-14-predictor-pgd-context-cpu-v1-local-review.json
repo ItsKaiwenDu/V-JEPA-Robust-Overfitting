@@ -1,0 +1,280 @@
+{
+  "candidate_selection": {
+    "FP32_projection_max_abs": 0.015686288475990295,
+    "candidates_considered": [
+      {
+        "kind": "clean",
+        "loss": 0.8071722984313965,
+        "selected": true
+      },
+      {
+        "kind": "iterate-0",
+        "loss": 0.8068112730979919,
+        "selected": false
+      },
+      {
+        "kind": "iterate-1",
+        "loss": 0.8104981780052185,
+        "selected": true
+      },
+      {
+        "kind": "final-0",
+        "loss": 0.8136097192764282,
+        "selected": true
+      },
+      {
+        "kind": "iterate-2",
+        "loss": 0.8074925541877747,
+        "selected": false
+      },
+      {
+        "kind": "iterate-3",
+        "loss": 0.8110480904579163,
+        "selected": false
+      },
+      {
+        "kind": "final-1",
+        "loss": 0.8140268921852112,
+        "selected": true
+      }
+    ],
+    "independent_NumPy_reconstruction_passed": true,
+    "independent_original_no_grad_scoring_forwards_per_rollout": 2,
+    "original_no_grad_attack_forwards_per_rollout": 4,
+    "restart_noise_reproduces_private_seed_73_generator": true,
+    "selection_uses_independent_scoring_bank": false
+  },
+  "date": "2026-11-14",
+  "evidence_stage": "runs/pretrained/diagnostic/predictor-pgd-context-cpu-v1-20261114",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "fresh_rollout_replay": {
+    "all_returns_bitwise": true,
+    "arrays_compared": 155,
+    "fresh_process": true
+  },
+  "fresh_saved_review": "runs/pretrained/diagnostic/predictor-pgd-context-cpu-v1-20261114/replay-review.json",
+  "gate_status": {
+    "end_to_end_original_candidate_attack_performance": "not_measured",
+    "full_study_cost_and_adoption": "not_admitted",
+    "full_training": "not_authorized",
+    "optimizer_exact_recovery_and_chosen_hardware": "not_qualified_for_this_route",
+    "pretrained_GPU_iterated_same_input_and_backend": "not_qualified",
+    "research_PGD20_and_PGD50_and_strength": "not_qualified",
+    "single_pretrained_training_clip_clean_EOT8_and_fresh_replay": "previously_passed_scoped_unchanged",
+    "tiny_repeated_PGD_context_integration": "passed_scoped",
+    "training_step_calibration": "unselected"
+  },
+  "implementation": {
+    "algorithm": "tiny-cpu-pgd2-r2-eot8-gradient-context-v1",
+    "clean_all_starts_all_iterates_per_example_strict_max_selection": true,
+    "consider_before_backward": true,
+    "frozen_PGD_body_other_than_guard_and_gradient_bridge_retained_by_AST": true,
+    "global_autograd_patch": false,
+    "new_opt_in_per_iterate_context": true,
+    "no_grad_attack_clean_final_and_independent_scoring_original_and_outside_custom_context": true,
+    "one_fresh_native_loss_input_token_per_gradient": true
+  },
+  "independent_preservation_review": {
+    "new_audit_script_mode_correction": "Initial audit refused its own newly created 0644 script; refusal saved, only that script changed to 0600, then metadata audit passed. No scientific objective or historical file changed.",
+    "old_byte_mode_nsmtime_descriptor_sets_unchanged": [
+      242,
+      280,
+      135,
+      245
+    ],
+    "passed": true,
+    "prior_hashes_unchanged": 3520,
+    "review_path": "runs/pretrained/diagnostic/predictor-pgd-context-cpu-v1-20261114/independent-preservation-review.json",
+    "saved_arrays_checked": 458
+  },
+  "initial_matched_input_checks": [
+    {
+      "forward_and_native_L1_bitwise": true,
+      "gradient_sign_differences": 0,
+      "input": {
+        "atol": 2e-07,
+        "elements": 3072,
+        "failed_elements": 0,
+        "max_absolute_error": 3.4924596548080444e-10,
+        "max_tolerance_ratio": 0.0005042635402651295,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "loss": {
+        "atol": 2e-06,
+        "elements": 1,
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true,
+        "rtol": 1e-05
+      }
+    },
+    {
+      "forward_and_native_L1_bitwise": true,
+      "gradient_sign_differences": 0,
+      "input": {
+        "atol": 2e-07,
+        "elements": 3072,
+        "failed_elements": 0,
+        "max_absolute_error": 2.9103830456733704e-10,
+        "max_tolerance_ratio": 0.0007159100590970036,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "loss": {
+        "atol": 2e-06,
+        "elements": 1,
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true,
+        "rtol": 1e-05
+      }
+    },
+    {
+      "forward_and_native_L1_bitwise": true,
+      "gradient_sign_differences": 0,
+      "input": {
+        "atol": 2e-07,
+        "elements": 3072,
+        "failed_elements": 0,
+        "max_absolute_error": 4.656612873077393e-10,
+        "max_tolerance_ratio": 0.0006123991413869483,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "loss": {
+        "atol": 2e-06,
+        "elements": 1,
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true,
+        "rtol": 1e-05
+      }
+    },
+    {
+      "forward_and_native_L1_bitwise": true,
+      "gradient_sign_differences": 0,
+      "input": {
+        "atol": 2e-07,
+        "elements": 3072,
+        "failed_elements": 0,
+        "max_absolute_error": 4.656612873077393e-10,
+        "max_tolerance_ratio": 0.0006248882081589252,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "loss": {
+        "atol": 2e-06,
+        "elements": 1,
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true,
+        "rtol": 1e-05
+      }
+    }
+  ],
+  "initial_saved_review": "runs/pretrained/diagnostic/predictor-pgd-context-cpu-v1-20261114/paired-review.json",
+  "initial_totals": {
+    "all_losses_exact": true,
+    "all_native_forward_and_L1_cotangents_bitwise": true,
+    "failed_input_elements": 0,
+    "input_elements_compared": 12288,
+    "max_input_absolute_error": 4.656612873077393e-10,
+    "max_input_tolerance_ratio": 0.0007159100590970036,
+    "not_a_general_original_trajectory_equivalence": true,
+    "observed_CPU_gradient_sign_differences": 0
+  },
+  "kind": "predictor-pgd-context-cpu-v1-local-review",
+  "new_SSH_upload_university_GPU_storage_proof_install_cleanup_or_paid_work": false,
+  "new_financial_hold_or_release_USD": 0,
+  "new_gradient_objectives": {
+    "conditional_fresh_process_candidate": 4,
+    "declared_maximum": 12,
+    "further_objective_allowance": 0,
+    "initial_candidate": 4,
+    "old_clean_cohort_repeats": 0,
+    "original_at_candidate_inputs": 4,
+    "total": 12
+  },
+  "new_tests": {
+    "analytic_simulations_are_not_native_qualification": true,
+    "distinct_cold_checks_final_pass": 40,
+    "failed_only_retry": {
+      "failed": 0,
+      "passed": 1
+    },
+    "first_failure": "Incomplete saved record raised KeyError rather than the declared ValueError before array access. Corrected without model work; first log and source preserved.",
+    "first_run": {
+      "errors": 0,
+      "failed": 1,
+      "passed": 39
+    },
+    "old_successful_tests_repeated": 0
+  },
+  "new_university_authorization_or_handoff_created": false,
+  "next_step": "Prepare a separate exact bounded pretrained GPU iterated-input/native-ownership and backend scope. Do not rerun this successful CPU cohort or treat it as PGD20/PGD50, performance, optimizer or full-training admission.",
+  "ownership_and_restoration": {
+    "actual_native_roots_checkpoint_calls_inner_root_and_leaf_hooks": true,
+    "distinct_math_inner_tasks": 256,
+    "fixed_target_masks_and_parameters_unchanged": true,
+    "global_rng_unchanged": true,
+    "native_SDPA_calls": 1536,
+    "native_checkpoint_calls": 768,
+    "native_primary_calls": 768,
+    "native_scopes": 12,
+    "old_per_objective_caps_preserved": true,
+    "parameter_and_input_dot_grad_absent": true,
+    "private_F_methods_hooks_backend_flags_and_modes_restored": true
+  },
+  "passed": true,
+  "scope": {
+    "CPU_only": true,
+    "EOT_draws": 8,
+    "encoder_blocks": 2,
+    "epsilon_255": 4,
+    "fixed_test_step_255": 1,
+    "mask_families": 2,
+    "pixels_shape": [
+      1,
+      3,
+      4,
+      16,
+      16
+    ],
+    "predictor_blocks": 2,
+    "pretrained": false,
+    "restarts": 2,
+    "steps": 2,
+    "synthetic_tiny_only": true,
+    "targets_shape": [
+      1,
+      32,
+      128
+    ],
+    "test_step_is_research_calibration": false
+  },
+  "source_snapshot": "runs/pretrained/diagnostic/predictor-pgd-context-cpu-v1-20261114/sources-execution.json",
+  "unchanged": {
+    "consumed_claims_failed_parent_and_rejected_3724_entry_candidate": true,
+    "execution_policy_registry": true,
+    "optimizer_parameter_backward": true,
+    "study_and_budget_YAML": true,
+    "training_PGD5_EOT1_and_routine_EOT1": true
+  }
+}

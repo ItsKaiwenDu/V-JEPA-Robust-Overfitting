@@ -2,6 +2,47 @@
 
 ## Current stage
 
+LATEST November 14: TINY CPU PGD2/R2/EOT8 CONTEXT + FRESH ROLLOUT VERIFIED PASS.
+Read report/checks/2026-11-14-predictor-pgd-context-cpu-v1-local-review.json/md,
+docs/predictor_pgd_cpu_v1.md and configs/predictor_pgd_cpu_v1.json. New opt-in
+attacks/pgd_context_v1.py + models/predictor_pgd_cpu_v1.py; frozen PGD AST unchanged
+except tiny guard/explicit gradient-context bridge. Fresh exact native loss/input
+route per iterate, consider BEFORE backward; no global autograd patch/guard widening.
+Tiny CPU 2encoder/2predictor, [1,3,4,16,16], PGD2/R2, epsilon4/255, testalpha1/255,
+EOT8/2families. Testalpha NOT researchcalibration. EXACTLY12 NEW tiny gradients:
+4same-input-original +4candidate +ONLY-after-all-gates-PASS freshprocess4candidate.
+Both LOCAL claims consumed; no remaining objective allowance/reset/rerun/cohortrepeat.
+ALL12288inputentries pass original .002/2e-7, maxabs4.656612873077393e-10;
+loss/nativeforward/actualL1cots EXACT. Four observed CPU sign comparisons equal,
+NOT general PGD trajectory/strength equivalence. Actual12native roots/1536calls
+(768primary+768checkpoint),256distinctinnerMathGraphTasks; perobjective oldcaps
+128native/64candidate/32VJPs preserved. Actualroot/checkpoint/innerroot+leafhooks/
+privateF/methods/flags/modes/restoration checked, no parameter/input .grad, fixed
+clean target/masks/parameters and global RNG unchanged. Four ORIGINAL no-grad
+attack forwards +two independent score forwards PER rollout outside custom contexts.
+Independent NumPy savedreader reconstructs starts/allupdates/projection/7candidate
+strict perexample max; scorebank never selects. Freshprocess ALL155returns BITWISE
+candidate rollout, no original reruns. 40distinct NEW cold checks finalPASS;
+first39pass1fail(reader incomplete record KeyError), preservefailure; ONLY failed1
+rerunPASS aftercorrection. Source-initial/corrected/execution + logs retained.
+No old successful suite/scientificcohort repeated. Cold analytic simulations are
+not native qualification. Rawstage predictor-pgd-context-cpu-v1-20261114, source
+snapshot sources-execution.json. Scope CPUtiny/randomweights ONLY; no pretrained
+iteratedGPU/kernel/performance/PGD20/50/strength/optimizer/recovery/fullstudy/training
+admission. ExistingtrainingPGD5EOT1/routineEOT1/parameterbackward/registry/PGD/study/
+budgetYAML/consumedgrants/old3724rejection/oldparentfailure unchanged. No SSH/GPU/
+university/upload/helper/proof/install/cleanup/paidwork; all financecaps/holds/
+reconciliation unchanged. No new target authorization/handoff created.
+NEXT LOCAL ONLY prepare separate exact bounded pretrained GPU iterated-input/native
+ownership + backend scope; no repeat of completed CPU or clean EOT8 cohorts. Only
+AFTER concrete preparation/review, one new exact scoped university grant is needed
+for new target work. Do not ask a repeated manual hostname/nvidia-smi for local
+preparation; any later helper must use live strict guards. No current target grant.
+Do not multiply diagnostic walls into performance, infer cost/speed/adoption, or
+claim full training. Researchalpha remainsunselected; optimizer/recovery/hardware/
+full-study-cost/adoption gates remain open. User stages/commits/pushes self.
+EarlierLATEST historical.
+
 LATEST November 14: ATTACK-LOOP TRANSITION DECISION + PRIVATE LOCAL COLLECTION VERIFIED; NEXT TINY PGD INTEGRATION.
 Read report/checks/2026-11-14-predictor-attack-transition-v1-local-review.json/md,
 docs/predictor_attack_transition_v1.md and configs/predictor_attack_transition_v1.json.
