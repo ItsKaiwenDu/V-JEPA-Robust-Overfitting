@@ -1,0 +1,271 @@
+{
+  "actual_scientific_execution_in_this_step": false,
+  "allocator_bytes": 7516192768,
+  "authorized": false,
+  "automatic_retries": 0,
+  "base_contract_sha256": "c7bb7f3af5e6b9e65ac746177b657ae966e2bc50171a6e5b516e30b848252960",
+  "boundary": {
+    "draw": 0,
+    "family": 0,
+    "native_arrays": [
+      "q",
+      "k",
+      "v",
+      "output",
+      "grad_output",
+      "dq",
+      "dk",
+      "dv"
+    ],
+    "native_forward_row_index": 24,
+    "new_boundary_captures": 1,
+    "original_private_alias_hooks_graph_layout_flags_and_restoration_required": true,
+    "owner": "predictor.0",
+    "phase": "EOT8-before",
+    "source": "new original objective zero only; never historical partial/clean/component arrays",
+    "source_objective_index": 0
+  },
+  "claims": {
+    "all_numerical_native_root_checkpoint_restoration_gates_required": true,
+    "component_VJP_accuracy_qualified": false,
+    "fresh_GPU_rollout_replay_qualified": false,
+    "full_EOT8_kernel_counts_qualified": false,
+    "legacy_worker_or_backend_success_compatible": false,
+    "new_diagnostic_identity_required": true,
+    "performance_or_cost_qualified": false,
+    "representative_backend_only": true,
+    "training_or_research_admitted": false
+  },
+  "cleanup": false,
+  "coverage": {
+    "checkpoint_calls_per_owner": 16,
+    "draws": 8,
+    "families": 2,
+    "initial_math_VJPs_per_candidate": 192,
+    "legacy_full_trace_counts_not_claimed_here": {
+      "candidate_efficient_backward": 384,
+      "candidate_inner_math": 192,
+      "efficient_forward": 1152,
+      "original_efficient_backward": 576
+    },
+    "native_rows_per_objective": 1152,
+    "owners": 36,
+    "predictor_forward_rows_per_candidate": 384,
+    "primary_calls_per_owner": 16
+  },
+  "date": "2026-11-15",
+  "failure_policy": "Stop subsequent work; preserve numerical/provisional/trace evidence; no retry or old claim reset.",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "gradient_accounting": {
+    "CPU_gradient_or_FP64_reference_objectives": 0,
+    "completed_cohort_repeats": 0,
+    "extra_component_VJP_evaluations": 2,
+    "extra_component_inner_math_VJPs": 1,
+    "full_model_objectives": 8,
+    "initial_full_model_inner_math_VJPs": 768,
+    "maximum_total_evaluation_units": 10,
+    "warmups_or_untimed_profile_controls": 0
+  },
+  "held_out_pixels": false,
+  "inventory": {
+    "canonical_result_sha256": "9617cdaaecc0a0b3b18e2a93262150ac0b785124b0988cf58094957a581015ed",
+    "maximum_all_files": 1024,
+    "maximum_extra_mutable_metadata_bytes": 524288,
+    "maximum_metadata_partials": 2,
+    "maximum_simultaneous_raw_partials": 1,
+    "metadata_trace_is_shared_not_additive": true,
+    "reserved_other_files": 256,
+    "result_files": 419,
+    "unknown_result_paths": "refuse"
+  },
+  "kind": "pretrained-pgd-split-profile-local-design-v1",
+  "local_only": true,
+  "new_target_execution_permitted": false,
+  "numerical": {
+    "EOT_draws": 8,
+    "candidate": 4,
+    "families": 2,
+    "fresh_rollout_replay": false,
+    "full_model_gradient_objectives": 8,
+    "no_grad_forwards": 6,
+    "old_targets_masks_seed_selection_projection_and_37_returns_unchanged": true,
+    "profiled_full_model_objectives": 0,
+    "restarts": 2,
+    "same_input_original": 4,
+    "steps": 2
+  },
+  "numerical_bounds": {
+    "input": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "loss": {
+      "atol": 2e-06,
+      "rtol": 1e-05
+    }
+  },
+  "old_claims_or_clocks_reset": false,
+  "ordering": [
+    "storage proof",
+    "eight numerical/ownership/restoration gates",
+    "native component",
+    "forward-preserving component",
+    "combined review"
+  ],
+  "outstanding_before_target": [
+    "New hybrid native-forward/math-backward raw-correlation reader, including owned cross-thread and inner-task association.",
+    "New component route must retain exact candidate arithmetic and real root/leaf ownership; old all-math component entry is incompatible.",
+    "New numerical worker/receipts and v2 progress lifecycle must separate provisional capture from detailed profiling, including boundary-observer cleanup.",
+    "Implement/test actual typed inventory, serial partials, source/layout lineage, parent wall/RSS monitor and bounded collection.",
+    "Verify complete source package and combined scope independently before requesting one new exact university authorization."
+  ],
+  "paid_compute": false,
+  "phase_seconds": {
+    "candidate-probe": 120,
+    "finalization": 120,
+    "native-probe": 120,
+    "numerical": 1680,
+    "overhead": 120,
+    "proof": 60,
+    "setup": 180
+  },
+  "private_key_upload": false,
+  "probes": [
+    {
+      "FP64_reference_builds": 0,
+      "component_VJP_accuracy_qualified": false,
+      "correlation_rule": "recorded host/GPU links plus CPU ancestry; cross-thread roots need unique recorded forward-thread/sequence/producer binding",
+      "custom_backward": null,
+      "device": "cuda:0",
+      "dtype": "float32",
+      "efficient_backward_in_backward_phase": 1,
+      "efficient_forward_in_forward_phase": 1,
+      "full_EOT8_backend_coverage_qualified": false,
+      "inner_math_root_and_three_leaf_hooks_required": false,
+      "kernel_name_or_duration_is_identity": false,
+      "math_forward_in_backward_phase": 0,
+      "math_forward_in_forward_phase": 0,
+      "performance_qualified": false,
+      "profiled_VJP_evaluations": 1,
+      "profiled_forward_evaluations": 1,
+      "replay_workers": 0,
+      "required_positive_correlated_kernels": [
+        "efficient-forward",
+        "efficient-backward"
+      ],
+      "role": "native",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ],
+      "unprofiled_iterations": 0,
+      "warmups": 0
+    },
+    {
+      "FP64_reference_builds": 0,
+      "component_VJP_accuracy_qualified": false,
+      "correlation_rule": "recorded host/GPU links plus CPU ancestry; cross-thread roots need unique recorded forward-thread/sequence/producer binding",
+      "custom_backward": "_AttentionBackward",
+      "device": "cuda:0",
+      "dtype": "float32",
+      "efficient_backward_in_backward_phase": 0,
+      "efficient_forward_in_forward_phase": 1,
+      "full_EOT8_backend_coverage_qualified": false,
+      "inner_math_root_and_three_leaf_hooks_required": true,
+      "kernel_name_or_duration_is_identity": false,
+      "math_forward_in_backward_phase": 1,
+      "math_forward_in_forward_phase": 0,
+      "performance_qualified": false,
+      "profiled_VJP_evaluations": 1,
+      "profiled_forward_evaluations": 1,
+      "replay_workers": 0,
+      "required_positive_correlated_kernels": [
+        "efficient-forward",
+        "math-GEMM",
+        "math-softmax-forward",
+        "math-softmax-backward"
+      ],
+      "role": "forward-preserving",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ],
+      "unprofiled_iterations": 0,
+      "warmups": 0
+    }
+  ],
+  "profile": {
+    "RSS_monitor_is_not_address_space_or_instantaneous_allocation_guarantee": true,
+    "RSS_supervisor_required": true,
+    "combined_trace_bytes": 8388608,
+    "component_RSS_ceiling_bytes": 4294967296,
+    "component_wall_seconds": 120,
+    "event_limit_is_not_pre_materialization_memory_bound": true,
+    "options": {
+      "profile_memory": false,
+      "record_shapes": false,
+      "with_stack": false
+    },
+    "processed_profile_events_used": false,
+    "raw_API": "torch.profiler.profile.profiler.kineto_results",
+    "raw_event_cap": 20000,
+    "raw_file_bytes": 4194304,
+    "raw_trace_saved_before_semantic_validation": true
+  },
+  "resource": {
+    "allocated_fit_requires_live_observation": true,
+    "capture_allocation_reserve_bytes": 100663296,
+    "capture_category_caps_bytes": 2264924160,
+    "capture_ceiling_bytes": 2415919104,
+    "collection_seconds": 600,
+    "complete_metadata_including_trace_bytes": 60178432,
+    "complete_raw_bytes": 1835864112,
+    "connection_including_login_seconds": 3000,
+    "metadata_plus_mutable_partials_bytes": 60702720,
+    "proof_allocation_reserve_bytes": 33554432,
+    "proof_category_caps_bytes": 3070230528,
+    "proposed_work_seconds": 2400,
+    "raw_cap_bytes": 1879048192,
+    "raw_plus_one_16MiB_partial_bytes": 1852641328,
+    "result_files": 419,
+    "setup_ceiling_bytes": 3221225472,
+    "shared_metadata_cap_bytes": 67108864,
+    "trace_bytes_included_in_metadata": 8388608,
+    "trace_cap_bytes": 8388608,
+    "work_cap_seconds": 2400
+  },
+  "source_sha256": {
+    "configs/post_gradient_progress_v1.json": "ad2ec9c87022737a91f9db9476581f7dd58449186772dcce857bfb3e1e4c5219",
+    "configs/predictor_pgd_target_v1.json": "c7bb7f3af5e6b9e65ac746177b657ae966e2bc50171a6e5b516e30b848252960",
+    "models/post_gradient_progress_v1.py": "fd7458b29118ca6171dee3a3c99eefc0c10dd2ccd238c230ff1a84fa43a4da1a",
+    "models/predictor_forward_preserving_cpu_v1.py": "6ba308e948c0ce346512f17ef4fc11eccb542954048c859ad6c6a751db1fbb66",
+    "models/predictor_forward_preserving_target_v1.py": "000591f52fd66e7b1d4a78ff0c38ed265a5870e4a8463f9d810031d56752710a",
+    "models/predictor_pgd_progress_adapter_v1.py": "6ec07dda3d71b3f6369f6a6f4cc4b52487ddd653185a459c8bf6230b744ed22e",
+    "models/predictor_pgd_split_plan_v1.py": "cdd2729d2f05782d269a45aa4c22412dcff7b9c5d684267550eb16f59c838ba6",
+    "models/predictor_pgd_target_records_v1.py": "d2b98fe16a0d1efd997d74092be68cbbcd3f2e73eef7fb44c5fcb2d0843204e8",
+    "models/predictor_pgd_target_worker_v1.py": "0eb5b56e6e3f74bfdc53e4f1f0f5861e0f066340961fbbfc2b134cc75536f3a0",
+    "models/predictor_sdpa_component_events_v2.py": "ebde9c0f32078979cfa5920503004bb79ca697fdc05d7adacbfc59bde41f515a",
+    "models/predictor_sdpa_launch_evidence_v1.py": "c9749407f3d237050252ec7e9d4831c901df813a35b3b4a38ad8d693e0e1899f",
+    "models/predictor_sdpa_launch_evidence_v2.py": "05f99a96ca34d65c4167cdbd37f97600b14468aa08fbfe5aa9b581b72e5fdddb",
+    "models/predictor_sdpa_observer_v1.py": "5e6e00593f3befb1979b37f0fec155bb35322c9e4c196a7abe968d2f0ff68047",
+    "models/predictor_sdpa_raw_capture_v1.py": "6da98072ac5f38e1939f0d470970b7f68b6d63b7d475c23ac5d4d3e60c6ac9e4",
+    "tests/test_predictor_pgd_split_plan_v1.py": "d1849260298e111cdbe086186ce5300ba35444cefacae8dc14d2b769c2d74c77"
+  },
+  "target_runner_available": false
+}

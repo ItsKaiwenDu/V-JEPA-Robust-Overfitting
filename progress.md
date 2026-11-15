@@ -1,5 +1,21 @@
 # Research Progress Reports
 
+## 2026-11-15 — Smaller profiling scope and joint budget defined locally
+
+The local design retains eight matched EOT8 numerical gradients and proposes two
+additional attention-only backend probes on a newly observed perturbed input.
+It explicitly separates representative kernel evidence from full EOT8 coverage
+and preserves the original scientific gates. Its finite 419-result inventory and
+all work phases fit the existing storage and 40-minute envelopes on paper; actual
+target completion/allocation remains unverified.
+
+47 new cold design checks are covered after one preserved test-literal correction;
+no previously passing check or scientific cohort was rerun. Independent review
+preserves 4,510 prior hashes and old file metadata. No scientific or remote work
+ran. Next implement the hybrid native-forward/math-backward metadata reader before
+new workers or a target scope. Training qualification remains open. See the
+[local design review](report/checks/2026-11-15-pgd-split-profile-v1-local-design-review.md).
+
 ## 2026-11-15 — Post-gradient progress observation passes local simulations
 
 The local observer now separates cleanup, profiler stop, event processing and

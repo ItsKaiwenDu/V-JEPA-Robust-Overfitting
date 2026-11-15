@@ -1,0 +1,156 @@
+{
+  "actual_model_autograd_SDPA_profiler_CPU_gradients_GPU_SSH_upload_retrieval_proof_cleanup_paid_work": false,
+  "all_old_claims_remain_consumed": true,
+  "compatibility_findings": {
+    "cross_thread_custom_and_inner_GraphTask_association_must_be_explicit": true,
+    "new_bounded_component_route_and_v2_progress_lifecycle_required": true,
+    "new_hybrid_reader_required": true,
+    "old_same_family_validator_incompatible": true
+  },
+  "date": "2026-11-15",
+  "financial_caps_holds_pending_reconciliation_unchanged": true,
+  "independent_preservation": {
+    "both_old_claims_consumed_unchanged": true,
+    "byte_mode_nsmtime_checks": true,
+    "historical_descriptor_counts_verified": [
+      242,
+      280,
+      135,
+      245,
+      5,
+      3
+    ],
+    "prior_hashes_verified": 4510
+  },
+  "inventory": {
+    "canonical_result_sha256": "9617cdaaecc0a0b3b18e2a93262150ac0b785124b0988cf58094957a581015ed",
+    "maximum_all_files": 1024,
+    "maximum_extra_mutable_metadata_bytes": 524288,
+    "maximum_metadata_partials": 2,
+    "maximum_simultaneous_raw_partials": 1,
+    "metadata_trace_is_shared_not_additive": true,
+    "reserved_other_files": 256,
+    "result_files": 419,
+    "unknown_result_paths": "refuse"
+  },
+  "joint_budget": {
+    "allocated_fit_requires_live_observation": true,
+    "capture_allocation_reserve_bytes": 100663296,
+    "capture_category_caps_bytes": 2264924160,
+    "capture_ceiling_bytes": 2415919104,
+    "collection_seconds": 600,
+    "complete_metadata_including_trace_bytes": 60178432,
+    "complete_raw_bytes": 1835864112,
+    "connection_including_login_seconds": 3000,
+    "metadata_plus_mutable_partials_bytes": 60702720,
+    "proof_allocation_reserve_bytes": 33554432,
+    "proof_category_caps_bytes": 3070230528,
+    "proposed_work_seconds": 2400,
+    "raw_cap_bytes": 1879048192,
+    "raw_plus_one_16MiB_partial_bytes": 1852641328,
+    "result_files": 419,
+    "setup_ceiling_bytes": 3221225472,
+    "shared_metadata_cap_bytes": 67108864,
+    "trace_bytes_included_in_metadata": 8388608,
+    "trace_cap_bytes": 8388608,
+    "work_cap_seconds": 2400
+  },
+  "kind": "predictor-PGD-split-profile-v1-local-design-review",
+  "new_scope_limits": {
+    "full_kernel_coverage_component_VJP_accuracy_performance_cost_rollout_replay_or_training_admitted": false,
+    "legacy_full_EOT8_backend_success_compatible": false,
+    "original_numerical_native_root_checkpoint_restoration_gates_retained_in_proposal": true,
+    "representative_backend_only": true
+  },
+  "next_local_only": "Implement and test the new hybrid raw-correlation reader on synthetic metadata, including real recorded cross-thread/inner-task association. Then integrate new workers, receipts, lifecycle and resource supervision before any target proposal.",
+  "phase_seconds": {
+    "candidate-probe": 120,
+    "finalization": 120,
+    "native-probe": 120,
+    "numerical": 1680,
+    "overhead": 120,
+    "proof": 60,
+    "setup": 180
+  },
+  "proposed_future_work": {
+    "EOT_draws": 8,
+    "extra_component_VJP_evaluations": 2,
+    "extra_component_inner_math_VJPs": 1,
+    "families": 2,
+    "full_model_gradient_objectives": 8,
+    "matched_pairs": 4,
+    "new_FP64_or_CPU_gradient_objectives": 0,
+    "new_native_boundary_captures_inside_counted_objective": 1,
+    "warmups_untimed_controls_replays_or_completed_cohort_repeats": 0
+  },
+  "review_passed": true,
+  "saved_finite_inventory": {
+    "bytes": 52834,
+    "path": "runs/pretrained/diagnostic/predictor-pgd-split-design-v1-20261115/proposed-result-inventory.json",
+    "sha256": "9617cdaaecc0a0b3b18e2a93262150ac0b785124b0988cf58094957a581015ed"
+  },
+  "saved_review": {
+    "bytes": 1075,
+    "path": "runs/pretrained/diagnostic/predictor-pgd-split-design-v1-20261115/independent-local-review.json",
+    "sha256": "e40bdfb5780edd1b8878b9d8db340c3b987226899e0d70847907a3e2c704159e"
+  },
+  "saved_test_results": [
+    {
+      "bytes": 8400,
+      "path": "runs/pretrained/diagnostic/predictor-pgd-split-design-v1-20261115/pytest-01.xml",
+      "sha256": "0265bbdc126e055f99ed49483d0ce0e49608b309f9743da5f6c33577f22d06ce"
+    },
+    {
+      "bytes": 597,
+      "path": "runs/pretrained/diagnostic/predictor-pgd-split-design-v1-20261115/pytest-02.xml",
+      "sha256": "4b976883bb41abec551a9cd9e013805a46d8c51771608c7d31bc17eaa60d48d5"
+    }
+  ],
+  "scientific_qualified": false,
+  "scope": "Local-only design, finite proposed result namespace, coverage recipes and joint budget arithmetic.",
+  "source_compatibility_review": {
+    "bytes": 1854,
+    "path": "runs/pretrained/diagnostic/predictor-pgd-split-design-v1-20261115/source-compatibility.json",
+    "sha256": "d5b8c83176d34c2428ac7145d27cf60f0094c1eec10282e12c249fed9377650f"
+  },
+  "target_runner_or_authorization_ready": false,
+  "trace_policy": {
+    "RSS_monitor_is_not_address_space_or_instantaneous_allocation_guarantee": true,
+    "RSS_supervisor_required": true,
+    "combined_trace_bytes": 8388608,
+    "component_RSS_ceiling_bytes": 4294967296,
+    "component_wall_seconds": 120,
+    "event_limit_is_not_pre_materialization_memory_bound": true,
+    "options": {
+      "profile_memory": false,
+      "record_shapes": false,
+      "with_stack": false
+    },
+    "processed_profile_events_used": false,
+    "raw_API": "torch.profiler.profile.profiler.kineto_results",
+    "raw_event_cap": 20000,
+    "raw_file_bytes": 4194304,
+    "raw_trace_saved_before_semantic_validation": true
+  },
+  "validation": {
+    "actual_scientific_objectives": 0,
+    "calculator_changed_after_first_tests": false,
+    "corrected_failed_plus_one_new_check": {
+      "errors": 0,
+      "failed": 0,
+      "passed": 2,
+      "skipped": 0
+    },
+    "distinct_new_checks_covered": 47,
+    "first_failure": "Test expected 3028 MiB instead of the correct 2928 MiB proof category sum.",
+    "first_run": {
+      "errors": 0,
+      "failed": 1,
+      "passed": 45,
+      "skipped": 0
+    },
+    "initial_and_corrected_sources_logs_preserved": true,
+    "previously_passing_checks_repeated": 0,
+    "prior_completed_cohorts_repeated": 0
+  }
+}

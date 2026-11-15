@@ -2,6 +2,49 @@
 
 ## Current stage
 
+LATEST November 15: SPLIT-PROFILE LOCAL DESIGN VERIFIED; NO TARGET GRANT READY.
+Read report/checks/2026-11-15-pgd-split-profile-v1-local-design-review.json/md,
+docs/predictor_pgd_split_profile_v1.md and configs/predictor_pgd_split_profile_v1.json.
+New pure-STDLIB predictor_pgd_split_plan_v1 calculates exact proposed result
+inventory/coverage/time/storage; NO target runner or authorization. Proposed NEW
+scope:8full-model matched EOT8 gradients(4original+4candidate), NO full-model
+detailedtrace; actual firstORIGINAL perturbedobjective0 predictor.0 draw0family0
+row24 boundary captures8native arrays insidealready-countedgradient; afterALL8
+numerical/native/restorationPASS,2fresh serial componentVJP probes on SAME new
+canonicalQKV/cot/layout. NativeefficientF/B vsnativeefficientF+ownedcustommathB.
+These2EXTRAcomponentVJPs (oneadditionalinnermathVJP) MUST beexplicit in FUTURE
+scope; NO old8gradientgrant reuse. ZeroFP64/CPUgradient/warmup/untimed/replay/
+completedcohortrepeat. Newdiagnosticidentity/limitedREPRESENTATIVEbackend claim;
+NOT oldfullEOT8kernelcounts/componentaccuracy/performance/cost/training admission.
+All numerical/native/root/checkpoint/flags/modes/method/privateF/hooks/.grad/
+version/restoration gates retained in proposed new integration. Oldsources frozen.
+419finite resultpaths; raw+partial1,852,641,328B<1792MiB, metadataINCLUDING2traces+
+provisional/journals/proof/logs/partials60,702,720B<64MiB. Trace8MiBshared,4MiB/file,
+20kevents, no truncation. 2.25GiBcapture/3GiBsetup,2.5GiBproof,7GiBallocator and
+strict live guards unchanged. Actualallocated/free/inode fit NOT proved by plan.
+40minPHASES180setup+60proof+1680numerical+120+120components+120final+120overhead;
+num28min vsold32, unknownactualfit; no deadlineextension.10minsameSSHcollection.
+Proposed4GiBcomponentRSS supervision NOT yetimplemented/notinstantaneousASbound.
+47DISTINCT new COLDdesign checks covered:first45pass1testliteralFAIL(3028vs2928MiB
+proofsum); calculatorUNCHANGED. ONLYcorrectedfailed1+newindependent1 nextPASS2.
+Initial/correctedsources/logskept; no passingchecks/oldscientificcohorts repeated.
+IndependentSTDLIB savedreviewPASS4510priorhashes+242/280/135/245/5/3 byte/mode/nsmtime
+oldgroups; botholdclaimsCONSUMED. Raw predictor-pgd-split-design-v1-20261115.
+NO actualmodel/autograd/SDPA/profiler/CPUgrad/GPU/SSH/proof/retrieval/cleanup/paidwork.
+NEXT LOCAL ONLY implement/test NEW hybrid raw-correlation reader on synthetic
+metadata. Oldsame-family backendreader and associated_regions explicitly reject
+nativeF/mathB; doNOTreuse/relax them or validate by names/time alone. Need exact
+recordedhost/GPU links, actualCPU ancestry, unique recorded forward-thread/
+sequence/producer binding forcross-thread customouter/innermathGraphTasks. Retain
+strict overhead/GPUannotation distinctions/rawrows; ambiguouslinksREFUSE. Then
+new boundedcomponentroute mustpreservefrozencandidatearithmetic/realroot+leafproof;
+new numerical/progress-v2/inventory/parentwallRSS/collection integration before
+concreteexactfutureuniversityscope. No newtargetapproval/helperready; no repeated
+manualGPUstatus/localmodel/grad/profiler/cohorts/refs/warmups/SSH/GPU/proof/cleanup/
+paidwork now. OldtimeoutcauseUNKNOWN; originalbackwardRETURNED; partialsUNADMITTED.
+All financialcaps/holds/reconciliation,oldrejections/frozenpasses/traininggates
+unchanged. Userstages/commits/pushes self; neverstage/commit/push. Earlierhistorical.
+
 LATEST November 15: LOCAL POST-GRADIENT OBSERVER VERIFIED; NO TARGET GRANT READY.
 Read report/checks/2026-11-15-post-gradient-progress-v1-local-review.json/md and
  docs/post_gradient_progress_v1.md. New stdlib post_gradient_progress_v1 + unbound
