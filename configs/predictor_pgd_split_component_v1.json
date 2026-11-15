@@ -1,0 +1,128 @@
+{
+  "actual_CUDA_execution_admitted": false,
+  "actual_model_autograd_SDPA_profiler_CPU_gradient_GPU_SSH_upload_proof_retrieval_cleanup_paid_work": false,
+  "backend_qualified": false,
+  "binding_fields": [
+    "design_sha256",
+    "control_sha256",
+    "boundary_sha256",
+    "probe_index"
+  ],
+  "bindings_lineage_authenticated": false,
+  "canonical_lineage_authenticated": false,
+  "compiler_context": {
+    "arithmetic_AST_and_compiled_code_exact": true,
+    "code_comparison_excludes_only_file_line_position_metadata": true,
+    "copied_import_declarations": 3,
+    "executable_import_opcodes": 0,
+    "guard": "literal False"
+  },
+  "date": "2026-11-15",
+  "design": {
+    "path": "configs/predictor_pgd_split_profile_v1.json",
+    "sha256": "c5daae30cbe4043cf4d5265de2a2a7420d015ab1e244cc3d74fcc93b5f0186af"
+  },
+  "domain": {
+    "QKV_distinct_leaf_objects": true,
+    "device": "cuda:0",
+    "dtype": "float32",
+    "layouts_alias_groups_offsets_versions_bytes_preserved": true,
+    "max_backing_bytes": 16777216,
+    "positive_strides_and_actual_storage_extent": true,
+    "shape": [
+      1,
+      12,
+      2048,
+      32
+    ]
+  },
+  "fakes": {
+    "evidence_origin": "FAKE-ENGINE-SIMULATION",
+    "graph_IDs": [
+      101,
+      202
+    ],
+    "opaque_byte_labels_only": true,
+    "real_arrays_or_gradients_created": false
+  },
+  "financial_caps_holds_pending_reconciliation_unchanged": true,
+  "frozen_arithmetic_sources": {
+    "models/predictor_forward_preserving_cpu_v1.py": "6ba308e948c0ce346512f17ef4fc11eccb542954048c859ad6c6a751db1fbb66",
+    "models/predictor_forward_preserving_target_v1.py": "000591f52fd66e7b1d4a78ff0c38ed265a5870e4a8463f9d810031d56752710a"
+  },
+  "future_worker_limits_not_enforced_by_this_source_builder": {
+    "GPU_allocator_bytes": 7516192768,
+    "component_RSS_bytes": 4294967296,
+    "component_wall_seconds": 120
+  },
+  "kind": "pgd-split-component-local-lifecycle-v1",
+  "lifecycle": {
+    "candidate_additional_math_forward_and_inner_VJP": 1,
+    "candidate_inner_graph_distinct_from_outer": true,
+    "candidate_inner_leaf_hooks": 3,
+    "candidate_inner_root_calls": 1,
+    "canonical_tokens_public_private_paths_flags_modes_RNG_grad_hooks_checked": true,
+    "claim_consumed_before_work": true,
+    "create_graph": false,
+    "creator_public_entry_exit_actual_graph_ID_checks": true,
+    "failed_cleanup_can_leave_handles_until_isolated_worker_exit": true,
+    "failure_or_incomplete_scope_never_route_complete": true,
+    "first_order_only": true,
+    "forward_calls": 1,
+    "frozen_inner_cleanup_loop_unchanged": true,
+    "one_route_per_fresh_process_namespace": true,
+    "outer_VJP_calls": 1,
+    "outer_all_handle_removals_attempted_on_error": true,
+    "outer_input_leaf_hooks": 3,
+    "outer_root_calls": 1,
+    "ownership_snapshot_max_bytes": 65536,
+    "retain_graph": false,
+    "route_kind": "pgd-split-one-attention-route-v1"
+  },
+  "local_only": true,
+  "new_checks": {
+    "corrected_run": {
+      "checks": 72,
+      "errors": 0,
+      "failures": 0,
+      "passed": 72,
+      "skips": 0
+    },
+    "distinct": 72,
+    "first_run": {
+      "checks": 66,
+      "errors": 0,
+      "failures": 1,
+      "passed": 65,
+      "skips": 0
+    },
+    "historical_scientific_cohorts_or_suites_repeated": false,
+    "new_regressions_in_corrected_run": 6,
+    "previously_passing_checks_repeated": 65,
+    "reason_for_affected_rechecks": "generated compiler import context changed instructions; boundary restoration guards also strengthened",
+    "total_executions": 138
+  },
+  "new_target_authorization_ready": false,
+  "next_local_only": "Integrate source-only component route and hybrid reader into new bounded numerical/progress-v2/inventory/parent wall-RSS/collection lifecycle using cold AST and simulated tests, before one concrete future scoped university proposal.",
+  "old_claims_grants_sources_rejections_partial_admissions_unchanged": true,
+  "proposed_runtime": {
+    "CUDA_build": "12.8",
+    "actual_runtime_observed": false,
+    "host": "linux10603",
+    "numpy": "2.4.6",
+    "python": "3.11.17",
+    "system": "Linux",
+    "torch": "2.8.0+cu128"
+  },
+  "raw_stage": "runs/pretrained/diagnostic/predictor-pgd-split-component-v1-20261115",
+  "runtime_resource_supervisor_implemented": false,
+  "scientific_qualified": false,
+  "source_builder": "prototype returns an unbound AST; no runnable scientific namespace, worker or helper",
+  "sources": {
+    "models/predictor_pgd_split_component_v1.py": "0ccb44c9978cfd352c04619abfd450e16e1c91c529df4a82ce63f4017b1e0533",
+    "tests/test_predictor_pgd_split_component_v1.py": "eb7ade7a4e9f02a7c6180eb365f78ce6a6d275006f2cb8bd14d24b5a9d1b8ffd"
+  },
+  "target_runner_available": false,
+  "training_admitted": false,
+  "worker_complete": false
+}

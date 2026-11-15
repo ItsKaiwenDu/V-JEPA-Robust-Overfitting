@@ -1,0 +1,84 @@
+{
+  "actual_model_autograd_SDPA_profiler_CPU_gradient_GPU_SSH_proof_retrieval_cleanup_paid_work": false,
+  "all_executable_import_opcodes": 0,
+  "all_scientific_backend_CUDA_worker_lineage_training_admissions": false,
+  "arithmetic": {
+    "_Attention.backward": {
+      "AST_sha256": "09b9cfea9755885f971c6d157f662d5855f5eb90486de0f1b4f35630f0af4150",
+      "compiled_body_sha256": "70b853109dd564a037362fdf2202458882038561d24b1fc8ade6ad1c19b4d263",
+      "exact": true
+    },
+    "_Attention.forward": {
+      "AST_sha256": "6dca15060b6ea1e6b5f9e830c0c1692b71300045288e22c94156a313e944f558",
+      "compiled_body_sha256": "dfac44757ec0c353195ca18ca26f2dd5e94331ac1e64aa163ccdb8d7b4bf6eb6",
+      "exact": true
+    },
+    "_OriginalForwardMathVJP.backward": {
+      "AST_sha256": "063000055e7c4a08df7d096fd8c863fa18dc2c963e40235f09a63a2e96ef642b",
+      "compiled_body_sha256": "4f0c6c829f3a755df5228ec84738295a10bb543358568e4c37c56af84d1a739a",
+      "exact": true
+    }
+  },
+  "compiled_comparison_excludes_only_file_line_position_metadata": true,
+  "compiled_comparison_interpreter": "3.11.16 (main, Aug 12 2026, 23:03:19) [Clang 17.0.0 (clang-1700.6.4.2)]",
+  "compiler_imports_in_literal_false_branch": 3,
+  "date": "2026-11-15",
+  "financial_caps_holds_pending_reconciliation_unchanged": true,
+  "generated_source_sha256": "21d273ef350ba2ddc491c89807a636842e7485b2cbbc5652ace53b0c9b1f2c3f",
+  "historical_byte_mode_nsmtime_descriptor_counts": [
+    242,
+    280,
+    135,
+    245,
+    5,
+    3
+  ],
+  "kind": "pgd-split-component-v1-independent-local-review",
+  "next_local_only": "Integrate source-only component route and hybrid reader into new bounded numerical/progress-v2/inventory/parent wall-RSS/collection lifecycle using cold AST and simulated tests, before one concrete future scoped university proposal.",
+  "old_claims_still_consumed": true,
+  "old_partial_arrays_unadmitted_and_later_timeout_cause_unknown": true,
+  "prior_hashes_verified": 4583,
+  "result": "PASS",
+  "review_mode": "fresh stdlib-only saved evidence/source/compiled-code audit; no project import, test rerun, fake callback rerun or scientific execution",
+  "runtime_wall_RSS_allocator_supervisor_implemented": false,
+  "saved_explicit_fake_engine_routes": {
+    "failed": 24,
+    "real_GraphTasks_or_arrays_or_gradients_observed": false,
+    "roles": {
+      "forward-preserving": 3,
+      "native": 3
+    },
+    "successful": 6
+  },
+  "source_pins": {
+    "configs/predictor_pgd_split_component_v1.json": "e3e844cb0765fef3bbb253fde8522f1d33e8771a4b13f092787998e3efac2154",
+    "docs/predictor_pgd_split_component_v1.md": "e2e4337814f5d812b9de68cd7800b81ceea818abe0b6682c85192e1e0863de66",
+    "models/predictor_pgd_split_component_v1.py": "0ccb44c9978cfd352c04619abfd450e16e1c91c529df4a82ce63f4017b1e0533",
+    "tests/test_predictor_pgd_split_component_v1.py": "eb7ade7a4e9f02a7c6180eb365f78ce6a6d275006f2cb8bd14d24b5a9d1b8ffd"
+  },
+  "target_runner_helper_or_authorization_ready": false,
+  "tests": {
+    "distinct": 72,
+    "executions": 138,
+    "initial_failure_and_both_source_snapshots_preserved": true,
+    "new_regressions": 6,
+    "previously_passing_checks_repeated_after_implementation_change": 65,
+    "prior_passing_test_bodies_unchanged": true,
+    "runs": [
+      {
+        "checks": 66,
+        "errors": 0,
+        "failures": 1,
+        "passed": 65,
+        "skips": 0
+      },
+      {
+        "checks": 72,
+        "errors": 0,
+        "failures": 0,
+        "passed": 72,
+        "skips": 0
+      }
+    ]
+  }
+}

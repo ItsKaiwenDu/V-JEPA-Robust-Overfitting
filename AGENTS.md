@@ -2,6 +2,49 @@
 
 ## Current stage
 
+LATEST November 15: COMPONENT ROUTE/LIFECYCLE COLD-SIMULATED CHECKS VERIFIED.
+Read report/checks/2026-11-15-pgd-split-component-v1-local-review.json/md and
+ docs/predictor_pgd_split_component_v1.md +configs/predictor_pgd_split_component_v1.json.
+New predictor_pgd_split_component_v1.prototype returns UNBOUND AST ONLY: one
+native forward/outerVJP, hybrid additionallyone frozen publicmath forward/innerVJP.
+FrozenCPU backward +target_Attention forward/backward bodies EXACT AST/compiled
+code (inclnestedconst/closure/signature/flags/stack/exceptiontable;onlyfile/line/
+position ignored). LocalcompilePython3.11.16, NOTactualtargetruntimeobservation.
+Initial65PASS/1FAIL: missing importedmodule COMPILERcontext changedinstructions.
+Corrected3frozen declarations in literalifFalse preservecontext, ZEROexecutable
+importopcodes/allcodeobjects; no arithmetic/gate relaxation. Builder stdlibONLY,
+no Torch/NumPy runtime import. Initialfailure/diagnostic+bothsourcesnapshotskept.
+72DISTINCT NEWchecks covered, corrected72PASS/0fail/error/skip. 138executions:
+65earlierpassingchecks repeated BECAUSEgeneratedinstructions/boundaryguards changed;
+6newregressions; oldpassingtestbodies unchanged. No historicalsuite/cohort repeat.
+ExplicitFakeTensor opaque bytes+metadata ONLY,no realarrays/gradients/GraphTasks.
+Sixsuccessful+24failed FAKE-ENGINE-SIMULATION snapshots: outerfake101 root+3leaves,
+hybrid distinctinnerfake202 root+3leaves. Same/crosscallbackthread cases retained.
+Exacttokens/layout/alias/bytes/storageextent/version/.grad,originalflags/modes/RNG,
+public/privatefunction paths/creatorPIDthread/firstorder/singleuse+namespaceclaim
+checked. 64KiBsnapshot refusesnottruncates. ALLscientific/backend/CUDA/worker/
+lineage/training admissionsFALSE evenroutecomplete; binding syntax NOTauthlineage.
+Outerhook cleanup attemptsallhandles. InnercleanupEXACT frozenloop; injectedinner
+removefailure CANleave laterhandleslive; routefails, futureisolatedworkerMUSTexit.
+No successfulcleanupclaim/automaticretry/reset fromthatfailure. Oldfullmodel
+standalone refusals/caps unchanged; newcomponentkind notoldscientificadmission.
+IndependentfreshSTDLIB savedaudit PASS4583priorhashes +242/280/135/245/5/3 byte/
+mode/nsmtime groups, all3arithmeticbodies exact; no projectimport/testrerun/fake
+callbackrerun/actualscience/remote. Raw predictor-pgd-split-component-v1-20261115.
+NEXT LOCAL ONLY newnumerical/progress-v2/inventory/componentworker+hybridreader/
+parentwallRSS/profilerstop/receipts/collection integration +sourcepackage using
+cold/AST/simulatedtests. Canonicalboundaryreconstruction/sourceauth andproposed
+120s/4GiBRSS/7GiBallocator runtime supervisor NOTimplemented bythisbuilder.
+No targetrunner/helper/authorizationready. No actualmodel/tensor/autograd/SDPA/
+profiler/newCPUorGPUgrad/cohorts/references/warmups/SSH/upload/proof/retrieval/
+cleanup/paidwork now. NeverrepeatmanualGPUstatus forlocalwork oraskscopeyet.
+Originalsplitdesign c5daae30cbe4043cf4d5265de2a2a7420d015ab1e244cc3d74fcc93b5f0186af
+FROZEN:8fullgrad+2EXTRAcomponentVJPs,representativebackendONLY,28minnumerical/
+40minwork+10mincollection. OldgrantsCONSUMED; oldoriginalbackwardRETURNED, later
+exacttimeoutcauseUNKNOWN, partialsUNADMITTED. Frozenpasses/rejections/finances/
+caps/holds/pendingreconciliation/traininggates unchanged. Usercommits/pushes self;
+neverstage/commit/push. EarlierLATEST historical.
+
 LATEST November 15: HYBRID METADATA READER VERIFIED; NO TARGET GRANT READY.
 Read report/checks/2026-11-15-pgd-split-backend-v1-local-reader-review.json/md,
 docs/predictor_pgd_split_backend_v1.md +configs/predictor_pgd_split_backend_v1.json.

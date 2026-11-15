@@ -1,5 +1,24 @@
 # Research Progress Reports
 
+## 2026-11-15 — Component route passes source and lifecycle simulations
+
+The new unbound component route preserves exact frozen arithmetic and checks one
+outer root with three leaves, plus a distinct inner math task for the candidate.
+Original tokens/layouts/aliases/versions, public/private paths, flags, RNG, hook
+cleanup and single use remain guarded. It creates no runnable target worker.
+
+All 72 distinct new checks are covered. The first run had 65 passes and one
+compiler-context failure; preserving the frozen nonexecuting import declarations
+restored exact bytecode. The corrected implementation passes 72 checks, including
+six new regressions. 65 passing checks were repeated because implementation
+instructions/guards changed; no historical suite or scientific cohort repeated.
+The failure, source snapshots and explicitly labeled fake receipts remain saved.
+Independent saved-file review verifies 4,583 prior hashes and historical file
+metadata. No actual scientific or remote work ran. Next integrate the bounded
+worker, progress, inventory, supervision and collection using source/simulation
+checks. Target authorization and training qualification remain pending. See the
+[local component review](report/checks/2026-11-15-pgd-split-component-v1-local-review.md).
+
 ## 2026-11-15 — Hybrid backend metadata reader passes synthetic checks
 
 The local reader now separates native forward, custom outer backward and inner
