@@ -2,6 +2,55 @@
 
 ## Current stage
 
+LATEST November 14: MISSING-REPLAY REFERENCE CAPSULE/LINEAGE READER VERIFIED LOCALLY; SCOPE UNARMED.
+Read report/checks/2026-11-14-predictor-replay-capsule-v1-local-review.json/md,
+docs/predictor_replay_capsule_v1.md and configs/predictor_missing_replay_scope_v1.json.
+New standard-library capsule reader + localbuilder + focusedtests. 72arrayaliases
+404,104,200B deduplicate to37REGULAR single-link files214,635,140B; NOhard/symlinks.
+10originalworker/marker/proof records2,666,936B UNCHANGED;7lineagefiles236,484B+
+manifest74,784B =>55files217,613,344B. Exactoldsource descriptors/headers/control/
+mode/replay preserved. Onlyoriginal1(worker2)+candidate0(worker1) admitted; original0
+remainsoldaudit; partialcandidate3 NEVERreference. Sourcecontrol8b22bf... consumed.
+Reader closedtree+privateowner+sameanchoreddevice+NOFOLLOWparentFDs+bytes/hash/nsmtime/
+NPYliteraltype/shape/extent; no tensor/modelimports or calculation. Exactfrozencold
+load codeobject privateIOnamespace ONLYPath/read/sha remap; originalrecords/global/
+numerical/scope/marker predicates unchanged. Oldsourcecontrolnevernewgrant. New
+executionbinding requiresdistinctproposalhash,revalidatesrefs,alwaysexecutionfalse/
+authorizationrequired. Historicalauthorization+consumedclaim ONLYlineage files.
+Firstgzip6+packet135,017,852B EXCEEDED128MiBby800,124B, retained. Gzip9sameexact55
+members116,903,177B+packet17,192,095B=134,095,272B FITSunchanged134,217,728B cap;
+122,456BheadroomONLY. Archive d3853c4d57679d76b6f452ca0ef0ccd7125cd3c9e639f60e81b32a810e1c91aa;
+manifest8107d13d5c663102f6e5e85dc19a5f6dea52bb12054a57d5957a3d12720a67fd.
+34focusedchecks firstsuitePASS;then2NEWsame-devicechecksPASSafterguardhardening,
+no firstsuite/science repeat. 36distinct0fail/error/skip. ActualsavedCUDAcoldreceipts,
+Torch/NumPyblocked subprocess, aliases/identity/partial/link/root/NPY/hash/nsmtime/
+archives covered. Foreigndevstats EXPLICITsimulation, noLinuxmountqualification.
+IndependentSTDLIBsavedreview NOmodel/capsuleimport/process/network/extraction verifies
+2393priorhashes+280/135/245oldbyte/mode/nsmtime descriptors unchanged. Three source
+stages/2testlogs/firstover-capartifactpreserved. Rawstage predictor-replay-capsule-
+v1-20261114/;sealed-inputs.json protects stage/currentnewfiles/oldpins.
+Separate STRUCTURALscope+REFERENCE-BINDING only: authorizedFALSE/executablehandoff
+FALSE/resourcesfinalizedFALSE/approvalrequestreadyFALSE. NoAUTH/ATTEMPT/workerresult/
+helper/SSH/upload/proof/science/install/cleanup/paidwork. InitialnumericalPASS,
+originalreplayexact,candidatefreshreplayOPEN,parentFAILED,old3724/research/training/
+financecaps/holds/pendingreconciliation/477.362277soldwork unchanged.
+NEXT LOCAL ONLY implementSEPARATEone-candidatereplay entry+newresult/controlkind+
+boundedoperator/sameSSHclient. UsecompletecapsulerefsunderOLDsourcecontrol but
+newworkerresultunderDISTINCTnewexecutioncontrol. NEVERsourceoldcontrolasnewgrant,
+neverrewriteoldmarkers/promotepartial/reruncompletedcohort. Integratestrictobserver
+withoutchangingfrozeninventorypredicates/return/refusal. Testcoldactualwiring,
+identity/reference/order/failure/collection boundaries LOCALLY; no repeatpassing
+scientificobjectives. MeasureFINALbootstrap/overlays/extraction/category/allocated
+blocks/proofoverlap/metadata/transport beforefinalscope; tightinputheadroomdoesnot
+provewholeattemptfit. Old64MiBgenericfilefallbackrejects116,903,177Barchive; exact
+newinputarchivefilename/extentboundneedsreview; scientificchild16MiBunchanged.
+Explicitmanifest-boundhistoricalNPYrawpathpolicy mustshare
+unchangedrawcap; historical/newrecords sharemetacap. Don'tblindlyreuseoldclassifier.
+OnlyAFTERcompleteconcreteprep+review askONEnewexactscoped universityapproval. DoNOT
+askmanualGPU/status forlocalwork, agentmustnotSSH/executeattendedhelper; no paid/
+heldout/install/cleanup/retrieval orspentgrantreset. Usercommits self;neverstage/
+commit/push. EarlierLATEST historical.
+
 LATEST November 14: STRICT INVENTORY REFUSAL OBSERVER VERIFIED LOCALLY; ONE-REPLAY PLAN INERT.
 Read report/checks/2026-11-14-scratch-inventory-observer-v1-local-review.json/md,
 docs/scratch_inventory_observer_v1.md and configs/predictor_missing_replay_plan_v1.json.

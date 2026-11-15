@@ -1,0 +1,173 @@
+{
+  "approval_request_ready": false,
+  "archives": [
+    {
+      "bytes": 117825757,
+      "member_bytes": 217613344,
+      "members": 55,
+      "path": "runs/pretrained/diagnostic/predictor-replay-capsule-v1-20261114/build-first/predictor-replay-reference-v1.tar.gz"
+    },
+    {
+      "bytes": 116903177,
+      "member_bytes": 217613344,
+      "members": 55,
+      "path": "runs/pretrained/diagnostic/predictor-replay-capsule-v1-20261114/predictor-replay-reference-level9.tar.gz"
+    }
+  ],
+  "array_aliases": 72,
+  "candidate_fresh_replay_open": true,
+  "capsule_extracted_member_bytes": 217613344,
+  "capsule_local_allocated_file_bytes": 217804800,
+  "capsule_manifest": {
+    "bytes": 74784,
+    "path": "runs/pretrained/diagnostic/predictor-replay-capsule-v1-20261114/build-first/capsule/manifest.json",
+    "sha256": "8107d13d5c663102f6e5e85dc19a5f6dea52bb12054a57d5957a3d12720a67fd"
+  },
+  "date": "2026-11-14",
+  "distinct_new_boundary_checks": 36,
+  "exact_new_input_archive_file_bound_requires_review": true,
+  "final_bootstrap_operator_and_category_accounting_pending": true,
+  "financial_caps_and_holds_unchanged": true,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "focused_suites": [
+    {
+      "errors": 0,
+      "failures": 0,
+      "file": "pytest-first.xml",
+      "skipped": 0,
+      "tests": 34
+    },
+    {
+      "errors": 0,
+      "failures": 0,
+      "file": "pytest-device.xml",
+      "skipped": 0,
+      "tests": 2
+    }
+  ],
+  "historical_source_control_sha256": "8b22bf0905ec0c87f6551376275e5c34542b8136cfdd2f555e0bbc39209c461e",
+  "independent_review": {
+    "bytes": 2174,
+    "path": "runs/pretrained/diagnostic/predictor-replay-capsule-v1-20261114/independent-review.json",
+    "sha256": "1141877ff67dc8d204ef3f0e795433925849b01390532d567c41b6dd2fb09040"
+  },
+  "independent_review_log": {
+    "bytes": 143,
+    "path": "runs/pretrained/diagnostic/predictor-replay-capsule-v1-20261114/independent-review-first.log",
+    "sha256": "ec13a3a913452960b6b76b4f9120f72e0e68880526a6d816d56f2284a3ef5bc4"
+  },
+  "independent_review_source": {
+    "bytes": 12447,
+    "path": "runs/pretrained/diagnostic/predictor-replay-capsule-v1-20261114/review_saved.py",
+    "sha256": "43ea610051acafc7328e7007924a3fd2074f66f9e798a5e7e21f9ada78212831"
+  },
+  "independent_review_uses_stdlib_saved_files_only": true,
+  "initial_archive_plus_packet_over_cap_bytes": 800124,
+  "initial_measurement": {
+    "bytes": 2447,
+    "path": "runs/pretrained/diagnostic/predictor-replay-capsule-v1-20261114/build-first/measurements.json",
+    "sha256": "6458c34d21ec08d00d8a488b2522f826140123fb5ae530256d3bf2cbe449694e"
+  },
+  "input_headroom_bytes": 122456,
+  "kind": "predictor-replay-capsule-v1-local-review",
+  "logical_array_alias_bytes": 404104200,
+  "new_archive_exceeds_old_generic_64MiB_per_file_fallback": true,
+  "new_authorization_attempt_helper_or_result_created": false,
+  "new_connections_upload_proof_install_cleanup_or_paid_work": false,
+  "new_control_proposal_sha256": "867a2752af7318ccd7609d4a912e0899e5a6724e201751a9171b8ae5bd7c33ef",
+  "new_model_GPU_or_reference_calculations": false,
+  "new_scientific_or_remote_work": false,
+  "new_target_execution_permitted": false,
+  "next_local_step": "Implement and verify a separate one-candidate-replay result/worker/operator/client with explicit source-vs-new-control identity, strict inventory observation and final measured resource accounting. Only then prepare one exact scoped approval request; no target work now.",
+  "old_parent_failed": true,
+  "old_parent_work_seconds_charged_not_reset": 477.3622766463086,
+  "old_source_control_distinct_from_proposed_execution_identity": true,
+  "old_successful_scientific_suites_repeated": false,
+  "old_target_descriptors_unchanged": [
+    280,
+    135,
+    245
+  ],
+  "original_headers_markers_proofs_and_source_descriptors_unchanged": true,
+  "original_plan": {
+    "bytes": 40126,
+    "path": "configs/predictor_missing_replay_plan_v1.json",
+    "sha256": "2ca7e4f278198e483cf28ba8d8b35b715bf466cea37ff845f0238888c021c509"
+  },
+  "partial_candidate_not_admitted": true,
+  "passed": true,
+  "prior_sealed_hashes_unchanged": 2393,
+  "proposed_new_original_workers": 0,
+  "proposed_scientific_workers": 1,
+  "reference_binding": {
+    "bytes": 1092,
+    "path": "runs/pretrained/diagnostic/predictor-replay-capsule-v1-20261114/REFERENCE-BINDING.json",
+    "sha256": "1b3897c07e1d943111da2e6bb5d72b695ca591d2ffa6071830f67a3715dbe019"
+  },
+  "reference_proof_bytes": 2666936,
+  "regular_capsule_members": 55,
+  "resources_finalized": false,
+  "scope_unarmed_and_incomplete_no_approval_request_ready": true,
+  "sealed_inputs": "runs/pretrained/diagnostic/predictor-replay-capsule-v1-20261114/sealed-inputs.json",
+  "selected_archive": {
+    "bytes": 116903177,
+    "path": "runs/pretrained/diagnostic/predictor-replay-capsule-v1-20261114/predictor-replay-reference-level9.tar.gz",
+    "sha256": "d3853c4d57679d76b6f452ca0ef0ccd7125cd3c9e639f60e81b32a810e1c91aa"
+  },
+  "selected_archive_plus_packet_bytes": 134095272,
+  "selected_archive_sha256": "d3853c4d57679d76b6f452ca0ef0ccd7125cd3c9e639f60e81b32a810e1c91aa",
+  "selected_compression_measurement": {
+    "bytes": 228,
+    "path": "runs/pretrained/diagnostic/predictor-replay-capsule-v1-20261114/compression-9.json",
+    "sha256": "3b2954d04cd64c6f161ddb76662aac69010047b9b742313604da11d7a3281f6e"
+  },
+  "selected_manifest_sha256": "8107d13d5c663102f6e5e85dc19a5f6dea52bb12054a57d5957a3d12720a67fd",
+  "source_authorization_is_consumed_historical_lineage_only": true,
+  "source_snapshots": [
+    "runs/pretrained/diagnostic/predictor-replay-capsule-v1-20261114/source-first",
+    "runs/pretrained/diagnostic/predictor-replay-capsule-v1-20261114/source-before-tests",
+    "runs/pretrained/diagnostic/predictor-replay-capsule-v1-20261114/source-device-hardening"
+  ],
+  "sources": {
+    "configs/predictor_missing_replay_scope_v1.json": {
+      "bytes": 12449,
+      "path": "configs/predictor_missing_replay_scope_v1.json",
+      "sha256": "867a2752af7318ccd7609d4a912e0899e5a6724e201751a9171b8ae5bd7c33ef"
+    },
+    "docs/predictor_replay_capsule_v1.md": {
+      "bytes": 7107,
+      "path": "docs/predictor_replay_capsule_v1.md",
+      "sha256": "6a0458361f1ec93cc266e732b2f8e1f159ee8fc0ac7bacaa9691568b6ef97b7e"
+    },
+    "models/predictor_replay_capsule_v1.py": {
+      "bytes": 20447,
+      "path": "models/predictor_replay_capsule_v1.py",
+      "sha256": "54fa561d6dab961ac9fcffdb4dc8419c0a10c0056521c9597bf4adf3363538c6"
+    },
+    "scripts/prepare_predictor_replay_capsule_v1.py": {
+      "bytes": 8176,
+      "path": "scripts/prepare_predictor_replay_capsule_v1.py",
+      "sha256": "53fb315f244f0950d1d6d3f408c0385075e9559539e23531b7cb9b1425c01c39"
+    },
+    "tests/test_predictor_replay_capsule_v1.py": {
+      "bytes": 11807,
+      "path": "tests/test_predictor_replay_capsule_v1.py",
+      "sha256": "5413db6056f86cf0c3291bcd99307231364467886cea58659549b139cf6a49c4"
+    }
+  },
+  "unchanged_input_cap_bytes": 134217728,
+  "unique_array_file_bytes": 214635140,
+  "unique_regular_array_files": 37
+}

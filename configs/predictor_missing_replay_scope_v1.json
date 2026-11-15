@@ -1,0 +1,291 @@
+{
+  "approval_request_ready": false,
+  "authorized": false,
+  "automatic_retries": 0,
+  "bounds": {
+    "clean_loss": {
+      "atol": 2e-06,
+      "rtol": 1e-05
+    },
+    "input_gradient": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    }
+  },
+  "category_mapping_requires_exact_new_operator_review": {
+    "aggregate_setup_capture_and_collection": "all bytes, allocated blocks, proof overlap and directory overhead must fit unchanged 3 GiB/2.25 GiB/3 GiB caps",
+    "bootstrap_and_final_overlay_sizes": "not yet final; must measure exact new single-worker implementation",
+    "compressed_original_and_reference_archives": "input, shared unchanged 128 MiB ceiling",
+    "historical_manifest_pinned_NPY_blobs_and_new_worker_NPY": "raw, shared unchanged 1792 MiB ceiling; explicit new path whitelist required",
+    "historical_records_lineage_and_new_records": "metadata, shared unchanged 64 MiB ceiling"
+  },
+  "cleanup": false,
+  "date": "2026-11-14",
+  "executable_handoff_present": false,
+  "expected_gpu_uuid": "GPU-e54fae90-feeb-8106-d8c0-1974fe48555f",
+  "expected_runtime": {
+    "expected_cuda": "12.8",
+    "expected_numpy": "2.4.6",
+    "expected_python": "3.11.17",
+    "expected_torch": "2.8.0+cu128"
+  },
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "held_out_pixels": false,
+  "host": "linux10603",
+  "kind": "missing-candidate-replay-unarmed-structural-scope-v1",
+  "measured_current_inputs": {
+    "archives_bytes": 134095272,
+    "historical_proof_bytes": 2666936,
+    "input_margin_bytes": 122456,
+    "known_overlay_floor": {
+      "configs/predictor_forward_preserving_handoff_v1.json": {
+        "bytes": 14203,
+        "path": "configs/predictor_forward_preserving_handoff_v1.json",
+        "sha256": "fdd822dcfa930984d57564ed63ad9b481cce94e0df6d520deffecd89cca538e1"
+      },
+      "configs/predictor_forward_preserving_handoff_v2.json": {
+        "bytes": 15237,
+        "path": "configs/predictor_forward_preserving_handoff_v2.json",
+        "sha256": "423bd39fffa62055610f25fa176d6ded99121401fffa4aad1d2e1d2dd4a317a8"
+      },
+      "models/__init__.py": {
+        "bytes": 86,
+        "path": "models/__init__.py",
+        "sha256": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5"
+      },
+      "models/cpu_oracle_control_prerequisite.py": {
+        "bytes": 5813,
+        "path": "models/cpu_oracle_control_prerequisite.py",
+        "sha256": "c6d4927e89d23abbd4ad019ab4d9c0209f0995d75050f1246092aa4a23b8ef63"
+      },
+      "models/cpu_oracle_control_v1.py": {
+        "bytes": 26840,
+        "path": "models/cpu_oracle_control_v1.py",
+        "sha256": "06e5731e48ee079acdecf5ad992eef3930c8ba2e66f44f0d9c748c31fdb5baf7"
+      },
+      "models/cpu_oracle_scratch.py": {
+        "bytes": 29965,
+        "path": "models/cpu_oracle_scratch.py",
+        "sha256": "12992c272b21902297746d7781685dc951d0a310ace1dc73cbb99b8d52f6bbe6"
+      },
+      "models/oracle_boundary_operator_v1.py": {
+        "bytes": 24006,
+        "path": "models/oracle_boundary_operator_v1.py",
+        "sha256": "dde0d903986a5e83d02d9e7cb5fe4b6869d02f3731c8d4f30dd749a20f742b73"
+      },
+      "models/predictor_boundary_contract_v1.py": {
+        "bytes": 533,
+        "path": "models/predictor_boundary_contract_v1.py",
+        "sha256": "f05cb2ca07aade34a95801bc97a07f9044de0493a2acc016d703749e812810aa"
+      },
+      "models/predictor_boundary_record_v1.py": {
+        "bytes": 10170,
+        "path": "models/predictor_boundary_record_v1.py",
+        "sha256": "c76c6e1564b2fc6d14c47b44f926b7fb2b12bc288e1fe7e1714cd5ca82dd484b"
+      },
+      "models/predictor_eot8_adapter_v1.py": {
+        "bytes": 7839,
+        "path": "models/predictor_eot8_adapter_v1.py",
+        "sha256": "89b7e0c67e88f2f776bb0bb6ad786a2202115e64ffc6c6f9a962381cc2e9a6b8"
+      },
+      "models/predictor_eot8_events_v1.py": {
+        "bytes": 8514,
+        "path": "models/predictor_eot8_events_v1.py",
+        "sha256": "6bb6a1d0564b4b7f976704325cd946a4a1cf6d6616f82f53dc908b065aa699a8"
+      },
+      "models/predictor_eot8_owned_receipt_v1.py": {
+        "bytes": 4599,
+        "path": "models/predictor_eot8_owned_receipt_v1.py",
+        "sha256": "55005fd96e994c660e693e0347a337d01826eaf5224ecf6f38329a8905538531"
+      },
+      "models/predictor_eot8_owned_v1.py": {
+        "bytes": 16089,
+        "path": "models/predictor_eot8_owned_v1.py",
+        "sha256": "ef3675e69ef56b0b4ef4f543cab96b7f2bc757a64202d74500f3802ccd5dfc12"
+      },
+      "models/predictor_eot8_record_operator_v2.py": {
+        "bytes": 20850,
+        "path": "models/predictor_eot8_record_operator_v2.py",
+        "sha256": "f0f5bd09dd533977f5d2c67898fc5e62728fca4aefdf99f23edd397dc15806ae"
+      },
+      "models/predictor_eot8_record_v2.py": {
+        "bytes": 14128,
+        "path": "models/predictor_eot8_record_v2.py",
+        "sha256": "c75455b9a08f1b25bbb7269d4ae3c1fa34826656ba1800c0a45fdf9433765dd9"
+      },
+      "models/predictor_forward_preserving_cpu_v1.py": {
+        "bytes": 13654,
+        "path": "models/predictor_forward_preserving_cpu_v1.py",
+        "sha256": "6ba308e948c0ce346512f17ef4fc11eccb542954048c859ad6c6a751db1fbb66"
+      },
+      "models/predictor_forward_preserving_operator_v1.py": {
+        "bytes": 15955,
+        "path": "models/predictor_forward_preserving_operator_v1.py",
+        "sha256": "9b5590381fd9dfb36f31abe858ee3382cecfbf5296a63fef18371cbff0dcf90f"
+      },
+      "models/predictor_forward_preserving_operator_v2.py": {
+        "bytes": 8341,
+        "path": "models/predictor_forward_preserving_operator_v2.py",
+        "sha256": "c82a7d384e42ce8d3deed5ba3d60b9482613d1a2194a4c411fd55cc245e10171"
+      },
+      "models/predictor_forward_preserving_records_v1.py": {
+        "bytes": 11715,
+        "path": "models/predictor_forward_preserving_records_v1.py",
+        "sha256": "24639c3b3d306cc67a02a2327ce2c40b4829788e2da48e373c6edab86255eb0f"
+      },
+      "models/predictor_forward_preserving_target_v1.py": {
+        "bytes": 13112,
+        "path": "models/predictor_forward_preserving_target_v1.py",
+        "sha256": "000591f52fd66e7b1d4a78ff0c38ed265a5870e4a8463f9d810031d56752710a"
+      },
+      "models/predictor_forward_preserving_upstream_v1.py": {
+        "bytes": 10600,
+        "path": "models/predictor_forward_preserving_upstream_v1.py",
+        "sha256": "db71de4b6b8c3ba1532639258f23e7b4b5a850493625bf6ba1a7e2f8c9b13b88"
+      },
+      "models/predictor_forward_preserving_worker_v1.py": {
+        "bytes": 13548,
+        "path": "models/predictor_forward_preserving_worker_v1.py",
+        "sha256": "55d20ed67993b5fde7080393b92ec770b85ee40af46cf374e88d1551f56ccfb3"
+      },
+      "models/predictor_replay_capsule_v1.py": {
+        "bytes": 20447,
+        "path": "models/predictor_replay_capsule_v1.py",
+        "sha256": "54fa561d6dab961ac9fcffdb4dc8419c0a10c0056521c9597bf4adf3363538c6"
+      },
+      "models/scratch_allocation_v2.py": {
+        "bytes": 10813,
+        "path": "models/scratch_allocation_v2.py",
+        "sha256": "6b0503b8ab2c88a44a4d95c8fafbad52d1c0414293379406520a22f67700e874"
+      },
+      "models/scratch_inventory_observer_v1.py": {
+        "bytes": 5776,
+        "path": "models/scratch_inventory_observer_v1.py",
+        "sha256": "ae576108fd4661b21224bdf544dc762bc7a4f010bbb571614a496c7d7904ffff"
+      },
+      "scripts/capture_predictor_forward_preserving_v1.py": {
+        "bytes": 3163,
+        "path": "scripts/capture_predictor_forward_preserving_v1.py",
+        "sha256": "e98dc97800095b28284eeecfe06286c3187d43442511f04620994b5ae37f75f8"
+      },
+      "scripts/capture_predictor_forward_preserving_v2.py": {
+        "bytes": 3165,
+        "path": "scripts/capture_predictor_forward_preserving_v2.py",
+        "sha256": "f40bf75d88071e349ed6bf6d042b3d1fbaef5e252a1c7fde3858c34577204190"
+      }
+    },
+    "known_overlay_floor_bytes": 329161,
+    "known_overlay_floor_files": 27,
+    "lineage_and_manifest_bytes": 311268,
+    "old_packet_extracted_bytes": 26446958,
+    "old_packet_members": 99,
+    "unchanged_input_cap_bytes": 134217728,
+    "unique_historical_array_bytes": 214635140
+  },
+  "new_AUTHORIZATION_or_ATTEMPT_created": false,
+  "new_target_execution_permitted": false,
+  "old_claims_and_source_receipts_unchanged": true,
+  "old_work_seconds_charged_not_reset": 477.3622766463086,
+  "one_new_worker": {
+    "draws": 8,
+    "extra_profile_warmup_attack_optimizer_or_oracle_work": 0,
+    "families_per_draw": 2,
+    "full_EOT8_objectives": 1,
+    "index": 3,
+    "mode": "candidate",
+    "new_original_workers": 0,
+    "replay": 1
+  },
+  "paid_compute": false,
+  "pending_local_preparation": [
+    "Implement a separate single-worker entry, result/control kind, bounded operator and same-SSH client; do not invoke the old four-worker operator.",
+    "Integrate the verified strict inventory observer without changing original predicates.",
+    "Test actual cold startup/identity/reference mapping/order/stop/collection paths locally without another successful scientific cohort.",
+    "Measure final bootstrap, extracted inputs, proof overlap, every category, metadata headroom and all transport bounds before final proposal review."
+  ],
+  "private_key_upload": false,
+  "proposal_only": true,
+  "read_only_reference_admission_and_archive_measurement_complete": true,
+  "reference_capsule": {
+    "archive": {
+      "bytes": 116903177,
+      "path": "runs/pretrained/diagnostic/predictor-replay-capsule-v1-20261114/predictor-replay-reference-level9.tar.gz",
+      "sha256": "d3853c4d57679d76b6f452ca0ef0ccd7125cd3c9e639f60e81b32a810e1c91aa"
+    },
+    "extracted_member_bytes": 217613344,
+    "includes_unchanged_consumed_authorization_for_lineage_only": true,
+    "manifest": {
+      "bytes": 74784,
+      "path": "runs/pretrained/diagnostic/predictor-replay-capsule-v1-20261114/build-first/capsule/manifest.json",
+      "sha256": "8107d13d5c663102f6e5e85dc19a5f6dea52bb12054a57d5957a3d12720a67fd"
+    },
+    "members": 55,
+    "reference_only": true
+  },
+  "reference_control_sha256": "8b22bf0905ec0c87f6551376275e5c34542b8136cfdd2f555e0bbc39209c461e",
+  "required_gates": {
+    "candidate0_loss_input_predictions_cotangents_targets_masks_exact": true,
+    "cold_reference_admission_before_science": true,
+    "full_native_ownership_and_192_public_math_VJPs_required": true,
+    "new_result_kind_binding_requires_implementation_and_local_review": true,
+    "old_clean_anchors_and_same_replay_original_within_original_bounds": true,
+    "partial_worker3_not_a_reference": true,
+    "source_reference_control_distinct_from_new_execution_control": true,
+    "strict_inventory_observer_no_retry_or_changed_verdict": true
+  },
+  "resource_proposal_not_armed": {
+    "VJP_file_bytes": 8388608,
+    "allocator_bytes": 7516192768,
+    "bootstrap_bytes": 2097152,
+    "cache_bytes": 33554432,
+    "call_file_bytes": 8388608,
+    "capture_bytes": 2415919104,
+    "code_bytes": 134217728,
+    "collection_bytes": 3221225472,
+    "collection_seconds": 600,
+    "emergency_bytes": 16777216,
+    "final_reserve_seconds": 120,
+    "header_bytes": 262144,
+    "initial_VJPs": 192,
+    "input_bytes": 134217728,
+    "marker_bytes": 16384,
+    "max_files": 1024,
+    "max_simultaneous_scientific_processes": 1,
+    "metadata_bytes": 67108864,
+    "native_call_rows": 4096,
+    "predictor_calls": 384,
+    "proof_bytes": 2684354560,
+    "proof_seconds": 60,
+    "raw_bytes": 1879048192,
+    "scope_file_bytes": 65536,
+    "setup_bytes": 3221225472,
+    "setup_seconds": 180,
+    "tensor_file_bytes": 16777216,
+    "work_seconds": 900,
+    "worker_seconds": 480,
+    "workers": 1
+  },
+  "resources_finalized": false,
+  "source_plan": {
+    "bytes": 40126,
+    "path": "configs/predictor_missing_replay_plan_v1.json",
+    "sha256": "2ca7e4f278198e483cf28ba8d8b35b715bf466cea37ff845f0238888c021c509"
+  },
+  "training_packet": {
+    "bytes": 17192095,
+    "path": "runs/pretrained/diagnostic/eot-work-profile-university-20261029/packet/vjepa-eot-profile.tar.gz",
+    "sha256": "2278bce2b519943c0f83a49c556bb73dd928fe880fba0f6c56de2a4c3c2ec0da"
+  }
+}
