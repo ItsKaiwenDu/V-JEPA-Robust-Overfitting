@@ -1,0 +1,181 @@
+{
+  "actual_allocator_bytes": 5897503744,
+  "actual_proof_seconds": 9.744679039344192,
+  "all_36_returns_exact_candidate0": true,
+  "all_native_predictions_targets_masks_L1_cotangents_exact_same_replay_original": true,
+  "all_saved_file_bytes_modes_nsmtime_verified": true,
+  "anchor_checks": {
+    "input": {
+      "atol": 2e-07,
+      "failed_elements": 0,
+      "max_absolute_error": 2.7939677238464355e-07,
+      "max_tolerance_ratio": 0.5058618267269619,
+      "passed": true,
+      "rtol": 0.002
+    },
+    "loss": {
+      "atol": 2e-06,
+      "failed_elements": 0,
+      "max_absolute_error": 0.0,
+      "max_tolerance_ratio": 0.0,
+      "passed": true,
+      "rtol": 1e-05
+    }
+  },
+  "armed_sealed_files_unchanged": 2926,
+  "candidate_fresh_process_replay_complete_and_exact": true,
+  "cold_check_source": {
+    "bytes": 2957,
+    "mode": 420,
+    "mtime_ns": 1794716902519961340,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/target-review/check_cold_saved.py",
+    "sha256": "bbef2e8d7ac6d74ac2565f7e4d192f52a20693f39fe770987187c299c595f82c"
+  },
+  "cold_corrected_log": {
+    "bytes": 94,
+    "mode": 420,
+    "mtime_ns": 1794716903581844930,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/target-review/cold-record-corrected.log",
+    "sha256": "f2deae25c341cee6b7b37f333a3bd8ae0f6a04492bf298be3e5e3c38ff12fab3"
+  },
+  "cold_record_check": {
+    "bytes": 935,
+    "mode": 384,
+    "mtime_ns": 1794716903581752013,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/target-review/cold-record-check.json",
+    "sha256": "835672d1b42d0755dd8a0af3ee23580830882273c2a4afec49ce201805fbf7f6"
+  },
+  "collection_files": 242,
+  "collection_logical_bytes": 599605882,
+  "consumed_claim": {
+    "bytes": 284,
+    "mode": 420,
+    "mtime_ns": 1794716169464380718,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/linux10603-ready/ATTEMPT.json",
+    "sha256": "e854df5342067a1b046f652c94a7ad72ebea1edd586b9ce1cbde7f23986f01a2"
+  },
+  "control_sha256": "af2c495cb86ab78b48e20a700358f6964182f015939fa18c5f7566aa5cdf0842",
+  "date": "2026-11-14",
+  "financial_caps_holds_pending_reconciliation_unchanged": true,
+  "first_cold_directory_refusal_log": {
+    "bytes": 471,
+    "mode": 420,
+    "mtime_ns": 1794716813900066234,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/target-review/cold-record-check.log",
+    "sha256": "e9b25349a94e4706d5ecc584220717f6924e7a418e356a4b34c9db92a2252c43"
+  },
+  "full_storage_proof_passed": true,
+  "historical_parent_stays_failed": true,
+  "historical_partial_worker_not_promoted": true,
+  "input_gradient_elements_verified": 3145728,
+  "kernel_performance_optimizer_study_budget_or_full_training_qualified": false,
+  "kind": "missing-candidate-replay-v1-target-review",
+  "local_directory_refusal": {
+    "bytes": 281,
+    "mode": 384,
+    "mtime_ns": 1794716902557792265,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/target-review/cold-local-directory-refusal.json",
+    "sha256": "b023353e27331866d8acabf60e8098a7cc16f1d4d5c9e3dc418c231fbf25fd14"
+  },
+  "local_mirror_directory_mode_refusal_preserved_private_reference_view_only": true,
+  "loss": 0.5617199540138245,
+  "native_checkpoint_calls": 576,
+  "native_owners": 36,
+  "native_primary_calls": 576,
+  "new_completed_full_EOT8_objectives": 1,
+  "new_model_autograd_SDPA_reference_profile_training_or_remote_work_during_review": false,
+  "new_parent_complete": true,
+  "new_parent_passed": true,
+  "new_worker": {
+    "complete": true,
+    "index": 3,
+    "marker": {
+      "bytes": 5017,
+      "mode": 384,
+      "mtime_ns": 1794716089386491908,
+      "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/linux10603-ready/attended-nqg9xqaj/saved/results/3/success.json",
+      "sha256": "be28531dfc7c9eabd61ccc6465d64c1961fde84e9f23074e371b5dbc3fbd54e9"
+    },
+    "mode": "candidate",
+    "passed": true,
+    "pid": 1352816,
+    "replay": 1,
+    "worker": {
+      "bytes": 18236,
+      "mode": 384,
+      "mtime_ns": 1794716089382491922,
+      "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/linux10603-ready/attended-nqg9xqaj/saved/results/3/worker.json",
+      "sha256": "fee2d55336a24415c1b57a2c32a7b0a0ccabd5b076c9a3238ae61c132f384090"
+    }
+  },
+  "next_local_step": "Freeze this successful single-case numerical/replay qualification. Review integration/performance and training-admission requirements locally; no automatic GPU/profile/optimizer/paid work or consumed-grant reuse.",
+  "old_3724_candidate_stays_rejected": true,
+  "old_477_seconds_and_claims_preserved_no_reset": true,
+  "old_parent_outcome_not_rewritten": true,
+  "original_comparison": {
+    "input": {
+      "atol": 2e-07,
+      "failed_elements": 0,
+      "max_absolute_error": 2.7939677238464355e-07,
+      "max_tolerance_ratio": 0.5058618267269619,
+      "passed": true,
+      "rtol": 0.002
+    },
+    "loss": {
+      "atol": 2e-06,
+      "failed_elements": 0,
+      "max_absolute_error": 0.0,
+      "max_tolerance_ratio": 0.0,
+      "passed": true,
+      "rtol": 1e-05
+    }
+  },
+  "parent_work_seconds": 161.82802471937612,
+  "passed": true,
+  "predictor_calls_including_checkpoints": 384,
+  "private_view_does_not_relax_reader_or_change_raw_evidence": true,
+  "proof_peak_allocated_bytes": 2702159872,
+  "public_math_VJPs": 192,
+  "raw_collection_directories_not_in_file_only_transport_metadata": true,
+  "response": {
+    "bytes": 599851959,
+    "mode": 420,
+    "mtime_ns": 1794716169422939333,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/linux10603-ready/attended-nqg9xqaj/response.bin",
+    "sha256": "bc24c58ad8d780ac23872edeea515da0030ebcc86090f4909213a13dc1cc6c19"
+  },
+  "saved_independent_review": {
+    "bytes": 4280,
+    "mode": 384,
+    "mtime_ns": 1794717053899318556,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/target-review/review.json",
+    "sha256": "a0dd1553a938957f78574ac47ee1b8bf64578e0baa85aa68c74ce12e5140b633"
+  },
+  "saved_independent_review_log": {
+    "bytes": 180,
+    "mode": 420,
+    "mtime_ns": 1794717053899464015,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/target-review/review-first.log",
+    "sha256": "d965c38a5d05d3b3e7026d7db98ac23f1908a4c66cb3e7ef37365df10f23fd86"
+  },
+  "saved_independent_review_source": {
+    "bytes": 19152,
+    "mode": 420,
+    "mtime_ns": 1794717051418293503,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/target-review/review_saved.py",
+    "sha256": "c4cd6f060c38339bb411a7e7fb403d00b7b0c5b56b2ccbc65b2237230ccb8fe3"
+  },
+  "saved_target_pin_manifest": {
+    "bytes": 119806,
+    "mode": 384,
+    "mtime_ns": 1794717053698853984,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/target-review/saved-target-pins.json",
+    "sha256": "2fba37231e06188c266f64d10d9f0a11b893ee3f5f6373dbee0aaab63996c43d"
+  },
+  "sealed_target_review": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/target-review/sealed-target-review.json",
+  "three_old_complete_workers_not_reexecuted": true,
+  "total_logical_role_chain_complete_across_preserved_three_and_new_one": true,
+  "worker_objective_wall_seconds": 109.66762312501669,
+  "worker_peak_scratch_allocated_bytes": 600276992,
+  "worker_supervised_seconds": 129.80499155959114
+}

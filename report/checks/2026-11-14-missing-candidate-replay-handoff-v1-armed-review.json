@@ -1,0 +1,54 @@
+{
+  "attempt_absent": true,
+  "authorization": {
+    "bytes": 2654,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/linux10603-ready/AUTHORIZATION.json",
+    "sha256": "44dbc6568e0c7088a46d2c041ce3b49e0bfc564ef02e08e2db520570ae281679"
+  },
+  "authorization_present": true,
+  "authorization_sha256": "44dbc6568e0c7088a46d2c041ce3b49e0bfc564ef02e08e2db520570ae281679",
+  "control": {
+    "bytes": 111921,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/linux10603-ready/CONTROL.json",
+    "sha256": "af2c495cb86ab78b48e20a700358f6964182f015939fa18c5f7566aa5cdf0842"
+  },
+  "control_sha256": "af2c495cb86ab78b48e20a700358f6964182f015939fa18c5f7566aa5cdf0842",
+  "date": "2026-11-14",
+  "exact_approval": {
+    "bytes": 1459,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/armed-review/user-approval.json",
+    "sha256": "577b57cdcf901edf2687c201eb65ba5e3bd607a5b265169f0e7f4d4712c11ecd"
+  },
+  "exact_user_basis_and_one_new_scope_verified": true,
+  "independent_review": {
+    "bytes": 1239,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/armed-review/review.json",
+    "sha256": "360322c96d563e3547527b91f2c21f9f9c21c51ccb3884516dcaa79c8e8142fc"
+  },
+  "independent_review_log": {
+    "bytes": 165,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/armed-review/review-first.log",
+    "sha256": "b3585f8d1edc0c2d52b42ef8460593034b0170d292ff5ca3f83a3d67e4936f1f"
+  },
+  "independent_review_source": {
+    "bytes": 4679,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/armed-review/review_saved.py",
+    "sha256": "c2d1265c2730b73b9d06efbbf63aad54c10f480df23528711f797c3a7bd09152"
+  },
+  "kind": "missing-candidate-replay-handoff-v1-armed-review",
+  "next": "Give one selected Mac command to user. Keep Mac/lid/Terminal open and awake; password local; wait for same-SSH collection. No agent helper execution or repeated approval/status.",
+  "no_attended_session_created": true,
+  "no_remote_SSH_helper_proof_model_or_GPU_work": true,
+  "no_scientific_or_successful_test_suite_repeated": true,
+  "passed": true,
+  "prepared_sealed_files_verified": 2919,
+  "scope_unchanged_from_approval": true,
+  "sealed_armed_inputs": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/armed-review/sealed-inputs.json",
+  "selected_handoff": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/linux10603-ready",
+  "source_key_payload_canonical_directory_and_old_claims_verified": true,
+  "user_approval": {
+    "bytes": 1459,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/armed-review/user-approval.json",
+    "sha256": "577b57cdcf901edf2687c201eb65ba5e3bd607a5b265169f0e7f4d4712c11ecd"
+  }
+}

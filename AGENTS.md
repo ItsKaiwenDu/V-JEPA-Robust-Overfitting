@@ -2,6 +2,128 @@
 
 ## Current stage
 
+LATEST November 14: MISSING CANDIDATE FRESH REPLAY VERIFIED PASS; SINGLE-CASE NUMERICAL/REPLAY CHAIN CLOSED.
+Read report/checks/2026-11-14-missing-candidate-replay-v1-target-review.json/md first.
+Actualselected linux10603-ready/attended-nqg9xqaj; CONTROLaf2c495cb86ab78b48e20a700358f6964182f015939fa18c5f7566aa5cdf0842;
+AUTH44dbc6568e0c7088a46d2c041ce3b49e0bfc564ef02e08e2db520570ae281679;
+claimCONSUMED /var/tmp/vjepa-missing-candidate-replay-v1-20261114-n3e6m9nx.
+ONEnewactualcandidateindex3/replay1 PID1352816 COMPLETE/PASS; ALL36returns bitwise
+candidate0 inclloss/input/16pred/16nativeL1cots/targets/masks. Same-replayoriginal1
+andprioranchors: ALL3,145,728inputentries .002/2e-7 PASS0fail,maxabs2.7939677238464355e-7,
+maxratio.5058618267269619. LossEXACT.5617199540138245; nativeforward/L1cots exactorig.
+NewparentCOMPLETE/PASS161.828025s;objective109.667623s/supervised129.804992s. Actual
+native1152calls=576primary+576checkpoint/36owners(24encoder12predictor);192distinct
+publicmathinnerGraphTasks/384predictorcalls/nativeouter/root+leafhooks/flags/layout/
+alias/restoration passesfrozencoldverifier. GPUallocator5,897,503,744B=5.492GiB<7GiB.
+REAL2.5GiBallocation/write/fsync/readbackproofPASS9.744679s; proofpeak2,702,159,872B<3GiB;
+workerpeak600,276,992B<2.25GiB;workerexit0/noretry/noforceddescendanttermination.
+Complete sameSSH response599,851,959B/242REGfiles599,605,882logicalB, allframe/hash/
+mode/nsmtime/source/control/auth/capsuleverify. IndependentNumPy savedreview36new
+arrays+2oldfullreferenceviews/nativeL1/loss/fullinput/ownership/anchorsdecodedrestricted
+FP32ZIP withoutTorch; no newmodel/autograd/SDPA/reference/proof/profile/process/network.
+2926armedpins+old280/135/245targetdescriptors unchanged. New242targetpins rawtarget-
+review/saved-target-pins.json; finalpreservation+sealed-target-review.json there.
+IMPORTANTlocalcollectionfile-onlyformatdoesnotcarryDIRECTORYmodes; reference rawmirror
+root0755 madeUNMODIFIEDcoldreaderrefuse. Preservefirstcoldlog/rawdownload unchanged.
+Newprivate-reference-view55verifiedREGsinglelinkcopies700dirs/600files withsamebytes/
+nsmtime passesunchangedcapsulereader. Thisislocalrepresentation, NOTtargetnumerical
+failure. DoNOTchmodraw/rewriteheader/relaxreader orrerunscience. Futuretransportversion
+mayfixprivateparentreconstruction LOCALLY; sourceconsumedpackagefrozen.
+Logicalfourrolechain COMPLETE usingold3results+thisONEseparatelyauthorizedreplay.
+OLDparentstaysFAILED/oldpartial3UNADMITTED/old477.362277scharged/oldclaims preserved.
+NewgrantCONSUMED: neverrerunhelper/resetclaim/clock/reconstructpassingmarker/nextcase.
+Old3724candidateSTILLrejected; newpublicmathderivative SINGLEtrainingclip CLEANEOT8
+numerical+freshreplayqualifiedONLY. No originalkernelbackwardidentity/performance/
+optimizer/attack/study/fulltrainingadmission. Financecaps/holds/reconciliation unchanged.
+NEXT LOCAL ONLY freezeverifiedresult andwrite remainingintegration/performance/training-
+admissiondecision; addresscollection-directory reconstruction inSEPARATEfutureversion
+ifneeded, withoutchangingconsumedsources. No automaticbenchmark/profile/optimizer/
+science/SSH/retrieval/proof/cleanup/install/paidwork underconsumedgrant. Additional
+universitywork needsnewconcreteprep/review/exactscope; doNOT askmanualGPU forlocalwork
+or repeatsuccessfulscientificcohort. Usercommits self;neverstage/commit/push.
+EarlierLATEST historical.
+
+LATEST November 14: ONE MISSING CANDIDATE REPLAY USER APPROVED, ARMED, UNUSED.
+Read report/checks/2026-11-14-missing-candidate-replay-handoff-v1-armed-review.json/md.
+Useranswer "Approve one bounded candidate-replay attempt (Recommended)" to
+call_ff67d59008f34076bf746cb897292d37 item0 accepted; exactquestion/answer saved.
+Selected raw predictor-missing-replay-handoff-v1-20261114/linux10603-ready;
+CONTROL af2c495cb86ab78b48e20a700358f6964182f015939fa18c5f7566aa5cdf0842;
+AUTHORIZATION 44dbc6568e0c7088a46d2c041ce3b49e0bfc564ef02e08e2db520570ae281679.
+ATTEMPT/attendedsessions ABSENT. IndependentSTDLIBarmed-unusedreviewPASS2919prepared
+pins+exactuserbasis+source/payload/publickey/canonicalhelper/oldclaims/scope. No
+science/testsuite/proof/GPU/SSH/helper/paidwork repeated. Earlierpreparationsstay
+unarmed/superseded. ApprovalPERSISTS: DO NOT askagain orrepeatmanualGPU/status.
+ScopeUNCHANGED32overlays379,328B+17,192,095Btrainingpacket+116,903,177Bcapsule+bound
+budgetmetadata, linux10603freshprivatevar_tmpONLY;15minworkinclfull2.5GiBproof/ONE
+candidateindex3replay1 <=8min EOT8/10min3GiBsameSSHcollection/25minclientincllogin.
+Reusecompleteoriginal1+candidate0; no completedworker reruns. Numerical/ownership/
+replay/GPU7GiB/sharedstoragecaps/exactreferencearchivefilebound/exclusions unchanged.
+No retry/cleanup/install/paid/heldout/privatekey/separateretrieval/oldclaimreset.
+NEXT giveONESINGLEselectedMaccommand toUSER. AgentMUSTNOTSSH/executehelper. User
+keepsMacawake/lid/Terminalopen,passwordlocal,awaitsameSSHcollection,reportsDone/error.
+ThenreviewnewATTEMPT/response/evidence FIRST. Neverrelaunch/resetclock/claim/grant;
+no unsolicitedretrievalconnection orstatuspoll. OldtargetparentFAILED/candidate
+freshreplayOPEN untilactualreview; initialcandidate/originalreplaypass/old3724/
+finance/research/kernel/optimizer/fulltraining gates unchanged. Usercommits self;
+neverstage/commit/push. EarlierLATEST historical.
+
+LATEST November 14: SINGLE MISSING CANDIDATE REPLAY HANDOFF PREPARED, UNARMED.
+Read report/checks/2026-11-14-missing-candidate-replay-handoff-v1-preparation-review.json/md
+and docs/predictor_missing_replay_handoff_v1.md first. New records/worker/operator/
+client/capture/prepare/run + immutableconfig. Selected raw predictor-missing-replay-
+handoff-v1-20261114/linux10603-ready; CONTROL
+ af2c495cb86ab78b48e20a700358f6964182f015939fa18c5f7566aa5cdf0842.
+Earlier linux10603-final and linux10603-reviewed superseded/unarmed; keepall. Actual
+AUTHORIZATION/ATTEMPT ABSENT. No agentSSH/helper/model/GPU/proof/upload/paidwork.
+ExactlyONE new candidateindex3/replay1 EOT8,8draws2families. Reusecompleteorig1/index2
++candidate0/index1 underOLD8b22... control viafrozencapsule; original0oldaudit+partial3
+preserved. NEVERoldcontrolasnewgrant/rewriteoldreceipt/promotepartial/reruncohort.
+Frozenfullmodelworker AST ONLYadds state.reference_binding; private refIOroutesold
+readsunderoldcontrol, newresultkind/control/index3 separately. Frozencheckscope,
+writefinal/load/nativeproof codeobjects privateidentitynamespaces; alloriginal
+numerical/typed/native/VJP/replay/anchor/baseline/model-restoration gates unchanged.
+32remoteoverlays379,328B+17,192,095Bpacket+116,903,177Breferencecapsule+boundmetadata
+inclfinancialsnapshot. Bootstrap1,147,440B<2MiB. Archives134,095,272B<128MiB with
+122,456Bheadroom. NEWexactreference-capsule.tar.gz(+partial)116,903,177B cap explicitly
+replacesoldgeneric64MiBforONLYthisname; scientificchild16MiB unchanged. Exactpinned
+referencepath/extents. Historic/newNPY share1792MiBraw; records share64MiBmetadata;
+setup3GiB/capture2.25GiB/collection3GiB/code128MiB/cache32MiB/emergency16MiB unchanged.
+Actuallocalextract154files244,060,302logical/244,457,472allocatedB. Expectedshape
+raw416,830,084B; conservativeall36filecaps+onepartial+historicalraw798,757,508B;
+captureallcategorylogicalupper1,077,119,578B. Proofphase2,768,619,968B<3GiB: proof
+BEFOREarchive receipt/extraction; actual2.5GiBpreallocate/write/fsync/readback+owned
+proofremovalmandatory. Polllogical/allocated/dirs/inodes/space; no quota/reservation.
+15minworkincl3minsetup/1minproof/ONE<=8minworker/2minfinalreserve;10min/3GiBsameSSH
+collection;25minclientincllogin. NOretry/nextcase/separateretrieval/cleanup/install/
+heldout/privatekey/paidwork. Old477.362277s/claims/finance remaincharged/unchanged.
+Strictobserver ACTUALfrozeninventory ONCE, unchangedpredicates/return/refusal, fatal
+bounded1536Bdiagnostics. Bootstrap__file__metadata rebindonlyidenticalverifiedsource
+paths afteroverlaywritten; ONLY__file__metadatachanges, codeobjects/decisionglobals
+unchanged. Oldtargetcauseunknown.
+36distinctnewchecks finalPASS. FIRST35:33pass1fail1setupErrorpreserved. Fixexplicit
+privateintermediateextractdirs+testkwargfixture; ONLY2failed+1newtestnext(2pass1fail).
+Lastnewbootstrapfixtureparentmappingcorrected; ONLYthat1rerunPASS. No successful
+science/oldcohort/suite repeat. Three source stages/allfailedextracts/responses/superseded
+preps saved. Actualcoldchild+realcapsulereader stopsbeforeGPU; AST science/transport
+changes exact; actualbootstrap->realstrictguard->collection ofSIMULATEDproofrefusal
+fullybyte/mode/nsmtime/framingverified. Sevenproof/GPU/clock/scheduler cases EXPLICIT
+SIMULATIONS, nevernewCUDAqualification. Actualexternalhardlinkstillrefuses/causekept.
+IndependentSTDLIBsavedreview NOoperator/modelimports/process/network verifies2483
+priorhashes+280/135/245oldbyte/mode/nsmtime descriptors unchanged, source/control/key/
+bootstrap/extraction/collection/resourceproof. Sealed rawstage/sealed-inputs.json.
+NEXT askONE new exact scoped approval forprepared32overlays+botharchives+boundbudget
+metadata tolinux10603freshprivatevar_tmp and15min/10minONEcandidate attempt. The prior
+university grants are consumed; one new exact scoped approval is required before any upload or university work.
+Approval doesNOT coverrerunning3completedworkers or spentattempts. Ifapprovedsave
+exactbasisONCE, independentlyreviewARMED UNUSEDselectedsources/oldclaims/key/limits,
+then giveONESINGLEMaccommand. AgentMUSTNOTSSH/executehelper; userkeepsMac/lid/Terminal
+open/passwordlocal/awaitcollection. No repeatedunchangedapproval/manualGPUstatus;
+helperliveguardscheck. Thenreviewnewclaim/response FIRST, no autoretry/reset/retrieval.
+Initialnewcandidatepass/originalreplayexact stand; candidatefreshreplayOPEN/oldparent
+FAILED/old3724/financial/research/optimizer/kernel/traininggatesunchanged.
+Usercommits self; neverstage/commit/push. EarlierLATEST historical.
+
 LATEST November 14: MISSING-REPLAY REFERENCE CAPSULE/LINEAGE READER VERIFIED LOCALLY; SCOPE UNARMED.
 Read report/checks/2026-11-14-predictor-replay-capsule-v1-local-review.json/md,
 docs/predictor_replay_capsule_v1.md and configs/predictor_missing_replay_scope_v1.json.

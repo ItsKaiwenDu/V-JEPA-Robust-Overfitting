@@ -1,0 +1,190 @@
+{
+  "actual_extracted_files": 154,
+  "actual_extracted_logical_bytes": 244060302,
+  "approval_request_ready": true,
+  "authorization_and_attempt_absent": true,
+  "bootstrap": {
+    "bytes": 1147440,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/bootstrap.py",
+    "sha256": "9ae1972aafe1651174ac094b4b2470486d2eabf6fadb14f8ecaabc3a6cacec44"
+  },
+  "bootstrap_bytes": 1147440,
+  "candidate_fresh_process_replay_complete": false,
+  "client_total_seconds": 1500,
+  "conservative_resource_check": {
+    "bytes": 1220,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/conservative-resource-check.json",
+    "sha256": "5d152190707fab4302c7bf955fdcc2d125013c90dc57f89ced83f0038609a65c"
+  },
+  "conservative_resource_source": {
+    "bytes": 2281,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/check_conservative_resources.py",
+    "sha256": "14c151103f969d79511bb536776d427358806b03cdf131732bae7261294f3c60"
+  },
+  "control": {
+    "bytes": 111921,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/linux10603-ready/CONTROL.json",
+    "sha256": "af2c495cb86ab78b48e20a700358f6964182f015939fa18c5f7566aa5cdf0842"
+  },
+  "control_sha256": "af2c495cb86ab78b48e20a700358f6964182f015939fa18c5f7566aa5cdf0842",
+  "date": "2026-11-14",
+  "distinct_new_tests_latest_pass": 36,
+  "documentation": {
+    "bytes": 9653,
+    "path": "docs/predictor_missing_replay_handoff_v1.md",
+    "sha256": "23ef8237134f608295f970d75d713ffb6ad790b73b4f0b77d9c69e55d7f8bd24"
+  },
+  "exact_reference_archive_file_cap_included_in_new_scope_bytes": 116903177,
+  "financial_caps_holds_and_pending_reconciliation_unchanged": true,
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "first_failures_and_all_source_stages_preserved": true,
+  "fresh_candidate_replay_still_open": true,
+  "guarded_in_memory_bootstrap_real_collection_of_simulated_proof_refusal_verified": true,
+  "historical_reference_control_sha256": "8b22bf0905ec0c87f6551376275e5c34542b8136cfdd2f555e0bbc39209c461e",
+  "independent_review": {
+    "bytes": 2264,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/independent-review.json",
+    "sha256": "a337132e748769896e1455359f8e2b76fd8a9b7a7de4e8c57f3088681d64fe79"
+  },
+  "independent_review_log": {
+    "bytes": 179,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/independent-review-first.log",
+    "sha256": "46e04c95199e91a14d28b6caa4a4fa9fafdb2cec58ac0598f15764b61af6fb83"
+  },
+  "independent_review_source": {
+    "bytes": 12692,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/review_saved.py",
+    "sha256": "e7f3f941cc5927c8be7ed78cd49ececce110a41ee8e13eb1a5d934214f6f1a1c"
+  },
+  "independent_review_stdlib_saved_files_only": true,
+  "initial_candidate_numerical_pass_and_original_replay_preserved": true,
+  "kind": "missing-candidate-replay-handoff-v1-preparation-review",
+  "new_model_GPU_proof_or_university_work": false,
+  "new_target_execution_permitted": false,
+  "next_step": "Ask one new exact scoped approval. If approved, save the exact basis, independently review the armed unused selected package, and give one Mac command. No agent SSH/helper invocation or repeated manual GPU status.",
+  "no_new_actual_scientific_worker_or_objective_or_storage_proof": true,
+  "old_3724_entry_rejection_research_and_training_gates_unchanged": true,
+  "old_parent_still_failed_and_477s_charged": true,
+  "old_target_byte_mode_nsmtime_descriptors_unchanged": [
+    280,
+    135,
+    245
+  ],
+  "one_worker_proof_GPU_clock_scheduler_simulations_not_scientific_qualification": true,
+  "only_failed_and_new_checks_repeated": true,
+  "original_verification_code_objects_retained_with_private_new_identity": true,
+  "overlay_bytes": 379328,
+  "overlay_files": 32,
+  "passed": true,
+  "payload_measurements": {
+    "bytes": 582,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/linux10603-ready/payload-review.json",
+    "sha256": "14b965a2703663228556e7e3e3cb50c29bff68168e591a2be9f8157fda4daed0"
+  },
+  "prior_sealed_files_unchanged": 2483,
+  "resource_accounting": {
+    "bytes": 2635,
+    "mode": 384,
+    "mtime_ns": 1794714915505897978,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/resource-accounting.json",
+    "sha256": "977a8706be16b9b454a456a5a9d30209487d568313e1883e2b61bd7dffcdbf14"
+  },
+  "resource_measurements": {
+    "bytes": 2635,
+    "path": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/resource-accounting.json",
+    "sha256": "977a8706be16b9b454a456a5a9d30209487d568313e1883e2b61bd7dffcdbf14"
+  },
+  "resources_and_payload_finalized_for_one_new_scoped_request": true,
+  "same_SSH_collection_seconds": 600,
+  "scientific_body_AST_changed_only_by_reference_binding_state_field": true,
+  "scientific_workers_at_most": 1,
+  "sealed_inputs": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/sealed-inputs.json",
+  "selected_handoff": "runs/pretrained/diagnostic/predictor-missing-replay-handoff-v1-20261114/linux10603-ready",
+  "setup_work_seconds": 900,
+  "source_files": {
+    "configs/predictor_missing_replay_handoff_v1.json": {
+      "bytes": 15989,
+      "path": "configs/predictor_missing_replay_handoff_v1.json",
+      "sha256": "5e7988071b80fb1b9f0c4cdbc810d503e17165487a173938c6c12825e1982315"
+    },
+    "models/predictor_missing_replay_client_v1.py": {
+      "bytes": 4455,
+      "path": "models/predictor_missing_replay_client_v1.py",
+      "sha256": "0017f1949f6dc81b3d68fb2e0a2458c066bebde96d3831aecea98f1d001bfaea"
+    },
+    "models/predictor_missing_replay_operator_v1.py": {
+      "bytes": 23957,
+      "path": "models/predictor_missing_replay_operator_v1.py",
+      "sha256": "a0cdc7fc7265791ee12dcb1dc3583348b5b87ab2cdbd124f5501e0250b6acd8f"
+    },
+    "models/predictor_missing_replay_records_v1.py": {
+      "bytes": 3124,
+      "path": "models/predictor_missing_replay_records_v1.py",
+      "sha256": "8919508fa2dba9e674ae87cab895282096050c777b74216d93660f2a0911899c"
+    },
+    "models/predictor_missing_replay_worker_v1.py": {
+      "bytes": 3966,
+      "path": "models/predictor_missing_replay_worker_v1.py",
+      "sha256": "3d751b66c95ce8a718dbef3949935ca8604e64f8644a31f2c7742396828067d6"
+    },
+    "scripts/capture_predictor_missing_replay_v1.py": {
+      "bytes": 3118,
+      "path": "scripts/capture_predictor_missing_replay_v1.py",
+      "sha256": "70c32349295ad29143225ee7d6194e82bf11dee3160254bfc8dbad382703b7d9"
+    },
+    "scripts/prepare_predictor_missing_replay_v1.py": {
+      "bytes": 5212,
+      "path": "scripts/prepare_predictor_missing_replay_v1.py",
+      "sha256": "b3d7b8e1ee95be2e56554ca4b946688691a4658c75abb697449a6ed095936d93"
+    },
+    "scripts/run_predictor_missing_replay_v1.py": {
+      "bytes": 427,
+      "path": "scripts/run_predictor_missing_replay_v1.py",
+      "sha256": "4edc40696aa4977a9f9df03606b332ee21ef5545f80c5ebeac0544322ab5d367"
+    },
+    "tests/test_predictor_missing_replay_handoff_v1.py": {
+      "bytes": 22786,
+      "path": "tests/test_predictor_missing_replay_handoff_v1.py",
+      "sha256": "3eff3d12f056727ecda0de83e95127681a0b1ee4c1b60649ede8e775c40175f6"
+    }
+  },
+  "strict_inventory_observer_integrated_actual_external_hardlink_refusal_preserved": true,
+  "superseded_unarmed_preparations_preserved": true,
+  "test_history": [
+    {
+      "errors": 1,
+      "failures": 1,
+      "file": "pytest-first.xml",
+      "skipped": 0,
+      "tests": 35
+    },
+    {
+      "errors": 0,
+      "failures": 1,
+      "file": "pytest-corrected.xml",
+      "skipped": 0,
+      "tests": 3
+    },
+    {
+      "errors": 0,
+      "failures": 0,
+      "file": "pytest-bootstrap-final.xml",
+      "skipped": 0,
+      "tests": 1
+    }
+  ],
+  "unarmed_authorization_and_attempt_absent": true,
+  "worker_seconds": 480
+}
