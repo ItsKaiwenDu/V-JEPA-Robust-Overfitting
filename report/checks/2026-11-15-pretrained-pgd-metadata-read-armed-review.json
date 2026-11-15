@@ -1,0 +1,22 @@
+{
+  "approval_basis_sha256": "78721693edb325cfebe8aca6020d132383af13ebe1f424df4a100daff19a6bdb",
+  "armed": true,
+  "authorization_sha256": "cd840dc47746198718204f861d04549d918246a646366f77ac42f5406785fe24",
+  "date": "2026-11-15",
+  "exact_user_question_answer_read_scope_and_selected_helper_verified": true,
+  "independent_stdlib_only_no_scientific_import_process_or_network": true,
+  "kind": "pretrained-PGD-metadata-read-armed-unused-review",
+  "new_model_GPU_proof_SSH_or_paid_work": false,
+  "no_new_model_attempt_or_array_download_authorized": true,
+  "one_metadata_read_only": true,
+  "original_consumed_claim_response_modes_and_nsmtime_unchanged": true,
+  "original_model_completion_still_unknown": true,
+  "passed": true,
+  "plan_sha256": "79b831e44f8bd681ae46250e0b51f1613ffed8dba5c3142f5d08d2759d359972",
+  "probe_attempt_response_and_SSH_logs_absent": true,
+  "read_seconds": 20,
+  "response_bytes": 1048576,
+  "reviewed_hashes_unchanged": 4331,
+  "transport_seconds_including_login": 180,
+  "unused": true
+}

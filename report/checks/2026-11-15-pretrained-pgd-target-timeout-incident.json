@@ -1,0 +1,84 @@
+{
+  "armed_source_hashes_verified": 4299,
+  "authenticated_scratch_receipt_present": true,
+  "authorization_sha256": "3adf26adf408525d25ef3a53110c1970a47b15d53e6d015733c0e65ab5836189",
+  "claim_sha256": "9d6d9d9daefb9205c40b1e9def841cdbe8b86dd4ccdaba42bae2ce9944d0c28a",
+  "claim_started_UTC": "2026-11-15T15:56:14.688484+00:00",
+  "collected_result_files": 0,
+  "collection_header_present": false,
+  "confirmed_outcome": "SSH collection interrupted after remote scratch creation; model/proof/progress/completion and cause are unknown.",
+  "consumed": true,
+  "control_sha256": "73a036ca9a26253d772b62503ce2c5d18198249f5780d7f53d95f41239a2cb5d",
+  "date": "2026-11-15",
+  "elapsed_is_not_remote_worker_time": true,
+  "financial_caps_holds_pending_reconciliation_unchanged": true,
+  "independent_review": {
+    "old_target_descriptor_sets_unchanged": [
+      242,
+      280,
+      135,
+      245
+    ],
+    "passed": true,
+    "path": "runs/pretrained/diagnostic/predictor-pgd-target-incident-v1-20261115/independent-local-review.json",
+    "prior_armed_hashes_unchanged": 4299
+  },
+  "kind": "pretrained-pgd-target-SSH-timeout-incident-v1",
+  "local_claim_update_UTC": "2026-11-15T16:22:12.635655+00:00",
+  "local_elapsed_to_claim_update_seconds": 1557.9471712112427,
+  "local_parser_error": "JSONDecodeError at frozen collection decoder reading its second JSON line, which is empty.",
+  "local_review_passed": true,
+  "local_session": "runs/pretrained/diagnostic/predictor-pgd-target-v1-20261114/linux10603-ready/attended-b7bvpkm8",
+  "metadata_read_authorized": false,
+  "metadata_read_plan_sha256": "79b831e44f8bd681ae46250e0b51f1613ffed8dba5c3142f5d08d2759d359972",
+  "metadata_read_scope": {
+    "JSON_response_bytes": 1048576,
+    "directory_entry_metadata_only_for_arrays_archive_proof_cache": true,
+    "exact_scratch": "/var/tmp/vjepa-pretrained-pgd-v1-20261114-thdkj93_",
+    "host": "linux10603",
+    "no_model_GPU_proof_or_new_experiment": true,
+    "no_original_clock_or_claim_reset": true,
+    "no_process_enumeration_or_unrelated_command_disclosure": true,
+    "no_remote_file_writes": true,
+    "one_new_read_maximum": 1,
+    "process_presence_only_for_saved_worker_PID_and_exact_command_scratch_match": true,
+    "read_only": true,
+    "read_seconds": 20,
+    "saved_status_JSON_and_bounded_log_tails": true,
+    "transport_seconds_including_login": 180
+  },
+  "metadata_read_source_bytes": 10524,
+  "new_local_tests": {
+    "distinct_checks_final_pass": 29,
+    "history": [
+      {
+        "errors": 0,
+        "failures": 1,
+        "file": "pytest-first.xml",
+        "skipped": 0,
+        "tests": 28
+      },
+      {
+        "errors": 0,
+        "failures": 0,
+        "file": "pytest-corrected.xml",
+        "skipped": 0,
+        "tests": 2
+      }
+    ],
+    "initial_failure": "Historical test fixture path resolved one directory too high; only that failed check plus one new isolated-main check ran after correction. Inspector/client source was unchanged.",
+    "old_successful_tests_or_scientific_cohorts_repeated": 0
+  },
+  "new_metadata_read_prepared": true,
+  "new_model_GPU_proof_SSH_upload_retrieval_cleanup_or_paid_work": false,
+  "new_paid_compute": false,
+  "next": "One new exact metadata-only approval, then arm/read through one user-run bounded helper. Do not repeat the original experiment or start a data download.",
+  "no_scientific_result_admitted": true,
+  "old_source_scope_clock_claim_and_evidence_unchanged": true,
+  "original_attempt_must_not_be_repeated": true,
+  "response_bytes": 234,
+  "response_sha256": "2ca1a84ff7867746b510763956b6797965c02bf08a14b5c49d0c3a46c09e5049",
+  "scratch": "/var/tmp/vjepa-pretrained-pgd-v1-20261114-thdkj93_",
+  "scratch_receipt_last_write_UTC": "2026-11-15T15:56:19.317950+00:00",
+  "user_reported_SSH_message": "Timeout, server linux10603.dc.engr.scu.edu not responding."
+}

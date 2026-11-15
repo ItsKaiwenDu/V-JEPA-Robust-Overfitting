@@ -1,0 +1,91 @@
+{
+  "SSH_stderr_bytes": 0,
+  "current_admission": {
+    "candidate_numerical_or_backend_pass_observed": false,
+    "candidate_numerical_rejection_observed": false,
+    "original_partial_scientifically_admitted": false,
+    "research_or_training_admitted": false
+  },
+  "date": "2026-11-15",
+  "file_timestamp_evidence_UTC": {
+    "input_saved": "2026-11-15T15:58:45.646439+00:00",
+    "last_objective_record": "2026-11-15T15:58:45.664438+00:00",
+    "parent_final": "2026-11-15T16:28:53.587429+00:00",
+    "worker_supervisor_final": "2026-11-15T16:28:53.585429+00:00"
+  },
+  "financial_caps_holds_pending_reconciliation_unchanged": true,
+  "interpretation": {
+    "SSH_disconnect_cause_established": false,
+    "event_count_cap_applies_after_profile_events_materialization": true,
+    "exact_later_subcall_known": false,
+    "file_timestamp_intervals_are_not_performance_units": true,
+    "initial_backward_timeout_interpretation_corrected": true,
+    "last_durable_boundary": "input saved; completion publication absent",
+    "native_backward_returned_before_timeout": true,
+    "possible_unseparated_steps": [
+      "post-save nonzero check/error handling",
+      "prediction-hook removal and native route exit",
+      "profiler stop/teardown",
+      "post-exit model/parameter/target/precision restoration checks",
+      "native proof validation",
+      "profiler event materialization and aggregation",
+      "final proof/completion publication"
+    ],
+    "profiling_is_hypothesis_not_established_cause": true
+  },
+  "kind": "pretrained-PGD-metadata-result-review-v1",
+  "metadata_read_consumed": true,
+  "metadata_read_seconds": 0.0031955568119883537,
+  "metadata_result_bytes": 99646,
+  "metadata_result_sha256": "88ae662136fda47ae1a4e7b720c2d488ea0044aab666b17b7b0d21bcf06da993",
+  "new_model_GPU_proof_SSH_upload_download_cleanup_or_paid_work": false,
+  "new_tests_or_scientific_cohort_repeated": false,
+  "next_local_only": [
+    "Add durable bounded progress checkpoints around post-gradient cleanup/profiling/publication in a NEW version, retaining all native and numerical gates.",
+    "Separate numerical evidence preservation from bounded detailed-profiler lifecycle/processing; do not move a passing marker ahead of required restoration/proof checks.",
+    "Review a smaller representative profiling scope separately; do not simply increase the old timeout, disable guards for speed, rerun the consumed helper or infer performance.",
+    "Prepare any new GPU/retrieval scope concretely before seeking new scoped authorization; no target work is ready or authorized here."
+  ],
+  "original_attempt_outcome": "incomplete technical attempt: worker deadline/SIGALRM after input gradient was saved; no scientific result admitted",
+  "original_control_sha256": "73a036ca9a26253d772b62503ce2c5d18198249f5780d7f53d95f41239a2cb5d",
+  "prior_armed_metadata_hashes_verified": 4338,
+  "progress": {
+    "actual_array_contents_read_or_independently_verified": false,
+    "all_remaining_points_started": false,
+    "backend_summary_published": false,
+    "candidate_gradients_started": 0,
+    "declared_arrays_saved": 37,
+    "declared_input_file_sha256": "ce0f03070efde03053929fbf03c8657220c3fa212a34d7ad957b3f9899a61cd4",
+    "gradient_objectives_started": 1,
+    "input_file_bytes": 12583040,
+    "native_L1_cotangent_arrays": 16,
+    "native_ownership_proof_files_published": false,
+    "original_gradient_call_returned_by_producer_order": true,
+    "original_input_file_saved": true,
+    "original_objective_completion_committed": false,
+    "prediction_arrays": 16
+  },
+  "reported_selected_metadata_bytes_read": 39428,
+  "review_passed": true,
+  "saved_worker_PID_present_at_inspection": false,
+  "scratch": "/var/tmp/vjepa-pretrained-pgd-v1-20261114-thdkj93_",
+  "storage_proof": {
+    "own_proof_file_removed": true,
+    "reported_passed": true,
+    "wall_seconds": 9.717212372925133,
+    "written_and_readback_bytes": 2684354560
+  },
+  "supervisor": {
+    "capture_ceiling": 2415919104,
+    "deadline_reason": "Phase completed after its deadline.",
+    "exit_status": -14,
+    "last_allocated_bytes": 276353024,
+    "last_logical_bytes": 275878254,
+    "parent_wall_seconds": 1954.3094656900503,
+    "signal": "SIGALRM",
+    "storage_or_typed_limit_refusal_observed": false,
+    "work_deadline_seconds": 1920,
+    "worker_wall_seconds": 1942.579457107
+  },
+  "worker_pid": 3891454
+}

@@ -1,0 +1,220 @@
+{
+  "attempt_present": false,
+  "authorization_present": false,
+  "authorized": false,
+  "backend_scope": {
+    "candidate_requires_actual_math_SDPA_GEMM_softmax_CUDA_observations": true,
+    "first_already_counted_original_candidate_pair_only": true,
+    "instrumented_diagnostic_not_an_end_to_end_benchmark": true,
+    "native_roots_checkpoints_inner_math_roots_and_leaf_hooks_verified_separately": true,
+    "no_lean_observer_or_guard_removal": true,
+    "pretrained_GPU_qualified_now": false,
+    "requires_actual_native_owner_efficient_forward_and_native_backward_counts_and_linked_CUDA_kernels": true
+  },
+  "collection": {
+    "new_directories_0700": true,
+    "new_verified_private_receiver_wired_only_to_new_client": true,
+    "no_new_retrieval_connection_or_automatic_retry": true,
+    "one_SSH_connection": true,
+    "original_0400_or_0600_file_mode_and_nsmtime_retained": true,
+    "original_frozen_transport_run_code_object": true,
+    "pinned_readonly_response_FD": true,
+    "unchanged_frozen_framing_hash_mode_nsmtime_decoder_code_object": true
+  },
+  "concrete_readiness": {
+    "actual_overlay_files_verified": 27,
+    "actual_packet_members_extracted_and_verified": 99,
+    "attempt_present": false,
+    "authorization_present": false,
+    "bash_syntax_valid": true,
+    "bootstrap_bytes": 967485,
+    "bootstrap_syntax_compiles": true,
+    "control_sha256": "73a036ca9a26253d772b62503ce2c5d18198249f5780d7f53d95f41239a2cb5d",
+    "known_host_pin_verified": true,
+    "new_model_gradient_CUDA_proof_SSH_or_paid_work": false,
+    "passed": true,
+    "private_extraction_directories_0700_files_0600": true,
+    "source_and_prior_inputs_checked_locally": true,
+    "unarmed_selected_client_refuses_before_claim_session_or_connection": true
+  },
+  "control_sha256": "73a036ca9a26253d772b62503ce2c5d18198249f5780d7f53d95f41239a2cb5d",
+  "date": "2026-11-15",
+  "financial_state_unchanged": {
+    "compute_cap_USD": 160,
+    "conservative_encumbrance_USD": 9.8116,
+    "full_account_reconciliation_complete": false,
+    "historical_inclusive_hold_USD": 2,
+    "historical_unassigned_gap_USD": 0.0792,
+    "last_user_reported_wallet_USD": 6.56,
+    "new_paid_hold_USD": 0,
+    "noncompute_reserve_USD": 40,
+    "project_cap_USD": 200,
+    "single_diagnostic_cap_USD": 10,
+    "unreserved_diagnostic_USD": 0.1884
+  },
+  "full_training_authorized": false,
+  "kind": "pretrained-pgd-target-v1-preparation-review",
+  "new_SSH_upload_university_GPU_proof_install_cleanup_or_paid_work": false,
+  "new_financial_hold_or_release_USD": 0,
+  "new_tests": {
+    "actual_frozen_inventory_and_private_decoder_checked_locally": true,
+    "all_passed": true,
+    "bootstrap_test_runs_actual_in_memory_sources_without_Torch": true,
+    "distinct_checks": 60,
+    "failure_pipeline_tests_are_explicit_SIMULATIONS": true,
+    "gradient_simulations_are_analytic_only": true,
+    "history": [
+      {
+        "errors": 0,
+        "failures": 0,
+        "file": "pytest-first.xml",
+        "skipped": 0,
+        "tests": 47
+      },
+      {
+        "errors": 0,
+        "failures": 0,
+        "file": "pytest-added.xml",
+        "skipped": 0,
+        "tests": 6
+      },
+      {
+        "errors": 0,
+        "failures": 0,
+        "file": "pytest-header.xml",
+        "skipped": 0,
+        "tests": 7
+      }
+    ],
+    "new_model_autograd_SDPA_CUDA_storage_proof_or_SSH_work": false,
+    "old_passing_tests_or_scientific_cohorts_repeated": 0
+  },
+  "numerical_bounds": {
+    "input": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "loss": {
+      "atol": 2e-06,
+      "rtol": 1e-05
+    }
+  },
+  "old_failed_parent_rejected_candidate_and_consumed_claims_unchanged": true,
+  "paid_compute": false,
+  "passed_local_preparation": true,
+  "payload": {
+    "attempt_present": false,
+    "authorization_present": false,
+    "bootstrap_bytes": 967485,
+    "control_sha256": "73a036ca9a26253d772b62503ce2c5d18198249f5780d7f53d95f41239a2cb5d",
+    "fresh_rollout_replay_in_scope": false,
+    "kind": "pretrained-pgd2-r2-iterated-operator-v1",
+    "new_remote_work": false,
+    "no_new_model_or_gradient_objective": true,
+    "overlay_bytes": 331414,
+    "overlay_files": 27,
+    "packet_bytes": 17192095,
+    "prior_sealed_files_verified": 4105,
+    "storage_bound": {
+      "all_capture_category_caps_bytes": 2264924160,
+      "capture_ceiling": 2415919104,
+      "eight_objectives_plus_rollout_and_partial_bytes": 1785532416,
+      "proof_phase_category_bound_bytes": 2902458368,
+      "raw_limit": 1879048192,
+      "setup_ceiling": 3221225472
+    }
+  },
+  "preparation_started": "2026-11-14",
+  "prepared_only_no_new_target_execution": true,
+  "preservation_review": {
+    "independent_stdlib_only": true,
+    "old_byte_mode_nsmtime_descriptor_sets_unchanged": [
+      242,
+      280,
+      135,
+      245
+    ],
+    "passed": true,
+    "path": "runs/pretrained/diagnostic/predictor-pgd-target-v1-20261114/independent-preparation-review.json",
+    "prior_hashes_unchanged": 4105
+  },
+  "proposal": "configs/predictor_pgd_target_v1.json",
+  "remaining_gates": [
+    "Actual pretrained iterated numerical/native-ownership and representative backend results pending this new approval/attempt.",
+    "Fresh pretrained GPU rollout replay is outside this attempt.",
+    "Research PGD20/PGD50 strength and step calibration remain unqualified/unselected.",
+    "End-to-end attack performance, optimizer/recovery/chosen research hardware, full-study cost and adoption remain open."
+  ],
+  "resource": {
+    "allocator_bytes": 7516192768,
+    "bootstrap_bytes": 2097152,
+    "cache_bytes": 33554432,
+    "capture_bytes": 2415919104,
+    "client_seconds": 3000,
+    "code_bytes": 134217728,
+    "collection_bytes": 3221225472,
+    "collection_seconds": 600,
+    "emergency_bytes": 16777216,
+    "final_reserve_seconds": 120,
+    "initial_VJPs_per_candidate": 192,
+    "input_bytes": 134217728,
+    "max_files": 1024,
+    "max_simultaneous_scientific_processes": 1,
+    "metadata_bytes": 67108864,
+    "native_call_rows_per_objective": 4096,
+    "predictor_calls_per_objective": 384,
+    "proof_bytes": 2684354560,
+    "proof_seconds": 60,
+    "raw_bytes": 1879048192,
+    "setup_bytes": 3221225472,
+    "setup_seconds": 180,
+    "tensor_file_bytes": 16777216,
+    "trace_bytes": 8388608,
+    "trace_file_bytes": 4194304,
+    "work_seconds": 2400,
+    "worker_seconds": 1920,
+    "workers": 1
+  },
+  "scientific_port": {
+    "PGD_body_AST_matches_verified_CPU_body_except_name_and_domain_guard": true,
+    "consider_before_backward": true,
+    "fixed_clean_target_masks_start_seeds_projection_and_all_candidate_selection": true,
+    "fresh_actual_native_loss_input_token_per_gradient": true,
+    "frozen_native_proof_and_record_writer_code_objects_reused_with_new_identity_reader": true,
+    "native_call_and_predictor_VJP_caps_per_objective_unchanged": true,
+    "new_opt_in_algorithm_identity": "pretrained-pgd2-r2-eot8-native-input-context-diagnostic-v1",
+    "no_global_autograd_patch": true,
+    "no_grad_scoring_original_forward_outside_custom_contexts": true,
+    "no_optimizer_or_training_policy_registration": true,
+    "same_input_values_saved_before_gates": true
+  },
+  "scope": {
+    "EOT_draws": 8,
+    "PGD_steps": 2,
+    "additional_profile_objectives": 0,
+    "completed_CPU_or_clean_EOT8_cohorts_repeated": 0,
+    "epsilon_255": 4,
+    "fixed_test_step_255": 1,
+    "fresh_GPU_rollout_replay_in_this_scope": false,
+    "fresh_private_parent": "/var/tmp",
+    "host": "linux10603",
+    "independent_original_no_grad_scoring_forwards": 2,
+    "independent_score_draws": 4,
+    "mask_families": 2,
+    "maximum_new_gradient_objectives": 8,
+    "new_candidate_gradients": 4,
+    "new_original_gradients_at_candidate_inputs": 4,
+    "one_attended_attempt": true,
+    "one_scientific_process_at_a_time": true,
+    "original_no_grad_attack_forwards": 4,
+    "profiled_existing_objective_indices": [
+      0,
+      1
+    ],
+    "restarts": 2,
+    "scoring_selects_adversary": false,
+    "test_step_is_research_calibration": false,
+    "warmups": 0
+  },
+  "selected_handoff": "runs/pretrained/diagnostic/predictor-pgd-target-v1-20261114/linux10603-ready"
+}

@@ -2,6 +2,214 @@
 
 ## Current stage
 
+LATEST November 15: METADATA RESULT REVIEWED; POST-GRADIENT FINALIZATION TIMEOUT.
+Read report/checks/2026-11-15-pretrained-pgd-metadata-result-review.json/md.
+Metadata-read-01 PROBE_ATTEMPT consumed; response99646B SHA
+88ae662136fda47ae1a4e7b720c2d488ea0044aab666b17b7b0d21bcf06da993;
+SSHstderr0B, selectedmetadata39428B, readelapsed.00319556s (NOTsciencetiming).
+Actual originalscratch /var/tmp/vjepa-pretrained-pgd-v1-20261114-thdkj93_, original
+CONTROL73a036ca9a26253d772b62503ce2c5d18198249f5780d7f53d95f41239a2cb5d.
+Original ATTEMPT remainsCONSUMED. BOTH helpers/grants nowCONSUMED; no rerun/reset/
+newSSH/retrieval/GPU underthem. MetadataPID3891454 absent atinspection; no signal
+sent or process restarted. Originalparent INCOMPLETE/FAILED dueworker deadline,
+scientific candidate result UNADMITTED, no numericalrejection/pass observed.
+IMPORTANT CORRECTION: first ORIGINAL gradient DID RETURN and input.npy saved
+12,583,040B atserver15:58:45UTC, all37artifactdescriptors present (16pred+16nativeL1
+cots+pixels/targets/masks/loss/input). Do NOT repeat initial erroneous reading
+"backward timed out". Worker laterSIGALRM exit-14, supervisor1942.58s vs1920slimit,
+parent1954.31s. Candidate gradients NEVERstarted; exactly1originalobjective start.
+No native-calls/scopes/VJP/success/failure/backend files published. Partial37arrays
+are metadata-only observations, contents NOTdownloaded/verified/admitted.
+Persistedevents forward/backward doNOTlocateexacthang: exitappendedinmemory only,
+nextdurablewrite AFTER ExitStack/hook/native/profilerexit +restoration/modelchecks/
+nativeproof +profile_summary/events materialization +publication. Exact later
+subcall UNKNOWN; profiling plausible, NOT proven. SSHtimeoutcause UNKNOWN; no OOM/
+contention/reboot/disk-limit diagnosis. No fakeownership/retroactivepass marker.
+Full2.5GiBproof PASS9.7172s withownremoval. Lastcapturelogical275,878,254B/allocated
+276,353,024B<2.25GiB;179filemetadata entries, no typedoverlimit. No final GPUpeak/RSS
+published. Chronology isNOT performance/speed/full-study cost evidence.
+Sourcefacts: profile_summary callslist(profile.events()) BEFORE1M-event countcap;
+capdoesNOTbound materialization. FullEOT8 profiled here, older detailed profile
+onlyone2familydraw. Recordlack means cannot distinguish stop/parse/check/publication.
+NEXT LOCAL ONLY newversion for durable bounded post-gradient boundary breadcrumbs
+(hookremove/nativeexit/profilerstop/restoration/nativeproof/eventsmaterialize/
+publish). Preserveall originalnative/numerical/root/flags/modes/.grad gates; no
+passingmarker before allrequired checks. Review smaller representative profiling
+separately from numericalcapture; doNOTsilentlyremoveguards/observersfor speed or
+justincreaseoldtimeout. Simulatedcallback/sequencing tests ONLY now; no new actual
+model/autograd/SDPA/profiler/CPUgradient/cohort/reference/warmup/targetwork. Completed
+CPU12 and successful cleanGPU cohorts stayfrozen/PASS. No newGPU/retrievalapproval
+ready; afterconcretelocalprep one futureexactnewscope ifneeded. Do not ask manual
+hostname/nvidia-smi for localwork. Allfinancecaps/holds/pendingreconciliation and
+oldfailures/rejections unchanged. Raw metadata-target-pins.json +metadata-result-
+review.json preservecurrentread. Usercommits self; neverstage/commit/push.
+EarlierLATEST historical.
+
+LATEST November 15: METADATA-ONLY INSPECTION USER APPROVED, ARMED, UNUSED.
+Read report/checks/2026-11-15-pretrained-pgd-metadata-read-armed-review.json/md.
+Exact useranswer call_dc438ddb29194849bef8ad51a54ca009 item0
+"Approve one metadata-only inspection (Recommended)" saved under raw
+predictor-pgd-target-incident-v1-20261115/metadata-user-approval.json.
+ONLY selected metadata-read-01 armed. PLAN
+79b831e44f8bd681ae46250e0b51f1613ffed8dba5c3142f5d08d2759d359972;
+AUTH cd840dc47746198718204f861d04549d918246a646366f77ac42f5406785fe24.
+PROBE_ATTEMPT/response/SSHlog ABSENT. IndependentSTDLIB armed-unused reviewPASS
+4331priorhashes+exactbasis/plan/sources/publickey/helper+originalclaim/response
+byte/mode/nsmtime. No newmodel/GPU/proof/SSH/paidwork or repeatedtests/cohorts.
+Approval PERSISTS for EXACT metadata read: no reapproval/manualGPUstatus needed.
+20secREAD/1MiBJSON/3minconnectionincllogin/oneattempt, existinglinux10603 scratch
+/var/tmp/vjepa-pretrained-pgd-v1-20261114-thdkj93_ +presence/stateONLYsavedworkerPIDs.
+10,524B stdlibcode+boundrequest viaSSHstdin, no serverwrites/processlaunch/signals/
+model/proof/GPU/tensorarchivebinaryproofcacheCONTENTS/cleanup/install/paidwork.
+Originalscientific ATTEMPT remainsCONSUMED, partialresponse234B scratch-only,
+scientificcompletion/rootcauseUNKNOWN, no oldclockreset/relaunch/newarraydownload.
+NEXT giveUSER ONE selectedMac metadata-read-01/run-once.sh command. AgentMUSTNOT
+executeSSH/helper. User entersuniversitypasswordlocally/keepsTerminalopen/reports
+Done/error; then FIRST reviewresponse.json+ssh.stderr.log+PROBE_ATTEMPT. Never
+repeatmetadatahelper ororiginalexperiment, resetclaim/clock, orstartretrieval/new
+model underthisgrant. No furtherapproval forunchangedread. Allfinanceholds/caps/
+pendingreconciliation/oldresults stayunchanged; usercommits self. Earlierhistorical.
+
+LATEST November 15: PRETRAINED PGD SSH TIMEOUT; CLAIM CONSUMED, STATUS UNKNOWN.
+Read report/checks/2026-11-15-pretrained-pgd-target-timeout-incident.json/md.
+Actual selected linux10603-ready/attended-b7bvpkm8 under raw predictor-pgd-target-v1-
+20261114. Original CONTROL73a036ca9a26253d772b62503ce2c5d18198249f5780d7f53d95f41239a2cb5d;
+AUTH3adf26adf408525d25ef3a53110c1970a47b15d53e6d015733c0e65ab5836189;
+ATTEMPT9d6d9d9daefb9205c40b1e9def841cdbe8b86dd4ccdaba42bae2ce9944d0c28a
+CONSUMED, scratch /var/tmp/vjepa-pretrained-pgd-v1-20261114-thdkj93_. Original
+response234B SHA2ca1a84ff7867746b510763956b6797965c02bf08a14b5c49d0c3a46c09e5049,
+mode0644 retained insideprivate700parent; exactlyone authenticated scratch-created
+JSON line, NOcollectionheader/results; saved/empty. UserreportedSSH servertimeout.
+JSONDecodeError isSECONDARY parsingemptysecondline; NOT numericalfailureproof.
+Setup/proof/modelprogress/completion/rootcause UNKNOWN. Local claimupdate~1557.95s
+fromstart isNOTworkertime/performance. NEVER originalhelperrelaunch, clock/claim
+reset, copiedpassingmarker, retry or ad hoc SSH/retrieval. No resultadmitted.
+Preservealloriginalrawbytes/modes/nsmtime/source/claims; no chmod/rewrites. Original
+8gradient40min exception consumed; remaining scientificwork not inferred/reset.
+New LOCALmetadata-only inspector PREPARED/UNARMED under raw
+predictor-pgd-target-incident-v1-20261115/metadata-read-01. PLAN/source/key pinned;
+newAUTHORIZATION/PROBE_ATTEMPT/response/SSHlogs ABSENT. 10,524B stdlibcode +bound
+request viaSSHstdin, EXACTold scratch only +presence/state forPIDssavedinworker
+metadata (commandmustmatchscratch/script, no processenumeration/unrelatedargv).
+20secREAD,1MiBJSONresponse,3minconnectionincllogin,ConnectTimeout15,1connectionattempt.
+Read filenames/sizes/modes/mtime, allowlistedstatusJSON inclallocationRESULTmetadata
+andbounded16KiBlogtails; NOtensor/archive/binaryproof/cache CONTENTS. Runtimeaudit
+refusesserverwrites/processlaunch/signals/newnetwork; no model/proof/CUDA/GPU/status
+sampling/cleanup/install/paidcompute or oldtimerchange. One-readnewclaim, noretry.
+A new metadata-only approval is required before this separate SSH connection.
+Reason: original approved scope allowed one SSH with same-session collection and
+explicitly excludes another connection; consumed grant does not cover this read.
+NEXT askONEexactmetadataapproval aftercompletedprep/review; no new GPUattempt,
+arraydownload or repeatedmanualhostname/nvidia-smi. Do not executeagentSSH/helper.
+Afteractualapproval, savebasis/armONLYmetadata-read-01/verifyarmedunused then give
+ONE selected Mac metadatahelper toUSER. AwaitDone/error thenreviewresponseFIRST.
+29distinctNEWlocalchecks finalPASS: first27pass1fail(testhistoricalfixturepath),
+ONLYfailed1+1newisolatedmain nextPASS2. Initial/correctedsources/failurelogkept.
+Originalboundedread_small AST retained; actualreadonlyaudit testedisolatedfixture,
+no realnetwork/model/proof/GPU. IndependentSTDLIB reviewPASS4299armedhashes+original
+claim/responsebyte/mode/nsmtime +242/280/135/245oldtargetdescriptors, exactnewplan/
+key/bounds/29tests/unarmedstate. No passingoldtests/scientificcohort repeated.
+Rawincident original-evidence-pins.json and independent-local-review.json.
+All old numericalrejections/failedparents/CPUcleanpasses/caps/holds/pendingfinancial
+reconciliation unchanged; no paidhold/release. Fulltraining/iteratedGPU/backend/
+researchPGD20/50/calibration/replay/performance/cost/adoption remainunqualified.
+Userstages/commits/pushes self;neverstage/commit/push. EarlierLATEST historical.
+
+LATEST November 15: PRETRAINED PGD2/R2 USER APPROVED, ARMED, UNUSED.
+Read report/checks/2026-11-15-pretrained-pgd-target-v1-armed-review.json/md.
+Actual approval call_31a4a86bd4a8448cab1149150a57d6f9 item0 answer
+"Approve one bounded university attempt (Recommended)" accepted; exact question/
+answer saved raw predictor-pgd-target-v1-20261114/user-approval.json.
+Selected linux10603-ready ONLY; CONTROL
+73a036ca9a26253d772b62503ce2c5d18198249f5780d7f53d95f41239a2cb5d;
+AUTHORIZATION
+3adf26adf408525d25ef3a53110c1970a47b15d53e6d015733c0e65ab5836189.
+ATTEMPT/attended/download sessions ABSENT. IndependentSTDLIB armed-unused review
+PASS4291priorpreparationhashes +exactbasis/control/sources/resources/publichostpin/
+selectedhelper. NO model/GPU/proof/SSH/upload/paidwork or suite/cohort repeats.
+Approval PERSISTS: no reapproval or repeated manual GPU status for unchanged scope.
+ScopeUNCHANGED:17,192,095B trainingpacket +27overlays331,414B +boundmetadata incl
+existingbudget; linux10603freshprivatevar_tmp ONLY; PGD2/R2 EOT8/2families, four
+candidate+four same-input-original=8gradients MAX. Profile first counted pair only,
+no extraobjectives/warmups/cleanorCPUcohort reruns/freshGPUrolloutreplay. Testalpha
+1/255 isNOTresearchcalibration. 40minworkinclFULL2.5GiBproof, ONE<=32minworker,
+10min/3GiBsameSSHcollection,50minclientincllogin. Setup3GiB/capture2.25GiB/raw1792MiB/
+metadata64MiB/backend8MiB/allocator7GiB, original numerical/native/selection/flags/
+method/privateF/hooks/.grad/versions and strict live GPU/storage guards unchanged.
+No retries/oldclaimreset/cleanup/install/privatekeys/heldout/paidwork. Finances,
+oldfailures and consumed CPU/clean results unchanged. No research/fulltraining
+admission inferred; actual target iterated/backend results stillOPEN.
+NEXT GIVE USER ONE SINGLE selected Mac command. Agent MUST NOT execute SSH/helper.
+User keeps Mac/lid/Terminalawake/open, passwordlocal, awaits SAME SSH collection,
+reportsDone/error. Then inspect newATTEMPT/response/evidence FIRST. Neverrelaunch,
+resetclock/claim/grant or initiate a new retrieval connection under this grant.
+If only status/question arrives while run active, answer and keep task context.
+User stages/commits/pushes self; neverstage/commit/push.
+EarlierLATEST historical.
+
+LATEST November 15: PRETRAINED PGD2/R2 ITERATED HANDOFF PREPARED, UNARMED.
+Read report/checks/2026-11-15-pretrained-pgd-target-v1-preparation-review.json/md
+and docs/predictor_pgd_target_v1.md. New immutable config predictor_pgd_target_v1.json
+SHA c7bb7f3af5e6b9e65ac746177b657ae966e2bc50171a6e5b516e30b848252960.
+Selected raw predictor-pgd-target-v1-20261114/linux10603-ready; CONTROL
+73a036ca9a26253d772b62503ce2c5d18198249f5780d7f53d95f41239a2cb5d.
+Nov14 artifact identities retained after midnight; reviewdateNov15. Actual
+AUTHORIZATION/ATTEMPT/sessions ABSENT. NO new university/SSH/helper/upload/GPU/
+model/autograd/SDPA/storage-proof/install/cleanup/paidwork. Local preparation only.
+One new exact scoped university approval is required before arming, upload, or work.
+Earlier grants are consumed/different scopes; latest user Continue authorizes
+local prep, not this new target exception. Ask ONE new scope only after completed
+concrete prep/review; do not ask repeated manual hostname/nvidia-smi. Helper has
+strict live pre/during GPU guards; leave all other compute processes alone.
+Proposed one attended linux10603 freshprivatevar_tmp: PGD2/R2 EOT8/2families,
+4candidate+4same-input-original gradients=8maximum, NO completed clean/CPU cohort
+reruns and NO fresh GPU rollout replay in this attempt. Fixedtestalpha1/255 NOT
+researchcalibration. Four original no-grad attack forwards+two independent score
+forwards outsidecustomcontexts; scoring neverselects. Fresh actual native token
+pergradient; considerbeforebackward; original loss/input bounds unchanged.
+One32min serial scientificworker within40minwork inclFULL2.5GiB allocation/write/
+fsync/readbackproof; then10min3GiBsameSSHcollection;50minclientincludinglogin.
+Perobjective old4096native-row/384predictorcall/192initialVJP caps unchanged;
+actual original owner/roots/checkpoints/innerroot+leaf/privateF/flags/modes/.grad/
+versions and all-iterate selection checked. Profile ONLY first ALREADY-COUNTED
+original/candidate perturbed pair (indices0/1), no warmups/extraobjectives. Require
+actual efficientforward/nativebackward+candidatepublicmath GEMM/softmax CUDA kernels
+and ancestry. Full observation retained; NOT end-to-end benchmark/performance.
+Payload unchanged17,192,095B training/referencepacket +27verifiedoverlays331,414B
+incl2explicitpackageinitializers +boundmetadata inclOLDfinancialsnapshot. Bootstrap
+967,485B<2MiB. No newweights/deps/privatekeys/heldout. Actual99fileextract/27overlays/
+sourcepins/publichostpin/private700dirs600files/unarmedclient/bashsyntax verified.
+Setup3GiB/capture2.25GiB/raw1792MiB/metadata64MiB/code128MiB/input128MiB/cache32MiB/
+emergency16MiB/allocator7GiB; individualarrays16MiB, backend8MiBtotal4MiBperfile.
+Two restartnoise files preserve16MiBcap. Rawfullarray+headers+root+onepartial
+1,785,532,416B<1,879,048,192B; allcapturecategorycaps2,264,924,160B<2,415,919,104B;
+proofphase2,902,458,368B<3,221,225,472B. Logical/allocated/dirs/inodes/free/caps
+monitored. Strict inventoryrefusals fatal, no guard widening or cleanup/retry.
+Original singleSSH transport run CODEOBJECT retained; ONLY newclient uses verified
+private_collection_v1 receiver with frozen framing/hash/mode/nsmtime decoder and
+held readonly sourceFD; 700 localparents; oldclients/rawmirrors unchanged.
+60DISTINCTnewcoldchecks ALLPASS (47initial+6newpipeline+7newheader), no passingtests
+repeated. Actualbootstrap loads WITHOUTTorch, source/science ASTs checked. Analytic
+gradients/fakeprofile/proof/worker/connection tests are EXPLICIT SIMULATIONS, NOT
+native qualification. Three actual failure-pipeline simulations exercise original
+framing/privatecollection; no realproof/GPU/processmodel. First/second/finalsource
+snapshots+logs retained. IndependentSTDLIB audit PASSED4105priorhashes+242/280/135/
+245oldbyte/mode/nsmtime descriptors, sources/control/resources/publickey/60tests/
+unarmedstate, no scientificimports/process/network. CPUactual12objectives remain
+consumed/PASS; cleanEOT8 chain staysclosed; old3724rejection/failedparent/claims and
+all financialcaps/holds/pendingreconciliation unchanged. No newpaidhold/release.
+NEXT after exact approval: save actual basis, arm ONLY selectedCONTROL without
+changing any scope/source, independently verify armed-unused state, then give one
+selected Mac command for USER. Agent must not execute SSH/helper. User keeps Mac/
+lid/Terminalawake, passwordlocal, awaits sameSSHcollection, reportsDone/error.
+Then inspect new claim/evidence first; neverrelaunch/resetclock/claim or start a
+new retrieval connection without review. PretrainediteratedGPU/backend actual
+result stillOPEN. FreshGPUrolloutreplay/PGD20/50/strength/calibration/endtoendcost/
+performance/optimizer/recovery/chosenhardware/full-study/adoption/fulltraining
+remainOPEN/unadmitted. Do not infer performance from instrumented walls. User
+stages/commits/pushes self; neverstage/commit/push.
+EarlierLATEST historical.
+
 LATEST November 14: TINY CPU PGD2/R2/EOT8 CONTEXT + FRESH ROLLOUT VERIFIED PASS.
 Read report/checks/2026-11-14-predictor-pgd-context-cpu-v1-local-review.json/md,
 docs/predictor_pgd_cpu_v1.md and configs/predictor_pgd_cpu_v1.json. New opt-in
