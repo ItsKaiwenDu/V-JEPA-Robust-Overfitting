@@ -2,6 +2,52 @@
 
 ## Current stage
 
+LATEST November 15: HYBRID METADATA READER VERIFIED; NO TARGET GRANT READY.
+Read report/checks/2026-11-15-pgd-split-backend-v1-local-reader-review.json/md,
+docs/predictor_pgd_split_backend_v1.md +configs/predictor_pgd_split_backend_v1.json.
+New predictor_pgd_split_backend_v1 +local check_predictor_pgd_split_backend_v1.py
+assess savedRAWmetadata ONLY. NativeefficientF/B vsnativeefficientF/custommathB.
+Exactpinnedold rawprojection reused; oldsamefamilyvalidator/association unchanged,
+stillREFUSEhybrid. Outer customproducer andeachinnermatrix/softmaxproducer joined
+SEPARATELY byactualrecordedsourceTHREAD+SEQUENCE,uniqueCPUproducerchain,direct
+engine/nodeparent +source/enclosingscope. CPUintervalsnecessary notidentityalone.
+Support same/cross-outer/cross-inner/back-to-caller threads. RequirepositiveGPU
+launchlinks toqualifiedfrontendCPUhosts; everymatrix/softmaxop needs kernel.
+No name/duration identity,globalindividualGPU-IDuniqueness,rawrowdeletion/rewrite/
+repair/truncation. Preserve strictexistingoverhead/GPUannotation signatures;
+neither canownlaunchwitness. Nativeactivitykind/binarycommit NOTobserved.
+4MiB/20kraw,128ancestry,16anchors,128KiBassessment. Privateevents.json only,
+SHA/700parent/600singlelink/heldinode/mode/extent/nsmtime checks; racesREFUSE.
+OutputallscientificadmissionsFALSE: bindingssyntax/context ONLY,notauthenticated
+lineage/geometry/accuracy/actualGraphTask/root/leaf/CUDA/worker/fullEOT8/replay/
+performance/cost/training. Synthetic/source-supported _Attention names are NOT
+newruntimeobservations. PyTorch2.8 primarysources linkedindoc supportthread+seq,
+customtype recording +collectorenginefield inheritance; no actualprofiling now.
+123DISTINCT NEWmetadata checks ALLPASS:114initial+ONLY9newIO/linkregressions,zero
+errors/failures/skips/repeatedpassingchecks. Reader/CLI unchangedafterinitialrun;
+oldtestbodies unchangedwhenappended. IsolatedlocalCLI blocksTorch/NumPy/timm,
+childlaunch/network INSIDEauditor; no model/tensor/autograd/SDPA/profiler/GPU/
+SSH/proof/retrieval/cleanup/paidwork. Bothsnapshots/logs/JUnits kept raw
+predictor-pgd-split-backend-v1-20261115. IndependentSTDLIB savedreviewPASS4535prior
+hashes+242/280/135/245/5/3 byte/mode/nsmtime groups,4syntheticanchors/7launchlinks.
+AlloldgrantsCONSUMED,oldtimeoutcauseUNKNOWN,oldoriginalbackwardRETURNED,
+partialsUNADMITTED; frozenCPU/cleanGPU cohorts andoldnumericalrejections unchanged.
+NEXT LOCAL ONLY build/test separately bounded COMPONENT route/lifecycle using
+FROZEN candidate forward/mathVJP arithmetic and actualouter/innerroot+3leafproof
+rules. Cold/AST/simulatedchecks ONLY; no actualmodel/autograd/SDPA/profiler/newCPU
+orGPUgradients/cohorts/references/warmups/SSH/proof/retrieval/cleanup/paidwork now.
+Oldtarget._State hasno standaloneentry andoldall-math component worker incompatible;
+newcomponentidentity/scope needed,neverweakenoldnativefullmodelcaps/gates. Keep
+originalflags/layouts/aliases/versions/modes/privateF/owner/root/hook/.grad and
+firstorder/singleuse/restoration checks. Then newnumerical/progress-v2/inventory/
+parentwallRSS/collection integration/sourcepackage beforeONEexactfutureuniversity
+scope. No targetrunner/helper/authorizationready,no repeatedmanualGPUstatus now.
+Splitdesign c5daae30cbe4043cf4d5265de2a2a7420d015ab1e244cc3d74fcc93b5f0186af
+staysFROZEN:8fullgrad+2EXTRAcomponentVJPs,representativebackendONLY,28minnumerical/
+40mintotal+10mincollection; oldexception notreset. All financialcaps/holds/
+reconciliation/traininggates unchanged. Userstages/commits/pushes self;neverdoit.
+EarlierLATEST historical.
+
 LATEST November 15: SPLIT-PROFILE LOCAL DESIGN VERIFIED; NO TARGET GRANT READY.
 Read report/checks/2026-11-15-pgd-split-profile-v1-local-design-review.json/md,
 docs/predictor_pgd_split_profile_v1.md and configs/predictor_pgd_split_profile_v1.json.

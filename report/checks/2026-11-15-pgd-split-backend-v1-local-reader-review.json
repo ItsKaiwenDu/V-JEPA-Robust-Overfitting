@@ -1,0 +1,115 @@
+{
+  "admission_limits": {
+    "CUDA_execution_worker_completion_full_EOT8_backend_replay_performance_cost_or_training_admitted": false,
+    "bindings_authenticated": false,
+    "geometry_numerical_accuracy_or_native_root_leaf_GraphTask_proof_verified": false,
+    "native_activity_kind_or_installed_binary_commit_observed": false
+  },
+  "date": "2026-11-15",
+  "design": {
+    "path": "configs/predictor_pgd_split_profile_v1.json",
+    "sha256": "c5daae30cbe4043cf4d5265de2a2a7420d015ab1e244cc3d74fcc93b5f0186af"
+  },
+  "financial_caps_holds_pending_reconciliation_unchanged": true,
+  "frozen_prior_scientific_cohorts_repeated": false,
+  "implementation": {
+    "complete_private_source_bytes_checked_before_decode": true,
+    "cross_thread_custom_and_inner_association_supported": true,
+    "exact_positive_GPU_host_links_required": true,
+    "frozen_raw_projection_source_pinned": true,
+    "globally_unique_individual_GPU_correlation_ID_assumed": false,
+    "kernel_name_or_duration_used_as_identity": false,
+    "old_same_family_verifier_unchanged_and_still_refuses_hybrid": true,
+    "outer_and_inner_producer_keys_separate": true,
+    "overhead_or_GPU_annotation_can_qualify_as_kernel": false,
+    "raw_rows_removed_or_rewritten": false,
+    "recorded_source_thread_sequence_and_engine_node_parent_required": true
+  },
+  "independent_preservation": {
+    "all_old_claims_stay_consumed": true,
+    "byte_mode_nsmtime_checks": true,
+    "historical_descriptor_counts_verified": [
+      242,
+      280,
+      135,
+      245,
+      5,
+      3
+    ],
+    "prior_hashes_verified": 4535,
+    "saved_synthetic_launch_links_checked": 7,
+    "saved_synthetic_producer_anchors_checked": 4
+  },
+  "kind": "predictor-PGD-split-backend-v1-local-reader-review",
+  "limits": {
+    "ancestry_depth": 128,
+    "assessment_bytes": 131072,
+    "local_CLI_report_bytes": 262144,
+    "producer_anchors": 16,
+    "raw_events": 20000,
+    "raw_file_bytes": 4194304
+  },
+  "new_model_autograd_SDPA_profiler_CPU_gradient_GPU_SSH_proof_retrieval_cleanup_paid_work": false,
+  "new_target_runner_or_authorization_ready": false,
+  "next_local_only": "Build the separately bounded component route and lifecycle with frozen candidate arithmetic plus real outer/inner root/leaf ownership rules. Use cold/AST/simulated checks only; no new actual gradients/model/profiler or target work without a separately reviewed scope.",
+  "policy": "pgd-native-forward-math-backward-metadata-v1",
+  "primary_source_support": [
+    {
+      "finding": "Backward node profiling carries the source forward thread and sequence; sequence numbers alone are thread local.",
+      "url": "https://github.com/pytorch/pytorch/blob/v2.8.0/torch/csrc/autograd/function.h"
+    },
+    {
+      "finding": "Custom forward recording uses its Python type name and sequence; the backward node name comes from its context type.",
+      "url": "https://github.com/pytorch/pytorch/blob/v2.8.0/torch/csrc/autograd/python_function.cpp"
+    },
+    {
+      "finding": "Collection transfers sequence and forward-thread fields from a backward node to its preceding engine annotation.",
+      "url": "https://github.com/pytorch/pytorch/blob/v2.8.0/torch/csrc/profiler/collection.cpp"
+    }
+  ],
+  "recipes": {
+    "forward-preserving": {
+      "efficient_backward": 0,
+      "efficient_forward": 1,
+      "math_forward_in_backward": 1
+    },
+    "native": {
+      "efficient_backward": 1,
+      "efficient_forward": 1,
+      "math_forward_in_backward": 0
+    }
+  },
+  "review_passed": true,
+  "saved_independent_review": {
+    "bytes": 1199,
+    "path": "runs/pretrained/diagnostic/predictor-pgd-split-backend-v1-20261115/independent-local-review.json",
+    "sha256": "19ba89c1164402067ee81fab1379f3157d214a4ffe862f0c605bb83570b935cc"
+  },
+  "saved_test_results": [
+    {
+      "bytes": 19957,
+      "path": "runs/pretrained/diagnostic/predictor-pgd-split-backend-v1-20261115/pytest-01.xml",
+      "sha256": "0c0364c300aeea90187d46a3bbcff2e798d769c0d61cefd440ba0b8fafe0cd3d"
+    },
+    {
+      "bytes": 1631,
+      "path": "runs/pretrained/diagnostic/predictor-pgd-split-backend-v1-20261115/pytest-02.xml",
+      "sha256": "bf173813c3eb7d1d8b8706aae9140e103686fea7742782e20a159aaccc1c624b"
+    }
+  ],
+  "scientific_qualified": false,
+  "scope": "New metadata-only reader, private saved-file loader and local auditor for native-forward/math-backward component recipes.",
+  "tests": {
+    "actual_scientific_objectives": 0,
+    "distinct_new_checks": 123,
+    "errors": 0,
+    "existing_test_bodies_unchanged_when_cases_added": true,
+    "failures": 0,
+    "initial_synthetic_checks": 114,
+    "isolated_CLI_blocks_scientific_imports_process_and_network_calls": true,
+    "new_io_owner_regressions": 9,
+    "passing_tests_repeated": 0,
+    "reader_and_CLI_unchanged_after_initial_tests": true,
+    "skips": 0
+  }
+}

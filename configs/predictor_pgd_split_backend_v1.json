@@ -1,0 +1,118 @@
+{
+  "CPU_identity_rule": "source thread plus sequence, unique nested producer chain, direct matching engine/node and source/enclosing scope",
+  "GPU_global_unique_correlation_id_assumed": false,
+  "GPU_identity_rule": "raw event index and recorded GPU linked correlation to its exact frontend CPU host",
+  "actual_model_autograd_SDPA_profiler_GPU_SSH_proof_retrieval_cleanup_paid_work": false,
+  "binding_fields": [
+    "design_sha256",
+    "control_sha256",
+    "boundary_sha256",
+    "probe_index"
+  ],
+  "binding_lineage_authenticated": false,
+  "date": "2026-11-15",
+  "design": {
+    "path": "configs/predictor_pgd_split_profile_v1.json",
+    "sha256": "c5daae30cbe4043cf4d5265de2a2a7420d015ab1e244cc3d74fcc93b5f0186af"
+  },
+  "financial_caps_holds_pending_reconciliation_unchanged": true,
+  "frozen_projection_sources": {
+    "models/predictor_sdpa_component_events_v1.py": "c1397e06ca89d1299a7d853e6c88124d1cc7874aae3f5763f018fbc67bd195fc",
+    "models/predictor_sdpa_component_events_v2.py": "ebde9c0f32078979cfa5920503004bb79ca697fdc05d7adacbfc59bde41f515a",
+    "models/predictor_sdpa_launch_evidence_v1.py": "c9749407f3d237050252ec7e9d4831c901df813a35b3b4a38ad8d693e0e1899f",
+    "models/predictor_sdpa_launch_evidence_v2.py": "05f99a96ca34d65c4167cdbd37f97600b14468aa08fbfe5aa9b581b72e5fdddb"
+  },
+  "geometry_accuracy_root_leaf_GraphTask_worker_GPU_replay_performance_training_qualified": false,
+  "inner_producers": {
+    "BmmBackward0": [
+      "aten::bmm"
+    ],
+    "MmBackward0": [
+      "aten::mm"
+    ],
+    "SafeSoftmaxBackward0": [
+      "aten::_safe_softmax"
+    ],
+    "SoftmaxBackward0": [
+      "aten::_softmax",
+      "aten::softmax"
+    ]
+  },
+  "input": {
+    "complete_bounded_bytes_before_decode": true,
+    "duplicate_JSON_keys_nonfinite_or_trailing_input": "refuse",
+    "expected_sha256": true,
+    "file": "events.json",
+    "format": "fixed-SDPA-raw-Kineto-correlation-v1",
+    "held_source_and_parent_inode_mode_size_nsmtime_checks": true,
+    "required_file_mode": "0600",
+    "required_parent_mode": "0700",
+    "single_link": true,
+    "source_api": "torch.profiler.profile.profiler.kineto_results",
+    "tensor_archive_or_processed_trace_fallback": false,
+    "torch_version": "2.8.0+cu128"
+  },
+  "kernel_name_or_duration_used_as_identity": false,
+  "kind": "pgd-split-profile-local-metadata-reader-v1",
+  "limits": {
+    "ancestry_depth": 128,
+    "assessment_bytes": 131072,
+    "local_CLI_report_bytes": 262144,
+    "producer_anchors": 16,
+    "raw_events": 20000,
+    "raw_file_bytes": 4194304
+  },
+  "local_only": true,
+  "native_activity_kind_or_installed_binary_commit_observed": false,
+  "new_checks": {
+    "distinct": 123,
+    "failures": 0,
+    "initial_run": 114,
+    "new_io_regressions_only": 9,
+    "repeated_passing_checks": 0,
+    "skips": 0
+  },
+  "new_target_execution_permitted": false,
+  "next_local_only": "Build the separately bounded component route/lifecycle using frozen candidate arithmetic and real root/leaf proof rules; cold/AST/simulated tests only before target integration.",
+  "outer_custom": {
+    "backward": "_AttentionBackward",
+    "forward": "_Attention"
+  },
+  "policy": "pgd-native-forward-math-backward-metadata-v1",
+  "primary_source_support": [
+    {
+      "finding": "Backward node profiling carries the source forward thread and sequence; sequence numbers alone are thread local.",
+      "url": "https://github.com/pytorch/pytorch/blob/v2.8.0/torch/csrc/autograd/function.h"
+    },
+    {
+      "finding": "Custom forward recording uses its Python type name and sequence; the backward node name comes from its context type.",
+      "url": "https://github.com/pytorch/pytorch/blob/v2.8.0/torch/csrc/autograd/python_function.cpp"
+    },
+    {
+      "finding": "Collection transfers sequence and forward-thread fields from a backward node to its preceding engine annotation.",
+      "url": "https://github.com/pytorch/pytorch/blob/v2.8.0/torch/csrc/profiler/collection.cpp"
+    }
+  ],
+  "raw_rows_removed_or_rewritten": false,
+  "recipes": {
+    "forward-preserving": {
+      "efficient_backward": 0,
+      "efficient_forward": 1,
+      "math_forward_in_backward": 1
+    },
+    "native": {
+      "efficient_backward": 1,
+      "efficient_forward": 1,
+      "math_forward_in_backward": 0
+    }
+  },
+  "same_family_validator_modified_or_reused_for_hybrid": false,
+  "scientific_qualified": false,
+  "sources": {
+    "models/predictor_pgd_split_backend_v1.py": "f994c5037b4fbf507eeeb71f3df41eac26ec5f21b052d8faa89052b08fb31e2f",
+    "scripts/check_predictor_pgd_split_backend_v1.py": "4ddff74df1bdcca1c42a6c6e0fa5c6535f7469ac0dbd65bdf8b49a9a48d975f6",
+    "tests/test_predictor_pgd_split_backend_v1.py": "8aafe32c6dc74e952ba77e722cf00f42a2d24a4fa7426b7a5de7f69b166c5e46"
+  },
+  "strict_overhead_GPU_annotation_projection_retained": true,
+  "target_runner_available": false
+}

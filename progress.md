@@ -1,5 +1,20 @@
 # Research Progress Reports
 
+## 2026-11-15 — Hybrid backend metadata reader passes synthetic checks
+
+The local reader now separates native forward, custom outer backward and inner
+math producer association using recorded thread/sequence fields and exact GPU/CPU
+launch links. It retains the frozen projection and strict overhead/annotation
+rules. Metadata matches leave all actual execution and scientific admissions false.
+
+All 123 new checks pass across two disjoint runs (114 initial and nine new
+regressions). No passing check or scientific cohort was repeated. Independent
+review preserves 4,535 prior hashes and historical file metadata; no model,
+gradient, profiler or remote work ran. Next build the bounded component route
+and lifecycle with frozen arithmetic and actual root/leaf proof rules. A target
+run remains unprepared and training qualification stays open. See the
+[local reader review](report/checks/2026-11-15-pgd-split-backend-v1-local-reader-review.md).
+
 ## 2026-11-15 — Smaller profiling scope and joint budget defined locally
 
 The local design retains eight matched EOT8 numerical gradients and proposes two
