@@ -1,0 +1,157 @@
+{
+  "actual_model_tensor_array_math_autograd_SDPA_profiler_CPU_gradient_GPU_real_PID_handle_signal_SSH_upload_proof_retrieval_cleanup_paid_work": false,
+  "all_actual_numerical_CUDA_backend_accuracy_replay_performance_cost_training_admissions": false,
+  "authorized": false,
+  "component": {
+    "GPU_allocator_bytes": 7516192768,
+    "clock_covers_startup_source_checks_profiler_stop_raw_extract_and_publish": true,
+    "extra_hybrid_inner_VJP": 1,
+    "final_journal_return_required": true,
+    "forward_per_role": 1,
+    "fresh_processes_required": 2,
+    "outer_VJP_per_role": 1,
+    "parent_RSS_bytes": 4294967296,
+    "progress_bytes": 65536,
+    "progress_row_bytes": 1024,
+    "progress_rows": 64,
+    "raw_saved_before_semantic_validation": true,
+    "resource_receipt_and_parent_metadata_join_required": true,
+    "roles": [
+      "native",
+      "forward-preserving"
+    ],
+    "route_root_leaf_first_order_single_use_unchanged": true,
+    "trace_bytes_each": 4194304,
+    "trace_events_max": 20000,
+    "wall_seconds": 120,
+    "warmups_replays_FP64_reference_builds": 0
+  },
+  "date": "2026-11-15",
+  "design": {
+    "path": "configs/predictor_pgd_split_profile_v1.json",
+    "sha256": "c5daae30cbe4043cf4d5265de2a2a7420d015ab1e244cc3d74fcc93b5f0186af"
+  },
+  "financial_caps_holds_pending_reconciliation_unchanged": true,
+  "kind": "pgd-split-probe-local-integration-v1",
+  "local_only": true,
+  "new_checks": {
+    "added_flag_checks_only": 3,
+    "distinct": 93,
+    "errors": 0,
+    "failures": 0,
+    "historical_test_functions_or_scientific_cohorts_repeated": false,
+    "initial_run": 90,
+    "parent_proc_handle_checks": 29,
+    "passed": 93,
+    "probe_lineage_source_lifecycle_checks": 64,
+    "repeated_passing_checks": 0,
+    "runs": 2,
+    "skips": 0
+  },
+  "old_claims_clocks_rejections_partial_admissions_unchanged": true,
+  "parent_monitor": {
+    "RSS_source": "smaps_rollup Rss; sum observed processes",
+    "actual_target_kernel_PIDFD_support_observed": false,
+    "all_observed_task_children_enumerated": true,
+    "launches_processes": false,
+    "max_observed_processes": 64,
+    "max_samples": 2400,
+    "max_threads_per_process": 512,
+    "numeric_PID_signal_fallback": false,
+    "phase_deadline_includes_original_launch": true,
+    "poll_seconds": 0.1,
+    "proc_child_enumeration_is_exhaustive": false,
+    "reads_actual_proc_or_signals_in_current_checks": false,
+    "root_handle_bound_before_first_poll_or_reap_required": true,
+    "same_uid_birth_parent_session_checked": true,
+    "sampling_is_instantaneous_kernel_or_address_space_quota": false,
+    "signals_via_held_owned_pidfd_only": true,
+    "termination_grace_seconds_max": 2,
+    "termination_grace_uses_existing_overall_overhead": true,
+    "work_deadline_extended": false
+  },
+  "primary_sources": [
+    {
+      "finding": "Stat birth/parent/session fields, smaps_rollup resident memory, and task-specific recursive child enumeration; child lists can miss exits and are not exhaustive.",
+      "url": "https://www.kernel.org/doc/html/v6.11/filesystems/proc.html"
+    },
+    {
+      "finding": "PID handles refer to a process for management without numeric PID reuse races; API availability is Linux >=5.3.",
+      "url": "https://docs.python.org/3.11/library/os.html#os.pidfd_open"
+    },
+    {
+      "finding": "Signals target the process held by a PID descriptor, rather than a numeric PID.",
+      "url": "https://docs.python.org/3.11/library/signal.html#signal.pidfd_send_signal"
+    }
+  ],
+  "provider_ASTs": [
+    "observer",
+    "boundary",
+    "providers",
+    "startup",
+    "raw",
+    "route"
+  ],
+  "raw_stage": "runs/pretrained/diagnostic/predictor-pgd-split-probes-v1-20261115",
+  "reconstruction": {
+    "backing_bytes_per_alias_group": 16777216,
+    "captured_original_attention_flags_checked_before_construction": true,
+    "device": "cuda:0",
+    "dtype": "float32",
+    "logical_strides_offsets_aliases_verified_after_all_copies": true,
+    "native_physical_alignment_identity_claimed": false,
+    "operands": [
+      "q",
+      "k",
+      "v",
+      "grad_output"
+    ],
+    "original_boundary_native_call_rows": 1152,
+    "serialized_tensor_bytes": 4194304,
+    "shape": [
+      1,
+      12,
+      2048,
+      32
+    ],
+    "source_and_reconstructed_versions_distinct": true,
+    "unknown_padding_filled_zero": true
+  },
+  "remaining_before_target": [
+    "Finish and source-pin actual runtime namespace/entry assembly; unbound ports must not be replaceable by arbitrary callbacks. Retain four worker threads and the captured runtime/precision/attention flags in the actual binding.",
+    "Implement complete scratch/input/code/cache/proof/live-free-space/inode guards around the separate private result/log namespace.",
+    "Integrate both parent child launches, original work-phase clocks, same-SSH bounded collection and final combined receipt.",
+    "Review the complete source package/scope independently before one exact new university approval; live PIDFD support remains unobserved."
+  ],
+  "source_join": {
+    "historical_clean_or_partial_boundary_substitution": false,
+    "metadata_join_alone_authenticates_execution": false,
+    "requires_equal_boundary_and_final_native_calls_scopes": true,
+    "requires_full_input_identity_and_logical_pixel_digest": true,
+    "requires_new_complete_eight_objective_numerical_worker": true,
+    "requires_new_restored_original_objective_zero": true
+  },
+  "source_preservation": {
+    "boundary_reversible_edits": 5,
+    "candidate_arithmetic_frozen": true,
+    "device_operand_AST_and_compiled_body_exact": true,
+    "native_observer_class_AST_exact": true,
+    "native_scope_tensor_load_CPU_rebuild_AST_exact": true,
+    "observer_reversible_edits": 1,
+    "raw_reversible_edits": 1,
+    "startup_module_AST_exact": true
+  },
+  "sources": {
+    "models/predictor_pgd_split_lineage_v1.py": "a53103bfc665b30930af2b6046a347f81369b0de3a1b72ff2743bc5f3c643647",
+    "models/predictor_pgd_split_probe_job_v1.py": "91e69f08d72f02f0314964ca9b10689cf2f4ac607b9787bcc4a8ccb2ba0df93c",
+    "models/predictor_pgd_split_probe_sources_v1.py": "d8aaa63ee8a9be5969a87966aa41607184e271d42a28d4db06e5158cce250bb5",
+    "models/predictor_pgd_split_watch_v1.py": "ab23159993939318b6d28946a25fe3c4be0427ed6e9732e1530cb8246d6d9cdb",
+    "tests/test_predictor_pgd_split_probe_job_v1.py": "3f8538c4a7bbe6e2d69955fc1ca44ca8e9c3333b2c554d0e52e84d16f116e09c",
+    "tests/test_predictor_pgd_split_watch_v1.py": "3bb4d28c8b640caeb5366413dffbad78860b309038a64c96cf71d3901c25650b"
+  },
+  "target_helper_runtime_namespace_or_new_authorization_ready": false,
+  "test_evidence_origin": [
+    "OPAQUE-COMPONENT-INTEGRATION-SIMULATION",
+    "FAKE-PROC-HANDLE-SIMULATION"
+  ]
+}

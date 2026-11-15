@@ -1,0 +1,75 @@
+{
+  "actual_scientific_or_remote_work_performed": false,
+  "date": "2026-11-15",
+  "fake_arrays_are_opaque_text_not_Numpy": true,
+  "financial_caps_holds_pending_reconciliation_unchanged": true,
+  "historical_byte_mode_nsmtime_groups": [
+    242,
+    280,
+    135,
+    245,
+    5,
+    3
+  ],
+  "independent_full_progress_AST_inverse_exact": true,
+  "independent_full_worker_AST_inverse_exact": true,
+  "kind": "pgd-split-numerical-v1-independent-local-review",
+  "mode": "fresh stdlib saved-source/evidence audit; no project import, test or callback rerun, model, array math, gradient, profiler, GPU, process or network execution",
+  "new_objective_reader_requires_durable_progress_before_array_admission": true,
+  "next_local_only": "Bind new boundary source/storage/layout lineage and two component workers to the frozen component route/hybrid reader; implement parent wall/RSS/profiler-stop/complete-scratch/collection and receipts/source-package integration using cold AST and simulations before any new exact university scope.",
+  "numerical_full_model_profiler_removed": true,
+  "old_claims_stay_consumed": true,
+  "old_original_backward_returned_later_timeout_cause_unknown": true,
+  "original_identity_array_comparison_native_scope_function_AST_exact": true,
+  "prior_hashes_verified": 4666,
+  "real_boundary_lineage_component_workers_parent_supervision_full_scratch_and_collection_bound": false,
+  "result": "PASS",
+  "saved_fake_positions_verified": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "saved_post_marker_journal_failure_still_refused": [
+    "runs/pretrained/diagnostic/predictor-pgd-split-numerical-v1-20261115/pytest-03/test_numerical_failure_stops_s10/results/numerical/objective-0/numerical-complete.json"
+  ],
+  "scientific_CUDA_backend_replay_performance_training_admitted": false,
+  "source_pins": {
+    "configs/predictor_pgd_split_numerical_v1.json": "5d50a3ad433150ec373160d3394519cb64cbc39177b315ec09cdced03e4b75fb",
+    "docs/predictor_pgd_split_numerical_v1.md": "f6e755c0e858daec47ff121dd34790647e99727b41d05058c512571cb5f97ebc",
+    "models/predictor_pgd_split_numerical_v1.py": "3547f1e924932773a2d9b2435a3b7e6e3a6dd951accac4aafe7d355e08953f37",
+    "models/predictor_pgd_split_store_v1.py": "2e48a86724bf8d8e49981d7b4dd21875a5f31010e54a558488d16034fb93bb54",
+    "tests/test_predictor_pgd_split_numerical_v1.py": "fd49901cbddc0ae20855f2803f6b6b96b84da6a4040ba5813fed6b673f7dfa65"
+  },
+  "target_helper_authorization_ready": false,
+  "tests": {
+    "all_latest_cases_pass": true,
+    "distinct": 52,
+    "executions": 98,
+    "final_fixture_fix_left_all_test_functions_and_production_unchanged": true,
+    "final_run_exact_failed_only": true,
+    "initial_negative_passing_repeated_after_IO_and_assertion_fix": 12,
+    "runs": [
+      {
+        "checks": 50,
+        "failures": 18,
+        "passed": 32
+      },
+      {
+        "checks": 32,
+        "failures": 16,
+        "passed": 16
+      },
+      {
+        "checks": 16,
+        "failures": 0,
+        "passed": 16
+      }
+    ],
+    "unaffected_initial_passing_not_repeated": 20
+  }
+}

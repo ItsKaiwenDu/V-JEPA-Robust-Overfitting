@@ -1,5 +1,72 @@
 # Research Progress Reports
 
+## 2026-11-15 — Concrete split runtime source package passes local checks
+
+The new source-only assembler pins 70 inputs and emits 63 Python files with 12
+concrete worker namespaces. Fixed imports and exact entry arguments replace caller
+ports. New numerical transport uses a process-owned serialized adapter over the
+unchanged typed store, supporting hook-thread publication while preserving prior
+commits and poison state. Component binding retains four threads, the captured
+runtime/precision/attention flags and a fresh numerical-header hash check.
+
+50 distinct new checks have passing latest results across 67 executions: initial
+44 passes/one compiler-context failure, then 22 passes covering that failure,
+16 affected checks and five new cases. 28 unaffected passes and all historical
+tests/cohorts were not repeated. The fixed import alias preserves exact frozen
+reconstruction bytecode. Both packages/snapshots/failure logs remain. The independent
+saved-file audit passes 6,445 prior hashes, 2,194 prior fixture layouts, source
+inverses/compiled bodies and the complete literal project import graph. All library/
+compute/profile/array objects are explicit fakes; real threads only write small
+ordinary bytes. No scientific module, gradient, profiler, child, GPU or remote work ran.
+
+Next finish full scratch accounting, trusted fresh-child installation/control
+binding, serial child coordination under original clocks, combined receipts and
+same-session collection. A university helper/scope and full training remain pending.
+See the [runtime source review](report/checks/2026-11-15-pgd-split-runtime-v1-local-review.md).
+
+## 2026-11-15 — Component providers and parent supervision pass local checks
+
+New source providers preserve frozen observation/reconstruction/arithmetic and
+join only the new original objective's boundary. The component lifecycle performs
+one forward/VJP per role with bounded journals, raw-before-validation publication
+and complete receipt checks. The parent core observes launch-origin time/RSS and
+uses owned PID handles. Its limits remain sampling bounds, with live target
+behavior and namespace binding still unverified.
+
+93 distinct new checks pass across disjoint 90-case and three-case runs; no passing
+check or old test/cohort repeated. The extra checks cover an early captured/native
+attention-flag gate added during review. All runtime/proc/handle data is explicit
+simulation. Independent saved-file audit verifies 6,113 prior hashes, 1,720 prior
+fixture layouts and exact frozen source/compiled bodies. No actual science,
+process/PID/signal, GPU or remote work ran.
+
+Next finish runtime/source assembly, complete scratch guards, serial child
+coordination, combined receipts, collection and source-package review. No target
+helper or authorization is ready; training remains unqualified. See the
+[local probe review](report/checks/2026-11-15-pgd-split-probes-v1-local-review.md).
+
+## 2026-11-15 — Split numerical lifecycle passes local integration checks
+
+The source-only numerical worker now separates its eight gradients from detailed
+profiling, retains original mathematical/ownership/restoration checks and uses
+versioned completion records. Durable v2 progress covers teardown and proof
+publication. A completion marker without the final journal return is refused.
+The new byte store enforces the frozen result/log namespace and partial rules.
+
+52 distinct new checks are covered and all latest results pass across 98 executions.
+The directory link-count correction and stronger failure-cause assertions are
+preserved; the final opaque fixture fix reran only 16 failed cases. Twenty
+unaffected initial passes were not repeated. No old suite or scientific cohort
+reran. Independent saved-file review verifies 4,666 prior hashes, source inverses
+and historical metadata. All loss/gradient/proof callbacks and `.npy` payloads are
+explicit text-token simulations; no actual scientific or remote work ran.
+
+Next bind boundary lineage and the two component workers, then complete parent
+supervision, full scratch accounting, receipt/collection and source-package review
+using source/simulation checks. No target helper or authorization is ready and
+training qualification remains open. See the
+[local integration review](report/checks/2026-11-15-pgd-split-numerical-v1-local-review.md).
+
 ## 2026-11-15 — Component route passes source and lifecycle simulations
 
 The new unbound component route preserves exact frozen arithmetic and checks one

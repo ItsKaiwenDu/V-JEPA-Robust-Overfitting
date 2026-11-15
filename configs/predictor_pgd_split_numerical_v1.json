@@ -1,0 +1,133 @@
+{
+  "actual_CUDA_execution_admitted": false,
+  "actual_model_array_math_autograd_SDPA_profiler_CPU_gradient_GPU_SSH_upload_proof_retrieval_cleanup_paid_work": false,
+  "authorized": false,
+  "corrections": [
+    "Directory identity ignores link count, which changes with legitimate file creation; file single-link and directory device/inode/uid/mode checks remain strict.",
+    "Failure simulations now assert intended exception cause and exact gradient-stub count, rather than accepting earlier I/O errors.",
+    "Opaque loss fixture gained a sum-interface stub with no arithmetic; production code unchanged for final failed-only rerun."
+  ],
+  "date": "2026-11-15",
+  "design": {
+    "path": "configs/predictor_pgd_split_profile_v1.json",
+    "sha256": "c5daae30cbe4043cf4d5265de2a2a7420d015ab1e244cc3d74fcc93b5f0186af"
+  },
+  "financial_caps_holds_pending_reconciliation_unchanged": true,
+  "identities": {
+    "algorithm": "pretrained-pgd2-r2-eot8-split-observation-v1",
+    "journal": "post-gradient-progress-v2",
+    "objective": "pretrained-pgd-split-numerical-objective-v1",
+    "worker": "pretrained-pgd-split-numerical-worker-v1"
+  },
+  "kind": "pgd-split-numerical-local-integration-v1",
+  "local_only": true,
+  "new_checks": {
+    "all_latest_checks_pass": true,
+    "distinct": 52,
+    "earlier_passing_checks_repeated_after_production_and_failure_assertion_change": 12,
+    "errors": 0,
+    "executions": 98,
+    "last_run_failed_cases_only": true,
+    "old_tests_or_scientific_cohorts_repeated": false,
+    "runs": [
+      {
+        "checks": 50,
+        "failures": 18,
+        "passed": 32
+      },
+      {
+        "checks": 32,
+        "failures": 16,
+        "passed": 16
+      },
+      {
+        "checks": 16,
+        "failures": 0,
+        "passed": 16
+      }
+    ],
+    "skips": 0,
+    "unaffected_initial_passes_not_repeated": 20
+  },
+  "new_numerical_scope": {
+    "boundary_cleanup_inside_original_route": true,
+    "boundary_observer_objective_indices": [
+      0
+    ],
+    "complete": "numerical-complete.json",
+    "failed": "numerical-failed.json",
+    "full_model_profiles": 0,
+    "legacy_backend_success_compatible": false,
+    "objective_header": "numerical.json",
+    "provisional_objective_indices": [
+      0,
+      1
+    ],
+    "top_level_header": "results/run-status.json",
+    "wall_seconds": 1680
+  },
+  "next_local_only": "Bind new boundary source/storage/layout lineage and two component workers to the frozen component route/hybrid reader; implement parent wall/RSS/profiler-stop/complete-scratch/collection and receipts/source-package integration using cold AST and simulations before any new exact university scope.",
+  "old_claims_or_clocks_reset": false,
+  "preserved": {
+    "all_37_returns_nonzero_gradient_consider_before_backward": true,
+    "eight_full_model_objectives": true,
+    "native_checkpoint_outer_inner_root_leaf_proof_predicates": true,
+    "numerical_bounds": {
+      "input": {
+        "atol": 2e-07,
+        "rtol": 0.002
+      },
+      "loss": {
+        "atol": 2e-06,
+        "rtol": 1e-05
+      }
+    },
+    "original_candidate_same_input_comparison": true,
+    "targets_masks_seeds_PGD_projection_selection_scoring_RNG_restoration": true
+  },
+  "progress": {
+    "bytes": 65536,
+    "cleanup_phases": [
+      "hook_removal",
+      "boundary_exit",
+      "native_exit"
+    ],
+    "exclusive_private_append_fsync": true,
+    "file": "post-gradient-progress-v2.jsonl",
+    "marker_alone_insufficient": true,
+    "no_exact_old_stall_cause_deduced": true,
+    "numerical_completion_needs_final_publication_return_no_raised_gate_no_incomplete_tail": true,
+    "row_bytes": 1024,
+    "rows": 64,
+    "schema_provisional_field_is_not_profiled": true
+  },
+  "raw_stage": "runs/pretrained/diagnostic/predictor-pgd-split-numerical-v1-20261115",
+  "representative_backend_qualified": false,
+  "result_store": {
+    "byte_publication_only": true,
+    "complete_scratch_inputs_code_cache_proof_free_space_inode_accounting": false,
+    "held_parent_and_named_file_checked": true,
+    "immutable_overwrite_or_stale_partial_refused": true,
+    "logical_caps_and_shared_metadata_from_frozen_design": true,
+    "metadata_scans_do_not_authenticate_tensor_values_or_canonical_lineage": true,
+    "namespace": "frozen 419 result/log paths only",
+    "parent_wall_RSS_supervisor": false,
+    "per_file_uid_mode_links_device_extent_and_directory_identity_checked": true,
+    "tensor_or_array_decoder": false
+  },
+  "scientific_qualified": false,
+  "sources": {
+    "models/predictor_pgd_split_numerical_v1.py": "3547f1e924932773a2d9b2435a3b7e6e3a6dd951accac4aafe7d355e08953f37",
+    "models/predictor_pgd_split_store_v1.py": "2e48a86724bf8d8e49981d7b4dd21875a5f31010e54a558488d16034fb93bb54",
+    "tests/test_predictor_pgd_split_numerical_v1.py": "fd49901cbddc0ae20855f2803f6b6b96b84da6a4040ba5813fed6b673f7dfa65"
+  },
+  "target_runner_helper_or_authorization_ready": false,
+  "test_evidence_origin": "OPAQUE-CALLBACK-SIMULATION",
+  "training_admitted": false,
+  "unbound_ASTs": [
+    "numerical",
+    "capture",
+    "records",
+    "progress"
+  ]
+}

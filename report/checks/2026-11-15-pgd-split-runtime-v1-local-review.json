@@ -1,0 +1,68 @@
+{
+  "actual_model_tensor_array_math_autograd_SDPA_profiler_child_PID_signal_GPU_SSH_proof_cleanup_paid_execution": false,
+  "all_scientific_backend_replay_performance_cost_training_admissions": false,
+  "current_template_sources_and_saved_packages_match": true,
+  "date": "2026-11-15",
+  "emitted_files": 63,
+  "frozen_math_reconstruction_and_saved_value_compiled_bodies_exact": true,
+  "generated_namespaces": 12,
+  "historical_byte_mode_nsmtime_groups": [
+    242,
+    280,
+    135,
+    245,
+    5,
+    3
+  ],
+  "input_source_files": 70,
+  "kind": "pgd-split-runtime-v1-independent-local-review",
+  "literal_project_dependency_graph_closed": true,
+  "mode": "fresh stdlib saved source/compiled-code/byte/metadata audit; no project import/test/callback/science/process/network execution",
+  "numerical_records_observer_providers_route_inverse_AST_exact": true,
+  "old_claims_finances_caps_holds_pending_reconciliation_unchanged": true,
+  "opaque_saved_byte_fixture_files": 6,
+  "prior_fixture_layouts_verified": [
+    1720,
+    474
+  ],
+  "prior_hashes_verified": 6445,
+  "private_facade_old_source_namespace_unchanged": true,
+  "remaining_before_target": [
+    "Complete scratch/input/code/cache/proof/live-free/inode guards around separate result/log namespace.",
+    "Trusted fresh-child source installation and control argument binding; numerical plus native-before-candidate serial children and original parent phase/global clocks.",
+    "Combined receipts and bounded same-SSH collection; complete source package review before one exact new university scope."
+  ],
+  "result": "PASS",
+  "source_pins": {
+    "configs/predictor_pgd_split_runtime_v1.json": "4679b4c55a1f34232d9813bbbc89d2a27260fa6e7ddb7a831836f82dfef06b6d",
+    "docs/predictor_pgd_split_runtime_v1.md": "a6d9903cb2a18440043c1469aec0009789af4eb69b2eb7fc842cc5cad40ecb2c",
+    "models/predictor_pgd_split_runtime_v1.py": "7eea2296a5b77c116de3222aceba91488861702ffdfed7d10aa9991e08832c72",
+    "tests/test_predictor_pgd_split_runtime_v1.py": "0fb2bd447e7d386abf09d0964f2f0141eb686c72dd577d238a5f0e4b1105c3e2"
+  },
+  "target_runtime_or_authorization_ready": false,
+  "tests": {
+    "affected_passing_checks_repeated": 16,
+    "all_latest_pass": true,
+    "distinct": 50,
+    "executions": 67,
+    "historical_tests_or_scientific_cohorts_repeated": false,
+    "runs": [
+      {
+        "checks": 45,
+        "errors": 0,
+        "failures": 1,
+        "passed": 44,
+        "skips": 0
+      },
+      {
+        "checks": 22,
+        "errors": 0,
+        "failures": 0,
+        "passed": 22,
+        "skips": 0
+      }
+    ],
+    "unaffected_first_passes_not_repeated": 28
+  },
+  "unchanged_startup_boundary_raw_progress_AST_exact": true
+}

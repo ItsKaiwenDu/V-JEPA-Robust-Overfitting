@@ -2,6 +2,165 @@
 
 ## Current stage
 
+LATEST November 15: CONCRETE SPLIT RUNTIME SOURCE ASSEMBLY VERIFIED LOCALLY.
+Read report/checks/2026-11-15-pgd-split-runtime-v1-local-review.json/md,
+ docs/predictor_pgd_split_runtime_v1.md + configs/predictor_pgd_split_runtime_v1.json.
+New predictor_pgd_split_runtime_v1 builder emits SOURCE BYTES ONLY:70pinnedinputs,
+63Pythonfiles/12newnamespaces. No emitted scientific module imported/loaded/installed/
+executed, noCLI/targethelper/newauthorization ready. Fixed numerical/component
+imports+exactargs reject caller ports; oldmodule globals nevermodified. Numerical
+binds newrecords/progress/observer; private copied facade redirects ONLYnewtyped
+transport. Whole inverseAST against previous saved UNBOUND sources exact; startup/
+boundary/raw/progress exact,3frozenarithmetic+operands+savedvaluegates compiledexact.
+Direct globalTorchimport originallychanged operandbytecode; fixed importalias+
+assignment restoresoriginalbodyexact, oldgateunchanged. Bothpackages/snapshotskept.
+New process-owned SerialStore RLock serializes hooks fromdifferentthreads. Each
+operationconstructsUNCHANGEDStore oncallingthread, retainingthreadownershipcheck;
+committedmetadata+poisonsharedonePID; foreignPID/recursivewrite/rebind/oldchangedfile
+refuse. Sourceproofsguardhookcallers; adapterNOTlineageorCUDAadmission. ByteI/O
+fixed419namespace/held-named-scanextent/caps, rawserializeorderretained; nonfinite
+returnstoredBEFORErejection. Nofullscratchguard/alladversarialraceproofclaim.
+Componentoriginalstartupthen4threads; sourcepinnedreaders +NEWheaderrehash before
+capturedruntimecomparison(excludemodel_execution), operandflagmatch andfinalstartup/
+runtime/thread/flagrestore. Noextraobjective/cast/reference/warmup/replay/cohort.
+50DISTINCTchecks latestALLPASS/67exec: initial44PASS1FAILcompilercontext; second22
+PASS=failed1+16affectedpasses+5newheader/opaqueserializerchecks.28unaffectedinitial
+passesNOTrepeated; no historicaltestfunctions/scientificcohorts. Fakeimports/
+compute/profile/route/arraylabels only; realthreadsONLYordinarysmallbytewrites.
+FreshSTDLIB savedauditPASS6445priorhashes+1720/474fixturelayouts+242/280/135/245/5/3
+historicalbyte/mode/nsmtimegroups, sources/inverses/compiledbodies,63filehashes+
+independentliteralimportclosure. Auditorfirstassumedallgeneratedmodulesdocstrings;
+fixedONLYlookup/labelcount, oldscript/logkept; production/tests unchangedafter2ndrun.
+Raw predictor-pgd-split-runtime-v1-20261115, finalseal for next preservation.
+NEXT LOCAL ONLY fullscratch input/code/cache/proof/free/inode accounting AROUND
+SEPARATEresults/lognamespace; trustedfreshchildinstallation/controlargumentbinding;
+numchild+2serialcomponents,nativesuccessBEFOREcandidate,parentlaunch-originphase/
+originalglobalclocks; combinedreceipts+boundedSAME-SSHcollection+completesourcepackage
+review. Source graph coversliteralprojectimports ONLY, externalTorch/NumPy/upstream/
+checkpoint/packet guards remain. Freshtrustedbootstrap/sys.path/moduleprovenance
+NOTinstalled/observed. PIDFD/actualresource/stop/fit UNOBSERVED. No targethelper or
+exactapprovalproposalready yet. NO repeatedmanualGPUstatus ornewscopequestionnow.
+NO actualmodel/tensor/arraymath/autograd/SDPA/profiler/newCPUorGPUgrad/cohorts/refs/
+warmups/realproc/PIDhandle/signal/child/SSH/upload/proof/retrieval/cleanup/paidwork.
+FrozendesignSHAc5daae30cbe4043cf4d5265de2a2a7420d015ab1e244cc3d74fcc93b5f0186af
+unchanged8fullgrad+2EXTRAcomponentVJPs/oneinner,0CPUFP64/warmup/replay,28minnum/
+40minwork+10mincollection;419result/typedstoragecaps unchanged. Allactualscientific/
+CUDA/backend/accuracy/fullEOT8/replay/perf/cost/trainingFALSE. OldgrantsCONSUMED,
+oldoriginalbackwardRETURNED/latercauseUNKNOWN,partialsUNADMITTED. Frozenpasses/
+rejections/finances/caps/holds/pendingreconciliation/trainingunchanged. Userstages/
+commits/pushes self;NEVERdoit. Earlier LATEST historical.
+
+LATEST November 15: SPLIT COMPONENT PROVIDERS/LIFECYCLE/PARENT CORE VERIFIED LOCALLY.
+Read report/checks/2026-11-15-pgd-split-probes-v1-local-review.json/md,
+ docs/predictor_pgd_split_probes_v1.md + configs/predictor_pgd_split_probes_v1.json.
+New lineage_v1/probe_sources_v1/probe_job_v1/watch_v1 (predictor_pgd_split_*):
+source-only provider ASTs + stdlib lifecycle/metadata/proc/handle cores. NO target
+runtime/helper/authorization ready. Old numerical/component/backend sources frozen.
+New boundary kind pgd-split-original-boundary-v1; original objective-zero full-input
+id/version/hash + equal final native calls/scopes join; old/clean/partial captures
+refuse. Boundary attach wraps genuine old observer only on new original0, inside
+EOT8-before. Frozen observer class/scope/load/CPU rebuild AST exact; whole observer/
+boundary inverse independently exact (1/5 declared edits). Device operands AST AND
+compiled body exact with false import context; startup module exact; all3 original
+forward/mathVJP/bridge compiled bodies exact. Zero padding explicit; NO native
+physical address/alignment claim. Source/reconstructed versions separate. NEW
+source prepare_operands checks live flags == captured original BEFORE reconstruction.
+Metadata joins cannot authenticate caller dicts; actual pinned readers/bindings needed.
+Each role one forward+outerVJP, hybrid one inner mathVJP; NO warmup/reference/replay.
+Original real GraphTask/root+3leaf/firstorder/singleuse/token/private/mode/flags/
+version/.grad/RNG guards retained. New source providers/current compute are UNBOUND.
+Job journals startup/source/rebuild/route/profiler/fwd/bwd/CUDA sync/profiler stop/
+route close/returns/raw/backend/restoration/terminal; 64KiB/64rows/1024B, fsync/600.
+Raw4MiB/20k saved BEFORE semantic check; original hybrid reader unchanged. Marker
+alone insufficient: exact artifact/resource hashes + final returned journal needed.
+All actualCUDA/accuracy/backend/fullEOT8/replay/performance/cost/training FALSE.
+Parent watch accepts ALREADY launched owned child, launches NONE. PID handles
+only, no numeric signal fallback. UID/birth/parent/session before/after binding;
+all observed task child lists/descendants sampled using smaps_rollup Rss; 4GiB
+observed RSS/7GiB allocator/120s continuing LAUNCH-origin clock retained. Max64
+processes/512threads/2400samples/.1s poll; up to2s stop grace uses existing overall
+overhead, NEVER extends original work deadline. Sampling NOT instantaneous kernel/
+address-space quota; proc children NOT exhaustive. Target Linux PIDFD support/
+real stop/resource behavior UNOBSERVED. No actual proc/PID/signal/process tested.
+93 DISTINCT new checks ALLPASS: initial90 + ONLY3new flag cases; 0 repeated passing
+checks/failures/errors/skips/historical test functions/cohorts. Reused only pinned
+fake helper DEFINITIONS. 64 probe/source +29 watch checks. Explicit OPAQUE fake
+engine/profiler/raw bytes/text.npy, fake proc/handles only. New/native-parent
+metadata joins remain unadmitted. First90 source+review/contract/notes byte-kept;
+added source snapshot kept. Independent audit first fixture-name truncation lookup
+failed; corrected auditor only, production/tests unchanged, original script/log kept.
+Final fresh STDLIB saved audit PASS6113priorhashes +1720 prior fixture layouts +
+242/280/135/245/5/3 byte/mode/nsmtime groups. Both fake roles/root/leaf/inner proof,
+invalid raw retained, post-marker/no-final-return refused. No project import/test/
+callback/science/proc/PID/signal/process/network execution in saved audit. Raw
+predictor-pgd-split-probes-v1-20261115; final seal there for next preservation.
+NEXT LOCAL ONLY finish ACTUAL runtime namespace/entry/source assembly: cannot bind
+arbitrary replaceable ports on target; retain original4 worker threads and captured
+runtime/precision/attention flags. Complete scratch inputs/code/cache/proof/free/
+inode guards around SEPARATE result/log namespace; native-success-before-candidate
+serial child coordination; original40minwork/10minsameSSHcollection/globalclocks,
+combined receipts +complete source package review. Only AFTER concrete prep one
+exact new scoped university approval. NO new scope/manual GPU status request now.
+NO actual model/tensor/arraymath/autograd/SDPA/profiler/CPUorGPUgrad/cohorts/refs/
+warmups/realproc/PIDhandle/signal/process/SSH/upload/proof/retrieval/cleanup/paidwork.
+Frozen design c5daae30cbe4043cf4d5265de2a2a7420d015ab1e244cc3d74fcc93b5f0186af
+unchanged8fullgrad+2EXTRAcomponentVJPs, representativebackendONLY, 28minnum/40minwork
++10mincollection. Old grants CONSUMED; old original backward RETURNED, later cause
+UNKNOWN, partials UNADMITTED. Frozen passes/rejections/finances/caps/holds/pending
+reconciliation/training unchanged. User stages/commits/pushes self; neverdoit.
+Earlier LATEST historical.
+
+LATEST November 15: SPLIT NUMERICAL/PROGRESS/TYPED-RESULT LOCAL INTEGRATION VERIFIED.
+Read report/checks/2026-11-15-pgd-split-numerical-v1-local-review.json/md,
+ docs/predictor_pgd_split_numerical_v1.md +configs/predictor_pgd_split_numerical_v1.json.
+New predictor_pgd_split_numerical_v1 returns FOUR UNBOUND ASTs numerical/Capture/
+records/progressv2. NO scientific runtime/module/worker launched. New typedstore
+coversONLYfrozen419results/logpaths, plainbytes/noarraydecoder; notfullscratchguard.
+Wholeworker12edits/progress9 independentlyinverseEXACT tooldAST beforeexplicit
+schema/callback/filename/entryrenames. Identity/arrays/compare/check_scope ASTEXACT;
+originalnative/checkpoint/root/inner/leafproofcodebindings unchanged. 8fullgrad/
+37returns/nonzeroinput/nativeL1/sameinput/considerordering/seeds/PGD/projection/
+selection/scoring/model/mask/target/method/hook/flags/version/.grad/RNG allretained.
+Numerical hasZEROfullmodelprofiler/materialization/oldbackendvalidatorcalls. New
+kind/records NOTlegacybackendadmission; all actualCUDA/backend/performance/replay/
+research/trainingpending. Numericalwall1680s fromFROZENsplitdesign, notold1920s.
+Rolloutheader results/run-status.json MUSTremainnumericalheader; futurecoordinator
+usesseparatesupervisorrecord. Objective numerical.json/numerical-complete.json/
+numerical-failed.json. V2journal64KiB/64rows/1024B, exclusive0600/700/fsync; schema
+PROVISIONALnotprofiled, snapshotonlyindices0/1 withexacttypedcaps. Oneboundary
+observer requestedONLYoriginalobjective0 insideEOT8-before native; cleanupbefore
+nativeexit. Othershaveexplicitnoopboundarycleanup, NOTfakecaptureevidence.
+Newreader requiresdurablefinalpublicationreturn/noRaisedgate/noTail/NoFailedmarker
+BEFOREarrayadmission; markerALONEinsufficient evenafterallothergates. Mandatory
+cleanupattemptsdespiteloggingfailure; noretry/oldclaimreset. Actualboundaryprovider
+STILLUNBOUND; canonicalsource/layout/storage reconstruction NOTimplemented here.
+52DISTINCTnewcheckscovered/allLATESTPASS across98executions: initial50=32PASS18FAIL;
+only30affected+2newdirectorychecks=16PASS16FAIL; ONLY16failedfinallyALLPASS. 20
+unaffectedinitialpassingNOTrepeated.12earliernegativepassesrepeatedbecauseI/O/
+failurecauseassertionschanged. PreserveALLinitialfailures/3snapshots/logs/JUnits.
+Directoryidentityfixignorechild-sensitiveNLINK,keepdev/inode/uid/mode; FILEsingle
+linkstrict. StrongnegativechecksrequireintendedexceptionCAUSE+gradientSTUBcount.
+FinalfixONLYopaque.suminterface tokenstub/noarithmetic, production/testfunctions
+UNCHANGED. Allloss/gradient/nativeproof/ownershipcallbacks OPAQUE simulations;
+fake.npy isTEXTnotarray, no actualtensor/math/GraphTask/CPU/GPUqualification.
+IndependentSTDLIBsavedauditPASS4666priorhashes+242/280/135/245/5/3 byte/mode/nsmtime;
+fullworker/progressinverseexact, 8fakepositions+postmarkernoreturnREFUSED. No project
+imports/testrerun/callbackrerun/science/remote inreview. Auditorfirstblockedownlazy
+textwrapimport; preloadSTDLIBbeforeUNCHANGEDblock, oldscript/logkept. Raw stage
+predictor-pgd-split-numerical-v1-20261115. Typedstoremetadatachecks NOTvalueauth or
+completeadversarialraceproof; fullinput/code/cache/proof/free/inode/RSS/wall/
+profilerstop/collection/receipts/sourcepackage stillrequiredBEFOREtarget.
+NEXT LOCAL ONLY bindgenuineboundary/source/storage/layout lineage +TWOcomponent
+workers withfrozencomponentroute/hybridreader. FinishparentwallRSS/profilerstop/
+fullscratchinventory/receipt/collection/sourcepackage usingcold/AST/simulations.
+NO targetrunner/helper/authscopeREADY; doNOTasknewscope/manualGPUstatusyet.
+NO actualmodel/tensor/arraymath/autograd/SDPA/profiler/CPUorGPUgrad/cohorts/refs/
+warmups/SSH/upload/proof/retrieval/cleanup/paidwork NOW. SplitdesignSHAc5daae30cbe4043cf4d5265de2a2a7420d015ab1e244cc3d74fcc93b5f0186af
+unchanged8fullgrad+2EXTRAcomponentVJPs,representativebackendONLY,28minnum/40minwork+
+10mincollection. OldclaimsCONSUMED,oldoriginalbackwardRETURNED/latercauseUNKNOWN,
+partialsUNADMITTED; frozenpasses/rejections/finances/caps/holds/reconciliation/
+training unchanged. Userstages/commits/pushes self; neverdoit. Earlierhistorical.
+
 LATEST November 15: COMPONENT ROUTE/LIFECYCLE COLD-SIMULATED CHECKS VERIFIED.
 Read report/checks/2026-11-15-pgd-split-component-v1-local-review.json/md and
  docs/predictor_pgd_split_component_v1.md +configs/predictor_pgd_split_component_v1.json.
