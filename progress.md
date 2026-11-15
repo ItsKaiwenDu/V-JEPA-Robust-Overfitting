@@ -1,5 +1,20 @@
 # Research Progress Reports
 
+## 2026-11-15 — Post-gradient progress observation passes local simulations
+
+The local observer now separates cleanup, profiler stop, event processing and
+publication intervals while preserving original acceptance gates. A reversible
+source adapter leaves the consumed worker/records untouched. Provisional native
+metadata stays explicitly incomplete and cannot replace passing proofs.
+
+All 69 new callback/source simulations pass in one run; no actual model, gradient,
+profiler, GPU or remote work ran. Independent saved-file review preserves 4,346
+prior hashes and the historical byte/mode/mtime descriptors. The previous native
+backward returned; its later timeout cause remains unknown. Next review a separate
+representative profiling scope and combined resource accounting before preparing
+another target attempt. Training qualification remains open. See the
+[local review](report/checks/2026-11-15-post-gradient-progress-v1-local-review.md).
+
 ## 2026-11-14 — Small-upstream integration preserves native forward/cotangents
 
 Four actual model comparisons (two mask seeds, creator/separate-thread backwards)

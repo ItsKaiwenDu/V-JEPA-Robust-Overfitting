@@ -1,0 +1,76 @@
+{
+  "additional_max_logical_bytes": 23756800,
+  "date": "2026-11-15",
+  "execution_prohibited_here": [
+    "model",
+    "autograd",
+    "SDPA",
+    "actual profiler",
+    "CPU gradients",
+    "GPU",
+    "SSH",
+    "upload",
+    "retrieval",
+    "storage proof",
+    "cleanup",
+    "paid compute"
+  ],
+  "financial_caps_holds_pending_reconciliation_unchanged": true,
+  "future_combined_capture_inventory_and_metadata_fit_reviewed": false,
+  "historical_scientific_cohorts_repeated": 0,
+  "journal": {
+    "exclusive_create": true,
+    "file_mode": "0600",
+    "fsync_before_callback": true,
+    "max_bytes": 65536,
+    "max_objectives": 8,
+    "max_row_bytes": 1024,
+    "max_rows": 64,
+    "name": "post-gradient-progress-v1.jsonl",
+    "private_directory_mode": "0700",
+    "scientific_qualified": false
+  },
+  "kind": "post-gradient-progress-local-prototype-v1",
+  "local_only": true,
+  "new_scientific_objectives": 0,
+  "new_test_cases": 69,
+  "next": "Review narrower detailed profiling and combined inventory/resource accounting before building a new target worker; no target grant ready.",
+  "old_timeout_changed": false,
+  "prior_preservation": "runs/pretrained/diagnostic/predictor-pgd-target-incident-v1-20261115/sealed-metadata-result.json",
+  "profile_materialization_preemptively_memory_bounded": false,
+  "profiling_scope_changed": false,
+  "provisional": {
+    "VJP_row_bytes": 8192,
+    "VJP_rows": 384,
+    "call_row_bytes": 2048,
+    "call_rows": 4096,
+    "completion_or_restoration_admitted": false,
+    "header_bytes": 16384,
+    "max_objectives": 2,
+    "objective_indices": [
+      0,
+      1
+    ],
+    "scientific_qualified": false,
+    "scope_bytes": 65536
+  },
+  "scientific_qualified": false,
+  "scope": "standard-library metadata callbacks, reversible source AST and explicit simulations",
+  "source_inputs": {
+    "models/predictor_pgd_target_records_v1.py": "d2b98fe16a0d1efd997d74092be68cbbcd3f2e73eef7fb44c5fcb2d0843204e8",
+    "models/predictor_pgd_target_worker_v1.py": "0eb5b56e6e3f74bfdc53e4f1f0f5861e0f066340961fbbfc2b134cc75536f3a0"
+  },
+  "target_authorization_present": false,
+  "target_runner_available": false,
+  "unchanged_gates": [
+    "original mathematical gradient calls",
+    "same-input numerical comparison",
+    "37 return count and nonzero input gradient",
+    "consider-before-backward ordering",
+    "native/checkpoint/root/inner-task proof",
+    "model/parameter/target/mask/flags/modes/hooks/private-method restoration",
+    "input version/hash/.grad",
+    "original profiler ancestry/kernel/backend validation",
+    "passing publication only after all required gates"
+  ]
+}

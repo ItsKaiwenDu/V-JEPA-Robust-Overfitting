@@ -1,0 +1,96 @@
+{
+  "additional_max_logical_bytes": 23756800,
+  "date": "2026-11-15",
+  "financial_caps_holds_pending_reconciliation_unchanged": true,
+  "future_combined_storage_and_inventory_fit_reviewed": false,
+  "initial_sources_preserved_and_unchanged_after_tests": true,
+  "interpretation": {
+    "event_count_gate_still_after_materialization": true,
+    "exact_old_later_subcall_known": false,
+    "journals_and_provisional_snapshots_are_not_passing_receipts": true,
+    "last_unreturned_new_phase_is_an_interval_not_cause": true,
+    "old_SSH_failure_cause_known": false,
+    "old_native_backward_returned": true,
+    "parse_memory_or_latency_preemptively_bounded": false,
+    "profiling_scope_or_old_timeout_changed": false
+  },
+  "journal": {
+    "exclusive_create": true,
+    "file_mode": "0600",
+    "fsync_before_callback": true,
+    "max_bytes": 65536,
+    "max_objectives": 8,
+    "max_row_bytes": 1024,
+    "max_rows": 64,
+    "name": "post-gradient-progress-v1.jsonl",
+    "private_directory_mode": "0700",
+    "scientific_qualified": false
+  },
+  "junit": {
+    "path": "runs/pretrained/diagnostic/predictor-finalization-observer-v1-20261115/pytest-01.xml",
+    "sha256": "c4c473d2715dda49a56dd4de945a4ccce59069921a75d9fb54f5808cf7aef01f"
+  },
+  "kind": "post-gradient-progress-v1-local-review",
+  "new_model_autograd_SDPA_profiler_CPU_gradients_GPU_SSH_upload_retrieval_proof_cleanup_paid_work": false,
+  "new_scientific_objectives": 0,
+  "new_tests": {
+    "distinct_checks": 69,
+    "errors": 0,
+    "failures": 0,
+    "historical_suites_or_cohorts_repeated": false,
+    "passed": 69,
+    "runs": 1,
+    "scientific_execution": false,
+    "skips": 0
+  },
+  "next_local_only": "Review a separately defined representative detailed-profile scope, expected backend counts and combined inventory/storage/time budget before building a new target worker. No new grant is ready.",
+  "preservation": {
+    "historical_descriptor_counts_verified": [
+      242,
+      280,
+      135,
+      245,
+      5,
+      3
+    ],
+    "original_and_metadata_claims_remain_consumed": true,
+    "prior_failures_rejections_and_partial_evidence_unchanged": true,
+    "prior_hashes_verified": 4346,
+    "successful_clean_GPU_and_tiny_CPU_cohorts_frozen": true
+  },
+  "provisional": {
+    "VJP_row_bytes": 8192,
+    "VJP_rows": 384,
+    "call_row_bytes": 2048,
+    "call_rows": 4096,
+    "completion_or_restoration_admitted": false,
+    "header_bytes": 16384,
+    "max_objectives": 2,
+    "objective_indices": [
+      0,
+      1
+    ],
+    "scientific_qualified": false,
+    "scope_bytes": 65536
+  },
+  "review_passed": true,
+  "saved_review": {
+    "path": "runs/pretrained/diagnostic/predictor-finalization-observer-v1-20261115/independent-local-review.json",
+    "sha256": "de975af3a6d3e956dc27f68f94b41527328ca7f9dd3898a7f62753362201d5bf"
+  },
+  "saved_source_pins": {
+    "path": "runs/pretrained/diagnostic/predictor-finalization-observer-v1-20261115/local-source-pins.json",
+    "sha256": "f3a06ab319b3f57a03d67ef16853774f88f11b61112a96d92c8965b64bfe47cd"
+  },
+  "scientific_qualified": false,
+  "scope": "local-only standard-library progress observer, unbound source adapter and simulated callbacks",
+  "source_and_gates": {
+    "frozen_records_sha256": "d2b98fe16a0d1efd997d74092be68cbbcd3f2e73eef7fb44c5fcb2d0843204e8",
+    "frozen_worker_sha256": "0eb5b56e6e3f74bfdc53e4f1f0f5861e0f066340961fbbfc2b134cc75536f3a0",
+    "inverse_AST_exact": true,
+    "original_numerical_native_ownership_restoration_and_backend_gates_retained": true,
+    "profiler_body_reassembled_exact": true,
+    "reversible_observation_edits": 11
+  },
+  "target_runner_or_authorization_ready": false
+}

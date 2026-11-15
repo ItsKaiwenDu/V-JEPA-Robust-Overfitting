@@ -2,6 +2,36 @@
 
 ## Current stage
 
+LATEST November 15: LOCAL POST-GRADIENT OBSERVER VERIFIED; NO TARGET GRANT READY.
+Read report/checks/2026-11-15-post-gradient-progress-v1-local-review.json/md and
+ docs/post_gradient_progress_v1.md. New stdlib post_gradient_progress_v1 + unbound
+predictor_pgd_progress_adapter_v1 prototype only. 69 DISTINCT new simulated
+callback/source checks PASS in ONE run, zero failures/skips; no actual model/
+autograd/SDPA/profiler/CPUgradient/cohort/reference/warmup/GPU/SSH/proof/retrieval/
+cleanup/paidwork. Local synthetic process exit is NOT scientific execution.
+Before/after fsynced bounded journal stages + provisional actual proof metadata
+BEFORE teardown; all scientific_qualified FALSE. No passing marker before all
+original numerical/native/root/checkpoint/privateF/method/hook/flags/modes/.grad/
+input/restoration/backend gates. Cleanup runs despite logging failure; no retries.
+Frozen old worker/records unchanged; 11 reversible AST edits restore Capture
+EXACT; split profiler body reassembles EXACT. Initial sources/JUnit/log kept raw
+predictor-finalization-observer-v1-20261115. IndependentSTDLIB reviewPASS4346prior
+hashes +242/280/135/245/5/3 byte/mode/nsmtime descriptor groups. Both old grants
+CONSUMED. Old native backward RETURNED; exact later subcall/SSHcause UNKNOWN.
+Journal64KiB/64rows/1024B; pair provisional metadata +8 journals max23,756,800B
+ADDITIONAL, combined inventory/metadata fit NOT yet reviewed. All records remain
+UNQUALIFIED; no old partial result promotion. FullEOT8 profile unchanged; 1M-event
+cap AFTER materialization doesNOTbound parse memory/latency. Old timeout unchanged.
+NEXT LOCAL ONLY review separate representative detailed profiling scope/counts/
+coverage +combined typed inventory/storage/time accounting, then build/test a
+NEW target integration if justified. No target runner/helper/authorization ready;
+do NOT ask for new university approval or repeated manual GPU status now. No
+actual model/gradients/profiler/cohort/references/warmups/SSH/GPU/proof/retrieval/
+cleanup/paidwork under this local step. No old claim/clock reset or guard removal
+for speed. Closed cleanGPU/tinyCPU cohorts stayfrozen; all previous failures,
+rejections, finances/caps/holds/reconciliation/training gates unchanged. User
+stages/commits/pushes self; neverstage/commit/push. EarlierLATEST historical.
+
 LATEST November 15: METADATA RESULT REVIEWED; POST-GRADIENT FINALIZATION TIMEOUT.
 Read report/checks/2026-11-15-pretrained-pgd-metadata-result-review.json/md.
 Metadata-read-01 PROBE_ATTEMPT consumed; response99646B SHA
