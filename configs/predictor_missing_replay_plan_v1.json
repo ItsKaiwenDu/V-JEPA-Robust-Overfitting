@@ -1,0 +1,655 @@
+{
+  "authorized": false,
+  "controlled_local_writer_mechanism_reproduced": true,
+  "date": "2026-11-14",
+  "deduplicated_array_blob_count": 37,
+  "deduplicated_array_blobs": {
+    "0a19dd216f4cf2d7512eafa67b691f6b34c90125660c2340b4d09009b021960a": {
+      "bytes": 12583040,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/input.npy"
+    },
+    "0b4fd5cfcb74a6d95e4c0144208e8ec2e3cff0eea9232bfaf0016fc16080a183": {
+      "bytes": 4882560,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-12.npy"
+    },
+    "11242756eb598a4c5859e07ad7fbbfb433de586d3c0a1c2099f477ba3a54dea4": {
+      "bytes": 4161664,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-10.npy"
+    },
+    "12f10cde53e5c82ca3084eba23255ec160718c7bbf20bb3cb48a06de3bf9aa04": {
+      "bytes": 6750336,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-1.npy"
+    },
+    "1a16f664d38213a6cfa89893cc78b904862f695c5073a62a47745c4cd903e42c": {
+      "bytes": 7209088,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-5.npy"
+    },
+    "2a97040450b20ba4dee9f127128321abecd87a172e9d4512aa3e6f06cffa1a85": {
+      "bytes": 5963904,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-15.npy"
+    },
+    "2b022eb86bd65360479bffba3c3c4882163ed8b349bf8384875f9dcae8fef71a": {
+      "bytes": 262272,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/masks.npy"
+    },
+    "2ca8223c745b8e12c69360552f63c814b0e613117f519806b7f9737e166d1e4c": {
+      "bytes": 4784256,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-6.npy"
+    },
+    "2f1675b804ccd84990c03485ee4abb582263a838231f8c86560dc54f244a8d26": {
+      "bytes": 7340160,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-13.npy"
+    },
+    "3477d962c8caf5e0284c4f817329880803966b8168881b6c070aec2038c7ce19": {
+      "bytes": 6389888,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-11.npy"
+    },
+    "3e879eac78957909036c633570eec83bb610e83576dcfb88f1720490bc10b52a": {
+      "bytes": 6291584,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-7.npy"
+    },
+    "3e9c93c27a560f7326c9d63499314bc382d4107de049e7d725b224fc228fdd31": {
+      "bytes": 8388736,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/targets.npy"
+    },
+    "442a35fc756758e98fab7d293ef2b2fdcb42ffa2814659b98035029b4344291d": {
+      "bytes": 3506304,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-8.npy"
+    },
+    "44935510f93ae742a311ec79edc6d90b3d8f350dea2f5841380a735c5a4ebe9d": {
+      "bytes": 6357120,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-9.npy"
+    },
+    "48e8f9af2174976c16d862b2c938ec3514617d3e3e336df3f4556fcecc1e4bfe": {
+      "bytes": 6291584,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-7.npy"
+    },
+    "51b1932b3e51b5a5ed7d76059a8829c66aa919b49df28a911c026da9ed96e828": {
+      "bytes": 5046400,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-2.npy"
+    },
+    "57981323ec765907eed28d96c2608899a6c196c7b2a7a316eb99992ed26989bf": {
+      "bytes": 7209088,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-3.npy"
+    },
+    "61228b43ea72f2938b1ba6b1d4565692c3441d3afc4cd1ceb3831b61f7cc260d": {
+      "bytes": 6357120,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-9.npy"
+    },
+    "6288dd365d6498df444a2f3737303e0d44ebf87052baac96c12b958c2a357d72": {
+      "bytes": 5046400,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-2.npy"
+    },
+    "6de0631a487bd4b9ad10c1d4452612bff0efb8547bebc7b56d94e6d661e872f4": {
+      "bytes": 132,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/loss.npy"
+    },
+    "6f3fa80260fda831d7437fdf4bacb81ccea59c9d09a30cf5ce2de3cff6f9b5ac": {
+      "bytes": 4161664,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-10.npy"
+    },
+    "7051e71301537a57b6535f355e52f6c5670e6e985ab06a621945a3c6b4d55f62": {
+      "bytes": 12583040,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/input.npy"
+    },
+    "7cdae7c5c86aa4f2432ae5c5f38ee56f5e25cf7659a2ddc6d0680df58484a718": {
+      "bytes": 7340160,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-13.npy"
+    },
+    "7f43f6235068a07ed704904677bcfe0dc302679ad2af807baaf0bacf2ca9a4f8": {
+      "bytes": 4292736,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-14.npy"
+    },
+    "86c5d50a2ab7ebefc2159dc48db667a668a39e6522627e3a55e994c80dd72cfb": {
+      "bytes": 4522112,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-4.npy"
+    },
+    "a017c023c038281ca7bbbc3317a709d8ae43badb9bf103ce31fcb48945926a0d": {
+      "bytes": 5963904,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-15.npy"
+    },
+    "a76ec32a62922b59b843642529a15031ba33c31e57ccc2a201ed5eef43ef7fad": {
+      "bytes": 7209088,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-5.npy"
+    },
+    "aa773a4a82f96c586c86629a5c70ad77d3fc054bcbae871e4d312a0472067550": {
+      "bytes": 5701760,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-0.npy"
+    },
+    "b069c8b1a92fce0a21194c5d83657a9766f5075471ac9526fed27e541853cef5": {
+      "bytes": 6389888,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-11.npy"
+    },
+    "b5a1bcc8ec320fbe994e1072b20da11ae3a91ae482ef5bf81ca5edb5a874af62": {
+      "bytes": 3506304,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-8.npy"
+    },
+    "c89ea2f32005b250fc9a573b8f589bf61dd810cad4c98d2ae622f968641f92b9": {
+      "bytes": 4882560,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-12.npy"
+    },
+    "c9d9b9943715d0ba039cc8ecb2bc7df17675b166da0e8b3a4be550d7fe9671b0": {
+      "bytes": 4784256,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-6.npy"
+    },
+    "cdd93d5a3f51c3661845fde750935a60cc3be7e29d7d6129b149ffeb57c3f14b": {
+      "bytes": 4522112,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-4.npy"
+    },
+    "d0998a5eadf1ac9ca4ed4fb788740b18ed31e4daaf5d6493de0d03f445ac964e": {
+      "bytes": 7209088,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-3.npy"
+    },
+    "d57c6b33f74c5e18cb7b17b372ec8a0f7bb6903b3acf4db5339442c5d04917e6": {
+      "bytes": 4292736,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-14.npy"
+    },
+    "edad95d6cdfbbfac3a7415b1e7146bbac6a7fe36712fec209c537cae63b550d6": {
+      "bytes": 6750336,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-1.npy"
+    },
+    "f0c16b9ed98e2ca83b1cb51f34fec03facfa1048cd892c9991d9163d89cd053f": {
+      "bytes": 5701760,
+      "source": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-0.npy"
+    }
+  },
+  "deduplicated_array_file_bytes": 214635140,
+  "diagnostic_policy": "The observer runs only after the frozen refusal. Capture original path/stat plus bounded lstat rechecks, at most 1536-byte context. No scan retry, failure waiver or altered verdict.",
+  "future_reference_storage": "Content-addressed regular blob files plus explicit immutable per-reference mappings. No hardlinks or symlinks. Preserve original worker headers/markers/control identities byte-for-byte.",
+  "future_resource_requirements": {
+    "GPU_allocator_bytes_at_most": 7516192768,
+    "archive_and_bootstrap_sizes_must_be_measured": true,
+    "automatic_retries": 0,
+    "existing_setup_capture_input_raw_metadata_and_collection_caps_must_not_expand_without_explicit_review": true,
+    "maximum_scientific_workers": 1,
+    "new_paid_hold_USD": 0,
+    "old_work_seconds_charged_and_not_reset": 477.3622766463086,
+    "worker_seconds_at_most": 480
+  },
+  "historical_target_offender_or_cause_known": false,
+  "initial_numerical_gate_passed": true,
+  "inventory_acceptance_predicates_changed": false,
+  "inventory_observer": {
+    "bytes": 5776,
+    "path": "models/scratch_inventory_observer_v1.py",
+    "sha256": "ae576108fd4661b21224bdf544dc762bc7a4f010bbb571614a496c7d7904ffff"
+  },
+  "inventory_refusal_is_still_fatal": true,
+  "kind": "missing-forward-preserving-candidate-replay-local-plan-v1",
+  "missing_scientific_work": {
+    "EOT8_objectives": 1,
+    "draws": 8,
+    "families_per_draw": 2,
+    "fresh_workers": 1,
+    "mode": "candidate",
+    "new_original_control_workers": 0,
+    "profiles_warmups_attacks_optimizers_or_new_oracles": 0,
+    "replay": 1
+  },
+  "new_authorization_attempt_or_helper_created": false,
+  "new_model_or_remote_work": false,
+  "new_target_execution_permitted": false,
+  "next_step": "LOCAL ONLY build deduplicated reference capsule and exact lineage reader, then prepare and verify a separate unarmed one-replay scope with strict inventory observation. No approval request or target work until concrete preparation is complete.",
+  "operator_present": false,
+  "partial_worker_admitted": false,
+  "partial_worker_index": 3,
+  "preserved_complete_workers": [
+    0,
+    1,
+    2
+  ],
+  "prior_cohort_passed": false,
+  "prior_cohort_review": {
+    "bytes": 11099,
+    "path": "report/checks/2026-11-14-forward-preserving-v2-target-review.json",
+    "sha256": "597536c9ea803ad2f6144e99a23c834c7af5404ba29dfc47cee3741b574d4e0b"
+  },
+  "prior_grant_and_claim_consumed": true,
+  "proposal_only": true,
+  "reference_admission_requirements": [
+    "Build and verify a typed value-only capsule with exact hashes, shapes, domains, scopes and final markers. Measure compressed and extracted extents before proposing resources.",
+    "Bind the original-1/candidate-0 source control separately from the new execution control; never rewrite old headers or label a new worker with the consumed grant.",
+    "Import only the two complete references above, with independent accepted-initial-gate lineage and unchanged weights/pixels/targets/masks/seeds/runtime/source. Partial candidate-1 is never a reference.",
+    "The new candidate replay must pass old anchors and same-replay original bounds and exactly reproduce candidate-0 loss/input/predictions/cotangents/targets/masks before completion.",
+    "No complete original/candidate worker repeats. Existing original-0 remains in the saved audit even if its arrays need no duplicate upload."
+  ],
+  "reference_array_file_aliases": 72,
+  "reference_capsule_present": false,
+  "reference_logical_array_bytes": 404104200,
+  "reference_proof_record_bytes": 2666936,
+  "references": {
+    "fresh_process_candidate_reference": {
+      "artifacts": {
+        "cotangent-0": {
+          "bytes": 5701760,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/cotangent-0.npy",
+          "sha256": "aa773a4a82f96c586c86629a5c70ad77d3fc054bcbae871e4d312a0472067550"
+        },
+        "cotangent-1": {
+          "bytes": 6750336,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/cotangent-1.npy",
+          "sha256": "12f10cde53e5c82ca3084eba23255ec160718c7bbf20bb3cb48a06de3bf9aa04"
+        },
+        "cotangent-10": {
+          "bytes": 4161664,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/cotangent-10.npy",
+          "sha256": "11242756eb598a4c5859e07ad7fbbfb433de586d3c0a1c2099f477ba3a54dea4"
+        },
+        "cotangent-11": {
+          "bytes": 6389888,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/cotangent-11.npy",
+          "sha256": "b069c8b1a92fce0a21194c5d83657a9766f5075471ac9526fed27e541853cef5"
+        },
+        "cotangent-12": {
+          "bytes": 4882560,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/cotangent-12.npy",
+          "sha256": "0b4fd5cfcb74a6d95e4c0144208e8ec2e3cff0eea9232bfaf0016fc16080a183"
+        },
+        "cotangent-13": {
+          "bytes": 7340160,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/cotangent-13.npy",
+          "sha256": "7cdae7c5c86aa4f2432ae5c5f38ee56f5e25cf7659a2ddc6d0680df58484a718"
+        },
+        "cotangent-14": {
+          "bytes": 4292736,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/cotangent-14.npy",
+          "sha256": "7f43f6235068a07ed704904677bcfe0dc302679ad2af807baaf0bacf2ca9a4f8"
+        },
+        "cotangent-15": {
+          "bytes": 5963904,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/cotangent-15.npy",
+          "sha256": "a017c023c038281ca7bbbc3317a709d8ae43badb9bf103ce31fcb48945926a0d"
+        },
+        "cotangent-2": {
+          "bytes": 5046400,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/cotangent-2.npy",
+          "sha256": "6288dd365d6498df444a2f3737303e0d44ebf87052baac96c12b958c2a357d72"
+        },
+        "cotangent-3": {
+          "bytes": 7209088,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/cotangent-3.npy",
+          "sha256": "57981323ec765907eed28d96c2608899a6c196c7b2a7a316eb99992ed26989bf"
+        },
+        "cotangent-4": {
+          "bytes": 4522112,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/cotangent-4.npy",
+          "sha256": "cdd93d5a3f51c3661845fde750935a60cc3be7e29d7d6129b149ffeb57c3f14b"
+        },
+        "cotangent-5": {
+          "bytes": 7209088,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/cotangent-5.npy",
+          "sha256": "1a16f664d38213a6cfa89893cc78b904862f695c5073a62a47745c4cd903e42c"
+        },
+        "cotangent-6": {
+          "bytes": 4784256,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/cotangent-6.npy",
+          "sha256": "2ca8223c745b8e12c69360552f63c814b0e613117f519806b7f9737e166d1e4c"
+        },
+        "cotangent-7": {
+          "bytes": 6291584,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/cotangent-7.npy",
+          "sha256": "3e879eac78957909036c633570eec83bb610e83576dcfb88f1720490bc10b52a"
+        },
+        "cotangent-8": {
+          "bytes": 3506304,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/cotangent-8.npy",
+          "sha256": "b5a1bcc8ec320fbe994e1072b20da11ae3a91ae482ef5bf81ca5edb5a874af62"
+        },
+        "cotangent-9": {
+          "bytes": 6357120,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/cotangent-9.npy",
+          "sha256": "44935510f93ae742a311ec79edc6d90b3d8f350dea2f5841380a735c5a4ebe9d"
+        },
+        "input": {
+          "bytes": 12583040,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/input.npy",
+          "sha256": "7051e71301537a57b6535f355e52f6c5670e6e985ab06a621945a3c6b4d55f62"
+        },
+        "loss": {
+          "bytes": 132,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/loss.npy",
+          "sha256": "6de0631a487bd4b9ad10c1d4452612bff0efb8547bebc7b56d94e6d661e872f4"
+        },
+        "masks": {
+          "bytes": 262272,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/masks.npy",
+          "sha256": "2b022eb86bd65360479bffba3c3c4882163ed8b349bf8384875f9dcae8fef71a"
+        },
+        "prediction-0": {
+          "bytes": 5701760,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/prediction-0.npy",
+          "sha256": "f0c16b9ed98e2ca83b1cb51f34fec03facfa1048cd892c9991d9163d89cd053f"
+        },
+        "prediction-1": {
+          "bytes": 6750336,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/prediction-1.npy",
+          "sha256": "edad95d6cdfbbfac3a7415b1e7146bbac6a7fe36712fec209c537cae63b550d6"
+        },
+        "prediction-10": {
+          "bytes": 4161664,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/prediction-10.npy",
+          "sha256": "6f3fa80260fda831d7437fdf4bacb81ccea59c9d09a30cf5ce2de3cff6f9b5ac"
+        },
+        "prediction-11": {
+          "bytes": 6389888,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/prediction-11.npy",
+          "sha256": "3477d962c8caf5e0284c4f817329880803966b8168881b6c070aec2038c7ce19"
+        },
+        "prediction-12": {
+          "bytes": 4882560,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/prediction-12.npy",
+          "sha256": "c89ea2f32005b250fc9a573b8f589bf61dd810cad4c98d2ae622f968641f92b9"
+        },
+        "prediction-13": {
+          "bytes": 7340160,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/prediction-13.npy",
+          "sha256": "2f1675b804ccd84990c03485ee4abb582263a838231f8c86560dc54f244a8d26"
+        },
+        "prediction-14": {
+          "bytes": 4292736,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/prediction-14.npy",
+          "sha256": "d57c6b33f74c5e18cb7b17b372ec8a0f7bb6903b3acf4db5339442c5d04917e6"
+        },
+        "prediction-15": {
+          "bytes": 5963904,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/prediction-15.npy",
+          "sha256": "2a97040450b20ba4dee9f127128321abecd87a172e9d4512aa3e6f06cffa1a85"
+        },
+        "prediction-2": {
+          "bytes": 5046400,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/prediction-2.npy",
+          "sha256": "51b1932b3e51b5a5ed7d76059a8829c66aa919b49df28a911c026da9ed96e828"
+        },
+        "prediction-3": {
+          "bytes": 7209088,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/prediction-3.npy",
+          "sha256": "d0998a5eadf1ac9ca4ed4fb788740b18ed31e4daaf5d6493de0d03f445ac964e"
+        },
+        "prediction-4": {
+          "bytes": 4522112,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/prediction-4.npy",
+          "sha256": "86c5d50a2ab7ebefc2159dc48db667a668a39e6522627e3a55e994c80dd72cfb"
+        },
+        "prediction-5": {
+          "bytes": 7209088,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/prediction-5.npy",
+          "sha256": "a76ec32a62922b59b843642529a15031ba33c31e57ccc2a201ed5eef43ef7fad"
+        },
+        "prediction-6": {
+          "bytes": 4784256,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/prediction-6.npy",
+          "sha256": "c9d9b9943715d0ba039cc8ecb2bc7df17675b166da0e8b3a4be550d7fe9671b0"
+        },
+        "prediction-7": {
+          "bytes": 6291584,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/prediction-7.npy",
+          "sha256": "48e8f9af2174976c16d862b2c938ec3514617d3e3e336df3f4556fcecc1e4bfe"
+        },
+        "prediction-8": {
+          "bytes": 3506304,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/prediction-8.npy",
+          "sha256": "442a35fc756758e98fab7d293ef2b2fdcb42ffa2814659b98035029b4344291d"
+        },
+        "prediction-9": {
+          "bytes": 6357120,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/prediction-9.npy",
+          "sha256": "61228b43ea72f2938b1ba6b1d4565692c3441d3afc4cd1ceb3831b61f7cc260d"
+        },
+        "targets": {
+          "bytes": 8388736,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/targets.npy",
+          "sha256": "3e9c93c27a560f7326c9d63499314bc382d4107de049e7d725b224fc228fdd31"
+        }
+      },
+      "mode": "candidate",
+      "proof_records": {
+        "VJP-calls.jsonl": {
+          "bytes": 725282,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/VJP-calls.jsonl",
+          "sha256": "f40822ed22a52d4dd99d6bf64f55e0e43607517872971fdda8a801b224140808"
+        },
+        "native-calls.jsonl": {
+          "bytes": 948394,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/native-calls.jsonl",
+          "sha256": "84ea083a734d36521bb12331977d204bdedf6775e4b9f04e6488f6c790879812"
+        },
+        "scopes.json": {
+          "bytes": 577,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/scopes.json",
+          "sha256": "55fc5c162b178e8c58e95a2cce48666a192ef2f6ecb6555ce6170138567e620f"
+        },
+        "success.json": {
+          "bytes": 5002,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/success.json",
+          "sha256": "cce83120a623817321a12371e68ec9cab7ac4358abace10a6d413954ffcf1177"
+        },
+        "worker.json": {
+          "bytes": 17221,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/1/worker.json",
+          "sha256": "338f696f2fe232a7e1a77fa139be2984387ad39f7155e5aa82089e72d46a07de"
+        }
+      },
+      "replay": 0,
+      "source_control_sha256": "8b22bf0905ec0c87f6551376275e5c34542b8136cfdd2f555e0bbc39209c461e",
+      "source_index": 1
+    },
+    "same_replay_original": {
+      "artifacts": {
+        "cotangent-0": {
+          "bytes": 5701760,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-0.npy",
+          "sha256": "aa773a4a82f96c586c86629a5c70ad77d3fc054bcbae871e4d312a0472067550"
+        },
+        "cotangent-1": {
+          "bytes": 6750336,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-1.npy",
+          "sha256": "12f10cde53e5c82ca3084eba23255ec160718c7bbf20bb3cb48a06de3bf9aa04"
+        },
+        "cotangent-10": {
+          "bytes": 4161664,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-10.npy",
+          "sha256": "11242756eb598a4c5859e07ad7fbbfb433de586d3c0a1c2099f477ba3a54dea4"
+        },
+        "cotangent-11": {
+          "bytes": 6389888,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-11.npy",
+          "sha256": "b069c8b1a92fce0a21194c5d83657a9766f5075471ac9526fed27e541853cef5"
+        },
+        "cotangent-12": {
+          "bytes": 4882560,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-12.npy",
+          "sha256": "0b4fd5cfcb74a6d95e4c0144208e8ec2e3cff0eea9232bfaf0016fc16080a183"
+        },
+        "cotangent-13": {
+          "bytes": 7340160,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-13.npy",
+          "sha256": "7cdae7c5c86aa4f2432ae5c5f38ee56f5e25cf7659a2ddc6d0680df58484a718"
+        },
+        "cotangent-14": {
+          "bytes": 4292736,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-14.npy",
+          "sha256": "7f43f6235068a07ed704904677bcfe0dc302679ad2af807baaf0bacf2ca9a4f8"
+        },
+        "cotangent-15": {
+          "bytes": 5963904,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-15.npy",
+          "sha256": "a017c023c038281ca7bbbc3317a709d8ae43badb9bf103ce31fcb48945926a0d"
+        },
+        "cotangent-2": {
+          "bytes": 5046400,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-2.npy",
+          "sha256": "6288dd365d6498df444a2f3737303e0d44ebf87052baac96c12b958c2a357d72"
+        },
+        "cotangent-3": {
+          "bytes": 7209088,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-3.npy",
+          "sha256": "57981323ec765907eed28d96c2608899a6c196c7b2a7a316eb99992ed26989bf"
+        },
+        "cotangent-4": {
+          "bytes": 4522112,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-4.npy",
+          "sha256": "cdd93d5a3f51c3661845fde750935a60cc3be7e29d7d6129b149ffeb57c3f14b"
+        },
+        "cotangent-5": {
+          "bytes": 7209088,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-5.npy",
+          "sha256": "1a16f664d38213a6cfa89893cc78b904862f695c5073a62a47745c4cd903e42c"
+        },
+        "cotangent-6": {
+          "bytes": 4784256,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-6.npy",
+          "sha256": "2ca8223c745b8e12c69360552f63c814b0e613117f519806b7f9737e166d1e4c"
+        },
+        "cotangent-7": {
+          "bytes": 6291584,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-7.npy",
+          "sha256": "3e879eac78957909036c633570eec83bb610e83576dcfb88f1720490bc10b52a"
+        },
+        "cotangent-8": {
+          "bytes": 3506304,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-8.npy",
+          "sha256": "b5a1bcc8ec320fbe994e1072b20da11ae3a91ae482ef5bf81ca5edb5a874af62"
+        },
+        "cotangent-9": {
+          "bytes": 6357120,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/cotangent-9.npy",
+          "sha256": "44935510f93ae742a311ec79edc6d90b3d8f350dea2f5841380a735c5a4ebe9d"
+        },
+        "input": {
+          "bytes": 12583040,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/input.npy",
+          "sha256": "0a19dd216f4cf2d7512eafa67b691f6b34c90125660c2340b4d09009b021960a"
+        },
+        "loss": {
+          "bytes": 132,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/loss.npy",
+          "sha256": "6de0631a487bd4b9ad10c1d4452612bff0efb8547bebc7b56d94e6d661e872f4"
+        },
+        "masks": {
+          "bytes": 262272,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/masks.npy",
+          "sha256": "2b022eb86bd65360479bffba3c3c4882163ed8b349bf8384875f9dcae8fef71a"
+        },
+        "prediction-0": {
+          "bytes": 5701760,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-0.npy",
+          "sha256": "f0c16b9ed98e2ca83b1cb51f34fec03facfa1048cd892c9991d9163d89cd053f"
+        },
+        "prediction-1": {
+          "bytes": 6750336,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-1.npy",
+          "sha256": "edad95d6cdfbbfac3a7415b1e7146bbac6a7fe36712fec209c537cae63b550d6"
+        },
+        "prediction-10": {
+          "bytes": 4161664,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-10.npy",
+          "sha256": "6f3fa80260fda831d7437fdf4bacb81ccea59c9d09a30cf5ce2de3cff6f9b5ac"
+        },
+        "prediction-11": {
+          "bytes": 6389888,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-11.npy",
+          "sha256": "3477d962c8caf5e0284c4f817329880803966b8168881b6c070aec2038c7ce19"
+        },
+        "prediction-12": {
+          "bytes": 4882560,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-12.npy",
+          "sha256": "c89ea2f32005b250fc9a573b8f589bf61dd810cad4c98d2ae622f968641f92b9"
+        },
+        "prediction-13": {
+          "bytes": 7340160,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-13.npy",
+          "sha256": "2f1675b804ccd84990c03485ee4abb582263a838231f8c86560dc54f244a8d26"
+        },
+        "prediction-14": {
+          "bytes": 4292736,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-14.npy",
+          "sha256": "d57c6b33f74c5e18cb7b17b372ec8a0f7bb6903b3acf4db5339442c5d04917e6"
+        },
+        "prediction-15": {
+          "bytes": 5963904,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-15.npy",
+          "sha256": "2a97040450b20ba4dee9f127128321abecd87a172e9d4512aa3e6f06cffa1a85"
+        },
+        "prediction-2": {
+          "bytes": 5046400,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-2.npy",
+          "sha256": "51b1932b3e51b5a5ed7d76059a8829c66aa919b49df28a911c026da9ed96e828"
+        },
+        "prediction-3": {
+          "bytes": 7209088,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-3.npy",
+          "sha256": "d0998a5eadf1ac9ca4ed4fb788740b18ed31e4daaf5d6493de0d03f445ac964e"
+        },
+        "prediction-4": {
+          "bytes": 4522112,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-4.npy",
+          "sha256": "86c5d50a2ab7ebefc2159dc48db667a668a39e6522627e3a55e994c80dd72cfb"
+        },
+        "prediction-5": {
+          "bytes": 7209088,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-5.npy",
+          "sha256": "a76ec32a62922b59b843642529a15031ba33c31e57ccc2a201ed5eef43ef7fad"
+        },
+        "prediction-6": {
+          "bytes": 4784256,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-6.npy",
+          "sha256": "c9d9b9943715d0ba039cc8ecb2bc7df17675b166da0e8b3a4be550d7fe9671b0"
+        },
+        "prediction-7": {
+          "bytes": 6291584,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-7.npy",
+          "sha256": "48e8f9af2174976c16d862b2c938ec3514617d3e3e336df3f4556fcecc1e4bfe"
+        },
+        "prediction-8": {
+          "bytes": 3506304,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-8.npy",
+          "sha256": "442a35fc756758e98fab7d293ef2b2fdcb42ffa2814659b98035029b4344291d"
+        },
+        "prediction-9": {
+          "bytes": 6357120,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/prediction-9.npy",
+          "sha256": "61228b43ea72f2938b1ba6b1d4565692c3441d3afc4cd1ceb3831b61f7cc260d"
+        },
+        "targets": {
+          "bytes": 8388736,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/targets.npy",
+          "sha256": "3e9c93c27a560f7326c9d63499314bc382d4107de049e7d725b224fc228fdd31"
+        }
+      },
+      "mode": "original",
+      "proof_records": {
+        "VJP-calls.jsonl": {
+          "bytes": 0,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/VJP-calls.jsonl",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        "native-calls.jsonl": {
+          "bytes": 948394,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/native-calls.jsonl",
+          "sha256": "c2b62bea177e4c8e7ea9cb659d26dfffb9f45734b07a52c40deeff5e8e5223d9"
+        },
+        "scopes.json": {
+          "bytes": 327,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/scopes.json",
+          "sha256": "594eb541ee69478cf1bc5f74121b4e033f15e7416476cfb339f81d01d73edf22"
+        },
+        "success.json": {
+          "bytes": 4996,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/success.json",
+          "sha256": "d09b715d89b325611016ced05bfc4ad0b48fba212578dbd400cb2c2da39e0821"
+        },
+        "worker.json": {
+          "bytes": 16743,
+          "path": "runs/pretrained/diagnostic/predictor-forward-preserving-handoff-v2-20261114/linux10603-final/attended-yo4uf0wc/saved/results/2/worker.json",
+          "sha256": "5a02933dc8a3df8854cecce1339d47e0258164c3ce1622dbb841ef2d176ae2e6"
+        }
+      },
+      "replay": 1,
+      "source_control_sha256": "8b22bf0905ec0c87f6551376275e5c34542b8136cfdd2f555e0bbc39209c461e",
+      "source_index": 2
+    }
+  },
+  "resources_finalized": false,
+  "target_handoff_present": false,
+  "upload_or_SSH_permitted": false
+}

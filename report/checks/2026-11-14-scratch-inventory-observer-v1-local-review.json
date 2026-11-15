@@ -1,0 +1,147 @@
+{
+  "actual_stable_collection_inventory_identical": true,
+  "actual_target_descriptors_unchanged": {
+    "earlier_components": 245,
+    "latest": 280,
+    "startup_failure": 135
+  },
+  "actual_target_replay_still_incomplete": true,
+  "added_refusal_context_bytes_cap": 1536,
+  "controlled_real_local_filesystem_interleaving_reproduced": true,
+  "date": "2026-11-14",
+  "delegates_once_and_never_admits_after_refusal": true,
+  "document": {
+    "bytes": 7580,
+    "path": "docs/scratch_inventory_observer_v1.md",
+    "sha256": "1a80207367c8832729ad719608f02338f916e7a2fce43727260d2e31bb88fa34"
+  },
+  "errors": 0,
+  "failures": 0,
+  "guard_relaxation_or_retry_added": false,
+  "historical_university_filename_or_root_cause_confirmed": false,
+  "inert_missing_replay_plan": {
+    "bytes": 40126,
+    "mode": 384,
+    "mtime_ns": 1794710444710973574,
+    "path": "configs/predictor_missing_replay_plan_v1.json",
+    "sha256": "2ca7e4f278198e483cf28ba8d8b35b715bf466cea37ff845f0238888c021c509"
+  },
+  "kind": "scratch-inventory-observer-and-missing-replay-local-review-v1",
+  "new_model_GPU_or_paid_work": false,
+  "new_target_operator_helper_authorization_or_attempt": false,
+  "next_step": "LOCAL ONLY build and verify the deduplicated immutable reference capsule and exact lineage reader, then prepare a separate unarmed one-candidate-replay scope using strict refusal observation. Do not rerun the completed workers or reuse consumed grants. No target approval request before concrete preparation.",
+  "no_new_model_autograd_SDPA_inventory_scan_reproduction_process_network_or_reference_execution_in_review": true,
+  "original_inventory_source_and_predicates_unchanged": true,
+  "original_stat_and_bounded_metadata_rechecks_captured": true,
+  "passed": true,
+  "prior_sealed_result_files_unchanged": 2366,
+  "reference_aliases": 72,
+  "reference_capsule_constructed": false,
+  "reference_proof_record_bytes": 2666936,
+  "reference_source_workers": [
+    2,
+    1
+  ],
+  "refusal_evidence": {
+    "actual-collected-inventory": {
+      "bytes": 228,
+      "mode": 384,
+      "mtime_ns": 1794710126647589433,
+      "path": "runs/pretrained/diagnostic/scratch-inventory-observer-v1-20261114/evidence-first/actual-collected-inventory.json",
+      "sha256": "1bfc89a10f7a72fdc0b6fb3f7fae84b5948ad0b951962c71ab741d5caaf6da4c"
+    },
+    "bounded-unicode-path": {
+      "bytes": 1386,
+      "mode": 384,
+      "mtime_ns": 1794710125773033089,
+      "path": "runs/pretrained/diagnostic/scratch-inventory-observer-v1-20261114/evidence-first/bounded-unicode-path.json",
+      "sha256": "b0bfa995f345636f9afcee707cf58636c4833be3195c440b9d436cc736f2af80"
+    },
+    "controlled-writer-interleaving": {
+      "bytes": 1549,
+      "mode": 384,
+      "mtime_ns": 1794710125767170925,
+      "path": "runs/pretrained/diagnostic/scratch-inventory-observer-v1-20261114/evidence-first/controlled-writer-interleaving.json",
+      "sha256": "9ed987854f1233f666ccaa3b895a98c06fd6cf69d5b0fefcc590645b52bec464"
+    },
+    "external-bin-hardlink": {
+      "bytes": 1142,
+      "mode": 384,
+      "mtime_ns": 1794710125759388302,
+      "path": "runs/pretrained/diagnostic/scratch-inventory-observer-v1-20261114/evidence-first/external-bin-hardlink.json",
+      "sha256": "22cf7d38e49028a8fb9e47188406a6377f271ac8b32e084b133b7b802d54f1f4"
+    },
+    "external-json-hardlink": {
+      "bytes": 1256,
+      "mode": 384,
+      "mtime_ns": 1794710125757754803,
+      "path": "runs/pretrained/diagnostic/scratch-inventory-observer-v1-20261114/evidence-first/external-json-hardlink.json",
+      "sha256": "8dbe89523da80aca260dc4e5a1dd370027de95c757e090a4be3ed14185d526e0"
+    },
+    "fifo": {
+      "bytes": 1129,
+      "mode": 384,
+      "mtime_ns": 1794710125761919468,
+      "path": "runs/pretrained/diagnostic/scratch-inventory-observer-v1-20261114/evidence-first/fifo.json",
+      "sha256": "0fc7264d7efec6cdf997afcbedaf2d502c546d891d37ff8716638b8fb4ea2b66"
+    },
+    "socket": {
+      "bytes": 1133,
+      "mode": 384,
+      "mtime_ns": 1794710125763333009,
+      "path": "runs/pretrained/diagnostic/scratch-inventory-observer-v1-20261114/evidence-first/socket.json",
+      "sha256": "4657da955f79097339a3e03313bae7558a1f95c2257c047db9d493f3b2302ce5"
+    },
+    "symlink": {
+      "bytes": 1125,
+      "mode": 384,
+      "mtime_ns": 1794710125760662968,
+      "path": "runs/pretrained/diagnostic/scratch-inventory-observer-v1-20261114/evidence-first/symlink.json",
+      "sha256": "be80dc8afdde2e4d5c505299dabc03f9cb477231ffa461b5b48776650fb8ecd6"
+    }
+  },
+  "review_source": {
+    "bytes": 11228,
+    "mode": 420,
+    "mtime_ns": 1794710568721602089,
+    "path": "runs/pretrained/diagnostic/scratch-inventory-observer-v1-20261114/review_saved.py",
+    "sha256": "fa3ce4828b4b17f174931a31c3eb7250d3a3394ef681f445caeeae6b0b1a6c45"
+  },
+  "saved_independent_review": {
+    "bytes": 5682,
+    "path": "runs/pretrained/diagnostic/scratch-inventory-observer-v1-20261114/independent-review.json",
+    "sha256": "2b8511d3256327cc4c8ec1bc5a08c5207fd2fec0d2f16ec33e54c9cec053928c"
+  },
+  "saved_review_log": {
+    "bytes": 344,
+    "path": "runs/pretrained/diagnostic/scratch-inventory-observer-v1-20261114/independent-review.log",
+    "sha256": "4d2d4ef2365ed990c0f88889cc20d0fc446d419e4518a4ee511072f0bf550b3e"
+  },
+  "schedule_injected": true,
+  "sealed_inputs": "runs/pretrained/diagnostic/scratch-inventory-observer-v1-20261114/sealed-inputs.json",
+  "skipped": 0,
+  "source_pins": {
+    "models/scratch_inventory_observer_v1.py": "ae576108fd4661b21224bdf544dc762bc7a4f010bbb571614a496c7d7904ffff",
+    "tests/test_scratch_inventory_observer_v1.py": "50a3adabb8e33ed09446a901daf6412999d493ca249d1c6cce5c55ee0633df91"
+  },
+  "stat_results_fabricated": false,
+  "successful_scientific_or_old_test_suites_repeated": false,
+  "suite_runs": 1,
+  "test_log": {
+    "bytes": 99,
+    "mode": 384,
+    "mtime_ns": 1794710126660113263,
+    "path": "runs/pretrained/diagnostic/scratch-inventory-observer-v1-20261114/pytest-first.log",
+    "sha256": "490edac0232a1aeaa738af806c5f3bbba4353b2be00f8c89667a5dfe7dc9ac3a"
+  },
+  "test_xml": {
+    "bytes": 3098,
+    "mode": 384,
+    "mtime_ns": 1794710126648705308,
+    "path": "runs/pretrained/diagnostic/scratch-inventory-observer-v1-20261114/pytest-first.xml",
+    "sha256": "178ec91d64d5905153af394e6a2f943a2d2b877078732c6e90393c3eee88cf85"
+  },
+  "tests": 19,
+  "unique_array_blobs": 37,
+  "unique_array_file_bytes": 214635140
+}

@@ -2,6 +2,48 @@
 
 ## Current stage
 
+LATEST November 14: STRICT INVENTORY REFUSAL OBSERVER VERIFIED LOCALLY; ONE-REPLAY PLAN INERT.
+Read report/checks/2026-11-14-scratch-inventory-observer-v1-local-review.json/md,
+docs/scratch_inventory_observer_v1.md and configs/predictor_missing_replay_plan_v1.json.
+Separate models/scratch_inventory_observer_v1.py + focusedtests. Pins frozeninventory
+source/function/code, delegatesACTUALfrozenfunction ONCE, no acceptancepredicate/
+walk/hash/accounting/globalpatch. ONLYafterValueError captures actualguardframe path/
+stat, rootdevice, atmost2additional lstatmetadata observations (no file/targetdata
+reads), <=1536ASCIIJSONB/384pathJSONB+fullpathdigest/truncation. ValueError+original
+cause preserved; no return/retry/admission afterrefusal. Loggingfailure stillrefuses;
+otherexceptiontypes unchanged. Notwiredintoanylivehelper/authorization.
+19newchecks FIRSTONLYsuitePASS0fail/error/skip. Successhash/nohash parity/validpair/
+physicalallocation; actualexternalhardlinks/symlink/FIFO/socket refuse; metadata
+unavailable/disappearance/deepUnicode/bytecaps/source drift/no-return cover.
+CONTROLLED localactualfilesystemwriterinterleaving reproduces olderror: observed
+oldinode2links, laterentry/partnerdifferentinodes1link. Schedulehook afterREALlstat;
+no fabricatedstats; retainedoldinodepreventsreuse. OldguardANDobserver refuse; TEST-
+ONLYlaterstable scan accepts endstate. Productionobserverneverrescans. Mechanism
+LOCAL/POSSIBLE only: exacttargetfilename/rootcause/STALENESS notestablished. No
+Linux/XFS/frequencyqualification or permissiontorelaxguard. HistoricalV2failure stays.
+Actualcollected280fileinventoryidentical; partialreplaystillnotadmitted. Independent
+STDLIBsavedreview (no observerimport/scan/repro/model/process/network)2366priorpins+
+280latest/135startup/245component byte/mode/nsmtime descriptors unchanged. No SCI/
+GPU/proof/oldsuccessfulsuite/SSH/upload/install/cleanup/paidwork. Newstage sealed
+raw scratch-inventory-observer-v1-20261114/sealed-inputs.json.
+Inertmissingreplayplan pins EXACToldoriginal1(worker2) +candidate0(worker1) with old
+headers/markers/proofs/control IDs unchanged. PlansONE fresh fullcandidateEOT8replay,
+NO neworiginal/fullcohort; preserveallthreeverifiedresults andpartialfourth. References
+72arrayaliases404,104,200B ->37unique214,635,140B+proof2,666,936B. No capsule/operator/
+helper/AUTH/ATTEMPT/targetscope created; compression/resources NOTfinalized. Old
+477.362277s/claim charged andconsumed. No newgrant or reset inferred.
+NEXT LOCAL ONLY build/verifydeduplicatedcontent-addressedregular-file reference
+capsule (NO hard/symlinks), stricttypedlineagereader and newexecution-vs-oldreference
+identity binding. Neverrewriteoldreceipt/promotepartial/sourceoldcontrolasnewgrant.
+Then prepareCONCRETEUNARMED one-candidate-replay scope usingstrictobserver; keep
+original numerical/ownership/resource gates. Measurearchive/bootstrap/allcategories
+beforefinalbounds; don'tassumeinputcap fits. Onlyaftercompleteprep/review seekONE
+newexactscopedapproval, neverrepeatunchangedapproval/manualGPUcheck. No SSH/helper/
+retrieval/proof/cleanup/install/heldout/paidwork or consumedcohort rerun.
+V2initialfullCUDA numericalPASS/originalreplayexact/candidatefreshreplay OPEN; parent
+FAILED/oldcandidate3724/research/optimizer/kernel/performance/finance/fulltraining
+unchanged. Usercommits self;neverstage/commit/push. EarlierLATEST historical.
+
 LATEST November 14: V2 FULL-SIZE CUDA INITIAL NUMERICAL PASS; 3 COMPLETE, LAST REPLAY PARTIAL.
 Read report/checks/2026-11-14-forward-preserving-v2-target-review.json/md first.
 Selected V2 attended-yo4uf0wc, CONTROL8b22bf0905ec0c87f6551376275e5c34542b8136cfdd2f555e0bbc39209c461e,
