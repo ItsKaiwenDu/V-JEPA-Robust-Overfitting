@@ -1,0 +1,96 @@
+{
+  "actual_child_pipe_timer_proc_PID_signal_proof_Torch_NumPy_array_gradient_profiler_GPU_SSH_paid_work": false,
+  "actual_closed_handle_state_covers_release_to_monitor_exceptions": true,
+  "actual_supervisor_bundle_ready": false,
+  "all_actual_scientific_backend_accuracy_replay_performance_cost_training_admissions": false,
+  "component_monitor_frozen_unchanged": true,
+  "date": "2026-11-15",
+  "exact_monitor_inverse_AST_including_stop_cleanup": true,
+  "exclusive_session_failure_does_not_replace_unclaimed_state": true,
+  "fixed_source_namespaces": 69,
+  "fixed_workload_resource_host_policy_unchanged": true,
+  "historical_byte_mode_nsmtime_groups": [
+    242,
+    280,
+    135,
+    245,
+    5,
+    3
+  ],
+  "kind": "pgd-split-launch-v1-independent-local-review",
+  "mode": "fresh stdlib saved-source/metadata audit; no project imports, tests, callbacks, OS launch/timer/PID/signal, scientific or network execution",
+  "new_target_helper_or_authorization_ready": false,
+  "no_numeric_PID_signal_fallback": true,
+  "old_claims_caps_holds_pending_financial_reconciliation_unchanged": true,
+  "original_runtime_sources": 63,
+  "primary_docs": [
+    "https://docs.python.org/3.11/library/subprocess.html#subprocess.Popen",
+    "https://docs.python.org/3.11/using/cmdline.html#cmdoption-I",
+    "https://docs.python.org/3.11/library/importlib.html#importlib.abc.Loader.exec_module",
+    "https://docs.python.org/3.11/library/time.html#time.monotonic"
+  ],
+  "prior_FIFO_fixtures_lstat_only_never_read": 1,
+  "prior_fixture_layouts_verified": [
+    1720,
+    474,
+    101,
+    166
+  ],
+  "prior_hashes_verified": 6684,
+  "release_follows_owned_PID_handle_and_live_gates": true,
+  "remaining_before_target": [
+    "Bounded same-SSH streamed collection and combined final receipts.",
+    "Outer local/remote attempt claim, scope/source/setup installation and original client/parent work/collection timer driver.",
+    "Actual six-source supervisor package and independent complete package review, then one exact new university approval."
+  ],
+  "result": "PASS",
+  "role_monitor_edits": {
+    "kind": 1,
+    "metadata": 1,
+    "rss": 1,
+    "samples": 1,
+    "time": 1
+  },
+  "saved_fake_full_role_session": "runs/pretrained/diagnostic/predictor-pgd-split-launch-v1-20261115/pytest-01/test_coordinator_orders_all_fo0/FAKE-COORDINATOR-SESSION.json",
+  "source_installation_and_owner_deadline_recheck_before_child_dispatch": true,
+  "source_loader_execution_limited_to_inert_package_docstring_and_inert_driver_stub": true,
+  "source_pins": {
+    "configs/predictor_pgd_split_launch_v1.json": "0d1c5d92a2d3fdb41907ba8b6d7db0028d39ba1b9ecdb8eec0482a384b2e8621",
+    "docs/predictor_pgd_split_launch_v1.md": "877085543771eea949b306f598a72c28de66f2e98bed9b40318f6709193ef36d",
+    "models/predictor_pgd_split_bootstrap_v1.py": "4e977468a4e9fca4bda595983d0345bb6ed8c9f31ea1bcb7e8a0553b17a9b1f4",
+    "models/predictor_pgd_split_coordinator_v1.py": "956f64be47bfae62bde77c04f44ad6f4d544895ee0fcadc9baadc06b5bcc0afb",
+    "tests/test_predictor_pgd_split_launch_v1.py": "992e9d757b1c0208c0c019d587b9142a8a76548f2ad4a2bcba8945da0572e015"
+  },
+  "supervisor_descriptors": 6,
+  "tests": {
+    "affected_passing_checks_repeated": 12,
+    "all_latest_pass": true,
+    "distinct": 114,
+    "executions": 126,
+    "historical_test_functions_or_scientific_cohorts_repeated": false,
+    "runs": [
+      {
+        "checks": 100,
+        "errors": 0,
+        "failures": 0,
+        "passed": 100,
+        "skips": 0
+      },
+      {
+        "checks": 12,
+        "errors": 0,
+        "failures": 0,
+        "passed": 12,
+        "skips": 0
+      },
+      {
+        "checks": 14,
+        "errors": 0,
+        "failures": 0,
+        "passed": 14,
+        "skips": 0
+      }
+    ],
+    "unaffected_initial_passes_not_repeated": 88
+  }
+}

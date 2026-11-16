@@ -1,5 +1,28 @@
 # Research Progress Reports
 
+## 2026-11-15 — Pinned bootstrap and serial coordinator pass local checks
+
+New source definitions bind control/authorization metadata and 69 source names,
+wait for a parent-owned process handle before releasing a child, and retain the
+fixed proof/numerical/native/candidate order under original continuing clocks.
+Saved receipts gate later work. Failed claims preserve previous sessions. Review
+closed the release-to-monitor interruption window using actual handle state; the
+work result stays await-collection with all completion/scientific flags false.
+
+114 distinct checks pass over 126 executions: first 100, twelve new entry/reader
+bindings, then twelve affected launch checks and two new interruption regressions.
+No failures/errors/skips or old test/cohort repeats. All OS/worker calls are fakes;
+only inert source docstrings/stubs execute in loader tests. No actual child, pipe,
+timer, PID/signal, proof, model, gradient, GPU or remote work ran. The independent
+saved-source audit verifies 6,684 prior hashes, 2,461 prior fixture layouts and an
+exact inverse of the role monitor including stop/cleanup. All snapshots remain.
+
+Next finish same-session streamed collection/combined receipts and the outer
+attempt/setup/source/timer driver with bounded guard journals. The actual six-file
+supervisor package, complete independent review and exact new university approval
+remain pending. Training and live scientific validation remain unqualified. See
+the [launch review](report/checks/2026-11-15-pgd-split-launch-v1-local-review.md).
+
 ## 2026-11-15 — Whole-scratch guard passes local checks
 
 The new read-only guard covers input/code/cache/proof/emergency space around the

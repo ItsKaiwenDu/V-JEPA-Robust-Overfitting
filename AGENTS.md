@@ -2,6 +2,69 @@
 
 ## Current stage
 
+LATEST November 15: PINNED BOOTSTRAP/SERIAL COORDINATOR VERIFIED LOCALLY.
+Read report/checks/2026-11-15-pgd-split-launch-v1-local-review.json/md,
+ docs/predictor_pgd_split_launch_v1.md + configs/predictor_pgd_split_launch_v1.json.
+New predictor_pgd_split_bootstrap_v1/coordinator_v1: UNINVOKED concreteOS/workdefs,
+NO CLI/outertargethelper/armingscope ready. PolicySHA0d1c5d92a2d3fdb41907ba8b6d7db0028d39ba1b9ecdb8eec0482a384b2e8621
+pinsbase/design/scratchtexts +unchangedscope/host/finances. Controlpins6supervisor
+sources; installJSONderived AFTERcontrolSHA avoids hashcycle. TestsuseINERTcollector
+placeholder, notactual6filebundle. Separateexactnewgrant required; fakegrant user_basis
+explicitlyNOTLIVE. Source importer63runtime+6supervisor names, privateheldnofollow
+bytes/hash, declaredprojectnamesONLY, noambientmodels/attacks/reloads/cwdfallback.
+Namespaceorigin/loader/source/controljoin; NOTinprocesstamperproof/hermeticclaim.
+Futurechild -I/-B/privateumask/newsession/closefds/passONLYreleaseFD; stdout/stderr
+boundedlogs. Beforeanymodel/proof, waitingpipeparentPID+originalSIGALRMdeadline.
+ParentpreparemonitorBEFOREPopen, bindactualownedbirth/parent/session/PIDFD +livegates
+BEFOREGrelease. BindingfailuregivesEOF; no numericsignal fallback. Postinstall
+owner/deadlineNEWrecheck. Childdispatchkeepsoriginalpacket/upstream/checkpoint/base
+andfilelimits3GiBproof/16MiBworkers; originalruntime/math/num/backend sourcesfrozen.
+SystemDriverconcretebindingsNEVEREXECUTEDwithrealOSinchecks. Actualsource/target
+installation,fullGPU/proof/childruntimebehaviorUNOBSERVED. SIGCHLDdefaultrequired.
+Coordinatoroneconnectionorigin2400work/3000connection,setup180; rolelaunchorigin
+60proof/1680numerical/120native/120candidate, laterphases+final/overheadreserved;
+source/savedreader/publishsamecontinuingclock. Stopeventneverstartsnextrole. Parent
+savednumerical/native-proof/componentcompletion/parentresourcejoinsconcrete; no
+newobjective. Await-collectionreturncomplete/scientificFALSE. Rootsessionexclusive
+claim +onlyowncommittedSHAreplace; failedpreflight/claimNEVERreplaceoldsession.
+OuterATTEMPT/authorizationreuse-across-roots mechanism STILLREQUIRED, notthisclaim.
+ComponentsuseUNCHANGEDfrozenmonitor. Proof/numASTclone4edits:roleclock/samplecap,
+RSSobservationONLY(notcomponent4GiB),newreceiptkind/+2fields. IndependentINVERSE
+wholewatchASTEXACT inclstopfinally; no newbound/resourceallowance/componentchange.
+Reviewfoundrelease-to-monitorasyncwindow: actuallease.closed fallback retakes
+cleanup, notjustmonitoredBoolean; returnedopenmonitorREFUSES. Twoexplicitfake
+handoff/unclosedreturnregressions. Rawsourcebefore/afterkept; handoff faults simulatedONLY.
+114DISTINCTlatestALLPASS/126exec: first100; new12entry/reader;12affectedlaunchrepeat+
+new2interruptions.0fail/error/skip;88initialunaffectedNOrepeat;nohistoricaltestfunc/
+scientificcohort repeats. OSprocess/pipe/timer/PID/signal/proc/GPU callsFAKES ONLY.
+LoaderexecutesONLYpinnedINERTpackageDOCSTRING +separateINERTdriverstub. No12scientific
+worker namespace/model/array/autograd/profiler/proof/realchild/remoteexecuted. Saved
+fullrolesession explicitlyFAKE. Newtestsourcesnapshotallkept. STDLIB savedauditPASS
+6684priorhashes+1720/474/101/166oldlayouts+242/280/135/245/5/3 byte/mode/nsmtimegroups,
+source/order/monitorinverse/testaccounting. Auditorfirstpytestnameprefixlookupbad;
+fixedONLYartifactlookup, oldscript/logkept; production/testsunchangedafter3rdrun.
+Raw predictor-pgd-split-launch-v1-20261115; finalseal therefornextpreservation.
+IMPORTANT oldscratchfixturelayout hasONE FIFO: lstat/type/mode ONLY, NEVERopen/hash/
+read. Allfuturelayoutaudits musthandle fifo=True BEFOREregular-filebranch.
+NEXT LOCAL ONLY boundedSAME-SSHstreamedcollector/combinedfinalreceipts +outerlocal/
+remote ATTEMPT/control/auth/source/setupdriver andoriginalclientlogin-inclusive/
+parentwork/collectionalarms. Persist BOUNDEDGPU/storage observations+refusals:
+currentgatefunctionsCHECKbut finalsamplingjournalNOTwired. Enforceoldfile/type/
+byte/time/categorylimits, noondiskarchive/no separateretrieval/newconnections/
+actualwork untilconcretepkg+independentwhole-sourcereview thenONEexactnewscope.
+AssembleACTUAL6supervisorfiles inclcollector +parentpinnednamespacebootstrap;
+currentparentcoordinatorassumestrustedfinderalreadyinstalled byfutureouterdriver.
+TargetreadinessXFS/dev66307/host10603/UUID/driver+strictotherCUDAguard retained in
+source, NOTobservednow; no repeatedmanualGPUstatus/newscopequestionyet.
+NO actualmodel/tensor/arraymath/autograd/SDPA/profiler/newCPUorGPUgrad/cohorts/refs/
+warmups/realproc/PIDhandle/signal/timer/pipe/child/SSH/upload/proof/retrieval/cleanup/
+paidwork. Frozendesignc5daae30cbe4043cf4d5265de2a2a7420d015ab1e244cc3d74fcc93b5f0186af
+8fullgrad+2EXTRAcomponentVJPs/oneinner,0CPUFP64/warmup/replay; allocator7GiB,
+componentRSS4GiB. Allactualscientific/CUDA/backend/accuracy/fullEOT8/replay/perf/cost/
+trainingFALSE. OldgrantsCONSUMED;oldoriginalbackwardRETURNED/latercauseUNKNOWN,
+partialsUNADMITTED. Frozenpasses/rejections/finances/caps/holds/reconciliation
+unchanged. Userstages/commits/pushes self;NEVERdoit. Earlier LATEST historical.
+
 LATEST November 15: WHOLE-SCRATCH GUARD VERIFIED LOCALLY.
 Read report/checks/2026-11-15-pgd-split-scratch-v1-local-review.json/md,
  docs/predictor_pgd_split_scratch_v1.md + configs/predictor_pgd_split_scratch_v1.json.
