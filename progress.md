@@ -1,5 +1,63 @@
 # Research Progress Reports
 
+## 2026-11-16 — Directory correction verified; startup import gap found
+
+The attended v2 attempt passed the full 2.5 GiB storage proof in 14.52 seconds and
+created its numerical output directory successfully. It then failed before model
+construction or any gradient: the pinned bootstrap exposes models/attacks but a
+source dependency imports datasets.prepared. Those dataset files are already in
+the verified packet; their import namespace was not bound. The parent separately
+records a process-exit error whose exact source location was not saved.
+
+All 187 collected files independently verify, with control/source/authorization/
+receipt joins. All 10,504 prior hashes and 7,785 fixture entries remain unchanged;
+the old FIFO is lstat-only. A conservative source inventory records 195 import
+edges and fourteen dynamic sites for offline review; it includes inactive branches
+and is not an executed closure test. One auditor root-count assertion was corrected
+with both scripts/logs retained. No test or scientific cohort repeated.
+
+The grant is consumed and the failure remains unadmitted. Next resolve/test the
+whole pinned startup dependency path and early-child-exit reporting locally before
+preparing another scoped handoff. No rerun, retrieval or manual GPU check is needed
+now. Scientific/training and financial gates remain unchanged. See the
+[startup import review](report/checks/2026-11-16-pgd-split-outer-v2-startup-import-review.md).
+
+## 2026-11-16 — Approved corrected v2 handoff armed
+
+The user approved the exact additional corrected university attempt. The unchanged
+reviewed v2 handoff now has its bound authorization. All 10,501 preserved file
+hashes, 779 new fixture entries and source pins match. Full local client preflight
+passes, including the original packet's byte hash. No timer, attempt claim, SSH,
+proof or scientific work started; no tests or cohorts repeated.
+
+Next run the single attended Mac v2 command. No repeated manual GPU check is
+needed; the helper checks live. The grant is consumed when its attempt claim is
+created, including on error. Then inspect local results before any further work.
+Original limits, previous evidence, scientific/training gates and financial state
+remain unchanged. See the [arming record](report/checks/2026-11-16-pgd-split-outer-v2-arming.md).
+
+## 2026-11-16 — Corrected outer setup passes integrated local review
+
+A fresh v2 handoff fixes the observed worker-directory ownership collision. The
+actual setup now uses the original full catalogue, creates only 26 source and
+supervisor directories and leaves all 12 exclusive worker claims fresh. All 69
+uploaded worker/supervisor sources and the supervised control remain identical to
+the failed attempt. No old evidence, authorization or claim is changed.
+
+All 24 new checks pass on their first execution. They exercise real setup, source
+caching, directory scans and the twelve frozen mkdir statements, with host/GPU,
+import activation, packet contents, allocation and proof admission substituted.
+No scientific worker, gradient, timer, process, proof or SSH executes. The fresh
+independent audit passes 9,924 prior hashes, 7,006 fixture layout entries and all
+186 collected target files. The old FIFO remains lstat-only. Source inversion
+confirms that numerical, resource, timer, collection and ownership gates are intact.
+
+The concrete v2 package is ready and unarmed. Next request one new exact scoped
+university approval for the corrected attempt; no repeated manual GPU check is
+needed. Actual scientific behavior and training admission remain pending, and
+financial caps, holds and reconciliation stay unchanged. See the
+[corrected setup review](report/checks/2026-11-16-pgd-split-outer-v2-local-review.md).
+
 ## 2026-11-16 — Live storage/collection pass; startup directory conflict confirmed
 
 The attended outer attempt completed its full 2.5 GiB write/fsync/readback proof in

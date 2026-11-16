@@ -2,6 +2,123 @@
 
 ## Current stage
 
+LATEST November 16: V2 GRANT CONSUMED; DIRECTORY FIX PASSED, PINNED IMPORT REFUSAL.
+Incident seal sealed-reviewed-incident.json pins 10708 regular hashes;
+fixture-layout-preserved.json records 221 new entries in raw incident-v2.
+Read report/checks/2026-11-16-pgd-split-outer-v2-startup-import-review.json/md and
+ docs/predictor_pgd_split_startup_review_v3.md before further work. UserDone:
+ATTEMPT consumed; same-SSH collection187files verified locally, SSHexit1. Full
+original2.5GiBproof PASS14.518642s/1926events/peak2746728448<3GiB. Proofremoved.
+Saved26-directoryplan correct; numerical exclusive mkdir and initial status nowpass.
+Then models.reuse_diagnostic ->models.native_diagnostic ->datasets.prepared fails
+ModuleNotFoundError. The SIX datasets source files already exist/hashmatch in
+original packet code/datasets; omitted from PINNED IMPORT NAMESPACE, not missing
+upload/dependency install. Loader declares onlymodels/attacks(63runtime+6supervisor).
+CUDA/runtime configured beforefailure; no modelconstruction, gradientobjective0,
+candidatepoints0/artifacts0/no-grad0, componentworkers0. All numerical/backend/
+performance/cost/training admissions FALSE. No SSHloss/GPUcontention cause evidenced.
+Parent independently saved ProcessLookupError errno3; exact location/traceback
+UNSAVED. Do not equate it with child cause or assert a specific race without evidence.
+Complete LOCAL inert-fake earlychildexit/monitor/ownedcleanup review before newrun.
+FullSTDlib independent localreviewPASS10504priorhashes+7785oldfixtureentries
+(1720/474/101/166/894/2909/494/248/779)+historical242/280/135/245/5/3/186 groups.
+187 current bodies BYTE/extent/private mode/nsmtime/source/control/auth/install/
+receipt joinsPASS. Clientwire45192480B/hashreported; wireNOTretained, NOindependent
+wirehashclaim. OldFIFO LSTAT ONLY NEVERopen/read/hash. Firstauditor expected4packet
+Pythonroots but actual5 includes tests; ONLYinventoryassert corrected, bothscripts/
+logs retained. No production/test/scientific run or oldcohort repeated underDone.
+SourceONLY conservative inventory195projectedges flags datasets.prepared plus3
+modelrefs,14dynamic sites. Includes deferred/deadbranches, NOT runtime-reachability/
+closure guarantee. Raw predictor-pgd-split-outer-incident-v2-20261116 includes
+collected-target-pins.json/static-import-inventory.json/audits; preserve all.
+NEXT LOCAL ONLY fix WHOLE pinned startup dependency path in FRESHversion using
+actual catalogues/loader resolution and inert definitions, keeping packet/source
+hashes and overlay precedence. Do not broad sys.path/sitepackage fallback, unpin
+root, delete files or patch existing v2. Resolve actual deferred refs before adding
+sources. Preserve source-before-packet setup ordering and exact scientific bytes.
+Review parent earlyexit report/cleanup too, no numeric-PID signal/clockreset.
+Only after complete concrete package+meaningful localchecks+independentreview
+askONEnew exact scoped approval. NO current authorization/helper ready; allgrants
+consumed. NO SSH/upload/newretrieval/proof/model/cohort/replay/warmup/oldcleanup/
+installations/paidwork. Do not request repeatedmanualGPUchecks. Old sources/claims/
+proofs/evidence/bounds/outcomes/finances/holds/reconciliation unchanged. User stages,
+commits/pushes; NEVER do it. Earlier LATEST historical.
+
+LATEST November 16: USER APPROVED CORRECTED V2; EXACT HANDOFF ARMED, NOT STARTED.
+Userreply call_1cd9a3d146c94a0ca255179fc6b2f065: Approve one corrected bounded
+attempt (Recommended). Read report/checks/2026-11-16-pgd-split-outer-v2-arming.md.
+Only runs/pretrained/diagnostic/predictor-pgd-split-outer-v2-20261116/handoff-parent/
+ linux10603-unarmed now has new AUTHORIZATION.json1318B SHA
+ de26359ebcfdfc2568fbc8b3269758285820b6859161cedbc24b921e12cdadf6.
+Do NOT rename/copy prepared path. Outer control remains
+118a93b44f76c2002810a38c5edc1526bbfb320ac9e5affbd90faa4939c4a666.
+Verified 10501 sealed regular hashes +779 fixture entries and reviewed source pins.
+REAL local client.check_local PASS: control/auth/source/payload and original17192095B
+packet BYTEHASH only, no pixel/checkpoint decoding. No tests/cohorts repeated.
+No timer/ATTEMPT/session/SSH/proof/model/paid work started. Arming receipt saved in
+rawstage/authorization-arming-20261116/ARMING-RECEIPT.json. New seal
+sealed-local-outer-v2-armed.json pins10504 regular hashes; preserve all prior seals.
+NEXT give single caffeinate Mac command using .venv/bin/python -I -B and
+scripts/run_predictor_pgd_split_outer_v2.py plus exact absolute final handoff above.
+No new approval/manual GPU check for this unchanged approved scope; helper checks live.
+User keeps Terminal/lid open, Mac awake and enters university password promptly.
+One 40min work incl full2.5GiBproof+8matchedgrad+2extra componentVJPs/oneinner;
+10min collection SAME SSH, 50min TOTAL including login. Original numerical/GPU/
+storage/process/backend/clock guards fixed. No retries/separate retrieval/oldcleanup/
+installations/privatekey uploads/heldoutpixels/paidcompute. Prior v1 grant/evidence
+remain consumed/frozen; this new v2 grant unspent until ATTEMPT created. If ATTEMPT
+exists consumed even on error: ONLY inspect saved LOCAL files first; never rerun,
+rearm, reset clocks/claim or start another retrieval under it. Scientific/training/
+backend/performance/cost admissions false until independent result review. Finances/
+holds/reconciliation unchanged. Old FIFO LSTAT ONLY NEVERread/hash. User stages,
+commits and pushes self; NEVER do it. Earlier LATEST entries are historical.
+
+LATEST November 16: CORRECTED OUTER V2 HANDOFF PASSES LOCAL REVIEW; UNARMED.
+Raw stage predictor-pgd-split-outer-v2-20261116 sealed-local-outer-v2.json pins 10501
+regular hashes; fixture-layout-preserved.json records 779 new entries. Preserve both.
+Read report/checks/2026-11-16-pgd-split-outer-v2-local-review.json/md,
+ report/checks/2026-11-16-pgd-split-outer-v2-scope.md and docs/predictor_pgd_split_outer_v2.md.
+One new exact scoped university approval is required before arming or target work.
+All prior university grants are consumed. The user has authorized local preparation only.
+The previous v1 proof/startup failure/claim/authorization/source/evidence stay frozen.
+Actual v2 prepare_tree now uses the frozen pure directory policy: 26 source/supervisor
+folders; all 12 worker exclusive claims stay fresh (13 allowed directories uncreated).
+Do not weaken mkdir, delete folders, reuse old roots, reset claims or rerun v1.
+24 new distinct checks ALL PASS on first run (24 executions, zero failure/error/skip/
+repeat). Real original 172-asset/419-result/39-directory Layout, real source writes/
+69-module cache WITHOUT activation or execution, actual Guard scans. Only frozen
+single mkdir expressions execute; no scientific function/module/Torch/NumPy/gradient/
+profile/proof/child/timer/signal/proc/GPU/SSH. Host/GPU/importer activation/packet contents/
+emergency allocation/proof admission explicitly FAKE; physical reserve ZERO bytes.
+Independent fresh STDLIB source/hash/AST audit FIRST PASS: 9924 prior hashes, 7006 old
+fixture entries (1720/474/101/166/894/2909/494/248), historical 242/280/135/245/5/3
+saved groups plus 186 current target files byte/mode/nsmtime. Old FIFO LSTAT ONLY;
+NEVER open/read/hash. Full inverse of four intentionally changed outer functions;
+all other functions/classes/constants exact v1. Client/CLI only bound import changed.
+All 69 uploaded worker/supervisor sources869009B EXACT failed v1; supervised control
+0adf0ce8aaee4ff9344cdbbc57036a3734905fff06ed2f7aefd90ded61df6c1d unchanged.
+Final candidate runs/pretrained/diagnostic/predictor-pgd-split-outer-v2-20261116/
+ handoff-parent/linux10603-unarmed ONLY4files: CONTROL-CANDIDATE/SOURCE-PAYLOAD/PACKAGE/
+ known-hosts. NO AUTHORIZATION/ATTEMPT. Outer control SHA
+118a93b44f76c2002810a38c5edc1526bbfb320ac9e5affbd90faa4939c4a666.
+New v2 source/control/auth kinds and local policy pin prevent v1 grant reuse. Original
+remote v1-prefix retained for frozen host gate; NEW outer SHA guarantees distinct root.
+READY to ask ONE exact new scope now; do not ask repeated manual hostname/nvidia-smi.
+Payload unchanged17192095B training/reference packet +69sources869009B +33742B v2outer
+stdin +bound metadata with unchanged financial snapshot. Exact scope in linked report.
+40min work including full2.5GiB proof+8matchedgrad+2extra componentVJPs/oneinner;
+10min collection SAME SSH/50min TOTAL including login. Original resource/clock/GPU/
+backend/numerical/ownership gates remain strict. No retries/separate retrieval/oldcleanup/
+installations/privatekey uploads/heldoutpixels/paidcompute. Before new approval NO
+arming/ATTEMPT/SSH/upload/proof/model work. After approval only arm unchanged candidate,
+verify local source/control/auth/packet BYTE hashes (no pixels/checkpoint decoding),
+record arming and give one caffeinate Mac CLI v2 command. User stays attended/password
+promptly/lid open. Helper does live guards; NO new status/permission for unchanged scope.
+If ATTEMPT exists consumed even error; inspect ONLY saved local output first. Keep all
+scientific/backend/numerical/performance/cost/training flags false until result review.
+No claim of full training readiness from setup tests. Finances/holds/reconciliation
+unchanged. User stages/commits/pushes; NEVER do it. Earlier LATEST entries historical.
+
 LATEST November 16: OUTER V1 ATTEMPT CONSUMED; NUMERICAL STARTUP DIRECTORY REFUSAL REVIEWED.
 Read report/checks/2026-11-16-pgd-split-outer-v1-startup-refusal-review.json/md,
  docs/predictor_pgd_split_directories_v2.md +newPURE models/predictor_pgd_split_directories_v2.py.

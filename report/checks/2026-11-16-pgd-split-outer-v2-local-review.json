@@ -1,0 +1,94 @@
+{
+  "actual_setup_real_catalogue": {
+    "allowed_but_not_precreated": 13,
+    "allowed_directories": 39,
+    "allowed_results": 419,
+    "created_setup_directories": 26,
+    "source_assets": 172,
+    "source_modules_cached_without_execution": 69,
+    "worker_exclusive_claims_left_fresh": 12
+  },
+  "all_69_uploaded_scientific_and_supervisor_source_bytes_identical_to_failed_attempt": true,
+  "all_other_outer_functions_classes_constants_and_original_gates_unchanged": true,
+  "authorized": false,
+  "client_and_CLI_only_change_bound_module_import": true,
+  "date": "2026-11-16",
+  "embedded_policy_matches_frozen_pure_AST": true,
+  "financial_caps_holds_and_reconciliation_unchanged": true,
+  "handoff": "runs/pretrained/diagnostic/predictor-pgd-split-outer-v2-20261116/handoff-parent/linux10603-unarmed",
+  "historical_byte_mode_nsmtime_groups": [
+    242,
+    280,
+    135,
+    245,
+    5,
+    3,
+    186
+  ],
+  "inverse_v1_functions_verified": [
+    "validate_control",
+    "authorization",
+    "prepare_tree",
+    "prepare_package"
+  ],
+  "kind": "pgd-split-outer-v2-independent-local-review",
+  "limitations": [
+    "Actual v2 prepare_tree and real Layout/Guard/source caching were exercised in the saved local tests.",
+    "Importer activation, host/GPU gates, packet receive/extract/content checks, emergency allocation and proof admission were explicitly substituted; reserve file is zero bytes.",
+    "Only extracted original mkdir expressions executed; no scientific worker, model, gradient, numerical gate, backend, timer, process or storage proof executed.",
+    "This fixes the observed ownership collision; live installation, scientific behavior and runtime fit remain unobserved."
+  ],
+  "mode": "fresh stdlib saved-file/hash/AST audit only; no project/test/science/process/timer/network callbacks",
+  "old_FIFO_lstat_only_never_read": 1,
+  "old_claim_authorization_saved_files_preserved": true,
+  "outer_control_sha256": "118a93b44f76c2002810a38c5edc1526bbfb320ac9e5affbd90faa4939c4a666",
+  "prior_fixture_layouts_verified": [
+    1720,
+    474,
+    101,
+    166,
+    894,
+    2909,
+    494,
+    248
+  ],
+  "prior_hashes_verified": 9924,
+  "ready_for_one_new_scoped_approval": true,
+  "result": "PASS",
+  "scientific_qualified": false,
+  "source_pins": {
+    "configs/predictor_pgd_split_outer_v2.json": "035773bc99286f91d08aa9b9ba6215df6571c3258e8bd6d2b2aa87e929a42dd3",
+    "docs/predictor_pgd_split_outer_v2.md": "5c3f6b2fc094c105b3d367e3fbbdd80fde739185b6b33d3423662eebeca47cff",
+    "models/predictor_pgd_split_outer_client_v2.py": "d9d2e791ac9bb7ead9a45ce913b5bff23e6dd9caadc243655fc4d5075cbff6c7",
+    "models/predictor_pgd_split_outer_v2.py": "51b6b6dc8bcb2a053fc6040eaa1bffb987f605270c63ba7607fb77c6f82aa213",
+    "report/checks/2026-11-16-pgd-split-outer-v2-scope.md": "db50731ea40440bab9093fe5acfe82b1ced7df06e5ded2fb83db0088f8041dd0",
+    "scripts/run_predictor_pgd_split_outer_v2.py": "29fb34ba0e9daab239703ea5b4d674f2d5da8c13ff4bed1b89def508da07a33a",
+    "tests/test_predictor_pgd_split_outer_v2.py": "8a412d77125e8c9c163bc8184bc844b1bf64da209033a1b15c795f7edfbc58ec"
+  },
+  "supervised_control_sha256": "0adf0ce8aaee4ff9344cdbbc57036a3734905fff06ed2f7aefd90ded61df6c1d",
+  "target_connection_upload_or_work_executed": false,
+  "tests": {
+    "all_pass": true,
+    "distinct": 24,
+    "errors": 0,
+    "executions": 24,
+    "failures": 0,
+    "old_tests_or_scientific_cohorts_repeated": false,
+    "repeats": 0,
+    "runs": [
+      24
+    ],
+    "skips": 0
+  },
+  "training_admitted": false,
+  "upload": {
+    "initial_message_cap_bytes": 2097152,
+    "metadata_contains_unchanged_budget_snapshot": true,
+    "outer_stdin_source_bytes": 33742,
+    "private_keys_or_held_out_pixels": false,
+    "source_bytes": 869009,
+    "source_envelope_bytes": 1161797,
+    "source_files": 69,
+    "unchanged_packet_bytes": 17192095
+  }
+}

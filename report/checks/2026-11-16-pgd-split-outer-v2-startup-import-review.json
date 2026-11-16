@@ -1,0 +1,121 @@
+{
+  "SSH_exit_status": 1,
+  "audit_assertion_correction": "First auditor expected four packet Python roots but the frozen packet also contains tests. Only that inventory assertion was corrected; initial script/log preserved. No target/source/test changed.",
+  "client_reported_wire_bytes": 45192480,
+  "client_reported_wire_sha256": "f7c23c14b697c1fa4c7534dad901a15ae58c2e72b78c4e8eb518cbed4a0ea792",
+  "collected_body_bytes": 45128726,
+  "collected_files_verified": 187,
+  "date": "2026-11-16",
+  "directory_fix": {
+    "exclusive_numerical_mkdir_passed": true,
+    "saved_actual_plan_matches_original_catalogue": true,
+    "source_supervisor_setup_directories": 26,
+    "worker_owned_directory_conflict_seen": false
+  },
+  "grant_consumed": true,
+  "historical_byte_mode_nsmtime_groups": [
+    242,
+    280,
+    135,
+    245,
+    5,
+    3,
+    186
+  ],
+  "independent_saved_evidence_integrity": "PASS",
+  "kind": "pgd-split-outer-v2-startup-import-refusal-independent-review",
+  "new_SSH_inspection_or_retry_or_work": false,
+  "new_tests_or_scientific_cohort_repeats": false,
+  "next": "Local only: resolve and test the complete pinned startup dependency path and parent-exit reporting before preparing/reviewing a new handoff. No new grant or target helper ready; never rerun/rearm v2.",
+  "numerical_failure": {
+    "GPU_contention_or_SSH_loss_evidenced_as_cause": false,
+    "artifacts": 0,
+    "candidate_points": 0,
+    "declared_pinned_roots": [
+      "models",
+      "attacks"
+    ],
+    "files_already_present_and_hash_verified_in_original_packet": true,
+    "gradient_objectives_started": 0,
+    "missing_namespace": "datasets",
+    "model_construction_reached": false,
+    "no_grad_calls": 0,
+    "observed_chain": [
+      "models.reuse_diagnostic",
+      "models.native_diagnostic",
+      "datasets.prepared"
+    ],
+    "runtime_and_CUDA_configuration_preceded_failure": true,
+    "type": "ModuleNotFoundError"
+  },
+  "old_FIFO_lstat_only_never_read": 1,
+  "old_claims_sources_bounds_outcomes_financial_caps_holds_reconciliation_unchanged": true,
+  "outer_control_sha256": "118a93b44f76c2002810a38c5edc1526bbfb320ac9e5affbd90faa4939c4a666",
+  "parent_error": {
+    "exact_source_location_or_cause_not_saved": true,
+    "message": "[Errno 3] No such process",
+    "must_review_owned_exit_cleanup_with_inert_fakes_before_another_attempt": true,
+    "separate_from_confirmed_child_import_failure": true,
+    "type": "ProcessLookupError"
+  },
+  "prior_fixture_layouts_verified": [
+    1720,
+    474,
+    101,
+    166,
+    894,
+    2909,
+    494,
+    248,
+    779
+  ],
+  "prior_hashes_verified": 10504,
+  "result": "STARTUP_IMPORT_REFUSAL_CONFIRMED",
+  "root_receipt": {
+    "connection_deadline": 3468030.499969633,
+    "connection_started": 3465030.499969633,
+    "handshake_received": 3465036.668645284,
+    "hello_monotonic": 3465036.454016591,
+    "kind": "pgd-split-root-claimed-v1",
+    "outer_control_sha256": "118a93b44f76c2002810a38c5edc1526bbfb320ac9e5affbd90faa4939c4a666",
+    "scientific_qualified": false,
+    "scratch": "/var/tmp/vjepa-pgd-split-v1-2170-118a93b44f76c2002810a38c5edc1526bbfb320ac9e5affbd90faa4939c4a666",
+    "training_admitted": false,
+    "work_deadline": 3467430.499969633
+  },
+  "saved_directories_verified": 23,
+  "scientific_qualified": false,
+  "static_import_inventory": {
+    "conservative_project_edges": 195,
+    "declared_modules": 69,
+    "dynamic_import_sites": 14,
+    "not_a_runtime_or_reachability_test": true,
+    "unmapped_names": [
+      "datasets.prepared",
+      "models.predictor_pgd_target_records_v1",
+      "models.predictor_sdpa_capture_record_v1",
+      "models.predictor_sdpa_component_records_v2"
+    ]
+  },
+  "storage_proof": {
+    "bytes_written_and_read_back": 2684354560,
+    "event_histogram": {
+      "after-close": 1,
+      "after-data-fsync": 1,
+      "after-own-proof-removal": 1,
+      "after-preallocate": 1,
+      "after-write": 640,
+      "before-close": 1,
+      "before-create": 1,
+      "before-read": 640,
+      "before-write": 640
+    },
+    "event_rows": 1926,
+    "kernel_quota_or_live_XFS_admission_claimed": false,
+    "original_receipt_predicates_pass": true,
+    "peak_observed_allocated_bytes": 2746728448,
+    "wall_seconds": 14.518642078153789
+  },
+  "training_admitted": false,
+  "wire_not_retained_for_independent_rehash": true
+}
