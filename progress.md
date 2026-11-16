@@ -1,5 +1,28 @@
 # Research Progress Reports
 
+## 2026-11-15 — Whole-scratch guard passes local checks
+
+The new read-only guard covers input/code/cache/proof/emergency space around the
+separate result/log tree. It retains all 419 result names and original byte limits,
+checks logical and allocated file/directory bytes independently, and enforces
+capacity, inode, path, ownership and file-count bounds. Exact temporary publication
+pairs remain pending; settled scans refuse them. Source verification and later
+pin checks detect changed/missing/replaced assets. Proof readiness now includes
+projected room for the full proof and its original allocation reserve.
+
+108 distinct checks pass across 109 executions: initial 103, one affected positive
+plus two added projection checks, then three new real-file pin cases. No failures,
+errors, skips or old test/cohort repeats; only one justified passing repeat. All GiB
+and proof records are synthetic, with tiny ordinary filesystem fixtures. The fresh
+saved-file audit passes 6,609 prior hashes, 2,295 old fixture layouts and unchanged
+packet/runtime/design descriptors. No actual proof, model, gradient, profiler,
+child/PID/signal, GPU or remote work ran.
+
+Next prepare trusted fresh-child source/control binding, serial child coordination
+and combined receipts/same-session streamed collection. The guard is not a target
+helper or new execution grant. Scientific validation and training remain pending.
+See the [whole-scratch review](report/checks/2026-11-15-pgd-split-scratch-v1-local-review.md).
+
 ## 2026-11-15 — Concrete split runtime source package passes local checks
 
 The new source-only assembler pins 70 inputs and emits 63 Python files with 12

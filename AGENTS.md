@@ -2,6 +2,65 @@
 
 ## Current stage
 
+LATEST November 15: WHOLE-SCRATCH GUARD VERIFIED LOCALLY.
+Read report/checks/2026-11-15-pgd-split-scratch-v1-local-review.json/md,
+ docs/predictor_pgd_split_scratch_v1.md + configs/predictor_pgd_split_scratch_v1.json.
+New predictor_pgd_split_scratch_v1 is STDLIB READ-ONLY guard; creates/writes/removes/
+allocates/launches NOTHING. Real checks onlytinyprivatefixtures; allGiB/statproof
+values synthetic. NO targethelper/installation/auth ready. Source descriptor pins
+old17,192,095Bpacket99members/26,446,958B, previousruntime63files/732,104B, frozen
+base/design +6future control-bound supervisorfiles +installationJSON =172assets.
+Futureoutercontrol MUSTbindinstallationSHA/supervisorbytes; metadata alone NOTauth.
+Tree scratch/code,overlay,supervisor,configs/cache/tmp +SEPARATEcapture/results,logs;
+419oldresultpathsunchanged. Root17metanamescaps3,031,040B shareold64MiBmetatracecap.
+Input128MiB/code128MiB/cache+tmp32MiB/emergency16MiB/raw1792MiB/trace8MiB/proof2.5GiB,
+setup3GiB/capture2.25GiB; allocated+logicalindependent incldirectoryblocks. Free8GiB/
+2048inodesinitial,1GiB/1024work; observationsNOTreservation/kernelquota/atomicsnapshot.
+1024files/256dirs/1280nodes/256nonresults; cache48files/depth8/ASCIIcanonicalpaths.
+HeldnofollowFDwalk/reads; private700dirs/600files/UID/device/rootparentchecked;
+unknownpaths/symlinks/specials/externalhardlinks/changedpinnedmetadata refuse.
+LIVEonly exactsame-directory identicalstat final/.partial SAMEinode2linkpair in
+resultorrootmeta. Bothnamesretained; pendingentitylogical/allocatedcountONCE and
+named_bytescountTWICE; frozenresultbudgetseespartial, NEVERcompletion. No value/
+rawrow/scientificgate edits. Settledscanrefusespairs/allpermittedpartials. Ambiguous
+concurrenttransitionmayREFUSE,no hiddenrescan. Partialcounts/metaextra512KiBshared.
+Proofreadiness: fullallocated16MiBemergency, nooldproofrecords, initialcapacity,
+NEWprojectionfull2.5GiB+frozen32MiBreservebeforework. Sparseemergencynotenough.
+verify_proof readsboundedparentSHApinnedJSON; retainsoldfullwrite/fsync/readback/
+removal/60s/setupbounds, strictJSON/type/nonfinite/duplicate/digest/peak>=extent.
+Noactualprooffunctioncall; receiptmatchingNOTfreshproofauthentication, flagsFALSE.
+Assetgateall172exacthash/extent+emergency+stablebeforeafter; later scanspinmetadata.
+Fullsourcepositiveharness is explicitSUBSTITUTEDtinytestdescriptors/scans, NOTactual
+172assetinstallation proof. Actualdescriptorcodeleaf readbytesonly, no import.
+108DISTINCTlatestALLPASS/109exec: initial103PASS; reviewprojectionaffectedpositive1+
+new2PASS; new3realpin-continuitycasesPASS.0fail/error/skip;1justifiedpassingrepeat,
+102unaffectedinitialpassesNOrepeat;nohistoricaltestfunctions/scientificcohorts.
+Allsnapshots/JUnits/logskept.13syntheticproofJSON +1tinylabeledleftover +1realordinary
+publicationpair fixture. No large/sparsefile/preallocation/proof created. Fresh
+STDLIB savedauditFIRSTPASS6609priorhashes +1720/474/101oldfixturelayouts +
+242/280/135/245/5/3oldbyte/mode/nsmtimegroups. Onlyproductiondeltaafterfirstpass:
+proofprojection. Guard/store/math/runtime/priorfrozen sources otherwiseunchanged.
+Raw predictor-pgd-split-scratch-v1-20261115; finalseal therefornextpreservation.
+IMPORTANT currentfixturelayout includes ONE FIFO negative fixture: lstat/type/mode
+ONLY; NEVER open/hash/read a FIFO. Future layout audit MUST handle fifo=True before
+its generic regular-file branch. Seal hashes only lstat-regular files, no symlinks.
+NEXT LOCAL ONLY trustedfreshchildbootstrap: source/control/argumentbinding and
+originaltargetreadiness(XFS/parentdevice/UID/hostname/GPU/driver)stillrequired;
+guardbinding alone NOTtargethostauthorization. Integrateactual6supervisorsource
+bytes, proof+numerical+native-before-candidate serialchildren, originalwork/phase/
+LAUNCH-originclocks+PIDhandleparentmonitor; combinedreceipts+boundedSAME-SSHstream
+collection(noondiskarchivepath). CompleteindependentsourcepackagereviewBEFOREone
+newexactscope. No targethelper/proposalreadyyet; NO manualGPUstatus/newapprovalnow.
+NO actualmodel/tensor/arraymath/autograd/SDPA/profiler/newCPUorGPUgrad/cohorts/refs/
+warmups/realproc/PIDhandle/signal/child/SSH/upload/proof/retrieval/cleanup/paidwork.
+Frozendesignc5daae30cbe4043cf4d5265de2a2a7420d015ab1e244cc3d74fcc93b5f0186af
+still8fullgrad+2EXTRAcomponentVJPs/oneinner,0CPUFP64/warmup/replay,28minnum/
+40minwork+10mincollection; allocator7GiB/componentRSS4GiB/120sunchanged. Target
+PIDFD/actualfit/stop/lineage/numerical/backend/perf/cost/replay/trainingUNOBSERVED/
+unadmitted. OldgrantsCONSUMED; oldoriginalbackwardRETURNED/latercauseUNKNOWN,
+partialsUNADMITTED. Frozenpasses/rejections/finances/caps/holds/pendingreconciliation
+unchanged. Userstages/commits/pushes self; NEVERdoit. Earlier LATEST historical.
+
 LATEST November 15: CONCRETE SPLIT RUNTIME SOURCE ASSEMBLY VERIFIED LOCALLY.
 Read report/checks/2026-11-15-pgd-split-runtime-v1-local-review.json/md,
  docs/predictor_pgd_split_runtime_v1.md + configs/predictor_pgd_split_runtime_v1.json.

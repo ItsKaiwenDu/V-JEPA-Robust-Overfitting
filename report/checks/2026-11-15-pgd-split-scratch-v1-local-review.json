@@ -1,0 +1,82 @@
+{
+  "actual_model_tensor_array_math_autograd_profiler_proc_PID_signal_child_GPU_SSH_proof_retrieval_cleanup_paid_execution": false,
+  "all_GiB_proof_capacity_observations_are_synthetic": true,
+  "all_scientific_backend_accuracy_replay_performance_cost_training_admissions": false,
+  "date": "2026-11-15",
+  "declared_assets_including_future_supervisor_and_installation": 172,
+  "exact_live_publication_pair_only_and_settled_refusal": true,
+  "frozen_packet_members": 99,
+  "frozen_result_names": 419,
+  "frozen_runtime_files": 63,
+  "full_source_verification_harness_uses_explicit_substituted_test_descriptors": true,
+  "historical_byte_mode_nsmtime_groups": [
+    242,
+    280,
+    135,
+    245,
+    5,
+    3
+  ],
+  "independent_logical_allocated_directory_blocks_capacity_inode_limits": true,
+  "kind": "pgd-split-whole-scratch-v1-independent-local-review",
+  "mode": "fresh stdlib saved-source/metadata audit; no project import, tests, callbacks, science, proof, process/PID/signal or network execution",
+  "new_helper_or_authorization_ready": false,
+  "old_claims_finances_caps_holds_pending_reconciliation_unchanged": true,
+  "only_production_change_after_first_pass": "pre-proof projected full extent plus original 32 MiB allocation reserve",
+  "prior_fixture_layouts_verified": [
+    1720,
+    474,
+    101
+  ],
+  "prior_hashes_verified": 6609,
+  "remaining_before_target": [
+    "Trusted fresh-child source installation and exact control/argument binding.",
+    "Proof/numerical/native-before-candidate child coordination with original phase/global clocks and parent PID-handle monitors.",
+    "Combined receipts and bounded same-SSH streamed collection, then complete package review before one exact new university scope."
+  ],
+  "result": "PASS",
+  "saved_live_publication_pair_fixtures": 1,
+  "saved_synthetic_proof_receipts": 13,
+  "shared_metadata_with_full_result_budget_fits": true,
+  "source_pins": {
+    "configs/predictor_pgd_split_scratch_v1.json": "e49943a9be0888669c87290b58db4fc33092a8a5bc8bc5cb7d673f517f6443c4",
+    "docs/predictor_pgd_split_scratch_v1.md": "475754aa174ea0a6bb8511809e035679db704605683ed7efad2aae84e135903e",
+    "models/predictor_pgd_split_scratch_v1.py": "0ee1d5348867ff2579232c4441ac666aa94a757864892b7c588a5b582affc333",
+    "tests/test_predictor_pgd_split_scratch_v1.py": "e42a675ee7fb0c21e5109f79a10972f99c397afdb8df71a98edaf1e96d07dffd"
+  },
+  "tests": {
+    "affected_passing_checks_repeated": 1,
+    "all_latest_pass": true,
+    "distinct": 108,
+    "executions": 109,
+    "historical_tests_or_scientific_cohorts_repeated": false,
+    "runs": [
+      {
+        "checks": 103,
+        "errors": 0,
+        "failures": 0,
+        "passed": 103,
+        "skips": 0
+      },
+      {
+        "checks": 3,
+        "errors": 0,
+        "failures": 0,
+        "passed": 3,
+        "skips": 0
+      },
+      {
+        "checks": 3,
+        "errors": 0,
+        "failures": 0,
+        "passed": 3,
+        "skips": 0
+      }
+    ],
+    "unaffected_initial_passes_not_repeated": 102
+  },
+  "tiny_labeled_leftover_proof_files": [
+    "runs/pretrained/diagnostic/predictor-pgd-split-scratch-v1-20261115/pytest-01/test_saved_proof_receipt_check11/scratch/space-proof-v2.bin.partial"
+  ],
+  "whole_tree_root_metadata_bytes": 3031040
+}
