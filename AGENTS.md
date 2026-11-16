@@ -2,6 +2,140 @@
 
 ## Current stage
 
+LATEST November 16: OUTER V1 ATTEMPT CONSUMED; NUMERICAL STARTUP DIRECTORY REFUSAL REVIEWED.
+Read report/checks/2026-11-16-pgd-split-outer-v1-startup-refusal-review.json/md,
+ docs/predictor_pgd_split_directories_v2.md +newPURE models/predictor_pgd_split_directories_v2.py.
+UserDone: existingFINALhandoff/ATTEMPT.jsonCONSUMED andattended-sessioncopied186files.
+ClienttransportverifiedTRUE/SSHexit1; independentLOCAL186hash/extent/mode/nsmtime/
+source/control/auth/install joinsPASS. Clientwire45190076B/hashrecorded; original
+wireNOTretained, no independentwirehashclaim. NoSSHinspection/retrieval/newwork.
+RuntimeTorch/NumPyimports/CUDAavailabilitycheck passed; numericalworkerfailedat
+folder.mkdir(exist_ok=False) BEFOREstate/run-status/modelconstruction/gradient.
+Causeourv1prepare_tree precreatedALL layout.directories inclcapture/results/numerical.
+NoGPUcontention/SSHloss evidenceascausation. Numerical/boundary/components raw0.
+OriginalFULLproof2684354560write/read/fsync/removalPASS15.124266704s,peak2746728448
+<3GiB.1926events,640write+640readback; sourceparentproofreceiptjoinPASS. Keepgeneric
+kernelquota/liveXFS/scientific/CUDA/backend/accuracy/perf/cost/trainingflagsFALSE.
+GPU5samples/0refusals/computeempty; lastguardcalls191. Savedroot
+ /var/tmp/vjepa-pgd-split-v1-2170-ea72ba9e82e7f716b6be7782b8481a7cec9c834a7cd2f0e74217d93acbd9a2ce
+NOnewconnectionauthorized. Allthisgrant/oldgrantsCONSUMED; NEVERrerun/rearm/delete
+workerfolder/retrycollection/resetoldclaim. LocalposthocreviewONLYunderDone.
+NewPUREdirectoryplan candidate leaves12workerclaims fresh: numerical+8objectives+
+boundary+2components. Select26sourceancestors/supervisorshell ONLY, not39catalogue.
+Permittedpaths are VALIDATIONcatalogue, NOTsetupownership. CandidateNOTintegrated
+inrunnablehelper/authorization. Originalouterv1/driver/source/bounds allFROZEN.
+13DISTINCTlocalchecks latestALLPASS/17exec,runs13+4.4firstfixtureNameError(binding)
+retained/fixedTESTONLY;9passingcasesNOrepeat. Actual172assets/419resultcatalogue;
+executeONLYoldsetupmkdirloop +singlefrozenmkdirExpr inTINYprivateFS. No scientific
+function/module/Torch/NumPy/array/gradient/profiler/CPUreference/proof/timer/child/
+proc/PIDsignal/GPU/remote/paidwork bylocalchecks. Whole result-store/Guard directory
+cataloguepasses after12claims. Existing evidence stillrefused/preserved.
+FreshindependentSTDLIBsavedauditPASS9712priorhashes+1720/474/101/166/894/2909/494
+layouts+186currentfiles. OldFIFO lstatONLY NEVERopen/read/hash. Inspectorfirstguessed
+fsyncnamewrong; ONLYassertioncorrected toafter-data-fsync, oldscript/logpreserved.
+Raw predictor-pgd-split-outer-incident-v1-20261116 inclcollected-target-pins.json,
+2testruns/snapshots/audits +finalsealfornextpreservation. No originalevidenceedited.
+NEXT LOCAL ONLY integrateMINIMALdirectoryplan intoFRESHv2outersetup/handoff. Use
+realoriginaldirectorycatalogue insetupintegration tests, notsubstitutedtablethat
+hidthisbug. Keepworkerexclusive mkdir unchanged; no exist_ok=True/deletionbypass.
+Keepalloriginalscientific/source/role/clock/resource/ownership/backend gates. All
+v1source/policy/proposal/auth/ATTEMPT/session/results remainfrozen; createNEWversion.
+Afterconcretecorrectedwholepackage/independentreview askONEnewexactscope. NOmanual
+GPUstatus/newapprovalquestionUNTILconcreteprep. No currentrerun/SSH/upload/proof/
+math/newGPU/CPUobjective/warmup/replay/cohort/cleanup/paidcompute. Oldoriginal20261114
+backwardRETURNED/latercauseUNKNOWN/partialsUNADMITTED. Finances/holds/reconciliation
+UNCHANGED. Userstages/commits/pushes self;NEVERdoit. Earlier LATEST historical.
+
+LATEST November 16: EXACT OUTER GRANT APPROVED; FINAL HANDOFF ARMED, NOT STARTED.
+Userreply call_ef7d9292f91743be8eb25e2fad83d0ab: Approve one bounded university
+attempt (Recommended). Read report/checks/2026-11-16-pgd-split-outer-v1-arming.md.
+ONLY finalhandoff runs/pretrained/diagnostic/predictor-pgd-split-outer-v1-20261115/
+ handoff-parent/linux10603-final-unarmed nowhas AUTHORIZATION.json934B SHA
+5bbd1f483a11947ddb7c4b82f6932b33435bae423b110e15092727b127d03f3d.
+DoNOTrename/copypath; preparednameunchanged. OutercontrolSHAunchanged
+ ea72ba9e82e7f716b6be7782b8481a7cec9c834a7cd2f0e74217d93acbd9a2ce.
+Reviewedsourcepins/sealedhandoff4filesexact; REALLOCALcheck_localPASS(hashONLYpacket
+bytes17192095, source/control/auth/payload checks+coldcompile). NOworker/science/
+array/unpickle/timer/ATTEMPT/session/SSH/proof/paidworkexecuted. Armingreceipt at
+rawstage/authorization-arming-20261116/ARMING-RECEIPT.json. NOtests/cohort rerun.
+NextgiveONEattendedMaccommand .venv/bin/python -I -B scripts/run_predictor_pgd_split_outer_v1.py
+ EXACTabsoluteFINALhandoff. KeepTerminal/lidopen/Macawake; passwordpromptly. NOnew
+permission/manualGPUstatusneeded; approvedscopeunchanged(helperchecksLIVE). Grant
+one40minwork+10minsameSSHcollection/50mintotalincllogin, originalfull2.5GiBproof,
+8matchedgrad+2componentVJPs/oneinner, strictguards/ceilings/no retries/installations/
+oldcleanup/paidcompute. If ATTEMPT exists grantCONSUMED evenerror; inspectONLYLOCAL
+savedoutput/root/refusals first. NEVERrerun/rearm/newretrievalconnection underthis
+singlegrant. Alloldergrants remainconsumed. Scientific/backend/numerical/perf/cost/
+trainingadmissionFALSEuntilindependentreview; oldpartials/outcomes/finances/holds/
+reconciliationUNCHANGED. Userdoesownstage/commit/push NEVERdoit.
+Earlier LATEST historical.
+
+LATEST November 16: COMPLETE UNARMED OUTER HANDOFF SOURCE REVIEW PASSED.
+Read report/checks/2026-11-16-pgd-split-outer-v1-local-review.json/md,
+ report/checks/2026-11-16-pgd-split-outer-v1-scope.md,
+ docs/predictor_pgd_split_outer_v1.md + configs/predictor_pgd_split_outer_v1.json.
+New outer_v1/client_v1/outer_sources_v1 +scripts/run_predictor_pgd_split_outer_v1.py.
+ConcreteFINALunarmedhandoff: runs/pretrained/diagnostic/predictor-pgd-split-outer-v1-20261115/
+ handoff-parent/linux10603-final-unarmed. CONTROL-CANDIDATE/SOURCE-PAYLOAD/PACKAGE/
+ known-hosts ONLY; NO AUTHORIZATION/ATTEMPT. Earlierunarmedcandidates preserved.
+OutercontrolSHAea72ba9e82e7f716b6be7782b8481a7cec9c834a7cd2f0e74217d93acbd9a2ce
+SupervisedSHA0adf0ce8aaee4ff9344cdbbc57036a3734905fff06ed2f7aefd90ded61df6c1d.
+69sources869009B +outerstdin-source(exactbytesinconfig) +unchanged17192095Bpacket;
+sourceenvelope1161797B/original2MiBbootstrapcap. Includesunchangedbudgetsnapshot.
+No localpacketpixels/checkpointreadbysourceprep; no privatekey/heldoutpixels upload.
+Pinnedhost10603/publickey/exactscope/localrepo+handoff/clientCLI sourcehashes. Client
+unarmedrefusalBEFOREtimer/claim/SSH. LocalATTEMPT exclusive beforeONE SSH; copied
+handoff refuses. RemoteexclusiveDETERMINISTIC /var/tmp/vjepa-pgd-split-v1-UID-OUTERSHA
+rootis durablepergrantclaim; nevernewrandomroot/cleanup/reset. Exactauth BEFORE
+preflight/write. Setupprivate0700/0600,pinnedparent69sourcefinder, original172assets,
+XFS/dev66307/Linux10603/Python3.11.17 +originalGPU/UUID/driver/strictotherCUDAguard.
+Inputreceivehash/exact99regularmembers sameSSH; full16MiBemergencyfallocate(no
+sparsefallback), original2.5GiBproofONEoriginalchild. Oldworkers/math unmodified.
+Generatedcoordinator WHOLEoldprefixEXACT. AppendedOuterDriver2copiedmethods5edits:
+preflightGPUjournal/guardrebind/launchgate/retainedchild/retainedlease. Independent
+INVERSEoriginalprepare/launch/STOP/FINALLYEXACT. Ownedexit+closedhandle BEFOREclock
+handoff/collection; unconfirmedchild REFUSES. OriginalPIDFDstop/no numericworker
+fallbackretained. EVERYgateoriginalGPUcheck, boundedpersist10sec/role/refusal;
+GPUJSONL512KiB/384rows+64KiBstorage status withownSHAreplace. Storageinvalid ->NO
+newdiskbytes; boundedrefusalsent sameconnection, no forcedrawcopy/cleanup.
+Originalcliententry3000 includesinputchecks/login; hello nonce+elapsed AFTERhello
+conservativelymapsremoteorigin. Setup180/work2400/proof60/num1680/components120
+remain; source/savedchecks charged originalphase. Worksoft2280/final120inside2400.
+KERNEL SIGALRM DEFAULT hardbound armedfromSTART, independentofC/Pythoncallbackdelay.
+Cancellablegeneration softTimer schedules _thread.interrupt_main(SIGUSR1), NOTOS/
+PIDsignal. Cooperativechecks rejectexpiredphase; staleearlierpendingnotifyignored.
+Ownedcleanupgrace<=2clippedexistinghardbound; finalclockrearmONLYafterownedidle.
+No instantaneouskernel/uninterruptible/quota claim; targetbehaviorUNOBSERVED.
+ClientcausalLOWERoffsetbounduseslocal-send BEFOREremote-receipt durations, NEVER
+comparesclockepochs;collection600 clippedoriginalconnection. BoundedheaderjoinSAME
+root/clockbeforereplaytooriginalcollector; physicalbytescountONCE. Fullstdout3GiB
+inclhellos/claim/ready+stream. SSHstderr1MiB, directSSHstrictkey/noagentforwarding.
+No download-only/newconnection/autoretry/installations/oldfilecleanup/paidcompute.
+94DISTINCTlatestALLPASS/120exec,runs62/14/5/10/11/4/1/13.6preservedFAILexecutions:
+3fakeclockfixtures,2cooperativedeadlineRED,1kernelhardalarmRED.20affectedpassing
+repeatsONLYtimer/sourcepackagechanges. Historicaltests/cohortsNOrepeat. Allactual
+OSprocess/pipe/timer/signal/proc/GPU/fallocate/proof APIs FAKE. Onlystdlibsupervisor
+DEFINITIONSexec; scientificmodules/array/autograd/SDPA/math NEVERexecute. Setup
+fakeinstaller/guard/assetverification +ZERO-byte reserve/syntheticallocation. Endto
+endlifecycleFAKEworkers/collector; NOTactualfullinstallation/scientifictest.
+FreshSTDLIBsavedauditPASS9313priorhashes+1720/474/101/166/894/2909layouts+historical
+242/280/135/245/5/3byte/mode/nsmtimegroups. Auditorinitialphasekeyguessfailed; ONLY
+inspectorassertcorrected toexactfrozenphase map; scripts/logs preserved, no further
+production/tests changed. Raw predictor-pgd-split-outer-v1-20261115; finalseal there.
+IMPORTANT oldscratchlayoutONE FIFO: lstat/type/mode ONLY; NEVERopen/hash/read.
+One new exact scoped university approval is required before arming or target work.
+All prior grants are consumed. Sourcepackage nowREADYforONEnewscope perlinkedplan;
+NOneedrepeatmanualGPUstatuscheck(helperliveguards). AfterapprovalONLYarmunchanged
+FINALhandoff(newAUTHboundouterSHA), giveoneattendedMaccommand; staySSH/Macawake.
+DoNOTconnect/startGPUonoldgrants; no more sourceprep permission needed. Keep all
+originalnumerical/backend/ownership gates,2.25GiBcapture/3GiBsetup+collection,
+1792MiBraw/64MiBmeta/8MiBtrace/7GiBallocator/observed4GiBcomponentRSS. Designstill
+8fullgrad+2extraouterVJPs/oneinner,0CPUFP64/warmup/replay/cohortrepeats. Scientific/
+CUDA/backend/accuracy/fullEOT8/replay/perf/cost/trainingadmissionFALSE pendinglive
+review. OldoriginalbackwardRETURNED/latercauseUNKNOWN;partialsUNADMITTED. Finances/
+oldoutcomes/holds/reconciliationUNCHANGED. Userdoes ownstage/commit/push NEVERdoit.
+Earlier LATEST historical.
+
 LATEST November 15: BOUNDED STREAM COLLECTION + ACTUAL SOURCE BUNDLE VERIFIED LOCALLY.
 Read report/checks/2026-11-15-pgd-split-collection-v1-local-review.json/md,
  docs/predictor_pgd_split_collection_v1.md + configs/predictor_pgd_split_collection_v1.json.

@@ -1,5 +1,65 @@
 # Research Progress Reports
 
+## 2026-11-16 — Live storage/collection pass; startup directory conflict confirmed
+
+The attended outer attempt completed its full 2.5 GiB write/fsync/readback proof in
+15.1243 seconds and returned 186 files through the same SSH. Independent local
+hash/mode/nsmtime/source checks pass. SSH exit status is 1: setup precreated the
+numerical output directory, and the frozen worker correctly refused its exclusive
+mkdir before model construction or any gradient. The boundary and component
+folders would also conflict. No scientific result is admitted.
+
+A pure local correction plan selects only 26 source/supervisor directories and
+leaves all 12 worker claims fresh. Thirteen distinct checks have passing latest
+results over seventeen executions; four missing-binding fixture failures were
+corrected without repeating the nine passing cases. Only tiny mkdir statements
+execute, with no science/OS worker/proof/GPU/network action. The independent audit
+verifies all 9,712 prior hashes and 6,758 earlier fixture layout entries; the old
+FIFO stays lstat-only. All failed evidence is preserved.
+
+The grant is consumed. Next integrate/test/review a fresh corrected outer handoff
+before seeking one new exact university scope. Do not repeat the previous command
+or delete/rearm its files. Numerical/backend/training and financial gates remain
+unchanged. See the [startup refusal review](report/checks/2026-11-16-pgd-split-outer-v1-startup-refusal-review.md).
+
+## 2026-11-16 — Approved outer attempt armed, local preflight passes
+
+The user approved the exact reviewed one-attempt scope. The final bound handoff
+now contains its authorization; reviewed files are unchanged, and full local
+source/scope/payload/packet-byte preflight passes. No timer, attempt, SSH connection,
+proof or scientific work started. The user can now invoke the single attended Mac
+command. The helper performs live guards; no repeated manual GPU check is needed.
+
+This grant is consumed when the local attempt claim is created, regardless of
+outcome. Any result or error must be inspected before further work; there is no
+repeat launch or separate retrieval under this grant. Original bounds, prior
+outcomes, financial restrictions and scientific/training gates remain unchanged.
+See the [arming record](report/checks/2026-11-16-pgd-split-outer-v1-arming.md).
+
+## 2026-11-16 — Complete unarmed attended outer driver passes review
+
+The new driver connects exact source/scope validation, durable local/remote claims,
+private scratch installation, original connection/phase clocks, bounded GPU/storage
+observation journals and same-SSH collection. It retains the full frozen
+coordinator prefix; an independent inverse restores both adapted methods including
+stop/finally. Clock mapping uses causal durations, and a default kernel hard alarm
+is armed independently of Python soft-notification delivery. Claims never reset;
+failed or incomplete owned cleanup cannot advance to collection.
+
+94 distinct checks have passing latest results over 120 executions. Six failures
+and twenty justified affected passing repeats remain saved. Tests use inert worker/
+collector endpoints and fake OS/allocator/timer/GPU APIs; no scientific work ran.
+The saved-source audit verifies all 9,313 prior hashes, 6,264 old fixture layout
+entries and unchanged historical byte/mode/nsmtime groups. The old FIFO is lstat-
+only. One auditor phase-key assertion was corrected with its first script/log kept.
+
+The exact final candidate is prepared and unarmed. Next obtain one new scoped
+university approval, then supply the single attended Mac command. No repeated
+manual GPU check is needed; the helper checks live. Actual installation, fit,
+cleanup behavior and the eight-gradient/two-component-VJP diagnostic await that
+attempt and independent review. Training/scientific adoption and financial
+restrictions remain unchanged. See the [outer review](report/checks/2026-11-16-pgd-split-outer-v1-local-review.md).
+
 ## 2026-11-15 — Bounded evidence stream and complete supervisor source bundle
 
 The collector now joins ended-work receipts, the fixed source/control installation

@@ -1,0 +1,91 @@
+{
+  "SSH_exit_status": 1,
+  "audit_fixture_correction": "First inspector guessed after-fsync; corrected only its assertion to the frozen after-data-fsync stage. Original inspector/log preserved.",
+  "client_reported_wire_bytes": 45190076,
+  "client_reported_wire_sha256": "666570b77ccac736e5ee63528eaaaea470d7c7ef8381fa588c2e4e8522afa80f",
+  "collected_body_bytes": 45125459,
+  "collected_files_verified": 186,
+  "date": "2026-11-16",
+  "directory_correction": {
+    "executions": 17,
+    "latest_checks_pass": 13,
+    "minimal_setup_directories": 26,
+    "passing_checks_or_historical_tests_repeated": false,
+    "preserved_fixture_failures": 4,
+    "scientific_worker_execution": false,
+    "status": "PURE LOCAL PLAN ONLY; not integrated into a new runnable handoff",
+    "worker_claim_directories": 12
+  },
+  "failure": {
+    "GPU_contention_or_SSH_loss_evidenced_as_cause": false,
+    "cause": "Setup created every allowed directory, including paths the frozen workers must claim exclusively.",
+    "model_construction_or_gradient_reached": false,
+    "other_affected_frozen_owners": [
+      "objective-0 through objective-7",
+      "boundary observer",
+      "native component",
+      "forward-preserving component"
+    ],
+    "path": "capture/results/numerical",
+    "phase": "numerical worker startup",
+    "runtime_imports_and_CUDA_availability_checked": true,
+    "type": "FileExistsError"
+  },
+  "grant_consumed": true,
+  "independent_saved_evidence_integrity": "PASS",
+  "kind": "pgd-split-outer-v1-startup-refusal-independent-review",
+  "next": "Integrate and independently review a fresh corrected handoff before requesting one new scoped attempt. Never rerun/rearm v1.",
+  "old_FIFO_lstat_only_never_read": 1,
+  "old_bounds_outcomes_financial_caps_holds_reconciliation_unchanged": true,
+  "outer_control_sha256": "ea72ba9e82e7f716b6be7782b8481a7cec9c834a7cd2f0e74217d93acbd9a2ce",
+  "prior_fixture_layouts_verified": [
+    1720,
+    474,
+    101,
+    166,
+    894,
+    2909,
+    494
+  ],
+  "prior_hashes_verified": 9712,
+  "remote_inspection_or_retry_or_new_work": false,
+  "result": "STARTUP_REFUSAL_CONFIRMED",
+  "root_receipt": {
+    "connection_deadline": 3454045.061205206,
+    "connection_started": 3451045.061205206,
+    "handshake_received": 3451050.228287768,
+    "hello_monotonic": 3451050.126306165,
+    "kind": "pgd-split-root-claimed-v1",
+    "outer_control_sha256": "ea72ba9e82e7f716b6be7782b8481a7cec9c834a7cd2f0e74217d93acbd9a2ce",
+    "scientific_qualified": false,
+    "scratch": "/var/tmp/vjepa-pgd-split-v1-2170-ea72ba9e82e7f716b6be7782b8481a7cec9c834a7cd2f0e74217d93acbd9a2ce",
+    "training_admitted": false,
+    "work_deadline": 3453445.061205206
+  },
+  "scientific_qualified": false,
+  "source_pins": {
+    "models/predictor_pgd_split_directories_v2.py": "aee644895d35e0a3c7a67b471f4da0f0910a56f654ece38edeb2d3efa4e5a4c0",
+    "tests/test_predictor_pgd_split_directories_v2.py": "f90c938b471a09122fa4cbac8788dd0a8bcef2ebed55bab132587c148b4ddae6"
+  },
+  "storage_proof": {
+    "bytes_written_and_read_back": 2684354560,
+    "event_histogram": {
+      "after-close": 1,
+      "after-data-fsync": 1,
+      "after-own-proof-removal": 1,
+      "after-preallocate": 1,
+      "after-write": 640,
+      "before-close": 1,
+      "before-create": 1,
+      "before-read": 640,
+      "before-write": 640
+    },
+    "event_rows": 1926,
+    "kernel_quota_or_live_XFS_admission_claimed": false,
+    "original_receipt_predicates_pass": true,
+    "peak_observed_allocated_bytes": 2746728448,
+    "wall_seconds": 15.124266704078764
+  },
+  "training_admitted": false,
+  "wire_bytes_not_retained_for_independent_rehash": true
+}

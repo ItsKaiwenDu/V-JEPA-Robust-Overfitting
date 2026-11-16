@@ -1,0 +1,99 @@
+{
+  "audit_fixture_correction": "First audit guessed a component phase key; corrected only its assertion to the exact frozen seven-key phase table. Prior script/log preserved; no production/test change.",
+  "authorized": false,
+  "claim_setup_original_clock_journal_collection_source_integration_complete": true,
+  "date": "2026-11-16",
+  "exact_inverse_original_launch_stop_finally_prepare": true,
+  "five_explicit_adapter_changes": {
+    "child": 1,
+    "gate": 1,
+    "gpu": 1,
+    "lease": 1,
+    "rebind": 1
+  },
+  "handoff": "runs/pretrained/diagnostic/predictor-pgd-split-outer-v1-20261115/handoff-parent/linux10603-final-unarmed",
+  "hard_kernel_default_alarm_armed_independently_of_soft_Python_delivery": true,
+  "historical_byte_mode_nsmtime_groups": [
+    242,
+    280,
+    135,
+    245,
+    5,
+    3
+  ],
+  "kind": "pgd-split-outer-v1-independent-local-review",
+  "limitations": [
+    "All process/pipe/signal/timer/GPU/proof/host checks used explicit fake bindings.",
+    "Real setup tests install source bytes only, with fake installer/guards and zero-byte reserve plus synthetic allocation metadata.",
+    "End-to-end lifecycle checks use inert worker/collector endpoints; full real packet installation and numerical behavior remain unobserved.",
+    "Kernel delivery/uninterruptible tasks are not an instantaneous-stop or resource-quota guarantee."
+  ],
+  "live_target_installation_allocated_fit_stop_GPU_and_scientific_behavior_unobserved": true,
+  "mode": "fresh stdlib saved-file/AST/hash audit, no project/test/scientific/process/timer/network execution",
+  "no_numeric_worker_PID_signal_fallback_added": true,
+  "old_FIFO_fixtures_lstat_only_never_read": 1,
+  "old_grants_outcomes_partials_financial_caps_holds_and_reconciliation_unchanged": true,
+  "outer_control_sha256": "ea72ba9e82e7f716b6be7782b8481a7cec9c834a7cd2f0e74217d93acbd9a2ce",
+  "primary_docs": [
+    "https://docs.python.org/3.11/library/signal.html#execution-of-python-signal-handlers",
+    "https://docs.python.org/3.11/library/_thread.html#thread.interrupt_main",
+    "https://docs.python.org/3.11/library/threading.html#timer-objects"
+  ],
+  "prior_fixture_layouts_verified": [
+    1720,
+    474,
+    101,
+    166,
+    894,
+    2909
+  ],
+  "prior_hashes_verified": 9313,
+  "ready_for_one_new_scoped_approval": true,
+  "result": "PASS",
+  "runtime_and_scientific_source_bytes_unchanged": true,
+  "scientific_qualified": false,
+  "source_pins": {
+    "configs/predictor_pgd_split_outer_v1.json": "f19af330d9084c0af473a4e294ad475b8ef2b5e8dcb4269400502c354b9305d9",
+    "docs/predictor_pgd_split_outer_v1.md": "5214656bec86dba3ca767ebad05ff5938e59054c67a26a858fd6095d9b0d20d5",
+    "models/predictor_pgd_split_outer_client_v1.py": "ba4ac31ced00b8c7d254f4df2aa20c9bd788caae59030561145e9a6811141abd",
+    "models/predictor_pgd_split_outer_sources_v1.py": "a09ef5a75cc83392156e46fb29d52ae30dc2e1445831693bcc72a070ea2ee63b",
+    "models/predictor_pgd_split_outer_v1.py": "d3e79552675a98007c377d6d1c43157305e6cddc86d49d2d4e94777b8f77b5be",
+    "report/checks/2026-11-16-pgd-split-outer-v1-scope.md": "f0a49cf31955551fa8613cf8fe003706335877fd47c527f9b83a35ceadf790ec",
+    "scripts/run_predictor_pgd_split_outer_v1.py": "12e4e8ff4794557121aefa8ae183f183b83394fe60d99ff64262f1341f40d040",
+    "tests/test_predictor_pgd_split_outer_v1.py": "86ea0129a28646f9c647386d1617c65bd69d9984bc664011f2355f34540506f9"
+  },
+  "supervised_control_sha256": "0adf0ce8aaee4ff9344cdbbc57036a3734905fff06ed2f7aefd90ded61df6c1d",
+  "target_connection_or_work_executed": false,
+  "tests": {
+    "all_latest_pass": true,
+    "distinct": 94,
+    "errors": 0,
+    "executions": 120,
+    "historical_test_functions_or_scientific_cohorts_repeated": false,
+    "justified_passing_repeats": 20,
+    "preserved_failing_executions": 6,
+    "runs": [
+      62,
+      14,
+      5,
+      10,
+      11,
+      4,
+      1,
+      13
+    ],
+    "skips": 0
+  },
+  "training_admitted": false,
+  "upload": {
+    "initial_message_cap_bytes": 2097152,
+    "metadata_contains_unchanged_budget_snapshot": true,
+    "outer_stdin_source_bytes": 29725,
+    "private_keys_or_held_out_pixels": false,
+    "source_bytes": 869009,
+    "source_envelope_bytes": 1161797,
+    "source_files": 69,
+    "unchanged_packet_bytes": 17192095
+  },
+  "whole_original_coordinator_prefix_preserved": true
+}
