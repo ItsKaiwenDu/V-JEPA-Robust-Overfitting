@@ -2,6 +2,124 @@
 
 ## Current stage
 
+LATEST November 16: V4 CONSUMED; EXPECTED SETUP GPU REFUSAL CORRECTLY PRESERVED.
+Raw incident-v4 sealed-reviewed-refusal.json pins 13459 regular hashes;
+fixture-layout-preserved.json records 12 new entries. Preserve both.
+Read report/checks/2026-11-16-pgd-v4-GPU-setup-refusal-review.json/md.
+UserDone: serverValueError originalGPUmessage, clientRuntimeError exactsame text.
+Refusalfix LIVE CONFIRMED (no NoneType.layout masking); NOT scientific qualification.
+Savedsetupquery sameasv3: PID3418810 /usr/NX/bin/nxnode.bin191MiB; total293MiB,
+expectedGPU/UUID/driver. ATTEMPT-TIME observation only; currentavailability UNKNOWN.
+Exactsourceorder+savedsetuprefusal show BEFOREproof/model dispatch, parent session
+unclaimed/guardNone. Root/input/source setup writes occurred. Packet-import fix in
+live scientificworker STILLUNTESTED. No model objective/gradient result admitted.
+Current5local records ATTEMPT/ROOT-RECEIPT/REFUSAL/CLIENT-REFUSAL/emptyssh-stderr
+verified byte/extent/private mode/nsmtime/control/auth/claim/root/query hashes.
+No collectionbody/receipt/finalSSHexitstatus available, no wire/archive claim.
+Full independent freshSTDlib saved/AST audit FIRSTPASS13445priorhashes+11081oldfixture
+entries+historical242/280/135/245/5/3/186/187/5groups. OldFIFO LSTAT ONLY NEVERread/hash.
+No productioncodechange/test/scientificcohort repeat, no newconnection/GPUquery/
+process/timer/proof/model/paidwork byreview. Existingv4validation12checks preserved.
+Rawstage predictor-pgd-outer-incident-v4-20261116/local-refusal-pins.json +audit.
+V4grant CONSUMED; alloldergrants consumed too. Neverrerun/rearm/resetclaim/force
+collection/openretrieval underthat grant; no source/claim/result/proof cleanup.
+No launcher defect evidenced now. Do NOT generate another code version or ask
+another model-run grant solely in response to this expectedbusyGPU refusal.
+NEXT LOCAL ONLY prepare/review narrowlybounded AVAILABILITY-ONLY helper for
+linux10603, with pinnedSSHhost, host/GPU/computeprocess reads ONLY, no university
+writes/model/proof/modelattemptclaim/automaticretry/serverchange. Ask ONE exact
+read-only connection scope only after concrete helper+localchecks/review. NO
+current connection approved. Keep this grant SEPARATE from any future modelattempt;
+futuremodelrun needs fresh handoff/claim +exact new approval after availability.
+Do not request repetitive manual hostname/nvidia-smi pastes. Do not silently switch
+host10609/otherGPU or weaken/allowlistNX/killprocess/changeserver settings. Read-only
+observation does not reserveGPU; futuremodelhelper stillchecks live. Preserve
+v4/policy/bootstrap/63runtime/scientific bytes and alloriginal40minwork/10minsameSSH/
+50minincllogin/2.5GiBproof/8matchedgrad+2componentVJPs/oneinner/caps/gates. Allscience/
+training/perf/cost flags false; finances/holds/reconciliation unchanged. User stages/
+commits/pushes; NEVERdoit. Earlier LATEST entries historical.
+
+LATEST November 16: USER APPROVED V4; EXACT FINAL HANDOFF ARMED, NOT STARTED.
+Userreply call_60fb6b78ba8b4e22a06a01311ea61c98: Approve one bounded v4 attempt
+(Recommended). Read report/checks/2026-11-16-pgd-split-outer-v4-arming.md.
+ONLY runs/pretrained/diagnostic/predictor-pgd-outer-v4-20261116/handoff-parent/
+ linux10603-unarmed now has new AUTHORIZATION.json1359B SHA
+8ff9bef8015a7f30ce758bd3acdeaaeae23ec1680e03ab1908a7a95f15ce1be4.
+Do NOT rename/copy prepared path. Outer SHA remains
+9e7d66ba7364ef2014fe61c9af40b4ea77f8b05fc62c91b6940e9eb7af0ef4e4
+Supervised3f2f741d190dbc177470e436be69d0d4ab81c7ff364e310b266941470c157219.
+All13441sealedhashes+334fixtureentries+sourcepins match. REAL localcheck_local PASS:
+control/auth/source/payload/original17192095Bpacket BYTEHASH only, no pixel/checkpoint
+decode. No tests/cohorts repeat. No timer/ATTEMPT/session/SSH/proof/model/paidwork.
+Raw authorization-arming-20261116/ARMING-RECEIPT.json; new
+sealed-local-outer-v4-armed.json pins13445 regular hashes. Preserve previous seals.
+NEXT one caffeinate Mac .venv/bin/python -I -B scripts/run_predictor_pgd_split_outer_v4.py
+command with exactfinalabsolutehandoff above. No new approval/manualGPUcheck for
+unchangedapprovedscope; helperliveguards. User enters password promptly, stays
+attended/Terminal+lidopen/Macawake. CurrentGPUunknown; refusalconsumesattempt.
+One40min workinclfull2.5GiBproof+8matchedgrad+2componentVJPs/oneinner;10min SAME SSH
+collection/50min TOTALincllogin. Originalnumerical/resource/backend/ownership/GPU/
+clocklimits. No retry/separate retrieval/oldcleanup/install/privatekey/heldoutpixel/
+paidwork. Newv4grant unspent untilATTEMPT; alloldergrants consumed. IfATTEMPTexists
+consumed evenerror: inspect ONLY LOCAL output first; NEVERrerun/rearm/resetclaim/
+retrycollection underit. Keepoldsources/evidence/proofs unchanged. Scientific/
+training/perf/cost false pendingindependentreview; finances/holds/reconciliation
+unchanged. OldFIFO LSTAT ONLY NEVERread/hash. User stages/commits/pushes; NEVERdoit.
+Earlier LATEST historical.
+
+LATEST November 16: COMPLETE V4 PREPARATION-REFUSAL HANDOFF REVIEW PASSED; UNARMED.
+Raw predictor-pgd-outer-v4-20261116 sealed-local-outer-v4.json pins 13441 hashes;
+fixture-layout-preserved.json records 334 new entries. Preserve both.
+Read report/checks/2026-11-16-pgd-split-outer-v4-local-review.json/md,
+ report/checks/2026-11-16-pgd-split-outer-v4-scope.md and docs/predictor_pgd_split_outer_v4.md.
+One new exact scoped university approval is required before arming or target work.
+All previous grants consumed; v3 source/auth/claim/refusal evidence remains frozen.
+V4 integrates ONLY reviewed uninitialized-parent collection barrier AFTER ownedidle
+and BEFOREfinalization. Unclaimed parent/guardNone rethrows original workerror;
+invalid success refuses. Valid claimed failures retain collection. Originalbounded
+sameSSHrefusal path closesjournal/preserveslast_guard_refusal. No reset/bypass.
+12 NEW DISTINCT CHECKS FIRSTPASS12exec/0fail/error/skip/repeat. No historicaltests/
+scientificcohort rerun. Integrated actual generatedcoordinator+private source/cache/
+Layout/Guard/journalIO/frames. Real sourcecatalogue172assets/419results,26setupdirs,
+69cache+2lazyPacketDeps. Recordedv3NXGPUqueries reproduce primaryValueError and no
+session/collection. Guard-created-but-no-claim failure also preservesoriginalerror.
+Claimed session+ONE INERT proofworkerrefusal retains collection with ORIGINAL
+ended-session receipt predicate; no proof/tensor/scientific worker executes.
+Host/namespace/GPUqueries/clock/alarms/allocator/packetcontent/proof/PIDAPI/worker/
+collectionoutput FAKE. ReservephysicalZERO; actual ordinarymetadatawrites/fsync.
+No real child/timer/signal/proc/PID/GPU/proof/model/array/gradient/backend/profile/
+CPUreference/SSH/paidwork locally. Do not call this a live scientific/fit success.
+Whole remote_sessionAST equals cold recipe; remove ONEbranch restoresv3exact. Four
+intendedscope/preparer funcs inverseexact; other funcs/classes/clocks/setup/source/
+transport/claim/GPU/storage/ownership/num gates exact. Client/CLI onlyboundimport.
+Preparer pins recipe c6e045b37602f639051dc8c717af4a583eeffec3d2ea12fb46a737db912b7721
+and frozenv3source8c21d936e5d311c7ddc0dffa4bc91c01a7f5c1c0e8731efa5fc33c58df57ac46;
+wholefunction check atprepare. NewLOCAL14pins. New control/authkindv4 oldgrantrefused.
+All69 uploaded sources875628B +supervisedcontrol/sourceenvelope EXACT v3 bytes.
+Packet-awarebootstrap+boundedparentdiag+63runtime/science sources unchanged. Full
+policy/financialsnapshot unchanged0d1c5d92... . Datasetfix LIVE STILLUNTESTED.
+FreshSTDlib saved/AST audit FIRSTPASS13170priorhashes+10747oldfixtureentries+
+historical242/280/135/245/5/3/186/187/5groups. OldFIFO LSTAT ONLY NEVERread/hash.
+Final candidate runs/pretrained/diagnostic/predictor-pgd-outer-v4-20261116/
+ handoff-parent/linux10603-unarmed ONLYCONTROL-CANDIDATE/SOURCE-PAYLOAD/PACKAGE/
+ known-hosts; NO AUTHORIZATION/ATTEMPT. OuterSHA
+9e7d66ba7364ef2014fe61c9af40b4ea77f8b05fc62c91b6940e9eb7af0ef4e4
+SupervisedSHA3f2f741d190dbc177470e436be69d0d4ab81c7ff364e310b266941470c157219.
+READY ask ONE new exact scope now. Payload unchanged17192095B training/reference
+packet +69sources875628B +35689B checkedouterstdin +boundmetadata inclunchanged
+budgetsnapshot. Envelope1170625B. 40min workinclfull2.5GiBproof+8matchedgrad+
+2componentVJPs/oneinner;10min SAME SSH collection/50min TOTALincllogin. Originalcaps/
+num/backend/ownership/gates. NO retries/separate retrieval/oldcleanup/installations/
+privatekeys/heldoutpixels/paidcompute. No repeatmanualGPUcheck; helperliveguards.
+CurrentGPUunknown (savedv3NXprocess onlypastobservation), neverkill/alterexistingapps.
+Before approval NO arming/ATTEMPT/SSH/upload/proof/model. Afterapproval ONLYarm
+unchangedfinalcandidate; real LOCAL check_local source/control/auth/payload/packet
+BYTEHASHonly (no decoding) +armingrecord +one caffeinate Mac CLIv4 command exactpath.
+Do notrename/copy boundpath. If ATTEMPTexists consumed evenerror; ONLY inspectLOCAL
+savedresults first, no rerun/rearm/reset/retrycollection. Scientific/training/perf/
+cost admission false, finances/holds/reconciliation unchanged. User does ownstage/
+commit/push; NEVERdoit. Earlier LATEST historical.
+
 LATEST November 16: V3 CONSUMED; SETUP GPU GUARD REFUSED, COLLECTION MASKED MESSAGE.
 Raw incident-v3 sealed-reviewed-incident.json pins 13170 regular hashes;
 fixture-layout-preserved.json records 19 new entries. Preserve both.

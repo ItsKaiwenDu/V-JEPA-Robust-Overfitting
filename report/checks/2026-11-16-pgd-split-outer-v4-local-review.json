@@ -1,0 +1,97 @@
+{
+  "all_69_uploaded_sources_and_supervised_control_byte_identical_to_v3": true,
+  "all_other_timers_claims_setup_transport_GPU_storage_ownership_and_numerical_gates_unchanged": true,
+  "authorized": false,
+  "client_and_CLI_only_change_bound_import": true,
+  "date": "2026-11-16",
+  "handoff": "runs/pretrained/diagnostic/predictor-pgd-outer-v4-20261116/handoff-parent/linux10603-unarmed",
+  "historical_byte_mode_nsmtime_groups": [
+    242,
+    280,
+    135,
+    245,
+    5,
+    3,
+    186,
+    187,
+    5
+  ],
+  "integration": {
+    "actual_generated_coordinator_Guard_journal_and_frame_codec": true,
+    "actual_source_assets": 172,
+    "busy_GPU_refusal_preserved_before_guard": true,
+    "claimed_failure_keeps_collection_and_original_work_receipt_predicate": true,
+    "guard_present_but_parent_unclaimed_refuses_collection": true,
+    "initial_source_cache": 69,
+    "lazy_packet_dependencies": 2,
+    "physical_reserve_bytes": 0,
+    "proof_or_scientific_worker_executed": false,
+    "result_catalogue": 419,
+    "setup_directories": 26
+  },
+  "kind": "pgd-split-outer-v4-independent-local-review",
+  "limitations": [
+    "Actual metadata installation/cache, Guard/journal IO, coordinator and response frames execute with explicit fake host/namespace/GPU/clock/alarms/allocator/packet contents/PID API/worker bindings.",
+    "The claimed-failure collector output is inert; only the original ended-work receipt predicate runs, with a fake parent PID.",
+    "No proof, model, external scientific module, array/gradient/backend, profiler, CPU reference, real child/timer/signal/proc/GPU/SSH or paid compute runs.",
+    "Original packet-aware import path and complete v4 scientific/runtime behavior still await an approved live worker."
+  ],
+  "mode": "fresh stdlib saved-file/hash/AST audit only; no project/test callbacks or science/process/network execution",
+  "old_FIFO_lstat_only_never_read": 1,
+  "old_claims_outcomes_financial_caps_holds_reconciliation_unchanged": true,
+  "outer_control_sha256": "9e7d66ba7364ef2014fe61c9af40b4ea77f8b05fc62c91b6940e9eb7af0ef4e4",
+  "prior_fixture_layouts_verified": [
+    1720,
+    474,
+    101,
+    166,
+    894,
+    2909,
+    494,
+    248,
+    779,
+    221,
+    2722,
+    19
+  ],
+  "prior_hashes_verified": 13170,
+  "ready_for_one_new_scoped_approval": true,
+  "result": "PASS",
+  "scientific_qualified": false,
+  "source_pins": {
+    "configs/predictor_pgd_split_outer_v4.json": "45dab719cf5a0ca61c86df2c95cb28bf2109a69be08466b8b02db8542f05700b",
+    "docs/predictor_pgd_split_outer_v4.md": "7cbf323e3ac3e7b68a16f3062bc07531037bf95fc0f5b1f6b0c64a09ec33fede",
+    "models/predictor_pgd_split_outer_client_v4.py": "6594dbaa9a9e147c10eedcf6ff4803dbdcaaf12a18e0deb1efe42d2010f39090",
+    "models/predictor_pgd_split_outer_v4.py": "32cd4c9d00943eefec2e53d2f80dfb8832820b18d6ccee759d6919195a94fcb2",
+    "report/checks/2026-11-16-pgd-split-outer-v4-scope.md": "aa5cc5cc3e85c798e870c27ef619bf82a4af39a3e09042738d1706fae394d126",
+    "scripts/run_predictor_pgd_split_outer_v4.py": "24c304613878aaa774ca08c2cd3eb2714263518544d6412d9675c43fe6c82f21",
+    "tests/test_predictor_pgd_split_outer_v4.py": "0c2cd34c9dba1bd0034e415dbda61e63b7105d7a93094290d20b92aed86fb9a0"
+  },
+  "supervised_control_sha256": "3f2f741d190dbc177470e436be69d0d4ab81c7ff364e310b266941470c157219",
+  "target_connection_upload_or_work_executed": false,
+  "tests": {
+    "all_pass": true,
+    "distinct": 12,
+    "errors": 0,
+    "executions": 12,
+    "failures": 0,
+    "historical_tests_or_scientific_cohorts_repeated": false,
+    "repeats": 0,
+    "runs": [
+      12
+    ],
+    "skips": 0
+  },
+  "training_admitted": false,
+  "upload": {
+    "initial_message_cap_bytes": 2097152,
+    "metadata_contains_unchanged_budget_snapshot": true,
+    "outer_stdin_source_bytes": 35689,
+    "private_keys_or_held_out_pixels": false,
+    "source_bytes": 875628,
+    "source_envelope_bytes": 1170625,
+    "source_files": 69,
+    "unchanged_packet_bytes": 17192095
+  },
+  "whole_remote_session_inverse_matches_v3_after_single_barrier_removal": true
+}

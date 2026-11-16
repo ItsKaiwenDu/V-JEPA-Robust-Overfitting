@@ -1,0 +1,65 @@
+{
+  "collection_bodies_or_final_SSH_exit_status_available": false,
+  "current_local_files_pinned": 5,
+  "date": "2026-11-16",
+  "execution_boundary": {
+    "basis": "Saved setup refusal joined to exact pinned source ordering before guard/session creation and role dispatch.",
+    "new_work_after_error": false,
+    "packet_import_path_live_execution_observed": false,
+    "proof_or_model_worker_dispatch_reached": false,
+    "remote_contents_not_inspected": true
+  },
+  "grant_consumed": true,
+  "guard": {
+    "GPU_total_memory_used_MiB": 293,
+    "attempt_time_observation_not_current_live_status": true,
+    "error_type": "ValueError",
+    "message": "Another CUDA compute process is active; leave it alone and refuse.",
+    "other_process": {
+      "name": "/usr/NX/bin/nxnode.bin",
+      "pid": 3418810,
+      "used_memory_MiB": 191
+    },
+    "role": "setup",
+    "same_saved_queries_as_v3": true
+  },
+  "historical_byte_mode_nsmtime_groups": [
+    242,
+    280,
+    135,
+    245,
+    5,
+    3,
+    186,
+    187,
+    5
+  ],
+  "kind": "pgd-v4-GPU-setup-refusal-independent-review",
+  "local_metadata_integrity": "PASS",
+  "new_tests_code_changes_or_scientific_cohort_repeats": false,
+  "next": "Do not launch another model attempt solely in response to this expected refusal. Prepare/review a narrowly bounded availability-only read before any new connection; keep model/proof authorization separate and do not request repetitive manual status pastes.",
+  "no_new_SSH_GPU_process_timer_proof_or_model_operations_by_review": true,
+  "old_FIFO_lstat_only_never_read": 1,
+  "old_claims_sources_bounds_outcomes_financial_caps_holds_reconciliation_unchanged": true,
+  "outer_control_sha256": "9e7d66ba7364ef2014fe61c9af40b4ea77f8b05fc62c91b6940e9eb7af0ef4e4",
+  "prior_fixture_layouts_verified": [
+    1720,
+    474,
+    101,
+    166,
+    894,
+    2909,
+    494,
+    248,
+    779,
+    221,
+    2722,
+    19,
+    334
+  ],
+  "prior_hashes_verified": 13445,
+  "refusal_path_fix_confirmed_by_saved_response": true,
+  "result": "EXPECTED_GPU_SETUP_REFUSAL_PRESERVED",
+  "scientific_qualified": false,
+  "training_admitted": false
+}

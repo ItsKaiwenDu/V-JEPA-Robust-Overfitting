@@ -1,5 +1,60 @@
 # Research Progress Reports
 
+## 2026-11-16 — V4 refusal path confirmed; GPU availability blocks model start
+
+The v4 attempt correctly preserved the setup refusal for the same nxnode.bin
+process (191 MiB). The secondary collection error is resolved. Source order and
+saved metadata confirm no storage-proof or model worker was dispatched; scientific
+startup and the packet import correction remain unobserved. Setup writes occurred.
+
+All five local records verify. The independent audit passes 13,445 prior hashes,
+11,081 prior fixture entries and historical saved groups; the old FIFO is lstat-only.
+No code change, test/cohort rerun, remote inspection or new experiment was needed.
+The consumed handoff and all earlier evidence remain unchanged.
+
+Next prepare a bounded availability-only helper and obtain its separate read-only
+connection scope. Check availability before allocating another model attempt;
+keep model/proof authorization separate and avoid repeated manual status pastes.
+Current GPU state is unknown beyond the saved refusal. Original scientific/training
+and financial gates remain unchanged. See the
+[v4 refusal review](report/checks/2026-11-16-pgd-v4-GPU-setup-refusal-review.md).
+
+## 2026-11-16 — Approved v4 handoff armed; preflight passes
+
+The user approved the exact bounded v4 scope. The unchanged final handoff now has
+its bound authorization. All 13,441 prior file hashes, 334 fixture entries and
+reviewed source pins match. Full local client preflight passes, including the
+original packet byte hash. No timer, attempt, SSH, proof, model or paid work started;
+no tests or cohorts repeated.
+
+Next run the single attended Mac v4 command. The helper performs live guards; no
+manual status check is needed. A refusal consumes the single attempt. After the
+attempt, inspect local saved results before any further work. Original bounds,
+evidence, scientific/training and financial gates remain unchanged. See the
+[arming record](report/checks/2026-11-16-pgd-split-outer-v4-arming.md).
+
+## 2026-11-16 — Complete v4 refusal handling passes integrated review
+
+The fresh v4 handoff preserves setup refusals before parent guard/session creation,
+instead of masking them with a collection error. Valid claimed sessions retain
+their original collection route. All 69 uploaded sources, supervised control and
+scientific/financial policy remain byte-identical to v3; only the outer behavior,
+source bindings and scope identity change.
+
+All twelve new integrated checks pass on their first execution, with no historical
+test or scientific cohort rerun. They exercise the actual generated parent, source
+cache, catalogue/scans, journal metadata IO and response frames. GPU/host/namespace,
+allocator, packet contents, clocks/alarms, PID API, worker and collection payload
+bindings are fake. No real proof, model, gradient, process, timer, GPU or SSH runs.
+The audit passes 13,170 prior hashes, 10,747 fixture entries and historical saved
+groups. All old grants and failures stay frozen; the old FIFO is lstat-only.
+
+The concrete candidate is ready and unarmed. Next request one additional exact
+university scope, then arm and provide one attended Mac command. No manual GPU
+check is needed; the helper checks live and refuses contention. Original experiment
+limits, scientific/training gates and financial state remain unchanged. See the
+[v4 review](report/checks/2026-11-16-pgd-split-outer-v4-local-review.md).
+
 ## 2026-11-16 — Setup GPU refusal preserved; error-path correction checked
 
 The attended v3 attempt encountered another CUDA process, nxnode.bin using 191 MiB,
