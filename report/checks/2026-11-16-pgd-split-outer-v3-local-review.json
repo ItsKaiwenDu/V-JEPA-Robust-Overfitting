@@ -1,0 +1,123 @@
+{
+  "actual_setup_catalogue": {
+    "actual_outer_setup_and_catalogue": true,
+    "assets": 172,
+    "authorized": false,
+    "cached_sources": 69,
+    "host_proof_packet_contents_substituted": true,
+    "lazy_packet_dependencies": 2,
+    "physical_reserve_bytes": 0,
+    "result_files": 419,
+    "scientific_source_executed": false,
+    "setup_directories": 26,
+    "training_admitted": false
+  },
+  "all_63_scientific_runtime_and_original_packet_sources_unchanged": true,
+  "authorized": false,
+  "bootstrap_and_coordinator_complete_old_prefixes_preserved": true,
+  "client_and_CLI_only_change_bound_import": true,
+  "date": "2026-11-16",
+  "handoff": "runs/pretrained/diagnostic/predictor-pgd-startup-v3-20261116/handoff-parent/linux10603-unarmed",
+  "historical_byte_mode_nsmtime_groups": [
+    242,
+    280,
+    135,
+    245,
+    5,
+    3,
+    186,
+    187
+  ],
+  "kind": "pgd-split-outer-v3-independent-local-review",
+  "limitations": [
+    "Loader tests execute stdlib bootstrap definitions and actual private readers, with scientific execution replaced by AST import traversal.",
+    "Exported symbols, actual external-library and upstream behavior, model/gradient/backend and live fit remain unobserved.",
+    "Setup uses actual catalogue/cache/writes/scans but explicit fake host/GPU/activation/packet content/allocator/proof bindings; reserve is zero bytes.",
+    "Child/handle/clock/process/signal bindings are inert fakes; old target parent traceback was not retained, so no exact live cause is asserted."
+  ],
+  "mode": "fresh stdlib saved-file/hash/AST review; no project/test/scientific/process/timer/network execution",
+  "module_resolution": {
+    "AST_import_traversal_substitutes_source_execution": true,
+    "actual_scientific_or_external_library_imports_executed": false,
+    "conservative_project_edges": 191,
+    "declared_names": 71,
+    "initial_source_cache": 69,
+    "lazy_existing_packet_names": 2,
+    "literal_dynamic_sites": 14,
+    "literal_false_import_statements": 7
+  },
+  "old_FIFO_lstat_only_never_read": 1,
+  "old_claims_outcomes_financial_caps_holds_and_reconciliation_unchanged": true,
+  "other_67_uploaded_files_unchanged": true,
+  "other_outer_functions_classes_timers_setup_transport_claims_gates_unchanged": true,
+  "outer_control_sha256": "dc57acbe65c023361a4a6488390c66c2e78c57fd18b4982a595d3db05a33c52b",
+  "parent_error": {
+    "diagnostic_wrappers": 2,
+    "inert_early_exit_cases": 6,
+    "metadata_cap_bytes": 16384,
+    "no_child_failure_promotion": true,
+    "old_live_parent_error_exact_cause_remains_unknown": true,
+    "original_monitor_stop_wait_handle_cleanup_unchanged": true
+  },
+  "prior_fixture_layouts_verified": [
+    1720,
+    474,
+    101,
+    166,
+    894,
+    2909,
+    494,
+    248,
+    779,
+    221
+  ],
+  "prior_hashes_verified": 10708,
+  "ready_for_one_new_scoped_approval": true,
+  "result": "PASS",
+  "scientific_qualified": false,
+  "source_pins": {
+    "configs/predictor_pgd_split_outer_v3.json": "9eb6be64e69ef34f1ef5f20f8beb82c4ca38f3b0bad3d3087a238d1991539630",
+    "docs/predictor_pgd_split_outer_v3.md": "f48d5ca9b5b8fccc1104173bd41edb0c67f59daba158c8f13d2fa183eb97d3a8",
+    "models/predictor_pgd_split_outer_client_v3.py": "e289b3b74c80704abb470a69cae253279ad2da57701c45704f0923a874594be8",
+    "models/predictor_pgd_split_outer_v3.py": "8c21d936e5d311c7ddc0dffa4bc91c01a7f5c1c0e8731efa5fc33c58df57ac46",
+    "models/predictor_pgd_split_startup_sources_v3.py": "14518791aef3a926b20d05b789a13c585e45b10f601ac971bd896850f61987ff",
+    "report/checks/2026-11-16-pgd-split-outer-v3-scope.md": "1e3d90c575269b7643a0936cb3cc9240ea5fdf76ccec26c534dd0c9d4e673d4f",
+    "scripts/run_predictor_pgd_split_outer_v3.py": "032851100b455d18594c12c950ce7a21d57df50188e2fc6c6eb3304b62d0838c",
+    "tests/test_predictor_pgd_split_outer_v3.py": "b3600e2d2422d91c27bb6dc28cb8f061a979a64a4dfe25614678ac9ef30845ff",
+    "tests/test_predictor_pgd_split_startup_v3.py": "25b3d8cd8351a0d34584bc0b97bd4b82a43d5195cf3b208b3f2f9a3e3a8d808f"
+  },
+  "supervised_control_sha256": "3f2f741d190dbc177470e436be69d0d4ab81c7ff364e310b266941470c157219",
+  "target_connection_upload_or_work_executed": false,
+  "tests": {
+    "affected_passing_repeats": 22,
+    "all_latest_pass": true,
+    "distinct": 33,
+    "errors": 0,
+    "executions": 57,
+    "failure_reasons": [
+      "Inactive-import test count corrected from four project occurrences to seven total statements.",
+      "Real two-bootstrap-namespace class-identity regression fixed using exact policy descriptors."
+    ],
+    "failures_retained": 2,
+    "historical_test_functions_or_scientific_cohorts_repeated": false,
+    "runs": [
+      25,
+      1,
+      7,
+      1,
+      23
+    ],
+    "skips": 0
+  },
+  "training_admitted": false,
+  "upload": {
+    "initial_message_cap_bytes": 2097152,
+    "metadata_contains_unchanged_budget_snapshot": true,
+    "outer_stdin_source_bytes": 34015,
+    "private_keys_or_held_out_pixels": false,
+    "source_bytes": 875628,
+    "source_envelope_bytes": 1170625,
+    "source_files": 69,
+    "unchanged_packet_bytes": 17192095
+  }
+}

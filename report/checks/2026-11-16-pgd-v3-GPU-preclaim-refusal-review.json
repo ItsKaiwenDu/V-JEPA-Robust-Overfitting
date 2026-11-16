@@ -1,0 +1,84 @@
+{
+  "SSH_exit_status_not_retained": true,
+  "audit_correction": "First audit imported base64 after installing its exec-blocking hook; moved this stdlib import before the hook. Original script/log preserved; no source/test/target changes.",
+  "current_local_files_pinned": 5,
+  "date": "2026-11-16",
+  "execution_boundary": {
+    "basis": "Saved setup journal refusal joined to the exact pinned preflight-before-guard/session/role-loop source order.",
+    "new_work_after_error": false,
+    "packet_import_correction_live_execution_observed": false,
+    "proof_or_model_worker_dispatch_reached": false,
+    "remote_contents_not_inspected": true
+  },
+  "grant_consumed": true,
+  "kind": "pgd-split-v3-preclaim-GPU-refusal-independent-review",
+  "local_correction": {
+    "authorized": false,
+    "exact_inverse_original_function_AST": true,
+    "kind": "cold-only remote_session function candidate; not a runnable handoff",
+    "original_primary_error_preserved": true,
+    "owned_idle_barrier_retained_before_new_branch": true,
+    "target_helper_ready": false,
+    "uninitialized_parent_cannot_enter_collection": true
+  },
+  "local_metadata_integrity": "PASS",
+  "next": "Local only: integrate the checked refusal barrier into a fresh complete version and review before any additional exact scoped approval. No current retry, new connection or authorization.",
+  "no_actual_process_timer_PID_signal_GPU_model_storage_proof_or_network_activity_in_local_checks": true,
+  "old_FIFO_lstat_only_never_read": 1,
+  "old_claims_sources_bounds_outcomes_financial_caps_holds_reconciliation_unchanged": true,
+  "outer_control_sha256": "dc57acbe65c023361a4a6488390c66c2e78c57fd18b4982a595d3db05a33c52b",
+  "primary_refusal": {
+    "compute_process": {
+      "name": "/usr/NX/bin/nxnode.bin",
+      "pid": 3418810,
+      "used_memory_MiB": 191
+    },
+    "message": "Another CUDA compute process is active; leave it alone and refuse.",
+    "observed_at_attempt_start_not_a_fresh_live_check": true,
+    "recorded_GPU_memory_used_MiB": 293,
+    "role": "setup",
+    "type": "ValueError"
+  },
+  "prior_fixture_layouts_verified": [
+    1720,
+    474,
+    101,
+    166,
+    894,
+    2909,
+    494,
+    248,
+    779,
+    221,
+    2722
+  ],
+  "prior_hashes_verified": 13140,
+  "remote_files_or_collection_bodies_available": false,
+  "result": "GPU_SETUP_REFUSAL_WITH_SECONDARY_COLLECTION_ERROR",
+  "scientific_qualified": false,
+  "secondary_error": {
+    "cause": "Outer error path invokes Collector with driver.guard None after prepare refused before the parent session claim.",
+    "message": "'NoneType' object has no attribute 'layout'",
+    "type": "AttributeError"
+  },
+  "source_pins": {
+    "models/predictor_pgd_split_preclaim_refusal_v4.py": "c6e045b37602f639051dc8c717af4a583eeffec3d2ea12fb46a737db912b7721",
+    "tests/test_predictor_pgd_split_preclaim_refusal_v4.py": "0af00138a98a3d31170cc80b202bbfff1cca30cccfeb8ea3a605f1734e1cb5cd"
+  },
+  "tests": {
+    "all_latest_pass": true,
+    "distinct": 9,
+    "errors": 0,
+    "executions": 17,
+    "failure_cause": "Missing MiB constant in the shared inert test namespace; test-only correction.",
+    "fixture_failures_retained": 8,
+    "historical_tests_or_scientific_cohorts_repeated": false,
+    "passing_repeats": 0,
+    "runs": [
+      9,
+      8
+    ],
+    "skips": 0
+  },
+  "training_admitted": false
+}

@@ -1,5 +1,66 @@
 # Research Progress Reports
 
+## 2026-11-16 — Setup GPU refusal preserved; error-path correction checked
+
+The attended v3 attempt encountered another CUDA process, nxnode.bin using 191 MiB,
+at its setup guard. It stopped before the storage-proof or model worker. A secondary
+collection bug replaced that refusal with NoneType.layout because the parent guard
+and session were not initialized. The dataset correction was not reached.
+
+Five small local records are verified and preserved. The independent source/metadata
+audit passes all 13,140 prior hashes and 10,728 prior fixture entries; the old FIFO
+is lstat-only. A late stdlib import in the first auditor was corrected with both
+scripts/logs kept. No remote inspection or retry occurred.
+
+A cold function correction now refuses collection until both parent session and
+guard exist, retaining the original work error after the owned-idle barrier. Nine
+distinct local regressions have passing latest results over seventeen executions;
+eight first runs lacked a shared fake-harness constant, corrected only in the test.
+No passing check, historical test or scientific cohort repeated. All OS/worker/
+clock/collector bindings are fake. The candidate is not a runnable target handoff.
+
+The v3 grant is consumed. Next integrate this correction into a fresh complete
+version and review it before any new scoped approval. No manual GPU check is needed
+now. Old evidence, numerical/resource gates and financial state stay unchanged.
+See the [setup refusal review](report/checks/2026-11-16-pgd-v3-GPU-preclaim-refusal-review.md).
+
+## 2026-11-16 — Approved v3 handoff armed; local preflight passes
+
+The user approved the exact bounded v3 scope. The unchanged final handoff now has
+its bound authorization. All 13,136 preserved file hashes, 2,722 fixture entries
+and source pins match. Full local client preflight passes, including the original
+packet byte hash. No attempt, timer, SSH, proof, model or paid work started, and
+no tests or cohorts repeated.
+
+Next run the single attended Mac v3 command. The helper performs live guards;
+no repeated manual GPU check is needed. The attempt claim consumes the grant even
+on error, after which local evidence must be reviewed before further action.
+Original limits, older outcomes, scientific/training and financial gates remain
+unchanged. See the [arming record](report/checks/2026-11-16-pgd-split-outer-v3-arming.md).
+
+## 2026-11-16 — Packet-aware v3 startup and diagnostics pass local review
+
+The complete unarmed v3 handoff resolves the missing datasets namespace from two
+files already in the original packet. It retains the 69-module source cache before
+extraction and verifies those two dependencies lazily. All 63 runtime sources and
+the packet remain unchanged. The coordinator adds bounded parent failure frames
+and child-exit notes while preserving original process cleanup and clocks.
+
+33 distinct checks have passing latest results over 57 executions. A fixture-count
+mistake and a real two-bootstrap-namespace class-identity regression were preserved
+and corrected. The generated bootstrap change justified 22 affected passing repeats;
+ten unrelated monitor/diagnostic checks did not repeat. Actual loader/private-reader
+checks resolve all 71 names through AST import traversal, with no scientific or
+external-library execution. Setup uses the actual catalogue and scans but explicit
+host/allocator/proof substitutes. Child supervision uses inert handles and clocks.
+
+The independent audit passes all 10,708 prior file hashes, 8,006 old fixture entries
+and historical saved groups. Prior failed attempts stay frozen; the old FIFO is
+lstat-only. The candidate is ready for one new exact university approval, followed
+by local arming and one attended Mac command. No manual GPU check is needed.
+Scientific/training admission and financial caps, holds and reconciliation remain
+unchanged. See the [v3 review](report/checks/2026-11-16-pgd-split-outer-v3-local-review.md).
+
 ## 2026-11-16 — Directory correction verified; startup import gap found
 
 The attended v2 attempt passed the full 2.5 GiB storage proof in 14.52 seconds and
