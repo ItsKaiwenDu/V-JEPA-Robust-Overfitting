@@ -2,6 +2,60 @@
 
 ## Current stage
 
+LATEST November 15: BOUNDED STREAM COLLECTION + ACTUAL SOURCE BUNDLE VERIFIED LOCALLY.
+Read report/checks/2026-11-15-pgd-split-collection-v1-local-review.json/md,
+ docs/predictor_pgd_split_collection_v1.md + configs/predictor_pgd_split_collection_v1.json.
+New stdlib predictor_pgd_split_collection_v1 has NO network/process/science/CLI API.
+Collector exactcontrol/auth/installation +endedowned session/serialcompletedprefix;
+exclusive2declaredresultreceipts, no oldreplacement/retry/cleanup. Ownsuccessful
+publicationpartial unlink ONLY. Failedprefix/partials neverpromoted; combinedreceipt
+collectionFALSE. Wholeinventory preservesoldcaps; evidenceinput/code/metadata/results/
+logs, cache/tmp/emergency CONTENTSexplicitlyomitted(metadataretained). NOdiskarchive.
+Fixedmagic +canonicalfinite/duplicatefreeJSONheader<=1MiB +sortedfilebytes +terminal
+<=16KiB; FULLwire<=3GiB. Sourceheldnofollow/nonblockingregular/ancestor/namedidentity/
+extent/mode/nsmtime/hash; before/duringhash +finaltreescan. Terminaljoincontrol/auth/
+header/receipt/prefixhash+bytes/count, noselfreference. Localfresh0700root/dirs,
+0600singlelinkfiles, preservednsmtime. Truncated/changed/extra/noncanonicalstreams
+refuse; partialoutputsKEPT. Permittedpublicationaliases copiedas2privatesinglelink
+names, NEVERcompletion. Producerreceiver_verifiedFALSE; localtransportverified
+NEVERscientific/trainingadmission. ReviewREDthenfix5postEOF gaps: byte/mode/extra/
+root/parentreplacement. Finalboundedheld/namedtree/hash +namedparent/root rechecks.
+NOTatomic/sameUIDtamperproof. Original3000connection/600collection clippedclock;
+preparealsooriginal2400work/final120. COOPERATIVEchecks, blockingIOalarmsstillneeded;
+local/targetclockdomains cannotbemixed. CurrentchecksTINYINERT/SYNTHETIC ONLY.
+New predictor_pgd_split_source_bundle_v1 SOURCEBYTESONLY: fixedold5supervisors+actual
+collector6,63frozenruntime,4metadata/config=73files. All69coldcompiled/cacheonly;
+NOsourceexec. Private0700ancestorfix afterdefaultintermediate755refusal. Unarmed
+CONTROL-CANDIDATE/INSTALLATION-CANDIDATE; NOAUTHORIZATION/ATTEMPT. NO trainingpixels/
+checkpoint/wheelsreadbysourceassembly. Currentbundlemanifest underrawstage/pytest-07/
+ test_concrete_source_only_bund0/private-source-parent/source-bundle-manifest.json.
+ControlSHA8fa168e294968eac3184cec35cd9f46a7594f0a122e6b1b7af2f93febb8f1638
+installSHAff185516ed9c1c6a79338edf66166f466668d2a7be6e614174fa62317d4042a6
+collectorSHA50e1deede0e0d9bf9a0f5a7ad9f1879920f4d01b74015666adcc89106b2523a1.
+97DISTINCTlatestALLPASS/114exec; runs74/6/8/16/1/1/8.8preservedFAILexecutions:
+2fixturemistakes,4EOFgaps,1assemblerparentmode,1EOFparentgap.0error/skip.
+9passingrepeatsONLYchangedsource/hash/affectedsuccesspaths; historicaltests/cohorts
+NOrepeat. Full172assetgeometrySYNTHETICmetadata; roundtripTINYINERTSUBSTITUTIONS.
+All7runs/snapshots/negativefiles/sourcepackagesretained. FreshindependentSTDLIB
+savedfile/ASTauditFIRSTPASS7482priorhashes +1720/474/101/166/894oldlayoutentries+
+242/280/135/245/5/3 byte/mode/nsmtimegroups. No project/test callback execution.
+Raw predictor-pgd-split-collection-v1-20261115; finalseal therefornextpreservation.
+IMPORTANT oldscratchlayout hasONE FIFO; lstat/type/mode ONLY; NEVERopen/hash/read.
+NEXT LOCAL ONLY outerlocal/remoteATTEMPT preventinggrantreuseACROSSROOTS +exact
+packet/source/control/setupdriver +parentpinnednamespaceinitialinstall. Connect
+originalLOGIN-INCLUSIVEclient3000 / parent2400work/600collection blockingIOalarms,
+ownership/signalhandoff andboundedpersistentGPU/storageobservations/refusals.
+CurrentfrozencoordinatorCHECKSgatesbut DOESNOTpersist finalsamplingjournals.
+Wholeouterpackage/independentreview BEFORE ONEexactnewscopeduniversityapproval.
+NOactualSSH/upload/retrieval/proof/child/PIDhandle/signal/timer/pipe/proc/GPU/array/
+gradient/autograd/SDPA/profile/warmup/newCPUFP64/cohort/replay/paidwork now. NOmanual
+GPUstatus/newscopequestionyet. NOcompletehelper/authorizationready. Design/policy/
+oldsourcefiles/8fullgrads+2EXTRAcomponentVJPs/oneinner/7GiBallocator/4GiBcomponentRSS/
+originalnum/backendgates unchanged. Allactualscientific/backend/accuracy/fullEOT8/
+replay/perf/cost/trainingFALSE. Oldgrantsconsumed,oldoriginalbackwardRETURNED/later
+causeUNKNOWN,partialsUNADMITTED. Finances/holds/reconciliationUNCHANGED. Userdoes
+ownstage/commit/push; NEVERdoit. Earlier LATEST historical.
+
 LATEST November 15: PINNED BOOTSTRAP/SERIAL COORDINATOR VERIFIED LOCALLY.
 Read report/checks/2026-11-15-pgd-split-launch-v1-local-review.json/md,
  docs/predictor_pgd_split_launch_v1.md + configs/predictor_pgd_split_launch_v1.json.

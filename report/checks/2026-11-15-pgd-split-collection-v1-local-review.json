@@ -1,0 +1,82 @@
+{
+  "actual_network_target_process_PID_signal_timer_pipe_proof_array_gradient_profiler_GPU_or_paid_work": false,
+  "actual_source_bundle": {
+    "collector_placeholder": false,
+    "control_sha256": "8fa168e294968eac3184cec35cd9f46a7594f0a122e6b1b7af2f93febb8f1638",
+    "files": 73,
+    "installation_sha256": "ff185516ed9c1c6a79338edf66166f466668d2a7be6e614174fa62317d4042a6",
+    "manifest": "runs/pretrained/diagnostic/predictor-pgd-split-collection-v1-20261115/pytest-07/test_concrete_source_only_bund0/private-source-parent/source-bundle-manifest.json",
+    "runtime_modules": 63,
+    "supervisor_modules": 6
+  },
+  "all_actual_scientific_backend_accuracy_replay_performance_cost_training_admissions": false,
+  "checks": {
+    "exact_control_authorization_installation_source_hash_join": true,
+    "failed_prefix_and_partials_never_promoted": true,
+    "fixed_wire_header_terminal_and_category_caps": true,
+    "no_clock_reset": true,
+    "no_target_disk_archive_or_separate_retrieval_API": true,
+    "post_EOF_local_tree_hash_and_named_parent_root_checks": true,
+    "private_modes_and_nsmtime_preserved": true,
+    "terminal_prefix_hash_no_self_reference": true
+  },
+  "date": "2026-11-15",
+  "historical_byte_mode_nsmtime_groups": [
+    242,
+    280,
+    135,
+    245,
+    5,
+    3
+  ],
+  "kind": "pgd-split-collection-v1-independent-local-review",
+  "mode": "fresh standard-library saved-file/AST audit; no project/test callbacks, process/PID/timer/network or science execution",
+  "new_target_helper_or_authorization_ready": false,
+  "old_FIFO_fixtures_lstat_only_never_read": 1,
+  "old_claims_caps_holds_pending_financial_reconciliation_unchanged": true,
+  "prior_fixture_layouts_verified": [
+    1720,
+    474,
+    101,
+    166,
+    894
+  ],
+  "prior_hashes_verified": 7482,
+  "remaining_before_target": [
+    "Outer local/remote one-attempt and source/packet/setup binding driver; pinned parent namespace installation.",
+    "Login-inclusive original client deadline, parent work/collection blocking-I/O alarms and ownership/signal handoff.",
+    "Bounded persistent GPU/storage observations and refusal journals; complete package review before one exact new university scope."
+  ],
+  "result": "PASS",
+  "source_pins": {
+    "configs/predictor_pgd_split_collection_v1.json": "56f3396290de8c3c58dd1cc723e9f5a77a9ec0b7f9d03baa8171c39a7708d6f8",
+    "docs/predictor_pgd_split_collection_v1.md": "094c19a4dc5870b58fc7d31eb3d1d6f0b567c3dadcb6c7ec2743469c77084b69",
+    "models/predictor_pgd_split_collection_v1.py": "50e1deede0e0d9bf9a0f5a7ad9f1879920f4d01b74015666adcc89106b2523a1",
+    "models/predictor_pgd_split_source_bundle_v1.py": "a6b545d2cbb361c75c72ed5f0e3b988ace45fb53ff99056e016e50bb9c259f1d",
+    "tests/test_predictor_pgd_split_collection_v1.py": "87cdfb6bbb92e98425ae36a9c3a78ae907f58eb10c791c94b3b8b9a50a4f0ea3"
+  },
+  "test_limitations": {
+    "complete_172_asset_geometry": "SYNTHETIC METADATA ONLY",
+    "source_bundle": "SOURCE BYTES/COLD COMPILE ONLY; NO MODULE EXECUTION",
+    "stream_round_trips": "EXPLICIT TINY SUBSTITUTED DESCRIPTORS/INERT BYTES"
+  },
+  "tests": {
+    "all_latest_pass": true,
+    "distinct": 97,
+    "errors": 0,
+    "executions": 114,
+    "historical_tests_or_scientific_cohorts_repeated": false,
+    "justified_passing_repeats": 9,
+    "preserved_failing_executions": 8,
+    "runs": [
+      74,
+      6,
+      8,
+      16,
+      1,
+      1,
+      8
+    ],
+    "skips": 0
+  }
+}

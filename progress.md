@@ -1,5 +1,29 @@
 # Research Progress Reports
 
+## 2026-11-15 — Bounded evidence stream and complete supervisor source bundle
+
+The collector now joins ended-work receipts, the fixed source/control installation
+and typed inventory into a bounded stream with per-file hashes and a terminal
+receipt. The private decoder preserves modes/nsmtime, retains failed partials and
+rejects truncated or changed data. Review reproduced and closed five terminal-EOF
+consistency gaps with final named-parent/root and output tree/hash checks. The
+actual six supervisor sources and 63 frozen runtime files now form a source-only,
+unarmed 73-file package; no scientific module executes.
+
+97 distinct local checks have passing latest results across 114 executions. Eight
+failing executions and nine justified affected passing repeats are retained. The
+fresh saved-file audit verifies all 7,482 prior hashes, 3,355 old layout entries and
+unchanged historical byte/mode/nsmtime groups. The old FIFO is lstat-only. Complete
+asset geometry is synthetic metadata; byte round trips use tiny inert substitutes.
+No historical test/cohort, actual proof, process/PID/signal/timer, model, gradient,
+GPU, remote or paid work ran.
+
+Next integrate the outer cross-root attempt/setup/source mechanism, pinned parent
+installation, original login-inclusive work/collection alarms and bounded guard
+journals. Complete package review and one exact new university scope follow that
+preparation. Scientific/training validation and financial restrictions remain
+unchanged. See the [collection review](report/checks/2026-11-15-pgd-split-collection-v1-local-review.md).
+
 ## 2026-11-15 — Pinned bootstrap and serial coordinator pass local checks
 
 New source definitions bind control/authorization metadata and 69 source names,
