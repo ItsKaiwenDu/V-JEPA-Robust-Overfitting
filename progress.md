@@ -1,5 +1,139 @@
 # Research Progress Reports
 
+## 2026-11-16 — Live XFS publication mechanism reproduced; candidate passes
+
+The replacement byte probe completed on linux10609 (SSH0, complete 4,121-byte
+response, no stderr). Both inert files reduced allocated-byte metadata from
+16,711,680 to 12,587,008 at owned close while logical length, identity, mtime and
+read-back hashes stayed unchanged. The frozen writer pinned the earlier value
+and reproduced the exact original metadata refusal. The candidate pinned after
+close and passed both full-row checks and byte hash, retaining the allocation
+guard. This is a native XFS observation, without synthetic metadata changes.
+
+The independent saved-only review verifies all 14,461 prior hashes, 12,555 fixture
+entries and four joined local records; the old FIFO is lstat-only. It recomputes
+the comparisons from the full saved wire. No tests/cohorts, project callback,
+process, timer, network, GPU or model reruns. Remote data/status bytes were not
+separately copied; the wire records the pinned helper's metadata/hash observations.
+
+This establishes the one-file byte mechanism. It does not qualify a complete
+model or gradient run, and the original incident's omitted field remains absent
+from that old log. Next integrate the full-module repair into fresh full-catalogue
+PGD bindings and separately fix/review the owned-child monitor exit race, all
+locally before another scoped model attempt. This grant and earlier grants are
+consumed; preserve all evidence without rerun or retrieval. Original scientific,
+resource/time/ownership gates and financial state remain unchanged. See the
+[live result review](report/checks/2026-11-16-pgd-byte-close-replacement-v1-result-review.md).
+
+## 2026-11-16 — Replacement byte probe approved and armed
+
+The user approved the fresh identical-code replacement. Its exact new final
+handoff now has the bound authorization; real local preflight passes all source,
+program, public-key, control and grant bindings. All 14,456 prior hashes and
+12,555 fixture entries remain unchanged, including the consumed DNS failure;
+the old FIFO is lstat-only. No tests/cohorts, attempt, client clock, network/DNS
+query, SSH, target write, GPU, proof, model or paid work runs during arming.
+
+Next run one attended Mac command after VPN activation finishes, using the new
+handoff path. No further approval or manual GPU check is needed. The original
+three-minute including-login window, remote work/finalization/timeout limits,
+two inert files and app/ownership guards remain. A refusal consumes this new
+attempt; no repeat or separate retrieval. Review local output afterward. All
+scientific/resource/time/ownership/financial gates and history stay unchanged.
+See the [arming record](report/checks/2026-11-16-pgd-byte-close-replacement-v1-arming.md).
+
+## 2026-11-16 — DNS failure reviewed; identical replacement prepared
+
+The first byte-only invocation failed to resolve the university hostname before
+connecting (SSH255, empty stdout, 106-byte DNS error, 0.067s). The duplicate CLI
+invocation was refused locally before another SSH could start. No remote probe
+or model ran. All four saved records join the original grant/control/nonce; the
+independent saved-only review verifies 14,429 prior hashes and 12,539 fixture
+entries unchanged, with the old FIFO lstat-only. The consumed files remain frozen.
+The user reports a possible 1–2 second VPN activation race; the cause is unverified.
+
+A fresh unarmed replacement uses the identical 32,245-byte program, seven source
+pins, public key, data and limits. Only its local handoff path/control hash
+changes. Independent review passes all 14,441 prior hashes and eleven consumed
+handoff layout entries. No implementation change, tests/cohorts, network/DNS
+query, SSH, GPU, proof, model or paid work occurs. Wait for VPN access, then one
+new exact approval is needed before arming/launch. No old claim reset or repeated
+manual GPU check. Original scientific/resource/time/ownership/financial gates
+remain unchanged. See the
+[replacement review](report/checks/2026-11-16-pgd-byte-close-replacement-v1-local-review.md).
+
+## 2026-11-16 — Approved byte probe armed; local preflight passed
+
+The user approved the exact single linux10609 byte-publication probe. Its final
+handoff now has the bound authorization. All 14,424 prior hashes and 12,539
+fixture entries match; the old FIFO remains lstat-only. The pinned public key
+matches its fingerprint, and real local preflight passes the actual control,
+seven source pins, rebuilt program and grant. No test/cohort repeat, attempt,
+client clock, SSH, target write, GPU, proof, model or paid work ran.
+
+Next run the one attended Mac command. No additional approval or manual GPU check
+is needed for this unchanged scope: two inert files, 60 seconds work plus five
+finalization, independent 65-second timeout plus two kill grace, and one three-
+minute including-login connection with same-SSH response. A refusal consumes the
+attempt; no retries or separate retrieval. Review local output afterward. The
+byte-only result cannot admit scientific results or training. Prior claims,
+scientific/resource/ownership gates and financial state remain unchanged. See the
+[arming record](report/checks/2026-11-16-pgd-byte-close-probe-v1-arming.md).
+
+## 2026-11-16 — Byte-only XFS comparison prepared and reviewed
+
+The next check isolates file publication before another model attempt. A small
+standalone stdlib program copies the frozen/candidate Store methods exactly into
+an explicit one-file byte inventory. It will compare real before/after owned-close
+metadata and read-back hashes for two inert files on linux10609. No model, proof,
+GPU query, training packet or financial ledger is involved. The live XFS cause
+remains unproved; a negative reproduction will be preserved as such.
+
+All 48 distinct focused checks have passing latest results over 49 executions,
+plus an initial syntax collection error before any check ran. One allocation
+fixture needed actual file blocks on APFS; only it reran with new checks. A later
+new-fd diagnostic cleanup guard has new error-path checks. Source revisions and
+all failures/fixtures remain; no passing/historical/scientific cohort repeats.
+Local files are small opaque bytes; host/XFS/allocation/transport are explicit
+fakes. A fresh independent saved-file/AST audit passes all 14,140 prior hashes
+and 11,988 old fixture entries unchanged, with the old FIFO lstat-only.
+
+The final 32,245-byte program is reviewed and unarmed. The proposal allows 60s
+work +5s finalization, an independent 65s timeout +2s kill grace, and one three-
+minute client window including login and same-SSH response. App caps are 32 MiB
+logical /64 MiB allocated, metadata/response 64 KiB and stderr 16 KiB. No retry,
+separate retrieval or old cleanup. Next obtain one new exact university scope;
+all earlier grants are consumed. No authorization, connection or remote work has
+started. Scientific gates, financial state and the separate model-monitor issue
+remain unchanged. See the
+[probe review](report/checks/2026-11-16-pgd-byte-close-probe-v1-local-review.md).
+
+## 2026-11-16 — Local close-order repair reproduced and reviewed
+
+A controlled allocated-byte change at owned file close reproduces the exact saved
+first-input writer failure using the frozen store and IO facade. The normal local
+filesystem control succeeds; this does not establish the live XFS field or cause.
+The cold candidate closes the write descriptor before recording final metadata,
+revalidates logical identity and prior members, and retains every metadata field
+and allocation cap. Later foreign changes still refuse. Bounded mismatch notes
+record changed fields and expected/observed values without overriding acceptance.
+
+Thirty distinct new checks have passing latest results over 31 executions. One
+first test expectation assumed the old open-file snapshot; only it reran after a
+test-only correction. The saved serializer callsite uses inert tensor/array/NumPy
+objects; real small-file/fsync/close/hash and own-identity checks run. No arrays,
+model, gradient, child process, timer, GPU, proof or network executes, and no passing
+or historical/scientific cohort repeats. The independent static audit verifies
+14,078 prior hashes and 11,784 old fixture entries unchanged, the exact source
+inverse, full metadata guards and all evidence. The old FIFO remains lstat-only.
+
+The candidate is a local source recipe, not an integrated launcher or authorization.
+Next prepare a small byte-only XFS check before another model attempt to test the
+live hypothesis. The parent process-monitor race remains separate. No university
+work or new grant is requested here; all consumed evidence, scientific/resource/
+ownership/time gates and financial state remain unchanged. See the
+[close-order review](report/checks/2026-11-16-pgd-store-close-v2-local-review.md).
+
 ## 2026-11-16 — Model startup reached; first perturbed-input publication refused
 
 The linux10609 attempt passed its saved GPU/storage setup predicates and loaded the

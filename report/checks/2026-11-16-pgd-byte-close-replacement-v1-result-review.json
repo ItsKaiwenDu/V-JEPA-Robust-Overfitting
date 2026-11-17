@@ -1,0 +1,82 @@
+{
+  "SSH_exit_status": 0,
+  "actual_XFS_allocation_transition_observed": true,
+  "authorization_sha256": "d28de60722dc6a9b9d7a017e85dbb698a301033d4c6c3a56b9a31e747f215002",
+  "candidate_close_before_pin_passed": true,
+  "case_summaries": [
+    {
+      "allocated_byte_reduction": 4124672,
+      "allocated_bytes_after_close": 12587008,
+      "allocated_bytes_before_close": 16711680,
+      "classification_recomputed": "allocation_only_refusal",
+      "kind": "frozen",
+      "logical_bytes": 12583040,
+      "logical_identity_extent_mtime_stable": true,
+      "only_field_changed_at_close": [
+        "allocated_bytes"
+      ],
+      "recorded_readback_sha256": "bfcd6fd60e8da4bae4eef2eac7655a718753b77226a10cf8d8a157b691fcb658"
+    },
+    {
+      "allocated_byte_reduction": 4124672,
+      "allocated_bytes_after_close": 12587008,
+      "allocated_bytes_before_close": 16711680,
+      "classification_recomputed": "consistent",
+      "kind": "candidate",
+      "logical_bytes": 12583040,
+      "logical_identity_extent_mtime_stable": true,
+      "only_field_changed_at_close": [
+        "allocated_bytes"
+      ],
+      "recorded_readback_sha256": "bfcd6fd60e8da4bae4eef2eac7655a718753b77226a10cf8d8a157b691fcb658"
+    }
+  ],
+  "client_elapsed_seconds": 4.757285125000635,
+  "control_sha256": "8322d6e072bcf4d4929dd8f30bd87025305533e32efbcbcde252ac3bd5507540",
+  "date": "2026-11-16",
+  "filesystem": "xfs",
+  "footprint_reported": {
+    "allocated_bytes": 25182208,
+    "directories": 9,
+    "files": 3,
+    "logical_bytes": 25170201
+  },
+  "four_local_records_joined_and_hash_verified": true,
+  "frozen_writer_allocation_only_refusal_reproduced": true,
+  "full_model_or_gradient_fix_qualified": false,
+  "grant_consumed": true,
+  "host": {
+    "hostname": "linux10609",
+    "python": "3.11.17",
+    "system": "Linux"
+  },
+  "kind": "pgd-byte-close-replacement-v1-live-XFS-result-review",
+  "limitations": [
+    "Remote data bytes and status snapshot are not downloaded; preserved full wire contains the bound program's metadata/readback hash observations.",
+    "Independent review checks saved hashes and recomputes all metadata comparisons; it does not repeat remote readback or model work.",
+    "One-file inert byte inventory is not the full scientific catalogue or gradient runtime.",
+    "The original model failure omitted its differing field; this is a matching native mechanism, not a recovered old field log.",
+    "Free-space/cap samples are not quotas/reservations; no GPU/proof/model/performance/cost admission.",
+    "Separate model-process exit-monitor race remains unchanged."
+  ],
+  "mode": "independent stdlib saved-wire/hash/metadata comparison; no project/test callback, process, timer, network, GPU or numerical execution",
+  "new_remote_work_or_tests_or_scientific_cohort_repeats_by_review": false,
+  "next_local_step": "integrate the exact close-order repair into fresh full-catalogue PGD bindings and separately fix/review the owned-child exit race before another model scope",
+  "observed_Pacific": "2026-11-16T22:38:09.692934-08:00",
+  "observed_utc": "2026-11-17T06:38:09.692934+00:00",
+  "old_FIFO_lstat_only": 1,
+  "original_numerical_gates_and_financial_state_unchanged": true,
+  "prior_fixture_entries_verified": 12555,
+  "prior_hashes_verified": 14461,
+  "probe_assessment_recomputed": "allocation_transition_observed",
+  "program_sha256": "42678bfc978df91469522c9c2750480df73882548c0e150748be8d82a9c8cf93",
+  "remote_elapsed_seconds": 0.09833651105873287,
+  "request_nonce": "9f375de3b9c601ba316ad94ba3b665ebb4772b4d119f6119b3608f3ab2624973",
+  "review_result": "PASS",
+  "root": "/var/tmp/vjepa-byte-close-v1-2170-8322d6e072bcf4d4929dd8f30bd87025305533e32efbcbcde252ac3bd5507540",
+  "scientific_qualified": false,
+  "stderr_bytes": 0,
+  "training_admitted": false,
+  "wire_bytes": 4121,
+  "wire_sha256": "4f82c7e956ceab71adc908a5c0e673ee2791d96b7460de978fe8acaf3a205c73"
+}

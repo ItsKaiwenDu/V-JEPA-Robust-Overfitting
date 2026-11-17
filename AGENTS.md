@@ -2,6 +2,261 @@
 
 ## Current stage
 
+LATEST November 16: LIVE XFS CLOSE-ORDER MECHANISM REPRODUCED; CANDIDATE PASSES.
+Read report/checks/2026-11-16-pgd-byte-close-replacement-v1-result-review.json/md.
+The replacement grant is CONSUMED; all earlier university grants also consumed.
+Never rerun, rearm, reset claims, open retrieval or clean any old remote files.
+Only local saved review occurred after the user's Done. No new SSH/query/work.
+
+Actual 10609/Linux/Python3.11.17/XFS device66307/uid2170 response: SSH0, stderr0,
+wire4121B SHA4f82c7e956ceab71adc908a5c0e673ee2791d96b7460de978fe8acaf3a205c73.
+Client4.7573s includinglogin; remote0.09834s. Control8322d6e072bcf4d4929dd8f30bd87025305533e32efbcbcde252ac3bd5507540
+and actual grant/program/nonce joins pass. Full wire is preserved locally.
+Both inert12583040B files change ONLY allocated_bytes at owned close:
+16711680 BEFORE ->12587008 AFTER (reduction4124672). Identity/device/inode/owner/
+mode/nlink/size/mtime stable. Both read-back hashes equal fixed0xA5 data SHA
+bfcd6fd60e8da4bae4eef2eac7655a718753b77226a10cf8d8a157b691fcb658.
+Frozen Store pins BEFORE close; exact original metadata error reproduced before
+and after readback, only allocated_bytes differs. Candidate pins AFTER close;
+full-row checks and bytehash pass. NO guard removed; target metadata was REAL,
+not injected. NATIVE one-file byte mechanism now OBSERVED, superseding older
+'live XFS unproved' notes for this specific boundary. Original model incident
+omitted its field; don't invent a recovered old log or full-model replay pass.
+Byte inventory is explicitly NOT the full scientific catalogue. No model, arrays,
+gradient, GPU query, proof or paid compute in probe. No training/perf/cost admission.
+
+Fresh independent stdlib saved-wire/hash/metadata review FIRSTPASS14461 prior
+hashes+12555 immutable fixture entries, FIFO LSTATONLY NEVEROPEN/READ/HASH.
+Four local records and full wire hash verified; classifications recomputed from
+raw comparisons, not trusted status flags. No project/test callbacks, process,
+timer, network/remote readback, GPU/science or test/cohort repeats in review.
+Raw target-review-20261116/sealed-reviewed-live-XFS-publication.json pins14473
+regular hashes; fixture-layout-preserved.json records11 consumed-handoff entries.
+Remote data/status files NOT separately downloaded; wire records their metadata/
+readback hash. No claim of independent remote byte replay or wire==status file.
+Footprint25170201 logical/25182208 allocated/3files/9dirs within caps; app/free
+samples NOT quotas/reservations. UTC date Nov17 converts to Pacific Nov16; retain raw.
+
+NEXT LOCAL ONLY: integrate exact cold close-order full-module candidate into a
+fresh full-catalogue PGD runtime/manifest/contract/supervisor/local-reader binding.
+Keep all frozen Inventory/helpers/numerical/backend/resource/time/ownership gates;
+never replace scientific catalogue with byte-only probe inventory. Preserve all
+consumed sources and receipts; new builder/payload/control hashes required.
+Separately diagnose/fix/review the owned-child exit-monitor race; preserve primary
+error and strict identity/ownership, never signal unknown processes or weaken gates.
+Complete focused local affected-path checks and independent saved-source review
+BEFORE preparing/requesting one new exact model scope. No model handoff or new
+university authorization prepared here. No repeated manual GPU/key paste.
+All scientific/training/perf/cost flags false; financial caps/holds/reconciliation
+unchanged. User stages/commits/pushes; NEVER do it. Earlier LATEST historical.
+
+LATEST November 16: REPLACEMENT BYTE PROBE APPROVED/ARMED; NOT STARTED.
+Usercall_8e73908c764348a1b34d44f25c29b6bc: Approve one replacement byte probe
+(Recommended). Read report/checks/2026-11-16-pgd-byte-close-replacement-v1-arming.json/md.
+ONLY runs/pretrained/diagnostic/pgd-byte-close-replacement-v1-20261116/handoff-parent/
+linux10609-replacement-unarmed now has BYTE-AUTHORIZATION.json1491B SHA
+d28de60722dc6a9b9d7a017e85dbb698a301033d4c6c3a56b9a31e747f215002.
+Newcontrol8322d6e072bcf4d4929dd8f30bd87025305533e32efbcbcde252ac3bd5507540;
+same32245B program42678bfc978df91469522c9c2750480df73882548c0e150748be8d82a9c8cf93.
+All14456priorhashes+12555fixtureentries verified; FIFO LSTATONLY. PriorDNSfailed
+andduplicate-refused handoff staysFROZEN/CONSUMED; no secondhostconnection occurred.
+Publickeyfingerprint matches; REAL LOCAL check_local PASS actualnewcontrol/grant/
+7sourcepins/rebuiltprogram/knownhosts. No clock/ATTEMPT/response/network/DNS/SSH/
+targetwrite/test/cohortrerun/GPU/proof/model/paidwork. GrantUNSPENT untilBYTE-ATTEMPT.
+New sealed-local-byte-close-replacement-v1-armed.json pins14461regularhashes.
+NEXT giveONE attendedMac caffeinate .venv/bin/python-I-S-B existing
+scripts/run_pgd_byte_close_probe_v1.py +exactNEWFINALabsolutehandoff. NoagentSSH.
+User WAITSVPNfullyconnected, enterspasswordpromptly, keepsMac/Terminalawake3min.
+No furtherapproval/manualGPU/keypaste forunchangedscope. OnepinnedSSH sameprogram/
+publicbindings/freshprivate/var/tmp/two12583040Binertfiles. 60swork+5sfinal,
+GNU65s+2skillgrace,180sclientincludinglogin+sameresponse. Same32MiBlogical/
+64MiBallocated/64KiBmeta-response/16KiBstderr andoriginalstrictguards. No model/
+array/proof/GPUquery/packet/ledger/privatekeys/paidwork/oldcleanup/retry/separate
+retrieval oroldclaimreset. Refusalconsumesnewgrant. NEVERrerun/rearm/reset/retry.
+AfterDone/error inspect ONLYLOCALnewhandoff byte-response andBYTE-ATTEMPT first.
+BytecomparisonONLY; no scientific/training/perf/costadmission. Separate model
+monitorrace/originalgates/time/ownership/claims/financialcaps/holds/reconciliation
+unchanged. Userstages/commits/pushes; NEVERdoit. Earlier LATEST historical.
+
+LATEST November 16: DNS/DOUBLE-INVOCATION REVIEWED; IDENTICAL REPLACEMENT READY, UNARMED.
+Read report/checks/2026-11-16-pgd-byte-close-probe-v1-dns-review.json/md and
+ docs/pgd_byte_close_replacement_v1.md, config, replacement-local-review and -scope.
+One new exact scoped university approval is required before replacement arming or SSH.
+Original byte grant CONSUMED. User ran CLI twice: first SSH255 DNSfailed before
+connection, stdout0/stderr106B/client0.06685s; no remoteprogram/files/GPU/model.
+Second CLI hit consumedguard LOCALLY before command/capture; NOsecondconnection.
+Fourlocalrecords/control/auth/nonce/hash joins PASS. User reports possibleVPN
+activationrace1-2s, consistent but NOTindependentlyverified. No DNS/networkquery
+inreview. Wait for VPN fullyconnected; NEVERrerun/resetoldcommand/claim/collection.
+Old handoff linux10609-final-unarmed is FROZEN/CONSUMED, not reusable despite name.
+Saved-only independentDNSreview PASS14429priorhashes+12539oldfixtureentries;
+oldFIFO LSTATONLY NEVEROPEN/READ/HASH. DNSseal14441hashes+11consumedlayoutentries.
+Freshreplacement ONLY runs/pretrained/diagnostic/pgd-byte-close-replacement-v1-20261116/
+ handoff-parent/linux10609-replacement-unarmed. CONTROL/PROBE/known-hosts/PACKAGE
+ONLY. NO BYTE-AUTHORIZATION/BYTE-ATTEMPT. Do not copy/rename/substitute/arm yet.
+Newcontrol8322d6e072bcf4d4929dd8f30bd87025305533e32efbcbcde252ac3bd5507540.
+IDENTICAL program32245B SHA42678bfc978df91469522c9c2750480df73882548c0e150748be8d82a9c8cf93.
+All7sourcepins/key/data/host/limits EXACT original. ONLYcontrolfield handoff changes.
+No implementation change/new tests/passing/historical/scientificcohort repeat.
+Prior48distinct checks retain passinglatestresults. Fresh independentstdlib
+saved/ASTreview FIRSTPASS14441priorhashes+11oldhandoffentries+exactcontrol/program/
+source/key/limits/unarmedbindings. No project/testcallbacks/process/timer/network/
+DNS/SSH/GPU/proof/array/model/paidwork inprep/review. Replacementseal
+sealed-local-byte-close-replacement-v1.json pins14456regularhashes; layout5entries.
+NEXT askONE new exact replacement scope AFTERconcreteprep (ready now). New pinned
+SSH to kdu@linux10609.dc.engr.scu.edu sends same32245Bstdlibprogram+3publicbinding
+hashes only; newexclusiveprivate /var/tmp root; two12583040B inert0xA5files. Same
+60swork+5sfinal/GNU65s+2skillgrace/180sclientincludinglogin+sameresponse. Appcaps
+32MiBlogical/64MiBallocated/5names/9dirs/64KiBmeta/response/16KiBstderr. Appsnapshots
+NOTquota/atomicreservation. Originalownedpartialunlinkonly; no oldcleanup/retry/
+separateretrieval/install/packet/reference/weights/ledger/privatekey/GPUquery/proof/
+model/array/paidwork/other-jobsignal. No repeatedmanualGPU/keypaste.
+AFTERexactapproval ONLYwrite newboundBYTE-AUTHORIZATION atNEWFINALpath; verifyseal/
+pins thenREAL LOCALcheck_local(noSSH). Sealarming andgiveONE attendedMaccaffeinate
+.venv/bin/python-I-S-B existingrun_pgd_byte_close_probe_v1.py+exactNEWfinalpath.
+NoagentSSH. UserwaitsVPN/enterspasswordpromptly/keepsTerminal+Macawake3min. New
+BYTE-ATTEMPT consumesgrant evenrefusal. InspectONLYLOCALoutputafterDone/error.
+BytecomparisonONLY; no scientific/training/perf/costadmission; nativecauseunproved.
+Separate modelmonitorrace/originalgates/time/ownership/claims/financialcaps/holds/
+reconciliation unchanged. Userstages/commits/pushes; NEVERdoit. Earlier LATEST historical.
+
+LATEST November 16: USER APPROVED BYTE PROBE; FINAL HANDOFF ARMED, NOT STARTED.
+User reply call_dadf079982854e169e73958d662eba91: Approve one byte-only probe
+(Recommended). Read report/checks/2026-11-16-pgd-byte-close-probe-v1-arming.json/md.
+ONLY runs/pretrained/diagnostic/pgd-byte-close-probe-v1-20261116/handoff-parent/
+linux10609-final-unarmed now has BYTE-AUTHORIZATION.json1416B SHA
+cf0137c31f7cc647596c37070e226f4e548ac7866ee109b44b813ac9f3d8f0e5.
+Do NOT rename/copy/substitute. Control6dc695e980485d3ba7f57e4e07e4f28f947d1d7a113227604cacae9c54d235e7.
+Program32245B SHA42678bfc978df91469522c9c2750480df73882548c0e150748be8d82a9c8cf93.
+All14424priorsealedhashes+12539fixtureentries unchanged; oldFIFO LSTATONLY.
+Publichostfingerprint recomputed frompublickey matches. REAL LOCAL check_local
+PASS actualcontrol+7sourcepins+rebuiltprogram+knownhost+newgrant. No clock/
+BYTE-ATTEMPT/response/process/SSH/targetwrite/GPU/model/array/proof/paidwork.
+No tests/cohorts repeated. Grant UNSPENT until BYTE-ATTEMPT. New
+sealed-local-byte-close-probe-v1-armed.json pins14429regularhashes; raw arming
+receipt retained. All old grants remain consumed; no reset or scope expansion.
+NEXT giveONE attendedMac caffeinate .venv/bin/python -I -S -B command with
+scripts/run_pgd_byte_close_probe_v1.py and exactfinalabsolutehandoff. NoagentSSH.
+No repeated manualGPU/keypaste or furtherapproval for unchangedscope. User enters
+passwordlocally promptly, keepsMac/Terminalawake forthree-minuteincludinglogin.
+Oneconnection carriesprogram+publicbindings; freshprivate /var/tmp root; two
+12583040B inertfiles only. 60swork+5sfinal, GNU65s+2skillgrace, 180sclientincluding
+login/sameSSHresponse. App32MiBlogical/64MiBallocated;64KiBmeta/response,16KiBstderr.
+Originalguards strict; no model/GPUquery/proof/packet/ledger/privatekey/paidwork/
+oldcleanup/retry/separateretrieval. BYTE-ATTEMPT consumesgrant even refusal.
+ReplyDone/error: inspect ONLYLOCALsavedoutput first. NEVERrerun/rearm/resetclaim/
+retrycollection. ByteoutcomeONLY; nativecause/scientific/training/perf/costunproved.
+Separate modelmonitorrace andoriginalscientific/resource/time/ownership/financial
+caps/holds/reconciliation unchanged. Userstages/commits/pushes; NEVERdoit.
+Earlier LATEST historical.
+
+LATEST November 16: BYTE-ONLY XFS PUBLICATION PROBE REVIEWED; UNARMED.
+Read docs/pgd_byte_close_probe_v1.md, config and
+ report/checks/2026-11-16-pgd-byte-close-probe-v1-local-review.json/md and -scope.md.
+One new exact scoped university approval is required before arming or SSH.
+All previous university grants are consumed; none covers this new write probe.
+Final ONLY runs/pretrained/diagnostic/pgd-byte-close-probe-v1-20261116/
+ handoff-parent/linux10609-final-unarmed has CONTROL/PROBE/known-hosts/PACKAGE.
+NO BYTE-AUTHORIZATION or BYTE-ATTEMPT. Do not copy, rename, substitute or arm yet.
+Control 6dc695e980485d3ba7f57e4e07e4f28f947d1d7a113227604cacae9c54d235e7.
+Program 32245 bytes SHA42678bfc978df91469522c9c2750480df73882548c0e150748be8d82a9c8cf93.
+Seven source pins total80879 bytes; only standalone program+3publicbindinghashes
+travel in one pinned SSH command to kdu@linux10609.dc.engr.scu.edu.
+No packet/trainingpixels/reference/weights/budgetledger/private-key upload.
+Fresh exclusive private /var/tmp/vjepa-byte-close-v1-<uid>-<control hash> only.
+Two serial inert0xA5 files each12583040B; frozen then candidate. They use the
+failed export path/extent but are NOT pixels, arrays or valid NPY. Copyexact Store
+methods/helpers, onlyclasslabels renamed; closed one-file byteplan/inventory is
+explicitly DIFFERENT from fullscientificcatalogue. RecordingOS observes REAL
+held/named metadata before/after ownedclose; no target allocation substitution.
+Readback bytehash, fullrowchecks/diagnostics retained. Unexpected frozenerror
+stops candidate; only consistent or allocation-only originalrefusal permits it.
+Independent client recomputes assessment, never infer scientific/modeladmission.
+Bounds60s work+5sfinal; independentGNU65s+2skillgrace; one180sclientwindow includes
+login/response/validation. Root appcaps32MiBlogical/64MiBallocated,5names/9dirs,
+64KiBmetadata; distinctdata25166080B, brieforiginalhardlinkdupename sameinode.
+Freefloor64MiB/64inodes observed; appsnapshots NOT quota/atomicreservation.
+SameSSH response64KiB/stderr16KiB; partials preserved. No retry/polling/separate
+retrieval/oldcleanup/install/model/array/gradient/proof/GPUquery/paidwork or
+existing-job signal. Original own publicationpartial unlink only. No manual
+GPU/keypaste; livehost/Linux/Python3.11.17/XFS/device66307/home-separation guards.
+48DISTINCT latestALLPASS/49executions; initialcollection syntaxerror1, initial
+APFSemptydir-allocation fixturefail1 correctedONLYfailedcase; no passing or
+historical/scientificcohort repeat. Newobserverfstaterrorcleanup branch reviewed
+andtested; bytefiles small4224B inchecks, actualtargetsize/hash separatelychecked.
+XFS/host/transport/wire/allocationtransition are EXPLICITFAKES; nativecauseUNPROVED.
+Fresh independentstdlib saved/ASTaudit FIRSTPASS14140priorhashes+11988oldfixture
+entries unchanged; FIFO LSTATONLY NEVEROPEN/READ/HASH. No project/testcallbacks,
+process/timer/network/GPU/science byreview. Exactmethodcopies/limits/pins/unarmed/
+clock/claimorder/JUnit/records PASS. New sealed-local-byte-close-probe-v1.json
+pins14424regularhashes; fixture-layout-preserved.json records551newentries.
+NEXT request ONE exact scope linkedabove; ONLYAFTERapproval write bound
+BYTE-AUTHORIZATION atFINALpath, verifyseal/pins/unarmedbinding and REAL LOCAL
+client.check_local (noSSH). Sealarming, giveONE attendedMac caffeinate .venv
+python-I-S-B scripts/run_pgd_byte_close_probe_v1.py exactfinalhandoff. NoagentSSH.
+User enterspasswordlocally, keepsMac/Terminalawake for3min. BYTE-ATTEMPT consumes
+grant before connection, evenrefusal; neverrearm/reset/rerun/retrycollection.
+AfterDone/error inspect ONLYLOCALrecords. Preserveallold/newfiles andfailures.
+Success is bytecomparisonONLY; failure_not_reproduced keepsmechanismunconfirmed.
+Parent model-process monitor race isSEPARATE/UNCHANGED; latermodelintegration
+needsfreshStore/runtime/contract/supervisor/readerbindings+review+ownscope.
+Scientific/training/perf/costfalse, originalbounds/claims/time/ownership/financial
+caps/holds/reconciliation unchanged. User stages/commits/pushes; NEVERdoit.
+Earlier LATEST historical.
+
+LATEST November 16: LOCAL STORE CLOSE-ORDER CANDIDATE PASSES REPRODUCTION/REVIEW.
+Read docs/predictor_pgd_store_close_v2.md,
+ report/checks/2026-11-16-pgd-store-close-v2-local-review.json/md and config.
+Raw predictor-pgd-store-close-v2-20261116/sealed-local-store-close-v2.json pins14140
+regular hashes; fixture-layout-preserved.json records204 new immutableentries.
+New models/predictor_pgd_store_close_v2.py is COLDrecipe ONLY, noCLI/targetAPI.
+Accepts exact frozenStore2e48a86724bf8d8e49981d7b4dd21875a5f31010e54a558488d16034fb93bb54;
+returns UNEXECUTED-store-close-v2.py9915B SHA
+7bcbd863eab7c23940fa1d32b194448b88353202c2100b66a9a30f59e4ef6022 +metadata.
+Wholemodule exactbyteinverse PASS. ONLYStore.check/write_bytes+jsonimport change.
+Inventory/helpers/initialization/alloldguards andpublicationprefix/failure/finally/
+return unchanged. Ownedwritefd retiredonce/closed BEFOREcommitsnapshot. Recheck
+parent/heldlogicalidentity-size-mtime/unchangedInventorycaps/everyothercommittedrow/
+newrow BEFOREpin. Allfullrow fields inclallocated_bytes remainstrict onlaterreads.
+Do NOT dropallocation/identity/mtime/size/mode/link/owner guards toforcepass.
+NewStore.check originalpredicate/type/message plusbounded2048charpayload delta
+note(fields/expected/observed); diagnostic neveraccepts mismatch. Closeerrorpoisons,
+no secondclose/retry numericfd. Foreignmutation/parentreplacement refusepreservingfiles.
+LOCALCONTROL frozenwriter normalFS PASS. ExplicitINJECTION adds4096 allocated_bytes
+ONLYwhileownedwritefdopen; oldwriter exactsavedprimaryerror reproduces atsame
+firstinput hash withsamebytes/logicalmetadata. Candidatepasses+laterforeignallocation
+change stillREFUSES. This is a software-ordering defect under INJECTEDcondition;
+actualXFSfield/livecause STILLUNPROVED. Do NOT claimXFSreproduction/nativefixproved.
+Actual saved save_tensor function+saved IO facade exercised with INERT tensor/array/
+NumPyserializer/finitecheck stubs; oldfailsbeforeartifactpublish, candidatebytehash
+passes. No real NumPy/Torch/array/numerical/model/gradient/profiler/CPUreference/GPU/
+proof/processlaunch-enumeration/signal/timer/network/paidwork. Real ownPID/thread
+identity/locks andsmallprivatefiles/write/fsync/link/close/scan/bytehash DOexecute.
+30DISTINCTlatestALLPASS/31exec runs27/1/2/1. First1fail TESTexpectedopenfinalname
+snapshot fromcandidate; correctedONLYexpectation/reran1. Added2originalserializer
+variants+1newparentguard negative. No passingrepeat/historicaltest/scientificcohort.
+Recipe/candidate unchangedbetweenruns; logs/JUnit/sourceversions/failfixtures retained.
+Independent freshstdlib saved/ASTaudit FIRSTPASS14078priorhashes+11784oldfixture
+entries unchanged; oldFIFO LSTATONLY NEVERopen/read/hash. Exactedits/inverse/fullrow
+predicate/caps/closechecks/allJUnit/controls/reproducer/serializerrecords PASS.
+No project/testcallbacks orprocess/network/GPU/numerical execution byaudit.
+No consumedsource/control/grant/claim/results/evidence changed. Scientific/training/
+perf/costfalse; originalresource/backend/numerical/time/ownership andfinancialcaps/
+holds/reconciliation unchanged. ALLpreviousuniversitygrantsCONSUMED; no newAUTH/
+ATTEMPT, runnabletargethandoff or scopeprepared/requested inthisstep.
+NEXT LOCALONLY prepare/review SMALL BYTE-ONLY XFS PUBLICATION PROBE for10609 BEFORE
+anothermodelattempt. Recordbefore/afterownedclose metadata and read-backhash using
+inertdata (no trainingpacket/pixels/checkpoint/science/proof/GPUqueries needed).
+Choose explicitnewfile/allocation/clock/response/collection bounds afterconcreteprep;
+neverborrowold40min/model/proofgrant or resetoldclaims. NeedONE new exactscope ONLY
+whencompletehelper+focusedchecks+reviewready. No repetitive manualGPU/keypaste.
+LiveXFSfield mustbeobserved ratherthanassumed; comparisonofold/newcloseordering
+shouldretainallfailures andmetadata. Parentprocess-monitor exitrace isSEPARATE,
+UNCHANGED; diagnose/reviewwithoutweakeningidentity/ownership/signallingunknownjobs.
+FuturefullmodelintegrationmustbindfreshStore source+runtime/manifest/contract/
+supervisor/localreader hashes and getitsownscopedgrant; currentcandidate isNOT that.
+User stages/commits/pushes; NEVERdoit. Earlier LATEST historical.
+
 LATEST November 16: HOST10609 CONSUMED; STARTUP REACHED MODEL, FIRST INPUT PUBLICATION FAILED.
 Read report/checks/2026-11-16-pgd-host10609-early-publication-review.json/md.
 Raw predictor-pgd-host10609-incident-v1-20261116/sealed-reviewed-failed-publication.json

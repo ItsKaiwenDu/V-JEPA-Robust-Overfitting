@@ -1,0 +1,59 @@
+{
+  "allocation_guard_removed": false,
+  "authorized": false,
+  "candidate_bytes": 9915,
+  "candidate_sha256": "7bcbd863eab7c23940fa1d32b194448b88353202c2100b66a9a30f59e4ef6022",
+  "candidate_source": "runs/pretrained/diagnostic/predictor-pgd-store-close-v2-20261116/UNEXECUTED-store-close-v2.py",
+  "changed_methods": [
+    "Store.check",
+    "Store.write_bytes"
+  ],
+  "date": "2026-11-16",
+  "descriptor_retired_before_commit_snapshot": true,
+  "diagnostic_note_payload_character_cap": 2048,
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "frozen_sha256": "2e48a86724bf8d8e49981d7b4dd21875a5f31010e54a558488d16034fb93bb54",
+  "full_metadata_predicate_unchanged": true,
+  "kind": "pgd-store-close-candidate-v2",
+  "live_XFS_failure_field_still_unproved": true,
+  "local_only": true,
+  "logical_identity_checked_after_close_and_scan": true,
+  "new_SSH_GPU_query_process_timer_proof_model_or_array_work": false,
+  "other_committed_members_rechecked": true,
+  "real_local_own_PID_thread_identity_and_file_IO_used": true,
+  "recipe_source": "models/predictor_pgd_store_close_v2.py",
+  "reproduction": {
+    "injected_delta_bytes": 4096,
+    "live_XFS_field_or_cause_established": false,
+    "normal_local_frozen_control_passed": true,
+    "numpy_serializer_tensor_array_finite_check_are_stubs": true,
+    "owned_close_allocation_transition_is_explicit_injection": true,
+    "saved_primary_error_reproduced": true,
+    "saved_save_tensor_function_and_byte_facade_used": true
+  },
+  "scientific_qualified": false,
+  "source_IO_sha256": "2bb6c3c7ecfbbb386a30bff8254b7174a9ff6c1f012006925f54d68d1265e808",
+  "target_handoff_or_authorization_created": false,
+  "target_handoff_ready": false,
+  "tests": {
+    "distinct_latest_pass": 30,
+    "executions": 31,
+    "historical_or_scientific_cohort_repeats": false,
+    "initial_test_harness_failures": 1,
+    "passing_repeats": 0,
+    "runs": [
+      27,
+      1,
+      2,
+      1
+    ]
+  },
+  "training_admitted": false,
+  "unchanged_definitions": [
+    "identity",
+    "private",
+    "Inventory",
+    "Store.__init__"
+  ],
+  "whole_module_exact_inverse_verified": true
+}

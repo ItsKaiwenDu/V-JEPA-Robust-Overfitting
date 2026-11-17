@@ -1,0 +1,78 @@
+{
+  "Inventory_and_all_original_guards_unchanged": true,
+  "authorized": false,
+  "bounded_mismatch_diagnostic_payload_chars": 2048,
+  "candidate_bytes": 9915,
+  "candidate_sha256": "7bcbd863eab7c23940fa1d32b194448b88353202c2100b66a9a30f59e4ef6022",
+  "close_before_commit_with_postclose_logical_and_prior_member_checks": true,
+  "date": "2026-11-16",
+  "exact_frozen_whole_module_inverse": true,
+  "frozen_store_sha256": "2e48a86724bf8d8e49981d7b4dd21875a5f31010e54a558488d16034fb93bb54",
+  "full_metadata_predicate_including_allocated_bytes_retained": true,
+  "kind": "predictor-pgd-store-close-v2-independent-local-review",
+  "limitations": [
+    "Software ordering defect reproduced under explicitly injected allocation metadata; normal local control passes, exact live XFS cause remains unproved.",
+    "Serializer/tensor/array and allocation/close faults are stubs; real own-PID/thread checks, private local files, writes, fsync, close, scan and byte hash run.",
+    "No actual NumPy/Torch, numerical array, model, gradient, proof, GPU query, process launch/enumeration, signal, timer, SSH or paid compute.",
+    "Candidate is a source recipe only; no new runtime/control/worker payload integration, authorization or university exception is created.",
+    "Secondary parent process-monitor exit race remains unchanged and must be handled separately."
+  ],
+  "mode": "fresh stdlib saved-file/hash/AST audit; no project/test callback, process, timer, signal, network, GPU or numerical execution",
+  "old_FIFO_lstat_only_never_read": 1,
+  "old_sources_claims_results_scientific_resource_time_financial_caps_holds_reconciliation_unchanged": true,
+  "prior_fixture_layouts_verified": [
+    1720,
+    474,
+    101,
+    166,
+    894,
+    2909,
+    494,
+    248,
+    779,
+    221,
+    2722,
+    19,
+    334,
+    12,
+    181,
+    11,
+    272,
+    227
+  ],
+  "prior_hashes_verified": 14078,
+  "reproduction": {
+    "allocation_transition_injected": true,
+    "exact_saved_serializer_callsite_used_with_inert_objects": true,
+    "injected_delta_bytes": 4096,
+    "live_XFS_field_or_cause_established": false,
+    "native_local_control_passed": true,
+    "saved_primary_error_reproduced": true
+  },
+  "result": "PASS",
+  "scientific_qualified": false,
+  "source_pins": {
+    "configs/predictor_pgd_store_close_v2.json": "93d7f3743622a7349db50ed93c4e23cb5ffd1ca6cfc47e7b9101447fb708716c",
+    "docs/predictor_pgd_store_close_v2.md": "bd775e1a3d6f271879fc65d51dd6f0a639bd4405b15b655224d3a2b044e1a133",
+    "models/predictor_pgd_store_close_v2.py": "0eabf84f086aa373da1411e7bd0835311ec9957d8e798326e20c79522562fec2",
+    "tests/test_predictor_pgd_store_close_v2.py": "e9557de9c2cd34796455ad1316f762703424b72ebdbffc71b7d3a3bc2298fe0f"
+  },
+  "target_handoff_ready": false,
+  "tests": {
+    "correction": "Candidate test incorrectly expected an open final-name snapshot; require no such snapshot and actual post-close allocation. Only failed test rerun; later cases directly cover serializer boundary and new parent guard.",
+    "distinct_latest_pass": 30,
+    "errors": 0,
+    "executions": 31,
+    "historical_tests_or_scientific_cohort_repeats": false,
+    "initial_test_expectation_failures": 1,
+    "passing_repeats": 0,
+    "runs": [
+      27,
+      1,
+      2,
+      1
+    ],
+    "skips": 0
+  },
+  "training_admitted": false
+}
