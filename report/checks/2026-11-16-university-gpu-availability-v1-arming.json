@@ -1,0 +1,50 @@
+{
+  "SSH_or_GPU_query_or_clock_or_timer_or_model_or_proof_executed": false,
+  "all_prior_sources_grants_claims_evidence_financial_caps_holds_reconciliation_unchanged": true,
+  "approval_basis": "User reply to request_user_input_async call_09e46208db274ec883d40919fb704d71 item 0: Approve one read-only check (Recommended). One pinned linux10603 read-only SSH connection only, under report/checks/2026-11-16-university-gpu-availability-v1-scope.md. This approves no model, proof, reservation, retries, server writes, packet/budget/private-key upload or paid compute.",
+  "authorization_bytes": 1030,
+  "authorization_sha256": "6a17d50fe4864de3efbaea076f133b5cab06c32c7714ded5622d3875b192e525",
+  "control_sha256": "df108ac6aeee0266e5fde306db1d8e4990f301232b1d5de597ba2cded5fcec78",
+  "date": "2026-11-16",
+  "fixture_entries_verified": 181,
+  "flags": {
+    "GPU_reserved": false,
+    "model_work_authorized": false,
+    "read_only": true,
+    "scientific_qualified": false,
+    "training_admitted": false
+  },
+  "handoff": "runs/pretrained/diagnostic/university-gpu-availability-v1-20261116/handoff-parent/linux10603-final-unarmed",
+  "host": "linux10603.dc.engr.scu.edu",
+  "kind": "university-gpu-availability-v1-local-arming-receipt",
+  "limits": {
+    "SSH_stderr_bytes": 16384,
+    "automatic_retries": 0,
+    "client_connection_seconds_including_login": 180,
+    "each_query_seconds": 8,
+    "maximum_connections": 1,
+    "query_stderr_bytes": 2048,
+    "query_stdout_bytes": 8192,
+    "remote_group_kill_grace_seconds": 1,
+    "remote_group_seconds": 20,
+    "response_bytes": 65536
+  },
+  "local_preparation_note": "First script-construction command had a Python quoting SyntaxError before any files or authorization were written; corrected locally. No connection or experiment grant was consumed.",
+  "model_attempt_created": false,
+  "prior_regular_hashes_verified": 13614,
+  "program_bytes": 10339,
+  "program_sha256": "9941f7f35e0282cbc7c1a7a2f64a3a659abcac70bd3206d1db19b78230728231",
+  "read_authorization_created": true,
+  "read_connection_created": false,
+  "real_LOCAL_check_local": "PASS",
+  "reviewed_source_pins_verified": {
+    "configs/university_gpu_availability_v1.json": "80d7da74818cd772d320eacf89fb52c2210efcf2a7bfaa3c6cd183e5cab002d4",
+    "docs/university_gpu_availability_v1.md": "7e9139673b6513d883d7037c24bc860a6f3952d0c62c01166bfb25ddb53ba4be",
+    "models/university_gpu_availability_v1.py": "276258b3b33daa47ea3cc3ab479719eadf0e5ce717094ddc1df6567f85b52bd5",
+    "report/checks/2026-11-16-university-gpu-availability-v1-scope.md": "c109b9f64fddf515ad47806e3d2e0c35ece5c364ff17ef8fa6a279dbfc93a7fc",
+    "scripts/run_university_gpu_availability_v1.py": "cf9a5a29ad718f016bf196feace05bc679f0f9c232f8ebb0b0911d0451f456c9",
+    "scripts/university_gpu_availability_remote_v1.py": "9941f7f35e0282cbc7c1a7a2f64a3a659abcac70bd3206d1db19b78230728231",
+    "tests/test_university_gpu_availability_v1.py": "a16088b236ae01277a087e2e09a86111b16b36f8c2a0de200ed01f6cd4d760be"
+  },
+  "tests_or_scientific_cohorts_repeated": false
+}

@@ -1,5 +1,125 @@
 # Research Progress Reports
 
+## 2026-11-16 — Model startup reached; first perturbed-input publication refused
+
+The linux10609 attempt passed its saved GPU/storage setup predicates and loaded the
+real pretrained model. The 2.5 GiB proof reported full write/readback/fsync success;
+original baseline weights, targets, pixels, masks and runtime match. Three no-grad
+model calls ran. It then entered the first original objective context and failed
+while hashing the just-published pixels.npy: the result store rejected changed
+committed metadata. This happened before that objective's forward/backward, so no
+input gradient, candidate comparison or component result completed.
+
+The client collected the failed work state successfully (SSH exit 1). Independent
+saved-only review verifies all 190 members, four local records, 172 source/input
+assets, clock/auth/session joins, twelve GPU samples and thirteen progress-chain
+rows. The first input's header/data hash match its boundary signature without
+array decoding. All 13,873 prior hashes and 11,557 fixture entries remain intact;
+the old FIFO is lstat-only. Raw wire/header/proof bytes are not retained for a
+second independent computation/stream replay. Original false admission flags stay.
+
+The parent later reported ProcessLookupError after child exit 1; the primary writer
+trace remains in the numerical log. The exact mismatching metadata field was not
+recorded. Next reproduce the publication/descriptor-close/read-back boundary locally
+and retain strict metadata/foreign-mutation guards; handle the monitor exit race
+separately. No code change, test/cohort rerun, new SSH, GPU or model work occurred in
+review. This grant is consumed; no rerun or new target scope is ready. See the
+[publication failure review](report/checks/2026-11-16-pgd-host10609-early-publication-review.md).
+
+## 2026-11-16 — Approved linux10609 handoff armed; real local preflight passed
+
+The user approved the exact bounded 10609 attempt. Only the final reviewed handoff
+now has its bound authorization. All 13,867 prior hashes, 272 fixture entries and
+source pins match. Real local preflight passes with the actual control, grant,
+25 local source pins, 69-source payload and original 17,192,095-byte packet hash.
+No pixel/checkpoint decoding, scientific library import, test/cohort repeat,
+clock, attempt, session, SSH, query, proof or model occurs. The new 13,873-hash
+seal preserves the arming records and prior evidence.
+
+Next run the single attended Mac command. No further approval or manual GPU check
+is needed for this unchanged scope. The launcher checks live and a refusal consumes
+its one attempt. Work remains bounded to 40 minutes plus ten minutes of same-SSH
+collection, within 50 minutes including login, with the original scientific and
+resource gates. Review local saved results afterward; no rerun or separate
+retrieval under this grant. Financial and admission state stay unchanged. See the
+[arming record](report/checks/2026-11-16-pgd-host10609-v1-arming.md).
+
+## 2026-11-16 — Complete linux10609 gradient-validation handoff reviewed
+
+The new host-bound helper covers the outer preflight, GPU UUID guard, eight runtime
+host/record bindings and dependent supervisor/catalogue hashes. Historical base,
+design, financial and reference bytes stay exact. The new policy explicitly binds
+current execution to 10609. All 69 files retain their 875,628-byte total; 58 are
+exact v4 and eleven change only host/dependent-hash string literals. The whole v4
+session/refusal/clock/setup/collection function is unchanged. New local readers
+match the new target contract; the catalogue has 172 assets / 419 result files.
+
+All twenty distinct new checks have passing latest results over 22 executions.
+Two first failures were test entry-name lookups; only those cases reran, with one
+new correct-host import-boundary check. No passing or historical/scientific cohort
+repeats. Target/process/clock/GPU/scientific bindings are inert; actual local source,
+cache, catalogue, supervisor journal/claim/frame and collection-header logic run.
+No actual proof, model, tensor, gradient, process, timer, query, SSH or paid work.
+The independent static audit verifies 13,636 prior hashes and 11,285 old fixture
+entries unchanged, plus exact literal/AST/byte inverses, 25 local pins and test
+records. The old FIFO is lstat-only. Live startup and scientific fit remain untested.
+
+The final source-only package is ready and unarmed. Next request one new exact
+10609 scope, then arm it and perform real local preflight before one attended Mac
+command. No repeated manual status paste is needed. Original 40-minute work /
+10-minute same-SSH collection / 50-minute including-login limits, proof/gradient/
+resource/gate bounds and financial state stay unchanged. See the
+[10609 local review](report/checks/2026-11-16-pgd-host10609-v1-local-review.md).
+
+## 2026-11-16 — Availability review complete; alternate workstation selected
+
+The linux10603 read succeeded and its local evidence independently verifies:
+NX PID 3418810 used 191 MiB, so the strict compute-process condition remains unmet
+at that snapshot. All 13,620 prior hashes and 181 current fixture entries match.
+The consumed read and earlier model attempts are preserved. No model ran.
+
+At the user's request, one pasted linux10609 status check shows 96 MiB used and
+only graphics processes. Use that workstation for the next proposed PGD gradient
+validation. No additional manual check is needed now. A concrete host-change plan
+lists the outer, supervisor, eight runtime and collection-reader bindings that
+must migrate together while preserving historical provenance and scientific gates.
+The plan is not a runnable handoff or authorization. Next implement and review the
+fresh host-bound derivative before requesting its exact model scope. See the
+[host-change plan](report/checks/2026-11-16-pgd-linux10609-host-change-plan.md).
+
+## 2026-11-16 — Approved availability read armed; local preflight passes
+
+The user approved one bounded read-only connection to linux10603. The exact final
+helper now has its separate read authorization; no connection or model has started.
+All 13,614 sealed hashes, 181 fixture entries and source pins verify. Actual local
+preflight passes without a query, clock, proof or model; no tests/cohorts repeated.
+A local script quoting error was corrected before it wrote any files or consumed a
+grant. The arming records are preserved in a new 13,620-hash seal.
+
+Next run its single attended Mac command and review the locally saved result.
+No further approval or manual status paste is needed for this unchanged read scope.
+The result is an observation and cannot start/reserve/authorize model work. Old
+model grants and all scientific/training/financial bounds remain unchanged. See the
+[read-only arming record](report/checks/2026-11-16-university-gpu-availability-v1-arming.md).
+
+## 2026-11-16 — Availability check prepared separately from model attempts
+
+A source-only helper now checks linux10603 host/GPU/compute-process status through
+one separately approved read-only SSH connection. It saves evidence locally and
+never starts a proof/model or consumes/resets a model attempt. A busy or idle result
+is only an observation; later model work still needs its own approval and live guards.
+No repetitive manual status paste is needed. No connection has run; the final
+candidate is unarmed pending its exact read-only approval.
+
+All 29 new local checks have passing latest results over 32 executions; three
+passing checks repeated for command isolation and deadline-label corrections.
+There were no failures/errors/skips or historical test/scientific cohort repeats.
+All process/SSH/query/clock bindings are fake. The separate local audit verifies
+13,459 prior hashes, 11,093 fixture entries and historical saved groups unchanged;
+the old FIFO remains lstat-only. Live login/query behavior remains unobserved.
+Scientific/training and financial gates stay unchanged. See the
+[availability helper review](report/checks/2026-11-16-university-gpu-availability-v1-local-review.md).
+
 ## 2026-11-16 — V4 refusal path confirmed; GPU availability blocks model start
 
 The v4 attempt correctly preserved the setup refusal for the same nxnode.bin

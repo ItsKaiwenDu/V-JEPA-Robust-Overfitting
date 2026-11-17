@@ -2,6 +2,260 @@
 
 ## Current stage
 
+LATEST November 16: HOST10609 CONSUMED; STARTUP REACHED MODEL, FIRST INPUT PUBLICATION FAILED.
+Read report/checks/2026-11-16-pgd-host10609-early-publication-review.json/md.
+Raw predictor-pgd-host10609-incident-v1-20261116/sealed-reviewed-failed-publication.json
+pins14078 regular hashes; fixture-layout-preserved.json records227 consumedhandoff
+entries. Preserveall. Current4localrecords+190savedmembers verify byte/hash/mode/
+nsmtime;172source/inputassets joinreviewedcontrol. Prior13873hashes+11557fixture
+entries unchanged; oldFIFO LSTATONLY NEVERopen/read/hash.
+Clienttransport_verifiedtrue, SSHexit1, wire57839411B. Rawwire/header NOTretained;
+independent savedtree/sourceverification ONLY, no false secondwirechecksumclaim.
+AUTH/ATTEMPT/root/control/derivedsupervisedauth/installation/session/finalreceipt
+joinsPASS. Rawpending/collectioncompleteflags remainoriginalsnapshotvalues;
+localstreamreceipt establishes collected FAILEDwork, notscientificcompletion.
+Actualhost10609/newUUID+driver guardclear;12samplesshow ONLYnumericalPID3410047
+whencompute listed, norefusals. SamplingNOTcontinuousreservation/futureavailability.
+Full2.5GiBproof SAVEDpredicatepass:write/readback/fsynccomplete14.068s,1926bounded
+footprintevents. Originalprotocolremovedownprooffile; rawproofbytesnotavailablefor
+independentcomputationreplay. No quota/liveXFS/fit guarantee promoted.
+Hostport+packet-awarestartup LIVE reachedrealpretrainedmodel; savedweights/targets/
+cleanpixels/attackseeds/masks/runtime matchoriginal. 3originalno-gradcalls recorded.
+Oneoriginalobjectivecontext entered, candidate_points counter1; NOTonecompletedgrad.
+Failure at save_tensor pixels -> serial_atomic -> frozen.sha_file -> Store.check:
+ValueError Previously committed result metadata changed:
+ results/numerical/objective-0/pixels.npy. BEFOREtargets/masks/objectiveforward/
+backward. ONLYobjective0pixels.npy+13rowprogress exist, NOloss/inputgradient or
+candidate/comparison/component. SavedNPYheaderFP32[1,3,16,256,256] +rawbytesignature
+matchactualperturbedboundarysignature WITHOUTnumericarraydecode. Progresschain
+verified; NOgradient_saved event. Initialboundaryflagsfalse NOTrestorationfailure
+proof; diagnosticcleanupreturns recorded but NOcompletedownershipscopeproof.
+Laterchild poisonedwriter failures duringcleanup/progress; parentProcessLookupError
+No suchprocess +note ownednumericalchildexit1. Primarychildtrace RETAINED. Do not
+misclassify asnumerical rejection, OOM, GPUcontention orsuccessfulgradientcase.
+Independentstdlib savedaudit finished: firstauditor assumedconnection_started in
+combinedreceipt; ONLYauditorjoin corrected toboundROOTorigin/deadline. Bothscripts/
+logs preserved. No productionchange/test/cohortrerun/newSSH/query/process/timer/
+proof/model/CPUreference byreview. Allscientific/training/perf/costfalse, finances/
+holds/reconciliation unchanged. Oldfailedsources/grants/results remainFROZEN.
+ALL model/readgrants CONSUMED. NEVERrerun/rearm/resetclaim/retrycollection/opennew
+retrieval/cleanuproot. NO newGPUgrant/helperready. No repeatedmanualGPUcheckneeded.
+NEXT LOCALONLY reproducefirst typedbyte/NPY publication -> ownedFDclose -> read-back
+hash/inventory, usingfrozenStore/IO sources with smallinertbytes/metadatafixtures.
+Exactmismatchingfield NOTlogged/livecause UNPROVED. Sourceobservations: Store
+write_bytes records completeinventoryrow BEFOREfinallyclosesownedfd. Investigate
+this boundary; NEVERjustdropallocated/identity/mtime/size guards toforcepass. Keep
+foreignmutation refusal/owner/poisoning/exclusiveatomic/no-symlink/caps. Preserve
+consumedruntimefiles; fixmustbeFRESHcoldcandidate/recipe withnewbindings, local
+repro+negativechecks+reviewbeforeanynewtargetscope. Diagnose parentexit-monitor
+race separately; don'tweakenownership/killunknownprocess. Original40minwork/
+10minsameSSHcollection/50minlogin/proof/8matchedgrad+2componentVJPs/oneinner andall
+numeric/backend/storage/processlimits unchanged. User stages/commits/pushes; NEVERdoit.
+Earlier LATEST historical.
+
+LATEST November 16: USER APPROVED HOST10609; FINAL HANDOFF ARMED, NOT STARTED.
+Userreply call_ccdc465422f8412b93e1697772ab8124: Approve one bounded 10609 attempt
+(Recommended). Read report/checks/2026-11-16-pgd-host10609-v1-arming.json/md.
+ONLY runs/pretrained/diagnostic/predictor-pgd-host10609-v1-20261116/handoff-parent/
+linux10609-final-unarmed now has AUTHORIZATION.json1206B SHA
+a0a631df8afaffa9b72fda360e99927a5e55a78838ee93933225ef7aebc5f293. Do NOT rename/copy/substitute.
+Outercontrol2314abaa5a3ef3b47b3af54908b90eefa0c68cb9380cefbd408106a55aff59d4
+Outer32850B SHA0b82e7f724793aa13a7308b342746366cc0345fa4b3ac741e9ce5c1ecf6a0eb9
+Supervised8828fdde785cad1a49cc1c8ca4cf1258608d7f04e281356b1971231e1526c2f9.
+All13867priorsealedhashes+272fixtureentries+reviewedsourcepins match. REAL LOCAL
+client.check_local PASS:25sourcepins/control/auth/69coldcompiledsourcepayload/
+publicknownkey/original17192095Bpacket actual BYTEHASH, no pixels/checkpointdecode.
+No tests/cohorts repeated, no Sci imports/clock/timer/ATTEMPT/session/process/
+SSH/GPUquery/proof/model/paidwork. Grant UNSPENT until ATTEMPT. Alloldgrants consumed.
+Raw authorization-arming-20261116/ARMING-RECEIPT.json, new
+sealed-local-host10609-v1-armed.json pins13873 regular hashes; preserveolderseals.
+NEXT giveONE attendedMac caffeinate .venv/bin/python-I-B command with
+scripts/run_predictor_pgd_split_outer_10609_v1.py plus exactfinalabsolutehandoff.
+No agentSSH; passwordinteractiveinMacTerminal, promptly. KeepTerminal/lidopen and
+Macawake. No furtherapproval/manualGPUcheck for unchangedapprovedscope; helper
+checks live host/UUID/driver/compute/XFS/process/ownership/num/backend/clockgates.
+One40minworkinclfull2.5GiBallocation/write/fsync/readbackproof+8matchedgrad+
+2componentVJPs/oneinner;10min SAME SSHcollection/50minTOTALincllogin. Originalcaps
+preserved:setup3GiB/capture2.25GiB/response3GiB/raw1792MiB/meta64MiB incltrace8MiB/
+allocator7GiB/componentRSS4GiB/120s. No retry/separateretrieval/oldcleanup/install/
+privatekey/heldoutpixels/completedcohortrepeat/warmup/paidcompute. Refusal consumes
+ATTEMPT evenbeforemodel; NEVERrerun/rearm/resetclaim/retrycollection. ReplyDone/error:
+inspect ONLY LOCAL savedoutput first. Original historicalreference/source/claim/
+evidence/scientific bounds andfinances/holds/reconciliation unchanged. Scientific/
+training/perf/costadmissionfalse pendingindependentreview. OldFIFO LSTATONLY
+NEVERopen/read/hash. Supersededlinux10609-unarmed remainsUNARMED; neveruse.
+User stages/commits/pushes; NEVERdoit. Earlier LATEST historical.
+
+LATEST November 16: COMPLETE HOST10609 PGD HANDOFF PASSES LOCAL REVIEW; UNARMED.
+Read report/checks/2026-11-16-pgd-host10609-v1-local-review.json/md,
+ report/checks/2026-11-16-pgd-host10609-v1-scope.md and docs/predictor_pgd_host10609_v1.md.
+Raw predictor-pgd-host10609-v1-20261116/sealed-local-host10609-v1.json pins13867
+regular hashes; fixture-layout-preserved.json records272 new immutableentries.
+One new exact scoped linux10609 approval is required before arming or target work.
+All previous model/readgrants consumed. User10609manualstatus alreadyreceived:
+96MiB, onlygraphics, noCshown. SnapshotNOTreservation; no repeatmanualGPU/keypaste.
+Final ONLY runs/pretrained/diagnostic/predictor-pgd-host10609-v1-20261116/
+ handoff-parent/linux10609-final-unarmed hasCONTROL-CANDIDATE/SOURCE-PAYLOAD/PACKAGE/
+known-hosts; NO AUTHORIZATION/ATTEMPT. Do NOT copy/rename/substitute. Earlier
+linux10609-unarmed predates scratchcontract binding and MUSTNOTarm; preserveit.
+Outercontrol2314abaa5a3ef3b47b3af54908b90eefa0c68cb9380cefbd408106a55aff59d4
+Outerprogram32850B SHA0b82e7f724793aa13a7308b342746366cc0345fa4b3ac741e9ce5c1ecf6a0eb9
+Supervised8828fdde785cad1a49cc1c8ca4cf1258608d7f04e281356b1971231e1526c2f9.
+Freshcold hostbuilder sources from FROZENv4control+69file payload. 58exactv4,11
+literalbindings:8runtimehost/newrecord,bootstrapPOLICY,coordinatorHOST/UUID,
+scratchCONTRACT. 69files875628B/sourceenvelope1170625B EXACToriginaltotals.
+IndependentlyderivedASTdeltas+exactbyteinverse PASS. Dual-host tiny/localexclusion
+lists unchanged. Historicalbase/design/financial/embeddedIO bytes EXACT; their103
+host is explicitREFERENCEprovenance, newpolicy/scope/guards/records bind10609.
+No oldresult/claimrelabel, hostspoof, math/seed/value/tolerance/ownership weakening.
+Full v4remote_session AST EXACT inclpreclaimrefusal/clocks/setup/process/collection;
+otheroperations exact afterreviewedidentityliterals exceptsource-onlypreparer.
+Client/CLI onlyimports; localbootstrap/scratch/collector matchnewtargetcontrol.
+Actualcatalogue172assets/419results/26setupdirs; sourcecache69+2packetdeps retained.
+20DISTINCT latestALLPASS/22exec runs19/3. First2fail TEST lookup run vs actual
+unbound_numerical_worker; corrected ONLYtest/reran2 +addedcorrecthost inertimport
+boundary. No passingrepeat/historicaltest/scientificcohortrerun. Prod unchanged
+betweenruns. Bothlogs/sourceversions/failfixtures preserved. Actualgenerated
+coordinator/cache/sourceIO/catalogue/scans/journal/claim/frame+newcollectionheader
+validator exercised. Targethost/GPU/namespace/PIDAPI/worker/clock/allocator/reserve/
+packetcontent/collectionpayload FAKE; reserveZERO. Claimedbranch INERTproofworker
+refusal ONLY, no proof/science. Clienttest fakespacketbytehash afteractualsource/
+control/authchecks. No Torch/NumPy/tensor/gradient/CPUreference/process/timer/query/
+SSH/paidwork. Live startup/fit/numerical/perf/training STILLUNOBSERVED.
+Freshstdlib savedfile/ASTaudit FIRSTPASS13636priorhashes+11285oldfixtureentries;
+oldFIFO LSTATONLY NEVERopen/read/hash. 25localpins/source/host/control/grants/cache
+bindings checked, allJUnit+2inertlifecycle records. No project/testcallbacks or
+process/network/GPU byreview. Scientific/training/perf/costfalse, finances/holds/
+reconciliation unchanged. Originalboundsallpreserved. READY ask ONEnewexactscope:
+kdu@linux10609.dc.engr.scu.edu freshprivate/var/tmp; original17192095Bpacket,
+69sources875628B,32850Bouterstdin+boundmetadata inclUNCHANGEDbudgetsnapshot.
+40minwork inclfull2.5GiBallocation/write/fsync/readbackproof+8matchedgrad+
+2componentVJPs/oneinner;10min SAME SSHcollection/50minTOTALincllogin. Setup3GiB/
+capture2.25GiB/response3GiB/raw1792MiB/meta64MiB incltrace8MiB/allocator7GiB,
+componentRSS4GiB/120s. Livehost/GPUUUID/driver/othercompute/XFS/process/ownership/
+backend/num/clockgates strict; refusalconsumesattempt. No retries/separateretrieval/
+oldcleanup/install/privatekeys/heldoutpixels/warmup/completedcohortrepeat/paidwork.
+Afterexactapproval ONLYcreateAUTH atFINALpath; verify13867sealedhashes+272layout+
+reviewpins then REAL LOCAL client.check_local incloriginalpacket BYTEHASH ONLY,
+no pixel/checkpointdecode. Record/sealarming +ONE attendedMac caffeinate .venv
+python-I-B scripts/run_predictor_pgd_split_outer_10609_v1.py exactfinalpath.
+No agentSSH, no repeatedmanualGPUcheck or reapprovalunchangedscope. Userpromptpassword,
+Terminal/lidopen/Macawake. ATTEMPT consumesonegrant evenfailure; inspect LOCAL saved
+outputfirst, NEVERrearm/reset/rerun/retrycollection. User stages/commits/pushes;
+NEVERdoit. Earlier LATEST historical.
+
+LATEST November 16: 10603 READ REVIEW COMPLETE; USER SELECTS ALTERNATE 10609 STATUS.
+Read report/checks/2026-11-16-university-gpu-availability-v1-result-review.json/md and
+ report/checks/2026-11-16-pgd-linux10609-host-change-plan.md.
+10603 read PASS: SSH0/emptyerr, 1382Bresponse. Boundnonce/control/auth/source/host,
+4private localrecord byte/hash/mode/nsmtime andCSV classification PASS. Snapshot
+2026-11-16T16:28:50-08:00: NX PID3418810 /usr/NX/bin/nxnode.bin191MiB, total293MiB.
+Same PID/path/memory asv4; continuity NOTproved. 13620priorhashes+181currentfixture
+entries unchanged. No tests/cohorts/productionchange/agentSSH/process/clock/GPU/proof/
+model byreview. Interrupted previous writer had created NOTHING; resumed saved
+stdlib audit FIRSTPASS. Raw pendingreviewflag remains original. Readgrant CONSUMED.
+Raw target-review-20261116 pins4records/layout11; sealed-reviewed-availability-v1.json
+pins13631 regular hashes. OldFIFO NEVERopen/read/hash; all priorhistory frozen.
+User explicitly asked about another workstation; reply call_9f8924c470a54c2c974c0d02f87a2e19
+shows linux10609 at displayMonNov1618:31:30: RTX3070/580.178.04/8192MiB/used96MiB/0%,
+only G Xorg/gnome-shell; no compute shown. SnapshotONLY, UUIDnotprinted. Expected
+UUIDGPU-4e2a7c77-19bd-689f-6c08-60eb774c0d52 fromexistingrecords, requirefutureliveguard.
+Existing pinned10609publickey available at eot-work-profile-university-20261029/
+known-hosts. No repeatmanualGPU/fingerprint paste needed for LOCALpreparation.
+LOCALNEXT implement/review FRESH10609 host-bound handoff. Current plan ONLY in raw
+predictor-pgd-host10609-plan-v1-20261116/HOST-CHANGE-PLAN.json; NO runnablehelper or
+modelgrant yet. Its sealed-host-change-plan.json pins13636 regular hashes.
+Do NOT swap SSH hostname on consumed10603command. Port ALL outer/coordinator/
+8runtime/record/lineage/observer/target/component hostbindings+UUID+control/source/
+policy/localcollectionreader hashes. Preserve historical base/design lineage and
+both-host tiny/local exclusion tuples; no blankettextreplacement, hostspoofing,
+oldgrant/claim/reset/result relabel/guardweaken/NXallowlist/jobkill/serverchange.
+Complete actualhost-specific setup/source/claim/collection integration checks and
+independentreview BEFORE ONEnewexact10609 scope. No approvalrequested for incomplete
+plan. Userkeeps10609idle; no furthermanualstatuscommands now. No automaticSSH/upload/
+proof/model/retrieval/retry/paidwork. Original40minwork/10minsameSSHcollection/50min
+incllogin/full2.5GiBproof/8matchedgrad+2componentVJPs/oneinner/allcaps+scientific/
+backend/ownership gates andfinancialcaps/holds/reconciliation unchanged. No full
+training or performance/cost/scientific admission. User stages/commits/pushes; NEVERdoit.
+Earlier LATEST historical.
+
+LATEST November 16: USER APPROVED READ-ONLY CHECK; FINAL HANDOFF ARMED, NOT STARTED.
+Userreply call_09e46208db274ec883d40919fb704d71: Approve one read-only check (Recommended).
+Read report/checks/2026-11-16-university-gpu-availability-v1-arming.json/md.
+ONLY university-gpu-availability-v1-20261116/handoff-parent/linux10603-final-unarmed
+now has READ-AUTHORIZATION.json1030B SHA6a17d50fe4864de3efbaea076f133b5cab06c32c7714ded5622d3875b192e525.
+Final control df108ac6aeee0266e5fde306db1d8e4990f301232b1d5de597ba2cded5fcec78
+and query10339B SHA9941f7f35e0282cbc7c1a7a2f64a3a659abcac70bd3206d1db19b78230728231
+unchanged. All13614priorhashes+181fixtureentries+reviewedsourcepins verified;
+REAL LOCAL check_local PASS. No tests/cohorts repeated. New raw armingreceipt and
+sealed-local-availability-v1-armed.json pin13620 regular hashes; preserve olderseals.
+First local scriptconstruction had quoting SyntaxError BEFOREfiles/authwrites;
+corrected beforearming, no read/modelclaim/clock/connection consumed bythat error.
+No READ-CONNECTION/read-response/modelATTEMPT/SSH/query/timer/proof/model started.
+NEXT give ONE attended Mac caffeinate command: .venv/bin/python -I -S -B,
+scripts/run_university_gpu_availability_v1.py and EXACT FINALabsolutehandoffpath.
+Do NOT rename/copy/substitute. Userpasswordpromptly in MacTerminal, keepwindowopen.
+No agent SSH. No new approval/manualGPUcheck for unchangedapprovedreadscope.
+One pinned10603 read, host/runtime+two fixed GPU/computequeries ONLY, no serverfiles/
+packet/budget/privatekeys/model/proof/oldclaimreset/reservation/cleanup/install/paidwork.
+Client180s incllogin+validation; local evidence saving follows. Remoteindependent20s+
+1skillgrace, eachquery8s, response64KiB/SSHstderr16KiB, queryout8KiB/err2KiB. Timeout
+only ownquery/SSH/read-onlygroup, neverexistingGPUjobs. Notinstantaneouskernelstop.
+READ-CONNECTION consumesgrant beforeoneSSH evenerror; neverrerun/rearm/reset/retry.
+ReplyDone/error -> inspect ONLY LOCAL read-response/RESULT+STDOUT+STDERR andconnection
+bindings first. Busy/idle notreservation/modelapproval, neverautomaticallylaunch.
+Busy -> defermodel/wait; idle may support laterfreshmodelhandoff+exactnewapproval/
+liveguards. Oldermodelgrants remainconsumed; scientific/training/perf/costfalse,
+all originalsource/claim/refusal/evidence/gates andfinances/holds/reconciliation
+unchanged. OldFIFO LSTATONLY NEVERopen/read/hash. User stages/commits/pushes; NEVERdoit.
+Earlier LATEST historical.
+
+LATEST November 16: READ-ONLY AVAILABILITY HELPER COMPLETE; FINAL CANDIDATE UNARMED.
+Raw sealed-local-availability-v1.json pins13614 regular hashes;
+fixture-layout-preserved.json records181 new entries. Preserve both.
+Read report/checks/2026-11-16-university-gpu-availability-v1-local-review.json/md,
+ report/checks/2026-11-16-university-gpu-availability-v1-scope.md and
+ docs/university_gpu_availability_v1.md. No SSH/query/model/proof has run.
+One new exact read-only university connection approval is required before arming or SSH.
+All older MODEL grants consumed; no current READ grant. Do NOT use model AUTHORIZATION
+or ATTEMPT for this helper. No model handoff/version/run grant prepared now.
+Final ONLY runs/pretrained/diagnostic/university-gpu-availability-v1-20261116/
+ handoff-parent/linux10603-final-unarmed: CONTROL/QUERY/known-hosts/PACKAGE only.
+Earlier linux10603-unarmed candidate and config/source snapshots preserved UNARMED;
+never substitute/copy/rename prepared paths. Final controlSHA
+ df108ac6aeee0266e5fde306db1d8e4990f301232b1d5de597ba2cded5fcec78
+Program10339B SHA9941f7f35e0282cbc7c1a7a2f64a3a659abcac70bd3206d1db19b78230728231.
+One pinned kdu@linux10603.dc.engr.scu.edu connection passes stdlib program in command
+plus public nonce/control/program hashes; host/runtime and two fixed GPU/compute
+status queries ONLY. No university file writes/packet/weights/budget/privatekey
+upload, model/proof/ATTEMPT/reservation/serverchanges/cleanup/installations/retries/
+paidwork. No existing job signals; timeout may terminate ONLY own query/SSH/read-only
+command group. Client180s incllogin+validation; local evidence saving follows.
+Independent remote20s+1s killgrace, eachquery8s; response64KiB/SSHstderr16KiB,
+query stdout8KiB/stderr2KiB. Clocks independent, no instantaneous kernel-stop claim.
+29distinctNEW latestALLPASS/32exec runs28/2/2,0fail/error/skip. Three passingrepeats
+only for -S command isolation and clarified clienttime label; newinflighttimeout
+case. SSH/query/process/selector/clock fakes; ordinary local metadataIO only.
+No historical test/scientificcohort repeated. Separate freshstdlib file/AST audit
+PASS13459priorhashes+11093fixtureentries+historical242/280/135/245/5/3/186/187/5/5.
+OldFIFO LSTAT ONLY NEVERopen/read/hash. No project/testcallback/network/process/GPU
+execution by audit. Source/control/knownkey/commands/auth/oneconnection/typedresponse
+bindings checked; 3 inert savedread sessions. LiveGNUtimeout/login/query UNOBSERVED.
+READY askONE exact read-only connection scope. Afterapproval only create bound
+READ-AUTHORIZATION on FINALpath; real LOCAL check_local verifies source/files/auth;
+record+seal arming, give ONE attended caffeinate Mac script command (Python-I-S-B).
+No agent SSH now; user password in MacTerminal, neverchat. READ-CONNECTION consumes
+one connection evenerror, not a modelgrant. ReplyDone -> review LOCAL savedresult
+first. Never retry/rearm/reset readclaim or open another connection under oldgrant.
+Busyobservation -> wait/defer model, not immediate modelgrant. Idleobservation may
+support laterfreshmodelproposal/exactnewapproval; live modelguards stillmandatory.
+No repeatedmanualhostname/nvidia-smi pastes, silenthost10609switch, NXallowlist,
+existingjobkill or serverchanges. All oldv4/science/bootstrap/63runtime/source/
+claim/refusal bytes and originalscientific/resource/time/backend/ownership gates
+preserved. Model/training/perf/cost admissions false; finances/holds/reconciliation
+unchanged. New rawstage university-gpu-availability-v1-20261116 retains all snapshots,
+fixtures/logs/JUnit/audit. User stages/commits/pushes; NEVERdoit. Earlier LATEST historical.
+
 LATEST November 16: V4 CONSUMED; EXPECTED SETUP GPU REFUSAL CORRECTLY PRESERVED.
 Raw incident-v4 sealed-reviewed-refusal.json pins 13459 regular hashes;
 fixture-layout-preserved.json records 12 new entries. Preserve both.

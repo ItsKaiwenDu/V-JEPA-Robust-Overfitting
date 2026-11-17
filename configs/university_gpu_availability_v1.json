@@ -1,0 +1,44 @@
+{
+  "all_original_scientific_sources_claims_gates_financial_caps_holds_reconciliation_unchanged": true,
+  "authorized": false,
+  "control_sha256": "df108ac6aeee0266e5fde306db1d8e4990f301232b1d5de597ba2cded5fcec78",
+  "date": "2026-11-16",
+  "existing_processes_signalled": false,
+  "fingerprint": "SHA256:ARgVRWOzRLA1LmAANxD6Ya17EIIo2sa4ZbHvkeqzgKQ",
+  "flags": {
+    "GPU_reserved": false,
+    "model_work_authorized": false,
+    "read_only": true,
+    "scientific_qualified": false,
+    "training_admitted": false
+  },
+  "handoff": "runs/pretrained/diagnostic/university-gpu-availability-v1-20261116/handoff-parent/linux10603-final-unarmed",
+  "host": "linux10603.dc.engr.scu.edu",
+  "kind": "university-gpu-availability-source-policy-v1",
+  "limits": {
+    "SSH_stderr_bytes": 16384,
+    "automatic_retries": 0,
+    "client_connection_seconds_including_login": 180,
+    "each_query_seconds": 8,
+    "maximum_connections": 1,
+    "query_stderr_bytes": 2048,
+    "query_stdout_bytes": 8192,
+    "remote_group_kill_grace_seconds": 1,
+    "remote_group_seconds": 20,
+    "response_bytes": 65536
+  },
+  "local_evidence_saving_not_an_extra_remote_connection": true,
+  "local_only": true,
+  "model_or_proof_or_model_claim": false,
+  "owned_query_or_SSH_may_be_stopped_on_timeout": true,
+  "packet_data_budget_ledger_or_private_key_upload": false,
+  "program_bytes": 10339,
+  "program_sha256": "9941f7f35e0282cbc7c1a7a2f64a3a659abcac70bd3206d1db19b78230728231",
+  "remote_group_bound_is_independent_of_local_connection_window": true,
+  "source_files": [
+    "models/university_gpu_availability_v1.py",
+    "scripts/university_gpu_availability_remote_v1.py",
+    "scripts/run_university_gpu_availability_v1.py"
+  ],
+  "university_file_writes": false
+}

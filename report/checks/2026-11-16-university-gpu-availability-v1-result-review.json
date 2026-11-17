@@ -1,0 +1,53 @@
+{
+  "GPU_reserved": false,
+  "SSH_exit_status": 0,
+  "all_prior_sources_grants_claims_evidence_scientific_financial_caps_holds_reconciliation_unchanged": true,
+  "authorization_sha256": "6a17d50fe4864de3efbaea076f133b5cab06c32c7714ded5622d3875b192e525",
+  "availability": "busy_observed",
+  "checked_Pacific": "2026-11-16T16:28:50.193065-08:00",
+  "checked_utc": "2026-11-17T00:28:50.193065+00:00",
+  "compute_processes": [
+    {
+      "pid": 3418810,
+      "process_name": "/usr/NX/bin/nxnode.bin",
+      "used_memory_MiB": 191.0
+    }
+  ],
+  "continuous_process_identity_proved": false,
+  "control_sha256": "df108ac6aeee0266e5fde306db1d8e4990f301232b1d5de597ba2cded5fcec78",
+  "current_fixture_entries_verified": 181,
+  "date": "2026-11-16",
+  "gpu": {
+    "driver": "580.178.04",
+    "memory_total_MiB": 8192.0,
+    "memory_used_MiB": 293.0,
+    "name": "NVIDIA GeForce RTX 3070",
+    "uuid": "GPU-e54fae90-feeb-8106-d8c0-1974fe48555f"
+  },
+  "kind": "university-gpu-availability-v1-saved-result-review",
+  "limitations": [
+    "Snapshot only, not reservation or future availability.",
+    "Matching PID/path/memory does not prove continuity between snapshots.",
+    "Successful short query does not test timeout cleanup paths.",
+    "No storage proof or model/gradient/training qualification is established."
+  ],
+  "mode": "stdlib saved-file/CSV/hash verification, no project/test/process/network/GPU/clock execution",
+  "model_attempt_created": false,
+  "model_started": false,
+  "model_work_authorized": false,
+  "new_saved_files_verified": 4,
+  "new_tests_or_production_changes_or_scientific_cohort_repeats": false,
+  "next": "10603 model attempt deferred. User explicitly requested another station; user-pasted 10609 status shows 96 MiB and only graphics processes. Local host-change preparation may proceed; no 10609 model grant or agent SSH is authorized.",
+  "prior_hashes_verified": 13620,
+  "program_sha256": "9941f7f35e0282cbc7c1a7a2f64a3a659abcac70bd3206d1db19b78230728231",
+  "raw_pending_review_flag_preserved": true,
+  "read_grant_consumed": true,
+  "read_succeeded": true,
+  "result": "PASS",
+  "same_PID_path_memory_as_v4_snapshot": true,
+  "saved_remote_observation_seconds": 0.03476135013625026,
+  "scientific_qualified": false,
+  "stderr_bytes": 0,
+  "stdout_bytes": 1382,
+  "training_admitted": false
+}
