@@ -2,6 +2,212 @@
 
 ## Current stage
 
+LATEST November 17: REPAIRED PGD ATTEMPT CONSUMED BY SETUP FOREIGN-COMPUTE REFUSAL.
+Read report/checks/2026-11-17-pgd-close-handoff-v1-guard-refusal-review.json/md.
+All university grants are consumed. NEVER rerun/rearm/reset this command/claim,
+retry collection, open retrieval under it or clean its root. No new target work.
+
+SSH/host setup reached expected10609 RTX3070 UUID/driver. Saved complete query
+texts/hash counts show GPU277MiB and compute PID3958249 /usr/NX/bin/nxnode.bin
+174MiB. This is refusal-time data, NOT current availability/reservation. Leave
+foreign process alone; no allowlist, guard relaxation, signals or logout action.
+Remote root was created at /var/tmp/vjepa-pgd-split-v1-2170-9c6670f7495fe9cec5faf219d0ef7664b2b49bc89a197f23ad4315f74a7a112b.
+Source/packet setup reached parent's setup checkpoint; GPU gate refused BEFORE
+parent work-session claim/worker launch. No full2.5GiB proof/model/gradient/
+component worker ran. Earlier setup writes/reserve may remain; preserve them.
+This attempt supplies NO numerical/Store/monitor runtime validation result.
+
+Exact preclaim-refusal route returned bounded REFUSAL without uninitialized
+collection. Five local records verified: ATTEMPT, ROOT-RECEIPT, REFUSAL,
+CLIENT-REFUSAL and empty ssh-stderr. Control9c6670f7495fe9cec5faf219d0ef7664b2b49bc89a197f23ad4315f74a7a112b;
+actual auth6a02ab58cd6c708e7e4272d62ce5a96ddef34ba78c7a8b5af99b2dc78fd240ea;
+root/clock/hash/flags joins pass. No saved tree or collection receipt. No claim
+of full remote directory/file verification beyond returned refusal facts.
+
+Fresh saved-only stdlib review passes14941 prior hashes+13103 fixture entries;
+FIFO LSTATONLY NEVEROPEN/READ/HASH. First auditor stopped due late stdlib import
+under exec-blocking hook. Only auditor import ordering and inherited prepare
+lookup corrected; both versions/logs preserved. No production source/test/cohort
+rerun/process/timer/network/newquery/GPU/proof/model/science/paidwork by review.
+Raw guard-refusal-review-20261117/sealed-reviewed-guard-refusal.json pins14956
+regular hashes; fixture-layout-preserved.json records12 consumed-handoff entries.
+
+NEXT seek an idle workstation: wait for availability or locally prepare/review a
+separate alternative-host availability path before any new exact target scope.
+Do not blindly retry10609, assume old snapshot is current, or change GPU guard.
+No repeated manual GPU/key paste requested here. A different target requires
+fresh explicit host/source/policy/contract bindings and scoped approval, never
+redirect the consumed operator. Preserve repaired69sources878631B and all earlier
+original scientific/backend/resource/time/ownership gates. Full-model/native
+monitor qualification pending. Scientific/training/perf/cost false; financial
+caps/holds/reconciliation unchanged. User stages/commits/pushes; NEVER do it.
+Earlier LATEST historical.
+
+LATEST November 17: USER APPROVED REPAIRED PGD; FINAL HANDOFF ARMED, NOT STARTED.
+Usercall_5424865aee1b41eab5e1bc9ad9c0df98: Approve one repaired PGD attempt
+(Recommended). Read report/checks/2026-11-17-pgd-close-handoff-v1-arming.json/md.
+ONLY runs/pretrained/diagnostic/pgd-close-handoff-v1-20261117/handoff-parent/
+linux10609-final-unarmed now has AUTHORIZATION.json1665B SHA
+6a02ab58cd6c708e7e4272d62ce5a96ddef34ba78c7a8b5af99b2dc78fd240ea.
+Do NOT copy/rename/substitute. Outercontrol9c6670f7495fe9cec5faf219d0ef7664b2b49bc89a197f23ad4315f74a7a112b.
+Outer33359B SHAab1b588cca7e3d76f34c54a802bd6681db80416c32570c63532198c0d760f684;
+supervised3b9bf9649f491447b99f185ecd1da93ba1684ee9117088b12ff5c2c7cd6d6a9a.
+All14936priorsealedhashes+13103fixtureentries match; FIFO LSTATONLY, NEVEROPEN.
+Publichostkey fingerprint recomputed/matches. REAL UNMOCKED LOCAL
+predictor_pgd_close_client_v1.check_local PASS actualcontrol/grant/34sourcepins/
+69coldcompiledsources/envelope/knownhost/actual17192095Bpacket BYTEHASH
+2278bce2b519943c0f83a49c556bb73dd928fe880fba0f6c56de2a4c3c2ec0da.
+No pixel/checkpoint decode, scientific imports, tests/cohort repeats, clientclock,
+timer, ATTEMPT/session/process/SSH/GPU/proof/model/targetwork/paidcompute.
+Grant UNSPENT until ATTEMPT. New sealed-local-close-handoff-v1-armed.json pins
+14941 regularhashes; raw authorization-arming-20261117/ARMING-RECEIPT retained.
+
+NEXT give ONE attended LOCAL MAC caffeinate .venv/bin/python-I-B command with
+scripts/run_predictor_pgd_close_v1.py +exactFINALabsolutehandoff. No agentSSH.
+No further approval/manual GPU/key paste for unchanged approved scope. Userwaits
+VPNfullyconnected, enters password locally promptly, keepsMac/lid/Terminalopen
+up to50min. Strict livehost/UUID/driver/compute/XFS/process/source/clock/numerical/
+backend/ownership guards remain. One40minwork includes original setup/full2.5GiB
+allocation/write/fsync/readback proof+8matched gradients+2componentVJPs/oneinner;
+10min SAME SSH collection,50minTOTALincludinglogin. Samecaps3GiBsetup/2.25GiBcapture/
+3GiBresponse/raw1792MiB/meta64MiB incltrace8MiB/allocator7GiB/componentRSS4GiB.
+No retries/separate retrieval/old cleanup/install/privatekey/heldout/extra
+objectives/completed-cohort repeats/old claim reset/paidcompute. Refusalconsumes
+this one ATTEMPT; neverrerun/rearm/reset/retrycollection. All old grants consumed.
+AfterDone/error inspect ONLYLOCAL finalhandoff attended-session and ATTEMPT first.
+Preserve all sources/claims/results/failures; scientific/training/perf/cost remain
+false pending independentreview. Financialcaps/holds/reconciliation unchanged.
+User stages/commits/pushes; NEVER do it. Earlier LATEST historical.
+
+LATEST November 17: REPAIRED PGD OUTER/CLIENT HANDOFF PASSES LOCAL REVIEW; UNARMED.
+Read docs/predictor_pgd_close_handoff_v1.md, config and
+ report/checks/2026-11-17-pgd-close-handoff-v1-local-review.json/md and -scope.md.
+One new exact scoped university approval is required before arming or target work.
+All previous model/read/byte grants are consumed. No SSH/upload/query/work here.
+Final ONLY runs/pretrained/diagnostic/pgd-close-handoff-v1-20261117/handoff-parent/
+linux10609-final-unarmed has CONTROL-CANDIDATE/SOURCE-PAYLOAD/PACKAGE/known-hosts.
+NO AUTHORIZATION or ATTEMPT. Do not copy/rename/substitute or arm before approval.
+Outercontrol9c6670f7495fe9cec5faf219d0ef7664b2b49bc89a197f23ad4315f74a7a112b.
+Outer33359B SHAab1b588cca7e3d76f34c54a802bd6681db80416c32570c63532198c0d760f684.
+Supervised3b9bf9649f491447b99f185ecd1da93ba1684ee9117088b12ff5c2c7cd6d6a9a.
+Payload69files/878631B/envelope1174629B EXACT prior reviewed repaired candidate;
+63runtime+6supervisors;34local pins. Store native-XFS close fix and locally fake-
+process-qualified bounded owned-exit wait remain exact; all scientific code/
+resource/reference/financial scope unchanged. Full172assets/419results/26setupdirs.
+New models/predictor_pgd_close_handoff_v1.py cold preparer builds complete package.
+New outer/client/CLI are separate files, never edits to consumed operators.
+Outer changes only policy/boot/new control-auth kinds/local coverage/pure verifier
+paths/preparer import. Full remote_session/Alarms/claim/setup/directory/collection
+runtime AST exact; old preclaim refusal retained. Client only3imports, CLI1import;
+exact byte inverses verified. No weaker ownership/RSS/metadata/numerical gates.
+
+20 distinct focused checks FIRSTPASS, failures/errors/skips/passing/historical/
+scientific cohort repeats0. Actual local metadata/source/cache/codec/catalogue/
+journal/claim/collection-header behavior exercised. Target/GPU/PID/worker/reserve/
+packet bytehash/collection data/remote alarm-clock bindings explicit FAKE. Reserve
+file ZERO; no proof/model/scientific import. One unarmed client call reads local
+monotonic time before refusing; no timer or process launch. Tests' packet bytehash
+is stubbed; real local preflight after approval MUST hash actual17192095B packet.
+Inert lifecycle: busy startup refuses BEFORE parent claim/collection; claimed inert
+proof-worker failure collects failed state. Both records retained, no computation
+promotion. No actual child/signal/timer/network/SSH/GPU/proof/array/model/paidwork.
+
+Fresh independent stdlib saved/hash/AST audit FIRSTPASS14731priorhashes+12845
+fixture entries unchanged; FIFO LSTATONLY NEVEROPEN/READ/HASH. All34pins/inverses/
+prior-candidate identity/host-key/scope/JUnit/inert records/unarmed final package
+verified without project/test callbacks/process/timer/network/science. New
+sealed-local-close-handoff-v1.json pins14936 regular hashes; layout258 entries.
+Scientific/training/perf/cost false; live full-model/gradient/native monitor fit
+remain unobserved. Financial caps/holds/reconciliation unchanged.
+
+NEXT request ONE exact reviewed scope (ready now): kdu@linux10609.dc.engr.scu.edu,
+fresh private/var/tmp; unchanged17192095B training/reference packet,69sources878631B,
+33359Bouter+boundmetadata including unchanged HISTORICAL budget snapshot (not new
+balance claim). 40minwork includes full2.5GiB allocation/write/fsync/readback proof,
+8matched original/candidate gradients+2componentVJPs/1inner;10min SAME SSH collection,
+50minTOTALincludinglogin. Same3GiBsetup/2.25GiBcapture/3GiBresponse/raw1792MiB/
+meta64MiB incltrace8MiB/allocator7GiB/componentRSS4GiB and all role clocks/gates.
+No retry/separate retrieval/old cleanup/install/privatekey/heldoutpixels/extra
+objectives/completed-cohort repeats/paidcompute. Refusal consumes one grant.
+No repeated manual GPU/key paste; helper checks live. User must wait for VPN.
+AFTER exact approval only write AUTHORIZATION at FINAL path; verify seal/pins and
+real LOCAL predictor_pgd_close_client_v1.check_local incl actual packet BYTEHASH
+without decoding/importing pixels/checkpoint. Record/seal arming; give ONE attended
+Mac caffeinate .venv/bin/python-I-B scripts/run_predictor_pgd_close_v1.py exactfinal
+absolute path. NoagentSSH. Prompt password locally; Mac/Terminal awake up to50min.
+No reapproval for unchanged approved scope. AfterDone/error inspect ONLY LOCAL
+saved results; NEVERrearm/reset/rerun/retry collection. Preserve all old evidence.
+User stages/commits/pushes; NEVER do it. Earlier LATEST historical.
+
+LATEST November 17: FULL-CATALOGUE STORE/MONITOR SOURCE INTEGRATION REVIEWED LOCALLY.
+Read docs/predictor_pgd_close_integration_v1.md, config and
+ report/checks/2026-11-17-pgd-close-integration-v1-local-review.json/md.
+All university grants are consumed. No new outer/client/CLI, target handoff,
+university scope, authorization or attempt exists. No SSH/GPU/proof/model work.
+
+New cold models/predictor_pgd_close_integration_v1.py reads exact consumed
+10609 control/source bytes only. Produces 69 sources/878631 bytes; exactly five
+change: Store, watch, coordinator WATCH_SHA, scratch contract/watch hashes, bootstrap
+policy hash. Other 64 files exact, including all scientific workers/IO/serializer/
+attention/values/seeds/numerical gates, collection and proof implementation.
+Full scientific/resource/host scope and embedded base/design/financial bytes exact.
+Store is the prior native-XFS-verified full-module candidate9915B SHA
+7bcbd863eab7c23940fa1d32b194448b88353202c2100b66a9a30f59e4ef6022.
+Original Inventory/helpers and419 scientific results retained; NEVER substitute
+byte-probe one-file inventory. Catalogue172 source/input assets retained.
+
+New predictor_pgd_exit_race_v1.py cold recipe accepts exact old watch ab2315...
+Full monitor14374B SHA07237d77806aba1c129e0e93520a2ceedd3ff2b06001f391d1cdaa46e55fae06.
+Only missing-process sampling branch +stdlib subprocess import change. One wait
+on already-owned Popen, min(.1,remaining phase,remaining work); finite/monotonic
+clock checks before/after; no sampling retry/status guess/new discovery/numeric
+PID signal. Confirmed nonzero still fails; unconfirmed exit retains metadataerror.
+Ordinary wait errors add note; KeyboardInterrupt/SystemExit propagate through
+original cleanup. Prior RSS sample +all held tasks exited +final gates/time still
+required for success. ProcReader/PidfdLease/entire cleanup finally unchanged.
+Components retain4GiB RSS; proof/numerical original role adapters/clocks unchanged.
+Saved parent frame is truncated, so root vs descendant disappearance unproved.
+Fake reproduction exercises ordering, not a native process-race qualification.
+
+New exact local readers: predictor_pgd_close_bootstrap_v1.py and
+predictor_pgd_close_scratch_v1.py match server bytes; predictor_pgd_close_collection_v1.py
+changes ONLY two imports to those aliases. Real full-header validator and69-source
+pinned cache read tests pass/reject stale Store/watch/control. Runtime63+supervisor6,
+contract source pins/policy fixed support/coordinator watch/reader hashes all join.
+Supervised control3b9bf9649f491447b99f185ecd1da93ba1684ee9117088b12ff5c2c7cd6d6a9a;
+policyb502797a50c09627785cc404672eab1f6815004db3f5547a713b649b205fa7f0;
+contract6abefa0d40eb571fea1385086dde79eb418511db5e4e7ad73da0c8d65a6c2869.
+Current manifest in runtime_repair is authoritative; old host-change manifest
+remains explicit provenance, not current execution source authority.
+
+35 distinct new checks PASS, runs25/10, failures/errors/skips/repeats0. First25
+pass onfirst candidate; review narrows BaseException to Exception in wait-error
+branch only, then10 new cancellation/header/cache cases pass. No passing or
+historical/scientific cohort repeats; both candidate/source/control/reader versions,
+logs/JUnit/fixtures retained. Real local small-byte file I/O, source reads, own
+PID/thread checks run; child/process-handle/signal/RSS/clock/pause/target/grant/header
+inventory bindings are explicit fakes. No actual child/signal/timer/network/SSH/GPU/
+proof/NumPy/Torch/array/model/gradient/reference run. Native process/full-model
+qualification pending; scientific/training/perf/cost remain false.
+
+Fresh independent stdlib saved/hash/AST audit FIRSTPASS14473 prior hashes+12566
+fixture entries unchanged; old FIFO LSTATONLY NEVEROPEN/READ/HASH. Both exact code
+inverses/unchanged helpers/cleanup/dependent literal inverses/all binds/JUnit/fake
+records pass. No project/test callbacks/process/timer/network/science by audit.
+Raw pgd-close-integration-v1-20261117/sealed-local-close-integration-v1.json pins
+14731 regular hashes; fixture-layout-preserved.json records279 immutable entries.
+
+NEXT LOCAL ONLY assemble a NEW outer/client/CLI and source-envelope binding from
+this reviewed candidate; update exact policy/bootstrap/collector/scratch hashes
+and local source coverage. Preserve original preclaim refusal, directory policy,
+clock/claim/collection ownership semantics. Old consumed launchers MUST NOT be
+pointed at these candidate sources or relabelled/rearmed. Finish focused local
+packaging/reader/guard checks and review BEFORE asking one new exact model scope.
+No repeat manual GPU/key paste. Original eight matched full gradients and two
+component VJPs/one inner VJP, scientific/backend/resource/time/ownership gates and
+financial caps/holds/reconciliation unchanged. User stages/commits/pushes; NEVER do it.
+Earlier LATEST historical.
+
 LATEST November 16: LIVE XFS CLOSE-ORDER MECHANISM REPRODUCED; CANDIDATE PASSES.
 Read report/checks/2026-11-16-pgd-byte-close-replacement-v1-result-review.json/md.
 The replacement grant is CONSUMED; all earlier university grants also consumed.

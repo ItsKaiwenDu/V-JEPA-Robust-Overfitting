@@ -1,0 +1,129 @@
+{
+  "authorized": false,
+  "changed_uploaded_sources": [
+    "overlay/models/predictor_pgd_split_store_v1.py",
+    "supervisor/bootstrap.py",
+    "supervisor/predictor_pgd_split_coordinator_v1.py",
+    "supervisor/predictor_pgd_split_scratch_v1.py",
+    "supervisor/predictor_pgd_split_watch_v1.py"
+  ],
+  "date": "2026-11-17",
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "full_scientific_catalogue_retained": true,
+  "historical_host_manifest_is_provenance_current_manifest_is_runtime_repair": true,
+  "kind": "pgd-close-integration-v1-cold-candidate",
+  "local_only": true,
+  "local_reader_modules": [
+    "models/predictor_pgd_close_bootstrap_v1.py",
+    "models/predictor_pgd_close_collection_v1.py",
+    "models/predictor_pgd_close_scratch_v1.py"
+  ],
+  "monitor_repair": {
+    "ProcReader_PidfdLease_and_cleanup_unchanged": true,
+    "authorized": false,
+    "candidate_bytes": 14374,
+    "candidate_sha256": "07237d77806aba1c129e0e93520a2ceedd3ff2b06001f391d1cdaa46e55fae06",
+    "changed_function": "watch",
+    "confirmation_uses_original_phase_and_work_deadlines": true,
+    "frozen_sha256": "ab23159993939318b6d28946a25fe3c4be0427ed6e9732e1530cb8246d6d9cdb",
+    "kind": "pgd-owned-exit-monitor-candidate-v1",
+    "maximum_confirmation_wait_seconds": 0.1,
+    "no_sampling_retry_or_exit_status_guess": true,
+    "original_RSS_sample_and_owned_task_exit_gates_unchanged": true,
+    "scientific_qualified": false,
+    "training_admitted": false,
+    "whole_module_exact_inverse_verified": true
+  },
+  "policy_sha256": "b502797a50c09627785cc404672eab1f6815004db3f5547a713b649b205fa7f0",
+  "prior_outer_control_sha256": "2314abaa5a3ef3b47b3af54908b90eefa0c68cb9380cefbd408106a55aff59d4",
+  "reader_pins": {
+    "models/predictor_pgd_close_bootstrap_v1.py": "6b5ddad6207d667abe01d6219033b58748d8d041d95d9662c3090370f90fb6c4",
+    "models/predictor_pgd_close_collection_v1.py": "34be88e680091e5ba158501689bf1b976d75fe809c39c524dfb4dc88c0bd5b42",
+    "models/predictor_pgd_close_scratch_v1.py": "d77f308884a3b6613ca9ab15d971ba0eec3e55a70be5a26dbcdfeb56856c2ae5"
+  },
+  "runnable_outer_client_or_target_handoff_prepared": false,
+  "runtime_files": 63,
+  "runtime_manifest_sha256": "8b1c448579a12f02a69513047ccbea1e75e5257a9372ca9efd782321f817e253",
+  "scientific_qualified": false,
+  "scientific_resource_host_and_financial_scope_unchanged": true,
+  "scratch_contract_sha256": "6abefa0d40eb571fea1385086dde79eb418511db5e4e7ad73da0c8d65a6c2869",
+  "source_literal_edits": {
+    "supervisor/bootstrap.py": [
+      {
+        "new_begin": 494,
+        "new_end": 560,
+        "new_literal": "'b502797a50c09627785cc404672eab1f6815004db3f5547a713b649b205fa7f0'",
+        "old_literal": "'bf4d7f961d70c6c998ef91f27b4242417f3e9caae3ee2d801bbbb79a6c1756c5'"
+      }
+    ],
+    "supervisor/predictor_pgd_split_coordinator_v1.py": [
+      {
+        "new_begin": 1008,
+        "new_end": 1074,
+        "new_literal": "'07237d77806aba1c129e0e93520a2ceedd3ff2b06001f391d1cdaa46e55fae06'",
+        "old_literal": "'ab23159993939318b6d28946a25fe3c4be0427ed6e9732e1530cb8246d6d9cdb'"
+      }
+    ],
+    "supervisor/predictor_pgd_split_scratch_v1.py": [
+      {
+        "new_begin": 460,
+        "new_end": 526,
+        "new_literal": "'6abefa0d40eb571fea1385086dde79eb418511db5e4e7ad73da0c8d65a6c2869'",
+        "old_literal": "'42f9c14b09bdb621f55da0d4ea4a240018a05ac1bd7272fe131d67fffe59d05a'"
+      },
+      {
+        "new_begin": 867,
+        "new_end": 933,
+        "new_literal": "'07237d77806aba1c129e0e93520a2ceedd3ff2b06001f391d1cdaa46e55fae06'",
+        "old_literal": "'ab23159993939318b6d28946a25fe3c4be0427ed6e9732e1530cb8246d6d9cdb'"
+      }
+    ]
+  },
+  "store_repair": {
+    "allocation_guard_removed": false,
+    "authorized": false,
+    "candidate_bytes": 9915,
+    "candidate_sha256": "7bcbd863eab7c23940fa1d32b194448b88353202c2100b66a9a30f59e4ef6022",
+    "changed_methods": [
+      "Store.check",
+      "Store.write_bytes"
+    ],
+    "descriptor_retired_before_commit_snapshot": true,
+    "diagnostic_note_payload_character_cap": 2048,
+    "frozen_sha256": "2e48a86724bf8d8e49981d7b4dd21875a5f31010e54a558488d16034fb93bb54",
+    "full_metadata_predicate_unchanged": true,
+    "kind": "pgd-store-close-candidate-v2",
+    "live_XFS_failure_field_still_unproved": true,
+    "logical_identity_checked_after_close_and_scan": true,
+    "other_committed_members_rechecked": true,
+    "scientific_qualified": false,
+    "target_handoff_ready": false,
+    "training_admitted": false,
+    "unchanged_definitions": [
+      "identity",
+      "private",
+      "Inventory",
+      "Store.__init__"
+    ],
+    "whole_module_exact_inverse_verified": true
+  },
+  "supervised_control_sha256": "3b9bf9649f491447b99f185ecd1da93ba1684ee9117088b12ff5c2c7cd6d6a9a",
+  "target_work_or_new_authorization_created": false,
+  "tests": {
+    "distinct_pass": 35,
+    "executions": 35,
+    "failures": 0,
+    "first_revision_retained": true,
+    "historical_or_scientific_cohort_repeats": false,
+    "passing_repeats": 0,
+    "review_correction": "Narrow only wait-error handler to Exception; cancellation propagates.",
+    "runs": [
+      25,
+      10
+    ]
+  },
+  "training_admitted": false,
+  "unchanged_uploaded_sources": 64,
+  "uploaded_source_bytes": 878631,
+  "uploaded_source_files": 69
+}

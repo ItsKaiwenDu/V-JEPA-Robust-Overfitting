@@ -1,5 +1,100 @@
 # Research Progress Reports
 
+## 2026-11-17 — Repaired PGD attempt refused before proof/model work
+
+SSH and source/packet setup reached linux10609's parent GPU preflight. Its saved
+query shows nxnode.bin PID3958249 using174MiB, so the strict foreign-compute gate
+refused before a parent work-session claim or any proof/model/gradient worker.
+The remote root exists and stays preserved. The preclaim-refusal path returned
+the diagnostic without attempting uninitialized collection. This is an availability
+refusal, with no new result about the repairs' full-model behavior.
+
+Five local attempt/root/refusal/client/stderr records join the actual grant,
+control, root and clocks. Saved-only review verifies 14,941 prior hashes and
+13,103 fixture entries unchanged; the old FIFO is lstat-only. A late stdlib import
+and inherited-method lookup were corrected only in a separate auditor; both
+versions/logs remain. No production source changes, tests/cohorts, remote query,
+process, timer, GPU, proof, model or paid work occurs during review.
+
+This grant is consumed; never rerun/rearm/reset/retry its command or collection.
+Next find an idle workstation, or prepare a separately reviewed alternative-host
+availability path. The saved process observation is not a reservation or fresh
+availability check. Keep strict guards and foreign processes intact. Scientific,
+resource/time/ownership and financial gates remain unchanged. See the
+[refusal review](report/checks/2026-11-17-pgd-close-handoff-v1-guard-refusal-review.md).
+
+## 2026-11-17 — Repaired PGD attempt approved and armed
+
+The user approved the exact one-attempt university scope. Only the final repaired
+handoff now has its bound authorization. All 14,936 prior hashes and 13,103 fixture
+entries match; the old FIFO is lstat-only. Real local preflight passes the actual
+control/grant, 34 source pins, 69 cold-compiled sources and actual 17,192,095-byte
+packet hash without pixel/checkpoint decoding. No tests/cohorts, clock/timer,
+attempt/session, process, SSH, GPU, proof, model or target work ran while arming.
+
+Next run the one attended Mac command after VPN connection. No further approval
+or manual GPU checks are needed for the unchanged approved scope. Work remains
+forty minutes including the full 2.5 GiB proof, eight matched gradients and two
+component VJPs/one inner VJP, plus ten minutes same-SSH collection within fifty
+minutes including login. All original strict guards/caps remain. A refusal
+consumes the grant; no repeat or separate retrieval. Review local output after
+Done/error. Scientific and financial admission/state remain unchanged. See the
+[arming record](report/checks/2026-11-17-pgd-close-handoff-v1-arming.md).
+
+## 2026-11-17 — Complete repaired PGD handoff prepared and reviewed
+
+The new outer/client/CLI and cold package preparer bind the exact reviewed repaired
+69-source candidate. The outer changes only source/policy/auth/local coverage
+bindings; remote session, clocks, claims, directory policy and collection remain
+AST-exact. The client and CLI change only imports. All scientific/resource/host/
+reference/financial scope stays unchanged. The final package has no authorization
+or attempt; all previous university grants remain consumed.
+
+All twenty distinct new focused checks pass on the first run, without failures,
+passing or historical/scientific cohort repeats. Actual source cache, catalogue,
+directory, journal, claim and collection headers run locally; target/process/GPU/
+reserve/packet/worker/remote clock and collection data are explicit fakes. No proof,
+model, arrays, process, timer, SSH or GPU query executes. A local unarmed client
+call reads a timestamp only; actual packet hashing is still required after approval.
+The independent saved-file/AST audit passes 14,731 prior hashes and 12,845 fixture
+entries unchanged; the old FIFO remains lstat-only.
+
+Next request one exact attended 10609 scope: original 17,192,095-byte packet,
+69 sources/878,631 bytes, 33,359-byte outer and bound metadata with the unchanged
+historical budget snapshot. Work remains forty minutes including the full 2.5 GiB
+proof, eight matched gradients and two component VJPs/one inner VJP; ten minutes
+of same-SSH collection within fifty minutes including login. All original caps,
+strict guards and no-retry/no-cleanup/no-paid-work restrictions remain. No repeat
+manual GPU checks; wait for VPN before launch. No university work started and
+full-model qualification remains pending. See the
+[handoff review](report/checks/2026-11-17-pgd-close-handoff-v1-local-review.md).
+
+## 2026-11-17 — Full-catalogue PGD repair candidate reviewed locally
+
+The exact XFS-verified Store repair is integrated into a fresh 69-file PGD source
+candidate with its original 419-result Inventory. A new monitor repair confirms
+an exiting already-owned child with at most one 0.1-second wait inside both old
+deadlines. It retains all RSS/identity/owned-task/cleanup gates and cancellation;
+unconfirmed exits still fail. Only five uploaded files change, including dependent
+hash literals; all 64 others and scientific/resource/reference/financial scope
+stay byte-identical. New local bootstrap/scratch/collection readers bind the full
+172-asset catalogue and current manifest.
+
+35 distinct new local checks pass in runs of 25 and 10, without failures or
+passing/historical/scientific cohort repeats. Review narrows the wait-error
+handler to preserve cancellation; both candidate revisions remain. Real inert
+byte I/O and source-cache reads run; process/signal/clock/RSS/target/grant/header
+inventories are explicit fakes. No actual process, timer, SSH, GPU, proof, array,
+model or gradient work. The independent saved-file/AST audit passes 14,473 prior
+hashes and 12,566 fixture entries unchanged; the old FIFO remains lstat-only.
+
+This completes source/reader integration, not full-model qualification. Next
+assemble and review the fresh outer/client/CLI envelope and bindings before
+requesting any new exact model scope. All university grants are consumed; no
+new handoff or authorization exists. Original scientific/resource/time/ownership
+and financial gates remain. See the
+[local integration review](report/checks/2026-11-17-pgd-close-integration-v1-local-review.md).
+
 ## 2026-11-16 — Live XFS publication mechanism reproduced; candidate passes
 
 The replacement byte probe completed on linux10609 (SSH0, complete 4,121-byte
