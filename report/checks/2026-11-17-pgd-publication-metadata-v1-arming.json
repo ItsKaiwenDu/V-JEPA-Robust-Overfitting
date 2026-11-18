@@ -1,0 +1,38 @@
+{
+  "SSH_stdin_payload_bytes": 9458,
+  "approval_call": "call_692dc6066fd14377abd0380b6f6623fd",
+  "approval_unspent_no_read_attempt": true,
+  "armed": true,
+  "authorization_bytes": 548,
+  "authorization_sha256": "9d14c00e0662b351d75d65004e43ad5c2361a34770ad0fd62abef3f39c904b69",
+  "client_monotonic_clock_or_timer_started": false,
+  "date": "2026-11-17",
+  "final_folder": "/Users/kaiwendu/Documents/GitHub/V-JEPA-Robust-Overfitting/runs/pretrained/diagnostic/pgd-publication-metadata-v1-20261117/linux10614-unarmed",
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "incident_pins_verified": 5,
+  "kind": "pgd-publication-metadata-v1-arming-receipt",
+  "layout_entry_counts_verified": [
+    142,
+    277
+  ],
+  "limits": {
+    "connection_seconds_including_login": 180,
+    "kill_grace_seconds": 1,
+    "maximum_new_reads": 1,
+    "remote_seconds": 20,
+    "response_bytes": 1048576,
+    "stderr_bytes": 16384
+  },
+  "new_tests_or_cohort_executions": 0,
+  "original_partial_evidence_unchanged": true,
+  "plan_sha256": "3ed0e0fbfd251cdc089b4a958f6f189a9d8f55881fb1cf9fdf305aea2295a0a2",
+  "prior_hashes_verified": 16476,
+  "real_unmocked_local_check_local": "PASS",
+  "remote_source_bytes": 6194,
+  "remote_source_sha256": "29b20e763061de8033d0bbd37192190cef02151ebd1c0fa8d70b2d008647b92e",
+  "scientific_qualified": false,
+  "source_files_verified": 3,
+  "target_connection_or_work_executed": false,
+  "training_admitted": false,
+  "user_answer": "Approve one metadata-only read (Recommended)"
+}

@@ -1,0 +1,57 @@
+{
+  "CLI_source_bytes": 536,
+  "auditor_only_correction": "v1 literal reader rejected integer multiplication/exponent; v2 resolves bounded integer constants without executing code",
+  "authorization_or_claim_or_target_connection_created": false,
+  "client_source_bytes": 9504,
+  "date": "2026-11-17",
+  "evidence_pins": 5,
+  "exact_saved_files": [
+    "control.json",
+    "session.json"
+  ],
+  "final_handoff_unarmed": true,
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "historical_FIFO_lstat_only_in_incident_review": 1,
+  "interrupted_tree_layout_entries_verified": 277,
+  "kind": "pgd-publication-metadata-v1-independent-local-review",
+  "limitations": [
+    "New tests run real inert metadata/file/hash/identity paths and fake target/process/selector/clock APIs.",
+    "The saved parent failure remains unknown until a separately approved exact metadata read succeeds.",
+    "No arrays or proof/model/replay/performance/training or paid work is authorized."
+  ],
+  "limits": {
+    "control_read_bytes": 131072,
+    "independent_kill_grace_seconds": 1,
+    "read_seconds": 20,
+    "response_bytes": 1048576,
+    "session_read_bytes": 262144,
+    "stderr_bytes": 16384,
+    "transport_seconds": 180
+  },
+  "mode": "stdlib saved/hash/AST only; no project/test callbacks, children/network/timers/GPU/science",
+  "original_claim_and_partial_evidence_unchanged": true,
+  "plan_sha256": "3ed0e0fbfd251cdc089b4a958f6f189a9d8f55881fb1cf9fdf305aea2295a0a2",
+  "prior_fixture_entries_reviewed": 14751,
+  "prior_hashes_verified": 16121,
+  "public_host_fingerprint": "SHA256:ARgVRWOzRLA1LmAANxD6Ya17EIIo2sa4ZbHvkeqzgKQ",
+  "remote_source_bytes": 6194,
+  "remote_source_sha256": "29b20e763061de8033d0bbd37192190cef02151ebd1c0fa8d70b2d008647b92e",
+  "result": "PASS",
+  "scientific_qualified": false,
+  "session_hash_joins_received_failed_work_receipt": true,
+  "source_pins": {
+    "models/pgd_publication_metadata_v1.py": "4a44740f154c9de1a17b0e378c707debade0b78a54da728de9bf644b9644231a",
+    "scripts/pgd_publication_metadata_remote_v1.py": "29b20e763061de8033d0bbd37192190cef02151ebd1c0fa8d70b2d008647b92e",
+    "scripts/run_pgd_publication_metadata_v1.py": "558936fd3b1fc50c4e6e384fe9357bc18b9b0510563f86a0de702de908aa7ac9"
+  },
+  "tests": {
+    "distinct_pass": 31,
+    "errors": 0,
+    "executions": 31,
+    "failures": 0,
+    "historical_or_scientific_cohort_repeats": false,
+    "passing_repeats": 0,
+    "skips": 0
+  },
+  "training_admitted": false
+}

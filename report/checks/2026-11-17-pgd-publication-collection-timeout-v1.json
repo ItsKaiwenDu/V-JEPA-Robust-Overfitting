@@ -1,0 +1,220 @@
+{
+  "allocation_proof_saved_passed": true,
+  "attempt_consumed": true,
+  "authorization_sha256": "475ac2ef78e6c463932d0e43cd3f8ec43e9708b46c39f7501263efdeb38ea09b",
+  "collection_receipt_or_original_header_or_terminal_available": false,
+  "complete_objective_count": 5,
+  "complete_objective_records": [
+    {
+      "artifact_files": 37,
+      "index": 0,
+      "mode": "original",
+      "progress_rows": 20,
+      "saved_complete": true,
+      "saved_passed": true,
+      "step": 0,
+      "worker_sha256": "16a2c6af58dcdcaad30302198dae6adb9a06c2fcdaa7b62220691ba91adf0318"
+    },
+    {
+      "artifact_files": 37,
+      "index": 1,
+      "mode": "candidate",
+      "progress_rows": 20,
+      "saved_complete": true,
+      "saved_passed": true,
+      "step": 0,
+      "worker_sha256": "ff7f41aa52a2ef21c61238da8560d2264bfc5fa3cfb1766712928f4f4cb32a07"
+    },
+    {
+      "artifact_files": 37,
+      "index": 2,
+      "mode": "original",
+      "progress_rows": 18,
+      "saved_complete": true,
+      "saved_passed": true,
+      "step": 1,
+      "worker_sha256": "73a248902a65b4297c27335beb1f235d99c5d258f6b814007d6760ecc228a352"
+    },
+    {
+      "artifact_files": 37,
+      "index": 3,
+      "mode": "candidate",
+      "progress_rows": 18,
+      "saved_complete": true,
+      "saved_passed": true,
+      "step": 1,
+      "worker_sha256": "96bd998f5279bd6b31ba1a3fb474a224af54ff8e049f9bab4565155d7a170ab5"
+    },
+    {
+      "artifact_files": 37,
+      "index": 4,
+      "mode": "original",
+      "progress_rows": 18,
+      "saved_complete": true,
+      "saved_passed": true,
+      "step": 2,
+      "worker_sha256": "df8197fb6d4138c9eaa2a609d386f655fff22ed76d4be91aa6e6ced868133e70"
+    }
+  ],
+  "completed_artifact_hash_joins": 185,
+  "completed_backend_proof_file_hash_joins": 15,
+  "component_completion_not_established": true,
+  "date": "2026-11-17",
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "fixture_counts": [
+    1720,
+    474,
+    101,
+    166,
+    894,
+    2909,
+    494,
+    248,
+    779,
+    221,
+    2722,
+    19,
+    334,
+    12,
+    181,
+    11,
+    272,
+    227,
+    204,
+    551,
+    11,
+    5,
+    11,
+    279,
+    258,
+    12,
+    287,
+    375,
+    417,
+    281,
+    276
+  ],
+  "fixture_entries_verified": 14751,
+  "kind": "pgd-publication-v1-interrupted-collection-local-review",
+  "limitations": [
+    "Locally hashed partial files are not a terminal-verified or manifest-verified complete transfer.",
+    "Five completion records and own artifact/proof/progress hashes join; numeric metrics are saved claims, not recalculation.",
+    "Saved final work receipt reports failure before collection; session.json with parent error was not received.",
+    "The sixth objective is incomplete locally; no full eight-gradient or component validation.",
+    "A new exact scoped approval is required for any metadata-only remote connection. No launch or download retry is authorized."
+  ],
+  "local_received_bytes": 1196155379,
+  "local_received_directories": 12,
+  "local_received_files": 261,
+  "metadata_plan": "configs/pgd_publication_metadata_v1.json",
+  "metadata_plan_sha256": "3ed0e0fbfd251cdc089b4a958f6f189a9d8f55881fb1cf9fdf305aea2295a0a2",
+  "metadata_read_authorized": false,
+  "metadata_read_prepared": true,
+  "new_remote_connection_or_work": false,
+  "new_tests_or_cohort_executions": 0,
+  "numeric_metrics_not_recomputed_from_arrays": true,
+  "objective_5_received_partial": {
+    "complete_artifacts": [
+      "cotangent-15.npy",
+      "loss.npy",
+      "masks.npy",
+      "pixels.npy",
+      "prediction-0.npy",
+      "prediction-1.npy",
+      "prediction-10.npy",
+      "prediction-11.npy",
+      "prediction-12.npy",
+      "prediction-13.npy",
+      "prediction-14.npy",
+      "prediction-15.npy",
+      "prediction-2.npy",
+      "prediction-3.npy",
+      "prediction-4.npy"
+    ],
+    "missing_artifacts": [
+      "prediction-6.npy",
+      "prediction-7.npy",
+      "prediction-8.npy",
+      "prediction-9.npy",
+      "targets.npy"
+    ],
+    "truncated_artifacts": [
+      {
+        "expected_bytes": 7209088,
+        "expected_sha256": "f1e7e52291d58bcaf998202485dff86986e457e11a2a1fe6e4ec264cbaa703d5",
+        "file": "prediction-5.npy",
+        "received_bytes": 2097152,
+        "received_sha256": "50d807a5f39edb67f4d74f9e6ffdba02a9ba3ac5f354df5304597ec5ba5a3134"
+      }
+    ]
+  },
+  "old_FIFO_lstat_only": 1,
+  "original_collection_seconds": 600,
+  "outer_control_sha256": "3f7b6ee518807ee36e330805082f28ea44a069bdf6cd59593804ea745a3ceb16",
+  "parent_error_detail_known": false,
+  "performance_qualified": false,
+  "prior_hashes_verified": 16121,
+  "proof_bytes": 2684354560,
+  "proof_event_rows": 1926,
+  "proof_peak_observed_allocated_bytes": 2746798080,
+  "proof_wall_seconds": 13.931232403963804,
+  "remote_scratch": "/var/tmp/vjepa-pgd-split-v1-2170-3f7b6ee518807ee36e330805082f28ea44a069bdf6cd59593804ea745a3ceb16",
+  "required_objective_count": 8,
+  "result": "PARTIAL_EVIDENCE_PRESERVED_WORK_RECEIPT_FAILED",
+  "review_mode": "stdlib saved bytes/hash/metadata only; no project/scientific/test callbacks, arrays decoded, process/network/GPU/proof/model work",
+  "saved_comparisons": [
+    {
+      "non_input_artifacts_identical": 36,
+      "saved_checks": {
+        "input": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 5.122274160385132e-08,
+          "max_tolerance_ratio": 0.05698457204906362,
+          "passed": true,
+          "rtol": 0.002
+        },
+        "loss": {
+          "atol": 2e-06,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "rtol": 1e-05
+        }
+      },
+      "step": 0
+    },
+    {
+      "non_input_artifacts_identical": 36,
+      "saved_checks": {
+        "input": {
+          "atol": 2e-07,
+          "failed_elements": 0,
+          "max_absolute_error": 2.3981556296348572e-08,
+          "max_tolerance_ratio": 0.02758660647033517,
+          "passed": true,
+          "rtol": 0.002
+        },
+        "loss": {
+          "atol": 2e-06,
+          "failed_elements": 0,
+          "max_absolute_error": 0.0,
+          "max_tolerance_ratio": 0.0,
+          "passed": true,
+          "rtol": 1e-05
+        }
+      },
+      "step": 1
+    }
+  ],
+  "saved_completed_roles": [
+    "proof"
+  ],
+  "saved_work_phase": "failed",
+  "scientific_qualified": false,
+  "session_metadata_received": false,
+  "supervised_control_sha256": "03ddfc3fe3ec900213b7161251b445b436d6378783a18c591ac0722a729e0d0d",
+  "training_admitted": false,
+  "whole_transfer_verified": false
+}

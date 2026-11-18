@@ -1,5 +1,81 @@
 # Research Progress Reports
 
+November 17: the metadata-only read succeeded and its one-read grant is consumed.
+The saved session hash joins the original failed work receipt and identifies
+FileNotFoundError for cotangent-14.npy.partial in the parent file monitor, which
+stopped its numerical worker. The existing JSON-only observer repair leaves this
+raw-file publication path uncovered. The approved writer's link/unlink sequence
+supports a possible list/stat race; its exact live interleaving remains unproved.
+All five prior completed records, partial downloads and original sources/claims
+are preserved. Next is controlled local reproduction and strict repair, with
+failure metadata ordered before large tensors; no new university run is prepared.
+See report/checks/2026-11-17-pgd-publication-metadata-v1-target-review.md.
+
+November 17: one exact metadata-only read is approved and locally armed, with
+all 16,476 prior hashes and the 142/277 saved fixture/partial-tree entries intact.
+Real local preflight passes. No read attempt, SSH or target work has started.
+Next: user runs the attended metadata helper once after VPN connects; it returns
+only the hash-bound saved session record. The experiment is not restarted.
+See report/checks/2026-11-17-pgd-publication-metadata-v1-arming.md.
+
+November 17: the scanner-repair attempt stopped during work, then its same-SSH
+collection hit the original ten-minute deadline. Local review preserves 261 files
+(1,196,155,379 bytes), including five complete objective records and two saved
+passing comparisons; the sixth record is incomplete. The received work receipt
+says failed; missing session.json contains the unknown parent error. This is not
+a complete eight-gradient validation or training admission. All prior evidence
+and the consumed claim remain unchanged. A new exact metadata-only helper is
+reviewed and UNARMED: 31 new local checks pass, plus separate saved/source audit.
+It reads only the hash-bound control/session files after one new explicit scoped
+read-only connection approval; no model/proof/GPU work or download retry. See
+report/checks/2026-11-17-pgd-publication-collection-timeout-v1.md and
+report/checks/2026-11-17-pgd-publication-metadata-v1-local-review.md. Caps/holds unchanged.
+
+## 2026-11-17 — Scanner-repair attempt approved and armed
+
+The user approved the exact new upload/resource/one-attempt scope. Only the final
+scanner-repair handoff has its authorization; no ATTEMPT or connection has started.
+All16,116priorhashes and14,751fixture entries match; the old FIFO stays lstat-only.
+Real local preflight passes56pins/69sources and the actual17,192,095Bpacket hash,
+without decoding pixels/checkpoint or running tests, science, timer, SSH or GPU.
+The arming receipt and authorization are sealed. No earlier grant or evidence changes.
+
+Next run the single attended Mac command after VPN connects. No further approval
+or manual status paste is needed for unchanged scope. Forty minutes work includes
+setup/full2.5GiBproof/eight fresh gradients/two componentVJPs/oneinner, ten minutes
+same-SSHcollection within fifty minutes including login. Old partial captures stay
+separate. Original strict gates/caps remain; refusal consumes the attempt. Never
+repeat/rearm/reset/retry collection; inspect local output after Done/error.
+Scientific/financial qualification and caps/holds remain unchanged. See the
+[arming record](report/checks/2026-11-17-pgd-publication-handoff-v1-arming.md).
+
+## 2026-11-17 — Fresh attended scanner-repair handoff ready, unarmed
+
+The new outer/client/CLI and cold preparer bind the exact reviewed69source bundle
+and supervised control. Only their policy/source/authority/local-coverage/verifier
+bindings change; remote session, alarms, preflight, claim/setup/directory/collection
+logic stays exact. Client changes three imports and CLI one. Fifty-six local pins,
+full172asset/419result catalogue, original host/numerical/resource/clock/reference/
+financial scope and all old consumed evidence remain intact.
+
+All22distinct new checks pass on the first run, with no failing or repeated passing/
+historical/scientific tests. Actual metadata/source/cache/journal/claim/header paths
+run with explicit fake target/GPU/process/worker/reserve/packet/clock/alarm/data
+bindings. Occupied-GPU preclaim refusal and claimed inert worker failure/collection
+routes pass; consumed counters and copied/old authority refuse. No target work,
+proof/model/array/scientific import/child/timer/signal/network/GPU/paidwork occurs.
+Independent saved-file review passes15,904priorhashes and14,475fixture entries;
+FIFO is lstat-only. The new evidence seal pins16,116regular hashes and276entries.
+
+Next request one exact new10614 upload/attempt scope. It allows the original40min
+work/full2.5GiBproof/eight matched gradients/two componentVJPs/oneinner, ten minutes
+same-SSH collection within fifty minutes including login. It reruns the complete
+sequence; the earlier three partial captures stay separate. No repeated manual
+GPU/key paste. After approval, real local packet bytehash preflight and arming
+precede one attended Mac command. The final folder remains unarmed without an
+AUTHORIZATION or ATTEMPT. Scientific/financial admission and caps/holds stay
+unchanged. See the [handoff review](report/checks/2026-11-17-pgd-publication-handoff-v1-local-review.md).
+
 ## 2026-11-17 — Full scanner source bundle and collection compatibility reviewed
 
 The scanner correction is integrated into fresh local policy/contract/bootstrap

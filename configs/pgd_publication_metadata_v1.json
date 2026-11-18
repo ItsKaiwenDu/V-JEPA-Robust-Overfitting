@@ -1,0 +1,76 @@
+{
+  "authorized": false,
+  "date": "2026-11-17",
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "kind": "pgd-publication-metadata-v1-reviewed-unarmed-configuration",
+  "plan": {
+    "evidence_pins": {
+      "runs/pretrained/diagnostic/pgd-publication-handoff-v1-20261117/collection-timeout-review-20261117/fixture-layout-preserved.json": {
+        "bytes": 103611,
+        "mode": 420,
+        "mtime_ns": 1794976607114001921,
+        "sha256": "588fff30c4ea745663e60a5d5cb6791a09c12453e4c9d2e7bac2262c3b233fbc"
+      },
+      "runs/pretrained/diagnostic/pgd-publication-handoff-v1-20261117/collection-timeout-review-20261117/independent-saved-review.json": {
+        "bytes": 6366,
+        "mode": 420,
+        "mtime_ns": 1794976606647727019,
+        "sha256": "29d5c70c4709125875b353830026ae88c5081a4f3cc6050094b3546db17d424a"
+      },
+      "runs/pretrained/diagnostic/pgd-publication-handoff-v1-20261117/handoff-parent/linux10614-final-unarmed/ATTEMPT.json": {
+        "bytes": 326,
+        "mode": 384,
+        "mtime_ns": 1794975304406512273,
+        "sha256": "2eb0dc0ad3058a09f069c0b3abebf14fc90bbe5843371c33516e5f9328727424"
+      },
+      "runs/pretrained/diagnostic/pgd-publication-handoff-v1-20261117/handoff-parent/linux10614-final-unarmed/attended-session/ROOT-RECEIPT.json": {
+        "bytes": 475,
+        "mode": 384,
+        "mtime_ns": 1794975309476695364,
+        "sha256": "8ffbe347e28fb971039ac79c37ea74e4085f97c06f7588decdb93728d7acda18"
+      },
+      "runs/pretrained/diagnostic/pgd-publication-handoff-v1-20261117/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/final-receipt.json": {
+        "bytes": 887,
+        "mode": 384,
+        "mtime_ns": 1794975487579895543,
+        "sha256": "90deb755563a6f14de74d5005f132cda778dca2c7619c3725480ae2a48e4c744"
+      }
+    },
+    "host": "linux10614.dc.engr.scu.edu",
+    "kill_grace_seconds": 1,
+    "kind": "pgd-publication-metadata-read-v1-plan",
+    "known_hosts_sha256": "a033b9814461ec34179d2f8eae91b5bfe410b23c105cbe3c87ff1722bcf7d674",
+    "local_directory": "/Users/kaiwendu/Documents/GitHub/V-JEPA-Robust-Overfitting/runs/pretrained/diagnostic/pgd-publication-metadata-v1-20261117/linux10614-unarmed",
+    "maximum_new_reads": 1,
+    "model_GPU_proof_or_paid_work": false,
+    "original_control_sha256": "03ddfc3fe3ec900213b7161251b445b436d6378783a18c591ac0722a729e0d0d",
+    "read_seconds": 20,
+    "remote_source_sha256": "29b20e763061de8033d0bbd37192190cef02151ebd1c0fa8d70b2d008647b92e",
+    "remote_writes": false,
+    "repository": "/Users/kaiwendu/Documents/GitHub/V-JEPA-Robust-Overfitting",
+    "response_bytes": 1048576,
+    "scratch": "/var/tmp/vjepa-pgd-split-v1-2170-3f7b6ee518807ee36e330805082f28ea44a069bdf6cd59593804ea745a3ceb16",
+    "session_sha256": "055f34ea7eadeb6f880838d2c20fb5bec47cd7d29025f6e44a8d19723c80aede",
+    "source_pins": {
+      "models/pgd_publication_metadata_v1.py": "4a44740f154c9de1a17b0e378c707debade0b78a54da728de9bf644b9644231a",
+      "scripts/pgd_publication_metadata_remote_v1.py": "29b20e763061de8033d0bbd37192190cef02151ebd1c0fa8d70b2d008647b92e",
+      "scripts/run_pgd_publication_metadata_v1.py": "558936fd3b1fc50c4e6e384fe9357bc18b9b0510563f86a0de702de908aa7ac9"
+    },
+    "stderr_bytes": 16384,
+    "transport_seconds": 180
+  },
+  "plan_sha256": "3ed0e0fbfd251cdc089b4a958f6f189a9d8f55881fb1cf9fdf305aea2295a0a2",
+  "remote_source_bytes": 6194,
+  "scientific_qualified": false,
+  "target_connection_or_work_executed": false,
+  "tests": {
+    "distinct_pass": 31,
+    "errors": 0,
+    "executions": 31,
+    "failures": 0,
+    "historical_or_scientific_cohort_repeats": false,
+    "passing_repeats": 0,
+    "skips": 0
+  },
+  "training_admitted": false
+}

@@ -2,6 +2,199 @@
 
 ## Current stage
 
+LATEST November 17: METADATA READ CONSUMED SUCCESSFULLY; RAW-PARTIAL MONITOR FAILURE IDENTIFIED.
+Read report/checks/2026-11-17-pgd-publication-metadata-v1-target-review.json/md.
+Only LOCALreview completed after userDone. No new SSH/query/upload/proof/model work.
+Metadata SSHexit0,4477Bresponse,2970BsessionSHA055f34ea7eadeb6f880838d2c20fb5bec47cd7d29025f6e44a8d19723c80aede
+matches plan+original received failedworkreceipt. READ-ATTEMPT consumed; no retry,
+rearm/reset or repeat oldexperiment/download. All university grants now consumed.
+No new targetscope/handoff or approvalrequest prepared; no manual GPU/key paste.
+
+Saved parent FileNotFoundError: cotangent-14.npy.partial. Eight frames reach
+numerical monitor gate ->OuterJournal.checkpoint line544 then truncate; owned
+numerical child savedexit-15. Sessionphasefailed/completedprefixproof matches
+original finalreceipt, and proofreceipt now joins savedallocation-result. This
+workfailure precedes separatecollectiontimeout. Five objective completions/two
+savedpassingpairs remain partial, no full8gradient/component/replay/performance/
+training qualification. All oldraw files/claims/sourcebounds/financialholds stay.
+
+Approvedsource Guard.scan list->stat recovers ONLYmutableJSONmetadata, so raw.npy
+partials still reraise. Immutablewriter useslink(final)+unlink(partial). A listed
+partial can disappear at publication; exactliveinode/interleaving NOTrecorded.
+Do not claim reproduction or a testedrawrepair yet. Separate stdlib saved/hash/
+AST audit FIRSTPASS16482priorhashes+142fixture+277consumedtreeentries. No project/
+testcallbacks,arraydecode,child/timer/network/GPU/proof/model/newscience;31passing
+helperchecks NOTrepeated. Newdecoded session retained separately, oldtree untouched.
+
+NEXT LOCAL ONLY: reproduce immutable rawpartial discovery/publication with real
+small owned inertbytes and controlled fake schedule. Design strict phase-aware
+observation/accounting for two-link and removedpartial states; preserve exact
+identity/owner/link/ancestry/category/file/reserve/settled gates. No blanket ENOENT
+suppression, unbounded rescan/polling or relaxed numerical/resources. Also review
+failure-metadata-first ordering within originalbounded collection before another
+attended package. Preserve allcandidate/test revisions/fixtures; newfocusedcases
+only, no passing/historical/scientific repeats. Separate savedsource audit before
+any newscope; no remoteattempt/cleanup/oldclaimreset/holdrelease. User commits/
+pushes, neveragent. Earlier LATEST entries historical.
+
+LATEST November 17: METADATA-ONLY READ APPROVED; EXACT FOLDER ARMED, READ NOT STARTED.
+Read report/checks/2026-11-17-pgd-publication-metadata-v1-arming.json/md.
+User call_692dc6066fd14377abd0380b6f6623fd approved ONE metadata-only read.
+ONLY pgd-publication-metadata-v1-20261117/linux10614-unarmed now has548B AUTHORIZATION
+SHA9d14c00e0662b351d75d65004e43ad5c2361a34770ad0fd62abef3f39c904b69.
+Plan3ed0e0fbfd251cdc089b4a958f6f189a9d8f55881fb1cf9fdf305aea2295a0a2 unchanged.
+All16476priorhashes+142newfixtureentries+277consumedtreeentries preserved.
+Real unmocked LOCALcheck_local PASS3sources/5incidentpins/plan/grant/hostkey;
+no new tests/clock/timer/READ-ATTEMPT/SSH/model/proof/GPU/paidwork. Grant unspent.
+
+NEXT give ONE attended LOCALMac caffeinate .venv/bin/python-I-S-B command with
+scripts/run_pgd_publication_metadata_v1.py and exact absolute metadatafolder.
+No agentSSH. User waitsVPNfullyconnected and enters passwordprompt promptly;
+keepsMac/Terminalopen up to3minutes. No further approval or manual GPU check
+needed for unchanged exactscope. Remote6194Bstdlib onlycontrol.json128KiB hash+
+session.json256KiB return, exact oldroot/control/sessionSHA,20s+1skillgrace,
+180sclientincludinglogin/1MiBresponse/16KiBstderr. One connection/read only.
+AfterDone/error inspect ONLYlocalmetadatafolder responses first; NEVER repeat/
+reset/rearm read or originallaunch/download. Originalexperiment remains consumed;
+no array/proof/model/restart/GPUquery/oldcleanup/financialholdrelease permission.
+Old numericalclaims stay partial; scientific/performance/training pending.
+User stages/commits/pushes, NEVER agent. Earlier LATEST entries historical.
+
+LATEST November 17: SCANNER-REPAIR ATTEMPT CONSUMED; WORK FAILURE + PARTIAL COLLECTION TIMEOUT.
+Read report/checks/2026-11-17-pgd-publication-collection-timeout-v1.json/md and
+report/checks/2026-11-17-pgd-publication-metadata-v1-local-review.json/md/-scope.md.
+User call_48ebdd19b3944f87a9675d6dd8a9769d grant is CONSUMED. Never rerun/rearm/reset
+its launch/claim/clock or retry the old collection. No new university work approved.
+One new exact scoped read-only connection approval is required before arming or SSH.
+No repeated manual GPU/key paste; user stages/commits/pushes, never the agent.
+
+Original final remains pgd-publication-handoff-v1-20261117/handoff-parent/linux10614-final-unarmed.
+Saved work receipt says failed, completed prefix only proof; parent error unknown
+because session.json did not arrive. Five complete objective records0..4 and185
+artifact/15proof-file/progress hash joins verify; two saved pair checks pass.
+These are SAVED metrics, not numerical recomputation. Sixth record incomplete;
+prediction-5.npy2097152/7209088B. Local261files1196155379B preserved; no whole-transfer
+manifest/terminal/collection receipt. Full8gradient/component/replay/backend/
+performance/training qualification pending. Do not assume earlier scan error recurred.
+All16121priorhashes+14751fixtures+consumed partial tree unchanged; FIFO LSTATONLY.
+
+NEXT request ONE exact scoped metadata-only approval under reviewed -scope.md.
+Fresh pgd-publication-metadata-v1-20261117/linux10614-unarmed contains ONLY PLAN.json/
+known-hosts; no AUTHORIZATION/READ-ATTEMPT/response. New6194Bstdlib program+public
+bindings via one pinnedSSH to kdu@linux10614.dc.engr.scu.edu reads ONLYcontrol.json
+128KiB(hashonly) andsession.json256KiB(return). SessionSHA055f34ea7eadeb6f880838d2c20fb5bec47cd7d29025f6e44a8d19723c80aede
+joins already received final failed workreceipt. Exact oldroot3f7b6ee... unchanged.
+20sremote+1skillgrace;180sclientincludinglogin;1MiBresponse/16KiBstderr; ownhelper
+cleanup only. No serverwrites/listing/processquery/GPU/model/proof/arrays/archive/
+cache/oldcleanup/install/paidwork/packet/financialledger/privatekey upload or retry.
+31distinct new localchecks FIRSTPASS; real inertmetadata, fake target/process/
+selector/clock APIs. Separate stdlib saved/hash/AST audit PASS; auditor-only
+constant parser corrected in preservedv2; no helper/test change or repeatedcase.
+AFTER exact new approval: reverify seal/pins, arm ONLYthisfolder, no oldgrantreset;
+give ONE attendedLOCALMac command scripts/run_pgd_publication_metadata_v1.py exact
+folder. No agentSSH. AfterDone inspect localresponse first, NEVERretry consumedread.
+Financialcaps/holds/reconciliation unchanged. Earlier LATEST entries historical.
+
+LATEST November 17: USER APPROVED SCANNER-REPAIR ATTEMPT; FINAL ARMED, NOT STARTED.
+Read report/checks/2026-11-17-pgd-publication-handoff-v1-arming.json/md.
+Usercall_48ebdd19b3944f87a9675d6dd8a9769d approved one bounded scanner-repair attempt.
+ONLY runs/pretrained/diagnostic/pgd-publication-handoff-v1-20261117/handoff-parent/
+linux10614-final-unarmed now has AUTHORIZATION.json1654B SHA
+475ac2ef78e6c463932d0e43cd3f8ec43e9708b46c39f7501263efdeb38ea09b.
+Control3f7b6ee518807ee36e330805082f28ea44a069bdf6cd59593804ea745a3ceb16;
+outer34749B SHA9af62ffbb15f244ffea0eb2adafa6fa5d39762e93c54eb65217246be36b0fa6a;
+supervised03ddfc3fe3ec900213b7161251b445b436d6378783a18c591ac0722a729e0d0d.
+Do not copy/rename/rearm/reset or touch earlier consumed grants/evidence.
+
+All16116priorsealedhashes+14751fixtureentries match; FIFO LSTATONLY NEVEROPEN.
+REAL UNMOCKED LOCAL predictor_pgd_publication_client_v1.check_local PASS actual
+control/grant/56pins/69coldcompiledsources/envelope/knownhost/actual17192095Bpacket
+BYTEHASH2278bce2b519943c0f83a49c556bb73dd928fe880fba0f6c56de2a4c3c2ec0da.
+No pixel/checkpoint/array decode, science, tests/cohorts, client timestamp/timer,
+ATTEMPT/session, child, SSH/GPU/proof/model/targetwork/paidcompute while arming.
+Grant UNSPENT until ATTEMPT. Armed seal16121regularhashes; raw armingreceipt retained.
+
+NEXT give ONE attended LOCAL Mac caffeinate .venv/bin/python-I-B command with
+scripts/run_predictor_pgd_publication_v1.py and exactFINALabsolutehandoff. NoagentSSH.
+No further approval or repeated manual GPU/key paste for unchanged approvedscope.
+User waitsVPNfullyconnected/passwordprompt and keepsMac/lid/Terminalopen up to50min.
+Strictlivehost/UUID/driver/foreigncompute/XFS/source/process/ownership/backend/
+numerical/clock guards stay. One40minwork incl setup/full2.5GiBproof/eight fresh
+matched gradients/two componentVJPs/oneinner;10min SAME SSH collection within
+50minTOTALincludinglogin. Full sequence reruns; old3partial captures stay separate.
+Same3GiBsetup/2.25GiBcapture/3GiBresponse/raw1792MiB/meta64MiBincltrace8/allocator7GiB/
+componentRSS4GiB caps. No retry/separate retrieval/old cleanup/install/extrapoints/
+completed-cohort repeats/privatekey/heldout/checkpointupload/oldclaimreset/paidwork/
+financialholdrelease. Refusal consumes this one attempt; leave foreign jobs alone.
+After Done/error inspect ONLY LOCAL exactfinal ATTEMPT/attended-session first;
+NEVERrerun/rearm/reset/retry collection under same grant. All old evidence stays.
+Scientific/fullPGD/replay/backend/performance/training qualification pending;
+financial caps/holds/reconciliation unchanged. User stages/commits/pushes; NEVER do it.
+Earlier LATEST entries historical.
+
+LATEST November 17: FRESH SCANNER-REPAIR ATTENDED HANDOFF REVIEWED; FINAL UNARMED.
+Read docs/predictor_pgd_publication_handoff_v1.md, its config and
+report/checks/2026-11-17-pgd-publication-handoff-v1-local-review.json/md and -scope.md.
+One new exact scoped linux10614 approval is required before arming or university work.
+All previous grants consumed. No new SSH/upload/query/proof/model/target work ran.
+No repeated manual GPU/key paste; helper enforces strict live guards after approval.
+
+ONLY runs/pretrained/diagnostic/pgd-publication-handoff-v1-20261117/handoff-parent/
+linux10614-final-unarmed is ready with CONTROL-CANDIDATE/SOURCE-PAYLOAD/PACKAGE/
+known-hosts; NO AUTHORIZATION, ATTEMPT or attended-session. Do not copy/rename.
+Outer control3f7b6ee518807ee36e330805082f28ea44a069bdf6cd59593804ea745a3ceb16;
+outer34749B SHA9af62ffbb15f244ffea0eb2adafa6fa5d39762e93c54eb65217246be36b0fa6a;
+supervised03ddfc3fe3ec900213b7161251b445b436d6378783a18c591ac0722a729e0d0d.
+Source69files888096B/envelope1187245B;56local source/input pins. Full172assets/
+419results/26setupdirs. Payload+supervised control EXACT preceding reviewed
+publication integration; original host/resource/reference/financial scope stays.
+Only scanner+bootstrap differ from prior10614 runtime; other67target sources exact.
+Outer changes only policy/boot/control/auth/local-coverage literals, pure-verifier
+paths/preparer import. Full remote_session/Alarms/preflight/claims/setup/directory/
+collection/preclaim-refusal AST exact. Client3imports, CLI1import; complete byte
+inverses pass. Local pins retain all44old dependencies plus12new bindings/inputs.
+
+22distinct new checks FIRSTPASS; failures/errors/skips0; passing/historical/
+scientific repeats0. Real local metadata/source/hash/cache/catalogue/directory/
+journal/claim/header checks; GPU/host/PID/process/worker/reserve/packet/collection
+payload/alarm/remote clocks explicit fakes. Emergency fixtureZERO. Unarmed
+client timestamp uses fake clock. Real packet hashing stubbed in tests and MUST
+run unmocked locally AFTER scoped approval. Old authority, missing/stale pins,
+copied folders, consumed counter reuse, root/clock/scanner/reserve-header drift
+refuse. Busy preclaim and claimed inert proof-worker failure/collection routes
+verified; no actual worker/proof/model/array/scientific import/child/signal/timer/
+network/SSH/GPU/paidcompute. Both lifecycle records retained, no result promotion.
+Separate stdlib saved/hash/AST audit FIRSTPASS15904priorhashes+14475fixtureentries;
+FIFO LSTATONLY NEVEROPEN/READ/HASH. Raw sealed-local-publication-handoff-v1.json
+pins16116regularhashes; fixture-layout-preserved.json276entries. Preserve all.
+
+NEXT request ONE exact scoped approval now, with reviewed -scope.md: upload
+unchanged17192095B training/reference packet,69sources888096B,34749Bouter plus
+boundmetadata including unchanged HISTORICAL budget snapshot to
+kdu@linux10614.dc.engr.scu.edu fresh private/var/tmp. One40minwork includes original
+setup/full2.5GiB allocation/write/fsync/readback proof/eight fresh matched gradients/
+two componentVJPs/oneinner;10min SAME SSH collection,50minTOTALincludinglogin.
+Full fresh sequence repeats earlier partial objectives; old3captures stay separate,
+not resumed/relabelled. No completed scientific cohort repeat or extra objective.
+Original caps3GiBsetup/2.25GiBcapture/3GiBresponse/raw1792MiB/meta64MiBincltrace8/
+allocator7GiB/componentRSS4GiB and all strict gates/clocks stay. No retries/separate
+retrieval/old cleanup/install/privatekey/heldout/checkpointupload/oldclaimreset/
+paidcompute/financial hold release. Refusal consumes one attempt; leave foreign
+processes alone. Current snapshot is no reservation. User must wait for VPN.
+
+AFTER exact approval ONLY arm exactFINAL, verify oldseal/layout/all56pins, real
+LOCAL predictor_pgd_publication_client_v1.check_local INCLUDING actual17192095B
+packet BYTEHASH2278bce2b519943c0f83a49c556bb73dd928fe880fba0f6c56de2a4c3c2ec0da,
+without pixel/checkpoint decode. Record/seal arming; give ONE attended LOCALMac
+caffeinate .venv/bin/python-I-B scripts/run_predictor_pgd_publication_v1.py exact
+FINALabsolute path. No agentSSH, reapproval or manual status paste for unchanged
+scope. User enters password promptly, keepsMac/lid/Terminalopen up to50min. After
+Done/error inspect ONLY LOCAL finalATTEMPT/attended-session first. NEVERrerun/rearm/
+reset/retry collection under the same grant. All old sources/claims/results stay.
+Scientific/fullPGD/replay/backend/performance/training pending; financial caps/
+holds/reconciliation unchanged. User stages/commits/pushes; NEVER do it.
+Earlier LATEST entries historical.
+
 LATEST November 17: COMPLETE LOCAL SCANNER INTEGRATION REVIEWED; NO ATTENDED HANDOFF.
 Read docs/predictor_pgd_publication_integration_v1.md, its config and
 report/checks/2026-11-17-pgd-publication-integration-v1-local-review.json/md.
