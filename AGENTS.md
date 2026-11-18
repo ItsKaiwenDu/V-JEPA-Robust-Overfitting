@@ -2,6 +2,162 @@
 
 ## Current stage
 
+LATEST November 17: 10614 ATTEMPT CONSUMED; PARTIAL NUMERICAL WORK, PARENT FILE-SCAN FAILURE.
+Read report/checks/2026-11-17-pgd-host10614-v1-target-review.json/md.
+All university grants are consumed. Never rerun/rearm/reset this command or claim,
+retry collection, create a retrieval connection under it, or clean the failed root.
+No new university connection or compute is approved. No further manual GPU paste.
+
+Actual attended result: SSH exit1, complete same-session collection,336saved files
+721529204B independently hash-verified. All69sources exact approved payload;
+control/grant/root/install/session/proof/final receipt joins pass. Client reports
+wire721647070B with verified terminal receipt; original header/terminal not retained,
+so independent audit does not reconstruct full wire SHA. Failed work is preserved.
+Remote root /var/tmp/vjepa-pgd-split-v1-2170-251fb58811892d8c76faf2f29cbe87b1526ebaa82e69d44cd069a8c40bf79712.
+
+Full2.5GiB proof saved complete/passed: bytes written/read2684354560, fsynctrue,
+own extent removed, wall13.951739s, peak observed allocation2746777600B below3GiB.
+1926events/receipt verified. No kernel quota/reservation/computation authentication.
+Numerical status reports4gradient objectives started,2candidate points entered;
+3complete objective records0original-step0/1candidate-step0/2original-step1 survive.
+All3completion/artifact/proof/progress hash joins pass; no objective3complete.
+First pair saved checks: input maxabs5.122274160385132e-8, maxratio.05698457204906362,
+failed0; loss exact/maxerror0/failed0. All non-input artifact hashes identical.
+Metrics are SAVED WORKER CLAIMS; review byte-hashes but does NOT decode/recompute
+arrays or rerun numerical comparisons. Full8gradient/PGD/freshreplay/performance/
+backend/training admission remains false. Parent completed prefix onlyproof;
+no numerical-role completion and no component worker completion. Do not promote
+partial objective/provisional/backend records into full-run qualification.
+
+Saved parent error FileNotFoundError: [Errno 2] No such file or directory:
+'run-status.json.partial'. Diagnostic reaches owned numerical monitor gate ->
+OuterJournal.checkpoint line544 then truncates. Owned numerical child cleaned up
+with reported exit-15. Child log has deprecation warnings, no Python numerical
+exception. Source: checkpoint scans active scratch; Guard.scan lists names then
+os.stat(name,dir_fd,follow_symlinks=False); mutable Store uses os.replace(partial,
+final). A publication/discovery race is supported INFERENCE, exact scan/interleaving
+unproved by truncated frames. Never blanket-ignore FileNotFoundError or weaken
+identity/capacity/settled guards. All original byte/ownership/clock limits stay.
+19GPU journal rows have exact text/hash/length joins, no foreign-refusal in saved
+samples. Historical snapshots are NOT current availability/continuous reservation.
+Last successful storage sample need not record the later disappearing-name error.
+
+Separate saved-only stdlib review verifies15184priorhashes+13402fixtureentries;
+old FIFO LSTATONLY NEVEROPEN/READ/HASH. First auditor's full-vs-projected artifact
+comparison corrected only in separatev2; actualOuterJournal lookup and stdlib AST
+preload corrected there. Both scripts/logs retained; v2PASS. No production/source/
+test/cohort rerun, array/pickle/pixel/checkpoint decode, project/test callbacks,
+child/signal/timer/network/SSH/newquery/GPU/proof/model/science/paidwork in review.
+Raw target-review-20261117/sealed-reviewed-host10614-target.json pins15533 regular
+hashes; fixture-layout-preserved.json375consumed-handoff entries. Preserve all.
+
+NEXT LOCAL ONLY: reproduce owned mutable-JSON publication vs descriptor discovery
+with inert files/controlled fake schedule. Design bounded accounting preserving
+names, device/uid/mode/inode identity, logical+allocated/category caps, original
+clocks and strict settled refusal; reject unknown disappearance. Freeze source/
+fixtures, focused new tests only, no passing/historical/scientific repeats. Then
+independent saved/source review before preparing any new target scope. Do NOT
+implement a retry of old launch/collection, reset old claim, perform GPU probe,
+connect/upload or remove old results. No new resource approval exists. Financial
+caps/holds/reconciliation unchanged; user stages/commits/pushes; NEVER do it.
+Earlier LATEST entries are historical.
+
+LATEST November 17: USER APPROVED10614; FINAL HANDOFF ARMED, NOT STARTED.
+Read report/checks/2026-11-17-pgd-host10614-v1-arming.json/md.
+Usercall_465b462ce3a9419a919eb2aaa6b21589 approved one bounded10614attempt.
+ONLY runs/pretrained/diagnostic/pgd-host10614-v1-20261117/handoff-parent/
+linux10614-final-unarmed now has AUTHORIZATION.json1552B SHA
+ aa30858bc88accc82fec187771f40698487902f0c6912fe4d0826e45d4a7cbf1.
+Control251fb58811892d8c76faf2f29cbe87b1526ebaa82e69d44cd069a8c40bf79712;
+outer33990B SHA68d54b5018465c111b1abe53ae78be5b019fe5fd5efa4df40ab8a74a6bee96a1;
+supervisedfa2a63e358e2210ec860d15e62b252314a4898e8496993b890897cd8c823e25e.
+Do NOT copy/rename/rearm/reset or touch earlier consumed grants/evidence.
+
+All15179priorsealedhashes+13402fixtureentries match; FIFO LSTATONLY NEVEROPEN.
+REAL UNMOCKED LOCAL predictor_pgd_host10614_client_v1.check_local PASSED actual
+control/grant/44localpins/69coldcompiledsources/envelope/knownhost/actual17192095B
+packet BYTEHASH2278bce2b519943c0f83a49c556bb73dd928fe880fba0f6c56de2a4c3c2ec0da.
+No pixel/checkpoint decode, scientific imports, tests/cohorts, client timestamp/
+timer, ATTEMPT/session, child, SSH/GPU/proof/model/targetwork/paidcompute.
+Grant UNSPENT until ATTEMPT; armed seal15184regularhashes, armingreceipt retained.
+
+NEXT give ONE attended LOCAL Mac caffeinate .venv/bin/python-I-B command using
+scripts/run_predictor_pgd_host10614_v1.py and exactFINALabsolutehandoff. NoagentSSH.
+No further approval or repeated manual GPU/key status paste for unchangedscope.
+UserwaitsVPNfullyconnected/passwordprompt/keepsMac/lid/Terminalopen up to50min.
+Strictlivehost/UUID/driver/foreigncompute/XFS/process/source/ownership/numerical/
+backend/clock guards remain. One40minwork incl full2.5GiB proof/eightmatched
+original-candidate gradients/two componentVJPs/oneinner;10min SAME SSH collection,
+50minTOTALincludinglogin. Caps3GiBsetup/2.25GiBcapture/3GiBresponse/raw1792MiB/
+meta64MiB incltrace8/allocator7GiB/componentRSS4GiB unchanged. No retry/separate
+retrieval/oldcleanup/install/extrapoints/completed-cohortrepeat/privatekey/
+heldout/checkpointupload/oldclaimreset/paidcompute. Refusalconsumes oneattempt;
+leave foreignprocess alone. AfterDone/error inspect ONLYLOCAL finalhandoff
+ATTEMPT/attended-session first; NEVERrerun/rearm/reset/retrycollection.
+Scientific/training/perf/cost pendingfalse; financialcaps/holds/reconciliation
+unchanged. User stages/commits/pushes; NEVER do it. Earlier LATEST historical.
+
+LATEST November 17: USER-SUPPLIED10614 HANDOFF REVIEWED LOCALLY, READY UNARMED.
+Read docs/predictor_pgd_host10614_v1.md, config and
+ report/checks/2026-11-17-pgd-host10614-v1-local-review.json/md and -scope.md.
+One new exact scoped linux10614 approval is required before arming or target work.
+All prior grants remain consumed. No university SSH/upload/query/work occurred.
+
+User supplied hostname/GPU/status/public ED25519 key/localXFS/Python identity.
+RTX3070 8192MiB driver580.178.04 UUIDGPU-c7a30a6f-08fb-371f-41b3-86a13a1a632d;
+python3.11.17 uid2170 home_device55 scratch_device66307 root1777/var/tmp xfs/.
+Snapshot graphics-only43MiB is NOT reservation or current availability claim.
+Publickey fingerprint recomputed SHA256:ARgVRWOzRLA1LmAANxD6Ya17EIIo2sa4ZbHvkeqzgKQ.
+No more repeated manual hostname/GPU/key paste; launcher checks strict live gates.
+
+ONLY runs/pretrained/diagnostic/pgd-host10614-v1-20261117/handoff-parent/
+linux10614-final-unarmed is ready with CONTROL-CANDIDATE/SOURCE-PAYLOAD/PACKAGE/
+known-hosts, NO AUTHORIZATION or ATTEMPT. Do not copy/rename/arm before approval.
+Control251fb58811892d8c76faf2f29cbe87b1526ebaa82e69d44cd069a8c40bf79712;
+outer33990B SHA68d54b5018465c111b1abe53ae78be5b019fe5fd5efa4df40ab8a74a6bee96a1.
+Payload69sources878701B/envelope1174717B;44local pins;172assets419results26setupdirs.
+13sources change:10runtime host literals/five positive tiny-CPU exclusions/two
+ownership-pin edges, plus3supervisor dependent identity/hashes. All56others exact.
+Old tiny exclusions retain03/09 and add14; NEVER broaden projection allowlist,
+which stays byte-identical. CPU->upstream->target ownership joins. Store and
+monitor repaired source exact. Runtime math/reference values/seeds/gates unchanged.
+Remote session, Alarms, claim/setup/directory/collection AST exact; client3imports,
+CLI1import only. Historical host/base/design/financial provenance stays unchanged.
+All source byte inverses and current policy/contract/readers/manifest joins pass.
+
+37distinct focused checks PASS across38executions: first36pass1test-onlyfailure;
+AST test reader corrected for computed PINS entry; ONLYfailedcase reran andpassed.
+Production sources unchanged after first run; passing/historical/scientific repeats0.
+Both revisions/logs/fixtures preserved. Real local metadata/source/cache/catalogue/
+journal/claim/header behavior; target/GPU/PID/process/worker/reserve/packet/collection
+payload/remote clocks/alarms explicit fakes. Reserve fixtureZERO. No proof, model,
+array, scientific import, child, signal, timer, network or paidcompute. Unarmed
+client timestamp read only; no claim. Actual packet hash stubbed in local tests.
+Separate stdlib saved/hash/AST audit FIRSTPASS14956priorhashes13115fixtureentries;
+FIFO LSTATONLY NEVEROPEN/READ/HASH. New sealed-local-host10614-v1.json pins15179
+regularhashes; fixture-layout-preserved.json287entries. Preserve all earlierfiles.
+
+NEXT request ONE exact scope from -scope.md (ready now): kdu@linux10614.dc.engr.scu.edu,
+fresh private/var/tmp; unchanged17192095Btraining/reference packet,69sources878701B,
+33990Bouter +boundmetadata including unchanged HISTORICAL budget snapshot, NOTfresh
+balance. One40minwork includes full2.5GiB allocation/write/fsync/readback proof,
+8matched original/candidate gradients,2componentVJPs/1inner;10min SAME SSH collection,
+50minTOTALincludinglogin. Original phase clocks and caps3GiBsetup/2.25GiBcapture/
+3GiBresponse/raw1792MiB/meta64MiB incltrace8/allocator7GiB/componentRSS4GiB unchanged.
+StrictliveGPU/foreigncompute/host/XFS/source/process/ownership/numerical/backend/
+clock gates remain. No retries/separate retrieval/old cleanup/install/extrapoints/
+completed-cohort repeats/privatekey/heldout/checkpointupload/oldclaimreset/paidwork.
+Refusal consumes this single attempt; leave foreign processes alone.
+AFTER approval only arm exactFINAL, verify saved seal/all44pins, real LOCAL
+predictor_pgd_host10614_client_v1.check_local including actual17192095BpacketBYTEHASH
+without pixel/checkpoint decode. Record/seal arming; give ONE attended LOCALMac
+caffeinate .venv/bin/python-I-B scripts/run_predictor_pgd_host10614_v1.py exactFINAL.
+No agentSSH. UserwaitsVPNready/passwordprompt/keepsMacTerminalawake up to50min.
+No reapproval/manual status paste for unchanged approvedscope. AfterDone/error
+inspect ONLYLOCAL savedATTEMPT/session first. NEVERrearm/reset/rerun/retrycollection.
+Scientific/training/perf/cost pending/false; financialcaps/holds/reconciliation
+unchanged. User stages/commits/pushes; NEVER do it. Earlier LATEST historical.
+
 LATEST November 17: REPAIRED PGD ATTEMPT CONSUMED BY SETUP FOREIGN-COMPUTE REFUSAL.
 Read report/checks/2026-11-17-pgd-close-handoff-v1-guard-refusal-review.json/md.
 All university grants are consumed. NEVER rerun/rearm/reset this command/claim,

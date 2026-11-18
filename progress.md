@@ -1,5 +1,74 @@
 # Research Progress Reports
 
+## 2026-11-17 — 10614 reached model work; status-file scan stopped the attempt
+
+The saved2.5GiB storage proof passed. Three objective captures completed out of
+eight required: original/candidate at step0 and original at step1. The first
+pair's saved checks pass the original bounds with zero failed elements; input
+maximum absolute error is5.1223e-8 and loss error is zero. All non-input artifact
+hashes match. These are partial saved results; the full PGD/replay/performance/
+training validation remains incomplete. Four objective starts are recorded.
+
+The parent failed on missing run-status.json.partial while monitoring its child,
+then stopped that owned numerical child and collected the failed state through
+the same SSH. Source supports a race between mutable JSON atomic publication and
+list-then-stat inventory scanning; the truncated trace cannot identify the exact
+interleaving. Next reproduce and repair this locally with inert files while
+preserving strict ownership, storage and clock gates. No automatic rerun.
+
+All336collected files/721,529,204B and69approved sources independently hash-match;
+prior15,184hashes/13,402fixture entries remain exact. The old FIFO is lstat-only.
+No arrays were decoded or metrics recomputed, and no new test/cohort/remote/GPU/
+proof/model work ran in review. Both saved-only auditor versions/logs remain;
+v2corrects descriptor-projection/class-name assumptions and passes. The new seal
+pins15,533regular hashes and375consumed-handoff entries. This grant is consumed;
+never rerun/rearm/reset/retry collection or clean the root. Financial caps/holds
+remain unchanged. See the [target review](report/checks/2026-11-17-pgd-host10614-v1-target-review.md).
+
+## 2026-11-17 — linux10614 attempt approved and armed
+
+The user approved the exact new host/upload/one-attempt scope. Only the final
+10614 handoff has its authorization; no attempt or connection has started. All
+15,179 prior hashes and13,402 fixture entries match; the old FIFO remains lstat-only.
+Real local preflight passes44pins/69sources and the actual17,192,095B packet hash,
+without decoding pixels/checkpoint or running tests, science, timer, SSH or GPU.
+Armed evidence is sealed; earlier grants/results remain unchanged.
+
+Next run the single attended local Mac command after VPN connects; no further
+approval or manual status paste is needed. Forty minutes work/full2.5GiBproof/
+eightmatchedgradients/two componentVJPs/oneinner, ten minutes same-SSH collection,
+fifty minutes including login. Original strict guards/caps remain. A refusal
+consumes the attempt; never repeat/rearm/reset/retry collection. Review saved
+local output after Done/error. Qualification remains pending and all financial
+caps/holds unchanged. See the [arming review](report/checks/2026-11-17-pgd-host10614-v1-arming.md).
+
+## 2026-11-17 — linux10614 handoff ready for one new scoped approval
+
+The user's new workstation identity is bound to a fresh unarmed PGD handoff.
+Thirteen of69uploaded sources change only execution-host identity, five strengthened
+university CPU exclusions and dependent hashes; fifty-six stay exact. Store,
+monitor, scientific bodies/reference values, numerical/resource/ownership/clock
+bounds and historical financial bytes remain. The old projection allowlist stays
+unchanged; CPU/upstream/target ownership pins join. No university work occurred.
+
+All37distinct focused checks pass across38executions:36passed initially, one test
+AST reader was corrected and only that failed case reran. Both revisions and all
+fixtures remain. Target/GPU/process/proof/worker/packet/remote clocks use explicit
+fakes; real metadata/source/cache/journal/claim/header checks run. No model,
+scientific array/import, actual child/signal/timer, SSH, GPU query or paidcompute.
+The separate stdlib saved-file audit passes14,956priorhashes/13,115fixture entries;
+the old FIFO is lstat-only. The new seal pins15,179regular hashes and287fixture
+entries. Final package has four unarmed files,44local pins and no authorization.
+
+Next request one exact10614 approval covering unchanged17,192,095Bpacket,
+69sources878,701B,33,990Bouter and bound historical metadata. One40minwork includes
+full2.5GiBproof/eight matched gradients/two componentVJPs/oneinner; same-SSH
+collection10min; total50minincludinglogin. Strictliveguards and allcaps remain.
+Prior grants are consumed. No repeated manual GPU/key paste; launcher checkslive.
+Actual local packet hashing and arming follow approval. Scientific/full-model/
+training/performance qualification and financial holds/caps remain unchanged.
+See the [new-host review](report/checks/2026-11-17-pgd-host10614-v1-local-review.md).
+
 ## 2026-11-17 — Repaired PGD attempt refused before proof/model work
 
 SSH and source/packet setup reached linux10609's parent GPU preflight. Its saved

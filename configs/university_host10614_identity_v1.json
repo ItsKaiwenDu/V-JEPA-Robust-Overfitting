@@ -1,0 +1,21 @@
+{
+  "hostname": "linux10614",
+  "python": "3.11.17",
+  "uid": 2170,
+  "home_device": 55,
+  "scratch_device": 66307,
+  "scratch_owner": 0,
+  "scratch_mode": 1023,
+  "scratch_path": "/var/tmp",
+  "filesystem": "xfs",
+  "mount": "/",
+  "gpu_name": "NVIDIA GeForce RTX 3070",
+  "gpu_uuid": "GPU-c7a30a6f-08fb-371f-41b3-86a13a1a632d",
+  "memory_total_MiB": 8192,
+  "driver": "580.178.04",
+  "public_key": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIAELc+tu7f+683dQbOPg5lndZ9pGDeODvo8r1Sp8d7ri",
+  "source": "User-provided read-only SSH outputs, 2026-11-17",
+  "snapshot_GPU_memory_used_MiB": 43,
+  "snapshot_compute_processes_listed": false,
+  "snapshot_is_not_reservation": true
+}
