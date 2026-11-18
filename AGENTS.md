@@ -2,6 +2,113 @@
 
 ## Current stage
 
+LATEST November 18: PRIORITY/BYTE-DEDUP PAIRED CODEC REVIEWED LOCALLY; NO RUNTIME BINDING.
+Read docs/predictor_pgd_priority_collection_v1.md, its config and
+report/checks/2026-11-18-pgd-priority-collection-v1-local-review.json/md.
+All university grants remain consumed. No SSH/query/upload/GPU/model/proof/paidwork,
+new targetscope/handoff/approvalrequest or command prepared. No manual status paste.
+User stages/commits/pushes, NEVER agent. Preserve existing uncommitted work.
+
+New models/predictor_pgd_priority_collection_v1.py20955B SHA
+ a59eda60794b83deaded19ba43b4292826491f78e5ae6eeda904e29a42e589f3.
+Separate MAGIC/header/record/terminal; unchanged legacy validator mandatory.
+Explicit orderedrecords puts session/workreceipt/status first. References only
+first earlier verified DATA withsameSHA+bytes; no chains/forwardrefs. Senderstill
+reads/hashes EVERYsource incl refs. Receivercopy usesheld/namedprior identity,
+private single-link newoutputs; preservesallpaths/hash/size/mode/nsmtime.
+Rawscanner candidate a85a55... and old sources/controls/evidence unchanged.
+
+Fresh sibling journal saves canonicalHEADER+incompletePARTIAL before payloads,
+fsynced hash-chained VERIFIED-FILES rows after eachvalidfile. Journal ALWAYSfalse
+for wholetransport/streamcomplete; onlyreceive RETURN afterterminal/prefix/EOF/
+tree+journal hash/root+parent/window/diskchecks describesverifiedtransport. No
+on-diskcomplete marker. Unverifiedshortreadtail mayremain buffered/notwritten;
+never claimallwirebytes retained. Corruption/ref/source/journal/link/clock/caps
+refuse andpreserveoutputs. Diskallocation isfinalsample, notkernelquota.
+3GiBwire/expanded/disk,1MiBheader/chunks,4096record,16KiBterminal;8MiBjournalreserve
+WITHINexisting64MiBmetadata+trace/3GiBdisk,4MiBprogress. Original120sprep/600scollect/
+3000sconnection unchanged. Cooperativeonly; hardI/Oalarms requirefutureouter.
+No transfer-time/fullruntime/nativeXFS/numerical/PGD/replay/performance/trainingadmission.
+
+55distinct newcasesPASS/58executions;2assertion-onlyfailures corrected(JSONtuple/
+listnormalization; incompletebufferedtail). Codec unchangedafterfirsttestrun.
+ONEunintended passingclockcase repeat byv2 broadselector DISCLOSED; future use
+EXACTnodeIDs. No historical/sciencecohort repeats. Allsourceversions/failures/
+fixtures/logs/JUnit kept. Unmodifiedfullvalidator172asset/177file metadata, no
+payloadmaterialized. Tinyroundtrips haveexplicit fakeassets/role/clock metadata;
+realbytes/FDs/copy/hash/mode/mtime/journal. Noarrays/science/process/timer/GPU/network.
+Independent stdlib saved/hash/AST+tinywire reconstruction FIRSTPASS16629priorhashes+
+15626fixtureentries; FIFO LSTATONLY NEVEROPEN. Prefix/terminal/copiedbytes/inodes/
+journal/counters/fullassetpins and2FDcleanuprecords independentlyjoin.
+
+NEXT LOCAL ONLY: fresh COMPLETE integration of reviewedrawscanner+pairedcodec
+into policy/control/bootstrap/cache/coordinator/readers/client/outer. Resolveall
+legacy-helperimports through completepinnedsourcegraph (notcwd fallback), new
+magic/nestedbaseheader/receipt/journal shapes, strictcollectionreport compatibility,
+and continuingclocks/claim/ownership limits. Do NOT use oldouterprefixparsers or
+consumedpackages unmodified. Keep scientific/writer/reference/backend/numerical/
+resourcepolicyexact; no actualpacket/array/proof/child/GPU in inert tests. Cold
+source/cache +realmetadata/byte +fakeownedprocess/clock/role lifecycle checks and
+separate savedsourceaudit BEFORE any new universityscope. Newfocusedcasesonly;
+exacttestselection, preserveallrevisions/fixtures and disclose repeats. No old
+claimreset/retry/retrieval/cleanup/install/paidwork/financialholdrelease. Earlier
+LATEST entries historical.
+
+LATEST November 18: RAW-PUBLICATION LOCAL SCANNER CANDIDATE REVIEWED; NO TARGET BINDING.
+Read docs/predictor_pgd_raw_publication_scan_v1.md, its config and
+report/checks/2026-11-18-pgd-raw-publication-scan-v1-local-review.json/md.
+All university grants remain consumed. No SSH/query/upload/proof/model/GPU/paidwork
+or new targetscope/handoff/approvalrequest is prepared. No manual GPU/key paste.
+User commits/pushes, NEVER agent. Existing uncommitted work must stay untouched.
+
+Exact pinned repaired byteStore7bcbd863... + controlled same-thread schedules
+reproduce frozen2041e8...scanner cotangent-14.npy.partial/mixed-link failures.
+New cold models/predictor_pgd_raw_publication_scan_v1.py builds ONLY Guard.scan;
+models/predictor_pgd_raw_publication_scratch_v1.py46726B SHA
+ a85a55bab3e76229e7dc84aadbaf919fbe08b86853200b9d646a9d1687698c57.
+Full byteinverse/allotherASTs,6existingJSONhelperASTs exact; catalogue419results/
+172assets, Layout/caps/classification/assessment/read/seal/science/writer unchanged.
+Old CONTRACT retained solely for localclassification; NOT a new execution binding.
+Never substitute into old controls/packages/cache or relabel consumed evidence.
+
+Capture-only/noninitial/nonsettled permits1catalogued immutable raw.npy/.pt
+resolution with cachedinode/held+namedfinal/privateowner/device/mode/extent/link/
+mtime/ancestry gates. Exacttwo-owned-links ->singlefinal allowed; reappearance,
+foreign/thirdlinks/identitychange/pinnedname/missingfinal/secondrawresolution refuse.
+Priorone-linkpartial growth bounded, cannotshrink; linked/finalbytes+mtime exact.
+Extra fulltypedcap<=16MiB +maximumobserved allocation charged; sharedrawslot1/
+JSONslots2/metadata512KiB/category/file/logical/allocated ceilings retained.
+No rescan/poll/contentread/blanketENOENT. Quiet and strictsettled observations exact.
+Single-resolution bound conservative, not guarantee for all concurrent schedules.
+
+49distinct newchecks PASS/51executions;2initialquietfixture-permissionfailures kept
+and only failedcases rerun;38passingchecks NOTrepeated;9newcasesonce. Production
+source unchanged afterfirstchecks;all3source/testrevisions/fixtures/logs/JUnit kept.
+Real small inertbytes/FD/link/unlink/replace/fsync; controlledfakeschedules and
+selectedidentity/allocationfields; no arrays/science/child/timer/GPU/proof/network.
+Separate stdlibsaved/hash/AST reviewPASS16493priorhashes+15178fixtureentries;
+FIFO LSTATONLY NEVEROPEN.41actualpinnedbyteWriter schedulesverify. Auditoronlyv2
+structuralAST corrects harmlessunparseparentheses;bothversions retained.
+NativeXFS/fullruntime/full8gradient/replay/backend/performance/training stillpending.
+
+Collection order review: sortedinventory+canonicalJSON+sortedreceiver places
+session.json late. In5priorcompleteobjectives185artifactdescriptors,1073175700B
+vs651769484uniqueB,421406216repeatedB. NOfullcohort/timeprojection orarraydecode.
+Collection code/protocol/caps/clocks unchanged; prioritydictionaryinsertion alone
+insufficient. No new grant needed for localprep; no scope yet.
+
+NEXT LOCAL ONLY: prepare separatelyversioned failure-metadata-first bounded
+sender/receiver, persistvalidatedheader/partialreceipt, evaluatebyte-dedup backward
+references to fullyverified earliercontent with private single-link reconstruction.
+Preserve allpaths/hash/size/mode/mtime, 3GiBresponse/10mincollection/memory/diskcaps;
+reject forward/stale refs/contentmismatch/expansion/truncation/falsecompletion.
+No transfer-time guarantee until validated. Then bind BOTH scanner+newprotocol
+into freshcomplete runtime/control/policy/cache/journal/readers and test source/
+metadata/inertlifecycle integration before any universityscope. Preserve all old
+revisions/fixtures and claims;newfocusedcasesonly, no passing/historical/science
+cohort repeats. Separate savedsourceaudit before approvalrequest. No oldcleanup/
+claimreset/install/paidcompute/financialholdrelease. Earlier LATEST historical.
+
 LATEST November 17: METADATA READ CONSUMED SUCCESSFULLY; RAW-PARTIAL MONITOR FAILURE IDENTIFIED.
 Read report/checks/2026-11-17-pgd-publication-metadata-v1-target-review.json/md.
 Only LOCALreview completed after userDone. No new SSH/query/upload/proof/model work.

@@ -1,5 +1,28 @@
 # Research Progress Reports
 
+November 18: the local priority/deduplicated sender and receiver pass 55 distinct
+checks and separate saved-source/wire review. Failure status arrives first;
+references reconstruct independent private files with original byte identities.
+A saved header and verified-file journal survive interruption without claiming
+complete transfer. Original clocks and size bounds remain. Two test assertions
+were corrected and one extra passing clock execution is explicitly recorded.
+All prior hashes/fixtures are unchanged. No university work or complete runtime
+binding is prepared; next integrate both reviewed candidates and cold-test the
+full source/cache/client/outer path before another scope. Training remains gated.
+See report/checks/2026-11-18-pgd-priority-collection-v1-local-review.md.
+
+November 18: the raw temporary-file failure now reproduces locally through the
+pinned byte writer under controlled schedules. A new source-only scanner handles
+the bounded two-link/removal transitions while retaining identity and storage
+limits. All 49 distinct new checks pass; two initial quiet-fixture permission
+failures were corrected without repeating passing cases. Separate saved/source
+review preserves all 16,493 hashes and 15,178 fixture entries. No university work
+or execution binding is prepared. Next is a local metadata-first bounded transfer
+protocol: current alphabetical transfer delays session.json, and already-verified
+five-objective descriptors contain 421 MB of repeated bytes. No transfer-time or
+full PGD/training qualification follows. See
+report/checks/2026-11-18-pgd-raw-publication-scan-v1-local-review.md.
+
 November 17: the metadata-only read succeeded and its one-read grant is consumed.
 The saved session hash joins the original failed work receipt and identifies
 FileNotFoundError for cotangent-14.npy.partial in the parent file monitor, which

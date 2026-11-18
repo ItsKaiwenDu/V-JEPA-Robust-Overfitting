@@ -1,0 +1,72 @@
+{
+  "authorized": false,
+  "candidate_sha256": "a85a55bab3e76229e7dc84aadbaf919fbe08b86853200b9d646a9d1687698c57",
+  "candidate_source_bytes": 46726,
+  "changed_methods": [
+    "Guard.scan"
+  ],
+  "collection_change_implemented": false,
+  "collection_review": {
+    "authorized": false,
+    "code_or_protocol_changed": false,
+    "collection_source_sha256": "2c7fcd8a6e61a0f2f468f297fa7b9b6108b39b548123ba9c38c5653d738f7947",
+    "completed_objectives_considered": 5,
+    "date": "2026-11-18",
+    "declared_artifact_bytes": 1073175700,
+    "declared_artifact_files": 185,
+    "distinct_byte_hashes": 109,
+    "duplicate_declared_artifact_bytes": 421406216,
+    "full_eight_gradient_transfer_size_or_time_not_measured": true,
+    "kind": "offline-collection-order-and-byte-duplication-review-v1",
+    "new_remote_work": false,
+    "original_header_canonical_encoding_sorts_keys": true,
+    "original_receiver_expects_sorted_file_frames": true,
+    "original_sender_builds_sorted_inventory": true,
+    "proposed_next_steps": [
+      "Create a separately versioned sender/receiver protocol with deterministic failure-metadata-first order and persist its validated header before large frames. Insertion order alone is insufficient because JSON canonicalization sorts keys.",
+      "Evaluate strictly bounded byte-level deduplication with backward references to fully verified earlier content and reconstructed private single-link outputs. Keep every path/hash/size/mode/mtime identity and original 3 GiB response/10-minute collection limits.",
+      "Test truncation, stale references, content mismatch, expansion/memory/disk caps and false completion locally before any new attended package. A smaller wire payload is not a demonstrated transfer-time guarantee."
+    ],
+    "scientific_qualified": false,
+    "scope": "Only five previously complete objective records; no arrays decoded or new cohort run. Counts are saved declared-byte identities verified by the preceding target review.",
+    "source": "runs/pretrained/diagnostic/pgd-publication-handoff-v1-20261117/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical",
+    "status_path": "session.json",
+    "training_admitted": false,
+    "unique_declared_artifact_bytes": 651769484
+  },
+  "date": "2026-11-18",
+  "directory_rescans_or_polling": 0,
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "kind": "pgd-raw-publication-scanner-source-candidate-v1-configuration",
+  "local_source_only_not_execution_binding": true,
+  "maximum_mutable_JSON_resolutions_per_scan": 2,
+  "maximum_raw_resolutions_per_scan": 1,
+  "maximum_raw_typed_cap_bytes": 16777216,
+  "runtime_contract_caps_catalogue_writer_scientific_code_unchanged": true,
+  "scientific_qualified": false,
+  "source": {
+    "file": "models/predictor_pgd_publication_bound_scratch_v1.py",
+    "sha256": "2041e8bad06f1eb5687231410da3d42091af99b59eaf4a01e572320a3ca5c7bc"
+  },
+  "source_pins": {
+    "models/predictor_pgd_raw_publication_scan_v1.py": "81bafe2a9293a4d8dc5cee6d63e859404a4ed212a80ee72b7b761676b5cfb24d",
+    "models/predictor_pgd_raw_publication_scratch_v1.py": "a85a55bab3e76229e7dc84aadbaf919fbe08b86853200b9d646a9d1687698c57",
+    "tests/test_predictor_pgd_raw_publication_scan_v1.py": "6e24e7af95a70eac635a95daab62f57994e39c87fe028f00cb5a08ff7953b81d"
+  },
+  "target_connection_or_work_executed": false,
+  "target_handoff_ready": false,
+  "tests": {
+    "distinct_pass": 49,
+    "errors": 0,
+    "executions": 51,
+    "failed_executions_retained": 2,
+    "failed_only_reexecutions": 2,
+    "historical_or_scientific_cohort_repeats": false,
+    "passing_repeats": 0,
+    "production_source_changed_after_checks": false,
+    "skips": 0,
+    "two_failures_test_fixture_directory_mode_only": true
+  },
+  "training_admitted": false,
+  "whole_source_byte_inverse_verified_in_tests": true
+}

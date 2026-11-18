@@ -1,0 +1,80 @@
+{
+  "authorized": false,
+  "blocking_IO_alarm_still_requires_future_outer_binding": true,
+  "candidate_source_bytes": 20955,
+  "date": "2026-11-18",
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "kind": "pgd-priority-collection-v1-local-protocol-configuration",
+  "legacy_header_and_source_validator_unchanged": true,
+  "local_source_only_not_execution_binding": true,
+  "new_target_connection_or_work_executed": false,
+  "protocol": {
+    "bounded_byte_chunks": 1048576,
+    "collection_seconds": 600,
+    "connection_seconds_including_login": 3000,
+    "end_magic": "VJEPA-PGD-PRIORITY-END-1\n",
+    "first_files": [
+      "session.json",
+      "capture/results/final-receipt.json",
+      "capture/results/collection-status.json",
+      "control.json",
+      "authorization.json",
+      "installation.json",
+      "proposal.json"
+    ],
+    "header_bytes": 1048576,
+    "header_kind": "pgd-priority-evidence-stream-v1",
+    "journal_bytes_reserved": 8388608,
+    "journal_claims_full_transfer_complete": false,
+    "journal_reserve_within_existing_shared_metadata_bytes": 67108864,
+    "local_output_files_single_link_private_independent_copies": true,
+    "magic": "VJEPA-PGD-PRIORITY-EVIDENCE-1\n",
+    "preparation_seconds": 120,
+    "progress_bytes": 4194304,
+    "record_bytes": 4096,
+    "record_magic": "VJEPA-PGD-PRIORITY-FILE-1\n",
+    "reference_policy": "first earlier fully verified DATA file with identical SHA-256 and byte count; no forward references or chains",
+    "saved_journal_files": [
+      "HEADER.json",
+      "PARTIAL-RECEIPT.json",
+      "VERIFIED-FILES.jsonl"
+    ],
+    "sender_rehashes_every_reference_source": true,
+    "terminal_bytes": 16384,
+    "whole_transfer_receipt_returned_only_after_terminal_EOF_tree_journal_and_disk_checks": true,
+    "wire_and_expansion_disk_bytes": 3221225472
+  },
+  "scientific_qualified": false,
+  "source_pins": {
+    "models/predictor_pgd_priority_collection_v1.py": "a59eda60794b83deaded19ba43b4292826491f78e5ae6eeda904e29a42e589f3",
+    "models/predictor_pgd_publication_collection_v1.py": "2c7fcd8a6e61a0f2f468f297fa7b9b6108b39b548123ba9c38c5653d738f7947",
+    "tests/test_predictor_pgd_priority_collection_v1.py": "6d74b25fd7d3984bbb0d0ea2b05e18208958e88eacf1df92dc09f6f312eb031f"
+  },
+  "target_handoff_ready": false,
+  "test_payloads_are_tiny_explicit_substitutions": true,
+  "tests": {
+    "assertion_only_corrections": [
+      "canonical JSON tuple/list comparison",
+      "zero on-disk bytes for inherited exact reader incomplete chunk"
+    ],
+    "distinct_pass": 55,
+    "errors": 0,
+    "executions": 58,
+    "failed_executions_retained": 2,
+    "failed_only_reexecutions": 2,
+    "historical_or_scientific_cohort_repeats": false,
+    "passing_repeats": 1,
+    "production_source_changed_after_first_test": false,
+    "skips": 0,
+    "unintended_passing_repeat_cases": [
+      "tests.test_predictor_pgd_priority_collection_v1::test_additional_plan_work_cannot_extend_original_120_second_preparation"
+    ],
+    "unintended_repeat_reason": "v2 -k test_additional_ also matched the previously passing preparation-clock case; retained and disclosed, subsequent selection used explicit nodes."
+  },
+  "training_admitted": false,
+  "unmodified_full_contract_metadata_header_test": {
+    "actual_packet_or_array_payload_materialized": false,
+    "assets": 172,
+    "files": 177
+  }
+}
