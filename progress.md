@@ -1,5 +1,37 @@
 # Research Progress Reports
 
+November 18: the full eight-objective numerical PGD stage completed. All four
+candidate/original same-input checks pass unchanged bounds; all non-input return
+hashes match within each pair. Complete local collection is verified: 572 files /
+1,865,482,348 expanded bytes, with an independently reconstructed 1,027,778,474-byte
+wire and 838,043,214 repeated payload bytes omitted. The run still exited 1: the
+native component's strict profiler parser rejected `Runtime Triggered Module
+Loading`; its saved raw trace has 1,535 events. Backend/replay/performance/training
+admission remains gated. The grant is consumed; no retrieval or full numerical
+rerun is needed. Next investigate the saved trace locally with strict gates and
+pinned source evidence. See report/checks/2026-11-18-pgd-joint-handoff-v1-target-review.md.
+
+November 18: the user approved one exact joint-scanner/priority-collection
+linux10614 attempt. The final handoff is armed and unspent. Real local preflight
+passes all 69 source pins, the actual 17,192,095-byte packet hash and pinned public
+host identity; independent saved review preserves 20,281 prior hashes / 20,847
+fixed fixture entries. No tests/cohorts or model/GPU/SSH/proof work started. Next
+run one attended local Mac command after VPN connects; no further approval or
+manual GPU check. Keep the Mac/lid/Terminal open up to fifty minutes. Never repeat
+the command; review saved local results first after Done/error. See
+report/checks/2026-11-18-pgd-joint-handoff-v1-arming.md.
+
+November 18: the exact fresh linux10614 scope and final joint-scanner/priority-
+collection handoff are prepared and independently reviewed, still unarmed. Only
+the local handoff path changes in control; all 69 uploaded sources and scientific
+policy remain exact. Saved audit passes 20,266 prior hashes / 20,838 fixture entries.
+The prior 38 passing local cases are inherited without any test/cohort reruns.
+The user already provided clear 10614 status; no repeated manual check is needed.
+Next request one exact approval for 40 minutes work plus ten minutes same-SSH
+collection inside fifty minutes including login, then arm/preflight locally and
+provide one attended command. Full PGD/performance/training gates remain pending.
+See report/checks/2026-11-18-pgd-joint-handoff-v1-local-review.md.
+
 November 18: raw-file publication handling and metadata-first deduplicated
 collection are integrated through a complete pinned source graph, readers and
 outer/client. All 38 distinct local checks pass; two assertion-only failures were

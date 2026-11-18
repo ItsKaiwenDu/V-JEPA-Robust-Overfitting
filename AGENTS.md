@@ -2,6 +2,142 @@
 
 ## Current stage
 
+LATEST November 18: FULL NUMERICAL PGD SCOPE PASSES; NATIVE COMPONENT TRACE REFUSES.
+Read report/checks/2026-11-18-pgd-joint-handoff-v1-target-review.json/md and saved
+pgd-joint-handoff-v1-20261118/target-review-20261118/independent-saved-review-v4.py/log.
+Approved joint10614 attempt is NOW CONSUMED. Neverrerun/rearm/reset/retrycollection
+orcleanupremote. All572savedfiles/1865482348expandedB arelocal+byteverified; NOnew
+retrieval/SSH/query/upload/proof/GPU/model/paidwork or manualstatus/keypaste needed.
+User stages/commits/pushes, NEVER agent; preserve all uncommitted work/history.
+
+LocalATTEMPT+SSH1; parentfailed withcompletedroles[proof,numerical], currentnative.
+Transportcomplete:1027778474wireB, payload1027439134B, dedup838043214B. Independent
+wire reconstruction fromsavedHEADER/verifiedDATA/referenceplan/deterministicterminal
+matches7956e032927f59d0acfa20c0241081ff35147b218d2b08c5fe4bae768e69c4d4.
+572hash-chainfilejournalrowsjoin; privatecopies/hash/mode/nsmtime/inodes verified.
+Persistentjournal+partialALWAYSfalseforwholetransfer; finalreceiverreceipt transport
+true, workreceipt remainsfailed. DoNOT confuse transportwithcomponent/workadmission.
+All69sources+control/grant/installation/proposal/root/session/clocks/receiptsjoin.
+Prior20291hashes+20854fixtureentriesunchanged. OldFIFO LSTATONLY NEVEROPEN.
+
+EIGHTOBJECTIVESCOMPLETE, FOURPAIRS PASS ORIGINAL numerical bounds. All8completion/
+37artifacts/proof/progresschains+9terminalarraymetadata/hashesjoin.4pairs all36non-
+inputreturnhashesidentical, lossmax0; inputmaxerrors5.122274e-8,2.398156e-8,
+3.259629e-8,1.210719e-8 withrtol.002/atol2e-7,0failed. Metrics worker-recorded,
+notnewarrayrecomparison.192completedcustomVJPs/candidate+192checkpointforwards;
+not384VJPs. Numerical224.601002s,peak6132132352B<7GiB. Model/adapters/hooks/flags/
+RNG/no-gradroute checks recorded. ONLYNUMERICALSCOPEaccepted; backend/fullEOT8/
+freshrolloutreplay/performance/research/training remainFALSE. DoNOTreruncompleted
+8objectivecohort forcomponent/parserrepair; historicalrejectionsstayrejected.
+Proof2.5GiBpassed,1926events,13.957177s; allbounds/claim/clock/accounting retained.
+
+Nativecomponentfailedatbackend_validate, strictnegative-deviceprofilerclassifier:
+Unknown or malformed negative-device profiler record; no name-only exclusion.
+Saved1535rawtraceevents,torch2.8.0+cu128;12CPUdevice-1rows:ActivityBufferRequest1,
+RuntimeTriggeredModuleLoading6,LazyFunctionLoading5. Firstunknownrawindex295 is
+Runtime Triggered Module Loading. Trace+manifest+ownership+31-rowprogress+partial
+outputs preserved; no nativecomplete marker, candidatecomponentnotcompleted. These
+namesNOTyetprovedharmless overhead; nevernamefilter/drop orweakenoriginalgates.
+
+Savedstdlib/hash/AST ONLY auditv4PASS; no project/test callbacks orarray/pixel/
+checkpointdecode, newobjectives/tests/cohorts/child/timer/signal/network/SSH/GPU/
+proof/model/paidwork.3earlierauditor assumptions corrected+allversions/logskept:
+v1missedtracecategory ordering;v2miscounted384forwardrowsas192VJPs;v3inherited
+partialrun directorycheckwithout9terminalarrays. Production/gates/dataunchanged.
+No independent reviewFIRSTPASSclaim. No tests/sciencecasesrepeated.
+
+NEXT LOCAL ONLY: investigate/reproduce strictclassifier refusal from savedtrace
+andpinnedupstream/runtimeevidence; design narrowversioned correction retainingall
+rawrecords+identity/correlation/backend/clock/caps. Preservecompletednumerical
+cohort; no fullbackward/modelorGPUrerun/newuniversityscope/approvalrequest yet.
+All grantsconsumed. No newtimers/processes/cleanup/install/paidcompute/financial
+holdrelease. Capsproject200/compute160/single10+holds/pendingbillingunchanged.
+Earlier LATEST entries historical.
+
+LATEST November 18: EXACT JOINT PGD ATTEMPT APPROVED/ARMED, NOT STARTED.
+Read report/checks/2026-11-18-pgd-joint-handoff-v1-arming.json/md andscope/plan.
+User accepted call_d3cf90cbbd414d06b6061c3a159f385e with
+“Approve one bounded 10614 attempt (Recommended)”. NO further approval or manual
+GPU/hostname/key paste is needed for this unchanged scope. All older grants remain
+consumed; only this new exact grant is unspent until ATTEMPT. User commits/pushes,
+NEVER agent. Preserve all uncommitted work/source/history/partial evidence.
+
+Finalpath pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed
+hasAUTHORIZATION2118B SHA aca302d34b9c868dd0add3c4822d9a0899e2d0b4cb172b08c45793be9d8d7951.
+Control ef9618ccc522c87109e9c21f04c6d9e4261ddb4617bf810bc06f89301ccba621;
+supervisedfbf7a480...; code/policy/69sources923094B/69localpins exact.4oldfilesfixed.
+REAL UNMOCKED LOCAL client.check_local PASS:69pins/69coldcompiles, actual17192095B
+packet2278bce2... andpublichostfingerprintARgVRWO...match. Preflightaudit69compile/
+0exec/0processnetwork. No pixel/array/checkpointdecode, no tests/sciencecasesrepeat.
+Savedstdlib/hash audit FIRSTPASS20281priorhashes+20847fixedentries; FIFO LSTATONLY
+NEVEROPEN. No clientclock/timer/ATTEMPT/session/SSH/upload/GPUquery/proof/model/
+process/paidwork hasstarted. Do NOT call client.run fromagent or useSSH tools.
+
+NEXT: provide/run ONE attended LOCAL Mac command in arming-20261118/ATTENDED-COMMAND.txt
+using scripts/run_predictor_pgd_joint_v1.py andEXACTfinalabsolutepath. User connects
+VPNfirst, entersuniversitypasswordpromptly, keepsMac/lid/Terminalopen up to50min.
+No repeated manualGPUcheck; helperchecks live.40minwork includesoriginalsetup+
+full2.5GiBallocation/write/fsync/readback proof,8matchedgradients+2componentVJPs/
+1innerVJP;10minsameSSHcollectionwithin50mintotalincludinglogin. Strict original
+numerical/backend/GPU/host/foreigncompute/XFS/ownership/process/storage/clocks/caps.
+A refusal consumes grant. No retries/claimreset/rearm/rerun/separateretrieval/
+oldcleanup/install/extraobjectives/completedcohortrepeats/privatekey-heldout-
+checkpointuploads/paidwork/financialholdrelease. Preserve failed/partialcaptures.
+After Done/error inspect ONLY locallysavedATTEMPT/attended-session/header/journal/
+verified-prefix files first. New connection or retry requires separate reviewed
+scope/approval; neverrelaunchfordownload. JournalALWAYSfalseforwholetransfer;
+fullreceiveadmission onlyafterterminal/EOF/tree/journal/identity/clocks/disk. Partial
+bufferedtailmaynotpersist; allocationfinalsample. No numerical/fullPGD/replay/
+performance/trainingadmission yet. Financialcaps200/160/single10,holds/billingexact.
+Earlier LATEST entries historical.
+
+LATEST November 18: FRESH JOINT PGD SCOPE/HANDOFF PREPARED, SAVED AUDIT PASS; UNARMED.
+Read docs/predictor_pgd_joint_handoff_v1.md, configs/predictor_pgd_joint_handoff_v1.json
+and report/checks/2026-11-18-pgd-joint-handoff-v1-scope.md / local-review.json/md.
+All earlier university grants consumed. One new exact scoped linux10614 approval
+is required before arming or university work. User stages/commits/pushes, NEVER
+agent. Preserve all sources, uncommitted work, old grants/claims and evidence.
+
+Final new path pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed
+contains4files, noAUTHORIZATION/ATTEMPT/session. Onlylocal_handoff differs from the
+immutable joint-integration control. Newoutercontrol ef9618ccc522c87109e9c21f04c6d9e4261ddb4617bf810bc06f89301ccba621;
+supervised fbf7a480...; unchanged69sources923094B/envelope1233909B; outer35496B;
+69localpins. All63runtime/scientific/writer/monitor/coordinator/proof/reference/
+backend/numerical/finance bytes exact. Full source/cache/header/collector-window/
+client/outer/clock/claim/samesshcollection/scope joins independently verified by
+stdlib saved/hash/AST audit FIRSTPASS20266priorhashes+20838fixtureentries. FIFO
+LSTATONLY NEVEROPEN. No new pytest/sciencecases: inherited38distinct priorpasses
+by exactseal; do not rerun unchanged passingcases/cohorts. No productioncodechanges.
+
+User provided graphics-only GPUstatus linux10614 Nov18 10:41:50,43MiB/8192,driver
+580.178.04; accepted/recorded. No additional manualstatus/keyquery. It is only an
+observation; approved helperchecks live. A refusal consumes singleattempt.
+
+Proposed:40minwork includes original2.5GiBallocation/write/fsync/readback proof,
+eightmatched original/candidate gradients +two componentVJPs/oneinnerVJP. Onlyfirst
+alreadycountedpairprofiled; noextraobjectives/warmups/completedcohortrepeats. Fresh
+fullsequence, keepoldpartialcaptures separate.10minsameSSHcollection within50min
+includinglogin. Originalphaseclocks/120spreparation/ownership/numerical/backend/
+hostGPU/storageprocessguards/caps unchanged.3GiBsetup/2.25GiBcapture/3GiBresponse,
+raw1792MiB,metadata64MiB incltrace8MiB,allocator7GiB,componentRSS4GiB. Receiver
+8MiBjournalreserve stayswithinexistingcaps. Journals NEVERwholetransportcomplete;
+onlyfinalreceiveadmission; shortbufferedtail canremainunwritten; diskfinalsample.
+No originalpacketread/hash, arrays/nativeXFS/fullPGD/performance/trainingadmission.
+No SSH/query/upload/model/GPU/proof/child/timer/paidwork/auth/attempt yet. No retry,
+separate retrieval, oldcleanup/install/oldclaimreset/financialholdrelease. Historical
+financialsnapshot+caps project200/compute160/single10 andpendingbilling unchanged.
+
+NEXT: ask ONE exact scoped approval using linked scope; concreteprep+audit done.
+On acceptance do not askagain: create exactAUTHORIZATION onlyatnewfinalpath, record
+userbasis and verify oldseal/sourcepins +unmocked LOCAL client.check_local packet
+bytehash (no pixel/arraydecode), independentlyreview/sealarm. Provide ONE attended
+Mac command using scripts/run_predictor_pgd_joint_v1.py andexactfinalpath, VPNfirst,
+Mac/lid/Terminalopen. No agentSSH. Neverrerun command. After Done/error inspectsaved
+localfiles first, no newconnection/retrieval withoutnewreviewedgrant. The old joint
+integration baseline staysimmutable. Newfinalpackage4existingfiles muststayexact;
+futureauthorization/counter/session additions maychangeitsdirectory metadata only.
+Earlier LATEST entries historical.
+
 LATEST November 18: COMPLETE RAW-SCANNER + PRIORITY-CODEC LOCAL INTEGRATION REVIEWED.
 Read docs/predictor_pgd_joint_binding_v1.md, its config and
 report/checks/2026-11-18-pgd-joint-binding-v1-local-review.json/md.

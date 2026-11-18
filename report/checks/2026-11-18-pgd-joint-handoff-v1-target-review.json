@@ -1,0 +1,260 @@
+{
+  "SSH_exit_status": 1,
+  "additional_auditor_correction": "v3 inherited a partial-run directory-only assertion; v4 requires the full declared nine terminal arrays plus eight objective directories and checks every terminal descriptor hash/size.",
+  "all69_uploaded_sources_verified": true,
+  "all_four_roles_completed": false,
+  "attempt_consumed": true,
+  "audit_result": "PASS",
+  "auditor_corrections": [
+    "v1 ordering heuristic omitted catalogue trace category; exact two trace paths now checked.",
+    "v2 incorrectly equated all384candidate forward/checkpoint records to192completed VJPs; v3 verifies the frozen192initial/192checkpoint split and owned root/leaf metadata."
+  ],
+  "auditor_version": 4,
+  "collected_expanded_bytes": 1865482348,
+  "collected_files_verified": 572,
+  "comparison_metrics_not_recomputed_from_arrays": true,
+  "component_error": "Unknown or malformed negative-device profiler record; no name-only exclusion.",
+  "component_progress_rows": 31,
+  "component_workers_completed": 0,
+  "date": "2026-11-18",
+  "deduplicated_bytes": 838043214,
+  "failed_component_role": "native",
+  "failed_phase": "backend_validate",
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "first_unrecognized_negative_device_record": {
+    "correlation_id": 184,
+    "device": "cpu",
+    "device_index": -1,
+    "end_ns": 1795028727865088201,
+    "end_thread": 1,
+    "fwd_thread": 0,
+    "index": 295,
+    "is_async": false,
+    "legacy_cuda_elapsed_us": -1,
+    "linked_correlation_id": 0,
+    "name": "Runtime Triggered Module Loading",
+    "resource_id": 0,
+    "scope": 0,
+    "sequence_nr": -1,
+    "start_ns": 1795028727864403931,
+    "thread": 1,
+    "user_annotation": false
+  },
+  "fresh_rollout_replay_qualified": false,
+  "full_EOT8_backend_qualified": false,
+  "gradient_objectives_completed": 8,
+  "kind": "pgd-joint-handoff-v1-saved-result-review",
+  "mode": "stdlib saved bytes/hash/AST only, no project/test/scientific callbacks, array/pixel/checkpoint decode, new objective/process/GPU/proof/network/timer/paid work",
+  "new_tests_or_scientific_cohorts_run": false,
+  "next_local_work": "Reproduce and investigate the strict raw profiler classification refusal using this saved trace; retain all raw records/gates and completed numerical evidence. No repeated eight-gradient cohort or new university work is authorized by this review.",
+  "non_input_artifact_hashes_identical_in_all_pairs": true,
+  "numerical_peak_allocator_bytes": 6132132352,
+  "numerical_scoped_saved_passed": true,
+  "numerical_wall_seconds": 224.601002131938,
+  "objective_records": [
+    {
+      "artifact_files": 37,
+      "custom_VJPs": 0,
+      "custom_forward_records_including_checkpoints": 0,
+      "index": 0,
+      "mode": "original",
+      "progress_rows": 20,
+      "saved_complete": true,
+      "saved_passed": true,
+      "step": 0
+    },
+    {
+      "artifact_files": 37,
+      "custom_VJPs": 192,
+      "custom_forward_records_including_checkpoints": 384,
+      "index": 1,
+      "mode": "candidate",
+      "progress_rows": 20,
+      "saved_complete": true,
+      "saved_passed": true,
+      "step": 0
+    },
+    {
+      "artifact_files": 37,
+      "custom_VJPs": 0,
+      "custom_forward_records_including_checkpoints": 0,
+      "index": 2,
+      "mode": "original",
+      "progress_rows": 18,
+      "saved_complete": true,
+      "saved_passed": true,
+      "step": 1
+    },
+    {
+      "artifact_files": 37,
+      "custom_VJPs": 192,
+      "custom_forward_records_including_checkpoints": 384,
+      "index": 3,
+      "mode": "candidate",
+      "progress_rows": 18,
+      "saved_complete": true,
+      "saved_passed": true,
+      "step": 1
+    },
+    {
+      "artifact_files": 37,
+      "custom_VJPs": 0,
+      "custom_forward_records_including_checkpoints": 0,
+      "index": 4,
+      "mode": "original",
+      "progress_rows": 18,
+      "saved_complete": true,
+      "saved_passed": true,
+      "step": 2
+    },
+    {
+      "artifact_files": 37,
+      "custom_VJPs": 192,
+      "custom_forward_records_including_checkpoints": 384,
+      "index": 5,
+      "mode": "candidate",
+      "progress_rows": 18,
+      "saved_complete": true,
+      "saved_passed": true,
+      "step": 2
+    },
+    {
+      "artifact_files": 37,
+      "custom_VJPs": 0,
+      "custom_forward_records_including_checkpoints": 0,
+      "index": 6,
+      "mode": "original",
+      "progress_rows": 18,
+      "saved_complete": true,
+      "saved_passed": true,
+      "step": 3
+    },
+    {
+      "artifact_files": 37,
+      "custom_VJPs": 192,
+      "custom_forward_records_including_checkpoints": 384,
+      "index": 7,
+      "mode": "candidate",
+      "progress_rows": 18,
+      "saved_complete": true,
+      "saved_passed": true,
+      "step": 3
+    }
+  ],
+  "old_FIFO_lstat_only": 1,
+  "outer_control_sha256": "ef9618ccc522c87109e9c21f04c6d9e4261ddb4617bf810bc06f89301ccba621",
+  "payload_bytes": 1027439134,
+  "performance_qualified": false,
+  "post_gradient_progress_rows": [
+    20,
+    20,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18
+  ],
+  "prior_fixture_entries_verified": 20854,
+  "prior_hashes_verified": 20291,
+  "production_or_saved_evidence_changed": false,
+  "proof_event_rows": 1926,
+  "proof_peak_allocated_bytes": 2746839040,
+  "proof_requested_written_read_bytes": 2684354560,
+  "proof_saved_passed": true,
+  "proof_wall_seconds": 13.957176598953083,
+  "raw_negative_device_name_counts": {
+    "Activity Buffer Request": 1,
+    "Lazy Function Loading": 5,
+    "Runtime Triggered Module Loading": 6
+  },
+  "raw_trace_records": 1535,
+  "research_admitted": false,
+  "result": "VERIFIED_SAVED_EVIDENCE_WORK_INCOMPLETE",
+  "same_input_pairs_passed": 4,
+  "saved_roles_completed": [
+    "proof",
+    "numerical"
+  ],
+  "saved_work_phase": "failed",
+  "supervised_control_sha256": "fbf7a4806e751b4d4dbaadd953a734444986306eb2304ba39bac1bf1570b8b5b",
+  "training_admitted": false,
+  "transport_verified": true,
+  "verified_journal_rows": 572,
+  "wire_bytes_independently_reconstructed": 1027778474,
+  "wire_sha256_independently_reconstructed": "7956e032927f59d0acfa20c0241081ff35147b218d2b08c5fe4bae768e69c4d4",
+  "worker_recorded_comparisons": [
+    {
+      "input": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 5.122274160385132e-08,
+        "max_tolerance_ratio": 0.05698457204906362,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "loss": {
+        "atol": 2e-06,
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true,
+        "rtol": 1e-05
+      }
+    },
+    {
+      "input": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 2.3981556296348572e-08,
+        "max_tolerance_ratio": 0.02758660647033517,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "loss": {
+        "atol": 2e-06,
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true,
+        "rtol": 1e-05
+      }
+    },
+    {
+      "input": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 3.259629011154175e-08,
+        "max_tolerance_ratio": 0.03832735289585379,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "loss": {
+        "atol": 2e-06,
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true,
+        "rtol": 1e-05
+      }
+    },
+    {
+      "input": {
+        "atol": 2e-07,
+        "failed_elements": 0,
+        "max_absolute_error": 1.210719347000122e-08,
+        "max_tolerance_ratio": 0.020993777089007543,
+        "passed": true,
+        "rtol": 0.002
+      },
+      "loss": {
+        "atol": 2e-06,
+        "failed_elements": 0,
+        "max_absolute_error": 0.0,
+        "max_tolerance_ratio": 0.0,
+        "passed": true,
+        "rtol": 1e-05
+      }
+    }
+  ]
+}
