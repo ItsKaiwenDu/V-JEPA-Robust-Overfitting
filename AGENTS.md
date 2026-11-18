@@ -2,6 +2,69 @@
 
 ## Current stage
 
+LATEST November 17: LOCAL MUTABLE-JSON SCANNER CANDIDATE REVIEWED; NO TARGET PACKAGE.
+Read docs/predictor_pgd_publication_scan_v1.md, configs/predictor_pgd_publication_scan_v1.json
+and report/checks/2026-11-17-pgd-publication-scan-v1-local-review.json/md.
+All university grants remain consumed. No SSH/upload/query/proof/model work is approved.
+No repeated manual GPU/key paste, new scope request or launcher command at this stage.
+User stages/commits/pushes; never do it.
+
+A controlled same-thread schedule with the exact pinned repaired Store reproduces
+run-status.json.partial ENOENT: list partial, atomic replace, stat missing name.
+This is a local mechanism, not proof of the truncated live interleaving.
+New cold recipe models/predictor_pgd_publication_scan_v1.py accepts only frozen
+models/predictor_pgd_host10614_scratch_v1.py SHA8912dc0a8d09eff61178be46c48dd018c1d92e86e97f46cc9e97dff85dc75733.
+New models/predictor_pgd_publication_scratch_v1.py is35716B SHA
+361725052784e02c5e2a18c8eb4f3d05c0a25db125890ce08f5bebf1f5e0d102.
+Only Guard.scan changes; full byte inverse and all other ASTs exact. Layout,
+full172asset/419result catalogue, classification/assessment/source pins, proof,
+collection, numerical/backend/ownership/phase/resource policy constants stay.
+Old consumed sources/controls/claims/results/fixtures are unchanged.
+
+Candidate permits at most2resolutions in one walk, only non-initial non-settled
+capture, exact catalogued mutable JSON metadata partials capped256KiB. Cached
+listed inode must join held/named same-device/user regular0600 single-link final,
+with exact size/mtime, absent partial and named ancestry before/after. Old bad
+links cannot be erased. Pins cannot use resolution. Another publication, changed
+identity/mtime/links/ancestry, reappeared partial and unknown/cache/raw/asset/
+immutable names refuse. Setup/proof/collection/settled behavior remains strict.
+A new partial present before first stat is ordinary typed metadata, not recovery.
+No polling, directory rescan, lock wait, clock reset or experiment retry. All
+owned descriptors close on tested success/refusal paths. No file content read.
+Each resolution charges a full typed cap and original metadata partial slot;
+allocated reserve=max(cap,all observed held/named/superseded/partial blocks).
+Shared slots2, extra metadata512KiB, metadata+trace64MiB, capture2.25GiB and all
+original file/node/category/free-space/inode caps remain; accounted totals include
+reserve and diagnostics retain observed totals. Collection report shape unchanged.
+These are samples/reserves, not atomic snapshots, kernel quotas or continuous
+allocation bounds or proof of execution/history. Not every concurrent schedule
+is guaranteed to succeed; multiple publications on one resolved name refuse.
+
+40distinct focused checks PASS across66executions; all26failed executions retained.
+24initial fixture-ownership errors fixed by creating old JSON through actualStore;
+then one reappearance schedule corrected to occur AFTER the observed gap, and one
+assertion corrected for earlier unknown-name rejection. Test-only corrections;
+production source unchanged after first run. Passing/historical/scientific repeats0.
+All six source/test revisions, failed fixtures, logs and JUnit remain. Real small
+inert JSON/fsync/replace/link/metadata/FD paths; explicit fake same-thread schedules,
+device/user/allocation stat fields. No arrays/science/model/proof/preallocation,
+real child/process/signal/timer, network, GPU query, SSH or paid compute.
+Separate stdlib saved/hash/AST audit FIRSTPASS15533priorhashes+13777fixtureentries;
+old FIFO LSTATONLY NEVEROPEN/READ/HASH. Raw sealed-local-publication-scan-v1.json
+pins15656regularhashes; fixture-layout-preserved.json417entries. Preserve all.
+
+NEXT LOCAL ONLY: integrate this tested source-only candidate into a fresh complete
+runtime/policy/contract/bootstrap/journal/reader bundle, with explicit source
+hash joins and collection compatibility checks. Its current frozen LOCAL contract
+is NOT a new execution binding; never substitute into an old/consumed package.
+Retain exact scientific/writer/monitor/proof/collection code and original limits;
+reserve reporting differs only live capture and must not weaken settled collection.
+Prepare no university scope/authorization before full concrete local binding tests
+and separate saved-source review. No target query, upload, proof/model, old claim
+reset/cleanup or remote retry. Prior3objective captures remain partial evidence;
+full8gradient/PGD/native-XFS integration/backend/performance/training remain pending.
+Financial caps/holds/reconciliation unchanged. Earlier LATEST entries historical.
+
 LATEST November 17: 10614 ATTEMPT CONSUMED; PARTIAL NUMERICAL WORK, PARENT FILE-SCAN FAILURE.
 Read report/checks/2026-11-17-pgd-host10614-v1-target-review.json/md.
 All university grants are consumed. Never rerun/rearm/reset this command or claim,

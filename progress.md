@@ -1,5 +1,29 @@
 # Research Progress Reports
 
+## 2026-11-17 — Local publication race reproduced and scanner correction reviewed
+
+A controlled schedule with the exact pinned Store reproduces the missing status
+partial: the writer publishes between directory listing and stat. The new local
+scanner joins only known mutable JSON partials to the held/named final inode,
+checks ancestry and reserves budget within the original limits. At most two
+resolutions use one walk, with no rescan/poll/retry. Ambiguous changes still fail;
+setup/proof/collection/settled behavior stays strict. Only Guard.scan changes;
+all other source ASTs and the full172asset/419result catalogue remain exact.
+
+Forty distinct new checks pass across66executions. Twenty-six retained failures
+came from corrected fixture/setup expectations; only failed cases reran, and no
+production source changed after the first test run. Tests use real small inert
+files and the pinned writer, with explicit schedules/stat fakes. No model, arrays,
+proof/preallocation, child/timer/signal, GPU, SSH or paid work runs. Independent
+saved-file review verifies15,533priorhashes and13,777fixture entries unchanged;
+the old FIFO is lstat-only. All revisions/fixtures are preserved in the new seal.
+
+Next integrate the tested scanner into fresh local policy/source/bootstrap/reader
+bindings and verify collection compatibility before proposing another attended
+scope. There is no new target package, approval or attempt. Native XFS/full PGD,
+backend/performance/training qualification remains pending, and financial caps/
+holds remain unchanged. See the [local review](report/checks/2026-11-17-pgd-publication-scan-v1-local-review.md).
+
 ## 2026-11-17 — 10614 reached model work; status-file scan stopped the attempt
 
 The saved2.5GiB storage proof passed. Three objective captures completed out of
