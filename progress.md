@@ -1,5 +1,30 @@
 # Research Progress Reports
 
+## 2026-11-17 — Full scanner source bundle and collection compatibility reviewed
+
+The scanner correction is integrated into fresh local policy/contract/bootstrap
+and reader bindings. Only two of69target source files change;67remain exact,
+including all63runtime modules, numerical code, writer, monitor, coordinator/
+journal, proof and collector. Original scope/reference/financial bytes, runtime
+manifest and172asset/419result catalogue remain. The policy explicitly pins the
+new bound scanner and the contract records its unchanged-limit recovery rules.
+
+All21distinct integration checks pass on the first run. Real source-cache reads,
+full collection-header validation/framing and journal reserve persistence run
+with inert files and explicit fake GPU/time/header observations. The journal
+stores a256KiBreserve within its64KiBstatus cap; stale sources, capture-only
+collection fields and foreign status changes still refuse. No arrays, model,
+proof, child/timer/signal, GPU/network/SSH or paid compute runs. Separate saved-file
+review verifies15,656priorhashes and14,194fixture entries unchanged; FIFO lstat-only.
+Both auditor versions are preserved; a data-only path-alias reader correction
+was needed. All new evidence is sealed; source/test revisions are unchanged.
+
+Next prepare the fresh unarmed attended outer/client/CLI package, review its
+complete bindings and only then request one new exact university scope. No new
+handoff, approval or target work exists. NativeXFS/fullPGD/replay/performance/
+training and financial caps/holds remain unchanged. See the
+[integration review](report/checks/2026-11-17-pgd-publication-integration-v1-local-review.md).
+
 ## 2026-11-17 — Local publication race reproduced and scanner correction reviewed
 
 A controlled schedule with the exact pinned Store reproduces the missing status

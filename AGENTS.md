@@ -2,6 +2,72 @@
 
 ## Current stage
 
+LATEST November 17: COMPLETE LOCAL SCANNER INTEGRATION REVIEWED; NO ATTENDED HANDOFF.
+Read docs/predictor_pgd_publication_integration_v1.md, its config and
+report/checks/2026-11-17-pgd-publication-integration-v1-local-review.json/md.
+All university grants remain consumed. No SSH/upload/query/model/proof/scope/approval
+or launcher command is prepared. No repeated manual GPU/key paste. User commits/pushes.
+
+New cold models/predictor_pgd_publication_integration_v1.py verifies exact consumed
+10614 control/payload plus reviewed scanner template/recipe. Full69source bundle
+888096B, envelope1187245B, supervised control88130B. Only scanner+bootstrap change;
+67files exact including all63runtime, scientific/numerical code, Store/writer,
+monitor, coordinator/journal, proof and target collector. Runtime manifest and
+scope/base/design/host/budget/provenance bytes stay exact. No old result relabelled.
+New contract adds publication_observation rules; policy adds provenance and an
+exact bound-scanner fixed-support pin. Existing monitor/proof fixed pins stay.
+Scanner changes only CONTRACT_SHA from the tested template; bootstrap only its
+POLICY_SHA. Exact byte inverses and all source/contract/policy/install joins pass.
+
+Supervised03ddfc3fe3ec900213b7161251b445b436d6378783a18c591ac0722a729e0d0d;
+policy9f1d10b01fc48e09711084be515f1193fa5140244e1d07eb1848b0fde5164920;
+contract98d904855b5e7e31969060758ca6731f7460a289dcd4fbe1bcf6cad75177a032;
+bound scanner2041e8bad06f1eb5687231410da3d42091af99b59eaf4a01e572320a3ca5c7bc;
+bootstrap763a9d1d0e609583e1356392991ad93a52b50309099baeb417751183d4847239.
+New exact local readers: predictor_pgd_publication_bootstrap_v1.py,
+predictor_pgd_publication_bound_scratch_v1.py and predictor_pgd_publication_collection_v1.py.
+First2exactserver bytes; collector only2local import aliases. Full172assets419results.
+
+21distinct new integration checks FIRSTPASS, failures/errors/skips0; passing,
+historical/scientific repeats0. New policy-bound source cache reads69actual source
+files and2packet declarations without installing/executing cached modules; stale
+scanner/bootstrap/control/contract/reader pins refuse. Real full-header validator/
+framing codec accepts new fixed pins and rejects capture-only accounting in final
+collection, unfinished publication, clocks/admission changes and stale sources.
+Full header inventory/content sizes are explicit fakes, never experiment evidence.
+Unchanged real journal checkpoint/persist/status/close runs on tiny inert JSON,
+forced fake publication schedule, fake GPU responses/continuing clock. Saved
+status holds256KiBlogical+allocated reserve/1metadata slot within original64KiBcap;
+foreign status mutation still refuses before overwrite. No arrays/pixel/checkpoint
+decode, scientific import/calc, child/signal/timer, preallocation/proof, network/
+SSH/GPU query/model/paidwork. Initial isolated cold-driver import-path omission
+fixed only in driver before assembly; no production change. Tests unchanged.
+Separate stdlib saved/hash/AST audit PASS15656priorhashes+14194fixtureentries;
+FIFO LSTATONLY NEVEROPEN/READ/HASH. First auditor could not parse computed path
+aliases; separatev2 data-only constant resolution passes. Both scripts/logs kept,
+no project/test callbacks or extra execution. New sealed-local-publication-integration-v1.json
+pins15904regularhashes; fixture-layout-preserved.json281entries. Preserve all.
+
+NEXT LOCAL ONLY: prepare fresh unarmed attended outer/client/CLI and exact local
+source coverage from this complete reviewed69source/control bundle. Preserve full
+remote_session/Alarms/claim/setup/directory/collection behavior and strict guards;
+new policy/boot/control/auth kinds and pure-verifier/preparer import paths only.
+Never redirect, copy/reset/rearm consumed operators. Actual kernel/process/GPU/
+reserve/work/packet payload in new checks must stay explicit fakes; metadata/source/
+cache/journal/claim/header checks can run. Freeze all revisions/fixtures; focused
+new checks only, no passing/historical/scientific cohort repeats. After full
+concrete local handoff/tests and separate source/evidence review, only then one
+new exact university scope can be requested. No target scope/grant exists yet.
+Original40minwork/full2.5GiBproof/8matchedgradients/2componentVJPs/1inner and10min
+sameSSHcollection/50minincludinglogin remain a future proposed bound, not new
+approval. Same3GiBsetup/2.25GiBcapture/3GiBresponse/raw1792MiB/meta64MiBincltrace8/
+allocator7GiB/componentRSS4GiB; no retries/separate retrieval/old cleanup/install/
+privatekey/heldout/checkpointupload/oldclaimreset/paidwork. No new manual status
+paste is needed; any future approved launcher checks strict live guards.
+Prior3objectives remain partial; nativeXFS/fullPGD/replay/backend/performance/
+training qualification pending. Financialcaps/holds/reconciliation unchanged.
+User stages/commits/pushes; NEVER do it. Earlier LATEST entries historical.
+
 LATEST November 17: LOCAL MUTABLE-JSON SCANNER CANDIDATE REVIEWED; NO TARGET PACKAGE.
 Read docs/predictor_pgd_publication_scan_v1.md, configs/predictor_pgd_publication_scan_v1.json
 and report/checks/2026-11-17-pgd-publication-scan-v1-local-review.json/md.
