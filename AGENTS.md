@@ -2,6 +2,57 @@
 
 ## Current stage
 
+LATEST November 18: COMPLETE RAW-SCANNER + PRIORITY-CODEC LOCAL INTEGRATION REVIEWED.
+Read docs/predictor_pgd_joint_binding_v1.md, its config and
+report/checks/2026-11-18-pgd-joint-binding-v1-local-review.json/md.
+All university grants consumed. No SSH/query/upload/GPU/model/proof/paidwork,
+new targetscope/authorization/attempt/attendedcommand. No manual status paste.
+User stages/commits/pushes, NEVER agent. Preserve all uncommitted work/evidence.
+
+69 uploaded sources923094B: ONLY bootstrap/scanner/collector changed; all63runtime
+and scientific/writer/coordinator/monitor/proof/reference/backend/numerical bytes
+exact. Bound scanner c6962392...; collector c4353ba2...57122B; outer35496B.
+Full local recipe/readers/cache/client/outer/CLI +4-file unarmed preparation at
+pgd-joint-evidence-binding-v1-20261118/handoff-parent/linux10614-unarmed.
+Treat this reviewed baseline IMMUTABLE; no arming/additional files there. Later
+fresh finalscope/handoff needs own exact identity/review before scoped approval.
+Outercontrol8c0f68a9...; supervisedcontrolfbf7a480...; policy99427d31....
+Historical legacy collector AST lexical closure preserves string values/imports;
+priority prototype exact inverse except clockexposure adapter. No extra uploaded
+helper, runtimeexec incollector, checkoutfallback or oldauthority reuse. Newnested
+base/header root+clock correlation and savedCOLLECTION-READY underexistingclock.
+Old outer setup/ownership/claim/refusal/clockwork/collection AST/byte inverses exact.
+One raw/twoJSON reserves persist inrealjournal; strict settled/header assessment.
+
+38distinct newcasesPASS/40executions;2fixture-assertion failures corrected; ONLY
+failednodes rerun, zero passing/historical/science repeats. Initial coldassembly
+multiline-docstring indentation refusal also preserved beforetests; corrected
+assembler preserves literal physical lines. Allproductionfiles exact across3runs.
+Real small inertbytes/sourcecache/privateFD/hash/journal/claim/codec/clientchecks;
+explicit fakepacket/assethashes,host/GPU,ownedprocess/proof/thread/timer/clockAPIs.
+Isolatedregistered-only importshim executes7namespace dependencies, no global
+finder install. No originalpacket/array decode or realchild/timer/network/GPU/proof.
+Simulated claimedfailure reaches actualpairedcollector,69sourcesbyteverified and
+failedworkreceipt retained. Busy/readiness preclaimrefuse. Savedstdlib/hash/AST/
+wireaudit FIRSTPASS18472priorhashes+18762fixtureentries; oldFIFO LSTATONLY NEVEROPEN.
+Full172asset/177file metadata pins; completefakefailurewire/copies/inode/nsmtime/
+hash-chain andinterruptedstatusprefix independentlyreconstructed withoutcallbacks.
+
+Caps/clocks/scope/host/numerical gates unchanged. Metadatajournal8MiB reserves
+insideexisting64MiBmetadata/3GiBdisk. Journalneverclaimswholetransport; onlyreceive
+returnafterterminal/EOF/tree/journal/root/parent/window/diskadmits. Bufferedshorttail
+maynotpersist. Allocationfinalsample, notquota. No nativeXFS/liveinterleaving/full
+8gradients/replay/performance/transfer-time/trainingadmission. Allfinancialcaps/
+holds/pendingbillingunchanged. No retries/retrieval/oldcleanup/install/paidwork.
+
+NEXT: prepare exact new universityscope and fresh finalattendedhandoff; review
+allsource/cache/header/clock/claim/samesshcollection joins against this baseline.
+Only after concreteprep +savedsourceaudit ask ONE new exact scoped approval before
+arming or universitywork; all previous grants consumed. No need repeat manual
+GPUcommands; futureauthorizedlauncherchecks live. Preserve all38passingcases;
+newfocusedcasesonly if meaningfulchanges require, exactnodeIDs +allrevisions.
+Earlier LATEST entries historical.
+
 LATEST November 18: PRIORITY/BYTE-DEDUP PAIRED CODEC REVIEWED LOCALLY; NO RUNTIME BINDING.
 Read docs/predictor_pgd_priority_collection_v1.md, its config and
 report/checks/2026-11-18-pgd-priority-collection-v1-local-review.json/md.

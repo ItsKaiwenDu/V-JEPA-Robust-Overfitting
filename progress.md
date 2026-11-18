@@ -1,5 +1,16 @@
 # Research Progress Reports
 
+November 18: raw-file publication handling and metadata-first deduplicated
+collection are integrated through a complete pinned source graph, readers and
+outer/client. All 38 distinct local checks pass; two assertion-only failures were
+corrected without rerunning passing cases. The separate saved/hash/AST/wire audit
+preserves 18,472 prior hashes and 18,762 fixture entries and reconstructs the real
+codec's simulated failed-session transfer. All 63 scientific/runtime files remain
+exact. The four-file local preparation is unarmed; no university work or new scope
+is issued. Next prepare/review the exact fresh attended scope before one new
+approval. Full PGD/resource/performance validation still gates training. See
+report/checks/2026-11-18-pgd-joint-binding-v1-local-review.md.
+
 November 18: the local priority/deduplicated sender and receiver pass 55 distinct
 checks and separate saved-source/wire review. Failure status arrives first;
 references reconstruct independent private files with original byte identities.
