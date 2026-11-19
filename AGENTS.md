@@ -2,6 +2,108 @@
 
 ## Current stage
 
+LATEST November19: COMPONENT-ONLY WORKER SOURCE INTEGRATED LOCALLY; EXECUTION NULL.
+Read docs/predictor_pgd_component_runtime_v1.md, both runtime/input configs and
+report/checks/2026-11-19-pgd-component-runtime-v1-local-review.json/md.
+Preserve ALL uncommitted capsule-stage AND current source/test/audit/evidence
+work. User stages/commits/pushes, NEVER agent. All university grants consumed.
+No SSH/query/upload/model/GPU/proof/paid work, new scope/handoff/approvalrequest,
+claim or manual status/key paste was authorized/performed by this local step.
+
+New cold builder predictor_pgd_component_runtime_v1 emits37files/412198B,7new
+modules under pgd-component-runtime-v1-20261119/cold-source-v3; final bindings in
+SOURCE-MANIFEST-v3.json. Old _pgd_split_entry/numerical/records/observer/progress/
+facade/providers/io modules are absent. New entry EXECUTION_BINDING=None refuses
+before source/runtime ports. Frozen general model/training helpers remain for
+compatibility; no full eight-objective numerical entry/dispatch exists in newpath.
+
+Read-only capsule validates35members/manifest/provenance and original layout;
+newcontrol must differ from old, roots disjoint. Exact continuation-source receipt
+required by worker/completion reader. New worker/completion kinds,28fixed component/
+log write paths, no numerical or source-boundary writes. Route/startup/boundary/raw
+bytes EXACT from original saved package; reconstruction/compute/profile/serializer/
+runtime-contract AST+compiled bodies unchanged. Writer/other store guards unchanged;
+I/O/store/provider/job complete byte inverses. No old source or failure rewritten.
+
+Two integration corrections: canonical JSON backing-group STRING keys restored to
+bounded Python integer IDs only, retaining raw manifest and strict layout gate;
+all5backend sibling source pins included as data dependencies, notably projectionv2
+omitted by imports-only closure. Final cache-local source_gate passes and changed
+pin refuses. Earlier generated source/manifests/build logs stay preserved.
+
+31distinct new checks PASS across45executions. Six initial cases failed at layout,
+then fake route keyword adapter; ONLYfailed/new cases +affected graph case rerun.
+That passing graph case repeated TWICE as generated graph changed; no otherpassing/
+historical/scientific repeats. All4source/test snapshots and earlier failures kept.
+Two fake lifecycle completions use actual byte store/capsule/journal/metadata reader,
+but fake startup/runtime/boundary/operands/route/profiler/returns/allocator. Explicit
+FAKE origin, opaque .npy labels, execution/science/training flagsFALSE. No actual
+mathematical arrays/tensors/model/gradient/profiler/CUDA/resource observations.
+Standalone stdlib saved/hash/AST auditv2PASS:21216prior hashes/21980prior fixture
+entries intact, oldFIFO LSTATONLY NEVEROPEN. First auditor inspected normalized
+inventory AST by mistake; original+v2source/logs kept, no FIRSTPASSclaim. No project/
+test callbacks or scientific work/processes/signals/timers/network in audit.
+
+NEXT LOCAL ONLY: integrate WHOLE scratch inventory, pinned source-cache loader,
+parent process/RSS/GPU/continuing-clock supervision and bounded collection around
+this component-only graph. Source/result store alone does NOT cover whole scratch
+or authenticate parent observations. No new target scope/handoff/approvalrequest
+until concrete integration independently reviewed. Retain exact scientific/numerical/
+identity/backend/resource/clock gates, capsule source hash82a30efe... and historical
+source control. Never rerun completed8gradients/4passing numerical pairs; oldnative
+worker remainsFAILED, no actual candidate capture/fullEOT8/replay/performance/cost/
+training admission. No consumedclaim reset/retry/retrieval/cleanup/install/paidwork/
+financialholdrelease. Project200/compute160/single10 caps+holds/billing unchanged.
+Current source seal sealed-component-runtime-v1.json. Earlier entries historical.
+
+LATEST November 19: COMPONENT INPUT CAPSULE VERIFIED; EXECUTION STILL UNBOUND.
+Read docs/predictor_pgd_component_capsule_v1.md, config and
+report/checks/2026-11-19-pgd-component-capsule-v1-local-review.json/md.
+User commits/stages/pushes, NEVER agent. Preserve all source/test/audit versions,
+old evidence/failures and uncommitted work. All university grants consumed; no
+SSH/query/upload/GPU/model/proof/paid work, new scope/handoff/approvalrequest or
+manual status/key paste in this completed local step.
+
+Cold byte builder/verifier predictor_pgd_component_capsule_v1 pins35source files
+plus generated manifest;27,279,360-byte USTAR archive SHA82a30efe... in
+runs/pretrained/diagnostic/pgd-component-capsule-v1-20261119/component-inputs.tar.
+Eight original boundary .pt files are opaque; no tensor/array/pixel/checkpoint
+decode, numerical recompare or scientific work. Original qkv/cotangent and native
+reference returns come from accepted objective0, NOT failed component returns.
+Original layout/aliases/offsets/hashes preserved, notably V offset768/storage
+9437184B. Capsule includes boundary/root proof +8objective completion headers and
+saved run/parent/session/accepted review. Full numerical arrays and candidate hook
+logs remain in original tree; capsule CANNOT replace their complete accepted audit.
+No pixels/checkpoint/private-key files copied. Metadata retains historical config/
+budget information; no upload authorized. Raw archive stays in ignored runs tree.
+
+All33distinct new local byte/provenance/archive tests PASS once;zero failures or
+passing/historical/scientific repeats. Source frozen across checks. Standalone
+stdlib saved/hash/AST/archive audit v2PASS:21150prior hashes+21880prior fixture
+entries preserved; oldFIFO LSTATONLY NEVEROPEN. Independent full archive byte
+reconstruction matches. First auditor mishandled arithmetic cap AST declarations;
+both versions/logs kept; no production changes/test reruns/FIRSTPASS audit claim.
+
+Historical numerical8objectives/4passing pairs retained. Old session/component
+failure staysFAILED. Source control/PID remain historical; FUTURE execution host
+and control NULL. No target runtime integrated, grant/claim or worker completion
+inferred; no component accuracy/fullEOT8/replay/performance/cost/training admission.
+Capsule remaining recipe:one native +one forward-preserving component, oneforward/
+outerVJP each, candidate one inner mathVJP;0newfullmodel objectives,0warmups. This
+is an unbound INTERFACE, no permission to execute any prospective recipe now.
+
+NEXT LOCAL ONLY: integrate capsule + reviewed backendv3/projectionv3 into a
+component-only source/cache/runtime namespace. Exclude old numerical_entry and
+its full-cohort dispatch. Bind read-only historical provenance separately from
+future execution identity. Retain exact arithmetic, reconstruction/root/leaf/hook/
+RNG/version/runtime/numerical/backend gates, storage inventory, parent clock/RSS/
+GPU ownership and collection. Test cold/opaque-byte/fake controls only. No new
+university scope/handoff/approvalrequest until concrete integration independently
+reviewed. NEVER rerun completed8gradients for component repair. No oldclaim reset/
+retry/retrieval/cleanup/install/paidcompute/financialholdrelease. Project200/
+compute160/single10 caps and outstanding holds/billing unchanged. Earlier entries
+historical. Current capsule preservation seal is sealed-component-capsule-v1.json.
+
 LATEST November 19: LOCAL ENGINE/NODE METADATA CORRECTION REVIEWED AND SEALED.
 Read docs/predictor_pgd_engine_association_v1.md, its config, and
 report/checks/2026-11-18-pgd-engine-association-v1-local-review.json/md.

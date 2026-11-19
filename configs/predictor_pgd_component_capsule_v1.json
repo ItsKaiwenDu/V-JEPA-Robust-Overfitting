@@ -1,0 +1,212 @@
+{
+  "accepted_numerical_review_sha256": "13d2a40d2a989d9433f042dcf59187f84850ea8294e4ad8f494accda00074c8b",
+  "accepted_objectives": 8,
+  "accepted_same_input_pairs": 4,
+  "boundary_sha256": "9e4758d2209b9fd989926ee40d2ad92cc4b99aa98c86e6cec0722eaf6a83308d",
+  "caps": {
+    "archive_bytes": 33554432,
+    "manifest_bytes": 131072,
+    "member_bytes": 4194304,
+    "members": 36
+  },
+  "contract_is_metadata_and_bytes_only": true,
+  "date": "2026-11-19",
+  "full_numerical_array_evidence_included": false,
+  "historical_source_host": "linux10614",
+  "historical_source_pid": 919926,
+  "kind": "pgd-component-capsule-input-contract-v1",
+  "lineage_source_sha256": "a53103bfc665b30930af2b6046a347f81369b0de3a1b72ff2743bc5f3c643647",
+  "new_execution_authorized": false,
+  "private_keys_checkpoint_or_full_pixel_files_included": false,
+  "prospective_reader_source_pins": {
+    "models/predictor_pgd_split_backend_v3.py": "2673d507c18b1b09a0b269d8740252b217a591b11def52bcf9f22cdca7c5c2c8",
+    "models/predictor_sdpa_launch_evidence_v3.py": "d8ca7092b346d3e1ccd9c43a99a4379eba21914a08ced173b692148015010675"
+  },
+  "source_control_sha256": "fbf7a4806e751b4d4dbaadd953a734444986306eb2304ba39bac1bf1570b8b5b",
+  "source_files": {
+    "boundary/attention-calls.jsonl": {
+      "bytes": 949546,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/attention-calls.jsonl",
+      "sha256": "6f2ccd095b107eeaf59ba872be04de80abdfe348f4495243f1c8f19da293e126"
+    },
+    "boundary/attention-scopes.json": {
+      "bytes": 312,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/attention-scopes.json",
+      "sha256": "fe85b6c1e54097cae93a1891d9ced17f4694f8de4f4754cb398fd1b33ab9d043"
+    },
+    "boundary/boundary-complete.json": {
+      "bytes": 273,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/boundary-complete.json",
+      "sha256": "8a7233c4138b87eca2b16b3e28c6412d2d664bd221c50cb494d8569e89bf524e"
+    },
+    "boundary/boundary.json": {
+      "bytes": 9234,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/boundary.json",
+      "sha256": "9e4758d2209b9fd989926ee40d2ad92cc4b99aa98c86e6cec0722eaf6a83308d"
+    },
+    "boundary/dk.pt": {
+      "bytes": 3147305,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/dk.pt",
+      "sha256": "00288e2c75abd4eef65a1e97b00f4fe25546ab20df640702375a5d7d2d15bf8c"
+    },
+    "boundary/dq.pt": {
+      "bytes": 3147305,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/dq.pt",
+      "sha256": "6973339c06e07ba92e2c79f04aee4bbb982a3642cc4895d6c974c30840c15b09"
+    },
+    "boundary/dv.pt": {
+      "bytes": 3147305,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/dv.pt",
+      "sha256": "deead61cbb8cf5b6f7462219907082b6cc17db99af67734e170d6c3b35d9ffa5"
+    },
+    "boundary/grad_output.pt": {
+      "bytes": 3147305,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/grad_output.pt",
+      "sha256": "a673aabb28ca9e181c2426ee4ce81062b1fcecdc0609d31754996efdf45fcb7c"
+    },
+    "boundary/k.pt": {
+      "bytes": 3147305,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/k.pt",
+      "sha256": "f80ea46c5e6bea6b117763c3551a5320b92aa45f65916d2c451553d2083aad37"
+    },
+    "boundary/output.pt": {
+      "bytes": 3147305,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/output.pt",
+      "sha256": "33cf9f63b54b285ee5c6fa1ed3dac252f7edcb40c4f5aa3a9d574ba686c8209e"
+    },
+    "boundary/q.pt": {
+      "bytes": 3147305,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/q.pt",
+      "sha256": "eede3a77598c212faa77ca935e61622aa698fd4ffdad658e717cd80fed968866"
+    },
+    "boundary/v.pt": {
+      "bytes": 3147305,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/v.pt",
+      "sha256": "8881fa0dcbc8b653e5547ca2ef5533e3bfb436cfdabfe5025dd437792a7e30da"
+    },
+    "provenance/accepted-numerical-review.json": {
+      "bytes": 7914,
+      "repository_path": "report/checks/2026-11-18-pgd-joint-handoff-v1-target-review.json",
+      "sha256": "13d2a40d2a989d9433f042dcf59187f84850ea8294e4ad8f494accda00074c8b"
+    },
+    "provenance/objective-0/VJP-calls.jsonl": {
+      "bytes": 0,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-0/VJP-calls.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "provenance/objective-0/native-calls.jsonl": {
+      "bytes": 949546,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-0/native-calls.jsonl",
+      "sha256": "6f2ccd095b107eeaf59ba872be04de80abdfe348f4495243f1c8f19da293e126"
+    },
+    "provenance/objective-0/numerical-complete.json": {
+      "bytes": 5105,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-0/numerical-complete.json",
+      "sha256": "9c688ffa5a5e34c0c3a2e6d13fb2b74780b443e2d893b35e52db045f9c677cbd"
+    },
+    "provenance/objective-0/numerical.json": {
+      "bytes": 9661,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-0/numerical.json",
+      "sha256": "348f5ee5843a42a63c924ce19944228ff1cb9aed4bf288876de6a7298d8921e2"
+    },
+    "provenance/objective-0/scopes.json": {
+      "bytes": 328,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-0/scopes.json",
+      "sha256": "539deace994dc1809bd5265c69be4a91d037f58440c73606aaf658e8b18d0b58"
+    },
+    "provenance/objective-1/numerical-complete.json": {
+      "bytes": 5111,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-1/numerical-complete.json",
+      "sha256": "22761fc13f36d293356e6662d7157adbb308f50fc1cbc251518e9020041d5e83"
+    },
+    "provenance/objective-1/numerical.json": {
+      "bytes": 10130,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-1/numerical.json",
+      "sha256": "8af887389465c399cfb0e1b1bcf5b9e24a4fe2431c2cfad0cccf49838bdea1dc"
+    },
+    "provenance/objective-2/numerical-complete.json": {
+      "bytes": 5105,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-2/numerical-complete.json",
+      "sha256": "b7077961078735f1407b8ce265ae9507ba33719ed186b606e71030431fc46fa9"
+    },
+    "provenance/objective-2/numerical.json": {
+      "bytes": 9661,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-2/numerical.json",
+      "sha256": "8f8dbd56c57b7d8ed5b1e8eff6b62a95c880a3151c1b1fa0237d457200fe0a66"
+    },
+    "provenance/objective-3/numerical-complete.json": {
+      "bytes": 5111,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-3/numerical-complete.json",
+      "sha256": "fafb91946d2ca6b12b241bbde81ca9f4089eb8996cd12f1a86661d978e822908"
+    },
+    "provenance/objective-3/numerical.json": {
+      "bytes": 10131,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-3/numerical.json",
+      "sha256": "183023510653f86119b51811e1403cca9a7f1aa3db588afd444fe1592367a624"
+    },
+    "provenance/objective-4/numerical-complete.json": {
+      "bytes": 5105,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-4/numerical-complete.json",
+      "sha256": "9a5a3fef8ce4ba4bdd961215774ae235e2fc2f09cd7a4272abff5c8e1ee06ef8"
+    },
+    "provenance/objective-4/numerical.json": {
+      "bytes": 9661,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-4/numerical.json",
+      "sha256": "aa9fba339232bab8fac9137bd16c38e5cea4d6a63bef95f8f82a9bff8b59fc5d"
+    },
+    "provenance/objective-5/numerical-complete.json": {
+      "bytes": 5111,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-5/numerical-complete.json",
+      "sha256": "bca25f28404c198eadeaa0471eba65e1499c153269a3936e154f641ec7f7ef5c"
+    },
+    "provenance/objective-5/numerical.json": {
+      "bytes": 10130,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-5/numerical.json",
+      "sha256": "b27fc9fe8d08935d1b954350a39865a0b5250d8f42a022176f848a26c22cb376"
+    },
+    "provenance/objective-6/numerical-complete.json": {
+      "bytes": 5105,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-6/numerical-complete.json",
+      "sha256": "277e8292d0d478482ba5385a5fbd722720f663988352624e3fc3686be5779119"
+    },
+    "provenance/objective-6/numerical.json": {
+      "bytes": 9661,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-6/numerical.json",
+      "sha256": "f9f58ec5ed398318f7ae32fb59e465afa288c6c38b9347904e088f81c01df7d3"
+    },
+    "provenance/objective-7/numerical-complete.json": {
+      "bytes": 5111,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-7/numerical-complete.json",
+      "sha256": "812ed32dda099acf9b175d6c8e11613e02357dbae93ff16e2905bb5bb7eb465e"
+    },
+    "provenance/objective-7/numerical.json": {
+      "bytes": 10131,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-7/numerical.json",
+      "sha256": "e260795efb3902fce97b860e5f90f58dc8b95a29f2d2f0e71cc51e81adf4be10"
+    },
+    "provenance/parent-numerical.json": {
+      "bytes": 481,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/parent-numerical.json",
+      "sha256": "c422f69479a94734b9ec7c3d3065335d0c53bd440907935a79cc51af43856761"
+    },
+    "provenance/run-status.json": {
+      "bytes": 13337,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/run-status.json",
+      "sha256": "56a6f931c8c9a4eb5367ef85244f497d8584eccd484a004190d1c459c2b5553d"
+    },
+    "provenance/session.json": {
+      "bytes": 5177,
+      "repository_path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/session.json",
+      "sha256": "6cd4d8b18cd2a542ffb6c7c1285611e2ff7ab2cae3cc2fa7c53c248e1ec68697"
+    }
+  },
+  "source_selection": {
+    "draw": 0,
+    "family": 0,
+    "forward_row_index": 24,
+    "owner": "predictor.0",
+    "phase": "EOT8-before"
+  },
+  "target_binding_handoff_or_scope_created": false,
+  "training_admitted": false
+}

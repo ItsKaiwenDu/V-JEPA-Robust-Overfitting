@@ -1,0 +1,49 @@
+{
+  "actual_tensor_gradient_model_GPU_profiler_or_target_work": false,
+  "corrections": [
+    "Runtime descriptor restores only bounded integer backing-group keys after JSON transport; the original strict layout gate and raw manifest stay unchanged.",
+    "The fake route adapter now accepts the real keyword-only binding argument; production code was unchanged for this test-harness correction.",
+    "The timeout expectation requires no trace publication when the original guard expires immediately after raw extraction.",
+    "The cold cache includes the backend's five file pins, including projection v2 read as data but absent from the import-only graph."
+  ],
+  "date": "2026-11-19",
+  "execution_binding": null,
+  "fake_complete_workers_are_not_execution_admission": true,
+  "full_numerical_entry_and_dispatch_absent": true,
+  "generated_modules": 7,
+  "kind": "pgd-component-only-runtime-v1-local-integration",
+  "new_full_model_objectives": 0,
+  "new_target_scope_handoff_or_authorization": false,
+  "next_local_only": "Integrate this component-only source graph with whole-scratch inventory, source-cache loader, parent supervision and bounded collection before preparing any new target scope.",
+  "nonimport_source_pin_dependencies": {
+    "models/predictor_pgd_split_backend_v3.py": {
+      "models/predictor_sdpa_component_events_v1.py": "c1397e06ca89d1299a7d853e6c88124d1cc7874aae3f5763f018fbc67bd195fc",
+      "models/predictor_sdpa_component_events_v2.py": "ebde9c0f32078979cfa5920503004bb79ca697fdc05d7adacbfc59bde41f515a",
+      "models/predictor_sdpa_launch_evidence_v1.py": "c9749407f3d237050252ec7e9d4831c901df813a35b3b4a38ad8d693e0e1899f",
+      "models/predictor_sdpa_launch_evidence_v2.py": "05f99a96ca34d65c4167cdbd37f97600b14468aa08fbfe5aa9b581b72e5fdddb",
+      "models/predictor_sdpa_launch_evidence_v3.py": "d8ca7092b346d3e1ccd9c43a99a4379eba21914a08ced173b692148015010675"
+    }
+  },
+  "source_bytes": 412198,
+  "source_capsule_unchanged": true,
+  "source_files": 37,
+  "source_manifest": "runs/pretrained/diagnostic/pgd-component-runtime-v1-20261119/SOURCE-MANIFEST-v3.json",
+  "source_manifest_sha256": "fc39899fbb67322bc81cccd94107d9b7b0101687baba68c35e55e8537e1509ba",
+  "source_pins": {
+    "configs/predictor_pgd_component_runtime_inputs_v1.json": "13fd93783da85d20e978d7ab32c3c7045740cbefaea46356dd4f1560b4509173",
+    "models/predictor_pgd_component_runtime_v1.py": "c1ab2ba7d68d3b65ac3fa58d7fbb457bb059291273069f37c12fd05c81005b3c",
+    "tests/test_predictor_pgd_component_runtime_v1.py": "3a11159126a9443f8d6a855bdcd4286ad975cfafc43ab99222015e5593762163"
+  },
+  "target_supervisor_inventory_and_collection_integrated": false,
+  "tests": {
+    "affected_passing_check_repeats": 2,
+    "distinct_pass": 31,
+    "executions": 45,
+    "failed_executions": 12,
+    "historical_or_scientific_repeats": 0,
+    "initial_distinct_failures": 6,
+    "reason_for_passing_rechecks": "The generated source graph changed first for canonical JSON group-key reconstruction, then to include a backend non-import source pin. No other passing case was repeated.",
+    "repeated_passing_case": "source_graph_has_seven_concrete_modules_and_no_full_numeric_dispatch"
+  },
+  "training_admitted": false
+}

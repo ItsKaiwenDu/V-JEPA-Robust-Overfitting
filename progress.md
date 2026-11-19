@@ -1,5 +1,28 @@
 # Research Progress Reports
 
+November19: the verified capsule now feeds a component-only cold worker source
+graph,37files/412198B, with corrected backend metadata and all5file pins included.
+The old numerical entry/dispatcher is excluded; execution binding remainsnull.
+Original arithmetic/layout/runtime/profile/writer gates remain unchanged. Canonical
+JSON group keys are restored for the strict layout comparison.31distinct new checks
+have passing results/45executions; only failed/new cases and two affected graph
+rechecks ran. Two complete lifecycles are explicitly fake with opaque outputs;
+no real scientific or university work occurred. Independent auditv2 preserves21,216
+prior hashes/21,980fixture entries. Completed8gradients remainpreserved and oldnative
+failure remainsfailed. Next integrate whole-scratch/cache-loader/parent supervision/
+collection locally. See report/checks/2026-11-19-pgd-component-runtime-v1-local-review.md.
+
+November 19: prepared a 27,279,360-byte local component input capsule from
+35 unchanged saved files plus a manifest. Original attention operands, cotangent,
+native references, layouts and provenance remain byte-verified; serialized tensors
+stay opaque. All33new local checks pass once. Standalone auditv2 preserves21,150
+prior hashes/21,880fixture entries and reconstructs the entire archive independently.
+The completed8gradient/4pair numerical result is reused; full numerical arrays stay
+in the original tree. Old component/session failure staysfailed, future execution
+identity remainsunbound and training staysgated. No scientific or university work
+ran. Next integrate a component-only worker source namespace that excludes the full
+numerical entry point. See report/checks/2026-11-19-pgd-component-capsule-v1-local-review.md.
+
 November 19: finalized the November18 local engine/node metadata correction.
 The saved native trace matches a source-supported recipe retaining all1,535rows,
 engine defaults0/-1 and recorded node tags1/0. It requires one typed producer and

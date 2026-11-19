@@ -1,0 +1,41 @@
+{
+  "archive_bytes": 27279360,
+  "archive_members": 36,
+  "archive_sha256": "82a30efedfb0e85fd39c634c5bd0a8b82bd839b91bc7259841e2d517d495011e",
+  "canonical_archive_reconstructed_independently": true,
+  "complete_numerical_arrays_recopied_or_recompared": false,
+  "completed_eight_gradient_cohort_preserved_and_not_rerun": true,
+  "contract": "configs/predictor_pgd_component_capsule_v1.json",
+  "date": "2026-11-19",
+  "documentation": "docs/predictor_pgd_component_capsule_v1.md",
+  "historical_failed_component_promoted": false,
+  "independent_auditor_version": 2,
+  "initial_auditor_correction": "V1 collected only literal constants and missed arithmetic resource-cap expressions. V2 verifies their exact ASTs. Both source/log versions retained; production/tests unchanged; no first-pass audit claim.",
+  "input_member_bytes": 27234618,
+  "kind": "pgd-component-capsule-v1-independent-local-review",
+  "mode": "Standalone stdlib saved bytes/hash/AST/archive metadata only; no project/test callbacks, array/tensor decoding, scientific work, process/signal/timer/network/university work.",
+  "new_scientific_or_university_work": false,
+  "new_target_binding_scope_handoff_or_approval_request": false,
+  "old_FIFO_lstat_only": 1,
+  "opaque_tensor_bytes_only": true,
+  "prior_fixture_entries_verified": 21880,
+  "prior_hashes_verified": 21150,
+  "remaining_work": "Local component-only source/cache/runtime, ownership/numerical/backend/resource and collection integration. Future execution remains unbound; never rerun the completed numerical cohort.",
+  "result": "PASS",
+  "source_bytes_exactly_match_previously_verified_evidence": true,
+  "source_files": 35,
+  "source_pins": {
+    "configs/predictor_pgd_component_capsule_v1.json": "082ced8b88be471d6f443bec186ccfb4b0e93a7433f52313b71dba00b5fd10ca",
+    "models/predictor_pgd_component_capsule_v1.py": "453dea53b4e33b2187b8ffc248546aaba9c011e535d11dbc285a3c4fd15dcd37",
+    "tests/test_predictor_pgd_component_capsule_v1.py": "a43a5611e824aa5798c8caa3ebd0f1aa339995b94b3deb2ee37fbaa83151dfb3"
+  },
+  "target_runtime_integrated": false,
+  "tensor_files": 8,
+  "tests": {
+    "distinct_pass": 33,
+    "executions": 33,
+    "failures": 0,
+    "passing_historical_or_scientific_repeats": 0
+  },
+  "training_admitted": false
+}

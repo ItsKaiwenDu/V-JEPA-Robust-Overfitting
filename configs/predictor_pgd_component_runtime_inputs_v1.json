@@ -1,0 +1,354 @@
+{
+  "capsule_archive_sha256": "82a30efedfb0e85fd39c634c5bd0a8b82bd839b91bc7259841e2d517d495011e",
+  "execution_binding": null,
+  "files": {
+    "CAPSULE_CONTRACT": {
+      "bytes": 13564,
+      "path": "configs/predictor_pgd_component_capsule_v1.json",
+      "sha256": "082ced8b88be471d6f443bec186ccfb4b0e93a7433f52313b71dba00b5fd10ca"
+    },
+    "CAPSULE_MANIFEST": {
+      "bytes": 13480,
+      "path": "runs/pretrained/diagnostic/pgd-component-capsule-v1-20261119/MANIFEST.json",
+      "sha256": "a7e6740c69f5f3bf8c5fc6b71683296f2c9ebc818b644814b2f37eaf983c0e24"
+    },
+    "COLD_IMPORT_READER": {
+      "bytes": 18185,
+      "path": "models/predictor_pgd_split_runtime_v1.py",
+      "sha256": "7eea2296a5b77c116de3222aceba91488861702ffdfed7d10aa9991e08832c72"
+    },
+    "attacks/__init__.py": {
+      "bytes": 69,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/attacks/__init__.py",
+      "sha256": "41a090d550527278b09bfb62fbed810805b379151b7a5ab7cb5469bc12ee01cb"
+    },
+    "attacks/pgd.py": {
+      "bytes": 5089,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/attacks/pgd.py",
+      "sha256": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81"
+    },
+    "attacks/pgd_pretrained_v1.py": {
+      "bytes": 5017,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/attacks/pgd_pretrained_v1.py",
+      "sha256": "71a9c8c25c267903c31f3eb4223ab9b7bd1f7010b4aefc19104600db0ed6a0ec"
+    },
+    "models/__init__.py": {
+      "bytes": 86,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/__init__.py",
+      "sha256": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5"
+    },
+    "models/_pgd_split_boundary_v1.py": {
+      "bytes": 17495,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/_pgd_split_boundary_v1.py",
+      "sha256": "95237713919109f3e2c7d1ae4a3acdeb3967b1f2ef703ae675ae1489938d0980"
+    },
+    "models/_pgd_split_entry_v1.py": {
+      "bytes": 4765,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/_pgd_split_entry_v1.py",
+      "sha256": "53ea97a7e1859dad69dab701c77a8d51b81f3424dc9822861e1ecbbbde825e94"
+    },
+    "models/_pgd_split_facade_v1.py": {
+      "bytes": 11285,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/_pgd_split_facade_v1.py",
+      "sha256": "fe626d7139215c971ca8072784c1549566b759292854f3d794e4f84dce553005"
+    },
+    "models/_pgd_split_io_v1.py": {
+      "bytes": 32619,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/_pgd_split_io_v1.py",
+      "sha256": "2bb6c3c7ecfbbb386a30bff8254b7174a9ff6c1f012006925f54d68d1265e808"
+    },
+    "models/_pgd_split_numerical_v1.py": {
+      "bytes": 22913,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/_pgd_split_numerical_v1.py",
+      "sha256": "b58dfbbbb5484b951889ffae0261862b73a5e36bde419765ace635cbbd5c7504"
+    },
+    "models/_pgd_split_observer_v1.py": {
+      "bytes": 17556,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/_pgd_split_observer_v1.py",
+      "sha256": "c5bf5fe34ea087afd3ab5e1f8a42b9199d46aed435abf4d39f3584fd90e3850a"
+    },
+    "models/_pgd_split_progress_v1.py": {
+      "bytes": 23049,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/_pgd_split_progress_v1.py",
+      "sha256": "8c7cf75bae042a844eabfbbe3e2afb65e0b6b355f7fd4f9b126d3e4691d5424c"
+    },
+    "models/_pgd_split_providers_v1.py": {
+      "bytes": 6097,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/_pgd_split_providers_v1.py",
+      "sha256": "766b4861e22ec2d57787ad098d1dacec0c32c88ee24d4c7c2c85b2db0761da37"
+    },
+    "models/_pgd_split_raw_v1.py": {
+      "bytes": 4174,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/_pgd_split_raw_v1.py",
+      "sha256": "78c9fcd2244d756e6c1aa5ad73c6c9f2907e27f6074156a06a5fec2a746c8663"
+    },
+    "models/_pgd_split_records_v1.py": {
+      "bytes": 17730,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/_pgd_split_records_v1.py",
+      "sha256": "5bb04503f5c58139feb5da91ceee3180d4262dad63e2eb33bb9e2efce21ae5a0"
+    },
+    "models/_pgd_split_route_v1.py": {
+      "bytes": 25865,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/_pgd_split_route_v1.py",
+      "sha256": "fccad384e34147b615ca37a67f5c5ace9424270710f9b65a15977c30e44ca203"
+    },
+    "models/_pgd_split_startup_v1.py": {
+      "bytes": 3449,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/_pgd_split_startup_v1.py",
+      "sha256": "2deac57c321daeb7fcbc1979322a2f6eb50dbc7c852e19a562afd41937f84b68"
+    },
+    "models/candidate_contract.py": {
+      "bytes": 5094,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/candidate_contract.py",
+      "sha256": "13f664f7146eb4816cbaf9fde15d1b6e572db0949e22c319eb2420d23c1e4572"
+    },
+    "models/candidate_evaluation.py": {
+      "bytes": 9732,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/candidate_evaluation.py",
+      "sha256": "26510d6bd5557421fc10bcdc28dd4b5c553b69c3a9914a3cd80457d5bc746a30"
+    },
+    "models/checkpointing.py": {
+      "bytes": 6645,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/checkpointing.py",
+      "sha256": "edc5940bc73db42c89b3494be9b0f2098680762f4fa972305f51abe47c3d8373"
+    },
+    "models/cuda_convolution.py": {
+      "bytes": 24713,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/cuda_convolution.py",
+      "sha256": "6254b621ebb8aa28d44616d8527a930f042f83a786eeb468137a58d1b76ff6e3"
+    },
+    "models/cuda_profile.py": {
+      "bytes": 23812,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/cuda_profile.py",
+      "sha256": "eac91d88a688ec073a3a965e656d88cc1b28a6b446279bc4b77196ee104990d0"
+    },
+    "models/diagnostics.py": {
+      "bytes": 5555,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/diagnostics.py",
+      "sha256": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0"
+    },
+    "models/eot_profile_packet.py": {
+      "bytes": 5740,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/eot_profile_packet.py",
+      "sha256": "e2ed28d35d428e85a2c9f7b447c66de77b6917c0f0c32cfff4d169dbf142aa17"
+    },
+    "models/evaluation.py": {
+      "bytes": 8544,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/evaluation.py",
+      "sha256": "1431951d158b57b615208006edb5365a6bad910b2a14e0aa782a1c6f82034089"
+    },
+    "models/evaluation_store.py": {
+      "bytes": 9252,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/evaluation_store.py",
+      "sha256": "9503834d106b788c1638b4a57d886259e2cf6f6be5069b18a1105e8beac48ee1"
+    },
+    "models/execution.py": {
+      "bytes": 12043,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/execution.py",
+      "sha256": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba"
+    },
+    "models/fixture_state.py": {
+      "bytes": 4418,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/fixture_state.py",
+      "sha256": "4f1d891a26caf35a9c42f802e84f650e2e0c7dc0857369794bfef65e54c487d2"
+    },
+    "models/gradient_attribution.py": {
+      "bytes": 21684,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/gradient_attribution.py",
+      "sha256": "f8bd9d39dd41c61ffadd8ac882d08a36bb2513a948047632a789c8d0900414d3"
+    },
+    "models/native_diagnostic.py": {
+      "bytes": 20448,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/native_diagnostic.py",
+      "sha256": "c56b29496397d5516416a884ab591ec6de43e0fc4dca1bc05536234e10ea75d9"
+    },
+    "models/native_patch.py": {
+      "bytes": 3250,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/native_patch.py",
+      "sha256": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7"
+    },
+    "models/native_probe.py": {
+      "bytes": 5340,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/native_probe.py",
+      "sha256": "10dd9afd62615106aa298c1970278dcd9f203979c8006bc150ecbdc0228db762"
+    },
+    "models/patch_embed.py": {
+      "bytes": 1827,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/patch_embed.py",
+      "sha256": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec"
+    },
+    "models/pilot.py": {
+      "bytes": 2119,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/pilot.py",
+      "sha256": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82"
+    },
+    "models/pilot_bundle.py": {
+      "bytes": 9169,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/pilot_bundle.py",
+      "sha256": "d25f0e1f085bb7addcfc855986c7bf984765990cb473be9d5315f5399696a9db"
+    },
+    "models/precision_diagnostic.py": {
+      "bytes": 25361,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/precision_diagnostic.py",
+      "sha256": "c096e38bf53c4cdc0273a74f3fd0e4be0c1fc197925a71cfa9d633d192bb7d00"
+    },
+    "models/precision_patch.py": {
+      "bytes": 7991,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/precision_patch.py",
+      "sha256": "30e8a6b28b8f082fd771aaeab5a70a73cf200714ef2b24416a55938f61e9c550"
+    },
+    "models/predictor_boundary_contract_v1.py": {
+      "bytes": 533,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_boundary_contract_v1.py",
+      "sha256": "f05cb2ca07aade34a95801bc97a07f9044de0493a2acc016d703749e812810aa"
+    },
+    "models/predictor_boundary_record_v1.py": {
+      "bytes": 10170,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_boundary_record_v1.py",
+      "sha256": "c76c6e1564b2fc6d14c47b44f926b7fb2b12bc288e1fe7e1714cd5ca82dd484b"
+    },
+    "models/predictor_eot8_adapter_v1.py": {
+      "bytes": 7839,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_eot8_adapter_v1.py",
+      "sha256": "89b7e0c67e88f2f776bb0bb6ad786a2202115e64ffc6c6f9a962381cc2e9a6b8"
+    },
+    "models/predictor_eot8_capture_v1.py": {
+      "bytes": 2194,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_eot8_capture_v1.py",
+      "sha256": "fcf582f0152f9ad1d93d1bf038895ba6c6c84d75a4fdfc02d5d4b2ea96e0d3e4"
+    },
+    "models/predictor_eot8_owned_receipt_v1.py": {
+      "bytes": 4599,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_eot8_owned_receipt_v1.py",
+      "sha256": "55005fd96e994c660e693e0347a337d01826eaf5224ecf6f38329a8905538531"
+    },
+    "models/predictor_eot8_owned_v1.py": {
+      "bytes": 16089,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_eot8_owned_v1.py",
+      "sha256": "ef3675e69ef56b0b4ef4f543cab96b7f2bc757a64202d74500f3802ccd5dfc12"
+    },
+    "models/predictor_eot8_record_v2.py": {
+      "bytes": 14128,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_eot8_record_v2.py",
+      "sha256": "c75455b9a08f1b25bbb7269d4ae3c1fa34826656ba1800c0a45fdf9433765dd9"
+    },
+    "models/predictor_forward_preserving_cpu_v1.py": {
+      "bytes": 13668,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_forward_preserving_cpu_v1.py",
+      "sha256": "77f3e29dcf87d0931efa644eb84e1b5ca503631d16bc5aa12a3c96eb3bd888d2"
+    },
+    "models/predictor_forward_preserving_target_v1.py": {
+      "bytes": 13126,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_forward_preserving_target_v1.py",
+      "sha256": "5d6c37f989bcfd4e0ce29eab77499dbaf894b3e5caf28845ba2f79954e3759f5"
+    },
+    "models/predictor_forward_preserving_upstream_v1.py": {
+      "bytes": 10614,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_forward_preserving_upstream_v1.py",
+      "sha256": "a221c95a83e9b46da7d9f7d826c7a52fac4845e16251ac78fababec4a034daeb"
+    },
+    "models/predictor_pgd_component_capsule_v1.py": {
+      "bytes": 14106,
+      "path": "models/predictor_pgd_component_capsule_v1.py",
+      "sha256": "453dea53b4e33b2187b8ffc248546aaba9c011e535d11dbc285a3c4fd15dcd37"
+    },
+    "models/predictor_pgd_split_backend_v1.py": {
+      "bytes": 21289,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_pgd_split_backend_v1.py",
+      "sha256": "f994c5037b4fbf507eeeb71f3df41eac26ec5f21b052d8faa89052b08fb31e2f"
+    },
+    "models/predictor_pgd_split_backend_v3.py": {
+      "bytes": 23260,
+      "path": "models/predictor_pgd_split_backend_v3.py",
+      "sha256": "2673d507c18b1b09a0b269d8740252b217a591b11def52bcf9f22cdca7c5c2c8"
+    },
+    "models/predictor_pgd_split_lineage_v1.py": {
+      "bytes": 8431,
+      "path": "models/predictor_pgd_split_lineage_v1.py",
+      "sha256": "a53103bfc665b30930af2b6046a347f81369b0de3a1b72ff2743bc5f3c643647"
+    },
+    "models/predictor_pgd_split_plan_v1.py": {
+      "bytes": 15697,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_pgd_split_plan_v1.py",
+      "sha256": "cdd2729d2f05782d269a45aa4c22412dcff7b9c5d684267550eb16f59c838ba6"
+    },
+    "models/predictor_pgd_split_probe_job_v1.py": {
+      "bytes": 26215,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_pgd_split_probe_job_v1.py",
+      "sha256": "91e69f08d72f02f0314964ca9b10689cf2f4ac607b9787bcc4a8ccb2ba0df93c"
+    },
+    "models/predictor_pgd_split_store_v1.py": {
+      "bytes": 9915,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_pgd_split_store_v1.py",
+      "sha256": "7bcbd863eab7c23940fa1d32b194448b88353202c2100b66a9a30f59e4ef6022"
+    },
+    "models/predictor_sdpa_component_events_v1.py": {
+      "bytes": 8268,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_sdpa_component_events_v1.py",
+      "sha256": "c1397e06ca89d1299a7d853e6c88124d1cc7874aae3f5763f018fbc67bd195fc"
+    },
+    "models/predictor_sdpa_component_events_v2.py": {
+      "bytes": 15023,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_sdpa_component_events_v2.py",
+      "sha256": "ebde9c0f32078979cfa5920503004bb79ca697fdc05d7adacbfc59bde41f515a"
+    },
+    "models/predictor_sdpa_launch_evidence_v1.py": {
+      "bytes": 17552,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_sdpa_launch_evidence_v1.py",
+      "sha256": "c9749407f3d237050252ec7e9d4831c901df813a35b3b4a38ad8d693e0e1899f"
+    },
+    "models/predictor_sdpa_launch_evidence_v2.py": {
+      "bytes": 19485,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/predictor_sdpa_launch_evidence_v2.py",
+      "sha256": "05f99a96ca34d65c4167cdbd37f97600b14468aa08fbfe5aa9b581b72e5fdddb"
+    },
+    "models/predictor_sdpa_launch_evidence_v3.py": {
+      "bytes": 19602,
+      "path": "models/predictor_sdpa_launch_evidence_v3.py",
+      "sha256": "d8ca7092b346d3e1ccd9c43a99a4379eba21914a08ced173b692148015010675"
+    },
+    "models/projection_reuse.py": {
+      "bytes": 6156,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/projection_reuse.py",
+      "sha256": "28bd626d16831f9b30e4c83262f60c2486c9c08ffb8b94c485e0eb6214e36061"
+    },
+    "models/reuse_diagnostic.py": {
+      "bytes": 34024,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/reuse_diagnostic.py",
+      "sha256": "84cace760315f9aeed601d241314f8da884b4159e33d063463ff165a552ac082"
+    },
+    "models/reuse_execution.py": {
+      "bytes": 5944,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/reuse_execution.py",
+      "sha256": "7c0014e467277a954e9d739b89397f70d5a9ee4fcd9332c943dfa9aab2aa4c88"
+    },
+    "models/reuse_handoff.py": {
+      "bytes": 7284,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/reuse_handoff.py",
+      "sha256": "abed51af6f3fb8560b412ec49a2435cc82efd151faad99c0f24a3c7765f7d581"
+    },
+    "models/runtime.py": {
+      "bytes": 4827,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/runtime.py",
+      "sha256": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de"
+    },
+    "models/study_artifacts.py": {
+      "bytes": 1011,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/study_artifacts.py",
+      "sha256": "c9ace85300c4efcc62e14bf60a89a4c22415497ea8a5ee5f8e3f12230ac8fcad"
+    },
+    "models/training.py": {
+      "bytes": 16803,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/training.py",
+      "sha256": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679"
+    },
+    "models/vjepa2.py": {
+      "bytes": 12926,
+      "path": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/overlay/models/vjepa2.py",
+      "sha256": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf"
+    }
+  },
+  "kind": "pgd-component-runtime-local-source-inputs-v1",
+  "new_scientific_or_university_work": false,
+  "target_handoff_created": false
+}
