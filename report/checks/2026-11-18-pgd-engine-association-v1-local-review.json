@@ -1,0 +1,120 @@
+{
+  "GPU_annotations_retained": 2,
+  "all_other_code_caps_and_gates_exact": true,
+  "config": "configs/predictor_pgd_engine_association_v1.json",
+  "date": "2026-11-18",
+  "documentation": "docs/predictor_pgd_engine_association_v1.md",
+  "engine_forward_thread_sequence": [
+    0,
+    -1
+  ],
+  "engine_node_producer_indices": [
+    965,
+    987,
+    273
+  ],
+  "finalized": "2026-11-19",
+  "historical_worker_failure_and_completed_eight_gradient_cohort_preserved": true,
+  "independent_audit_source": "runs/pretrained/diagnostic/pgd-engine-association-v1-20261118/independent-local-review-v2.py",
+  "independent_audit_versions": 2,
+  "initial_audit_assertion_correction": "First audit assumed one-line engine-source formatting. V2 normalizes whitespace for that assertion. Original source/log remain preserved; production code unchanged; no first-pass claim.",
+  "kernel_metadata_links": [
+    [
+      280,
+      298
+    ],
+    [
+      999,
+      1048
+    ]
+  ],
+  "kind": "pgd-engine-association-v1-independent-local-review",
+  "limitations": [
+    "Retrospective metadata recipe only; no native parent/GraphTask observation, installed wheel authentication or fabricated trace authentication.",
+    "PyTorch generic wrapper defaults are required; mixed or node-tagged wrappers still refuse under this separately versioned policy.",
+    "Node identity and supported typed forward producer chain are required; unrelated peek-counter rows are retained, never used as alternative producers.",
+    "Positive recorded CUDA links remain required; names, duration and CPU containment alone cannot qualify execution.",
+    "The old worker stays failed; candidate component/full-EOT8/replay/performance/study-cost/training are not admitted.",
+    "No target integration/scope/handoff/approval request, new gradients, array decoding, scientific recomputation or university connection in this task."
+  ],
+  "local_integration_or_new_target_scope_created": false,
+  "mode": "Standalone stdlib saved/hash/AST review; no project/test callbacks, arrays, scientific work, subprocess, signal, timer, network or university work.",
+  "native_saved_metadata_matches_new_recipe": true,
+  "negative_metadata_refusals_verified": 48,
+  "new_scientific_or_target_work": false,
+  "new_target_binding_or_authorization": false,
+  "next_step": "Design remaining component integration locally using saved inputs and numerical results; never repeat the completed eight-gradient cohort.",
+  "node_forward_thread_sequence": [
+    1,
+    0
+  ],
+  "old_FIFO_lstat_only": 1,
+  "only_policy_and_bind_change_complete_byte_inverse_verified": true,
+  "overhead_rows_retained": 12,
+  "pinned_primary_source_snapshots_verified": 7,
+  "prior_fixture_counts_verified": [
+    1720,
+    474,
+    101,
+    166,
+    894,
+    2909,
+    494,
+    248,
+    779,
+    221,
+    2722,
+    19,
+    334,
+    12,
+    181,
+    11,
+    272,
+    227,
+    204,
+    551,
+    11,
+    5,
+    11,
+    279,
+    258,
+    12,
+    287,
+    375,
+    417,
+    281,
+    276,
+    142,
+    277,
+    8,
+    448,
+    3136,
+    2076,
+    9,
+    7,
+    626,
+    190
+  ],
+  "prior_fixture_entries_verified": 21670,
+  "prior_hashes_verified": 21009,
+  "raw_and_projected_records": 1535,
+  "raw_trace_sha256": "3db71b394c0bf0f251040445bca28f3f9b7c9a2bdeb265bb373b4a302054965d",
+  "result": "PASS",
+  "same_counter_nonproducer_rows_retained": 82,
+  "source_pins_verified": {
+    "models/predictor_pgd_engine_association_v1.py": "b11869a2543af0ad41c31640f61f609c0eaaaf0544a8df7a4b329ad273efc221",
+    "models/predictor_pgd_split_backend_v3.py": "2673d507c18b1b09a0b269d8740252b217a591b11def52bcf9f22cdca7c5c2c8",
+    "tests/test_predictor_pgd_engine_association_v1.py": "1773fb023b7018a11ecb375ba14c3c8c0f0aba12d40ba2eac9c28432e1701a56"
+  },
+  "synthetic_positive_records_verified": 4,
+  "tests": {
+    "distinct_pass": 57,
+    "executions": 60,
+    "handwritten_cases_explicitly_synthetic": true,
+    "historical_suites_or_scientific_cohorts_repeated": 0,
+    "initial_expectation_failures": 3,
+    "only_failed_exact_nodes_rerun": true,
+    "passing_repeats": 0
+  },
+  "training_admitted": false
+}

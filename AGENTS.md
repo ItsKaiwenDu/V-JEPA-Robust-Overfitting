@@ -2,6 +2,107 @@
 
 ## Current stage
 
+LATEST November 19: LOCAL ENGINE/NODE METADATA CORRECTION REVIEWED AND SEALED.
+Read docs/predictor_pgd_engine_association_v1.md, its config, and
+report/checks/2026-11-18-pgd-engine-association-v1-local-review.json/md.
+November18 checks/audit passed; November19 finalized notes/seal only, no reruns.
+All university grants consumed. No SSH/query/upload/model/GPU/proof/paid work,
+new target scope/handoff/grant/claim or manual status/key paste. User stages/
+commits/pushes, NEVER agent. Preserve ALL uncommitted loading-stage work, this
+correction, all source/test/audit versions and historical evidence/failures.
+
+Cold recipe predictor_pgd_engine_association_v1 derives backend v3:23260B,
+SHA2673d507... from frozen v2 SHA850084f8.... ONLY POLICY and _View.bind change;
+complete byte inverse and all-other-AST equivalence verified. Projection,
+source/runtime/parse/private-IO/phase/correlation/backend/role/caps stay exact.
+Pinned PyTorch2.8.0 generic engine defaults0/-1 differ from explicit node tags.
+Seven public primary snapshots saved. No installed-wheel/native-parent/GraphTask/
+fabricated-trace authentication. New association requires one supported node,
+unique default-tag wrapper/direct node/scope/process/thread and one bounded typed
+producer chain with recorded forward-thread/sequence; all kernel gates remain.
+No copied tags/raw filtering/invented IDs or name/time-only identity repair.
+
+Saved1535rows match NATIVE METADATA recipe:engine965,node987,producer273;
+engine tags0/-1,node1/0;82unrelated same-counter rows retained as nonproducers.
+Kernel metadata280->298 and999->1048;12overhead+2GPUannotations retained and
+excluded from ownership/kernel evidence. Projected CPU parents are interval-
+derived, NOT native parent edges. Historical native worker stillFAILED;
+candidate component NOTcaptured/completed. No component success/fullEOT8/replay/
+performance/cost/training admission. Preserve8completed gradients/4passing
+numerical pairs; NEVERrerun the completed cohort for parser/component repair.
+
+57distinct NEW metadata checks PASS/60executions;3failed expectations corrected,
+ONLYthose3exact nodes rerun;zero passing/historical/science repeats. Production
+identical across3snapshots. Standalone stdlib saved/hash/AST audit v2PASS:
+21009prior hashes+21670prior fixture entries. OldFIFO LSTATONLY NEVEROPEN.
+First audit had whitespace-sensitive source assertion; both versions/logs kept,
+no FIRSTPASSclaim. No project/test callbacks, array/pixel/checkpoint decoding,
+objectives/model/profiler/derivatives/CUDA/proof/process/signals/timers/network/
+university work in audit. No test/scientific work on November19 resumption.
+
+NEXT LOCAL ONLY: design remaining component integration using saved inputs and
+completed numerical results. New reader NOTtarget-integrated. No target scope/
+handoff/approvalrequest yet. Preserve original numerical/resource/clock/backend
+gates and failed workers. No consumedclaim reset/retry/retrieval/cleanup/install/
+paidcompute/financialholdrelease. Caps200project/160compute/single10 and pending
+holds/billing unchanged. Earlier LATEST entries historical.
+
+LATEST November 18: LOCAL LOADING-OVERHEAD CLASSIFIER CORRECTION REVIEWED; NEXT ENGINE TAG REFUSAL.
+Read docs/predictor_pgd_profiler_loading_v1.md, its config, and
+report/checks/2026-11-18-pgd-profiler-loading-v1-local-review.json/md.
+All university grants consumed. No new target binding/scope/handoff/command/grant/
+claim, SSH/query/upload/GPU/model/proof/paid work. No manual status/key paste.
+User stages/commits/pushes, NEVER agent. Preserve all uncommitted work/evidence.
+
+New cold recipe models/predictor_pgd_profiler_loading_v1.py creates projection v3
+19602B SHA d8ca7092... and local split backend reader v2 21614B SHA850084f8....
+Only projection policy/name set/negative-name predicate and reader import/policy/
+source pins/binding checks change. Complete byte inverses; all other function ASTs
+exact, including project/_verify_view and reader _View/_assess/parse/IO/entry.
+Frozen v1/v2 sources, target workers/control/cache, original numerical/backend/
+resource/clock/identity/correlation gates and historical failures stay exact.
+
+Pinned PyTorch2.8.0 gitlinkKineto5e750183... maps Runtime Triggered Module Loading
+and Lazy Function Loading overhead kinds under CUDA12.4+; Activity Buffer Request
+under12.7+. Five public primary-source excerpts saved, URLs/blob/content hashes
+verified. Signature support is NOT native-kind observation or installed-wheel/
+fabricated-metadata authentication. Exactly3names require original2.8.0+cu128,
+CPU/device-1/resource0/thread=endthread1/fwd0/seq-1/scope0/link0/corr>0/false async+
+annotation/legacy-1 and unchanged typed/time/schema limits. Unknown variants refuse.
+1535raw rows retained; all12negative overhead rows cannot own launch links/CPU
+parents/phases/kernels. Positive-process same-name rows remain frontend CPU.
+
+Real trace now projects fully, BUT full reader still REFUSES unchanged engine/node
+identity gate. Engine raw965 (pid927099/thread2/fwd0/seq-1), child node987(parent965,
+samepid/thread2/fwd1/seq0), correctly nested CPU intervals. Do NOT copy tags, drop
+rows, invent IDs, promote names/time to ownership or relax old backend gates.
+Native worker still failed, candidate component uncompleted. No kernel/component/
+fullEOT8/replay/performance/training admission. Preserve completed8gradients/4passing
+same-input numerical checks; do NOT rerun that completed cohort for parser repair.
+
+58distinct new metadata checks PASS/61executions. First52pass/3fail expected full
+saved acceptance before encountering next gate. Corrected ONLY3failed expectations
+and added3new cases; exact6nodes allpass. No passing/historical/science repeats.
+Production exact across2runs. Every source/test version/log/fixture preserved.
+Handwritten11-row SYNTHETIC positive/kernel-removal fixture has no captured GPU
+admission; real trace test requires further strict refusal. Source/policy/caps,
+runtime/signature/type/owner/producer/kernel spoof and private-hash gates checked.
+Independent stdlib saved/hash/AST audit FIRSTPASS20883priorhashes+21480fixture
+entries; FIFO LSTATONLY NEVEROPEN. All1535row retention, snapshots, byte/AST
+inverses and continued engine refusal verified. No project/test callbacks, arrays/
+pixels/checkpoint decode, new objectives/model/profiler/derivative/CUDA/proof/
+process/signal/timer/network/university work in checks/audit. Public GitHub reads
+ONLY for primary source evidence, saved separately; no university connection.
+
+NEXT LOCAL ONLY: examine pinned autograd/profiler implementation and saved producer/
+node/wrapper fields. Design separately versioned strict association correction if
+source supports it; keep all raw records, immutable failures, all ownership/kernel/
+clock/cap/numerical gates. Current engine predicate stays unchanged. No new target
+scope/handoff/approvalrequest or GPU/model rerun yet. No completed8gradient repeats,
+oldclaim reset/retry/retrieval/cleanup/install/paidcompute/financialholdrelease.
+Caps project200/compute160/single10 and pending holds/billing unchanged.
+Earlier LATEST entries historical.
+
 LATEST November 18: FULL NUMERICAL PGD SCOPE PASSES; NATIVE COMPONENT TRACE REFUSES.
 Read report/checks/2026-11-18-pgd-joint-handoff-v1-target-review.json/md and saved
 pgd-joint-handoff-v1-20261118/target-review-20261118/independent-saved-review-v4.py/log.

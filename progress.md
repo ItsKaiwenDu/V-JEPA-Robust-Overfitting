@@ -1,5 +1,29 @@
 # Research Progress Reports
 
+November 19: finalized the November18 local engine/node metadata correction.
+The saved native trace matches a source-supported recipe retaining all1,535rows,
+engine defaults0/-1 and recorded node tags1/0. It requires one typed producer and
+unchanged positive kernel links;82shared-counter nonproducers remain visible.
+57distinct new metadata checks pass;only3failed expectations were rerun.
+Standalone saved/hash/AST audit v2 preserves21,009prior hashes/21,670fixture entries.
+Historical worker remainsfailed;candidate component evidence is incomplete;
+execution/fullEOT8/replay/performance/training admission remainsgated. No new
+university/scientific work occurred;no checks were rerun after the usage-limit
+interruption. Preserve completed8gradients;next design component integration
+locally. See report/checks/2026-11-18-pgd-engine-association-v1-local-review.md.
+
+November 18: the saved loading-overhead refusal has a narrow, separately
+versioned local correction backed by pinned Kineto source. All 1,535 raw rows
+remain, with 12 overhead rows excluded from ownership/kernel evidence. 58 distinct
+metadata checks pass; only three failed expectations were rerun, with three new
+cases. Independent saved-source audit preserves 20,883 prior hashes / 21,480 fixture
+entries. The real trace still refuses at the unchanged engine/node identity gate:
+engine 965 has forward-thread/sequence 0/-1; node 987 has 1/0. No component success
+or new target work is inferred. The completed eight-gradient numerical cohort stays
+preserved without rerunning it. Next investigate that association contract locally
+against pinned upstream source. See
+report/checks/2026-11-18-pgd-profiler-loading-v1-local-review.md.
+
 November 18: the full eight-objective numerical PGD stage completed. All four
 candidate/original same-input checks pass unchanged bounds; all non-input return
 hashes match within each pair. Complete local collection is verified: 572 files /

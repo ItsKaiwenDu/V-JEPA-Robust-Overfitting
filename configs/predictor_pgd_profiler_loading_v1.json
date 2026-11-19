@@ -1,0 +1,171 @@
+{
+  "all_backend_association_numerical_resource_clock_gates_preserved": true,
+  "all_raw_records_retained": true,
+  "component_success_or_kernel_admission_inferred": false,
+  "date": "2026-11-18",
+  "derivation": {
+    "Kineto_pin": "5e7501833f1021ce6f618572d3baf657b6319658",
+    "all_other_functions_AST_exact": true,
+    "complete_byte_inverses": true,
+    "edits": {
+      "models/predictor_pgd_split_backend_v2.py": [
+        {
+          "new": "from models import predictor_sdpa_launch_evidence_v3 as frozen",
+          "old": "from models import predictor_sdpa_launch_evidence_v2 as frozen"
+        },
+        {
+          "new": "POLICY='pgd-native-forward-math-backward-loading-metadata-v2'",
+          "old": "POLICY='pgd-native-forward-math-backward-metadata-v1'"
+        },
+        {
+          "new": "PINNED={\n 'predictor_sdpa_launch_evidence_v3.py':'d8ca7092b346d3e1ccd9c43a99a4379eba21914a08ced173b692148015010675',",
+          "old": "PINNED={"
+        },
+        {
+          "new": "or frozen.BACKWARD!=BACKWARD or frozen.OVERHEAD_RUNTIME!=RUNTIME\n            or frozen.OVERHEAD_NAMES!=frozenset(('Activity Buffer Request', 'Runtime Triggered Module Loading', 'Lazy Function Loading')) or frozen.POLICY!='fixed-SDPA-profiler-loading-overhead-signatures-v2'):",
+          "old": "or frozen.BACKWARD!=BACKWARD or frozen.OVERHEAD_RUNTIME!=RUNTIME):"
+        }
+      ],
+      "models/predictor_sdpa_launch_evidence_v3.py": [
+        {
+          "new": "POLICY='fixed-SDPA-profiler-loading-overhead-signatures-v2'",
+          "old": "POLICY='fixed-SDPA-profiler-overhead-signature-v1'"
+        },
+        {
+          "new": "OVERHEAD_NAME='Activity Buffer Request'\nOVERHEAD_NAMES=frozenset((OVERHEAD_NAME,'Runtime Triggered Module Loading','Lazy Function Loading'))",
+          "old": "OVERHEAD_NAME='Activity Buffer Request'"
+        },
+        {
+          "new": "row['name'] not in OVERHEAD_NAMES",
+          "old": "row['name']!=OVERHEAD_NAME"
+        }
+      ]
+    },
+    "frozen_source_pins": {
+      "models/predictor_pgd_split_backend_v1.py": "f994c5037b4fbf507eeeb71f3df41eac26ec5f21b052d8faa89052b08fb31e2f",
+      "models/predictor_sdpa_launch_evidence_v2.py": "05f99a96ca34d65c4167cdbd37f97600b14468aa08fbfe5aa9b581b72e5fdddb"
+    },
+    "kind": "pgd-profiler-loading-metadata-v1-derivation",
+    "new_scientific_or_target_work": false,
+    "new_target_binding": false,
+    "overhead_names": [
+      "Activity Buffer Request",
+      "Runtime Triggered Module Loading",
+      "Lazy Function Loading"
+    ],
+    "runtime": "2.8.0+cu128",
+    "source_bytes": {
+      "models/predictor_pgd_split_backend_v2.py": 21614,
+      "models/predictor_sdpa_launch_evidence_v3.py": 19602
+    },
+    "source_pins": {
+      "models/predictor_pgd_split_backend_v2.py": "850084f8c74261a518ebb7a552d765276d6812d85a8bc735a4aba075334a5d1f",
+      "models/predictor_sdpa_launch_evidence_v3.py": "d8ca7092b346d3e1ccd9c43a99a4379eba21914a08ced173b692148015010675"
+    },
+    "training_admitted": false
+  },
+  "engine_forward_thread_sequence": [
+    0,
+    -1
+  ],
+  "engine_raw_index": 965,
+  "financial_caps_holds_reconciliation_unchanged": true,
+  "frozen_sources_preserved": {
+    "models/predictor_pgd_split_backend_v1.py": "f994c5037b4fbf507eeeb71f3df41eac26ec5f21b052d8faa89052b08fb31e2f",
+    "models/predictor_sdpa_launch_evidence_v2.py": "05f99a96ca34d65c4167cdbd37f97600b14468aa08fbfe5aa9b581b72e5fdddb"
+  },
+  "full_captured_backend_metadata_accepted": false,
+  "installed_wheel_source_commit_authenticated": false,
+  "kind": "pgd-profiler-loading-v1-local-metadata-correction",
+  "limitations": [
+    "Strict source-supported metadata signature only; no native overhead-kind field or installed wheel source authentication.",
+    "All1535raw records and indices remain; recognized overhead cannot own links/CPU parents/phases or qualify as a kernel.",
+    "The real trace still fails the unchanged engine/node association gate: engine965has0/-1 forward-thread/sequence while child node987has1/0.",
+    "Synthetic positive/kernel-removal cases use handwritten metadata and cannot admit captured GPU execution or worker completion.",
+    "No target/runtime integration, component success, fullEOT8/backend/replay/performance/training admission, new gradients/arrays or university work."
+  ],
+  "loading_classification_verified_locally": true,
+  "native_activity_kind_observed": false,
+  "new_GPU_model_profiler_proof_or_paid_work": false,
+  "new_grant_or_claim": false,
+  "new_target_binding_or_handoff": false,
+  "next_refusal": "Exact engine/node identity and enclosing CPU interval required.",
+  "node_forward_thread_sequence": [
+    1,
+    0
+  ],
+  "node_raw_index": 987,
+  "numerical_cohort_completed_preserved_and_not_rerun": true,
+  "old_worker_stays_failed": true,
+  "overhead_indices": [
+    11,
+    295,
+    296,
+    297,
+    1016,
+    1021,
+    1022,
+    1023,
+    1040,
+    1043,
+    1044,
+    1045
+  ],
+  "raw_records": 1535,
+  "saved_trace": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/events.json",
+  "saved_trace_bytes": 566539,
+  "saved_trace_sha256": "3db71b394c0bf0f251040445bca28f3f9b7c9a2bdeb265bb373b4a302054965d",
+  "source_pins": {
+    "models/predictor_pgd_profiler_loading_v1.py": "e980cbc827f3ea8cdfc1ff7383dcbd88bd35e8ac67d29f5243186cd092201025",
+    "models/predictor_pgd_split_backend_v2.py": "850084f8c74261a518ebb7a552d765276d6812d85a8bc735a4aba075334a5d1f",
+    "models/predictor_sdpa_launch_evidence_v3.py": "d8ca7092b346d3e1ccd9c43a99a4379eba21914a08ced173b692148015010675",
+    "tests/test_predictor_pgd_profiler_loading_v1.py": "9ec044f60429eb4a8fb32b453b16a615e751170d20f70c7bc9935a6935e62431"
+  },
+  "tests": {
+    "distinct_pass": 58,
+    "executions": 61,
+    "historical_suites_or_scientific_cohorts_repeated": 0,
+    "initial_expectation_failures": 3,
+    "new_handwritten_metadata_cases_explicitly_synthetic": true,
+    "only_failed_exact_nodes_rerun": true,
+    "passing_repeats": 0
+  },
+  "training_admitted": false,
+  "upstream_primary_snapshots": {
+    "correlation.json": {
+      "Git_blob_sha": "72bffcd8b8cea8d72f2f697cad18b6b1085fb5a4",
+      "content_sha256": "d3d1ec40e26e3c691922c8fdc528b37747c0d378b3e3347ce307e2403831057a",
+      "ref": "v2.8.0",
+      "snapshot_sha256": "70c5c89ad72b3b321e91c9e1d1956e8c75793a93930f82d7d2e98af0b2055d52",
+      "url": "https://github.com/pytorch/pytorch/blob/v2.8.0/torch/csrc/profiler/collection.cpp"
+    },
+    "cupti_strings.json": {
+      "Git_blob_sha": "554dfc396c6302498aea25ec7309534ace87a872",
+      "content_sha256": "d75a180dfc9d6682b082589b5b53f6881fdb5d11020485e327ddae61a4441aea",
+      "ref": "5e7501833f1021ce6f618572d3baf657b6319658",
+      "snapshot_sha256": "c45b5d67f4ad0fe9d9350b655d53631315ff11b546692c5f5e43c96de912845e",
+      "url": "https://github.com/pytorch/kineto/blob/5e7501833f1021ce6f618572d3baf657b6319658/libkineto/src/cupti_strings.cpp"
+    },
+    "device_accessor.json": {
+      "Git_blob_sha": "17aef05da085ca1072ead819ddd15a7b82500b45",
+      "content_sha256": "0b988f50227f42bcb1307583e640a39b79726b51dfed37a961761b6367a24a45",
+      "ref": "v2.8.0",
+      "snapshot_sha256": "a5442f4f053958b6a4080b7239ddba6d9326a779d14f71ca09c5ad309bd9a151",
+      "url": "https://github.com/pytorch/pytorch/blob/v2.8.0/torch/csrc/autograd/profiler_kineto.cpp"
+    },
+    "kineto_gitlink.json": {
+      "Git_blob_sha": null,
+      "content_sha256": "2346f94098508beaeaa6e711da2936964db3f402c1684fad80ec48077e43a81f",
+      "ref": "v2.8.0",
+      "snapshot_sha256": "9a96be139954a822a54959648f2a992b03b83497172264592fcc79d74edb5d6e",
+      "url": "https://api.github.com/repos/pytorch/pytorch/contents/third_party/kineto?ref=v2.8.0"
+    },
+    "overhead_wrapper.json": {
+      "Git_blob_sha": "8ba9e7717925521907d35a4b69f192a3eeb8e29f",
+      "content_sha256": "02ab513db87e609910d77a9730ab03fae9b3265a0175ca1a44f886113e31d4af",
+      "ref": "5e7501833f1021ce6f618572d3baf657b6319658",
+      "snapshot_sha256": "832f318ba714703405a786541467613b5bc4c6f406db83c90a68d0b2512add37",
+      "url": "https://github.com/pytorch/kineto/blob/5e7501833f1021ce6f618572d3baf657b6319658/libkineto/src/CuptiActivity.h"
+    }
+  }
+}
