@@ -624,3 +624,28 @@ billing. No quote, launch allowance or full research calibration is approved by
 this implementation. Require selected-hardware numerical/recovery and economic
 qualification before the declared thirty research calibration evaluations and
 any protocol adoption. [Implementation](candidate_eot8_implementation.md).
+
+## 2026-11-19 — Consolidate scoped evidence before training
+
+Retain the accepted clean EOT8 replay, earlier fixed-input FP64/native/math
+control, completed eight-gradient/four-pair PGD numerical result, native component,
+corrected saved backend metadata and native-relative component value checks.
+These receipts retain their own input, control, runtime and admission scope.
+The old candidate/session failure and earlier rejected derivative remain unchanged.
+
+Next implement a candidate-only completion adapter locally using backend v4,
+the unchanged component capsule and immutable PGD/native receipts. No completed
+native, clean replay or numerical cohort needs a repeat. The declared split
+mechanism diagnostic does not add a new FP64 oracle or full-model trace; those
+broader claims remain unestablished at the new perturbed point. A future separately
+approved candidate must produce its own complete runtime/resource/parent/collection
+chain before that diagnostic closes.
+
+Keep the input-gradient candidate separate from training PGD5/EOT1, routine EOT1,
+optimizer backward and the research policy registry. Full workloads/performance,
+chosen-hardware memory/recovery, complete cost and finances, research calibration,
+data/protocol lock and explicit adoption still precede research trajectories.
+Historical unfavorable cost screens, the single $10 diagnostic cap, $200/$160
+project/compute caps and unresolved financial holds remain. No live quote, new
+scope, upload, university connection, paid work or research run is authorized.
+See [the dated readiness assessment](training_readiness_20261119.md).

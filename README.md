@@ -1,5 +1,12 @@
 # V-JEPA Robust Overfitting
 
+**Current training readiness (November 19):**
+[The evidence checklist records completed checks and the remaining path to training](docs/training_readiness_20261119.md).
+Clean EOT8 replay, matched PGD numerical checks and saved component accuracy pass.
+The next local task is candidate-only completion integration; full-workload,
+hardware/economic, calibration and protocol gates remain. No new GPU command or
+research launch is authorized. Earlier entries are historical snapshots.
+
 **Small-upstream model integration passes (November 14):**
 [Four actual model comparisons pass the original gradient bounds](report/checks/2026-11-14-predictor-forward-preserving-upstream-v1-local-review.md).
 Original predictions and native L1 cotangents stay exact under the unchanged

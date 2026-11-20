@@ -1,0 +1,298 @@
+{
+  "capsule_archive": "runs/pretrained/diagnostic/pgd-component-capsule-v1-20261119/component-inputs.tar",
+  "client": "models/predictor_pgd_component_client_v1.py",
+  "execution_binding": null,
+  "files": {
+    "configs/predictor_pgd_candidate_completion_v1.json": {
+      "bytes": 4024,
+      "sha256": "2e3837e22c9d7a49b3f81dea44d994c59b2720c787e7c191fd6324e9ec264b8a"
+    },
+    "models/__init__.py": {
+      "bytes": 86,
+      "sha256": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5"
+    },
+    "models/predictor_pgd_component_bootstrap_v1.py": {
+      "bytes": 74184,
+      "sha256": "701cbc438967d297ff761d5b14bc9bc0dd7b9704aa9184493a6cacea425ca1f9"
+    },
+    "models/predictor_pgd_component_client_v1.py": {
+      "bytes": 16029,
+      "sha256": "26cdff9ff358659cf10135ed11451ca08950a5efc7db81866912e9e678a48ad7"
+    },
+    "models/predictor_pgd_component_collection_v1.py": {
+      "bytes": 59859,
+      "sha256": "b1838ef45dee0c7f9dad16f525ba88be12141d7f199804f0b7eb701eae2e76a7"
+    },
+    "models/predictor_pgd_component_outer_v1.py": {
+      "bytes": 39611,
+      "sha256": "1a4cd146bf9e6517ad2ebe580c57234f33ef53da008171271625d8ca640166b6"
+    },
+    "models/predictor_pgd_component_scratch_v1.py": {
+      "bytes": 106968,
+      "sha256": "a651480c80756709f0782e8ccd6e9635955a596a28480a2418025dcf1f099d1d"
+    },
+    "models/predictor_pgd_split_plan_v1.py": {
+      "bytes": 15697,
+      "sha256": "cdd2729d2f05782d269a45aa4c22412dcff7b9c5d684267550eb16f59c838ba6"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/NATIVE-REFERENCE-v1.json": {
+      "bytes": 3289,
+      "sha256": "3dc2484c07c04bb72593c2ee386824edf52b8d80ec0fe3bb803e645714e5d932"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/SOURCE-MANIFEST-v1.json": {
+      "bytes": 79004,
+      "sha256": "095a275bfa8d0581aeb6a99aa2305a25b5700a3b02756b502ceee360c100e138"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/attacks/__init__.py": {
+      "bytes": 69,
+      "sha256": "41a090d550527278b09bfb62fbed810805b379151b7a5ab7cb5469bc12ee01cb"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/attacks/pgd.py": {
+      "bytes": 5089,
+      "sha256": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/__init__.py": {
+      "bytes": 86,
+      "sha256": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_contract_v1.py": {
+      "bytes": 1188,
+      "sha256": "918854511a73fda012e1aad0703821a9e9793c5af62d3ede8b137e9f9a5f8401"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_entry_v1.py": {
+      "bytes": 5914,
+      "sha256": "c59538e1114d0ee3337c161d0365571963785ea0c445709853e477cbb028ee9f"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_io_v1.py": {
+      "bytes": 32614,
+      "sha256": "36d70563fb2e14618a5f052e09b21b3aee089f894e17f55efd24c2c6211e4265"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_job_v1.py": {
+      "bytes": 27999,
+      "sha256": "a8820eacf15c6e64c327ec85c3514bc91aa416f3a69a954645df7f658c50b180"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_providers_v1.py": {
+      "bytes": 4036,
+      "sha256": "57636cb1935b64576eaffc8c2015fd091ebd41b8b4efec2d2a3933ea94de380c"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_source_v1.py": {
+      "bytes": 32731,
+      "sha256": "ba2c71deae006d6c3d1e9e523c4b6c4ef8f3aa14257fdc27cb88a90b903af940"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_store_v1.py": {
+      "bytes": 10349,
+      "sha256": "838785328996a0377492082aae2eb80a0cffcd89ab5247685cf29f39bc2631bd"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_split_boundary_v1.py": {
+      "bytes": 17495,
+      "sha256": "95237713919109f3e2c7d1ae4a3acdeb3967b1f2ef703ae675ae1489938d0980"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_split_raw_v1.py": {
+      "bytes": 4174,
+      "sha256": "78c9fcd2244d756e6c1aa5ad73c6c9f2907e27f6074156a06a5fec2a746c8663"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_split_route_v1.py": {
+      "bytes": 25865,
+      "sha256": "fccad384e34147b615ca37a67f5c5ace9424270710f9b65a15977c30e44ca203"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_split_startup_v1.py": {
+      "bytes": 3449,
+      "sha256": "2deac57c321daeb7fcbc1979322a2f6eb50dbc7c852e19a562afd41937f84b68"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/checkpointing.py": {
+      "bytes": 6645,
+      "sha256": "edc5940bc73db42c89b3494be9b0f2098680762f4fa972305f51abe47c3d8373"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/diagnostics.py": {
+      "bytes": 5555,
+      "sha256": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/execution.py": {
+      "bytes": 12043,
+      "sha256": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/native_patch.py": {
+      "bytes": 3250,
+      "sha256": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/patch_embed.py": {
+      "bytes": 1827,
+      "sha256": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/pilot.py": {
+      "bytes": 2119,
+      "sha256": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/precision_patch.py": {
+      "bytes": 7991,
+      "sha256": "30e8a6b28b8f082fd771aaeab5a70a73cf200714ef2b24416a55938f61e9c550"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_eot8_adapter_v1.py": {
+      "bytes": 7839,
+      "sha256": "89b7e0c67e88f2f776bb0bb6ad786a2202115e64ffc6c6f9a962381cc2e9a6b8"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_eot8_capture_v1.py": {
+      "bytes": 2194,
+      "sha256": "fcf582f0152f9ad1d93d1bf038895ba6c6c84d75a4fdfc02d5d4b2ea96e0d3e4"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_eot8_owned_receipt_v1.py": {
+      "bytes": 4599,
+      "sha256": "55005fd96e994c660e693e0347a337d01826eaf5224ecf6f38329a8905538531"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_eot8_record_v2.py": {
+      "bytes": 14128,
+      "sha256": "c75455b9a08f1b25bbb7269d4ae3c1fa34826656ba1800c0a45fdf9433765dd9"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_candidate_accuracy_v1.py": {
+      "bytes": 7105,
+      "sha256": "9e8bac5b01bcb9721218bc28f499ad6484a6e05396ea6ae383b69eb549c1d13e"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_candidate_reference_v1.py": {
+      "bytes": 15140,
+      "sha256": "e7933921c0143ff7b7e779c703da9062c1c954ec333a79f426ae6d1ecf6b2c13"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_component_capsule_v1.py": {
+      "bytes": 14106,
+      "sha256": "453dea53b4e33b2187b8ffc248546aaba9c011e535d11dbc285a3c4fd15dcd37"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_split_backend_v4.py": {
+      "bytes": 24232,
+      "sha256": "0a5ef4a5dc99b55eb5df6a3af8d11f99dbb18352b4ffab55c310a3f5a0f62622"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_split_lineage_v1.py": {
+      "bytes": 8431,
+      "sha256": "a53103bfc665b30930af2b6046a347f81369b0de3a1b72ff2743bc5f3c643647"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_split_plan_v1.py": {
+      "bytes": 15697,
+      "sha256": "cdd2729d2f05782d269a45aa4c22412dcff7b9c5d684267550eb16f59c838ba6"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_component_events_v1.py": {
+      "bytes": 8268,
+      "sha256": "c1397e06ca89d1299a7d853e6c88124d1cc7874aae3f5763f018fbc67bd195fc"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_component_events_v2.py": {
+      "bytes": 15023,
+      "sha256": "ebde9c0f32078979cfa5920503004bb79ca697fdc05d7adacbfc59bde41f515a"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_launch_evidence_v1.py": {
+      "bytes": 17552,
+      "sha256": "c9749407f3d237050252ec7e9d4831c901df813a35b3b4a38ad8d693e0e1899f"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_launch_evidence_v2.py": {
+      "bytes": 19485,
+      "sha256": "05f99a96ca34d65c4167cdbd37f97600b14468aa08fbfe5aa9b581b72e5fdddb"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_launch_evidence_v3.py": {
+      "bytes": 19602,
+      "sha256": "d8ca7092b346d3e1ccd9c43a99a4379eba21914a08ced173b692148015010675"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/runtime.py": {
+      "bytes": 4827,
+      "sha256": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/training.py": {
+      "bytes": 16803,
+      "sha256": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/vjepa2.py": {
+      "bytes": 12926,
+      "sha256": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/native-reference-v1.tar": {
+      "bytes": 13281280,
+      "sha256": "dbaee50b765273f530976e9b8a8301ee055f4e2dc76b006239b4864b306b7d75"
+    },
+    "runs/pretrained/diagnostic/pgd-component-capsule-v1-20261119/component-inputs.tar": {
+      "bytes": 27279360,
+      "sha256": "82a30efedfb0e85fd39c634c5bd0a8b82bd839b91bc7259841e2d517d495011e"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/supervisor/bootstrap.py": {
+      "bytes": 74184,
+      "sha256": "701cbc438967d297ff761d5b14bc9bc0dd7b9704aa9184493a6cacea425ca1f9"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/supervisor/predictor_pgd_split_collection_v1.py": {
+      "bytes": 59851,
+      "sha256": "267e760200cd0feb6979d1b13edf3823a1df25f5ca6d396ea59be9e5591e2301"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/supervisor/predictor_pgd_split_coordinator_v1.py": {
+      "bytes": 40440,
+      "sha256": "a595f7afeb248aa4f9e439c42b9159d4da9417dd045331a7d4a1aa2af7415e85"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/supervisor/predictor_pgd_split_scratch_v1.py": {
+      "bytes": 106968,
+      "sha256": "a651480c80756709f0782e8ccd6e9635955a596a28480a2418025dcf1f099d1d"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/supervisor/predictor_pgd_split_watch_v1.py": {
+      "bytes": 14374,
+      "sha256": "07237d77806aba1c129e0e93520a2ceedd3ff2b06001f391d1cdaa46e55fae06"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/supervisor/scratch_allocation_v2.py": {
+      "bytes": 10813,
+      "sha256": "6b0503b8ab2c88a44a4d95c8fafbad52d1c0414293379406520a22f67700e874"
+    }
+  },
+  "kind": "candidate-only-operator-cold-inputs-v1",
+  "local_bootstrap": "models/predictor_pgd_component_bootstrap_v1.py",
+  "local_collection": "models/predictor_pgd_component_collection_v1.py",
+  "local_scratch": "models/predictor_pgd_component_scratch_v1.py",
+  "new_scope_handoff_authorization_or_university_work": false,
+  "outer": "models/predictor_pgd_component_outer_v1.py",
+  "previously_sealed_equivalent_byte_pin": {
+    "models/__init__.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/__init__.py"
+  },
+  "prior_seal": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/sealed-candidate-completion-v1.json",
+  "prior_seal_sha256": "f11b55ec71538b0e68afb5600cef0c31186fe75f3373fd5b627967a7bc9c3466",
+  "reference_archive": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/native-reference-v1.tar",
+  "reference_manifest": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/NATIVE-REFERENCE-v1.json",
+  "runtime": {
+    "attacks/__init__.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/attacks/__init__.py",
+    "attacks/pgd.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/attacks/pgd.py",
+    "models/__init__.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/__init__.py",
+    "models/_pgd_component_contract_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_contract_v1.py",
+    "models/_pgd_component_entry_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_entry_v1.py",
+    "models/_pgd_component_io_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_io_v1.py",
+    "models/_pgd_component_job_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_job_v1.py",
+    "models/_pgd_component_providers_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_providers_v1.py",
+    "models/_pgd_component_source_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_source_v1.py",
+    "models/_pgd_component_store_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_store_v1.py",
+    "models/_pgd_split_boundary_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_split_boundary_v1.py",
+    "models/_pgd_split_raw_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_split_raw_v1.py",
+    "models/_pgd_split_route_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_split_route_v1.py",
+    "models/_pgd_split_startup_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_split_startup_v1.py",
+    "models/checkpointing.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/checkpointing.py",
+    "models/diagnostics.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/diagnostics.py",
+    "models/execution.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/execution.py",
+    "models/native_patch.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/native_patch.py",
+    "models/patch_embed.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/patch_embed.py",
+    "models/pilot.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/pilot.py",
+    "models/precision_patch.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/precision_patch.py",
+    "models/predictor_eot8_adapter_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_eot8_adapter_v1.py",
+    "models/predictor_eot8_capture_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_eot8_capture_v1.py",
+    "models/predictor_eot8_owned_receipt_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_eot8_owned_receipt_v1.py",
+    "models/predictor_eot8_record_v2.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_eot8_record_v2.py",
+    "models/predictor_pgd_candidate_accuracy_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_candidate_accuracy_v1.py",
+    "models/predictor_pgd_candidate_reference_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_candidate_reference_v1.py",
+    "models/predictor_pgd_component_capsule_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_component_capsule_v1.py",
+    "models/predictor_pgd_split_backend_v4.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_split_backend_v4.py",
+    "models/predictor_pgd_split_lineage_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_split_lineage_v1.py",
+    "models/predictor_pgd_split_plan_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_split_plan_v1.py",
+    "models/predictor_sdpa_component_events_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_component_events_v1.py",
+    "models/predictor_sdpa_component_events_v2.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_component_events_v2.py",
+    "models/predictor_sdpa_launch_evidence_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_launch_evidence_v1.py",
+    "models/predictor_sdpa_launch_evidence_v2.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_launch_evidence_v2.py",
+    "models/predictor_sdpa_launch_evidence_v3.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_launch_evidence_v3.py",
+    "models/runtime.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/runtime.py",
+    "models/training.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/training.py",
+    "models/vjepa2.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/vjepa2.py"
+  },
+  "source_manifest": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/SOURCE-MANIFEST-v1.json",
+  "supervisors": {
+    "bootstrap.py": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/supervisor/bootstrap.py",
+    "predictor_pgd_split_collection_v1.py": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/supervisor/predictor_pgd_split_collection_v1.py",
+    "predictor_pgd_split_coordinator_v1.py": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/supervisor/predictor_pgd_split_coordinator_v1.py",
+    "predictor_pgd_split_scratch_v1.py": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/supervisor/predictor_pgd_split_scratch_v1.py",
+    "predictor_pgd_split_watch_v1.py": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/supervisor/predictor_pgd_split_watch_v1.py",
+    "scratch_allocation_v2.py": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/supervisor/scratch_allocation_v2.py"
+  }
+}

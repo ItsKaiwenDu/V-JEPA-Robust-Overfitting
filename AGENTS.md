@@ -2,6 +2,125 @@
 
 ## Current stage
 
+LATEST November20: CANDIDATE-ONLY WORKER ADAPTER REVIEWED; UNBOUND.
+Read docs/predictor_pgd_candidate_completion_v1.md, both candidate_completion configs,
+report/checks/2026-11-20-pgd-candidate-completion-v1-local-review.json/md; raw stage
+pgd-candidate-completion-v1-20261120, SOURCE-MANIFEST-v1/NATIVE-REFERENCE-v1 and auditv2.
+Preserve ALL prior uncommitted readiness work, every source/test/auditor version,
+fixture/log/oldresult/failure/claim. User stages/commits/pushes NEVERagent. Allold
+universitygrants CONSUMED. No new scope/handOff/approvalrequest/livebinding/SSH/query/
+upload/proof/GPU/model/paidwork allowed by this local stage. No repeated manualpaste.
+
+Coldgraph39files/438445B, corrected backendv4 (v3NOTemitted); native/scientific route,
+provider operands/compute/profile/serialize/startup/raw/layout/runtime bytes unchanged.
+Only entry/job/inventory plus native-reference manifest literals have wholebyte
+inverses. New helper numerical decoder/agreement/BOUNDS ASTs exact reviewed sources;
+NumPy import LAZY insidefutureworker, never importedlocally. EXECUTION_BINDING=None.
+Entry/job/completion/parent/inventory accept ONLYforward-preserving.0fullmodelgradient,
+0native or completedPGD/clean-cohort rerun,0newFP64/fulltrace/trainingregistration.
+
+Unchanged27279360Bcapsule plus13281280Bnative-reference USTAR(18oldrecords+manifest).
+NativeNpys/worker/resource/parent/ownership/backend/trace/progress+source/provenance
+stayread-only; allnativepayloads exacthistoricalboundary. Newcontrol mustdifferfrom
+oldPGD+nativecomponent controls. Three private canonical roots source/reference/
+results pairwisedisjoint. Newreference_verify/accuracy_validate/accuracy_publish:
+23phases/47progressrows,15candidate resultpaths inclaccuracy.json16KiB(metadata),
+no sharedcapincrease. Workercompletionkind pgd-candidate-component-complete-v1.
+Parentreader validatesmetadata/bytejoins, NOT numerical values/execution bydict.
+Original120sworker/4GiBRSS/7GiBallocator/parent/source/progress gates retained.
+These areconstraints; no real proof/process/timer/parent/RSS/GPU enforcement tested.
+
+25distinctchecks finalPASS/33executions. Initial17PASS/8FAIL missing fakeRoute.values/
+incoming; onlyfixturefixed+8failednodesrerun. No passing/historical/scientific repeats,
+no production changeafterfirstchecks. Two complete lifecycles and parentmetadata
+observations areFAKE; rawsynthetictrace usescopiedinnerengine tags. Accuracy callback
+fake/opaqueoutputs, no actualNUMPY/Torch/values/model/gradient/profiler imported/run.
+Coldbuildv1 ambiguousmetadata line refused BEFOREemission; v2usesexactfunctionspans,
+logs/snapshots retained. Sourcecreated/coldfix/beforechecks/testv2 histories kept.
+
+StandaloneSTDauditv2PASS:26055priorhashes/28102fixtureentries/62pins/sourceinverses/
+archive reconstruction/simulatedjoins. OldFIFO LSTATONLY NEVEROPEN. Auditorv1refused
+LOCALMacst_dev changed16777229->16777231; trackedauthorizeddirectory inode43359726
+stillmatches, uid/mode/nlink/mtime+alloldhashes unchanged. V2requires allcurrentfixture
+lstatdevices equalCURRENTrepositorydevice31 andretains oldauthorizedappend exception.
+See LOCAL-DEVICE-OBSERVATION-v1.json forcurrentAPFSVolumeUUID/mountsnapshot. Causeand
+historicalphysicalvolumesameness UNPROVEN; don'tassume reboot. Originaldevice records
+and universitydevice/storage/GPU guards UNCHANGED. Futureaudits reuse exactv2 local
+observation conditionaloncurrentdevice; if it changesagain, record/review ratherthan
+silentlydefault. No targetdevice mapping. Currentseal sealed-candidate-completion-v1.json.
+
+NEXT LOCAL: wirecandidate-only runtime/native-reference assets+accuracyresult into
+wholescratch catalogue, pinned39modulecache, proof+candidate OSsupervisor, original
+ownedmonitor/proof, hardcontinuingclocks andbounded sameSSHcollection. Existing
+3role/37module operator isINCOMPATIBLE:needs reference_root+manifestbinding, v4+2new
+modules, candidate-only roles/namespace/accuracy path. Derive separately; doNOTedit
+oldsealed source or createhandOff/askapproval until concreteintegrated tests pass.
+Use explicitfake process/proof/timer/clock/compute ports locally. Actualtargetlater
+needsown reference/source/route/backend/freshvalues/restoration/resource/complete/
+parentwall-RSS/collection joins; onlythenclosemechanismdiagnostic. DoNOTrepeatclosed
+native/PGD/clean cohorts or addnewFP64/fulltrace just to repairmetadata/lifecycle.
+Broaderworkloads/replay/performance/hardware/economics/calibration/protocol/training
+stillgated. Keep parameterupdate/trainingPGD5EOT1/routineEOT1/policyregistry unchanged.
+Project200/compute160/noncompute40/single10caps+holds/billing unchanged; lastOct29
+wallet/encumbrance arehistorical, notfreshquotes/balance. Earlierentries historical.
+
+LATEST November19: TRAINING READINESS CONSOLIDATED; NO RESEARCH LAUNCH.
+Read docs/training_readiness_20261119.md and report/checks/2026-11-19-training-readiness.json/md.
+Raw fixed32inputs+ASSESSMENT/evidence-check in training-readiness-v1-20261119.
+User stages/commits/pushes NEVERagent. Preserve all prior source/test/audit versions,
+fixtures, actualresults, oldfailures/claims. The user's d61462d commit was clean atstart.
+All remote grants CONSUMED. No new scope/helper/livebinding/approvalrequest/SSH/upload/
+GPUquery/proof/scientific/paidwork authorized by this local assessment. No manualpaste.
+
+CLOSED SCOPES: clean pretrained EOT8 numerical+freshcandidate replay(Nov14,36returns),
+clean fixedinputFP64/native/allmath/freshreplay(Nov14,32actualarrays/onecanonical),
+8perturbedPGDgradients/4sameinputpairs(Nov18), completed nativecomponent(Nov19),
+savedcandidatev4backendmetadata(2236rows/4anchors/9witnesses), savednative-relative
+componentaccuracy(8arrays/4comparisons/zero failures) and descriptive20case/10clip
+matchedpanel. DO NOTrerunthese forreadiness/parserrepair. Old3724candidate rejected;
+newforward-preserving route is distinct. Oldcomponent/session failures stayFAILED.
+
+IMPORTANT SCOPE: earlier cleanFP64 reference and newperturbedboundary have DIFFERENT
+allfour Q/K/V/cotangent logical hashes despite samegeometry. CleanFP64 staysPASSED;
+newpoint native-relative checksPASS but NOTnewFP64. Declared splitPGD plan explicitly
+excluded newFP64oracle/fullmodeltrace. Do NOT invent either as a new prerequisite
+for closing that mechanism diagnostic. FullEOT8kernelcoverage/perturbedFP64 claims
+stayunestablished; any future researchadoption muststateitsbasis. TargetfreshPGD
+rolloutreplay/performance also unqualified; cleanreplay alreadyCLOSED.
+
+NEXT LOCAL IMPLEMENTATION: candidate-only completion adapter with reviewedv4reader,
+unchanged27279360Bcapsule, accepted8gradient/4pair proof and completednative worker/
+resource/parent evidence. ONEcandidateforward/outerVJP+oneinnermathVJP;0newfullmodel
+objectives/native/PGD/clean-cohort reruns;0newFP64/fulltrace. Bindnewidentity onlyafter
+localconcreteprep; oldsource/worker/control untouched. Retain numerical/ownership/
+source/layout/backend gates, proof/inventory/liveGPU/clocks/parentRSS/collection.
+Original120scomponent/4GiBRSS/7GiBallocator/3setup/2.25capture/3collection are DESIGN
+constraints NOTgrant. Locally test newintegration with explicitfakeports. No new
+universityscope/arming untilready and exactnewauthorization. A future successful
+candidate MUSThave own route/backend/freshreturnchecks/restoration/resource/complete/
+parentwall-RSS/collection joins. Then CLOSEmechanismdiagnostic and proceedwhole-unit
+qualification; do not add another parserloop without an actual new failure.
+
+RESEARCH PATH OPEN: relevant freshPGDrollout+primary/convergence units; opt-in
+input-gradient adapter/performance; chosenhardware memory+exactrecovery; complete
+study economics/financialreconciliation;30training-onlyEOT8calibrationevals/10clips;
+data/near-duplicate/protocol/adoption lock. KeeptrainingPGD5/EOT1,routineEOT1 and
+optimizerbackward/policyregistry unchanged. PriorCPU/5090/SE recoveries arevalid
+oldscope controls, not currentcandidate adoption. University8GiB is not fullAdamWfit.
+HistoricalSE243.71-249.62/3090primaryonly236.75-244.35 screensfailcaps; newcostUNKNOWN.
+Last financial snapshotOct29 encumbered9.8116/unreserved.1884/wallet6.56, NOTcurrent.
+Older2hold/.0792gap retained; no paidwork/newquote/holdrelease. Project200/compute160/
+noncompute40/single10caps unchanged. Preserve study/researchcandidate YAML/configs.
+
+Thisstep standard-library HASH/JSON/source-text assessment ONLY:32pins(20previously
+sealed),26025priorhashes/28089fixtureentries preserved; FIFO LSTATONLY NEVEROPEN.
+Evidencecheckv1PASSfirst-run.0test/model/cohort/arraydecode/metricsrecalculation.
+No production source/tests changed. README+decisions+guidance+progress mutableindexes
+have before/after snapshots and are excluded from newrootseal; snapshots retained.
+Currentseal training-readiness-v1-20261119/sealed-training-readiness-v1.json.
+Decision NOT_READY_FOR_RESEARCH_TRAJECTORIES, training_admitted FALSE. Earlierentries
+historical; no percentage/time-to-training inferred from equal-weight gate counts.
+
 LATEST November19: SAVED COMPONENT RETURN ACCURACY REVIEW PASSED.
 Read docs/predictor_pgd_component_returns_v1.md, both component_returns configs,
 report/checks/2026-11-19-pgd-component-returns-v1-local-review.json/md and

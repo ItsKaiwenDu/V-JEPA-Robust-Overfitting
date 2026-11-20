@@ -1,5 +1,36 @@
 # Research Progress Reports
 
+November20: candidate-only worker adapter now emits39sources/438445B usingbackendv4,
+read-onlyacceptednative references andunchangedscientificproviders. Unchanged27.28MB
+capsule plus13.28MBnative-ref archive;0newfullobjectives/native/cohort/FP64 work.
+Newreference/valuegates andparentcompletionjoins arelocallychecked; executionbinding
+NULL,15candidate resultpaths/23phases.25distinctchecks PASS/33executions:8fakeRoute
+attribute failures fixed/retested only,17passes notrerun. Source/NumPy/accuracy are
+not actualexecuted; fakecompute/profile/clock/parent/accuracy ports remainunadmitted.
+Standaloneauditv2PASS preserves26055priorhashes/28102fixtureentries; localMacdevice
+number changed29->31 withsameinode andallotherfixturefields/bytes, explicitlyrecorded
+APFSobservation/coherentcurrentdevices; oldrecords/targetguards unchanged. Initial
+coldmetadataedit refusalandauditdevice refusal retained. Next integratecandidate-only
+runtime/refassets into guarded OSsupervisor/cache/whole-scratch/collection locally;
+old37module3role operatorincompatible. No handoff/scope/approvalrequest orHPCrun ready.
+Allpriorreadinesswork/oldfailures/closedcohorts andfinancialcaps/holds preserved. See
+report/checks/2026-11-20-pgd-candidate-completion-v1-local-review.md.
+
+November19: readiness now consolidates completed cleanEOT8freshreplay, cleanfixed
+FP64componentcontrol,8gradient/4pair perturbedPGD, completednativecomponent, saved
+candidatev4metadata andpassingnative-relativevalues. These remainclosedinownscopes.
+Immediate nextlocaltask: ONEcandidate-onlycompletion adapter usingv4+unchangedcapsule
+andacceptedPGD/native evidence. Oldcandidate failed before resource/complete/parent;
+newsuccess needsowncompletejoins. No newFP64/fullmodeltrace or completedcohort/native
+repeat is added todeclaredsplit diagnostic. Broaderworkload/replay/performance,
+chosenhardware/recovery/economics,30trainingcalibrationevals anddata/protocol/adoption
+remainopen; fulltrainingNOTadmitted. Candidateinputgradient scope leavestraining/
+routineEOT1+optimizerbackward unchanged.32input evidencecheckPASSfirst-run;26025prior
+hashes/28089fixtureentries preserved.0newtests/models/arrays/science/university/paidwork.
+Historicalcostscreensfailcaps; financialsnapshotOct29 remainsdated, noholdrelease.
+README nowpoints to datedreadiness; earlierentries preserved. See
+report/checks/2026-11-19-training-readiness.md and docs/training_readiness_20261119.md.
+
 November19: saved component values now pass the original native-relative gates.
 One local analysis decoded8existingNPYreturns and made4comparisons: forward byteEXACT,
 dQ/dK/dV zero failed elements, maxabs8.64e-12/7.46e-11/2.52e-11. Allnativepayloads

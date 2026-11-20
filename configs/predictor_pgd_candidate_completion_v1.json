@@ -1,0 +1,76 @@
+{
+  "OS_supervisor_whole_scratch_source_cache_collection_bound": false,
+  "accuracy_result_cap_bytes": 16384,
+  "actual_array_tensor_or_pixel_values_decoded": false,
+  "actual_model_autograd_gradient_profiler_GPU_proof_parent_process_or_network_work": false,
+  "all_tracked_source_byte_inverses_verified": true,
+  "allowed_runtime_roles": [
+    "forward-preserving"
+  ],
+  "candidate_result_paths": 15,
+  "canonical_FP64_full_EOT8_replay_performance_cost_or_training_admitted": false,
+  "cold_build_history": {
+    "correction": "Use complete selected function spans for the three metadata-schema substitutions; keep all code inverses.",
+    "first_emission_attempt": "refused ambiguous completion-schema line before source emission",
+    "logs_preserved": true,
+    "second_emission_attempt": "PASS;39sources/438445bytes"
+  },
+  "component_phases": 23,
+  "date": "2026-11-20",
+  "execution_binding": null,
+  "existing_completion_parent_clock_resource_checks_retained": true,
+  "kind": "pgd-candidate-only-completion-adapter-v1-local-integration",
+  "native_reference_archive": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/native-reference-v1.tar",
+  "native_reference_archive_bytes": 13281280,
+  "native_reference_archive_sha256": "dbaee50b765273f530976e9b8a8301ee055f4e2dc76b006239b4864b306b7d75",
+  "native_reference_members_including_manifest": 19,
+  "new_live_scope_handoff_binding_authorization_or_target_work": false,
+  "new_reference_and_accuracy_phases": [
+    "reference_verify",
+    "accuracy_validate",
+    "accuracy_publish"
+  ],
+  "next_local_only": "Integrate the new candidate-only source/ref assets and accuracy result with whole-scratch catalogue, pinned cache, proof/candidate supervisor, hard clocks and bounded same-SSH collection; use explicit simulation ports before any new target scope.",
+  "no_full_numerical_dispatch_or_native_entry": true,
+  "numerical_decoder_agreement_and_bounds_AST_unchanged": true,
+  "prior_cohorts_native_workers_failures_claims_and_financial_holds_unchanged": true,
+  "reference_manifest": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/NATIVE-REFERENCE-v1.json",
+  "reference_manifest_sha256": "3dc2484c07c04bb72593c2ee386824edf52b8d80ec0fe3bb803e645714e5d932",
+  "scientific_providers_route_startup_raw_runtime_layout_bytes_unchanged": true,
+  "simulations_are_explicitly_fake": true,
+  "source_bytes": 438445,
+  "source_files": 39,
+  "source_manifest": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/SOURCE-MANIFEST-v1.json",
+  "source_manifest_sha256": "095a275bfa8d0581aeb6a99aa2305a25b5700a3b02756b502ceee360c100e138",
+  "source_pins": {
+    "configs/predictor_pgd_candidate_completion_inputs_v1.json": "b9541ed09da733a8000cf3f39fda884e88cab7b748e27d8e63ca60f9c0050ad1",
+    "models/predictor_pgd_candidate_accuracy_v1.py": "9e8bac5b01bcb9721218bc28f499ad6484a6e05396ea6ae383b69eb549c1d13e",
+    "models/predictor_pgd_candidate_completion_v1.py": "6e8e5badd3ff52de09ebd57a42359e9acacf297d56a1e40ef874fbd26a343455",
+    "models/predictor_pgd_candidate_reference_v1.py": "4b5b8f15b023e4186cb8a0eddeca2e2c729ef224451e6b6d1f4feb2213623ee1",
+    "tests/test_predictor_pgd_candidate_completion_v1.py": "c3508e4ceff393d83dd6fe25feedfcda6f905601f254799d9e8970f18f0500bb"
+  },
+  "tests": {
+    "correction": "Only fake Route.values/incoming were missing; the eight failed cases were corrected and rerun. Production sources did not change after the first checks.",
+    "distinct_pass": 25,
+    "executions": 33,
+    "failed_executions": 8,
+    "passing_or_historical_cases_repeated": 0,
+    "runs": [
+      {
+        "executions": 25,
+        "failed": 8,
+        "version": 1
+      },
+      {
+        "executions": 8,
+        "failed": 0,
+        "version": 2
+      }
+    ]
+  },
+  "unchanged_capsule_archive": {
+    "bytes": 27279360,
+    "path": "runs/pretrained/diagnostic/pgd-component-capsule-v1-20261119/component-inputs.tar",
+    "sha256": "82a30efedfb0e85fd39c634c5bd0a8b82bd839b91bc7259841e2d517d495011e"
+  }
+}

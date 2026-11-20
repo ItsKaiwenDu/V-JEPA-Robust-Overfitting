@@ -1,0 +1,428 @@
+{
+  "broader_claims_not_established": {
+    "candidate_speedup_or_study_cost_admitted": false,
+    "fresh_target_PGD_rollout_replay_qualified": false,
+    "full_EOT8_kernel_coverage": false,
+    "new_research_step_selected": false,
+    "parameter_update_path_changed_or_candidate_registered_for_training": false
+  },
+  "candidate_missing_saved_success_records": [
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/backend.json",
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/resource.json",
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/complete.json",
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/parent-forward-preserving.json"
+  ],
+  "closed_scoped_evidence": [
+    {
+      "evidence": [
+        "report/checks/2026-11-14-missing-candidate-replay-v1-target-review.json"
+      ],
+      "id": "clean_EOT8_numerical_and_fresh_replay",
+      "scope": "One original training clip; all36 candidate returns exact in a fresh process; original numerical bounds, 36 owners and real roots/checkpoints retained.",
+      "status": "PASS_SCOPED"
+    },
+    {
+      "evidence": [
+        "report/checks/2026-11-14-predictor-sdpa-continuation-v6-target-review.json",
+        "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/linux10603-final/attended-i96b33mr/saved/results/components/reference/reference.json"
+      ],
+      "id": "clean_fixed_component_FP64_and_replay",
+      "scope": "Earlier clean fixed-input native/all-math control: one canonical reference,32 actual return arrays,four workers and exact own-mode fresh replay.",
+      "status": "PASS_SCOPED"
+    },
+    {
+      "evidence": [
+        "report/checks/2026-11-18-pgd-joint-handoff-v1-target-review.json"
+      ],
+      "id": "perturbed_PGD_matched_numerical",
+      "scope": "Completed8objectives/four same-input pairs, PGD2/R2/EOT8 on one clip;36non-input artifacts exact per pair. No fresh target rollout replay.",
+      "status": "PASS_SCOPED"
+    },
+    {
+      "evidence": [
+        "report/checks/2026-11-19-pgd-component-operator-v1-target-review.json",
+        "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/worker.json",
+        "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/resource.json"
+      ],
+      "id": "native_component_completion",
+      "scope": "New native component completed its source/route/backend/resource/parent/collection gates at the perturbed boundary.",
+      "status": "PASS_SCOPED"
+    },
+    {
+      "evidence": [
+        "report/checks/2026-11-19-pgd-engine-materialization-v1-local-review.json"
+      ],
+      "id": "saved_candidate_backend_metadata",
+      "scope": "All2236rawrows match separately versioned local v4 policy:4anchors/9positive correlations. Does not complete the failed worker.",
+      "status": "PASS_SCOPED"
+    },
+    {
+      "evidence": [
+        "report/checks/2026-11-19-pgd-component-returns-v1-local-review.json",
+        "runs/pretrained/diagnostic/pgd-component-returns-v1-20261119/saved-comparison-v1/comparison.json"
+      ],
+      "id": "saved_component_native_relative_accuracy",
+      "scope": "Eight saved arrays/four comparisons; native values exactly match the historical boundary; forward byte-exact; all derivatives pass original bounds with zero failures.",
+      "status": "PASS_SCOPED"
+    },
+    {
+      "evidence": [
+        "report/checks/2026-10-28-complete-panel-analysis.json"
+      ],
+      "id": "matched_attack_sensitivity_panel",
+      "scope": "Twenty registered cases,ten clips,two technical banks; separate scoring banks and stronger-step effects retained. No convergence or research-step selection.",
+      "status": "PASS_SCOPED"
+    }
+  ],
+  "current_seal": "runs/pretrained/diagnostic/training-readiness-v1-20261119/sealed-training-readiness-v1.json",
+  "date": "2026-11-19",
+  "decision": "NOT_READY_FOR_RESEARCH_TRAJECTORIES",
+  "documentation": "docs/training_readiness_20261119.md",
+  "evidence_check_first_run_pass": true,
+  "evidence_check_log": "runs/pretrained/diagnostic/training-readiness-v1-20261119/evidence-check-v1.log",
+  "evidence_check_log_sha256": "dcdf9a5de14146a194fe04f0aeb5e8abaea18811c1b5069e8f5438127071ac11",
+  "evidence_check_program": "runs/pretrained/diagnostic/training-readiness-v1-20261119/assess_saved_readiness_v1.py",
+  "evidence_check_program_sha256": "5aeac2ae86116eb859910187a9d00e2528f72b9e5d0a332876aa85ee7c4739a5",
+  "evidence_check_result": "PASS",
+  "historical_cost_screens": {
+    "RTX3090_primary_only_sample_scenarios_usd": {
+      "maximum_observed": 244.35362572120115,
+      "median": 236.74885888657388
+    },
+    "SE_total_sample_scenarios_usd": {
+      "maximum": 249.61738079224318,
+      "median": 243.7100802740241
+    },
+    "as_of_RTX3090": "2026-10-29",
+    "as_of_SE": "2026-10-28",
+    "complete_current_candidate_cost": null,
+    "new_candidate_measurements_or_current_quotes": false
+  },
+  "historical_finance_snapshot": {
+    "as_of": "2026-10-29",
+    "compute_cap_usd": 160,
+    "encumbered_usd": "9.8116",
+    "full_account_invoice_reconciled": false,
+    "historical_hold_usd": "2.00",
+    "hold_released_or_paid_work_authorized": false,
+    "last_reported_wallet_usd": "6.56",
+    "live_balance_quote_or_availability_checked": false,
+    "noncompute_reserve_usd": 40,
+    "project_cap_usd": 200,
+    "single_diagnostic_cap_usd": 10,
+    "unassigned_gap_usd": "0.0792",
+    "unreserved_usd": "0.1884"
+  },
+  "immediate_next_local_work": {
+    "candidate_component_forwards": 1,
+    "candidate_component_inner_math_VJPs": 1,
+    "candidate_component_outer_VJPs": 1,
+    "capsule_bytes": 27279360,
+    "clean_EOT8_cohort_repeats": 0,
+    "completed_PGD_cohort_repeats": 0,
+    "completed_native_component_reruns": 0,
+    "completion_condition": "A future successful candidate has its own complete source/route/backend/numerical/resource/parent/collection joins; preserve old failure. Then close this mechanism diagnostic and proceed to whole-unit qualification.",
+    "existing_limits_are_design_constraints_not_new_grants": {
+      "GPU_allocator_bytes": 7516192768,
+      "capture_bytes": 2415919104,
+      "collection_bytes": 3221225472,
+      "component_RSS_bytes": 4294967296,
+      "component_seconds": 120,
+      "setup_bytes": 3221225472
+    },
+    "full_model_gradient_objectives": 0,
+    "live_identity_grant_handoff_or_scope_prepared": false,
+    "new_FP64_reference_builds": 0,
+    "reader_sha256": "0a5ef4a5dc99b55eb5df6a3af8d11f99dbb18352b4ffab55c310a3f5a0f62622",
+    "task": "Implement and validate the candidate-only component completion adapter using reviewed v4 metadata policy and immutable native/PGD references."
+  },
+  "input_files": {
+    "configs/budget_study_plan.yaml": {
+      "bytes": 5287,
+      "previously_sealed": false,
+      "sha256": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa"
+    },
+    "configs/predictor_attack_transition_v1.json": {
+      "bytes": 12086,
+      "previously_sealed": true,
+      "sha256": "48b76a28020e71e4cca2e75be79ab6ec6f037a443eae6e2cb2d3b1bad10a54e2"
+    },
+    "configs/predictor_pgd_component_capsule_v1.json": {
+      "bytes": 13564,
+      "previously_sealed": true,
+      "sha256": "082ced8b88be471d6f443bec186ccfb4b0e93a7433f52313b71dba00b5fd10ca"
+    },
+    "configs/predictor_pgd_split_profile_v1.json": {
+      "bytes": 10616,
+      "previously_sealed": true,
+      "sha256": "c5daae30cbe4043cf4d5265de2a2a7420d015ab1e244cc3d74fcc93b5f0186af"
+    },
+    "configs/research_attack_candidate_v1.json": {
+      "bytes": 15258,
+      "previously_sealed": false,
+      "sha256": "1d4901b2893b6cbf35e11e3ca12b59927c8b15a1662b85abedca439520009051"
+    },
+    "configs/study.yaml": {
+      "bytes": 3157,
+      "previously_sealed": true,
+      "sha256": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1"
+    },
+    "docs/predictor_attack_transition_v1.md": {
+      "bytes": 8720,
+      "previously_sealed": true,
+      "sha256": "13318da76d54893621eb836fd70603669df9a96d0b321d18a8d0486b0968c3f1"
+    },
+    "docs/predictor_pgd_split_profile_v1.md": {
+      "bytes": 10216,
+      "previously_sealed": true,
+      "sha256": "7ff2540df12bf41ab7c40027c345b28599610f07fec433c23d290e9f4194224f"
+    },
+    "docs/research_attack_candidate.md": {
+      "bytes": 2746,
+      "previously_sealed": false,
+      "sha256": "8dc5dfaa47f0885657f4cbb09e4deee36ece127b05e8c6c8226d8271a9ca0211"
+    },
+    "docs/staged_data_and_evaluation.md": {
+      "bytes": 9494,
+      "previously_sealed": false,
+      "sha256": "75daa7ac6d30bff26edc04c3b0bdb821d764b8d1c3ac65431ba0228cd38eca62"
+    },
+    "docs/training_runner.md": {
+      "bytes": 8733,
+      "previously_sealed": false,
+      "sha256": "587f5004ea9795f2a6932492890e90449ed4f085e0bec79b88b23d39f903c375"
+    },
+    "models/predictor_pgd_split_backend_v4.py": {
+      "bytes": 24232,
+      "previously_sealed": true,
+      "sha256": "0a5ef4a5dc99b55eb5df6a3af8d11f99dbb18352b4ffab55c310a3f5a0f62622"
+    },
+    "report/checks/2026-10-20-staged-data-preparation.json": {
+      "bytes": 102912,
+      "previously_sealed": false,
+      "sha256": "d6016b5a122956704497230bd492ae41d05885698c3845ea465a5a6ab9c5223d"
+    },
+    "report/checks/2026-10-20-training-resume-checks.json": {
+      "bytes": 4267,
+      "previously_sealed": false,
+      "sha256": "d89551ba4dbd6147369a836866691c8b18cb6c2f4acac94f6cf1c16b4c36a6d2"
+    },
+    "report/checks/2026-10-28-candidate-benchmark-verification.json": {
+      "bytes": 10049,
+      "previously_sealed": false,
+      "sha256": "cf4494c16578832a009782b51bae3fd4b4a257ec3bfd995d6e7ffb6b106db604"
+    },
+    "report/checks/2026-10-28-candidate-measured-budget-review.json": {
+      "bytes": 76899,
+      "previously_sealed": false,
+      "sha256": "5fec7ee76194f543229b16a008e37a0d0d4978ddcedd81750eb677235bdeb7cf"
+    },
+    "report/checks/2026-10-28-complete-panel-analysis.json": {
+      "bytes": 125233,
+      "previously_sealed": false,
+      "sha256": "420c414bcbb7eb6392ea83f6cd1bbeb3ea0c3569a738db64d380f3a4a2a2d130"
+    },
+    "report/checks/2026-10-29-rtx3090-billing-settlement.json": {
+      "bytes": 2511,
+      "previously_sealed": false,
+      "sha256": "11a3a6cb4fc3d0a0512999b353585885e9c6e3b7869a5186a545e8e76a299c78"
+    },
+    "report/checks/2026-10-29-rtx3090-partial-benchmark-review.json": {
+      "bytes": 40336,
+      "previously_sealed": false,
+      "sha256": "75743db455ac0832c26b71bddf600900d21e62062a0feda76cdbd7baab41de03"
+    },
+    "report/checks/2026-11-14-missing-candidate-replay-v1-target-review.json": {
+      "bytes": 7560,
+      "previously_sealed": true,
+      "sha256": "908fec6f57eaa6e787861bb3e5715f13dfbbe4b44587710bd018d56c2c5edd14"
+    },
+    "report/checks/2026-11-14-predictor-sdpa-continuation-v6-target-review.json": {
+      "bytes": 131637,
+      "previously_sealed": true,
+      "sha256": "856014be9fb1662b89d0adaaadfeff4cb4ffad86227a361e2f0bf6ee217af57c"
+    },
+    "report/checks/2026-11-18-pgd-joint-handoff-v1-target-review.json": {
+      "bytes": 7914,
+      "previously_sealed": true,
+      "sha256": "13d2a40d2a989d9433f042dcf59187f84850ea8294e4ad8f494accda00074c8b"
+    },
+    "report/checks/2026-11-19-pgd-component-operator-v1-target-review.json": {
+      "bytes": 9305,
+      "previously_sealed": true,
+      "sha256": "45318db20a419f3f2671be590b3b3fe218f35a2a2ca0f935a37de727eceaa3f2"
+    },
+    "report/checks/2026-11-19-pgd-component-returns-v1-local-review.json": {
+      "bytes": 7963,
+      "previously_sealed": true,
+      "sha256": "1c632f09f34e05e37516df19c27d855780738c1208c42e3691890665f9622b53"
+    },
+    "report/checks/2026-11-19-pgd-engine-materialization-v1-local-review.json": {
+      "bytes": 8346,
+      "previously_sealed": true,
+      "sha256": "332667b3c9a6902464f75a920fb8c45bed5c37fc0387e4e9e45554de257dc56b"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/failed.json": {
+      "bytes": 421,
+      "previously_sealed": true,
+      "sha256": "0e64ccca964c0c50caaa9fe649a4e554b1f66b1850c345147af95025a8d6b294"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/worker.json": {
+      "bytes": 729,
+      "previously_sealed": true,
+      "sha256": "ab53d2f5a34227dde71d3a2d5c5383ddbf0313c253b2091f3d266314429bea1d"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/resource.json": {
+      "bytes": 1197,
+      "previously_sealed": true,
+      "sha256": "aa5917e82ed385bd748fa878cf97e30a3b163f2b6dc7b49c248396bd03e9aa36"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/worker.json": {
+      "bytes": 6329,
+      "previously_sealed": true,
+      "sha256": "6f1cdea1d114cc605103c645cd379f3c12867ae88855c211e97d0fd26e3fea29"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/source/boundary/boundary.json": {
+      "bytes": 9234,
+      "previously_sealed": true,
+      "sha256": "9e4758d2209b9fd989926ee40d2ad92cc4b99aa98c86e6cec0722eaf6a83308d"
+    },
+    "runs/pretrained/diagnostic/pgd-component-returns-v1-20261119/saved-comparison-v1/comparison.json": {
+      "bytes": 12919,
+      "previously_sealed": true,
+      "sha256": "b90e0155fdd3d4d29c918bd845ba6b601543f73e64a3897fcda07faca16ae7e9"
+    },
+    "runs/pretrained/diagnostic/predictor-sdpa-continuation-v6-20261113/linux10603-final/attended-i96b33mr/saved/results/components/reference/reference.json": {
+      "bytes": 2808,
+      "previously_sealed": true,
+      "sha256": "d020d86dc9932e42dfa4dca1d8faf6ec948dad7d31256884800b241656206807"
+    }
+  },
+  "input_manifest": "runs/pretrained/diagnostic/training-readiness-v1-20261119/INPUTS.json",
+  "input_manifest_sha256": "691fcf693eef67d58824b5f83e7bfc578758c30ba739bdb6c79bd23eee6d69db",
+  "kind": "training-readiness-v1-saved-evidence-assessment",
+  "launch_authorized": false,
+  "new_remote_scope_or_approval_request": false,
+  "new_tests_written_or_run": 0,
+  "preservation": {
+    "new_input_files": 32,
+    "old_FIFO_lstat_only_never_opened": 1,
+    "old_failures_claims_and_financial_holds_unchanged": true,
+    "previously_sealed_new_inputs": 20,
+    "prior_fixture_entries": 28089,
+    "prior_regular_hashes": 26025
+  },
+  "raw_assessment": "runs/pretrained/diagnostic/training-readiness-v1-20261119/ASSESSMENT.json",
+  "raw_assessment_sha256": "67b4868fb6f64745bfb6bd4c8bafddb1e16fce345d73db55d6ef7afb3a31cf47",
+  "reference_scope": {
+    "basis": "docs/predictor_pgd_split_profile_v1.md",
+    "clean_FP64_check_remains_passed": true,
+    "clean_boundary_sha256": "51da0691bd3a71367e0abdece1f8d6f8c1fb13eb933c06e5c7aa6c02b69d76da",
+    "clean_reference_reused_as_perturbed_reference": false,
+    "logical_input_hashes": {
+      "clean": {
+        "grad_output": "a29ed1d58225d24082470ec897afdf0462d0ac34bc4af9416233a489c58d36d1",
+        "k": "f95a94c54a8dba93b3d7798c472c59a8f2aec1a9acbc94831aa2dd85ff295c33",
+        "q": "199e8e11e0ad1350e1d8aaf4359e20f2df4473067603275f35d6763e81f24bff",
+        "v": "615301b1ff999262ca195c1a8f75357ee63a21a00588ca05deff4abed307d297"
+      },
+      "perturbed": {
+        "grad_output": "ad1f77bac916c4d4bd44d0ac13c0be08ad3246443717a03e9a0590a84055e797",
+        "k": "1b11d54afa74f0b56c8eb5654a27a63a8283a0d387dbf9d6922392f56803e33f",
+        "q": "6c1f8d4eaccd80ac3cb0f8be032670ff809a2b00e97413dc1573057100ef9209",
+        "v": "8ff7f4a578d6af1963da41102003c9160984a0ff56c75500a153b4b0f52df625"
+      }
+    },
+    "new_FP64_or_full_EOT8_trace_required_to_close_declared_split_diagnostic": false,
+    "perturbed_FP64_claim_admitted": false,
+    "perturbed_boundary_sha256": "9e4758d2209b9fd989926ee40d2ad92cc4b99aa98c86e6cec0722eaf6a83308d",
+    "same_geometry": true,
+    "same_logical_inputs": false
+  },
+  "remaining_gates": [
+    {
+      "closure": "Locally implement one candidate-only continuation that reuses the accepted PGD/native evidence and unchanged capsule; a later separately approved attempt must join route,corrected backend,new return checks,resource,complete,parent and collection receipts.",
+      "evidence": [
+        "report/checks/2026-11-19-pgd-component-operator-v1-target-review.json",
+        "report/checks/2026-11-19-pgd-engine-materialization-v1-local-review.json",
+        "report/checks/2026-11-19-pgd-component-returns-v1-local-review.json"
+      ],
+      "gap": "Candidate failed before backend/resource/completion/parent-success publication; corrected v4 is local-only.",
+      "id": "candidate_component_lifecycle",
+      "status": "OPEN"
+    },
+    {
+      "closure": "Use explicit per-iterate input-gradient contexts for complete PGD units with original starts,selection,no-grad scoring,ownership and restoration; qualify fresh own-route rollout on the relevant target scope without repeating the completed matched cohort.",
+      "evidence": [
+        "report/checks/2026-11-18-pgd-joint-handoff-v1-target-review.json",
+        "configs/predictor_attack_transition_v1.json"
+      ],
+      "gap": "Clean target replay and four matched PGD points do not establish fresh-process perturbed rollout replay or primary/convergence workloads.",
+      "id": "perturbed_rollout_replay_and_attack_scale",
+      "status": "OPEN"
+    },
+    {
+      "closure": "Validate an explicit opt-in primary/convergence path, retain trainingPGD5/EOT1,routineEOT1 and optimizer backward unchanged, then measure matched full work units with declared observation overhead.",
+      "evidence": [
+        "configs/predictor_attack_transition_v1.json",
+        "docs/research_attack_candidate.md"
+      ],
+      "gap": "No current-route PGD20/PGD50 unit speed or production-facing diagnostic adapter is admitted; profiled worker times include substantial instrumentation.",
+      "id": "end_to_end_performance_and_runtime_integration",
+      "status": "OPEN"
+    },
+    {
+      "closure": "Qualify chosen sufficient-memory hardware and exact clean/adversarial recovery with the intended runtime/source identity before trajectories; preserve completed older recovery evidence.",
+      "evidence": [
+        "report/checks/2026-10-28-candidate-benchmark-verification.json",
+        "report/checks/2026-10-20-training-resume-checks.json",
+        "docs/training_runner.md",
+        "docs/research_attack_candidate.md"
+      ],
+      "gap": "Prior CPU/5090/SE recovery results belong to earlier source/runtime identities;3070 input-gradient fit does not establish full AdamW training capacity.",
+      "id": "selected_hardware_memory_and_exact_recovery",
+      "status": "OPEN"
+    },
+    {
+      "closure": "Bound all affected required units and missing costs, reconcile financial holds before paid work, obtain fresh quotes when needed, and fit unchanged200project/160compute/one10diagnostic caps with retained reserves and headroom.",
+      "evidence": [
+        "report/checks/2026-10-28-candidate-measured-budget-review.json",
+        "report/checks/2026-10-29-rtx3090-partial-benchmark-review.json",
+        "report/checks/2026-10-29-rtx3090-billing-settlement.json"
+      ],
+      "gap": "Historical SE study screen and RTX3090 primary-only screen fail caps; current candidate cost and live quote are unknown; last diagnostic envelope nearly encumbered.",
+      "id": "full_study_economics_and_finances",
+      "status": "OPEN"
+    },
+    {
+      "closure": "After runtime/economics qualification, perform the declared30evaluations on10training monitors for0.5/1/2per255, freeze independent-main selection/ties, retain PGD50/EOT8 controls and separate audits.",
+      "evidence": [
+        "configs/research_attack_candidate_v1.json",
+        "report/checks/2026-10-28-complete-panel-analysis.json"
+      ],
+      "gap": "EOT8 primary remains proposed; one-clip step2/255 and panel results do not select the research step or establish convergence.",
+      "id": "research_calibration_and_attack_policy",
+      "status": "OPEN"
+    },
+    {
+      "closure": "Close data/protocol and explicit numerical/attack-policy adoption gates, preserve held-out isolation and confirmation/test opening rules, refresh related-work review as required before paid study, and admit only the seed0 exploration pair first.",
+      "evidence": [
+        "report/checks/2026-10-20-staged-data-preparation.json",
+        "docs/staged_data_and_evaluation.md",
+        "configs/study.yaml",
+        "configs/budget_study_plan.yaml"
+      ],
+      "gap": "Study remains draft;120training/exploration clips prepared but near-duplicate review and final data/protocol/adoption lock are not evidenced.",
+      "id": "data_protocol_and_research_adoption",
+      "status": "OPEN"
+    }
+  ],
+  "this_review": {
+    "array_tensor_or_pixel_values_decoded": false,
+    "new_objective_gradient_reference_profiler_GPU_SSH_upload_proof_or_paid_work": false,
+    "project_or_test_callbacks_executed": false,
+    "standard_library_only": true,
+    "test_suites_or_model_cohorts_rerun": 0
+  },
+  "training_admitted": false
+}
