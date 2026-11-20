@@ -1,0 +1,252 @@
+{
+  "SSH_exit_status": 1,
+  "additional_auditor_correction": "v2 expected standalone worker-plan files, but the unchanged coordinator passes plans through argv and session. V3 validates the saved failed-role current plan, exact source receipts, proof/native parent wall bounds and overall clocks; it does not invent absent launch records.",
+  "approved_lifecycle_directory_exception": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed",
+  "approved_scope": "report/checks/2026-11-19-pgd-component-operator-v1-scope.json",
+  "array_values_compared": false,
+  "attended_command_ended": true,
+  "audit_result": "PASS",
+  "auditor_correction": "v1 required intentionally omitted empty cache/cache-cuda/tmp directories in the receiver tree. V2 checks exact collected-file ancestors and the three declared omitted directories; all122file descriptors already matched. No saved data, code, gate or scientific work changed.",
+  "auditor_program": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/target-review-20261119/independent-saved-review-v3.py",
+  "auditor_program_sha256": "0605c2d2f7d81b6b2dcfce107be9f3fc1f5aaff3666cb9323d42b884b769984e",
+  "auditor_version": 3,
+  "authorized_lifecycle_append": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/target-review-20261119/AUTHORIZED-LIFECYCLE-APPEND.json",
+  "candidate_complete": false,
+  "candidate_current_plan_and_source_hashes_verified": true,
+  "candidate_engine_node_observations": [
+    {
+      "CPU_interval_contains_node": true,
+      "engine_index": 968,
+      "engine_tags": [
+        0,
+        -1
+      ],
+      "name": "_AttentionBackward",
+      "native_parent_edge_observed": false,
+      "node_index": 990,
+      "node_tags": [
+        1,
+        0
+      ],
+      "same_thread_and_process": true
+    },
+    {
+      "CPU_interval_contains_node": true,
+      "engine_index": 1468,
+      "engine_tags": [
+        2,
+        14
+      ],
+      "name": "BmmBackward0",
+      "native_parent_edge_observed": false,
+      "node_index": 1469,
+      "node_tags": [
+        2,
+        14
+      ],
+      "same_thread_and_process": true
+    },
+    {
+      "CPU_interval_contains_node": true,
+      "engine_index": 1528,
+      "engine_tags": [
+        2,
+        7
+      ],
+      "name": "BmmBackward0",
+      "native_parent_edge_observed": false,
+      "node_index": 1529,
+      "node_tags": [
+        2,
+        7
+      ],
+      "same_thread_and_process": true
+    },
+    {
+      "CPU_interval_contains_node": true,
+      "engine_index": 1511,
+      "engine_tags": [
+        2,
+        9
+      ],
+      "name": "SafeSoftmaxBackward0",
+      "native_parent_edge_observed": false,
+      "node_index": 1512,
+      "node_tags": [
+        2,
+        9
+      ],
+      "same_thread_and_process": true
+    }
+  ],
+  "candidate_error": "Unique source-shaped engine wrapper and direct node required.",
+  "candidate_failure_phase": "backend_validate",
+  "candidate_pid": 1206275,
+  "candidate_progress_rows": 31,
+  "candidate_raw_records": 2236,
+  "candidate_raw_trace_sha256": "1e1a2687392e37941ba1ba6d306637f39c5474850602e3d777ff5f36e073d73f",
+  "candidate_returns_publish_and_raw_publish_returned": true,
+  "candidate_worker_or_claim_promoted": false,
+  "collected_files_verified": 122,
+  "completed_eight_gradient_cohort_preserved_without_rerun": true,
+  "date": "2026-11-19",
+  "deduplicated_bytes": 4095402,
+  "eight_component_return_files_preserved": {
+    "forward-preserving": {
+      "dk": {
+        "bytes": 3145856,
+        "dtype": "<f4",
+        "file_sha256": "f25203712d8ee3740efa60f2131133018317f432119bf6693716ef5d8e3ec6cd",
+        "header_bytes": 128,
+        "payload_sha256": "986ea4142f39db5a9c729fd45c6e54c76c1e03daa758a0e3c7a7ab8254c270c5",
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dq": {
+        "bytes": 3145856,
+        "dtype": "<f4",
+        "file_sha256": "a3a04abe95127a08afe044d623ba004399d5b41f041d5a77877e2fb1cfdafbce",
+        "header_bytes": 128,
+        "payload_sha256": "0d47d9086c2d1c709376e9326de7ac6cb56c8479fec921a7e748f763b9a98c98",
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dv": {
+        "bytes": 3145856,
+        "dtype": "<f4",
+        "file_sha256": "276133afe76fc743bffd24942585b239b2347922ce56b5d24b62aa324c47e170",
+        "header_bytes": 128,
+        "payload_sha256": "dc96ae7a1fb8777372f5ed26ac4e0c2bea38d59780a03a1c9f6908dcc08b1f3f",
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "output": {
+        "bytes": 3145856,
+        "dtype": "<f4",
+        "file_sha256": "47f0ac9fbba30e14e9b82011f062596c32c05c6fa152aa89d5c1168e73b1c618",
+        "header_bytes": 128,
+        "payload_sha256": "d5068386663e958a9e9f30885ca213fea8c3ae9a22e0b9d2d0f8b4964793ee9d",
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      }
+    },
+    "native": {
+      "dk": {
+        "bytes": 3145856,
+        "dtype": "<f4",
+        "file_sha256": "c31f6d5017e237d9488ad8ba96f745ddbcf1e5e21eb5224d618c7998f92fb49b",
+        "header_bytes": 128,
+        "payload_sha256": "b2caa4618bd626e1ee83813328d741b3293e9b297c364d77900d8ae2dfd9e367",
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dq": {
+        "bytes": 3145856,
+        "dtype": "<f4",
+        "file_sha256": "218dc436f9795ef1014e910c990534eb75a06676b28145595964f0653d864afb",
+        "header_bytes": 128,
+        "payload_sha256": "e44715f2dc596766a02ca4b0616943136bea1559cea52eff47ff3c06bf47e8e4",
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "dv": {
+        "bytes": 3145856,
+        "dtype": "<f4",
+        "file_sha256": "46e728741ea905d43a9ebb3e0ea44f9bd7e0bf7750b6b5641e81b8f6e4d09134",
+        "header_bytes": 128,
+        "payload_sha256": "072b1e774e81a44d089f48b1275eacae1f9a88033f59d0cb327b6bb74a14cbd4",
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      },
+      "output": {
+        "bytes": 3145856,
+        "dtype": "<f4",
+        "file_sha256": "47f0ac9fbba30e14e9b82011f062596c32c05c6fa152aa89d5c1168e73b1c618",
+        "header_bytes": 128,
+        "payload_sha256": "d5068386663e958a9e9f30885ca213fea8c3ae9a22e0b9d2d0f8b4964793ee9d",
+        "shape": [
+          1,
+          12,
+          2048,
+          32
+        ]
+      }
+    }
+  },
+  "expanded_bytes": 82502009,
+  "financial_caps_holds_and_billing_unchanged": true,
+  "first_inner_node_index": 1469,
+  "full_EOT8_replay_performance_cost_or_training_admitted": false,
+  "grant_consumed": true,
+  "journal_rows_verified": 122,
+  "kind": "component-operator-v1-saved-target-review",
+  "matching_default_tag_wrapper_indices": [],
+  "mode": "Standalone stdlib saved/hash/JSON/AST/NPY-header-only; no project/test/scientific callbacks, array/tensor value decode, numerical comparisons, objective/process/proc/GPU/proof/network/signal/timer/paid work.",
+  "native_backend_metadata_matches_recipe": true,
+  "native_peak_allocator_bytes": 37951488,
+  "native_peak_observed_RSS_bytes": 1018580992,
+  "native_pid": 1206029,
+  "native_raw_records": 1535,
+  "native_raw_trace_sha256": "97139d0db676bf14e2e14a0b294611687cec3e0860279e4755067c1c13b2c916",
+  "native_wall_seconds": 3.1045150369172916,
+  "native_worker_metadata_complete": true,
+  "new_full_model_objectives": 0,
+  "next_local_only": "Investigate the saved reentrant inner-engine matching tags against the pinned source and strict association policy, keeping all raw rows and failed status. No capture, completed native component or eight-gradient cohort rerun is needed for this metadata investigation.",
+  "no_new_connection_needed": true,
+  "no_repeat_manual_GPU_check_needed": true,
+  "numerical_backend_gates_or_sources_changed": false,
+  "old_FIFO_lstat_only": 1,
+  "outer_control_sha256": "ae2cadb0809d3b02f5ae38729c7d2d7af22589088f26d3efe6829787339a3cdb",
+  "payload_bytes": 78406607,
+  "preservation_seal": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/target-review-20261119/sealed-component-target-review-v1.json",
+  "prior_fixture_entries_verified": 27717,
+  "prior_hashes_preserved": 25740,
+  "proof_bytes_written_and_read_back": 2684354560,
+  "proof_event_rows": 1926,
+  "proof_native_parent_wall_and_overall_clock_bounds_verified": true,
+  "proof_passed_saved": true,
+  "proof_peak_allocated_bytes": 2757263360,
+  "proof_wall_seconds": 11.947624551947229,
+  "raw_review": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/target-review-20261119/independent-saved-review.json",
+  "result": "VERIFIED_COLLECTION_NATIVE_COMPLETE_CANDIDATE_FAILED",
+  "saved_forward_return_file_bytes_identical": true,
+  "saved_roles_completed": [
+    "proof",
+    "native"
+  ],
+  "saved_work_phase": "failed",
+  "separate_worker_plan_files_present": false,
+  "supervised_control_sha256": "3c0f79953fe52aea62d2f9ea4918d9ba9d507f6a61e33bd30d5ae22754422f73",
+  "transport_verified": true,
+  "uploaded_sources_verified": 43,
+  "wire_bytes_independently_reconstructed": 78473943,
+  "wire_sha256_independently_reconstructed": "d5c93fc517024c618b8a1293711353ea9e35e3c2554775d8ad378c380fd1057e"
+}

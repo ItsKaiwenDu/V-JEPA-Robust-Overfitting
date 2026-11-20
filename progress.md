@@ -1,5 +1,55 @@
 # Research Progress Reports
 
+November19: the approved component-only10614attempt has fully verified collection:
+122files/82,502,009expandedB and independently reconstructed78,473,943Bwire. Proof
+and nativecomponent complete; native1535rowbackendmetadata passes. Candidate also
+saves4returns+2236rawrows but fails strict inner-engine association; sessionexit1/
+FAILED. Its firstBmm wrapper/node bothrecord2/14,whilev3expectsdefault0/-1wrapper.
+All8returnfileheaders/hashes retained; forwardreturns byteidentical, derivative
+valuesnotrecompared. Historical8gradientcohort unchanged/no repeats. Savedonlyauditv3
+preserves25,740priorhashes/27,717fixture entries; twoauditorassumptions corrected,
+no code/data/science/test reruns. Grantconsumed,no retrieval needed. Next investigate
+savedtags locallyagainstpinnedsource; no newcapture/native/fullcohortrerun needed.
+Candidatecompletion/science/fullEOT8/replay/performance/cost/training staygated.
+Caps/holds/billing unchanged. See
+report/checks/2026-11-19-pgd-component-operator-v1-target-review.md.
+
+November19: user approved the exact component-only10614scope. Boundpackage now
+ARMED/UNSPENT; actual local preflight and independent metadata audit pass.12local
+pins/43sources/39611Bouter/27279360Bcapsule verified,25726priorhashes/27708fixture
+entries preserved with only authorizedAUTHappend/APFS-directorymetadata exception.
+A local bookkeeping assertion afterappend expectednlinkstable; incident retained,
+authorization not rewritten and grant not consumed. No source/tests/cohorts rerun,
+SSH/GPU/model/proof/paidwork. Next userrunsONEattendedMaccommand afterVPNconnects;
+no newapproval/statuspaste. Keep awake up to50min; reviewlocal evidence onDone/error,
+neverrepeat. Sourcegradients/oldfailure/financialcaps/holds unchanged. See
+report/checks/2026-11-19-pgd-component-operator-v1-arming.md.
+
+November19: the component-only OS launcher/bootstrap/cache/client and hard alarm
+paths are integrated and locally reviewed.37unchanged workers+6supervisors; zero
+full-gradient reruns.31distinct new checks pass/33executions, only2failed cases
+rerun. Real byte setup/extraction and97file priority transport pass with explicitly
+fake process/GPU/proof/timer/verification ports. Standalone AST/wire audit preserves
+23,296prior hashes/24,602fixture entries. Isolated CLI checks approval before imports;
+proof log stays outside worker capture. Exact10614scope/package prepared AFTERlocal
+review and independently verified, UNARMED/NOAUTH/noSSH. Next requestoneexactscope
+approval for40minwork+10minsameSSHcollection; no repeatmanualGPUcheck. Historical
+8gradients/oldfailure and financialcaps/holds stayunchanged; training remainsgated.
+See report/checks/2026-11-19-pgd-component-operator-v1-local-review.md and -scope.md.
+
+November19: integrated the local component session core: original whole-scratch
+scanner, pinned private metadata cache, owned monitor and priority/deduplicated
+collection.77assets/37cachemodules/31result paths; numerical publication excluded.
+31distinct new checks pass/44executions; only13fixture-error/failure cases rerun,
+production unchanged. A93file/54,103,272B wire transfer is independently reconstructed.
+All process/GPU/proof/capacity callbacks are explicitly fake; only opaque byte I/O
+and an ordinary16MiB reserve fixture ran. Real proof verifier refuses the fake marker.
+Standalone audit preserves21,716prior hashes/22,683fixture entries. Old8gradients and
+nativefailure unchanged, livebindingNULL/localapprovedFALSE/0attempts. Next integrate
+actual OS/bootstrap/cache/client and hard I/O/parent clocks locally before any target
+scope. No university work, training admission or financial change. See
+report/checks/2026-11-19-pgd-component-session-v1-local-review.md.
+
 November19: the verified capsule now feeds a component-only cold worker source
 graph,37files/412198B, with corrected backend metadata and all5file pins included.
 The old numerical entry/dispatcher is excluded; execution binding remainsnull.

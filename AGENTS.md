@@ -2,6 +2,219 @@
 
 ## Current stage
 
+LATEST November19: COMPONENT10614CAPTURE COLLECTED/REVIEWED; GRANT CONSUMED.
+Read report/checks/2026-11-19-pgd-component-operator-v1-target-review.json/md and
+raw target-review-20261119/independent-saved-review.json. UserDone inspectedlocal.
+All prior+this grant CONSUMED. No SSH/query/upload/retry/retrieval/proof/GPU/paidwork
+or newscope/handoff/approvalrequest authorized by this review. No manualstatuspaste.
+User stages/commits/pushes NEVERagent; preserve ALL earlier uncommitted session+
+operator/arming work, actualresults, old failures, source/auditor versions/fixtures.
+
+ACTUALattempt outerAE2cadb... /supervised3c0f7995..., SSH_EXIT1, sessionFAILED.
+Full2.5GiBproofPASS(11.947625s/2757263360Bpeak;1926events). NativePID1206029COMPLETE:
+41progressrows/all20phasesreturn,4returns/source/runtime/layout/marker/resource/
+parentjoins. Backendnative recipe1535rawrows matches,1efficientFWD+1BWD positive
+correlations; alloverheadretained. Nativeworker3.104515s/GPU37951488B,parent6.724065s/
+RSS1018580992B/49samples. METADATAONLY; no accuracy/replay/performance/training claim.
+Original8fullmodelgradients/4passingpairs preserved,0newfullmodelobjectives here.
+
+CandidatePID1206275FAILED atbackend_validate/ValueError: "Unique source-shaped
+engine wrapper and direct node required."31progressrows; FWD/BWD/sync/profilerstop/
+routeclose/returns/rawpublish RETURNED. All4candidateNPYreturns+2236rawtrace rows
+saved. No candidatebackend/resource/complete/parent-success. Failedstatus UNCHANGED.
+Native+candidate8NPYheader/payloadhashes verifiedONLY,no valuesdecoded/compared.
+Forwardreturnfiles byteIDENTICAL, derivativesNOTnumericallyrecompared. Oneouter/
+innerroot+3leafhooks each close; originaldatahashes match. No scientificadmission.
+
+Exactrefusal: currentv3.bind expectsENGINE+name withgeneric0/-1 wrappertags for
+EVERYsupportednode. Outerengine968/node990 _AttentionBackward tags0/-1 vs1/0.
+FirstinnerBmm engine1468/node1469 BOTH2/14; second1528/1529 BOTH2/7; softmax1511/
+1512 BOTH2/9. Samepid/thread2 and CPUintervalcontainment; no actualnativeparentedge
+or GraphTaskproof. Firstinnernode hasNOenclosing0/-1wrapper. DONTcopy/defaulttags,
+drop rows, relax ownership/correlation/math bounds or promote worker/name/time.
+No reader/source/gate modified; needpinnedsource-backed separatepolicy ifjustified.
+
+Completecollection independentlyverified122files/82502009expandedB/78473943wireB,
+4095402dedupB,122journalrows,wireSHAd5c93fc517024c618b8a1293711353ea9e35e3c2554775d8ad378c380fd1057e.
+All43sources/controls/outer-derived grants/capsule/installation/proof/native/failed
+candidate/workreceipts join. PartialjournalsstayFALSE; finaltransportTRUE,workFAILED.
+StandaloneSTDmetadata/hash/AST/NPYHEADERONLYauditv3PASS:25740priorhashes/27717fixture
+entries preserved; oldFIFO LSTATONLY NEVEROPEN. One approvedhandoffdirectory
+lifecycle exception AUTH+ATTEMPT+attendedsession changesAPFSnlink6->9/mtime ONLY;
+alloldfilehashes fixed. No project/test/sciencecallbacks/tensororarrayvaluedecode/
+numcompare/model/objective/profiler/process/proc/GPU/proof/signals/timers/network.
+Auditv1 assumedreceiverincludesomittedemptycache/tmpdirs;v2assumedperroleplanfiles.
+V3usesexactfileancestors+3omitteddirs and actualsessioncurrentplan/sourcejoins/
+proof-nativeparentwall/overallclockevidence. No inventedrecords; allversions kept.
+Currentseal target-review-20261119/sealed-component-target-review-v1.json.
+
+NEXT LOCAL ONLY: investigate SAVEDinnerengine2/14 etc tags vs pinnedsource and
+strictreader. Any justified correction metadataONLY, preserve all2236rows and
+canonical typednode/producer/backend/identity/clock/numerical gates. No newcapture
+needed: bothtraces+all8returns alreadylocal. NEVERreruncompleted8gradientcohort or
+completednativecomponent forparserrepair, no new candidatecapture for this saved
+metadata investigation. Oldcandidateworker remainsFAILED evenifnewreaderlater
+acceptsmetadata; no silentcompletionpromotion. FullEOT8/replay/performance/cost/
+accuracy/training gated. No consumedclaimreset/retrieval/cleanup/install/paidcompute/
+financialholdrelease. Project200/compute160/single10caps+holds/billing unchanged.
+Attendedcommandended; userMacTerminalneednotstayopen. Earlierentrieshistorical.
+
+LATEST November19: COMPONENT10614ONE-ATTEMPT APPROVAL ACCEPTED; ARMED/UNSPENT.
+Read report/checks/2026-11-19-pgd-component-operator-v1-arming.json/md and scope.
+User chose "Approve one component-only 10614 attempt (Recommended)" in reply to
+call_fb5847708caa446a8443e65f862c54af. DO NOTASKAGAIN; no repeatedmanualGPU/keypaste.
+Previous stage's "all grants consumed/unarmed" is historical. This exact newgrant
+is ARMED+UNSPENT. No ATTEMPT.json/attended-session/SSH/GPU/proof/model work yet.
+
+Package pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed
+MUSTKEEPname/path. OuterAE2cadb... =ae2cadb0809d3b02f5ae38729c7d2d7af22589088f26d3efe6829787339a3cdb.
+AUTHORIZATION.json1436B SHA31b6bbd228e8a14039f8ebb9f3430f762d1776e5a3d03300ca5976954b9c05f6;
+oneapprovedO_EXCLappendONLY. Scope/source/key/capsule/control/packagefiles unchanged.
+No source/test/approval reset. Local client.check_local PASS real12pins/43sources/
+718828B+39611Bouter+27279360Bcapsule SHA82a30efe..., no SSH/process/SCI/proof activity.
+31priorchecks inherited, not rerun. Keep all uncommitted earlier session/operator
+work; user stages/commits/pushes NEVERagent. All earlier claims/evidence preserved.
+
+Independentstdsaved/hash/metadata armingreviewPASS:25726priorhashes/27708priorfixture
+entries; oldFIFO LSTATONLY NEVEROPEN. ONEAUTHORIZEDDIRexception handoff folder:
+AUTHappend changes APFS nlink6->7+mtime, owner/mode/inode fixed; oldpackage4hashes
+unchanged. Arminginitialpostappendassertwronglyexpectednlinkstable; saved incident,
+no grant rewrite/retry/attempt/targetwork, then realpreflight passed. Newarmingseal
+sealed-component-arming-v1.json. Preserve oldlayout+AUTHORIZED-APPEND.json; future
+userlaunch mayappendATTEMPT.json+attended-session causing samefoldermetadata change,
+neveroldfilehash/sourcechanges. No other oldfixtureexceptions.
+
+NEXT: user Mac runs ONE caffeinate -i .venv/bin/python -I -B
+scripts/run_predictor_pgd_component_v1.py <ABSOLUTEBOUNDHANDOFF> afterVPNconnected.
+KeepMac/lid/Terminalawake and enter universitypasswordatprompt. Userattendedlaunch,
+NEVERagent-runSSH. Approved40minworkincl2.5GiBproof60s+two120scomponents;10minsameSSH
+collection,total50incllogin.0fullmodel objectives/cohortrepeats; original3/2.25/3GiB
+setup/capture/response,raw1792MiB/meta64incltrace8/GPU7GiB/RSS4GiB+allnumerical/backend/
+source/ownership/clocks retained. No retries/separateretrieval/oldcleanup/install/
+heldout-key-checkpointupload/oldclaimreset/paidcompute/financialholdrelease. Refusal
+consumesonegrant; failurestopslaterroles. AfteruserDone inspectboundlocalATTEMPT+
+attended-session files and errors FIRST; NEVER repeatcommand or infer success.
+No scientific/training/fullEOT8/replay/performance/cost admission. All8gradient/
+4pairresults+oldnativefailure and200/160/single10caps/holds/billing unchanged.
+
+LATEST November19: COMPONENT OPERATOR+EXACT10614SCOPE REVIEWED; UNARMED.
+Read docs/predictor_pgd_component_operator_v1.md, both operator/input configs and
+report/checks/2026-11-19-pgd-component-operator-v1-local-review.json/md +scope.json/md.
+Preserve ALL prior uncommitted session work and every current version/log/fixture.
+User stages/commits/pushes, NEVER agent. All prior university grants consumed.
+One new exact scoped linux10614 approval is required before arming or university work.
+No SSH/query/upload/GPU/model/2.5GiBproof/paid work, live grant or claim has occurred.
+
+Concrete cold adapter emits37BYTE-EXACT component workers+6supervisors=43sources/
+718828B; outer39611B. Capsule27279360B SHA82a30efe...unchanged; no pixels/checkpoint/
+private-key files.83whole assets/30capture paths; proof.log ROOT supervisor metadata,
+not capture/logs/proof.log rejected by exact workerinventory. Diagnostic corrected.
+No numerical worker entry/fullcohortdispatch. RolesONLYproof/native/candidate.
+Two component outerVJPs +candidate inner mathVJP,0fullobjectives/0warmups/replays.
+
+Original OS ownedlease/releasepipe/isolatedchild/cleanup/journal, hardSIGALRM+soft
+wake, causalclientmap/SSH/frames/prioritydedup/journal/terminal controls retained.
+Bootstrap/sourcecache now43, explicit component controls/grants, exact parent/source/
+loader/path/namespace/plan/session/continuingclock checks. Runtimeentry sourcebinding
+stillNULL; authenticated childdispatch alone binds newcontrol/source/result/host.
+Real proofreader and component/backend/progress/parent metadata readers required.
+Whole ASTinverses bootstrapprefix/scanner/coordinator/codec/outer/client/CLI pass;
+unchanged37scientificsource bytes, monitor+proof exact. All science/resource/clock
+limits strict. Work2400+collection600 within3000logininclusive; proof60/component120.
+No real hardtiming/ownership/resource/scientific authentication from LOCALfake tests.
+
+31distinct new checksPASS/33executions. First23pass/1fail fakewatch __file__placeholder;
+fixedfixture. Newwholeflow failed once on unchangedclient /var/tmp parent gate;
+expectation corrected to refusal then realcodec locallyverified. ONLY2failed nodes
+rerun, no passing/historical/scientific repeats. Newisolated CLI tests preserve
+approval-before-projectimport andexplicitrepoPath under-I. Production afterfirst
+checks changed ONLYproof diagnostic+isolatedCLI/dependentpins; newcases exercisefinal
+paths. All43target sources/control unchanged afterdiagnostic. Allsnapshots kept.
+Ordinary16MiB byte reserve fixtures+opaque bytes ONLY; process/proc/PIDFD/signals/
+timers/network/GPU/proof/preallocator/verification/cacheinstall observationsFAKE.
+FakeproofFALSE/0B, realproof readerREFUSES; no SCI/PyTorch/Numpy execution/arrays.
+97privatefiles/55,347,502expanded/54,451,744wire/949,620dedupB; independentwireSHA
+596c9837...; realclient refuses localfixtureparent, codec transportaloneverified.
+
+Standaloneauditv3PASS:23296prior hashes/24602priorfixture entries intact; oldFIFO
+LSTATONLY NEVEROPEN. v1/v2passed beforeCLIadd; v2drops2dormantassertions; v3addsCLI/
+finalsourcehistory; no project/test callbacks orscience/targetwork. Firstcoldbuild
+failed listwalk onexpressionbody beforeemission; fixedhelper; allversions retained.
+Then exactUNARMEDpackage prepared, independentstdmetadatareviewPASS12localpins,
+43source/control/capsule/keyjoins. Currentseal sealed-component-operator-v1.json.
+
+UNARMED package pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed.
+Outercontrol ae2cadb0809d3b02f5ae38729c7d2d7af22589088f26d3efe6829787339a3cdb;
+supervisedcontrol3c0f7995... . NOAUTHORIZATION/attemptclaim. Scope40minworkinclfull
+2.5GiBproof+two120scomponents,10minsameSSHcollection,total50minincllogin. Originalcaps
+3GiBsetup/2.25capture/3response/raw1792MiB/meta64incltrace8/allocator7GiB/RSS4GiB.
+No retries/separateretrieval/oldcleanup/installs/extraobjectives/cohortrepeats/private-
+key/heldout/checkpointupload/oldclaimreset/paidwork/financialholdrelease. Refusaluses
+oneattempt; failurestopslaterroles. Proof-owned tempremoval/heldownedcleanupONLY.
+
+NEXT: request ONE exact scoped approval from reviewed concrete scope. If approved,
+DO NOTaskagain: write exact newouterAUTHORIZATION via outer.authorization with user
+basis, then client.check_local preflight locally againstrealcapsule/source/keypins.
+Keep userprovided14:42:55linux10614observation; no repeatedmanualGPU/keypaste. Live
+helper guards. Provide ONEattended Maccommand using -I -B script...component_v1.
+Never agent-runSSH or arm beforeapproval. AfteruserDone inspectlocalresultsfirst,
+neverrepeatcommand/resetclaim. All8numericalgradients/4pairs preserved; oldnative
+failurestaysfailed. Actualcomponent/fullEOT8/replay/performance/cost/training gated.
+Project200/compute160/single10 caps+holds/billing unchanged. Earlierentries historical.
+
+LATEST November19: LOCAL COMPONENT SESSION CORE REVIEWED; LIVE BINDING NULL.
+Read docs/predictor_pgd_component_session_v1.md, both session/input configs and
+report/checks/2026-11-19-pgd-component-session-v1-local-review.json/md.
+User stages/commits/pushes, NEVER agent. Preserve ALL source/test/audit versions,
+old results, failures and fixtures. All university grants consumed. No target
+scope/handoff/approvalrequest, SSH/query/upload/model/GPU/proof/paid work, new
+live claim or manual status/key paste was authorized/performed by this local step.
+
+Local core predictor_pgd_component_session_v1 pins83inputs and integrates77assets,
+37private cache modules,31fixed component/collection result paths. Numerical/
+oldauthorization paths excluded. Original whole-scratch scanner/assessment/Guard,
+category/logical/allocated/free/inode/mode/link/publication gates retained; only
+catalogue init/classification differ. Cache uses pinned anchored reads, metadata-
+only allowlist and checks loader/origin/path/parent-child/source identity without
+sys.modules/meta_path mutation. Live cache installation refuses.
+
+Exact repaired owned-handle monitor reused; exact frozen proof-monitor builder.
+Only explicit fake launch/GPU/sample/handle/verify/pause/clock ports accepted.
+Roleorder proof/native/forward-preserving,60/120/120s; continued setup180/work2400/
+connection3000,collection120prepare+600 remain. One local claim/no retries; parent
+publishes ONLYowned session/plan/observation. Failure stops latercandidate. No real
+launch/proc/PIDFD/signal/timer/GPU proof or scientific work. Hard blocking-I/O
+interruption and actual OS/bootstrap/client integration are NOTbound or verified.
+
+Original priority/dedup codec full AST inverse passes after only2dependency
+bridges+declared localkind/binding literals. Localbinding approvedFALSE/0attempts,
+liveNULL; old wire authorization_sha256 names this REJECTED simulation binding,
+NOTgrant.93files/55,001,233expanded/54,103,272wire/949,546dedupB; independent wire
+reconstruction hash1b5ba62a...; every private file byte/mode/mtime/inode verified.
+Truncated/badterminal/trailing transfers preservepartial journals,neverpromote.
+
+31distinct NEW checks PASS/44executions. Initial18pass/5fail/8setuperrors from
+fixture intermediate dirs0755; testhelperONLY changed to0700,ONLY13failed/error
+nodes rerun,13PASS. Production unchanged; no passing/historical/science repeats.
+Allsnapshots/failures/logs preserved. Actual opaque byte copies +ordinary16MiB
+reservefixture ONLY; fstatvfs capacity/inodes+process/GPU/verification/proof FAKE.
+Fakeproof passedFALSE/completeFALSE/0Bwritten/readback; realproof verifier REFUSES.
+No2.5GiB proof or torch/numpy import/array/tensor decode/model/gradient/profiler/CUDA.
+Standalone stdlib saved/hash/AST/wire auditPASS:21716prior hashes/22683priorfixture
+entries preserved; oldFIFO LSTATONLY NEVEROPEN. No project/test callbacks or
+process/proc/signals/timers/network/scientific work in audit. Execution/scientific/
+training admissionNULL/FALSE; historical8gradients/4passingpairs and failednative
+worker unchanged. No candidate component/performance/fullEOT8/replay/cost admission.
+
+NEXT LOCAL ONLY: integrate/review actual OSlauncher/bootstrap/executablecache/
+SSHclient + hard blocking-I/O/parentclock enforcement around this core. Authenticate
+realproof/component receipts there; retain exact science/identity/backend/storage/
+RSS/GPU/clock gates. Core is NOTtarget-ready. No new target scope/handoff/approval
+request until concrete adapter independently reviewed. NEVERrerun completed8gradient
+cohort for component repair. No consumedclaim reset/retry/retrieval/cleanup/install/
+paidcompute/financialholdrelease. Project200/compute160/single10 caps+holds/billing
+unchanged. Currentseal sealed-component-session-v1.json. Earlierentries historical.
+
 LATEST November19: COMPONENT-ONLY WORKER SOURCE INTEGRATED LOCALLY; EXECUTION NULL.
 Read docs/predictor_pgd_component_runtime_v1.md, both runtime/input configs and
 report/checks/2026-11-19-pgd-component-runtime-v1-local-review.json/md.
