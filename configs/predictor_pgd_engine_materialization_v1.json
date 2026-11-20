@@ -1,0 +1,187 @@
+{
+  "array_tensor_values_decoded_or_compared": false,
+  "candidate_anchors": [
+    {
+      "engine_index": 968,
+      "engine_tags": [
+        0,
+        -1
+      ],
+      "node_index": 990,
+      "node_tags": [
+        1,
+        0
+      ],
+      "producer_chain": [
+        272
+      ],
+      "producer_index": 272,
+      "signature": "pytorch-2.8.0-generic-function-wrapper-defaults-v1",
+      "stage": "custom-outer"
+    },
+    {
+      "engine_index": 1468,
+      "engine_tags": [
+        2,
+        14
+      ],
+      "node_index": 1469,
+      "node_tags": [
+        2,
+        14
+      ],
+      "producer_chain": [
+        1446
+      ],
+      "producer_index": 1446,
+      "signature": "pytorch-2.8.0-adjacent-node-tag-materialization-v1",
+      "stage": "inner-matrix"
+    },
+    {
+      "engine_index": 1528,
+      "engine_tags": [
+        2,
+        7
+      ],
+      "node_index": 1529,
+      "node_tags": [
+        2,
+        7
+      ],
+      "producer_chain": [
+        1357
+      ],
+      "producer_index": 1357,
+      "signature": "pytorch-2.8.0-adjacent-node-tag-materialization-v1",
+      "stage": "inner-matrix"
+    },
+    {
+      "engine_index": 1511,
+      "engine_tags": [
+        2,
+        9
+      ],
+      "node_index": 1512,
+      "node_tags": [
+        2,
+        9
+      ],
+      "producer_chain": [
+        1407
+      ],
+      "producer_index": 1407,
+      "signature": "pytorch-2.8.0-adjacent-node-tag-materialization-v1",
+      "stage": "inner-softmax"
+    }
+  ],
+  "candidate_kernel_groups": [
+    "efficient-forward",
+    "math-GEMM-backward",
+    "math-GEMM-forward",
+    "math-softmax-backward",
+    "math-softmax-forward"
+  ],
+  "candidate_kernel_witnesses": 9,
+  "candidate_raw_records": 2236,
+  "candidate_raw_trace_sha256": "1e1a2687392e37941ba1ba6d306637f39c5474850602e3d777ff5f36e073d73f",
+  "candidate_retained_GPU_annotations": 2,
+  "candidate_retained_overhead_rows": 33,
+  "candidate_saved_metadata_matches_recipe": true,
+  "date": "2026-11-19",
+  "derivation": {
+    "all_other_AST_exact": true,
+    "association_edits": [
+      {
+        "after": "        # Count every enclosing name/thread/process match, even malformed tags;\n        # a second wrapper must not disappear by choosing a signature first.\n        wrappers=sorted(i for i in self.ops\n            if self.rows[i]['name']==ENGINE+node['name']\n            and self.rows[i]['thread']==node['thread'] and self.rows[i]['device_index']==node['device_index']\n            and self.rows[i]['start_ns']<=node['start_ns']<node['end_ns']<=self.rows[i]['end_ns'])\n        tags=(engine['fwd_thread'],engine['sequence_nr']);successor=None\n        if tags==(0,-1):\n            signature='pytorch-2.8.0-generic-function-wrapper-defaults-v1'\n        else:\n            following=sorted(i for i in self.cpu if i>engine_index\n                and self.rows[i]['thread']==engine['thread']\n                and self.rows[i]['device_index']==engine['device_index'])\n            successor=following[0] if following else None\n            if tags!=key or successor!=index or not engine['start_ns']<node['start_ns']:\n                raise ValueError('Source-shaped wrapper tags and recorded same-thread adjacency required.')\n            signature='pytorch-2.8.0-adjacent-node-tag-materialization-v1'\n",
+        "before": "        wrappers=[i for i in self.engines[(ENGINE+node['name'],0,-1)]\n            if self.rows[i]['thread']==node['thread'] and self.rows[i]['device_index']==node['device_index']\n            and self.rows[i]['start_ns']<=node['start_ns']<node['end_ns']<=self.rows[i]['end_ns']]\n"
+      },
+      {
+        "after": "engine['thread']!=node['thread']",
+        "before": "(engine['thread'],engine['fwd_thread'],engine['sequence_nr'])!=(node['thread'],0,-1)"
+      },
+      {
+        "after": "'engine_signature_policy':signature",
+        "before": "'engine_signature_policy':'pytorch-2.8.0-generic-function-wrapper-defaults-v1'"
+      },
+      {
+        "after": "        if successor is not None:\n            anchor['recorded_next_same_thread_CPU_index']=successor\n            anchor['native_thread_local_storage_order_observed']=False\n        self.anchors.append(anchor)",
+        "before": "        self.anchors.append(anchor)"
+      }
+    ],
+    "candidate_bytes": 24232,
+    "candidate_sha256": "0a5ef4a5dc99b55eb5df6a3af8d11f99dbb18352b4ffab55c310a3f5a0f62622",
+    "candidate_source": "models/predictor_pgd_split_backend_v4.py",
+    "complete_byte_inverse": true,
+    "frozen_sha256": "2673d507c18b1b09a0b269d8740252b217a591b11def52bcf9f22cdca7c5c2c8",
+    "frozen_source": "models/predictor_pgd_split_backend_v3.py",
+    "kind": "engine-materialization-v1-cold-derivation",
+    "method_edit": {
+      "after": "    def bind(self,index,pool,allowed,container,stage):\n        \"\"\"Recorded default or adjacent-node materialization signatures.\n\n        PyTorch2.8 collation may propagate node fields into its preceding\n        FUNCTION wrapper. The reader only checks existing raw fields; it does\n        not copy tags, observe native storage order or authenticate execution.\n        All typed producer, parent, phase and kernel checks remain required.\n        \"\"\"\n        node=self.rows[index];key=(node['fwd_thread'],node['sequence_nr'])\n        if (self.trace['torch_version']!=RUNTIME or len(self.anchors)>=MAX_ANCHORS\n                or index in self.bound_nodes or key in self.used_keys or key[0]<=0 or key[1]<0\n                or self.nodes[key]!=[index] or node['name'] not in allowed):\n            raise ValueError('Unique recorded autograd node identity required.')\n        engine_index=node['parent']\n        if engine_index is None or engine_index not in self.ops:\n            raise ValueError('Direct actual engine parent required.')\n        engine=self.rows[engine_index];scope=self.rows[container]\n        # Count every enclosing name/thread/process match, even malformed tags;\n        # a second wrapper must not disappear by choosing a signature first.\n        wrappers=sorted(i for i in self.ops\n            if self.rows[i]['name']==ENGINE+node['name']\n            and self.rows[i]['thread']==node['thread'] and self.rows[i]['device_index']==node['device_index']\n            and self.rows[i]['start_ns']<=node['start_ns']<node['end_ns']<=self.rows[i]['end_ns'])\n        tags=(engine['fwd_thread'],engine['sequence_nr']);successor=None\n        if tags==(0,-1):\n            signature='pytorch-2.8.0-generic-function-wrapper-defaults-v1'\n        else:\n            following=sorted(i for i in self.cpu if i>engine_index\n                and self.rows[i]['thread']==engine['thread']\n                and self.rows[i]['device_index']==engine['device_index'])\n            successor=following[0] if following else None\n            if tags!=key or successor!=index or not engine['start_ns']<node['start_ns']:\n                raise ValueError('Source-shaped wrapper tags and recorded same-thread adjacency required.')\n            signature='pytorch-2.8.0-adjacent-node-tag-materialization-v1'\n        direct_nodes=[i for i in self.cpu if self.rows[i]['scope']==1 and not self.rows[i]['user_annotation']\n            and self.rows[i]['parent']==engine_index]\n        if (wrappers!=[engine_index] or direct_nodes!=[index]\n                or any(a['engine_index']==engine_index for a in self.anchors)\n                or engine['name']!=ENGINE+node['name']\n                or engine['thread']!=node['thread']\n                or engine['device_index']!=scope['device_index'] or node['device_index']!=scope['device_index']\n                or not scope['start_ns']<=engine['start_ns']<engine['end_ns']<=scope['end_ns']):\n            raise ValueError('Unique source-shaped engine wrapper and direct node required.')\n        all_counter_rows=self.producers[key]\n        if not 0<len(all_counter_rows)<=MAX_DEPTH:\n            raise ValueError('Bounded recorded producer-counter inventory required.')\n        candidates=[i for i in all_counter_rows if self.rows[i]['name'] in allowed[node['name']]]\n        matches=[i for i in candidates if i in pool]\n        if not 0<len(matches)<=MAX_DEPTH:\n            raise ValueError('Bounded typed recorded producer chain required.')\n        if set(candidates)!=set(matches):\n            raise ValueError('Typed producer identity repeated outside its selected scope.')\n        deepest=[i for i in matches if all(j in self.ancestry[i] for j in matches)]\n        if len(deepest)!=1:\n            raise ValueError('Missing or ambiguous recorded typed producer chain.')\n        producer_index=deepest[0];producer=self.rows[producer_index]\n        if (producer['name'] not in allowed[node['name']] or producer['end_ns']>engine['start_ns']\n                or producer['thread']!=key[0] or producer['device_index']!=node['device_index']):\n            raise ValueError('Autograd producer type/order is outside the selected computation.')\n        # Existing caller/inner-node scope and cross-thread exclusions remain.\n        permitted={container} if self.rows[container]['scope']==1 else set()\n        if any(self.rows[i]['scope']==1 and i not in permitted for i in self.ancestry[engine_index]):\n            raise ValueError('Engine lies under an unrelated autograd node.')\n        if engine_index not in self.desc(container):\n            if engine['thread']==producer['thread']:\n                raise ValueError('Detached same-thread backward cannot be repaired by names/time.')\n            parent=engine['parent']\n            if parent is not None and parent not in self.backward:\n                raise ValueError('Foreign engine parent outside the recorded backward scope.')\n        self.bound_nodes.add(index);self.used_keys.add(key)\n        anchor={'stage':stage,'node_index':index,'node_name':node['name'],'engine_index':engine_index,\n            'producer_index':producer_index,'producer_name':producer['name'],'producer_chain':sorted(matches),\n            'forward_thread':key[0],'sequence_nr':key[1],'backward_thread':node['thread'],\n            'container_index':container,'cross_thread':node['thread']!=key[0],\n            'CPU_interval_checked':True,'GraphTask_ID_observed':False,\n            'engine_forward_thread_recorded':engine['fwd_thread'],'engine_sequence_recorded':engine['sequence_nr'],\n            'engine_signature_policy':signature,\n            'producer_match_policy':'supported-node-type-and-recorded-forward-thread-sequence-chain-v1',\n            'same_counter_nonproducer_indices':[i for i in all_counter_rows if i not in candidates],\n            'raw_tags_copied_or_filled':False,'native_parent_edge_observed':False}\n        if successor is not None:\n            anchor['recorded_next_same_thread_CPU_index']=successor\n            anchor['native_thread_local_storage_order_observed']=False\n        self.anchors.append(anchor)\n        return self.desc(index)\n",
+      "before": "    def bind(self,index,pool,allowed,container,stage):\n        \"\"\"Typed node/producer identity plus one source-shaped generic wrapper.\n\n        PyTorch 2.8's engine wrapper does not carry the child node's forward\n        tags. Keep every raw value. Sequence peek values on unrelated CPU ops\n        are retained but cannot be producers of a different supported node type.\n        This establishes a bounded metadata association, not native ownership.\n        \"\"\"\n        node=self.rows[index];key=(node['fwd_thread'],node['sequence_nr'])\n        if (self.trace['torch_version']!=RUNTIME or len(self.anchors)>=MAX_ANCHORS\n                or index in self.bound_nodes or key in self.used_keys or key[0]<=0 or key[1]<0\n                or self.nodes[key]!=[index] or node['name'] not in allowed):\n            raise ValueError('Unique recorded autograd node identity required.')\n        engine_index=node['parent']\n        if engine_index is None or engine_index not in self.ops:\n            raise ValueError('Direct actual engine parent required.')\n        engine=self.rows[engine_index];scope=self.rows[container]\n        wrappers=[i for i in self.engines[(ENGINE+node['name'],0,-1)]\n            if self.rows[i]['thread']==node['thread'] and self.rows[i]['device_index']==node['device_index']\n            and self.rows[i]['start_ns']<=node['start_ns']<node['end_ns']<=self.rows[i]['end_ns']]\n        direct_nodes=[i for i in self.cpu if self.rows[i]['scope']==1 and not self.rows[i]['user_annotation']\n            and self.rows[i]['parent']==engine_index]\n        if (wrappers!=[engine_index] or direct_nodes!=[index]\n                or any(a['engine_index']==engine_index for a in self.anchors)\n                or engine['name']!=ENGINE+node['name']\n                or (engine['thread'],engine['fwd_thread'],engine['sequence_nr'])!=(node['thread'],0,-1)\n                or engine['device_index']!=scope['device_index'] or node['device_index']!=scope['device_index']\n                or not scope['start_ns']<=engine['start_ns']<engine['end_ns']<=scope['end_ns']):\n            raise ValueError('Unique source-shaped engine wrapper and direct node required.')\n        all_counter_rows=self.producers[key]\n        if not 0<len(all_counter_rows)<=MAX_DEPTH:\n            raise ValueError('Bounded recorded producer-counter inventory required.')\n        candidates=[i for i in all_counter_rows if self.rows[i]['name'] in allowed[node['name']]]\n        matches=[i for i in candidates if i in pool]\n        if not 0<len(matches)<=MAX_DEPTH:\n            raise ValueError('Bounded typed recorded producer chain required.')\n        if set(candidates)!=set(matches):\n            raise ValueError('Typed producer identity repeated outside its selected scope.')\n        deepest=[i for i in matches if all(j in self.ancestry[i] for j in matches)]\n        if len(deepest)!=1:\n            raise ValueError('Missing or ambiguous recorded typed producer chain.')\n        producer_index=deepest[0];producer=self.rows[producer_index]\n        if (producer['name'] not in allowed[node['name']] or producer['end_ns']>engine['start_ns']\n                or producer['thread']!=key[0] or producer['device_index']!=node['device_index']):\n            raise ValueError('Autograd producer type/order is outside the selected computation.')\n        # Existing caller/inner-node scope and cross-thread exclusions remain.\n        permitted={container} if self.rows[container]['scope']==1 else set()\n        if any(self.rows[i]['scope']==1 and i not in permitted for i in self.ancestry[engine_index]):\n            raise ValueError('Engine lies under an unrelated autograd node.')\n        if engine_index not in self.desc(container):\n            if engine['thread']==producer['thread']:\n                raise ValueError('Detached same-thread backward cannot be repaired by names/time.')\n            parent=engine['parent']\n            if parent is not None and parent not in self.backward:\n                raise ValueError('Foreign engine parent outside the recorded backward scope.')\n        self.bound_nodes.add(index);self.used_keys.add(key)\n        anchor={'stage':stage,'node_index':index,'node_name':node['name'],'engine_index':engine_index,\n            'producer_index':producer_index,'producer_name':producer['name'],'producer_chain':sorted(matches),\n            'forward_thread':key[0],'sequence_nr':key[1],'backward_thread':node['thread'],\n            'container_index':container,'cross_thread':node['thread']!=key[0],\n            'CPU_interval_checked':True,'GraphTask_ID_observed':False,\n            'engine_forward_thread_recorded':engine['fwd_thread'],'engine_sequence_recorded':engine['sequence_nr'],\n            'engine_signature_policy':'pytorch-2.8.0-generic-function-wrapper-defaults-v1',\n            'producer_match_policy':'supported-node-type-and-recorded-forward-thread-sequence-chain-v1',\n            'same_counter_nonproducer_indices':[i for i in all_counter_rows if i not in candidates],\n            'raw_tags_copied_or_filled':False,'native_parent_edge_observed':False}\n        self.anchors.append(anchor)\n        return self.desc(index)\n",
+      "new_end": 12982,
+      "old_end": 12010,
+      "start": 6885
+    },
+    "policy_edit": {
+      "after": "POLICY='pgd-pytorch28-materialized-wrapper-typed-producer-metadata-v4'",
+      "before": "POLICY='pgd-pytorch28-node-generic-wrapper-typed-producer-metadata-v3'"
+    },
+    "raw_rows_or_fields_rewritten": false,
+    "target_integrated": false,
+    "worker_completion_or_scientific_admission": false
+  },
+  "financial_caps_holds_and_billing_unchanged": true,
+  "full_EOT8_replay_performance_cost_or_training_admitted": false,
+  "installed_wheel_source_commit_authenticated": false,
+  "kind": "engine-materialization-v1-local-metadata-correction",
+  "native_metadata_result_unchanged_except_policy": true,
+  "native_raw_records": 1535,
+  "native_raw_trace_sha256": "97139d0db676bf14e2e14a0b294611687cec3e0860279e4755067c1c13b2c916",
+  "native_storage_order_or_parent_GraphTask_observed": false,
+  "new_gradient_profiler_GPU_proof_paid_or_scientific_work": false,
+  "new_target_source_binding_scope_handoff_or_approval_request": false,
+  "old_candidate_worker_remains_failed": true,
+  "raw_rows_or_fields_changed": false,
+  "reader_copies_or_fills_raw_tags": false,
+  "saved_candidate_assessment": "runs/pretrained/diagnostic/pgd-engine-materialization-v1-20261119/pytest-fixtures-v1/test_saved_candidate_matches_n0/SAVED-CANDIDATE-METADATA-ASSESSMENT.json",
+  "saved_candidate_assessment_sha256": "d532428aa4c48a11f581c737eaa427b7f9fd88ebf173f3852c27c5205537d903",
+  "saved_native_assessment": "runs/pretrained/diagnostic/pgd-engine-materialization-v1-20261119/pytest-fixtures-v1/test_saved_native_retains_prev0/SAVED-NATIVE-METADATA-ASSESSMENT.json",
+  "saved_native_assessment_sha256": "37e0e355647afdcc82c0549c2f24f086faa89f90e02b079352fd7551816ad005",
+  "source_pins": {
+    "configs/predictor_pgd_engine_materialization_inputs_v1.json": "395c4c496d40ca99d9ef3833aff8363b2a30b36903572159ac2c4c782ae0624a",
+    "models/predictor_pgd_engine_materialization_v1.py": "831f0deffb177e2e55f14fcc0681a169781e398797c94c086aedf3bbef26ed0e",
+    "models/predictor_pgd_split_backend_v4.py": "0a5ef4a5dc99b55eb5df6a3af8d11f99dbb18352b4ffab55c310a3f5a0f62622",
+    "tests/test_predictor_pgd_engine_materialization_v1.py": "4e08859ab2d31fece7c97c59ddf267000deb43d415b16e5f56a9faf5b9dd0452"
+  },
+  "tests": {
+    "all_once": true,
+    "distinct_pass": 29,
+    "executions": 29,
+    "failures": 0,
+    "passing_historical_or_scientific_repeats": 0
+  },
+  "upstream_primary_snapshots": {
+    "collection-full.json": {
+      "Git_blob_sha": "72bffcd8b8cea8d72f2f697cad18b6b1085fb5a4",
+      "content_sha256": "54f3d7fd94efc97e726e77095263463b2506669f8c580b41424efcdbe1e7558a",
+      "request": {
+        "path": "torch/csrc/profiler/collection.cpp",
+        "ref": "v2.8.0",
+        "repository_full_name": "pytorch/pytorch"
+      },
+      "snapshot_sha256": "6b8c08e12d9e9ead18a6f8db4516fb5a005e62472fcdac4fd6f952ac123abc7b",
+      "url": "https://github.com/pytorch/pytorch/blob/v2.8.0/torch/csrc/profiler/collection.cpp"
+    },
+    "profiler-kineto-full.json": {
+      "Git_blob_sha": "17aef05da085ca1072ead819ddd15a7b82500b45",
+      "content_sha256": "af82d65f7c3d1d87d3eaf6bf4c7c9ef42e79d251397569e69bd2ebe41741465c",
+      "request": {
+        "path": "torch/csrc/autograd/profiler_kineto.cpp",
+        "ref": "v2.8.0",
+        "repository_full_name": "pytorch/pytorch"
+      },
+      "snapshot_sha256": "c2eb222c9c577f4db59452c42cdb1d869a1f877b45d557ad585b350146e60abb",
+      "url": "https://github.com/pytorch/pytorch/blob/v2.8.0/torch/csrc/autograd/profiler_kineto.cpp"
+    }
+  }
+}

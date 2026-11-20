@@ -1,0 +1,208 @@
+{
+  "array_tensor_values_decoded_or_compared": false,
+  "candidate_anchors": [
+    {
+      "engine_index": 968,
+      "engine_tags": [
+        0,
+        -1
+      ],
+      "node_index": 990,
+      "node_tags": [
+        1,
+        0
+      ],
+      "producer_chain": [
+        272
+      ],
+      "producer_index": 272,
+      "signature": "pytorch-2.8.0-generic-function-wrapper-defaults-v1",
+      "stage": "custom-outer"
+    },
+    {
+      "engine_index": 1468,
+      "engine_tags": [
+        2,
+        14
+      ],
+      "node_index": 1469,
+      "node_tags": [
+        2,
+        14
+      ],
+      "producer_chain": [
+        1446
+      ],
+      "producer_index": 1446,
+      "signature": "pytorch-2.8.0-adjacent-node-tag-materialization-v1",
+      "stage": "inner-matrix"
+    },
+    {
+      "engine_index": 1528,
+      "engine_tags": [
+        2,
+        7
+      ],
+      "node_index": 1529,
+      "node_tags": [
+        2,
+        7
+      ],
+      "producer_chain": [
+        1357
+      ],
+      "producer_index": 1357,
+      "signature": "pytorch-2.8.0-adjacent-node-tag-materialization-v1",
+      "stage": "inner-matrix"
+    },
+    {
+      "engine_index": 1511,
+      "engine_tags": [
+        2,
+        9
+      ],
+      "node_index": 1512,
+      "node_tags": [
+        2,
+        9
+      ],
+      "producer_chain": [
+        1407
+      ],
+      "producer_index": 1407,
+      "signature": "pytorch-2.8.0-adjacent-node-tag-materialization-v1",
+      "stage": "inner-softmax"
+    }
+  ],
+  "candidate_kernel_groups": [
+    "efficient-forward",
+    "math-GEMM-backward",
+    "math-GEMM-forward",
+    "math-softmax-backward",
+    "math-softmax-forward"
+  ],
+  "candidate_kernel_witnesses": 9,
+  "candidate_raw_records": 2236,
+  "candidate_raw_trace_sha256": "1e1a2687392e37941ba1ba6d306637f39c5474850602e3d777ff5f36e073d73f",
+  "candidate_retained_GPU_annotations": 2,
+  "candidate_retained_overhead_rows": 33,
+  "candidate_saved_metadata_matches_recipe": true,
+  "current_seal": "runs/pretrained/diagnostic/pgd-engine-materialization-v1-20261119/sealed-engine-materialization-v1.json",
+  "date": "2026-11-19",
+  "derivation": {
+    "all_other_AST_exact": true,
+    "candidate_bytes": 24232,
+    "candidate_sha256": "0a5ef4a5dc99b55eb5df6a3af8d11f99dbb18352b4ffab55c310a3f5a0f62622",
+    "candidate_source": "models/predictor_pgd_split_backend_v4.py",
+    "complete_byte_inverse": true,
+    "frozen_sha256": "2673d507c18b1b09a0b269d8740252b217a591b11def52bcf9f22cdca7c5c2c8",
+    "frozen_source": "models/predictor_pgd_split_backend_v3.py",
+    "kind": "engine-materialization-v1-cold-derivation",
+    "policy_edit": {
+      "after": "POLICY='pgd-pytorch28-materialized-wrapper-typed-producer-metadata-v4'",
+      "before": "POLICY='pgd-pytorch28-node-generic-wrapper-typed-producer-metadata-v3'"
+    },
+    "raw_rows_or_fields_rewritten": false,
+    "target_integrated": false,
+    "worker_completion_or_scientific_admission": false
+  },
+  "financial_caps_holds_and_billing_unchanged": true,
+  "full_EOT8_replay_performance_cost_or_training_admitted": false,
+  "independent_audit": {
+    "audit_only_corrections": [
+      "linked-runtime row category and frontend ownership map",
+      "outer backward phase 676 rather than inner custom node 990",
+      "failed marker stores error_type rather than message"
+    ],
+    "implementation_or_passing_checks_changed_or_repeated": false,
+    "old_versions_and_diagnostics_preserved": true,
+    "path": "runs/pretrained/diagnostic/pgd-engine-materialization-v1-20261119/independent-saved-review-v4.json",
+    "sha256": "e4bdd4315dc3c84d4ee56e73572f4f81c9d1db9d2b7714728d0bb5f08f900f2f",
+    "summary": {
+      "FIFO_lstat_only_never_opened": 1,
+      "array_tensor_values_decoded_or_compared": false,
+      "candidate_engine_anchors": 4,
+      "candidate_metadata_matches_recipe": true,
+      "candidate_positive_correlated_kernel_witnesses": 9,
+      "explicit_modified_or_handwritten_positive_cases": 4,
+      "financial_caps_holds_and_billing_unchanged": true,
+      "installed_wheel_source_commit_or_native_queue_parent_GraphTask_authenticated": false,
+      "kind": "engine-materialization-v1-independent-stdlib-saved-review",
+      "native_assessment_identical_except_policy": true,
+      "negative_mutations_refused": 20,
+      "new_metadata_checks_once": 29,
+      "new_primary_snapshots": 2,
+      "new_scientific_or_remote_work": false,
+      "old_failed_candidate_remains_failed": true,
+      "old_sealed_pins": 15,
+      "pinned_input_files": 17,
+      "prior_fixture_entries": 27882,
+      "prior_regular_hashes": 25884,
+      "project_or_test_callbacks_executed": false,
+      "raw_candidate_rows_preserved": 2236,
+      "raw_native_rows_preserved": 1535,
+      "result": "PASS",
+      "source_byte_inverse_and_other_AST_exact": true,
+      "source_cpp_collation_and_Kineto_accessors_verified": true,
+      "target_integrated_or_new_scope": false,
+      "worker_or_training_admitted": false
+    }
+  },
+  "installed_wheel_source_commit_authenticated": false,
+  "kind": "engine-materialization-v1-local-review",
+  "native_metadata_result_unchanged_except_policy": true,
+  "native_raw_records": 1535,
+  "native_raw_trace_sha256": "97139d0db676bf14e2e14a0b294611687cec3e0860279e4755067c1c13b2c916",
+  "native_storage_order_or_parent_GraphTask_observed": false,
+  "new_gradient_profiler_GPU_proof_paid_or_scientific_work": false,
+  "new_target_source_binding_scope_handoff_or_approval_request": false,
+  "next_local_step": "Prepare saved-return accuracy analysis with original bounds/provenance; no new captures or cohort/native repeats.",
+  "old_candidate_worker_remains_failed": true,
+  "raw_rows_or_fields_changed": false,
+  "reader_bytes": 24232,
+  "reader_copies_or_fills_raw_tags": false,
+  "reader_sha256": "0a5ef4a5dc99b55eb5df6a3af8d11f99dbb18352b4ffab55c310a3f5a0f62622",
+  "result": "PASS",
+  "saved_candidate_assessment": "runs/pretrained/diagnostic/pgd-engine-materialization-v1-20261119/pytest-fixtures-v1/test_saved_candidate_matches_n0/SAVED-CANDIDATE-METADATA-ASSESSMENT.json",
+  "saved_candidate_assessment_sha256": "d532428aa4c48a11f581c737eaa427b7f9fd88ebf173f3852c27c5205537d903",
+  "saved_native_assessment": "runs/pretrained/diagnostic/pgd-engine-materialization-v1-20261119/pytest-fixtures-v1/test_saved_native_retains_prev0/SAVED-NATIVE-METADATA-ASSESSMENT.json",
+  "saved_native_assessment_sha256": "37e0e355647afdcc82c0549c2f24f086faa89f90e02b079352fd7551816ad005",
+  "source_documentation": "docs/predictor_pgd_engine_materialization_v1.md",
+  "source_pins": {
+    "configs/predictor_pgd_engine_materialization_inputs_v1.json": "395c4c496d40ca99d9ef3833aff8363b2a30b36903572159ac2c4c782ae0624a",
+    "models/predictor_pgd_engine_materialization_v1.py": "831f0deffb177e2e55f14fcc0681a169781e398797c94c086aedf3bbef26ed0e",
+    "models/predictor_pgd_split_backend_v4.py": "0a5ef4a5dc99b55eb5df6a3af8d11f99dbb18352b4ffab55c310a3f5a0f62622",
+    "tests/test_predictor_pgd_engine_materialization_v1.py": "4e08859ab2d31fece7c97c59ddf267000deb43d415b16e5f56a9faf5b9dd0452"
+  },
+  "tests": {
+    "all_once": true,
+    "distinct_pass": 29,
+    "executions": 29,
+    "failures": 0,
+    "passing_historical_or_scientific_repeats": 0
+  },
+  "upstream_primary_snapshots": {
+    "collection-full.json": {
+      "Git_blob_sha": "72bffcd8b8cea8d72f2f697cad18b6b1085fb5a4",
+      "content_sha256": "54f3d7fd94efc97e726e77095263463b2506669f8c580b41424efcdbe1e7558a",
+      "request": {
+        "path": "torch/csrc/profiler/collection.cpp",
+        "ref": "v2.8.0",
+        "repository_full_name": "pytorch/pytorch"
+      },
+      "snapshot_sha256": "6b8c08e12d9e9ead18a6f8db4516fb5a005e62472fcdac4fd6f952ac123abc7b",
+      "url": "https://github.com/pytorch/pytorch/blob/v2.8.0/torch/csrc/profiler/collection.cpp"
+    },
+    "profiler-kineto-full.json": {
+      "Git_blob_sha": "17aef05da085ca1072ead819ddd15a7b82500b45",
+      "content_sha256": "af82d65f7c3d1d87d3eaf6bf4c7c9ef42e79d251397569e69bd2ebe41741465c",
+      "request": {
+        "path": "torch/csrc/autograd/profiler_kineto.cpp",
+        "ref": "v2.8.0",
+        "repository_full_name": "pytorch/pytorch"
+      },
+      "snapshot_sha256": "c2eb222c9c577f4db59452c42cdb1d869a1f877b45d557ad585b350146e60abb",
+      "url": "https://github.com/pytorch/pytorch/blob/v2.8.0/torch/csrc/autograd/profiler_kineto.cpp"
+    }
+  }
+}

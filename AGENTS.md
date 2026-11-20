@@ -2,6 +2,95 @@
 
 ## Current stage
 
+LATEST November19: SAVED COMPONENT RETURN ACCURACY REVIEW PASSED.
+Read docs/predictor_pgd_component_returns_v1.md, both component_returns configs,
+report/checks/2026-11-19-pgd-component-returns-v1-local-review.json/md and
+pgd-component-returns-v1-20261119/independent-saved-review-v1.json.
+Preserve ALL earlier uncommitted materialization work and all source/test/audit
+versions, logs, fixtures and old failures. User stages/commits/pushes, NEVER agent.
+
+Local analysis decoded eight pinned NPY arrays and compared four candidate/native
+returns ONCE. Shape1x12x2048x32/786432FP32 each; all finite/nonzero/read-only. All
+four native logical payload hashes EXACT historical original boundary. Forward
+candidate/native files byteEXACT. dQ/dK/dV pass unchangedrtol.002/atol2e-7, zero
+failed elements; maxabs 8.6402e-12/7.45786e-11/2.52385e-11 respectively. Output
+rtol1e-4/atol2e-5 remains; error0. This is ONE selected saved native-relative check,
+NOT canonicalFP64 or general component/full-model/training admission. Agreement
+function and BOUNDS ASTs exact frozen sources. LocalNumPy2.4.6, single CPU thread.
+
+23pinned inputfiles join original selection, source/cotangent/layout, component
+controls/PIDs, route fingerprints, payloads, accepted8gradient/4pair review and
+newbackendmetadata. NO .pt/pickle values decoded, new oracle/model/gradient/profiler/
+GPU/proof/SSH/query/upload/paidwork or oldcohort rerun. New saved-array arithmetic
+DID occur; do not describe this step as metadata-only. Actualanalysis once only,
+no need to repeat it. Original candidateworker/session stillFAILED; no missing
+resource/completion/parent-success created, no targetsource/control/claim changes.
+
+28distinct new checksPASS/28executions first-run; tiny synthetic arrays and saved/
+modifiedmetadata ONLY, not actual NPY calculations. 21negative checks refuse;
+2tiny within-bound+1rejecting numericalfixture. Special-file stat metadata FAKE;
+no new FIFO. Standalone STDauditv1PASS first-run:25968priorhashes/27996fixtureentries,
+23pins/sourceAST/resultjoins; actualarrays NOTdecoded/metrics NOTrecomputed again,
+no project/testcallbacks. OldFIFO LSTATONLY NEVEROPEN. Currentseal innewstage:
+sealed-component-returns-v1.json. Preserve created/before-checks source snapshots.
+
+NEXT LOCAL: consolidate preserved full-model PGD, corrected saved backendmetadata
+and this native-relative value check into a readiness assessment. Identify remaining
+canonical-reference/execution/fullEOT8/freshreplay/performance/study-cost/training
+qualifications; do not silently convert local receipts or failedworkers into
+admission. No completed8gradientcohort/nativecomponent reruns for this review.
+All remote grants CONSUMED. Any new university upload/attempt needs concrete
+reviewed scope and exact separate authorization. No scope/handoff/approvalrequest
+or repeated manualGPUstatuspaste needed for the current saved review. Financial
+project200/compute160/single10 caps+holds/billing unchanged. Earlierentries historical.
+
+LATEST November19: LOCAL ENGINE MATERIALIZATION READER v4 REVIEWED.
+Read docs/predictor_pgd_engine_materialization_v1.md, both materialization configs,
+report/checks/2026-11-19-pgd-engine-materialization-v1-local-review.json/md and
+pgd-engine-materialization-v1-20261119/independent-saved-review-v4.json.
+User stages/commits/pushes NEVERagent. Preserve ALL current/earlier source/test/
+auditor versions/logs/fixtures/oldfailures/results. All university grants CONSUMED.
+No SSH/query/upload/GPU/model/profiler/proof/paidwork, new scope/handoff/approval,
+claimreset/retrieval/cleanup/install/financialholdrelease authorized by this step.
+No manualstatuspaste needed. Original8gradient/4passingpair cohort stays intact.
+
+PinnedPyTorch2.8 collection.cpp442-460 materialize copies adjacent BACKWARD_FUNCTION
+node sequence/forwardtid into preceding engine FUNCTION record; Kineto accessors
+expose these materialized fields. Oldv3 covereddefaultcreation0/-1 ONLY; oldpartial
+collectionsnapshot omittedmethod. Twofullprimarysnapshot Gitblob/contentpins verified.
+No installedwheelcommit/nativeTLSqueueorder/nativeparent/GraphTask authentication.
+
+Coldrecipe derives newlocal backendv4(24232B SHA0a5ef4a5...) fromfrozenv3(2673d507...).
+ONLYPOLICY+_View.bind change; fullbyteinverse/allotherASTexact. Recordeddefault0/-1
+or exactnode-matchingtags+nextrecorded SAMEprocess/thread synchronousfrontendCPU
+node required. CountALLELIGIBLEwrappers beforetagselection; retainunique/directnode,
+typedproducerchain/source/phase/kernel/projection/IO/caps. No rawtagcopy/fill/rewrite,
+rowdrop or name/time-onlyownership. Recordedorder is conservativemetadata signature,
+NOTnativebufferorder. v4 LOCALONLY, not wired into any consumedtarget source/control.
+
+SAVEDcandidate2236rows metadataPASS: outer968/990default; inner1468/1469 2/14,
+1528/1529 2/7,1511/1512 2/9, typedproducers272/1446/1357/1407.9positiveCUDAcorrelation
+witnesses efficientFWD+mathGEMM/softmaxFWD/BWD;33overhead+2GPUannotations retained/
+excluded. Native1535rows receipt IDENTICALexceptpolicy. Oldcandidateworker/session
+remainFAILED: no inventedbackend/resource/complete/parentsuccess. All8returnvalues
+OPAQUE thisstep; no accuracy inferred. No fullEOT8/replay/performance/cost/training.
+
+29distinct NEWmetadata checksPASS/29executions,0fail/0repeats;20negative mutations
+refuse;4explicitmodified/handwrittenpositivefixtures. No PyTorch/NumPy/process/
+signal/timer/network/science. StandaloneSTDauditv4PASS preserves25884priorhashes/
+27882priorfixtureentries; oldFIFO LSTATONLY NEVEROPEN. Auditorv1 omittedlinkedruntime;
+v2wrongoutercontainer;v3expectedmessageinerror-type-onlymarker. Onlyauditcorrected;
+allversions/logskept; production/passingsuites NOTchanged/repeated. Previousauthorized
+handoffdirectory lifecycle exception unchanged. Currentseal innewstage:
+sealed-engine-materialization-v1.json. No new localfixtures modify prior ones.
+
+NEXT LOCALONLY: prepare saved-return component accuracy review/contract using
+originalbounds+provenance. Bothtraces+all8returnfiles alreadylocal; no newcapture,
+completednative rerun or full8gradientcohortrepeat forparserrepair. Keepvaluesopaque
+until explicit nextsaved-analysis implementation step; no silent oldworkerpromotion.
+Executioncompletion/fullEOT8/freshreplay/performance/cost/training still gated.
+Project200/compute160/single10 caps+holds/billing unchanged. Earlierentries historical.
+
 LATEST November19: COMPONENT10614CAPTURE COLLECTED/REVIEWED; GRANT CONSUMED.
 Read report/checks/2026-11-19-pgd-component-operator-v1-target-review.json/md and
 raw target-review-20261119/independent-saved-review.json. UserDone inspectedlocal.

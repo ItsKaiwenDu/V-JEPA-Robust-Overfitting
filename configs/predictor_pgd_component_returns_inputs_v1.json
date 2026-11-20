@@ -1,0 +1,159 @@
+{
+  "bounds": {
+    "dk": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dq": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dv": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "output": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    }
+  },
+  "comparison": "candidate-vs-exact-historical-native-boundary-returns",
+  "date": "2026-11-19",
+  "dtype": "<f4",
+  "files": {
+    "configs/predictor_pgd_engine_materialization_v1.json": {
+      "bytes": 19737,
+      "sha256": "cf68640b7153bf0b29feb32711301f513a9cf858e05551d984c53ed9daf670b8"
+    },
+    "models/attention_saved_evidence.py": {
+      "bytes": 5161,
+      "sha256": "d561f3acf2e247a4191430204c1d2445f7d747fa7fde117117580f79263235c0"
+    },
+    "models/predictor_sdpa_numerical_receipts_v1.py": {
+      "bytes": 4226,
+      "sha256": "bb6b159a71f6d5cc335247b6fa6c6298fe328b1d518190ba529b53cfd1fa92d6"
+    },
+    "report/checks/2026-11-19-pgd-component-operator-v1-target-review.json": {
+      "bytes": 9305,
+      "sha256": "45318db20a419f3f2671be590b3b3fe218f35a2a2ca0f935a37de727eceaa3f2"
+    },
+    "report/checks/2026-11-19-pgd-engine-materialization-v1-local-review.json": {
+      "bytes": 8346,
+      "sha256": "332667b3c9a6902464f75a920fb8c45bed5c37fc0387e4e9e45554de257dc56b"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/dk.npy": {
+      "bytes": 3145856,
+      "sha256": "f25203712d8ee3740efa60f2131133018317f432119bf6693716ef5d8e3ec6cd"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/dq.npy": {
+      "bytes": 3145856,
+      "sha256": "a3a04abe95127a08afe044d623ba004399d5b41f041d5a77877e2fb1cfdafbce"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/dv.npy": {
+      "bytes": 3145856,
+      "sha256": "276133afe76fc743bffd24942585b239b2347922ce56b5d24b62aa324c47e170"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/failed.json": {
+      "bytes": 421,
+      "sha256": "0e64ccca964c0c50caaa9fe649a4e554b1f66b1850c345147af95025a8d6b294"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/output.npy": {
+      "bytes": 3145856,
+      "sha256": "47f0ac9fbba30e14e9b82011f062596c32c05c6fa152aa89d5c1168e73b1c618"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/ownership.json": {
+      "bytes": 4157,
+      "sha256": "e9dcaafc89f73a179be0ed5a78b104d75bcc33dfb38b52337397782d64acbf5e"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/worker.json": {
+      "bytes": 729,
+      "sha256": "ab53d2f5a34227dde71d3a2d5c5383ddbf0313c253b2091f3d266314429bea1d"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/dk.npy": {
+      "bytes": 3145856,
+      "sha256": "c31f6d5017e237d9488ad8ba96f745ddbcf1e5e21eb5224d618c7998f92fb49b"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/dq.npy": {
+      "bytes": 3145856,
+      "sha256": "218dc436f9795ef1014e910c990534eb75a06676b28145595964f0653d864afb"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/dv.npy": {
+      "bytes": 3145856,
+      "sha256": "46e728741ea905d43a9ebb3e0ea44f9bd7e0bf7750b6b5641e81b8f6e4d09134"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/output.npy": {
+      "bytes": 3145856,
+      "sha256": "47f0ac9fbba30e14e9b82011f062596c32c05c6fa152aa89d5c1168e73b1c618"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/ownership.json": {
+      "bytes": 2845,
+      "sha256": "2bae7b2feb0c26f3238db3b07dfbee04114e2f5a77ebc7b191e3aa24f7cf2536"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/worker.json": {
+      "bytes": 6329,
+      "sha256": "6f1cdea1d114cc605103c645cd379f3c12867ae88855c211e97d0fd26e3fea29"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/source/MANIFEST.json": {
+      "bytes": 13480,
+      "sha256": "a7e6740c69f5f3bf8c5fc6b71683296f2c9ebc818b644814b2f37eaf983c0e24"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/source/boundary/boundary.json": {
+      "bytes": 9234,
+      "sha256": "9e4758d2209b9fd989926ee40d2ad92cc4b99aa98c86e6cec0722eaf6a83308d"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/source/provenance/accepted-numerical-review.json": {
+      "bytes": 7914,
+      "sha256": "13d2a40d2a989d9433f042dcf59187f84850ea8294e4ad8f494accda00074c8b"
+    },
+    "runs/pretrained/diagnostic/pgd-engine-materialization-v1-20261119/pytest-fixtures-v1/test_saved_candidate_matches_n0/SAVED-CANDIDATE-METADATA-ASSESSMENT.json": {
+      "bytes": 1166100,
+      "sha256": "d532428aa4c48a11f581c737eaa427b7f9fd88ebf173f3852c27c5205537d903"
+    },
+    "runs/pretrained/diagnostic/pgd-engine-materialization-v1-20261119/pytest-fixtures-v1/test_saved_native_retains_prev0/SAVED-NATIVE-METADATA-ASSESSMENT.json": {
+      "bytes": 3268,
+      "sha256": "37e0e355647afdcc82c0549c2f24f086faa89f90e02b079352fd7551816ad005"
+    }
+  },
+  "full_EOT8_replay_performance_cost_or_training_admitted": false,
+  "historical_failed_worker_promotion": false,
+  "kind": "pgd-component-saved-return-inputs-v1",
+  "metadata": {
+    "accepted_numerical_review": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/source/provenance/accepted-numerical-review.json",
+    "boundary": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/source/boundary/boundary.json",
+    "candidate_assessment": "runs/pretrained/diagnostic/pgd-engine-materialization-v1-20261119/pytest-fixtures-v1/test_saved_candidate_matches_n0/SAVED-CANDIDATE-METADATA-ASSESSMENT.json",
+    "candidate_failed": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/failed.json",
+    "forward_preserving_ownership": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/ownership.json",
+    "forward_preserving_worker": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/worker.json",
+    "manifest": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/source/MANIFEST.json",
+    "metadata_config": "configs/predictor_pgd_engine_materialization_v1.json",
+    "metadata_review": "report/checks/2026-11-19-pgd-engine-materialization-v1-local-review.json",
+    "native_assessment": "runs/pretrained/diagnostic/pgd-engine-materialization-v1-20261119/pytest-fixtures-v1/test_saved_native_retains_prev0/SAVED-NATIVE-METADATA-ASSESSMENT.json",
+    "native_ownership": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/ownership.json",
+    "native_worker": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/worker.json",
+    "target_review": "report/checks/2026-11-19-pgd-component-operator-v1-target-review.json"
+  },
+  "new_model_gradient_or_reference_oracle": false,
+  "preservation_seal": "runs/pretrained/diagnostic/pgd-engine-materialization-v1-20261119/sealed-engine-materialization-v1.json",
+  "preservation_seal_sha256": "aff8de7422941581f8e0eb10712d2ee05788450fe0fab004c6b88a3b419e3025",
+  "remote_work_or_target_authorization": false,
+  "returns": {
+    "forward-preserving": {
+      "dk": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/dk.npy",
+      "dq": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/dq.npy",
+      "dv": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/dv.npy",
+      "output": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/output.npy"
+    },
+    "native": {
+      "dk": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/dk.npy",
+      "dq": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/dq.npy",
+      "dv": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/dv.npy",
+      "output": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/output.npy"
+    }
+  },
+  "shape": [
+    1,
+    12,
+    2048,
+    32
+  ]
+}

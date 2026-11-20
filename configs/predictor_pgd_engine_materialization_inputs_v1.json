@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-19",
+  "files": {
+    "models/predictor_pgd_split_backend_v3.py": {
+      "bytes": 23260,
+      "previously_sealed": true,
+      "sha256": "2673d507c18b1b09a0b269d8740252b217a591b11def52bcf9f22cdca7c5c2c8"
+    },
+    "models/predictor_sdpa_component_events_v1.py": {
+      "bytes": 8268,
+      "previously_sealed": true,
+      "sha256": "c1397e06ca89d1299a7d853e6c88124d1cc7874aae3f5763f018fbc67bd195fc"
+    },
+    "models/predictor_sdpa_component_events_v2.py": {
+      "bytes": 15023,
+      "previously_sealed": true,
+      "sha256": "ebde9c0f32078979cfa5920503004bb79ca697fdc05d7adacbfc59bde41f515a"
+    },
+    "models/predictor_sdpa_launch_evidence_v1.py": {
+      "bytes": 17552,
+      "previously_sealed": true,
+      "sha256": "c9749407f3d237050252ec7e9d4831c901df813a35b3b4a38ad8d693e0e1899f"
+    },
+    "models/predictor_sdpa_launch_evidence_v2.py": {
+      "bytes": 19485,
+      "previously_sealed": true,
+      "sha256": "05f99a96ca34d65c4167cdbd37f97600b14468aa08fbfe5aa9b581b72e5fdddb"
+    },
+    "models/predictor_sdpa_launch_evidence_v3.py": {
+      "bytes": 19602,
+      "previously_sealed": true,
+      "sha256": "d8ca7092b346d3e1ccd9c43a99a4379eba21914a08ced173b692148015010675"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/events.json": {
+      "bytes": 828556,
+      "previously_sealed": true,
+      "sha256": "1e1a2687392e37941ba1ba6d306637f39c5474850602e3d777ff5f36e073d73f"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/failed.json": {
+      "bytes": 421,
+      "previously_sealed": true,
+      "sha256": "0e64ccca964c0c50caaa9fe649a4e554b1f66b1850c345147af95025a8d6b294"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/forward-preserving/worker.json": {
+      "bytes": 729,
+      "previously_sealed": true,
+      "sha256": "ab53d2f5a34227dde71d3a2d5c5383ddbf0313c253b2091f3d266314429bea1d"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/backend.json": {
+      "bytes": 3268,
+      "previously_sealed": true,
+      "sha256": "4bd060d01524a8381c0dc978fd0ff248d3f1e25742df0c581b40ef47ddaa9bc5"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/events.json": {
+      "bytes": 569123,
+      "previously_sealed": true,
+      "sha256": "97139d0db676bf14e2e14a0b294611687cec3e0860279e4755067c1c13b2c916"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/worker.json": {
+      "bytes": 6329,
+      "previously_sealed": true,
+      "sha256": "6f1cdea1d114cc605103c645cd379f3c12867ae88855c211e97d0fd26e3fea29"
+    },
+    "runs/pretrained/diagnostic/pgd-engine-association-v1-20261118/upstream-primary-snapshots/engine_full.json": {
+      "bytes": 69060,
+      "previously_sealed": true,
+      "sha256": "b5fa14da39d49c46aa40ea2af512d627579cf837625f6b653535446aa1f42a4f"
+    },
+    "runs/pretrained/diagnostic/pgd-engine-association-v1-20261118/upstream-primary-snapshots/node.json": {
+      "bytes": 3771,
+      "previously_sealed": true,
+      "sha256": "ccdb38ba18a504840128fe197493b4ffeaa9cec8ce134af2c290f654f799ccde"
+    },
+    "runs/pretrained/diagnostic/pgd-engine-association-v1-20261118/upstream-primary-snapshots/record_full.json": {
+      "bytes": 25711,
+      "previously_sealed": true,
+      "sha256": "433187868c9f66f7b30a606d477ab74a33d44e9b33854c52899c4c6e04264a5e"
+    },
+    "runs/pretrained/diagnostic/pgd-engine-materialization-v1-20261119/upstream-primary-snapshots/collection-full.json": {
+      "bytes": 59762,
+      "previously_sealed": false,
+      "sha256": "6b8c08e12d9e9ead18a6f8db4516fb5a005e62472fcdac4fd6f952ac123abc7b"
+    },
+    "runs/pretrained/diagnostic/pgd-engine-materialization-v1-20261119/upstream-primary-snapshots/profiler-kineto-full.json": {
+      "bytes": 41404,
+      "previously_sealed": false,
+      "sha256": "c2eb222c9c577f4db59452c42cdb1d869a1f877b45d557ad585b350146e60abb"
+    }
+  },
+  "kind": "pytorch28-engine-materialization-local-inputs-v1",
+  "new_scientific_work": false,
+  "preservation_seal": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/target-review-20261119/sealed-component-target-review-v1.json",
+  "preservation_seal_sha256": "7f83b5d80e957d9b61c55099335d4f6cfc6685e94cf6f0069f648a63c6de8d99",
+  "target_binding_scope_or_authorization": false,
+  "tensor_and_array_values_remain_opaque": true
+}

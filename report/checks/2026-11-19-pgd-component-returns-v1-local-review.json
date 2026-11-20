@@ -1,0 +1,215 @@
+{
+  "actual_saved_analysis_executions": 1,
+  "actual_saved_comparisons": 4,
+  "analysis_complete": true,
+  "arrays_decoded": 8,
+  "canonical_FP64_accuracy_qualified": false,
+  "checks": {
+    "dk": {
+      "atol": 2e-07,
+      "failed_elements": 0,
+      "max_absolute_error": 7.457856554538012e-11,
+      "max_tolerance_ratio": 0.0003621051061605147,
+      "passed": true,
+      "relative_l2_error": 6.254645797935905e-06,
+      "rtol": 0.002,
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "dq": {
+      "atol": 2e-07,
+      "failed_elements": 0,
+      "max_absolute_error": 8.640199666842818e-12,
+      "max_tolerance_ratio": 4.141192636807819e-05,
+      "passed": true,
+      "relative_l2_error": 3.6052752255697426e-06,
+      "rtol": 0.002,
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "dv": {
+      "atol": 2e-07,
+      "failed_elements": 0,
+      "max_absolute_error": 2.523847797419876e-11,
+      "max_tolerance_ratio": 0.00012498138492055534,
+      "passed": true,
+      "relative_l2_error": 4.096173862563291e-06,
+      "rtol": 0.002,
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "output": {
+      "atol": 2e-05,
+      "failed_elements": 0,
+      "max_absolute_error": 0.0,
+      "max_tolerance_ratio": 0.0,
+      "passed": true,
+      "relative_l2_error": 0.0,
+      "rtol": 0.0001,
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    }
+  },
+  "comparison": "runs/pretrained/diagnostic/pgd-component-returns-v1-20261119/saved-comparison-v1/comparison.json",
+  "comparison_context": "passing-original; native logical returns exactly match the accepted historical boundary",
+  "comparison_result": "PASS",
+  "comparison_sha256": "b90e0155fdd3d4d29c918bd845ba6b601543f73e64a3897fcda07faca16ae7e9",
+  "completed_eight_gradient_cohort_preserved_without_rerun": true,
+  "context": {
+    "boundary_sha256": "9e4758d2209b9fd989926ee40d2ad92cc4b99aa98c86e6cec0722eaf6a83308d",
+    "candidate_metadata_recipe_matches": true,
+    "identities": {
+      "forward-preserving": {
+        "binding": {
+          "boundary_sha256": "9e4758d2209b9fd989926ee40d2ad92cc4b99aa98c86e6cec0722eaf6a83308d",
+          "control_sha256": "3c0f79953fe52aea62d2f9ea4918d9ba9d507f6a61e33bd30d5ae22754422f73",
+          "design_sha256": "c5daae30cbe4043cf4d5265de2a2a7420d015ab1e244cc3d74fcc93b5f0186af",
+          "probe_index": 1
+        },
+        "historical_worker_complete": false,
+        "pid": 1206275,
+        "route_complete": true
+      },
+      "native": {
+        "binding": {
+          "boundary_sha256": "9e4758d2209b9fd989926ee40d2ad92cc4b99aa98c86e6cec0722eaf6a83308d",
+          "control_sha256": "3c0f79953fe52aea62d2f9ea4918d9ba9d507f6a61e33bd30d5ae22754422f73",
+          "design_sha256": "c5daae30cbe4043cf4d5265de2a2a7420d015ab1e244cc3d74fcc93b5f0186af",
+          "probe_index": 0
+        },
+        "historical_worker_complete": true,
+        "pid": 1206029,
+        "route_complete": true
+      }
+    },
+    "manifest_sha256": "a7e6740c69f5f3bf8c5fc6b71683296f2c9ebc818b644814b2f37eaf983c0e24",
+    "native_exact_historical_logical_returns": true,
+    "old_failed_worker_still_failed": true,
+    "payload_sha256": {
+      "forward-preserving": {
+        "dk": "986ea4142f39db5a9c729fd45c6e54c76c1e03daa758a0e3c7a7ab8254c270c5",
+        "dq": "0d47d9086c2d1c709376e9326de7ac6cb56c8479fec921a7e748f763b9a98c98",
+        "dv": "dc96ae7a1fb8777372f5ed26ac4e0c2bea38d59780a03a1c9f6908dcc08b1f3f",
+        "output": "d5068386663e958a9e9f30885ca213fea8c3ae9a22e0b9d2d0f8b4964793ee9d"
+      },
+      "native": {
+        "dk": "b2caa4618bd626e1ee83813328d741b3293e9b297c364d77900d8ae2dfd9e367",
+        "dq": "e44715f2dc596766a02ca4b0616943136bea1559cea52eff47ff3c06bf47e8e4",
+        "dv": "072b1e774e81a44d089f48b1275eacae1f9a88033f59d0cb327b6bb74a14cbd4",
+        "output": "d5068386663e958a9e9f30885ca213fea8c3ae9a22e0b9d2d0f8b4964793ee9d"
+      }
+    },
+    "source_control_sha256": "fbf7a4806e751b4d4dbaadd953a734444986306eb2304ba39bac1bf1570b8b5b",
+    "source_pid": 919926,
+    "source_selection": {
+      "draw": 0,
+      "family": 0,
+      "forward_row_index": 24,
+      "owner": "predictor.0",
+      "phase": "EOT8-before"
+    }
+  },
+  "current_seal": "runs/pretrained/diagnostic/pgd-component-returns-v1-20261119/sealed-component-returns-v1.json",
+  "date": "2026-11-19",
+  "elements_per_return": 786432,
+  "financial_caps_holds_and_billing_unchanged": true,
+  "forward_logical_bytes_exact": true,
+  "full_EOT8_replay_performance_cost_or_training_admitted": false,
+  "independent_audit": {
+    "first_run_pass": true,
+    "path": "runs/pretrained/diagnostic/pgd-component-returns-v1-20261119/independent-saved-review-v1.json",
+    "program": "runs/pretrained/diagnostic/pgd-component-returns-v1-20261119/independent-saved-review-v1.py",
+    "program_sha256": "2f1bf23efa02b60fb435719f155d3d9e7190eb92e0d72f120c940de2f0bc65d9",
+    "result": {
+      "actual_arrays_decoded_by_this_auditor": 0,
+      "actual_metrics_recomputed_by_this_auditor": false,
+      "all_saved_elementwise_checks_passed": true,
+      "arithmetic_function_AST_identical": true,
+      "canonical_FP64_or_full_EOT8_replay_performance_cost_training_admitted": false,
+      "financial_caps_holds_and_billing_unchanged": true,
+      "forward_file_bytes_exact": true,
+      "historical_failed_worker_still_failed": true,
+      "input_pins": 23,
+      "kind": "pgd-component-returns-v1-independent-stdlib-saved-review",
+      "native_exact_historical_boundary_returns": true,
+      "negative_checks": 21,
+      "new_checks_once": 28,
+      "new_model_gradient_profiler_GPU_or_paid_work": false,
+      "old_FIFO_lstat_only_never_opened": 1,
+      "original_tolerance_AST_identical": true,
+      "prior_fixture_entries": 27996,
+      "prior_regular_hashes": 25968,
+      "project_or_test_callbacks_executed": false,
+      "result": "PASS",
+      "saved_comparisons": 4,
+      "saved_value_analysis_executions": 1
+    },
+    "sha256": "56909f015b1c4397434a2419145b516f7568cd55b90311968c9c4f774592ec2c"
+  },
+  "kind": "pgd-component-saved-return-accuracy-v1-local-review",
+  "maximum_gradient_absolute_error": 7.457856554538012e-11,
+  "native_exact_historical_boundary_returns": true,
+  "native_relative_scope_only": true,
+  "new_model_objective_gradient_profiler_GPU_reference_oracle_or_paid_work": false,
+  "new_remote_scope_handoff_approval_request_or_connection": false,
+  "new_saved_array_analysis": true,
+  "next_local_step": "Consolidate preserved PGD, saved backend and native-relative component value evidence into a readiness assessment; identify remaining reference/execution/full-EOT8/replay/performance gates.",
+  "old_failed_worker_still_failed": true,
+  "old_worker_or_claim_promoted": false,
+  "original_bounds": {
+    "dk": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dq": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dv": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "output": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    }
+  },
+  "original_target_source_control_claim_or_status_changed": false,
+  "review_result": "PASS",
+  "saved_pair_original_bounds_passed": true,
+  "shape": [
+    1,
+    12,
+    2048,
+    32
+  ],
+  "source_pins": {
+    "configs/predictor_pgd_component_returns_inputs_v1.json": "cfe0bade7d7f9a5815cb1326be4fb4793b5bfc6b10e1a2adebf3b5908bdc773e",
+    "models/predictor_pgd_component_returns_v1.py": "c3029c4b19edcab2f45df88330e11d842af516699f72688033d40cce614a1432",
+    "scripts/check_pgd_component_returns_v1.py": "456baad12b871d69044174814fd017304b4b8bae77e69d2f1530a3a3122e1f2e",
+    "tests/test_predictor_pgd_component_returns_v1.py": "e1701fb8f4af7087c71f1ea2e4ccb9bb84961a2a521469c121c1b9656d10fbdb"
+  },
+  "tests": {
+    "all_once": true,
+    "distinct_pass": 28,
+    "executions": 28,
+    "failures": 0,
+    "passing_or_historical_or_actual_saved_value_repeats": 0
+  }
+}

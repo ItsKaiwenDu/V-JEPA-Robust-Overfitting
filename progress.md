@@ -1,5 +1,33 @@
 # Research Progress Reports
 
+November19: saved component values now pass the original native-relative gates.
+One local analysis decoded8existingNPYreturns and made4comparisons: forward byteEXACT,
+dQ/dK/dV zero failed elements, maxabs8.64e-12/7.46e-11/2.52e-11. Allnativepayloads
+match historical original boundaryexactly. Unchanged agreement/BOUNDS ASTs;23input
+pins join source/cotangent/layout/roles/ownership/metadata.28newchecksPASSonce and
+independentSTDauditv1PASSfirst-run preserves25968priorhashes/27996fixtureentries;
+audit doesnot decode/recompute actualvalues. No newmodel/gradient/oracle/GPU/proof/
+university/paidwork or8gradientcohort rerun. Historicalcandidate/session stayFAILED;
+this qualifies one saved native-relative check, not canonicalFP64/fullEOT8/replay/
+performance/cost/training. Next consolidate all saved evidence into readiness/gaps
+assessment. Allprioruncommittedwork and financialcaps/holds preserved. See
+report/checks/2026-11-19-pgd-component-returns-v1-local-review.md.
+
+November19: the local metadata reader now handles PyTorch2.8 profiler materialization,
+which can copy an adjacent node's tags into its preceding engine wrapper. Separate
+v4 changes only association+policy, preserves all raw fields/typedproducer/kernel
+checks, and remains local-only. Savedcandidate2236rows nowmatch:4anchors/9positive
+kernelwitnesses; all33overheads+2GPUannotations retained. Native1535rowassessment
+identicalexceptpolicy. Oldcandidate/session stillFAILED; no completionpromotion.
+29newmetadata checksPASSonce/29executions,20negative mutationsrefuse. Standalone
+STDauditv4PASS preserves25884priorhashes/27882fixtureentries;3audit-only assumptions
+corrected withversions/logs kept, no code/passing-suite changes/repeats. Old8gradient/
+4paircohort unchanged;8componentreturnvalues remainopaque. No university/GPU/science/
+proof/paidwork ornewscope. Next prepare saved-return accuracy review under original
+bounds/provenance; no newcandidatecapture/native/fullcohortrerun for this parserfix.
+FullEOT8/replay/performance/cost/training and financialcaps/holds remain unchanged.
+See report/checks/2026-11-19-pgd-engine-materialization-v1-local-review.md.
+
 November19: the approved component-only10614attempt has fully verified collection:
 122files/82,502,009expandedB and independently reconstructed78,473,943Bwire. Proof
 and nativecomponent complete; native1535rowbackendmetadata passes. Candidate also
