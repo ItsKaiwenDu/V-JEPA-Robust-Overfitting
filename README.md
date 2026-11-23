@@ -1,5 +1,25 @@
 # V-JEPA Robust Overfitting
 
+**Candidate mechanism diagnostic completed (November 23):**
+[The candidate-only university result passes independent review](report/checks/2026-11-23-pgd-candidate-handoff-v1-target-review.md).
+Fresh native-relative values, backend, restoration, resource, parent and collection
+joins complete the declared diagnostic. Next is whole-PGD workload/replay/performance
+qualification. Research training remains gated; the one-attempt grant is consumed.
+Earlier entries are historical snapshots.
+
+**Candidate-only attempt approved and armed (November 23):**
+[Exact authorization, local preflight and independent arming review pass](report/checks/2026-11-23-pgd-candidate-handoff-v1-arming.md).
+The one-attempt grant is unspent. Next is one user-attended Mac launch with VPN;
+no SSH, proof or GPU work has started. Existing scientific/training gates remain.
+Earlier entries are historical snapshots.
+
+**Candidate-only attended scope prepared, unarmed (November 23):**
+[The exact one-attempt package and scope are reviewed](report/checks/2026-11-23-pgd-candidate-handoff-v1-scope.md).
+Twenty new package/CLI/preflight checks pass once, and independent preservation
+review passes. All uploaded worker/supervisor bytes are unchanged. One fresh exact
+approval is required before arming; no SSH, proof or GPU work has started.
+Earlier entries are historical snapshots.
+
 **Candidate supervisor integration reviewed locally (November 23):**
 [The candidate-only supervisor and collector pass 28 new checks](report/checks/2026-11-23-pgd-candidate-operator-v1-local-review.md).
 The unchanged worker and native reference now join source-cache, ownership, clock,

@@ -1,0 +1,93 @@
+{
+  "armed": false,
+  "authorization_created": false,
+  "current_seal": "runs/pretrained/diagnostic/pgd-candidate-handoff-v1-20261123/sealed-candidate-handoff-v1.json",
+  "date": "2026-11-23",
+  "derivation": "runs/pretrained/diagnostic/pgd-candidate-handoff-v1-20261123/cold-adapter-v1/DERIVATION.json",
+  "derivation_sha256": "d4275a34ff12bcfb73a8d4d597dc413ce2453b67e5084d8acd047671a451276c",
+  "execution_binding": null,
+  "financial_caps_holds_and_billing_unchanged": true,
+  "independent_review": "runs/pretrained/diagnostic/pgd-candidate-handoff-v1-20261123/independent-package-review-v1.json",
+  "independent_review_result": "PASS",
+  "independent_review_sha256": "481f38259f51d4e46c758e8d1e265d415c90a68a3db34510bdb9078c3f88f46b",
+  "input_contract": "configs/predictor_pgd_candidate_handoff_inputs_v1.json",
+  "kind": "candidate-only-attended-handoff-v1-local-preparation",
+  "new_ATTEMPT_claim_or_target_work": false,
+  "outer_control_sha256": "24045e50d1db73c39925dbda25ee4a3f5b57eb1132e7a428eb4d3d78be7963db",
+  "package": {
+    "authorization_created": false,
+    "capsule": {
+      "bytes": 27279360,
+      "sha256": "82a30efedfb0e85fd39c634c5bd0a8b82bd839b91bc7259841e2d517d495011e"
+    },
+    "kind": "candidate-only-unarmed-local-package-v1",
+    "local_source_pins": 12,
+    "native_or_completed_cohort_repeats": 0,
+    "native_reference": {
+      "bytes": 13281280,
+      "sha256": "dbaee50b765273f530976e9b8a8301ee055f4e2dc76b006239b4864b306b7d75"
+    },
+    "new_full_model_objectives": 0,
+    "outer_control_sha256": "24045e50d1db73c39925dbda25ee4a3f5b57eb1132e7a428eb4d3d78be7963db",
+    "outer_driver_bytes": 45036,
+    "reference_manifest_sha256": "3dc2484c07c04bb72593c2ee386824edf52b8d80ec0fe3bb803e645714e5d932",
+    "roles": [
+      "proof",
+      "forward-preserving"
+    ],
+    "source_bytes": 754567,
+    "source_envelope_bytes": 1008194,
+    "source_files": 45,
+    "supervised_control_sha256": "0be5267678bbd45a63649b1dc39429ee9a2543e6cf305e1355260b7a0925f99c",
+    "target_or_scientific_work": false,
+    "training_admitted": false
+  },
+  "package_files_sha256": {
+    "CONTROL-CANDIDATE.json": "24045e50d1db73c39925dbda25ee4a3f5b57eb1132e7a428eb4d3d78be7963db",
+    "PACKAGE.json": "f9ad2884a84b81f62d86620beec037471fec1550e8cb4e759e1c4d4e900c3731",
+    "SOURCE-PAYLOAD.json": "7c9265376168d0f71ff886360808c7bd9957243de0e58d2d39f07a89b07e99fa",
+    "known-hosts": "a033b9814461ec34179d2f8eae91b5bfe410b23c105cbe3c87ff1722bcf7d674"
+  },
+  "pinned_inputs": 22,
+  "prior_native_PGD_clean_cohorts_and_candidate_failure_preserved": true,
+  "prior_preservation": {
+    "FIFO_lstat_only_never_opened": true,
+    "device": 16777233,
+    "existing_device_observation_reused_conditionally": true,
+    "fixture_entries": 33227,
+    "hashes": 30080
+  },
+  "report_kind": "candidate-only-handoff-v1-local-review",
+  "scope": "report/checks/2026-11-23-pgd-candidate-handoff-v1-scope.json",
+  "scope_sha256": "548ad88ef7ee0235201aef53de483fc1b9f33a4b4f73aa7e40e97ccb9ad12337",
+  "source_pins": {
+    "configs/predictor_pgd_candidate_handoff_inputs_v1.json": "04794823394e5306e85cf3b6580f1c2585c7d188ef6fb4e827c037c1ab4d2e3a",
+    "configs/predictor_pgd_candidate_operator_inputs_v2.json": "54ccc4bb05f54adc45e14829221543aee4d8ab6166700b4a792ea10f2b2b36e4",
+    "models/__init__.py": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5",
+    "models/predictor_pgd_candidate_bootstrap_v1.py": "9a15d0590184c3dc62f8e8a4c5d05c687e7fcfbaefef7e411b3321cf6c5d75f7",
+    "models/predictor_pgd_candidate_collection_v1.py": "e267b99805b3f2300495696f6b961bb88f7257c237d9829041f0173d76fc14a4",
+    "models/predictor_pgd_candidate_handoff_client_v1.py": "ac1fb80153d4ce0449fd327c879e37740889455b6a229b461dd173770ebe9cb9",
+    "models/predictor_pgd_candidate_handoff_outer_v1.py": "f075bda94ad104c2e0c2cbb013b763bb6151719ea680c7d4741beeb21d6fda6b",
+    "models/predictor_pgd_candidate_handoff_v1.py": "79c698e06be25dc1b5f07fec542f7adc2a02bf18b0ca4c3a97a0c0055f43ea70",
+    "models/predictor_pgd_candidate_operator_v1.py": "4f733841f3474de4339bcd8f9696044ca8818cb307006bf4a9ba0b65499bae5e",
+    "models/predictor_pgd_candidate_scratch_v1.py": "c4e2c62ec5f1d78c9afc2fd314cb34c559392633e1a55cfdb5a20afad754511e",
+    "models/predictor_pgd_split_plan_v1.py": "cdd2729d2f05782d269a45aa4c22412dcff7b9c5d684267550eb16f59c838ba6",
+    "scripts/run_predictor_pgd_candidate_v1.py": "bd54e83ae0445fd06c47ec1ccbd46f288a2a276817f72df1b7dfde3f5f43f5b2",
+    "tests/test_predictor_pgd_candidate_handoff_v1.py": "b4a34ffd2a8a561e95a33a38820996d43520e13a1f524dad6bc2f3f619458759"
+  },
+  "starting_commit": "a1ee8e9",
+  "status": "reviewed-unarmed-awaiting-one-new-exact-approval",
+  "supervised_control_sha256": "0be5267678bbd45a63649b1dc39429ee9a2543e6cf305e1355260b7a0925f99c",
+  "tests": {
+    "actual_process_timer_signal_GPU_proof_science_array_decode_or_network": false,
+    "all_first_run": true,
+    "distinct_pass": 20,
+    "executions": 20,
+    "failures": 0,
+    "historical_or_passing_nodes_repeated": 0,
+    "positive_client_preflight_uses_explicit_fake_grant_only": true
+  },
+  "training_admitted": false,
+  "unarmed_handoff": "runs/pretrained/diagnostic/pgd-candidate-handoff-v1-20261123/handoff-parent/linux10614-candidate-final-unarmed",
+  "uploaded_source_or_supervised_control_changes": false
+}

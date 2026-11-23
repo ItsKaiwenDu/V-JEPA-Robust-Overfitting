@@ -1,0 +1,340 @@
+{
+  "SSH_exit_status": 0,
+  "actual_forced_timeout_or_exhaustive_process_ownership_tested": false,
+  "approved_lifecycle_observation": "runs/pretrained/diagnostic/pgd-candidate-handoff-v1-20261123/target-review-20261123/AUTHORIZED-LIFECYCLE-v1.json",
+  "audit_result": "PASS",
+  "authorized_lifecycle_directory_changes": 1,
+  "candidate_backend_policy": "pgd-pytorch28-materialized-wrapper-typed-producer-metadata-v4",
+  "candidate_complete": true,
+  "candidate_correlated_kernel_witnesses": 9,
+  "candidate_engine_anchors": [
+    {
+      "engine_index": 968,
+      "engine_tags": [
+        0,
+        -1
+      ],
+      "node_index": 990,
+      "node_tags": [
+        1,
+        0
+      ],
+      "producer_index": 272,
+      "recorded_next_same_thread_required": false,
+      "stage": "custom-outer"
+    },
+    {
+      "engine_index": 1468,
+      "engine_tags": [
+        2,
+        14
+      ],
+      "node_index": 1469,
+      "node_tags": [
+        2,
+        14
+      ],
+      "producer_index": 1446,
+      "recorded_next_same_thread_required": true,
+      "stage": "inner-matrix"
+    },
+    {
+      "engine_index": 1527,
+      "engine_tags": [
+        2,
+        7
+      ],
+      "node_index": 1528,
+      "node_tags": [
+        2,
+        7
+      ],
+      "producer_index": 1357,
+      "recorded_next_same_thread_required": true,
+      "stage": "inner-matrix"
+    },
+    {
+      "engine_index": 1511,
+      "engine_tags": [
+        2,
+        9
+      ],
+      "node_index": 1512,
+      "node_tags": [
+        2,
+        9
+      ],
+      "producer_index": 1407,
+      "recorded_next_same_thread_required": true,
+      "stage": "inner-softmax"
+    }
+  ],
+  "candidate_forward_file_bytes_exact_native": true,
+  "candidate_inner_root_calls": 1,
+  "candidate_kernel_groups": [
+    "efficient-forward",
+    "math-GEMM-backward",
+    "math-GEMM-forward",
+    "math-softmax-backward",
+    "math-softmax-forward"
+  ],
+  "candidate_outer_and_inner_leaf_hooks_each": 3,
+  "candidate_outer_root_calls": 1,
+  "candidate_parent_RSS_samples": 67,
+  "candidate_parent_wall_seconds": 9.535348956938833,
+  "candidate_peak_allocator_bytes": 873463808,
+  "candidate_peak_observed_RSS_bytes": 1193832448,
+  "candidate_phases_returned": 23,
+  "candidate_pid": 1645944,
+  "candidate_progress_rows": 47,
+  "candidate_raw_records": 2236,
+  "candidate_raw_trace_sha256": "39c189729d5893244594f5f57d4de66408ba1e9f64bd9fc191b4f264711f40aa",
+  "candidate_resource_wall_seconds": 4.871731995954178,
+  "candidate_return_headers_and_payload_byte_hashes": {
+    "dk": {
+      "bytes": 3145856,
+      "dtype": "<f4",
+      "file_sha256": "f25203712d8ee3740efa60f2131133018317f432119bf6693716ef5d8e3ec6cd",
+      "header_bytes": 128,
+      "payload_sha256": "986ea4142f39db5a9c729fd45c6e54c76c1e03daa758a0e3c7a7ab8254c270c5",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "dq": {
+      "bytes": 3145856,
+      "dtype": "<f4",
+      "file_sha256": "a3a04abe95127a08afe044d623ba004399d5b41f041d5a77877e2fb1cfdafbce",
+      "header_bytes": 128,
+      "payload_sha256": "0d47d9086c2d1c709376e9326de7ac6cb56c8479fec921a7e748f763b9a98c98",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "dv": {
+      "bytes": 3145856,
+      "dtype": "<f4",
+      "file_sha256": "276133afe76fc743bffd24942585b239b2347922ce56b5d24b62aa324c47e170",
+      "header_bytes": 128,
+      "payload_sha256": "dc96ae7a1fb8777372f5ed26ac4e0c2bea38d59780a03a1c9f6908dcc08b1f3f",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "output": {
+      "bytes": 3145856,
+      "dtype": "<f4",
+      "file_sha256": "47f0ac9fbba30e14e9b82011f062596c32c05c6fa152aa89d5c1168e73b1c618",
+      "header_bytes": 128,
+      "payload_sha256": "d5068386663e958a9e9f30885ca213fea8c3ae9a22e0b9d2d0f8b4964793ee9d",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    }
+  },
+  "candidate_worker_wall_seconds": 4.863918574992567,
+  "closure_scope": "Declared selected perturbed-boundary candidate mechanism diagnostic, with accepted eight-gradient/four-pair PGD and completed native reference retained.",
+  "collected_files": 134,
+  "current_seal": "runs/pretrained/diagnostic/pgd-candidate-handoff-v1-20261123/target-review-20261123/sealed-candidate-target-review-v1.json",
+  "date": "2026-11-23",
+  "deduplicated_bytes": 4126030,
+  "expanded_bytes": 95918135,
+  "financial_caps_holds_and_billing_unchanged": true,
+  "full_EOT8_perturbed_FP64_rollout_replay_performance_hardware_cost_or_training_admitted": false,
+  "grant_consumed": true,
+  "historical_candidate_failure_and_all_prior_claims_preserved": true,
+  "independent_program": "runs/pretrained/diagnostic/pgd-candidate-handoff-v1-20261123/target-review-20261123/independent-saved-review-v1.py",
+  "independent_program_sha256": "af30114c2137445ad92fb21ae1910d0bb053ed39ecd62e2c969b357eed82dac7",
+  "independent_review": "runs/pretrained/diagnostic/pgd-candidate-handoff-v1-20261123/target-review-20261123/independent-saved-review-v1.json",
+  "independent_review_sha256": "5392ab4bd2527c1d7f1b53b66323116e6529847bef7db9da3e3e56a75687b52c",
+  "journal_rows_verified": 134,
+  "kind": "candidate-only-attended-target-independent-saved-review-v1",
+  "local_array_tensor_values_decoded_or_numerically_recompared": false,
+  "local_project_test_scientific_or_execution_callbacks": false,
+  "local_review_standard_library_only": true,
+  "mechanism_diagnostic_closed": true,
+  "native_exact_historical_boundary_payloads": true,
+  "native_or_completed_cohort_reruns": 0,
+  "native_reference_manifest_sha256": "3dc2484c07c04bb72593c2ee386824edf52b8d80ec0fe3bb803e645714e5d932",
+  "native_return_headers_and_payload_byte_hashes": {
+    "dk": {
+      "bytes": 3145856,
+      "dtype": "<f4",
+      "file_sha256": "c31f6d5017e237d9488ad8ba96f745ddbcf1e5e21eb5224d618c7998f92fb49b",
+      "header_bytes": 128,
+      "payload_sha256": "b2caa4618bd626e1ee83813328d741b3293e9b297c364d77900d8ae2dfd9e367",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "dq": {
+      "bytes": 3145856,
+      "dtype": "<f4",
+      "file_sha256": "218dc436f9795ef1014e910c990534eb75a06676b28145595964f0653d864afb",
+      "header_bytes": 128,
+      "payload_sha256": "e44715f2dc596766a02ca4b0616943136bea1559cea52eff47ff3c06bf47e8e4",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "dv": {
+      "bytes": 3145856,
+      "dtype": "<f4",
+      "file_sha256": "46e728741ea905d43a9ebb3e0ea44f9bd7e0bf7750b6b5641e81b8f6e4d09134",
+      "header_bytes": 128,
+      "payload_sha256": "072b1e774e81a44d089f48b1275eacae1f9a88033f59d0cb327b6bb74a14cbd4",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "output": {
+      "bytes": 3145856,
+      "dtype": "<f4",
+      "file_sha256": "47f0ac9fbba30e14e9b82011f062596c32c05c6fa152aa89d5c1168e73b1c618",
+      "header_bytes": 128,
+      "payload_sha256": "d5068386663e958a9e9f30885ca213fea8c3ae9a22e0b9d2d0f8b4964793ee9d",
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    }
+  },
+  "new_FP64_reference_or_full_model_trace": false,
+  "new_SSH_query_upload_GPU_proof_process_signal_timer_or_paid_work_by_reviewer": false,
+  "new_full_model_objectives": 0,
+  "next_local_only": "Plan and implement opt-in whole-PGD workload/replay/performance qualification using this input-gradient candidate; retain trainingPGD5EOT1/routineEOT1/parameter backward and existing policy registry. No completed cohort repeat or additional FP64/full-model trace prerequisite for this closed mechanism diagnostic.",
+  "old_FIFO_lstat_only_never_opened": 1,
+  "old_partial_and_work_collection_flags_preserved": true,
+  "outer_control_sha256": "24045e50d1db73c39925dbda25ee4a3f5b57eb1132e7a428eb4d3d78be7963db",
+  "payload_bytes": 91792105,
+  "prior_fixture_entries_verified": 33663,
+  "prior_hashes_preserved": 30388,
+  "production_admission_flags_or_saved_results_rewritten": false,
+  "restoration_and_route_close_verified": true,
+  "result": "VERIFIED_CANDIDATE_COMPONENT_COMPLETE_MECHANISM_DIAGNOSTIC_CLOSED",
+  "retained_GPU_annotation_rows": 2,
+  "retained_overhead_rows": 33,
+  "saved_parent_sampling_is_kernel_quota": false,
+  "saved_roles_completed": [
+    "proof",
+    "forward-preserving"
+  ],
+  "saved_session_phase": "await-collection",
+  "storage_proof_bytes_written_and_read_back": 2684354560,
+  "storage_proof_event_rows": 1926,
+  "storage_proof_peak_allocated_bytes": 2783895552,
+  "storage_proof_wall_seconds": 12.663704235921614,
+  "supervised_control_sha256": "0be5267678bbd45a63649b1dc39429ee9a2543e6cf305e1355260b7a0925f99c",
+  "target_GPU_UUID": "GPU-c7a30a6f-08fb-371f-41b3-86a13a1a632d",
+  "target_GPU_model": "NVIDIA GeForce RTX 3070",
+  "target_saved_accuracy_passed": true,
+  "target_saved_fresh_native_relative_checks": {
+    "dk": {
+      "atol": 2e-07,
+      "failed_elements": 0,
+      "max_absolute_error": 7.457856554538012e-11,
+      "max_tolerance_ratio": 0.0003621051061605147,
+      "passed": true,
+      "relative_l2_error": 6.254645797935902e-06,
+      "rtol": 0.002,
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "dq": {
+      "atol": 2e-07,
+      "failed_elements": 0,
+      "max_absolute_error": 8.640199666842818e-12,
+      "max_tolerance_ratio": 4.141192636807819e-05,
+      "passed": true,
+      "relative_l2_error": 3.6052752255697417e-06,
+      "rtol": 0.002,
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "dv": {
+      "atol": 2e-07,
+      "failed_elements": 0,
+      "max_absolute_error": 2.523847797419876e-11,
+      "max_tolerance_ratio": 0.00012498138492055534,
+      "passed": true,
+      "relative_l2_error": 4.0961738625632906e-06,
+      "rtol": 0.002,
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    },
+    "output": {
+      "atol": 2e-05,
+      "failed_elements": 0,
+      "max_absolute_error": 0.0,
+      "max_tolerance_ratio": 0.0,
+      "passed": true,
+      "relative_l2_error": 0.0,
+      "rtol": 0.0001,
+      "shape": [
+        1,
+        12,
+        2048,
+        32
+      ]
+    }
+  },
+  "target_saved_original_bounds": {
+    "dk": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dq": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "dv": {
+      "atol": 2e-07,
+      "rtol": 0.002
+    },
+    "output": {
+      "atol": 2e-05,
+      "rtol": 0.0001
+    }
+  },
+  "target_scope": "One selected perturbed-boundary candidate forward/outer VJP and one inner public-math VJP, after full proof; no native/full-model/cohort repeat.",
+  "training_admitted": false,
+  "transport_verified": true,
+  "uploaded_sources_verified": 45,
+  "wire_bytes_independently_reconstructed": 91865380,
+  "wire_sha256_independently_reconstructed": "d770b9316c78e4223ca23e5cd94bbecf0c98f7ee4e1e2682a58bac19eccb3810"
+}

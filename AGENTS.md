@@ -2,6 +2,195 @@
 
 ## Current stage
 
+LATEST November23: CANDIDATE-ONLY10614 COMPLETES; MECHANISM DIAGNOSTIC CLOSED.
+Read report/checks/2026-11-23-pgd-candidate-handoff-v1-target-review.json/md and
+ docs/predictor_pgd_mechanism_completion_20261123.md. Raw target-review-20261123
+inside pgd-candidate-handoff-v1-20261123; independent-saved-review-v1 PASS first-run.
+UserDone inspected bound local ATTEMPT/session/errors FIRST. This exactgrant now
+CONSUMED; all universitygrants consumed. No SSH/query/upload/retry/retrieval/GPU/
+proof/paidwork, new scope/handoff/approvalrequest or repeatedmanualpaste fromreview.
+User stages/commits/pushes NEVER agent. Preserve ALL prior uncommitted handoff+
+arming/source/test/auditor/fixtures/logs/results/failures/claims and this evidence.
+Attendedcommand ended SSH_EXIT0; MacTerminal neednot stayopen for completedcommand.
+
+Outer24045e50d1db73c39925dbda25ee4a3f5b57eb1132e7a428eb4d3d78be7963db;
+supervised0be5267678bbd45a63649b1dc39429ee9a2543e6cf305e1355260b7a0925f99c.
+ACTUAL full2.5GiBproofPASS:12.663704s/2783895552Bpeak/1926events, parent13.025070s.
+CandidatePID1645944 COMPLETE:23phases/47progressrows, ownsource/reference/route/
+backend/FRESHaccuracy/restoration/resource/complete/parent joins.1outerroot+1innerroot,
+3leafhooks each closed; originalQ/K/V/cotangent/layout and flags restored.0native
+workers/0newfullobjectives/0completedPGD-clean-cohort repeats/0newFP64/fullmodeltrace.
+Actual worker4.863919s/resource4.871732s, parent9.535349s/RSS1193832448B/67samples,
+allocator873463808B, inside120s/4GiB/7GiB. Sampled observations NOTinstantaneousquota,
+exhaustiveprocessproof/forcedtimeout or completeattackperformance qualification.
+
+Reviewed backendv4 matches2236rawrecords,4typedanchors/9positiveCUDAcorrelations;
+all33overheads+2GPUannotations retained/excluded. Newactual secondBmm engine/node
+1527/1528 (NOTold1528/1529); 1468/1469tags2/14,1511/1512tags2/9 and1527/1528tags2/7.
+Outer968/990generic0/-1. Rawfields/counters/correlations unchanged, no tagfill/rowdrop.
+No nativeparent/GraphTask/TLSqueue/installedwheelcommit authentication claimed.
+ActualtargetNumPy2.4.6 checks4freshcandidate/native returns ONCE: allshape1x12x2048x32
+FP32/786432elements each; originalbounds output1e-4/2e-5, dQKV.002/2e-7, zero failures.
+ForwardFILEbytes nativeEXACT. Saved dQ/dK/dV maxabs8.640199666842818e-12/
+7.457856554538012e-11/2.523847797419876e-11. Nativepayloads exacthistoricalboundary;
+acceptednative worker/resource/parent+PGD8gradient4pair provenance read-only.
+LOCALreview NPYheaders/payloadhashes+savedmetric fields ONLY; no actualvalues decoded/
+compared again, no NumPy/Torch/model/gradient/profiler/test/project callbacks.
+This target DID run approvedcomponent/arrayaccuracy; don'tcall targetmetadata-only.
+
+Completecollection134privatefiles/95918135expandedB/91865380wireB/4126030dedupB;
+134journalrows. IndependentwireSHA d770b9316c78e4223ca23e5cd94bbecf0c98f7ee4e1e2682a58bac19eccb3810.
+All45sources/controls/grants/installation/archives/reference/proof/worker/parent/
+clocks join. Sessionawait-collection/completeFALSE, workcollectionFALSE andpartial
+journalFALSE stayunchanged; separate terminaltransportTRUE. No recordpromotion.
+STDauditv1PASS first-run:30388oldhashes/33663fixtureentries, oldFIFO LSTATONLY
+NEVEROPEN. Exactapproved package lifecycle AUTH+ATTEMPT+session changesAPFSnlink
+6->7->9/mtime only; device33/inode44809797/uid/mode+old5hashes fixed. Oldcomponent
+exception unchanged. Localdevice33 conditionalpriorobservation; no targetdevice
+mapping/oldrecord rewrite. Currentseal sealed-candidate-target-review-v1.json.
+
+CLOSE declared split mechanism diagnostic using preserved8gradient/4pair numerical
+result+completednative+THISnewcandidate completechain. Oldcandidate/session FAILED
+statuses stayFAILED. Production scientific/admission flags remainFALSE; no implicit
+training/policy adoption. No further parserloop withoutactualnewfailure; don'tadd
+newFP64/fullmodeltrace or repeatcompletednative/PGD/clean cohorts toclose this gate.
+CleanFP64 remainsclosed atdifferentboundary; perturbednative-relativebasis explicit.
+
+NEXT LOCALONLY: prepare opt-in input-gradient whole-PGD workload/replay/performance
+qualification path withsmall independent local controls. Need relevant perturbed
+rollout replay +primary/convergence units withoriginalstarts/projection/no-grad
+scoring/selection/restoration andmatchedcompleteunit timing/explicitoverhead.
+Thenchosenhardware memory/exactrecovery, completeeconomics/financialreconciliation,
+30training-onlyEOT8calibrationevals/10clips, data/near-duplicate/protocol/adoption lock.
+Do not run research/training or anotheruniversityscope fromthisreview. Training
+PGD5EOT1/routineEOT1/parameterupdatebackward/policyregistry/studyYAML unchanged.
+Project200/compute160/noncompute40/single10caps+holds/billing unchanged; Oct29
+wallet/encumbrance historical NOTfreshquote/balance. Earlier entries historical.
+
+LATEST November23: CANDIDATE-ONLY10614 APPROVAL ACCEPTED; ARMED/UNSPENT.
+Read report/checks/2026-11-23-pgd-candidate-handoff-v1-arming.json/md and exactscope.
+User wrote "I approve." directly after exactoneattempt24045e50...approval request.
+This NEW grant is ARMED+UNSPENT. DO NOTASKAGAIN; no repeatedmanualGPU/keypaste.
+All earlier grants CONSUMED is historical and excludes this newlyapproved grant.
+No ATTEMPT.json/attended-session/SSH/upload/GPU/model/proof/paidwork has started.
+User stages/commits/pushes NEVER agent. Preserve ALL prior uncommitted handoff
+work, old/new sources/tests/auditors/logs/fixtures/failures/results/claims.
+
+Package MUST KEEP exact name/path:
+pgd-candidate-handoff-v1-20261123/handoff-parent/linux10614-candidate-final-unarmed.
+Outer24045e50d1db73c39925dbda25ee4a3f5b57eb1132e7a428eb4d3d78be7963db;
+supervised0be5267678bbd45a63649b1dc39429ee9a2543e6cf305e1355260b7a0925f99c.
+AUTHORIZATION.json1281B SHA c1ebed1a4c6d6a51979f8e31bf19ff8c9769d8537c9780eda8d7caeb442f158a
+created via exactouter.authorization and ONE O_EXCLappend. No source/control/
+package rewrite, re-approval, claimreset or extraattempt. Source binding stillNULL.
+Actual local NEW client.check_local PASS12pins/45sources/754567B +45036Bouter +
+27279360Bcapsule +13281280Bnative-reference. No timer/SSH/process/science work.
+20prior package checks+28operator checks inherited NOT rerun. No model/cohort repeat.
+
+Arming rawstage pgd-candidate-handoff-v1-20261123/arming-20261123 holds userbasis,
+directorybaseline, AUTHORIZED-APPEND, realpreflight, standaloneSTDreviewv1 PASS.
+30361priorhashes/33640fixtureentries exact, FIFO LSTATONLY NEVEROPEN. ONE authorized
+newdirectory exception: fixed device33/inode/uid/gid/mode and allold4file hashes/
+statfields; AUTHappend changes APFSnlink6->7+mtime only. Old component directory
+append exception remains separate and unchanged. Currentseal sealed-candidate-arming-v1.json.
+Currentlocaldevice33 matches priorreviewedobservation conditional only; never mapto
+universitydevice. If currentdevice changesagain record/review, no silent default.
+No tests/project/science callbacks in standaloneaudit; no values decoded/recomputed.
+
+NEXT USER ACTION: connectVPN then run ONE attended MacTerminal command via
+caffeinate -i <repo>/.venv/bin/python -I -B <repo>/scripts/run_predictor_pgd_candidate_v1.py
+<EXACTABSOLUTEBOUNDPACKAGE>. CLI supports cwd independence under-I. KeepMac/lid/
+Terminal awake and enteruniversitypassword atprompt. Up to50min incllogin; full
+2.5GiBproof60s thenONEcandidate120s, 40minwork+10min SAME-SSHcollection. Original
+3GiBsetup/2.25capture/3response/raw1792MiB/meta64incltrace8/GPU7GiB/RSS4GiB+all
+source/layout/numerical/backend/ownership/storage/GPU/clocks retained.0native,
+0newfullobjectives,0completedPGD/clean repeats,0warmups/0newFP64/fulltrace. User-attended
+launch ONLY, NEVER agent-run SSH. Refusal consumes onegrant; failure stopslaterroles.
+No retries/separateretrieval/oldcleanup/install/oldclaimreset/private-key/heldout/
+checkpointupload/paidcompute/financialholdrelease. OnDone/error inspect boundlocal
+ATTEMPT+attended-session/errors FIRST, never repeatcommand or infer success. Future
+same approvedlaunch may append ATTEMPT.json+attended-session in that package,
+changing its directory nlink/mtime; record exact actual lifecycle joins, keep allold
+filehashes/source fixed and don't blanket-waive other fixture changes.
+
+No actual candidate/backend/value/resource/completion/parentwall-RSS qualification
+or training/fullEOT8/replay/performance/cost admission. Oldfailedcandidate staysFAILED;
+closed native/8gradient4pair/clean cohorts preserved. Successfulfuturecandidate needs
+own reference/source/route/backend/FRESHvalue/restoration/resource/complete/parent/
+collection joins; then CLOSEmechanismdiagnostic and qualifywholeworkload. Training
+PGD5EOT1/routineEOT1/parameterbackward/policyregistry unchanged. Project200/compute160/
+noncompute40/single10caps+holds+billing unchanged; Oct29snapshot historical NOTfresh.
+Earlier entries historical.
+
+LATEST November23: EXACT CANDIDATE-ONLY10614 SCOPE/PACKAGE REVIEWED; UNARMED.
+Read docs/predictor_pgd_candidate_handoff_v1.md, both candidate_handoff configs and
+report/checks/2026-11-23-pgd-candidate-handoff-v1-local-review.json/md +scope.json/md.
+Raw pgd-candidate-handoff-v1-20261123, independent-package-review-v1 PASS.
+User stages/commits/pushes NEVER agent. Preserve ALL old/new source/test/auditor,
+fixtures/logs/failures/results/claims. Clean user commit a1ee8e9 at start. All old
+university grants CONSUMED. This step prepares scope/package ONLY. No actual new
+approval/authorization/arming/ATTEMPT/SSH/query/upload/model/GPU/proof/paid work.
+No repeated manual GPU/keypaste. No actual tensor/array values decode/comparison.
+
+Package MUST KEEP exact name/path:
+pgd-candidate-handoff-v1-20261123/handoff-parent/linux10614-candidate-final-unarmed.
+Outer control24045e50d1db73c39925dbda25ee4a3f5b57eb1132e7a428eb4d3d78be7963db.
+Supervised0be5267678bbd45a63649b1dc39429ee9a2543e6cf305e1355260b7a0925f99c.
+Four private0600 files/control+sourcepayload+known-hosts+PACKAGE under0700 parents;
+NO AUTHORIZATION.json/ATTEMPT.json/attended-session.45sources/754567B +unchanged
+27279360Bcapsule +13281280Bnative-reference; outer45036B. All45 uploads/supervised
+control exact reviewed bytes. New handoff outer changes ONLYLOCAL_SOURCES12pins;
+client ONLYouter import; isolated CLI ONLYclient import. Wholebyte inverses3.
+Old sealed operator/helper/worker/cache/proof/monitor/supervisor sources untouched.
+
+22inputpins/12localpins.20new checksPASS/20executions FIRST-RUN,0fail,0repeats;
+prior28operator checks inherited NOT rerun. Actualunarmedreader verifies4files
+withoutfakegrant. Positiveclientpreflight/CLI dispatch useexplicitFAKEgrant/ports
+infixturecopies ONLY; no actual timer/process/PIDFD/signal/thread/GPU/network/proof/
+Torch/NumPy/array/model/gradient/profiler activity. Localbytes/metadata checks only.
+STDauditv1PASS first-run:30080priorhashes/33227priorfixtureentries/22pins/3inverses/
+12locals/45sources/botharchives/scope/caps/CLI/testhistory. No project/test callbacks.
+OldFIFO LSTATONLY NEVEROPEN. Currentdevice33 matches prior reviewed localobservation;
+reuse conditional only; cause/historicalphysicalvolume sameness stillUNPROVEN.
+All original device records/targetguards unchanged. If changesagain record/review.
+Currentseal sealed-candidate-handoff-v1.json.
+
+EXACT PROPOSED SCOPE: ONE attendedlinux10614 attempt, full2.5GiBproof60s then ONE
+candidateforward/outerVJP +oneinnermathVJP within120s.0native reruns/0newfullmodel
+objectives/0completedPGD/clean repeats/0warmups/0newFP64/fulltrace.40minworkinclsetup/
+proof +10min SAME-SSHcollection,50total incllogin; originalsetup180/collectionprep120,
+3GiBsetup/2.25capture/3response/raw1792MiB/meta64incltrace8/GPU7GiB/RSS4GiB limits.
+Strict source/layout/numerical/backend/ownership/storage/GPU/clocks unchanged.
+Refusal consumes oneattempt; failure stopslaterroles. No retry/separate retrieval/
+oldcleanup/installation/privatekey-checkpoint-heldoutupload/oldclaimreset/paidwork/
+financialholdrelease. Only proof-owned successfultempremoval+heldownedcleanup.
+No currentavailability/reservation claimed. Financialcaps/holds unchanged.
+
+NEXT: request ONE exact scoped approval of reviewed24045e50... package.
+One new exact scoped approval is required before arming or university work.
+If approved, DO NOTaskagain. Use NEW handoff outer.authorization(c,csha,user_basis)
+and O_EXCL append AUTHORIZATION.json once; never rewrite control/package/source/path.
+Before append record exact oldpackage-directory lstat+row/filehashes in NEW arming
+stage; record narrowly authorized AUTHappend metadata exception, keeping inode/
+uid/mode/alloldfilehashes fixed (APFSnlink/mtime may change). Old authorized directory
+exception remains separate. Run NEW handoff client.check_local on realpackage
+LOCALLY only, then independently review arming. Source execution binding staysNULL
+until authenticated futurechild dispatch. NEVER agent-run SSH. After valid approval
+and arming/preflight provide ONEattended Maccommand via run_predictor_pgd_candidate_v1.py
+using -I -B and exact ABSOLUTEboundpackage; keep VPN/Mac/lid/Terminal awake and user
+password prompt attended, <=50min incllogin. No repeatedmanualstatus/keypaste.
+AfterDone/error inspectboundlocalATTEMPT+attended-session/errors FIRST, neverrepeat
+command/resetclaim orinfer success. Any freshuserapproval persists; don'tasktwice.
+
+Oldfailedcandidate staysFAILED; completednative/8gradient4pair/clean cohorts CLOSED.
+Actualfuturecandidate needs reference/source/route/backend/FRESHvalue/restoration/
+resource/complete/parentwall-RSS/collection joins; then CLOSEmechanismdiagnostic.
+Broaderworkload/replay/performance/hardware/recovery/economics/calibration/protocol/
+training gated; no newFP64/fulltrace as lifecycle prerequisite. TrainingPGD5EOT1,
+routineEOT1/parameterupdate/policyregistry unchanged. Project200/compute160/noncompute40/
+single10caps+holds+billing unchanged; Oct29 financialsnapshot historical NOTfresh.
+Earlier entries historical.
+
 LATEST November23: CANDIDATE-ONLY OPERATOR INTEGRATED/REVIEWED LOCALLY; UNBOUND.
 Read docs/predictor_pgd_candidate_operator_v1.md, configs/predictor_pgd_candidate_operator_v1.json
 and new operator_inputs_v2 (committed inputs_v1 preserved), plus

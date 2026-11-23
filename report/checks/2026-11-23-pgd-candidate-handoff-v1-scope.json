@@ -1,0 +1,103 @@
+{
+  "SSH_or_target_work_started": false,
+  "approved": false,
+  "authorization_created": false,
+  "current_availability_or_reservation_claimed": false,
+  "date": "2026-11-23",
+  "failure_stops_later_roles": true,
+  "financial_caps_holds_and_billing_unchanged": true,
+  "host": "kdu@linux10614.dc.engr.scu.edu",
+  "independent_package_review": "runs/pretrained/diagnostic/pgd-candidate-handoff-v1-20261123/independent-package-review-v1.json",
+  "kind": "candidate-only-linux10614-attended-scope-v1",
+  "limits": {
+    "GPU_allocator_bytes": 7516192768,
+    "capture_bytes": 2415919104,
+    "collection_preparation_seconds": 120,
+    "component_RSS_bytes": 4294967296,
+    "connection_including_login_seconds": 3000,
+    "metadata_bytes": 67108864,
+    "raw_bytes": 1879048192,
+    "response_bytes": 3221225472,
+    "same_SSH_collection_seconds": 600,
+    "setup_bytes": 3221225472,
+    "setup_seconds": 180,
+    "trace_within_metadata_bytes": 8388608,
+    "work_seconds_including_setup_and_proof": 2400
+  },
+  "live_host_GPU_storage_resource_and_continuing_clock_guards_retained": true,
+  "local_test_executions": 20,
+  "local_tests_distinct_pass": 20,
+  "manual_GPU_status_repeat_needed": false,
+  "maximum_new_attempts_requested": 1,
+  "only_cleanup_included": "Successful removal of the proof-owned temporary file and cleanup using held owned process handles.",
+  "outer_control_sha256": "24045e50d1db73c39925dbda25ee4a3f5b57eb1132e7a428eb4d3d78be7963db",
+  "prior_operator_checks_inherited_not_repeated": 28,
+  "recipe": {
+    "candidate_forwards": 1,
+    "candidate_inner_math_VJPs": 1,
+    "completed_gradient_clean_or_PGD_cohort_repeats": 0,
+    "component_seconds": 120,
+    "native_component_reruns": 0,
+    "new_FP64_reference_or_full_model_trace": false,
+    "new_full_model_objectives": 0,
+    "outer_component_VJPs": 1,
+    "roles": [
+      "proof",
+      "forward-preserving"
+    ],
+    "serial_component_workers": [
+      "forward-preserving"
+    ],
+    "storage_proof_bytes": 2684354560,
+    "storage_proof_seconds": 60,
+    "warmups": 0
+  },
+  "refusal_consumes_single_attempt": true,
+  "scientific_qualified": false,
+  "scope_excludes": [
+    "automatic retries",
+    "separate retrieval connection",
+    "old-file cleanup",
+    "installation",
+    "extra objectives",
+    "native or completed-cohort repeats",
+    "private-key/held-out/checkpoint upload",
+    "old claim reset",
+    "paid compute",
+    "financial hold release"
+  ],
+  "scratch_parent": "/var/tmp",
+  "scratch_prefix": "vjepa-pgd-candidate-v1-",
+  "sources": {
+    "authorization_created": false,
+    "capsule": {
+      "bytes": 27279360,
+      "sha256": "82a30efedfb0e85fd39c634c5bd0a8b82bd839b91bc7259841e2d517d495011e"
+    },
+    "kind": "candidate-only-unarmed-local-package-v1",
+    "local_source_pins": 12,
+    "native_or_completed_cohort_repeats": 0,
+    "native_reference": {
+      "bytes": 13281280,
+      "sha256": "dbaee50b765273f530976e9b8a8301ee055f4e2dc76b006239b4864b306b7d75"
+    },
+    "new_full_model_objectives": 0,
+    "outer_control_sha256": "24045e50d1db73c39925dbda25ee4a3f5b57eb1132e7a428eb4d3d78be7963db",
+    "outer_driver_bytes": 45036,
+    "reference_manifest_sha256": "3dc2484c07c04bb72593c2ee386824edf52b8d80ec0fe3bb803e645714e5d932",
+    "roles": [
+      "proof",
+      "forward-preserving"
+    ],
+    "source_bytes": 754567,
+    "source_envelope_bytes": 1008194,
+    "source_files": 45,
+    "supervised_control_sha256": "0be5267678bbd45a63649b1dc39429ee9a2543e6cf305e1355260b7a0925f99c",
+    "target_or_scientific_work": false,
+    "training_admitted": false
+  },
+  "status": "reviewed-unarmed-awaiting-one-new-exact-approval",
+  "supervised_control_sha256": "0be5267678bbd45a63649b1dc39429ee9a2543e6cf305e1355260b7a0925f99c",
+  "training_admitted": false,
+  "unarmed_handoff": "runs/pretrained/diagnostic/pgd-candidate-handoff-v1-20261123/handoff-parent/linux10614-candidate-final-unarmed"
+}

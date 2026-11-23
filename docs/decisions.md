@@ -681,3 +681,87 @@ collection chain. Then close this mechanism diagnostic and qualify whole workloa
 No completed native, clean or eight-gradient/four-pair cohort repeats; no new FP64
 oracle or full-model trace is introduced for lifecycle repair. Broader research and
 training gates, parameter backward, attack policies, financial caps and holds stay.
+
+## 2026-11-23 — Exact candidate-only attended scope stays unarmed
+
+[The candidate-only package/scope](../report/checks/2026-11-23-pgd-candidate-handoff-v1-scope.md)
+now binds the reviewed worker/supervisor closure, both unchanged archives, twelve
+local source pins and isolated attended CLI. Three local edits have whole-byte
+inverses; uploaded source and supervised control bytes remain identical. The new
+outer control is 24045e50d1db73c39925dbda25ee4a3f5b57eb1132e7a428eb4d3d78be7963db.
+Twenty focused package/CLI/preflight cases pass once; the preceding 28 operator
+checks are inherited. Positive preflight uses only a fake grant in fixture copies.
+No process/timer/thread/network, proof, GPU, Torch/NumPy, array values or science
+runs. Independent stdlib review preserves 30,080 hashes / 33,227 fixture entries,
+checks package/source/archive/scope joins, and leaves the old FIFO lstat-only.
+
+Request one new exact approval before arming. The proposed attended scope is one
+full 2.5 GiB proof within 60 seconds followed by one candidate component within
+120 seconds, forty minutes work and ten same-SSH collection within fifty including
+login. Original resource/numerical/backend/source/ownership/continuing-clock gates
+remain. No native or completed-cohort rerun, extra full-model objective, warmup,
+new FP64/full-model trace, retry, separate retrieval, installation, old cleanup,
+private-key/checkpoint/held-out upload, paid work or financial hold release.
+
+The exact four-file package has no authorization or attempt. After approval, append
+its authorization exclusively, record the exact authorized directory metadata change,
+run real local preflight and independent arming review, then give one user-attended
+Mac command; the agent never runs SSH. No repeated manual GPU/key paste. Preserve
+all historical claims/failures and inspect bound saved evidence on Done/error.
+Actual candidate completion and broader research/training remain unqualified.
+
+## 2026-11-23 — Candidate-only one-attempt approval accepted and armed
+
+The user explicitly approved the reviewed 24045e50d1db73c39925dbda25ee4a3f5b57eb1132e7a428eb4d3d78be7963db
+outer scope. The exact authorization was appended once with exclusive creation;
+its 1,281 bytes hash to c1ebed1a4c6d6a51979f8e31bf19ff8c9769d8537c9780eda8d7caeb442f158a.
+No control, source, package path or prior file changed. Real local preflight passes
+twelve source pins, 45 uploaded sources and both archives. Standalone saved review
+v1 passes 30,361 prior hashes / 33,640 fixture entries with exactly one authorized
+package-directory append exception: inode, device, ownership, mode and old file
+stats/hashes fixed; APFS nlink 6→7 and mtime changed. The older exception remains.
+No old checks/science rerun, process/timer/SSH/GPU/proof or target work started.
+
+The grant is armed and unspent. No further approval is needed for this exact
+attempt. Next provide one user-attended Mac command after VPN; retain fifty-minute
+login-inclusive connection, proof/candidate-only scope and all original caps/gates.
+The agent never runs SSH. On Done/error, inspect bound local attempt/session/error
+records first, never repeat or reset the command/claim. Historical native/PGD/clean
+cohorts, candidate failure, broader research/training gates and finances stay.
+
+## 2026-11-23 — Candidate component completes; split mechanism diagnostic closes
+
+The user-attended candidate-only grant is consumed. SSH exits 0 and the
+[independent saved review](../report/checks/2026-11-23-pgd-candidate-handoff-v1-target-review.md)
+passes first run: full 2.5 GiB proof, candidate PID 1645944 with 23 phases/47 rows,
+source/reference/route/backend/fresh-value/restoration/resource/completion/parent
+and terminal-verified collection all join. All four target native-relative checks
+pass unchanged bounds with zero failed elements; forward files are exact. Backend
+v4 matches 2,236 raw rows, four typed associations and nine genuine correlated CUDA
+witnesses, preserving all overhead/annotations. Candidate parent wall is 9.535349 s,
+RSS 1,193,832,448 bytes, allocator 873,463,808 bytes; these component observations
+are not complete attack throughput or instantaneous quotas.
+
+The declared split mechanism diagnostic is closed using the accepted eight-gradient/
+four-pair PGD result, completed native component and this new candidate chain. The
+old failed candidate/session statuses and all source/test/auditor/fixture/failure
+versions remain unchanged. No native or completed-cohort rerun, new FP64 reference,
+full-model trace or production admission-flag rewrite is added. The perturbed
+check remains native-relative; the earlier clean FP64 scope is different.
+
+All 134 collected files / 95,918,135 expanded bytes and the 91,865,380-byte wire
+verify independently, with all journal rows and exact controls/sources. Local
+review uses stdlib hashes, metadata, source text and NPY headers/payload byte hashes,
+without array value decoding/recomparison or project/test/scientific callbacks.
+30,388 prior hashes / 33,663 fixture entries remain, old FIFO lstat-only. The exact
+approved package AUTH/attempt/session lifecycle changes nlink 6→7→9 and mtime while
+inode/device/ownership/mode and old five file hashes remain. Old exceptions remain.
+
+Next is a separate local opt-in input-gradient whole-PGD workload/replay/performance
+qualification path with original starts, scoring/selection/projection/restoration,
+matched complete units and explicit overhead. Hardware memory/exact recovery,
+complete study economics and financial reconciliation, training-only calibration,
+data/protocol and explicit adoption remain. Training PGD5/EOT1, routine EOT1,
+parameter-update backward, registry/YAML and financial caps/holds remain unchanged.
+No new university action, scope/approval request, retry, separate retrieval or paid
+work follows from this completed review. Research training remains unadmitted.

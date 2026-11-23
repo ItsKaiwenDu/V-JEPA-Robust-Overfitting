@@ -1,5 +1,58 @@
 # Research Progress Reports
 
+November23: actualcandidate-only10614attempt SSH_EXIT0 and independent saved review
+v1PASS first-run. Full2.5GiBproof12.663704s/2783895552Bpeak; candidatePID1645944COMPLETE
+23phases/47rows, ownreference/source/route/v4backend/FRESHaccuracy/restoration/resource/
+complete/parent joins.2236rawrows/4typedanchors/9positivekernels;33overhead+2annotations
+retained. All4actualtarget native-relative checks pass originalbounds/zero failures,
+forwardfileEXACT; localreviewheaders/hashes/metrics only, no arraycalculations again.
+Candidateworker4.863919s, parent9.535349s/RSS1193832448B/67samples, allocator873463808B;
+componentobservations insidecaps, notwholeattackthroughput or kernelquota proof.
+134files/95918135expandedB/91865380wireB/134journalrows independently verified, SHA
+d770b9316c78e4223ca23e5cd94bbecf0c98f7ee4e1e2682a58bac19eccb3810.30388oldhashes/
+33663fixtureentries preserved; FIFO lstatonly; exactAUTH+ATTEMPT+session directory
+append exception nlink6->7->9, device/inode/owner/mode+old5hashes fixed. No local
+project/test/science/GPU/network callbacks. GrantCONSUMED; no retry/retrieval needed.
+Declaredmechanismdiagnostic CLOSED usingacceptedPGD8gradient4pair/native+newcandidate;
+oldfailedcandidate unchanged.0native/fullmodel/cohort repeat/0newFP64/fulltrace.
+NextLOCAL whole-PGD inputgradient workload/replay/performance qualification, then
+hardware/recovery/economics/calibration/data/protocol/adoption. TrainingPGD5EOT1,
+routineEOT1/parameterbackward/policyregistry/YAML and financesunchanged; research
+trainingstillgated. MacTerminalmayclose; no newHPCapprovalrequest/manualstatuspaste.
+See report/checks/2026-11-23-pgd-candidate-handoff-v1-target-review.md and
+ docs/predictor_pgd_mechanism_completion_20261123.md.
+
+November23: user explicitlyapproved exactcandidate-only24045e50... scope. Grant now
+ARMED/UNSPENT: ONE O_EXCL AUTHappend1281B SHA c1ebed1a...; old4package/sourcebytes
+unchanged. Real localclientpreflightPASS12pins/45sources+botharchives; no ATTEMPT,
+SSH/GPU/proof/process/timer/science or passingtest/cohort repeats. StandaloneSTDaudit
+v1PASS first-run preserves30361priorhashes/33640fixtureentries/FIFO lstatonly. Exact
+newpackage directory append exception records fixedinode/uid/gid/mode/device33 and
+APFSnlink6->7/mtime; oldauthorizeddirectory exception unchanged. Allprioruncommitted
+handoff/source/test/evidence preserved. Next userONEattendedMaccommand afterVPN,
+keepawake <=50min incllogin; proof60s thencandidate120s only, originalcaps/clocks,
+no native/cohort reruns/retries/separateretrieval/paidwork. OnDone/error inspectbound
+localATTEMPT+session first, neverrepeat/reset. No newapproval/statuspaste needed.
+Training/scientific gates and historicalfailures/financialcaps/holds unchanged. See
+report/checks/2026-11-23-pgd-candidate-handoff-v1-arming.md.
+
+November23: exactcandidate-only10614scope/package now prepared/reviewed UNARMED.
+45sources/754567B and supervisedcontrol0be526... UNCHANGED; handoffouter45036B adds
+12localpins inclCLI/packager, client+CLI import-onlyedits with3wholebyteinverses.
+Outer24045e50... exactboundpackage linux10614-candidate-final-unarmed has4private
+files, no AUTH/ATTEMPT/session. Same27.28MBcapsule+13.28MBnative-reference archives.
+20newpackage/CLI/preflight checksPASS once/20executions,0fail; prior28notrerun.
+Positivepreflight usesfakegrant inprivatefixturecopies; no process/timer/thread/
+network/proof/GPU/Torch/NumPy/values/model/gradient/profile work. STDauditv1PASS
+first-run preserves30080priorhashes/33227fixtureentries; FIFO lstatonly, device33
+conditionally matches priorreviewedobservation. All source/resource/clock gates
+unchanged. Exactscope ONEproof60s thenONEcandidate120s, no native/cohort repeats,
+40minwork+10sameSSHcollection/50incllogin, originalbyte/RSS/GPUcaps. Next request
+one exactapproval, then O_EXCLauthorization+real localpreflight/armingreview before
+ONEuser-attendedcommand. No arming/remote work yet; historicalfailures/closedcohorts,
+financialcaps/holds/traininggates unchanged. See
+report/checks/2026-11-23-pgd-candidate-handoff-v1-scope.md.
+
 November23: candidate-only supervisor/cache/scratch/collection integration passes
 locally. 39unchanged workers+6supervisors=45sources/754567B; proof+candidateONLY,
 reference_root/manifest plan binding+accuracy path. Unchanged27.28MBcapsule+13.28MBref

@@ -1,0 +1,109 @@
+{
+  "authorization_or_target_work": false,
+  "date": "2026-11-23",
+  "files": {
+    "configs/predictor_pgd_candidate_operator_inputs_v2.json": {
+      "bytes": 45017,
+      "sha256": "54ccc4bb05f54adc45e14829221543aee4d8ab6166700b4a792ea10f2b2b36e4"
+    },
+    "configs/predictor_pgd_candidate_operator_v1.json": {
+      "bytes": 8787,
+      "sha256": "039c3e2e37b2f2405c4dcbf7354ea69dce265bf9113fb8c31fae9b12d800688d"
+    },
+    "models/__init__.py": {
+      "bytes": 86,
+      "sha256": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5"
+    },
+    "models/predictor_pgd_candidate_bootstrap_v1.py": {
+      "bytes": 78612,
+      "sha256": "9a15d0590184c3dc62f8e8a4c5d05c687e7fcfbaefef7e411b3321cf6c5d75f7"
+    },
+    "models/predictor_pgd_candidate_client_v1.py": {
+      "bytes": 16286,
+      "sha256": "a70e3088cc363f4137050876176730b5f0c51665c2327fb5a4958fceb6227a11"
+    },
+    "models/predictor_pgd_candidate_collection_v1.py": {
+      "bytes": 59859,
+      "sha256": "e267b99805b3f2300495696f6b961bb88f7257c237d9829041f0173d76fc14a4"
+    },
+    "models/predictor_pgd_candidate_operator_v1.py": {
+      "bytes": 22545,
+      "sha256": "4f733841f3474de4339bcd8f9696044ca8818cb307006bf4a9ba0b65499bae5e"
+    },
+    "models/predictor_pgd_candidate_outer_v1.py": {
+      "bytes": 44869,
+      "sha256": "7327ca5ff5e81f872ef663b82a582a31f5f0ef6a39df5e34b57d6b53852f9b02"
+    },
+    "models/predictor_pgd_candidate_scratch_v1.py": {
+      "bytes": 111604,
+      "sha256": "c4e2c62ec5f1d78c9afc2fd314cb34c559392633e1a55cfdb5a20afad754511e"
+    },
+    "models/predictor_pgd_split_plan_v1.py": {
+      "bytes": 15697,
+      "sha256": "cdd2729d2f05782d269a45aa4c22412dcff7b9c5d684267550eb16f59c838ba6"
+    },
+    "report/checks/2026-11-23-pgd-candidate-operator-v1-local-review.json": {
+      "bytes": 9458,
+      "sha256": "acd89e8cb1fbcceaf467bfee3d8f1ce0d2fac884ebfa965a822228fb7ad660ea"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/native-reference-v1.tar": {
+      "bytes": 13281280,
+      "sha256": "dbaee50b765273f530976e9b8a8301ee055f4e2dc76b006239b4864b306b7d75"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-handoff-v1-20261123/PRESERVATION-INPUTS.json": {
+      "bytes": 4348,
+      "sha256": "ac3f34415ac80361a3a0cd876183f11ff6fa1e64dcfb4f7b13900f467a5754da"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-handoff-v1-20261123/preservation-before-preparation-v1.json": {
+      "bytes": 193,
+      "sha256": "dfb7cc00807a9ce9cc402750360d96e99f18559a8917395d789e6ff667f5f956"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/LOCAL-DEVICE-OBSERVATION-v1.json": {
+      "bytes": 1283,
+      "sha256": "b32d18e0e2dfe4a9643f94319049d57dcb06670eeddc069f1a6ee55abde843ee"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/cold-build-v2/CONTROL-UNBOUND.json": {
+      "bytes": 69214,
+      "sha256": "0be5267678bbd45a63649b1dc39429ee9a2543e6cf305e1355260b7a0925f99c"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/cold-build-v2/SOURCE-PAYLOAD.json": {
+      "bytes": 1008194,
+      "sha256": "7c9265376168d0f71ff886360808c7bd9957243de0e58d2d39f07a89b07e99fa"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/independent-saved-review-v2.json": {
+      "bytes": 1046,
+      "sha256": "d7cca5a1fc4a324d22dbf2747a67ec45307134d9e7873708ac50f40c011c10f4"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/sealed-candidate-operator-v1.json": {
+      "bytes": 6711668,
+      "sha256": "a585138c807ba52962822ac541d1aafb1cd6e51b01555b62d055aaec60fd9643"
+    },
+    "runs/pretrained/diagnostic/pgd-component-capsule-v1-20261119/component-inputs.tar": {
+      "bytes": 27279360,
+      "sha256": "82a30efedfb0e85fd39c634c5bd0a8b82bd839b91bc7259841e2d517d495011e"
+    },
+    "scripts/run_predictor_pgd_component_v1.py": {
+      "bytes": 685,
+      "sha256": "965bda12ff6150958a18b90eac069ed85f4f3e8fd165a04f7bb6c81df2bba500"
+    },
+    "tests/test_predictor_pgd_candidate_operator_v1.py": {
+      "bytes": 47072,
+      "sha256": "a673820e1555c90f5aa6ea5ccfb57c795a0e27afbb0f15a0b02c8f2742bc6569"
+    }
+  },
+  "kind": "candidate-only-handoff-pinned-inputs-v1",
+  "pins": {
+    "cli_scaffold": "scripts/run_predictor_pgd_component_v1.py",
+    "client": "models/predictor_pgd_candidate_client_v1.py",
+    "device_observation": "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/LOCAL-DEVICE-OBSERVATION-v1.json",
+    "operator_config": "configs/predictor_pgd_candidate_operator_v1.json",
+    "operator_review": "report/checks/2026-11-23-pgd-candidate-operator-v1-local-review.json",
+    "outer": "models/predictor_pgd_candidate_outer_v1.py",
+    "preservation": "runs/pretrained/diagnostic/pgd-candidate-handoff-v1-20261123/PRESERVATION-INPUTS.json",
+    "preservation_result": "runs/pretrained/diagnostic/pgd-candidate-handoff-v1-20261123/preservation-before-preparation-v1.json",
+    "prior_audit": "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/independent-saved-review-v2.json",
+    "prior_seal": "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/sealed-candidate-operator-v1.json",
+    "source_payload": "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/cold-build-v2/SOURCE-PAYLOAD.json",
+    "supervised_control": "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/cold-build-v2/CONTROL-UNBOUND.json"
+  }
+}
