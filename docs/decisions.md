@@ -649,3 +649,35 @@ Historical unfavorable cost screens, the single $10 diagnostic cap, $200/$160
 project/compute caps and unresolved financial holds remain. No live quote, new
 scope, upload, university connection, paid work or research run is authorized.
 See [the dated readiness assessment](training_readiness_20261119.md).
+
+## 2026-11-23 — Candidate-only supervisor integration stays unbound
+
+[The local operator review](../report/checks/2026-11-23-pgd-candidate-operator-v1-local-review.md)
+connects 39 unchanged candidate runtime files to six supervisors, a closed native
+reference catalogue, private source cache, proof/candidate OS interfaces and bounded
+same-connection collection. The older three-role operator and all historical
+scientific results and failures remain unchanged. The existing input contract v1
+is retained; the separate v2 contract pins 109 inputs. All derived supervisor/client
+bytes have inverses. Original resource, source, ownership, numerical and continuing
+clock predicates remain, with one new private candidate namespace.
+
+All 28 distinct new checks pass across 39 executions. Only setup-error/failed
+nodes reran after fake-label/PID and terminal-row assertion corrections. Production
+was unchanged after first checks. Two complete lifecycles are fake; real metadata
+readers and a 130-file priority transfer verify joins without actual arrays,
+Torch/NumPy, model/autograd/profiler, process/PIDFD, signals/timers, GPU, proof or
+network activity. This establishes local integration, not actual OS/scientific
+execution. The independent stdlib audit v2 preserves 26,395 hashes and 28,596
+fixture entries and independently reconstructs the wire. Its first namespace-only
+comparison refusal is preserved. The local device change 31→33 has an explicit
+APFS observation/review; cause and historical physical identity stay unproven.
+Original records and target device/storage/host/GPU checks are untouched.
+
+No exact target scope, handoff, approval request, authorization, attempt or live
+binding is created. The next separate stage prepares/reviews that candidate-only
+packet before requesting fresh authorization. A future target still needs its own
+source/reference/route/backend/value/restoration/resource/completion/parent wall-RSS/
+collection chain. Then close this mechanism diagnostic and qualify whole workloads.
+No completed native, clean or eight-gradient/four-pair cohort repeats; no new FP64
+oracle or full-model trace is introduced for lifecycle repair. Broader research and
+training gates, parameter backward, attack policies, financial caps and holds stay.

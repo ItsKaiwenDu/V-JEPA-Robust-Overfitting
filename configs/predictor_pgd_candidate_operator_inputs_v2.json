@@ -1,0 +1,558 @@
+{
+  "date": "2026-11-23",
+  "files": {
+    "configs/predictor_pgd_candidate_completion_inputs_v1.json": {
+      "bytes": 36482,
+      "sha256": "b9541ed09da733a8000cf3f39fda884e88cab7b748e27d8e63ca60f9c0050ad1"
+    },
+    "configs/predictor_pgd_candidate_completion_v1.json": {
+      "bytes": 4024,
+      "sha256": "2e3837e22c9d7a49b3f81dea44d994c59b2720c787e7c191fd6324e9ec264b8a"
+    },
+    "configs/predictor_pgd_candidate_operator_inputs_v1.json": {
+      "bytes": 21467,
+      "sha256": "7719f0d850c590e87422c9c42b78e815b133b948347910e5c88152c4f07cd491"
+    },
+    "models/predictor_pgd_component_bootstrap_v1.py": {
+      "bytes": 74184,
+      "sha256": "701cbc438967d297ff761d5b14bc9bc0dd7b9704aa9184493a6cacea425ca1f9"
+    },
+    "models/predictor_pgd_component_client_v1.py": {
+      "bytes": 16029,
+      "sha256": "26cdff9ff358659cf10135ed11451ca08950a5efc7db81866912e9e678a48ad7"
+    },
+    "models/predictor_pgd_component_collection_v1.py": {
+      "bytes": 59859,
+      "sha256": "b1838ef45dee0c7f9dad16f525ba88be12141d7f199804f0b7eb701eae2e76a7"
+    },
+    "models/predictor_pgd_component_outer_v1.py": {
+      "bytes": 39611,
+      "sha256": "1a4cd146bf9e6517ad2ebe580c57234f33ef53da008171271625d8ca640166b6"
+    },
+    "models/predictor_pgd_component_scratch_v1.py": {
+      "bytes": 106968,
+      "sha256": "a651480c80756709f0782e8ccd6e9635955a596a28480a2418025dcf1f099d1d"
+    },
+    "report/checks/2026-11-18-pgd-joint-handoff-v1-target-review.json": {
+      "bytes": 7914,
+      "sha256": "13d2a40d2a989d9433f042dcf59187f84850ea8294e4ad8f494accda00074c8b"
+    },
+    "report/checks/2026-11-19-pgd-component-operator-v1-target-review.json": {
+      "bytes": 9305,
+      "sha256": "45318db20a419f3f2671be590b3b3fe218f35a2a2ca0f935a37de727eceaa3f2"
+    },
+    "report/checks/2026-11-19-pgd-component-returns-v1-local-review.json": {
+      "bytes": 7963,
+      "sha256": "1c632f09f34e05e37516df19c27d855780738c1208c42e3691890665f9622b53"
+    },
+    "report/checks/2026-11-19-pgd-engine-materialization-v1-local-review.json": {
+      "bytes": 8346,
+      "sha256": "332667b3c9a6902464f75a920fb8c45bed5c37fc0387e4e9e45554de257dc56b"
+    },
+    "report/checks/2026-11-20-pgd-candidate-completion-v1-local-review.json": {
+      "bytes": 6551,
+      "sha256": "5ba70b8f38cd429c27bc489f16d6bb171b631629fc63099debeea41258969fb4"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/NATIVE-REFERENCE-v1.json": {
+      "bytes": 3289,
+      "sha256": "3dc2484c07c04bb72593c2ee386824edf52b8d80ec0fe3bb803e645714e5d932"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/SOURCE-MANIFEST-v1.json": {
+      "bytes": 79004,
+      "sha256": "095a275bfa8d0581aeb6a99aa2305a25b5700a3b02756b502ceee360c100e138"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/attacks/__init__.py": {
+      "bytes": 69,
+      "sha256": "41a090d550527278b09bfb62fbed810805b379151b7a5ab7cb5469bc12ee01cb"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/attacks/pgd.py": {
+      "bytes": 5089,
+      "sha256": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/__init__.py": {
+      "bytes": 86,
+      "sha256": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_contract_v1.py": {
+      "bytes": 1188,
+      "sha256": "918854511a73fda012e1aad0703821a9e9793c5af62d3ede8b137e9f9a5f8401"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_entry_v1.py": {
+      "bytes": 5914,
+      "sha256": "c59538e1114d0ee3337c161d0365571963785ea0c445709853e477cbb028ee9f"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_io_v1.py": {
+      "bytes": 32614,
+      "sha256": "36d70563fb2e14618a5f052e09b21b3aee089f894e17f55efd24c2c6211e4265"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_job_v1.py": {
+      "bytes": 27999,
+      "sha256": "a8820eacf15c6e64c327ec85c3514bc91aa416f3a69a954645df7f658c50b180"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_providers_v1.py": {
+      "bytes": 4036,
+      "sha256": "57636cb1935b64576eaffc8c2015fd091ebd41b8b4efec2d2a3933ea94de380c"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_source_v1.py": {
+      "bytes": 32731,
+      "sha256": "ba2c71deae006d6c3d1e9e523c4b6c4ef8f3aa14257fdc27cb88a90b903af940"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_store_v1.py": {
+      "bytes": 10349,
+      "sha256": "838785328996a0377492082aae2eb80a0cffcd89ab5247685cf29f39bc2631bd"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_split_boundary_v1.py": {
+      "bytes": 17495,
+      "sha256": "95237713919109f3e2c7d1ae4a3acdeb3967b1f2ef703ae675ae1489938d0980"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_split_raw_v1.py": {
+      "bytes": 4174,
+      "sha256": "78c9fcd2244d756e6c1aa5ad73c6c9f2907e27f6074156a06a5fec2a746c8663"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_split_route_v1.py": {
+      "bytes": 25865,
+      "sha256": "fccad384e34147b615ca37a67f5c5ace9424270710f9b65a15977c30e44ca203"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_split_startup_v1.py": {
+      "bytes": 3449,
+      "sha256": "2deac57c321daeb7fcbc1979322a2f6eb50dbc7c852e19a562afd41937f84b68"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/checkpointing.py": {
+      "bytes": 6645,
+      "sha256": "edc5940bc73db42c89b3494be9b0f2098680762f4fa972305f51abe47c3d8373"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/diagnostics.py": {
+      "bytes": 5555,
+      "sha256": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/execution.py": {
+      "bytes": 12043,
+      "sha256": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/native_patch.py": {
+      "bytes": 3250,
+      "sha256": "8f5ede9ea8ba61773ca11dffac5a2bdba01a62affc497d8327b3e1ede31fa5e7"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/patch_embed.py": {
+      "bytes": 1827,
+      "sha256": "64838d575479e067ffecb8352efa7b51fcfafeabeb234e295605d87c1033b0ec"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/pilot.py": {
+      "bytes": 2119,
+      "sha256": "a8e947c5ce58c6497b653b3bdc9ac1051b045d07fe3f280f9c04daf44858ae82"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/precision_patch.py": {
+      "bytes": 7991,
+      "sha256": "30e8a6b28b8f082fd771aaeab5a70a73cf200714ef2b24416a55938f61e9c550"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_eot8_adapter_v1.py": {
+      "bytes": 7839,
+      "sha256": "89b7e0c67e88f2f776bb0bb6ad786a2202115e64ffc6c6f9a962381cc2e9a6b8"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_eot8_capture_v1.py": {
+      "bytes": 2194,
+      "sha256": "fcf582f0152f9ad1d93d1bf038895ba6c6c84d75a4fdfc02d5d4b2ea96e0d3e4"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_eot8_owned_receipt_v1.py": {
+      "bytes": 4599,
+      "sha256": "55005fd96e994c660e693e0347a337d01826eaf5224ecf6f38329a8905538531"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_eot8_record_v2.py": {
+      "bytes": 14128,
+      "sha256": "c75455b9a08f1b25bbb7269d4ae3c1fa34826656ba1800c0a45fdf9433765dd9"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_candidate_accuracy_v1.py": {
+      "bytes": 7105,
+      "sha256": "9e8bac5b01bcb9721218bc28f499ad6484a6e05396ea6ae383b69eb549c1d13e"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_candidate_reference_v1.py": {
+      "bytes": 15140,
+      "sha256": "e7933921c0143ff7b7e779c703da9062c1c954ec333a79f426ae6d1ecf6b2c13"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_component_capsule_v1.py": {
+      "bytes": 14106,
+      "sha256": "453dea53b4e33b2187b8ffc248546aaba9c011e535d11dbc285a3c4fd15dcd37"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_split_backend_v4.py": {
+      "bytes": 24232,
+      "sha256": "0a5ef4a5dc99b55eb5df6a3af8d11f99dbb18352b4ffab55c310a3f5a0f62622"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_split_lineage_v1.py": {
+      "bytes": 8431,
+      "sha256": "a53103bfc665b30930af2b6046a347f81369b0de3a1b72ff2743bc5f3c643647"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_split_plan_v1.py": {
+      "bytes": 15697,
+      "sha256": "cdd2729d2f05782d269a45aa4c22412dcff7b9c5d684267550eb16f59c838ba6"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_component_events_v1.py": {
+      "bytes": 8268,
+      "sha256": "c1397e06ca89d1299a7d853e6c88124d1cc7874aae3f5763f018fbc67bd195fc"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_component_events_v2.py": {
+      "bytes": 15023,
+      "sha256": "ebde9c0f32078979cfa5920503004bb79ca697fdc05d7adacbfc59bde41f515a"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_launch_evidence_v1.py": {
+      "bytes": 17552,
+      "sha256": "c9749407f3d237050252ec7e9d4831c901df813a35b3b4a38ad8d693e0e1899f"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_launch_evidence_v2.py": {
+      "bytes": 19485,
+      "sha256": "05f99a96ca34d65c4167cdbd37f97600b14468aa08fbfe5aa9b581b72e5fdddb"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_launch_evidence_v3.py": {
+      "bytes": 19602,
+      "sha256": "d8ca7092b346d3e1ccd9c43a99a4379eba21914a08ced173b692148015010675"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/runtime.py": {
+      "bytes": 4827,
+      "sha256": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/training.py": {
+      "bytes": 16803,
+      "sha256": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/vjepa2.py": {
+      "bytes": 12926,
+      "sha256": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/native-reference-v1.tar": {
+      "bytes": 13281280,
+      "sha256": "dbaee50b765273f530976e9b8a8301ee055f4e2dc76b006239b4864b306b7d75"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/sealed-candidate-completion-v1.json": {
+      "bytes": 5876752,
+      "sha256": "f11b55ec71538b0e68afb5600cef0c31186fe75f3373fd5b627967a7bc9c3466"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/LOCAL-DEVICE-OBSERVATION-v1.json": {
+      "bytes": 1283,
+      "sha256": "b32d18e0e2dfe4a9643f94319049d57dcb06670eeddc069f1a6ee55abde843ee"
+    },
+    "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/PRESERVATION-INPUTS.json": {
+      "bytes": 4162,
+      "sha256": "6c511350bf9472a291dff286b9ebaee1472066c74a5a83cdada48bba1dddbf9d"
+    },
+    "runs/pretrained/diagnostic/pgd-component-capsule-v1-20261119/MANIFEST.json": {
+      "bytes": 13480,
+      "sha256": "a7e6740c69f5f3bf8c5fc6b71683296f2c9ebc818b644814b2f37eaf983c0e24"
+    },
+    "runs/pretrained/diagnostic/pgd-component-capsule-v1-20261119/component-inputs.tar": {
+      "bytes": 27279360,
+      "sha256": "82a30efedfb0e85fd39c634c5bd0a8b82bd839b91bc7259841e2d517d495011e"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/cold-build-v6/SOURCE-PAYLOAD.json": {
+      "bytes": 960415,
+      "sha256": "6d7a2ad9b37bcd08da20f2698230fa8bc8d40e146969c406b66064db866d6658"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/backend.json": {
+      "bytes": 3268,
+      "sha256": "4bd060d01524a8381c0dc978fd0ff248d3f1e25742df0c581b40ef47ddaa9bc5"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/complete.json": {
+      "bytes": 632,
+      "sha256": "51407b1c1569e6e870695b0f2ddaa6d79bb0a20a69b3d59ee3181b84e91a6b98"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/dk.npy": {
+      "bytes": 3145856,
+      "sha256": "c31f6d5017e237d9488ad8ba96f745ddbcf1e5e21eb5224d618c7998f92fb49b"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/dq.npy": {
+      "bytes": 3145856,
+      "sha256": "218dc436f9795ef1014e910c990534eb75a06676b28145595964f0653d864afb"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/dv.npy": {
+      "bytes": 3145856,
+      "sha256": "46e728741ea905d43a9ebb3e0ea44f9bd7e0bf7750b6b5641e81b8f6e4d09134"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/events.json": {
+      "bytes": 569123,
+      "sha256": "97139d0db676bf14e2e14a0b294611687cec3e0860279e4755067c1c13b2c916"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/output.npy": {
+      "bytes": 3145856,
+      "sha256": "47f0ac9fbba30e14e9b82011f062596c32c05c6fa152aa89d5c1168e73b1c618"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/ownership.json": {
+      "bytes": 2845,
+      "sha256": "2bae7b2feb0c26f3238db3b07dfbee04114e2f5a77ebc7b191e3aa24f7cf2536"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/progress.jsonl": {
+      "bytes": 29650,
+      "sha256": "e13db72771087f38fb6cdbc6e7fa87a70f3b2fb03b80d35739ae0c0ecb82a134"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/resource.json": {
+      "bytes": 1197,
+      "sha256": "aa5917e82ed385bd748fa878cf97e30a3b163f2b6dc7b49c248396bd03e9aa36"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/worker.json": {
+      "bytes": 6329,
+      "sha256": "6f1cdea1d114cc605103c645cd379f3c12867ae88855c211e97d0fd26e3fea29"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/parent-native.json": {
+      "bytes": 435,
+      "sha256": "cc57544291e2896af1996a1c05e20715fa9bde424c8b705c84c1a067198cb12e"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/source/MANIFEST.json": {
+      "bytes": 13480,
+      "sha256": "a7e6740c69f5f3bf8c5fc6b71683296f2c9ebc818b644814b2f37eaf983c0e24"
+    },
+    "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/source/boundary/boundary.json": {
+      "bytes": 9234,
+      "sha256": "9e4758d2209b9fd989926ee40d2ad92cc4b99aa98c86e6cec0722eaf6a83308d"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/attention-calls.jsonl": {
+      "bytes": 949546,
+      "sha256": "6f2ccd095b107eeaf59ba872be04de80abdfe348f4495243f1c8f19da293e126"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/attention-scopes.json": {
+      "bytes": 312,
+      "sha256": "fe85b6c1e54097cae93a1891d9ced17f4694f8de4f4754cb398fd1b33ab9d043"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/boundary-complete.json": {
+      "bytes": 273,
+      "sha256": "8a7233c4138b87eca2b16b3e28c6412d2d664bd221c50cb494d8569e89bf524e"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/boundary.json": {
+      "bytes": 9234,
+      "sha256": "9e4758d2209b9fd989926ee40d2ad92cc4b99aa98c86e6cec0722eaf6a83308d"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/dk.pt": {
+      "bytes": 3147305,
+      "sha256": "00288e2c75abd4eef65a1e97b00f4fe25546ab20df640702375a5d7d2d15bf8c"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/dq.pt": {
+      "bytes": 3147305,
+      "sha256": "6973339c06e07ba92e2c79f04aee4bbb982a3642cc4895d6c974c30840c15b09"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/dv.pt": {
+      "bytes": 3147305,
+      "sha256": "deead61cbb8cf5b6f7462219907082b6cc17db99af67734e170d6c3b35d9ffa5"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/grad_output.pt": {
+      "bytes": 3147305,
+      "sha256": "a673aabb28ca9e181c2426ee4ce81062b1fcecdc0609d31754996efdf45fcb7c"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/k.pt": {
+      "bytes": 3147305,
+      "sha256": "f80ea46c5e6bea6b117763c3551a5320b92aa45f65916d2c451553d2083aad37"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/output.pt": {
+      "bytes": 3147305,
+      "sha256": "33cf9f63b54b285ee5c6fa1ed3dac252f7edcb40c4f5aa3a9d574ba686c8209e"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/q.pt": {
+      "bytes": 3147305,
+      "sha256": "eede3a77598c212faa77ca935e61622aa698fd4ffdad658e717cd80fed968866"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/v.pt": {
+      "bytes": 3147305,
+      "sha256": "8881fa0dcbc8b653e5547ca2ef5533e3bfb436cfdabfe5025dd437792a7e30da"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-0/VJP-calls.jsonl": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-0/native-calls.jsonl": {
+      "bytes": 949546,
+      "sha256": "6f2ccd095b107eeaf59ba872be04de80abdfe348f4495243f1c8f19da293e126"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-0/numerical-complete.json": {
+      "bytes": 5105,
+      "sha256": "9c688ffa5a5e34c0c3a2e6d13fb2b74780b443e2d893b35e52db045f9c677cbd"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-0/numerical.json": {
+      "bytes": 9661,
+      "sha256": "348f5ee5843a42a63c924ce19944228ff1cb9aed4bf288876de6a7298d8921e2"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-0/scopes.json": {
+      "bytes": 328,
+      "sha256": "539deace994dc1809bd5265c69be4a91d037f58440c73606aaf658e8b18d0b58"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-1/numerical-complete.json": {
+      "bytes": 5111,
+      "sha256": "22761fc13f36d293356e6662d7157adbb308f50fc1cbc251518e9020041d5e83"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-1/numerical.json": {
+      "bytes": 10130,
+      "sha256": "8af887389465c399cfb0e1b1bcf5b9e24a4fe2431c2cfad0cccf49838bdea1dc"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-2/numerical-complete.json": {
+      "bytes": 5105,
+      "sha256": "b7077961078735f1407b8ce265ae9507ba33719ed186b606e71030431fc46fa9"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-2/numerical.json": {
+      "bytes": 9661,
+      "sha256": "8f8dbd56c57b7d8ed5b1e8eff6b62a95c880a3151c1b1fa0237d457200fe0a66"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-3/numerical-complete.json": {
+      "bytes": 5111,
+      "sha256": "fafb91946d2ca6b12b241bbde81ca9f4089eb8996cd12f1a86661d978e822908"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-3/numerical.json": {
+      "bytes": 10131,
+      "sha256": "183023510653f86119b51811e1403cca9a7f1aa3db588afd444fe1592367a624"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-4/numerical-complete.json": {
+      "bytes": 5105,
+      "sha256": "9a5a3fef8ce4ba4bdd961215774ae235e2fc2f09cd7a4272abff5c8e1ee06ef8"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-4/numerical.json": {
+      "bytes": 9661,
+      "sha256": "aa9fba339232bab8fac9137bd16c38e5cea4d6a63bef95f8f82a9bff8b59fc5d"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-5/numerical-complete.json": {
+      "bytes": 5111,
+      "sha256": "bca25f28404c198eadeaa0471eba65e1499c153269a3936e154f641ec7f7ef5c"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-5/numerical.json": {
+      "bytes": 10130,
+      "sha256": "b27fc9fe8d08935d1b954350a39865a0b5250d8f42a022176f848a26c22cb376"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-6/numerical-complete.json": {
+      "bytes": 5105,
+      "sha256": "277e8292d0d478482ba5385a5fbd722720f663988352624e3fc3686be5779119"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-6/numerical.json": {
+      "bytes": 9661,
+      "sha256": "f9f58ec5ed398318f7ae32fb59e465afa288c6c38b9347904e088f81c01df7d3"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-7/numerical-complete.json": {
+      "bytes": 5111,
+      "sha256": "812ed32dda099acf9b175d6c8e11613e02357dbae93ff16e2905bb5bb7eb465e"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-7/numerical.json": {
+      "bytes": 10131,
+      "sha256": "e260795efb3902fce97b860e5f90f58dc8b95a29f2d2f0e71cc51e81adf4be10"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/run-status.json": {
+      "bytes": 13337,
+      "sha256": "56a6f931c8c9a4eb5367ef85244f497d8584eccd484a004190d1c459c2b5553d"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/parent-numerical.json": {
+      "bytes": 481,
+      "sha256": "c422f69479a94734b9ec7c3d3065335d0c53bd440907935a79cc51af43856761"
+    },
+    "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/session.json": {
+      "bytes": 5177,
+      "sha256": "6cd4d8b18cd2a542ffb6c7c1285611e2ff7ab2cae3cc2fa7c53c248e1ec68697"
+    }
+  },
+  "kind": "candidate-only-operator-pinned-inputs-v2",
+  "live_execution_binding": null,
+  "native_or_completed_cohort_reruns": 0,
+  "new_target_scope_handoff_or_authorization": false,
+  "pins": {
+    "capsule_archive": "runs/pretrained/diagnostic/pgd-component-capsule-v1-20261119/component-inputs.tar",
+    "device_observation": "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/LOCAL-DEVICE-OBSERVATION-v1.json",
+    "old_bootstrap": "models/predictor_pgd_component_bootstrap_v1.py",
+    "old_client": "models/predictor_pgd_component_client_v1.py",
+    "old_outer": "models/predictor_pgd_component_outer_v1.py",
+    "old_source_payload": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/cold-build-v6/SOURCE-PAYLOAD.json",
+    "prior_operator_input_contract": "configs/predictor_pgd_candidate_operator_inputs_v1.json",
+    "prior_seal": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/sealed-candidate-completion-v1.json",
+    "reference_archive": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/native-reference-v1.tar",
+    "reference_manifest": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/NATIVE-REFERENCE-v1.json",
+    "runtime_manifest": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/SOURCE-MANIFEST-v1.json"
+  },
+  "reference": {
+    "MANIFEST.json": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/NATIVE-REFERENCE-v1.json",
+    "native/backend.json": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/backend.json",
+    "native/complete.json": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/complete.json",
+    "native/dk.npy": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/dk.npy",
+    "native/dq.npy": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/dq.npy",
+    "native/dv.npy": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/dv.npy",
+    "native/events.json": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/events.json",
+    "native/output.npy": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/output.npy",
+    "native/ownership.json": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/ownership.json",
+    "native/parent.json": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/parent-native.json",
+    "native/progress.jsonl": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/progress.jsonl",
+    "native/resource.json": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/resource.json",
+    "native/worker.json": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/components/native/worker.json",
+    "reviews/component.json": "report/checks/2026-11-19-pgd-component-operator-v1-target-review.json",
+    "reviews/metadata.json": "report/checks/2026-11-19-pgd-engine-materialization-v1-local-review.json",
+    "reviews/pgd.json": "report/checks/2026-11-18-pgd-joint-handoff-v1-target-review.json",
+    "reviews/values.json": "report/checks/2026-11-19-pgd-component-returns-v1-local-review.json",
+    "source/boundary.json": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/source/boundary/boundary.json",
+    "source/capsule-manifest.json": "runs/pretrained/diagnostic/pgd-component-operator-v1-20261119/handoff-parent/linux10614-final-unarmed/attended-session/saved/source/MANIFEST.json"
+  },
+  "runtime": {
+    "attacks/__init__.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/attacks/__init__.py",
+    "attacks/pgd.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/attacks/pgd.py",
+    "models/__init__.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/__init__.py",
+    "models/_pgd_component_contract_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_contract_v1.py",
+    "models/_pgd_component_entry_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_entry_v1.py",
+    "models/_pgd_component_io_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_io_v1.py",
+    "models/_pgd_component_job_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_job_v1.py",
+    "models/_pgd_component_providers_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_providers_v1.py",
+    "models/_pgd_component_source_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_source_v1.py",
+    "models/_pgd_component_store_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_component_store_v1.py",
+    "models/_pgd_split_boundary_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_split_boundary_v1.py",
+    "models/_pgd_split_raw_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_split_raw_v1.py",
+    "models/_pgd_split_route_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_split_route_v1.py",
+    "models/_pgd_split_startup_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/_pgd_split_startup_v1.py",
+    "models/checkpointing.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/checkpointing.py",
+    "models/diagnostics.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/diagnostics.py",
+    "models/execution.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/execution.py",
+    "models/native_patch.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/native_patch.py",
+    "models/patch_embed.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/patch_embed.py",
+    "models/pilot.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/pilot.py",
+    "models/precision_patch.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/precision_patch.py",
+    "models/predictor_eot8_adapter_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_eot8_adapter_v1.py",
+    "models/predictor_eot8_capture_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_eot8_capture_v1.py",
+    "models/predictor_eot8_owned_receipt_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_eot8_owned_receipt_v1.py",
+    "models/predictor_eot8_record_v2.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_eot8_record_v2.py",
+    "models/predictor_pgd_candidate_accuracy_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_candidate_accuracy_v1.py",
+    "models/predictor_pgd_candidate_reference_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_candidate_reference_v1.py",
+    "models/predictor_pgd_component_capsule_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_component_capsule_v1.py",
+    "models/predictor_pgd_split_backend_v4.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_split_backend_v4.py",
+    "models/predictor_pgd_split_lineage_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_split_lineage_v1.py",
+    "models/predictor_pgd_split_plan_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_pgd_split_plan_v1.py",
+    "models/predictor_sdpa_component_events_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_component_events_v1.py",
+    "models/predictor_sdpa_component_events_v2.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_component_events_v2.py",
+    "models/predictor_sdpa_launch_evidence_v1.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_launch_evidence_v1.py",
+    "models/predictor_sdpa_launch_evidence_v2.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_launch_evidence_v2.py",
+    "models/predictor_sdpa_launch_evidence_v3.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/predictor_sdpa_launch_evidence_v3.py",
+    "models/runtime.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/runtime.py",
+    "models/training.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/training.py",
+    "models/vjepa2.py": "runs/pretrained/diagnostic/pgd-candidate-completion-v1-20261120/cold-source-v1/models/vjepa2.py"
+  },
+  "source": {
+    "MANIFEST.json": "runs/pretrained/diagnostic/pgd-component-capsule-v1-20261119/MANIFEST.json",
+    "boundary/attention-calls.jsonl": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/attention-calls.jsonl",
+    "boundary/attention-scopes.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/attention-scopes.json",
+    "boundary/boundary-complete.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/boundary-complete.json",
+    "boundary/boundary.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/boundary.json",
+    "boundary/dk.pt": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/dk.pt",
+    "boundary/dq.pt": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/dq.pt",
+    "boundary/dv.pt": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/dv.pt",
+    "boundary/grad_output.pt": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/grad_output.pt",
+    "boundary/k.pt": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/k.pt",
+    "boundary/output.pt": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/output.pt",
+    "boundary/q.pt": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/q.pt",
+    "boundary/v.pt": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/boundary/v.pt",
+    "provenance/accepted-numerical-review.json": "report/checks/2026-11-18-pgd-joint-handoff-v1-target-review.json",
+    "provenance/objective-0/VJP-calls.jsonl": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-0/VJP-calls.jsonl",
+    "provenance/objective-0/native-calls.jsonl": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-0/native-calls.jsonl",
+    "provenance/objective-0/numerical-complete.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-0/numerical-complete.json",
+    "provenance/objective-0/numerical.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-0/numerical.json",
+    "provenance/objective-0/scopes.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-0/scopes.json",
+    "provenance/objective-1/numerical-complete.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-1/numerical-complete.json",
+    "provenance/objective-1/numerical.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-1/numerical.json",
+    "provenance/objective-2/numerical-complete.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-2/numerical-complete.json",
+    "provenance/objective-2/numerical.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-2/numerical.json",
+    "provenance/objective-3/numerical-complete.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-3/numerical-complete.json",
+    "provenance/objective-3/numerical.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-3/numerical.json",
+    "provenance/objective-4/numerical-complete.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-4/numerical-complete.json",
+    "provenance/objective-4/numerical.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-4/numerical.json",
+    "provenance/objective-5/numerical-complete.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-5/numerical-complete.json",
+    "provenance/objective-5/numerical.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-5/numerical.json",
+    "provenance/objective-6/numerical-complete.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-6/numerical-complete.json",
+    "provenance/objective-6/numerical.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-6/numerical.json",
+    "provenance/objective-7/numerical-complete.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-7/numerical-complete.json",
+    "provenance/objective-7/numerical.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/numerical/objective-7/numerical.json",
+    "provenance/parent-numerical.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/parent-numerical.json",
+    "provenance/run-status.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/capture/results/run-status.json",
+    "provenance/session.json": "runs/pretrained/diagnostic/pgd-joint-handoff-v1-20261118/handoff-parent/linux10614-final-unarmed/attended-session/saved/session.json"
+  }
+}

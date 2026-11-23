@@ -2,6 +2,79 @@
 
 ## Current stage
 
+LATEST November23: CANDIDATE-ONLY OPERATOR INTEGRATED/REVIEWED LOCALLY; UNBOUND.
+Read docs/predictor_pgd_candidate_operator_v1.md, configs/predictor_pgd_candidate_operator_v1.json
+and new operator_inputs_v2 (committed inputs_v1 preserved), plus
+report/checks/2026-11-23-pgd-candidate-operator-v1-local-review.json/md. Raw stage
+pgd-candidate-operator-v1-20261123, cold-build-v2, independent-saved-review-v2.
+User stages/commits/pushes NEVER agent. Preserve every old/new source/test/auditor,
+fixture/log/failure/result/claim. Start was clean user commit a35d35a. All prior
+university grants CONSUMED. No new handoff/scope/approval/authorization/attempt,
+SSH/query/upload/proof/GPU/model/paid work or manual status paste in this stage.
+
+45 sources/754567B =39 BYTE-EXACT candidate workers/438445B +6 supervisors.
+Outer44869B/client16286B. All supervisor/client edits have whole-byte inverses;
+owned monitor/proof exact. Existing 3-role operator and sealed workers untouched.
+Only proof+forward-preserving roles. Backendv4, reference/accuracy helpers, distinct
+candidate namespace, original source+native-reference manifest plan binding.
+EXECUTION_BINDING/LIVE_EXECUTION_BINDING NULL; cold builder has NO handoff/arming API.
+
+Unchanged27279360B capsule +13281280B native-reference archive stream in fixed order
+on SAME stdin; only second consumes final EOF. 109 input pins; closed36+19 members.
+105 installed assets/17 result paths:15 candidate paths+final/collection metadata.
+Native refs immutable INPUTS, accuracy.json immutable16KiB metadata inside original
+shared64MiB. Reference/source/results pairwise disjoint; no native plan/parent/output
+or fullmodel numerical dispatch. Cache39+6, v3 absent; anchored loader/origin/parent/
+path/no-reload guards retained. Parent reader joins accuracy/reference/byte metadata;
+no numerical recompute or execution authentication by dict.
+
+Original owned lease/release pipe/isolated child/nonreaping/cleanup, real proof
+reader, GPU/storage journal, hard alarm+soft wake, causal client map and priority/
+dedup/journal/terminal gates retained. Setup180/proof60/candidate120/work2400/
+connection3000 incllogin, collection120prep/600; clocks never reset. Original3GiB
+setup/2.25capture/3response/4RSS/7allocator and raw/input/code/cache/emergency/meta/trace
+caps unchanged. Source/design gates only; actual OS/proof/RSS/GPU enforcement UNTESTED.
+
+28 distinct new checks finalPASS/39executions. First23PASS/5setup errors origin>80;
+only5rerun then5setup errors fake startupPID vsfakechild. Fixture fixed:4PASS/1failed
+assertion counted terminalcomplete_publish asphase. Only1rerunPASS:23 begin/return
+phases+terminal=47rows. Production unchanged after firstchecks; no passing/historical
+nodes or closed scientific cohorts repeated. Two complete lifecycles FAKE, opaque
+returns+fake accuracy summaries, synthetic trace/copiedinner tags. Real entry/job/
+completion/parent/transport readers run with fake compute/process/proof/timer/clock/
+GPU ports. Fake proof FALSE/0B; real reader REFUSES. No Torch/NumPy/value decode,
+actual gradient/model/profiler/process/PIDFD/signal/timer/GPU/network/proof work.
+
+Final fake transport130files/81990265expandedB/81081856wireB/980213dedupB, independent
+wireSHA a5ff477578863639aa70afd58f68dc373f778a2799dd816cabe335668ec6c6f2.
+Corrupt/truncated/trailing streams keep incomplete journals. Actual client still
+refuses non-university fixture parent. STDauditv2 PASS:26395 priorhashes/28596 prior
+fixtureentries/109pins/inverses/enforcementASTs/testhistory/fakejoins/wire. Auditorv1
+refused new namespace prefix; v2 reverses ONLY that literal, no code/test change.
+Input preparation refused existing v1 path; preserved and addedv2. Initial cold
+unbound-input refusal before emission retained; second cold build PASS.
+
+LOCAL device changed31->33. New LOCAL-DEVICE-OBSERVATION-v1 records current APFSUUID
+same as prior, tracked inode43359726+mode/uid/nlink9/mtime+all oldbytes unchanged.
+Cause/historical physicalvolume sameness UNPROVEN. Original29/31 observations stay;
+all priorfixture current lstatdevices must equal reviewed33. Old authorizedappend
+exception retained; oldFIFO LSTATONLY NEVEROPEN. Future device change: record/review
+again, NEVER silently substitute. Target device/storage/host/GPU guards unchanged.
+Currentseal sealed-candidate-operator-v1.json.
+
+NEXT SEPARATE LOCAL: prepare/review exact candidate-only attended scope+package
+from these concrete bytes, before any approval request. No live binding/arming or
+university work without exact NEW user authorization. No repeat manual GPU/keypaste.
+Actual future candidate needs its own reference/source/route/backend/FRESH values/
+restoration/resource/completion/parentwall-RSS/collection joins; then CLOSEmechanism
+diagnostic and proceed whole-workload qualification. Old candidate staysFAILED;
+completed native/8gradient4pair/clean cohorts stayCLOSED. No new FP64/fullmodel trace
+added for lifecycle repair. Broader rollout/replay/performance/hardware/recovery/
+economics/calibration/protocol/training staygated. TrainingPGD5/EOT1,routineEOT1,
+parameter-update backward/policyregistry unchanged. Project200/compute160/noncompute40/
+single10 caps+holds/billing unchanged; Oct29 financial snapshot historical, NOTfresh.
+Earlier entries historical.
+
 LATEST November20: CANDIDATE-ONLY WORKER ADAPTER REVIEWED; UNBOUND.
 Read docs/predictor_pgd_candidate_completion_v1.md, both candidate_completion configs,
 report/checks/2026-11-20-pgd-candidate-completion-v1-local-review.json/md; raw stage

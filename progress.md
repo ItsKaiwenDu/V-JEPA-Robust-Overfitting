@@ -1,5 +1,23 @@
 # Research Progress Reports
 
+November23: candidate-only supervisor/cache/scratch/collection integration passes
+locally. 39unchanged workers+6supervisors=45sources/754567B; proof+candidateONLY,
+reference_root/manifest plan binding+accuracy path. Unchanged27.28MBcapsule+13.28MBref
+stream on same connection;105assets/17results, allcaps/clocks/ownedmonitor/proof retained.
+28distinctchecksPASS/39executions:5origin then5fakePID setup errors,1terminal-phase
+assertion fixed; only affectednodes rerun, production fixed beforefirstchecks.
+Two whole lifecycles FAKE; realmetadatareaders join opaqueoutputs/fakeaccuracy and
+130file/81,081,856B wire. No Torch/NumPy/values/science/process/proof/timer/GPU/network.
+Standaloneauditv2PASS preserves26395oldhashes/28596fixtureentries/109pins and verifies
+wholebyteinverses/enforcementASTs/wire. V1namespaceassumption refused; auditoronlyfix.
+Currentlocaldevice31->33 explicitlyobserved/reviewed, samecurrentAPFSUUID+trackedinode,
+cause/physicalhistoricalidentity unknown; oldrecords+targetguards unchanged, FIFOlstatonly.
+No scope/handoff/approvalrequest/arming/attempt; executionbindingNULL. NextSEPARATElocal
+stage prepares/reviews exactcandidate-only attendedscope/package before newapproval.
+Oldcandidatefailure and closednative/PGD/clean cohorts preserved; research/training and
+financialcaps/holds unchanged. User stages/commits/pushes. See
+report/checks/2026-11-23-pgd-candidate-operator-v1-local-review.md.
+
 November20: candidate-only worker adapter now emits39sources/438445B usingbackendv4,
 read-onlyacceptednative references andunchangedscientificproviders. Unchanged27.28MB
 capsule plus13.28MBnative-ref archive;0newfullobjectives/native/cohort/FP64 work.

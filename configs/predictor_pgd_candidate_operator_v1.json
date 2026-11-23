@@ -1,0 +1,197 @@
+{
+  "actual_process_signal_timer_proof_GPU_model_gradient_profiler_or_network_work": false,
+  "actual_tensor_or_array_value_decode_or_comparison": false,
+  "all_source_byte_inverses_verified": true,
+  "candidate_reference_plan_binding": {
+    "boundary_sha256": "9e4758d2209b9fd989926ee40d2ad92cc4b99aa98c86e6cec0722eaf6a83308d",
+    "numerical_sha256": "56a6f931c8c9a4eb5367ef85244f497d8584eccd484a004190d1c459c2b5553d",
+    "original_sha256": "348f5ee5843a42a63c924ce19944228ff1cb9aed4bf288876de6a7298d8921e2",
+    "reference_manifest_sha256": "3dc2484c07c04bb72593c2ee386824edf52b8d80ec0fe3bb803e645714e5d932"
+  },
+  "candidate_result_paths": 15,
+  "catalogue_sha256": "f59db77f4c928b3f1af23915c99c9a84c6673f8cfb68093db0dee613b1488acd",
+  "cold_build": "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/cold-build-v2",
+  "completed_native_clean_PGD_cohort_reruns": 0,
+  "date": "2026-11-23",
+  "derivation_sha256": "15d62fab8e125ea24723791db42f7087a12fde9016890bfa84aecae9394856d8",
+  "execution_binding": null,
+  "fake_completed_lifecycles": 2,
+  "financial_caps_holds_and_historical_failures_unchanged": true,
+  "independent_audit_history": {
+    "first_version": "Refused expected target namespace prefix difference; all versions retained.",
+    "production_or_passing_tests_repeated": false,
+    "second_version": "PASS; reverse exactly one declared prefix literal, require all host/device/ownership/filesystem guards otherwise AST-exact."
+  },
+  "independent_review": "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/independent-saved-review-v2.json",
+  "independent_review_result": "PASS",
+  "independent_review_sha256": "d7cca5a1fc4a324d22dbf2747a67ec45307134d9e7873708ac50f40c011c10f4",
+  "input_contract": "configs/predictor_pgd_candidate_operator_inputs_v2.json",
+  "kind": "pgd-candidate-only-operator-local-integration-v1",
+  "local_device_observation": "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/LOCAL-DEVICE-OBSERVATION-v1.json",
+  "local_ports_are_explicitly_fake": true,
+  "native_reference": {
+    "archive": {
+      "bytes": 13281280,
+      "sha256": "dbaee50b765273f530976e9b8a8301ee055f4e2dc76b006239b4864b306b7d75"
+    },
+    "files": {
+      "MANIFEST.json": {
+        "bytes": 3289,
+        "sha256": "3dc2484c07c04bb72593c2ee386824edf52b8d80ec0fe3bb803e645714e5d932"
+      },
+      "native/backend.json": {
+        "bytes": 3268,
+        "sha256": "4bd060d01524a8381c0dc978fd0ff248d3f1e25742df0c581b40ef47ddaa9bc5"
+      },
+      "native/complete.json": {
+        "bytes": 632,
+        "sha256": "51407b1c1569e6e870695b0f2ddaa6d79bb0a20a69b3d59ee3181b84e91a6b98"
+      },
+      "native/dk.npy": {
+        "bytes": 3145856,
+        "sha256": "c31f6d5017e237d9488ad8ba96f745ddbcf1e5e21eb5224d618c7998f92fb49b"
+      },
+      "native/dq.npy": {
+        "bytes": 3145856,
+        "sha256": "218dc436f9795ef1014e910c990534eb75a06676b28145595964f0653d864afb"
+      },
+      "native/dv.npy": {
+        "bytes": 3145856,
+        "sha256": "46e728741ea905d43a9ebb3e0ea44f9bd7e0bf7750b6b5641e81b8f6e4d09134"
+      },
+      "native/events.json": {
+        "bytes": 569123,
+        "sha256": "97139d0db676bf14e2e14a0b294611687cec3e0860279e4755067c1c13b2c916"
+      },
+      "native/output.npy": {
+        "bytes": 3145856,
+        "sha256": "47f0ac9fbba30e14e9b82011f062596c32c05c6fa152aa89d5c1168e73b1c618"
+      },
+      "native/ownership.json": {
+        "bytes": 2845,
+        "sha256": "2bae7b2feb0c26f3238db3b07dfbee04114e2f5a77ebc7b191e3aa24f7cf2536"
+      },
+      "native/parent.json": {
+        "bytes": 435,
+        "sha256": "cc57544291e2896af1996a1c05e20715fa9bde424c8b705c84c1a067198cb12e"
+      },
+      "native/progress.jsonl": {
+        "bytes": 29650,
+        "sha256": "e13db72771087f38fb6cdbc6e7fa87a70f3b2fb03b80d35739ae0c0ecb82a134"
+      },
+      "native/resource.json": {
+        "bytes": 1197,
+        "sha256": "aa5917e82ed385bd748fa878cf97e30a3b163f2b6dc7b49c248396bd03e9aa36"
+      },
+      "native/worker.json": {
+        "bytes": 6329,
+        "sha256": "6f1cdea1d114cc605103c645cd379f3c12867ae88855c211e97d0fd26e3fea29"
+      },
+      "reviews/component.json": {
+        "bytes": 9305,
+        "sha256": "45318db20a419f3f2671be590b3b3fe218f35a2a2ca0f935a37de727eceaa3f2"
+      },
+      "reviews/metadata.json": {
+        "bytes": 8346,
+        "sha256": "332667b3c9a6902464f75a920fb8c45bed5c37fc0387e4e9e45554de257dc56b"
+      },
+      "reviews/pgd.json": {
+        "bytes": 7914,
+        "sha256": "13d2a40d2a989d9433f042dcf59187f84850ea8294e4ad8f494accda00074c8b"
+      },
+      "reviews/values.json": {
+        "bytes": 7963,
+        "sha256": "1c632f09f34e05e37516df19c27d855780738c1208c42e3691890665f9622b53"
+      },
+      "source/boundary.json": {
+        "bytes": 9234,
+        "sha256": "9e4758d2209b9fd989926ee40d2ad92cc4b99aa98c86e6cec0722eaf6a83308d"
+      },
+      "source/capsule-manifest.json": {
+        "bytes": 13480,
+        "sha256": "a7e6740c69f5f3bf8c5fc6b71683296f2c9ebc818b644814b2f37eaf983c0e24"
+      }
+    },
+    "manifest_sha256": "3dc2484c07c04bb72593c2ee386824edf52b8d80ec0fe3bb803e645714e5d932"
+  },
+  "new_FP64_or_full_model_trace": false,
+  "new_full_model_objectives": 0,
+  "new_target_scope_handoff_authorization_live_binding_or_attempt": false,
+  "next_step": "Prepare and review a separate exact candidate-only attended scope/package in a later stage; no remote authorization is created or requested by this local integration.",
+  "pinned_inputs": 109,
+  "previous_input_contract_preserved": "configs/predictor_pgd_candidate_operator_inputs_v1.json",
+  "prior_fixture_entries": 28596,
+  "prior_hashes": 26395,
+  "real_OS_resource_deadline_ownership_or_science_enforcement_qualified": false,
+  "real_completion_parent_and_transport_metadata_readers_exercised": true,
+  "real_proof_reader_refuses_fake_receipt": true,
+  "runtime_bytes": 438445,
+  "runtime_files": 39,
+  "runtime_roles": [
+    "proof",
+    "forward-preserving"
+  ],
+  "scientific_workers_owned_monitor_and_proof_bytes_unchanged": true,
+  "simulated_collected_files": 130,
+  "simulated_flow": "runs/pretrained/diagnostic/pgd-candidate-operator-v1-20261123/pytest-fixtures-v4/candidate-integrated-flow0",
+  "simulated_transport": {
+    "deduplicated_bytes": 980213,
+    "expanded_bytes": 81990265,
+    "wire_bytes": 81081856,
+    "wire_sha256": "a5ff477578863639aa70afd58f68dc373f778a2799dd816cabe335668ec6c6f2"
+  },
+  "source_cache_installed_only_in_private_fake_registry": true,
+  "source_payload_bytes": 1008194,
+  "source_payload_sha256": "7c9265376168d0f71ff886360808c7bd9957243de0e58d2d39f07a89b07e99fa",
+  "source_pins": {
+    "configs/predictor_pgd_candidate_operator_inputs_v2.json": "54ccc4bb05f54adc45e14829221543aee4d8ab6166700b4a792ea10f2b2b36e4",
+    "models/predictor_pgd_candidate_bootstrap_v1.py": "9a15d0590184c3dc62f8e8a4c5d05c687e7fcfbaefef7e411b3321cf6c5d75f7",
+    "models/predictor_pgd_candidate_client_v1.py": "a70e3088cc363f4137050876176730b5f0c51665c2327fb5a4958fceb6227a11",
+    "models/predictor_pgd_candidate_collection_v1.py": "e267b99805b3f2300495696f6b961bb88f7257c237d9829041f0173d76fc14a4",
+    "models/predictor_pgd_candidate_operator_v1.py": "4f733841f3474de4339bcd8f9696044ca8818cb307006bf4a9ba0b65499bae5e",
+    "models/predictor_pgd_candidate_outer_v1.py": "7327ca5ff5e81f872ef663b82a582a31f5f0ef6a39df5e34b57d6b53852f9b02",
+    "models/predictor_pgd_candidate_scratch_v1.py": "c4e2c62ec5f1d78c9afc2fd314cb34c559392633e1a55cfdb5a20afad754511e",
+    "tests/test_predictor_pgd_candidate_operator_v1.py": "a673820e1555c90f5aa6ea5ccfb57c795a0e27afbb0f15a0b02c8f2742bc6569"
+  },
+  "supervised_control_sha256": "0be5267678bbd45a63649b1dc39429ee9a2543e6cf305e1355260b7a0925f99c",
+  "supervisor_files": 6,
+  "tests": {
+    "corrections": "Fixture origin length, fake startup PID, and failed progress assertion only; production unchanged after first checks. 23 required begin/return phases plus a terminal complete_publish row =47 rows.",
+    "distinct_pass": 28,
+    "executions": 39,
+    "passing_or_historical_nodes_repeated": 0,
+    "runs": [
+      {
+        "executions": 28,
+        "passed": 23,
+        "setup_errors": 5,
+        "version": 1
+      },
+      {
+        "executions": 5,
+        "setup_errors": 5,
+        "version": 2
+      },
+      {
+        "executions": 5,
+        "failed": 1,
+        "passed": 4,
+        "version": 3
+      },
+      {
+        "executions": 1,
+        "passed": 1,
+        "version": 4
+      }
+    ]
+  },
+  "training_admitted": false,
+  "unchanged_capsule": {
+    "bytes": 27279360,
+    "sha256": "82a30efedfb0e85fd39c634c5bd0a8b82bd839b91bc7259841e2d517d495011e"
+  },
+  "uploaded_source_bytes": 754567,
+  "uploaded_source_files": 45,
+  "whole_scratch_assets_with_installation": 105,
+  "whole_scratch_result_paths": 17
+}

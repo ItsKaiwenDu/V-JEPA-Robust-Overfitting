@@ -1,5 +1,12 @@
 # V-JEPA Robust Overfitting
 
+**Candidate supervisor integration reviewed locally (November 23):**
+[The candidate-only supervisor and collector pass 28 new checks](report/checks/2026-11-23-pgd-candidate-operator-v1-local-review.md).
+The unchanged worker and native reference now join source-cache, ownership, clock,
+accuracy and collection interfaces. Local runs use explicit fake ports; no GPU
+work or training is admitted. Next prepare a separate exact attended scope/package
+before any new authorization. Earlier entries are historical snapshots.
+
 **Current training readiness (November 19):**
 [The evidence checklist records completed checks and the remaining path to training](docs/training_readiness_20261119.md).
 Clean EOT8 replay, matched PGD numerical checks and saved component accuracy pass.
