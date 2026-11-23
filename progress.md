@@ -1,5 +1,28 @@
 # Research Progress Reports
 
+November23: target-sized whole-PGD runtime/source+session integration reviewed
+locally.47files/450166B,46modulecache,49pins; five full-byte inverses and scientific
+AST checks.26new checks PASS once/26executions; no production change afterchecks.
+2complete fake primary/convergence lifecycles +1partial-collection lifecycle,
+failure-stop/cache/catalogue/clock tests and fake emitted OwnedStep timer cleanup.
+Exact old scanner/Guard/caps; whole-unit monitor ONLY120->720/.1->.5s/kind edits,
+allowned-handle/RSS/cleanup logic exact. Objective120s/RSS4GiB/allocator7GiB/native
+4096/predictor384+192caps retained; unit720 isnew designbound within original2400
+work/3000connection, NOT grant/fit proof. Original proof reader refuses fakeFALSE/
+0Bproof; only ordinary16MiB reserves/opaque bytes real.0Torch/NumPy/model/gradient/
+GPU/realOS/timer/proof/SSH/paidwork; prior successful tiny CPU gradient andclosed
+cohorts NOT repeated.315/675-file priority/dedup transports independentlyverified;
+partial/session/work incomplete flags preserved, explicitfake metadata notscience.
+StandaloneSTDaudit PASS first-run:31685oldhashes/35004oldfixtures/5093newfixtures,
+FIFO lstatonly/device33 conditional. All histories preserved; currentseal
+sealed-workload-runtime-v1.json. NEXT local concrete OS/bootstrap/executable-cache/
+client adapter with hard unit+objective clocks/proof/GPU/parentRSS/collection before
+scope/handoff/approval. Live bindingsNULL; all grants consumed. Mechanism CLOSED;
+whole target workload/replay/performance/hardware/economics/calibration/protocol/
+training still gated. Policies/study/finances unchanged; user stages/commits/pushes.
+See report/checks/2026-11-23-pgd-workload-runtime-v1-local-review.md and
+ docs/predictor_pgd_workload_runtime_v1.md. Earlier entries historical.
+
 November23: separate local whole-PGD input-gradient adapter reviewed.24 distinct
 checks PASS/26 executions: initial20PASS/2 final-mode failures; only those2 rerun
 after final observation correction, both PASS;2 NEW caller-timing cases PASS once.

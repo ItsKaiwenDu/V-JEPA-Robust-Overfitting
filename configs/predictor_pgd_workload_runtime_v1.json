@@ -1,0 +1,65 @@
+{
+  "actual_scientific_or_GPU_execution": false,
+  "design_clocks_seconds": {
+    "connection_including_login": 3000,
+    "each_owned_gradient": 120,
+    "each_whole_unit": 720,
+    "proof": 60,
+    "same_connection_collection": 600,
+    "setup": 180,
+    "work_including_setup": 2400
+  },
+  "diagnostic_step_sizes_255": [
+    0.5,
+    1,
+    2
+  ],
+  "execution_binding": null,
+  "input_contract": "configs/predictor_pgd_workload_runtime_inputs_v1.json",
+  "kind": "whole-pgd-target-runtime-local-design-v1",
+  "live_OS_binding": null,
+  "local_test_plan": {
+    "actual_gradients_models_Torch_NumPy_or_GPU_work": 0,
+    "additional_partial_collection_fake_lifecycle": 1,
+    "distinct_nodes": 26,
+    "passing_or_closed_scientific_tests_repeated": false,
+    "positive_complete_fake_lifecycles": 2,
+    "real_OS_process_signal_timer_or_2_5GiB_proof_work": false
+  },
+  "maximum_total_entries": 1024,
+  "methods": {
+    "convergence": {
+      "gradients_per_unit": 100,
+      "restarts": 2,
+      "steps": 50
+    },
+    "primary": {
+      "gradients_per_unit": 40,
+      "restarts": 2,
+      "steps": 20
+    }
+  },
+  "next_binding_requirement": "Concrete OS launcher/bootstrap, executable cache, hard worker/objective timer, live GPU/proof, bounded client collection must be separately derived/reviewed before any scope/handoff/approval.",
+  "research_admitted": false,
+  "research_step_selected": null,
+  "resource_design": {
+    "RSS_bytes": 4294967296,
+    "allocator_bytes": 7516192768,
+    "candidate_forward_calls_per_gradient": 384,
+    "candidate_initial_VJPs_per_gradient": 192,
+    "native_calls_per_gradient": 4096,
+    "observed_samples": 2400,
+    "owned_processes": 64,
+    "whole_unit_sampling_interval_seconds": 0.5
+  },
+  "roles": [
+    "proof",
+    "original-unit",
+    "candidate-unit",
+    "candidate-replay"
+  ],
+  "shared_scratch_caps_unchanged": true,
+  "source_envelope_bytes": 2097152,
+  "training_admitted": false,
+  "whole_unit_metadata_reservation_below_bytes": 33554432
+}

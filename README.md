@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Target-sized whole-PGD runtime reviewed locally (November 23):**
+[All 26 new source and fake-port checks pass once](report/checks/2026-11-23-pgd-workload-runtime-v1-local-review.md).
+The separate full-size runtime joins original/candidate/replay roles with scratch,
+owned monitoring and bounded collection. Scientific sources and prior evidence
+are preserved. Next derive the concrete OS/bootstrap/client adapter locally;
+execution remains unbound, with target performance and training still gated.
+Earlier entries are historical snapshots.
+
 **Whole-PGD adapter reviewed locally (November 23):**
 [Twenty-four distinct local checks pass](report/checks/2026-11-23-pgd-workload-v1-local-review.md).
 Complete primary/convergence analytic controls preserve original selection/scoring,

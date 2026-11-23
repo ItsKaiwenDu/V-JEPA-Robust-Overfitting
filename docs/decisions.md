@@ -791,3 +791,32 @@ repeat completed scientific cohorts, widen old guards, register a training polic
 or change study/calibration settings. Target workload/replay/performance, hardware
 memory/recovery, economics, calibration and protocol/adoption gates remain. All
 remote grants are consumed; financial caps and holds remain unchanged.
+
+
+## 2026-11-23 — Keep target whole-unit OS binding separate from cold derivation
+
+The [target-sized whole-PGD runtime](predictor_pgd_workload_runtime_v1.md) emits
+47 source files with a 46-module cache, preserving the reviewed attack/evaluator
+flow and frozen scientific ownership/math methods. All 26 new checks pass once.
+Separate proof/original/candidate/fresh-replay roles join through explicit fake
+OS/compute ports, the original scratch Guard and bounded priority collection.
+Two complete transports are independently reconstructed; failed/partial records
+and every source version remain unchanged. The successful earlier CPU gradient
+and completed scientific cohorts were not repeated.
+
+Use a new 720-second whole-unit design bound while retaining the 120-second owned
+objective bound, original RSS/allocator/call caps and continuing2400/3000-second
+work/connection ceilings. The derived monitor changes only deadline, cadence and
+schema; ownership and cleanup predicates retain exact inverses. Fake clocks,
+processes, proof and numerical receipts establish no physical enforcement or
+scientific/performance admission. Real proof verification refuses the false local
+proof receipt. No Torch/NumPy/model/gradient, GPU, real process/signal/timer, storage
+proof, SSH or paid work ran in this stage.
+
+Next derive the concrete OS/bootstrap/executable-cache/client adapter with hard
+unit/objective timers, proof/live GPU ownership, parent resource and collection
+joins, and test locally before any new scope, handoff or approval request. Keep
+all live bindings null meanwhile. Target workload/replay/performance, hardware
+recovery/memory, economics, calibration and data/protocol/adoption gates remain.
+Mechanism completion stays closed; study/training policies and financial caps/
+holds are unchanged. User stages/commits/pushes.

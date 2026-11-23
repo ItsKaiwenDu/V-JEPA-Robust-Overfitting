@@ -2,6 +2,90 @@
 
 ## Current stage
 
+LATEST November23: TARGET-SIZED WHOLE-PGD RUNTIME REVIEWED LOCALLY; OS UNBOUND.
+Read docs/predictor_pgd_workload_runtime_v1.md, both runtime configs and
+report/checks/2026-11-23-pgd-workload-runtime-v1-local-review.json/md. Raw stage
+pgd-workload-runtime-v1-20261123. User stages/commits/pushes NEVER agent. Preserve
+all source/test/auditor versions, cold-build histories, fixtures, logs, failures,
+results and claims. Clean committed baseline c678c0e. All remote grants consumed.
+No scope/handoff/approval request, SSH/query/upload/GPU/proof/paid work or repeated
+manual paste occurred or is authorized by this local stage.
+
+Cold graph47 source files/450166B, module cache46, input pins49. Five derived files
+have full-byte inverses. PGD/evaluator function bodies AST-exact to reviewed local
+bridge. Frozen scientific/native ownership/math VJP methods unchanged. Separate
+entry refuses BEFORE scientific imports when EXECUTION_BINDING=None; target unit
+OBJECTIVE_TIMER=None, route EXECUTION_HOST=None. No CPU/tiny fallback in new route.
+Original full1x3x16x256x256 CUDA0, Linux/Python3.11.17/Torch2.8.0+cu128/CUDA12.8/
+NumPy2.4.6/packet/checkpoint/upstream/shared-fp64-native preparation retained. No
+new pixel/checkpoint package materialized. Old entries/sources unchanged.
+
+Primary20/R2=40 contexts or convergence50/R2=100; roles proof/original-unit/
+candidate-unit/candidate-replay. Original starts/projection/consider-before-backward/
+selection/8attack+4score draws/two families/0or2 independent audit banks/no-grad
+scoring retained. .5/1/2 steps diagnostic only. Candidate192 initialVJPs/384 calls,
+native4096 cap PER GRADIENT; original owned backward unchanged. Fixed bytes/versions,
+APIs/flags/modes/RNG/parameter gradients/private methods/hooks checks retained with
+device-aware byte observations. No lean numerical/ownership variant for timing.
+Full model byte hashing remains observed overhead, no throughput estimate.
+
+Original scanner/assessment/Guard exact; only new catalogue/classification. Closed
+result paths265 primary/625 convergence, metadata reservation below32MiB; shared
+64MiB+trace/8MiBtrace and3GiBsetup/2.25GiBcapture/3GiBcollection unchanged. Owned
+monitor whole-byte inverse: ONLY unit120->720, cadence.1->.5s, observation kind.
+All handle/birth/tree/RSS/cleanup gates otherwise exact. Original proof monitor
+byte-exact. RSS4GiB/allocator7GiB/process64/thread512/sample2400 unchanged. Each
+owned gradient120s retained; separate whole-unit720s design ceiling. Setup180+
+proof60+3units720=work2400; collection600/connection3000 incllogin. DESIGN bounds,
+NOT grant or assured fit; sampled RSS NOTinstantaneousquota/exhaustive proof.
+
+26 new distinct checks PASS/26 executions FIRST RUN; no production change after
+checks and no repeats. Two complete fake lifecycles +one additional fake lifecycle
+for partial collection. Eight stop-on-failure +eight metadata mutation cases;
+cache/catalogue/clocks, unbound entry and fake emitted OwnedStep timer/cleanup.
+ALL process/GPU/compute/proof/handle/timer/capacity ports explicitly FAKE. Ordinary
+16MiB reserve fixtures +opaque source/JSON copies are REAL filesystem work. Fake
+proof passedFALSE/completeFALSE/0 proof bytes; REAL proof reader REFUSES it.
+0 Torch/NumPy/model/gradient/GPU/real process/PIDFD/signals/timers/2.5GiBproof/SSH/
+paid work. Successful prior tiny CPU gradient/analytic units and completed PGD/
+native/clean cohorts NOT rerun.0 new FP64 oracle/fullmodel trace. Mechanism CLOSED.
+
+Priority/dedup codec only dependency/schema bridges; complete315/675-file local
+transports independently reconstructed frame/reference/payload/hash/mode/mtime/
+prefix/terminal/trailing bytes. Session completeFALSE, work collectionFALSE and
+all partial journalsFALSE retained; separate transportTRUE. Fake replay exact
+metadata is NOT actual target replay or original/candidate numerical agreement.
+Local binding approvedFALSE/maximum attempts0; authorization_sha256 names this
+REJECTED simulation binding, not a grant. Metadata readers never authenticate
+science/execution by dictionary. Negative mutated records/failures retained.
+
+Standalone stdlib saved audit PASS first-run:31685 prior hashes/35004 prior fixture
+entries/5093 new fixture entries/49 pins/source+scientific AST inverses/bothwirejoins.
+No project/test callbacks, array decode/recalculation or process/timer/signal/GPU/
+proof/network activity IN AUDIT. Old FIFO LSTAT ONLY NEVER OPEN. Current device33
+matches prior conditional local observation; if changed record/review, no remap.
+Cold buildv1 refused incorrect cadence span BEFORE emission; v2 initial45 graph,
+v3 final47 graph emitted before checks; all source/log/snapshots retained. Current
+seal sealed-workload-runtime-v1.json; mutable indexes before/after snapshots kept,
+live indexes excluded from seal. No measured percentage/time-to-training established.
+
+NEXT LOCAL: derive concrete NEW OS launcher/bootstrap/executable cache/client
+around this core. Old component operator INCOMPATIBLE: four roles,46-modulecache,
+new265/625 paths, full-packet/checkpoint args and exact child plan/source identity.
+Bind continuing hard unit/objective timers, original real-proof/live GPU/owned
+monitor gates, parent wall/RSS and bounded same-connection priority collection.
+Use explicit fake OS/compute ports locally; no actual process/clock enforcement,
+live cache install or blocking-I/O interruption established here. Do NOT create
+scope/handoff/ask approval until that concrete adapter passes integrated tests.
+Do not widen old sealed/CPU entries. Then real current-route whole units, fresh
+perturbed target rollout replay and matched complete-unit timing/explicit overhead
+remain, followed by chosen-hardware memory/exact recovery/economics/calibration/
+data-protocol-adoption. No new mechanism parser loop without actual failure.
+TrainingPGD5EOT1/routineEOT1/optimizerbackward/policyregistry/studyYAML unchanged;
+research/training admission FALSE. Financial200/160/40/single10caps+holds unchanged;
+Oct29 wallet/encumbrance historical, not current quotes/balance. Earlier entries
+historical.
+
 LATEST November23: LOCAL WHOLE-PGD ADAPTER REVIEWED; TARGET RUNTIME UNBOUND.
 Read docs/predictor_pgd_workload_v1.md, both workload configs, and
 report/checks/2026-11-23-pgd-workload-v1-local-review.json/md. Raw stage
