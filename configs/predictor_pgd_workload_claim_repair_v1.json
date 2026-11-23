@@ -1,0 +1,31 @@
+{
+  "client_source": "models/predictor_pgd_workload_handoff_client_v1.py",
+  "derived_client_artifact_unbound": true,
+  "kind": "whole-pgd-claim-namespace-local-repair-v1",
+  "local_test_plan": {
+    "all_clock_process_threads_pipe_network_proof_GPU_compute_ports": "EXPLICITLY FAKE",
+    "byte_inverse_case": 1,
+    "distinct_cases": 16,
+    "negative_claim_mutations": 13,
+    "new_complete_fake_client_lifecycle": 1,
+    "old_passing_or_scientific_cases_repeated": false,
+    "old_v1_source_counterexample": 1,
+    "real_filesystem": "private fixture bytes/JSON only"
+  },
+  "new_scope_handoff_grant_authorization_or_target_work": false,
+  "preserve_received_claim_before_validation": true,
+  "rejected_client_prefix": "vjepa-pgd-candidate-v1-",
+  "scientific_sources_or_resource_clocks_changed": false,
+  "server_and_repaired_client_prefix": "vjepa-pgd-workload-v1-",
+  "server_source": "models/predictor_pgd_workload_handoff_outer_v1.py",
+  "source_files": {
+    "models/predictor_pgd_workload_handoff_client_v1.py": {
+      "bytes": 16100,
+      "sha256": "95b170aa045cc96178b2cd53f0f0c7c65e294bc3f570e74d3640ba92ff932f33"
+    },
+    "models/predictor_pgd_workload_handoff_outer_v1.py": {
+      "bytes": 42991,
+      "sha256": "83ff67f13614962efa2b9ba65239143dc7b3679745c20cf7f91dcfff5a6c95ce"
+    }
+  }
+}

@@ -1,5 +1,72 @@
 # Research Progress Reports
 
+November23: attended whole-PGD49c76bde... attempt FAILED/clientclaim refusal; grant
+CONSUMED/all grants consumed. UserDone inspectedbound ATTEMPT/session/errors FIRST.
+ATTEMPT/auth join; ValueError durableclaim/clocks; onlyempty stderr else. No raw
+claim/ROOTreceipt/collection/saved/proof/unit evidence, no SSHstatus. Actual SSH did
+run; remote setup/proof/GPU/worker progress UNKNOWN, no target qualification. No
+retry/retrieval/query/upload/GPU/proof/paidwork/newscope/approval in review.
+Source defect: server workload-v1 prefix vsclient candidate-v1 twice, old scope
+also candidate. Earlier tests missed positive claim path. Preserveold failedbytes.
+New derive-only claim_repair config/helper produces UNBOUND client3byte inverse
+edits:2prefix corrections+CLAIM-OBSERVED beforeguard. No newouter/CLI/pins/package.
+16newchecksPASS once:inverse+oldcounterexample+newfakeclient+13negativeguards. All
+process/clock/thread/compute/proof/GPU/collection ports FAKE; collectionstub not
+fullserver/codec/worker qualification. Onlyprivate fixture bytes/JSON real; no
+old passing/scientific/tinygradient/cohort repeats. Saved STDauditv1PASS first-run:
+45248oldhashes/49778oldfixtures/207newfixtures, no callbacks/array calculations;
+FIFO lstatonly/device33conditional. Currentpackage inode44893436 and5hashes fixed,
+4oldfile fullstatfields fixed/AUTHpriorrecordedfields fixed (historicalAUTHinode
+unrecorded/unclaimed); directory nlink6->7->9/mtime exactauthorizedlifecycle. All
+old exceptions/failures preserved; seal sealed-workload-target-review-v1. NEXT
+local repaired client/outer/CLI binding with exact imports/pins/positive integrated
+claim+collection before anynewscope/approval. MechanismCLOSED/target+traininggated/
+policies/study/finances unchanged. User stages/commits/pushes. See
+report/checks/2026-11-23-pgd-workload-handoff-v1-target-review.md and
+ docs/predictor_pgd_workload_claim_repair_v1.md. Earlier entries historical.
+
+November23: exact primary whole-PGD10614 scope APPROVED/ARMED/UNSPENT. User "I approve."
+directly follows49c76bde... request; DO NOTaskagain. AUTH1725B/bad05798b2c3490b613de88f9f79427a930a5fb76f268648412c2d78f300c5a4,
+ONE O_EXCL append; all4oldfile hashes/stat fields and source/control/name fixed.
+Package directory inode44893436/device33/uid/gid/mode exact; tracked nlink6->7/mtime
+only. Parent unchanged. Real NEW local preflightPASS13pins/55sources895657B/
+47runtime450166B/original17.19MBpacket. STDauditv1PASS first-run:45219oldhashes/
+49753oldfixtures, FIFO lstatonly/deviceconditional; old append/lifecycle exceptions
+retained. All prior uncommitted preparation/new arming evidence preserved. No
+test/cohort/model repeat, no SSH/attempt/session/proof/GPU/timer/science/paidwork.
+NEXT one user-attended Mac command withVPN/awakeMac/lid/Terminal/passwordprompt,
+proof2.5GiB60s then original/candidate/fresh replayPGD20R2/step1/0extra audits/
+120input gradientsMAX, objective120/unit720 within soft2280/hard2400/final120/
+collection600/total3000incllogin. Laterrole maygetLESS720/refuse, no fitguarantee.
+No retry/separate retrieval/native/closedcohort repeats/newFP64/fulltrace/training.
+OnDone/error inspectbound ATTEMPT/session/errors FIRST; never rerun/reset. Current
+seal sealed-workload-arming-v1; mechanismCLOSED/traininggated/policies/study/financial
+caps/holds unchanged. User stages/commits/pushes. See
+report/checks/2026-11-23-pgd-workload-handoff-v1-arming.md. Earlier entries historical.
+
+November23: exact PRIMARY whole-PGD attended scope/package reviewed UNARMED.
+Outer49c76bdee54fe048199f77381946556df303c46b7b658ddd08f0ec10c140ee2a,
+supervisedbc53eda6e44e8cfae82bf58e2b567461ede9c5a395d742d00f20944d6005df1c.
+55sources895657B/all47runtime450166B exact;13locals/42991Bouter/original17.19MBpacket.
+Only localpins/clientimport/NEWCLIimport differ,3byte inverses. Four0600 unarmed
+files under0700; noAUTH/ATTEMPT/session/SSH/query/upload/GPU/proof/model/paidwork.
+20checksPASS once/20executions/0fail/0correction, fakegrant/CLI ports ONLY; opaque
+bytes/filesystem real, no actual process/timer/science. Prior22operator checks and
+closed cohorts NOTrerun. STDauditv1PASS first-run:44936oldhashes/49371oldfixtures/
+382newfixtures/20pins/15currentfiles/13locals/3inverses. FIFO lstatonly/device33
+conditional; allversions/claims/failures preserved. Seal sealed-workload-handoff-v1.
+Proposed ONE attended10614 proof2.5GiB60s then original/candidate/fresh replay
+PGD20/R2/step1 diagnostic/0extra audits,40gradients each/120MAX;<=15360candidate
+initial innerVJPs. Objective120/unit720 within softwork2280/hard2400/finalization120/
+collection600/total3000incllogin; laterroles mayget LESS720 or refuse, nofitpromise.
+Original resource/ownership/science clocks unchanged. No extra component/native/
+closed PGD2-clean repeats/newFP64/fulltrace/warmups/training. NEXT one exact fresh
+approval beforearming; do not askagain ifapproved. Allold grantsCONSUMED. Mechanism
+CLOSED; targetworkload/replay/performance/hardware/recovery/economics/calibration/
+protocol/adoption remain. Policies/study/financialcaps/holds unchanged; user stages/
+commits/pushes. See report/checks/2026-11-23-pgd-workload-handoff-v1-local-review.md
+and docs/predictor_pgd_workload_handoff_v1.md. Earlier entries historical.
+
 November23: concrete whole-PGD OS/bootstrap/client adapter locally reviewed.
 47runtime/450166B exact;55uploads=46runtime+9supervisors (frozen plan helper added),
 primary895657B/convergence1004625B. Original scanner/Guard/proof/ownership/Alarms/

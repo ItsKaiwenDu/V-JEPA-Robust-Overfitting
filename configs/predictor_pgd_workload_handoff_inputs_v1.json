@@ -1,0 +1,103 @@
+{
+  "execution_binding": null,
+  "files": {
+    "configs/predictor_pgd_workload_operator_inputs_v2.json": {
+      "bytes": 35275,
+      "sha256": "2b833c7cfb22880a897f2bde4042f2bd331db0b6292f58265af68d7e78ef3a60"
+    },
+    "configs/predictor_pgd_workload_operator_v1.json": {
+      "bytes": 1806,
+      "sha256": "59c966e788ffdd5db245eb779c5aa0ec496a91d4233fff571c0612ec5bbddf80"
+    },
+    "configs/predictor_pgd_workload_runtime_v1.json": {
+      "bytes": 2002,
+      "sha256": "a9b560f833162aa1566ee570f22ca13bc118f0c4ff9ba9a3855480918ee4b2fd"
+    },
+    "models/__init__.py": {
+      "bytes": 86,
+      "sha256": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5"
+    },
+    "models/predictor_pgd_candidate_handoff_v1.py": {
+      "bytes": 9702,
+      "sha256": "79c698e06be25dc1b5f07fec542f7adc2a02bf18b0ca4c3a97a0c0055f43ea70"
+    },
+    "models/predictor_pgd_split_plan_v1.py": {
+      "bytes": 15697,
+      "sha256": "cdd2729d2f05782d269a45aa4c22412dcff7b9c5d684267550eb16f59c838ba6"
+    },
+    "models/predictor_pgd_workload_bootstrap_v1.py": {
+      "bytes": 128649,
+      "sha256": "5a5e68be3148ce93acad8f06cf0568e2c8c00eb5b45057dd63d8f755db358ae3"
+    },
+    "models/predictor_pgd_workload_client_v1.py": {
+      "bytes": 16092,
+      "sha256": "6cb7856003fde279274efb21066f69fdc4539fa24851490d168290b9d0e59d5b"
+    },
+    "models/predictor_pgd_workload_collection_v1.py": {
+      "bytes": 59846,
+      "sha256": "cf18366aee4b1766f99d3b71be0bc008aeca48055b049406b2205a51b3fad9ed"
+    },
+    "models/predictor_pgd_workload_operator_v1.py": {
+      "bytes": 21055,
+      "sha256": "d00f459dffbe6550733d9cd73dd99a119106667cf85007bcad124eee9228144b"
+    },
+    "models/predictor_pgd_workload_os_v1.py": {
+      "bytes": 15436,
+      "sha256": "da15f2bbcf641156af2f4748653f6d617689068f7fb9d03dd7073a7def2b0ca9"
+    },
+    "models/predictor_pgd_workload_outer_v1.py": {
+      "bytes": 42819,
+      "sha256": "4e455453f2e5150b60d7033dc69775b3d01bfe5abace5bd9bf59c39f763be60b"
+    },
+    "models/predictor_pgd_workload_scratch_v1.py": {
+      "bytes": 161278,
+      "sha256": "979c94cae694f0a08d186379013a03542db4151d93973fd1ad81ee8652f6cde8"
+    },
+    "report/checks/2026-11-23-pgd-workload-operator-v1-local-review.json": {
+      "bytes": 4094,
+      "sha256": "4430af0eaa28f71a00df68dbf377e7795141b2b5a9ec88132a4584851a52eece"
+    },
+    "runs/pretrained/diagnostic/eot-work-profile-university-20261029/packet/vjepa-eot-profile.tar.gz": {
+      "bytes": 17192095,
+      "sha256": "2278bce2b519943c0f83a49c556bb73dd928fe880fba0f6c56de2a4c3c2ec0da"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-operator-v1-20261123/cold-primary-v4/CONTROL-UNBOUND.json": {
+      "bytes": 128408,
+      "sha256": "bc53eda6e44e8cfae82bf58e2b567461ede9c5a395d742d00f20944d6005df1c"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-operator-v1-20261123/cold-primary-v4/SOURCE-PAYLOAD.json": {
+      "bytes": 1196605,
+      "sha256": "5097602807605da44d9796ff016606455e58f5f02a87a372ad8a11b02a74bcdf"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-operator-v1-20261123/independent-saved-review-v2.json": {
+      "bytes": 2272,
+      "sha256": "89bbc0837074198a45595c53b635efead97a59d13245774b066b881d6fd20add"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-runtime-v1-20261123/SOURCE-MANIFEST-v2.json": {
+      "bytes": 28140,
+      "sha256": "0a6c1b5ab22a9be492cf20b415e84e8923ef3a1179914437feaf0ed5734b1929"
+    },
+    "scripts/run_predictor_pgd_workload_v1.py": {
+      "bytes": 684,
+      "sha256": "e4b2ec8215475555a24a71b23cee14e4ab7000f6c858d0e9c681518fc02282ff"
+    }
+  },
+  "kind": "whole-pgd-primary-attended-handoff-inputs-v1",
+  "new_approval_or_authorization": false,
+  "pins": {
+    "cli_scaffold": "scripts/run_predictor_pgd_workload_v1.py",
+    "client": "models/predictor_pgd_workload_client_v1.py",
+    "operator_audit": "runs/pretrained/diagnostic/pgd-workload-operator-v1-20261123/independent-saved-review-v2.json",
+    "operator_contract": "configs/predictor_pgd_workload_operator_v1.json",
+    "operator_review": "report/checks/2026-11-23-pgd-workload-operator-v1-local-review.json",
+    "outer": "models/predictor_pgd_workload_outer_v1.py",
+    "packager_scaffold": "models/predictor_pgd_candidate_handoff_v1.py",
+    "packet_archive": "runs/pretrained/diagnostic/eot-work-profile-university-20261029/packet/vjepa-eot-profile.tar.gz",
+    "runtime_contract": "configs/predictor_pgd_workload_runtime_v1.json",
+    "runtime_manifest": "runs/pretrained/diagnostic/pgd-workload-runtime-v1-20261123/SOURCE-MANIFEST-v2.json",
+    "source_payload": "runs/pretrained/diagnostic/pgd-workload-operator-v1-20261123/cold-primary-v4/SOURCE-PAYLOAD.json",
+    "supervised_control": "runs/pretrained/diagnostic/pgd-workload-operator-v1-20261123/cold-primary-v4/CONTROL-UNBOUND.json"
+  },
+  "prior_seal": "runs/pretrained/diagnostic/pgd-workload-operator-v1-20261123/sealed-workload-operator-v1.json",
+  "selected_method": "primary"
+}

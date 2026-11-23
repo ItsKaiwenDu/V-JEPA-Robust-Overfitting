@@ -850,3 +850,107 @@ new scope, handoff, authorization or remote/paid work was created here. Mechanis
 completion stays closed; actual workload/replay/performance, hardware recovery/
 memory, economics, calibration and data/protocol/adoption remain. Training policy,
 study settings and financial caps/holds are unchanged; user stages/commits/pushes.
+
+## 2026-11-23 — Review one unarmed primary whole-PGD scope/package
+
+Select the reviewed primary diagnostic default, step1/255 with zero extra scoring
+banks, for one exact proposed attended linux10614 attempt. The scope is full2.5GiB
+proof60s then original, candidate and fresh candidate-replay PGD20/R2 whole units,
+at most120 input-gradient objectives. All55 uploaded sources and47 runtime files
+are byte-exact to the sealed concrete operator/runtime. Three reversible local
+changes bind the new outer/client/isolated CLI;13 local pins and four private
+unarmed files fix the exact path/control. No source or shared clock/resource cap
+is widened. The outer soft2280/hard2400/finalization120 bounds mean later units may
+receive less than720 seconds or refuse; the50-minute connection maximum is not
+an assurance of fit or throughput.
+
+Twenty new checks pass once, with explicit fake grants/CLI ports only and real
+opaque bytes/private filesystem work. No models/gradients/Torch/NumPy/array decode,
+actual worker/process/signal/timer/proof/GPU/network work or old passing/scientific
+case repeated. Standalone saved auditv1 passes first-run on44,936 prior hashes,
+49,371 prior fixture entries and382 new entries, with no project/test/scientific
+callbacks. Old FIFO lstat-only; conditional device observation and narrow prior
+append/lifecycle exceptions retained. All versions, source identities, fixtures,
+failures and claims remain. User stages/commits/pushes.
+
+All prior grants are consumed. Request one new exact approval only after this
+concrete package/scope review. Until then it stays unarmed, without AUTHORIZATION,
+ATTEMPT, session or SSH work. Approval later permits one separately reviewed
+O_EXCL authorization append/local preflight/arming, then one user-attended launch;
+never ask that approval twice or run SSH as agent. The package name/path stays
+linux10614-primary-final-unarmed. Refusal consumes the attempt and failure stops
+later roles; no retry, separate retrieval, extra/native/closed-cohort work or
+paid compute/financial release. Mechanism stays closed, research/training gated.
+Training policy/study/financial caps/holds unchanged. No new FP64 oracle/full-model
+trace or measured readiness percentage/time-to-training. See the
+[scope](../report/checks/2026-11-23-pgd-workload-handoff-v1-scope.md) and
+[local review](../report/checks/2026-11-23-pgd-workload-handoff-v1-local-review.md).
+
+## 2026-11-23 — Accept exact primary whole-PGD approval and arm once
+
+The user wrote “I approve.” directly after the reviewed49c76bde... one-attempt
+primary whole-PGD scope question. Accept that fresh authorization without asking
+again. Create one O_EXCL AUTHORIZATION.json append through the new outer helper;
+keep the exact package path/name, four original files, source/control bytes and
+all source/resource/clock gates fixed. The new authorization is1725 bytes with
+SHA bad05798b2c3490b613de88f9f79427a930a5fb76f268648412c2d78f300c5a4.
+The grant is armed and unspent; all earlier grants remain consumed.
+
+Real local preflight passes with13 local pins,55 sources and the original archive.
+Standalone saved arming auditv1 passes first-run on45219 prior hashes and49753
+prior fixture entries. The directory inode/device/uid/gid/mode and four old file
+hashes/stat fields stay exact; only tracked directory nlink6->7/mtime changes from
+the approved append. Parent stat fields stay exact. Record this narrow exception
+separately from the old component append and consumed candidate lifecycle. Old
+FIFO lstat-only; device observation remains conditional. No project/test/execution
+callbacks or array decoding/recalculation in saved audit, no passing test or closed
+scientific/model repeat and no actual process/timer/proof/GPU/network/paid work.
+
+Next is one user-attended Mac Terminal command with VPN, awake Mac/open lid and
+Terminal, attending the university password prompt. Never agent-run SSH. Retain
+proof2.5GiB60s then original/candidate/fresh replay PGD20/R2/step1/0extra banks,
+120 input gradients maximum, absolute unit720/objective120 within soft2280/hard2400/
+finalization120/collection600/total3000 including login. Later units may receive
+less than720s or refuse; no fit guarantee. Refusal consumes the attempt; failure
+stops later roles. No retries, separate retrieval, old cleanup/claim reset, extra/
+native/closed-cohort work, FP64/full-model trace, training or paid compute. On Done
+or error inspect the bound local ATTEMPT/session/errors first and preserve all
+incomplete evidence. Research/training and broader target qualification remain
+gated. Source/policy/study/financial caps/holds are unchanged. See
+[arming](../report/checks/2026-11-23-pgd-workload-handoff-v1-arming.md).
+
+## 2026-11-23 — Preserve whole-PGD refusal and repair claim namespace locally
+
+The attended49c76bde... attempt stops at the client durable-root claim predicate.
+Inspect the bound ATTEMPT/session/errors first; its grant is consumed. Preserve
+all five old package hashes, four old file identity/stat fields and recorded AUTH
+stat fields. Do not claim historical AUTH inode equality because it was not saved.
+The exact authorized directory lifecycle is nlink6->7->9/mtime with the same inode/
+device/owner/mode. Earlier failures/grants stay unchanged. No retry, query, separate
+retrieval, old cleanup or new target work is authorized. Real attended SSH ran,
+but the rejected claim was not recorded; remote setup/proof/GPU/worker progress is
+unknown and no target results/proof/unit evidence was collected. Do not infer zero
+remote computation from missing evidence.
+
+The source-confirmed mismatch is server vjepa-pgd-workload-v1- versus client
+vjepa-pgd-candidate-v1- in two path checks; old scope JSON also retained the wrong
+prefix. Prior checks missed the positive claim path. Preserve these exact failed
+sources and scope. A separate derive-only helper produces an unbound client with
+two prefix fixes and a local CLAIM-OBSERVED record before guard evaluation. Three
+byte inverses prove all other client/server/scientific/resource-clock bytes exact.
+Sixteen new checks pass once using source-derived root/claim emission with fake
+UID/clocks and fake process/thread/collection ports: old refusal counterexample,
+new fake client lifecycle,13 strict negative claims and the inverse case. Fake
+collection is a stub, not a new whole-server/codec/scientific qualification. No old
+passing case, successful tiny CPU gradient or closed cohort rerun.
+
+Standalone saved auditv1 passes first-run on45248 prior hashes,49778 prior fixture
+entries and207 new entries. No project/test/execution/scientific callbacks or
+array decode/recalculation in audit. Old FIFO lstat-only/deviceconditional. Retain
+all versions/failures and user-only staging/commits/pushes. Next is a separate local
+bound client/outer/CLI adapter with correct imports/local pins and workload-prefix
+scope, plus positive integrated claim/collection/preflight controls before any
+new exact scope/approval. No new package/grant/approval request here. The mechanism
+stays closed; target qualification and training remain gated. Policies/study and
+financial caps/holds unchanged. See the
+[failed-attempt review](../report/checks/2026-11-23-pgd-workload-handoff-v1-target-review.md).

@@ -2,6 +2,217 @@
 
 ## Current stage
 
+LATEST November23: WHOLE-PGD CLIENT CLAIM REFUSAL REVIEWED; GRANT CONSUMED.
+Read report/checks/2026-11-23-pgd-workload-handoff-v1-target-review.json/md and
+docs/predictor_pgd_workload_claim_repair_v1.md +new claim_repair config/helper/test.
+UserDone reported traceback at clientline222. Bound ATTEMPT+session/errors read
+FIRST. Exact49c76bde... grant CONSUMED; all grants consumed. No retry/reset/new
+SSH/query/upload/retrieval/proof/GPU/paidwork or new scope/approval request here.
+User stages/commits/pushes NEVER agent. Preserve ALL prior uncommitted handoff+
+arming/source/test/auditor/fixtures/logs/failures/results/claims and this review.
+
+Actual ATTEMPT consumedTRUE joins outer49c76bdee54fe048199f77381946556df303c46b7b658ddd08f0ec10c140ee2a
+and AUTHbad05798b2c3490b613de88f9f79427a930a5fb76f268648412c2d78f300c5a4.
+CLIENT-REFUSAL ValueError "Durable remote claim or continuing connection clock changed."
+Only other session file empty ssh-stderr.log. No raw claim/ROOT-RECEIPT/collection
+ready/receipt/saved/proof/unit/worker records or SSHexitstatus. Actual user-attended
+SSH DID run; do NOT call that attempt metadata-only. Remote setup/proof/GPU/worker
+progress UNKNOWN, not zero: server sends claim before prepare_tree, rejected frame
+was not retained. No new target action in review. Local command completed with
+traceback; Mac Terminal need not stay open for that completed local command.
+
+CONFIRMED SOURCE DEFECT: exact outer remote_root emits vjepa-pgd-workload-v1-;
+exact client strips/requires vjepa-pgd-candidate-v1- twice. Old scope JSON also
+has candidate prefix. Source-derived matching server claim necessarily REFUSED;
+actual missing frame fields NOT fabricated/authenticated. Earlier passing checks
+missed the positive client/server claim path. Old source/control/scope/package/
+grants stay unchanged/FAILED; no blind rewrite or retry.
+
+New derive-only models/predictor_pgd_workload_claim_repair_v1.py +config create
+raw target-review-20261123/client-prefix-v2/UNBOUND-CLIENT.py. Three byte-inverse
+edits ONLY:2prefix literals +exclusive local CLAIM-OBSERVED.json immediately after
+claim read BEFORE guards. Original64KiB frame bounds observation; ROOT-RECEIPT only
+after success. All other client/server/scientific/resource/clocks exact. No new
+outer/CLI/local-source pin binding/package/live entry/grant/approval/target action.
+Do not invoke unbound artifact against failed package. Original55source/47runtime
+and closed scientific results unchanged; no CPU/tiny or lean timing route.
+
+16distinct new checksPASS/16executions FIRST RUN,0fail/0correction/0repeat:1byte
+inverse,1old-client counterexample,1repaired client fake lifecycle,13negative
+path/hash/kind/hello/handshake/origin/deadline/flag mutations with rejected frames
+retained. Source-exact remote_root and claim emit statement use FAKE UID/clocks.
+Process/fd/thread/timer/GPU/proof/compute/collection ports ALL FAKE. Collection
+stub is NOT a full server/codec/worker lifecycle or target replay qualification.
+Real private fixture bytes/JSON only;0Torch/NumPy/arraydecode/model/gradient/GPU/
+actual worker/timer/signal/network/proof work in controls. No old passing tests,
+successful tiny CPU gradient/analytic units or closed PGD/native/clean cohorts
+rerun. Mechanism diagnostic stays CLOSED; no new FP64/fullmodeltrace.
+
+Raw pgd-workload-handoff-v1-20261123/target-review-20261123; standalone saved
+auditv1PASS first-run:45248priorhashes/49778priorfixtures/207newfixtures. No project/
+test/process/timer/signal/network/proof/GPU/science callbacks or array recalculation
+IN AUDIT. OldFIFO LSTAT ONLY NEVER OPEN. Currentdevice16777233 conditional prior
+observation; if changed record/review, no remap. Exact local lifecycle keeps
+package inode44893436/device/uid/gid/mode +all5oldhashes fixed; trackednlink6->7->9/
+mtime only for AUTH+ATTEMPT+session. Original4file fullstat fields fixed; AUTH prior
+mode/uid/nlink/mtime/size/hash fixed. AUTH historical inode NOTrecorded, NOTclaimed.
+Old component/candidate exceptions separate. Seal sealed-workload-target-review-v1.json;
+live indexes excluded with before/after snapshots. All failed/incomplete records stay.
+
+NEXT SEPARATE LOCAL: derive new bound repaired client/outer/CLI adapter with exact
+new imports/local pins/source identities and workload-prefix scope. Retain original
+strict claim+continuing clocks, positive client/server/collection joins with explicit
+fake ports and full local source/preflight binding BEFORE any new scope/approval.
+Do NOT reuse/reset old package/grant or retrieve/clean old remote files. No repeated
+manual GPU/key/status paste, NEVER agent SSH. This review creates NO new scope or
+approval request. Future new execution needs its own concrete reviewed package and
+fresh exact authorization; no approval sought for the consumed old attempt.
+
+Target wholeunit/replay/performance/hardware/recovery/economics/calibration/data/
+near-duplicate/protocol/adoption/training still gated. Policies/TrainingPGD5EOT1/
+routineEOT1/optimizerbackward/studyYAML unchanged; research/training FALSE. Financial
+200/160/40/single10 caps+holds unchanged; Oct29 wallet historical NOTcurrent. No
+measured percentage/time-to-training established. Earlier entries historical.
+
+LATEST November23: PRIMARY WHOLE-PGD10614 APPROVAL ACCEPTED; ARMED/UNSPENT.
+Read report/checks/2026-11-23-pgd-workload-handoff-v1-arming.json/md +exact scope.
+User wrote "I approve." directly after the exact one-attempt49c76bde... request.
+This NEW grant is ARMED+UNSPENT. DO NOT ASK AGAIN. All earlier grants CONSUMED is
+historical and excludes this newly approved grant. No ATTEMPT/session/SSH/upload/
+target process/timer/proof/GPU/model/paidwork started. No repeated GPU/key/status
+paste. User stages/commits/pushes NEVER agent. Preserve ALL prior uncommitted
+handoff+new arming/source/test/auditor/fixtures/logs/failures/results/claims.
+
+Package MUST KEEP exact name/path:
+pgd-workload-handoff-v1-20261123/handoff-parent/linux10614-primary-final-unarmed.
+Outer49c76bdee54fe048199f77381946556df303c46b7b658ddd08f0ec10c140ee2a;
+supervisedbc53eda6e44e8cfae82bf58e2b567461ede9c5a395d742d00f20944d6005df1c.
+AUTHORIZATION.json1725B SHA bad05798b2c3490b613de88f9f79427a930a5fb76f268648412c2d78f300c5a4
+created via NEW handoff outer.authorization and ONE O_EXCL append. No control/
+package/source/name rewrite, reapproval or extra attempt. Bindings remainNULL.
+Actual local NEW client.check_local PASS13pins/55sources895657B/42991Bouter/
+original17192095Bpacket; all47runtime450166B exact. No timer/SSH/process/science.
+Prior20handoff+22operator checks inherited NOT rerun; no successful tiny CPU
+gradient/analytic controls/closed PGD/native/clean cohorts repeated.
+
+Arming raw pgd-workload-handoff-v1-20261123/arming-20261123 retains userbasis,
+preappend fullstat/directorybaseline, AUTHORIZED-APPEND, realpreflight and standalone
+STDauditv1 PASS FIRST RUN.45219priorhashes/49753priorfixtureentries exact; oldFIFO
+LSTAT ONLY NEVER OPEN. ONE new package directory append exception: fixeddevice33/
+inode44893436/uid/gid/mode +allold4 filehashes/statfields; tracked APFSnlink6->7 and
+mtime only. Parent stat fields fixed. Old component append and consumed candidate
+lifecycle exceptions remain separate/unchanged. Current seal sealed-workload-arming-v1.json.
+Localdevice16777233 conditional prior observation; no target remap/old device
+rewrite. If changed again record/review. No project/test/execution callbacks or
+array values decoded/recomputed in independent saved audit; no actual OS/proof/
+GPU qualification inferred from metadata. All old sources/results stay fixed.
+
+NEXT USER ACTION: connect VPN then run ONE attended Mac Terminal command via
+caffeinate -i <repo>/.venv/bin/python -I -B <repo>/scripts/run_predictor_pgd_workload_handoff_v1.py
+<EXACTABSOLUTEBOUNDPACKAGE>. CLI cwd-independent under-I. Keep Mac/lid/Terminal awake
+and attend university password prompt.<=50min incllogin: full2.5GiBproof60s, then
+original/candidate/fresh replay PRIMARY PGD20/R2/step1 diagnostic/0extra auditbanks,
+40input gradients/unit/120total MAX. Unit720/objective120 absolute maxima within
+setup180/outer softwork2280/hard2400/finalization120/same-SSHcollection600/total3000.
+Later units may receive LESS720 or refuse; no guaranteed three full windows/fit.
+All source/layout/numerical/native ownership/GPU7GiB/observed parentRSS4GiB/storage/
+collection/capacity/continuingclock gates retained; sampledRSS not instantaneousquota.
+0extra component/native reruns/closed PGD2-clean repeats/warmups/newFP64/fulltrace/
+optimizerbackward/training. User-attended launch ONLY, NEVER agent-run SSH.
+Refusal consumes onegrant; failure stops laterroles. No retries/separate retrieval/
+oldcleanup/installation/privatekey-checkpoint-heldout upload/oldclaimreset/paidwork/
+financialholdrelease. Only proof-owned successful temp removal+held-owned cleanup.
+OnDone/error inspect bound ATTEMPT+attended-session/errors FIRST; never repeat
+command/resetclaim/infer success. Same approved launch may append ATTEMPT.json+
+session, changing directory nlink/mtime; review exact actual lifecycle joins,
+keep ALLfive oldfile hashes/source fixed, no blanket waiver of fixture changes.
+
+No target wholeunit/replay/performance/hardware/recovery/economics/calibration/
+protocol/training admission. Future success requires own realproof/source/plan/
+route/fresh units/replay/restoration/resource/complete/parentwall-RSS/collection
+joins. Mechanism diagnostic remains CLOSED. TrainingPGD5EOT1/routineEOT1/parameter
+backward/policyregistry/studyYAML unchanged; research/training FALSE. Financial
+200/160/40/single10 caps+holds unchanged; Oct29 wallet/encumbrance historical NOT
+current quotes/balance. Earlier entries historical.
+
+LATEST November23: EXACT PRIMARY WHOLE-PGD SCOPE/PACKAGE REVIEWED; UNARMED.
+Read docs/predictor_pgd_workload_handoff_v1.md, both workload_handoff configs and
+report/checks/2026-11-23-pgd-workload-handoff-v1-local-review.json/md +scope.json/md.
+Raw pgd-workload-handoff-v1-20261123; independent-package-review-v1 PASS first-run.
+Clean user baseline6b1776b. User stages/commits/pushes NEVER agent. Preserve ALL
+source/test/auditor versions, fixtures, logs, failures, results and claims. All
+prior university grants CONSUMED. No actual new approval/authorization/arming/
+ATTEMPT/SSH/query/upload/model/GPU/proof/paid work or repeated manual paste here.
+
+Package MUST KEEP exact name/path:
+pgd-workload-handoff-v1-20261123/handoff-parent/linux10614-primary-final-unarmed.
+Outer49c76bdee54fe048199f77381946556df303c46b7b658ddd08f0ec10c140ee2a;
+supervisedbc53eda6e44e8cfae82bf58e2b567461ede9c5a395d742d00f20944d6005df1c.
+Four private0600 files under0700 parents; NO AUTHORIZATION/ATTEMPT/session.55sources/
+895657B and all47 runtime/450166B BYTE-EXACT, original17192095B packet reused
+(SHA2278bce2b519943c0f83a49c556bb73dd928fe880fba0f6c56de2a4c3c2ec0da).
+13local pins,42991Bouter; source envelope1196605B. New outer ONLY LOCAL_SOURCES,
+client ONLY outer import, NEW isolated CLI ONLY client import:3byte inverses.
+Old sealed CLI/operator/workers unchanged. Builder has no arming/launch API.
+
+20new distinct checksPASS/20executions FIRST RUN,0fail/0repeat/0source corrections.
+Actual unarmed reader verifies4files without fake approval. Positive real local
+preflight/CLI dispatch use explicit FAKE grants/ports in fixture copies ONLY;
+11retained fake AUTH files include negative copies, NEVER real grants.0actual
+worker/process/PIDFD/signal/timer/thread/proof/GPU/network/Torch/NumPy/array decode/
+model/gradient work. Real opaque source/archive copies/private files/hashes ONLY.
+Prior22operator checks inherited NOT rerun; successful tiny CPU gradient/closed
+PGD/native/clean cohorts NOT repeated. Mechanism diagnostic remains CLOSED.
+
+STDauditv1PASS first-run:44936priorhashes/49371priorfixtureentries/382newentries/
+20inputpins/15current source-config-test pins/13locals/3inverses/55sources/scope.
+No project/test/science/process/timer/signal/GPU/proof/network callbacks IN AUDIT.
+Old FIFO LSTAT ONLY NEVER OPEN. Device16777233 matches prior conditional local
+observation; if changed record/review, never remap old local/target identities.
+Old component append +consumed candidate lifecycle exceptions unchanged. Package
+directory inode/device/uid/mode/nlink/mtime+four file identities recorded before
+any future authorized append. Seal sealed-workload-handoff-v1.json; all evidence
+and mutable-index before/after snapshots retained, live indexes excluded.
+
+EXACT PROPOSED SCOPE: ONE attendedlinux10614 attempt, full2.5GiBproof60s then
+original-unit/candidate-unit/fresh candidate-replay, PRIMARY PGD20/R2/step1/255/
+epsilon4/255/8attack+4score draws/2families/0extra auditbanks. Step diagnostic ONLY,
+not calibrated research selection.40input gradients/unit,120total MAX;80candidate
+objectives contain<=15360initial inner mathVJPs.0extra componentVJPs/native reruns/
+closed PGD2-clean repeats/warmups/optimizerbackward/newFP64/fullmodeltrace/training.
+Original starts/projection/consider-before-backward/no-grad scoring/selection/
+restoration/native ownership exact. Each objective120s/absolute unit720s within
+setup180/proof60/outer softwork2280/hard2400/finalization120/same-SSHcollection600/
+connection3000incllogin. Later units may receive LESS720 or refuse, NOTguaranteed
+three full windows/fit. Original source/storage/GPU/handle/clocks+RSS4GiB/allocator
+7GiB/shared64MiB incltrace8/raw1792MiB/setup3/capture2.25/response3GiB retained.
+RSS sampled NOTinstantaneousquota/exhaustive proof. No availability/reservation
+claim. Refusal consumes oneattempt; anyfailure stops laterroles. No retry/separate
+retrieval/oldcleanup/newsoftware/privatekey-checkpoint-heldout upload/oldclaimreset/
+paidwork/holdrelease. Only proof-owned successful temp removal+held-owned cleanup.
+
+NEXT: request ONE exact scoped approval of reviewed49c76bde... package.
+Do not arm or run university work without exact NEW authorization.
+If approved DO NOT ASK AGAIN. Use NEW handoff outer.authorization(c,csha,user_basis)
+and ONE O_EXCL AUTHORIZATION.json append; preserve control/source/name/path. Record
+preappend exact package directory/four file identities and narrowly review the
+authorized append metadata change; old exceptions remain separate. Then NEW
+handoff client.check_local on realpackage LOCALLY and independent arming review.
+BindingsNULL until authenticated future child. Only after arming provide ONE
+user-attended Mac command via run_predictor_pgd_workload_handoff_v1.py with-I-B/
+exact ABSOLUTE package, VPN/awakeMac/lid/Terminal/passwordprompt,<=50min incllogin.
+NEVER agent-run SSH; no repeated manual GPU/key/status paste. OnDone/error inspect
+bound ATTEMPT+session/errors FIRST, never repeat/resetclaim/infer success.
+
+Future success requires own proof/source/plan/route/fresh units/replay/restoration/
+resource/complete/parentwall-RSS/collection joins. Targetworkload/performance,
+hardware/exactrecovery/economics/30training-only calibration evals/10clips/data/
+near-duplicate/protocol/adoption still gated. Research/training admissionFALSE;
+TrainingPGD5EOT1/routineEOT1/optimizerbackward/policyregistry/studyYAML unchanged.
+Project200/compute160/noncompute40/single10 caps+holds unchanged; Oct29 wallet/
+encumbrance historical NOTcurrent quotes/balance. No measured training percentage
+or time-to-training established. Earlier entries historical.
+
 LATEST November23: WHOLE-PGD OS/BOOTSTRAP/CLIENT ADAPTER REVIEWED LOCALLY; UNARMED.
 Read docs/predictor_pgd_workload_operator_v1.md, operator design +ACTIVE inputs_v2
 (inputs_v1 preserved historical), and report/checks/2026-11-23-pgd-workload-operator-v1-local-review.json/md.

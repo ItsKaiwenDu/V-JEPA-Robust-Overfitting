@@ -1,5 +1,27 @@
 # V-JEPA Robust Overfitting
 
+**Whole-PGD claim refusal reviewed; grant consumed (November 23):**
+[The failed attempt and local repair are preserved and reviewed](report/checks/2026-11-23-pgd-workload-handoff-v1-target-review.md).
+The client required the old candidate prefix while the launcher used the workload
+prefix. Sixteen new local checks pass for an unbound repair that also saves rejected
+claims. No target results were collected; remote progress remains unknown. Next
+bind and test the repaired client locally before any new scope or approval.
+Earlier entries are historical snapshots.
+
+**Primary whole-PGD attempt approved and armed (November 23):**
+[Exact authorization, local preflight and independent arming review pass](report/checks/2026-11-23-pgd-workload-handoff-v1-arming.md).
+The one-attempt grant is unspent. Next is one user-attended Mac launch with VPN;
+no SSH, proof, GPU or model work has started. Training remains gated.
+Earlier entries are historical snapshots.
+
+**Primary whole-PGD attended scope prepared, unarmed (November 23):**
+[The exact package and one-attempt scope pass local review](report/checks/2026-11-23-pgd-workload-handoff-v1-scope.md).
+Twenty new package/CLI/preflight checks and independent preservation review pass
+on their first run. The proposed proof plus original/candidate/replay PGD20/R2
+units permit at most120 input-gradient objectives within existing caps. One fresh
+exact approval is required before arming. No SSH/GPU work or training has started.
+Earlier entries are historical snapshots.
+
 **Whole-PGD OS/bootstrap/client adapter reviewed locally (November 23):**
 [All 22 distinct local checks pass](report/checks/2026-11-23-pgd-workload-operator-v1-local-review.md).
 The concrete adapter keeps the 47 runtime files unchanged and joins executable

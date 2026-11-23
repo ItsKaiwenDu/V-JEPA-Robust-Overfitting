@@ -1,0 +1,35 @@
+{
+  "all_prior_grants_consumed": true,
+  "candidate_inner_math_VJPs_maximum": 15360,
+  "diagnostic_step_size_255": 1.0,
+  "execution_binding": null,
+  "full_model_input_gradient_objectives_maximum": 120,
+  "kind": "whole-pgd-primary-attended-handoff-local-design-v1",
+  "local_source_pins": 13,
+  "local_test_plan": {
+    "actual_filesystem": "opaque source/archive bytes + private JSON files",
+    "actual_models_gradients_Torch_NumPy_GPU_proof_worker_process_signal_timer_or_network": false,
+    "distinct_checks": 20,
+    "only_fake_authorization_in_fixture_copies": true,
+    "prior_passing_or_scientific_checks_repeated": false
+  },
+  "new_FP64_reference_or_full_model_trace": false,
+  "new_approval_or_authorization": false,
+  "new_native_component_or_closed_cohort_reruns": 0,
+  "original_packet_only": true,
+  "package_relative_path": "runs/pretrained/diagnostic/pgd-workload-handoff-v1-20261123/handoff-parent/linux10614-primary-final-unarmed",
+  "research_admitted": false,
+  "research_calibration_selected": false,
+  "roles": [
+    "proof",
+    "original-unit",
+    "candidate-unit",
+    "candidate-replay"
+  ],
+  "selected_method": "primary",
+  "sensitivity_banks": 0,
+  "source_bytes": 895657,
+  "source_files": 55,
+  "source_or_control_or_resource_clock_gate_changes": false,
+  "training_admitted": false
+}
