@@ -820,3 +820,33 @@ all live bindings null meanwhile. Target workload/replay/performance, hardware
 recovery/memory, economics, calibration and data/protocol/adoption gates remain.
 Mechanism completion stays closed; study/training policies and financial caps/
 holds are unchanged. User stages/commits/pushes.
+
+
+## 2026-11-23 — Review the concrete whole-PGD adapter before an attended scope
+
+The [whole-PGD OS/bootstrap/client adapter](predictor_pgd_workload_operator_v1.md)
+keeps the 47 scientific runtime sources exact and adds a closed nine-slot
+supervisor layer, owned dispatch, executable cache, nested hard unit/objective
+clocks, completion/resource readers and bounded client collection. Whole-byte
+inverses and exact original guard/Alarms/packet/client functions pass review.
+The old component operator remains unchanged and incompatible with this workload.
+
+Twenty-two distinct local cases pass across 52 executions. Only failed nodes were
+rerun; one added partial-stream case reads saved bytes. Fixture modes, eight new
+catalogue tuple/list values and the namespace assertion were corrected with all
+histories preserved. Independent stdlib audit v2 verifies 36,488 prior hashes,
+40,097 old fixtures, 9,274 new fixtures and both final byte streams. Physical
+process/timer/GPU/proof enforcement remains untested: all worker and compute ports
+are fake, proof stays false/zero-byte and actual scientific cohorts were not rerun.
+
+Retain unit720/objective120 maxima within existing soft2280/hard2400 work,
+finalization120, collection600 and connection3000 clocks. Later units use remaining
+time and may be shortened/refused. Do not reset clocks, weaken guards or infer
+throughput, fit or training adoption from local byte/metadata success.
+
+Next separately prepare and review an exact selected-method attended scope/package
+before any new approval or arming. All previous remote grants are consumed. No
+new scope, handoff, authorization or remote/paid work was created here. Mechanism
+completion stays closed; actual workload/replay/performance, hardware recovery/
+memory, economics, calibration and data/protocol/adoption remain. Training policy,
+study settings and financial caps/holds are unchanged; user stages/commits/pushes.

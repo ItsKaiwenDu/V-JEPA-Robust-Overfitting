@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Whole-PGD OS/bootstrap/client adapter reviewed locally (November 23):**
+[All 22 distinct local checks pass](report/checks/2026-11-23-pgd-workload-operator-v1-local-review.md).
+The concrete adapter keeps the 47 runtime files unchanged and joins executable
+cache, owned child dispatch, absolute unit/objective timers and bounded collection.
+Tests use explicit fake OS/compute ports; prior evidence is preserved. Next prepare
+and review an exact attended scope/package. No remote work or training is admitted.
+Earlier entries are historical snapshots.
+
 **Target-sized whole-PGD runtime reviewed locally (November 23):**
 [All 26 new source and fake-port checks pass once](report/checks/2026-11-23-pgd-workload-runtime-v1-local-review.md).
 The separate full-size runtime joins original/candidate/replay roles with scratch,

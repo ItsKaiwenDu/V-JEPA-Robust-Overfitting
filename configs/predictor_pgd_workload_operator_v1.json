@@ -1,0 +1,53 @@
+{
+  "all_prior_grants_consumed": true,
+  "clocks_seconds": {
+    "connection_including_login": 3000,
+    "finalization_reserve": 120,
+    "objective_maximum": 120,
+    "outer_work_soft_deadline": 2280,
+    "proof": 60,
+    "same_connection_collection": 600,
+    "setup": 180,
+    "unit_maximum": 720,
+    "work_hard_deadline": 2400
+  },
+  "execution_binding": null,
+  "frozen_runtime_bytes": 450166,
+  "frozen_runtime_files": 47,
+  "input_pins": "configs/predictor_pgd_workload_operator_inputs_v2.json",
+  "kind": "whole-pgd-OS-operator-local-design-v1",
+  "local_test_plan": {
+    "actual_filesystem": "opaque pinned bytes + ordinary16MiBreserve fixtures",
+    "actual_models_gradients_Torch_NumPy_GPU_proof_OS_process_signal_timer_or_network": false,
+    "closed_scientific_or_passing_tests_repeated": false,
+    "complete_fake_child_process_lifecycles": 2,
+    "distinct_cases": 21,
+    "source_and_OS_timer_cache_client_packet_checks": true
+  },
+  "metadata_result_paths": {
+    "convergence": 624,
+    "primary": 264
+  },
+  "new_handoff_scope_or_approval_request": false,
+  "original_packet": {
+    "bytes": 17192095,
+    "expanded_bytes": 26446958,
+    "members": 99,
+    "sha256": "2278bce2b519943c0f83a49c556bb73dd928fe880fba0f6c56de2a4c3c2ec0da"
+  },
+  "proof_log": "proof.log root supervisor metadata",
+  "research_admitted": false,
+  "roles": [
+    "proof",
+    "original-unit",
+    "candidate-unit",
+    "candidate-replay"
+  ],
+  "scientific_cache_modules": 46,
+  "shared_storage_RSS_allocator_GPU_source_guards_unchanged": true,
+  "source_envelope_bytes": 2097152,
+  "supervisor_slots": 9,
+  "training_admitted": false,
+  "uploaded_sources": 55,
+  "worker_timer": "Authenticated release timer only; absolute unit deadline, nested objective hard expiry, poison after failure, no reset/retry"
+}

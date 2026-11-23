@@ -1,5 +1,29 @@
 # Research Progress Reports
 
+November23: concrete whole-PGD OS/bootstrap/client adapter locally reviewed.
+47runtime/450166B exact;55uploads=46runtime+9supervisors (frozen plan helper added),
+primary895657B/convergence1004625B. Original scanner/Guard/proof/ownership/Alarms/
+packet/clientclock code exact/inverted. Original17.19MBpacket99members reused;
+264/624resultpaths, proof.log ROOT. Worker unit720/objective120 absolute hard clocks,
+poisoned failures, original outersoft2280/hard2400/finalization120/collection600/
+connection3000; no allowance reset or promised fit.22distinct checksPASS/52executions:
+6/15 then1/14 then13/1 then1/0 +NEWsaved-stream1PASS. Onlyfailed nodes rerun. Fixture
+ancestors fixed; ONLYproduction8new rootmetadata tuples->JSONlists; namespace
+assertion records stdlib additions, exact project/meta_path boundary intact.
+THREEcomplete fake transports retained,2finaldistinct methods432/792files independently
+verified; session/work/journal incomplete flags preserved. All OS/GPU/proof/compute/
+timer ports FAKE; onlyopaque bytes/16MiBreserves real.0models/gradients/Torch/NumPy/
+GPU/actual worker/signal/timer/proof/SSH/paidwork; closed science NOTrepeated.
+Standaloneauditv2PASS:36488oldhashes/40097oldfixtures/9274newfixtures/56pins/inverses/
+wires; v1onlywrong pin count55 corrected56. All versions/failures preserved; FIFO
+lstatonly/device33 conditional; currentseal sealed-workload-operator-v1.json.
+NEXTlocal exactselected-method scope/package prep+review before newapproval; no
+handoff/arming/realgrant/remote work yet, alloldgrants consumed. Mechanism CLOSED;
+targetworkload/replay/performance/hardware/economics/calibration/protocol/training
+stillgated. Policies/study/finances unchanged; user stages/commits/pushes. See
+report/checks/2026-11-23-pgd-workload-operator-v1-local-review.md and
+ docs/predictor_pgd_workload_operator_v1.md. Earlier entries historical.
+
 November23: target-sized whole-PGD runtime/source+session integration reviewed
 locally.47files/450166B,46modulecache,49pins; five full-byte inverses and scientific
 AST checks.26new checks PASS once/26executions; no production change afterchecks.

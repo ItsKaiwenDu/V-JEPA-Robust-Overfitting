@@ -1,0 +1,123 @@
+{
+  "actual_models_gradients_Torch_NumPy_GPU_worker_process_signal_timer_proof_SSH_or_paid_work": false,
+  "all_remote_grants_consumed": true,
+  "audit_history": [
+    "v1 refused wrong expected input pin count55",
+    "v2 only changes expectation to56; PASS"
+  ],
+  "audit_project_or_test_callbacks_or_array_value_decode_or_recomputation": false,
+  "cache_runtime_modules": 46,
+  "check_history_passes": [
+    6,
+    1,
+    13,
+    1,
+    1
+  ],
+  "closed_cohorts_or_successful_tiny_CPU_objective_repeated": false,
+  "committed_baseline": "aab42e2",
+  "current_seal": "runs/pretrained/diagnostic/pgd-workload-operator-v1-20261123/sealed-workload-operator-v1.json",
+  "current_source_and_config_files": 12,
+  "date": "2026-11-23",
+  "design_contract": "configs/predictor_pgd_workload_operator_v1.json",
+  "distinct_checks": 22,
+  "executions": 52,
+  "final_distinct_fake_lifecycles": 2,
+  "frozen_Alarms_and_ownership_resource_guards_verified": true,
+  "historical_input_contract_preserved": "configs/predictor_pgd_workload_operator_inputs_v1.json",
+  "independent_priority_wire_reconstructions": [
+    {
+      "deduplicated_bytes": 349370,
+      "evidence_origin": "EXPLICIT-FAKE-WHOLE-PGD-OPERATOR; NOT A GRANT OR EXECUTION CLAIM",
+      "expanded_bytes": 44905530,
+      "files": 432,
+      "method": "primary",
+      "wire_bytes": 44815908,
+      "wire_sha256": "5ab29ca14767b6af85a36be77703833627a52a56be48b2b76da6dc949e9490ec"
+    },
+    {
+      "deduplicated_bytes": 405100,
+      "evidence_origin": "EXPLICIT-FAKE-WHOLE-PGD-OPERATOR; NOT A GRANT OR EXECUTION CLAIM",
+      "expanded_bytes": 45360656,
+      "files": 792,
+      "method": "convergence",
+      "wire_bytes": 45448711,
+      "wire_sha256": "c869777bec1082d8469a44df398e3174b47118773d4d71ac109b7c260cf4e66a"
+    }
+  ],
+  "independent_review": "runs/pretrained/diagnostic/pgd-workload-operator-v1-20261123/independent-saved-review-v2.json",
+  "independent_review_sha256": "89bbc0837074198a45595c53b635efead97a59d13245774b066b881d6fd20add",
+  "input_contract": "configs/predictor_pgd_workload_operator_inputs_v2.json",
+  "input_pins": 56,
+  "kind": "whole-pgd-OS-operator-local-review-v1",
+  "live_execution_binding": null,
+  "new_FP64_oracle_or_full_model_trace": false,
+  "new_fixture_entries": 9274,
+  "new_saved_partial_stream_worker_lifecycles": 0,
+  "new_saved_stream_case": 1,
+  "new_scope_handoff_or_approval_request": false,
+  "next_separate_local_step": "Prepare/review one exact selected-method attended scope/package before any new approval, arming or target work.",
+  "old_FIFO_lstat_only_never_opened": 1,
+  "only_failed_nodes_rerun": true,
+  "physical_enforcement_tested": false,
+  "prior_fixture_entries": 40097,
+  "prior_hashes": 36488,
+  "production_postcheck_correction": "Only 8 new root metadata catalogue entries use canonical lists instead of tuples.",
+  "research_admitted": false,
+  "result": "PASS",
+  "retained_fake_complete_transports": 3,
+  "source_AST_and_byte_inverses_verified": true,
+  "source_generations_preserved": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "source_variants": {
+    "convergence": {
+      "result_paths": 624,
+      "scientific_bytes_unchanged": 450166,
+      "source_bytes": 1004625,
+      "uploaded_sources": 55
+    },
+    "primary": {
+      "result_paths": 264,
+      "scientific_bytes_unchanged": 450166,
+      "source_bytes": 895657,
+      "uploaded_sources": 55
+    }
+  },
+  "supervisor_slots": 9,
+  "test_history": [
+    {
+      "cases": 21,
+      "pass": 6,
+      "suite": "first-checks-v1"
+    },
+    {
+      "cases": 15,
+      "pass": 1,
+      "suite": "failed-node-rerun-v1"
+    },
+    {
+      "cases": 14,
+      "pass": 13,
+      "suite": "failed-node-rerun-v2"
+    },
+    {
+      "cases": 1,
+      "pass": 1,
+      "suite": "failed-node-rerun-v3"
+    },
+    {
+      "cases": 1,
+      "pass": 1,
+      "suite": "saved-stream-check-v1"
+    }
+  ],
+  "training_admitted": false,
+  "training_policy_registry_study_financial_caps_holds_unchanged": true,
+  "unchanged_scientific_runtime_bytes": 450166,
+  "unchanged_scientific_runtime_files": 47,
+  "uploaded_sources": 55
+}

@@ -2,6 +2,89 @@
 
 ## Current stage
 
+LATEST November23: WHOLE-PGD OS/BOOTSTRAP/CLIENT ADAPTER REVIEWED LOCALLY; UNARMED.
+Read docs/predictor_pgd_workload_operator_v1.md, operator design +ACTIVE inputs_v2
+(inputs_v1 preserved historical), and report/checks/2026-11-23-pgd-workload-operator-v1-local-review.json/md.
+Raw pgd-workload-operator-v1-20261123; independent-saved-review-v2 PASS. Clean user
+baseline aab42e2. User stages/commits/pushes NEVER agent. Preserve ALL versions,
+cold generations, tests/auditors, fixtures, logs, failures, negative mutations,
+results and claims. All remote grants CONSUMED. No new attended scope/handoff/
+arming/real AUTH/attempt/SSH/query/upload/GPU/proof/paid work or manual paste here.
+
+All47 runtime files/450166B BYTE-EXACT.55 uploaded sources =46runtime modules+9
+supervisor slots (unit monitor remains one of original47). Frozen plan helper
+added as separate support: runtime closure lacked it. Original proof monitor +
+allocator exact. Scanner/assessment/Guard/host-GPU-device-mount/owned launch and
+cleanup unchanged; derived sources whole-byte inverses. Original Alarms, packet
+receive/extract, causal client clock and collection-root binder AST exact. Project
+cache closes models/attacks/datasets, loader/origin/parent/path/source/no-reload
+checks retained. No old sealed/CPU entry widened; scientific math/ownership unchanged.
+
+Primary55source895657B /convergence1004625B <original2MiB envelope.264/624 result
+paths, proof.log ROOT metadata only (unused capture proof log excluded). Reuse
+ORIGINAL17192095B archive SHA2278bce2b519943c0f83a49c556bb73dd928fe880fba0f6c56de2a4c3c2ec0da,
+99members/26446958expandedB. ONE archive/finalEOF; no new pixel/checkpoint archive.
+Actual opaque bytes copied/unpacked/hashed only; no tensor/pickle values decoded.
+All shared byte/partial/entry/RSS4GiB/allocator7GiB/process64/thread512/native4096/
+candidate192initial+384calls-per-gradient gates retained; no lean science variant.
+
+Concrete owned release-before-import launcher/cache/child dispatch, full-packet/
+checkpoint/upstream +exact plan/source/method args, completion/resource/start/step/
+summary/parent readers and bounded client wiring now exist. Runtime bindingsNULL
+until authenticated future child. Worker takes ONLY owned release timer, absolute
+unit720s; each objective hard deadline<=120s and remaining unit. Restore ORIGINAL
+absolute unit deadline, poison after failures, no expired/caught retry. Original
+hard alarm +soft wake/generation code. Outer softwork2280/hard2400/finalization120,
+collection600/connection3000 incllogin unchanged. Later role may get <720 or refuse;
+NOTguaranteed fit/all-full-windows. Physical enforcement NOTtested locally.
+
+22distinct checks finalPASS/52executions. Initial21:6PASS/15FAIL private fixture
+ancestors0755. Fixture-only construction fixed to0700; isolated packet test precreates
+declared ancestors per production plan. Only15failed rerun:1PASS/14FAIL catalogue
+root metadata tuples vsJSON lists. ONLYpost-check production correction is8new
+plan/parent metadata entries to canonical lists; all functions/science unchanged.
+Only14failed rerun:13PASS/1FAIL stdlib module loading after complete fake transfer.
+Onlylastfailed rerunPASS with exact PROJECTmodule/meta_path checks +recorded stdlib
+additions grp/gzip/pwd/tarfile. One NEW saved-stream partial/client-root casePASS,
+0new worker loops. No passing nodes or closed science/tiny CPU gradient repeated.
+First source/control generations v1-4 +all snapshots/errors/results retained.
+
+Two final distinct full fake lifecycles, THREE completed fake transports retained
+because primary namespace assertion failed AFTER its first transfer. Final432/792
+files independently reconstructed frame/reference/payload/mode/mtime/hash/prefix/
+terminal/trailing checks. Session completeFALSE/work collectionFALSE/all journal
+FALSE preserved; separate transportTRUE. Client correctly REFUSES local fixture
+root as university /var/tmp. Partial stream stays incomplete. All worker process/
+pipe/PIDFD/GPU/proof/clock/signal/timer/compute/import namespaces explicitly FAKE;
+no actual Torch/NumPy/model/gradient/GPU/worker process/PIDFD/signal/timer/2.5GiBproof/
+network/paidwork. Real filesystem opaque copies/anchored I/O/ordinary16MiB reserves
+ONLY. FakeproofFALSE/0B; real verifier REFUSES. True approval fields in fixture
+AUTH use explicit FAKE basis, NOT real grants. No execution authenticated bydict.
+
+Standalone stdlib auditv2PASS:36488priorhashes/40097priorfixtures/9274newfixtures/
+56inputpins/12current source+config files/inverses/both final wires. Auditv1 wrong
+expected55pins refused; ONLYauditor expectation corrected56, no production/test/
+science repeats. No project/test callbacks, array deserialize/value recalculation,
+process/signal/timer/GPU/proof/network work IN AUDIT. OldFIFO LSTATONLY NEVEROPEN.
+Device16777233 matches prior conditional observation; if changes record/review,
+never remap. Old actual failures/claims/authorizations unchanged. Current seal
+sealed-workload-operator-v1.json; mutable index before/after snapshots sealed,
+live indexes excluded. No measured percentage/time-to-training established.
+
+NEXT SEPARATE LOCAL: prepare/review ONE exact selected-method attended scope and
+package from these concrete bytes before new approval request. Primary helper is
+local diagnostic default (step1), NOT research calibration selection. Do not arm/
+run university work without exact NEW authorization. No repeated GPU/key/status
+paste. Future successful target needs own real proof/source/plan/route/fresh unit/
+replay/restoration/resource/complete/parent wall-RSS/collection joins. Actual target
+workload/performance, hardware memory/exact recovery, economics, training-only
+calibration and data/protocol/adoption remain. Mechanism stays CLOSED; no new FP64
+oracle/fullmodel trace or closed-cohort rerun for lifecycle/metadata repair.
+TrainingPGD5EOT1/routineEOT1/optimizerbackward/policyregistry/studyYAML unchanged.
+Research/training admission FALSE. Project200/compute160/noncompute40/single10caps+
+holds unchanged; Oct29 wallet/encumbrance historical, NOTcurrent. Earlier entries
+historical.
+
 LATEST November23: TARGET-SIZED WHOLE-PGD RUNTIME REVIEWED LOCALLY; OS UNBOUND.
 Read docs/predictor_pgd_workload_runtime_v1.md, both runtime configs and
 report/checks/2026-11-23-pgd-workload-runtime-v1-local-review.json/md. Raw stage
