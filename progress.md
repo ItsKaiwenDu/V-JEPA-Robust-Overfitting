@@ -1,5 +1,27 @@
 # Research Progress Reports
 
+November23: separate local whole-PGD input-gradient adapter reviewed.24 distinct
+checks PASS/26 executions: initial20PASS/2 final-mode failures; only those2 rerun
+after final observation correction, both PASS;2 NEW caller-timing cases PASS once.
+Whole PGD/evaluator + correction AST inverses;20 frozen pins, training/study unchanged.
+40/100-context analytic units match original pixels/losses/scores/seeds, no-grad
+scoring outside routes; two fresh subprocesses replay logical values exactly.
+One NEW tiny frozen CPU objective ONCE (seeds2026112302/03/04,Torch2.14.1),1root/
+32VJPs/64predictor/128native records,0refusals and cleanup PASS. No pretrained or
+closed-cohort reruns/new FP64 oracle/fulltrace. Retained analytic history920 outer
+differentiations plus up to4negative attempts; actual local Torch arithmetic.
+Caller timing includes restoration/guards/fsynced journals, no overhead subtraction
+or native/GPU performance inference. Old failed units remain FAILED. Stdlib saved
+audit PASS first-run:30552oldhashes/33850oldfixtures/1154newfixtures; FIFO lstatonly,
+device33 conditional. All sources/snapshots/logs/failures preserved; current seal
+sealed-pgd-workload-v1.json. EXECUTION_BINDING=None; no remote scope/approval/SSH/
+GPU/paid work. Next locally derive target-sized whole-unit runtime with fake OS/
+compute clocks/resource/collection/replay integration. Mechanism stays CLOSED;
+target workload/performance/hardware/economics/calibration/protocol/training gated.
+User stages/commits/pushes; financial caps/holds unchanged. See
+report/checks/2026-11-23-pgd-workload-v1-local-review.md and
+ docs/predictor_pgd_workload_v1.md. Earlier entries historical.
+
 November23: actualcandidate-only10614attempt SSH_EXIT0 and independent saved review
 v1PASS first-run. Full2.5GiBproof12.663704s/2783895552Bpeak; candidatePID1645944COMPLETE
 23phases/47rows, ownreference/source/route/v4backend/FRESHaccuracy/restoration/resource/

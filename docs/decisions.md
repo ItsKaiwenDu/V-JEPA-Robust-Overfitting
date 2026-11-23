@@ -765,3 +765,29 @@ data/protocol and explicit adoption remain. Training PGD5/EOT1, routine EOT1,
 parameter-update backward, registry/YAML and financial caps/holds remain unchanged.
 No new university action, scope/approval request, retry, separate retrieval or paid
 work follows from this completed review. Research training remains unadmitted.
+
+
+## 2026-11-23 — Keep whole-PGD qualification separate from mechanism completion
+
+The [local whole-unit adapter](predictor_pgd_workload_v1.md) preserves the frozen
+attack/evaluation flow with fresh per-iterate input-gradient contexts. Complete
+analytic primary/convergence controls, exact fresh-process analytic replay, one
+new tiny frozen CPU bridge objective and caller-level timing controls pass.
+The 24 distinct checks required 26 executions: two final-mode failures were
+corrected and only those failed nodes repeated; two timing cases were new.
+Old failed records and every source/test version remain preserved.
+
+Keep this entry small and CPU-only with execution binding null. Analytic receipts
+must deny native ownership; the one actual frozen tiny objective does not qualify
+a complete native workload or target replay/performance. Caller timing includes
+restoration and observed guards/journals, with no instrumentation subtraction or
+throughput extrapolation. The independent stdlib audit preserves all 30,552 prior
+hashes and 33,850 prior fixture entries without repeating numerical work.
+
+Next derive a separate target-sized whole-unit runtime and test ownership,
+continuing clocks, resource/parent, replay and collection with explicit fake ports
+before any new attended scope. Do not reopen the closed mechanism diagnostic,
+repeat completed scientific cohorts, widen old guards, register a training policy
+or change study/calibration settings. Target workload/replay/performance, hardware
+memory/recovery, economics, calibration and protocol/adoption gates remain. All
+remote grants are consumed; financial caps and holds remain unchanged.

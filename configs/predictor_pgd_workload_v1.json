@@ -1,0 +1,72 @@
+{
+  "attack_draws": 8,
+  "diagnostic_step_sizes_255": [
+    0.5,
+    1,
+    2
+  ],
+  "domain": {
+    "CPU_only": true,
+    "maximum_model_parameter_elements": 2000000,
+    "maximum_pixel_elements": 3072,
+    "microbatch": 1,
+    "profile_registration": false,
+    "university_host_entry": false
+  },
+  "epsilon_255": 4,
+  "execution_binding": null,
+  "extra_scoring_banks": [
+    0,
+    2
+  ],
+  "first_check_plan": {
+    "GPU_or_remote_or_paid_work": false,
+    "complete_analytic_unit_gradient_calculations": 360,
+    "complete_analytic_units": 6,
+    "distinct_nodes": 22,
+    "fresh_process_analytic_units": 2,
+    "matched_analytic_units": 4,
+    "negative_analytic_autograd_attempts_maximum": 4,
+    "new_frozen_tiny_mask_seed": 2026112304,
+    "new_frozen_tiny_owned_objectives": 1,
+    "new_frozen_tiny_pixel_seed": 2026112303,
+    "new_frozen_tiny_weight_seed": 2026112302,
+    "old_cohort_or_passing_suite_repeats": 0,
+    "pretrained_objectives": 0
+  },
+  "input_pins": "configs/predictor_pgd_workload_inputs_v1.json",
+  "kind": "local-whole-pgd-workload-contract-v1",
+  "local_ports": [
+    "analytic-local-control-v1",
+    "tiny-frozen-forward-preserving-eot8-v1"
+  ],
+  "methods": {
+    "convergence": {
+      "gradient_contexts": 100,
+      "restarts": 2,
+      "steps": 50
+    },
+    "primary": {
+      "gradient_contexts": 40,
+      "restarts": 2,
+      "steps": 20
+    }
+  },
+  "required_future_evidence": [
+    "real current-route complete target PGD20/R2 and PGD50/R2",
+    "fresh perturbed target rollout replay",
+    "matched complete-unit timing and observation overhead",
+    "chosen hardware memory and exact recovery",
+    "economics, calibration, data/protocol/adoption locks"
+  ],
+  "research_admitted": false,
+  "scoring_draws": 4,
+  "seed_schema": "candidate-eot8-v1/evaluation-v1-json-sha256-63bit-mask-mod31",
+  "selection": "unchanged pgd_linf: strict per-example improvement before backward, projected random starts; independent score never selects",
+  "start_before_work": "exclusive fsynced unit and per-context JSON; starts consumed, no reset/retry",
+  "step_selected_for_research": null,
+  "timing": "full local unit including guards/hash/observations/fsync; terminal publication excluded; no subtraction or GPU throughput inference",
+  "training_admitted": false,
+  "two_mask_families": true,
+  "video_namespace": "local-workload-control/"
+}

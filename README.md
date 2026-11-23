@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Whole-PGD adapter reviewed locally (November 23):**
+[Twenty-four distinct local checks pass](report/checks/2026-11-23-pgd-workload-v1-local-review.md).
+Complete primary/convergence analytic controls preserve original selection/scoring,
+with fresh-process replay, one new frozen-route tiny CPU gradient and caller-level
+timing controls. Next derive the separate target-sized whole-unit runtime locally.
+Target replay/performance and research training remain gated; no new remote work.
+Earlier entries are historical snapshots.
+
 **Candidate mechanism diagnostic completed (November 23):**
 [The candidate-only university result passes independent review](report/checks/2026-11-23-pgd-candidate-handoff-v1-target-review.md).
 Fresh native-relative values, backend, restoration, resource, parent and collection

@@ -2,6 +2,80 @@
 
 ## Current stage
 
+LATEST November23: LOCAL WHOLE-PGD ADAPTER REVIEWED; TARGET RUNTIME UNBOUND.
+Read docs/predictor_pgd_workload_v1.md, both workload configs, and
+report/checks/2026-11-23-pgd-workload-v1-local-review.json/md. Raw stage
+pgd-workload-v1-20261123; independent-saved-review-v1 PASS first-run.
+User stages/commits/pushes NEVER agent. Preserve all old/new source, test, auditor
+versions, fixtures, logs, failures, records and claims. All remote grants consumed.
+No new target scope/handoff/approval request, SSH/query/upload/GPU/proof/paid work
+or manual paste occurred or is authorized by this local step.
+
+Separate opt-in local input-gradient adapter: primary PGD20/R2=40 contexts;
+convergence PGD50/R2=100. Whole PGD/evaluator AST inverses pass after ONLY explicit
+local guard/context/preparation/original-objective observation bridges. Frozen
+sources unchanged;20 pins incl study configs. EXECUTION_BINDING=None, CPU-only,
+microbatch1/max3072 pixel elements/max2M model parameter elements. No policy
+registration or target worker. Original starts/seed schema/projection/strict
+consider-before-backward/selection and no-grad clean/baseline/restart-final/main/
+zero-or-two audit scoring retained;8 attack/4 score draws+2 mask families. .5/1/2
+steps diagnostic ONLY; no research calibration selection. Unit/context starts
+exclusive+fsynced before model work; failures consumed, no retries/promotions.
+Fixed bytes/versions, hooks/private methods, original APIs/flags, parameter .grad,
+model modes and RNG checked/restored. Data mutation is refused, not silently repaired.
+
+24 distinct checks finalPASS/26 executions. Initial20PASS/2FAIL at final mode
+observation AFTER frozen evaluator restored mixed caller modes. Only final-mode
+observation fixed; pre-unit caller snapshot remains exact, per-iterate/scoring
+checks still require eval. Whole correction AST inverse passes. ONLY2 failed
+nodes rerun;2PASS. Two NEW caller-timing controls PASS once. No passing case or
+successful scientific bridge repeat. Old failed units stay FAILED, source snapshots
+and matching old/new per-step hashes retained. Full retained analytic loops account
+for920 outer differentiations + up to4 negative derivative attempts. ACTUAL local
+Torch toy calculations, not fake numerical outputs or pretrained objectives.
+
+Two fresh -I -B subprocesses replay analytic primary rollout: logical hashes,
+metrics and selection exact. Explicit analytic port DENIES native ownership;
+reader dictionaries do not authenticate execution/process identity. One separately
+seeded tiny upstream CPU frozen-route bridge objective ran ONCE: weight2026112302,
+pixels2026112303,masks2026112304,Torch2.14.1.1 native root/32 initial math VJPs/64
+predictor calls/128 native records/0 refusals, finite nonzero input gradient and
+root hook removed/routes restored. NOT accuracy comparison or complete native
+workload.0 pretrained/closed-cohort reruns/0 new FP64 oracle/fullmodel trace.
+Do NOT repeat the successful tiny gradient or closed PGD2/R2/EOT8/native/clean
+cohorts for this integration. Mechanism diagnostic remains CLOSED; old failures stay.
+
+Original evaluator timer ends before finally. New analytic caller timer covers
+restoration/RNG/guards/fsynced journals, before matched terminal JSON publication;
+model setup outside. .5-step primary original .046610s/adapter .074514s;2-step
+convergence with2 audits .080811/.176116s. Single fixed-order pairs ONLY; included
+observation overhead not independently estimated/subtracted. NOT native/GPU
+performance, statistical estimate, hardware memory/recovery or cost qualification.
+No lean scientific route or disabled numerical/ownership guard to obtain timing.
+
+Standalone stdlib saved audit PASS:30552 prior hashes/33850 prior fixture entries/
+1154 new fixture entries/20 pins/source inverses/receipt joins. No project/test
+callbacks, tensor value decoding/recalculation, process/timer/signal/GPU/proof/network
+work IN AUDIT. Actual local Torch computations above must not be called metadata-only.
+Old FIFO LSTAT ONLY NEVER OPEN. Device16777233 matches prior conditional reviewed
+observation; original device records/target mappings unchanged. If device changes,
+record/review rather than remap. Mutable index before/after snapshots retained and
+live indexes excluded from seal. Current seal sealed-pgd-workload-v1.json.
+
+NEXT LOCAL: derive SEPARATE target-sized whole-unit runtime from frozen scientific
+sources, retain each objective's ownership/numerical/resource caps. Integrate
+whole-unit continuing clocks, parent/RSS, storage/collection and fresh replay
+identities using explicit fake OS/compute ports. Do not widen local CPU/old sealed
+entries or create scope/handoff/ask approval until concrete target adapter tests
+pass. Real current-route primary/convergence + perturbed target rollout replay +
+matched complete-unit timing/explicit overhead still outstanding, followed by
+chosen-hardware memory/exact recovery/economics/30 training-only calibration evals/
+data-protocol-adoption locks. No new mechanism parser loop without actual failure.
+Training PGD5/EOT1,routine EOT1,optimizer backward,policy registry,study YAML unchanged.
+Research/training admission FALSE. Financial project200/compute160/noncompute40/
+single10 caps+holds unchanged; Oct29 wallet/encumbrance historical, not current.
+Earlier entries historical.
+
 LATEST November23: CANDIDATE-ONLY10614 COMPLETES; MECHANISM DIAGNOSTIC CLOSED.
 Read report/checks/2026-11-23-pgd-candidate-handoff-v1-target-review.json/md and
  docs/predictor_pgd_mechanism_completion_20261123.md. Raw target-review-20261123

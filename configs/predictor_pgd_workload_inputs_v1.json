@@ -1,0 +1,27 @@
+{
+  "frozen_source_sha256": {
+    "attacks/pgd.py": "947c3e4aa275fa98b5f84a2a7a89f74b8161d6ba498b948862f7d488712c2d81",
+    "attacks/pgd_context_v1.py": "34d310b4518ff4e5c85ce722d1e331e7a9e40b56db1f3c5e10fe3378ffa8c552",
+    "attacks/pgd_pretrained_v1.py": "d7c8f18c10a83bb86c381cd33143392d54d4fe03d07fa8d3d4ac868e845f5e0d",
+    "configs/budget_study_plan.yaml": "70de4b44a71efe8e7ee45094f525992c9ea8f8ef45ec0de999ea6047a5f888fa",
+    "configs/study.yaml": "4a16565ead0e3929a0a707fd71cfff95c0c99da93bef7510a3b0f385c4efe3b1",
+    "models/candidate_contract.py": "13f664f7146eb4816cbaf9fde15d1b6e572db0949e22c319eb2420d23c1e4572",
+    "models/candidate_evaluation.py": "26510d6bd5557421fc10bcdc28dd4b5c553b69c3a9914a3cd80457d5bc746a30",
+    "models/diagnostics.py": "12185169ca1ebe2564bc0b1815ec19b8599c08f625af056bc30c25fca6f390d0",
+    "models/execution.py": "e665f7c842c0d26733bd6c4d16887b10e2590b76f15e4fb1981b304ff37903ba",
+    "models/native_diagnostic.py": "c56b29496397d5516416a884ab591ec6de43e0fc4dca1bc05536234e10ea75d9",
+    "models/predictor_eot8_adapter_v1.py": "89b7e0c67e88f2f776bb0bb6ad786a2202115e64ffc6c6f9a962381cc2e9a6b8",
+    "models/predictor_eot8_owned_v1.py": "ef3675e69ef56b0b4ef4f543cab96b7f2bc757a64202d74500f3802ccd5dfc12",
+    "models/predictor_forward_preserving_cpu_v1.py": "6ba308e948c0ce346512f17ef4fc11eccb542954048c859ad6c6a751db1fbb66",
+    "models/predictor_forward_preserving_eot8_cpu_v1.py": "256079682d27aa2be42b0c909298a5adb3632cc385e95aa3590d2724b75a1a9e",
+    "models/predictor_forward_preserving_target_v1.py": "000591f52fd66e7b1d4a78ff0c38ed265a5870e4a8463f9d810031d56752710a",
+    "models/predictor_forward_preserving_upstream_v1.py": "db71de4b6b8c3ba1532639258f23e7b4b5a850493625bf6ba1a7e2f8c9b13b88",
+    "models/predictor_pgd_cpu_v1.py": "95c7ec467941064907765be51ad52a8f3d52a4735d72d74fe1d90eb61fe50721",
+    "models/runtime.py": "0764f5c63384882e06f1d409535e96b3423861866c16bc8ba5e3fa71955f83de",
+    "models/training.py": "15e280dfcc409a94f36defa42c59304e96dc198c8e4e063a9da6f4adf4f03679",
+    "models/vjepa2.py": "5501eb4ce79317d8ebab591d7fe4d8d0b74b1b5b692d2f7513d8c583d188debf"
+  },
+  "kind": "local-whole-pgd-workload-input-pins-v1",
+  "prior_seal": "runs/pretrained/diagnostic/pgd-candidate-handoff-v1-20261123/target-review-20261123/sealed-candidate-target-review-v1.json",
+  "prior_seal_sha256": "61a510a0e57e68372e1fb623753d478d6488ababcc85e35d68e70665e1688799"
+}
