@@ -1,0 +1,104 @@
+{
+  "actual_complete_units_timing_memory_replay_or_training_qualified": false,
+  "all_real_grants_consumed": true,
+  "budget_decision": "REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE",
+  "budget_gate_opened": false,
+  "candidate_implemented_emitted_bound_or_adopted": false,
+  "candidate_is_not_tensor_buffer_copy_elision": true,
+  "decision": "NO_FIT_QUALIFIED_ONE_METADATA_CONTAINER_HYPOTHESIS_ELIGIBLE_FOR_LOCAL_PROOF",
+  "eligible_local_proof_candidate": "refresh-and-reuse-expected-row-containers",
+  "execution_binding": null,
+  "existing_runtime_client_budget_science_guard_hash_copy_durability_shutdown_clock_or_caps_changed": false,
+  "expected_identity_observations_cached_or_moved": false,
+  "kind": "fixed-guard-local-budget-reassessment-v1",
+  "local_cost_or_dominant_cost_or_net_benefit_established": false,
+  "maximum_new_attempts": 0,
+  "new_network_or_target_query_GPU_proof_or_paid_work": false,
+  "old_encoding_negative_result_inherited_without_repeat": true,
+  "old_provenance_new_evidence_gap_unchanged": true,
+  "options": [
+    {
+      "disposition": "BLOCKED_BY_MISSING_PROVENANCE",
+      "id": "copy-elision",
+      "reason": "The prior new-artifact requirement remains. Do not repeat its inventory, source review or symbolic harness."
+    },
+    {
+      "disposition": "REJECT_INHERITED_COST_RESULT",
+      "id": "prior-canonical-encoding-candidate",
+      "reason": "The saved local comparison rejects integration on its corpus. No timing, test or corpus repeat is authorized here."
+    },
+    {
+      "disposition": "REJECT_FRESH_OBSERVATION_CHANGE",
+      "id": "cached-tensor-hashes-or-version-only",
+      "reason": "Every reached byte observation remains required; copies and fresh hashes are fixed."
+    },
+    {
+      "disposition": "REJECT_OBSERVATION_OR_BOUNDARY_CHANGE",
+      "id": "precompute-expected-identities-at-setup",
+      "reason": "Moves or removes original reached RHS identity calls and assumes saved record stability; no such observation cache is selected."
+    },
+    {
+      "disposition": "ELIGIBLE_FOR_SEPARATE_LOCAL_METADATA_PROOF_ONLY",
+      "id": "refresh-and-reuse-expected-row-containers",
+      "reason": "Three RHS construction seams contain pure expected metadata. A typed private-container prototype may refresh every original value/id call in order while reusing containers. No whole-guard equivalence or net benefit is established."
+    },
+    {
+      "disposition": "REJECT_OBSERVATION_OR_REFUSAL_ORDER_CHANGE",
+      "id": "stream-guard-comparisons-or-stop-enumeration-early",
+      "reason": "Original list construction completes before comparison; OR operands and the intermediate parameter-grad scan must remain at their original reached positions."
+    },
+    {
+      "disposition": "REJECT_FRESH_BOUNDARY_CHANGE",
+      "id": "merge-or-deduplicate-Snapshot-checks",
+      "reason": "Distinct owner/value/mode snapshots and reached calls cannot share earlier observations or hashes."
+    },
+    {
+      "disposition": "REJECT_GUARD_CHANGE",
+      "id": "omit-grad-hook-mode-or-RNG-checks",
+      "reason": "Fresh no-param-grad, hook/method/mode/RNG/API/precision and ownership checks remain mandatory."
+    },
+    {
+      "disposition": "REJECT_OWNERSHIP_CLOCK_AND_OBSERVATION_CHANGE",
+      "id": "background-or-asynchronous-hashing",
+      "reason": "Introduces new writer/consumer lifetimes, synchronization and worker/clock boundaries under unchanged caps."
+    },
+    {
+      "disposition": "REJECT_FRESH_ROLE_AND_RESOURCE_CHANGE",
+      "id": "parallel-roles-or-reuse-worker-model",
+      "reason": "Original/candidate/replay remain fresh and separately owned; no concurrent/shared-state route or new resource policy is selected."
+    },
+    {
+      "disposition": "REJECT_DURABILITY_OR_OBSERVATION_CHANGE",
+      "id": "skip-readback-batch-fsync-or-move-endpoints",
+      "reason": "Both full-prefix checks, fsync/durable ordering, own journal/timer exit and parent accounting remain fixed."
+    },
+    {
+      "disposition": "REJECT_AS_SOLUTION_UNDER_FIXED_CONSTRAINTS",
+      "id": "reserve-extend-time-or-relax-science-hardware-caps",
+      "reason": "Reservation cannot accelerate computation; no changed timeout, PGD/EOT, hardware, memory, sample cadence or guard policy is adopted."
+    }
+  ],
+  "prototype_contract": [
+    "Use NEW stdlib synthetic metadata only, with exact built-in name/flag/record domains and opaque identity tokens. No Torch/NumPy/model/tensor or original Snapshot execution.",
+    "Preserve every original reached RHS record read and identity-observer call, order and count. Refresh all logical values each comparison even when objects/versions are unchanged. Reuse only private containers; never cache observations.",
+    "Keep observed model enumeration, original OR operand ordering and parameter-grad scan untouched. No precomputation across setup, no streaming/early-stop replacement and no movement across journal/timer/gradient/hash boundaries.",
+    "Prove expected row values, list ordering, comparison outcomes and malformed-input/error/call-trace behavior against an independent baseline. Cover changed/reordered/grown/shrunk saved records, changed names/flags/tokens, duplicate names and cache corruption.",
+    "Unknown/stateful/noncanonical inputs must follow the original baseline construction without prior consumption/re-observation or altered refusals. This fallback obligation and full guard-domain equivalence are NOT proved by the review.",
+    "Cache contains only private primitive row data, no additional model/tensor references or cross-Snapshot/role/thread state. Prove invalidation, no writable escape, bounded retained memory and failure cleanup before any integration.",
+    "No source bridge, guard-class patch, worker graph, operational package/grant/gate change or tensor API is emitted in the prototype stage. Existing hashes/copies, science/guards/durability/shutdown/clocks/caps remain byte-exact.",
+    "Freeze baseline/candidate helper source, independent expected traces and NEW membership before first checks. No old passing metadata/witness/encoding/harness/scientific cohort repeat.",
+    "Proof acceptance would authorize at most a separate bounded LOCAL metadata cost comparison. Extra validation/cache/bookkeeping can be slower or retain more memory. No expected saving, dominant cost, target fit or training estimate is asserted.",
+    "Any integration needs separate full source/inverse/refusal/ownership review and actual matched complete-unit timing/memory/replay and other admission gates. Original budget source stays unconditionally closed."
+  ],
+  "raw_stage": "runs/pretrained/diagnostic/pgd-local-budget-reassessment-v1-20261124",
+  "research_admitted": false,
+  "review_only": true,
+  "scope_package_grant_approval_request_or_launch_created": false,
+  "source_execution_or_project_test_benchmark_witness_scientific_or_worker_work": false,
+  "source_facts": "runs/pretrained/diagnostic/pgd-local-budget-reassessment-v1-20261124/SOURCE-FACTS-v1.json",
+  "source_facts_sha256": "263bcfe4cf30f54d0f35d01279fe13d99f1f62b984e2f71374bffafe5440f8b3",
+  "source_pins": 14,
+  "target_API_adapter_constructor_or_operational_route_selected": false,
+  "training_admitted": false,
+  "training_percentage_or_time_estimate": null
+}

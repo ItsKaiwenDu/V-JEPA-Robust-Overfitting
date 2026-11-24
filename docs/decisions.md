@@ -1483,3 +1483,33 @@ sources/passing harness without new input. No automatic target query/retrieval,
 binary download/install, new scope/grant/launch or training estimate follows.
 Actual physical ownership/bytes/refusals/complete-unit evidence remains gated;
 all financial/training caps and holds fixed. Include commit messages automatically.
+
+
+## November 24: reassess local budget options with every guard fixed
+
+After the expressly requested saved-provenance commit/push104dfe7, the user chose
+a separate local reassessment instead of repeating the evidence-blocked route.
+The [source-only decision](../configs/predictor_pgd_local_budget_reassessment_v1.json)
+reviews12 alternatives with14 sourcepins and3 expected identity-row construction
+seams. No complete-unit fit qualifies. Copy-elision provenance and the previous
+encoding cost rejection remain unchanged without repeats.
+
+One hypothesis is eligible only for a NEW local synthetic metadata proof: reuse
+private expected-row containers after EVERY original reached value/id lookup is
+refreshed in order. Model enumeration, OR/gradient scan ordering, fresh tensor
+hashes/copies and all guards remain fixed. Constructor-only assignments do not
+establish immutable/no-alias saved lists. Unknown/stateful fallback without prior
+consumption, full guard-domain refusal equivalence, cache privacy/invalidation/
+lifetime/memory and error cleanup remain unproved. No implementation/sourcebridge
+or API/adapter/constructor/runtime route is emitted/adopted; extra bookkeeping can
+cost more than original allocation. Formula is source-only, not cost/dominance.
+
+Auditv1 PASS FIRST RUN71499 priorhashes/77941 priorfixtures/0new; all histories,
+genuine oldproof/31gradients and failed/partial/pending/consumed claims preserved.
+No original guard/project/test/benchmark/witness/scientific callback, workload
+clock/port, libraryimport, target/network/proof/GPU or old passing cohort repeat.
+Next proof uses NEW typed metadata/explicit identity traces/independent frozen
+oracles only; acceptance at most leads a separate LOCAL cost comparison. Actual
+integration/complete-unit memory/timing/replay and other gates remain closed.
+All resource/science/financial/training caps fixed; no operational request/launch
+or training forecast. Include short numbered commit messages automatically.

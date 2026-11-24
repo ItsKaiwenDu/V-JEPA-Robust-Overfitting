@@ -1,5 +1,71 @@
 # Research Progress Reports
 
+LATEST November 24: LOCAL BUDGET OPTIONS REASSESSED; ONE METADATA PROOF HYPOTHESIS.
+Read docs/predictor_pgd_local_budget_reassessment_v1.md, local_budget_reassessment
+config and report/checks/2026-11-24-pgd-local-budget-reassessment-v1-local-review.json/md.
+Raw pgd-local-budget-reassessment-v1-20261124; saved auditv1 PASS FIRST RUN.
+Starting clean104dfe7 AFTER user's EXPRESS prior commit/push request completed
+with supplied title/numbereddescription; origin/main==HEAD. User explicitly chose
+Reassess other local budget options after savedprovenance needed NEW input.
+Default user stages/commits/pushes unless expressly requested; no further
+unrequested Git mutation. USER PREFERENCE automatically short clear commit title
++NUMBERED description eachbigstep. Preserve ALL sources/tests/auditor versions/
+fixtures/logs/failures/results/statuses/claims. All real grants CONSUMED. No
+operational scope/handoff/package/grant/approval request/launch command, university
+query/SSH/upload/retry/resume/retrieval/remote cleanup/target/GPU/proof/paid work
+or manualpaste.
+
+LOCAL SOURCE/AST/saved-disposition ONLY:14fixed pins/12 reviewed alternatives/
+3expected RHS row-construction seams. BOUNDED review, NOT exhaustive impossibility
+proof. Copyelision provenancegap and oldencoding cost rejection unchanged, NO
+repeat. Reject cachedhashes/setupcachedidentity/earlyenumeration/mergedchecks/
+removedguards/asyncownership/sharedroles/batchedfsync/movedendpoints/relaxedcaps.
+ONE hypothesis eligible ONLYseparate LOCAL metadata proof: refresh EVERY reached
+saved-record value/id lookup in original order, reuse private expected result
+containers only. Original OR operands parameter0/buffer1/gradscan2/module3 and
+observed modelenumeration untouched. Class constructor-only record assignments
+DO NOT prove noexternalalias/mutation. Formula IF all3reached:3lists+Np+Nb+Nm
+tuplerows; logicalsource formula NOT heapprofile/time/dominantcost evidence.
+
+NO prototype/API/adapter/constructor/sourcebridge/runtime route emitted/adopted.
+No cache fallback/domain/ownership/invalidation/memory/lifetime or netbenefit/fit
+proved. Extra validation/cachebookkeeping MAY be slower/retain morememory.
+Existing tobytes copies/EVERY fresh hash/ordered state_digest/guards fixed.
+NEXT SEPARATE LOCAL ONLY per NEXT-LOCAL-EXPECTED-ROW-PROOF-v1.json: NEW typed
+stdlib synthetic baseline/candidate +explicit identityobserver traces; freeze
+independent oracles/membership BEFORE firstchecks. Preserve exact values/order/
+errors/freshlookups, changed/reordered/grown/shrunk records, unknown-stateful
+fallback WITHOUT priorconsumption/re-observation, cache corruption/privacy/
+boundedmemory/exceptioncleanup. Full guard-domain remains unproved. No original
+Snapshot/model/tensor/worker execution/sourcebridge/old passingcohort repeats.
+Proof atmost leads separate bounded LOCAL metadata costcomparison; NEVER unit
+qualification/integration. Separate fullsource/inverse/domain/refusal/ownership
+review and actual matched completeunits/memory/freshreplay/other gates required.
+
+STD auditFIRSTPASS71499priorhashes/77941priorfixtures/0new/14pins/3seams/12options/
+1local-proof-only candidate. No reviewer/project/test/benchmark/witness/science/
+originalguard callbacks, sourceexecution/tensor-arraydecode/recalc/process/
+clock/timer/signal/GPU/proof/network IN AUDIT. Source/metadata/AST/JSON/FS/hash
+REAL; NO libraryimport/install/model/tensor/gradient/worker/FileSink/ledger/
+benchmark/target or old passing scientific/witness/harness/encoding cohortrepeat.
+Seal sealed-local-budget-reassessment-v1.json; liveindexesexcluded/exact snapshots.
+FIFO LSTAT ONLY NEVER OPEN/device29 priorFROZEN/no probe-remap-waiver; oldtarget
+66307/four exact directory exceptions unchanged, futuredevicechange newrecord/
+review. Totalfixtures77941. Oldactualv3 proof/31gradients genuine inherited, whole
+units0/candidate-replay notstarted, all failed/partial/pending/consumedflags fixed.
+Currentphase48/481518B NOT oldv347/450548B; no newactualtarget/currentremoteclaim.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; installedv5gate UNCONDITIONALLY CLOSED
+before protocolclock/ATTEMPT/connection. Graph56uploads936711B/runtime48files481518B/
+cache47/nine supervisors/270paths/control d997bf9e... unchanged. Objective120/unit720/
+setup180/proof60/soft2280-hard2400/final120/collection600/connection3000/RSS4GiB/
+allocator7GiB/allother caps fixed; no timeout/hardware/shortenedPGD-EOT/disabledguard/
+leanroute. All original science/native/hash/owner/durability/shutdown/Guard and
+continuing clocks fixed. Mechanism CLOSED/research-trainingFALSE. TrainingPGD5EOT1/
+routineEOT1/optimizerbackward/registry/studyYAML/financial200/160/40/single10caps+
+holds fixed; historicalsnapshots not currentquotes/balance. No training
+percentage/time estimate. Earlier entries historical.
+
 LATEST November 24: SAVED TARGET PROVENANCE CLASSIFIED; NEW EVIDENCE REQUIRED.
 Read docs/predictor_pgd_saved_provenance_v1.md, saved_provenance config and
 report/checks/2026-11-24-pgd-saved-provenance-v1-local-review.json/md. Raw

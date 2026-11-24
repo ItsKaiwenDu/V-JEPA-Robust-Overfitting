@@ -1,5 +1,12 @@
 # V-JEPA Robust Overfitting
 
+**Local budget alternatives reassessed; no fit qualified (November24):**
+[The source-only review](report/checks/2026-11-24-pgd-local-budget-reassessment-v1-local-review.md)
+reviews12 alternatives and identifies one private expected-row container hypothesis
+for a separate new local metadata proof. Every reached identity lookup and tensor
+copy/hash stays fresh; no prototype, speedup or unit fit is established. The
+provenance gap, prior encoding rejection and closed gate remain. Earlier entries historical.
+
 **Saved target provenance classified; new evidence required (November24):**
 [The saved-only review](report/checks/2026-11-24-pgd-saved-provenance-v1-local-review.md)
 joins55 project sources and classifies19 inputs, preserving genuine prior partial
