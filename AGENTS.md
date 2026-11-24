@@ -2,6 +2,72 @@
 
 ## Current stage
 
+LATEST November 24: SNAPSHOT CONTRACT REQUIREMENTS REVIEWED; FAKE PLAN NOT RUN.
+Read docs/predictor_pgd_snapshot_contract_v1.md, snapshot_contract and
+snapshot_contract_validation configs and report/checks/2026-11-24-pgd-snapshot-contract-v1-local-review.json/md.
+Raw pgd-snapshot-contract-v1-20261124; saved auditv1 PASS FIRST RUN. Starting
+clean usercommit4b13c3a. User alone stages/commits/pushes NEVER agent. Preserve
+ALL source/test/auditor versions/fixtures/logs/failures/results/statuses/claims.
+All real grants CONSUMED. No scope/handoff/package/grant/approval request/launch
+command, university query/SSH/upload/retry/resume/retrieval/remote cleanup/
+target/GPU/proof/paid work or repeated manual paste.
+
+REQUIREMENTS ONLY:29sourcepins/all48runtime members481518B parsed;27lexical hash
+calls/two definitions/27symbolrefs/10core preparation-unit calls. Complete within
+declared syntax spellings ONLY, NOT reachability/dispatch/execution counts.
+All27 call contracts preserve separate tensor_hash flatteneduint8 and ordered-
+name state_digest bytes, original refusal positions and EVERY reached fresh hash.
+14requirements/nine conceptual states/14unimplemented fakeports/32planned cases,
+ALL NOT_RUN/no results/zero executions or new fixtures. No tensor API/constructor/
+adapter selected/implemented/emitted/bound/adopted. Original immutable copies,
+every fresh hash and all runtime/scientific/guard/client/budget bytes unchanged.
+
+Source-only finding: OwnedStep entryhash316 BEFORE localtry317/objectivetimer319;
+future capture must own failures from firstallocation without assuming this
+handler runs. No actual failure/leak/timer/atomiccapture proof. Metadata refusal
+may shortcircuit before hash: preserve original ordering, no cache/no new work
+after refusal. Missing score/gradient receipt NEVER proves no prior work.
+Writer exclusion/private completion/exporter noescape/consumption-exception
+lifetime/exact logicalbytes and separate state stream remain PROOF OBLIGATIONS.
+No claimed target Torch2.8.0+cu128/CUDA12.8/NumPy2.4.6/CPython3.11.17/build join.
+
+Mapperv1 refused wrong overlay prefix for ONEsupervisor runtime source before
+emission; ONLYkey selection fixedv2. Draftv1 retained; v2 clarifies shortcircuit
+and prehandler failure ownership. All versions/logs retained. STD auditFIRSTPASS
+71164priorhashes/77782priorfixtures/29pins/48members/27calls/2defs/13upstreamclaims/
+4AST/14requirements/32PLANNED. NO mapper/derivation/project/test/scientific callback,
+inspected-source execution/tensor-value decode/recalc/process/timer/GPU/proof/
+network IN AUDIT. Source base64/text/JSON/AST/FS/hash REAL; no scientific-array/
+packet decode. No fakeworker/realTorch-NumPy/model/tensor/gradient/FileSink/ledger/
+clock/timer/signal/PIDFD/thread/benchmark/network/refetch/target work. No old byte
+witness/passingtest/encodingbenchmark/closedscientific cohort repeats.
+Device29 priorFROZEN/no probe-remap-waiver/old target66307/four directory exceptions
+fixed; FIFO LSTAT ONLY NEVER OPEN. Prior actualv3proof/31of40partial/failed/
+consumedclaims fixed. Seal sealed-snapshot-contract-v1.json; liveindexesexcluded/
+exact before-after snapshots. Fixturetotal77782 unchanged; futuredevicechange
+requires newrecord/review, never remap.
+
+NEXT SEPARATE LOCAL ONLY per NEXT-LOCAL-SYMBOLIC-CONTRACT-HARNESS-v1.json: author
+bounded stdlib SYMBOLIC ownership/lifetime/byte-contract harness for this frozen
+32case/14port plan, with no tensor API/adapter/runtime emission or old witness/
+cohort repeat. Currentplan UNIMPLEMENTED/UNEXECUTED. Fake results can establish
+only supplied-state/opaque-byte consistency, NEVER physical alias/writer/order/
+buffer-consumer/refusal/performance or target admission. Actual target build,
+domain-bytes/refusals, ownership and matched completeunit timing/memory/replay/
+recovery/economics/calibration/data/protocol/training remain gated. No scope/
+approval request/target query/launch follows. No implementation is adopted here.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; installedv5gate UNCONDITIONALLY CLOSED
+before protocolclock/ATTEMPT/connection. Graph56uploads936711B/runtime48files481518B/
+cache47/nine supervisors/270paths/control d997bf9e... unchanged. Objective120/unit720/
+setup180/proof60/soft2280-hard2400/final120/collection600/connection3000/RSS4GiB/
+allocator7GiB/allother caps fixed; no timeout/hardware/shortenedPGD-EOT/disabledguard/
+leanroute. All scientific/native/ownership/hash/durability/shutdown/Guard/continuing
+clock sources fixed. Mechanism CLOSED/research-trainingFALSE. TrainingPGD5EOT1/
+routineEOT1/optimizerbackward/registry/studyYAML/financial200/160/40/single10 caps+
+holds fixed; historical snapshots not currentquotes/balance. No training
+percentage/time estimate. Earlier entries historical.
+
 LATEST November 24: OFFICIAL 2.8 SOURCE REVIEWED; TARGET BUILD/OWNERSHIP UNJOINED.
 Read docs/predictor_pgd_target_source_review_v1.md, target_source_review config
 and report/checks/2026-11-24-pgd-target-source-review-v1-local-review.json/md.

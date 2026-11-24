@@ -1,0 +1,531 @@
+{
+  "actual_Torch_NumPy_model_gradient_worker_benchmark_network_GPU_proof_work": false,
+  "actual_case_executions": 0,
+  "all_real_grants_consumed": true,
+  "budget_gate_opened": false,
+  "candidate_API_or_adapter_selected": false,
+  "cases": [
+    {
+      "expected": "Ordered success lifecycle; digest eligible only after consumption and safe owned cleanup.",
+      "id": "P01",
+      "requirements": [
+        "R03",
+        "R05",
+        "R07",
+        "R09",
+        "R10"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Fresh fake CPU capture with private exact-byte span"
+    },
+    {
+      "expected": "No read before matching completion; no claim of real GPU behavior.",
+      "id": "P02",
+      "requirements": [
+        "R04",
+        "R06",
+        "R10"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Fake CUDA-labelled capture with explicitly supplied writer ordering and matching completion"
+    },
+    {
+      "expected": "Consume name/chunk pairs in original order with no delimiters; no tensor_hash recipe substitution.",
+      "id": "P03",
+      "requirements": [
+        "R08",
+        "R09",
+        "R10"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Separate fake ordered-name state stream"
+    },
+    {
+      "expected": "No target qualification or gate bypass; fake authority remains simulation only.",
+      "id": "P04",
+      "requirements": [
+        "R01",
+        "R14"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Missing or stale authority even when metadata flags say complete"
+    },
+    {
+      "expected": "Refuse candidate success; do not treat CPU/contiguous/readonly labels as private storage.",
+      "id": "P05",
+      "requirements": [
+        "R05",
+        "R09"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Capture generation aliases source or a surviving writer"
+    },
+    {
+      "expected": "No capture consumption; unknown remains unresolved.",
+      "id": "P06",
+      "requirements": [
+        "R04",
+        "R06"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Writer quiescence/order unknown at capture start"
+    },
+    {
+      "expected": "No digest; preserve failure and required held dependencies.",
+      "id": "P07",
+      "requirements": [
+        "R04",
+        "R11"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Writer generation changes during capture"
+    },
+    {
+      "expected": "Refuse ownership qualification; identity inequality alone insufficient.",
+      "id": "P08",
+      "requirements": [
+        "R05",
+        "R09"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Private-storage claim lacks exporter alias graph"
+    },
+    {
+      "expected": "No success while writer escape persists; retain live dependency chain.",
+      "id": "P09",
+      "requirements": [
+        "R09",
+        "R10"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Writable exporter/base/storage reference escapes before consumption finishes"
+    },
+    {
+      "expected": "Refuse; no identity/version-only success.",
+      "id": "P10",
+      "requirements": [
+        "R03",
+        "R12"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Owner/thread/domain label changes at consume boundary"
+    },
+    {
+      "expected": "Failed-held state; no early release, subsequent hash, reset or retry.",
+      "id": "P11",
+      "requirements": [
+        "R10",
+        "R11"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Owner/capture failure leaves unconfirmed use"
+    },
+    {
+      "expected": "No read/release; wait is symbolic supplied state, not a real blocking operation.",
+      "id": "P12",
+      "requirements": [
+        "R06",
+        "R10"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Transfer pending when a read is requested"
+    },
+    {
+      "expected": "Reject mismatched completion; never subtract cross-domain clock labels.",
+      "id": "P13",
+      "requirements": [
+        "R06",
+        "R12"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Completion token has wrong stream, allocation generation or owner domain"
+    },
+    {
+      "expected": "Remain unqualified; no all-stream inference.",
+      "id": "P14",
+      "requirements": [
+        "R04",
+        "R06"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Current stream completed but unrelated writer ordering unknown"
+    },
+    {
+      "expected": "Refuse byte-contract success; use logical bytes only.",
+      "id": "P15",
+      "requirements": [
+        "R02",
+        "R07"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Opaque span includes storage padding, wrong extent or offset"
+    },
+    {
+      "expected": "Reject transformation; preserve bit pattern and refusal domain.",
+      "id": "P16",
+      "requirements": [
+        "R02",
+        "R07"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Proposal declares numeric uint8 conversion instead of reinterpretation"
+    },
+    {
+      "expected": "Mark actual equivalence UNPROVEN; fake tags cannot assert original operator acceptance or errors.",
+      "id": "P17",
+      "requirements": [
+        "R01",
+        "R02"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Unreviewed dtype/layout/device/subclass/conjugate/negative case tags"
+    },
+    {
+      "expected": "No premature release or successful result.",
+      "id": "P18",
+      "requirements": [
+        "R09",
+        "R10"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Exporter/view/storage release requested while consumer still holds use"
+    },
+    {
+      "expected": "No digest/receipt; hold until use is confirmed finished, then release in dependency order.",
+      "id": "P19",
+      "requirements": [
+        "R10",
+        "R11"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Consumer raises after partial consumption"
+    },
+    {
+      "expected": "Primary cancellation retained; release only already-owned confirmed-unused resources.",
+      "id": "P20",
+      "requirements": [
+        "R10",
+        "R11"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Injected cancellation before allocation or during export"
+    },
+    {
+      "expected": "Failed-held, no buffer read or inferred completion from dropped reference.",
+      "id": "P21",
+      "requirements": [
+        "R06",
+        "R10",
+        "R11"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Injected interruption with pending transfer and no completion proof"
+    },
+    {
+      "expected": "Primary error remains primary; append cleanup cause/notes without failure promotion.",
+      "id": "P22",
+      "requirements": [
+        "R10",
+        "R11"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Cleanup raises after capture/consumer primary failure"
+    },
+    {
+      "expected": "No success/new allowance; do not call real clocks, timers or extend original cleanup.",
+      "id": "P23",
+      "requirements": [
+        "R06",
+        "R11",
+        "R12"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Supplied original deadline exhausted at each conceptual boundary"
+    },
+    {
+      "expected": "Reject movement; maintain source ordering and continuing context/unit/parent accounting.",
+      "id": "P24",
+      "requirements": [
+        "R03",
+        "R11",
+        "R12"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Boundary plan would move start/end observation past journal or timer exit"
+    },
+    {
+      "expected": "Count distinct live extents including all copies; reject unsupported peak claim or overhead subtraction.",
+      "id": "P25",
+      "requirements": [
+        "R05",
+        "R10",
+        "R13"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Source, private capture, exporter retention and temporary bytes overlap"
+    },
+    {
+      "expected": "Require distinct observation generations every time; no cache/dedup/version-only short circuit.",
+      "id": "P26",
+      "requirements": [
+        "R03",
+        "R07",
+        "R12"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Repeated call IDs reuse object/version but reach fresh observations"
+    },
+    {
+      "expected": "Keep started/failed/partial status; no invented complete journal or retry.",
+      "id": "P27",
+      "requirements": [
+        "R03",
+        "R11",
+        "R14"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "A consumed step-start later fails hashing/cleanup"
+    },
+    {
+      "expected": "Reject recipe mixing or added separators; independent expected byte streams for each recipe.",
+      "id": "P28",
+      "requirements": [
+        "R07",
+        "R08"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Ordered state names or chunk boundaries changed to a tensor hash recipe"
+    },
+    {
+      "expected": "Record required actual baseline/candidate byte/refusal proof as pending; no numerical/tensor test.",
+      "id": "P29",
+      "requirements": [
+        "R02",
+        "R07"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Empty/scalar/noncontiguous/offset/unsupported cases have only logical labels"
+    },
+    {
+      "expected": "Refuse trusted-consumption qualification; do not execute arbitrary/project callbacks.",
+      "id": "P30",
+      "requirements": [
+        "R04",
+        "R09"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "A simulated consumer callback can mutate/release/reenter exporter"
+    },
+    {
+      "expected": "Refuse reuse, double consume and escaped lifetime; original single-use unit rules remain.",
+      "id": "P31",
+      "requirements": [
+        "R03",
+        "R10",
+        "R11"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Consume/release generation is reused or returned across scope/role boundaries"
+    },
+    {
+      "expected": "Never invoke effect; harness eligibility requires explicit fake ports and zero attempted real effects.",
+      "id": "P32",
+      "requirements": [
+        "R01",
+        "R12",
+        "R14"
+      ],
+      "saved_result": null,
+      "status": "NOT_RUN",
+      "stimulus": "Any real library/compute/OS/network/proof/gate effect would be needed"
+    }
+  ],
+  "comparison_oracle": "Predeclared source-bound states, exact opaque ordered-byte/chunk expectations and event traces authored before first future run. No candidate tensor adapter or metadata flag is an oracle for physical target behavior.",
+  "coverage": {
+    "all_covered_calls_keep_original_recipe_position_and_freshness": true,
+    "call_sites": [
+      "CALL-001",
+      "CALL-002",
+      "CALL-003",
+      "CALL-004",
+      "CALL-005",
+      "CALL-006",
+      "CALL-007",
+      "CALL-008",
+      "CALL-009",
+      "CALL-010",
+      "CALL-011",
+      "CALL-012",
+      "CALL-013",
+      "CALL-014",
+      "CALL-015",
+      "CALL-016",
+      "CALL-017",
+      "CALL-018",
+      "CALL-019",
+      "CALL-020",
+      "CALL-021",
+      "CALL-022",
+      "CALL-023",
+      "CALL-024",
+      "CALL-025",
+      "CALL-026",
+      "CALL-027"
+    ],
+    "each_case_has_synthetic_metadata_only_not_actual_physical_evidence": true,
+    "requirements": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14"
+    ]
+  },
+  "evidence_policy": "Keep every future source/plan/fixture/result/log/failure version. Freeze membership and expectations before first run; fix only demonstrated failing harness nodes and retain failure history. No rerun of a passing/closed cohort.",
+  "execution_binding": null,
+  "future_harness_bounds_only_not_runtime_caps": {
+    "maximum_cases": 32,
+    "maximum_opaque_payload_bytes_per_case": 4096,
+    "maximum_simultaneous_symbolic_allocations": 8,
+    "maximum_symbolic_events_per_case": 64,
+    "maximum_total_saved_local_evidence_bytes": 1048576,
+    "real_process_thread_clock_timer_signal_PIDFD_network_or_GPUTorch_ports": 0
+  },
+  "future_refusals_cannot_claim_original_runtime_exception_equivalence": true,
+  "future_success_can_establish": "Only consistency of a synthetic requirements state model and supplied opaque byte stream; no actual build, alias exclusion, stream ordering, capture atomicity or performance.",
+  "kind": "snapshot-contract-explicit-fake-port-validation-plan-v1",
+  "maximum_new_attempts": 0,
+  "planned_case_executions": 32,
+  "ports": [
+    {
+      "id": "authority",
+      "implemented": false,
+      "meaning": "Predeclared source/build token; fake equality is never actual provenance.",
+      "requirement": "R01"
+    },
+    {
+      "id": "domain",
+      "implemented": false,
+      "meaning": "Tagged dtype/layout/device/dispatch/offset/extent evidence; unknown domain is unqualified.",
+      "requirement": "R02"
+    },
+    {
+      "id": "observation_boundary",
+      "implemented": false,
+      "meaning": "Call-site identity and fresh observation generation; no cached receipt reuse.",
+      "requirement": "R03"
+    },
+    {
+      "id": "writer_order",
+      "implemented": false,
+      "meaning": "Explicit writer/quiescence/order facts or unknown; labels simulate assertions, not exclusion.",
+      "requirement": "R04"
+    },
+    {
+      "id": "private_capture",
+      "implemented": false,
+      "meaning": "Symbolic owned storage generation and alias graph; no real allocation or tensor copy.",
+      "requirement": "R05"
+    },
+    {
+      "id": "completion",
+      "implemented": false,
+      "meaning": "Supplied transfer/consumer completion with owner/generation/stream/domain, no real CUDA event.",
+      "requirement": "R06"
+    },
+    {
+      "id": "logical_bytes",
+      "implemented": false,
+      "meaning": "Small opaque supplied byte spans and ordered chunks; no tensor values or numeric conversion.",
+      "requirement": "R07"
+    },
+    {
+      "id": "state_stream",
+      "implemented": false,
+      "meaning": "Supplied ordered names/chunks using its separate recipe; never import state_dict/model.",
+      "requirement": "R08"
+    },
+    {
+      "id": "exporter_scope",
+      "implemented": false,
+      "meaning": "Symbolic storage/exporter/view dependencies and possible escape/reentrant writers.",
+      "requirement": "R09"
+    },
+    {
+      "id": "retention",
+      "implemented": false,
+      "meaning": "Record live references and release order until all simulated uses are confirmed finished.",
+      "requirement": "R10"
+    },
+    {
+      "id": "fault_cleanup",
+      "implemented": false,
+      "meaning": "Injected symbolic primary/secondary failures, cancellation and unconfirmed uses; no OS cleanup.",
+      "requirement": "R11"
+    },
+    {
+      "id": "clock_and_guard",
+      "implemented": false,
+      "meaning": "Supplied monotonic owner/domain/deadline labels; never invoke/reset actual workload clocks or timers.",
+      "requirement": "R12"
+    },
+    {
+      "id": "live_bytes",
+      "implemented": false,
+      "meaning": "Sum distinct simultaneously live supplied allocation extents; fake accounting is not RSS/allocator observation.",
+      "requirement": "R13"
+    },
+    {
+      "id": "blocked_effects",
+      "implemented": false,
+      "meaning": "Deny imports/exec/process/timer/signal/PIDFD/thread/network/GPU/proof/worker/installed gate calls; zero attempted effects required.",
+      "requirement": "R14"
+    }
+  ],
+  "requirements_only": true,
+  "research_admitted": false,
+  "runtime_emission_or_integration": false,
+  "scope": "Only a separately authored stdlib symbolic-state harness may be considered next. No existing Snapshot/worker/FileSink/ledger or tensor library is invoked. No prior bytearray ownership witness, test or scientific cohort is repeated.",
+  "status": "PLAN_ONLY_NOT_IMPLEMENTED_NOT_RUN",
+  "training_admitted": false
+}

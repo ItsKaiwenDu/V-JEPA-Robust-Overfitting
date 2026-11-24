@@ -1,0 +1,929 @@
+{
+  "Torch_NumPy_project_imports_scientific_decode_benchmark_network_target_GPU_proof_paid_work": false,
+  "accepted_domain_not_fully_proven_by_fake_labels": true,
+  "actual_or_fake_tensor_worker_lifecycle_run": false,
+  "all_real_grants_consumed": true,
+  "budget_decision": "REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE",
+  "budget_gate_opened": false,
+  "callsite_contracts": [
+    {
+      "call_id": "CALL-001",
+      "line": 42,
+      "obligation": "Model state is still caller-owned; preserve ordered state stream and pre-unit baseline position.",
+      "path": "models/_pgd_workload_inputs_v1.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "preparation state baseline",
+      "scope": "run_prepared"
+    },
+    {
+      "call_id": "CALL-002",
+      "line": 42,
+      "obligation": "Original detached clean input; preserve full byte observation after preparation guards.",
+      "path": "models/_pgd_workload_inputs_v1.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "tensor_hash",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "clean baseline",
+      "scope": "run_prepared"
+    },
+    {
+      "call_id": "CALL-003",
+      "line": 75,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/candidate_evaluation.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "model_identity"
+    },
+    {
+      "call_id": "CALL-004",
+      "line": 65,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/diagnostics.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "run_smoke_checks"
+    },
+    {
+      "call_id": "CALL-005",
+      "line": 97,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/diagnostics.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "run_smoke_checks"
+    },
+    {
+      "call_id": "CALL-006",
+      "line": 71,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/evaluation.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "model_identity"
+    },
+    {
+      "call_id": "CALL-007",
+      "line": 88,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/fixture_state.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "load_fixture_state"
+    },
+    {
+      "call_id": "CALL-008",
+      "line": 188,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/gradient_attribution.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "measure"
+    },
+    {
+      "call_id": "CALL-009",
+      "line": 234,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/gradient_attribution.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "measure"
+    },
+    {
+      "call_id": "CALL-010",
+      "line": 310,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/gradient_attribution.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "worker"
+    },
+    {
+      "call_id": "CALL-011",
+      "line": 125,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/native_diagnostic.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "worker"
+    },
+    {
+      "call_id": "CALL-012",
+      "line": 174,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/native_diagnostic.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "worker"
+    },
+    {
+      "call_id": "CALL-013",
+      "line": 160,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/precision_diagnostic.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "worker"
+    },
+    {
+      "call_id": "CALL-014",
+      "line": 225,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/precision_diagnostic.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "worker"
+    },
+    {
+      "call_id": "CALL-015",
+      "line": 111,
+      "obligation": "Model parameters/buffers, clean targets/pixels and later masks remain referenced by Snapshot and their original owners; retained originals are not private hash buffers.",
+      "path": "models/predictor_pgd_workload_target_v1.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "tensor_hash",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "fixed-value registration",
+      "scope": "Snapshot.add"
+    },
+    {
+      "call_id": "CALL-016",
+      "line": 136,
+      "obligation": "At each reached hash expression, rehash the fixed value alongside original version/shape/dtype/device/requires-grad and model/API/owner checks. Preserve earlier short-circuit refusal without adding or postponing hashing.",
+      "path": "models/predictor_pgd_workload_target_v1.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "tensor_hash",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "fresh fixed-value guard",
+      "scope": "Snapshot.check"
+    },
+    {
+      "call_id": "CALL-017",
+      "line": 272,
+      "obligation": "After no-grad score values are computed, preserve pixel observation before score receipt append and final idle check.",
+      "path": "models/predictor_pgd_workload_target_v1.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "tensor_hash",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "score pixel receipt",
+      "scope": "Binding.objective.score"
+    },
+    {
+      "call_id": "CALL-018",
+      "line": 284,
+      "obligation": "Hash original new leaf before durable start publication; start remains consumed, no retry or shifted journal ordering.",
+      "path": "models/predictor_pgd_workload_target_v1.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "tensor_hash",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "durable step start",
+      "scope": "Binding.context._phase_context_create"
+    },
+    {
+      "call_id": "CALL-019",
+      "line": 316,
+      "obligation": "Capture exact owned input at context entry; current source places this before objective timer creation, still inside continuing unit/context accounting.",
+      "path": "models/predictor_pgd_workload_target_v1.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "tensor_hash",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "native context input baseline",
+      "scope": "OwnedStep.__enter__"
+    },
+    {
+      "call_id": "CALL-020",
+      "line": 336,
+      "obligation": "Reobserve exact input during tokens before/after backward; preserve token/owner/root/version checks and calls from consider and gradient.",
+      "path": "models/predictor_pgd_workload_target_v1.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "tensor_hash",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "strict repeated input tokens",
+      "scope": "OwnedStep.tokens"
+    },
+    {
+      "call_id": "CALL-021",
+      "line": 357,
+      "obligation": "Observe checked input gradient before success row/complete flag; preserve validation, selection-before-backward and native-route evidence.",
+      "path": "models/predictor_pgd_workload_target_v1.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "tensor_hash",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "gradient receipt",
+      "scope": "OwnedStep.gradient"
+    },
+    {
+      "call_id": "CALL-022",
+      "line": 420,
+      "obligation": "Observe final adversarial after evaluation finish/restoration checks and before durable terminal publication.",
+      "path": "models/predictor_pgd_workload_target_v1.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "tensor_hash",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R07",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "final adversarial receipt",
+      "scope": "TargetUnit.run"
+    },
+    {
+      "call_id": "CALL-023",
+      "line": 194,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/reuse_diagnostic.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "worker"
+    },
+    {
+      "call_id": "CALL-024",
+      "line": 256,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/reuse_diagnostic.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "worker"
+    },
+    {
+      "call_id": "CALL-025",
+      "line": 174,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/training.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "TrainingEngine.__init__"
+    },
+    {
+      "call_id": "CALL-026",
+      "line": 246,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/training.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "TrainingEngine.state"
+    },
+    {
+      "call_id": "CALL-027",
+      "line": 260,
+      "obligation": "Preserve this source and ordered state digest contract. Presence in runtime payload proves neither reachability nor execution; no dormant diagnostic/training callback may run for this review.",
+      "path": "models/training.py",
+      "physical_owner_writer_completion_or_lifetime_proven": false,
+      "recipe": "state_digest",
+      "requirement_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14"
+      ],
+      "role": "other frozen runtime lexical state call",
+      "scope": "TrainingEngine.restore"
+    }
+  ],
+  "callsite_map": "runs/pretrained/diagnostic/pgd-snapshot-contract-v1-20261124/HASH-CALLSITES-v1.json",
+  "callsite_map_sha256": "352ee61b69168c6849a4621709e94800129277f757e962fb721a49273aa2b09c",
+  "candidate_API_adapter_or_constructor_selected": false,
+  "conceptual_lifetime_states": [
+    {
+      "obligation": "Review domain/provenance and existing call boundary; no byte read.",
+      "state": "unqualified"
+    },
+    {
+      "obligation": "Require proven writer ordering, ownership and bounded storage; no consumer reads.",
+      "state": "capture_pending"
+    },
+    {
+      "obligation": "Require completed capture with private exact logical bytes and no writable escape.",
+      "state": "captured"
+    },
+    {
+      "obligation": "Retain the complete storage/exporter/view dependency chain; consume only within trusted scope.",
+      "state": "export_held"
+    },
+    {
+      "obligation": "No mutation/release/escape; consumer and all byte uses remain held until confirmed completion.",
+      "state": "consuming"
+    },
+    {
+      "obligation": "Only a successful complete digest is eligible to return at the original call site; bound ownership cleanup remains required.",
+      "state": "consumed"
+    },
+    {
+      "obligation": "All owned observation resources are confirmed unused and released; no reusable capture/digest cache.",
+      "state": "released"
+    },
+    {
+      "obligation": "Preserve primary failure, no digest/receipt; retain resources for unconfirmed work within original cleanup/idle gates.",
+      "state": "failed_held"
+    },
+    {
+      "obligation": "Owned work confirmed quiescent and dependencies released; failed status remains, no retry.",
+      "state": "failed_released"
+    }
+  ],
+  "context_entry_cleanup_try_and_objective_timer_start_after_input_hash": true,
+  "decision": "REQUIREMENTS_AND_FAKE_PORT_PLAN_ONLY_COPY_ELISION_DEFERRED",
+  "draft_revision": 2,
+  "execution_binding": null,
+  "failure_boundary_notes": "runs/pretrained/diagnostic/pgd-snapshot-contract-v1-20261124/FAILURE-BOUNDARY-NOTES-v1.json",
+  "failure_boundary_notes_sha256": "de511645d1d30d3288e4c2d28dcb60ebdc583bedd7abeae1cdbac769161e061f",
+  "failure_transition_rule": "Failure at any unfinished state yields no success result. Keep dependencies held if use is unconfirmed; release only after confirmed quiescence. Preserve primary error and original idle/deadline gates; no new allowance, retry or failure promotion.",
+  "future_evidence_required": [
+    "Actual target build/source/consumer provenance and dispatch",
+    "Original-domain exact bytes/refusals and writer/capture/consumer lifetime proof",
+    "Actual complete-unit preparation/scoring/observation/cleanup timing and memory with fresh replay",
+    "Recovery/economics/calibration/data/protocol admission remains separate"
+  ],
+  "hash_definitions": 2,
+  "implemented_instrumentation_or_enforcement": false,
+  "kind": "source-pinned-snapshot-ownership-byte-contract-requirements-v1",
+  "lexical_hash_calls": 27,
+  "maximum_new_attempts": 0,
+  "physical_capture_atomicity_or_source_writer_exclusion_claimed_for_baseline": false,
+  "primary_unit_and_preparation_calls": 10,
+  "raw_stage": "runs/pretrained/diagnostic/pgd-snapshot-contract-v1-20261124",
+  "recipes": {
+    "state_digest": {
+      "baseline_definition": "models/diagnostics.py:state_digest",
+      "changes_selected": false,
+      "fresh_each_reached_call": true,
+      "recipe": "In original state_dict order: SHA256.update(name.encode()); SHA256.update(detach -> cpu -> contiguous -> numpy -> tobytes(default C order)); final hexdigest. No inserted delimiters."
+    },
+    "tensor_hash": {
+      "baseline_definition": "models/predictor_pgd_workload_target_v1.py:tensor_hash",
+      "changes_selected": false,
+      "fresh_each_reached_call": true,
+      "recipe": "detach -> cpu -> contiguous -> reshape(-1) -> view(uint8) -> numpy -> tobytes(default C order) -> SHA256.hexdigest"
+    }
+  },
+  "requirements": [
+    {
+      "id": "R01",
+      "name": "Source and build provenance",
+      "requirement": "Join actual Torch2.8.0+cu128/CUDA12.8, NumPy2.4.6, CPython3.11.17 and dispatch to reviewed source before asserting physical behavior. Frozen upstream tag/template or equal metadata is insufficient.",
+      "status": "REQUIREMENT_ONLY_NOT_TARGET_PROVEN",
+      "upstream_claims": [
+        "numpy_writable_alias",
+        "python_cpu_flags"
+      ]
+    },
+    {
+      "id": "R02",
+      "name": "Original domain and refusals",
+      "requirement": "Preserve every original accepted dtype/layout/device/dispatch case and original operator/refusal ordering. Do not normalize unsupported inputs, bypass conjugate/negative/subclass/layout checks, or replace uint8 reinterpretation with numeric conversion. Unknown equivalence blocks adoption.",
+      "status": "REQUIREMENT_ONLY_NOT_TARGET_PROVEN",
+      "upstream_claims": [
+        "dtype_reinterpretation",
+        "numpy_writable_alias",
+        "reshape_alias"
+      ]
+    },
+    {
+      "id": "R03",
+      "name": "Fresh observation and call position",
+      "requirement": "Each reached original call performs a fresh observation at its original boundary, including repeated Snapshot.check and OwnedStep.tokens calls when identity/version is unchanged. No hash/version cache, deduplication, movement across gradients, scoring, journals, restoration or receipts.",
+      "status": "REQUIREMENT_ONLY_NOT_TARGET_PROVEN",
+      "upstream_claims": [
+        "detach_alias"
+      ]
+    },
+    {
+      "id": "R04",
+      "name": "Source capture ordering",
+      "requirement": "Prove all relevant CPU/CUDA writers quiescent and ordered through capture completion. Original tobytes creates an owned result after copying; neither that operation nor this contract proves an atomic source capture. Missing writer/order evidence is unresolved, never inferred from GIL, version, owner metadata or readonly flags.",
+      "status": "REQUIREMENT_ONLY_NOT_TARGET_PROVEN",
+      "upstream_claims": [
+        "python_cpu_flags",
+        "cuda_sync_helper"
+      ]
+    },
+    {
+      "id": "R05",
+      "name": "Private storage",
+      "requirement": "Prove the captured bytes are independent of caller/source writers and not an alias of original tensor, storage or exported mutable buffers. Copy requests and allocation identity metadata alone do not prove this. A private tensor is still writable unless its writer access is controlled.",
+      "status": "REQUIREMENT_ONLY_NOT_TARGET_PROVEN",
+      "upstream_claims": [
+        "to_alias_or_allocate",
+        "dense_to_copy",
+        "clone_allocation",
+        "contiguous_reuse"
+      ]
+    },
+    {
+      "id": "R06",
+      "name": "Transfer completion and stream domain",
+      "requirement": "Complete the ordered capture/transfer before any byte read. Match completion evidence to its owner, allocation generation, device and stream/domain; current-stream synchronization is not proof that unrelated writers have been ordered. Unknown/in-flight work forbids consume or premature release.",
+      "status": "REQUIREMENT_ONLY_NOT_TARGET_PROVEN",
+      "upstream_claims": [
+        "cuda_copy_branch",
+        "cuda_sync_helper"
+      ]
+    },
+    {
+      "id": "R07",
+      "name": "Tensor hash byte contract",
+      "requirement": "Match the original detach, CPU transfer, logical contiguous layout, reshape(-1), view(uint8), NumPy export and default C-order bytes exactly, then SHA256/hexdigest. Preserve extent, storage offset treatment, dtype bits, logical order and refusals. Hash no storage padding/capacity and perform no numeric conversion.",
+      "status": "REQUIREMENT_ONLY_NOT_TARGET_PROVEN",
+      "upstream_claims": [
+        "reshape_alias",
+        "dtype_reinterpretation",
+        "numpy_writable_alias"
+      ]
+    },
+    {
+      "id": "R08",
+      "name": "Separate state digest contract",
+      "requirement": "Retain state_dict iteration order. For each item, update SHA256 with name.encode() and tensor.detach().cpu().contiguous().numpy().tobytes() in that order, then hexdigest. Add no delimiter or metadata and do not substitute the flattened uint8 tensor_hash recipe. No parameter/state/RNG/mode mutation.",
+      "status": "REQUIREMENT_ONLY_NOT_TARGET_PROVEN",
+      "upstream_claims": [
+        "numpy_writable_alias"
+      ]
+    },
+    {
+      "id": "R09",
+      "name": "Exporter containment and trusted consumption",
+      "requirement": "Keep every mutable capture/exporter/storage/base alias inside the trusted observation lifetime. Do not expose a writer, view.obj/base/storage mutator, callback or reentrant path that can change/free bytes during consumption. A readonly view alone proves only that view disallows assignment. Consumer implementation and buffer retention still need versioned review.",
+      "status": "REQUIREMENT_ONLY_NOT_TARGET_PROVEN",
+      "upstream_claims": [
+        "numpy_writable_alias",
+        "numpy_force_limits"
+      ]
+    },
+    {
+      "id": "R10",
+      "name": "Lifetime and bounded release",
+      "requirement": "Retain source as required for capture, private storage, exporter and view until all capture/read/consumer uses are confirmed finished. Release only owned resources in dependency order; never infer completion from dropped references. Do not retain a model/tensor beyond its existing observation/context, or add an unbounded allocation/caching lifetime.",
+      "status": "REQUIREMENT_ONLY_NOT_TARGET_PROVEN",
+      "upstream_claims": [
+        "numpy_writable_alias"
+      ]
+    },
+    {
+      "id": "R11",
+      "name": "Failure and primary error",
+      "requirement": "Every allocation/capture/export/consume/release failure, deadline or interruption yields no success digest/receipt for that observation. Preserve the first failure and record cleanup errors without replacement. Unconfirmed consumers/transfers keep required ownership held; no retry, reused capture or promotion of failed/partial work. At context-entry CALL-019, the local cleanup try/timer have not begun: establish a future capture lifetime from its first allocation without assuming that handler will run.",
+      "status": "REQUIREMENT_ONLY_NOT_TARGET_PROVEN",
+      "upstream_claims": [
+        "numpy_writable_alias",
+        "cuda_copy_branch"
+      ]
+    },
+    {
+      "id": "R12",
+      "name": "Original guards and continuing clocks",
+      "requirement": "Leave identity/version/owner/shape/dtype/device, hook/API/mode/RNG/native, no-param-grad, projection/selection/scoring, journal/fsync/source hashing, shutdown and idle guards fixed. Use original continuing clock domains and caps; no timer reset/extension or new observation window. No installed budget gate bypass.",
+      "status": "REQUIREMENT_ONLY_NOT_TARGET_PROVEN",
+      "upstream_claims": [
+        "python_cpu_flags",
+        "cuda_sync_helper"
+      ]
+    },
+    {
+      "id": "R13",
+      "name": "Complete accounting and cost",
+      "requirement": "Account for simultaneous source/private/exporter/bytes/bookkeeping/temporary lifetimes and actual peak RSS/allocator under unchanged caps. Include capture/copy/sync/export/hash/cleanup and all original phase endpoints; no overhead subtraction or nested-span double counting. Private copies may increase cost. Actual matched complete-unit/replay evidence is still required.",
+      "status": "REQUIREMENT_ONLY_NOT_TARGET_PROVEN",
+      "upstream_claims": [
+        "dense_to_copy",
+        "clone_allocation"
+      ]
+    },
+    {
+      "id": "R14",
+      "name": "Admission remains separate",
+      "requirement": "A requirements plan or fake-port transcript establishes no physical alias exclusion, target build join, numerical agreement, concurrency enforcement, memory fit, timing, recovery or operational admission. Existing copy and every fresh hash remain. Budget stays REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE before protocol clock/ATTEMPT/connection.",
+      "status": "REQUIREMENT_ONLY_NOT_TARGET_PROVEN",
+      "upstream_claims": [
+        "explicit_copy_option"
+      ]
+    }
+  ],
+  "requirements_only": true,
+  "research_admitted": false,
+  "runtime_bytes": 481518,
+  "runtime_files": 48,
+  "runtime_source_emitted_or_changed": false,
+  "science_guard_hash_owner_durability_shutdown_clock_or_resource_caps_changed": false,
+  "scope_package_grant_approval_request_or_launch_created": false,
+  "source_commit": "ba56102387ef21a3b04b357e5b183d48f0afefc7",
+  "source_mapping_is_not_reachability_or_execution_count_proof": true,
+  "source_pins": 29,
+  "source_pins_file": "runs/pretrained/diagnostic/pgd-snapshot-contract-v1-20261124/SOURCE-PINS-v1.json",
+  "source_pins_sha256": "c172b383a19dee051eb979551f4afcaa31406646b5a6dd06f77f909805ea8470",
+  "starting_user_commit": "4b13c3a4ce4e388c5a458697501ac0e6ac5a3511",
+  "state_model_is_not_an_adapter_API_or_implemented_monitor": true,
+  "success_transition_order": [
+    "unqualified",
+    "capture_pending",
+    "captured",
+    "export_held",
+    "consuming",
+    "consumed",
+    "released"
+  ],
+  "training_admitted": false,
+  "training_percentage_or_time_estimate": null,
+  "validation_plan_executed": false
+}

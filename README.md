@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Snapshot contracts defined; fake-port plan remains unexecuted (November24):**
+[The requirements review](report/checks/2026-11-24-pgd-snapshot-contract-v1-local-review.md)
+maps27 lexical hash calls and preserves the two byte contracts. Fourteen
+requirements and32 planned fake cases address capture ownership, lifetime,
+failures and accounting. No adapter/API or runtime change is adopted; copies,
+fresh hashes and the closed gate stay fixed. Next author the local symbolic
+harness. Earlier entries are historical.
+
 **Official2.8 source reviewed; snapshot ownership remains unqualified (November24):**
 [The version-pinned review](report/checks/2026-11-24-pgd-target-source-review-v1-local-review.md)
 captures13 source files and confirms reuse/writable-export paths. It does not

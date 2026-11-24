@@ -1395,3 +1395,27 @@ lifecycle exceptions stay preserved. Budget remains closed before clocks/claims/
 connections. Next derive LOCAL ownership/lifetime/exact-byte requirements and a
 fake-port plan only. Full units/replay/timing/memory/recovery/economics/calibration/
 data/protocol/training remain gated; financial caps/holds fixed; no forecast.
+
+## 2026-11-24 — Snapshot ownership and byte requirements precede implementation
+
+The [requirements-only review](../report/checks/2026-11-24-pgd-snapshot-contract-v1-local-review.md)
+maps27 lexical calls across48 frozen runtime sources; this supplies no execution
+or reachability proof. Preserve separate flattened-uint8 tensor_hash and
+ordered-name state_digest contracts and every reached fresh observation.
+Fourteen requirements/nine conceptual states and a32-case/14-port fake plan
+remain unimplemented/unexecuted. No API/adapter is selected; copies/guards and
+the closed budget gate remain unchanged.
+
+Context-entry hash precedes its local cleanup try/objective timer. A future
+capture must define ownership from first allocation without shifting the hash
+or assuming that handler runs. Earlier metadata short-circuit refusals remain;
+missing hash receipts never prove no scientific work. This is source reasoning,
+not a reproduced failure/leak, atomic snapshot or timing qualification.
+
+Independent saved auditv1 passes first run on71164 prior hashes/77782 prior
+fixture entries and all new source/requirements/plan joins. Source-mapperv1's
+supervisor-key refusal and both requirement drafts remain. No tensor library,
+worker, witness/test/benchmark/scientific cohort or network/target work occurs.
+Next author a bounded local symbolic harness; fake outcomes cannot establish
+physical ownership, target provenance, byte/refusal equivalence or performance.
+All science/resource/clock/training/financial caps and holds remain fixed.
