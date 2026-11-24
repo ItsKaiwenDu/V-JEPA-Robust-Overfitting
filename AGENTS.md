@@ -2,6 +2,77 @@
 
 ## Current stage
 
+LATEST November 24: SYMBOLIC SNAPSHOT HARNESS CHECKED; TARGET STILL UNQUALIFIED.
+Read docs/predictor_pgd_snapshot_symbolic_v1.md, snapshot_symbolic_cases config,
+new LOCAL model and report/checks/2026-11-24-pgd-snapshot-symbolic-v1-local-review.json/md.
+Raw pgd-snapshot-symbolic-v1-20261124; saved auditv1 PASS FIRST RUN. Starting
+clean usercommitba783df. User alone stages/commits/pushes NEVER agent. Preserve
+ALL source/test/auditor versions/fixtures/logs/failures/results/statuses/claims.
+USER PREFERENCE: after EACH bigstep include a short clear commit title and
+NUMBERED description automatically, without staging/committing/pushing.
+All real grants CONSUMED. No scope/handoff/package/grant/approval request/launch
+command, university query/SSH/upload/retry/resume/retrieval/remote cleanup/
+target/GPU/proof/paid work or repeated manual paste.
+
+New LOCAL symbolic module OUTSIDE original upload/runtime/registry.23 frozen
+source/input files BEFORE firstcase.32 distinctchecks/32exec FIRSTPASS,76variants/
+364symbolicevents; five finalsuccess variants/71expectedfailures(18held53released),
+seven retained synthetic observationdigests incl prior success in laterfailed
+scenario. Opaque bytes read69; peak supplied symbolic livebytes31 NOT RSS/timing/
+ownership/fit. Two representative calllabels only, NOT original27calls executed.
+All physics/operator-equivalence/research/training/admission flags FALSE; fake
+proof0B. No tensor API/adapter/constructor or runtime route selected/adopted.
+Original immutable copies/EVERY reached fresh hash/ordered state_digest fixed.
+
+Explicit supplied fake authority/domain/boundary/writer/capture/completion/
+logicalbytes/state-stream/exporter/retention/failure/clock/livebyte/effect labels.
+No real ports bound. Partial-read failure, pre-cleanup/early receipt refusal,
+owned held lifetimes, confirmed quiescence, primaryerror notes, generation reuse,
+deadline regression/domain mismatch, ordering and byte-stream joins retained.
+Complete harness-evidence566411B <=1MiB incl ALL source/oracle drafts/builders/logs/
+plan-contract copies/freeze/starts/results/runner; max46events/case<=64,52opaqueB/
+case<=4096,alloccap8/results8192gzip32768decoded. Admin lineage/index/audit/seal/
+publication records OUTSIDE caseevidencecap declared BEFORE execution, all kept.
+No capstop/blockedactual-effect event; source/oracles UNCHANGED afterfirstcheck.
+No passingcase/old witness/test/encodingbenchmark/closedscientific cohort repeat.
+Case-authorv1 refused helper-name collision BEFORE emission/cases; ONLYparameter
+fixedv2; v3oracle/partial-read/pre-receipt refinement BEFORE freeze. All versions/
+logs retained. Old requirements/NOT_RUN flags historical/unmodified.
+
+STD saved auditFIRSTPASS71220priorhashes/77782priorfixtures/85new/23frozenfiles/
+all32case-attempt-result/76variant-oracle-trace-opaquehash joins; total77867.
+NO harness/runner/generator/project/test/scientific callbacks or inspectedsource
+execution/scientificarray decode-recalc/process/clock/timer/GPU/proof/network IN
+AUDIT. Savedgzip/JSON/opaquehex decode/hash ONLY. Newlocal symbolic source/opaque
+hash/FSmetadata work REAL. No Torch/NumPy/package import/model/tensor/gradient/
+worker/FileSink/ledger/realworkload clock/timer/thread/signal/PIDFD/network/refetch/
+target work. Device29 priorFROZEN/no probe-remap-waiver/old target66307/four exact
+lifecycle exceptions fixed; FIFO LSTAT ONLY NEVER OPEN. Actualv3proof/31of40partial/
+failed/consumedclaims fixed. Seal sealed-snapshot-symbolic-v1.json; liveindexes
+excluded/exact before-after snapshots. Futuredevicechange newrecord/review.
+
+NEXT EVIDENCE per NEXT-BUFFER-CONSUMER-SOURCE-EVIDENCE-v1.json: review exact pinned
+NumPy2.4.6 buffer/export/bytes +CPython3.11.17 buffer/hashlib consumer source and
+provenance from KNOWNLOCAL evidence OR SEPARATELY REQUESTED official PUBLIC
+source task. Currentlocal task authorizes/performs NO fetch. Missing/mismatched
+versions remain GAP, no newer substitute; no target query/install/binarydownload.
+Do not repeat passing harness/old cohorts. Source/fake equality never authenticates
+physical alias/writer/stream/lifetime/refusal or target execution. Actual target
+build and exactbytes/refusals/ownership +matched completeunit timing/memory/replay/
+recovery/economics/calibration/data/protocol/training still gated. No operational
+scope/approval request/launch follows. Copyelision remains DEFERRED.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; installedv5gate UNCONDITIONALLY CLOSED
+before protocolclock/ATTEMPT/connection. Graph56uploads936711B/runtime48files481518B/
+cache47/nine supervisors/270paths/control d997bf9e... unchanged. Objective120/unit720/
+setup180/proof60/soft2280-hard2400/final120/collection600/connection3000/RSS4GiB/
+allocator7GiB/allother caps fixed; no timeout/hardware/shortenedPGD-EOT/disabledguard/
+leanroute. All original science/native/hash/owner/durability/shutdown/Guard and
+continuing clocks fixed. Mechanism CLOSED/research-trainingFALSE. TrainingPGD5EOT1/
+routineEOT1/optimizerbackward/registry/studyYAML/financial200/160/40/single10caps+
+holds fixed; historicalsnapshots not currentquotes/balance. No training
+percentage/time estimate. Earlier entries historical.
+
 LATEST November 24: SNAPSHOT CONTRACT REQUIREMENTS REVIEWED; FAKE PLAN NOT RUN.
 Read docs/predictor_pgd_snapshot_contract_v1.md, snapshot_contract and
 snapshot_contract_validation configs and report/checks/2026-11-24-pgd-snapshot-contract-v1-local-review.json/md.

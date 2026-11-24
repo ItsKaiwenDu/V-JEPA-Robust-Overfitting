@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Local symbolic snapshot harness passes32 cases first run (November24):**
+[The saved review](report/checks/2026-11-24-pgd-snapshot-symbolic-v1-local-review.md)
+checks76 frozen variants of ownership, lifetime, byte streams and failures with
+566411B bounded evidence. This is symbolic consistency, not target semantics or
+performance. Original runtime/copies/hashes and the closed gate stay fixed.
+Next resolve pinned buffer-consumer source/provenance evidence. Earlier entries
+are historical.
+
 **Snapshot contracts defined; fake-port plan remains unexecuted (November24):**
 [The requirements review](report/checks/2026-11-24-pgd-snapshot-contract-v1-local-review.md)
 maps27 lexical hash calls and preserves the two byte contracts. Fourteen
