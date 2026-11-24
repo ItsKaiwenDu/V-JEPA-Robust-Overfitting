@@ -2,6 +2,157 @@
 
 ## Current stage
 
+LATEST November23: V3 EARLY-DEVICE CLIENT/READERS REVIEWED LOCALLY; NO OPERATIONAL PACKAGE.
+Read docs/predictor_pgd_workload_preparation_binding_v1.md, binding design+
+handoff_inputs_v3 and report/checks/2026-11-23-pgd-workload-preparation-binding-v1-local-review.json/md.
+Raw pgd-workload-preparation-binding-v1-20261123; independent-saved-review-v1 PASS
+FIRST RUN. Starting HEADc6d74fc; ALL prior uncommitted preparation work PRESERVED.
+User stages/commits/pushes NEVER agent. Preserve every source/test/auditor version,
+fixture/log/failure/result/claim. All real remote grants CONSUMED. No real scope/
+handoff/package/approval request/arming/SSH/query/upload/retrieval/retry/GPU/proof/
+paid work or manual paste occurred or is authorized by this local binding stage.
+Consumed v2 proofPASS/preparationRSSFAIL and v1failure/unknown remote progress fixed.
+
+Separate factory/outer/client/isolatedCLI v3 plus localbootstrap/scratch/collection
+readersv2 bind27 inputs/17localpins to early-device preparation EXACT55sources/
+896039B/47runtime450548B/cache46/nine supervisors/264primaryresultpaths. Supervised
+control0e2f47ad5ff915dfa3b7aad424bee5755cb621596263e5b95195dcc04a3ad82f unchanged.
+All preparation/scientific/monitor/proof/OS/timer/sourceupload bytes unchanged.
+Factory+all6generated sources have full-byte inverses. Outer changes only literal
+identity assignments; EVERY outer function/class AST exact correctedv2. Client
+ONLY3dependencyimports;CLI ONLYnewclientimport. Bootstrap/scratch exact supervisors,
+collectorONLY2localreaderimports. Workload-v1prefix/whole-PGDgrantkind/claim-before-
+refusal/source/root/host/oneattempt/causallowerbound clock gates exact. Entry/timer/
+route bindingsNULL. No CPU/tiny fallback/adoption. Caps/resources/scientificownership
+and continuing objective120/unit720/setup180/proof60/soft2280/hard2400/final120/
+collection600/connection3000 incllogin unchanged; no assurance allunits fit.
+
+22 distinct checks finalPASS/24exec: first20PASS/2fake release-pipe setupFAIL before
+proof. Missing fstat/FIFO port invoked ordinarylocal fstat on fakefd and refused.
+ONLY fixture added FIFO observation/deterministicnonce/fakeexit+statimport; ONLY2
+failed nodes rerun2PASS. Production unchanged afterfirstchecks;20passingNOT rerun.
+Keep failed v1 fixtures/sessionerrors/both168file transports/testsourcev1-v2 exact.
+Final fakeprimary client/server flow completes4fake roles/simulatedSSH0/432files;
+separate fake earlytransferrefusal completes[proof]/simulatedSSH1/171files and stops
+laterroles. Real emitted provider fakeimports, privatecache/child/lease/timers/
+monitor/completion/parent/replay readers then realprioritycodec/clientreconstruction.
+All clock/process/pipe/PIDFD/signal/timer/host/root/GPU/proof/model/compute ports
+EXPLICITFAKE. Cooperative precomputed transcript, NOT physical/concurrent blocking
+IO enforcement. Clientoutbound EXACTcheckedouter+same serverframe+ONEoriginal17.19MB
+archive/finalEOF. FAKE proofFALSE/completeFALSE/0proofB; realproofreader refusal
+inherited, notrerun. Real FS work includesopaque source/archive/pixel/JSON copies
+and ordinary16MiB reserves. Fake replay/metadata is NOT actual numerical agreement.
+
+Seven preflight drift cases, bothconsumedpackage refusals, unarmed beforetimers,
+isolatedCLI and six savedresponse mutations pass. Six negatives use retained
+failed-before-proof transcriptv1, NOT rerun/promoted to complete worker evidence.
+No Torch/NumPy/model/tensor/gradient/GPU/proof/targetworker/network work. Prior ACTUAL
+CPU60parameter/2forward/0grad control inherited WITHOUT repeat, likewise closed
+tinygradient/native/PGD/clean cohorts. No newFP64/fullmodeltrace; mechanismCLOSED.
+No actual CUDAcopy/RSSreduction/fit or complete-unit performance qualification.
+
+STD auditFIRSTPASS50713priorhashes/55738priorfixtures/2843newfixtures/27pins/17locals/
+inverses/outerAST/fourcomplete rawstreams. Allframes/payload/references/hash/mode/
+mtime/journaloffset-chain/prefix/terminal/EOF plus both directions/sourcearchive join.
+Finalprimary432files/44817119wireB/SHA069f63cee13615a83545b62004a530cb02e71ab014880d7686a69fbc1cc76604;
+refusal171/44481531/SHA49a4cdb5c6d936507706f5d68a8ba10e068a729ba5d4ba72f79d5f2497dd4a72.
+Session/work collection/partial/journal FALSE preserved; separate transportTRUE.
+No recordpromotion/execution authentication bydict. No project/test callbacks,
+tensor decode/numericalrecalc/process/timer/signal/proof/GPU/network IN AUDIT. FIFO
+LSTAT ONLY NEVER OPEN. Device16777233 prior conditional observation; ifchanges
+record/review NEVER remap old/target devices. Prior directory lifecycle exceptions
+exact. All histories/indexbefore-after snapshots preserved/liveindexes excluded.
+Seal sealed-workload-preparation-binding-v1.json. No user-facing launch command.
+
+NEXT SEPARATE LOCAL: prepare and independently review EXACT UNARMED PRIMARY v3
+scope/package from these concrete bytes BEFORE fresh exact approval request. Old
+consumedv2 package/control/source/path MUST NOT rewrite/reuse/retry. ActualGPUcopy/
+hostRSS improvement/fit stillUNQUALIFIED. Futureprimary/convergence/freshperturbed
+replay/matchedcompleteunit timing+overhead, chosenhardwarememory/exactrecovery/
+economics/calibration/data/protocoladoption remain. No measured percentage/time-
+to-training. TrainingPGD5EOT1/routineEOT1/optimizerbackward/policyregistry/studyYAML
+unchanged;research/trainingFALSE. Financial200/160/40/single10caps+holds fixed;
+Oct29wallet snapshot historical NOT currentquotes/balance. Earlierentries historical.
+
+LATEST November23: EARLY-DEVICE WHOLE-PGD PREPARATION REVIEWED LOCALLY; CLIENT UNBOUND.
+Read docs/predictor_pgd_workload_preparation_v1.md, both preparation configs and
+report/checks/2026-11-23-pgd-workload-preparation-v1-local-review.json/md. Raw
+pgd-workload-preparation-v1-20261123; independent-saved-review-v2 PASS. Starting
+clean user commit c6d74fc. User stages/commits/pushes NEVER agent. Preserve all old/
+new sources/test/auditor versions, fixtures/logs/failures/results/claims. All remote
+grants CONSUMED. No scope/handoff/approval request, SSH/query/upload/retry/retrieval/
+GPU/proof/paid work or manual paste occurred or is authorized by this local stage.
+Old v2 actual proofPASS/preparationRSSFAIL and consumed package unchanged; old v1
+failure/unknown remote progress unchanged. Do not repeat attended commands.
+
+Separate cold preparation moves original CPU-built model toCUDA BEFORE unchanged
+CPU weights-only/mmap checkpoint audit+strict copy. Same module object required;
+continuing absolute deadline checks after earlytransfer and checkpointcopy. Original
+CPU initialization/seed, all-component audit-before-anycopy, copy-not-assign, params/
+flags/modes/independent teacher, final shared-fp64-native policy/CUDAeval/guards/
+byte observations/masks/PGD/scoring/native ownership retained. mmap already true.
+No meta construction/lazy missing state/dtype change/alternate arithmetic/CPU-tiny
+target fallback. No actual CUDA-copy equivalence or target RSS reduction/fit claim.
+CPU allocator release and prior allocation breakdown remain unproved.
+
+Runtime47 files450548B:46 BYTE-EXACT plus one provider/two full-byte inverse edits.
+New cold operator has five inverse edits/57 pins. Cache46,upload55/nine supervisors,
+primary896039B/convergence1005007B;264/624resultpaths/original99-member packet.
+Entry bindingNULL/objective timerNULL/route hostNULL. Whole scientific functions,
+strict checkpoint loader, original owned monitor/proof/OS/timers unchanged. Caps
+4GiBRSS/7GiBallocator/120objective/720absoluteunit/soft2280/hard2400/final120/
+collection600/connection3000incllogin and storage/process/thread/sample caps fixed.
+Sampled resource observations do not establish instantaneous quotas or fit.
+
+17 distinct adapter cases PASS/34executions: first17 fixture setup errors due runner
+missing evidencebase; ONLYaffected17rerunPASS after runner mkdir, NO production/test
+source changes after first checks. Two complete FAKE primary/convergence lifecycles,
+4failure FAKE lifecycles transfer/checkpoint/deadline/originalRSS stoplaterroles.
+All OS/clock/process/lease/signal/timer/GPU/model/compute/memory ports EXPLICITFAKE.
+Real generated provider runs with fake imports, original completion/readers/collector
+run in private fake cache. ProofFALSE/completeFALSE/0B and real proof reader REFUSES.
+Real filesystem work includes opaque source/archive/pixel bytes and ordinary16MiB
+reserve fixtures. Synthetic memory values are NOT target estimates. No actual
+pretrained/gradient/proof/target process/GPU/network work or closed cohort repeat.
+
+ONE fresh ACTUAL local Torch2.14.1/Python3.11.16 CPU control:60 parameter elements,
+seeds2026112311weights/12init/13input, new4480Bcheckpoint,2forward/0gradients. Frozen
+strict loader functions exact; CPU transfer-before/after strictload yields exact
+state/output bytes. Parameter identities/flags, independent frozen teacher, modes,
+CPU RNG and no.grads checked; callerCPU RNG restored. Two malformed late-state cases
+refused BEFORE anycomponentcopy. This IS actual small Torch computation, NOT fake
+numerical output, and NOT CUDA copy/target fit/pretrained objective qualification.
+No old tiny gradient/native/PGD/clean repeat or newFP64/fullmodeltrace; mechanismCLOSED.
+
+Saved STD auditv2 PASS:46720 prior hashes/51412 prior fixtures/4326 new fixtures/57
+pins/inverses/six full wires. Auditv1 rejected broad no-AUTHORIZATION-filename check;
+v2 narrows ONLY to12 explicitFAKE coordinator fixtures, matching control and identical
+upper/lowercase grant bytes. Both auditors/logs retained; NO project/test/control
+repeat for audit correction. No project/test callbacks, tensor decode/numerical
+recalculation or process/timer/signal/GPU/proof/network IN AUDIT. OldFIFO LSTAT ONLY
+NEVER OPEN. Device16777233 matches prior conditional observation; if changes record/
+review NEVER remap old/target devices. Prior lifecycle exceptions remain exact.
+Primary432/convergence792files +four171file failure transports independently parse
+allframes/references/payload/hash/mode/mtime/journaloffset-chain/prefix/terminal/EOF.
+Session/work collection/partial/journal FALSE retained, separate transport TRUE.
+Fake replay metadata is NOT actual numerical replay/agreement or execution bydict.
+Current seal sealed-workload-preparation-v1.json; mutable index before/after snapshots
+retained/live indexes excluded. All prior evidence and user claims preserved.
+
+NEXT SEPARATE LOCAL: bind the new cold preparation/operator source/catalogue/control
+to a SEPARATE corrected v2-compatible client/bootstrap, retaining workload prefix,
+supervised grant kind and claim-before-refusal observation; integrated local tests
+before scope/handoff/approval request. Existing v2 package/client/source/control is
+consumed and INCOMPATIBLE with new bytes; NEVER rewrite/reuse it. Cold helper emits
+controls/catalogue/payload only; generated outer/client intermediates unbound, not
+an attended client qualification. No new current availability/reservation implied.
+Then real current-route primary/convergence/fresh perturbed replay/complete-unit
+timing+explicitoverhead, chosenhardware memory/exact recovery/economics/calibration/
+data/protocol adoption remain. No measured percentage or time-to-training established.
+TrainingPGD5EOT1/routineEOT1/optimizerbackward/registry/studyYAML unchanged; research/
+training FALSE. Financial200/160/40/single10caps+holds unchanged; Oct29 snapshot
+historical NOT fresh quotes/balance. Earlier entries historical.
+
 LATEST November23: V2 TARGET PROOF PASSED; ORIGINAL PREPARATION RSS FAILED; GRANT CONSUMED.
 Read report/checks/2026-11-23-pgd-workload-handoff-v2-target-review.json/md and
 docs/predictor_pgd_workload_preparation_rss_review_v1.md. Raw target-review-20261123

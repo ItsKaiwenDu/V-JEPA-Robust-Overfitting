@@ -1,5 +1,21 @@
 # V-JEPA Robust Overfitting
 
+**Early-device v3 client binding reviewed locally (November 23):**
+[The corrected client and new readers pass local integration](report/checks/2026-11-23-pgd-workload-preparation-binding-v1-local-review.md).
+Twenty-two checks pass, including a complete fake preparation/whole-unit/client
+flow and failure collection. The independent audit preserves all earlier work.
+Next prepare and review the exact unarmed v3 scope/package; all grants remain
+consumed and actual target memory fit remains unqualified. Training stays gated.
+Earlier entries are historical snapshots.
+
+**Separate memory-aware preparation reviewed locally (November 23):**
+[The early-device adapter passes its local controls](report/checks/2026-11-23-pgd-workload-preparation-v1-local-review.md).
+It moves model destinations to CUDA before strict checkpoint loading while keeping
+the existing caps and scientific code. Seventeen adapter cases and a fresh small
+CPU control pass; actual target memory fit remains unqualified. Next bind a separate
+corrected client locally. All grants remain consumed; training stays gated.
+Earlier entries are historical snapshots.
+
 **Primary whole-PGD v2 result reviewed (November 23):**
 [The storage proof passed; original preparation hit the host-RSS limit](report/checks/2026-11-23-pgd-workload-handoff-v2-target-review.md).
 The attended attempt is consumed. All 173 files were collected and independently

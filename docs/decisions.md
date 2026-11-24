@@ -1083,3 +1083,44 @@ pages are a plausible source inference, not a measured allocation breakdown.
 Do not adopt an implementation or widen caps from this observation alone. See
 [saved review](../report/checks/2026-11-23-pgd-workload-handoff-v2-target-review.md)
 and [preparation analysis](predictor_pgd_workload_preparation_rss_review_v1.md).
+
+## 2026-11-23 — Review early destination transfer under the original memory caps
+
+Derive a separate cold whole-PGD provider that moves original CPU-built model
+destinations to CUDA before the unchanged mapped checkpoint loader. Retain strict
+all-state auditing/copy, final policy/guards and the entire scientific path. Keep
+the 4 GiB observed host-RSS and 7 GiB allocator limits. Do not assume allocator
+release, CUDA copy equivalence or target fit from this order alone.
+
+Seventeen new adapter cases pass through explicit fake OS/compute/resource ports;
+one fresh actual small CPU control passes with no gradients or upstream model.
+The preserved first17 test executions were runner setup errors, and auditv1
+refused fake authorization filenames; runner setup/audit expectation alone were
+corrected, retaining all histories and not rerunning successful scientific work.
+Saved auditv2 verifies source inverses, prior evidence and six full transports.
+
+Next bind a separate corrected client/bootstrap to the new source/control and
+review that concrete integration locally before any scope/approval. All grants
+are consumed; old v2 failed package stays untouched. See
+[review](../report/checks/2026-11-23-pgd-workload-preparation-v1-local-review.md)
+and [adapter details](predictor_pgd_workload_preparation_v1.md).
+
+## 2026-11-23 — Bind corrected client identities without reopening the scientific route
+
+Create separate v3 outer/client/factory/CLI and local readers for the already
+reviewed early-device preparation. Preserve the corrected claim prefix, grant
+kind, claim observation, source and continuing clock gates. All uploaded sources
+and scientific/resource methods remain byte-exact to the preparation stage.
+
+Twenty-two new cases pass over24 executions; only two failed fixture integrations
+reran after adding missing fake pipe-observation ports. Production did not change.
+The new complete fake client/server chain and preparation refusal collect432/171
+files, with all incomplete/scientific flags preserved. Independent first-run saved
+audit passes on prior evidence and all four complete streams, retaining initial
+failures. This does not qualify real GPU memory, numerical agreement or OS/I/O
+enforcement and repeats no actual CPU control or closed scientific cohort.
+
+Next prepare/review an exact unarmed primary v3 scope/package before requesting
+fresh exact approval. All real grants remain consumed and the old v2 package stays
+unchanged. See [review](../report/checks/2026-11-23-pgd-workload-preparation-binding-v1-local-review.md)
+and [binding details](predictor_pgd_workload_preparation_binding_v1.md).

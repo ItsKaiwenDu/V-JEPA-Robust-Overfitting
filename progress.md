@@ -1,5 +1,57 @@
 # Research Progress Reports
 
+November23: separate v3 corrected client/factory/outer/CLI and localreadersv2
+bound/reviewed to unchanged early-device preparation55sources896039B/47runtime450548B,
+cache46,27inputs/17locals;supervised0e2f47ad5ff915dfa3b7aad424bee5755cb621596263e5b95195dcc04a3ad82f.
+Every derived source inverses; outerfunction/classAST exactv2/client3imports/CLI1/
+readersbyteexact or2imports. All scientific/resource/clock gates fixed.22casesPASS/
+24exec:20PASS+2fixturefailbeforeproof(fakefd fstat missing); ONLY2rerunPASS after
+fakeFIFO/nonce/exit ports+statimport. Production unchanged/passing20NOTrepeated;
+allfailures/testsources retained. Finalfullfake4role clientserver0/432files vs
+fakepreptransferrefusal1/[proof]/171;initialfailed2x168 retained. Fourrawstreams
+independently parse/join clientoutbound-serverinput/archive/frame/reference/payload/
+hash/mode/mtime/journal/prefix/terminal/EOF. Sixnegatives use originalfailed-before-
+proof transcript without rerun. All OS/compute/proof/GPU/timer/clock ports FAKE;
+actualFS copies/reserves. No Torch/NumPy/array/model/gradient/realworker/GPU/proof/
+network work or priorCPUcontrol/closedcohort repeat. STD auditFIRSTPASS50713oldhashes/
+55738oldfixtures/2843new/pins/inverses/AST/wires;FIFO lstatonly/deviceconditional/
+priorlifecycles exact. Session/work/partial/journalFALSE,separatetransportTRUE;
+metadataNOTexecution/numericalagreement. Allprioruncommittedprep retained, snapshots/
+seal sealed-workload-preparation-binding-v1/liveindexesexcluded. Allrealgrants
+consumed/no operationalpackage/scope/approval/remote work/launchcommand. NEXT exact
+UNARMEDprimaryv3scope/package +independent review BEFOREfreshapproval. Oldconsumedv2
+unchanged;actualCUDAcopy/RSSfit/performanceunqualified. MechanismCLOSED/traininggated/
+policies/study/financialcaps+holds fixed/no percentage-time estimate. User stages/
+commits/pushes. See report/checks/2026-11-23-pgd-workload-preparation-binding-v1-local-review.md.
+Earlier entries historical.
+
+November23: separate early-device whole-PGD preparation implemented/reviewed
+locally. CPU-built model moves toCUDA before unchanged CPU mmap strictcheckpoint
+audit/copy; same-module and continuing-deadline checks added. Runtime47/450548B,
+46exact files+oneprovider/twoinverse spans; operator5inverse edits/57pins/cache46/
+55uploads primary896039B/convergence1005007B. All scientific/loader/monitor/proof/
+OS/timer/resourcecaps fixed.17newadapter cases PASS/34exec (first17runner setup
+errors; onlyaffected17rerun after mkdir; no production/test edits).2complete+4failure
+fake lifecycles, real filesystem copies/reserves, falsezeroBproof/realreaderrefusal;
+no real OS/GPU/compute/proof in adapter cases. ONE fresh ACTUAL CPU60parameter toy,
+newseeds2026112311/12/13,2forward/0grad,4480Bcheckpoint: strictstate/outputbytes exact,
+paramids/flags/teacher/modes/CPU RNG checked,2late-state negativesbeforeanycopy.
+Not CUDA/pretrained/gradient/fullmodel work; no successful closedcohort/tinygradient
+repeat. STD auditv2PASS46720priorhashes/51412priorfixtures/4326newfixtures/57pins/
+inverses/sixfullwirejoins. v1 broad no-AUTHORIZATION check refused fakecoordinator
+fixtures; v2 audit-only narrowed to12 exactFAKE grants/controls/upper-lowerbytes;
+both kept, no project/test/control rerun.432/792positive+4x171failure transports,
+session/work/partial/journal FALSE unchanged/separatetransport TRUE. OldFIFO lstat
+only/device16777233 conditional/priorlifecycles preserved. Currentseal
+sealed-workload-preparation-v1; all versions/logs/failures/evidence/indexsnapshots
+kept. All grants consumed/no new remote work/scope/approval. Next SEPARATE local
+corrected-client/bootstrap binding to exactnewsource/control before any scope;
+consumedv2 incompatible/untouched. No actual CUDAcopy/RSSreduction/fit claim; no
+percentage/time-to-training. Mechanism closed/traininggated/science/policies/study/
+financialcaps+holds unchanged. User stages/commits/pushes. See
+report/checks/2026-11-23-pgd-workload-preparation-v1-local-review.md and
+docs/predictor_pgd_workload_preparation_v1.md. Earlier entries historical.
+
 November 23: approved v2 whole-PGD attempt consumed; full 2.5 GiB proof PASS,
 original model/checkpoint preparation failed the observed 4 GiB host-RSS guard.
 Real Torch/CUDA context/model construction/checkpoint copying occurred; PGD unit,
