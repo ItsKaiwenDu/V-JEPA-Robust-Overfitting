@@ -1176,3 +1176,23 @@ all hashing/ownership guards. This review adopts no implementation or larger cap
 reopens no closed cohort and leaves training/policies/study/finances gated/fixed.
 See [saved result](../report/checks/2026-11-23-pgd-workload-handoff-v3-target-review.md)
 and [source/budget analysis](predictor_pgd_workload_deadline_exit_review_v1.md).
+
+## 2026-11-23 — Preserve primary failures through bounded owned shutdown
+
+Derive a separate cold adapter from consumed v3 sources. Keep held ownership
+through termination and bounded exit/reap confirmation; preserve the first error
+when idle confirmation fails. The two-second total allowance comes from existing
+overhead, with0.5s maximum TERM grace and the remainder for KILL/confirmation.
+Compute clocks/caps stay fixed; unconfirmed exit prevents collection.
+
+Twenty-one new fake controls pass, retaining initial fixture setup failures.
+The first-run saved audit preserves all prior evidence and verifies five inverses,
+exact science, seven fake lifecycles and four complete transports. No actual
+scientific/target/remote work or closed-cohort repeat occurs. V3 stays incomplete.
+
+Complete720s feasibility remains unqualified: conditional context arithmetic
+cannot replace preparation/scoring/observation or candidate/replay timing.
+Bind the revised client locally and resolve the unit budget before another scope.
+Adopt no timeout extension, shorter science or disabled guard. See
+[review](../report/checks/2026-11-23-pgd-workload-shutdown-v1-local-review.md)
+and [adapter/budget details](predictor_pgd_workload_shutdown_v1.md).

@@ -2,6 +2,74 @@
 
 ## Current stage
 
+LATEST November 23: BOUNDED WHOLE-PGD SHUTDOWN REVIEWED LOCALLY; UNBOUND.
+Read docs/predictor_pgd_workload_shutdown_v1.md, both shutdown configs and
+report/checks/2026-11-23-pgd-workload-shutdown-v1-local-review.json/md. Raw stage
+pgd-workload-shutdown-v1-20261123; independent saved audit v1 PASS FIRST RUN.
+Starting clean user commit0d8ed40. User stages/commits/pushes NEVER agent.
+Preserve ALL source/test/auditor versions, fixtures/logs/failures/results/status/
+claims. All real grants CONSUMED. No scope/handoff/package/authorization/approval
+request, SSH/query/upload/retry/resume/retrieval/old cleanup/actual target process/
+GPU/proof/paid work or repeated manual paste is authorized by this local stage.
+
+Separate cold shutdown factory+logic; five full-byte source inverses. 46 scientific/
+preparation runtime files BYTE-EXACT to v3. Unit monitor observation AST exact
+outside cleanup; frozen proof monitor SOURCE exact, role observation/gates delegate
+ONLY cleanup. Graph47files/457112B/cache46/nine supervisors/55uploads905563B/264primary
+paths. Original packet/scanner/assessment/Guard/proof reader/GPU-host gates/native
+math/PGD/evaluator/preparation/hashing/worker timers fixed. Objective120/unit720/
+soft2280-hard2400work/collection600/connection3000, RSS4GiB/allocator7GiB and
+storage/process64/thread512/sample2400/cadence compute/resource caps unchanged.
+
+Cleanup TWO SECONDS TOTAL from original overhead, clamped to original hard work:
+TERM<=.5s, remainder KILL/exit/reap. No compute clock reset or extension. Held
+handles stay open until all observed owned tasks dead AND terminal child status
+known. Unconfirmed handles remain held; idle gate refuses handoff/collection.
+Never numeric-PID signal or closed/reused handle observation. Original timeout/
+RSS/interruption stays primary; bounded cleanup/idle/timer errors add notes and
+records, not replacements. Failure session retains sampled RSS/count, ownership/
+exit/cleanup and bounded causal chain. Science/complete flags remain FALSE.
+
+21 new distinct checks finalPASS/42executions: initial21 fixture SETUP errors
+(generator syntax for normal fixture); ONLY fixture line fixed, only failed nodes
+rerun. No passing/closed-scientific case repeated. Production unchanged after first
+checks. Cold v1 helper-shadow refusal BEFORE emission, corrected v2 emitted BEFORE
+checks; all histories retained. Seven fake OS lifecycles: one complete four-role,
+three timeout/RSS/interruption failed collections, one unconfirmed refusal, two
+pre-release failures. Four raw streams432/171/171/171files independently parsed
+through EOF including payload/reference/hash/mode/mtime/journal/prefix/terminal/
+trailing bytes. Failed/session/work/partial/journal/pending flags unchanged;
+transportTRUE not science. Fake proof FALSE/zero bytes; REAL reader refuses.
+ALL OS/compute/clock/PIDFD/signal/timer/GPU/proof ports FAKE. Seven16MiB reserves
+and opaque copies REAL filesystem work. No Torch/NumPy/actual model/gradient/proof/
+target/GPU/network or old cohort repeat. Old actual v3 proof+31/40 partial and
+failure remain unchanged. No new oracle/full trace. Mechanism CLOSED.
+
+Standalone STD audit FIRSTPASS53571 priorhashes/58880 priorfixtures/2805 new/7pins/
+5inverses/ASTs/histories/fourwirejoins. No project/test/scientific callbacks, tensor
+decode/scientific recalc or process/signal/timer/GPU/proof/network operations IN
+AUDIT. FIFO LSTAT ONLY NEVER OPEN. Device16777233 matches conditional prior
+observation; if changed record/review, NEVER remap old/target devices. Four prior
+directory lifecycle exceptions exact. Mutable indexes excluded with before/after
+snapshots; seal sealed-workload-shutdown-v1.json.
+
+BUDGET: complete720s fit UNQUALIFIED. Conditional40 times observed context endpoints
+709.798-715.800s leaves4.200-10.202s before unmeasured preparation/scoring/caller/
+publication and omitted journal/timer overhead. NOT forecast/bound/unit throughput.
+Three full windows2160s leave120s before soft2280 for setup/proof/inter-role work;
+setup+proof design ceilings240s cannot all fit. No alternate timeout/shortened
+PGD-EOT/disabled guard/lean route adopted. No training percentage/time estimate.
+
+NEXT SEPARATE LOCAL: bind/test new client/bootstrap/readers to these exact source/
+control identities AND resolve complete-unit preparation/scoring/observation budget
+feasibility before any fresh scope. Old operational clients INCOMPATIBLE. Do not
+widen/retry consumed v3 or issue launch command. Actual OS/blocking-I/O enforcement,
+complete-unit timing/replay/hardware fit unqualified. Full units/replay/performance/
+memory/exact recovery/economics/calibration/data/protocol/training still gated.
+Research/training FALSE; trainingPGD5/EOT1/routineEOT1/optimizerbackward/registry/
+study YAML and financial200/160/40/single10 caps+holds unchanged. Historical
+snapshots not current quotes/balance. Earlier entries historical.
+
 LATEST November 23: V3 TARGET REVIEWED; GRANT CONSUMED, WHOLE UNIT INCOMPLETE.
 Read report/checks/2026-11-23-pgd-workload-handoff-v3-target-review.json/md and
 docs/predictor_pgd_workload_deadline_exit_review_v1.md. Raw target-review-20261123

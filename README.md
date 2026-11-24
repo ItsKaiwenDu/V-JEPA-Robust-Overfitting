@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Bounded whole-PGD shutdown reviewed locally (November 23):**
+[The separate adapter passes 21 new checks and an independent audit](report/checks/2026-11-23-pgd-workload-shutdown-v1-local-review.md).
+It preserves the first failure and requires confirmed owned exit before collection.
+All process/compute tests use fake ports; scientific sources and compute caps stay
+fixed. Complete-unit timing remains unqualified. Next bind the revised client
+locally and resolve the unit budget before any fresh scope. All grants are consumed.
+Earlier entries are historical snapshots.
+
 **V3 target result reviewed: 31 original gradients; whole unit incomplete (November 23):**
 [The proof passed and all 237 collected files were verified](report/checks/2026-11-23-pgd-workload-handoff-v3-target-review.md).
 Preparation reached real full-size PGD, with 31 of 40 original gradients completed.

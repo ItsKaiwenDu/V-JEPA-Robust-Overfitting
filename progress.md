@@ -1,5 +1,26 @@
 # Research Progress Reports
 
+November 23: separate bounded whole-PGD shutdown reviewed LOCALLY/UNBOUND.
+21 new checks finalPASS/42executions (21 initial fixture setup errors retained);
+only failed nodes rerun, production unchanged after first checks. Five inverses,
+46 scientific/preparation files exact, runtime47/457112B/cache46/nine supervisors/
+55uploads905563B/264primary paths. Cleanup<=2s TOTAL under original work clock;
+TERM<=.5s then bounded KILL/exit/reap. Primary errors and RSS/causal/cleanup records
+survive; unconfirmed held handles block collection. Seven fake lifecycles/four
+streams432/171/171/171files. STD audit FIRSTPASS53571 priorhashes/58880 priorfixtures/
+2805 new/7pins/ASTs/inverses/four wires through EOF. OS/compute/proof/GPU/clock ports
+FAKE, reserve/copy filesystem work real; no actual science/target/network/cohort
+repeat. Actual v3 partial31/40 and failure unchanged; mechanism CLOSED. FIFO LSTAT
+only/device16777233 conditional/four narrow directory exceptions exact; seal
+sealed-workload-shutdown-v1.json, index snapshots retained. Complete720s budget
+unqualified; conditional arithmetic not performance/percentage. NEXT separate
+local client/bootstrap/readers binding AND full-unit budget resolution before any
+fresh scope; old client incompatible. All grants consumed/no approval or remote
+work. Compute/scientific/policy/study/financial caps+holds fixed, trainingFALSE.
+User alone stages/commits/pushes. See
+report/checks/2026-11-23-pgd-workload-shutdown-v1-local-review.json/md and
+docs/predictor_pgd_workload_shutdown_v1.md. Earlier entries historical.
+
 November 23: the approved v3 attempt is CONSUMED and FAILED/INCOMPLETE.
 Actual full 2.5GiB proof passed; original CUDA preparation reached PGD20/R2/EOT8.
 Saved 31 of 40 completed input gradients and one further start; no whole unit,

@@ -1,0 +1,43 @@
+{
+  "execution_binding": null,
+  "files": {
+    "configs/predictor_pgd_workload_shutdown_v1.json": {
+      "bytes": 1755,
+      "sha256": "c984364fd0f387250ba084d36d830c49d299c9ff6471d901d12cc296bfcef8d0"
+    },
+    "models/predictor_pgd_workload_handoff_outer_v3.py": {
+      "bytes": 43220,
+      "sha256": "ca7bf1094cdcf3c45f7c09e1f0622c9780514043e232c97aeb23d0e5eaeb9932"
+    },
+    "models/predictor_pgd_workload_shutdown_logic_v1.py": {
+      "bytes": 7452,
+      "sha256": "11a7e205d6cb8e17275cce5052a95d227cc84749cd2477807174b110fea8ee90"
+    },
+    "runs/pretrained/diagnostic/eot-work-profile-university-20261029/packet/vjepa-eot-profile.tar.gz": {
+      "bytes": 17192095,
+      "sha256": "2278bce2b519943c0f83a49c556bb73dd928fe880fba0f6c56de2a4c3c2ec0da"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-handoff-v3-20261123/handoff-parent/linux10614-primary-v3-final-unarmed/SOURCE-PAYLOAD.json": {
+      "bytes": 1197113,
+      "sha256": "aa5437a6fcafc6fc92fb76c4a53421b9fa0d90eee4c6f369b1e6658aa73630a3"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-handoff-v3-20261123/handoff-parent/linux10614-primary-v3-final-unarmed/attended-session/saved/control.json": {
+      "bytes": 128408,
+      "sha256": "0e2f47ad5ff915dfa3b7aad424bee5755cb621596263e5b95195dcc04a3ad82f"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-preparation-v1-20261123/SOURCE-MANIFEST-v1.json": {
+      "bytes": 12449,
+      "sha256": "289fdbb6f9243598593f602b24cf93dcbaf8c7a10bf3146e22ee713d77d78cff"
+    }
+  },
+  "kind": "whole-pgd-shutdown-local-input-pins-v1",
+  "packet_path": "runs/pretrained/diagnostic/eot-work-profile-university-20261029/packet/vjepa-eot-profile.tar.gz",
+  "pins": {
+    "control": "runs/pretrained/diagnostic/pgd-workload-handoff-v3-20261123/handoff-parent/linux10614-primary-v3-final-unarmed/attended-session/saved/control.json",
+    "design": "configs/predictor_pgd_workload_shutdown_v1.json",
+    "logic": "models/predictor_pgd_workload_shutdown_logic_v1.py",
+    "manifest": "runs/pretrained/diagnostic/pgd-workload-preparation-v1-20261123/SOURCE-MANIFEST-v1.json",
+    "outer": "models/predictor_pgd_workload_handoff_outer_v3.py",
+    "payload": "runs/pretrained/diagnostic/pgd-workload-handoff-v3-20261123/handoff-parent/linux10614-primary-v3-final-unarmed/SOURCE-PAYLOAD.json"
+  }
+}
