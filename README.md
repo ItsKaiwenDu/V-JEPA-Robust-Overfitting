@@ -1,5 +1,12 @@
 # V-JEPA Robust Overfitting
 
+**Expected-row outer-list prototype passes local proof (November24):**
+[The new synthetic proof](report/checks/2026-11-24-pgd-expected-rows-v1-local-review.md)
+passes101 new checks first run: only the outer list is reused; every tuple and
+identity lookup stays fresh. State/error/order/fallback checks pass on declared
+metadata. No runtime adoption, cost or unit-fit qualification. Next: separate
+bounded local metadata cost comparison. Training gate stays closed. Earlier entries historical.
+
 **Local budget alternatives reassessed; no fit qualified (November24):**
 [The source-only review](report/checks/2026-11-24-pgd-local-budget-reassessment-v1-local-review.md)
 reviews12 alternatives and identifies one private expected-row container hypothesis

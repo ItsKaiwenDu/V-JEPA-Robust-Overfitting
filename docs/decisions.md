@@ -1513,3 +1513,33 @@ oracles only; acceptance at most leads a separate LOCAL cost comparison. Actual
 integration/complete-unit memory/timing/replay and other gates remain closed.
 All resource/science/financial/training caps fixed; no operational request/launch
 or training forecast. Include short numbered commit messages automatically.
+
+
+## November 24: prove outer-list reuse on new synthetic metadata only
+
+The expressly requested preceding reassessment commit/pusha3883af completed with
+supplied title/numbereddescription. The [separate prototype decision](../configs/predictor_pgd_expected_rows_v1.json)
+records101 NEW checks FIRSTPASS:95 cases/six owner invariants,18 old pins and5
+source/oracle snapshots frozen before firstchecks. Only outer list objects are
+reused; every tuple and reached identity-port call stays fresh. Unsupported/
+stateful inputs fall back before foreign iterator/identity consumption in declared
+recipes. Both arms' results/errors/traces match independent oracles; all exercised
+returns/BaseExceptions leave0 rows in owner storage. No original Snapshot/guard,
+model/tensor/worker, sourcebridge/patch/target API/adapter/runtime adoption occurs.
+
+Full real guard domain, concurrent/private ownership, Python reflection security,
+caller/traceback lifetimes, allocator capacity/peakmemory and cost remain unproved.
+Eligibility/clear/refill/tuples/calls/cleanup add real work and may be slower.
+Auditv1 FIRSTPASS71544 priorhashes/77941 priorfixtures/102new/78043total with no
+prototype/test/scientific callbacks rerun. All histories/genuine oldproof31gradient
+completions/wholeunits0 and failed/partial/pending/consumed claims remain fixed.
+
+Next atmost separate bounded matched LOCAL metadata cost comparison with new
+frozen membership/oracles, whole paths, raw failures/capstops, no warmup or
+overhead subtraction;16batches/arm/cooperative5s total/dedicatedlocal stopwatch
+outside boundedbatches only, no workload ports or proof-suite/closedcohort reruns.
+No benchmark here; local benefit cannot qualify integration/target/completeunit/
+training. Separate full source/domain/refusal/ownership and actual matchedunit
+timing/memory/replay/other gates required. All copies/freshhashes/science/guards/
+durability/shutdown/clocks/caps fixed, installedgate closed; no operational request/
+launch/targetquery/paidwork or training forecast. Commit messages automatic.

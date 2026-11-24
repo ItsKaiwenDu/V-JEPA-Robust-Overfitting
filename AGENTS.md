@@ -2,6 +2,81 @@
 
 ## Current stage
 
+LATEST November 24: EXPECTED OUTER-LIST PROTOTYPE PASSES LOCAL SYNTHETIC PROOF.
+Read docs/predictor_pgd_expected_rows_v1.md, expected_rows decision/cases configs,
+models/predictor_pgd_expected_rows_v1.py and
+report/checks/2026-11-24-pgd-expected-rows-v1-local-review.json/md. Raw
+pgd-expected-rows-v1-20261124. Starting clean a3883af AFTER user's EXPRESS prior
+review commit/push request completed with supplied title/numbereddescription;
+origin/main==HEAD. Default user stages/commits/pushes unless expressly requested;
+no further unrequested Git mutation. USER PREFERENCE automatically short clear
+commit title +NUMBERED description eachbigstep. Preserve ALL source/test/auditor
+versions/fixtures/logs/failures/results/statuses/claims. All real grants CONSUMED.
+No operational scope/handoff/package/grant/approval request/launch command,
+university query/SSH/upload/retry/resume/retrieval/remote cleanup/target/GPU/proof/
+paid work or manualpaste.
+
+SEPARATE NEW stdlib METADATA prototype: reuse ONLY private outer list object,
+EVERY tuple and reached fake identitylookup FRESH. No observation/tuple caches.
+Builtin type/shape eligibility REAL extra reads/work; unknown/stateful fallback
+BEFORE foreign iterator/identity consumption on DECLARED recipes. Finally clears
+rows success/BaseException. Closed/reentrant baseline fallback; owner-local state.
+NO original Snapshot/model enumeration/guard/science execution/sourcebridge/
+patch/target API/adapter/runtime binding. Existing immutable tobytes/EVERY fresh
+hash/ordered state_digest unchanged. Idle cache0rows NOT traceback/caller lifetime,
+allocator-capacity/heap/peakmemory proof. Privileged test reflection NOT hard
+privacy/security/thread-safety/physical ownership proof; fullguarddomain unproved.
+
+18prior sourcepins/5new exact frozen source-oracle snapshots BEFORE checks;95NEW
+cases +6owner invariants =101checks PASS FIRST RUN/101exec, sources/oracles unchanged
+afterfirstchecks,0blockedports/NO stopwatch. All3kinds/freshidentityresults/mutable
+savedrecords/name-token-flag changes/order-grow-shrink-empty/duplicate-Unicode/
+stateful-malformed fallback/primaryerrors/BaseException cleanup/lateruse/cachefaults/
+closed-reentrant/OR shortcircuit/fresh tuplerows. Atmost3literal rows pernewfixture,
+NOT exhaustive real-model domain. Both arms' exact saved results/errors/lookup-
+iteration-comparison traces join independent frozen oracles. No old passing
+witness/harness/encoding benchmark/scientific cohort repeated. New stdlib metadata
+compute/FS/JSON/AST/hash REAL; no Torch/NumPy/model/tensor/gradient/worker/FileSink/
+ledger/target/GPU/proof/network/paidwork. Workload process/PIDFD/signal/thread/
+clock/timer/network ports BLOCKED in newrunner; original clocks untouched.
+
+STD saved auditv1 PASS FIRST RUN71544priorhashes/77941priorfixtures/102new/78043total/
+18pins/5frozen definitions-oracles/101saved result-trace joins. No newprototype/
+test/project/scientific callbacks or scientificvalue decode-recalc/process/clock/
+timer/GPU/proof/network IN AUDIT. FIFO LSTAT ONLY NEVER OPEN/device29 priorFROZEN/
+no probe-remap-waiver/oldtarget66307/four exact lifecycle exceptions unchanged;
+futuredevicechange newrecord/review. Seal sealed-expected-rows-v1.json; liveindexes
+excluded/exact before-after snapshots. Oldactualv3 proof/31gradients genuine
+inherited, wholeunits0/candidate-replay notstarted, all failed/partial/pending/
+consumedflags fixed. Currentphase48/481518B NOT oldv347/450548B; no newactualtarget/
+currentremoteclaim or lostprimarycause claim.
+
+NEXT SEPARATE LOCAL ONLY per NEXT-LOCAL-EXPECTED-ROW-COST-v1.json: bounded matched
+stdlib METADATA cost comparison BEFORE any integrationdecision. Freeze sources/
+NEW accepted membership/independent oracles BEFORE timing; whole inputconstruction/
+eligibility/freshfakeidentity/tuples/listclear-refill/comparison/cleanup/bookkeeping
+paths, rawresults/failures/capstops preserved, NO assumed overhead subtraction.
+Atmost16batches/arm/matchedalternating/no warmup. Dedicated LOCAL benchmark stopwatch
+MAY measure outside boundedbatches; cooperative5s TOTAL checked betweenbatches,
+NOT OS enforcement. Never invoke/reset workloadclocks/installtimers/run original
+Snapshot/model/Torch/NumPy/FileSink/ledger/worker/scientific/process/thread/network
+ports or rerun passing proof/closedcohorts. Benchmark NOTexecuted here. Additional
+validation/clear-refill/calls MAY slow candidate/retain memory; no dominantcost/
+netbenefit/targetfit claim. Any integration still needs separate full source/
+inverse/domain/refusal/ownership review +actual matched completeunit timing/
+memory/freshreplay/allother gates. Copyprovenancegap/oldencodingrejection unchanged.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; installedv5gate UNCONDITIONALLY CLOSED
+before protocolclock/ATTEMPT/connection. Graph56uploads936711B/runtime48files481518B/
+cache47/nine supervisors/270paths/control d997bf9e... unchanged. Objective120/unit720/
+setup180/proof60/soft2280-hard2400/final120/collection600/connection3000/RSS4GiB/
+allocator7GiB/allother caps fixed; no timeout/hardware/shortenedPGD-EOT/disabledguard/
+leanroute. All original science/native/hash/owner/durability/shutdown/Guard and
+continuing clocks fixed. Mechanism CLOSED/research-trainingFALSE. TrainingPGD5EOT1/
+routineEOT1/optimizerbackward/registry/studyYAML/financial200/160/40/single10caps+
+holds fixed; historicalsnapshots not currentquotes/balance. No training
+percentage/time estimate. Earlier entries historical.
+
 LATEST November 24: LOCAL BUDGET OPTIONS REASSESSED; ONE METADATA PROOF HYPOTHESIS.
 Read docs/predictor_pgd_local_budget_reassessment_v1.md, local_budget_reassessment
 config and report/checks/2026-11-24-pgd-local-budget-reassessment-v1-local-review.json/md.
