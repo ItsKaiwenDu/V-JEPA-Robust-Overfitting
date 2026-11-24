@@ -1124,3 +1124,55 @@ Next prepare/review an exact unarmed primary v3 scope/package before requesting
 fresh exact approval. All real grants remain consumed and the old v2 package stays
 unchanged. See [review](../report/checks/2026-11-23-pgd-workload-preparation-binding-v1-local-review.md)
 and [binding details](predictor_pgd_workload_preparation_binding_v1.md).
+
+## 2026-11-23 — Review an exact unarmed v3 scope before fresh authorization
+
+Prepare one new exact four-file primary package from the committed early-device
+preparation/v3 binding. Keep source bytes, scientific methods and all limits fixed.
+The scope proposes a full proof then original/candidate/fresh-replay PGD20/R2 units,
+at most120 input-gradient objectives within existing continuing clocks; no promise
+of target memory fit or full windows. All earlier grants are consumed.
+
+The actual unarmed reader and first-run standalone saved audit pass. Preserve the
+wrapper-only platform-import refusal before emission and its preload correction,
+all package identities and prior failures. No tests/scientific cohorts repeat and
+no grant/attempt/session/remote work is created. Request one fresh exact approval
+before exclusive authorization append and separate arming review; never reuse or
+rename the consumed v2 package. See [exact scope](../report/checks/2026-11-23-pgd-workload-handoff-v3-scope.md)
+and [package review](../report/checks/2026-11-23-pgd-workload-handoff-v3-local-review.md).
+
+## 2026-11-23 — Accept exact v3 approval once and arm without starting a run
+
+The direct user approval accepts outer6e44d8bb... and exact scopeed8cf2b7... for
+one attended v3 primary attempt. Preserve that authorization without asking again.
+Append one canonical authorization exclusively, retain all four original file and
+parent identities, and record only the narrow package directory append exception.
+Actual local v3 preflight and first-run independent saved arming review pass.
+
+The grant is armed/unspent; no attempt/session/SSH/GPU/proof/model work starts in
+arming. Provide one exact user-attended command with VPN/awake Mac/open lid/Terminal
+and password prompt. Never agent-run SSH or repeat a failed launch. On Done/error
+inspect bound local evidence first. All caps and unqualified target-memory limits
+remain; old claims and incomplete/scientific flags stay fixed. See
+[arming record](../report/checks/2026-11-23-pgd-workload-handoff-v3-arming.md).
+
+## 2026-11-23 — Preserve partial v3 progress and the missing primary failure
+
+The one approved v3 attempt passed its actual full proof and reached31 completed
+original input gradients out of40, with one further start. No whole unit,
+candidate or replay completed. The consumed grant stays consumed; no retry,
+separate retrieval or new approval request follows this review.
+
+The exit-unconfirmed error near the720s boundary may have masked the initial
+exception. Preserve that uncertainty: neither primary cause nor terminal child
+status/RSS/allocator peak was retained. Later guarded collection and237 verified
+files do not rewrite failed science or authenticate exhaustive cleanup. Saved
+context times exclude their own journal/timer exit and are not unit throughput.
+
+Next derive and test a separate bounded shutdown/error-preservation adapter with
+fake OS ports, retaining idle/ownership/handle/cap/clock gates. Review complete-unit
+budget feasibility before another scope. Keep scientific routes, full PGD/EOT and
+all hashing/ownership guards. This review adopts no implementation or larger cap,
+reopens no closed cohort and leaves training/policies/study/finances gated/fixed.
+See [saved result](../report/checks/2026-11-23-pgd-workload-handoff-v3-target-review.md)
+and [source/budget analysis](predictor_pgd_workload_deadline_exit_review_v1.md).

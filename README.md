@@ -1,5 +1,28 @@
 # V-JEPA Robust Overfitting
 
+**V3 target result reviewed: 31 original gradients; whole unit incomplete (November 23):**
+[The proof passed and all 237 collected files were verified](report/checks/2026-11-23-pgd-workload-handoff-v3-target-review.md).
+Preparation reached real full-size PGD, with 31 of 40 original gradients completed.
+At the unit deadline the saved error reported unconfirmed child exit; the initial
+cause and terminal status were not retained. Candidate/replay never started, and
+the grant is consumed. Next is a separate local shutdown/error-preservation and
+complete-unit budget review. Memory/performance/training remain unqualified.
+Earlier entries are historical snapshots.
+
+**Exact v3 primary approval accepted and armed (November 23):**
+[The authorization append, real local preflight and independent arming review pass](report/checks/2026-11-23-pgd-workload-handoff-v3-arming.md).
+The newly approved one-attempt grant is armed and unspent. Next is one user-attended
+Mac launch with VPN and the exact v3 command; no SSH, proof, GPU or model work has
+started. Existing memory limits remain and target fit is unqualified. Training stays gated.
+Earlier entries are historical snapshots.
+
+**Exact v3 primary scope and unarmed package reviewed (November 23):**
+[The early-device package and exact one-attempt scope pass independent review](report/checks/2026-11-23-pgd-workload-handoff-v3-scope.md).
+The four-file package is unarmed; no target work has started and all earlier
+grants are consumed. Next is one fresh exact approval before arming. The same
+resource limits remain, and actual GPU copy/RSS improvement/fit remains unqualified.
+Earlier entries are historical snapshots.
+
 **Early-device v3 client binding reviewed locally (November 23):**
 [The corrected client and new readers pass local integration](report/checks/2026-11-23-pgd-workload-preparation-binding-v1-local-review.md).
 Twenty-two checks pass, including a complete fake preparation/whole-unit/client

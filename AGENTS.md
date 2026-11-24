@@ -2,6 +2,244 @@
 
 ## Current stage
 
+LATEST November 23: V3 TARGET REVIEWED; GRANT CONSUMED, WHOLE UNIT INCOMPLETE.
+Read report/checks/2026-11-23-pgd-workload-handoff-v3-target-review.json/md and
+docs/predictor_pgd_workload_deadline_exit_review_v1.md. Raw target-review-20261123
+inside pgd-workload-handoff-v3-20261123; independent saved audit v1 PASS FIRST RUN.
+User Done inspected bound ATTEMPT/session/errors FIRST. ALL real grants CONSUMED.
+No retry/resume, SSH/query/upload/retrieval/old cleanup/GPU/proof/paid work, new
+scope/handoff/approval request or repeated manual paste is authorized by this review.
+User stages/commits/pushes NEVER agent. Preserve ALL prior uncommitted scope/arming
+work, source/test/auditor versions, fixtures/logs/failures/results/status/claims.
+
+Exact package name/path stays pgd-workload-handoff-v3-20261123/handoff-parent/
+linux10614-primary-v3-final-unarmed. Outer
+6e44d8bb315e3595333c70278c315a434c1fac2629018c0d2567db76dc02bcee;
+supervised 0e2f47ad5ff915dfa3b7aad424bee5755cb621596263e5b95195dcc04a3ad82f.
+AUTH2019B d168c80af82c1e2c83ce009c80e5ce9ca5b161678e63d3b076978cbbb378c9e7
+unchanged. ATTEMPT consumed TRUE. SSH exit1; session failed/complete FALSE,
+completed roles only proof. Later verified transport does not promote work.
+
+ACTUAL full 2.5GiB proof PASS: 2684354560B written/fsynced/read back, own proof
+removed, 13.704431230s, peak observed allocation2746851328B/1926events. Proof parent
+PID1693692/startticks107053819/exit0, 14.105411710s/104RSS samples/42745856B peak.
+Original worker PID1694139 reached REAL full-size Torch/CUDA primary PGD20/R2/EOT8:
+32 durable starts,31 completed input gradients (000-030),031 start only, budget40.
+Each completion reports one native root/scope/1152calls/0refusals/root hook removed,
+strict consider-before-backward, finite loss and pixel/gradient hashes. This is
+actual original input-gradient work, not metadata-only target work. No completed
+whole PGD/scoring/selection/restoration, candidate or replay. No gradient arrays
+collected for independent numerical comparison or recovery; hashes are not resume.
+Context17.744957367-17.895007595s excludes own journal publication and timer exit;
+no full-unit throughput, overhead estimate or training percentage is established.
+
+Original launch1070552.318197682/deadline1071272.318197682 (+720s); collection starts
+0.132956048s after deadline. Saved RuntimeError: Owned child exit is unconfirmed;
+no finalization or collection. Diagnostic poll None; original log warnings only.
+Primary triggering exception, terminal child code/cleanup receipt and original
+parent RSS/allocator peaks were NOT retained. Deadline-associated shutdown race
+is SOURCE/TIMING INFERENCE, not proven primary timeout. Missing saved RSS refusal
+does not rule out a resource trigger. Monitor bounded reap then closed leases;
+outer skipped extra wait for monitored/closed lease and assert_idle could mask
+the original error. Later guarded collection is consistent with a later idle
+check returning, not exhaustive cleanup or a claim about current remote state.
+GPU74 samples/process-used5404MiB/device-used5486MiB are nvidia-smi observations,
+NOT host RSS or Torch allocator. Preparation progressed past v2; no measured RSS
+reduction or complete model/unit memory fit is qualified. Caps remain unchanged.
+
+Transport237 files/45365115expandedB/45186134wireB/45054308payloadB/310807dedupB;
+wire reconstruction SHA a778d8bafa8fbbee2f0f7c3b0c7fc83a8e3a3773eaf5ec21db8ba9ad11a3dee6.
+Raw wire not saved; reconstruction matched client digest, no direct second scan.
+239-file inventory explicitly omits emergency reserve +2355B generated Torch tmp
+cache. No separate retrieval. All session/work/partial/per-file FALSE and pending
+flags unchanged; separate transport TRUE only. 27pins/17locals/55sources896039B/
+47runtime450548B/cache46/nine supervisors/scientific bytes and original packet join.
+
+Standalone STD audit FIRST PASS:53292 prior hashes/58605 prior fixture entries/
+275 new attempt/session entries/four narrow directory lifecycle exceptions. Old
+FIFO LSTAT ONLY NEVER OPEN. Local device16777233 matches conditional observation;
+if changed record/review, NEVER remap old/target devices. Package inode44965638/
+device/owner/group/mode and all five old files/full identities fixed, including
+AUTHinode44967366; tracked APFS nlink7->9/metadata only; parent fixed. No project/
+test/scientific callbacks, tensor decode/recalculation, process/timer/signal/GPU/
+proof/network work IN LOCAL AUDIT. No scientific cohort repeats or source changes.
+Seal sealed-workload-v3-target-review-v1.json; mutable indexes excluded with
+before/after snapshots. Earlier failed/incomplete results remain unchanged.
+
+NEXT SEPARATE LOCAL: derive/test bounded delayed-exit and primary-error preservation
+with explicit fake OS ports. Preserve confirmed-idle/held ownership gates, handle
+lifetimes, all resource caps and continuing clocks. Never signal closed/reused
+handles, suppress idle, extend compute time or infer death from closed descriptors.
+Review a concrete complete-unit time/overhead plan before any new exact scope:
+31/40 partial progress does not qualify original/candidate/replay windows. Keep
+full PGD/EOT/scoring/hashes/numerical/ownership guards; no lean timing substitute.
+No implementation or scope is adopted in this review. Mechanism remains CLOSED.
+Actual full primary/convergence/fresh replay and matched complete-unit timing/
+overhead, hardware memory/exact recovery/economics/30 training-only calibration
+evaluations/10 clips/data/protocol adoption remain. Research/training FALSE;
+training PGD5/EOT1/routine EOT1/optimizer backward/registry/study YAML unchanged.
+Financial200/160/40/single10 caps+holds fixed; historical snapshots not current
+quotes/balance. No percentage/time-to-training estimate. Earlier entries historical.
+
+LATEST November23: EXACT V3 PRIMARY APPROVAL ACCEPTED; ARMED/UNSPENT.
+Read report/checks/2026-11-23-pgd-workload-handoff-v3-arming.json/md +exactv3scope.
+User wrote "I approve." directly after the exact linked one-attempt v3 question.
+NEWgrant ARMED+UNSPENT. DO NOT ASK AGAIN. All earlier grants CONSUMED is historical
+and excludes this newly approved grant. No ATTEMPT/session/SSH/upload/process/timer/
+proof/GPU/model/paidwork started. No repeated manualGPU/key/statuspaste. Preserve
+ALL prior uncommittedscope/package work, every source/test/auditor/fixture/log/
+failure/result/claim. User stages/commits/pushes NEVER agent. Consumedv1unknown+
+v2proofPASS/preparationRSSFAIL+oldgrants remain unchanged.
+
+Package MUST KEEP exact name/path:
+pgd-workload-handoff-v3-20261123/handoff-parent/linux10614-primary-v3-final-unarmed.
+Outer6e44d8bb315e3595333c70278c315a434c1fac2629018c0d2567db76dc02bcee;
+supervised0e2f47ad5ff915dfa3b7aad424bee5755cb621596263e5b95195dcc04a3ad82f.
+ApprovedscopeJSON SHAed8cf2b713052f593410602a134cc2e4bc6f854febd618be9220f375e5e40d4b.
+AUTHORIZATION.json2019B SHA d168c80af82c1e2c83ce009c80e5ce9ca5b161678e63d3b076978cbbb378c9e7
+via exact NEW v3 outer.authorization +ONE O_EXCL append. AUTHinode44967366/fullstat
+saved for future lifecycle. All4 oldfile bytes/fullrecordedidentities fixed; package
+device16777233/inode44965638/owner/group/mode fixed, tracked APFSnlink6->7+mtime;
+fullpoststat retainsctime/extent. Parentstatfields unchanged, oldexceptions separate.
+No name/path/source/control rewrite, extra attempt, reapproval, claimreset or retry.
+Source execution/timer/routebindings NULL until authenticatedfuturechilddispatch.
+
+Actual NEW local v3client.check_local PASS17pins/55sources896039B/43220Bouter/
+original17192095Bpacket/full47runtime450548B. No clock/process/SSH/scientific work.
+Prior22binding/24exec+17prep/34exec+actualsmallCPUcontrol and successful closed tiny/
+native/PGD/clean cohorts inherited NOT rerun. Newarmingstage arming-20261123 within
+pgd-workload-handoff-v3-20261123 retainsuserbasis/preappendfullstat/AUTHORIZED-APPEND/
+realpreflight/command/launchrecord and independentSTDreviewv1 PASS FIRST RUN:
+53256priorhashes/58587priorfixtureentries/18newentries/four narrow lifecycleexceptions/
+scope-control-grant/source-runtime/identity/command joins. No project/test callbacks,
+tensor decode/numericalrecalc or process/timer/signal/GPU/proof/network IN AUDIT.
+Old FIFO LSTAT ONLY NEVER OPEN. Device16777233 matches conditionalprior observation;
+ifchanges record/review NEVER remap old/target devices. Bothactualoldpackages/claims
+and allfixturegrants preserved. Mutableindex before/after snapshots retained/live
+indexes excluded; currentseal sealed-workload-arming-v3.json.
+
+NEXT USER ACTION: connectVPN then run ONE attended MacTerminal command via
+caffeinate -i <repo>/.venv/bin/python -I -B <repo>/scripts/run_predictor_pgd_workload_handoff_v3.py
+<EXACTABSOLUTEBOUNDPACKAGE>. CLI cwd-independent under-I. KeepMacawake/lidopen/
+Terminalopen and attenduniversitypasswordprompt.<=50min incllogin+sameSSHcollection.
+NEVER agent-run SSH or this CLI. No repeated GPU/key/statuspaste. Commandtext saved
+but NOT executed. One new approval persists; don'taskagain. OnDone/error inspect
+boundlocal ATTEMPT/session/errors FIRST, never repeatcommand/resetclaim/retrieve
+separately or infer success. Futureapprovedlaunch mayappend ONLYATTEMPT.json+
+attended-session, with narrowmetadata lifecycle review keeping AUTH/all4oldfile
+identities/source/control fixed; no blanketwaiver of otherfixturechanges.
+
+Exactapproved primarywork: full2.5GiBproof60s thenoriginal/candidate/freshreplay
+PGD20/R2/step1 diagnostic/eps4/255/EOT8attack+4score/twofamilies/0extra banks,
+40inputgradient objectives/unit/120MAX (80candidate<=15360initialinnerVJPs). Each
+gradientnative4096/candidate192initial+384calls unchanged; whole scientific/math/
+starts/projection/no-gradscoring/selection/restoration/ownership remain. EarlyCUDA
+transfer before unchangedCPUmmap strictload retained; actualCUDAcopy/RSSimprovement/
+fit UNQUALIFIED. No leanroute/disabledhashing/no CPU-tinyfallback. Objective120/
+unit720absolute/remainingtime-limited; setup180/proof60 insoftwork2280/hard2400/
+final120,collection600/connection3000incllogin. Laterunitsmaygetless/refuse; no
+allwindows/fit/availabilityguarantee. Original setup3GiB/capture2.25/response3/
+raw1792MiB/meta64incltrace8/RSS4GiB/allocator7GiB/process64/thread512/samples2400/
+cadence.5+allsource/layout/liveGPU/host/device/storage/proof/handles/clocks fixed.
+SampledRSS is NOTinstantaneousquota/exhaustiveproof. Refusalconsumesgrant/failure
+stopslaterroles; no retry/separateretrieval/oldcleanup/install/oldclaimreset/private-
+key-checkpoint-heldout upload/extra-native-closedcohort repeat/FP64/fulltrace/
+optimizerbackward/training/paidcompute/financialholdrelease. Only proof-owned
+successful temp removal and held ownedprocesscleanup included.
+
+Future success needs ownactualproof/source/route/plan/freshunits/replay/restoration/
+resources/complete/parentwall-RSS+sameconnectioncollection joins; none inferredbydict.
+MechanismCLOSED, research/trainingFALSE; complete-workload/timing+overhead/memory/
+exactrecovery/economics/calibration/data/protocoladoption stillgated. TrainingPGD5EOT1/
+routineEOT1/optimizerbackward/registry/studyYAML unchanged. Financial200/160/40/single10
+caps+holds fixed;Oct29snapshot historical NOTcurrentquote/balance. No percentage/
+time-to-training estimate. Earlier entries historical.
+
+LATEST November23: EXACT V3 EARLY-DEVICE PRIMARY SCOPE/PACKAGE REVIEWED; UNARMED.
+Read docs/predictor_pgd_workload_handoff_v3.md and
+report/checks/2026-11-23-pgd-workload-handoff-v3-local-review.json/md +scope.json/md.
+Raw pgd-workload-handoff-v3-20261123; independent-package-review-v1 PASS FIRST RUN.
+Starting clean user commit8637118. Preserve ALL old/new sources/test/auditor
+versions, fixtures/logs/failures/results/claims. User stages/commits/pushes NEVER
+agent. All earlier university grants CONSUMED. No new approval/authorization/
+arming/ATTEMPT/session/SSH/query/upload/retrieval/retry/model/GPU/proof/paid work or
+manual paste occurred. This step prepares/reviews scope/package ONLY. All old
+consumed v1/v2 packages and v2 actualproofPASS/preparationRSSFAIL remain unchanged.
+
+Package MUST KEEP exact name/path through approval/launch:
+pgd-workload-handoff-v3-20261123/handoff-parent/linux10614-primary-v3-final-unarmed.
+Outer6e44d8bb315e3595333c70278c315a434c1fac2629018c0d2567db76dc02bcee;
+supervised0e2f47ad5ff915dfa3b7aad424bee5755cb621596263e5b95195dcc04a3ad82f.
+ScopeJSON SHAed8cf2b713052f593410602a134cc2e4bc6f854febd618be9220f375e5e40d4b.
+Four0600 files/0700parents:CONTROL-WORKLOAD/SOURCE-PAYLOAD/known-hosts/PACKAGE. NO
+AUTHORIZATION.json/ATTEMPT.json/attended-session. Device16777233/inode44965638/
+uid501/gid20/mode0700/trackedAPFSnlink6 and fullparent+fourfilestats/hashes retained
+for future narrow append. No path/control/source/name rewrite, claimreset or
+fake grant in this actual package. Future approved package retains final-unarmed name.
+
+27 inputpins/17locals/18current source-config-testhashes; upload55/896039B exact
+reviewed preparation,47runtime450548B/cache46/nine supervisors/264primarypaths.
+Outer43220B/sourceenvelope1197113B/control166675B. Original17192095Bpacket/99members/
+26446958expandedB exact; no new pixel/checkpoint archive. All sources/caps/scientific
+math/nativeownership and continuingclocks fixed since v3binding. Workloadprefix/
+whole-PGDgrantkind/claim-before-validation exact. Entry/timer/routebindingsNULL.
+Actual unarmed reader PASS. ONEpackage emitted/twolocalwrapperexecutions: first
+refused lazy stdlibplatform import BEFORE emission/parentempty; secondwrapper
+preloadsstdmodules only. Both wrappers/log/refusal retained;production unchanged.
+No tests rerun:22binding/24exec +17preparation/34exec +oneactualsmallCPU control
+inherited. No Torch/NumPy/value decode/calculation/gradient/model/GPU/proof/network/
+targetprocess/timer/signals in preparation. Definitions-only stdlib code read/write.
+
+Independent saved STD review FIRSTPASS53211priorhashes/58581priorfixtureentries/
+6newentries/allpins/inverses/source-scope-cap/identity joins. No project/test/
+scientific callbacks, tensordecode/recalculation or OS/proof/network IN AUDIT.
+Old FIFO LSTAT ONLY NEVER OPEN. Device16777233 priorconditional reviewed observation;
+ifchanges record/review NEVER remap old or target devices. Prior lifecycleexceptions
+exact. All history/indexbefore-after snapshots retained/liveindexes excluded from
+seal sealed-workload-handoff-v3.json. Fakebinding replay not actualtargetnumerics.
+
+EXACT PROPOSED ONE attendedlinux10614 attempt: full2.5GiBproof60s then original+
+candidate+fresh replay PRIMARY PGD20/R2,step1/255diagnostic,epsilon4/255,EOT8attack/
+4scoredraws/twofamilies/0extra banks.40inputgradients/unit/120MAX;80candidateowned
+objectives contain<=15360initialinnerVJPs. Native4096/candidate192initial+384calls
+PERgradient. Original starts/projection/consider-before-backward/no-grad scoring/
+selection/restoration/ownership/math fixed. EarlyCUDAtransfer BEFORE unchangedCPU
+mmap strictcheckpointload; actualCUDAcopy/RSSreduction/fit UNQUALIFIED. No CPU/tiny
+fallback/lean scientific route/disabledbytehashes or observations for timing.
+Objective120/unit720absolute/remainingtimelimited,setup180/proof60 within soft2280/
+hard2400/final120work, SAME-SSHcollection600/connection3000incllogin. Laterunits
+maygetless720/refuse; noallthreewindows/fit/availability/reservation guarantee.
+Original setup3GiB/capture2.25/response3/raw1792MiB/meta64incltrace8/RSS4GiB/allocator
+7GiB/process64/thread512/samples2400/cadence.5s/source2MiB +allsource/layout/livehost/
+GPU/storage/proof/ownedhandle/clock gates fixed. SampledRSS NOTinstantaneousquota/
+exhaustiveprocessproof. Refusal consumes oneattempt; failure stopslaterroles.
+No retries/separateretrieval/oldcleanup/newsoftware/oldgrant-claim reset/privatekey-
+checkpoint-heldout upload/extra-component-native-closedcohort repeat/warmup/FP64/
+fullmodeltrace/optimizerbackward/training/paidcompute/financialholdrelease. Only
+proof-owned successful tempremoval +heldownedprocess cleanup included.
+
+NEXT: request ONE exact fresh scoped approval of reviewed6e44d8bb... package.
+One new exact scoped approval is required before arming or university work.
+If approved DO NOT ASK AGAIN. Before ONE O_EXCL AUTHORIZATION append record CURRENT
+package/parent/fourfiles fullidentity/stat/hashes in NEW armingstage. Use NEW v3
+outer.authorization(c,csha,user_basis), preserve every oldfile/source/control/path/
+name, record narrow AUTHappend dirnlink/mtime/ctime/extent exception with inode/
+owner/mode/alloldfileidentities fixed; oldlifecycle exceptions remain separate.
+Run NEW v3 client.check_local on real bound package LOCALLY and independently
+review arming. Sourcebindings remainNULL until authenticatedfuturechilddispatch.
+Only after valid approval+arming provide ONE user-attended Maccommand -I -B via
+run_predictor_pgd_workload_handoff_v3.py and exactABS package; VPN/awakeMac/openlid/
+Terminal/passwordprompt,<=50minincludinglogin+sameSSHcollection. NEVER agent SSH.
+No command now/no repeated GPU/key/statuspaste. OnDone/error inspectBOUNDlocal
+ATTEMPT/session/errors FIRST; NEVERrepeat/reset/separateretrieve or infer success.
+
+Actual units/perturbedreplay/matchedcompleteunit timing+overhead/memory/exactrecovery/
+economics/calibration/data/protocol adoption stillgated. MechanismCLOSED; no closed
+tinygradient/native/PGD/clean reruns. TrainingPGD5EOT1/routineEOT1/optimizerbackward/
+registry/studyYAML unchanged;research/trainingFALSE. Financial200/160/40/single10caps
++holds fixed;Oct29snapshot historical not freshquotes/balance. No measured
+percentage/time-to-training. Earlier entries historical.
+
 LATEST November23: V3 EARLY-DEVICE CLIENT/READERS REVIEWED LOCALLY; NO OPERATIONAL PACKAGE.
 Read docs/predictor_pgd_workload_preparation_binding_v1.md, binding design+
 handoff_inputs_v3 and report/checks/2026-11-23-pgd-workload-preparation-binding-v1-local-review.json/md.

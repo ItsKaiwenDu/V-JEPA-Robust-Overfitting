@@ -1,5 +1,87 @@
 # Research Progress Reports
 
+November 23: the approved v3 attempt is CONSUMED and FAILED/INCOMPLETE.
+Actual full 2.5GiB proof passed; original CUDA preparation reached PGD20/R2/EOT8.
+Saved 31 of 40 completed input gradients and one further start; no whole unit,
+candidate or replay completed. Context records exclude their own journal/timer
+exit, so they do not establish complete-unit throughput or training progress.
+At the720s boundary the recorded failure was unconfirmed child exit; collection
+started0.132956048s after the deadline. Primary trigger/terminal code/cleanup and
+original RSS/allocator peaks are absent. A deadline shutdown race is source/timing
+inference; missing RSS refusal does not rule out memory. GPU5404MiB process-used
+is not host RSS or Torch allocator. Preparation passed the v2 point; full fit stays
+unqualified. Session failed/complete FALSE, completed roles only proof, SSH1.
+All237 files verified:45365115expandedB/45186134 reconstructed wireB; raw wire was
+not separately saved. Failed/work/partial/journal flags stay unchanged. Independent
+STD audit FIRST PASS53292 prior hashes/58605 prior fixtures/275 new entries; all
+prior scope/arming/source/history preserved, FIFO LSTAT only, four narrow directory
+exceptions, device16777233 conditional. No local science/tests/remotes repeated.
+Next SEPARATE LOCAL: bounded delayed-exit/error preservation with fake OS ports and
+complete-unit time/overhead feasibility under existing idle/ownership/caps/clocks.
+No scope/approval/retry/resume/retrieval or remote cleanup follows this review.
+Mechanism CLOSED; full units/replay/performance/memory/recovery/economics/calibration/
+protocol/training still gated. Policies/study/financial caps+holds unchanged.
+User alone stages/commits/pushes. See
+report/checks/2026-11-23-pgd-workload-handoff-v3-target-review.json/md and
+docs/predictor_pgd_workload_deadline_exit_review_v1.md.
+Current seal sealed-workload-v3-target-review-v1.json; index snapshots retained.
+Earlier entries are historical.
+
+November23: exact v3 scope6e44d8bb... APPROVAL ACCEPTED/ARMED/UNSPENT.
+User "I approve." directly follows exactscope question; DO NOTaskagain. AUTH2019B/
+d168c80af82c1e2c83ce009c80e5ce9ca5b161678e63d3b076978cbbb378c9e7 via ONE O_EXCL
+append; AUTHinode44967366/fullstat saved. Scopeed8cf2b713052f593410602a134cc2e4bc6f854febd618be9220f375e5e40d4b.
+All4oldfile/source/control/name/path bytes+identities fixed; packageinode44965638/
+device33/owner-group-mode fixed/trackednlink6->7+mtime/fullctime-extent recorded,
+parentunchanged/oldexceptions separate. ActualNEW localpreflightPASS17pins/55sources
+896039B/47runtime450548B/original17.19MBpacket. STDindependentarmingFIRSTPASS53256
+priorhashes/58587priorfixtures/18new/four narrowlifecycleexceptions/joins;FIFO lstat
+only/deviceconditional/no callbacks-tensorcalcs. Prioruncommittedscope+allnewarming
+records/histories/snapshots retained;seal sealed-workload-arming-v3/liveindexesexcluded.
+No tests/prioractualCPUcontrol/scientificcohort repeats. No ATTEMPT/session/SSH/
+proof/GPU/targetprocess/timer/model/paidwork. SourcebindingsNULL. NEXT ONEuserattended
+Maccommand withVPN/awakeMac/openlid/Terminal/passwordprompt; exactboundv3 final-unarmed
+name/path stays. <=50min incllogin:2.5GiBproof60s thenoriginal/candidate/freshreplay
+primary20R2/step1/0extra banks/120MAXobjectives, objective120/unit720/soft2280/hard2400/
+final120/collection600/total3000clocks+originalRSS4GiB/allocator7GiB/storage/science
+gates fixed. Laterless/refusalpossible/no fitpromise/actualearlyGPUcopy-RSSfit
+unqualified. NeveragentSSH/no retry-retrieval-oldcleanup-install-oldreset-extra/
+native-closedcohort-FP64-fulltrace-training. OnDone/error inspectBOUNDlocalATTEMPT/
+session/errors FIRST, never repeat/reset/infer success. Newgrant excludeshistorical
+allconsumed wording; oldv1/v2 failures/claims fixed. MechanismCLOSED/traininggated/
+policies/study/financialcaps+holds unchanged/no percentage-time estimate. User stages/
+commits/pushes. See report/checks/2026-11-23-pgd-workload-handoff-v3-arming.md.
+Earlier entries historical.
+
+November23: exact early-device PRIMARY v3 attendedscope/package prepared
+UNARMED and independently reviewed FIRSTPASS. Cleanusercommit8637118. Outer
+6e44d8bb315e3595333c70278c315a434c1fac2629018c0d2567db76dc02bcee/supervised
+0e2f47ad5ff915dfa3b7aad424bee5755cb621596263e5b95195dcc04a3ad82f/scopeJSON
+ed8cf2b713052f593410602a134cc2e4bc6f854febd618be9220f375e5e40d4b. Exactpath
+pgd-workload-handoff-v3-20261123/handoff-parent/linux10614-primary-v3-final-unarmed
+MUSTstayname/path.4private600files/700parents,noAUTH-ATTEMPT-session; device33/
+inode44965638/nlink6+fullparent/fourfileidentities saved.27inputs/17locals/18current
+source-config-testpins/55uploads896039B/47runtime450548B/original17.19MBpacket exact.
+Onepackage/twowrapperexecutions: initialstdlibplatformprobe refusedbeforeemission,
+thenonlywrapperpreloaded modules;no productionchange. ActualunarmedreaderPASS;
+0newtests,22binding+17prep+actualsmallCPU control inheritedNOTrerun. STDauditFIRSTPASS
+53211oldhashes/58581oldfixtures/6new/pins/inverses/scope-capidentityjoins;FIFO lstat
+only/deviceconditional/oldlifecycles exact/no project-test callbacks or arraydecode.
+Allhistory/indexsnapshots kept;seal sealed-workload-handoff-v3/liveindexesexcluded.
+Proposes ONE attended10614attempt proof2.5GiB60s thenoriginal/candidate/freshreplay
+PGD20R2/step1/0extra banks/120MAXinputgradients (<=15360candidateinitialinnerVJPs).
+Capsobjective120/unit720/soft2280/hard2400/final120/collection600/total3000incllogin,
+RSS4GiB/allocator7GiB/allstorage/source/call/ownership/science gates unchanged.
+Laterunitsmaygetless/refuse/no fitguarantee; actual earlyGPUtransfercopy/RSSfit still
+unqualified. Next request ONEexactfreshapproval then oneexclusiveAUTHappend with
+baseline/narrowdirappend review, realLOCALnewclientpreflight+independentarming review;
+onlythen ONEuserattendedcommand. No approval/arming/SSH/targetwork/commandnow, no
+manualpaste/retry/retrieval/oldcleanup. Alloldgrantsconsumed/v1unknown+v2proofPASS/
+preparationRSSFAIL preserved. MechanismCLOSED/traininggated/policies/study/financial
+caps+holds fixed/no percentage-time estimate. User stages/commits/pushes. See
+report/checks/2026-11-23-pgd-workload-handoff-v3-local-review.md and v3scope.md.
+Earlier entries historical.
+
 November23: separate v3 corrected client/factory/outer/CLI and localreadersv2
 bound/reviewed to unchanged early-device preparation55sources896039B/47runtime450548B,
 cache46,27inputs/17locals;supervised0e2f47ad5ff915dfa3b7aad424bee5755cb621596263e5b95195dcc04a3ad82f.
