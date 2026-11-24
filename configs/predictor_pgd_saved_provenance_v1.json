@@ -1,0 +1,86 @@
+{
+  "all_real_grants_consumed": true,
+  "budget_decision": "REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE",
+  "budget_gate_opened": false,
+  "classification": [
+    {
+      "dimension": "versions",
+      "finding": "Four exact fail-stop version predicates; genuine prior work inherited without rerun. No independent version/build output record in selected metadata.",
+      "status": "BOUND_SOURCE_REQUIREMENTS_AND_CONDITIONAL_ROUTE_INFERENCE"
+    },
+    {
+      "dimension": "interpreter_path",
+      "finding": "Warning paths name CPython3.11.17 and a virtual environment; paths are not executable hash, build flags, ABI or publisher provenance.",
+      "status": "SAVED_LOG_PATH_HINT"
+    },
+    {
+      "dimension": "application_source",
+      "finding": "55 project source descriptors896039B and nine supervisors join collection metadata; these do not identify external Torch/NumPy/CPython binaries.",
+      "status": "PROJECT_SOURCE_IDENTITIES_JOINED"
+    },
+    {
+      "dimension": "binary_artifacts",
+      "finding": "No filename match for declared library/build artifact patterns among237 collected names; no whole-machine or universal absence claim.",
+      "status": "MISSING_WITHIN_DECLARED_SAVED_CORPUS"
+    },
+    {
+      "dimension": "binary_source_build_join",
+      "finding": "Exact external executable/module/wheel digests, source/build IDs and origin joins are not captured by selected record schemas.",
+      "status": "UNJOINED"
+    },
+    {
+      "dimension": "hash_backend_provider",
+      "finding": "Hashlib backend type, OpenSSL version/provider and linked-library origin are not captured; source supports alternatives without selecting the actual target path.",
+      "status": "UNJOINED"
+    },
+    {
+      "dimension": "ABI_dispatch",
+      "finding": "Required version strings and architecture-bearing paths do not authenticate compiled ABI, build options, dispatch or trusted consumer behavior.",
+      "status": "UNJOINED"
+    },
+    {
+      "dimension": "release_sources",
+      "finding": "Pinned PyTorch/NumPy/CPython release source evidence is preserved separately; matching version spelling never joins deployed artifacts.",
+      "status": "UPSTREAM_ONLY"
+    },
+    {
+      "dimension": "runtime_graph_epoch",
+      "finding": "Historical v3 runtime47/450548B is bound to its failed attempt; current phase runtime48/481518B remains unexecuted. Do not infer current execution from old source receipts.",
+      "status": "DISTINCT_HISTORICAL_AND_CURRENT_GRAPHS"
+    },
+    {
+      "dimension": "scientific_status",
+      "finding": "Proof and31 gradient completions remain genuine prior evidence; whole units0, failure/partial/consumed/pending flags unchanged, transport verification separate.",
+      "status": "GENUINE_PRIOR_PARTIAL_WORK_PRESERVED"
+    }
+  ],
+  "collected_filename_coverage": 237,
+  "decision": "SAVED_CORPUS_DOES_NOT_JOIN_TARGET_BUILD_OR_HASH_BACKEND_COPY_ELISION_DEFERRED",
+  "execution_binding": null,
+  "existing_copies_fresh_hashes_state_digest_science_guards_caps_and_clocks_changed": false,
+  "kind": "saved-target-provenance-classification-decision-v1",
+  "maximum_new_attempts": 0,
+  "metadata_and_source_do_not_authenticate_deployed_binaries_or_actual_replay": true,
+  "new_target_observation_network_library_import_source_execution_or_old_cohort_repeat": false,
+  "old_failed_consumed_pending_flags_rewritten": false,
+  "old_partial_work_demoted_or_promoted": false,
+  "physical_target_build_backend_provider_ownership_or_performance_qualified": false,
+  "project_source_bytes": 896039,
+  "project_source_identity_joins": 55,
+  "raw_stage": "runs/pretrained/diagnostic/pgd-saved-provenance-v1-20261124",
+  "research_admitted": false,
+  "review_only": true,
+  "scope_package_grant_approval_request_launch_or_target_query_created": false,
+  "selected_input_files": 19,
+  "selected_metadata_schema_records": 8,
+  "source_version_predicates": {
+    "np.__version__": "2.4.6",
+    "platform.python_version()": "3.11.17",
+    "torch.__version__": "2.8.0+cu128",
+    "torch.version.cuda": "12.8"
+  },
+  "tensor_API_adapter_or_runtime_route_selected": false,
+  "tensor_packet_scientific_array_values_decoded_or_recalculated": false,
+  "training_admitted": false,
+  "training_percentage_or_time_estimate": null
+}

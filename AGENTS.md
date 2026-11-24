@@ -2,6 +2,74 @@
 
 ## Current stage
 
+LATEST November 24: SAVED TARGET PROVENANCE CLASSIFIED; NEW EVIDENCE REQUIRED.
+Read docs/predictor_pgd_saved_provenance_v1.md, saved_provenance config and
+report/checks/2026-11-24-pgd-saved-provenance-v1-local-review.json/md. Raw
+pgd-saved-provenance-v1-20261124; saved auditv1 PASS FIRST RUN. Starting clean
+faf8a15 after user's EXPRESS prior eightfile commit/push request completed with
+supplied title/numbereddescription; origin/main==HEAD. Default user stages/
+commits/pushes unless expressly requested; no further unrequested Git mutation.
+USER PREFERENCE: automatically include short clear commit title +NUMBERED
+description after eachbigstep. Preserve ALL source/test/auditor versions/fixtures/
+logs/failures/results/statuses/claims. All real grants CONSUMED. No operational
+scope/handoff/package/grant/approval request/launch command, target query/SSH/
+upload/retry/resume/retrieval/remote cleanup/GPU/proof/paid work/manual paste.
+
+LOCAL ONLY19fixed metadata-source inputs/snapshots,237collected names,55project
+sourcejoins896039B/nine supervisors/eight selectedmetadata schemas/four required
+versionpredicates/ten evidence dimensions. Source gate requires Python3.11.17/
+Torch2.8.0+cu128/CUDA12.8/NumPy2.4.6. Genuine prior progress +failstop route imply
+gate non-refusal conditionally; NOT binary/source/build/ABI attestation. Saved
+CPython3.11.17 path onlyHINT. Projectsource hashes NOT external binaryorigins.
+Declared key/name filters NOmatches, BOUNDED schema/spellings/corpus ONLY, NOT
+whole-machine/exhaustive semanticabsence. Actual binary/source/build/ABI and
+hashlib/OpenSSL/provider/dispatch joins UNAVAILABLE IN REVIEWEDCORPUS. Public
+release identity/version spelling never joins deployed artifacts. Copyelision
+DEFERRED/no tensor API/adapter/constructor/runtime route selected or adopted.
+
+Historical v3runtime47files450548B belongs to oldfailedattempt; currentphase48/
+481518B actualtarget execution NOT established, priorfake checks remain closed.
+Genuine old fullproof/31gradient completions INHERITED, notrerun/demoted/promoted;
+wholeunits0/candidate-replay notstarted. ATTEMPTconsumed/sessionFAILEDcompleteFALSE/
+completed[proof]/SSH1/terminal-streamFALSE/pendingTRUE all retained; separate
+transportTRUE never promotes science. No currentremote state or primarytrigger
+claim. BoundATTEMPT/session/errors inspectedFIRST. No raw scientific journals,
+packet/checkpoint/tensor/array/GPU/proof payload decoded or science recalculated.
+
+STD auditFIRSTPASS71434priorhashes/77921priorfixtures/20new/77941total/all19input-
+snapshot/237name/55source/8schema/4guard/status/classification joins. No classifier/
+project/harness/test/scientific callback or sourceexecution/value decode-recalc/
+process/clock/timer/GPU/proof/network IN AUDIT. Metadata/source/JSON/AST/FS/hash
+REAL. No libraryimport/install/model/tensor/gradient/worker/FileSink/ledger/
+benchmark/network/sourcefetch/new target observation or old passing/witness/
+scientific cohort repeat. Device29 priorFROZEN/no probe-remap-waiver/old target
+66307/four exact lifecycle exceptions fixed; FIFO LSTAT ONLY NEVER OPEN. Seal
+sealed-saved-provenance-v1.json; liveindexes excluded/exact before-after snapshots.
+Futuredevicechange newrecord/review, never remap. All prior claims/statuses fixed.
+
+NEXT INPUT REQUIREMENT per NEXT-PROVENANCE-EVIDENCE-GAP-v1.json: NEW exact offline
+artifact or savedprovenance record joining target executable/library digests,
+build/source origins and selected backend/provider +independent source review.
+DO NOT repeat this inventory, frozen source review or passing symbolic harness
+without newevidence. SAMECORPUS cannot close missingjoins; no new automatic
+target query/retrieval, binary download/install, scope/grant/approval request/
+launch or manualpaste. Metadata/source availability never admits execution.
+Actual provenance alone still needs physicalprivatecapture/writer-order/noescape/
+lifetime/exactbytes-refusals and matched completeunit timing/memory/replay/
+recovery/economics/calibration/data/protocol/training evidence. No alternate
+operational route chosen; existing copies/EVERY fresh hash/state_digest fixed.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; installedv5gate UNCONDITIONALLY CLOSED
+before protocolclock/ATTEMPT/connection. Graph56uploads936711B/runtime48files481518B/
+cache47/nine supervisors/270paths/control d997bf9e... unchanged. Objective120/unit720/
+setup180/proof60/soft2280-hard2400/final120/collection600/connection3000/RSS4GiB/
+allocator7GiB/allother caps fixed; no timeout/hardware/shortenedPGD-EOT/disabledguard/
+leanroute. All original science/native/hash/owner/durability/shutdown/Guard and
+continuing clocks fixed. Mechanism CLOSED/research-trainingFALSE. TrainingPGD5EOT1/
+routineEOT1/optimizerbackward/registry/studyYAML/financial200/160/40/single10caps+
+holds fixed; historicalsnapshots not currentquotes/balance. No training
+percentage/time estimate. Earlier entries historical.
+
 LATEST November 24: PINNED CONSUMER SOURCES REVIEWED; TARGET BUILD STILL UNJOINED.
 Read docs/predictor_pgd_buffer_consumer_source_v1.md, buffer_consumer_source config
 and report/checks/2026-11-24-pgd-buffer-consumer-source-v1-local-review.json/md.

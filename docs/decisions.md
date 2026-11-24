@@ -1459,3 +1459,27 @@ short clear title/numbered commit descriptions automatically after big steps.
 Next classify already-saved target provenance metadata locally, preserving
 failed/partial/consumed claims. All scientific/resource/clock/training/financial
 caps and holds stay fixed; no execution admission or training forecast follows.
+
+## 2026-11-24 — Saved provenance cannot supply missing external artifact joins
+
+The [saved-only classification](../report/checks/2026-11-24-pgd-saved-provenance-v1-local-review.md)
+checks19 fixed inputs,237 names/55 project-source joins and eight selected
+metadata schemas. Source-required versions and a CPython path hint support
+limited source/route inference. They do not join target external binaries,
+source/build origins, ABI or actual hashlib/OpenSSL/provider. Corpus/key/name
+limits are explicit; no whole-machine absence claim. Genuine prior proof/31
+gradient completions and all old failed/partial/pending/consumed flags remain.
+
+Auditv1 passes first run71434 prior hashes/77921 prior fixture entries/20 new,
+77941 total, without callbacks or science/value recalculation. No new network,
+target observation, source execution or old cohort repeat. Original copies,
+fresh hashes, graphs/guards/caps/clocks and closed budget gate are fixed. The
+prior consumer review was committed/pushed asfaf8a15 at explicit user request.
+
+Advancing this route needs NEW exact offline artifact or saved provenance that
+joins executable/library digests, build/source origins and selected backend/
+provider, with independent review. Do not repeat this classification/frozen
+sources/passing harness without new input. No automatic target query/retrieval,
+binary download/install, new scope/grant/launch or training estimate follows.
+Actual physical ownership/bytes/refusals/complete-unit evidence remains gated;
+all financial/training caps and holds fixed. Include commit messages automatically.

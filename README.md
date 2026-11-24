@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Saved target provenance classified; new evidence required (November24):**
+[The saved-only review](report/checks/2026-11-24-pgd-saved-provenance-v1-local-review.md)
+joins55 project sources and classifies19 inputs, preserving genuine prior partial
+work and all failed/consumed flags. Version predicates and path hints do not join
+external builds/ABI or the selected hash backend/provider. Copy elimination and
+training remain gated; no repeat of the same corpus/harness without new exact
+provenance evidence. Earlier entries historical.
+
 **Pinned consumer sources reviewed; copy elimination remains deferred (November24):**
 [The release-source review](report/checks/2026-11-24-pgd-buffer-consumer-source-v1-local-review.md)
 pins NumPy2.4.6 and CPython3.11.17 with17 source identities and20 anchored
