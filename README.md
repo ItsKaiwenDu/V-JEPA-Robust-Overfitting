@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Pinned consumer sources reviewed; copy elimination remains deferred (November24):**
+[The release-source review](report/checks/2026-11-24-pgd-buffer-consumer-source-v1-local-review.md)
+pins NumPy2.4.6 and CPython3.11.17 with17 source identities and20 anchored
+observations. Buffer retention/readonly and backend locking do not establish
+private immutable capture. Actual target build/backend/ownership and performance
+remain unqualified; copies/fresh hashes/closed gate stay fixed. Next classify
+already-saved target provenance metadata locally. Earlier entries historical.
+
 **Local symbolic snapshot harness passes32 cases first run (November24):**
 [The saved review](report/checks/2026-11-24-pgd-snapshot-symbolic-v1-local-review.md)
 checks76 frozen variants of ownership, lifetime, byte streams and failures with

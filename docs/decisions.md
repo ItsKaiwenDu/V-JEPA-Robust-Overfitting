@@ -1439,3 +1439,23 @@ evidence or a separate official-public-source task; no target work or new grant.
 Full units/replay/timing/memory/recovery/economics/calibration/data/protocol/
 training remain gated. User alone commits; automatically include a short clear
 title and numbered commit description after each big step as requested.
+
+## 2026-11-24 — Pinned consumer source evidence preserves copy-elision deferral
+
+The [source review](../report/checks/2026-11-24-pgd-buffer-consumer-source-v1-local-review.md)
+pins NumPyv2.4.6 and CPythonv3.11.17 annotated tags/commits and17 complete source/
+license files,577297B, with20 line/hash claims. NumPy bytes construction and
+buffer exports, Python readonly/exporter/release behavior and distinct OpenSSL/
+builtin hash paths clarify lifetime requirements. Actual backend/provider/build
+and physical ownership remain unjoined; no new tensor API/adapter is selected.
+Copies, every fresh hash and the closed gate remain fixed.
+
+Saved auditv1 passes first run on71347 prior hashes/77867 prior fixture entries
+and54 new,77921 total, without source execution or old cohort repeats. Public
+source-text retrieval is real; no library/binary install or target work occurs.
+The prior symbolic review was committed/pushed as6101136 at the user's explicit
+request before this separate step; further new work remains for review. Include
+short clear title/numbered commit descriptions automatically after big steps.
+Next classify already-saved target provenance metadata locally, preserving
+failed/partial/consumed claims. All scientific/resource/clock/training/financial
+caps and holds stay fixed; no execution admission or training forecast follows.

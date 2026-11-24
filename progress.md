@@ -1,5 +1,74 @@
 # Research Progress Reports
 
+LATEST November 24: PINNED CONSUMER SOURCES REVIEWED; TARGET BUILD STILL UNJOINED.
+Read docs/predictor_pgd_buffer_consumer_source_v1.md, buffer_consumer_source config
+and report/checks/2026-11-24-pgd-buffer-consumer-source-v1-local-review.json/md.
+Raw pgd-buffer-consumer-source-v1-20261124; saved auditv1 PASS FIRST RUN. Starting
+clean commit6101136 AFTER user's EXPRESS prior ninefile Git commit/push request
+completed with EXACT title/description, origin/main==HEAD. That explicit request
+overrode user-only Git instruction ONLY for completed operation; default user
+stages/commits/pushes for new work unless expressly requested. USER PREFERENCE:
+automatically include short clear commit title +NUMBERED description eachbigstep.
+Preserve ALL source/test/auditor versions/fixtures/logs/failures/results/status/
+claims. All real grants CONSUMED. No operational scope/handoff/package/grant/
+approval request/launch command, university query/SSH/upload/retry/resume/retrieval/
+remote cleanup/target/GPU/proof/paid work or repeated manual paste.
+
+User continue starts SEPARATE official public-source evidence step after push.
+Source-text network REAL; no binary package download/install/import/source exec.
+NumPyv2.4.6 tag65daff092ee0f3d92f166630d32d6b9c81d99343 ->commit
+b832a09cf2a169c833dd2371e7c07aa00b293242; CPythonv3.11.17 tag
+8e4c525dc9bcd1885bbf06f72c611124a7d26713 ->e6392eb68a39cef49c9fe6431253050caa17a426.
+Six API observations/two annotated-tag chains/17source-LICENSE files577297B/
+17reported Gitblob matches+SHA256/20line-rangehash claims. Signature status API
+observation ONLY, not independentverification/actual build provenance. NumPy
+project2.4.6/Pythonheader3.11.17 confirmedsource; version/build helper TEXT ONLY.
+
+Source: NumPy C-order tobytes copies viaPython bytes, exports describe existing
+memory/readonlyflags+arrayretention. Memoryviewreadonly shares managedbuffer,
+obj exposes exporter, release/export counts guard lifetime. Hash macros request
+simplebuffer; OpenSSL constructor/update CANreleaseGIL while consuming heldview;
+hashobject lock NOT inputwriter exclusion. BuiltinSHA256 bodies distinguished,
+no explicit thread-release macro there. Backend/provider/ABI/deployed build
+UNKNOWN; downstream noncontiguous/dtype delegation NOT full equivalence proof.
+COPYELISION DEFERRED/no tensor API/adapter/constructor/runtime route selected/
+emitted/adopted. Existing immutable copies/EVERY fresh hash/orderedstate_digest
+and sixlocalpins/fourAST unchanged. Source/metadata equality never proves actual
+ownership/writer exclusion/atomiccapture/dispatch/execution or completeunit fit.
+
+STD auditFIRSTPASS71347priorhashes/77867priorfixtures/54new/77921total/17sources/
+20claims/two tagchains/6pins/4AST. NO sourcebinder/inspectedsource/project/harness/
+test/scientific callbacks or tensor/scientificarray decode-recalc/process/clock/
+timer/GPU/proof/network IN AUDIT. No source fetch/binding failures. Source/API/
+JSON/AST/FS/hash work REAL. No Torch/NumPy/library import/model/tensor/gradient/
+worker/FileSink/ledger/workloadclock-timer-signal-PIDFD/target work. No prior
+32case symbolic harness/byte witness/benchmark/passing-closedscientific repeats.
+Device29 priorFROZEN/no probe-remap-waiver/old target66307/four exact lifecycle
+exceptions fixed; FIFO LSTAT ONLY NEVER OPEN. Prioractualv3proof/31of40partial/
+failed/consumedclaims fixed. Seal sealed-buffer-consumer-source-v1.json; live
+indexesexcluded/exact before-after snapshots. Futuredevicechange newrecord/review.
+
+NEXT SEPARATE LOCAL ONLY per NEXT-LOCAL-SAVED-PROVENANCE-REVIEW-v1.json: classify
+already-saved target session/source/runtime METADATA version declarations versus
+exact build/source/backend/provider origins and missing joins. No target query,
+new observation, source execution, packet/tensor decode or oldcohort repeat.
+Preserve ALL old failed/partial/consumed statuses; metadata equality cannot
+authenticate actual execution. Actualtarget build +physicalcapture/ownership/
+bytes/refusals and matched completeunit timing/memory/replay/recovery/economics/
+calibration/data/protocol/training still gated. No operational approval/scope/
+launch follows. Public source availability is not operational admission.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; installedv5gate UNCONDITIONALLY CLOSED
+before protocolclock/ATTEMPT/connection. Graph56uploads936711B/runtime48files481518B/
+cache47/nine supervisors/270paths/control d997bf9e... unchanged. Objective120/unit720/
+setup180/proof60/soft2280-hard2400/final120/collection600/connection3000/RSS4GiB/
+allocator7GiB/allother caps fixed; no timeout/hardware/shortenedPGD-EOT/disabledguard/
+leanroute. All original science/native/hash/owner/durability/shutdown/Guard and
+continuing clocks fixed. Mechanism CLOSED/research-trainingFALSE. TrainingPGD5EOT1/
+routineEOT1/optimizerbackward/registry/studyYAML/financial200/160/40/single10caps+
+holds fixed; historicalsnapshots not currentquotes/balance. No training
+percentage/time estimate. Earlier entries historical.
+
 LATEST November 24: SYMBOLIC SNAPSHOT HARNESS CHECKED; TARGET STILL UNQUALIFIED.
 Read docs/predictor_pgd_snapshot_symbolic_v1.md, snapshot_symbolic_cases config,
 new LOCAL model and report/checks/2026-11-24-pgd-snapshot-symbolic-v1-local-review.json/md.

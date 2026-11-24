@@ -1,0 +1,55 @@
+{
+  "OpenSSL_and_builtin_paths_distinguished_actual_backend_unknown": true,
+  "actual_target_build_or_physical_ownership_proven": false,
+  "all_real_grants_consumed": true,
+  "budget_decision": "REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE",
+  "budget_gate_opened": false,
+  "decision": "CONSUMER_RELEASE_SOURCES_REVIEWED_COPY_ELISION_STILL_DEFERRED",
+  "execution_binding": null,
+  "kind": "pinned-buffer-consumer-source-review-decision-v1",
+  "library_import_install_binary_download_source_execution_or_old_cohort_repeat": false,
+  "maximum_new_attempts": 0,
+  "numpy_project_version": "2.4.6",
+  "original_tobytes_copy_fresh_hashes_and_state_digest_contract_unchanged": true,
+  "public_official_source_text_retrieval_occurred": true,
+  "python_header_version": "3.11.17",
+  "raw_stage": "runs/pretrained/diagnostic/pgd-buffer-consumer-source-v1-20261124",
+  "readonly_buffer_or_retention_guarantees_private_snapshot": false,
+  "remaining_gaps": [
+    "Actual Torch/NumPy/CPython binary/source/build/ABI joins",
+    "Actual selected hashlib backend/OpenSSL/provider and trusted consumer behavior",
+    "Physical private capture, ordered writers/transfers, no writable escape and retained lifetime",
+    "Original complete dtype/layout/refusal equivalence including delegated unreviewed paths",
+    "Matched actual complete-unit timing/overhead/memory/fresh replay/recovery/economics/calibration/data/protocol admission"
+  ],
+  "research_admitted": false,
+  "review_only": true,
+  "science_guard_owner_hash_durability_clock_or_resource_caps_changed": false,
+  "scope_package_grant_approval_request_or_launch_created": false,
+  "source_bytes": 577297,
+  "source_claims": 20,
+  "source_families": {
+    "cpython": {
+      "annotated_tag": "8e4c525dc9bcd1885bbf06f72c611124a7d26713",
+      "commit": "e6392eb68a39cef49c9fe6431253050caa17a426",
+      "deployed_target_build_authenticated": false,
+      "reported_tag_signature_verified": true,
+      "tag": "v3.11.17",
+      "tag_or_commit_signature_independently_verified": false
+    },
+    "numpy": {
+      "annotated_tag": "65daff092ee0f3d92f166630d32d6b9c81d99343",
+      "commit": "b832a09cf2a169c833dd2371e7c07aa00b293242",
+      "deployed_target_build_authenticated": false,
+      "reported_tag_signature_verified": true,
+      "tag": "v2.4.6",
+      "tag_or_commit_signature_independently_verified": false
+    }
+  },
+  "source_files": 17,
+  "source_release_availability_is_not_target_build_backend_provider_or_ABI_authentication": true,
+  "target_SSH_query_upload_retry_resume_retrieval_cleanup_GPU_proof_or_paid_work": false,
+  "tensor_API_adapter_or_constructor_selected_emitted_or_adopted": false,
+  "training_admitted": false,
+  "training_percentage_or_time_estimate": null
+}
