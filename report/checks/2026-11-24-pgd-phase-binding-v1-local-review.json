@@ -1,0 +1,160 @@
+{
+  "actual_Torch_NumPy_model_gradient_GPU_proof_target_or_network_work": false,
+  "actual_performance_budget_fit_replay_memory_or_training_qualified": false,
+  "actual_performance_or_budget_fit_qualified": false,
+  "actual_scope_handoff_package_grant_approval_request_or_launch_command": false,
+  "all_OS_clock_process_PIDFD_signal_timer_GPU_proof_compute_and_positive_budget_ports_fake": true,
+  "all_original_client_functions_and_classes_AST_exact": true,
+  "all_outer_functions_and_classes_AST_exact": true,
+  "all_real_grants_consumed": true,
+  "bootstrap_and_scratch_exact_phase_supervisors": true,
+  "budget_decision": "REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE",
+  "cached_modules": 47,
+  "child_OSError_and_parent_child_exit_RuntimeError_preserved_separately": true,
+  "collection_original_functions_AST_exact_after_two_import_substitutions": true,
+  "complete_transports_independently_parsed_through_EOF": [
+    {
+      "case": "integrated-primary",
+      "client_outbound_equals_exact_outer_plus_server_input_and_one_original_archive": true,
+      "fake_budget_and_scientific_ports_only": true,
+      "files": 442,
+      "wire_bytes": 45384407,
+      "wire_sha256": "8febb29ac35b5d687e11226359831b62b77433bbace5496c5fa04b99896fb197"
+    },
+    {
+      "case": "integrated-phase-publish",
+      "client_outbound_equals_exact_outer_plus_server_input_and_one_original_archive": true,
+      "fake_budget_and_scientific_ports_only": true,
+      "files": 261,
+      "wire_bytes": 44808470,
+      "wire_sha256": "76f6e17024533240836cdbc5a335d93bb3be6c2810ee7ea2519f2c0bd4b014b7"
+    }
+  ],
+  "current_local_device": 16777229,
+  "current_v5_client_unconditionally_closed_before_protocol_clocks_attempt_connection": true,
+  "date": "2026-11-24",
+  "execution_binding": null,
+  "failed_current_worker_not_promoted_by_old_complete_marker": true,
+  "fake_proof_bytes": 0,
+  "fake_proof_passed": false,
+  "fake_worker_lifecycles_on_assertion_rerun": 0,
+  "first_run_fixture_setup_errors": 38,
+  "frozen_device_observation": "runs/pretrained/diagnostic/pgd-workload-shutdown-binding-v1-20261123/LOCAL-DEVICE-OBSERVATION-v1.json",
+  "generated_byte_inverses": 6,
+  "incomplete_session_work_partial_journal_flags_unchanged": true,
+  "independent_audit": "runs/pretrained/diagnostic/pgd-phase-binding-v1-20261124/independent-saved-review-v2.json",
+  "independent_audit_sha256": "13e0238ba15418ca017e667c339e6cd9fc9c0717ab9543d25a3f5e53b53eda72",
+  "independent_audit_v1_refusal": "AST expectation omitted two reviewed reader imports inside the frozen legacy scope",
+  "independent_audit_v2_correction": "Undo exactly those imports before original AST comparison; no source/test/fixture changes",
+  "independent_audit_versions": 2,
+  "input_pins": 23,
+  "installed_budget_unconditionally_closed_before_protocol_clock_attempt_or_connection": true,
+  "kind": "whole-pgd-phase-client-binding-local-review-v1",
+  "live_mutable_indexes_excluded_from_seal": [
+    "AGENTS.md",
+    "README.md",
+    "progress.md",
+    "docs/decisions.md"
+  ],
+  "local_phase_reader_and_appended_codec_wrapper_only": true,
+  "local_source_pins": 24,
+  "maximum_new_attempts": 0,
+  "mechanism_reopened": false,
+  "metadata_authenticates_execution": false,
+  "metadata_reservation_including_partials": 27705344,
+  "narrow_lifecycle_directory_exceptions": 4,
+  "new_collection_phase_metadata_is_byte_consistency_only": true,
+  "new_distinct_checks": 38,
+  "new_fake_worker_lifecycles": 2,
+  "new_fixture_entries_verified": 8784,
+  "new_volume_or_mount_probe": false,
+  "next_separate_local_requirements": "runs/pretrained/diagnostic/pgd-phase-binding-v1-20261124/NEXT-LOCAL-BUDGET-OPTIONS-v1.json",
+  "old_FIFO_lstat_only_never_opened": 1,
+  "old_or_target_device_remap": false,
+  "old_real_reader_refusal_inherited_not_repeated": true,
+  "old_v4_client_sources_and_consumed_packages_unchanged": true,
+  "ordinary_opaque_copies_and_two_16MiB_reserves_real_filesystem_work": true,
+  "passing_or_closed_scientific_cases_repeated": false,
+  "phase_scientific_shutdown_clocks_and_resource_caps_changed": false,
+  "previous_frozen_device_observation_used": true,
+  "primary_result_paths": 270,
+  "prior_actual_v3_failed_and_31_of_40_partial_unchanged": true,
+  "prior_fixture_entries_verified": 67786,
+  "prior_hashes_verified": 61703,
+  "production_changed_after_first_checks": false,
+  "production_source_hashes": {
+    "configs/predictor_pgd_phase_binding_inputs_v1.json": {
+      "bytes": 5249,
+      "sha256": "865c28b1c3f4023ab4d64f673f801966f0e9e62cd960b1e1cf704e17b64359ac"
+    },
+    "configs/predictor_pgd_phase_binding_v1.json": {
+      "bytes": 1001,
+      "sha256": "607f926f04f49072f82582f280fbeab63e39df028dbf32bf70c91a4af21bd536"
+    },
+    "models/predictor_pgd_phase_binding_records_v1.py": {
+      "bytes": 11094,
+      "sha256": "671d9c5b565393da00cde7f746ee979bc3f8b7c49536d18c0ea7bb99067ee9c8"
+    },
+    "models/predictor_pgd_phase_binding_v1.py": {
+      "bytes": 8849,
+      "sha256": "b648a7ed178c1d6071873f1d5eba9540a6d1a42940dab992b147cf5125b21d71"
+    },
+    "models/predictor_pgd_workload_bootstrap_v4.py": {
+      "bytes": 130037,
+      "sha256": "a906fd0c807f388b58a631bf54f953ee2c0cd93de234da05aa818f1ac03c0979"
+    },
+    "models/predictor_pgd_workload_collection_v4.py": {
+      "bytes": 60367,
+      "sha256": "acfff9baa839f2fc5114d60ab55f0704e868fb31ed40057019d842d088a5fe22"
+    },
+    "models/predictor_pgd_workload_handoff_client_v5.py": {
+      "bytes": 16539,
+      "sha256": "5731d72a33e39809d5ea28966bb7f9b0a80cc7d698e248586d9ba7baa6bf0f1b"
+    },
+    "models/predictor_pgd_workload_handoff_outer_v5.py": {
+      "bytes": 44263,
+      "sha256": "8d9c2150683d7014f5659262ef9abf879b8a5d7ea63b471176d012cd1930ec87"
+    },
+    "models/predictor_pgd_workload_scratch_v4.py": {
+      "bytes": 162586,
+      "sha256": "cd243f00a72b14021493edd3eae869623fc00b38daeef85d883ea49927ad8d2a"
+    },
+    "scripts/run_predictor_pgd_workload_handoff_v5.py": {
+      "bytes": 692,
+      "sha256": "2aa618b4d69550ec98d8d2ec5a0f69040e7d622475518249b3e4174a867321b7"
+    },
+    "tests/test_predictor_pgd_phase_binding_v1.py": {
+      "bytes": 19538,
+      "sha256": "047217324c6d88d30565ab83e3c815e8659a28bbb8e937ed1b260fb1b31fa857"
+    }
+  },
+  "project_test_scientific_subprocess_or_timer_callbacks_in_audit": false,
+  "raw_stage": "runs/pretrained/diagnostic/pgd-phase-binding-v1-20261124",
+  "real_filesystem_reserves": {
+    "bytes_each": 16777216,
+    "count": 2
+  },
+  "research_admitted": false,
+  "result": "PASS",
+  "runtime_bytes": 481518,
+  "runtime_files": 48,
+  "saved_failed_node_rerun_passed": 1,
+  "saved_phase_or_tree_mutation_checks": 13,
+  "saved_response_mutation_checks": 6,
+  "seal": "runs/pretrained/diagnostic/pgd-phase-binding-v1-20261124/sealed-phase-binding-v1.json",
+  "second_run_failed_assertions": 1,
+  "second_run_passed": 37,
+  "source_control_sha256": "d997bf9ed74c8ebf4504a5e6214a35e28365f85e9da3d7738a5b58f5edaa9f29",
+  "source_manifest_sha256": "9a84c7048d7b5e4c2d285cad2aa6dac9907bf9fa18bf9e9f6290df33ef06b998",
+  "starting_clean_user_commit": "df9e61b8c217ece867149e8e43d7ffe83e544ea9",
+  "supervisor_slots": 9,
+  "tensor_decoding_or_scientific_recalculation_in_audit": false,
+  "test_expectation_and_runner_only_corrected": true,
+  "total_check_executions": 77,
+  "total_preserved_fixture_entries": 76570,
+  "training_admitted": false,
+  "training_percentage_or_time_estimate": null,
+  "uploaded_bytes": 936711,
+  "uploaded_sources": 56,
+  "user_alone_stages_commits_pushes": true
+}

@@ -2,6 +2,155 @@
 
 ## Current stage
 
+LATEST November 24: COMPLETE-UNIT BUDGET OPTIONS REVIEWED; NO FIT QUALIFIED.
+Read docs/predictor_pgd_budget_options_v1.md, configs/predictor_pgd_budget_options_v1.json
+and report/checks/2026-11-24-pgd-budget-options-v1-local-review.json/md.
+Raw pgd-budget-options-v1-20261124; independent saved audit v1 PASS FIRST RUN.
+HEADdf9e61b unchanged; prior phase-binding work STILL UNCOMMITTED and PRESERVED.
+User stages/commits/pushes NEVER agent. Preserve ALL sources/tests/auditors/
+fixtures/logs/failures/results/statuses/claims. All real grants CONSUMED. No actual
+scope/handoff/package/grant/approval request/launch command, SSH/query/upload/
+retry/resume/retrieval/remote cleanup/target/GPU/proof/paid work or repeated manual
+paste is authorized. This stage is source/AST/metadata/integer arithmetic ONLY.
+
+18wholefilepins/14functionASTanchors/seven reviewed options. No production/runtime/
+client/budget/scientific/phase source changed; new config is REVIEW ONLY. Bound
+graph56uploads936711B/runtime48files481518B/cache47/nine supervisors/270paths/control
+d997bf9ed74c8ebf4504a5e6214a35e28365f85e9da3d7738a5b58f5edaa9f29 unchanged.
+All ownership/hashing/native/PGD-EOT/scoring/restoration/durable-journal/proof/
+monitor/scanner/Guard/resource/clock caps fixed. No new graph or port invoked.
+Objective120/unit720/setup180/proof60/soft2280-hard2400/final120/collection600/
+connection3000/RSS4GiB/allocator7GiB/storage/process/thread/sample caps unchanged.
+
+Coordinator computes later=sum(...) but ZERO loads of later: DOES NOT reserve
+future full windows. Deadline=min(start+role_ceiling,work_deadline-120). All design
+ceilings180+60+3*720=2400 exceed soft2280; three windows leave120 for setup/proof/
+gaps vs their ceilings240. Limiting zero-gap symbolic offsets proof180->240,
+original240->960,candidate960->1680,replay1680->2280 gives600 last window. NOT a
+runnable schedule/measurement/forecast/lowerbound; exactdeadline would refuse.
+This does NOT prove every shorter actual run impossible; actual complete fit
+remains UNQUALIFIED. No old partial-context extrapolation or proof reuse adopted.
+Parent envelopes govern admission; nested child phases not summed, no parent/
+child or old/new epoch subtraction, all inclusions/exclusions unchanged.
+
+Reject cached tensorhash/version-only checks, batchedfsync/movedendpoints,
+skippedprefix readback, sharedworker/model/replay state and cap/reservation as
+speed solution. Directmutable tensorview DEFERRED: no equivalence proof for
+original tobytes snapshot lifetime/coherency. One narrow source candidate is
+eligible ONLY for separate LOCAL BYTE PROTOTYPE: reuse first immutable canonical
+phase-row encoding, currently serialized twice around row_sha256 insertion.
+Ranked by narrow semantics NOT expected speed. Parsing/copy/bookkeeping can erase
+benefit or slow it; no measured dominantcost/netbenefit/budgetsolution claimed.
+Candidate NOT implemented/emitted/bound/adopted. Existing FileSink still TWO full
+prefix read/hash checks per append plus ONE at receipt; static loose bound
+(2*384+1)*524288=403177472B perledger, NOT elapsedoverhead/throughput/target work.
+
+Zero projecttests/fakeworker lifecycles/scientific callbacks/tensor or array
+decode/recalc. Zero actual OR fake clock/timer/process/PIDFD/signal/GPU/proof
+ports; no target/network/oracle/trace/closedcohort repeat. Ordinary metadata FS/
+hash/AST work REAL. Saved STD audit FIRSTPASS69854priorhashes/76570priorfixtures/
+18pins/14ASTanchors/options/arithmetic/closedgate/indexpreservation. No project/
+test/subprocess/scientific callbacks IN AUDIT. HistoricalFIFO LSTAT ONLY NEVER
+OPEN. Current16777229 via prior FROZEN observation; no newprobe/remap/waiver;
+old/target66307 gates and four exact directory exceptions fixed. Future device
+change needs new record/review. All old actualv3 proof+31/40partial+failure and
+consumed packages fixed. Seal sealed-budget-options-v1.json; live mutable indexes
+excluded/exact before-after snapshots. No new fixtures; total76570 unchanged.
+
+NEXT SEPARATE LOCAL ONLY per NEXT-LOCAL-ENCODING-BYTE-PROTOTYPE-v1.json: stdlib
+synthetic canonical-byte equivalence prototype with baseline/candidate versions
+and full inverses. Preserve prehash bytes INCLUDING newline, SHA256, finalrow
+bytes, nested/Unicode/escaping/role-like strings and invalid/nonfinite refusals;
+NO unchecked substring replacement. Keep all prefixchecks/fsync/anchors/bounds/
+durableordering/timers/endpoints/cleanup/primaryerrors. No actual model/Torch/
+NumPy/scientific/worker work; no runtime/client/graph/package/grant/gate change.
+Byte equivalence alone is NOT performance qualification. Actual budget solution
+requires separate source review and matched completeunit evidence, never flags.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; installed v5 gate UNCONDITIONALLY
+CLOSED before protocolclock/ATTEMPT/connection. No timeout/hardware/shorterPGD-EOT/
+disabledguard/leanroute adopted. Actual units/freshreplay/timing-overhead/memory/
+recovery/economics/calibration/data/protocol/training gated. Mechanism CLOSED/
+research-trainingFALSE. TrainingPGD5EOT1/routineEOT1/optimizerbackward/registry/
+studyYAML and financial200/160/40/single10caps+holds fixed; historical snapshots
+not currentquotes/balance. No training percentage/time estimate.
+Earlier entries historical.
+
+LATEST November 24: PHASE CLIENT/READERS BOUND LOCALLY; BUDGET STILL CLOSED.
+Read docs/predictor_pgd_phase_binding_v1.md, phase_binding design/inputs_v1 and
+report/checks/2026-11-24-pgd-phase-binding-v1-local-review.json/md.
+Raw pgd-phase-binding-v1-20261124; independent saved audit v2 PASS. Starting clean
+user commitdf9e61b. User stages/commits/pushes NEVER agent. Preserve ALL source/
+test/auditor versions, fixtures/logs/failures/results/statuses/claims. All real
+grants CONSUMED. No actual scope/handoff/package/grant/approval request/launch
+command, SSH/query/upload/retry/resume/retrieval/remote cleanup/target/GPU/proof/
+paid work or repeated manual paste is authorized by this local stage.
+
+Separate v5 outer/client/CLI +v4 bootstrap/scratch/collection; factory definitions
+ONLY, NO material/scope/package/authorization/launch API.23 inputpins/24localpins/
+6fullbyteinverses. Every outer function/class AST exact phase outer; every client
+function/class AST exact closed v4 incl original budget wrapper. Client ONLY3
+dependencyimports/CLI ONLYnewclientimport. Local boot/scratch exact supervisors;
+codec ONLY2readerimports +appended local metadata wrapper; original functions AST
+exact after those imports. New read-only anchored phase-byte reader is LOCALONLY.
+Uploaded56sources936711B/runtime48files481518B/cache47/nine supervisors/270primary
+paths/control d997bf9ed74c8ebf4504a5e6214a35e28365f85e9da3d7738a5b58f5edaa9f29
+UNCHANGED. All phase/scientific/preparation/native/ownership/hashing/shutdown/
+monitor/proof/scanner/assessment/Guard/resource bytes and original clocks fixed.
+Objective120/unit720/setup180/proof60/soft2280-hard2400/final120/collection600/
+connection3000/RSS4GiB/allocator7GiB/storage/process/thread/sample caps unchanged;
+metadata reservation incl partials27705344B. No target module/path added.
+
+Local phase checks AFTER original codec terminalEOF/byte verification; same
+continuing collection window, no new timer/allowance. Held/named private same-
+device single-link metadata files joined to transport extent/hash/nsmtime.
+Completed roles require phase hashchains/owner/domain/plan/source/deadline/counts/
+exclusions +parent PID/startticks/exit/work marker joins; whole parent requires
+parent summary/journal/outer setup. Failed unfinished worker remains incomplete,
+NOT forced to invent summary. Old worker completeTRUE/missing phase summary/
+FAILED parent all retained; childOSError vs parentRuntimeError separate. Separate
+phase_metadata receipt is byte consistency ONLY; execution/science/performance/
+training FALSE. TransportTRUE never promotes failed/work/partial/journal flags.
+
+38distinct new checks finalPASS/77executions: first38 fixtureSETUP errors from
+missing runner evidence root, zero worker work; runnerONLYfix then37PASS/1wrong
+parent-vs-child exception assertion. ONLYtest expectation/readback fixed; ONLY
+failednode rerun1PASS USING SAVED transcript, zero newworkers. Production unchanged
+after firstchecks; no passing/closed scientific case repeated. All histories kept.
+Two FAKE lifecycles: complete4roles and phase-summary-publication failure; two
+complete rawstreams442/261files +19 saved-only negatives (8phase/5tree-window/
+6wire). Successfulworkers each200rows/40contexts/42selection/6score. All science/
+compute/OS/process/PIDFD/signal/timer/clock/GPU/proof/positivebudget ports FAKE;
+positivebudget ONLYprivate namespaces. Installed gate NEVER opened. Fakeproof
+FALSE/zeroB/prior realreader refusal inherited. Two16MiB reserves+opaque copies
+REAL FS. No actualTorch/NumPy/model/gradient/target/GPU/proof/network/oracle/trace
+or old cohort repeats; actualv3 proof+31/40partial+failed/consumed claims fixed.
+
+Standalone STD auditv1 refused wrong AST expectation omitting two reader imports
+inside frozenlegacy function; ONLYauditor comparison corrected. v2PASS61703 prior
+hashes/67786 priorfixtures/8784new/23pins/24locals/6inverses/ASTs/history/two full
+wire joins +exactoutbound/serverinput/ONEoriginalpacket/EOF. No project/test/
+scientific callbacks/tensor decode-recalc/subprocess/signals/timers/GPU/proof/
+network IN AUDIT. HistoricalFIFO LSTAT ONLY NEVER OPEN. Current16777229 via prior
+FROZEN observation; no new probe/remap/waiver, old/target66307 gates and four exact
+directory exceptions fixed. Any later device change requires new record/review.
+Seal sealed-phase-binding-v1.json; mutable indexes excluded/before-after snapshots.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE unchanged; installed v5client/gate
+UNCONDITIONALLY CLOSED before protocolclock/ATTEMPT/connection. Three full720
+windows+setup/proof ceilings exceed soft2280; new binding/metadata qualifies NO
+actual performance, fit or budget solution. NEXT SEPARATE LOCAL ONLY per
+NEXT-LOCAL-BUDGET-OPTIONS-v1.json: review concrete source-level complete-unit budget
+options using bound matched phase definitions and fixed scientific/resource/
+clock guards. No alternative route/timeout/hardware/shorterPGD-EOT/disabledguard/
+leanroute adopted; no scope/approval/retry/wideningv3. Future solution needs new
+source review, never flags/grants/CLI. Actual units/freshreplay/timing-overhead/
+memory/recovery/economics/calibration/data/protocol/training stillgated. Mechanism
+CLOSED/research-trainingFALSE. TrainingPGD5EOT1/routineEOT1/optimizerbackward/
+registry/studyYAML and financial200/160/40/single10caps+holds fixed; old snapshots
+historical not freshquotes/balance. No training percentage/time estimate.
+Earlier entries historical.
+
 LATEST November 23: GUARDED PHASE ACCOUNTING REVIEWED LOCALLY; UNBOUND.
 Read docs/predictor_pgd_phase_accounting_v1.md, phase accounting design/inputs_v2
 and report/checks/2026-11-23-pgd-workload-phase-accounting-v1-local-review.json/md.

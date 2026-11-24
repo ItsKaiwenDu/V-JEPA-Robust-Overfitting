@@ -1,5 +1,21 @@
 # V-JEPA Robust Overfitting
 
+**Complete-unit budget options reviewed; no fit qualified (November 24):**
+[Seven source-level options were reviewed and independently audited](report/checks/2026-11-24-pgd-budget-options-v1-local-review.md).
+The current source reserves no full windows for later roles, and all ceilings
+cannot fit together. This is not a forecast of actual duration. Required guards
+and the closed budget gate stay fixed. Next is one narrow local canonical-byte
+prototype, with no worker or performance claim. Prior binding changes remain
+uncommitted and preserved. Earlier entries are historical snapshots.
+
+**Phase client/readers bound locally; budget stays closed (November 24):**
+[The new v5 client and v4 readers pass 38 distinct checks](report/checks/2026-11-24-pgd-phase-binding-v1-local-review.md).
+They bind the unchanged phase graph and check completed-role phase bytes after
+transport verification. Two fake lifecycles preserve complete and failed evidence;
+saved-only checks repeat no worker work. Actual performance remains unqualified.
+Next review complete-unit budget options locally under the fixed scientific and
+resource guards. All real grants remain consumed. Earlier entries are historical.
+
 **Guarded phase accounting reviewed locally; budget stays closed (November 23):**
 [All 24 new checks and the independent audit passed first run](report/checks/2026-11-23-pgd-workload-phase-accounting-v1-local-review.md).
 The separate unbound runtime includes original context journal/timer exit and

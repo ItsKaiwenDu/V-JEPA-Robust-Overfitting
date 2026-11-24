@@ -1238,3 +1238,44 @@ This instrumentation does not solve the rejected full-unit budget or authorize
 a scope, approval request or launch. Keep policies, study and finances fixed.
 See [review](../report/checks/2026-11-23-pgd-workload-phase-accounting-v1-local-review.md)
 and [phase boundaries](predictor_pgd_phase_accounting_v1.md).
+
+## 2026-11-24 — Bind completed-role phase metadata while keeping budget admission closed
+
+Bind separate v5 client/outer/CLI and v4 local readers to the unchanged phase
+graph. Preserve original client/protocol/codec bodies through exact inverses;
+append local completed-role phase-byte joins after transport EOF under the same
+collection window. Preserve failed/incomplete evidence and separate child errors,
+parent errors, transport verification and scientific qualification.
+
+All38 distinct checks pass over77 executions. Preserve the initial38 runner setup
+errors, the one incorrect parent-versus-child error assertion and auditv1's two-
+import AST expectation error. Corrections affect runner/test/auditor only; no
+passing scientific check or worker lifecycle repeats. Two new fake integrated
+flows and nineteen saved-only negatives qualify local binding, not performance.
+
+Keep the installed budget gate unconditionally closed. Next review concrete
+source-level complete-unit budget options using bound phase definitions, fixed
+scientific work and original resource/deadline guards. No route alternative,
+scope, approval request or launch command is adopted here. See
+[review](../report/checks/2026-11-24-pgd-phase-binding-v1-local-review.md) and
+[binding details](predictor_pgd_phase_binding_v1.md).
+
+## 2026-11-24 — Reject guard shortcuts and separate byte equivalence from budget fit
+
+Review seven concrete source-level options without changing runtime/client/
+scientific sources or the closed budget version. The unused later-role sum does
+not reserve future windows. All ceilings cannot fit together; limiting arithmetic
+does not predict actual duration or prove every shorter run impossible.
+
+Reject cached hashes, skipped prefix checks, weaker durability, shared worker/
+replay state and cap expansion. Defer direct mutable-view hashing without an
+equivalence proof. Retain one narrow canonical-row encoding reuse idea for a
+separate stdlib synthetic byte prototype, preserving exact hash inputs/newlines,
+final bytes, guards and errors. Added bookkeeping could erase any benefit.
+
+The first-run independent source audit passes; no project test, fake worker,
+scientific callback or target work runs. Preserve prior uncommitted binding and
+all history. No candidate is implemented/adopted and no performance is qualified.
+Keep admission closed pending separately reviewed complete-unit evidence. See
+[review](../report/checks/2026-11-24-pgd-budget-options-v1-local-review.md) and
+[source options](predictor_pgd_budget_options_v1.md).

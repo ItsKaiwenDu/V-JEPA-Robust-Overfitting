@@ -1,5 +1,64 @@
 # Research Progress Reports
 
+November24: completeunit budget options reviewed LOCALLY/source-only. No fit
+qualified; no runtime/client/scientific/budget source changed.18wholefilepins/
+14ASTanchors/sevenoptions. Unused later=sum gives no future fullwindow reservation;
+deadline=min(start+role_ceiling,hardwork-120). Ceilings180+60+3*720=2400 exceed
+soft2280; limiting zero-gap replaywindow600 NOT runnable/forecast/measurement/
+lowerbound. Does not prove every shorter actual run impossible; actualfit unknown.
+Cachedhash/version-only/skippedprefix/batchedfsync/movedendpoints/sharedworker-
+model-replay/capextension rejected; directmutable tensorview equivalence unproved.
+Only narrow candidate for separateLOCALbyteprototype: reuse immutable canonical
+phase-row encoding around row_sha256. RequirementsONLY/notimplemented/emitted/
+bound/adopted/no measured benefit. All byteguards/fsync/clocks/endpoints/ownership
+and science preserved; parsercost could erase any benefit. Prefixchecks2perappend
++1receipt; loose403177472B bound NOT time/throughput. Zero projecttests/fakeworker/
+scientific/tensor-array decode/recalc/actualORfakeclock-process-timer-GPU-proof
+ports/target/network/oldcohort repeat. OrdinarymetadataFS/AST/hash work REAL.
+STD saved auditFIRSTPASS69854priorhashes/76570priorfixtures/18pins/14AST/options/
+arithmetic/closedgate/history. FIFO LSTAT ONLY/device29priorfrozen/no probe-remap/
+four exact lifecycleexceptions. Priorbinding UNCOMMITTED preserved/HEADdf9e61b;
+all old sources/failures/actualv3proof+31/40partial/claims fixed. Seal
+sealed-budget-options-v1.json; liveindexesexcluded/exact snapshots/no newfixtures.
+NEXT separateLOCAL canonical-byte equivalence prototype per savedcontract; no
+current runtime/client/graph/package/grant/gate change. BUDGETreject gateCLOSED;
+source review+actualmatchedcompleteunit evidence stillneeded. All fixedcaps/
+science/policies/study/financialholds unchanged/mechanismCLOSED/trainingFALSE/
+no percentage-time estimate. User alone stages/commits/pushes. See
+report/checks/2026-11-24-pgd-budget-options-v1-local-review.json/md and
+docs/predictor_pgd_budget_options_v1.md. Earlier entries historical.
+
+November24: separate v5outer/client/CLI +v4readers bound LOCALLY to committed
+phase accounting.23inputpins/24localpins/6inverses; outer/client functions ASTexact,
+CLI importonly, boot/scratch exact; codec2imports+local phase-byte wrapper. New
+read-only anchored reader joins completedphase source-plan/owner/deadline/counts/
+parent identities AFTER original transportEOF within samecollectionwindow.
+Failed unfinishedworker/oldcompleteTRUE/missingphase/failedparent preserved; child
+OSError vs parentRuntimeError distinct. Metadata/transport never science or fit.
+Graph56uploads936711B/runtime48/481518B/cache47/nine supervisors/270paths/control
+d997bf9e.../metadata reservation27705344B unchanged; all science/phase/shutdown/
+resource clocks/caps fixed.38distinct checks PASS/77exec:38initial runnerSETUP
+errors/zero workerwork; runnerfix37PASS+1wrongassertion; assertion/readback-only
+fix singlefailednode PASS on SAVED transcript/zero newworkers. Production unchanged
+after checks/no passing or closedscientific repeats. Two FAKE lifecycles/two
+442-261file rawstreams +19savednegatives; fakeproofFALSE/0B. All science/OS/clock/
+timer/proof/GPU/budgetpositive ports FAKE; two16MiB reserves+opaque copies REAL FS.
+STD auditv1 wrongAST expectation retained; auditor-only2import normalization fix,
+v2PASS61703priorhashes/67786priorfixtures/8784new/23pins/24locals/6inverses/ASTs/
+history/fullwire+outbound/server/ONEoriginalarchiveEOF joins. No actualscience/
+target/network/proof or callbacks/tensorcalcs/OSwork in audit. FIFO LSTAT ONLY/
+device29priorfrozenobservation/no probe-remap/four exact lifecycleexceptions.
+Seal sealed-phase-binding-v1.json; indexes snapshots retained. Actualv3 partial
+31/40+failed+consumed grants unchanged. Budget REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE,
+installedv5 CLOSED beforeclock/ATTEMPT/connection; fullunit timing/fit unqualified.
+NEXT separate LOCAL source-level completeunit budget options review under fixed
+science/caps/matchedphase definitions; no route/timeout/hardware/science shortcut
+adopted/no scope-approval-command-remote work. Mechanism CLOSED/all policies/
+study/financial caps+holds fixed/research-trainingFALSE/no percentage-time estimate.
+User alone stages/commits/pushes. See
+report/checks/2026-11-24-pgd-phase-binding-v1-local-review.json/md and
+docs/predictor_pgd_phase_binding_v1.md. Earlier entries historical.
+
 November23: guarded whole-PGD phase accounting implemented/reviewed LOCALLY,
 UNBOUND.24distinct checks PASS FIRST RUN/24exec; independent saved audit v1 PASS
 FIRST RUN. Two cold builds pass before tests; all pre-check v1 sources/inputs/

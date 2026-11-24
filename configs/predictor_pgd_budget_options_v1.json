@@ -1,0 +1,75 @@
+{
+  "actual_complete_units_replay_timing_overhead_memory_or_performance_qualified": false,
+  "actual_target_network_GPU_proof_or_paid_work": false,
+  "all_real_grants_consumed": true,
+  "budget_decision": "REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE",
+  "candidate_implemented_or_emitted_or_bound_or_adopted": false,
+  "execution_binding": null,
+  "existing_budget_gate_changed_or_opened": false,
+  "kind": "whole-pgd-local-budget-options-review-v1",
+  "maximum_new_attempts": 0,
+  "options": [
+    {
+      "decision": "REJECT_GUARD_CHANGE",
+      "id": "cache-fixed-tensor-hashes",
+      "reason": "Would remove required fresh byte observations. Object/version equality is not a substitute for the existing byte guard.",
+      "source": "Snapshot.check"
+    },
+    {
+      "decision": "REJECT_DURABILITY_OR_ACCOUNTING_CHANGE",
+      "id": "batch-journal-fsync-or-move-endpoints",
+      "reason": "Would change durable-start/completion publication or exclude work that the new interval explicitly includes.",
+      "source": "FileSink.append / OwnedStep.__exit__"
+    },
+    {
+      "decision": "REJECT_TAMPER_WINDOW_CHANGE",
+      "id": "skip-prefix-readback",
+      "reason": "The pre-append and post-append observations protect different windows; an earlier digest cannot replace a current full-byte check.",
+      "source": "FileSink.check / FileSink.append"
+    },
+    {
+      "decision": "REJECT_FRESH_OWNERSHIP_CHANGE",
+      "id": "reuse-worker-model-or-replay-state",
+      "reason": "Would change distinct fresh child, preparation, RNG/mode or replay semantics rather than establish the current complete-unit fit.",
+      "source": "Coordinator.run_work / run_prepared"
+    },
+    {
+      "decision": "DEFER_NO_EQUIVALENCE_PROOF",
+      "id": "direct-mutable-view-tensor-hashing",
+      "reason": "Removing the original tobytes snapshot changes the buffer lifetime/coherency argument. No proof or measurement qualifies that replacement here.",
+      "source": "tensor_hash"
+    },
+    {
+      "decision": "REJECT_AS_PERFORMANCE_SOLUTION",
+      "id": "reserve-later-windows-or-extend-caps",
+      "reason": "Reserving future ceilings cannot make 2400 seconds of ceilings fit before2280. Caps cannot be widened and source currently promises no later full window.",
+      "source": "Coordinator.run_work"
+    },
+    {
+      "benefit_claim": "Potentially removes duplicate JSON serialization; no net CPU, memory or complete-unit benefit measured or guaranteed.",
+      "decision": "ELIGIBLE_FOR_SEPARATE_LOCAL_BYTE_PROTOTYPE_ONLY",
+      "id": "reuse-immutable-canonical-phase-encoding",
+      "not_a_budget_solution": true,
+      "reason": "The current row is serialized before its hash and again after adding that hash. A source-specific byte construction could reuse the first immutable canonical encoding while preserving both exact byte strings.",
+      "source": "PhaseLedger.record / enc"
+    }
+  ],
+  "other_guard_science_or_cap_change_adopted": false,
+  "project_tests_or_scientific_cases_executed": 0,
+  "required_prototype_contract": [
+    "Use stdlib synthetic metadata only; no model/tensor/NumPy/Torch/scientific cohort or worker lifecycle.",
+    "Preserve exact original prehash canonical bytes INCLUDING the final newline, row SHA256 and final canonical journal bytes.",
+    "Treat nested objects, Unicode/escaping, malicious role-like text and nonfinite/invalid inputs explicitly; never use unchecked substring replacement.",
+    "Preserve both full-prefix readbacks, row/file/hash/identity bounds, fsync, durable ordering, clocks, endpoints, mandatory cleanup and primary error semantics.",
+    "Retain baseline and candidate sources and complete byte inverses; do not modify existing runtime/client/source graph or budget admission.",
+    "Any parser/copy/bookkeeping cost is real work; count no assumed time saving and claim no actual fit from synthetic bytes."
+  ],
+  "research_admitted": false,
+  "review_only": true,
+  "scope_preparation_allowed": false,
+  "source_facts": "runs/pretrained/diagnostic/pgd-budget-options-v1-20261124/SOURCE-FACTS-v1.json",
+  "source_facts_sha256": "efa1310c908842dcc92be917a1d5e347eb1d5831ff53d007b4ad1d4949b7f5c5",
+  "source_level_candidate_for_next_separate_local_review": "reuse-immutable-canonical-phase-encoding",
+  "training_admitted": false,
+  "training_percentage_or_time_estimate": null
+}

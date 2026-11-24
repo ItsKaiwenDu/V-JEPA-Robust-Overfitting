@@ -1,0 +1,112 @@
+{
+  "execution_binding": null,
+  "files": {
+    "configs/predictor_pgd_phase_accounting_inputs_v1.json": {
+      "bytes": 3063,
+      "sha256": "b4782bd91ee684a322dedf862c4169e8ecd28af7218e5ce5ba5d9d9fc2359019"
+    },
+    "configs/predictor_pgd_phase_accounting_inputs_v2.json": {
+      "bytes": 3063,
+      "sha256": "005e7809c66f5035968a5e0a03e926e61fd0222429b010c9654539dad8f8c92f"
+    },
+    "configs/predictor_pgd_phase_accounting_v1.json": {
+      "bytes": 2423,
+      "sha256": "7434ab3c464d828210570782e9f991e5d2d23247a4a72daa255a7b11eb01460d"
+    },
+    "configs/predictor_pgd_phase_binding_v1.json": {
+      "bytes": 1001,
+      "sha256": "607f926f04f49072f82582f280fbeab63e39df028dbf32bf70c91a4af21bd536"
+    },
+    "configs/predictor_pgd_workload_budget_v1.json": {
+      "bytes": 1480,
+      "sha256": "d0f131f0f996ba20b1498d3a519586d175d4178723ec68f679d2cc92d85efc7e"
+    },
+    "configs/predictor_pgd_workload_shutdown_inputs_v1.json": {
+      "bytes": 2314,
+      "sha256": "acde7da70e989e8c72eb890ef7e9a11e68617ab98eaf141ef27db11f43380a2c"
+    },
+    "configs/predictor_pgd_workload_shutdown_v1.json": {
+      "bytes": 1755,
+      "sha256": "c984364fd0f387250ba084d36d830c49d299c9ff6471d901d12cc296bfcef8d0"
+    },
+    "models/__init__.py": {
+      "bytes": 86,
+      "sha256": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5"
+    },
+    "models/predictor_pgd_phase_accounting_build_v1.py": {
+      "bytes": 21030,
+      "sha256": "5c980ccc96530b19c710f619d591f8ef0b78f0060053775e4d356da056356a86"
+    },
+    "models/predictor_pgd_phase_accounting_v1.py": {
+      "bytes": 23801,
+      "sha256": "e4feced7309506b3e3363682e5a8456c631cecbe5c6a9ea063459c588123c853"
+    },
+    "models/predictor_pgd_phase_binding_records_v1.py": {
+      "bytes": 11094,
+      "sha256": "671d9c5b565393da00cde7f746ee979bc3f8b7c49536d18c0ea7bb99067ee9c8"
+    },
+    "models/predictor_pgd_split_plan_v1.py": {
+      "bytes": 15697,
+      "sha256": "cdd2729d2f05782d269a45aa4c22412dcff7b9c5d684267550eb16f59c838ba6"
+    },
+    "models/predictor_pgd_workload_budget_v1.py": {
+      "bytes": 476,
+      "sha256": "2700c1bb4a18578d4a689a4dc13952279e879cbf19ccd0319a8e67b6e63a6398"
+    },
+    "models/predictor_pgd_workload_handoff_client_v4.py": {
+      "bytes": 16539,
+      "sha256": "f1ff2ac9dab8ab88b84ccf038673be8047850d32661706a01a9a4268cf86ef1b"
+    },
+    "models/predictor_pgd_workload_os_v1.py": {
+      "bytes": 15436,
+      "sha256": "da15f2bbcf641156af2f4748653f6d617689068f7fb9d03dd7073a7def2b0ca9"
+    },
+    "models/predictor_pgd_workload_shutdown_logic_v1.py": {
+      "bytes": 7452,
+      "sha256": "11a7e205d6cb8e17275cce5052a95d227cc84749cd2477807174b110fea8ee90"
+    },
+    "models/predictor_pgd_workload_shutdown_v1.py": {
+      "bytes": 16010,
+      "sha256": "58cc20af54243c6e298c0c1febc0dc2d663ecd9ef8756fca10e688e7f98ba6cb"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123/NEXT-LOCAL-BINDING-v1.json": {
+      "bytes": 1679,
+      "sha256": "33957cf4b31db3a7adf405a238e73106a973bd55ed1bd967d27395f6966642e1"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123/cold-build-v2/CONTROL-UNBOUND.json": {
+      "bytes": 129922,
+      "sha256": "d997bf9ed74c8ebf4504a5e6214a35e28365f85e9da3d7738a5b58f5edaa9f29"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123/cold-build-v2/SOURCE-MANIFEST-v1.json": {
+      "bytes": 45224,
+      "sha256": "9a84c7048d7b5e4c2d285cad2aa6dac9907bf9fa18bf9e9f6290df33ef06b998"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123/cold-build-v2/SOURCE-PAYLOAD.json": {
+      "bytes": 1251402,
+      "sha256": "cda479b9f811b38f6f2a547ead1ae37b75b05934eadb0bddae89f8b9e6c4f536"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123/cold-build-v2/outer-unbound.py": {
+      "bytes": 43935,
+      "sha256": "e399d5fc3f1436f89e27bac692c6f8f2f5b4186efcf320a45b0eec504f848329"
+    },
+    "scripts/run_predictor_pgd_workload_handoff_v4.py": {
+      "bytes": 692,
+      "sha256": "553bc5104ef3c02e60228fc97080ff730d3146d804f7fc13dbc4f02699021b45"
+    }
+  },
+  "kind": "whole-pgd-phase-client-binding-input-pins-v1",
+  "maximum_new_attempts": 0,
+  "pins": {
+    "budget": "models/predictor_pgd_workload_budget_v1.py",
+    "budget_design": "configs/predictor_pgd_workload_budget_v1.json",
+    "cli": "scripts/run_predictor_pgd_workload_handoff_v4.py",
+    "client": "models/predictor_pgd_workload_handoff_client_v4.py",
+    "control": "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123/cold-build-v2/CONTROL-UNBOUND.json",
+    "design": "configs/predictor_pgd_phase_binding_v1.json",
+    "manifest": "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123/cold-build-v2/SOURCE-MANIFEST-v1.json",
+    "outer": "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123/cold-build-v2/outer-unbound.py",
+    "payload": "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123/cold-build-v2/SOURCE-PAYLOAD.json",
+    "phase_next": "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123/NEXT-LOCAL-BINDING-v1.json",
+    "records": "models/predictor_pgd_phase_binding_records_v1.py"
+  }
+}
