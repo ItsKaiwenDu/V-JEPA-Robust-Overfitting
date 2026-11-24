@@ -2,6 +2,200 @@
 
 ## Current stage
 
+LATEST November 24: SNAPSHOT OWNERSHIP REVIEWED; HASH COPY ELISION DEFERRED.
+Read docs/predictor_pgd_snapshot_ownership_review_v1.md, snapshot_ownership_review
+config and report/checks/2026-11-24-pgd-snapshot-ownership-review-v1-local-review.json/md.
+Raw pgd-snapshot-ownership-review-v1-20261124; saved audit v2 PASS. HEAD8416b66
+unchanged; prior byteprototype+rejected encodingcost work UNCOMMITTED/PRESERVED.
+User stages/commits/pushes NEVER agent. Preserve ALL source/test/auditor versions/
+fixtures/logs/failures/results/statuses/claims. All real grants CONSUMED. No actual
+scope/handoff/package/grant/approval request/launch, SSH/query/upload/retry/resume/
+retrieval/remote cleanup/target/GPU/proof/paid work or repeated manual paste.
+
+Six sourcepins/original tensor_hash+Snapshot.check AST anchors. Existing pipeline
+detach->cpu->contiguous->reshape->view(uint8)->numpy->tobytes->SHA256 UNCHANGED;
+fresh hashes still required alongside identity/version/owner/shape/dtype/device/
+mode/hook/native guards. state_digest keeps ordered state names/separate byte
+contract; do not unify. No new hashing adapter, constructor/API or runtime route
+implemented/emitted/bound/adopted. Hypothesis ONLY: proven private completed CPU
+snapshot then retained byte view might avoid further bytes materialization.
+Private copy/exporter retention can erase benefit/increase memory; no timing,
+dominant-cost/physical tensor ownership/cost/fit evidence established.
+
+Seven new stdlib OPAQUE BYTE witnesses in ONE run: readonly assignment TypeError;
+original mutable alias changes readonly view/hash; privatecopy survives original
+write; retained writer to copy changes readonly view; view.obj permits exporter
+write in bytearray example; released view ValueError; immutable bytes baseline
+survives original write. Readonly bit does NOT authenticate immutable snapshot,
+no-writable-alias, ownership or lifetime. Sequential witnesses only/no race or
+thread. Actual bytes/FS/AST/SHA256 work REAL; NO Torch/NumPy/model/tensor/gradient/
+worker/scientific/testsuite/FileSink/ledger/benchmark/clock/timer/process/PIDFD/
+signal/GPU/proof/network/paidwork or oldcohort repeat. Unexecuted draft syntax
+correction retained before sole witness execution; sources/results unchanged.
+
+READ-ONLY LOCAL SOURCE OBSERVATION: archived .venv torch/version.py declares
+2.14.1/CUDA None; docs archived with before-after stat/hash, NOT IMPORTED. This
+does NOT verify loaded local binary or target behavior. Target remains pinned
+2.8.0+cu128/CUDA12.8; newer local docs do not qualify copy/export/synchronization
+semantics. No source-version substitution/import/install/remote query/download.
+Exact target-version evidence remains missing in THIS review.
+
+DECISION DEFER_OWNED_BUFFER_HASHING_UNTIL_VERSIONED_OWNERSHIP_AND_COST_PROOF.
+KEEP original immutable tobytes copy and EVERY fresh hash. Required proof:
+exact target-version constructor/export; completed transfer/nonaliasing for
+CPU/CUDA; no surviving writers/exporter escape during trusted consumption;
+snapshot/exporter/view lifetime incl errors; exact logical bytes/flatten/uint8
+REINTERPRETATION not numericconversion; all original dtype/layout/device refusals,
+guards/durability/clocks/caps and matched completeunit timing/peakmemory.
+Metadata readonly/copy-request flags or local byte witnesses never prove target
+execution. No performance or training forecast from old31/40 partial/JSONcost.
+
+STD auditv1 KeyError: root diagnostics helper sealed through frozen overlay not
+rootpath. ONLYauditor reference fixed; v2PASS70899priorhashes/77650priorfixtures/
+32new/6sourcepins/AST/archivedversion/ALLwitnessbytehash joins; no witness rerun.
+Root helper BYTEEXACT pinned runtime overlay. No project/test/witness/scientific
+callbacks/tensor-scientificarray decode/recalc/process/clock/timer/GPU/proof/
+network IN AUDIT. FIFO LSTAT ONLY NEVER OPEN/currentdevice29 priorFROZEN/no probe-
+remap-waiver/target66307 and four exact directory exceptions fixed. All old actual
+v3proof+31/40partial+failed/consumed claims fixed. Seal
+sealed-snapshot-ownership-review-v1.json; liveindexesexcluded/exact snapshots;
+totalfixtureentries77682. Future devicechange requires newrecord/review.
+
+NEXT SEPARATE LOCAL ONLY per NEXT-LOCAL-TARGET-SOURCE-INVENTORY-v1.json: read-only
+inventory exact target-version copy/export source/package evidence ALREADYLOCAL,
+hash/provenance; if absent RECORD GAP. No2.14 substitution/Torch-NumPy import or
+install/network/target fetch-query/adapter adoption/newscope/grant/launch. No
+new operational route selected; source/version/ownership/performance gates stay.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; v5gate UNCONDITIONALLY CLOSED before
+protocolclock/ATTEMPT/connection. Graph56uploads936711B/runtime48files481518B/cache
+47/nine supervisors/270paths/control d997bf9e... unchanged. All scientific/hash/
+ownership/durability/proof/monitor/scanner/Guard/resource/clock caps fixed incl
+objective120/unit720/setup180/proof60/soft2280-hard2400/final120/collection600/
+connection3000/RSS4GiB/allocator7GiB. No timeout/hardware/shorterPGD-EOT/disabledguard/
+leanroute. Actual fullunits/replay/timing-overhead/memory/recovery/economics/
+calibration/data/protocol/training gated. Mechanism CLOSED/research-trainingFALSE;
+all trainingPGD5EOT1/routineEOT1/optimizerbackward/registry/studyYAML/financial
+200/160/40/single10caps+holds fixed. Old snapshots historical not currentquotes/
+balance. No training percentage/time estimate. Earlier entries historical.
+
+LATEST November 24: LOCAL ENCODING COST MEASURED; CANDIDATE REJECTED.
+Read docs/predictor_pgd_encoding_cost_v1.md and
+report/checks/2026-11-24-pgd-encoding-cost-v1-local-review.json/md.
+Raw pgd-encoding-cost-v1-20261124; saved audit v1 PASS. HEAD8416b66 unchanged;
+prior prototype UNCOMMITTED/PRESERVED. User stages/commits/pushes NEVER agent.
+All real grants CONSUMED; no actual scope/package/grant/approval request/launch,
+SSH/query/upload/retry/resume/retrieval/cleanup/target/GPU/proof/paid work.
+
+One LOCAL stdlib metadata comparison:113predeclared accepted rows/32batches/
+16perarm/eightABBA groups/no warmup. Baseline36052540ns/candidate67377626ns,
+ratio~1.869; candidate higher in every group. Total103468167ns, no5s cooperative
+cap stop/failure/blocked-port attempt. ALL batch digest outputs match. Timing
+includes full metadata construction/encoding/hash/parser/copies/spy/bookkeeping/
+aggregate hash; excludes imports/AST/corpus decode/artifactFS. No overhead
+subtraction. SHORT single local run, NOT statistical/target calibration. Dedicated
+benchmark stopwatch ONLY; original workload clocks/timers/caps untouched.
+No FileSink/wholeledger/fsync/worker/science/testsuite lifecycle or callback.
+All workload process/signal/timer/thread/network ports blocked. MetadataFS/hash
+work REAL. No Torch/NumPy/model/tensor/gradient/GPU/proof/network or old scientific
+cohort repeat. Timing cannot qualify Linux/CUDA/wholeunit/memory/training.
+
+DECISION REJECT_CANDIDATE_FOR_INTEGRATION_ON_THIS_LOCAL_CORPUS. Byte proof retained;
+DO NOT integrate/bind this candidate. No replacement candidate selected. Current
+runtime/client/science/phase sources and all guards/caps UNCHANGED. Budget remains
+REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE, installedv5gate unconditionally CLOSED before
+protocolclock/ATTEMPT/connection. A future budget proposal needs separate source
+rationale/review and actual matched completeunit evidence; metadata cannot admit.
+
+Saved audit70862priorhashes/77650priorfixtures/plan-source-corpus/timing-sums/digests.
+No project/test/benchmark/scientific callbacks or clock/timer/process/GPU/proof/
+network IN AUDIT. FIFO LSTAT ONLY NEVER OPEN/device29priorfrozen/no probe-remap/
+four exact directory exceptions/target66307 fixed. All histories/failures/claims/
+actualv3proof+31/40partial+failed preserved. Seal sealed-encoding-cost-v1.json;
+mutable indexes excluded/exact snapshots; no new fixtures. Research/trainingFALSE,
+mechanism CLOSED/all science-policy-study-financial caps+holds unchanged; no
+training percentage/time estimate. Earlier entries historical.
+
+LATEST November 24: PHASE ENCODING BYTE PROTOTYPE REVIEWED; UNBOUND/NO TIMING.
+Read docs/predictor_pgd_phase_encoding_v1.md, phase_encoding design/inputs_v1 and
+report/checks/2026-11-24-pgd-phase-encoding-v1-local-review.json/md.
+Raw pgd-phase-encoding-v1-20261124; independent saved audit v1 PASS FIRST RUN.
+Starting clean user commit8416b66. User stages/commits/pushes NEVER agent.
+Preserve ALL source/test/auditor versions/fixtures/logs/failures/results/statuses/
+claims. All real grants CONSUMED. No actual scope/handoff/package/grant/approval
+request/launch command, SSH/query/upload/retry/resume/retrieval/remote cleanup/
+target/GPU/proof/paid work or repeated manual paste is authorized.
+
+Separate stdlib codec+cold source factory; eight inputpins, one full23801B module
+byteinverse over2edits. Candidate28765B, codec5162B. Record2-line double-encoding
+seam ->3-line immutable prehash/structural insertion bridge; append2helpers. Every
+other original function/method AST exact incl enc/FileSink/tokens/contexts/restore/
+savedreader/clocks/cleanup. Factory emits baseline/candidate/codec DEFINITIONS
+ONLY, no operational graph/package/grant/launch API. Existing runtime/client/
+budget/scientific source bytes UNCHANGED, candidate NOT adopted. Original
+56uploads936711B/runtime48files481518B/cache47/nine supervisors/270paths/control
+d997bf9ed74c8ebf4504a5e6214a35e28365f85e9da3d7738a5b58f5edaa9f29 fixed.
+
+Parser uses iterative container grammar +stdlib scalar/string decoder, decoded
+sorted unique ROOT keys/structural offsets; NO substring key search/replacement.
+Values retained verbatim. Scope ONLY immutable enc(private string-keyed row)
+bytes; producer establishes canonical spelling. NOT generalcanonicalizer/external
+JSON gate; no proof for concurrent mutation/stateful custom containers/encoders.
+Prehash newline/SHA256/finalrow bytes preserved; existingrow_sha256 included in
+prehash then replaced, including prehash>4096 whose finalrow fits. Final4096B
+guard unchanged. Parsing/ASCIIcopy/scalarobjects/stack/finalcopies add REAL work
+and memory; one fewer serialization does NOT establish netbenefit or budget fit.
+
+28 new stdlib checks PASS FIRST RUN/28exec; sources/tests/runner unchanged after
+firstchecks; one cold emission BEFORE checks.123typed synthetic rows/122 final
+bytevectors (remaining4097B refusal), new32row synthetic hashchain,64vector matrix,
+Unicode/escapes/nesting/numeric keys/signedzero/finite numeric spelling, invalid/
+nonfinite/circular/unsupported inputs, cap/refusal/counter/appenderror equality,
+20saved malformed/order refusals +source drift beforeemission. Record paths
+enc2baseline/enc1candidate. ONLY extracted enc/record/helpers run with explicit
+metadata APPEND SPY. No PhaseLedger/FileSink object/begin-end/finalize/journal/
+fsync/wholephase/worker/scientific lifecycle runs; guard preservation is SOURCE
+proof, NOT physical-enforcement test. Synthetic PID/timestamps NOT observations.
+Workload clock/timer/process/PIDFD/signal/thread/network ports BLOCKED, zero
+attempts; suite runner has NO stopwatch. No Torch/NumPy/model/tensor/gradient/
+GPU/proof/target/network/paid work or passing/closed scientific cohort repeat.
+Ordinary metadata FS/JSON/AST/SHA256 REAL. No actual timing/memory/netbenefit claim.
+
+STD saved audit FIRSTPASS69894priorhashes/76570priorfixtures/1080new/8pins/full
+inverse/ASTs/history/ALL saved typed-row prehash/newline/SHA256/finalbyte joins.
+Synthetic metadata tags/JSON decoded-reencoded; NO tensor/scientific-array decode
+or scientific recalculation/project-test-scientific callbacks/subprocess/clock/
+timer/signals/GPU/proof/network IN AUDIT. Historical FIFO LSTAT ONLY NEVER OPEN.
+Current16777229 via priorFROZEN observation; no probe/remap/waiver; old records/
+target66307 and four narrow directory exceptions fixed. Future device change
+requires newrecord/review. All old actualv3 proof+31/40partial+failed and consumed
+claims fixed. Seal sealed-phase-encoding-v1.json; liveindexesexcluded/exact
+before-after snapshots. Total preservedfixture entries77650.
+
+NEXT SEPARATE LOCAL ONLY per NEXT-LOCAL-ENCODING-COST-COMPARISON-v1.json: bounded
+matched stdlib METADATA cost comparison BEFORE any integration decision. Freeze
+sources/corpus/membership; whole encoding/hash/parser/copy/bookkeeping paths,
+matched alternating order, retain rawdata/capstops/failures/no assumed overhead
+subtraction. Dedicated LOCAL benchmark stopwatch MAY measure outside batches;
+NEVER invoke/reset workload clocks/installtimers or run FileSink/wholeledger/
+worker/scientific ports. Cooperative5s TOTAL checked between bounded batches,
+max16batches/arm; NOT OS enforcement. Separate runner, DO NOT rerun passing
+tests/closedscientific cohorts for timing. Benchmark NOT executed here. Local
+metadata result cannot qualify target/Linux/CUDA/wholeunit performance/memory/
+training. Source/domain/guard integration review+actual matched completeunits
+remain separately gated even if local encoding cost improves.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; installedv5gate UNCONDITIONALLY CLOSED
+beforeprotocolclock/ATTEMPT/connection. All original science/ownership/hashing/
+shutdown/proof/monitor/scanner/Guard caps fixed: objective120/unit720/setup180/
+proof60/soft2280-hard2400/final120/collection600/connection3000/RSS4GiB/allocator
+7GiB/storage/process/thread/sample unchanged. No timeout/hardware/shorterPGD-EOT/
+disabledguard/leanroute adopted. Mechanism CLOSED/research-trainingFALSE; actual
+units/freshreplay/timing-overhead/memory/recovery/economics/calibration/data/
+protocol/training gated. TrainingPGD5EOT1/routineEOT1/optimizerbackward/registry/
+studyYAML and financial200/160/40/single10caps+holds fixed; historicalsnapshots not
+freshquotes/balance. No training percentage/time estimate. Earlier historical.
+
 LATEST November 24: COMPLETE-UNIT BUDGET OPTIONS REVIEWED; NO FIT QUALIFIED.
 Read docs/predictor_pgd_budget_options_v1.md, configs/predictor_pgd_budget_options_v1.json
 and report/checks/2026-11-24-pgd-budget-options-v1-local-review.json/md.

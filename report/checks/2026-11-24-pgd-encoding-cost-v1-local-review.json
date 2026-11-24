@@ -1,0 +1,46 @@
+{
+  "batches": 32,
+  "batches_per_arm": 16,
+  "benchmark_source_sha256": "3e87aec6280baa69dc94d7b7bc0945cab2eafb563b2b8ef890c7d144011a01ca",
+  "budget_decision": "REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE",
+  "budget_opened": false,
+  "candidate_adopted": false,
+  "current_device": 16777229,
+  "decision": "REJECT_CANDIDATE_FOR_INTEGRATION_ON_THIS_LOCAL_CORPUS",
+  "independent_audit_sha256": "fd1b40cc79e1123b232d76658012e80f51df855899d0e7a88d65e40dc128b51a",
+  "kind": "local-encoding-cost-independent-saved-audit-v1",
+  "local_rows": 113,
+  "measured_summary": {
+    "baseline": {
+      "batches": 16,
+      "elapsed_ns": 36052540,
+      "ns_per_row": 19940.564159292036,
+      "rows": 1808
+    },
+    "candidate": {
+      "batches": 16,
+      "elapsed_ns": 67377626,
+      "ns_per_row": 37266.386061946905,
+      "rows": 1808
+    }
+  },
+  "narrow_directory_exceptions": 4,
+  "new_scientific_or_worker_work": false,
+  "next_candidate_selected": false,
+  "observations_sha256": "e6f275e847a7ea213a3c22dd5d78e8d8504b020d1b52235d376d83e9e612940e",
+  "old_FIFO_lstat_only_never_opened": 1,
+  "plan_sha256": "5b3b1e6e7a117a78b62812d214399a9c64294fd990ce0b3edfaf6e0fab0ae979",
+  "prior_fixture_entries_verified": 77650,
+  "prior_hashes_verified": 70862,
+  "prior_prototype_uncommitted_preserved": true,
+  "project_test_benchmark_or_scientific_callbacks_in_audit": false,
+  "ratio_candidate_to_baseline": 1.868873205604931,
+  "raw_stage": "runs/pretrained/diagnostic/pgd-encoding-cost-v1-20261124",
+  "research_admitted": false,
+  "result": "PASS",
+  "seal": "runs/pretrained/diagnostic/pgd-encoding-cost-v1-20261124/sealed-encoding-cost-v1.json",
+  "short_single_local_run_not_statistical_or_target_calibration": true,
+  "target_speed_or_complete_unit_fit_qualified": false,
+  "total_local_stopwatch_ns": 103468167,
+  "training_admitted": false
+}

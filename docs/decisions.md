@@ -1279,3 +1279,81 @@ all history. No candidate is implemented/adopted and no performance is qualified
 Keep admission closed pending separately reviewed complete-unit evidence. See
 [review](../report/checks/2026-11-24-pgd-budget-options-v1-local-review.md) and
 [source options](predictor_pgd_budget_options_v1.md).
+
+## 2026-11-24 — Prove phase-row bytes before measuring local metadata cost
+
+Keep the runtime/client graph and closed budget source fixed. Create a separate
+stdlib source-only candidate that reuses immutable canonical prehash bytes,
+locates the root hash member structurally, and preserves the original newline,
+SHA256 and final bytes. Retain a complete module inverse and all guard bodies.
+
+All28 new metadata checks and the independent saved audit pass first run. Test
+only extracted metadata functions with an append spy and blocked workload ports;
+run no FileSink/phase/worker/scientific lifecycle. Preserve all evidence. The
+private producer domain does not establish external-input or concurrent custom
+container equivalence, and one fewer serialization does not establish speed.
+
+Next assess matched local stdlib metadata cost, including parsing/copies, before
+any integration decision. A separate bounded benchmark may use a dedicated
+stopwatch without touching workload clocks or rerunning tests/science. Local
+results cannot qualify target/CUDA/full-unit performance or budget admission.
+See [review](../report/checks/2026-11-24-pgd-phase-encoding-v1-local-review.md)
+and [byte-prototype details](predictor_pgd_phase_encoding_v1.md).
+
+## 2026-11-24 — Reject the local encoding candidate
+
+LATEST November 24: LOCAL ENCODING COST MEASURED; CANDIDATE REJECTED.
+Read docs/predictor_pgd_encoding_cost_v1.md and
+report/checks/2026-11-24-pgd-encoding-cost-v1-local-review.json/md.
+Raw pgd-encoding-cost-v1-20261124; saved audit v1 PASS. HEAD8416b66 unchanged;
+prior prototype UNCOMMITTED/PRESERVED. User stages/commits/pushes NEVER agent.
+All real grants CONSUMED; no actual scope/package/grant/approval request/launch,
+SSH/query/upload/retry/resume/retrieval/cleanup/target/GPU/proof/paid work.
+
+One LOCAL stdlib metadata comparison:113predeclared accepted rows/32batches/
+16perarm/eightABBA groups/no warmup. Baseline36052540ns/candidate67377626ns,
+ratio~1.869; candidate higher in every group. Total103468167ns, no5s cooperative
+cap stop/failure/blocked-port attempt. ALL batch digest outputs match. Timing
+includes full metadata construction/encoding/hash/parser/copies/spy/bookkeeping/
+aggregate hash; excludes imports/AST/corpus decode/artifactFS. No overhead
+subtraction. SHORT single local run, NOT statistical/target calibration. Dedicated
+benchmark stopwatch ONLY; original workload clocks/timers/caps untouched.
+No FileSink/wholeledger/fsync/worker/science/testsuite lifecycle or callback.
+All workload process/signal/timer/thread/network ports blocked. MetadataFS/hash
+work REAL. No Torch/NumPy/model/tensor/gradient/GPU/proof/network or old scientific
+cohort repeat. Timing cannot qualify Linux/CUDA/wholeunit/memory/training.
+
+DECISION REJECT_CANDIDATE_FOR_INTEGRATION_ON_THIS_LOCAL_CORPUS. Byte proof retained;
+DO NOT integrate/bind this candidate. No replacement candidate selected. Current
+runtime/client/science/phase sources and all guards/caps UNCHANGED. Budget remains
+REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE, installedv5gate unconditionally CLOSED before
+protocolclock/ATTEMPT/connection. A future budget proposal needs separate source
+rationale/review and actual matched completeunit evidence; metadata cannot admit.
+
+Saved audit70862priorhashes/77650priorfixtures/plan-source-corpus/timing-sums/digests.
+No project/test/benchmark/scientific callbacks or clock/timer/process/GPU/proof/
+network IN AUDIT. FIFO LSTAT ONLY NEVER OPEN/device29priorfrozen/no probe-remap/
+four exact directory exceptions/target66307 fixed. All histories/failures/claims/
+actualv3proof+31/40partial+failed preserved. Seal sealed-encoding-cost-v1.json;
+mutable indexes excluded/exact snapshots; no new fixtures. Research/trainingFALSE,
+mechanism CLOSED/all science-policy-study-financial caps+holds unchanged; no
+training percentage/time estimate. Earlier entries historical.
+
+## 2026-11-24 — Require versioned snapshot ownership before hash copy elimination
+
+Preserve the immutable bytes copy and all fresh hash checks. Seven new opaque
+stdlib witnesses show that read-only views still change through writable aliases;
+private copies require exclusive writer control and retained lifetime. These
+observations do not prove CPU/CUDA tensor behavior or a performance benefit.
+
+Archive newer local source as an observation only: version.py declares2.14.1
+without CUDA, while the target remains pinned2.8.0+cu128/CUDA12.8. Defer any
+owned-buffer adapter pending exact version, ownership, synchronization, byte
+contract and matched cost/memory evidence. No adapter or route is adopted.
+
+Saved auditv2 passes after an auditor-only overlay reference correction, retaining
+both histories and all prior uncommitted work. Next inventory target-version
+source already local; record missing evidence without substitution/import/
+install/network or target work. Budget remains closed. See
+[review](../report/checks/2026-11-24-pgd-snapshot-ownership-review-v1-local-review.md)
+and [proof obligations](predictor_pgd_snapshot_ownership_review_v1.md).

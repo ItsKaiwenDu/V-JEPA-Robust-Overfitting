@@ -1,0 +1,49 @@
+{
+  "execution_binding": null,
+  "files": {
+    "configs/predictor_pgd_budget_options_v1.json": {
+      "bytes": 4351,
+      "sha256": "422e8faba4170825a33777801e8a629e8b38c97f26d5522e1b64dcb2f488b53b"
+    },
+    "configs/predictor_pgd_phase_encoding_v1.json": {
+      "bytes": 1469,
+      "sha256": "5cbc18a1765b08899b135eca0f3c14a0bf99090a6e76c77157d3cf104876600f"
+    },
+    "configs/predictor_pgd_workload_budget_v1.json": {
+      "bytes": 1480,
+      "sha256": "d0f131f0f996ba20b1498d3a519586d175d4178723ec68f679d2cc92d85efc7e"
+    },
+    "models/predictor_pgd_phase_accounting_v1.py": {
+      "bytes": 23801,
+      "sha256": "e4feced7309506b3e3363682e5a8456c631cecbe5c6a9ea063459c588123c853"
+    },
+    "models/predictor_pgd_phase_encoding_v1.py": {
+      "bytes": 5162,
+      "sha256": "5805fd621dcd386716ddaf90195166f40718a3c16e10789f9687d2158f27af79"
+    },
+    "models/predictor_pgd_workload_budget_v1.py": {
+      "bytes": 476,
+      "sha256": "2700c1bb4a18578d4a689a4dc13952279e879cbf19ccd0319a8e67b6e63a6398"
+    },
+    "runs/pretrained/diagnostic/pgd-budget-options-v1-20261124/NEXT-LOCAL-ENCODING-BYTE-PROTOTYPE-v1.json": {
+      "bytes": 1912,
+      "sha256": "58b0882429b0ac3e20acfc0e3c181be54daa35581060aad65cbb92dc5e65c0b1"
+    },
+    "runs/pretrained/diagnostic/pgd-budget-options-v1-20261124/SOURCE-FACTS-v1.json": {
+      "bytes": 32823,
+      "sha256": "efa1310c908842dcc92be917a1d5e347eb1d5831ff53d007b4ad1d4949b7f5c5"
+    }
+  },
+  "kind": "whole-pgd-phase-encoding-byte-prototype-input-pins-v1",
+  "maximum_new_attempts": 0,
+  "pins": {
+    "baseline": "models/predictor_pgd_phase_accounting_v1.py",
+    "budget": "models/predictor_pgd_workload_budget_v1.py",
+    "budget_design": "configs/predictor_pgd_workload_budget_v1.json",
+    "codec": "models/predictor_pgd_phase_encoding_v1.py",
+    "contract": "runs/pretrained/diagnostic/pgd-budget-options-v1-20261124/NEXT-LOCAL-ENCODING-BYTE-PROTOTYPE-v1.json",
+    "design": "configs/predictor_pgd_phase_encoding_v1.json",
+    "options": "configs/predictor_pgd_budget_options_v1.json",
+    "source_facts": "runs/pretrained/diagnostic/pgd-budget-options-v1-20261124/SOURCE-FACTS-v1.json"
+  }
+}

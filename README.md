@@ -1,5 +1,24 @@
 # V-JEPA Robust Overfitting
 
+**Tensor-hash ownership reviewed; copy elimination deferred (November 24):**
+[Seven stdlib byte witnesses and the source review](report/checks/2026-11-24-pgd-snapshot-ownership-review-v1-local-review.md)
+show why read-only views alone cannot establish an immutable snapshot. Local
+Torch source declares2.14.1, outside the pinned2.8 target; it qualifies no target
+copy semantics. Keep the existing copy/hashes and closed gate. Next inventory
+exact target-version evidence already local. Earlier entries are historical.
+
+**Local encoding candidate rejected (November 24):**
+[The matched comparison](report/checks/2026-11-24-pgd-encoding-cost-v1-local-review.md) found higher candidate cost on the local
+synthetic corpus. Keep the baseline and closed budget gate; no target fit claim.
+Earlier entries are historical.
+
+**Phase-row byte prototype passes; timing benefit remains unknown (November 24):**
+[All 28 new stdlib checks and the independent audit passed first run](report/checks/2026-11-24-pgd-phase-encoding-v1-local-review.md).
+The unbound candidate preserves exact row/hash bytes with one serialization
+instead of two, while adding parsing/copying work. No worker or FileSink lifecycle
+ran; the active graph and closed budget gate stay fixed. Next assess local
+metadata cost before considering integration. Earlier entries are historical.
+
 **Complete-unit budget options reviewed; no fit qualified (November 24):**
 [Seven source-level options were reviewed and independently audited](report/checks/2026-11-24-pgd-budget-options-v1-local-review.md).
 The current source reserves no full windows for later roles, and all ceilings
