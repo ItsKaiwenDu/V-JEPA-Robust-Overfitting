@@ -1196,3 +1196,24 @@ Bind the revised client locally and resolve the unit budget before another scope
 Adopt no timeout extension, shorter science or disabled guard. See
 [review](../report/checks/2026-11-23-pgd-workload-shutdown-v1-local-review.md)
 and [adapter/budget details](predictor_pgd_workload_shutdown_v1.md).
+
+## 2026-11-23 — Bind shutdown transport while rejecting unqualified budget admission
+
+Bind separate v4 client/outer/CLI and v3 readers to the reviewed shutdown graph.
+Keep all uploaded source/control/scientific/resource bytes fixed. An appended
+client wrapper calls an unconditionally closed budget version before clocks,
+attempt creation or connection. Local byte preflight remains distinct from
+execution; no metadata flag or old grant opens this gate.
+
+Twenty-nine new checks pass over30 executions; only one incorrect exception
+expectation was fixed and rerun. The first-run independent saved audit verifies
+all prior evidence, source inverses, six fake lifecycles and four complete wire
+streams. Fake positive budget/OS/compute ports establish no actual performance.
+
+The current budget decision rejects a new scope; it is not a measured-fit solution.
+Next derive guarded phase accounting under unchanged deadlines, scientific bodies,
+hashing and ownership. Adopt no timeout/hardware/science shortcut. The new local
+device29 observation is explicit and independently reviewed, preserving prior33
+records and target gates; the cause remains unknown. See
+[review](../report/checks/2026-11-23-pgd-workload-shutdown-binding-v1-local-review.md)
+and [binding/budget details](predictor_pgd_workload_shutdown_binding_v1.md).

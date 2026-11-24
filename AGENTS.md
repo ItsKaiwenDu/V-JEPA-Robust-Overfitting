@@ -2,6 +2,88 @@
 
 ## Current stage
 
+LATEST November 23: SHUTDOWN CLIENT BINDING REVIEWED; CURRENT BUDGET REJECTED.
+Read docs/predictor_pgd_workload_shutdown_binding_v1.md, both shutdown_binding
+configs, budget_v1 design/source and report/checks/2026-11-23-pgd-workload-shutdown-binding-v1-local-review.json/md.
+Raw pgd-workload-shutdown-binding-v1-20261123; independent saved audit v1 PASS
+FIRST RUN. Starting clean user commitd3fba9c. User stages/commits/pushes NEVER
+agent. Preserve ALL sources/tests/auditor versions/fixtures/logs/failures/results/
+statuses/claims. All real grants CONSUMED. No actual scope/handoff/package/grant/
+approval request/launch command, SSH/query/upload/retry/resume/retrieval/remote
+cleanup/target process/GPU/proof/paid work or repeated manual paste in this stage.
+
+Separate v4outer/client/CLI +v3bootstrap/scratch/collection readers. New factory
+emits definitions ONLY; NO material/package/authorization/launch API.17 inputpins/
+18localpins/six generated full-byte inverses. Uploaded55sources905563B/runtime47
+files457112B/cache46/nine supervisors/264primary paths +supervised control
+bbb6e9789e34998d2f07b5b2ece487baa32b22b7638086dee7f1358a2a7b194c UNCHANGED.
+Every outer function/class AST exact shutdown outer; original client protocol
+functions/classes AST exact after ONLY3dependency imports. New wrapper gates
+before original protocol clock. CLI ONLYnewclientimport; local boot/scratch exact
+supervisors, codec ONLY2readerimports. All science/preparation/native/math/ownership/
+byte hashing/shutdown/proof/monitor/scanner/Guard/source-cache/resource caps fixed.
+Objective120/unit720/soft2280-hard2400/final120/collection600/connection3000 and
+RSS4GiB/allocator7GiB/storage/process/thread/sample caps unchanged.
+
+BUDGET DECISION: REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE. Installed budget source
+UNCONDITIONALLY REFUSES before protocol clock/timer/ATTEMPT/connection; metadata
+flags, old grant or CLI cannot qualify missing performance. New source review
+required for any future solution. Read-only local byte preflight is NOT execution
+admission. Current full original/candidate/replay+preparation/scoring/observation
+fit UNQUALIFIED. Three full720 windows2160 +setup/proof ceilings240 exceed soft2280;
+earlier partial context arithmetic NOT forecast/bound/throughput/percentage.
+This resolves NEGATIVE ADMISSION, not measured performance or hardware fit.
+No alternate timeout/hardware/shorter PGD-EOT/disabled guard/lean route adopted.
+
+29 new distinct checks finalPASS/30executions: first28PASS/1failed assertion
+expected EOFError instead of correct truncated-transport ValueError. ONLYassertion
+fixed; ONLYfailed node rerun1PASS. Production unchanged after first checks; no
+passing/closed-scientific test repeated. Six new FAKE worker lifecycles: one complete
+four-role; three delayed-confirmed timeout/RSS/interruption collections; two
+unconfirmed hello/claim-only refusals (failed assertion fixture +corrected one).
+Four complete streams432/171/171/171files, six saved-response mutations WITHOUT
+new worker work. Eight pin/source/budget/archive/grant drifts +three consumed real
+package refusals preserve old claims. Installed budget NEVER opened; positive
+budget port ONLY in private fake namespaces. All OS/compute/process/PIDFD/signal/
+clock/timer/GPU/proof ports FAKE. Opaque copies/reserves REAL filesystem work.
+No actual Torch/NumPy/model/gradient/proof/GPU/target/network/oracle/trace or old
+cohort repeats. Fake proof FALSE/zero bytes; prior real reader refusal inherited.
+All science/session/work/partial/journal FALSE/pending flags retained; transport
+TRUE separate. Metadata equality never authenticates actual replay/execution.
+
+LOCAL DEVICE CHANGED33->29: initial preservation REFUSED, both versions/logs
+retained. Two sandboxed diskutil failures +one successful read-only volume query
+outside sandbox +mount observations retained. APFS fields/UUID match prior;
+tracked inodes/owner/mode/links/mtimes and prior hashes fixed. Cause/historical
+physical sameness UNPROVED. New LOCAL-DEVICE-OBSERVATION-v1.json and exact inverse
+reader review explicitly accept current16777229 conditional ONLY. All old device
+records and target66307 gates unchanged, NO silent remap. Four prior directory
+lifecycle exceptions exact. Future preservation must reference THIS FROZEN new
+observation; any further change requires new record/review, never default replace.
+
+Standalone STD saved audit FIRSTPASS56127 priorhashes/61685 priorfixtures/3609new/
+17pins/18locals/6inverses/ASTs/history/four full raw wire joins +exact outbound-
+serverinput-originalpacket/EOF. No project/test/scientific/subprocess callbacks,
+tensor decode/scientific recalc/signals/timers/GPU/proof/network IN AUDIT. Local
+mount probes above were REAL read-only observations, outside fake checks/audit.
+FIFO LSTAT ONLY NEVER OPEN. Mutable indexes excluded with before/after snapshots;
+seal sealed-workload-shutdown-binding-v1.json. Prior actual v3 proof+31/40 partial/
+failed status and consumed packages unchanged. Mechanism CLOSED/training FALSE.
+
+NEXT SEPARATE LOCAL ONLY: derive guarded PHASE ACCOUNTING per saved
+NEXT-LOCAL-PHASE-ACCOUNTING-v1.json: startup/preparation, entire contexts incl own
+journal/timer exit, scoring/selection/restoration/publication and parent wall.
+Matched inclusions/exclusions, one clock domain per interval, original continuing
+clocks/caps and scientific/ownership/hashing guards. Explicit fake ports locally;
+no target execution, passing/closed cohort repeat or measured-fit claim. Current
+plan is REQUIREMENTS ONLY, not implemented instrumentation. Budget gate stays
+closed; do not create scope/request approval/retry/widen v3. Actual complete units/
+fresh replay/timing/overhead/memory/recovery/economics/calibration/data/protocol/
+training remain gated. TrainingPGD5EOT1/routineEOT1/optimizerbackward/registry/study
+YAML and financial200/160/40/single10 caps+holds fixed; old financial snapshots
+historical, not fresh quotes/balance. No training percentage/time estimate.
+Earlier entries historical.
+
 LATEST November 23: BOUNDED WHOLE-PGD SHUTDOWN REVIEWED LOCALLY; UNBOUND.
 Read docs/predictor_pgd_workload_shutdown_v1.md, both shutdown configs and
 report/checks/2026-11-23-pgd-workload-shutdown-v1-local-review.json/md. Raw stage

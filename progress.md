@@ -1,5 +1,30 @@
 # Research Progress Reports
 
+November23: separate v4shutdown client/outer/CLI +v3readers reviewed LOCALLY.
+29 distinct checks finalPASS/30exec: first28PASS/1wrong exception expectation,
+ONLYassertion fixed/ONLYfailed node rerunPASS; production unchanged.17inputpins/
+18locals/6inverses; all outer and original client protocol ASTs exact. Uploaded55/
+905563B/runtime47/457112B/cache46/nine supervisors/264primary paths/controlbbb6e978...
+UNCHANGED. Six fake worker lifecycles/four432-171-171-171file transports, two
+unconfirmed two-frame refusals, six saved mutations/no new worker work. Positive
+budget port PRIVATE FAKE ONLY; actual gate UNCONDITIONALLY REFUSES before clocks/
+ATTEMPT/network. Budget REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; negative admission,
+NOT performance solution. All realgrants consumed/no scope/approval/launch/remote.
+Actual full-unit budget/overhead fit unqualified; no timeout/hardware/science change.
+Localdevice33->29 initialrefusal +explicit new APFS observation/inverse reader
+review retained; rawread-only probes real, cause/physical sameness unproved. Old/
+target records/gates fixed/four lifecycleexceptions exact/FIFO LSTAT ONLY. STD
+auditFIRSTPASS56127priorhashes/61685priorfixtures/3609new/17pins/18locals/6inverses/
+ASTs/history/four fullwires+outbound/server/archive joins. No scientific/target/
+network or closedcohort repeats; fakeproof FALSE/zeroB, reserves/copies REAL FS.
+Mechanism CLOSED; v3partial31/40+failure unchanged. Seal
+sealed-workload-shutdown-binding-v1.json; index snapshots retained. NEXT separate
+LOCAL guarded phase-accounting derivation per NEXT-LOCAL-PHASE-ACCOUNTING-v1.json,
+currently requirements only; budgetgate closed pending actual solution. All
+policies/study/financial caps+holds fixed/trainingFALSE. User stages/commits/pushes.
+See report/checks/2026-11-23-pgd-workload-shutdown-binding-v1-local-review.json/md
+and docs/predictor_pgd_workload_shutdown_binding_v1.md. Earlier entries historical.
+
 November 23: separate bounded whole-PGD shutdown reviewed LOCALLY/UNBOUND.
 21 new checks finalPASS/42executions (21 initial fixture setup errors retained);
 only failed nodes rerun, production unchanged after first checks. Five inverses,

@@ -1,0 +1,87 @@
+{
+  "execution_binding": null,
+  "files": {
+    "configs/predictor_pgd_workload_budget_v1.json": {
+      "bytes": 1480,
+      "sha256": "d0f131f0f996ba20b1498d3a519586d175d4178723ec68f679d2cc92d85efc7e"
+    },
+    "configs/predictor_pgd_workload_shutdown_binding_v1.json": {
+      "bytes": 875,
+      "sha256": "515fdb10c0b73b97e37433d172ba4b727e25a8ad8345a37805ef49385357be70"
+    },
+    "configs/predictor_pgd_workload_shutdown_inputs_v1.json": {
+      "bytes": 2314,
+      "sha256": "acde7da70e989e8c72eb890ef7e9a11e68617ab98eaf141ef27db11f43380a2c"
+    },
+    "configs/predictor_pgd_workload_shutdown_v1.json": {
+      "bytes": 1755,
+      "sha256": "c984364fd0f387250ba084d36d830c49d299c9ff6471d901d12cc296bfcef8d0"
+    },
+    "models/__init__.py": {
+      "bytes": 86,
+      "sha256": "1d079e9ff2633dfad73abff31961c9e81b7aff65e44ec6bedc60a32189630ff5"
+    },
+    "models/predictor_pgd_split_plan_v1.py": {
+      "bytes": 15697,
+      "sha256": "cdd2729d2f05782d269a45aa4c22412dcff7b9c5d684267550eb16f59c838ba6"
+    },
+    "models/predictor_pgd_workload_budget_v1.py": {
+      "bytes": 476,
+      "sha256": "2700c1bb4a18578d4a689a4dc13952279e879cbf19ccd0319a8e67b6e63a6398"
+    },
+    "models/predictor_pgd_workload_handoff_client_v3.py": {
+      "bytes": 16192,
+      "sha256": "fa699504b3d71dd28c0c70c6cf7940e8c4f0e23248036a8ff876f923c68c0782"
+    },
+    "models/predictor_pgd_workload_os_v1.py": {
+      "bytes": 15436,
+      "sha256": "da15f2bbcf641156af2f4748653f6d617689068f7fb9d03dd7073a7def2b0ca9"
+    },
+    "models/predictor_pgd_workload_shutdown_logic_v1.py": {
+      "bytes": 7452,
+      "sha256": "11a7e205d6cb8e17275cce5052a95d227cc84749cd2477807174b110fea8ee90"
+    },
+    "models/predictor_pgd_workload_shutdown_v1.py": {
+      "bytes": 16010,
+      "sha256": "58cc20af54243c6e298c0c1febc0dc2d663ecd9ef8756fca10e688e7f98ba6cb"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/BUDGET-REVIEW-v1.json": {
+      "bytes": 2136,
+      "sha256": "1848291c6d54980d58bb1b85a40985c288638dbca0ee6fb707b5eb445ef77717"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/cold-build-v2/CONTROL-UNBOUND.json": {
+      "bytes": 128408,
+      "sha256": "bbb6e9789e34998d2f07b5b2ece487baa32b22b7638086dee7f1358a2a7b194c"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/cold-build-v2/SOURCE-MANIFEST-v1.json": {
+      "bytes": 25745,
+      "sha256": "4be3c67dbfc8b0e1bb2268aa8a55b7f05c13bfd95c0dda0de7e1d12f13cdc69d"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/cold-build-v2/SOURCE-PAYLOAD.json": {
+      "bytes": 1209813,
+      "sha256": "2b1f4438572c2638dd329c9f4da6c6d63c1e91bb01b9444d6213dd634390c7bb"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/cold-build-v2/outer-unbound.py": {
+      "bytes": 43608,
+      "sha256": "f9cc382f3e6a247e2d239b7f5ceeae6d79c89214363d84c9d424458c3815cb6b"
+    },
+    "scripts/run_predictor_pgd_workload_handoff_v3.py": {
+      "bytes": 692,
+      "sha256": "7c6dc18af6669a73289008b15d86136714e63925be70d27394f4ca2605853803"
+    }
+  },
+  "kind": "whole-pgd-shutdown-client-binding-input-pins-v1",
+  "maximum_new_attempts": 0,
+  "pins": {
+    "budget": "models/predictor_pgd_workload_budget_v1.py",
+    "budget_design": "configs/predictor_pgd_workload_budget_v1.json",
+    "budget_review": "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/BUDGET-REVIEW-v1.json",
+    "cli": "scripts/run_predictor_pgd_workload_handoff_v3.py",
+    "client": "models/predictor_pgd_workload_handoff_client_v3.py",
+    "control": "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/cold-build-v2/CONTROL-UNBOUND.json",
+    "design": "configs/predictor_pgd_workload_shutdown_binding_v1.json",
+    "manifest": "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/cold-build-v2/SOURCE-MANIFEST-v1.json",
+    "outer": "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/cold-build-v2/outer-unbound.py",
+    "payload": "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/cold-build-v2/SOURCE-PAYLOAD.json"
+  }
+}

@@ -1,5 +1,12 @@
 # V-JEPA Robust Overfitting
 
+**Shutdown client bound locally; current budget rejects launch (November 23):**
+[The v4 client and v3 readers pass 29 checks and an independent audit](report/checks/2026-11-23-pgd-workload-shutdown-binding-v1-local-review.md).
+They preserve the reviewed shutdown/scientific sources. The real budget gate
+refuses before timers, attempts or connections; fake ports exercise the protocol.
+No full-unit fit is established. Next is guarded local phase accounting, with all
+grants consumed and no new scope. Earlier entries are historical snapshots.
+
 **Bounded whole-PGD shutdown reviewed locally (November 23):**
 [The separate adapter passes 21 new checks and an independent audit](report/checks/2026-11-23-pgd-workload-shutdown-v1-local-review.md).
 It preserves the first failure and requires confirmed owned exit before collection.

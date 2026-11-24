@@ -1,0 +1,21 @@
+{
+  "kind": "whole-pgd-shutdown-client-binding-local-design-v1",
+  "execution_binding": null,
+  "maximum_new_attempts": 0,
+  "all_real_grants_consumed": true,
+  "uploaded_sources": 55,
+  "uploaded_bytes": 905563,
+  "runtime_files": 47,
+  "runtime_bytes": 457112,
+  "cache_modules": 46,
+  "supervisor_slots": 9,
+  "primary_result_paths": 264,
+  "scientific_shutdown_source_bytes_or_compute_caps_changed": false,
+  "new_attended_scope_package_authorization_or_target_work": false,
+  "budget_gate": "models/predictor_pgd_workload_budget_v1.py",
+  "budget_decision": "configs/predictor_pgd_workload_budget_v1.json",
+  "operational_launch_admitted": false,
+  "validation": "Explicit fake OS, clock, process, handle, signal, timer, proof, GPU, budget and compute ports; real local filesystem and byte transport checks",
+  "research_admitted": false,
+  "training_admitted": false
+}
