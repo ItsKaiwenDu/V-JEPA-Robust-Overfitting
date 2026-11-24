@@ -1,0 +1,48 @@
+{
+  "Torch_NumPy_import_install_network_download_target_query_or_execution": false,
+  "all_real_grants_consumed": true,
+  "artifact_metadata_does_not_authenticate_target_installation_or_copy_semantics": true,
+  "budget_decision": "REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE",
+  "cached_package_catalogs_resolved": 6,
+  "cached_plain_distribution_metadata": 5,
+  "candidate_implemented_or_adopted": false,
+  "catalog_links_do_not_establish_local_source_payloads": true,
+  "coverage_is_bounded_sequential_not_atomic_or_whole_machine_absence": true,
+  "current_and_archived_version_py_declarations": [
+    "2.14.1 / CUDA None"
+  ],
+  "decision": "EXACT_TARGET_SOURCE_NOT_FOUND_WITHIN_DECLARED_LOCAL_SEARCH",
+  "exact_version_CUDA_artifacts_found": 0,
+  "execution_binding": null,
+  "existing_tobytes_copy_and_every_fresh_hash_preserved": true,
+  "header_declaration": [
+    null
+  ],
+  "incremental_inventory_paths": 15,
+  "initial_inventory_paths": 136,
+  "inspection_errors_or_cap_stops": 0,
+  "inventory_paths": 151,
+  "kind": "pinned-target-source-local-inventory-decision-v1",
+  "library_source_snapshots": 6,
+  "local_source_declarations_do_not_verify_loaded_binary": true,
+  "maximum_new_attempts": 0,
+  "new_approval_request_or_launch_command_created": false,
+  "new_fixture_entries": 55,
+  "next_evidence_requirement": [
+    "A known exact offline source/package artifact path, or a separately requested evidence task to consult official public source outside this local-only task.",
+    "Do not repeat this inventory without a new path or source-state change. No copy/export semantics or performance may be inferred from newer local docs or package catalogs.",
+    "Even exact version source would need target provenance, ownership/synchronization/lifetime/byte-contract review and matched complete-unit evidence before operational admission."
+  ],
+  "package_archives_inspected": 120,
+  "project_test_benchmark_or_scientific_cohort_rerun": false,
+  "raw_stage": "runs/pretrained/diagnostic/pgd-target-source-inventory-v1-20261124",
+  "release_2_8_source_references_found": 0,
+  "research_admitted": false,
+  "review_only": true,
+  "scope_preparation_allowed": false,
+  "snapshot_adapter_runtime_hash_client_or_budget_changed": false,
+  "timing_performance_memory_fit_or_training_qualified": false,
+  "training_admitted": false,
+  "unique_wheel_metadata_snapshots": 28,
+  "user_additional_local_path_unknown": true
+}

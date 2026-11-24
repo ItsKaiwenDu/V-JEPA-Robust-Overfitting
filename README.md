@@ -1,5 +1,21 @@
 # V-JEPA Robust Overfitting
 
+**Official2.8 source reviewed; snapshot ownership remains unqualified (November24):**
+[The version-pinned review](report/checks/2026-11-24-pgd-target-source-review-v1-local-review.md)
+captures13 source files and confirms reuse/writable-export paths. It does not
+authenticate the actual target build or private snapshot lifetime. Keep the copy,
+every fresh hash and closed gate. Next derive local ownership/byte-contract
+requirements and a fake-port plan, without an adapter or target work.
+Earlier entries are historical.
+
+**Pinned-target source gap confirmed within local search (November 24):**
+[The scoped inventory](report/checks/2026-11-24-pgd-target-source-inventory-v1-local-review.md)
+found no Torch2.8.0+cu128 artifact across151 inspected paths. Dependency-wheel
+metadata and cache catalogs do not supply the missing source; current source
+declares2.14.1. Keep hashing and the closed gate unchanged. Advancing requires
+an exact offline artifact or a separately requested official-source review.
+This is not a whole-machine absence claim. Earlier entries are historical.
+
 **Tensor-hash ownership reviewed; copy elimination deferred (November 24):**
 [Seven stdlib byte witnesses and the source review](report/checks/2026-11-24-pgd-snapshot-ownership-review-v1-local-review.md)
 show why read-only views alone cannot establish an immutable snapshot. Local

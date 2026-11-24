@@ -1357,3 +1357,41 @@ source already local; record missing evidence without substitution/import/
 install/network or target work. Budget remains closed. See
 [review](../report/checks/2026-11-24-pgd-snapshot-ownership-review-v1-local-review.md)
 and [proof obligations](predictor_pgd_snapshot_ownership_review_v1.md).
+
+## 2026-11-24 — Record the scoped target-source gap without substituting newer evidence
+
+Inventory the repository/saved sources, standard caches and top-level Torch-named
+artifact locations locally. No exact Torch2.8.0+cu128 artifact is found across151
+paths;120 dependency-wheel metadata observations, six index catalogs and five
+plain metadata records supply no matching library payload. Current and archived
+version declarations remain2.14.1 without CUDA.
+
+Preserve scope limits, all metadata snapshots and auditor histories. The saved
+audit passes after a stdlib preload correction; no package inspection, test or
+science is rerun. Keep the original immutable copy/fresh hashes and closed gate.
+No adapter or runtime route is adopted. A known offline artifact or separately
+requested official-public-source evidence task is needed to advance the source
+hypothesis; do not repeat this inventory without new input/state. Source alone
+would not qualify target ownership, performance or execution admission. See
+[review](../report/checks/2026-11-24-pgd-target-source-inventory-v1-local-review.md)
+and [coverage](predictor_pgd_target_source_inventory_v1.md).
+
+## 2026-11-24 — Official release source clarifies ownership; copy elision deferred
+
+The separate [official-source review](../report/checks/2026-11-24-pgd-target-source-review-v1-local-review.md)
+captures13 complete files at PyTorch v2.8.0 commit ba561023, with matching reported
+Git blob identities, SHA256 and source-line joins. Shared detach/CPU-contiguous/
+reshape/view/export paths reject a generic read-only replacement. Explicit-copy
+and current-stream synchronization branches do not alone prove target build,
+writer ordering, exporter lifetime or cost. Keep `.tobytes()`, every fresh hash
+and the separate ordered-name state_digest contract. No API/adapter is adopted.
+
+Saved auditv1 passes first run with71081 prior hashes,77737 prior fixture entries
+and45 new. Initial source-path404/capture TypeError and later local AST lookup
+refusal remain; only paths/readers corrected. Public-source text retrieval is
+real; no installed library import/execution, benchmark/old cohort or target work.
+Prior uncommitted inventory, all failures/claims, frozen device29/FIFO and narrow
+lifecycle exceptions stay preserved. Budget remains closed before clocks/claims/
+connections. Next derive LOCAL ownership/lifetime/exact-byte requirements and a
+fake-port plan only. Full units/replay/timing/memory/recovery/economics/calibration/
+data/protocol/training remain gated; financial caps/holds fixed; no forecast.

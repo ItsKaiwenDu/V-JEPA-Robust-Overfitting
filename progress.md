@@ -1,5 +1,141 @@
 # Research Progress Reports
 
+LATEST November 24: OFFICIAL 2.8 SOURCE REVIEWED; TARGET BUILD/OWNERSHIP UNJOINED.
+Read docs/predictor_pgd_target_source_review_v1.md, target_source_review config
+and report/checks/2026-11-24-pgd-target-source-review-v1-local-review.json/md.
+Raw pgd-target-source-review-v1-20261124; saved audit v1 PASS FIRST RUN. Starting
+HEAD828e7fa; prior local inventory UNCOMMITTED/PRESERVED. User alone stages/
+commits/pushes NEVER agent. Preserve ALL source/test/auditor versions/fixtures/
+logs/failures/results/statuses/claims. All real grants CONSUMED. No scope/
+handoff/package/grant/approval request/launch command or university query/SSH/
+upload/retry/resume/retrieval/remote cleanup/target/GPU/proof/paid work.
+
+User Continue starts SEPARATE public official-source evidence task identified
+by inventory handoff; prior local-only task/result unchanged. Public web/GitHub
+source-text retrieval REAL. No binary package download/install/import or source
+execution. Official v2.8.0 tag observed at ba56102387ef21a3b04b357e5b183d48f0afefc7;
+13complete UTF8 source/LICENSE files682235B,13reported Gitblob identities MATCH
+capturedbytes/SHA256/stat;13line/rangehash claims. Tag/commit/signature-verification
+are saved API observations, NOT independent signature/target-build authentication.
+version.txt2.8.0a0 is upstream template, NOT generated target2.8.0+cu128/CUDA12.8.
+Actual wheel/build/NumPy2.4.6/CPython3.11.17/dispatch joins remain missing.
+
+Source: detach shares; CPU conversion copyfalse can reuse; contiguous can return
+input; reshape/viewdtype alias; NumPy data-pointer export WRITABLE, base retention
+has stated storage-replacement limitation. Dense explicitcopy/clone allocate;
+CUDA blocking branch syncs currentstream, NOT every external writer ordering.
+No copy/readonly/request flag establishes private stable lifetime. Generic
+readonlyview replacement REJECTED; copyelision DEFERRED, no API/adapter selected,
+implemented/emitted/bound/adopted. Original immutable tobytes +EVERY fresh hash/
+ordered-name state_digest and six sourcepins/four AST anchors unchanged.
+
+Wrongdirectory source404+captureTypeError retained; corrected actual tools path.
+Provenancev1 completed13blob joins/saved manifest then REFUSED wronglocal helper
+AST path; v2 corrects ONLYtensor_hash lookup/inherits manifest, no refetch or
+reemission for fix. Saved STD auditFIRSTPASS71081priorhashes/77737priorfixtures/
+45new/13sources/13claims/6pins/4AST. No inspected source/project/test/scientific
+callbacks or tensor/scientificarray decode/recalc/process/timer/GPU/proof/network
+IN AUDIT; no capture/builder/old witness/encodingbenchmark/closed cohort repeated.
+No actual Torch/NumPy/model/tensor/gradient/worker/FileSink/ledger/target work.
+Source text/JSON/AST/FS/hash work REAL. Device29 uses priorFROZEN observation,
+no mountprobe/remap/waiver; old device/target66307/four lifecycle exceptions fixed.
+FIFO LSTAT ONLY NEVER OPEN. Prior actualv3proof/31of40partial/failed/consumedclaims
+fixed. Seal sealed-target-source-review-v1.json; liveindexes excluded/exact
+before-after snapshots; totalfixtureentries77782. Futuredevicechange newreview.
+
+NEXT SEPARATE LOCAL ONLY per NEXT-LOCAL-OWNERSHIP-CONTRACT-v1.json: derive
+source-pinned ownership/lifetime/exactbyte contracts and explicit fake-port
+validation PLAN at original hash callsites. REQUIREMENTS ONLY; select no API/
+adapter, emit no runtime, import no libraries, repeat no old witnesses/cohorts.
+Actual target provenance/ordered capture/no writer-exporter escape/consumption-
+exception lifetime/exact bytes-refusals and matched completeunit timing/memory
+still required. Source availability never admits execution. No target query/
+approval request/launch follows. Do not repeat inventory or refetch frozen source
+without new evidence needs. All original science/hash/ownership/durability/
+shutdown/native/proof/monitor/scanner/Guard/continuing clocks and caps fixed.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; v5gate unconditionally CLOSED before
+protocolclock/ATTEMPT/connection. Graph56uploads936711B/runtime48files481518B/cache
+47/nine supervisors/270paths/control d997bf9e... unchanged. Objective120/unit720/
+setup180/proof60/soft2280-hard2400/final120/collection600/connection3000/RSS4GiB/
+allocator7GiB/all other caps fixed; no timeout/hardware/shorterPGD-EOT/disabledguard/
+leanroute. Mechanism CLOSED/research-trainingFALSE; actual units/replay/timing/
+overhead/memory/recovery/economics/calibration/data/protocol/training gated.
+TrainingPGD5EOT1/routineEOT1/optimizerbackward/registry/studyYAML/financial200/160/
+40/single10caps+holds fixed; historical snapshots not currentquotes/balance.
+No training percentage/time estimate. Earlier entries historical.
+
+LATEST November 24: LOCAL TARGET-SOURCE INVENTORY CLOSED; EXACT SOURCE GAP.
+Read docs/predictor_pgd_target_source_inventory_v1.md, target_source_inventory
+config and report/checks/2026-11-24-pgd-target-source-inventory-v1-local-review.json/md.
+Raw pgd-target-source-inventory-v1-20261124; saved audit v2 PASS. Starting clean
+user commit828e7fa. User stages/commits/pushes NEVER agent. Preserve ALL source/
+test/auditor versions/fixtures/logs/failures/results/statuses/claims. All real
+grants CONSUMED. No actual scope/handoff/package/grant/approval request/launch,
+SSH/query/upload/retry/resume/retrieval/remote cleanup/target/GPU/proof/paid work.
+
+DECISION EXACT_TARGET_SOURCE_NOT_FOUND_WITHIN_DECLARED_LOCAL_SEARCH.151 distinct
+source/artifact paths (136initial+15new expansion);120ZIP metadata observations
+(115saved dependencywheels+5pipcache wheels)/28unique metadata snapshots, NONE
+Torch. Six complete bounded gzip package-index catalogs +five plain distribution
+metadata bodies; links NOT fetched/NOT evidence of locally stored payloads.
+Current+archived version.py declare2.14.1/CUDA None; installed distribution
+metadata2.14.1, header is forwarding include/no independent version literal.
+Six source snapshots. Zero exact2.8.0+cu128/CUDA12.8 artifacts or2.8 release source
+references identified. Zero inspection errors/capstops. Source observations do
+NOT verify loaded binaries, target installation, copy/export ownership or timing.
+
+COVERAGE BOUNDED/SEQUENTIAL/NONATOMIC, NOT whole-machine absence. Repository
+hidden environments/saved evidence source names, standard pip/uv/Torch-hub/cache/
+checkout paths; onepipcache exists of9probed,33files/16packagebodies;8roots absent.
+Additional top-level Torch-named artifacts in Downloads/Desktop/Documents-GitHub
+NONE. User does not know another localpath. Excludes unrelatedhome/personal
+files, Git objecthistory/genericcheckpoint archives/scientific payloads. No
+symlink/specialfile opening; regularinputs before/afterstat checked. Snapshots
+are inventory-time evidence, not future availability or package authentication.
+
+Stdlib source/ZIP/gzip/JSON/AST/SHA256 ONLY; metadata/source reads/decompression/
+hash work REAL. No Torch/NumPy import/install/inspected codeexecution/module or
+binary loading/network/download/targetquery/model/tensor/gradient/worker/
+FileSink/ledger/benchmark/workloadclock-timer-signal-PIDFD/GPU/proof/paidwork.
+No prior tests/bytewitnesses/encodingbenchmark/closedscientific cohort rerun.
+Original immutable tobytes copy +EVERY fresh hash and all runtime/client/science/
+ownership/durability/proof/monitor/scanner/Guard/resource/clock sources unchanged.
+No adapter/newoptimization/runtime route selected or adopted.
+
+Saved STD auditv1 refused late stdlibgzip import via no-exec hook; ONLYauditor
+preload corrected, v2PASS70973priorhashes/77682priorfixtures/55new/plan-source-
+metadata/version/coverage/decision joins. No scanner/package-inspection/test/
+benchmark/scientific callbacks or tensor-scientificarray decode/recalc/process/
+timer/GPU/proof/network IN AUDIT. PackagecatalogJSON decoded ONLY. All versions/
+logs/refusal retained. FIFO LSTAT ONLY NEVER OPEN/device29 priorFROZEN/no mount
+probe-remap-waiver/target66307/four directory exceptions fixed. All old actualv3
+proof+31/40partial+failed/consumedclaims fixed. Seal
+sealed-target-source-inventory-v1.json; liveindexesexcluded/exact before-after
+snapshots; totalfixtureentries77737. Future devicechange needs newrecord/review.
+
+NEXT EVIDENCE REQUIREMENT per NEXT-EVIDENCE-REQUIREMENT-v1.json: a known exact
+offline source/package artifact path OR a separately requested evidence task to
+consult official public source OUTSIDE THIS LOCAL-ONLY TASK. No network lookup
+is performed/authorized here. Do NOT repeat sameinventory without newpath/source
+state. Do not substitute2.14docs/cataloglinks/copyrequest/readonlyflag or implement
+an adapter from missing evidence. Even exactversion source still needs target
+provenance/ownership/synchronization/lifetime/bytecontract +matched completeunit
+timing/memory review; metadata/source availability NEVER admits execution.
+No operational scope/approval request/launch command or replacement route chosen.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; v5gate unconditionally CLOSED before
+protocolclock/ATTEMPT/connection. Graph56uploads936711B/runtime48files481518B/cache
+47/nine supervisors/270paths/control d997bf9e... fixed. Objective120/unit720/
+setup180/proof60/soft2280-hard2400/final120/collection600/connection3000/RSS4GiB/
+allocator7GiB +all storage/process/thread/sample/scientific/ownership/hash caps
+unchanged; no timeout/hardware/shorterPGD-EOT/disabledguard/leanroute adopted.
+Mechanism CLOSED/research-trainingFALSE. Actual units/replay/timing-overhead/
+memory/recovery/economics/calibration/data/protocol/training still gated. All
+trainingPGD5EOT1/routineEOT1/optimizerbackward/registry/studyYAML/financial200/160/
+40/single10caps+holds fixed; old snapshots historical not currentquotes/balance.
+No training percentage/time estimate. Earlier entries historical.
+
 LATEST November 24: SNAPSHOT OWNERSHIP REVIEWED; HASH COPY ELISION DEFERRED.
 Read docs/predictor_pgd_snapshot_ownership_review_v1.md, snapshot_ownership_review
 config and report/checks/2026-11-24-pgd-snapshot-ownership-review-v1-local-review.json/md.
