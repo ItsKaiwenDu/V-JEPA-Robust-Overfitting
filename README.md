@@ -1,5 +1,35 @@
 # V-JEPA Robust Overfitting
 
+**Primary whole-PGD v2 result reviewed (November 23):**
+[The storage proof passed; original preparation hit the host-RSS limit](report/checks/2026-11-23-pgd-workload-handoff-v2-target-review.md).
+The attended attempt is consumed. All 173 files were collected and independently
+verified; no PGD unit completed and candidate/replay never started. Next is a local
+memory-aware preparation design under the same resource caps. Training stays gated.
+Earlier entries are historical snapshots.
+
+**Exact v2 primary whole-PGD attempt approved and armed (November 23):**
+[Local preflight and independent arming review pass](report/checks/2026-11-23-pgd-workload-handoff-v2-arming.md).
+The new one-attempt grant is unspent. Next is one attended Mac launch with VPN;
+no SSH, proof, GPU or model work has started. The failed v1 attempt remains
+preserved with unknown remote progress. Research training stays gated.
+Earlier entries are historical snapshots.
+
+**Exact v2 primary whole-PGD scope prepared, unarmed (November 23):**
+[The new exact package and scope pass independent local review](report/checks/2026-11-23-pgd-workload-handoff-v2-scope.md).
+Correct workload-prefix and authorization-kind bindings preserve all scientific
+sources and caps. Prior binding checks are inherited without repetition. The
+package awaits one fresh exact approval before arming; no target work has started.
+The failed v1 attempt remains preserved with remote progress unknown.
+Earlier entries are historical snapshots.
+
+**Repaired whole-PGD client bound and reviewed locally (November 23):**
+[Nineteen distinct new checks pass](report/checks/2026-11-23-pgd-workload-claim-binding-v1-local-review.md).
+The separate v2 adapter fixes both workload claim and collection-authorization
+labels and binds16 local source pins. A fake client/server transcript completes
+real byte collection while work remains explicitly failed before proof. Next
+prepare/review a fresh exact scope/package; no remote work or training is admitted.
+Earlier entries are historical snapshots.
+
 **Whole-PGD claim refusal reviewed; grant consumed (November 23):**
 [The failed attempt and local repair are preserved and reviewed](report/checks/2026-11-23-pgd-workload-handoff-v1-target-review.md).
 The client required the old candidate prefix while the launcher used the workload

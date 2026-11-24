@@ -954,3 +954,132 @@ new exact scope/approval. No new package/grant/approval request here. The mechan
 stays closed; target qualification and training remain gated. Policies/study and
 financial caps/holds unchanged. See the
 [failed-attempt review](../report/checks/2026-11-23-pgd-workload-handoff-v1-target-review.md).
+
+## 2026-11-23 — Bind repaired whole-PGD client and test real collection locally
+
+Derive separate v2 outer/client/isolated CLI files with16 local source pins and31
+input pins, preserving every old source, failed control/package/grant and record.
+Keep the prior prefix/claim-observation repair. Correct a second stale client
+supervised-authorization literal to match the unchanged server/real reader; this
+is a new source defect found during binding, not another observed target error.
+Whole-byte inverses cover the helper and generated layers. All55 uploaded sources,
+47 runtime files, scientific ownership/math and resource/clock gates remain exact.
+
+Exercise the actual client/server bodies with a deterministic fake process/clock/
+thread/root/host/capacity/work connection, and the real packet hash/extraction,
+scanner/Guard, priority/dedup codec and local reconstruction. Compare the entire
+actual client output with the same fake server input. Project only new fake wire
+root strings onto a private backing directory; never remap devices or old records.
+This tests protocol binding and bytes, not concurrency, blocking-I/O interruption,
+physical timers/process/RSS or GPU execution. Fake work stops before proof with
+failed session, zero completed roles and false scientific/work/journal flags.
+Only a separate165-file terminal transport is verified. Preserve simulated status1.
+
+Nineteen distinct checks pass over26 executions. First12PASS/7fixture setup errors;
+only the affected7 repeat after the fixture supplies the ordinary allocated16MiB
+reserve the unchanged real guard requires. No production change or old passing/
+scientific/tiny/cohort repetition. Retain all failed artifacts and both fake server
+executions. Six malformed saved streams reuse bytes without worker/server loops.
+Standalone auditv1 passes first-run on45438 old hashes,49985 old fixture entries,
+1188 new entries, source inverses, test history and independent full wire parsing.
+No project/test/execution/scientific callbacks or array recalculation in audit;
+old FIFO lstat-only and device/lifecycle exceptions unchanged.
+
+The new adapter is unarmed. All prior grants consumed; failed49c... remote progress
+still unknown. No operational package, attended scope, approval request, new real
+authorization or remote work in this stage. Next separately prepare/review one
+exact selected primary v2 scope/package, with correct workload prefix/kind, before
+requesting a fresh exact grant. Never reuse/reset/retrieve/clean the old attempt
+or ask for repeated manual status/key paste. Mechanism stays closed, target and
+training qualification still gated, policy/study/financial caps/holds unchanged.
+User stages/commits/pushes. See the
+[local review](../report/checks/2026-11-23-pgd-workload-claim-binding-v1-local-review.md).
+
+## 2026-11-23 — Prepare and review exact unarmed v2 primary scope/package
+
+Use the reviewed v2 factory and corrected workload prefix/supervised-kind binding
+to prepare a separate exact package, outer02d380a26ce80ed39f09c1bb6a1725065e37eaf4d16bdd5ba2dff4a212e03dfe.
+Keep16 local pins,31 inputs,55 uploaded sources and47 runtime files unchanged.
+The four-file private package is unarmed with full directory/file identity baselines.
+All prior uncommitted binding work, the consumed v1 grant/failure and unknown remote
+progress remain preserved. No old claim reset, retry, query/retrieval or cleanup.
+
+One package emission succeeds over two local preparation wrappers. The first
+strict local import hook refused stdlib copy.py's optional org.python probe before
+emission; the corrected wrapper only preloads stdlib and verifies the existing
+empty parent. Preserve logs/source mirror and both outcomes. No production source
+change, passing/scientific case repeat or new test suite; inherit19 binding cases/
+26 executions. Standalone saved auditv1 passes first-run on46443 old hashes,51173
+old fixture entries and6 new entries, pins/inverses/scope/package bytes/identities.
+No project/test/execution/science callback or array recalculation in audit; FIFO
+lstat-only/deviceconditional/old lifecycle exceptions unchanged.
+
+Propose one new user-attended10614 full2.5GiB proof60s then original/candidate/fresh
+replay PGD20/R2 primary units with diagnostic step1/255/zero extra banks, at most
+120 full-model input-gradient objectives. Retain objective120/unit720 absolute
+maxima, outer soft2280/hard2400/final120/collection600/total3000 including login and
+all source/scientific/resource gates. Later units may get less time or refuse;
+no assurance of fit or current availability. No extra/component/native-component/
+closed-cohort work, FP64/full trace, warmup, optimizer, training or financial change.
+
+Request one exact new approval only after this concrete review. Until then no
+AUTHORIZATION/ATTEMPT/session, SSH/proof/GPU/model/paid work. All prior grants are
+consumed. After valid approval do not ask again: one separately reviewed O_EXCL
+append/local preflight/arming, then one user-attended command, never agent SSH.
+Keep the exact new path/name linux10614-primary-v2-final-unarmed after approval.
+Failure consumes the attempt/stops later roles; preserve all evidence. Mechanism
+stays closed, broader target/hardware/economics/calibration/protocol/training gated.
+User stages/commits/pushes. See the
+[scope](../report/checks/2026-11-23-pgd-workload-handoff-v2-scope.md) and
+[local review](../report/checks/2026-11-23-pgd-workload-handoff-v2-local-review.md).
+
+## 2026-11-23 — Accept exact v2 primary approval and arm once
+
+The user writes “I approve.” directly after the exact02d380a2... v2 primary scope
+question. Accept once without another approval request. One new O_EXCL authorization
+append through the exact v2 outer helper binds that scope/control. AUTH1728 bytes,
+SHA68757c11f5db48d0dbf630b0754bd20447bbf2c0727e7b4447787dc5e1f4d924, inode44932673/
+fullstat retained for future lifecycle review. All four old files and source/control/
+package name/path stay fixed. Package inode44930785/device/uid/gid/mode exact;
+tracked directory nlink6->7/mtime changes only, full poststat recorded, parent fixed.
+Old component/candidate/failed-v1 lifecycle exceptions remain separate. All prior
+grants consumed excludes this new armed/unspent grant. Failed-v1 progress unknown.
+
+Real local new-client preflight passes16 pins/55 sources and original archive;
+standalone saved arming auditv1 passes first-run on46479 old hashes/51179 fixture
+entries. FIFO lstat-only/deviceconditional. No project/test/execution/science
+callbacks or array recalculation in audit; no old passing/scientific case repeated.
+No attempt/session/SSH/proof/GPU/model/timer/paidwork has started. Preserve prior
+uncommitted binding/scope and all new approval/source/baseline/auditor/log evidence.
+
+Next provide one user-attended Mac Terminal command with VPN, awake Mac/open lid/
+Terminal and password prompt. Never agent SSH. Exact proof2.5GiB60s + original/
+candidate/fresh replay PGD20R2/step1/zero extra banks,120 input gradients maximum;
+objective120/unit720 absolute within soft2280/hard2400/final120/collection600/
+total3000 including login, laterless/refusal possible and no fit guarantee. Refusal
+consumes the attempt; failure stops later roles. No retry/separate retrieval/old
+cleanup/claim reset/extra-nativecomponent-closedcohort/FP64/fulltrace/training/paid
+compute or hold release. On Done/error inspect bound ATTEMPT/session/errors first;
+review exact observed lifecycle, preserve all five old file identities and source
+bytes. Mechanism closed, broader target/training gated, policy/study/finances fixed.
+User stages/commits/pushes. See
+[arming](../report/checks/2026-11-23-pgd-workload-handoff-v2-arming.md).
+
+## 2026-11-23 — Preserve the v2 preparation RSS refusal before designing a repair
+
+The approved whole-PGD v2 attempt passed the actual full storage proof, then the
+original owned worker exceeded the 4 GiB observed host-RSS cap during checkpoint
+copying. Keep the cap and all failed/incomplete records. The 173-file collection
+is independently verified; SSH exit 1 and completed roles only `[proof]` remain.
+The grant is consumed; there is no retry, separate retrieval or new approval
+request from this review. No complete unit, candidate replay or GPU fit was
+qualified. This was real target model preparation, while the local review used
+saved bytes/JSON without scientific callbacks or repeated cohorts.
+
+The next separate local change should derive and test bounded preparation order,
+using original strict checkpoint audit/copy and scientific/resource guards.
+Memory mapping is already enabled. Coexisting CPU destination and touched mapped
+pages are a plausible source inference, not a measured allocation breakdown.
+Do not adopt an implementation or widen caps from this observation alone. See
+[saved review](../report/checks/2026-11-23-pgd-workload-handoff-v2-target-review.md)
+and [preparation analysis](predictor_pgd_workload_preparation_rss_review_v1.md).
