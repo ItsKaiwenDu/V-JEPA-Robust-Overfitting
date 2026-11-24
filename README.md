@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Guarded phase accounting reviewed locally; budget stays closed (November 23):**
+[All 24 new checks and the independent audit passed first run](report/checks/2026-11-23-pgd-workload-phase-accounting-v1-local-review.md).
+The separate unbound runtime includes original context journal/timer exit and
+records preparation, scoring, restoration, publication and parent caller spans.
+All timing/scientific/OS test ports are fake; actual performance remains
+unqualified. Next bind the new client/readers locally, preserving the closed
+budget gate and consumed grants. Earlier entries are historical snapshots.
+
 **Shutdown client bound locally; current budget rejects launch (November 23):**
 [The v4 client and v3 readers pass 29 checks and an independent audit](report/checks/2026-11-23-pgd-workload-shutdown-binding-v1-local-review.md).
 They preserve the reviewed shutdown/scientific sources. The real budget gate

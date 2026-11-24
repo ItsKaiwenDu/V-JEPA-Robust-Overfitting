@@ -1,0 +1,152 @@
+{
+  "accounting_errors_do_not_skip_original_exit_or_mode_RNG_restoration": true,
+  "active_input_config": "configs/predictor_pgd_phase_accounting_inputs_v2.json",
+  "actual_Torch_NumPy_model_gradient_GPU_proof_target_or_network_work": false,
+  "actual_complete_unit_timing_overhead_memory_replay_or_budget_solution_qualified": false,
+  "actual_scope_or_handoff_or_approval_request_or_launch_command": false,
+  "all_real_grants_consumed": true,
+  "both_cold_builds_succeeded_before_tests": true,
+  "budget_decision": "REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE",
+  "byte_inverses": 10,
+  "cached_modules": 47,
+  "check_log": "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123/checks-v1.log",
+  "check_xml": "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123/checks-v1.xml",
+  "cold_builds": 2,
+  "complete_streams_independently_parsed_through_EOF": [
+    {
+      "case": "test_integrated_phase_failure_preserves_primary_and_restoration_stops_later_roles[gradient-RuntimeError]",
+      "files": 178,
+      "wire_bytes": 44554319,
+      "wire_sha256": "617848b7a86b0019917a22bf9044b539fb9d546b29735ff80269c777fe017065"
+    },
+    {
+      "case": "test_integrated_phase_failure_preserves_primary_and_restoration_stops_later_roles[phase-publish-OSError]",
+      "files": 260,
+      "wire_bytes": 44807892,
+      "wire_sha256": "aedab2bc89c10e3f337e5fa669abd5b267cdd366be5d3ac8d58e8d72925b1392"
+    },
+    {
+      "case": "test_integrated_phase_failure_preserves_primary_and_restoration_stops_later_roles[timer-exit-RuntimeError]",
+      "files": 179,
+      "wire_bytes": 44555341,
+      "wire_sha256": "9d04b620c56f34c24889cde8070f482e5b7f0b30532b6338f508f4e4a5d77b27"
+    },
+    {
+      "case": "test_integrated_primary_phase_counts_context_boundaries_parent_and_wire",
+      "files": 442,
+      "wire_bytes": 45379109,
+      "wire_sha256": "8a2fea789b5b24438b9d18d519b770a1dae774e9573194dbf33577576998494f"
+    }
+  ],
+  "current_device_frozen_observation": "runs/pretrained/diagnostic/pgd-workload-shutdown-binding-v1-20261123/LOCAL-DEVICE-OBSERVATION-v1.json",
+  "current_local_device": 16777229,
+  "current_sources": {
+    "configs/predictor_pgd_phase_accounting_inputs_v1.json": {
+      "bytes": 3063,
+      "sha256": "b4782bd91ee684a322dedf862c4169e8ecd28af7218e5ce5ba5d9d9fc2359019"
+    },
+    "configs/predictor_pgd_phase_accounting_inputs_v2.json": {
+      "bytes": 3063,
+      "sha256": "005e7809c66f5035968a5e0a03e926e61fd0222429b010c9654539dad8f8c92f"
+    },
+    "configs/predictor_pgd_phase_accounting_v1.json": {
+      "bytes": 2423,
+      "sha256": "7434ab3c464d828210570782e9f991e5d2d23247a4a72daa255a7b11eb01460d"
+    },
+    "models/predictor_pgd_phase_accounting_build_v1.py": {
+      "bytes": 21030,
+      "sha256": "5c980ccc96530b19c710f619d591f8ef0b78f0060053775e4d356da056356a86"
+    },
+    "models/predictor_pgd_phase_accounting_v1.py": {
+      "bytes": 23801,
+      "sha256": "e4feced7309506b3e3363682e5a8456c631cecbe5c6a9ea063459c588123c853"
+    },
+    "tests/test_predictor_pgd_phase_accounting_v1.py": {
+      "bytes": 18374,
+      "sha256": "bb3666d6cde927a9d28194c9baef997312970f5a9fe78bca3713bd5f3bb57c55"
+    }
+  },
+  "current_v4_client_binds_old_graph_and_is_incompatible_with_new_graph": true,
+  "date": "2026-11-24",
+  "execution_binding": null,
+  "executions": 24,
+  "existing_frozen_device_observation_used": true,
+  "extra_device_synchronization_added": false,
+  "fake_integrated_lifecycles": 4,
+  "fake_proof_bytes": 0,
+  "fake_proof_passed": false,
+  "first_run_passed": 24,
+  "full_context_includes_original_completion_journal_and_timer_exit": true,
+  "independent_audit": "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123/independent-saved-review-v1.json",
+  "independent_audit_sha256": "00fadd3bc0758bf48e8749669ed5ad26039735d1c479936fb509438ab435578f",
+  "input_pins": 11,
+  "installed_budget_source_and_v4_client_unchanged_and_closed": true,
+  "kind": "whole-pgd-phase-accounting-local-review-v1",
+  "live_mutable_indexes_excluded_from_seal": [
+    "AGENTS.md",
+    "README.md",
+    "progress.md",
+    "docs/decisions.md"
+  ],
+  "maximum_new_attempts": 0,
+  "mechanism_diagnostic_reopened": false,
+  "metadata_reservation_including_partials": 27705344,
+  "narrow_lifecycle_directory_exceptions": 4,
+  "nested_intervals_not_summed": true,
+  "nested_overlapping_intervals_summed_or_overhead_subtracted": false,
+  "new_checks": 24,
+  "new_device_or_target_remap": false,
+  "new_fixture_entries_verified": 2492,
+  "new_observer_module": 1,
+  "new_volume_or_mount_probe": false,
+  "next_separate_local_requirements": "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123/NEXT-LOCAL-BINDING-v1.json",
+  "old_FIFO_lstat_only_never_opened": 1,
+  "old_budget_gate_opened_or_actual_fit_or_performance_qualified": false,
+  "old_context_endpoints_kept_with_old_narrower_definition": true,
+  "old_real_reader_refusal_inherited_not_repeated": true,
+  "one_domain_per_interval_parent_child_epochs_not_subtracted": true,
+  "ordinary_metadata_FS_and_opaque_copies_are_real_but_all_timing_science_OS_ports_fake": true,
+  "original_cached_scientific_files_byte_exact": 41,
+  "original_owned_exit_factory_snapshot_and_native_route_AST_exact": true,
+  "own_end_row_publication_excluded_from_individual_intervals": true,
+  "parent_role_includes_worker_summary_publication_exit_and_receipt": true,
+  "passing_or_closed_scientific_cases_repeated": false,
+  "phase_intervals_are_host_caller_time_not_CUDA_kernel_time": true,
+  "primary_result_paths": 270,
+  "prior_actual_v3_failed_and_31_of_40_partial_unchanged": true,
+  "prior_fixture_entries_verified": 65294,
+  "prior_hashes_verified": 59365,
+  "production_changed_after_checks": false,
+  "project_test_scientific_subprocess_or_timer_callbacks_in_audit": false,
+  "raw_stage": "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123",
+  "real_filesystem_reserves": {
+    "bytes_each": 16777216,
+    "count": 4
+  },
+  "research_admitted": false,
+  "result": "PASS",
+  "runtime_bytes": 481518,
+  "runtime_files": 48,
+  "saved_audit_recorded_date": "2026-11-24",
+  "scientific_modules_AST_exact_after_phase_only_unwrap": 4,
+  "seal": "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123/sealed-workload-phase-accounting-v1.json",
+  "source_before_checks": "runs/pretrained/diagnostic/pgd-workload-phase-accounting-v1-20261123/SOURCE-BEFORE-CHECKS-v1.json",
+  "source_clock_caps_deadlines_and_scientific_bodies_widened": false,
+  "source_control_sha256": "d997bf9ed74c8ebf4504a5e6214a35e28365f85e9da3d7738a5b58f5edaa9f29",
+  "source_manifest_sha256": "9a84c7048d7b5e4c2d285cad2aa6dac9907bf9fa18bf9e9f6290df33ef06b998",
+  "stage_date": "2026-11-23",
+  "stage_started": "2026-11-23",
+  "starting_clean_user_commit": "05cc432",
+  "startup_rows_retroactive_with_live_same_process_entry_sample": true,
+  "summary_publication_failure_preserves_old_worker_complete_TRUE_but_parent_FAILED": true,
+  "supervisor_slots": 9,
+  "tensor_or_scientific_array_values_decoded_or_recalculated_in_audit": false,
+  "total_preserved_fixture_entries": 67786,
+  "training_admitted": false,
+  "training_percentage_or_time_estimate": null,
+  "unit_timers_alarms_monitor_proof_scanner_and_budget_unchanged": true,
+  "uploaded_bytes": 936711,
+  "uploaded_sources": 56,
+  "user_alone_stages_commits_pushes": true,
+  "worker_scope_excludes_own_summary_publication_close_and_return": true
+}

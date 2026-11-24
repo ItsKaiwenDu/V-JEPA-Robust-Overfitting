@@ -2,6 +2,79 @@
 
 ## Current stage
 
+LATEST November 23: GUARDED PHASE ACCOUNTING REVIEWED LOCALLY; UNBOUND.
+Read docs/predictor_pgd_phase_accounting_v1.md, phase accounting design/inputs_v2
+and report/checks/2026-11-23-pgd-workload-phase-accounting-v1-local-review.json/md.
+Raw pgd-workload-phase-accounting-v1-20261123; saved independent audit v1 PASS
+FIRST RUN. Starting clean user commit05cc432. User stages/commits/pushes NEVER
+agent. Preserve ALL source/test/auditor versions, fixtures/logs/failures/results/
+statuses/claims. All real grants CONSUMED. No actual scope/handoff/package/grant/
+approval request/launch command, SSH/query/upload/retry/resume/retrieval/remote
+cleanup/target process/GPU/proof/paid work or repeated manual paste in this stage.
+
+Separate cold factory+stdlib ledger; LIVE_EXECUTION_BINDING NULL; definitions/
+control/payload/manifest ONLY, NO client/scope/package/authorization/launch API.
+11 active input pins/10 generated full-byte inverses. Four scientific modules
+AST exact after ONLY phase bridges unwrapped; 41 old cached files BYTE EXACT.
+OwnedStep/factory/snapshot/native route AST exact; timers/alarms/proof/monitor/
+scanner/assessment/Guard unchanged. New graph56uploads936711B/runtime48files481518B/
+cache47/nine supervisors/270primarypaths. Six worker+three root sidecars; shared
+metadata incl permitted partials27705344B under original caps. Objective120/
+unit720/setup180/proof60/soft2280-hard2400/final120/collection600/connection3000,
+RSS4GiB/allocator7GiB/storage/process/thread/sample/cleanup caps unchanged.
+
+One owned process/thread monotonic domain per interval, source/plan/role/deadline
+joins; NEVER subtract parent/child or old performance/new monotonic epochs.
+Entire outer context includes original constructor/entry/completion journal/
+objective timer exit; own end-row publication EXCLUDED. Worker caller includes
+UnitTimers exit/earlier row publications, EXCLUDES own summary/close/return.
+Parent role includes worker summary/exit/receipt; outer setup separately recorded.
+Startup sample live, rows retrospective. Nested spans overlap NEVER SUM or
+subtract overhead. Host caller intervals NOT CUDA kernel time; no extra sync.
+Bounded anchored/fsynced/hash-chained metadata; live exact ledger before science,
+dictionary cannot bind execution. Original exit runs before observer; restoration
+ALWAYS runs after observer-start failure. Primary errors preserved; incomplete/
+missing accounting refuses completion. Metadata equality never authenticates
+actual science/replay/execution/performance.
+
+24 new distinct checks PASS FIRST RUN/24 executions; production unchanged after
+checks. Both cold builds PASS BEFORE tests; pre-check v2 reader refinements and
+all v1 sources/input pins/output retained. Four FAKE lifecycles: one complete
+four-role +gradient/timer-exit/summary-publication failures. Four complete raw
+streams442/178/179/260files independently parsed through EOF. Each successful
+worker200rows/40contexts/42selection/6scores. Publication failure retains old
+worker completeTRUE written earlier; missing phase summary+failed parent prevents
+promotion. All failed/session/work/partial/journal flags unchanged; transportTRUE
+separate. Fake proofFALSE/zeroB/prior real refusal inherited. All scientific/OS/
+process/PIDFD/signal/timer/clock/GPU/proof ports FAKE. Four16MiB reserves+opaque
+copies REAL filesystem work; synthetic clocks NOT measurements of it. No actual
+Torch/NumPy/model/gradient/target/GPU/proof/network/oracle or old cohort repeats.
+Actual v3 proof+31/40 partial/failed status and consumed grants remain unchanged.
+
+STD independent audit FIRSTPASS59365 priorhashes/65294 priorfixtures/2492 new/
+11pins/10inverses/ASTs/cold-test histories/four full raw wire joins. No project/
+test/scientific callbacks, tensor decode/recalc, subprocess/signals/timers/GPU/
+proof/network IN AUDIT. Historical FIFO LSTAT ONLY NEVER OPEN. Current16777229
+uses preceding FROZEN observation; no new probe/remap/waiver; old device records,
+target66307 and four narrow lifecycle exceptions fixed. Any later device change
+requires new record/review. Seal sealed-workload-phase-accounting-v1.json; live
+mutable indexes excluded with exact before/after snapshots. Mechanism CLOSED.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE unchanged: installed budget/v4client
+UNCONDITIONALLY CLOSED before protocol clock/ATTEMPT/connection. New phase graph
+UNBOUND and incompatible with old v4 operational identities; no budget source
+opened. Three full720 windows+setup/proof ceilings still exceed soft2280; phase
+instrumentation establishes NO actual performance, fit or budget solution.
+NEXT SEPARATE LOCAL ONLY per NEXT-LOCAL-BINDING-v1.json: bind new client/outer/CLI/
+bootstrap/scratch/collection readers to exact phase graph and new completion
+joins; local fake controls/independent review, budget gate MUST remain closed.
+No scope/approval/retry/widening v3. Full units/fresh replay/matched timing and
+overhead/memory/recovery/economics/calibration/data/protocol/training still gated.
+TrainingPGD5EOT1/routineEOT1/optimizerbackward/registry/studyYAML and financial
+200/160/40/single10 caps+holds fixed; old snapshots historical not fresh quotes
+or balance. Research/trainingFALSE; no training percentage/time estimate.
+Earlier entries historical.
+
 LATEST November 23: SHUTDOWN CLIENT BINDING REVIEWED; CURRENT BUDGET REJECTED.
 Read docs/predictor_pgd_workload_shutdown_binding_v1.md, both shutdown_binding
 configs, budget_v1 design/source and report/checks/2026-11-23-pgd-workload-shutdown-binding-v1-local-review.json/md.

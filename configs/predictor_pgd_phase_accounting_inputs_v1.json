@@ -1,0 +1,61 @@
+{
+  "execution_binding": null,
+  "files": {
+    "configs/predictor_pgd_phase_accounting_v1.json": {
+      "bytes": 2423,
+      "sha256": "7434ab3c464d828210570782e9f991e5d2d23247a4a72daa255a7b11eb01460d"
+    },
+    "configs/predictor_pgd_workload_budget_v1.json": {
+      "bytes": 1480,
+      "sha256": "d0f131f0f996ba20b1498d3a519586d175d4178723ec68f679d2cc92d85efc7e"
+    },
+    "models/predictor_pgd_phase_accounting_v1.py": {
+      "bytes": 22752,
+      "sha256": "4a35e47e2800c6dd6d6fabdb1bada7c1edc85b4ef0f5f195bd7c59c47b1c9187"
+    },
+    "models/predictor_pgd_workload_budget_v1.py": {
+      "bytes": 476,
+      "sha256": "2700c1bb4a18578d4a689a4dc13952279e879cbf19ccd0319a8e67b6e63a6398"
+    },
+    "models/predictor_pgd_workload_shutdown_logic_v1.py": {
+      "bytes": 7452,
+      "sha256": "11a7e205d6cb8e17275cce5052a95d227cc84749cd2477807174b110fea8ee90"
+    },
+    "models/predictor_pgd_workload_shutdown_v1.py": {
+      "bytes": 16010,
+      "sha256": "58cc20af54243c6e298c0c1febc0dc2d663ecd9ef8756fca10e688e7f98ba6cb"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-shutdown-binding-v1-20261123/NEXT-LOCAL-PHASE-ACCOUNTING-v1.json": {
+      "bytes": 2661,
+      "sha256": "21681d3066544aa6a6426ce46513e96c6efc3c8cce6c81b927322f1f0fd55cdb"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/cold-build-v2/CONTROL-UNBOUND.json": {
+      "bytes": 128408,
+      "sha256": "bbb6e9789e34998d2f07b5b2ece487baa32b22b7638086dee7f1358a2a7b194c"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/cold-build-v2/SOURCE-MANIFEST-v1.json": {
+      "bytes": 25745,
+      "sha256": "4be3c67dbfc8b0e1bb2268aa8a55b7f05c13bfd95c0dda0de7e1d12f13cdc69d"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/cold-build-v2/SOURCE-PAYLOAD.json": {
+      "bytes": 1209813,
+      "sha256": "2b1f4438572c2638dd329c9f4da6c6d63c1e91bb01b9444d6213dd634390c7bb"
+    },
+    "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/cold-build-v2/outer-unbound.py": {
+      "bytes": 43608,
+      "sha256": "f9cc382f3e6a247e2d239b7f5ceeae6d79c89214363d84c9d424458c3815cb6b"
+    }
+  },
+  "kind": "whole-pgd-phase-accounting-local-input-pins-v1",
+  "maximum_new_attempts": 0,
+  "packet_path": "runs/pretrained/diagnostic/eot-work-profile-university-20261029/packet/vjepa-eot-profile.tar.gz",
+  "pins": {
+    "contract": "runs/pretrained/diagnostic/pgd-workload-shutdown-binding-v1-20261123/NEXT-LOCAL-PHASE-ACCOUNTING-v1.json",
+    "control": "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/cold-build-v2/CONTROL-UNBOUND.json",
+    "design": "configs/predictor_pgd_phase_accounting_v1.json",
+    "helper": "models/predictor_pgd_phase_accounting_v1.py",
+    "manifest": "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/cold-build-v2/SOURCE-MANIFEST-v1.json",
+    "outer": "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/cold-build-v2/outer-unbound.py",
+    "payload": "runs/pretrained/diagnostic/pgd-workload-shutdown-v1-20261123/cold-build-v2/SOURCE-PAYLOAD.json"
+  }
+}

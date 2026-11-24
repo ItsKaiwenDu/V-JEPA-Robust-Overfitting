@@ -1,5 +1,38 @@
 # Research Progress Reports
 
+November23: guarded whole-PGD phase accounting implemented/reviewed LOCALLY,
+UNBOUND.24distinct checks PASS FIRST RUN/24exec; independent saved audit v1 PASS
+FIRST RUN. Two cold builds pass before tests; all pre-check v1 sources/inputs/
+outputs retained, production unchanged after checks.11pins/10byteinverses/four
+scientific modules AST exact after phase-only unwrap/41oldcached byteexact.
+Owned exit/native/factory/snapshot/timers/alarms/proof/monitor/scanner/Guard fixed.
+Graph56uploads936711B/runtime48/481518B/cache47/nine supervisors/270primarypaths;
+metadata reservation27705344B incl partials under oldcaps. Entire outer contexts
+include original journal/timer exit; own end-row publication excluded. Worker
+caller includes UnitTimers exit, excludes own summary/close/return; parent role
+includes worker summary/exit/receipt. One owned monotonic domain, startup rows
+retrospective, nested spans NOT SUMMED/no overhead subtraction/no device timing.
+Original exit/restoration mandatory on observer failure; primary error preserved.
+Four FAKE lifecycles/four442-178-179-260file transports; 3successfulworker journals
+each200rows/40contexts/42selection/6score. Failed summary publication keeps old
+worker completeTRUE but missing phase metadata/failed parent prevent promotion.
+All failed/session/work/partial/journal statuses retained; transportTRUE separate.
+ProofFALSE/zeroB; all compute/OS/clock/timer/GPU/proof ports FAKE. Four16MiBreserves
+and opaque copies REAL FS; no actual science/target/network or closed cohort
+repeat. STD audit59365priorhashes/65294priorfixtures/2492new/11pins/10inverses/ASTs/
+history/fourwireEOF joins; no project-test callbacks/tensorcalcs/OS-timer work.
+FIFO LSTAT ONLY/currentdevice29 via priorfrozenobservation/no newprobes-remap/
+four exact lifecycleexceptions. Seal sealed-workload-phase-accounting-v1.json,
+index snapshots retained. Actualv3 partial31/40+failed/consumed grants unchanged.
+Budget REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; installed v4client/gate CLOSED, new
+graph UNBOUND/incompatible. NEXT separate LOCAL binding per NEXT-LOCAL-BINDING-v1;
+no scope/approval/launch/remote work. Actual completeunit timing/overhead/fit,
+replay/memory/recovery/economics/calibration/data/protocol/training gated. Mechanism
+CLOSED, all caps/scientific/policy/study/financial holds fixed, research/training
+FALSE/no percentage or time estimate. User alone stages/commits/pushes. See
+report/checks/2026-11-23-pgd-workload-phase-accounting-v1-local-review.json/md and
+docs/predictor_pgd_phase_accounting_v1.md. Earlier entries historical.
+
 November23: separate v4shutdown client/outer/CLI +v3readers reviewed LOCALLY.
 29 distinct checks finalPASS/30exec: first28PASS/1wrong exception expectation,
 ONLYassertion fixed/ONLYfailed node rerunPASS; production unchanged.17inputpins/

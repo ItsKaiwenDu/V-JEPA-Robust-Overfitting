@@ -1217,3 +1217,24 @@ device29 observation is explicit and independently reviewed, preserving prior33
 records and target gates; the cause remains unknown. See
 [review](../report/checks/2026-11-23-pgd-workload-shutdown-binding-v1-local-review.md)
 and [binding/budget details](predictor_pgd_workload_shutdown_binding_v1.md).
+
+## 2026-11-23 — Account for whole contexts without qualifying a new execution budget
+
+Derive separate unbound phase accounting from the reviewed shutdown runtime.
+Preserve scientific bodies, original ownership/hashing/restoration, absolute
+deadlines and resource caps. Include original context journal/timer exit, record
+explicit parent/child caller boundaries, and never sum nested spans or subtract
+unrelated epochs. Observation failures cannot skip original cleanup/restoration.
+
+All24 new checks and the independent saved audit pass first run. Four new fake
+lifecycles retain complete and failed evidence through full wire EOF joins. A
+missing phase summary prevents parent completion even when the old worker marker
+was already TRUE; preserve both records. Fake timing is not measured performance.
+No actual target/scientific work or passing/closed cohort repeat occurs.
+
+The installed budget stays unconditionally closed. Next bind a separate client
+and local readers to the new graph/completion joins, using fake ports locally.
+This instrumentation does not solve the rejected full-unit budget or authorize
+a scope, approval request or launch. Keep policies, study and finances fixed.
+See [review](../report/checks/2026-11-23-pgd-workload-phase-accounting-v1-local-review.md)
+and [phase boundaries](predictor_pgd_phase_accounting_v1.md).
