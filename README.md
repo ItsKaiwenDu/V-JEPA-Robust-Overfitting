@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Local fake diagnostic policy passed; real admission remains on hold (November25):**
+[The saved validation](docs/predictor_pgd_diagnostic_evidence_validation_v1.md)
+records 32 new cases and 41 logical calls, all passing first execution. Independent
+saved audit passed; no target, original workload, clock or benchmark ran. This
+validates supplied fake states only. Next is a source/ownership/refusal review;
+the supported gate, all real grants and training remain closed. Earlier entries
+are historical.
+
 **Local preparation adopted; diagnostic proposal ready for local review (November25):**
 [The proposal](docs/predictor_pgd_diagnostic_evidence_proposal_v1.md) and
 [local validation request](docs/predictor_pgd_diagnostic_evidence_proposal_v1_approval_request.md)

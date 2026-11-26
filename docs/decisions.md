@@ -1666,3 +1666,35 @@ old29/target66307/four exact lifecycle exceptions/FIFO LSTAT-only preserved.
 All old genuine proof31gradients/wholeunits0/failed-partial-pending-consumed
 statuses remain. Exact index snapshots sealed; no agent Git mutation. Automatic
 short title and numbered description remain the commit-message preference.
+
+## November25: validate new fake diagnostic policy; retain real admission hold
+
+The user's “Committed; next step!” instruction after the prepared local request
+directed the disclosed32-case FAKE-only validation once. Authorization records
+retain the exact message and narrow scope; no target permission or selected
+questionnaire option is invented. Original model/cases and prior NOT_RUN
+snapshots remain unchanged. No agent Git mutation.
+
+[New validation](predictor_pgd_diagnostic_evidence_validation_v1.md) passed32 cases/
+41 policy calls/32 independent checker calls on first execution;12 inputs and
+independent full step oracles frozen before first case. No warmup/retry/failure/
+cap stop/blocked port/stopwatch/old cohort. Unexecuted v1 runner static issues
+fixed in v2 before first case; all versions/inverse/logs retained. The artifact
+cap includes all case and saved-audit source/versions/copies/results/logs, not a
+physical memory bound. Fake completion/fit labels never admit real work/training.
+
+Saved audit v1 FIRST PASS71954 prior hashes/78043 prior fixtures/33new/78076total/
+40 prior pins/12 frozen inputs/41 step joins/two closed-gate AST assertions;
+no model/checker/runner/project/test/scientific callback rerun. Device33 prior
+v4 conditional local LSTAT review only; old29/target66307/four lifecycle
+exceptions/FIFO LSTAT-only unchanged. Exact index snapshots sealed.
+
+Next is a separate NEW static source/inverse/domain/refusal/ownership obligation
+map using this new fake evidence, before any real diagnostic implementation can
+be designed. No prototype/benchmark repeat, gate/source binding edit, active
+grant/handoff/package/launch, operational approval request or target action.
+All real grants consumed, real attempts0, binding null, supported gate closed.
+All original scientific/resource/financial constraints and old genuine proof/
+31 gradients/wholeunits0/failed-partial-pending-consumed statuses remain.
+Actual provenance/quiescence/complete-unit timing/memory/replay/recovery and all
+other qualification gates remain; training stays closed with no estimate.

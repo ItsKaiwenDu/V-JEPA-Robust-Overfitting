@@ -2,6 +2,86 @@
 
 ## Current stage
 
+LATEST November 25: NEW LOCAL FAKE DIAGNOSTIC POLICY VALIDATED; REAL ADMISSION HOLD.
+Read docs/predictor_pgd_diagnostic_evidence_validation_v1.md, validation config
+and report/checks/2026-11-25-pgd-diagnostic-evidence-validation-v1-local-review.json/md.
+Raw pgd-diagnostic-evidence-validation-v1-20261125. Starting clean user-pushed
+a5bd0da. User said "Committed; next step!" after concrete32-case local request;
+LOCAL-VALIDATION-AUTHORIZATION-v1.json records that exact instruction directing
+ONLY the disclosed local runner/32 NEW FAKE cases ONCE. Not a selected answer or
+target grant. No agent Git mutation. Default user Git unless EXPRESSLY requested;
+automatic short clear commit title +NUMBERED description each big step. Preserve
+ALL source/test/auditor versions/fixtures/logs/failures/results/statuses/claims.
+
+NEW32 cases/32 executions/41 logical policy calls/32 checker calls FIRST PASS.
+12 source/input/oracle snapshots frozen BEFORE model definitions/first case;
+all source/manual oracles unchanged after first case. Independent41 full step
+oracles/each exact input-before-after/output/state join. Both fit labels actual
+admission FALSE; consumed fake IDs/attempt ceiling/held owner/refusal/complete-
+incomplete evidence labels never qualify real execution or training. Fixed JSON
+domain ONLY, NOT exhaustive hostile Python/security/physical authority/ownership/
+process/clock/resource enforcement proof. Real attempts0/execution binding null.
+Original model/cases/proposal NOT_RUN snapshots retained historical/unchanged.
+
+Isolated stdlib runner/checker ONLY, outside unchanged runtime/upload graph.
+Restricted builtins/pinned2 definition execs/later import-source denial/available
+process-thread-clock function blocks; no original Snapshot/Torch/NumPy/model/
+tensor/gradient/worker/FileSink/ledger/scientific or actual workload/process/
+PIDFD/signal/thread/clock/timer/network/GPU/proof ports. No stopwatch/benchmark/
+warmup/retry/old cohort.0 unexpected failures/cap stops/blocked-port attempts.
+Unexecuted runner v1 static findings (missing builtin types/partial failure
+capture) corrected in v2 BEFORE first case; both versions/inverse/logs retained.
+Case evidence 462056B <=1MiB includes ALL case source versions/checking/
+saved-audit/frozen copies/starts/raw results/logs; result cap32768B. Predeclared
+administrative exclusions unchanged. Artifact cap NOT physical heap/RSS proof.
+This32-case local authorization is now used; no repeat authorized automatically.
+
+STD saved audit v1 PASS FIRST EXECUTION:71954 prior hashes/78043 prior fixtures/
+33 NEW result fixtures (32results+1summary)/78076 total/40 prior pins/12 frozen
+inputs/41 saved result-oracle joins/2 closed-gate AST assertions. No runner/model/
+checker/project/test/scientific callbacks reexecuted or scientific value decode-
+recalc/process/clock/timer/GPU/proof/target/network IN AUDIT. Source/JSON/AST/stat/
+hash real. Initial absent guessed old-runner path retained; no old runner run.
+Device33 prior v4 LSTAT review CONDITIONAL LOCAL metadata only; old29 refusal/
+records/target66307/four exact lifecycle exceptions unchanged. FIFO LSTAT ONLY
+NEVER OPEN. No mount probe/remap/waiver/volume authentication. Future device
+change needs new record/review. Seal sealed-diagnostic-evidence-validation-v1.json;
+live indexes excluded/exact before-after snapshots. Preserve every old claim.
+
+NEXT SEPARATE LOCAL ONLY per NEXT-LOCAL-DIAGNOSTIC-ADMISSION-SOURCE-REVIEW-v1.json:
+NEW source-only map of NOW TESTED fake contract versus current supported budget
+refusal and actual one-shot/ownership/deadline/refusal boundaries. Identify full
+source/inverse/domain/ownership obligations BEFORE deciding if real diagnostic
+admission implementation can be designed. No API/adapter/binding/source gate
+edit/active grant/handoff/package/launch/operational approval request or target
+work. Do NOT repeat this pass/old cohorts/prototype/benchmark without new explicit
+scope. Local preparation amendment remains narrow; no other execution exception.
+
+TARGET HOLD_NOT_READY_NOT_REQUESTED. Real admission source unimplemented/
+unreviewed; current remote ownership/quiescence and deployed binary/build/ABI/
+backend joins UNKNOWN. Future preflight ITSELF target work needing separate
+source review/fresh explicit authority/original clock accounting. All real
+grants CONSUMED. No university query/SSH/upload/download/install/retry/resume/
+retrieval/cleanup/GPU/proof/paid work/manual paste. Old genuine proof31gradients/
+wholeunits0/candidate-replay notstarted/all failed-partial-pending-consumed flags
+unchanged. Oldv347/450548B NOT current48/481518B; no actual current-phase target
+execution/current remote state/lost primary cause claim. Copy provenance gap,
+prior encoding/expected-row cost rejections and all old proof statuses fixed.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; installed v5 gate unconditionally
+CLOSED before protocol clock/ATTEMPT/connection; private/older helpers no bypass.
+Graph56uploads936711B/runtime48files481518B/cache47/nine supervisors/270paths/
+control d997bf9e... unchanged. Objective120/unit720/setup180/proof60/soft2280-
+hard2400/final120/collection600/connection3000/RSS4GiB/allocator7GiB/all other
+caps fixed. Original science/native/guards/owner/hash/immutable copies/EVERY
+fresh hash/ordered state_digest/durability/shutdown/continuing clocks unchanged.
+Mechanism CLOSED/research-training FALSE. Actual source/inverse/domain/refusal/
+ownership/complete unit timing-memory-fresh replay-recovery/economics/calibration/
+data/protocol/training and all other gates remain. TrainingPGD5EOT1/routineEOT1/
+optimizer backward/registry/studyYAML/financial200/160/40/single10 caps+holds fixed;
+historical snapshots not current quotes/balance. No training percentage/time
+estimate. Earlier entries historical.
+
 LATEST November 25: LOCAL PREPARATION AMENDMENT ADOPTED; DIAGNOSTIC PROPOSAL DRAFTED.
 Read docs/predictor_pgd_diagnostic_evidence_proposal_v1.md, diagnostic_evidence_proposal
 config, LOCAL-VALIDATION-PLAN-v1.json/cap-membership and approval_request document;
