@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Expected-row local cost measured; candidate rejected (November25):**
+[The saved cost review](report/checks/2026-11-25-pgd-expected-rows-cost-v1-local-review.md)
+records36 new cases/32 matched batches: candidate1.2426 times baseline, higher in
+all8 groups, with matching outputs. Preserve the prior proof; do not integrate
+this candidate. New device33 has a separate conditional local LSTAT record/review;
+no physical-volume claim. No replacement selected; training gate remains closed.
+Earlier entries historical.
+
 **Expected-row outer-list prototype passes local proof (November24):**
 [The new synthetic proof](report/checks/2026-11-24-pgd-expected-rows-v1-local-review.md)
 passes101 new checks first run: only the outer list is reused; every tuple and

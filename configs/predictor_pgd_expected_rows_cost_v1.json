@@ -1,0 +1,121 @@
+{
+  "all_batch_results_and_lookup_receipts_match_frozen_oracles": true,
+  "all_real_grants_consumed": true,
+  "batches": 32,
+  "batches_per_arm": 16,
+  "benchmark_source": "runs/pretrained/diagnostic/pgd-expected-rows-cost-v1-20261125/benchmark-v2.py",
+  "benchmark_source_sha256": "efb97f656f9f4815659adcdcabb4aafb6cb81dfec1024abf2eb8724dba19d931",
+  "blocked_port_attempts": [],
+  "budget_decision": "REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE",
+  "budget_gate_opened": false,
+  "candidate_implemented_into_runtime_or_adopted_for_integration": false,
+  "cap_stop": null,
+  "comparisons_per_batch": 288,
+  "current_local_device": 16777233,
+  "decision": "REJECT_EXPECTED_OUTER_LIST_CANDIDATE_ON_THIS_LOCAL_COST_CORPUS",
+  "dedicated_stopwatch_reads": 66,
+  "device29_preservation_refusal_all_versions_and_full_inverse_preserved": true,
+  "device_change_review": "runs/pretrained/diagnostic/pgd-expected-rows-cost-v1-20261125/DEVICE-CHANGE-REVIEW-v1.json",
+  "device_change_review_sha256": "c497d7b67c707905dceb7f0897795001ccc8abb4288b0526b7741e9f13094a27",
+  "excludes": "Imports/definition loading/AST checks, corpus JSON decoding, preservation/index/audit/other administrative FS, output artifact writes; no FileSink/whole ledger/worker/science or original guard. No overhead subtraction.",
+  "execution_binding": null,
+  "failure": null,
+  "frozen_helper_sources_new_corpus_or_oracles_changed_after_measurement": false,
+  "full_guard_domain_physical_ownership_peakmemory_target_speed_or_complete_unit_fit_qualified": false,
+  "helper_source": "models/predictor_pgd_expected_rows_v1.py",
+  "helper_source_sha256": "b5309b3cf0648b489c2fbe529a046e38743eec1cbb08de995eaf7e4a82e3322d",
+  "historical_device_records_or_target_device_gates_rewritten": false,
+  "includes": "Each batch: candidate-owner construction and close; both arms complete input tuple/list construction, fake identity-map/spy construction and EVERY fresh lookup, expected tuples/lists, candidate eligibility/clear/refill/comparison/cleanup, correctness checks, receipt encoding/SHA256 and aggregate bookkeeping. Baseline has no candidate-owner state.",
+  "kind": "expected-row-LOCAL-cost-review-decision-v1",
+  "lookups_per_batch": 10224,
+  "matched_ABBA_groups": [
+    {
+      "baseline": 8913834,
+      "candidate": 10815751,
+      "candidate_more_ns": true,
+      "group": 0
+    },
+    {
+      "baseline": 8502750,
+      "candidate": 10890667,
+      "candidate_more_ns": true,
+      "group": 1
+    },
+    {
+      "baseline": 8835375,
+      "candidate": 10763125,
+      "candidate_more_ns": true,
+      "group": 2
+    },
+    {
+      "baseline": 8865417,
+      "candidate": 10983166,
+      "candidate_more_ns": true,
+      "group": 3
+    },
+    {
+      "baseline": 8898541,
+      "candidate": 10822667,
+      "candidate_more_ns": true,
+      "group": 4
+    },
+    {
+      "baseline": 8607584,
+      "candidate": 11015250,
+      "candidate_more_ns": true,
+      "group": 5
+    },
+    {
+      "baseline": 9593333,
+      "candidate": 10807083,
+      "candidate_more_ns": true,
+      "group": 6
+    },
+    {
+      "baseline": 8799874,
+      "candidate": 12146042,
+      "candidate_more_ns": true,
+      "group": 7
+    }
+  ],
+  "maximum_new_real_attempts": 0,
+  "mount_probe_remap_waiver_or_physical_volume_authentication_performed": false,
+  "new_cost_cases": 36,
+  "new_device_scope_conditional_local_metadata_only": true,
+  "new_frozen_source_oracle_files": 5,
+  "no_overhead_subtracted": true,
+  "no_warmup_or_untimed_helper_callback_runs": true,
+  "observations_sha256": "04c42f740ffe9428ea97f401a198bb1ad391374f515add86cb5c33b71f476a43",
+  "old_encoding_benchmark_symbolic_harness_or_scientific_cohort_repeated": false,
+  "operational_scope_package_grant_approval_request_or_launch_created": false,
+  "original_Snapshot_guard_model_tensor_gradient_worker_FileSink_or_ledger_executed": false,
+  "plan_sha256": "0e67706814432aa9a85873f8022d1afa51e994c1cdbde521ff27ac0d2dae01ee",
+  "previous_local_device": 16777229,
+  "prior_semantics_proof_or_its_status_changed_or_repeated": false,
+  "prior_source_pins": 23,
+  "ratio_candidate_to_baseline": 1.242577324198131,
+  "raw_stage": "runs/pretrained/diagnostic/pgd-expected-rows-cost-v1-20261125",
+  "repetitions_per_batch": 8,
+  "replacement_candidate_or_new_operational_route_selected": false,
+  "research_admitted": false,
+  "review_only": true,
+  "runtime_science_hash_copy_state_digest_durability_shutdown_clocks_or_caps_changed": false,
+  "scientific_values_decoded_or_recalculated": false,
+  "short_single_local_run_not_statistical_or_target_calibration": true,
+  "summary": {
+    "baseline": {
+      "batches": 16,
+      "comparisons": 4608,
+      "elapsed_ns": 71016708
+    },
+    "candidate": {
+      "batches": 16,
+      "comparisons": 4608,
+      "elapsed_ns": 88243751
+    }
+  },
+  "target_network_query_GPU_proof_paid_or_operational_work_performed": false,
+  "total_local_stopwatch_ns": 159315416,
+  "training_admitted": false,
+  "training_percentage_or_time_estimate": null
+}

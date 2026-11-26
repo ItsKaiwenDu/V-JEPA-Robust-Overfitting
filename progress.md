@@ -1,5 +1,78 @@
 # Research Progress Reports
 
+LATEST November 25: EXPECTED-ROW LOCAL COST MEASURED; OUTER-LIST CANDIDATE REJECTED.
+Read docs/predictor_pgd_expected_rows_cost_v1.md, expected_rows_cost config and
+report/checks/2026-11-25-pgd-expected-rows-cost-v1-local-review.json/md. Raw
+pgd-expected-rows-cost-v1-20261125. Starting clean USER commit254ca59, origin/main==HEAD.
+No agent staging/commit/push thisstep. Default user Git unless EXPRESSLY requested.
+USER PREFERENCE automatically short clear commit title +NUMBERED description
+eachbigstep. Preserve ALL sources/tests/auditor versions/fixtures/logs/failures/
+results/statuses/claims. All real grants CONSUMED. No operational scope/handoff/
+package/grant/approval request/launch command, university query/SSH/upload/retry/
+resume/retrieval/remote cleanup/target/GPU/proof/paid work or manualpaste.
+
+ONE NEW LOCAL stdlib METADATA comparison:36NEW typed cases/sizes0,1,4,16,64,128/
+all3kinds/equal-different;23priorpins/5new source-oracle snapshots frozen BEFORE
+timing.32batches/16arm/eightABBA groups/eight sweeps perbatch/288comparisons and
+10224FRESHfake lookups perbatch. Baseline71016708ns/candidate88243751ns, ratio
+1.242577324198131; candidate higher ALL8groups. Totaldedicatedstopwatch159315416ns/
+66reads. ALL9216 saved outputreceipts/32batchdigests match independent oracles.
+No warmup/untimed helper callbacks/failure/capstop/blockedport. Helper/newsource/
+oracles unchanged afterfirstmeasurement. Inputconstruction/freshfakeidentity/
+tuples/eligibility/listclear-refill/comparison/cleanup/receipt encoding-hash-spy
+bookkeeping WHOLElocal paths; candidate-owner construct/close INSIDEbatches.
+Imports/definitions/AST/corpusdecode/artifactFS/admin excluded; NO overhead
+subtraction. SHORT SINGLE LOCAL RUN, NOT statistical/target calibration,
+dominantcost/physicalmemory/wholeunit-fit/training evidence. Dedicated LOCAL
+stopwatch only OUTSIDE boundedbatches; cooperative5s total NOT OSenforcement.
+Original workload clock/timer/process/PIDFD/signal/thread/network ports DENIED.
+
+DECISION REJECT_EXPECTED_OUTER_LIST_CANDIDATE_ON_THIS_LOCAL_COST_CORPUS. Do NOT
+integrate/bind/adopt. Prior101NEW synthetic proof stays valid/UNCHANGED, NOT
+repeated or erased. Existing immutable tobytes/EVERY fresh hash/orderedstate_digest
+and all runtime/science/guard/cap bytes unchanged. NO replacement selected. Per
+NO-ACTIVE-INTEGRATION-CANDIDATE-v1.json: advancement requires separately scoped
+NEW source-backed rationale preserving ALL requirements OR NEW exact offline
+artifact/provenance for deferred route. None selected/produced here. DO NOT repeat
+this cost run/oldencoding benchmark/passing proof/harness/closedscience/closed
+inventory/frozen sourcereviews without NEW evidence. Copyprovenancegap and old
+encoding rejection unchanged. No automatic targetquery/fetch/install/operational
+scope/grant/approval request/launch follows. Local cost never admits execution.
+
+PRESERVATIONv1 REFUSED olddevice29 condition BEFORE benchmark. Failure/source kept.
+NEW LOCAL-DEVICE-OBSERVATION-v4.json uses LSTAT ONLY:current33(previous29), root+
+five tracked directories+FIFO. NO mount/diskutil/hardware probe/remap/waiver.
+V2preservation+independent DEVICE-CHANGE-REVIEW-v1 PASS71708priorhashes/78043fixtures,
+fullpreservation-source byteinverse/7observations. CONDITIONAL LOCAL METADATA ONLY,
+NOT physical-volume/reason authentication; reused integer33 never joins oldvolume.
+Oldrecords/device29/target66307/four exact lifecycle exceptions UNCHANGED. Historical
+mountmetadata NOT currentvolume observation. Futuredevicechange newrecord/review,
+never genericremap. Unexecuted cost/freezev1 drafts preserved; v2 boundnewrecord,
+onlyv2 benchmark runs ONCE. FIFO LSTAT ONLY NEVER OPEN/READ/HASH.
+
+Independent COST saved auditv1 FIRSTPASS71708priorhashes/78043priorfixtures/0new/
+23pins/5frozenfiles/36oracles/32timingintervals/9216receipts/8groups. No benchmark/
+helper/test/project/scientific callbacks or scientificvalue decode-recalc/workload
+process/clock/timer/GPU/proof/network IN AUDIT. New stdlib metadata compute/FS/
+JSON/AST/hash REAL. NO Torch/NumPy/model/tensor/gradient/worker/FileSink/ledger/
+target/GPU/proof/paidwork or old passing proof/witness/harness/encoding/scientific
+cohort repeat. Seal sealed-expected-rows-cost-v1.json; liveindexesexcluded/exact
+before-after snapshots; fixturetotal78043. All original actualv3 proof/31gradients
+genuine inherited, wholeunits0/candidate-replay notstarted; all failed/partial/
+pending/consumedflags fixed. Currentphase48/481518B NOT oldv347/450548B; no
+newactualtarget/currentremoteclaim or lostprimarycause claim.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; installedv5gate UNCONDITIONALLY CLOSED
+before protocolclock/ATTEMPT/connection. Graph56uploads936711B/runtime48files481518B/
+cache47/nine supervisors/270paths/control d997bf9e... unchanged. Objective120/unit720/
+setup180/proof60/soft2280-hard2400/final120/collection600/connection3000/RSS4GiB/
+allocator7GiB/allother caps fixed; no timeout/hardware/shortenedPGD-EOT/disabledguard/
+leanroute. All original science/native/hash/owner/durability/shutdown/Guard and
+continuing clocks fixed. Mechanism CLOSED/research-trainingFALSE. TrainingPGD5EOT1/
+routineEOT1/optimizerbackward/registry/studyYAML/financial200/160/40/single10caps+
+holds fixed; historicalsnapshots not currentquotes/balance. No training
+percentage/time estimate. Earlier entries historical.
+
 LATEST November 24: EXPECTED OUTER-LIST PROTOTYPE PASSES LOCAL SYNTHETIC PROOF.
 Read docs/predictor_pgd_expected_rows_v1.md, expected_rows decision/cases configs,
 models/predictor_pgd_expected_rows_v1.py and

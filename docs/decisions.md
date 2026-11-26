@@ -1543,3 +1543,32 @@ training. Separate full source/domain/refusal/ownership and actual matchedunit
 timing/memory/replay/other gates required. All copies/freshhashes/science/guards/
 durability/shutdown/clocks/caps fixed, installedgate closed; no operational request/
 launch/targetquery/paidwork or training forecast. Commit messages automatic.
+
+
+## November 25: reject expected outer-list reuse on the new local cost corpus
+
+From clean usercommit254ca59, the [frozen local comparison](../configs/predictor_pgd_expected_rows_cost_v1.json)
+runs36 NEW typed cases in32 batches/16arm/eightABBA groups, no warmup or untimed
+helper callbacks. Whole local input/lookup/tuple/eligibility/clear-refill/compare/
+cleanup/spy-hash-bookkeeping paths:baseline71016708ns/candidate88243751ns, ratio
+1.242577324198131, candidate higher all8 groups. All9216 receipts/32batchdigests
+match independent oracles; no failure/capstop/blockedports. Totalstopwatch159315416ns,
+no overhead subtraction. Reject by the predeclared local rule, not target/unit
+calibration. Prior101-check proof remains valid within its domain and is not rerun.
+
+Olddevice29 preservationv1 REFUSED before timing and remains saved. A NEW LSTAT
+record/current33 with separate saved review/full source inverse and v2 conditional
+preservation checks71708 hashes/78043 fixtures permits LOCAL metadata only. No
+mountprobe/remap/waiver/reason/physical-volume proof. Old records/target66307 gates/
+four lifecycle exceptions unchanged; FIFO LSTAT ONLY NEVER OPEN. All v1/v2 source
+versions/failures kept; only costv2 runs once, sources/oracles unchanged afterward.
+Independent cost auditv1 FIRSTPASS joins all23 pins/5 frozeninputs/oracles/timings/
+receipts without callbacks, clocks or science; seal includes exact index snapshots.
+
+No runtime/sourcebridge/adapter adoption or replacement selected automatically.
+Advancement requires separately scoped NEW source-backed rationale or NEW exact
+offline provenance for deferred copy route; no closed benchmark/proof/source/
+inventory/scientific repeat without new evidence. No operational query/scope/
+grant/approval request/launch. All copies/freshhashes/science/guards/durability/
+shutdown/clocks/caps/claims fixed, installedgate closed; no training forecast.
+Agent performs no Git mutations; provide short numbered commit messages automatically.
