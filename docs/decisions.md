@@ -1572,3 +1572,33 @@ inventory/scientific repeat without new evidence. No operational query/scope/
 grant/approval request/launch. All copies/freshhashes/science/guards/durability/
 shutdown/clocks/caps/claims fixed, installedgate closed; no training forecast.
 Agent performs no Git mutations; provide short numbered commit messages automatically.
+
+
+## November 25: review a new journal prefix/write-tail source rationale
+
+After the expressly requested cost-rejection commit/push9f78329, a SEPARATE NEW
+[source-backed review](../configs/predictor_pgd_journal_write_tail_review_v1.json)
+examines two ideas motivated by that new negative result.14 pins/9ASTanchors/
+6range claims join root/frozen23801B phase source and current48/481518B manifest.
+No prefix-concat loop exists:one direct bounded pread, extent refusal before
+freshhash. Write-tail source algebra identifies a final empty slice only under
+trusted builtin/nativeint assumptions, no actualK/heap/cost/fit evidence.
+
+No replacement qualifies. Extra equality can observe foreign counts; skipping
+the postwrite/pre-fsync fallible slice changes failure position and simplebreak
+leaves a different view through later exceptions. Count/fallback/refusal/partial-
+journal/primaryerror/view/exporter/caller/traceback lifetimes remain proof duties.
+No API/adapter/sourcebridge/prototype/fakeplan selected/emitted or FileSink,
+ledger/worker/test/witness/benchmark/scientific callbacks run. Existing copies/
+freshhashes/checks/fsync/durability/guards/clocks/caps/source bytes unchanged.
+
+Independent saved auditv1 FIRSTPASS71783 hashes/78043 fixtures/0new/all joins,
+no callbacks/ports/scientific decode-recalc. Device33 priorv4 LSTATrecord/review
+conditionalmetadata ONLY, old29refusal/target66307/four exceptions/FIFO retained;
+no probe/remap/waiver or physicalvolume claim. Seal includes all source/evidence/
+index snapshots. Previouscost rejection/proof/genuineoldproof31gradients and
+failed/partial/pending/consumed statuses fixed; no new actualtarget or remoteclaim.
+Next needs NEW scoped source premise satisfying all fixed error/lifetime duties
+or NEW exactoffline provenance. No nextprototype/benchmark/execution admission,
+no closedcohort repeat without new evidence, installedgateclosed/research-training
+FALSE/no forecast. Continue automatic numbered commit messages; Git only on express request.

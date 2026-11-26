@@ -1,0 +1,51 @@
+{
+  "AST_anchors": 9,
+  "actual_FileSink_PhaseLedger_worker_model_tensor_gradient_or_scientific_work": false,
+  "all_real_grants_consumed": true,
+  "budget_decision": "REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE",
+  "budget_gate_opened": false,
+  "candidate_implementation_or_fake_port_plan_emitted": false,
+  "decision": "NO_NEW_BUDGET_CANDIDATE_QUALIFIED_BY_PREFIX_OR_WRITE_TAIL_SOURCE_REVIEW",
+  "execution_binding": null,
+  "facts": "runs/pretrained/diagnostic/pgd-journal-write-tail-review-v1-20261125/SOURCE-FACTS-v1.json",
+  "facts_sha256": "d2752d5d328f08056386a135532c7388607c46d030f789674783e9f242949e8b",
+  "kind": "journal-write-tail-NEW-source-rationale-review-v1",
+  "local_heap_timing_dominant_cost_netbenefit_or_actual_complete_unit_fit_proven": false,
+  "maximum_new_real_attempts": 0,
+  "new_hypotheses_considered": [
+    {
+      "disposition": "PREMISE_NOT_PRESENT_DIRECT_PREAD",
+      "id": "replace-prefix-concatenation",
+      "reason": "Current check has one direct bounded pread and no Python chunk-concatenation loop to replace."
+    },
+    {
+      "disposition": "UNQUALIFIED_COUNT_ERROR_AND_LIFETIME_CONTRACT",
+      "id": "omit-final-empty-write-tail-view",
+      "reason": "Conditional source algebra identifies one empty tail, but a shortcut introduces count operations and changes a fallible pre-fsync step and post-loop view state. No complete contract, implementation or performance evidence exists."
+    }
+  ],
+  "new_network_target_query_download_install_GPU_proof_or_paid_work": false,
+  "old_cost_proof_inventory_source_review_harness_or_scientific_cohort_repeated": false,
+  "operational_scope_package_grant_approval_request_or_launch_created": false,
+  "original_runtime_source_test_science_hash_copy_state_digest_guards_durability_clocks_or_caps_changed": false,
+  "prototype_tests_witnesses_benchmarks_or_fake_cases_executed": 0,
+  "range_claims": 6,
+  "raw_stage": "runs/pretrained/diagnostic/pgd-journal-write-tail-review-v1-20261125",
+  "replacement_candidate_API_adapter_constructor_source_bridge_or_runtime_route_selected": false,
+  "requirements_if_a_NEW_proposal_is_supplied": [
+    "Preserve BOTH append checks, every reached full prefix request/fresh hash, receipt check, named/held identity and ancestry checks, exact bytes/extent refusal, complete write payload/order/count handling, fsync/durable ordering and byte/digest/fstat state-update positions.",
+    "Original chained 0<count<=len(remaining) precedes slicing. An added equality test is a NEW operation for foreign/stateful count objects. A new proposal must establish its native count domain and original fallback/refusal/exception order without preconsumption, new refusal or duplicated port observations.",
+    "Deleting the final slice removes a fallible operation after the last write and before fsync/state updates. Prove the exact allowed error/refusal contract and primary-error/partial-journal state; do not assume last-write completion implies a durable or published row.",
+    "A simple break retains a nonempty view where baseline retains an empty view; clearing/releasing changes another lifetime. Prove allowed local/exporter/view/caller/traceback retention through success and later fsync/fstat/check exceptions, without readonly-bit or immutable-name shortcuts.",
+    "Source names and conditional native-integer algebra do not authenticate deployed bindings, physical allocation, buffer lifetime or target behavior. Target provenance and all original ownership/refusal/guard requirements remain independently missing.",
+    "Any separately scoped future LOCAL proof must use NEW opaque bytes/explicit fake write/error/lifetime ports only, frozen independent oracles before checks. No original FileSink/PhaseLedger/worker/science or actual I/O/process/clock/timer/thread/network ports. No prototype or case execution is authorized by this source review.",
+    "One fewer view does not establish net benefit. Added type/length/equality/branch/fallback/cleanup can be slower or retain more memory. Any future accepted proof still needs separate matched complete-path cost and full source/domain/inverse/ownership plus actual matched complete-unit timing/memory/replay and all gates."
+  ],
+  "research_admitted": false,
+  "review_only": true,
+  "scientific_values_decoded_or_recalculated": false,
+  "source_bindings_or_physical_failure_authenticated": false,
+  "source_pins": 14,
+  "training_admitted": false,
+  "training_percentage_or_time_estimate": null
+}

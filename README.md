@@ -1,5 +1,12 @@
 # V-JEPA Robust Overfitting
 
+**Journal source rationale reviewed; no new candidate qualified (November25):**
+[The source-only review](report/checks/2026-11-25-pgd-journal-write-tail-review-v1-local-review.md)
+finds no prefix-concatenation loop to remove. Omitting the last empty write-tail
+view still needs count/error/lifetime proof. No FileSink execution, prototype,
+benchmark or runtime change. New source evidence/provenance remains required;
+training gate stays closed. Earlier entries historical.
+
 **Expected-row local cost measured; candidate rejected (November25):**
 [The saved cost review](report/checks/2026-11-25-pgd-expected-rows-cost-v1-local-review.md)
 records36 new cases/32 matched batches: candidate1.2426 times baseline, higher in

@@ -1,5 +1,75 @@
 # Research Progress Reports
 
+LATEST November 25: JOURNAL SOURCE RATIONALE REVIEWED; NO NEW CANDIDATE QUALIFIED.
+Read docs/predictor_pgd_journal_write_tail_review_v1.md, journal_write_tail_review
+config and report/checks/2026-11-25-pgd-journal-write-tail-review-v1-local-review.json/md.
+Raw pgd-journal-write-tail-review-v1-20261125. Starting clean9f78329 AFTER user's
+EXPRESS prior cost-rejection commit/push completed with supplied title/numbered
+description; origin/main==HEAD. Default user Git unless expressly requested;
+no further unrequested Git mutation. USER PREFERENCE automatically short clear
+commit title +NUMBERED description eachbigstep. Preserve ALL sources/tests/auditor
+versions/fixtures/logs/failures/results/statuses/claims. All real grants CONSUMED.
+No operational scope/handoff/package/grant/approval request/launch command,
+university query/SSH/upload/retry/resume/retrieval/remote cleanup/target/GPU/proof/
+paidwork or manualpaste.
+
+SEPARATE NEW source-backed rationale task motivated by negative expected-row cost:
+14pins/root+frozen phase23801B/48runtime481518B manifestjoin/9ASTanchors/6rangehash
+claims. Source/AST/JSON/FS/hash ONLY; NO FileSink/PhaseLedger/inspectedcode execution,
+fakeports/tests/witnesses/prototype/benchmark/scientificcallbacks. Old cost/proof/
+public source review/inventory/harness/scientific cohorts NOT repeated.
+Two NEW questions: prefix-concat premise NOT PRESENT (one direct bounded pread;
+length refusal before freshhash); write-tail omission UNQUALIFIED. Under trusted
+builtin/nativeint assumptions Ksuccessfulwrites ->Ktailslices/lastempty, source
+algebra ONLY, NOT actualK/heap/time/dominantcost/fit. No replacement selected.
+
+Write-tail barrier: original chained0<count<=len before slicing; extra equality
+can observe foreign/stateful count behavior. Slice lies afterwrite BEFORE fsync/
+stateupdates, append has NO localhandler there. Eliding a fallible operation
+changes reachable failure boundary; no physical failure observed/induced. Simple
+break retains nonempty instead ofempty view; clearing/releasing changes another
+lifetime. Count-domain/fallback/refusal/error/partial-journal/view/exporter/caller/
+traceback contract NOTproved. All original checks/readbacks/freshhashes/fsync/
+durability/epilogue positions fixed. No API/adapter/constructor/sourcebridge/
+runtime implementation or fakeport plan emitted. One fewer object NEVER establishes
+netbenefit; additional branches/type/length/fallback/cleanup may slow/retainmemory.
+No theorem all future designs impossible, no shortcut adoption or budget fit.
+
+NEXT EVIDENCE per NEW-RATIONALE-REQUIREMENTS-v1.json: NEW separately scoped source
+proposal proving ALL7 retained fixed error/lifetime/observation requirements OR
+NEW exact offline provenance for deferred route. None selected/produced here.
+NO nextprototype/benchmark scheduled/authorized. Do NOT repeat closed reviews/
+cohorts without newevidence. Source availability never admits execution. Any
+future localproof+cost benefit still needs complete source/inverse/domain/refusal/
+ownership review, actual matched completeunit timing/memory/freshreplay/recovery/
+economics/calibration/data/protocol/training and allother gates. Copyprovenancegap/
+oldencoding+expectedrow cost rejections/prior101proof remain unchanged.
+
+STD saved auditv1 FIRSTPASS71783priorhashes/78043priorfixtures/0new/14pins/9AST/
+6claims/2hypotheses/runtime-source join/full preservation-lineage inverse. No
+inspectedsource/derivation/project/test/scientific callbacks or scientificvalue
+decode-recalc/fakeports/process/clock/timer/GPU/proof/network IN AUDIT. Metadata
+work REAL; no Torch/NumPy/model/tensor/gradient/worker/FileSink/ledger/target/
+paidwork. Device33 PRIORv4 LSTATrecord/savedreview CONDITIONAL LOCAL METADATA only;
+NO probe-remap-waiver/reason/physicalvolume authentication. Old29refusal/records/
+target66307/four exact directory exceptions unchanged. FIFO LSTAT ONLY NEVER OPEN.
+Futuredevicechange newrecord/review. Seal sealed-journal-write-tail-review-v1.json;
+liveindexesexcluded/exact before-after snapshots; fixturetotal78043. Oldactualv3
+proof/31gradients genuine inherited, wholeunits0/candidate-replay notstarted/all
+failed/partial/pending/consumedflags fixed. Currentphase48/481518B NOT oldv347/
+450548B; no newactualtarget/currentremote/primarycause claim.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; installedv5gate UNCONDITIONALLY CLOSED
+before protocolclock/ATTEMPT/connection. Graph56uploads936711B/runtime48files481518B/
+cache47/nine supervisors/270paths/control d997bf9e... unchanged. Objective120/unit720/
+setup180/proof60/soft2280-hard2400/final120/collection600/connection3000/RSS4GiB/
+allocator7GiB/allother caps fixed; no timeout/hardware/shortenedPGD-EOT/disabledguard/
+leanroute. All original science/native/hash/owner/durability/shutdown/Guard and
+continuing clocks fixed. Mechanism CLOSED/research-trainingFALSE. TrainingPGD5EOT1/
+routineEOT1/optimizerbackward/registry/studyYAML/financial200/160/40/single10caps+
+holds fixed; historicalsnapshots not currentquotes/balance. No training
+percentage/time estimate. Earlier entries historical.
+
 LATEST November 25: EXPECTED-ROW LOCAL COST MEASURED; OUTER-LIST CANDIDATE REJECTED.
 Read docs/predictor_pgd_expected_rows_cost_v1.md, expected_rows_cost config and
 report/checks/2026-11-25-pgd-expected-rows-cost-v1-local-review.json/md. Raw
