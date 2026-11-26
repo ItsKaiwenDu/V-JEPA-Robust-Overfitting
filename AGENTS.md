@@ -2,6 +2,89 @@
 
 ## Current stage
 
+LATEST November 25: DIAGNOSTIC ADMISSION SOURCE OBLIGATIONS MAPPED; REAL HOLD.
+Read docs/predictor_pgd_diagnostic_admission_source_review_v1.md, source_review
+config and report/checks/2026-11-25-pgd-diagnostic-admission-source-review-v1-local-review.json/md.
+Raw pgd-diagnostic-admission-source-review-v1-20261125. Starting clean user-pushed
+db2f230. User requested next separate LOCAL source-only comparison of tested
+fake policy against actual supported authority/ownership/deadline/refusal
+boundaries. No agent Git mutation. Default user Git unless EXPRESSLY requested;
+automatic short clear title +NUMBERED description each big step. Preserve ALL
+source/test/auditor versions/fixtures/logs/failures/results/statuses/claims.
+
+NEW57 prior pins/nine saved supervisor TEXT views/56source joins936711B/48manifest
+joins481518B/43 AST+range anchors/three shadowing aliases/20 lexical milestones/
+12 obligation topics.47overlays+nine supervisors=56uploads; manifest48 includes
+watcher alongside47 overlays, distinct consistent namespaces. Source-text base64/
+AST/JSON/stat/hash ONLY. No imported/compiled-for-execution/inspected source,
+analyzer-derived project/test/prototype/benchmark/scientific callbacks, original
+Snapshot/Torch/NumPy/model/tensor/gradient/worker/FileSink/ledger/clock/timer/
+process/signal/thread/PIDFD/GPU/proof/target/network/paid work. Prior32-case/41-call
+validation INHERITED not rerun; original model/header/NOT_RUN snapshots remain
+historical unchanged. Bounded map NOT full dynamic/security/physical domain proof.
+
+SOURCE FINDINGS: supported v5 unconditional refusal BEFORE private delegate
+protocol clock/ATTEMPT/SSH. Private/older alias NOT authorized bypass; no proof
+all possible Python invocations physically unreachable. Counterfactual private
+protocol clock/alarm precede localvalidation/ATTEMPT/SSH; remote handshake/origin
+precedes authority/preflight/root claim/setup. Raw CLAIM-OBSERVED before strict
+claim validation/ROOT-RECEIPT. Root claim BEFORE setup; missing receipt NEVER
+proves no prior effect/work. No old primary-trigger/current remote state claim.
+Actual owned PID/birth/parent/session/handle-before-release/serial role checks,
+primary errors/notes/partial diagnostics, bounded cleanup and confirmed idle
+before handoff/finalization/collection remain. Closed descriptor NOT death.
+
+ALL12 topics retain real nonadmission: entry-authority/source-control-domain/
+one-shot-history/continuing-clocks/serial-release/ownership-quiescence/primary-
+error-shutdown/durability-refusal/resources-science/collection-status/target-
+provenance/future-review. FAKE labels do not bind durable real authority or
+physical clocks/ownership/caps; full NEW source/inverse/domain/refusal/ownership
+review unproved, no candidate implementation or API/bridge/binding/gate change
+emitted. No active control/grant/handoff/package/launch/operational approval
+request; target HOLD_NOT_READY_NOT_REQUESTED. All real grants CONSUMED/attempts0.
+
+NEXT SEPARATE LOCAL ONLY per NEXT-LOCAL-DIAGNOSTIC-ADMISSION-SPECIFICATION-v1.json:
+NEW versioned REQUIREMENTS-ONLY specification of authority/data schemas, immutable
+source/control identities, consumed-state and failure/effect order, ownership/
+clock/resource refusals, evidence semantics and independent review obligations.
+No executable API/adapter/runtime binding/source gate edit/prototype-test-
+benchmark run/active material/operational request/target permission. Use this NEW
+map, do not repeat it or any old passing cohort. Later implementation/action
+needs separately scoped source review and fresh explicit authority. Current
+local preparation amendment remains narrow; no new execution exception.
+
+STD saved audit v1 FIRST PASS72066 prior hashes/78076 prior fixtures/0new/57pins/
+nine views/56payload+48manifest joins/43anchors/three aliases/20milestones/12topics.
+No analyzer/inspected-source/project/test/prototype/scientific callbacks or
+scientific value decode-recalc/process/clock/timer/GPU/proof/target/network IN
+AUDIT. Source-text base64 only. All versions/logs/metadata preserved. Device33
+prior v4 LSTAT review CONDITIONAL LOCAL metadata only; old29 refusal/records/
+target66307/four exact lifecycle exceptions fixed. FIFO LSTAT ONLY NEVER OPEN.
+No mount probe/remap/waiver/volume authentication. Future device change newrecord/
+review. Seal sealed-diagnostic-admission-source-review-v1.json; live indexes
+excluded/exact before-after snapshots. Fixturetotal78076 unchanged.
+
+Current remote quiescence/deployed binary-build-ABI-backend joins/physical
+capture/current phase target execution remain UNKNOWN. Future preflight ITSELF
+target work needing separate reviewed source/fresh authority/original clock
+accounting. No university query/SSH/upload/download/install/retry/resume/retrieval/
+cleanup/GPU/proof/paid work/manual paste. Old genuine proof31gradients/wholeunits0/
+candidate-replay notstarted/failed-partial-pending-consumed flags fixed. Oldv347/
+450548B NOT current48/481518B. Copy provenance gap, all prior source/proof/cost
+rejections unchanged. Actual completeunit timing/memory/fresh replay/recovery/
+economics/calibration/data/protocol/research/training and all other gates remain.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; installed v5 gate unconditionally
+CLOSED before protocol clock/ATTEMPT/connection. Graph56uploads936711B/runtime48/
+481518B/cache47/nine supervisors/270paths/control d997bf9e... unchanged. Objective
+120/unit720/setup180/proof60/soft2280-hard2400/final120/collection600/connection3000/
+RSS4GiB/allocator7GiB/all other caps fixed. Original science/native/guards/owner/
+hash/immutable copies/EVERY fresh hash/ordered state_digest/durability/shutdown/
+continuing clocks fixed. Mechanism CLOSED/research-training FALSE. TrainingPGD5/
+EOT1/routineEOT1/optimizer backward/registry/studyYAML/financial200/160/40/single10
+caps+holds fixed; historical snapshots not current quotes/balance. No training
+percentage/time estimate. Earlier entries historical.
+
 LATEST November 25: NEW LOCAL FAKE DIAGNOSTIC POLICY VALIDATED; REAL ADMISSION HOLD.
 Read docs/predictor_pgd_diagnostic_evidence_validation_v1.md, validation config
 and report/checks/2026-11-25-pgd-diagnostic-evidence-validation-v1-local-review.json/md.

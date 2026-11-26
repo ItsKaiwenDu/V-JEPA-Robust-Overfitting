@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Diagnostic admission source review complete; real admission remains on hold (November25):**
+[The source obligation map](docs/predictor_pgd_diagnostic_admission_source_review_v1.md)
+records 12 topics against 43 exact boundaries. The fake policy does not supply
+durable real authority, current quiescence or physical enforcement. Saved audit
+passed; no source/test/prototype or target execution. Next is a requirements-only
+local specification; the execution gate and training remain closed. Earlier
+entries are historical.
+
 **Local fake diagnostic policy passed; real admission remains on hold (November25):**
 [The saved validation](docs/predictor_pgd_diagnostic_evidence_validation_v1.md)
 records 32 new cases and 41 logical calls, all passing first execution. Independent

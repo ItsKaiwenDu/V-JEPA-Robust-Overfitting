@@ -1698,3 +1698,38 @@ All original scientific/resource/financial constraints and old genuine proof/
 31 gradients/wholeunits0/failed-partial-pending-consumed statuses remain.
 Actual provenance/quiescence/complete-unit timing/memory/replay/recovery and all
 other qualification gates remain; training stays closed with no estimate.
+
+## November25: map diagnostic admission source obligations; retain real hold
+
+From clean user-pushed db2f230, the user requested the next LOCAL source review
+after32-case fake validation. [The new map](predictor_pgd_diagnostic_admission_source_review_v1.md)
+joins57 prior pins/nine saved supervisor source-text views/43 AST-range anchors/
+three shadowing aliases/20 lexical effect milestones/12 obligation topics.
+No inspected source, old test/prototype/benchmark or scientific callback runs.
+
+Supported entry still refuses before private protocol clock/ATTEMPT/SSH. Existing
+file/source/control/domain/once/owner/release/continuing-clock/shutdown/durability/
+collection boundaries cannot be replaced by FAKE labels. Root claim precedes
+setup; raw client claim precedes validation. Missing receipt does not erase
+prior effects; source order does not identify the old lost trigger or current
+remote state. Confirmed owned idle remains required before handoff/collection.
+Full new source/inverse/domain/refusal/physical ownership proof is unproved;
+no candidate/API/adapter/bridge/binding/gate edit/active material/target request.
+
+Saved audit v1 FIRST PASS72066 prior hashes/78076 fixtures/0new/all57pins/nine
+views/56payload+48manifest joins/43anchors/three aliases/20milestones/12topics.
+47overlays+nine supervisors=56uploads; manifest48 also counts watcher. No count
+mismatch or target attestation claim. No analyzer/project/test/scientific
+callbacks or scientific-value decode/recalc/process/clock/timer/target in audit.
+Device33 prior v4 conditional LOCAL LSTAT review, no mountprobe/remap/waiver;
+old29/target66307/four lifecycle exceptions/FIFO LSTAT-only fixed. Exact index
+snapshots sealed. Old proof31gradients/wholeunits0/candidate-replay not started/
+failed-partial-pending-consumed flags and prior32case pass remain unchanged.
+
+Next is a NEW requirements-only local admission specification of schemas,
+identities, effect/refusal/consumed-state order, ownership/clocks/resources,
+evidence semantics and review obligations. No executable implementation/run/
+gate change/active material/operational request or target permission. All real
+grants consumed, attempts0, binding null; all science/resource/financial holds
+and qualification gates remain, training closed without estimate. Git mutation
+remains express-request only; automatic numbered commit messages continue.
