@@ -1631,3 +1631,38 @@ target66307/four exceptions/FIFO retained. Seal includes exactindexsnapshots.
 Training and all financial/scientific/resource holds remain; no forecast or new
 operational permission. Continue automatic numbered commit messages, Git only
 on express request.
+
+## November25: adopt local preparation; hold target diagnostic approval
+
+The user explicitly adopted the local-only amendment saved in
+USER-ADOPTION-v2.json. It permits drafting/review of the versioned
+[diagnostic-evidence proposal](predictor_pgd_diagnostic_evidence_proposal_v1.md)
+and its [local validation approval request](predictor_pgd_diagnostic_evidence_proposal_v1_approval_request.md).
+All other restrictions remain, including no prototype/benchmark run without
+separate approval, target work, active material or execution-gate change.
+This narrow exception supersedes the earlier local preparation/request ban
+only; old consumed authority and scientific/resource/financial holds remain.
+
+The future review-only question is one complete unchanged guarded attempt under
+original roles/clocks/caps, with no fit/completion promise. Current real attempts0,
+binding null; supported gate closed. Target approval is HOLD, not requested:
+real admission source unreviewed/unimplemented and target quiescence unknown.
+Future preflight is itself target work. Training and qualification remain closed.
+
+The32 new FAKE-only cases/41 events/max3 per case and manual expected labels are
+frozen with the unexecuted model. Local request is pending, NOT_RUN/executions0.
+If separately approved: one isolated stdlib run, exact new membership, fixed
+cap-membership/32768B result/1MiB complete case evidence, blocked real ports,
+all outputs actual admission false, no old cohorts/benchmark/automatic retries.
+Local success could prove only bounded supplied-state consistency, no physical
+authority/ownership/process/clock/cap enforcement or whole-unit performance.
+
+Static audit v2 passed first execution:71880 prior hashes/78043 fixtures/0new/
+30 prior pins/8 frozen inputs/6 inherited gate AST anchors. No prototype/source/
+project/test/scientific callbacks. Adoption opaque-ID typo and auditor metadata
+key corrected with old versions retained; no scope expansion or case execution.
+Device33 prior v4 conditional local LSTAT review only; no remap/mount probe/waiver,
+old29/target66307/four exact lifecycle exceptions/FIFO LSTAT-only preserved.
+All old genuine proof31gradients/wholeunits0/failed-partial-pending-consumed
+statuses remain. Exact index snapshots sealed; no agent Git mutation. Automatic
+short title and numbered description remain the commit-message preference.

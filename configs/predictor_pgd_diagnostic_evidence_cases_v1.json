@@ -1,0 +1,2082 @@
+{
+  "all_results": "NOT_RUN",
+  "case_count": 32,
+  "cases": [
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": true,
+      "expected_codes": [
+        "FAKE_EVIDENCE_ADMITTED"
+      ],
+      "expected_consumed": [
+        "FAKE-GRANT-1"
+      ],
+      "expected_final_status": "active",
+      "id": "new-diagnostic-policy-fit-missing-not-a-permission-gate",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": true,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": true,
+      "expected_codes": [
+        "FAKE_EVIDENCE_ADMITTED"
+      ],
+      "expected_consumed": [
+        "FAKE-GRANT-1"
+      ],
+      "expected_final_status": "active",
+      "id": "new-diagnostic-policy-fit-present-never-training",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": false,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_AUTHORITY"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-authority-missing",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": false,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_SOURCE"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-source-review-missing",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 20,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_DEADLINE"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-expired-clock",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-OTHER-CLOCK",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_CLOCK"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-clock-domain-mismatch",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-OTHER-SOURCE",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_SOURCE"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-source-mismatch",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-OTHER-CONTROL",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_SOURCE"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-control-mismatch",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OTHER-OWNER",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_OWNER"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-owner-mismatch",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": false,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_CONSTRAINT"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-science-changed",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": false,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_CONSTRAINT"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-guards-changed",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": false,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_CONSTRAINT"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-ownership-changed",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": false,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_CONSTRAINT"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-hash-policy-changed",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": false,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_CONSTRAINT"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-durability-changed",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": false,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_CONSTRAINT"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-fresh-roles-removed",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 721,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_CONSTRAINT"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-unit-cap-widened",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967297,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_CONSTRAINT"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-memory-cap-widened",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": false,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_HISTORY"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-history-not-preserved",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": false,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_QUIESCENCE"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-quiescence-unknown",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": true,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_REAL_EFFECT"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-real-effect-requested",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": true,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_BYPASS"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-private-gate-bypass",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": true
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_TRAINING_PROMOTION"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-training-promotion-requested",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "REAL-KIND-NOT-A-GRANT",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_FAKE_ONLY"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-nonfake-kind",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false,
+          "unexpected_field": true
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_SCHEMA"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-unknown-extra-field",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": 1,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_SCHEMA"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-numeric-bool-refused",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        },
+        {
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "op": "finish",
+          "outcome": "success",
+          "owned_exit_confirmed": true,
+          "owner": "FAKE-OWNER-1",
+          "parent_complete": true,
+          "roles": [
+            "proof",
+            "original-unit",
+            "candidate-unit",
+            "candidate-replay"
+          ]
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "FAKE_EVIDENCE_ADMITTED",
+        "FAKE_EVIDENCE_RECORDED"
+      ],
+      "expected_consumed": [
+        "FAKE-GRANT-1"
+      ],
+      "expected_final_status": "complete",
+      "id": "new-diagnostic-policy-complete-evidence-not-qualification",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        },
+        {
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "op": "finish",
+          "outcome": "failure",
+          "owned_exit_confirmed": true,
+          "owner": "FAKE-OWNER-1",
+          "parent_complete": false,
+          "roles": []
+        },
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "FAKE_EVIDENCE_ADMITTED",
+        "FAKE_EVIDENCE_INCOMPLETE",
+        "DENY_CONSUMED"
+      ],
+      "expected_consumed": [
+        "FAKE-GRANT-1"
+      ],
+      "expected_final_status": "incomplete",
+      "id": "new-diagnostic-policy-failure-consumes-authority",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        },
+        {
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "op": "finish",
+          "outcome": "failure",
+          "owned_exit_confirmed": true,
+          "owner": "FAKE-OWNER-1",
+          "parent_complete": false,
+          "roles": []
+        },
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-2",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "FAKE_EVIDENCE_ADMITTED",
+        "FAKE_EVIDENCE_INCOMPLETE",
+        "DENY_ATTEMPT_CEILING"
+      ],
+      "expected_consumed": [
+        "FAKE-GRANT-1"
+      ],
+      "expected_final_status": "incomplete",
+      "id": "new-diagnostic-policy-new-id-does-not-reset-attempt-ceiling",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        },
+        {
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "op": "finish",
+          "outcome": "failure",
+          "owned_exit_confirmed": false,
+          "owner": "FAKE-OWNER-1",
+          "parent_complete": false,
+          "roles": []
+        },
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-2",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        }
+      ],
+      "executions": 0,
+      "expected_active": true,
+      "expected_codes": [
+        "FAKE_EVIDENCE_ADMITTED",
+        "FAKE_EVIDENCE_HELD",
+        "DENY_OWNED_STATE"
+      ],
+      "expected_consumed": [
+        "FAKE-GRANT-1"
+      ],
+      "expected_final_status": "held",
+      "id": "new-diagnostic-policy-unconfirmed-exit-held",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        },
+        {
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "op": "finish",
+          "outcome": "success",
+          "owned_exit_confirmed": true,
+          "owner": "FAKE-OWNER-1",
+          "parent_complete": false,
+          "roles": [
+            "proof",
+            "original-unit"
+          ]
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "FAKE_EVIDENCE_ADMITTED",
+        "FAKE_EVIDENCE_INCOMPLETE"
+      ],
+      "expected_consumed": [
+        "FAKE-GRANT-1"
+      ],
+      "expected_final_status": "incomplete",
+      "id": "new-diagnostic-policy-role-parent-gap-incomplete",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "op": "finish",
+          "outcome": "success",
+          "owned_exit_confirmed": true,
+          "owner": "FAKE-OWNER-1",
+          "parent_complete": true,
+          "roles": [
+            "proof",
+            "original-unit",
+            "candidate-unit",
+            "candidate-replay"
+          ]
+        }
+      ],
+      "executions": 0,
+      "expected_active": false,
+      "expected_codes": [
+        "DENY_STATE"
+      ],
+      "expected_consumed": [],
+      "expected_final_status": "empty",
+      "id": "new-diagnostic-policy-finish-without-active-owner",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    },
+    {
+      "all_actual_admission_flags_false": true,
+      "events": [
+        {
+          "authority_explicit": true,
+          "bypass_requested": false,
+          "clock_domain": "FAKE-CLOCK-1",
+          "control": "FAKE-CONTROL-v1",
+          "deadline": 20,
+          "durability_unchanged": true,
+          "fit_qualified": false,
+          "fresh_roles": true,
+          "grant": "FAKE-GRANT-1",
+          "guards_unchanged": true,
+          "hashes_unchanged": true,
+          "history_preserved": true,
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "limits": {
+            "RSS_bytes": 4294967296,
+            "allocator_bytes": 7516192768,
+            "collection_seconds": 600,
+            "connection_seconds": 3000,
+            "final_seconds": 120,
+            "objective_seconds": 120,
+            "proof_seconds": 60,
+            "setup_seconds": 180,
+            "whole_unit_seconds": 720,
+            "work_hard_seconds": 2400,
+            "work_soft_seconds": 2280
+          },
+          "now": 10,
+          "op": "admit",
+          "owner": "FAKE-OWNER-1",
+          "ownership_unchanged": true,
+          "quiescence_confirmed": true,
+          "real_effect_requested": false,
+          "science_unchanged": true,
+          "source": "FAKE-SOURCE-v1",
+          "source_reviewed": true,
+          "training_requested": false
+        },
+        {
+          "kind": "FAKE-DIAGNOSTIC-EVIDENCE-REQUEST-v1",
+          "op": "finish",
+          "outcome": "success",
+          "owned_exit_confirmed": true,
+          "owner": "FAKE-OTHER-OWNER",
+          "parent_complete": true,
+          "roles": [
+            "proof",
+            "original-unit",
+            "candidate-unit",
+            "candidate-replay"
+          ]
+        }
+      ],
+      "executions": 0,
+      "expected_active": true,
+      "expected_codes": [
+        "FAKE_EVIDENCE_ADMITTED",
+        "DENY_OWNER"
+      ],
+      "expected_consumed": [
+        "FAKE-GRANT-1"
+      ],
+      "expected_final_status": "active",
+      "id": "new-diagnostic-policy-finish-owner-mismatch",
+      "initial_state": {
+        "active_grant": null,
+        "active_owner": null,
+        "consumed": [],
+        "kind": "FAKE-DIAGNOSTIC-STATE-v1",
+        "status": "empty"
+      },
+      "result": "NOT_RUN"
+    }
+  ],
+  "domain": "Frozen decoded JSON primitives ONLY; no general Python-object/physical/runtime gate proof.",
+  "executions": 0,
+  "kind": "NEW-FAKE-diagnostic-policy-planned-cases-v1",
+  "model_imported_or_callbacks_used_to_derive_oracles": false,
+  "planned_logical_events": 41
+}

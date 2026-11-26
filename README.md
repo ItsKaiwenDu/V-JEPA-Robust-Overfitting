@@ -1,5 +1,14 @@
 # V-JEPA Robust Overfitting
 
+**Local preparation adopted; diagnostic proposal ready for local review (November25):**
+[The proposal](docs/predictor_pgd_diagnostic_evidence_proposal_v1.md) and
+[local validation request](docs/predictor_pgd_diagnostic_evidence_proposal_v1_approval_request.md)
+are drafted. Static preservation review passed;32 new fake cases remain NOT_RUN.
+The amendment permits preparation only. Prototype approval is pending; target
+approval is on hold and is not requested. The installed gate and training stay
+closed. No target action, active grant/package, source-gate change or benchmark.
+Earlier entries historical.
+
 **Evidence/admission policy reviewed; current authority unchanged (November25):**
 [The local decision brief](docs/predictor_pgd_evidence_policy_review_v1.md)
 separates missing evidence, standing prohibitions, the installed closed gate and

@@ -1,5 +1,92 @@
 # Research Progress Reports
 
+LATEST November 25: LOCAL PREPARATION AMENDMENT ADOPTED; DIAGNOSTIC PROPOSAL DRAFTED.
+Read docs/predictor_pgd_diagnostic_evidence_proposal_v1.md, diagnostic_evidence_proposal
+config, LOCAL-VALIDATION-PLAN-v1.json/cap-membership and approval_request document;
+report/checks/2026-11-25-pgd-diagnostic-evidence-proposal-v1-local-review.json/md.
+Raw pgd-diagnostic-evidence-proposal-v1-20261125. Starting clean pushed580eca9 after
+the user's EXPRESS previous commit/push completed. No agent Git mutation now.
+Default user Git unless EXPRESSLY requested; automatically short clear commit
+title +NUMBERED description each big step. Preserve ALL source/test/auditor
+versions/fixtures/logs/failures/results/statuses/claims. Earlier entries historical.
+
+NEW USER-ADOPTION-v2.json records exact explicit answer: Adopt local preparation
+only. Narrow amendment ALLOWS local drafting/review of a versioned diagnostic-
+evidence proposal and its approval request. This supersedes old blanket bans on
+THOSE LOCAL PREPARATION actions ONLY. The adopted question says: "This permits no
+target action, download/install, GPU/proof/paid work, active grant/handoff/package/
+launch material, execution-gate change, or prototype/benchmark run." ALL other
+restrictions remain. Prototype execution needs separate explicit approval.
+No target operational approval requested now. Later target action requires
+separately reviewed sources +explicit fresh authorization; old grants unusable.
+
+REVIEW-ONLY future question: one fresh bounded diagnostic attempt of COMPLETE
+UNCHANGED guarded proof/original/candidate/fresh replay under original clocks,
+roles and caps. Proposed future ceiling1 NOT current authority. No completion/
+fit promise, shortened science, reduced PGD-EOT, hardware/time change, rejected
+optimization adoption, active grant/control/handoff/package/launch/command or
+gate change. Existing control/graph REFERENCE ONLY. Installed v5 gate still
+unconditionally refuses before protocol clock/ATTEMPT/connection; private/older
+delegate NOT authorized bypass. Old budget scope_preparation_allowed:false
+unchanged; this narrow drafting exception comes ONLY from explicit adoption.
+
+NEW unexecuted FAKE-only proposal model outside runtime/upload graph. No imports,
+I/O/real ports/executor/entrypoint/grant writer/runtime binding. All outputs FIX
+actual execution/research/training FALSE, real attempts0, binding null. Eight new
+draft inputs frozen;32 NEW planned cases/41 logical events/max3events per case,
+ALL NOT_RUN/executions0. Independent manual expected labels NOT observed results.
+Fixed decoded JSON domain ONLY, NOT exhaustive general Python/security/physical
+ownership/process/cap/clock/authority enforcement proof. No model imported/run.
+
+NEXT DECISION: LOCAL-ONLY approval request for isolated stdlib runner +these32
+NEW FAKE cases ONCE, sources/oracles fixed before checks. Max32768B/result and
+1MiB complete case evidence per PREDECLARED cap-membership; all versions/raw
+results/failures/cap stops retained; no warmup/automatic retry/rerun. Deny actual
+workload/process/PIDFD/signal/thread/clock/timer/network/GPU/proof and inspected
+scientific/project ports. No Snapshot/model/Torch/NumPy/tensor/gradient/worker/
+FileSink/ledger/scientific callbacks or old cohorts; no benchmark/stopwatch.
+Current approval PENDING_NOT_AUTHORIZED. DO NOT RUN until explicit user approval.
+Local success never authorizes target work or qualifies science/performance.
+
+TARGET APPROVAL HOLD_NOT_READY_NOT_REQUESTED. Real admission source unimplemented/
+unreviewed; model unexecuted; current remote ownership/quiescence UNKNOWN. Any
+future preflight ITSELF target work needing fresh review/authority/original
+clock accounting; unknown ownership refuses, no cleanup/retry/resume/retrieval.
+Deployed binary/build/ABI/backend joins/physical capture remain unproved; no
+new inventory/import/provenance collector. All real grants CONSUMED/current
+attempts0. No university query/SSH/upload/download/install/GPU/proof/paid work or
+manual paste. Full source/inverse/domain/refusal/ownership +actual complete unit
+timing/memory/fresh replay/recovery/economics/calibration/data/protocol/training
+and ALL other gates remain. No training percentage/time estimate.
+
+STD saved static audit v2 PASS FIRST EXECUTION:71880 prior hashes/78043 prior
+fixture entries/0new/30 prior pins/8 frozen drafts/6 inherited gate AST anchors.
+NO prototype/inspected-source/project/test/scientific callbacks or value decode-
+recalc/process/clock/timer/GPU/proof/target/network IN AUDIT. Metadata work REAL.
+Adoption v1 opaque question-ID typo corrected ONLY in v2, exact question/answer/
+permissions unchanged; both retained. Auditor v1 key corrected before first
+audit, unexecuted v1 preserved. Initial wrong-path metadata lookups retained.
+Sources/model/oracles unchanged after freeze; no closed passing cohort repeated.
+
+Device33 PRIOR v4 LSTATrecord/review CONDITIONAL LOCAL METADATA ONLY; old29
+refusal/records/target66307/four exact lifecycle exceptions unchanged. FIFO
+LSTAT ONLY NEVER OPEN. No mount probe/remap/waiver/volume authentication. Future
+device change new record/review. Seal sealed-diagnostic-evidence-proposal-v1.json;
+live indexes excluded/exact before-after snapshots. Total fixtures78043 fixed.
+Old genuine proof31gradients/wholeunits0/candidate-replay notstarted/consumed/
+failed/partial/pending flags fixed; oldv347/450548B NOT current48/481518B. No new
+actual current-phase execution/current remote state/lost primary cause claim.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; installed v5 gate CLOSED unchanged.
+Graph56uploads936711B/runtime48files481518B/cache47/nine supervisors/270paths/
+control d997bf9e... unchanged. Objective120/unit720/setup180/proof60/soft2280-
+hard2400/final120/collection600/connection3000/RSS4GiB/allocator7GiB/all other
+caps fixed. Original science/native/guards/owner/hash/immutable copies/EVERY
+fresh hash/ordered state_digest/durability/shutdown/continuing clocks fixed.
+Mechanism CLOSED/research-training FALSE. TrainingPGD5EOT1/routineEOT1/optimizer
+backward/registry/studyYAML/financial200/160/40/single10 caps+holds unchanged;
+historical snapshots NOT current quotes/balance. No forecast.
+
 LATEST November 25: EVIDENCE/ADMISSION POLICY DEPENDENCIES REVIEWED; NO PERMISSION CHANGE.
 Read docs/predictor_pgd_evidence_policy_review_v1.md, evidence_policy_review config
 and report/checks/2026-11-25-pgd-evidence-policy-review-v1-local-review.json/md.
