@@ -2,6 +2,93 @@
 
 ## Current stage
 
+LATEST November 25: DOCUMENTARY48-CASE VALIDATION FIRST PASS; REAL HOLD.
+Read docs/predictor_pgd_documentary_validation_v1.md, documentary validation config
+and report/checks/2026-11-25-pgd-documentary-validation-v1-local-review.json/md.
+Raw pgd-documentary-validation-v1-20261125. Starting HEAD/origin750eb603 with prior
+plan's eight uncommitted paths PRESERVED. User EXPLICIT selected "Approve the
+local 48-case run (Recommended)" after concrete frozen plan; exact question/
+answer/hash binding retained. ONE new LOCAL run authorized and completed,
+approval CONSUMED_NOT_REUSABLE. No agent Git mutation; default user Git unless
+EXPRESSLY requested. Auto short clear title +NUMBERED description eachbigstep.
+Preserve ALL source/test/auditor/fixture/log/failure/result/status/claim versions.
+
+48NEW cases/48public documentary candidate calls/one definition load FIRSTPASS.
+Actual2structure-only/9unsupported/37refusals/28sourcecodes, exact independent
+frozen receipt and observation-trace joins.43rawinputs/five foreign-type recipes;
+two trap traces EMPTY. All actual real execution/research/training/budget flags
+FALSE/attempts0/bindingnull/targetHOLD; supplied labels/empty history/supplied
+clock numbers never permission in these cases. Warmups0/retries0/unexpected0/
+capstops0/blocked-port attempts0.52frozen source/runner/input/oracle/cap/plan
+definitions unchanged before-after; candidate13650B and runner UNCHANGED.
+Candidate is NOW locally executed ONCE; original source UNEXECUTED comment and
+old plan NOT_RUN/PENDING bytes retained as HISTORY, not current-state claims.
+Scientific candidate/replay notstarted remains distinct and unchanged.
+
+No candidate/runner run or repeat remains authorized. Future execution needs
+NEW explicit reviewed scope; consumed local48-case/old32-case/real grants NOT
+reusable. All24 original real requirements NOT_IMPLEMENTED/NOT_PROVEN. Four
+reference/namespace descriptor families in P02–P08 still unsupported. Bounded
+48case plan NOT exhaustive domain/error/Unicode/numeric/concurrency/security/
+inverse proof. D_KEY_TYPE/D_PRIMITIVE_DOMAIN untested. No private-helper/global/
+stdlib injection; unexpected errors/BaseException and denial handlers not
+fault-injected. Trap observations cover only two declared objects, not privacy/
+hard security/thread-safety/physical ownership/heap/RSS/time/resource-fit proof.
+
+Complete retained case evidence657504B<=1048576B incl ALL case source/version/
+input/oracle/log/frozen copies +originalcandidate +results/starts/stdout; each
+runtimeartifact<=32768B/stdout174B<=8192B/failurereserve32768. Prior cap membership
+admin history/authority/lineage/index snapshots/saved audit/publication/seal
+exclusions fixed BEFORE run. No overhead subtraction, stopwatch/timer/OS quota.
+Isolated namespace/preloaded json/math only; available process/thread/time
+entrypoints patched, import/newsource/process/network audit denials installed.
+No realport probe/warmup; unavailable modules not imported to exercise denial.
+No OS/adversarial sandbox or physical enforcement proof. No original project/
+Snapshot/model/Torch/NumPy/tensor/gradient/worker/FileSink/ledger/science callbacks.
+
+STD independent saved auditv1 FIRSTPASS72402priorhashes/78076priorfixtures/53new/
+78129total/92pins/52frozen/48saved receipt-trace joins.53fixtures =48case records+
+3run/start records+stdout+one resultdirectory; NOT53calls. No candidate/runner/
+capture/reviewer/project/test/prototype/scientific callback or scientificvalue
+decode-recalc/process/clock/timer/GPU/proof/network/target IN AUDIT. One approved
+candidate run reported separately; audit NEVER reruns it. Source/AST/JSON/FS/hash
+REAL. Prior plan v1 name-analysis failure/v2 solebinding fix/all versions retained.
+Prior32case41call/43boundary/proof/cost/closedcohorts INHERITED NOT repeated.
+Device33 prior v4 LSTAT review conditional LOCAL metadata only; old29 refusal/
+target66307/four exact lifecycle exceptions fixed. FIFO LSTAT ONLY NEVER OPEN/
+READ/HASH. No mount probe/remap/waiver/volume claim; futurechange NEWrecord/review.
+Seal sealed-documentary-validation-v1.json; liveindexes excluded/exact before-
+after snapshots included. Prior plan roots/index history unchanged/preserved.
+
+NEXT SEPARATE LOCAL per NEXT-LOCAL-DOCUMENTARY-DOMAIN-REVIEW-v1.json: bounded
+source/documentary review of four unsupported descriptors/seven affected profiles
+using NEW48 saved outcomes plus pinned source/spec. Classify missing definitions/
+additional evidence, separate local documentary structure from actual origins/
+completeness/authority. NO invented operational formats/emptyhistory inference,
+source changes/candidate run/old passing repeats/integration/adapter/runtime
+binding/gate edit/prototype/benchmark/original callback/target work. Fullsource/
+inverse/domain/refusal/ownership/completeunit timing/memory/freshreplay/recovery/
+economics/calibration/data/protocol/training remain gated even after localPASS.
+
+All real grants CONSUMED/attempts0/bindingnull/target HOLD_NOT_READY_NOT_REQUESTED.
+No university query/SSH/upload/download/install/retry/resume/retrieval/cleanup/
+GPU/proof/paidwork/manualpaste/active grant-control-handoff-package-launch/
+operational request. Current remote quiescence/deployedbinary-build-ABI-backend/
+actualcurrentphase execution UNKNOWN; no lostprimarycause claim. Old genuine
+proof31gradients/wholeunits0/scientific candidate-replay notstarted/all failed-
+partial-pending-consumed flags fixed. Oldv347/450548B NOT current48/481518B.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; supportedv5 unconditional refusal
+before delegateclock/ATTEMPT/connection; no private/older bypass. Graph56uploads
+936711B/runtime48files481518B/cache47/nine supervisors/270paths/control d997bf9e...
+unchanged. Objective120/unit720/setup180/proof60/soft2280-hard2400/final120/
+collection600/connection3000/RSS4GiB/allocator7GiB/allother caps fixed. Original
+science/native/guards/owner/hash/immutable copies/EVERY fresh hash/ordered
+state_digest/durability/shutdown/continuing clocks fixed. Mechanism CLOSED/
+research-trainingFALSE. TrainingPGD5/EOT1/routineEOT1/optimizerbackward/registry/
+studyYAML/financial200/160/40/single10caps+holds fixed; old snapshots not current
+quotes/balance. No training percentage/time estimate. Earlier entries historical.
+
 LATEST November 25: DOCUMENTARY VALIDATION PLAN FROZEN; ALL48 CASES NOT_RUN.
 Read docs/predictor_pgd_documentary_validation_plan_v1.md, validation plan config
 and report/checks/2026-11-25-pgd-documentary-validation-plan-v1-local-review.json/md.

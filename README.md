@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Local documentary validator:48/48 FIRST PASS (November25):**
+[The completed validation](docs/predictor_pgd_documentary_validation_v1.md) records
+one explicitly approved48-call run, independent receipt/trace matches and657504B
+retained evidence within1MiB. Local approval consumed; original real requirements
+remain unqualified. Next is source-only review of four unsupported reference/
+namespace descriptor families. Installed gate, target work and training closed.
+Earlier unexecuted-plan statements are historical; no cohort repeated.
+
 **Local documentary validation plan frozen; all48 cases NOT_RUN (November25):**
 [The plan](docs/predictor_pgd_documentary_validation_plan_v1.md) fixes43 raw inputs,
 five foreign-type recipes and independent expected receipts before any candidate

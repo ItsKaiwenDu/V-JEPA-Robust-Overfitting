@@ -1840,3 +1840,42 @@ proof31gradients/wholeunits0/candidate-replay notstarted/all failed-partial-pend
 consumed flags fixed. Device33 prior v4 conditional local LSTAT review only;
 old29/target66307/four exceptions/FIFO LSTAT-only preserved. Exact index snapshots
 sealed; no agent Git mutation. Training remains closed without estimate.
+
+## November25: validate48 documentary cases once; consume local approval, retain real HOLD
+
+After [the exact frozen plan](predictor_pgd_documentary_validation_plan_v1.md),
+the user explicitly approved the local48-case run. Exact question/answer and
+plan/freeze/runner/candidate hashes retained. [The completed validation](predictor_pgd_documentary_validation_v1.md)
+passed48 cases/48 public calls/one definition load FIRST RUN. Actual2structure-
+only/9unsupported/37refusals/28identifiers; every value/traptrace equals independent
+frozen oracles, two foreign-object trap traces empty.52 definitions unchanged,
+no warmup/retry/unexpected failure/capstop/blocked-port attempt. All actual real
+flagsfalse/attempts0/bindingnull/targetHOLD. Local approval CONSUMED_NOT_REUSABLE.
+
+Complete retained case evidence657504B<=1048576B, each runtimeartifact<=32768B/
+stdio174B; all source/versions/input/oracle/log/frozen copies/originalcandidate/
+results/start/stdout counted, fixed prior administrative exclusions. No OS
+walltime/heap/RSS/security/ownership/original-domain/resource-fit proof. Two
+source codes untested; no privatehelper/global/stdlib/error/denial fault injection.
+All24 original real requirements unqualified and four reference/namespace
+descriptor families unsupported. Candidate locally executed now; prior source
+UNEXECUTED comment/plan NOT_RUN/PENDING statements preserved as historical bytes.
+
+Independent saved auditv1 FIRSTPASS72402priorhashes/78076priorfixtures/53new/
+78129total/92pins/52frozen/48saved joins; no candidate/runner/capture/project/test/
+prototype/scientific callbacks or scientific value decode-recalc/process/clock/
+timer/GPU/proof/network/target IN AUDIT. Approved candidate run separate, no rerun.
+Old32case41call/43boundary/scientific proof/cost/closedcohorts inherited unchanged.
+Prior uncommitted plan files and alloldsource/test/auditor/failure/log/status
+versions preserved. Next separate source/documentary review uses NEW results to
+classify missing four descriptor definitions/evidence, without sourcechange/
+rerun/operationalformat/integration/target work. No further run authorized.
+
+All real grants consumed/attempts0/bindingnull/supportedv5 closed before protocol
+clock/ATTEMPT/connection; no private/older bypass. TargetHOLD/research-trainingfalse.
+Original graph/science/native/guards/hash/copies/owner/durability/shutdown/clocks/
+caps/financial holds and genuine proof31gradients/wholeunits0/scientificcandidate-
+replay notstarted/failed-partial-pending-consumed claims fixed. Current remote/
+deployedbuild/actualphase execution unknown. Device33 prior v4 conditional local
+LSTAT review only; old29/target66307/four exceptions/FIFO LSTAT-only preserved.
+Exact index snapshots sealed; no Git mutation or training estimate.
