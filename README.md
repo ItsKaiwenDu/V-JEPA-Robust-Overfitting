@@ -1,5 +1,21 @@
 # V-JEPA Robust Overfitting
 
+**Local documentary reference requirements drafted (November26):**
+[The addendum](docs/predictor_pgd_documentary_reference_requirements_v1.md)
+defines20 requirements for13 roles plus missing/ambiguous evidence and refusal
+rules. All remain unimplemented/unproven; formats and resource bounds unselected.
+Saved audit passed, validator unchanged. Next: a declarative local-only format
+proposal. Real admission, target work and training remain closed.
+Earlier entries historical.
+
+**Documentary reference-domain review completed (November26):**
+[The review](docs/predictor_pgd_documentary_domain_review_v1.md) maps four
+unsupported families to13 fields in seven profiles. Saved cases cover empty/
+null placeholders, not populated references or complete evidence. Source and
+validator unchanged; saved audit passed. Next: a data-only reference-requirements
+addendum. Real admission, target work and training remain closed.
+Earlier entries historical.
+
 **Local documentary validator:48/48 FIRST PASS (November25):**
 [The completed validation](docs/predictor_pgd_documentary_validation_v1.md) records
 one explicitly approved48-call run, independent receipt/trace matches and657504B

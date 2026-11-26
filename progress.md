@@ -1,5 +1,171 @@
 # Research Progress Reports
 
+LATEST November 26: DATA-ONLY REFERENCE REQUIREMENTS DRAFTED; REAL HOLD.
+Read docs/predictor_pgd_documentary_reference_requirements_v1.md, reference
+requirements config and report/checks/2026-11-26-pgd-documentary-reference-requirements-v1-local-review.json/md.
+Raw pgd-documentary-reference-requirements-v1-20261126. User "Committed; next
+step!" directs disclosed DATA-ONLY addendum. Observed starting HEAD/origin837026b
+still showed prior review's eight paths uncommitted despite user report; exact
+status/old roots/index history PRESERVED, no invented clean/push claim. No agent
+Git mutation; default user Git unless EXPRESSLY requested. Automatic short clear
+title +NUMBERED description eachbigstep. Preserve ALL versions/fixtures/logs/
+failures/results/statuses/claims.
+
+NEW20 requirements DRR01–20 =12 family+8 cross-family,13 exact original field
+roles/four families/seven profiles,8 conceptual evidence states/8 refusal-order
+obligations/8 independent real-evidence groups preserved OPEN. Each role has
+cardinality/completeness/order/multiplicity/ambiguity/null/failure obligations.
+Logical single-reference arity stated, concrete encoding/member sets/resource
+count-length-byte limits UNSELECTED/context-evidence required. No actual
+instance schema/closed namespace/resolver/populated example/operational format.
+Current rawbytes/JSON/canonical/fieldorder/labels/receipts/source unchanged.
+
+Nullable null remains unknown/HOLD; required reference null needs explicit
+FUTURE refusal, not implemented now. Missing/ambiguous/mismatched/contradictory
+evidence cannot choose first/last/newest, default empty, reset history or supply
+permission. Future documentary identity match is identity ONLY, not actual
+origins/completeness/authority/clock/ownership/fit. No implicit dereference or
+hidden I/O. Any later resolver requires separate first-effect/error/lifetime/
+source/refusal review and explicit new scope. Source/process/causal order stays
+distinct from global cross-process epochs; missing receipt never erases effects.
+
+All20 NEW requirements NOT_IMPLEMENTED/NOT_PROVEN/NO_NEW_CASE_PLAN_OR_EXECUTION;
+all24 original DAS requirements remain NOT_IMPLEMENTED/NOT_PROVEN. Prior12 local
+definition groups have requirements COVERAGE only, ZERO completed instance
+formats or real-evidence gaps closed. Four descriptor families unsupported;
+current validator13650B and runner unchanged, prior48case executed ONCE only,
+approval CONSUMED_NOT_REUSABLE. No candidate/source change/import/compile for
+execution/call/test/case membership/oracle/prototype/benchmark/original callback.
+States/refusal obligations NOT runtime enum/transition/code or test/oracles.
+
+STD independent saved auditv1 FIRSTPASS72581priorhashes/78129priorfixtures/0new/
+115pins/seven frozen definitions/20requirements/13roles/8states/8refusals/8real
+evidence joins. No author/candidate/runner/project/test/prototype/scientific
+callback or scientificvalue decode-recalc/process/clock/timer/GPU/proof/network/
+target IN AUDIT. JSON/source/stat/hash REAL. No old48/32case/43boundary/scientific
+proof/cost/closedcohort repetition. Prior657504B caseevidence/consumed scopes/
+failures/corrections/results/statuses retained. Device33 prior v4 LSTATreview
+conditional LOCAL metadata only; old29 refusal/target66307/four exact lifecycle
+exceptions fixed. FIFO LSTAT ONLY NEVER OPEN/READ/HASH; no mount probe/remap/
+waiver/volume claim. Newdevicechange NEWrecord/review. Fixturetotal78129 unchanged.
+Seal sealed-documentary-reference-requirements-v1.json; liveindexes excluded/
+exact before-after snapshots included, all preceding review roots preserved.
+
+NEXT SEPARATE LOCAL per NEXT-LOCAL-DOCUMENTARY-FORMAT-PROPOSAL-v1.json: bounded
+DECLARATIVE LOCAL-DOCUMENTARY-only format PROPOSAL for4families/13roles, explicit
+unresolved namespaces/bounds/source-error review obligations. Proposal ONLY,
+not adopted/instantiated. NO concrete operational parser format/active authority
+record/resolver/implementation/populated runtime example/actual origins or
+completeness claim/candidate source change/import/case plan/run/benchmark/
+integration/runtime binding/gate edit/target action or operational request.
+All later source/inverse/domain/refusal/ownership/completeunit timing/memory/
+freshreplay/recovery/economics/calibration/data/protocol/training gates remain.
+
+All real grants and used local48/32case scopes CONSUMED/attempts0/bindingnull/
+target HOLD_NOT_READY_NOT_REQUESTED. No university query/SSH/upload/download/
+install/retry/resume/retrieval/cleanup/GPU/proof/paidwork/manualpaste/active
+grant-control-handoff-package-launch/operational request. Current remote
+quiescence/deployedbinary-build-ABI-backend/actualcurrentphase execution UNKNOWN;
+no lostprimarycause claim. Old genuine proof31gradients/wholeunits0/scientific
+candidate-replay notstarted/all failed-partial-pending-consumed flags fixed.
+Oldv347/450548B NOT current48/481518B.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; supportedv5 unconditional refusal
+before delegateclock/ATTEMPT/connection; no private/older bypass. Graph56uploads
+936711B/runtime48files481518B/cache47/nine supervisors/270paths/control d997bf9e...
+unchanged. Objective120/unit720/setup180/proof60/soft2280-hard2400/final120/
+collection600/connection3000/RSS4GiB/allocator7GiB/allother caps fixed. Original
+science/native/guards/owner/hash/immutable copies/EVERY fresh hash/ordered
+state_digest/durability/shutdown/continuing clocks fixed. Mechanism CLOSED/
+research-trainingFALSE. TrainingPGD5/EOT1/routineEOT1/optimizerbackward/registry/
+studyYAML/financial200/160/40/single10caps+holds fixed; old snapshots not current
+quotes/balance. No training percentage/time estimate. Earlier entries historical.
+
+LATEST November 26: FOUR DOCUMENTARY REFERENCE DOMAINS REVIEWED; REAL HOLD.
+Read docs/predictor_pgd_documentary_domain_review_v1.md, domain review config and
+report/checks/2026-11-26-pgd-documentary-domain-review-v1-local-review.json/md.
+Raw pgd-documentary-domain-review-v1-20261126. Starting clean user-pushed837026b.
+User "Committed; next step!" directs prior disclosed bounded LOCAL SOURCE/
+DOCUMENTARY review only. No agent Git mutation; default user Git unless EXPRESSLY
+requested. Auto short clear title +NUMBERED description eachbigstep. Preserve ALL
+source/test/auditor/fixture/log/failure/result/status/claim versions.
+
+Four unsupported descriptor families map13fields/seven profiles P02–P08:
+closed-name-to-hash-map2/bounded-evidence-reference-list7/nullable reference2/
+required reference2. Exact spec requirement text/source ordinals retained.
+Maps/lists branch checks ONLY exact dict/list type then returns unsupported;
+both reference families NO descriptor-specific shape/null check. Earlier raw
+bytes/JSON/canonical/tree bounds still apply; NOT arbitrary-Python acceptance.
+Six source AST/range anchors; SOURCE relations NOT instrumented field traces.
+No instance schema/closed namespace/resolver/operational format defined/adopted.
+
+NEW saved48-result context: seven primary P02–P08 cases use FOUR EMPTY DICTS/
+SEVEN EMPTY LISTS/TWO NULLS across13fields; actual HOLD reasons retained. These
+are placeholder HOLD cases, NOT populated-reference/completeness/provenance/
+authority validation. Nine total unresolved receipts include TWO P01 unknown/
+null-digest cases outside these families.15 selected saved metadata records=
+7primary+2P01+6later field refusals. Later specific authority/permission/claim/
+admission/outcome/clock-type refusals retained; source ordered loop can accumulate
+unsupported then raise. Receipt alone DOES NOT trace earlier field visits or
+prove missing prior effects. No replay/simulation/new trace/candidate callback.
+
+Per family THREE missing local-definition groups +TWO separate real-evidence
+obligation groups. Exact namespace/context/member spelling/digest/completeness,
+reference element/identity/null/order/duplicates/bounds/ambiguity/error ownership
+remain undefined. Projectsource hashes NOT deployed binary/build/ABI/provider;
+empty lists NOT no work/unconsumed history; labels NOT fresh authority/held
+clocks/physical ownership; workload/cap constants NOT full original domain/fit.
+Zero local-definition gaps or real-evidence gaps closed. All24 original real
+requirements NOT_IMPLEMENTED/NOT_PROVEN, original four families unsupported.
+Prior48-case candidate executed once, approval CONSUMED_NOT_REUSABLE; NO repeat
+authorized. Old32-case/real grants also consumed. No candidate/source change,
+import/compile for execution/call/test/prototype/benchmark/original callback.
+
+STD independent saved auditv1 FIRSTPASS72517priorhashes/78129priorfixtures/0new/
+107pins/seven frozen review definitions/4families/13fields/7profiles/15saved
+relations/6AST-range anchors. No classifier/candidate/runner/project/test/
+prototype/scientific callback or scientificvalue decode-recalc/process/clock/
+timer/GPU/proof/network/target IN AUDIT. Source/AST/JSON/FS/hash REAL. No new case
+membership/oracle/result. Prior48-case firstPASS/657504B evidence and older
+32case41call/43boundary/scientificproof/cost/closedcohorts INHERITED NOT repeated
+or promoted. All prior failures/corrections including name-analysis and concurrent
+user-commit publication check retained unchanged. Device33 prior v4 LSTATreview
+conditional LOCAL metadata only; old29 refusal/target66307/four exact lifecycle
+exceptions fixed. FIFO LSTAT ONLY NEVER OPEN/READ/HASH. No mount probe/remap/
+waiver/volume claim; futurechange NEWrecord/review. Fixturetotal78129 unchanged.
+Seal sealed-documentary-domain-review-v1.json; liveindexes excluded/exact before-
+after snapshots included. All old sources/tests/auditors/logs/statuses retained.
+
+NEXT SEPARATE LOCAL per NEXT-LOCAL-DOCUMENTARY-REFERENCE-REQUIREMENTS-v1.json:
+DATA-ONLY documentary reference requirements addendum for FOUR families/13roles:
+identity/null/missing/ambiguity, closed namespace declaration/completeness
+obligations, role-specific bounds/order/refusal/error ownership. Preserve exact
+distinction from actual origins/authority/completeness. NO concrete operational
+format/active record/resolver/current source change/new case plan/run/prototype/
+benchmark/integration/adapter/runtime binding/gate edit/target action. This is
+not real admission; all later fullsource/inverse/domain/refusal/ownership/
+completeunit timing/memory/freshreplay/recovery/economics/calibration/data/
+protocol/training gates stay independent. No operational approval requested.
+
+All real grants CONSUMED/attempts0/bindingnull/target HOLD_NOT_READY_NOT_REQUESTED.
+No university query/SSH/upload/download/install/retry/resume/retrieval/cleanup/
+GPU/proof/paidwork/manualpaste/active grant-control-handoff-package-launch/
+operational request. Current remote quiescence/deployedbinary-build-ABI-backend/
+actualcurrentphase execution UNKNOWN; no lostprimarycause claim. Old genuine
+proof31gradients/wholeunits0/scientific candidate-replay notstarted/all failed-
+partial-pending-consumed flags fixed. Oldv347/450548B NOT current48/481518B.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; supportedv5 unconditional refusal
+before delegateclock/ATTEMPT/connection; no private/older bypass. Graph56uploads
+936711B/runtime48files481518B/cache47/nine supervisors/270paths/control d997bf9e...
+unchanged. Objective120/unit720/setup180/proof60/soft2280-hard2400/final120/
+collection600/connection3000/RSS4GiB/allocator7GiB/allother caps fixed. Original
+science/native/guards/owner/hash/immutable copies/EVERY fresh hash/ordered
+state_digest/durability/shutdown/continuing clocks fixed. Mechanism CLOSED/
+research-trainingFALSE. TrainingPGD5/EOT1/routineEOT1/optimizerbackward/registry/
+studyYAML/financial200/160/40/single10caps+holds fixed; old snapshots not current
+quotes/balance. No training percentage/time estimate. Earlier entries historical.
+
 LATEST November 25: DOCUMENTARY48-CASE VALIDATION FIRST PASS; REAL HOLD.
 Read docs/predictor_pgd_documentary_validation_v1.md, documentary validation config
 and report/checks/2026-11-25-pgd-documentary-validation-v1-local-review.json/md.

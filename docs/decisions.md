@@ -1879,3 +1879,69 @@ replay notstarted/failed-partial-pending-consumed claims fixed. Current remote/
 deployedbuild/actualphase execution unknown. Device33 prior v4 conditional local
 LSTAT review only; old29/target66307/four exceptions/FIFO LSTAT-only preserved.
 Exact index snapshots sealed; no Git mutation or training estimate.
+
+## November26: classify four unsupported reference families; keep real admission HOLD
+
+From clean user-pushed837026b, the user directed the separate source/documentary
+review using NEW48-case saved outcomes. [The domain review](predictor_pgd_documentary_domain_review_v1.md)
+maps13 unsupported fields/seven profiles:2 source maps/7 evidence lists/2nullable
+references/2required references. Maps/lists shallow exact types only; reference
+families no descriptor-specific shape/null validation. Earlier JSON bounds
+remain. Seven primary cases use4emptydict/7emptylist/2null; placeholder HOLD
+does not validate populated references, full namespace/history or authority.
+Two of nine unresolved receipts are P01 context, not reference-family cases.
+Six later specific refusals preserved; source order and saved receipt do not
+constitute per-field dynamic tracing or proof no earlier effect occurred.
+
+107pins/seven frozen review definitions/six AST-range anchors/15 selected saved
+metadata relations. Independent saved auditv1 FIRSTPASS72517priorhashes/78129
+fixtures/0new, no classifier/candidate/runner/project/test/prototype/scientific
+callback or scientific value decode-recalc/process/clock/timer/network/target
+work. No validator/source change/new case/oracle/run/benchmark/old cohort repeat.
+Three missing local-definition groups/two real-evidence obligation groups per
+family remain; zero gaps closed/all24 original requirements unqualified.
+
+Next separate DATA-ONLY reference requirements addendum addresses13roles/four
+families without operational formats/active records/resolvers/sourcechange/
+caseplan/run/integration/target work. Prior48-case/32-case and all real grants
+consumed, attempts0/bindingnull/targetHOLD/research-trainingfalse. Supportedv5
+closed before clock/ATTEMPT/connection; all science/guard/hash/copy/owner/
+durability/clocks/caps/financial holds and old proof31gradients/wholeunits0/
+scientific candidate-replay notstarted/failed-partial-pending-consumed statuses
+fixed. Device33 prior v4 local LSTAT review only, old29/target66307/four exact
+exceptions/FIFO LSTAT-only preserved. Exact index snapshots sealed; no Git
+mutation or training estimate. All old versions/failures/corrections retained.
+
+## November26: draft data-only documentary reference requirements; preserve real HOLD
+
+The user directed the disclosed addendum. Initial observed HEAD/origin837026b
+still showed the prior review's eight uncommitted paths despite the user's
+commit report; exact Git observation/old roots/index history preserved. No agent
+Git mutation. [The requirements](predictor_pgd_documentary_reference_requirements_v1.md)
+contain20 normative rows (12family+8cross),13 exact field roles,8 conceptual
+states/8refusal-order obligations/8 independent real-evidence groups OPEN.
+Each role specifies cardinality/completeness/order/multiplicity/ambiguity/null
+and failure obligations; concrete formats/namespaces/resource limits unselected.
+Nullable null unknown/HOLD, required null needs prospective future refusal;
+no parser/label/runtime/receipt/source change. Identity match is documentary
+only, never origins/completeness/authority/clock/owner/resource qualification.
+
+All20 new and24 original requirements NOT_IMPLEMENTED/NOT_PROVEN.12 prior
+local-definition groups have requirements coverage only; zero instance-schema
+or real-evidence gaps closed. Independent saved auditv1 FIRSTPASS72581priorhashes/
+78129fixtures/0new/115pins/seven frozen definitions/all requirement-role-state-
+refusal-evidence joins. No author/candidate/runner/project/test/prototype/science
+callback or scientific value decode-recalc/process/clock/timer/network/target
+work. No new case plan/oracle/run, old48/32case/43boundary/science/proof/cost/
+closed-cohort repeat or status promotion. All prior sources/failures/logs fixed.
+
+Next separate bounded declarative LOCAL-DOCUMENTARY-only format PROPOSAL,
+not adopted/instantiated; no operational parser/active record/resolver/source
+change/populated runtime example/caseplan/run/integration/gate edit/target work.
+All real and used local scopes consumed/attempts0/bindingnull/targetHOLD/
+research-trainingfalse; supportedv5 closed before clock/ATTEMPT/connection.
+Science/guard/hash/copy/owner/durability/clocks/caps/financial holds and old
+proof31gradients/wholeunits0/scientific candidate-replay notstarted/failed-partial-
+pending-consumed states fixed. Device33 prior v4 conditional local LSTAT only;
+old29/target66307/four exceptions/FIFO LSTAT-only retained. Exact index snapshots
+sealed, no Git mutation or training estimate.
