@@ -1733,3 +1733,38 @@ gate change/active material/operational request or target permission. All real
 grants consumed, attempts0, binding null; all science/resource/financial holds
 and qualification gates remain, training closed without estimate. Git mutation
 remains express-request only; automatic numbered commit messages continue.
+
+## November25: draft diagnostic admission requirements; hold implementation
+
+From clean user-pushed25aef490, the next LOCAL requirements-only step produced
+[v1 specification](predictor_pgd_diagnostic_admission_specification_v1.md):8
+documentary profiles/24 requirements/eight states/15 separate client-remote
+effect stages/16 refusal rows/12 review obligations. Each inherited topic has
+two requirements; all remain NOT_IMPLEMENTED/NOT_PROVEN, no new test plan or
+oracles. Unknown and missing evidence cannot become permission/idle/completion/
+zero cost. REQUIREMENTS-ONLY kinds cannot serve as real grant/control forms.
+
+Saved audit v1 FIRST PASS72127 prior hashes/78076 fixtures/0new/65pins/five
+frozen definitions/all coverage/request/lineage joins. No inspected source,
+validator/prototype/test/scientific callback or old passing cohort repeated.
+Prior32case/41call validation and43 source boundaries inherited without broadening
+their claims. Precise parser/bounds/full inverse/domain/refusal/ownership proof
+remain future source review obligations. No executable API/adapter/binding/gate
+edit/run/active material/operational request or target action.
+
+Prepared local-only request is PENDING: after explicit approval, author/review
+one UNEXECUTED standalone stdlib documentary module <=64KiB plus source/domain/
+refusal review plan, outside original runtime/upload graph. All real output
+flags false/attempts0/bindingnull. No execution, old cohort, real ports, source
+gate change or target permission. This separate source-draft scope is required
+by current REQUIREMENTS-ONLY instructions; old grants/used32case permission are
+not reusable. Actual diagnostic implementation/operational authority and all
+qualification gates remain on hold; training closed with no estimate.
+
+All old source/tests/logs/oracles/results/genuine proof31gradients/wholeunits0/
+candidate-replay not started/failed-partial-pending-consumed flags remain.
+Device33 prior v4 conditional LOCAL LSTAT review only; old29/target66307/four
+lifecycle exceptions/FIFO LSTAT-only fixed, no probe/remap/waiver. Exact index
+snapshots sealed. All scientific/hash/copy/owner/durability/clock/resource/
+financial constraints unchanged. No agent Git mutation; numbered commit message
+preference continues.

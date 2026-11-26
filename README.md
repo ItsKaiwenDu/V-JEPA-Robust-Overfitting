@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Diagnostic requirements drafted; local code-draft approval pending (November25):**
+[The specification](docs/predictor_pgd_diagnostic_admission_specification_v1.md)
+defines eight documentary profiles,24 requirements and16 refusal rows. Coverage
+audit passed; every requirement remains unimplemented/unproven. No validator or
+run is created. The next request is for one unexecuted local documentary source
+draft only; current instructions require a separate scope decision. The installed
+gate, target execution and training remain closed. Earlier entries historical.
+
 **Diagnostic admission source review complete; real admission remains on hold (November25):**
 [The source obligation map](docs/predictor_pgd_diagnostic_admission_source_review_v1.md)
 records 12 topics against 43 exact boundaries. The fake policy does not supply

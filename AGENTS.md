@@ -2,6 +2,86 @@
 
 ## Current stage
 
+LATEST November 25: DIAGNOSTIC REQUIREMENTS v1 DRAFTED; CODE DRAFT REQUEST PENDING.
+Read docs/predictor_pgd_diagnostic_admission_specification_v1.md, specification
+config and report/checks/2026-11-25-pgd-diagnostic-admission-specification-v1-local-review.json/md.
+Raw pgd-diagnostic-admission-specification-v1-20261125. Starting clean user-pushed
+25aef490. User requested next LOCAL REQUIREMENTS-ONLY step from completed source
+map. No agent Git mutation. Default user Git unless EXPRESSLY requested;
+automatic short clear title +NUMBERED description each big step. Preserve ALL
+source/test/auditor versions/fixtures/logs/failures/results/statuses/claims.
+
+NEW eight documentary data profiles/24 requirements/eight conceptual state
+descriptions/15 separate client-remote effect stages/16 refusal rows/12 independent
+review obligations; each parent topic exactly two requirements. All24 remain
+NOT_IMPLEMENTED/NOT_PROVEN/NO_NEW_TEST_PLAN_OR_EXECUTION.65 prior pins/five new
+definition snapshots frozen before first saved audit. REQUIREMENTS-ONLY kinds
+are invalid real grant/control forms. Closed documentary keys/type/domain/
+unknown rules; unknown/unavailable/synthetic/source assertion never defaults to
+permission, unconsumed history, idle, completed work or zero cost. Precise parser/
+bounds/full domain compatibility remain future independent review obligations.
+No executable validator/API/adapter/source bridge/runtime binding/gate edit or
+new test/prototype/benchmark/scientific callbacks emitted/run. Metadata authoring
+and JSON/stat/hash/source-review compute REAL, not scientific work.
+
+Ordering is within each original process flow +causal message joins, NOT total
+cross-process epoch arithmetic or executed trace/launch plan. Preserve all old
+clock/claim/refusal/hash/copy/scan/fsync/publication/cleanup boundaries, primary
+errors and already occurred effects. Unknown ownership refuses handoff/final/
+collection. Conceptual states all actual execution/research/training FALSE,
+only DRAFT_ONLY current. No inverse/domain/physical owner/cap/security proof.
+Prior32-case/41-call pass and43 source boundaries INHERITED not repeated or
+broadened to these new requirements. No new case membership/oracles planned.
+
+NEXT LOCAL-IMPLEMENTATION-DRAFT-REQUEST-v1.json PENDING_NOT_AUTHORIZED. Separate
+explicit user scope needed to AUTHOR/REVIEW one UNEXECUTED standalone stdlib
+documentary metadata validation module <=65536B outside original runtime/upload
+graph +new source/domain/refusal review plan. All real outputs hardFalse,
+attempts0/bindingnull. NOT real diagnostic admission implementation. Current
+scope is REQUIREMENTS-ONLY, no executable API/adapter/runtime binding/gate edit.
+DO NOT draft/import/run candidate until explicit local source-draft approval.
+Even draft approval permits NO prototype/test/benchmark run, old cohorts,
+original scientific/project imports, real ports, installed gate change, active
+grant/control/handoff/package/launch/operational request or target action. The
+adopted preparation amendment remains narrow; old grants/used32case authorization
+NOT reusable. Later execution/operational sources require separate review and
+fresh explicit authorization. No target approval requested or ready.
+
+STD saved audit v1 FIRST PASS72127 prior hashes/78076 prior fixtures/0new/65pins/
+five frozen definitions/all8profile-24requirement-8state-15stage-16refusal-12review/
+request/coverage/lineage joins. No author/inspected-source/project/validator/test/
+prototype/scientific callbacks or scientific value decode-recalc/process/clock/
+timer/GPU/proof/target/network IN AUDIT. Coverage only NOT implementation/proof.
+All source/log versions retained. Device33 prior v4 LSTATreview CONDITIONAL LOCAL
+metadata only; old29 refusal/records/target66307/four lifecycle exceptions fixed.
+FIFO LSTAT ONLY NEVER OPEN. No mount probe/remap/waiver/volume authentication;
+future device change newrecord/review. Seal sealed-diagnostic-admission-specification-v1.json;
+live indexes excluded/exact before-after snapshots. Fixturetotal78076 unchanged.
+
+All real grants CONSUMED/attempts0; target HOLD_NOT_READY_NOT_REQUESTED. Current
+remote quiescence/deployed binary-build-ABI-backend/current phase execution
+UNKNOWN. Future preflight ITSELF target work needing reviewed source/fresh
+authority/original clock accounting. No university query/SSH/upload/download/
+install/retry/resume/retrieval/cleanup/GPU/proof/paid work/manual paste. Old genuine
+proof31gradients/wholeunits0/candidate-replay notstarted/failed-partial-pending-
+consumed flags fixed. Oldv347/450548B NOT current48/481518B; no lost primary cause
+claim. Copy provenance gap and all prior source/proof/cost rejections unchanged.
+Actual full source/inverse/domain/refusal/ownership +complete unit timing/memory/
+fresh replay/recovery/economics/calibration/data/protocol/training still gated.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; supported v5 unconditional refusal
+before delegate protocol clock/ATTEMPT/connection; no private/older bypass. Graph
+56uploads936711B/runtime48files481518B/cache47/nine supervisors/270paths/control
+d997bf9e... unchanged. Objective120/unit720/setup180/proof60/soft2280-hard2400/
+final120/collection600/connection3000/RSS4GiB/allocator7GiB/cleanup2s/all other caps
+fixed. Selected reference numbers do NOT replace full original cap/refusal
+domain or promise full unit windows. Original science/native/guards/owner/hash/
+immutable copies/EVERY fresh hash/ordered state_digest/durability/shutdown/
+continuing clocks fixed. Mechanism CLOSED/research-training FALSE. TrainingPGD5/
+EOT1/routineEOT1/optimizer backward/registry/studyYAML/financial200/160/40/single10
+caps+holds fixed; historical snapshots not current quotes/balance. No training
+percentage/time estimate. Earlier entries historical.
+
 LATEST November 25: DIAGNOSTIC ADMISSION SOURCE OBLIGATIONS MAPPED; REAL HOLD.
 Read docs/predictor_pgd_diagnostic_admission_source_review_v1.md, source_review
 config and report/checks/2026-11-25-pgd-diagnostic-admission-source-review-v1-local-review.json/md.

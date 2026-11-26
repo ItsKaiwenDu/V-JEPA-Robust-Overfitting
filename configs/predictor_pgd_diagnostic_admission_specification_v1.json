@@ -1,0 +1,1655 @@
+{
+  "active_graph": {
+    "cache_modules": 47,
+    "primary_paths": 270,
+    "runtime_bytes": 481518,
+    "runtime_files": 48,
+    "supervisors": 9,
+    "upload_bytes": 936711,
+    "uploads": 56
+  },
+  "active_source_control_sha256": "d997bf9ed74c8ebf4504a5e6214a35e28365f85e9da3d7738a5b58f5edaa9f29",
+  "all_old_sources_tests_oracles_logs_results_failures_statuses_claims_preserved": true,
+  "all_other_original_scientific_resource_financial_caps_and_holds_fixed": true,
+  "all_real_grants_consumed": true,
+  "budget_decision": "REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE",
+  "budget_gate_opened": false,
+  "candidate_or_replay_started": false,
+  "cross_process_order_rule": "Only source-defined within-flow order and causal message joins; never subtract unrelated epochs or invent a total clock order.",
+  "current_supported_gate_unconditionally_closed_before_delegate_clock_attempt_connection": true,
+  "data_profiles": [
+    {
+      "closed_required_keys": [
+        "record_kind",
+        "revision",
+        "artifact_sha256",
+        "parent_specification_sha256",
+        "evidence_status"
+      ],
+      "coercion_duplicate_keys_nonfinite_or_bool_as_int_refused": true,
+      "fields": [
+        {
+          "domain": "exact-string",
+          "name": "record_kind",
+          "required": true,
+          "requirement": "REQUIREMENTS-ONLY/P01; never a kind accepted by an operational grant/control parser"
+        },
+        {
+          "domain": "exact-integer",
+          "name": "revision",
+          "required": true,
+          "requirement": "Version1; booleans are not integers"
+        },
+        {
+          "domain": "canonical-hash-or-null",
+          "name": "artifact_sha256",
+          "required": true,
+          "requirement": "Digest of the exact reviewed documentary artifact; null means unknown"
+        },
+        {
+          "domain": "canonical-hash-or-null",
+          "name": "parent_specification_sha256",
+          "required": true,
+          "requirement": "Exact immutable parent metadata identity; no latest-path substitution"
+        },
+        {
+          "domain": "evidence-status-label",
+          "name": "evidence_status",
+          "required": true,
+          "requirement": "UNKNOWN, UNAVAILABLE, SYNTHETIC, SOURCE_ASSERTION or REVIEWED_SAVED_RECORD; no label supplies real authority/physical proof"
+        }
+      ],
+      "id": "P01",
+      "instantiates_real_grant_control_launch_or_runtime_record": false,
+      "record_kind": "REQUIREMENTS-ONLY/P01",
+      "title": "documentary identity",
+      "unknown_extra_or_missing_keys_refused": true
+    },
+    {
+      "closed_required_keys": [
+        "record_kind",
+        "reviewed_source_hashes",
+        "candidate_source_digest",
+        "inverse_domain_refusal_ownership_evidence",
+        "evidence_status"
+      ],
+      "coercion_duplicate_keys_nonfinite_or_bool_as_int_refused": true,
+      "fields": [
+        {
+          "domain": "exact-string",
+          "name": "record_kind",
+          "required": true,
+          "requirement": "REQUIREMENTS-ONLY/P02"
+        },
+        {
+          "domain": "closed-name-to-hash-map",
+          "name": "reviewed_source_hashes",
+          "required": true,
+          "requirement": "Exact full source/member namespace; unknown or missing entries do not default"
+        },
+        {
+          "domain": "canonical-hash-or-null",
+          "name": "candidate_source_digest",
+          "required": true,
+          "requirement": "No candidate implementation is supplied by this specification"
+        },
+        {
+          "domain": "bounded-evidence-reference-list",
+          "name": "inverse_domain_refusal_ownership_evidence",
+          "required": true,
+          "requirement": "Separate independent reviews; a source_reviewed boolean is insufficient"
+        },
+        {
+          "domain": "evidence-status-label",
+          "name": "evidence_status",
+          "required": true,
+          "requirement": "UNKNOWN, UNAVAILABLE, SYNTHETIC, SOURCE_ASSERTION or REVIEWED_SAVED_RECORD; no label supplies real authority/physical proof"
+        }
+      ],
+      "id": "P02",
+      "instantiates_real_grant_control_launch_or_runtime_record": false,
+      "record_kind": "REQUIREMENTS-ONLY/P02",
+      "title": "source and inverse review",
+      "unknown_extra_or_missing_keys_refused": true
+    },
+    {
+      "closed_required_keys": [
+        "record_kind",
+        "user_basis_reference",
+        "source_control_identity",
+        "current_real_attempt_authority",
+        "old_authority_reuse_or_retroactive_permission",
+        "evidence_status"
+      ],
+      "coercion_duplicate_keys_nonfinite_or_bool_as_int_refused": true,
+      "fields": [
+        {
+          "domain": "exact-string",
+          "name": "record_kind",
+          "required": true,
+          "requirement": "REQUIREMENTS-ONLY/P03; this record cannot grant work"
+        },
+        {
+          "domain": "bounded-documentary-reference-or-null",
+          "name": "user_basis_reference",
+          "required": true,
+          "requirement": "Fresh explicit user decision must match separately reviewed exact action/source/control/caps if ever sought later"
+        },
+        {
+          "domain": "closed-name-to-hash-map",
+          "name": "source_control_identity",
+          "required": true,
+          "requirement": "Immutable separately reviewed identities; public versions or FAKE labels cannot substitute"
+        },
+        {
+          "domain": "exact-integer",
+          "name": "current_real_attempt_authority",
+          "required": true,
+          "requirement": "Always0 in these local documentary records"
+        },
+        {
+          "domain": "exact-false",
+          "name": "old_authority_reuse_or_retroactive_permission",
+          "required": true,
+          "requirement": "Consumed grants cannot be reused or repaired into new permission"
+        },
+        {
+          "domain": "evidence-status-label",
+          "name": "evidence_status",
+          "required": true,
+          "requirement": "UNKNOWN, UNAVAILABLE, SYNTHETIC, SOURCE_ASSERTION or REVIEWED_SAVED_RECORD; no label supplies real authority/physical proof"
+        }
+      ],
+      "id": "P03",
+      "instantiates_real_grant_control_launch_or_runtime_record": false,
+      "record_kind": "REQUIREMENTS-ONLY/P03",
+      "title": "fresh authority evidence",
+      "unknown_extra_or_missing_keys_refused": true
+    },
+    {
+      "closed_required_keys": [
+        "record_kind",
+        "retained_claim_references",
+        "history_status",
+        "new_operational_claim",
+        "reset_or_retry_permission",
+        "evidence_status"
+      ],
+      "coercion_duplicate_keys_nonfinite_or_bool_as_int_refused": true,
+      "fields": [
+        {
+          "domain": "exact-string",
+          "name": "record_kind",
+          "required": true,
+          "requirement": "REQUIREMENTS-ONLY/P04"
+        },
+        {
+          "domain": "bounded-evidence-reference-list",
+          "name": "retained_claim_references",
+          "required": true,
+          "requirement": "Every known failed/partial/pending/consumed status retained with its original identity"
+        },
+        {
+          "domain": "evidence-status-label",
+          "name": "history_status",
+          "required": true,
+          "requirement": "Unknown/unavailable is HOLD, not an empty unconsumed history"
+        },
+        {
+          "domain": "exact-null",
+          "name": "new_operational_claim",
+          "required": true,
+          "requirement": "No ATTEMPT or remote root is created by this specification"
+        },
+        {
+          "domain": "exact-false",
+          "name": "reset_or_retry_permission",
+          "required": true,
+          "requirement": "A copied record, new ID or failed attempt cannot reset authority"
+        },
+        {
+          "domain": "evidence-status-label",
+          "name": "evidence_status",
+          "required": true,
+          "requirement": "UNKNOWN, UNAVAILABLE, SYNTHETIC, SOURCE_ASSERTION or REVIEWED_SAVED_RECORD; no label supplies real authority/physical proof"
+        }
+      ],
+      "id": "P04",
+      "instantiates_real_grant_control_launch_or_runtime_record": false,
+      "record_kind": "REQUIREMENTS-ONLY/P04",
+      "title": "consumed history",
+      "unknown_extra_or_missing_keys_refused": true
+    },
+    {
+      "closed_required_keys": [
+        "record_kind",
+        "clock_owner_domain_reference",
+        "origin_and_deadline_references",
+        "timestamp_domain",
+        "timer_reset_or_extra_window_permission",
+        "evidence_status"
+      ],
+      "coercion_duplicate_keys_nonfinite_or_bool_as_int_refused": true,
+      "fields": [
+        {
+          "domain": "exact-string",
+          "name": "record_kind",
+          "required": true,
+          "requirement": "REQUIREMENTS-ONLY/P05"
+        },
+        {
+          "domain": "bounded-documentary-reference-or-null",
+          "name": "clock_owner_domain_reference",
+          "required": true,
+          "requirement": "Actual process owner/domain evidence required later; an integer label is not a physical clock"
+        },
+        {
+          "domain": "bounded-evidence-reference-list",
+          "name": "origin_and_deadline_references",
+          "required": true,
+          "requirement": "Existing login-inclusive setup/role/objective/work/final/collection/connection boundaries and causal receiver mapping"
+        },
+        {
+          "domain": "finite-exact-int-or-float-or-null",
+          "name": "timestamp_domain",
+          "required": true,
+          "requirement": "Reject booleans/nonfinite/regression/owner mismatch; null remains unknown"
+        },
+        {
+          "domain": "exact-false",
+          "name": "timer_reset_or_extra_window_permission",
+          "required": true,
+          "requirement": "No new timer binding, clock read, reset, epoch subtraction or extension here"
+        },
+        {
+          "domain": "evidence-status-label",
+          "name": "evidence_status",
+          "required": true,
+          "requirement": "UNKNOWN, UNAVAILABLE, SYNTHETIC, SOURCE_ASSERTION or REVIEWED_SAVED_RECORD; no label supplies real authority/physical proof"
+        }
+      ],
+      "id": "P05",
+      "instantiates_real_grant_control_launch_or_runtime_record": false,
+      "record_kind": "REQUIREMENTS-ONLY/P05",
+      "title": "continuing clock evidence",
+      "unknown_extra_or_missing_keys_refused": true
+    },
+    {
+      "closed_required_keys": [
+        "record_kind",
+        "identity_references",
+        "held_handle_death_status_closure_references",
+        "quiescence_status",
+        "target_preflight_or_signal_permission",
+        "evidence_status"
+      ],
+      "coercion_duplicate_keys_nonfinite_or_bool_as_int_refused": true,
+      "fields": [
+        {
+          "domain": "exact-string",
+          "name": "record_kind",
+          "required": true,
+          "requirement": "REQUIREMENTS-ONLY/P06"
+        },
+        {
+          "domain": "bounded-evidence-reference-list",
+          "name": "identity_references",
+          "required": true,
+          "requirement": "PID/birth/parent/group/session/root/parent identities under original bounds; metadata is not a held handle"
+        },
+        {
+          "domain": "bounded-evidence-reference-list",
+          "name": "held_handle_death_status_closure_references",
+          "required": true,
+          "requirement": "Preserve distinct held/death/terminal-status/closure facts and uncertainty"
+        },
+        {
+          "domain": "evidence-status-label",
+          "name": "quiescence_status",
+          "required": true,
+          "requirement": "Current target quiescence is unknown; no query or cleanup is permitted"
+        },
+        {
+          "domain": "exact-false",
+          "name": "target_preflight_or_signal_permission",
+          "required": true,
+          "requirement": "Future target preflight is target work requiring separate source review and fresh explicit authority"
+        },
+        {
+          "domain": "evidence-status-label",
+          "name": "evidence_status",
+          "required": true,
+          "requirement": "UNKNOWN, UNAVAILABLE, SYNTHETIC, SOURCE_ASSERTION or REVIEWED_SAVED_RECORD; no label supplies real authority/physical proof"
+        }
+      ],
+      "id": "P06",
+      "instantiates_real_grant_control_launch_or_runtime_record": false,
+      "record_kind": "REQUIREMENTS-ONLY/P06",
+      "title": "owned process evidence",
+      "unknown_extra_or_missing_keys_refused": true
+    },
+    {
+      "closed_required_keys": [
+        "record_kind",
+        "workload_source_reference",
+        "fixed_caps_reference",
+        "scientific_guard_hash_owner_durability_clock_change_permission",
+        "complete_unit_fit_status",
+        "evidence_status"
+      ],
+      "coercion_duplicate_keys_nonfinite_or_bool_as_int_refused": true,
+      "fields": [
+        {
+          "domain": "exact-string",
+          "name": "record_kind",
+          "required": true,
+          "requirement": "REQUIREMENTS-ONLY/P07"
+        },
+        {
+          "domain": "bounded-documentary-reference",
+          "name": "workload_source_reference",
+          "required": true,
+          "requirement": "Unchanged complete guarded proof/original/candidate/fresh replay; no old proof or shortened math"
+        },
+        {
+          "domain": "bounded-documentary-reference",
+          "name": "fixed_caps_reference",
+          "required": true,
+          "requirement": "All original caps, original deadline cutoffs and financial holds; selected constants are not the full enforcement domain"
+        },
+        {
+          "domain": "exact-false",
+          "name": "scientific_guard_hash_owner_durability_clock_change_permission",
+          "required": true,
+          "requirement": "No baseline-body, fresh-hash, immutable-copy, native, optimizer/backward, RNG/mode, Guard or clock relaxation"
+        },
+        {
+          "domain": "evidence-status-label",
+          "name": "complete_unit_fit_status",
+          "required": true,
+          "requirement": "No timing/memory/performance fit inferred or required to be falsely asserted for documentary diagnostic purpose"
+        },
+        {
+          "domain": "evidence-status-label",
+          "name": "evidence_status",
+          "required": true,
+          "requirement": "UNKNOWN, UNAVAILABLE, SYNTHETIC, SOURCE_ASSERTION or REVIEWED_SAVED_RECORD; no label supplies real authority/physical proof"
+        }
+      ],
+      "id": "P07",
+      "instantiates_real_grant_control_launch_or_runtime_record": false,
+      "record_kind": "REQUIREMENTS-ONLY/P07",
+      "title": "workload and fixed resource references",
+      "unknown_extra_or_missing_keys_refused": true
+    },
+    {
+      "closed_required_keys": [
+        "record_kind",
+        "outcome_class",
+        "completed_role_prefix_and_receipt_references",
+        "real_work_history_references",
+        "real_execution_research_training_admitted",
+        "evidence_status"
+      ],
+      "coercion_duplicate_keys_nonfinite_or_bool_as_int_refused": true,
+      "fields": [
+        {
+          "domain": "exact-string",
+          "name": "record_kind",
+          "required": true,
+          "requirement": "REQUIREMENTS-ONLY/P08"
+        },
+        {
+          "domain": "outcome-label",
+          "name": "outcome_class",
+          "required": true,
+          "requirement": "DRAFT_NOT_RUN, INHERITED_SYNTHETIC, SAVED_PARTIAL, SAVED_FAILED, or SAVED_DOCUMENTARY_REVIEW; labels never authenticate execution"
+        },
+        {
+          "domain": "bounded-evidence-reference-list",
+          "name": "completed_role_prefix_and_receipt_references",
+          "required": true,
+          "requirement": "Original ordered role prefixes and same-root/source/control/clock/owned receipts; missing is not zero or complete"
+        },
+        {
+          "domain": "bounded-evidence-reference-list",
+          "name": "real_work_history_references",
+          "required": true,
+          "requirement": "Genuine work remains genuine even if failed or unadmitted; transport/fake labels cannot promote or erase it"
+        },
+        {
+          "domain": "three-exact-false-fields",
+          "name": "real_execution_research_training_admitted",
+          "required": true,
+          "requirement": "All actual admission fields false, real attempts0, execution binding null"
+        },
+        {
+          "domain": "evidence-status-label",
+          "name": "evidence_status",
+          "required": true,
+          "requirement": "UNKNOWN, UNAVAILABLE, SYNTHETIC, SOURCE_ASSERTION or REVIEWED_SAVED_RECORD; no label supplies real authority/physical proof"
+        }
+      ],
+      "id": "P08",
+      "instantiates_real_grant_control_launch_or_runtime_record": false,
+      "record_kind": "REQUIREMENTS-ONLY/P08",
+      "title": "saved evidence outcome",
+      "unknown_extra_or_missing_keys_refused": true
+    }
+  ],
+  "decision": "REQUIREMENTS_DRAFTED_IMPLEMENTATION_AND_REAL_ADMISSION_HOLD",
+  "documentary_schema_is_not_an_operational_authorization_form_or_protocol": true,
+  "documentary_state_count": 8,
+  "documentary_states": [
+    {
+      "current_new_attempt_is_in_this_state": true,
+      "documentary_only_not_a_runtime_state_machine": true,
+      "id": "DRAFT_ONLY",
+      "meaning": "Current local documentary state; no candidate implementation or real permission.",
+      "real_execution_admitted": false,
+      "research_admitted": false,
+      "training_admitted": false
+    },
+    {
+      "current_new_attempt_is_in_this_state": false,
+      "documentary_only_not_a_runtime_state_machine": true,
+      "id": "SOURCE_REVIEW_PENDING",
+      "meaning": "Future source/domain/refusal/ownership review absent; hold before dependent action.",
+      "real_execution_admitted": false,
+      "research_admitted": false,
+      "training_admitted": false
+    },
+    {
+      "current_new_attempt_is_in_this_state": false,
+      "documentary_only_not_a_runtime_state_machine": true,
+      "id": "FRESH_AUTHORITY_PENDING",
+      "meaning": "Future exact unconsumed real authority absent; old grants unusable.",
+      "real_execution_admitted": false,
+      "research_admitted": false,
+      "training_admitted": false
+    },
+    {
+      "current_new_attempt_is_in_this_state": false,
+      "documentary_only_not_a_runtime_state_machine": true,
+      "id": "ATTEMPT_CONSUMED",
+      "meaning": "Hypothetical original durable claim recorded; earlier clock/alarm effects may already exist. Never reset on failure.",
+      "real_execution_admitted": false,
+      "research_admitted": false,
+      "training_admitted": false
+    },
+    {
+      "current_new_attempt_is_in_this_state": false,
+      "documentary_only_not_a_runtime_state_machine": true,
+      "id": "OWNED_WORK_OBSERVED",
+      "meaning": "Hypothetical separately authorized owned role observations; no automatic science/training qualification.",
+      "real_execution_admitted": false,
+      "research_admitted": false,
+      "training_admitted": false
+    },
+    {
+      "current_new_attempt_is_in_this_state": false,
+      "documentary_only_not_a_runtime_state_machine": true,
+      "id": "HELD_UNCONFIRMED",
+      "meaning": "Owned death/status/closure not confirmed; no handoff/finalization/collection or retry.",
+      "real_execution_admitted": false,
+      "research_admitted": false,
+      "training_admitted": false
+    },
+    {
+      "current_new_attempt_is_in_this_state": false,
+      "documentary_only_not_a_runtime_state_machine": true,
+      "id": "REFUSED_OR_INCOMPLETE",
+      "meaning": "Preserve all prior effects, partial results, errors and consumed claims; no automatic retry.",
+      "real_execution_admitted": false,
+      "research_admitted": false,
+      "training_admitted": false
+    },
+    {
+      "current_new_attempt_is_in_this_state": false,
+      "documentary_only_not_a_runtime_state_machine": true,
+      "id": "IDLE_EVIDENCE_PENDING_REVIEW",
+      "meaning": "Hypothetical original idle/collection gates returned; independent evidence and all later qualification still required.",
+      "real_execution_admitted": false,
+      "research_admitted": false,
+      "training_admitted": false
+    }
+  ],
+  "effect_order_requirements": [
+    {
+      "current_execution_allowed": false,
+      "flow": "client",
+      "id": "C0",
+      "is_executed_trace_or_global_cross_process_clock_order": false,
+      "meaning": "supported budget refusal",
+      "source_anchor": "supported-run",
+      "within_flow_order": 0
+    },
+    {
+      "current_execution_allowed": false,
+      "flow": "client",
+      "id": "C1",
+      "is_executed_trace_or_global_cross_process_clock_order": false,
+      "meaning": "private protocol clock and connection alarm",
+      "source_anchor": "private-protocol",
+      "within_flow_order": 1
+    },
+    {
+      "current_execution_allowed": false,
+      "flow": "client",
+      "id": "C2",
+      "is_executed_trace_or_global_cross_process_clock_order": false,
+      "meaning": "canonical local source/control/authority input checks",
+      "source_anchor": "local-auth-and-inputs",
+      "within_flow_order": 2
+    },
+    {
+      "current_execution_allowed": false,
+      "flow": "client",
+      "id": "C3",
+      "is_executed_trace_or_global_cross_process_clock_order": false,
+      "meaning": "exclusive durable ATTEMPT",
+      "source_anchor": "exclusive-durable-write",
+      "within_flow_order": 3
+    },
+    {
+      "current_execution_allowed": false,
+      "flow": "client",
+      "id": "C4",
+      "is_executed_trace_or_global_cross_process_clock_order": false,
+      "meaning": "SSH process and upload path",
+      "source_anchor": "private-protocol",
+      "within_flow_order": 4
+    },
+    {
+      "current_execution_allowed": false,
+      "flow": "client",
+      "id": "C5",
+      "is_executed_trace_or_global_cross_process_clock_order": false,
+      "meaning": "raw claim preservation, then strict claim/clock validation",
+      "source_anchor": "private-protocol",
+      "within_flow_order": 5
+    },
+    {
+      "current_execution_allowed": false,
+      "flow": "client",
+      "id": "C6",
+      "is_executed_trace_or_global_cross_process_clock_order": false,
+      "meaning": "causal receiver bound and original collection joins",
+      "source_anchor": "collection-root-clock-join",
+      "within_flow_order": 6
+    },
+    {
+      "current_execution_allowed": false,
+      "flow": "client",
+      "id": "C7",
+      "is_executed_trace_or_global_cross_process_clock_order": false,
+      "meaning": "transport status/receipt and independent review pending",
+      "source_anchor": "private-protocol",
+      "within_flow_order": 7
+    },
+    {
+      "current_execution_allowed": false,
+      "flow": "remote",
+      "id": "R0",
+      "is_executed_trace_or_global_cross_process_clock_order": false,
+      "meaning": "handshake/origin continuing clocks",
+      "source_anchor": "remote-session-order",
+      "within_flow_order": 0
+    },
+    {
+      "current_execution_allowed": false,
+      "flow": "remote",
+      "id": "R1",
+      "is_executed_trace_or_global_cross_process_clock_order": false,
+      "meaning": "source/authority checks and target preflight",
+      "source_anchor": "remote-session-order",
+      "within_flow_order": 1
+    },
+    {
+      "current_execution_allowed": false,
+      "flow": "remote",
+      "id": "R2",
+      "is_executed_trace_or_global_cross_process_clock_order": false,
+      "meaning": "exclusive UID/control root creation and root claim",
+      "source_anchor": "remote-claim-name",
+      "within_flow_order": 2
+    },
+    {
+      "current_execution_allowed": false,
+      "flow": "remote",
+      "id": "R3",
+      "is_executed_trace_or_global_cross_process_clock_order": false,
+      "meaning": "setup and original Guard readiness",
+      "source_anchor": "owned-prepare-readiness",
+      "within_flow_order": 3
+    },
+    {
+      "current_execution_allowed": false,
+      "flow": "remote",
+      "id": "R4",
+      "is_executed_trace_or_global_cross_process_clock_order": false,
+      "meaning": "fresh serial guarded role chain",
+      "source_anchor": "coordinator-role-chain",
+      "within_flow_order": 4
+    },
+    {
+      "current_execution_allowed": false,
+      "flow": "remote",
+      "id": "R5",
+      "is_executed_trace_or_global_cross_process_clock_order": false,
+      "meaning": "confirmed owned idle before finalization/collection",
+      "source_anchor": "owned-idle-refusal",
+      "within_flow_order": 5
+    },
+    {
+      "current_execution_allowed": false,
+      "flow": "remote",
+      "id": "R6",
+      "is_executed_trace_or_global_cross_process_clock_order": false,
+      "meaning": "original bounded collection and saved evidence",
+      "source_anchor": "remote-session-order",
+      "within_flow_order": 6
+    }
+  ],
+  "effect_stage_count": 15,
+  "execution_binding": null,
+  "fixed_reference_limits": {
+    "RSS_bytes": 4294967296,
+    "allocator_bytes": 7516192768,
+    "cleanup_total_seconds": 2,
+    "collection_seconds": 600,
+    "connection_seconds": 3000,
+    "final_seconds": 120,
+    "metadata_bytes": 67108864,
+    "objective_seconds": 120,
+    "proof_seconds": 60,
+    "setup_seconds": 180,
+    "source_bytes": 2097152,
+    "trace_bytes": 8388608,
+    "whole_unit_seconds": 720,
+    "work_hard_seconds": 2400,
+    "work_soft_seconds": 2280
+  },
+  "historical_v3_graph": {
+    "runtime_bytes": 450548,
+    "runtime_files": 47,
+    "uploaded_bytes": 896039,
+    "uploaded_sources": 55
+  },
+  "independent_review_obligations": [
+    {
+      "documentary_coverage_is_real_approval": false,
+      "required_independent_evidence": "No reviewed diagnostic admission implementation exists. A future design must define a separate narrow authority decision without modifying scientific qualification or using a private/older bypass.",
+      "requirements": [
+        "DAS-01",
+        "DAS-02"
+      ],
+      "source_anchors": [
+        "closed-budget",
+        "supported-run",
+        "private-protocol",
+        "fake-fixed-false"
+      ],
+      "status": "NOT_IMPLEMENTED_NOT_PROVEN",
+      "topic_id": "entry-and-authority"
+    },
+    {
+      "documentary_coverage_is_real_approval": false,
+      "required_independent_evidence": "FAKE strings/booleans are not canonical operational authority or source provenance. Preserve every type/domain/duplicate/nonfinite/path/hash refusal, exact full closure and independently reviewed candidate source/inverse before any binding.",
+      "requirements": [
+        "DAS-03",
+        "DAS-04"
+      ],
+      "source_anchors": [
+        "local-auth-and-inputs",
+        "local-held-file",
+        "outer-control",
+        "outer-authorization",
+        "binding-full-closure",
+        "fake-state-domain"
+      ],
+      "status": "NOT_IMPLEMENTED_NOT_PROVEN",
+      "topic_id": "source-control-and-domain"
+    },
+    {
+      "documentary_coverage_is_real_approval": false,
+      "required_independent_evidence": "Fake state is caller supplied, not durable or uncloneable. Preserve exact exclusive publication/root identity/claim refusal/error order and all consumed records; never authorize resets, old grants or a new attempt merely by changing IDs.",
+      "requirements": [
+        "DAS-05",
+        "DAS-06"
+      ],
+      "source_anchors": [
+        "exclusive-durable-write",
+        "remote-claim-name",
+        "local-auth-and-inputs",
+        "coordinator-role-chain",
+        "fake-admit-finish"
+      ],
+      "status": "NOT_IMPLEMENTED_NOT_PROVEN",
+      "topic_id": "one-shot-and-history"
+    },
+    {
+      "documentary_coverage_is_real_approval": false,
+      "required_independent_evidence": "Preserve every finite/regression/owner/expired-boundary refusal and all original clock origins; no new stopwatch/timer reset, subtraction across epochs, added window or guarantee of full role windows.",
+      "requirements": [
+        "DAS-07",
+        "DAS-08"
+      ],
+      "source_anchors": [
+        "outer-continuing-alarm",
+        "receiver-clock-init",
+        "receiver-clock-check",
+        "coordinator-clock-init",
+        "coordinator-clock-check",
+        "objective-unit-clocks"
+      ],
+      "status": "NOT_IMPLEMENTED_NOT_PROVEN",
+      "topic_id": "continuing-clocks"
+    },
+    {
+      "documentary_coverage_is_real_approval": false,
+      "required_independent_evidence": "Preserve fresh proof/original/candidate/fresh replay roles, handle-before-release and all receipt/source joins. Never substitute old proof, partial gradients or labels for fresh execution.",
+      "requirements": [
+        "DAS-09",
+        "DAS-10"
+      ],
+      "source_anchors": [
+        "child-plan",
+        "release-wait",
+        "child-entry",
+        "owned-launch-release",
+        "coordinator-role-chain",
+        "role-saved-gates"
+      ],
+      "status": "NOT_IMPLEMENTED_NOT_PROVEN",
+      "topic_id": "serial-role-and-release"
+    },
+    {
+      "documentary_coverage_is_real_approval": false,
+      "required_independent_evidence": "Source code does not establish current target quiescence. Future preflight is target work requiring new review/authority; sampled GPU/observed tree checks are not continuous exclusivity or exhaustive physical ownership proof.",
+      "requirements": [
+        "DAS-11",
+        "DAS-12"
+      ],
+      "source_anchors": [
+        "owned-prepare-readiness",
+        "owned-lease-bind",
+        "owned-lease-death",
+        "owned-idle-refusal",
+        "target-readiness",
+        "GPU-observation-refusals"
+      ],
+      "status": "NOT_IMPLEMENTED_NOT_PROVEN",
+      "topic_id": "ownership-and-quiescence"
+    },
+    {
+      "documentary_coverage_is_real_approval": false,
+      "required_independent_evidence": "Preserve failure ownership from first new allocation/effect, bounded primary/cause diagnostics and no clock handoff/collection while idle is unconfirmed. A closed descriptor alone is not death; no blind remote cleanup/retry.",
+      "requirements": [
+        "DAS-13",
+        "DAS-14"
+      ],
+      "source_anchors": [
+        "owned-shutdown",
+        "owned-clock-handoff",
+        "startup-driver-wrapper",
+        "startup-coordinator-wrapper",
+        "primary-error-chain-wrapper",
+        "remote-session-order"
+      ],
+      "status": "NOT_IMPLEMENTED_NOT_PROVEN",
+      "topic_id": "primary-error-and-shutdown"
+    },
+    {
+      "documentary_coverage_is_real_approval": false,
+      "required_independent_evidence": "Any future new fallible validation/publication changes reachable errors unless fully reviewed. Preserve every original read/hash/scan/fsync/check and partial state/order; no assumed harmless metadata work or source bridge/inverse shortcut.",
+      "requirements": [
+        "DAS-15",
+        "DAS-16"
+      ],
+      "source_anchors": [
+        "exclusive-durable-write",
+        "parent-metadata-durability",
+        "scratch-domain-refusals",
+        "remote-session-order",
+        "private-protocol"
+      ],
+      "status": "NOT_IMPLEMENTED_NOT_PROVEN",
+      "topic_id": "durability-and-refusal-order"
+    },
+    {
+      "documentary_coverage_is_real_approval": false,
+      "required_independent_evidence": "The fake dictionary is not the full resource domain or physical enforcement. All original caps/math/native/optimizer/backward/RNG/modes/immutable copies/EVERY fresh hash/ordered state_digest and financial holds stay fixed; no fit or benefit claim.",
+      "requirements": [
+        "DAS-17",
+        "DAS-18"
+      ],
+      "source_anchors": [
+        "observed-parent-envelope",
+        "objective-unit-clocks",
+        "scratch-domain-refusals",
+        "child-plan",
+        "role-saved-gates"
+      ],
+      "status": "NOT_IMPLEMENTED_NOT_PROVEN",
+      "topic_id": "resource-and-scientific-contract"
+    },
+    {
+      "documentary_coverage_is_real_approval": false,
+      "required_independent_evidence": "Transport/phase byte joins cannot attest execution, complete missing roles, close deployed provenance or qualify training. Partial evidence must stay partial; collection cannot bypass ownership or create a retrieval/recovery window.",
+      "requirements": [
+        "DAS-19",
+        "DAS-20"
+      ],
+      "source_anchors": [
+        "collection-root-clock-join",
+        "saved-phase-completion",
+        "phase-reader-wrapper",
+        "remote-session-order",
+        "role-saved-gates"
+      ],
+      "status": "NOT_IMPLEMENTED_NOT_PROVEN",
+      "topic_id": "collection-and-evidence-status"
+    },
+    {
+      "documentary_coverage_is_real_approval": false,
+      "required_independent_evidence": "Actual executable/library digests, build/source/ABI/backend/provider joins remain unavailable in the reviewed corpus. This static review adds no target query, inventory, library import or new observation.",
+      "requirements": [
+        "DAS-21",
+        "DAS-22"
+      ],
+      "source_anchors": [
+        "target-readiness",
+        "child-entry",
+        "local-auth-and-inputs"
+      ],
+      "status": "NOT_IMPLEMENTED_NOT_PROVEN",
+      "topic_id": "target-provenance-and-history"
+    },
+    {
+      "documentary_coverage_is_real_approval": false,
+      "required_independent_evidence": "Only a new LOCAL requirements-only specification may be drafted next. Define exact decision/effect/refusal and review obligations without executable API/adapter/binding/gate edits, a new case run, active grant/handoff/package/launch or operational approval request. Later implementation/action needs separately scoped review and fresh explicit authority.",
+      "requirements": [
+        "DAS-23",
+        "DAS-24"
+      ],
+      "source_anchors": [
+        "closed-budget",
+        "supported-run",
+        "binding-full-closure",
+        "fake-fixed-false"
+      ],
+      "status": "NOT_IMPLEMENTED_NOT_PROVEN",
+      "topic_id": "future-design-and-review"
+    }
+  ],
+  "inherited_source_anchors": 43,
+  "inherited_topics": 12,
+  "kind": "LOCAL-requirements-only-diagnostic-admission-specification-v1",
+  "local_implementation_approval": "PENDING_NOT_AUTHORIZED",
+  "local_implementation_request": "runs/pretrained/diagnostic/pgd-diagnostic-admission-specification-v1-20261125/LOCAL-IMPLEMENTATION-DRAFT-REQUEST-v1.json",
+  "maximum_new_real_attempts": 0,
+  "new_executable_API_adapter_bridge_binding_gate_change_or_active_material_created": false,
+  "new_executed_fixture_entries": 0,
+  "new_test_membership_or_oracles_planned": false,
+  "new_test_prototype_benchmark_inspected_source_or_scientific_callbacks": 0,
+  "parent_boundary_inventory": "runs/pretrained/diagnostic/pgd-diagnostic-admission-source-review-v1-20261125/BOUNDARY-INVENTORY-v1.json",
+  "parent_boundary_inventory_sha256": "09163d2c0f078b3693f838b2b648191f51b0b12672f3b0ed023c45c8643f943b",
+  "parent_obligation_map": "runs/pretrained/diagnostic/pgd-diagnostic-admission-source-review-v1-20261125/OBLIGATION-MAP-v1.json",
+  "parent_obligation_map_sha256": "c0f148e756c38a5bb8a5f3dbaea89ee9fe7c9e88e9fb14a4e23f0c8819863cf9",
+  "prior_fixture_entries": 78076,
+  "prior_source_reviews32_case_validation_and_closed_cohorts_reexecuted": false,
+  "profile_count": 8,
+  "raw_stage": "runs/pretrained/diagnostic/pgd-diagnostic-admission-specification-v1-20261125",
+  "refusal_matrix": [
+    {
+      "already_occurred_effects_claims_and_primary_errors_must_remain_recorded": true,
+      "condition": "source review unavailable",
+      "documentary_disposition": "SOURCE_REVIEW_PENDING",
+      "id": "F01",
+      "new_dependent_work_or_retry_authorized": false,
+      "requirements": [
+        "DAS-04",
+        "DAS-23"
+      ],
+      "unknown_ownership_never_permits_collection_or_clock_handoff": true
+    },
+    {
+      "already_occurred_effects_claims_and_primary_errors_must_remain_recorded": true,
+      "condition": "fresh exact authority absent or mismatched",
+      "documentary_disposition": "FRESH_AUTHORITY_PENDING",
+      "id": "F02",
+      "new_dependent_work_or_retry_authorized": false,
+      "requirements": [
+        "DAS-01",
+        "DAS-02",
+        "DAS-24"
+      ],
+      "unknown_ownership_never_permits_collection_or_clock_handoff": true
+    },
+    {
+      "already_occurred_effects_claims_and_primary_errors_must_remain_recorded": true,
+      "condition": "consumed, unavailable or ambiguous history",
+      "documentary_disposition": "REFUSED_OR_INCOMPLETE",
+      "id": "F03",
+      "new_dependent_work_or_retry_authorized": false,
+      "requirements": [
+        "DAS-05",
+        "DAS-06"
+      ],
+      "unknown_ownership_never_permits_collection_or_clock_handoff": true
+    },
+    {
+      "already_occurred_effects_claims_and_primary_errors_must_remain_recorded": true,
+      "condition": "source/control/member identity changed",
+      "documentary_disposition": "REFUSED_OR_INCOMPLETE",
+      "id": "F04",
+      "new_dependent_work_or_retry_authorized": false,
+      "requirements": [
+        "DAS-04",
+        "DAS-10"
+      ],
+      "unknown_ownership_never_permits_collection_or_clock_handoff": true
+    },
+    {
+      "already_occurred_effects_claims_and_primary_errors_must_remain_recorded": true,
+      "condition": "malformed/missing/extra/duplicate/nonfinite/coerced domain",
+      "documentary_disposition": "REFUSED_OR_INCOMPLETE",
+      "id": "F05",
+      "new_dependent_work_or_retry_authorized": false,
+      "requirements": [
+        "DAS-03"
+      ],
+      "unknown_ownership_never_permits_collection_or_clock_handoff": true
+    },
+    {
+      "already_occurred_effects_claims_and_primary_errors_must_remain_recorded": true,
+      "condition": "clock owner/domain/regression/expired bound",
+      "documentary_disposition": "REFUSED_OR_INCOMPLETE",
+      "id": "F06",
+      "new_dependent_work_or_retry_authorized": false,
+      "requirements": [
+        "DAS-07",
+        "DAS-08"
+      ],
+      "unknown_ownership_never_permits_collection_or_clock_handoff": true
+    },
+    {
+      "already_occurred_effects_claims_and_primary_errors_must_remain_recorded": true,
+      "condition": "unknown current target quiescence",
+      "documentary_disposition": "HELD_UNCONFIRMED",
+      "id": "F07",
+      "new_dependent_work_or_retry_authorized": false,
+      "requirements": [
+        "DAS-11",
+        "DAS-12"
+      ],
+      "unknown_ownership_never_permits_collection_or_clock_handoff": true
+    },
+    {
+      "already_occurred_effects_claims_and_primary_errors_must_remain_recorded": true,
+      "condition": "unconfirmed owned handle/death/status/closure",
+      "documentary_disposition": "HELD_UNCONFIRMED",
+      "id": "F08",
+      "new_dependent_work_or_retry_authorized": false,
+      "requirements": [
+        "DAS-12",
+        "DAS-14"
+      ],
+      "unknown_ownership_never_permits_collection_or_clock_handoff": true
+    },
+    {
+      "already_occurred_effects_claims_and_primary_errors_must_remain_recorded": true,
+      "condition": "fresh serial role/plan/session/release mismatch",
+      "documentary_disposition": "REFUSED_OR_INCOMPLETE",
+      "id": "F09",
+      "new_dependent_work_or_retry_authorized": false,
+      "requirements": [
+        "DAS-09",
+        "DAS-10"
+      ],
+      "unknown_ownership_never_permits_collection_or_clock_handoff": true
+    },
+    {
+      "already_occurred_effects_claims_and_primary_errors_must_remain_recorded": true,
+      "condition": "new unowned failure or lost primary/partial state",
+      "documentary_disposition": "HELD_UNCONFIRMED",
+      "id": "F10",
+      "new_dependent_work_or_retry_authorized": false,
+      "requirements": [
+        "DAS-13",
+        "DAS-14"
+      ],
+      "unknown_ownership_never_permits_collection_or_clock_handoff": true
+    },
+    {
+      "already_occurred_effects_claims_and_primary_errors_must_remain_recorded": true,
+      "condition": "moved/elided original guard/hash/fsync/refusal",
+      "documentary_disposition": "REFUSED_OR_INCOMPLETE",
+      "id": "F11",
+      "new_dependent_work_or_retry_authorized": false,
+      "requirements": [
+        "DAS-15",
+        "DAS-16"
+      ],
+      "unknown_ownership_never_permits_collection_or_clock_handoff": true
+    },
+    {
+      "already_occurred_effects_claims_and_primary_errors_must_remain_recorded": true,
+      "condition": "changed science/financial/resource constraint or original cap stop",
+      "documentary_disposition": "REFUSED_OR_INCOMPLETE",
+      "id": "F12",
+      "new_dependent_work_or_retry_authorized": false,
+      "requirements": [
+        "DAS-17",
+        "DAS-18"
+      ],
+      "unknown_ownership_never_permits_collection_or_clock_handoff": true
+    },
+    {
+      "already_occurred_effects_claims_and_primary_errors_must_remain_recorded": true,
+      "condition": "missing or failed role/completion/evidence receipt",
+      "documentary_disposition": "REFUSED_OR_INCOMPLETE",
+      "id": "F13",
+      "new_dependent_work_or_retry_authorized": false,
+      "requirements": [
+        "DAS-19",
+        "DAS-20"
+      ],
+      "unknown_ownership_never_permits_collection_or_clock_handoff": true
+    },
+    {
+      "already_occurred_effects_claims_and_primary_errors_must_remain_recorded": true,
+      "condition": "root/clock/transport/collection join mismatch",
+      "documentary_disposition": "REFUSED_OR_INCOMPLETE",
+      "id": "F14",
+      "new_dependent_work_or_retry_authorized": false,
+      "requirements": [
+        "DAS-19",
+        "DAS-20"
+      ],
+      "unknown_ownership_never_permits_collection_or_clock_handoff": true
+    },
+    {
+      "already_occurred_effects_claims_and_primary_errors_must_remain_recorded": true,
+      "condition": "unjoined deployed provenance or historical/current promotion",
+      "documentary_disposition": "REFUSED_OR_INCOMPLETE",
+      "id": "F15",
+      "new_dependent_work_or_retry_authorized": false,
+      "requirements": [
+        "DAS-21",
+        "DAS-22"
+      ],
+      "unknown_ownership_never_permits_collection_or_clock_handoff": true
+    },
+    {
+      "already_occurred_effects_claims_and_primary_errors_must_remain_recorded": true,
+      "condition": "bypass/run/active material/target action outside scope",
+      "documentary_disposition": "REFUSED_OR_INCOMPLETE",
+      "id": "F16",
+      "new_dependent_work_or_retry_authorized": false,
+      "requirements": [
+        "DAS-02",
+        "DAS-23",
+        "DAS-24"
+      ],
+      "unknown_ownership_never_permits_collection_or_clock_handoff": true
+    }
+  ],
+  "refusal_row_count": 16,
+  "requirement_count": 24,
+  "requirements": [
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P01",
+        "P03",
+        "P08"
+      ],
+      "id": "DAS-01",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "closed-budget",
+        "supported-run",
+        "private-protocol",
+        "fake-fixed-false"
+      ],
+      "normative_requirement": "Proposed future diagnostic purpose may be reviewed separately from proven whole-unit fit. It cannot assert fit, supply authority or open the current unconditional gate.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Separate documentary diagnostic purpose from qualification",
+      "topic_id": "entry-and-authority"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P01",
+        "P03",
+        "P08"
+      ],
+      "id": "DAS-02",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "closed-budget",
+        "supported-run",
+        "private-protocol",
+        "fake-fixed-false"
+      ],
+      "normative_requirement": "Current supported budget refusal remains before private protocol clock/ATTEMPT/connection. No private/older bypass, positive metadata flag or this specification may open it.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Keep every current real admission closed",
+      "topic_id": "entry-and-authority"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P01",
+        "P02",
+        "P03"
+      ],
+      "id": "DAS-03",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "local-auth-and-inputs",
+        "local-held-file",
+        "outer-control",
+        "outer-authorization",
+        "binding-full-closure",
+        "fake-state-domain"
+      ],
+      "normative_requirement": "Use the declared REQUIREMENTS-ONLY kinds, exact required keys/types, canonical finite metadata and explicit unknown status; reject missing/extra/duplicate keys, coercions and booleans as numbers.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Define closed documentary input domains",
+      "topic_id": "source-control-and-domain"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P01",
+        "P02",
+        "P03"
+      ],
+      "id": "DAS-04",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "local-auth-and-inputs",
+        "local-held-file",
+        "outer-control",
+        "outer-authorization",
+        "binding-full-closure",
+        "fake-state-domain"
+      ],
+      "normative_requirement": "Any later candidate needs exact full source/control/member identities and independent whole-byte inverse/domain/refusal/ownership evidence. Versions, labels and partial namespace hashes do not suffice.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Bind future review to complete immutable sources",
+      "topic_id": "source-control-and-domain"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P03",
+        "P04"
+      ],
+      "id": "DAS-05",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "exclusive-durable-write",
+        "remote-claim-name",
+        "local-auth-and-inputs",
+        "coordinator-role-chain",
+        "fake-admit-finish"
+      ],
+      "normative_requirement": "Retain every old claim/status; a missing, unavailable or ambiguous history is HOLD. New IDs, copied paths, constructor state or a failed attempt cannot reset claims.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Preserve durable consumed authority",
+      "topic_id": "one-shot-and-history"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P03",
+        "P04"
+      ],
+      "id": "DAS-06",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "exclusive-durable-write",
+        "remote-claim-name",
+        "local-auth-and-inputs",
+        "coordinator-role-chain",
+        "fake-admit-finish"
+      ],
+      "normative_requirement": "A future separately authorized binding must preserve canonical handoff, exclusive fsynced ATTEMPT and UID/control root identity, including partial writes/errors and coordinator/session role order. No new claim exists here.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Preserve the original exclusive claim boundaries",
+      "topic_id": "one-shot-and-history"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P05",
+        "P07"
+      ],
+      "id": "DAS-07",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "outer-continuing-alarm",
+        "receiver-clock-init",
+        "receiver-clock-check",
+        "coordinator-clock-init",
+        "coordinator-clock-check",
+        "objective-unit-clocks"
+      ],
+      "normative_requirement": "Actual clock evidence must preserve finite nonregressing owned process domains, login-inclusive origins and causal receiver bounds; supplied labels are not physical evidence.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Preserve owner domains and original origins",
+      "topic_id": "continuing-clocks"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P05",
+        "P07"
+      ],
+      "id": "DAS-08",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "outer-continuing-alarm",
+        "receiver-clock-init",
+        "receiver-clock-check",
+        "coordinator-clock-init",
+        "coordinator-clock-check",
+        "objective-unit-clocks"
+      ],
+      "normative_requirement": "Keep all original setup/proof/objective/unit/work-soft/hard/final/collection/connection cutoffs, current owner checks and expired-boundary errors. No extra window, moved endpoint or promised full role duration.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Preserve every enclosing deadline and refusal",
+      "topic_id": "continuing-clocks"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P02",
+        "P04",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "id": "DAS-09",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "child-plan",
+        "release-wait",
+        "child-entry",
+        "owned-launch-release",
+        "coordinator-role-chain",
+        "role-saved-gates"
+      ],
+      "normative_requirement": "Fresh proof, original unit, existing candidate unit and fresh candidate replay remain serial and distinct, with original complete guarded math/source/receipt checks. Old proof/31 gradients cannot substitute.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Keep full fresh ordered roles",
+      "topic_id": "serial-role-and-release"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P02",
+        "P04",
+        "P06",
+        "P07",
+        "P08"
+      ],
+      "id": "DAS-10",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "child-plan",
+        "release-wait",
+        "child-entry",
+        "owned-launch-release",
+        "coordinator-role-chain",
+        "role-saved-gates"
+      ],
+      "normative_requirement": "Preserve source/control/authority/session/nonce/plan/PID/birth joins, held-handle-before-release and same newly completed role receipts before appending the saved completed prefix.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Keep ownership before release and completed-role append",
+      "topic_id": "serial-role-and-release"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P03",
+        "P06"
+      ],
+      "id": "DAS-11",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "owned-prepare-readiness",
+        "owned-lease-bind",
+        "owned-lease-death",
+        "owned-idle-refusal",
+        "target-readiness",
+        "GPU-observation-refusals"
+      ],
+      "normative_requirement": "Current target ownership/quiescence remains UNKNOWN. No source assertion, saved old value or fake flag authorizes a preflight, query, cleanup or further work.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Represent unknown quiescence explicitly",
+      "topic_id": "ownership-and-quiescence"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P03",
+        "P06"
+      ],
+      "id": "DAS-12",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "owned-prepare-readiness",
+        "owned-lease-bind",
+        "owned-lease-death",
+        "owned-idle-refusal",
+        "target-readiness",
+        "GPU-observation-refusals"
+      ],
+      "normative_requirement": "Later actual ownership needs original PID/birth/parent/group/session and held-handle checks. Death, terminal status and closure stay distinct; observed tree/GPU samples are not exhaustive ownership or continuous exclusivity.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Preserve physical ownership obligations",
+      "topic_id": "ownership-and-quiescence"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P04",
+        "P05",
+        "P06",
+        "P08"
+      ],
+      "id": "DAS-13",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "owned-shutdown",
+        "owned-clock-handoff",
+        "startup-driver-wrapper",
+        "startup-coordinator-wrapper",
+        "primary-error-chain-wrapper",
+        "remote-session-order"
+      ],
+      "normative_requirement": "Any future new allocation/validation/publication must have explicitly reviewed error/lifetime ownership from its first effect; preserve primary exception, bounded causes/notes and partial records without inferring the lost old trigger.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Own failures from the first added effect",
+      "topic_id": "primary-error-and-shutdown"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P04",
+        "P05",
+        "P06",
+        "P08"
+      ],
+      "id": "DAS-14",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "owned-shutdown",
+        "owned-clock-handoff",
+        "startup-driver-wrapper",
+        "startup-coordinator-wrapper",
+        "primary-error-chain-wrapper",
+        "remote-session-order"
+      ],
+      "normative_requirement": "Keep held-handle TERM/KILL/death/status/closure semantics and total cleanup<=2s clamped to original hard work deadline. Unconfirmed idle refuses handoff/finalization/collection and does not authorize cleanup/retry.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Hold until confirmed idle under original cleanup bounds",
+      "topic_id": "primary-error-and-shutdown"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P02",
+        "P04",
+        "P05",
+        "P08"
+      ],
+      "id": "DAS-15",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "exclusive-durable-write",
+        "parent-metadata-durability",
+        "scratch-domain-refusals",
+        "remote-session-order",
+        "private-protocol"
+      ],
+      "normative_requirement": "Keep the client and remote source orders separately, including clocks before claims, raw claim before validation and root claim before setup. Missing receipt never means no earlier process/write/import/compute.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Preserve original effect/refusal partial order",
+      "topic_id": "durability-and-refusal-order"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P02",
+        "P04",
+        "P05",
+        "P08"
+      ],
+      "id": "DAS-16",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "exclusive-durable-write",
+        "parent-metadata-durability",
+        "scratch-domain-refusals",
+        "remote-session-order",
+        "private-protocol"
+      ],
+      "normative_requirement": "Keep every original read/check/scan/fresh hash/immutable copy/fsync/atomic publication/epilogue and its refusal/error boundary. New fallible metadata work is not assumed harmless or zero-cost.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Preserve all original durability and fresh observations",
+      "topic_id": "durability-and-refusal-order"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P02",
+        "P05",
+        "P07"
+      ],
+      "id": "DAS-17",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "observed-parent-envelope",
+        "objective-unit-clocks",
+        "scratch-domain-refusals",
+        "child-plan",
+        "role-saved-gates"
+      ],
+      "normative_requirement": "Full math/PGD/EOT/native/optimizer-backward/RNG/modes/guards/owner/hash/copy/state_digest/resource/financial holds remain fixed. Selected cap constants never replace the complete original domain.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Retain all original scientific and financial constraints",
+      "topic_id": "resource-and-scientific-contract"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P02",
+        "P05",
+        "P07"
+      ],
+      "id": "DAS-18",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "observed-parent-envelope",
+        "objective-unit-clocks",
+        "scratch-domain-refusals",
+        "child-plan",
+        "role-saved-gates"
+      ],
+      "normative_requirement": "No partial endpoint arithmetic, summed nested spans, overhead subtraction, samples, artifact-byte cap or synthetic result establishes complete-unit timing/heap/RSS/allocator fit or net benefit.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Keep performance and memory unqualified",
+      "topic_id": "resource-and-scientific-contract"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P04",
+        "P05",
+        "P06",
+        "P08"
+      ],
+      "id": "DAS-19",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "collection-root-clock-join",
+        "saved-phase-completion",
+        "phase-reader-wrapper",
+        "remote-session-order",
+        "role-saved-gates"
+      ],
+      "normative_requirement": "Require original confirmed idle and original root/control/source/clock/transport/role-prefix/receipt joins before any later collection. No evidence-only retrieval/recovery path or new window is created.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Preserve collection ownership and byte joins",
+      "topic_id": "collection-and-evidence-status"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P04",
+        "P05",
+        "P06",
+        "P08"
+      ],
+      "id": "DAS-20",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "collection-root-clock-join",
+        "saved-phase-completion",
+        "phase-reader-wrapper",
+        "remote-session-order",
+        "role-saved-gates"
+      ],
+      "normative_requirement": "Failed/partial/pending/consumed states stay exact. Missing roles/endpoints remain missing; transport/documentary/fake success never authenticates execution, promotes qualification or erases real work.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Retain partial and genuine-work semantics",
+      "topic_id": "collection-and-evidence-status"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P02",
+        "P06",
+        "P08"
+      ],
+      "id": "DAS-21",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "target-readiness",
+        "child-entry",
+        "local-auth-and-inputs"
+      ],
+      "normative_requirement": "Actual binary/build/source/ABI/backend/provider joins remain unavailable in the reviewed corpus. Public versions or project-source equality cannot close them; no target inventory/import/download/query is permitted.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Keep deployed provenance gaps open",
+      "topic_id": "target-provenance-and-history"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P02",
+        "P06",
+        "P08"
+      ],
+      "id": "DAS-22",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "target-readiness",
+        "child-entry",
+        "local-auth-and-inputs"
+      ],
+      "normative_requirement": "Old genuine proof/31 gradients, wholeunits0, candidate-replay not started and all statuses remain inherited. Old47/450548B is not current48/481518B execution or present remote state.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Preserve historical versus current claims",
+      "topic_id": "target-provenance-and-history"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P01",
+        "P02",
+        "P03",
+        "P08"
+      ],
+      "id": "DAS-23",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "closed-budget",
+        "supported-run",
+        "binding-full-closure",
+        "fake-fixed-false"
+      ],
+      "normative_requirement": "This step emits no executable API/adapter/binding/gate change, prototype/test/benchmark or active material. An isolated unexecuted documentary source draft needs the separately prepared local-only request; a run needs another explicit decision.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Require separate implementation and validation scope",
+      "topic_id": "future-design-and-review"
+    },
+    {
+      "current_authority_supplied": false,
+      "data_profiles": [
+        "P01",
+        "P02",
+        "P03",
+        "P08"
+      ],
+      "id": "DAS-24",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "inherited_source_anchors": [
+        "closed-budget",
+        "supported-run",
+        "binding-full-closure",
+        "fake-fixed-false"
+      ],
+      "normative_requirement": "No current target approval is requested or ready. Later operational sources and fresh explicit authority plus all provenance/ownership/timing/memory/replay/recovery/economics/calibration/data/protocol/training gates remain independent.",
+      "proof_status": "NOT_PROVEN",
+      "test_status": "NO_NEW_TEST_PLAN_OR_EXECUTION",
+      "title": "Keep operational authority and qualification separate",
+      "topic_id": "future-design-and-review"
+    }
+  ],
+  "requirements_implementation_and_proof_qualified": false,
+  "research_admitted": false,
+  "review_obligation_count": 12,
+  "review_only": true,
+  "runtime_manifest_sha256": "9a84c7048d7b5e4c2d285cad2aa6dac9907bf9fa18bf9e9f6290df33ef06b998",
+  "schema_kinds_are_documentary_and_invalid_for_real_grant_control_parsers": true,
+  "selected_reference_limits_do_not_replace_full_original_domain": true,
+  "source_pins": 65,
+  "target_action_or_operational_approval_request_created": false,
+  "target_approval": "HOLD_NOT_READY_NOT_REQUESTED",
+  "target_build_current_quiescence_or_actual_current_phase_execution_authenticated": false,
+  "target_query_network_download_install_GPU_proof_or_paid_work": false,
+  "training_admitted": false,
+  "training_percentage_or_time_estimate": null,
+  "unknown_rule": "Unknown/unavailable/unreviewed or synthetic evidence never defaults to permission, empty unconsumed history, confirmed idle, complete work or zero cost.",
+  "whole_units_completed": 0
+}
