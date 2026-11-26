@@ -1768,3 +1768,37 @@ lifecycle exceptions/FIFO LSTAT-only fixed, no probe/remap/waiver. Exact index
 snapshots sealed. All scientific/hash/copy/owner/durability/clock/resource/
 financial constraints unchanged. No agent Git mutation; numbered commit message
 preference continues.
+
+## November25: draft unexecuted documentary validator; retain real admission hold
+
+The user directed the disclosed local source-draft next step from clean pushed
+34bb4af; exact message and narrow scope retained, no selected questionnaire
+option or target permission invented. [The source draft](predictor_pgd_diagnostic_admission_documentary_v1.md)
+is13650B <=64KiB, stdlib json/math only and outside original runtime/upload graph.
+It remains UNEXECUTED: zero imports/bytecode compilation/callbacks/tests. Eight
+profile tables/46 fields match spec; four descriptor families in P02–P08 remain
+unsupported/HOLD. All actual receipt flags false, attempts0, bindingnull.
+
+Local raw-byte/numeric/nesting/canonical/shape bounds are new conservative draft
+refinements, not original-domain or physical resource/security/privacy proof.
+Unsupported reference schemas/namespaces not invented. Source reviewer v1 AST
+literal-code enumeration failed before emission; v2 one-edit correction retained
+along with failure/log, candidate unchanged. Seven definitions frozen;15 new
+source/domain/refusal review steps/11 AST-range anchors/30 identifiers, not tests.
+All24 original requirements stay unqualified; full real admission unimplemented.
+
+Independent saved audit v1 FIRST PASS72182 prior hashes/78076 fixtures/0new/
+73pins/all source-profile-domain-review-request-history joins, no candidate/
+reviewer/project/test/scientific callbacks. Earlier32case/41call pass,43boundary
+review, genuine proof31gradients/wholeunits0/candidate-replay not started and all
+failed/partial/pending/consumed records stay unchanged. Device33 prior v4 local
+LSTAT review only, no probe/remap/waiver; old29/target66307/four lifecycle exceptions/
+FIFO LSTAT-only fixed. Exact index snapshots sealed. No agent Git mutation.
+
+Next is a separate NEW bounded validation plan, proposed ceiling48 before exact
+membership/oracles exist. Derive independent expected data without calling the
+module; freeze all inputs/source/oracles before first call. No run until a
+separate explicit concrete-plan decision, no old cohort repeat/benchmark/gate
+edit/active material/operational request/target work. All original science,
+guards/hash/copy/owner/durability/clocks/resources/financial holds and later
+qualification gates remain fixed; training closed with no estimate.

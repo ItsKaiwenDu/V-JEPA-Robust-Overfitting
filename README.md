@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Local documentary source drafted; module remains unexecuted (November25):**
+[The draft review](docs/predictor_pgd_diagnostic_admission_documentary_v1.md)
+records one13,650B module with eight copied outer profiles and intentional HOLD
+for unsupported reference domains. AST/saved audit passed; no import or test ran.
+Next is a new bounded validation plan with independent oracles, before any
+execution decision. The installed gate, target work and training stay closed.
+Earlier entries historical.
+
 **Diagnostic requirements drafted; local code-draft approval pending (November25):**
 [The specification](docs/predictor_pgd_diagnostic_admission_specification_v1.md)
 defines eight documentary profiles,24 requirements and16 refusal rows. Coverage

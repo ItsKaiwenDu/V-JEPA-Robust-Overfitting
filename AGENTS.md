@@ -2,6 +2,91 @@
 
 ## Current stage
 
+LATEST November 25: DOCUMENTARY VALIDATOR SOURCE DRAFTED; UNEXECUTED, REAL HOLD.
+Read docs/predictor_pgd_diagnostic_admission_documentary_v1.md, documentary config
+and report/checks/2026-11-25-pgd-diagnostic-admission-documentary-draft-v1-local-review.json/md.
+Raw pgd-diagnostic-admission-documentary-draft-v1-20261125. Starting clean user-pushed
+34bb4af. User "Committed; next step!" after concrete <=64KiB UNEXECUTED local
+documentary source request directs ONLY that source/review-plan step. Exact
+message/narrow scope in LOCAL-SOURCE-DRAFT-AUTHORIZATION-v1.json; not selected
+questionnaire option or real grant. No agent Git mutation. Default user Git
+unless EXPRESSLY requested; automatic short clear title +NUMBERED description
+each big step. Preserve ALL versions/fixtures/logs/failures/results/statuses/claims.
+
+ONE new standalone stdlib source13650B <=65536B, OUTSIDE old runtime/upload graph.
+UNEXECUTED: DO NOT import/compile for execution/call/test/run without separate
+explicit local validation approval. Imports only json/math; no original project/
+Snapshot/Torch/NumPy/model/tensor/gradient/worker/FileSink/ledger/I/O/process/
+PIDFD/signal/thread/clock/timer/network/GPU/proof port, CLI/grant writer/binding.
+Eight immutable profile tables/46 fields match spec; four reference/namespace
+descriptor families remain unsupported in P02–P08. No invented reference schema/
+closed source namespace. Empty maps/lists never prove complete history. Receipt
+literals actual execution/research/training FALSE, attempts0, bindingnull, target
+HOLD. STRUCTURE_ONLY never authenticates evidence or supplies permission.
+
+NEW conservative LOCAL draft bounds: rawbytes65536/nesting8/postdecode nodes2048/
+objectkeys128/array64/string4096/signed64bit integer text20/float text64 finite;
+strict UTF8/duplicate/nonfinite/canonical/outer-key syntax declarations ONLY.
+NOT original protocol domain/inverse, physical parser/heap/RSS/clock/cap/security
+or privacy proof; postdecode bounds do not constrain earlier decoder allocation.
+Private helper calls/changed globals/stdlib/concurrency outside declared public
+domain. Unexpected errors/BaseException propagate; finally clears two localrefs
+ONLY, not caller/traceback/parser/allocator/secure-erasure lifetime proof.
+All24 original requirements remain unqualified, prior spec statuses unchanged.
+
+Source reviewer v1 failed AST bookkeeping on nonliteral refusal.code passthrough
+BEFORE facts/decision emission; source/log retained. V2 fixes ONLY enumeration
+and asserts sole passthrough spelling; candidate UNCHANGED/unexecuted. Not a
+failed candidate test. Seven source/plan/metadata snapshots frozen.15-step new
+source/domain/refusal review plan/11 definition AST-range anchors/30 source-coded
+identifiers NOT executed paths/tests. No new test membership/oracles created.
+
+STD independent saved audit v1 FIRST PASS72182 prior hashes/78076 fixtures/0new/
+73pins/seven definitions/eight profiles46fields/four unsupported families/seven
+affected profiles/11anchors/30identifiers/15reviewsteps/24unqualified relations.
+No reviewer/candidate/inspected/project/test/prototype/scientific callbacks or
+science value decode-recalc/process/clock/timer/GPU/proof/target/network IN AUDIT.
+Source/AST/JSON/stat/hash compute REAL. Prior32case/41call pass/43boundary review/
+all old proofs/cost rejections INHERITED not repeated or broadened. All old
+source/log/failure versions preserved. Device33 prior v4 LSTAT review CONDITIONAL
+LOCAL metadata only; old29 refusal/records/target66307/four lifecycle exceptions
+fixed. FIFO LSTAT ONLY NEVER OPEN. No mount probe/remap/waiver/volume claim.
+Future device change newrecord/review. Seal sealed-documentary-admission-draft-v1.json;
+live indexes excluded/exact before-after snapshots. Fixturetotal78076 unchanged.
+
+NEXT SEPARATE LOCAL ONLY per NEXT-LOCAL-DOCUMENTARY-VALIDATION-PLAN-v1.json:
+prepare NEW bounded raw-data/foreign-type validation membership and INDEPENDENT
+frozen expected outputs/errors for EXACT current source, incl intentional
+unsupported results. Ceiling48 proposed cases ONLY, NOT actual membership,
+approval or scheduled run. NO candidate import/callback to derive oracles.
+Freeze all sources/membership/oracles BEFORE first call. Later execution needs
+separate explicit decision after concrete plan review; source-draft permission
+and used old32-case scope do NOT permit a run or repeat. No benchmark, original/
+old passing cohort, gate change, active material, operational request or target
+permission. No real diagnostic admission implementation selected or adopted.
+
+All real grants CONSUMED/attempts0; target HOLD_NOT_READY_NOT_REQUESTED. Current
+remote quiescence/deployed binary-build-ABI-backend/current phase execution
+UNKNOWN. Future preflight itself target work needing reviewed source/fresh
+authority/original clock accounting. No university query/SSH/upload/download/
+install/retry/resume/retrieval/cleanup/GPU/proof/paid work/manual paste. Old genuine
+proof31gradients/wholeunits0/candidate-replay notstarted/failed-partial-pending-
+consumed flags fixed. Oldv347/450548B NOT current48/481518B; no lost primary cause
+claim. Copy provenance gap/all prior science/proof/source/cost dispositions fixed.
+Actual full source/inverse/domain/refusal/ownership/complete-unit timing/memory/
+fresh replay/recovery/economics/calibration/data/protocol/training still gated.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; supported v5 unconditional refusal
+before delegate clock/ATTEMPT/connection; no private/older bypass. Graph56uploads
+936711B/runtime48files481518B/cache47/nine supervisors/270paths/control d997bf9e...
+unchanged. Objective120/unit720/setup180/proof60/soft2280-hard2400/final120/
+collection600/connection3000/RSS4GiB/allocator7GiB/all other caps fixed. Original
+science/native/guards/owner/hash/immutable copies/EVERY fresh hash/ordered
+state_digest/durability/shutdown/continuing clocks fixed. Mechanism CLOSED/
+research-training FALSE. TrainingPGD5/EOT1/routineEOT1/optimizer backward/registry/
+studyYAML/financial200/160/40/single10 caps+holds fixed; historical snapshots not
+current quotes/balance. No training percentage/time estimate. Earlier historical.
+
 LATEST November 25: DIAGNOSTIC REQUIREMENTS v1 DRAFTED; CODE DRAFT REQUEST PENDING.
 Read docs/predictor_pgd_diagnostic_admission_specification_v1.md, specification
 config and report/checks/2026-11-25-pgd-diagnostic-admission-specification-v1-local-review.json/md.
