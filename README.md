@@ -1,5 +1,12 @@
 # V-JEPA Robust Overfitting
 
+**Local documentary validation plan frozen; all48 cases NOT_RUN (November25):**
+[The plan](docs/predictor_pgd_documentary_validation_plan_v1.md) fixes43 raw inputs,
+five foreign-type recipes and independent expected receipts before any candidate
+load. The isolated runner remains unexecuted; saved/static audit passed. Next is
+the explicit decision on one capped local48-case run. Target work, installed gate
+and training remain closed. Earlier entries historical.
+
 **Local documentary source drafted; module remains unexecuted (November25):**
 [The draft review](docs/predictor_pgd_diagnostic_admission_documentary_v1.md)
 records one13,650B module with eight copied outer profiles and intentional HOLD

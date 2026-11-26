@@ -1802,3 +1802,41 @@ separate explicit concrete-plan decision, no old cohort repeat/benchmark/gate
 edit/active material/operational request/target work. All original science,
 guards/hash/copy/owner/durability/clocks/resources/financial holds and later
 qualification gates remain fixed; training closed with no estimate.
+
+## November25: freeze48 new documentary cases; await separate local execution approval
+
+The user directed the disclosed plan-preparation next step from clean pushed
+750eb603. [The frozen validation plan](predictor_pgd_documentary_validation_plan_v1.md)
+has48 NEW cases/43 raw-byte inputs/five declared foreign-type recipes incl two
+traps; independent literal expectations2 structure-only/9unsupported/37refusals
+across28 identifiers.52 exact snapshots freeze candidate/runner/membership/
+oracles/caps/plan/inputs before any call. Candidate13650B unchanged and both
+candidate/runner UNEXECUTED: no import/compile for execution/callback/test/benchmark.
+All48 cases NOT_RUN. No private-helper/changed globals or stdlib injections;
+two source identifiers explicitly unplanned, not exhaustive domain proof.
+
+The exact local-only request is PENDING_NOT_AUTHORIZED. Fresh approval precedes
+definition load; one fresh private stage, max48 cases/48 public calls once each,
+no warmup/automatic retry, starts/rawreturns/traces/errors preserved, stop on
+unexpected failure/mismatch. Real ports denied in source; denials unexercised.
+Complete case evidence<=1MiB/each result<=32768B includes all case copies/versions/
+logs/original source and future outputs/stdout; declared administrative exclusions
+fixed. No OS security/time/heap/RSS guarantee. Old32-case approval not reusable.
+
+Static finalizer v1 failed name analysis by omitting ExceptHandler.name; v2 adds
+that local binding only. Both source/log versions and full inverse preserved,
+candidate/runner unchanged. Independent saved audit v1 FIRST PASS72247priorhashes/
+78076fixtures/0new/81pins/52frozen/48planned joins, no candidate/runner/finalizer/
+project/test/prototype/scientific callbacks or process/clock/timer/network/target
+work. All24 original requirements unqualified; even a later PASS supplies no
+real admission/physical ownership/complete-unit fit. Old science/proof/cost/
+32case41call/43boundary results inherited without repeat or claim promotion.
+
+All real grants consumed/attempts0/bindingnull, supportedv5 gate unconditionally
+closed before clock/ATTEMPT/connection, target HOLD/research-trainingfalse. No
+active operational material/request/target work or original source/gate/graph/
+science/guards/hash/copies/owner/durability/clocks/caps/financial changes. Old
+proof31gradients/wholeunits0/candidate-replay notstarted/all failed-partial-pending-
+consumed flags fixed. Device33 prior v4 conditional local LSTAT review only;
+old29/target66307/four exceptions/FIFO LSTAT-only preserved. Exact index snapshots
+sealed; no agent Git mutation. Training remains closed without estimate.
