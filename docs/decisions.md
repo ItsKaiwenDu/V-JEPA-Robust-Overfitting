@@ -1602,3 +1602,32 @@ Next needs NEW scoped source premise satisfying all fixed error/lifetime duties
 or NEW exactoffline provenance. No nextprototype/benchmark/execution admission,
 no closedcohort repeat without new evidence, installedgateclosed/research-training
 FALSE/no forecast. Continue automatic numbered commit messages; Git only on express request.
+
+
+## November 25: distinguish evidence, authority, implementation and qualification
+
+User accepted a LOCAL [policy-dependency review](../configs/predictor_pgd_evidence_policy_review_v1.json)
+from clean pushed655b2a7.25 pins/6AST/6source ranges/3policy ranges identify5 evidence
+topics and4barriers:missing measurements, standing target prohibitions/consumed
+authority, supportedclient's unconditional gate, separate later qualification.
+Metadata/policy text cannot open currentcode; code change cannot supplyauthority;
+private/older helpers are not authorized bypasses. Existing local phase work is
+complete; immutable historical nextpointer is not repeat authority. No theorem
+all futureworkloads impossible or all Python invocations unreachable is claimed.
+
+Recommendation at policy level ONLY:consider evidence-collection admission
+separately from research/training admission in a future explicit decision. No
+operative policy revision, collector/route/API/runplan, operational scope/grant/
+approvalrequest/package/launch/command or specifictarget permission solicited or
+created. Review acceptance never authorizes targetwork. All current permissions,
+gate/source/science/guards/ownership/durability/clocks/caps remain unchanged.
+
+Auditv1 FIRSTPASS71830 priorhashes/78043 fixtures/0new/all dependency/history/
+source/instruction/lineage joins, no callbacks/ports/science decode-recalc. Prior
+realproof31gradients remain genuine/wholeunits0/candidate-replay notstarted/
+failed-partial-pending-consumed states fixed. Device33 priorv4LSTATreviewconditional
+metadataONLY, no mountprobe/remap/waiver/volumeauthentication; old29refusal/
+target66307/four exceptions/FIFO retained. Seal includes exactindexsnapshots.
+Training and all financial/scientific/resource holds remain; no forecast or new
+operational permission. Continue automatic numbered commit messages, Git only
+on express request.

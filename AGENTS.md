@@ -2,6 +2,77 @@
 
 ## Current stage
 
+LATEST November 25: EVIDENCE/ADMISSION POLICY DEPENDENCIES REVIEWED; NO PERMISSION CHANGE.
+Read docs/predictor_pgd_evidence_policy_review_v1.md, evidence_policy_review config
+and report/checks/2026-11-25-pgd-evidence-policy-review-v1-local-review.json/md.
+Raw pgd-evidence-policy-review-v1-20261125. Starting clean pushed655b2a7. User
+accepted LOCAL policy-dependency review ONLY, NOT targetpermission or instruction
+waiver. No agent Git mutation. Default user Git unless EXPRESSLY requested;
+automatically short clear commit title +NUMBERED description eachbigstep. Preserve
+ALL source/test/auditor versions/fixtures/logs/failures/results/statuses/claims.
+All real grants CONSUMED. No operational scope/handoff/package/grant/approval
+request/launch command, university query/SSH/upload/retry/resume/retrieval/remote
+cleanup/target/GPU/proof/paidwork or manualpaste. ALL prior restrictions remain.
+
+NEW source/AST/JSON/stat/hash policy review ONLY:25pins/6ASTanchors/6source range
+hashes/3instruction snapshot ranges/5evidence topics/4barriers. Evidence missing;
+authority prohibited/consumed; supportedcode unconditionally raises; later science/
+performance/training qualification separate. Publicv5run gate BEFORE delegate
+protocolclock/ATTEMPT/process. Private delegate existence NOT authorized bypass;
+not claiming all possible Python calls physically unreachable. Metadata or policy
+wording cannot open installedcode; code change cannot supplyauthority. Current
+workflow dependency blockage NOT proof every workload/futuredesign infeasible.
+
+POLICY-LEVEL RECOMMENDATION ONLY per POLICY-DECISION-BRIEF-v1.json: consider future
+evidence-collection admission separately from research/training admission. Current
+decision UNRESOLVED; recommendation is NOT operative policy or permissionchange.
+Future explicit instruction decision needed before designing operational evidence
+path; no collector/API/route/scope/grant/approvalrequest/package/command/launch or
+specifictargetpermission solicited/created. NO next query/prototype/benchmark/run
+authorized/scheduled. Readonly targetqueries have NO exemption. Any future evidence
+permission still needs valid data/independent source review/full qualification.
+Do NOT treat this local review acceptance, report, oldgrant or fake budget port as
+permission to execute. Currentgate/authority/science/ownership/durability/clocks/
+caps unchanged. Training stays closed. No runtime/evidence-collection mechanism
+chosen or implemented. Historical budgetJSON nextpointer to phaseaccounting is
+ALREADYCOMPLETED LOCALwork, not authority to repeat closedcohorts; bytes preserved.
+
+Genuine priorrealstorageproof/31originalgradients retained, old attemptconsumed/
+sessionFAILEDincomplete/completed[proof]/ownedchild exit unconfirmed. Wholeunits0/
+candidate-replay notstarted, all failed/partial/pending/consumedflags unchanged.
+Oldv347/450548B NOT currentphase48/481518B; actualcurrentphase execution NOTestablished.
+No currentremote/primarycause claim. Exactdeployed binary/build/ABI/backend joins
+missing in reviewedcorpus, NOT whole-machine absence. NEW already-saved artifact
+may advance only supported joins under separateLOCALreview; none identified.
+Provenance/localproof/localcost/partialphase endpoints never imply ownership or
+completeunit fit. Actual matched original/candidate/freshreplay/timing-overhead/
+memory/recovery/economics/calibration/data/protocol/research/training still gated.
+All priorproof/costrejections/source/inventory statuses unchanged, no repeats.
+
+STD saved auditv1 FIRSTPASS71830priorhashes/78043priorfixtures/0new/25pins/6AST/
+6claims/3policyranges/5topics/4barriers/history/lineage. No analyzer/inspectedsource/
+project/test/scientific callbacks or scientificvalue decode-recalc/fakeports/
+process/clock/timer/GPU/proof/network IN AUDIT. Source/metadata/AST/JSON/FS/hash
+REAL. No Torch/NumPy/model/tensor/gradient/worker/FileSink/ledger/prototype/test/
+witness/benchmark/target/paidwork. Initial wrongpath lookups retained/corrected;
+no source or evidence altered for fix. Device33 PRIORv4 LSTATrecord/savedreview
+CONDITIONAL LOCAL METADATA only; no probe/remap/waiver/reason/physicalvolume
+authentication. Old29refusal/records/target66307/four exact directory exceptions
+unchanged; FIFO LSTAT ONLY NEVER OPEN. Futuredevicechange newrecord/review. Seal
+sealed-evidence-policy-review-v1.json; liveindexesexcluded/exact before-after
+snapshots; totalfixtures78043. No new operational permission or route follows.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; installedv5gate UNCONDITIONALLY CLOSED
+before protocolclock/ATTEMPT/connection. Graph56uploads936711B/runtime48files481518B/
+cache47/nine supervisors/270paths/control d997bf9e... unchanged. Objective120/unit720/
+setup180/proof60/soft2280-hard2400/final120/collection600/connection3000/RSS4GiB/
+allocator7GiB/allother caps fixed; no timeout/hardware/shortenedPGD-EOT/disabledguard/
+leanroute. All original science/native/hash/owner/durability/shutdown/Guard and
+continuing clocks fixed. Mechanism CLOSED/research-trainingFALSE. TrainingPGD5EOT1/
+routineEOT1/optimizerbackward/registry/studyYAML/financial200/160/40/single10caps+
+holds fixed; historicalsnapshots not currentquotes/balance. No training
+percentage/time estimate. Earlier entries historical.
+
 LATEST November 25: JOURNAL SOURCE RATIONALE REVIEWED; NO NEW CANDIDATE QUALIFIED.
 Read docs/predictor_pgd_journal_write_tail_review_v1.md, journal_write_tail_review
 config and report/checks/2026-11-25-pgd-journal-write-tail-review-v1-local-review.json/md.

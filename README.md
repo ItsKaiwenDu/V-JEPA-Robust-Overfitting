@@ -1,5 +1,12 @@
 # V-JEPA Robust Overfitting
 
+**Evidence/admission policy reviewed; current authority unchanged (November25):**
+[The local decision brief](docs/predictor_pgd_evidence_policy_review_v1.md)
+separates missing evidence, standing prohibitions, the installed closed gate and
+later qualification. It recommends separate future decisions for evidence
+collection and training admission. No permission, collector, code, scope or caps
+change; no target action is authorized. Earlier entries historical.
+
 **Journal source rationale reviewed; no new candidate qualified (November25):**
 [The source-only review](report/checks/2026-11-25-pgd-journal-write-tail-review-v1-local-review.md)
 finds no prefix-concatenation loop to remove. Omitting the last empty write-tail
