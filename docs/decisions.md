@@ -1945,3 +1945,40 @@ proof31gradients/wholeunits0/scientific candidate-replay notstarted/failed-parti
 pending-consumed states fixed. Device33 prior v4 conditional local LSTAT only;
 old29/target66307/four exceptions/FIFO LSTAT-only retained. Exact index snapshots
 sealed, no Git mutation or training estimate.
+
+## November27: propose local documentary reference formats; retain real HOLD
+
+Starting clean user-pushed98ebd034, the user directed the separate declarative
+proposal scope. [The proposal](predictor_pgd_documentary_format_proposal_v1.md)
+has2shared declarations/4family forms/23 declared fieldpositions/13exact role
+mappings/39UNRESOLVED context slots/20requirements coverage/8source-error review
+obligations. Shared byte identity and role-bound reference; named-hash/ordered
+sequence wrappers; nullable outer null unknown/HOLD and required nonnull object
+with unknown artifact/context identities still unresolved. No path/URI/dereference
+port. Markers are local only, not proof all parser domains physically disjoint.
+Canonical spelling proposed, aggregate parser-bound/inverse compatibility unproved.
+
+Status PROPOSAL_ONLY_NOT_ADOPTED_NOT_INSTANTIATED. Formats adopted0/instances0/
+proofgapsclosed0. Context/BOUNDS/ORDER slots ALL39unresolved; no actual member
+set/vocabulary/resource limit or policy instance supplied.20DRR/24DAS requirements
+NOT_IMPLEMENTED/NOT_PROVEN; eight real-evidence groups exact/open. All8 source-
+error review obligations require separate review, not performed here. No source
+change/parser/resolver/populated runtime example/case plan/oracle/run/prototype/
+benchmark/operational format/active material/target action or old cohort repeat.
+
+Independent saved auditv1 FIRSTPASS72647priorhashes/78129fixtures/0new/123pins/
+seven frozen definitions/all declaration/role/slot/requirement/refusal joins,
+no author/candidate/runner/project/test/prototype/scientific callback or science
+value decode-recalc/process/clock/timer/network/target IN AUDIT. Metadata only,
+not fullsource/inverse/domain/refusal/ownership/physical-security/resource proof.
+Next bounded source-only review of these NEW declarations against pinned current
+parser and preserved refusal boundaries, no adoption/instantiation/implementation.
+
+Prior48-case firstPASS/657504B evidence/consumed scopes and all old source/test/
+auditor/failure/correction/log/status versions preserved. All real and used local
+grants consumed/attempts0/bindingnull/targetHOLD/research-trainingfalse; supportedv5
+closed before clock/ATTEMPT/connection. Science/guard/hash/copy/owner/durability/
+clocks/caps/financial holds and old proof31gradients/wholeunits0/scientificcandidate-
+replay notstarted/failed-partial-pending-consumed claims fixed. Device33 prior v4
+conditional local LSTAT only; old29/target66307/four exceptions/FIFO LSTAT-only
+retained. Exact index snapshots sealed, no Git mutation or training estimate.

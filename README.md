@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Local documentary format proposal drafted (November27):**
+[The proposal](docs/predictor_pgd_documentary_format_proposal_v1.md) describes
+two shared declarations/four family forms for13 roles, with39 context slots
+explicitly unresolved. Proposal only: no adoption, instances, implementation or
+validator run. Saved metadata audit passed. Next: source/error-order review of
+the new declarations. Real admission, target work and training remain closed.
+Earlier entries historical.
+
 **Local documentary reference requirements drafted (November26):**
 [The addendum](docs/predictor_pgd_documentary_reference_requirements_v1.md)
 defines20 requirements for13 roles plus missing/ambiguous evidence and refusal

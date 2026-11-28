@@ -2,6 +2,99 @@
 
 ## Current stage
 
+LATEST November 27: LOCAL DOCUMENTARY FORMAT PROPOSAL DRAFTED; REAL HOLD.
+Read docs/predictor_pgd_documentary_format_proposal_v1.md, format proposal config
+and report/checks/2026-11-27-pgd-documentary-format-proposal-v1-local-review.json/md.
+Raw pgd-documentary-format-proposal-v1-20261127. Starting clean HEAD/origin98ebd034;
+user committed preceding review+requirements (earlier dirty observations remain
+history). User "Committed; next step!" directs separate DECLARATIVE proposal
+ONLY. No agent Git mutation; default user Git unless EXPRESSLY requested. Auto
+short clear title +NUMBERED description eachbigstep. Preserve ALL versions/
+fixtures/logs/failures/results/statuses/claims.
+
+PROPOSAL_ONLY_NOT_ADOPTED_NOT_INSTANTIATED:2shared declarations (documentary
+bytes identity4fields/reference7fields),4family forms/23 declared fieldpositions/
+13exact role mappings/39 UNRESOLVED context slots/20requirement relations/
+8source-error review obligations. F01 named-hashes wrapper6fields/F02 ordered
+reference-sequence wrapper6fields; F03 null-or-reference; F04 nonnull-reference.
+Four LOCAL-DOCUMENTARY-...-PROPOSED-v1 literal markers; NOT operational forms.
+Fields/text constraints DATA only, not executable JSON Schema/parser/adapter.
+No populated reference/identity/example encoded/parsed/validated; instances0.
+
+Identity4fields declare exact supplied documentary byte digest/length/domain;
+unknown identity NULL never emptybytes/zero work/complete evidence. Reference
+role/relation/artifact/context/evidence label fields have NO location/URI/path/
+action/PID/ATTEMPT/dereference port. Existing five evidence labels unchanged;
+label or future identity match never actual origins/authority/completeness/
+physical clock-owner/fit. F03 outerNull unknown/HOLD; F04 needs FUTURE null
+refusal. Nonnull object with unknown artifact/context identity remains HOLD.
+Names exact/no normalization; complete vocabularies/resource extents unresolved.
+Declared signed64 length metadata domain NOT artifact-size/resource allowance.
+
+Every role has CONTEXT/BOUNDS/ORDER slot, ALL39UNRESOLVED, actualdefinitions0.
+No concrete member set/relation vocabulary/resourcecount-byte limits/order
+policy instance selected; known56upload/48runtime/47cache/nine supervisors
+counts NOT complete context. No current/historical substitution. Canonical
+UTF8-JSON spelling proposed but current raw/numeric/tree/array/object bound
+compatibility UNPROVED; no parser-bound change. Forms nonrecursive declarations
+only, NOT drop-in P02–P08 replacement/inverse/original-domain/security proof.
+Marker strings do not prove physical parser separation.
+
+20DRR coverage relations remain NOT_IMPLEMENTED/NOT_PROVEN; all24 original DAS
+requirements also unchanged. Eight real-evidence obligation groups copied exact
+and OPEN. Adoptedformats0/local-real proofgapsclosed0. Eight source/error review
+obligations SEPARATE_SOURCE_REVIEW_REQUIRED_NOT_PERFORMED, exact parent refusal
+conditions retained. Requires aggregate type/bounds/compatibility/namespace/
+identity/ambiguity/order and first-effect/error/lifetime/ownership review before
+any later action. Missing receipt never means no earlier effect. No test cases/
+oracles/prototype/benchmark/validator import/compile for execution/callback/
+source/runtime/gate change/actual I/O resolver/original project orscience port.
+
+STD independent saved auditv1 FIRSTPASS72647priorhashes/78129fixtures/0new/
+123pins/seven frozen definitions/2shared/4families/23fields/13roles/39slots/
+20coverage/8reviews. Metadata integrity/coverage ONLY, not full source review.
+No author/candidate/runner/project/test/prototype/scientific callback or
+scientificvalue decode-recalc/process/clock/timer/GPU/proof/network/target IN
+AUDIT. JSON/source/AST/FS/hash REAL. Prior48case firstPASS/657504B evidence/
+consumed localscope and old32case/43boundary/scientificproof/cost/closedcohorts
+INHERITED NOT repeated/promoted. All failures/corrections/versions retained.
+Device33 prior v4 LSTATreview conditional LOCAL metadata only; old29 refusal/
+target66307/four exact lifecycle exceptions fixed. FIFO LSTAT ONLY NEVER OPEN/
+READ/HASH; no mountprobe/remap/waiver/volume claim; newdevice NEWrecord/review.
+Fixturetotal78129 unchanged. Seal sealed-documentary-format-proposal-v1.json;
+liveindexes excluded/exact before-after snapshots/history included.
+
+NEXT SEPARATE LOCAL per NEXT-LOCAL-PROPOSAL-SOURCE-REVIEW-v1.json: bounded
+SOURCE-ONLY review of NEW23 declared fieldpositions/2shared/4families/13roles/
+39slots/8obligations against pinned documentary parser and relevant preserved
+source/refusal boundaries. Identify incompatibilities/undetermined choices;
+NO adoption/implementation/instantiation/resolution/candidate source change/
+import/compile for execution/caseplan/run/prototype/benchmark/original callback/
+runtime binding/gate edit/active record/operational request/target action. No
+scope or prior consumed local/real grant reuse. All later fullsource/inverse/
+domain/refusal/ownership/completeunit timing/memory/freshreplay/recovery/economics/
+calibration/data/protocol/training gates independent. No approval requested.
+
+All real grants and used local48/32case scopes CONSUMED/attempts0/bindingnull/
+target HOLD_NOT_READY_NOT_REQUESTED. No university query/SSH/upload/download/
+install/retry/resume/retrieval/cleanup/GPU/proof/paidwork/manualpaste/active
+grant-control-handoff-package-launch/operational request. Current remote
+quiescence/deployedbinary-build-ABI-backend/actualcurrentphase execution UNKNOWN;
+no lostprimarycause claim. Old genuine proof31gradients/wholeunits0/scientific
+candidate-replay notstarted/all failed-partial-pending-consumed flags fixed.
+Oldv347/450548B NOT current48/481518B.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; supportedv5 unconditional refusal
+before delegateclock/ATTEMPT/connection; no private/older bypass. Graph56uploads
+936711B/runtime48files481518B/cache47/nine supervisors/270paths/control d997bf9e...
+unchanged. Objective120/unit720/setup180/proof60/soft2280-hard2400/final120/
+collection600/connection3000/RSS4GiB/allocator7GiB/allother caps fixed. Original
+science/native/guards/owner/hash/immutable copies/EVERY fresh hash/ordered
+state_digest/durability/shutdown/continuing clocks fixed. Mechanism CLOSED/
+research-trainingFALSE. TrainingPGD5/EOT1/routineEOT1/optimizerbackward/registry/
+studyYAML/financial200/160/40/single10caps+holds fixed; old snapshots not current
+quotes/balance. No training percentage/time estimate. Earlier entries historical.
+
 LATEST November 26: DATA-ONLY REFERENCE REQUIREMENTS DRAFTED; REAL HOLD.
 Read docs/predictor_pgd_documentary_reference_requirements_v1.md, reference
 requirements config and report/checks/2026-11-26-pgd-documentary-reference-requirements-v1-local-review.json/md.
