@@ -1,5 +1,104 @@
 # Research Progress Reports
 
+LATEST November 27: DATA-ONLY FORMAT V2 CHOICES RECORDED; REAL HOLD.
+Read docs/predictor_pgd_documentary_format_proposal_v2.md, format proposalv2
+config and report/checks/2026-11-27-pgd-documentary-format-proposal-v2-local-review.json/md.
+Raw pgd-documentary-format-proposal-v2-20261127. User EXPRESS "Commit and push
+for me; next step!" completed preceding eightfile source-review commit9716c264/
+originmain with EXACT supplied title/numbereddescription; clean starting
+HEAD==origin/main. GitHub network REAL/authorized, separate from LOCAL v2 draft;
+target/university actions0. This completed operation alone overrides default
+user Git; no further Git mutation requested/performed for NEW proposal. Default
+user Git unless EXPRESSLY requested. Auto short clear title +NUMBERED description
+eachbigstep; preserve ALL versions/fixtures/logs/failures/results/statuses/claims.
+
+PROPOSAL_V2_ONLY_NOT_ADOPTED_NOT_INSTANTIATED. Three prior design decisions now
+PROVISIONAL choices, not implemented/qualified: embedded-only original P02–P08
+field positions; F02 EXACT LIST of reference declarations (NO dictionary wrapper,
+extraction, adapter, first-element role inference/status aggregation or outer
+profile change); explicit enclosing role/context equality; joint profile bounds.
+F01 mapwrapper6fields/F03 nullable/F04 required-reference remain proposals.
+Two shared shapes (identity4/ref7),4family forms/17declared fields/13roles/39open
+slots/8declarative binding rules/7profile jointconstraints/3choices/20DRRcoverage.
+
+Identity fields/v1 marker reused unchanged under DPS2-IDENTITY declaration ID;
+reference/F01-wrapper markers+revision2 proposed. Reference role vocabulary11
+non-map roles; mapwrapper twoF01 roles. No silent v1 migration. All forms nested
+embedded values ONLY, not standalone entry records. Current keys/kinds/field
+order/JSON bounds/labels/receipts/parser/gate unchanged; current descriptors still
+unsupported. Outer-list agreement NOT implemented nested schema/inverse proof.
+No actual reference/context instances, populated examples, runtime catalog or
+resolver. Forms adopted0/candidate-or-original callbacks0/new fixtures0.
+
+Every applicable role_id == EXACT enclosing original field ID, not just allowed
+set membership. Reference context_identity and map namespace_identity must match
+unique nonnull declared C(role) when known, with exact typed identity-field
+equality; C(role) is policy/completeness DOCUMENTARY identity, not artifact origin
+or actual authority. Unknown/null on either side ->HOLD, never null==null known
+match. Multiple/conflicting contexts retain uncertainty/no first-last-newest.
+C(role) is uninstantiated schema obligation, NOT runtime API/input format/catalog.
+ALL39actual CONTEXT/BOUNDS/ORDER definitions/member sets/resource limits/policy
+instances remain UNSUPPLIED/UNRESOLVED. Evidence labels never physical proof.
+
+Necessary metadata node constraints, NOT enforcement/tests: I9/null1;
+R=13+A+C; M=12+A+2K; direct listL=1+sum(Ri). Seven original profile bases
+P02..08 =9/11/12/11/11/11/17 (last includes original3false flagobject7nodes).
+Full nonnull declared identities yield P02=31+2K+31N; P03=63+2K; P04=13+31N;
+P05=43+31N; P06=13+31(N1+N2); P07=73; P08=19+31(N1+N2). Each jointly<=2048
+AND ALL unchanged raw65536/nesting8/object128/array64/string4096/inttext20/
+signed64-int/floattext64-finite constraints. Generic ceilings still exceed tree
+limit for P02/P06/P08; not chosen role bounds or encoded/parsed cases. Smaller
+expression is NOT runtime benefit, free outside-context work, heap/RSS/time or
+unitfit proof. No caprelaxation/truncation/sort/dedup/overhead subtraction/new
+preflight/error reordering. Earlier guards may refuse first; first-effect and
+original source/process/refusal/clock/durability boundaries unchanged.
+
+All20DRR/24DAS requirements NOT_IMPLEMENTED/NOT_PROVEN; eight real-evidence
+groups copied exact and OPEN. V1 proposal/source findings/formulae/source/test/
+auditor/log/failure/result/status versions preserved unchanged. STD saved auditv1
+FIRSTPASS72784priorhashes/78129fixtures/0new/139pins/eight frozen definitions/
+2shared/4families/17fields/13roles/39slots/8bindings/7constraints/3choices/20joins.
+No author/candidate/runner/original project/test/prototype/scientific callback
+or scientificvalue decode-recalc/process/clock/timer/GPU/proof/network/target
+IN AUDIT. JSON/source/stat/hash/arithmetic METADATA REAL, not source execution
+or dynamic schema validation. Prior48case firstPASS/657504B evidence/consumed
+scope and old32case/43boundary/science/proof/cost/closedcohorts INHERITED NOT
+repeated/promoted. Device33 prior v4 LSTAT conditional LOCAL metadata only;
+old29 refusal/target66307/four lifecycle exceptions fixed, FIFO LSTAT ONLY NEVER
+OPEN/READ/HASH; no mountprobe/remap/waiver/volume claim; newdevice NEWrecord/review.
+Fixturetotal78129 unchanged. Seal sealed-documentary-format-proposal-v2.json;
+liveindexes excluded/exact before-after snapshots/history included.
+
+NEXT SEPARATE LOCAL per NEXT-LOCAL-V2-PROPOSAL-REVIEW-v1.json: bounded SOURCE-
+ONLY DIFFERENTIAL review of NEW v2 choices versus preserved v1 findings/current
+parser-refusal boundaries:17fields/2shared/4families/13roles/39slots/8binding
+rules/7profileconstraints/3decisions. NO adoption/instantiation/implementation/
+source change/import/compile for execution/resolver/caseplan/run/prototype/
+benchmark/original callback/runtime binding/gate edit/operational format/active
+record/operational request/target work or old cohort repeat. Fullsource/inverse/
+domain/refusal/ownership/completeunit timing/memory/freshreplay/recovery/economics/
+calibration/data/protocol/training remain separate, no approval requested.
+
+All real grants and used local48/32case scopes CONSUMED/attempts0/bindingnull/
+target HOLD_NOT_READY_NOT_REQUESTED. No university query/SSH/upload/download/
+install/retry/resume/retrieval/cleanup/GPU/proof/paidwork/manualpaste/active
+grant-control-handoff-package-launch/operational request. Current remote
+quiescence/deployedbinary-build-ABI-backend/actualcurrentphase execution UNKNOWN;
+no lostprimarycause claim. Old genuine proof31gradients/wholeunits0/scientific
+candidate-replay notstarted/all failed-partial-pending-consumed flags fixed.
+Oldv347/450548B NOT current48/481518B.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; supportedv5 unconditional refusal
+before delegateclock/ATTEMPT/connection; no private/older bypass. Graph56uploads
+936711B/runtime48files481518B/cache47/nine supervisors/270paths/control d997bf9e...
+unchanged. Objective120/unit720/setup180/proof60/soft2280-hard2400/final120/
+collection600/connection3000/RSS4GiB/allocator7GiB/allother caps fixed. Original
+science/native/guards/owner/hash/immutable copies/EVERY fresh hash/ordered
+state_digest/durability/shutdown/continuing clocks fixed. Mechanism CLOSED/
+research-trainingFALSE. TrainingPGD5/EOT1/routineEOT1/optimizerbackward/registry/
+studyYAML/financial200/160/40/single10caps+holds fixed; old snapshots not current
+quotes/balance. No training percentage/time estimate. Earlier entries historical.
+
 LATEST November 27: PROPOSED FORMATS SOURCE-REVIEWED; REVISION NEEDED, REAL HOLD.
 Read docs/predictor_pgd_documentary_format_source_review_v1.md, format source
 review config and report/checks/2026-11-27-pgd-documentary-format-source-review-v1-local-review.json/md.

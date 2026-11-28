@@ -2021,3 +2021,46 @@ wholeunits0/scientificcandidate-replay notstarted/failed-partial-pending-consume
 flags fixed. Device33 prior v4 conditional local LSTAT only; old29/target66307/
 four exceptions/FIFO LSTAT-only preserved. Exact index snapshots sealed; no
 new-review Git mutation or training estimate. Earlier entries historical.
+
+## November27: record v2 embedded/list/context/joint-bound proposal choices; real HOLD
+
+On EXPRESS user request preceding source review committed/pushed9716c264 with
+exact title/numbered description; then clean HEAD==origin/main. GitHub push
+network authorized/real, separate from new local v2; no further Git mutation.
+[V2 proposal](predictor_pgd_documentary_format_proposal_v2.md) records three
+provisional design choices, not implementation/qualification: embedded-only
+original field positions, F02 exact lists (no wrapper/unwrapping/adapter/status
+rewrite), exact enclosing-role and unique nonnull role-context identity joins,
+joint constraints for seven profiles. Unknown/null never known equality,
+ambiguity/conflicts preserved. Context is schema obligation, not runtime catalog.
+
+Two shared/four families/17declared fields/13roles/39UNRESOLVED slots/eight
+binding rules/seven profile constraints/three choices/20requirements coverage.
+Identity v1 fields reused; reference/mapwrapper proposed revision2. No populated
+reference/context examples/instances/resolver/caseplan/run/prototype/benchmark/
+source/parser/gate change. All20DRR/24DAS unimplemented/unproven, eight real-
+evidence groups OPEN, concrete namespace/resource/order definitions unsupplied.
+
+Direct listL=1+sum(Ri), R=13+A+C, mapM=12+A+2K; joint profile constraints and
+all unchanged raw/numeric/string/nesting/width/tree limits necessary/conjunctive,
+not source enforcement, actual payloads/role limits or memory/time/unit-fit
+proof. No limit relaxation/truncation/sort/dedup/overhead subtraction or free
+outside-context work assumption; original refusal/first-effect/clock order fixed.
+Independent saved auditv1 FIRSTPASS72784priorhashes/78129fixtures/0new/139pins/
+eight frozen definitions/all shape-role-binding-constraint-coverage joins, no
+author/candidate/runner/original project/test/prototype/scientific callback or
+science value decode-recalc/process/clock/timer/network/target IN AUDIT.
+
+Next separate bounded source-only differential review of NEW v2 decisions
+against preserved v1 findings/current parser/refusal boundaries; no adoption/
+implementation/instantiation/sourcechange/resolver/caseplan/run/target action.
+V1/all source/test/auditor/failure/log/result/status versions and prior48case/
+657504B evidence/consumed scopes/old32case/43boundary/science/proof/cost cohorts
+fixed, not repeated/promoted. Real grants/used local approvals consumed/attempts0/
+bindingnull/targetHOLD/research-trainingfalse; supportedv5 closed before clock/
+ATTEMPT/connection. Original science/guard/hash/copy/owner/durability/clocks/
+caps/financial holds and proof31gradients/wholeunits0/scientificcandidate-replay
+notstarted/failed-partial-pending-consumed claims fixed. Device33 prior v4
+conditional local LSTAT only; old29/target66307/four exceptions/FIFO LSTAT-only
+retained. Exact index snapshots sealed, no new-proposal Git mutation or training
+estimate. Earlier entries historical.

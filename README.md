@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Data-only documentary format v2 drafted (November27):**
+[V2](docs/predictor_pgd_documentary_format_proposal_v2.md) proposes direct F02
+lists, exact enclosing role/context rules and joint bounds for seven profiles.
+All39 context slots stay unresolved; no adoption/instances/source change/run.
+Saved metadata audit passed. Source review committed/pushed9716c264 on express
+request; next is a source-only differential review. Real admission, target work
+and training remain closed. Earlier entries historical.
+
 **Documentary format source review completed (November27):**
 [The review](docs/predictor_pgd_documentary_format_source_review_v1.md) identifies
 F02 dictionary/list conflicts in seven roles, unimplemented nested rules and
