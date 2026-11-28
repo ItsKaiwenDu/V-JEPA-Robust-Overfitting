@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Context requirements drafted (November27):**
+[Four contracts](docs/predictor_pgd_documentary_context_requirements_v1.md) cover
+context supply, uncertainty, refusal ownership and complete resource accounting.
+All39 actual context definitions remain open; no source changes or new runs.
+Saved metadata audit passed. Next: prepare a concrete local source-draft plan and
+fresh approval request. Automatic major-step commit/push/continue is now requested;
+target work and training remain closed. Earlier entries historical.
+
 **Documentary format v2 source review completed (November27):**
 [Review](docs/predictor_pgd_documentary_format_v2_review_v1.md) finds the direct
 lists, role/context rules and joint node expressions consistent as declarations.

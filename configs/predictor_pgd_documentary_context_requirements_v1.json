@@ -1,0 +1,1366 @@
+{
+  "actual_context_reference_instances_or_source_changes": 0,
+  "all20_DRR_and24_DAS_NOT_IMPLEMENTED_NOT_PROVEN": true,
+  "artifact_hashes": {
+    "CONTEXT-BOUNDARY-CONTRACT-v1.json": "155d16636cc93958137567e68747af1e2a32415ce4cc9f762c7cfb7cd3189801",
+    "NEXT-LOCAL-DRAFT-PLAN-v1.json": "54534086a2d7e307a411a7fc29f812b180357f1b2c9b20599630269367fd8849",
+    "PRESERVED-REQUIREMENTS-JOINS-v1.json": "586bf350c9bb0788211cde680185cb0dc421ebe06f4fed595d16c945065bb9e9",
+    "ROLE-SLOT-COVERAGE-v1.json": "75d73a83cf5bb6bad9740770a3579e3419da230789fe9331707b1322ae283a94",
+    "author-requirements-v1.py": "965b3b3744a01076e64d3b47c170053235bd71bc9a7fa1a428ab499801dbda76"
+  },
+  "budget_decision": "REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE",
+  "budget_gate_opened": false,
+  "clauses": 12,
+  "contract": {
+    "actual_context_or_reference_instances": 0,
+    "clause_count": 12,
+    "count": 4,
+    "current_source_or_v2_proposal_modified": false,
+    "kind": "DATA-ONLY-DOCUMENTARY-CONTEXT-REQUIREMENTS-v1",
+    "original13_roles39_slots_and_all20_DRR24_DAS_statuses_preserved": true,
+    "requirements": [
+      {
+        "clauses": [
+          {
+            "id": "CBR-01.a",
+            "requirement": "A future supply boundary must identify the exact role, declaration domain/version and documentary bytes identity for the separately reviewed role policy/completeness context. State which necessary source, member-set, vocabulary, bound and order information is known, unknown, unavailable or conflicting; matching documentary identity alone proves none of its actual origin, completeness or authority."
+          },
+          {
+            "id": "CBR-01.b",
+            "requirement": "Specify missing/unavailable/multiple/ambiguous/mismatched/contradictory context obligations explicitly before any future dependent progress. No first/last/newest winner, default context, empty namespace or implicit recovery. This contract selects no runtime argument/key/type/encoding/transport/constructor/catalog/global/cache, resolver or hidden I/O."
+          },
+          {
+            "id": "CBR-01.c",
+            "requirement": "A later source/domain/refusal/ownership review must show how any proposed context supply could meet these obligations while preserving the currently payload-only public interface boundary or explicitly reviewing a future proposed change. No such change is chosen here. All independent real origins, authority, ownership, clock and completeness evidence remains separately required."
+          }
+        ],
+        "contract_status": "DRAFTED_REQUIREMENTS_ONLY",
+        "exact_parent_obligation": {
+          "id": "CBR-01",
+          "implementation_status": "NOT_IMPLEMENTED",
+          "new_finding_ids": [
+            "V2D-04"
+          ],
+          "proof_status": "NOT_PROVEN",
+          "required_future_data_only_contract": "State the information a future context supply boundary would have to make explicit for all13 roles, including exact source domain, availability, missing/unavailable/multiple/conflicting evidence. Keep C(role) a schema obligation; do not select an argument, outer key, transport, constructor, global/cache, catalog, resolver or lookup.",
+          "runtime_API_format_context_instance_or_error_order_selected": false,
+          "status": "OPEN_REQUIREMENTS_NOT_DRAFTED",
+          "topic": "Context availability and supply domain"
+        },
+        "id": "CBR-01",
+        "implementation_status": "NOT_IMPLEMENTED",
+        "proof_status": "NOT_PROVEN",
+        "runtime_API_format_error_order_or_actual_evidence_selected": false,
+        "topic": "Context availability and supply domain"
+      },
+      {
+        "clauses": [
+          {
+            "id": "CBR-02.a",
+            "requirement": "Apply the role-level context/completeness obligation independently of reference presence and map/list cardinality. Universal per-element checks cannot discharge an absent role context when a list is empty. Empty maps/lists prove neither complete history nor zero work, idle ownership, unconsumed authority, a completed prefix or absence of effects."
+          },
+          {
+            "id": "CBR-02.b",
+            "requirement": "Nullable outer null stays unknown/HOLD. A required reference outer null needs an explicit future refusal, still unimplemented. A nonnull reference with null artifact/context identity stays unknown/HOLD; null/null never becomes known equality. These are requirements, not new runtime states, error codes or receipts."
+          },
+          {
+            "id": "CBR-02.c",
+            "requirement": "Retain missing and contradictory evidence and every historical failed/partial/pending/consumed outcome. Absence, unknown context, cardinality zero and absent receipts never reset history, erase prior effects, authorize a retry, or supply permission. No populated context/reference examples, membership, cases or oracles are created."
+          }
+        ],
+        "contract_status": "DRAFTED_REQUIREMENTS_ONLY",
+        "exact_parent_obligation": {
+          "id": "CBR-02",
+          "implementation_status": "NOT_IMPLEMENTED",
+          "new_finding_ids": [
+            "V2D-05"
+          ],
+          "proof_status": "NOT_PROVEN",
+          "required_future_data_only_contract": "Require role-level context/completeness obligations independently of list/member cardinality and reference presence. Empty lists/maps, nullable null, null identity or absent context cannot establish complete history, known equality, zero work or permission; ambiguity cannot choose first/last/newest.",
+          "runtime_API_format_context_instance_or_error_order_selected": false,
+          "status": "OPEN_REQUIREMENTS_NOT_DRAFTED",
+          "topic": "Cardinality-independent uncertainty"
+        },
+        "id": "CBR-02",
+        "implementation_status": "NOT_IMPLEMENTED",
+        "proof_status": "NOT_PROVEN",
+        "runtime_API_format_error_order_or_actual_evidence_selected": false,
+        "topic": "Cardinality-independent uncertainty"
+      },
+      {
+        "clauses": [
+          {
+            "id": "CBR-03.a",
+            "requirement": "Any future implementation must preserve the existing strict outer-field refusals and their source order, including later permission/authority/admission/type guards after unsupported fields. Missing-context HOLD must not silently return early and mask those guards. An accumulated uncertainty obligation is a logical requirement, not an adopted executable phase sequence."
+          },
+          {
+            "id": "CBR-03.b",
+            "requirement": "Review the first-effect, primary-error and error-ownership boundaries of any proposed future context activity before adoption. Preserve already occurred reads/hash/copy/claim/clock/durability/publication/cleanup effects and primary errors; a missing receipt cannot erase effects. No new context error priority, error identifier, runtime transition, predicate or receipt is selected here."
+          },
+          {
+            "id": "CBR-03.c",
+            "requirement": "Keep original within-process source order and causal message joins separate from global cross-process epoch arithmetic. Unknown ownership/held-handle/death/status/closure evidence remains insufficient for handoff/final/collection. This contract does not instrument execution, rerun a field trace or prove full original refusal/domain/inverse/ownership behavior."
+          }
+        ],
+        "contract_status": "DRAFTED_REQUIREMENTS_ONLY",
+        "exact_parent_obligation": {
+          "id": "CBR-03",
+          "implementation_status": "NOT_IMPLEMENTED",
+          "new_finding_ids": [
+            "V2D-06"
+          ],
+          "proof_status": "NOT_PROVEN",
+          "required_future_data_only_contract": "Describe separate requirements for accumulating uncertainty while preserving current ordered strict refusals, primary errors, already occurred effects and local/source/process causal order. Do not select runtime error identifiers, transition logic, receipts, predicates, case membership, oracles or an executable preflight sequence.",
+          "runtime_API_format_context_instance_or_error_order_selected": false,
+          "status": "OPEN_REQUIREMENTS_NOT_DRAFTED",
+          "topic": "HOLD, refusal and first-effect ownership"
+        },
+        "id": "CBR-03",
+        "implementation_status": "NOT_IMPLEMENTED",
+        "proof_status": "NOT_PROVEN",
+        "runtime_API_format_error_order_or_actual_evidence_selected": false,
+        "topic": "HOLD, refusal and first-effect ownership"
+      },
+      {
+        "clauses": [
+          {
+            "id": "CBR-04.a",
+            "requirement": "Account every proposed context source byte, acquisition/read/hash/copy/validation/decoding step, retained object, failure record and cleanup/lifetime obligation under all original resource/clock/ownership constraints, including work outside the profile tree. No free external context, overhead subtraction, zero-cost default, extra window, truncation, sorting/deduplication or cap relaxation."
+          },
+          {
+            "id": "CBR-04.b",
+            "requirement": "Separate proposed encoded-byte/count/string/extent limits from generic signed64 integer domain and logical node counts. Keep all original raw/numeric/nesting/width/tree/time/memory/clock limits conjunctive. The seven inherited node expressions are necessary only; no raw-byte, decoder peak, heap/RSS, allocator, wall-time or complete-unit fit is proven. Actual39 context/bounds/order definitions remain unsupplied."
+          },
+          {
+            "id": "CBR-04.c",
+            "requirement": "A later complete source/error/lifetime/ownership/resource review must account for caller, traceback, parser and allocator retention, success and failure paths and fresh replay/recovery. Current finally assignments release two local references only. No secure erasure, privacy/security, physical cap enforcement, current target quiescence or actual deployed build/ABI/backend provenance is established."
+          }
+        ],
+        "contract_status": "DRAFTED_REQUIREMENTS_ONLY",
+        "exact_parent_obligation": {
+          "id": "CBR-04",
+          "implementation_status": "NOT_IMPLEMENTED",
+          "new_finding_ids": [
+            "V2D-03",
+            "V2D-07"
+          ],
+          "proof_status": "NOT_PROVEN",
+          "required_future_data_only_contract": "Require any later context acquisition/validation/hash/copy/read/error/lifetime work to be accounted under every original byte/count/time/memory/clock cap and ownership rule. In-record node formulae are insufficient; no overhead subtraction, assumed free external work, hidden I/O or cap changes. Actual39 role definitions/bounds/order slots remain open.",
+          "runtime_API_format_context_instance_or_error_order_selected": false,
+          "status": "OPEN_REQUIREMENTS_NOT_DRAFTED",
+          "topic": "Complete context resource and lifetime accounting"
+        },
+        "id": "CBR-04",
+        "implementation_status": "NOT_IMPLEMENTED",
+        "proof_status": "NOT_PROVEN",
+        "runtime_API_format_error_order_or_actual_evidence_selected": false,
+        "topic": "Complete context resource and lifetime accounting"
+      }
+    ],
+    "requirements_are_not_runtime_schema_enum_code_or_test_oracles": true
+  },
+  "contract_count": 4,
+  "contract_status": "DRAFTED_REQUIREMENTS_ONLY_NOT_IMPLEMENTED_NOT_PROVEN",
+  "decision": "FOUR_CONTEXT_CONTRACTS_DRAFTED_ONLY_REAL_HOLD",
+  "execution_binding": null,
+  "formats_adopted": 0,
+  "frozen_definitions": 5,
+  "independent_real_evidence_groups_open": 8,
+  "kind": "LOCAL-DOCUMENTARY-CONTEXT-REQUIREMENTS-v1",
+  "maximum_new_real_attempts": 0,
+  "new_case_plan_oracle_test_prototype_benchmark_or_candidate_calls": 0,
+  "new_executed_fixture_entries": 0,
+  "next_separate_local_step": {
+    "budget_gate_opened": false,
+    "candidate_authoring_or_execution_authorized_by_this_next_record": false,
+    "execution_binding": null,
+    "kind": "NEXT-separate-LOCAL-documentary-source-draft-plan-and-request-v1",
+    "maximum_nested_declared_field_positions": 17,
+    "maximum_new_candidate_modules_proposed": 1,
+    "maximum_new_real_attempts": 0,
+    "new_basis": "CONTEXT-BOUNDARY-CONTRACT-v1.json",
+    "new_basis_sha256": "155d16636cc93958137567e68747af1e2a32415ce4cc9f762c7cfb7cd3189801",
+    "open_context_slots": 39,
+    "operational_format_context_supply_resolver_binding_gate_target_or_real_approval_authorized": false,
+    "original_roles": 13,
+    "proposed_source_byte_ceiling": 65536,
+    "research_admitted": false,
+    "scope": "Prepare and source-review a concrete LOCAL-only proposal and fresh approval request for one new UNEXECUTED standalone documentary validator draft outside the runtime/upload graph. Proposed draft would keep a payload-only entry, add the17 nested v2 field checks/direct-list and required-null structure rules, retain all original strict guards, and treat every unsupplied role context as unknown/HOLD independently of cardinality. No actual context supply API/catalog/resolver or identity/member/bound/order instance is proposed. Draft plan/review/request only now; DO NOT author/import/compile for execution/call candidate source before separate explicit source-draft approval. Later validation also requires a separate frozen plan and fresh approval.",
+    "training_admitted": false
+  },
+  "old_cohorts_or_reviewers_repeated": false,
+  "prior_case_evidence_bytes_unchanged": 657504,
+  "raw_stage": "runs/pretrained/diagnostic/pgd-documentary-context-requirements-v1-20261127",
+  "requirement_role_joins": 52,
+  "research_admitted": false,
+  "role_mappings": 13,
+  "role_slot_coverage": [
+    {
+      "actual_context_identity_supplied": false,
+      "exact_parent_role_binding": {
+        "actual_context_identity_supplied": false,
+        "context_symbol": "C(P02.reviewed_source_hashes)",
+        "context_symbol_is_not_a_lookup_or_actual_context": true,
+        "descriptor": "closed-name-to-hash-map",
+        "enclosing_field": "reviewed_source_hashes",
+        "enclosing_record_kind": "REQUIREMENTS-ONLY/P02",
+        "expected_enclosing_role_id": "P02.reviewed_source_hashes",
+        "family": "F01",
+        "parent_field_requirement": "Exact full source/member namespace; unknown or missing entries do not default",
+        "parent_requirements": [
+          "DRR-01",
+          "DRR-02",
+          "DRR-03",
+          "DRR-13",
+          "DRR-14",
+          "DRR-15",
+          "DRR-16",
+          "DRR-17",
+          "DRR-18",
+          "DRR-19",
+          "DRR-20"
+        ],
+        "position": "EMBEDDED_VALUE_ONLY_NOT_STANDALONE",
+        "proposal_schema": "DFP2-F01",
+        "qualification": "HOLD_CONTEXT_AND_FUTURE_SOURCE_REVIEW_REQUIRED",
+        "role_id": "P02.reviewed_source_hashes",
+        "source_field_ordinal": 1,
+        "unresolved_slots": [
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P02.reviewed_source_hashes::CONTEXT",
+            "needed_definition": "Complete separately declared source-member namespace; no current/historical/context mixing.",
+            "status": "UNRESOLVED",
+            "topic": "immutable namespace or relation vocabulary and completeness context"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P02.reviewed_source_hashes::BOUNDS",
+            "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+            "status": "UNRESOLVED",
+            "topic": "concrete encoded name/string/count/byte/extent limits"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P02.reviewed_source_hashes::ORDER",
+            "needed_definition": "Exact allowed member set and spelling policy; JSON key uniqueness is insufficient for full membership.",
+            "status": "UNRESOLVED",
+            "topic": "order/multiplicity/alias/ambiguity policy"
+          }
+        ]
+      },
+      "existing_unresolved_slots": [
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P02.reviewed_source_hashes::CONTEXT",
+          "needed_definition": "Complete separately declared source-member namespace; no current/historical/context mixing.",
+          "status": "UNRESOLVED",
+          "topic": "immutable namespace or relation vocabulary and completeness context"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P02.reviewed_source_hashes::BOUNDS",
+          "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+          "status": "UNRESOLVED",
+          "topic": "concrete encoded name/string/count/byte/extent limits"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P02.reviewed_source_hashes::ORDER",
+          "needed_definition": "Exact allowed member set and spelling policy; JSON key uniqueness is insufficient for full membership.",
+          "status": "UNRESOLVED",
+          "topic": "order/multiplicity/alias/ambiguity policy"
+        }
+      ],
+      "family": "F01",
+      "new_role_context_bounds_order_or_membership_definitions_supplied": false,
+      "requirements": [
+        "CBR-01",
+        "CBR-02",
+        "CBR-03",
+        "CBR-04"
+      ],
+      "role_id": "P02.reviewed_source_hashes",
+      "role_level_context_obligation_independent_of_cardinality": true,
+      "source_field_ordinal": 1
+    },
+    {
+      "actual_context_identity_supplied": false,
+      "exact_parent_role_binding": {
+        "actual_context_identity_supplied": false,
+        "context_symbol": "C(P02.inverse_domain_refusal_ownership_evidence)",
+        "context_symbol_is_not_a_lookup_or_actual_context": true,
+        "descriptor": "bounded-evidence-reference-list",
+        "enclosing_field": "inverse_domain_refusal_ownership_evidence",
+        "enclosing_record_kind": "REQUIREMENTS-ONLY/P02",
+        "expected_enclosing_role_id": "P02.inverse_domain_refusal_ownership_evidence",
+        "family": "F02",
+        "parent_field_requirement": "Separate independent reviews; a source_reviewed boolean is insufficient",
+        "parent_requirements": [
+          "DRR-04",
+          "DRR-05",
+          "DRR-06",
+          "DRR-13",
+          "DRR-14",
+          "DRR-15",
+          "DRR-16",
+          "DRR-17",
+          "DRR-18",
+          "DRR-19",
+          "DRR-20"
+        ],
+        "position": "EMBEDDED_VALUE_ONLY_NOT_STANDALONE",
+        "proposal_schema": "DFP2-F02",
+        "qualification": "HOLD_CONTEXT_AND_FUTURE_SOURCE_REVIEW_REQUIRED",
+        "role_id": "P02.inverse_domain_refusal_ownership_evidence",
+        "source_field_ordinal": 3,
+        "unresolved_slots": [
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P02.inverse_domain_refusal_ownership_evidence::CONTEXT",
+            "needed_definition": "Bound all separately required independent review dimensions and references; unknown bound stays unresolved.",
+            "status": "UNRESOLVED",
+            "topic": "immutable namespace or relation vocabulary and completeness context"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P02.inverse_domain_refusal_ownership_evidence::BOUNDS",
+            "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+            "status": "UNRESOLVED",
+            "topic": "concrete encoded name/string/count/byte/extent limits"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P02.inverse_domain_refusal_ownership_evidence::ORDER",
+            "needed_definition": "Keep distinct inverse/domain/refusal/ownership review roles and declared evidence order; do not merge reviews.",
+            "status": "UNRESOLVED",
+            "topic": "order/multiplicity/alias/ambiguity policy"
+          }
+        ]
+      },
+      "existing_unresolved_slots": [
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P02.inverse_domain_refusal_ownership_evidence::CONTEXT",
+          "needed_definition": "Bound all separately required independent review dimensions and references; unknown bound stays unresolved.",
+          "status": "UNRESOLVED",
+          "topic": "immutable namespace or relation vocabulary and completeness context"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P02.inverse_domain_refusal_ownership_evidence::BOUNDS",
+          "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+          "status": "UNRESOLVED",
+          "topic": "concrete encoded name/string/count/byte/extent limits"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P02.inverse_domain_refusal_ownership_evidence::ORDER",
+          "needed_definition": "Keep distinct inverse/domain/refusal/ownership review roles and declared evidence order; do not merge reviews.",
+          "status": "UNRESOLVED",
+          "topic": "order/multiplicity/alias/ambiguity policy"
+        }
+      ],
+      "family": "F02",
+      "new_role_context_bounds_order_or_membership_definitions_supplied": false,
+      "requirements": [
+        "CBR-01",
+        "CBR-02",
+        "CBR-03",
+        "CBR-04"
+      ],
+      "role_id": "P02.inverse_domain_refusal_ownership_evidence",
+      "role_level_context_obligation_independent_of_cardinality": true,
+      "source_field_ordinal": 3
+    },
+    {
+      "actual_context_identity_supplied": false,
+      "exact_parent_role_binding": {
+        "actual_context_identity_supplied": false,
+        "context_symbol": "C(P03.user_basis_reference)",
+        "context_symbol_is_not_a_lookup_or_actual_context": true,
+        "descriptor": "bounded-documentary-reference-or-null",
+        "enclosing_field": "user_basis_reference",
+        "enclosing_record_kind": "REQUIREMENTS-ONLY/P03",
+        "expected_enclosing_role_id": "P03.user_basis_reference",
+        "family": "F03",
+        "parent_field_requirement": "Fresh explicit user decision must match separately reviewed exact action/source/control/caps if ever sought later",
+        "parent_requirements": [
+          "DRR-07",
+          "DRR-08",
+          "DRR-09",
+          "DRR-13",
+          "DRR-14",
+          "DRR-15",
+          "DRR-16",
+          "DRR-17",
+          "DRR-18",
+          "DRR-19",
+          "DRR-20"
+        ],
+        "position": "EMBEDDED_VALUE_ONLY_NOT_STANDALONE",
+        "proposal_schema": "DFP2-F03",
+        "qualification": "HOLD_CONTEXT_AND_FUTURE_SOURCE_REVIEW_REQUIRED",
+        "role_id": "P03.user_basis_reference",
+        "source_field_ordinal": 1,
+        "unresolved_slots": [
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P03.user_basis_reference::CONTEXT",
+            "needed_definition": "One documentary reference or explicit null; a unique target and its declared extent still need definition.",
+            "status": "UNRESOLVED",
+            "topic": "immutable namespace or relation vocabulary and completeness context"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P03.user_basis_reference::BOUNDS",
+            "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+            "status": "UNRESOLVED",
+            "topic": "concrete encoded name/string/count/byte/extent limits"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P03.user_basis_reference::ORDER",
+            "needed_definition": "Ambiguous user basis cannot be resolved by choosing one; old approvals never become fresh permission.",
+            "status": "UNRESOLVED",
+            "topic": "order/multiplicity/alias/ambiguity policy"
+          }
+        ]
+      },
+      "existing_unresolved_slots": [
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P03.user_basis_reference::CONTEXT",
+          "needed_definition": "One documentary reference or explicit null; a unique target and its declared extent still need definition.",
+          "status": "UNRESOLVED",
+          "topic": "immutable namespace or relation vocabulary and completeness context"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P03.user_basis_reference::BOUNDS",
+          "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+          "status": "UNRESOLVED",
+          "topic": "concrete encoded name/string/count/byte/extent limits"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P03.user_basis_reference::ORDER",
+          "needed_definition": "Ambiguous user basis cannot be resolved by choosing one; old approvals never become fresh permission.",
+          "status": "UNRESOLVED",
+          "topic": "order/multiplicity/alias/ambiguity policy"
+        }
+      ],
+      "family": "F03",
+      "new_role_context_bounds_order_or_membership_definitions_supplied": false,
+      "requirements": [
+        "CBR-01",
+        "CBR-02",
+        "CBR-03",
+        "CBR-04"
+      ],
+      "role_id": "P03.user_basis_reference",
+      "role_level_context_obligation_independent_of_cardinality": true,
+      "source_field_ordinal": 1
+    },
+    {
+      "actual_context_identity_supplied": false,
+      "exact_parent_role_binding": {
+        "actual_context_identity_supplied": false,
+        "context_symbol": "C(P03.source_control_identity)",
+        "context_symbol_is_not_a_lookup_or_actual_context": true,
+        "descriptor": "closed-name-to-hash-map",
+        "enclosing_field": "source_control_identity",
+        "enclosing_record_kind": "REQUIREMENTS-ONLY/P03",
+        "expected_enclosing_role_id": "P03.source_control_identity",
+        "family": "F01",
+        "parent_field_requirement": "Immutable separately reviewed identities; public versions or FAKE labels cannot substitute",
+        "parent_requirements": [
+          "DRR-01",
+          "DRR-02",
+          "DRR-03",
+          "DRR-13",
+          "DRR-14",
+          "DRR-15",
+          "DRR-16",
+          "DRR-17",
+          "DRR-18",
+          "DRR-19",
+          "DRR-20"
+        ],
+        "position": "EMBEDDED_VALUE_ONLY_NOT_STANDALONE",
+        "proposal_schema": "DFP2-F01",
+        "qualification": "HOLD_CONTEXT_AND_FUTURE_SOURCE_REVIEW_REQUIRED",
+        "role_id": "P03.source_control_identity",
+        "source_field_ordinal": 2,
+        "unresolved_slots": [
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P03.source_control_identity::CONTEXT",
+            "needed_definition": "Complete independently reviewed source/control namespace for the exact prospective scope; no selected subset.",
+            "status": "UNRESOLVED",
+            "topic": "immutable namespace or relation vocabulary and completeness context"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P03.source_control_identity::BOUNDS",
+            "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+            "status": "UNRESOLVED",
+            "topic": "concrete encoded name/string/count/byte/extent limits"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P03.source_control_identity::ORDER",
+            "needed_definition": "Preserve exact context/member identity; source equality does not establish consumed-state or physical ownership.",
+            "status": "UNRESOLVED",
+            "topic": "order/multiplicity/alias/ambiguity policy"
+          }
+        ]
+      },
+      "existing_unresolved_slots": [
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P03.source_control_identity::CONTEXT",
+          "needed_definition": "Complete independently reviewed source/control namespace for the exact prospective scope; no selected subset.",
+          "status": "UNRESOLVED",
+          "topic": "immutable namespace or relation vocabulary and completeness context"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P03.source_control_identity::BOUNDS",
+          "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+          "status": "UNRESOLVED",
+          "topic": "concrete encoded name/string/count/byte/extent limits"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P03.source_control_identity::ORDER",
+          "needed_definition": "Preserve exact context/member identity; source equality does not establish consumed-state or physical ownership.",
+          "status": "UNRESOLVED",
+          "topic": "order/multiplicity/alias/ambiguity policy"
+        }
+      ],
+      "family": "F01",
+      "new_role_context_bounds_order_or_membership_definitions_supplied": false,
+      "requirements": [
+        "CBR-01",
+        "CBR-02",
+        "CBR-03",
+        "CBR-04"
+      ],
+      "role_id": "P03.source_control_identity",
+      "role_level_context_obligation_independent_of_cardinality": true,
+      "source_field_ordinal": 2
+    },
+    {
+      "actual_context_identity_supplied": false,
+      "exact_parent_role_binding": {
+        "actual_context_identity_supplied": false,
+        "context_symbol": "C(P04.retained_claim_references)",
+        "context_symbol_is_not_a_lookup_or_actual_context": true,
+        "descriptor": "bounded-evidence-reference-list",
+        "enclosing_field": "retained_claim_references",
+        "enclosing_record_kind": "REQUIREMENTS-ONLY/P04",
+        "expected_enclosing_role_id": "P04.retained_claim_references",
+        "family": "F02",
+        "parent_field_requirement": "Every known failed/partial/pending/consumed status retained with its original identity",
+        "parent_requirements": [
+          "DRR-04",
+          "DRR-05",
+          "DRR-06",
+          "DRR-13",
+          "DRR-14",
+          "DRR-15",
+          "DRR-16",
+          "DRR-17",
+          "DRR-18",
+          "DRR-19",
+          "DRR-20"
+        ],
+        "position": "EMBEDDED_VALUE_ONLY_NOT_STANDALONE",
+        "proposal_schema": "DFP2-F02",
+        "qualification": "HOLD_CONTEXT_AND_FUTURE_SOURCE_REVIEW_REQUIRED",
+        "role_id": "P04.retained_claim_references",
+        "source_field_ordinal": 1,
+        "unresolved_slots": [
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P04.retained_claim_references::CONTEXT",
+            "needed_definition": "Declare a bounded authoritative history context without omitting any known failed/partial/pending/consumed record.",
+            "status": "UNRESOLVED",
+            "topic": "immutable namespace or relation vocabulary and completeness context"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P04.retained_claim_references::BOUNDS",
+            "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+            "status": "UNRESOLVED",
+            "topic": "concrete encoded name/string/count/byte/extent limits"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P04.retained_claim_references::ORDER",
+            "needed_definition": "Retain original claim identities/order and conflicting statuses; no deduplication or empty-history inference.",
+            "status": "UNRESOLVED",
+            "topic": "order/multiplicity/alias/ambiguity policy"
+          }
+        ]
+      },
+      "existing_unresolved_slots": [
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P04.retained_claim_references::CONTEXT",
+          "needed_definition": "Declare a bounded authoritative history context without omitting any known failed/partial/pending/consumed record.",
+          "status": "UNRESOLVED",
+          "topic": "immutable namespace or relation vocabulary and completeness context"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P04.retained_claim_references::BOUNDS",
+          "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+          "status": "UNRESOLVED",
+          "topic": "concrete encoded name/string/count/byte/extent limits"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P04.retained_claim_references::ORDER",
+          "needed_definition": "Retain original claim identities/order and conflicting statuses; no deduplication or empty-history inference.",
+          "status": "UNRESOLVED",
+          "topic": "order/multiplicity/alias/ambiguity policy"
+        }
+      ],
+      "family": "F02",
+      "new_role_context_bounds_order_or_membership_definitions_supplied": false,
+      "requirements": [
+        "CBR-01",
+        "CBR-02",
+        "CBR-03",
+        "CBR-04"
+      ],
+      "role_id": "P04.retained_claim_references",
+      "role_level_context_obligation_independent_of_cardinality": true,
+      "source_field_ordinal": 1
+    },
+    {
+      "actual_context_identity_supplied": false,
+      "exact_parent_role_binding": {
+        "actual_context_identity_supplied": false,
+        "context_symbol": "C(P05.clock_owner_domain_reference)",
+        "context_symbol_is_not_a_lookup_or_actual_context": true,
+        "descriptor": "bounded-documentary-reference-or-null",
+        "enclosing_field": "clock_owner_domain_reference",
+        "enclosing_record_kind": "REQUIREMENTS-ONLY/P05",
+        "expected_enclosing_role_id": "P05.clock_owner_domain_reference",
+        "family": "F03",
+        "parent_field_requirement": "Actual process owner/domain evidence required later; an integer label is not a physical clock",
+        "parent_requirements": [
+          "DRR-07",
+          "DRR-08",
+          "DRR-09",
+          "DRR-13",
+          "DRR-14",
+          "DRR-15",
+          "DRR-16",
+          "DRR-17",
+          "DRR-18",
+          "DRR-19",
+          "DRR-20"
+        ],
+        "position": "EMBEDDED_VALUE_ONLY_NOT_STANDALONE",
+        "proposal_schema": "DFP2-F03",
+        "qualification": "HOLD_CONTEXT_AND_FUTURE_SOURCE_REVIEW_REQUIRED",
+        "role_id": "P05.clock_owner_domain_reference",
+        "source_field_ordinal": 1,
+        "unresolved_slots": [
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P05.clock_owner_domain_reference::CONTEXT",
+            "needed_definition": "One documentary owner/domain reference or null; physical owner evidence remains separate.",
+            "status": "UNRESOLVED",
+            "topic": "immutable namespace or relation vocabulary and completeness context"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P05.clock_owner_domain_reference::BOUNDS",
+            "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+            "status": "UNRESOLVED",
+            "topic": "concrete encoded name/string/count/byte/extent limits"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P05.clock_owner_domain_reference::ORDER",
+            "needed_definition": "Keep original process owner/domain and uncertainty; no epoch replacement or actual clock read.",
+            "status": "UNRESOLVED",
+            "topic": "order/multiplicity/alias/ambiguity policy"
+          }
+        ]
+      },
+      "existing_unresolved_slots": [
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P05.clock_owner_domain_reference::CONTEXT",
+          "needed_definition": "One documentary owner/domain reference or null; physical owner evidence remains separate.",
+          "status": "UNRESOLVED",
+          "topic": "immutable namespace or relation vocabulary and completeness context"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P05.clock_owner_domain_reference::BOUNDS",
+          "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+          "status": "UNRESOLVED",
+          "topic": "concrete encoded name/string/count/byte/extent limits"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P05.clock_owner_domain_reference::ORDER",
+          "needed_definition": "Keep original process owner/domain and uncertainty; no epoch replacement or actual clock read.",
+          "status": "UNRESOLVED",
+          "topic": "order/multiplicity/alias/ambiguity policy"
+        }
+      ],
+      "family": "F03",
+      "new_role_context_bounds_order_or_membership_definitions_supplied": false,
+      "requirements": [
+        "CBR-01",
+        "CBR-02",
+        "CBR-03",
+        "CBR-04"
+      ],
+      "role_id": "P05.clock_owner_domain_reference",
+      "role_level_context_obligation_independent_of_cardinality": true,
+      "source_field_ordinal": 1
+    },
+    {
+      "actual_context_identity_supplied": false,
+      "exact_parent_role_binding": {
+        "actual_context_identity_supplied": false,
+        "context_symbol": "C(P05.origin_and_deadline_references)",
+        "context_symbol_is_not_a_lookup_or_actual_context": true,
+        "descriptor": "bounded-evidence-reference-list",
+        "enclosing_field": "origin_and_deadline_references",
+        "enclosing_record_kind": "REQUIREMENTS-ONLY/P05",
+        "expected_enclosing_role_id": "P05.origin_and_deadline_references",
+        "family": "F02",
+        "parent_field_requirement": "Existing login-inclusive setup/role/objective/work/final/collection/connection boundaries and causal receiver mapping",
+        "parent_requirements": [
+          "DRR-04",
+          "DRR-05",
+          "DRR-06",
+          "DRR-13",
+          "DRR-14",
+          "DRR-15",
+          "DRR-16",
+          "DRR-17",
+          "DRR-18",
+          "DRR-19",
+          "DRR-20"
+        ],
+        "position": "EMBEDDED_VALUE_ONLY_NOT_STANDALONE",
+        "proposal_schema": "DFP2-F02",
+        "qualification": "HOLD_CONTEXT_AND_FUTURE_SOURCE_REVIEW_REQUIRED",
+        "role_id": "P05.origin_and_deadline_references",
+        "source_field_ordinal": 2,
+        "unresolved_slots": [
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P05.origin_and_deadline_references::CONTEXT",
+            "needed_definition": "Cover all applicable original login/setup/proof/objective/unit/work/final/collection/connection boundaries.",
+            "status": "UNRESOLVED",
+            "topic": "immutable namespace or relation vocabulary and completeness context"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P05.origin_and_deadline_references::BOUNDS",
+            "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+            "status": "UNRESOLVED",
+            "topic": "concrete encoded name/string/count/byte/extent limits"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P05.origin_and_deadline_references::ORDER",
+            "needed_definition": "Within-process order plus causal receiver bounds only; no total cross-process sorting or moved endpoints.",
+            "status": "UNRESOLVED",
+            "topic": "order/multiplicity/alias/ambiguity policy"
+          }
+        ]
+      },
+      "existing_unresolved_slots": [
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P05.origin_and_deadline_references::CONTEXT",
+          "needed_definition": "Cover all applicable original login/setup/proof/objective/unit/work/final/collection/connection boundaries.",
+          "status": "UNRESOLVED",
+          "topic": "immutable namespace or relation vocabulary and completeness context"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P05.origin_and_deadline_references::BOUNDS",
+          "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+          "status": "UNRESOLVED",
+          "topic": "concrete encoded name/string/count/byte/extent limits"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P05.origin_and_deadline_references::ORDER",
+          "needed_definition": "Within-process order plus causal receiver bounds only; no total cross-process sorting or moved endpoints.",
+          "status": "UNRESOLVED",
+          "topic": "order/multiplicity/alias/ambiguity policy"
+        }
+      ],
+      "family": "F02",
+      "new_role_context_bounds_order_or_membership_definitions_supplied": false,
+      "requirements": [
+        "CBR-01",
+        "CBR-02",
+        "CBR-03",
+        "CBR-04"
+      ],
+      "role_id": "P05.origin_and_deadline_references",
+      "role_level_context_obligation_independent_of_cardinality": true,
+      "source_field_ordinal": 2
+    },
+    {
+      "actual_context_identity_supplied": false,
+      "exact_parent_role_binding": {
+        "actual_context_identity_supplied": false,
+        "context_symbol": "C(P06.identity_references)",
+        "context_symbol_is_not_a_lookup_or_actual_context": true,
+        "descriptor": "bounded-evidence-reference-list",
+        "enclosing_field": "identity_references",
+        "enclosing_record_kind": "REQUIREMENTS-ONLY/P06",
+        "expected_enclosing_role_id": "P06.identity_references",
+        "family": "F02",
+        "parent_field_requirement": "PID/birth/parent/group/session/root/parent identities under original bounds; metadata is not a held handle",
+        "parent_requirements": [
+          "DRR-04",
+          "DRR-05",
+          "DRR-06",
+          "DRR-13",
+          "DRR-14",
+          "DRR-15",
+          "DRR-16",
+          "DRR-17",
+          "DRR-18",
+          "DRR-19",
+          "DRR-20"
+        ],
+        "position": "EMBEDDED_VALUE_ONLY_NOT_STANDALONE",
+        "proposal_schema": "DFP2-F02",
+        "qualification": "HOLD_CONTEXT_AND_FUTURE_SOURCE_REVIEW_REQUIRED",
+        "role_id": "P06.identity_references",
+        "source_field_ordinal": 1,
+        "unresolved_slots": [
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P06.identity_references::CONTEXT",
+            "needed_definition": "Declare every required original PID/birth/parent/group/session/root identity in the selected owned role context.",
+            "status": "UNRESOLVED",
+            "topic": "immutable namespace or relation vocabulary and completeness context"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P06.identity_references::BOUNDS",
+            "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+            "status": "UNRESOLVED",
+            "topic": "concrete encoded name/string/count/byte/extent limits"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P06.identity_references::ORDER",
+            "needed_definition": "Preserve original serial role associations; PID reuse is not identity equality, and no tree sample proves complete ownership.",
+            "status": "UNRESOLVED",
+            "topic": "order/multiplicity/alias/ambiguity policy"
+          }
+        ]
+      },
+      "existing_unresolved_slots": [
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P06.identity_references::CONTEXT",
+          "needed_definition": "Declare every required original PID/birth/parent/group/session/root identity in the selected owned role context.",
+          "status": "UNRESOLVED",
+          "topic": "immutable namespace or relation vocabulary and completeness context"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P06.identity_references::BOUNDS",
+          "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+          "status": "UNRESOLVED",
+          "topic": "concrete encoded name/string/count/byte/extent limits"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P06.identity_references::ORDER",
+          "needed_definition": "Preserve original serial role associations; PID reuse is not identity equality, and no tree sample proves complete ownership.",
+          "status": "UNRESOLVED",
+          "topic": "order/multiplicity/alias/ambiguity policy"
+        }
+      ],
+      "family": "F02",
+      "new_role_context_bounds_order_or_membership_definitions_supplied": false,
+      "requirements": [
+        "CBR-01",
+        "CBR-02",
+        "CBR-03",
+        "CBR-04"
+      ],
+      "role_id": "P06.identity_references",
+      "role_level_context_obligation_independent_of_cardinality": true,
+      "source_field_ordinal": 1
+    },
+    {
+      "actual_context_identity_supplied": false,
+      "exact_parent_role_binding": {
+        "actual_context_identity_supplied": false,
+        "context_symbol": "C(P06.held_handle_death_status_closure_references)",
+        "context_symbol_is_not_a_lookup_or_actual_context": true,
+        "descriptor": "bounded-evidence-reference-list",
+        "enclosing_field": "held_handle_death_status_closure_references",
+        "enclosing_record_kind": "REQUIREMENTS-ONLY/P06",
+        "expected_enclosing_role_id": "P06.held_handle_death_status_closure_references",
+        "family": "F02",
+        "parent_field_requirement": "Preserve distinct held/death/terminal-status/closure facts and uncertainty",
+        "parent_requirements": [
+          "DRR-04",
+          "DRR-05",
+          "DRR-06",
+          "DRR-13",
+          "DRR-14",
+          "DRR-15",
+          "DRR-16",
+          "DRR-17",
+          "DRR-18",
+          "DRR-19",
+          "DRR-20"
+        ],
+        "position": "EMBEDDED_VALUE_ONLY_NOT_STANDALONE",
+        "proposal_schema": "DFP2-F02",
+        "qualification": "HOLD_CONTEXT_AND_FUTURE_SOURCE_REVIEW_REQUIRED",
+        "role_id": "P06.held_handle_death_status_closure_references",
+        "source_field_ordinal": 2,
+        "unresolved_slots": [
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P06.held_handle_death_status_closure_references::CONTEXT",
+            "needed_definition": "Keep distinct required held/death/terminal-status/closure facts and uncertainty for each original identity.",
+            "status": "UNRESOLVED",
+            "topic": "immutable namespace or relation vocabulary and completeness context"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P06.held_handle_death_status_closure_references::BOUNDS",
+            "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+            "status": "UNRESOLVED",
+            "topic": "concrete encoded name/string/count/byte/extent limits"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P06.held_handle_death_status_closure_references::ORDER",
+            "needed_definition": "Do not merge closure with confirmed death, omit held handles or infer idle from missing observations.",
+            "status": "UNRESOLVED",
+            "topic": "order/multiplicity/alias/ambiguity policy"
+          }
+        ]
+      },
+      "existing_unresolved_slots": [
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P06.held_handle_death_status_closure_references::CONTEXT",
+          "needed_definition": "Keep distinct required held/death/terminal-status/closure facts and uncertainty for each original identity.",
+          "status": "UNRESOLVED",
+          "topic": "immutable namespace or relation vocabulary and completeness context"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P06.held_handle_death_status_closure_references::BOUNDS",
+          "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+          "status": "UNRESOLVED",
+          "topic": "concrete encoded name/string/count/byte/extent limits"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P06.held_handle_death_status_closure_references::ORDER",
+          "needed_definition": "Do not merge closure with confirmed death, omit held handles or infer idle from missing observations.",
+          "status": "UNRESOLVED",
+          "topic": "order/multiplicity/alias/ambiguity policy"
+        }
+      ],
+      "family": "F02",
+      "new_role_context_bounds_order_or_membership_definitions_supplied": false,
+      "requirements": [
+        "CBR-01",
+        "CBR-02",
+        "CBR-03",
+        "CBR-04"
+      ],
+      "role_id": "P06.held_handle_death_status_closure_references",
+      "role_level_context_obligation_independent_of_cardinality": true,
+      "source_field_ordinal": 2
+    },
+    {
+      "actual_context_identity_supplied": false,
+      "exact_parent_role_binding": {
+        "actual_context_identity_supplied": false,
+        "context_symbol": "C(P07.workload_source_reference)",
+        "context_symbol_is_not_a_lookup_or_actual_context": true,
+        "descriptor": "bounded-documentary-reference",
+        "enclosing_field": "workload_source_reference",
+        "enclosing_record_kind": "REQUIREMENTS-ONLY/P07",
+        "expected_enclosing_role_id": "P07.workload_source_reference",
+        "family": "F04",
+        "parent_field_requirement": "Unchanged complete guarded proof/original/candidate/fresh replay; no old proof or shortened math",
+        "parent_requirements": [
+          "DRR-10",
+          "DRR-11",
+          "DRR-12",
+          "DRR-13",
+          "DRR-14",
+          "DRR-15",
+          "DRR-16",
+          "DRR-17",
+          "DRR-18",
+          "DRR-19",
+          "DRR-20"
+        ],
+        "position": "EMBEDDED_VALUE_ONLY_NOT_STANDALONE",
+        "proposal_schema": "DFP2-F04",
+        "qualification": "HOLD_CONTEXT_AND_FUTURE_SOURCE_REVIEW_REQUIRED",
+        "role_id": "P07.workload_source_reference",
+        "source_field_ordinal": 1,
+        "unresolved_slots": [
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P07.workload_source_reference::CONTEXT",
+            "needed_definition": "One required non-null documentary reference whose declared scope covers the full unchanged guarded role workload.",
+            "status": "UNRESOLVED",
+            "topic": "immutable namespace or relation vocabulary and completeness context"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P07.workload_source_reference::BOUNDS",
+            "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+            "status": "UNRESOLVED",
+            "topic": "concrete encoded name/string/count/byte/extent limits"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P07.workload_source_reference::ORDER",
+            "needed_definition": "Keep fresh proof/original/candidate/fresh replay distinct and complete; old proof cannot substitute.",
+            "status": "UNRESOLVED",
+            "topic": "order/multiplicity/alias/ambiguity policy"
+          }
+        ]
+      },
+      "existing_unresolved_slots": [
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P07.workload_source_reference::CONTEXT",
+          "needed_definition": "One required non-null documentary reference whose declared scope covers the full unchanged guarded role workload.",
+          "status": "UNRESOLVED",
+          "topic": "immutable namespace or relation vocabulary and completeness context"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P07.workload_source_reference::BOUNDS",
+          "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+          "status": "UNRESOLVED",
+          "topic": "concrete encoded name/string/count/byte/extent limits"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P07.workload_source_reference::ORDER",
+          "needed_definition": "Keep fresh proof/original/candidate/fresh replay distinct and complete; old proof cannot substitute.",
+          "status": "UNRESOLVED",
+          "topic": "order/multiplicity/alias/ambiguity policy"
+        }
+      ],
+      "family": "F04",
+      "new_role_context_bounds_order_or_membership_definitions_supplied": false,
+      "requirements": [
+        "CBR-01",
+        "CBR-02",
+        "CBR-03",
+        "CBR-04"
+      ],
+      "role_id": "P07.workload_source_reference",
+      "role_level_context_obligation_independent_of_cardinality": true,
+      "source_field_ordinal": 1
+    },
+    {
+      "actual_context_identity_supplied": false,
+      "exact_parent_role_binding": {
+        "actual_context_identity_supplied": false,
+        "context_symbol": "C(P07.fixed_caps_reference)",
+        "context_symbol_is_not_a_lookup_or_actual_context": true,
+        "descriptor": "bounded-documentary-reference",
+        "enclosing_field": "fixed_caps_reference",
+        "enclosing_record_kind": "REQUIREMENTS-ONLY/P07",
+        "expected_enclosing_role_id": "P07.fixed_caps_reference",
+        "family": "F04",
+        "parent_field_requirement": "All original caps, original deadline cutoffs and financial holds; selected constants are not the full enforcement domain",
+        "parent_requirements": [
+          "DRR-10",
+          "DRR-11",
+          "DRR-12",
+          "DRR-13",
+          "DRR-14",
+          "DRR-15",
+          "DRR-16",
+          "DRR-17",
+          "DRR-18",
+          "DRR-19",
+          "DRR-20"
+        ],
+        "position": "EMBEDDED_VALUE_ONLY_NOT_STANDALONE",
+        "proposal_schema": "DFP2-F04",
+        "qualification": "HOLD_CONTEXT_AND_FUTURE_SOURCE_REVIEW_REQUIRED",
+        "role_id": "P07.fixed_caps_reference",
+        "source_field_ordinal": 2,
+        "unresolved_slots": [
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P07.fixed_caps_reference::CONTEXT",
+            "needed_definition": "One required non-null documentary reference to the complete original cap/refusal domain and financial holds.",
+            "status": "UNRESOLVED",
+            "topic": "immutable namespace or relation vocabulary and completeness context"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P07.fixed_caps_reference::BOUNDS",
+            "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+            "status": "UNRESOLVED",
+            "topic": "concrete encoded name/string/count/byte/extent limits"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P07.fixed_caps_reference::ORDER",
+            "needed_definition": "Selected constants do not define the full domain; preserve every enclosing deadline, resource cap and hold.",
+            "status": "UNRESOLVED",
+            "topic": "order/multiplicity/alias/ambiguity policy"
+          }
+        ]
+      },
+      "existing_unresolved_slots": [
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P07.fixed_caps_reference::CONTEXT",
+          "needed_definition": "One required non-null documentary reference to the complete original cap/refusal domain and financial holds.",
+          "status": "UNRESOLVED",
+          "topic": "immutable namespace or relation vocabulary and completeness context"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P07.fixed_caps_reference::BOUNDS",
+          "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+          "status": "UNRESOLVED",
+          "topic": "concrete encoded name/string/count/byte/extent limits"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P07.fixed_caps_reference::ORDER",
+          "needed_definition": "Selected constants do not define the full domain; preserve every enclosing deadline, resource cap and hold.",
+          "status": "UNRESOLVED",
+          "topic": "order/multiplicity/alias/ambiguity policy"
+        }
+      ],
+      "family": "F04",
+      "new_role_context_bounds_order_or_membership_definitions_supplied": false,
+      "requirements": [
+        "CBR-01",
+        "CBR-02",
+        "CBR-03",
+        "CBR-04"
+      ],
+      "role_id": "P07.fixed_caps_reference",
+      "role_level_context_obligation_independent_of_cardinality": true,
+      "source_field_ordinal": 2
+    },
+    {
+      "actual_context_identity_supplied": false,
+      "exact_parent_role_binding": {
+        "actual_context_identity_supplied": false,
+        "context_symbol": "C(P08.completed_role_prefix_and_receipt_references)",
+        "context_symbol_is_not_a_lookup_or_actual_context": true,
+        "descriptor": "bounded-evidence-reference-list",
+        "enclosing_field": "completed_role_prefix_and_receipt_references",
+        "enclosing_record_kind": "REQUIREMENTS-ONLY/P08",
+        "expected_enclosing_role_id": "P08.completed_role_prefix_and_receipt_references",
+        "family": "F02",
+        "parent_field_requirement": "Original ordered role prefixes and same-root/source/control/clock/owned receipts; missing is not zero or complete",
+        "parent_requirements": [
+          "DRR-04",
+          "DRR-05",
+          "DRR-06",
+          "DRR-13",
+          "DRR-14",
+          "DRR-15",
+          "DRR-16",
+          "DRR-17",
+          "DRR-18",
+          "DRR-19",
+          "DRR-20"
+        ],
+        "position": "EMBEDDED_VALUE_ONLY_NOT_STANDALONE",
+        "proposal_schema": "DFP2-F02",
+        "qualification": "HOLD_CONTEXT_AND_FUTURE_SOURCE_REVIEW_REQUIRED",
+        "role_id": "P08.completed_role_prefix_and_receipt_references",
+        "source_field_ordinal": 2,
+        "unresolved_slots": [
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P08.completed_role_prefix_and_receipt_references::CONTEXT",
+            "needed_definition": "Bound by the exact separately reviewed original role plan and preserve incomplete prefixes as incomplete.",
+            "status": "UNRESOLVED",
+            "topic": "immutable namespace or relation vocabulary and completeness context"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P08.completed_role_prefix_and_receipt_references::BOUNDS",
+            "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+            "status": "UNRESOLVED",
+            "topic": "concrete encoded name/string/count/byte/extent limits"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P08.completed_role_prefix_and_receipt_references::ORDER",
+            "needed_definition": "Exact original role-prefix order and same-root/source/control/clock/ownership receipt joins; no sorting or missing-role completion.",
+            "status": "UNRESOLVED",
+            "topic": "order/multiplicity/alias/ambiguity policy"
+          }
+        ]
+      },
+      "existing_unresolved_slots": [
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P08.completed_role_prefix_and_receipt_references::CONTEXT",
+          "needed_definition": "Bound by the exact separately reviewed original role plan and preserve incomplete prefixes as incomplete.",
+          "status": "UNRESOLVED",
+          "topic": "immutable namespace or relation vocabulary and completeness context"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P08.completed_role_prefix_and_receipt_references::BOUNDS",
+          "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+          "status": "UNRESOLVED",
+          "topic": "concrete encoded name/string/count/byte/extent limits"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P08.completed_role_prefix_and_receipt_references::ORDER",
+          "needed_definition": "Exact original role-prefix order and same-root/source/control/clock/ownership receipt joins; no sorting or missing-role completion.",
+          "status": "UNRESOLVED",
+          "topic": "order/multiplicity/alias/ambiguity policy"
+        }
+      ],
+      "family": "F02",
+      "new_role_context_bounds_order_or_membership_definitions_supplied": false,
+      "requirements": [
+        "CBR-01",
+        "CBR-02",
+        "CBR-03",
+        "CBR-04"
+      ],
+      "role_id": "P08.completed_role_prefix_and_receipt_references",
+      "role_level_context_obligation_independent_of_cardinality": true,
+      "source_field_ordinal": 2
+    },
+    {
+      "actual_context_identity_supplied": false,
+      "exact_parent_role_binding": {
+        "actual_context_identity_supplied": false,
+        "context_symbol": "C(P08.real_work_history_references)",
+        "context_symbol_is_not_a_lookup_or_actual_context": true,
+        "descriptor": "bounded-evidence-reference-list",
+        "enclosing_field": "real_work_history_references",
+        "enclosing_record_kind": "REQUIREMENTS-ONLY/P08",
+        "expected_enclosing_role_id": "P08.real_work_history_references",
+        "family": "F02",
+        "parent_field_requirement": "Genuine work remains genuine even if failed or unadmitted; transport/fake labels cannot promote or erase it",
+        "parent_requirements": [
+          "DRR-04",
+          "DRR-05",
+          "DRR-06",
+          "DRR-13",
+          "DRR-14",
+          "DRR-15",
+          "DRR-16",
+          "DRR-17",
+          "DRR-18",
+          "DRR-19",
+          "DRR-20"
+        ],
+        "position": "EMBEDDED_VALUE_ONLY_NOT_STANDALONE",
+        "proposal_schema": "DFP2-F02",
+        "qualification": "HOLD_CONTEXT_AND_FUTURE_SOURCE_REVIEW_REQUIRED",
+        "role_id": "P08.real_work_history_references",
+        "source_field_ordinal": 3,
+        "unresolved_slots": [
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P08.real_work_history_references::CONTEXT",
+            "needed_definition": "Bound a declared complete original-history context; do not decode/recalculate scientific payloads to fabricate completion.",
+            "status": "UNRESOLVED",
+            "topic": "immutable namespace or relation vocabulary and completeness context"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P08.real_work_history_references::BOUNDS",
+            "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+            "status": "UNRESOLVED",
+            "topic": "concrete encoded name/string/count/byte/extent limits"
+          },
+          {
+            "actual_definition_or_member_set_supplied": false,
+            "id": "P08.real_work_history_references::ORDER",
+            "needed_definition": "Retain genuine prior work and every partial/failed/pending/consumed claim; transport or fake success cannot promote it.",
+            "status": "UNRESOLVED",
+            "topic": "order/multiplicity/alias/ambiguity policy"
+          }
+        ]
+      },
+      "existing_unresolved_slots": [
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P08.real_work_history_references::CONTEXT",
+          "needed_definition": "Bound a declared complete original-history context; do not decode/recalculate scientific payloads to fabricate completion.",
+          "status": "UNRESOLVED",
+          "topic": "immutable namespace or relation vocabulary and completeness context"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P08.real_work_history_references::BOUNDS",
+          "needed_definition": "Separately justify limits against the complete role context and inherited raw/tree/numeric bounds. No implicit zero, unbounded value, quota proof or truncated evidence.",
+          "status": "UNRESOLVED",
+          "topic": "concrete encoded name/string/count/byte/extent limits"
+        },
+        {
+          "actual_definition_or_member_set_supplied": false,
+          "id": "P08.real_work_history_references::ORDER",
+          "needed_definition": "Retain genuine prior work and every partial/failed/pending/consumed claim; transport or fake success cannot promote it.",
+          "status": "UNRESOLVED",
+          "topic": "order/multiplicity/alias/ambiguity policy"
+        }
+      ],
+      "family": "F02",
+      "new_role_context_bounds_order_or_membership_definitions_supplied": false,
+      "requirements": [
+        "CBR-01",
+        "CBR-02",
+        "CBR-03",
+        "CBR-04"
+      ],
+      "role_id": "P08.real_work_history_references",
+      "role_level_context_obligation_independent_of_cardinality": true,
+      "source_field_ordinal": 3
+    }
+  ],
+  "scientific_candidate_or_replay_started": false,
+  "source_pins": 155,
+  "standing_user_Git_commit_push_and_continue_authorization": true,
+  "target_approval": "HOLD_NOT_READY_NOT_REQUESTED",
+  "total_fixture_entries": 78129,
+  "training_admitted": false,
+  "training_percentage_or_time_estimate": null,
+  "unresolved_slots": 39,
+  "v2_proposal_status": "PROPOSAL_V2_ONLY_NOT_ADOPTED_NOT_INSTANTIATED",
+  "whole_units_completed": 0
+}
