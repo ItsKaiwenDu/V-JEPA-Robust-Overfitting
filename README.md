@@ -1,5 +1,14 @@
 # V-JEPA Robust Overfitting
 
+**Local validator v2 source drafted (November28):**
+[Source review](docs/predictor_pgd_documentary_source_draft_v2.md) records the
+approved19211B unexecuted module: nested syntax, original strict-guard order and
+unknown-context HOLD for all13 roles. Static review and saved audit passed.
+All39 context slots remain unresolved; no candidate calls or new cases here.
+Next: a separate frozen validation plan; actual execution needs fresh approval.
+Automatic commit/push/continue remains requested. Training and target work closed.
+Earlier entries historical.
+
 **Local validator v2 draft plan reviewed (November28):**
 [Plan and request](docs/predictor_pgd_documentary_source_draft_plan_v2.md) propose
 one unexecuted local module<=65536B, payload-only nested syntax checks and unknown-

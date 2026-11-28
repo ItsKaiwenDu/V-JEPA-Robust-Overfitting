@@ -2257,3 +2257,82 @@ science/native/guards/owner/hash/immutablecopies/EVERYfreshhash/orderedstate_dig
 durability/shutdown/continuingclocks fixed. TrainingPGD5/EOT1/routineEOT1/optimizer-
 backward/registry/studyYAML/financial200/160/40/single10caps+holds fixed; oldsnapshots
 not currentquotes/balance. No trainingpercentage/timeestimate. Earlier historical.
+
+## November28: author approved unexecuted validator v2; preserve real HOLD
+
+LATEST November28: APPROVED SOURCE V2 DRAFTED/STATIC REVIEWED; UNEXECUTED REAL HOLD.
+Read docs/predictor_pgd_documentary_source_draft_v2.md, source-draft config and
+report/checks/2026-11-28-pgd-documentary-source-draft-v2-local-review.json/md.
+Raw pgd-documentary-source-draft-v2-20261128. Starting clean6bc1892cc89e45e0bb7985b598005098f89371e1
+== origin/main. Exact user "Approve." binds frozen local source-only request;
+original ASCII<= question transcription retained with exact Unicode supplement,
+scope unchanged. ONE new19211B<=65536B module models/predictor_pgd_diagnostic_admission_documentary_v2.py.
+Source-only scope authored/staticreview COMPLETED; NOT execution scope. STANDING
+user auto COMMIT+PUSH reviewed bigsteps short title+NUMBERED description, then
+CONTINUE until human/freshpermission/university/training boundary remains active.
+Preserve ALL versions/sources/tests/auditors/fixtures/logs/failures/results/statuses/claims.
+
+UNEXECUTED: DO NOT import/definitionload/compile for execution/call/test/run this
+candidate without separate concrete frozen-plan approval. Imports json/math only,
+payload-only publicentry, outside runtime/upload graph. Original v1/runner/current
+parser/gate/graph unchanged. Full byte inverse recovers original13650B; original
+helper/class/receipt ASTs/tables/caps/labels/eightprofiles46fields unchanged. ONE
+inserted expression follows complete original strict outerfieldloop; handlers/
+finally/allother entry statements unchanged. Seven new helpers/11sourceanchors/
+nine new refusal IDs/17nested fieldpositions/13roles/39OPENslots/twelve static
+dispositions reviewed. New syntax not full context semantics/original inverse/
+domain/refusal/security proof; no actualcontext provider/API/catalog/resolver/
+lookup/globalcache/hiddenI/O or populated actualcontext. RequiredF04null source
+refusal afterstrictguards/F03nullunknown/roleHOLD outside element/nullbranches.
+Emptylist/map/null/labels never complete history/authority/ownership/permission.
+All39definitions/20DRR24DAS NI/NP/eightrealgroupsOPEN, formatsunadopted. P02-P08
+stay unknown/unsupported/HOLD after syntax, original P01 behavior source unchanged.
+All real receipt flags false/attempts0/bindingnull/targetHOLD; old48 outcomes NOT
+portable to v2/new nested refusals. Newcases/oracles/prototype/benchmark/calls0.
+
+Formal staticreviewv1 FIRSTPASS and independent saved auditv1 FIRSTPASS73115prior
+hashes/78129fixtures/0new/171pins/eight frozen inputs/six frozen results/12reviews/
+11anchors/17fields/13roles/39slots/9codes. No author/staticreviewer/candidate/runner/
+original project/test/prototype/scientific callback or scientificvalue decode-
+recalc/process/clock/timer/GPU/proof/network/target IN AUDIT. AST/JSON/FS/hash REAL.
+Prior48case657504B evidence/consumed48/32scopes/43boundary/proof/cost/closedcohorts
+inherited NOT repeated/promoted. All failures/corrections/statuses/claims retained.
+Device33 priorv4 conditional LOCAL LSTAT only; old29 refusal/target66307/four exact
+lifecycle exceptions fixed. FIFO LSTAT ONLY NEVER OPEN/READ/HASH. No mount probe/
+remap/waiver/volume/cause claim; laterdevicechange NEWrecord/review. Fixturetotal
+78129. Seal sealed-documentary-source-draft-v2.json; liveindexes excluded/exact
+before-after snapshots included, old indexhistory byteexact. GitHub commit/push
+real/expressly authorized, separate from metadata audit and university actions.
+
+NEXT SEPARATE LOCAL per NEXT-LOCAL-VALIDATION-PLAN-PREPARATION-v2.json: after this
+SOURCE-ONLY step completes/commits/pushes, DATA-ONLY NEW validation-plan preparation
+under standing user CONTINUE and adopted local preparation amendment. <=48NEW
+cases/publiccalls ceiling ONLY, not actual membership/approval/run. Prepare exact
+raw/foreign-type membership +INDEPENDENT literal expected outputs/errors for this
+EXACT source, new UNEXECUTED isolated stdlib runner, complete evidence cap<=1MiB/
+eachresult<=32KiB with allcase sources/versions/frozen inputs/logs/results counted,
+exact exclusions before run, freeze every source/input/oracle BEFORE anycall.
+NO candidate import/callback/compile for execution to derive expectations; NO old
+48/32/other closedcohort repeat or originalproject callback. No actual execution
+until concrete reviewed frozenplan has SEPARATE fresh explicit local approval;
+used source-only/48/32 scopes NOT reusable. Currentstep has cases/oracles/calls0;
+nextprep separate from completed source-only grant, no real/operational permission.
+All later fullsource/inverse/domain/refusal/ownership/timing/memory/freshreplay/
+recovery/economics/calibration/data/protocol/training gates independent.
+
+All realgrants/usedlocalexecutions CONSUMED/attempts0/bindingnull/targetHOLD_NOT_
+READY_NOT_REQUESTED/research-trainingFALSE. No university query/SSH/upload/download/
+install/retry/resume/retrieval/cleanup/GPU/proof/paidwork/manualpaste/active grant-
+control-handoff-package-launch/operationalrequest. Remotequiescence/deployedbinary-
+build-ABI-backend-provider/actualcurrentphase execution UNKNOWN; no lostprimarycause
+claim. Proof31gradients/wholeunits0/scientificcandidate-replay notstarted/oldfailed-
+partial-pending-consumed flags fixed. Oldv347/450548B NOT current48/481518B.
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; supportedv5 unconditional refusal before
+delegateclock/ATTEMPT/connection; no private/older bypass/universal physicalproof.
+Graph56uploads936711B/runtime48files481518B/cache47/ninesupervisors/270paths/control
+d997bf9e...fixed. Objective120/unit720/setup180/proof60/soft2280-hard2400/final120/
+collection600/connection3000/RSS4GiB/allocator7GiB/allother caps fixed. Original
+science/native/guards/owner/hash/immutablecopies/EVERYfreshhash/orderedstate_digest/
+durability/shutdown/continuingclocks fixed. TrainingPGD5/EOT1/routineEOT1/optimizer-
+backward/registry/studyYAML/financial200/160/40/single10caps+holds fixed; oldsnapshots
+not currentquotes/balance. No trainingpercentage/timeestimate. Earlier historical.
