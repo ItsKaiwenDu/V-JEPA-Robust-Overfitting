@@ -1,5 +1,14 @@
 # V-JEPA Robust Overfitting
 
+**Local validator v2 draft plan reviewed (November28):**
+[Plan and request](docs/predictor_pgd_documentary_source_draft_plan_v2.md) propose
+one unexecuted local module<=65536B, payload-only nested syntax checks and unknown-
+context HOLD. Candidate absent; fresh explicit source-draft approval required.
+Saved metadata audit passed; no new cases or execution. Automatic commit/push
+continues under user instruction, then pauses at this permission boundary.
+All39 context slots remain unresolved; real admission, target work and training
+remain closed. Earlier entries historical.
+
 **Context requirements drafted (November27):**
 [Four contracts](docs/predictor_pgd_documentary_context_requirements_v1.md) cover
 context supply, uncertainty, refusal ownership and complete resource accounting.

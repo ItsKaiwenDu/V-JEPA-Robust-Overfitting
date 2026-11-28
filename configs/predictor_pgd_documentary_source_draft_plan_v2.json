@@ -1,0 +1,178 @@
+{
+  "actual_context_or_reference_instances": 0,
+  "all20_DRR24_DAS_NOT_IMPLEMENTED_NOT_PROVEN": true,
+  "artifact_hashes": {
+    "LOCAL-SOURCE-DRAFT-REQUEST-v2.json": "d0e703b0b099515bfa2931d0fffe4dbfa33b861e21dfb68fcb27fd732744f4ed",
+    "NESTED-FIELD-DRAFT-COVERAGE-v1.json": "7e0baef26398da105edf049f88954046ed844a4687bbaaa286e7b45f0fd4b265",
+    "ROLE-HOLD-DRAFT-COVERAGE-v1.json": "63a1ad0146838c1121dc1d3a139e8900ff4fc23a1dc0fd60b1c92b3495645a07",
+    "SOURCE-DOMAIN-REFUSAL-REVIEW-PLAN-v2.json": "eb0f217a2bd0ce9f44abe715307599fc429fe2a8fc2d9626ba912550d3969097",
+    "SOURCE-DRAFT-PROPOSAL-v2.json": "fb012c077551510669f95e3b795cf5727925de681cd0e58b42612d5761b3d9b9",
+    "author-plan-v1.py": "1a12f14c20d3ae217cd46d836d9f1d23c762e627f639b08b4bef0d28163aabf7"
+  },
+  "budget_decision": "REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE",
+  "budget_gate_opened": false,
+  "candidate_authoring_or_execution_authorized": false,
+  "candidate_source_authored_or_present": false,
+  "contract_role_joins": 52,
+  "decision": "LOCAL_SOURCE_DRAFT_PLAN_REVIEWED_REQUEST_PENDING_REAL_HOLD",
+  "declared_field_positions": 17,
+  "execution_binding": null,
+  "formats_adopted": 0,
+  "frozen_definitions": 6,
+  "future_static_review_steps": 12,
+  "independent_real_evidence_groups_open": 8,
+  "kind": "LOCAL-DOCUMENTARY-SOURCE-DRAFT-PLAN-v2",
+  "local_source_draft_request": {
+    "all_contexts_unavailable_unknown_HOLD": true,
+    "budget_gate_opened": false,
+    "candidate_authoring_approval_record_emitted": false,
+    "candidate_not_authored_or_present": true,
+    "candidate_sha256": null,
+    "execution_binding": null,
+    "execution_compile_for_execution_import_calls_tests_case_plan_oracles_prototype_benchmark_authorized": false,
+    "field_coverage": "NESTED-FIELD-DRAFT-COVERAGE-v1.json",
+    "field_coverage_sha256": "7e0baef26398da105edf049f88954046ed844a4687bbaaa286e7b45f0fd4b265",
+    "fresh_source_draft_approval_required_by_AGENTS_and_not_supplied_by_standing_Git_instruction": true,
+    "future_review_plan": "SOURCE-DOMAIN-REFUSAL-REVIEW-PLAN-v2.json",
+    "future_review_plan_sha256": "eb0f217a2bd0ce9f44abe715307599fc429fe2a8fc2d9626ba912550d3969097",
+    "imports_only": [
+      "json",
+      "math"
+    ],
+    "kind": "LOCAL-SOURCE-DRAFT-ONLY-REQUEST-v2",
+    "maximum_new_real_attempts": 0,
+    "modules": 1,
+    "new_declared_field_positions": 17,
+    "open_slots": 39,
+    "original_roles": 13,
+    "original_source": "models/predictor_pgd_diagnostic_admission_documentary_v1.py",
+    "original_source_sha256": "1f53a250314d310b6778e266d7932e9a2799d4bb2e72c8014eccaa53394e7d7f",
+    "proposal": "SOURCE-DRAFT-PROPOSAL-v2.json",
+    "proposal_sha256": "fb012c077551510669f95e3b795cf5727925de681cd0e58b42612d5761b3d9b9",
+    "proposed_local_refusal_ids": 9,
+    "proposed_source": "models/predictor_pgd_diagnostic_admission_documentary_v2.py",
+    "public_entry_kept_payload_only": true,
+    "real_admission_operational_format_actual_context_resolver_runtime_binding_gate_target_authorized": false,
+    "requested_action": "Authorize authoring and static source/AST/domain/refusal review of one new UNEXECUTED standalone local documentary module <=65536B using this frozen proposal; no execution.",
+    "research_admitted": false,
+    "role_coverage": "ROLE-HOLD-DRAFT-COVERAGE-v1.json",
+    "role_coverage_sha256": "63a1ad0146838c1121dc1d3a139e8900ff4fc23a1dc0fd60b1c92b3495645a07",
+    "source_byte_ceiling": 65536,
+    "static_review_steps": 12,
+    "status": "PENDING_NOT_AUTHORIZED",
+    "training_admitted": false
+  },
+  "local_source_draft_request_status": "PENDING_NOT_AUTHORIZED",
+  "maximum_new_real_attempts": 0,
+  "new_case_plan_oracle_test_prototype_benchmark_or_candidate_calls": 0,
+  "new_executed_fixture_entries": 0,
+  "old_cohorts_reviewers_or_inventory_repeated": false,
+  "open_slots": 39,
+  "original_roles": 13,
+  "prior_case_evidence_bytes_unchanged": 657504,
+  "proposed_new_modules": 1,
+  "proposed_refusal_identifiers": 9,
+  "raw_stage": "runs/pretrained/diagnostic/pgd-documentary-source-draft-plan-v2-20261128",
+  "research_admitted": false,
+  "scientific_candidate_or_replay_started": false,
+  "source_byte_ceiling": 65536,
+  "source_draft_proposal": {
+    "actual_context_supply_API_catalog_constructor_resolver_hidden_IO_or_instances": false,
+    "all20_DRR24_DAS_and8_real_evidence_groups_unqualified": true,
+    "all39_context_bounds_order_slots_open": true,
+    "candidate_exists": false,
+    "future_execution_requires_separate_frozen_new_plan_and_explicit_fresh_approval": true,
+    "imports_only": [
+      "json",
+      "math"
+    ],
+    "kind": "LOCAL-UNEXECUTED-DOCUMENTARY-SOURCE-DRAFT-PROPOSAL-v2",
+    "original_source_module_runner_graph_profiles46fields_caps_labels_and_old_results_unchanged": true,
+    "original_v1_bytes": 13650,
+    "original_v1_sha256": "1f53a250314d310b6778e266d7932e9a2799d4bb2e72c8014eccaa53394e7d7f",
+    "original_v1_source": "models/predictor_pgd_diagnostic_admission_documentary_v1.py",
+    "phase_order_is_a_proposed_future_local_design_not_current_runtime_execution_or_trace": true,
+    "proposed_candidate_path": "models/predictor_pgd_diagnostic_admission_documentary_v2.py",
+    "proposed_module_count": 1,
+    "proposed_new_local_refusal_identifiers": [
+      {
+        "id": "D_NESTED_TYPE",
+        "meaning": "Wrong exact JSON type at a proposed nested structure/field; no coercion/bool-as-integer.",
+        "status": "PROPOSED_NOT_IMPLEMENTED_NOT_EXECUTED"
+      },
+      {
+        "id": "D_NESTED_KEYS",
+        "meaning": "Missing/extra proposed closed nested keys; generic duplicate rejection already precedes this.",
+        "status": "PROPOSED_NOT_IMPLEMENTED_NOT_EXECUTED"
+      },
+      {
+        "id": "D_NESTED_LITERAL",
+        "meaning": "Wrong proposed marker/revision/byte-domain literal; outer revision remains1, nested reference/map revision2.",
+        "status": "PROPOSED_NOT_IMPLEMENTED_NOT_EXECUTED"
+      },
+      {
+        "id": "D_NESTED_ROLE",
+        "meaning": "Nested role differs from the exact enclosing original field role; allowed-set membership alone insufficient.",
+        "status": "PROPOSED_NOT_IMPLEMENTED_NOT_EXECUTED"
+      },
+      {
+        "id": "D_NESTED_LABEL",
+        "meaning": "Nested supplied evidence_status outside the existing five documentary labels.",
+        "status": "PROPOSED_NOT_IMPLEMENTED_NOT_EXECUTED"
+      },
+      {
+        "id": "D_NESTED_DIGEST",
+        "meaning": "Nested supplied digest spelling is not exact lowercase hexadecimal64.",
+        "status": "PROPOSED_NOT_IMPLEMENTED_NOT_EXECUTED"
+      },
+      {
+        "id": "D_NESTED_INTEGER",
+        "meaning": "Identity byte_length is negative; exact integer type and inherited signed64 domain separately required.",
+        "status": "PROPOSED_NOT_IMPLEMENTED_NOT_EXECUTED"
+      },
+      {
+        "id": "D_NESTED_STRING",
+        "meaning": "Proposed relation/member name string is empty; exact type/scalar/length checks apply, no normalization.",
+        "status": "PROPOSED_NOT_IMPLEMENTED_NOT_EXECUTED"
+      },
+      {
+        "id": "D_REQUIRED_REFERENCE_NULL",
+        "meaning": "Required F04 outer reference is null, checked only after original strict outer-field guards complete.",
+        "status": "PROPOSED_NOT_IMPLEMENTED_NOT_EXECUTED"
+      }
+    ],
+    "proposed_reviewable_order": [
+      {
+        "id": "SP-01",
+        "proposal": "Preserve original exact-byte/raw bound/UTF8/nesting/JSON hooks/tree/canonical/kind/outer-key guards and complete original ordered strict outer-field loop before new nested checks. All original strict refusals retain priority for inputs that reach them."
+      },
+      {
+        "id": "SP-02",
+        "proposal": "After that complete loop, propose a separate nested syntax pass in original profile field order and input list order. Validate only the declared17 nested field positions and family container/null forms. No first/last/newest choice, v1 unwrapping, evidence sort/dedup or fabricated role vocabulary/member set."
+      },
+      {
+        "id": "SP-03",
+        "proposal": "For every applicable one of13 original roles, retain role-level context unavailable/unknown HOLD independently of cardinality, outer nullable null and supplied identity/label. No actual C(role) supply is supported or looked up. P02-P08 can never become structure-only success merely through nested syntax; original unsupported reasons remain."
+      },
+      {
+        "id": "SP-04",
+        "proposal": "Preserve existing receipt labels and hard false real execution/research/training, attempts0, bindingnull and targetHOLD. New nested refusals may change formerly unsupported v1 input outcomes in the proposed NEW module; old results are not evidence for v2. Preserve existing exception handlers, unexpected-error/BaseException propagation and two-local-reference finally limits."
+      }
+    ],
+    "proposed_source_relationship": "New file outside runtime/upload graph; never import/call v1 or original project. Keep original literal profile tables/receipt literals/parser helpers/strict field helper and exception/finally bodies unchanged; only proposed entry insertion after original complete field loop, a source-header clarification and appended local nested helpers/static role names.",
+    "public_entry": "inspect_documentary(payload)",
+    "public_input_domain": "exact bytes; existing canonical UTF8 JSON envelope only",
+    "relation_vocabulary_member_sets_completeness_order_and_actual_resource_limits_still_unknown": true,
+    "source_authoring_import_compile_for_execution_candidate_calls_new_cases_or_target_authorized_now": false,
+    "source_byte_ceiling": 65536,
+    "source_draft_approval_would_authorize_only_authoring_and_static_AST_source_domain_refusal_review": true,
+    "status": "PROPOSED_PENDING_EXPLICIT_SOURCE_DRAFT_APPROVAL"
+  },
+  "source_pins": 163,
+  "standing_user_commit_push_and_continue_scope_preserved": true,
+  "target_approval": "HOLD_NOT_READY_NOT_REQUESTED",
+  "total_fixture_entries": 78129,
+  "training_admitted": false,
+  "training_percentage_or_time_estimate": null,
+  "whole_units_completed": 0
+}
