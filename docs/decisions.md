@@ -2064,3 +2064,53 @@ notstarted/failed-partial-pending-consumed claims fixed. Device33 prior v4
 conditional local LSTAT only; old29/target66307/four exceptions/FIFO LSTAT-only
 retained. Exact index snapshots sealed, no new-proposal Git mutation or training
 estimate. Earlier entries historical.
+
+## November27: review v2 declarative changes; context-boundary requirements open
+
+User "Committed; next step!" directed bounded source-only v2 differential review,
+starting clean user commit e1014a595de30268b786fa8476805371531101ae equal to local
+origin/main tracking ref. No new remote query or agent Git mutation.
+[Review](predictor_pgd_documentary_format_v2_review_v1.md) maps17declared fields/
+13roles/eight binding rules/seven profile bounds/three revision choices/two
+source signatures, eight NEW findings and four OPEN context-boundary obligations.
+Prior12sourceanchors/16lexical milestones inherited by unchanged source hashes;
+old reviewers/inventories/cohorts not rerun. V2 direct lists/embedded positions
+address v1 container/position issues as declarations only. Role/context equality
+explicit, actual context availability/supply domain undefined. Current public
+entry is payload-only; no arg/key/transport/catalog/global/cache/resolver selected.
+
+Next DATA-ONLY requirements contract: supply-domain information, cardinality-
+independent uncertainty, HOLD/refusal/first-effect ownership and full external-
+context resource/lifetime accounting. Empty-list universal conditions cannot
+erase role-context HOLD; nullable null stays unknown. HOLD cannot silently mask
+later original strict field refusals. Conjunction is not execution/error order.
+Seven node expressions symbolically consistent and necessary, never sufficient
+for byte/memory/time/whole-unit fit or free outside-context work. All original
+caps/source/error/ownership/clock requirements preserved. No implementation/
+runtime format/API/actual context/resolver/errorcode/receipt/caseplan/run selected.
+
+Independent saved auditv2 PASS72859priorhashes/78129fixtures/0new/147pins/nine frozen
+definitions/all differential joins. V1 failed exact formula-text comparison of
+R=13+A+C against parent string including ; A,C in {1,9}, before result emission.
+V2 changes ONLY literal join/output path, full inverse and scripts/logs retained;
+old unpublished LATEST draft's FIRSTPASS claim explicitly superseded. No candidate
+failure or frozen definition change. No author/candidate/runner/original project/
+test/prototype/scientific callback or scientificvalue decode-recalc/process/clock/
+timer/GPU/proof/network/target IN AUDIT. Source/AST/JSON/FS/hash localwork real.
+
+V2 unchanged/unadopted/uninstantiated,17nested checks/F04null refusal unimplemented,
+four original families unsupported, all39context slots open,20DRR/24DAS NP/NI,
+eight real-evidence groups OPEN. Prior48case/657504B evidence/consumed scopes/
+old32case/43boundary/scienceproof/cost/closed cohorts inherited not repeated or
+promoted. All versions/fixtures/failures/results/statuses/claims retained. Real
+grants/used local approvals consumed/attempts0/bindingnull/targetHOLD/research-
+trainingfalse. Supportedv5 closed before delegateclock/ATTEMPT/connection by
+unchanged source, no private/older bypass/physical unreachability proof. Science/
+native/guard/hash/copy/owner/durability/shutdown/clocks/all caps/financial holds
+fixed. Remote quiescence/build/ABI/backend/provider/currentexecution UNKNOWN;
+no lostprimarycause claim. Proof31gradients/wholeunits0/scientificcandidate-replay
+notstarted/failed-partial-pending-consumed flags fixed. No target/active operational
+request. Device33 priorv4 conditional local LSTAT only, old29/target66307/four exact
+exceptions/FIFO LSTAT-only retained, no mount probe/remap/waiver/volume/cause claim.
+Exact index history/snapshots retained; no training percentage/time estimate.
+Earlier entries historical.

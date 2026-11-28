@@ -1,0 +1,269 @@
+{
+  "F02_direct_list_proposed_without_unwrapping_or_wrapper": true,
+  "active_graph": {
+    "cache_modules": 47,
+    "primary_paths": 270,
+    "runtime_bytes": 481518,
+    "runtime_files": 48,
+    "supervisors": 9,
+    "upload_bytes": 936711,
+    "uploads": 56
+  },
+  "active_source_control_sha256": "d997bf9ed74c8ebf4504a5e6214a35e28365f85e9da3d7738a5b58f5edaa9f29",
+  "adoption_implementation_or_full_source_qualification": false,
+  "agent_Git_mutation_authorized_or_performed": false,
+  "all20_and24_requirements_NOT_IMPLEMENTED_NOT_PROVEN": true,
+  "all_real_grants_and_used_local_approvals_consumed": true,
+  "all_value_forms_embedded_only": true,
+  "bounded_source_declaration_delta_review_completed": true,
+  "budget_decision": "REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE",
+  "budget_gate_opened": false,
+  "candidate_or_replay_started": false,
+  "context_boundary_obligations": [
+    {
+      "id": "CBR-01",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "new_finding_ids": [
+        "V2D-04"
+      ],
+      "proof_status": "NOT_PROVEN",
+      "required_future_data_only_contract": "State the information a future context supply boundary would have to make explicit for all13 roles, including exact source domain, availability, missing/unavailable/multiple/conflicting evidence. Keep C(role) a schema obligation; do not select an argument, outer key, transport, constructor, global/cache, catalog, resolver or lookup.",
+      "runtime_API_format_context_instance_or_error_order_selected": false,
+      "status": "OPEN_REQUIREMENTS_NOT_DRAFTED",
+      "topic": "Context availability and supply domain"
+    },
+    {
+      "id": "CBR-02",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "new_finding_ids": [
+        "V2D-05"
+      ],
+      "proof_status": "NOT_PROVEN",
+      "required_future_data_only_contract": "Require role-level context/completeness obligations independently of list/member cardinality and reference presence. Empty lists/maps, nullable null, null identity or absent context cannot establish complete history, known equality, zero work or permission; ambiguity cannot choose first/last/newest.",
+      "runtime_API_format_context_instance_or_error_order_selected": false,
+      "status": "OPEN_REQUIREMENTS_NOT_DRAFTED",
+      "topic": "Cardinality-independent uncertainty"
+    },
+    {
+      "id": "CBR-03",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "new_finding_ids": [
+        "V2D-06"
+      ],
+      "proof_status": "NOT_PROVEN",
+      "required_future_data_only_contract": "Describe separate requirements for accumulating uncertainty while preserving current ordered strict refusals, primary errors, already occurred effects and local/source/process causal order. Do not select runtime error identifiers, transition logic, receipts, predicates, case membership, oracles or an executable preflight sequence.",
+      "runtime_API_format_context_instance_or_error_order_selected": false,
+      "status": "OPEN_REQUIREMENTS_NOT_DRAFTED",
+      "topic": "HOLD, refusal and first-effect ownership"
+    },
+    {
+      "id": "CBR-04",
+      "implementation_status": "NOT_IMPLEMENTED",
+      "new_finding_ids": [
+        "V2D-03",
+        "V2D-07"
+      ],
+      "proof_status": "NOT_PROVEN",
+      "required_future_data_only_contract": "Require any later context acquisition/validation/hash/copy/read/error/lifetime work to be accounted under every original byte/count/time/memory/clock cap and ownership rule. In-record node formulae are insufficient; no overhead subtraction, assumed free external work, hidden I/O or cap changes. Actual39 role definitions/bounds/order slots remain open.",
+      "runtime_API_format_context_instance_or_error_order_selected": false,
+      "status": "OPEN_REQUIREMENTS_NOT_DRAFTED",
+      "topic": "Complete context resource and lifetime accounting"
+    }
+  ],
+  "current_source_inventory_and_old_reviewers_or_closed_cohorts_reexecuted": false,
+  "current_source_parser_gate_runtime_binding_v1_proposal_or_old_results_changed": false,
+  "decision": "BOUNDED_V2_DECLARATIVE_DELTA_REVIEWED_CONTEXT_BOUNDARY_REQUIREMENTS_OPEN_REAL_HOLD",
+  "declarative_binding_rules": 8,
+  "declared_field_positions": 17,
+  "definition_artifacts": {
+    "BINDING-DISPOSITIONS-v1.json": "20fc74923ac61d2330884e8a5defdbcbcbfe9e2d28e2d5d522d4a8883b064133",
+    "CONTEXT-BOUNDARY-OBLIGATIONS-v1.json": "a9c48bc2097dd6c023b3104c2e036de3befcd76cc5ad25123a949674428a50c8",
+    "DELTA-FINDINGS-v1.json": "276540c3c921cb8ab18908ed3214ba0a199bc59760d4eccfe674d8b6f27f119b",
+    "DELTA-REVIEW-FACTS-v1.json": "ff42972b4efcb89d6131162486fc7166724abe7435d94b3b25ba1bd0ccf9451f",
+    "FIELD-DELTA-RELATIONS-v1.json": "f351d23d42bda7f0472a8d6331619c70f4b658f53c5e373d1ee4c2ac44d69cdb",
+    "NEXT-LOCAL-CONTEXT-SUPPLY-REQUIREMENTS-v1.json": "bb3425767eb5c084e840a8a9a9eaf14e9223068fa9d448942602e9edd91f53a0",
+    "PROFILE-BOUND-REVIEW-v1.json": "f3c8a09a326fcb0fc1192f9ad6c9bfa4442565a5d857159c6a8817e7ded1c11c",
+    "ROLE-DELTA-RELATIONS-v1.json": "2c571ed978df0c3f6250b91eb054f379b8b8e91524694422c4bd5f2229227c7d",
+    "author-differential-review-v1.py": "bcba1430cb1e434b70705df903bc380a1010684effaebf5808f99c5404ed4aa2"
+  },
+  "definition_freeze": "runs/pretrained/diagnostic/pgd-documentary-format-v2-review-v1-20261127/REVIEW-DEFINITION-FREEZE-v1.json",
+  "delta_findings": [
+    {
+      "adoption_or_implementation_qualification": false,
+      "disposition": "EMBEDDED_AND_LIST_CHOICES_DECLARED",
+      "id": "V2D-01",
+      "inherited_finding_ids": [
+        "FD-01",
+        "FD-02"
+      ],
+      "new_runtime_observation_or_test_result": false,
+      "revision_ids": [
+        "REV-01"
+      ],
+      "source_review_finding": "All four v2 forms are embedded-only. F02 is now an exact list, removing the v1 dictionary/list category conflict as a proposal. No adapter or standalone acceptance exists; current fields remain unsupported."
+    },
+    {
+      "adoption_or_implementation_qualification": false,
+      "disposition": "EXPLICIT_EQUALITY_CHOICES_NOT_ENFORCEMENT",
+      "id": "V2D-02",
+      "inherited_finding_ids": [
+        "FD-05",
+        "FD-06"
+      ],
+      "new_runtime_observation_or_test_result": false,
+      "revision_ids": [
+        "REV-02"
+      ],
+      "source_review_finding": "Exact enclosing-role equality and unique known nonnull C(role) identity equality are explicit. All39 actual context/bound/order definitions remain unresolved; labels and matching identities do not prove completeness, origins or authority."
+    },
+    {
+      "adoption_or_implementation_qualification": false,
+      "disposition": "SEVEN_NECESSARY_NODE_CONSTRAINTS_CONSISTENT",
+      "id": "V2D-03",
+      "inherited_finding_ids": [
+        "FD-07"
+      ],
+      "new_runtime_observation_or_test_result": false,
+      "revision_ids": [
+        "REV-03"
+      ],
+      "source_review_finding": "The direct-list and seven full-profile node expressions agree with the preserved source counting convention as symbolic metadata arithmetic. Individual ceilings need not be jointly admissible. No encoded payload, raw-byte, heap/RSS/time or whole-unit fit proof follows."
+    },
+    {
+      "adoption_or_implementation_qualification": false,
+      "disposition": "CONTEXT_SUPPLY_DOMAIN_UNDEFINED",
+      "id": "V2D-04",
+      "inherited_finding_ids": [
+        "FD-06",
+        "FD-09"
+      ],
+      "new_runtime_observation_or_test_result": false,
+      "revision_ids": [
+        "REV-02"
+      ],
+      "source_review_finding": "The current public signature accepts only payload and the field helper accepts name/domain/value. V2 explicitly leaves C(role) outside runtime formats/catalogs/resolver APIs. No context supply domain exists yet; do not invent globals/cache, extra arguments/outer keys, lookup or hidden I/O to fill it."
+    },
+    {
+      "adoption_or_implementation_qualification": false,
+      "disposition": "ROLE_CONTEXT_OBLIGATION_MUST_BE_NONVACUOUS",
+      "id": "V2D-05",
+      "inherited_finding_ids": [
+        "FD-05",
+        "FD-06",
+        "FD-09"
+      ],
+      "new_runtime_observation_or_test_result": false,
+      "revision_ids": [
+        "REV-01",
+        "REV-02"
+      ],
+      "source_review_finding": "A per-element role/context equality condition has no element to inspect for an empty direct list. Future requirements must retain B2-07 role-level missing-context HOLD independently of cardinality. Nullable null also remains unknown/HOLD. This is a future boundary obligation, not an observed v2 admission or a new test."
+    },
+    {
+      "adoption_or_implementation_qualification": false,
+      "disposition": "HOLD_CONJUNCTION_DOES_NOT_SELECT_REFUSAL_ORDER",
+      "id": "V2D-06",
+      "inherited_finding_ids": [
+        "FD-08"
+      ],
+      "new_runtime_observation_or_test_result": false,
+      "revision_ids": [
+        "REV-02",
+        "REV-03"
+      ],
+      "source_review_finding": "The current ordered field loop accumulates unsupported reasons and can later raise strict field/permission/admission refusals. A future missing-context HOLD must not silently short circuit those guards or replace primary errors. New conjunctions do not define preflight order, receipts or executed traces."
+    },
+    {
+      "adoption_or_implementation_qualification": false,
+      "disposition": "EXTERNAL_CONTEXT_WORK_NOT_FREE_OR_QUALIFIED",
+      "id": "V2D-07",
+      "inherited_finding_ids": [
+        "FD-07",
+        "FD-08",
+        "FD-10"
+      ],
+      "new_runtime_observation_or_test_result": false,
+      "revision_ids": [
+        "REV-02",
+        "REV-03"
+      ],
+      "source_review_finding": "Profile tree formulae count declared in-record structures only. Any future context acquisition, validation/hash/copy/read, error handling and lifetime needs separate source/first-effect/ownership review and full original cap accounting; moving context outside a field grants no free work or extra budget."
+    },
+    {
+      "adoption_or_implementation_qualification": false,
+      "disposition": "IMPLEMENTATION_AND_REAL_EVIDENCE_UNCHANGED",
+      "id": "V2D-08",
+      "inherited_finding_ids": [
+        "FD-03",
+        "FD-04",
+        "FD-09",
+        "FD-10"
+      ],
+      "new_runtime_observation_or_test_result": false,
+      "revision_ids": [
+        "REV-01",
+        "REV-02",
+        "REV-03"
+      ],
+      "source_review_finding": "All17 proposed nested field rules and required-reference null refusal remain unimplemented. Generic parser guards remain; all20DRR/24DAS requirements are unimplemented/unproven and eight real-evidence groups open. Supported budget refusal remains closed by unchanged source identity, without new physical/runtime proof."
+    }
+  ],
+  "differential_findings": 8,
+  "execution_binding": null,
+  "family_format_proposals": 4,
+  "formats_adopted": 0,
+  "frozen_definitions": 9,
+  "historical_v3_graph": {
+    "runtime_bytes": 450548,
+    "runtime_files": 47,
+    "uploaded_bytes": 896039,
+    "uploaded_sources": 55
+  },
+  "independent_real_evidence_obligations_still_open": 8,
+  "inherited_conditional_lexical_milestones": 16,
+  "inherited_source_anchors": 12,
+  "kind": "LOCAL-DOCUMENTARY-FORMAT-V2-DIFFERENTIAL-REVIEW-v1",
+  "maximum_new_real_attempts": 0,
+  "new_candidate_or_original_callbacks": 0,
+  "new_case_plan_or_oracles_tests_prototypes_benchmarks_or_target_work": false,
+  "new_context_boundary_obligations": 4,
+  "new_executed_fixture_entries": 0,
+  "next_separate_local_step": {
+    "adoption_instantiation_active_record_operational_format_resolver_request_binding_gate_target_action_authorized": false,
+    "budget_gate_opened": false,
+    "execution_binding": null,
+    "existing_unresolved_slots": 39,
+    "kind": "NEXT-separate-LOCAL-data-only-context-supply-requirements-v1",
+    "maximum_new_boundary_obligations": 4,
+    "maximum_new_real_attempts": 0,
+    "maximum_original_roles": 13,
+    "new_basis": "CONTEXT-BOUNDARY-OBLIGATIONS-v1.json",
+    "new_basis_sha256": "a9c48bc2097dd6c023b3104c2e036de3befcd76cc5ad25123a949674428a50c8",
+    "research_admitted": false,
+    "scope": "Draft a bounded DATA-ONLY context-supply/error-boundary requirements contract for the four NEW CBR obligations, mapped to the13 original roles and39 still-open slots. Make uncertainty independent of cardinality, preserve original refusal/first-effect ownership and account any future outside-context work. Requirements only; no context-supply API, transport, constructor, runtime schema/catalog/resolver, implementation choice or actual instances.",
+    "source_change_import_compile_for_execution_case_plan_oracle_test_run_prototype_benchmark_authorized": false,
+    "training_admitted": false
+  },
+  "old_passing_or_closed_cohorts_repeated": false,
+  "original_v2_declaration_definitions_changed": false,
+  "prior_case_evidence_bytes_unchanged": 657504,
+  "prior_fixture_entries": 78129,
+  "profile_joint_constraints": 7,
+  "proposal_status": "PROPOSAL_V2_ONLY_NOT_ADOPTED_NOT_INSTANTIATED",
+  "proposed_reference_or_context_instances_created": 0,
+  "raw_stage": "runs/pretrained/diagnostic/pgd-documentary-format-v2-review-v1-20261127",
+  "requirement_coverage_relations": 20,
+  "research_admitted": false,
+  "revision_choices_recorded": 3,
+  "role_mappings": 13,
+  "runtime_manifest_sha256": "9a84c7048d7b5e4c2d285cad2aa6dac9907bf9fa18bf9e9f6290df33ef06b998",
+  "shared_shape_declarations": 2,
+  "source_pins": 147,
+  "source_signature_relations": 2,
+  "starting_clean_user_commit": "e1014a595de30268b786fa8476805371531101ae",
+  "target_approval": "HOLD_NOT_READY_NOT_REQUESTED",
+  "training_admitted": false,
+  "training_percentage_or_time_estimate": null,
+  "unresolved_context_slots": 39,
+  "whole_units_completed": 0
+}

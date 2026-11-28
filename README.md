@@ -1,5 +1,14 @@
 # V-JEPA Robust Overfitting
 
+**Documentary format v2 source review completed (November27):**
+[Review](docs/predictor_pgd_documentary_format_v2_review_v1.md) finds the direct
+lists, role/context rules and joint node expressions consistent as declarations.
+Four context-supply/error/resource obligations remain open; all39 context slots
+unresolved. Next: DATA-ONLY boundary requirements. No adoption, implementation,
+instances or validator runs. Saved metadata auditv2 passed after a retained v1
+formula-text comparison failure. Real admission, target work and training closed.
+Earlier entries historical.
+
 **Data-only documentary format v2 drafted (November27):**
 [V2](docs/predictor_pgd_documentary_format_proposal_v2.md) proposes direct F02
 lists, exact enclosing role/context rules and joint bounds for seven profiles.

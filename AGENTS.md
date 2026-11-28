@@ -2,6 +2,83 @@
 
 ## Current stage
 
+LATEST November 27: V2 DECLARATIVE DELTA REVIEWED; CONTEXT BOUNDARY OPEN, REAL HOLD.
+Read docs/predictor_pgd_documentary_format_v2_review_v1.md, its review config and
+report/checks/2026-11-27-pgd-documentary-format-v2-review-v1-local-review.json/md.
+Raw pgd-documentary-format-v2-review-v1-20261127. Starting clean user-committed
+e1014a595de30268b786fa8476805371531101ae == local origin/main tracking ref. No new
+remote query or agent Git mutation. User "Committed; next step!" directs only
+prior disclosed bounded SOURCE-ONLY differential review. Default user Git unless
+EXPRESSLY requested; automatic short clear title +NUMBERED description eachbigstep.
+Preserve ALL versions/sources/tests/auditors/fixtures/logs/failures/results/statuses/claims.
+
+NEW17field/13role/8binding/7profilebound/3revision/2signature relations,8findings,
+four OPEN context-boundary obligations. V2 embedded-only/direct F02 exact-list
+choices address v1 positioning/type conflict AS DECLARATIONS ONLY. Exact enclosing
+role/unique known nonnull C(role) equality explicit, no null==null known match.
+All17 nested checks/F04 required-null refusal still unimplemented; generic parser
+guards unchanged, original four descriptor families still unsupported. V2 remains
+PROPOSAL_V2_ONLY_NOT_ADOPTED_NOT_INSTANTIATED; formats0/instances0. All39 context/
+bound/order slots unresolved,20DRR/24DAS NOT_IMPLEMENTED/NOT_PROVEN,8realgroupsOPEN.
+
+Current inspect_documentary(payload) and helper(name,domain,value) have NO selected
+context-supply domain/API/catalog/resolver. No new arg/key/transport/global/cache/
+hidden I/O chosen. Per-element equality vacuous for emptylist cannot erase separate
+role-context HOLD; null remains unknown. New HOLD must not hide later original
+strict refusals: current ordered fieldloop accumulates unsupported then canraise.
+Conjunction NOT errorprecedence/preflight/receipt/trace. Profile node expressions
+symbolically consistent/necessary NOT sufficient; outside-context work notfree,
+full raw/numeric/nesting/shape/resource caps conjunctive unchanged. Any later
+context firsteffect/error/lifetime/source/refusal/ownership needs separate review.
+
+Independent saved auditv2 PASS72859priorhashes/78129fixtures/0new/147pins/
+9frozen definitions/all new differential joins. Auditv1 failed exact formula-text
+comparison before result emission; v2 corrects ONLY literal suffix join/output path;
+both scripts/logs/full inverse retained, inspected sources/definitions unchanged.
+Not candidate failure. Original LATEST draft retained, its v1 FIRSTPASS claim
+superseded by this actual audit history. Prior12sourceanchors/16lexical
+milestones inherited by unchanged source hashes; oldreviewers/inventories/cohorts
+NOT rerun. No author/candidate/runner/original project/test/prototype/scientific
+callback or scientificvalue decode-recalc/process/clock/timer/GPU/proof/network/
+target IN AUDIT. Source/AST/JSON/FS/hash REAL. Prior48case/657504B evidence/consumed
+scopes/old32case/43boundary/scienceproof/cost/closedcohorts inherited NOT repeated
+or promoted. Device33 priorv4 LSTAT conditional LOCAL metadata only; old29 refusal/
+target66307/four exact lifecycle exceptions fixed. FIFO LSTAT ONLY NEVER OPEN/READ/
+HASH. No mount probe/remap/waiver/volume/cause claim; futurechange NEWrecord/review.
+Fixturetotal78129. Seal sealed-documentary-format-v2-review-v1.json; liveindexes
+excluded/exact before-after snapshots included; old index history byteexact.
+
+NEXT SEPARATE LOCAL per NEXT-LOCAL-CONTEXT-SUPPLY-REQUIREMENTS-v1.json: bounded
+DATA-ONLY context-supply/error-boundary REQUIREMENTS contract for NEW four CBR
+obligations,13originalroles/39OPENslots: availability/supply information, cardinality-
+independent uncertainty, HOLD/refusal/firsteffect ownership, complete external
+resource/lifetime accounting. Requirements ONLY, no runtime API/arg/key/transport/
+constructor/schema/catalog/resolver/sourcebridge/implementation/actualcontext
+instance selection, new error identifiers/transitionlogic/receipt/caseplan/oracles/
+run/prototype/benchmark/integration/runtimebinding/gatechange/target action or
+operational request. All later source/inverse/domain/refusal/ownership/completeunit
+timing/memory/freshreplay/recovery/economics/calibration/data/protocol/training gates
+remain independent. Do not repeat v2/old source inventories or closed cohorts.
+
+All real grants/used48/32case scopes CONSUMED/attempts0/bindingnull/targetHOLD_NOT_
+READY_NOT_REQUESTED. No university query/SSH/upload/download/install/retry/resume/
+retrieval/cleanup/GPU/proof/paidwork/manualpaste/active grant-control-handoff-package-
+launch/operational request. Remotequiescence/deployedbinary-build-ABI-backend-provider/
+actualcurrentphase execution UNKNOWN; no lostprimarycause claim. Old genuineproof/
+31gradients/wholeunits0/scientificcandidate-replay notstarted/failed-partial-pending-
+consumed flags fixed. Oldv347/450548B NOT current48/481518B.
+
+BUDGET REJECT_CURRENT_ROUTE_FOR_NEW_SCOPE; supportedv5 unconditional refusal before
+delegateclock/ATTEMPT/connection; no private/older bypass or universal physical proof.
+Graph56uploads936711B/runtime48files481518B/cache47/nine supervisors/270paths/control
+d997bf9e... fixed. Objective120/unit720/setup180/proof60/soft2280-hard2400/final120/
+collection600/connection3000/RSS4GiB/allocator7GiB/allother caps fixed. Originalscience/
+native/guards/owner/hash/immutablecopies/EVERYfreshhash/orderedstate_digest/durability/
+shutdown/continuingclocks fixed. MechanismCLOSED/research-trainingFALSE. TrainingPGD5/
+EOT1/routineEOT1/optimizerbackward/registry/studyYAML/financial200/160/40/single10caps+
+holds fixed; oldsnapshots not currentquotes/balance. No trainingpercentage/timeestimate.
+Earlier entries historical.
+
 LATEST November 27: DATA-ONLY FORMAT V2 CHOICES RECORDED; REAL HOLD.
 Read docs/predictor_pgd_documentary_format_proposal_v2.md, format proposalv2
 config and report/checks/2026-11-27-pgd-documentary-format-proposal-v2-local-review.json/md.
