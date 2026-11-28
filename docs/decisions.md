@@ -1982,3 +1982,42 @@ clocks/caps/financial holds and old proof31gradients/wholeunits0/scientificcandi
 replay notstarted/failed-partial-pending-consumed claims fixed. Device33 prior v4
 conditional local LSTAT only; old29/target66307/four exceptions/FIFO LSTAT-only
 retained. Exact index snapshots sealed, no Git mutation or training estimate.
+
+## November27: review proposed format source compatibility; require data-only revision
+
+On EXPRESS user request, prior eight-file proposal committed/pushed6485da54 with
+exact supplied title/numbered description. Clean HEAD==origin/main afterward;
+GitHub push network real/authorized, separate from subsequent LOCAL review.
+No further new-review Git mutation. [The source review](predictor_pgd_documentary_format_source_review_v1.md)
+maps23 proposed fields/13roles/12anchors/16 conditional lexical milestones to
+three pinned sources. Ten findings: F02 dictionary wrapper conflicts with all
+seven exact-list fields; standalone envelope conflict; nested rules/required-null
+refusal absent; embedding-role and context joins undetermined; joint bounds and
+original refusal/first-effect/lifetime obligations remain.39 context slots open.
+
+Symbolic node counts only, no instances/parser calls: I=9; R=13+A+C; M=12+A+2K;
+S=12+C+sum(Ri); full identities T02=51+2K+31N/T06=53+31(N1+N2). Generic128/64
+ceilings yield2291/4021 >global2048, not admissible role bounds or runtime test
+receipts; earlier guards may refuse first. No cap relaxation/truncation/fit claim.
+Eight source-error obligations bounded-reviewed with gaps, not full original
+source/inverse/domain/ownership qualification. All20DRR/24DAS unimplemented/
+unproven; eight real-evidence groups open. Adopted0/instances0/sourcechanges0.
+
+Independent saved auditv1 FIRSTPASS72711priorhashes/78129fixtures/0new/131pins/
+nine frozen definitions/all source/field/role/finding/disposition/arithmetic joins;
+no author/inspectedsource/candidate/runner/project/test/prototype/scientific
+callback or scientific value decode-recalc/process/clock/timer/network/target
+IN AUDIT. Three next DATA-ONLY revision decisions: container placement, explicit
+role/context joins, aggregate bounds/refusal constraints. No sourcechange/
+instantiation/resolver/caseplan/run/prototype/benchmark/operational work.
+
+Prior v1/sources/failures/corrections/results/statuses and48case/657504B evidence/
+consumed scopes/old32case/43boundary/science/proof/cost cohorts fixed, not repeated
+or promoted. All real and used local grants consumed/attempts0/bindingnull/
+targetHOLD/research-trainingfalse; supportedv5 closed before clock/ATTEMPT/
+connection, no private/older bypass. Original graph/science/guards/hash/copies/
+owner/durability/clocks/caps/financial holds and genuine proof31gradients/
+wholeunits0/scientificcandidate-replay notstarted/failed-partial-pending-consumed
+flags fixed. Device33 prior v4 conditional local LSTAT only; old29/target66307/
+four exceptions/FIFO LSTAT-only preserved. Exact index snapshots sealed; no
+new-review Git mutation or training estimate. Earlier entries historical.

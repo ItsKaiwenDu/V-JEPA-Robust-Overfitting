@@ -1,5 +1,13 @@
 # V-JEPA Robust Overfitting
 
+**Documentary format source review completed (November27):**
+[The review](docs/predictor_pgd_documentary_format_source_review_v1.md) identifies
+F02 dictionary/list conflicts in seven roles, unimplemented nested rules and
+needed joint node bounds.39 context slots remain open. Source and proposal
+unchanged; no instances/runs. Saved audit passed. Prior proposal committed and
+pushed6485da54 on express request; next is a data-only proposal revision.
+Real admission, target work and training remain closed. Earlier entries historical.
+
 **Local documentary format proposal drafted (November27):**
 [The proposal](docs/predictor_pgd_documentary_format_proposal_v1.md) describes
 two shared declarations/four family forms for13 roles, with39 context slots
