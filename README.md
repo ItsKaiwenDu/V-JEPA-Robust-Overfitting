@@ -1,5 +1,12 @@
 # V-JEPA Robust Overfitting
 
+**Validator v2 validation plan frozen (November28):**
+[Plan](docs/predictor_pgd_documentary_validation_plan_v2.md) contains48NEW cases
+and independent frozen expectations. Candidate and runner unexecuted; all48NOT_RUN.
+Current complete case evidence524364B under1MiB. Saved metadata audit passed.
+Automatic commit/push then pause for fresh approval of this exact local48case run.
+No university action or training authorized. Earlier entries historical.
+
 **Local validator v2 source drafted (November28):**
 [Source review](docs/predictor_pgd_documentary_source_draft_v2.md) records the
 approved19211B unexecuted module: nested syntax, original strict-guard order and
